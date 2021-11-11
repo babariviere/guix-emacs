@@ -30,6 +30,16 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
     (close-port void-port)
     result))
 
+(define emacs-standard-library?
+  (let ((libs '("emacs-flymake")))
+    (lambda (lib)
+      (member lib libs))))
+
+(define (filter-dependencies inputs)
+  (let* ((deps (cadadr inputs))
+	 (new-deps (remove (lambda (dep) (emacs-standard-library? (car dep))) deps)))
+    (list 'propagated-inputs (list 'quasiquote new-deps))))
+
 (define (fetch-archive url)
   "Fetch archive.json from the melpa URL. The data will automatically be converted to scheme form."
   (let* ((port (http-fetch/cached (string->uri url)
@@ -55,7 +65,16 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
     ((name rest ...)
      (let ((version (archive-version->string
 		     (cdr (assoc "ver" rest)))))
-       (with-silent-out (lambda () (elpa->guix-package name #:repo 'melpa #:version version)))))
+       (with-silent-out
+	(lambda ()
+	  (let* ((package (elpa->guix-package name #:repo 'melpa #:version version))
+		 (pkg-content (cdr package))
+		 (propagated-inputs-idx (list-index (lambda (a) (eq? (car a) 'propagated-inputs)) pkg-content)))
+	    (if propagated-inputs-idx
+		(list-set! pkg-content
+			   propagated-inputs-idx
+			   (filter-dependencies (list-ref pkg-content propagated-inputs-idx))))
+	    package)))))
     (_ #f)))
 
 (define (archive->package-scm archive)
