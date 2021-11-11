@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/sh
 exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
 !#
 
