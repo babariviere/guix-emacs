@@ -1,0 +1,2 @@
+(("scripts"
+  . ((nil . ((mode . scheme))))))
