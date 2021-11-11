@@ -31,7 +31,7 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
     result))
 
 (define emacs-standard-library?
-  (let ((libs '("emacs-flymake")))
+  (let ((libs '("emacs-flymake" "emacs-seq")))
     (lambda (lib)
       (member lib libs))))
 
