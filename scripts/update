@@ -30,6 +30,9 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
     (close-port void-port)
     result))
 
+(define (list-car-index key list)
+  (list-index (lambda (c) (eq? (car c) key)) list))
+
 (define emacs-standard-library?
   (let ((libs '("emacs-flymake" "emacs-seq")))
     (lambda (lib)
@@ -39,6 +42,11 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
   (let* ((deps (cadadr inputs))
 	 (new-deps (remove (lambda (dep) (emacs-standard-library? (car dep))) deps)))
     (list 'propagated-inputs (list 'quasiquote new-deps))))
+
+(define (valid-source? source)
+  (let* ((sha256 (assq-ref (cdar source) 'sha256))
+	 (base32 (cadar sha256)))
+    (not (equal? base32 "failed to download package"))))
 
 (define (fetch-archive url)
   "Fetch archive.json from the melpa URL. The data will automatically be converted to scheme form."
@@ -69,7 +77,10 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
 	(lambda ()
 	  (let* ((package (elpa->guix-package name #:repo 'melpa #:version version))
 		 (pkg-content (cdr package))
-		 (propagated-inputs-idx (list-index (lambda (a) (eq? (car a) 'propagated-inputs)) pkg-content)))
+		 (propagated-inputs-idx (list-car-index 'propagated-inputs pkg-content))
+		 (source (assq-ref pkg-content 'source)))
+	    (if (not (valid-source? source))
+		(error (format #false "invalid source for package ~a" package-name)))
 	    (if propagated-inputs-idx
 		(list-set! pkg-content
 			   propagated-inputs-idx
@@ -84,8 +95,8 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
       (lambda ()
 	(let ((package (archive->package archive)))
 	  `(define-public ,(string->symbol package-name) ,package)))
-      (lambda _
-	(format #t "ignoring package ~a~%" package-name)
+      (lambda* (#:rest rest)
+	(format #t "ignoring package ~a~%~a~%" package-name rest)
 	#f))))
 
 (define (newline-rewriting-port output)
@@ -99,8 +110,6 @@ rather than \\n."
       (match chars
         (()
          #t)
-	((#\\ #\n)
-	 #t)
         ((#\\ #\n rest ...)
          (newline output)
          (loop rest))
