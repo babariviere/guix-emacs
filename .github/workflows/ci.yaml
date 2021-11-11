@@ -29,6 +29,6 @@ jobs:
       - name: Commit and push
         run: |
           git pull --rebase --autostash
-          git add .
+          git add emacs/packages
           git commit -m "chore: update melpa packages"
           git push
