@@ -11,6 +11,7 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
   #:use-module (ice-9 match)
   #:use-module (ice-9 pretty-print)
   #:use-module (ice-9 threads)
+  #:use-module (ice-9 textual-ports)
   #:use-module (json)
   #:use-module (srfi srfi-1)
   #:use-module (srfi srfi-11)
@@ -34,7 +35,14 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
   (list-index (lambda (c) (eq? (car c) key)) list))
 
 (define emacs-standard-library?
-  (let ((libs '("emacs-flymake" "emacs-seq")))
+  (let ((libs (map
+	       (lambda (lib) (string-append "emacs-" lib))
+	       ;; Generated with: rg '^\(provide (\'(\w+))+\)' -r '$2' -N --no-heading --no-filename -o
+	       (with-input-from-file (string-append (dirname (current-filename)) "/emacs-libs")
+		 (lambda ()
+		   (remove string-null?
+			   (string-split (get-string-all (current-input-port))
+					 #\newline)))))))
     (lambda (lib)
       (member lib libs))))
 
