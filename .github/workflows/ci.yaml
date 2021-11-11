@@ -1,0 +1,34 @@
+name: Update Emacs packages
+
+on:
+  schedule:
+    - cron: '0 */8 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-melpa:
+    name: Update Melpa packages
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'babariviere'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2.3.4
+
+      - name: Install Guix
+        uses: PromyLOPh/guix-install-action@v1.2.2
+
+      - name: Configure git
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+      - name: Update packages
+        run: |
+          guix shell guile guix -- ./scripts/update
+
+      - name: Commit and push
+        run: |
+          git pull --rebase --autostash
+          git add .
+          git commit -m "chore: update melpa packages"
+          git push
