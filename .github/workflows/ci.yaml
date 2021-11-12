@@ -17,10 +17,18 @@ jobs:
       - name: Install Guix
         uses: PromyLOPh/guix-install-action@v1.2.2
 
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v4
+        with:
+          gpg_private_key: ${{ secrets.BOT_PRIVATE_KEY }}
+          passphrase: ${{ secrets.BOT_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+
       - name: Configure git
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "Babot Riviere"
+          git config user.email bot@babariviere.com
 
       - name: Update packages
         run: |
@@ -30,5 +38,5 @@ jobs:
         run: |
           git pull --rebase --autostash
           git add emacs/packages
-          git commit -m "chore: update melpa packages"
+          git commit -S -m "chore: update melpa packages"
           git push
