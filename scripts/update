@@ -192,7 +192,9 @@ rather than \\n."
 		   entries)
     (let ((resolved-entries (make-hash-table)))
       (hash-for-each (lambda (key value) (resolve-archive key resolved-entries entries)) entries))
-    (hash-map->list (lambda (key value) value) entries)))
+    (sort (hash-map->list (lambda (key value) value) entries)
+	  (lambda (y x)
+	    (string<? (archive-name y) (archive-name x))))))
 
 (define (main args)
   (mkdir-p "emacs/packages")
