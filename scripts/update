@@ -133,9 +133,14 @@ rather than \\n."
                           #f)
                   "w"))
 
+(define ignore-archive?
+  (let ((archives '("all-ext")))
+    (lambda (archive)
+      (member archive archives))))
+
 (define (main args)
   (mkdir-p "emacs/packages")
-  (let ((archives (reverse (fetch-archive "https://melpa.org/archive.json")))
+  (let ((archives (reverse (remove ignore-archive? (fetch-archive "https://melpa.org/archive.json"))))
 	(out (newline-rewriting-port (open-output-file "emacs/packages/melpa.scm"))))
     (pretty-print '(define-module (emacs packages melpa)
 		     #:use-module (guix build-system emacs)
