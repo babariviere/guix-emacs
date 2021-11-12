@@ -56,6 +56,10 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
 	 (base32 (cadar sha256)))
     (not (equal? base32 "failed to download package"))))
 
+(define (limit-description description)
+  (let ((splitted (string-split (second description) #\newline)))
+    `(description ,(string-join (take splitted (min 10 (length splitted))) "\n"))))
+
 (define (fetch-archive url)
   "Fetch archive.json from the melpa URL. The data will automatically be converted to scheme form."
   (let* ((port (http-fetch/cached (string->uri url)
@@ -86,6 +90,7 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
 	  (let* ((package (elpa->guix-package name #:repo 'melpa #:version version))
 		 (pkg-content (cdr package))
 		 (propagated-inputs-idx (list-car-index 'propagated-inputs pkg-content))
+		 (description-idx (list-car-index 'description pkg-content))
 		 (source (assq-ref pkg-content 'source)))
 	    (if (not (valid-source? source))
 		(error (format #false "invalid source for package ~a" package-name)))
@@ -93,6 +98,10 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
 		(list-set! pkg-content
 			   propagated-inputs-idx
 			   (filter-dependencies (list-ref pkg-content propagated-inputs-idx))))
+	    (if description-idx
+		(list-set! pkg-content
+			   description-idx
+			   (limit-description (list-ref pkg-content description-idx))))
 	    package)))))
     (_ #f)))
 
