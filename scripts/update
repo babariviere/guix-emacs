@@ -145,7 +145,7 @@ rather than \\n."
 (define ignore-archive?
   (let ((archives '("all-ext")))
     (lambda (archive)
-      (member archive archives))))
+      (member (first archive) archives))))
 
 (define (main args)
   (mkdir-p "emacs/packages")
