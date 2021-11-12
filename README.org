@@ -8,14 +8,11 @@ To use this channel, add to your ~.config/guix/channels.scm~:
  (channel
   (name 'emacs)
   (url "https://github.com/babariviere/guix-emacs")
-  ;; Commits are not authenticated for now since github-action automatically commits.
-  ;;
-  ;; (introduction
-  ;;  (make-channel-introduction
-  ;;   "72ca4ef5b572fea10a4589c37264fa35d4564783"
-  ;;   (openpgp-fingerprint
-  ;;    "261C A284 3452 FB01 F6DF  6CF4 F9B7 864F 2AB4 6F18")))
-  )
+  (introduction
+   (make-channel-introduction
+    "72ca4ef5b572fea10a4589c37264fa35d4564783"
+    (openpgp-fingerprint
+     "261C A284 3452 FB01 F6DF  6CF4 F9B7 864F 2AB4 6F18"))))
  ;; other channels here...
  )
 #+end_src
@@ -29,8 +26,3 @@ These will be updated daily.
 
 All packages that are unfetchable will not be included in the package list.
 If this happens, you can always use ~guix import elpa -t melpa <package_name+>~.
-
-** Channel authentication
-For now, the channel cannot be authenticated since github-action commit to the repo.
-
-This functionnality will be added once I will have created a bot with a GPG key.
