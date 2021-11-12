@@ -44,12 +44,13 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
 
 (define emacs-standard-library?
   (let ((libs
-	 (cons "emacs"
-	       (with-input-from-file (string-append (dirname (or (current-filename) "./update")) "/emacs-libs")
-		 (lambda ()
-		   (remove string-null?
-			   (string-split (get-string-all (current-input-port))
-					 #\newline)))))))
+	 (cons* "emacs"
+		"cl-lib"
+		(with-input-from-file (string-append (dirname (or (current-filename) "./update")) "/emacs-libs")
+		  (lambda ()
+		    (remove string-null?
+			    (string-split (get-string-all (current-input-port))
+					  #\newline)))))))
     (lambda (lib)
       (member lib libs))))
 
