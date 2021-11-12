@@ -56,12 +56,10 @@ cmacexp
 cmuscheme
 color
 comint
-comp
 compface
 compile
 complete
 completion
-compose
 composite
 cookie1
 copyright
@@ -77,11 +75,10 @@ dbus
 debug
 decipher
 delsel
-derived
+xgderived
 desktop
 deuglify
 dframe
-dictionary
 diff
 dig
 dired
@@ -112,7 +109,6 @@ elint
 elp
 emacsbug
 emerge
-emoji
 enriched
 env
 epa
@@ -181,7 +177,6 @@ helper
 hexl
 hideif
 hideshow
-hierarchy
 holidays
 html2text
 htmlfontify
@@ -212,7 +207,6 @@ json
 jsonrpc
 kermit
 keypad
-kinsoku
 kkc
 kmacro
 korean
@@ -220,13 +214,17 @@ landmark
 lao
 latexenc
 ldap
+ledit
+levents
 life
 linum
+lmenu
 loaddefs
 loadhist
 locate
 longlines
 lpr
+lucid
 lunar
 macroexp
 macros
@@ -291,7 +289,6 @@ nnnil
 nnoo
 nnregistry
 nnrss
-nnselect
 nnspool
 nntp
 nnvirtual
@@ -303,7 +300,6 @@ nsm
 ntlm
 ob
 obarray
-oc
 octave
 ogonek
 ol
@@ -360,7 +356,6 @@ rfc2047
 rfc2104
 rfc2231
 rfc2368
-rfc6068
 rfc822
 ring
 rlogin
@@ -393,7 +388,6 @@ sha1
 shadow
 shadowfile
 shell
-shortdoc
 shr
 sieve
 simple
@@ -454,7 +448,6 @@ tq
 trace
 tramp
 trampver
-transient
 tutorial
 uce
 underline
@@ -476,9 +469,9 @@ warnings
 wdired
 webjump
 whitespace
+whitespace
 widget
 windmove
-window
 winner
 woman
 xdg
