@@ -158,8 +158,6 @@ rather than \\n."
 (define (resolve-archive package-name resolved-entries final-entries)
   (let ((handle (hash-get-handle resolved-entries package-name))
 	(entry (hash-ref final-entries package-name)))
-    (if (equal? package-name "clang-format")
-	(pretty-print handle))
     (if (not handle)
 	(if entry
 	    (let loop ((deps (archive-deps entry)))
