@@ -22,9 +22,10 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
   #:export (main))
 
 (define-record-type <archive-entry>
-  (make-archive name version deps)
+  (make-archive name raw-name version deps)
   archive?
   (name archive-name)
+  (raw-name archive-raw-name)
   (version archive-version)
   (deps archive-deps set-archive-deps!))
 
@@ -93,7 +94,7 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
 	(version (archive-version archive-entry)))
     (with-silent-out
      (lambda ()
-       (let* ((package (elpa->guix-package name #:repo 'melpa #:version version))
+       (let* ((package (elpa->guix-package (archive-raw-name archive-entry) #:repo 'melpa #:version version))
 	      (pkg-content (cdr package))
 	      (propagated-inputs-idx (list-car-index 'propagated-inputs pkg-content))
 	      (description-idx (list-car-index 'description pkg-content))
@@ -179,13 +180,16 @@ rather than \\n."
 (define (filter-archive archive)
   (let ((entries (make-hash-table)))
     (for-each (lambda (entry)
-		(let* ((name (string-downcase (car entry)))
+		(let* ((raw-name (car entry))
+		       (name (string-downcase raw-name))
 		       (rest (cdr entry))
 		       (version (archive-version->string (cdr (assoc "ver" rest))))
 		       (deps  (cdr (assoc "deps" rest))))
-		  (hash-set! entries name (make-archive name version (if (eq? deps 'null)
-									 '()
-									 (map (compose string-downcase car) deps))))))
+		  (hash-set! entries name
+			     (make-archive name raw-name version
+					   (if (eq? deps 'null)
+					       '()
+					       (map (compose string-downcase car) deps))))))
 	      archive)
     (hash-for-each (lambda (key value)
 		     (set-archive-deps! value (remove emacs-standard-library? (archive-deps value))))
