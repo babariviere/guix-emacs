@@ -36,3 +36,12 @@ One way to solve this would be to represent the dependency tree to easily remove
 *** Allow to add dependencies manually
 Some packages depends on "system" packages to be able to build.
 The idea would be to specify a package list and their dependencies that will be injected after creating the package literal.
+
+*** Import package ourself
+There is still some unhandled cases in ~(guix import elpa)~. My goal is to improve it and make it to upstream when it's stable.
+
+What we want to be improved:
++ Detect if package is in ~/lisp~ or ~/elisp~ (e.g. transient is breaking since it's in ~/lisp~).
++ Remove standard libraries from the dependencies with Melpa (already done but we want to do it better).
+
+*** Allow to import only one package
