@@ -29,6 +29,19 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
   (version archive-version)
   (deps archive-deps set-archive-deps!))
 
+(define %root
+  (dirname (canonicalize-path (dirname (or (current-filename) "./update")))))
+
+(define %melpa-path (string-append %root "/emacs/packages/melpa.scm"))
+
+(define header
+  '((define-module (emacs packages melpa)
+      #:use-module (guix build-system emacs)
+      #:use-module (guix download)
+      #:use-module (guix packages)
+      #:use-module (gnu packages emacs-xyz))
+    (module-use-interfaces! (current-module) (module-uses (resolve-module '(gnu packages emacs-xyz))))))
+
 (define (with-silent-out thunk)
   (let ((void-port (%make-void-port "w"))
 	(result #f))
@@ -47,7 +60,7 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
   (let ((libs
 	 (cons* "emacs"
 		"cl-lib"
-		(with-input-from-file (string-append (dirname (or (current-filename) "./update")) "/emacs-libs")
+		(with-input-from-file (string-append %root "/scripts/emacs-libs")
 		  (lambda ()
 		    (remove string-null?
 			    (string-split (get-string-all (current-input-port))
@@ -205,26 +218,18 @@ rather than \\n."
   (let* ((archive (filter-archive (remove ignore-archive? (fetch-archive "https://melpa.org/archive.json"))))
 	 (archive-count (length archive))
 	 (i 0)
-	 (out (newline-rewriting-port (open-output-file "emacs/packages/melpa.scm"))))
-    (pretty-print '(define-module (emacs packages melpa)
-		     #:use-module (guix build-system emacs)
-		     #:use-module (guix download)
-		     #:use-module (guix packages)
-		     #:use-module (gnu packages emacs-xyz))
-		  out)
-    (display "\n" out)
-    (pretty-print '(module-use-interfaces! (current-module) (module-uses (resolve-module '(gnu packages emacs-xyz)))) out)
-    (display "\n" out)
+	 (out (newline-rewriting-port (open-output-file %melpa-path))))
+    (for-each (lambda (h) (pretty-print h out) (write-char #\newline out)) header)
     (n-for-each-par-map
      (current-processor-count)
      (lambda (entry)
-       (if entry
-	   (let ((name (first entry))
-		 (scm (second entry)))
-	     (set! i (+ i 1))
-	     (format #t "[~a/~a] Creating ~a package...~%" i archive-count name)
-	     (begin (pretty-print scm out)
-		    (display "\n" out)))))
+       (set! i (+ i 1))
+       (when entry
+	 (let ((name (first entry))
+	       (scm (second entry)))
+	   (format #t "[~a/~a] Creating ~a package...~%" i archive-count name)
+	   (pretty-print scm out)
+	   (display "\n" out))))
      archive-entry->package-scm archive)
     (close-port out)
     (display "Done!")))
