@@ -214,16 +214,19 @@ and package literal as a value.
 (define (update-packages packages archive)
   (hash-for-each
    (lambda (key archive-entry)
-     (let ((package (hashq-ref packages key)))
+     (let ((package (hashq-ref packages key))
+	   (set-package! (lambda (package)
+			  (when package
+			    (hashq-set! packages key package)))))
        (catch #t
 	 (lambda ()
 	   (if package
 	       (unless (equal? (archive-version archive-entry) (read-package-version package))
 		 (format #t "package ~a: ~a => ~a~%" key (archive-version archive-entry) (read-package-version package))
-		 (hashq-set! packages key (archive-entry->package archive-entry)))
+		 (set-package! (archive-entry->package archive-entry)))
 	       (begin
 		 (format #t "new package: ~a~%" key)
-		 (hashq-set! packages key (archive-entry->package archive-entry)))))
+		 (set-package! packages key (archive-entry->package archive-entry)))))
 	 (lambda* (#:rest e)
 	   (format #t "[~a] error: ~%~a~%" key e)
 	   #f))))
