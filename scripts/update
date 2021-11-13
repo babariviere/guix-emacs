@@ -10,7 +10,6 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
   #:use-module (guix packages)
   #:use-module (ice-9 match)
   #:use-module (ice-9 pretty-print)
-  #:use-module (ice-9 threads)
   #:use-module (ice-9 textual-ports)
   #:use-module (json)
   #:use-module (srfi srfi-1)
@@ -42,35 +41,29 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
       #:use-module (gnu packages emacs-xyz))
     (module-use-interfaces! (current-module) (module-uses (resolve-module '(gnu packages emacs-xyz))))))
 
-(define (with-silent-out thunk)
-  (let ((void-port (%make-void-port "w"))
-	(result #f))
-    (with-output-to-port void-port
-      (lambda ()
-	(with-error-to-port void-port
-	  (lambda ()
-	    (set! result (thunk))))))
-    (close-port void-port)
-    result))
+(define (string->emacs-package-name str)
+  (string->symbol (string-append "emacs-" str)))
 
 (define (list-car-index key list)
   (list-index (lambda (c) (eq? (car c) key)) list))
 
 (define emacs-standard-library?
   (let ((libs
-	 (cons* "emacs"
-		"cl-lib"
+	 (cons* 'emacs
+		'emacs-emacs ; since the deps are prefix, this is a workaround to remove emacs from deps
+		;; Generated with:  rg '^\(provide (\'([\w-]+))+\)' -r '$2' -N --no-heading --no-filename -o | sort
 		(with-input-from-file (string-append %root "/scripts/emacs-libs")
 		  (lambda ()
-		    (remove string-null?
-			    (string-split (get-string-all (current-input-port))
-					  #\newline)))))))
+		    (map string->emacs-package-name
+			 (remove string-null?
+				 (string-split (get-string-all (current-input-port))
+					       #\newline))))))))
     (lambda (lib)
       (member lib libs))))
 
 (define (filter-dependencies inputs)
   (let* ((deps (cadadr inputs))
-	 (new-deps (remove (lambda (dep) (emacs-standard-library? (substring (car dep) (string-length "emacs-")))) deps)))
+	 (new-deps (remove (compose emacs-standard-library? car) deps)))
     (list 'propagated-inputs (list 'quasiquote new-deps))))
 
 (define (valid-source? source)
@@ -105,34 +98,22 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
   "Fetch ARCHIVE to produce a Guix package."
   (let ((name (archive-name archive-entry))
 	(version (archive-version archive-entry)))
-    (with-silent-out
-     (lambda ()
-       (let* ((package (elpa->guix-package (archive-raw-name archive-entry) #:repo 'melpa #:version version))
-	      (pkg-content (cdr package))
-	      (propagated-inputs-idx (list-car-index 'propagated-inputs pkg-content))
-	      (description-idx (list-car-index 'description pkg-content))
-	      (source (assq-ref pkg-content 'source)))
-	 (if (not (valid-source? source))
-	     (error (format #false "invalid source for package ~a" name)))
-	 (if propagated-inputs-idx
-	     (list-set! pkg-content
-			propagated-inputs-idx
-			(filter-dependencies (list-ref pkg-content propagated-inputs-idx))))
-	 (if description-idx
-	     (list-set! pkg-content
-			description-idx
-			(limit-description (list-ref pkg-content description-idx))))
-	 package)))))
-
-(define (archive-entry->package-scm archive-entry)
-  (let ((package-name (archive-name archive-entry)))
-    (catch #t
-      (lambda ()
-	(let ((package (archive-entry->package archive-entry)))
-	  (list package-name `(define-public ,(string->symbol (string-append "emacs-" package-name)) ,package))))
-      (lambda* (#:rest rest)
-	(format #t "ignoring package ~a~%~a~%" package-name rest)
-	#f))))
+    (let* ((package (elpa->guix-package (archive-raw-name archive-entry) #:repo 'melpa #:version version))
+	   (pkg-content (cdr package))
+	   (propagated-inputs-idx (list-car-index 'propagated-inputs pkg-content))
+	   (description-idx (list-car-index 'description pkg-content))
+	   (source (assq-ref pkg-content 'source)))
+      (unless (valid-source? source)
+	(error (format #false "invalid source for package ~a" name)))
+      (when propagated-inputs-idx
+	(list-set! pkg-content
+		   propagated-inputs-idx
+		   (filter-dependencies (list-ref pkg-content propagated-inputs-idx))))
+      (when description-idx
+	(list-set! pkg-content
+		   description-idx
+		   (limit-description (list-ref pkg-content description-idx))))
+      package)))
 
 (define (newline-rewriting-port output)
   "Return an output port that rewrites strings containing the \\n escape
@@ -160,76 +141,127 @@ rather than \\n."
                           #f)
                   "w"))
 
-
-
 (define ignore-archive?
-  (let ((archives '("all-ext")))
+  (let ((archives '("@")))
     (lambda (archive)
       (member (first archive) archives))))
 
 (define emacs-xyz-module (resolve-module '(gnu packages emacs-xyz)))
 
-(define (resolve-archive package-name resolved-entries final-entries)
-  (let ((handle (hash-get-handle resolved-entries package-name))
-	(entry (hash-ref final-entries package-name)))
+(define* (resolve-archive package-name resolved-entries final-entries #:optional path)
+  (let ((handle (hashq-get-handle resolved-entries package-name))
+	(entry (hashq-ref final-entries package-name))
+	(path (cons package-name (or path '()))))
     (if (not handle)
-	(if entry
-	    (let loop ((deps (archive-deps entry)))
-	      (match deps
-		((dep rest ...)
-		 (if (or (resolve-archive dep resolved-entries final-entries)
-			 (module-variable emacs-xyz-module (string->symbol (string-append "emacs-" dep))))
-		     (loop rest)
-		     (begin
-		       (hash-set! resolved-entries package-name #f)
-		       (hash-remove! final-entries package-name)
-		       #f)))
-		(()
-		 (hash-set! resolved-entries package-name entry)
-		 entry)))
-	    #f)
+	(begin
+	  (unless (null? path)
+	    (format #t "~a~%" (string-join (map symbol->string (reverse path)) " > ")))
+	  (if entry
+	      (let loop ((deps (archive-deps entry)))
+		(match deps
+		  ((dep rest ...)
+		   (if (or (resolve-archive dep resolved-entries final-entries path)
+			   (module-variable emacs-xyz-module dep))
+		       (loop rest)
+		       (begin
+			 (format #t "[~a] excluded package: dep ~a not found~%" package-name dep)
+			 (hashq-set! resolved-entries package-name #f)
+			 (hashq-remove! final-entries package-name)
+			 #f)))
+		  (()
+		   (hashq-set! resolved-entries package-name entry)
+		   entry)))
+	      #f))
 	(cdr handle))))
 
 (define (filter-archive archive)
   (let ((entries (make-hash-table)))
     (for-each (lambda (entry)
 		(let* ((raw-name (car entry))
-		       (name (string-downcase raw-name))
+		       (name (string->emacs-package-name (string-downcase raw-name)))
 		       (rest (cdr entry))
 		       (version (archive-version->string (cdr (assoc "ver" rest))))
 		       (deps  (cdr (assoc "deps" rest))))
-		  (hash-set! entries name
+		  (hashq-set! entries name
 			     (make-archive name raw-name version
 					   (if (eq? deps 'null)
 					       '()
-					       (map (compose string-downcase car) deps))))))
+					       (map (compose string->emacs-package-name string-downcase car) deps))))))
 	      archive)
     (hash-for-each (lambda (key value)
 		     (set-archive-deps! value (remove emacs-standard-library? (archive-deps value))))
 		   entries)
     (let ((resolved-entries (make-hash-table)))
       (hash-for-each (lambda (key value) (resolve-archive key resolved-entries entries)) entries))
-    (sort (hash-map->list (lambda (key value) value) entries)
-	  (lambda (y x)
-	    (string<? (archive-name y) (archive-name x))))))
+    entries))
+
+(define (read-packages path)
+  "Read packages from PATH. Returns hash map with package name as a key
+and package literal as a value.
+
+  ('package-name . (package (name \"emacs-package-name\")))"
+  (let ((input-file (open-input-file path))
+	(packages (make-hash-table)))
+    (let loop ((input (read input-file)))
+      (unless (eof-object? input)
+	(when (eq? (first input) 'define-public)
+	  (hashq-set! packages (second input) (third input)))
+	(loop (read input-file))))
+    (close-port input-file)
+    packages))
+
+(define (read-package-version package-lit)
+  "Read package version from PACKAGE-LIT (literal value)."
+  (let ((alist (cdr package-lit)))
+    (car (assq-ref alist 'version))))
+
+(define (update-packages packages archive)
+  (hash-for-each
+   (lambda (key archive-entry)
+     (let ((package (hashq-ref packages key)))
+       (catch #t
+	 (lambda ()
+	   (if package
+	       (unless (equal? (archive-version archive-entry) (read-package-version package))
+		 (format #t "package ~a: ~a => ~a~%" key (archive-version archive-entry) (read-package-version package))
+		 (hashq-set! packages key (archive-entry->package archive-entry)))
+	       (begin
+		 (format #t "new package: ~a~%" key)
+		 (hashq-set! packages key (archive-entry->package archive-entry)))))
+	 (lambda* (#:rest e)
+	   (format #t "[~a] error: ~%~a~%" key e)
+	   #f))))
+   archive)
+  (hash-for-each
+   (lambda (key value)
+     (unless (hashq-ref archive key)
+       (format #t "removing package: ~a~%" key)
+       (hashq-remove! packages key)))
+   packages)
+)
 
 (define (main args)
   (mkdir-p "emacs/packages")
-  (let* ((archive (filter-archive (remove ignore-archive? (fetch-archive "https://melpa.org/archive.json"))))
-	 (archive-count (length archive))
+  (let* ((packages (read-packages %melpa-path))
+	 (archive (filter-archive (remove ignore-archive? (fetch-archive "https://melpa.org/archive.json"))))
+	 (archive-count (hash-count (const #t) archive))
 	 (i 0)
 	 (out (newline-rewriting-port (open-output-file %melpa-path))))
+    (format #t "Total archives: ~a~%" archive-count)
+    (update-packages packages archive)
     (for-each (lambda (h) (pretty-print h out) (write-char #\newline out)) header)
-    (n-for-each-par-map
-     (current-processor-count)
-     (lambda (entry)
-       (set! i (+ i 1))
-       (when entry
-	 (let ((name (first entry))
-	       (scm (second entry)))
-	   (format #t "[~a/~a] Creating ~a package...~%" i archive-count name)
-	   (pretty-print scm out)
-	   (display "\n" out))))
-     archive-entry->package-scm archive)
+    (let ((packages-list (sort (hash-map->list cons packages)
+			       (lambda (y x)
+				 (let ((name (lambda (v)
+					       (symbol->string (car v)))))
+			           (string<? (name y) (name x)))))))
+      (for-each (lambda (entry)
+		  (let ((package-name (car entry))
+			(package (cdr entry)))
+		    (set! i (+ i 1))
+		    (format #t "[~a/~a] writing package ~a...~%" i archive-count package-name)
+		    (pretty-print `(define-public ,package-name ,package) out)
+		    (write-char #\newline out)))
+		packages-list))
     (close-port out)
     (display "Done!")))
