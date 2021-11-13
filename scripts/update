@@ -138,7 +138,7 @@ rather than \\n."
                   "w"))
 
 (define ignore-archive?
-  (let ((archives '("@" "nov")))
+  (let ((archives '("@" "nov" "timp")))
     (lambda (archive)
       (member (first archive) archives))))
 
