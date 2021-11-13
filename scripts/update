@@ -59,11 +59,11 @@ exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
 				 (string-split (get-string-all (current-input-port))
 					       #\newline))))))))
     (lambda (lib)
-      (member lib libs))))
+      (memq lib libs))))
 
 (define (filter-dependencies inputs)
   (let* ((deps (cadadr inputs))
-	 (new-deps (remove (compose emacs-standard-library? car) deps)))
+	 (new-deps (remove (compose emacs-standard-library? string->symbol car) deps)))
     (list 'propagated-inputs (list 'quasiquote new-deps))))
 
 (define (valid-source? source)
@@ -183,10 +183,10 @@ rather than \\n."
 		       (version (archive-version->string (cdr (assoc "ver" rest))))
 		       (deps  (cdr (assoc "deps" rest))))
 		  (hashq-set! entries name
-			     (make-archive name raw-name version
-					   (if (eq? deps 'null)
-					       '()
-					       (map (compose string->emacs-package-name string-downcase car) deps))))))
+			      (make-archive name raw-name version
+					    (if (eq? deps 'null)
+						'()
+						(map (compose string->emacs-package-name string-downcase car) deps))))))
 	      archive)
     (hash-for-each (lambda (key value)
 		     (set-archive-deps! value (remove emacs-standard-library? (archive-deps value))))
@@ -237,8 +237,7 @@ and package literal as a value.
      (unless (hashq-ref archive key)
        (format #t "removing package: ~a~%" key)
        (hashq-remove! packages key)))
-   packages)
-)
+   packages))
 
 (define (main args)
   (mkdir-p "emacs/packages")
