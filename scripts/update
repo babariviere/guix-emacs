@@ -1,7 +1,3 @@
-#!/bin/sh
-exec guile --no-auto-compile -e '(@ (scripts update) main)' -s "$0" "$@"
-!#
-
 (define-module (scripts update)
   #:use-module (guile)
   #:use-module (guix build utils)
@@ -264,3 +260,5 @@ and package literal as a value.
 		packages-list))
     (close-port out)
     (display "Done!")))
+
+(main (command-line))
