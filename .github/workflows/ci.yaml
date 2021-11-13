@@ -29,6 +29,7 @@ jobs:
         run: |
           git config user.name "Babot Riviere"
           git config user.email bot@babariviere.com
+          git config receive.advertisePushOptions true
 
       - name: Update packages
         run: |
