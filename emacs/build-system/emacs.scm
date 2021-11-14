@@ -32,6 +32,9 @@
   #:export (%emacs-build-system-modules
             emacs-build
             emacs-build-system)
+  #:replace (%emacs-build-system-modules
+	     emacs-build
+	     emacs-build-system)
   #:re-export (%default-include         ;for convenience
                %default-exclude))
 
