@@ -226,7 +226,7 @@ and package literal as a value.
 		 (set-package! (archive-entry->package archive-entry)))
 	       (begin
 		 (format #t "new package: ~a~%" key)
-		 (set-package! packages key (archive-entry->package archive-entry)))))
+		 (set-package! (archive-entry->package archive-entry)))))
 	 (lambda* (#:rest e)
 	   (format #t "[~a] error: ~%~a~%" key e)
 	   #f))))
