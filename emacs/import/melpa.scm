@@ -23,6 +23,75 @@
     (close-port port)
     data))
 
+(define (is-melpa-package? name pkg-spec)
+  (eq? (first pkg-spec) (string->symbol name)))
+
+(define (melpa-package-info name)
+  (let* ((archive (melpa-fetch-archive))
+	 (pkgs (match archive ((version pkg-spec ...) pkg-spec)))
+	 (info (filter (cut is-melpa-package? name <>) pkgs)))
+    (if (pair? info) (first info) #f)))
+
+(define-record-type <melpa-package>
+  (make-melpa-package name version inputs synopsis kind home-page source-url)
+  melpa-package?
+  (name melpa-package-name)
+  (version melpa-package-version)
+  (inputs melpa-package-inputs)
+  (synopsis melpa-package-synopsis)
+  (kind melpa-package-kind)
+  (home-page melpa-package-home-page)
+  (source-url melpa-package-source-url))
+
+(set-record-type-printer! <melpa-package>
+			  (lambda (package port)
+			    (format port "#<melpa-package ~a@~a"
+				    (melpa-package-name package)
+				    (melpa-package-version package))))
+
+(define (melpa-version->string version)
+  (if (pair? version)
+      (let-values (((ms rest) (match version ((ms . rest)
+					      (values ms rest)))))
+	(fold (lambda (n s) (string-append s "." (number->string n)))
+	      (number->string ms) rest))
+      #f))
+
+(define (full-url name suffix version)
+  (string-append %melpa-url "/" name "-" version suffix))
+
+(define (package-source-url kind name version)
+  (case kind
+    ((single) (full-url name ".el" version))
+    ((tar) (full-url name ".tar" version))
+    (else #f)))
+
+(define (package-home-page alist)
+  (or (assq-ref alist ':url) "unspecified"))
+
+(define (ensure-list alist)
+  (if (eq? alist 'nil)
+      '()
+      alist))
+
+(define (fetch-melpa-package name)
+  "Fetch package NAME."
+  (let ((pkg (melpa-package-info name)))
+    (match pkg
+      ((name version reqs synopsis kind . rest)
+       (let* ((name (symbol->string name))
+	      (ver (melpa-version->string version))
+	      (url (package-source-url kind name ver)))
+	 (make-melpa-package name ver
+			     (ensure-list reqs)
+			     synopsis
+			     kind
+			     (package-home-page (match rest
+						  (() #f)
+						  ((one) one)))
+			     url)))
+      (_ #f))))
+
 (define (package-name->recipe package-name)
   "Fetch the MELPA recipe for PACKAGE-NAME, represented as an alist ffrom keywords to values."
   (define recipe-url
@@ -107,3 +176,5 @@ for the package named PACKAGE-NAME."
 
 (second (melpa-fetch-archive))
 (melpa-recipe->origin (package-name->recipe "magit"))
+
+(fetch-melpa-package "magit")
