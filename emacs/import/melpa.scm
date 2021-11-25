@@ -14,6 +14,29 @@
   #:use-module (srfi srfi-26)
   #:use-module (web uri))
 
+(define %root (dirname (dirname (canonicalize-path (or (current-filename) "./melpa.scm")))))
+
+(define emacs-standard-library?
+  (let ((libs
+	 (cons* 'emacs
+		'emacs-emacs ; since the deps are prefix, this is a workaround to remove emacs from deps
+		;; Generated with:  rg '^\(provide (\'([\w-]+))+\)' -r '$2' -N --no-heading --no-filename -o | sort
+		(with-input-from-file (string-append %root "/etc/emacs-libs")
+		  (lambda ()
+		    (map string->emacs-package-name
+			 (remove string-null?
+				 (string-split (get-string-all (current-input-port))
+					       #\newline))))))))
+    (lambda (lib)
+      (memq lib libs))))
+
+(define (filter-dependencies names)
+  (remove emacs-standard-library? names))
+
+(define (melpa-dependencies->names deps)
+  (match deps
+    ((names _ ...) ...)
+    (map symbol->string names)))
 
 (define %melpa-url
   "https://melpa.org/packages")
