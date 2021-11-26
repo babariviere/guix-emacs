@@ -57,11 +57,6 @@
     (lambda (lib)
       (memq lib libs))))
 
-(define (filter-dependencies inputs)
-  (let* ((deps (cadadr inputs))
-	 (new-deps (remove (compose emacs-standard-library? string->symbol car) deps)))
-    (list 'propagated-inputs (list 'quasiquote new-deps))))
-
 (define (valid-source? source)
   (let* ((sha256 (assq-ref (cdar source) 'sha256))
 	 (base32 (cadar sha256)))
@@ -96,15 +91,10 @@
 	(version (archive-version archive-entry)))
     (let* ((package (melpa->guix-package (archive-raw-name archive-entry)))
 	   (pkg-content (cdr package))
-	   (propagated-inputs-idx (list-car-index 'propagated-inputs pkg-content))
 	   (description-idx (list-car-index 'description pkg-content))
 	   (source (assq-ref pkg-content 'source)))
       (unless (valid-source? source)
 	(error (format #false "invalid source for package ~a" name)))
-      (when propagated-inputs-idx
-	(list-set! pkg-content
-		   propagated-inputs-idx
-		   (filter-dependencies (list-ref pkg-content propagated-inputs-idx))))
       (when description-idx
 	(list-set! pkg-content
 		   description-idx
