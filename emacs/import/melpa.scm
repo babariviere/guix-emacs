@@ -1,6 +1,7 @@
 (define-module (emacs import melpa)
   #:use-module (gcrypt hash)
   #:use-module (guix base32)
+  #:use-module ((guix download) #:select (download-to-store))
   #:use-module (guix git)
   #:use-module (guix http-client)
   #:use-module ((guix serialization) #:select (write-file))
