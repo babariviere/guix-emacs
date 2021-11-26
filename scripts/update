@@ -2,7 +2,7 @@
   #:use-module (guile)
   #:use-module (guix build utils)
   #:use-module (guix http-client)
-  #:use-module (guix import elpa)
+  #:use-module (emacs import melpa)
   #:use-module (guix packages)
   #:use-module (ice-9 match)
   #:use-module (ice-9 pretty-print)
@@ -94,7 +94,7 @@
   "Fetch ARCHIVE to produce a Guix package."
   (let ((name (archive-name archive-entry))
 	(version (archive-version archive-entry)))
-    (let* ((package (elpa->guix-package (archive-raw-name archive-entry) #:repo 'melpa #:version version))
+    (let* ((package (melpa->guix-package (archive-raw-name archive-entry)))
 	   (pkg-content (cdr package))
 	   (propagated-inputs-idx (list-car-index 'propagated-inputs pkg-content))
 	   (description-idx (list-car-index 'description pkg-content))
