@@ -7,36 +7,42 @@
   #:use-module (guix store)
   #:use-module (guix ui)
   #:use-module (ice-9 match)
+  #:use-module (ice-9 textual-ports)
   #:use-module (srfi srfi-1)
   #:use-module (srfi srfi-9)
   #:use-module (srfi srfi-9 gnu)
   #:use-module (srfi srfi-11)
   #:use-module (srfi srfi-26)
-  #:use-module (web uri))
+  #:use-module (web uri)
+  #:export (melpa->guix-package))
 
-(define %root (dirname (dirname (canonicalize-path (or (current-filename) "./melpa.scm")))))
+(define %root (dirname (dirname (dirname (canonicalize-path (or (current-filename) "./melpa.scm"))))))
+
+(define (melpa-name->package-name name)
+  (let ((package-name-prefix "emacs-"))
+    (if (string-prefix? package-name-prefix name)
+	(string-downcase name)
+	(string-append package-name-prefix (string-downcase name)))))
 
 (define emacs-standard-library?
   (let ((libs
-	 (cons* 'emacs
-		'emacs-emacs ; since the deps are prefix, this is a workaround to remove emacs from deps
+	 (cons* "emacs"
 		;; Generated with:  rg '^\(provide (\'([\w-]+))+\)' -r '$2' -N --no-heading --no-filename -o | sort
 		(with-input-from-file (string-append %root "/etc/emacs-libs")
 		  (lambda ()
-		    (map string->emacs-package-name
-			 (remove string-null?
-				 (string-split (get-string-all (current-input-port))
-					       #\newline))))))))
+		    (remove string-null?
+			    (string-split (get-string-all (current-input-port))
+					  #\newline)))))))
     (lambda (lib)
-      (memq lib libs))))
+      (member lib libs))))
 
 (define (filter-dependencies names)
   (remove emacs-standard-library? names))
 
 (define (melpa-dependencies->names deps)
   (match deps
-    ((names _ ...) ...)
-    (map symbol->string names)))
+    (((names _ ...) ...)
+     (map symbol->string names))))
 
 (define %melpa-url
   "https://melpa.org/packages")
@@ -200,7 +206,71 @@ for the package named PACKAGE-NAME."
 	`((arguments '(#:files ,files)))
 	'())))
 
-(second (melpa-fetch-archive))
-(melpa-recipe->origin (package-name->recipe "magit"))
+(define (melpa-package->sexp pkg)
+  (define recipe (package-name->recipe (melpa-package-name pkg)))
 
-(fetch-melpa-package "magit")
+  (define name (melpa-package-name pkg))
+
+  (define version (melpa-package-version pkg))
+
+  (define source-url (melpa-package-source-url pkg))
+
+  ;; TODO: to filter dependencies, source emacs and run rg to fetch all libs inside it
+  (define dependencies-name
+    (filter-dependencies (melpa-dependencies->names
+			  (melpa-package-inputs pkg))))
+
+  (define dependencies
+    (map (lambda (n)
+	   (let ((new-n (melpa-name->package-name n)))
+	     (list new-n (list 'unquote (string->symbol new-n)))))
+	 dependencies-name))
+
+  (define (maybe-inputs input-type inputs)
+    (match inputs
+      (()
+       '())
+      ((inputs ...)
+       (list (list input-type
+		   (list 'quasiquote inputs))))))
+
+  (define melpa-source
+    (melpa-recipe->origin recipe))
+
+  (values
+   `(package
+     (name ,(melpa-name->package-name name))
+     (version ,version)
+     (source ,(or melpa-source
+		  (let ((tarball (with-store store
+					     (download-to-store store source-url))))
+		    `(origin
+		      (method url-fetch)
+		      (uri (string-append ,@(factorize-uri source-url version)))
+		      (sha256
+		       (base32
+			,(if tarball
+			     (bytevector->nix-base32-string (file-sha256 tarball))
+			     "failed to download package")))))))
+     (build-system emacs-melpa-build-system)
+     ,@(maybe-inputs 'propagated-inputs dependencies)
+     ,@(if melpa-source
+	   (melpa-recipe->maybe-arguments recipe)
+	   '())
+     (home-page ,(melpa-package-home-page pkg))
+     (synopsis ,(melpa-package-synopsis pkg))
+     (description ,(string-append "Documentation at https://melpa.org/#/" name))
+     (license #f))
+   dependencies-name))
+
+(define (melpa->guix-package name)
+  (match (fetch-melpa-package name)
+    (#false (raise (condition (&message (message "couldn't find meta-data for elpa package.")))))
+    (package (melpa-package->sexp package))))
+
+#;(second (melpa-fetch-archive))
+#;(melpa-recipe->origin (package-name->recipe "magit"))
+
+#;(fetch-melpa-package "magit")
+
+#;(melpa->guix-package "magit")
