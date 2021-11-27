@@ -4,6 +4,7 @@
   #:use-module ((guix download) #:select (download-to-store))
   #:use-module (guix git)
   #:use-module (guix http-client)
+  #:use-module (guix import utils)
   #:use-module ((guix serialization) #:select (write-file))
   #:use-module (guix store)
   #:use-module (guix ui)
@@ -236,7 +237,12 @@ for the package named PACKAGE-NAME."
 		   (list 'quasiquote inputs))))))
 
   (define melpa-source
-    (melpa-recipe->origin recipe))
+    (catch #t
+      (lambda ()
+	(melpa-recipe->origin recipe))
+      (lambda* (#:rest e)
+        (format #t "failed to fetch from origin, falling back to melpa: ~a~%" e)
+	#f)))
 
   (values
    `(package
@@ -252,7 +258,9 @@ for the package named PACKAGE-NAME."
 		       (base32
 			,(if tarball
 			     (bytevector->nix-base32-string (file-sha256 tarball))
-			     "failed to download package")))))))
+			     (raise
+			      (condition
+			       (&message (message "failed to download package")))))))))))
      (build-system melpa-build-system)
      ,@(maybe-inputs 'propagated-inputs dependencies)
      ,@(if melpa-source
