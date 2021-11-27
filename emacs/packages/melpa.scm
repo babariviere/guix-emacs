@@ -10063,17 +10063,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211127.822")
+    (version "20211127.1547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "e341f81a79be8d6880b9cf608432e6098af034f8")))
+                 "fd8828cff312e3294b158118ddaee89c0b30036b")))
         (sha256
           (base32
-            "01rl4kh11hmcsdkgjzmk5dq1qschfy2bskni3wpwf6y1vc7hcq35"))))
+            "06f4q96bb8968k7ird055xxv6yfbi6aqqj2slz53pdv2cxpgypxn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11946,17 +11946,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20211124.1535")
+    (version "20211127.936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "7a4277344ea3de45b6aa9462339e0c5a58121f51")))
+                 "0ba3bfdba15ee9029d2f6ed29c2a5e7d8b31e206")))
         (sha256
           (base32
-            "0gnwh49j7gvjxwa58mvhambh3jcplfvw5irzl6f8z20gc3vgl1j8"))))
+            "0dcddq77i96a5nyj5nxi3m0hpagig0s42nlr0rhc47ll2j8avsmh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -13212,17 +13212,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211126.1005")
+    (version "20211127.1251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "813de58a3d34d5945809fd0f9c1ac9cafa610eaa")))
+                 "3678c8e723ac8f61cb86a49a73cbe778bb8385e5")))
         (sha256
           (base32
-            "1ri0fdhvsi2hm6163qinj2pg0qsaj1bs47ps32njimyaag01j2jy"))))
+            "1scpwqsirbjd44yk5lkj753rzy4qjwy24yr8gicwbd3cf3inykmc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -31401,17 +31401,17 @@
 (define-public emacs-etherpad
   (package
     (name "emacs-etherpad")
-    (version "20210401.1213")
+    (version "20211127.1612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zzkt/ethermacs.git")
                (commit
-                 "fc7de212b34c34d93f5f0f19af846924404e38ae")))
+                 "a884fd4dc9cf5b532bb359eac3ac58ee83980a16")))
         (sha256
           (base32
-            "0a8d66na4c02mdvkcbldac44hhzsv18imz04yqqp8qn4cdamfi4g"))))
+            "1i192gncsf311bia335ywgy2c7jn718yyd0zknyycfp49vfpix7h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-request" ,emacs-request)
@@ -31755,17 +31755,17 @@
 (define-public emacs-evil-colemak-basics
   (package
     (name "emacs-evil-colemak-basics")
-    (version "20211022.1248")
+    (version "20211125.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-evil-colemak-basics.git")
                (commit
-                 "f9fbb49c48b3347d97fd2e19d7499bfee0ac5ad9")))
+                 "ddea4486de929c399745713a6e616df50b22dedd")))
         (sha256
           (base32
-            "0w40qfwjjmvzkxi8p09s9g266ggvxcw7jhg7j70fz24hq6plmc2r"))))
+            "1ld9iv6ysk28ps6gx6jgrqyazyqk1xd17a4fhf94m2hy7jzakwaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-evil" ,emacs-evil)
@@ -42249,17 +42249,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211124.317")
+    (version "20211127.1322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "64e09725c75a2ca4a366c018b107d8bb0e00862e")))
+                 "61507dd264bec743cdc5843162ebc8779cf6d896")))
         (sha256
           (base32
-            "0sdixws4nc9c36i3ssa49bxk99yazhf6ljbili6jaf8b30ph7yh3"))))
+            "1vnp3zrxv1fymq33vi8n21b6i71nax0jqsj454p18s3fq2m682g3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -45614,7 +45614,7 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20211025.443")
+    (version "20211127.1059")
     (source
       (origin
         (method git-fetch)
@@ -46646,7 +46646,7 @@
 (define-public emacs-graphql-mode
   (package
     (name "emacs-graphql-mode")
-    (version "20210912.1544")
+    (version "20211127.1023")
     (source
       (origin
         (method git-fetch)
@@ -90396,17 +90396,17 @@
 (define-public emacs-powerthesaurus
   (package
     (name "emacs-powerthesaurus")
-    (version "20211126.1527")
+    (version "20211127.911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SavchenkoValeriy/emacs-powerthesaurus.git")
                (commit
-                 "31aeb8fc410c04dd9b4c4a090718417d8f999d51")))
+                 "02c9d11a3f407023aa7c7b080bb9f8a5f5e7cd7a")))
         (sha256
           (base32
-            "0byqsczl17v7sm12qhlnbpmwnc5gkqgbip9i4hj1fvd08lypr7zc"))))
+            "134m24v9xxnnsr180sx9li938jn5lx7kny2095fpl90qgpn3jd5q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-request" ,emacs-request)
@@ -93216,7 +93216,7 @@
 (define-public emacs-python-insert-docstring
   (package
     (name "emacs-python-insert-docstring")
-    (version "20211123.2011")
+    (version "20211127.1232")
     (source
       (origin
         (method git-fetch)
@@ -98946,7 +98946,7 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20211104.259")
+    (version "20211127.1220")
     (source
       (origin
         (method git-fetch)
@@ -109512,7 +109512,7 @@
 (define-public emacs-toc-mode
   (package
     (name "emacs-toc-mode")
-    (version "20210714.725")
+    (version "20211127.801")
     (source
       (origin
         (method git-fetch)
