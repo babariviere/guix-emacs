@@ -109,7 +109,7 @@
 									     m
 									     'pre ".el" 'post)
 							bf)))))
-			   (find-files dir (glob-match? dir entry)))))))
+			   (find-files dir (glob-match? dir entry) #:directories? #t))))))
      specs)
     (when (and (null? lst) (not allow-empty))
       (format #t "No matching file(s) found in ~a: ~a~%" dir specs))
@@ -141,7 +141,9 @@
          (let* ((source (car file))
 		(target (string-append el-dir "/" (cdr file))))
            (format #t "`~a' -> `~a'~%" source target)
-           (install-file source (dirname target))))
+	   (if (directory-exists? source)
+	       (copy-recursively source target)
+               (install-file source (dirname target)))))
        file-list)
       #t)
      (else
