@@ -18,7 +18,14 @@
   #:use-module (web uri)
   #:export (melpa->guix-package))
 
-(define %root (dirname (dirname (dirname (canonicalize-path (or (current-filename) "./melpa.scm"))))))
+(define %root
+  (canonicalize-path
+   (find (lambda (path)
+	  (and
+	   (file-exists? (string-append path "/.guix-channel"))
+	   (file-exists? (string-append path "/emacs/import/melpa.scm"))
+	   (file-exists? (string-append path "/scripts"))))
+	%load-path)))
 
 (define (melpa-name->package-name name)
   (let ((package-name-prefix "emacs-"))
