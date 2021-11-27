@@ -17,9 +17,9 @@
 ;;; You should have received a copy of the GNU General Public License
 ;;; along with GNU Guix.  If not, see <http://www.gnu.org/licenses/>.
 
-(define-module (emacs build-system emacs)
-  #:use-module ((emacs build emacs-build-system)
-                #:select (%default-include %default-exclude))
+(define-module (emacs build-system melpa)
+  #:use-module ((emacs build melpa-build-system)
+                #:select (%default-files-spec))
   #:use-module (guix store)
   #:use-module (guix utils)
   #:use-module (guix packages)
@@ -29,14 +29,10 @@
   #:use-module (guix build-system gnu)
   #:use-module (ice-9 match)
   #:use-module (srfi srfi-26)
-  #:export (%emacs-build-system-modules
-            emacs-build
-            emacs-build-system)
-  #:replace (%emacs-build-system-modules
-	     emacs-build
-	     emacs-build-system)
-  #:re-export (%default-include         ;for convenience
-               %default-exclude))
+  #:export (%melpa-build-system-modules
+            melpa-build
+            melpa-build-system)
+  #:re-export (%default-files-spec))
 
 
 ;; Commentary:
@@ -46,10 +42,11 @@
 ;;
 ;; Code:
 
-(define %emacs-build-system-modules
+(define %melpa-build-system-modules
   ;; Build-side modules imported by default.
-  `((emacs build emacs-build-system)
+  `((emacs build melpa-build-system)
     (guix build emacs-utils)
+    (guix build emacs-build-system)
     ,@%gnu-build-system-modules))
 
 (define (default-emacs)
@@ -81,31 +78,30 @@
          (build-inputs `(("emacs" ,emacs)
                          ,@native-inputs))
          (outputs outputs)
-         (build emacs-build)
+         (build melpa-build)
          (arguments (strip-keyword-arguments private-keywords arguments)))))
 
-(define* (emacs-build store name inputs
+(define* (melpa-build store name inputs
                       #:key source
                       (tests? #f)
                       (parallel-tests? #t)
                       (test-command ''("make" "check"))
-                      (phases '(@ (emacs build emacs-build-system)
+                      (phases '(@ (emacs build melpa-build-system)
                                   %standard-phases))
                       (outputs '("out"))
-                      (include (quote %default-include))
-                      (exclude (quote %default-exclude))
+                      (files %default-files-spec)
                       (search-paths '())
                       (system (%current-system))
                       (guile #f)
-                      (imported-modules %emacs-build-system-modules)
-                      (modules '((emacs build emacs-build-system)
+                      (imported-modules %melpa-build-system-modules)
+                      (modules '((emacs build melpa-build-system)
                                  (guix build utils)
                                  (guix build emacs-utils))))
   "Build SOURCE using EMACS, and with INPUTS."
   (define builder
     `(begin
        (use-modules ,@modules)
-       (emacs-build #:name ,name
+       (melpa-build #:name ,name
                     #:source ,(match (assoc-ref inputs "source")
                                 (((? derivation? source))
                                  (derivation->output-path source))
@@ -119,8 +115,7 @@
                     #:parallel-tests? ,parallel-tests?
                     #:phases ,phases
                     #:outputs %outputs
-                    #:include ,include
-                    #:exclude ,exclude
+                    #:files ',files
                     #:search-paths ',(map search-path-specification->sexp
                                           search-paths)
                     #:inputs %build-inputs)))
@@ -129,7 +124,7 @@
     (match guile
       ((? package?)
        (package-derivation store guile system #:graft? #f))
-      (#f                                         ; the default
+      (#f				; the default
        (let* ((distro (resolve-interface '(gnu packages commencement)))
               (guile  (module-ref distro 'guile-final)))
          (package-derivation store guile system #:graft? #f)))))
@@ -141,9 +136,9 @@
                                 #:outputs outputs
                                 #:guile-for-build guile-for-build))
 
-(define emacs-build-system
+(define melpa-build-system
   (build-system
-    (name 'emacs)
+    (name 'melpa)
     (description "The build system for Emacs packages")
     (lower lower)))
 

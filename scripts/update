@@ -31,7 +31,7 @@
 
 (define header
   '((define-module (emacs packages melpa)
-      #:use-module (emacs build-system emacs)
+      #:use-module (emacs build-system melpa)
       #:use-module (guix download)
       #:use-module (guix packages)
       #:use-module (gnu packages emacs-xyz))

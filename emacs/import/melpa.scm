@@ -253,7 +253,7 @@ for the package named PACKAGE-NAME."
 			,(if tarball
 			     (bytevector->nix-base32-string (file-sha256 tarball))
 			     "failed to download package")))))))
-     (build-system emacs-melpa-build-system)
+     (build-system melpa-build-system)
      ,@(maybe-inputs 'propagated-inputs dependencies)
      ,@(if melpa-source
 	   (melpa-recipe->maybe-arguments recipe)
