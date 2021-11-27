@@ -134,19 +134,16 @@ rather than \\n."
 
 (define emacs-xyz-module (resolve-module '(gnu packages emacs-xyz)))
 
-(define* (resolve-archive package-name resolved-entries final-entries #:optional path)
+(define* (resolve-archive package-name resolved-entries final-entries)
   (let ((handle (hashq-get-handle resolved-entries package-name))
-	(entry (hashq-ref final-entries package-name))
-	(path (cons package-name (or path '()))))
+	(entry (hashq-ref final-entries package-name)))
     (if (not handle)
 	(begin
-	  (unless (null? path)
-	    (format #t "~a~%" (string-join (map symbol->string (reverse path)) " > ")))
 	  (if entry
 	      (let loop ((deps (archive-deps entry)))
 		(match deps
 		  ((dep rest ...)
-		   (if (or (resolve-archive dep resolved-entries final-entries path)
+		   (if (or (resolve-archive dep resolved-entries final-entries)
 			   (module-variable emacs-xyz-module dep))
 		       (loop rest)
 		       (begin
