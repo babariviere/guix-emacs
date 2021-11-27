@@ -33,7 +33,7 @@ jobs:
 
       - name: Update packages
         run: |
-          guix repl ./scripts/update
+          guix repl -L . ./scripts/update
 
       - name: Commit and push
         run: |
