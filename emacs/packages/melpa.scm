@@ -10063,17 +10063,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211127.1547")
+    (version "20211127.2322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "fd8828cff312e3294b158118ddaee89c0b30036b")))
+                 "1d0d3abbd1035e46e3181d24ff7f895eec9feda6")))
         (sha256
           (base32
-            "06f4q96bb8968k7ird055xxv6yfbi6aqqj2slz53pdv2cxpgypxn"))))
+            "1dsc3h1n95w8ii2ykaa7hi82l6nfxc660r0p8i3bglnxv9w6wild"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11497,17 +11497,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20211127.1923")
+    (version "20211128.706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "8b82d68822485f75829d5a258eb54f296c3db7b9")))
+                 "14f02ff402ba501d93c6e241450aad37789bf9b4")))
         (sha256
           (base32
-            "1m7yh3dw55mf71510yqcxsypww9mhs0fjpk9a1vnlcmhggrjr99q"))))
+            "1qdasdj4k2zaj8k8q1c410wpwp7d5q0pnsrwzx0hh11hprwaiajf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -13053,17 +13053,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211127.758")
+    (version "20211128.539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "ba6c6562bb99016e96bb2611ebecfba666fffa4a")))
+                 "26a6a259ef0a767846a0823e48b7cec4d9b84fc6")))
         (sha256
           (base32
-            "1s1afpq292azmrdd9ndf6v56cc1fr68cwbc3n8abyg7lxdg6s1f4"))))
+            "1rq4q8d1yx6b3h2ycb49gw6rx4lvk96nwwvly69zmas0h9ifxggg"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -13212,17 +13212,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211127.1907")
+    (version "20211128.217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "a62c78e56b2c65012730909cb40f9c893f431b7d")))
+                 "f1a79c20ae51d23f76067a1e5a2f5c1c4db42ec9")))
         (sha256
           (base32
-            "01gvhfb3n5fjxc4883xcccfah05bswfg262mlc04b4lffm04289j"))))
+            "1ag2vw7dvzyl387ljh4ya3d8qk18csl6vk8i3g4msb3silw9dv43"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -19977,17 +19977,17 @@
 (define-public emacs-decide
   (package
     (name "emacs-decide")
-    (version "20190201.2137")
+    (version "20211127.2248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lifelike/decide-mode.git")
                (commit
-                 "4bfcc826dd5b1c30caec455d8baa4f363159eac6")))
+                 "668fa559b95b50f140e73f26a21fad559c1ffa77")))
         (sha256
           (base32
-            "07rwflgqlsgqrw2v7rbshrbcr1qkgsx59y904jspvj310s8bsczg"))))
+            "1wbiy8lda6p888qf4ak8j02cp42h25y17xnz5bq5p032xgq731n0"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "rolling dice and other random things")
@@ -31402,17 +31402,17 @@
 (define-public emacs-etherpad
   (package
     (name "emacs-etherpad")
-    (version "20211127.1612")
+    (version "20211128.106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zzkt/ethermacs.git")
                (commit
-                 "a884fd4dc9cf5b532bb359eac3ac58ee83980a16")))
+                 "1fae6a03084e0794e09ac036838b53aaae1dbd63")))
         (sha256
           (base32
-            "1i192gncsf311bia335ywgy2c7jn718yyd0zknyycfp49vfpix7h"))))
+            "0aqws67s6c0m6sgqh9i17lpky6wbdyl3fnd3jrk6rwaiyckb1nrc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-request" ,emacs-request)
@@ -35126,17 +35126,17 @@
 (define-public emacs-filetree
   (package
     (name "emacs-filetree")
-    (version "20211127.1854")
+    (version "20211128.205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knpatel401/filetree.git")
                (commit
-                 "18a75836d245b873f29feab81768c4e57e05173b")))
+                 "5a30023c897f0f93ec90f84caed8752b4ac98418")))
         (sha256
           (base32
-            "1a3ax6r2jw8lcvff2q13yp3834q0nr6lnw71j38c8kbda5xbip72"))))
+            "11pfyvvw096wlpakkamijdmn8l5xa3rvza5kyqkfrwyc6h933vkz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -61270,17 +61270,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20211121.232")
+    (version "20211128.347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-jupyter.git")
                (commit
-                 "0dec83f7e4a125c73430a45c2fb2119dcc31bd28")))
+                 "57306bf38512aea9462822a3c352f99f8d25f3d3")))
         (sha256
           (base32
-            "1ddhj8yc0wkqic4hv0kg5i5bsimxlf6l08m1z3kakc9r3xgzqj39"))))
+            "163d3c9wndscai4km8y7i1yw6lxbsvf0w5c893kz4k2i0avwqc3c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-zmq" ,emacs-zmq)
@@ -70146,17 +70146,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211126.639")
+    (version "20211128.342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "9c252796c30fbcf545aae3d82134271e36c3409c")))
+                 "5a8a6dd43743e97760fb42636464267a3b173b63")))
         (sha256
           (base32
-            "13y81d33k0v6dxdnyaslg58wqc1kp6lmbyxl3w9sf8z3z7ln97x8"))))
+            "0hikh8fg9x4md23wf18s6ifacz5gmjjh8hkm75ff6jr485jwgida"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
