@@ -8583,17 +8583,17 @@
 (define-public emacs-brutal-theme
   (package
     (name "emacs-brutal-theme")
-    (version "20211123.2233")
+    (version "20211128.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/brutal-emacs.git")
                (commit
-                 "ab6af0ee7146289b3dcd12d2b70f400b94d7e0e7")))
+                 "097c613f715f49dc84234203fdbae562c3bb2d71")))
         (sha256
           (base32
-            "1l1r3bm4a9dvlc7ksrdb2vmgaz1q1iszm9zyqfvg2dw7yv6iw91j"))))
+            "11sg51dwcxj9g23nppylzqm4z4lzdadsbj33pav9pc1zxkfqq2fw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/brutal-emacs")
@@ -10063,17 +10063,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211127.2322")
+    (version "20211128.1319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "1d0d3abbd1035e46e3181d24ff7f895eec9feda6")))
+                 "c1f7fa746bc4d09ab10cede478e22a8a7c13c4f7")))
         (sha256
           (base32
-            "1dsc3h1n95w8ii2ykaa7hi82l6nfxc660r0p8i3bglnxv9w6wild"))))
+            "0pqfi3qidxn7wpw28mbd10rg3biw35z97mlmiqv6kfabk0a0snr2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11497,17 +11497,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20211128.706")
+    (version "20211128.1156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "14f02ff402ba501d93c6e241450aad37789bf9b4")))
+                 "4eb4f30873c8839f2ac87af0e9a7c9095772bbc4")))
         (sha256
           (base32
-            "1qdasdj4k2zaj8k8q1c410wpwp7d5q0pnsrwzx0hh11hprwaiajf"))))
+            "1l3yh2kjv4a3vg0jyxwabajfli0d4aa4r3jf6gpn6j1nhygwx8r8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -62149,17 +62149,17 @@
 (define-public emacs-keymap-utils
   (package
     (name "emacs-keymap-utils")
-    (version "20211027.1933")
+    (version "20211128.1356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/keymap-utils.git")
                (commit
-                 "20e5ab2a8bfdf9b44c813c6abd96b478f822ddef")))
+                 "2f247333435b8b036547658caf04228831f613d2")))
         (sha256
           (base32
-            "1acflsq0yh3sj607g2yasdbwacyzdh27hmgplybxc3zg464gldj1"))))
+            "1iykzph614sjdpxgfx5y55bgzv9m7j9g6b4n1d8icj7r1620yr5w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tarsius/keymap-utils")
@@ -66901,17 +66901,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211126.556")
+    (version "20211128.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ddb776037fc073473e0da9d07e63f57242b212fb")))
+                 "f808426fd092114a00e2797cc6bfaa68e725ed7a")))
         (sha256
           (base32
-            "1zpqyp6jdaaxq22zdrw7g4vbijm2mzdl9msp8x0cz2bcgwm3g8bj"))))
+            "1fii2la8qqfwlxc1v38jn289698bw816yp02wg4afzf50j3wrjdw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -70146,23 +70146,23 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211128.342")
+    (version "20211128.1413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "5a8a6dd43743e97760fb42636464267a3b173b63")))
+                 "c03de3f4e92480be2646fb337e51d0edf2ad1416")))
         (sha256
           (base32
-            "0hikh8fg9x4md23wf18s6ifacz5gmjjh8hkm75ff6jr485jwgida"))))
+            "0nncp132n7as2d7yfpymc6r0ia5pszqfdanqxzm1h7lhniwmlmhr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
     (home-page
       "https://www.github.com/DogLooksGood/meow")
-    (synopsis "Modal Editing On Wheel")
+    (synopsis "Yet Another modal editing")
     (description
       "Documentation at https://melpa.org/#/meow")
     (license #f)))
@@ -71849,17 +71849,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211127.514")
+    (version "20211128.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "4d6ea03a36d4c52ad97ca53734103deab97ada82")))
+                 "0e31ed4945981bca50a4b39ff271d13a0ea4f789")))
         (sha256
           (base32
-            "0fhxzpksn5r41b80iacjk16b5bz61p4k349infqa74jqgi99a6ab"))))
+            "1a5d0fvk1d6h3dia8ykrjbnpi78jnxm4z1pjbj5c63hwjjc1gq51"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -81845,17 +81845,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20211126.713")
+    (version "20211128.848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "8c3c216191314ac674a9753836402032b3d33266")))
+                 "c3889b3b17d43092be9146825d45c46c5eaea798")))
         (sha256
           (base32
-            "062c3lkw43rjcm99mcdgw3xwpid28ns9n6mz9jxv97s3p7aqa02x"))))
+            "1imm5nqbnnww60k5ckg9a28q7c1i2vmm91fqh700x9mrrylp5ksz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -84736,17 +84736,17 @@
 (define-public emacs-ox-reveal
   (package
     (name "emacs-ox-reveal")
-    (version "20211114.1307")
+    (version "20211128.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yjwen/org-reveal.git")
                (commit
-                 "2adca68b2be22bcc05d5136b571472667ffab4fd")))
+                 "59adea80013e962811b204403cc500a4d28b85a0")))
         (sha256
           (base32
-            "1x0ksafnq2fsqg7vls2qdhnk189bfk3184303whircbs0rgiz6md"))))
+            "133vzdhyzg5w5fqrams9n88adr8klpgb53g2ig2rvir3sckp449v"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -90473,17 +90473,17 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20211122.1657")
+    (version "20211128.755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-pr-review.git")
                (commit
-                 "d341063fe26ae063a102689b18422451d5b50876")))
+                 "f1e1bc2a5ad2092afdba8568d554f35ebc98bec7")))
         (sha256
           (base32
-            "0qxv82frdza6ry4y7q9szqrxz2qag8j9xd1fmb6vrwcp60mx6ab4"))))
+            "07f98c2d9wszlxj6gvrnnb60krbgf55wahg1d16p2mwqczgdl7cp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-magit-section" ,emacs-magit-section)
