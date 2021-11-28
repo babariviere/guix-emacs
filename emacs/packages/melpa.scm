@@ -11497,17 +11497,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20211122.1131")
+    (version "20211127.1923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "c9389d4404076dc01501bdbf11ca017ab9c1a0c1")))
+                 "8b82d68822485f75829d5a258eb54f296c3db7b9")))
         (sha256
           (base32
-            "0196xbblsbi480xkjp2jaqzdp0wdvnbmykp08092wmiz6ws8nnfz"))))
+            "1m7yh3dw55mf71510yqcxsypww9mhs0fjpk9a1vnlcmhggrjr99q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -11921,17 +11921,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211126.2242")
+    (version "20211127.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "715a026743d96da4121d596e497925098692bf6f")))
+                 "6bed79348b5121c338ea1273c4898efc28f20e16")))
         (sha256
           (base32
-            "1zl6hwb5imbv4kisw4br7c3dinq3y37n25j2357f2gvqbs30zal0"))))
+            "0l97261p7kv2j248la9l8jyadhvldzl7khabx4c0ab84g0i85g8d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -13212,17 +13212,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211127.1251")
+    (version "20211127.1907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "3678c8e723ac8f61cb86a49a73cbe778bb8385e5")))
+                 "a62c78e56b2c65012730909cb40f9c893f431b7d")))
         (sha256
           (base32
-            "1scpwqsirbjd44yk5lkj753rzy4qjwy24yr8gicwbd3cf3inykmc"))))
+            "01gvhfb3n5fjxc4883xcccfah05bswfg262mlc04b4lffm04289j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -13236,7 +13236,8 @@
         ("emacs-emojify" ,emacs-emojify)))
     (home-page
       "https://github.com/wandersoncferreira/code-review")
-    (synopsis "Perform code review from Github")
+    (synopsis
+      "Perform code review from Github and Gitlab")
     (description
       "Documentation at https://melpa.org/#/code-review")
     (license #f)))
@@ -35125,17 +35126,17 @@
 (define-public emacs-filetree
   (package
     (name "emacs-filetree")
-    (version "20211115.506")
+    (version "20211127.1854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knpatel401/filetree.git")
                (commit
-                 "4f97329cdc628d2b9424114a981d046daab50d61")))
+                 "18a75836d245b873f29feab81768c4e57e05173b")))
         (sha256
           (base32
-            "06hdllrg2xca7qq6m6f4xnjlb06ljn6lk7zypviy20qv7vmxa87s"))))
+            "1a3ax6r2jw8lcvff2q13yp3834q0nr6lnw71j38c8kbda5xbip72"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -81926,17 +81927,17 @@
 (define-public emacs-org-roam-ui
   (package
     (name "emacs-org-roam-ui")
-    (version "20211117.1208")
+    (version "20211127.1436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-ui.git")
                (commit
-                 "9fcc9a8d716254565d06082bc6e861b259c132fd")))
+                 "0ff98bfc93dab79c257b0c84b5dd7c8db37e1590")))
         (sha256
           (base32
-            "0mlvwgvvb6iwiwmmlfzi6gjy1ipcps800r0sxr25ldvz05n7av4w"))))
+            "1hwr6k77dfqqrn9s93f34l6pw2ip91z28l9zm441lsnmg4d9k19d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-roam" ,emacs-org-roam)
@@ -84640,17 +84641,17 @@
 (define-public emacs-ox-pandoc
   (package
     (name "emacs-ox-pandoc")
-    (version "20211009.1414")
+    (version "20211127.1430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/ox-pandoc.git")
                (commit
-                 "e76324ecf1b9be6353bf22ff5e13652ea2714674")))
+                 "eda1f21fd519427c070d165f8a663db07b87ac29")))
         (sha256
           (base32
-            "1x1klhj4570mzcnrdlj56qs9hi41nvdmghgj6ddwg6n0lm2kglys"))))
+            "1d8ymkxgfz5z3nrxaad90q4xdc8vj0vqyv9rwv2fhyx9gl72xhg9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -90396,7 +90397,7 @@
 (define-public emacs-powerthesaurus
   (package
     (name "emacs-powerthesaurus")
-    (version "20211127.911")
+    (version "20211127.1502")
     (source
       (origin
         (method git-fetch)
@@ -97878,17 +97879,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20211126.1913")
+    (version "20211127.1713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "63ea805a19cfefccb7fd047b418ad743680c2f2d")))
+                 "3f67a880dc8b31b330cf59aee875d9dc96e7c475")))
         (sha256
           (base32
-            "1cz5s7nwq26ddxj2l6pwfq2pi0mxp35fgwp19pl5dar5ib0026yh"))))
+            "0qvsmm9dgxclg0h2d60bh87msbn4cq9l2dq7vipzzibn999yxj4l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -97924,17 +97925,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20211126.2043")
+    (version "20211127.1621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "a91b3d99c294a367dc14b9a62a9ca8b462eb7f84")))
+                 "8985814372784a0b1e6e95c4c5c7d77e2cf8739a")))
         (sha256
           (base32
-            "0i72r0kb6f96py3vbprcingik9sy5bndnd19hb9x3yzv1f7r0zfp"))))
+            "0qxwjxmmgr3kxissiwmvf4vjl0xlizi459wfvk15rscyfkjfbgk0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-rust-mode" ,emacs-rust-mode)
@@ -102236,17 +102237,17 @@
 (define-public emacs-smart-compile
   (package
     (name "emacs-smart-compile")
-    (version "20201029.1600")
+    (version "20211127.1702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zenitani/elisp.git")
                (commit
-                 "2edfcf2004ce927f11ca9cb43e2e4b93f43524a9")))
+                 "df771e8cf0f7d5ed455c74bf7d9c1e366f47922f")))
         (sha256
           (base32
-            "17bf25jyqryz6i8viljqcv9fszfllfzwrgps4685xm0gjxxys62q"))))
+            "1kglk255ifnwkv3skdks78rq53f5qb0h5qb6yv7cmzp2aprs5p0l"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("smart-compile.el")))
     (home-page "unspecified")
