@@ -10063,17 +10063,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211129.119")
+    (version "20211129.1504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "26d6025da205386955cd065aef94c4b7e0acb5a4")))
+                 "b895c8cf280f80a0cf724f137de06217679cb846")))
         (sha256
           (base32
-            "17d3vli46xbkj17gsmgxmhna3v2qa1mvmfpy7xci7b9kjd1hkw65"))))
+            "1bs7w63z36lylzv61ih25vs37crpgmxlhziby1ll3gwq7gamz911"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11497,17 +11497,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20211128.1156")
+    (version "20211129.1112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "4eb4f30873c8839f2ac87af0e9a7c9095772bbc4")))
+                 "e8eadc7048b5c63221e50d4a632b85e341ae0635")))
         (sha256
           (base32
-            "1l3yh2kjv4a3vg0jyxwabajfli0d4aa4r3jf6gpn6j1nhygwx8r8"))))
+            "0fh0prx95b63pzmby8wwr4fsv4bl7snxwrjfjl7j8pqznpm78lca"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -11921,17 +11921,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211127.1925")
+    (version "20211129.1330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "6bed79348b5121c338ea1273c4898efc28f20e16")))
+                 "c35def357fbdd9488cdb81bb494e2d6dbeb8bc7e")))
         (sha256
           (base32
-            "0l97261p7kv2j248la9l8jyadhvldzl7khabx4c0ab84g0i85g8d"))))
+            "1aip9vwfsvwy1wvjnrc7lc117kniq7dz7xy5djqm2wy3b7wj8505"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -11946,17 +11946,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20211127.936")
+    (version "20211129.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "0ba3bfdba15ee9029d2f6ed29c2a5e7d8b31e206")))
+                 "e5b5f86defe231ba9d268f68143db6ff851195cf")))
         (sha256
           (base32
-            "0dcddq77i96a5nyj5nxi3m0hpagig0s42nlr0rhc47ll2j8avsmh"))))
+            "1zsfr9mhlx55gvxahphdbbyh6ppd6lgy3cw3c6b4yvzr7bpc6hdd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -13053,17 +13053,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211129.424")
+    (version "20211129.1207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "73c87e82d3273d85db51365eb7056458ccff2b4a")))
+                 "1f67ec282460c402be3ad21342d92c1f3b0e50f0")))
         (sha256
           (base32
-            "0wc97laa9w9w8bsrhz9vjbw2jyr7mrcjk3dp02zzsa71im8rw0pn"))))
+            "1xxbgsi207zv7h2ky16nggi8v5cj6ihv5jagsw0ja3nwlcsm4mal"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -40976,17 +40976,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20211118.815")
+    (version "20211129.1612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "f2178d215ae1d2689d33ad60f66d850a0b706e25")))
+                 "91946e40c54376f8f57f5cfe7076b53eb55244fa")))
         (sha256
           (base32
-            "1nh1ii9vx0yfgckndpxk9vgn52kf389qrgzf0n081bxdajblzca1"))))
+            "1chz6gb1j5w14ml6bb5gsqxpxss06b21n99bjzcaqrj7m5rs7jx3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -54555,17 +54555,17 @@
 (define-public emacs-html-to-hiccup
   (package
     (name "emacs-html-to-hiccup")
-    (version "20190909.1549")
+    (version "20211129.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plexus/html-to-hiccup.git")
                (commit
-                 "50a52e2b0d13d865187acdf775b8203d5003f2f1")))
+                 "97ecc8cce11f577ad4406da0367aa5eeec1bd8c6")))
         (sha256
           (base32
-            "1qi092mw2n08v6yr0j6hlpx0pnlcnhxjqbsrlw9pn4yin6zk91yp"))))
+            "0i96m9wpgwlxp8b6lw7a8lsjbxb7q9m12p8yra33q7q3ilav4g8p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -67215,17 +67215,17 @@
 (define-public emacs-lsp-treemacs
   (package
     (name "emacs-lsp-treemacs")
-    (version "20210923.2112")
+    (version "20211129.955")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-treemacs.git")
                (commit
-                 "7bf3d52bccb4a5fdce4fdde9ff61bc75161b97af")))
+                 "c40a381730251039d33400cc14539c1e0729385f")))
         (sha256
           (base32
-            "0vbwam492y858cq1mrka9bn2i695c6rxvap8z92diklmaawdkg4p"))))
+            "1nx5ffgy3yzyynz3ll82flxwci4zrmg608iyk8bqzgfpmdlb4ass"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -105930,17 +105930,17 @@
 (define-public emacs-subsonic
   (package
     (name "emacs-subsonic")
-    (version "20211016.940")
+    (version "20211129.1318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~amk/subsonic.el")
                (commit
-                 "a070cff3f802796dd0dbab4b2ebfbb9f05c36b0b")))
+                 "46bc162ed009471534a161db04b36103cf410256")))
         (sha256
           (base32
-            "12j0czk3hgpkm7sxpabwii67q2gfj97f51akhnysdzrm82yb4p60"))))
+            "1rvlnmxnz5njdbzl94d3wqd1faw96f2fllzppfblb47mjzg07dds"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-transient" ,emacs-transient)))
@@ -110254,17 +110254,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20211105.100")
+    (version "20211129.1146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "349116159f707a474926b47e5f6b6240e8997a4d")))
+                 "4e8aa09b3f9b909dddde85269eb5051b5801a07c")))
         (sha256
           (base32
-            "1yzjdr9rdxax8gcd0k978v9akb1wk2ff14wfigiaqkvqs3sd8zxy"))))
+            "1kvnzy5cc0m1aw0l4n7wnlp6bqd463n7586y2cqhs0bv1qi4bkh4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("lisp/*.el" "docs/transient.texi")))
