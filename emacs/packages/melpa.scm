@@ -8583,7 +8583,7 @@
 (define-public emacs-brutal-theme
   (package
     (name "emacs-brutal-theme")
-    (version "20211128.2137")
+    (version "20211128.2317")
     (source
       (origin
         (method git-fetch)
@@ -10063,17 +10063,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211128.1847")
+    (version "20211129.119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "b52829ad6df29b5896cb23bd6524c420cb1b57d7")))
+                 "26d6025da205386955cd065aef94c4b7e0acb5a4")))
         (sha256
           (base32
-            "0m7p6kaw6bpw2b2yq3ivpw9z3l75334ddqpparz94ikza81ln09b"))))
+            "17d3vli46xbkj17gsmgxmhna3v2qa1mvmfpy7xci7b9kjd1hkw65"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -13053,17 +13053,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211128.1555")
+    (version "20211129.424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "6444fd86d227909c842c3614d9050d1429dcb29b")))
+                 "73c87e82d3273d85db51365eb7056458ccff2b4a")))
         (sha256
           (base32
-            "03vg664si43vqnr143fyzx7vdis2f7aqyc3gy69zkrf313aj06gp"))))
+            "0wc97laa9w9w8bsrhz9vjbw2jyr7mrcjk3dp02zzsa71im8rw0pn"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -27890,17 +27890,17 @@
 (define-public emacs-elsa
   (package
     (name "emacs-elsa")
-    (version "20211127.130")
+    (version "20211129.38")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-elsa/Elsa.git")
                (commit
-                 "b056f041fb8f012b63fffa82e41057029bdcfaac")))
+                 "5b8848fd7d87ee4927adda12a6cf5ed2a7e0c186")))
         (sha256
           (base32
-            "0cbsarjsmh70638k56jbw66bq1dpvz1b71nf3lby12bdhib15xy8"))))
+            "08h86wpgr71xbxpqgbv2jikyzfh1fm33kfb6nxir001inzj0h7aq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-trinary" ,emacs-trinary)
@@ -31605,17 +31605,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20211123.2008")
+    (version "20211128.2232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "5eda325a43bd6e02ae922cdc3f3e48dfa87b90d6")))
+                 "d706e4002d63986c81a3fe2aa99517570b4e5c8d")))
         (sha256
           (base32
-            "0p67lsflp4v0x5nhpcrwflihiyayx6wqfn8mfypg66wijf6hcw8w"))))
+            "0r9sn0rh5xwpvbldk8ajg0jzaxdmmn8dgiz1p66f32x4q7zl4irv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-goto-chg" ,emacs-goto-chg)))
@@ -62959,17 +62959,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20211114.420")
+    (version "20211129.259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "4b740d88c6dcb091d701f74ddcf53e3732999ac9")))
+                 "14f8ef3a11ddb00c258c29cafe36025504b098c6")))
         (sha256
           (base32
-            "1l5rbgagdi6gfp8prj01pcgh4k3k90aijrrq5b8nkqppxiq85kh7"))))
+            "0y4x7lcrzf5lzvy6lcrv7p7i24l9l9nx8c4j3nx2674519r8vii0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -62980,8 +62980,9 @@
     (arguments
       '(#:files
         (:defaults (:exclude "kubernetes-evil.el"))))
-    (home-page "unspecified")
-    (synopsis "Magit-like porcelain for Kubernetes.")
+    (home-page
+      "https://github.com/kubernetes-el/kubernetes-el")
+    (synopsis "Magit-like porcelain for Kubernetes")
     (description
       "Documentation at https://melpa.org/#/kubernetes")
     (license #f)))
@@ -101666,17 +101667,17 @@
 (define-public emacs-slack
   (package
     (name "emacs-slack")
-    (version "20210712.628")
+    (version "20211129.310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yuya373/emacs-slack.git")
                (commit
-                 "ae1d742a0193fba38698931055708a28cc382bcf")))
+                 "ff46d88726482211e3ac3d0b9c95dd4fdffe11c2")))
         (sha256
           (base32
-            "0292z0pzvwg85pr1g3xsglp9rkna6k7b0frbm5r43yr91sr0vv3f"))))
+            "15g4dmy4iqqpk8ivhkpsngzllbw0nc5d2sc9j36sdnhwkajzhidj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-websocket" ,emacs-websocket)
