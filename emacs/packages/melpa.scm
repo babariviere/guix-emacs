@@ -4171,7 +4171,7 @@
 (define-public emacs-async-backup
   (package
     (name "emacs-async-backup")
-    (version "20211126.812")
+    (version "20211128.1603")
     (source
       (origin
         (method git-fetch)
@@ -8583,17 +8583,17 @@
 (define-public emacs-brutal-theme
   (package
     (name "emacs-brutal-theme")
-    (version "20211128.1457")
+    (version "20211128.2137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/brutal-emacs.git")
                (commit
-                 "097c613f715f49dc84234203fdbae562c3bb2d71")))
+                 "560f67765b421bad20f940033e53004c99712689")))
         (sha256
           (base32
-            "11sg51dwcxj9g23nppylzqm4z4lzdadsbj33pav9pc1zxkfqq2fw"))))
+            "1835ylf3zl19zxw11wvi68n94qckhwjmmjlk2bz5jjljvinmh1bx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/brutal-emacs")
@@ -10063,17 +10063,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211128.1319")
+    (version "20211128.1847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "c1f7fa746bc4d09ab10cede478e22a8a7c13c4f7")))
+                 "b52829ad6df29b5896cb23bd6524c420cb1b57d7")))
         (sha256
           (base32
-            "0pqfi3qidxn7wpw28mbd10rg3biw35z97mlmiqv6kfabk0a0snr2"))))
+            "0m7p6kaw6bpw2b2yq3ivpw9z3l75334ddqpparz94ikza81ln09b"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -13053,17 +13053,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211128.539")
+    (version "20211128.1555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "26a6a259ef0a767846a0823e48b7cec4d9b84fc6")))
+                 "6444fd86d227909c842c3614d9050d1429dcb29b")))
         (sha256
           (base32
-            "1rq4q8d1yx6b3h2ycb49gw6rx4lvk96nwwvly69zmas0h9ifxggg"))))
+            "03vg664si43vqnr143fyzx7vdis2f7aqyc3gy69zkrf313aj06gp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -23399,17 +23399,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20211126.305")
+    (version "20211128.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "2834e9913ca69398b0533e35c8543171df047c0b")))
+                 "69ede7d719764f26671897c5020f295e5eb1e6c8")))
         (sha256
           (base32
-            "0nnrifizypz0bpczmv5pkbrdp5alz9z9nfjj5qjh9fwwwpmixly9"))))
+            "1czl20z1sc2cfgdwhl8hly1mcbdyx41zr2swrwmzl6w3xai9lsa5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-all-the-icons" ,emacs-all-the-icons)
@@ -26232,17 +26232,17 @@
 (define-public emacs-el-secretario
   (package
     (name "emacs-el-secretario")
-    (version "20211125.1934")
+    (version "20211128.1810")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "d4078fc8f4d322b6440184c761187882b92d1720")))
+                 "59558b4973690b0f24109af95da8867a8bae8888")))
         (sha256
           (base32
-            "1zxxr544lpmw32km6dfyjybwg9psw9cgry5zzylsi3c4qp5jpyvp"))))
+            "1v4spxal8glhrszq3iy5l1rab7zpkk661s7kclsf0vf4m2pyr4lq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-ql" ,emacs-org-ql)
@@ -64963,17 +64963,17 @@
 (define-public emacs-link-hint
   (package
     (name "emacs-link-hint")
-    (version "20211008.1652")
+    (version "20211128.1600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/link-hint.el.git")
                (commit
-                 "83cd0489b16f013647d0507ef20905a0a91db433")))
+                 "3be270f3a732dc4acae6a20ff449eef0c4f9a966")))
         (sha256
           (base32
-            "0kwaia6i0asr7yqcw1anzq6lf93357cc1fphkvp0llbmxizmkzb3"))))
+            "14f0x319mqbk7vyh5nm9gijy59m45j342fl8fxgvkr7ajn4rg7aw"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-avy" ,emacs-avy)))
     (home-page
@@ -66901,17 +66901,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211128.1529")
+    (version "20211128.1836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "f808426fd092114a00e2797cc6bfaa68e725ed7a")))
+                 "f137d3f4eb8b04357e0729a54051e050be4fa8df")))
         (sha256
           (base32
-            "1fii2la8qqfwlxc1v38jn289698bw816yp02wg4afzf50j3wrjdw"))))
+            "1h6mh15gg1shm2b6pw8wriki11kxls8n78rr48lly8m0byad5hcv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -67775,17 +67775,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20211123.2245")
+    (version "20211128.1708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "a66b86d51139479d74962cc077c5215d20dd72e6")))
+                 "84104e84bbf9811b49b0f9a2a29aa15ff72d39ce")))
         (sha256
           (base32
-            "0i8d2a6lzk36ai0s2rygy33sqqd8w7ynd3fkx8d09kdanbnwl5hg"))))
+            "1s0n894ak8b7mcbacfc9hh923vk3jybifz56xc892cbf405xxx4d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -110565,17 +110565,17 @@
 (define-public emacs-tree-sitter-indent
   (package
     (name "emacs-tree-sitter-indent")
-    (version "20210322.2033")
+    (version "20211128.2236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/FelipeLema/tree-sitter-indent.el.git")
                (commit
-                 "18d263720c5a8f7fde0db368c7c36ea70437fc0b")))
+                 "5f80e89b7da2074ea7f083b769448eb7026865dc")))
         (sha256
           (base32
-            "0iwi44309837hx0sl8py175ayn7haannp1sz2d0jk7binka7n4md"))))
+            "14pi0vv193vpbwd4kb86hsnv1h8j9pcclvipp1wllv3nxw8k2ypk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-sitter" ,emacs-tree-sitter)))
