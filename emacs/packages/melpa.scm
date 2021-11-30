@@ -13212,17 +13212,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211128.217")
+    (version "20211129.2116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "f1a79c20ae51d23f76067a1e5a2f5c1c4db42ec9")))
+                 "61127a9d012a3c8c2ad6e306c9dae894ddddb015")))
         (sha256
           (base32
-            "1ag2vw7dvzyl387ljh4ya3d8qk18csl6vk8i3g4msb3silw9dv43"))))
+            "0v6y48vidq3zqfjb7sbf2vhx2cm548cq6jjzw7pvpn3dmaf4rbss"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -15596,17 +15596,17 @@
 (define-public emacs-company-stan
   (package
     (name "emacs-company-stan")
-    (version "20210130.1325")
+    (version "20211129.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stan-dev/stan-mode.git")
                (commit
-                 "9bb858b9f1314dcf1a5df23e39f9af522098276b")))
+                 "150bbbe5fd3ad2b5a3dbfba9d291e66eeea1a581")))
         (sha256
           (base32
-            "031418nkp9qwlxda8i3ankp3lq94sv8a8ijwrbcwb4w3ssr9j3ds"))))
+            "06y4gvw8g4mjyiv77rznivqphh9sayjmi9aqr9nhxlf6i19a6hqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-company" ,emacs-company)
@@ -26617,17 +26617,17 @@
 (define-public emacs-eldoc-stan
   (package
     (name "emacs-eldoc-stan")
-    (version "20210130.1325")
+    (version "20211129.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stan-dev/stan-mode.git")
                (commit
-                 "9bb858b9f1314dcf1a5df23e39f9af522098276b")))
+                 "150bbbe5fd3ad2b5a3dbfba9d291e66eeea1a581")))
         (sha256
           (base32
-            "031418nkp9qwlxda8i3ankp3lq94sv8a8ijwrbcwb4w3ssr9j3ds"))))
+            "06y4gvw8g4mjyiv77rznivqphh9sayjmi9aqr9nhxlf6i19a6hqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-stan-mode" ,emacs-stan-mode)))
@@ -38642,17 +38642,17 @@
 (define-public emacs-flycheck-stan
   (package
     (name "emacs-flycheck-stan")
-    (version "20210130.1325")
+    (version "20211129.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stan-dev/stan-mode.git")
                (commit
-                 "9bb858b9f1314dcf1a5df23e39f9af522098276b")))
+                 "150bbbe5fd3ad2b5a3dbfba9d291e66eeea1a581")))
         (sha256
           (base32
-            "031418nkp9qwlxda8i3ankp3lq94sv8a8ijwrbcwb4w3ssr9j3ds"))))
+            "06y4gvw8g4mjyiv77rznivqphh9sayjmi9aqr9nhxlf6i19a6hqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-flycheck" ,emacs-flycheck)
@@ -62904,17 +62904,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20211124.1909")
+    (version "20211129.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "4f1e4f4bb591d1870ff9453f1f2c8992e0044b89")))
+                 "f75a78f785ef1782a32f4464a89fd4c33bf368ca")))
         (sha256
           (base32
-            "0y9kchi6wz0gp7jdcq67k9bp5vlw5q9ki4h2yiqaxa5a0pp7zvkl"))))
+            "0as26hsvkkjzls68wf6f1wwcrpnhj31g13cykclgq3jdwcah6xsp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-transient" ,emacs-transient)
@@ -70147,17 +70147,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211128.1413")
+    (version "20211129.2044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "c03de3f4e92480be2646fb337e51d0edf2ad1416")))
+                 "feaa984ecef5478f6e612a7810efd401ad147e29")))
         (sha256
           (base32
-            "0nncp132n7as2d7yfpymc6r0ia5pszqfdanqxzm1h7lhniwmlmhr"))))
+            "0211hny4rrn06ld56d6sgfy8ljmaqmr1cwf79hcvrk5cw3mj42df"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -71850,17 +71850,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211128.944")
+    (version "20211129.1923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "0e31ed4945981bca50a4b39ff271d13a0ea4f789")))
+                 "7efd4dc6a1839201b66c88727077afe9265127d5")))
         (sha256
           (base32
-            "1a5d0fvk1d6h3dia8ykrjbnpi78jnxm4z1pjbj5c63hwjjc1gq51"))))
+            "05z8raf6cjy4z9ssvvrw5x3pr30xdzf7pyzf3c2y72cmqrac5x4d"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -78937,17 +78937,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20211125.1437")
+    (version "20211129.1412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "c8731aacfaa92aceda0a2c060c78a75a6b443874")))
+                 "0f674253a8a5452f355253bdfee56783c2b3949f")))
         (sha256
           (base32
-            "17j0sh2xyd2nyi8g90nklqmr30qkrfzhvz18lgry95zlqiq6c9d4"))))
+            "19hsc75wx946klkxx513i2g974lskkcg4bhvdfc0fccrbf1b8q7j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -105103,17 +105103,17 @@
 (define-public emacs-stan-mode
   (package
     (name "emacs-stan-mode")
-    (version "20210130.1325")
+    (version "20211129.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stan-dev/stan-mode.git")
                (commit
-                 "9bb858b9f1314dcf1a5df23e39f9af522098276b")))
+                 "150bbbe5fd3ad2b5a3dbfba9d291e66eeea1a581")))
         (sha256
           (base32
-            "031418nkp9qwlxda8i3ankp3lq94sv8a8ijwrbcwb4w3ssr9j3ds"))))
+            "06y4gvw8g4mjyiv77rznivqphh9sayjmi9aqr9nhxlf6i19a6hqh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -105129,17 +105129,17 @@
 (define-public emacs-stan-snippets
   (package
     (name "emacs-stan-snippets")
-    (version "20210130.1325")
+    (version "20211129.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stan-dev/stan-mode.git")
                (commit
-                 "9bb858b9f1314dcf1a5df23e39f9af522098276b")))
+                 "150bbbe5fd3ad2b5a3dbfba9d291e66eeea1a581")))
         (sha256
           (base32
-            "031418nkp9qwlxda8i3ankp3lq94sv8a8ijwrbcwb4w3ssr9j3ds"))))
+            "06y4gvw8g4mjyiv77rznivqphh9sayjmi9aqr9nhxlf6i19a6hqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-stan-mode" ,emacs-stan-mode)
