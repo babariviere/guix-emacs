@@ -13053,17 +13053,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211129.1207")
+    (version "20211130.514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "1f67ec282460c402be3ad21342d92c1f3b0e50f0")))
+                 "36eac01474c7b49ea4d006b6663271242be7bf7b")))
         (sha256
           (base32
-            "1xxbgsi207zv7h2ky16nggi8v5cj6ihv5jagsw0ja3nwlcsm4mal"))))
+            "1zqf9ywrj5sriimsjy0fm1w9mw6drq1l5pqwcfc7qv9cskxza5hk"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -13212,17 +13212,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211129.2116")
+    (version "20211130.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "61127a9d012a3c8c2ad6e306c9dae894ddddb015")))
+                 "6dfdcd0af0cd02177d6106478e632d4545f8f301")))
         (sha256
           (base32
-            "0v6y48vidq3zqfjb7sbf2vhx2cm548cq6jjzw7pvpn3dmaf4rbss"))))
+            "1bvkd20lvmkmiv86lfdi76l1z6nbickr47nj4q7fqg790wcv0fdz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -40773,17 +40773,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20211111.2038")
+    (version "20211126.1526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "41efa674cff0b447efbc103494fd61ec9b9156ae")))
+                 "1220c0ccebc84e3689cd52df90dad6d08b307f10")))
         (sha256
           (base32
-            "0baaq8bf07aq80ll1q86q9dzzgkpn6j5jl1c1dssc04awg69kjsb"))))
+            "1ighh59pgi95qjxiylpkypdklzfwla2d9m6fvjdybj9svdkmfx66"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -42250,17 +42250,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211127.1322")
+    (version "20211130.202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "61507dd264bec743cdc5843162ebc8779cf6d896")))
+                 "2d6f41685be7591137a47f22937969cc2b607c9a")))
         (sha256
           (base32
-            "1vnp3zrxv1fymq33vi8n21b6i71nax0jqsj454p18s3fq2m682g3"))))
+            "00hfp8gzs34yrimbydrx28j0rxsz6q19iy70d03q0xvgznw06rpf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42409,17 +42409,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20211125.234")
+    (version "20211130.205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "d24e673c5e2095f8add1fc1a72a5020f6fd18f33")))
+                 "4f47fe3321294c5e1e83634139bc73649de51224")))
         (sha256
           (base32
-            "1yy7cj2f3jv36bfq2q9qpq3crfydysfnmzgaaw7dynsmvpkhavxa"))))
+            "1jss1x1q6nkigl2w2cglajq2nivm9dr0wh65ybf1brkjzwjb6g0z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-geiser" ,emacs-geiser)))
@@ -57334,17 +57334,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20211101.558")
+    (version "20211130.214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-inkpot-theme.git")
                (commit
-                 "1ca71416869e7515a9c2587b35f21a11921686f3")))
+                 "a7afa500f949f6af4c4c7ceccf940a1906188a05")))
         (sha256
           (base32
-            "0pl2hpcy9165np17gwa9qhqxb43kwm0z746pxcga7rfg6apy6krc"))))
+            "1xgqjyv9php5hisb1lypdaiscrxncq2p2ihl3yc0dmiks8llvf39"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-inkpot-theme")
@@ -70983,17 +70983,17 @@
 (define-public emacs-mini-modeline
   (package
     (name "emacs-mini-modeline")
-    (version "20210725.900")
+    (version "20211130.604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kiennq/emacs-mini-modeline.git")
                (commit
-                 "fb2fc8661b4a32a40b3f5777ae1d69654c263ff0")))
+                 "434b98b22c69c8b3b08e9c267c935591c49a8301")))
         (sha256
           (base32
-            "1bv06p6m5xygqcpwxngds2hral58h23jvp3di5dq3ac2hkf2m92l"))))
+            "063bpi3gxzi6kkc3mb9h4m8lvbsvfw47z559960h912h2l3z6vhq"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-dash" ,emacs-dash)))
     (home-page
@@ -78937,17 +78937,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20211129.1412")
+    (version "20211130.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "0f674253a8a5452f355253bdfee56783c2b3949f")))
+                 "1ccf74ffdbb0dd34caa63022e92f947c09c49c86")))
         (sha256
           (base32
-            "19hsc75wx946klkxx513i2g974lskkcg4bhvdfc0fccrbf1b8q7j"))))
+            "16vhmm9an2n5wlj7bvz2rx2qassk5b3d6la90kfm7lnqwch4a7mn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
