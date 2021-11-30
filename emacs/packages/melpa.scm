@@ -6146,18 +6146,20 @@
 (define-public emacs-baidu-translate
   (package
     (name "emacs-baidu-translate")
-    (version "20190817.1318")
+    (version "20211130.1235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LiShiZhensPi/baidu-translate.git")
                (commit
-                 "b04a74d09ff5e3fbefd1b39b2abe79a9e272321a")))
+                 "16101d5e6ce19bbcc8badf4422a95db457160999")))
         (sha256
           (base32
-            "0qja8xw2sk2wn7w6qa5zj2i0j5c8a7cnldrag99ip2b5m02f1z4l"))))
+            "0799gc0nhqmgz691sn2zam3bfyraq9ljr4da1481nawwkwyzad1v"))))
     (build-system melpa-build-system)
+    (propagated-inputs
+      `(("emacs-unicode-escape" ,emacs-unicode-escape)))
     (home-page
       "https://github.com/liShiZhensPi/baidu-translate")
     (synopsis "A plugin using baidu-translate-api")
@@ -8583,21 +8585,21 @@
 (define-public emacs-brutal-theme
   (package
     (name "emacs-brutal-theme")
-    (version "20211128.2317")
+    (version "20211130.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/brutal-emacs.git")
                (commit
-                 "560f67765b421bad20f940033e53004c99712689")))
+                 "01140537dcddec7869529fb65784b6b83052a253")))
         (sha256
           (base32
-            "1835ylf3zl19zxw11wvi68n94qckhwjmmjlk2bz5jjljvinmh1bx"))))
+            "0r5hf2kylgpv4x0aybc4yzr960m3m8wbff0v15gwgm6dgvr8yq7f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/brutal-emacs")
-    (synopsis "Brutalist theme")
+    (synopsis "Brutal theme")
     (description
       "Documentation at https://melpa.org/#/brutal-theme")
     (license #f)))
@@ -10655,17 +10657,17 @@
 (define-public emacs-centaur-tabs
   (package
     (name "emacs-centaur-tabs")
-    (version "20210507.1633")
+    (version "20211130.637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ema2159/centaur-tabs.git")
                (commit
-                 "8b4249c40581368faf7bb8e06f86b9eee199c3c6")))
+                 "5860a5c40c2318797f1274ea4c6907ae77ea1ec9")))
         (sha256
           (base32
-            "185q3iplgycmq6zyyjn3aqq1gylvbb7r8zd1q9km2xl1fzg94jxi"))))
+            "10xw1cz9b6fvkn4rjsds1m2xrz9hf22k9bbdy089v49nwla5xiyk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-powerline" ,emacs-powerline)))
@@ -11497,17 +11499,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20211129.1112")
+    (version "20211130.1240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "e8eadc7048b5c63221e50d4a632b85e341ae0635")))
+                 "37bc29d9233820486b85c39b93169ba3fef9af4c")))
         (sha256
           (base32
-            "0fh0prx95b63pzmby8wwr4fsv4bl7snxwrjfjl7j8pqznpm78lca"))))
+            "0b49aqi7bz1ryg0yg02lb132ma4jqiddfvsy3c8hfv1djzxl9179"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -13053,17 +13055,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211130.514")
+    (version "20211130.948")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "36eac01474c7b49ea4d006b6663271242be7bf7b")))
+                 "bfc67e02f593d747532ec39284b771ec05df58d3")))
         (sha256
           (base32
-            "1zqf9ywrj5sriimsjy0fm1w9mw6drq1l5pqwcfc7qv9cskxza5hk"))))
+            "1pc7g1cfcqs7a2b83y7bnydj6077kl3x4xb61g8gxxdgkd4f1cvn"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -13212,17 +13214,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211130.153")
+    (version "20211130.1233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "6dfdcd0af0cd02177d6106478e632d4545f8f301")))
+                 "4427bfde0874f4a95b7c6c1df7fdf8cc343e6a9d")))
         (sha256
           (base32
-            "1bvkd20lvmkmiv86lfdi76l1z6nbickr47nj4q7fqg790wcv0fdz"))))
+            "0996kwkmy2h7ad1nfjap7pphnvxk48zyvhnrsrli6yhkkadkrs0r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -35467,17 +35469,17 @@
 (define-public emacs-finito
   (package
     (name "emacs-finito")
-    (version "20211126.1425")
+    (version "20211130.1023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/finito.el.git")
                (commit
-                 "45e25159fc1ffffcfe2c4d2230aa774ea4863483")))
+                 "b547ff8b81aa956d582c1c8edbf4c52ba017265d")))
         (sha256
           (base32
-            "1z6rcsn4m8ylk4081va7k0b560r0l90hbma69abma2y523i17skm"))))
+            "000szg9gg0ma61s0kx7ab1gnywbbi6w43csrprjyrhbgldb2bwbk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -40976,17 +40978,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20211129.1612")
+    (version "20211130.900")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "91946e40c54376f8f57f5cfe7076b53eb55244fa")))
+                 "205d7caeb65766e7787d827a80cca893747a09cc")))
         (sha256
           (base32
-            "1chz6gb1j5w14ml6bb5gsqxpxss06b21n99bjzcaqrj7m5rs7jx3"))))
+            "14cb4r23pn98sxzh0qwjwpvm7k7q9hhpks8avydccwssm69x1s1w"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -54833,17 +54835,17 @@
 (define-public emacs-humanoid-themes
   (package
     (name "emacs-humanoid-themes")
-    (version "20210819.811")
+    (version "20211130.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/humanoid-colors/emacs-humanoid-themes.git")
                (commit
-                 "3a157bab0493fe0654de0324ec59eef9b3d15202")))
+                 "33c7f8dd55e30c255c2535647fee4126268f8dd8")))
         (sha256
           (base32
-            "0jm81nax0r4h82gd7pbvxpf2nb7ynmxq099103y0s5xhy1cx6v8l"))))
+            "1wpvk3w4aj8x91xjyplg864j9c4kz43r3831kadcnkp0d1p3k9hm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/humanoid-colors/emacs-humanoid-themes")
@@ -70147,17 +70149,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211129.2044")
+    (version "20211130.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "feaa984ecef5478f6e612a7810efd401ad147e29")))
+                 "427272d96be14892d6bafd17c04e37a7a7a44f5c")))
         (sha256
           (base32
-            "0211hny4rrn06ld56d6sgfy8ljmaqmr1cwf79hcvrk5cw3mj42df"))))
+            "13cwb499d4l7f2rs0d75w7wr91rgf1ggh8zdk4k17sp2cnl4lvsn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -80678,17 +80680,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20210901.244")
+    (version "20211130.716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "23cc52bb539c898de228fc438cd24ed10213bea3")))
+                 "3b119a22be0ee22d16773e4d9a26478d3c8bf2df")))
         (sha256
           (base32
-            "1g32chan6rhlp3kvzd2lvf104i3p37q1sm0d89pq6sya0ia2as1n"))))
+            "1khvfw2vqakvnai0i5wzr6mlxr01ijbcjm655xv17yp95d878bqw"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -81846,17 +81848,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20211128.848")
+    (version "20211130.1152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "c3889b3b17d43092be9146825d45c46c5eaea798")))
+                 "e992fc27e2b5db3e3b1ab15b4570a856c895afe1")))
         (sha256
           (base32
-            "1imm5nqbnnww60k5ckg9a28q7c1i2vmm91fqh700x9mrrylp5ksz"))))
+            "09zdw4d4ahqci9pjpm0k2y6qf4y03mlagn31vspm4dm9mhzv48j9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -81928,17 +81930,17 @@
 (define-public emacs-org-roam-ui
   (package
     (name "emacs-org-roam-ui")
-    (version "20211127.1436")
+    (version "20211130.921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-ui.git")
                (commit
-                 "0ff98bfc93dab79c257b0c84b5dd7c8db37e1590")))
+                 "af0a8f2365968bbafc7991304060f381f9e67316")))
         (sha256
           (base32
-            "1hwr6k77dfqqrn9s93f34l6pw2ip91z28l9zm441lsnmg4d9k19d"))))
+            "1440j29vsg218l115mrjynjlfms2ki24sk5jg65vshnfk34p458x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-roam" ,emacs-org-roam)
@@ -111497,17 +111499,17 @@
 (define-public emacs-typescript-mode
   (package
     (name "emacs-typescript-mode")
-    (version "20211022.1051")
+    (version "20211130.1332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-typescript/typescript.el.git")
                (commit
-                 "13e6da6c5746187842d8ebb5323bf2d88d5759c2")))
+                 "7f1cde0a901615abb45556a4555a32803eddd6a7")))
         (sha256
           (base32
-            "1vqx8nzjnjj4980yzlcn2bpph7rjmk0b7nblfspn8xp83iw3cd2m"))))
+            "1vb5940avkzhldaihw6f0ci0z8691455m34kmkyxzp4r61l01zlp"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/ananthakumaran/typescript.el")
