@@ -11499,17 +11499,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20211130.1240")
+    (version "20211201.1016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "37bc29d9233820486b85c39b93169ba3fef9af4c")))
+                 "311c3b0a1bad67aaff87804a724369001796125a")))
         (sha256
           (base32
-            "0b49aqi7bz1ryg0yg02lb132ma4jqiddfvsy3c8hfv1djzxl9179"))))
+            "0zm27n6076k1vxyy85ylvsdp3dhhvq3jh8c99zivhxw95d76ch3w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -13055,17 +13055,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211201.652")
+    (version "20211201.839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "58a64357b42aced78b8cb47876eecde4c24e5def")))
+                 "3ab0a6100f7cd9f119edc9815f270b1e1e6748b5")))
         (sha256
           (base32
-            "0x8d8m0hsnvdz0djbbylywbjm4m4wy0wbyj14r4sfim4jccvg9qx"))))
+            "0nnr8gyihvq6g8dbg96x2p8dc111kjjzfk6rh1cpqjhd18lbg2rh"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -13214,17 +13214,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211130.1446")
+    (version "20211201.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "4427bfde0874f4a95b7c6c1df7fdf8cc343e6a9d")))
+                 "cb2df4d1a0a163bbb1d85bf24b3e8decbc2ee988")))
         (sha256
           (base32
-            "0996kwkmy2h7ad1nfjap7pphnvxk48zyvhnrsrli6yhkkadkrs0r"))))
+            "1ml67x3qqarvcp3hbwpksgxcqj21gk4zqnp3f8sfyf7pcg34vn5v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -48309,17 +48309,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20211125.534")
+    (version "20211201.1005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "338ca0a55fcb487eccd72ed11b75f2a3cc700280")))
+                 "98fca4960c5b05fff3ff8f518099e1e7f2a7264b")))
         (sha256
           (base32
-            "0ijncbdb9z44bbbjj9jgfcyc0xrdxcla62l6ww6zpqzf1a57ddq9"))))
+            "1ac171c0fcp08v3vyqc8qkcp5s26kpf2x0387ycfdnprx1sb7fjd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -60564,17 +60564,17 @@
 (define-public emacs-js2-mode
   (package
     (name "emacs-js2-mode")
-    (version "20211105.1214")
+    (version "20211201.1250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooz/js2-mode.git")
                (commit
-                 "d2636f95ebe4d423dc9b4311aff248c7688271c5")))
+                 "d18730505e4ab57ec2b036980a62f6c6a60381e9")))
         (sha256
           (base32
-            "1p293jhzsqzn4kljz1nl87jg1aq35jzqzs31ryfi8dn8iicwyd85"))))
+            "1q26y3fmxlz2hmxdlkh5qpv20c49nv9vd0dmcmzzimr6c8y5yscq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mooz/js2-mode/")
     (synopsis "Improved JavaScript editing mode")
@@ -66907,17 +66907,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211128.1836")
+    (version "20211201.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "f137d3f4eb8b04357e0729a54051e050be4fa8df")))
+                 "eb0c79918c7c8011d417d120ab4d603bd2f606c1")))
         (sha256
           (base32
-            "1h6mh15gg1shm2b6pw8wriki11kxls8n78rr48lly8m0byad5hcv"))))
+            "1h3n7b4ssrvb9dl738y57cs5xkw40xvrvgfi3mg74hgvndlpb6gi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -70152,17 +70152,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211201.553")
+    (version "20211201.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "d92728957a71e6a0a14bb3a433df8bdd23fda177")))
+                 "fc04745514ab5eb3a1e92dc74ffb530ce1d00d44")))
         (sha256
           (base32
-            "14gl8pkfwj2gkibxhy1w67a9apvjdbcmarnzq98zss885301n302"))))
+            "0hycfxy0i5dil42ygjg9xyb3i3lfp12yfp423js07kb6glmjri1q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -82242,17 +82242,17 @@
 (define-public emacs-org-static-blog
   (package
     (name "emacs-org-static-blog")
-    (version "20210616.809")
+    (version "20211201.1221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-static-blog.git")
                (commit
-                 "4738a7bdb24cb4e1d1d5effc23f953e4c76e7713")))
+                 "cb1fa87896c5cc31430f2d375737144bb1982a76")))
         (sha256
           (base32
-            "0kpa1rnpxfar8xkah29f9h6q26fgdxcb8gimsfqvrj145vama7pr"))))
+            "0q8vznz2q54qkvkspjamlphsgk95pjvlf89fc5m3v5pr92qhvzbk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/org-static-blog")
@@ -105935,17 +105935,17 @@
 (define-public emacs-subsonic
   (package
     (name "emacs-subsonic")
-    (version "20211130.1709")
+    (version "20211201.939")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~amk/subsonic.el")
                (commit
-                 "46c6122e633e107c777a8485e0d248fbe5df717f")))
+                 "ee2b1f20521e647472be7553242eb2253809e1d1")))
         (sha256
           (base32
-            "1sd8zam263cyf72g4g5lz0vfnfgkzv00z32c182nbihfihvp4ybf"))))
+            "1j8q47vvvsdfb9hg2r72dgmg2a886aa15yrvi6ahp7g5z4jmp19k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-transient" ,emacs-transient)))
@@ -117262,17 +117262,17 @@
 (define-public emacs-wucuo
   (package
     (name "emacs-wucuo")
-    (version "20210915.1113")
+    (version "20211201.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/wucuo.git")
                (commit
-                 "cf4cfbcdc8e756986b927224a42a9006d070f36a")))
+                 "b6e35e275e033c664c7e47fbf2314231b90d8b06")))
         (sha256
           (base32
-            "1ach6c5y54gcfgq1nmgla7lri8mi7nja8a85slws4zxvl4b6802w"))))
+            "09lyjm6achf8bpx7921aascsagnh467wvjpb7s25wisap7x2706j"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/redguardtoo/wucuo")
     (synopsis
