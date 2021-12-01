@@ -13055,17 +13055,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211130.1538")
+    (version "20211201.652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "bfc67e02f593d747532ec39284b771ec05df58d3")))
+                 "58a64357b42aced78b8cb47876eecde4c24e5def")))
         (sha256
           (base32
-            "1pc7g1cfcqs7a2b83y7bnydj6077kl3x4xb61g8gxxdgkd4f1cvn"))))
+            "0x8d8m0hsnvdz0djbbylywbjm4m4wy0wbyj14r4sfim4jccvg9qx"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -70152,17 +70152,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211130.1956")
+    (version "20211201.553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "dc0553b25de6d3382a450aa99ea594b5b671ccd2")))
+                 "d92728957a71e6a0a14bb3a433df8bdd23fda177")))
         (sha256
           (base32
-            "1x2zqfwbvrw3plfb6mp44n9v08vnblswxc7xyqvi7zilxxj3jg9l"))))
+            "14gl8pkfwj2gkibxhy1w67a9apvjdbcmarnzq98zss885301n302"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -75071,17 +75071,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20211125.408")
+    (version "20211201.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "3710149890c04aafd09c1d8c979b588548d3eaf2")))
+                 "4aaf36db2bbbb8aef80a39e9af01ae18d017f103")))
         (sha256
           (base32
-            "0nq87r8haw11iibrpxib4pmn7mzl9y571a9g1slyqvfc2agjgj5g"))))
+            "049ij0mns5nynfwg61il0n8wni39pr4249p4124158ad3ckr4clr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
