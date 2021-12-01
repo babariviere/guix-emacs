@@ -6500,17 +6500,17 @@
 (define-public emacs-bazel
   (package
     (name "emacs-bazel")
-    (version "20211031.1941")
+    (version "20211130.1645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
                (commit
-                 "cdb2643dba39fe2bd64ba3b190b94d1ef1d83b18")))
+                 "03fa200475e830b9df98c716bec26d7fb07ddda2")))
         (sha256
           (base32
-            "0ln06dprnivx9zxm6n23ppyx7x4kbn0f85pxwvkq32aq7wnqz82m"))))
+            "16gx2qc4q14kmqkfxncxg6c2qz5si3wdql1iwkv782b335j0gkab"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bazelbuild/emacs-bazel-mode")
@@ -13055,7 +13055,7 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211130.948")
+    (version "20211130.1538")
     (source
       (origin
         (method git-fetch)
@@ -13214,7 +13214,7 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211130.1233")
+    (version "20211130.1446")
     (source
       (origin
         (method git-fetch)
@@ -16216,17 +16216,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211123.1142")
+    (version "20211130.1852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "09e7813a4c42be0ce04c500fda44cee457a35c85")))
+                 "fec9fd36829849f54f287d156f3b1645c8e28018")))
         (sha256
           (base32
-            "16dlzii788a08vnfdfawsv9gpznqwnbc7p28g028li5qcfca98db"))))
+            "0m0fwj3zr4mklnd647k2qkqwb8670gkjj39inx9qpg19xf6sn83n"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -54835,7 +54835,7 @@
 (define-public emacs-humanoid-themes
   (package
     (name "emacs-humanoid-themes")
-    (version "20211130.1254")
+    (version "20211130.1450")
     (source
       (origin
         (method git-fetch)
@@ -61272,17 +61272,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20211128.347")
+    (version "20211130.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-jupyter.git")
                (commit
-                 "57306bf38512aea9462822a3c352f99f8d25f3d3")))
+                 "c702f1e90f9acded57297fbba88322f16f127b27")))
         (sha256
           (base32
-            "163d3c9wndscai4km8y7i1yw6lxbsvf0w5c893kz4k2i0avwqc3c"))))
+            "0rvx5bw4zza09agd9kn9milk82mbqwm5iwq8xcmyb9srpkwrqgms"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-zmq" ,emacs-zmq)
@@ -66559,21 +66559,24 @@
 (define-public emacs-lsp-docker
   (package
     (name "emacs-lsp-docker")
-    (version "20210529.621")
+    (version "20211130.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-docker.git")
                (commit
-                 "7039afe9507467e0b1c1fba485f26a7892463bc5")))
+                 "53707f8ddc1716de68f1081580aa2441bc5c53f7")))
         (sha256
           (base32
-            "1f0k76ic6cv6kdszy38jfi5wbv1i9qqp3gnn63j4p0f0xj0ppsgw"))))
+            "000hvyspx3ajjb7v44my0jn425m2ckp0ww0hhjm81iwwnp28hsfa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)))
+        ("emacs-lsp-mode" ,emacs-lsp-mode)
+        ("emacs-f" ,emacs-f)
+        ("emacs-yaml" ,emacs-yaml)
+        ("emacs-ht" ,emacs-ht)))
     (home-page
       "https://github.com/emacs-lsp/lsp-docker")
     (synopsis "LSP Docker integration")
@@ -70149,17 +70152,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211130.1320")
+    (version "20211130.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "427272d96be14892d6bafd17c04e37a7a7a44f5c")))
+                 "dc0553b25de6d3382a450aa99ea594b5b671ccd2")))
         (sha256
           (base32
-            "13cwb499d4l7f2rs0d75w7wr91rgf1ggh8zdk4k17sp2cnl4lvsn"))))
+            "1x2zqfwbvrw3plfb6mp44n9v08vnblswxc7xyqvi7zilxxj3jg9l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -72237,17 +72240,17 @@
 (define-public emacs-moody
   (package
     (name "emacs-moody")
-    (version "20211031.1815")
+    (version "20211130.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/moody.git")
                (commit
-                 "5ce7cc070ff5a295b1cc4b15b94698447f9596ae")))
+                 "60d49cb8ead8fc24b7034fff4de3c4ad959398b6")))
         (sha256
           (base32
-            "0yrxdxd3iv6vmym8fwp1d1r3bliid5my3a9720pdbhd887i6m4bx"))))
+            "0lqqxxhrfr9bad6i9xas0b8fcgqwfgvgh6zfla63j5mm4x4azj7x"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/moody")
     (synopsis "Tabs and ribbons for the mode line")
@@ -81691,17 +81694,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20211119.134")
+    (version "20211130.1508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "d013e202c2b8b72a8d8b853f1fe4ec31d93e7174")))
+                 "14c79aea2b9172a148a55defd5ab925536e8a134")))
         (sha256
           (base32
-            "1xi7ipp78dxdhdfw9fcpdkh5x4f21kfmqxfvjnycvsniz0cg50hn"))))
+            "0n85p9bh8ql53l1sdk951h179shfybvzqa873baqjdlv8nnb9wjy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -83338,17 +83341,17 @@
 (define-public emacs-orgtbl-aggregate
   (package
     (name "emacs-orgtbl-aggregate")
-    (version "20210925.1850")
+    (version "20211130.1611")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgaggregate.git")
                (commit
-                 "3ddf2fc2262ec7d1ae62aff251a70dcb26dd5f04")))
+                 "7378223395b80f34afe60bd30072f6a5367e09ce")))
         (sha256
           (base32
-            "09lj6kw1fz1hmrr703rx46d3zsp1kpdzavc3nv1q8x7ii9q0w9bw"))))
+            "07k630nqn13s442mbvqmzah1d6skj6r2iiki6z11ayar5qh4178z"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -93917,17 +93920,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20211126.1444")
+    (version "20211130.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "cdc552eed25a44de1c53f0200be791dc83d65022")))
+                 "ef54a42ddd32f8827eef430f0410e392f9cb1726")))
         (sha256
           (base32
-            "08mxv5wn5bnd60m2zrnhdxaam4i8xh5x0r6l9p8wa6bviph8j7lv"))))
+            "1x81l60k4qb2ffb85sqjr704dyh8dy28wq4rc8d5vc9qpmm1z3kf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -100065,7 +100068,7 @@
 (define-public emacs-shackle
   (package
     (name "emacs-shackle")
-    (version "20210508.1637")
+    (version "20211118.1129")
     (source
       (origin
         (method url-fetch)
@@ -100075,7 +100078,7 @@
                ".el"))
         (sha256
           (base32
-            "1sik6f13m516hcpi98g60sijx6q8nw84b63b3g9cb9wpp1b04ify"))))
+            "1iscjpkhdkz9s48xj610l1sinqnc3vmf4ams8lv61yw9is8kxqdg"))))
     (build-system melpa-build-system)
     (home-page "https://depp.brause.cc/shackle")
     (synopsis "Enforce rules for popups")
@@ -105932,17 +105935,17 @@
 (define-public emacs-subsonic
   (package
     (name "emacs-subsonic")
-    (version "20211129.1318")
+    (version "20211130.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~amk/subsonic.el")
                (commit
-                 "46bc162ed009471534a161db04b36103cf410256")))
+                 "46c6122e633e107c777a8485e0d248fbe5df717f")))
         (sha256
           (base32
-            "1rvlnmxnz5njdbzl94d3wqd1faw96f2fllzppfblb47mjzg07dds"))))
+            "1sd8zam263cyf72g4g5lz0vfnfgkzv00z32c182nbihfihvp4ybf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-transient" ,emacs-transient)))
@@ -108635,17 +108638,17 @@
 (define-public emacs-text-categories
   (package
     (name "emacs-text-categories")
-    (version "20211031.947")
+    (version "20211130.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Dspil/text-categories.git")
                (commit
-                 "d400c2692373c14d7cf773e7ae587cbe9c7d1e13")))
+                 "b6afe804e23c624eec2af0f2a5c04bdcdfd833b5")))
         (sha256
           (base32
-            "1wbx74pc0lzb51gs43zhs66jid4kyaavcgckx37m5m05k17kdv97"))))
+            "0p63ypxfd4s0ywmja3ynyn0i9mirgv8kyr2wj4a0i20havxd29gz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Dspil/text-categories")
