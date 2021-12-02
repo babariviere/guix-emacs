@@ -11653,17 +11653,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20211126.1158")
+    (version "20211202.1057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "41abc47dc855bcdc4d05e284cb5a5d087b4fbbca")))
+                 "9d4c46f9cc9c49ffa75ce687db27a775bb9b2d9f")))
         (sha256
           (base32
-            "1xzqdbykkw9dydm5bl4i4bb4b0x0z778fb9q0c5n9c0b25qvk0yw"))))
+            "1xsfih7vjkbnsbbh2vi277z6aq7sr4jvymfqxrjmfq6z2fhifnfh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-clojure-mode" ,emacs-clojure-mode)
@@ -16216,17 +16216,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211130.1852")
+    (version "20211202.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "fec9fd36829849f54f287d156f3b1645c8e28018")))
+                 "b93bc629ff0613c41192246d870be6f8a8824dc7")))
         (sha256
           (base32
-            "0m0fwj3zr4mklnd647k2qkqwb8670gkjj39inx9qpg19xf6sn83n"))))
+            "02l68p9j6sg4ixbp2mcb09friqn5gnkmag2bh69px48jfrzd6fr3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -33362,17 +33362,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211120.2246")
+    (version "20211202.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "2821bb745199f428ab616c90353e601e7e83264e")))
+                 "bf43cae6579ce41d58eb2a13156dcee39345c6ba")))
         (sha256
           (base32
-            "0sa062f0s0ykwh8wfiz1gsqmhakrbqvjcxgj2ibjkkwyrlqczbya"))))
+            "1zdwbbn4qdi93fr1p41k3hbx67vifxs7a97z6mwilgi4l4yw76qa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-edit" ,emacs-tree-edit)
@@ -40978,17 +40978,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20211130.900")
+    (version "20211202.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "205d7caeb65766e7787d827a80cca893747a09cc")))
+                 "f90375181460a164d1d2af966c0e7015a53e9b0b")))
         (sha256
           (base32
-            "14cb4r23pn98sxzh0qwjwpvm7k7q9hhpks8avydccwssm69x1s1w"))))
+            "1hs9d0pnzkcl2ajjfwspghwfkrp0f41bv2pz6kdj1lvf2dd476db"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -62961,17 +62961,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20211129.259")
+    (version "20211202.623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "14f8ef3a11ddb00c258c29cafe36025504b098c6")))
+                 "79c5d1ee76eded5921a203f8bd544171c307b472")))
         (sha256
           (base32
-            "0y4x7lcrzf5lzvy6lcrv7p7i24l9l9nx8c4j3nx2674519r8vii0"))))
+            "183k1j636ywwq80g38k98a6rf1ggkwzd9823wixsx1c3zjx20zpj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -70152,17 +70152,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211201.1407")
+    (version "20211202.1413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "fc04745514ab5eb3a1e92dc74ffb530ce1d00d44")))
+                 "f34dfd639a3aa98f37f756e98dc3d1b276289d4c")))
         (sha256
           (base32
-            "0hycfxy0i5dil42ygjg9xyb3i3lfp12yfp423js07kb6glmjri1q"))))
+            "1ig82r7x1wb8lnzn589mj60979pf5klsdqhqx8sys5j906xgwqca"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -71855,17 +71855,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211129.1923")
+    (version "20211202.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "7efd4dc6a1839201b66c88727077afe9265127d5")))
+                 "78057f369c1bd07366472912bea1f70749b7c931")))
         (sha256
           (base32
-            "05z8raf6cjy4z9ssvvrw5x3pr30xdzf7pyzf3c2y72cmqrac5x4d"))))
+            "03s2lbagvh0m65bnab10hrv42rahv2ya9h1nzq04qqisdq5qhswz"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -79114,17 +79114,17 @@
 (define-public emacs-org-appear
   (package
     (name "emacs-org-appear")
-    (version "20210822.39")
+    (version "20211202.604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/awth13/org-appear.git")
                (commit
-                 "a1aa8496f2fd61305e43e03e6eeee2ff92aa9e24")))
+                 "a4d10fc346ba14f487eb7aa95761b9295089ba55")))
         (sha256
           (base32
-            "0sfz8rpvc9hidjj81wlc48vi7ii90mssgvfnp2z215phv67npbzp"))))
+            "1jl767qqmnhwbjnivc332yvpjifs95qnf08n088fazg6vax70zhq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/awth13/org-appear")
@@ -83341,17 +83341,17 @@
 (define-public emacs-orgtbl-aggregate
   (package
     (name "emacs-orgtbl-aggregate")
-    (version "20211201.2057")
+    (version "20211202.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgaggregate.git")
                (commit
-                 "2797f76e6da03780d0f9f560b19e625e1ed5455c")))
+                 "5e85da613080fe91ec0b2a94524ae82d76d7f84e")))
         (sha256
           (base32
-            "02cqkxjlwj0b2pf9xfvi1zwi9dd7337q1wxvbr0vlwqcda0x0a05"))))
+            "1p7vxpxn7hhaq041llhhy4nxiam63ibn5fx4qgq5b46037jcb3ax"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -83385,17 +83385,17 @@
 (define-public emacs-orgtbl-join
   (package
     (name "emacs-orgtbl-join")
-    (version "20210828.715")
+    (version "20211202.1204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgtbljoin.git")
                (commit
-                 "f09ba7fd304b36773a337323a0749cc681ce5049")))
+                 "e6a6d1265e1aa93a5b5228ebd3c40fc37fe4496a")))
         (sha256
           (base32
-            "0li0zks7n8kj30z2a71xyaa6qpp5kgrrikrz1562cymp5r3ddbxv"))))
+            "1cmwiph9a93zhi8wkz8ps8gcwhyz7k7cj468cnp5ar9ib3ybladp"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "join columns from another table")
@@ -92764,17 +92764,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211202.302")
+    (version "20211202.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "88aae7b84afa02ca8e365db65064cd0185b6eaa5")))
+                 "10af0e57df3ffd15305d4ec4abb5770a8ba14e50")))
         (sha256
           (base32
-            "0dq302jk260s0n0c2n6x1gsjm7xd4b2mdwzpy0g5r7il0h4hxjs0"))))
+            "0vqqyr92fbs5pa94wqmc8xs4x2x0v6j8w9yrzxp34nhb7vj83r0l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -110489,17 +110489,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211120.2246")
+    (version "20211202.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "2821bb745199f428ab616c90353e601e7e83264e")))
+                 "bf43cae6579ce41d58eb2a13156dcee39345c6ba")))
         (sha256
           (base32
-            "0sa062f0s0ykwh8wfiz1gsqmhakrbqvjcxgj2ibjkkwyrlqczbya"))))
+            "1zdwbbn4qdi93fr1p41k3hbx67vifxs7a97z6mwilgi4l4yw76qa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-sitter" ,emacs-tree-sitter)
