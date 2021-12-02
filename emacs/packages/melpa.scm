@@ -10038,17 +10038,17 @@
 (define-public emacs-cangjie
   (package
     (name "emacs-cangjie")
-    (version "20200808.828")
+    (version "20211201.2307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kisaragi-hiu/cangjie.el.git")
                (commit
-                 "0cbf706890df06b9e0d541692c579ed213da8252")))
+                 "87408d79b73a69194842a8848de6d7708e98c3a4")))
         (sha256
           (base32
-            "0a3mwgbza09rfiswmk4kh699mqc5746k16jc6rgy9q24jbjgradf"))))
+            "1pafp5sqr1zb0fkci6i542s683vx4x14955rv51311s2y8xzgyqf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -13055,17 +13055,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211201.839")
+    (version "20211202.150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "3ab0a6100f7cd9f119edc9815f270b1e1e6748b5")))
+                 "d282125b23c312682a8df80811d8667335bd2072")))
         (sha256
           (base32
-            "0nnr8gyihvq6g8dbg96x2p8dc111kjjzfk6rh1cpqjhd18lbg2rh"))))
+            "11h8sv54qwzvsr1llpcl6pkx0v9d9v9s8axqsnl0p66682ncfqs0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -14062,17 +14062,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20211118.1007")
+    (version "20211201.2335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "6abb232acde15e1a7bf402a57f7bb982edf2de7d")))
+                 "8b58e5895c2eaf8686de0e25c807b00fdb205c7a")))
         (sha256
           (base32
-            "1sqpjbwwbif3gxgr2q0rfcpfr3gwkii3hbhy5fwhfid9sqsx91aq"))))
+            "1rc4hcg3bgqmllgb4xfylpkmg2wkx5qk7nagwdhx6klq87jbxdz9"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page "http://company-mode.github.io/")
@@ -24059,17 +24059,17 @@
 (define-public emacs-dts-mode
   (package
     (name "emacs-dts-mode")
-    (version "20161103.1223")
+    (version "20211202.18")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bgamari/dts-mode.git")
                (commit
-                 "9ee0854446dcc6c53d2b8d2941051768dba50344")))
+                 "32517e7eeeccc785b7c669fd5e93c5df45597ef1")))
         (sha256
           (base32
-            "1k8lljdbc90nd29xrhdrsscxavzdq532wq2mg7ljc94krj7538b1"))))
+            "03h5qmxyxvcw92j7rhzr1l3qmspfsnbf2cn68v7r5qk7hzrixmpr"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -56948,17 +56948,17 @@
 (define-public emacs-inf-elixir
   (package
     (name "emacs-inf-elixir")
-    (version "20210731.2030")
+    (version "20211202.210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/J3RN/inf-elixir.git")
                (commit
-                 "404f88530975e3540f357f6a4f96c864bd19065b")))
+                 "acb948ca41a862c8c9b3f61ad576dec2c30d0052")))
         (sha256
           (base32
-            "14hz77f4sjq0pjr22fp77sk5kh6074qs493aiwc900b1apzh47jk"))))
+            "1rlc2sf8r1vzs13fa2kab93m2xr883ckywx1h1an2b4si73y5ddc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/J3RN/inf-elixir")
     (synopsis "Run an interactive Elixir shell")
@@ -67781,7 +67781,7 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20211201.1908")
+    (version "20211201.2216")
     (source
       (origin
         (method git-fetch)
@@ -92764,17 +92764,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211124.508")
+    (version "20211202.302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "0e8c1c5ab5a1fc2015036e6ef0e6147b7e1dc225")))
+                 "88aae7b84afa02ca8e365db65064cd0185b6eaa5")))
         (sha256
           (base32
-            "0qd070kxf13l1sc3j1yqvv49917izc77j7m27kc0ra6hnj27n319"))))
+            "0dq302jk260s0n0c2n6x1gsjm7xd4b2mdwzpy0g5r7il0h4hxjs0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
