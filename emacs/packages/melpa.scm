@@ -7670,17 +7670,17 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20211118.1923")
+    (version "20211201.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "2078d9b4ce3dc31469afa1c93e805acb56bd4466")))
+                 "7d098a4b7bcddbfc5fb953beb0c48688ead32184")))
         (sha256
           (base32
-            "13ls63824kd3d5k15m5vbxz8irkgw83nlddcb8wri5mk11ncs9a5"))))
+            "15mch1c8mp1fi6sngrwwkv3qgkkmn13f4wplw23wbxllqdjpri7g"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-a" ,emacs-a)))
     (home-page
@@ -19883,17 +19883,17 @@
 (define-public emacs-deadgrep
   (package
     (name "emacs-deadgrep")
-    (version "20211127.851")
+    (version "20211201.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/deadgrep.git")
                (commit
-                 "2cd9ce3f008d1a3b243251abb2739299df7cad5d")))
+                 "7f1a537783bdad65246cb7a510aa0ae539bdd526")))
         (sha256
           (base32
-            "0m3yci93cxs3lj7h6312lv9y5arxymrqxbdq4yx9k2r687mx5j78"))))
+            "045j8jl4cdwp45qxsxlzykqh5iz3z7njl3qb9fdz9bspa659db4r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -25302,17 +25302,17 @@
 (define-public emacs-edit-indirect
   (package
     (name "emacs-edit-indirect")
-    (version "20200805.1840")
+    (version "20211201.1541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fanael/edit-indirect.git")
                (commit
-                 "bdc8f542fe8430ba55f9a24a7910639d4c434422")))
+                 "7fffd87ac3b027d10a26e8492629da01a4cd7633")))
         (sha256
           (base32
-            "189nvmlkki1jfszm9i0crbb1p4nzgmbly0wpvpg0i8vmw7vrpl40"))))
+            "18pbxl68bw33kr9vb1f7d9gra4wlndykv6vn7mj2h7d92p9pjcig"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Fanael/edit-indirect")
@@ -34423,17 +34423,17 @@
 (define-public emacs-faff-theme
   (package
     (name "emacs-faff-theme")
-    (version "20211013.1554")
+    (version "20211124.1842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
                (commit
-                 "3c13ae4d694025207ba7eb43f174f90bb49395d4")))
+                 "c090f3d3a8a2ddedeffc1f5b5147cb7633dae79e")))
         (sha256
           (base32
-            "1iv9i1j39wj29y86z49yyw1a22wgyafdybjizmji60hi7x4r66az"))))
+            "1kiaqascf4lh1kpvp79yynjyncakq31xgx0h2bfinji8i7y32pg1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/WJCFerguson/emacs-faff-theme")
@@ -34566,17 +34566,17 @@
 (define-public emacs-fanyi
   (package
     (name "emacs-fanyi")
-    (version "20211030.1408")
+    (version "20211201.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/fanyi.el.git")
                (commit
-                 "2e37cc1d19f0f6f710932610639e4fd206884770")))
+                 "8dec7b64a7a7b7a9a2e59bc3f4cb370532cc8d92")))
         (sha256
           (base32
-            "0j0mqlx5xv1m1ik61q82lj6y030226k7isswd5plbq2v5z1d8b76"))))
+            "1xjiax55d9b49js7j9sbs0n0y65asc6p41v04znjn9116dkwdlbp"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-s" ,emacs-s)))
     (home-page
@@ -40775,17 +40775,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20211126.1526")
+    (version "20211201.1940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "1220c0ccebc84e3689cd52df90dad6d08b307f10")))
+                 "98e8ee6c854d944a99725c32912351af850216d3")))
         (sha256
           (base32
-            "1ighh59pgi95qjxiylpkypdklzfwla2d9m6fvjdybj9svdkmfx66"))))
+            "1bja4jn5mgsyly5bdww376rvv2w1j83k5zbcd1ymn4d957v00b23"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -43045,17 +43045,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20211126.1517")
+    (version "20211201.1715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "fb2ecd726577b0049cd56883649c6ccb8072ae63")))
+                 "5387c800ea372f768375dab0c31afbc197c8843e")))
         (sha256
           (base32
-            "0bai6nvnjqixiqvmmfqwzvqxm3y4i47dd8sph34c2zf5kzxd93bs"))))
+            "089imwrird2gvhy1wxw49k46xk2031jig2qjlc1q6f14ibycws6p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-treepy" ,emacs-treepy)))
@@ -66559,17 +66559,17 @@
 (define-public emacs-lsp-docker
   (package
     (name "emacs-lsp-docker")
-    (version "20211130.1904")
+    (version "20211201.1657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-docker.git")
                (commit
-                 "53707f8ddc1716de68f1081580aa2441bc5c53f7")))
+                 "1ab2149ff072e592616c5c70601079713e80ef0d")))
         (sha256
           (base32
-            "000hvyspx3ajjb7v44my0jn425m2ckp0ww0hhjm81iwwnp28hsfa"))))
+            "1m88j6rygylm3c7kw5nscc2l07sfjb4qwnkpw988a4gk05bz1sxa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -67781,17 +67781,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20211128.1708")
+    (version "20211201.1908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "84104e84bbf9811b49b0f9a2a29aa15ff72d39ce")))
+                 "2039619696bafeeebff245e316af640c19d5cf1c")))
         (sha256
           (base32
-            "1s0n894ak8b7mcbacfc9hh923vk3jybifz56xc892cbf405xxx4d"))))
+            "05izcrsn566qwp9riq20apdj8zxvn8qa00lpy4b916d3apiqhqyf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -83341,17 +83341,17 @@
 (define-public emacs-orgtbl-aggregate
   (package
     (name "emacs-orgtbl-aggregate")
-    (version "20211130.1611")
+    (version "20211201.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgaggregate.git")
                (commit
-                 "7378223395b80f34afe60bd30072f6a5367e09ce")))
+                 "2797f76e6da03780d0f9f560b19e625e1ed5455c")))
         (sha256
           (base32
-            "07k630nqn13s442mbvqmzah1d6skj6r2iiki6z11ayar5qh4178z"))))
+            "02cqkxjlwj0b2pf9xfvi1zwi9dd7337q1wxvbr0vlwqcda0x0a05"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
