@@ -7762,17 +7762,17 @@
 (define-public emacs-blitzmax-mode
   (package
     (name "emacs-blitzmax-mode")
-    (version "20200415.1529")
+    (version "20211128.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Sodaware/blitzmax-mode.git")
                (commit
-                 "5f67bb3c8e4baf1f6881cc998f9f031641a7b08a")))
+                 "c9651fa69116b5821cd34fb34eabc3e12ce238e2")))
         (sha256
           (base32
-            "1hcx6b3ka0n6sbi9p0z2wqlsxk5d2pvkjawpcyh40b5f1r6dpfmc"))))
+            "1h88nhqja5gzfrnbdxymnggvg3xd5yl305l4j80x3am3pyyfp909"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.sodaware.net/dev/tools/blitzmax-mode/")
@@ -16390,17 +16390,17 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20211114.557")
+    (version "20211203.354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-notmuch.git")
                (commit
-                 "5e62b4da80c5361a656f459fc2fd3ec65d5d9bf1")))
+                 "dfdefb95abb88d27c646729cb36d28da08d7fb3d")))
         (sha256
           (base32
-            "1krap35x6r3gfh0hk9vq7z471m21j2dyljaf5ppx85yhfanhpxp2"))))
+            "0jpmmw5hb1zbbr4r43nyk1v7w8nf9qa4l47m8l8klrlzxrnyk8q4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-consult" ,emacs-consult)
@@ -17463,17 +17463,17 @@
 (define-public emacs-cov
   (package
     (name "emacs-cov")
-    (version "20211026.308")
+    (version "20211203.416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AdamNiederer/cov.git")
                (commit
-                 "58cf3d5fd2d71084083a293b0fc7ce947aadaf26")))
+                 "aab1466ce450483b20f45be14393d79e1b008b97")))
         (sha256
           (base32
-            "0lbsc5dz810gcvpapqa0x9b0wpd9fb1sb4qj32ypfbc3ywklzd38"))))
+            "1b6931da20c8llzpxvhyv3ipw192ifznp2xdvjg1dgzl51yha6pd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-f" ,emacs-f)
@@ -40775,17 +40775,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20211201.1940")
+    (version "20211203.349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "98e8ee6c854d944a99725c32912351af850216d3")))
+                 "4f72688d80b48e9c55c4e6d9540690c6641db530")))
         (sha256
           (base32
-            "1bja4jn5mgsyly5bdww376rvv2w1j83k5zbcd1ymn4d957v00b23"))))
+            "1b861p8sbapvxq9jksnszx0b2q363rgwa2661sma18sb4d7z6az0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -42252,17 +42252,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211130.202")
+    (version "20211203.329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "2d6f41685be7591137a47f22937969cc2b607c9a")))
+                 "8c2fcf6b8a072f6fe896178747119766c6609dd0")))
         (sha256
           (base32
-            "00hfp8gzs34yrimbydrx28j0rxsz6q19iy70d03q0xvgznw06rpf"))))
+            "0hbx3kf8ccf9af07m3nwp3rpxa46p9yxxm52q4agr0a2h9216lxj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42597,17 +42597,17 @@
 (define-public emacs-general
   (package
     (name "emacs-general")
-    (version "20211008.1651")
+    (version "20211203.120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/general.el.git")
                (commit
-                 "26f1d4c4e258c40e6b70ce831a04800c914f29b3")))
+                 "9651024e7f40a8ac5c3f31f8675d3ebe2b667344")))
         (sha256
           (base32
-            "16rjsmmhjjx4mch1aygrxqj3pr5c4xxqzf21qvr6s4c9yk6ayx1f"))))
+            "01zfd8akm048gh4kbb6a4zxhd8gbambyi2sji47f022f9skmn3ys"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/noctuid/general.el")
@@ -46923,17 +46923,17 @@
 (define-public emacs-grip-mode
   (package
     (name "emacs-grip-mode")
-    (version "20210818.623")
+    (version "20211203.254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/grip-mode.git")
                (commit
-                 "1c82e27beec629514a8039e22f4f7c649e77ee2b")))
+                 "5be9942e8f76ebc8b55bcc1a29fb01277cb43743")))
         (sha256
           (base32
-            "1hgwqk991cnvslqgmvpwgxavm6nhvgn2cig3r8jpwvmfyjlcbyql"))))
+            "1a4hq8n7v1310v4fr04fpbx22rfb3dbiini091fk7kcpj21f5x5b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/seagle0128/grip-mode")
@@ -64572,17 +64572,17 @@
 (define-public emacs-liberime
   (package
     (name "emacs-liberime")
-    (version "20210906.626")
+    (version "20211203.244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/liberime.git")
                (commit
-                 "8291e22cd0990a99cb2f88ca67a9065a157f39af")))
+                 "79b709debe036f98d74ac129934e59c4d08c1dd5")))
         (sha256
           (base32
-            "1zr34fsh4l4apdm1jpd9c8863wji5f0g8nwvzgf7bfi6q58bcwzn"))))
+            "1z1z8x65z4wp9gkbasljxc9bwigi2db95sy31m6k9120k74gkzsk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
