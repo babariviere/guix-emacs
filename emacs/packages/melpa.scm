@@ -7670,17 +7670,17 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20211201.1929")
+    (version "20211202.1911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "7d098a4b7bcddbfc5fb953beb0c48688ead32184")))
+                 "f2122ccf55681e9a79cc89839bcda8043633d591")))
         (sha256
           (base32
-            "15mch1c8mp1fi6sngrwwkv3qgkkmn13f4wplw23wbxllqdjpri7g"))))
+            "00d0fc919l60iskc3svpkq7ca4hr43zbsvgpfwcr9g10s5fwgyyx"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-a" ,emacs-a)))
     (home-page
@@ -12078,17 +12078,17 @@
 (define-public emacs-clang-capf
   (package
     (name "emacs-clang-capf")
-    (version "20210707.1127")
+    (version "20211202.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~pkal/clang-capf")
                (commit
-                 "258863d5cd77d2c9d07cc5dfa41b20db22a178f7")))
+                 "342c295e13149437ec10c4989c52f91414267429")))
         (sha256
           (base32
-            "1zg192hy2mf6r6fiy2ahkprxjnb79lh9n6wv6nvxqnc5cq0969i4"))))
+            "1jvlf6kkxsny4i9rfglc0nmlx2znsmaaxcqx39lkldiisvxwaqkk"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~pkal/clang-capf")
     (synopsis
@@ -25919,17 +25919,17 @@
 (define-public emacs-eide
   (package
     (name "emacs-eide")
-    (version "20211027.617")
+    (version "20211202.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://forge.chapril.org/hjuvi/eide.git")
                (commit
-                 "5bb04501a7f5bb3f5be33b8b96742f1ac9839a8d")))
+                 "bb7a5320e34706b7b09683bcc12ce7c30cecb583")))
         (sha256
           (base32
-            "0w3xc2yhdrhcb5fjy1h877y14k1iidcqc548qnxjyzal8l0z5nw1"))))
+            "0z0xbzrbwklgjma5imf77brr2qbwl3m8z645alx455pa8p2a6n6s"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/*.el" "src/themes/*.el")))
@@ -26501,17 +26501,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20211117.2147")
+    (version "20211202.2153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "17d43d22105d7412d822f755a613762e30180d04")))
+                 "f9ad00d2670cae9573c0d6c11c82252eee1085fa")))
         (sha256
           (base32
-            "0q5f9pk023z7p5hq001m5wx527cyqyqdl4z2mbwvq42snphiwf86"))))
+            "1wlxz0h931xa3jxi0lam7r6i757zs1nh10bghhcbzm5cil9czfwc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28468,17 +28468,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211122.2150")
+    (version "20211202.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "e0057f6a6621b24e0ba4c167b683a84039c6f084")))
+                 "07124c7c66c61dd28f55be301573cf30a22a5fac")))
         (sha256
           (base32
-            "1f797sqswlx46943wix408mxvpsffqd9a8rq7w0gmq3nyym9vz1w"))))
+            "191gdmknwvy5xxfq35w4p660d4gafdlcqmld41yzysvvrkzmlcz1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -48309,17 +48309,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20211201.1005")
+    (version "20211202.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "98fca4960c5b05fff3ff8f518099e1e7f2a7264b")))
+                 "94cf15d64bd1dbc7dc3194ab323e0f0ef263ea77")))
         (sha256
           (base32
-            "1ac171c0fcp08v3vyqc8qkcp5s26kpf2x0387ycfdnprx1sb7fjd"))))
+            "1xkxlbjpqhfhakmfi664cq7i5968941vpngq94napmhbgqydp4qn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -49149,17 +49149,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20211114.1507")
+    (version "20211202.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "338ca0a55fcb487eccd72ed11b75f2a3cc700280")))
+                 "94cf15d64bd1dbc7dc3194ab323e0f0ef263ea77")))
         (sha256
           (base32
-            "0ijncbdb9z44bbbjj9jgfcyc0xrdxcla62l6ww6zpqzf1a57ddq9"))))
+            "1xkxlbjpqhfhakmfi664cq7i5968941vpngq94napmhbgqydp4qn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)))
@@ -71855,17 +71855,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211202.1444")
+    (version "20211202.2009")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "78057f369c1bd07366472912bea1f70749b7c931")))
+                 "b83cd68508143e10a3ea7fb5aa97736969c6ef35")))
         (sha256
           (base32
-            "03s2lbagvh0m65bnab10hrv42rahv2ya9h1nzq04qqisdq5qhswz"))))
+            "0b3qsrz1x124xj2pnml75zsw2gc4a6gp7jw0a19vgnsfqlmis5z6"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -98445,17 +98445,17 @@
 (define-public emacs-sbt-mode
   (package
     (name "emacs-sbt-mode")
-    (version "20210416.1845")
+    (version "20211202.1740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hvesalai/emacs-sbt-mode.git")
                (commit
-                 "e29464a82bf706ef921f4e0052ce04fc74c34c84")))
+                 "ec1f6091344ee525f8f383faee6966ee96d7a601")))
         (sha256
           (base32
-            "1r6n1hcpcy6icy8qs98gafqavmwx4z6v4rnknvrfnnynmrv2ajvr"))))
+            "02smg9pfgn8awzq46h8aaidv5yldl03b77la30rjhmpsrdd0xq5g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/hvesalai/emacs-sbt-mode")
@@ -104149,17 +104149,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20211003.611")
+    (version "20211202.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "67e276ad37a0cf3754798b436e54792816a6d3f2")))
+                 "4d1ce0ca8a4c84667301b3e347fe594989c25e60")))
         (sha256
           (base32
-            "02vflf5j1g4f81xywfr9vi5bb3raxpp1az650qin90g8irkjhy4z"))))
+            "0fmaxsx6yn3j9i4k6kzap0s2fc5899j623sz9v71g5pjg4pfwmyy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
