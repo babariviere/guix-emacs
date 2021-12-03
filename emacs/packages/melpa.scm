@@ -36041,17 +36041,17 @@
 (define-public emacs-flex-compile
   (package
     (name "emacs-flex-compile")
-    (version "20211121.2101")
+    (version "20211203.849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/flex-compile.git")
                (commit
-                 "6b8eb6dda657ade1326e9d03ba8ed22324c06d37")))
+                 "7d0421805e4a287358a5c188ff868bd93be2192a")))
         (sha256
           (base32
-            "0vqrnr6zc64abwa609l9pglsnj0pg4jvhvgpxwwg0qxak8d7y66d"))))
+            "0hv9lp4ybcl7vn27cx3iq64rk0fydinq6sgyslhc2616kll6fdb7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -43045,17 +43045,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20211201.1715")
+    (version "20211203.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "5387c800ea372f768375dab0c31afbc197c8843e")))
+                 "39261651935eb62b20c43d9d40f25c746d2f0876")))
         (sha256
           (base32
-            "089imwrird2gvhy1wxw49k46xk2031jig2qjlc1q6f14ibycws6p"))))
+            "09fkgx1w6jlvx9qz7x0hh4b4dmzkppk6gjc6kgjf421l8wzpn7zn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-treepy" ,emacs-treepy)))
@@ -64018,17 +64018,17 @@
 (define-public emacs-lean-mode
   (package
     (name "emacs-lean-mode")
-    (version "20210502.2049")
+    (version "20211203.1418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leanprover/lean-mode.git")
                (commit
-                 "bf32bb97930ed67c5cbe0fe3d4a69dedcf68be44")))
+                 "4a90f2ae6e33c162a3dd6f624fb080c2ed8e8494")))
         (sha256
           (base32
-            "1bkv5zs38ijawvavbba0fdf2flb6fiwici3qi99ws8wvwhnbkws2"))))
+            "1zikz4qaxabs3j86gljpp2qbhbzxsjzz544k9vsngibd468dszlv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -70152,17 +70152,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211202.1413")
+    (version "20211203.803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "f34dfd639a3aa98f37f756e98dc3d1b276289d4c")))
+                 "2111f50f08b7e6342c5620ee09559f2e0681eae6")))
         (sha256
           (base32
-            "1ig82r7x1wb8lnzn589mj60979pf5klsdqhqx8sys5j906xgwqca"))))
+            "0hbx87ry9ccf29xvgxpgnn1dw25cn9x1gkwxh54ymh057qkazash"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -98445,17 +98445,17 @@
 (define-public emacs-sbt-mode
   (package
     (name "emacs-sbt-mode")
-    (version "20211202.1740")
+    (version "20211203.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hvesalai/emacs-sbt-mode.git")
                (commit
-                 "ec1f6091344ee525f8f383faee6966ee96d7a601")))
+                 "9fe1e8807c22cc1dc56a6233e000969518907f4d")))
         (sha256
           (base32
-            "02smg9pfgn8awzq46h8aaidv5yldl03b77la30rjhmpsrdd0xq5g"))))
+            "1mii46nr4ykkwnbpvsdp46j6n7k38h0jbm49vbm0w7n1az09yg1a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/hvesalai/emacs-sbt-mode")
@@ -107973,17 +107973,17 @@
 (define-public emacs-teletext
   (package
     (name "emacs-teletext")
-    (version "20211122.1451")
+    (version "20211203.1111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-teletext.git")
                (commit
-                 "7748e58b37842ec74e24e5323d55d8fbbb9a508b")))
+                 "6b003e9dab9bd0c27d188a81f5fff740d66a2282")))
         (sha256
           (base32
-            "1q4b4wjknj904qa5rhbgmfjy2w1akfqc6c12dnzmf4qbz1vivc3q"))))
+            "0ilallavqhqjsxh37gga5k2pgz8jiwxssfhj1jlf7nj89gn2ana6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-teletext")
