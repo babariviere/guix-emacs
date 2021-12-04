@@ -76,7 +76,8 @@
 (define (glob-match? dir glob)
   (let ((regexp (make-regexp (glob->regexp glob))))
     (lambda (file stat)
-      (regexp-exec regexp (string-drop file (string-length dir))))))
+      (and (not (string-suffix? "-autoloads.el" file))
+	   (regexp-exec regexp (string-drop file (string-length dir)))))))
 
 (define* (expand-file-specs dir specs #:optional subdir allow-empty)
   (let ((prefix (if subdir (format #f "~a/" subdir) ""))
@@ -165,7 +166,6 @@
     (setenv "SHELL" "sh")
     (parameterize ((%emacs emacs))
       (emacs-byte-compile-dir (elpa-directory out)))))
-
 
 (define (emacs-package? name)
   "Check if NAME correspond to the name of an Emacs package."
