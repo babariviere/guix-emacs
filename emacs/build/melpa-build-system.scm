@@ -194,7 +194,9 @@ for libraries following the ELPA convention."
 (define %standard-phases
   (modify-phases emacs:%standard-phases
     (replace 'build build)
-    (replace 'install install)))
+    (replace 'install install)
+    ;; HACK: find a solution to avoid removing el files patching.
+    (delete 'patch-el-files)))
 
 (define* (melpa-build #:key inputs (phases %standard-phases)
                       #:allow-other-keys #:rest args)
