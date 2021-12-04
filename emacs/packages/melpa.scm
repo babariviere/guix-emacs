@@ -1000,17 +1000,17 @@
 (define-public emacs-ac-php-core
   (package
     (name "emacs-ac-php-core")
-    (version "20210909.918")
+    (version "20211204.430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xcwen/ac-php.git")
                (commit
-                 "933805013e026991d29a7abfb425075d104aa1cf")))
+                 "fc834dcc193e7168ffa0b3ae81ab3eefa4fd3c59")))
         (sha256
           (base32
-            "0qzb6wlh2hf0kp9n74m2q6hrf4rar62dfxfh8yj1rjx2brpi1qdq"))))
+            "08hnw5dbcs4ww2ir7ilnfc6r0b123alh4l8i1mzvng0h3mvmlhgq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -13055,17 +13055,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211203.2214")
+    (version "20211204.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "dfa75df98625cbd9d563d833d4238c94cca5d22c")))
+                 "2fc76e013738de4fa466bd35ead88858e99d8bdd")))
         (sha256
           (base32
-            "0m7s2x1rwhl1wz3sf6ncc9k8ww5hrdfplwz2r0a0xjal1i7p14v6"))))
+            "0n7r1xvk9lbliyhrymzwp1f6rpjiar49mbh9idxga8iicsk2k3gq"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -15150,17 +15150,17 @@
 (define-public emacs-company-php
   (package
     (name "emacs-company-php")
-    (version "20201009.1025")
+    (version "20211204.430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xcwen/ac-php.git")
                (commit
-                 "933805013e026991d29a7abfb425075d104aa1cf")))
+                 "fc834dcc193e7168ffa0b3ae81ab3eefa4fd3c59")))
         (sha256
           (base32
-            "0qzb6wlh2hf0kp9n74m2q6hrf4rar62dfxfh8yj1rjx2brpi1qdq"))))
+            "08hnw5dbcs4ww2ir7ilnfc6r0b123alh4l8i1mzvng0h3mvmlhgq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-ac-php-core" ,emacs-ac-php-core)
@@ -43398,17 +43398,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20211203.2249")
+    (version "20211203.2321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "a121f3408940237253341ec755be2204f5fa1582")))
+                 "b6a103b6bf62dfea556f3e5523e52d1a16228ea8")))
         (sha256
           (base32
-            "0n89yg334bx3k1a5f66n0d1sdqz7h9vqbnmrdgyj5kn4bxp75p6a"))))
+            "1jk9dd5hd68qmqvn9zkcr2hn0acynhpx5cwgc19wj2fdmi5gm5fq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -75864,17 +75864,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20211030.1819")
+    (version "20211204.28")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "fc3c79dd37d4bae938a5d0a1d7773bea48dd09b4")))
+                 "20b2ae12183a5be79d2f3d8da7943bc358e8202c")))
         (sha256
           (base32
-            "02bv1fvbww9gk3phpd7ifzxfzjxm17k7ssd3ddizr6yvmkpsz7h0"))))
+            "16aj58sfi8vxwqg9gxa486qqb2kr8bbjwv6zf2v9rvd07xhww6mm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.png")))
@@ -92764,7 +92764,7 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211203.2338")
+    (version "20211203.2346")
     (source
       (origin
         (method git-fetch)
