@@ -153,7 +153,7 @@
 (define (emacs-byte-compile-dir dir)
   "Byte compile all files in DIR and its sub-directories."
   (let ((expr `(progn
-                (setq byte-compile-debug t) ; for proper exit status
+                (setq byte-compile-debug nil) ; disable byte-compile's error (they are only warning)
 		(add-to-list 'load-path ,dir)
                 (byte-recompile-directory (file-name-as-directory ,dir) 0 1))))
     (emacs-batch-eval expr)))
