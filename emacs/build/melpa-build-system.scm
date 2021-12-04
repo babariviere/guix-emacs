@@ -150,6 +150,23 @@
       (format #t "error: No files found to install.\n")
       #f))))
 
+(define (emacs-byte-compile-dir dir)
+  "Byte compile all files in DIR and its sub-directories."
+  (let ((expr `(progn
+                (setq byte-compile-debug t) ; for proper exit status
+		(add-to-list 'load-path ,dir)
+                (byte-recompile-directory (file-name-as-directory ,dir) 0 1))))
+    (emacs-batch-eval expr)))
+
+(define* (build #:key outputs inputs #:allow-other-keys)
+  "Compile .el files."
+  (let* ((emacs (string-append (assoc-ref inputs "emacs") "/bin/emacs"))
+         (out (assoc-ref outputs "out")))
+    (setenv "SHELL" "sh")
+    (parameterize ((%emacs emacs))
+      (emacs-byte-compile-dir (elpa-directory out)))))
+
+
 (define (emacs-package? name)
   "Check if NAME correspond to the name of an Emacs package."
   (string-prefix? "emacs-" name))
@@ -176,7 +193,8 @@ for libraries following the ELPA convention."
 
 (define %standard-phases
   (modify-phases emacs:%standard-phases
-		 (replace 'install install)))
+    (replace 'build build)
+    (replace 'install install)))
 
 (define* (melpa-build #:key inputs (phases %standard-phases)
                       #:allow-other-keys #:rest args)
