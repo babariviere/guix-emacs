@@ -1718,17 +1718,17 @@
 (define-public emacs-aes
   (package
     (name "emacs-aes")
-    (version "20171029.623")
+    (version "20211204.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Sauermann/emacs-aes.git")
                (commit
-                 "b7d5da89c3443292e4f0b1c9d254d459933cf5af")))
+                 "c9cd12d6c1dbc18603eb4703276132cea59d5c78")))
         (sha256
           (base32
-            "0nz1lf77qr3vm90rm02d4inw8glav722rxsiqds76m4xsjrq02m7"))))
+            "1k5qq187xz5dbbgsrjsk3ff0dz5v328cn9iwn5rvn8a34akyal81"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Sauermann/emacs-aes")
@@ -40096,6 +40096,28 @@
       "Documentation at https://melpa.org/#/flymake-yaml")
     (license #f)))
 
+(define-public emacs-flymake-yamllint
+  (package
+    (name "emacs-flymake-yamllint")
+    (version "20211130.1537")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/shaohme/flymake-yamllint.git")
+               (commit
+                 "a7676d8de714f2e0f8aa21b4e57a5fc802d47fa6")))
+        (sha256
+          (base32
+            "0jai3mhvxdkb2bsd1l3i62rsx8l7hkqakh8qh41zk7sga6hbs4kh"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/shaohme/flymake-yamllint")
+    (synopsis "YAML linter with yamllint")
+    (description
+      "Documentation at https://melpa.org/#/flymake-yamllint")
+    (license #f)))
+
 (define-public emacs-flymd
   (package
     (name "emacs-flymd")
@@ -42252,17 +42274,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211203.2124")
+    (version "20211204.2045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "045b61b8681222456b8df6d4d153907a6879eca9")))
+                 "5be7153e650a9817d30cb480439e3f56ce7422e7")))
         (sha256
           (base32
-            "1835inl71y7bg8sn37j1ma2mizhkyh8jf3mlnx7s7339m148ya6z"))))
+            "1pfdax2wsfyjz4ddfqh54n3lbxhqpg97grj7kgi641lbhppnq02g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42277,17 +42299,17 @@
 (define-public emacs-geiser-chez
   (package
     (name "emacs-geiser-chez")
-    (version "20211118.645")
+    (version "20211120.250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chez.git")
                (commit
-                 "6a675460f896431a3ca933b74f4e8f08a91c0869")))
+                 "ab2dde7a345c1c135ec0ed8fcd49eff1114951bd")))
         (sha256
           (base32
-            "05zi1kwagsprxchqcbpwsnsfvf7jsyh26adcb8lig3x89mhqq65c"))))
+            "0cwm3xpn4bwgvmcmi06ijydp038054nch2hnjv1lprmnk1jg6d8p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-geiser" ,emacs-geiser)))
@@ -42304,17 +42326,17 @@
 (define-public emacs-geiser-chibi
   (package
     (name "emacs-geiser-chibi")
-    (version "20210421.123")
+    (version "20211204.1938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chibi.git")
                (commit
-                 "6f59291d8d1dc92ffd3f53f919d8cab4bf50b7d3")))
+                 "5a6a5a580ea45cd4974df21629a8d50cbe3d6e99")))
         (sha256
           (base32
-            "0r92iay5cw7jqyd8cy2mm02y0sl89flp4asbz6ca9l818micphfn"))))
+            "071m2cvwanra9rd8vmybw8xd4k9a23x02cyy12f7qyjy5fp9s968"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-geiser" ,emacs-geiser)))
@@ -42331,17 +42353,17 @@
 (define-public emacs-geiser-chicken
   (package
     (name "emacs-geiser-chicken")
-    (version "20210421.127")
+    (version "20211204.2049")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chicken.git")
                (commit
-                 "ceab39c89607f55cba88e5606ba5eb37c7df5260")))
+                 "79a9ac78f4df7c9ec1f918313c543c116dbb8b70")))
         (sha256
           (base32
-            "0klssx0vhj48868p36nkn22qh2k4188gpvi3c2pjk9lb7d5356xj"))))
+            "19j4ar7900yp2q4i4kdwqj1g0fjywflk6jr2x5n2y3zn7pj7z9nz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-geiser" ,emacs-geiser)))
@@ -42358,17 +42380,17 @@
 (define-public emacs-geiser-gambit
   (package
     (name "emacs-geiser-gambit")
-    (version "20210421.124")
+    (version "20211204.1940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/gambit.git")
                (commit
-                 "3294c944d1c3b79db44ed14b133129fec454bd60")))
+                 "faff8bac11621228640a3107622fe23df4bb6e2c")))
         (sha256
           (base32
-            "1vwr0iv7pznr7n6j76i90n306mhq5pxdj8b2f7l5mb32m442w2w9"))))
+            "1v736wh19yma3vjpgb2s1n77rrl5i3n8x451kq3cadsch0wid31d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-geiser" ,emacs-geiser)))
@@ -42411,17 +42433,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20211130.205")
+    (version "20211204.2047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "4f47fe3321294c5e1e83634139bc73649de51224")))
+                 "adf31d3a36bf9be4b92d5c8854b4a055b1ef6f1f")))
         (sha256
           (base32
-            "1jss1x1q6nkigl2w2cglajq2nivm9dr0wh65ybf1brkjzwjb6g0z"))))
+            "1r21d61b2l65gr90s2h83xfnjgzc4n9ris4g5n3ifvdi3pyga6k9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-geiser" ,emacs-geiser)))
@@ -42470,17 +42492,17 @@
 (define-public emacs-geiser-mit
   (package
     (name "emacs-geiser-mit")
-    (version "20210405.1920")
+    (version "20211204.1935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/mit.git")
                (commit
-                 "d17394f577aaa2854a74a1a0039cb8f73378b400")))
+                 "4e90e9ae815e89f3540fb9644e6016c663ef5765")))
         (sha256
           (base32
-            "0w80ifs5d49ss81j34lnq91x2sbkc44i2xswkcwx23rh62p4jvyc"))))
+            "1j06y77nq6q33fhvf4kq0md4xmcrvimiycjgv35cpkxvkcprfafa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-geiser" ,emacs-geiser)))
@@ -43398,17 +43420,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20211203.2321")
+    (version "20211204.2135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "b6a103b6bf62dfea556f3e5523e52d1a16228ea8")))
+                 "463a3550e27ab1cb0dc53afb0199f2e50660f24c")))
         (sha256
           (base32
-            "1jk9dd5hd68qmqvn9zkcr2hn0acynhpx5cwgc19wj2fdmi5gm5fq"))))
+            "1chr2nwa34z0radw07qnw6kpym8834p8y2p1nagajlwdzvn2fmvk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -61083,17 +61105,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20211118.1633")
+    (version "20211204.1553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "bbfd15030a736ef88e26c6d502bf894892bf1722")))
+                 "18a88cb33acfc2f349bf63d1e3d6b189ac8fe162")))
         (sha256
           (base32
-            "1h2iqc5d340mc1xj2dzjrgfdfkl1m2sl0fk519pg48i35vldg2p6"))))
+            "0gmz3na683jdmc7sm6nmma1c5xi1xb5a6n5f3pwkd29zbx85qgnb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -65680,17 +65702,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20211112.1745")
+    (version "20211204.2255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "bc3504e4a390f3cbd4bdf35796a02e8616041fdd")))
+                 "82a34879d4a607fe9f09376d20222ff3c77ef809")))
         (sha256
           (base32
-            "0h1s672bnb46pdlliqi7wz4kyzwhs6dplyz90h43s1crd5splpix"))))
+            "01zhzbsdgrsflqpg68qcairg5478n51khp3241x1ga7ga8dyfqz8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -70152,17 +70174,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211204.828")
+    (version "20211204.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "62a077ca99b94ea9b20994eec38a6f3df330ae91")))
+                 "5f3d49102502518d29fe7b44674a211bfa4e1ebd")))
         (sha256
           (base32
-            "0isbmjq661p5qgxcbnq4zqidj98qx8mfkaaj46rkycfyb0g2xyw5"))))
+            "0577nsm0q9f8vl3lxjd7idpwj1g923y1vg2a3ai8lg85g76kv137"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -75864,17 +75886,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20211204.1611")
+    (version "20211204.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "18cdd21b8b2ef056062700607eade43909c32cd2")))
+                 "c01152885c565813aa9510481e425e7c61815b56")))
         (sha256
           (base32
-            "06n0s5pyvd5ng27c8igpaasxmcgih1vil6jglzc7i8wr76v9v4dy"))))
+            "16zmny4ycvd9annnswzaak445iammpl12zrwh6zhgv2ixj8sznis"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.png")))
@@ -110489,17 +110511,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211202.1457")
+    (version "20211204.1819")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "bf43cae6579ce41d58eb2a13156dcee39345c6ba")))
+                 "3412b68b0f01c7a3531505d6fe88bbac91da2ad0")))
         (sha256
           (base32
-            "1zdwbbn4qdi93fr1p41k3hbx67vifxs7a97z6mwilgi4l4yw76qa"))))
+            "1f29453wzr07g75drx41g14ap4206v3b66vv52pc24vikrllhmy5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-sitter" ,emacs-tree-sitter)
