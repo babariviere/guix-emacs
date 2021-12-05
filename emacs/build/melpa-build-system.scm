@@ -196,7 +196,10 @@ for libraries following the ELPA convention."
     (replace 'build build)
     (replace 'install install)
     ;; HACK: find a solution to avoid removing el files patching.
-    (delete 'patch-el-files)))
+    (delete 'patch-el-files)
+    ;; HACK: compiled autoload files can fail to find symbols
+    (delete 'enable-autoloads-compilation)
+    (delete 'validate-compiled-autoloads)))
 
 (define* (melpa-build #:key inputs (phases %standard-phases)
                       #:allow-other-keys #:rest args)
