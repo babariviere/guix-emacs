@@ -1718,7 +1718,7 @@
 (define-public emacs-aes
   (package
     (name "emacs-aes")
-    (version "20211204.2206")
+    (version "20211204.2348")
     (source
       (origin
         (method git-fetch)
@@ -24674,17 +24674,17 @@
 (define-public emacs-eacl
   (package
     (name "emacs-eacl")
-    (version "20210801.843")
+    (version "20211205.122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/eacl.git")
                (commit
-                 "e7e4be6d2590a9e433817f6ce7420d44f0095235")))
+                 "e68203765549c85050c26a4d37b12528c96b912a")))
         (sha256
           (base32
-            "14sy7abn8aq5daw7jzfjf21zrcxqni7arzgsr0ns5vr8yjc4m7y0"))))
+            "1hs0xjpqn1zl5pr7zc9akwr9kin7s6yjnhi7vav2x5gsgr5xdm8h"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/redguardtoo/eacl")
     (synopsis
@@ -34751,17 +34751,17 @@
 (define-public emacs-fb2-reader
   (package
     (name "emacs-fb2-reader")
-    (version "20211123.517")
+    (version "20211205.58")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jumper047/fb2-reader.git")
                (commit
-                 "55b9608fb71b000e1c581f9448e23647d79bc098")))
+                 "4e2e20ea6ac7fe4063ad3ecabebf8864b1d48e4f")))
         (sha256
           (base32
-            "0hwn36sqnzc0s2lp6z555krl1qa7k9hq671rq1dbwpa6r56hm25j"))))
+            "09b0nkfyrsyinpjbjspr7zd07i77w8m8ic2i8h7fbc84ki2xl2g1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-f" ,emacs-f)
@@ -42274,17 +42274,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211204.2045")
+    (version "20211205.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "5be7153e650a9817d30cb480439e3f56ce7422e7")))
+                 "fb11e7281c3b8acb43ac39d8a2769c29bb36f2a4")))
         (sha256
           (base32
-            "1pfdax2wsfyjz4ddfqh54n3lbxhqpg97grj7kgi641lbhppnq02g"))))
+            "1nxp8k6rdhzklkac8527sl3qwxxflbdg6rx75f1vlg29zcxfrgi3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43067,17 +43067,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20211203.1342")
+    (version "20211205.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "39261651935eb62b20c43d9d40f25c746d2f0876")))
+                 "90576e987bd86e150f8451637757d8c7e6eab806")))
         (sha256
           (base32
-            "09fkgx1w6jlvx9qz7x0hh4b4dmzkppk6gjc6kgjf421l8wzpn7zn"))))
+            "0b3l42vaknxfx3j39xdkzlmb71f7wi6n2vqr3qi1bjxvqz3dybqv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-treepy" ,emacs-treepy)))
@@ -92786,17 +92786,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211204.1027")
+    (version "20211205.321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "41de7297766f1d397d478ec5268aa57a45cb243b")))
+                 "cc3ccde93f0a2e19e7941757d0083be914a2a283")))
         (sha256
           (base32
-            "0605g80gmjcj7m59f4cv7wl56r84jwa12b47fj44a8df6na2hd3v"))))
+            "0la3w6ydh00wd2rqjfl45hwdmpgn7hnirldaqccxi7775z4132hy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
