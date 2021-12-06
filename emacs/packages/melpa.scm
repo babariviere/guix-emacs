@@ -13033,17 +13033,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20211204.640")
+    (version "20211206.50")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "2fc76e013738de4fa466bd35ead88858e99d8bdd")))
+                 "46f710405c2614cc4285f2c6aad22c477b731353")))
         (sha256
           (base32
-            "0n7r1xvk9lbliyhrymzwp1f6rpjiar49mbh9idxga8iicsk2k3gq"))))
+            "1fqcq0bl4jygjai13cdlydbkrm4v9knpwg9919vryjr71hba4q3x"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("cnfonts*.el")))
     (home-page "https://github.com/tumashu/cnfonts")
@@ -33313,17 +33313,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20211105.1632")
+    (version "20211206.310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "b35565ab6c8e380227048256885bb7aa7e7fd72c")))
+                 "4d79ea71219cb0153baf4046af8aae6b1ed2fcfb")))
         (sha256
           (base32
-            "17rbxqvrq9c8j34mycbjkzrd6cjpamldj6h8k1hyzm2ld97w6gqm"))))
+            "1nrakz8y2i8dzj55ssrbsysag0njvbvm7zlwkw7xkzlird48d8fm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-evil" ,emacs-evil)
@@ -70198,7 +70198,7 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211205.2059")
+    (version "20211206.16")
     (source
       (origin
         (method git-fetch)
@@ -81897,17 +81897,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20211130.1152")
+    (version "20211206.507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "e992fc27e2b5db3e3b1ab15b4570a856c895afe1")))
+                 "abe63b436035049923ae96639b9b856697047779")))
         (sha256
           (base32
-            "09zdw4d4ahqci9pjpm0k2y6qf4y03mlagn31vspm4dm9mhzv48j9"))))
+            "02gx5kcajn8ma19xkjcsh7xi89rlibxbvb6gyw1i0p2fkxca681p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -92810,17 +92810,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211205.1415")
+    (version "20211206.253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "8bb975dc7b2db934b4f731713dcdef3ab9c2dd83")))
+                 "1b1cfd71ab27b4def0c3dfac0a5f0052ef2aabdd")))
         (sha256
           (base32
-            "1w7g7hycxnfpmg3nzard1kjv9gvla0jmh3d3m703r80nxwrmj4ys"))))
+            "0svglbcmcx37cxgpryyaq2rhnv8njiqky0ayz29ak3lsii94nr97"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
