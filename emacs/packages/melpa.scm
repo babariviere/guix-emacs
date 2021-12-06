@@ -8582,28 +8582,6 @@
       "Documentation at https://melpa.org/#/browse-url-dwim")
     (license #f)))
 
-(define-public emacs-brutal-theme
-  (package
-    (name "emacs-brutal-theme")
-    (version "20211130.1048")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/topikettunen/brutal-emacs.git")
-               (commit
-                 "01140537dcddec7869529fb65784b6b83052a253")))
-        (sha256
-          (base32
-            "0r5hf2kylgpv4x0aybc4yzr960m3m8wbff0v15gwgm6dgvr8yq7f"))))
-    (build-system melpa-build-system)
-    (home-page
-      "https://github.com/topikettunen/brutal-emacs")
-    (synopsis "Brutal theme")
-    (description
-      "Documentation at https://melpa.org/#/brutal-theme")
-    (license #f)))
-
 (define-public emacs-brutalist-theme
   (package
     (name "emacs-brutalist-theme")
@@ -11499,17 +11477,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20211201.1016")
+    (version "20211205.1646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "311c3b0a1bad67aaff87804a724369001796125a")))
+                 "975b67af1f46623376bf0609e5beef94682286b4")))
         (sha256
           (base32
-            "0zm27n6076k1vxyy85ylvsdp3dhhvq3jh8c99zivhxw95d76ch3w"))))
+            "0mlpk2m98yfnx0fnz2avzp3fid8dhjnqa0j4s5ws9b0wjfhbpbmy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -22982,6 +22960,29 @@
       "Documentation at https://melpa.org/#/dna-mode")
     (license #f)))
 
+(define-public emacs-doc-show-inline
+  (package
+    (name "emacs-doc-show-inline")
+    (version "20211205.2143")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/ideasman42/emacs-doc-show-inline.git")
+               (commit
+                 "1c5837d2a667d977a1bd90ba44ebd911cc660f26")))
+        (sha256
+          (base32
+            "0638djz42yknchq849kkh2f2638xch4d3z8w5dg7zkgjkj4bdh66"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/ideasman42/emacs-doc-show-inline")
+    (synopsis
+      "Show doc-strings found in external files")
+    (description
+      "Documentation at https://melpa.org/#/doc-show-inline")
+    (license #f)))
+
 (define-public emacs-docbook-snippets
   (package
     (name "emacs-docbook-snippets")
@@ -24906,17 +24907,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20211112.2206")
+    (version "20211205.2116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "b2f9c0a354044449a49501cc405cdb090e19dda0")))
+                 "28e54e1ccda517e2ce0a32e769626c3afd76e6d2")))
         (sha256
           (base32
-            "0f56rmpwj71lgqyb5gx9mnb2gz9s7bnmf7fyiwc0f541jrrgcfcl"))))
+            "1q08zcixkw7f7lrp378w2wsb50bmvj9ccpblgjjvbi3yim1cw56m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-parsebib" ,emacs-parsebib)))
@@ -26234,17 +26235,17 @@
 (define-public emacs-el-secretario
   (package
     (name "emacs-el-secretario")
-    (version "20211128.1810")
+    (version "20211205.1916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "59558b4973690b0f24109af95da8867a8bae8888")))
+                 "3abf288ecf8f33ecf1e18ee45684705248832a62")))
         (sha256
           (base32
-            "1v4spxal8glhrszq3iy5l1rab7zpkk661s7kclsf0vf4m2pyr4lq"))))
+            "1k1sfrsbgz6vxz3yqyk6nvki52rs99d8z4hrhr79q82yr2bjdbif"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-ql" ,emacs-org-ql)
@@ -42274,17 +42275,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211205.1058")
+    (version "20211205.2014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "b4bd69d8c3d6dcc8b508579054eb7905923ef738")))
+                 "365764db5e3e07042f83d120595421770db771b2")))
         (sha256
           (base32
-            "1iyx2jkngjq986k5yycwghw8hbr758a6m088jlxh6nmx7c7pjmx8"))))
+            "1ixkhkq01v8vhm9drih7hisxppjhgml1xfppb120njs12wqkfrl7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -44628,6 +44629,29 @@
       "Major mode for editing GMPL(MathProg) files")
     (description
       "Documentation at https://melpa.org/#/gmpl-mode")
+    (license #f)))
+
+(define-public emacs-gmsh-mode
+  (package
+    (name "emacs-gmsh-mode")
+    (version "20211204.826")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/matsievskiysv/gmsh-mode.git")
+               (commit
+                 "2b7c573f378f7e9210400115d4d9dfd879f8a4ad")))
+        (sha256
+          (base32
+            "0yipszmblbz2zz784ys78zqzcm44blnvlm79gch2prl56gi0hl3r"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/matsievskiysv/gmsh-mode")
+    (synopsis
+      "Highlight GMSH mesh generator script syntax")
+    (description
+      "Documentation at https://melpa.org/#/gmsh-mode")
     (license #f)))
 
 (define-public emacs-gn-mode
@@ -67803,17 +67827,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20211203.2130")
+    (version "20211205.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "a121f3408940237253341ec755be2204f5fa1582")))
+                 "74b84b57cc6aca261392e9189e8e6c5e9cc19ca7")))
         (sha256
           (base32
-            "0n89yg334bx3k1a5f66n0d1sdqz7h9vqbnmrdgyj5kn4bxp75p6a"))))
+            "0z7wd63m2xbw3c9gnf21gbz0gziprdzfpxcxb64c79w5ygz1znc3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -70174,17 +70198,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211204.1640")
+    (version "20211205.2059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "5f3d49102502518d29fe7b44674a211bfa4e1ebd")))
+                 "136ecc9144a7431442c0fabe21e3d57227d06239")))
         (sha256
           (base32
-            "0577nsm0q9f8vl3lxjd7idpwj1g923y1vg2a3ai8lg85g76kv137"))))
+            "073dzdds39pxv1zz30jisp3azsgy5gr1lg5afizqg242s200rlkk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -71877,17 +71901,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211205.1523")
+    (version "20211205.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "d7115a12017a3fcbb3082abaa0a3832554758ccd")))
+                 "7faf385622d2d040a40dddbfe7f05ebcd528fd15")))
         (sha256
           (base32
-            "0bdah9hsq0ydna1bki9szgxm2pz4s34jq36l0vz6xh4xwl5hg4wk"))))
+            "01slvf1xp40dhnl40ga2h2iwb0dsqw2qisns84kckfvgd1zjp2fq"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -88515,17 +88539,17 @@
 (define-public emacs-pippel
   (package
     (name "emacs-pippel")
-    (version "20211205.1403")
+    (version "20211205.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/arifer612/pippel.git")
                (commit
-                 "35335533338db5fc6392a234bc28496bd6af1858")))
+                 "5493309f17e7d30254e3832162f73b486079d12d")))
         (sha256
           (base32
-            "18bpp35r9wcx7ac53752xm16wj3rrycizl950pr3yyn4lfxigj5s"))))
+            "1agnag5n516966np9027zjvpyr27nrawh1l0l6hmy6hy8hb1jwpq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
@@ -97747,6 +97771,28 @@
       "use rufo to automatically format ruby files")
     (description
       "Documentation at https://melpa.org/#/rufo")
+    (license #f)))
+
+(define-public emacs-ruled-switch-buffer
+  (package
+    (name "emacs-ruled-switch-buffer")
+    (version "20211205.635")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/kzkn/ruled-switch-buffer.git")
+               (commit
+                 "99b53f7679e3eb868e4b4585085bbed102e5fce7")))
+        (sha256
+          (base32
+            "0n16al1nx7r98wbwgrq89yfs581wp6nbbhkns1z5qlqmc21brcqr"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/kzkn/ruled-switch-buffer")
+    (synopsis "Rule based buffer switching")
+    (description
+      "Documentation at https://melpa.org/#/ruled-switch-buffer")
     (license #f)))
 
 (define-public emacs-rum-mode
@@ -109768,6 +109814,28 @@
       "Documentation at https://melpa.org/#/toggle-window")
     (license #f)))
 
+(define-public emacs-tok-theme
+  (package
+    (name "emacs-tok-theme")
+    (version "20211203.2240")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/topikettunen/tok-theme.git")
+               (commit
+                 "631e8b0b5e72983104084256d30b01ba4bc41e94")))
+        (sha256
+          (base32
+            "10ajqxjwvyv79m5r8k1l98qclrdzlvr78kjlwvnn7dxlv91vrds0"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/topikettunen/tok-theme")
+    (synopsis "My theme")
+    (description
+      "Documentation at https://melpa.org/#/tok-theme")
+    (license #f)))
+
 (define-public emacs-tomatinho
   (package
     (name "emacs-tomatinho")
@@ -119161,17 +119229,17 @@
 (define-public emacs-zeno-theme
   (package
     (name "emacs-zeno-theme")
-    (version "20181027.118")
+    (version "20211205.2148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zenobht/zeno-theme.git")
                (commit
-                 "0914c4a5b1b9499e7f1ca5699b1c3ea2f4be3f1a")))
+                 "70fa7b7442f24ea25eab538b5a22da690745fef5")))
         (sha256
           (base32
-            "1zl1ks7n35i9mn5w7ac3j15820fbgpbcmmysv25crvi4g9z94mqj"))))
+            "10v6yf9c5qdsxrp6rk1n1xkv4byyfkinsikskdb2apjg05cx2273"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jbharat/zeno-theme")
