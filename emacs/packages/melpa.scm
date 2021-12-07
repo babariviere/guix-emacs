@@ -7670,17 +7670,17 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20211202.1911")
+    (version "20211206.2137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "f2122ccf55681e9a79cc89839bcda8043633d591")))
+                 "d452006a31895a79216bf35a64482631a83cfc2d")))
         (sha256
           (base32
-            "00d0fc919l60iskc3svpkq7ca4hr43zbsvgpfwcr9g10s5fwgyyx"))))
+            "0gi0q60q9r5nx5wzavxywajmh9gw4nl20msgh9k9k9ilj4jy3a1b"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-a" ,emacs-a)))
     (home-page
@@ -11901,17 +11901,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211203.2011")
+    (version "20211206.1607")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "9e68179001608481068b6e78c44c0d1f55f83a35")))
+                 "8ae6b1288ba2ed4392d85b0cbce00ebbfb072363")))
         (sha256
           (base32
-            "1qhhw5cm6zs18qayc79cf8vasgplfw1i7jiprxbpg5m2dsx7apmb"))))
+            "1dxdaymipjgaym9wlxi3dk9bwb757kg73dmq9d45mmvjm63bpwd5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -13192,17 +13192,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211204.1200")
+    (version "20211206.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "f9786210b9d4642db3a4240621b4e89d5e796a18")))
+                 "415f1e36607fff6c2fc937904aaecbd30e72d9b4")))
         (sha256
           (base32
-            "1cn951iga8ajwpil2smvgxnl4216m8rdq4rivd8imwd7lhr396hq"))))
+            "1hlax6a4mzqq99536pl8j5hw86467jv9vzvfb6938b1qgx94v0qk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -31811,17 +31811,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20211120.408")
+    (version "20211206.1800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "96ef16b3a03e917166835359e9eb869cdaafba86")))
+                 "f13e50462a242c94eddacf6a0ecd421043d8f806")))
         (sha256
           (base32
-            "01983nrnp1c0gs8pnyjv6y79gbcnbzcaa5044xqkgz8ccp2685fi"))))
+            "0rs9j7521fgn916qq2h3ya81cnvz5b0jym7ixs3qm264nm8xw4ck"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-evil" ,emacs-evil)
@@ -66686,17 +66686,17 @@
 (define-public emacs-lsp-haskell
   (package
     (name "emacs-lsp-haskell")
-    (version "20211206.1147")
+    (version "20211206.1829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-haskell.git")
                (commit
-                 "9fbe4d34ce61718b138595c16d9f48fffadc8231")))
+                 "28f6f72e2f309697c364a7db4f02f83854745610")))
         (sha256
           (base32
-            "0kb1z2ylvvnmyr2j5k9lwn0jv2yi6zmhd9hxf3x9ibz0h20p6n0h"))))
+            "0phsyd5npbq3ir37hkjz4zbgdy4hc5vximc8zz6vpp65h3ysk0a6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-lsp-mode" ,emacs-lsp-mode)
@@ -67295,17 +67295,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20211101.131")
+    (version "20211206.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "dd4c181a22d19a28236c442cf6c9cd4bbd6d85f8")))
+                 "f3917a87bfc5c556055e5c7cb8c3e5944344e6ee")))
         (sha256
           (base32
-            "1awvnv29ca3whfg48icwqhgdfijrags61cmq9dn6mn0w849b6k4m"))))
+            "0py0f2gz5v5v6q7ykkra6q0qp2017qalcx3q0xbdk7y4dnj6ncdc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -70198,17 +70198,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211206.1502")
+    (version "20211206.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "1598a4f49132234babfdfd671da3ff0264e34b5e")))
+                 "b9d30bf55e1739ccdfff7d216919ce752f016203")))
         (sha256
           (base32
-            "0j9nb7msms32bigbg6aax04vg37ns9bxdm1w8j3d6bc0azaac2n1"))))
+            "0dk3ryfjsv58rvh2vs2vspfzs0xxkjvpzsbplazvbpj8yn3ys7gy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -91328,17 +91328,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20211205.1559")
+    (version "20211206.1920")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "4ffbcb473d412da53afaf53433f3cfaac77d15cf")))
+                 "a0858c3079f26b564281f3a51c0ac533bc6e961b")))
         (sha256
           (base32
-            "0m4d5spq1dv2pg42zx18anyxzkaii83037fh9hv8lwiy7q8lzkgi"))))
+            "128s4axm5ip6bbarl1xmsd7rdgqkyb82dwm7kri5q513fdzylfdp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -92810,17 +92810,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211206.921")
+    (version "20211206.2237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "954fa71a150faadc475161c280eb2d5718e8cd33")))
+                 "5218d489d3ff4ea2f93cd576cdf784bcd610c2d4")))
         (sha256
           (base32
-            "13hs19jfnn07a27j84s0ipv4hx8nvx3vjn3pyvcq8bkyx9q2sxyl"))))
+            "0w4gn17f6bsc1ljq2hl0bk3pvla1z3p0sx99y26byik8l5hv1jr0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -110737,17 +110737,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20211115.2031")
+    (version "20211206.2147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d00cc19cab8df4fec7ed6608e00bd16fe797369a")))
+                 "98f6741090632746a4635d5b209cbc61b82a05e2")))
         (sha256
           (base32
-            "167jn29vqx5q5nd2ja9bi1srz623zmq7jpd79al0s98ngnw8hpr7"))))
+            "1dhaq3c5z0cn8kmbfkk5hn6pmzl1nbm3l4kq7asbc20qy9dfacxs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -113134,17 +113134,17 @@
 (define-public emacs-vagrant
   (package
     (name "emacs-vagrant")
-    (version "20170301.2206")
+    (version "20211206.1634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ottbot/vagrant.el.git")
                (commit
-                 "636ce2f9af32ea199170335a9cf1201b64873440")))
+                 "a232b7385178d5b029ccc5274dfa9b56e5ba43a1")))
         (sha256
           (base32
-            "06zws69z327p00jw3zaf67niji2d4j339xmhbsrwbcr4w65dmz94"))))
+            "1i345jyhh1g10hlcvs3c34glk5r09k1i4dxmmrwfhpy1f759h10m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ottbot/vagrant.el")
