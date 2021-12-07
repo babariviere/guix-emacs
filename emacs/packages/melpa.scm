@@ -11477,17 +11477,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20211205.1646")
+    (version "20211206.928")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "975b67af1f46623376bf0609e5beef94682286b4")))
+                 "7ca6413907ac57e09010265257c48b5500fe09f8")))
         (sha256
           (base32
-            "0mlpk2m98yfnx0fnz2avzp3fid8dhjnqa0j4s5ws9b0wjfhbpbmy"))))
+            "06lsaw2z7q131dfgfcmm0dgiimjd6psxlk1biyzrahgs992gm7d2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -11901,17 +11901,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211206.1607")
+    (version "20211207.1426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "8ae6b1288ba2ed4392d85b0cbce00ebbfb072363")))
+                 "c645b1c1f71e8c68c3f8388e0a930bfecf8317c4")))
         (sha256
           (base32
-            "1dxdaymipjgaym9wlxi3dk9bwb757kg73dmq9d45mmvjm63bpwd5"))))
+            "0smag2d3a983l2vf22p3zdmg5412g3d5xz83dfcs1x6fziw0rbx3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -13192,17 +13192,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211207.307")
+    (version "20211207.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "c532f7fa1378418aa47446d1c5f3bc996dbb1ec9")))
+                 "004ee628745692a7f50d78bddea0a83bc399c736")))
         (sha256
           (base32
-            "041kpgh2iy9bhn73rbzxk8nw2gf45h0nbddrs3g3wrcv63f3q1mh"))))
+            "19dwzpir7824dqf4zfhadpmfcvak9fdp5nzyjikiwp00h7rsr16z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -66953,17 +66953,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211205.1533")
+    (version "20211207.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "6f126d1616c5b0119b52cf929b93dc0d30293e4c")))
+                 "8c5f81a3c52d9bc7c1337fe9748a60ba7330294b")))
         (sha256
           (base32
-            "1dfpf4bqz45w8z5xbfv2y53sq45z9dg7570i8i0qylw4gpaxay72"))))
+            "02vsfmjhf23awqnfgfp6cfn1f2wykvyfp0zf4n7c0rbrmyk8in8x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -70198,17 +70198,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211206.2057")
+    (version "20211207.1018")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "b9d30bf55e1739ccdfff7d216919ce752f016203")))
+                 "5c25439c348c1751efa09383a3e7e92576b188c1")))
         (sha256
           (base32
-            "0dk3ryfjsv58rvh2vs2vspfzs0xxkjvpzsbplazvbpj8yn3ys7gy"))))
+            "015sawprqj5s0i6gpggsk982bnnb1da7jmgnchvgbs80z623m91y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -78203,17 +78203,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20211029.611")
+    (version "20211207.956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "44eb766df39b722a26cabebec44bb359bcca1e49")))
+                 "ef77f31fb99babe7918356897ecc18651a9d30bc")))
         (sha256
           (base32
-            "12mdp7pxb4nga1pp17d3kawb55kjdnjc1fg8lavyq4ydznyzn225"))))
+            "0c0672h45vnmmag77f499n84gs1vpl57n7n3p31kg9padn0yk4wh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-re-reveal" ,emacs-org-re-reveal)))
@@ -85763,17 +85763,17 @@
 (define-public emacs-pandoc-mode
   (package
     (name "emacs-pandoc-mode")
-    (version "20211118.1357")
+    (version "20211207.1129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/pandoc-mode.git")
                (commit
-                 "6c6d8e0591393b4d5c98a2aa391efe40af2eb838")))
+                 "d7da6433aa905ff350e5c04798f5d2d8f1c19803")))
         (sha256
           (base32
-            "1y42chshwxbq2qhhv2v39vb1v7nwx4xcsf6l2z2igwqaa4nm3fn1"))))
+            "1668kxisbk1ns2c46ad03qrarkf399zhb4zhj64x42ki4zrxw2pj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-hydra" ,emacs-hydra)
@@ -92810,17 +92810,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211207.202")
+    (version "20211207.907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "55ab08742391d87e657f950bf6c863c8667e2a95")))
+                 "87e10f1c6ad448f23dc7ae114685d77d7905e227")))
         (sha256
           (base32
-            "0jk817y000a9zk1dij8bdqvibsrl8sfxvyx34sdjmkr81c51946p"))))
+            "05v4ypjjn4bk9kxiim8mlws4386cv724ga7100a3bpf5g4xc4r5m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
