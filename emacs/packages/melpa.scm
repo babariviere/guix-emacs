@@ -13192,17 +13192,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211206.2005")
+    (version "20211207.307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "415f1e36607fff6c2fc937904aaecbd30e72d9b4")))
+                 "c532f7fa1378418aa47446d1c5f3bc996dbb1ec9")))
         (sha256
           (base32
-            "1hlax6a4mzqq99536pl8j5hw86467jv9vzvfb6938b1qgx94v0qk"))))
+            "041kpgh2iy9bhn73rbzxk8nw2gf45h0nbddrs3g3wrcv63f3q1mh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -63007,17 +63007,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20211202.623")
+    (version "20211207.312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "79c5d1ee76eded5921a203f8bd544171c307b472")))
+                 "a6ee8c8875ca5129e0a36fd4611f0b82c5cd616a")))
         (sha256
           (base32
-            "183k1j636ywwq80g38k98a6rf1ggkwzd9823wixsx1c3zjx20zpj"))))
+            "0mzv9i8x4glqvwi9q5nsas7xczh37jv0czxd4pk29kx7xkpy6f54"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -92810,17 +92810,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211206.2237")
+    (version "20211207.202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "5218d489d3ff4ea2f93cd576cdf784bcd610c2d4")))
+                 "55ab08742391d87e657f950bf6c863c8667e2a95")))
         (sha256
           (base32
-            "0w4gn17f6bsc1ljq2hl0bk3pvla1z3p0sx99y26byik8l5hv1jr0"))))
+            "0jk817y000a9zk1dij8bdqvibsrl8sfxvyx34sdjmkr81c51946p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -110686,17 +110686,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20210918.1621")
+    (version "20211206.1616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "75e0aa3253a25643e8b377c8f5ab10fe720d5d01")))
+                 "86a894a617976aefa453fa6ce8dd9871c58f733e")))
         (sha256
           (base32
-            "1im0103nvqfxi9yqgwgjp1x7qfzs3jngdcigmyrv5891jdv4vmw6"))))
+            "1ndrvjfwfj6pky33mkhqpfc2692cv3ndazvqhb52rs14q6b3vr7b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-sitter" ,emacs-tree-sitter)))
