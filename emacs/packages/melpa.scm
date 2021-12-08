@@ -10043,17 +10043,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211129.1504")
+    (version "20211208.1313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "b895c8cf280f80a0cf724f137de06217679cb846")))
+                 "516eb36e8dd739b70e3df0d89e97537d86d216a9")))
         (sha256
           (base32
-            "1bs7w63z36lylzv61ih25vs37crpgmxlhziby1ll3gwq7gamz911"))))
+            "1cdg9l2gi8470w0p92hh88b059c2sjj1nnvmn66avqjmg1q36lxm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11631,17 +11631,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20211202.1057")
+    (version "20211208.1015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "9d4c46f9cc9c49ffa75ce687db27a775bb9b2d9f")))
+                 "8edbf81d7f97aa6f56ffa087d249b503e84b7169")))
         (sha256
           (base32
-            "1xsfih7vjkbnsbbh2vi277z6aq7sr4jvymfqxrjmfq6z2fhifnfh"))))
+            "14m4jfqfxk9zdrfjwhfg7zfbbqxm3xy7p0rv2hmwm9bm286jzd3q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-clojure-mode" ,emacs-clojure-mode)
@@ -26235,17 +26235,17 @@
 (define-public emacs-el-secretario
   (package
     (name "emacs-el-secretario")
-    (version "20211205.1916")
+    (version "20211208.1038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "3abf288ecf8f33ecf1e18ee45684705248832a62")))
+                 "c50d1e482629de9fa4585e4e401bcc1b2d0ff116")))
         (sha256
           (base32
-            "1k1sfrsbgz6vxz3yqyk6nvki52rs99d8z4hrhr79q82yr2bjdbif"))))
+            "0arc4jv9c30pqxr3wh3f9yyf3jsqxs561nbwy9l1kpg3r0h9cj7x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-ql" ,emacs-org-ql)
@@ -56528,17 +56528,17 @@
 (define-public emacs-immaterial-theme
   (package
     (name "emacs-immaterial-theme")
-    (version "20211006.1048")
+    (version "20211208.729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petergardfjall/emacs-immaterial-theme.git")
                (commit
-                 "ae9980927026324ff656721eef2e0f415cf3dfb4")))
+                 "1c576624758429118794db9407c9627dfff7c975")))
         (sha256
           (base32
-            "198xii7cdscd521bbz371465pks072zi3cdgqrgcq6860falyfxf"))))
+            "0a704nk7ly4wy5nmgqkdrg3lp3lpyk701myp9b72dn6diiv9r4nd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/petergardfjall/emacs-immaterial-theme")
@@ -70198,17 +70198,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211207.1018")
+    (version "20211208.715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "5c25439c348c1751efa09383a3e7e92576b188c1")))
+                 "fc504545ec40be761dfd379aacaa671247c502a9")))
         (sha256
           (base32
-            "015sawprqj5s0i6gpggsk982bnnb1da7jmgnchvgbs80z623m91y"))))
+            "1m4kmvf0jz396xdjzgs3b68r6vzizhf9w1lcb4ar1xhkqzxhcz5h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -92810,17 +92810,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211208.546")
+    (version "20211208.1300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "976f7f41911dc5a8a4a60950c75cdd483d1263e4")))
+                 "a19511679ae5e94e1dfea60fb59fbc0b78c45f1c")))
         (sha256
           (base32
-            "08mklmilrrwzv0w29pnply6iaadn4aaprh7zjz32wcbwhjmb09r2"))))
+            "1km9nkagjwzcx7mbkpc0mn60h1pljaq5v9vmd53ad9m92bzb5r1l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -107969,17 +107969,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20211206.1253")
+    (version "20211208.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "acf2d99df25f15c104cd13d5bbdcb17078a353f9")))
+                 "2474aaf0c9cba06670d3db46b5fe47ce3c6fb97a")))
         (sha256
           (base32
-            "1wxx77whwl5fw2fbq6k7082gqn6srvy8vckhdn0qd75xqm4axf93"))))
+            "18rggfy89g61a1z3fqgfsp97iaqfp71hwdxdnqjksdvc9xbla3mm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-visual-fill-column"
