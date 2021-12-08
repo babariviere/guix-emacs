@@ -13192,7 +13192,7 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211207.2150")
+    (version "20211208.26")
     (source
       (origin
         (method git-fetch)
@@ -22963,17 +22963,17 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20211205.2143")
+    (version "20211208.328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-doc-show-inline.git")
                (commit
-                 "1c5837d2a667d977a1bd90ba44ebd911cc660f26")))
+                 "2ddb1c70f9f3b430f7b3e50fec1e3ef28ef3bbd6")))
         (sha256
           (base32
-            "0638djz42yknchq849kkh2f2638xch4d3z8w5dg7zkgjkj4bdh66"))))
+            "0vnrxrihlbp88z358bxdwqflsmx4b41idkjgcjvr6xk9y8yy0has"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-doc-show-inline")
@@ -25865,17 +25865,17 @@
 (define-public emacs-eglot-jl
   (package
     (name "emacs-eglot-jl")
-    (version "20210415.1207")
+    (version "20211208.359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/non-Jedi/eglot-jl.git")
                (commit
-                 "49f170e01c5a107c2cb662c00544d827eaa2c4d8")))
+                 "2e35cf9768d97a0429a72deddbe30d6d7722d454")))
         (sha256
           (base32
-            "1bmp517zfsspxlj0k67q15ladiphjha45zgnq3djs631mvr9bfaw"))))
+            "15d4pym6dv08jp6iki00xpf1i4vc92yd2rcjv21k64h6fc862gps"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-eglot" ,emacs-eglot)
@@ -27814,17 +27814,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20210630.2317")
+    (version "20211208.8")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "8d0de310d41ebf06b22321a8534546447456870c")))
+                 "d4e47a191d05f0348bd60e5ece2f43b31ffac8d3")))
         (sha256
           (base32
-            "0hg6yk0wkfh2rwcc4h0bb6m2p3dg62ja22mjpa94khq52lv1piwf"))))
+            "0i62lhy0iq8xh9l114c6jzjdc1g8d74qf6p84xpmfn8xk7vwll0j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-company" ,emacs-company)
@@ -43695,17 +43695,17 @@
 (define-public emacs-git-link
   (package
     (name "emacs-git-link")
-    (version "20211024.1538")
+    (version "20211208.312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sshaw/git-link.git")
                (commit
-                 "b2d803ad8764b896f5dd7f7e139ceb4903f7d8b6")))
+                 "09961648e654ba0f7239eedf5cbaea0f0cc0ccf1")))
         (sha256
           (base32
-            "0gsa2qqxmynj10mpb3mm7xgsbk8fx7f4scwaxwl8l7dw3cmk9rmv"))))
+            "0zwbcp2881n92nd0y40sw6id6qbidprzr0bsh9vn64gmvch6jlnd"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/sshaw/git-link")
     (synopsis
@@ -48355,17 +48355,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20211205.1111")
+    (version "20211208.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7f999447f5fd30047f32752ce2e74b19edc0dd2a")))
+                 "a246a9b278fb973d38d13ade7417f55e0a57eae4")))
         (sha256
           (base32
-            "17r7bkcsh6yfbn1622yw46aqwxxssjymp3mlj7hkb9j4a25l2q9f"))))
+            "1z38jyfw8id62508rxfrkxd2ln70s6sc0cyvngn8zq94z47aqyjx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -66953,17 +66953,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211207.2110")
+    (version "20211208.619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "1c37168652e2a0e983cda2edffc638def9aa518b")))
+                 "ac1175865b0c7eda0e463e9208e18cc68b99a82a")))
         (sha256
           (base32
-            "1pb042q824i6wbwib68j5r5185i0g8bwsxa0i68h977rzzzqylmy"))))
+            "09a0rix4k49i6v54fwhkrmd5392f37c92m0lmjali0vh9wz3vrvp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -92810,17 +92810,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211207.907")
+    (version "20211208.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "87e10f1c6ad448f23dc7ae114685d77d7905e227")))
+                 "976f7f41911dc5a8a4a60950c75cdd483d1263e4")))
         (sha256
           (base32
-            "05v4ypjjn4bk9kxiim8mlws4386cv724ga7100a3bpf5g4xc4r5m"))))
+            "08mklmilrrwzv0w29pnply6iaadn4aaprh7zjz32wcbwhjmb09r2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -97058,17 +97058,17 @@
 (define-public emacs-robe
   (package
     (name "emacs-robe")
-    (version "20210906.2250")
+    (version "20211208.205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/robe.git")
                (commit
-                 "fd972e912d0c6c310acb2d057da1be1149937d0e")))
+                 "11207bd549a5a78e3a4d70265c3715990dcdab71")))
         (sha256
           (base32
-            "015mciv5d9dap7h0gnjm93fr4jx46dsm1rkp84x8kflmw747g1yk"))))
+            "0hcyvvv4y78fmwprlxgmpzb81lzip9y1hjskmv8x7l0q1a6a3dsz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-inf-ruby" ,emacs-inf-ruby)))
