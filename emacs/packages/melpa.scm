@@ -11901,17 +11901,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211207.1426")
+    (version "20211207.2304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "c645b1c1f71e8c68c3f8388e0a930bfecf8317c4")))
+                 "d3935ec4363b437ee6a6358682fda8bb4d351efc")))
         (sha256
           (base32
-            "0smag2d3a983l2vf22p3zdmg5412g3d5xz83dfcs1x6fziw0rbx3"))))
+            "16qzqf4sbidjd5nwyrif20gnig4ghhm3ah6prbsm4k98byg38yq2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -13192,17 +13192,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211207.1349")
+    (version "20211207.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "004ee628745692a7f50d78bddea0a83bc399c736")))
+                 "a6409dc4081bc950f9f61666b1285e458aa02d49")))
         (sha256
           (base32
-            "19dwzpir7824dqf4zfhadpmfcvak9fdp5nzyjikiwp00h7rsr16z"))))
+            "04794a9bvdd90sck7jpvlqzkvlrgf4aadvxbrihsbzf390fyr7a2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -28657,17 +28657,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20211101.1746")
+    (version "20211207.2108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "777c904c9d6c8dfff3ed21c5e4a24a6432f8ee52")))
+                 "5a59c0f435fb3a9a96e29de2bc7dcb914316f9dd")))
         (sha256
           (base32
-            "0kg312x6ka4nxpbwsfyhg8n4a2yqi0wcfxgbj17sfcs9d3ssijs8"))))
+            "0w8x9r3ljbflhh3ha4pldikiyj5avvpc60as1pf137mqqbichjwa"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("*.el" "lisp/*.el" "doc/emms.texinfo")))
@@ -31608,17 +31608,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20211128.2232")
+    (version "20211207.2251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "d706e4002d63986c81a3fe2aa99517570b4e5c8d")))
+                 "e4fb2a37c5bd3723c4869d7b6728a43b7321876e")))
         (sha256
           (base32
-            "0r9sn0rh5xwpvbldk8ajg0jzaxdmmn8dgiz1p66f32x4q7zl4irv"))))
+            "0q9vfdpqkjj6b9kc0m5d9mshhc2ndfi35p4x167lr2daz1ib67i1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-goto-chg" ,emacs-goto-chg)))
@@ -33363,17 +33363,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211202.1457")
+    (version "20211207.1645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "bf43cae6579ce41d58eb2a13156dcee39345c6ba")))
+                 "d80d5013dc7d7acfc640ea1fcfa7f44712e4d942")))
         (sha256
           (base32
-            "1zdwbbn4qdi93fr1p41k3hbx67vifxs7a97z6mwilgi4l4yw76qa"))))
+            "155hv1nymg8jr1nffz3dw219v0gqnn77bnai00q810xpj40bbccz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-edit" ,emacs-tree-edit)
@@ -63341,17 +63341,17 @@
 (define-public emacs-lambdapi-mode
   (package
     (name "emacs-lambdapi-mode")
-    (version "20211116.1414")
+    (version "20211207.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Deducteam/lambdapi.git")
                (commit
-                 "d41fe1153b9271c40af26b7dc505910bf5702079")))
+                 "2a332231ed1af833080480781be43656f8bf941c")))
         (sha256
           (base32
-            "19wy7hwi1ivqw3dj4qxy9ynf3mhrhfa1m67dhb1r7lz34xg4qslc"))))
+            "105xdlilllr5naxm3fvm9p56jpyaj0y496f1za3816s8yvphdziq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-eglot" ,emacs-eglot)
@@ -66953,17 +66953,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211207.632")
+    (version "20211207.2110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "8c5f81a3c52d9bc7c1337fe9748a60ba7330294b")))
+                 "1c37168652e2a0e983cda2edffc638def9aa518b")))
         (sha256
           (base32
-            "02vsfmjhf23awqnfgfp6cfn1f2wykvyfp0zf4n7c0rbrmyk8in8x"))))
+            "1pb042q824i6wbwib68j5r5185i0g8bwsxa0i68h977rzzzqylmy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -67827,17 +67827,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20211205.1619")
+    (version "20211207.2244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "74b84b57cc6aca261392e9189e8e6c5e9cc19ca7")))
+                 "1eb183e7672bf25fa77ea06d97b3d9c502a698ae")))
         (sha256
           (base32
-            "0z7wd63m2xbw3c9gnf21gbz0gziprdzfpxcxb64c79w5ygz1znc3"))))
+            "08ci7w0pzbzs02fd8zklvhixkj8ab9vvc41w39mcik8qhr1fz5j4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -71901,17 +71901,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211206.933")
+    (version "20211207.1603")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "ce36b16d319e405825eabbf9bc69e54165cd972d")))
+                 "2f5b7ccbc4d13500344b1e5c9fe1be88d3ca964b")))
         (sha256
           (base32
-            "1smn3zgxxajbxm23wb9cng929r7xpv6z8zfb28r5xs0ci7i6lsk7"))))
+            "169ns1gy58a4gx3zl8kzg6ibxwr0vrfx2k6svyhyfv0xd1z0h404"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -103385,17 +103385,17 @@
 (define-public emacs-soccer
   (package
     (name "emacs-soccer")
-    (version "20211023.827")
+    (version "20211207.1623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/soccer.git")
                (commit
-                 "d59b7196a62edb0e72eef52772eec42cab8baa45")))
+                 "b5ba10fe43e43fa40617e2936572add10c72b865")))
         (sha256
           (base32
-            "1hdp7lcr7pdary7qssf2na6a3n0ycijbx3z0ggk37gxzvz59jiv4"))))
+            "09kkbk5rsjdkajqmq8xkgl4xd9b3c96bp823zfal18jq5jcf2x8j"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-dash" ,emacs-dash)))
     (home-page
@@ -110579,17 +110579,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211204.1819")
+    (version "20211207.1645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "3412b68b0f01c7a3531505d6fe88bbac91da2ad0")))
+                 "d80d5013dc7d7acfc640ea1fcfa7f44712e4d942")))
         (sha256
           (base32
-            "1f29453wzr07g75drx41g14ap4206v3b66vv52pc24vikrllhmy5"))))
+            "155hv1nymg8jr1nffz3dw219v0gqnn77bnai00q810xpj40bbccz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-sitter" ,emacs-tree-sitter)
@@ -110737,17 +110737,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20211206.2147")
+    (version "20211207.2125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "98f6741090632746a4635d5b209cbc61b82a05e2")))
+                 "1820db42c6478455340a2bd962120b1e2b0bf3f6")))
         (sha256
           (base32
-            "1dhaq3c5z0cn8kmbfkk5hn6pmzl1nbm3l4kq7asbc20qy9dfacxs"))))
+            "0hz7dn77mzs1x0pf7lplm1ggrza9x8fp3rx0a42l6yfzr7hmyv69"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
