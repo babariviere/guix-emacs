@@ -11901,17 +11901,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211208.2200")
+    (version "20211209.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "ef49dfffdc4188e97d0d64c12e79eafbeffeecf1")))
+                 "425301d169b5b144d71a500f6bf6ee4535c2842c")))
         (sha256
           (base32
-            "1w419isa59arqm6r9jrzm2c76sqsx3yrvz2z2ymwlji12vrxzh6c"))))
+            "0vd7h7ccqbrz3bpm3zpf01jv6xkf8id2pb57dxzrmh9mc6qyn2jm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -13193,17 +13193,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211208.1419")
+    (version "20211209.159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "c4dbe641436a0fe1a1cbddda334281730a9cb8ae")))
+                 "7689192569a93d22216ce2b5e01d6641f3b59882")))
         (sha256
           (base32
-            "0cksv22mxrp2icnfc2g7qlwyh7pyy5kfgqs3ahmxngbnb32gmkrg"))))
+            "1mcb8skrpag0rikrqsgyakpgbsc7a7c1v105hyvamliq83ihcr2j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -75118,17 +75118,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20211201.130")
+    (version "20211208.2144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "4aaf36db2bbbb8aef80a39e9af01ae18d017f103")))
+                 "32ba26f42e8a2e4007fba0ed7eb2599322b96712")))
         (sha256
           (base32
-            "049ij0mns5nynfwg61il0n8wni39pr4249p4124158ad3ckr4clr"))))
+            "08cmy7p476b5clqx9368w1lixaswzvl7qgp0h59v21l21acc4m41"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
@@ -80613,17 +80613,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20211120.846")
+    (version "20211209.448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stardiviner/org-link-beautify.git")
                (commit
-                 "51c6d4efba7692ed288b7891127dc0aa44a9b585")))
+                 "29a44cff345928d8ded7ff814edcbf5a3ea0550e")))
         (sha256
           (base32
-            "1ixp1i8c0ryafxkxrkgbi4p8v9baqh7bjxdd8lvgwcfxdg0l2ns6"))))
+            "0cgf6bb3b0s378w48sdma0lyasdj93ngfvrdlnnjggk5hlcr98sx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-all-the-icons" ,emacs-all-the-icons)))
@@ -82474,17 +82474,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20210904.1643")
+    (version "20211209.447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stardiviner/org-tag-beautify.git")
                (commit
-                 "bdf438847e05f1f9c08c69e93c3d5e717b589074")))
+                 "7ba298dba1da0cb0d5cee3f366a88f17e778a20f")))
         (sha256
           (base32
-            "09k7zmdcyy5mymij4a2wq6s6r60njkxrmiybbwvln322wl0ldgsh"))))
+            "0bkaj43d1pnna2yicj6584acx173irqdbnhn7mg5hr223qzks42z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-pretty-tags" ,emacs-org-pretty-tags)
@@ -85764,17 +85764,17 @@
 (define-public emacs-pandoc-mode
   (package
     (name "emacs-pandoc-mode")
-    (version "20211207.1129")
+    (version "20211208.2229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/pandoc-mode.git")
                (commit
-                 "d7da6433aa905ff350e5c04798f5d2d8f1c19803")))
+                 "c1429887287b7ee9601196e26f97c908b6e4f5c0")))
         (sha256
           (base32
-            "1668kxisbk1ns2c46ad03qrarkf399zhb4zhj64x42ki4zrxw2pj"))))
+            "1zw92bkp5mjzc78vrvsaj3ycqn0j5mqzxxxv2nkb891spgandpvy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-hydra" ,emacs-hydra)
@@ -86139,17 +86139,17 @@
 (define-public emacs-parsebib
   (package
     (name "emacs-parsebib")
-    (version "20210809.2049")
+    (version "20211208.2335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/parsebib.git")
                (commit
-                 "8d7cf64badde2b14baac277cac85e83777da9409")))
+                 "3d46fb939371664682c711750367de088aa66f92")))
         (sha256
           (base32
-            "1hd6izpb4irinjmfy7zxy8fqnr1fm4iw2sipvl9261nm68dzha6z"))))
+            "08vrkadjxaw1w1bx8dg12kxxkvgl65p0d7gkpfhwpvv35k0d9z3y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/joostkremers/parsebib")
@@ -92811,17 +92811,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211208.1300")
+    (version "20211209.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "a19511679ae5e94e1dfea60fb59fbc0b78c45f1c")))
+                 "9c52fd9eecd2729cfc85f5500cb61ea7ac4574ec")))
         (sha256
           (base32
-            "1km9nkagjwzcx7mbkpc0mn60h1pljaq5v9vmd53ad9m92bzb5r1l"))))
+            "09qcl9sdg1r3rdf2gcip23s75lm99vzrkg9j9rayqdpcgfvzrfh8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -114652,17 +114652,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20210908.640")
+    (version "20211209.58")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "2681120b770573044832ba8c22ccbac192e1a294")))
+                 "ed6e867cfab77c5a311a516d20af44f57526cfdc")))
         (sha256
           (base32
-            "173qhfj5h4xd8rrf4avzknp24hzl0nlxs783pr7900d980cpbygr"))))
+            "0mq2q7yj09812iklj49n8p3kfpk1l6az33hr2dyxyl5i2nqps0vs"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
