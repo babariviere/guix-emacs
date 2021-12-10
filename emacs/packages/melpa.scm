@@ -16369,17 +16369,17 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20211203.354")
+    (version "20211210.338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-notmuch.git")
                (commit
-                 "dfdefb95abb88d27c646729cb36d28da08d7fb3d")))
+                 "2fd4befde0a2664b862a0e0c4ed3ccaedfc19c00")))
         (sha256
           (base32
-            "0jpmmw5hb1zbbr4r43nyk1v7w8nf9qa4l47m8l8klrlzxrnyk8q4"))))
+            "1snl2qi9d7mhycz3aspqh24rgd57xnykj4378whryq0590i7ca82"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-consult" ,emacs-consult)
@@ -22964,7 +22964,7 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20211210.35")
+    (version "20211210.102")
     (source
       (origin
         (method git-fetch)
@@ -24908,17 +24908,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20211209.2019")
+    (version "20211210.128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "6fad3cba6cb07113dfb9678be0f050a0d98052d9")))
+                 "8f4884f270ecffc0272d777b4aac54ea57977816")))
         (sha256
           (base32
-            "1bids5sav9vqlri482q283zfqs66fy7wwh5n4nwlp5qcglwy4xzc"))))
+            "0yjczphq6dnz4722pjaswa5p4li6qxynllvgzj6aw3zpi5dh97mv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-parsebib" ,emacs-parsebib)))
@@ -27815,17 +27815,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20211208.8")
+    (version "20211210.304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "d4e47a191d05f0348bd60e5ece2f43b31ffac8d3")))
+                 "0481f877d595ae3bf43f5890aff3f98f4cba822d")))
         (sha256
           (base32
-            "0i62lhy0iq8xh9l114c6jzjdc1g8d74qf6p84xpmfn8xk7vwll0j"))))
+            "1i90xxj72jy5hln1dxyni7xpfkil2rjz2vh663acm7kawv1by1kf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-company" ,emacs-company)
@@ -28470,17 +28470,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211209.2219")
+    (version "20211210.230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "7c502b00a505905f8d08140f55ac789c031e23a8")))
+                 "91e6db4dc029cc87ff3315f88552468de7344e30")))
         (sha256
           (base32
-            "1g57n9mrryl52684ww54nqnqm2yvsm968hl05x31yvirnj7mdq39"))))
+            "0qr9xgg37cxbglbjmd132b3hg3gj584grjidcdm8a7swb3nw1nl2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -33364,17 +33364,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211207.1645")
+    (version "20211209.2257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "d80d5013dc7d7acfc640ea1fcfa7f44712e4d942")))
+                 "6f544be43e24a3b2f9aca7cba1bd960bb824605d")))
         (sha256
           (base32
-            "155hv1nymg8jr1nffz3dw219v0gqnn77bnai00q810xpj40bbccz"))))
+            "14k39ngsxv35k4lvl2qgxrr6pjinz3r618f9b4lrw07rr46p0637"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-edit" ,emacs-tree-edit)
@@ -66956,17 +66956,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211208.1528")
+    (version "20211210.540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "5d95a919ae018fcf301506e6ab1c61373d29610e")))
+                 "cbfbfe394dfe4a372c4477f89ab61e0f3d82e13d")))
         (sha256
           (base32
-            "1bvv4hzvbi6iah4s877z96namr0qpkp7aayrz3r6p5lljhh8xmzb"))))
+            "1kahxqq4nd7r7db211wkcky4jyrg0z1bfn17fmlhbll1bzc2vfvj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -70201,7 +70201,7 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211209.1715")
+    (version "20211209.2203")
     (source
       (origin
         (method git-fetch)
@@ -92813,17 +92813,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211209.1212")
+    (version "20211210.319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "9825016023c89c712052dff1936effa814daedd1")))
+                 "124bd153d820c20782825d1cc2928ee9cc010598")))
         (sha256
           (base32
-            "17bji03la6wn1m59208w0zg0gsv7wpjhvskvz1pypkqqqnbm3jqf"))))
+            "1ck9g3cznnml2sqxw1slzpiplzd13nz26644vqyn0ivnl10pg9vh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -110582,17 +110582,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211208.1916")
+    (version "20211209.2258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "e4b762e9aa2973dd8660c84a712321cb4c4b4ddb")))
+                 "6f544be43e24a3b2f9aca7cba1bd960bb824605d")))
         (sha256
           (base32
-            "16xiycfr0xgdxfpqk2b4f17vfyj8nwrw5xgrl2qkn79gq9w6khl1"))))
+            "14k39ngsxv35k4lvl2qgxrr6pjinz3r618f9b4lrw07rr46p0637"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-sitter" ,emacs-tree-sitter)
