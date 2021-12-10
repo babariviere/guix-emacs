@@ -10043,17 +10043,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211209.2349")
+    (version "20211210.1057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "7f11b354dfb9a87e2995600b937ef7e95191356f")))
+                 "8475a337d446ae2bbd7b71afa5e54e7eb5433c1f")))
         (sha256
           (base32
-            "0gyrqmwbyqkigbphf5m5zz0cjkxig8jafrimwpmgy8vyapr6xxp5"))))
+            "11cgbp2hnmy2lylx0fj5jja89vqfsa86lmfzj1w500dvs3zb0k9k"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11901,17 +11901,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211209.153")
+    (version "20211210.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "425301d169b5b144d71a500f6bf6ee4535c2842c")))
+                 "8cfb992224bf88ce8d2fc4ed2ae121825481a6ad")))
         (sha256
           (base32
-            "0vd7h7ccqbrz3bpm3zpf01jv6xkf8id2pb57dxzrmh9mc6qyn2jm"))))
+            "0sdc44y29dggq96ff6n6vyvlfysnbpslswmfxgqamqmra3yaq7wj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -16195,17 +16195,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211202.1100")
+    (version "20211210.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "b93bc629ff0613c41192246d870be6f8a8824dc7")))
+                 "36ac62c7de467dd8f677421a6366bd17f7c8446d")))
         (sha256
           (base32
-            "02l68p9j6sg4ixbp2mcb09friqn5gnkmag2bh69px48jfrzd6fr3"))))
+            "0sc22nanycrhjnplwpww0j8df8x66is86yhbgy8yhp1gqg1r07y0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -17001,17 +17001,17 @@
 (define-public emacs-counsel-etags
   (package
     (name "emacs-counsel-etags")
-    (version "20211010.1332")
+    (version "20211210.1127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/counsel-etags.git")
                (commit
-                 "98860e5981b07952b5c15361cdb996741e5842c5")))
+                 "bafd22a20c3328b0cf81aa9c35bfa37a095cf9c3")))
         (sha256
           (base32
-            "056zqa9rq32vrmqq7i1yi37l5ypjdk2dgcd0yl9wlcl339cdzwsq"))))
+            "1p651ykxbakzhwlrxcz4v62kj4f78l83f67qcghi58sq9cvwg1gi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-counsel" ,emacs-counsel)))
@@ -24908,17 +24908,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20211210.128")
+    (version "20211210.1038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "8f4884f270ecffc0272d777b4aac54ea57977816")))
+                 "6af31ec0a351916f6703157cc03dd6aaf403c660")))
         (sha256
           (base32
-            "0yjczphq6dnz4722pjaswa5p4li6qxynllvgzj6aw3zpi5dh97mv"))))
+            "1m46p587lmma5p1i7drnm2h3nzxa9v8pj5976m0ixx49qjqp621f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-parsebib" ,emacs-parsebib)))
@@ -28470,17 +28470,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211210.230")
+    (version "20211210.1440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "91e6db4dc029cc87ff3315f88552468de7344e30")))
+                 "fed14590737b6e2d82a89321d2bf5642c2479a22")))
         (sha256
           (base32
-            "0qr9xgg37cxbglbjmd132b3hg3gj584grjidcdm8a7swb3nw1nl2"))))
+            "1iklll0n4s096wnb97i0cyisiq2rfzgbfn5xznrm8z5cigkh2qdj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -33314,17 +33314,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20211206.310")
+    (version "20211210.1354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "4d79ea71219cb0153baf4046af8aae6b1ed2fcfb")))
+                 "31b6b20f5dae9edd2f733b347b4f7a0d0a5cb962")))
         (sha256
           (base32
-            "1nrakz8y2i8dzj55ssrbsysag0njvbvm7zlwkw7xkzlird48d8fm"))))
+            "108gp9iq7mrmdim0xm845g90f8n9kws4d70ad2gjwl9dcamgjxnz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-evil" ,emacs-evil)
@@ -70201,20 +70201,18 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211209.2203")
+    (version "20211210.1503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "3fead7de4de01c13253ddcc6c79b16153f4d8a0e")))
+                 "8d11275e18bac4e12b5b2794d67fb82a5e0e2468")))
         (sha256
           (base32
-            "1grrajsr1f59jg51fvq55m0syh8gpr43z2yjznk318k1p2q9bjr4"))))
+            "0qpb45rnf9q5ywgq0lglmq9l0h6aidal79g6x8zwmdsmwf536mlk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
     (home-page
       "https://www.github.com/DogLooksGood/meow")
     (synopsis "Yet Another modal editing")
@@ -92813,17 +92811,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211210.319")
+    (version "20211210.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "124bd153d820c20782825d1cc2928ee9cc010598")))
+                 "bf925142a53a36179ec42e7d93e389da0487dc8c")))
         (sha256
           (base32
-            "1ck9g3cznnml2sqxw1slzpiplzd13nz26644vqyn0ivnl10pg9vh"))))
+            "1i9pygycqsyrvz8z1xbdghspnl0s4xmg7fqg7sci0kqz8b2v0d9p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -110689,17 +110687,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20211206.1616")
+    (version "20211209.1639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "86a894a617976aefa453fa6ce8dd9871c58f733e")))
+                 "d930b30d525b6418b9b40c3c2395e011a17e0749")))
         (sha256
           (base32
-            "1ndrvjfwfj6pky33mkhqpfc2692cv3ndazvqhb52rs14q6b3vr7b"))))
+            "15jlajspi37r9rw539932shga4jvr3dsah47i6da0v64m7zdfhqy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-sitter" ,emacs-tree-sitter)))
