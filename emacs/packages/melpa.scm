@@ -4668,17 +4668,17 @@
 (define-public emacs-auto-complete
   (package
     (name "emacs-auto-complete")
-    (version "20201213.1255")
+    (version "20211210.1808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/auto-complete/auto-complete.git")
                (commit
-                 "aafd3f566a8002a1e9b3e197721a2660c0a835ff")))
+                 "027dd93ffdd6219c9229fbb98d0ee25496dec1ee")))
         (sha256
           (base32
-            "0ipa5kaprisrmyyqlgzi5giq0449hjflfm81i9a5vy82ikz5lsxg"))))
+            "013g2dkyhvvx44l9q8lphv1011ilanyikhs7jf6qxp5v2plp4i6q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-popup" ,emacs-popup)))
@@ -10043,17 +10043,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211210.1057")
+    (version "20211210.1814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "8475a337d446ae2bbd7b71afa5e54e7eb5433c1f")))
+                 "c2db8ce4d9844509add56fdc114bf7f2f7fa91a3")))
         (sha256
           (base32
-            "11cgbp2hnmy2lylx0fj5jja89vqfsa86lmfzj1w500dvs3zb0k9k"))))
+            "16wacm5n4hhy31rbw4j2pfsnwx063vlwv5vk8g2qzzwkbdx8w7n0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -16195,17 +16195,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211210.943")
+    (version "20211210.1803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "36ac62c7de467dd8f677421a6366bd17f7c8446d")))
+                 "a8dea906824e1e171fb01c3cdb2d7ffa1f24bb5f")))
         (sha256
           (base32
-            "0sc22nanycrhjnplwpww0j8df8x66is86yhbgy8yhp1gqg1r07y0"))))
+            "06jjmlhs1dska614r6h95chs5y88ay1w6h0ac25kryl19fp0pz5h"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -25921,17 +25921,17 @@
 (define-public emacs-eide
   (package
     (name "emacs-eide")
-    (version "20211202.2118")
+    (version "20211210.2050")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://forge.chapril.org/hjuvi/eide.git")
                (commit
-                 "bb7a5320e34706b7b09683bcc12ce7c30cecb583")))
+                 "3a36db2bf007cc5afeead407492add1e2d2a51c7")))
         (sha256
           (base32
-            "0z0xbzrbwklgjma5imf77brr2qbwl3m8z645alx455pa8p2a6n6s"))))
+            "0gsai42nv3cgpa1lz11pbrcms9rlbpb1a30vwx1syqyi22rkcdns"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/*.el" "src/themes/*.el")))
@@ -42769,17 +42769,17 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20211005.605")
+    (version "20211210.1616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/gerrit.el.git")
                (commit
-                 "3de210e2bcf9a7ce9a2a448cd910ffe477de8432")))
+                 "b2e4ef23c2dd66d10526b58defcaea7beac7442f")))
         (sha256
           (base32
-            "1aaaff18crz86f1mpjkwc6vfjdayjnv4imqrl8qnqfccbmkb5z4w"))))
+            "0spmljgh82nssv5d7bsywhlgpr4n4xz9vi1ar9kaba2981q3xd2p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-hydra" ,emacs-hydra)
@@ -70201,7 +70201,7 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211210.1503")
+    (version "20211210.1625")
     (source
       (origin
         (method git-fetch)
@@ -96843,17 +96843,17 @@
 (define-public emacs-rime
   (package
     (name "emacs-rime")
-    (version "20211118.328")
+    (version "20211210.1806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DogLooksGood/emacs-rime.git")
                (commit
-                 "4ee9d7a9b35571264be9b6eae96d7e1302c3e16c")))
+                 "5c2ade217134f6f20cd405447af20825e5b44513")))
         (sha256
           (base32
-            "0000brjzsnap5x07zvvv9bd6x9g3f3h4xflqqwmx8mx4hcbv0l3x"))))
+            "1yp92sfirvcz3s2q8j8g6qlcmb7pn30m9ww4nc332m1axah7l05n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -116299,17 +116299,17 @@
 (define-public emacs-wikinforg
   (package
     (name "emacs-wikinforg")
-    (version "20210711.302")
+    (version "20211210.2116")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/wikinforg-"
-               version
-               ".el"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/progfolio/wikinforg.git")
+               (commit
+                 "62842806fee863eb43c3015c3d86f5a7f0bf858f")))
         (sha256
           (base32
-            "050idvzkajvxjdj5nvyabv0yis9wk32y57gh5i8xmzq5r28kg4v8"))))
+            "1rzxswfzg8lpwn1r7lq08rz7mrbrs5vr587phh60l26qpz6960c2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-wikinfo" ,emacs-wikinfo)))
