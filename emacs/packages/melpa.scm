@@ -10043,17 +10043,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211210.1814")
+    (version "20211211.1336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "c2db8ce4d9844509add56fdc114bf7f2f7fa91a3")))
+                 "6d076f24807eec4fbc2c5f75414887c80ec5e028")))
         (sha256
           (base32
-            "16wacm5n4hhy31rbw4j2pfsnwx063vlwv5vk8g2qzzwkbdx8w7n0"))))
+            "0njbndmgyiwv6hn75cjjrmlc6dw46h09lic0ygc0pwj66cghvfz0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11927,17 +11927,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20211129.1447")
+    (version "20211211.821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "e5b5f86defe231ba9d268f68143db6ff851195cf")))
+                 "05ee55c1ce0edd4bbfc9d60913dc15e7b7a45df4")))
         (sha256
           (base32
-            "1zsfr9mhlx55gvxahphdbbyh6ppd6lgy3cw3c6b4yvzr7bpc6hdd"))))
+            "1jz65yyf9qxh098z23m6qhp2gkib0jn3vsv9h1j3rq96v4l2idwh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -13193,17 +13193,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211209.159")
+    (version "20211211.1437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "7689192569a93d22216ce2b5e01d6641f3b59882")))
+                 "36f62479c263a3b1832d89e1eb0576e958d477f1")))
         (sha256
           (base32
-            "1mcb8skrpag0rikrqsgyakpgbsc7a7c1v105hyvamliq83ihcr2j"))))
+            "1gsmrczhj1vjs6v5anxc9kbv22dmq37a3l16xnb1p76zyk3p7cmm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -52838,17 +52838,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20211021.625")
+    (version "20211211.703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "8df39c15d290cd499ef261de868191d3fc84f75a")))
+                 "2afbde902742b1aa64daa31a635ba564f14b35ae")))
         (sha256
           (base32
-            "0wnbzwlsbigxc9bncy8lf8i5kcjg7qrb6l93k0fsyj8y0qibaja3"))))
+            "0qwsifzsjw95l83m7z07fr9h1sqbhggwmcps1qgbddpan2a8ab8a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -63010,17 +63010,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20211207.312")
+    (version "20211211.727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "a6ee8c8875ca5129e0a36fd4611f0b82c5cd616a")))
+                 "73361de919cff8d773f347868850f6c694d942e7")))
         (sha256
           (base32
-            "0mzv9i8x4glqvwi9q5nsas7xczh37jv0czxd4pk29kx7xkpy6f54"))))
+            "17imkanh7ay88s1ppzsdr7hf91rgqimx9v6p69srmqq5bpnwpnmy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -98000,17 +98000,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20211127.1621")
+    (version "20211211.1146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "8985814372784a0b1e6e95c4c5c7d77e2cf8739a")))
+                 "df46aa4167b86cc35ea98fcca75f0606b4fa617e")))
         (sha256
           (base32
-            "0qxwjxmmgr3kxissiwmvf4vjl0xlizi459wfvk15rscyfkjfbgk0"))))
+            "1mpibfmx530kx4xa7ashs6sz15ybpvxqdklls7yvi749fkb9zxsk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-rust-mode" ,emacs-rust-mode)
@@ -110635,17 +110635,17 @@
 (define-public emacs-tree-sitter
   (package
     (name "emacs-tree-sitter")
-    (version "20211208.1154")
+    (version "20211211.1220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/elisp-tree-sitter.git")
                (commit
-                 "8bbbfa4fc5f478f10c7cb968177d5a907fe5928f")))
+                 "48b06796a3b2e76ce004972d929de38146eafaa0")))
         (sha256
           (base32
-            "1nll9h518i0jh3l04i22wbn3xl535na08525jvgv8s99vrrz4gig"))))
+            "04dlwpi5w1g9v62l51zwa6idsajk6km39ljk2k9z3jrcs0fj22ml"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-tsc" ,emacs-tsc)))
     (arguments
@@ -111198,17 +111198,17 @@
 (define-public emacs-tsc
   (package
     (name "emacs-tsc")
-    (version "20211208.1154")
+    (version "20211211.1220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/elisp-tree-sitter.git")
                (commit
-                 "8bbbfa4fc5f478f10c7cb968177d5a907fe5928f")))
+                 "48b06796a3b2e76ce004972d929de38146eafaa0")))
         (sha256
           (base32
-            "1nll9h518i0jh3l04i22wbn3xl535na08525jvgv8s99vrrz4gig"))))
+            "04dlwpi5w1g9v62l51zwa6idsajk6km39ljk2k9z3jrcs0fj22ml"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -115667,17 +115667,17 @@
 (define-public emacs-webpaste
   (package
     (name "emacs-webpaste")
-    (version "20210813.1901")
+    (version "20211211.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/etu/webpaste.el.git")
                (commit
-                 "bbdc5e5b689a787c6b4ae7690751fe9c10d6796e")))
+                 "78272662e6992b8614e79a571ff2395fa9630357")))
         (sha256
           (base32
-            "1pl02jvqnh6710maxxnbwy5cfdrhav61x9b4da76wdxhv9rhzjjr"))))
+            "07hj9nr7x6c9w2dnvc58cfbprgp9cqzdxflp5qlpglzdw0bi9s3c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-request" ,emacs-request)))
