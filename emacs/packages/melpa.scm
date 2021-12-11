@@ -14326,17 +14326,17 @@
 (define-public emacs-company-ctags
   (package
     (name "emacs-company-ctags")
-    (version "20210723.1322")
+    (version "20211211.338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/company-ctags.git")
                (commit
-                 "ff813c58e930d01fb55ee2f57fe810896a12c51b")))
+                 "313508ba5d4f1e4b5d5d554faaa74076201c3248")))
         (sha256
           (base32
-            "0v5a7aaqj1p2c6ci34v31r4jb1wd29rff7n779n3klaqjbkg3b6h"))))
+            "0hf7lq6rcs6xhmgpc8bwk115rykyfvakcjqpanlsh5m3fdswjq03"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-company" ,emacs-company)))
@@ -28658,17 +28658,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20211207.2108")
+    (version "20211211.232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "5a59c0f435fb3a9a96e29de2bc7dcb914316f9dd")))
+                 "32ff8a70ca9726dd0e3b8ad68430bc6fd66bf387")))
         (sha256
           (base32
-            "0w8x9r3ljbflhh3ha4pldikiyj5avvpc60as1pf137mqqbichjwa"))))
+            "127xvjsqqk1a5m5qf06ksr3y378fm5h2vyckvm38y3mgrx1kvxx0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("*.el" "lisp/*.el" "doc/emms.texinfo")))
@@ -29065,17 +29065,17 @@
 (define-public emacs-emr
   (package
     (name "emacs-emr")
-    (version "20210301.213")
+    (version "20211211.500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/emacs-refactor.git")
                (commit
-                 "648c2e87516fac37b84fd9bc34a6362d2a9001e2")))
+                 "64b7fb7b8dea85865db01e471414c1b2a636d5d3")))
         (sha256
           (base32
-            "1crgj5skqckvw1l445ywkdq23bqkj6b6yf5y3pcyay1aasvjbhmb"))))
+            "1bi5x7iald8q4p1fjgfikizxx4aryc4q8rjpmbkg247vrsxd7ljx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -34570,17 +34570,17 @@
 (define-public emacs-fanyi
   (package
     (name "emacs-fanyi")
-    (version "20211201.1906")
+    (version "20211211.201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/fanyi.el.git")
                (commit
-                 "8dec7b64a7a7b7a9a2e59bc3f4cb370532cc8d92")))
+                 "c328cdd1c5a0e734937125771279838e401fc5a8")))
         (sha256
           (base32
-            "1xjiax55d9b49js7j9sbs0n0y65asc6p41v04znjn9116dkwdlbp"))))
+            "0kz6mv7awammgsi68vg6addkqry86sd3l8qrk3djwb77kw6rpvn6"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-s" ,emacs-s)))
     (home-page
@@ -40801,17 +40801,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20211208.1829")
+    (version "20211211.15")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "9bfcf775fa97d8fea18baa7256d47a3e2d0c921b")))
+                 "402773ef7e83ddfab64bfee23daea2776d50dbc1")))
         (sha256
           (base32
-            "1by8w650q6bzrvdl3kf71zd5rdlzby8l30zl61krxbchr2yp0mxy"))))
+            "1n8x0bx3av935ky56rzy38d0ry73g57nsax26z3scc4na4h46yip"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -67245,17 +67245,17 @@
 (define-public emacs-lsp-tailwindcss
   (package
     (name "emacs-lsp-tailwindcss")
-    (version "20211117.321")
+    (version "20211211.248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/lsp-tailwindcss.git")
                (commit
-                 "bee8bf1f6707362ace02563b4dfc481e7452f936")))
+                 "629ece1acc3280ee506660170cdee77446ba8c18")))
         (sha256
           (base32
-            "0rvwp8859p0byypy83mw42akjvv54ifx0gd3f4vb9vvp879rmsfi"))))
+            "0wlh68qxk811p8vs6vvjlxz48gb0vx00r4a0i5m74f6n5h41pzvh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-lsp-mode" ,emacs-lsp-mode)))
@@ -92811,17 +92811,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211210.1408")
+    (version "20211211.255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "bf925142a53a36179ec42e7d93e389da0487dc8c")))
+                 "ebded0b42fce44187ac8a1364244c471872e9449")))
         (sha256
           (base32
-            "1i9pygycqsyrvz8z1xbdghspnl0s4xmg7fqg7sci0kqz8b2v0d9p"))))
+            "1z7alh97jfdksw6avgibgybwm774pf2dfaidpcbi7jcjjrjskvhq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
