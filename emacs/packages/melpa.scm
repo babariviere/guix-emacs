@@ -11778,6 +11778,29 @@
       "Documentation at https://melpa.org/#/cil-mode")
     (license #f)))
 
+(define-public emacs-cilk-mode
+  (package
+    (name "emacs-cilk-mode")
+    (version "20211207.1656")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ailiop/cilk-mode.git")
+               (commit
+                 "51eb3088337674389275b9352a1b16dce2d917db")))
+        (sha256
+          (base32
+            "0mbfk0r14n7kx5m49b0j50m2kzg042nzrk2y91y7pj8sc7vh1lm6"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      `(("emacs-flycheck" ,emacs-flycheck)))
+    (home-page "https://github.com/ailiop/cilk-mode")
+    (synopsis "Minor mode for Cilk code editing")
+    (description
+      "Documentation at https://melpa.org/#/cilk-mode")
+    (license #f)))
+
 (define-public emacs-cinspect
   (package
     (name "emacs-cinspect")
@@ -11901,17 +11924,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211210.1315")
+    (version "20211211.1624")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "8cfb992224bf88ce8d2fc4ed2ae121825481a6ad")))
+                 "73e5dc999c07ab7ac4d0a1d265beecd9f5945d6b")))
         (sha256
           (base32
-            "0sdc44y29dggq96ff6n6vyvlfysnbpslswmfxgqamqmra3yaq7wj"))))
+            "16gh9a10zmycljzrkbqkrgjcy3926x8ljqhiz1772kipwgmcfvzb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -11927,17 +11950,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20211211.821")
+    (version "20211211.2159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "05ee55c1ce0edd4bbfc9d60913dc15e7b7a45df4")))
+                 "2e7df666bfeed92178d20c5851a2945ed5760664")))
         (sha256
           (base32
-            "1jz65yyf9qxh098z23m6qhp2gkib0jn3vsv9h1j3rq96v4l2idwh"))))
+            "1d6plgf119sdw4r7rdj4lg49csca5015izls62qdgxzjyj9yhac2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -16195,17 +16218,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211210.1803")
+    (version "20211211.1739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "a8dea906824e1e171fb01c3cdb2d7ffa1f24bb5f")))
+                 "1984605a4aa6707bd8b096440a1eda70212f616b")))
         (sha256
           (base32
-            "06jjmlhs1dska614r6h95chs5y88ay1w6h0ac25kryl19fp0pz5h"))))
+            "1s4c78cwz667wlwgdc0px4pka0fkrfk8rbwdgrrknm0v0fxgjn9l"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -26503,17 +26526,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20211203.2205")
+    (version "20211211.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "51af03cb5023d4bbd983adfbfabbbf8eca5a8315")))
+                 "8ced25116e4eab6792513307cf0e41d9a4b12528")))
         (sha256
           (base32
-            "18fqnigxhbz5v6bc52jlgn30l8cpqvkg5z2riaq8b8hxmzd7s0vi"))))
+            "1rrcf9fwx7d9zj2zcyf17s7i8x150x8fdx1crymzkplvypg6s2p7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28470,17 +28493,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211210.1440")
+    (version "20211211.1932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "fed14590737b6e2d82a89321d2bf5642c2479a22")))
+                 "33b47bb8999f8c7d67e9d1e04668e421e3c7246f")))
         (sha256
           (base32
-            "1iklll0n4s096wnb97i0cyisiq2rfzgbfn5xznrm8z5cigkh2qdj"))))
+            "15y9n6y9iviqwm7qblyzq37iaqam38kzr1hgl8w9jbn1kh8sa2ri"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -31609,17 +31632,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20211209.2036")
+    (version "20211211.1737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "44080eb3070642cc4f79e483a78712930dbf2797")))
+                 "b00018bf550fbbe1b55165579e6ede973d70f53b")))
         (sha256
           (base32
-            "13f5hfd59dza5xx2m4z3m6015bgamlqf0x1s1y1pj0j8kc9qba47"))))
+            "1qw33vhiiia14rzwzmvsp2w4vyrf1z6v3b8vgkcmlxyhns22g26f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-goto-chg" ,emacs-goto-chg)))
@@ -33859,6 +33882,29 @@
       "Increase selected region by semantic units.")
     (description
       "Documentation at https://melpa.org/#/expand-region")
+    (license #f)))
+
+(define-public emacs-expenses
+  (package
+    (name "emacs-expenses")
+    (version "20211206.602")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/md-arif-shaikh/expenses.git")
+               (commit
+                 "e4d36a84bc82f7fdd476d87be782e57815737f0f")))
+        (sha256
+          (base32
+            "1hhqmhvic8bqnbr8fbw5l0dk2gpyjyc5vw44g6myrjyxx34ka9wp"))))
+    (build-system melpa-build-system)
+    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (home-page
+      "https://github.com/md-arif-shaikh/expenses")
+    (synopsis "Record and view expenses")
+    (description
+      "Documentation at https://melpa.org/#/expenses")
     (license #f)))
 
 (define-public emacs-express
@@ -41793,17 +41839,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20211209.1840")
+    (version "20211211.2158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "d9fb9e7e7e2e44db3907d663745e79990e0f783a")))
+                 "90ff0a86609b13454a11986971e9fe2ec0195bcc")))
         (sha256
           (base32
-            "19500fg83a0sakm9972xva7c8m2wzwwwrnw3079bhkili2ycrfax"))))
+            "19lv5dznciy1cs876qh32lk5qmib115mk56k9bxanrhcjsxd43k6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -66956,17 +67002,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211210.540")
+    (version "20211211.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "cbfbfe394dfe4a372c4477f89ab61e0f3d82e13d")))
+                 "e43b9ddb3903a39c325966f21e7edc1192d1e8e2")))
         (sha256
           (base32
-            "1kahxqq4nd7r7db211wkcky4jyrg0z1bfn17fmlhbll1bzc2vfvj"))))
+            "1axy6av4a2yccb0k5ijad6zvbqgbzknx7faxmr84vfddiilblnl9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -70201,17 +70247,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211210.1625")
+    (version "20211211.2048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "8d11275e18bac4e12b5b2794d67fb82a5e0e2468")))
+                 "8f3cc859ae5b8cc0bf3bc235301c0b3ec5e7811d")))
         (sha256
           (base32
-            "0qpb45rnf9q5ywgq0lglmq9l0h6aidal79g6x8zwmdsmwf536mlk"))))
+            "0qkhyd40pk3q78i2dclbj46zl1ylnsb46mbxv96464nx8jxlhq07"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -93314,6 +93360,28 @@
       "Documentation at https://melpa.org/#/python-isort")
     (license #f)))
 
+(define-public emacs-python-mls
+  (package
+    (name "emacs-python-mls")
+    (version "20211211.1934")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jdtsmith/python-mls.git")
+               (commit
+                 "6a97a97da95d1dbe9296b7bf8c4973400c798e80")))
+        (sha256
+          (base32
+            "0kqahgnd6sblryn0gi1jk43fh7q9q1l5zx02lp01axh72hb23kmp"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/jdtsmith/python-mls")
+    (synopsis "Multi-line shell for (i)Python")
+    (description
+      "Documentation at https://melpa.org/#/python-mls")
+    (license #f)))
+
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
@@ -98000,17 +98068,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20211211.1146")
+    (version "20211211.2202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "df46aa4167b86cc35ea98fcca75f0606b4fa617e")))
+                 "d124b1638ba3df967dea870576d62588a5053d5e")))
         (sha256
           (base32
-            "1mpibfmx530kx4xa7ashs6sz15ybpvxqdklls7yvi749fkb9zxsk"))))
+            "0qkarcc7z2mhzrb0zfaif4d4sdpjv3qwycz6dxy9yn568scwm3hf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-rust-mode" ,emacs-rust-mode)
@@ -110580,17 +110648,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211209.2258")
+    (version "20211211.2301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "6f544be43e24a3b2f9aca7cba1bd960bb824605d")))
+                 "1a670b73cd990af3b08633b01f84b57edaeb92ba")))
         (sha256
           (base32
-            "14k39ngsxv35k4lvl2qgxrr6pjinz3r618f9b4lrw07rr46p0637"))))
+            "1sr8h96rzghxbs42rzv0c2abhrydjsxf98hijnffa7yqd8gffjdr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-sitter" ,emacs-tree-sitter)
