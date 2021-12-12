@@ -27838,17 +27838,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20211210.304")
+    (version "20211211.2248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "0481f877d595ae3bf43f5890aff3f98f4cba822d")))
+                 "9e4382fe99fa922a23a25320bad5df268026e78c")))
         (sha256
           (base32
-            "1i90xxj72jy5hln1dxyni7xpfkil2rjz2vh663acm7kawv1by1kf"))))
+            "0dlii04byyqr48mnvs3wh8np2zx5r30rhhpbind0z64ahq10a1zh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-company" ,emacs-company)
@@ -28493,7 +28493,7 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211211.1932")
+    (version "20211212.101")
     (source
       (origin
         (method git-fetch)
@@ -33387,17 +33387,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211209.2257")
+    (version "20211211.2301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "6f544be43e24a3b2f9aca7cba1bd960bb824605d")))
+                 "1a670b73cd990af3b08633b01f84b57edaeb92ba")))
         (sha256
           (base32
-            "14k39ngsxv35k4lvl2qgxrr6pjinz3r618f9b4lrw07rr46p0637"))))
+            "1sr8h96rzghxbs42rzv0c2abhrydjsxf98hijnffa7yqd8gffjdr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-edit" ,emacs-tree-edit)
@@ -70247,17 +70247,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211211.2048")
+    (version "20211212.524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "8f3cc859ae5b8cc0bf3bc235301c0b3ec5e7811d")))
+                 "fe9975a6b78732de3a93737d666407acf1351fdf")))
         (sha256
           (base32
-            "0qkhyd40pk3q78i2dclbj46zl1ylnsb46mbxv96464nx8jxlhq07"))))
+            "15qdh6ghgaw6h781zvpkyaf5w50098ap3h6fz2jsm8fp63p19w3d"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
