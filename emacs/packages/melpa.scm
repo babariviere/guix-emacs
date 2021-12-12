@@ -11924,17 +11924,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211211.1624")
+    (version "20211212.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "73e5dc999c07ab7ac4d0a1d265beecd9f5945d6b")))
+                 "7740300831af16f4c2bbc4012fcc6a21f1f9a809")))
         (sha256
           (base32
-            "16gh9a10zmycljzrkbqkrgjcy3926x8ljqhiz1772kipwgmcfvzb"))))
+            "07zc1kxyp3n2wjxxz7vf383dcs4qpgp4dg09gvab2k4ci4shgl63"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -13216,17 +13216,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211211.1437")
+    (version "20211212.1051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "36f62479c263a3b1832d89e1eb0576e958d477f1")))
+                 "a440c3429c158a88af6517bbcd0efb1a2956bf12")))
         (sha256
           (base32
-            "1gsmrczhj1vjs6v5anxc9kbv22dmq37a3l16xnb1p76zyk3p7cmm"))))
+            "0mabb6z0hp34w93az3x2hzkrlwi2mv885m5j4xy1rz5k9vc31ssq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -16218,17 +16218,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211211.1739")
+    (version "20211212.1110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "1984605a4aa6707bd8b096440a1eda70212f616b")))
+                 "85008702de2d28a02123e3f93111dbf54d0a9189")))
         (sha256
           (base32
-            "1s4c78cwz667wlwgdc0px4pka0fkrfk8rbwdgrrknm0v0fxgjn9l"))))
+            "0j071lkk4vjxivwlpa2f4p082mycdl5nrcl31s6ycqv2xcdm91hj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -16609,17 +16609,17 @@
 (define-public emacs-conventional-changelog
   (package
     (name "emacs-conventional-changelog")
-    (version "20211103.1242")
+    (version "20211212.1158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/emacs-conventional-changelog.git")
                (commit
-                 "9db9dcfdff2ff8cf6a88e938646cb26ce0f61774")))
+                 "40c2ee58364422b776e81dc153918205bfbeda86")))
         (sha256
           (base32
-            "1qm6v88mz6bxz0yg2yw5xfiz5jjnz3i9vwaa3irnywzs6prw7pa4"))))
+            "1zxs0sgrdhzlfixahss4m3a7jx2qdkaccqkg9jbyf4vsdm17im48"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-transient" ,emacs-transient)))
@@ -20559,17 +20559,17 @@
 (define-public emacs-devdocs-browser
   (package
     (name "emacs-devdocs-browser")
-    (version "20210815.1600")
+    (version "20211212.1544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-devdocs-browser.git")
                (commit
-                 "4d81e4db165671ba3e7326dec72f950b26df4dde")))
+                 "2d265d48d40156d4a2dd2b6b433c8d969e037c5a")))
         (sha256
           (base32
-            "0jfrsqvlfv1xh8ss0c9pk4b5dffrxq8i3vp08ckigbdbk31fsvmx"))))
+            "1y6akvcky85z45d9s7ll8i1v2xz4a1xy0pfg7c1qi0xs5d3xw4i1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/blahgeek/emacs-devdocs-browser")
@@ -41839,17 +41839,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20211211.2158")
+    (version "20211212.824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "90ff0a86609b13454a11986971e9fe2ec0195bcc")))
+                 "722a7c1c49382c67ac16582f589f1244c6d7ca9e")))
         (sha256
           (base32
-            "19lv5dznciy1cs876qh32lk5qmib115mk56k9bxanrhcjsxd43k6"))))
+            "0lldafjw3z01z2qf19s3ij6gmf295dj5w5amhgw03042rnsg9giq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -56768,6 +56768,28 @@
       "Fix Python imports using importmagic.")
     (description
       "Documentation at https://melpa.org/#/importmagic")
+    (license #f)))
+
+(define-public emacs-impostman
+  (package
+    (name "emacs-impostman")
+    (version "20211212.851")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/flashcode/impostman.git")
+               (commit
+                 "130ef8218c9e2a776130ab95b6cd199955328913")))
+        (sha256
+          (base32
+            "0w9x6iq7cmzd3vqrjh7l8b457fcphpl8z1xk4dcc3lj113nczyig"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/flashcode/impostman")
+    (synopsis "Import Postman collections")
+    (description
+      "Documentation at https://melpa.org/#/impostman")
     (license #f)))
 
 (define-public emacs-indent-control
@@ -71948,17 +71970,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211207.1603")
+    (version "20211212.1043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "2f5b7ccbc4d13500344b1e5c9fe1be88d3ca964b")))
+                 "48a88b0d24374976372183c4ada4ab370a53acc5")))
         (sha256
           (base32
-            "169ns1gy58a4gx3zl8kzg6ibxwr0vrfx2k6svyhyfv0xd1z0h404"))))
+            "0phdhiqhq7v2hbqgh48lg31sys80mbpfd4s1qvy7jgk79ga10q07"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -98628,21 +98650,21 @@
 (define-public emacs-scad-preview
   (package
     (name "emacs-scad-preview")
-    (version "20210306.426")
+    (version "20211212.1128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zk-phi/scad-preview.git")
                (commit
-                 "8b2e7feb722ab2bde1ce050fe040f72ae0b05cad")))
+                 "c5449b26c63f3e0a695905a7e4e84f8d844f761b")))
         (sha256
           (base32
-            "13hsd3sh1azcrbdbjnr1z5q0n5xw3ifzhvsnfqbqdz2pkpr5mfig"))))
+            "1syz8cjyw4rjv1hbvs42r7n56jzjz5c71s21kmm8rp7hlbz71jhr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-scad-mode" ,emacs-scad-mode)))
-    (home-page "http://zk-phi.gitub.io/")
+    (home-page "https://zk-phi.github.io/")
     (synopsis
       "Preview SCAD models in real-time within Emacs")
     (description
@@ -115230,17 +115252,17 @@
 (define-public emacs-wanderlust
   (package
     (name "emacs-wanderlust")
-    (version "20211203.1339")
+    (version "20211212.909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/wanderlust.git")
                (commit
-                 "16483808128c03ead9618cfc544c807ca5096690")))
+                 "7b06ce86a925ce3c41a54ecacc3c27afbe00dcf1")))
         (sha256
           (base32
-            "0hpr7wwadlbmljypwz9z5f988i1gs1qa7ii65hr6y4wd2y0cj71p"))))
+            "0p09rqaxwys2jhmlxlxf0xy3x42b183l3kbfrhbivagxpb10r608"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-apel" ,emacs-apel)
