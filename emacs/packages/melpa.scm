@@ -10043,17 +10043,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211212.2327")
+    (version "20211213.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "5319e343bbaf272ac0d0b376b5b37f09be800314")))
+                 "700c9d7bc221e04e259947f8fb7a908bf1909bc0")))
         (sha256
           (base32
-            "0hag0aj3ch8hgjgyl09vqlwsacq010kad8ggdqwxfqbzj01225cj"))))
+            "1z2qddbirvzz017wflvc3wl5mnc7l8p8j8sc1wn7v0k8c0vdcw63"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11950,17 +11950,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20211212.2305")
+    (version "20211213.1104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "0d57304925af13be2d21a0e68363543c360598a0")))
+                 "538fed794c29acf81efee8a2674268bd3d7cc471")))
         (sha256
           (base32
-            "1jmi0pmqrf7jvxn0z5zr8gq9vgpkspawfms94r9yigqff976mjv2"))))
+            "0z6i352f7gjxml7cl2yi35phw0dqw5kb14bsrhk4rh0vs065g7vg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -22226,7 +22226,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20211213.606")
+    (version "20211213.610")
     (source
       (origin
         (method git-fetch)
@@ -30305,17 +30305,17 @@
 (define-public emacs-erlang
   (package
     (name "emacs-erlang")
-    (version "20211112.1232")
+    (version "20211213.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erlang/otp.git")
                (commit
-                 "210ef4f5c9202a86438e9e9c8b4c902713abf9f1")))
+                 "9b07aedd669c2cb1e12e8a9b4f06210d0892041e")))
         (sha256
           (base32
-            "0048s6z7zkv1ry80g1wfizjisnhy2wcnh2g9mx4h3kdfhnjdlgap"))))
+            "13cq2smfql3jq0prb3vliq9i640sq19fd7s6223269gwkyanqw5q"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -72106,17 +72106,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211212.1043")
+    (version "20211213.700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "48a88b0d24374976372183c4ada4ab370a53acc5")))
+                 "8f9491d0e2b915dda99224bdbf5b0c063ea537a5")))
         (sha256
           (base32
-            "0phdhiqhq7v2hbqgh48lg31sys80mbpfd4s1qvy7jgk79ga10q07"))))
+            "05s7y80020ff8qf9vlql1i1y21g0il80lwijd49n77byawa27cby"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -78408,17 +78408,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20211212.1544")
+    (version "20211213.1012")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "e06460f0cf248567144e6bcb36e8e4f5e2959ede")))
+                 "2ac8f82f3816995a50e47f0f9247b806346d30f6")))
         (sha256
           (base32
-            "0n7d4b4iiznvz8ik8qi1m8fp73i68cg33bcmn5qkzpgq7cmp42wk"))))
+            "1kfrnmsjgnn6q5k297q7ka7zqkni33dxsc6dnv5raizlhcxif0qv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-re-reveal" ,emacs-org-re-reveal)))
@@ -82102,17 +82102,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20211213.512")
+    (version "20211213.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "898295f4a0ce32e1267e4a0700be070fabe9f19e")))
+                 "7068d63e966c0ca8d098ac4f7a90434f4c9b6822")))
         (sha256
           (base32
-            "077z56l6vh51is2pd2rs6a1d8iyrhj7npq2183wdcnldc4v5zvhf"))))
+            "0yb2n4jvfpnbcvik8v2kfklgl4pbsxbkahl98m9bn56vgian9m2b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -82891,17 +82891,17 @@
 (define-public emacs-org-tree-slide
   (package
     (name "emacs-org-tree-slide")
-    (version "20211009.1707")
+    (version "20211213.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/org-tree-slide.git")
                (commit
-                 "27f8bb6a9676e1c0b500e75799e3b5c37a9156af")))
+                 "917612a0d1593de533b7bf0a2792d7e37bb2ca3d")))
         (sha256
           (base32
-            "0751qlg8xxwx7mldgdry1gfrarvhzg2smjzxd3382i6j63mpala9"))))
+            "0kqq47f5fgjx1dp72c3qy3lbqb088qh0b5shn5xrqrq84xzilipy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/takaxp/org-tree-slide")
@@ -93015,17 +93015,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211213.652")
+    (version "20211213.1253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "4b7f6172e21af707b7caeaaa6139dc1379ada04a")))
+                 "02c50045cb14ab253d8d8435e83e7f10b0bbc130")))
         (sha256
           (base32
-            "1xzvj3mhrdjdij830qvqf1zk64x433jamdnbl512za8xys8grpr9"))))
+            "1gydldssvg368nqpk9xy9snzhp3rb33nlygnwmh9ah4yaq412lh3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
