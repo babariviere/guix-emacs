@@ -6912,17 +6912,17 @@
 (define-public emacs-better-defaults
   (package
     (name "emacs-better-defaults")
-    (version "20210222.1928")
+    (version "20211212.1841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~technomancy/better-defaults")
                (commit
-                 "4c5409406ee35c5ba46880c6cfe98df4b14dc631")))
+                 "5383a9b2560adc4f7ebbdf148d87b19bf7cf8cc4")))
         (sha256
           (base32
-            "0agj1zyspm3bqj7apfjwhllnmydyj00x2iv7nvy03szpnwvm11fq"))))
+            "1h1nfmpa4prfhi4j7l46q99y315ds6kl3qnxjgkdnw57nxqbwfl5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/technomancy/better-defaults")
@@ -10043,17 +10043,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211211.1336")
+    (version "20211212.2255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "6d076f24807eec4fbc2c5f75414887c80ec5e028")))
+                 "5319e343bbaf272ac0d0b376b5b37f09be800314")))
         (sha256
           (base32
-            "0njbndmgyiwv6hn75cjjrmlc6dw46h09lic0ygc0pwj66cghvfz0"))))
+            "0hag0aj3ch8hgjgyl09vqlwsacq010kad8ggdqwxfqbzj01225cj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -22223,6 +22223,31 @@
       "Documentation at https://melpa.org/#/dirtree-prosjekt")
     (license #f)))
 
+(define-public emacs-dirvish
+  (package
+    (name "emacs-dirvish")
+    (version "20211212.935")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/alexluigit/dirvish.git")
+               (commit
+                 "d36abff4db176643d1282d53b1d8727150e8f6bb")))
+        (sha256
+          (base32
+            "001kd44aw1hlr4b693saxclw0ahqhvhj6f7ddc7qhhb9sp2zj9ab"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      `(("emacs-posframe" ,emacs-posframe)))
+    (home-page
+      "https://github.com/alexluigit/dirvish")
+    (synopsis
+      "A modern file manager based on dired mode")
+    (description
+      "Documentation at https://melpa.org/#/dirvish")
+    (license #f)))
+
 (define-public emacs-disable-mouse
   (package
     (name "emacs-disable-mouse")
@@ -23478,17 +23503,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20211114.1641")
+    (version "20211212.2109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hlissner/emacs-doom-themes.git")
                (commit
-                 "96edc0ceb864b7d72218e58c8e9272cd96e5712c")))
+                 "7d1a56623c08da769fd424e901916e9c3d8fdb25")))
         (sha256
           (base32
-            "0qkpwlg5h3ysmf6aywz49a9gkl4xszxzdkcfpqc3n0i2bvcmf6vk"))))
+            "1ifwb8mw0jcif3plj6wz9ak2ankpvxfqndv6qlcr6yij7xvi9qnk"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "themes/*.el")))
     (home-page
@@ -24931,17 +24956,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20211210.1038")
+    (version "20211212.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "6af31ec0a351916f6703157cc03dd6aaf403c660")))
+                 "37b9c4ec7a57ffdda53f3345cc99cf6819e94863")))
         (sha256
           (base32
-            "1m46p587lmma5p1i7drnm2h3nzxa9v8pj5976m0ixx49qjqp621f"))))
+            "1mk487k20baqjx2ysd763nrj14b2ialddpp5rvscbyiw5mll598s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-parsebib" ,emacs-parsebib)))
@@ -26286,6 +26311,117 @@
       "Unify all your inboxes with the Emacs secretary")
     (description
       "Documentation at https://melpa.org/#/el-secretario")
+    (license #f)))
+
+(define-public emacs-el-secretario-elfeed
+  (package
+    (name "emacs-el-secretario-elfeed")
+    (version "20211205.1916")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~zetagon/el-secretario")
+               (commit
+                 "915b98b901b3ea50416461dea624537ae8796847")))
+        (sha256
+          (base32
+            "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      `(("emacs-el-secretario" ,emacs-el-secretario)
+        ("emacs-elfeed" ,emacs-elfeed)))
+    (arguments
+      '(#:files ("el-secretario-elfeed.el")))
+    (home-page
+      "https://git.sr.ht/~zetagon/el-secretario")
+    (synopsis
+      "Add notmuch email inboxes to el-secretario")
+    (description
+      "Documentation at https://melpa.org/#/el-secretario-elfeed")
+    (license #f)))
+
+(define-public emacs-el-secretario-mu4e
+  (package
+    (name "emacs-el-secretario-mu4e")
+    (version "20211205.1916")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~zetagon/el-secretario")
+               (commit
+                 "915b98b901b3ea50416461dea624537ae8796847")))
+        (sha256
+          (base32
+            "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      `(("emacs-org-ql" ,emacs-org-ql)
+        ("emacs-el-secretario" ,emacs-el-secretario)))
+    (arguments '(#:files ("el-secretario-mu4e.el")))
+    (home-page
+      "https://git.sr.ht/~zetagon/el-secretario")
+    (synopsis "Add mu4e inboxes to el-secretario")
+    (description
+      "Documentation at https://melpa.org/#/el-secretario-mu4e")
+    (license #f)))
+
+(define-public emacs-el-secretario-notmuch
+  (package
+    (name "emacs-el-secretario-notmuch")
+    (version "20211205.1916")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~zetagon/el-secretario")
+               (commit
+                 "915b98b901b3ea50416461dea624537ae8796847")))
+        (sha256
+          (base32
+            "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      `(("emacs-el-secretario" ,emacs-el-secretario)
+        ("emacs-notmuch" ,emacs-notmuch)))
+    (arguments
+      '(#:files ("el-secretario-notmuch.el")))
+    (home-page
+      "https://git.sr.ht/~zetagon/el-secretario")
+    (synopsis "Add notmuch inboxes to el-secretario")
+    (description
+      "Documentation at https://melpa.org/#/el-secretario-notmuch")
+    (license #f)))
+
+(define-public emacs-el-secretario-org
+  (package
+    (name "emacs-el-secretario-org")
+    (version "20211212.1409")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~zetagon/el-secretario")
+               (commit
+                 "915b98b901b3ea50416461dea624537ae8796847")))
+        (sha256
+          (base32
+            "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      `(("emacs-org-ql" ,emacs-org-ql)
+        ("emacs-dash" ,emacs-dash)
+        ("emacs-el-secretario" ,emacs-el-secretario)))
+    (arguments
+      '(#:files
+        ("el-secretario-org.el" "el-secretario-space.el")))
+    (home-page
+      "https://git.sr.ht/~zetagon/el-secretario")
+    (synopsis
+      "Create inboxes out of org-mode files for el-secretario")
+    (description
+      "Documentation at https://melpa.org/#/el-secretario-org")
     (license #f)))
 
 (define-public emacs-el-spec
@@ -28493,17 +28629,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211212.101")
+    (version "20211212.1959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "33b47bb8999f8c7d67e9d1e04668e421e3c7246f")))
+                 "725794f01347a8b1f25c6aea58886a1a0b14fc5b")))
         (sha256
           (base32
-            "15y9n6y9iviqwm7qblyzq37iaqam38kzr1hgl8w9jbn1kh8sa2ri"))))
+            "1mf5z40fjjnxlb92kjms6mi2x4crc6i31pd2y1dlgzw0104nnfb9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -33887,17 +34023,17 @@
 (define-public emacs-expenses
   (package
     (name "emacs-expenses")
-    (version "20211206.602")
+    (version "20211212.1846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/expenses.git")
                (commit
-                 "e4d36a84bc82f7fdd476d87be782e57815737f0f")))
+                 "71b9227651dc204c4fbe98b727f129043251331d")))
         (sha256
           (base32
-            "1hhqmhvic8bqnbr8fbw5l0dk2gpyjyc5vw44g6myrjyxx34ka9wp"))))
+            "1ncsikr8bhmnbj6s1zlvbnwcqgp38kfycgnmgfrr2lq7y32nlgqp"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-dash" ,emacs-dash)))
     (home-page
@@ -41839,17 +41975,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20211212.824")
+    (version "20211212.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "722a7c1c49382c67ac16582f589f1244c6d7ca9e")))
+                 "4c340703cb749298dd472cd981df182335e3b4af")))
         (sha256
           (base32
-            "0lldafjw3z01z2qf19s3ij6gmf295dj5w5amhgw03042rnsg9giq"))))
+            "1bkckcz2z9hnay3c85yai34hll1fwi4569hvhnpikhabk048k2mq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -66511,17 +66647,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20210825.1323")
+    (version "20211212.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "71f0b40cdcffdbae84214d3d82c0a8aae154a69f")))
+                 "384ad0ac69483595332cc011f30b7d74065cdef9")))
         (sha256
           (base32
-            "19s5617vx5xm932anyplwcjld0p589lplkvsi4p2g69ximjlmih1"))))
+            "0xrqhmry5y61sbbda83jhmbvvz0z9bbv3wbv9068sdihqfik3fq2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -67024,17 +67160,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211211.1834")
+    (version "20211212.1601")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "e43b9ddb3903a39c325966f21e7edc1192d1e8e2")))
+                 "41173dca4d6a7fa381ba6dc154e7149cb113f7e1")))
         (sha256
           (base32
-            "1axy6av4a2yccb0k5ijad6zvbqgbzknx7faxmr84vfddiilblnl9"))))
+            "0sc6a0cw2497gq6d8dybi0mwma5cslkxnwhiwrbgl3jymmflajwb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -75979,17 +76115,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20211204.1656")
+    (version "20211212.1414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "c01152885c565813aa9510481e425e7c61815b56")))
+                 "ed03babd053d679a85ea3baa1632d8ae1dff31b6")))
         (sha256
           (base32
-            "16zmny4ycvd9annnswzaak445iammpl12zrwh6zhgv2ixj8sznis"))))
+            "1hchhwy2kv90014f52zpf2a8qycknplhb9lrpf71aci8f58ndnv0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.png")))
@@ -78272,17 +78408,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20211207.956")
+    (version "20211212.1544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "ef77f31fb99babe7918356897ecc18651a9d30bc")))
+                 "e06460f0cf248567144e6bcb36e8e4f5e2959ede")))
         (sha256
           (base32
-            "0c0672h45vnmmag77f499n84gs1vpl57n7n3p31kg9padn0yk4wh"))))
+            "0n7d4b4iiznvz8ik8qi1m8fp73i68cg33bcmn5qkzpgq7cmp42wk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-re-reveal" ,emacs-org-re-reveal)))
@@ -101627,6 +101763,28 @@
       "A simple subset of zencoding-mode for Emacs.")
     (description
       "Documentation at https://melpa.org/#/simplezen")
+    (license #f)))
+
+(define-public emacs-siri-shortcuts
+  (package
+    (name "emacs-siri-shortcuts")
+    (version "20211212.1258")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/DaniruKun/siri-shortcuts.el.git")
+               (commit
+                 "13d030d0f2bdfd1c1543e0a120c6dc321f068365")))
+        (sha256
+          (base32
+            "09vwxpmzam3vmc5akcz9mdq1j6q0lhp9qghs36ivvb3az6kxc6hq"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/DaniruKun/siri-shortcuts.el")
+    (synopsis "Interact with Siri Shortcuts")
+    (description
+      "Documentation at https://melpa.org/#/siri-shortcuts")
     (license #f)))
 
 (define-public emacs-sis
