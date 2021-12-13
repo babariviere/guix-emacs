@@ -10043,7 +10043,7 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20211212.2255")
+    (version "20211212.2327")
     (source
       (origin
         (method git-fetch)
@@ -11924,17 +11924,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211212.1545")
+    (version "20211212.2349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "7740300831af16f4c2bbc4012fcc6a21f1f9a809")))
+                 "51b30f2e4091a41243ae62cfbac53e7a579f3168")))
         (sha256
           (base32
-            "07zc1kxyp3n2wjxxz7vf383dcs4qpgp4dg09gvab2k4ci4shgl63"))))
+            "1gym9nsqpxhmjx03j2hc4vsx6y20w2ara6nwhgyf6723dkjdg47m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-s" ,emacs-s)
@@ -11950,17 +11950,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20211211.2159")
+    (version "20211212.2305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "2e7df666bfeed92178d20c5851a2945ed5760664")))
+                 "0d57304925af13be2d21a0e68363543c360598a0")))
         (sha256
           (base32
-            "1d6plgf119sdw4r7rdj4lg49csca5015izls62qdgxzjyj9yhac2"))))
+            "1jmi0pmqrf7jvxn0z5zr8gq9vgpkspawfms94r9yigqff976mjv2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -22226,17 +22226,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20211212.935")
+    (version "20211213.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "d36abff4db176643d1282d53b1d8727150e8f6bb")))
+                 "e92752e7ebbe527b00a104d56c68607e917eae9e")))
         (sha256
           (base32
-            "001kd44aw1hlr4b693saxclw0ahqhvhj6f7ddc7qhhb9sp2zj9ab"))))
+            "1fvqwmibhqdl76z2rrvmjqfqj89mz67358yp0fybcpxaqmfg4nka"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-posframe" ,emacs-posframe)))
@@ -34023,17 +34023,17 @@
 (define-public emacs-expenses
   (package
     (name "emacs-expenses")
-    (version "20211212.1846")
+    (version "20211213.438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/expenses.git")
                (commit
-                 "71b9227651dc204c4fbe98b727f129043251331d")))
+                 "df8faaf5c6741dc3387707567940021274c93c5b")))
         (sha256
           (base32
-            "1ncsikr8bhmnbj6s1zlvbnwcqgp38kfycgnmgfrr2lq7y32nlgqp"))))
+            "017c8vgqn08qn2l3mkinn80922g1rcg7pj8lx9dqylh5nylrp0gn"))))
     (build-system melpa-build-system)
     (propagated-inputs `(("emacs-dash" ,emacs-dash)))
     (home-page
@@ -70405,17 +70405,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211212.524")
+    (version "20211213.35")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "fe9975a6b78732de3a93737d666407acf1351fdf")))
+                 "8d1bf45e6e00b50bf05879ca7972b417b4ac4c7c")))
         (sha256
           (base32
-            "15qdh6ghgaw6h781zvpkyaf5w50098ap3h6fz2jsm8fp63p19w3d"))))
+            "0450knvibjbh6k4idsd90wrbpn935diax331la2s4sjx9xfwxfja"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -80980,17 +80980,17 @@
 (define-public emacs-org-ml
   (package
     (name "emacs-org-ml")
-    (version "20210911.2131")
+    (version "20211213.105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ndwarshuis/org-ml.git")
                (commit
-                 "5d61f456b0a639e178d6ae4f210e28be5621a620")))
+                 "4fdf359fb716bf9b606650ac119ba10021f94f26")))
         (sha256
           (base32
-            "1ca6wgjwslv3582fmsxna81mgryziw9v9zh1836sbp3yszqddday"))))
+            "0chnvs577wvddmcx37gij1zw95hii1lmdycr7w2wp5ig2dyz67ns"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
@@ -82102,17 +82102,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20211206.507")
+    (version "20211213.512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "abe63b436035049923ae96639b9b856697047779")))
+                 "898295f4a0ce32e1267e4a0700be070fabe9f19e")))
         (sha256
           (base32
-            "02gx5kcajn8ma19xkjcsh7xi89rlibxbvb6gyw1i0p2fkxca681p"))))
+            "077z56l6vh51is2pd2rs6a1d8iyrhj7npq2183wdcnldc4v5zvhf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -87606,17 +87606,17 @@
 (define-public emacs-perspective
   (package
     (name "emacs-perspective")
-    (version "20211122.510")
+    (version "20211213.435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nex3/perspective-el.git")
                (commit
-                 "b84b4e2e3efd3455bcdebb9efb4b07a4cec94ebb")))
+                 "d8211a80fbc2cc0d9e163ef6a3e1d0a693b4e00e")))
         (sha256
           (base32
-            "0bi07ax7j88aa0mh5pddjrhvzplqfpl8f4gwpqjdz3b8mrddqkdi"))))
+            "1p7il5s5r582w7if3v3cwkvdb6myszkf2fr2f3sw0x70x644bq2z"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nex3/perspective-el")
@@ -93015,17 +93015,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211211.255")
+    (version "20211213.652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "ebded0b42fce44187ac8a1364244c471872e9449")))
+                 "4b7f6172e21af707b7caeaaa6139dc1379ada04a")))
         (sha256
           (base32
-            "1z7alh97jfdksw6avgibgybwm774pf2dfaidpcbi7jcjjrjskvhq"))))
+            "1xzvj3mhrdjdij830qvqf1zk64x433jamdnbl512za8xys8grpr9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -103751,17 +103751,17 @@
 (define-public emacs-solaire-mode
   (package
     (name "emacs-solaire-mode")
-    (version "20211114.1644")
+    (version "20211213.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hlissner/emacs-solaire-mode.git")
                (commit
-                 "87c2efd11b4b71e000d8a464eb694852e22aa0e7")))
+                 "8af65fbdc50b25ed3214da949b8a484527c7cc14")))
         (sha256
           (base32
-            "058cflb2199yb2qpzhf5hckz4cknsxqpglmz4nvnfv6k2xbnijpb"))))
+            "1lkm09wznal0grpz61ikc77mjrri1x1bi79qwyf1cah9s0wv3isq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/hlissner/emacs-solaire-mode")
@@ -109608,17 +109608,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20211115.2323")
+    (version "20211213.33")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/timu-spacegrey-theme-"
-               version
-               ".el"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
+               (commit
+                 "17b7b89334a6a87b58eaacdd54b1c2bea9b7314f")))
         (sha256
           (base32
-            "0zrxmr7x07l9kl9rqc0la2s8va0r319xn85xgq12ccq461nrcylx"))))
+            "0cvkfzf2pk8qhp2s40nv1rqqg7kayvxi4x6vlh8ggsnxbw80hj11"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
