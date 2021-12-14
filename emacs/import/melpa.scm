@@ -8,6 +8,7 @@
   #:use-module ((guix serialization) #:select (write-file))
   #:use-module (guix store)
   #:use-module (guix ui)
+  #:use-module (ice-9 exceptions)
   #:use-module (ice-9 match)
   #:use-module (ice-9 textual-ports)
   #:use-module (srfi srfi-1)
