@@ -228,13 +228,13 @@ for the package named PACKAGE-NAME."
   ;; TODO: to filter dependencies, source emacs and run rg to fetch all libs inside it
   (define dependencies-name
     (filter-dependencies (melpa-dependencies->names
-			  (melpa-package-inputs pkg))))
+			              (melpa-package-inputs pkg))))
 
   (define dependencies
     (map (lambda (n)
-	   (let ((new-n (melpa-name->package-name n)))
-	     (list new-n (list 'unquote (string->symbol new-n)))))
-	 dependencies-name))
+	        (let ((new-n (melpa-name->package-name n)))
+	          (string->symbol new-n)))
+	      dependencies-name))
 
   (define (maybe-inputs input-type inputs)
     (match inputs
@@ -242,42 +242,42 @@ for the package named PACKAGE-NAME."
        '())
       ((inputs ...)
        (list (list input-type
-		   (list 'quasiquote inputs))))))
+		           `(list ,@inputs))))))
 
   (define melpa-source
     (catch #t
       (lambda ()
-	(melpa-recipe->origin recipe))
+	    (melpa-recipe->origin recipe))
       (lambda* (#:rest e)
         (format #t "failed to fetch from origin, falling back to melpa: ~a~%" e)
-	#f)))
+	    #f)))
 
   (values
    `(package
-     (name ,(melpa-name->package-name name))
-     (version ,version)
-     (source ,(or melpa-source
-		  (let ((tarball (with-store store
-					     (download-to-store store source-url))))
-		    `(origin
-		      (method url-fetch)
-		      (uri (string-append ,@(factorize-uri source-url version)))
-		      (sha256
-		       (base32
-			,(if tarball
-			     (bytevector->nix-base32-string (file-sha256 tarball))
-			     (raise
-			      (condition
-			       (&message (message "failed to download package")))))))))))
-     (build-system melpa-build-system)
-     ,@(maybe-inputs 'propagated-inputs dependencies)
-     ,@(if melpa-source
-	   (melpa-recipe->maybe-arguments recipe)
-	   '())
-     (home-page ,(melpa-package-home-page pkg))
-     (synopsis ,(melpa-package-synopsis pkg))
-     (description ,(string-append "Documentation at https://melpa.org/#/" name))
-     (license #f))
+      (name ,(melpa-name->package-name name))
+      (version ,version)
+      (source ,(or melpa-source
+		           (let ((tarball (with-store store
+					                (download-to-store store source-url))))
+		             `(origin
+		                (method url-fetch)
+		                (uri (string-append ,@(factorize-uri source-url version)))
+		                (sha256
+		                 (base32
+			              ,(if tarball
+			                   (bytevector->nix-base32-string (file-sha256 tarball))
+			                   (raise
+			                    (condition
+			                     (&message (message "failed to download package")))))))))))
+      (build-system melpa-build-system)
+      ,@(maybe-inputs 'propagated-inputs dependencies)
+      ,@(if melpa-source
+	        (melpa-recipe->maybe-arguments recipe)
+	        '())
+      (home-page ,(melpa-package-home-page pkg))
+      (synopsis ,(melpa-package-synopsis pkg))
+      (description ,(string-append "Documentation at https://melpa.org/#/" name))
+      (license #f))
    dependencies-name))
 
 (define (melpa->guix-package name)
