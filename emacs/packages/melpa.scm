@@ -2015,17 +2015,17 @@
 (define-public emacs-airline-themes
   (package
     (name "emacs-airline-themes")
-    (version "20200511.1543")
+    (version "20211214.1749")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AnthonyDiGirolamo/airline-themes.git")
                (commit
-                 "a6a3bd55baee29bd372869c835aded0f7d5e5f76")))
+                 "6bd102e49a7d87af1a72eb86e953991ff7bc954e")))
         (sha256
           (base32
-            "1yg9wdagysfa5xswdrnwngbzf7gmdhjsl40ivqnxxvb74adxcwp6"))))
+            "0yrkbg4wwbp2rm60gmsalz7vrrklw908m6ws66j611z6h6wgmj48"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-powerline" ,emacs-powerline)))
@@ -11950,17 +11950,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20211213.1446")
+    (version "20211214.1947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "538fed794c29acf81efee8a2674268bd3d7cc471")))
+                 "e65f1623598df797e3cd26fae87579f932de25bb")))
         (sha256
           (base32
-            "0z6i352f7gjxml7cl2yi35phw0dqw5kb14bsrhk4rh0vs065g7vg"))))
+            "01s7k39cdclyyr9xsn32wb5h663vp8l46kzwlylk0vwdjc5gng6x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-dash" ,emacs-dash)
@@ -13216,17 +13216,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211214.1230")
+    (version "20211215.10")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "55745da314cc133b364b7881b6ae0b895ed4cb54")))
+                 "4f9fc7ac72072d9fb1625e7701c72e2a16cd69a2")))
         (sha256
           (base32
-            "0kn7r1p9spvr4fjdr07c75krvsb3p03lrgjgwmvy5bcif296sg0z"))))
+            "1pf3l17fs0vvsyfilihhipp7qpknn87x3agkxgq0rnq7nrv2ksba"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -16218,17 +16218,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211213.1713")
+    (version "20211214.1713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "cc8eff9578f5d089735e8b7dd7a08732890ed648")))
+                 "39366355f4897dfae73d14d93dbe6ca97f7fc713")))
         (sha256
           (base32
-            "17rq9l54hvchbr8z0cr8zd1w3j7sf1ykgxgclwrprrq74qs5dmps"))))
+            "1f2dafi3gxz7jslxrm1zbndyhfjyn6b3fhab25sg29ns4vjx4hp1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -26341,17 +26341,17 @@
 (define-public emacs-el-secretario-elfeed
   (package
     (name "emacs-el-secretario-elfeed")
-    (version "20211205.1916")
+    (version "20211214.1851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "915b98b901b3ea50416461dea624537ae8796847")))
+                 "2a5290ad57d9800d4b56896a768e37631bef06b0")))
         (sha256
           (base32
-            "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"))))
+            "15b2jz0ddvikpfg8m85l1m84ddmj1l9pvai0frw61p6mg5rnwxaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-el-secretario" ,emacs-el-secretario)
@@ -26369,17 +26369,17 @@
 (define-public emacs-el-secretario-mu4e
   (package
     (name "emacs-el-secretario-mu4e")
-    (version "20211205.1916")
+    (version "20211214.1851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "915b98b901b3ea50416461dea624537ae8796847")))
+                 "2a5290ad57d9800d4b56896a768e37631bef06b0")))
         (sha256
           (base32
-            "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"))))
+            "15b2jz0ddvikpfg8m85l1m84ddmj1l9pvai0frw61p6mg5rnwxaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-org-ql" ,emacs-org-ql)
@@ -26395,17 +26395,17 @@
 (define-public emacs-el-secretario-notmuch
   (package
     (name "emacs-el-secretario-notmuch")
-    (version "20211205.1916")
+    (version "20211214.1851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "915b98b901b3ea50416461dea624537ae8796847")))
+                 "2a5290ad57d9800d4b56896a768e37631bef06b0")))
         (sha256
           (base32
-            "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"))))
+            "15b2jz0ddvikpfg8m85l1m84ddmj1l9pvai0frw61p6mg5rnwxaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-el-secretario" ,emacs-el-secretario)
@@ -64399,17 +64399,17 @@
 (define-public emacs-ledger-mode
   (package
     (name "emacs-ledger-mode")
-    (version "20210516.2045")
+    (version "20211214.1449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ledger/ledger-mode.git")
                (commit
-                 "19b84dc7664ea069e1a9fd446daf699574c44986")))
+                 "3ec65b8931e8989ac590e95921e46f9e2fac6821")))
         (sha256
           (base32
-            "0mq5wzx8vzaljwy9qszsa0ibzk1lr9kfwk9f956h69n4dfl6ig85"))))
+            "10dxcwl94192yhilp9dimm2zrxpcz48rayd9w0vzk874qmn5mzz3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "ledger-test.el")))
@@ -70430,17 +70430,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211214.442")
+    (version "20211214.1812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "c319f6bb484a02b0b004fa22a2c6ae92968bb594")))
+                 "65c9fba7603a7365c0639abaee30534d40b42376")))
         (sha256
           (base32
-            "04nn64qnmhqs4r846ywf8zm7lp4xwpc4hd3ai079rq8qxiqf9fwk"))))
+            "19k48xdvfjn9bjrrabnvl8a363bwy430raih87v1322v3r6ghhy2"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -84640,17 +84640,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20211203.1553")
+    (version "20211214.2053")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "88e60681901573797ce53c91ad8fa0936f6e4ee2")))
+                 "7ebc8487cfcb780b170d1fdad60044308f0cf8ca")))
         (sha256
           (base32
-            "0z2ln4iml780xk7qq996aihd7954jx2cpc6f7ayhhx9190dh6lcz"))))
+            "0d9qcz8gc03d6vdg3qjyjgpg51kp1mv3kzc80dwnx1lfkyvqawlp"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -93040,17 +93040,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211214.1422")
+    (version "20211214.1603")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "1fe11832c5591bcb9a970336a737ea794d109d72")))
+                 "7b10dc214695fc92361bc727e13406d9fca64c2e")))
         (sha256
           (base32
-            "02hvp03hyqmdkzawldlgp3wy5sq2b259dsdp6x8a5j89vnqcdvl3"))))
+            "1av1ly4j99v8ijqzpxvvqhkm10hdphwsjjf22wya4z4v8lv9phck"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -107265,17 +107265,17 @@
 (define-public emacs-symex
   (package
     (name "emacs-symex")
-    (version "20211115.2045")
+    (version "20211214.2059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/countvajhula/symex.el.git")
                (commit
-                 "c042fffef1d575eb356bf585ec78f1606d3349ad")))
+                 "c8044d0e513cbb810229ffbb2c5903dd02c6d064")))
         (sha256
           (base32
-            "00f9ky5nkivh2b90swgl3aq4xhwvva97xxyr2pdlnmf8v9jlk1p0"))))
+            "1vyk8zg4k3rnnq1cd8znflwb6ci5iwv8g7jxqkqzi0i8x2ma00r9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-lispy" ,emacs-lispy)
@@ -110853,17 +110853,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211211.2301")
+    (version "20211213.2044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "1a670b73cd990af3b08633b01f84b57edaeb92ba")))
+                 "25c7c9870a76ab64e091cd4362a3439eed17ee68")))
         (sha256
           (base32
-            "1sr8h96rzghxbs42rzv0c2abhrydjsxf98hijnffa7yqd8gffjdr"))))
+            "1vzikv8pzqslsmk59vy0w8qm0jwjkz7hisc9jff55wg40y8cw9ii"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-tree-sitter" ,emacs-tree-sitter)
@@ -119620,17 +119620,17 @@
 (define-public emacs-zetteldeft
   (package
     (name "emacs-zetteldeft")
-    (version "20210919.1306")
+    (version "20211214.2221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/EFLS/zetteldeft.git")
                (commit
-                 "f4f227a9cdb69cf06fd3715e40ddf17a069063f1")))
+                 "7fd18ba9eb3552befcb564ddd5e2201d7aa39ee5")))
         (sha256
           (base32
-            "0baydmll48m0z2pk8gw5z5ki9b04mc7xjxw8ljaz58ph7ik1dpi0"))))
+            "0w252rsfzy3vm08bqxi8f0mb9mpx532c7bkyminal8x7ssn1bdn6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-deft" ,emacs-deft)
