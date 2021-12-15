@@ -13216,17 +13216,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211215.10")
+    (version "20211215.414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "4f9fc7ac72072d9fb1625e7701c72e2a16cd69a2")))
+                 "b0bedbdb30e019ed8c40fedf1087c3ad28e72c59")))
         (sha256
           (base32
-            "1pf3l17fs0vvsyfilihhipp7qpknn87x3agkxgq0rnq7nrv2ksba"))))
+            "1lrc6daf496d5mxb46lipf62jfgn3zzvsblfdi9i7bbgf25gim7b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-closql" ,emacs-closql)
@@ -23012,17 +23012,17 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20211210.102")
+    (version "20211215.352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-doc-show-inline.git")
                (commit
-                 "3a4eee3ef3fb3b50252418308f1b45e22a67bc8e")))
+                 "8b457d565d352c863197c42d7a0cd3b6ae920453")))
         (sha256
           (base32
-            "1ihp3hva01zs5gwmjzsr62rbd5gmd7k23sjxg887vq04qmwcqcb5"))))
+            "0n6grq5vdxb3l6lskclzr0dzk12k7wkg28asq7ilhv0pzjd3nnhq"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-doc-show-inline")
@@ -23451,17 +23451,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20211128.1709")
+    (version "20211215.307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "69ede7d719764f26671897c5020f295e5eb1e6c8")))
+                 "371ad23360e8b3cf16710cb13a85482938704746")))
         (sha256
           (base32
-            "1czl20z1sc2cfgdwhl8hly1mcbdyx41zr2swrwmzl6w3xai9lsa5"))))
+            "1g2pj7bay7asxiybk1ivriz4g1lfvhxcw910685j11hys8ss5lig"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-all-the-icons" ,emacs-all-the-icons)
@@ -93040,17 +93040,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211214.1603")
+    (version "20211215.427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "7b10dc214695fc92361bc727e13406d9fca64c2e")))
+                 "1f326742a926efa613038aef017c9fefe11ebfee")))
         (sha256
           (base32
-            "1av1ly4j99v8ijqzpxvvqhkm10hdphwsjjf22wya4z4v8lv9phck"))))
+            "03jl1ird95cm53dfhchjlhbkkbpqy2dpngwqccgh8gzbcp7wm72d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       `(("emacs-async" ,emacs-async)
@@ -93546,17 +93546,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20211211.1934")
+    (version "20211215.240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "6a97a97da95d1dbe9296b7bf8c4973400c798e80")))
+                 "2f7ce2c44e5d94eade297c07139bec6353e18ad7")))
         (sha256
           (base32
-            "0kqahgnd6sblryn0gi1jk43fh7q9q1l5zx02lp01axh72hb23kmp"))))
+            "1m26nsdzciy5p1hv5vwhg51aw3bym6w7dqmjhk2y8nm3vdn48dn6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/python-mls")
