@@ -29794,7 +29794,7 @@
                  "09dd2c69ee4192fb2ef7d32754e236f2a29299ce")))
         (sha256
           (base32
-            "14kkd9g3s9mrfwm79dahffdx9y8l4ar04vpgcb76nx866nxx8v1p"))))
+            "11kj36f0zz5yy8bp97zfpqwwkv3593qarrxk8njbwf09skk3zhnf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
