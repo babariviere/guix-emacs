@@ -72,7 +72,7 @@
           (base32
             "1s3jpnjb033siyi9jkychbbqxnh31k7h9prfx7hvs5zlddp15cqv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "http://github.com/AdamNiederer/0xc")
     (synopsis "Base conversion made easy")
     (description
@@ -137,8 +137,7 @@
           (base32
             "19mbfh504mli8mnf95xaych45nqnayrspymf5r80dky4jv43zzv8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/abend/4clojure.el")
     (synopsis
@@ -207,8 +206,7 @@
           (base32
             "17kxpyfprdyj96c4ivv8bxwyls69cgh2r3gwrgj6bwinbiszh9rr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-navi2ch" ,emacs-navi2ch)))
+    (propagated-inputs (list emacs-navi2ch))
     (home-page "unspecified")
     (synopsis
       "Major mode for editing AA(S_JIS Art) and .mlt file")
@@ -276,9 +274,7 @@
             "0apcbfaa70kgrpjjsfbr0lg9lcfiijpx5bms4sbzc606vlnxxn0d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pdf-tools" ,emacs-pdf-tools)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-pdf-tools emacs-f emacs-s))
     (home-page "http://arne.chark.eu/")
     (synopsis
       "review and correct assignments received by mail")
@@ -347,8 +343,7 @@
             "0m7v87w2akdpgr360gyjiw0p5sc6ms3y9bccwi9j4jz4gnlix6l5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-erlang" ,emacs-erlang)
-        ("emacs-maude-mode" ,emacs-maude-mode)))
+      (list emacs-erlang emacs-maude-mode))
     (arguments '(#:files ("abs-mode.el")))
     (home-page
       "https://github.com/abstools/abs-mode")
@@ -397,8 +392,7 @@
             "19msfx3f3px1maj41bzh139s6sv2pjk9vm3bphn7758fqhzyin0f"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-alchemist" ,emacs-alchemist)))
+      (list emacs-auto-complete emacs-alchemist))
     (home-page
       "https://github.com/syohex/emacs-ac-alchemist")
     (synopsis "auto-complete source for alchemist")
@@ -421,8 +415,7 @@
           (base32
             "1yk0a4p1pi7jwv48rvzn4i2733kg5ffp0q5vgcq22f98pmzyk77f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page "http://zk-phi.gitub.io/")
     (synopsis "auto-complete source for C headers")
     (description
@@ -444,8 +437,7 @@
           (base32
             "0nyq34yq4jcp3p30ygma3iz1h0q551p33792byj76pa5ps09g1da"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page
       "https://github.com/syohex/emacs-ac-capf")
     (synopsis
@@ -470,8 +462,7 @@
             "1pklmjldnm8bf34f5q8x983d1m72l3kf51ns9vh6z704mkhv658f"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-cider emacs-auto-complete))
     (home-page
       "https://github.com/clojure-emacs/ac-cider")
     (synopsis
@@ -496,9 +487,9 @@
             "160hda911vsc2zcs56560cpv7kj0966vjzwmc0md6fkz3wrj7w0n"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-pos-tip" ,emacs-pos-tip)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-auto-complete
+            emacs-pos-tip
+            emacs-yasnippet))
     (arguments
       '(#:files
         (:defaults "*.png" "build" "clang-server")))
@@ -526,9 +517,7 @@
             "0p5cjs156ac1x3fsxnb4kc6bd4z09kdkwkyav9ryw5nkrdzv0bd6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-flycheck-dmd-dub"
-         ,emacs-flycheck-dmd-dub)))
+      (list emacs-auto-complete emacs-flycheck-dmd-dub))
     (home-page "http://github.com/atilaneves/ac-dcd")
     (synopsis
       "Auto Completion source for dcd for GNU Emacs")
@@ -552,8 +541,7 @@
             "0jdddf8krvg379wlay1xs27qlxpi87nz6v2i526pk59mmg8jrnvc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-eclim" ,emacs-eclim)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-eclim emacs-auto-complete))
     (arguments '(#:files ("ac-emacs-eclim.el")))
     (home-page "unspecified")
     (synopsis "auto-complete source for eclim")
@@ -577,8 +565,7 @@
             "1lkhqmfkjga7qi4r1m7mjax3pyf9m6minsn57cbzm2z2kvkhq22g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-emmet-mode" ,emacs-emmet-mode)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-emmet-mode emacs-auto-complete))
     (home-page "https://github.com/yasuyk/ac-emmet")
     (synopsis
       "auto-complete sources for emmet-mode's snippets")
@@ -601,8 +588,7 @@
           (base32
             "1gk84bv6w9lg5wrygd7cfab3h46j84k1dwmhzr7jay6n02q6y499"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page
       "https://github.com/syohex/emacs-ac-emoji")
     (synopsis "auto-complete source of Emoji")
@@ -625,8 +611,7 @@
           (base32
             "1vvgcy5hybrip4jn4pj9r3fahr6rc70k28w5aw951h0x7g7laipr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page
       "https://github.com/syohex/emacs-ac-etags")
     (synopsis
@@ -651,8 +636,7 @@
             "00n2qa26yilaj837n1yp6lbqa4gf30nkkbvanl7m9ih7k48ssqmw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-geiser emacs-auto-complete))
     (home-page "unspecified")
     (synopsis "Auto-complete backend for geiser")
     (description
@@ -675,8 +659,7 @@
             "0m33v9iy3y37sicfmpx7kvmn8v1a8k6cs7d0v9v5k93p4d5ila41"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-haskell-mode" ,emacs-haskell-mode)))
+      (list emacs-auto-complete emacs-haskell-mode))
     (home-page "unspecified")
     (synopsis
       "Haskell auto-complete source which uses the current haskell process")
@@ -700,9 +683,7 @@
             "1fyikdwn0gzng7pbmfg7zb7jphjv228776vsjc12j7g1aqz92n4l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-popup" ,emacs-popup)))
+      (list emacs-helm emacs-auto-complete emacs-popup))
     (home-page "unspecified")
     (synopsis "Helm interface for auto-complete")
     (description
@@ -725,10 +706,10 @@
             "0lz1a8a4bqxiw20jh65r7cg7jnid3vz4h8b7dkfcrzwn0agx8frw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-auto-complete
+            emacs-s
+            emacs-f
+            emacs-dash))
     (arguments
       '(#:files (:defaults "completion-data")))
     (home-page "https://github.com/cheunghy/ac-html")
@@ -754,8 +735,7 @@
             "1v3ia439h4n2i204n0sazzbwwm0l5k6j31gq58iv2rqrq2ysikny"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-web-completion-data"
-         ,emacs-web-completion-data)))
+      (list emacs-web-completion-data))
     (arguments '(#:files (:defaults "html-stuff")))
     (home-page
       "https://github.com/osv/ac-html-bootstrap")
@@ -781,8 +761,7 @@
             "0ry398awbsyswc87v275x4mdyv64kr0s647y6nagqg1h3n3jhvsq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-web-completion-data"
-         ,emacs-web-completion-data)))
+      (list emacs-web-completion-data))
     (arguments
       '(#:files ("*.el" "html-stuff" "fa-html-stuff")))
     (home-page
@@ -809,8 +788,7 @@
             "0swbw62zh5rjjf73pvmp8brrrmk6bp061k793z4z83v7ic0cicrr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-web-completion-data"
-         ,emacs-web-completion-data)))
+      (list emacs-web-completion-data))
     (home-page
       "https://github.com/osv/ac-html-csswatcher")
     (synopsis
@@ -835,8 +813,7 @@
             "13xgv1c4gr075gffq95njra7bw1fkb5yp3xdlh3qndzw4bpary1l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-inf-ruby" ,emacs-inf-ruby)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-inf-ruby emacs-auto-complete))
     (home-page "unspecified")
     (synopsis
       "Enable auto-complete in inf-ruby sessions")
@@ -859,8 +836,7 @@
           (base32
             "1cq73bdv3lkn8v3nx6aznygqaac9s5i7pvirl8wz9ib31hsgwpbk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page
       "https://github.com/syohex/emacs-ac-ispell")
     (synopsis
@@ -885,8 +861,7 @@
             "11q4aaiqr4xnw5j0yqj35gc4a290az75qdyhadj09xr2j2jay35x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)
-        ("emacs-skewer-mode" ,emacs-skewer-mode)))
+      (list emacs-js2-mode emacs-skewer-mode))
     (arguments '(#:files ("*.js" "*.el")))
     (home-page "https://github.com/ScottyB/ac-js2")
     (synopsis
@@ -911,9 +886,8 @@
             "0p5cdaw9v8jgnmjqpb95bxy4khwbdgg19wzg8jkr2j2p55dpfbd6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-math-symbol-lists"
-         ,emacs-math-symbol-lists)))
+      (list emacs-auto-complete
+            emacs-math-symbol-lists))
     (arguments '(#:files ("ac-math.el")))
     (home-page "https://github.com/vitoshka/ac-math")
     (synopsis
@@ -938,8 +912,7 @@
             "19cb8kq8gmrplkxil22ahvbyq5cng1l2vh2lrfiyqpjsap7zfjz5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-mozc" ,emacs-mozc)))
+      (list emacs-auto-complete emacs-mozc))
     (home-page "https://github.com/igjit/ac-mozc")
     (synopsis
       "auto-complete sources for Japanese input using Mozc")
@@ -962,8 +935,7 @@
           (base32
             "1yj5fapbp79k88k1cxrmmf91fb0j6s4s7f2dhk2afcf7z83mqkwb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page
       "https://github.com/coldnew/ac-octave")
     (synopsis "An auto-complete source for Octave")
@@ -981,15 +953,15 @@
         (uri (git-reference
                (url "https://github.com/xcwen/ac-php.git")
                (commit
-                 "933805013e026991d29a7abfb425075d104aa1cf")))
+                 "fc834dcc193e7168ffa0b3ae81ab3eefa4fd3c59")))
         (sha256
           (base32
-            "0qzb6wlh2hf0kp9n74m2q6hrf4rar62dfxfh8yj1rjx2brpi1qdq"))))
+            "08hnw5dbcs4ww2ir7ilnfc6r0b123alh4l8i1mzvng0h3mvmlhgq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ac-php-core" ,emacs-ac-php-core)
-        ("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-ac-php-core
+            emacs-auto-complete
+            emacs-yasnippet))
     (arguments '(#:files ("ac-php.el")))
     (home-page "https://github.com/xcwen/ac-php")
     (synopsis "Auto Completion source for PHP.")
@@ -1013,12 +985,12 @@
             "08hnw5dbcs4ww2ir7ilnfc6r0b123alh4l8i1mzvng0h3mvmlhgq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-php-mode" ,emacs-php-mode)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-xcscope" ,emacs-xcscope)))
+      (list emacs-dash
+            emacs-php-mode
+            emacs-s
+            emacs-f
+            emacs-popup
+            emacs-xcscope))
     (arguments
       '(#:files
         ("ac-php-comm-tags-data.el"
@@ -1047,8 +1019,7 @@
             "01154kqzh3pjy57vxhv27nm69p85a1fwl7r95c7pzmzxgxigfz1p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-racer" ,emacs-racer)))
+      (list emacs-auto-complete emacs-racer))
     (home-page
       "https://github.com/syohex/emacs-ac-racer")
     (synopsis "auto-complete source of racer")
@@ -1072,8 +1043,7 @@
             "05cigdvlq5lfahr9a1z8rvlw2s99j4pha2in59pshz9ph8cqgq10"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-rtags" ,emacs-rtags)))
+      (list emacs-auto-complete emacs-rtags))
     (arguments '(#:files ("src/ac-rtags.el")))
     (home-page
       "https://github.com/Andersbakken/rtags")
@@ -1098,9 +1068,9 @@
             "1nvz0jfz4x99xc5ywspl8fdpyqns5zd0j7i4bwzlwplmy3qakjwm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-ddskk" ,emacs-ddskk)
-        ("emacs-tinysegmenter" ,emacs-tinysegmenter)))
+      (list emacs-auto-complete
+            emacs-ddskk
+            emacs-tinysegmenter))
     (home-page "https://github.com/myuhe/ac-skk.el")
     (synopsis
       "auto-complete-mode source for DDSKK a.k.a Japanese input method")
@@ -1124,8 +1094,7 @@
             "11w1z653klghi6inv9n92cigz8m3c67j3r18mdk39inc3izwplkj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-slime" ,emacs-slime)))
+      (list emacs-auto-complete emacs-slime))
     (home-page "https://github.com/purcell/ac-slime")
     (synopsis
       "An auto-complete source using slime completions")
@@ -1149,8 +1118,7 @@
             "09g6v2yp3wl566488zsb79lklqpai9dgz6xwv1y5h6zkghxvkhpy"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-sly" ,emacs-sly)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-sly emacs-auto-complete))
     (home-page "https://github.com/qoocku/ac-sly")
     (synopsis
       "An auto-complete source using sly completions")
@@ -1174,9 +1142,7 @@
             "0m32jpg6n0azz2f4y57y92zfvzm54ankx5cm06gli2zw2v1218fw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-dash emacs-s emacs-ht))
     (home-page
       "https://github.com/nashamri/academic-phrases")
     (synopsis
@@ -1200,7 +1166,7 @@
           (base32
             "1yplf5klgjjzx3cb1ihqb9f9cwn898l0vhasc3cwiqz6ldyq2na8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-avy))
     (home-page
       "https://github.com/cute-jumper/ace-flyspell")
     (synopsis
@@ -1247,9 +1213,7 @@
           (base32
             "04rlg8mlx3kggn04krvi3zgx263j1ysbgfccawaarzixas2r9gd9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-avy" ,emacs-avy)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-avy emacs-dash))
     (home-page
       "https://github.com/waymondo/ace-jump-buffer")
     (synopsis
@@ -1273,9 +1237,7 @@
           (base32
             "191a2g1if1jliikbxkpwmvlp4v1sp541j71xrlymili8ygm0idq5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-avy" ,emacs-avy)
-        ("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-avy emacs-helm))
     (home-page
       "https://github.com/cute-jumper/ace-jump-helm-line")
     (synopsis
@@ -1323,8 +1285,7 @@
             "1iw90mk6hdrbskxgv67xj27qd26w5dlh4s6a6xqqsj8ld56nzbvr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ace-jump-mode" ,emacs-ace-jump-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-ace-jump-mode emacs-dash))
     (home-page
       "https://github.com/waymondo/ace-jump-zap")
     (synopsis
@@ -1348,7 +1309,7 @@
           (base32
             "190m4ikm9580gmd0yf9k7a7q9l7087zdm9gm1hv12wg8g8g6pzca"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-avy))
     (home-page "https://github.com/abo-abo/ace-link")
     (synopsis "Quickly follow links")
     (description
@@ -1371,10 +1332,9 @@
             "180licc7w5b6f42ifwvllbnmf3aq8cbr8jhkbk37lzick4sv10d2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ace-jump-mode" ,emacs-ace-jump-mode)
-        ("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-ace-jump-mode
+            emacs-multiple-cursors
+            emacs-dash))
     (home-page "https://github.com/mm--/ace-mc")
     (synopsis
       "Add multiple cursors quickly using ace jump")
@@ -1398,8 +1358,7 @@
             "0qidfljvjqwyi5xvgr6hli45k1d4w8g5zn2mssyv9xzrslcigdzv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-avy" ,emacs-avy)
-        ("emacs-pinyinlib" ,emacs-pinyinlib)))
+      (list emacs-avy emacs-pinyinlib))
     (home-page
       "https://github.com/cute-jumper/ace-pinyin")
     (synopsis
@@ -1423,8 +1382,7 @@
           (base32
             "1d5mkkdd67kkas7vl2dc98lm2dlgx10mb35zfdnz2rzcygi5brs7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-avy-menu" ,emacs-avy-menu)))
+    (propagated-inputs (list emacs-avy-menu))
     (home-page
       "https://github.com/mrkkrp/ace-popup-menu")
     (synopsis
@@ -1448,7 +1406,7 @@
           (base32
             "06zkb5v6h0gwrqx7xiz2vlzf13kzf3z79xc5jhv2j73rqcajjy9v"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-avy))
     (home-page
       "https://github.com/abo-abo/ace-window")
     (synopsis "Quickly switch windows.")
@@ -1471,8 +1429,7 @@
           (base32
             "14p9lmnrpsnx94ycvsqmfxnk5kws0cman4a6fbnikl35ma8zc01x"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-keyfreq" ,emacs-keyfreq)))
+    (propagated-inputs (list emacs-keyfreq))
     (home-page "unspecified")
     (synopsis "Achievements for emacs usage.")
     (description
@@ -1494,8 +1451,7 @@
           (base32
             "02ba4d8qkvgy52g0zcbyfvsnhr9685gq569nkwa2as30xdcq3khm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-mag-menu" ,emacs-mag-menu)))
+    (propagated-inputs (list emacs-mag-menu))
     (home-page
       "https://github.com/chumpage/ack-menu")
     (synopsis "A menu-based front-end for ack")
@@ -1564,8 +1520,7 @@
           (base32
             "1y0k282nsn6y18ai8vky3yy78ay2a6lgv5lhrmh0xl0r8hydv21g"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/pauldub/activity-watch-mode")
     (synopsis "Automatic time tracking extension.")
@@ -1588,8 +1543,7 @@
           (base32
             "1mra53dnzz3n8ya9dd0fz8gr19f6jcfsl917xz81awnmxj38nbhq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/gonewest818/adafruit-wisdom.el")
     (synopsis "Get/display adafruit.com quotes")
@@ -1704,8 +1658,7 @@
           (base32
             "199da15f6p84809z33w3m35lrk9bgx8qpgnxsxgisli373mpzvd8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-markup-faces" ,emacs-markup-faces)))
+    (propagated-inputs (list emacs-markup-faces))
     (arguments '(#:files ("adoc-mode.el")))
     (home-page
       "https://github.com/sensorflo/adoc-mode/wiki")
@@ -1752,8 +1705,7 @@
           (base32
             "021wbixfgb4lzj4kq4d0hi12smzmh2j5pjh0n2xa70jidsclnfcg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-consult" ,emacs-consult)))
+    (propagated-inputs (list emacs-consult))
     (home-page "https://github.com/minad/affe")
     (synopsis "Asynchronous Fuzzy Finder for Emacs")
     (description
@@ -1798,8 +1750,7 @@
           (base32
             "1lm51j99h1wn6djqjc5dwba6kvqwl8vvwwq7p0vdr250l470k90n"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/Wilfred/ag.el")
     (synopsis
       "A front-end for ag ('the silver searcher'), the C ack replacement.")
@@ -1822,8 +1773,7 @@
           (base32
             "0y5dp3i97w96dy5p5yk4gxs4db9n260sn1q2vp1j6afi30mn2mb9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://github.com/alhassy/next-700-module-systems")
     (synopsis
@@ -1847,7 +1797,7 @@
           (base32
             "0gy8x78av6z6hp5jccz7pnh6n0fnpfs5vfhfbxggj2qjfyxbvw1r"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/davidshepherd7/aggressive-fill-paragraph-mode")
     (synopsis
@@ -2027,8 +1977,7 @@
           (base32
             "0yrkbg4wwbp2rm60gmsalz7vrrklw908m6ws66j611z6h6wgmj48"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-powerline" ,emacs-powerline)))
+    (propagated-inputs (list emacs-powerline))
     (home-page
       "http://github.com/AnthonyDiGirolamo/airline-themes")
     (synopsis
@@ -2053,9 +2002,9 @@
             "1lxpfswp1bjrz192px79f155dycf2kazpr7dfrcr1gyshlgxkpf7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-simple-httpd" ,emacs-simple-httpd)
-        ("emacs-deferred" ,emacs-deferred)))
+      (list emacs-request
+            emacs-simple-httpd
+            emacs-deferred))
     (home-page "https://github.com/gongo/airplay-el")
     (synopsis "Airplay bindings to Emacs")
     (description
@@ -2077,9 +2026,7 @@
           (base32
             "09wd1k3hnf1hri8c9m27g8cnqka59szr2anfkkh35s52bynvpxf2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-flycheck emacs-s))
     (home-page
       "https://github.com/Kjerner/AlanForEmacs")
     (synopsis "Major mode for editing Alan files")
@@ -2102,7 +2049,7 @@
           (base32
             "0yf2mikpxnfl673rv0w7xp1cvlkgvlmzgaixva3ppz6f0wg3vgz6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (arguments '(#:files (:defaults "*.mp3")))
     (home-page
       "https://github.com/wlemuel/alarm-clock")
@@ -2127,11 +2074,11 @@
             "12f95rwxs11sqf1w9pnf6cxc2lh2jz4nqkq33p8b5yamnl8cq9kg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-elixir-mode" ,emacs-elixir-mode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-company" ,emacs-company)
-        ("emacs-pkg-info" ,emacs-pkg-info)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-elixir-mode
+            emacs-dash
+            emacs-company
+            emacs-pkg-info
+            emacs-s))
     (arguments
       '(#:files (:defaults "*.exs" "alchemist-server")))
     (home-page
@@ -2201,8 +2148,7 @@
           (base32
             "10kpdra8m015xsh7w25v18zd62csayji0p5jqgif20bw6g8g20a7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files ("etc/elisp/*")))
     (home-page
       "https://github.com/cpitclaudel/alectryon")
@@ -2227,9 +2173,7 @@
           (base32
             "1s93ijkax0s78qn79c364ainmq7jq4gc95akl9wra642ql6hz3iq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-gntp" ,emacs-gntp)
-        ("emacs-log4e" ,emacs-log4e)))
+    (propagated-inputs (list emacs-gntp emacs-log4e))
     (home-page "https://github.com/jwiegley/alert")
     (synopsis
       "Growl-style notification system for Emacs")
@@ -2274,8 +2218,7 @@
           (base32
             "0l2rgs0rd4nmv4v7m10zhf2znzfvdifv1vlhpa3zbppg0fj8zph1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-clojure-mode" ,emacs-clojure-mode)))
+    (propagated-inputs (list emacs-clojure-mode))
     (home-page
       "https://github.com/gstamp/align-cljlet")
     (synopsis "Space align various Clojure forms")
@@ -2322,8 +2265,7 @@
           (base32
             "18dd37p1vh8ixc2q07jqwzpc82qq31m89nzps192pdgkfffhdp8r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)))
+    (propagated-inputs (list emacs-all-the-icons))
     (home-page
       "https://github.com/iyefrat/all-the-icons-completion")
     (synopsis "Add icons to completion candidates")
@@ -2346,8 +2288,7 @@
           (base32
             "0p09rdq97hshg9gaivsqz9zvi2ba2p1a2ja1i8z6f896xv5jqs98"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)))
+    (propagated-inputs (list emacs-all-the-icons))
     (home-page
       "https://github.com/wyuenho/all-the-icons-dired")
     (synopsis
@@ -2372,8 +2313,7 @@
             "0yi3nbhx7cdxq2192kh5ra2n0a3qg20p342prz3a0bm3w7q2ym11"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-all-the-icons" ,emacs-all-the-icons)))
+      (list emacs-dash emacs-all-the-icons))
     (home-page "unspecified")
     (synopsis "Shows icons for in Gnus")
     (description
@@ -2395,8 +2335,7 @@
           (base32
             "1r4v86jgp656cs1mxxsb30i1kwka29nzfri151bjrnbyy0z99qrg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)))
+    (propagated-inputs (list emacs-all-the-icons))
     (home-page
       "https://github.com/seagle0128/all-the-icons-ibuffer")
     (synopsis
@@ -2421,8 +2360,7 @@
             "17h7gscrvdi9rygagwzcqzbw6dbfvwmv7jbi8pjkj1c06p3kbq8i"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-all-the-icons emacs-ivy))
     (home-page "unspecified")
     (synopsis
       "Shows icons while using ivy and counsel")
@@ -2446,8 +2384,7 @@
             "0yhg39gg5w3gjhwfgz6v33ld0qyjj4v627ka9az97biz2xvvvrl1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy-rich" ,emacs-ivy-rich)
-        ("emacs-all-the-icons" ,emacs-all-the-icons)))
+      (list emacs-ivy-rich emacs-all-the-icons))
     (home-page
       "https://github.com/seagle0128/all-the-icons-ivy-rich")
     (synopsis "Better experience with icons for ivy")
@@ -2537,12 +2474,12 @@
             "040g07k2hcwqspansjqfpng0lxzkmip26ipz26q6mvkpwm2wilv4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-makey" ,emacs-makey)
-        ("emacs-js2-mode" ,emacs-js2-mode)
-        ("emacs-js2-refactor" ,emacs-js2-refactor)))
+      (list emacs-projectile
+            emacs-s
+            emacs-f
+            emacs-makey
+            emacs-js2-mode
+            emacs-js2-refactor))
     (home-page "unspecified")
     (synopsis
       "Minor mode for handling JavaScript AMD module requirements.")
@@ -2589,8 +2526,7 @@
             "0g6ldvzcm6arm6hxiz1y168mj73kipgbjzxciif2b4sd3z7wpnp6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-scala-mode" ,emacs-scala-mode)))
+      (list emacs-s emacs-scala-mode))
     (home-page
       "https://github.com/zwild/ammonite-term-repl")
     (synopsis "Scala Ammonite REPL in term mode.")
@@ -2723,7 +2659,7 @@
           (base32
             "0h1cxqqf0hixh25j679r57bq9dv0b20icf268wbnsim5xp88ngf8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "http://github.com/DarwinAwardWinner/amx/")
     (synopsis "Alternative M-x with extra features.")
@@ -2747,10 +2683,7 @@
             "0ajmqa60avwmlx9c63rirfb5mjqhbcxf2x15mnxr6a1rlzcylxg6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pythonic" ,emacs-pythonic)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-pythonic emacs-dash emacs-s emacs-f))
     (arguments
       '(#:files (:defaults "anaconda-mode.py")))
     (home-page
@@ -2935,8 +2868,7 @@
           (base32
             "0hdm1a323mzxjfdply8ri3addk146f21d8cmpd18r7dw3j3cdfrn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (arguments
       '(#:files ("*.el" "*.info" "dir" "snippets")))
     (home-page "unspecified")
@@ -2983,8 +2915,7 @@
             "1if610hq5j8rbjh1caw5bwbgnsn231awwxqbpwvrh966kdxzl4qf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-request emacs-dash))
     (home-page
       "https://github.com/louietan/anki-editor")
     (synopsis
@@ -3009,10 +2940,10 @@
             "0imx5g615lfz71jjrb3hm84ll8p0bkrfi6w1qwxjsqgrwbw77s14"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-s" ,emacs-s)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash
+            emacs-markdown-mode
+            emacs-s
+            emacs-request))
     (home-page
       "https://github.com/davidshepherd7/anki-mode")
     (synopsis "A major mode for creating anki cards")
@@ -3036,11 +2967,10 @@
             "0mfch10hvs5czgc3lj75s02bbf36gfdk3xvry717g8gqqa37j581"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-youdao-dictionary"
-         ,emacs-youdao-dictionary)
-        ("emacs-anki-connect" ,emacs-anki-connect)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-s
+            emacs-youdao-dictionary
+            emacs-anki-connect
+            emacs-s))
     (home-page
       "https://github.com/lujun9972/anki-vocabulary.el")
     (synopsis
@@ -3127,10 +3057,10 @@
         (uri (git-reference
                (url "https://github.com/agda/agda.git")
                (commit
-                 "2976b594a39ac2630800cfcbd17f6d5c9a901dfa")))
+                 "756ac774b5191b252bf993b67c7ccd5648cbbb65")))
         (sha256
           (base32
-            "1by21kkqvz5cz0pjiykday6z5d6m03qfsfxbbkz1wv7sqavzhgj3"))))
+            "174vd5dw7wz2kf08mcaakr0r0qx64bigkdhr9zg7c68xj0w0kasn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/data/emacs-mode/annotation.el")))
@@ -3199,8 +3129,7 @@
           (base32
             "12k8mwlyiipsdjq5h1v04g3aa7ymjyhmy14j6vzjil4w9l6xyvdh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-s emacs-f))
     (arguments '(#:files ("*.el" "snippets" "dict")))
     (home-page "http://101000lab.org")
     (synopsis "Ansible minor mode")
@@ -3545,8 +3474,7 @@
           (base32
             "0f5zph67h0pr445ykllz0pix2dg2kdxl0g5mhxaggdydizf24p45"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-markdown-mode" ,emacs-markdown-mode)))
+    (propagated-inputs (list emacs-markdown-mode))
     (home-page "http://github.com/w-vi/apib-mode")
     (synopsis "Major mode for API Blueprint files")
     (description
@@ -3725,8 +3653,7 @@
           (base32
             "19xrm4nwwsf86ysqnqx7jfl78gbg66jj4yfw3h99y3nd82j2rdws"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "https://github.com/zzkt/aqi")
     (synopsis
       "Air quality data from the World Air Quality Index")
@@ -3772,9 +3699,7 @@
             "0m80ka51m7a1797q6br41x96znvqfmpwzh3vk4mz66mdx2r4xk77"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-async" ,emacs-async)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-s emacs-async emacs-dash))
     (home-page
       "https://github.com/brotzeitmacher/arch-packer")
     (synopsis
@@ -3865,8 +3790,7 @@
           (base32
             "1jsifn9gfpb2rwhz9fr6r4qsmyydfd6rmz87iy7884nrnxkmdsci"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-spinner" ,emacs-spinner)))
+    (propagated-inputs (list emacs-spinner))
     (home-page
       "https://github.com/stardiviner/arduino-mode")
     (synopsis "Major mode for editing Arduino code")
@@ -3912,7 +3836,7 @@
           (base32
             "0vh9wfc3657sd12ybjcrxpg6f757x2ghkcl1lw01szmyy5vmj27h"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-bert" ,emacs-bert)))
+    (propagated-inputs (list emacs-bert))
     (home-page "unspecified")
     (synopsis "Ariadne plugin for Emacs")
     (description
@@ -4045,7 +3969,7 @@
           (base32
             "067khpi4ghzyifrk1vhi57n3alp67qks4k4km11hasiavi5gsjmp"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/kawabata/asn1-mode/")
     (synopsis "ASN.1/GDMO mode for GNU Emacs")
@@ -4068,8 +3992,7 @@
           (base32
             "0mq59wz9anvywazl7d01fis1z7z7fsp9c7pymrc8rgmz77xpwnqx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-m-buffer" ,emacs-m-buffer)))
+    (propagated-inputs (list emacs-m-buffer))
     (home-page "unspecified")
     (synopsis "Test support functions")
     (description
@@ -4091,8 +4014,7 @@
           (base32
             "0midga1dz9yl7mzn6syb3iwnfpzvnfpqnxi9rsv63rqnrm36qy4q"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/storvik/emacs-astyle")
     (synopsis "Astyle formatter functions")
@@ -4159,8 +4081,7 @@
             "0aav9qdswnw7ynqlzn0sm34as5fj2d85syxgg8zjabzp6646ay29"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-promise" ,emacs-promise)
-        ("emacs-iter2" ,emacs-iter2)))
+      (list emacs-promise emacs-iter2))
     (home-page
       "https://github.com/chuntaro/emacs-async-await")
     (synopsis "Async/Await")
@@ -4206,8 +4127,7 @@
           (base32
             "04v775vsy01h7wv2p4nc26d0p9ss8106v4whqfgd0c1rrkh5012p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-f emacs-s))
     (home-page
       "https://github.com/sei40kr/atcoder-tools")
     (synopsis "An atcoder-tools client")
@@ -4321,8 +4241,7 @@
           (base32
             "07bw5fjmszxsvvcb0415zfawfmzqwj0qdvaigxrbb5rinazwb0pn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-websocket" ,emacs-websocket)))
+    (propagated-inputs (list emacs-websocket))
     (home-page
       "https://github.com/alpha22jp/atomic-chrome")
     (synopsis
@@ -4347,10 +4266,7 @@
             "06j1cpqmplh1xy5aal8fk7r8s42jf3zlk92mh3lll9knx81xix9q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-f emacs-flycheck emacs-s))
     (home-page "https://github.com/jyp/attrap")
     (synopsis "ATtempt To Repair At Point")
     (description
@@ -4372,8 +4288,7 @@
           (base32
             "1ra2qkr9wadnx5aqg6paxk8w4h9m6c4jrl4b7zb5l6s1csw1llj1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auctex" ,emacs-auctex)))
+    (propagated-inputs (list emacs-auctex))
     (home-page
       "https://github.com/tsuu32/auctex-cluttex")
     (synopsis "ClutTeX support for AUCTeX")
@@ -4396,8 +4311,7 @@
           (base32
             "0qvscgffmzqk8lkcg3yk91vciim5ygk2m4crk02qn72ipkw5q13m"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auctex" ,emacs-auctex)))
+    (propagated-inputs (list emacs-auctex))
     (home-page
       "https://github.com/tom-tan/auctex-latexmk/")
     (synopsis "Add LatexMk support to AUCTeX")
@@ -4421,8 +4335,7 @@
             "0lgfgvnaln5rhhwgcrzwrhbj0gz8sgaf6xxdl7njf3sa6bfgngsz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auctex" ,emacs-auctex)
-        ("emacs-lua-mode" ,emacs-lua-mode)))
+      (list emacs-auctex emacs-lua-mode))
     (home-page
       "http://github.com/vermiculus/auctex-lua")
     (synopsis "Lua editing support for AUCTeX")
@@ -4445,7 +4358,7 @@
           (base32
             "1pj3ryi1crnfvq3m8wyysb6pyvsp0x2wrvddlnpj031qk7xxdd6h"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/shishimaru/audacious.el")
     (synopsis "Emacs interface to control audacious")
@@ -4491,9 +4404,7 @@
           (base32
             "0mcbw8p4wrnnr39wzkfz9kc899w0k1jb00q1926mchf202cmnz94"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-bui" ,emacs-bui)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-bui emacs-dash))
     (home-page "https://github.com/alezost/aurel")
     (synopsis
       "Search, get info, vote for and download AUR packages")
@@ -4539,9 +4450,7 @@
           (base32
             "0cinmvmzmlqms4kx4qc78fzxgwxki4jd6zk62y2rghk307i97qbb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-keytar" ,emacs-keytar)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-keytar emacs-s))
     (home-page
       "https://github.com/emacs-grammarly/auth-source-keytar")
     (synopsis "Integrate auth-source with keytar")
@@ -4631,8 +4540,7 @@
           (base32
             "1whbvqylwnxg8d8gn55kcky39rgyc49rakyxlbkplh813lk6lxb7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-es-lib" ,emacs-es-lib)))
+    (propagated-inputs (list emacs-es-lib))
     (home-page
       "https://github.com/sabof/auto-auto-indent")
     (synopsis "Indents code as you type")
@@ -4655,8 +4563,7 @@
           (base32
             "1pwj7zc870vxvgbq7vzz924b6a0jhx0fkn0igkgz2piiyic627b6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-packed" ,emacs-packed)))
+    (propagated-inputs (list emacs-packed))
     (home-page
       "https://github.com/emacscollective/auto-compile")
     (synopsis
@@ -4680,8 +4587,7 @@
           (base32
             "013g2dkyhvvx44l9q8lphv1011ilanyikhs7jf6qxp5v2plp4i6q"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (arguments '(#:files ("*.el" "dict")))
     (home-page
       "https://github.com/auto-complete/auto-complete")
@@ -4706,8 +4612,7 @@
             "1wri8q5llpy1q1h4ac4kjnnkgj6fby8i9vrpr6mrb13d4gnk4gr2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-yasnippet emacs-auto-complete))
     (home-page "unspecified")
     (synopsis "auto-completion for auctex")
     (description
@@ -4729,8 +4634,7 @@
           (base32
             "12mzi6bwg702sp0f0wd1ag555blbpk252rr9rqs03bn8pkw89h4n"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page "unspecified")
     (synopsis
       "An auto-complete source for C/C++ header files")
@@ -4753,8 +4657,7 @@
           (base32
             "1zhbpxpl443ghpkl9i68jcjfcw1vnf8ky06pf5qjjmqbxlcyd9li"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (arguments '(#:files ("auto-complete-chunk.el")))
     (home-page
       "https://github.com/tkf/auto-complete-chunk")
@@ -4779,8 +4682,7 @@
           (base32
             "12y6f47xbjl4gy14j2f5wlisy5vl6rhx74n27w61pjv38m0a7mi1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page
       "https://github.com/brianjcj/auto-complete-clang")
     (synopsis
@@ -4827,9 +4729,8 @@
             "0yvp3dwa9mwfyrqla27ycwyjad4bp1267bxv0chxcr4528hnygl3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-distel-completion-lib"
-         ,emacs-distel-completion-lib)))
+      (list emacs-auto-complete
+            emacs-distel-completion-lib))
     (arguments
       '(#:files ("auto-complete-distel.el")))
     (home-page
@@ -4855,8 +4756,7 @@
           (base32
             "1fqgyg986fg1dzac5wa97bx82mfddqb6qrfnpr3zksmw3vgykxr0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page "http://code.101000lab.org")
     (synopsis
       "Exuberant ctags auto-complete.el source")
@@ -4879,8 +4779,7 @@
           (base32
             "18bf1kw85mab0zp7rn85cm1nxjxg5c1dmiv0j0mjwzsv8an4px5y"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page
       "https://github.com/aki2o/auto-complete-nxml")
     (synopsis
@@ -4905,9 +4804,9 @@
             "1hf2f903hy9afahrgy2fx9smgn631drs6733188zgqi3nkyizj26"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-auto-complete
+            emacs-log4e
+            emacs-yaxception))
     (home-page
       "https://github.com/aki2o/auto-complete-pcmp")
     (synopsis
@@ -4931,8 +4830,7 @@
           (base32
             "107svb82cgfns9kcrmy3hh56cab81782jkbz5i9959ms81xizfb8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (arguments '(#:files ("*.el" "*.py")))
     (home-page
       "https://github.com/tkf/auto-complete-rst")
@@ -4958,8 +4856,7 @@
             "139in1jgxg43v7ji4i1qmxbgspr71h95lzlz0fvdk78vkxc5842b"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-sage-shell-mode" ,emacs-sage-shell-mode)))
+      (list emacs-auto-complete emacs-sage-shell-mode))
     (home-page
       "https://github.com/stakemori/auto-complete-sage")
     (synopsis
@@ -5001,10 +4898,10 @@
         (uri (git-reference
                (url "https://github.com/mina86/auto-dim-other-buffers.el.git")
                (commit
-                 "2a19931b275dc3c70c4bb16a3c60046800ba631a")))
+                 "a1c67bf557277934f6dae9f2de6624d949ef2c8a")))
         (sha256
           (base32
-            "00f0n6pz0qi2fandcgj8skgj169bwxrda62vkrf0frwpavwpmkml"))))
+            "0z5afn48w3p3i98zn81422khbl0k460spgqj60b9s7sqccbssg57"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mina86/auto-dim-other-buffers.el")
@@ -5029,7 +4926,7 @@
           (base32
             "0nisaafqlns76wqvd4ys68h5ys4vcrzwy7lxrb4nvlhvq840g9f6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ht" ,emacs-ht)))
+    (propagated-inputs (list emacs-ht))
     (home-page
       "http://github.com/jcs-elpa/auto-highlight-symbol")
     (synopsis
@@ -5121,7 +5018,7 @@
           (base32
             "00456kxd1zb5lcwkm211mhdgkl0b01pp4fbkl1ryvdnhddn83ipv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "http://github.com/rranelli/auto-package-update.el")
     (synopsis "Automatically update Emacs packages.")
@@ -5236,8 +5133,7 @@
             "1b0kgqh521y16cx84rbsr244i4fs3l8h4wqjy2zdpwbpbikx1hxk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)
-        ("emacs-popwin" ,emacs-popwin)))
+      (list emacs-deferred emacs-popwin))
     (home-page "unspecified")
     (synopsis
       "Run the shell command asynchronously that you specified when you save the file.")
@@ -5260,7 +5156,7 @@
           (base32
             "1isk9106lpdh45l41n2v8q8m9vcfb4biy9dv87rkks58nysrxy3z"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/ncaq/auto-sudoedit")
     (synopsis "Auto sudo edit by tramp")
@@ -5283,9 +5179,7 @@
           (base32
             "14waa4v6nr0ybyncgfjg96r43ma4lw57iyma0chvpqifmbs6ski0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pyvenv" ,emacs-pyvenv)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-pyvenv emacs-s))
     (home-page
       "http://github.com/marcwebbie/auto-virtualenv")
     (synopsis "Auto activate python virtualenvs")
@@ -5309,9 +5203,7 @@
             "19qycxf6ln60s604j5rn3qfsy2rbzdbw4gwkiprdiq1bkmphbwzj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-virtualenvwrapper"
-         ,emacs-virtualenvwrapper)))
+      (list emacs-s emacs-virtualenvwrapper))
     (home-page "unspecified")
     (synopsis
       "Lightweight auto activate python virtualenvs")
@@ -5334,8 +5226,7 @@
           (base32
             "0az8pip0gsq5xqpfizcz4rmj5hmkvz1fdkg996k9qqacp17p2caj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (home-page
       "https://github.com/abo-abo/auto-yasnippet")
     (synopsis "Quickly create disposable yasnippets")
@@ -5358,7 +5249,7 @@
           (base32
             "0cfx447185shbiadhbar72bgqwzmbia82f8a2py215hgw9wrgqr9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis
       "Save recently visited files and buffers")
@@ -5515,7 +5406,7 @@
           (base32
             "1m2r5fg5r4gqhim5l1g5937ngkc2hvidb5kr8r4pffcg8xv8djgn"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/sebastiansturm/autothemer")
     (synopsis "Conveniently define themes.")
@@ -5621,14 +5512,12 @@
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "e0057f6a6621b24e0ba4c167b683a84039c6f084")))
+                 "b17af024d92e5c8532ed94f157e65aa7f4cda334")))
         (sha256
           (base32
-            "1f797sqswlx46943wix408mxvpsffqd9a8rq7w0gmq3nyym9vz1w"))))
+            "1fl07f5s96iw3f93w5n4qb4j6ah2abl17bx5pkk0dadwi04prms2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-embark" ,emacs-embark)
-        ("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-embark emacs-avy))
     (arguments '(#:files ("avy-embark-collect.el")))
     (home-page "https://github.com/oantolin/embark")
     (synopsis
@@ -5653,8 +5542,7 @@
             "1nwc8xid0k6bnnpgsrrlwx71a04llkiapjsbchp9jgcf11l5mghw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-avy" ,emacs-avy)))
+      (list emacs-flycheck emacs-avy))
     (home-page
       "https://github.com/magicdirac/avy-flycheck")
     (synopsis
@@ -5678,7 +5566,7 @@
           (base32
             "0p96kxyq1pk9cnwxis80vr6xnklcg2n8gp7pj8z41kz1i2fn960m"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-avy))
     (home-page "https://github.com/mrkkrp/avy-menu")
     (synopsis
       "Library providing avy-powered popup menu")
@@ -5701,9 +5589,7 @@
           (base32
             "1a4421h15ba7lsnbh8kqm3hvs06fp830wb1nvwgpsk7vmqqi2qgl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-avy" ,emacs-avy)
-        ("emacs-migemo" ,emacs-migemo)))
+    (propagated-inputs (list emacs-avy emacs-migemo))
     (home-page
       "https://github.com/momomo5717/avy-migemo")
     (synopsis "avy with migemo")
@@ -5726,7 +5612,7 @@
           (base32
             "1b9yc8wkcddd81060r03myxcdxas6vdhgybl44da412p0hx4bccb"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-avy))
     (home-page
       "https://github.com/cute-jumper/avy-zap")
     (synopsis "Zap to char using `avy'")
@@ -5749,9 +5635,7 @@
           (base32
             "15idbbxsghzn737s9jppnx820nnm1srcl1418458hwfy3wqhq38g"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-tblui" ,emacs-tblui)))
+    (propagated-inputs (list emacs-dash emacs-tblui))
     (home-page
       "https://github.com/Yuki-Inoue/aws.el")
     (synopsis "Manage AWS EC2 instances")
@@ -5774,8 +5658,7 @@
           (base32
             "1s71h8limqxql9qhkp7bmq9k9j1mkazvc0lh92a6wd7hk6xg1hi1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page "unspecified")
     (synopsis "Yasnippets for AWS")
@@ -5822,12 +5705,12 @@
             "125bqkakk0k6cs0bmhc46xba3if6zl0k7f8l4d07dbnzdinijc8x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-hmac" ,emacs-hmac)
-        ("emacs-request" ,emacs-request)
-        ("emacs-s" ,emacs-s)
-        ("emacs-xmlgen" ,emacs-xmlgen)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-mimetypes" ,emacs-mimetypes)))
+      (list emacs-hmac
+            emacs-request
+            emacs-s
+            emacs-xmlgen
+            emacs-dash
+            emacs-mimetypes))
     (home-page "https://github.com/cniles/axe")
     (synopsis "AWS Extensions")
     (description
@@ -5949,12 +5832,12 @@
             "0rj6a8rdwa0h2ckz7h4d91hnxqcin98l4ikbfyak2whfb47z909l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-nav-flash" ,emacs-nav-flash)
-        ("emacs-smartrep" ,emacs-smartrep)
-        ("emacs-ucs-utils" ,emacs-ucs-utils)
-        ("emacs-list-utils" ,emacs-list-utils)
-        ("emacs-persistent-soft" ,emacs-persistent-soft)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-nav-flash
+            emacs-smartrep
+            emacs-ucs-utils
+            emacs-list-utils
+            emacs-persistent-soft
+            emacs-pcache))
     (home-page
       "http://github.com/rolandwalker/back-button")
     (synopsis "Visual navigation through mark rings")
@@ -6001,8 +5884,7 @@
             "0410p7144k2kh1bz050h45zrfd98j10sbx409la5x01l9xrmb03y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-outline-minor-faces"
-         ,emacs-outline-minor-faces)))
+      (list emacs-outline-minor-faces))
     (home-page "https://github.com/tarsius/backline")
     (synopsis
       "Preserve appearance of outline headings")
@@ -6136,7 +6018,7 @@
           (base32
             "099jhbn65kw45yb8ahvrpmpqba1ffxbmxkkxs6iswfjcx2vdf23j"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page "https://github.com/dave-f/baff/")
     (synopsis "Create a byte array from a file")
     (description
@@ -6158,8 +6040,7 @@
           (base32
             "0799gc0nhqmgz691sn2zam3bfyraq9ljr4da1481nawwkwyzad1v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-unicode-escape" ,emacs-unicode-escape)))
+    (propagated-inputs (list emacs-unicode-escape))
     (home-page
       "https://github.com/liShiZhensPi/baidu-translate")
     (synopsis "A plugin using baidu-translate-api")
@@ -6339,7 +6220,7 @@
           (base32
             "0q6scyva1psyam7jzygqcr1wayf70vrp237hm01q5i9cin8j4j1z"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/nick96/basic-c-compile")
     (synopsis
@@ -6364,11 +6245,11 @@
             "0mb85g7bydd0nv3hjzvqb3d01cs4hg5846ibcznaqhsqk93pgm2h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-basic-mode" ,emacs-basic-mode)
-        ("emacs-company" ,emacs-company)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-basic-mode
+            emacs-company
+            emacs-flycheck
+            emacs-dash
+            emacs-f))
     (home-page
       "https://gitlab.com/sasanidas/emacs-c64-basic-ide")
     (synopsis "BASIC IDE c64")
@@ -6458,8 +6339,7 @@
           (base32
             "1w2cymf9yd3siijplb6vrcxwqhqsqii8bnxki7vqb1s16v7ciczz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)))
+    (propagated-inputs (list emacs-alert))
     (home-page
       "https://github.com/jasonmj/battery-notifier")
     (synopsis "Notify when battery capacity is low")
@@ -6483,12 +6363,12 @@
             "0br1iy9zcjqaxmm691axrcbfxmid76rsbkcp1vrpzrdqvrkskpww"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-async" ,emacs-async)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-company
+            emacs-helm
+            emacs-async
+            emacs-dash
+            emacs-s
+            emacs-f))
     (home-page
       "https://github.com/AlonTzarafi/battle-haxe")
     (synopsis
@@ -6582,9 +6462,7 @@
             "17nbnkg0zn6p89r27mk9hl6qhv6xscwdsq8iyikdw03svpr16lnp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-bbdb" ,emacs-bbdb)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-bbdb emacs-log4e emacs-yaxception))
     (home-page "https://github.com/aki2o/bbdb-")
     (synopsis
       "provide interface for more easily search/choice than BBDB.")
@@ -6608,9 +6486,7 @@
             "0jkrznrfdh562bwy0adg1pzmqh6i766b5ki41g4pr9wcbmh937sn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pcsv" ,emacs-pcsv)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-bbdb" ,emacs-bbdb)))
+      (list emacs-pcsv emacs-dash emacs-bbdb))
     (home-page
       "https://gitlab.com/iankelling/bbdb-csv-import")
     (synopsis "import csv to bbdb version 3+")
@@ -6633,7 +6509,7 @@
           (base32
             "1ydf89mmp3zjfqdymnrwg18wclyf7psarz9f2k82pl58h0khh71g"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-bbdb" ,emacs-bbdb)))
+    (propagated-inputs (list emacs-bbdb))
     (home-page "https://github.com/vapniks/bbdb-ext")
     (synopsis "Extra commands for BBDB")
     (description
@@ -6655,7 +6531,7 @@
           (base32
             "1sr5kd2gvw1b4hl147yb60cgx6j730vdnpyr09p7vmpw65hzwlwm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-bbdb" ,emacs-bbdb)))
+    (propagated-inputs (list emacs-bbdb))
     (home-page
       "https://github.com/tohojo/bbdb-vcard")
     (synopsis "vCard import/export for BBDB")
@@ -6678,7 +6554,7 @@
           (base32
             "1faa32ya515rkx5pwz6bsav0ffyajq8vq8d3vzn9j81d9in2rh5j"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-bbdb" ,emacs-bbdb)))
+    (propagated-inputs (list emacs-bbdb))
     (home-page "unspecified")
     (synopsis
       "make bbdb show if pal is online with ERC, click i to chat")
@@ -6701,9 +6577,7 @@
           (base32
             "0q0i1j8ljfd61rk6d5fys7wvdbym9pz5nhwyfvmm0ijmy19d1ppz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-browse-kill-ring"
-         ,emacs-browse-kill-ring)))
+    (propagated-inputs (list emacs-browse-kill-ring))
     (arguments '(#:files (:defaults "*.bbyac")))
     (home-page "https://github.com/baohaojun/bbyac")
     (synopsis
@@ -7057,8 +6931,7 @@
           (base32
             "1x5hbs9j4ms93p080267kjyqpk81il3x7q87awf6qzz5xhc20d3b"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/peterwvj/bibclean-format")
     (synopsis
@@ -7082,8 +6955,7 @@
           (base32
             "0m5vpyj6312rc3xq8lrr1g2hyl26adzwvjxb3jqrm7bvqvs4i5zp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-biblio-core" ,emacs-biblio-core)))
+    (propagated-inputs (list emacs-biblio-core))
     (arguments
       '(#:files (:defaults (:exclude "biblio-core.el"))))
     (home-page
@@ -7109,8 +6981,7 @@
           (base32
             "0141nphan49br71bx89ias78wvchfsir3snssn3kf6l97ha1afgn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-biblio-core" ,emacs-biblio-core)))
+    (propagated-inputs (list emacs-biblio-core))
     (home-page
       "http://github.com/andreasjansson/biblio-bibsonomy/")
     (synopsis
@@ -7134,7 +7005,7 @@
           (base32
             "0m5vpyj6312rc3xq8lrr1g2hyl26adzwvjxb3jqrm7bvqvs4i5zp"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("biblio-core.el")))
     (home-page
       "https://github.com/cpitclaudel/biblio.el")
@@ -7160,8 +7031,7 @@
             "16zalqjd2llwkp7v0218crgf3k34py8zx6lj6z7i3kbmxm9nb27q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pdf-tools" ,emacs-pdf-tools)
-        ("emacs-a" ,emacs-a)))
+      (list emacs-pdf-tools emacs-a))
     (arguments '(#:files ("bibliothek.el")))
     (home-page
       "https://dev.gkayaalp.com/elisp/index.html#bibliothek-el")
@@ -7185,8 +7055,7 @@
           (base32
             "00zya2h6f5fpfxyi893fz3kpbbdhd8yq6b8g42bvxc5bfbknfhwc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auctex" ,emacs-auctex)))
+    (propagated-inputs (list emacs-auctex))
     (home-page
       "https://github.com/pzorin/bibretrieve")
     (synopsis
@@ -7210,8 +7079,7 @@
           (base32
             "0vcdi0q6rbs3qqlpccy9hdv82zrx61gdj3fn444qashk84s085vf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page "https://github.com/mkmcc/bibslurp")
     (synopsis
       "retrieve BibTeX entries from NASA ADS")
@@ -7235,11 +7103,11 @@
             "1d3mc17ga09m41i06khghlvixr6gsiacifnhdbrfnp0w5592aprk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-parsebib" ,emacs-parsebib)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-biblio" ,emacs-biblio)))
+      (list emacs-parsebib
+            emacs-s
+            emacs-dash
+            emacs-f
+            emacs-biblio))
     (arguments '(#:files ("bibtex-completion.el")))
     (home-page
       "https://github.com/tmalsburg/helm-bibtex")
@@ -7355,8 +7223,7 @@
             "1zz2gg475254hbbxw4y82b2m2iy8cvx0phh030daax315hdbsaqb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-bind-key" ,emacs-bind-key)
-        ("emacs-key-chord" ,emacs-key-chord)))
+      (list emacs-bind-key emacs-key-chord))
     (arguments '(#:files ("bind-chord.el")))
     (home-page
       "https://github.com/waymondo/use-package-chords")
@@ -7519,9 +7386,7 @@
             "09ncblz9x2qz6lqfywvj3b7qagrq34qb0wg17y03p1r3416g1zwr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-mmm-mode" ,emacs-mmm-mode)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-mmm-mode emacs-s))
     (home-page
       "https://github.com/canatella/bitbake-el")
     (synopsis "Running bitbake from emacs")
@@ -7544,9 +7409,7 @@
           (base32
             "1sikayb6i1k40zdl4j9n04xcmsf74py5vmcjbvli7k8b3ar7l5l5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-request emacs-s))
     (home-page
       "http://github.com/tjaartvdwalt/bitbucket.el/")
     (synopsis "Bitbucket API wrapper")
@@ -7682,7 +7545,7 @@
           (base32
             "0gi0q60q9r5nx5wzavxywajmh9gw4nl20msgh9k9k9ilj4jy3a1b"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-a" ,emacs-a)))
+    (propagated-inputs (list emacs-a))
     (home-page
       "https://github.com/artawower/blamer.el")
     (synopsis
@@ -7706,8 +7569,7 @@
           (base32
             "1pslwyaq18d1z7fay2ih3n27i6b49ss62drqqb095l1jxk42xxm0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-clmemo" ,emacs-clmemo)))
+    (propagated-inputs (list emacs-clmemo))
     (home-page "unspecified")
     (synopsis "Block grep")
     (description
@@ -7729,7 +7591,7 @@
           (base32
             "0wzdln3rqqvckkc63q5sb83kimnyk6hrc4slbxhwapdfk53gz0j9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-eimp" ,emacs-eimp)))
+    (propagated-inputs (list emacs-eimp))
     (home-page "https://github.com/walseb/blimp")
     (synopsis "Bustling Image Manipulation Package")
     (description
@@ -7866,10 +7728,7 @@
             "0fgzmmjxhl8i9yqx1bvb7hgkk9w4ylx73xy990qf1bl7fg21v636"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ctable" ,emacs-ctable)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-names" ,emacs-names)))
+      (list emacs-ctable emacs-s emacs-f emacs-names))
     (home-page "unspecified")
     (synopsis
       "Blog admin for emacs with hexo/org-page supported")
@@ -7893,10 +7752,10 @@
             "1phiraki6l6bp7mw90spw0r99wahl47ycpz0lxr3zljb5ip8jddp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-simple-httpd" ,emacs-simple-httpd)
-        ("emacs-mustache" ,emacs-mustache)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-ht
+            emacs-simple-httpd
+            emacs-mustache
+            emacs-s))
     (arguments
       '(#:files
         (:defaults "media" "templates" "about.org")))
@@ -7967,9 +7826,7 @@
             "0v6b8w4hy1yw713mkkh74b7c638hnk24ccbizfsylnk00ynrrza1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-company emacs-dash emacs-s))
     (home-page "http://github.com/josteink/bmx-mode")
     (synopsis "Batch Mode eXtras")
     (description
@@ -8125,10 +7982,10 @@
             "1h3j7a1y5p90dd1vj4kyngj5xvbr2z4dkzkq74s85bqf61j66yw2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-dash
+            emacs-flycheck
+            emacs-yasnippet
+            emacs-company))
     (arguments '(#:files ("emacs/*.el" "emacs/etc")))
     (home-page
       "https://github.com/boogie-org/boogie-friends/")
@@ -8198,10 +8055,9 @@
             "1hcm9a09sy038kn1ij50q24w73485q55gypzx1yypz3wp5a2s8yd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-expand-region" ,emacs-expand-region)
-        ("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)))
+      (list emacs-dash
+            emacs-expand-region
+            emacs-multiple-cursors))
     (home-page "unspecified")
     (synopsis "Ergonomic Command Mode for Emacs.")
     (description
@@ -8218,14 +8074,12 @@
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "2ffcfd4481710e5b6d45a07a99da2561fe1c9d3e")))
+                 "bcae8f00dc60eca1a7cdd837e9be3b0fc942097d")))
         (sha256
           (base32
-            "1nfrvln6s09krabzgsw1hqxs5rp95137dcaqk0pfj9y320awa1gb"))))
+            "1agdddpjfxqrpiz7b9xnffw0bmb09a2mglcjb3xmhgn7zv309m3h"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-epkg" ,emacs-epkg)
-        ("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
     (home-page
       "https://github.com/emacscollective/borg")
@@ -8407,8 +8261,7 @@
           (base32
             "1nzgjgzidyrplfs4jl8nikd5wwvb4rmrnm51qxmw9y2if0hpq0jd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-langdoc" ,emacs-langdoc)))
+    (propagated-inputs (list emacs-langdoc))
     (home-page
       "https://github.com/tom-tan/brainfuck-mode/")
     (synopsis "Brainfuck mode for Emacs")
@@ -8453,8 +8306,7 @@
           (base32
             "1z5gwmdifrr5r3gmv1dw44vad08cvdfndv555pb8bdksnd9jm130"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-fringe-helper" ,emacs-fringe-helper)))
+    (propagated-inputs (list emacs-fringe-helper))
     (home-page
       "https://bitbucket.org/MikeWoolley/brf-mode")
     (synopsis
@@ -8524,8 +8376,7 @@
           (base32
             "094gbvpf9vy95ij7li9vb17nyhi1grh9mbv1csydb9y157baw03v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-f emacs-s))
     (home-page
       "https://github.com/rmuslimov/browse-at-remote")
     (synopsis
@@ -8572,8 +8423,7 @@
           (base32
             "1rcihwdxrzhgcz573rh1yp3770ihkwqjqvd39yhic1d3sgwxz2hy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-string-utils" ,emacs-string-utils)))
+    (propagated-inputs (list emacs-string-utils))
     (home-page
       "http://github.com/rolandwalker/browse-url-dwim")
     (synopsis
@@ -8619,8 +8469,7 @@
           (base32
             "0hchii00gi2cpzmb8n8r7dh6fr4x8x5p2n6c5d62wxwm6wpppyzp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-buffer-manage" ,emacs-buffer-manage)))
+    (propagated-inputs (list emacs-buffer-manage))
     (home-page "https://github.com/plandes/bshell")
     (synopsis
       "Manage and track multiple inferior shells")
@@ -8643,8 +8492,7 @@
           (base32
             "022j0gw5qkxjz8f70vqjxysifv2mz6cigf9n5z03zmpvwwvxmx2z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "unspecified")
     (synopsis "Shows latest bitcoin price")
     (description
@@ -8667,12 +8515,12 @@
             "1qgasaqhqm0birjmb6k6isd2f5pn58hva8db8qfhva9g5kg1f38w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-widget-mvc" ,emacs-widget-mvc)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-pos-tip" ,emacs-pos-tip)))
+      (list emacs-widget-mvc
+            emacs-log4e
+            emacs-yaxception
+            emacs-dash
+            emacs-s
+            emacs-pos-tip))
     (home-page "https://github.com/aki2o/emacs-bts")
     (synopsis
       "A unified UI for various bug tracking systems")
@@ -8695,8 +8543,7 @@
           (base32
             "173i9n4c8mg93gpc7ljxh3nhm4lq2c04yhrvjz6fwwwqvmnkha5f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-bts" ,emacs-bts) ("emacs-gh" ,emacs-gh)))
+    (propagated-inputs (list emacs-bts emacs-gh))
     (home-page
       "https://github.com/aki2o/emacs-bts-github")
     (synopsis "A plugin of bts.el for GitHub")
@@ -8834,8 +8681,7 @@
             "0g79xcq0jf8p1cpsz3fifjpyaidkr0b2zm8sf11n8li4hfqmr10d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-choice-program" ,emacs-choice-program)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-choice-program emacs-dash))
     (home-page
       "https://github.com/plandes/buffer-manage")
     (synopsis "Manage buffers")
@@ -8881,9 +8727,7 @@
             "0scqddzijg02dggyj7v59f30irp9hw68sc075wa0i039f4ab8kh4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dynaring" ,emacs-dynaring)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-dynaring emacs-s emacs-ht))
     (home-page
       "https://github.com/countvajhula/buffer-ring")
     (synopsis "Rings and tori for buffer navigation")
@@ -8953,7 +8797,7 @@
           (base32
             "0mygs48mk2z8cw1csz2wfyn7kln9662d16hwpmbxs5x8k71aq8jx"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page "unspecified")
     (synopsis
       "Easily run shell scripts per filetype/directory when a buffer is saved")
@@ -9000,10 +8844,10 @@
             "155g4p2yw88cpc8ydfzybc4r6ab2qwcmzdwkrrhnra4psimahjq6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-pretty-hydra" ,emacs-pretty-hydra)
-        ("emacs-magit-section" ,emacs-magit-section)))
+      (list emacs-dash
+            emacs-f
+            emacs-pretty-hydra
+            emacs-magit-section))
     (arguments
       '(#:files (:defaults (:exclude "helm-bufler.el"))))
     (home-page
@@ -9075,7 +8919,7 @@
           (base32
             "04b0c15g24474sy9kp198g28yikhpr0fvmx1kgwqq9ly4p5wyzla"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/alezost/bui.el")
     (synopsis "Buffer interface library")
     (description
@@ -9098,8 +8942,7 @@
             "0i0bwbav5861j2y15j9nd5m9rdqg9q97zgcbld8pivr9nyxy63lz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-bui" ,emacs-bui)
-        ("emacs-magit-popup" ,emacs-magit-popup)))
+      (list emacs-bui emacs-magit-popup))
     (home-page
       "https://gitlab.com/alezost-emacs/build-farm")
     (synopsis
@@ -9123,8 +8966,7 @@
           (base32
             "0pipdzjf7arli6b88fp21as5d4v8ylsy19hixywhfgb7917qsrkv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)))
+    (propagated-inputs (list emacs-projectile))
     (home-page
       "http://github.com/afonso360/build-helper")
     (synopsis "Utilities to help build code")
@@ -9169,8 +9011,7 @@
           (base32
             "1r7x3xw4l5bp4dfqk2v2nrd2yl0rs064gw75nx99ifm92n7nkmgh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-inf-ruby" ,emacs-inf-ruby)))
+    (propagated-inputs (list emacs-inf-ruby))
     (home-page
       "http://github.com/endofunky/bundler.el")
     (synopsis "Interact with Bundler from Emacs")
@@ -9216,9 +9057,7 @@
           (base32
             "070p6mziljnyqzadbvwwmdv11gdmwi4h6q4rbnlp6dj91yiizksi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-alert" ,emacs-alert)))
+    (propagated-inputs (list emacs-dash emacs-alert))
     (arguments
       '(#:files (:defaults ("icons" "icons/*.png"))))
     (home-page
@@ -9288,8 +9127,7 @@
           (base32
             "11djqlw4qf3qs2rwiz7dn5q2zw5i8sykwdf4hg4awsgv8g0bbxn6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page "unspecified")
     (synopsis
@@ -9335,8 +9173,7 @@
           (base32
             "028c5mqhxpq007s7c6rha47zzyj6nsf49mnh99b0mfg9d95s4057"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)))
+    (propagated-inputs (list emacs-deferred))
     (home-page
       "http://www.github.com/AshtonKem/Butler.git")
     (synopsis "Emacs client for Jenkins")
@@ -9354,10 +9191,10 @@
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "1de6be465cfe2c3f00183de9351bd838690c9f81")))
+                 "108d2298cc34d906b196178ad955e3dc139e1779")))
         (sha256
           (base32
-            "1w02p4bfkyga6sign4flq2kw0hawyvnv63410pyh8nm7acp311gg"))))
+            "1vwg82haclgwgjaq0r84gj416ribv7qn1lz8ixf05xhqsvq7ja87"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -9382,8 +9219,7 @@
           (base32
             "0ndxbh2jff6qryczawzbg580744h18z7grg82dpg7fv0rbxnyi3j"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-buttercup" ,emacs-buttercup)))
+    (propagated-inputs (list emacs-buttercup))
     (home-page
       "https://bitbucket.org/olanilsson/buttercup-junit")
     (synopsis "JUnit reporting for Buttercup")
@@ -9608,8 +9444,7 @@
           (base32
             "07kzhyqr8ycjvkknijqhsfr26zd5jc8wxm9sl8bp6pzn4jbs1dmx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-concurrent" ,emacs-concurrent)))
+    (propagated-inputs (list emacs-concurrent))
     (home-page
       "https://github.com/kiwanami/emacs-cacoo/")
     (synopsis
@@ -9633,7 +9468,7 @@
           (base32
             "1k9nkqgnighwj0jj4yl8v2vncy5cnlayx3vw4884hf9amkbv6bg1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-loop" ,emacs-loop)))
+    (propagated-inputs (list emacs-loop))
     (home-page
       "https://github.com/Schnouki/caddyfile-mode/")
     (synopsis
@@ -9657,7 +9492,7 @@
           (base32
             "0m8ss9aky24f5i6b8fyy8mhv9ygj158crjyddnj9xx73vsjf96bs"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/k1LoW/emacs-cake-inflector")
     (synopsis
@@ -9727,7 +9562,7 @@
           (base32
             "04yg0rf6i95s913hs6zn01rajpbc1gk2hcpzkxyjy3mj1lqhh45s"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/walseb/calc-at-point")
     (synopsis
@@ -9897,19 +9732,17 @@
     (version "20210603.323")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/chenyanming/calibredb.el.git")
-               (commit
-                 "cb93563d0ec9e0c653210bc574f9546d1e7db437")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/calibredb-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "10dymcd17ili5r6ydiz7bj0q81y5fh0s1d64m4acfa8xfsi7zx55"))))
+            "0nxh15n89aavm26x21s7bqm8zn0aa8ibsxcvjc7ym13jb40whk9a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-transient emacs-s emacs-dash))
     (home-page
       "https://github.com/chenyanming/calibredb.el")
     (synopsis "Yet another calibre client")
@@ -9933,10 +9766,10 @@
             "18as7vq8cmhxkxgh0p8qlifyvza66n6xf9a2fi07wc4acp2gpn55"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-hierarchy" ,emacs-hierarchy)
-        ("emacs-tree-mode" ,emacs-tree-mode)
-        ("emacs-ivy" ,emacs-ivy)
-        ("emacs-anaconda-mode" ,emacs-anaconda-mode)))
+      (list emacs-hierarchy
+            emacs-tree-mode
+            emacs-ivy
+            emacs-anaconda-mode))
     (home-page
       "https://github.com/beacoder/call-graph")
     (synopsis
@@ -9982,8 +9815,7 @@
           (base32
             "11p42cmk9sj2ilpx6nnlbzff85qi0m27wk49da2ipal28wcx2452"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-names" ,emacs-names)))
+    (propagated-inputs (list emacs-names))
     (home-page
       "http://github.com/Bruce-Connor/camcorder.el")
     (synopsis
@@ -10029,9 +9861,7 @@
             "1pafp5sqr1zb0fkci6i542s683vx4x14955rv51311s2y8xzgyqf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-s emacs-dash emacs-f))
     (home-page
       "https://github.com/kisaragi-hiu/cangjie.el")
     (synopsis
@@ -10071,10 +9901,10 @@
         (uri (git-reference
                (url "https://github.com/capnproto/capnproto.git")
                (commit
-                 "e48c09cd0c3b48dca88ff83dce33705c7b34cc34")))
+                 "2ed8664a08e2c92f0af39e213c20b13d15c03346")))
         (sha256
           (base32
-            "1sh62h2idnbiqnn926jiygfayzgmzrrh5pa6x3kjkr4vcnn0mw6g"))))
+            "1rp0fx1d8mafk08smxmkdgx2gwxkvn44hyw2rxn4ax72lli61j2g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("highlighting/emacs/capnp-mode.el")))
@@ -10146,8 +9976,7 @@
           (base32
             "0kyb492w35igdzn2s1mhjpy7apydw8irv6sa098lwzbq7c9xm484"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-markdown-mode" ,emacs-markdown-mode)))
+    (propagated-inputs (list emacs-markdown-mode))
     (home-page "unspecified")
     (synopsis
       "Emacs Minor Mode for Cargo, Rust's Package Manager.")
@@ -10238,8 +10067,7 @@
           (base32
             "06briiapv2pfll8zc0wl55sad8cjgxkb8j8d4bvc8w5li3d52xa9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/HKey/caseformat")
     (synopsis "Format based letter case converter")
     (description
@@ -10262,12 +10090,12 @@
             "0jccv6aprs4fq2m7b2hdxp0dgkjkwjfmlh5ywbl5pacms3c3l82l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-epl" ,emacs-epl)
-        ("emacs-shut-up" ,emacs-shut-up)
-        ("emacs-package-build" ,emacs-package-build)
-        ("emacs-ansi" ,emacs-ansi)))
+      (list emacs-s
+            emacs-f
+            emacs-epl
+            emacs-shut-up
+            emacs-package-build
+            emacs-ansi))
     (arguments
       '(#:files ("cask.el" "cask-bootstrap.el")))
     (home-page "http://github.com/cask/cask")
@@ -10314,12 +10142,12 @@
             "1hk5q6p1j7cqg5srr3v21xfyy7aas4hfj1a66h21c2xvfjra3hxw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-commander" ,emacs-commander)
-        ("emacs-ansi" ,emacs-ansi)
-        ("emacs-shut-up" ,emacs-shut-up)))
+      (list emacs-s
+            emacs-dash
+            emacs-f
+            emacs-commander
+            emacs-ansi
+            emacs-shut-up))
     (arguments
       '(#:files (:defaults "bin" "templates")))
     (home-page
@@ -10345,8 +10173,7 @@
             "15sq5vrkhb7c5j6ny6wy4bkyl5pggch4l7zw46an29rzni3pffr3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-log4e emacs-yaxception))
     (home-page "https://github.com/aki2o/caskxy")
     (synopsis "Control Cask in Emacs")
     (description
@@ -10459,8 +10286,7 @@
             "0l4bhyr9d8ljz1f0cfg1s2cjcmh6fiwbk5mdlvc7rrwz5hxc21is"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-lsp-mode emacs-dash))
     (home-page
       "https://github.com/MaskRay/emacs-ccls")
     (synopsis "ccls client for lsp-mode")
@@ -10550,10 +10376,10 @@
             "02j45ngddx7n5gvy42r8y3s22bmxlnvg2pqjfh0li8m599fnd11h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-f" ,emacs-f)
-        ("emacs-pkg-info" ,emacs-pkg-info)))
+      (list emacs-dash
+            emacs-deferred
+            emacs-f
+            emacs-pkg-info))
     (home-page "https://github.com/yasuyk/cdnjs.el")
     (synopsis "A front end for http://cdnjs.com")
     (description
@@ -10598,9 +10424,9 @@
             "1845qz0ih30z1jgm1zi11q4gvw9gy6w3vyj2mc1aiv5r170qj8as"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash-functional" ,emacs-dash-functional)
-        ("emacs-s" ,emacs-s)
-        ("emacs-deferred" ,emacs-deferred)))
+      (list emacs-dash-functional
+            emacs-s
+            emacs-deferred))
     (home-page
       "https://github.com/ardumont/emacs-celery")
     (synopsis
@@ -10647,8 +10473,7 @@
           (base32
             "10xw1cz9b6fvkn4rjsds1m2xrz9hf22k9bbdy089v49nwla5xiyk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-powerline" ,emacs-powerline)))
+    (propagated-inputs (list emacs-powerline))
     (home-page
       "https://github.com/ema2159/centaur-tabs")
     (synopsis
@@ -10740,8 +10565,7 @@
           (base32
             "0kqwcy96fy9mdhwsxh1zj2zn5qr7wvss22qq2ij2kpyh3jh8gxya"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pkg-info" ,emacs-pkg-info)))
+    (propagated-inputs (list emacs-pkg-info))
     (home-page
       "https://github.com/nlamirault/cerbere")
     (synopsis
@@ -10783,10 +10607,10 @@
         (uri (git-reference
                (url "https://github.com/cfengine/core.git")
                (commit
-                 "9c9736e55c63d1be00c67f6ddf9179ee36f05add")))
+                 "945aee7d4538e71a990dbb42ce99bf3f74e17b40")))
         (sha256
           (base32
-            "1jkk53yvlh0yw7rz2wl2nxf7r6590cbw520pay68jcysizfy7qq1"))))
+            "0g1ak590qjfqd0nyj9spf10jbyb9f8mxrhjm6cq9p3hlzcbjl11c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("contrib/cfengine-code-style.el")))
@@ -10855,9 +10679,7 @@
             "0ggq4q2c1xi26m4rlvjm8f51wlj7h351pp6m20k6l25856858vhi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-yaml-mode" ,emacs-yaml-mode)))
+      (list emacs-f emacs-s emacs-yaml-mode))
     (arguments
       '(#:files
         ("cfn-mode/cfn-mode.el"
@@ -10885,8 +10707,7 @@
             "04bgmh4rknfkfash1igav55hflkkrnkchbph6z61w36dqam06381"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-buffer-manage" ,emacs-buffer-manage)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-buffer-manage emacs-dash))
     (home-page "https://github.com/plandes/cframe")
     (synopsis
       "Customize a frame and fast switch size and positions")
@@ -10910,9 +10731,7 @@
             "1bic67769xvjdhinq88jqxnb4dql8gssmnx1wvrl69338zjqqjzg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-posframe" ,emacs-posframe)))
+      (list emacs-dash emacs-s emacs-posframe))
     (home-page
       "https://github.com/Alexander-Miller/cfrs")
     (synopsis "Child-frame based read-string")
@@ -10980,8 +10799,7 @@
           (base32
             "0hs5hw36yagchpihx18059gi8b85hrccm82ynh89y7dkk1pw3wy1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-expand-region" ,emacs-expand-region)))
+    (propagated-inputs (list emacs-expand-region))
     (home-page "unspecified")
     (synopsis
       "Change contents based on semantic units")
@@ -11004,8 +10822,7 @@
           (base32
             "0nb6bz11vy2fb66xibk06rk3jvkpnz2ilpbfcgdg00nzhyzhf91k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-hydra" ,emacs-hydra)))
+    (propagated-inputs (list emacs-hydra))
     (arguments '(#:files (:defaults "etc")))
     (home-page
       "https://github.com/damon-kwok/chapel-mode")
@@ -11030,8 +10847,7 @@
           (base32
             "0cbs6lpljldz62vy2qqb3bdp3yarx84qpnmayyyah128snb9ic8v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-avy-menu" ,emacs-avy-menu)))
+    (propagated-inputs (list emacs-avy-menu))
     (home-page "https://github.com/mrkkrp/char-menu")
     (synopsis
       "Create your own menu for fast insertion of arbitrary symbols")
@@ -11164,9 +10980,7 @@
             "1k64mjzqmjirsld40dvmpq4llpb7ggx80r1hvsjqazc4mr16pbri"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-dash emacs-s emacs-f))
     (arguments '(#:files ("emacs/*.el")))
     (home-page
       "https://github.com/eikek/chee/tree/release/0.3.0/emacs")
@@ -11191,7 +11005,7 @@
           (base32
             "1jdlp5cnsiza55vx4kxacqgk7yqg9fvd9swhwdxkczadb2d5l9p1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-xelb" ,emacs-xelb)))
+    (propagated-inputs (list emacs-xelb))
     (home-page
       "https://github.com/Vannil/cheerilee.el")
     (synopsis "Toolkit library")
@@ -11397,7 +11211,7 @@
           (base32
             "1mv1n6m73aamxj18i851ww53q7p4ydiqgaapxyvjbm6sx8ddz9ak"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-pyim" ,emacs-pyim)))
+    (propagated-inputs (list emacs-pyim))
     (home-page
       "https://github.com/tumashu/chinese-yasdcv")
     (synopsis "Yet another StarDict frontend")
@@ -11420,8 +11234,7 @@
           (base32
             "1d8a9jwv9y0sncw24k840c8yyrig30f2d6q2zqlc09f05yzq9p9p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-autothemer" ,emacs-autothemer)))
+    (propagated-inputs (list emacs-autothemer))
     (home-page
       "http://github.com/SavchenkoValeriy/emacs-chocolate-theme")
     (synopsis "A dark chocolaty theme")
@@ -11444,7 +11257,7 @@
           (base32
             "022xpsngfn0pjsgmpb24pg428xzkpk97yhfqjc7ppncizr61n5cv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/plandes/choice-program")
     (synopsis "Parameter based program")
@@ -11489,9 +11302,7 @@
           (base32
             "06lsaw2z7q131dfgfcmm0dgiimjd6psxlk1biyzrahgs992gm7d2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-ts" ,emacs-ts)))
+    (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
       '(#:files
         (:defaults
@@ -11522,8 +11333,7 @@
             "05jcn67fzf349h3vqvfrwhklan0i037mp0nq53wghfzapv1m7lv8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)
-        ("emacs-chronometrist" ,emacs-chronometrist)))
+      (list emacs-alert emacs-chronometrist))
     (home-page
       "https://tildegit.org/contrapunctus/chronometrist-goal")
     (synopsis
@@ -11542,13 +11352,12 @@
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "c9389d4404076dc01501bdbf11ca017ab9c1a0c1")))
+                 "7ca6413907ac57e09010265257c48b5500fe09f8")))
         (sha256
           (base32
-            "0196xbblsbi480xkjp2jaqzdp0wdvnbmykp08092wmiz6ws8nnfz"))))
+            "06lsaw2z7q131dfgfcmm0dgiimjd6psxlk1biyzrahgs992gm7d2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-chronometrist" ,emacs-chronometrist)))
+    (propagated-inputs (list emacs-chronometrist))
     (arguments
       '(#:files
         (:defaults
@@ -11638,18 +11447,18 @@
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "e7387f07b1398021cfce09aaf29bdc572f925154")))
+                 "a635e8523a58db591a9067080a522c7d52c88e22")))
         (sha256
           (base32
-            "16pdq27c269bch1hmrc4j8xmxkiz6n26mapvgzks65156qrv9gfm"))))
+            "1xy27mcx4x4knhp18y7424aaphlmxdrkj6k2pbhbznhs4pqpvg5b"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-clojure-mode" ,emacs-clojure-mode)
-        ("emacs-parseedn" ,emacs-parseedn)
-        ("emacs-pkg-info" ,emacs-pkg-info)
-        ("emacs-queue" ,emacs-queue)
-        ("emacs-spinner" ,emacs-spinner)
-        ("emacs-sesman" ,emacs-sesman)))
+      (list emacs-clojure-mode
+            emacs-parseedn
+            emacs-pkg-info
+            emacs-queue
+            emacs-spinner
+            emacs-sesman))
     (arguments
       '(#:files ("*.el" (:exclude ".dir-locals.el"))))
     (home-page
@@ -11676,8 +11485,7 @@
             "1w4y65s3m2irga4iqfqqkcmvl6ss24zmaxqzbfib8jmi84r4lpac"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-javap-mode" ,emacs-javap-mode)))
+      (list emacs-cider emacs-javap-mode))
     (home-page
       "http://www.github.com/clojure-emacs/cider-decompile")
     (synopsis "decompilation extension for cider")
@@ -11700,8 +11508,7 @@
           (base32
             "01gky548v3758fyr317lkwsc9aacab6m9d9vk1mrr3qyvmciwd51"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-eval-sexp-fu" ,emacs-eval-sexp-fu)))
+    (propagated-inputs (list emacs-eval-sexp-fu))
     (home-page "unspecified")
     (synopsis
       "Briefly highlights an evaluated sexp.")
@@ -11725,8 +11532,7 @@
             "0qrxja9bxx07m1ij8ly36sib901a6qhczgxsp4ap4wszy63lx93r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-hydra" ,emacs-hydra)))
+      (list emacs-cider emacs-hydra))
     (home-page
       "https://github.com/clojure-emacs/cider-hydra")
     (synopsis "Hydras for CIDER.")
@@ -11793,8 +11599,7 @@
           (base32
             "0mbfk0r14n7kx5m49b0j50m2kzg042nzrk2y91y7pj8sc7vh1lm6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "https://github.com/ailiop/cilk-mode")
     (synopsis "Minor mode for Cilk code editing")
     (description
@@ -11817,9 +11622,7 @@
             "190n4kdcqdwglhnawnj9mqjarmcaqylxipc07whmrii0jv279kjw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)
-        ("emacs-python-environment"
-         ,emacs-python-environment)))
+      (list emacs-deferred emacs-python-environment))
     (home-page
       "https://github.com/inlinestyle/cinspect-mode")
     (synopsis
@@ -11888,8 +11691,7 @@
             "18mva5nn919c86sgk6kdh437vdnlh9bk7fg10xqcpics1yv3viaw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-circe" ,emacs-circe)
-        ("emacs-alert" ,emacs-alert)))
+      (list emacs-circe emacs-alert))
     (home-page
       "https://github.com/eqyiel/circe-notifications")
     (synopsis "Add desktop notifications to Circe.")
@@ -11912,8 +11714,7 @@
           (base32
             "0j184sgqxh3f34ni6bfb69mfir94glcyl0wpqmpsn9siq54s82ag"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/sulami/circleci-api")
     (synopsis "Bindings for the CircleCI API")
@@ -11937,9 +11738,7 @@
             "1gym9nsqpxhmjx03j2hc4vsx6y20w2ara6nwhgyf6723dkjdg47m"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-parsebib" ,emacs-parsebib)
-        ("emacs-citeproc" ,emacs-citeproc)))
+      (list emacs-s emacs-parsebib emacs-citeproc))
     (home-page "https://github.com/bdarcus/citar")
     (synopsis
       "Citation-related commands for org, latex, markdown")
@@ -11963,13 +11762,12 @@
             "01s7k39cdclyyr9xsn32wb5h663vp8l46kzwlylk0vwdjc5gng6x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-queue" ,emacs-queue)
-        ("emacs-string-inflection"
-         ,emacs-string-inflection)
-        ("emacs-parsebib" ,emacs-parsebib)))
+      (list emacs-dash
+            emacs-s
+            emacs-f
+            emacs-queue
+            emacs-string-inflection
+            emacs-parsebib))
     (home-page
       "https://github.com/andras-simonyi/citeproc-el")
     (synopsis "A CSL 1.0.1 Citation Processor")
@@ -11993,10 +11791,10 @@
             "1n69016gds7kmf3253w36i40rf26g3qvgac7n0z67im9jvjfa6a7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-citeproc" ,emacs-citeproc)
-        ("emacs-org-ref" ,emacs-org-ref)))
+      (list emacs-dash
+            emacs-f
+            emacs-citeproc
+            emacs-org-ref))
     (arguments
       '(#:files
         (:defaults
@@ -12135,8 +11933,7 @@
           (base32
             "0y97f86qnpcscwj41icb4i6j40qhvpkyhg529hwibpf6f53j7ckl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-clang-format" ,emacs-clang-format)))
+    (propagated-inputs (list emacs-clang-format))
     (home-page
       "https://github.com/SavchenkoValeriy/emacs-clang-format-plus")
     (synopsis
@@ -12362,8 +12159,7 @@
           (base32
             "052xqscb63kjj6z9m0kk5jlfsy84g848lnpcn5yhz3km2r6nigqm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pos-tip" ,emacs-pos-tip)))
+    (propagated-inputs (list emacs-pos-tip))
     (home-page "https://github.com/Fuco1/clippy.el")
     (synopsis
       "Show tooltip with function documentation at point")
@@ -12409,8 +12205,7 @@
             "09267smjngms21rc1fl6c5ip45lzqx4iqzqaqi9sbfpy8vggxkd3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-clojure-mode" ,emacs-clojure-mode)
-        ("emacs-cider" ,emacs-cider)))
+      (list emacs-clojure-mode emacs-cider))
     (home-page
       "https://www.github.com/bsless/clj-decompiler.el")
     (synopsis "Clojure Java decompiler expansion")
@@ -12434,15 +12229,14 @@
             "1fm01ns63l1yrrya37aby4sx91kcnm56ba1bm3y7r8ilm4zcz40x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-paredit" ,emacs-paredit)
-        ("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)
-        ("emacs-clojure-mode" ,emacs-clojure-mode)
-        ("emacs-cider" ,emacs-cider)
-        ("emacs-parseedn" ,emacs-parseedn)
-        ("emacs-inflections" ,emacs-inflections)
-        ("emacs-hydra" ,emacs-hydra)))
+      (list emacs-yasnippet
+            emacs-paredit
+            emacs-multiple-cursors
+            emacs-clojure-mode
+            emacs-cider
+            emacs-parseedn
+            emacs-inflections
+            emacs-hydra))
     (arguments '(#:files (:defaults "CHANGELOG.md")))
     (home-page "unspecified")
     (synopsis
@@ -12467,8 +12261,7 @@
             "0jy6hkz8sr1bplymwxnjg4q408cw2dgfrv70chlw3y5ddc4cingj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-clj-refactor" ,emacs-clj-refactor)
-        ("emacs-helm-core" ,emacs-helm-core)))
+      (list emacs-clj-refactor emacs-helm-core))
     (home-page
       "https://github.com/philjackson/cljr-helm")
     (synopsis
@@ -12493,8 +12286,7 @@
             "12g74sfjw6siix8hvfbb0a7y8cxzxi1mb22sw8wih56bcv1987wl"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-clj-refactor" ,emacs-clj-refactor)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-clj-refactor emacs-ivy))
     (home-page
       "https://github.com/wandersoncferreira/cljr-ivy")
     (synopsis
@@ -12586,9 +12378,9 @@
             "1wp74fmnk21n5lrpmyk9j25dc79jffbmmhbgg5avzv63az6ffkdk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-spaceline" ,emacs-spaceline)))
+      (list emacs-projectile
+            emacs-dash
+            emacs-spaceline))
     (arguments '(#:files ("clocker.el")))
     (home-page "unspecified")
     (synopsis "Note taker and clock-in enforcer")
@@ -12611,9 +12403,7 @@
           (base32
             "0qkkdlifii6wkfxaj95zphiw3psmf9qnds3whmp6jq2lq9wpd74f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request-deferred"
-         ,emacs-request-deferred)))
+    (propagated-inputs (list emacs-request-deferred))
     (home-page
       "https://github.com/joshuamiller/clojars.el")
     (synopsis "clojars.org search interface")
@@ -12636,8 +12426,7 @@
           (base32
             "0h48jwx1wljh3jlnhx123i2w6hacgysh9dh7ppsrkzsg0hwhhn88"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)))
+    (propagated-inputs (list emacs-cider))
     (arguments
       '(#:files
         (:defaults
@@ -12688,8 +12477,7 @@
           (base32
             "1b3442z4awk3h1ns0fn0mif8vzlrdqzq1gbj9k848df5qz2qgvcv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-clojure-mode" ,emacs-clojure-mode)))
+    (propagated-inputs (list emacs-clojure-mode))
     (arguments
       '(#:files ("clojure-mode-extra-font-locking.el")))
     (home-page
@@ -12714,9 +12502,7 @@
           (base32
             "1qxhgqldvzzbpr3cxkj3a1zhpjck04pcqli9nnnb75hawi7vi8si"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-cider emacs-dash))
     (home-page
       "https://github.com/symfrog/clojure-quick-repls")
     (synopsis
@@ -12740,8 +12526,7 @@
           (base32
             "0vvadcydpsz4b17dlm1jd4fbddzfqibh3mlzv3k4gvp67vv10cqy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page "unspecified")
     (synopsis "Yasnippets for clojure")
@@ -12765,9 +12550,7 @@
             "1dqcc5szghqxdhy8r0gq6s7bbv4zq0grsjjfh8n6wmsyd1svrd3k"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-s" ,emacs-s)
-        ("emacs-simple-httpd" ,emacs-simple-httpd)))
+      (list emacs-cider emacs-s emacs-simple-httpd))
     (arguments '(#:files ("src/elisp/*.el")))
     (home-page
       "https://github.com/clojure-emacs/clomacs")
@@ -12792,8 +12575,7 @@
           (base32
             "1xa9rzyfm6bfskm2mfckd7jwmjwcraky7vsp7yyrnrqfksrl5na8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-emacsql-sqlite" ,emacs-emacsql-sqlite)))
+    (propagated-inputs (list emacs-emacsql-sqlite))
     (home-page
       "https://github.com/emacscollective/closql")
     (synopsis "store EIEIO objects using EmacSQL")
@@ -12926,8 +12708,7 @@
           (base32
             "030j8k2yi1vli7xw10vz24qigq7jxg8yhc15kwjscfczl38x8vh4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-cmake-mode" ,emacs-cmake-mode)))
+    (propagated-inputs (list emacs-cmake-mode))
     (home-page
       "https://github.com/Lindydancer/cmake-font-lock")
     (synopsis
@@ -12952,8 +12733,7 @@
             "01xpknvj5mm2d3z6xzaw6cyb26hrzhvs44763ajvgw9l43mviwy3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-levenshtein" ,emacs-levenshtein)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-levenshtein emacs-s))
     (home-page
       "http://github.com/atilaneves/cmake-ide")
     (synopsis
@@ -12972,10 +12752,10 @@
         (uri (git-reference
                (url "https://gitlab.kitware.com/cmake/cmake.git")
                (commit
-                 "56e6f68d5a62168f3ac70e80f7d7e69653ccb826")))
+                 "7de214699f2bfde97e21bc440be30e6866b6e746")))
         (sha256
           (base32
-            "0v2nymxxddb9a35mw11czkk516shx4gd3mb89sfaxk8985b2pxfj"))))
+            "1076xha0rzwp6qrcvy0lcjwmv6rsfg3hxc91mba91xjmcqvvgi9h"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("Auxiliary/*.el")))
     (home-page "unspecified")
@@ -13023,9 +12803,7 @@
             "0wi097yk9p1xcfmps1g58xvvlv60akwky4y0pxdz6pa31w9jd1q8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-shell-split-string"
-         ,emacs-shell-split-string)))
+      (list emacs-s emacs-shell-split-string))
     (home-page "unspecified")
     (synopsis
       "Show the output of long-running commands in the echo area")
@@ -13205,7 +12983,7 @@
           (base32
             "1n00bb39jgx02zdgla85zx0a338xir0zh0af6xca14kg5bx07vsv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-gist" ,emacs-gist)))
+    (propagated-inputs (list emacs-gist))
     (home-page "unspecified")
     (synopsis
       "use org-mode to collect code snippets")
@@ -13229,15 +13007,15 @@
             "1lrc6daf496d5mxb46lipf62jfgn3zzvsblfdi9i7bbgf25gim7b"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-closql" ,emacs-closql)
-        ("emacs-magit" ,emacs-magit)
-        ("emacs-a" ,emacs-a)
-        ("emacs-ghub" ,emacs-ghub)
-        ("emacs-uuidgen" ,emacs-uuidgen)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-forge" ,emacs-forge)
-        ("emacs-emojify" ,emacs-emojify)))
+      (list emacs-closql
+            emacs-magit
+            emacs-a
+            emacs-ghub
+            emacs-uuidgen
+            emacs-deferred
+            emacs-markdown-mode
+            emacs-forge
+            emacs-emojify))
     (home-page
       "https://github.com/wandersoncferreira/code-review")
     (synopsis
@@ -13261,8 +13039,7 @@
           (base32
             "1ggmm2jnz4z247kgx87i6km5ya5jayr5qy2dmshfay5pnql12fz6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/xuchunyang/code-stats-emacs")
     (synopsis "Code::Stats plugin")
@@ -13306,8 +13083,7 @@
           (base32
             "1xdkm1f04z1h3ivd6zm8hckf3n3fbi5rwybg4dwi5mim6w84i7j9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-log4e" ,emacs-log4e)))
+    (propagated-inputs (list emacs-log4e))
     (arguments
       '(#:files
         ("codesearch.el" "listing-codesearch.el")))
@@ -13359,8 +13135,7 @@
           (base32
             "010v886ak0rbbhqwxwj6m0mkgh19s232igy7wwbv07l2pdqszf3p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-coffee-mode" ,emacs-coffee-mode)))
+    (propagated-inputs (list emacs-coffee-mode))
     (home-page "http://github.com/yasuyk/coffee-fof")
     (synopsis
       "A coffee-mode configuration for `ff-find-other-file'.")
@@ -13405,8 +13180,7 @@
           (base32
             "0xnrh6v4s2s3fgvw0v9fl48dlk4r2p6axp7xf41gzb1ai81yczhv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/eklitzke/coin-ticker-mode")
     (synopsis "Show a cryptocurrency price ticker")
@@ -13452,7 +13226,7 @@
           (base32
             "12ybgh8yzi62lw0c7yakgvfdx45sr11szyqdlf58n2pbkz9sxkmv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/ankurdave/color-identifiers-mode")
     (synopsis
@@ -13544,8 +13318,7 @@
           (base32
             "0c04fy3hc8wc0aabilqx9mcipmd41rmshqjxc3z8m1w0bm4288g1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-color-theme" ,emacs-color-theme)))
+    (propagated-inputs (list emacs-color-theme))
     (arguments
       '(#:files ("color-theme-buffer-local.el")))
     (home-page
@@ -13731,7 +13504,7 @@
           (base32
             "1wb7kig728dbggd2q24kgy6381gg2zpqdr9az5q3yg0326zns62y"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/jcs090218/com-css-sort")
     (synopsis
@@ -13889,9 +13662,7 @@
             "1kj7w8akrybr1y30lbhax8dnk5m4fg365ifxlyw766v69g5x7zd2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-s emacs-dash emacs-f))
     (home-page
       "http://github.com/rejeep/commander.el")
     (synopsis "Emacs command line parser")
@@ -14028,7 +13799,7 @@
           (base32
             "1zbk2nc1qnryapsj68hlqmkn0ab7llzpmnls6y3s2656lxcn2b0k"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/ddoherty03/commify")
     (synopsis "Toggle grouping commas in numbers")
@@ -14051,8 +13822,7 @@
           (base32
             "0xz4jv0l7vgq7rivx8c1m3hahyyk7cj9cadrq3rg9rybhzski57d"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page
       "https://github.com/mrkkrp/common-lisp-snippets")
@@ -14099,10 +13869,10 @@
             "1x260p0fj33xg6hkrz9q9dqrpibp4yn2n9is3a6s4xxfb485rz0g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-anaconda-mode" ,emacs-anaconda-mode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-company
+            emacs-anaconda-mode
+            emacs-dash
+            emacs-s))
     (home-page
       "https://github.com/proofit404/anaconda-mode")
     (synopsis "Anaconda backend for company-mode")
@@ -14125,8 +13895,7 @@
           (base32
             "0b05n6m47vyhirxfqzapzl4gf179aks1296qsw1sw8v84kb5kl0x"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/krzysztof-magosa/company-ansible")
     (synopsis "A company back-end for ansible")
@@ -14150,12 +13919,11 @@
             "06v7y7gxlxrxdaqy8c93niy1di80r738cq7rkghnhqi174pwl1wv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-irony" ,emacs-irony)
-        ("emacs-company-irony" ,emacs-company-irony)
-        ("emacs-company-c-headers"
-         ,emacs-company-c-headers)
-        ("emacs-arduino-mode" ,emacs-arduino-mode)))
+      (list emacs-company
+            emacs-irony
+            emacs-company-irony
+            emacs-company-c-headers
+            emacs-arduino-mode))
     (home-page
       "https://github.com/yuutayamada/company-arduino")
     (synopsis "company-mode for Arduino")
@@ -14179,9 +13947,7 @@
             "0x8qc63zn126hspcblwlihxfzs8kvcjb6cpj28ahsb0117j2i789"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-company" ,emacs-company)
-        ("emacs-auctex" ,emacs-auctex)))
+      (list emacs-yasnippet emacs-company emacs-auctex))
     (home-page
       "https://github.com/alexeyr/company-auctex/")
     (synopsis
@@ -14206,9 +13972,7 @@
             "0p8kbxfcrx1ib8g17g6h2i2ygy35qq992n3s2xa6ysij7wrfn4hd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-axiom-environment"
-         ,emacs-axiom-environment)))
+      (list emacs-company emacs-axiom-environment))
     (arguments '(#:files ("company-axiom.el")))
     (home-page "unspecified")
     (synopsis
@@ -14233,8 +13997,7 @@
             "0p1kwcpjd2rya6dlp1w48pxd5x0qxyyamrfzwha5wbd5y7m2lh62"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-parsebib" ,emacs-parsebib)))
+      (list emacs-company emacs-parsebib))
     (home-page
       "https://github.com/gbgar/company-bibtex")
     (synopsis "Company completion for bibtex keys")
@@ -14258,9 +14021,7 @@
             "01q5jxas8ak7yk3313mmcjmqspckjwv959w8zqvm08r8jgmcl1bv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-company" ,emacs-company)
-        ("emacs-frame-local" ,emacs-frame-local)))
+      (list emacs-dash emacs-company emacs-frame-local))
     (arguments '(#:files (:defaults "images")))
     (home-page
       "https://github.com/sebastiencs/company-box")
@@ -14284,8 +14045,7 @@
           (base32
             "149sbw2pmfwn52jrhavrnc16rkjz09g5kl9acl973k764mf215l0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page "unspecified")
     (synopsis
       "Company mode backend for C/C++ header files")
@@ -14308,8 +14068,7 @@
           (base32
             "1gf45xwjzdm8i4q6c6khk4dbg1mmp2r0awz2sjr4dcr2dbd1n7mg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/iquiw/company-cabal")
     (synopsis "company-mode cabal backend")
@@ -14333,10 +14092,10 @@
             "1vlbw54a02qy77ad2qgd6sy7y3b6x1y1nm3bjxcd7f67hnncjg0p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-company" ,emacs-company)
-        ("emacs-company-math" ,emacs-company-math)))
+      (list emacs-dash
+            emacs-yasnippet
+            emacs-company
+            emacs-company-math))
     (arguments '(#:files (:defaults "refman")))
     (home-page
       "https://github.com/cpitclaudel/company-coq")
@@ -14361,8 +14120,7 @@
           (base32
             "0hf7lq6rcs6xhmgpc8bwk115rykyfvakcjqpanlsh5m3fdswjq03"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/redguardtoo/company-ctags")
     (synopsis
@@ -14387,12 +14145,11 @@
             "1b7xcqx297dc5z1rc96gd7y9cx8a7yhgmqh5cpnwfb45hm5s71hs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-flycheck-dmd-dub"
-         ,emacs-flycheck-dmd-dub)
-        ("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-popwin" ,emacs-popwin)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-company
+            emacs-flycheck-dmd-dub
+            emacs-yasnippet
+            emacs-popwin
+            emacs-ivy))
     (home-page
       "http://github.com/tsukimizake/company-dcd")
     (synopsis "Company backend for Dlang using DCD.")
@@ -14416,8 +14173,7 @@
             "11whnjmy5dyg4wkwabpip8hqsmqys193m7aqbd7jl4hmq24hrwsw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-parent-mode" ,emacs-parent-mode)))
+      (list emacs-company emacs-parent-mode))
     (home-page
       "https://github.com/hlissner/emacs-company-dict")
     (synopsis
@@ -14442,8 +14198,7 @@
             "0yvp3dwa9mwfyrqla27ycwyjad4bp1267bxv0chxcr4528hnygl3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-distel-completion-lib"
-         ,emacs-distel-completion-lib)))
+      (list emacs-distel-completion-lib))
     (arguments '(#:files ("company-distel.el")))
     (home-page
       "github.com/sebastiw/distel-completion")
@@ -14469,8 +14224,7 @@
             "0jdddf8krvg379wlay1xs27qlxpi87nz6v2i526pk59mmg8jrnvc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-eclim" ,emacs-eclim)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-eclim emacs-company))
     (arguments '(#:files ("company-emacs-eclim.el")))
     (home-page "unspecified")
     (synopsis "Eclim company backend")
@@ -14493,8 +14247,7 @@
           (base32
             "08dx812vg92bkwp0ham40rv3x9648x7y5bmbvphcc71s9knfgxcz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/dunn/company-emoji.git")
     (synopsis "company-mode backend for emoji")
@@ -14518,9 +14271,7 @@
             "0d383561fb8nfgqns3j9s0sjwgqchwpil0gs4n4vw31yaphyy83l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-emojify" ,emacs-emojify)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-company emacs-emojify emacs-ht))
     (home-page
       "https://github.com/jcs-elpa/company-emojify")
     (synopsis "Company completion for Emojify")
@@ -14544,9 +14295,7 @@
             "04wm3i65fpzln7sdcny88hfjfm0n7wy44ffsr3697x4l95d0bnyh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy-erlang-complete"
-         ,emacs-ivy-erlang-complete)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-ivy-erlang-complete emacs-company))
     (arguments '(#:files (:defaults)))
     (home-page "unspecified")
     (synopsis
@@ -14571,8 +14320,7 @@
             "0zs9cblnbkxa0dxw4lyllmybqizxcdx96gv8jlhx20nrjpi78piw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-company emacs-dash))
     (home-page
       "https://github.com/aaronjensen/company-flow")
     (synopsis "Flow backend for company-mode")
@@ -14596,8 +14344,7 @@
             "09zaaqi8587n1fv5pxnrdmdll319s8f66xkc41p51gcs2p7qa5w1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-flx" ,emacs-flx)))
+      (list emacs-company emacs-flx))
     (home-page
       "https://github.com/PythonNut/company-flx")
     (synopsis "flx based fuzzy matching for company")
@@ -14621,9 +14368,7 @@
             "1gca3i7ylk28wx7wa722ismy6irya96k8qf1zjh851sn2m7bkfin"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-company emacs-s emacs-ht))
     (home-page
       "https://github.com/jcs-elpa/company-fuzzy")
     (synopsis "Fuzzy matching for `company-mode'")
@@ -14647,8 +14392,7 @@
             "0sbkmsrvjikf6y53nsd5n0zhdp4hms7cw88w9qln136xjp5vgxqj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-haskell-mode" ,emacs-haskell-mode)))
+      (list emacs-company emacs-haskell-mode))
     (home-page "unspecified")
     (synopsis
       "company backend which uses the current ghci process.")
@@ -14672,8 +14416,7 @@
             "0khpvi23jbgs2rbwjawl56a219z8r3i44s4zq10an91r0q8d8n4l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-glsl-mode" ,emacs-glsl-mode)))
+      (list emacs-company emacs-glsl-mode))
     (home-page
       "https://github.com/guidoschmidt/company-glsl")
     (synopsis "Support glsl in company-mode")
@@ -14697,8 +14440,7 @@
             "0jd7swa2s9a6lci81hfhfnnkxbmca2kh07hsj7c5lv2r9adxrwxw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-go-mode" ,emacs-go-mode)))
+      (list emacs-company emacs-go-mode))
     (home-page "unspecified")
     (synopsis
       "company-mode backend for Go (using gocode)")
@@ -14722,8 +14464,7 @@
             "0fnv4rvvs9rqzrs86g23jcrpg0rcgk25299hm6jm08ia0kjjby1m"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-inf-ruby" ,emacs-inf-ruby)))
+      (list emacs-company emacs-inf-ruby))
     (home-page
       "https://github.com/company-mode/company-inf-ruby")
     (synopsis
@@ -14747,8 +14488,7 @@
           (base32
             "0629my156zxjb3h636iirdd2rr58z3vsdinhq0w0y6f3544i05hx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/mguzmann/company-ipa")
     (synopsis "IPA backend for company")
@@ -14772,8 +14512,7 @@
             "0s8v6kfgngpz6ic0g0l6xi6j9692xpmcamidmbk3l2blb172mggr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-irony" ,emacs-irony)))
+      (list emacs-company emacs-irony))
     (home-page
       "https://github.com/Sarcasm/company-irony/")
     (synopsis
@@ -14798,8 +14537,7 @@
             "1f462v8xq2hdsr4ks4i79icpfz6fjpb4q7khnx6si55agxj3rvaq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-irony" ,emacs-irony)))
+      (list emacs-company emacs-irony))
     (home-page
       "https://github.com/hotpxl/company-irony-c-headers")
     (synopsis
@@ -14824,8 +14562,7 @@
             "08h6s06fkbyif9714p9b830frbhri5zfn3822nmp6ydl7jb0b1pw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-jedi-core" ,emacs-jedi-core)))
+      (list emacs-company emacs-jedi-core))
     (home-page
       "https://github.com/emacsorphanage/company-jedi")
     (synopsis
@@ -14844,17 +14581,17 @@
         (uri (git-reference
                (url "https://github.com/leanprover/lean-mode.git")
                (commit
-                 "bf32bb97930ed67c5cbe0fe3d4a69dedcf68be44")))
+                 "4a90f2ae6e33c162a3dd6f624fb080c2ed8e8494")))
         (sha256
           (base32
-            "1bkv5zs38ijawvavbba0fdf2flb6fiwici3qi99ws8wvwhnbkws2"))))
+            "1zikz4qaxabs3j86gljpp2qbhbzxsjzz544k9vsngibd468dszlv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-company" ,emacs-company)
-        ("emacs-lean-mode" ,emacs-lean-mode)))
+      (list emacs-dash
+            emacs-s
+            emacs-f
+            emacs-company
+            emacs-lean-mode))
     (arguments '(#:files ("company-lean.el")))
     (home-page
       "https://github.com/leanprover/lean-mode")
@@ -14878,8 +14615,7 @@
           (base32
             "08g4f8w9lhfypy4m3vcfg8d8gqn7w2g8qjksl7bzcnwg2d0yqld8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/debanjum/company-ledger")
     (synopsis
@@ -14904,10 +14640,10 @@
             "0ny2dcc7c585p7v3j6q0rpkbj1qmf2ismy8a5020jpr585xvz0hh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-lua-mode" ,emacs-lua-mode)))
+      (list emacs-company
+            emacs-s
+            emacs-f
+            emacs-lua-mode))
     (arguments '(#:files (:defaults "lua")))
     (home-page "unspecified")
     (synopsis "Company backend for Lua")
@@ -14931,8 +14667,7 @@
             "007zyvr5mw16j7gxxx8bm0jpy8hyph9xrmxsi1dy2pshb2fnpq95"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-company emacs-ivy))
     (home-page
       "https://github.com/yanghaoxie/company-manually")
     (synopsis
@@ -14957,9 +14692,7 @@
             "0s3jnslsd2licgav26s0nawwhhs4yrmz9chl0ghkngplichnp9mk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-math-symbol-lists"
-         ,emacs-math-symbol-lists)))
+      (list emacs-company emacs-math-symbol-lists))
     (home-page
       "https://github.com/vspinu/company-math")
     (synopsis
@@ -14984,8 +14717,7 @@
             "18bjr4n1m1y76kh0pp6ci7ywklrmw611ka3avrj23lb0wwrljf86"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-maxima" ,emacs-maxima)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-maxima emacs-company))
     (arguments '(#:files ("company-maxima.el")))
     (home-page "https://gitlab.com/sasanidas/maxima")
     (synopsis "Maxima company integration")
@@ -15009,8 +14741,7 @@
             "0sfa674g1qm280s0pc3n6qiiphj5i9ibknckx5capkrkxb5cwpkw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-nand2tetris" ,emacs-nand2tetris)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-nand2tetris emacs-company))
     (arguments '(#:files ("company-nand2tetris.el")))
     (home-page
       "http://www.github.com/CestDiego/nand2tetris.el/")
@@ -15036,8 +14767,7 @@
             "01li6c271v5j35chg3a8nl9az3bwq4hk1j8lfjq5a27p91iszpc0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-native-complete" ,emacs-native-complete)))
+      (list emacs-company emacs-native-complete))
     (arguments
       '(#:files ("company-native-complete.el")))
     (home-page
@@ -15063,8 +14793,7 @@
           (base32
             "0qrlqir7fa2zf97yfsg8phj5dqgjz2rzn5zspfk9qlys3j8i483d"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/stardiviner/company-nginx")
     (synopsis
@@ -15088,8 +14817,7 @@
           (base32
             "0qg1ws7xi418lbnx130xqkwgpsl0p218gqxwy0fpwky01iahwcw9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (arguments '(#:files (:defaults "ngram.py")))
     (home-page
       "https://github.com/kshramt/company-ngram")
@@ -15114,8 +14842,7 @@
             "05vxac2llww4ba5w0dmf0hza60l5i847hfabs0q5i8kzmw4f8s8z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-nixos-options" ,emacs-nixos-options)))
+      (list emacs-company emacs-nixos-options))
     (arguments
       '(#:files ("company-nixos-options.el")))
     (home-page
@@ -15140,8 +14867,7 @@
           (base32
             "13kdwi4d1pvba6wv9yn1s0dl4cnq61zwf3j647d1s5ybqlrw5f4r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/xenodium/company-org-block")
     (synopsis "Org blocks company backend")
@@ -15165,8 +14891,7 @@
             "08hnw5dbcs4ww2ir7ilnfc6r0b123alh4l8i1mzvng0h3mvmlhgq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ac-php-core" ,emacs-ac-php-core)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-ac-php-core emacs-company))
     (arguments '(#:files ("company-php.el")))
     (home-page "https://github.com/xcwen/ac-php")
     (synopsis "A company back-end for PHP.")
@@ -15190,8 +14915,7 @@
             "0hm96i9vdbkcq6mypjpl94dn3gzyk23iql5zzy2d221vmjhqvn7d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-phpactor" ,emacs-phpactor)))
+      (list emacs-company emacs-phpactor))
     (arguments '(#:files ("company-phpactor.el")))
     (home-page
       "https://github.com/emacs-php/phpactor.el")
@@ -15216,9 +14940,7 @@
             "0xw475spfwq32nn5qz3gk22cggj1f5y245da9030vzi2jfb9vvid"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-company" ,emacs-company)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-s emacs-company emacs-dash))
     (arguments
       '(#:files ("company-plisp.el" "company-plisp.l")))
     (home-page
@@ -15245,9 +14967,7 @@
             "14rawd5xfgnkhdpp43mz4a5mf480949ny5hr5w6v5djmsibqxw5s"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-company emacs-dash emacs-s))
     (home-page
       "https://github.com/CeleritasCelery/company-plsense")
     (synopsis "Company backend for Perl")
@@ -15271,8 +14991,7 @@
             "15z6sdkg9vygczr1imk3c5v6cbpqgsvnkydzkcmxnbwnqlx1agpc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-pollen-mode" ,emacs-pollen-mode)))
+      (list emacs-company emacs-pollen-mode))
     (arguments '(#:files ("company-pollen.el")))
     (home-page
       "https://github.com/lijunsong/pollen-mode")
@@ -15298,8 +15017,7 @@
             "05q2v2faa7ydx242208wxir8fkkrr34n773fllkkp9m228hc5mv7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-posframe" ,emacs-posframe)))
+      (list emacs-company emacs-posframe))
     (home-page
       "https://github.com/tumashu/company-posframe")
     (synopsis
@@ -15324,8 +15042,7 @@
             "0ywx7q41i9pzmfgwv83mz5z17gril2s0r7y77hbbriww5yy1ihx4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-prescient" ,emacs-prescient)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-prescient emacs-company))
     (arguments '(#:files ("company-prescient.el")))
     (home-page
       "https://github.com/raxod502/prescient.el")
@@ -15350,8 +15067,7 @@
             "09d733r07gr4cxp7npyhi93xchvirxh1v00fr487v4a0mdaahpxf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-qml-mode" ,emacs-qml-mode)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-qml-mode emacs-company))
     (home-page "unspecified")
     (synopsis "Company backend for QML files")
     (description
@@ -15374,8 +15090,7 @@
             "120kvdrzbxs7idrqwz8rz59ic3ymq1b586l0qi27y7bdy2pg6njw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-pos-tip" ,emacs-pos-tip)))
+      (list emacs-company emacs-pos-tip))
     (home-page
       "https://www.github.com/expez/company-quickhelp")
     (synopsis
@@ -15400,9 +15115,7 @@
             "0kd2f1qhxmg1x9wlz1gqi5m772sk865csry6zm6xznlzbggc7h5a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company-quickhelp"
-         ,emacs-company-quickhelp)
-        ("emacs-popup" ,emacs-popup)))
+      (list emacs-company-quickhelp emacs-popup))
     (home-page
       "https://github.com/jcs-elpa/company-quickhelp-terminal")
     (synopsis
@@ -15427,8 +15140,7 @@
             "13m3yzn4xbyl13z7h1cl6vqjbzikjycy7wydpy4a44yhr466zjr5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-deferred" ,emacs-deferred)))
+      (list emacs-company emacs-deferred))
     (home-page
       "https://github.com/emacs-pe/company-racer")
     (synopsis "Company integration for racer")
@@ -15451,9 +15163,7 @@
           (base32
             "0x5zhhy70cdhbark2vm364bazg2mbwlhy7123qyq02knsjdwwqrl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-s emacs-company))
     (home-page
       "https://github.com/TheBB/company-reftex")
     (synopsis "Company backend based on RefTeX.")
@@ -15477,10 +15187,9 @@
             "0yp0hlrgcr6yy1xkjvfckys2k24x9xg7y6336ma61bdwn5lpv0x0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-know-your-http-well"
-         ,emacs-know-your-http-well)
-        ("emacs-restclient" ,emacs-restclient)))
+      (list emacs-company
+            emacs-know-your-http-well
+            emacs-restclient))
     (home-page
       "https://github.com/iquiw/company-restclient")
     (synopsis
@@ -15505,8 +15214,7 @@
             "05cigdvlq5lfahr9a1z8rvlw2s99j4pha2in59pshz9ph8cqgq10"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-rtags" ,emacs-rtags)))
+      (list emacs-company emacs-rtags))
     (arguments '(#:files ("src/company-rtags.el")))
     (home-page
       "https://github.com/Andersbakken/rtags")
@@ -15531,8 +15239,7 @@
             "1mh93l6xn9frfvw86vbvs1fz544c7ylja118iaccfl42gr2ypsw9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-company emacs-dash))
     (arguments '(#:files ("company-shell.el")))
     (home-page
       "https://github.com/Alexander-Miller/company-shell")
@@ -15558,8 +15265,7 @@
             "1vs64gwm6zn47fl4nvaizkwh8zwnqh764yqcmggyz4awsxsxg6ym"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-solidity-mode" ,emacs-solidity-mode)))
+      (list emacs-company emacs-solidity-mode))
     (arguments '(#:files ("company-solidity.el")))
     (home-page
       "https://github.com/ethereum/emacs-solidity")
@@ -15585,9 +15291,7 @@
             "18pv1hcilj7kndr7a29jjskp21khh1sd0wy01h8y8y9mf70kikg6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-sourcekit" ,emacs-sourcekit)))
+      (list emacs-company emacs-dash emacs-sourcekit))
     (arguments '(#:files ("company-sourcekit.el")))
     (home-page
       "https://github.com/nathankot/company-sourcekit")
@@ -15613,8 +15317,7 @@
             "06y4gvw8g4mjyiv77rznivqphh9sayjmi9aqr9nhxlf6i19a6hqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-stan-mode" ,emacs-stan-mode)))
+      (list emacs-company emacs-stan-mode))
     (arguments
       '(#:files
         ("company-stan/*.el"
@@ -15642,8 +15345,7 @@
           (base32
             "12mwviz1mwx4ywks2lkmybbgh1wny67wkzlq5y3ml8gvyc288n3i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/company-mode/company-statistics")
     (synopsis
@@ -15667,8 +15369,7 @@
           (base32
             "0xy2al4b888f32qmxcai2wshx4ajgkk9wnv3rdmdmianx0xmzpzh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/juergenhoetzel/company-suggest")
     (synopsis
@@ -15693,10 +15394,10 @@
             "162ca70xwmdd8lsdawzpykd6kaqfljflaxy2nwjn8f89f80ih3fg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-unicode-escape" ,emacs-unicode-escape)))
+      (list emacs-company
+            emacs-dash
+            emacs-s
+            emacs-unicode-escape))
     (home-page
       "https://github.com/TommyX12/company-tabnine/")
     (synopsis "A company-mode backend for TabNine")
@@ -15720,8 +15421,7 @@
             "0hxilq7289djrn6kgw7n926zpz0pr7iyd1wm6cy8yfhxf546a4px"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-terraform-mode" ,emacs-terraform-mode)))
+      (list emacs-company emacs-terraform-mode))
     (home-page
       "https://github.com/rafalcieslak/emacs-company-terraform")
     (synopsis "A company backend for terraform")
@@ -15745,8 +15445,7 @@
             "07c4vsrixqw6d6d2mqm6xzzzc9l9mgwgabcc6jlnw78cxij1wrsx"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-company emacs-dash))
     (home-page
       "https://github.com/Wilfred/company-try-hard")
     (synopsis
@@ -15771,10 +15470,9 @@
             "1xcwwcy2866vzaqgn7hrl7j8k48mk74i4shm40v7ybacws47s9nr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-web-completion-data"
-         ,emacs-web-completion-data)))
+      (list emacs-company
+            emacs-dash
+            emacs-web-completion-data))
     (home-page "https://github.com/osv/company-web")
     (synopsis
       "Company version of ac-html, complete for web,html,emmet,jade,slim modes")
@@ -15797,8 +15495,7 @@
           (base32
             "0iwhi1pw14finc9n9avlv79wnyl8628cmdka5j83hjv1bs2fnysw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "https://github.com/johannes-mueller/company-wordfreq.el")
     (synopsis
@@ -15822,7 +15519,7 @@
           (base32
             "0znchya89zzk30mwl4qfm0q9sfa5m3jspapb892ydj0mck5n4nyj"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ycm" ,emacs-ycm)))
+    (propagated-inputs (list emacs-ycm))
     (arguments '(#:files ("company-ycm.el")))
     (home-page "unspecified")
     (synopsis "company-ycm")
@@ -15846,12 +15543,12 @@
             "0amdz2ss953lm39yky1dv3zp20ig97mxsk7z81694bpxnhn4kxad"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ycmd" ,emacs-ycmd)
-        ("emacs-company" ,emacs-company)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-ycmd
+            emacs-company
+            emacs-deferred
+            emacs-s
+            emacs-dash
+            emacs-f))
     (arguments '(#:files ("company-ycmd.el")))
     (home-page
       "https://github.com/abingham/emacs-ycmd")
@@ -15896,8 +15593,7 @@
           (base32
             "1pmwsjwj1sb9dqy46p7ky94m9dawd79klcjg1vpl9l7mfvz5i34m"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page
       "https://github.com/sei40kr/competitive-programming-snippets")
@@ -15922,8 +15618,7 @@
           (base32
             "1b6cj5scc5n78kmdz9ch574ln91v9hj4svk6455crs8rpqgs7k47"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/mkcms/compiler-explorer.el")
     (synopsis
@@ -15991,9 +15686,7 @@
             "0iyajdlp95mii462xqy6fqbv5q7vai3ya4jip8433zwwr2pkdbsr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-php-runtime" ,emacs-php-runtime)))
+      (list emacs-s emacs-f emacs-php-runtime))
     (home-page
       "https://github.com/zonuexe/composer.el")
     (synopsis "Interface to PHP Composer")
@@ -16016,7 +15709,7 @@
           (base32
             "1zcvpj7bxry2v8whijgpqw773l3l64nrgaxdwyd053ahl0nv7mpf"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/daviderestivo/comware-router-mode")
     (synopsis
@@ -16040,8 +15733,7 @@
           (base32
             "0vz59lm7pfz0gbsgrb44y555js85wbdjn0zm6p8wfqjiqf63ds3i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)))
+    (propagated-inputs (list emacs-deferred))
     (arguments '(#:files ("concurrent.el")))
     (home-page
       "https://github.com/kiwanami/emacs-deferred/blob/master/README-concurrent.markdown")
@@ -16067,10 +15759,7 @@
             "0n1w3gx7xv84nc5hz8w1ab2ml45g64jx05cwrflf5kqmx496phms"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pythonic" ,emacs-pythonic)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-pythonic emacs-dash emacs-s emacs-f))
     (home-page "http://github.com/necaris/conda.el")
     (synopsis "Work with your conda environments")
     (description
@@ -16160,9 +15849,7 @@
             "0l7d88p010z47qhk33k8s13h9596g3dxz3mx9winsm82px8fvcpp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-flycheck emacs-hydra emacs-s))
     (home-page
       "https://github.com/odanoburu/conllu-mode")
     (synopsis "editing mode for CoNLL-U files")
@@ -16252,8 +15939,7 @@
             "1wqs6ryx7vihmcd11x6ankfrhwn6bhvkld2hw390y1bmxq30pw3n"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-consult" ,emacs-consult)))
+      (list emacs-company emacs-consult))
     (home-page
       "https://github.com/mohkale/consult-company")
     (synopsis "Consult frontend for company")
@@ -16276,8 +15962,7 @@
           (base32
             "1cff4ssrn1mw2s5n090pdmwdirnfih8idg5f0ll2bi2djc4hq5kn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-consult" ,emacs-consult)))
+    (propagated-inputs (list emacs-consult))
     (home-page
       "https://github.com/karthink/consult-dir")
     (synopsis
@@ -16302,8 +15987,7 @@
             "1jqg6sg6iaqxpfn7symiy221mg9sn4y1rn0l1rw9rj9xmcnng7s0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-eglot" ,emacs-eglot)
-        ("emacs-consult" ,emacs-consult)))
+      (list emacs-eglot emacs-consult))
     (home-page
       "https://github.com/mohkale/consult-eglot")
     (synopsis
@@ -16328,8 +16012,7 @@
             "09h9p7axy4gavzz2fn847hx2xvfxlnz4x9lpvp9arivjzn0yqrzi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-consult" ,emacs-consult)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-consult emacs-flycheck))
     (arguments '(#:files ("consult-flycheck.el")))
     (home-page "https://github.com/minad/consult")
     (synopsis
@@ -16354,8 +16037,7 @@
             "1zrxigf7bnx6l9lv2xvnn3ba6c9dndijw1vlnli56cv215i0r4f6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-consult" ,emacs-consult)
-        ("emacs-affe" ,emacs-affe)))
+      (list emacs-consult emacs-affe))
     (home-page
       "https://github.com/tomoya/consult-ghq")
     (synopsis "Ghq interface using consult")
@@ -16379,9 +16061,7 @@
             "1d4l930gwfp2syxkm129lxbvrwcqv3rz2qzb3m18v6aklk0si2db"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-consult" ,emacs-consult)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-lsp-mode emacs-consult emacs-f))
     (home-page
       "https://github.com/gagbo/consult-lsp")
     (synopsis "LSP-mode Consult integration")
@@ -16405,8 +16085,7 @@
             "1snl2qi9d7mhycz3aspqh24rgd57xnykj4378whryq0590i7ca82"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-consult" ,emacs-consult)
-        ("emacs-notmuch" ,emacs-notmuch)))
+      (list emacs-consult emacs-notmuch))
     (home-page
       "https://codeberg.org/jao/consult-notmuch")
     (synopsis "Notmuch search using consult")
@@ -16430,8 +16109,7 @@
             "1gy6vg5vrd9i0y2sck20fbqrdz0bgcr6647rvnl2nvpv3shzlsbj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-consult" ,emacs-consult)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-consult emacs-projectile))
     (arguments '(#:files ("consult-projectile.el")))
     (home-page
       "https://gitlab.com/OlMon/consult-projectile")
@@ -16455,8 +16133,7 @@
           (base32
             "0nzch4x58vgvmcjr6p622lkzms2gvjfdgpvi6bbj5qdzkln5q23a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-consult" ,emacs-consult)))
+    (propagated-inputs (list emacs-consult))
     (home-page
       "https://codeberg.org/jao/consult-recoll")
     (synopsis "Recoll queries using consult")
@@ -16480,8 +16157,7 @@
             "06wj2pixhjgqddl9g2wkv7cq9gz9yjb46cb1jrlbya3rdjyfb6h5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-consult" ,emacs-consult)
-        ("emacs-espotify" ,emacs-espotify)))
+      (list emacs-consult emacs-espotify))
     (arguments '(#:files ("consult-spotify.el")))
     (home-page "https://codeberg.org/jao/espotify")
     (synopsis "Spotify queries using consult")
@@ -16505,8 +16181,7 @@
             "019m29j9xf49shd3qnkvxx8bb20d7xavq1y5a07k5vn9lahmzhj2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-consult" ,emacs-consult)))
+      (list emacs-yasnippet emacs-consult))
     (home-page
       "https://github.com/mohkale/consult-yasnippet")
     (synopsis
@@ -16530,7 +16205,7 @@
           (base32
             "1nl2748s5x252f6sx4xpgzfdcas9ky38bnqfdx9l562agmcp9615"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/lshift-de/contextual")
     (synopsis "Contextual profile management system")
@@ -16621,8 +16296,7 @@
           (base32
             "1zxs0sgrdhzlfixahss4m3a7jx2qdkaccqkg9jbyf4vsdm17im48"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)))
+    (propagated-inputs (list emacs-transient))
     (home-page
       "https://github.com/liuyinz/emacs-conventional-changelog")
     (synopsis "Conventional Changelog Generator")
@@ -16668,8 +16342,7 @@
           (base32
             "0j205ky9djlzhgrgjw4562lz2gnpi48las66w7ll8z20zkk4ylnm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-f emacs-s))
     (home-page
       "https://github.com/emacs-php/emacs-auto-deployment")
     (synopsis
@@ -16693,7 +16366,7 @@
           (base32
             "17xqpshwc48srwljpbad7vhx3rkxqav0ygp0ff4xh7wgy21fp2mp"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments '(#:files ("copyit.el")))
     (home-page
       "https://github.com/zonuexe/emacs-copyit")
@@ -16718,8 +16391,7 @@
             "17xqpshwc48srwljpbad7vhx3rkxqav0ygp0ff4xh7wgy21fp2mp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-copyit" ,emacs-copyit)
-        ("emacs-pandoc" ,emacs-pandoc)))
+      (list emacs-copyit emacs-pandoc))
     (arguments '(#:files ("copyit-pandoc.el")))
     (home-page
       "https://github.com/zonuexe/emacs-copyit")
@@ -16743,8 +16415,7 @@
           (base32
             "1rq0j6ds9snv21k2lzyja96qxxz8nrai5aj1k1si9zshld28mapx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "http://github.com/ailrun/coq-commenter")
     (synopsis "Coq commenting minor mode for proof")
@@ -16789,7 +16460,7 @@
           (base32
             "1bkyx8sd2qqnhmmqbl9wyxk3xhrplq9zprmfpyhf5k0zin3zd31y"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ansi" ,emacs-ansi)))
+    (propagated-inputs (list emacs-ansi))
     (home-page "https://github.com/conao3/cort.el")
     (synopsis
       "Simplify extended unit test framework")
@@ -16834,9 +16505,7 @@
           (base32
             "1w8x2qk8lafnn6ksv1anixayyl476y1j6hp2amfnqmdkh0vnh63v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-swiper" ,emacs-swiper)))
+    (propagated-inputs (list emacs-ivy emacs-swiper))
     (arguments '(#:files ("counsel.el")))
     (home-page "https://github.com/abo-abo/swiper")
     (synopsis
@@ -16861,8 +16530,7 @@
             "1gfppiwx0cilg97bfb2cpdk7j10rdm473kklrkvb6wlwwg3j9w3q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-counsel emacs-transient))
     (home-page
       "https://github.com/gexplorer/counsel-ag-popup")
     (synopsis "Interactive search with counsel-ag")
@@ -16885,7 +16553,7 @@
           (base32
             "0bki658mvlchqf3prkzxz4217a95cxm58c1qmf84yp2n8h6gd0d8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/redguard/counsel-bbdb")
     (synopsis
@@ -16909,8 +16577,7 @@
           (base32
             "0crnrp5gd055gpxj4qiiwlik8llqhs5dyixfa8r8mzaxanv6bdg9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)))
+    (propagated-inputs (list emacs-counsel))
     (home-page
       "https://github.com/BlueBoxWare/counsel-chrome-bm")
     (synopsis
@@ -16935,9 +16602,7 @@
             "1qv82nvj0kddmajm6pniadnz96mqz8rhl0g2w2z5834r48higxqv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-codesearch" ,emacs-codesearch)
-        ("emacs-counsel" ,emacs-counsel)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-codesearch emacs-counsel emacs-ivy))
     (home-page
       "https://github.com/abingham/emacs-counsel-codesearch")
     (synopsis "Counsel interface for codesearch.el")
@@ -16960,8 +16625,7 @@
           (base32
             "18wncb713slsynm3amqs8ibpzfab819nn6r6yzl6yxsliahi2xil"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)))
+    (propagated-inputs (list emacs-counsel))
     (home-page
       "https://github.com/hlissner/emacs-counsel-css")
     (synopsis "stylesheet-selector-aware swiper")
@@ -16985,8 +16649,7 @@
             "1fn38vbz46ijarjvhgw7iy7dj9s2a2miy95fyy9f8b5sj8nrdfvz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash-docs" ,emacs-dash-docs)
-        ("emacs-counsel" ,emacs-counsel)))
+      (list emacs-dash-docs emacs-counsel))
     (home-page
       "https://github.com/nathankot/counsel-dash")
     (synopsis "Browse dash docsets using Ivy")
@@ -17010,9 +16673,7 @@
             "121cgrlwp7sigs26hvavgnbgmbz0fhv2cpagx73gm1vrnr306s45"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-s" ,emacs-s)
-        ("emacs-counsel" ,emacs-counsel)))
+      (list emacs-ht emacs-s emacs-counsel))
     (home-page
       "https://github.com/tyler-dodge/counsel-edit-mode")
     (synopsis
@@ -17036,8 +16697,7 @@
           (base32
             "1p651ykxbakzhwlrxcz4v62kj4f78l83f67qcghi58sq9cvwg1gi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)))
+    (propagated-inputs (list emacs-counsel))
     (home-page
       "http://github.com/redguardtoo/counsel-etags")
     (synopsis
@@ -17061,8 +16721,7 @@
           (base32
             "005l1is12jq35nn1ap87a7p74qin26zpgbk599619lh9vai157ww"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)))
+    (propagated-inputs (list emacs-counsel))
     (home-page
       "https://github.com/CsBigDataHub/counsel-fd")
     (synopsis "counsel interface for fd")
@@ -17086,8 +16745,7 @@
             "0sbp3f72dcln8y789vjdmg73lxvyb4qs4pb5mg452b3y8c8xlj30"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)
-        ("emacs-emacsql" ,emacs-emacsql)))
+      (list emacs-counsel emacs-emacsql))
     (home-page
       "https://github.com/cireu/counsel-ffdata")
     (synopsis "Use ivy to access firefox data")
@@ -17110,8 +16768,7 @@
           (base32
             "13jx6hscdcfqwzk1pcmzrv7frglcnd1ywl22ddxzzymi339r4lyj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)))
+    (propagated-inputs (list emacs-counsel))
     (home-page
       "https://github.com/FelipeLema/emacs-counsel-gtags")
     (synopsis "ivy for GNU global")
@@ -17134,9 +16791,7 @@
           (base32
             "1chfrzkqfsw1rlwkb3k7v827fwipg0cish22rr3sxxydxr7kysx5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-swiper" ,emacs-swiper)
-        ("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-swiper emacs-ivy))
     (home-page
       "https://github.com/200ok-ch/counsel-jq")
     (synopsis
@@ -17160,7 +16815,7 @@
           (base32
             "1z5qn9k68413jr946dy53l02zk2b1qx6wl5w3gp0jh34i3b6yk2y"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page "https://sr.ht/~ane/counsel-mairix")
     (synopsis "Counsel interface for Mairix")
     (description
@@ -17183,9 +16838,7 @@
             "01k1321d961kc2i660a5595bqk0d85f16snsxngsn5si6y83kqr7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-notmuch" ,emacs-notmuch)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-ivy emacs-notmuch emacs-s))
     (home-page
       "https://github.com/fuxialexander/counsel-notmuch")
     (synopsis
@@ -17209,7 +16862,7 @@
           (base32
             "1pymgwvjiagsx9dh9678x3i8ds1s7l4s182dr2p9rpjiwya48l6x"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/akirak/counsel-org-capture-string")
     (synopsis "Counsel for org-capture-string")
@@ -17232,9 +16885,7 @@
           (base32
             "1kp83cql4gn9g3d8g5mw3mrmpfj407kzpsi5wmwl1jr1pmw3v3jc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-ivy emacs-dash))
     (home-page
       "https://github.com/akirak/counsel-org-clock")
     (synopsis "Counsel commands for org-clock")
@@ -17257,7 +16908,7 @@
           (base32
             "0p3j60hjai3v8yny9zlzbxppy0pl9s3yf4x6z5rac6n86xx0iix8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/d12frosted/counsel-osx-app")
     (synopsis
@@ -17282,8 +16933,7 @@
             "1vp39r5njfzchkqv9g0w77whazp070anh9gmbkp3z4n3xxbik27f"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-counsel emacs-projectile))
     (home-page
       "https://github.com/ericdanan/counsel-projectile")
     (synopsis "Ivy integration for Projectile")
@@ -17306,7 +16956,7 @@
           (base32
             "06kf93y8wb9nwvs70xi4lkd5x4g6sl8f83diy2wl7ha657dwx3m8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/co-dh/pydoc_utils")
     (synopsis "run pydoc with counsel")
@@ -17329,7 +16979,7 @@
           (base32
             "1xrh06w3pszp4gygwsyjz7b5w2ffqmnh6rh891ydbhysp586hk0v"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/Lautaro-Garcia/counsel-spotify")
     (synopsis
@@ -17353,8 +17003,7 @@
           (base32
             "1xlcn99iizfv3wi701r6q176wicvpdsrz9k1jbyr65r6aw8am8fl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-ivy emacs-s))
     (arguments
       '(#:files (:defaults "counsel-test.el")))
     (home-page
@@ -17379,8 +17028,7 @@
           (base32
             "0pcymxi54b2jmr2k2cibak0nmcnr42spjwsavwr8598kgvkfk488"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)))
+    (propagated-inputs (list emacs-counsel))
     (home-page
       "https://github.com/masasam/emacs-counsel-tramp")
     (synopsis
@@ -17405,8 +17053,7 @@
             "1y5dnhsx5q8jvrr5hjr8cp53nvdq25c9q9im61ym75nccl9lwp4v"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-counsel" ,emacs-counsel)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-counsel emacs-request))
     (home-page
       "https://github.com/mnewt/counsel-web")
     (synopsis "Search the Web using Ivy")
@@ -17429,8 +17076,7 @@
           (base32
             "1wm6g6g5jlk3k2h2zb6mjzdnl95yr3x7hk8x1ikpbpfd4xdc64kb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-ivy emacs-s))
     (home-page
       "https://github.com/kchenphy/counsel-world-clock")
     (synopsis "Display world clock using Ivy.")
@@ -17453,8 +17099,7 @@
           (base32
             "0khwqwwsp2zhz7x2w7qcsdh5vmk3ybshj9isa6zr2ygag8aag13h"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-stream" ,emacs-stream)))
+    (propagated-inputs (list emacs-stream))
     (home-page
       "https://github.com/xuchunyang/countdown.el")
     (synopsis "Countdown using big LCD-like digits")
@@ -17472,15 +17117,13 @@
         (uri (git-reference
                (url "https://github.com/AdamNiederer/cov.git")
                (commit
-                 "aab1466ce450483b20f45be14393d79e1b008b97")))
+                 "6c951cca9867e26df316ca5dc313ceabd22070a5")))
         (sha256
           (base32
-            "1b6931da20c8llzpxvhyv3ipw192ifznp2xdvjg1dgzl51yha6pd"))))
+            "16xf7hfyq39wc363g6lqmdcl0vidk4i9wycdws17954w9gzhahq6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-elquery" ,emacs-elquery)))
+      (list emacs-f emacs-s emacs-elquery))
     (home-page "https://github.com/AdamNiederer/cov")
     (synopsis "Show coverage stats in the fringe.")
     (description
@@ -17502,7 +17145,7 @@
           (base32
             "1l2vpyv22f77r2nd1bxf4mggmarb621dl7fnskp5hizhc5sfxi4f"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ov" ,emacs-ov)))
+    (propagated-inputs (list emacs-ov))
     (home-page
       "https://github.com/trezona-lecomte/coverage")
     (synopsis "Code coverage line highlighting")
@@ -17705,8 +17348,7 @@
             "1d1m1lgc93fkg7dxb8d6ch68vh6w1zp3yy31bv78vaz8siqrmk16"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-lsp-mode emacs-dash))
     (home-page
       "https://github.com/jacobdufault/cquery")
     (synopsis "cquery client for lsp-mode")
@@ -17750,8 +17392,7 @@
           (base32
             "01q1l8ajw6lpp1bb4yp8r70d86hcl4hy0mz7x1hzqsvb7flhppp0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-autothemer" ,emacs-autothemer)))
+    (propagated-inputs (list emacs-autothemer))
     (home-page
       "http://github.com/emacsfodder/emacs-theme-creamsody")
     (synopsis "Straight from the soda fountain.")
@@ -17796,8 +17437,7 @@
           (base32
             "0l4bvk3m355b25d7pdnhczn3fckbq0rg2l4r0a0d94004ksvylqa"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://github.com/ardumont/emacs-creds")
     (synopsis
@@ -17821,9 +17461,7 @@
           (base32
             "18c4jfjnhb7asdhwj41g06cp9rz5xd7bbx2s1xvk6gahay27rlrv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-noflet" ,emacs-noflet)
-        ("emacs-kv" ,emacs-kv)))
+    (propagated-inputs (list emacs-noflet emacs-kv))
     (arguments '(#:files ("creole.el")))
     (home-page "unspecified")
     (synopsis
@@ -17870,10 +17508,7 @@
             "1s77a2lfy7nnaxm3ai9dg8lbdxp0892z4gr0yxqrgzawc4qcbb3x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-enlive" ,emacs-enlive)
-        ("emacs-f" ,emacs-f)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-enlive emacs-f emacs-dash emacs-s))
     (home-page
       "https://github.com/lepisma/cricbuzz.el")
     (synopsis
@@ -18031,8 +17666,7 @@
           (base32
             "19bla2xhvr34vi33cibr2pc8jgasbwjj24vwnwx25w9471sbaszi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-crystal-mode" ,emacs-crystal-mode)))
+    (propagated-inputs (list emacs-crystal-mode))
     (home-page
       "https://github.com/jasonrobot/crystal-playground")
     (synopsis
@@ -18074,10 +17708,10 @@
         (uri (git-reference
                (url "https://github.com/emacs-csharp/csharp-mode.git")
                (commit
-                 "9917e1b97d6a374c8043124817142ea3419a649b")))
+                 "856ecbc0a78ae3bdc2db2ae4d16be43e2d9d9c5e")))
         (sha256
           (base32
-            "0wfd4jdjsq8qp6pavf25y87dxvlnsqapfi4c4m3xj24baalr2dpq"))))
+            "18s3vj4hkxdmzbch4zh943p4fbm721kmh91vdkc2fjgpilr2imk3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-csharp/csharp-mode")
@@ -18102,10 +17736,10 @@
             "12k3z7azwbg11gs8sc8j6h0rb3zy3kw19z6l9ynxys4vzm9ln7dm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-shut-up" ,emacs-shut-up)
-        ("emacs-multi" ,emacs-multi)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-highlight" ,emacs-highlight)))
+      (list emacs-shut-up
+            emacs-multi
+            emacs-dash
+            emacs-highlight))
     (arguments
       '(#:files
         (:defaults
@@ -18273,9 +17907,7 @@
           (base32
             "0230h5qvg5jbpyry4xxmh41c0wpinmm04k5hc1qsc2mvqhv3n9n5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-hsluv" ,emacs-hsluv)))
+    (propagated-inputs (list emacs-dash emacs-hsluv))
     (home-page "https://github.com/neeasade/ct.el")
     (synopsis "Color Tools - a color api")
     (description
@@ -18437,9 +18069,7 @@
             "1jlr2miwqsg06hk2clvsrw9fa98m2n76qfq8qv5svrb8dpil04wb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-popup emacs-log4e emacs-yaxception))
     (home-page
       "https://github.com/aki2o/emacs-ctxmenu")
     (synopsis
@@ -18509,8 +18139,7 @@
           (base32
             "184plai32sn0indvi1dma6ykz907zgnrdyxdw6f5mghwca96g5kx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pcre2el" ,emacs-pcre2el)))
+    (propagated-inputs (list emacs-pcre2el))
     (home-page "http://orthogonal.me")
     (synopsis "Jump to cucumber step definition")
     (description
@@ -18690,8 +18319,7 @@
           (base32
             "0507acyr9h4646scx316niq27vir6hl2gsgz7wdbiw0cb2drfkd1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yaml-mode" ,emacs-yaml-mode)))
+    (propagated-inputs (list emacs-yaml-mode))
     (home-page "https://github.com/tom-tan/cwl-mode")
     (synopsis "A major mode for editing CWL")
     (description
@@ -18865,10 +18493,10 @@
         (uri (git-reference
                (url "https://github.com/cython/cython.git")
                (commit
-                 "43fbed5c38291b6bbb84bfa6261de581bc547f31")))
+                 "fcabbe3d8cff75a34cf1cda27c1f5d3fc37720e4")))
         (sha256
           (base32
-            "0wafrn8xxqfairncf79c65k1sjyyyr1xbll81h4xa66r1lmh2p8i"))))
+            "1rcd0j4p0g4ysc2cxhfjn924wnfp8dwvkiw4wzga01y028pa1j9n"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("Tools/*.el")))
     (home-page "unspecified")
@@ -19070,13 +18698,13 @@
             "1i4rz1lp78wzn8x9xgjar8h66csdkf5836ny8lwd68m7z5gh0w21"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-company" ,emacs-company)
-        ("emacs-haskell-mode" ,emacs-haskell-mode)
-        ("emacs-s" ,emacs-s)
-        ("emacs-lcr" ,emacs-lcr)))
+      (list emacs-dash
+            emacs-f
+            emacs-flycheck
+            emacs-company
+            emacs-haskell-mode
+            emacs-s
+            emacs-lcr))
     (home-page "https://github.com/jyp/dante")
     (synopsis "Development mode for Haskell")
     (description
@@ -19099,14 +18727,14 @@
             "0q37nnxvb362pni0nralb6cpw7vvaj0kw63y8zpip8szwj9yqrki"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-bui" ,emacs-bui)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-lsp-treemacs" ,emacs-lsp-treemacs)
-        ("emacs-posframe" ,emacs-posframe)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-dash
+            emacs-lsp-mode
+            emacs-bui
+            emacs-f
+            emacs-s
+            emacs-lsp-treemacs
+            emacs-posframe
+            emacs-ht))
     (arguments '(#:files (:defaults "icons")))
     (home-page
       "https://github.com/emacs-lsp/dap-mode")
@@ -19307,8 +18935,7 @@
           (base32
             "00ijwqchvrwln2wl3nfcq5v3i2p232z4qsy67x1v51q20876mc9j"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-autothemer" ,emacs-autothemer)))
+    (propagated-inputs (list emacs-autothemer))
     (home-page
       "http://github.com/emacsfodder/emacs-theme-darktooth")
     (synopsis "From the darkness... it watches")
@@ -19353,9 +18980,7 @@
             "06v4gbckfgdl7hbppgv15ynsxq37qqdw1h8yzicwjqgylma0if1y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-flycheck emacs-s))
     (home-page
       "https://github.com/bradyt/dart-server")
     (synopsis "Minor mode for editing Dart files")
@@ -19445,8 +19070,7 @@
           (base32
             "06yp1p0ir67vb2rpva6wvk3vyfxzl0bmrixikawwk6l2bph2z1x3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)))
+    (propagated-inputs (list emacs-async))
     (home-page "http://github.com/areina/helm-dash")
     (synopsis
       "Offline documentation browser using Dash docsets.")
@@ -19469,7 +19093,7 @@
           (base32
             "14fwib33l32fmmjr03zyk9xynblrkggb1b47x2ihh6jfxq8i9qm1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("dash-functional.el")))
     (home-page "https://github.com/magnars/dash.el")
     (synopsis
@@ -19518,8 +19142,7 @@
             "1dvv10xn2mh0nh85cd78y23cn8p9ygdhj4k7xs4fa6r7bhp0xvqm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dashboard" ,emacs-dashboard)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dashboard emacs-request))
     (home-page
       "https://github.com/hyakt/emacs-dashboard-hackernews")
     (synopsis "Display Hacker News on dashboard")
@@ -19543,9 +19166,7 @@
             "149a0lhdfqm8rv78yi5v3a6ndrf44m2zv4f3mphzalmq4wslvmww"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dashboard" ,emacs-dashboard)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dashboard emacs-f emacs-s))
     (home-page
       "https://github.com/emacs-dashboard/dashboard-ls")
     (synopsis
@@ -19570,8 +19191,7 @@
             "1sbjrc1l57q2ifmw6pf3n105qk3q7rskqy9811qijpsbcl1m819d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-git" ,emacs-git)
-        ("emacs-dashboard" ,emacs-dashboard)))
+      (list emacs-git emacs-dashboard))
     (home-page
       "https://github.com/functionreturnfunction/dashboard-project-status")
     (synopsis
@@ -19619,9 +19239,7 @@
             "1lmwnj2fnvijj9qp4rjggl7c4x91vnpb47rqaam6m2wmr5wbrx3w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-dash emacs-log4e emacs-yaxception))
     (home-page
       "https://github.com/aki2o/emacs-date-field")
     (synopsis "Date widget")
@@ -19667,8 +19285,7 @@
           (base32
             "1qz06p8jdkhs9cfqxiwj4srdlrbjsydwimg58zxhrp679nyv0pf4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-extmap" ,emacs-extmap)))
+    (propagated-inputs (list emacs-extmap))
     (arguments '(#:files (:defaults "*.extmap")))
     (home-page "https://github.com/doublep/datetime")
     (synopsis
@@ -19716,9 +19333,7 @@
             "1nvng479sy7ykwy9a86qq48yzv8n0903g724srhf42v9c81fc9s7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-s emacs-dash emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page "unspecified")
     (synopsis "Yasnippets for Datomic")
@@ -19742,9 +19357,7 @@
             "1j0mk8vyr6sniliq0ix77jldx8vzl73nd5yhh82klzgyymal58ms"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-uuid" ,emacs-uuid)
-        ("emacs-mustache" ,emacs-mustache)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-uuid emacs-mustache emacs-ht))
     (arguments '(#:files ("*.el" "*.mustache")))
     (home-page
       "https://github.com/mori-dev/emacs-dayone")
@@ -19768,7 +19381,7 @@
           (base32
             "0syv4kr319d34yqi4q61b8jh5yy22wvd148x1m3pc511znh2ry5k"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-kv" ,emacs-kv)))
+    (propagated-inputs (list emacs-kv))
     (arguments '(#:files ("db.el")))
     (home-page "unspecified")
     (synopsis "A database for EmacsLisp")
@@ -19791,8 +19404,7 @@
           (base32
             "15r0qwjkl33p8kh2k5kxz9wnbkv1k470b1h0i6svvljkx9ynk68a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pg" ,emacs-pg) ("emacs-db" ,emacs-db)))
+    (propagated-inputs (list emacs-pg emacs-db))
     (home-page "unspecified")
     (synopsis "A PostgreSQL adapter for emacs-db")
     (description
@@ -19814,7 +19426,7 @@
           (base32
             "1bkiwg1wp3l904159gycdr83xkb3i0h2k0da7akzkwc957abvp8w"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ht" ,emacs-ht)))
+    (propagated-inputs (list emacs-ht))
     (home-page
       "https://gitlab.com/matsievskiysv/display-buffer-control")
     (synopsis "Control how to open buffers")
@@ -19837,9 +19449,7 @@
           (base32
             "1gk1sx6lhf8qxq5qfynn07yxn5qv34l42q2mqwpv5z4by6wf5p9a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ccc" ,emacs-ccc)
-        ("emacs-cdb" ,emacs-cdb)))
+    (propagated-inputs (list emacs-ccc emacs-cdb))
     (arguments
       '(#:files
         ("context-skk.el"
@@ -19872,8 +19482,7 @@
             "1rsy0wjncxzjhis8jrxpxjh9l9pw0bngg1sb4dj5qvhsgszhawpn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-posframe" ,emacs-posframe)
-        ("emacs-ddskk" ,emacs-ddskk)))
+      (list emacs-posframe emacs-ddskk))
     (home-page
       "https://github.com/conao3/ddskk-posframe.el")
     (synopsis
@@ -19898,9 +19507,7 @@
             "045j8jl4cdwp45qxsxlzykqh5iz3z7njl3qb9fdz9bspa659db4r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-spinner" ,emacs-spinner)))
+      (list emacs-dash emacs-s emacs-spinner))
     (home-page "https://github.com/Wilfred/deadgrep")
     (synopsis
       "fast, friendly searching with ripgrep")
@@ -19945,8 +19552,7 @@
           (base32
             "1wi70r56pd5z0x4dp4m58p9asq03j74kdm4fi9vai83vsl2z9amq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-xml-rpc" ,emacs-xml-rpc)))
+    (propagated-inputs (list emacs-xml-rpc))
     (home-page
       "http://github.com/alezost/debpaste.el")
     (synopsis
@@ -20014,7 +19620,7 @@
           (base32
             "1ns1ni6aalr541df3a0ylqy0gj68fcsxdfvm4m1ga5532kxnswnj"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("decl.el")))
     (home-page
       "https://github.com/preetpalS/decl.el")
@@ -20177,13 +19783,12 @@
             "14bm85a5im3m910gsmp220brqrlm4190zl9qbvqmp180c63j43yc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-request" ,emacs-request)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-pos-tip" ,emacs-pos-tip)
-        ("emacs-google-translate"
-         ,emacs-google-translate)
-        ("emacs-wiki-summary" ,emacs-wiki-summary)))
+      (list emacs-s
+            emacs-request
+            emacs-popup
+            emacs-pos-tip
+            emacs-google-translate
+            emacs-wiki-summary))
     (home-page
       "https://github.com/jcs-elpa/define-it")
     (synopsis "Define, translate, wiki the word")
@@ -20252,7 +19857,7 @@
           (base32
             "1fync4i8ds718pdr2v25ily71jng0506hw5k9qpa0a533nsh7p30"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "http://github.com/alphapapa/defrepeater.el")
     (synopsis "Easily make commands repeatable")
@@ -20409,8 +20014,7 @@
           (base32
             "13fasbhdjwc4jh3cy25gm5sbbg56hq8la271098qpx6dhqm2wycq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yabin" ,emacs-yabin)))
+    (propagated-inputs (list emacs-yabin))
     (home-page
       "https://github.com/netromdk/describe-number")
     (synopsis
@@ -20434,8 +20038,7 @@
           (base32
             "1nkljslx8cwmm4z18mhnwrc1lmd6lxdyhk8bwhzms7g1p6yi99d8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-dash emacs-f))
     (home-page
       "https://github.com/ffevotte/desktop-plus")
     (synopsis
@@ -20617,8 +20220,7 @@
           (base32
             "1vp8cjkkiih7cz5d8kcpc2ysq3iz4wr5wi2lkkkhp94k04jl5h1r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page "https://github.com/psibi/dhall-mode")
     (synopsis
       "Major mode for the dhall configuration language")
@@ -20685,9 +20287,7 @@
           (base32
             "0g8kzaxjka7n9jdldh45m22nizgv0m0v94ns7vmmhf1hpsf3zfxz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-w3m" ,emacs-w3m)
-        ("emacs-stem" ,emacs-stem)))
+    (propagated-inputs (list emacs-w3m emacs-stem))
     (home-page "unspecified")
     (synopsis "look up dictionaries on the Internet")
     (description
@@ -20709,7 +20309,7 @@
           (base32
             "0lsqf199gxsgdldmizf7frn8ngbn3fjj81lc8lx30l3ib7d40493"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page "unspecified")
     (synopsis "Look up translations on dict.cc")
     (description
@@ -20732,8 +20332,7 @@
             "1vm9m36ab7hs58xqzr4g8lp2s78qzlcsy57f8yajrhibwfh5jrs6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-connection" ,emacs-connection)
-        ("emacs-link" ,emacs-link)))
+      (list emacs-connection emacs-link))
     (arguments '(#:files ("dictionary.el")))
     (home-page "unspecified")
     (synopsis
@@ -20823,8 +20422,7 @@
           (base32
             "1qagl3ffg01zjqrgpq32h4ya869066n8ll9yq8lk40argjm523fa"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ht" ,emacs-ht) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-ht emacs-s))
     (home-page
       "http://github.com/dieggsy/difflib.el")
     (synopsis
@@ -20848,8 +20446,7 @@
           (base32
             "0bd09ljvlzffb02fgcvjjvysrj762a1wfvad0ywph4722dvnjfn0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)))
+    (propagated-inputs (list emacs-transient))
     (home-page
       "https://github.com/ShuguangSun/diffpdf.el")
     (synopsis "Transient diffpdf")
@@ -20937,7 +20534,7 @@
           (base32
             "1ss8ym7zayhvyrl4lzxjqiy8azx2zciwcp1x6s8vw649gmyi98jc"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/adamsmd/digit-groups/")
     (synopsis
@@ -20961,8 +20558,7 @@
           (base32
             "08708nfqfgcd6hzh91li0yhr4kz9lxw6i80brlnis9bfk3cs4m9x"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/olymk2/emacs-digitalocean")
     (synopsis
@@ -20987,8 +20583,7 @@
             "072v1800gjv566fqjxp8dvzkilwhbvl7lc5fqc0mr4xw8lpldkx9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-digitalocean" ,emacs-digitalocean)))
+      (list emacs-helm emacs-digitalocean))
     (home-page
       "https://gitlab.com/olymk2/digitalocean-api")
     (synopsis
@@ -21013,8 +20608,7 @@
             "0hjscamqn70b0npj69ajycd0kld98bqkcjfnsgrmk97w367719lp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-enlive" ,emacs-enlive)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-enlive emacs-dash))
     (home-page
       "https://github.com/DaniruKun/dilbert-el")
     (synopsis "View Dilbert comics")
@@ -21081,8 +20675,7 @@
           (base32
             "1cm4l2ycaw47mfgc6ms021zxkas1jajgwpnykqlkcwcbakbczxjl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dylan" ,emacs-dylan)))
+    (propagated-inputs (list emacs-dylan))
     (arguments '(#:files ("dime*.el")))
     (home-page "https://opendylan.org/")
     (synopsis "Dylan interaction mode")
@@ -21175,11 +20768,11 @@
             "1g6p9cr3p85i7ay3jmvn7f8c5k8d49fcynb3ymns7rgsf3ypvpyc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-libmpdee" ,emacs-libmpdee)
-        ("emacs-alert" ,emacs-alert)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-pkg-info" ,emacs-pkg-info)))
+      (list emacs-libmpdee
+            emacs-alert
+            emacs-s
+            emacs-dash
+            emacs-pkg-info))
     (home-page
       "https://github.com/nlamirault/dionysos")
     (synopsis "Dionysos, a music player for Emacs")
@@ -21202,8 +20795,7 @@
           (base32
             "07hhy41h1qx38rrf6f9b2r13chs3v4mzyplhpx1r6wjrj0nmh2pv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-treeview" ,emacs-treeview)))
+    (propagated-inputs (list emacs-treeview))
     (home-page
       "https://github.com/tilmanrassy/emacs-dir-treeview")
     (synopsis
@@ -21273,9 +20865,7 @@
             "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-dired-hacks-utils"
-         ,emacs-dired-hacks-utils)))
+      (list emacs-dash emacs-dired-hacks-utils))
     (arguments '(#:files ("dired-avfs.el")))
     (home-page "unspecified")
     (synopsis "AVFS support for dired")
@@ -21299,10 +20889,7 @@
             "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-dired-hacks-utils"
-         ,emacs-dired-hacks-utils)))
+      (list emacs-dash emacs-f emacs-dired-hacks-utils))
     (arguments '(#:files ("dired-collapse.el")))
     (home-page "unspecified")
     (synopsis
@@ -21441,10 +21028,7 @@
             "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-dired-hacks-utils"
-         ,emacs-dired-hacks-utils)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-dash emacs-dired-hacks-utils emacs-f))
     (arguments '(#:files ("dired-filter.el")))
     (home-page "unspecified")
     (synopsis "Ibuffer-like filtering for dired")
@@ -21468,10 +21052,10 @@
             "134f97zk7q2fvqphfgbjdbwlgrrnq51v0zrv6aw8c8n7fln5ap93"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-async-await" ,emacs-async-await)
-        ("emacs-async" ,emacs-async)
-        ("emacs-all-the-icons" ,emacs-all-the-icons)
-        ("emacs-ppp" ,emacs-ppp)))
+      (list emacs-async-await
+            emacs-async
+            emacs-all-the-icons
+            emacs-ppp))
     (home-page
       "https://github.com/conao3/dired-git.el")
     (synopsis "Git integration for dired")
@@ -21494,7 +21078,7 @@
           (base32
             "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("dired-hacks-utils.el")))
     (home-page "unspecified")
     (synopsis
@@ -21660,9 +21244,7 @@
             "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-dired-hacks-utils"
-         ,emacs-dired-hacks-utils)))
+      (list emacs-dash emacs-dired-hacks-utils))
     (arguments '(#:files ("dired-narrow.el")))
     (home-page "unspecified")
     (synopsis
@@ -21687,9 +21269,7 @@
             "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-dired-hacks-utils"
-         ,emacs-dired-hacks-utils)))
+      (list emacs-dash emacs-dired-hacks-utils))
     (arguments '(#:files ("dired-open.el")))
     (home-page "unspecified")
     (synopsis
@@ -21713,8 +21293,7 @@
           (base32
             "0k633fz5gccza5l3dydn55yg4r1a50bgcmxwxn89qc7cd8dck75v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-posframe" ,emacs-posframe)))
+    (propagated-inputs (list emacs-posframe))
     (home-page
       "https://github.com/conao3/dired-posframe.el")
     (synopsis "Peep dired items using posframe")
@@ -21737,8 +21316,7 @@
           (base32
             "01zdha3p7wsf98yayvwgpd4arcs7yhz62yk1nyq9n13hvmqg7dvk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-hydra" ,emacs-hydra)))
+    (propagated-inputs (list emacs-hydra))
     (home-page
       "https://gitlab.com/xuhdev/dired-quick-sort#dired-quick-sort")
     (synopsis
@@ -21763,9 +21341,7 @@
             "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-dired-hacks-utils"
-         ,emacs-dired-hacks-utils)))
+      (list emacs-dash emacs-dired-hacks-utils))
     (arguments '(#:files ("dired-rainbow.el")))
     (home-page "unspecified")
     (synopsis
@@ -21790,9 +21366,7 @@
             "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-dired-hacks-utils"
-         ,emacs-dired-hacks-utils)))
+      (list emacs-dash emacs-dired-hacks-utils))
     (arguments '(#:files ("dired-ranger.el")))
     (home-page "unspecified")
     (synopsis
@@ -21883,8 +21457,7 @@
           (base32
             "0fhbpy9y89jm03hjqp317h0aj9iasbdan0h829rhjhga11x8rw2y"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://github.com/stsquad/dired-rsync")
     (synopsis "Allow rsync from dired buffers")
@@ -21907,8 +21480,7 @@
           (base32
             "1lqnd64ga7g8dzzgfn2bw00y65hlvlgxnj3bk7j6qr5wzkz6qp52"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dired-subtree" ,emacs-dired-subtree)))
+    (propagated-inputs (list emacs-dired-subtree))
     (home-page
       "https://github.com/jojojames/dired-sidebar")
     (synopsis "Tree browser leveraging dired")
@@ -21955,9 +21527,7 @@
             "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-dired-hacks-utils"
-         ,emacs-dired-hacks-utils)))
+      (list emacs-dash emacs-dired-hacks-utils))
     (arguments '(#:files ("dired-subtree.el")))
     (home-page "unspecified")
     (synopsis
@@ -22027,8 +21597,7 @@
             "19ygbq9gibl0pj9663r77w3y00wpw7dpr1zh983w5nj57fa0im3p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ess" ,emacs-ess)
-        ("emacs-ess-view-data" ,emacs-ess-view-data)))
+      (list emacs-ess emacs-ess-view-data))
     (home-page
       "https://github.com/ShuguangSun/dired-view-data")
     (synopsis "View data from dired via ESS and R")
@@ -22051,8 +21620,7 @@
           (base32
             "06vy5wgrv0sjdnsx31jg1c12wwzxpkgb2xz1djzi5pbhakidspv3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-key-assist" ,emacs-key-assist)))
+    (propagated-inputs (list emacs-key-assist))
     (home-page
       "https://github.com/Boruch-Baum/emacs-diredc")
     (synopsis "Extensions for dired")
@@ -22118,7 +21686,7 @@
           (base32
             "0cf5npgksl9a03mnfdhfdhlf46gr9qz9adjxz3dbckq9b1vl0dfc"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/wbolster/emacs-direnv")
     (synopsis "Support for direnv")
@@ -22162,8 +21730,7 @@
           (base32
             "0swdh0qynpijsv6a2d308i42hfa0jwqsnmf4sm8vrhaf3vv25f5h"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-direx" ,emacs-direx)))
+    (propagated-inputs (list emacs-direx))
     (home-page "https://github.com/aki2o/direx-grep")
     (synopsis
       "Grep node of direx.el using incremental search like anything.el/helm.el")
@@ -22187,8 +21754,7 @@
             "0abs3r4zzfnf4igiakrv3bpyxz7qlnw26l57rynsk7c3w3s5ya29"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-tree-mode" ,emacs-tree-mode)
-        ("emacs-windata" ,emacs-windata)))
+      (list emacs-tree-mode emacs-windata))
     (home-page "unspecified")
     (synopsis "Directory tree views")
     (description
@@ -22211,8 +21777,7 @@
             "1m8zvrv5aws7b0dffk8y6b5mncdk2c4k90mx69jys10fs0gc5hb3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-prosjekt" ,emacs-prosjekt)
-        ("emacs-dirtree" ,emacs-dirtree)))
+      (list emacs-prosjekt emacs-dirtree))
     (arguments
       '(#:files
         ("prosjekt/ext/dirtree/dirtree-prosjekt.el")))
@@ -22238,8 +21803,7 @@
           (base32
             "02bbrlylnlrql5w1n1rv34rbah1plff41x5ablw872kncb0qxvvn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-posframe" ,emacs-posframe)))
+    (propagated-inputs (list emacs-posframe))
     (home-page
       "https://github.com/alexluigit/dirvish")
     (synopsis
@@ -22308,9 +21872,7 @@
           (base32
             "1p4crd7v94hmqzqh8bc7jx1pfhallmj4kn36f8l22z4r2mkyycxc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-request emacs-s))
     (home-page
       "https://github.com/lujun9972/discourse-api")
     (synopsis "discourse api")
@@ -22333,8 +21895,7 @@
           (base32
             "0f7h2rhh37lrs6xclj182li6s1fawv5m8w3hgy6qgm06dam45lka"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-makey" ,emacs-makey)))
+    (propagated-inputs (list emacs-makey))
     (home-page "unspecified")
     (synopsis "discover more of Emacs")
     (description
@@ -22357,8 +21918,7 @@
             "0l2g58f55p8zmzv2q2hf163ggm9p0wk8hg93wlkyldrgyb94dgf4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-clj-refactor" ,emacs-clj-refactor)
-        ("emacs-discover" ,emacs-discover)))
+      (list emacs-clj-refactor emacs-discover))
     (home-page "unspecified")
     (synopsis
       "Adds discover context menu for clj-refactor")
@@ -22382,8 +21942,7 @@
             "1vnbn4asz3lifscvy4shzisl6r0gkgq0qsa3kpgif3853wcd2rvn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-js2-refactor" ,emacs-js2-refactor)
-        ("emacs-discover" ,emacs-discover)))
+      (list emacs-js2-refactor emacs-discover))
     (home-page "unspecified")
     (synopsis
       "Adds discover context menu for js2-refactor")
@@ -22406,8 +21965,7 @@
           (base32
             "1lhjrknxw928vmw5h59q98sarh5pwjn0fpdyr38sql5zyv0ikc6w"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-makey" ,emacs-makey)))
+    (propagated-inputs (list emacs-makey))
     (home-page
       "https://framagit.org/steckerhalter/discover-my-major")
     (synopsis
@@ -22454,7 +22012,7 @@
           (base32
             "075gj81rnhrvv061wnldixpfmlsyfbnvacnk107z6f9v3m2m3vl1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "http://projects.ryuslash.org/dispass.el/")
     (synopsis "Emacs wrapper for DisPass")
@@ -22522,7 +22080,7 @@
           (base32
             "09rp83d81y9mm81isrwvacl21vgah7nhi5r4j2xbp13kgdn7my1w"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/emacs-php/dist-file-mode.el")
     (synopsis "Dispatch major mode for *.dist files")
@@ -22637,9 +22195,7 @@
           (base32
             "0l7ls9967km1vsmhqqrmbyykc6hx21frz5pjr8znasz5yhflbzwg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dix" ,emacs-dix)
-        ("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-dix emacs-evil))
     (arguments '(#:files ("dix-evil.el")))
     (home-page "http://wiki.apertium.org/wiki/Emacs")
     (synopsis
@@ -22708,8 +22264,7 @@
           (base32
             "0yi38aif1n0s9yp87wimdbnq7vr7k5gbshfprj9ansibrjxnb6xk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-hydra" ,emacs-hydra)))
+    (propagated-inputs (list emacs-hydra))
     (home-page "unspecified")
     (synopsis
       "Django minor mode for commanding manage.py")
@@ -22733,9 +22288,7 @@
             "0xf33ri5phy2mrb1dwvqb8waba33gj9bwmf6jhl6n0ksm43x0z40"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-s" ,emacs-s)
-        ("emacs-helm-make" ,emacs-helm-make)))
+      (list emacs-projectile emacs-s emacs-helm-make))
     (arguments
       '(#:files ("*.el" (:exclude "*-snippets.el"))))
     (home-page "unspecified")
@@ -22759,8 +22312,7 @@
           (base32
             "0xf33ri5phy2mrb1dwvqb8waba33gj9bwmf6jhl6n0ksm43x0z40"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments
       '(#:files ("django-snippets.el" "snippets")))
     (home-page
@@ -22809,10 +22361,10 @@
             "1bka2nj2hqhpjiwdghp56y7z3jdxrpqw10s9divpa910mk33vay8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit-popup" ,emacs-magit-popup)
-        ("emacs-pythonic" ,emacs-pythonic)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-magit-popup
+            emacs-pythonic
+            emacs-f
+            emacs-s))
     (home-page
       "https://github.com/proofit404/djangonaut")
     (synopsis
@@ -22858,8 +22410,7 @@
           (base32
             "1nbvdnw9g3zbbb0n2sn2kxfzs5wichhl9qid3qjp8dsiq1wpv459"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dkmisc" ,emacs-dkmisc)))
+    (propagated-inputs (list emacs-dkmisc))
     (arguments
       '(#:files ("*.el" "*.texi" "dir" "*.do")))
     (home-page "https://github.com/davidkeegan/dkdo")
@@ -22908,8 +22459,7 @@
             "063nnln5m42qf190vr2z0ibacyn7n0xkxm3v5vaa4gxdvdwzhshs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dkmisc" ,emacs-dkmisc)
-        ("emacs-ledger-mode" ,emacs-ledger-mode)))
+      (list emacs-dkmisc emacs-ledger-mode))
     (arguments
       '(#:files ("*.el" "*.texi" "dir" "*.py")))
     (home-page
@@ -23047,8 +22597,7 @@
           (base32
             "1nbm3wzd12rsrhnwlcc6b72b1ala328mfpcp5bwlfcdshw6mfcrq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments
       '(#:files ("docbook-snippets.el" "snippets")))
     (home-page
@@ -23073,8 +22622,7 @@
           (base32
             "1fzs6k76nyz2xjvydks6v6d2ib7qqj181s7c8r57w9ylr2zqfacj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/emacs-pe/docean.el")
     (synopsis
@@ -23099,12 +22647,12 @@
             "1ivyvgh24nadhiv9ffqxckwln8vc9c2l0bvrvrd53yf0w8i345yz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-docker-tramp" ,emacs-docker-tramp)
-        ("emacs-json-mode" ,emacs-json-mode)
-        ("emacs-s" ,emacs-s)
-        ("emacs-tablist" ,emacs-tablist)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-dash
+            emacs-docker-tramp
+            emacs-json-mode
+            emacs-s
+            emacs-tablist
+            emacs-transient))
     (home-page "https://github.com/Silex/docker.el")
     (synopsis "Emacs interface to Docker")
     (description
@@ -23127,9 +22675,7 @@
             "0phmpranrgdi2gi89nxr1ii9xbr7h2ccpx1mkpnfxnjlzkdzq2fb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-request" ,emacs-request)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-request emacs-s))
     (home-page
       "https://github.com/Silex/docker-api.el")
     (synopsis "Emacs interface to the Docker API")
@@ -23175,8 +22721,7 @@
             "123msjiw5jsgmb5r1vmp3h2m4qia2pjg9wrb9cjhi3fjlspk9x2d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-yaml-mode" ,emacs-yaml-mode)))
+      (list emacs-dash emacs-yaml-mode))
     (arguments
       '(#:files
         (:defaults
@@ -23251,11 +22796,11 @@
             "0vkmgfgw8qica21hcqila62ivqxshkay2r2dyy4dxxj3xypk3083"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-parsec" ,emacs-parsec)
-        ("emacs-s" ,emacs-s)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-dash
+            emacs-f
+            emacs-parsec
+            emacs-s
+            emacs-transient))
     (arguments '(#:files (:defaults "src/*.el")))
     (home-page "https://github.com/r0man/docopt.el")
     (synopsis "A Docopt implementation in Elisp")
@@ -23278,7 +22823,7 @@
           (base32
             "1pqs4z97vs6s08g7pfbp3qqjx1q3z09lrjdzxjb24vrcfkki9cmi"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments '(#:files (:defaults "langs/*.el")))
     (home-page "https://github.com/jcs-elpa/docstr")
     (synopsis "A document string minor mode")
@@ -23348,8 +22893,7 @@
           (base32
             "0vqx8npw0i02dhw2yb7s4z7njw60r3xyncw4z8l6fj99pp6pfh15"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-xml-rpc" ,emacs-xml-rpc)))
+    (propagated-inputs (list emacs-xml-rpc))
     (home-page
       "http://www.github.com/accidentalrebel/emacs-dokuwiki")
     (synopsis
@@ -23395,7 +22939,7 @@
           (base32
             "1xyqsnymgdd8ic3az2lgwv7s7vld6d4pcycb234bxm4in9fixgdj"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "unspecified")
     (synopsis "simple text templates")
     (description
@@ -23464,9 +23008,9 @@
             "1g2pj7bay7asxiybk1ivriz4g1lfvhxcw910685j11hys8ss5lig"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)
-        ("emacs-shrink-path" ,emacs-shrink-path)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-all-the-icons
+            emacs-shrink-path
+            emacs-dash))
     (home-page
       "https://github.com/seagle0128/doom-modeline")
     (synopsis "A minimal and modern mode-line")
@@ -23490,8 +23034,7 @@
             "1namv6qfmf5xxwbhsl5887cp41y8krr7g9vf3dzvi5n924ixlm2l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-doom-modeline" ,emacs-doom-modeline)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-doom-modeline emacs-async))
     (home-page
       "https://github.com/elken/doom-modeline-now-playing")
     (synopsis
@@ -23508,14 +23051,19 @@
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/hlissner/emacs-doom-themes.git")
+               (url "https://github.com/doomemacs/themes.git")
                (commit
                  "7d1a56623c08da769fd424e901916e9c3d8fdb25")))
         (sha256
           (base32
             "1ifwb8mw0jcif3plj6wz9ak2ankpvxfqndv6qlcr6yij7xvi9qnk"))))
     (build-system melpa-build-system)
-    (arguments '(#:files (:defaults "themes/*.el")))
+    (arguments
+      '(#:files
+        (:defaults
+          "themes/*.el"
+          "themes/*/*.el"
+          "extensions/*.el")))
     (home-page
       "https://github.com/hlissner/emacs-doom-themes")
     (synopsis
@@ -23716,7 +23264,7 @@
           (base32
             "1avpg0cgzk8d6g1q0ryx41lkcdgkm0mkzr5xr32xm28dzrfmgd4z"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-web" ,emacs-web)))
+    (propagated-inputs (list emacs-web))
     (home-page "unspecified")
     (synopsis "Emacs mode to paste to dpaste.de")
     (description
@@ -23738,8 +23286,7 @@
           (base32
             "0cdsi18vn3la9yaq4nbpvvhrblr36x0lc54wp7gv75rlg23fbl5a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-debian-el" ,emacs-debian-el)))
+    (propagated-inputs (list emacs-debian-el))
     (home-page "unspecified")
     (synopsis "Emacs modes for debian packaging")
     (description
@@ -23891,8 +23438,7 @@
           (base32
             "0lzq0mkhhj3s5yrcbs576qxkd8h0m2ikc4iplk97ddpzh4nz4127"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page
       "https://github.com/myuhe/drill-instructor-AZIK-force.el")
     (synopsis "Support AZIK input")
@@ -23939,8 +23485,7 @@
             "0z1iw5rzdgipqhx4bvshjbrqqr3wyqy75frwmz34g7s6vll1ip0a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-oauth" ,emacs-oauth)))
+      (list emacs-request emacs-oauth))
     (home-page "unspecified")
     (synopsis "Emacs backend for dropbox")
     (description
@@ -23962,8 +23507,7 @@
           (base32
             "1fdhlb25w0ig7cg51w58h63zy416fwbcbvm63zr4s9gbzsdidmjs"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-php-mode" ,emacs-php-mode)))
+    (propagated-inputs (list emacs-php-mode))
     (arguments
       '(#:files
         ("drupal-mode.el" "drush-make-mode.el" "drupal")))
@@ -24055,8 +23599,7 @@
           (base32
             "1q29lpza8rd209zh0n04ia6n359p372czkm57hhmvcd9cmi91fc8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/dtk01/dtk.el")
     (synopsis "access SWORD content via diatheke")
     (description
@@ -24188,9 +23731,7 @@
             "0gbxhl50j6m6c0kq2v3ph9b3mdrmjdslxiy6lhms4l01zyrg621g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-popup" ,emacs-popup)))
+      (list emacs-s emacs-dash emacs-popup))
     (home-page
       "https://github.com/jacktasia/dumb-jump")
     (synopsis
@@ -24232,10 +23773,10 @@
         (uri (git-reference
                (url "https://github.com/ocaml/dune.git")
                (commit
-                 "b2e3864fab95fdfdcdd3aab7ceaf66dc41871964")))
+                 "6046bb8319b51b6344f0422731ce2b36d2921f40")))
         (sha256
           (base32
-            "1pyy25n24shfdbh0h71y0083b116rk1i6bk659k1ylixahxdazz1"))))
+            "1jp5rk6yjr7lb7wdhnlvi9ypsn0pj4h6jfkfmcv2f4rbzhm1h2bz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("editor-integration/emacs/*.el")))
@@ -24261,8 +23802,7 @@
           (base32
             "0z39a1c227si435j3k8vkf4q6l01jdf70x69dywsmnrkcrcvrbf8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/purcell/emacs-dune-format")
     (synopsis
@@ -24401,9 +23941,9 @@
             "150dj1g49q9x9zx9wkymq30l5gc8c4mhsq91fm6q0yj6ip7hlfxh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-font-utils" ,emacs-font-utils)
-        ("emacs-persistent-soft" ,emacs-persistent-soft)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-font-utils
+            emacs-persistent-soft
+            emacs-pcache))
     (home-page
       "http://github.com/rolandwalker/dynamic-fonts")
     (synopsis "Set faces based on available fonts")
@@ -24515,7 +24055,7 @@
           (base32
             "0l3y8xvjy0f2wacnh03i8ny06apcgyzvippsm8k80qhzjc8dxs2i"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/ahyatt/emacs-dyncloze")
     (synopsis "Language alternatives self-testing")
@@ -24538,8 +24078,7 @@
           (base32
             "1rbbwz8a6gqyxkkh5fapzlbnny816yzqj4170fzrswhib610mcvz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-face-explorer" ,emacs-face-explorer)))
+    (propagated-inputs (list emacs-face-explorer))
     (arguments '(#:files (:defaults "bin")))
     (home-page
       "https://github.com/Lindydancer/e2ansi")
@@ -24564,8 +24103,7 @@
           (base32
             "12midsrx07pdrsr1qbl2rpi7xyhxqx08bkz7n7gf8vsmqkpfp56s"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-window-layout" ,emacs-window-layout)))
+    (propagated-inputs (list emacs-window-layout))
     (arguments '(#:files ("e2wm.el" "e2wm-vcs.el")))
     (home-page "unspecified")
     (synopsis "simple window manager for emacs")
@@ -24588,7 +24126,7 @@
           (base32
             "121vd44f42bxqvdjswmjlghf1jalbs974b6cip2i049k1n08xgh0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-e2wm" ,emacs-e2wm)))
+    (propagated-inputs (list emacs-e2wm))
     (arguments '(#:files ("e2wm-bookmark.el")))
     (home-page "unspecified")
     (synopsis "Bookmark plugin for e2wm.el")
@@ -24611,9 +24149,7 @@
           (base32
             "18fj8qn4b6f13vb3n6j5cwcgdh2ypnvaqyjszmh321zmwxq08nd5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-e2wm" ,emacs-e2wm)
-        ("emacs-direx" ,emacs-direx)))
+    (propagated-inputs (list emacs-e2wm emacs-direx))
     (home-page "https://github.com/aki2o/e2wm-direx")
     (synopsis "Plugin of e2wm.el for direx.el")
     (description
@@ -24636,8 +24172,7 @@
             "1vrlfzy1wynm7x4m7pl8vim7ykqd6qkcilwz7sjc1lbckz11ig0d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-e2wm" ,emacs-e2wm)
-        ("emacs-plsense-direx" ,emacs-plsense-direx)))
+      (list emacs-e2wm emacs-plsense-direx))
     (home-page
       "https://github.com/aki2o/e2wm-pkgex4pl")
     (synopsis
@@ -24662,9 +24197,7 @@
             "1g77gf24abwcvf7z52vs762s6jp978pnvza8zmzwkwfvp1mkx233"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-e2wm" ,emacs-e2wm)
-        ("emacs-inliner" ,emacs-inliner)
-        ("emacs-ess" ,emacs-ess)))
+      (list emacs-e2wm emacs-inliner emacs-ess))
     (home-page "https://github.com/myuhe/e2wm-R.el")
     (synopsis
       "some e2wm plugin and perspective for GNU R")
@@ -24687,7 +24220,7 @@
           (base32
             "0941mfz6a398jq5cb8kgr5cikzkzrpjnfbbx2f9c1yy9wj1awklk"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-e2wm" ,emacs-e2wm)))
+    (propagated-inputs (list emacs-e2wm))
     (home-page "https://github.com/aki2o/e2wm-sww")
     (synopsis
       "Plugin of e2wm.el to switch plugin quickly")
@@ -24711,9 +24244,7 @@
             "1cr2mp1visx4fnxc73sk6gw7wnl1mxfb624rm1sxz7wwry8b8fx9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-e2wm" ,emacs-e2wm)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-e2wm emacs-log4e emacs-yaxception))
     (home-page "https://github.com/aki2o/e2wm-term")
     (synopsis
       "Perspective of e2wm.el for work in terminal")
@@ -24828,9 +24359,7 @@
             "1d61wkambq4dr65bv8ldyqzkicgspw4yiyb52x6ngka6gj8cs27h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-request" ,emacs-request)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-popup emacs-request emacs-transient))
     (home-page
       "https://github.com/masasam/emacs-easy-hugo")
     (synopsis
@@ -24854,8 +24383,7 @@
           (base32
             "1vfk49b0pi0wwjl64x4jbw7drhvmwblmkhskin3zmyr073a91k2r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/masasam/emacs-easy-jekyll")
     (synopsis "Major mode managing jekyll blogs")
@@ -24899,8 +24427,7 @@
           (base32
             "0yxfsp4zzzw9v4swgslsr4v35hs04sczskfyfdvw8wk0aahxcwrx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-easy-kill" ,emacs-easy-kill)))
+    (propagated-inputs (list emacs-easy-kill))
     (home-page
       "https://github.com/knu/easy-kill-extras.el")
     (synopsis "Extra functions for easy-kill.")
@@ -24945,7 +24472,7 @@
           (base32
             "1d9vbn8gmiqcpxqmsv8ir3cc7clm7x1c6hz8drws3cakxk0wffn9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "http://github.com/rexim/ebf")
     (synopsis
       "brainfuck language transpiler to Emacs Lisp")
@@ -24968,8 +24495,7 @@
           (base32
             "0hh5d570c5xaaa5wmncnpqxnzmga6gi5g2rkbbfp8r73l4yyp8sf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-parsebib" ,emacs-parsebib)))
+    (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
     (synopsis "a BibTeX database manager")
     (description
@@ -25037,10 +24563,10 @@
             "0jdddf8krvg379wlay1xs27qlxpi87nz6v2i526pk59mmg8jrnvc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-s" ,emacs-s)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-dash
+            emacs-popup
+            emacs-s
+            emacs-yasnippet))
     (arguments '(#:files ("eclim*.el" "snippets")))
     (home-page "unspecified")
     (synopsis "An interface to the Eclipse IDE.")
@@ -25086,12 +24612,12 @@
             "182qgddfv8nd89y1l55rs5vm5i61ayc8cxbplb8zx0alnid9xrw1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-commander" ,emacs-commander)
-        ("emacs-espuds" ,emacs-espuds)
-        ("emacs-ansi" ,emacs-ansi)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-commander
+            emacs-espuds
+            emacs-ansi
+            emacs-dash
+            emacs-s
+            emacs-f))
     (arguments
       '(#:files
         ("ecukes*" "templates" "bin" "reporters")))
@@ -25117,9 +24643,7 @@
             "0x0igyvdcm4863n7zndvcv6wgzwgn7324cbfjja6xd7r0k936zdy"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-concurrent" ,emacs-concurrent)
-        ("emacs-ctable" ,emacs-ctable)
-        ("emacs-epc" ,emacs-epc)))
+      (list emacs-concurrent emacs-ctable emacs-epc))
     (arguments '(#:files ("edbi*.el" "edbi*.pl")))
     (home-page
       "https://github.com/kiwanami/emacs-edbi")
@@ -25190,10 +24714,7 @@
             "1dkq0py1sybmpy59h3szafa59g5g3jp8l9az22l15qgmkpbqydh4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ede-php-autoload"
-         ,emacs-ede-php-autoload)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-ede-php-autoload emacs-f emacs-s))
     (home-page
       "https://github.com/xendk/ede-php-autoload-composer-installers")
     (synopsis
@@ -25218,10 +24739,7 @@
             "1ckfja95zk4f7fgvycia7nxhxjgz4byrz30ic63f6kcq4dx78scs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ede-php-autoload"
-         ,emacs-ede-php-autoload)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-ede-php-autoload emacs-f emacs-s))
     (home-page "unspecified")
     (synopsis "Drupal support for ede-php-autoload")
     (description
@@ -25309,8 +24827,7 @@
           (base32
             "1akyxq0ja06q5bywa6nb4klnbvrw6f6d83bzrjdz2sc7ddk3a4hz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-websocket" ,emacs-websocket)))
+    (propagated-inputs (list emacs-websocket))
     (home-page
       "https://github.com/xuchunyang/edit-chrome-textarea.el")
     (synopsis "Edit Chrome Textarea")
@@ -25333,8 +24850,7 @@
           (base32
             "0vk954f44m2bq7qb122pzlb8fibrisx47ihvn3h96m8nmx0fv32r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-es-lib" ,emacs-es-lib)))
+    (propagated-inputs (list emacs-es-lib))
     (arguments
       '(#:files
         ("*.el"
@@ -25387,8 +24903,7 @@
             "0dgac0nk9x4sz4lisxb5badrzpcjqjwgi79hhl1y6mafzm0ncqs2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-edit-indirect" ,emacs-edit-indirect)))
+      (list emacs-ht emacs-edit-indirect))
     (home-page
       "https://github.com/niitsuma/edit-indirect-region-latex")
     (synopsis
@@ -25458,8 +24973,7 @@
           (base32
             "174xq45xc632zrb916aw7q4bch96pbi6zgy3dk77qla3ky9cfpl3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-edit-server" ,emacs-edit-server)))
+    (propagated-inputs (list emacs-edit-server))
     (arguments '(#:files ("edit-server-htmlize.el")))
     (home-page
       "https://github.com/frobtech/edit-server-htmlize")
@@ -25506,8 +25020,7 @@
           (base32
             "12a78187ar4mxdf1sk8bkrdcxly1nc5m9krkry04jklj6h9dayj3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-editorconfig" ,emacs-editorconfig)))
+    (propagated-inputs (list emacs-editorconfig))
     (home-page
       "https://github.com/10sr/editorconfig-charset-extras-el")
     (synopsis "Extra EditorConfig Charset Support")
@@ -25530,8 +25043,7 @@
           (base32
             "1zagd6cliwm8xyhzfvpi7n7m58k78wv4ihc2snq00v7321jjh9bp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-editorconfig" ,emacs-editorconfig)))
+    (propagated-inputs (list emacs-editorconfig))
     (home-page
       "https://github.com/10sr/editorconfig-custom-majormode-el")
     (synopsis
@@ -25555,8 +25067,7 @@
           (base32
             "0gkwhvywfpnay7rxb2bmsnywcd89qw710bsp53sk5fvilgfwfpkj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-editorconfig" ,emacs-editorconfig)))
+    (propagated-inputs (list emacs-editorconfig))
     (home-page
       "https://github.com/lassik/editorconfig-emacs-domain-specific")
     (synopsis
@@ -25602,7 +25113,7 @@
           (base32
             "1hyv29b10iqa7msnmf6w47fj1zbbh678x76d1m59mcbfgbxzxagz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-peg" ,emacs-peg)))
+    (propagated-inputs (list emacs-peg))
     (home-page "https://www.github.com/expez/edn.el")
     (synopsis
       "Support for reading and writing the edn data format from elisp")
@@ -25647,14 +25158,13 @@
             "0dkpijsfprlckaggnzmarrbny2qn02927s0fh94dql2gqkvfxhd0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-auto-highlight-symbol"
-         ,emacs-auto-highlight-symbol)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-erlang" ,emacs-erlang)
-        ("emacs-f" ,emacs-f)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-auto-complete
+            emacs-auto-highlight-symbol
+            emacs-dash
+            emacs-erlang
+            emacs-f
+            emacs-popup
+            emacs-s))
     (arguments
       '(#:files
         ("*.el"
@@ -25664,23 +25174,32 @@
          "README.md"
          "start"
          "start.bat"
+         "edts-escript"
+         "edts-release.config"
          "rebar.config"
          ("config" "config/*")
          ("elisp/edts" "elisp/edts/*.el")
          (:exclude "elisp/edts/*-test.el")
-         ("lib/edts/include" "lib/edts/include/*")
-         ("lib/edts/priv" "lib/edts/priv/dispatch.conf")
-         ("lib/edts/src" "lib/edts/src/*")
-         ("lib/edts_debug" "lib/edts_debug/*.el")
+         ("lib/edts"
+          "lib/edts/Makefile"
+          ("include" "lib/edts/include/*")
+          ("priv" "lib/edts/priv/dispatch.conf")
+          ("src" "lib/edts/src/*"))
+         ("lib/edts_debug"
+          "lib/edts_debug/*.el"
+          "lib/edts_debug/Makefile"
+          ("src" "lib/edts_debug/src/*"))
          (:exclude "lib/edts_debug/*-test.el")
-         ("lib/edts_debug/src" "lib/edts_debug/src/*")
-         ("lib/edts_dialyzer" "lib/edts_dialyzer/*.el")
+         ("lib/edts_dialyzer"
+          "lib/edts_dialyzer/*.el"
+          "lib/edts_dialyzer/Makefile"
+          ("src" "lib/edts_dialyzer/src/*"))
          (:exclude "lib/edts_dialyzer/*-test.el")
-         ("lib/edts_dialyzer/src"
-          "lib/edts_dialyzer/src/*")
-         ("lib/edts_xref" "lib/edts_xref/*.el")
-         (:exclude "lib/edts_xref/*-test.el")
-         ("lib/edts_xref/src" "lib/edts_xref/src/*"))))
+         ("lib/edts_xref"
+          "lib/edts_xref/*.el"
+          "lib/edts_xref/Makefile"
+          ("src" "lib/edts_xref/src/*"))
+         (:exclude "lib/edts_xref/*-test.el"))))
     (home-page "unspecified")
     (synopsis "Erlang Development Tool Suite")
     (description
@@ -25744,8 +25263,7 @@
           (base32
             "1c2iyv392ap35nss4j901h33d3lx9lmq5v43flf2rid1766pam6v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-circe" ,emacs-circe)))
+    (propagated-inputs (list emacs-circe))
     (home-page
       "https://github.com/capitaomorte/efire")
     (synopsis "Use campfire from Emacs")
@@ -25901,8 +25419,7 @@
             "1y11q6zbmdfwswgy205f0iqsd5c4075zsf135vsnc7bpmmkpgcvw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-eglot" ,emacs-eglot)
-        ("emacs-fsharp-mode" ,emacs-fsharp-mode)))
+      (list emacs-eglot emacs-fsharp-mode))
     (arguments '(#:files ("eglot-fsharp.el")))
     (home-page
       "https://github.com/fsharp/emacs-fsharp-mode")
@@ -25926,8 +25443,7 @@
           (base32
             "0lfifd43fz09avwgy6gs7j06s2xxlll6vkrbfbb9gl4r6q17786y"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-eglot" ,emacs-eglot)))
+    (propagated-inputs (list emacs-eglot))
     (home-page
       "https://github.com/yveszoundi/eglot-java")
     (synopsis
@@ -25952,8 +25468,7 @@
             "15d4pym6dv08jp6iki00xpf1i4vc92yd2rcjv21k64h6fc862gps"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-eglot" ,emacs-eglot)
-        ("emacs-julia-mode" ,emacs-julia-mode)))
+      (list emacs-eglot emacs-julia-mode))
     (arguments
       '(#:files (:defaults "*.jl" "*.toml")))
     (home-page
@@ -25979,10 +25494,10 @@
             "0sk3mn1gxb826x69s6hlkrzgj8irs9sh3anfazryibw7i61p9cbj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-mustache" ,emacs-mustache)
-        ("emacs-htmlize" ,emacs-htmlize)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-ht
+            emacs-mustache
+            emacs-htmlize
+            emacs-dash))
     (arguments '(#:files (:defaults "themes")))
     (home-page "https://github.com/emacs-china/EGO")
     (synopsis
@@ -26051,13 +25566,13 @@
             "1vclk4068ailb8imaangl2gwwbrm34q51z8wmmafmr662c5gqwr4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-websocket" ,emacs-websocket)
-        ("emacs-anaphora" ,emacs-anaphora)
-        ("emacs-request" ,emacs-request)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-polymode" ,emacs-polymode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-with-editor" ,emacs-with-editor)))
+      (list emacs-websocket
+            emacs-anaphora
+            emacs-request
+            emacs-deferred
+            emacs-polymode
+            emacs-dash
+            emacs-with-editor))
     (arguments
       '(#:files ("lisp/*" (:exclude "lisp/zeroein.el"))))
     (home-page
@@ -26104,10 +25619,10 @@
             "0xl6mb1s70ljb5wkd41qrjvr0gdnds4yli2y3mmrcvry0cp3kp0f"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-clomacs" ,emacs-clomacs)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-spinner" ,emacs-spinner)
-        ("emacs-direx" ,emacs-direx)))
+      (list emacs-clomacs
+            emacs-dash
+            emacs-spinner
+            emacs-direx))
     (arguments
       '(#:files
         (:defaults "project.clj" "src" "snippets")))
@@ -26227,8 +25742,7 @@
           (base32
             "1x71qqw6bq86cpfldz3jgchpm93200z8xcq8vwryyg3ynz681b0a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-anaphora" ,emacs-anaphora)))
+    (propagated-inputs (list emacs-anaphora))
     (home-page "https://github.com/HKey/el-init")
     (synopsis "A loader inspired by init-loader")
     (description
@@ -26251,10 +25765,10 @@
             "0w2mxppkx6306kyxaw00fzv8q745iklcm41iswmflr2585h2adnq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ctable" ,emacs-ctable)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-anaphora" ,emacs-anaphora)
-        ("emacs-el-init" ,emacs-el-init)))
+      (list emacs-ctable
+            emacs-dash
+            emacs-anaphora
+            emacs-el-init))
     (home-page
       "https://github.com/HKey/el-init-viewer")
     (synopsis "Record viewer for el-init")
@@ -26316,14 +25830,13 @@
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "c50d1e482629de9fa4585e4e401bcc1b2d0ff116")))
+                 "2a5290ad57d9800d4b56896a768e37631bef06b0")))
         (sha256
           (base32
-            "0arc4jv9c30pqxr3wh3f9yyf3jsqxs561nbwy9l1kpg3r0h9cj7x"))))
+            "15b2jz0ddvikpfg8m85l1m84ddmj1l9pvai0frw61p6mg5rnwxaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-ql" ,emacs-org-ql)
-        ("emacs-hercules" ,emacs-hercules)))
+      (list emacs-org-ql emacs-hercules))
     (arguments
       '(#:files
         ("el-secretario.el"
@@ -26354,8 +25867,7 @@
             "15b2jz0ddvikpfg8m85l1m84ddmj1l9pvai0frw61p6mg5rnwxaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-el-secretario" ,emacs-el-secretario)
-        ("emacs-elfeed" ,emacs-elfeed)))
+      (list emacs-el-secretario emacs-elfeed))
     (arguments
       '(#:files ("el-secretario-elfeed.el")))
     (home-page
@@ -26382,8 +25894,7 @@
             "15b2jz0ddvikpfg8m85l1m84ddmj1l9pvai0frw61p6mg5rnwxaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-ql" ,emacs-org-ql)
-        ("emacs-el-secretario" ,emacs-el-secretario)))
+      (list emacs-org-ql emacs-el-secretario))
     (arguments '(#:files ("el-secretario-mu4e.el")))
     (home-page
       "https://git.sr.ht/~zetagon/el-secretario")
@@ -26408,8 +25919,7 @@
             "15b2jz0ddvikpfg8m85l1m84ddmj1l9pvai0frw61p6mg5rnwxaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-el-secretario" ,emacs-el-secretario)
-        ("emacs-notmuch" ,emacs-notmuch)))
+      (list emacs-el-secretario emacs-notmuch))
     (arguments
       '(#:files ("el-secretario-notmuch.el")))
     (home-page
@@ -26429,15 +25939,15 @@
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "915b98b901b3ea50416461dea624537ae8796847")))
+                 "2a5290ad57d9800d4b56896a768e37631bef06b0")))
         (sha256
           (base32
-            "0bnkacmznbyj0q26br3vdvg43jmsczsksv61mp864q7l77vixgg4"))))
+            "15b2jz0ddvikpfg8m85l1m84ddmj1l9pvai0frw61p6mg5rnwxaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-ql" ,emacs-org-ql)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-el-secretario" ,emacs-el-secretario)))
+      (list emacs-org-ql
+            emacs-dash
+            emacs-el-secretario))
     (arguments
       '(#:files
         ("el-secretario-org.el" "el-secretario-space.el")))
@@ -26509,8 +26019,7 @@
             "13d2dr5r9nv97ma3abcnhqgq86rqwqlwvq64z3hm0qibsxxajdhq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-web-server" ,emacs-web-server)
-        ("emacs-htmlize" ,emacs-htmlize)))
+      (list emacs-web-server emacs-htmlize))
     (home-page "unspecified")
     (synopsis
       "Command line paste server with Emacs highlighting")
@@ -26622,11 +26131,11 @@
             "1xi37jpx8wj2cq6n8la1p4wmqzrwga2ixp6rllbnbhq2fpm9fjsr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-f" ,emacs-f)
-        ("emacs-osx-location" ,emacs-osx-location)
-        ("emacs-uuidgen" ,emacs-uuidgen)))
+      (list emacs-ht
+            emacs-hydra
+            emacs-f
+            emacs-osx-location
+            emacs-uuidgen))
     (home-page
       "https://github.com/rollacaster/elcontext")
     (synopsis "Create context specific actions")
@@ -26673,9 +26182,9 @@
             "0laq0qwlp1172yirvcyxsrmgqj8mjs4rfavjy4apiyxvv7131mss"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-json-mode" ,emacs-json-mode)
-        ("emacs-libelcouch" ,emacs-libelcouch)
-        ("emacs-navigel" ,emacs-navigel)))
+      (list emacs-json-mode
+            emacs-libelcouch
+            emacs-navigel))
     (home-page
       "https://gitlab.petton.fr/DamienCassou/elcouch")
     (synopsis
@@ -26792,8 +26301,7 @@
             "1r2fjdra4bav16c108jzzjd2qhng7493i7l7znbasialf40j3cbs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-inline-docs" ,emacs-inline-docs)
-        ("emacs-quick-peek" ,emacs-quick-peek)))
+      (list emacs-inline-docs emacs-quick-peek))
     (home-page
       "https://github.com/stardiviner/eldoc-overlay")
     (synopsis
@@ -26817,8 +26325,7 @@
           (base32
             "06y4gvw8g4mjyiv77rznivqphh9sayjmi9aqr9nhxlf6i19a6hqh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-stan-mode" ,emacs-stan-mode)))
+    (propagated-inputs (list emacs-stan-mode))
     (arguments
       '(#:files
         ("eldoc-stan/*.el"
@@ -26914,7 +26421,7 @@
           (base32
             "1zzy3y5vkdlb7wb3b4fgvm61zn3dj9n0ldi3153qvrgwn6w8m648"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/davidshepherd7/electric-operator")
     (synopsis
@@ -27005,8 +26512,7 @@
             "0qpgkv0h71pkbm006ni56hbimmn9wfvciaicxylhpbcqkd7n1gc1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-ivy emacs-request))
     (home-page
       "https://github.com/freesteph/elescope")
     (synopsis
@@ -27073,10 +26579,10 @@
             "0vmvl3c465i2gkm9079hj7l3qxna37q3rrs498r8dby11c0dgcax"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-elfeed" ,emacs-elfeed)
-        ("emacs-elfeed-protocol" ,emacs-elfeed-protocol)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-elfeed
+            emacs-elfeed-protocol
+            emacs-dash
+            emacs-s))
     (home-page
       "https://github.com/paulelms/elfeed-autotag")
     (synopsis "Easy auto-tagging for elfeed")
@@ -27099,8 +26605,7 @@
           (base32
             "1yvr3fg5dx0z6h7jbv3fvn5ccw5grpcaj2ynp7zri5y388g160ql"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-elfeed" ,emacs-elfeed)))
+    (propagated-inputs (list emacs-elfeed))
     (home-page
       "https://github.com/Manoj321/elfeed-dashboard")
     (synopsis
@@ -27125,11 +26630,11 @@
             "0mfigkp77acqlnkj07vjzbcamwxp37zqxramp1qdf95psnz177q7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popwin" ,emacs-popwin)
-        ("emacs-powerline" ,emacs-powerline)
-        ("emacs-elfeed" ,emacs-elfeed)
-        ("emacs-noflet" ,emacs-noflet)
-        ("emacs-ace-jump-mode" ,emacs-ace-jump-mode)))
+      (list emacs-popwin
+            emacs-powerline
+            emacs-elfeed
+            emacs-noflet
+            emacs-ace-jump-mode))
     (home-page
       "https://github.com/algernon/elfeed-goodies")
     (synopsis "Elfeed goodies")
@@ -27153,9 +26658,7 @@
             "0krfklh3hyc72m9llz3j7pmf63n4spwlgi88b237vcml9rhlda5b"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-elfeed" ,emacs-elfeed)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-elfeed emacs-dash emacs-s))
     (home-page
       "https://github.com/remyhonig/elfeed-org")
     (synopsis
@@ -27179,8 +26682,7 @@
           (base32
             "0aq1rp46dr2hdkzm8aapb1xlcbdpa0nbrgb8b5avkihmyx7nkwkb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-elfeed" ,emacs-elfeed)))
+    (propagated-inputs (list emacs-elfeed))
     (home-page
       "https://github.com/fasheng/elfeed-protocol")
     (synopsis
@@ -27204,8 +26706,7 @@
           (base32
             "10wsjq2zd6kz9182gnkjzlzywx16j29dgm1gzwynr79xmvgs4r2b"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-elfeed" ,emacs-elfeed)))
+    (propagated-inputs (list emacs-elfeed))
     (home-page
       "https://github.com/sp1ff/elfeed-score")
     (synopsis "Gnus-style scoring for Elfeed")
@@ -27229,8 +26730,7 @@
             "0v49l289wiral01pvgm30wyv79h5d3ly3i05dmcw1q93g4z4l56d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-simple-httpd" ,emacs-simple-httpd)
-        ("emacs-elfeed" ,emacs-elfeed)))
+      (list emacs-simple-httpd emacs-elfeed))
     (arguments '(#:files ("web/*")))
     (home-page "https://github.com/skeeto/elfeed")
     (synopsis "web interface to Elfeed")
@@ -27275,8 +26775,7 @@
           (base32
             "0na0s42ifv260mbv1djn7yqalcsyahsgyqrqf8lvxc1qbiisrzxv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)))
+    (propagated-inputs (list emacs-async))
     (home-page
       "https://github.com/TobiasZawada/elgrep")
     (synopsis
@@ -27300,8 +26799,7 @@
           (base32
             "1q9glli1czbfp62aalblaak55j8rj2nl8bm8nifnnb8jrzj1qrn0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-initsplit" ,emacs-initsplit)))
+    (propagated-inputs (list emacs-initsplit))
     (arguments '(#:files ("elhome.el" "startup")))
     (home-page
       "http://github.com/demyanrogozhin/elhome")
@@ -27327,9 +26825,7 @@
             "16ryl9idrfpf8whx7srd6a0b3j50qhvc8brkk7iq42p7srr79ly0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-f emacs-s))
     (home-page "unspecified")
     (synopsis
       "macro-aware go-to-definition for elisp")
@@ -27397,7 +26893,7 @@
           (base32
             "0ybqbyv1jnjk25z6ys90d5lddd4qxqspn2xppkzvby21x634s2ry"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/mtekman/elisp-depmap.el")
     (synopsis
@@ -27466,8 +26962,7 @@
             "0vzgqjsx8crikr13r87vczjr47sh2xm3hckqc10s6b26hc2jbxrv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-package-lint" ,emacs-package-lint)))
+      (list emacs-dash emacs-package-lint))
     (home-page
       "http://github.com/gonewest818/elisp-lint/")
     (synopsis "Basic linting for Emacs Lisp")
@@ -27490,8 +26985,7 @@
           (base32
             "0dhflhgc1px9kj2bhv9m646ab08a6qjcqdd1a6wd5psj047bkj9p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (arguments
       '(#:files
         (:defaults (:exclude "elisp-refs-bench.el"))))
@@ -27586,8 +27080,7 @@
           (base32
             "1sdq4372i19wdxpdp3347a1rf5zf5w6sa0da6lr511m7ri0lj6hd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page "unspecified")
     (synopsis "Yasnippets for Elixir")
@@ -27610,8 +27103,7 @@
           (base32
             "0amzbazg53956h1h5ppxd9psr1d1fwvlpm27kpfvhw5ipqzp3ws4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-s emacs-f))
     (home-page "https://github.com/walseb/ellocate")
     (synopsis
       "The locate command reimplemented in Emacs Lisp")
@@ -27635,10 +27127,10 @@
             "1gaddxw63d5fna43d7kc3px9sbd2knbjga0lx2zz0lsbcjr54pzr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-reformatter" ,emacs-reformatter)))
+      (list emacs-f
+            emacs-s
+            emacs-dash
+            emacs-reformatter))
     (arguments '(#:files (:defaults "elm.tags")))
     (home-page
       "https://github.com/jcollard/elm-mode")
@@ -27685,8 +27177,7 @@
           (base32
             "1zb5yra6znkr7yaq6wqlmlr054wkv9cy1dih8h4j2gp2wnfwg968"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page "unspecified")
     (synopsis "Yasnippets for Elm")
@@ -27709,8 +27200,7 @@
           (base32
             "1mmhgl85880bhhwibf9ksifghdc7w22vrhpg8y8rvpjh91fdg0lz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page "https://github.com/Silex/elmacro")
     (synopsis
       "Convert keyboard macros to emacs lisp")
@@ -27733,7 +27223,7 @@
           (base32
             "05z9v3lcc0mm40k0y08v8mhnlxb4krlgj6zghfavwwz6nhxn61g3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments '(#:files ("elmine.el")))
     (home-page "http://github.com/leoc/elmine")
     (synopsis "Redmine API access via elisp.")
@@ -27779,14 +27269,14 @@
             "1214216wrdhfw3lbf59vnddk28hi4g3s1ksdi5walksihd3gh7my"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-web" ,emacs-web)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-noflet" ,emacs-noflet)
-        ("emacs-s" ,emacs-s)
-        ("emacs-creole" ,emacs-creole)
-        ("emacs-fakir" ,emacs-fakir)
-        ("emacs-db" ,emacs-db)
-        ("emacs-kv" ,emacs-kv)))
+      (list emacs-web
+            emacs-dash
+            emacs-noflet
+            emacs-s
+            emacs-creole
+            emacs-fakir
+            emacs-db
+            emacs-kv))
     (arguments '(#:files ("*")))
     (home-page "unspecified")
     (synopsis "The Emacs webserver.")
@@ -27830,8 +27320,7 @@
           (base32
             "1jcr8bxffvnfs0ym6zkgs79hd6a0m81r4x4jr3v5l9zwxw04sy15"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page "unspecified")
     (synopsis "logcat interface")
     (description
@@ -27920,7 +27409,7 @@
           (base32
             "0s1cv983cgz8iysjllqbpbq80bcmsynqb6d3c8z177xqvvr4zaw8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/oitofelix/elpa-deploy")
     (synopsis "ELPA deployment library")
@@ -28012,12 +27501,11 @@
             "0dlii04byyqr48mnvs3wh8np2zx5r30rhhpbind0z64ahq10a1zh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-company" ,emacs-company)
-        ("emacs-highlight-indentation"
-         ,emacs-highlight-indentation)
-        ("emacs-pyvenv" ,emacs-pyvenv)
-        ("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-company
+            emacs-highlight-indentation
+            emacs-pyvenv
+            emacs-yasnippet
+            emacs-s))
     (arguments
       '(#:files ("*.el" "NEWS.rst" "snippets" "elpy")))
     (home-page
@@ -28042,8 +27530,7 @@
           (base32
             "093ck4dkdvbgafb1bmkmszg1ba81ns5kjbk2iq2b5p9dvfcjjr3k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (home-page "https://github.com/vkazanov/elpygen")
     (synopsis
       "Generate a Python function/method using a symbol under point")
@@ -28066,8 +27553,7 @@
           (base32
             "119g9ca40rg0aam7i2n4jhjzjzm8r7bg6q0yjaw5x1j7ywks5af6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://github.com/AdamNiederer/elquery")
     (synopsis "The HTML library for elisp.")
@@ -28091,9 +27577,7 @@
             "08h86wpgr71xbxpqgbv2jikyzfh1fm33kfb6nxir001inzj0h7aq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-trinary" ,emacs-trinary)
-        ("emacs-f" ,emacs-f)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-trinary emacs-f emacs-dash))
     (arguments '(#:files (:defaults "bin")))
     (home-page "unspecified")
     (synopsis "Emacs Lisp Static Analyser")
@@ -28137,8 +27621,7 @@
           (base32
             "13wfnkg42k1fk1dbf7zspxfp116xm1z4j6pc82wk8lz5k5xjlpzq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-elscreen" ,emacs-elscreen)))
+    (propagated-inputs (list emacs-elscreen))
     (home-page
       "https://github.com/jeffgran/elscreen-buffer-group")
     (synopsis "elscreen buffer group")
@@ -28161,8 +27644,7 @@
           (base32
             "18d4mz6sk1zvcl80115fy0ar358dqkwb3khgxsn71a67yxg9db15"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-elscreen" ,emacs-elscreen)))
+    (propagated-inputs (list emacs-elscreen))
     (home-page
       "http://github.com/rocher/elscreen-fr")
     (synopsis "Use frame title as screen tab")
@@ -28185,8 +27667,7 @@
           (base32
             "167kgbnh5q3pqirv0f7wpjn7yc76k8mz9qx45i7d4scmx8952d2g"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-elscreen" ,emacs-elscreen)))
+    (propagated-inputs (list emacs-elscreen))
     (home-page
       "https://github.com/masutaka/elscreen-mew")
     (synopsis "ElScreen Add-On for Mew")
@@ -28210,8 +27691,7 @@
             "0j5dpikjxwn1679ndy894g55qm9hs0n65lqyxx483h584nqxsdkg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-elscreen" ,emacs-elscreen)
-        ("emacs-multi-term" ,emacs-multi-term)))
+      (list emacs-elscreen emacs-multi-term))
     (home-page "unspecified")
     (synopsis "Multi term for elscreen")
     (description
@@ -28233,8 +27713,7 @@
           (base32
             "0c18w11wy3bnxhf109dbr01fcv3y9fg4jx5nkjx2gaf0kl0d7nfi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-elscreen" ,emacs-elscreen)))
+    (propagated-inputs (list emacs-elscreen))
     (home-page "unspecified")
     (synopsis
       "Separate buffer list manager for elscreen")
@@ -28258,8 +27737,7 @@
             "1ypk6jj99pb41mi2cwz7jkrzy15mpd3ir176x52riix6737wmgcm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-elscreen" ,emacs-elscreen)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-elscreen emacs-dash))
     (home-page
       "https://github.com/aki-s/elscreen-tab")
     (synopsis
@@ -28305,7 +27783,7 @@
           (base32
             "1k7npf93xbmrsq607x8zlgrpzqvplgia3ixz5w1lr1jlv1m2m8x2"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/Fuco1/elwm")
     (synopsis
       "Minimalistic window manager for emacs")
@@ -28446,9 +27924,9 @@
             "1v0v0akwcc6pklv3abalcbzglkmk9z38v7a31mcacn6fnnf75sl9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-emacsql" ,emacs-emacsql)
-        ("emacs-emacsql-sqlite" ,emacs-emacsql-sqlite)
-        ("emacs-sqlite" ,emacs-sqlite)))
+      (list emacs-emacsql
+            emacs-emacsql-sqlite
+            emacs-sqlite))
     (home-page
       "https://github.com/emacscollective/emacsql-libsqlite3")
     (synopsis
@@ -28472,8 +27950,7 @@
           (base32
             "1gjwll970avjv0ah4m8w56ybi4l4bc4n8p29wq77za56m0g6jzrg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-emacsql" ,emacs-emacsql)))
+    (propagated-inputs (list emacs-emacsql))
     (arguments '(#:files ("emacsql-mysql.el")))
     (home-page "https://github.com/skeeto/emacsql")
     (synopsis "EmacSQL back-end for MySQL")
@@ -28496,8 +27973,7 @@
           (base32
             "1gjwll970avjv0ah4m8w56ybi4l4bc4n8p29wq77za56m0g6jzrg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-emacsql" ,emacs-emacsql)))
+    (propagated-inputs (list emacs-emacsql))
     (arguments
       '(#:files ("emacsql-psql.el" "emacsql-pg.el")))
     (home-page "https://github.com/skeeto/emacsql")
@@ -28522,8 +27998,7 @@
           (base32
             "1gjwll970avjv0ah4m8w56ybi4l4bc4n8p29wq77za56m0g6jzrg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-emacsql" ,emacs-emacsql)))
+    (propagated-inputs (list emacs-emacsql))
     (arguments
       '(#:files ("emacsql-sqlite.el" "sqlite")))
     (home-page "https://github.com/skeeto/emacsql")
@@ -28547,8 +28022,7 @@
           (base32
             "0zr56gwn8rcgvaa9halhfxpxnn0x6yqc66z6r7vqzx5jbj7d6q46"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-emacsql" ,emacs-emacsql)))
+    (propagated-inputs (list emacs-emacsql))
     (home-page
       "https://github.com/cireu/emacsql-sqlite3")
     (synopsis
@@ -28618,8 +28092,7 @@
             "1idsvilsvlxh72waalhl8vrsmh0vfvz56qcv56fc2c0pb1i90icn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-emamux" ,emacs-emamux)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-emamux emacs-projectile))
     (arguments '(#:files ("emamux-ruby-test.el")))
     (home-page
       "https://github.com/syohex/emamux-ruby-test")
@@ -28643,7 +28116,7 @@
           (base32
             "0x4i2c493zb7cf0cnixsxiwl409faljd5sk05flkq88wjm176dcm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/GuiltyDolphin/emaps")
     (synopsis "Utilities for working with keymaps")
@@ -28685,14 +28158,13 @@
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "e08899ef2e7fb9c1ed4b4b21e44cd368561f91f9")))
+                 "b17af024d92e5c8532ed94f157e65aa7f4cda334")))
         (sha256
           (base32
-            "16k8dhxnlvjpzzz2y1kjz4f997c6zg9sqvaha66y15mlq6zd3ikw"))))
+            "1fl07f5s96iw3f93w5n4qb4j6ah2abl17bx5pkk0dadwi04prms2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-embark" ,emacs-embark)
-        ("emacs-consult" ,emacs-consult)))
+      (list emacs-embark emacs-consult))
     (arguments '(#:files ("embark-consult.el")))
     (home-page "https://github.com/oantolin/embark")
     (synopsis "Consult integration for Embark")
@@ -28736,8 +28208,7 @@
           (base32
             "0g7hp1aq0zznbhd234dpbblnagn34fxdasc5v4lfhm5ykw5xyb5x"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page "unspecified")
     (synopsis "Snippets for Ember.js development")
@@ -28760,8 +28231,7 @@
           (base32
             "1m0qyipkp5ydgcav8d0m58fbj1gilipbj7g8mg40iajr8wfqcjdc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-expand-region" ,emacs-expand-region)))
+    (propagated-inputs (list emacs-expand-region))
     (home-page "unspecified")
     (synopsis
       "Add/Change/Delete pairs based on `expand-region'")
@@ -28785,8 +28255,7 @@
             "0xg2bw9vzwvkx6xh4k2n6qhyhqg5iifl6aa0s7svvdnw35x00hv2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-magit-popup" ,emacs-magit-popup)))
+      (list emacs-cider emacs-magit-popup))
     (home-page "https://github.com/nubank/emidje")
     (synopsis
       "Test runner and report viewer for Midje")
@@ -28809,7 +28278,7 @@
           (base32
             "0p52pkq3wvnhg0l7cribhc39zl1cjjxgw9qzpmwd0jw1g1lslwbm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/narendraj9/emlib.git")
     (synopsis "A Machine Learning library for Emacs")
@@ -28899,7 +28368,7 @@
           (base32
             "07qbbs2i05bqndr4dxb84z50wav8ffbc56f6saw6pdx6n0sw6n6n"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-emms" ,emacs-emms)))
+    (propagated-inputs (list emacs-emms))
     (arguments '(#:files ("emms-info-mediainfo.el")))
     (home-page "unspecified")
     (synopsis "Info-method for EMMS using medianfo")
@@ -28922,7 +28391,7 @@
           (base32
             "03a7sn8pl0pnr05rmrrbw4hjyi8vpjqbvkvh0fqnij913a6qc64l"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-emms" ,emacs-emms)))
+    (propagated-inputs (list emacs-emms))
     (home-page
       "https://github.com/vapniks/emms-mark-ext")
     (synopsis
@@ -28946,7 +28415,7 @@
           (base32
             "0q80f0plch6k4lhs8c9qm3mfycfbp3kn5sjrk9zxgxwnn901y9mp"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-emms" ,emacs-emms)))
+    (propagated-inputs (list emacs-emms))
     (home-page
       "https://github.com/momomo5717/emms-mode-line-cycle")
     (synopsis
@@ -28971,9 +28440,7 @@
             "1sxzh1bhdwln7kcn07agayyhmgyrbmmhgc3f85336xybc6ljpqs8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-emms" ,emacs-emms)
-        ("emacs-emms-player-simple-mpv"
-         ,emacs-emms-player-simple-mpv)))
+      (list emacs-emms emacs-emms-player-simple-mpv))
     (arguments '(#:files (:defaults "*/*.el")))
     (home-page
       "https://github.com/momomo5717/emms-player-mpv-jp-radios")
@@ -28998,7 +28465,7 @@
           (base32
             "1i6rxkm0ra0jbkkwgkwxg3vk5xfl794h1gkgnlpscynz0v94b6ll"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-emms" ,emacs-emms)))
+    (propagated-inputs (list emacs-emms))
     (home-page
       "https://github.com/momomo5717/emms-player-simple-mpv")
     (synopsis
@@ -29022,7 +28489,7 @@
           (base32
             "0nx5bb5fjmaa1nhkbfnhd1aydqrq390x4rl1vfh11ilnf52wzzld"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-emms" ,emacs-emms)))
+    (propagated-inputs (list emacs-emms))
     (home-page
       "http://github.com/osener/emms-soundcloud")
     (synopsis
@@ -29046,7 +28513,7 @@
           (base32
             "1gwn47nl003kwfaif3vh84p7rxfc3lilb6a3kk2hcczc5j65i13d"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-emms" ,emacs-emms)))
+    (propagated-inputs (list emacs-emms))
     (home-page
       "https://github.com/alezost/emms-state.el")
     (synopsis
@@ -29070,7 +28537,7 @@
           (base32
             "1na7mn9pgnwf9a1fbpb5k36aczzc7506ld5xm7mqpqgwshdxk0hq"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (arguments
       '(#:files (:defaults "emoji-cheat-sheet")))
     (home-page
@@ -29139,8 +28606,7 @@
             "1n3znp78hhbjna6w0raixd439nmy9m0sa38g4pd70kj5l0ci1848"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-emojify" ,emacs-emojify)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-emojify emacs-request))
     (home-page
       "https://github.com/jcs-elpa/emoji-github")
     (synopsis
@@ -29189,7 +28655,7 @@
           (base32
             "1g8dviwmwifzjvy9rvnhr9hsxwv37ksqikqccrbjyrpcyv57z1a5"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ht" ,emacs-ht)))
+    (propagated-inputs (list emacs-ht))
     (arguments
       '(#:files (:defaults "data" "images")))
     (home-page
@@ -29214,8 +28680,7 @@
           (base32
             "1fhxf3nky9wlcn54q60f9254iawcccsrxw370q7cgpsrl1gj3dgp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-emojify" ,emacs-emojify)))
+    (propagated-inputs (list emacs-emojify))
     (arguments '(#:files (:defaults "logos")))
     (home-page
       "https://github.com/mxgoldstein/emojify-logos")
@@ -29262,14 +28727,14 @@
             "1bi5x7iald8q4p1fjgfikizxx4aryc4q8rjpmbkg247vrsxd7ljx"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-list-utils" ,emacs-list-utils)
-        ("emacs-paredit" ,emacs-paredit)
-        ("emacs-projectile" ,emacs-projectile)
-        ("emacs-clang-format" ,emacs-clang-format)
-        ("emacs-iedit" ,emacs-iedit)))
+      (list emacs-s
+            emacs-dash
+            emacs-popup
+            emacs-list-utils
+            emacs-paredit
+            emacs-projectile
+            emacs-clang-format
+            emacs-iedit))
     (home-page
       "https://github.com/Wilfred/emacs-refactor")
     (synopsis "Emacs refactoring system.")
@@ -29429,8 +28894,7 @@
             "1khi2x0v2f7kn74s5mszp4f5qsdp6v91b98y8gyzhrxic7n083q4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-edit-at-point" ,emacs-edit-at-point)))
+      (list emacs-dash emacs-edit-at-point))
     (home-page "http://github.com/enoson/eno.el")
     (synopsis
       "Goto/copy/cut any word/symbol/line in view, similar to ace-jump/easymotion")
@@ -29475,8 +28939,7 @@
           (base32
             "0nqqx4qlw75lmbn0v927sg3xyjkk86ihw1q3rdbbn59va41grds4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-inheritenv" ,emacs-inheritenv)))
+    (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
     (synopsis
       "Support for `direnv' that operates buffer-locally")
@@ -29500,9 +28963,7 @@
             "1y6n5b9pk4c3badzhwm7qv1jw60p34z55ljwhaaqlnmv7nq1qnj3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-magit" ,emacs-magit)))
+      (list emacs-s emacs-dash emacs-magit))
     (home-page "unspecified")
     (synopsis "opengrok interface for emacs")
     (description
@@ -29525,8 +28986,7 @@
             "15nkrjgi64f829isfd6xrhl4zw8jirr8pkas7nisrbk1av868hx0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-concurrent" ,emacs-concurrent)
-        ("emacs-ctable" ,emacs-ctable)))
+      (list emacs-concurrent emacs-ctable))
     (arguments '(#:files ("epc.el" "epcs.el")))
     (home-page
       "https://github.com/kiwanami/emacs-epc")
@@ -29550,8 +29010,7 @@
           (base32
             "0mvg52f2y3725hlzqcn2mh8jihnbg68wlqmq951sa3qfma7m40pp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-htmlize" ,emacs-htmlize)))
+    (propagated-inputs (list emacs-htmlize))
     (home-page
       "https://github.com/yoshinari-nomura/epic")
     (synopsis "Evernote Picker for Cocoa Emacs")
@@ -29591,13 +29050,12 @@
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "543207b857c74f2229fcac8451aa555a9248bf10")))
+                 "eac43b29286e05192cbeada4cad09774493e0ab7")))
         (sha256
           (base32
-            "0884b457fb1djkmflaymxq5zgj50hmnajahxblvrm6acliwjs2dx"))))
+            "0j9kp7ar6zccqhaihqphfxxkrvw63ipayy3dp876l9cr1ywxnv8f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-closql" ,emacs-closql)))
+    (propagated-inputs (list emacs-closql))
     (home-page
       "https://github.com/emacscollective/epkg")
     (synopsis
@@ -29621,7 +29079,7 @@
           (base32
             "11sbf363qy3i87hppv4admqd2sy0kwpvjgih51hn3rbimbswkwab"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-epkg" ,emacs-epkg)))
+    (propagated-inputs (list emacs-epkg))
     (home-page
       "https://github.com/emacscollective/epkg-marginalia")
     (synopsis
@@ -29666,7 +29124,7 @@
           (base32
             "1m0l0szrwljzsch4xj9a42nflpqfii68g8clizsjwv323h6xff4n"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-epl" ,emacs-epl)))
+    (propagated-inputs (list emacs-epl))
     (arguments '(#:files (:defaults "epm")))
     (home-page "https://github.com/xuchunyang/epm")
     (synopsis "Emacs Package Manager")
@@ -29733,7 +29191,7 @@
           (base32
             "110b8gn47m5kafmvxr8q9zzrj0pdn6ikw9xsx4z1rc58i02jy307"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (arguments
       '(#:files
         ("eproject.el"
@@ -29762,7 +29220,7 @@
           (base32
             "11xfr71y78idcn461p4pz7b0k01nhz15cyl97bjqq6ii5xhbhvdx"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://gitlab.com/emacsomancer/equake")
     (synopsis
@@ -29943,8 +29401,7 @@
             "0pfnp7gw75hfhsy7jizp622s6yv61h3k2s0l2g33i801ar6abwm5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-switch-buffer-functions"
-         ,emacs-switch-buffer-functions)))
+      (list emacs-switch-buffer-functions))
     (home-page
       "http://gitlab.com/jgkamat/erc-scrolltoplace")
     (synopsis
@@ -30147,7 +29604,7 @@
           (base32
             "1dlw34kaslyvnsrahf4rm76r2b7qqqn589i4mmhr23prl8xbz9z9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis
       "An erc module to display youtube links nicely")
@@ -30192,9 +29649,7 @@
             "18yqqqxsivnq2m8mxz7ifp0bfmn3q9m11w3abryxg2snh4vb5sy6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-xml+" ,emacs-xml+)))
+      (list emacs-dash emacs-s emacs-xml+))
     (home-page
       "https://github.com/bddean/emacs-ereader")
     (synopsis
@@ -30218,7 +29673,7 @@
           (base32
             "1a3vvdlld66x0j3i7plhc0fm6mkj64mvd375j8g65nvfn6cwc3h4"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "http://github.com/justinhj/eredis/")
     (synopsis "eredis, a Redis client in emacs lisp")
     (description
@@ -30296,8 +29751,7 @@
             "06pdwrhflpi5rkigqnr5h3jzv3dm1p9nydpvql9w33ixm6qhjj71"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-powerline" ,emacs-powerline)
-        ("emacs-mode-icons" ,emacs-mode-icons)))
+      (list emacs-powerline emacs-mode-icons))
     (home-page "unspecified")
     (synopsis "Adaptive Status Bar / Mode Line")
     (description
@@ -30314,10 +29768,10 @@
         (uri (git-reference
                (url "https://github.com/agda/agda.git")
                (commit
-                 "2976b594a39ac2630800cfcbd17f6d5c9a901dfa")))
+                 "756ac774b5191b252bf993b67c7ccd5648cbbb65")))
         (sha256
           (base32
-            "1by21kkqvz5cz0pjiykday6z5d6m03qfsfxbbkz1wv7sqavzhgj3"))))
+            "174vd5dw7wz2kf08mcaakr0r0qx64bigkdhr9zg7c68xj0w0kasn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/data/emacs-mode/eri.el")))
@@ -30337,10 +29791,10 @@
         (uri (git-reference
                (url "https://github.com/erlang/otp.git")
                (commit
-                 "9b07aedd669c2cb1e12e8a9b4f06210d0892041e")))
+                 "09dd2c69ee4192fb2ef7d32754e236f2a29299ce")))
         (sha256
           (base32
-            "13cq2smfql3jq0prb3vliq9i640sq19fd7s6223269gwkyanqw5q"))))
+            "14kkd9g3s9mrfwm79dahffdx9y8l4ar04vpgcb76nx866nxx8v1p"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -30367,7 +29821,7 @@
           (base32
             "0541q21srscy8x7w4f8vbag1nsjksv9i1wi6sq5xjqnrl0piyv4k"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/k32/erlstack-mode")
     (synopsis
@@ -30481,9 +29935,7 @@
             "08yfq3qzscxvzyxvyvdqpkrm787278yhkdd9prbvrgjj80p8n7vq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-s emacs-dash emacs-projectile))
     (home-page "unspecified")
     (synopsis
       "displays ert test results in the modeline.")
@@ -30507,12 +29959,12 @@
             "0v3ry7aza86pzrjjy9qr07jxn3md1vx324cl0xq3b055mdp6dqv6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-commander" ,emacs-commander)
-        ("emacs-ansi" ,emacs-ansi)
-        ("emacs-shut-up" ,emacs-shut-up)))
+      (list emacs-s
+            emacs-dash
+            emacs-f
+            emacs-commander
+            emacs-ansi
+            emacs-shut-up))
     (arguments '(#:files ("*.el" "bin" "reporters")))
     (home-page
       "http://github.com/rejeep/ert-runner.el")
@@ -30558,10 +30010,10 @@
             "02zzwf9ykfi2dggjbspg7mk77b5x1fnkpp3bcp6rd4h95apnsjq5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-spark" ,emacs-spark)
-        ("emacs-s" ,emacs-s)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash
+            emacs-spark
+            emacs-s
+            emacs-request))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page
       "http://www.github.com/dakrone/es-mode")
@@ -30628,8 +30080,7 @@
           (base32
             "1m255pgi2zlkjrjr3l8gk76qc5543qnaxqrwgcpb2z9gq51ivfw2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-company))
     (home-page
       "http://github.com/dieggsy/esh-autosuggest")
     (synopsis "History autosuggestions for eshell")
@@ -30673,7 +30124,7 @@
           (base32
             "0x7d51a6ljl014zy7mi27vzcqqbcwg9z4drq29fr2ajk82mqhlgd"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/tom-tan/esh-help/")
     (synopsis
@@ -30764,7 +30215,7 @@
           (base32
             "1j1m661rgbfr04357wq2a7vhm04s3vrbw4r6y1k2cx2ap9amkb25"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "unspecified")
     (synopsis
       "Restrict eshell to a single fixed prompt")
@@ -30809,7 +30260,7 @@
           (base32
             "1hn05bgznc1az4fb4grg8d9acwpmwr4bp6ibch901c79hp79qlkv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/xuchunyang/eshell-git-prompt")
     (synopsis "Some Eshell prompt for Git users")
@@ -30832,8 +30283,7 @@
           (base32
             "0ysj2hdnsf6j7ywz140k94q2sqhh567ipf2ccd5qrj90n6f5crrp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-f emacs-s))
     (home-page
       "https://labs.phundrak.com/phundrak/eshell-info-banner.el")
     (synopsis
@@ -30924,7 +30374,7 @@
           (base32
             "0g0cg71n0cp1576i2qkgvg729gw1927vq0js3s64v5b8p9hmb1kq"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/4da/eshell-toggle")
     (synopsis
@@ -30971,8 +30421,7 @@
           (base32
             "02q1iyh77m7vg9cip7c9wzpiggnsbhhicfs5rqzpc5d7n70gbk2p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-vterm" ,emacs-vterm)))
+    (propagated-inputs (list emacs-vterm))
     (home-page
       "https://github.com/iostapyshyn/eshell-vterm")
     (synopsis "Vterm for visual commands in eshell")
@@ -31039,7 +30488,7 @@
           (base32
             "0wx0mca7xykjkbyhix2mhqf2l9zc46l14hdy4krnr3xdyb5ibmkr"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/aaronjensen/eslintd-fix")
     (synopsis
@@ -31063,8 +30512,7 @@
           (base32
             "03xl6a49pg3y1g3dl7fglrn956ynzj2vlviwlv08ngflvbn5shai"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)))
+    (propagated-inputs (list emacs-deferred))
     (arguments '(#:files (:defaults "sounds")))
     (home-page "https://github.com/oflatt/esonify")
     (synopsis "Sonify your code")
@@ -31080,7 +30528,7 @@
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://codeberg.org/jao/espotify")
+               (url "https://codeberg.org/jao/espotify.git")
                (commit
                  "5c1dcf0182135cda4191d4ba206fe2f265100293")))
         (sha256
@@ -31132,9 +30580,7 @@
             "04479z1397vaz48bxx3f1xdvxnq1p01gg1y5f3hcbswjl8j3ahmr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-s emacs-dash emacs-f))
     (home-page "http://github.com/ecukes/espuds")
     (synopsis "Ecukes step definitions")
     (description
@@ -31177,7 +30623,7 @@
           (base32
             "18dvg2yagk9qyn3xfnhgfv192vyqzahzfy8xgc1fnm7a1l0gcg2x"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-pcsv" ,emacs-pcsv)))
+    (propagated-inputs (list emacs-pcsv))
     (arguments '(#:files ("esqlite.el")))
     (home-page
       "https://github.com/mhayashi1120/Emacs-esqlite")
@@ -31202,8 +30648,7 @@
             "18dvg2yagk9qyn3xfnhgfv192vyqzahzfy8xgc1fnm7a1l0gcg2x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-esqlite" ,emacs-esqlite)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-esqlite emacs-helm))
     (arguments '(#:files ("esqlite-helm.el")))
     (home-page
       "https://github.com/mhayashi1120/Emacs-esqlite")
@@ -31258,9 +30703,7 @@
             "1ya2ay52gkrd31pmw45ban8kkxgnzhhwkzkypwdhjfccq3ys835x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ctable" ,emacs-ctable)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-ess" ,emacs-ess)))
+      (list emacs-ctable emacs-popup emacs-ess))
     (home-page
       "https://github.com/myuhe/ess-R-data-view.el")
     (synopsis "Data viewer for GNU R")
@@ -31283,7 +30726,7 @@
           (base32
             "17vrs3wz3gpjvnq8i5gz14jnsds8s359ynx73wwh0ydcrx79f9dh"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ess" ,emacs-ess)))
+    (propagated-inputs (list emacs-ess))
     (home-page
       "https://github.com/ShuguangSun/ess-r-insert-obj")
     (synopsis "Insert objects in ESS-R")
@@ -31306,7 +30749,7 @@
           (base32
             "1kfyvhvma31ym3xzld2msbmxvvl69wf6s0l3nj6rmrfvrlhqlnrd"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ess" ,emacs-ess)))
+    (propagated-inputs (list emacs-ess))
     (home-page
       "https://github.com/genovese/ess-smart-equals")
     (synopsis
@@ -31330,7 +30773,7 @@
           (base32
             "0knb4zfva2m0vd8awcfy5kyd21rjdhxnc1n74qazr9y82l5w7i9b"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ess" ,emacs-ess)))
+    (propagated-inputs (list emacs-ess))
     (arguments
       '(#:files
         ("ess-smart-underscore.el"
@@ -31359,9 +30802,7 @@
             "1hb83cjr711yg4dphbyg9nfkdmd1a6bcsqw964nwdarflw6jss24"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ess" ,emacs-ess)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-ess emacs-s emacs-f))
     (home-page "https://github.com/GioBo/ess-view")
     (synopsis
       "View R dataframes in a spreadsheet software")
@@ -31385,8 +30826,7 @@
             "1nm1vzjby8ind8pvqzyy5yjcf0la72azjf55pwr46rzrjgia0s1a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ess" ,emacs-ess)
-        ("emacs-csv-mode" ,emacs-csv-mode)))
+      (list emacs-ess emacs-csv-mode))
     (home-page
       "https://github.com/ShuguangSun/ess-view-data")
     (synopsis "View Data")
@@ -31409,7 +30849,7 @@
           (base32
             "0mn9pffw7kzdzwv3jkhygdkmlqax9fsrbjznbck90ydiv095fmp6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "https://github.com/jschaf/esup")
     (synopsis "The Emacs StartUp Profiler (ESUP)")
     (description
@@ -31431,7 +30871,7 @@
           (base32
             "1sx8mjk0pfbl664brfwmswn6q1z0iyz23d1457z1imh98b1g91xy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-kv" ,emacs-kv)))
+    (propagated-inputs (list emacs-kv))
     (arguments
       '(#:files ("esxml.el" "esxml-query.el")))
     (home-page "https://github.com/tali713/esxml")
@@ -31456,9 +30896,7 @@
           (base32
             "02xkrcrf62z303axy4jxr9d2xy6sbxgp6x5dj917xd04hygiqwj0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-ht emacs-dash))
     (home-page "https://www.github.com/zcaudate/eta")
     (synopsis "standard and multi dispatch key bind")
     (description
@@ -31481,8 +30919,7 @@
             "0k0g58qzkkzall715k0864v3b7p5jnfwxqgmkj087x34frcf388k"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-interval-list" ,emacs-interval-list)))
+      (list emacs-dash emacs-interval-list))
     (home-page "https://github.com/Fuco1/ETable")
     (synopsis
       "Implementation of javax.swing.JTable for Emacs.")
@@ -31506,8 +30943,7 @@
             "0f4glimf9xf87nv23vq5cjhr92f0avzvimnr9v829d69fjmjghni"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-sudo-edit" ,emacs-sudo-edit)
-        ("emacs-with-editor" ,emacs-with-editor)))
+      (list emacs-sudo-edit emacs-with-editor))
     (home-page
       "https://gitlab.com/mavit/etc-sudoers-mode/")
     (synopsis "Edit Sudo security policies")
@@ -31531,8 +30967,7 @@
             "1ip1mcry2mryr3gzina16c7m2pw71klx1ldbfv8w7rv8fsx2dsma"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-xterm-color" ,emacs-xterm-color)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-xterm-color emacs-f))
     (arguments
       '(#:files (:defaults "eterm-256color.ti")))
     (home-page
@@ -31603,10 +31038,10 @@
             "0aqws67s6c0m6sgqh9i17lpky6wbdyl3fnd3jrk6rwaiyckb1nrc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-websocket" ,emacs-websocket)
-        ("emacs-parsec" ,emacs-parsec)
-        ("emacs-0xc" ,emacs-0xc)))
+      (list emacs-request
+            emacs-websocket
+            emacs-parsec
+            emacs-0xc))
     (home-page "https://github.com/zzkt/ethermacs")
     (synopsis "Interface to the Etherpad API")
     (description
@@ -31629,10 +31064,9 @@
             "187ij4s7mzppgmh0ifny70mw8w31nq86rhsrmnflz26iywnkp8x2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-exec-path-from-shell"
-         ,emacs-exec-path-from-shell)
-        ("emacs-helm-ag" ,emacs-helm-ag)))
+      (list emacs-s
+            emacs-exec-path-from-shell
+            emacs-helm-ag))
     (arguments '(#:files (:defaults "*.py")))
     (home-page
       "https://github.com/iory/euslisp-mode")
@@ -31679,9 +31113,7 @@
             "1707c7v6n2w94nnlb6n08y2m11bh7abm6fks2zrf0i80srxb8mrk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-paredit" ,emacs-paredit)
-        ("emacs-ace-window" ,emacs-ace-window)))
+      (list emacs-dash emacs-paredit emacs-ace-window))
     (home-page
       "https://github.com/kaz-yos/eval-in-repl")
     (synopsis
@@ -31727,8 +31159,7 @@
           (base32
             "1llxxdprs8yw2hqj4dhrkrrzmkl25h7p4rcaa2cw544fmg3kvlz1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (home-page
       "http://www.github.com/seanirby/evalator")
     (synopsis
@@ -31753,8 +31184,7 @@
             "1q5s1ffmfh5dby92853xm8kjhgjfd5vbvcg1xbf8lswc1i41k7n7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-evalator" ,emacs-evalator)))
+      (list emacs-cider emacs-evalator))
     (arguments '(#:files (:defaults "*.clj")))
     (home-page
       "http://www.github.com/seanirby/evalator-clojure")
@@ -31780,8 +31210,7 @@
             "19s6cid42q0lm2w94a7f6sxvmy3zpjdj5r5dbwcxxp5n3qfs7nip"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)))
+      (list emacs-polymode emacs-markdown-mode))
     (home-page
       "https://github.com/witheve/emacs-eve-mode")
     (synopsis
@@ -31805,8 +31234,7 @@
           (base32
             "1qw33vhiiia14rzwzmvsp2w4vyrf1z6v3b8vgkcmlxyhns22g26f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-goto-chg" ,emacs-goto-chg)))
+    (propagated-inputs (list emacs-goto-chg))
     (arguments
       '(#:files
         (:defaults
@@ -31833,9 +31261,7 @@
           (base32
             "0ribvnw2slaad4xlcyxhg3linvd810qqn52qpyrjsq0dnqrpmwyl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-anzu" ,emacs-anzu)))
+    (propagated-inputs (list emacs-evil emacs-anzu))
     (home-page
       "https://github.com/syohex/emacs-evil-anzu")
     (synopsis "anzu for evil-mode")
@@ -31858,7 +31284,7 @@
           (base32
             "0k35glgsirc3cph8v5hhjrqfh4ndwh8a28qbr03y3jl8s453xcj7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page "http://github.com/wcsmith/evil-args")
     (synopsis
       "Motions and text objects for delimited arguments in Evil.")
@@ -31881,9 +31307,7 @@
           (base32
             "1q6znbnshk45mdglx519qlbfhb7g47qsm245i93ka4djsjy55j9l"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-avy" ,emacs-avy)
-        ("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-avy emacs-evil))
     (home-page "https://github.com/louy2/evil-avy")
     (synopsis "set-based completion")
     (description
@@ -31905,7 +31329,7 @@
           (base32
             "0dnh932ib3hhphprm1jjh1hdwnj96d6cnfc64rj2y4mgxji4y19l"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/yourfin/evil-better-visual-line")
     (synopsis "gj and gk visual line mode fix")
@@ -31929,10 +31353,10 @@
             "0lhnybpnk4n2yhlcnj9zxn0vi5hpjfaqfhvyfy7ckzz74g8v7iyw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-paredit" ,emacs-paredit)
-        ("emacs-smartparens" ,emacs-smartparens)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-evil
+            emacs-paredit
+            emacs-smartparens
+            emacs-dash))
     (home-page
       "https://github.com/luxbock/evil-cleverparens")
     (synopsis
@@ -31957,8 +31381,7 @@
             "1ld9iv6ysk28ps6gx6jgrqyazyqk1xd17a4fhf94m2hy7jzakwaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-evil-snipe" ,emacs-evil-snipe)))
+      (list emacs-evil emacs-evil-snipe))
     (home-page
       "https://github.com/wbolster/evil-colemak-basics")
     (synopsis
@@ -31982,7 +31405,7 @@
           (base32
             "0pd05jq4qkw5xx7xqzxzx62fsm77vjz0ry9ayaqgqw5831rbp553"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (arguments
       '(#:files ("evil-colemak-minimal.el")))
     (home-page
@@ -32009,8 +31432,7 @@
             "03i3lv9h61jnnzfjasxszwrkcf0bkkyq65lh22852n35yg7ylxyc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-annalist" ,emacs-annalist)))
+      (list emacs-evil emacs-annalist))
     (arguments '(#:files (:defaults "modes")))
     (home-page
       "https://github.com/emacs-evil/evil-collection")
@@ -32034,7 +31456,7 @@
           (base32
             "0zgigbfn0h1snls4d5xdjcg6mksaz6si0xm4827jyh5s8r0brc6w"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/linktohack/evil-commentary")
     (synopsis
@@ -32058,7 +31480,7 @@
           (base32
             "15rnxhqc56g4ydr8drvcgzvjp8blxsarm86dqc36rym7g5gnxr20"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page "unspecified")
     (synopsis
       "evil keybindings for that work with dvorak mode")
@@ -32081,7 +31503,7 @@
           (base32
             "0xsva9bnlfwfmccm38qh3yvn4jr9za5rxqn4pwxbmhnx4rk47cch"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-avy))
     (home-page
       "https://github.com/pythonnut/evil-easymotion")
     (synopsis "A port of vim's easymotion to emacs")
@@ -32104,7 +31526,7 @@
           (base32
             "0x81ws1kaiklqnsywvjyv5pifsj5hd3wsl1wq11aqik34kjxfy2g"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/justbur/evil-ediff")
     (synopsis "Make ediff a little evil")
@@ -32128,8 +31550,7 @@
             "1bga1idxj8mg5xpl7k4ymwaniyba2x13lf8yihyh713s5238fdmd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-embrace" ,emacs-embrace)
-        ("emacs-evil-surround" ,emacs-evil-surround)))
+      (list emacs-embrace emacs-evil-surround))
     (home-page "unspecified")
     (synopsis "Evil integration of embrace.el")
     (description
@@ -32151,7 +31572,7 @@
           (base32
             "1whppnlzkjig1yrz0fjvp8cy86215gjahgh88166nzk95wlc3pvf"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/syl20bnr/evil-escape")
     (synopsis "No description available.")
@@ -32174,9 +31595,7 @@
           (base32
             "0fr57nlg7m65gzhnrwnqi5bgy4vzl0l0mxk63sr3561r8fnm8hbc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-fasd" ,emacs-fasd)))
+    (propagated-inputs (list emacs-evil emacs-fasd))
     (home-page
       "https://github.com/yqrashawn/evil-ex-fasd")
     (synopsis "using fasd right from evil-ex")
@@ -32199,7 +31618,7 @@
           (base32
             "0jx2cj6p8wag7aphbgf3ij5v71prxkbxpfia8nmcpmrpvjqpsb74"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/yqrashawn/evil-ex-shell-command")
     (synopsis
@@ -32223,7 +31642,7 @@
           (base32
             "0yl6lw2vz2qf97rvfmd83i3v41yl8bp7srhmxgxmhwksy589s5y9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/Dewdrops/evil-exchange")
     (synopsis
@@ -32247,7 +31666,7 @@
           (base32
             "0872ix682hkdz0k8pn6sb54rqkx00rz5fxpd5j2snx406yagpaxz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/edkolev/evil-expat")
     (synopsis "Evil ex commands")
@@ -32270,7 +31689,7 @@
           (base32
             "049325xd7yk707mncz8mm8cshryh2ir1zf6ahwikr11iwsxgfajd"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/Dewdrops/evil-extra-operator")
     (synopsis
@@ -32295,8 +31714,7 @@
             "1bsy2bynzxr1ibyidv2r21xnfnxbzr0xh5m3h05s5igbmajxr12d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-pinyinlib" ,emacs-pinyinlib)))
+      (list emacs-evil emacs-pinyinlib))
     (home-page "unspecified")
     (synopsis
       "Evil's f/F/t/T/evil-snipe commands with Pinyin support")
@@ -32320,9 +31738,9 @@
             "0pf8bl7bmcn1l0dlxkgbgwb1n2fxpzxwcr4jf06gzyrrmmwah526"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-fringe-helper" ,emacs-fringe-helper)
-        ("emacs-goto-chg" ,emacs-goto-chg)))
+      (list emacs-evil
+            emacs-fringe-helper
+            emacs-goto-chg))
     (home-page
       "https://github.com/Andrew-William-Smith/evil-fringe-mark")
     (synopsis
@@ -32347,8 +31765,7 @@
             "1cv24qnxxf6n1grf4n5969v8y9xll5zb9mbfdnq9iavdvhnndk2h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-god-mode" ,emacs-god-mode)))
+      (list emacs-evil emacs-god-mode))
     (home-page
       "https://github.com/gridaphobe/evil-god-state")
     (synopsis
@@ -32372,7 +31789,7 @@
           (base32
             "1p3vjrij63v9nrcyj3b5jsqzv9y7dgv9i1inx1q7x3s90vndavac"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/edkolev/evil-goggles")
     (synopsis "Add a visual hint to evil operations")
@@ -32395,9 +31812,7 @@
           (base32
             "0aqwjd7pmzxf7l768vyqqgjzmqdwlpznh30w5bdr7yh79r6xm6n1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-iedit" ,emacs-iedit)))
+    (propagated-inputs (list emacs-evil emacs-iedit))
     (home-page
       "https://github.com/syl20bnr/evil-iedit-state")
     (synopsis "Evil states to interface iedit mode.")
@@ -32420,7 +31835,7 @@
           (base32
             "1g6r1ydscwjvmhh1zg4q3nap4avk8lb9msdqrh7dff6pla0r2qs6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/TheBB/evil-indent-plus")
     (synopsis
@@ -32444,7 +31859,7 @@
           (base32
             "0nghisnc49ivh56mddfdlcbqv3y2vqzjvkpgwv3zp80ga6ghvdmz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/cofi/evil-indent-textobject")
     (synopsis
@@ -32468,7 +31883,7 @@
           (base32
             "10xrlimsxk09z9cw6rxdz8qvvn1i0vhc1gdicwxri0j10p0hacl3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page "http://github.com/cofi/evil-leader")
     (synopsis "let there be <leader>")
     (description
@@ -32491,8 +31906,7 @@
             "010r1qn9l3clqqrlia0y25bqjbrixvf8i409v10yxqb949jvw1vk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-ledger-mode" ,emacs-ledger-mode)))
+      (list emacs-evil emacs-ledger-mode))
     (home-page
       "https://github.com/atheriel/evil-ledger")
     (synopsis "Make `ledger-mode' more `evil'.")
@@ -32515,7 +31929,7 @@
           (base32
             "1a162hynp0jcsn50c1w5a02mrw9w3q05c7lkqzqd25px3d0p772q"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (arguments '(#:files ("evil-lion.el")))
     (home-page "http://github.com/edkolev/evil-lion")
     (synopsis
@@ -32540,9 +31954,9 @@
             "1n6r8xs670r5qp4b5f72nr9g8nlqcrx1v7yqqlbkgv8gns8n5xgh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-bind-map" ,emacs-bind-map)
-        ("emacs-smartparens" ,emacs-smartparens)))
+      (list emacs-evil
+            emacs-bind-map
+            emacs-smartparens))
     (home-page
       "https://github.com/syl20bnr/evil-lisp-state")
     (synopsis "An evil state to edit Lisp code")
@@ -32566,9 +31980,7 @@
             "0izgd9zwfwykmznv6wjrq9czmjqc1hkw41szrjmrcxy5kbz1p5c0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lispy" ,emacs-lispy)
-        ("emacs-evil" ,emacs-evil)
-        ("emacs-hydra" ,emacs-hydra)))
+      (list emacs-lispy emacs-evil emacs-hydra))
     (home-page
       "https://github.com/sp3ctum/evil-lispy")
     (synopsis
@@ -32592,7 +32004,7 @@
           (base32
             "0v08jwb92igd8cxbb1nxjdzwymppcaar9mf89dmbk7jkqif2q72z"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/redguardtoo/evil-mark-replace")
     (synopsis "replace the thing in marked area")
@@ -32610,12 +32022,12 @@
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-matchit.git")
                (commit
-                 "ce90eae4bd31eb2cfe450266a5340f5eb43d78ec")))
+                 "f9faa0b9bf36888d83143db226938344dfc1801f")))
         (sha256
           (base32
-            "1l6nx48d0c0ws8jv3r2lhfamkzb8w2z0a8v3rylrpmwhsxf8ab06"))))
+            "03jrkzjamh8xxs3h8ga7i3jrv3rhcq0mwysrirqqvxz283hwk9mv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/redguardtoo/evil-matchit")
     (synopsis "Vim matchit ported to Evil")
@@ -32638,7 +32050,7 @@
           (base32
             "0d3d72q908rdnd4g03aakraij2himw6q4qqrf9wsr3c846q3bvrn"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page "https://github.com/gabesoft/evil-mc")
     (synopsis "Multiple cursors for evil-mode")
     (description
@@ -32661,9 +32073,9 @@
             "0f67ky9w2qapah0l0ym2c6x1j3ngf8whp1ls42f3kzb9gfi36fpn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-evil-mc" ,emacs-evil-mc)
-        ("emacs-evil-numbers" ,emacs-evil-numbers)))
+      (list emacs-evil
+            emacs-evil-mc
+            emacs-evil-numbers))
     (home-page
       "https://github.com/gabesoft/evil-mc-extras")
     (synopsis "Extra functionality for evil-mc")
@@ -32686,7 +32098,7 @@
           (base32
             "17qppyw9sx8y6caiwraxnbs4fkhvjsfk4brda7jy9wd0i074mwk4"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page "https://github.com/JorisE/evil-mu4e")
     (synopsis "evil-based key bindings for mu4e")
     (description
@@ -32708,9 +32120,7 @@
           (base32
             "08ycwss58zh2zikk79jfj074q78yjcd7vbjgv5ssqvws09x5rgfq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-iedit" ,emacs-iedit)))
+    (propagated-inputs (list emacs-evil emacs-iedit))
     (home-page
       "https://github.com/hlissner/evil-multiedit")
     (synopsis "multiple cursors for evil-mode")
@@ -32778,7 +32188,7 @@
           (base32
             "0pcacrfvvk6ra9dgq84fdcsh5ziwk78k8dmr2c442fvr2lzch4yn"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/juliapath/evil-numbers")
     (synopsis
@@ -32803,8 +32213,7 @@
             "0gci909a2rbx5i8dyzyrcddwdic7nvpk6y6djvn521yaag4sq87h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-opener" ,emacs-opener)))
+      (list emacs-evil emacs-opener))
     (arguments
       '(#:files ("evil-opener.el" "evil-opener.texi")))
     (home-page
@@ -32829,7 +32238,7 @@
           (base32
             "0i36pc7kb5ysk8hm1ll6dq5y6xpl19nm3ap64gzi3b3p94wn6jl0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/Somelauw/evil-org-mode.git")
     (synopsis "evil keybindings for org-mode")
@@ -32852,7 +32261,7 @@
           (base32
             "15yp158krz3znixgxgcblmsfh0dbxc6bf7fig8757vnmjcwlpqrv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/mamapanda/evil-owl")
     (synopsis
@@ -32877,8 +32286,7 @@
             "0b08y4spapl4g2292j3l4cr84gjlvm3rpma3gqld4yb1sxd7v78p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-paredit" ,emacs-paredit)))
+      (list emacs-evil emacs-paredit))
     (arguments '(#:files ("evil-paredit.el")))
     (home-page
       "https://github.com/roman/evil-paredit")
@@ -32902,9 +32310,7 @@
           (base32
             "14by4ilj5bw9jx6kglbm63v2cpy1flijikpymqqvs1z4flmj7cgr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-names" ,emacs-names)
-        ("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-names emacs-evil))
     (home-page
       "https://github.com/laishulu/evil-pinyin")
     (synopsis
@@ -32929,9 +32335,7 @@
             "11ivb95ilsw3svpna9n07yf8s9q3w36ia6js2qv6wf0d0dp2xb9r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-evil" ,emacs-evil)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-evil emacs-s))
     (home-page
       "https://bitbucket.org/FelipeLema/evil-python-movement.el/")
     (synopsis
@@ -32955,7 +32359,7 @@
           (base32
             "1ja9ggj70wf0nmma4xnc1zdzg2crq9h1cv3cj7cgwjmllflgkfq7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/blorbx/evil-quickscope")
     (synopsis
@@ -32980,9 +32384,7 @@
             "0mypsbf0mg2b4746r9b9ybj51qkrlxz48lf9g53kzbk3wdf6p5vi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-projectile-rails"
-         ,emacs-projectile-rails)))
+      (list emacs-evil emacs-projectile-rails))
     (home-page
       "https://github.com/antono/evil-rails")
     (synopsis "Rails support for Evil Mode")
@@ -33005,7 +32407,7 @@
           (base32
             "1nhnwl39wsi7akzcjqszxxw2b6j9i5y4qabcd8p387zajjpgscwk"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/ninrod/evil-replace-with-char")
     (synopsis
@@ -33029,7 +32431,7 @@
           (base32
             "14rpn76qrf287s3y2agmddcxi27r226i53ixjvd694ss039g0r11"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/Dewdrops/evil-ReplaceWithRegister")
     (synopsis
@@ -33053,7 +32455,7 @@
           (base32
             "0cc2yxck5brnicllcadb4m5zlzczvdy6v38q34hj8bri1kxfzslz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/linktohack/evil-rsi")
     (synopsis
@@ -33077,7 +32479,7 @@
           (base32
             "0qha7xxqxh7c6n6r26r49y85inxcbr4nvxlv2zzj0qkifw7f9ana"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/porras/evil-ruby-text-objects")
     (synopsis "Evil text objects for Ruby code")
@@ -33100,8 +32502,7 @@
           (base32
             "0ak8r7cgz5xnjyfg3w9mwxhvaw8ny3hy0i2bqn3vf5dps649iy7i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-highlight" ,emacs-highlight)))
+    (propagated-inputs (list emacs-highlight))
     (home-page "unspecified")
     (synopsis "Persistent highlights after search")
     (description
@@ -33124,8 +32525,7 @@
             "05habba44zls2d20kgzshrq2psagay16cnvcnkqgrbhvj1rxfmrk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-smartparens" ,emacs-smartparens)))
+      (list emacs-evil emacs-smartparens))
     (home-page
       "https://www.github.com/expez/evil-smartparens")
     (synopsis "Evil support for smartparens")
@@ -33148,7 +32548,7 @@
           (base32
             "0pz2s0g0859zhyryvn1glngw1aq7a04x9rydl1l89h50hf5avmvj"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/hlissner/evil-snipe")
     (synopsis "emulate vim-sneak & vim-seek")
@@ -33171,7 +32571,7 @@
           (base32
             "1x4nphjq8lvg8qsm1pj04mk9n59xc6jlxiv5s3bih1nl4xkssrxy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/linktohack/evil-space")
     (synopsis
@@ -33196,9 +32596,7 @@
             "1vwch4kwwh82k1rlc9qsg74zbghn6vkgch5xb1wz0dmbv4id06l5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-string-inflection"
-         ,emacs-string-inflection)))
+      (list emacs-evil emacs-string-inflection))
     (home-page
       "https://github.com/ninrod/evil-string-inflection")
     (synopsis
@@ -33222,7 +32620,7 @@
           (base32
             "0f9y5dwjkjv768s63bypp6nb51kklhkq58ixgzfs59r423y8l1nl"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page "unspecified")
     (synopsis "emulate surround.vim from Vim")
     (description
@@ -33268,8 +32666,7 @@
             "1qklx0j3fz3mp87v64yqbyyq5csfymbjfwvy2s4nk634wbnrra93"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-elscreen" ,emacs-elscreen)))
+      (list emacs-evil emacs-elscreen))
     (home-page
       "https://github.com/krisajenkins/evil-tabs")
     (synopsis
@@ -33293,7 +32690,7 @@
           (base32
             "0f9i5w2vdvrsmcf4vv0vf5bkrqpqdq3gm6p9a0hm1j2p0dfvh8hd"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/7696122/evil-terminal-cursor-changer")
     (synopsis
@@ -33312,12 +32709,12 @@
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "5eda325a43bd6e02ae922cdc3f3e48dfa87b90d6")))
+                 "b00018bf550fbbe1b55165579e6ede973d70f53b")))
         (sha256
           (base32
-            "0p67lsflp4v0x5nhpcrwflihiyayx6wqfn8mfypg66wijf6hcw8w"))))
+            "1qw33vhiiia14rzwzmvsp2w4vyrf1z6v3b8vgkcmlxyhns22g26f"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (arguments '(#:files ("evil-test-helpers.el")))
     (home-page "unspecified")
     (synopsis "unit test helpers for Evil")
@@ -33341,8 +32738,7 @@
             "00mrxmf6s3fss6jb0aic09vk2sk6zpy367nzy8i4r4s7zlnv4wsh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-auctex" ,emacs-auctex)))
+      (list emacs-evil emacs-auctex))
     (home-page "https://github.com/iyefrat/evil-tex")
     (synopsis
       "Useful features for editing LaTeX in evil-mode")
@@ -33365,9 +32761,7 @@
           (base32
             "0293hfgczpjghvg28s27c5r6ll1zaq466pasrhzj71sqzyvxq7ax"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-evil emacs-dash))
     (home-page
       "https://github.com/wbolster/evil-text-object-python")
     (synopsis "Python specific evil text objects")
@@ -33390,7 +32784,7 @@
           (base32
             "0wn5lp7kh3ip1bmqi12c9ivpjj0x602h8d7ag39qw36smv4jqvnb"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/noctuid/evil-textobj-anyblock")
     (synopsis
@@ -33414,9 +32808,7 @@
           (base32
             "0g9d62sgcpzvhbrdk4hf3phphfss74mjz6xv4wd9895rzjsziwkf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-names" ,emacs-names)
-        ("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-names emacs-evil))
     (home-page
       "https://github.com/noctuid/evil-textobj-column")
     (synopsis "Provides column text objects.")
@@ -33439,7 +32831,7 @@
           (base32
             "0m3krfmc9llpywr0lbya36b2jbnzx1pylvhj0p1ss5rh735m00jy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/supermomonga/evil-textobj-entire")
     (synopsis
@@ -33463,7 +32855,7 @@
           (base32
             "1w98gc1sqik8ab35a1hg5853dwar98a8qd94lxpq4ckabpgypins"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page "unspecified")
     (synopsis "Line text object for Evil")
     (description
@@ -33485,9 +32877,7 @@
           (base32
             "031p5i3274dazp7rz6m5y38shfgszm1clmkcf58qfqlvy978ammc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-names" ,emacs-names)
-        ("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-names emacs-evil))
     (home-page
       "https://github.com/laishulu/evil-textobj-syntax")
     (synopsis "Provides syntax text objects.")
@@ -33511,8 +32901,7 @@
             "108gp9iq7mrmdim0xm845g90f8n9kws4d70ad2gjwl9dcamgjxnz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-tree-sitter" ,emacs-tree-sitter)))
+      (list emacs-evil emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
     (home-page
       "https://github.com/meain/evil-textobj-tree-sitter")
@@ -33537,7 +32926,7 @@
           (base32
             "0dr4dc9gbavbfmij399ac09mb109fwpf1xkfk8g4xzmphh4chcnz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/mamapanda/evil-traces")
     (synopsis "Visual hints for `evil-ex'")
@@ -33555,17 +32944,17 @@
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "1a670b73cd990af3b08633b01f84b57edaeb92ba")))
+                 "25c7c9870a76ab64e091cd4362a3439eed17ee68")))
         (sha256
           (base32
-            "1sr8h96rzghxbs42rzv0c2abhrydjsxf98hijnffa7yqd8gffjdr"))))
+            "1vzikv8pzqslsmk59vy0w8qm0jwjkz7hisc9jff55wg40y8cw9ii"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-tree-edit" ,emacs-tree-edit)
-        ("emacs-tree-sitter" ,emacs-tree-sitter)
-        ("emacs-evil" ,emacs-evil)
-        ("emacs-avy" ,emacs-avy)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-tree-edit
+            emacs-tree-sitter
+            emacs-evil
+            emacs-avy
+            emacs-s))
     (arguments '(#:files ("evil-tree-edit.el")))
     (home-page
       "https://github.com/ethan-leba/tree-edit")
@@ -33590,7 +32979,7 @@
           (base32
             "00yfq8aflxvp2nnz7smgq0c5wlb7cips5irj8qs6193ixlkpffvx"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (arguments '(#:files (:defaults "tutor.txt")))
     (home-page
       "https://github.com/syl20bnr/evil-tutor")
@@ -33616,8 +33005,7 @@
             "1cms98cy4p5dxwfc1zhgdaln8vr2nxzcj0d31imyabb4mwliabfw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-evil-tutor" ,emacs-evil-tutor)))
+      (list emacs-evil emacs-evil-tutor))
     (arguments '(#:files (:defaults "tutor-ja.txt")))
     (home-page
       "https://github.com/kenjimyzk/evil-tutor-ja")
@@ -33643,8 +33031,7 @@
             "14qhfhk3d4c7v4jhr909dbxy8222flpqwk73bwg0pqwpkcifyv7n"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-vimish-fold" ,emacs-vimish-fold)))
+      (list emacs-evil emacs-vimish-fold))
     (home-page
       "https://github.com/alexmurray/evil-vimish-fold")
     (synopsis "Integrate vimish-fold with evil")
@@ -33667,9 +33054,7 @@
           (base32
             "1gh5614l4zf15109zc64pnnc5rp5ilah9mavgr2rbv2874k3vs4n"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-evil emacs-dash))
     (home-page "unspecified")
     (synopsis "Display evil marks on buffer")
     (description
@@ -33691,7 +33076,7 @@
           (base32
             "1gfyrq7xfzmzh3x8k5f08n027dlbwi0pkkxf9c39fkxp4jngibsz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/troyp/evil-visual-replace")
     (synopsis
@@ -33715,7 +33100,7 @@
           (base32
             "0mkbzw12fav945icibc2293m5haxqr3hzkyli2cf4ssk6yvn0x4c"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/bling/evil-visualstar")
     (synopsis
@@ -33739,8 +33124,7 @@
           (base32
             "0739v0m9vj70a55z0canslyqgafzys815i7a0r6bxj2f9iwq6rhb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-dash emacs-f))
     (home-page "http://github.com/rejeep/evm")
     (synopsis "Emacs Version Manager")
     (description
@@ -33785,8 +33169,7 @@
             "05wrz53jxhzkncsbhgg25lyi6b1vbw2kprhq0n5n87i6g9hlvl56"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ewal" ,emacs-ewal)
-        ("emacs-doom-themes" ,emacs-doom-themes)))
+      (list emacs-ewal emacs-doom-themes))
     (arguments '(#:files ("doom-themes/*.el")))
     (home-page "https://gitlab.com/jjzmajic/ewal")
     (synopsis "Dread the colors of darkness")
@@ -33809,7 +33192,7 @@
           (base32
             "05wrz53jxhzkncsbhgg25lyi6b1vbw2kprhq0n5n87i6g9hlvl56"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ewal" ,emacs-ewal)))
+    (propagated-inputs (list emacs-ewal))
     (arguments '(#:files ("evil-cursors/*.el")))
     (home-page "https://gitlab.com/jjzmajic/ewal")
     (synopsis
@@ -33834,8 +33217,7 @@
             "05wrz53jxhzkncsbhgg25lyi6b1vbw2kprhq0n5n87i6g9hlvl56"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ewal" ,emacs-ewal)
-        ("emacs-spacemacs-theme" ,emacs-spacemacs-theme)))
+      (list emacs-ewal emacs-spacemacs-theme))
     (arguments '(#:files ("spacemacs-themes/*.el")))
     (home-page "https://gitlab.com/jjzmajic/ewal")
     (synopsis "Ride the rainbow spaceship")
@@ -33903,7 +33285,7 @@
           (base32
             "0m98bwj8dy90ifck8rsda6zfgbjrv5z0166pp7qzvwls9rqa695m"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-evil))
     (home-page "https://github.com/ninrod/exato")
     (synopsis
       "EXATO: Evil XML/HTML Attributes Text Object")
@@ -33949,7 +33331,7 @@
           (base32
             "02q531c9wvdwflhggflnci4a36h2bb90bq25bbhw6i2lvrd9sk55"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://gitlab.com/KAction/emacs-execline")
     (synopsis
@@ -34060,7 +33442,7 @@
           (base32
             "15xa3wyjvbb1v4cs3svj70418qxh5psj06pgc650nl9chy5zys0k"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/md-arif-shaikh/expenses")
     (synopsis "Record and view expenses")
@@ -34083,8 +33465,7 @@
           (base32
             "0ah8zayipwp760909llb9whcdvmbsdgkg0x5y4qlcicm1r9kwcc7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-string-utils" ,emacs-string-utils)))
+    (propagated-inputs (list emacs-string-utils))
     (home-page
       "http://github.com/rolandwalker/express")
     (synopsis "Alternatives to `message'")
@@ -34107,7 +33488,7 @@
           (base32
             "1gj1q2h1ja30jizkjql12cxlppj07ykr4wxqca9msy043zdhqnkk"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/ahmadnazir/exsqlaim-mode")
     (synopsis "Use variables inside sql queries")
@@ -34192,15 +33573,13 @@
         (uri (git-reference
                (url "https://github.com/ananthakumaran/exunit.el.git")
                (commit
-                 "8871bb12ce0cdb209029ab796b0b202735f82f7f")))
+                 "0715c2dc2dca0b56c61330eda0690f90cca5f98b")))
         (sha256
           (base32
-            "1pk918xnx506q3c7927pr1h22hayg68bia8cq9ziy3rphldj0j3z"))))
+            "1x42m95gv0gxhqpyd65n5fzgwczsfdjyghp4qrhj6gi1afr7jjhh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-s emacs-f emacs-transient))
     (home-page
       "http://github.com/ananthakumaran/exunit.el")
     (synopsis "ExUnit test runner")
@@ -34244,7 +33623,7 @@
           (base32
             "0k5jkjzx6f8nfmbkc61raj585p9pymycgzv7rr3fhv2drgkaa4yi"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-exwm" ,emacs-exwm)))
+    (propagated-inputs (list emacs-exwm))
     (home-page
       "https://github.com/walseb/exwm-firefox-core")
     (synopsis "Firefox hotkeys to functions")
@@ -34268,10 +33647,9 @@
             "12rhsy5f662maip1sma0vi364xb8swb7g59r4dmafjv3b52gxik8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-exwm" ,emacs-exwm)
-        ("emacs-evil" ,emacs-evil)
-        ("emacs-exwm-firefox-core"
-         ,emacs-exwm-firefox-core)))
+      (list emacs-exwm
+            emacs-evil
+            emacs-exwm-firefox-core))
     (home-page
       "https://github.com/walseb/exwm-firefox-evil")
     (synopsis
@@ -34296,9 +33674,7 @@
             "1bwnw6qacdrm54lx4hc36f9lnidfw1wl399n7wasa24n9wrbr8z0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-xelb" ,emacs-xelb)
-        ("emacs-exwm" ,emacs-exwm)
-        ("emacs-popwin" ,emacs-popwin)))
+      (list emacs-xelb emacs-exwm emacs-popwin))
     (home-page
       "https://gitlab.com/mtekman/exwm-float.el")
     (synopsis
@@ -34343,7 +33719,7 @@
           (base32
             "0rb921fq3pyzv0w1s6n0zx4j7cvv68mb50hfa8nqnppz5ii1k0lb"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-exwm" ,emacs-exwm)))
+    (propagated-inputs (list emacs-exwm))
     (home-page
       "https://github.com/ecraven/exwm-surf")
     (synopsis
@@ -34367,9 +33743,7 @@
           (base32
             "05jilbhpbbqbgpxhy11yadmal4gsh8bh1fffxkz8b5k8dpajc634"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-exwm" ,emacs-exwm)))
+    (propagated-inputs (list emacs-async emacs-exwm))
     (home-page "https://github.com/tumashu/exwm-x")
     (synopsis
       "A derivative wm based on EXWM (emacs x window manager)")
@@ -34390,9 +33764,9 @@
                ".el"))
         (sha256
           (base32
-            "0y419crcm37cl3qm51hc8nl55xnjnaf7g1wdcpmn5raj6cij7w82"))))
+            "13xhlv2wdr3ix1i9dwp68b9ghpdbf9ri49bsp81k5alplwwchrng"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://depp.brause.cc/eyebrowse")
     (synopsis "Easy window config switching")
     (description
@@ -34414,9 +33788,7 @@
           (base32
             "19n2dzr3m56g76igh57cvvhqwpbcicwr7r6r4i3l8vsjch99kp6m"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-request emacs-s))
     (home-page "http://github.com/antham/eyuml")
     (synopsis
       "Write textual uml diagram from emacs using yuml.me")
@@ -34439,8 +33811,7 @@
           (base32
             "0zdgdqd9zi9fz6rn2z24jmpr83rzwbgxq0q38ynmskkd7n42a8ds"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "unspecified")
     (synopsis
       "a smarter context-sensitive query-replace that can be reapplied")
@@ -34485,8 +33856,7 @@
           (base32
             "0k6qp5vqyiql9f6i6z95iskjpv9wn6sd66wnf2x0jxbws4r2bjxy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("f.el")))
     (home-page "http://github.com/rejeep/f.el")
     (synopsis
@@ -34510,7 +33880,7 @@
           (base32
             "0q3ylw0i1bg7pzsv4gj72jcfjjfh57vsb3fnfnhhh5i5vladiqsf"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/cosmicexplorer/f3")
     (synopsis "a helm interface to find")
@@ -34622,8 +33992,7 @@
           (base32
             "19zm9my7fl1r3q48axjv2f8x9hcjk6qah4y4r92b90bzfmcdc30y"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)))
+    (propagated-inputs (list emacs-deferred))
     (arguments '(#:files ("lisp/*")))
     (home-page "https://github.com/tkf/factlog")
     (synopsis "File activity logger")
@@ -34670,9 +34039,7 @@
             "1w5apzbzr1jd983b0rzsy9ldb0z0zcq6mpyb5r8czl5wd4vvj69h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-noflet" ,emacs-noflet)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-kv" ,emacs-kv)))
+      (list emacs-noflet emacs-dash emacs-kv))
     (arguments '(#:files ("fakir.el")))
     (home-page
       "http://github.com/nicferrier/emacs-fakir")
@@ -34718,8 +34085,7 @@
           (base32
             "1qnh6ykmwvwk06rpi8pcvql5zq9gpiz2xiyl3j2imhmx1jiw4xdz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page
       "https://github.com/jrosdahl/fancy-dabbrev")
     (synopsis
@@ -34789,7 +34155,7 @@
           (base32
             "0kz6mv7awammgsi68vg6addkqry86sd3l8qrk3djwb77kw6rpvn6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/condy0919/fanyi.el")
     (synopsis "Not only English-Chinese translator")
@@ -34879,9 +34245,7 @@
           (base32
             "1p5vmbx7zdzxnyjzcp2vxscd3dwf7xk82wk9dfiv99svwqv2ki3w"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-w3m" ,emacs-w3m)))
+    (propagated-inputs (list emacs-ivy emacs-w3m))
     (home-page
       "http://github.com/redguardtoo/fastdef")
     (synopsis
@@ -34949,8 +34313,7 @@
           (base32
             "0dj35hwkm5v8758c4ssl873vkvplba5apjsh7l23nsmnzdji99zg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-faust-mode" ,emacs-faust-mode)))
+    (propagated-inputs (list emacs-faust-mode))
     (home-page
       "https://bitbucket.org/yphil/faustine")
     (synopsis
@@ -34975,12 +34338,11 @@
             "1i74nqivp59129w2n81x86zrf0cy4ws6wyxdsw65nib96jrwg683"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-visual-fill-column"
-         ,emacs-visual-fill-column)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-f
+            emacs-s
+            emacs-dash
+            emacs-visual-fill-column
+            emacs-async))
     (home-page
       "https://github.com/jumper047/fb2-reader")
     (synopsis "Read FB2 and FB2.ZIP documents")
@@ -35070,11 +34432,10 @@
             "11ml9n4bkm0150ifyx3igx55hnnrhbg04q8sb15v734xi29swp6z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-async-await" ,emacs-async-await)
-        ("emacs-ppp" ,emacs-ppp)
-        ("emacs-page-break-lines"
-         ,emacs-page-break-lines)))
+      (list emacs-async
+            emacs-async-await
+            emacs-ppp
+            emacs-page-break-lines))
     (home-page
       "https://github.com/conao3/feather.el")
     (synopsis
@@ -35147,7 +34508,7 @@
           (base32
             "1k22gwzrblkqqqkkdb99d5lv44nmvpmiwwv2ghw7hjh4w1wxir0z"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/HKey/feed-discovery")
     (synopsis
@@ -35214,8 +34575,7 @@
           (base32
             "1ds46hl7givwmw4zsz4nx7wg4n9xxmn1a806dxkjjqcp0cvhv4l5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-s emacs-f))
     (home-page
       "https://github.com/jcs-elpa/ffmpeg-player")
     (synopsis "Play video using ffmpeg")
@@ -35304,7 +34664,7 @@
           (base32
             "1smiad56626bc7q6vgj5gc710hnx814d4xlpxdlfzqlmj08y9dyk"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/DarwinAwardWinner/emacs-filelock")
     (synopsis
@@ -35346,14 +34706,12 @@
         (uri (git-reference
                (url "https://github.com/knpatel401/filetree.git")
                (commit
-                 "5a30023c897f0f93ec90f84caed8752b4ac98418")))
+                 "03a58d6de1e76c3a88f50cc3e8735b8b1c09650a")))
         (sha256
           (base32
-            "11pfyvvw096wlpakkamijdmn8l5xa3rvza5kyqkfrwyc6h933vkz"))))
+            "1zm7zlzzxddpbaz9mzg2r7za2p573b3v1kzdywh47hcsa7b1sxss"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-dash emacs-helm))
     (home-page
       "https://github.com/knpatel401/filetree")
     (synopsis
@@ -35488,8 +34846,7 @@
           (base32
             "03fw1si115padxss6zb9fr0dsyq1bxlhxikgh4i5swp4jd4331k5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pinyinlib" ,emacs-pinyinlib)))
+    (propagated-inputs (list emacs-pinyinlib))
     (home-page
       "http://github.com/redguardtoo/find-by-pinyin-dired")
     (synopsis
@@ -35693,13 +35050,13 @@
             "000szg9gg0ma61s0kx7ab1gnywbbi6w43csrprjyrhbgldb2bwbk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-request" ,emacs-request)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-transient" ,emacs-transient)
-        ("emacs-graphql" ,emacs-graphql)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-dash
+            emacs-request
+            emacs-f
+            emacs-s
+            emacs-transient
+            emacs-graphql
+            emacs-async))
     (home-page
       "https://github.com/LaurenceWarne/finito.el")
     (synopsis "View and collect books")
@@ -35722,8 +35079,7 @@
           (base32
             "14wnzww8qqr7ffjvnbfz0p4qfvpgv1rvn8753ik9q20jrgisvc69"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-grizzl" ,emacs-grizzl)))
+    (propagated-inputs (list emacs-grizzl))
     (home-page "https://github.com/d11wtq/fiplr")
     (synopsis "Fuzzy Search for Files in Projects")
     (description
@@ -35988,11 +35344,11 @@
             "0kl2b4j93kk9lzw0qclib55ghcwznag3p022jkr0bq5z30m2gdj4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-button-lock" ,emacs-button-lock)
-        ("emacs-nav-flash" ,emacs-nav-flash)
-        ("emacs-back-button" ,emacs-back-button)
-        ("emacs-smartrep" ,emacs-smartrep)
-        ("emacs-string-utils" ,emacs-string-utils)))
+      (list emacs-button-lock
+            emacs-nav-flash
+            emacs-back-button
+            emacs-smartrep
+            emacs-string-utils))
     (home-page
       "http://github.com/rolandwalker/fixmee")
     (synopsis
@@ -36265,8 +35621,7 @@
             "0hv9lp4ybcl7vn27cx3iq64rk0fydinq6sgyslhc2616kll6fdb7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-buffer-manage" ,emacs-buffer-manage)))
+      (list emacs-dash emacs-buffer-manage))
     (home-page
       "https://github.com/plandes/flex-compile")
     (synopsis
@@ -36313,8 +35668,7 @@
             "1jy2wsm1xc6iaxa449wwz14ky4yiaxd8g05ry59r9pf60cpxxy1h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-apel" ,emacs-apel)
-        ("emacs-oauth2" ,emacs-oauth2)))
+      (list emacs-apel emacs-oauth2))
     (arguments
       '(#:files
         ("*.texi"
@@ -36391,8 +35745,7 @@
           (base32
             "1fxjba956ikhnsgzvavgg96ryz8q6h55az7cnkgcy58q7b0jk1j2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-highlight" ,emacs-highlight)))
+    (propagated-inputs (list emacs-highlight))
     (arguments
       '(#:files ("floo" "floobits.el" "floobits.py")))
     (home-page
@@ -36419,8 +35772,7 @@
             "1d0g5v3nwy2wyjgh1f1s27bb8nxcfhq6yq3d7scgbnd6v6anyxxv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flow-minor-mode" ,emacs-flow-minor-mode)
-        ("emacs-js2-mode" ,emacs-js2-mode)))
+      (list emacs-flow-minor-mode emacs-js2-mode))
     (arguments '(#:files ("flow-js2-mode.el")))
     (home-page "unspecified")
     (synopsis
@@ -36466,8 +35818,7 @@
           (base32
             "0d2vl8lclwcn03p4ch0alb5ib0hbjp1ry5g3mkchd0pzwx6wwsrz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-clomacs" ,emacs-clomacs)))
+    (propagated-inputs (list emacs-clomacs))
     (arguments '(#:files (:defaults "project.clj")))
     (home-page
       "https://github.com/PositiveTechnologies/flower")
@@ -36541,8 +35892,7 @@
             "16j455iymwcnqh6zwwlk47x9jsdim4va9k4il3qqj8bwgjv30xmb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-flutter" ,emacs-flutter)))
+      (list emacs-flycheck emacs-flutter))
     (arguments
       '(#:files ("flutter-l10n-flycheck.el")))
     (home-page "https://github.com/amake/flutter.el")
@@ -36589,7 +35939,7 @@
           (base32
             "0sgs83gn6ms90yk68ygvcib8k5k94ql6s23qzllas07qzmx0cn48"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-flx" ,emacs-flx)))
+    (propagated-inputs (list emacs-flx))
     (arguments '(#:files ("flx-ido.el")))
     (home-page "https://github.com/lewang/flx")
     (synopsis "flx integration for ido")
@@ -36612,7 +35962,7 @@
           (base32
             "051cpdggssmbz2zhr26q2831a8g2n66r5f1aqbvczg3kfw1axpkq"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-flx" ,emacs-flx)))
+    (propagated-inputs (list emacs-flx))
     (home-page
       "https://github.com/pythonnut/flx-isearch")
     (synopsis
@@ -36637,8 +35987,7 @@
             "137zsivwh3i4b757hzwf5mhv5sg8j2jg7kg0cjphplwasqk70qm7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-pkg-info" ,emacs-pkg-info)))
+      (list emacs-dash emacs-pkg-info))
     (home-page "http://www.flycheck.org")
     (synopsis "On-the-fly syntax checking")
     (description
@@ -36660,8 +36009,7 @@
           (base32
             "0jh0pfyqdks9xk43765vgm4569a8ny01pk3gy2p3vr5gdgfdm4a3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files ("flycheck-ameba.el")))
     (home-page
       "https://github.com/crystal-ameba/ameba.el")
@@ -36685,8 +36033,7 @@
           (base32
             "0313h4yh85xndzvy3yzznar79ys0ng3rdsz0xa237xqsf71ypg4z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (arguments
       '(#:files ("flycheck-apertium.el" "dix.xsd")))
     (home-page "http://wiki.apertium.org/wiki/Emacs")
@@ -36705,13 +36052,12 @@
         (uri (git-reference
                (url "https://github.com/leotaku/flycheck-aspell.git")
                (commit
-                 "3abe1a6184fefea3e427141131fba40afae3d356")))
+                 "576e7f3e96ef8757a45106346a5f45831a8fee13")))
         (sha256
           (base32
-            "1g600caz7v7qm6fj67x0s064f4n5fr57bnd0m3sc43gn24rpjjdv"))))
+            "1680qkn6n145ib0q039081k9iwgl81i81d1wmy1myifq8h9pgjzc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files ("flycheck-aspell.el")))
     (home-page
       "https://github.com/leotaku/flycheck-aspell")
@@ -36735,8 +36081,7 @@
           (base32
             "1fv3r49i8dgszaq5rs8dwnwcj6rgx922ww01ikrq3b4c9y17srpz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "http://github.com/drvink/flycheck-ats2")
     (synopsis "Flycheck: ATS2 support")
@@ -36759,8 +36104,7 @@
           (base32
             "1gaih50mkyby0r4qnmc03dy111ik4and5p6r3lvsflpvd3hcxjn3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/alexmurray/flycheck-bashate")
     (synopsis "Integrate bashate with flycheck")
@@ -36784,8 +36128,7 @@
             "0fzcknz2gicpx5rqf8qdxiy1g2kppy2qzsgszxm28mbahf0913bb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck emacs-dash))
     (home-page
       "https://github.com/flycheck/flycheck-cask")
     (synopsis "Cask support in Flycheck")
@@ -36808,8 +36151,7 @@
           (base32
             "0ggq4q2c1xi26m4rlvjm8f51wlj7h351pp6m20k6l25856858vhi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (arguments
       '(#:files ("flycheck-cfn/flycheck-cfn.el")))
     (home-page "https://gitlab.com/worr/cfn-mode")
@@ -36834,8 +36176,7 @@
           (base32
             "1gad7i7mw8yh3cg6d5gn1d5jbsnc73v7rcw2sjvif566x8k7n18z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/cuonglm/flycheck-checkbashisms")
     (synopsis "checkbashisms checker for flycheck")
@@ -36858,8 +36199,7 @@
           (base32
             "1651xmw01n5h7x81y3cvsamdmb67jcf385ax52dkp8miyq1a090r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/zpp0/flycheck-checkpatch")
     (synopsis
@@ -36883,8 +36223,7 @@
           (base32
             "1v6h5602vf831qnlxxncbvc6hjvshr2gkg878ksdgb2bl708a1gx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/alexmurray/flycheck-clang-analyzer")
     (synopsis
@@ -36908,8 +36247,7 @@
           (base32
             "1akb41ndwqva34i059cyprsx9b8v3pxgvl082d36x86zplg06ssa"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/ch1bo/flycheck-clang-tidy")
     (synopsis
@@ -36933,8 +36271,7 @@
           (base32
             "1ckzs32wzqpnw89rrw3l7i4gbyn25wagbadsc4mcrixml5nf0mck"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/kumar8600/flycheck-clangcheck")
     (synopsis
@@ -36958,8 +36295,7 @@
           (base32
             "1i8nf2ip0gag3f3p3fh7p4iccdyydzf523r762c66vrixvr5syl9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/borkdude/flycheck-clj-kondo")
     (synopsis "Add clj-kondo linter to flycheck")
@@ -36983,8 +36319,7 @@
             "0yyy1c385jn0m6ql7vf9za4waqznr4mvv7fd234ygcbvhqn4pfdz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-cider emacs-flycheck))
     (arguments
       '(#:files ("elisp/flycheck-clojure/*.el")))
     (home-page
@@ -37009,8 +36344,7 @@
           (base32
             "163qlcjwzg8yg7ygg8h99484basz76fsqwdgv8s7v7kyfsclbjq8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/DLaps/flycheck-clolyze")
     (synopsis "Add Clolyze to to flycheck")
@@ -37034,8 +36368,7 @@
             "04wc61my2p6zbq22nh6yvap5aww9lfr5zgd7mf0l1chbvi9scdn0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck emacs-dash))
     (home-page
       "https://github.com/flycheck/flycheck-color-mode-line")
     (synopsis
@@ -37060,8 +36393,7 @@
             "17c5lppa5axw6wga3k8zqmn5f2syadlqbavrqgsi8k8nlcckxy1x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck emacs-dash))
     (home-page
       "https://github.com/alexmurray/flycheck-coverity")
     (synopsis "Integrate Coverity with flycheck")
@@ -37084,8 +36416,7 @@
           (base32
             "04i7fbqpkjpsfa8vjpkdhg1sj5isczxwncdp4vr9x3vll3svblm7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/aaronjensen/flycheck-credo")
     (synopsis "flycheck checker for elixir credo")
@@ -37108,8 +36439,7 @@
           (base32
             "1rwm7srb3xlsja4hana83an9a6l9f9rmi299qkjxhjcry8x9p78g"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files ("flycheck-crystal.el")))
     (home-page
       "https://github.com/crystal-lang-tools/emacs-crystal-mode")
@@ -37133,8 +36463,7 @@
           (base32
             "1vy5yjf98b7dk9lniz3rgk33agg8f1x8488lvm28ljdq3jfdgcfw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/Simplify/flycheck-css-colorguard/")
     (synopsis "Detect similar colors in CSS")
@@ -37157,8 +36486,7 @@
           (base32
             "19wwv4r3nh79bdfcqp55qmknl0gwicy7dcaz28hm3sswbjpfv3rw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/alexmurray/flycheck-cstyle")
     (synopsis "Integrate cstyle with flycheck")
@@ -37181,8 +36509,7 @@
           (base32
             "1v17skw0wn7a7nkc1vrs0bbzihnjw0dwvyyd0lydsihzxl5z2r5g"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis "Support Cython in flycheck")
     (description
@@ -37205,8 +36532,7 @@
             "0lrxyrvdkj88qh78jmamrnji770vjsr6h01agl7hvd4n2xvlxcym"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck emacs-dash))
     (home-page
       "https://github.com/tom-tan/flycheck-d-unittest/")
     (synopsis "Add D unittest support to flycheck")
@@ -37230,8 +36556,7 @@
             "1ffpxnwl3wx244n44mbw81g00nhnykd0lnid29f4aw1av7w6nw8l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dedukti-mode" ,emacs-dedukti-mode)))
+      (list emacs-flycheck emacs-dedukti-mode))
     (home-page
       "https://github.com/rafoo/flycheck-dedukti")
     (synopsis "Flycheck integration of Dedukti")
@@ -37254,8 +36579,7 @@
           (base32
             "1kzvq99f052mdj4ml1m6nvxhv0kqqblmpdgnwcm89krf0qfl4gjg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/aaronjensen/flycheck-dialyxir")
     (synopsis "flycheck checker for elixir dialyxir")
@@ -37278,8 +36602,7 @@
           (base32
             "1i5wm2r6rck6864a60mm6kv31vgvqnq49hi9apvhyywfn6sycwkf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis "Support dialyzer in flycheck")
     (description
@@ -37301,9 +36624,7 @@
           (base32
             "19xgj1z1b6m30syq2ps99v1gk76prmvh27nqj83nbqz57nqa0vjb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-flycheck emacs-f))
     (home-page
       "http://github.com/atilaneves/flycheck-dmd-dub")
     (synopsis
@@ -37327,8 +36648,7 @@
           (base32
             "0wmp4q1jzb6giwrv8ajgqriy155mcc7jnj5sycpfk3hw6q74js66"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/aaronjensen/flycheck-dogma")
     (synopsis "flycheck checker for elixir dogma")
@@ -37352,8 +36672,7 @@
             "0vcp3zbpi5vb8cs01fzb4268gj9ijq9qndqarwnls8w9wky4548w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-swift-mode" ,emacs-swift-mode)))
+      (list emacs-flycheck emacs-swift-mode))
     (home-page
       "https://github.com/danielmartin/flycheck-drstring")
     (synopsis "Doc linting for Swift using DrString")
@@ -37376,8 +36695,7 @@
           (base32
             "1qkzir3lzz4lc5kn55qb52cm5y7iy8w1ljq6xxzcjxfbk9980y0y"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis "Flycheck: DTrace support")
     (description
@@ -37400,8 +36718,7 @@
             "0kzcx6sjwxzamal0za2vnll77kpvshr12zwxc9czxvc9vpckf921"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck emacs-dash))
     (home-page
       "https://github.com/flycheck/flycheck-eldev")
     (synopsis "Eldev support in Flycheck")
@@ -37424,8 +36741,7 @@
           (base32
             "10y2z3w2hjycy0hx8zbhma88i2v9fs5xs7pwz3k56jnv95ipjmpy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis "Support Elixir in flycheck")
     (description
@@ -37447,8 +36763,7 @@
           (base32
             "1kjms9d2c98ffd1qxs879qhg0n4jzic0r5kni9y4gz3v09ww8zms"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/bsermons/flycheck-elm")
     (synopsis
@@ -37494,8 +36809,7 @@
           (base32
             "1wfba0p54qnr2s6nhzg1vapzppb7m124whasfrl4ki124c4sf6v1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/alexmurray/flycheck-flawfinder")
     (synopsis "Integrate flawfinder with flycheck")
@@ -37518,8 +36832,7 @@
           (base32
             "14qldlisbmxzammr500gyha2hiv2xgyzfc6mysqii06kbcqn1ik1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis "Support Flow in flycheck")
     (description
@@ -37542,8 +36855,7 @@
             "0q1m1f3vhw1wy0pa3njy55z28psznbw2xwmwk2v1p5c86n74ns8d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck emacs-dash))
     (home-page
       "https://github.com/scturtle/flycheck-ghcmod")
     (synopsis
@@ -37567,8 +36879,7 @@
           (base32
             "0xxxqk8ag082nwwq3dvhzvnbgn9c90mbda7qvi2y4qbh1p1nccqc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/weijiangan/flycheck-golangci-lint")
     (synopsis "Flycheck checker for golangci-lint")
@@ -37591,8 +36902,7 @@
           (base32
             "10gskp8ch904s3lw7g4sixfhwyx74grdivdl2wnsvd44im9zlw6c"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/favadi/flycheck-gometalinter")
     (synopsis "flycheck checker for gometalinter")
@@ -37615,8 +36925,7 @@
           (base32
             "1fiycjznzpv0gm41xx8xgqkzsjg04zgg6v4prlaqx4vfzh069a2k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/flycheck/flycheck-google-cpplint/")
     (synopsis
@@ -37640,8 +36949,7 @@
           (base32
             "14zvx7f2nszf8p14aibqa4pdg3ly7yw66a58bw2whjw9zfi9rnr0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/jojojames/flycheck-gradle")
     (synopsis "Flycheck extension for Gradle.")
@@ -37662,10 +36970,9 @@
                ".tar"))
         (sha256
           (base32
-            "15kmxiv5kxq8pv8csr0wdjxx5hhkcimbcd95ygri2shcplrbb2bl"))))
+            "14a46i10mgkqp6gvhgqk62ri5pw63wydk56095ypcnxvx2yhywk1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://git.umaneti.net/flycheck-grammalecte/")
     (synopsis "Integrate Grammalecte with Flycheck")
@@ -37689,9 +36996,7 @@
             "08njaf2fxfiww5c967qrz18zq3sazdlwdvg66nbxkyzhyhgy6r3b"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-grammarly" ,emacs-grammarly)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-flycheck emacs-grammarly emacs-s))
     (home-page
       "https://github.com/emacs-grammarly/flycheck-grammarly")
     (synopsis "Grammarly support for Flycheck")
@@ -37715,8 +37020,7 @@
             "12fp99ccshp57bkr9snwqj4bgg356d324fggpxhg0aj7qjgci7fn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-geiser" ,emacs-geiser)))
+      (list emacs-flycheck emacs-geiser))
     (home-page
       "https://github.com/flatwhatson/flycheck-guile")
     (synopsis "A Flycheck checker for GNU Guile")
@@ -37740,9 +37044,9 @@
             "08agklr9mw4rxr5mq9c5ynhqsjp5knc7571rnr19iziq33r8srl9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-haskell-mode" ,emacs-haskell-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck
+            emacs-haskell-mode
+            emacs-dash))
     (arguments '(#:files (:defaults "*.hs")))
     (home-page
       "https://github.com/flycheck/flycheck-haskell")
@@ -37768,8 +37072,7 @@
             "1al9kyj7n0cjc4s1m41389bzvvrckg28598v506zd5hqvaiynsp0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck emacs-dash))
     (home-page
       "https://github.com/flycheck/flycheck-hdevtools")
     (synopsis
@@ -37793,8 +37096,7 @@
           (base32
             "15xwnxvda3kj81q2rm8cz2qj17l9cwjqak4y6v02cv37nax0jmfh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/DamienCassou/flycheck-hledger/")
     (synopsis
@@ -37819,8 +37121,7 @@
             "0d7vkgzsx6ka4zliscsg6drqhg2bj16i911ryzmsp4v6hj294jrc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-indent-lint" ,emacs-indent-lint)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-indent-lint emacs-flycheck))
     (arguments '(#:files ("flycheck-indent.el")))
     (home-page
       "https://github.com/conao3/indent-lint.el")
@@ -37844,8 +37145,7 @@
           (base32
             "0y3dzamm7xcac9fcgx88z48l6nkgmz5lx0a6lnxxywkh0h1y2kqn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/gexplorer/flycheck-indicator")
     (synopsis
@@ -37869,8 +37169,7 @@
           (base32
             "07cw1j9k662ci19l3xpjxx4hasx5pkvi1q3f68mgkmbprbjvxqml"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://gitlab.com/danieljrmay/flycheck-ini-pyinilint")
     (synopsis "Flycheck integration for PyINILint")
@@ -37893,8 +37192,7 @@
           (base32
             "1s505lk5rdc3p40w5g4cpzviaksclvfdisl457gpwjpjv0m7fwd4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/flycheck/flycheck-inline")
     (synopsis "Display Flycheck errors inline")
@@ -37918,8 +37216,7 @@
             "00ggn7v1nj2zb7rvwmjrhybd1vcp07n74krdy28z9xwh7w59wyq7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-irony" ,emacs-irony)))
+      (list emacs-flycheck emacs-irony))
     (home-page
       "https://github.com/Sarcasm/flycheck-irony/")
     (synopsis "Flycheck: C/C++ support via Irony")
@@ -37942,8 +37239,7 @@
           (base32
             "1ipr1yyk5vf2i8q7923r18a216sgf759x5f6j5776jcjkhp98c98"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/jojojames/flycheck-jest")
     (synopsis "Flycheck extension for Jest.")
@@ -37966,8 +37262,7 @@
           (base32
             "1hz5nlrhbrlwwk8rcjvc3jhj0g9wgm6xw903ap8fxq470mj99gln"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis
       "Add Clojure syntax checker (via Joker) to flycheck")
@@ -37990,8 +37285,7 @@
           (base32
             "0wk8mc8j67dmc3mxzrhypgxmyywwrjh5q5llj4m2mgf0j7yp2576"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/gdkrmr/flycheck-julia")
     (synopsis "Julia support for Flycheck")
@@ -38015,8 +37309,7 @@
             "0vk4fdkai0ssq31ycckkz4iwp35ip5d8lnyisv4m3b98jv3pb6k0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-keg" ,emacs-keg)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-keg emacs-flycheck))
     (arguments '(#:files ("flycheck-keg.el")))
     (home-page "https://github.com/conao3/keg.el")
     (synopsis "Flycheck for Keg projects")
@@ -38039,8 +37332,7 @@
           (base32
             "1dr2y8imd6blxkpwbpds7mzn5abqpfzl8nh5zrxykrkalq2px7f2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis "Support kotlin in flycheck")
     (description
@@ -38062,8 +37354,7 @@
           (base32
             "071h40lh4l47x0b9sfwllxvaqnp1sxidy4c73icf83wikw8h81jr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/emacs-languagetool/flycheck-languagetool")
     (synopsis "Flycheck support for LanguageTool")
@@ -38086,8 +37377,7 @@
           (base32
             "1djrj3is0dzrl2703bw7bclf33dp4xqmy144q7xj5pvpb9v3kf50"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/purcell/flycheck-ledger")
     (synopsis
@@ -38111,8 +37401,7 @@
           (base32
             "1pasdrc17rxgqdldlv979vs5m99l0bkndpljdw6ldlx86hmflmn8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/hinrik/flycheck-lilypond")
     (synopsis "LilyPond support in Flycheck")
@@ -38135,8 +37424,7 @@
           (base32
             "1v5s252w2ai0rrci0rkq6wsx110pw8hp60n67990jg6l6lpvir2s"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/ucsd-progsys/liquidhaskell/flycheck-liquid.el")
     (synopsis
@@ -38161,9 +37449,7 @@
             "15pjqglpcwm4wy0cxk1man3ar0n56qi1bjrr1fxfjq2xwsgsfagh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck emacs-s emacs-dash))
     (home-page
       "https://github.com/flycheck/flycheck-mercury")
     (synopsis "Mercury support in Flycheck")
@@ -38186,8 +37472,7 @@
           (base32
             "1hmh7pzv55c53n46ajvqc1r3sfkz60pa1iz7nms3fc97m7rnc1j8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/mmark-md/flycheck-mmark")
     (synopsis
@@ -38211,8 +37496,7 @@
           (base32
             "1cx1rm40ns3y5bdbk8hfycdaq16p4zxkjjss02xs6hl96yvc4kaj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis "Support mypy in flycheck")
     (description
@@ -38235,8 +37519,7 @@
             "19xxwj66q45499s9jvw6rq8im0g7wxl9m66kq2a9ykds4v7sprlm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-dash emacs-flycheck))
     (home-page
       "https://github.com/ALSchwalm/flycheck-nim")
     (synopsis
@@ -38260,8 +37543,7 @@
           (base32
             "1bf65hrz0s6f180kn2ir8l5qn7in789w8pyy96b9gqn21z50vb9d"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/yuutayamada/flycheck-nimsuggest")
     (synopsis
@@ -38280,13 +37562,12 @@
         (uri (git-reference
                (url "https://github.com/GyazSquare/flycheck-objc-clang.git")
                (commit
-                 "5a441a31e58de17da94f933277150be39198d98c")))
+                 "0a86156fad0d6f02e8e6b4c5594f7173c96d6481")))
         (sha256
           (base32
-            "05j5bngvf3vpabjv7gcm5qar73mr1dyba7z9g1x4i385dgm97f6z"))))
+            "122j1imz755lhfhlnzl4gggghbvpqyq6r6iix3qq60kzb3hpq1b2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/GyazSquare/flycheck-objc-clang")
     (synopsis
@@ -38311,8 +37592,7 @@
             "13vzxkjq6v1f1i9zgxgjbwpiba04k9frkcl2wx6a9h3vgd7jyay0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-merlin" ,emacs-merlin)))
+      (list emacs-flycheck emacs-merlin))
     (home-page
       "https://github.com/flycheck/flycheck-ocaml")
     (synopsis "Flycheck: OCaml support")
@@ -38336,8 +37616,7 @@
             "00py39n1383761wq6wp194pvyk94ydqdbxj9kl64g9jnipkp7849"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-package-lint" ,emacs-package-lint)))
+      (list emacs-flycheck emacs-package-lint))
     (home-page
       "https://github.com/purcell/flycheck-package")
     (synopsis
@@ -38362,8 +37641,7 @@
             "072jc0vrjg531ydk5bjrjpmbvdk81yw75jqjnvb7alkib6jn5f9r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-pact-mode" ,emacs-pact-mode)))
+      (list emacs-flycheck emacs-pact-mode))
     (home-page
       "http://github.com/kadena-io/flycheck-pact")
     (synopsis "Flycheck support for pact-mode")
@@ -38387,8 +37665,7 @@
             "1ccpb1jbynlqqzhsm3h7xk2s7n9nbpnnxmixz77kxskdxj5as79a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-pest-mode" ,emacs-pest-mode)))
+      (list emacs-flycheck emacs-pest-mode))
     (arguments '(#:files ("flycheck-pest.el")))
     (home-page "https://github.com/ksqsf/pest-mode")
     (synopsis "Flycheck integration for Pest -")
@@ -38411,8 +37688,7 @@
           (base32
             "0p95h0j9v3qq4yihynp9g62rcx77p54v0q1ddwhafzzkshqqcs7f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/Junker/flycheck-php-noverify")
     (synopsis
@@ -38437,8 +37713,7 @@
             "1xm5i658pf1lb4bfpy6zy5msanhia8r9j7v7rx72amkksja3hwnj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-phpstan" ,emacs-phpstan)))
+      (list emacs-flycheck emacs-phpstan))
     (arguments '(#:files ("flycheck-phpstan.el")))
     (home-page
       "https://github.com/emacs-php/phpstan.el")
@@ -38463,9 +37738,7 @@
             "01wzzrpfgh3z28qsynxvkfm92xy98vyvkkv31qh53kxxdicnzlh0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-dash emacs-s emacs-flycheck))
     (home-page "unspecified")
     (synopsis "configure flycheck using pkg-config")
     (description
@@ -38488,8 +37761,7 @@
             "1fbdbpwrlkvbgv693ndr3zamkf3gp28v94jg911fsav8bk08f6pq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-plantuml-mode" ,emacs-plantuml-mode)))
+      (list emacs-flycheck emacs-plantuml-mode))
     (home-page
       "https://github.com/alexmurray/flycheck-plantuml")
     (synopsis "Integrate plantuml with flycheck")
@@ -38512,8 +37784,7 @@
           (base32
             "1mm558vjyjk5cxxwns69fh477ws02hhmh0ain46zp7qdz6h08nbk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/seantallen/flycheck-pony")
     (synopsis "Pony support in Flycheck")
@@ -38537,8 +37808,7 @@
             "1bi6f9nm4bylsbjv4qnkar35s6xzdf2cc2cxi3g691p9527apdz6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-popup" ,emacs-popup)))
+      (list emacs-flycheck emacs-popup))
     (home-page
       "https://github.com/flycheck/flycheck-popup-tip/")
     (synopsis
@@ -38563,8 +37833,7 @@
             "15h4m5cfk0vh1g630vlwfxmcpa1jdalrrldnvijsqla99mb2jm1w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-pos-tip" ,emacs-pos-tip)))
+      (list emacs-flycheck emacs-pos-tip))
     (home-page
       "https://github.com/flycheck/flycheck-pos-tip")
     (synopsis
@@ -38589,8 +37858,7 @@
             "0qh9hzvs95jvfrspglzkwhfq6a5pinab94bbh5vzkg8jc2fq6drf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-posframe" ,emacs-posframe)))
+      (list emacs-flycheck emacs-posframe))
     (home-page
       "https://github.com/alexmurray/flycheck-posframe")
     (synopsis
@@ -38615,8 +37883,7 @@
             "0d0y27k1nzj0clzsw8hnlkgsd5pc05kifmqkr64q50fz4kvg4zx7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-flycheck emacs-projectile))
     (arguments '(#:files ("flycheck-projectile.el")))
     (home-page
       "https://github.com/nbfalcon/flycheck-projectile")
@@ -38640,8 +37907,7 @@
           (base32
             "00jlw18y68yq0fyvfzhvw89a4nmv1ah4c8h4d6g79rl5djnb48hk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/chocoelho/flycheck-prospector")
     (synopsis "Support prospector in flycheck")
@@ -38665,8 +37931,7 @@
             "0r5qa0i42dkv0qrs2mksjx7w0yl98mdkg18blckk49w2gd8srdjr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-psalm" ,emacs-psalm)))
+      (list emacs-flycheck emacs-psalm))
     (arguments '(#:files ("flycheck-psalm.el")))
     (home-page
       "https://github.com/emacs-php/psalm.el")
@@ -38690,8 +37955,7 @@
           (base32
             "0dfsqgvmnikza9g3wjq1sclflr640wkh37b3lm9g7r74wrrk8waz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (arguments
       '(#:files (:defaults ("bin" "bin/pycheckers.py"))))
     (home-page
@@ -38717,8 +37981,7 @@
           (base32
             "03p0666vpprp6ijkvx9ypaw58bdq42gh533270plv2k5l8r22cl1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis "Support pyflakes in flycheck")
     (description
@@ -38740,8 +38003,7 @@
           (base32
             "0f58127197q6yfylz53nigyn7v91pcsdd91ywfgq5lrl0f5fvmdy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files (:defaults "bin")))
     (home-page
       "https://github.com/linnik/flycheck-pyre")
@@ -38765,8 +38027,7 @@
           (base32
             "18wyd7w26wkdpvr76rhblh368dqly7dldkcd71ddjkdi10zas493"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/Raku/flycheck-raku")
     (synopsis "Raku support in Flycheck")
@@ -38790,8 +38051,7 @@
             "1plqica209q1x8kzyy4iz97bvd8vqxgv1l00mlf946q201ps7yb1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-relint" ,emacs-relint)))
+      (list emacs-flycheck emacs-relint))
     (home-page
       "https://github.com/purcell/flycheck-relint")
     (synopsis
@@ -38816,8 +38076,7 @@
             "05cigdvlq5lfahr9a1z8rvlw2s99j4pha2in59pshz9ph8cqgq10"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-rtags" ,emacs-rtags)))
+      (list emacs-flycheck emacs-rtags))
     (arguments '(#:files ("src/flycheck-rtags.el")))
     (home-page
       "https://github.com/Andersbakken/rtags")
@@ -38842,8 +38101,7 @@
             "1fh6j5w2387nh2fwwjphkhq17cgj5m2q5k0fhidvgc2w65lzbr1r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck emacs-dash))
     (home-page
       "https://github.com/flycheck/flycheck-rust")
     (synopsis
@@ -38868,8 +38126,7 @@
             "06y4gvw8g4mjyiv77rznivqphh9sayjmi9aqr9nhxlf6i19a6hqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-stan-mode" ,emacs-stan-mode)))
+      (list emacs-flycheck emacs-stan-mode))
     (arguments
       '(#:files
         ("flycheck-stan/*.el"
@@ -38899,8 +38156,7 @@
           (base32
             "0ldy9lhh6mirjz02pnrf7z235jz55k4sdysbqxjhfidsszvp9v6w"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/liblit/flycheck-status-emoji")
     (synopsis
@@ -38924,8 +38180,7 @@
           (base32
             "094vpmpjq0skhkq634p3zgj3nmsiq1dl8k0z7hzafnaw2y157z1s"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis
       "Flycheck extension for Apple's Swift.")
@@ -38948,8 +38203,7 @@
           (base32
             "000fp4qzmc4kbjji03lxwafyvv32r4i7adf29j9s7v7dmdljpndl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/GyazSquare/flycheck-swift3")
     (synopsis
@@ -38973,8 +38227,7 @@
           (base32
             "0v1n9q5kcncd9dyfl0xwr378in8law41ciazdfd38ks0xjjppqvh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/jojojames/flycheck-swiftlint")
     (synopsis "Flycheck extension for Swiftlint.")
@@ -38998,8 +38251,7 @@
             "0v5km3hf58xysal526l4l2jpyibh0l6f367vwmn4zi64cl5hvf3p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-xcode-project" ,emacs-xcode-project)))
+      (list emacs-flycheck emacs-xcode-project))
     (home-page
       "https://github.com/nhojb/flycheck-swiftx")
     (synopsis "Flycheck: Swift backend")
@@ -39022,8 +38274,7 @@
           (base32
             "17mmj0yx7d7cwyq35ll1lw4j0yyha172375apvanrkpgpzjpnvrq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/nwidger/flycheck-tcl")
     (synopsis
@@ -39048,8 +38299,7 @@
             "1adcxz2chy0qcv5z79hhj05gdzk4l0jijy5iy9nd3sg8sclxf6nq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-popup" ,emacs-popup)))
+      (list emacs-flycheck emacs-popup))
     (home-page
       "https://github.com/yuutayamada/flycheck-tip")
     (synopsis
@@ -39073,8 +38323,7 @@
           (base32
             "0ivdv7gsbi3p6nzkyr0dl4iw3846dwys9mrx3pbnf9awzrcihnid"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
     (synopsis
       "show flycheck errors in the frame title")
@@ -39097,8 +38346,7 @@
           (base32
             "0xjaxckl5rajlxq9a4c9n8l4605n2xkkyd2sdj38kd9w9a428wvz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/abingham/flycheck-vale")
     (synopsis "flycheck integration for vale")
@@ -39122,8 +38370,7 @@
             "1vfqkfw39yg7379s6b28n8nyswv1jq7caljfbnyrndsag6z4j50k"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-vdm-mode" ,emacs-vdm-mode)))
+      (list emacs-flycheck emacs-vdm-mode))
     (arguments '(#:files ("flycheck-vdm.el")))
     (home-page
       "https://github.com/peterwvj/vdm-mode")
@@ -39147,8 +38394,7 @@
           (base32
             "1mihq4w8vbcrazx81svx81dnb84ba5h93jxyvaxly5nxxjw1i5bj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/jojojames/flycheck-xcode")
     (synopsis
@@ -39172,8 +38418,7 @@
           (base32
             "1w7b6v1zlq8c95pddx6a2rffmgghv90dpnzz6vczg37hyad3a2np"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/krzysztof-magosa/flycheck-yamllint")
     (synopsis "Flycheck integration for YAMLLint")
@@ -39197,8 +38442,7 @@
             "0bkbl1pas44bl6s3xjdb5zjbd6bmfjk39md5ds1ix4wchnkjm3iy"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-yang-mode" ,emacs-yang-mode)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-yang-mode emacs-flycheck))
     (home-page "unspecified")
     (synopsis "YANG flycheck checker")
     (description
@@ -39221,9 +38465,7 @@
             "0amdz2ss953lm39yky1dv3zp20ig97mxsk7z81694bpxnhn4kxad"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-ycmd" ,emacs-ycmd)))
+      (list emacs-dash emacs-flycheck emacs-ycmd))
     (arguments '(#:files ("flycheck-ycmd.el")))
     (home-page
       "https://github.com/abingham/emacs-ycmd")
@@ -39242,10 +38484,10 @@
         (uri (git-reference
                (url "https://github.com/leotaku/flycheck-aspell.git")
                (commit
-                 "3abe1a6184fefea3e427141131fba40afae3d356")))
+                 "576e7f3e96ef8757a45106346a5f45831a8fee13")))
         (sha256
           (base32
-            "1g600caz7v7qm6fj67x0s064f4n5fr57bnd0m3sc43gn24rpjjdv"))))
+            "1680qkn6n145ib0q039081k9iwgl81i81d1wmy1myifq8h9pgjzc"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("flymake-aspell.el")))
     (home-page
@@ -39270,8 +38512,7 @@
           (base32
             "0706jbi3jcmffxmcpvh8w3007q8sh48kgrcjip5c9hhfqpagayld"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-coffee")
     (synopsis "A flymake handler for coffee script")
@@ -39294,8 +38535,7 @@
           (base32
             "18rqzah8p7mqwkddaav1d4r146amvn8jppazvsvc5vs01syj83m9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-css")
     (synopsis
@@ -39342,8 +38582,7 @@
           (base32
             "1wbzrxxz5z1xg2lwmqgglvixxf1xm3gl6mdyj9idsbym05azm3hg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page
       "https://github.com/meqif/flymake-diagnostic-at-point")
     (synopsis "Display flymake diagnostics at point")
@@ -39434,8 +38673,7 @@
           (base32
             "1rvrxnqplwxm2havrsfsv3nrfv0zgz574rh18dkz5ixlbscjcpx7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/purcell/flymake-flycheck")
     (synopsis
@@ -39525,8 +38763,7 @@
           (base32
             "1py7ssjz4q5r28c8lzga5qi8x4gmdg3z0ga0cyskiba6krvv45ry"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://gitlab.com/shackra/flymake-golangci")
     (synopsis
@@ -39573,8 +38810,7 @@
             "0hbjixzzgm0jmpp5xp3407n0rm0b1iah94kzj2mqk2xrg1qmbbbk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-grammarly" ,emacs-grammarly)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-grammarly emacs-s))
     (home-page
       "https://github.com/emacs-grammarly/flymake-grammarly")
     (synopsis "Flymake support for Grammarly")
@@ -39597,8 +38833,7 @@
           (base32
             "0pgp2gl3wdwrzcik5b5csn4qp8iv6pc51brx8p7jrwn7bz4lkb82"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-haml")
     (synopsis "A flymake handler for haml files")
@@ -39621,8 +38856,7 @@
           (base32
             "1h21hy5fjwa5qxl31rq3jjp3wwkipdwaliq0ci184rw48kw51xjh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (arguments '(#:files ("*.el" "haskell_multi")))
     (home-page
       "https://github.com/purcell/flymake-haskell-multi")
@@ -39647,8 +38881,7 @@
           (base32
             "157f2l6hllwl12h8f502rq2kl33s202k9bcyfy2cmnn6vhky1b8s"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-hlint")
     (synopsis
@@ -39672,9 +38905,7 @@
           (base32
             "1pqi6d1kgn5s6bkabi8jxk26ffwqq7g3rl3xgas49rn9vgqwqmq1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-quickdef"
-         ,emacs-flymake-quickdef)))
+    (propagated-inputs (list emacs-flymake-quickdef))
     (home-page
       "https://github.com/beetleman/flymake-joker")
     (synopsis
@@ -39698,8 +38929,7 @@
           (base32
             "0ywm9fpb7d7ry2fly8719fa41q97yj9za3phqhv6j1chzaxvcv3a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page "unspecified")
     (synopsis "making flymake work with JSHint")
     (description
@@ -39721,8 +38951,7 @@
           (base32
             "0i6bqpbibsbqhpqfy9zl0awiqkmddi3q8xlrslcjd429f0g5f1ad"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-jslint")
     (synopsis
@@ -39746,8 +38975,7 @@
           (base32
             "1yayfh4j155fpwybh26w6hvdg1whrd8wmaz8w406s4rqpsw93q92"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-json")
     (synopsis
@@ -39815,7 +39043,7 @@
           (base32
             "1gjwxycbpvf3z332y5my6w57mjmqgs9mwfcfi0p3jdby18ykwyd2"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/emacs-languagetool/flymake-languagetool")
     (synopsis "Flymake support for LanguageTool")
@@ -39838,8 +39066,7 @@
           (base32
             "0ggi8a4j4glpsar0sqg8q06rscajjaziis5ann31wphx88rc5wd7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page "unspecified")
     (synopsis
       "Flymake handler for LESS stylesheets (lesscss.org)")
@@ -39883,9 +39110,7 @@
           (base32
             "0j4zai3par1i27szs2rws72qrqjcr3yz55pp56hl397r40kzwgmq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-quickdef"
-         ,emacs-flymake-quickdef)))
+    (propagated-inputs (list emacs-flymake-quickdef))
     (home-page
       "http://github.com/juergenhoetzel/flymake-nasm")
     (synopsis
@@ -39935,8 +39160,7 @@
           (base32
             "1ccpb1jbynlqqzhsm3h7xk2s7n9nbpnnxmixz77kxskdxj5as79a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pest-mode" ,emacs-pest-mode)))
+    (propagated-inputs (list emacs-pest-mode))
     (arguments '(#:files ("flymake-pest.el")))
     (home-page "https://github.com/ksqsf/pest-mode")
     (synopsis "A flymake handler for Pest files")
@@ -39959,8 +39183,7 @@
           (base32
             "03fk8kzlwbs9k91ra91r7djxlpv5mhbha33dnyz50sqwa52cg8ck"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-php")
     (synopsis "A flymake handler for php-mode files")
@@ -39983,8 +39206,7 @@
           (base32
             "19cggpaj14w3j3q6dgv7ybjqbr2pqbwhingz4yi7wkrr0w6s0lsa"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/senda-akiha/flymake-phpcs/")
     (synopsis
@@ -40008,8 +39230,7 @@
           (base32
             "1xm5i658pf1lb4bfpy6zy5msanhia8r9j7v7rx72amkksja3hwnj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-phpstan" ,emacs-phpstan)))
+    (propagated-inputs (list emacs-phpstan))
     (arguments '(#:files ("flymake-phpstan.el")))
     (home-page
       "https://github.com/emacs-php/phpstan.el")
@@ -40034,8 +39255,7 @@
           (base32
             "00w87qa7r8rigmpv58vpjwpn9x13sv7db5m6z4cqh76qkgkghgqi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/benprew/flymake-puppet")
     (synopsis "Flymake handler using puppet-lint")
@@ -40058,8 +39278,7 @@
           (base32
             "0hsvw6rxg3k1ymrav0bf5q3siqr9v2jp4c4h1f98szrj2lp200fm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-python-pyflakes")
     (synopsis
@@ -40127,8 +39346,7 @@
           (base32
             "0hzyxhg6y1rknvgj2ycivwrlrw7fznw9jrin5n9z627mzpjpfcnk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-ruby")
     (synopsis
@@ -40152,8 +39370,7 @@
           (base32
             "05v83l05knqv2inharmhjvzmjskjlany7dnwp5dz44bvy0jhnm39"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-sass")
     (synopsis
@@ -40177,8 +39394,7 @@
           (base32
             "1ki0zk5ijfkf4blavl62b55jnjzxw2b7blaxg51arpvvbflqmmlh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/purcell/flymake-shell")
     (synopsis
@@ -40225,8 +39441,7 @@
           (base32
             "0v8sf5m0mygqahjyadxgffdf7p59wb0qnghyxajhc69sbg58hnnd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/kootenvp/flymake-solidity")
     (synopsis
@@ -40250,8 +39465,7 @@
           (base32
             "0qpr0frcn3w0f6yz8vgavwbxvn6wb0qkfk653v4cfy57dvslr4wf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/daniellawrence/flymake-vala")
     (synopsis
@@ -40298,8 +39512,7 @@
           (base32
             "0mdam39a85csi9b90wak9j3zkd25lj6x54affwkg3fym8yphmplm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)))
+    (propagated-inputs (list emacs-flymake-easy))
     (home-page
       "https://github.com/yasuyk/flymake-yaml")
     (synopsis "A flymake handler for YAML")
@@ -40317,10 +39530,10 @@
         (uri (git-reference
                (url "https://github.com/shaohme/flymake-yamllint.git")
                (commit
-                 "34fb579087a1d97cabd001dbf3f44ea48914bcde")))
+                 "2a31b1a2e417ce8285cbbeac8d5b5fb057ddb950")))
         (sha256
           (base32
-            "1x6npp5prgcl0ahcv7x3gvv0g52fjrkgapa1sp2c62l6is5zig3h"))))
+            "1pr1v75cy1mvsviippk86wpyxbzxxrzvd9sqrslgarhxpfw52r05"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/shaohme/flymake-yamllint")
@@ -40415,9 +39628,7 @@
             "0rqp06bk260ms63sidl4x2gsnfc7hb77isjb3lm8qih98376mps7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flyspell-correct"
-         ,emacs-flyspell-correct)
-        ("emacs-avy-menu" ,emacs-avy-menu)))
+      (list emacs-flyspell-correct emacs-avy-menu))
     (arguments
       '(#:files ("flyspell-correct-avy-menu.el")))
     (home-page
@@ -40444,9 +39655,7 @@
             "0rqp06bk260ms63sidl4x2gsnfc7hb77isjb3lm8qih98376mps7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flyspell-correct"
-         ,emacs-flyspell-correct)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-flyspell-correct emacs-helm))
     (arguments
       '(#:files ("flyspell-correct-helm.el")))
     (home-page
@@ -40473,9 +39682,7 @@
             "0rqp06bk260ms63sidl4x2gsnfc7hb77isjb3lm8qih98376mps7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flyspell-correct"
-         ,emacs-flyspell-correct)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-flyspell-correct emacs-ivy))
     (arguments
       '(#:files ("flyspell-correct-ivy.el")))
     (home-page
@@ -40502,9 +39709,7 @@
             "0rqp06bk260ms63sidl4x2gsnfc7hb77isjb3lm8qih98376mps7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flyspell-correct"
-         ,emacs-flyspell-correct)
-        ("emacs-popup" ,emacs-popup)))
+      (list emacs-flyspell-correct emacs-popup))
     (arguments
       '(#:files ("flyspell-correct-popup.el")))
     (home-page
@@ -40553,8 +39758,7 @@
           (base32
             "0x7jilwb0fgzsr7ma59sgd0d4122cl0hwzr28vi3z5s8wdab7nc4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page
       "https://github.com/xuchunyang/flyspell-popup")
     (synopsis
@@ -40601,7 +39805,7 @@
           (base32
             "0qaxbqwqxxgvw1lb6icsv3mx215mg682n3jsrmqfsvgl9nc97ps6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis
       "Concise anonymous functions for Emacs Lisp")
@@ -40713,8 +39917,7 @@
           (base32
             "14jvbkahwvv4wb0s9vp8gqmlpv1d4269j5rsjxn79q5pawjzslxw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-fold-dwim" ,emacs-fold-dwim)))
+    (propagated-inputs (list emacs-fold-dwim))
     (home-page
       "https://github.com/mlf176f2/fold-dwim-org")
     (synopsis "Fold DWIM bound to org key-strokes.")
@@ -40828,8 +40031,7 @@
             "0hx3k2zx2kdavivr1b957jq7kcwk301yzw77aprxzbs7jz73a35x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-persistent-soft" ,emacs-persistent-soft)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-persistent-soft emacs-pcache))
     (home-page
       "http://github.com/rolandwalker/font-utils")
     (synopsis
@@ -40899,10 +40101,10 @@
             "17q9fqbzzdvl8isj498cjr75bk94n2jp514fsdmlw44s0xnfdk4y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-logito" ,emacs-logito)
-        ("emacs-pcache" ,emacs-pcache)
-        ("emacs-stream" ,emacs-stream)))
+      (list emacs-f
+            emacs-logito
+            emacs-pcache
+            emacs-stream))
     (home-page "https://github.com/jollm/fontsloth")
     (synopsis "Elisp otf/ttf font loader/renderer")
     (description
@@ -40972,10 +40174,10 @@
             "01qanhif24czcmhpdfkcjs019ss4r79f7y2wfbzmj6w4z7g3rikk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-dash-functional" ,emacs-dash-functional)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-s
+            emacs-dash
+            emacs-dash-functional
+            emacs-f))
     (home-page
       "http://github.com/zweifisch/foreman-mode")
     (synopsis
@@ -41021,14 +40223,14 @@
             "1n8x0bx3av935ky56rzy38d0ry73g57nsax26z3scc4na4h46yip"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-closql" ,emacs-closql)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-emacsql-sqlite" ,emacs-emacsql-sqlite)
-        ("emacs-ghub" ,emacs-ghub)
-        ("emacs-magit" ,emacs-magit)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-transient" ,emacs-transient)
-        ("emacs-yaml" ,emacs-yaml)))
+      (list emacs-closql
+            emacs-dash
+            emacs-emacsql-sqlite
+            emacs-ghub
+            emacs-magit
+            emacs-markdown-mode
+            emacs-transient
+            emacs-yaml))
     (arguments
       '(#:files ("lisp/*.el" "docs/forge.texi")))
     (home-page "https://github.com/magit/forge")
@@ -41075,8 +40277,7 @@
             "1d3mqajajr1jqkv4rnc3iwfdpipv9lk14hw4g7y8sli17l286k16"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-inheritenv" ,emacs-inheritenv)
-        ("emacs-language-id" ,emacs-language-id)))
+      (list emacs-inheritenv emacs-language-id))
     (home-page
       "https://github.com/lassik/emacs-format-all-the-code")
     (synopsis
@@ -41123,7 +40324,7 @@
           (base32
             "1z9l1qmv5hw7bgchi5f68nzsz9arjwsazvd6viq6k6jmjzncli6q"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/functionreturnfunction/format-table")
     (synopsis "Parse and reformat tabular data.")
@@ -41172,11 +40373,10 @@
             "1nqx2igxmwswjcrnzdjpx5qcjr60zjy3q9cadq5disms17wdcr6y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-epc" ,emacs-epc)
-        ("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-python-environment"
-         ,emacs-python-environment)
-        ("emacs-pos-tip" ,emacs-pos-tip)))
+      (list emacs-epc
+            emacs-auto-complete
+            emacs-python-environment
+            emacs-pos-tip))
     (arguments
       '(#:files ("fortpy*" "Makefile" "setup.py")))
     (home-page "unspecified")
@@ -41218,10 +40418,10 @@
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "f90375181460a164d1d2af966c0e7015a53e9b0b")))
+                 "3090858848a596ffa88a3b3616e31f70826c8fad")))
         (sha256
           (base32
-            "1hs9d0pnzkcl2ajjfwspghwfkrp0f41bv2pz6kdj1lvf2dd476db"))))
+            "0qvw6s4g2lbxd0w1hja5rzns2h8i40igq137603q1pp6ysmdmqsy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -41294,7 +40494,7 @@
           (base32
             "0fr4rc6axgk98sinsmqr6zhd2ba4djijmbpkha2vs1qn31p1z4g7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/IvanMalison/frame-mode")
     (synopsis "Use frames instead of windows")
@@ -41317,7 +40517,7 @@
           (base32
             "03qalcx8hbf6r0jmh7hf1r4san13fbgaaabcs4c50cam7kdv525r"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "http://github.com/alphapapa/frame-purpose.el")
     (synopsis "Purpose-specific frames")
@@ -41363,8 +40563,7 @@
           (base32
             "02wai424sxxmaz7ilfm4ap4jl5rpx5dajg534x6vxm5alfjhlpag"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/davidshepherd7/frames-only-mode")
     (synopsis "Use frames instead of Emacs windows")
@@ -41409,8 +40608,7 @@
           (base32
             "11h9xw6jnw7dacyv1jch2a77xp7hfb93690m7hhazy6l87xmm4dk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-key-chord" ,emacs-key-chord)))
+    (propagated-inputs (list emacs-key-chord))
     (home-page
       "http://github.com/nicferrier/emacs-framesize")
     (synopsis "change the size of frames in Emacs")
@@ -41433,8 +40631,7 @@
           (base32
             "1hxjvfys5kqwvl21jj5sfb6bpqxdgdhsrniq821y324glc8s38xc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-a" ,emacs-a) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-a emacs-dash))
     (home-page
       "http://github.com/alphapapa/frecency.el")
     (synopsis
@@ -41459,9 +40656,7 @@
             "1gjzis2jshsq5sdi5rv3a29cmk4iv7y6k2awxlddq3biyf80ialb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-frecency" ,emacs-frecency)
-        ("emacs-persist" ,emacs-persist)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-frecency emacs-persist emacs-async))
     (home-page "https://launchpad.net/frecentf.el")
     (synopsis "Pervasive recentf using frecency")
     (description
@@ -41551,11 +40746,9 @@
             "0xf71bvz4252y2jxkn9dpcmg5fvf9i049bbm8bvs7s9f6bcplba6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-with-shell-interpreter"
-         ,emacs-with-shell-interpreter)
-        ("emacs-friendly-tramp-path"
-         ,emacs-friendly-tramp-path)
-        ("emacs-friendly-shell" ,emacs-friendly-shell)))
+      (list emacs-with-shell-interpreter
+            emacs-friendly-tramp-path
+            emacs-friendly-shell))
     (arguments
       '(#:files
         (:defaults
@@ -41586,9 +40779,7 @@
             "0xf71bvz4252y2jxkn9dpcmg5fvf9i049bbm8bvs7s9f6bcplba6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-with-shell-interpreter"
-         ,emacs-with-shell-interpreter)))
+      (list emacs-dash emacs-with-shell-interpreter))
     (arguments
       '(#:files
         (:defaults
@@ -41618,9 +40809,7 @@
             "0xf71bvz4252y2jxkn9dpcmg5fvf9i049bbm8bvs7s9f6bcplba6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-with-shell-interpreter"
-         ,emacs-with-shell-interpreter)))
+      (list emacs-dash emacs-with-shell-interpreter))
     (arguments
       '(#:files
         (:defaults
@@ -41716,9 +40905,7 @@
             "104nhnix34ymkkgdvxn612d1k4iy95swrmb5isknd48c5mys94gq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-avy" ,emacs-avy)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-frog-menu" ,emacs-frog-menu)))
+      (list emacs-avy emacs-dash emacs-frog-menu))
     (home-page
       "https://github.com/waymondo/frog-jump-buffer")
     (synopsis
@@ -41743,15 +40930,14 @@
             "08bhsad0fmlydl47iaqj10j1r815qiy3jnm29sk5v5xjzrpby65k"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-add-node-modules-path"
-         ,emacs-add-node-modules-path)
-        ("emacs-company" ,emacs-company)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-js2-mode" ,emacs-js2-mode)
-        ("emacs-js2-refactor" ,emacs-js2-refactor)
-        ("emacs-rjsx-mode" ,emacs-rjsx-mode)
-        ("emacs-tide" ,emacs-tide)
-        ("emacs-web-mode" ,emacs-web-mode)))
+      (list emacs-add-node-modules-path
+            emacs-company
+            emacs-flycheck
+            emacs-js2-mode
+            emacs-js2-refactor
+            emacs-rjsx-mode
+            emacs-tide
+            emacs-web-mode))
     (arguments
       '(#:files
         ("packages/javascript/*.el"
@@ -41801,7 +40987,7 @@
           (base32
             "1y11q6zbmdfwswgy205f0iqsd5c4075zsf135vsnc7bpmmkpgcvw"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments
       '(#:files
         (:defaults (:exclude "eglot-fsharp.el"))))
@@ -41828,13 +41014,12 @@
             "1ks949zcqk3dqcxjv2lj9jyz6mnrvcgwg9iaa70lsb772lxza8wj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-company" ,emacs-company)
-        ("emacs-quick-peek" ,emacs-quick-peek)
-        ("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-company-quickhelp"
-         ,emacs-company-quickhelp)))
+      (list emacs-dash
+            emacs-company
+            emacs-quick-peek
+            emacs-yasnippet
+            emacs-flycheck
+            emacs-company-quickhelp))
     (arguments '(#:files (:defaults "etc")))
     (home-page
       "https://github.com/FStarLang/fstar-mode.el")
@@ -41853,10 +41038,10 @@
         (uri (git-reference
                (url "https://github.com/factor/factor.git")
                (commit
-                 "b3fe2b626ac66922da47d11767c822996581a997")))
+                 "d34f4dfb1cbe870152b60d41bcbb5195f318de0a")))
         (sha256
           (base32
-            "1vqphbxnpsbxkcsjyrnn9mdmri5nlgj8k12l8avlmqg2jdxiiyw1"))))
+            "1py8qqld0agkisksrkp01qv5p9i4wlys7cdh0p87fz4jh00scxkp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("misc/fuel/*.el")))
     (home-page "unspecified")
@@ -41947,7 +41132,7 @@
           (base32
             "1xymwk42n2l7c7iaigz23i4l580qpjgq8nqhgr4mnw6invdsgg2c"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/abo-abo/function-args")
     (synopsis "C++ completion for GNU Emacs")
@@ -42150,7 +41335,7 @@
           (base32
             "1yprlpxxh7bbxg8filgb00lqqlavbz03h7hqf4280aiypkwi0y86"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments
       '(#:files (:defaults "fxrd-modes/*el")))
     (home-page
@@ -42244,8 +41429,7 @@
             "1hjbzwgzwqwpyfm8db1r1q14bbk42hrl5469gqfzjq0423wy7szw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-gams-mode" ,emacs-gams-mode)))
+      (list emacs-auto-complete emacs-gams-mode))
     (home-page
       "https://github.com/ShiroTakeda/gams-ac")
     (synopsis
@@ -42450,8 +41634,7 @@
             "0a1srhwfbgkvndjfi9irg5s6snlxyqrw1vwyqg1sn8aqnbpgib04"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-geben" ,emacs-geben)
-        ("emacs-helm-projectile" ,emacs-helm-projectile)))
+      (list emacs-geben emacs-helm-projectile))
     (home-page
       "https://github.com/ahungry/geben-helm-projectile")
     (synopsis "Integrate helm-projectile with geben")
@@ -42522,8 +41705,7 @@
           (base32
             "0cwm3xpn4bwgvmcmi06ijydp038054nch2hnjv1lprmnk1jg6d8p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files (:defaults ("src" "src/*"))))
     (home-page
@@ -42549,8 +41731,7 @@
           (base32
             "071m2cvwanra9rd8vmybw8xd4k9a23x02cyy12f7qyjy5fp9s968"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files (:defaults ("src" "src/*"))))
     (home-page
@@ -42576,8 +41757,7 @@
           (base32
             "19j4ar7900yp2q4i4kdwqj1g0fjywflk6jr2x5n2y3zn7pj7z9nz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files (:defaults ("src" "src/*"))))
     (home-page
@@ -42603,8 +41783,7 @@
           (base32
             "1v736wh19yma3vjpgb2s1n77rrl5i3n8x451kq3cadsch0wid31d"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files (:defaults ("src" "src/*"))))
     (home-page
@@ -42630,8 +41809,7 @@
           (base32
             "1sv1a6lhxn8xhbgajz2knrblnaaryp3fz4yw19ggzdx4r30k278y"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files (:defaults "geiser-gauche.scm")))
     (home-page
@@ -42651,13 +41829,12 @@
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "adf31d3a36bf9be4b92d5c8854b4a055b1ef6f1f")))
+                 "961bb01d1930d1edef07cdb3f91fe140f9617caf")))
         (sha256
           (base32
-            "1r21d61b2l65gr90s2h83xfnjgzc4n9ris4g5n3ifvdi3pyga6k9"))))
+            "177n5z301j82cy47bx39r1h1zkrvicr28a52j7579b26ww639bvd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files (:defaults ("src" "src/*"))))
     (home-page
@@ -42683,8 +41860,7 @@
           (base32
             "1vv8i3qqk8690p4cpklvy7g3alh5fb3v7h3b91dj1gardzf0vwpf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files
         ("elisp/*.el"
@@ -42715,8 +41891,7 @@
           (base32
             "1j06y77nq6q33fhvf4kq0md4xmcrvimiycjgv35cpkxvkcprfafa"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files (:defaults ("src" "src/*"))))
     (home-page "https://gitlab.com/emacs-geiser/mit")
@@ -42741,8 +41916,7 @@
           (base32
             "1aqsvmk1hi7kc3j4h8xlza7c6rwm71v98fv5wpw8kmyj9vsp49wx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files
         (:defaults ("src" "src/*" "bin" "bin/*"))))
@@ -42768,8 +41942,7 @@
           (base32
             "0a7zv54l8hwwnympw7qhdm2mh6ijbcflxq87niljgbk0163h6y1w"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-geiser" ,emacs-geiser)))
+    (propagated-inputs (list emacs-geiser))
     (arguments '(#:files (:defaults ("geiser.stk"))))
     (home-page
       "https://gitlab.com/emacs-geiser/stklos")
@@ -42818,8 +41991,7 @@
             "0ix38nnhcajpjxsvbryw0pb006jswgjpx8rb9flsxmszj4dg6fdv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-elpher" ,emacs-elpher)
-        ("emacs-gemini-mode" ,emacs-gemini-mode)))
+      (list emacs-elpher emacs-gemini-mode))
     (home-page
       "https://alexschroeder.ch/cgit/gemini-write")
     (synopsis "Elpher for Titan")
@@ -42866,10 +42038,10 @@
             "08cw1fa25kbhbq2sp1cpn90bz38i9hjfdj93xf6wvki55b52s0nn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)
-        ("emacs-concurrent" ,emacs-concurrent)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-deferred
+            emacs-concurrent
+            emacs-log4e
+            emacs-yaxception))
     (arguments '(#:files ("*.el" "*.jar" "*.xsl")))
     (home-page
       "https://github.com/aki2o/emacs-genrnc")
@@ -42918,9 +42090,7 @@
             "1rmnpw5jn06ajij3wq2dfk4blklb16j9gwdncr0c38xsnxm07nv4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request-deferred"
-         ,emacs-request-deferred)
-        ("emacs-deferred" ,emacs-deferred)))
+      (list emacs-request-deferred emacs-deferred))
     (home-page
       "https://github.com/gonewest818/geolocation.el")
     (synopsis "Get your location on Earth")
@@ -42989,10 +42159,7 @@
             "0spmljgh82nssv5d7bsywhlgpr4n4xz9vi1ar9kaba2981q3xd2p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-hydra" ,emacs-hydra)
-        ("emacs-magit" ,emacs-magit)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-hydra emacs-magit emacs-s emacs-dash))
     (home-page "https://github.com/thisch/gerrit.el")
     (synopsis "Gerrit client")
     (description
@@ -43014,8 +42181,7 @@
           (base32
             "1ch8yp0mgk57x0pny9bvkknsqj27fd1rcmpm9s7qpryrwqkp1ix4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page
       "https://github.com/chmouel/gerrit-download.el")
     (synopsis
@@ -43039,8 +42205,7 @@
           (base32
             "1znskia2rvmpag8hs4z8d4m1yzn90ibaab94xd9qyk40f53nk4nl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-ht" ,emacs-ht)))
+    (propagated-inputs (list emacs-s emacs-ht))
     (home-page
       "https://github.com/GrammaticalFramework/gf-emacs-mode")
     (synopsis "Major mode for editing GF code")
@@ -43107,9 +42272,7 @@
             "11qjlwsiicnmgcy0yvpvagpcl31rrv5qzm18hlh16cyis4z3vngi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pcache" ,emacs-pcache)
-        ("emacs-logito" ,emacs-logito)
-        ("emacs-marshal" ,emacs-marshal)))
+      (list emacs-pcache emacs-logito emacs-marshal))
     (home-page "unspecified")
     (synopsis "A GitHub library for Emacs")
     (description
@@ -43154,8 +42317,7 @@
             "1sva7322x9cmz1z45ipsgcp3cx8ih999w911q6x23ba50ckyg569"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-forge" ,emacs-forge)))
+      (list emacs-magit emacs-forge))
     (home-page
       "https://github.com/anticomputer/gh-notify")
     (synopsis
@@ -43245,8 +42407,7 @@
           (base32
             "1fkh7zslkdi7a4x2xrk73acmigbi7yx9k6iaj75zbjfd49gyqj13"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-markdown-mode" ,emacs-markdown-mode)))
+    (propagated-inputs (list emacs-markdown-mode))
     (home-page
       "https://github.com/javaguirre/ghost-blog")
     (synopsis "A package to manage Ghost blog")
@@ -43285,13 +42446,12 @@
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "90576e987bd86e150f8451637757d8c7e6eab806")))
+                 "a32d5f8725607684b091a537375ded61bc2cb818")))
         (sha256
           (base32
-            "0b3l42vaknxfx3j39xdkzlmb71f7wi6n2vqr3qi1bjxvqz3dybqv"))))
+            "0q68wv2d8msqygigrgaq2v3nm3a0ymabnxzp4a7mai0brhdb35hj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-treepy" ,emacs-treepy)))
+    (propagated-inputs (list emacs-treepy))
     (home-page "https://github.com/magit/ghub")
     (synopsis
       "Minuscule client libraries for Git forge APIs.")
@@ -43315,8 +42475,7 @@
             "0bzri6s5mwvgir9smkz68d5cgcf4glpdmcj8dz8rjxziwrg6k5bz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ghub" ,emacs-ghub)
-        ("emacs-apiwrap" ,emacs-apiwrap)))
+      (list emacs-ghub emacs-apiwrap))
     (home-page
       "https://github.com/vermiculus/ghub-plus")
     (synopsis
@@ -43385,8 +42544,7 @@
           (base32
             "11290b6daly9nn73iw0s6386hzjk3q2iywdhiazxscxaxzhx2c8c"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)))
+    (propagated-inputs (list emacs-polymode))
     (home-page
       "https://github.com/smaret/gildas-mode")
     (synopsis "Major mode for Gildas")
@@ -43409,7 +42567,7 @@
           (base32
             "0vbyzww9qmsvdpdc6d6wq6drlq1r9y92807fjhs0frgzmq6dg0rh"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-gh" ,emacs-gh)))
+    (propagated-inputs (list emacs-gh))
     (home-page "https://github.com/defunkt/gist.el")
     (synopsis
       "Emacs integration for gist.github.com")
@@ -43433,9 +42591,7 @@
             "10siqf21ay6vl1r1v2c93rajzyjc67m4wq9q88pbij0z18vkq2f0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-s emacs-dash emacs-f))
     (home-page "http://github.com/rejeep/git.el")
     (synopsis
       "An Elisp API for programmatically using Git")
@@ -43548,7 +42704,7 @@
           (base32
             "1xbxm3fwfzpvkbw9h0bgrb9wxffzd1j1qj7ryzrd7bqr1p1zav2s"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "http://github.com/antham/git-backup")
     (synopsis "Backup each file change using git")
     (description
@@ -43571,8 +42727,7 @@
             "060x20c4q7cr5zrfsa28z2zgr6isfb2y2ys450h46a9yi3w9h60f"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-git-backup" ,emacs-git-backup)))
+      (list emacs-ivy emacs-git-backup))
     (home-page
       "https://github.com/walseb/git-backup-ivy")
     (synopsis "An ivy interface to git-backup")
@@ -43619,8 +42774,7 @@
             "01b2h88a6fxy23p9ggwlj5vv30aw16m8fnqxx9yr9c6yv8p9f5cl"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-term-run" ,emacs-term-run)
-        ("emacs-with-editor" ,emacs-with-editor)))
+      (list emacs-term-run emacs-with-editor))
     (home-page
       "https://github.com/10sr/git-command-el")
     (synopsis "A Git Command-Line interface")
@@ -43638,15 +42792,15 @@
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "463a3550e27ab1cb0dc53afb0199f2e50660f24c")))
+                 "65c4485e19bf570ebcb81fbaa6352c4e94bb05da")))
         (sha256
           (base32
-            "1chr2nwa34z0radw07qnw6kpym8834p8y2p1nagajlwdzvn2fmvk"))))
+            "07zbkmyzaf4zi8jyk69gm9k8x04xv05p7nin4qyc4rlnsz24yg8h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-transient" ,emacs-transient)
-        ("emacs-with-editor" ,emacs-with-editor)))
+      (list emacs-dash
+            emacs-transient
+            emacs-with-editor))
     (arguments
       '(#:files
         ("lisp/git-commit.el" "lisp/git-commit-pkg.el")))
@@ -43672,10 +42826,10 @@
             "02hag6jd55mqf0n90p0hvihmqjvd0cdlpm5knsxk3cll7fp0kkkr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ghub" ,emacs-ghub)
-        ("emacs-bitbucket" ,emacs-bitbucket)))
+      (list emacs-projectile
+            emacs-s
+            emacs-ghub
+            emacs-bitbucket))
     (home-page
       "https://gitlab.com/emacs-stuff/git-commit-insert-issue/")
     (synopsis
@@ -43722,8 +42876,7 @@
           (base32
             "0c1hfh62vdi9ly530crsz2aghapf0s2z9i3xdvfyyynr1gqs3mis"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)))
+    (propagated-inputs (list emacs-projectile))
     (home-page
       "https://github.com/tychoish/git-grep.el")
     (synopsis "Search tools using git grep")
@@ -43770,8 +42923,7 @@
             "0bhrrgdzzj8gwxjx7b2kibp1b6s0vgvykfg0n47iq49m6rqkgi5q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-git-commit" ,emacs-git-commit)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-git-commit emacs-dash))
     (arguments '(#:files ("git-gutter+.el")))
     (home-page
       "https://github.com/nonsequitur/git-gutter-plus")
@@ -43797,8 +42949,7 @@
             "13bqq5r8ys2mmw1ffsm6hn6fji0vq3nx3slw98c9dgbvlprkaiip"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-git-gutter" ,emacs-git-gutter)
-        ("emacs-fringe-helper" ,emacs-fringe-helper)))
+      (list emacs-git-gutter emacs-fringe-helper))
     (home-page
       "https://github.com/emacsorphanage/git-gutter-fringe")
     (synopsis "Fringe version of git-gutter.el")
@@ -43822,8 +42973,7 @@
             "1rsj193zpblndki4khjjlwl2njxb329d42l75ki55msxifqrn4fi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-git-gutter+" ,emacs-git-gutter+)
-        ("emacs-fringe-helper" ,emacs-fringe-helper)))
+      (list emacs-git-gutter+ emacs-fringe-helper))
     (arguments '(#:files ("git-gutter-fringe+.el")))
     (home-page
       "https://github.com/nonsequitur/git-gutter-fringe-plus")
@@ -43848,9 +42998,7 @@
             "1wyfszd9jzg6c7lbl2rw7xpbr6fr4rj70h0jyqnwz081j9w92bb1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-dash emacs-hydra emacs-f))
     (home-page
       "https://github.com/akirak/git-identity.el")
     (synopsis "Identity management for (ma)git")
@@ -43939,8 +43087,7 @@
           (base32
             "1ffy3im4rj9z85mx8ik6r55srhpj4ldgphgzdgf1vj9i3r2d5pcp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page
       "https://github.com/emacsorphanage/git-messenger")
     (synopsis "Popup last commit of current line")
@@ -43985,8 +43132,7 @@
           (base32
             "01fcf0qqy24ji0ka9gh91gdrp81ilq2xjwah3rv2b90yjk8wib60"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "http://github.com/kidd/git-msg-prefix.el")
     (synopsis
@@ -44056,8 +43202,7 @@
           (base32
             "05pyjhi26charkjy0mhvigd72rvb4s1s8imycfynf0fmjy7f7n7x"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)))
+    (propagated-inputs (list emacs-transient))
     (home-page
       "https://gitlab.com/pidu/git-timemachine")
     (synopsis "Walk through git revisions of a file")
@@ -44080,7 +43225,7 @@
           (base32
             "17z0csy00i56l7mmz2xhc1pmq044m17r4xy1azp775h9k9y2n6m9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-git" ,emacs-git)))
+    (propagated-inputs (list emacs-git))
     (home-page
       "https://github.com/10sr/git-walktree-el")
     (synopsis "Browse Git tree and blob objects")
@@ -44103,7 +43248,7 @@
           (base32
             "1ivnf4vsqk6c7iw1cid7q1hxp7047ajd1mpg0fl002d7m7ginhyl"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/itsjeyd/git-wip-timemachine")
     (synopsis
@@ -44172,9 +43317,7 @@
           (base32
             "12mk8cl1mpfapdgxwcm6rlyfg9yyk2wk8hv2486hqb6qb77kdg9i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-gh" ,emacs-gh)
-        ("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-gh emacs-magit))
     (home-page
       "https://github.com/dgtized/github-clone.el")
     (synopsis "Fork and clone github repos")
@@ -44221,9 +43364,9 @@
             "19jidx1v3awga0d95shdcz5vgwfw4svpgs5l43d4l340lz84c4dk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-package-build" ,emacs-package-build)
-        ("emacs-commander" ,emacs-commander)
-        ("emacs-git" ,emacs-git)))
+      (list emacs-package-build
+            emacs-commander
+            emacs-git))
     (arguments '(#:files (:defaults "bin")))
     (home-page "https://github.com/10sr/github-elpa")
     (synopsis
@@ -44247,8 +43390,7 @@
           (base32
             "1n7h5sw6b6907w2ry9d1knmda86s8iy9bim75ggyy6qcy06w0jdh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-graphql" ,emacs-graphql)))
+    (propagated-inputs (list emacs-graphql))
     (home-page
       "https://github.com/TxGVNN/github-explorer")
     (synopsis
@@ -44318,9 +43460,7 @@
             "1yr7v2wdrvwb1slks83bbh857qq1n207rdk48y8qwlcxbk4ygdr6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-magit" ,emacs-magit)))
+      (list emacs-request emacs-dash emacs-magit))
     (home-page
       "https://github.com/jakoblind/github-pullrequest")
     (synopsis
@@ -44345,11 +43485,11 @@
             "1261p65wlpl9s5xqq1jfnkj7hrn27a4bn85rxc3allqdl5hc63hd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-ghub" ,emacs-ghub)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-a" ,emacs-a)))
+      (list emacs-s
+            emacs-ghub
+            emacs-dash
+            emacs-deferred
+            emacs-a))
     (home-page
       "https://github.com/charignon/github-review")
     (synopsis "GitHub based code review")
@@ -44372,9 +43512,7 @@
           (base32
             "19qmvwki9nfbd2pz5ld36mzcbj8plfls7snmzssgkpw06n0y68j9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-gh" ,emacs-gh)))
+    (propagated-inputs (list emacs-magit emacs-gh))
     (home-page
       "https://github.com/IvanMalison/github-search")
     (synopsis
@@ -44398,7 +43536,7 @@
           (base32
             "1wp1zfwa4ai0771pkmcsybw8z8zwbwmqazm9fszyg8dsdns5wz2f"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ghub" ,emacs-ghub)))
+    (propagated-inputs (list emacs-ghub))
     (home-page
       "https://github.com/xuchunyang/github-stars.el")
     (synopsis "Browse your Github Stars")
@@ -44443,8 +43581,7 @@
           (base32
             "07qrlyb0n9h3r3b9lvqbd1fi97g3xb27836lgbdpphvvyw92975q"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page
       "https://github.com/sei40kr/gitignore-snippets")
@@ -44492,10 +43629,10 @@
             "056c4fb5sj2y4h94klx2g24n1g3qdi7ifzs8ksw5v6hcj9lrkb1n"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-pkg-info" ,emacs-pkg-info)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-s
+            emacs-dash
+            emacs-pkg-info
+            emacs-request))
     (arguments '(#:files ("gitlab*.el")))
     (home-page
       "https://github.com/nlamirault/emacs-gitlab")
@@ -44519,8 +43656,7 @@
           (base32
             "0yd6s5vy5afkigm87xyh1nnwljplx1wdn5h02224ica0py48fzhd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yaml-mode" ,emacs-yaml-mode)))
+    (propagated-inputs (list emacs-yaml-mode))
     (home-page
       "https://gitlab.com/joewreschnig/gitlab-ci-mode/")
     (synopsis "Mode for editing GitLab CI files")
@@ -44544,8 +43680,7 @@
             "1w1simnlffg56j79gal1qf1nlav9f8fmr2zfswfrmcv6cac6fhj9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-gitlab-ci-mode" ,emacs-gitlab-ci-mode)))
+      (list emacs-flycheck emacs-gitlab-ci-mode))
     (home-page
       "https://gitlab.com/joewreschnig/gitlab-ci-mode-flycheck/")
     (synopsis
@@ -44569,7 +43704,7 @@
           (base32
             "00i6q4pggaq97xgvi2ifanh0lx8nq5gbi4r2gy596635x26a55zq"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ghub" ,emacs-ghub)))
+    (propagated-inputs (list emacs-ghub))
     (home-page
       "https://github.com/TxGVNN/gitlab-pipeline")
     (synopsis
@@ -44593,9 +43728,7 @@
           (base32
             "1mxkcnjgazc1pyjbqqfnhc9phpyrgah960avm2fmi7m9n5v8cf0w"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-dash emacs-helm))
     (home-page
       "https://gitlab.com/sasanidas/gitlab-snip-helm")
     (synopsis "Gitlab snippets api helm package")
@@ -44619,9 +43752,7 @@
             "11i9hxj76869w1z9xn7wq370v56hx5hm4d7msn4zgp64glpa66j9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-dash emacs-s emacs-pcache))
     (home-page
       "https://github.com/IvanMalison/gitolite-clone")
     (synopsis
@@ -44688,9 +43819,7 @@
           (base32
             "1fc8srqvygiv3h2hw31vy20ip6kbm2m1aq5imx01fw9qig7xfv47"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-db" ,emacs-db)
-        ("emacs-company" ,emacs-company)))
+    (propagated-inputs (list emacs-db emacs-company))
     (home-page
       "https://github.com/Kinneyzhang/gkroam")
     (synopsis
@@ -44737,9 +43866,7 @@
           (base32
             "0d1xil1cw0jrk4ciifph2qdhk0qb1h906zgryy74yaj3gd2dx7ak"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-ht" ,emacs-ht)))
+    (propagated-inputs (list emacs-async emacs-ht))
     (home-page
       "https://launchpad.net/global-tags.el")
     (synopsis
@@ -44786,8 +43913,7 @@
           (base32
             "0xcdd3abcrqr7nabdmmh0kgfar64hhgnrhsiwg3q201cymhnv49p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ham-mode" ,emacs-ham-mode)))
+    (propagated-inputs (list emacs-ham-mode))
     (home-page
       "http://github.com/Bruce-Connor/gmail-message-mode")
     (synopsis
@@ -44947,9 +44073,7 @@
             "1svnvm9fqqx4mrk9jjn11pzqwk71w8kyyd9wwxam8gz22ykw5jb2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-kv" ,emacs-kv)))
+      (list emacs-s emacs-dash emacs-kv))
     (home-page
       "http://github.com/nicferrier/emacs-nm")
     (synopsis
@@ -45113,12 +44237,12 @@
             "01jm2maa8q0zjpqa95c84k9b9jx5rgwvvhaqbwvw8ccz883mcdjm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-bbdb" ,emacs-bbdb)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-s" ,emacs-s)
-        ("emacs-lv" ,emacs-lv)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-bbdb
+            emacs-helm
+            emacs-hydra
+            emacs-s
+            emacs-lv
+            emacs-async))
     (home-page
       "https://github.com/deusmax/gnus-notes")
     (synopsis
@@ -45235,8 +44359,7 @@
             "1i3f67x2l9l5c5agspbkxr2mmh3rpq3009d8yzh6r1lih0b4hril"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-log4e emacs-yaxception))
     (home-page
       "https://github.com/aki2o/gnus-x-gm-raw")
     (synopsis
@@ -45284,7 +44407,7 @@
           (base32
             "1gr65skrd41pk46ilfsbxfdng4br6h9c6blf1q1wx6i9ylhs0ak5"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/syohex/emacs-go-add-tags")
     (synopsis "Add field tags for struct fields")
@@ -45307,8 +44430,7 @@
           (base32
             "0a5zga3jxs4pidcakd88im9ddin8xfn7y6xjp27x645fm5in4j05"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)))
+    (propagated-inputs (list emacs-auto-complete))
     (home-page "unspecified")
     (synopsis
       "auto-complete-mode backend for go-mode")
@@ -45331,8 +44453,7 @@
           (base32
             "021mc1lq4xvmj8dvnpr6hhfs08cd0r07d520h498b345y6a6ihdg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (home-page
       "https://github.com/vibhavp/go-complete")
     (synopsis "Native code completion for Go")
@@ -45355,8 +44476,7 @@
           (base32
             "09rxz40bkr0l75v3lmf8lcwqsgjiv5c8zjmwzy2d4syj4qv69c5y"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-direx" ,emacs-direx)))
+    (propagated-inputs (list emacs-direx))
     (home-page
       "https://github.com/syohex/emacs-go-direx")
     (synopsis
@@ -45380,8 +44500,7 @@
           (base32
             "1h4p0i13fxsr4rgxh4grn5p24sbwb9c6mszwdajnlf8yjz65prf9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (home-page "https://github.com/benma/go-dlv.el/")
     (synopsis
       "Go Delve - Debug Go programs interactively with the GUD.")
@@ -45404,8 +44523,7 @@
           (base32
             "1029qg6ida3cw4ynxll6ykpnqkpbrbrx12nnzcplhc25vqpz7hik"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (home-page
       "https://github.com/syohex/emacs-go-eldoc")
     (synopsis "eldoc for go-mode")
@@ -45493,7 +44611,7 @@
           (base32
             "1r0cdpfrrz3lgkd7xzkw77c48w11l9maydm32rz27zpjgzgpakdp"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments
       '(#:files (:defaults "go-gen-test.el")))
     (home-page
@@ -45541,8 +44659,7 @@
           (base32
             "0j430sd72pkh00773yqrg1jllli9yccdf645yxrxsf3n3k95s603"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (arguments '(#:files ("go-guru.el")))
     (home-page "unspecified")
     (synopsis
@@ -45588,8 +44705,7 @@
           (base32
             "1i48vawn2a76bdbvv02mw7c5ny7g8dxk6b6xw2y9z0iijmbr0dzl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (home-page
       "https://github.com/syohex/emacs-go-impl")
     (synopsis "impl integration for go-mode")
@@ -45684,8 +44800,7 @@
             "1zzdkp6zqh03gfiirmvwv5c8s9m4511zcaya9cp5sjzmh0g5wjip"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)
-        ("emacs-gotest" ,emacs-gotest)))
+      (list emacs-go-mode emacs-gotest))
     (home-page
       "https://github.com/grafov/go-playground")
     (synopsis
@@ -45710,11 +44825,11 @@
             "1fcm65r1sy2fmcp2i7mwc7mxqiaf4aaxda4i2qrm8s25cxsffir7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-names" ,emacs-names)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-request
+            emacs-deferred
+            emacs-names
+            emacs-s
+            emacs-f))
     (arguments '(#:files ("go-playground-cli.el")))
     (home-page
       "https://github.com/kosh04/go-playground-cli")
@@ -45739,12 +44854,12 @@
             "1ai34z7n56cczz6qb0vbcrqbjrkmxwv9r928pjbw58812nycj1mh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-go-mode" ,emacs-go-mode)
-        ("emacs-go-eldoc" ,emacs-go-eldoc)
-        ("emacs-go-rename" ,emacs-go-rename)
-        ("emacs-go-guru" ,emacs-go-guru)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-projectile
+            emacs-go-mode
+            emacs-go-eldoc
+            emacs-go-rename
+            emacs-go-guru
+            emacs-dash))
     (home-page
       "https://github.com/dougm/go-projectile")
     (synopsis "Go add-ons for Projectile")
@@ -45767,8 +44882,7 @@
           (base32
             "0j430sd72pkh00773yqrg1jllli9yccdf645yxrxsf3n3k95s603"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (arguments '(#:files ("go-rename.el")))
     (home-page "unspecified")
     (synopsis
@@ -45792,8 +44906,7 @@
           (base32
             "1a6vg2vwgnafb61pwrd837fwlq5gs80wawbzjsnykawnmcaag8pm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (home-page "unspecified")
     (synopsis "*scratch* buffer for Go")
     (description
@@ -45815,8 +44928,7 @@
           (base32
             "0rs2yj9bh0snf13hfj9bvyawl16j8416naz6h52l21q72ymd4b0k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page "unspecified")
     (synopsis "Yasnippets for go")
@@ -45861,8 +44973,7 @@
           (base32
             "0r72qk79q8yyidpxgq4r0295fm73id946p1r4s65bwyzii76rjyi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (home-page
       "https://github.com/brantou/emacs-go-tag")
     (synopsis "Edit Golang struct field tag")
@@ -45970,10 +45081,10 @@
         (uri (git-reference
                (url "https://github.com/minad/goggles.git")
                (commit
-                 "36139cb1898c763be08167c74b5c5d05efada9e5")))
+                 "3e48a56356991b3ff5228eced19b07862835cdcd")))
         (sha256
           (base32
-            "06r5zpp4k4flv9slkpgxfy9m9c7b5kyix2si30bdka3fq4c1jwl5"))))
+            "0mkbra0a14rxh0716m6zxlkx05rhq1fn6n3yry29wwiabxa3w8ab"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/goggles")
     (synopsis "Pulse modified regions")
@@ -45996,8 +45107,7 @@
           (base32
             "1k4i9z9h4m0h0y92mncr96jir63q5h1bix5bpnlfxhxl5w8pvk1q"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-sws-mode" ,emacs-sws-mode)))
+    (propagated-inputs (list emacs-sws-mode))
     (home-page
       "https://github.com/yuutayamada/gold-mode-el")
     (synopsis "Major mode for editing .gold files")
@@ -46132,8 +45242,7 @@
           (base32
             "1f3y46q7djr1riz7x26gc7a1gf9p8sfdrnlqyiwzmi9vkk6h8wdz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (home-page
       "https://github.com/storvik/gomacro-mode")
     (synopsis "Gomacro mode and Go REPL integration")
@@ -46194,10 +45303,10 @@
         (uri (git-reference
                (url "https://github.com/google/styleguide.git")
                (commit
-                 "9806df89a3bc110cb9cabc41287bf942710599a3")))
+                 "842b872ac4da18dda02b797976ea12fd7d84768f")))
         (sha256
           (base32
-            "10l80l8aq30c4pgf930wj9dgfbhxp9jx81f4jnl2gq8z9bd7qwp6"))))
+            "09bxbm59fbqjqcmsmnqg74yzzmi92h9b2z4r62x5hpz625045mhg"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Google's C/C++ style for c-mode")
@@ -46220,8 +45329,7 @@
           (base32
             "0s07bcd1d9z9y0cl68baikcf3b781r4r1xi04yyi65l25ds36pg3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-oauth2" ,emacs-oauth2)))
+    (propagated-inputs (list emacs-oauth2))
     (home-page
       "https://github.com/jd/google-contacts.el")
     (synopsis "Support for Google Contacts in Emacs")
@@ -46333,8 +45441,7 @@
           (base32
             "0l022aqpnb38q6kgdqpbxrc1r7fljwl7xq14yi5jb7qgzw2v43cz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-go-mode))
     (home-page "unspecified")
     (synopsis
       "Simple mode for gore, a command-line evaluator for golang.")
@@ -46358,9 +45465,7 @@
             "0ydiq55ylm8ph2r5nlv9p7a5bnnxk3c9731l7mbzdhd43f734dld"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-hydra" ,emacs-hydra)))
+      (list emacs-s emacs-f emacs-hydra))
     (home-page
       "http://www.github.com/manute/gorepl-mode")
     (synopsis
@@ -46385,9 +45490,7 @@
             "0693fcli1nv9mn60gh30xspwiwhab8vxf09i1s9yxs80ai712i12"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-go-mode" ,emacs-go-mode)))
+      (list emacs-s emacs-f emacs-go-mode))
     (home-page
       "https://github.com/nlamirault/gotest.el")
     (synopsis "Launch GO unit tests")
@@ -46540,16 +45643,16 @@
         (uri (git-reference
                (url "https://github.com/vmware/govmomi.git")
                (commit
-                 "a96a919252ceb63fa18e597b95ade8bf5da8040f")))
+                 "10046a02daec375b12624e2e46fd555c28e8fd6c")))
         (sha256
           (base32
-            "0scybi2w20mppl1wbrqydq8p43a4zp9318c3bikqiazc3x8yfsbn"))))
+            "1x7avpy788avzxqkb01xmb0f02gvlc0yd2h0j557hjch0w04z85f"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-magit-popup" ,emacs-magit-popup)
-        ("emacs-json-mode" ,emacs-json-mode)))
+      (list emacs-dash
+            emacs-s
+            emacs-magit-popup
+            emacs-json-mode))
     (arguments '(#:files ("govc/emacs/*.el")))
     (home-page
       "https://github.com/vmware/govmomi/tree/master/govc/emacs")
@@ -46665,7 +45768,7 @@
           (base32
             "0xs2278gamzg0710bm1fkhjh1p75m2l1jcl98ldhyjhvaf9d0ysc"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "http://github.com/jacobono/emacs-gradle-mode")
     (synopsis
@@ -46734,8 +45837,7 @@
           (base32
             "0xnj0wp0na53l0y8fiaah50ij4r80j8a29hbjbcicska21p5w1s1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)))
+    (propagated-inputs (list emacs-projectile))
     (home-page
       "https://github.com/yveszoundi/grails-projectile-mode")
     (synopsis
@@ -46760,9 +45862,7 @@
             "0dxds8w213ad4czw5mrrb8a2i41jwsvrphy797lln5j7h404gs07"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-request" ,emacs-request)
-        ("emacs-websocket" ,emacs-websocket)))
+      (list emacs-s emacs-request emacs-websocket))
     (home-page
       "https://github.com/emacs-grammarly/grammarly")
     (synopsis "Grammarly API interface")
@@ -46809,20 +45909,17 @@
             "0j0igcmfl61c4pakqmyxpwr4kjar9i81vkl84rw19phc7k9497nb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-exec-path-from-shell"
-         ,emacs-exec-path-from-shell)
-        ("emacs-ppd-sr-speedbar" ,emacs-ppd-sr-speedbar)
-        ("emacs-sr-speedbar" ,emacs-sr-speedbar)
-        ("emacs-ido-completing-read+"
-         ,emacs-ido-completing-read+)
-        ("emacs-smex" ,emacs-smex)
-        ("emacs-web-mode" ,emacs-web-mode)
-        ("emacs-smartparens" ,emacs-smartparens)
-        ("emacs-graphene-meta-theme"
-         ,emacs-graphene-meta-theme)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-dash
+            emacs-exec-path-from-shell
+            emacs-ppd-sr-speedbar
+            emacs-sr-speedbar
+            emacs-ido-completing-read+
+            emacs-smex
+            emacs-web-mode
+            emacs-smartparens
+            emacs-graphene-meta-theme
+            emacs-flycheck
+            emacs-company))
     (arguments '(#:files ("lib/*")))
     (home-page
       "https://github.com/rdallasgray/graphene")
@@ -46864,10 +45961,10 @@
         (uri (git-reference
                (url "https://github.com/vermiculus/graphql.el.git")
                (commit
-                 "e2b309689f4faf9225f290080f836e988c5a576d")))
+                 "5ca5f50b5e6f3883f1138453a356d59a1c002120")))
         (sha256
           (base32
-            "1hqvsr2s2lbdssbx3v8nqxdhhdvydx6hpbhh4rlnfcadhhs0f6nr"))))
+            "0wh0f49574zdv0r7zdhckv4jr3ggwzlgyxda0y0hxw8vabzvavw6"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("graphql.el")))
     (home-page
@@ -46893,8 +45990,7 @@
             "0hb6nxyiz36r3ii8iava76cv0k4nckslli20q2iw8s1nszgwbxky"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-promise" ,emacs-promise)))
+      (list emacs-request emacs-promise))
     (home-page
       "https://github.com/ifitzpatrick/graphql-doc.el")
     (synopsis "GraphQL Documentation Explorer")
@@ -46987,7 +46083,7 @@
           (base32
             "023s9kn012z6m4aprsq77zv4kvfvwfics5gcdja7ig4xwqqrzymq"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis
       "Provides Emacs modes for interacting with the GRASS GIS program")
@@ -47235,9 +46331,7 @@
           (base32
             "1bsmf64ycmfnsb0r0nyaky1h3x2fpr4qyck3ihw16pa6d7spaw8c"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-pcache" ,emacs-pcache)))
+    (propagated-inputs (list emacs-s emacs-pcache))
     (home-page
       "http://www.github.com/mbezjak/emacs-groovy-imports")
     (synopsis "Code for dealing with Groovy imports")
@@ -47260,8 +46354,7 @@
           (base32
             "1pfaan0chvxpvf1zp3inpx47smm7rb22q4cklhw27n70cqh6qix5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("*groovy*.el")))
     (home-page "unspecified")
     (synopsis "Major mode for Groovy source files")
@@ -47328,7 +46421,7 @@
           (base32
             "1xd6gv9bkqnj7j5mcnwvl1mxjmzvxqhp135hxj0ijc0ybdybacf7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/gempesaw/grunt.el")
     (synopsis
@@ -47352,8 +46445,7 @@
           (base32
             "15926n5cmz4772wzwk06c6c1y7hm71dvfafs5qj7rl0w62lrn581"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-autothemer" ,emacs-autothemer)))
+    (propagated-inputs (list emacs-autothemer))
     (home-page
       "http://github.com/greduan/emacs-theme-gruvbox")
     (synopsis
@@ -47423,9 +46515,7 @@
             "1pq18kz6dqk45ib70sch38ql63smpv7s80ik478ajjysks3882rc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-gvariant" ,emacs-gvariant)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-gvariant emacs-s))
     (home-page
       "https://github.com/wbolster/emacs-gsettings")
     (synopsis "GSettings (Gnome) helpers")
@@ -47448,9 +46538,7 @@
           (base32
             "0lw1psy1258vbvnl4j918hkzwqa65g94azbq84fvf2lgv4lbvgln"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-aio" ,emacs-aio)
-        ("emacs-log4e" ,emacs-log4e)))
+    (propagated-inputs (list emacs-aio emacs-log4e))
     (home-page
       "https://github.com/kaiwk/gitlab-snippet")
     (synopsis "A gitlab snippet client")
@@ -47547,9 +46635,7 @@
             "0awx1s5qsg92flha8i0j72zg4kax2h2vi62qikk19sniiwdlrv4i"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-popwin" ,emacs-popwin)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-popwin emacs-s))
     (home-page
       "https://github.com/kai2nenobu/guide-key")
     (synopsis
@@ -47574,8 +46660,7 @@
             "1xkrfjmhprnj8i39a85wfcs5whm93fw8l57c606wdhiwqj719ciz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-guide-key" ,emacs-guide-key)
-        ("emacs-pos-tip" ,emacs-pos-tip)))
+      (list emacs-guide-key emacs-pos-tip))
     (home-page
       "https://github.com/aki2o/guide-key-tip")
     (synopsis
@@ -47600,11 +46685,11 @@
             "00xdxadbi9fxpfp60zah9190rcz3w08vl1blbhmaiy7c1hd2gi39"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-geiser" ,emacs-geiser)
-        ("emacs-bui" ,emacs-bui)
-        ("emacs-magit-popup" ,emacs-magit-popup)
-        ("emacs-edit-indirect" ,emacs-edit-indirect)))
+      (list emacs-dash
+            emacs-geiser
+            emacs-bui
+            emacs-magit-popup
+            emacs-edit-indirect))
     (arguments
       '(#:files
         ("elisp/*.el"
@@ -47701,8 +46786,7 @@
           (base32
             "1m6gwplzps0hykzszh0vh4rs48hcfi99vxb4i870y46lq2y8x2xb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-parsec" ,emacs-parsec)))
+    (propagated-inputs (list emacs-parsec))
     (home-page
       "https://github.com/wbolster/emacs-gvariant")
     (synopsis "GVariant (GLib) helpers")
@@ -47815,7 +46899,7 @@
           (base32
             "1s9ab1ca072hi2bg7zfzsqwz8md23jd78ky9h9jjra1a75lfbgxb"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "https://github.com/hhvm/hack-mode")
     (synopsis
       "Major mode for the Hack programming language")
@@ -47907,9 +46991,7 @@
             "0d3xmagl18pas19zbpg27j0lmdiry23df48z4vkjsrcllqg25v5g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-html-to-markdown"
-         ,emacs-html-to-markdown)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)))
+      (list emacs-html-to-markdown emacs-markdown-mode))
     (home-page
       "http://github.com/Bruce-Connor/ham-mode")
     (synopsis
@@ -47998,8 +47080,7 @@
           (base32
             "1njrpb1s2v9skyfbgb28clrxyvyp8i4b8kwa68ynvq3vjb4fnws6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/lightquake/hamlet-mode")
     (synopsis "Hamlet editing mode")
@@ -48022,8 +47103,7 @@
           (base32
             "1w77p85ww1fjqgybi75s9bayqxyfvy040nr0gvsv3lmkri2mhglm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-parent-mode" ,emacs-parent-mode)))
+    (propagated-inputs (list emacs-parent-mode))
     (home-page "https://gitlab.com/jjzmajic/handle")
     (synopsis
       "A handle for major-mode generic functions.")
@@ -48135,8 +47215,7 @@
           (base32
             "0pk1wilkwi9g0l23b70lb37prmbj0h4gs193pri4fiygz4lwgvw2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ignoramus" ,emacs-ignoramus)))
+    (propagated-inputs (list emacs-ignoramus))
     (home-page
       "http://github.com/rolandwalker/hardhat")
     (synopsis
@@ -48161,9 +47240,7 @@
             "0wzv67kkfyaw19ddw0ra45p6rja6bk6d1xi3ak5lkyzvgqvylr3b"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-swiper" ,emacs-swiper)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-swiper emacs-hydra emacs-s))
     (home-page
       "https://github.com/kostajh/harvest.el")
     (synopsis "Harvest integration")
@@ -48177,15 +47254,17 @@
     (version "20160904.2026")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/haskell-emacs-"
-               version
-               ".tar"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/knupfer/haskell-emacs.git")
+               (commit
+                 "a2c6a079175904689eed7c6c200754bfa85d1ed9")))
         (sha256
           (base32
-            "0kckhx38ibmw5xjjl1dlkv76cmif7n3sqzd0z5gq58r6f33sxq2v"))))
+            "1xpaqcj33vyzs5yv2w4dahw8a2vb6zcb3z7y2aqc5jdg3fx9ypam"))))
     (build-system melpa-build-system)
+    (arguments
+      '(#:files (:defaults "*.hs" "*.org" "Foreign")))
     (home-page
       "https://github.com/knupfer/haskell-emacs")
     (synopsis "Write emacs extensions in haskell")
@@ -48199,17 +47278,19 @@
     (version "20150714.1559")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/haskell-emacs-base-"
-               version
-               ".tar"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/knupfer/haskell-emacs.git")
+               (commit
+                 "a2c6a079175904689eed7c6c200754bfa85d1ed9")))
         (sha256
           (base32
-            "0fy9cm56qdvc642dqym2afzq75637gcdcb0jlwbhkl5hwnh75pl6"))))
+            "1xpaqcj33vyzs5yv2w4dahw8a2vb6zcb3z7y2aqc5jdg3fx9ypam"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-haskell-emacs" ,emacs-haskell-emacs)))
+    (propagated-inputs (list emacs-haskell-emacs))
+    (arguments
+      '(#:files
+        ("modules/base/*.el" "modules/base/*.hs")))
     (home-page
       "https://github.com/knupfer/haskell-emacs/modules/base")
     (synopsis "Haskell functions from Prelude")
@@ -48223,17 +47304,19 @@
     (version "20150713.1416")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/haskell-emacs-text-"
-               version
-               ".tar"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/knupfer/haskell-emacs.git")
+               (commit
+                 "a2c6a079175904689eed7c6c200754bfa85d1ed9")))
         (sha256
           (base32
-            "1n5kpk1b4isqbbzmwq44fi09ndbj44fsr5m76ysrndscramqnqil"))))
+            "1xpaqcj33vyzs5yv2w4dahw8a2vb6zcb3z7y2aqc5jdg3fx9ypam"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-haskell-emacs" ,emacs-haskell-emacs)))
+    (propagated-inputs (list emacs-haskell-emacs))
+    (arguments
+      '(#:files
+        ("modules/text/*.el" "modules/text/*.hs")))
     (home-page
       "https://github.com/knupfer/haskell-emacs/modules/text")
     (synopsis "Haskell functions from Data.Text")
@@ -48280,8 +47363,7 @@
           (base32
             "1lwnggarmavyf164cfzbzzkq9ffahhd3bz7gw644czs49sndcawf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page
       "https://github.com/haskell/haskell-snippets")
@@ -48323,10 +47405,10 @@
         (uri (git-reference
                (url "https://github.com/minad/hasklig-mode.git")
                (commit
-                 "4b73d61f4ef1c73733f7201fbf0b49ba9e3395b6")))
+                 "d708937592f9e2d28ae5622086b9c24d60cd8ac2")))
         (sha256
           (base32
-            "12a5hgaf2z6prqx45n6y0xyknz2sivpzwxjnzbsdx9sw6rniqm57"))))
+            "0dyg2l96wgyl2l8iqvzqvh2rmxyqn8bgiss5r93f9c3daam7jyca"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/minad/hasklig-mode")
@@ -48350,8 +47432,7 @@
           (base32
             "1qvmxjl2f9qlj27aqvrpw6w5qkrp35pzdlzj622n5pc5xfpb64x0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "https://github.com/purplg/hass")
     (synopsis "Interact with Home Assistant")
     (description
@@ -48396,9 +47477,7 @@
           (base32
             "09crkm4ibi4m23qw4saqm0nm2i4cv40md3p768j2vniamby2q78f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-pcache" ,emacs-pcache)))
+    (propagated-inputs (list emacs-s emacs-pcache))
     (home-page
       "http://www.github.com/accidentalrebel/emacs-haxe-imports")
     (synopsis "Code for dealing with Haxe imports")
@@ -48578,9 +47657,7 @@
             "1z38jyfw8id62508rxfrkxd2ln70s6sc0cyvngn8zq94z47aqyjx"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-helm-core" ,emacs-helm-core)))
+      (list emacs-async emacs-popup emacs-helm-core))
     (arguments
       '(#:files
         ("*.el"
@@ -48613,7 +47690,7 @@
           (base32
             "04rvbafa77blps7x7cmlsciys8fgmvhfhq4v51pk8z5q3j1lrgc5"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/syohex/emacs-helm-ack")
     (synopsis "Ack command with helm interface")
@@ -48636,9 +47713,7 @@
           (base32
             "0hxfgdn56c7qr64r59g9hvxxwa4mw0ad9c9m0z5cj85bsdd7rlx4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-dash emacs-helm))
     (home-page "unspecified")
     (synopsis "helm source for Active Directory")
     (description
@@ -48660,7 +47735,7 @@
           (base32
             "0j1l9ifssd2xmdiif0c922dsdii143kjp8ifygqigb9m4wbsz8ax"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/syohex/emacs-helm-ag")
     (synopsis
@@ -48684,7 +47759,7 @@
           (base32
             "1rifdkhzvf7xd2npban0i8v3rjcji69063dw9rs1d32w4n7fzlfa"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (arguments '(#:files ("helm-ag-r.el")))
     (home-page
       "https://github.com/yuutayamada/helm-ag-r")
@@ -48709,7 +47784,7 @@
           (base32
             "0k095s738vv3cgvs1p40ivh68kaslc0xb5kplxp67ic89rg49w9i"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-apt")
     (synopsis
@@ -48733,7 +47808,7 @@
           (base32
             "0r61r1w8n5lvri7b32abahx0indim7hz6c9y95l54blqjx4yqzf0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/dantecatalfamo/helm-atoms")
     (synopsis "Reverse variable lookup using Helm")
@@ -48756,8 +47831,7 @@
           (base32
             "11683s12dabgi9j6cyx0i147pgz4jdd240xviry7w3cxgarqki8y"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-helm emacs-s))
     (home-page "https://github.com/istib/helm-aws")
     (synopsis
       "Manage AWS EC2 server instances directly from Emacs")
@@ -48780,8 +47854,7 @@
           (base32
             "0zi1md5f1haqcrclqfk4ilvr6hbm389kl3ajnyx230rq22vmb9ca"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-helm emacs-s))
     (home-page
       "http://github.com/antham/helm-backup")
     (synopsis "Backup each file change using git")
@@ -48804,9 +47877,7 @@
           (base32
             "1yfz5s83589jazyfzyrzh84iv0db2akbwj796gadpb3yhn17pl4v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-bbdb" ,emacs-bbdb)))
+    (propagated-inputs (list emacs-helm emacs-bbdb))
     (home-page
       "https://github.com/emacs-helm/helm-bbdb")
     (synopsis "Helm interface for bbdb")
@@ -48830,9 +47901,7 @@
             "1d3mc17ga09m41i06khghlvixr6gsiacifnhdbrfnp0w5592aprk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-bibtex-completion"
-         ,emacs-bibtex-completion)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-bibtex-completion emacs-helm))
     (arguments '(#:files ("helm-bibtex.el")))
     (home-page
       "https://github.com/tmalsburg/helm-bibtex")
@@ -48856,7 +47925,7 @@
           (base32
             "10k7hjfz9jmfpbmsv20jy9vr6fqxx1yp8v115hprqvw057iifsl9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (arguments '(#:files ("*.el" "*.py")))
     (home-page
       "https://github.com/kenbeese/helm-bibtexkey")
@@ -48881,8 +47950,7 @@
             "1wmcy7q4ys2sf8ya5l4n7a6bq5m9d6m19amjfwkmkh4ajkwl041y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-bind-key" ,emacs-bind-key)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-bind-key emacs-helm))
     (home-page "unspecified")
     (synopsis "helm-source for for bind-key.")
     (description
@@ -48904,8 +47972,7 @@
           (base32
             "08i8d6b41n4sq3jb4gvxkiml73am82jzqkqvvdm9mdhibb8x08mx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (home-page
       "https://github.com/dragonwasrobot/helm-bitbucket")
     (synopsis "Search Bitbucket with Helm")
@@ -48929,9 +47996,7 @@
             "011k37p4vnzm1x8vyairllanvjfknskl20bdfv0glf64xgbdpfil"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-bm" ,emacs-bm)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-bm emacs-helm emacs-s))
     (home-page "https://github.com/yasuyk/helm-bm")
     (synopsis "helm sources for bm.el")
     (description
@@ -48953,7 +48018,7 @@
           (base32
             "1d3nps765gxmadhbd1yqn4qvs23bczglwhxkciprky7ixm5lx53k"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/grugrut/helm-books")
     (synopsis "Helm interface for searching books")
@@ -48977,8 +48042,7 @@
             "155g4p2yw88cpc8ydfzybc4r6ab2qwcmzdwkrrhnra4psimahjq6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-bufler" ,emacs-bufler)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-bufler emacs-helm))
     (arguments '(#:files ("helm-bufler.el")))
     (home-page
       "https://github.com/alphapapa/bufler.el")
@@ -49002,7 +48066,7 @@
           (base32
             "12wz98fcs8v8w74ck4jqbh47pp5956xxh9ld5kpym9zrm39adpq2"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/masutaka/emacs-helm-bundle-show")
     (synopsis "Bundle show with helm interface")
@@ -49026,8 +48090,7 @@
             "0w4svbg32y63v049plvk7djc1m2amjzrr1v979d9s6jbnnpzlb5c"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-color-moccur" ,emacs-color-moccur)))
+      (list emacs-helm emacs-color-moccur))
     (home-page "unspecified")
     (synopsis "helm source for color-moccur.el")
     (description
@@ -49050,8 +48113,7 @@
             "1hhbc56vcjz6xkqzmx8zgi0zi6w5xv85rbg68d70jfzmx6n516fq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-helm emacs-yasnippet))
     (home-page "unspecified")
     (synopsis "helm source for yasnippet.el")
     (description
@@ -49074,8 +48136,7 @@
             "0pggn78lxfq6gmvyxr9y1j5qbcnkfh5f8vavxjpnch6k9xq0591x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-xterm-color" ,emacs-xterm-color)))
+      (list emacs-helm emacs-xterm-color))
     (home-page
       "https://github.com/gollth/helm-catkin")
     (synopsis
@@ -49099,7 +48160,7 @@
           (base32
             "1ifj6zz5k7qjalg06fvfc7rdmlha0n9hll2hiq7mrcj7lfac6jga"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/cwittern/helm-charinfo")
     (synopsis
@@ -49123,7 +48184,7 @@
           (base32
             "0r8s85fs5lnwdn377z5zgi3d090k2n1mgiyxwgy49i8yirssgz51"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/kawabata/helm-chrome")
     (synopsis "Helm interface for Chrome bookmarks")
@@ -49146,8 +48207,7 @@
           (base32
             "186m2zq978hzdixh4cbdjp6mfigdaiqhmx25895574vn3wv4xmj7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (arguments '(#:files (:defaults "*.js")))
     (home-page
       "https://github.com/xuchunyang/helm-chrome-control")
@@ -49172,8 +48232,7 @@
           (base32
             "18vgy5kaj0cmrar7ahcxiy9jva006zd7yfcgyi5h99yv62g76j72"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (home-page
       "https://github.com/xuchunyang/helm-chrome-history")
     (synopsis "Browse Chrome History with Helm")
@@ -49197,8 +48256,7 @@
             "1dmj4f8pris1i7wvfplp4dbnyfm403l6rplxfrfi0cd9afg7m68i"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-chronos" ,emacs-chronos)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-chronos emacs-helm))
     (home-page
       "http://github.com/dxknight/helm-chronos")
     (synopsis "helm interface for chronos timers")
@@ -49222,8 +48280,7 @@
             "0vfn4smqba1vsshz48ggkj8gs94la0sxb1sq4shrb41qj2x3dci7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-helm-core" ,emacs-helm-core)))
+      (list emacs-cider emacs-helm-core))
     (home-page
       "https://github.com/clojure-emacs/helm-cider")
     (synopsis "Helm interface to CIDER")
@@ -49246,9 +48303,7 @@
           (base32
             "18j4ikb3q8ygdq74zqzm83wgb39x7w209n3186mm051n8lfmkaif"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-cider" ,emacs-cider)))
+    (propagated-inputs (list emacs-helm emacs-cider))
     (home-page
       "https://github.com/Kungi/helm-cider-history")
     (synopsis "Helm interface for cider history")
@@ -49271,9 +48326,7 @@
           (base32
             "1gwg299s8ps0q97iw6p515gwn73rjk1icgl3j7cj1s143njjg122"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-circe" ,emacs-circe)))
+    (propagated-inputs (list emacs-helm emacs-circe))
     (home-page
       "https://github.com/lesharris/helm-circe")
     (synopsis "helm circe buffer management.")
@@ -49296,9 +48349,7 @@
           (base32
             "015b8zxh91ljhqvn6z43gy08di54xcw9skw0i7frj3d7gk984qhl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-edn" ,emacs-edn)
-        ("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-edn emacs-helm))
     (home-page
       "https://github.com/mbuczko/helm-clojuredocs")
     (synopsis "search for help in clojuredocs.org")
@@ -49344,9 +48395,7 @@
             "1qxpx8jmkvg59k4rx99bn9asnh4nl5rwkjvbhprdlqaicglm153q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-s emacs-dash emacs-helm))
     (home-page "unspecified")
     (synopsis "helm interface for codesearch")
     (description
@@ -49368,7 +48417,7 @@
           (base32
             "0fxrmvb64lav4aqs61z3a4d2mcp9s2nw7fvysyjn0r1291pkzk9j"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/xuchunyang/helm-commandlinefu")
     (synopsis
@@ -49393,8 +48442,7 @@
             "1ci37w6ahnqrfpb284gjvxmimlf61sdxb9k192yy9q983cksv2hx"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-helm emacs-company))
     (home-page
       "https://github.com/Sodel-the-Vociferous/helm-company")
     (synopsis "Helm interface for company-mode")
@@ -49412,13 +48460,12 @@
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "94cf15d64bd1dbc7dc3194ab323e0f0ef263ea77")))
+                 "a246a9b278fb973d38d13ade7417f55e0a57eae4")))
         (sha256
           (base32
-            "1xkxlbjpqhfhakmfi664cq7i5968941vpngq94napmhbgqydp4qn"))))
+            "1z38jyfw8id62508rxfrkxd2ln70s6sc0cyvngn8zq94z47aqyjx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)))
+    (propagated-inputs (list emacs-async))
     (arguments
       '(#:files
         ("helm-core-pkg.el"
@@ -49448,8 +48495,7 @@
             "1ynn49ngx3y4m9y820sf3rbyzw3k5gs0xf1bsxi3h8hdvyqd7j9p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-xcscope" ,emacs-xcscope)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-xcscope emacs-helm))
     (home-page
       "https://github.com/alpha22jp/helm-cscope.el")
     (synopsis "Helm interface for xcscope.el.")
@@ -49472,7 +48518,7 @@
           (base32
             "1xadlsg4c52anbk3dqz6blkrid8lzsd28rw402gy17vnk7lwg9i7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/ShingoFukuyama/helm-css-scss")
     (synopsis
@@ -49497,9 +48543,7 @@
             "11am95crkf409w3ph17x55v0xx2gy4spb4qc6z5f7vbxgwyaa4a6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-helm-core" ,emacs-helm-core)))
+      (list emacs-s emacs-dash emacs-helm-core))
     (home-page "unspecified")
     (synopsis "Run ctest from within emacs")
     (description
@@ -49522,8 +48566,7 @@
             "0r192vzry1212ihabg9pgw9xar8zdgnbgy0vsgvfm8s5wj6ny7jp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash-docs" ,emacs-dash-docs)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-dash-docs emacs-helm))
     (home-page
       "https://github.com/dash-docs-el/helm-dash")
     (synopsis
@@ -49547,7 +48590,7 @@
           (base32
             "1bp2n32lvb1fhnwzk8s782i928m8mklv77jz5rq0ag1q7y740r31"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-descbinds")
     (synopsis
@@ -49571,7 +48614,7 @@
           (base32
             "1d5b85m33hsdb4wswh9wpid0ghsr2zrj3f6ky587lc32s4bs0w0z"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-describe-modes")
     (synopsis
@@ -49595,7 +48638,7 @@
           (base32
             "0rggi6jd5f6dp50d08k9xba470drlhg9qa5a0y3cy4y2nlq0y7rn"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-dictionary")
     (synopsis
@@ -49619,7 +48662,7 @@
           (base32
             "18lv8s7lw6zw97v4q5810f9cn43ybiygl139i2hf5p37p48d8fyy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/masasam/emacs-helm-directory")
     (synopsis
@@ -49643,7 +48686,7 @@
           (base32
             "1bqavj5ljr350dckyf39i9plkb0rbhyd17ka94n2g6daapgpq0x6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/jixiuf/helm-dired-history")
     (synopsis
@@ -49667,7 +48710,7 @@
           (base32
             "14sifdrfg8ydvi9mj8qm2bfphbffglxrkb5ky4q5b3j96bn8v110"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis
       "Show recent dirs with helm.el support.")
@@ -49691,9 +48734,7 @@
             "183vj5yi575aqkak19hl8k4mw38r0ki9p1fnpa8nny2srjyy34yb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-f emacs-helm emacs-s))
     (home-page "http://101000lab.org")
     (synopsis "helm sources for multi directories")
     (description
@@ -49716,8 +48757,7 @@
             "12qvzd8wvryr2hnlv7l683148vxd1sry7s8y12xnysc7yz4dhsgv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dogears" ,emacs-dogears)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-dogears emacs-helm))
     (arguments '(#:files ("helm-dogears.el")))
     (home-page
       "https://github.com/alphapapa/dogears.el")
@@ -49742,8 +48782,7 @@
             "1zl6vhzbf29864q97q5v7c318x36y1a4cjm0i7kgj3hc6qla5j88"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-emmet-mode" ,emacs-emmet-mode)))
+      (list emacs-helm emacs-emmet-mode))
     (home-page
       "https://github.com/yasuyk/helm-emmet")
     (synopsis
@@ -49767,9 +48806,7 @@
           (base32
             "0pgrjqhw1xjl5xy329621idg517bfaafvqb3f5wxci6fhm4x46gc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-emms" ,emacs-emms)))
+    (propagated-inputs (list emacs-helm emacs-emms))
     (home-page
       "https://github.com/emacs-helm/helm-emms")
     (synopsis "Emms for Helm.")
@@ -49793,8 +48830,7 @@
             "1lqih8qadk1miwi8fv7syfd7i2rzbg669b96my177g0i57sah4mw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-helm emacs-request))
     (home-page
       "https://github.com/masutaka/emacs-helm-esa")
     (synopsis "Esa with helm interface")
@@ -49817,7 +48853,7 @@
           (base32
             "1mpwka62lk040693hllb5hrsf4n5vwkx6khi9i9dbyyc5xgppjm0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/jixiuf/helm-etags-plus")
     (synopsis "Another Etags helm.el interface")
@@ -49840,9 +48876,7 @@
           (base32
             "0b1db6x2hz9rixchn9qfp2ak27a2vbz2l4g0fd7mys5c0llbwj1r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-helm emacs-evil))
     (home-page
       "https://github.com/xueeinstein/helm-evil-markers")
     (synopsis "Show evil markers with helm")
@@ -49865,7 +48899,7 @@
           (base32
             "0hpq1h0p69c9k6hkd2mjpprx213sc5475q7pr2zpmwrjdzgcv70z"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-eww")
     (synopsis "Helm UI wrapper for EWW.")
@@ -49888,7 +48922,7 @@
           (base32
             "1sb3z1c1p9wal5g6fz8b948pvaarg4yhcmjqmpd2y7b85hzapgp1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis "A few extensions to Helm")
     (description
@@ -49910,9 +48944,7 @@
           (base32
             "1j7a3jn1599cy7n2q42vqc9kwz252k018vy3sbj8a8v0cz2xvy5z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-exwm" ,emacs-exwm)))
+    (propagated-inputs (list emacs-helm emacs-exwm))
     (home-page
       "https://github.com/emacs-helm/helm-exwm")
     (synopsis "Helm for EXWM buffers")
@@ -49935,7 +48967,7 @@
           (base32
             "0pmrypz9zbs3zc26brh3rl30jmzxxh1iyjdg2rvsx0630bdgkfw9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/jcs-elpa/helm-file-preview")
     (synopsis
@@ -49959,7 +48991,7 @@
           (base32
             "06ihkw61ivgghasxignalr0zrfrh5nayky9adrqid9bgmiah3q9y"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-firefox")
     (synopsis "Firefox bookmarks")
@@ -49983,8 +49015,7 @@
             "1j2vfngq3512naaayv9kx0d1q2zg1xgs69l8afc7swg72h0l0imw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-fish-completion" ,emacs-fish-completion)))
+      (list emacs-helm emacs-fish-completion))
     (home-page
       "https://github.com/emacs-helm/helm-fish-completion")
     (synopsis "Helm interface for fish completion")
@@ -50007,9 +49038,7 @@
           (base32
             "1fh1dy6xpc476hs87mn9fwxhxi97h7clfnnm7dxb7hg43xmgsjjs"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-flx" ,emacs-flx)))
+    (propagated-inputs (list emacs-helm emacs-flx))
     (home-page
       "https://github.com/PythonNut/helm-flx")
     (synopsis "Sort helm candidates by flx score")
@@ -50033,9 +49062,7 @@
             "1a2yfxhz04klwhcandqvfzysxp6b7bxyxx1xk1x3kds5hif5fkl4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-helm-core" ,emacs-helm-core)))
+      (list emacs-dash emacs-flycheck emacs-helm-core))
     (home-page
       "https://github.com/yasuyk/helm-flycheck")
     (synopsis "Show flycheck errors with helm")
@@ -50058,7 +49085,7 @@
           (base32
             "05wpclg4ibp0ida692m3s8nknx4aizfcdgxgfzlwczgdgw0922kn"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "https://github.com/tam17aki")
     (synopsis "helm interface for flymake")
     (description
@@ -50080,7 +49107,7 @@
           (base32
             "0q0xcgg8w9rrlsrrnk0l7qd8q7jc6x1agm2i769j21wpyfv1nbns"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/pronobis/helm-flyspell")
     (synopsis
@@ -50126,9 +49153,7 @@
           (base32
             "1xswm8my29i4fddy64k21b1vclbr5fjb0pisb4hs8ynkk5w1kw2a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-fuz" ,emacs-fuz)
-        ("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-fuz emacs-helm))
     (arguments '(#:files ("helm-fuz.el")))
     (home-page "https://github.com/cireu/fuz.el")
     (synopsis "Integrate Helm and Fuz")
@@ -50151,7 +49176,7 @@
           (base32
             "1250mh0ydap0sifcyrgs32dnr6c8d723v4c55yvwm23dzvzwycp8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "http://github.com/EphramPerdition/helm-fuzzier")
     (synopsis "Better fuzzy matching for Helm")
@@ -50174,9 +49199,7 @@
           (base32
             "1k86gz89s16sxqyab3gc6lxafdxcddvwmmpgqbg9mn2c8imsl8hd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-flx" ,emacs-flx)))
+    (propagated-inputs (list emacs-helm emacs-flx))
     (home-page
       "https://github.com/jcs-elpa/helm-fuzzy")
     (synopsis "Fuzzy matching for helm source")
@@ -50199,7 +49222,7 @@
           (base32
             "1dacvnkqqiax02c627z9qi61iyqgr0j3qqmjp29h0v494czvrdbs"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/xuchunyang/helm-fuzzy-find")
     (synopsis "Find file using Fuzzy Search")
@@ -50222,7 +49245,7 @@
           (base32
             "0a4piipqnsj0rnwmqz3vj674ljmy1bl33qr9hv959pw5b3jzqfh0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/masutaka/emacs-helm-ghq")
     (synopsis "Ghq with helm interface")
@@ -50245,7 +49268,7 @@
           (base32
             "1jc51anmkr44db4kbcwza17x3ln78ihpslrf2v9xs0sq0ggw1rva"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/iory/emacs-helm-ghs")
     (synopsis "ghs with helm interface")
@@ -50289,7 +49312,7 @@
           (base32
             "157b525h0kiaknn12fsw67fg26lzb20apx8sssmvlcicqcd51iaw"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis "helm for git files")
     (description
@@ -50311,8 +49334,7 @@
           (base32
             "172m7wbgx9qnv9n1slbzpd9j24p6blddik49z6bq3zdg1vlnf3dv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (home-page
       "https://github.com/yasuyk/helm-git-grep")
     (synopsis
@@ -50336,7 +49358,7 @@
           (base32
             "0050i3apv72klqi3s0zw5sv4r4sizx4vlw07l52i39ij7bzjhkzz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/Sliim/helm-github-stars")
     (synopsis
@@ -50361,10 +49383,7 @@
             "056c4fb5sj2y4h94klx2g24n1g3qdi7ifzs8ksw5v6hcj9lrkb1n"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-gitlab" ,emacs-gitlab)))
+      (list emacs-s emacs-dash emacs-helm emacs-gitlab))
     (arguments '(#:files ("helm-gitlab.el")))
     (home-page
       "https://github.com/nlamirault/emacs-gitlab")
@@ -50389,9 +49408,9 @@
             "1169q25paz7x3hia5px4vmn06zzss179q9179x95vx8vfr43ny08"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)
-        ("emacs-go-mode" ,emacs-go-mode)
-        ("emacs-deferred" ,emacs-deferred)))
+      (list emacs-helm-core
+            emacs-go-mode
+            emacs-deferred))
     (home-page
       "https://github.com/yasuyk/helm-go-package")
     (synopsis
@@ -50415,7 +49434,7 @@
           (base32
             "1rb1pmzr6szg8jjm43dndnk99v4i5zb1wp24rs9w8zmhygdn8jf4"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://framagit.org/steckerhalter/helm-google")
     (synopsis
@@ -50439,7 +49458,7 @@
           (base32
             "1fmpk9ynish20daajnx4c2s8bnlngb8sv3nwspxkk8fvv0c3p39i"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/kopoli/helm-grepint")
     (synopsis "Generic helm interface to grep")
@@ -50462,7 +49481,7 @@
           (base32
             "0p0mk44y2z875ra8mzcb6vlf4rbkiq9yank5hdxvg2x2sxsaambk"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/daic-h/helm-growthforecast")
     (synopsis "helm extensions for growthforecast.")
@@ -50485,7 +49504,7 @@
           (base32
             "1kc1jzk10nfd2v20g8dwnb6a944afrwdwnkzl06w4ba8k4yim7gi"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/syohex/emacs-helm-gtags")
     (synopsis "GNU GLOBAL helm interface")
@@ -50508,7 +49527,7 @@
           (base32
             "0zwngldnh6ys9m7v0fc4nwk1bcrwqvip08114vn4dcv8kl3lnxvv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/masutaka/emacs-helm-hatena-bookmark")
     (synopsis "Hatena::Bookmark with helm interface")
@@ -50532,8 +49551,7 @@
             "08pfzs030d8g5s7vkpgicz4srp5cr3xpd84lhrr24ncrhbszxar9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-haskell-mode" ,emacs-haskell-mode)))
+      (list emacs-helm emacs-haskell-mode))
     (home-page "unspecified")
     (synopsis
       "Source and configured helm for searching hayoo")
@@ -50556,7 +49574,7 @@
           (base32
             "05ksfx54ar2j4mypzwh0gfir8r26s4f1i4xw319q5pa1y2100cpn"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/vapniks/helm-helm-commands")
     (synopsis "List all helm commands with helm")
@@ -50579,7 +49597,7 @@
           (base32
             "043bddm6lldl6wkifr1plqip7laai771z1a1l0x2h35l3g8c64h0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/jwiegley/haskell-config")
     (synopsis
@@ -50603,7 +49621,7 @@
           (base32
             "1ih2pgyhshv8nl7hhchd4h0pbjgj45irp5dy1fq2gy05v4rn7wi4"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis
       "A helm interface for git hunks - browsing, staging, unstaging and killing")
@@ -50627,9 +49645,7 @@
             "0q220a0knzmm2xk7hjcz6wkdk39ni2qndvnnsrc2vg04r5k12lm7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-treemacs" ,emacs-treemacs)))
+      (list emacs-dash emacs-f emacs-treemacs))
     (home-page
       "https://github.com/yyoncho/helm-icons")
     (synopsis "Helm icons")
@@ -50653,8 +49669,7 @@
             "0128nrhwyzslzl0l7wcjxn3dlx3h1sjmwnbbnp2fj4bjk7chc59q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-idris-mode" ,emacs-idris-mode)))
+      (list emacs-helm emacs-idris-mode))
     (home-page "unspecified")
     (synopsis
       "A Helm datasource for Idris documentation, queried from the compiler")
@@ -50677,7 +49692,7 @@
           (base32
             "0py4xs27z2jvg99i6qaf2ccz0mvk6bb9cvdyz8v8ngmnj3rw2vla"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "https://github.com/l3msh0/helm-img")
     (synopsis
       "Utilities for making image sources for helm.")
@@ -50700,8 +49715,7 @@
           (base32
             "04vdin0n3514c8bycdjrwk3l6pkarrwanlklnm75315b91nkkbcp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-img" ,emacs-helm-img)))
+    (propagated-inputs (list emacs-helm-img))
     (home-page "https://github.com/l3msh0/helm-img")
     (synopsis "An helm-source for joking.")
     (description
@@ -50723,8 +49737,7 @@
           (base32
             "04ddjdia09y14gq4h6m8g6aiwkqvdxp66yjx3j5dh2xrkyxhlxpz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (home-page
       "https://github.com/syohex/emacs-helm-ispell")
     (synopsis
@@ -50748,7 +49761,7 @@
           (base32
             "1czgf5br89x192g3lh3x2n998f79hi1n2f309ll264qnl35kv14w"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/daschwa/helm-itunes")
     (synopsis "Play local iTunes and Spotify tracks")
@@ -50771,7 +49784,7 @@
           (base32
             "0ayv6aqmwjy95gc9cpyx0s71486rvlmn04iwgfn43mr192c38y9p"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (arguments '(#:files ("helm-j-cheatsheet.el")))
     (home-page
       "https://github.com/abo-abo/helm-j-cheatsheet")
@@ -50795,7 +49808,7 @@
           (base32
             "08cczc4jnkdgvzs0s3wq2dqmhnsvyhpl65dydmi7pmayl7zg6jir"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "https://github.com/DeX3/helm-jira")
     (synopsis
       "Helm bindings for JIRA/Bitbucket/stash")
@@ -50819,8 +49832,7 @@
             "15lksdyk5z4xszfsdk290pm6ri5r9c2ki9jxmwppkqpd52w2dxck"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)
-        ("emacs-js-codemod" ,emacs-js-codemod)))
+      (list emacs-helm-core emacs-js-codemod))
     (home-page "unspecified")
     (synopsis
       "A helm interface for running js-codemods")
@@ -50843,7 +49855,7 @@
           (base32
             "0vhqpcv8xi6a6q7n6xxahdzijr1x5s40fvk9nc44q55psbyv627g"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis
       "Helm interface to Jps & Jstack for Java/JVM processes")
@@ -50866,9 +49878,7 @@
           (base32
             "1ws7vl0pvznmxb7yj77kfv4l52xkzblhsl68lfkf9cdxcj9g6177"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-dash emacs-helm))
     (home-page
       "https://github.com/MaskRay/emacs-helm-kythe")
     (synopsis "Google Kythe helm interface")
@@ -50891,9 +49901,7 @@
           (base32
             "0pri9zsjg0zii7dpsr56dy5204q0mld5wi22iay3kqpiyxghhssv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-csv" ,emacs-csv)))
+    (propagated-inputs (list emacs-helm emacs-csv))
     (home-page
       "https://github.com/xuchunyang/helm-lastpass")
     (synopsis "Helm interface of LastPass")
@@ -50911,15 +49919,13 @@
         (uri (git-reference
                (url "https://github.com/leanprover/lean-mode.git")
                (commit
-                 "bf32bb97930ed67c5cbe0fe3d4a69dedcf68be44")))
+                 "4a90f2ae6e33c162a3dd6f624fb080c2ed8e8494")))
         (sha256
           (base32
-            "1bkv5zs38ijawvavbba0fdf2flb6fiwici3qi99ws8wvwhnbkws2"))))
+            "1zikz4qaxabs3j86gljpp2qbhbzxsjzz544k9vsngibd468dszlv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-lean-mode" ,emacs-lean-mode)))
+      (list emacs-dash emacs-helm emacs-lean-mode))
     (arguments '(#:files ("helm-lean.el")))
     (home-page
       "https://github.com/leanprover/lean-mode")
@@ -50943,7 +49949,7 @@
           (base32
             "1jrpaip5v9kzk0rf8wivsq8irdfd39svxd7p3v80cwgrrl7546xj"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/dfeich/helm-lib-babel.el")
     (synopsis
@@ -50967,7 +49973,7 @@
           (base32
             "1fi0khqx35v48s14jr59jp06bpnhx9dy2rdasj2wn1a34jwgd49i"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/torgeir/helm-lines.el/")
     (synopsis
@@ -50991,7 +49997,7 @@
           (base32
             "1ic0pcr7cfrfalb7760viixz5gfdg5hfazzwfhhw08vx44xx0jk4"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/julienXX/helm-lobste.rs")
     (synopsis "helm front-end for lobste.rs")
@@ -51014,7 +50020,7 @@
           (base32
             "1qqxwzalsjnhb2rggi4zv7qmlq7l1xwhh9nd6i8bn8sxhnma5y18"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis "list git files.")
     (description
@@ -51036,7 +50042,7 @@
           (base32
             "1msrsqiwk7bg5gry5cia8a6c7ifymfyn738hk8g2qwzzw4vkxxcs"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis "List hg files in hg project.")
     (description
@@ -51058,7 +50064,7 @@
           (base32
             "0jh3q2nx3hn6v1qvip5sbfsvf9zy74ppn1rl037d0hlssh6qir9j"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://svn.macports.org/repository/macports/users/chunyang/helm-ls-svn.el/helm-ls-svn.el")
     (synopsis "helm extension to list svn files")
@@ -51082,9 +50088,7 @@
             "0xpz9qrcbxknnncqf0hw7hs9k6sv9dckzsf081k2zmsks3l5qh4p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-dash emacs-lsp-mode emacs-helm))
     (home-page "https://github.com/yyoncho/helm-lsp")
     (synopsis "LSP helm integration")
     (description
@@ -51107,8 +50111,7 @@
             "1xnkwmdcdjfvslahhslw2xnlcym9fvb3m8384c455bas6s180qxh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-lxc-tramp" ,emacs-lxc-tramp)))
+      (list emacs-helm emacs-lxc-tramp))
     (home-page
       "https://github.com/montag451/helm-lxc")
     (synopsis
@@ -51155,8 +50158,7 @@
             "0gzlprf5js4y3vzkf7si2xc7ai5j97b5cqrs002hyjj5ij4f2vix"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)
-        ("emacs-migemo" ,emacs-migemo)))
+      (list emacs-helm-core emacs-migemo))
     (home-page
       "https://github.com/emacs-jp/helm-migemo")
     (synopsis "Migemo plug-in for helm")
@@ -51179,7 +50181,7 @@
           (base32
             "0j1mlqdqii6vpp748ydvcs0fxlwkrwf5bsbys8h34rjhb7x75dq4"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/istib/helm-mode-manager")
     (synopsis
@@ -51204,8 +50206,7 @@
             "1wci63y0vjvrvrylkhhrz8p9q0ml6la5cpj4rx5cwin9rkmislm6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-multi-term" ,emacs-multi-term)))
+      (list emacs-helm emacs-multi-term))
     (home-page "https://github.com/dfdeshom/helm-mt")
     (synopsis "helm multi-term management")
     (description
@@ -51227,7 +50228,7 @@
           (base32
             "0dld66r7z525y1b22liq2j8fz248ghj8pxfid66508jpxhh71np3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-mu")
     (synopsis
@@ -51252,10 +50253,10 @@
             "1vs33n6fga8q4s129pl25bvbka5h0dalmbd8a92d92c9kmmb2m3q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-helm-org" ,emacs-helm-org)
-        ("emacs-navi-mode" ,emacs-navi-mode)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-helm
+            emacs-helm-org
+            emacs-navi-mode
+            emacs-s))
     (home-page
       "http://github.com/emacs-helm/helm-navi")
     (synopsis "Helm for navi-mode")
@@ -51279,8 +50280,7 @@
             "05vxac2llww4ba5w0dmf0hza60l5i847hfabs0q5i8kzmw4f8s8z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-nixos-options" ,emacs-nixos-options)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-nixos-options emacs-helm))
     (arguments '(#:files ("helm-nixos-options.el")))
     (home-page
       "http://www.github.com/travisbhartwell/nix-emacs/")
@@ -51305,8 +50305,7 @@
             "1k038dbdpaa411gl4071x19fklhnizhr346plxw23lsnxir9dhqc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-notmuch" ,emacs-notmuch)))
+      (list emacs-helm emacs-notmuch))
     (home-page
       "https://github.com/emacs-helm/helm-notmuch")
     (synopsis "Search emails with Notmuch and Helm")
@@ -51330,8 +50329,7 @@
             "1nzi2m23mqvxkpa7wsd2j0rwvlv5pj0mcaz2ypgfd023k2vh9is1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)
-        ("emacs-gh" ,emacs-gh)))
+      (list emacs-helm-core emacs-gh))
     (home-page
       "https://github.com/syohex/emacs-helm-open-github")
     (synopsis "Utilities of Opening Github Page")
@@ -51354,7 +50352,7 @@
           (base32
             "07wsz9hbv83m3k03cxvlr2hxd2lkxx9qpphn9j6axmysi9i5bc8q"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (arguments '(#:files ("helm-org.el")))
     (home-page
       "https://github.com/emacs-helm/helm-org")
@@ -51380,11 +50378,11 @@
             "0hmn9yy2d7wy6zz81ddd96rksmvs9k5529dfqrkrpl4v3bn3g52d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-multi-wiki" ,emacs-org-multi-wiki)
-        ("emacs-org-ql" ,emacs-org-ql)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-helm-org-ql" ,emacs-helm-org-ql)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-org-multi-wiki
+            emacs-org-ql
+            emacs-dash
+            emacs-helm-org-ql
+            emacs-helm))
     (arguments '(#:files ("helm-org-multi-wiki.el")))
     (home-page
       "https://github.com/akirak/org-multi-wiki")
@@ -51409,10 +50407,10 @@
             "1jfm4ahh58x3a3njigrbfzd86fnbyybbcgca2mgmxddcy6bszfp1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-helm-org" ,emacs-helm-org)
-        ("emacs-org-ql" ,emacs-org-ql)))
+      (list emacs-dash
+            emacs-s
+            emacs-helm-org
+            emacs-org-ql))
     (arguments '(#:files ("helm-org-ql.el")))
     (home-page "https://github.com/alphapapa/org-ql")
     (synopsis "Helm support for org-ql")
@@ -51436,11 +50434,10 @@
             "1y11rlnhi36lzhc1cagninv6hlcwbvj88xfr0g0xzpbzy7hys021"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-org-recent-headings"
-         ,emacs-org-recent-headings)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash
+            emacs-helm
+            emacs-org-recent-headings
+            emacs-s))
     (arguments
       '(#:files ("helm-org-recent-headings.el")))
     (home-page
@@ -51466,10 +50463,7 @@
             "0mz77gd4q38mkbcsdcl730nc5s7cr6y67iagcdxa7wk5v46h8l45"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-f emacs-helm emacs-s))
     (home-page
       "http://github.com/alphapapa/helm-org-rifle")
     (synopsis "Rifle through your Org files")
@@ -51492,8 +50486,7 @@
           (base32
             "1zyjxrrda7nxxjqczv2p3sfimxy2pq734kf51j6v2y0biclc4bk3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (home-page
       "https://github.com/emacs-jp/helm-orgcard")
     (synopsis "browse the orgcard by helm")
@@ -51516,8 +50509,7 @@
           (base32
             "04p2fp7mp2q1ava457cg1vm6ycag0ig11nmr23fybixdsp1j646j"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (home-page
       "https://github.com/xuchunyang/helm-osx-app")
     (synopsis "Launch macOS apps with helm")
@@ -51540,7 +50532,7 @@
           (base32
             "0znmj13nshzspysnzrn2x6k9fym21n9ywkpjibljy0s05m36nbs5"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis
       "Pages in current buffer as Helm datasource")
@@ -51564,8 +50556,7 @@
             "19w24isddzamkikq17vbv3y7ha22i7wc09d2nqw1j0qwhrrfkng9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-password-store" ,emacs-password-store)))
+      (list emacs-helm emacs-password-store))
     (home-page
       "https://github.com/emacs-helm/helm-pass")
     (synopsis
@@ -51590,8 +50581,7 @@
             "1g7f2vdvzh9qhk8lviii86w7cb06a60kz6gvv8gnbqx88mndqclq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)
-        ("emacs-deferred" ,emacs-deferred)))
+      (list emacs-helm-core emacs-deferred))
     (arguments '(#:files (:defaults "*.pl")))
     (home-page
       "https://github.com/syohex/emacs-helm-perldoc")
@@ -51616,8 +50606,7 @@
             "1m89c95vzmhsvrg5g7ixz5a5ckw2n983x58cwh8rkmaklavacgsy"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-perspeen" ,emacs-perspeen)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-perspeen emacs-helm))
     (home-page
       "https://github.com/jimo1001/helm-perspeen")
     (synopsis "Helm interface for perspeen.")
@@ -51641,8 +50630,7 @@
             "0wirqnzprfxbppdawfx6ah5rdawgyvl8b4zn2r3zm9mnj9jci4dw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-phpunit" ,emacs-phpunit)))
+      (list emacs-helm emacs-phpunit))
     (home-page
       "https://github.com/eric-hansen/phpunit-helm")
     (synopsis "Helm integration for phpunit.el")
@@ -51666,8 +50654,7 @@
             "1hmf1l6hmir0kvpl5h0wk4l17nmk0lfi659lvg89jc1sm18v2xv9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-posframe" ,emacs-posframe)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-posframe emacs-helm))
     (home-page
       "https://github.com/tumashu/helm-posframe")
     (synopsis "Using posframe to show helm window")
@@ -51690,7 +50677,7 @@
           (base32
             "11xahzybwh02ds19y6h5hbpqdj278kcb4239vyykdl3wx8p048a7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis
       "Helm interface for managing system processes")
@@ -51714,8 +50701,7 @@
             "0j54c1kzsjgr05qx25rg3ylawvyw6n6liypiwaas47vpyfswbxhv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-project-persist" ,emacs-project-persist)))
+      (list emacs-helm emacs-project-persist))
     (home-page "unspecified")
     (synopsis
       "Helm integration for project-persist package")
@@ -51739,8 +50725,7 @@
             "0w8267l136l9ci9b0rz0mshh8wcj7za9izvm64ks17lr8avm2his"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-helm emacs-projectile))
     (home-page
       "https://github.com/bbatsov/helm-projectile")
     (synopsis "Helm integration for Projectile")
@@ -51764,8 +50749,7 @@
             "1m8zvrv5aws7b0dffk8y6b5mncdk2c4k90mx69jys10fs0gc5hb3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-prosjekt" ,emacs-prosjekt)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-prosjekt emacs-helm))
     (arguments
       '(#:files ("prosjekt/ext/helm/helm-prosjekt.el")))
     (home-page
@@ -51790,7 +50774,7 @@
           (base32
             "03ys40rr0pvgp35j5scw9c28j184f1c9m58a3x0c8f0lgyfpssjk"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "https://github.com/ralesi/helm-pt")
     (synopsis
       "Helm interface to the platinum searcher")
@@ -51814,8 +50798,7 @@
             "1xh6v5xlf1prgk6mrvkc6qa0r0bz74s5f4z3dl7d00chsi7i2m5v"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-window-purpose" ,emacs-window-purpose)))
+      (list emacs-helm emacs-window-purpose))
     (home-page
       "https://github.com/bmag/helm-purpose")
     (synopsis "Helm Interface for Purpose")
@@ -51838,8 +50821,7 @@
           (base32
             "1wrs2d84xzjnsmw255bmnd1wcpwd36m0vyni48aa7661d4dh10x3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (arguments '(#:files (:defaults "*.py")))
     (home-page
       "https://github.com/syohex/emacs-helm-pydoc")
@@ -51863,7 +50845,7 @@
           (base32
             "1vkm2h0ia0gqqjw6cnbyik0fv37zzjwwdzk1cnh7a3s5hsg60i68"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/masutaka/emacs-helm-qiita")
     (synopsis "Qiita with helm interface")
@@ -51886,9 +50868,7 @@
           (base32
             "0nip0zrmn944wy0x2dc5ryr0m7a948rn2a8cbaajghs7a7zai4cr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-ess" ,emacs-ess)))
+    (propagated-inputs (list emacs-helm emacs-ess))
     (home-page "https://github.com/myuhe/helm-R.el")
     (synopsis
       "helm-sources and some utilities for GNU R.")
@@ -51912,9 +50892,7 @@
             "0msj3rrv9bwhhwz7r1ayr6qvnxjsq7374j0xfhqbrx49pix4qf3q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-helm emacs-dash emacs-s))
     (arguments '(#:files (:defaults "meme")))
     (home-page "https://github.com/bomgar/helm-rage")
     (synopsis "Helm command for rage characters.")
@@ -51938,8 +50916,7 @@
             "0i5ps5yds21bsrx86piy9bdgca95l1farsrbjpqz88ad8pq6xa9c"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-inflections" ,emacs-inflections)))
+      (list emacs-helm emacs-inflections))
     (arguments '(#:files ("helm-rails.el")))
     (home-page "https://github.com/asok/helm-rails")
     (synopsis "Helm extension for Rails projects.")
@@ -51963,8 +50940,7 @@
             "1b74jsr28ldz80mrqz3d1bmykpcprdbhf3fzhc0awd5i5xdnfaid"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-helm-ag-r" ,emacs-helm-ag-r)))
+      (list emacs-helm emacs-helm-ag-r))
     (arguments
       '(#:files ("helm-rb.el" "get_methods.rb")))
     (home-page
@@ -51990,7 +50966,7 @@
           (base32
             "0ji7ak9pkmw0wxzmw5a1amvn3pkj90v9jv1yi12w388njxn7qsvj"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/saidie/helm-rdefs")
     (synopsis "rdefs with helm interface")
@@ -52013,7 +50989,7 @@
           (base32
             "09aj1hsj81vx761v5ai48hvl17i2i60gx3szk8qcmmpcn00m3ps7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (arguments '(#:files ("helm-recoll.el")))
     (home-page
       "https://github.com/emacs-helm/helm-recoll")
@@ -52038,9 +51014,7 @@
           (base32
             "0m4l894345n0zkbgl0ar4c93v8pyrhblk9zbrjrdr9cfz40bx2kd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-dash emacs-helm))
     (home-page
       "https://github.com/cosmicexplorer/helm-rg")
     (synopsis "a helm interface to ripgrep")
@@ -52063,7 +51037,7 @@
           (base32
             "1ng73dmligj38xbfdfr8sb69czppks7wfvh5q5xcm2pha828kcwm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/mrBliss/helm-rhythmbox")
     (synopsis
@@ -52087,7 +51061,7 @@
           (base32
             "1qcx036pgrg4xc1y74amd8jkjylnc0g1c4841cc3fbknnn1ap54g"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/syohex/emacs-helm-robe")
     (synopsis "completing read function for robe")
@@ -52111,8 +51085,7 @@
             "1fgph8wsm2nakn53zj19r59mirzn25r601rljmdv2xpw5h3axywg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-xterm-color" ,emacs-xterm-color)))
+      (list emacs-helm emacs-xterm-color))
     (home-page
       "https://www.github.com/davidlandry93/helm-ros")
     (synopsis "Interfaces ROS with helm")
@@ -52135,9 +51108,7 @@
           (base32
             "05cigdvlq5lfahr9a1z8rvlw2s99j4pha2in59pshz9ph8cqgq10"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-rtags" ,emacs-rtags)))
+    (propagated-inputs (list emacs-helm emacs-rtags))
     (arguments '(#:files ("src/helm-rtags.el")))
     (home-page
       "https://github.com/Andersbakken/rtags")
@@ -52161,7 +51132,7 @@
           (base32
             "0s4hb1fvwr9za5gkz8s5w1kh9qjyygz6g59w7vmrg2d8ds2an03d"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/f-kubotar/helm-rubygems-local")
     (synopsis
@@ -52185,7 +51156,7 @@
           (base32
             "1sff8kagyhmwcxf9062il1077d4slvr2kq76abj496610gpb75i0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/neomantic/helm-rubygems-org")
     (synopsis "Use helm to search rubygems.org")
@@ -52208,7 +51179,7 @@
           (base32
             "1ws5zxanaiaaxpgkcb2914qa8wxp6ml019hfnfcp7amjnajq9pyz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/xuchunyang/helm-safari")
     (synopsis
@@ -52233,8 +51204,7 @@
             "0padb6mncgc52wib3dgvdc9r4dp591gf8nblbfnsnxx4zjrcwawb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-sage-shell-mode" ,emacs-sage-shell-mode)))
+      (list emacs-helm emacs-sage-shell-mode))
     (home-page
       "https://github.com/stakemori/helm-sage")
     (synopsis
@@ -52259,10 +51229,7 @@
             "17dzzqgd3sn69g3idbrdbqw162rsa7s4fa15rh6jpyx42ylbgiba"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-searcher" ,emacs-searcher)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-helm emacs-searcher emacs-s emacs-f))
     (home-page
       "https://github.com/emacs-helm/helm-searcher")
     (synopsis "Helm interface to use searcher")
@@ -52286,8 +51253,7 @@
             "1n6sp6bhlz01b1d87cgrgxhap0ch1bkh7fl45dzidx5fjz9lccdf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-selected" ,emacs-selected)))
+      (list emacs-helm emacs-selected))
     (home-page
       "https://github.com/takaxp/helm-selected")
     (synopsis "helm extension for selected.el")
@@ -52310,7 +51276,7 @@
           (base32
             "01lh1df0bnas1p7xlqc4i1jd67f8lxgq0q2zsvx10z8828i76j3v"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-selector")
     (synopsis "Helm buffer selector")
@@ -52333,7 +51299,7 @@
           (base32
             "00wnqcgpf4hqdnqj5zrizr4s0pffb93xwya8k5c3rp4plncrcdzx"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/yasuyk/helm-sheet")
     (synopsis "helm sources for sheet")
@@ -52356,7 +51322,7 @@
           (base32
             "00dkwym5xkvxa3w4dgpbk22rhrwl7v73cv6ay3pqcv7rjcc2m3s8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/yuutayamada/helm-shell-history")
     (synopsis "Find shell history from helm")
@@ -52379,9 +51345,7 @@
           (base32
             "1g9fnp818d677xhx2m4820742fyblvmnsygmkdb5530lacdaksh2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-slime" ,emacs-slime)))
+    (propagated-inputs (list emacs-helm emacs-slime))
     (home-page
       "https://github.com/emacs-helm/helm-slime")
     (synopsis
@@ -52405,9 +51369,7 @@
           (base32
             "06x8wyx1r0s7askkvlbklgz1cszv34qsvv3gryndw350smk1v8kx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-sly" ,emacs-sly)))
+    (propagated-inputs (list emacs-helm emacs-sly))
     (home-page
       "https://github.com/emacs-helm/helm-sly")
     (synopsis
@@ -52431,9 +51393,7 @@
           (base32
             "0n2ki7g0hygsq4bi5zkhp3v772ld7niiajfznxmv11dgn949a52s"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-smex" ,emacs-smex)
-        ("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-smex emacs-helm))
     (home-page "unspecified")
     (synopsis "Helm interface for smex")
     (description
@@ -52456,8 +51416,7 @@
             "1cz8aw6zprzfalagma7jmbycwll2chk2l4n5hkgqyhakdfm2ryzm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)
-        ("emacs-spaces" ,emacs-spaces)))
+      (list emacs-helm-core emacs-spaces))
     (home-page
       "https://github.com/yasuyk/helm-spaces")
     (synopsis "helm sources for spaces")
@@ -52480,9 +51439,7 @@
           (base32
             "0q3h84zj63b1rnlvmsznrpmvvf0qbic5yb9xkdjcz4jz4h8p3h1w"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-multi" ,emacs-multi)))
+    (propagated-inputs (list emacs-helm emacs-multi))
     (home-page
       "https://github.com/krisajenkins/helm-spotify")
     (synopsis "Control Spotify with Helm.")
@@ -52505,9 +51462,7 @@
           (base32
             "12zl775l7zikv268vypnb56ly2h0y3sf5wxv5rc2amnmwgrikvra"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-multi" ,emacs-multi)))
+    (propagated-inputs (list emacs-helm emacs-multi))
     (home-page
       "https://github.com/wandersoncferreira/helm-spotify-plus")
     (synopsis
@@ -52531,7 +51486,7 @@
           (base32
             "037gri2r9y135av8gbgi9d8k90qs8jlax0bimzcbwdkyhibhzrcp"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/eric-hansen/helm-sql-connect")
     (synopsis
@@ -52555,7 +51510,7 @@
           (base32
             "04d7hz7gpbcy4vnmwi605n51angn4xbx6kqqqdb8nqvzh4f0y5g1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/jamesnvc/helm-switch-shell")
     (synopsis
@@ -52579,7 +51534,7 @@
           (base32
             "0n8qa549c5syvgqw1h2zrakjjbygddpxzaifaq5irscgdcajrads"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-switch-to-repl")
     (synopsis
@@ -52603,7 +51558,7 @@
           (base32
             "0wgi7pk2s4syi3fc8l60zcnz34f8ik9y558la0d5ryci4fssrl7i"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacsorphanage/helm-swoop")
     (synopsis
@@ -52627,7 +51582,7 @@
           (base32
             "09acgs1mjkqmm7n88x4hck2bp3jv5fifdkd406r8fh874vyfib38"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-system-packages")
     (synopsis
@@ -52652,8 +51607,7 @@
             "11v6pwkhdssg2f6azs3nw1y3s5ysmkxxv1jvgm7yy8gwg04zvcym"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-with-editor" ,emacs-with-editor)))
+      (list emacs-helm emacs-with-editor))
     (arguments '(#:files ("helm-systemd.el")))
     (home-page "unspecified")
     (synopsis "helm's systemd interface")
@@ -52676,7 +51630,7 @@
           (base32
             "1ad0khw26m22xpdv0iyg5gac92i8m455sznsfh16vxaa98gq0c4q"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "https://github.com/akirak/helm-tail")
     (synopsis
       "Read recent output from various sources")
@@ -52699,7 +51653,7 @@
           (base32
             "0bx9fvw0jv1f4xdvf94lgxdzhvx2lpab4gyx71w6dg5wvd5cxzq0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/bdc34/helm-taskswitch")
     (synopsis
@@ -52723,8 +51677,7 @@
           (base32
             "0ii70wn3vadx8a36q2frmsvrmlpz1w58qgn2w3knjivj195knliw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (home-page
       "https://github.com/syohex/emacs-helm-themes")
     (synopsis
@@ -52748,7 +51701,7 @@
           (base32
             "0py1k0r15frj67mazfjkdwi8sx5a51ykrrbzvfb73kakq2f55jap"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/masasam/emacs-helm-tramp")
     (synopsis
@@ -52772,7 +51725,7 @@
           (base32
             "1aqwjw0jky07swagxnaqcn28inckavvpnlrwj62fljglip87zrc2"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis "Helm command for unicode characters.")
     (description
@@ -52794,7 +51747,7 @@
           (base32
             "0xlz9rxx7y9pkrzvxmv42vgys5iwx75zv9g50k8ihwc08z80dhcq"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (arguments
       '(#:files (:defaults "helper-src" "license.txt")))
     (home-page
@@ -52819,9 +51772,7 @@
           (base32
             "0cdfk1r2rcc5hflwjpmsijss6xf5lwzn7x68jq4b4xdlckkqf9d7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-w3m" ,emacs-w3m)))
+    (propagated-inputs (list emacs-helm emacs-w3m))
     (home-page "unspecified")
     (synopsis "W3m bookmark - helm interface.")
     (description
@@ -52843,7 +51794,7 @@
           (base32
             "17210p61q6g1rx8a3gacbrv69c4n92h5ajh28yw5ya23c275dnkb"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-wikipedia")
     (synopsis "Wikipedia suggestions")
@@ -52866,7 +51817,7 @@
           (base32
             "03a5hzgqak8wg6i2h2p3fr9ij55lqarcsblml8qrnrj27ghcvzzh"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/raghavgautam/helm-wordnet")
     (synopsis
@@ -52890,7 +51841,7 @@
           (base32
             "1yqr5z5sw7schvaq9pmwg79anp806gikm28s6xvrayzyn4idz2n6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/fujimisakari/emacs-helm-xcdoc")
     (synopsis
@@ -52914,7 +51865,7 @@
           (base32
             "1xbz6idr1fnqkqh0fsn9bhwavng6b2s4idc2l302s2vziygcm42d"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/brotzeit/helm-xref")
     (synopsis "Helm interface for xref results")
@@ -52938,8 +51889,7 @@
             "062i1gkwa1rmxaw5mf20vc3nqsj6g6hfbggcglgd3wfn9rckvlqb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-request emacs-helm))
     (home-page
       "https://github.com/maximus12793/helm-youtube")
     (synopsis
@@ -52963,7 +51913,7 @@
           (base32
             "1vz958yiva01yl1qj2pz84savcx8jgkvbywhcp4c3a8x3fikf0yl"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "https://github.com/yynozk/helm-z")
     (synopsis
       "Show z directory list with helm.el support.")
@@ -52986,7 +51936,7 @@
           (base32
             "1s8q97pra27bacvm5knj0sjgj7iqljlhxqiniaw8ij8w4fhcdh93"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/xuchunyang/helm-zhihu-daily")
     (synopsis
@@ -53010,7 +51960,7 @@
           (base32
             "064asvq6hfmrh3fnkm8dnarwmdgfm8f97mjng1bkf13wmnzglhck"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/duncanburke/help-find")
     (synopsis
@@ -53058,10 +52008,10 @@
             "0qwsifzsjw95l83m7z07fr9h1sqbhggwmcps1qgbddpan2a8ab8a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-elisp-refs" ,emacs-elisp-refs)))
+      (list emacs-dash
+            emacs-s
+            emacs-f
+            emacs-elisp-refs))
     (home-page "https://github.com/Wilfred/helpful")
     (synopsis "A better *help* buffer")
     (description
@@ -53127,8 +52077,7 @@
           (base32
             "1rp37rhkj8jm07dwr74vc68dhrbvyvrxjdavpb0h073ps9vl9dsc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-which-key" ,emacs-which-key)))
+    (propagated-inputs (list emacs-which-key))
     (home-page
       "https://gitlab.com/jjzmajic/hercules")
     (synopsis
@@ -53216,8 +52165,7 @@
           (base32
             "04zps0d4s99f5a8ahrpyf8b6qw0c1y7rd1bsaq9nc6m4qblsvwc8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-with-editor" ,emacs-with-editor)))
+    (propagated-inputs (list emacs-with-editor))
     (home-page
       "https://github.com/jojojames/hg-histedit")
     (synopsis "Edit HG histedit files")
@@ -53663,8 +52611,7 @@
           (base32
             "075ip8h7bdin0yvvhn5nkwnz58arlaw1imr866ghp12q5rl4shmc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-parent-mode" ,emacs-parent-mode)))
+    (propagated-inputs (list emacs-parent-mode))
     (home-page
       "https://github.com/Fanael/highlight-numbers")
     (synopsis "Highlight numbers in source code")
@@ -53844,8 +52791,7 @@
           (base32
             "0hhc2l4pz6q8injpplv6b5l08l8q2lnjdpwabp7gwmhraq54rhjx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)))
+    (propagated-inputs (list emacs-deferred))
     (home-page
       "https://github.com/hitode909/emacs-highlight-unique-symbol")
     (synopsis
@@ -53869,8 +52815,7 @@
           (base32
             "06nnqry36ncqacfzd8yvc4q59bwk3vgf9a14rkpph2hk2rfvq2m6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-htmlize" ,emacs-htmlize)))
+    (propagated-inputs (list emacs-htmlize))
     (arguments '(#:files (:defaults "bin")))
     (home-page "unspecified")
     (synopsis
@@ -54148,8 +53093,7 @@
           (base32
             "0sfki2844yjlvnjlaia0n46af3c5y1bi74x91icwxccqwlkyg8jg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-names" ,emacs-names)))
+    (propagated-inputs (list emacs-names))
     (home-page
       "https://github.com/laishulu/hl-fill-column")
     (synopsis "Highlight fill column.")
@@ -54262,9 +53206,7 @@
             "0x3dgws8nh7q8x7zzjwbm5k9n7gi7qqd3ww7y51fbx6p6ii3jpp4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-async" ,emacs-async)
-        ("emacs-htmlize" ,emacs-htmlize)))
+      (list emacs-popup emacs-async emacs-htmlize))
     (arguments '(#:files ("*.el")))
     (home-page
       "https://github.com/narendraj9/hledger-mode.git")
@@ -54358,8 +53300,7 @@
             "13i08hb4i6am4ljvdh9ifi616jbrld05pvhd159vmmli3wpyzgaw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-promise" ,emacs-promise)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-promise emacs-request))
     (home-page
       "https://github.com/thanhvg/emacs-hnreader/")
     (synopsis "A hackernews reader")
@@ -54428,8 +53369,7 @@
           (base32
             "011a9wg0b68cf2pcr2w5my4dlawaa9yzz98mnsv71v8ny42rzgs6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://alhassy.github.io/holy-books/")
     (synopsis
@@ -54454,8 +53394,7 @@
             "0wabzpah1vkg8ns21agvrs9s7rm1r0cxghmfv6c2zq71886glv1y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-keypress-multi-event"
-         ,emacs-keypress-multi-event)))
+      (list emacs-keypress-multi-event))
     (home-page
       "https://www.github.com/Boruch_Baum/emacs-home-end")
     (synopsis "Smart multi-purpose home / end keys")
@@ -54479,8 +53418,7 @@
             "1n688qffn8nrr45hnq4mmxr8v1wccjim50206c1xw8mvd63hnzhc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-inf-ruby" ,emacs-inf-ruby)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-inf-ruby emacs-dash))
     (home-page
       "https://github.com/dunn/homebrew-mode")
     (synopsis
@@ -54504,8 +53442,7 @@
           (base32
             "0nh8n9rbd640rjpb3qz1mq3mgwj4dw5m98v4xypxpd954pr90afc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-sudo-edit" ,emacs-sudo-edit)))
+    (propagated-inputs (list emacs-sudo-edit))
     (home-page
       "https://github.com/emacs-pe/honcho.el")
     (synopsis "Run and manage long-running services")
@@ -54528,8 +53465,7 @@
           (base32
             "0sg4h0m1ds3f6kpzd3vk30g6x2xl74r5j9bidw658f3mmai7m1l8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page "https://github.com/Silex/hookify")
     (synopsis
       "Interactive commands to create temporary hooks")
@@ -54617,8 +53553,7 @@
           (base32
             "04pb5yhv4ysmm9ngpipxglbwd6msxr4d0jd64mixxq77g2yfmfm4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "unspecified")
     (synopsis
       "Display hound search results in a compilation window")
@@ -54641,7 +53576,7 @@
           (base32
             "0ynf26gaj7n6cg0vgykq80hg21lxlwffwcssk9ppin0rqmc74m06"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/ericdallo/hover.el")
     (synopsis "Package to use hover with flutter")
@@ -54687,8 +53622,7 @@
             "05jmq05bjj0rfc6c69ykjrv6lavxpb21fnjny958if8hxzd7v1v8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-promise" ,emacs-promise)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-promise emacs-request))
     (home-page
       "https://github.com/thanhvg/howdoyou/")
     (synopsis
@@ -54757,7 +53691,7 @@
           (base32
             "1i3ps5zrr719nrcrsyhlmfdazzcz1agrmx424mbyca5vra8cc35i"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("ht.el")))
     (home-page "unspecified")
     (synopsis
@@ -54825,8 +53759,7 @@
           (base32
             "0i96m9wpgwlxp8b6lw7a8lsjbxb7q9m12p8yra33q7q3ilav4g8p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/plexus/html-to-hiccup")
     (synopsis "Convert HTML to Hiccup syntax")
@@ -54940,8 +53873,7 @@
             "0anpwnbjif6aahv8wg4mrd6afch9brnzgbgcx05p18dnc1hjxzbm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-edit-indirect" ,emacs-edit-indirect)))
+      (list emacs-request emacs-edit-indirect))
     (home-page "https://github.com/emacs-pe/http.el")
     (synopsis "Yet another HTTP client")
     (description
@@ -55031,8 +53963,7 @@
           (base32
             "0wd4wmy99mx677x4sdbp57bxxll1fsnnf8hk97r85xdmmjsmrkld"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://github.com/gregsexton/httprepl.el")
     (synopsis "An HTTP REPL")
@@ -55077,9 +54008,7 @@
             "1jn8958jabn8zxq11rs9b0r3ga3vznjd9qn40ka8n54rp4hnj1l9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-cider" ,emacs-cider)))
+      (list emacs-s emacs-dash emacs-cider))
     (home-page
       "https://github.com/rkaercher/hugsql-ghosts")
     (synopsis
@@ -55098,10 +54027,10 @@
         (uri (git-reference
                (url "https://github.com/humanoid-colors/emacs-humanoid-themes.git")
                (commit
-                 "8ad6d9ae8e6c2cd7e282922416a596bbb20438c8")))
+                 "9ee79e049f3ad2450133ed731d2066e49ad86667")))
         (sha256
           (base32
-            "0y1kazfhjsyghqm1ddd2dbk1jipwn0l1n15mcm4d7038dd3x6d99"))))
+            "1jjbb9p970ghym5d6y49x6kmknkfxh250g1q2vaqi8acj112hnxa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/humanoid-colors/emacs-humanoid-themes")
@@ -55170,8 +54099,7 @@
           (base32
             "1aavih2l4kwv25vw8iai18mjl7w66ih3yvblqfhcpmgbihnv4fp0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "http://github.com/hylang/hy-mode")
     (synopsis "Major mode for Hylang")
     (description
@@ -55282,7 +54210,7 @@
           (base32
             "13zjw64x728pm1a44lzzv9s9r5kkss0ncwqzzczhk8bvmsi7m1l3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-lv" ,emacs-lv)))
+    (propagated-inputs (list emacs-lv))
     (arguments
       '(#:files (:defaults (:exclude "lv.el"))))
     (home-page "https://github.com/abo-abo/hydra")
@@ -55306,8 +54234,7 @@
           (base32
             "1h819sxbzpcnr6mkl6aw9qxhyhkydppwwwqsgyw9qfil9sk8hyff"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/maxking/hyperkitty.el")
     (synopsis
@@ -55353,7 +54280,7 @@
           (base32
             "13nvp7hzynrddws3x7f7p4529arn3m7km7ma4226mc7mbpfbjgi1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/ieure/hyperspace-el")
     (synopsis "Get there from here")
@@ -55371,13 +54298,12 @@
         (uri (git-reference
                (url "https://github.com/zzkt/i-ching.git")
                (commit
-                 "39fd7daf1efd761336616c870cc5b8871422d95e")))
+                 "992f53ae2bd572b89bc642ca70b8bdaa5eb2553f")))
         (sha256
           (base32
-            "18b9n5w36zdsaxc63nhsry2i1s28a4y21sc6cj7rawvd8zyxargv"))))
+            "0z00w8ssr1syh5fphk7y7910l66vlcyj2lc76jhs1g7pxs6q5hh9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "https://github.com/zzkt/i-ching")
     (synopsis "The Book of Changes")
     (description
@@ -55553,8 +54479,7 @@
           (base32
             "0gcars1zmfrysq1n3bv40nwqsk821bz3pffrsjw14fg2mwjpmaxq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)))
+    (propagated-inputs (list emacs-projectile))
     (home-page
       "https://github.com/purcell/ibuffer-projectile")
     (synopsis
@@ -55668,8 +54593,7 @@
           (base32
             "1sxadaip63mhfjvgkax45jlv3c8cnbjnq653qbvw98vb8xsrmjc4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-solarized-theme" ,emacs-solarized-theme)))
+    (propagated-inputs (list emacs-solarized-theme))
     (home-page
       "https://github.com/conao3/iceberg-theme.el")
     (synopsis
@@ -55717,8 +54641,7 @@
             "0s65kilx1jrjhm80sc4fj3x0mr3x4m3vjllm6qxj8ml8sh3pkai3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-choice-program" ,emacs-choice-program)
-        ("emacs-buffer-manage" ,emacs-buffer-manage)))
+      (list emacs-choice-program emacs-buffer-manage))
     (home-page "https://github.com/plandes/icsql")
     (synopsis "Interactive iSQL iteraface to ciSQL")
     (description
@@ -55942,8 +54865,7 @@
           (base32
             "0amjz5l586w6qbhjr32gzcbg2d94k904h5is0030zgy2qswphnfn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-memoize" ,emacs-memoize)))
+    (propagated-inputs (list emacs-memoize))
     (arguments
       '(#:files ("ido-completing-read+.el")))
     (home-page
@@ -55992,8 +54914,7 @@
             "0r8z8ingq83nkab9khpl9gspihv28gy721hcs0yh1d74wyjc71cr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flx-ido" ,emacs-flx-ido)
-        ("emacs-migemo" ,emacs-migemo)))
+      (list emacs-flx-ido emacs-migemo))
     (home-page
       "https://github.com/ROCKTAKEY/ido-flex-with-migemo")
     (synopsis "use ido with flex and migemo")
@@ -56083,8 +55004,7 @@
             "0l69sr3g1n2x61j6sv6hnbiyk8a2qra6y2kh413qp0sfpx4fzchv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-persistent-soft" ,emacs-persistent-soft)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-persistent-soft emacs-pcache))
     (home-page
       "http://github.com/rolandwalker/ido-load-library")
     (synopsis
@@ -56108,8 +55028,7 @@
           (base32
             "0my4bvi2b4c5q8wdsdhypyk6w6n63pw0240kx3r6kb85l9rg95r3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-migemo" ,emacs-migemo)))
+    (propagated-inputs (list emacs-migemo))
     (home-page
       "https://github.com/myuhe/ido-migemo.el")
     (synopsis "Migemo plug-in for Ido")
@@ -56178,8 +55097,7 @@
           (base32
             "149cznbybwj0gkjyvpnh4kn258kxw449m7cn95n9jbh1r45vljvy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ddskk" ,emacs-ddskk)))
+    (propagated-inputs (list emacs-ddskk))
     (home-page
       "https://github.com/tsukimizake/ido-skk")
     (synopsis "ido interface for skk henkan")
@@ -56271,8 +55189,7 @@
             "1p50ycsn1mcq5nqa16w10hm8v2pixibvandc91mj5l7s8zspanik"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ido-completing-read+"
-         ,emacs-ido-completing-read+)))
+      (list emacs-ido-completing-read+))
     (home-page
       "https://github.com/DarwinAwardWinner/ido-yes-or-no")
     (synopsis
@@ -56317,8 +55234,7 @@
           (base32
             "0bl6wz05m325h2y4in7fv280p73a2iv2k52jg7qp26aggmpfrjxa"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-prop-menu" ,emacs-prop-menu)))
+    (propagated-inputs (list emacs-prop-menu))
     (arguments
       '(#:files (:defaults "logo-small.png")))
     (home-page
@@ -56726,8 +55642,7 @@
           (base32
             "1fhhpz29x9vkhzms2qkxblic96kqzg0rqsxj71vgz6fpwdb4f9gy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "https://github.com/ecraven/imgbb.el")
     (synopsis
       "Simple image upload client for imgbb.com")
@@ -56818,8 +55733,7 @@
             "14jnni828ndl1sj92cy49r0aa6y8qwqbm2rrxc87j0yfn5sdckc7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-simple-httpd" ,emacs-simple-httpd)
-        ("emacs-htmlize" ,emacs-htmlize)))
+      (list emacs-simple-httpd emacs-htmlize))
     (arguments
       '(#:files ("*.html" "*.js" "impatient-mode.el")))
     (home-page "https://github.com/netguy204/imp.el")
@@ -56843,8 +55757,7 @@
           (base32
             "0pjr6bnd3vjqf3i64gyp9sqx81an9xc2sgawza33b8hmnwvgarmw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-impatient-mode" ,emacs-impatient-mode)))
+    (propagated-inputs (list emacs-impatient-mode))
     (arguments '(#:files (:defaults "preview.html")))
     (home-page
       "https://github.com/jcs-elpa/impatient-showdown")
@@ -56869,8 +55782,7 @@
           (base32
             "0if117lia2ykd6ai0cf5z4ddhsm9icijigwbrn079v7m9s8yl43p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-grizzl" ,emacs-grizzl)))
+    (propagated-inputs (list emacs-grizzl))
     (arguments '(#:files ("plugin/import-js.el")))
     (home-page
       "http://github.com/Galooshi/emacs-import-js/")
@@ -56894,8 +55806,7 @@
           (base32
             "0jjm214zfq2kk8vzf67vala46lbbkjyms7qm27qv3yhcbc7ricvn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popwin" ,emacs-popwin)))
+    (propagated-inputs (list emacs-popwin))
     (home-page
       "https://github.com/syohex/emacs-import-popwin")
     (synopsis
@@ -56919,8 +55830,7 @@
           (base32
             "035830aizamh4c8hpnmfrbz9v9gy23d3nx0dv366l3q8mrh36l44"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-epc" ,emacs-epc)))
+    (propagated-inputs (list emacs-f emacs-epc))
     (arguments
       '(#:files (:defaults "importmagicserver.py")))
     (home-page
@@ -56941,10 +55851,10 @@
         (uri (git-reference
                (url "https://github.com/flashcode/impostman.git")
                (commit
-                 "130ef8218c9e2a776130ab95b6cd199955328913")))
+                 "083a2c1708af80779d23b562260cdf8246efa569")))
         (sha256
           (base32
-            "0w9x6iq7cmzd3vqrjh7l8b457fcphpl8z1xk4dcc3lj113nczyig"))))
+            "18pz6rnfip3v4yqaffbqhw6ib1yn0rwjxlykp73w0zychcxxsxry"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/flashcode/impostman")
@@ -57036,8 +55946,7 @@
             "0d7vkgzsx6ka4zliscsg6drqhg2bj16i911ryzmsp4v6hj294jrc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-async-await" ,emacs-async-await)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-async-await emacs-async))
     (arguments
       '(#:files
         (:defaults (:exclude "flycheck-indent.el"))))
@@ -57064,9 +55973,7 @@
             "0jri2vxd5a4sx93xq6kjcc5zx9yrhv789x3lyq6r2p2422diw2jr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-yafolding" ,emacs-yafolding)))
+      (list emacs-s emacs-hydra emacs-yafolding))
     (home-page
       "https://gitlab.com/emacs-stuff/indent-tools/")
     (synopsis
@@ -57113,7 +56020,7 @@
           (base32
             "0n933jigp0awba2hxg3kwscmfmmqn3jwbrxcw3vw9aj0a5rg5bq6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/Fuco1/indicators.el")
     (synopsis
@@ -57138,11 +56045,10 @@
             "1hii97gz1qpr9nbnpb6am4i6a6vwxnbzcy65gyjvsfc122m3qn03"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)
-        ("emacs-js2-refactor" ,emacs-js2-refactor)
-        ("emacs-company" ,emacs-company)
-        ("emacs-json-process-client"
-         ,emacs-json-process-client)))
+      (list emacs-js2-mode
+            emacs-js2-refactor
+            emacs-company
+            emacs-json-process-client))
     (home-page
       "https://github.com/NicolasPetton/indium")
     (synopsis
@@ -57188,8 +56094,7 @@
           (base32
             "1hbylg5nsix65a85bibwgzcyjkf19rjvdkg04p9hnvsgh59x2d5l"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-clojure-mode" ,emacs-clojure-mode)))
+    (propagated-inputs (list emacs-clojure-mode))
     (home-page
       "http://github.com/clojure-emacs/inf-clojure")
     (synopsis
@@ -57213,8 +56118,7 @@
           (base32
             "18627gvpgw2ay7zcbglw6gwpslgh69hbvynwcyqln4c17fk9h0kw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-crystal-mode" ,emacs-crystal-mode)))
+    (propagated-inputs (list emacs-crystal-mode))
     (home-page
       "https://github.com/brantou/inf-crystal.el")
     (synopsis
@@ -57440,7 +56344,7 @@
           (base32
             "1sai118i5ry58jjc3777kn2ca2nhaxszhl0va6gyy7j2cdpg8gpy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/GuiltyDolphin/inform7-mode")
     (synopsis
@@ -57621,10 +56525,10 @@
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-inkpot-theme.git")
                (commit
-                 "a7afa500f949f6af4c4c7ceccf940a1906188a05")))
+                 "9afc537af6e56dda5a3ef60792f15ed391ba3b8b")))
         (sha256
           (base32
-            "1xgqjyv9php5hisb1lypdaiscrxncq2p2ihl3yc0dmiks8llvf39"))))
+            "0mffhf0zzvlrc0kcvfj91p4q7wx9v4ih1v1spjad40h5790gn9an"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-inkpot-theme")
@@ -57736,8 +56640,7 @@
           (base32
             "10dh7rbr4fhz5db5vm5za8x6cnjbrlgc98af5qr0462zc9gq7xif"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/sam030820/insert-esv/")
     (synopsis "Insert ESV Bible passages")
@@ -57916,7 +56819,7 @@
           (base32
             "1zv6m24ryls9hvla3hf8wzp6r7fzbxa1lzr1mb0wz0s292l38wjz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/Fuco1/interval-list")
     (synopsis
@@ -57940,7 +56843,7 @@
           (base32
             "0fqnn9xhrc9hkaiziafjgg288l6m05416z9kz8l5845fnqsb7pb3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/Fuco1/interval-tree")
     (synopsis
@@ -57964,8 +56867,7 @@
           (base32
             "169zsp8kd8dq8mcfzm228wm8c97rv56clsg6z8dp8aaz7nw1kxgf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-autothemer" ,emacs-autothemer)))
+    (propagated-inputs (list emacs-autothemer))
     (home-page
       "http://github.com/dcjohnson/inverse-acme-theme")
     (synopsis
@@ -58208,10 +57110,10 @@
         (uri (git-reference
                (url "https://github.com/Sarcasm/irony-mode.git")
                (commit
-                 "b9c64abf81e73860e39ecd82dfa00cca90b53d99")))
+                 "5063d6b16d5d0a444bbc7599caabfdc6b512f70c")))
         (sha256
           (base32
-            "1ilvfqn7hzrjjy2zrv08dbdnmgksdgsmrdcvx05s8704430ag0pb"))))
+            "1c5xqpr7czncj16rfl8gaa01nczkg3x1n8jh18nd2201xrc4v8z4"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("*.el" "server")))
     (home-page
@@ -58236,8 +57138,7 @@
           (base32
             "0nwwghsdv11bxqar4ppraxxmm6i076s7nmi9l2c53m708xn4p6pi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-irony" ,emacs-irony)))
+    (propagated-inputs (list emacs-irony))
     (home-page
       "https://github.com/ikirill/irony-eldoc")
     (synopsis "irony-mode support for eldoc-mode")
@@ -58303,7 +57204,7 @@
           (base32
             "0ykzjflb101jn7x6g902xn2bkpc6v3ymm79vwndkl01n172v23m3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/jcs-elpa/isearch-project")
     (synopsis
@@ -58396,8 +57297,7 @@
           (base32
             "0gslib1r9d9dqd9r89dfg8npkybjw2bjdrbs0z2qcnfa82x4fq4z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pythonic" ,emacs-pythonic)))
+    (propagated-inputs (list emacs-pythonic))
     (home-page
       "https://github.com/proofit404/isortify")
     (synopsis
@@ -58554,8 +57454,7 @@
           (base32
             "16hygfx9gla6yhc3kaiy4m6g910m1hak3v86fnpf12kzvjjs9zfx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivs-edit" ,emacs-ivs-edit)))
+    (propagated-inputs (list emacs-ivs-edit))
     (arguments '(#:files ("ivariants*.el" "tables")))
     (home-page
       "http://github.com/kawabata/ivariants")
@@ -58580,7 +57479,7 @@
           (base32
             "1sdl83cf87zbv0ynvb6qlgbpm4d3dqhdn84jhhs5j247r5qzhmz6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments
       '(#:files
         ("ivs-edit.el"
@@ -58638,9 +57537,7 @@
           (base32
             "1w8x2qk8lafnn6ksv1anixayyl476y1j6hp2amfnqmdkh0vnh63v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-ivy emacs-avy))
     (arguments '(#:files ("ivy-avy.el")))
     (home-page "https://github.com/abo-abo/swiper")
     (synopsis "Avy integration for Ivy")
@@ -58664,9 +57561,7 @@
             "1d3mc17ga09m41i06khghlvixr6gsiacifnhdbrfnp0w5592aprk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-bibtex-completion"
-         ,emacs-bibtex-completion)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-bibtex-completion emacs-ivy))
     (arguments '(#:files ("ivy-bibtex.el")))
     (home-page
       "https://github.com/tmalsburg/helm-bibtex")
@@ -58691,10 +57586,7 @@
             "1yzvaf95pncfi1r3xj8h6393dfvx291q3ahdwpp7qn3jh71kjx6k"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-f emacs-s emacs-dash emacs-ivy))
     (home-page
       "https://github.com/wpcarro/ivy-clipmenu.el")
     (synopsis "Ivy client for clipmenu")
@@ -58717,9 +57609,7 @@
           (base32
             "1jlax3qymv8j516g319cqs8q6vq34pdrlg7mwwb2vsklynd291c5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-edn" ,emacs-edn)
-        ("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-edn emacs-ivy))
     (home-page
       "https://github.com/wandersoncferreira/ivy-clojuredocs")
     (synopsis "Search for help in clojuredocs.org")
@@ -58743,8 +57633,7 @@
             "1fkw82am49j49s0s3ql22hl9i2imypb0xkrmsgc7sr2hfsim56sd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-counsel" ,emacs-counsel)))
+      (list emacs-ivy emacs-counsel))
     (home-page
       "https://github.com/jixiuf/ivy-dired-history")
     (synopsis "use ivy to open recent directories")
@@ -58767,9 +57656,7 @@
           (base32
             "0h7f9yj2dx36pjqdf6n803xhv7m96xgj11hi59kh1rvr8d28pgm0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-emms" ,emacs-emms)))
+    (propagated-inputs (list emacs-ivy emacs-emms))
     (home-page
       "https://github.com/franburstall/ivy-emms")
     (synopsis "Ivy interface to emms tracks")
@@ -58792,7 +57679,7 @@
           (base32
             "0h3051qq6xjc7gkl2a8if9b9ak6wnlc4gmh268s8jvi0nd8dfw2z"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/sbozzolo/ivy-emoji.git")
     (synopsis "Insert emojis with ivy")
@@ -58816,10 +57703,10 @@
             "0i06332ycky68ccnyay4c277nl227r0hvbrflswbj4g1rybfdd3q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-counsel" ,emacs-counsel)
-        ("emacs-ivy" ,emacs-ivy)
-        ("emacs-erlang" ,emacs-erlang)))
+      (list emacs-async
+            emacs-counsel
+            emacs-ivy
+            emacs-erlang))
     (arguments '(#:files (:defaults "bin")))
     (home-page "unspecified")
     (synopsis
@@ -58843,7 +57730,7 @@
           (base32
             "1720g8i6jq56myv8m9pnr0ab7wagsflm0jgkg7cl3av7zc90zq8r"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/clemera/ivy-explorer")
     (synopsis "Dynamic file browsing grid using ivy")
@@ -58867,9 +57754,7 @@
             "1q2k6118yip8vlpaf8jhygi23wvf7zy7s3bpv51jgfkw89a3vgxa"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-ivy emacs-s emacs-f))
     (home-page
       "https://github.com/jcs-elpa/ivy-file-preview")
     (synopsis
@@ -58893,9 +57778,7 @@
           (base32
             "0ir1ighdlkh7ff1n607rwqyw2m9x9gr1ss4abdx6walajs7q3dki"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-fuz" ,emacs-fuz)
-        ("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-fuz emacs-ivy))
     (home-page "https://github.com/Silex/ivy-fuz.el")
     (synopsis "Integration between fuz and ivy.")
     (description
@@ -58918,10 +57801,7 @@
             "056c4fb5sj2y4h94klx2g24n1g3qdi7ifzs8ksw5v6hcj9lrkb1n"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-ivy" ,emacs-ivy)
-        ("emacs-gitlab" ,emacs-gitlab)))
+      (list emacs-s emacs-dash emacs-ivy emacs-gitlab))
     (arguments '(#:files ("ivy-gitlab.el")))
     (home-page
       "https://github.com/nlamirault/emacs-gitlab")
@@ -58946,9 +57826,7 @@
             "031624grhvv5ix3gvnd8lzpws80lb5r272yggl1k57rsayyv55ix"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-historian" ,emacs-historian)
-        ("emacs-ivy" ,emacs-ivy)
-        ("emacs-flx" ,emacs-flx)))
+      (list emacs-historian emacs-ivy emacs-flx))
     (arguments '(#:files ("ivy-historian.el")))
     (home-page
       "https://github.com/PythonNut/historian.el")
@@ -58973,9 +57851,7 @@
           (base32
             "1w8x2qk8lafnn6ksv1anixayyl476y1j6hp2amfnqmdkh0vnh63v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-hydra" ,emacs-hydra)))
+    (propagated-inputs (list emacs-ivy emacs-hydra))
     (arguments '(#:files ("ivy-hydra.el")))
     (home-page "https://github.com/abo-abo/swiper")
     (synopsis "Additional key bindings for Ivy")
@@ -58998,7 +57874,7 @@
           (base32
             "034ln7r1fgsgpxgmk4iv08pkjkxmdc0c0q44hqv2ryb1zkbwija1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/julienXX/ivy-lobsters")
     (synopsis "Browse lobste.rs stories with ivy.")
@@ -59021,9 +57897,7 @@
           (base32
             "0svvh14zhym9ssc0dc7wyr1pw0rhiirn2s7a0xk43wl2r0c36cgj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-migemo" ,emacs-migemo)))
+    (propagated-inputs (list emacs-ivy emacs-migemo))
     (home-page
       "https://github.com/ROCKTAKEY/ivy-migemo")
     (synopsis "Use migemo on ivy")
@@ -59047,9 +57921,7 @@
             "0zf007j3i9prlsqjaf0xw7ylaim463f867nfc63fpsr508xsn5rd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-libmpdel" ,emacs-libmpdel)
-        ("emacs-mpdel" ,emacs-mpdel)))
+      (list emacs-ivy emacs-libmpdel emacs-mpdel))
     (home-page
       "https://gitlab.petton.fr/mpdel/ivy-mpdel")
     (synopsis "Ivy interface to navigate MPD")
@@ -59072,9 +57944,7 @@
           (base32
             "028c51z4glxxrni1vjdzs9l1475jmcjagpgwaryiqdwx6clia59x"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-ivy emacs-dash))
     (home-page
       "https://github.com/akirak/ivy-omni-org")
     (synopsis "Browse anything in Org mode")
@@ -59098,8 +57968,7 @@
             "18crb4zh2pjf0cmv3b913m9vfng27girjwfqc3mk7vqd1r5a49yk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-password-store" ,emacs-password-store)))
+      (list emacs-ivy emacs-password-store))
     (home-page
       "https://github.com/ecraven/ivy-pass/")
     (synopsis "ivy interface for pass")
@@ -59123,8 +57992,7 @@
             "0kf1k3jqg2r20x985h6brg92sg7y47c5vkfjky8xp11gqyqw47bi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-phpunit" ,emacs-phpunit)))
+      (list emacs-ivy emacs-phpunit))
     (home-page "https://github.com/12pt/ivy-phpunit")
     (synopsis "Ivy integration for phpunit.el")
     (description
@@ -59147,8 +58015,7 @@
             "1yan9h12208dalzgpffqxnzv8b0hwzhzna01gnzb9wmkcfi3fpmh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-posframe" ,emacs-posframe)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-posframe emacs-ivy))
     (home-page
       "https://github.com/tumashu/ivy-posframe")
     (synopsis "Using posframe to show Ivy")
@@ -59172,8 +58039,7 @@
             "0ywx7q41i9pzmfgwv83mz5z17gril2s0r7y77hbbriww5yy1ihx4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-prescient" ,emacs-prescient)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-prescient emacs-ivy))
     (arguments '(#:files ("ivy-prescient.el")))
     (home-page
       "https://github.com/raxod502/prescient.el")
@@ -59198,8 +58064,7 @@
             "1hiw7mnrr0cnnp0a2mh837pzdaknadwv0sk82vya6blx0a7m691g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-window-purpose" ,emacs-window-purpose)))
+      (list emacs-ivy emacs-window-purpose))
     (home-page "https://github.com/bmag/ivy-purpose")
     (synopsis "Ivy Interface for Purpose")
     (description
@@ -59221,7 +58086,7 @@
           (base32
             "1dv6vr7fv32v5m04zdy02sdajpvrnpc4i3pbh2dwfv73ff8d8yxm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (arguments '(#:files ("*.el")))
     (home-page "https://github.com/Yevgnen/ivy-rich")
     (synopsis
@@ -59245,9 +58110,7 @@
           (base32
             "05cigdvlq5lfahr9a1z8rvlw2s99j4pha2in59pshz9ph8cqgq10"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-rtags" ,emacs-rtags)))
+    (propagated-inputs (list emacs-ivy emacs-rtags))
     (arguments '(#:files ("src/ivy-rtags.el")))
     (home-page
       "https://github.com/Andersbakken/rtags")
@@ -59272,10 +58135,7 @@
             "0cfhdmbrm41q3iwmrr0amhk3csrwxhqbisayjc5s01bf129rx7rf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-searcher" ,emacs-searcher)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-ivy emacs-searcher emacs-s emacs-f))
     (home-page
       "https://github.com/jcs-elpa/ivy-searcher")
     (synopsis "Ivy interface to use searcher")
@@ -59291,7 +58151,7 @@
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://codeberg.org/jao/espotify")
+               (url "https://codeberg.org/jao/espotify.git")
                (commit
                  "5c1dcf0182135cda4191d4ba206fe2f265100293")))
         (sha256
@@ -59299,8 +58159,7 @@
             "06wj2pixhjgqddl9g2wkv7cq9gz9yjb46cb1jrlbya3rdjyfb6h5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-espotify" ,emacs-espotify)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-espotify emacs-ivy))
     (arguments '(#:files ("ivy-spotify.el")))
     (home-page "https://codeberg.org/jao/espotify")
     (synopsis "Search spotify with ivy")
@@ -59323,7 +58182,7 @@
           (base32
             "0j9cdzr5s7zi6qf4cax8bc2jrprgaz85mfvc9cx52ryd3yn8l6g0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/Kungsgeten/ivy-todo")
     (synopsis "Manage org-mode TODOs with ivy")
@@ -59346,7 +58205,7 @@
           (base32
             "1m5ljx395yw70fx643pnf7pk709s9v5b77zvvv3j21d0cjnppqz5"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/hex2010/emacs-ivy-xcdoc")
     (synopsis
@@ -59370,7 +58229,7 @@
           (base32
             "0h4cnhfqgrzm63kfrlz2mhgsk20jkcq18gjx9pvbbhhg59xvvnaj"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/alexmurray/ivy-xref")
     (synopsis "Ivy interface for xref results")
@@ -59394,9 +58253,7 @@
             "07a4bk3hva41qzz8x4qyswa2f89psxhih89k0slhngw5d8iidx3i"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ivy" ,emacs-ivy)
-        ("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-ivy emacs-yasnippet emacs-dash))
     (home-page
       "https://github.com/mkcms/ivy-yasnippet")
     (synopsis "Preview yasnippets with ivy")
@@ -59420,9 +58277,7 @@
             "1ywrkx8ddncy4qhv5gh4qf1cpapyvny42i51p91j9ip7xmihy6lm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ycmd" ,emacs-ycmd)
-        ("emacs-ivy" ,emacs-ivy)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-ycmd emacs-ivy emacs-dash))
     (home-page
       "https://github.com/abingham/emacs-ivy-ycmd")
     (synopsis "Ivy interface to ycmd")
@@ -59446,8 +58301,7 @@
             "0f90dq8qhmsnm2hvnvzyb20nq0vmgnqzqa693scq69dv5rdjgwyj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-request emacs-ivy))
     (home-page
       "https://github.com/squiter/ivy-youtube")
     (synopsis
@@ -59471,8 +58325,7 @@
           (base32
             "069alh9vs6is3hvbwxbwr9g8qq9md5c92wg5bfswi99yciqdvc4i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-grapnel" ,emacs-grapnel)))
+    (propagated-inputs (list emacs-grapnel))
     (home-page
       "http://www.github.com/theanalyst/ix.el")
     (synopsis
@@ -59517,9 +58370,7 @@
           (base32
             "1fif38qhiaxskfmqin82n9334bzrkgd1h5ip1djcm571i670gj74"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-fsm" ,emacs-fsm)
-        ("emacs-srv" ,emacs-srv)))
+    (propagated-inputs (list emacs-fsm emacs-srv))
     (arguments
       '(#:files
         ("*.el"
@@ -59547,8 +58398,7 @@
           (base32
             "0yv86nadp6dfzl05vhk8c1kahg2pcrhfmd3mnfjrngp7ksac5lyf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-jabber" ,emacs-jabber)))
+    (propagated-inputs (list emacs-jabber))
     (arguments '(#:files (:defaults "emacs-otr.py")))
     (home-page
       "https://github.com/legoscia/emacs-jabber-otr/")
@@ -59778,9 +58628,7 @@
           (base32
             "0zny134wxbwf4igzg9s4f4505hgjb7hy5l9ycqhl7l0ss2baz19j"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-pcache" ,emacs-pcache)))
+    (propagated-inputs (list emacs-s emacs-pcache))
     (home-page
       "http://www.github.com/dakrone/emacs-java-imports")
     (synopsis "Code for dealing with Java imports")
@@ -59803,8 +58651,7 @@
           (base32
             "1mgpb7g28ppbrl6sbyyswz9brrx8b7xjxmv576ija2qlh3whv5gs"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page
       "https://github.com/nekop/yasnippet-java-mode")
@@ -59874,8 +58721,7 @@
           (base32
             "09gn08c9wz60jc8jh5y3bv7qymp0ciz62bk5sjwkwgnq5mkpsf49"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-tinysegmenter" ,emacs-tinysegmenter)))
+    (propagated-inputs (list emacs-tinysegmenter))
     (home-page "http://zk-phi.github.io/")
     (synopsis
       "Minor-mode for handling Japanese words better")
@@ -59965,10 +58811,10 @@
             "0c0jfi3gg85ccid7h9ll0a160lsjb11wxqncs4qnz75d3npmgsw9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-memoize" ,emacs-memoize)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-flycheck
+            emacs-memoize
+            emacs-dash
+            emacs-s))
     (arguments '(#:files (:defaults "jdee-test.el")))
     (home-page "http://github.com/jdee-emacs/jdee")
     (synopsis
@@ -59993,8 +58839,7 @@
             "1c4nqgg1w2qv0mhpi6hhz3xr5kk4bbxc951fhik6dpi2c2w8p73s"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-jedi-core" ,emacs-jedi-core)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-jedi-core emacs-auto-complete))
     (arguments '(#:files ("jedi.el")))
     (home-page "unspecified")
     (synopsis "a Python auto-completion for Emacs")
@@ -60018,9 +58863,7 @@
             "1c4nqgg1w2qv0mhpi6hhz3xr5kk4bbxc951fhik6dpi2c2w8p73s"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-epc" ,emacs-epc)
-        ("emacs-python-environment"
-         ,emacs-python-environment)))
+      (list emacs-epc emacs-python-environment))
     (arguments
       '(#:files
         ("jedi-core.el"
@@ -60049,9 +58892,7 @@
           (base32
             "1pgi5vnwz5agrpvy7nwg3gv2nfbbmimhk8dxkg81k6yf1iiqxcap"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-jedi" ,emacs-jedi)
-        ("emacs-direx" ,emacs-direx)))
+    (propagated-inputs (list emacs-jedi emacs-direx))
     (home-page "unspecified")
     (synopsis
       "Tree style source code viewer for Python buffer")
@@ -60074,7 +58915,7 @@
           (base32
             "11k0g077893pd831vbkyiakmvkxzcwgr1g6inx10cscl0yvciq62"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "http://github.com/SavchenkoValeriy/jeison")
     (synopsis
@@ -60098,8 +58939,7 @@
           (base32
             "0rx72rid7922mhw21j85kxmx0fhpkmkv9jvxmj9izy01xnjbk00c"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)))
+    (propagated-inputs (list emacs-polymode))
     (home-page
       "https://github.com/fred-o/jekyll-modes")
     (synopsis
@@ -60144,7 +58984,7 @@
           (base32
             "0g99bi3i27ay8xhz409k9ska9yy77j3k687l817k1fyhlyy5lpjk"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis
       "Minimalistic Jenkins client for Emacs")
@@ -60190,8 +59030,7 @@
           (base32
             "0w38g88yykslg71xr99ff4vx1ffgy90b7xqvvdflr189gwk3avx1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-groovy-mode" ,emacs-groovy-mode)))
+    (propagated-inputs (list emacs-groovy-mode))
     (home-page
       "https://github.com/john2x/jenkinsfile-mode")
     (synopsis
@@ -60216,11 +59055,11 @@
             "0dxzml0i4x072jwxsbv0nnj3ws1i3z1x2ybg3fqfnfvzy2vynx3w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-magit-popup" ,emacs-magit-popup)
-        ("emacs-projectile" ,emacs-projectile)
-        ("emacs-s" ,emacs-s)
-        ("emacs-js2-mode" ,emacs-js2-mode)))
+      (list emacs-dash
+            emacs-magit-popup
+            emacs-projectile
+            emacs-s
+            emacs-js2-mode))
     (home-page
       "https://github.com/emiller88/emacs-jest/")
     (synopsis "helpers to run jest")
@@ -60266,7 +59105,7 @@
           (base32
             "0v948k7xjm66px20ad331pskc7svpcrcffh3hbkjsksd4k0pggds"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/emacs-php/jetbrains.el")
     (synopsis "JetBrains IDE bridge")
@@ -60312,7 +59151,7 @@
           (base32
             "0rdrryfppgj5smrds5gyyhc4z8x36aq3gxdpckq80rbl4s729chy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/jeffgran/jg-quicknav")
     (synopsis
@@ -60381,8 +59220,7 @@
             "0yrcc9yfz9gxkhizy03bpysl1wcdbk0m6fj9hkqw3kbgnsk25h4p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-request emacs-dash))
     (home-page
       "https://github.com/nyyManni/jiralib2")
     (synopsis "JIRA REST API bindings to Elisp")
@@ -60406,9 +59244,7 @@
             "13dic7bmj7a8vvjz47s1fnz8p5m22d2m2h2vlkmlq7322qwxxw6p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-magit" ,emacs-magit)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash emacs-magit emacs-request))
     (home-page "https://github.com/emacs-pe/jist.el")
     (synopsis "Gist integration")
     (description
@@ -60473,8 +59309,7 @@
           (base32
             "0v4xiq3xf7c52rmyymw8a4ws85ij0xy7pr7625gf15359cs5chs9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments
       '(#:files (:defaults "jonprl-icon.png")))
     (home-page "unspecified")
@@ -60522,7 +59357,7 @@
           (base32
             "1x7qha7xyn2j225h7axhskngc8icjhgm3f451iq3qysj22q8g4d6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments
       '(#:files (:defaults "create-file-alist.py")))
     (home-page "https://github.com/domtronn/jpop.el")
@@ -60547,8 +59382,7 @@
           (base32
             "1g9chp1b3lkrg46b39swrkvp5willi0ay3i177jdp6knbzhj4mq3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/wbolster/emacs-jq-format")
     (synopsis "Reformat JSON and JSONLines using jq")
@@ -60615,8 +59449,7 @@
             "0xwkjq41v32dqc5gq8hcmcvdjg2y38xq6hkw5pja0kyvyk92c82d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-web-beautify" ,emacs-web-beautify)
-        ("emacs-web-mode" ,emacs-web-mode)))
+      (list emacs-web-beautify emacs-web-mode))
     (home-page "unspecified")
     (synopsis "auto format you js/jsx file")
     (description
@@ -60727,8 +59560,7 @@
           (base32
             "18wr2z2w2fqgy51f5m5izrnywarxn6w4qs04lsgbwlsc6ahpwwpf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)))
+    (propagated-inputs (list emacs-js2-mode))
     (arguments
       '(#:files (:defaults "*.js" "*.json" "styles")))
     (home-page
@@ -60755,9 +59587,7 @@
             "1p18lg3apmhcmvkwldnygy35s1kjj68sgv81lyyf0csvc0pxbcpk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-projectile" ,emacs-projectile)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-f emacs-projectile emacs-dash))
     (home-page
       "https://github.com/jakoblind/js-import")
     (synopsis
@@ -60781,8 +59611,7 @@
           (base32
             "00icd76y7sp3cby6n1mkxma4h6aqkrq6cqsnbqrpsgq99qqy30my"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page
       "https://github.com/sooqua/js-react-redux-yasnippets")
@@ -60806,8 +59635,7 @@
           (base32
             "09zfmxi9m883lzsafnws06ifpq92b2i9q05pxk085vgkdpq35nss"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)))
+    (propagated-inputs (list emacs-js2-mode))
     (home-page "http://github.com/jart/js2-closure")
     (synopsis "Google Closure dependency manager")
     (description
@@ -60829,8 +59657,7 @@
           (base32
             "0yy8sqkn6c7r377qr2id4z550vw1x70xjd4i7yg0g1rj7q1kg98l"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)))
+    (propagated-inputs (list emacs-js2-mode))
     (home-page
       "http://mihai.bazon.net/projects/editing-javascript-with-emacs-js2-mode/js2-highlight-vars-mode")
     (synopsis
@@ -60876,13 +59703,12 @@
             "0pjadcb5i8g8wkaf4hvh270r5z3qcsksnpcq5gzacqbgz5j2qcaf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)
-        ("emacs-s" ,emacs-s)
-        ("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-js2-mode
+            emacs-s
+            emacs-multiple-cursors
+            emacs-dash
+            emacs-s
+            emacs-yasnippet))
     (home-page "unspecified")
     (synopsis
       "A JavaScript refactoring library for emacs.")
@@ -60905,8 +59731,7 @@
           (base32
             "12g1yah3k0k0p6nlrq8j9iq5l59zalknix60s1zj24bssac5y0zj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)))
+    (propagated-inputs (list emacs-js2-mode))
     (home-page
       "https://github.com/redguardtoo/js2hl")
     (synopsis
@@ -60997,8 +59822,7 @@
           (base32
             "0r0k56q58kb133l9x9nbisz9p2kbphfgw1l4g2xp0pjqsc9wvq8z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-json-snatcher" ,emacs-json-snatcher)))
+    (propagated-inputs (list emacs-json-snatcher))
     (home-page
       "https://github.com/joshwnj/json-mode")
     (synopsis "Major mode for editing JSON files.")
@@ -61021,8 +59845,7 @@
           (base32
             "0gn19qn11n86rn9b6knp9fb5jx9m2q1khhm4vnh0vjck7jxi9sqr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-hierarchy" ,emacs-hierarchy)))
+    (propagated-inputs (list emacs-hierarchy))
     (home-page
       "https://github.com/DamienCassou/json-navigator")
     (synopsis "View and navigate JSON structures")
@@ -61045,8 +59868,7 @@
           (base32
             "1k1jv0m6mj772dkjzsy86k528lqljqmffcpz9l2lzrm6q1bqnw43"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-json-mode" ,emacs-json-mode)))
+    (propagated-inputs (list emacs-json-mode))
     (home-page "https://github.com/taku0/json-par")
     (synopsis
       "Minor mode for structural editing of JSON")
@@ -61204,7 +60026,7 @@
           (base32
             "02dqr916vxzqvlaf6wffnd7s1q082hnxhjwwip8iyjfj9fzk9yk1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/mgyucht/jsonnet-mode")
     (synopsis "Major mode for editing jsonnet files")
@@ -61228,8 +60050,7 @@
             "07yd7sxb5f2mbm2nva7b2nwyxxkmsi2rdd5qig0bq1b2mf3g5l83"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-websocket" ,emacs-websocket)
-        ("emacs-js2-mode" ,emacs-js2-mode)))
+      (list emacs-websocket emacs-js2-mode))
     (arguments '(#:files ("jss*.el")))
     (home-page "unspecified")
     (synopsis
@@ -61254,10 +60075,7 @@
             "16jgmabcqrjb3v9c6q711jqn9dna88bmzm4880mdry69ixwcydxy"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-s emacs-f emacs-dash emacs-pcache))
     (home-page
       "https://github.com/cheunghy/jst-mode")
     (synopsis "JS test mode")
@@ -61326,7 +60144,7 @@
           (base32
             "04baf40gqd1mzk7pvyq663ndg5byyq848r802j10zvggvacjwcbx"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "https://github.com/tpapp/julia-repl")
     (synopsis "A minor mode for a Julia REPL")
     (description
@@ -61348,8 +60166,7 @@
           (base32
             "182r7x7w3xnx7c54izz3rlz0khcwh7v21m89qpq99f9dvcs6273k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-julia-mode" ,emacs-julia-mode)))
+    (propagated-inputs (list emacs-julia-mode))
     (arguments '(#:files (:defaults "*.jl")))
     (home-page "unspecified")
     (synopsis
@@ -61374,11 +60191,11 @@
             "0vspf2imgvcjyavzj3ljsi7xrhk97is05l1c4d2bypnsq35x3549"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-julia-mode" ,emacs-julia-mode)
-        ("emacs-s" ,emacs-s)
-        ("emacs-spinner" ,emacs-spinner)
-        ("emacs-vterm" ,emacs-vterm)))
+      (list emacs-dash
+            emacs-julia-mode
+            emacs-s
+            emacs-spinner
+            emacs-vterm))
     (arguments
       '(#:files (:defaults "*.jl" "*.toml")))
     (home-page "https://github.com/gcv/julia-snail")
@@ -61402,8 +60219,7 @@
           (base32
             "0v7l4jxq71vcw3sjs476smbw9ln6xfrq7n3vzw26apzkrplizqyy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-vterm" ,emacs-vterm)))
+    (propagated-inputs (list emacs-vterm))
     (home-page
       "https://github.com/shg/julia-vterm.el")
     (synopsis "A mode for Julia REPL using vterm")
@@ -61426,8 +60242,7 @@
           (base32
             "0nn2m27c70nykin4iakrna0c61qd1hr09czrfmfpk06k70iifjky"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("jumblr.el" "dict")))
     (home-page "https://github.com/mkmcc/jumblr")
     (synopsis "an anagram game for emacs")
@@ -61451,8 +60266,7 @@
             "03fh7i6blnbc0zbmp83fk095hr3q4fdvrvfxad74zghcbc2nk7b7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-findr" ,emacs-findr)
-        ("emacs-inflections" ,emacs-inflections)))
+      (list emacs-findr emacs-inflections))
     (arguments '(#:files ("jump.el")))
     (home-page "http://github.com/eschulte/jump.el")
     (synopsis
@@ -61557,15 +60371,15 @@
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-jupyter.git")
                (commit
-                 "c702f1e90f9acded57297fbba88322f16f127b27")))
+                 "df343af5e9187a400a9291fa6a2b0c69f3ad0425")))
         (sha256
           (base32
-            "0rvx5bw4zza09agd9kn9milk82mbqwm5iwq8xcmyb9srpkwrqgms"))))
+            "0sa8mi5gmb0n1ylgh1vz72nfgrjxny770l5z3xyxl0myw668vmcf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-zmq" ,emacs-zmq)
-        ("emacs-simple-httpd" ,emacs-simple-httpd)
-        ("emacs-websocket" ,emacs-websocket)))
+      (list emacs-zmq
+            emacs-simple-httpd
+            emacs-websocket))
     (arguments
       '(#:files
         (:defaults "Makefile" "widget.html" "js")))
@@ -61614,10 +60428,10 @@
             "1d6y84gm5n9gkn7v9rhxhxsihabrdgx6mddam0pw75ka53q5s8wi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)
-        ("emacs-xterm-color" ,emacs-xterm-color)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-transient
+            emacs-xterm-color
+            emacs-s
+            emacs-f))
     (home-page "https://github.com/psibi/justl.el")
     (synopsis "Major mode for driving just files")
     (description
@@ -61639,7 +60453,7 @@
           (base32
             "0k91cdjlpil8npc4d3zsgx2gk41crl7qgm9r85khcgxs59kmkniw"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/martintrojer/jvm-mode.el")
     (synopsis "Monitor and manage your JVMs")
@@ -61662,8 +60476,7 @@
           (base32
             "14zrrfkpnh821hpa1d8bpcvmzc654ibjd0sf78v5jckjswh3vqfl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yaml-mode" ,emacs-yaml-mode)))
+    (propagated-inputs (list emacs-yaml-mode))
     (arguments
       '(#:files
         ("*.el"
@@ -61715,8 +60528,7 @@
           (base32
             "1pl0514rj99b1j3y33x2bnhjbdbv9bfxgqn9498bf4ns8zayc6y9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-kaesar" ,emacs-kaesar)))
+    (propagated-inputs (list emacs-kaesar))
     (arguments '(#:files ("kaesar-file.el")))
     (home-page
       "https://github.com/mhayashi1120/Emacs-kaesar")
@@ -61741,8 +60553,7 @@
           (base32
             "1pl0514rj99b1j3y33x2bnhjbdbv9bfxgqn9498bf4ns8zayc6y9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-kaesar" ,emacs-kaesar)))
+    (propagated-inputs (list emacs-kaesar))
     (arguments '(#:files ("kaesar-mode.el")))
     (home-page
       "https://github.com/mhayashi1120/Emacs-kaesar")
@@ -61785,16 +60596,15 @@
         (uri (git-reference
                (url "https://github.com/jmorag/kakoune.el.git")
                (commit
-                 "c39f278811945dbf0958ca8cf81d7b03c39efbcf")))
+                 "d81bd00323ba10343a28bc855ee5ddbd09b7d2a5")))
         (sha256
           (base32
-            "0ajh4nk8brwi41rsbd9dn5gbf7i2mkaxm3aal09r2wgmgxigsiqp"))))
+            "187dnrjp9khs1l17afwiw8dhk3znvirwzpllpv63fvzvc6gsi2hg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ryo-modal" ,emacs-ryo-modal)
-        ("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)
-        ("emacs-expand-region" ,emacs-expand-region)))
+      (list emacs-ryo-modal
+            emacs-multiple-cursors
+            emacs-expand-region))
     (home-page
       "https://github.com/jmorag/kakoune.el")
     (synopsis
@@ -61818,7 +60628,7 @@
           (base32
             "1f352ki7yj1z5y2xpbmwi5f8nim208nbg94760hzwkjkk7rd71k2"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments '(#:files ("kaleidoscope.el")))
     (home-page
       "https://github.com/algernon/kaleidoscope.el")
@@ -61844,9 +60654,7 @@
             "1f352ki7yj1z5y2xpbmwi5f8nim208nbg94760hzwkjkk7rd71k2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-kaleidoscope" ,emacs-kaleidoscope)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-evil emacs-kaleidoscope emacs-s))
     (arguments
       '(#:files ("kaleidoscope-evil-state-flash.el")))
     (home-page
@@ -61872,7 +60680,7 @@
           (base32
             "0d5qnqhvnxw5009mq34jnnc19r01y4kz0ypnv1mby80g8jz2gl62"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/chenyanming/kana")
     (synopsis "Learn Japanese hiragana and katakana")
     (description
@@ -61940,9 +60748,7 @@
             "1snrzah6pcxd9vm6crxz85c5nl6zfhfbc0581z765g2vg87qcb12"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-cider" ,emacs-cider)
-        ("emacs-parseedn" ,emacs-parseedn)))
+      (list emacs-s emacs-cider emacs-parseedn))
     (home-page
       "https://github.com/magnars/kaocha-runner.el")
     (synopsis
@@ -61966,8 +60772,7 @@
           (base32
             "1awgh70g7k7bjjga8kd6rfd8k3fqzkswgxyf4qgrsjci80is8jcn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-autothemer" ,emacs-autothemer)))
+    (propagated-inputs (list emacs-autothemer))
     (arguments '(#:files (:defaults "themes/*.el")))
     (home-page
       "https://github.com/ogdenwebb/emacs-kaolin-themes")
@@ -61991,8 +60796,7 @@
           (base32
             "1jc796nyrck3k50x6jb1wsaawk396y4gk87gkwb8yd5qks7ci35q"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (home-page
       "https://github.com/kuanyui/kaomoji.el")
     (synopsis "Input kaomoji superb easily")
@@ -62016,8 +60820,7 @@
             "05vrfii2n2g2q60dzgw23ck6gxxm3d7fsabi4z0g3k9gc6wrsl5l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-magit-popup" ,emacs-magit-popup)))
+      (list emacs-magit emacs-magit-popup))
     (home-page
       "http://github.com/Manoj321/kapacitor-el")
     (synopsis "Main file for kapacitor-mode")
@@ -62040,8 +60843,7 @@
           (base32
             "12v242kfcx849j8w95v2g7djh9xqbx8n033iaxyavfxnz0pp7zdl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pkg-info" ,emacs-pkg-info)))
+    (propagated-inputs (list emacs-pkg-info))
     (home-page "http://github.com/tonini/karma.el")
     (synopsis "Karma Test Runner Emacs Integration")
     (description
@@ -62330,8 +61132,7 @@
           (base32
             "05vpydcgiaya35b62cdjxna9y02vnwzzg6p8jh0dkr9k44h4iy3f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-key-chord" ,emacs-key-chord)))
+    (propagated-inputs (list emacs-key-chord))
     (home-page "http://github.com/vlevit/key-seq.el")
     (synopsis
       "map pairs of sequentially pressed keys to commands")
@@ -62508,7 +61309,7 @@
           (base32
             "0fcz1qw3mw4m8albs1ybixrcz8yqgwip69fr99cd5bxfyr6zqj6d"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/HKey/keyset")
     (synopsis
       "A small library for structuring key bindings.")
@@ -62531,9 +61332,7 @@
           (base32
             "06cznkqkm04zz5lqfb514aqvsr2p13arzysixv0ss0bqpvdq7cv7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-origami" ,emacs-origami)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-origami emacs-s))
     (arguments '(#:files ("*.el")))
     (home-page
       "https://github.com/peterpaul/keystore-mode")
@@ -62624,7 +61423,7 @@
           (base32
             "0xq835xzywks4b4kaz5i0pp759i23kibs5gkvvxasw0dncqh7j5c"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page "https://github.com/abingham/kfg")
     (synopsis "an emacs configuration system")
     (description
@@ -62668,8 +61467,7 @@
           (base32
             "0p210q71cn7a4sg82638mxc4v8b2lyi6yv888fjzwnxc804ahwxc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yaml-mode" ,emacs-yaml-mode)))
+    (propagated-inputs (list emacs-yaml-mode))
     (home-page
       "https://github.com/DamienCassou/khardel")
     (synopsis "Integrate with khard")
@@ -62692,7 +61490,7 @@
           (base32
             "0s2hb2lvfmcvm3n1fg4biaafc1p7j7w990d7w15gicaw6rr2j4nr"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "http://www.github.com/brunchboy/kibit-helper")
     (synopsis
@@ -62782,8 +61580,7 @@
           (base32
             "1cr4i66lws6yhyxmyx5jw6d5x7i75435mafkkych4nfa0mv4vicd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-websocket" ,emacs-websocket)))
+    (propagated-inputs (list emacs-websocket))
     (home-page "unspecified")
     (synopsis "WebKit inspector front-end")
     (description
@@ -62806,8 +61603,7 @@
             "1qmg5mdf3zhmpa4kdvkh62y6if6mj4ag885dg7y6461dg2y6ymlh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-websocket" ,emacs-websocket)))
+      (list emacs-dash emacs-websocket))
     (home-page
       "https://github.com/tungd/kite-mini.el")
     (synopsis
@@ -62826,10 +61622,10 @@
         (uri (git-reference
                (url "https://github.com/kivy/kivy.git")
                (commit
-                 "6fcf41729ce4abc6625bc732846f2c4d1d92ea3f")))
+                 "64dd0930226731c2fbb63e6894fa6aafebf5c841")))
         (sha256
           (base32
-            "07rwc9jpys3cxw30jzs51igzmp2j9fdv6h81zrbirhkg5jh1v293"))))
+            "0nyyr3fsa09l3wiz7vscpm0xslqka4xsdqmfi87f0hihh316hg03"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("kivy/tools/highlight/kivy-mode.el")))
@@ -62855,8 +61651,7 @@
           (base32
             "08dkxjrpdy3i6j0zgfa7bqdk8cykjfzybrfwrrf9848fxy96n4pb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/stardiviner/kiwix.el")
     (synopsis
@@ -62949,9 +61744,7 @@
           (base32
             "1gck7lvqxcr9ikrzlpvcf4408cq6i4s8ijgb0kdsbkfzv0w86934"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-request emacs-f))
     (home-page
       "http://github.com/spiderbit/kodi-remote.el")
     (synopsis "Remote Control for Kodi")
@@ -63197,10 +61990,10 @@
             "0as26hsvkkjzls68wf6f1wwcrpnhj31g13cykclgq3jdwcah6xsp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-yaml-mode" ,emacs-yaml-mode)))
+      (list emacs-transient
+            emacs-dash
+            emacs-s
+            emacs-yaml-mode))
     (arguments
       '(#:files (:defaults (:exclude "kubel-evil.el"))))
     (home-page "https://github.com/abrochard/kubel")
@@ -63220,14 +62013,12 @@
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "4f1e4f4bb591d1870ff9453f1f2c8992e0044b89")))
+                 "f75a78f785ef1782a32f4464a89fd4c33bf368ca")))
         (sha256
           (base32
-            "0y9kchi6wz0gp7jdcq67k9bp5vlw5q9ki4h2yiqaxa5a0pp7zvkl"))))
+            "0as26hsvkkjzls68wf6f1wwcrpnhj31g13cykclgq3jdwcah6xsp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-kubel" ,emacs-kubel)
-        ("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-kubel emacs-evil))
     (arguments '(#:files ("kubel-evil.el")))
     (home-page "https://github.com/abrochard/kubel")
     (synopsis
@@ -63252,11 +62043,11 @@
             "17imkanh7ay88s1ppzsdr7hf91rgqimx9v6p69srmqq5bpnwpnmy"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-magit-section" ,emacs-magit-section)
-        ("emacs-magit-popup" ,emacs-magit-popup)
-        ("emacs-with-editor" ,emacs-with-editor)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-dash
+            emacs-magit-section
+            emacs-magit-popup
+            emacs-with-editor
+            emacs-transient))
     (arguments
       '(#:files
         (:defaults (:exclude "kubernetes-evil.el"))))
@@ -63277,14 +62068,13 @@
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "4b740d88c6dcb091d701f74ddcf53e3732999ac9")))
+                 "73361de919cff8d773f347868850f6c694d942e7")))
         (sha256
           (base32
-            "1l5rbgagdi6gfp8prj01pcgh4k3k90aijrrq5b8nkqppxiq85kh7"))))
+            "17imkanh7ay88s1ppzsdr7hf91rgqimx9v6p69srmqq5bpnwpnmy"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-kubernetes" ,emacs-kubernetes)
-        ("emacs-evil" ,emacs-evil)))
+      (list emacs-kubernetes emacs-evil))
     (arguments '(#:files ("kubernetes-evil.el")))
     (home-page "unspecified")
     (synopsis
@@ -63308,8 +62098,7 @@
           (base32
             "0k1kk472yianf5sn05hxqfpza5yxm9lmr917wmw3mca17758hsgm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yaml-mode" ,emacs-yaml-mode)))
+    (propagated-inputs (list emacs-yaml-mode))
     (home-page
       "https://github.com/abrochard/kubernetes-helm")
     (synopsis
@@ -63356,7 +62145,7 @@
           (base32
             "0y8wj8f2wzhg5vl4kjrqny3333616s4lcil085190yyb7mjakvn5"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "unspecified")
     (synopsis "color editing goodies for Emacs")
     (description
@@ -63445,9 +62234,7 @@
             "1y4lp5y55r43kjw47wjxdx0i8cd8id8sd7s8cac01c5n9hcsjyiz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auctex" ,emacs-auctex)
-        ("emacs-aas" ,emacs-aas)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-auctex emacs-aas emacs-yasnippet))
     (home-page
       "https://github.com/tecosaur/LaTeX-auto-activating-snippets")
     (synopsis
@@ -63580,16 +62367,15 @@
         (uri (git-reference
                (url "https://github.com/Deducteam/lambdapi.git")
                (commit
-                 "2a332231ed1af833080480781be43656f8bf941c")))
+                 "b4ce95c10abe91ee9abc6993b41d7f5ab95d49f9")))
         (sha256
           (base32
-            "105xdlilllr5naxm3fvm9p56jpyaj0y496f1za3816s8yvphdziq"))))
+            "1pjvyhnq86pkl6lgany25ybyl5b3x3v4p1m7kk631zqrqzk481ms"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-eglot" ,emacs-eglot)
-        ("emacs-math-symbol-lists"
-         ,emacs-math-symbol-lists)
-        ("emacs-highlight" ,emacs-highlight)))
+      (list emacs-eglot
+            emacs-math-symbol-lists
+            emacs-highlight))
     (arguments
       '(#:files
         ("editors/emacs/*.el"
@@ -63709,8 +62495,7 @@
           (base32
             "1pmpnpbl1xanprmikawcy9v4441q3381mmyp1v0mgf0dyzg871m6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-langtool" ,emacs-langtool)))
+    (propagated-inputs (list emacs-langtool))
     (arguments
       '(#:files (:defaults (:exclude "doc/*"))))
     (home-page
@@ -63782,8 +62567,7 @@
           (base32
             "0gpnczvdwrcvvd162mi9nf55b0vzbpfmbhan1bqzc84rbjw0bzql"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/PillFall/Emacs-LanguageTool.el")
     (synopsis
@@ -63808,11 +62592,11 @@
             "0yp6gzxs6hxfqhdwhp5vldjsxl1y6qvj4i3s5fdvcf0sjdjncvxw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-anaphora" ,emacs-anaphora)
-        ("emacs-memoize" ,emacs-memoize)
-        ("emacs-elquery" ,emacs-elquery)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-request
+            emacs-anaphora
+            emacs-memoize
+            emacs-elquery
+            emacs-s))
     (home-page
       "https://github.com/mihaiolteanu/lastfm.el/")
     (synopsis "Last.fm API for Emacs Lisp")
@@ -63857,8 +62641,7 @@
           (base32
             "15m7zvdhg5z7d8alrw66p703wdp5r57lxrgq3zz7xc4hscwghlb1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auctex" ,emacs-auctex)))
+    (propagated-inputs (list emacs-auctex))
     (home-page
       "http://github.com/Malabarba/latex-extra")
     (synopsis
@@ -64089,9 +62872,7 @@
           (base32
             "02ai9yf7h3i81bg01w8nb4kdrcc94ladbrkw9vg3p40w617mjwlb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-colorless-themes"
-         ,emacs-colorless-themes)))
+    (propagated-inputs (list emacs-colorless-themes))
     (arguments '(#:files ("lavenderless-theme.el")))
     (home-page
       "https://git.sr.ht/~lthms/colorless-themes.el")
@@ -64137,7 +62918,7 @@
           (base32
             "10nvxvyz39avlf2v8d4lag7jj5x5p8jvaqiww7x6l992mp11hahk"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/jyp/lcr")
     (synopsis "lightweight coroutines")
     (description
@@ -64154,10 +62935,10 @@
         (uri (git-reference
                (url "https://github.com/conao3/leaf.el.git")
                (commit
-                 "7d8f768db5077bdb9f595cbf841018fc600ecf77")))
+                 "0a698d240e49ebfbe57f7637ba104498478052ee")))
         (sha256
           (base32
-            "15f0q4dlybqb3k17sgaj9vp42mgvrh72mqzs5sh49lxi000bdhkh"))))
+            "004nbm2l9pwhzyd8y12hr24brni6m3k3hxj35kd93dn2zw1wvy0h"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/conao3/leaf.el")
     (synopsis
@@ -64182,9 +62963,7 @@
             "14pvdkknbng44frlf8accpqd1bc9j99x7xjymgrdbyczbq2srv4n"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-leaf" ,emacs-leaf)
-        ("emacs-leaf-keywords" ,emacs-leaf-keywords)
-        ("emacs-ppp" ,emacs-ppp)))
+      (list emacs-leaf emacs-leaf-keywords emacs-ppp))
     (home-page
       "https://github.com/conao3/leaf-convert.el")
     (synopsis "Convert many format to leaf format")
@@ -64208,8 +62987,7 @@
             "1z56x3wnyakilgxak2yyf6rf35072996szxfz712lmdwqs6xfqv4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-leaf" ,emacs-leaf)
-        ("emacs-leaf-keywords" ,emacs-leaf-keywords)))
+      (list emacs-leaf emacs-leaf-keywords))
     (home-page
       "https://github.com/conao3/leaf-defaults.el")
     (synopsis "Awesome leaf config collections")
@@ -64232,7 +63010,7 @@
           (base32
             "00fnkk6hl9l64dgmkhsqibhna7gdpazs4j28f7833n1dmg626ki6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-leaf" ,emacs-leaf)))
+    (propagated-inputs (list emacs-leaf))
     (home-page
       "https://github.com/conao3/leaf-keywords.el")
     (synopsis
@@ -64257,9 +63035,7 @@
             "0klp0yjpf8njdavwh71i7wkl5yrjh42wgakigizgb1l1sksp9iy9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-leaf" ,emacs-leaf)
-        ("emacs-leaf-convert" ,emacs-leaf-convert)
-        ("emacs-ppp" ,emacs-ppp)))
+      (list emacs-leaf emacs-leaf-convert emacs-ppp))
     (home-page
       "https://github.com/conao3/leaf-manager.el")
     (synopsis
@@ -64283,8 +63059,7 @@
           (base32
             "0him39wsl65nmml9as8gfrix707xjxwvjkwmrgxc9qfjwcxvbvsj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-imenu-list" ,emacs-imenu-list)))
+    (propagated-inputs (list emacs-imenu-list))
     (home-page
       "https://github.com/conao3/leaf-tree.el")
     (synopsis
@@ -64309,10 +63084,7 @@
             "1zikz4qaxabs3j86gljpp2qbhbzxsjzz544k9vsngibd468dszlv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-dash emacs-s emacs-f emacs-flycheck))
     (arguments '(#:files ("lean-*.el")))
     (home-page
       "https://github.com/leanprover/lean-mode")
@@ -64337,10 +63109,10 @@
             "1lg4zml26q97bx9jrmjikhnm3d74b12q2li5h8gpxx9m35wc360c"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-pcache" ,emacs-pcache)
-        ("emacs-s" ,emacs-s)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-request
+            emacs-pcache
+            emacs-s
+            emacs-async))
     (home-page
       "https://github.com/aborn/leanote-emacs")
     (synopsis
@@ -64386,8 +63158,7 @@
           (base32
             "1zgv3sxg1dwg7dgy0cl5df6nkxp79cg906hskxsdx6yfplxvi4px"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ledger-mode" ,emacs-ledger-mode)))
+    (propagated-inputs (list emacs-ledger-mode))
     (home-page
       "https://gitlab.petton.fr/mpdel/libmpdel")
     (synopsis
@@ -64459,11 +63230,11 @@
             "1cm6z3ad3c704y3n0f1h38fhqrd69mrf7f4x79l8v76f6fj8vdhh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-graphql" ,emacs-graphql)
-        ("emacs-spinner" ,emacs-spinner)
-        ("emacs-aio" ,emacs-aio)
-        ("emacs-log4e" ,emacs-log4e)))
+      (list emacs-dash
+            emacs-graphql
+            emacs-spinner
+            emacs-aio
+            emacs-log4e))
     (home-page
       "https://github.com/kaiwk/leetcode.el")
     (synopsis "An leetcode client")
@@ -64531,10 +63302,7 @@
             "0cj19czxmrxw1id1ym1ai3k7sv9shl3lz4fqj8qyg73j4kj1gbn0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-m-buffer" ,emacs-m-buffer)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-m-buffer emacs-dash emacs-f emacs-s))
     (arguments
       '(#:files
         (:defaults
@@ -64562,8 +63330,7 @@
             "1wc1c6hqhbb5x4fi7lp30bsrfww9g12c41lphswy92qzlij4zbww"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lentic" ,emacs-lentic)
-        ("emacs-web-server" ,emacs-web-server)))
+      (list emacs-lentic emacs-web-server))
     (home-page "unspecified")
     (synopsis "Web Server for Emacs Literate Source")
     (description
@@ -64764,8 +63531,7 @@
           (base32
             "0c22347dfrjdrn0cn4bqqsw8gd1663hkgycxkfivpyg0d734g5nq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page "https://alhassy.github.io/lf.el/")
     (synopsis
       "A Language Features library for Emacs Lisp")
@@ -64814,8 +63580,7 @@
           (base32
             "1l8m47aklx98m89i9d3kj9dd521xkicipgbfnpiyjzqmaw1bh6zm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://gitlab.petton.fr/bcel/libbcel")
     (synopsis "Library to connect to basecamp 3 API")
@@ -64838,8 +63603,7 @@
           (base32
             "0vk7m8napg3ss4d9cgsrhkycb5k07q440lspxihy047556l6q3cm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://gitlab.petton.fr/elcouch/libelcouch/")
     (synopsis "Communication with CouchDB")
@@ -64974,7 +63738,7 @@
           (base32
             "0795vbq794clynxcpqrzjsk8d3qisk71bpambcrbiwikpg051fv3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/jumper047/librera-sync")
     (synopsis
@@ -65021,8 +63785,7 @@
           (base32
             "1kld7xg1kxb9mq1g20rzay5zdnjyaw4ss7xksr97qik018vf22y8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page
       "https://github.com/sei40kr/license-snippets")
@@ -65046,8 +63809,7 @@
           (base32
             "1f1ykbjrvz11i4sj1ff9hyl3kl65ll1c88gxgb66gmbxggqy5mja"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/jcs-elpa/license-templates")
     (synopsis "Create LICENSE using GitHub API")
@@ -65087,10 +63849,10 @@
         (uri (git-reference
                (url "https://gitlab.com/ligolang/ligo.git")
                (commit
-                 "52657742b7035fae5c29e58546def5a3c3920e77")))
+                 "1acb57254d3b46dce1a2cdf34283564a2a36f084")))
         (sha256
           (base32
-            "08hb9kdjpd84r5vsd3mfkm6a09gri48nfp4ldx2nzhywzyl22kwq"))))
+            "042dqh40fvy3vzz2x1n4k5v6i317b9faszvk34i4jz8hvc9cpag2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("tools/emacs/ligo-mode.el")))
@@ -65118,9 +63880,9 @@
             "1v8x2kf0w5vwl4myiwraq5b1nyfx0b0fgwpzvb9bnjjdj2nsk36p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-indicators" ,emacs-indicators)
-        ("emacs-fringe-helper" ,emacs-fringe-helper)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-indicators
+            emacs-fringe-helper
+            emacs-ht))
     (home-page
       "https://github.com/emacs-vs/line-reminder")
     (synopsis
@@ -65139,10 +63901,10 @@
         (uri (git-reference
                (url "https://github.com/janestreet/line-up-words.git")
                (commit
-                 "7f51793fa6c037a90a90e47b433cc8a773a3b552")))
+                 "7f5f8d232a647e3966f84aaf35aca7cfb1ea15ca")))
         (sha256
           (base32
-            "0wd493d678587zc10y6hjlmjiacmj3xzw20zzfnvg2qr5nlqpl2g"))))
+            "1bbqlgl955y24jsggzc763dagsv7vnlzcav98f15j9gh54p6h8ws"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/janestreet/line-up-words")
@@ -65256,7 +64018,7 @@
           (base32
             "14f0x319mqbk7vyh5nm9gijy59m45j342fl8fxgvkr7ajn4rg7aw"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-avy))
     (home-page
       "https://github.com/noctuid/link-hint.el")
     (synopsis
@@ -65372,13 +64134,12 @@
             "06rnma2xj2vnbvy1bnls59cagk6qsf862bj1zp6xbmpr1a5l9m4z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-pos-tip" ,emacs-pos-tip)
-        ("emacs-flycheck-liquidhs"
-         ,emacs-flycheck-liquidhs)
-        ("emacs-button-lock" ,emacs-button-lock)))
+      (list emacs-flycheck
+            emacs-dash
+            emacs-popup
+            emacs-pos-tip
+            emacs-flycheck-liquidhs
+            emacs-button-lock))
     (home-page "unspecified")
     (synopsis "show inferred liquid-types")
     (description
@@ -65536,11 +64297,11 @@
             "1sd3czlvvpsfq44ppk8jrv53d7irnk1c8nxvjjlyjbxpxj6zk5zh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ace-window" ,emacs-ace-window)
-        ("emacs-iedit" ,emacs-iedit)
-        ("emacs-counsel" ,emacs-counsel)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-zoutline" ,emacs-zoutline)))
+      (list emacs-ace-window
+            emacs-iedit
+            emacs-counsel
+            emacs-hydra
+            emacs-zoutline))
     (arguments
       '(#:files
         (:defaults
@@ -65568,9 +64329,7 @@
           (base32
             "1jlxcr9vikczhryw3xslfy6hzs2ikcf9khbwaw53ymwdxrmphcci"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lispy" ,emacs-lispy)
-        ("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-lispy emacs-evil))
     (home-page
       "https://github.com/noctuid/lispyville")
     (synopsis
@@ -65617,9 +64376,7 @@
             "02l7q5376ydz6a8i9x74bsx5bbxz8xkasmv1lzvf79d3jbg28l1s"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-persistent-soft" ,emacs-persistent-soft)))
+      (list emacs-s emacs-ht emacs-persistent-soft))
     (home-page "unspecified")
     (synopsis "Extras for list-packages")
     (description
@@ -65728,7 +64485,7 @@
           (base32
             "0c84fvc33ddicfi8blkcd6dv1lagjnlk9bwjj88zcvg48fnykqvr"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis
       "dynamic evaluation replacement with emacs")
@@ -65751,9 +64508,7 @@
           (base32
             "0147dqzhphnhxrcjxnbjk258j7g7y0rpbw6q3xrd340j9fk1q60k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-enlive" ,emacs-enlive)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-enlive emacs-s))
     (home-page "https://github.com/zzkt/litanizer")
     (synopsis "Generate \"Latour Litanies\"")
     (description
@@ -65797,8 +64552,7 @@
           (base32
             "0nh14f3fv0b4i3rlx120s9a0s8gsaip0r15ki38446igl1macbq2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-edit-indirect" ,emacs-edit-indirect)))
+    (propagated-inputs (list emacs-edit-indirect))
     (home-page
       "https://github.com/joodie/literal-string-mode/")
     (synopsis
@@ -65822,7 +64576,7 @@
           (base32
             "1bdybw44pmhfpikdv1kg2sx88546xyncks5a4b2s0ak4p66r82k3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/sulami/literate-calc-mode.el")
     (synopsis "Inline results from calc")
@@ -65845,8 +64599,7 @@
           (base32
             "1gm89azjgsdg0c7z9yprpjbph211c5jnqv11pkf1i1r1wzx0wanj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-coffee-mode" ,emacs-coffee-mode)))
+    (propagated-inputs (list emacs-coffee-mode))
     (home-page
       "https://github.com/syohex/emacs-literate-coffee-mode")
     (synopsis "major-mode for Literate CoffeeScript")
@@ -65923,8 +64676,7 @@
             "1clcm1yps38wdyj415hh7bl20fcpfin92hh5njsldqbvgcpndaqi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-narrowed-page-navigation"
-         ,emacs-narrowed-page-navigation)))
+      (list emacs-narrowed-page-navigation))
     (home-page "unspecified")
     (synopsis
       "Support for slides with live code in them")
@@ -66017,8 +64769,7 @@
           (base32
             "1z1v2panxrqpam5ysnilx83y6b4dwxmxqhmbgjwfyd1bdmr4iya4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-websocket" ,emacs-websocket)))
+    (propagated-inputs (list emacs-websocket))
     (arguments
       '(#:files (:defaults "livereload.js")))
     (home-page "unspecified")
@@ -66066,8 +64817,7 @@
             "178ldzpk8a9m9abn8xlplxn5jgcca71dpkp82bs5g7bsccp3rx6p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-skewer-mode" ,emacs-skewer-mode)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-skewer-mode emacs-s))
     (home-page
       "https://github.com/pandeiro/livid-mode")
     (synopsis
@@ -66383,9 +65133,7 @@
             "0lj3i9i3mg17xws13gzx8myc6d7djgsj47yx4kaq5hycgkni1p7q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popwin" ,emacs-popwin)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-stem" ,emacs-stem)))
+      (list emacs-popwin emacs-popup emacs-stem))
     (arguments '(#:files ("logalimacs.el")))
     (home-page
       "https://github.com/logaling/logalimacs")
@@ -66432,9 +65180,7 @@
             "1adqlm92skfndv4f6qpy3kas6mk23dy3b54f9i6b8pbw8g7p13rs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-f emacs-s emacs-ht))
     (home-page "https://github.com/jcs-elpa/logms")
     (synopsis
       "Log message with clickable links to context")
@@ -66525,8 +65271,7 @@
             "01vvyf7bbkaj8338dinp6x1w4alld165njb0sh432gdkpa6y2wkm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-datetime" ,emacs-datetime)
-        ("emacs-extmap" ,emacs-extmap)))
+      (list emacs-datetime emacs-extmap))
     (home-page "https://github.com/doublep/logview")
     (synopsis "Major mode for viewing log files")
     (description
@@ -66615,8 +65360,7 @@
           (base32
             "1yagp35ylznrh3a5ahpzrrxi6ma69ppwqsab3cwss54bi4f02ihn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-look-mode" ,emacs-look-mode)))
+    (propagated-inputs (list emacs-look-mode))
     (home-page
       "https://github.com/vapniks/look-dired")
     (synopsis
@@ -66728,9 +65472,7 @@
           (base32
             "0ksdgml2nz0jmrkjv939mm7kk8b0xf6d2b2h53y0crlxhi4s8823"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-loopy" ,emacs-loopy)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-loopy emacs-dash))
     (arguments '(#:files ("loopy-dash.el")))
     (home-page "https://github.com/okamsn/loopy")
     (synopsis "Dash destructuring for `loopy'")
@@ -66797,8 +65539,7 @@
           (base32
             "10sab50wmr3zn7jgzx93201ymhmacqacn3m2qllsqkfw2gpsi6dn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lispy" ,emacs-lispy)))
+    (propagated-inputs (list emacs-lispy))
     (home-page "https://github.com/abo-abo/lpy")
     (synopsis "A lispy interface to Python")
     (description
@@ -66821,12 +65562,12 @@
             "0wrcrqvlyp6gpanp5r67qyrn3q8n2pk1w8qwrkxh6kr466cd2lxp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-treemacs" ,emacs-lsp-treemacs)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-dap-mode" ,emacs-dap-mode)
-        ("emacs-f" ,emacs-f)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-dart-mode" ,emacs-dart-mode)))
+      (list emacs-lsp-treemacs
+            emacs-lsp-mode
+            emacs-dap-mode
+            emacs-f
+            emacs-dash
+            emacs-dart-mode))
     (home-page
       "https://emacs-lsp.github.io/lsp-dart")
     (synopsis "Dart support lsp-mode")
@@ -66850,11 +65591,11 @@
             "067bc37v14mvrmayah95qkcmi8gh3fdhdh8493wabm47kgszsfh4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-f" ,emacs-f)
-        ("emacs-yaml" ,emacs-yaml)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-dash
+            emacs-lsp-mode
+            emacs-f
+            emacs-yaml
+            emacs-ht))
     (home-page
       "https://github.com/emacs-lsp/lsp-docker")
     (synopsis "LSP Docker integration")
@@ -66878,8 +65619,7 @@
             "1pi6vmykp6x5c1yz9cgcf4nc5cbkbxhxqmp6g9aipwd8kwii1xx6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-focus" ,emacs-focus)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)))
+      (list emacs-focus emacs-lsp-mode))
     (home-page
       "https://github.com/emacs-lsp/lsp-focus")
     (synopsis "focus.el support for lsp-mode")
@@ -66903,11 +65643,11 @@
             "06qrd42hnz0cg28wkxcwb2mi0xpsgdy0yb8x9x7k23hzwdv6wrr6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-grammarly" ,emacs-grammarly)
-        ("emacs-request" ,emacs-request)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-lsp-mode
+            emacs-grammarly
+            emacs-request
+            emacs-s
+            emacs-ht))
     (home-page
       "https://github.com/emacs-grammarly/lsp-grammarly")
     (synopsis "LSP Clients for Grammarly")
@@ -66931,8 +65671,7 @@
             "1jqpxwbmnj2i6wm4idazsai5pkdxgvjrp7slayxr2c8paq6iyf8r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-haskell-mode" ,emacs-haskell-mode)))
+      (list emacs-lsp-mode emacs-haskell-mode))
     (home-page
       "https://github.com/emacs-lsp/lsp-haskell")
     (synopsis "Haskell support for lsp-mode")
@@ -66955,8 +65694,7 @@
           (base32
             "0ghw2as9fbnfhrr1nbqk97jcl7yb451xpmfbksxh7mvjm3lhmyvz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page
       "https://github.com/Ruin0x11/lsp-intellij")
     (synopsis "intellij lsp client")
@@ -66980,9 +65718,7 @@
             "0nb9ypa8hyx7i38rbywh8hn2i5f9l2l567hvdr9767fk279yr97n"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-dash emacs-lsp-mode emacs-ivy))
     (home-page
       "https://github.com/emacs-lsp/lsp-ivy")
     (synopsis "LSP ivy integration")
@@ -67006,14 +65742,14 @@
             "0z18b7xn9rgrs8w485bzw93g1nimfp0616d9xlrj0wc4k1i8vyd4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-request" ,emacs-request)
-        ("emacs-treemacs" ,emacs-treemacs)
-        ("emacs-dap-mode" ,emacs-dap-mode)))
+      (list emacs-lsp-mode
+            emacs-markdown-mode
+            emacs-dash
+            emacs-f
+            emacs-ht
+            emacs-request
+            emacs-treemacs
+            emacs-dap-mode))
     (arguments '(#:files (:defaults "icons")))
     (home-page
       "https://github.com/emacs-lsp/lsp-java")
@@ -67037,9 +65773,7 @@
           (base32
             "0r0ig73hsa0gyx8s6hr1mbdgf9m1n2zh2v7yhq3405l4if08s5m6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-lsp-mode emacs-s))
     (home-page
       "https://github.com/tigersoldier/lsp-javacomp")
     (synopsis
@@ -67063,8 +65797,7 @@
           (base32
             "013vmhcxz7648jxxhk69rr0v5br2839517l72fwzk770l02mc6si"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page
       "http://github.com/fredcamps/lsp-jedi")
     (synopsis
@@ -67089,8 +65822,7 @@
             "1v3f9hwbnd4vji6say5k9110ac4qbc3gd7hb62pvsbfa7vqd06gi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-julia-mode" ,emacs-julia-mode)))
+      (list emacs-lsp-mode emacs-julia-mode))
     (arguments
       '(#:files (:defaults "languageserver")))
     (home-page
@@ -67115,8 +65847,7 @@
           (base32
             "0da1fyw0h95hzjippqng9h68kykd0610a074wp4cwlsa4xffhjji"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page
       "https://github.com/ROCKTAKEY/lsp-latex")
     (synopsis "LSP-mode client for LaTeX, on texlab")
@@ -67140,9 +65871,7 @@
             "1ss0b2rk22i58sl430844vi119maz9rd0j1zv9wkcn81k6wmrdlq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-lsp-mode emacs-f emacs-s))
     (home-page
       "https://github.com/emacs-languagetool/lsp-ltex")
     (synopsis "LSP Clients for LTEX")
@@ -67166,14 +65895,14 @@
             "0p2pz6272h2rbb1si9psb4rh92mahlcr58slkm2mwqjwwbi5hfjl"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-scala-mode" ,emacs-scala-mode)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-lsp-treemacs" ,emacs-lsp-treemacs)
-        ("emacs-dap-mode" ,emacs-dap-mode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-treemacs" ,emacs-treemacs)))
+      (list emacs-scala-mode
+            emacs-lsp-mode
+            emacs-lsp-treemacs
+            emacs-dap-mode
+            emacs-dash
+            emacs-f
+            emacs-ht
+            emacs-treemacs))
     (arguments '(#:files (:defaults "icons")))
     (home-page
       "https://github.com/emacs-lsp/lsp-metals")
@@ -67192,18 +65921,18 @@
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "6724f128471dad1bcdd383937e2d1ed79488ec00")))
+                 "4f675e21595cfc24e3d5412c842990fd1f358418")))
         (sha256
           (base32
-            "0drzp4rpr1nbansgb06yfp5blgl4vdzl67ydkfjkwvyv8bbii5g8"))))
+            "0bcz2lbc2lzmfpwf34n6nvn55qr8r34q999jxr6rrfszr58bww6f"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-spinner" ,emacs-spinner)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-lv" ,emacs-lv)))
+      (list emacs-dash
+            emacs-f
+            emacs-ht
+            emacs-spinner
+            emacs-markdown-mode
+            emacs-lv))
     (arguments '(#:files (:defaults "clients/*.el")))
     (home-page
       "https://github.com/emacs-lsp/lsp-mode")
@@ -67228,11 +65957,11 @@
             "0007lv95cqh8makipas2m4rkllig5zvi51hv3zadlhw57xnvlhjw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-lsp-treemacs" ,emacs-lsp-treemacs)))
+      (list emacs-lsp-mode
+            emacs-dash
+            emacs-f
+            emacs-ht
+            emacs-lsp-treemacs))
     (arguments
       '(#:files (:defaults "images" "snippets")))
     (home-page
@@ -67258,8 +65987,7 @@
             "0chf7b8qdgzm173crpbz3vl3kjhgcdsmkprz8bf6w3qb5lpvaysw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-origami" ,emacs-origami)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)))
+      (list emacs-origami emacs-lsp-mode))
     (home-page
       "https://github.com/emacs-lsp/lsp-origami")
     (synopsis "origami.el support for lsp-mode")
@@ -67282,8 +66010,7 @@
           (base32
             "17w48yfcb2qwjz2pg1kmmijf1s2b0qb4kcz5jsmz3x8swhq4kb22"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)))
+    (propagated-inputs (list emacs-lsp-mode))
     (arguments '(#:files ("clients/emacs/*.el")))
     (home-page "https://github.com/dmakarov/p4ls")
     (synopsis "P4 support for lsp-mode")
@@ -67306,8 +66033,7 @@
           (base32
             "09v79p6wsp775ky1wy5fr0hwh5j33jvdvcarjs20zbdwnrs53am8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page
       "https://github.com/arjanadriaanse/lsp-pascal")
     (synopsis "LSP client for Pascal")
@@ -67330,8 +66056,7 @@
           (base32
             "0g9vijpq7n38b7rvgbshh4s46m1387d7k2lcvy4md17sak5ivxrg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page "https://github.com/jra3/lsp-pyre")
     (synopsis
       "lsp-mode client for python using pyre")
@@ -67355,9 +66080,7 @@
             "0y31dajhd6jfla4h137k78clvwsfj1pdmgd61ni83yl6ackpvm8c"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-lsp-mode emacs-dash emacs-ht))
     (home-page
       "https://github.com/emacs-lsp/lsp-pyright")
     (synopsis "Python LSP client using Pyright")
@@ -67380,8 +66103,7 @@
           (base32
             "1cad09y36bf97mhgg7xncf4m856ys8n7zlbsgag5h5rja1ha71nl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page
       "https://github.com/emacs-lsp/lsp-python-ms")
     (synopsis
@@ -67406,8 +66128,7 @@
             "0jyn471mdklhw1il6bbnv5drrl0raiyh17p1qi6rdn20ywi1dbx7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-rescript-mode" ,emacs-rescript-mode)))
+      (list emacs-lsp-mode emacs-rescript-mode))
     (home-page
       "https://github.com/jjlee/lsp-rescript")
     (synopsis
@@ -67432,9 +66153,7 @@
             "1d1yfgvdyas6vbg992f5s4sayaxjxs33gh13z629x67hx6p22n3r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-dash emacs-lsp-mode emacs-ht))
     (arguments
       '(#:files
         ("lsp-sonarlint.el"
@@ -67462,8 +66181,7 @@
           (base32
             "1pal3mga7nwfcvri1cffsjgcbbhk7wd1icd622qspqgq0zkfs8jd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page
       "https://github.com/emacs-lsp/lsp-sourcekit")
     (synopsis "sourcekit-lsp client for lsp-mode")
@@ -67486,8 +66204,7 @@
           (base32
             "0wlh68qxk811p8vs6vvjlxz48gb0vx00r4a0i5m74f6n5h41pzvh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lsp-mode" ,emacs-lsp-mode)))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page
       "https://github.com/merrickluo/lsp-tailwindcss")
     (synopsis "A lsp-mode client for tailwindcss")
@@ -67511,11 +66228,11 @@
             "1nx5ffgy3yzyynz3ll82flxwci4zrmg608iyk8bqzgfpmdlb4ass"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-treemacs" ,emacs-treemacs)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)))
+      (list emacs-dash
+            emacs-f
+            emacs-ht
+            emacs-treemacs
+            emacs-lsp-mode))
     (arguments '(#:files (:defaults "icons")))
     (home-page
       "https://github.com/emacs-lsp/lsp-treemacs")
@@ -67534,15 +66251,15 @@
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "f3917a87bfc5c556055e5c7cb8c3e5944344e6ee")))
+                 "98d0ad00b8bf1d3a7cea490002169f2286d7208c")))
         (sha256
           (base32
-            "0py0f2gz5v5v6q7ykkra6q0qp2017qalcx3q0xbdk7y4dnj6ncdc"))))
+            "1s9h593f0hjb8h4ciimvr78k19cp18h3hdwsadmjafshfdq54szw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)))
+      (list emacs-dash
+            emacs-lsp-mode
+            emacs-markdown-mode))
     (arguments
       '(#:files
         (:defaults "lsp-ui-doc.html" "resources")))
@@ -67790,9 +66507,7 @@
             "03mnj12b7y597p77066c979d0pbyz4a092vgjyb830dhihms2x5y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-emms" ,emacs-emms)
-        ("emacs-f" ,emacs-f)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-emms emacs-f emacs-request))
     (home-page
       "https://github.com/SqrtMinusOne/lyrics-fetcher.el")
     (synopsis "Fetch song lyrics and album covers")
@@ -67864,7 +66579,7 @@
           (base32
             "1sf1h5660fd3mfcca3h1fqk3xssgigkil26wz1kp1kvxfx9lm31m"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files (:defaults "words.txt")))
     (home-page
       "https://github.com/pawelbx/anagram-game")
@@ -67932,8 +66647,7 @@
             "0dykvwcvg8n24z3fkx6rv3l1mhzmca4cxj0gsvvqsg9wp0az1fc7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-macrostep" ,emacs-macrostep)
-        ("emacs-geiser" ,emacs-geiser)))
+      (list emacs-macrostep emacs-geiser))
     (home-page
       "https://github.com/nbfalcon/macrostep-geiser")
     (synopsis "Macrostep for `geiser'")
@@ -67979,8 +66693,7 @@
           (base32
             "1flamyk7z3r723cczqra0f4yabc6kmgwjaw2bvs3kisppqmmz72g"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-splitter" ,emacs-splitter)))
+    (propagated-inputs (list emacs-splitter))
     (home-page
       "https://github.com/chumpage/mag-menu")
     (synopsis
@@ -68004,7 +66717,7 @@
           (base32
             "1hw77d4wgqrms8rvkv3xd50v4y9qjvm7cpz5rkgmvizs34pjqy22"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/zonuexe/magic-filetype.el")
     (synopsis "Enhance filetype major mode")
@@ -68066,17 +66779,17 @@
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "1eb183e7672bf25fa77ea06d97b3d9c502a698ae")))
+                 "65c4485e19bf570ebcb81fbaa6352c4e94bb05da")))
         (sha256
           (base32
-            "08ci7w0pzbzs02fd8zklvhixkj8ab9vvc41w39mcik8qhr1fz5j4"))))
+            "07zbkmyzaf4zi8jyk69gm9k8x04xv05p7nin4qyc4rlnsz24yg8h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-git-commit" ,emacs-git-commit)
-        ("emacs-magit-section" ,emacs-magit-section)
-        ("emacs-transient" ,emacs-transient)
-        ("emacs-with-editor" ,emacs-with-editor)))
+      (list emacs-dash
+            emacs-git-commit
+            emacs-magit-section
+            emacs-transient
+            emacs-with-editor))
     (arguments
       '(#:files
         ("lisp/magit"
@@ -68111,8 +66824,7 @@
           (base32
             "1amr2c08mq1nnn6k66mgz4rzyni4np7gxm96g4qyla2cbfbachgk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page
       "https://github.com/magit/magit-annex")
     (synopsis "Control git-annex from Magit")
@@ -68136,9 +66848,7 @@
             "0rbbprjax6af0np1m5prilh2ndbhhlzfrq8sb8mn5vi3is2w1mgs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-transient" ,emacs-transient)
-        ("emacs-magit" ,emacs-magit)))
+      (list emacs-dash emacs-transient emacs-magit))
     (home-page
       "https://github.com/abrochard/magit-circleci")
     (synopsis "CircleCI integration for Magit")
@@ -68161,8 +66871,7 @@
           (base32
             "03i4rjwdqw2hf6nl5vwgh5zm235svrrnrj0wq82yk25f58dgskb6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page
       "https://gitlab.com/ideasman42/emacs-magit-commit-mark")
     (synopsis "Support marking commits as read")
@@ -68186,8 +66895,7 @@
             "19q04y61hkzxkqw2xi1g7m4bwaxpfwza7if6cm41g72kdb8r68vb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-xterm-color" ,emacs-xterm-color)))
+      (list emacs-magit emacs-xterm-color))
     (home-page
       "https://github.com/dandavison/magit-delta")
     (synopsis
@@ -68212,8 +66920,7 @@
             "178yby09swm3hlj300vkk3366wjwwf6zijlvphn6drsiw7dmccqm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-magit emacs-flycheck))
     (home-page
       "https://github.com/ragone/magit-diff-flycheck")
     (synopsis "Report errors in diffs")
@@ -68236,8 +66943,7 @@
           (base32
             "0nkxxhxkhy314jv1l3hza84vigl8q7fc8hjjvrx58gfgsfgifx6r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page "unspecified")
     (synopsis
       "Refresh status buffer when git tree changes")
@@ -68260,9 +66966,7 @@
           (base32
             "1j3jsrp0qpaa2xd98d1g9z0zc4b93knwajrlnlsc7l6g0vlfsddb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-magit emacs-dash))
     (home-page
       "https://github.com/bradleywright/magit-find-file.el")
     (synopsis
@@ -68287,8 +66991,7 @@
             "0sasd9q8a3cisys979djdzidxiwcf6n612gajhrhd6fpssdc3rr1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-magit emacs-transient))
     (home-page
       "https://github.com/emacsorphanage/magit-gerrit")
     (synopsis "Magit plugin for Gerrit Code Review")
@@ -68312,10 +67015,7 @@
             "1halhivvfklxscg1xxk461wgjlh3vl8g991ydj93450b6mw3azaq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-gh" ,emacs-gh)
-        ("emacs-magit" ,emacs-magit)
-        ("emacs-pcache" ,emacs-pcache)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-gh emacs-magit emacs-pcache emacs-s))
     (home-page
       "https://github.com/sigma/magit-gh-pulls")
     (synopsis
@@ -68340,8 +67040,7 @@
             "0jz69wrrzvqadaphmjrr146nzvmphsbl7rmc3ccnpw1gw6gnz81f"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-magit-popup" ,emacs-magit-popup)))
+      (list emacs-magit emacs-magit-popup))
     (home-page
       "https://github.com/jtatarik/magit-gitflow")
     (synopsis "gitflow extension for magit")
@@ -68364,8 +67063,7 @@
           (base32
             "1virc4ps25nwv8jkyvlb4ylxpcz676bfw449izaly97f2f2a91hk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page
       "https://github.com/magit/magit-imerge")
     (synopsis "Magit extension for git-imerge")
@@ -68388,9 +67086,7 @@
           (base32
             "1mv5rw65gn2rsk654q1ccp7hdg6jfap123b652cf9chwxy6c6nrk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-magit emacs-dash))
     (home-page "https://github.com/ailrun/magit-lfs")
     (synopsis "Magit plugin for Git LFS")
     (description
@@ -68407,14 +67103,13 @@
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "a66b86d51139479d74962cc077c5215d20dd72e6")))
+                 "65c4485e19bf570ebcb81fbaa6352c4e94bb05da")))
         (sha256
           (base32
-            "0i8d2a6lzk36ai0s2rygy33sqqd8w7ynd3fkx8d09kdanbnwl5hg"))))
+            "07zbkmyzaf4zi8jyk69gm9k8x04xv05p7nin4qyc4rlnsz24yg8h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-libgit" ,emacs-libgit)
-        ("emacs-magit" ,emacs-magit)))
+      (list emacs-libgit emacs-magit))
     (arguments
       '(#:files
         ("lisp/magit-libgit.el"
@@ -68440,8 +67135,7 @@
           (base32
             "0kxz5q8q5np4zm1ls4hx1h53vlnhj0mnmbq12p5nzk5zcxycbcpz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page
       "http://github.com/danielma/magit-org-todos")
     (synopsis
@@ -68466,9 +67160,7 @@
             "0w9igpmpxws58xzp5nh70mj7nvybacpqbizhk6154hlh4373y3z0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-magit-popup" ,emacs-magit-popup)
-        ("emacs-p4" ,emacs-p4)))
+      (list emacs-magit emacs-magit-popup emacs-p4))
     (home-page "https://github.com/qoocku/magit-p4")
     (synopsis "git-p4 plug-in for Magit")
     (description
@@ -68490,8 +67182,7 @@
           (base32
             "1mbh5qshaiv5x6rlklzx9l3icccb9kn3rvbdaq1xbqbgfdpfhfwd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page
       "https://github.com/dickmao/magit-patch-changelog")
     (synopsis
@@ -68515,7 +67206,7 @@
           (base32
             "0znp6gx6vpcsybg774ab06mdgxb7sfk3gki1yp2qhkanav13i6q1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/magit/magit-popup")
     (synopsis
@@ -68539,8 +67230,7 @@
           (base32
             "1z48m0al8bb4ppic483jvika9q47c67g7fazk25431sr5rv9h4d2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page
       "https://github.com/fanatoly/magit-rbr")
     (synopsis "Support for git rbr in Magit")
@@ -68564,9 +67254,7 @@
             "0agk53san02n49jna6g2ndw4wbqkpr0kfd4ravbs9b4w6l3r30xb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-s" ,emacs-s)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-magit emacs-s emacs-request))
     (home-page
       "http://github.com/jtamagnan/magit-reviewboard")
     (synopsis
@@ -68585,12 +67273,12 @@
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "a66b86d51139479d74962cc077c5215d20dd72e6")))
+                 "65c4485e19bf570ebcb81fbaa6352c4e94bb05da")))
         (sha256
           (base32
-            "0i8d2a6lzk36ai0s2rygy33sqqd8w7ynd3fkx8d09kdanbnwl5hg"))))
+            "07zbkmyzaf4zi8jyk69gm9k8x04xv05p7nin4qyc4rlnsz24yg8h"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments
       '(#:files
         ("lisp/magit-section.el"
@@ -68639,8 +67327,7 @@
             "1v1y4fir1plz4kj0cvkcd29wibli4dw7vp4fmbxq4df76d8iy8yd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-magit emacs-transient))
     (home-page "unspecified")
     (synopsis "Git-Svn extension for Magit")
     (description
@@ -68662,8 +67349,7 @@
           (base32
             "1g5nsg6zb3jrm7w1ssawv109ai2l7dpnd1dqrjsry2dnx1mxd212"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page
       "https://github.com/magit/magit-tbdiff")
     (synopsis "Magit extension for range diffs")
@@ -68687,14 +67373,14 @@
             "1ri53hnhamp3b9nh9dld6wxjvsxrk883kw900gglvw962ndimx5x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-hl-todo" ,emacs-hl-todo)
-        ("emacs-magit" ,emacs-magit)
-        ("emacs-pcre2el" ,emacs-pcre2el)
-        ("emacs-s" ,emacs-s)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-async
+            emacs-dash
+            emacs-f
+            emacs-hl-todo
+            emacs-magit
+            emacs-pcre2el
+            emacs-s
+            emacs-transient))
     (home-page
       "http://github.com/alphapapa/magit-todos")
     (synopsis "Show source file TODOs in Magit")
@@ -68717,8 +67403,7 @@
           (base32
             "1y7ss475ibjx354m73jn5dxd98g33jcijx48b30p45rbm6ha3i8q"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page "unspecified")
     (synopsis "TopGit extension for Magit")
     (description
@@ -68740,9 +67425,7 @@
           (base32
             "0x0dwl163qpws5d6h628if8iyzzxig9f7j1n7q6fxkbymx0js0vj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-vcsh" ,emacs-vcsh)))
+    (propagated-inputs (list emacs-magit emacs-vcsh))
     (home-page
       "https://gitlab.com/stepnem/magit-vcsh-el")
     (synopsis "Magit vcsh integration")
@@ -68766,11 +67449,11 @@
             "047dyiysdhf81qfcmmaxzixgxy35fjm9wyhwwv9630s5b83fh094"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ghub+" ,emacs-ghub+)
-        ("emacs-git-commit" ,emacs-git-commit)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)))
+      (list emacs-magit
+            emacs-s
+            emacs-ghub+
+            emacs-git-commit
+            emacs-markdown-mode))
     (home-page
       "https://github.com/vermiculus/magithub")
     (synopsis "Magit interfaces for GitHub")
@@ -68793,8 +67476,7 @@
           (base32
             "0p413pjfznqrv62175kkzpf3nvnq35081kq76rvwlzh00skvpjdl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-dash emacs-f))
     (arguments
       '(#:files
         ("*.el"
@@ -68823,8 +67505,7 @@
           (base32
             "1hqz26zm4bdz5wavna4j9yia3ns4z19dnszl7k0lcpgbgmb0wh8y"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "unspecified")
     (synopsis "browse magnatune's music catalog")
     (description
@@ -68847,12 +67528,11 @@
             "0fg4hi65qdix0lpfw29ymy2naskn2af661pzg695f47xhknsir1r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-tablist" ,emacs-tablist)
-        ("emacs-transient" ,emacs-transient)
-        ("emacs-friendly-shell-command"
-         ,emacs-friendly-shell-command)))
+      (list emacs-dash
+            emacs-s
+            emacs-tablist
+            emacs-transient
+            emacs-friendly-shell-command))
     (home-page "https://github.com/p3r7/magrant")
     (synopsis "Transient Interface to Vagrant")
     (description
@@ -68897,8 +67577,7 @@
             "1yw9xdyqbf285ljsspg8ajjx1bp1g27xpg85p84fsh88nr015rh5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-pretty-hydra" ,emacs-pretty-hydra)))
+      (list emacs-dash emacs-pretty-hydra))
     (arguments '(#:files ("major-mode-hydra.el")))
     (home-page
       "https://github.com/jerrypnz/major-mode-hydra.el")
@@ -68924,9 +67603,9 @@
             "1jjmma9lx5g4qprmy71izgdp564lbdb0wsiysl1f6d8wipml78ys"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-powerline" ,emacs-powerline)
-        ("emacs-xpm" ,emacs-xpm)
-        ("emacs-all-the-icons" ,emacs-all-the-icons)))
+      (list emacs-powerline
+            emacs-xpm
+            emacs-all-the-icons))
     (arguments '(#:files (:defaults "icons")))
     (home-page
       "http://github.com/stardiviner/major-mode-icons")
@@ -68974,8 +67653,7 @@
           (base32
             "0p6xhyinzzkrwzbpxqfm8hlii0ikvmmylya240bwsa77w0g1k6xq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-swiper" ,emacs-swiper)))
+    (propagated-inputs (list emacs-swiper))
     (arguments
       '(#:files ("make-it-so.el" "recipes")))
     (home-page
@@ -69002,9 +67680,7 @@
             "1nbv03vw4n5lslnzgxp8h1np639m7hdnz31nilywi4nc0v1ak347"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-f emacs-s))
     (home-page
       "https://github.com/thiderman/makefile-executor.el")
     (synopsis
@@ -69023,10 +67699,10 @@
         (uri (git-reference
                (url "https://github.com/mickeynp/makey.git")
                (commit
-                 "a61781e69d3b451551e269446e1c5f624ab81137")))
+                 "c0b6bd5956744dd64052e54574e35d39f7c9d75b")))
         (sha256
           (base32
-            "1rr7vpm3xxzcaam3m8xni3ajy8ycyljix07n2jzczayri9sd8csy"))))
+            "19hm9riqinbw1ria63290c5d6hszkbjrzvgsjr74pw5d7gzw4vwv"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "interactive commandline mode")
@@ -69050,11 +67726,11 @@
             "1rnzvx1nc01sw9fklm36lyllqm6dizj64gnlqbs4nammx7z0spi1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-rtags" ,emacs-rtags)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-s
+            emacs-dash
+            emacs-f
+            emacs-rtags
+            emacs-projectile))
     (home-page
       "https://github.com/LefterisJP/malinka")
     (synopsis
@@ -69103,8 +67779,7 @@
             "0qk7i47nmyp4llwp6x0i1i5dk82ck26iyz1sjvvlihaw8a5akny2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-mallard-mode" ,emacs-mallard-mode)))
+      (list emacs-yasnippet emacs-mallard-mode))
     (arguments
       '(#:files ("mallard-snippets.el" "snippets")))
     (home-page
@@ -69198,8 +67873,7 @@
             "1pidsjdx1wdd02vmcl74ps622n9fyydbn8jpbrlbm6y6ffhy6rrz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-manage-minor-mode"
-         ,emacs-manage-minor-mode)))
+      (list emacs-manage-minor-mode))
     (home-page
       "https://github.com/jcs-elpa/manage-minor-mode-table")
     (synopsis "Manage minor-modes in table")
@@ -69244,8 +67918,7 @@
           (base32
             "1iqwgzjy2vlrx0kdkjjfxxm097m17ay9r6966gyi8iiip99hjn50"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-github-clone" ,emacs-github-clone)))
+    (propagated-inputs (list emacs-github-clone))
     (arguments '(#:files ("lisp/*.el" "lisp/*.org")))
     (home-page "http://www.mandoku.org")
     (synopsis
@@ -69270,11 +67943,11 @@
             "16399qifjj4hnfw4a62jwxfwnc7k8lmiy3bz8iwzlc91jjic7zdc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-mandoku" ,emacs-mandoku)
-        ("emacs-github-clone" ,emacs-github-clone)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-helm-charinfo" ,emacs-helm-charinfo)))
+      (list emacs-mandoku
+            emacs-github-clone
+            emacs-hydra
+            emacs-helm
+            emacs-helm-charinfo))
     (home-page
       "https://github.com/mandoku/mandoku-tls")
     (synopsis "A tool to access the TLS database")
@@ -69343,10 +68016,10 @@
             "1yc0sgzh1qprhdrzjqc88d6g4xvw80fblcvjl6yn6kihv1ymz091"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-pkg-info" ,emacs-pkg-info)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-s
+            emacs-dash
+            emacs-pkg-info
+            emacs-request))
     (home-page
       "https://github.com/nlamirault/marcopolo")
     (synopsis
@@ -69414,8 +68087,7 @@
           (base32
             "1zb0ynwficxninyw89z53qf78s1ns60nh4cyzk96m05jlcaa1s44"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-choice-program" ,emacs-choice-program)))
+    (propagated-inputs (list emacs-choice-program))
     (home-page
       "https://github.com/plandes/mark-thing-at")
     (synopsis "Mark a pattern at the current point")
@@ -69461,7 +68133,7 @@
           (base32
             "0dw9bz1iq8v816n0z4v9zc6nsrx4qzl99q2pj04f37s7x9vgmc4x"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/plandes/markdown-changelog")
     (synopsis "Maintain changelog entries")
@@ -69530,9 +68202,9 @@
             "0a0qskhy6jil583hq3mgbzdsi3m1schzyzrd46yfxdsvqiczg170"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-websocket" ,emacs-websocket)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-web-server" ,emacs-web-server)))
+      (list emacs-websocket
+            emacs-markdown-mode
+            emacs-web-server))
     (arguments
       '(#:files
         (:defaults "preview.html" "favicon.ico")))
@@ -69560,9 +68232,7 @@
             "01l48njg0x7gkssvw9nv3yq97866r945izbggx9y3z5ckr1w4hlc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)))
+      (list emacs-s emacs-dash emacs-markdown-mode))
     (home-page
       "http://github.com/ardumont/markdown-toc")
     (synopsis
@@ -69676,9 +68346,7 @@
             "017k109nfif5mzkj547py8pdnzlr4sxb74yqqsl944znflq67blr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-web" ,emacs-web)
-        ("emacs-kv" ,emacs-kv)
-        ("emacs-gh" ,emacs-gh)))
+      (list emacs-web emacs-kv emacs-gh))
     (home-page
       "https://github.com/nicferrier/emacs-marmalade-upload")
     (synopsis "client for marmalade API from emacs")
@@ -69724,7 +68392,7 @@
           (base32
             "13yf61sw5rmqb8dshk1v9j348jkdfqql55dqvs9srb3ypj8b02v9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ht" ,emacs-ht)))
+    (propagated-inputs (list emacs-ht))
     (home-page "https://github.com/sigma/marshal.el")
     (synopsis
       "eieio extension for automatic (un)marshalling")
@@ -69837,8 +68505,7 @@
           (base32
             "04hb48ncxvh3ia416iyy0x0wpvkhmpqg369565zgmhg9mvl3njmz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://gitlab.com/matsievskiysv/math-preview")
     (synopsis "Preview TeX math equations inline")
@@ -69966,7 +68633,7 @@
           (base32
             "1xn2yyr8mr90cynbxgv0h5v180pzf0ydnjr9spg34mrdicqlki6c"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "http://github.com/rranelli/maven-test-mode")
     (synopsis
@@ -70013,8 +68680,7 @@
             "18bjr4n1m1y76kh0pp6ci7ywklrmw611ka3avrj23lb0wwrljf86"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-test-simple" ,emacs-test-simple)))
+      (list emacs-s emacs-test-simple))
     (arguments
       '(#:files
         ("maxima.el"
@@ -70130,9 +68796,7 @@
           (base32
             "0498088pgbpywqdla8mzhpq4izzbdbqwq9cjzg0050y598pinpqq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)))
+    (propagated-inputs (list emacs-multiple-cursors))
     (home-page
       "https://github.com/hatheroldev/mc-calc")
     (synopsis "Combine multiple-cursors and calc")
@@ -70155,9 +68819,7 @@
           (base32
             "16y48qrd20m20vypvys5jp4v4gc1qrqlkm75s1pk1r68i9zrw481"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)))
+    (propagated-inputs (list emacs-multiple-cursors))
     (home-page "https://github.com/knu/mc-extras.el")
     (synopsis
       "Extra functions for multiple-cursors mode.")
@@ -70205,11 +68867,11 @@
             "19ay7n5ds8622qs799icdcmkyhfcqfxd2myffzswsrhvkm9afr8r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-hierarchy" ,emacs-hierarchy)
-        ("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-tree-mode" ,emacs-tree-mode)))
+      (list emacs-hierarchy
+            emacs-request
+            emacs-dash
+            emacs-s
+            emacs-tree-mode))
     (home-page "https://github.com/ahungry/md4rd")
     (synopsis "Mode for reddit (browse it).")
     (description
@@ -70254,9 +68916,9 @@
             "1wq4x80lqzlpixy701xncvmz0jwk1zgp1kpz1z7wgl5i0jnb1516"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-company" ,emacs-company)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-yasnippet
+            emacs-company
+            emacs-flycheck))
     (home-page
       "https://github.com/mopemope/meghanada-emacs")
     (synopsis "A better java development mode")
@@ -70274,10 +68936,10 @@
         (uri (git-reference
                (url "https://github.com/techquila/melancholy-theme.git")
                (commit
-                 "9ffd1ee411602fd81f59ee06cdcf17c922cf7ecf")))
+                 "37adfa56ff99b266209be4b9f6bc6be554d43317")))
         (sha256
           (base32
-            "14y1pkhcsxdnagr3sa47gr65xbwcin9cqzrn2r733zq7n8118k3z"))))
+            "17zq1w7h6i2dv5yc0h9bvjm29vpd2lbzlff844hi4p45d3jdrk1a"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/techquila/melancholy-theme")
@@ -70324,7 +68986,7 @@
           (base32
             "12cp56ppmwpdgf5afx7hd2qb8d1qq8z27191fbbf5zqw8cq5zkpd"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "unspecified")
     (synopsis
       "A set of kludges to visit a melpa-hosted package's homepage")
@@ -70392,8 +69054,7 @@
             "0avpjmymjwqnaim96c637wb6ch3iyanwdvmn6x83iynvkpr2nm9l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-ag" ,emacs-ag)))
+      (list emacs-markdown-mode emacs-ag))
     (home-page
       "http://github.com/mikanfactory/emacs-memolist")
     (synopsis
@@ -70418,8 +69079,7 @@
             "0yrfnzj1havjzvlr6s6mamrr875fniafb2wwck76yggfyhdvmxxv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-xml-rpc" ,emacs-xml-rpc)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-xml-rpc emacs-async))
     (home-page "unspecified")
     (synopsis
       "Frontend for the rTorrent bittorrent client")
@@ -70459,10 +69119,10 @@
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "7607238326a9352cbee9ecf612669e28ae9fa36e")))
+                 "ab77e5bdc6bad11f94e7f04fbba21e9c489c76d4")))
         (sha256
           (base32
-            "0wijg1vh2q6yr46vkv34vvksligd0ajl4hv7m6qbz3ywqr8akg23"))))
+            "0y0mjx8w21nc4v5f5vym7cgwjwai10ab5j80wlq4vjiyhmcaw89z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -70488,14 +69148,13 @@
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "7607238326a9352cbee9ecf612669e28ae9fa36e")))
+                 "ab77e5bdc6bad11f94e7f04fbba21e9c489c76d4")))
         (sha256
           (base32
-            "0wijg1vh2q6yr46vkv34vvksligd0ajl4hv7m6qbz3ywqr8akg23"))))
+            "0y0mjx8w21nc4v5f5vym7cgwjwai10ab5j80wlq4vjiyhmcaw89z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-merlin" ,emacs-merlin)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-merlin emacs-auto-complete))
     (arguments '(#:files ("emacs/merlin-ac.el")))
     (home-page "http://github.com/ocaml/merlin")
     (synopsis
@@ -70514,14 +69173,13 @@
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "7607238326a9352cbee9ecf612669e28ae9fa36e")))
+                 "ab77e5bdc6bad11f94e7f04fbba21e9c489c76d4")))
         (sha256
           (base32
-            "0wijg1vh2q6yr46vkv34vvksligd0ajl4hv7m6qbz3ywqr8akg23"))))
+            "0y0mjx8w21nc4v5f5vym7cgwjwai10ab5j80wlq4vjiyhmcaw89z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-merlin" ,emacs-merlin)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-merlin emacs-company))
     (arguments
       '(#:files ("emacs/merlin-company.el")))
     (home-page "http://github.com/ocaml/merlin")
@@ -70545,8 +69203,7 @@
           (base32
             "1c13cgmi8z69b5imd9zlagfgrsdl3qv73n24wgc4ih99w1c7sc08"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-merlin" ,emacs-merlin)))
+    (propagated-inputs (list emacs-merlin))
     (home-page
       "https://github.com/khady/merlin-eldoc")
     (synopsis "eldoc for OCaml and Reason")
@@ -70564,14 +69221,13 @@
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "7607238326a9352cbee9ecf612669e28ae9fa36e")))
+                 "ab77e5bdc6bad11f94e7f04fbba21e9c489c76d4")))
         (sha256
           (base32
-            "0wijg1vh2q6yr46vkv34vvksligd0ajl4hv7m6qbz3ywqr8akg23"))))
+            "0y0mjx8w21nc4v5f5vym7cgwjwai10ab5j80wlq4vjiyhmcaw89z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-merlin" ,emacs-merlin)
-        ("emacs-iedit" ,emacs-iedit)))
+      (list emacs-merlin emacs-iedit))
     (arguments '(#:files ("emacs/merlin-iedit.el")))
     (home-page "http://github.com/ocaml/merlin")
     (synopsis "Merlin and iedit integration.")
@@ -70594,7 +69250,7 @@
           (base32
             "0g90fy27ivjaad1wp6rg8jx8dm44vb6zmsrlchzpwcyhkxs7zv8l"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/abrochard/mermaid-mode")
     (synopsis
@@ -70663,8 +69319,7 @@
           (base32
             "0cmkiggrl42sjx31dwnzac32bs3q2ksmamkq1pjjl8fwshp4g8sv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page
       "https://github.com/seanfarley/message-view-patch")
     (synopsis "Colorize patch-like emails in mu4e")
@@ -70732,9 +69387,7 @@
             "1mpsc1xvgl6g3bz0dx10i3x5abivna01f1carwyz9w47zs599svk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-alert emacs-ht emacs-request))
     (arguments '(#:files ("metal-archives.el")))
     (home-page
       "https://github.com/seblemaguer/metal-archives.el")
@@ -70760,10 +69413,10 @@
             "1mpsc1xvgl6g3bz0dx10i3x5abivna01f1carwyz9w47zs599svk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-ml" ,emacs-org-ml)
-        ("emacs-alert" ,emacs-alert)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-metal-archives" ,emacs-metal-archives)))
+      (list emacs-org-ml
+            emacs-alert
+            emacs-ht
+            emacs-metal-archives))
     (arguments
       '(#:files ("metal-archives-shopping-list.el")))
     (home-page
@@ -70811,7 +69464,7 @@
           (base32
             "0xkj9m9j2mgd61lxnag1n97zd01dkh9dgwpvinq142v145rd4xvn"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ov" ,emacs-ov)))
+    (propagated-inputs (list emacs-ov))
     (home-page
       "http://github.com/AdamNiederer/metamorph")
     (synopsis "Transform your buffers with lisp")
@@ -70972,12 +69625,12 @@
             "0qqr88r1g3lwzl4m9qjiwba23ylp44g5hspawwfzchlbs9js6yj7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-projectile" ,emacs-projectile)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-parseedn" ,emacs-parseedn)
-        ("emacs-geiser" ,emacs-geiser)))
+      (list emacs-cider
+            emacs-projectile
+            emacs-s
+            emacs-dash
+            emacs-parseedn
+            emacs-geiser))
     (home-page
       "https://github.com/danielsz/meyvn-el")
     (synopsis "Meyvn client")
@@ -71024,8 +69677,7 @@
           (base32
             "01is2x9yfijxz0w7h7nrygkk0dkxnz0a3p3w38kvariqis8vbhl0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-calfw" ,emacs-calfw)))
+    (propagated-inputs (list emacs-calfw))
     (arguments '(#:files ("emacs/mhc*.el")))
     (home-page "http://www.quickhack.net/mhc")
     (synopsis
@@ -71071,8 +69723,7 @@
           (base32
             "0r6l6iqn5z9wp4w58flnls7kk6300qlxyy04fw0np00nvwsy4qvp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-powerline" ,emacs-powerline)))
+    (propagated-inputs (list emacs-powerline))
     (home-page
       "https://github.com/yzprofile/micgoline")
     (synopsis
@@ -71097,8 +69748,7 @@
             "0nag9ks7qbg40h9z954v42x8zi65wbgfhviwvxvb2bmbzv4m4pbs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-clojure-mode" ,emacs-clojure-mode)))
+      (list emacs-cider emacs-clojure-mode))
     (home-page "unspecified")
     (synopsis
       "Minor mode for running Midje tests in emacs")
@@ -71208,8 +69858,7 @@
           (base32
             "14i06i999wfpr0a0lvhnh6g4mm5xmawscjd9d7ibc055h94h3i2a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-libmpdee" ,emacs-libmpdee)))
+    (propagated-inputs (list emacs-libmpdee))
     (home-page "https://github.com/pft/mingus")
     (synopsis "MPD Interface")
     (description
@@ -71276,7 +69925,7 @@
           (base32
             "063bpi3gxzi6kkc3mb9h4m8lvbsvfw47z559960h912h2l3z6vhq"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/kiennq/emacs-mini-modeline")
     (synopsis "Display modeline in minibuffer")
@@ -71478,7 +70127,7 @@
           (base32
             "0mdbn8v6m4902krnagsp74r4501d4yfxc33i55l4l14gvjgx1239"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("minitest.el" "snippets")))
     (home-page
       "https://github.com/arthurnn/minitest-emacs")
@@ -71660,8 +70309,7 @@
           (base32
             "1d08i2cfn1q446nyyji0hi9vlw7bzkpxhn6653jz2k77vd2y0wmk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-markdown-mode" ,emacs-markdown-mode)))
+    (propagated-inputs (list emacs-markdown-mode))
     (arguments '(#:files ("*.el" "*.css")))
     (home-page
       "https://github.com/ajtulloch/mkdown.el")
@@ -71708,8 +70356,7 @@
           (base32
             "0big2i3bg4cm14f68ncaiz2h6dk6zqiisrz4l0bv10q9kaa9q2sj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-mmm-mode" ,emacs-mmm-mode)))
+    (propagated-inputs (list emacs-mmm-mode))
     (home-page
       "https://github.com/glynnforrest/mmm-jinja2")
     (synopsis
@@ -71820,8 +70467,7 @@
           (base32
             "04hbd7mv29v3fv4ld0b3skrir0wp9dix2n5nbqp63fj6n5i4cyyz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-lua-mode" ,emacs-lua-mode)))
+    (propagated-inputs (list emacs-lua-mode))
     (home-page
       "https://github.com/deftsp/mobdebug-mode")
     (synopsis "Major mode for MobDebug")
@@ -71844,9 +70490,7 @@
           (base32
             "0xp0xps5xvamp7jdxq6hkmyp63ww9ca7imf0nz35xivwwkk17ri6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)
-        ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-js2-mode emacs-f))
     (home-page "http://github.com/scottaj/mocha.el")
     (synopsis "Run Mocha or Jasmine tests")
     (description
@@ -71868,8 +70512,7 @@
           (base32
             "0w1d7j3ay0nkq4lp63lf7597rxfchikvw58w2h8g49cxx8vyl4l8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page "unspecified")
     (synopsis
@@ -72072,8 +70715,7 @@
             "08a6b8yjryphq4qpnqfy62saq1vmwqnhcind0n6s88f0qrmlywvc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-hydra" ,emacs-hydra)
-        ("emacs-eval-in-repl" ,emacs-eval-in-repl)))
+      (list emacs-hydra emacs-eval-in-repl))
     (arguments '(#:files (:defaults "etc")))
     (home-page
       "https://github.com/damon-kwok/modern-sh")
@@ -72277,7 +70919,7 @@
           (base32
             "1hl7nzxvjwv9kknyjikkbxw1gbi5kx4hkkq7sw6jnj06192n93yg"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/guiltydolphin/monitor")
     (synopsis
@@ -72302,8 +70944,7 @@
             "0ia90br12szcqxvsf5i7nj3y2rmmw1pq4hchi181sx5m4qrhssv1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-scrollable-quick-peek"
-         ,emacs-scrollable-quick-peek)))
+      (list emacs-scrollable-quick-peek))
     (home-page
       "https://github.com/jpablobr/emacs-monkeytype")
     (synopsis "Mode for speed typing")
@@ -72594,12 +71235,12 @@
             "0vd9m2zs3rch361ykmf0l3fjsrk1rwlb7w1dc7zz3gwpb6nas845"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-projectile" ,emacs-projectile)
-        ("emacs-counsel" ,emacs-counsel)
-        ("emacs-realgud" ,emacs-realgud)
-        ("emacs-levenshtein" ,emacs-levenshtein)))
+      (list emacs-f
+            emacs-s
+            emacs-projectile
+            emacs-counsel
+            emacs-realgud
+            emacs-levenshtein))
     (home-page
       "https://github.com/ageldama/moonshot")
     (synopsis
@@ -72733,8 +71374,7 @@
             "17570labnwdnwca2cg4ga0mrrm00n0h3wlxry823k5yn3k93rnj1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flymake-easy" ,emacs-flymake-easy)
-        ("emacs-flymake-cursor" ,emacs-flymake-cursor)))
+      (list emacs-flymake-easy emacs-flymake-cursor))
     (arguments '(#:files ("*.el" "bin" "lib")))
     (home-page
       "https://github.com/ainame/motion-mode")
@@ -72819,10 +71459,10 @@
         (uri (git-reference
                (url "https://github.com/google/mozc.git")
                (commit
-                 "3dc692847d53e209ef9010791c3ab5ac06fd979b")))
+                 "01306d0c67c5faa203994bab281c515b9d1248fa")))
         (sha256
           (base32
-            "0pcf2vnq38jdnsg8vz92pqsx7qd0r9x8jv5kfqk9br153vsh6xgd"))))
+            "109p65vwii1ppvpnvmgpzn0k0iraby23da1xsb2frad6lc3clz65"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/unix/emacs/mozc.el")))
     (home-page "unspecified")
@@ -72848,9 +71488,7 @@
             "1hwc66xj2js5srmshmba5q6adn638qgbslnxg9l15znfhq3qcy9w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-posframe" ,emacs-posframe)
-        ("emacs-mozc" ,emacs-mozc)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-posframe emacs-mozc emacs-s))
     (home-page
       "https://github.com/akirak/mozc-posframe")
     (synopsis "Posframe frontend for mozc.el")
@@ -72873,7 +71511,7 @@
           (base32
             "0cpcldizgyr125j7lzkl8l6jw1hc3fb12cwgkpjrl6pjpr80vb15"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-mozc" ,emacs-mozc)))
+    (propagated-inputs (list emacs-mozc))
     (home-page "unspecified")
     (synopsis
       "Mozc with input-method-function interface.")
@@ -72896,9 +71534,7 @@
           (base32
             "1mbpkjc6sk7qqmgsmr5a5l2ycwnqp8bkwgikdavgs6hnal10bkmn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-mozc" ,emacs-mozc)))
+    (propagated-inputs (list emacs-popup emacs-mozc))
     (home-page "unspecified")
     (synopsis "Mozc with popup")
     (description
@@ -72920,9 +71556,7 @@
           (base32
             "03pqqzzca9z3a1nbrfdkvfczzi7nr3bn75x7m4mdww9z3wxxda2c"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-mozc" ,emacs-mozc)))
+    (propagated-inputs (list emacs-dash emacs-mozc))
     (home-page "https://github.com/HKey/mozc-temp")
     (synopsis "Use mozc temporarily")
     (description
@@ -72967,8 +71601,7 @@
             "0q84gml1g9zwchp4h3r0xvj1sc1ynx0s2drfkpd357br3fw8ivzf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-libmpdel" ,emacs-libmpdel)
-        ("emacs-navigel" ,emacs-navigel)))
+      (list emacs-libmpdel emacs-navigel))
     (home-page "https://gitea.petton.fr/mpdel/mpdel")
     (synopsis "Play and control your MPD music")
     (description
@@ -72990,8 +71623,7 @@
           (base32
             "0pkw79sccsvx845xgd2a2rql6ic7jkzki90xj268czvcgvfy4kn1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-elmpd" ,emacs-elmpd)))
+    (propagated-inputs (list emacs-elmpd))
     (home-page "https://github.com/sp1ff/mpdmacs")
     (synopsis "A lightweight MPD client")
     (description
@@ -73013,8 +71645,7 @@
           (base32
             "17817l3afghg9z8jxkj61yg85plmr74ki3wf4hz685llx8fr69w0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-queue" ,emacs-queue)))
+    (propagated-inputs (list emacs-queue))
     (home-page
       "https://github.com/smizoe/mpmc-queue")
     (synopsis
@@ -73081,7 +71712,7 @@
           (base32
             "1ci1w4yma6axiigz55b2ip0r7zy8v215532jc0rkb3wyn14nsrh7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/andrmuel/mqtt-mode")
     (synopsis
@@ -73127,8 +71758,7 @@
           (base32
             "0ch9kvqvyirv8asqd5w2g3yb7h15741aavzm5hlmy8sj3l7q22jz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ac-clang" ,emacs-ac-clang)))
+    (propagated-inputs (list emacs-ac-clang))
     (arguments
       '(#:files (:defaults "*.cpp" "*.bat" "*.vcxproj")))
     (home-page "https://github.com/yaruopooner/msvc")
@@ -73175,7 +71805,7 @@
           (base32
             "1kg4l88k4gwv7zczmbgxzpmifkbklf3yzlk849igs01z4jvh2bkc"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-flim" ,emacs-flim)))
+    (propagated-inputs (list emacs-flim))
     (arguments
       '(#:files ("*.el" (:exclude "mu-bbdb.el"))))
     (home-page "unspecified")
@@ -73222,9 +71852,7 @@
             "0qr5ww2xj8dibglh175qcq4bdgzs8lylv28hkbijykjshr3pkzn9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-alert emacs-s emacs-ht))
     (home-page
       "https://github.com/iqbalansari/mu4e-alert")
     (synopsis "Desktop notification for mu4e")
@@ -73314,7 +71942,7 @@
           (base32
             "0bnznfz3bfk348hw5avri6n5w7x8376j0vzybwdxrqb6hfbvwzw0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "http://github.com/agpchil/mu4e-maildirs-extension")
     (synopsis
@@ -73338,8 +71966,7 @@
           (base32
             "1a3cinvi0j92j65qfgzmnx6z0xvq4l2jkvw9wydhm3bkmi3v6ni4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)))
+    (propagated-inputs (list emacs-all-the-icons))
     (home-page
       "https://github.com/stardiviner/mu4e-marker-icons")
     (synopsis "Display icons for mu4e markers")
@@ -73407,9 +72034,7 @@
             "137r0kbd386954ydiwz6g9ff3j5289nqfzkvhp13rjjkrs668332"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-xwidgets-reuse" ,emacs-xwidgets-reuse)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-esxml" ,emacs-esxml)))
+      (list emacs-xwidgets-reuse emacs-ht emacs-esxml))
     (home-page
       "https://github.com/lordpretzel/mu4e-views")
     (synopsis
@@ -73456,9 +72081,7 @@
             "079pqjgq1gkd0mwhzdns5gw3l1xs8qxs0w59njxc8yp8p4ngzcq4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-anaphora" ,emacs-anaphora)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-s emacs-anaphora emacs-dash))
     (home-page
       "https://github.com/mihaiolteanu/mugur")
     (synopsis
@@ -73505,7 +72128,7 @@
           (base32
             "0f27qvf8qh5arzzk9a847qdi87ybkzjl6pgmb9sagrzhybpx8diy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/ReanGD/emacs-multi-compile")
     (synopsis "Multi target interface to compile.")
@@ -73529,9 +72152,7 @@
             "0hj2afqw36pxc091k4w4rk110y076lghnap51x3w53k9xfcfwhwa"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-shut-up" ,emacs-shut-up)))
+      (list emacs-s emacs-dash emacs-shut-up))
     (home-page
       "https://github.com/IvanMalison/multi-line")
     (synopsis "multi-line statements")
@@ -73577,8 +72198,7 @@
           (base32
             "0b5pym2dk4rhrcbn0kgiaf6mqpwa45zfi5k2vh0lfzv9b45nngzs"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-window-layout" ,emacs-window-layout)))
+    (propagated-inputs (list emacs-window-layout))
     (home-page
       "https://www.github.com/sagarjha/multi-run")
     (synopsis
@@ -73625,8 +72245,7 @@
           (base32
             "0z6321994c4c8f5iya240pzvhirci9idlc110wjjwsm4pzdrrppj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-vterm" ,emacs-vterm)))
+    (propagated-inputs (list emacs-vterm))
     (home-page
       "https://github.com/suonlight/multi-libvterm")
     (synopsis "Like multi-term.el but for vterm")
@@ -73739,7 +72358,7 @@
           (base32
             "1r4l0s8401yfm3dl83yqffim5m1gsqzqz9pv3dvq3v8rb94m9n9s"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ht" ,emacs-ht)))
+    (propagated-inputs (list emacs-ht))
     (home-page
       "https://gitlab.com/matsievskiysv/multistate")
     (synopsis "Multistate mode")
@@ -73784,9 +72403,7 @@
             "1rq2p376016y68w6447sd7h6zgzrxbb3skh7fjw7xfq1p6f19kr4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-ht emacs-s emacs-dash))
     (arguments
       '(#:files ("*.el" (:exclude "*-tests.el"))))
     (home-page
@@ -73880,7 +72497,7 @@
           (base32
             "0w9blrm3596hmip8jg2hlz9sl31ci89b90jglmg4ipldgrgj3ly6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "http://github.com/p-lambert/mutant.el")
     (synopsis
@@ -73948,8 +72565,7 @@
             "0gy3lyncyvwimkhfmd0qh1kkc0qgf7sgvbyr1aljdn9qh7n5l34k"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-request emacs-dash))
     (home-page
       "https://github.com/agzam/mw-thesaurus.el")
     (synopsis "Merriam-Webster Thesaurus")
@@ -74087,8 +72703,7 @@
             "18ml0qz3iipm9w36zvwz77cbbrg885jgvzk6z4a33xcfp524xhma"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-virtualenvwrapper"
-         ,emacs-virtualenvwrapper)))
+      (list emacs-virtualenvwrapper))
     (home-page "https://github.com/crshd/mynt-mode")
     (synopsis
       "Minor mode to work with the mynt static site generator")
@@ -74134,7 +72749,7 @@
           (base32
             "1ll7n8gxmzk7grlwh5igbxh7lvf7c08hi1xir2n0fj9wyzd432ny"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "unspecified")
     (synopsis
       "Minor mode to output the results of mysql queries to org tables")
@@ -74179,8 +72794,7 @@
           (base32
             "1pd6c0jc1zxx3i3nk4qdx7gdf1qn8sc9jgqd72pkkpzvdwv998cp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-cypher-mode" ,emacs-cypher-mode)))
+    (propagated-inputs (list emacs-cypher-mode))
     (home-page "https://github.com/tmtxt/n4js.el")
     (synopsis "Neo4j Shell")
     (description
@@ -74202,7 +72816,7 @@
           (base32
             "0amhw630hgc0j8wr8m6aav399ixi3vbwrck79hhlr3pmyh91vv7n"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/knl/name-this-color.el")
     (synopsis
@@ -74272,8 +72886,7 @@
             "1ivklkz3j722wg038bh3hmycp9j64zjrig49vl42mkj6d3ggwilg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-nameframe" ,emacs-nameframe)
-        ("emacs-perspective" ,emacs-perspective)))
+      (list emacs-nameframe emacs-perspective))
     (arguments
       '(#:files ("nameframe-perspective.el")))
     (home-page "https://github.com/john2x/nameframe")
@@ -74299,8 +72912,7 @@
             "1ivklkz3j722wg038bh3hmycp9j64zjrig49vl42mkj6d3ggwilg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-nameframe" ,emacs-nameframe)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-nameframe emacs-projectile))
     (arguments
       '(#:files ("nameframe-projectile.el")))
     (home-page "https://github.com/john2x/nameframe")
@@ -74422,8 +73034,7 @@
           (base32
             "0sfa674g1qm280s0pc3n6qiiphj5i9ibknckx5capkrkxb5cwpkw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-nand2tetris" ,emacs-nand2tetris)))
+    (propagated-inputs (list emacs-nand2tetris))
     (arguments
       '(#:files ("nand2tetris-assembler.el")))
     (home-page
@@ -74648,8 +73259,7 @@
             "12nb7rha3fh29djwnnc28k8g5bnwk2cvijym1i4m4q1fpymfm4ri"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-outshine" ,emacs-outshine)
-        ("emacs-outorg" ,emacs-outorg)))
+      (list emacs-outshine emacs-outorg))
     (home-page "https://github.com/alphapapa/navi")
     (synopsis
       "major-mode for easy buffer-navigation")
@@ -74698,8 +73308,7 @@
           (base32
             "1lf46qsa6xb9rpb0s96vcvwv6n9v08iqp332pyhli0937afij454"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-tablist" ,emacs-tablist)))
+    (propagated-inputs (list emacs-tablist))
     (home-page
       "https://gitlab.petton.fr/DamienCassou/navigel")
     (synopsis
@@ -74724,9 +73333,7 @@
             "0g7rmvfm0ldv0d2x7f8k761mgmi47siyspfi1ns40ijhkpc15x8l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-multi-term" ,emacs-multi-term)))
+      (list emacs-s emacs-dash emacs-multi-term))
     (home-page "unspecified")
     (synopsis
       "Helping you live in the terminal, like Viktor did.")
@@ -74935,8 +73542,7 @@
           (base32
             "0p595lfwzzmjzxx4mdzp47bab07ypxkk3jk3yzvd1dcf2lgd0h9k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/SpringHan/netease-cloud-music.git")
     (synopsis "Netease Cloud Music client")
@@ -74959,8 +73565,7 @@
           (base32
             "13vylyywsp6h4w04g56af5fav8d11sbf90h78b6mv81vp850842p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-names" ,emacs-names)))
+    (propagated-inputs (list emacs-names))
     (home-page
       "https://github.com/nicehiro/netease-music")
     (synopsis "listen netease music")
@@ -75007,9 +73612,7 @@
             "1jj8qsq4xa93h3srskhw1l6igzf9jhwl8hfa73zvqr8dhqhp149k"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-company" ,emacs-company)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-popup emacs-company emacs-helm))
     (home-page
       "http://github.com/Kungsgeten/netrunner")
     (synopsis
@@ -75057,10 +73660,10 @@
             "1mb55bbsb32gxms488pjw9fsqiic2qfmwkhm3pwcgy194723vcaa"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-f
+            emacs-s
+            emacs-markdown-mode
+            emacs-company))
     (home-page
       "https://github.com/felko/neuron-mode")
     (synopsis
@@ -75173,8 +73776,7 @@
           (base32
             "0pz4aj2625m7khqnbpl3h3wh7iwrnzyk61f0qw8w3b4i44fc14h2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-typescript-mode" ,emacs-typescript-mode)))
+    (propagated-inputs (list emacs-typescript-mode))
     (home-page
       "http://github.com/AdamNiederer/ng2-mode")
     (synopsis "Major modes for editing Angular 2")
@@ -75192,10 +73794,10 @@
         (uri (git-reference
                (url "https://github.com/ajc/nginx-mode.git")
                (commit
-                 "a2bab83c2eb233d57d76b236e7c141c2ccc97005")))
+                 "6e9d96f58eddd69f62f7fd443d9b9753e16e0e96")))
         (sha256
           (base32
-            "17dh5pr3gh6adrbqx588gimxbb2fr7iv2qrxv6r48w2727l344xs"))))
+            "188m43zv5hidm5xfykfxhrk0nl9i6kcgpqqqnshhiv82c55g46w4"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -75240,8 +73842,7 @@
           (base32
             "1gihjzwl6309vgav5z7jzi8jb7is8vx8lr23kb6h373gwws4bi10"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/NOBUTOKA/niconama.el")
     (synopsis "Tools for Niconico Live Broadcast")
@@ -75308,8 +73909,7 @@
           (base32
             "0b0bpw9r2xi1avzq76pl58bbk1shb57d3bmzd9d53d07gj5c9399"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)))
+    (propagated-inputs (list emacs-async))
     (home-page
       ": https://git.daemons.it/drymer/nikola.el")
     (synopsis "Simple wrapper for nikola")
@@ -75333,10 +73933,9 @@
             "0jjrjsks3q8qpipxcqdkm8pi3pjnkcxcydspbf0rkvy3x6i5mwkv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-epc" ,emacs-epc)
-        ("emacs-commenter" ,emacs-commenter)
-        ("emacs-flycheck-nimsuggest"
-         ,emacs-flycheck-nimsuggest)))
+      (list emacs-epc
+            emacs-commenter
+            emacs-flycheck-nimsuggest))
     (home-page "unspecified")
     (synopsis
       "A major mode for the Nim programming language")
@@ -75403,7 +74002,7 @@
           (base32
             "0b01b4l9c70sad5r5py5hvg7s6k6idwwp0pv3rn8rj0fq5wlyixj"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/shlevy/nix-buffer/tree/master/")
     (synopsis "Set up buffer environments with nix")
@@ -75449,8 +74048,7 @@
             "1zv3sj3pgc2chv3880nyixvdmpw9sm4h153xw7gm26v2yhhkfdnn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-haskell-mode" ,emacs-haskell-mode)
-        ("emacs-nix-mode" ,emacs-nix-mode)))
+      (list emacs-haskell-mode emacs-nix-mode))
     (home-page
       "https://github.com/matthewbauer/nix-haskell")
     (synopsis "haskell-mode integrations for Nix")
@@ -75473,8 +74071,7 @@
           (base32
             "0rzgnr18gk37y8i4d7rgwjhrxwby0zpkam8k7rf4jq35jjhqr5a4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit-section" ,emacs-magit-section)))
+    (propagated-inputs (list emacs-magit-section))
     (arguments
       '(#:files
         (:defaults
@@ -75523,8 +74120,7 @@
           (base32
             "05vxac2llww4ba5w0dmf0hza60l5i847hfabs0q5i8kzmw4f8s8z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (arguments '(#:files ("nix-sandbox.el")))
     (home-page
       "https://github.com/travisbhartwell/nix-emacs")
@@ -75596,8 +74192,7 @@
           (base32
             "137hvv9ry2h5975v06x22bdirdn7ms0gv216wkz6y68897k7hv3p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/purcell/emacs-nixpkgs-fmt")
     (synopsis "Reformat Nix using nixpkgs-fmt")
@@ -75621,10 +74216,10 @@
             "1vka4i3hsgvwiwqh06xsdrlf50q7mjzyvc4gdk28705gaxnzqmiy"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-anaphora" ,emacs-anaphora)
-        ("emacs-rbenv" ,emacs-rbenv)
-        ("emacs-json-rpc" ,emacs-json-rpc)))
+      (list emacs-dash
+            emacs-anaphora
+            emacs-rbenv
+            emacs-json-rpc))
     (arguments
       '(#:files
         ("nndiscourse.el"
@@ -75657,9 +74252,7 @@
             "1ivmybr94rwrdgxp5d761yy8hnhcdwmiqkhxnyk1bbbyd0a1kxj4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-anaphora" ,emacs-anaphora)))
+      (list emacs-request emacs-dash emacs-anaphora))
     (home-page
       "https://github.com/dickmao/nnhackernews")
     (synopsis "Gnus backend for Hacker News")
@@ -75706,13 +74299,12 @@
             "178sq7rsghqhmhjdxixrybls00g7mp6wbmsx9lzg8c0ywpr9n332"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-anaphora" ,emacs-anaphora)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-json-rpc" ,emacs-json-rpc)
-        ("emacs-virtualenvwrapper"
-         ,emacs-virtualenvwrapper)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-request
+            emacs-anaphora
+            emacs-dash
+            emacs-json-rpc
+            emacs-virtualenvwrapper
+            emacs-s))
     (arguments
       '(#:files
         ("lisp/*.el"
@@ -75741,9 +74333,7 @@
             "0fcskdyapz59cvik117vzj7hyv8kvvp6kh0aing2bgndwvai4apg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-anaphora" ,emacs-anaphora)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash emacs-anaphora emacs-request))
     (arguments '(#:files ("lisp/*.el")))
     (home-page
       "https://github.com/dickmao/nntwitter")
@@ -75834,8 +74424,7 @@
             "1djlfvnmzcjva1s4pjhr4hhmqmd30mm48933lpgy3pnwp7gq910x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-request emacs-dash))
     (home-page "https://github.com/thomp/noaa")
     (synopsis "Get NOAA weather data")
     (description
@@ -76057,9 +74646,7 @@
           (base32
             "02ai9yf7h3i81bg01w8nb4kdrcc94ladbrkw9vg3p40w617mjwlb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-colorless-themes"
-         ,emacs-colorless-themes)))
+    (propagated-inputs (list emacs-colorless-themes))
     (arguments '(#:files ("nordless-theme.el")))
     (home-page
       "https://git.sr.ht/~lthms/colorless-themes.el")
@@ -76175,8 +74762,7 @@
           (base32
             "0x6vvi3j27xi2gkgd9mf7mfprmymdhc4zvna9gn71padpaqf9v50"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-notmuch" ,emacs-notmuch)))
+    (propagated-inputs (list emacs-notmuch))
     (home-page
       "https://git.sr.ht/~tarsius/notmuch-addr")
     (synopsis "An alternative to notmuch-address.el")
@@ -76199,8 +74785,7 @@
           (base32
             "01bhxvjsmgxvh08r80lzlyj0wk1izx5bq22w6zsdzvxiclgrzk16"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-notmuch" ,emacs-notmuch)))
+    (propagated-inputs (list emacs-notmuch))
     (home-page
       "https://github.com/publicimageltd/notmuch-bookmarks")
     (synopsis
@@ -76224,8 +74809,7 @@
           (base32
             "1ss87vlp7625lnn2iah3rc1xfxcbpx4kmiww9n16jx073fs2rj18"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-notmuch" ,emacs-notmuch)))
+    (propagated-inputs (list emacs-notmuch))
     (home-page
       "https://github.com/DamienCassou/notmuch-labeler")
     (synopsis
@@ -76249,8 +74833,7 @@
           (base32
             "1fqnx6hhg0cqj82yjpl7llg6vvppc3y8q9k6g67mqr7z3712bw0x"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-notmuch" ,emacs-notmuch)))
+    (propagated-inputs (list emacs-notmuch))
     (home-page
       "https://git.sr.ht/~tarsius/notmuch-maildir")
     (synopsis "Visualize maildirs as a tree")
@@ -76273,8 +74856,7 @@
           (base32
             "1hv3p124wg8lc9jzb8llp47q9x3c9bwy7k6zvsncb1p513n7z8di"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-notmuch" ,emacs-notmuch)))
+    (propagated-inputs (list emacs-notmuch))
     (home-page
       "https://git.sr.ht/~tarsius/notmuch-transient")
     (synopsis "Command dispatchers for Notmuch")
@@ -76342,8 +74924,7 @@
             "024p9wn365qdl7gmzljk6hp9snixqffg3vqqivndxbgykcjg4sar"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)
-        ("emacs-jest" ,emacs-jest)))
+      (list emacs-transient emacs-jest))
     (home-page
       "https://github.com/shaneikennedy/npm.el")
     (synopsis "Run your npm workflows")
@@ -76390,8 +74971,7 @@
             "0prm2iyahvrm1ngkq3vxz21g2pzvrz60dl7g4yrs683vbmys7b0d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-highlight" ,emacs-highlight)
-        ("emacs-smartparens" ,emacs-smartparens)))
+      (list emacs-highlight emacs-smartparens))
     (home-page "unspecified")
     (synopsis
       "Tiny functionality enhancements for evaluating sexps.")
@@ -76414,8 +74994,7 @@
           (base32
             "1129r3rzmfbl8nxjz71xnlyaszhhldawj467zbl36brdadp014n1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)))
+    (propagated-inputs (list emacs-cider))
     (arguments '(#:files ("emacs/nrepl-sync.el")))
     (home-page
       "https://github.com/phillord/lein-sync")
@@ -76508,12 +75087,12 @@
             "0nd7ypin9kl784iqffznld6kknghdjywqnjw5nwinfgkwhcrjpdd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-undo-tree" ,emacs-undo-tree)
-        ("emacs-ace-window" ,emacs-ace-window)
-        ("emacs-lv" ,emacs-lv)
-        ("emacs-avy" ,emacs-avy)
-        ("emacs-which-key" ,emacs-which-key)
-        ("emacs-transpose-frame" ,emacs-transpose-frame)))
+      (list emacs-undo-tree
+            emacs-ace-window
+            emacs-lv
+            emacs-avy
+            emacs-which-key
+            emacs-transpose-frame))
     (arguments
       '(#:files ("nu-mode/nu-*.el" "doc/nu-mode.info")))
     (home-page "unspecified")
@@ -76649,8 +75228,7 @@
           (base32
             "1hqagy3ailigy2r43vhk2aayxxlr3qs4xk18mnx2r6bgmnbrzr5m"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://github.com/douglasdavis/numpydoc.el")
     (synopsis "NumPy style docstring insertion")
@@ -76696,9 +75274,7 @@
             "0xcb2k98ka7lks7k0mk9inmjpyz03v8aq64a24pj635xp54x3iah"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-s emacs-dash emacs-f))
     (home-page "http://github.com/rejeep/nvm.el")
     (synopsis "Manage Node versions within Emacs")
     (description
@@ -76812,8 +75388,7 @@
             "0z9vkssdxkikwjcb3vrby5dfcixy4lw9r2jp7g9nls6w88l184jf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-oauth2" ,emacs-oauth2)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-oauth2 emacs-request))
     (home-page
       "https://github.com/conao3/oauth2-request.el")
     (synopsis "OAuth2 request package interface")
@@ -76837,10 +75412,9 @@
             "0aibvrhwj2swv9ixl6hx4b2yicbpi095mvs0fib7i1nhlg0zciqd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-ammonite-term-repl"
-         ,emacs-ammonite-term-repl)
-        ("emacs-xterm-color" ,emacs-xterm-color)))
+      (list emacs-s
+            emacs-ammonite-term-repl
+            emacs-xterm-color))
     (home-page
       "https://github.com/zwild/ob-ammonite")
     (synopsis
@@ -76886,9 +75460,7 @@
           (base32
             "0k0jcha7cckj8dc2cc1a6m2yhagsl5bmlnr3p8x3g8ij1axk533h"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-async emacs-dash))
     (home-page
       "https://github.com/astahlman/ob-async")
     (synopsis
@@ -76913,8 +75485,7 @@
             "0p8kbxfcrx1ib8g17g6h2i2ygy35qq992n3s2xa6ysij7wrfn4hd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-axiom-environment"
-         ,emacs-axiom-environment)))
+      (list emacs-axiom-environment))
     (arguments '(#:files ("ob-axiom.el")))
     (home-page "unspecified")
     (synopsis
@@ -77101,10 +75672,10 @@
             "0r4dsbrdxhyyh708pm8fqn423v21xk7a940nbajw9y07n28y5hgk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-cypher-mode" ,emacs-cypher-mode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-dash-functional" ,emacs-dash-functional)))
+      (list emacs-s
+            emacs-cypher-mode
+            emacs-dash
+            emacs-dash-functional))
     (home-page
       "http://github.com/zweifisch/ob-cypher")
     (synopsis
@@ -77284,8 +75855,7 @@
             "00wplflc4pp0ffhnkya19cqm3ihz8mybfj2ywk3ii2d9x08kjnp3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ess" ,emacs-ess)
-        ("emacs-julia-mode" ,emacs-julia-mode)))
+      (list emacs-ess emacs-julia-mode))
     (arguments '(#:files ("*.el" "*.jl")))
     (home-page
       "https://github.com/frederic-santos/ob-ess-julia")
@@ -77309,8 +75879,7 @@
           (base32
             "1z1m2dqnvyyv9ff289p8x1hajnz9n0mmfkrkyl1zvipaqd9mgljw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-fsharp-mode" ,emacs-fsharp-mode)))
+    (propagated-inputs (list emacs-fsharp-mode))
     (home-page
       "https://github.com/juergenhoetzel/ob-fsharp")
     (synopsis "Org-Babel F#")
@@ -77356,8 +75925,7 @@
             "07syadvvdjrxbsgwil2pqcji2rznm64pz0cqb0d4g7kjbxby37gw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-graphql-mode" ,emacs-graphql-mode)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-graphql-mode emacs-request))
     (home-page
       "https://github.com/jdormit/ob-graphql")
     (synopsis
@@ -77381,8 +75949,7 @@
           (base32
             "0h33y11921ajw60b4hqpg0nvdvx3w3cia90wf53c5zg2bckcrfjh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-f emacs-s))
     (home-page
       "http://github.com/nikclayton/ob-html-chrome")
     (synopsis
@@ -77406,7 +75973,7 @@
           (base32
             "11fx9c94xxhl09nj9z5b5v6sm0xwkqawgjnnm7bg56vvj495n6h7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "http://github.com/zweifisch/ob-http")
     (synopsis "http request in org-mode babel")
     (description
@@ -77451,10 +76018,10 @@
             "1a10fc2jk37ni5sjjvf87s5nyaz2a6h2mlj5dxh4dhv5sd3bb85p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-dash-functional" ,emacs-dash-functional)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-s
+            emacs-dash
+            emacs-dash-functional
+            emacs-f))
     (arguments '(#:files (:defaults "*.py")))
     (home-page "http://www.gregsexton.org")
     (synopsis
@@ -77478,8 +76045,7 @@
           (base32
             "18866agjrkx2gv38zr14mhf3rlvjdjvn3i8hxg12lrbv6q4rn8aq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-julia-vterm" ,emacs-julia-vterm)))
+    (propagated-inputs (list emacs-julia-vterm))
     (home-page
       "https://github.com/shg/ob-julia-vterm.el")
     (synopsis "Babel Functions for Julia in VTerm")
@@ -77748,8 +76314,7 @@
           (base32
             "0nq5w2gankvb7ix8rv33814j7qvhiawd9r15b9i6syn1i5k5pxhj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-restclient" ,emacs-restclient)))
+    (propagated-inputs (list emacs-restclient))
     (home-page
       "https://github.com/alf/ob-restclient.el")
     (synopsis
@@ -77818,8 +76383,7 @@
             "134d3pz38g2ki4war1jxp5440yq5smfkdjnknz5r29p49sch0zvx"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-sage-shell-mode" ,emacs-sage-shell-mode)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-sage-shell-mode emacs-s))
     (arguments '(#:files ("ob-sagemath.el" "*.py")))
     (home-page
       "https://github.com/stakemori/ob-sagemath")
@@ -77844,8 +76408,7 @@
           (base32
             "1x0rq9l9j3khp47q2j9bnyhhj2xrs4zggw9p8rmmai165drh1i9r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-smiles-mode" ,emacs-smiles-mode)))
+    (propagated-inputs (list emacs-smiles-mode))
     (home-page "unspecified")
     (synopsis "Org-mode Babel support for SMILES.")
     (description
@@ -77867,8 +76430,7 @@
           (base32
             "0gymna48igcixrapjmg842pnlsshhw8zplxwyyn0x2yrma9fjyyg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-sml-mode" ,emacs-sml-mode)))
+    (propagated-inputs (list emacs-sml-mode))
     (home-page "http://orgmode.org")
     (synopsis
       "org-babel functions for template evaluation")
@@ -77891,8 +76453,7 @@
           (base32
             "00cnym62hp0masikr3ndk2a0mpafjw0cjx0xavcq486w2xi7r8rm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-spice-mode" ,emacs-spice-mode)))
+    (propagated-inputs (list emacs-spice-mode))
     (home-page "https://tiagoweber.github.io")
     (synopsis
       "org-babel functions for spice evaluation")
@@ -77982,8 +76543,7 @@
           (base32
             "1l2n4ijf3sfgj05xzvnb1cd9k24ynh2cg36yj386bq7kadamympc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-swift-mode" ,emacs-swift-mode)))
+    (propagated-inputs (list emacs-swift-mode))
     (home-page
       "https://github.com/xenodium/ob-swiftui")
     (synopsis
@@ -78007,7 +76567,7 @@
           (base32
             "057gnjgn6g7qpf8hpidp302s2bv5lkijx6b35knvg266czda6fra"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/ahendriksen/ob-tmux")
     (synopsis
@@ -78031,9 +76591,7 @@
           (base32
             "143dq3wp3h1zzk8ihj8yjw9ydqnf48q7y8yxxa0ly7f2v1li84bc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-google-translate"
-         ,emacs-google-translate)))
+    (propagated-inputs (list emacs-google-translate))
     (home-page
       "https://github.com/krisajenkins/ob-translate")
     (synopsis
@@ -78207,10 +76765,10 @@
         (uri (git-reference
                (url "https://github.com/ocaml-ppx/ocamlformat.git")
                (commit
-                 "d3e7b5b99786a9670e0e90ed2ebb13a5c5778993")))
+                 "51cd55ad0aa6c6ccbea7fe3041de0931c0292be5")))
         (sha256
           (base32
-            "198l286kjphvvf5yrby8cglbrqkpa73m27ri5pw0mawr8269cqvh"))))
+            "1kga1izbp301rv8y2kdcwc2jrvy4bplaglsbspqm64yz6jcj570l"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("emacs/ocamlformat.el")))
     (home-page
@@ -78326,8 +76884,7 @@
             "155gmls6cz3zf4lcj89kzb96y7k0glx0f659jg5z0skgxq79hf48"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-svg-mode-line-themes"
-         ,emacs-svg-mode-line-themes)))
+      (list emacs-svg-mode-line-themes))
     (arguments
       '(#:files
         (:defaults ("images" "images/*.base64"))))
@@ -78445,8 +77002,7 @@
           (base32
             "1kfrnmsjgnn6q5k297q7ka7zqkni33dxsc6dnv5raizlhcxif0qv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-org-re-reveal" ,emacs-org-re-reveal)))
+    (propagated-inputs (list emacs-org-re-reveal))
     (arguments
       '(#:files
         (:defaults
@@ -78500,8 +77056,7 @@
           (base32
             "00lxjl1i6kcvj9lym2m59xb5hrx2gcdpvsvq972d8iczp2jmcfxr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-quickrun" ,emacs-quickrun)))
+    (propagated-inputs (list emacs-quickrun))
     (home-page "https://github.com/conao3/oj.el")
     (synopsis
       "Competitive programming tools client for AtCoder, Codeforces")
@@ -78524,8 +77079,7 @@
           (base32
             "1pkb333m1rryhxf26p8661y7w9fnsaarn0qkzys1pyfj09q9rsmj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-notmuch" ,emacs-notmuch)))
+    (propagated-inputs (list emacs-notmuch))
     (home-page
       "https://git.sr.ht/~tarsius/ol-notmuch")
     (synopsis "Links to notmuch messages")
@@ -78679,9 +77233,7 @@
             "0xbrwj7zsqx91p28l3dknlhr3y5cj6lah6h5x1s9l9kmfz850dcp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-ht emacs-s emacs-dash))
     (home-page
       "https://github.com/AdrieanKhisbe/omni-log.el")
     (synopsis "Logging utilities")
@@ -78705,11 +77257,11 @@
             "1bv45gdyzycapi9q69h3339308qxwgjzj5rgr3f927vl4xm18kfb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-omni-log" ,emacs-omni-log)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-dash
+            emacs-omni-log
+            emacs-f
+            emacs-s
+            emacs-ht))
     (home-page
       "https://github.com/AdrieanKhisbe/omni-quotes.el")
     (synopsis "Random quotes displayer")
@@ -78754,8 +77306,7 @@
           (base32
             "0cqj4h4bdhmb0r6f2xx9g6cs3599m4j3snkrvsgddaq8c6mg47w0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pcre2el" ,emacs-pcre2el)))
+    (propagated-inputs (list emacs-pcre2el))
     (home-page
       "http://github.com/AdrieanKhisbe/omni-tags.el")
     (synopsis "Highlight and Actions for 'Tags'")
@@ -78779,8 +77330,7 @@
             "19d7djf942dagxsz0c0lnfra4fk09qm6grkc0nihpsw4afjbj01a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-frame-local" ,emacs-frame-local)))
+      (list emacs-dash emacs-frame-local))
     (home-page
       "https://github.com/sebastiencs/omnibox")
     (synopsis "Selection package")
@@ -78804,13 +77354,13 @@
             "0aicn5s368s6ks4dq5b8xga0ifijd4lkqawzs0a4y58z8s922h69"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-csharp-mode" ,emacs-csharp-mode)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-flycheck
+            emacs-dash
+            emacs-auto-complete
+            emacs-popup
+            emacs-csharp-mode
+            emacs-s
+            emacs-f))
     (home-page
       "https://github.com/Omnisharp/omnisharp-emacs")
     (synopsis
@@ -78858,9 +77408,7 @@
             "1i7xhv2a22n6lq0n1pd494g1a5s7sv52i2gblg6s9h87dnb4r9l6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-evil" ,emacs-evil)
-        ("emacs-smartparens" ,emacs-smartparens)))
+      (list emacs-dash emacs-evil emacs-smartparens))
     (home-page "unspecified")
     (synopsis
       "smartparens wrapper to fit with evil-mode/vim normal-state")
@@ -79063,8 +77611,7 @@
           (base32
             "0gci909a2rbx5i8dyzyrcddwdic7nvpk6y6djvn521yaag4sq87h"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (arguments
       '(#:files ("opener.el" "opener.texi")))
     (home-page
@@ -79113,10 +77660,10 @@
             "1avci3avwhrw040wwjgcv1hayk893y8iwln10vsjyb5rd78y9gsi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-pkg-info" ,emacs-pkg-info)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-s
+            emacs-dash
+            emacs-pkg-info
+            emacs-request))
     (home-page
       "https://github.com/OpenSourceOrg/el-opensourceorg")
     (synopsis "Client for Opensource API")
@@ -79207,8 +77754,7 @@
           (base32
             "0dah1wb9fyixwza8h2bc2vzps4zd9y9g97yhrm2vjvddabzsyq3a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-zoutline" ,emacs-zoutline)))
+    (propagated-inputs (list emacs-zoutline))
     (home-page "https://github.com/abo-abo/orca")
     (synopsis "Org Capture")
     (description
@@ -79277,10 +77823,9 @@
             "1l3fn8vjdqq7rrn1b7l2i238bhjni13mg9v25dydin0sfb697abk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete-pcmp"
-         ,emacs-auto-complete-pcmp)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-auto-complete-pcmp
+            emacs-log4e
+            emacs-yaxception))
     (home-page "https://github.com/aki2o/org-ac")
     (synopsis
       "Some auto-complete sources for org-mode")
@@ -79326,8 +77871,7 @@
           (base32
             "0xalf5bbawnxm61askvldg2g93gvf6i1bpxqk55bglnl2cdq6g2i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)))
+    (propagated-inputs (list emacs-alert))
     (home-page
       "https://github.com/spegoraro/org-alert")
     (synopsis "Notify org deadlines via notify-send")
@@ -79377,9 +77921,7 @@
             "1xnqih87sipqd6q5cvgvw2mpn5m4j605bxhlbmpr4kzhni9vd9sh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-promise" ,emacs-promise)))
+      (list emacs-request emacs-dash emacs-promise))
     (home-page
       "https://github.com/eyeinsky/org-anki")
     (synopsis "Synchronize org-mode entries to Anki")
@@ -79470,8 +78012,7 @@
           (base32
             "05yrw59zrzxj1p8n65sk6mvy7jzik812mp9i2nsimwhlhn3si1pj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)))
+    (propagated-inputs (list emacs-async))
     (home-page
       "https://github.com/yilkalargaw/org-auto-tangle")
     (synopsis
@@ -79518,9 +78059,9 @@
             "1fjifl69qja3ab0g72f1hkfns992qq0v9pw8p4hgvjycx7fpzk0a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-eval-in-repl" ,emacs-eval-in-repl)
-        ("emacs-matlab-mode" ,emacs-matlab-mode)
-        ("emacs-ess" ,emacs-ess)))
+      (list emacs-eval-in-repl
+            emacs-matlab-mode
+            emacs-ess))
     (home-page
       "https://github.com/diadochos/org-babel-eval-in-repl")
     (synopsis
@@ -79590,7 +78131,7 @@
           (base32
             "09rfp0zf68gnhiwh61wc10kgqk75ypkbk0hawrw1rhida1bi2wb1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "http://github.com/alphapapa/org-bookmark-heading")
     (synopsis "Emacs bookmark support for org-mode")
@@ -79614,11 +78155,11 @@
             "1sgckvpjdaig9r2clcvs6ckgf2kx7amikkpq26y30jbnfnbskf0v"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-enlive" ,emacs-enlive)
-        ("emacs-s" ,emacs-s)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-helm-org" ,emacs-helm-org)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-enlive
+            emacs-s
+            emacs-helm
+            emacs-helm-org
+            emacs-dash))
     (home-page
       "https://github.com/lepisma/org-books")
     (synopsis
@@ -79825,7 +78366,7 @@
           (base32
             "0637skvjs90cfd713q8dhl3xrya4hfy79x0nn1y51cp9lrniw6q2"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/atheriel/org-clock-csv")
     (synopsis
@@ -79918,7 +78459,7 @@
           (base32
             "0ixhyn8s7l2caq0qpv9zlq9fzm3z8b81755c3yffnk5camnij6py"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files (:defaults "bin")))
     (home-page
       "https://github.com/smaximov/org-commentary")
@@ -79988,8 +78529,7 @@
           (base32
             "129zdnz97h6px0yz0f0if4gw96zxmsg24xc8vg51crsazqqz8l3b"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://spwhitton.name/tech/code/org-d20/")
     (synopsis
@@ -80081,8 +78621,7 @@
           (base32
             "1yzv4r2820pbdpx09rdrrb9lk1dv4axhxif22f1svf8pggisrsd8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)))
+    (propagated-inputs (list emacs-async))
     (home-page
       "https://github.com/abo-abo/org-download")
     (synopsis "Image drag-and-drop for Org-mode.")
@@ -80127,8 +78666,7 @@
           (base32
             "079x6rcz50rpw0vdq5q2kjpixz95k9f3j9dwk91r5111vvr428w3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-persist" ,emacs-persist)))
+    (propagated-inputs (list emacs-persist))
     (home-page
       "https://gitlab.com/phillord/org-drill/issues")
     (synopsis "Self-testing using spaced repetition")
@@ -80151,8 +78689,7 @@
           (base32
             "0rqjzn3n42jcnwa5vg2731vxrnj6vy2bacfxmg0hlh3rkhhn0r53"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page "unspecified")
     (synopsis "Generate drill cards from org tables")
     (description
@@ -80174,9 +78711,7 @@
           (base32
             "0jjdsng7fm4wbhvd9naqzdfsmkvj1sf1d9rikprg1pd58azv6idx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-names" ,emacs-names)))
+    (propagated-inputs (list emacs-dash emacs-names))
     (home-page
       "https://github.com/heikkil/org-dropbox")
     (synopsis
@@ -80223,8 +78758,7 @@
           (base32
             "1zfimgnmn7nqaq8aglyly55k5dr548467masr2g4x3m0z1by1z6b"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auctex" ,emacs-auctex)))
+    (propagated-inputs (list emacs-auctex))
     (home-page
       "https://github.com/et2010/org-edit-latex")
     (synopsis
@@ -80248,8 +78782,7 @@
           (base32
             "0igx916wk9xc74h6zm8dz3h5007izrp2jdm4pdm2r4bcp1ybnk05"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-web-server" ,emacs-web-server)))
+    (propagated-inputs (list emacs-web-server))
     (arguments
       '(#:files
         ("src/*.el" "src/ox-ehtml.js" "src/ox-ehtml.css")))
@@ -80342,9 +78875,7 @@
           (base32
             "05y8k7r9yc8x11v344fnnpc3iq4lcanwhpgy5xnczbbxxlc8x3pk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-evil" ,emacs-evil)))
+    (propagated-inputs (list emacs-dash emacs-evil))
     (home-page
       "https://github.com/guiltydolphin/org-evil")
     (synopsis "Evil extensions for Org.")
@@ -80435,11 +78966,10 @@
             "0gkdh32cfmqbmvvqd67i2x9i1fm5yfmhw6i5yvrb9swsl24kv194"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-request-deferred"
-         ,emacs-request-deferred)
-        ("emacs-alert" ,emacs-alert)
-        ("emacs-persist" ,emacs-persist)))
+      (list emacs-request
+            emacs-request-deferred
+            emacs-alert
+            emacs-persist))
     (home-page "https://github.com/kidd/org-gcal.el")
     (synopsis "Org sync with Google Calendar")
     (description
@@ -80461,8 +78991,7 @@
           (base32
             "0p4xc4rznkq0vp0bbm1k69bfbmlp46lap12q75wdpkdrn5k4sr2p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-mustache" ,emacs-mustache)))
+    (propagated-inputs (list emacs-mustache))
     (home-page
       "https://github.com/conao3/org-generate.el")
     (synopsis
@@ -80487,9 +79016,9 @@
             "0jd5zwykc6fkkaj8qhg7wgmrjn47054x242b5s03w8ylyczqbcg3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)
-        ("emacs-telepathy" ,emacs-telepathy)
-        ("emacs-gnome-calendar" ,emacs-gnome-calendar)))
+      (list emacs-alert
+            emacs-telepathy
+            emacs-gnome-calendar))
     (home-page "unspecified")
     (synopsis
       "Orgmode integration with the GNOME desktop")
@@ -80535,10 +79064,9 @@
             "1laxw7ixcvdh4cgx5z669wvmwn5x9qqq0gyvl3rj79nrdv755wwr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-edna" ,emacs-org-edna)
-        ("emacs-f" ,emacs-f)
-        ("emacs-org-agenda-property"
-         ,emacs-org-agenda-property)))
+      (list emacs-org-edna
+            emacs-f
+            emacs-org-agenda-property))
     (home-page
       "https://github.com/Trevoke/org-gtd.el")
     (synopsis "An implementation of GTD")
@@ -80561,7 +79089,7 @@
           (base32
             "189zzfi5a1qsjm8ayq5v58s5iagibv2vk6rb6zda4p0hrmnfz2ky"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/marcIhm/org-id-cleanup")
     (synopsis
@@ -80607,8 +79135,7 @@
           (base32
             "01q8w49dh9fpr2sc70p92cxjm66fnrrgnk4ba321aq9dlfmly2zg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/marcIhm/org-index")
     (synopsis "A personal adaptive index for org")
@@ -80676,8 +79203,7 @@
           (base32
             "0s3fi8sk7jm5vr0fz20fbygm4alhpirv0j20jfi1pab14yhhf34h"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-impatient-mode" ,emacs-impatient-mode)))
+    (propagated-inputs (list emacs-impatient-mode))
     (arguments
       '(#:files
         (:defaults
@@ -80709,8 +79235,7 @@
             "19nljq73gnhjk7zz8y5wgap8j41jd7zifjcmfddrj27kmprw2h5z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-request emacs-dash))
     (arguments
       '(#:files
         ("jiralib.el" "org-jira.el" "org-jira-sdk.el")))
@@ -80780,8 +79305,7 @@
           (base32
             "1lh7hgzbkmhv7hqc0fvgvivkihg96c41ms1v7rcknnp3f1kj195h"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("org-kanban.el")))
     (home-page
       "http://github.com/gizmomogwai/org-kanban")
@@ -80828,9 +79352,7 @@
             "14rjgdl941kja3hndc55q3c65fi7plviirxihffkw498h0vkbyhs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-posframe" ,emacs-posframe)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-s emacs-posframe emacs-dash))
     (home-page
       "https://github.com/yangsheng6810/org-latex-instant-preview")
     (synopsis
@@ -80854,8 +79376,7 @@
           (base32
             "0cgf6bb3b0s378w48sdma0lyasdj93ngfvrdlnnjggk5hlcr98sx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)))
+    (propagated-inputs (list emacs-all-the-icons))
     (home-page
       "https://github.com/stardiviner/org-link-beautify")
     (synopsis "Beautify Org Links")
@@ -80946,8 +79467,7 @@
           (base32
             "08gkzl0cbgkyg31sxafqmq6v1hjgr2q62vnvncrdnhs3ly54inf8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "http://github.com/alphapapa/org-make-toc")
     (synopsis
@@ -80993,7 +79513,7 @@
           (base32
             "0mkmh1ascxhfgbqdzcr6d60k4ldnh3l8dylw4m7wglz15hm3ixbm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/theodorewiles/org-mind-map")
     (synopsis
@@ -81017,8 +79537,7 @@
           (base32
             "0chnvs577wvddmcx37gij1zw95hii1lmdycr7w2wp5ig2dyz67ns"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/ndwarshuis/org-ml")
     (synopsis "Functional Org Mode API")
@@ -81064,8 +79583,7 @@
           (base32
             "1h514knqys20nv9qknxdl5y6rgmyymyr42i07dar8hln9vj0ywqm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/teeann/org-movies")
     (synopsis "Manage watchlist with Org mode")
@@ -81111,8 +79629,7 @@
           (base32
             "08kv8639zdfr3fpzx4zpbgf40vjpa1xwkhxzz7vdpmjq19i3c28w"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-htmlize" ,emacs-htmlize)))
+    (propagated-inputs (list emacs-htmlize))
     (home-page
       "https://github.com/jeremy-compostella/org-msg")
     (synopsis
@@ -81137,9 +79654,7 @@
             "0hmn9yy2d7wy6zz81ddd96rksmvs9k5529dfqrkrpl4v3bn3g52d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-org-ql" ,emacs-org-ql)))
+      (list emacs-dash emacs-s emacs-org-ql))
     (arguments '(#:files ("org-multi-wiki.el")))
     (home-page
       "https://github.com/akirak/org-multi-wiki")
@@ -81232,9 +79747,9 @@
             "18iy03hc7jb7qsfj25f6hmrwli6fyjbf14c1p5bhp5gwk49rm9p1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pdf-tools" ,emacs-pdf-tools)
-        ("emacs-org-pdftools" ,emacs-org-pdftools)
-        ("emacs-org-noter" ,emacs-org-noter)))
+      (list emacs-pdf-tools
+            emacs-org-pdftools
+            emacs-org-noter))
     (arguments '(#:files ("org-noter-pdftools.el")))
     (home-page
       "https://github.com/fuxialexander/org-pdftools")
@@ -81260,8 +79775,7 @@
             "0px7syqcz300mxcns1bm0yn3i9n2j5cx58lzjjqpp6v36xn6x4k8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-sound-wav" ,emacs-sound-wav)
-        ("emacs-alert" ,emacs-alert)))
+      (list emacs-sound-wav emacs-alert))
     (arguments '(#:files (:defaults "sounds")))
     (home-page
       "https://github.com/doppelc/org-notifications")
@@ -81287,8 +79801,7 @@
             "0bmj5wkwidj1v3b8ipligr0nkfdaxm82717nz8fqidz967q4xbk6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-orglue" ,emacs-orglue)
-        ("emacs-ctable" ,emacs-ctable)))
+      (list emacs-orglue emacs-ctable))
     (arguments
       '(#:files ("*.el" "setup-sample.org")))
     (home-page "unspecified")
@@ -81314,8 +79827,7 @@
             "1jlnnb04ichcl155lklvjw91l8j1dvg77bv1815chak226aq4xqj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-oauth2" ,emacs-oauth2)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-oauth2 emacs-request))
     (home-page
       "https://github.com/ifree/org-onenote")
     (synopsis "export org-mode document to onenote.")
@@ -81338,7 +79850,7 @@
           (base32
             "0gjvd7xd9kl06cgdyya2qbl7r4a9y4zfq1ci0109w5axs3zjin1m"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ov" ,emacs-ov)))
+    (propagated-inputs (list emacs-ov))
     (home-page
       "https://gitlab.com/andersjohansson/org-outline-numbering")
     (synopsis
@@ -81385,12 +79897,12 @@
             "06hh1g3rxadscjjn1ym358m2c8qn3s2x7ik0msadvm1zgx7ng4v5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-simple-httpd" ,emacs-simple-httpd)
-        ("emacs-mustache" ,emacs-mustache)
-        ("emacs-htmlize" ,emacs-htmlize)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-git" ,emacs-git)))
+      (list emacs-ht
+            emacs-simple-httpd
+            emacs-mustache
+            emacs-htmlize
+            emacs-dash
+            emacs-git))
     (arguments '(#:files ("*.el" "doc" "themes")))
     (home-page "https://github.com/kelvinh/org-page")
     (synopsis
@@ -81414,9 +79926,7 @@
           (base32
             "00aiiga5bccm17xv35123xk7ps7h96q829kwh3q7khdh1gyy3jqd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-ht" ,emacs-ht)))
+    (propagated-inputs (list emacs-dash emacs-ht))
     (home-page "https://hg.sr.ht/~zck/org-parser")
     (synopsis
       "parse org files into structured datatypes.")
@@ -81440,8 +79950,7 @@
             "18iy03hc7jb7qsfj25f6hmrwli6fyjbf14c1p5bhp5gwk49rm9p1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pdf-tools" ,emacs-pdf-tools)
-        ("emacs-org-noter" ,emacs-org-noter)))
+      (list emacs-pdf-tools emacs-org-noter))
     (arguments '(#:files ("org-pdftools.el")))
     (home-page
       "https://github.com/fuxialexander/org-pdftools")
@@ -81489,9 +79998,7 @@
             "0a95gnvgfvj3f9xy5hl4d7367j8sfysf5ghnz6hxiz6ilhngfnz7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-a" ,emacs-a)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-a emacs-dash emacs-request))
     (home-page
       "https://github.com/org-pivotal/org-pivotal")
     (synopsis "Sync Pivotal Tracker to org buffer")
@@ -81514,8 +80021,7 @@
           (base32
             "0nbprh2nhnmb7ngp9ndr6zr37ashcsvpi5slv7a37x1dl7j6w1k4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)))
+    (propagated-inputs (list emacs-alert))
     (arguments '(#:files (:defaults "resources")))
     (home-page
       "https://github.com/lolownia/org-pomodoro")
@@ -81564,8 +80070,7 @@
             "02x1ahkwn2ani0rsdk7kj096i6qzwgmk61caj8cim0kw9x9lfcl6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-present" ,emacs-org-present)
-        ("emacs-elnode" ,emacs-elnode)))
+      (list emacs-org-present emacs-elnode))
     (home-page
       "https://gitlab.com/duncan-bayne/org-present-remote")
     (synopsis
@@ -81635,11 +80140,10 @@
             "05h9scvnd9ggfwbbl1m124k6sdn5kp9mv2695cril2m4dkr1kyqz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-org-category-capture"
-         ,emacs-org-category-capture)))
+      (list emacs-projectile
+            emacs-dash
+            emacs-s
+            emacs-org-category-capture))
     (arguments '(#:files ("org-projectile.el")))
     (home-page
       "https://github.com/IvanMalison/org-projectile")
@@ -81665,8 +80169,7 @@
             "05h9scvnd9ggfwbbl1m124k6sdn5kp9mv2695cril2m4dkr1kyqz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-projectile" ,emacs-org-projectile)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-org-projectile emacs-helm))
     (arguments
       '(#:files ("org-projectile-helm*.el")))
     (home-page
@@ -81713,15 +80216,14 @@
             "1jfm4ahh58x3a3njigrbfzd86fnbyybbcgca2mgmxddcy6bszfp1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-org-super-agenda"
-         ,emacs-org-super-agenda)
-        ("emacs-ov" ,emacs-ov)
-        ("emacs-peg" ,emacs-peg)
-        ("emacs-s" ,emacs-s)
-        ("emacs-transient" ,emacs-transient)
-        ("emacs-ts" ,emacs-ts)))
+      (list emacs-dash
+            emacs-f
+            emacs-org-super-agenda
+            emacs-ov
+            emacs-peg
+            emacs-s
+            emacs-transient
+            emacs-ts))
     (arguments
       '(#:files (:defaults (:exclude "helm-org-ql.el"))))
     (home-page "https://github.com/alphapapa/org-ql")
@@ -81746,7 +80248,7 @@
           (base32
             "0zhf4yfs6a50b5lq4yp9cmm6sv1j94hak6c353df76nssg4vbil5"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/Fuco1/org-radiobutton")
     (synopsis "Radiobutton for org-mode lists.")
@@ -81769,8 +80271,7 @@
           (base32
             "0jyd7cbri0bmi0qzwm7d4fxdfa1224bg6izd63pqqg1x7s67x99z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)))
+    (propagated-inputs (list emacs-alert))
     (arguments '(#:files ("org-random-todo.el")))
     (home-page
       "https://github.com/unhammer/org-random-todo")
@@ -81795,8 +80296,7 @@
           (base32
             "0q6xfwf35dy13hif3qrkqyhlwpmpcfsaw3lfwgv0dhi0g7h5bpry"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-f emacs-dash))
     (home-page
       "http://github.com/mwfogleman/org-randomnote")
     (synopsis
@@ -81820,8 +80320,7 @@
           (base32
             "01h1vdg96ml8zxfi78j178w4m33n2rmwgcl6k2cisymcfijcp2c5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-htmlize" ,emacs-htmlize)))
+    (propagated-inputs (list emacs-htmlize))
     (home-page
       "https://gitlab.com/oer/org-re-reveal")
     (synopsis
@@ -81846,8 +80345,7 @@
             "09yvfp4nh3g2jfs4v8jx70y6vyahypwvfjwrcqg5z0sqssbmxhnc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-citeproc" ,emacs-citeproc)
-        ("emacs-org-re-reveal" ,emacs-org-re-reveal)))
+      (list emacs-citeproc emacs-org-re-reveal))
     (arguments
       '(#:files
         (:defaults
@@ -81878,8 +80376,7 @@
             "1vaszb0n5p48mrf5hzci2yyh51b32ws1fk6r4q0gky41ixz243v8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-ref" ,emacs-org-ref)
-        ("emacs-org-re-reveal" ,emacs-org-re-reveal)))
+      (list emacs-org-ref emacs-org-re-reveal))
     (arguments
       '(#:files
         (:defaults
@@ -81910,9 +80407,7 @@
             "1y11rlnhi36lzhc1cagninv6hlcwbvj88xfr0g0xzpbzy7hys021"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-frecency" ,emacs-frecency)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash emacs-frecency emacs-s))
     (arguments
       '(#:files
         (:defaults
@@ -81983,16 +80478,15 @@
             "1h8sjcylqklssc5pw723cbl2paha47s3gcgqsn2ak9wzd0zkwads"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-htmlize" ,emacs-htmlize)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-avy" ,emacs-avy)
-        ("emacs-parsebib" ,emacs-parsebib)
-        ("emacs-bibtex-completion"
-         ,emacs-bibtex-completion)
-        ("emacs-citeproc" ,emacs-citeproc)))
+      (list emacs-dash
+            emacs-s
+            emacs-f
+            emacs-htmlize
+            emacs-hydra
+            emacs-avy
+            emacs-parsebib
+            emacs-bibtex-completion
+            emacs-citeproc))
     (arguments
       '(#:files
         (:defaults
@@ -82022,9 +80516,7 @@
             "0dd1avxivc1n73l0jz96mh9jhh1cg4c9icai4ypa38p4sb4czmvh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-ref" ,emacs-org-ref)
-        ("emacs-bibtex-completion"
-         ,emacs-bibtex-completion)))
+      (list emacs-org-ref emacs-bibtex-completion))
     (home-page
       "https://github.com/alezost/org-ref-prettify.el")
     (synopsis "Prettify org-ref citation links")
@@ -82070,7 +80562,7 @@
           (base32
             "10p35q5l9racfqp92xcqard7n75gpqw6l5zjgbybswnkzvdjzd8c"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/akirak/org-reverse-datetree")
     (synopsis
@@ -82140,11 +80632,11 @@
             "0kg4rd1i70qs7427al36y18s5pgbca9y689kdfga4n9q2i18m5l4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-emacsql" ,emacs-emacsql)
-        ("emacs-emacsql-sqlite" ,emacs-emacsql-sqlite)
-        ("emacs-magit-section" ,emacs-magit-section)))
+      (list emacs-dash
+            emacs-f
+            emacs-emacsql
+            emacs-emacsql-sqlite
+            emacs-magit-section))
     (arguments '(#:files (:defaults "extensions/*")))
     (home-page
       "https://github.com/org-roam/org-roam")
@@ -82170,10 +80662,9 @@
             "1d09y923d9n5v7m201myba85m4064s2hdy3pgzssy70mjncg3m1g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-roam" ,emacs-org-roam)
-        ("emacs-bibtex-completion"
-         ,emacs-bibtex-completion)
-        ("emacs-org-ref" ,emacs-org-ref)))
+      (list emacs-org-roam
+            emacs-bibtex-completion
+            emacs-org-ref))
     (home-page
       "https://github.com/org-roam/org-roam-bibtex")
     (synopsis "Org Roam meets BibTeX")
@@ -82196,8 +80687,7 @@
           (base32
             "050jnyqdnx4l946hl9cw08l4sk8z70c2063z08m4qh2sxrdh3nzw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-org-roam" ,emacs-org-roam)))
+    (propagated-inputs (list emacs-org-roam))
     (home-page
       "https://github.com/thomas/org-roam-timestamps")
     (synopsis
@@ -82222,9 +80712,9 @@
             "1am11vnzklv0cbivsw5r8x8fx457166mvfgyv7cdhrz88s8iqm23"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-roam" ,emacs-org-roam)
-        ("emacs-simple-httpd" ,emacs-simple-httpd)
-        ("emacs-websocket" ,emacs-websocket)))
+      (list emacs-org-roam
+            emacs-simple-httpd
+            emacs-websocket))
     (arguments '(#:files (:defaults "out")))
     (home-page
       "https://github.com/org-roam/org-roam-ui")
@@ -82248,7 +80738,7 @@
           (base32
             "1hn8y9933x5x6lxpijcqx97p3hln69ahabqdsl2bmzda3mxm4bn2"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-rtm" ,emacs-rtm)))
+    (propagated-inputs (list emacs-rtm))
     (home-page "https://github.com/pmiddend/org-rtm")
     (synopsis
       "Simple import/export from rememberthemilk to org-mode")
@@ -82272,12 +80762,12 @@
             "0jbvrzigw0bjcm4lq7mmg97yh2kzchcmv4gwpmd6izgr1ajp2nir"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-mustache" ,emacs-mustache)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-f
+            emacs-s
+            emacs-dash
+            emacs-mustache
+            emacs-ht
+            emacs-ivy))
     (home-page
       "https://github.com/tyler-dodge/org-runbook")
     (synopsis "Org mode for runbooks")
@@ -82323,7 +80813,7 @@
           (base32
             "0aq3af6fd16lm9iirzya6hmc8g48kfp8pc4dx51mgb5d6jjiizkv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ag" ,emacs-ag)))
+    (propagated-inputs (list emacs-ag))
     (home-page
       "https://github.com/stardiviner/org-seek.el")
     (synopsis
@@ -82369,11 +80859,10 @@
             "0ama42nkc90mzwik516kfsh5rdx47yhaarcsqsknxh7xcrm2v0r1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-org-ql" ,emacs-org-ql)
-        ("emacs-org-super-agenda"
-         ,emacs-org-super-agenda)))
+      (list emacs-s
+            emacs-dash
+            emacs-org-ql
+            emacs-org-super-agenda))
     (home-page
       "https://github.com/alphapapa/org-sidebar")
     (synopsis "Helpful sidebar for Org buffers")
@@ -82419,9 +80908,7 @@
             "0lp0gn7p5d0fkm3wy27xhj2q6snhl1ssqqhyl52hw06jhifamm8l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-lf" ,emacs-lf)))
+      (list emacs-s emacs-dash emacs-lf))
     (home-page
       "https://alhassy.github.io/org-special-block-extras")
     (synopsis
@@ -82446,10 +80933,7 @@
             "05c1hgzq69lnw59x1w5bybrdhnyli8d9pzjczixklrrahmx4ig8k"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-org-ml" ,emacs-org-ml)))
+      (list emacs-s emacs-f emacs-dash emacs-org-ml))
     (home-page
       "https://github.com/ndwarshuis/org-sql")
     (synopsis "Org-Mode SQL converter")
@@ -82472,7 +80956,7 @@
           (base32
             "1vfw06c08yhpc1dbqb4gprh9l3j0rgsyvhhgmvcv3y5cq2yaibhb"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments
       '(#:files
         (:defaults
@@ -82505,8 +80989,7 @@
             "1vfw06c08yhpc1dbqb4gprh9l3j0rgsyvhhgmvcv3y5cq2yaibhb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-swiper" ,emacs-swiper)
-        ("emacs-org-starter" ,emacs-org-starter)))
+      (list emacs-swiper emacs-org-starter))
     (arguments '(#:files ("org-starter-swiper.el")))
     (home-page
       "https://github.com/akirak/org-starter")
@@ -82577,10 +81060,7 @@
             "1sjx5ahyjpxv5xkxaf1x0p64bjls8ralv9knf80w17nb87dk3p91"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-ts" ,emacs-ts)))
+      (list emacs-s emacs-dash emacs-ht emacs-ts))
     (home-page
       "http://github.com/alphapapa/org-super-agenda")
     (synopsis "Supercharge your agenda")
@@ -82648,7 +81128,7 @@
           (base32
             "1ggn4y6sczl08mzbnzgjixgl685c71wqqffmng4gl67fs6wr6lrv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/abrochard/org-sync-snippets")
     (synopsis
@@ -82716,8 +81196,7 @@
             "0bkaj43d1pnna2yicj6584acx173irqdbnhn7mg5hr223qzks42z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-pretty-tags" ,emacs-org-pretty-tags)
-        ("emacs-all-the-icons" ,emacs-all-the-icons)))
+      (list emacs-org-pretty-tags emacs-all-the-icons))
     (home-page
       "https://github.com/stardiviner/org-tag-beautify")
     (synopsis "Beautify Org Mode tags")
@@ -82807,8 +81286,7 @@
           (base32
             "0cny7ck4acj8s2l6hzp48mvz0v0yk7q91mmzxn8vgrggsb02qm5k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)))
+    (propagated-inputs (list emacs-alert))
     (home-page "unspecified")
     (synopsis
       "Define time budgets and display clocked time.")
@@ -82831,7 +81309,7 @@
           (base32
             "09girkfkddn5xl5h6ji2hmsp2asip14cqrp8l9k9dpyhc4r9qp7g"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/Fuco1/org-timeline/")
     (synopsis
@@ -82855,9 +81333,7 @@
           (base32
             "014337wimvzy0rxh2p2c647ly215zcyhgym2hcljkdriv15cafna"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request-deferred"
-         ,emacs-request-deferred)))
+    (propagated-inputs (list emacs-request-deferred))
     (home-page "unspecified")
     (synopsis
       "Toodledo integration for Emacs Org mode")
@@ -82903,8 +81379,7 @@
           (base32
             "16zi7rg3hdfspifr46gbvpnr1rr144a777whr1w3gp6m46xmgzhs"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/jplindstrom/emacs-org-transform-tree-table")
     (synopsis
@@ -82950,8 +81425,7 @@
           (base32
             "0fzif0ss5yhvhj7q041qbpdb91az03zjf4rgs43a81g6a8qwi803"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-org-tree-slide" ,emacs-org-tree-slide)))
+    (propagated-inputs (list emacs-org-tree-slide))
     (home-page
       "https://github.com/cnngimenez/org-tree-slide-pauses")
     (synopsis
@@ -82976,8 +81450,7 @@
             "11xbm6161rd5kv2bffqw678a7bymclvhpmm1qjxsvmi8bhfk1ls0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-ql" ,emacs-org-ql)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-org-ql emacs-dash))
     (home-page
       "https://github.com/mtekman/org-treescope.el")
     (synopsis "Time scoping sparse trees within org")
@@ -83000,7 +81473,7 @@
           (base32
             "0v9zd2lnzvdxz3wqvw0j3bzd7228x6k8dyr7pzmimkl4l26cybqm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/mtekman/org-treeusage.el")
     (synopsis
@@ -83025,11 +81498,10 @@
             "1kg3q8bhyydmd9jb41kyg8xcn5dbwpy2y0fnq7avkaypdn1q27w0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request-deferred"
-         ,emacs-request-deferred)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-request-deferred
+            emacs-deferred
+            emacs-s
+            emacs-dash))
     (arguments
       '(#:files
         ("org-trello*.el"
@@ -83127,10 +81599,10 @@
             "08z5qc0gki5ci4cf2j4b7190vi2wpsb9qpq9768ifkhhm82mfawr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-esxml" ,emacs-esxml)
-        ("emacs-s" ,emacs-s)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash
+            emacs-esxml
+            emacs-s
+            emacs-request))
     (home-page
       "http://github.com/alphapapa/org-web-tools")
     (synopsis
@@ -83155,9 +81627,7 @@
             "0cp7gr0b83s830q1fzd4gwwz4x1n5cyh4r4v73w2cfml3kqf8nz1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)
-        ("emacs-async" ,emacs-async)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-alert emacs-async emacs-dash))
     (home-page
       "https://github.com/akhramov/org-wild-notifier.el")
     (synopsis
@@ -83181,8 +81651,7 @@
           (base32
             "0xa545wbh7kjbpry74x2bkw6rs9dshlajb5i17zc6v8zf400ds4r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/marcIhm/org-working-set")
     (synopsis
@@ -83207,10 +81676,7 @@
             "05kd8d0687dlmy8a4qvxa3bdcsvxd10hxkl5i4654w88pg07qm8g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request-deferred"
-         ,emacs-request-deferred)
-        ("emacs-alert" ,emacs-alert)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-request-deferred emacs-alert emacs-s))
     (home-page
       "https://github.com/myuhe/org-wunderlist.el")
     (synopsis "Org sync with Wunderlist")
@@ -83258,10 +81724,10 @@
             "1qk9kshi4hyy0fni3gb383m0yvj4fmgidiab6vhnms5zgghj4kl7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-htmlize" ,emacs-htmlize)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-xml-rpc" ,emacs-xml-rpc)
-        ("emacs-metaweblog" ,emacs-metaweblog)))
+      (list emacs-htmlize
+            emacs-hydra
+            emacs-xml-rpc
+            emacs-metaweblog))
     (arguments
       '(#:files
         (:defaults
@@ -83333,9 +81799,7 @@
             "0xgrrbkfqkhj15n7mbmh61g8i535ykhxh5y71054p3kikgnrh290"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ox-gfm" ,emacs-ox-gfm)
-        ("emacs-gh" ,emacs-gh)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-ox-gfm emacs-gh emacs-s))
     (home-page
       "https://github.com/lujun9972/org2issue")
     (synopsis "export org to github issue")
@@ -83358,8 +81822,7 @@
           (base32
             "146xp2jsk7a973g0dn8in1sad6lp1ks7s5ma6jld4h26anprvj1g"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/ardumont/org2jekyll")
     (synopsis
@@ -83384,12 +81847,12 @@
             "12rgrmcp91y27zcq8kcqvndb38n6ix4amf13cc2gjhi6aayxxx7k"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-mustache" ,emacs-mustache)
-        ("emacs-htmlize" ,emacs-htmlize)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-el2org" ,emacs-el2org)
-        ("emacs-simple-httpd" ,emacs-simple-httpd)))
+      (list emacs-ht
+            emacs-mustache
+            emacs-htmlize
+            emacs-dash
+            emacs-el2org
+            emacs-simple-httpd))
     (arguments
       '(#:files
         ("org2web*.el" "documents" "themes" "uploaders")))
@@ -83437,10 +81900,7 @@
             "1nh51npi4j0g4kpshsipy9midi8n17qddfcv0isaizv6bm3z8aa4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-f emacs-s emacs-dash emacs-ht))
     (arguments
       '(#:files (:defaults "sdk" "default")))
     (home-page
@@ -83487,8 +81947,7 @@
           (base32
             "0mbcr98xq3zim01dk1fbyc1vajnjwx90k62mygv343rhrd05v44m"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit" ,emacs-magit)))
+    (propagated-inputs (list emacs-magit))
     (home-page "https://github.com/magit/orgit")
     (synopsis
       "support for Org links to Magit buffers")
@@ -83512,9 +81971,7 @@
             "1y7rywlqhsvkism9dmzlb3sijd8isp6qqhgba79aqgk9wz593rkv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-forge" ,emacs-forge)
-        ("emacs-magit" ,emacs-magit)
-        ("emacs-orgit" ,emacs-orgit)))
+      (list emacs-forge emacs-magit emacs-orgit))
     (home-page
       "https://github.com/magit/orgit-forge")
     (synopsis "Org links to Forge issue buffers")
@@ -83558,7 +82015,7 @@
           (base32
             "1n2l9acc54sbpbv5d1h2ib9cn7nbidmkvhhlwihqzpvvh7bhjfj7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-epic" ,emacs-epic)))
+    (propagated-inputs (list emacs-epic))
     (home-page "unspecified")
     (synopsis "more functionality to org-mode.")
     (description
@@ -83581,9 +82038,7 @@
             "0764dg3dcsdy4i6syv9aqqmr47civn9dl3638g4lsqdikghw7lvv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-helm emacs-s emacs-dash))
     (home-page
       "http://github.com/facetframer/orgnav")
     (synopsis "Org tree navigation using helm")
@@ -83601,10 +82056,10 @@
         (uri (git-reference
                (url "https://github.com/tgbugs/orgstrap.git")
                (commit
-                 "dbcc35f0dc854dfd4412ca4aa9c5894a2ccb0321")))
+                 "bc981b957967be8d872c08be9ba7f2dbde5caf1d")))
         (sha256
           (base32
-            "0611zcfkp4min1ixal93qfvbm03w56ydb9hl086vss36ramdiyng"))))
+            "1gn9bs5fxrshyyi7wqm30p2d4izjdrspvh5cx8fs803mxl593wim"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("orgstrap.el")))
     (home-page "https://github.com/tgbugs/orgstrap")
@@ -83716,8 +82171,7 @@
           (base32
             "0ycjbsn03cjzx6adabcvi1j7f92yhx3xjzj3xc68m1hw9r2f2gzf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://github.com/gregsexton/origami.el")
     (synopsis "Flexible text folding")
@@ -83740,8 +82194,7 @@
           (base32
             "0lsr356yq0414fn6wy54fryx9k3zl43x9blnvlif5vbghf0r1axg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-origami" ,emacs-origami)))
+    (propagated-inputs (list emacs-origami))
     (home-page
       "https://github.com/alvarogonzalezsotillo/origami-predef")
     (synopsis
@@ -83765,8 +82218,7 @@
           (base32
             "1bs6c6059g585dwsd4ldl49v38l6jlr54z9rj9qhc1a1gg6pzb3b"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/vyorkin/ormolu.el")
     (synopsis
@@ -83840,7 +82292,7 @@
           (base32
             "03y0c3yfaqlw4m1k5aya32s8bxmqs3h8lii04pkg7mcw09iyqzn8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-osa" ,emacs-osa)))
+    (propagated-inputs (list emacs-osa))
     (arguments
       '(#:files (:defaults ("scripts" "scripts/*.js"))))
     (home-page
@@ -83866,8 +82318,7 @@
             "1iybrhp607a5rb3ynlaf8w2x9wdgdbril702z44dgcg3wxih2zy1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-string-utils" ,emacs-string-utils)
-        ("emacs-browse-url-dwim" ,emacs-browse-url-dwim)))
+      (list emacs-string-utils emacs-browse-url-dwim))
     (home-page
       "http://github.com/rolandwalker/osx-browse")
     (synopsis "Web browsing helpers for OS X")
@@ -84100,8 +82551,7 @@
           (base32
             "1pry1xw2p01b18ks5n0xs895qqqci7v2nrwjiil2vr3m1ys92ymc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)))
+    (propagated-inputs (list emacs-async))
     (home-page
       "https://github.com/xuchunyang/other-emacs-eval")
     (synopsis
@@ -84257,8 +82707,7 @@
           (base32
             "11r6advraz5rkrxr25mj0wpfgzxcvn5gzppsc7ma51zqfmijg7dk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-outorg" ,emacs-outorg)))
+    (propagated-inputs (list emacs-outorg))
     (home-page
       "https://github.com/alphapapa/outshine")
     (synopsis
@@ -84327,9 +82776,7 @@
             "0q4ai7ividy8xv09s342y49s97ismhfdfsjk70zif60fp0ajfzfn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-pkg-info" ,emacs-pkg-info)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-dash emacs-pkg-info emacs-f))
     (home-page
       "http://www.github.com/tonini/overseer.el")
     (synopsis "Ert-runner Integration Into Emacs")
@@ -84398,9 +82845,9 @@
             "1lxvcbpzpzs3vkgg4pif3k89ddmj5mamk2q18wc3gx0czs6v301d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-smartrep" ,emacs-smartrep)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-smartrep
+            emacs-log4e
+            emacs-yaxception))
     (home-page "https://github.com/aki2o/owdriver")
     (synopsis
       "Quickly perform various actions on other windows")
@@ -84423,8 +82870,7 @@
           (base32
             "1qglbfdc6526aqsba93ngw1a6hp19lqx1wlxzzy9yvggbb02mii2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-750words" ,emacs-750words)))
+    (propagated-inputs (list emacs-750words))
     (arguments '(#:files ("ox-750words.el")))
     (home-page
       "https://github.com/zzamboni/750words-client")
@@ -84518,8 +82964,7 @@
           (base32
             "14z5pghli7d3rkq3xmbjpssskx3zgwqwypb59wcprkyw8pl66rfp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-htmlize" ,emacs-htmlize)))
+    (propagated-inputs (list emacs-htmlize))
     (home-page "https://github.com/jkitchin/ox-clip")
     (synopsis
       "Cross-platform formatted copying for org-mode")
@@ -84647,10 +83092,10 @@
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "7ebc8487cfcb780b170d1fdad60044308f0cf8ca")))
+                 "60c4b74ff1eabeacff4802d59a9cea546183af69")))
         (sha256
           (base32
-            "0d9qcz8gc03d6vdg3qjyjgpg51kp1mv3kzc80dwnx1lfkyvqawlp"))))
+            "1rdbj86lj5a75max4mdxgx08fgz8p7idbi4c7a3ixq5n62811x08"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -84698,9 +83143,7 @@
           (base32
             "05d1bykgj454g0vq2k2sd36pd9hmcwr9a8033dagkqc625h7wj4h"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-makey" ,emacs-makey)))
+    (propagated-inputs (list emacs-f emacs-makey))
     (arguments
       '(#:files (:defaults "js" "theme" "images")))
     (home-page
@@ -84769,7 +83212,7 @@
           (base32
             "1h5930953nnddg7ysr87m5r6gm517zbfi7jbc77hmrywgibqvpik"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "https://github.com/jlumpe/ox-json")
     (synopsis "JSON export backend for Org mode")
     (description
@@ -84813,9 +83256,7 @@
           (base32
             "0yxzhgjkipy632jhw83l8cz5s7727m87sj6ldpzdh57w1abklidq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ox-gfm" ,emacs-ox-gfm)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-ox-gfm emacs-s))
     (home-page
       "https://gitlab.com/zzamboni/ox-leanpub")
     (synopsis
@@ -84839,8 +83280,7 @@
           (base32
             "1vhfyfdc83js33sm498fm3wmn80wmqnvn5dkabhdbk5gd9a9zdis"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ox-hugo" ,emacs-ox-hugo)))
+    (propagated-inputs (list emacs-ox-hugo))
     (home-page
       "https://github.com/WolfeCub/ox-mdx-deck/")
     (synopsis "org-mode to mdx-deck exporter")
@@ -84863,7 +83303,7 @@
           (base32
             "0dsq86hli24imdkgsf45asx23kriw9di3d0cf5z8axfpkcbkn770"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/tomalexander/orgmode-mediawiki")
     (synopsis
@@ -84910,8 +83350,7 @@
           (base32
             "0cc14p6c3d4djfmrkac0abb2jq128vlmayv2a8cyvnyjffyvjbk7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ox-rst" ,emacs-ox-rst)))
+    (propagated-inputs (list emacs-ox-rst))
     (home-page
       "https://github.com/masayuko/ox-nikola")
     (synopsis
@@ -84935,9 +83374,7 @@
           (base32
             "1d8ymkxgfz5z3nrxaad90q4xdc8vj0vqyv9rwv2fhyx9gl72xhg9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-ht" ,emacs-ht)))
+    (propagated-inputs (list emacs-dash emacs-ht))
     (home-page "https://github.com/a-fent/ox-pandoc")
     (synopsis "An Org-mode exporter using pandoc")
     (description
@@ -85005,8 +83442,7 @@
           (base32
             "15jqcwmcpcb8vczzd50jasz46db9667yqcmzd4v4ahnxhvvb2vfb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-org-msg" ,emacs-org-msg)))
+    (propagated-inputs (list emacs-org-msg))
     (home-page
       "https://github.com/DarkBuffalo/ox-report")
     (synopsis
@@ -85091,13 +83527,12 @@
         (uri (git-reference
                (url "https://github.com/titaniumbones/ox-slack.git")
                (commit
-                 "89cedb9da6ea08b78bc1fe77d6a39aa078172c1e")))
+                 "bd797dcc58851d5051dc3516c317706967a44721")))
         (sha256
           (base32
-            "0a97la3hwkb792a26c6byavwzg8gca6s0ccajd7pi9p430ys1i9y"))))
+            "1kh2v08fqmsmfj44ik8pljs3fz47fg9zf6q4mr99c0m5ccj5ck7w"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ox-gfm" ,emacs-ox-gfm)))
+    (propagated-inputs (list emacs-ox-gfm))
     (home-page
       "https://github.com/titaniumbones/ox-slack")
     (synopsis "Slack Exporter for org-mode")
@@ -85347,9 +83782,7 @@
             "0q5k38raqq7ms4wdxqwxhc0pga31wn3v35dc0cv8dr687i9ck0s5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-f emacs-s emacs-dash))
     (home-page
       "https://github.com/LaurenceWarne/ox-yaow.el")
     (synopsis "Generate html pages from org files")
@@ -85576,8 +84009,7 @@
           (base32
             "1ic1a0j8gj930ssc623vi55jflyfw52gb9zkf3yg51w43cw4isfn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-package-lint" ,emacs-package-lint)))
+    (propagated-inputs (list emacs-package-lint))
     (arguments
       '(#:files ("package-lint-flymake.el")))
     (home-page
@@ -85624,7 +84056,7 @@
           (base32
             "1pdv6d6bm5jmpgjqf9ycvzasxz1205zdi0zjrmkr33c03azwz7rd"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-epl" ,emacs-epl)))
+    (propagated-inputs (list emacs-epl))
     (home-page
       "https://github.com/Fanael/package-safe-delete")
     (synopsis "Safely delete package.el packages")
@@ -85647,8 +84079,7 @@
           (base32
             "1gmr3ncr98fb7j3iwig9bbawkpj1f0vmq3nmapwqbaqv6gyy93h1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-restart-emacs" ,emacs-restart-emacs)))
+    (propagated-inputs (list emacs-restart-emacs))
     (home-page
       "https://github.com/Silex/package-utils")
     (synopsis "Extensions for package.el")
@@ -85695,8 +84126,7 @@
           (base32
             "15w7wr3bdqmwg459nl6vyf4ymrhqxk9pvli5q55qyvy905n3281j"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-dash emacs-f))
     (arguments
       '(#:files
         (:defaults
@@ -85815,8 +84245,7 @@
           (base32
             "11msqs8v9wn8sj45dw1fl0ldi3sw33v0xclynbxgmawyabfq3bqm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pager" ,emacs-pager)))
+    (propagated-inputs (list emacs-pager))
     (home-page
       "http://github.com/nflath/pager-default-keybindings")
     (synopsis
@@ -85840,7 +84269,7 @@
           (base32
             "1v4d17hdh3dvb2a4n10gxlr20zal8c7v456wiknkfrpv06d8awap"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/zainab-ali/pair-tree")
     (synopsis "Visualize a list")
@@ -85886,10 +84315,7 @@
             "0j87yq8rycklk8df4rlwx0bp2n94pyhaz4yv8vacbqrzchpa1bb0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-cask" ,emacs-cask)))
+      (list emacs-dash emacs-s emacs-f emacs-cask))
     (arguments '(#:files ("lib/*")))
     (home-page
       "https://github.com/rdallasgray/pallet")
@@ -85915,9 +84341,7 @@
             "0459qqhra9zx9klw89s5hjbka1kdh1nvhl6wc7igfklglzw0d7zs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lispy" ,emacs-lispy)
-        ("emacs-worf" ,emacs-worf)
-        ("emacs-ivy-posframe" ,emacs-ivy-posframe)))
+      (list emacs-lispy emacs-worf emacs-ivy-posframe))
     (arguments '(#:files ("pamparam.el" "doc")))
     (home-page "https://github.com/abo-abo/pamparam")
     (synopsis "Simple and fast flashcards.")
@@ -86005,9 +84429,7 @@
           (base32
             "1zw92bkp5mjzc78vrvsaj3ycqn0j5mqzxxxv2nkb891spgandpvy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-hydra" ,emacs-hydra)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-hydra emacs-dash))
     (home-page
       "http://joostkremers.github.io/pandoc-mode/")
     (synopsis
@@ -86077,8 +84499,7 @@
           (base32
             "03ckcbhpiys3p0jambrlcapba6sv7jn101kikvj2jp66vygdnsn0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-f emacs-s))
     (home-page "http://github.com/atgreen/paperless")
     (synopsis
       "A major mode for sorting and filing PDF documents.")
@@ -86102,8 +84523,7 @@
             "05hwwdhx980jm1y495r8qng029wm02m45mm7w4wxyjhh6385rbzf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-spinner" ,emacs-spinner)
-        ("emacs-hydra" ,emacs-hydra)))
+      (list emacs-spinner emacs-hydra))
     (home-page
       "https://github.com/Malabarba/paradox")
     (synopsis
@@ -86127,8 +84547,7 @@
           (base32
             "13rcajw03sbddks5wgzznvrz7ibd7m0jx8mcw1amfk97ghs57h7s"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-autothemer" ,emacs-autothemer)))
+    (propagated-inputs (list emacs-autothemer))
     (home-page "https://github.com/ajgrf/parchment")
     (synopsis
       "Light theme inspired by Acme and Leuven")
@@ -86172,8 +84591,7 @@
           (base32
             "0qnm020npchrazj6na79ccwjhr7j1gm7n0yksqxzciram1lfggjk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-paredit" ,emacs-paredit)))
+    (propagated-inputs (list emacs-paredit))
     (home-page "unspecified")
     (synopsis
       "Enable some paredit features in non-lisp buffers")
@@ -86196,8 +84614,7 @@
           (base32
             "15xkanrwxh3qqay3vkfqvhzs88g7nnfv9bqk509qflyhqnvc9sxr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-paredit" ,emacs-paredit)))
+    (propagated-inputs (list emacs-paredit))
     (home-page "unspecified")
     (synopsis
       "Adds a menu to paredit.el as memory aid")
@@ -86356,7 +84773,7 @@
           (base32
             "1gykb9h4pq428w135591dj49ikp078jrxv8n2hhvf9ri69q3cdg6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments '(#:files (:defaults "langs/*.el")))
     (home-page
       "https://github.com/jcs-elpa/parse-it")
@@ -86445,8 +84862,7 @@
           (base32
             "1xp2d42yvqkimb7a15bv89bj0124lljw9cb36g49m13d7ny4fafn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-parseclj" ,emacs-parseclj)))
+    (propagated-inputs (list emacs-parseclj))
     (home-page "unspecified")
     (synopsis "Clojure/EDN parser")
     (description
@@ -86492,10 +84908,9 @@
             "0xrdi06m55mzm14fw0ly0xbfyh2g43k3np2fm771nwzdw5kmin4v"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-password-store" ,emacs-password-store)
-        ("emacs-password-store-otp"
-         ,emacs-password-store-otp)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-password-store
+            emacs-password-store-otp
+            emacs-f))
     (home-page "unspecified")
     (synopsis "Major mode for password-store.el")
     (description
@@ -86517,8 +84932,7 @@
           (base32
             "0r2nj2p6kx40lhmsv06xsyylj5b9lqji32rc4ipr1biaai52w2b6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-password-store" ,emacs-password-store)))
+    (propagated-inputs (list emacs-password-store))
     (arguments '(#:files ("lisp/*.el")))
     (home-page "https://github.com/pjones/passmm")
     (synopsis
@@ -86588,8 +85002,7 @@
             "0r5irpzqpglf486zsl78wdwqhkgsqb24xg4zp2isjczs2gl0fi6m"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-with-editor" ,emacs-with-editor)))
+      (list emacs-s emacs-with-editor))
     (arguments '(#:files ("contrib/emacs/*.el")))
     (home-page "https://www.passwordstore.org/")
     (synopsis "Password store (pass) support")
@@ -86613,8 +85026,7 @@
             "1c9lvxi0yf0x3ywciv58zkn9ss6n41305g5rp4l32a33sq51s567"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-password-store" ,emacs-password-store)))
+      (list emacs-s emacs-password-store))
     (home-page
       "https://github.com/volrath/password-store-otp.el")
     (synopsis
@@ -86660,8 +85072,7 @@
           (base32
             "1bf2d0i726psjwnqdp0w4h0qk7fnwcbwf1a66q7p8vczavqygfan"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "unspecified")
     (synopsis
       "paste code on https://paste.ofcode.org")
@@ -86753,8 +85164,7 @@
           (base32
             "0bmm18d84lrkclg4md46k1ma03w7a97s10hrvjcm9yj8xbrjqqsc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/diasbruno/pastery.el")
     (synopsis "paste snippets to pastery.net.")
@@ -86845,8 +85255,7 @@
           (base32
             "1yd5wh8fsxh3v2fgpxm2cd7h9xz9zfj2d8g4bh4gzqjwrmn5rlgl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-paredit" ,emacs-paredit)))
+    (propagated-inputs (list emacs-paredit))
     (arguments '(#:files ("paxedit.el")))
     (home-page
       "https://github.com/promethial/paxedit")
@@ -87022,8 +85431,7 @@
           (base32
             "017fwacc3vqvvxx4mn0a1glcsxccjyfai0rymyf3yfy4rgd7w0p4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-s emacs-f))
     (home-page "unspecified")
     (synopsis "pcomplete for pip")
     (description
@@ -87158,8 +85566,7 @@
           (base32
             "1dv244rxlgb56fzx1d1w9ngdjdrc7bgssshvkrfkxbwy69i803b3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-tablist" ,emacs-tablist)))
+    (propagated-inputs (list emacs-tablist))
     (arguments
       '(#:files
         ("lisp/*.el"
@@ -87190,8 +85597,7 @@
           (base32
             "1b9zzvfsprf7x0v7l4dabdh5qdfhl7mm30vvqah8l10jvlf2wlc7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pdf-tools" ,emacs-pdf-tools)))
+    (propagated-inputs (list emacs-pdf-tools))
     (home-page
       "https://github.com/007kevin/pdf-view-restore")
     (synopsis
@@ -87261,8 +85667,7 @@
           (base32
             "11nv6pll0zj9dkgzlzgav39a6x3sfi7kvfhwm96fa3iy4v8bixrb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-elnode" ,emacs-elnode)))
+    (propagated-inputs (list emacs-elnode))
     (arguments
       '(#:files ("index.html" "peek-mode.el")))
     (home-page
@@ -87310,8 +85715,7 @@
           (base32
             "1vqlz6s57cqhbmxc9733crhb1z91lrhm0xmwfsq3yb30nfdwlyyb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-transmission" ,emacs-transmission)))
+    (propagated-inputs (list emacs-transmission))
     (home-page
       "https://git.sr.ht/~yoctocell/peertube")
     (synopsis "Query and download PeerTube videos")
@@ -87356,7 +85760,7 @@
           (base32
             "0jahf914qmvlk0xjka9dy7n19smndjnybjl26pbgf7lvd8lxzyb0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-csv" ,emacs-csv)))
+    (propagated-inputs (list emacs-csv))
     (home-page
       "https://github.com/sebasmonia/pepita.git")
     (synopsis
@@ -87495,8 +85899,7 @@
             "14p20br8vzxs39d4hswzrrkgwql5nnmn5j17cpbabzjvck42rixc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pcache" ,emacs-pcache)
-        ("emacs-list-utils" ,emacs-list-utils)))
+      (list emacs-pcache emacs-list-utils))
     (home-page
       "http://github.com/rolandwalker/persistent-soft")
     (synopsis
@@ -87521,8 +85924,7 @@
             "0f9ljpmq8b97n6wa8bwn4f2v7imvfxc2pjqk6xjkmwbfpihrns10"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-persp-mode" ,emacs-persp-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-persp-mode emacs-dash))
     (home-page "http://github.com/rocher/persp-fr")
     (synopsis
       "In persp-mode, show perspective list in the GUI window title")
@@ -87568,8 +85970,7 @@
           (base32
             "1fzvz7f86azffyqrqx3jiwj54b739p2adb5yp9cilbfwkkqyff0v"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-persp-mode" ,emacs-persp-mode)))
+    (propagated-inputs (list emacs-persp-mode))
     (home-page
       "https://github.com/CIAvash/persp-mode-project-bridge")
     (synopsis
@@ -87594,8 +85995,7 @@
             "1gyfn2fhx3bqzr9m1r4b8nyak8pmpcgj7yz2bagnjs21vfngr18c"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-persp-mode" ,emacs-persp-mode)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-persp-mode emacs-projectile))
     (home-page
       "https://github.com/Bad-ptr/persp-mode-projectile-bridge.el")
     (synopsis "persp-mode + projectile integration.")
@@ -87619,8 +86019,7 @@
             "0cpf1739cd6ylyaz7pspsmh1dsmvymdqfpypahca0nn169vdrzk9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-perspective" ,emacs-perspective)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-perspective emacs-projectile))
     (home-page "unspecified")
     (synopsis
       "Perspective integration with Projectile")
@@ -87666,8 +86065,7 @@
           (base32
             "12h0kj96s4h8z4kqalp7hccnlnqn5lrax3df75gz16pskx2dwxqr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-powerline" ,emacs-powerline)))
+    (propagated-inputs (list emacs-powerline))
     (home-page "https://github.com/seudut/perspeen")
     (synopsis "An package for multi-workspace")
     (description
@@ -87807,10 +86205,10 @@
             "0cmfb5ns335nq27iw94qxvrldpwjga0hw40da9kpdcfg0in4ya0c"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-projectile" ,emacs-projectile)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-dash
+            emacs-projectile
+            emacs-s
+            emacs-f))
     (home-page
       "https://github.com/ajtulloch/phabricator.el")
     (synopsis
@@ -87834,9 +86232,7 @@
           (base32
             "0xif2hmlfcnhf716964zmzzldxsyhmpp2y40i9l1cxlcliszwscv"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-composer" ,emacs-composer)
-        ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-composer emacs-f))
     (home-page
       "https://github.com/emacs-php/phan.el")
     (synopsis
@@ -87860,8 +86256,7 @@
           (base32
             "0m1n77sq7cr1j6chf13zf4x34qyjycbimfpwk0msq1zc6cqjcm7n"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-paredit" ,emacs-paredit)))
+    (propagated-inputs (list emacs-paredit))
     (home-page "http://zk-phi.gitub.io/")
     (synopsis
       "another simple-minded autopair implementation")
@@ -87951,8 +86346,7 @@
           (base32
             "0ivb7d33qajccvs1sz4fc3h031qkqmz8w93k6di47qyfzd4vrvjm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-phi-search" ,emacs-phi-search)))
+    (propagated-inputs (list emacs-phi-search))
     (home-page "http://hins11.yu-yake.com/")
     (synopsis
       "interactive filtering for dired powered by phi-search")
@@ -87976,9 +86370,7 @@
             "0wr86ad0yl52im6b9z0b9pzmhcn39qg5m9878yfv1nbxliw40lcd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-phi-search" ,emacs-phi-search)
-        ("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)))
+      (list emacs-phi-search emacs-multiple-cursors))
     (home-page
       "https://github.com/knu/phi-search-mc.el")
     (synopsis
@@ -88003,8 +86395,7 @@
             "07pi72jnd6k5xj9ypmxa0pbb03r07safpgf8vlp1m0xda5ixl0wf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-phi-search" ,emacs-phi-search)
-        ("emacs-migemo" ,emacs-migemo)))
+      (list emacs-phi-search emacs-migemo))
     (home-page "http://hins11.yu-yake.com/")
     (synopsis "migemo extension for phi-search")
     (description
@@ -88094,8 +86485,7 @@
             "1wk7vq80v97psxfg0pwy4mc6kdc61gm6h1vgl9p71ii6g6zvzcqg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-php-boris" ,emacs-php-boris)
-        ("emacs-highlight" ,emacs-highlight)))
+      (list emacs-php-boris emacs-highlight))
     (home-page
       "https://github.com/steckerhalter/php-boris-minor-mode")
     (synopsis
@@ -88231,8 +86621,7 @@
           (base32
             "1c74xd6p3hfanpd4920agvnar9rjbyvz33kwrzw9vywzrs68ncvh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-f emacs-s))
     (home-page
       "https://github.com/emacs-php/php-runtime.el")
     (synopsis "Language binding bridge to PHP")
@@ -88255,9 +86644,7 @@
           (base32
             "084ms50pw90jaqyll0rd3if1kb0i8hfrdrg72vss44cg83rq58vj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-php-mode" ,emacs-php-mode)))
+    (propagated-inputs (list emacs-s emacs-php-mode))
     (home-page
       "https://github.com/mallt/php-scratch")
     (synopsis
@@ -88282,10 +86669,10 @@
             "0hm96i9vdbkcq6mypjpl94dn3gzyk23iql5zzy2d221vmjhqvn7d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-f" ,emacs-f)
-        ("emacs-php-runtime" ,emacs-php-runtime)
-        ("emacs-composer" ,emacs-composer)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-f
+            emacs-php-runtime
+            emacs-composer
+            emacs-async))
     (arguments
       '(#:files
         ("phpactor.el" "composer.json" "composer.lock")))
@@ -88311,8 +86698,7 @@
           (base32
             "1xm5i658pf1lb4bfpy6zy5msanhia8r9j7v7rx72amkksja3hwnj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-php-mode" ,emacs-php-mode)))
+    (propagated-inputs (list emacs-php-mode))
     (arguments '(#:files ("phpstan.el")))
     (home-page
       "https://github.com/emacs-php/phpstan.el")
@@ -88337,8 +86723,7 @@
             "0wv1q44f5hmpsrjvjb5y8c1gnjkazdghmgbzw6l30i3j3z36fy60"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)
-        ("emacs-php-mode" ,emacs-php-mode)))
+      (list emacs-polymode emacs-php-mode))
     (home-page
       "https://github.com/emacs-php/phpt-mode")
     (synopsis
@@ -88363,9 +86748,7 @@
             "1silbfmv85r73pbc7f5cm4znc6644ngihfnhibk1fgp9j0rf7ahc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-pkg-info" ,emacs-pkg-info)))
+      (list emacs-s emacs-f emacs-pkg-info))
     (home-page
       "https://github.com/nlamirault/phpunit.el")
     (synopsis "Launch PHP unit tests using phpunit")
@@ -88477,8 +86860,7 @@
           (base32
             "1vwnybyrzk8nw2cs27yrsipxb6hmx7cs5d60yf00h0wiv3l6v3rr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments
       '(#:files ("pig-snippets*.el" "snippets")))
     (home-page "https://github.com/motus/pig-mode")
@@ -88525,8 +86907,7 @@
           (base32
             "19i8hgzr7kdj4skf0cnv6vlsklq9qcyxcv3p33k9vgq7y4f9mah8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-makey" ,emacs-makey)))
+    (propagated-inputs (list emacs-makey))
     (home-page
       "http://github.com/DamienCassou/pillar-mode")
     (synopsis "Major mode for editing Pillar files")
@@ -88594,7 +86975,7 @@
           (base32
             "1msvb5r6ixd886plpbss62q2nwrrsb6271bi922vlhr817lhsain"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-loop" ,emacs-loop)))
+    (propagated-inputs (list emacs-loop))
     (home-page
       "https://github.com/asimpson/pinboard-popular")
     (synopsis
@@ -88688,8 +87069,7 @@
           (base32
             "0bp4raxqv34jyg3yvdcsh9lav28x376gngm9nn8vjgmq9wggzf3i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pinyinlib" ,emacs-pinyinlib)))
+    (propagated-inputs (list emacs-pinyinlib))
     (home-page
       "https://github.com/xuchunyang/pinyin-search.el")
     (synopsis "Search Chinese by Pinyin")
@@ -88734,7 +87114,7 @@
           (base32
             "0da3q0n5nn0l96kk49kanw5knx3jmga439zbmiii76na16bg5y3i"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis
       "A major mode for editing pip requirements files.")
@@ -88757,9 +87137,7 @@
           (base32
             "0l81vbwp7gmcg1n7i8cwa01rpwc24db7gxqvmhln8piy1r2ymh6x"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-pyvenv" ,emacs-pyvenv)))
+    (propagated-inputs (list emacs-s emacs-pyvenv))
     (home-page "https://github.com/pwalsh/pipenv.el")
     (synopsis "A Pipenv porcelain")
     (description
@@ -88781,8 +87159,7 @@
           (base32
             "1agnag5n516966np9027zjvpyr27nrawh1l0l6hmy6hy8hb1jwpq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files (:defaults "pippel.py")))
     (home-page "https://github.com/arifer612/pippel")
     (synopsis
@@ -88807,8 +87184,7 @@
             "11c5gv88chh7sg2i0rzisbad0mkq1zc7dyi5md8hdi5gqm68704g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-clojure-mode" ,emacs-clojure-mode)
-        ("emacs-inf-clojure" ,emacs-inf-clojure)))
+      (list emacs-clojure-mode emacs-inf-clojure))
     (home-page
       "https://github.com/johnwalker/pixie-mode")
     (synopsis "Major mode for Pixie-lang")
@@ -88852,7 +87228,7 @@
           (base32
             "150xhsv695cchs5jc2hwk9gjgs0k8wkm966crvxxs6xvj5fg69xq"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-epl" ,emacs-epl)))
+    (propagated-inputs (list emacs-epl))
     (home-page
       "https://github.com/lunaryorn/pkg-info.el")
     (synopsis "Information about packages")
@@ -88922,7 +87298,7 @@
           (base32
             "02nv0rsky418zd69icxbim1xw66n8rs586i0lnl1nczjdx8vcmr9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (home-page
       "https://github.com/abo-abo/plain-org-wiki")
     (synopsis
@@ -88991,7 +87367,7 @@
           (base32
             "1hx1mdbb25hggg4kwga97m3wysm0yj11hnnycmbwa85c9rn96jzv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://gitlab.com/mtekman/planemo-mode.el")
     (synopsis
@@ -89038,7 +87414,7 @@
           (base32
             "0rbmn2964w9kms6ql25dzpnyygj693123xs7gxasylgw5jall9wx"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis "Major mode for PlantUML")
     (description
@@ -89084,8 +87460,7 @@
             "1m6qmqp124idja9dq8gj8pzajxf40lm1adrnd24hbp26wh9pvc54"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-async emacs-projectile))
     (home-page
       "https://github.com/zachmassia/platformio-mode")
     (synopsis "PlatformIO integration")
@@ -89109,8 +87484,7 @@
             "15gqr11paz5qmx43qb0f95wc87nn2snr7my22b0n6jwbk5djf402"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash emacs-request))
     (home-page
       "https://github.com/veelenga/play-crystal.el")
     (synopsis
@@ -89203,8 +87577,7 @@
             "0vkgzqdcxp4mlkz9z8p4307lbvjz51wpqhzpmyw4gwl079xc6gkq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash emacs-request))
     (home-page
       "https://github.com/twlz0ne/playonline.el")
     (synopsis "Play code with online playgrounds")
@@ -89295,9 +87668,9 @@
             "1r2yxa7gqr0z9fwhx38siwjpg73a93rdmnhr4h6nm6lr32vviyxm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-auto-complete
+            emacs-log4e
+            emacs-yaxception))
     (home-page
       "https://github.com/aki2o/emacs-plsense")
     (synopsis
@@ -89322,10 +87695,10 @@
             "0s34nbqqy6aqi113xj452pbmqp43046wfbfbbfv1xwhybgq0c1j1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-direx" ,emacs-direx)
-        ("emacs-plsense" ,emacs-plsense)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-direx
+            emacs-plsense
+            emacs-log4e
+            emacs-yaxception))
     (home-page
       "https://github.com/aki2o/plsense-direx")
     (synopsis "Perl Package Explorer")
@@ -89435,8 +87808,7 @@
           (base32
             "0k6a9zzdi02g677cc699llk04i06yb7ddnlnmxndap5jszfyqwfi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/lujun9972/pocket-api.el")
     (synopsis "another pocket api")
@@ -89460,10 +87832,7 @@
             "0iv03wjwmz0di8n5bndmq5r18r1pq999v1scyay0jm1cxlksqafg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-kv" ,emacs-kv)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-request emacs-dash emacs-kv emacs-s))
     (home-page
       "https://github.com/alphapapa/pocket-lib.el")
     (synopsis
@@ -89487,8 +87856,7 @@
           (base32
             "0j3axac4lp7p00a7mf7frryqg1y3jwqaw0s475gz606642vg9l45"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pocket-api" ,emacs-pocket-api)))
+    (propagated-inputs (list emacs-pocket-api))
     (home-page "unspecified")
     (synopsis "Manage your pocket")
     (description
@@ -89511,15 +87879,14 @@
             "00ik1lgz9gzpx6701z26y0m064gf574ir4hjf1b2a052917gi97a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-kv" ,emacs-kv)
-        ("emacs-pocket-lib" ,emacs-pocket-lib)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ov" ,emacs-ov)
-        ("emacs-rainbow-identifiers"
-         ,emacs-rainbow-identifiers)
-        ("emacs-org-web-tools" ,emacs-org-web-tools)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-dash
+            emacs-kv
+            emacs-pocket-lib
+            emacs-s
+            emacs-ov
+            emacs-rainbow-identifiers
+            emacs-org-web-tools
+            emacs-ht))
     (home-page
       "https://github.com/alphapapa/pocket-reader.el")
     (synopsis "Client for Pocket reading list")
@@ -89587,8 +87954,7 @@
           (base32
             "1p8x7g3hg6yw51c67kznvldrvwnp67l9b6drnmck8glwx0nxb6zr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "https://github.com/wailo/emacs-poet")
     (synopsis "Client for po.et network api")
     (description
@@ -89632,8 +87998,7 @@
             "1zk5ps9ax456400aa16hcjygpzq4mlhdnhv1d31yy4agqjql927h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)
-        ("emacs-pyvenv" ,emacs-pyvenv)))
+      (list emacs-transient emacs-pyvenv))
     (home-page
       "https://github.com/galaunay/poetry.el")
     (synopsis "Interface to Poetry")
@@ -89748,11 +88113,11 @@
             "0f0yq6gmkp194nxk90ipprglf1xkmxrgz1rkgrhfslvxq4q2l81h"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ansible" ,emacs-ansible)
-        ("emacs-ansible-doc" ,emacs-ansible-doc)
-        ("emacs-jinja2-mode" ,emacs-jinja2-mode)
-        ("emacs-polymode" ,emacs-polymode)
-        ("emacs-yaml-mode" ,emacs-yaml-mode)))
+      (list emacs-ansible
+            emacs-ansible-doc
+            emacs-jinja2-mode
+            emacs-polymode
+            emacs-yaml-mode))
     (home-page
       "https://gitlab.com/mavit/poly-ansible/")
     (synopsis "Polymode for Ansible: Jinja2 in YAML")
@@ -89775,8 +88140,7 @@
           (base32
             "118x9qrays54n6ksnln51ps5c298zs8ih7k49mn6aq6lpvwy5wjr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)))
+    (propagated-inputs (list emacs-polymode))
     (home-page
       "https://github.com/polymode/poly-erb")
     (synopsis "Polymode for erb")
@@ -89800,8 +88164,7 @@
             "02jpak60jl6nrz5zkkc0cw5i95vl4h6g31qvgb3qsidimav305n6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)))
+      (list emacs-polymode emacs-markdown-mode))
     (home-page
       "https://github.com/polymode/poly-markdown")
     (synopsis "Polymode for markdown-mode")
@@ -89824,8 +88187,7 @@
           (base32
             "1jl5h4nf10xd2gdlsxi6h2n3z5zh26ffcixn68xfp5q4zl34zk8p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)))
+    (propagated-inputs (list emacs-polymode))
     (home-page
       "https://github.com/polymode/poly-noweb")
     (synopsis "Polymode for noweb")
@@ -89848,8 +88210,7 @@
           (base32
             "011nacpyxc969qyvbzwhz0hr3bcbkjiwlaqa27sb4hffnl4p1py9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)))
+    (propagated-inputs (list emacs-polymode))
     (home-page
       "https://github.com/polymode/poly-org")
     (synopsis "Polymode for org-mode")
@@ -89873,9 +88234,9 @@
             "19s99k0madr5yp9v523yj1990fmark09vixn31lzfmghi8nmdmck"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)
-        ("emacs-poly-markdown" ,emacs-poly-markdown)
-        ("emacs-poly-noweb" ,emacs-poly-noweb)))
+      (list emacs-polymode
+            emacs-poly-markdown
+            emacs-poly-noweb))
     (home-page "https://github.com/polymode/poly-R")
     (synopsis "Various polymodes for R language")
     (description
@@ -89897,8 +88258,7 @@
           (base32
             "1jhj1hrb998p9n6bjfdnmsinf0rd5wspm9gwsrdb0k6il897h7lf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)))
+    (propagated-inputs (list emacs-polymode))
     (home-page
       "https://github.com/polymode/poly-rst")
     (synopsis "poly-rst-mode polymode")
@@ -89921,8 +88281,7 @@
           (base32
             "1ffm81hg1gah7hb9x556hda5g4j3gk4c986q9gaacvfizqak3gyy"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)))
+    (propagated-inputs (list emacs-polymode))
     (home-page "https://github.com/knu/poly-ruby.el")
     (synopsis "Provides poly-ruby-mode")
     (description
@@ -89945,8 +88304,7 @@
             "1742wlx07khra7xfbd6f8d3i030w87mncnyx6kf6im10khf8qwmb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)
-        ("emacs-slim-mode" ,emacs-slim-mode)))
+      (list emacs-polymode emacs-slim-mode))
     (home-page
       "https://github.com/polymode/poly-slim")
     (synopsis "Polymodes for slim")
@@ -89970,8 +88328,7 @@
             "0bihvkkq4v7wadwbsrgi7a0zmhqn2lp76pnq7vwwsvs1rm36pbvy"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-polymode" ,emacs-polymode)
-        ("emacs-wdl-mode" ,emacs-wdl-mode)))
+      (list emacs-polymode emacs-wdl-mode))
     (home-page
       "https://github.com/jmonlong/poly-wdl")
     (synopsis "Polymode for WDL")
@@ -89995,8 +88352,7 @@
             "101ymzis94sdlhk173my108g2s3fpi4ibc514isizfxvb4cn9gs9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-sesman" ,emacs-sesman)))
+      (list emacs-dash emacs-sesman))
     (home-page
       "https://github.com/markgdawson/polybar-sesman.el")
     (synopsis
@@ -90043,9 +88399,7 @@
           (base32
             "1h94dgjcbpd6vr1wgvajx7d0ikz5jl4zdmxjgqzff0cg2vqin3r6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-alert emacs-dash))
     (arguments
       '(#:files
         (:defaults "tick.wav" "tack.wav" "overwork.wav")))
@@ -90071,8 +88425,7 @@
             "1i3rimbyw7bkjdifwmzhf56alkhhhvblkjrxpgbnjmbg26xd6zdd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-alert emacs-transient))
     (arguments '(#:files (:defaults "resources")))
     (home-page
       "https://github.com/SqrtMinusOne/pomm.el")
@@ -90143,8 +88496,7 @@
           (base32
             "1g11w52bf724zwwsvrcylk3ndjci2cnbzing77c91psz6d7zjkvw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page
       "https://github.com/seantallen/pony-snippets")
@@ -90169,16 +88521,14 @@
             "1iv04dj2nc9cyyslhir7aj5sligwan1yyclsiarn86lik7b9lmwn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-hl-todo" ,emacs-hl-todo)
-        ("emacs-yafolding" ,emacs-yafolding)
-        ("emacs-yasnippet" ,emacs-yasnippet)
-        ("emacs-company-ctags" ,emacs-company-ctags)
-        ("emacs-rainbow-delimiters"
-         ,emacs-rainbow-delimiters)
-        ("emacs-fill-column-indicator"
-         ,emacs-fill-column-indicator)))
+      (list emacs-dash
+            emacs-hydra
+            emacs-hl-todo
+            emacs-yafolding
+            emacs-yasnippet
+            emacs-company-ctags
+            emacs-rainbow-delimiters
+            emacs-fill-column-indicator))
     (home-page
       "https://github.com/ponylang/ponylang-mode")
     (synopsis
@@ -90203,8 +88553,7 @@
             "01bwfswzzrjxrjaqysaqnav7h3swwyigxw7nj0cgrm3w8cp1y2a8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-log4e emacs-yaxception))
     (home-page
       "https://github.com/aki2o/emacs-pophint")
     (synopsis
@@ -90295,8 +88644,7 @@
           (base32
             "1q9zajv6g7mi6k98kzq3498nhmdkp1z9d2b8vgzbk7745d39gm9b"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page
       "https://github.com/syohex/emacs-popup-complete")
     (synopsis "completion with popup")
@@ -90341,9 +88689,7 @@
             "0q081lw6zqzpbmscpk1yzyfpalr9ld5qwh962dwwy04rc5f0aq3s"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-flx-ido" ,emacs-flx-ido)))
+      (list emacs-dash emacs-popup emacs-flx-ido))
     (home-page
       "https://github.com/ancane/popup-imenu")
     (synopsis "imenu index popup")
@@ -90367,8 +88713,7 @@
             "1zdwlmk3vr0mq0dxrnkqjncalnbmvpxc0lma2sv3a4czl8yv0inn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-pos-tip" ,emacs-pos-tip)))
+      (list emacs-popup emacs-pos-tip))
     (home-page
       "https://github.com/waymondo/popup-kill-ring")
     (synopsis
@@ -90392,9 +88737,7 @@
           (base32
             "14a43iv6sr52dh1qqcz58qinx20dxkrfznb7lvh35bihjj819m51"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-popup emacs-dash))
     (home-page
       "https://github.com/kostafey/popup-switcher")
     (synopsis
@@ -90441,8 +88784,7 @@
             "1pm4x74pw67m2izr9dir201dn5g9icgk6h2j8rqvasgx8v8krv3i"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-concurrent" ,emacs-concurrent)
-        ("emacs-ctable" ,emacs-ctable)))
+      (list emacs-concurrent emacs-ctable))
     (home-page
       "https://github.com/kiwanami/emacs-portage-navi")
     (synopsis "portage viewer")
@@ -90466,9 +88808,9 @@
             "0kaf00924jg50l2zdhyf1lxsh44nfp4zbc23wxbir45xdx9rzl3z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-web-server" ,emacs-web-server)
-        ("emacs-f" ,emacs-f)
-        ("emacs-json-rpc-server" ,emacs-json-rpc-server)))
+      (list emacs-web-server
+            emacs-f
+            emacs-json-rpc-server))
     (home-page "https://github.com/jcaw/porthole")
     (synopsis "RPC Servers in Emacs")
     (description
@@ -90644,8 +88986,7 @@
             "1hs9jvl5lmfwr9k6qcnxjhd61zsmzq53ania1w5616gqa4qnjzhn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-powerline" ,emacs-powerline)))
+      (list emacs-evil emacs-powerline))
     (home-page
       "http://github.com/johnson-christopher/powerline-evil/")
     (synopsis
@@ -90691,9 +89032,7 @@
           (base32
             "134m24v9xxnnsr180sx9li938jn5lx7kny2095fpl90qgpn3jd5q"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-request emacs-s))
     (home-page
       "http://github.com/SavchenkoValeriy/emacs-powerthesaurus")
     (synopsis "Powerthesaurus integration")
@@ -90717,9 +89056,8 @@
             "08ff4l6vlyzqpy6cv9wc714h3ia8cwy5gc3qk5zml1yijv8xvb75"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-sr-speedbar" ,emacs-sr-speedbar)
-        ("emacs-project-persist-drawer"
-         ,emacs-project-persist-drawer)))
+      (list emacs-sr-speedbar
+            emacs-project-persist-drawer))
     (arguments '(#:files ("lib/*")))
     (home-page
       "https://github.com/rdallasgrayppd-sr-speedbar")
@@ -90744,7 +89082,7 @@
           (base32
             "01c82h5j7yggsbhbrlbcwl562mpd79c0i878129r4ivvhka3nha3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-leaf" ,emacs-leaf)))
+    (propagated-inputs (list emacs-leaf))
     (home-page "https://github.com/conao3/ppp.el")
     (synopsis
       "Extended pretty printer for Emacs Lisp")
@@ -90768,10 +89106,10 @@
             "07f98c2d9wszlxj6gvrnnb60krbgf55wahg1d16p2mwqczgdl7cp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-magit-section" ,emacs-magit-section)
-        ("emacs-magit" ,emacs-magit)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-ghub" ,emacs-ghub)))
+      (list emacs-magit-section
+            emacs-magit
+            emacs-markdown-mode
+            emacs-ghub))
     (arguments '(#:files (:defaults "graphql")))
     (home-page
       "https://github.com/blahgeek/emacs-pr-review")
@@ -90909,9 +89247,7 @@
           (base32
             "1xf0a12arfjs8hhd9kl5xqrdlkfhjn70zf8nsfc8ags60ha4qgvk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-iter2" ,emacs-iter2)
-        ("emacs-nvm" ,emacs-nvm)))
+    (propagated-inputs (list emacs-iter2 emacs-nvm))
     (arguments
       '(#:files (:defaults "*.js" "*.base64")))
     (home-page
@@ -90976,13 +89312,12 @@
         (uri (git-reference
                (url "https://gitee.com/shaqxu/prettify-math.git")
                (commit
-                 "b766824d60e95720e28917b648e4957d7923370b")))
+                 "e1925aa3419b1b4d5670040fcc8543382489507f")))
         (sha256
           (base32
-            "0rq75pzbklgk0bq6ah7xrsb2czq1vryfvavvi81iqpp89nik2nrh"))))
+            "0vnwncr3vvckg7mk9z5zfr2pphzid5lbv32jah1ii2cmjcksdhwg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (arguments
       '(#:files (:defaults "mathjax-jsonrpc.js")))
     (home-page
@@ -91008,9 +89343,7 @@
             "1yw9xdyqbf285ljsspg8ajjx1bp1g27xpg85p84fsh88nr015rh5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-hydra" ,emacs-hydra)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-hydra emacs-s emacs-dash))
     (arguments '(#:files ("pretty-hydra.el")))
     (home-page
       "https://github.com/jerrypnz/major-mode-hydra.el")
@@ -91102,7 +89435,7 @@
           (base32
             "1h5fca47kinwr5qy58nh0bqn259vcj540013wb7kwki6ab33l809"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/alphapapa/prism.el")
     (synopsis
@@ -91126,7 +89459,7 @@
           (base32
             "0zng64f5vwnpkf9fk59yv1ndc646q608a6awr1y9qk0mhzbfzhqm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-aes" ,emacs-aes)))
+    (propagated-inputs (list emacs-aes))
     (home-page "https://github.com/cheunghy/private")
     (synopsis
       "take care of your private configuration files.")
@@ -91239,8 +89572,7 @@
           (base32
             "1fv74k37yyrh6jzasgqj88lrbq152gs9gpbjpxn7fz424c38gq2q"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments
       '(#:files ("processing-snippets.el" "snippets")))
     (home-page
@@ -91266,9 +89598,7 @@
             "15rshpq0h5i252xamxh70acdz9jddn5xwgswzk5h2b24kxsbfnli"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-s emacs-dash emacs-f))
     (home-page "http://github.com/rejeep/prodigy.el")
     (synopsis
       "Manage external services from within Emacs")
@@ -91404,8 +89734,7 @@
             "04l4m3kxbwvyw9xy6cwakrdxxdswrrs7sya8zn6m738aawbr1mcd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-es-lib" ,emacs-es-lib)
-        ("emacs-es-windows" ,emacs-es-windows)))
+      (list emacs-es-lib emacs-es-windows))
     (home-page
       "https://github.com/sabof/project-explorer")
     (synopsis "A project explorer sidebar")
@@ -91475,8 +89804,7 @@
           (base32
             "1nq320ph8fs9a197ji4mnw2xa24dld0r1nka476yvkg4azmcc9x8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-project-persist" ,emacs-project-persist)))
+    (propagated-inputs (list emacs-project-persist))
     (arguments '(#:files ("lib/*")))
     (home-page
       "https://github.com/rdallasgray/project-persist-drawer.git")
@@ -91565,10 +89893,10 @@
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "a0858c3079f26b564281f3a51c0ac533bc6e961b")))
+                 "2bb7ec28b1275bbce7cac743ee9e7b2cf41c5bbd")))
         (sha256
           (base32
-            "128s4axm5ip6bbarl1xmsd7rdgqkyb82dwm7kri5q513fdzylfdp"))))
+            "1m1d5p87k09wxs2pbia37s9c4ik60vj094xnkxnr3vwyvs5d0a17"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -91595,8 +89923,7 @@
             "1xdkm1f04z1h3ivd6zm8hckf3n3fbi5rwybg4dwi5mim6w84i7j9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-codesearch" ,emacs-codesearch)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-codesearch emacs-projectile))
     (arguments
       '(#:files ("projectile-codesearch.el")))
     (home-page
@@ -91622,8 +89949,7 @@
           (base32
             "18z8ik1wgrs57j52pjc7pq1z09c5xz0mxwjz0w37fk0iyhirchd4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)))
+    (propagated-inputs (list emacs-projectile))
     (home-page
       "https://github.com/andrmuel/projectile-git-autofetch")
     (synopsis "automatically fetch git repositories")
@@ -91647,12 +89973,12 @@
             "1m1n1rvna9qhq3dl4sd90lnkzvk7vaz2832r3zhfyg6l5d7dybh6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-inflections" ,emacs-inflections)
-        ("emacs-inf-ruby" ,emacs-inf-ruby)
-        ("emacs-f" ,emacs-f)
-        ("emacs-rake" ,emacs-rake)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-projectile
+            emacs-inflections
+            emacs-inf-ruby
+            emacs-f
+            emacs-rake
+            emacs-dash))
     (home-page
       "https://github.com/asok/projectile-rails")
     (synopsis
@@ -91677,8 +90003,7 @@
             "0snn12iibz5frsx6yk6c31hb8knvsd568ghw9jjka5vxdjzap7p9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ripgrep" ,emacs-ripgrep)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-ripgrep emacs-projectile))
     (arguments '(#:files ("projectile-ripgrep.el")))
     (home-page
       "https://github.com/nlamirault/ripgrep.el")
@@ -91703,8 +90028,7 @@
             "0ln87nhq2vhsb0ywn7rp0b3hzms5z7l6cv6dng08yly12r2957if"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-sift" ,emacs-sift)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-sift emacs-projectile))
     (arguments '(#:files ("projectile-sift.el")))
     (home-page
       "https://github.com/nlamirault/sift.el")
@@ -91729,8 +90053,7 @@
             "1byk8ylm6c922jsaa8lg8wk17qjnhh7p26lp2h0nbl7qdz928ss8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-sr-speedbar" ,emacs-sr-speedbar)))
+      (list emacs-projectile emacs-sr-speedbar))
     (home-page
       "https://github.com/anshulverma/projectile-speedbar")
     (synopsis "projectile integration for speedbar")
@@ -91754,11 +90077,11 @@
             "1njs2aps4mlbnnfjkfwrb8vy8lg6lyxzxkxpscv91la7yf3wpc3g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-inflections" ,emacs-inflections)
-        ("emacs-inf-ruby" ,emacs-inf-ruby)
-        ("emacs-f" ,emacs-f)
-        ("emacs-rake" ,emacs-rake)))
+      (list emacs-projectile
+            emacs-inflections
+            emacs-inf-ruby
+            emacs-f
+            emacs-rake))
     (home-page
       "https://github.com/micdahl/projectile-trailblazer")
     (synopsis
@@ -91804,8 +90127,7 @@
           (base32
             "0psmb4bsnm9wws8g3v2n78hkih6b80lzbv5v52640v94w74hfdp5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)))
+    (propagated-inputs (list emacs-alert))
     (home-page
       "https://github.com/waymondo/projector.el")
     (synopsis
@@ -91851,8 +90173,7 @@
             "0las0xl4af6sn5pbllq16abw2hj1kswwpkyi6lf31sbwr5wnq4qb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-indicators" ,emacs-indicators)))
+      (list emacs-dash emacs-indicators))
     (arguments '(#:files ("src/*.el")))
     (home-page "unspecified")
     (synopsis
@@ -91920,7 +90241,7 @@
           (base32
             "10y8x54p64zs1jlq4nf1kixpb42078n2gdf9s62b1siyb1vhl581"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/guiltydolphin/prompts.el")
     (synopsis
@@ -92072,7 +90393,7 @@
           (base32
             "1m8zvrv5aws7b0dffk8y6b5mncdk2c4k90mx69jys10fs0gc5hb3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments
       '(#:files ("prosjekt/*.el" "prosjekt/ext/*.el")))
     (home-page
@@ -92092,10 +90413,10 @@
         (uri (git-reference
                (url "https://github.com/google/protobuf.git")
                (commit
-                 "f2ffe4fbefdb35180038ad41202e3f632710c897")))
+                 "8c29dc2c4d55bb620bfe15ca6b74f8097cbb006d")))
         (sha256
           (base32
-            "1g66xi3nxxfmqhnkfri97f7hk1lrrkxgycgdqaiibjsr5d1yjp8l"))))
+            "1kdk0rq2j06s3pjiwr9lb9d7p7zc91ar14d0szx5f1qyk2n7wrsc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("editors/protobuf-mode.el")))
@@ -92165,8 +90486,7 @@
           (base32
             "0r5qa0i42dkv0qrs2mksjx7w0yl98mdkg18blckk49w2gd8srdjr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-php-mode" ,emacs-php-mode)))
+    (propagated-inputs (list emacs-php-mode))
     (arguments '(#:files ("psalm.el")))
     (home-page
       "https://github.com/emacs-php/psalm.el")
@@ -92191,10 +90511,10 @@
             "0xfw93pdf744h2yswc53qwyawfzkc31rv8dmha3irq7k1nklhq6y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-company" ,emacs-company)
-        ("emacs-s" ,emacs-s)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-dash
+            emacs-company
+            emacs-s
+            emacs-flycheck))
     (home-page
       "https://github.com/purescript-emacs/psc-ide-emacs")
     (synopsis
@@ -92219,8 +90539,7 @@
             "05lpdlpc652sl1kk0wx1bzdzyyyrvllcyfqyksplwaxgzjxy95mp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-purescript-mode" ,emacs-purescript-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-purescript-mode emacs-dash))
     (home-page
       "https://github.com/purescript-emacs/emacs-psci")
     (synopsis "Major mode for purescript repl psci")
@@ -92243,8 +90562,7 @@
           (base32
             "07kf8panrfdvqqzklxkhkjbry1fpsb9c6cijjkzrnj4fjwggbkbp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)))
+    (propagated-inputs (list emacs-async))
     (home-page
       "https://github.com/thierryvolpiatto/psession")
     (synopsis "Persistent save of elisp objects.")
@@ -92268,9 +90586,7 @@
             "1r0aiwdmj0y96faqvbz39wgxw91i9bj6rnwlj3a277pzlhzmyyxl"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-php-runtime" ,emacs-php-runtime)))
+      (list emacs-s emacs-f emacs-php-runtime))
     (home-page "https://github.com/zonuexe/psysh.el")
     (synopsis "PsySH, PHP interactive shell (REPL)")
     (description
@@ -92314,8 +90630,7 @@
           (base32
             "1j6lgb7knnnydyd1jryai8vlr7i5jc2d7l693yyhs79jdypzss4c"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (home-page
       "https://github.com/nbfalcon/ptemplate")
     (synopsis "Project templates")
@@ -92338,8 +90653,7 @@
           (base32
             "17jc7gjawbj7b5v2i2jfxwnjgi023xrr28dyigzv6yw72fzqcnlh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ptemplate" ,emacs-ptemplate)))
+    (propagated-inputs (list emacs-ptemplate))
     (arguments '(#:files ("*.el" "rsc")))
     (home-page
       "https://github.com/nbfalcon/ptemplate-templates")
@@ -92364,10 +90678,10 @@
             "0ylsn36zmrn8mds2z74vbyv7sd4699a4wicg4shrf2gd5bbsi72g"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)
-        ("emacs-esxml" ,emacs-esxml)
-        ("emacs-s" ,emacs-s)
-        ("emacs-unidecode" ,emacs-unidecode)))
+      (list emacs-deferred
+            emacs-esxml
+            emacs-s
+            emacs-unidecode))
     (home-page
       "https://gitlab.com/fvdbeek/emacs-pubmed")
     (synopsis "Interface to PubMed")
@@ -92459,8 +90773,7 @@
             "1viw95y6fha782n1jw7snr7xc00iyf94r4whsm1a2q11vm2d1h21"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-jedi" ,emacs-jedi)
-        ("emacs-pyvenv" ,emacs-pyvenv)))
+      (list emacs-jedi emacs-pyvenv))
     (home-page "unspecified")
     (synopsis
       "Integrates jedi with virtualenv and buildout python environments")
@@ -92502,7 +90815,7 @@
                ".tar"))
         (sha256
           (base32
-            "1z7m6n0vj3y4c0yq024d8p1g8vvainnl4hjjf1hpkzidd0wa78sj"))))
+            "1phr7gb8dc3a0w3m2gkmadqc6iprbl2h3z16k7xxnqbsi0ladbja"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "A bleak theme")
@@ -92525,8 +90838,7 @@
           (base32
             "1zgz1gs42ak29q7p3020ah9sm7bgfsagszia80bgiw1lc7wg77ni"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pkg-info" ,emacs-pkg-info)))
+    (propagated-inputs (list emacs-pkg-info))
     (home-page
       "https://github.com/voxpupuli/puppet-mode")
     (synopsis "Major mode for Puppet manifests")
@@ -92639,8 +90951,7 @@
           (base32
             "03ivg3ddhy5zh410wgwxa17m98wywqhk62jgijhjd00b6l8i4aym"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-grapnel" ,emacs-grapnel)))
+    (propagated-inputs (list emacs-grapnel))
     (home-page
       "http://www.github.com/theanalyst/revolver")
     (synopsis
@@ -92800,7 +91111,7 @@
           (base32
             "09pmkp24s7nwh6p4pzsjp1z65ksi9n3n2xv7d3igpa86l8qgcm2d"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "unspecified")
     (synopsis "smart-operator for python-mode")
     (description
@@ -92822,8 +91133,7 @@
           (base32
             "1s39407z3rxz10r5sshv2vj7s23ylkhg59ixasgnpjk82gl4igpf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-dash emacs-f))
     (arguments '(#:files ("py-test.el")))
     (home-page
       "https://github.com/Bogdanp/py-test.el")
@@ -92869,7 +91179,7 @@
           (base32
             "09glwrb9q65qdm4yd0mbi5hwdy2434zm8699ywhs6hqpjacadlmi"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
     (synopsis "Integrate pycarddav")
     (description
@@ -92942,8 +91252,7 @@
           (base32
             "16hclgvqbz98py70aic7cz070snyikyb4wflml4qr40pqf91iw48"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pythonic" ,emacs-pythonic)))
+    (propagated-inputs (list emacs-pythonic))
     (home-page
       "https://github.com/proofit404/pyenv-mode")
     (synopsis "Integrate pyenv with python-mode")
@@ -92967,9 +91276,7 @@
             "1gz7145jnjcky1751pqrlhh3pq02ybsmz49ngx4ip2589nry7iyv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pyenv-mode" ,emacs-pyenv-mode)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-pyenv-mode emacs-s emacs-f))
     (home-page
       "https://github.com/ssbb/pyenv-mode-auto")
     (synopsis
@@ -92994,9 +91301,7 @@
             "01gmggjv36jc8660xfpfy70cydabhymd17q3z16cjqvsxapbj7nf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-elpy" ,emacs-elpy)
-        ("emacs-python-mode" ,emacs-python-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-elpy emacs-python-mode emacs-dash))
     (home-page
       "https://github.com/JackCrawley/pygen/")
     (synopsis
@@ -93021,12 +91326,11 @@
             "1nf5ihyppviwys3qay07v25f96jj5a2yr4qh1iygv2423y63q7gp"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-tree-sitter" ,emacs-tree-sitter)
-        ("emacs-tree-sitter-langs"
-         ,emacs-tree-sitter-langs)
-        ("emacs-uci-mode" ,emacs-uci-mode)
-        ("emacs-nav-flash" ,emacs-nav-flash)
-        ("emacs-ivy" ,emacs-ivy)))
+      (list emacs-tree-sitter
+            emacs-tree-sitter-langs
+            emacs-uci-mode
+            emacs-nav-flash
+            emacs-ivy))
     (arguments
       '(#:files (:defaults "pygn_server.py" "lib")))
     (home-page
@@ -93052,9 +91356,7 @@
           (base32
             "03jl1ird95cm53dfhchjlhbkkbpqy2dpngwqccgh8gzbcp7wm72d"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-xr" ,emacs-xr)))
+    (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
     (home-page "https://github.com/tumashu/pyim")
     (synopsis
@@ -93102,7 +91404,7 @@
           (base32
             "1bszpqsm15az0wvbgsk012manxnvigbk38qr5iqzkgd4d13yv5fs"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-pyim" ,emacs-pyim)))
+    (propagated-inputs (list emacs-pyim))
     (arguments '(#:files (:defaults "*.pyim")))
     (home-page
       "https://github.com/p1uxtar/pyim-cangjiedict")
@@ -93126,7 +91428,7 @@
           (base32
             "1mi4a8sizlplys93lac34d3fv8338lbk3hfg3n45vp14wvfvpjnq"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-pyim" ,emacs-pyim)))
+    (propagated-inputs (list emacs-pyim))
     (arguments '(#:files (:defaults "*.pyim")))
     (home-page
       "https://github.com/p1uxtar/pyim-smzmdict")
@@ -93150,7 +91452,7 @@
           (base32
             "141rzf15334r4sdqy791n3kspad8jcz4iig55mvcqabii4bqx9p1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-pyim" ,emacs-pyim)))
+    (propagated-inputs (list emacs-pyim))
     (arguments
       '(#:files (:defaults "*.pyim" "*.pyim.gz")))
     (home-page
@@ -93176,9 +91478,7 @@
             "1q5gqhvh4zq5dy8vns694warcz48j1hdnxg16sjck4gsi9xivbvs"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-shut-up" ,emacs-shut-up)))
+      (list emacs-dash emacs-s emacs-shut-up))
     (home-page "unspecified")
     (synopsis "Manage Python imports!")
     (description
@@ -93242,10 +91542,10 @@
         (uri (git-reference
                (url "https://github.com/PyCQA/pylint.git")
                (commit
-                 "36fde71aad3b37ab6aa7ad80d108b778d9ae1987")))
+                 "26c9042825a6549c9f889b2cd17b5e08ba784ab2")))
         (sha256
           (base32
-            "0ig4fbwz931j29a02sav4pmxb0gnypkq1djr64xra247dalmylnq"))))
+            "1xaz1a80r1v3139nii239nm3dvp70br9mgmi3mj7simsdzsmrdzc"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("elisp/pylint.el")))
     (home-page "unspecified")
@@ -93270,9 +91570,7 @@
             "14x6blikgg5ndc9955hdziy3h9gjr27gpzmhbi4pgjvs8gffhf31"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ein" ,emacs-ein)
-        ("emacs-epc" ,emacs-epc)
-        ("emacs-deferred" ,emacs-deferred)))
+      (list emacs-ein emacs-epc emacs-deferred))
     (arguments '(#:files ("pynt/*")))
     (home-page "https://github.com/ebanner/pynt")
     (synopsis
@@ -93297,8 +91595,7 @@
             "0sijy6nk46yw21j49x5n93za2zjzqqrfmjm7dz3z3gj7jknk27i9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-pythonic" ,emacs-pythonic)
-        ("emacs-tablist" ,emacs-tablist)))
+      (list emacs-pythonic emacs-tablist))
     (arguments '(#:files (:defaults "snippets")))
     (home-page "https://github.com/dakra/pyramid.el")
     (synopsis
@@ -93322,7 +91619,7 @@
           (base32
             "1gh5sqmhw7hl67m7nqgd4wwns7a10j0sfmabm97k1cmmbwdj0vca"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/ionrock/pytest-el")
     (synopsis "Easy Python test running in Emacs")
@@ -93367,14 +91664,13 @@
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-python-black.git")
                (commit
-                 "6b6ab71d2762b6da703f8d1d3d964b712a98939e")))
+                 "01f1f4269136cfb36938567854383628730faaab")))
         (sha256
           (base32
-            "1cmzc0fa3jj7ajxbqhbsc8jx47k6g223sfd42c4lrqdnmh95760m"))))
+            "1a8dfz5riw2vlbi9mgb768gb29s5fnbfzas4fw8v1a4cxgwx6b0w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-reformatter" ,emacs-reformatter)))
+      (list emacs-dash emacs-reformatter))
     (home-page
       "https://github.com/wbolster/emacs-python-black")
     (synopsis "Reformat Python using python-black")
@@ -93467,8 +91763,7 @@
           (base32
             "0q6bib9nr6xiq6npzbngyfcjk87yyvwzq1zirr3z1h5wadm34lsk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)))
+    (propagated-inputs (list emacs-deferred))
     (home-page "unspecified")
     (synopsis "virtualenv API for Emacs Lisp")
     (description
@@ -93533,8 +91828,7 @@
           (base32
             "094nqaf60cw3kch2hka5jbbrc5b6v3z6np98w3y6690yxwx7wmz4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/wyuenho/emacs-python-isort")
     (synopsis
@@ -93607,10 +91901,10 @@
             "1cdn2mbdq1lfv2vi05pbls0qybw2va8vnzqi08niyrdn35g3sjba"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-transient" ,emacs-transient)
-        ("emacs-projectile" ,emacs-projectile)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-dash
+            emacs-transient
+            emacs-projectile
+            emacs-s))
     (home-page
       "https://github.com/wbolster/emacs-python-pytest")
     (synopsis "helpers to run pytest")
@@ -93679,8 +91973,7 @@
           (base32
             "0vyipfsppissa87pdnbksamdby0yl2q8nzawqivv6smn33jp6vsn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-folding" ,emacs-folding)))
+    (propagated-inputs (list emacs-folding))
     (home-page "unspecified")
     (synopsis
       "python.el extras for interactive evaluation")
@@ -93703,8 +91996,7 @@
           (base32
             "1g5mfn37d01259s2xii2d41027xpif4czxipq4sa7d6sfyq50h7h"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-s emacs-f))
     (home-page
       "https://github.com/proofit404/pythonic")
     (synopsis
@@ -93926,8 +92218,7 @@
             "0jiwdz1psfkha17by281ii0adjschld0hwl439bawgvzpw1a0zi2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-quelpa" ,emacs-quelpa)
-        ("emacs-leaf" ,emacs-leaf)))
+      (list emacs-quelpa emacs-leaf))
     (home-page
       "https://github.com/quelpa/quelpa-leaf")
     (synopsis "Quelpa handler for leaf")
@@ -93951,8 +92242,7 @@
             "0r9f8ary20rxs7rdl6lf6wl1gwa70c2c1zy93z3kcwjrlhbkp4rd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-quelpa" ,emacs-quelpa)
-        ("emacs-use-package" ,emacs-use-package)))
+      (list emacs-quelpa emacs-use-package))
     (home-page
       "https://github.com/quelpa/quelpa-use-package")
     (synopsis "quelpa handler for use-package")
@@ -94063,8 +92353,7 @@
           (base32
             "0nalnfb816qk1dfxjk9j8r5lvzv2k4jf747xdjbj2mcvv07g2jd2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/pd/quickref.el")
     (synopsis
       "Display relevant notes-to-self in the echo area")
@@ -94176,8 +92465,7 @@
             "0dhljmdlg4p832w9s7rp8vznkpjkwpg8k9hj95cn2h76c0afwz3j"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ess" ,emacs-ess)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-ess emacs-yasnippet))
     (home-page
       "https://github.com/mlf176f2/r-autoyas.el")
     (synopsis
@@ -94202,11 +92490,11 @@
             "12a429lajk09qp1jxgig54p8z6wndfgr4jwdmgkc9s2df9sw02d3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-rust-mode" ,emacs-rust-mode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-pos-tip" ,emacs-pos-tip)))
+      (list emacs-rust-mode
+            emacs-dash
+            emacs-s
+            emacs-f
+            emacs-pos-tip))
     (home-page
       "https://github.com/racer-rust/emacs-racer")
     (synopsis
@@ -94258,9 +92546,7 @@
             "1r4x4j5d0i4v27mj0cdx6s3qs3vk9v6blxmgnldmbv2ychyxzrnr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-yaml" ,emacs-yaml)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-yaml emacs-dash emacs-projectile))
     (home-page
       "https://github.com/otavioschwanck/rails-i18n.el")
     (synopsis "Seach and insert i18n on ruby code")
@@ -94306,8 +92592,7 @@
             "017fcrnjhqp591q8j51b67qbb6idimy7w3mvlkshbj3pmxl0hzb2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-inflections" ,emacs-inflections)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-inflections emacs-projectile))
     (home-page
       "https://github.com/otavioschwanck/rails-routes")
     (synopsis "Search for and insert rails routes")
@@ -94421,8 +92706,7 @@
           (base32
             "1mrq585wq4c23jv6fvphh03y4s8wjrh02dhd0l2369axl6bdslz7"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files (:defaults "voices")))
     (home-page
       "https://github.com/stardiviner/emacs-rainbow-fart")
@@ -94470,8 +92754,7 @@
           (base32
             "09k2fqkmqr6g19rvqr5x2kpj1cn3wkncxg50hz02vmsrbgmzmnja"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-f emacs-dash))
     (home-page "https://github.com/asok/rake.el")
     (synopsis "Run rake commands")
     (description
@@ -94517,8 +92800,7 @@
           (base32
             "1vrsv8ph1v853ii0i3q889xlwxnjdqz4bs3ipi502rjx6g7y5gdz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popwin" ,emacs-popwin)))
+    (propagated-inputs (list emacs-popwin))
     (home-page "https://pragcraft.wordpress.com/")
     (synopsis
       "a mode to interact with the Rally Software web site.")
@@ -94627,9 +92909,7 @@
           (base32
             "0cskw05jb7wckhfs2qs9pn5icxa93ay2mw2i1brsmdd0igz34lg3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-go-mode" ,emacs-go-mode)))
+    (propagated-inputs (list emacs-s emacs-go-mode))
     (home-page "unspecified")
     (synopsis "Rapid testing suite for Go")
     (description
@@ -94695,8 +92975,7 @@
             "0jzhyf42m9gqcnsz9gxc9wk8bbb9a7fj78swwyj0wqn9jm8jxbra"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-magit" ,emacs-magit)))
+      (list emacs-popup emacs-magit))
     (home-page "unspecified")
     (synopsis "Integrate reviewboard with emacs.")
     (description
@@ -94786,8 +93065,7 @@
           (base32
             "1mpk5rzsil298q3ppv5v9jrn274v71jffyz0jihrksh1wbjzwhlx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)))
+    (propagated-inputs (list emacs-alert))
     (home-page "unspecified")
     (synopsis
       "Cross platform notifications for rcirc")
@@ -94922,8 +93200,7 @@
           (base32
             "0sdh2qaa6fb11y3h8xy0f6frisan2bkxrk68r89bq875g21z8jfr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page "unspecified")
     (synopsis "Yasnippets for React")
@@ -95037,9 +93314,9 @@
             "00kjkc8fpvcjapnrk2fmnxspn9p3z9b3niyrqnyzif3kzmdsqz1i"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-load-relative" ,emacs-load-relative)
-        ("emacs-loc-changes" ,emacs-loc-changes)
-        ("emacs-test-simple" ,emacs-test-simple)))
+      (list emacs-load-relative
+            emacs-loc-changes
+            emacs-test-simple))
     (arguments
       '(#:files
         ("realgud.el"
@@ -95106,8 +93383,7 @@
             "1f6g5ajimha2n45dykc2vrpdd25ylwrn98fijj3i9m8n0f7jyjrn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-realgud" ,emacs-realgud)
-        ("emacs-load-relative" ,emacs-load-relative)))
+      (list emacs-realgud emacs-load-relative))
     (arguments
       '(#:files
         ("realgud-byebug.el" ("byebug" "byebug/*.el"))))
@@ -95135,8 +93411,7 @@
             "196zy8xmqkm6nc7074gsy4ymm6h4ikbd01f41karys7dwib3gg5i"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-realgud" ,emacs-realgud)
-        ("emacs-load-relative" ,emacs-load-relative)))
+      (list emacs-realgud emacs-load-relative))
     (arguments
       '(#:files (:defaults ("ipdb" "ipdb/*.el"))))
     (home-page
@@ -95162,8 +93437,7 @@
             "1i80llf9bncd5hkrk0wj3xswd36q1rkv5gaqgfqq4r1f8dkrhrz1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-realgud" ,emacs-realgud)
-        ("emacs-load-relative" ,emacs-load-relative)))
+      (list emacs-realgud emacs-load-relative))
     (arguments
       '(#:files
         (:defaults ("realgud-jdb" "realgud-jdb/*.el"))))
@@ -95191,8 +93465,7 @@
             "1zjrjgs9vjaqsf5h9sxw1pf2f9sfngx1gxp37lb8myan52qmhlz1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-load-relative" ,emacs-load-relative)
-        ("emacs-realgud" ,emacs-realgud)))
+      (list emacs-load-relative emacs-realgud))
     (arguments
       '(#:files (:defaults ("lldb" "lldb/*.el"))))
     (home-page
@@ -95218,8 +93491,7 @@
             "1zn465bikzv1aizjjcnzsx105pdwwarqmd1fij82rhrspc8p8zis"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-realgud" ,emacs-realgud)
-        ("emacs-load-relative" ,emacs-load-relative)))
+      (list emacs-realgud emacs-load-relative))
     (arguments
       '(#:files
         (:defaults
@@ -95248,8 +93520,7 @@
             "00ywz4kp90wkfi1ncn9zj6vjw9igiv34gvx6fqfi8ha3q5xljzps"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-realgud" ,emacs-realgud)
-        ("emacs-load-relative" ,emacs-load-relative)))
+      (list emacs-realgud emacs-load-relative))
     (arguments
       '(#:files
         (:defaults
@@ -95279,8 +93550,7 @@
             "01x819j80yc5ybwaz5xglibv88r2aah5gqxwi1q9azd6f70zanvi"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-realgud" ,emacs-realgud)
-        ("emacs-load-relative" ,emacs-load-relative)))
+      (list emacs-realgud emacs-load-relative))
     (arguments
       '(#:files
         ("realgud-old-debuggers.el"
@@ -95312,8 +93582,7 @@
             "0v3g23x5q04g45av74snf6a3hyghd40lnagr231g5xs1wc6c3plc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-realgud" ,emacs-realgud)
-        ("emacs-load-relative" ,emacs-load-relative)))
+      (list emacs-realgud emacs-load-relative))
     (arguments
       '(#:files ("realgud-pry.el" ("pry" "pry/*.el"))))
     (home-page "http://github.com/rocky/realgud-pry")
@@ -95339,8 +93608,7 @@
             "1nalr0yd1wvqdf81nidxmh9fr3ncqdjb706p6832fsmbpk7r9haw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-realgud" ,emacs-realgud)
-        ("emacs-load-relative" ,emacs-load-relative)))
+      (list emacs-realgud emacs-load-relative))
     (arguments
       '(#:files
         ("realgud-rdb2.el" ("rdb2" "rdb2/*.el"))))
@@ -95368,8 +93636,7 @@
             "109v1kc29qqgabzjq9118jyw800zhl9yxykmgfl1zrpiyq6disz4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-load-relative" ,emacs-load-relative)
-        ("emacs-realgud" ,emacs-realgud)))
+      (list emacs-load-relative emacs-realgud))
     (arguments
       '(#:files
         (:defaults ("trepan-ni" "trepan-ni/*.el"))))
@@ -95570,7 +93837,7 @@
           (base32
             "0wk28blnfks987iby0p3qpd4nxnz6sqn4fx8g59gyddjhav51lri"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/maio/recompile-on-save.el")
     (synopsis "Trigger recompilation on file save.")
@@ -95697,10 +93964,10 @@
         (uri (git-reference
                (url "https://github.com/minad/recursion-indicator.git")
                (commit
-                 "5d98022dee5a5ba3343f1c26e28febc2f095912c")))
+                 "bf3aa89893c10a01d5605b8d19b3583cd432cb27")))
         (sha256
           (base32
-            "1ksd8p98z5w7kaahwalsmxdb9zvyb1kcr32mcsjqbnxxzagld880"))))
+            "1fg2m1n61sy6iqv5m299rbwdrdkphpd68jq6l1npnlszwa3814ka"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/minad/recursion-indicator")
@@ -95748,9 +94015,7 @@
             "070zghnrh4ywndk6bz1vd750g2nxj4rd42gphymyz8x7kazqqh1j"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-promise" ,emacs-promise)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-promise emacs-ht emacs-request))
     (home-page
       "https://github.com/thanhvg/emacs-reddigg")
     (synopsis "A reader for redditt")
@@ -95840,8 +94105,7 @@
           (base32
             "1545z1dd85zg8sg2r5r5gdnmgxbxwjvl5xklx5nvpd0gbxlwbpqk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-paredit" ,emacs-paredit)))
+    (propagated-inputs (list emacs-paredit))
     (home-page "unspecified")
     (synopsis "Common Lisp Editing Extensions")
     (description
@@ -95880,10 +94144,10 @@
         (uri (git-reference
                (url "https://github.com/RedPRL/redtt.git")
                (commit
-                 "50689559ff970e33013b8cf8a3bbc8be18ec4e09")))
+                 "49783bd5d83c1d1989838b5ecf4a240bcc994243")))
         (sha256
           (base32
-            "0v1xc27hfa223bganb7gksv6cc2v95bdfms7riv75sf30v3vh59s"))))
+            "163kj0hmvn7vgd86q0dhz3zimkiqabzylyvchnzaqc2y1mp4qhfk"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("emacs/*.el")))
     (home-page "http://github.com/RedPRL/redtt")
@@ -95908,10 +94172,10 @@
             "02cb30ycwyqhdw54s3abb4xsdyqlpi6i8xi7rkl85avvgy2gif8y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-list-utils" ,emacs-list-utils)
-        ("emacs-loop" ,emacs-loop)))
+      (list emacs-s
+            emacs-dash
+            emacs-list-utils
+            emacs-loop))
     (home-page "unspecified")
     (synopsis "interactive value editing")
     (description
@@ -96135,8 +94399,7 @@
           (base32
             "1lm53zg30n96bq8z5g836dhk0y02njdyp8c6vjgsrcii4ff42jp5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page "https://github.com/psibi/rego-mode")
     (synopsis "A major mode for rego language")
     (description
@@ -96181,8 +94444,7 @@
           (base32
             "0mgkcdagj4n47nahsxnk7l1b4v15cbwqaac4fr8809jvis1rfx5g"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-markdown-mode" ,emacs-markdown-mode)))
+    (propagated-inputs (list emacs-markdown-mode))
     (arguments
       '(#:files (:defaults "remark.html" "server.js")))
     (home-page "unspecified")
@@ -96231,8 +94493,7 @@
             "1rwlzf9mg66hgdqjgh2garp8qckajs4a1kiqg3xygaf7009kr4nk"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-omni-quotes" ,emacs-omni-quotes)
-        ("emacs-popwin" ,emacs-popwin)))
+      (list emacs-omni-quotes emacs-popwin))
     (home-page
       "https://github.com/mtekman/remind-bindings.el")
     (synopsis "Reminders for your init bindings")
@@ -96321,8 +94582,7 @@
           (base32
             "0nycm8a4wwkkaif958z4m89slayp17k20lp2h7lvddjx8prn6yfp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-fullframe" ,emacs-fullframe)))
+    (propagated-inputs (list emacs-fullframe))
     (home-page "unspecified")
     (synopsis
       "Switch to/from repl buffer for current major-mode")
@@ -96414,9 +94674,7 @@
             "09yvn489z33hww7mi1flh344faxrpbkzqhm0i6xb2rridcj7acqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-string-inflection"
-         ,emacs-string-inflection)
-        ("emacs-inflections" ,emacs-inflections)))
+      (list emacs-string-inflection emacs-inflections))
     (home-page
       "https://github.com/knu/replace-with-inflections.el")
     (synopsis "Inflection aware `query-replace'")
@@ -96462,10 +94720,10 @@
             "1z27s6f66922jm2nwl3kqwbhdq398d2y6s1sqm2l4f8xmijv2jyq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-use-package" ,emacs-use-package)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-ht" ,emacs-ht)))
+      (list emacs-use-package
+            emacs-dash
+            emacs-log4e
+            emacs-ht))
     (home-page
       "https://github.com/edvorg/req-package")
     (synopsis
@@ -96513,8 +94771,7 @@
             "0jckwy5zhz95d6l3lz8b9b34pppcjjzy97fg1wn8mqzhf3h460ac"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-deferred emacs-request))
     (arguments '(#:files ("request-deferred.el")))
     (home-page
       "https://github.com/tkf/emacs-request")
@@ -96539,10 +94796,10 @@
             "1bfj2zjn3x41jal6c136wnwkgmag27bmrwbfwdylafc7qqk6dflv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-s" ,emacs-s)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-js2-mode
+            emacs-popup
+            emacs-s
+            emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page
       "https://github.com/joeheyming/requirejs-emacs")
@@ -96677,8 +94934,7 @@
             "0war99vbim62l010gxq3l68ac5w13gs5lh24yn1rpnq2jfp4jn3r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-restclient" ,emacs-restclient)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-restclient emacs-helm))
     (arguments '(#:files ("restclient-helm.el")))
     (home-page "unspecified")
     (synopsis "helm interface for restclient.el")
@@ -96701,8 +94957,7 @@
           (base32
             "0bpvxv8bc671pa0sm4v8pqyla3i99y05mgpbgcjd8pdsfhiwjw7j"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-restclient" ,emacs-restclient)))
+    (propagated-inputs (list emacs-restclient))
     (arguments '(#:files ("restclient-test.el")))
     (home-page
       "https://github.com/simenheg/restclient-test.el")
@@ -96770,8 +95025,7 @@
           (base32
             "13v6qpxwcsxm12754n4i8s68bp6q2lg9c7bw1g8asa69bvwh2yfk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-f emacs-s))
     (home-page
       "https://github.com/jcs-elpa/reveal-in-folder")
     (synopsis "Reveal current file in folder")
@@ -96948,8 +95202,7 @@
             "0m1ykfx2yfhqbzv1ppj2p2dbi7c3kck7p1k7s8z6c955wnday5xc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)
-        ("emacs-wgrep" ,emacs-wgrep)))
+      (list emacs-transient emacs-wgrep))
     (home-page "https://github.com/dajva/rg.el")
     (synopsis "A search tool based on ripgrep")
     (description
@@ -97038,8 +95291,7 @@
             "1yvdiwjdqaacxf0vbk40im0znhbpndlh1xxl72g7sn79r9bfiq5w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-ordinal" ,emacs-ordinal)))
+      (list emacs-popup emacs-ordinal))
     (home-page
       "https://github.com/zonuexe/right-click-context")
     (synopsis "Right Click Context menu")
@@ -97107,9 +95359,7 @@
             "1yp92sfirvcz3s2q8j8g6qlcmb7pn30m9ww4nc332m1axah7l05n"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-posframe" ,emacs-posframe)))
+      (list emacs-dash emacs-popup emacs-posframe))
     (arguments
       '(#:files (:defaults "lib.c" "Makefile")))
     (home-page
@@ -97158,10 +95408,9 @@
             "0ndrqj7qsf9rky4v928803ib66p37vyhxgyc42vshx86q73v4cyg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-inf-ruby" ,emacs-inf-ruby)
-        ("emacs-ruby-compilation"
-         ,emacs-ruby-compilation)
-        ("emacs-jump" ,emacs-jump)))
+      (list emacs-inf-ruby
+            emacs-ruby-compilation
+            emacs-jump))
     (arguments '(#:files ("rinari.el")))
     (home-page "https://github.com/eschulte/rinari")
     (synopsis "Rinari Is Not A Rails IDE")
@@ -97251,8 +95500,7 @@
           (base32
             "0b3gqs1lsk80shirsc41zajzjbg1sgzksmnfazffx88h612p7ygd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-web-mode" ,emacs-web-mode)))
+    (propagated-inputs (list emacs-web-mode))
     (home-page
       "https://gitlab.com/thornjad/rivet-mode")
     (synopsis
@@ -97276,8 +95524,7 @@
           (base32
             "1b779mncahhdgydsvmh7jycq2vchdrn01qj2m5g36aa01wq1v3ih"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)))
+    (propagated-inputs (list emacs-js2-mode))
     (home-page
       "https://github.com/felipeochoa/rjsx-mode/")
     (synopsis "Real support for JSX")
@@ -97322,8 +95569,7 @@
           (base32
             "0hcyvvv4y78fmwprlxgmpzb81lzip9y1hjskmv8x7l0q1a6a3dsz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-inf-ruby" ,emacs-inf-ruby)))
+    (propagated-inputs (list emacs-inf-ruby))
     (arguments '(#:files ("*robe.el" "lib")))
     (home-page "https://github.com/dgutov/robe")
     (synopsis
@@ -97391,8 +95637,7 @@
           (base32
             "0rgv4y9aa5cc2ddz3y5z8d22xmr8kf5c60h0r3g8h91jmcw3rb4z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (arguments
       '(#:files ("*.el" "roguel-ike" "roguel-ike-lib")))
     (home-page "unspecified")
@@ -97548,8 +95793,7 @@
           (base32
             "0fq7ym2wyfb5pgm75llc8wzyzr3kb5s3i2mw3ry076yk5c4gjsi2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page "https://github.com/zk-phi/rpn-calc")
     (synopsis "quick RPN calculator for hackers")
     (description
@@ -97594,8 +95838,7 @@
           (base32
             "0yy0d5pwy61ybrpblljk4z9qwyii0jcgxgv1y6sckai2qr5dia2x"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-spinner" ,emacs-spinner)))
+    (propagated-inputs (list emacs-spinner))
     (home-page
       "https://github.com/r-zip/rsync-mode.el")
     (synopsis "Rsync projects to remote machines")
@@ -97641,8 +95884,7 @@
           (base32
             "05cigdvlq5lfahr9a1z8rvlw2s99j4pha2in59pshz9ph8cqgq10"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-rtags" ,emacs-rtags)))
+    (propagated-inputs (list emacs-rtags))
     (arguments '(#:files ("src/rtags-xref.el")))
     (home-page
       "https://github.com/Andersbakken/rtags")
@@ -97756,8 +95998,7 @@
           (base32
             "0ndrqj7qsf9rky4v928803ib66p37vyhxgyc42vshx86q73v4cyg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-inf-ruby" ,emacs-inf-ruby)))
+    (propagated-inputs (list emacs-inf-ruby))
     (arguments
       '(#:files ("util/ruby-compilation.el")))
     (home-page "https://github.com/eschulte/rinari")
@@ -97849,8 +96090,7 @@
           (base32
             "15b2rs6m4d511qqkc2gc8k15mbqzrgv6s3hpypajl8nvqa79xnyd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-inflections" ,emacs-inflections)))
+    (propagated-inputs (list emacs-inflections))
     (arguments '(#:files (:defaults "snippets")))
     (home-page
       "http://github.com/sshaw/ruby-factory-mode")
@@ -97921,9 +96161,7 @@
             "1vpjcmsl8nph6sb01ppfim1kbzrdf0z8pxggyv709ayfsavrq19q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-smartparens" ,emacs-smartparens)
-        ("emacs-string-inflection"
-         ,emacs-string-inflection)))
+      (list emacs-smartparens emacs-string-inflection))
     (home-page
       "https://github.com/otavioschwanck/ruby-json-to-hash.el")
     (synopsis
@@ -97971,8 +96209,7 @@
           (base32
             "0rwq5g6p8n45vqf35dklkzdrhbp9i9gx03v7s1b4s4h83hlhlh51"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pcre2el" ,emacs-pcre2el)))
+    (propagated-inputs (list emacs-pcre2el))
     (home-page
       "https://github.com/ruby-test-mode/ruby-test-mode")
     (synopsis
@@ -98035,10 +96272,10 @@
         (uri (git-reference
                (url "https://github.com/kzkn/ruled-switch-buffer.git")
                (commit
-                 "99b53f7679e3eb868e4b4585085bbed102e5fce7")))
+                 "4ae1a722750f7ecb4db93c062ffdbe353e706bf0")))
         (sha256
           (base32
-            "0n16al1nx7r98wbwgrq89yfs581wp6nbbhkns1z5qlqmc21brcqr"))))
+            "0qb69avm7f32y6dlcdsrc2vbj2lki3n732zpfxyr97cgf8vka7xm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kzkn/ruled-switch-buffer")
@@ -98258,19 +96495,19 @@
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "d124b1638ba3df967dea870576d62588a5053d5e")))
+                 "e0285bd19b8f970902042701d28234ebfe160337")))
         (sha256
           (base32
-            "0qkarcc7z2mhzrb0zfaif4d4sdpjv3qwycz6dxy9yn568scwm3hf"))))
+            "1wx6mc1wyzs1d2md8rwsnbkh41ibpbsc1f1ri9diac975gp98w0s"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-rust-mode" ,emacs-rust-mode)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)
-        ("emacs-s" ,emacs-s)
-        ("emacs-spinner" ,emacs-spinner)
-        ("emacs-xterm-color" ,emacs-xterm-color)))
+      (list emacs-rust-mode
+            emacs-dash
+            emacs-f
+            emacs-markdown-mode
+            emacs-s
+            emacs-spinner
+            emacs-xterm-color))
     (home-page "unspecified")
     (synopsis "Rust development environment")
     (description
@@ -98293,8 +96530,7 @@
             "0ldbrx7xchy4p26ggs0hmazwfw9cbv97mzl4f02whblq3zkx7h5j"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ess" ,emacs-ess)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-ess emacs-transient))
     (home-page
       "https://github.com/ShuguangSun/rutils.el")
     (synopsis "R utilities with transient")
@@ -98384,9 +96620,7 @@
           (base32
             "06ng960fj2ivnwb0hrn0qic5x8hb0sswjzph01zmwhbfnwykhr85"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-noflet" ,emacs-noflet)))
+    (propagated-inputs (list emacs-s emacs-noflet))
     (arguments '(#:files ("s-buffer.el")))
     (home-page
       "http://github.com/nicferrier/emacs-s-buffer")
@@ -98432,8 +96666,7 @@
           (base32
             "0amzpw75w3hb186y4m1k3j9c1j3cxbd2cy20gcma218bgg2xg5s0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/mattusifer/s3ed")
     (synopsis "Tramp-like access to s3")
     (description
@@ -98476,8 +96709,7 @@
           (base32
             "05r8z8wvsdwkbhsv5czrjwg5fq7232vsfcvkk7vj8arkfnhyg1yz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)))
+    (propagated-inputs (list emacs-deferred))
     (arguments
       '(#:files
         (:defaults "*.py" (:exclude "*test.py"))))
@@ -98549,9 +96781,9 @@
             "07qnn8svgd0ishajx5dr91mk4nx9fm9phxsv00cjapvpd4f26xn6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-yaml-mode" ,emacs-yaml-mode)
-        ("emacs-mmm-mode" ,emacs-mmm-mode)
-        ("emacs-mmm-jinja2" ,emacs-mmm-jinja2)))
+      (list emacs-yaml-mode
+            emacs-mmm-mode
+            emacs-mmm-jinja2))
     (home-page
       "https://github.com/glynnforrest/salt-mode")
     (synopsis "Major mode for Salt States")
@@ -98595,8 +96827,7 @@
           (base32
             "1nhk12lhvkwdk8s8fx33p6rssi0gcfx2zkanq23rz6k28v5zi5yp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-haml-mode" ,emacs-haml-mode)))
+    (propagated-inputs (list emacs-haml-mode))
     (home-page
       "http://github.com/nex3/haml/tree/master")
     (synopsis "Major mode for editing Sass files")
@@ -98752,8 +96983,7 @@
           (base32
             "03wh1kr9yhcagympbd7h3qgrs7qlycd68b0a6nswva48hdc4ay89"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)))
+    (propagated-inputs (list emacs-cider))
     (arguments '(#:files ("src/el/*.el")))
     (home-page
       "https://github.com/clojure-emacs/sayid")
@@ -98794,10 +97024,10 @@
         (uri (git-reference
                (url "https://github.com/openscad/openscad.git")
                (commit
-                 "f0533af571e4a1e3215d2e1fe3acafd0902523bd")))
+                 "b5aba496f270736fd91e0b1591bae872ee39fc62")))
         (sha256
           (base32
-            "0zg12xvk4vzg27qhd4yf62azilskpsa4gs0vqc2sfa1j6gkqzrvg"))))
+            "0rr3rbwybly26n16xmf3wagj2bdda27fj2ybf82nxfyknqskrp1n"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("contrib/scad-mode.el")))
     (home-page
@@ -98823,8 +97053,7 @@
           (base32
             "1syz8cjyw4rjv1hbvs42r7n56jzjz5c71s21kmm8rp7hlbz71jhr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-scad-mode" ,emacs-scad-mode)))
+    (propagated-inputs (list emacs-scad-mode))
     (home-page "https://zk-phi.github.io/")
     (synopsis
       "Preview SCAD models in real-time within Emacs")
@@ -98869,8 +97098,7 @@
           (base32
             "1c76jnj35bkcq2rhdq6d57b7vf6rvn8rpzpx49ywkxz4cx36svv6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-s emacs-f))
     (home-page
       "https://github.com/zwild/scalariform")
     (synopsis "Format Scala code with scalariform.")
@@ -99007,9 +97235,7 @@
             "164dn5615bxvya4n58lly9r739va1xzm00wyfg4shcwgnwm3byqb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-auto-complete emacs-s emacs-dash))
     (home-page "unspecified")
     (synopsis
       "Extensions for the SuperCollider Emacs mode.")
@@ -99032,8 +97258,7 @@
           (base32
             "0vbcghgapwdf3jgjnjdla17dhf5mkmwapz4a8fmlr7sw1wqvj857"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page "unspecified")
     (synopsis
@@ -99057,8 +97282,7 @@
           (base32
             "0219jzj3rwcx4k6f4grzrarq0v05jgmmracis3jb25rv0cln3i9r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-htmlize" ,emacs-htmlize)))
+    (propagated-inputs (list emacs-htmlize))
     (home-page
       "https://git.sr.ht/~technomancy/scpaste")
     (synopsis "Paste to the web via scp.")
@@ -99193,8 +97417,7 @@
           (base32
             "1cvcsj6ayhfwdpp2mb75ja8bif33z085dip76bvyqliwjnjl2sgn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popwin" ,emacs-popwin)))
+    (propagated-inputs (list emacs-popwin))
     (home-page "http://zk-phi.gitub.io/")
     (synopsis "make scratch buffer for each files")
     (description
@@ -99238,8 +97461,7 @@
           (base32
             "10hmy0p4pkrzvvyisk4rjc6hqqyk2sir1rszqgmkhrdywl010vlc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-dash emacs-f))
     (home-page "unspecified")
     (synopsis "Multiple scratches in any language")
     (description
@@ -99329,8 +97551,7 @@
           (base32
             "0gca860rhvcdjgm6k5pm6spznhg4787dqyjzfixvnffd5l93lcvc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-quick-peek" ,emacs-quick-peek)))
+    (propagated-inputs (list emacs-quick-peek))
     (home-page
       "https://github.com/jpablobr/scrollable-quick-peek")
     (synopsis "Display scrollable overlays")
@@ -99377,8 +97598,7 @@
             "1my5yz9ppr7d90ad94mkqzkp20c8bym6mdi7jwab2yisbzykmwzc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-thrift" ,emacs-thrift)))
+      (list emacs-dash emacs-thrift))
     (home-page "unspecified")
     (synopsis "Major mode for Twitter Scrooge files")
     (description
@@ -99444,9 +97664,7 @@
             "0i1ylvw7p46pkf3yyyzcdmdhsspzymnnnvx8s0i7vynngr5x0vzh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-showtip" ,emacs-showtip)
-        ("emacs-pos-tip" ,emacs-pos-tip)))
+      (list emacs-popup emacs-showtip emacs-pos-tip))
     (home-page
       "http://www.emacswiki.org/emacs/download/sdcv.el")
     (synopsis
@@ -99515,8 +97733,7 @@
           (base32
             "0i6k8nlvacnpfq9cj42crs2h6iqgsfnkm73f8dhc8nn9lyz6chf4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-dash emacs-f))
     (home-page
       "https://github.com/jcs-elpa/searcher")
     (synopsis "Searcher in pure elisp")
@@ -99566,9 +97783,7 @@
             "10ikd6ksz5adpldyx9h8s3qnwc488rqixzwnd0rjjwqigmllj9lb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-alert" ,emacs-alert)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-alert emacs-s emacs-f))
     (home-page
       "https://gitlab.com/shackra/secretaria")
     (synopsis
@@ -99593,8 +97808,7 @@
             "1lh8dg02h64s7b18b4yn0jwxd3cid6agqiv17252r3lbgp743n68"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-language-detection"
-         ,emacs-language-detection)))
+      (list emacs-language-detection))
     (home-page
       "https://github.com/marcelino-m/see-mode")
     (synopsis "Edit string  in a separate buffer")
@@ -99661,8 +97875,7 @@
           (base32
             "0qd462qbqdx53xh3ddf76chiljxf6s43r28v2ix85gsig7nm5pgr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-shadchen" ,emacs-shadchen)))
+    (propagated-inputs (list emacs-shadchen))
     (home-page "http://github.com/benaiah/seethru")
     (synopsis "Easily change Emacs' transparency")
     (description
@@ -99685,8 +97898,7 @@
             "05vj12l88s29wnkpvgzlbypv9hkmy1hqgv9hvav6v4kmdykl5w1b"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-concurrent" ,emacs-concurrent)
-        ("emacs-popup" ,emacs-popup)))
+      (list emacs-concurrent emacs-popup))
     (arguments '(#:files ("emacs/sekka.el")))
     (home-page "https://github.com/kiyoka/sekka")
     (synopsis "A client for Sekka IME server")
@@ -99800,8 +98012,7 @@
             "0ywx7q41i9pzmfgwv83mz5z17gril2s0r7y77hbbriww5yy1ihx4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-prescient" ,emacs-prescient)
-        ("emacs-selectrum" ,emacs-selectrum)))
+      (list emacs-prescient emacs-selectrum))
     (arguments '(#:files ("selectrum-prescient.el")))
     (home-page
       "https://github.com/raxod502/prescient.el")
@@ -99850,8 +98061,7 @@
             "0dkqj2xcpqdwi4j99pbif8dypk0mlaxgn7aaw51kw98b52ng93gv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-semaphore" ,emacs-semaphore)
-        ("emacs-promise" ,emacs-promise)))
+      (list emacs-semaphore emacs-promise))
     (arguments '(#:files ("semaphore-promise.el")))
     (home-page
       "http://github.com/webnf/semaphore.el")
@@ -99875,9 +98085,7 @@
           (base32
             "0lnr5kyc59rs2p3lnhyr6cc126rh17szp68xpsx4brym3blb37yc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-apel" ,emacs-apel)
-        ("emacs-flim" ,emacs-flim)))
+    (propagated-inputs (list emacs-apel emacs-flim))
     (home-page "unspecified")
     (synopsis "A library to provide MIME features.")
     (description
@@ -99900,9 +98108,9 @@
             "0sm6kd0r7wjsvynfkhq33d6rz431j784jlbxjpag60g5avxha9s9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-impatient-mode" ,emacs-impatient-mode)
-        ("emacs-htmlize" ,emacs-htmlize)
-        ("emacs-web-mode" ,emacs-web-mode)))
+      (list emacs-impatient-mode
+            emacs-htmlize
+            emacs-web-mode))
     (home-page
       "https://github.com/conao3/seml-mode.el")
     (synopsis
@@ -99949,8 +98157,7 @@
           (base32
             "0nj71ds4frfi16hsfswmp89rfxkvvdvhdlsqizzi9cbvr49s0l1f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-sequences" ,emacs-sequences)))
+    (propagated-inputs (list emacs-sequences))
     (arguments '(#:files ("sensitive.el")))
     (home-page "unspecified")
     (synopsis
@@ -99974,8 +98181,7 @@
           (base32
             "15za4fg7c8fsih86wz1npyx6gdmw0xhizklfsyfh84416dsmgswp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-ample-regexps" ,emacs-ample-regexps)))
+    (propagated-inputs (list emacs-ample-regexps))
     (home-page
       "https://github.com/noctuid/emacs-sentence-navigation")
     (synopsis
@@ -100017,14 +98223,13 @@
         (uri (git-reference
                (url "https://github.com/twlz0ne/separedit.el.git")
                (commit
-                 "0a2dc1a22955fdd065f04dfdd5242f1b61b4a303")))
+                 "59c4e3718943dbe8d14bdbba5de24fe2c80f0b56")))
         (sha256
           (base32
-            "1j1yd9d5hb5ryv0yx02lga0drgyfhkqwli5zrkrhili8h43g522d"))))
+            "06wx9nz688x15rz1mcl3jcbaa3pn6xls7my2srn5id1rdbwyl52x"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-edit-indirect" ,emacs-edit-indirect)))
+      (list emacs-dash emacs-edit-indirect))
     (arguments '(#:files ("separedit.el")))
     (home-page
       "https://github.com/twlz0ne/separedit.el")
@@ -100117,8 +98322,7 @@
             "0gjwp0h9ip58da1p8q9s9pjfh0g6pav4gam9s51xnx8mv0vbgb68"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-dash emacs-transient))
     (home-page
       "https://www.github.com/MaximeWack/seriesTracker")
     (synopsis "Series tracker")
@@ -100142,14 +98346,14 @@
             "15lx6qvmq3vp84ys8dzbx1nzxcnzlq41whawc2yhrnd1dbq4mv2d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-ansi" ,emacs-ansi)
-        ("emacs-commander" ,emacs-commander)
-        ("emacs-epl" ,emacs-epl)
-        ("emacs-shut-up" ,emacs-shut-up)
-        ("emacs-web-server" ,emacs-web-server)))
+      (list emacs-s
+            emacs-dash
+            emacs-f
+            emacs-ansi
+            emacs-commander
+            emacs-epl
+            emacs-shut-up
+            emacs-web-server))
     (arguments '(#:files ("*.el" "bin")))
     (home-page "http://github.com/rejeep/servant.el")
     (synopsis "ELPA server written in Emacs Lisp")
@@ -100173,10 +98377,7 @@
             "1h58q41wixjlapia1ggf83jxcllq7492k55mc0fq7hbx3hw1q1y2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-dash emacs-s emacs-f emacs-helm))
     (arguments '(#:files ("*.el" "snippets" "dict")))
     (home-page "http://101000lab.org")
     (synopsis "Serverspec minor mode")
@@ -100575,8 +98776,7 @@
           (base32
             "1n0nc3g57kl5d4zh0k0gis70kd05yb2pv7kw8akmdp9q7hxs6m93"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)))
+    (propagated-inputs (list emacs-transient))
     (home-page
       "https://github.com/sebasmonia/sharper")
     (synopsis
@@ -100781,7 +98981,7 @@
           (base32
             "0ma5j74vkwax9ha945dcgbmf3r4gajj4nvl63pbfyvxvy6svn84r"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments '(#:files ("shelldoc.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-shelldoc")
@@ -100895,8 +99095,7 @@
           (base32
             "1sb9zdig0ypr3c0dmm26cysc6dsij5vxf3zypqpjdh77si5asx24"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/purcell/emacs-shfmt")
     (synopsis "Reformat shell scripts using shfmt")
@@ -100942,8 +99141,7 @@
           (base32
             "13zsws8gq9a8nfk4yzlvfsvqjh9zbnanmw68rcna93yc5nc634nr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-es-lib" ,emacs-es-lib)))
+    (propagated-inputs (list emacs-es-lib))
     (home-page "https://github.com/sabof/shift-text")
     (synopsis
       "Move the region in 4 directions, in a way similar to Eclipse's")
@@ -101034,8 +99232,7 @@
           (base32
             "11kzjm12hbcdzrshq20r20l29k3555np1sva7afqrhgvd239fdq1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-doom" ,emacs-doom) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-doom emacs-s))
     (home-page
       "https://github.com/smmcg/showcss-mode")
     (synopsis
@@ -101146,8 +99343,7 @@
             "09gcprqhl1ds4k407rlsjqr9y56a9wvjkli70wrf2l7w3dcm4qq0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-language-detection"
-         ,emacs-language-detection)))
+      (list emacs-language-detection))
     (home-page
       "https://github.com/xuchunyang/shr-tag-pre-highlight.el")
     (synopsis
@@ -101172,8 +99368,7 @@
             "0krd112xglcvkgjl0dj6z4h9gwzh99avh10hlp4idcsm8b7hgdc9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-language-detection"
-         ,emacs-language-detection)))
+      (list emacs-language-detection))
     (home-page
       "https://github.com/chenyanming/shrface")
     (synopsis
@@ -101198,9 +99393,7 @@
             "1xnby24gpxij1z03wvx89s459jw0f8bwhgi80xvdq8gxhbbz2w7a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-s emacs-dash emacs-f))
     (home-page
       "https://gitlab.com/bennya/shrink-path.el")
     (synopsis "fish-style path")
@@ -101246,9 +99439,7 @@
             "08nnpzdrh4sq3vddfcdagaxvn4liprmc3dd17lbrvw5qlcadrbvg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-bui" ,emacs-bui)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-s emacs-bui emacs-dash))
     (arguments
       '(#:files
         ("src/shroud"
@@ -101546,8 +99737,7 @@
           (base32
             "0589ns2v6jxyd7adjkj34zlcnnxbfs6c7hm56yskbs2s4qkkf369"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-anaphora" ,emacs-anaphora)))
+    (propagated-inputs (list emacs-anaphora))
     (home-page
       "http://www.emacswiki.org/emacs/download/simple-call-tree.el")
     (synopsis
@@ -101616,7 +99806,7 @@
           (base32
             "14fb52r5fzdcqqbh5kkajaz43iqq8g64g0rsswwwv6g1j23y93k3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/jorenvo/simple-mpc")
     (synopsis "provides a simple interface to mpc")
@@ -101662,9 +99852,7 @@
           (base32
             "1kkhnsxr8zrb21k4ckyg69nsndwy4zdkvfw2drk4v1vnbgx8144f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-rtm" ,emacs-rtm)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-rtm emacs-dash))
     (arguments '(#:files ("lisp/*.el")))
     (home-page "unspecified")
     (synopsis
@@ -101756,10 +99944,9 @@
             "1swb6xvdw6dql6wdj8y5kaaicwrafiz5jwnfl5h1viw08b98q8dv"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request-deferred"
-         ,emacs-request-deferred)
-        ("emacs-uuidgen" ,emacs-uuidgen)
-        ("emacs-unicode-escape" ,emacs-unicode-escape)))
+      (list emacs-request-deferred
+            emacs-uuidgen
+            emacs-unicode-escape))
     (home-page "unspecified")
     (synopsis "Interact with app.simplenote.com")
     (description
@@ -101781,8 +99968,7 @@
           (base32
             "0108q2b5h73rjxg9k2kmc8z6la9kgqdnz9z1x7rn61v3vbxlzqvn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page "unspecified")
     (synopsis
       "A simple subset of zencoding-mode for Emacs.")
@@ -101828,8 +100014,7 @@
             "18fnvr7a6zai2nxnv8sq42lgwgfig6ygfkyvcnzn04x7yw7wigxg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-terminal-focus-reporting"
-         ,emacs-terminal-focus-reporting)))
+      (list emacs-terminal-focus-reporting))
     (home-page
       "https://github.com/laishulu/emacs-smart-input-source")
     (synopsis
@@ -101854,9 +100039,7 @@
             "0xal5m59z8whrsr6id52gb6f22jy6dp349xvs6xxjdfamj1083r7"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-s emacs-f emacs-dash))
     (arguments
       '(#:files
         ("*.el"
@@ -101906,8 +100089,7 @@
           (base32
             "0md6gghgp8hn296fjwc3ikliw7p412v20917v0kqqlisdskizfbx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-skewer-mode" ,emacs-skewer-mode)))
+    (propagated-inputs (list emacs-skewer-mode))
     (home-page "unspecified")
     (synopsis
       "Skewer support for live LESS stylesheet updates")
@@ -101931,8 +100113,7 @@
             "07fv33arh77kdfglg6yv28gvryh0z7ddxylhdyr5plvvglpbwi88"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-simple-httpd" ,emacs-simple-httpd)
-        ("emacs-js2-mode" ,emacs-js2-mode)))
+      (list emacs-simple-httpd emacs-js2-mode))
     (arguments '(#:files ("*.html" "*.js" "*.el")))
     (home-page
       "https://github.com/skeeto/skewer-mode")
@@ -101957,8 +100138,7 @@
           (base32
             "0c8dpbl0z45w1brllcysibmpbnk8yqjgi3iywmqnhrycb7lrda4g"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-skewer-mode" ,emacs-skewer-mode)))
+    (propagated-inputs (list emacs-skewer-mode))
     (arguments '(#:files (:defaults "*.js")))
     (home-page "unspecified")
     (synopsis
@@ -102027,12 +100207,12 @@
             "15g4dmy4iqqpk8ivhkpsngzllbw0nc5d2sc9j36sdnhwkajzhidj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-websocket" ,emacs-websocket)
-        ("emacs-request" ,emacs-request)
-        ("emacs-oauth2" ,emacs-oauth2)
-        ("emacs-circe" ,emacs-circe)
-        ("emacs-alert" ,emacs-alert)
-        ("emacs-emojify" ,emacs-emojify)))
+      (list emacs-websocket
+            emacs-request
+            emacs-oauth2
+            emacs-circe
+            emacs-alert
+            emacs-emojify))
     (home-page
       "https://github.com/yuya373/emacs-slack")
     (synopsis "Slack client for Emacs")
@@ -102099,8 +100279,7 @@
           (base32
             "05sygyrxw86gn5vglckz85621gq8s24y7sc82v0x1b0vy5sahzky"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-macrostep" ,emacs-macrostep)))
+    (propagated-inputs (list emacs-macrostep))
     (arguments
       '(#:files
         ("*.el"
@@ -102137,8 +100316,7 @@
             "05dnnc4ms5c9yp9h65k2gbkg3pw9k38nx5wzlwdlfr4shqmw54w0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-slime" ,emacs-slime)
-        ("emacs-company" ,emacs-company)))
+      (list emacs-slime emacs-company))
     (home-page "unspecified")
     (synopsis
       "slime completion backend for company mode")
@@ -102162,8 +100340,7 @@
             "03jm0964qqggqia2fkvqgrx8r4knj1qgqr8vimr0x4q2j73lj12a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-slime" ,emacs-slime)
-        ("emacs-docker-tramp" ,emacs-docker-tramp)))
+      (list emacs-slime emacs-docker-tramp))
     (arguments
       '(#:files (:defaults "bin" "resources")))
     (home-page
@@ -102189,8 +100366,7 @@
           (base32
             "0rbg6ndi59ycw54s2c21a3c2cr0wlymrpp4qr33yxv1ik00n5n5p"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-slime" ,emacs-slime)))
+    (propagated-inputs (list emacs-slime))
     (home-page
       "https://gitlab.com/augfab/slime-repl-ansi-color")
     (synopsis "Turn on ANSI colors in REPL output;")
@@ -102399,9 +100575,7 @@
           (base32
             "1dvjwdan3qd3x716zgziy5vbq2972rz8pdqi7b40haqg01f33qf4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-sly" ,emacs-sly)
-        ("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-sly emacs-popup))
     (arguments
       '(#:files (:defaults "*.lisp" "*.asd")))
     (home-page
@@ -102426,7 +100600,7 @@
           (base32
             "0par51rbspk2gqfqag24rynzdvv4npdifdy7bjz9n0b0p2ly39kc"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-sly" ,emacs-sly)))
+    (propagated-inputs (list emacs-sly))
     (arguments
       '(#:files (:defaults "*.lisp" "*.asd")))
     (home-page
@@ -102452,8 +100626,7 @@
             "1nxf28gn4f3n0wnv7nb5sgl36fz175y470zs9hig4kq8cp0yal0r"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-sly" ,emacs-sly)
-        ("emacs-macrostep" ,emacs-macrostep)))
+      (list emacs-sly emacs-macrostep))
     (arguments
       '(#:files (:defaults "*.lisp" "*.asd")))
     (home-page
@@ -102479,7 +100652,7 @@
           (base32
             "16asd119rzqrlclps2q6yrkis8jy5an5xgzzqvb7jdyq39zxg54q"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-sly" ,emacs-sly)))
+    (propagated-inputs (list emacs-sly))
     (arguments
       '(#:files (:defaults "*.lisp" "*.asd")))
     (home-page
@@ -102505,7 +100678,7 @@
           (base32
             "13qjscsgbpzb7bvpybglx46p3nvzdv10v3king9za54qig4gi0v0"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-sly" ,emacs-sly)))
+    (propagated-inputs (list emacs-sly))
     (arguments
       '(#:files (:defaults "*.lisp" "*.asd")))
     (home-page
@@ -102530,7 +100703,7 @@
           (base32
             "0fgcn6bwgz8yyjza07kfi86siargvpq4kp4j20hs6b67ckxjxx0x"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-sly" ,emacs-sly)))
+    (propagated-inputs (list emacs-sly))
     (home-page
       "https://github.com/PuercoPop/sly-repl-ansi-color")
     (synopsis
@@ -102662,8 +100835,7 @@
           (base32
             "19l47xqzjhhm9j3izik0imssip5ygg3lnflb9ixsz1js571aaxha"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-expand-region" ,emacs-expand-region)))
+    (propagated-inputs (list emacs-expand-region))
     (home-page "unspecified")
     (synopsis "Semantic navigation")
     (description
@@ -102772,8 +100944,7 @@
           (base32
             "1h5w5lrgrmhpaqwppg5msylh7z78mvwy9mm8xiiv8w4wxvncxxl2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-rich-minority" ,emacs-rich-minority)))
+    (propagated-inputs (list emacs-rich-minority))
     (home-page
       "http://github.com/Malabarba/smart-mode-line")
     (synopsis "A color coded smart mode-line.")
@@ -102796,8 +100967,7 @@
           (base32
             "1hm2mg4360p19fjmagds3bimclsxx6c0qy5z0f25fdk8zzzccmak"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-smart-mode-line" ,emacs-smart-mode-line)))
+    (propagated-inputs (list emacs-smart-mode-line))
     (home-page
       "https://github.com/daviderestivo/smart-mode-line-atom-one-dark-theme")
     (synopsis
@@ -102822,8 +100992,7 @@
             "1h5w5lrgrmhpaqwppg5msylh7z78mvwy9mm8xiiv8w4wxvncxxl2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-powerline" ,emacs-powerline)
-        ("emacs-smart-mode-line" ,emacs-smart-mode-line)))
+      (list emacs-powerline emacs-smart-mode-line))
     (arguments '(#:files ("themes/*.el")))
     (home-page
       "http://github.com/Bruce-Connor/smart-mode-line")
@@ -102871,9 +101040,7 @@
             "0h559cdyln5f4ignx1r86ryi7wizys0gj03dj7lfzaxr7wkd0jaf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-expand-region" ,emacs-expand-region)
-        ("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)))
+      (list emacs-expand-region emacs-multiple-cursors))
     (home-page
       "https://github.com/uk-ar/smart-region")
     (synopsis
@@ -103009,7 +101176,7 @@
           (base32
             "0n0c2knva2c6ajdhqglr2yzhr53sgqr4bscsd1lwmwajgb0iyrw3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/Fuco1/smartparens")
     (synopsis
@@ -103210,7 +101377,7 @@
           (base32
             "1rk1x096akhn5rip8vp2lf0yyyybqwq3w75vkmkg4dcb9cbrwz1q"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files (:defaults "source.org")))
     (home-page
       "https://gitlab.com/mtekman/smithers.el")
@@ -103416,9 +101583,9 @@
             "0cm02r0bgmj2dr6njdm1059q0gjx12c13cs1yxx0zqr6294jiby6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-simple-httpd" ,emacs-simple-httpd)
-        ("emacs-request" ,emacs-request)
-        ("emacs-oauth2" ,emacs-oauth2)))
+      (list emacs-simple-httpd
+            emacs-request
+            emacs-oauth2))
     (home-page "https://github.com/danielfm/smudge")
     (synopsis "Control the Spotify app")
     (description
@@ -103461,8 +101628,7 @@
           (base32
             "0rmvzrkx56zrlziln9cbq9p7lpm7jlv6i1mfrzrqhri239xlybn4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magit-popup" ,emacs-magit-popup)))
+    (propagated-inputs (list emacs-magit-popup))
     (home-page
       "https://git.kyleam.com/snakemake-mode/about")
     (synopsis
@@ -103510,8 +101676,7 @@
             "1bdy7p0bjfdlv6l6yih6fvvi7xpldal4rj8l2ajpc6sgby24h8bb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-snapshot-timemachine"
-         ,emacs-snapshot-timemachine)))
+      (list emacs-snapshot-timemachine))
     (home-page "unspecified")
     (synopsis
       "rsnapshot backend for snapshot-timemachine")
@@ -103534,8 +101699,7 @@
           (base32
             "1y2l8b72jzcyarilj4j4q3rwcg0wkn2r3m01k0g2kg73zsffvhss"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-base16-theme" ,emacs-base16-theme)))
+    (propagated-inputs (list emacs-base16-theme))
     (home-page
       "https://github.com/weijiangan/emacs-snazzy/")
     (synopsis
@@ -103559,8 +101723,7 @@
           (base32
             "0bh9brzqsvm6dj961smp4592bgjrhhq600qbqbgps8rnbbcjnl3r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://github.com/SpringHan/sniem.git")
     (synopsis "Simple united editing method")
@@ -103671,7 +101834,7 @@
           (base32
             "09kkbk5rsjdkajqmq8xkgl4xd9b3c96bp823zfal18jq5jcf2x8j"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/md-arif-shaikh/soccer")
     (synopsis
@@ -103696,9 +101859,7 @@
             "0jks5dkxhhgh4gbli90p71s8354iywlwj2lq6n5fyqxbdxzk412d"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-pkg-info" ,emacs-pkg-info)))
+      (list emacs-s emacs-dash emacs-pkg-info))
     (home-page "https://github.com/nlamirault/socyl")
     (synopsis "Frontend for several search tools")
     (description
@@ -103834,9 +101995,9 @@
             "1vs64gwm6zn47fl4nvaizkwh8zwnqh764yqcmggyz4awsxsxg6ym"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-solidity-mode" ,emacs-solidity-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-flycheck
+            emacs-solidity-mode
+            emacs-dash))
     (arguments '(#:files ("solidity-flycheck.el")))
     (home-page "unspecified")
     (synopsis
@@ -103911,8 +102072,7 @@
             "1a2bsz5b9mz5wxj5bf4k79ddjln987k8s2d12q8fifq5pnj1gp26"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash emacs-request))
     (home-page
       "https://github.com/artenator/somafm.el")
     (synopsis "A simple soma.fm interface")
@@ -103957,8 +102117,7 @@
           (base32
             "1b858049n6nw4qf60fmszjrhl80x7ssh32f7glj722kwy7404kdh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-autothemer" ,emacs-autothemer)))
+    (propagated-inputs (list emacs-autothemer))
     (home-page
       "http://github.com/vxid/emacs-theme-sorcery")
     (synopsis "A D&D (Dark and Dusty) Theme")
@@ -104026,9 +102185,9 @@
             "1gf5fsrjigzxabd9k47lb98y3wdjwpw02x9ldnjzrgxfjfbxgqm0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-clojure-mode" ,emacs-clojure-mode)
-        ("emacs-cider" ,emacs-cider)
-        ("emacs-sotlisp" ,emacs-sotlisp)))
+      (list emacs-clojure-mode
+            emacs-cider
+            emacs-sotlisp))
     (home-page
       "https://github.com/Malabarba/speed-of-thought-clojure")
     (synopsis
@@ -104074,8 +102233,7 @@
           (base32
             "18iahla8m9b6bdn63x2yrvr3rzyw5ybipf44q9avyy6s1pqsby2a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-deferred" ,emacs-deferred)))
+    (propagated-inputs (list emacs-deferred))
     (home-page
       "https://github.com/syohex/emacs-sound-wav")
     (synopsis "Play wav file")
@@ -104099,12 +102257,11 @@
             "1m8wcm6y80gq5rrm4brd3f20kmk54s6ph26j4lz4cmilxk6gj56v"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-emms" ,emacs-emms)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-string-utils" ,emacs-string-utils)
-        ("emacs-request" ,emacs-request)
-        ("emacs-request-deferred"
-         ,emacs-request-deferred)))
+      (list emacs-emms
+            emacs-deferred
+            emacs-string-utils
+            emacs-request
+            emacs-request-deferred))
     (home-page "unspecified")
     (synopsis "a SoundCloud client for Emacs")
     (description
@@ -104127,11 +102284,11 @@
             "03c86qxdya306p6150f3vwhlh51q5vsbgqzgcdxhm72raf32gs59"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-emms" ,emacs-emms)
-        ("emacs-s" ,emacs-s)
-        ("emacs-pkg-info" ,emacs-pkg-info)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash
+            emacs-emms
+            emacs-s
+            emacs-pkg-info
+            emacs-request))
     (home-page
       "https://github.com/r0man/soundklaus.el")
     (synopsis
@@ -104156,8 +102313,7 @@
             "18pv1hcilj7kndr7a29jjskp21khh1sd0wy01h8y8y9mf70kikg6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash emacs-request))
     (arguments '(#:files ("sourcekit.el")))
     (home-page
       "https://github.com/nathankot/company-sourcekit")
@@ -104269,8 +102425,7 @@
           (base32
             "08jfqvm8xfw0mhgfns6q2ysfwqr6g6iz8vc4g4svdbsimmfhf6ka"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-eyebrowse" ,emacs-eyebrowse)))
+    (propagated-inputs (list emacs-eyebrowse))
     (home-page
       "https://github.com/matthias-margush/spacebar")
     (synopsis "Workspaces Bar")
@@ -104316,9 +102471,7 @@
             "0m4542wba9zi18qv8lzhgz8f9dbf01l3dca7vv7i0wmnjsg9bsj9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-powerline" ,emacs-powerline)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-powerline emacs-dash emacs-s))
     (home-page "https://github.com/TheBB/spaceline")
     (synopsis
       "Modeline configuration library for powerline")
@@ -104342,9 +102495,9 @@
             "1chv6lv216qa88fm2wil45x19dzahcclr9p5vizcziq180dnmass"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)
-        ("emacs-spaceline" ,emacs-spaceline)
-        ("emacs-memoize" ,emacs-memoize)))
+      (list emacs-all-the-icons
+            emacs-spaceline
+            emacs-memoize))
     (home-page
       "https://github.com/domtronn/spaceline-all-the-icons.el")
     (synopsis
@@ -104596,7 +102749,7 @@
           (base32
             "0pzml057q2sswjfzd95i2acy50gpczfjbydivl4h5zkbpxgzhrw8"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (arguments
       '(#:files ("speedbar-git-respect.el")))
     (home-page
@@ -104666,8 +102819,7 @@
           (base32
             "0q72i95yx3xa57jlgr7dik6prf20hi8bp8xf3f5c6ificv7i5378"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (home-page
       "https://github.com/naiquevin/sphinx-doc.el")
     (synopsis
@@ -104714,8 +102866,7 @@
           (base32
             "0ngc0b4z0s25l85wk3b4f3ipxnzxl4caiava9kb6jsci0ylap98a"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-f emacs-dash))
     (home-page "unspecified")
     (synopsis "Minor mode providing sphinx support.")
     (description
@@ -104759,11 +102910,11 @@
             "1rggzzvya26abbzd8bc2kpv59kzgm75wqv1vwqnj9c8im1jvs1na"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-a" ,emacs-a)
-        ("emacs-avy" ,emacs-avy)
-        ("emacs-clojure-mode" ,emacs-clojure-mode)
-        ("emacs-highlight" ,emacs-highlight)
-        ("emacs-treepy" ,emacs-treepy)))
+      (list emacs-a
+            emacs-avy
+            emacs-clojure-mode
+            emacs-highlight
+            emacs-treepy))
     (arguments
       '(#:files
         (:defaults
@@ -104865,8 +103016,7 @@
             "1dda4gwxyhnr73ckjr70yjah9dmddvyfcwlrbb6d6bidb70ib0dj"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-swiper" ,emacs-swiper)
-        ("emacs-counsel" ,emacs-counsel)))
+      (list emacs-swiper emacs-counsel))
     (home-page "http://www.pragmaticemacs.com")
     (synopsis "search files with Mac OS X spotlight")
     (description
@@ -104910,7 +103060,7 @@
           (base32
             "0fn8c4hqblfjvcpg68kj2dmdjqsdnxddqbzgvakl43zckjg8pi01"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-helm" ,emacs-helm)))
+    (propagated-inputs (list emacs-helm))
     (arguments '(#:files ("springboard.el")))
     (home-page
       "https://github.com/jwiegley/springboard")
@@ -104935,7 +103085,7 @@
           (base32
             "06rk07h92s5sljprs41y3q31q64cprx9kgs56c2j6v4c8cmsq5h6"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-furl" ,emacs-furl)))
+    (propagated-inputs (list emacs-furl))
     (home-page
       "https://github.com/sprintly/sprintly-mode")
     (synopsis
@@ -104980,8 +103130,7 @@
           (base32
             "03wjzk1ljclfjgqzkg6m7v8saaajgavyd0xskd8fg8rdkx13ki0l"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "unspecified")
     (synopsis "Upload pastes to sprunge.us")
     (description
@@ -105092,8 +103241,7 @@
           (base32
             "0hra8lrg4fkqr6x6cq9mbqx8y7fkbccgzxmqfngy8cj2dbcvp9k9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/purcell/sqlformat")
     (synopsis
@@ -105345,7 +103493,7 @@
           (base32
             "1i3zmsn0w2k7p2hlzssibckm32kf05l56mkhg96x4sf06g3pwq1d"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/magit/ssh-agency")
     (synopsis "manage ssh-agent from Emacs")
     (description
@@ -105436,8 +103584,7 @@
             "1f2dxlc3dsf9ay417h1l43fxjkrb0a4gg96zd3asx9v2alpzgcim"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-haskell-mode" ,emacs-haskell-mode)
-        ("emacs-flycheck" ,emacs-flycheck)))
+      (list emacs-haskell-mode emacs-flycheck))
     (arguments '(#:files ("stack-mode/*.el")))
     (home-page
       "https://github.com/commercialhaskell/stack-ide")
@@ -105489,8 +103636,7 @@
             "06y4gvw8g4mjyiv77rznivqphh9sayjmi9aqr9nhxlf6i19a6hqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-stan-mode" ,emacs-stan-mode)
-        ("emacs-yasnippet" ,emacs-yasnippet)))
+      (list emacs-stan-mode emacs-yasnippet))
     (arguments
       '(#:files
         ("stan-snippets/stan-snippets.el"
@@ -105519,8 +103665,7 @@
           (base32
             "1vxgg1gs2ma2c121dgqg9vnzcacb7dxdkxlwdxg0dkivnqicxiyg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-f emacs-s))
     (home-page
       "https://github.com/lafrenierejm/standard-dirs.el")
     (synopsis
@@ -105567,8 +103712,7 @@
           (base32
             "1w3l8ahal9hjisny382bcw9w1nh2swpb1jzf2djww5h0i4r2h36c"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-config-parser" ,emacs-config-parser)))
+    (propagated-inputs (list emacs-config-parser))
     (home-page
       "https://github.com/lujun9972/el-start-menu")
     (synopsis
@@ -105719,10 +103863,10 @@
         (uri (git-reference
                (url "https://github.com/stacked-git/stgit.git")
                (commit
-                 "d5bef96e847b50bd436725fa3b102f0c41b56bae")))
+                 "759a38bd8418116e8cdca41a8aacd7ae13ede93e")))
         (sha256
           (base32
-            "16wfds3w1lqjs74bms86r6r7s6q214gbpk4pcql0jynig73r9wvc"))))
+            "0xf5a4149x9r6yg13vifx5jgsk80j50jv1m7app9mh4wm04f6kvp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("contrib/stgit.el")))
     (home-page "http://stacked-git.github.io")
@@ -105813,9 +103957,7 @@
           (base32
             "191sg32z1iagyxmbn49i1lpfihld9g9741cw2kj830s4vag4kinx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-s emacs-request))
     (home-page
       "https://github.com/hagleitn/stock-ticker")
     (synopsis "Show stock prices in mode line")
@@ -105838,7 +103980,7 @@
           (base32
             "0dmjvgkhd445azs6vrj8lzcfmnm3h4prajr0c416s2ircrzpgnd9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/beacoder/stock-tracker")
     (synopsis "Track stock price")
@@ -105904,7 +104046,7 @@
           (base32
             "1v6xr9x82m7f43zd228158pr6cwy90lfg8i68w67n6svj2gx19vp"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/BenediktBroich/streamlink")
     (synopsis "A major mode for streamlink output")
@@ -105949,7 +104091,7 @@
           (base32
             "1x5b3iq1c25c74jb77qw3zijblp6zx9kp9hzsb0wfx66lp4wn2wi"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("string-edit.el")))
     (home-page "unspecified")
     (synopsis
@@ -105995,8 +104137,7 @@
           (base32
             "1frdspm1qgksa8cpx5gkj50xk9mgz8202pgp11lqir6l3yjcj3wq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-list-utils" ,emacs-list-utils)))
+    (propagated-inputs (list emacs-list-utils))
     (home-page
       "http://github.com/rolandwalker/string-utils")
     (synopsis "String-manipulation utilities")
@@ -106289,8 +104430,7 @@
           (base32
             "1j8q47vvvsdfb9hg2r72dgmg2a886aa15yrvi6ahp7g5z4jmp19k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)))
+    (propagated-inputs (list emacs-transient))
     (home-page "https://git.sr.ht/~amk/subsonic.el")
     (synopsis
       "Browse and play music from subsonic servers with mpv")
@@ -106401,11 +104541,11 @@
             "11jqglwqi5q14rk44z02dffk6cqmhjgdda0y63095g8n1ll71jsb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-loop" ,emacs-loop)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-spinner" ,emacs-spinner)))
+      (list emacs-loop
+            emacs-dash
+            emacs-s
+            emacs-f
+            emacs-spinner))
     (home-page
       "https://github.com/Wilfred/suggest.el")
     (synopsis
@@ -106429,8 +104569,7 @@
           (base32
             "01lx20kzay5504xcq6m6yhvayyd7wpzaa1r6i67xqjnr25lqyajw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page "unspecified")
     (synopsis "show tooltip on the cursor")
     (description
@@ -106653,8 +104792,7 @@
           (base32
             "14h40s0arc2i898r9yysn256z6l8jkrnmqvrdg7p7658c0klz5ic"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-xmlgen" ,emacs-xmlgen)))
+    (propagated-inputs (list emacs-xmlgen))
     (home-page
       "https://github.com/sabof/svg-mode-line-themes")
     (synopsis "SVG-based themes for mode-line")
@@ -106699,8 +104837,7 @@
           (base32
             "08sg55cmjbk06622mzhv74f5b5dvbay7gb729zsckczxwrp1cayp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-e2ansi" ,emacs-e2ansi)))
+    (propagated-inputs (list emacs-e2ansi))
     (arguments '(#:files (:defaults "bin")))
     (home-page
       "https://github.com/Lindydancer/svnwrapper")
@@ -106793,7 +104930,7 @@
           (base32
             "1xqlflk0k1zcsblydsx583mrh5zxpjbah8h1jb1lrfzwrbx0m627"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/thblt/sway.el")
     (synopsis
       "Communication with the Sway window manager")
@@ -106839,9 +104976,7 @@
             "1pd13v3xma78xa0smxql4i2iax72kxqh7iwp3k16jwzrklmsdiyr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-helm" ,emacs-helm)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-dash emacs-helm emacs-request))
     (home-page
       "https://www.github.com/CestDiego/sweetgreen.el")
     (synopsis "Order Salads from sweetgreen.com")
@@ -106865,9 +105000,7 @@
             "0z6prh1xrc8ddq57kas6kvp6n4pia25aps5pg3aq78cwfchzzrk0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-lsp-mode" ,emacs-lsp-mode)
-        ("emacs-swift-mode" ,emacs-swift-mode)))
+      (list emacs-dash emacs-lsp-mode emacs-swift-mode))
     (arguments
       '(#:files
         ("*.el"
@@ -106970,7 +105103,7 @@
           (base32
             "1w8x2qk8lafnn6ksv1anixayyl476y1j6hp2amfnqmdkh0vnh63v"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ivy" ,emacs-ivy)))
+    (propagated-inputs (list emacs-ivy))
     (arguments '(#:files ("swiper.el")))
     (home-page "https://github.com/abo-abo/swiper")
     (synopsis "Isearch with an overview. Oh, man!")
@@ -106994,8 +105127,7 @@
             "05n4h20lfyg1kis5rig72ajbz680ml5fmsy6l1w4g9jx2xybpll2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-swiper" ,emacs-swiper)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-swiper emacs-helm))
     (home-page
       "https://github.com/abo-abo/swiper-helm")
     (synopsis "Helm version of Swiper.")
@@ -107085,9 +105217,7 @@
             "1kjzc7543b7l0rcq9iiwf8sq39akzw5spsv51yl4wmwgnmyj2n1c"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-pcre2el" ,emacs-pcre2el)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-ht emacs-pcre2el emacs-async))
     (home-page
       "https://github.com/ShingoFukuyama/emacs-swoop")
     (synopsis "Peculiar buffer navigation")
@@ -107132,8 +105262,7 @@
           (base32
             "0m90ddwm8j0y6d1ppqhd2gil1107k202blw6mzm5bdambn4nfqkf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-markdown-mode" ,emacs-markdown-mode)))
+    (propagated-inputs (list emacs-markdown-mode))
     (home-page
       "https://github.com/vermiculus/sx.el/")
     (synopsis
@@ -107157,7 +105286,7 @@
           (base32
             "14wh7fw45w5cfdqibrcfzahsf4cwbi97xp16jd773ynkcf049cjs"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://gitlab.com/contrapunctus/sxiv.el")
     (synopsis "Run the sxiv image viewer")
@@ -107181,11 +105310,9 @@
             "06cl7njizn68vml21lsl3p66wpcdcw6ah49jqjvwzjkzivrds3m5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-highlight-symbol"
-         ,emacs-auto-highlight-symbol)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)))
+      (list emacs-auto-highlight-symbol
+            emacs-hydra
+            emacs-multiple-cursors))
     (home-page
       "https://github.com/bgwines/symbol-navigation-hydra")
     (synopsis "A symbol-aware, range-aware hydra")
@@ -107254,7 +105381,7 @@
           (base32
             "1vlfzg89ygynw0dxxbsd40wky2k14vapdxb50kdgk2h4yszppzas"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/ncaq/symbolword-mode")
     (synopsis "modify word split")
@@ -107278,14 +105405,13 @@
             "1vyk8zg4k3rnnq1cd8znflwb6ci5iwv8g7jxqkqzi0i8x2ma00r9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lispy" ,emacs-lispy)
-        ("emacs-paredit" ,emacs-paredit)
-        ("emacs-evil-cleverparens"
-         ,emacs-evil-cleverparens)
-        ("emacs-evil" ,emacs-evil)
-        ("emacs-evil-surround" ,emacs-evil-surround)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-undo-tree" ,emacs-undo-tree)))
+      (list emacs-lispy
+            emacs-paredit
+            emacs-evil-cleverparens
+            emacs-evil
+            emacs-evil-surround
+            emacs-hydra
+            emacs-undo-tree))
     (home-page
       "https://github.com/countvajhula/symex.el")
     (synopsis
@@ -107331,8 +105457,7 @@
           (base32
             "030bglxnvrkf1f9grbhd8n11j4c6sxpabpjdr1ryx522v01fvx8j"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-symon" ,emacs-symon)))
+    (propagated-inputs (list emacs-symon))
     (home-page "http://hins11.yu-yake.com/")
     (synopsis
       "A notification-based Lingr client powered by symon.el")
@@ -107378,8 +105503,7 @@
           (base32
             "1l0skavpj96x5gdrx9l8dqj4mrb7zcilv3jj335ak11p2i4ckcq2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "http://github.com/toroidal-code/synonymous.el")
     (synopsis "A thesaurus at your fingertips")
@@ -107424,8 +105548,7 @@
           (base32
             "0c0pi5w8xvir9gnbjp80g1c4i3rhid65zwh4i4vkyivkh2s29f6i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/cpitclaudel/synquid-mode")
     (synopsis "Major mode for editing Synquid files")
@@ -107538,9 +105661,7 @@
             "04ddpn6il6mh1f992x3fxl6yljryghi51q4845lx08cbc74wnfz0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-hide-lines" ,emacs-hide-lines)
-        ("emacs-ov" ,emacs-ov)
-        ("emacs-hsluv" ,emacs-hsluv)))
+      (list emacs-hide-lines emacs-ov emacs-hsluv))
     (home-page
       "https://github.com/vapniks/syslog-mode")
     (synopsis
@@ -107698,7 +105819,7 @@
           (base32
             "040nl3yn0vfhk5nbll2jpxz7qcjf8kdlkzqa44lz0gvc6d9414yv"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/fritzgrabo/tab-bar-groups")
     (synopsis "Tab groups for the tab bar")
@@ -107765,7 +105886,7 @@
           (base32
             "0h7sfbca1nzcjylwl7zp25yj6wxnlx8g8a50zc6sg6jg4rggi2fm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis
       "Use tab to jump out of delimiter pairs.")
@@ -107811,9 +105932,9 @@
             "1csj6qhwihdf4kfahcqhm163isiwac08w4nqid1hnca184bfk6xm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-tabbar" ,emacs-tabbar)
-        ("emacs-powerline" ,emacs-powerline)
-        ("emacs-mode-icons" ,emacs-mode-icons)))
+      (list emacs-tabbar
+            emacs-powerline
+            emacs-mode-icons))
     (home-page
       "http://github.com/mlf176f2/tabbar-ruler.el")
     (synopsis
@@ -107880,8 +106001,7 @@
           (base32
             "0xq9i3axlq9wgsr27nbhi5k9hxr1wahygkb73xkvxlgmvkmikcrw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s) ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("tagedit.el")))
     (home-page "unspecified")
     (synopsis
@@ -107905,8 +106025,7 @@
           (base32
             "13zwlb5805cpv0pbr7fj5b4crlg7lb0ibslvcpszm0cz6rlifcvf"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-web-server" ,emacs-web-server)))
+    (propagated-inputs (list emacs-web-server))
     (arguments '(#:files ("*.el" "front")))
     (home-page
       "https://github.com/tburette/take-off")
@@ -108045,8 +106164,7 @@
             "03llmj09jg5cba927qbzkhld83k24yd1i95nfiq7q754a4y4iksn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-async" ,emacs-async)))
+      (list emacs-projectile emacs-async))
     (home-page
       "https://github.com/emacs-taskrunner/emacs-taskrunner")
     (synopsis
@@ -108070,8 +106188,7 @@
           (base32
             "0bdai4gwz8nyc26gmb10z6pq6r2gw04iflzsc476xrp56d2abgbc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)))
+    (propagated-inputs (list emacs-cider))
     (arguments '(#:files ("emacs/tawny-mode.el")))
     (home-page "unspecified")
     (synopsis "Ontology Editing with Tawny-OWL")
@@ -108095,9 +106212,7 @@
             "1pja9v4h3abqc2iydm7wwjxrg7ni1pn94yb4azrgjq5qc0fsgn7a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-magit-popup" ,emacs-magit-popup)
-        ("emacs-tablist" ,emacs-tablist)))
+      (list emacs-dash emacs-magit-popup emacs-tablist))
     (home-page
       "https://github.com/Yuki-Inoue/tblui.el")
     (synopsis "Define tabulated list UI easily")
@@ -108120,8 +106235,7 @@
           (base32
             "1jp80qywcphql1ngd4fr24lqdfwrw0bw6q9hgq5vmzgjwfxwxwd4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/istib/tbx2org")
     (synopsis "Tinderbox to org-mode conversion")
     (description
@@ -108166,7 +106280,7 @@
           (base32
             "0lh04mpa1yb3mwasvnnbdzffcig7ndlk13d96a0lavqn49a10fa3"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/Wilfred/tco.el")
     (synopsis
       "Tail-call optimisation for Emacs lisp")
@@ -108256,10 +106370,8 @@
             "17hf0afh3108ih153ff3j49xz872wv9bzzn14b2mar1mf7i302ws"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-visual-fill-column"
-         ,emacs-visual-fill-column)
-        ("emacs-rainbow-identifiers"
-         ,emacs-rainbow-identifiers)))
+      (list emacs-visual-fill-column
+            emacs-rainbow-identifiers))
     (arguments
       '(#:files
         (:defaults "etc" "server" "contrib" "Makefile")))
@@ -108349,8 +106461,7 @@
           (base32
             "0j0qd75nz0b97pg7x58cf6cxanmwkbyam6raq6zwdlvllwmsq6qd"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-teletext" ,emacs-teletext)))
+    (propagated-inputs (list emacs-teletext))
     (home-page
       "https://github.com/lassik/emacs-teletext-yle")
     (synopsis
@@ -108374,7 +106485,7 @@
           (base32
             "1hfm0miqzym4fbj33hzh5iszp0i51imr1z54396vd81zjch9sxss"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ov" ,emacs-ov)))
+    (propagated-inputs (list emacs-ov))
     (home-page
       "http://www.github.com/mmontone/template-overlays")
     (synopsis
@@ -108393,10 +106504,10 @@
         (uri (git-reference
                (url "https://github.com/clarete/templatel.git")
                (commit
-                 "e1ccb88cdc4b482b078276960f810b82ba3b7847")))
+                 "b52349948b6927f7a5da4e54a89e01c794f2095a")))
         (sha256
           (base32
-            "0wy53y7p6i0m9az0ca4zqrqfq40cgn202pilsawdy8rlpj9y619p"))))
+            "1z5bcd3654zkm89mkx29bcybs97zmwi14xdmbh356di9jbwzk93s"))))
     (build-system melpa-build-system)
     (home-page "https://clarete.li/templatel")
     (synopsis "Templating language;")
@@ -108420,9 +106531,7 @@
             "1np9xh6gqynp96rby2shh4w40r14vsvpvwaibq0c1wr1ydwggm9i"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-names" ,emacs-names)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-names emacs-dash emacs-s))
     (home-page
       "https://github.com/kostafey/temporary-persistent")
     (synopsis "Keep temp notes buffers persistent")
@@ -108491,8 +106600,7 @@
             "1dql2w8xkdw52zlrc2p9x391zn8wv4dj8a6293p4s08if7gg260w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-term+" ,emacs-term+)
-        ("emacs-key-intercept" ,emacs-key-intercept)))
+      (list emacs-term+ emacs-key-intercept))
     (home-page "http://github.com/tarao/term+-el")
     (synopsis "term+ intercept key mapping")
     (description
@@ -108515,8 +106623,7 @@
             "12gfvcf7hl29xhg231cx76q04ll7cvfpvhkb0qs3qn1sqb50fs2q"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-term+" ,emacs-term+)
-        ("emacs-tab-group" ,emacs-tab-group)))
+      (list emacs-term+ emacs-tab-group))
     (home-page "http://github.com/tarao/term+-el")
     (synopsis
       "term+ terminal multiplexer and session management")
@@ -108540,9 +106647,7 @@
             "0jnv1011y521pc4rrjyrv1la6r1q2sb120lxf1nbns17wv86d0cd"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-term-cmd" ,emacs-term-cmd)
-        ("emacs-alert" ,emacs-alert)
-        ("emacs-f" ,emacs-f)))
+      (list emacs-term-cmd emacs-alert emacs-f))
     (arguments '(#:files (:defaults "setup")))
     (home-page
       "https://github.com/calliecameron/term-alert")
@@ -108567,8 +106672,7 @@
           (base32
             "1knijk9l8ipb882h8awwx18lh3q1yy13dyjp5gm36nw06212qxx2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-dash emacs-f))
     (arguments '(#:files (:defaults "bin")))
     (home-page
       "https://github.com/calliecameron/term-cmd")
@@ -108593,7 +106697,7 @@
           (base32
             "1rkivl5dy25haip62ybb10fd0gda9aacg9nafj6rkpa7n6mwkkqm"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("term-manager*.el")))
     (home-page
       "https://www.github.com/IvanMalison/term-manager")
@@ -108618,8 +106722,7 @@
             "1rkivl5dy25haip62ybb10fd0gda9aacg9nafj6rkpa7n6mwkkqm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-term-manager" ,emacs-term-manager)
-        ("emacs-projectile" ,emacs-projectile)))
+      (list emacs-term-manager emacs-projectile))
     (arguments '(#:files ("term-projectile.el")))
     (home-page
       "https://www.github.com/IvanMalison/term-manager")
@@ -108734,8 +106837,7 @@
           (base32
             "150xvmr5vsydg0197m1k62mwy2810mzh1iwqj9yl9fg47fbzbg0i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popwin" ,emacs-popwin)))
+    (propagated-inputs (list emacs-popwin))
     (home-page
       "https://github.com/mtekman/terminal-toggle.el")
     (synopsis "simple pop-up terminal")
@@ -108781,8 +106883,7 @@
             "1c3zamvcambi9l91vilc0sbyzn21jj89n9j02simza4ffyn9xix9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-tern" ,emacs-tern)
-        ("emacs-auto-complete" ,emacs-auto-complete)))
+      (list emacs-tern emacs-auto-complete))
     (arguments
       '(#:files ("emacs/tern-auto-complete.el")))
     (home-page "unspecified")
@@ -108830,8 +106931,7 @@
             "0r4zw6jwn5v1xzzbc1195jblhcg3ikbmz3wiwy462qzib56bj8d3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-hcl-mode" ,emacs-hcl-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-hcl-mode emacs-dash))
     (home-page
       "https://github.com/syohex/emacs-terraform-mode")
     (synopsis
@@ -108876,8 +106976,7 @@
           (base32
             "1r3fmb8cshgh9pppdvydfcrzlmb9cgz4m04rgv69c5xv8clwcmbr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-fringe-helper" ,emacs-fringe-helper)))
+    (propagated-inputs (list emacs-fringe-helper))
     (home-page
       "http://nschum.de/src/emacs/test-case-mode/")
     (synopsis "unit test front-end")
@@ -108967,8 +107066,7 @@
           (base32
             "11xissn0xpfx2xxcm5qj2smkxa5frcswvhpfv6m34j12z0nww7pw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-auctex" ,emacs-auctex)))
+    (propagated-inputs (list emacs-auctex))
     (home-page
       "https://github.com/TobiasZawada/texfrag")
     (synopsis
@@ -109127,8 +107225,7 @@
           (base32
             "1xrw81n3llyr3191mpnr85grhayhkq5cq6g56p52mc4sahmqbqlg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-tablist" ,emacs-tablist)))
+    (propagated-inputs (list emacs-tablist))
     (home-page
       "http://github.com/sebasmonia/tfsmacs/")
     (synopsis "MS TFS source control interaction.")
@@ -109346,10 +107443,10 @@
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "0e9bd748df8dcb09b2150e489e5a43427694b79c")))
+                 "54c9f5dee03c0468a40d9111f8a943ad445e65fe")))
         (sha256
           (base32
-            "13fw53waj463vi3la2ascbmiqw0idmrj9bsn0cq57c9vj162bwnd"))))
+            "1qq42vy4011v1d3vwmr6jcp5ymfkf067ar4mfwgqfky7xr9m1c2k"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -109413,13 +107510,12 @@
         (uri (git-reference
                (url "https://github.com/tidalcycles/Tidal.git")
                (commit
-                 "0bd0ffc60e12ef7891430035249169411d8e11c5")))
+                 "b0a5a3f64b1121fb83d67922f820ed168f45c84c")))
         (sha256
           (base32
-            "032m32df754a1lr6sghaiy0zwd482bldssfbqc7dzihv8l3c6r2h"))))
+            "1p262x6x0rxj5hh0v720h0k5x231827p5bd6qpbn4i1gdrnr3gp1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-haskell-mode" ,emacs-haskell-mode)))
+    (propagated-inputs (list emacs-haskell-mode))
     (home-page
       "https://github.com/tidalcycles/Tidal")
     (synopsis
@@ -109444,10 +107540,10 @@
             "1ikvdxjr9kbs0l5hlann34q79r6gr3796rvi2ci2ki50kp69kfbw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-flycheck" ,emacs-flycheck)
-        ("emacs-typescript-mode" ,emacs-typescript-mode)))
+      (list emacs-dash
+            emacs-s
+            emacs-flycheck
+            emacs-typescript-mode))
     (arguments '(#:files (:defaults "tsserver")))
     (home-page
       "http://github.com/ananthakumaran/tide")
@@ -109496,9 +107592,7 @@
             "1qxhrm852j93sqi1lznlrjn7s0vscsixm48g46ja70gl320chyzm"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-stream" ,emacs-stream)))
+      (list emacs-s emacs-dash emacs-stream))
     (home-page "https://github.com/IvanMalison/tile")
     (synopsis "Tile windows with layouts")
     (description
@@ -109542,8 +107636,7 @@
           (base32
             "1573z8wq5m8qzbzmnsz2fmbwrj9c0ava0jjfchzmwm2b3jyvqh5r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-datetime-format" ,emacs-datetime-format)))
+    (propagated-inputs (list emacs-datetime-format))
     (arguments '(#:files ("timecop.el")))
     (home-page
       "https://github.com/zonuexe/emacs-datetime")
@@ -109580,18 +107673,17 @@
     (version "20191024.151")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/timesheet-"
-               version
-               ".tar"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tmarble/timesheet.el.git")
+               (commit
+                 "5098dc87d3d4f289b6c1b6532070dacbfe6de9fd")))
         (sha256
           (base32
-            "091qddf5l5yb3wwas6kb7qkxa1ff2db7hnsq50rd3882i6dqf1ay"))))
+            "0wqxlb4a7fzf14629zw021216qyzz56xwr8hfh2fy6kj90m9br4c"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-auctex" ,emacs-auctex)))
+    (propagated-inputs (list emacs-s emacs-auctex))
+    (arguments '(#:files ("*.el" "bin" "share")))
     (home-page
       "https://github.com/tmarble/timesheet.el")
     (synopsis
@@ -109616,13 +107708,13 @@
             "18yls8zc8d5nhx8j3l5av5xvmxmjrrmbzzab59kc6zib0isgxlcz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-f" ,emacs-f)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-pkg-info" ,emacs-pkg-info)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-request" ,emacs-request)
-        ("emacs-all-the-icons" ,emacs-all-the-icons)))
+      (list emacs-s
+            emacs-f
+            emacs-dash
+            emacs-pkg-info
+            emacs-hydra
+            emacs-request
+            emacs-all-the-icons))
     (home-page
       "https://github.com/nlamirault/timonier")
     (synopsis "Manage Kubernetes Applications")
@@ -109668,7 +107760,7 @@
           (base32
             "0ym6cxglacclk0sgwbnbswwslf8bs6d0drj89nrabnhad15prxgz"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "https://github.com/yyr/tinkerer.el")
     (synopsis
       "Elisp wrapper for Tinkerer Blogging Engine.")
@@ -109847,9 +107939,7 @@
           (base32
             "0b94ma5ycq5hvmkrwf3yp265dh140bx5dk7dp0r4n9xilpwk7nla"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-names" ,emacs-names)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-names emacs-s))
     (home-page
       "https://github.com/laishulu/emacs-tmux-pane")
     (synopsis
@@ -109919,8 +108009,7 @@
             "02wwsaj7vc5vs8xij6kzgqqdwigy0qcvridbp8zsjmhy2rgq4w3w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-dash emacs-transient))
     (home-page
       "https://github.com/abrochard/emacs-todoist")
     (synopsis
@@ -110215,8 +108304,7 @@
           (base32
             "05pg1qddsl0m4r73smrxpcvyiwa18d9jl6i8nfanlydwmmjqblb9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-web-server" ,emacs-web-server)))
+    (propagated-inputs (list emacs-web-server))
     (home-page
       "https://github.com/xuchunyang/tongbu.el")
     (synopsis
@@ -110328,7 +108416,7 @@
           (base32
             "188cdgic25wrb4jdgdcj070a0pxsh3m0rd9d2r6i1s1n1nalrs6g"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "unspecified")
     (synopsis
       "Display a random daily emacs command.")
@@ -110342,14 +108430,14 @@
     (version "20211018.1743")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/totp-"
-               version
-               ".tar"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/juergenhoetzel/emacs-totp.git")
+               (commit
+                 "680b2c969823b91e0b35afbe2a35a610cb2fa26a")))
         (sha256
           (base32
-            "04ikz87p73kalas5d0p88fz8mlap542xv5hb9bm6lrn33y8ggbrg"))))
+            "17ylcrz7gw1hyq9ls5anz7ycd5y6f3j06jxr6i80hj5ccylzy82c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/juergenhoetzel/emacs-totp")
@@ -110385,14 +108473,14 @@
     (version "20160424.2126")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/toxi-theme-"
-               version
-               ".el"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/postspectacular/toxi-theme.git")
+               (commit
+                 "90c8828b91025adf5adc96011a35d25682991b8a")))
         (sha256
           (base32
-            "090dvfmammvaks3538gff2fz4nq51008f4l05gfbsdf5s1agqxdk"))))
+            "1pnsky541m8kzcv81w98jkv0hgajh04hxqlmgddc1y0wbvi849j0"))))
     (build-system melpa-build-system)
     (home-page
       "http://bitbucket.org/postspectacular/toxi-theme/")
@@ -110428,17 +108516,17 @@
     (version "20211120.718")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/tr-ime-"
-               version
-               ".tar"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/trueroad/tr-emacs-ime-module.git")
+               (commit
+                 "e6313639afb51d91efcc417bd0c81afd13bb079c")))
         (sha256
           (base32
-            "07bazr7mb6fi1rjl7c9r3jwv9kk16z0pzhmmkw5bv7nns9bwmr4i"))))
+            "0hcqpvvjndddwcg81c2xz3msjghilym5lvbayc6wj0hk47xs9ylc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-w32-ime" ,emacs-w32-ime)))
+    (propagated-inputs (list emacs-w32-ime))
+    (arguments '(#:files ("lisp/*.el")))
     (home-page
       "https://github.com/trueroad/tr-emacs-ime-module")
     (synopsis "Emulator of IME patch for Windows")
@@ -110462,16 +108550,14 @@
             "121p80vsa3xff1anwy876gvlpm0jdbfm5vaxszds73wrv6gih8m3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-popup" ,emacs-popup)
-        ("emacs-request" ,emacs-request)
-        ("emacs-request-deferred"
-         ,emacs-request-deferred)
-        ("emacs-virtualenvwrapper"
-         ,emacs-virtualenvwrapper)
-        ("emacs-f" ,emacs-f)
-        ("emacs-bind-map" ,emacs-bind-map)))
+      (list emacs-dash
+            emacs-deferred
+            emacs-popup
+            emacs-request
+            emacs-request-deferred
+            emacs-virtualenvwrapper
+            emacs-f
+            emacs-bind-map))
     (home-page "https://github.com/abingham/traad")
     (synopsis
       "emacs interface to the traad refactoring server.")
@@ -110518,8 +108604,7 @@
           (base32
             "1m25l1lyff4h0h4vjrcsziwbf8svqg2llvvgl8i2b4jbh7k7pk5f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-xml-rpc" ,emacs-xml-rpc)))
+    (propagated-inputs (list emacs-xml-rpc))
     (home-page "unspecified")
     (synopsis
       "Emacs Major mode for working with Trac")
@@ -110610,8 +108695,7 @@
           (base32
             "1dnh8ws788if32wqnhzqjm38zjhpm9l3sq74245djnn1mx5bm56m"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-async" ,emacs-async)))
+    (propagated-inputs (list emacs-async))
     (home-page
       "https://gitlab.com/tuedachu/transfer-sh.el")
     (synopsis
@@ -110658,8 +108742,7 @@
           (base32
             "0gb4k3758bv25vdw30rq0vbs94vdyss0xsiyaxnmvpfnj0v9k2cq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)))
+    (propagated-inputs (list emacs-transient))
     (home-page
       "https://github.com/conao3/transient-dwim.el")
     (synopsis "Useful preset transient commands")
@@ -110683,8 +108766,7 @@
             "1aq1vbkww55xplyaa3xagz9z4kdlsxk13x054asnk0dqps4bcgbf"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-posframe" ,emacs-posframe)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-posframe emacs-transient))
     (home-page
       "https://github.com/yanghaoxie/transient-posframe")
     (synopsis "Using posframe to show transient")
@@ -110816,10 +108898,10 @@
             "1ciwf40ghlm4w9g4ynbc3d1a93gf6f3imm3m8z9kqfa7cnlsypb6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-pkg-info" ,emacs-pkg-info)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-s
+            emacs-dash
+            emacs-pkg-info
+            emacs-request))
     (home-page
       "https://github.com/nlamirault/emacs-travis")
     (synopsis "Emacs client for Travis")
@@ -110842,8 +108924,7 @@
           (base32
             "1wrip00q6lbpllhaz0c7llnm774dq2mizr39ynfssvsdci38z1lm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)))
+    (propagated-inputs (list emacs-transient))
     (home-page "https://git.sr.ht/~tarsius/tray")
     (synopsis "Various transient menus")
     (description
@@ -110866,13 +108947,12 @@
             "1vzikv8pzqslsmk59vy0w8qm0jwjkz7hisc9jff55wg40y8cw9ii"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-tree-sitter" ,emacs-tree-sitter)
-        ("emacs-tsc" ,emacs-tsc)
-        ("emacs-tree-sitter-langs"
-         ,emacs-tree-sitter-langs)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-reazon" ,emacs-reazon)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-tree-sitter
+            emacs-tsc
+            emacs-tree-sitter-langs
+            emacs-dash
+            emacs-reazon
+            emacs-s))
     (arguments
       '(#:files
         (:defaults (:exclude "evil-tree-edit.el"))))
@@ -110920,7 +109000,7 @@
           (base32
             "04dlwpi5w1g9v62l51zwa6idsajk6km39ljk2k9z3jrcs0fj22ml"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-tsc" ,emacs-tsc)))
+    (propagated-inputs (list emacs-tsc))
     (arguments
       '(#:files
         ("lisp/*.el"
@@ -110947,8 +109027,7 @@
           (base32
             "14pi0vv193vpbwd4kb86hsnv1h8j9pcclvipp1wllv3nxw8k2ypk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-tree-sitter" ,emacs-tree-sitter)))
+    (propagated-inputs (list emacs-tree-sitter))
     (home-page
       "https://codeberg.org/FelipeLema/tree-sitter-indent.el")
     (synopsis
@@ -110972,8 +109051,7 @@
           (base32
             "16i3j7iv77l9cqqc2f8ynywhpapgm5sdbvq506h0swk8rg81hsnz"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-tree-sitter" ,emacs-tree-sitter)))
+    (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
     (home-page
       "https://github.com/emacs-tree-sitter/tree-sitter-langs")
@@ -110998,9 +109076,7 @@
             "0ks7ilc01j1jli1p1lqmqwcr3bfzn5p6vhxybc9wn2sk2sqn2kv8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-avy" ,emacs-avy)))
+      (list emacs-dash emacs-f emacs-avy))
     (home-page
       "https://github.com/cyberthal/treefactor")
     (synopsis "Restructure your messy Org documents")
@@ -111024,13 +109100,13 @@
             "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-ace-window" ,emacs-ace-window)
-        ("emacs-pfuture" ,emacs-pfuture)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-ht" ,emacs-ht)
-        ("emacs-cfrs" ,emacs-cfrs)))
+      (list emacs-dash
+            emacs-s
+            emacs-ace-window
+            emacs-pfuture
+            emacs-hydra
+            emacs-ht
+            emacs-cfrs))
     (arguments
       '(#:files
         (:defaults
@@ -111056,14 +109132,13 @@
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d00cc19cab8df4fec7ed6608e00bd16fe797369a")))
+                 "babf69971ed4c3469b0cdf6a3bf7b637bed1ab18")))
         (sha256
           (base32
-            "167jn29vqx5q5nd2ja9bi1srz623zmq7jpd79al0s98ngnw8hpr7"))))
+            "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)
-        ("emacs-treemacs" ,emacs-treemacs)))
+      (list emacs-all-the-icons emacs-treemacs))
     (arguments
       '(#:files ("src/extra/treemacs-all-the-icons.el")))
     (home-page
@@ -111084,14 +109159,13 @@
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d00cc19cab8df4fec7ed6608e00bd16fe797369a")))
+                 "babf69971ed4c3469b0cdf6a3bf7b637bed1ab18")))
         (sha256
           (base32
-            "167jn29vqx5q5nd2ja9bi1srz623zmq7jpd79al0s98ngnw8hpr7"))))
+            "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-evil" ,emacs-evil)
-        ("emacs-treemacs" ,emacs-treemacs)))
+      (list emacs-evil emacs-treemacs))
     (arguments
       '(#:files ("src/extra/treemacs-evil.el")))
     (home-page
@@ -111111,13 +109185,12 @@
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d00cc19cab8df4fec7ed6608e00bd16fe797369a")))
+                 "babf69971ed4c3469b0cdf6a3bf7b637bed1ab18")))
         (sha256
           (base32
-            "167jn29vqx5q5nd2ja9bi1srz623zmq7jpd79al0s98ngnw8hpr7"))))
+            "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-treemacs" ,emacs-treemacs)))
+    (propagated-inputs (list emacs-treemacs))
     (arguments
       '(#:files ("src/extra/treemacs-icons-dired.el")))
     (home-page
@@ -111137,15 +109210,13 @@
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d00cc19cab8df4fec7ed6608e00bd16fe797369a")))
+                 "babf69971ed4c3469b0cdf6a3bf7b637bed1ab18")))
         (sha256
           (base32
-            "167jn29vqx5q5nd2ja9bi1srz623zmq7jpd79al0s98ngnw8hpr7"))))
+            "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-treemacs" ,emacs-treemacs)
-        ("emacs-pfuture" ,emacs-pfuture)
-        ("emacs-magit" ,emacs-magit)))
+      (list emacs-treemacs emacs-pfuture emacs-magit))
     (arguments
       '(#:files ("src/extra/treemacs-magit.el")))
     (home-page
@@ -111165,15 +109236,13 @@
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d00cc19cab8df4fec7ed6608e00bd16fe797369a")))
+                 "babf69971ed4c3469b0cdf6a3bf7b637bed1ab18")))
         (sha256
           (base32
-            "167jn29vqx5q5nd2ja9bi1srz623zmq7jpd79al0s98ngnw8hpr7"))))
+            "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-treemacs" ,emacs-treemacs)
-        ("emacs-persp-mode" ,emacs-persp-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-treemacs emacs-persp-mode emacs-dash))
     (arguments
       '(#:files ("src/extra/treemacs-persp.el")))
     (home-page
@@ -111193,15 +109262,15 @@
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d00cc19cab8df4fec7ed6608e00bd16fe797369a")))
+                 "babf69971ed4c3469b0cdf6a3bf7b637bed1ab18")))
         (sha256
           (base32
-            "167jn29vqx5q5nd2ja9bi1srz623zmq7jpd79al0s98ngnw8hpr7"))))
+            "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-treemacs" ,emacs-treemacs)
-        ("emacs-perspective" ,emacs-perspective)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-treemacs
+            emacs-perspective
+            emacs-dash))
     (arguments
       '(#:files ("src/extra/treemacs-perspective.el")))
     (home-page
@@ -111221,14 +109290,13 @@
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d00cc19cab8df4fec7ed6608e00bd16fe797369a")))
+                 "babf69971ed4c3469b0cdf6a3bf7b637bed1ab18")))
         (sha256
           (base32
-            "167jn29vqx5q5nd2ja9bi1srz623zmq7jpd79al0s98ngnw8hpr7"))))
+            "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)
-        ("emacs-treemacs" ,emacs-treemacs)))
+      (list emacs-projectile emacs-treemacs))
     (arguments
       '(#:files ("src/extra/treemacs-projectile.el")))
     (home-page
@@ -111298,9 +109366,7 @@
             "0blbxjaddzhkvzlys46yrzszywmyjkmfhwks52v4laya76rgxm45"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-slime" ,emacs-slime)
-        ("emacs-skewer-mode" ,emacs-skewer-mode)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-slime emacs-skewer-mode emacs-dash))
     (home-page
       "https://github.com/johnmastro/trident-mode.el")
     (synopsis "Live Parenscript interaction")
@@ -111392,8 +109458,7 @@
           (base32
             "1mm6rrprsmx4hc622qmllm7c81yhwbqmdr0n6020krq92zmilmlm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-list-utils" ,emacs-list-utils)))
+    (propagated-inputs (list emacs-list-utils))
     (home-page
       "http://github.com/rolandwalker/truthy")
     (synopsis "Test the content of a value")
@@ -111437,8 +109502,7 @@
           (base32
             "1041zwlslj70rfjmpcxbib4h05rclhykr7i7pckvz7smsh4w3p2i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "http://github.com/alphapapa/ts.el")
     (synopsis "Timestamp and date/time library")
     (description
@@ -111512,10 +109576,10 @@
             "1bk5v9dffs65qsay0dp336s2ly065nd0cg572zz058ikwxd44zd3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-json-mode" ,emacs-json-mode)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-auto-complete
+            emacs-json-mode
+            emacs-log4e
+            emacs-yaxception))
     (home-page "https://github.com/aki2o/emacs-tss")
     (synopsis
       "provide a interface for auto-complete.el/flymake.el on typescript-mode.")
@@ -111581,7 +109645,7 @@
           (base32
             "1jzsjxi1b6cnjrrzbrprlb2rqm5zjnhhzjj58r4aa8mkl1y04n6k"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-caml" ,emacs-caml)))
+    (propagated-inputs (list emacs-caml))
     (home-page "https://github.com/ocaml/tuareg")
     (synopsis "OCaml mode")
     (description
@@ -111603,8 +109667,7 @@
           (base32
             "1fn405rmwcy8y5sa8lh5grq87n5zxbln2b9agxyilfx4jm6rcnpl"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/smallwat3r/tubestatus.el")
     (synopsis "Get the London Tube service status")
@@ -111627,9 +109690,7 @@
           (base32
             "1xdkgvr1pnlg3nrjmma4ra80ysr8xbslvczg7cq1x1mqw6gn9xq5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-http-post-simple"
-         ,emacs-http-post-simple)))
+    (propagated-inputs (list emacs-http-post-simple))
     (home-page "unspecified")
     (synopsis "an Tumblr mode for Emacs")
     (description
@@ -111652,9 +109713,9 @@
             "1gns60yj1ylm87456gzwr0gy0kivp5bd290rg6d8xbc86jdcls19"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-htmlize" ,emacs-htmlize)
-        ("emacs-oauth" ,emacs-oauth)
-        ("emacs-markdown-mode" ,emacs-markdown-mode)))
+      (list emacs-htmlize
+            emacs-oauth
+            emacs-markdown-mode))
     (home-page "http://github.com/gcr/tumblesocks")
     (synopsis "An Emacs tumblr client.")
     (description
@@ -111721,8 +109782,7 @@
           (base32
             "0khl4q22x6vdn87xdqqg5f535d4dqpnfbhk6qhlh187p1w7qaiq4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "unspecified")
     (synopsis "Interacting with tmux from Emacs")
     (description
@@ -111854,8 +109914,7 @@
           (base32
             "1qqc6ykrpq311fwn5mvzc3yl6z48v1c3yq3vi8g9zv63ywj33bbk"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/deadblackclover/twtxt-el")
     (synopsis "Client twtxt")
@@ -111873,10 +109932,10 @@
         (uri (git-reference
                (url "https://github.com/emacs-typescript/typescript.el.git")
                (commit
-                 "7f1cde0a901615abb45556a4555a32803eddd6a7")))
+                 "e82416205158d4b21d42d6b60c4385f68f0ae1b1")))
         (sha256
           (base32
-            "1vb5940avkzhldaihw6f0ci0z8691455m34kmkyxzp4r61l01zlp"))))
+            "1gidnpwk4n9zsrv9jxb7fmn3i46sggncv62w1aaw6g6v8h3yj5ad"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/ananthakumaran/typescript.el")
@@ -111943,8 +110002,7 @@
           (base32
             "02fnq52a1i0dgdyhxgqjf89zif23038n8cm9idv9c515835c10m2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-f" ,emacs-f) ("emacs-mmt" ,emacs-mmt)))
+    (propagated-inputs (list emacs-f emacs-mmt))
     (arguments '(#:files (:defaults "dict")))
     (home-page "https://github.com/mrkkrp/typit")
     (synopsis
@@ -111991,10 +110049,10 @@
             "0pbmmwk5qh1ld9yzy4vxxp9ix4kzw9m71qjwqz0fqw3md9xlr6z6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm" ,emacs-helm)
-        ("emacs-company" ,emacs-company)
-        ("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-helm
+            emacs-company
+            emacs-s
+            emacs-dash))
     (home-page
       "https://github.com/kadircancetin/typo-suggest")
     (synopsis
@@ -112065,9 +110123,9 @@
             "0qw9vwl1p0pjw1xmshxar1a8kn6gmin5rdvvnnly8b5z9hpkjf3m"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-persistent-soft" ,emacs-persistent-soft)
-        ("emacs-pcache" ,emacs-pcache)
-        ("emacs-list-utils" ,emacs-list-utils)))
+      (list emacs-persistent-soft
+            emacs-pcache
+            emacs-list-utils))
     (home-page
       "http://github.com/rolandwalker/ucs-utils")
     (synopsis "Utilities for Unicode characters")
@@ -112113,8 +110171,7 @@
           (base32
             "0rl71y6mzfcfymkimin18pnfhsa1wb906jywr5jx8b0nwkxk227n"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)))
+    (propagated-inputs (list emacs-projectile))
     (arguments '(#:files (:defaults "snippets")))
     (home-page
       "https://gitlab.com/unrealemacs/ue.el")
@@ -112252,8 +110309,7 @@
             "0qmvyy3xg5qi7ws8zcs934d6afsappr1a6pgfp796xpa9vdr4y6j"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-shut-up" ,emacs-shut-up)))
+      (list emacs-dash emacs-shut-up))
     (home-page
       "https://github.com/sviridov/undercover.el")
     (synopsis "Test coverage library for Emacs Lisp")
@@ -112498,11 +110554,11 @@
             "0936dqxyp72if9wvn2dcci670yp1gqrmpnll9xq00skp85yq9zs5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-string-utils" ,emacs-string-utils)
-        ("emacs-ucs-utils" ,emacs-ucs-utils)
-        ("emacs-list-utils" ,emacs-list-utils)
-        ("emacs-persistent-soft" ,emacs-persistent-soft)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-string-utils
+            emacs-ucs-utils
+            emacs-list-utils
+            emacs-persistent-soft
+            emacs-pcache))
     (home-page
       "http://github.com/rolandwalker/unicode-enbox")
     (synopsis
@@ -112526,9 +110582,7 @@
           (base32
             "1bqknk6y7r0dqhmwhq3ac56cqf0albp18h222klnijv4bazjfcjw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-names" ,emacs-names)
-        ("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-names emacs-dash))
     (home-page
       "https://github.com/kosh04/unicode-escape.el")
     (synopsis "Escape/Unescape unicode notations")
@@ -112552,11 +110606,11 @@
             "1c9byhlkzjvijhl7izwxfp4z6dwism4np4m8705i23ccrpf039jw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-font-utils" ,emacs-font-utils)
-        ("emacs-ucs-utils" ,emacs-ucs-utils)
-        ("emacs-list-utils" ,emacs-list-utils)
-        ("emacs-persistent-soft" ,emacs-persistent-soft)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-font-utils
+            emacs-ucs-utils
+            emacs-list-utils
+            emacs-persistent-soft
+            emacs-pcache))
     (home-page
       "http://github.com/rolandwalker/unicode-fonts")
     (synopsis "Configure Unicode fonts")
@@ -112603,10 +110657,10 @@
             "16jgm70ldsngxldiagjkw3ragypalpiidnf82g5hss9ciybkd3j4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ucs-utils" ,emacs-ucs-utils)
-        ("emacs-list-utils" ,emacs-list-utils)
-        ("emacs-persistent-soft" ,emacs-persistent-soft)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-ucs-utils
+            emacs-list-utils
+            emacs-persistent-soft
+            emacs-pcache))
     (home-page
       "http://github.com/rolandwalker/unicode-progress-reporter")
     (synopsis
@@ -112654,10 +110708,10 @@
             "1ayb15nd5vqr0xaghrnp55kqw7bblrjipmfrag6bqpn7jk9bvbdz"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ucs-utils" ,emacs-ucs-utils)
-        ("emacs-list-utils" ,emacs-list-utils)
-        ("emacs-persistent-soft" ,emacs-persistent-soft)
-        ("emacs-pcache" ,emacs-pcache)))
+      (list emacs-ucs-utils
+            emacs-list-utils
+            emacs-persistent-soft
+            emacs-pcache))
     (home-page
       "http://github.com/rolandwalker/unicode-whitespace")
     (synopsis
@@ -112906,8 +110960,7 @@
             "13p0vr9fnkilw6192gsmz6hi5rx3jqh3dsmqx9siywghj9hfn056"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-emojify" ,emacs-emojify)))
+      (list emacs-request emacs-emojify))
     (home-page
       "https://github.com/smallwat3r/untappd.el")
     (synopsis "Display your latest Untappd feed")
@@ -112930,8 +110983,7 @@
           (base32
             "139gysva6hpsk006bcbm1689pzaj18smxs2ar5pv0yvkh60wjvlr"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-magic-filetype" ,emacs-magic-filetype)))
+    (propagated-inputs (list emacs-magic-filetype))
     (home-page
       "https://github.com/zonuexe/untitled-new-buffer.el")
     (synopsis
@@ -112955,7 +111007,7 @@
           (base32
             "16ic97lpw1d9bqcc0fvzv2n62xb5rlpi92cha3jpy7flbp8ys143"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "http://github.com/shiren")
     (synopsis "Karma Test Runner Integration")
     (description
@@ -113092,8 +111144,7 @@
           (base32
             "1zz2gg475254hbbxw4y82b2m2iy8cvx0phh030daax315hdbsaqb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-bind-key" ,emacs-bind-key)))
+    (propagated-inputs (list emacs-bind-key))
     (arguments
       '(#:files
         (:defaults
@@ -113126,10 +111177,10 @@
             "1zz2gg475254hbbxw4y82b2m2iy8cvx0phh030daax315hdbsaqb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-use-package" ,emacs-use-package)
-        ("emacs-bind-key" ,emacs-bind-key)
-        ("emacs-bind-chord" ,emacs-bind-chord)
-        ("emacs-key-chord" ,emacs-key-chord)))
+      (list emacs-use-package
+            emacs-bind-key
+            emacs-bind-chord
+            emacs-key-chord))
     (arguments '(#:files ("use-package-chords.el")))
     (home-page
       "https://github.com/waymondo/use-package-chords")
@@ -113153,8 +111204,7 @@
           (base32
             "1k1dwydqfgx2yvbipahwzk8kyj7v5ih6hkra8ladbn67x013f9rq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-use-package" ,emacs-use-package)))
+    (propagated-inputs (list emacs-use-package))
     (home-page
       "https://github.com/edvorg/use-package-el-get")
     (synopsis "el-get support for use package")
@@ -113178,8 +111228,7 @@
             "1zz2gg475254hbbxw4y82b2m2iy8cvx0phh030daax315hdbsaqb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-use-package" ,emacs-use-package)
-        ("emacs-system-packages" ,emacs-system-packages)))
+      (list emacs-use-package emacs-system-packages))
     (arguments
       '(#:files
         ("use-package-ensure-system-package.el")))
@@ -113205,8 +111254,7 @@
           (base32
             "19dja25illcvwpx8j1kigw8dzby41bm57prx1bhaxkmsakxyl863"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-use-package" ,emacs-use-package)))
+    (propagated-inputs (list emacs-use-package))
     (home-page
       "https://gitlab.com/to1ne/use-package-hydra")
     (synopsis
@@ -113231,8 +111279,7 @@
             "0388kwc65hpbimd53br2x9z9dvxw20wnny09kldw5nnlvzvzrba1"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-exec-path-from-shell"
-         ,emacs-exec-path-from-shell)))
+      (list emacs-exec-path-from-shell))
     (home-page
       "https://github.com/rayw000/use-proxy")
     (synopsis
@@ -113256,7 +111303,7 @@
           (base32
             "0fkryq2iipjndhykryc0yzj290il217qaa2cgjv2sxpajh499cyy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "https://github.com/jcs-elpa/use-ttf")
     (synopsis
       "Keep font consistency across different OSs")
@@ -113297,13 +111344,12 @@
         (uri (git-reference
                (url "https://github.com/diml/utop.git")
                (commit
-                 "560617c64f544dba7fe5b6f1a2ad1a963b3d36e4")))
+                 "676e2cd6545fd327e02330d1ccb20c02d6b26eab")))
         (sha256
           (base32
-            "1abll7dnsi6hygq1vsizmqw734rdc7vkfmf67fnh62qi1m0pbdcm"))))
+            "1mdpqc1b67p5rm2jsbwy0gjjgdlfqcakjyh1cwdj959ykz4zy9ld"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-tuareg" ,emacs-tuareg)))
+    (propagated-inputs (list emacs-tuareg))
     (arguments '(#:files ("src/top/utop.el")))
     (home-page "https://github.com/diml/utop")
     (synopsis "Universal toplevel for OCaml")
@@ -113369,9 +111415,7 @@
           (base32
             "1cxnwhwlrngba2wdll6vnr6ca08dkhsjrswj3bwilgb0m5bih7qi"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-hydra" ,emacs-hydra)))
+    (propagated-inputs (list emacs-dash emacs-hydra))
     (arguments '(#:files (:defaults "etc")))
     (home-page
       "https://github.com/damon-kwok/v-mode")
@@ -113396,8 +111440,7 @@
           (base32
             "0hhj5xfm7mp3ajrbj9ai5p2d9akaqkj89rmqmg1vpyfp3x2f4h2k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "https://github.com/aborn/v2ex-mode")
     (synopsis
       "Major mode for visit http://v2ex.com/ site.")
@@ -113442,7 +111485,7 @@
           (base32
             "1mshxcbwdjs2fs7lzqhs3pqbmdmy2fyzkf9b6r8rsxqlisa4x6sn"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("*.el" "bin")))
     (home-page
       "https://github.com/dougm/vagrant-tramp")
@@ -113487,8 +111530,7 @@
           (base32
             "0iscaz8lm4fk6w13f68ysqk8ppng2wj9fkkkq1rfqz77ws66f8nq"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files (:defaults "snippets")))
     (home-page
       "https://github.com/gopar/vala-snippets")
@@ -113559,9 +111601,9 @@
             "19j5q2f6pybvjq3ryjcyihzlw348hqyjhfcy3qflry6w786dqcgn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-auto-complete" ,emacs-auto-complete)
-        ("emacs-log4e" ,emacs-log4e)
-        ("emacs-yaxception" ,emacs-yaxception)))
+      (list emacs-auto-complete
+            emacs-log4e
+            emacs-yaxception))
     (arguments '(#:files ("*.el" "*.vbs" "*.bat")))
     (home-page
       "https://github.com/aki2o/emacs-vbasense")
@@ -113719,8 +111761,7 @@
           (base32
             "1p54m71ypvz7x5wyzv0lfrxfsx23ipmb4zkq6dm0ppgh9al9hd7k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page
       "http://github.com/redguardtoo/vc-msg")
     (synopsis
@@ -113831,8 +111872,7 @@
           (base32
             "0lv9d9g8lnc3rzqi4v9iqr1ck5df8d52yh81cxzy7x2375b2mfgm"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-hydra" ,emacs-hydra)))
+    (propagated-inputs (list emacs-hydra))
     (home-page
       "https://github.com/justbur/emacs-vdiff")
     (synopsis "A diff tool similar to  vimdiff")
@@ -113856,9 +111896,7 @@
             "0ci5zsmd4r7z8h7g19ddd29y09lja0ikkm9rp8d2whxi9fz37dha"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-vdiff" ,emacs-vdiff)
-        ("emacs-magit" ,emacs-magit)
-        ("emacs-transient" ,emacs-transient)))
+      (list emacs-vdiff emacs-magit emacs-transient))
     (home-page
       "https://github.com/justbur/emacs-vdiff-magit")
     (synopsis "magit integration for vdiff")
@@ -113882,8 +111920,7 @@
             "0mlfmigqsqmvn3rzyxnpq5zy6k0xf4vd2ww2qrr7kd2dqyv55hhw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-vcard" ,emacs-org-vcard)
-        ("emacs-helm" ,emacs-helm)))
+      (list emacs-org-vcard emacs-helm))
     (home-page
       "https://github.com/DamienCassou/vdirel")
     (synopsis
@@ -113907,8 +111944,7 @@
           (base32
             "1vfqkfw39yg7379s6b28n8nyswv1jq7caljfbnyrndsag6z4j50k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-vdm-mode" ,emacs-vdm-mode)))
+    (propagated-inputs (list emacs-vdm-mode))
     (arguments '(#:files ("vdm-comint.el")))
     (home-page
       "https://github.com/peterwvj/vdm-mode")
@@ -113956,8 +111992,7 @@
           (base32
             "1vfqkfw39yg7379s6b28n8nyswv1jq7caljfbnyrndsag6z4j50k"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments
       '(#:files ("vdm-snippets.el" "snippets")))
     (home-page
@@ -114006,8 +112041,7 @@
             "0w8v0ivwq3i42mxfxk5zvlx1lz4di06dpd93j2j13ns5h46vxhc0"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-cider" ,emacs-cider)
-        ("emacs-parseedn" ,emacs-parseedn)))
+      (list emacs-cider emacs-parseedn))
     (home-page
       "https://www.github.com/applied-science/emacs-vega-view")
     (synopsis "Vega visualization viewer")
@@ -114096,9 +112130,7 @@
           (base32
             "1y4gxz8pnwapp7d5pwbp1la4qjc907q3lq8i2znd9hr5vsx0bgcw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-hydra" ,emacs-hydra)))
+    (propagated-inputs (list emacs-dash emacs-hydra))
     (arguments '(#:files (:defaults "etc")))
     (home-page
       "https://github.com/damon-kwok/verona-mode")
@@ -114124,12 +112156,12 @@
             "1ak5f6g9sqd2dwplipnacg6kknkpf1j6df5am0hqcmlsk052d12s"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-request" ,emacs-request)
-        ("emacs-anaphora" ,emacs-anaphora)
-        ("emacs-esxml" ,emacs-esxml)
-        ("emacs-s" ,emacs-s)
-        ("emacs-esqlite" ,emacs-esqlite)))
+      (list emacs-dash
+            emacs-request
+            emacs-anaphora
+            emacs-esxml
+            emacs-s
+            emacs-esqlite))
     (home-page
       "https://github.com/mihaiolteanu/versuri/")
     (synopsis "The lyrics package")
@@ -114173,8 +112205,7 @@
           (base32
             "1x04wrf3h6f4wsh4n2cl3n4byj9pxni918ri49hqxzm8h8hivigc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
     (home-page
       "https://github.com/baron42bba/vertica-snippets")
@@ -114198,7 +112229,7 @@
           (base32
             "0570x63l1j75issnq23hrhhpisv2jm18fn5mspsvbs4xy2hy4h8i"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/noctuid/vertigo.el")
     (synopsis
@@ -114245,9 +112276,7 @@
             "1qfjwsxi3w2gdl258jbk5d3z645gs6zccxx2iah54zbgql17pgj9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ggtags" ,emacs-ggtags)
-        ("emacs-helm-rg" ,emacs-helm-rg)
-        ("emacs-outshine" ,emacs-outshine)))
+      (list emacs-ggtags emacs-helm-rg emacs-outshine))
     (home-page
       "https://gitlab.com/emacs-elisp/vhdl-tools/-/wikis/home")
     (synopsis
@@ -114360,8 +112389,7 @@
           (base32
             "13g2hin100c8h5bd7hzhyqzj02ab9c35giyv963l7y044v7sbwig"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-expand-region" ,emacs-expand-region)))
+    (propagated-inputs (list emacs-expand-region))
     (home-page
       "https://github.com/ongaeshi/emacs-vim-region")
     (synopsis "Select region as vim")
@@ -114407,7 +112435,7 @@
           (base32
             "0w0r951c6vn890h1cz5l8rl6hicna6rbdzfgbg4lpm280yds9lpb"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-f" ,emacs-f)))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/mrkkrp/vimish-fold")
     (synopsis "Fold text like in Vim")
@@ -114453,9 +112481,8 @@
             "1mhw6ysi29s57dccq8a1jh810hz0a90ssw66ih5byvrysgs0hmqw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-adaptive-wrap" ,emacs-adaptive-wrap)
-        ("emacs-visual-fill-column"
-         ,emacs-visual-fill-column)))
+      (list emacs-adaptive-wrap
+            emacs-visual-fill-column))
     (home-page
       "https://github.com/luisgerhorst/virtual-auto-fill")
     (synopsis
@@ -114522,8 +112549,7 @@
           (base32
             "0kkhbw8c9c7nfhz7i0wwwcrbk0a91yvq7n5n89ndsk5iwisr92vp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "http://github.com/porterjamesj/virtualenvwrapper.el")
     (synopsis
@@ -114585,7 +112611,7 @@
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://codeberg.org/joostkremers/visual-fill-column")
+               (url "https://codeberg.org/joostkremers/visual-fill-column.git")
                (commit
                  "cf3e2bc632b68d54145c79beede85d3458a337de")))
         (sha256
@@ -114637,8 +112663,7 @@
           (base32
             "1isqa4ck6pm4ykcrkr0g1qj8664jkpcsrq0f8dlb0sksns2dqkwj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-visual-regexp" ,emacs-visual-regexp)))
+    (propagated-inputs (list emacs-visual-regexp))
     (arguments
       '(#:files
         ("visual-regexp-steroids.el" "regexp.py")))
@@ -114754,8 +112779,7 @@
           (base32
             "1gd7zqmyn389dfyx1yll1bw5f8kjib87k33s9hxsbx0db8vas9q6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)))
+    (propagated-inputs (list emacs-popup))
     (home-page
       "https://github.com/yitang/voca-builder")
     (synopsis "Helps you build up your vocabulary")
@@ -114967,8 +112991,7 @@
           (base32
             "0bwgzpf2wyzdj9smwys06zx4yha72pw50wzdh4zld45ph40pb6qw"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-vterm" ,emacs-vterm)))
+    (propagated-inputs (list emacs-vterm))
     (home-page
       "https://github.com/jixiuf/vterm-toggle")
     (synopsis
@@ -115039,10 +113062,10 @@
             "047l5nxw86dvls8an65mmqcy673n37pyli7s0d52yi07jk0lw1yx"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-mmm-mode" ,emacs-mmm-mode)
-        ("emacs-vue-html-mode" ,emacs-vue-html-mode)
-        ("emacs-ssass-mode" ,emacs-ssass-mode)
-        ("emacs-edit-indirect" ,emacs-edit-indirect)))
+      (list emacs-mmm-mode
+            emacs-vue-html-mode
+            emacs-ssass-mode
+            emacs-edit-indirect))
     (home-page "unspecified")
     (synopsis
       "Major mode for vue component based on mmm-mode")
@@ -115066,11 +113089,11 @@
             "10wjzx8vq8k16dwcjppnr28pkiilxl2ak78h60h68flakmdzibmg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-lastfm" ,emacs-lastfm)
-        ("emacs-versuri" ,emacs-versuri)
-        ("emacs-s" ,emacs-s)
-        ("emacs-bind-key" ,emacs-bind-key)
-        ("emacs-mpv" ,emacs-mpv)))
+      (list emacs-lastfm
+            emacs-versuri
+            emacs-s
+            emacs-bind-key
+            emacs-mpv))
     (home-page
       "https://github.com/mihaiolteanu/vuiet")
     (synopsis
@@ -115089,14 +113112,12 @@
         (uri (git-reference
                (url "https://github.com/d12frosted/vulpea.git")
                (commit
-                 "1fe53b868e72a74c58e7b2500c7fe08d3a09bc51")))
+                 "398ca17f83ea59f54f61898fefdb55332cd3ba46")))
         (sha256
           (base32
-            "018hryfr8a7jiaf7xghy90vgj5gwm49gl8yl3cgllsky28q0png4"))))
+            "0qa49s0nhqbh9bmxi1zglnx3yajqcdx8j7yiy23lxbya2fpl557i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-org-roam" ,emacs-org-roam)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-org-roam emacs-s))
     (home-page
       "https://github.com/d12frosted/vulpea")
     (synopsis
@@ -115214,7 +113235,7 @@
           (base32
             "1nfx1qsl2gxjqbbc5xsr8f3xz2qyb4wnz3634k3hglb1jpa78j3n"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "http://github.com/shosti/wacspace.el")
     (synopsis
@@ -115328,8 +113349,7 @@
             "1ml1jz2dcva98kgzvrbad4myvyx2g1xzl584vj0mj41x0h6m47b3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-parseclj" ,emacs-parseclj)
-        ("emacs-treepy" ,emacs-treepy)))
+      (list emacs-parseclj emacs-treepy))
     (home-page "https://github.com/plexus/walkclj")
     (synopsis "Manipulate Clojure parse trees")
     (description
@@ -115352,8 +113372,7 @@
             "1fv4bn6c04kv39jv25r09pvxc5hz5gwwbj16fhxs5930rf77ikqb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-transient" ,emacs-transient)
-        ("emacs-json-mode" ,emacs-json-mode)))
+      (list emacs-transient emacs-json-mode))
     (home-page
       "https://github.com/abrochard/walkman")
     (synopsis "Write HTTP requests in Org mode")
@@ -115398,8 +113417,7 @@
           (base32
             "18xgi1anficjl6cnhhv197zbrnb0p63pnj8gshvixb6fr4ybw8k0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/cmpitg/wand")
     (synopsis
       "Magic wand for Emacs - Select and execute")
@@ -115422,9 +113440,7 @@
           (base32
             "0fnbj3k21lisgs94pf8z13cdymmclgpn994xq3xly4gq6l8k0an5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-request emacs-s))
     (home-page
       "https://github.com/kosh04/emacs-wandbox")
     (synopsis "Wandbox client")
@@ -115448,9 +113464,7 @@
             "0p09rqaxwys2jhmlxlxf0xy3x42b183l3kbfrhbivagxpb10r608"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-apel" ,emacs-apel)
-        ("emacs-flim" ,emacs-flim)
-        ("emacs-semi" ,emacs-semi)))
+      (list emacs-apel emacs-flim emacs-semi))
     (arguments
       '(#:files
         ("doc/wl.texi"
@@ -115665,8 +113679,7 @@
           (base32
             "03xcadplw1hg5hxw6bfrhw5xkkxk3i4105f114c6m3d2525jq4y5"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (arguments '(#:files ("web.el")))
     (home-page
       "http://github.com/nicferrier/emacs-web")
@@ -115757,8 +113770,7 @@
           (base32
             "143xh6xc7qd88hjjmcs9fd2zlgxl0hhgx5fplhbi9zxd2ihhz0dg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-web-mode" ,emacs-web-mode)))
+    (propagated-inputs (list emacs-web-mode))
     (home-page
       "https://github.com/jtkDvlp/web-mode-edit-element")
     (synopsis
@@ -115782,8 +113794,7 @@
           (base32
             "1wg54vyfbacmyh8lyd5fgh88lfby17v24l98jjgxscaqgms86bch"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-web-mode" ,emacs-web-mode)))
+    (propagated-inputs (list emacs-web-mode))
     (home-page
       "https://github.com/Qquanwei/web-narrow-mode")
     (synopsis "quick narrow code block in web-mode")
@@ -115855,8 +113866,7 @@
           (base32
             "0a6nirdn1l7cymjycbns38ja9an1z4l5lwjk5h428aly3pmkvdqj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-posframe" ,emacs-posframe)))
+    (propagated-inputs (list emacs-posframe))
     (arguments
       '(#:files (:defaults "color-picker.html")))
     (home-page
@@ -115882,8 +113892,7 @@
           (base32
             "1iy1finnxqjbdivzyn7crpnha87mq1fmd98pkx2r8sk551nfw35s"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "https://github.com/pzel/weblio")
     (synopsis "Look up Japanese words on Weblio.jp")
     (description
@@ -115905,8 +113914,7 @@
           (base32
             "03dkabszk6ya3vaps1ap16psk5bbar8zd5ipn1lmyzsbd3hwm8mj"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-xml-rpc" ,emacs-xml-rpc)))
+    (propagated-inputs (list emacs-xml-rpc))
     (home-page "http://launchpad.net/weblogger-el")
     (synopsis "Weblog maintenance via XML-RPC APIs")
     (description
@@ -115928,8 +113936,7 @@
           (base32
             "0jiq879m74ysl0gb9wh1qmxyxi79nhnr2b1slq33mwf98r1nzcbg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-templatel" ,emacs-templatel)))
+    (propagated-inputs (list emacs-templatel))
     (arguments '(#:files (:defaults "themes")))
     (home-page "https://emacs.love/weblorg")
     (synopsis "Static Site Generator for org-mode")
@@ -115952,8 +113959,7 @@
           (base32
             "07hj9nr7x6c9w2dnvc58cfbprgp9cqzdxflp5qlpglzdw0bi9s3c"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "https://github.com/etu/webpaste.el")
     (synopsis "Paste to pastebin-like services")
     (description
@@ -116019,9 +114025,7 @@
           (base32
             "1z9lav09jsmhshlk0xnbp21y9apzhd9zv08h88sdg942v0fn2fid"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-tracking" ,emacs-tracking)))
+    (propagated-inputs (list emacs-s emacs-tracking))
     (home-page
       "https://github.com/the-kenny/weechat.el")
     (synopsis
@@ -116046,8 +114050,7 @@
             "1hkhim2jfdywx6ks4qfcizycp5qsx4ms6929kbgmzzb8i7j380x6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-weechat" ,emacs-weechat)
-        ("emacs-alert" ,emacs-alert)))
+      (list emacs-weechat emacs-alert))
     (home-page
       "https://github.com/kungi/weechat-alert")
     (synopsis "Weechat notifier using alerts")
@@ -116061,14 +114064,14 @@
     (version "20150307.2242")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/weibo-"
-               version
-               ".tar"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/austin-----/weibo.emacs.git")
+               (commit
+                 "a8abb50b7602fe15fe2bc6400ac29780e956b390")))
         (sha256
           (base32
-            "0gszkv1w2iayz7mwjym10xq48bhd6g6hg8zh1q0xqpvjdajgpy32"))))
+            "0hc5iyjpcik996ns84akrl28scndmn0gd1zfdf1nnqq6n2m5zvgh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/austin-----/weibo.emacs")
@@ -116083,14 +114086,14 @@
     (version "20210802.2251")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/weyland-yutani-theme-"
-               version
-               ".el"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jstaursky/weyland-yutani-theme.git")
+               (commit
+                 "e89a63a62e071180c9cdd9067679fadc3f7bf796")))
         (sha256
           (base32
-            "16p07sid7v3r9iw7r10prxqb81scwaynmb3w0l4a71i3yfidqb6w"))))
+            "0gxlz9b7fvbjkqxsyb4l75g7jsxyms0i1vpnb6y499hl115akcaz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jstaursky/weyland-yutani-theme")
@@ -116139,8 +114142,7 @@
           (base32
             "090k2kznhdmzzd4hrs834mbr8kwady2ks1684kgzqjzvwhv36v6i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-wgrep" ,emacs-wgrep)))
+    (propagated-inputs (list emacs-wgrep))
     (arguments '(#:files ("wgrep-ack.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-ack.el")
@@ -116165,8 +114167,7 @@
           (base32
             "090k2kznhdmzzd4hrs834mbr8kwady2ks1684kgzqjzvwhv36v6i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-wgrep" ,emacs-wgrep)))
+    (propagated-inputs (list emacs-wgrep))
     (arguments '(#:files ("wgrep-ag.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-ag.el")
@@ -116191,8 +114192,7 @@
           (base32
             "090k2kznhdmzzd4hrs834mbr8kwady2ks1684kgzqjzvwhv36v6i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-wgrep" ,emacs-wgrep)))
+    (propagated-inputs (list emacs-wgrep))
     (arguments '(#:files ("wgrep-helm.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-helm.el")
@@ -116217,8 +114217,7 @@
           (base32
             "090k2kznhdmzzd4hrs834mbr8kwady2ks1684kgzqjzvwhv36v6i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-wgrep" ,emacs-wgrep)))
+    (propagated-inputs (list emacs-wgrep))
     (arguments '(#:files ("wgrep-pt.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-pt.el")
@@ -116288,8 +114287,7 @@
             "173a04s00rydqpkrwdd9khwijbslkwmzqa557x6r1vpp0pdgaz0l"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-posframe" ,emacs-posframe)
-        ("emacs-which-key" ,emacs-which-key)))
+      (list emacs-posframe emacs-which-key))
     (home-page
       "https://github.com/yanghaoxie/which-key-posframe")
     (synopsis "Using posframe to show which-key")
@@ -116513,8 +114511,7 @@
             "1d893isxvchrqxw6iaknbv8l31rgalfc4hmppf0l87gxp5y9hxa2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-button-lock" ,emacs-button-lock)
-        ("emacs-nav-flash" ,emacs-nav-flash)))
+      (list emacs-button-lock emacs-nav-flash))
     (arguments '(#:files ("wiki-nav.el")))
     (home-page
       "http://github.com/rolandwalker/button-lock")
@@ -116584,8 +114581,7 @@
           (base32
             "1rzxswfzg8lpwn1r7lq08rz7mrbrs5vr587phh60l26qpz6960c2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-wikinfo" ,emacs-wikinfo)))
+    (propagated-inputs (list emacs-wikinfo))
     (home-page
       "https://github.com/progfolio/wikinforg")
     (synopsis "Org-mode wikinfo integration")
@@ -116608,8 +114604,7 @@
           (base32
             "197kqp22pyy1in2rq063mahvrf00vrfvgnfkqp0zy7hpkhiiqvim"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash) ("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/sixty-north/emacs-wilt")
     (synopsis
@@ -116791,8 +114786,7 @@
           (base32
             "1cw513mh3gyl21qpmgwqjgpi8kwddmd4n69l4ax5a5pv3vvwrcx9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-imenu-list" ,emacs-imenu-list)))
+    (propagated-inputs (list emacs-imenu-list))
     (arguments '(#:files (:defaults "layouts")))
     (home-page
       "https://github.com/bmag/emacs-purpose")
@@ -116882,7 +114876,7 @@
           (base32
             "0vbmmf8wm76k389g5ncs0grwlpwp3glpwvhdi5dfxaqcp2phaaad"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "github.com/vijumathew/windwow")
     (synopsis "simple workspace management")
     (description
@@ -116971,7 +114965,7 @@
           (base32
             "0lj4cp7ml7cjhkd66f6ivcl6sbfs2my8ajjlynzl3pm5qansfw5i"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "http://github.com/deb0ch/winum.el")
     (synopsis
       "Navigate windows and frames using numbers.")
@@ -116992,7 +114986,7 @@
                ".el"))
         (sha256
           (base32
-            "12ppjprn780zl9zc41iz39incgy56c5nzvmm11dwdzvbf0zm8vyb"))))
+            "1flmwv666bms31p07kw1gwypqhs9b7bx7f2db1mbsvn1sqychbs4"))))
     (build-system melpa-build-system)
     (home-page "http://www.draketo.de/english/wisp")
     (synopsis
@@ -117016,8 +115010,7 @@
           (base32
             "1hhd8ixb2wr06vrd1kw0cd5jh08zm86h2clbvzv9wmqpawwxfm5f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-clojure-mode" ,emacs-clojure-mode)))
+    (propagated-inputs (list emacs-clojure-mode))
     (home-page
       "https://github.com/krisajenkins/wispjs-mode")
     (synopsis "Major mode for Wisp code.")
@@ -117035,10 +115028,10 @@
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "cfe70f43c551852125bc139df467e28e1b6087df")))
+                 "d53df360e7abe31d61d6689ab39b62dfa7f064b1")))
         (sha256
           (base32
-            "0i38y7kw0fpb1ii8bfiidh5xkinldzzz1c0i33zvwym76a28birb"))))
+            "18643svb44mhjdqr0xaa56qq2lj5j7x3jnykg2vhxj9vrk528fj8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/magit/with-editor")
@@ -117085,9 +115078,7 @@
           (base32
             "1c7g8f3jr7bb0xxprammfg433gd63in5iiiaq8rjmc94h6hdcys3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-loop" ,emacs-loop)))
+    (propagated-inputs (list emacs-dash emacs-loop))
     (home-page "unspecified")
     (synopsis "interoperable elisp namespaces")
     (description
@@ -117265,9 +115256,9 @@
             "0hacc8ha5w44cgwkipa3nwh1q5gdrcxhjkmw2gnvb1l01crgnack"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-dash-functional" ,emacs-dash-functional)
-        ("emacs-multi" ,emacs-multi)))
+      (list emacs-dash
+            emacs-dash-functional
+            emacs-multi))
     (arguments '(#:files ("source/*.el")))
     (home-page
       "http://github.com/kurisuwhyte/emacs-wonderland")
@@ -117358,10 +115349,10 @@
             "1vakix6pdv4ssmwzw7p7iaprp5kyiqjiw8gpi41hn7l3dsgmi4iq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-swiper" ,emacs-swiper)
-        ("emacs-ace-link" ,emacs-ace-link)
-        ("emacs-hydra" ,emacs-hydra)
-        ("emacs-zoutline" ,emacs-zoutline)))
+      (list emacs-swiper
+            emacs-ace-link
+            emacs-hydra
+            emacs-zoutline))
     (home-page "https://github.com/abo-abo/worf")
     (synopsis
       "A warrior does not press so many keys! (in org-mode)")
@@ -117471,7 +115462,7 @@
           (base32
             "1k5q925igdv5lnpbmy0c2f0j3rj7yh4l6bxbd61g9lcnyl0j3ym9"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "http://github.com/rejeep/wrap-region")
     (synopsis "Wrap text with punctation or tag")
@@ -117495,8 +115486,7 @@
             "1qslhhb0zbg542xsa3rw4xh8wsz9k7nm61c62rhbasd4s39159yc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ox-gfm" ,emacs-ox-gfm)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-ox-gfm emacs-request))
     (home-page
       "https://github.com/dangom/writefreely.el")
     (synopsis
@@ -117543,8 +115533,7 @@
             "01yrz25aymzwkcj5yzs8pmswsg0jgzbynbp9hmjnf3sqlgmang62"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-visual-fill-column"
-         ,emacs-visual-fill-column)))
+      (list emacs-visual-fill-column))
     (home-page
       "https://github.com/joostkremers/writeroom-mode")
     (synopsis
@@ -117613,8 +115602,7 @@
           (base32
             "1ai655f10iayb4vw0ass2j3x83f4vsv90326mnywkzfl3sxd432z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-xterm-color" ,emacs-xterm-color)))
+    (propagated-inputs (list emacs-xterm-color))
     (home-page
       "https://github.com/bcbcarl/emacs-wttrin")
     (synopsis
@@ -117633,10 +115621,10 @@
         (uri (git-reference
                (url "https://github.com/redguardtoo/wucuo.git")
                (commit
-                 "b6e35e275e033c664c7e47fbf2314231b90d8b06")))
+                 "09fc58a02621b6c9615f8289c457e30ca6f63bcb")))
         (sha256
           (base32
-            "09lyjm6achf8bpx7921aascsagnh467wvjpb7s25wisap7x2706j"))))
+            "15jva7qp723fpwv6f24300h8knmxrlsjb2icg9rzr0994g9f36qs"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/redguardtoo/wucuo")
     (synopsis
@@ -117704,8 +115692,7 @@
           (base32
             "0l4fvq5zdzqvlwxqgqbfx9x0aimvk4x3la9yz9gw3vvj1rwf340i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-request" ,emacs-request)))
+    (propagated-inputs (list emacs-request))
     (home-page "unspecified")
     (synopsis "insert synonym for a word")
     (description
@@ -117727,8 +115714,7 @@
           (base32
             "0iq8pglzzx83k4wcld250vy0x3n9vz8689bwpbqkapg5p3m8c6v1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-helm-core" ,emacs-helm-core)))
+    (propagated-inputs (list emacs-helm-core))
     (arguments '(#:files (:defaults "xpathwalker")))
     (home-page "unspecified")
     (synopsis
@@ -117822,10 +115808,7 @@
             "0pi85ylxvjj63cmibgvi493d4ybcp2blhlwgrwzn2hjz31jldh0y"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-multiple-cursors"
-         ,emacs-multiple-cursors)))
+      (list emacs-s emacs-dash emacs-multiple-cursors))
     (home-page "unspecified")
     (synopsis
       "A minor mode for emacs to perform Xcode like actions.")
@@ -117894,12 +115877,12 @@
             "1lzd053b27jikgb10bpbihynx08c9c33fcswrykl0r5548qjwm4j"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-aio" ,emacs-aio)
-        ("emacs-auctex" ,emacs-auctex)
-        ("emacs-avy" ,emacs-avy)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-f" ,emacs-f)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-aio
+            emacs-auctex
+            emacs-avy
+            emacs-dash
+            emacs-f
+            emacs-s))
     (arguments '(#:files ("lisp/*.el")))
     (home-page
       "https://github.com/dandavison/xenops")
@@ -117924,8 +115907,7 @@
           (base32
             "03m15lbspk73x59wvb77wgvnkrmrlq4w6kmnrr2i69jgafqh0421"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-vline" ,emacs-vline)))
+    (propagated-inputs (list emacs-vline))
     (home-page
       "https://github.com/Boruch-Baum/emacs-xhair")
     (synopsis
@@ -117972,8 +115954,7 @@
             "1icjdgyv5i640p8q8y06h7nhzi7is4szj19j3vbhh6yxbwzdhbn9"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-ml" ,emacs-org-ml)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-org-ml emacs-dash))
     (home-page
       "https://github.com/akirak/xmind-org-el")
     (synopsis "Import XMind mindmaps into Org")
@@ -117996,7 +115977,7 @@
           (base32
             "0b7v59dya346ds1wad0avrqhjimx5n9r3pcgqafagzf34hdcv3jy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/bddean/xml-plus")
     (synopsis "Utilities for xml and html trees")
     (description
@@ -118018,8 +115999,7 @@
           (base32
             "1g0v5ir6nwpamnwvq509d1s1s60n0s5p2lvqqm0n0rk9r753cqkh"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "https://github.com/wbolster/emacs-xml-format")
     (synopsis "XML reformatter using xmllint")
@@ -118218,8 +116198,7 @@
           (base32
             "0iny4qswyicrax36d4sgyfrw3giwjd1440bmlksd36y8zjkqqym0"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-js2-mode" ,emacs-js2-mode)))
+    (propagated-inputs (list emacs-js2-mode))
     (home-page
       "https://github.com/NicolasPetton/xref-js2")
     (synopsis
@@ -118450,7 +116429,7 @@
           (base32
             "1ikhgi3gc86w7y3cjmw875c8ccsmj22yn1zm3abprdzbjqlyzhhg"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-xwwp" ,emacs-xwwp)))
+    (propagated-inputs (list emacs-xwwp))
     (arguments
       '(#:files ("xwwp-follow-link-helm.el")))
     (home-page "https://github.com/canatella/xwwp")
@@ -118475,7 +116454,7 @@
           (base32
             "1ikhgi3gc86w7y3cjmw875c8ccsmj22yn1zm3abprdzbjqlyzhhg"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-xwwp" ,emacs-xwwp)))
+    (propagated-inputs (list emacs-xwwp))
     (arguments
       '(#:files ("xwwp-follow-link-ivy.el")))
     (home-page "https://github.com/canatella/xwwp")
@@ -118600,14 +116579,14 @@
     (version "20210730.143")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/yaml-"
-               version
-               ".el"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/zkry/yaml.el.git")
+               (commit
+                 "84b88c9ed178af16da18b230c1f61c57cefedf28")))
         (sha256
           (base32
-            "1d14iq8sybcwhfj7ah4wnqb0fc9h9v2za3vbq0cp9k86jv60w5wb"))))
+            "13fjxrr7iyfagbm21p5is5jw1zv56ns2mnac145v8lqli6mrr5gx"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
@@ -118621,17 +116600,17 @@
     (version "20210530.251")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/yaml-imenu-"
-               version
-               ".tar"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/knu/yaml-imenu.el.git")
+               (commit
+                 "01741205fb33d2ed511502d1cd65a711e07a3117")))
         (sha256
           (base32
-            "0h30h2mxx1qdfdr038zg3kk36jvr83dqbp4md5701km4077m2jx1"))))
+            "1z8yzi322y8wnvci77xp7fb7x5l3z8zy1ng4zaa1z856va8x2971"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yaml-mode" ,emacs-yaml-mode)))
+    (propagated-inputs (list emacs-yaml-mode))
+    (arguments '(#:files (:defaults "*.rb")))
     (home-page
       "https://github.com/knu/yaml-imenu.el")
     (synopsis
@@ -118668,16 +116647,16 @@
     (version "20151123.753")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/yaml-tomato-"
-               version
-               ".el"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/RadekMolenda/yaml-tomato.git")
+               (commit
+                 "f9df1c9bdfcec629b03031b2d2032f9dc533cb14")))
         (sha256
           (base32
-            "1301zx4pbacp7d0q7nw01ndqxnnm950dpqbm45f6z6vcz9g1vbiv"))))
+            "1xgqqgg4q3hrhiap8gmr8iifdr1mg4dl0j236b6alhrgmykbhimy"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page "unspecified")
     (synopsis
       "copy or show the yaml path currently under cursor.")
@@ -118820,14 +116799,14 @@
     (version "20200208.2332")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/yarn-mode-"
-               version
-               ".el"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/anachronic/yarn-mode.git")
+               (commit
+                 "8239d4dc7d8a52fa1e3fa81bd32c904a359fcfc1")))
         (sha256
           (base32
-            "0q4igbxqlxcwfh668i1irday4lkxghql0ix87zacrikmzczp9q3b"))))
+            "0pf98jkz8k4gyc650wwfhww6gli847hmxb8lrnmw50yb88dqa38f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/anachronic/yarn-mode")
@@ -118864,15 +116843,17 @@
     (version "20200604.246")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/yasnippet-"
-               version
-               ".el"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/joaotavora/yasnippet.git")
+               (commit
+                 "5cbdbf0d2015540c59ed8ee0fcf4788effdf75b6")))
         (sha256
           (base32
-            "1frnxh7n37hwpnxb0zh9cn4wnxbn8dfjb64sldcmxc7nl0zfx62j"))))
+            "1cp1sgmfc8pgcy24l77aam833710mjp2y3m8l8c90677wxqr44vl"))))
     (build-system melpa-build-system)
+    (arguments
+      '(#:files ("yasnippet.el" "snippets")))
     (home-page
       "http://github.com/joaotavora/yasnippet")
     (synopsis
@@ -118896,8 +116877,7 @@
           (base32
             "0h64h47qdv3c20g9hlys2xb4w2jby7pdfhaza52y48wayz6vhpnx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments
       '(#:files ("yasnippet-lean.el" "snippets")))
     (home-page
@@ -118923,8 +116903,7 @@
           (base32
             "0iglhbwnx2pk2p05ym43fh3p4vwd77kch6f8aw63jz77ia05cba4"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (arguments
       '(#:files ("*.el" "snippets" ".nosearch")))
     (home-page
@@ -118949,8 +116928,7 @@
           (base32
             "1dkxzvsmz193nwybi3wi00k0wwhkbpnj4yi7gxdrgix6kxbpjd9i"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-yasnippet" ,emacs-yasnippet)))
+    (propagated-inputs (list emacs-yasnippet))
     (home-page "https://github.com/mineo/yatemplate")
     (synopsis "File templates with yasnippet")
     (description
@@ -118970,7 +116948,7 @@
                ".tar"))
         (sha256
           (base32
-            "1jf320n4gaqq0g2nyfrmjqjf55d1w6075nqvaz5bbnykrwznqy8s"))))
+            "01gdayh0kaj0sc4g3ghchwxbi4i4pw946fgmr85cggrw3zs2i1lm"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -119040,13 +117018,12 @@
             "0amdz2ss953lm39yky1dv3zp20ig97mxsk7z81694bpxnhn4kxad"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-s" ,emacs-s)
-        ("emacs-deferred" ,emacs-deferred)
-        ("emacs-request" ,emacs-request)
-        ("emacs-request-deferred"
-         ,emacs-request-deferred)
-        ("emacs-pkg-info" ,emacs-pkg-info)))
+      (list emacs-dash
+            emacs-s
+            emacs-deferred
+            emacs-request
+            emacs-request-deferred
+            emacs-pkg-info))
     (arguments
       '(#:files
         ("ycmd.el" "ycmd-eldoc.el" "contrib/*.el")))
@@ -119096,7 +117073,7 @@
           (base32
             "074wijjphnpch7bl3455apfkdv35b0iw4l4lzwj0jcxyfszviq9f"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page "http://github.com/alphapapa/yequake")
     (synopsis "Drop-down frames, like Yakuake")
     (description
@@ -119119,9 +117096,7 @@
             "1fyvvkx6pa41bcr9cyh4yclwdzc5bs742s9fxr6wb4a5scq3hg9m"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-s" ,emacs-s)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-cider" ,emacs-cider)))
+      (list emacs-s emacs-dash emacs-cider))
     (home-page "unspecified")
     (synopsis
       "Display ghostly yesql defqueries inline")
@@ -119166,7 +117141,7 @@
           (base32
             "07bb1hlya07p6s6ymjl3vfv99xln3vrp78h4sda5va52vj1935rs"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-ts" ,emacs-ts)))
+    (propagated-inputs (list emacs-ts))
     (home-page
       "https://github.com/janders223/ynab.el")
     (synopsis
@@ -119236,11 +117211,10 @@
             "0h8hgq76ja3fjrn8vsndkzvns4ar13qsydcrqjsj77jqw9kx9a43"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-popup" ,emacs-popup)
-        ("emacs-pos-tip" ,emacs-pos-tip)
-        ("emacs-chinese-word-at-point"
-         ,emacs-chinese-word-at-point)
-        ("emacs-names" ,emacs-names)))
+      (list emacs-popup
+            emacs-pos-tip
+            emacs-chinese-word-at-point
+            emacs-names))
     (home-page
       "https://github.com/xuchunyang/youdao-dictionary.el")
     (synopsis
@@ -119288,9 +117262,7 @@
             "010arhvibyw50lqhsr8bm0vj3pzry1h1vgcvxnmyryirk3dv40jl"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-async" ,emacs-async)
-        ("emacs-transient" ,emacs-transient)
-        ("emacs-dash" ,emacs-dash)))
+      (list emacs-async emacs-transient emacs-dash))
     (home-page "https://gitlab.com/tuedachu/ytdl")
     (synopsis "Emacs Interface for youtube-dl")
     (description
@@ -119333,8 +117305,7 @@
           (base32
             "0jlnxxzh9p7285m16w33l5529iglg5cihs6gqwnb6y34wpzwyar6"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-flycheck" ,emacs-flycheck)))
+    (propagated-inputs (list emacs-flycheck))
     (home-page "https://github.com/zv/z3-mode")
     (synopsis
       "A z3/SMTLIBv2 interactive development environment")
@@ -119379,8 +117350,7 @@
           (base32
             "1518wp3zjfdvzz5r22cjgn735c4yxr345qzj40b5agww4dsxmwmp"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-frecency" ,emacs-frecency)))
+    (propagated-inputs (list emacs-frecency))
     (home-page
       "https://github.com/rudolfochrist/zel")
     (synopsis "Access frecent files easily")
@@ -119560,8 +117530,7 @@
           (base32
             "0xqy1hifczqk8zr9kdyhiy4iawx28gahciz7vsgr92iky67v49fc"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-pkg-info" ,emacs-pkg-info)))
+    (propagated-inputs (list emacs-pkg-info))
     (home-page
       "https://github.com/zephir-lang/zephir-mode")
     (synopsis "Major mode for editing Zephir code")
@@ -119584,7 +117553,7 @@
           (base32
             "0spv1j12fbjc5m6jxn269zysiaphzb5gvxnxc10b4yjgyqsss12r"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://gitlab.emacsos.com/sylecn/zero-el")
     (synopsis "Zero Chinese input method framework")
@@ -119607,8 +117576,7 @@
           (base32
             "1ajgz5mbvzv92p1g3k6p94v11z3xyj5w81fpfiwhlvh30imx6z9q"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-all-the-icons" ,emacs-all-the-icons)))
+    (propagated-inputs (list emacs-all-the-icons))
     (home-page
       "https://github.com/NicolasPetton/zerodark-theme")
     (synopsis
@@ -119633,8 +117601,7 @@
             "0w252rsfzy3vm08bqxi8f0mb9mpx532c7bkyminal8x7ssn1bdn6"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-deft" ,emacs-deft)
-        ("emacs-ace-window" ,emacs-ace-window)))
+      (list emacs-deft emacs-ace-window))
     (arguments
       '(#:files (:defaults "zetteldeft.org")))
     (home-page "https://efls.github.io/zetteldeft/")
@@ -119658,7 +117625,7 @@
           (base32
             "1rnir9mc9cp12wg5p19f0m6g6mvfyv1ahr7zq7azl8hvwmnb6gx7"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-s" ,emacs-s)))
+    (propagated-inputs (list emacs-s))
     (arguments '(#:files ("zettelkasten.el")))
     (home-page
       "https://github.com/ymherklotz/emacs-zettelkasten")
@@ -119683,9 +117650,7 @@
           (base32
             "13xfz5lsx9irl6l9l3qvymh875nab4vmlx2m563kphqy18j1j332"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-dash" ,emacs-dash)
-        ("emacs-hydra" ,emacs-hydra)))
+    (propagated-inputs (list emacs-dash emacs-hydra))
     (arguments '(#:files (:defaults "etc")))
     (home-page
       "https://github.com/damon-kwok/zetz-mode")
@@ -119734,11 +117699,11 @@
             "071xw635ik9jqlgmrzg11d826d3fsjgzyyj60jq6142jr5a0jpqb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-helm-ag" ,emacs-helm-ag)
-        ("emacs-helm-projectile" ,emacs-helm-projectile)
-        ("emacs-dokuwiki-mode" ,emacs-dokuwiki-mode)
-        ("emacs-link-hint" ,emacs-link-hint)
-        ("emacs-pretty-hydra" ,emacs-pretty-hydra)))
+      (list emacs-helm-ag
+            emacs-helm-projectile
+            emacs-dokuwiki-mode
+            emacs-link-hint
+            emacs-pretty-hydra))
     (home-page
       "https://github.com/WillForan/zim-wiki-mode")
     (synopsis "Zim Desktop Wiki edit mode")
@@ -119761,8 +117726,7 @@
           (base32
             "1vx4j9n5q4gmc63lk1l4gbz5j5qn2423cyfibqcbynkkbwgas11z"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-projectile" ,emacs-projectile)))
+    (propagated-inputs (list emacs-projectile))
     (home-page
       "https://github.com/schmir/zimports.el")
     (synopsis
@@ -119875,8 +117839,7 @@
           (base32
             "04m53hzk5n9vxh0gxi8jzpdhsdjlxnvz7hmsisr3bs99v603ha01"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-haskell-mode" ,emacs-haskell-mode)))
+    (propagated-inputs (list emacs-haskell-mode))
     (home-page "unspecified")
     (synopsis
       "A minor mode for interaction with Zombie Trellys")
@@ -119899,8 +117862,7 @@
           (base32
             "04kqrfg6rp01vpjc9l28h7mw0z0ykl4dzqaj8px2xdvglx8lbdqx"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-esxml" ,emacs-esxml)))
+    (propagated-inputs (list emacs-esxml))
     (home-page "https://depp.brause.cc/zone-nyan")
     (synopsis "Zone out with nyan cat")
     (description
@@ -119944,7 +117906,7 @@
           (base32
             "17mrzf85ym0x5ih4l6sjdjlcmviabf8c8rpvpkd90gp9qxd8pyx1"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-dash" ,emacs-dash)))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/kawabata/zone-select")
     (synopsis "Select zone programs.")
@@ -120076,9 +118038,7 @@
             "0gh04kbg109038xxcrzhjffqrfcxx7vbz0dz2idglcmbqpg7lzjq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-ht" ,emacs-ht)
-        ("emacs-oauth" ,emacs-oauth)
-        ("emacs-s" ,emacs-s)))
+      (list emacs-ht emacs-oauth emacs-s))
     (arguments '(#:files (:defaults "img")))
     (home-page
       "https://gitlab.com/fvdbeek/emacs-zotero")
@@ -120103,8 +118063,7 @@
             "18hi6m2ngl9yz599q5bhifafi4vz1adc06bjl0bhb3rs62vbkwk2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-request" ,emacs-request)
-        ("emacs-deferred" ,emacs-deferred)))
+      (list emacs-request emacs-deferred))
     (home-page "unspecified")
     (synopsis
       "Tools to integrate emacs with Zotero via the zotxt plugin.")
@@ -120192,9 +118151,7 @@
             "16axrf7x9fkr56fwz7vacc7xy6x4grb13x3g9hcp5pgcv7yhfmgb"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      `(("emacs-org-parser" ,emacs-org-parser)
-        ("emacs-dash" ,emacs-dash)
-        ("emacs-request" ,emacs-request)))
+      (list emacs-org-parser emacs-dash emacs-request))
     (home-page "https://hg.sr.ht/~zck/zpresent")
     (synopsis
       "Simple presentation mode based on org files.")
@@ -120217,8 +118174,7 @@
           (base32
             "1in5cyrj0kn1fdfcw7iaxhsxx5hn3r3r0aiida8p9dvkx8kq540l"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      `(("emacs-reformatter" ,emacs-reformatter)))
+    (propagated-inputs (list emacs-reformatter))
     (home-page
       "http://www.github.com/dpassen/zprint-format")
     (synopsis "Reformat Clojure code using zprint")
@@ -120331,7 +118287,7 @@
           (base32
             "03gg15vj2jbd70xjqkxpwgngz340fyhq1jjmd4iasf36fqplxccw"))))
     (build-system melpa-build-system)
-    (propagated-inputs `(("emacs-avy" ,emacs-avy)))
+    (propagated-inputs (list emacs-avy))
     (home-page
       "https://github.com/mrkkrp/zzz-to-char")
     (synopsis
