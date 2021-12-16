@@ -6786,17 +6786,17 @@
 (define-public emacs-better-defaults
   (package
     (name "emacs-better-defaults")
-    (version "20211212.1841")
+    (version "20211216.420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~technomancy/better-defaults")
                (commit
-                 "5383a9b2560adc4f7ebbdf148d87b19bf7cf8cc4")))
+                 "4b833e0601e77a8ed86b30929da2aba2b88f33be")))
         (sha256
           (base32
-            "1h1nfmpa4prfhi4j7l46q99y315ds6kl3qnxjgkdnw57nxqbwfl5"))))
+            "0g28ra3x38nq6qaxn163iyjjipj4pspwsyyi1y15qqp264fv1002"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/technomancy/better-defaults")
@@ -12994,17 +12994,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211215.2143")
+    (version "20211216.233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "25a5e4dba87a4bc7bd80c031145614b5b10d5146")))
+                 "521c5080c30e5dc5c204cb273f7f64c3c118ca67")))
         (sha256
           (base32
-            "0a0ahy7zpabkm755h8a7mlliia1i1ymcjm72m2wryxfgn8zg6hp3"))))
+            "0z3hv5xq7ban1ghilkw35cdaki8shmkar47dyksa66v3drzq20n6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -21562,17 +21562,17 @@
 (define-public emacs-dired-toggle-sudo
   (package
     (name "emacs-dired-toggle-sudo")
-    (version "20200401.1353")
+    (version "20211216.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/renard/dired-toggle-sudo.git")
                (commit
-                 "13bbe52c54893f5aa3e56228450ffdd0c9e1d169")))
+                 "9f86cdf858225b15c20affb97ed105e4109047bf")))
         (sha256
           (base32
-            "1fw1pb1z6krqd1pfxxhr6rrfr9ckkcb0zsjzbjk0i2i1q5cg6car"))))
+            "19p2yl61m7krjj2p6pg9cjw8n4zm3a6shv1k9vq0xvxjq86dx59l"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -24483,17 +24483,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20211214.941")
+    (version "20211215.2257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "16797a9577e5055f0d9bd5a492a9d87b8ec6b7c9")))
+                 "4e014cfe2f116e0909450930efa0f176ae1d49f0")))
         (sha256
           (base32
-            "0hh5d570c5xaaa5wmncnpqxnzmga6gi5g2rkbbfp8r73l4yyp8sf"))))
+            "1bmx7i1nj6mh9k7cdalc3zf7ahcinc88q7nihvl4r8c86lvb89jw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -32937,17 +32937,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211211.2301")
+    (version "20211215.2318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "25c7c9870a76ab64e091cd4362a3439eed17ee68")))
+                 "73c714f2d27042eea8f808fcb2e50cca28ebfdc8")))
         (sha256
           (base32
-            "1vzikv8pzqslsmk59vy0w8qm0jwjkz7hisc9jff55wg40y8cw9ii"))))
+            "0flx6sp462cacgn7219sjm46618ik34hil6s3jk719s7jvww6qcj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -89886,17 +89886,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20211206.1920")
+    (version "20211216.12")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "2bb7ec28b1275bbce7cac743ee9e7b2cf41c5bbd")))
+                 "cd8bcbcb15be7b76d73969d2c2504100b77eda26")))
         (sha256
           (base32
-            "1m1d5p87k09wxs2pbia37s9c4ik60vj094xnkxnr3vwyvs5d0a17"))))
+            "065w1crwll3axjghdz63r0qv81icaz8xdrzjsrm5jcyxys0izwyr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -108934,17 +108934,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211213.2044")
+    (version "20211215.2318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "25c7c9870a76ab64e091cd4362a3439eed17ee68")))
+                 "73c714f2d27042eea8f808fcb2e50cca28ebfdc8")))
         (sha256
           (base32
-            "1vzikv8pzqslsmk59vy0w8qm0jwjkz7hisc9jff55wg40y8cw9ii"))))
+            "0flx6sp462cacgn7219sjm46618ik34hil6s3jk719s7jvww6qcj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
