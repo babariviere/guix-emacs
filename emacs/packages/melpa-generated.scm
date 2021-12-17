@@ -12994,17 +12994,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211216.2242")
+    (version "20211217.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "d9443490ae4d1facfe910ed5db2dae9773c4ede2")))
+                 "ff7053bddc70797f6abd6ec9dd4ea43c65e9989b")))
         (sha256
           (base32
-            "10a597capbjyianjiyn98v754vbgy7zdx2s30jgdndbd00c93ddw"))))
+            "1iqlcih1ri5vg51hdkynvrzbgdp5hfqb82c3hp40fqdgir8gj140"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -21791,17 +21791,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20211216.1022")
+    (version "20211217.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4d2d3f2b630b245ece79ca1cae00a123af0d446e")))
+                 "044bb5777f9ee413d4aa93488664fa34e6b13e25")))
         (sha256
           (base32
-            "0aq39nh81ir6nndb36bf7m13j68hsgnrw05r11sjs4651gh2n8l1"))))
+            "0saz2lqg82bdx2pfpz8g8i1ypqz60xpa394h6ld6ymh9fr2gl1yp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-posframe))
     (home-page
@@ -26146,17 +26146,17 @@
 (define-public emacs-elcord
   (package
     (name "emacs-elcord")
-    (version "20211011.158")
+    (version "20211217.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Mstrodl/elcord.git")
                (commit
-                 "f4a45e47e58414da0984f9ac1328be207a897ba9")))
+                 "8b4f61eb30e1c2a3ee1bef7b5554692eaa91ae9d")))
         (sha256
           (base32
-            "1s1i665a3bknjchg47jsaxydmmq4fqyb59i18np7w0zhhzzpjxxs"))))
+            "073mk5mmgyd4gi5qign0m2r4ma3zlvsfyblwl10a9ics4475gx9i"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "stdpipe.ps1")))
     (home-page "https://github.com/Mstrodl/elcord")
@@ -96488,17 +96488,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20211215.1933")
+    (version "20211217.1233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "b142a575352a2ce96e565080135584960eee9258")))
+                 "fb6f6e826ebc9411158b4c106bfaf3e1e3bef4da")))
         (sha256
           (base32
-            "0d7cn0410gf2jrx3r0mdm0dqamwxrc0d57jy2j087jgng7rfqlzm"))))
+            "0l20n32s17zpvc3l0mnmr9vr9hsds002mm82i9r0dmz5hp1hp8d0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -108934,17 +108934,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211215.2318")
+    (version "20211217.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "73c714f2d27042eea8f808fcb2e50cca28ebfdc8")))
+                 "ceae46cc78958fe96bac521a8e2969148f8aacca")))
         (sha256
           (base32
-            "0flx6sp462cacgn7219sjm46618ik34hil6s3jk719s7jvww6qcj"))))
+            "136xzmnwkx1dybi1h4k3cd4gdgx0mpsb7xyimaaa6kdyyfl2ylyy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
