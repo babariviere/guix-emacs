@@ -1,8 +1,10 @@
 (define-module (emacs packages melpa)
   #:use-module ((emacs packages melpa-generated) #:prefix g/)
   #:use-module ((gnu packages emacs-xyz) #:prefix e/)
+  #:use-module (gnu packages sqlite)
   #:use-module (guix packages)
-  #:replace (emacs-emacsql))
+  #:use-module (guix utils)
+  #:replace (emacs-emacsql emacs-emacsql-sqlite3))
 
 (eval-when (eval load compile)
   (let ((i (module-public-interface (current-module))))
@@ -49,3 +51,24 @@
                   (string-append (assoc-ref outputs "out")
                                  "/bin/emacsql-sqlite")))))))))
     (inputs (package-inputs e/emacs-emacsql))))
+
+(define-public emacs-emacsql-sqlite3
+  (package
+    (inherit g/emacs-emacsql-sqlite3)
+    (arguments
+     `(,@(package-arguments g/emacs-emacsql-sqlite3)
+       #:tests? #t
+       #:test-command '("emacs" "-Q" "--batch" "-L" "."
+                        "--load" "emacsql-sqlite3-test.el"
+                        "-f" "ert-run-tests-batch-and-exit")
+       #:phases
+       (modify-phases %standard-phases
+         (add-after 'unpack 'embed-path-to-sqlite3
+           (lambda _
+             (substitute* "emacsql-sqlite3.el"
+               (("\\(executable-find \"sqlite3\"\\)")
+                (string-append "\"" (which "sqlite3") "\""))))))))
+    (native-inputs
+     (list emacs-ert-runner))
+    (inputs
+     (list sqlite))))
