@@ -69,6 +69,6 @@
                (("\\(executable-find \"sqlite3\"\\)")
                 (string-append "\"" (which "sqlite3") "\""))))))))
     (native-inputs
-     (list emacs-ert-runner))
+     (list g/emacs-ert-runner))
     (inputs
      (list sqlite))))
