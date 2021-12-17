@@ -10,9 +10,9 @@
   (let ((i (module-public-interface (current-module))))
     (module-use! i (resolve-interface `(emacs packages melpa-generated)))))
 
-(define-public emacs-emacsql
+(define-public emacs-emacsql-sqlite
   (package
-    (inherit g/emacs-emacsql)
+    (inherit g/emacs-emacsql-sqlite)
     (arguments
      `(,@(package-arguments g/emacs-emacsql)
        #:modules ((emacs build melpa-build-system)
@@ -50,7 +50,8 @@
                  ("(defvar emacsql-sqlite-executable"
                   (string-append (assoc-ref outputs "out")
                                  "/bin/emacsql-sqlite")))))))))
-    (inputs (package-inputs e/emacs-emacsql))))
+   (inputs (package-inputs e/emacs-emacsql))))
+
 
 (define-public emacs-emacsql-sqlite3
   (package
