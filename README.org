@@ -32,7 +32,7 @@ In emacs/packages/melpa.scm, define a new package:
 
 #+begin_src scheme
 (define-module (emacs packages melpa)
-  #:re-export-and-replace (
+  #:replace (
 			   emacs-my-package ; don't forget to re-export it
 			   ))
 
