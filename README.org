@@ -43,6 +43,8 @@ In emacs/packages/melpa.scm, define a new package:
   )
 #+end_src
 
+NOTE: you will have to replace your packages with the new override!
+
 ** What can be improved
 *** Allow to import only one package
 
