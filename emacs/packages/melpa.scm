@@ -12994,17 +12994,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211216.1328")
+    (version "20211216.1938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "7ec278a880d70fd798bb52ceb09651831fdddfd2")))
+                 "570bfd7733f63839fff61476b446cf0031904c9b")))
         (sha256
           (base32
-            "1m71567mhzs07r59g46dxj695fg4jypjrwc5xlb13fa0npbr88vh"))))
+            "0fca0q0sxc5d5h69x5kx79idifj14fyhfidk2i2c1w6y5v0lp2yr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -24483,17 +24483,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20211215.2257")
+    (version "20211216.2201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "4e014cfe2f116e0909450930efa0f176ae1d49f0")))
+                 "2e11ff76407ad79f3d08445647920f380e83e298")))
         (sha256
           (base32
-            "1bmx7i1nj6mh9k7cdalc3zf7ahcinc88q7nihvl4r8c86lvb89jw"))))
+            "0brrl4pyjpwp714f4nfw6y4xgfv144ivhbra6v5aq924drv4yvgq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -40210,17 +40210,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20211211.15")
+    (version "20211216.2020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "402773ef7e83ddfab64bfee23daea2776d50dbc1")))
+                 "9c3b53cdf6c0aae18455a8b9f573846c43ac9df1")))
         (sha256
           (base32
-            "1n8x0bx3av935ky56rzy38d0ry73g57nsax26z3scc4na4h46yip"))))
+            "1i88nrssj1v9ri54zggc6psvr6faff1h6234c225ipn21kkqaqc5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -66772,17 +66772,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20211215.603")
+    (version "20211216.1915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "65c4485e19bf570ebcb81fbaa6352c4e94bb05da")))
+                 "f766f68f78b982443850b2e4433d83e26971fdb0")))
         (sha256
           (base32
-            "07zbkmyzaf4zi8jyk69gm9k8x04xv05p7nin4qyc4rlnsz24yg8h"))))
+            "0pp9nvd78pvxsbhp7d8ykh9qj72kmjmkyh26c2xsh3wn4pm24y7j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -92506,17 +92506,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20211130.1748")
+    (version "20211216.2033")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "ef54a42ddd32f8827eef430f0410e392f9cb1726")))
+                 "ba63c5b9b05ce54e370e5c6bb631060246ce7ea4")))
         (sha256
           (base32
-            "1x81l60k4qb2ffb85sqjr704dyh8dy28wq4rc8d5vc9qpmm1z3kf"))))
+            "0nzlzpcrk1gphr48xnhhsyf290sl40ibag1acj4gzhg8xx0lf3jg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96442,17 +96442,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20211127.1713")
+    (version "20211216.2105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "3f67a880dc8b31b330cf59aee875d9dc96e7c475")))
+                 "9b8d218d74269429c77b5f646ba2c2a2c66ff050")))
         (sha256
           (base32
-            "0qvsmm9dgxclg0h2d60bh87msbn4cq9l2dq7vipzzibn999yxj4l"))))
+            "0dhzz7nkirr6ggd36lcx52y2ld17b6sfzs08i07sf3pra3dk86v6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -108180,17 +108180,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20211203.2240")
+    (version "20211216.2059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "631e8b0b5e72983104084256d30b01ba4bc41e94")))
+                 "bbfc72238bb26f72dd79345647d86aa082acf8f2")))
         (sha256
           (base32
-            "10ajqxjwvyv79m5r8k1l98qclrdzlvr78kjlwvnn7dxlv91vrds0"))))
+            "1n7racjcdrp8bbaplm08913gj19d2q5xqdhbp4s1ckrhd2zj9lbp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -110407,17 +110407,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20211007.306")
+    (version "20211216.2304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "1810251485a551bc41472ec9e7e7bfab72a45a3c")))
+                 "a6a23301a4030335ff3de1c5556f6ab5d915f7b5")))
         (sha256
           (base32
-            "195zm428c6gan92g8dsgzgdc30xxyrjfk294dmzqdal86jsajvmr"))))
+            "19q7sn388hbz0qn7d6y8crnnzh2pfaidhcj7a1hqzxsjh6j9mc6f"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
