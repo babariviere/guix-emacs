@@ -47,7 +47,7 @@
                  ("(executable-find" (which "gcc"))
                  ;; Make sure Emacs looks for ‘emacsql-sqlite’ binary
                  ;; in the right place.
-                 ("(defvar emacsql-sqlite-executable"
+                 ("(defvar emacsql-sqlite-executable-path"
                   (string-append (assoc-ref outputs "out")
                                  "/bin/emacsql-sqlite")))))))))
    (inputs (package-inputs e/emacs-emacsql))))
