@@ -12994,17 +12994,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211216.1938")
+    (version "20211216.2242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "570bfd7733f63839fff61476b446cf0031904c9b")))
+                 "d9443490ae4d1facfe910ed5db2dae9773c4ede2")))
         (sha256
           (base32
-            "0fca0q0sxc5d5h69x5kx79idifj14fyhfidk2i2c1w6y5v0lp2yr"))))
+            "10a597capbjyianjiyn98v754vbgy7zdx2s30jgdndbd00c93ddw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -31419,17 +31419,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20211216.1315")
+    (version "20211217.103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "88242de2a6b8e9c1b535365f54e90042f7b4daee")))
+                 "dfd65acafeee34ae5d0fb25d2c211b401ceb7240")))
         (sha256
           (base32
-            "14yi8cx11ig18g64c7csr398mczsj6y4hf5dlkb3bachi6g0sm7f"))))
+            "0wxm7mhdhxmsxj5n8lg4a819zkmi8npnhqk1j4746yhnbz6dids5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -41693,17 +41693,17 @@
 (define-public emacs-geiser-chez
   (package
     (name "emacs-geiser-chez")
-    (version "20211120.250")
+    (version "20211216.2332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chez.git")
                (commit
-                 "ab2dde7a345c1c135ec0ed8fcd49eff1114951bd")))
+                 "48427d4aecc6fed751d266673f1ce2ad57ddbcfc")))
         (sha256
           (base32
-            "0cwm3xpn4bwgvmcmi06ijydp038054nch2hnjv1lprmnk1jg6d8p"))))
+            "03fc9ahb0pmznkcnxzgpni4clj1zgky6vaqkc94nf8b8swniwkm9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -58002,17 +58002,17 @@
 (define-public emacs-ivy-posframe
   (package
     (name "emacs-ivy-posframe")
-    (version "20211103.233")
+    (version "20211217.234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/ivy-posframe.git")
                (commit
-                 "5d9420252ca855d6d206f1f8ef5993a6be3c618f")))
+                 "533a8e368fcabfd534761a5c685ce713376fa594")))
         (sha256
           (base32
-            "1yan9h12208dalzgpffqxnzv8b0hwzhzna01gnzb9wmkcfi3fpmh"))))
+            "137mh0jgvkawdrv1d7w9giazz57c40n0yw2580q8zmxmv5dvkrl7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-posframe emacs-ivy))
@@ -91344,17 +91344,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211216.1027")
+    (version "20211217.409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "6d1d93f22a07d51e5a78b3fe91d2107391fcbfed")))
+                 "15de273d86d5801347cc0962569669f49dff681b")))
         (sha256
           (base32
-            "1wkn8mm2l8w7r839adfax181x7qbcz61mfwd0g9r4jz6madnvci9"))))
+            "1dlyz3mhd2yh6c7gjzpnkasyzmqqkd119wblxzjiaf3kmivzfjcl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -110407,17 +110407,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20211216.2304")
+    (version "20211217.351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "a6a23301a4030335ff3de1c5556f6ab5d915f7b5")))
+                 "cbe37c664389e2ef8c580dd800ca76b0139f09c5")))
         (sha256
           (base32
-            "19q7sn388hbz0qn7d6y8crnnzh2pfaidhcj7a1hqzxsjh6j9mc6f"))))
+            "01nsc9b5yiwy5r5zdkwidk22lvxhwahxq741r1rj0f2q7zf44yb9"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
@@ -113314,17 +113314,17 @@
 (define-public emacs-wakib-keys
   (package
     (name "emacs-wakib-keys")
-    (version "20211116.2049")
+    (version "20211217.232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/darkstego/wakib-keys.git")
                (commit
-                 "b2a62fb74f2fdfd00fd56ff8343651fa0a079f50")))
+                 "eb5a5ebbf2de88e32f51c85f8f9468765320258c")))
         (sha256
           (base32
-            "0j47xxch74j09xxi2v2m42cyzcfa6zbvb6wpyjk9dif6pjn1q3n8"))))
+            "14vd64kqj051mg7vcszxbf4m9b54sx8939s542ax5zaza6c5raq5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/darkstego/wakib-keys/")
