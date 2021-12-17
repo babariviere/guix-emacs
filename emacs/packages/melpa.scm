@@ -1,4 +1,5 @@
 (define-module (emacs packages melpa)
+  #:use-module (emacs build-system melpa)
   #:use-module ((emacs packages melpa-generated) #:prefix g/)
   #:use-module ((gnu packages emacs-xyz) #:prefix e/)
   #:use-module (guix packages)
