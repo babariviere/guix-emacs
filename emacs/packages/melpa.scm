@@ -4,7 +4,7 @@
   #:use-module (gnu packages sqlite)
   #:use-module (guix packages)
   #:use-module (guix utils)
-  #:replace (emacs-emacsql emacs-emacsql-sqlite3))
+  #:replace (emacs-emacsql-sqlite emacs-emacsql-sqlite3))
 
 (eval-when (eval load compile)
   (let ((i (module-public-interface (current-module))))
