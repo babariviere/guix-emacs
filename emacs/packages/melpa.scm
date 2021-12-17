@@ -14,7 +14,7 @@
   (package
     (inherit g/emacs-emacsql-sqlite)
     (arguments
-     `(,@(package-arguments g/emacs-emacsql)
+     `(,@(package-arguments g/emacs-emacsql-sqlite)
        #:modules ((emacs build melpa-build-system)
                   (guix build utils)
                   (guix build emacs-utils)
