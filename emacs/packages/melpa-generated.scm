@@ -4253,17 +4253,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20210426.1348")
+    (version "20211218.1258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "a5bc695af27349ae6fe4541a581e6fd449d2a026")))
+                 "84755c8833980aa373fac7a9e74bbe81f1570d25")))
         (sha256
           (base32
-            "06j1cpqmplh1xy5aal8fk7r8s42jf3zlk92mh3lll9knx81xix9q"))))
+            "0nr7ciqsi14zsqab00ki1ixy32kfm733al8hb6d828q97imifvmz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-flycheck emacs-s))
@@ -11440,17 +11440,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20211215.925")
+    (version "20211218.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "bcc5936f3a1ee9b58b2cfa8a52df1a91cfb0eae0")))
+                 "28ca7f9639b4ee3374ebe58c42aa7b9c7b5f7a22")))
         (sha256
           (base32
-            "1sy626qdv5wzkwk0hpzvsrcrpy2p4i3ggmb0k4w1gz9w7rxr3lak"))))
+            "1vmcylf9r3l1jhbxj24wgamv5ldh2yhhjnikdlpvvrgr1c0c9l2j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -11725,17 +11725,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211217.2051")
+    (version "20211218.1049")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "ce5219c48ede90ab44db8b5a6123f207341eed86")))
+                 "9da28efdaa024a65165a24189306943acb4bfc4f")))
         (sha256
           (base32
-            "08srysw6id18aym4gbgp0ignragsb9jypdwi7hvibhlp9s00rhc6"))))
+            "0qiziffhs8c96saaldl56nhi5mfllf09fmf93m2wldclvszfani9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -20162,17 +20162,17 @@
 (define-public emacs-devdocs-browser
   (package
     (name "emacs-devdocs-browser")
-    (version "20211212.1544")
+    (version "20211218.949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-devdocs-browser.git")
                (commit
-                 "2d265d48d40156d4a2dd2b6b433c8d969e037c5a")))
+                 "a46a2cdb83ed27869befe56fea04914a33252b3a")))
         (sha256
           (base32
-            "1y6akvcky85z45d9s7ll8i1v2xz4a1xy0pfg7c1qi0xs5d3xw4i1"))))
+            "0vw9q3639rj1v6b1si0qzqwa5ps4m3kaxdmyfq7342ahp7g2m8sj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/blahgeek/emacs-devdocs-browser")
@@ -31419,17 +31419,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20211217.835")
+    (version "20211218.952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "76157b95dd30228ac2f81b3548faa15265f4c12f")))
+                 "b2993138c0af38604268d7225506ab471d5398c2")))
         (sha256
           (base32
-            "15pxhkf3fbhn1s20cx40m041n93kxcxa4f3h8dcsi47jncg1ligm"))))
+            "0cq9dvaxifpzvyccq3qmqdnwsq8x800xpp24zzs3f6mlr7ycpq47"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -33430,17 +33430,17 @@
 (define-public emacs-expenses
   (package
     (name "emacs-expenses")
-    (version "20211214.157")
+    (version "20211218.755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/expenses.git")
                (commit
-                 "0422ee95c11d3ea3bc60128e9e0c5dcb87bfd944")))
+                 "0543a53a3657f607de7f256510efa48aab357d34")))
         (sha256
           (base32
-            "15xa3wyjvbb1v4cs3svj70418qxh5psj06pgc650nl9chy5zys0k"))))
+            "0skg502l2j72z7lvd9cl5wl6aj6vnzbkvrjvisixxxnvib4lhsvb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -89093,17 +89093,17 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20211128.755")
+    (version "20211218.919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-pr-review.git")
                (commit
-                 "f1e1bc2a5ad2092afdba8568d554f35ebc98bec7")))
+                 "a4f747de1922f5f4142ea8be491ae7b06a05d3a4")))
         (sha256
           (base32
-            "07f98c2d9wszlxj6gvrnnb60krbgf55wahg1d16p2mwqczgdl7cp"))))
+            "10g9nsixpvkz217rdkb8mmiilvkqbgy29ma273wnp8vk8bgs5f00"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section
@@ -108205,17 +108205,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20211217.1757")
+    (version "20211218.1335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "de304b468798a6f575adcd0473e929b4406e9706")))
+                 "b0285c1d4263363a879a373c9846199e311aff51")))
         (sha256
           (base32
-            "0njm10yg2axpahfk7swckz67n3gkc4vnr1pymlvak32h4nxvz7fk"))))
+            "0cnlg9z9bv78jlr6rzqrfq9jxw644czh7zhmjm19hn61kixfcs2s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -115409,17 +115409,17 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20211218.34")
+    (version "20211218.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashinin/workgroups2.git")
                (commit
-                 "691298ad53179db4b71ca52349f18af00925a3e5")))
+                 "fdc97541808de449efecc7f2ce726c5de4abeb57")))
         (sha256
           (base32
-            "0jmza589n8ig5hhk3nnnxvyvqlzrrh39r7iy51cq71ij856f5ajf"))))
+            "0wxh82air5il7022s3139w4rw1fxrij1mchjnr1a9g8dqhzgv8bl"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
