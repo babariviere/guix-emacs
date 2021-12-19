@@ -13835,17 +13835,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20211201.2335")
+    (version "20211219.834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "8b58e5895c2eaf8686de0e25c807b00fdb205c7a")))
+                 "ab334b5b7b9d2b219ae8023f9e2dfaf673e17c90")))
         (sha256
           (base32
-            "1rc4hcg3bgqmllgb4xfylpkmg2wkx5qk7nagwdhx6klq87jbxdz9"))))
+            "154pskmh76sgz2vl345m920c3a23nzs8i64axpj7r81w7l2b0a3l"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page "http://company-mode.github.io/")
@@ -30274,17 +30274,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20211218.2317")
+    (version "20211219.1248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "6ec3280a8de47f5230ad8152c833b320eb94c92a")))
+                 "a2f24e4633786cedbb396729c74db785b0fb7138")))
         (sha256
           (base32
-            "1n176jcyfbjq18f5yqgbhb61lzi50ivn543qfnx927kj848z3nx7"))))
+            "0h8vpa4c5iwgmdw6spx1bp5vnj6d03hx7aygrh4p7v76srlxpn11"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page
@@ -30664,17 +30664,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20211204.958")
+    (version "20211219.1013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "5e6bfa14a328095833a038275105f3aa31715a17")))
+                 "ecd2f43d66528cf5f75e936e2ce22d4275533306")))
         (sha256
           (base32
-            "0djlhrjrrkwnlw77aip4bj7jx3fg2cfzbap4z09vhnf77asrz6j2"))))
+            "198sb9m8ycdnrnhwnaxzvhgn8jqz4qidjn59q4kzkg6l5mh1askv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -44989,17 +44989,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20211127.1059")
+    (version "20211219.1002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "6aec3af53e69dcacfaa6186660cd4174170ca1c4")))
+                 "0ae9ab6faf3a6b01391894ae349ecf4c056ba36c")))
         (sha256
           (base32
-            "0hgr6w7vfa0g385l1b00ngnrp3vjhgg6w2978q3f778vjsz9ipb5"))))
+            "160ayvpq6k0bgpp743xxmf28pczbipiy4fgm1c1bvsyrkk04js02"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -59861,17 +59861,17 @@
 (define-public emacs-json-par
   (package
     (name "emacs-json-par")
-    (version "20211122.942")
+    (version "20211219.829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/taku0/json-par.git")
                (commit
-                 "2bc383c4f88a111202b4d00303f3345b32e4b8e9")))
+                 "255e99ba789fc69f977129a1ea22e57334874cb8")))
         (sha256
           (base32
-            "1k1jv0m6mj772dkjzsy86k528lqljqmffcpz9l2lzrm6q1bqnw43"))))
+            "09674zsxlza4b1p6z2r73zhmfa08v2ywkn388qa7lkpyjvd0n09j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-json-mode))
     (home-page "https://github.com/taku0/json-par")
@@ -88417,17 +88417,17 @@
 (define-public emacs-pomm
   (package
     (name "emacs-pomm")
-    (version "20211125.1806")
+    (version "20211219.728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/pomm.el.git")
                (commit
-                 "2b58c3cad0106299d98e4a12de4f78dbd96fe67b")))
+                 "596eed778fa30e7b33910f015543eda13abd1888")))
         (sha256
           (base32
-            "1i3rimbyw7bkjdifwmzhf56alkhhhvblkjrxpgbnjmbg26xd6zdd"))))
+            "0arhl9x9d4d1s4x5qcf1kn9hkwgsrs6sjn0rky10pgja7gqh6214"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-transient))
@@ -117696,17 +117696,17 @@
 (define-public emacs-zig-mode
   (package
     (name "emacs-zig-mode")
-    (version "20210831.719")
+    (version "20211219.1221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ziglang/zig-mode.git")
                (commit
-                 "aba01b6199b7697692e5e9217f602477dd5ebd9b")))
+                 "9befa4a0d673770af07b150cf35cb46745ecc099")))
         (sha256
           (base32
-            "1qlvsm4736wr3gw54jvjq3yilf3d7564yydhid4ka1wswvl3sbq3"))))
+            "1wfh932zsf1gnbxv60w3j9985ycrhzq1l3r8w5p1p4rydjnx1s9q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/zig-lang/zig-mode")
