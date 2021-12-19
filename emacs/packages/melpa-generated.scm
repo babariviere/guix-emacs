@@ -12995,17 +12995,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211218.1919")
+    (version "20211219.227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "e0cdf0b1f079846b62b38bde00a0cb1e4052cee1")))
+                 "e27744f4142137ef190b0ee54feadc5990ff3c9d")))
         (sha256
           (base32
-            "1q7al7jb3r29ipdycbci627yzx8885kkpxlsrjf470xm0iwxjy18"))))
+            "1az1233r01n6vhaccxn8pnhmx1lk8l78xknmz4lrf73xp0w3blv8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -28128,17 +28128,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211214.117")
+    (version "20211219.312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "b17af024d92e5c8532ed94f157e65aa7f4cda334")))
+                 "2772ca0b35e8eb59724c31b5cb88ff802f21067a")))
         (sha256
           (base32
-            "1fl07f5s96iw3f93w5n4qb4j6ah2abl17bx5pkk0dadwi04prms2"))))
+            "10944i7q16ng85zbfaryxgf7ifwfd8k4y9c7i120lpxg8y2sddv0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -66777,17 +66777,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20211216.1915")
+    (version "20211219.555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "f766f68f78b982443850b2e4433d83e26971fdb0")))
+                 "4c469037756ace8b0cc42c05da0dd1864c5bc2a4")))
         (sha256
           (base32
-            "0pp9nvd78pvxsbhp7d8ykh9qj72kmjmkyh26c2xsh3wn4pm24y7j"))))
+            "01nwa5791f80rf7ygld83v0lcrxxkjbjg1290irgfzfbb5fr1s6l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -66800,8 +66800,8 @@
         ("lisp/magit"
          "lisp/magit*.el"
          "lisp/git-rebase.el"
-         "Documentation/magit.texi"
-         "Documentation/AUTHORS.md"
+         "docs/magit.texi"
+         "docs/AUTHORS.md"
          "LICENSE"
          (:exclude
            "lisp/magit-libgit.el"
@@ -83929,17 +83929,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20211213.1428")
+    (version "20211219.302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "da9fcbb6bf020922987914a96f1d12012c914d4c")))
+                 "12da8c305ce8c7e753473d2f35ba2f6faa0c4d02")))
         (sha256
           (base32
-            "033137h1wwg37c45mmxzyz9ixx6sm90pin131nb6pi5z8jr80hw0"))))
+            "03v5yh6jsxv2ihjvlyil0pb3pd7pmpwd6s1c4q3i425qlskvv4p6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -89098,17 +89098,17 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20211218.919")
+    (version "20211219.224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-pr-review.git")
                (commit
-                 "a4f747de1922f5f4142ea8be491ae7b06a05d3a4")))
+                 "bae2d8aff61cbe05da6f3f41e6cf854ece4a41f0")))
         (sha256
           (base32
-            "10g9nsixpvkz217rdkb8mmiilvkqbgy29ma273wnp8vk8bgs5f00"))))
+            "1p9vbhsal667cjh36wmww95c6c3srp3hqi2yfq9srmplma7ffc5n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section
