@@ -21792,17 +21792,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20211220.1342")
+    (version "20211220.1658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "9a2c6efd7174f26922585edd8422160add44f27f")))
+                 "4174e7958b9aee6a8d3c80b8eeb1f59cf719f66d")))
         (sha256
           (base32
-            "17csy2abi1bzvis9cmdi2ik6zdzxapbjg8kjpa1jdsrpg2cvkv7k"))))
+            "17pgvxf3vmpx72kkg4paaljfl97bidl3a664j6s7hzq077vkncik"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-posframe))
     (home-page
@@ -32940,17 +32940,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211217.1302")
+    (version "20211218.2149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "ceae46cc78958fe96bac521a8e2969148f8aacca")))
+                 "cf3fbd2c6c92797915ae84861e2bcdaca6017785")))
         (sha256
           (base32
-            "136xzmnwkx1dybi1h4k3cd4gdgx0mpsb7xyimaaa6kdyyfl2ylyy"))))
+            "14b0fwbk8n7s0k6wjaga3vqbf1gk8sqxls7dkn542xnq7sc3iai2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -62036,17 +62036,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20211217.2055")
+    (version "20211220.1508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "2f71be290622db0e8dba489b40d36d99491d6d3b")))
+                 "983e7fd466250d682c0839494e3edb068ef26d66")))
         (sha256
           (base32
-            "15hfg28l6wvw72g5x2w4mm88ivlkfd4lb2xg4gdmd87m4pha6p5b"))))
+            "1md0z8kafd3kfpw086nlf38ajiv5vz53xh9q3vbs868i8qcpgbn4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
