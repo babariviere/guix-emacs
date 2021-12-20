@@ -21799,17 +21799,10 @@
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-<<<<<<< Updated upstream
                  "9a2c6efd7174f26922585edd8422160add44f27f")))
         (sha256
           (base32
             "17csy2abi1bzvis9cmdi2ik6zdzxapbjg8kjpa1jdsrpg2cvkv7k"))))
-=======
-                 "ada214656d4fb1fd428ecf17e2f3f5a9f3341ac1")))
-        (sha256
-          (base32
-            "1qmfqz0dg9aw6j5rjbcjz8ckccv5y009naryklfjcwppkc4ljm58"))))
->>>>>>> Stashed changes
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-posframe))
     (home-page
@@ -89321,7 +89314,6 @@
     (version "20211220.1009")
     (source
       (origin
-<<<<<<< Updated upstream
         (method git-fetch)
         (uri (git-reference
                (url "https://gitee.com/shaqxu/prettify-math.git")
@@ -89330,18 +89322,10 @@
         (sha256
           (base32
             "0b465mn9nkkhkk7y2dh82666s57fr116pwii5acqwiz019almxj1"))))
-=======
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/prettify-math-"
-               version
-               ".tar"))
-        (sha256
-          (base32
-            "1r14s6xmyzxp7vf3g6abmpbysjf3dx34039qm0357wq46m1i9yry"))))
->>>>>>> Stashed changes
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
+    (arguments
+      '(#:files (:defaults "mathjax-jsonrpc.js")))
     (home-page
       "https://github.com/shaqxu/prettify-math")
     (synopsis "Prettify math formula")
