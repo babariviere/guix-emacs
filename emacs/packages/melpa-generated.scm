@@ -11726,17 +11726,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211218.1049")
+    (version "20211219.2046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "9da28efdaa024a65165a24189306943acb4bfc4f")))
+                 "b2825104ab75a5db5ed075bf72d551b153894fbb")))
         (sha256
           (base32
-            "0qiziffhs8c96saaldl56nhi5mfllf09fmf93m2wldclvszfani9"))))
+            "0cq2is38hp0fbnp4fdd4925mr12l9id5r9xnq5nb42yymrkjsb25"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -19106,17 +19106,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20210928.656")
+    (version "20211219.2106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "a19868f2fb8f7fc4132b4e9bfac5cdd65f245181")))
+                 "43441eef61c1a1a9471d330c0a29ca579ebba51c")))
         (sha256
           (base32
-            "1gmcnj3ldhqy417wv2lqfh53pg8glfz28bgd26sx5nbw7w5lhd9r"))))
+            "0f18v3xb9kg1p7zdxfh5xww99p7ipqjvhjrpgh498ivngdy9sgzq"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -26197,17 +26197,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20211213.1900")
+    (version "20211219.1520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "182170f076ccd90f601df8af5e8dcf75c5703743")))
+                 "bcfbef5062b54451171db56159e22765a25ec22a")))
         (sha256
           (base32
-            "16wlgxldarj5ky1cyzs2lfry8hr2hfchfx1rgb9jal0bk7jxp5bi"))))
+            "119qm2g3zwgmlrh82ydi343phmwvic5flppzm3ya4k8nklr2dlgk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -30274,17 +30274,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20211219.1248")
+    (version "20211219.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "a2f24e4633786cedbb396729c74db785b0fb7138")))
+                 "382bb550647c325321998c1411db07fbd862fc34")))
         (sha256
           (base32
-            "0h8vpa4c5iwgmdw6spx1bp5vnj6d03hx7aygrh4p7v76srlxpn11"))))
+            "0g4kvpg18h1giqgxp3k0q25dy3f7dk6hqnvn2drwdw9z01v3amd4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page
@@ -31225,17 +31225,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20211211.1737")
+    (version "20211219.1729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "b00018bf550fbbe1b55165579e6ede973d70f53b")))
+                 "b5c038729958856b0b194a45daf988c42e97bc58")))
         (sha256
           (base32
-            "1qw33vhiiia14rzwzmvsp2w4vyrf1z6v3b8vgkcmlxyhns22g26f"))))
+            "1ilhl7z3crg9p04p0agm92i7b7kqgyjnl47ya71h8zifb0nhvhah"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -31422,17 +31422,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20211218.1415")
+    (version "20211219.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "b2993138c0af38604268d7225506ab471d5398c2")))
+                 "f31162b2536d14bf97fe96d6e54be0d091ba9493")))
         (sha256
           (base32
-            "0cq9dvaxifpzvyccq3qmqdnwsq8x800xpp24zzs3f6mlr7ycpq47"))))
+            "1f5mbg2k527brn6b7njdjizpbzj252c53crzl8sf2564czcprqj0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -41004,17 +41004,17 @@
 (define-public emacs-fstar-mode
   (package
     (name "emacs-fstar-mode")
-    (version "20201012.2201")
+    (version "20211219.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/FStarLang/fstar-mode.el.git")
                (commit
-                 "3afbf04e4eb21af950cfdb727d8b808164fd9415")))
+                 "751726d708f90c543b80a8916f4397140422273c")))
         (sha256
           (base32
-            "1ks949zcqk3dqcxjv2lj9jyz6mnrvcgwg9iaa70lsb772lxza8wj"))))
+            "082fcdy6i4cvx012cp9x9sbcfd4xi2bkfj65q49kmzkhk3dkwlhy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -41671,18 +41671,19 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211218.2103")
+    (version "20211219.2306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "476897e4f8a101d808ee0a0a97cc98a46d079af6")))
+                 "ba290b4fa57cf11667bfb60adf617c5c1bd6c26f")))
         (sha256
           (base32
-            "134ldk3b2cpkrlyv0zs9bqdwf1dg48s4cz4hqyv91k519bgzhikx"))))
+            "1rwzz1k1xvfg8330ijs0wkh4xz7j7iyhz6l40f08bgsndl7wiby9"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-transient))
     (arguments
       '(#:files
         ("elisp/*.el" "doc/dir" "doc/geiser.texi")))
@@ -41825,17 +41826,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20211204.2047")
+    (version "20211219.2304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "961bb01d1930d1edef07cdb3f91fe140f9617caf")))
+                 "c5a4a60480abf26db68e2a820189daef1d87fb4b")))
         (sha256
           (base32
-            "177n5z301j82cy47bx39r1h1zkrvicr28a52j7579b26ww639bvd"))))
+            "0na5pf1q56smfbqn3cih531nm0prfcx7yxpfa9ywwdcfqrv6xazg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -69095,17 +69096,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211217.2324")
+    (version "20211219.1717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "4c6a130ab958006ed9b445a1e21f53a41948e32c")))
+                 "e54c60499eb90ed5b9ffff52d8e286eb5ce6916e")))
         (sha256
           (base32
-            "1mw80fyxbzikzfzdlgikrd1zdykj96yml4yl1dxmm56yq271ify1"))))
+            "0lhqqgp1w8x3vpb0s1apx4hqnmign0r06jh7wnlhv7szw9rdx8d0"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -84262,17 +84263,17 @@
 (define-public emacs-pair-tree
   (package
     (name "emacs-pair-tree")
-    (version "20210214.1651")
+    (version "20211219.1816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zainab-ali/pair-tree.el.git")
                (commit
-                 "972ba441c40edf9b2c212f64fc6670104749662b")))
+                 "6fe6143954bb4025ce6b05aad41e777fcbf413d9")))
         (sha256
           (base32
-            "1v4d17hdh3dvb2a4n10gxlr20zal8c7v456wiknkfrpv06d8awap"))))
+            "1m8499jy2fsxw41d4kmsc77rbrlagl0bfnlk83644vjrxk8ljwjk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
