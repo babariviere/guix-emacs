@@ -11441,17 +11441,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20211218.1157")
+    (version "20211220.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "28ca7f9639b4ee3374ebe58c42aa7b9c7b5f7a22")))
+                 "dc22166c495ad44ad6d4bdcf3f5d023d4d998e67")))
         (sha256
           (base32
-            "1vmcylf9r3l1jhbxj24wgamv5ldh2yhhjnikdlpvvrgr1c0c9l2j"))))
+            "07rc2hqlabbhjz9vmmwx424ib3pxznrxsnjqsfmwsmx1386kyc6n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -21792,7 +21792,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20211220.1658")
+    (version "20211220.1820")
     (source
       (origin
         (method git-fetch)
@@ -39034,17 +39034,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20210627.434")
+    (version "20211220.1959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "cd6e5602e58bd9c03ec1c6a3b01c337d17ebf0fe")))
+                 "19b6ec5ed2230082482ba8ac8d8f30771781ebc4")))
         (sha256
           (base32
-            "1gjwxycbpvf3z332y5my6w57mjmqgs9mwfcfi0p3jdby18ykwyd2"))))
+            "19ka79x6hw2xhq70lgx0z1qkg8dahvlrqvqf743a179d1wg2v7hl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -41671,17 +41671,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211220.227")
+    (version "20211220.2147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "c5f6a8ac9ebdce93d4b551342accd2c85c4f7030")))
+                 "3ff258581804c5befd5596619b7ce85480a9f233")))
         (sha256
           (base32
-            "0k9y2kx81ci8d2klpw0xbygw973mawa3id3wq3l92lk9yqvy6jgp"))))
+            "0bbs9zn49a15hnakzzn3qmybmcjmnjlaggczr1zkw9rf1qy78krc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -65920,17 +65920,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211220.716")
+    (version "20211220.2128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9d45378ac52c101502f75d23b81dfc295f74b2c1")))
+                 "c9bab9bbb0630ae08b51a4ef4a1dc0afad7e55a4")))
         (sha256
           (base32
-            "0wb09fmg07xg1avbmmcz4r0jrzybmilnwqw1r4sld9dn21py433z"))))
+            "1m1c5skhsslnnbvg3qmcrkaq6vh1z0zyvmwkzqjcn9r5rynv5zl0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69096,17 +69096,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211220.1415")
+    (version "20211220.2146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "a4b218f51d02775c9e0c647e79f07136b670a9fa")))
+                 "2a7d647f68fc5e2f78671e2eb0b114cce8eec6aa")))
         (sha256
           (base32
-            "1vnrww9gdn0z0qkywlm8h067i5mvii7jww8n6bwi5gv9b25a19v1"))))
+            "1wnrgwqy26zqf7aahz05jzfkll77zqlpzjhb0m9i1fwsmpksc8zz"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -88594,17 +88594,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20211116.624")
+    (version "20211220.2222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "4d58a6dbba5d488ff9ac9318e202d84da505e691")))
+                 "d5ab9b2c4185f029425bb6ba1dc718de65f4db86")))
         (sha256
           (base32
-            "0l4y8f6j6sfr91rqcdv0lx6bgzskpsamd4w4fb7lp6qghmm8iyvk"))))
+            "0602rqlwn92911dm0cmigx2igvy16yxibyk647q175927nfpryq6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -106388,17 +106388,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20211214.1447")
+    (version "20211220.1758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "112ce1286dc5698eeda6ed46d060d3a5bfb71710")))
+                 "06c715ae7a87f27f59a675625d581ee851ca3dd3")))
         (sha256
           (base32
-            "17hf0afh3108ih153ff3j49xz872wv9bzzn14b2mar1mf7i302ws"))))
+            "1i4fhvd152fqzb16bswfsm6zl8164a0dg2wg28vdwczyba4sarn9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
