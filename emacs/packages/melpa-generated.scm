@@ -12995,17 +12995,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211220.1400")
+    (version "20211221.335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "aa6b3ed2b94084c8416a72da8f8cbe17e2d78ff9")))
+                 "1b8cacad65a047392dda06969a3580d073b67a11")))
         (sha256
           (base32
-            "1slr4443cwm83km4adaby18xp6ymfqwpfyvcd8bk0cihb120xjfs"))))
+            "1wn9f361idc8g02c5z6f2cf8z60ymmr2brs4scs3bn6s6mmwr31y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -13020,7 +13020,7 @@
     (home-page
       "https://github.com/wandersoncferreira/code-review")
     (synopsis
-      "Perform code review from Github and Gitlab")
+      "Perform code review from Github, Gitlab, and Bitbucket Cloud")
     (description
       "Documentation at https://melpa.org/#/code-review")
     (license #f)))
@@ -27912,17 +27912,17 @@
 (define-public emacs-emacsql-libsqlite3
   (package
     (name "emacs-emacsql-libsqlite3")
-    (version "20210927.2137")
+    (version "20211209.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/emacsql-libsqlite3.git")
                (commit
-                 "ce95d8a373321bdeafa13e81dac18495c055fd95")))
+                 "d3e401750410979be50cab3fee0ec8d0d2a9998c")))
         (sha256
           (base32
-            "1v0v0akwcc6pklv3abalcbzglkmk9z38v7a31mcacn6fnnf75sl9"))))
+            "07c9dc49sh1vh1rzw80sqk4nivc4mwkjq3amhx3knm8dpysa1208"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-emacsql
@@ -30274,17 +30274,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20211219.1735")
+    (version "20211220.2312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "382bb550647c325321998c1411db07fbd862fc34")))
+                 "36b964a99311c95850ea14b6dc54f469d7b4e8b7")))
         (sha256
           (base32
-            "0g4kvpg18h1giqgxp3k0q25dy3f7dk6hqnvn2drwdw9z01v3amd4"))))
+            "0i8gpa2l6vjwwk69yc8z3a4lcr7cpk55a9y0ivg598g3fl7arim4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page
@@ -64716,17 +64716,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20211216.329")
+    (version "20211221.329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "a7da0facf462c092f6ccf1ba84bae6697df01462")))
+                 "3d1fee7bc25dd3c9372b6f06a78bd9378436ce4d")))
         (sha256
           (base32
-            "0nb85cc6ywhz4i8d9w3kjfrr32q3gpmyihvjc7yjpaf69azym13j"))))
+            "0k0gv2ij5ahn8cir51a35c70rbc7x4jj3wf35yyx8yfn984iyhxn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -74373,17 +74373,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20211110.1900")
+    (version "20211220.2217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "4a7bcaf077d049931120255edf476f34ced8c73d")))
+                 "aaf1bd4ec9e1d7fdfccba6e52cbdc634dde96840")))
         (sha256
           (base32
-            "0p8jm5fms4krij7ydhrj2jwayyx6979bdq2w7v88ybk6b0md9yw1"))))
+            "0bcp1gl07npk551cbvz3rcn30lrlfpj2w344s2ahm2cp8j7mwrz1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacscollective/no-littering")
@@ -80040,17 +80040,17 @@
 (define-public emacs-org-present
   (package
     (name "emacs-org-present")
-    (version "20210619.1614")
+    (version "20211221.822")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rlister/org-present.git")
                (commit
-                 "7414e406326622dbfb5aaf2905c4ac9f6696d6ed")))
+                 "f63302a21a9f7c9f66f443bf83b7a1150d0bdd9d")))
         (sha256
           (base32
-            "0cq2j0fcjlg7zvqim7hkbdsnlzw247vaba847d5n0d1yxl0527b6"))))
+            "0853hrqc8mq6dk6pafk3si49xy7ykj8v4p42zfrhfbfgs32bb75f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rlister/org-present")
@@ -80625,17 +80625,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20211215.848")
+    (version "20211221.623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "7ad55727411acd5f6fbc9df7363e6dc62979cfa7")))
+                 "c90b2d68df2714fc03df8cb7630afd43a560f914")))
         (sha256
           (base32
-            "1lb49gb2mqap50mfndvighhdb1za1kwnipfg6lx4kwkm62jl09x2"))))
+            "1g56n7lm2rl919s2fvjbrya1215xl6m5r3h1s44nriknpj8arbq7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -91350,17 +91350,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211218.2330")
+    (version "20211221.854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "45c3c761aa9e6cbca49f97981d5ed0996778f884")))
+                 "1b0815bb306161412b403768d7361dd8b4861842")))
         (sha256
           (base32
-            "02nsmdb7s8730vbxa5d4lh1mb3g57s7z1r022c97acgc2klvmbyp"))))
+            "0b352glwc0xwwjw7xlnbf57hbrsfz9lqrvw3nacb5g7wxg8yhglg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
