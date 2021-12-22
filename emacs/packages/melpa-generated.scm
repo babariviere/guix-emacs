@@ -12995,17 +12995,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211221.1048")
+    (version "20211222.22")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "3cf8c3db1d879818e3a02a5ce1e4d32f2ac7193b")))
+                 "79ae7fa56cc73c8732ab9bc2bb0013546829c0ed")))
         (sha256
           (base32
-            "0whjc8l2rnxa5an04shkbc13sy4smjbnk7d8ba3kykl4gl3pbxyf"))))
+            "0scsi24is1crpmarjm6xqj875z83gvagjin248j7x7sh60kqcpzc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -16073,17 +16073,17 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20211210.338")
+    (version "20211222.145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-notmuch.git")
                (commit
-                 "2fd4befde0a2664b862a0e0c4ed3ccaedfc19c00")))
+                 "53026dba946df4bd44caa4655d4ec9295980ebe4")))
         (sha256
           (base32
-            "1snl2qi9d7mhycz3aspqh24rgd57xnykj4378whryq0590i7ca82"))))
+            "1yqy0pcd771kxnvcfsj5j3r8mkbjrha4mq2vijg53br0rxfas9yx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-notmuch))
@@ -41647,17 +41647,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211220.2147")
+    (version "20211222.218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "3ff258581804c5befd5596619b7ce85480a9f233")))
+                 "d4bfb82612e44de893bf4fcc702eaa360ae9128a")))
         (sha256
           (base32
-            "0bbs9zn49a15hnakzzn3qmybmcjmnjlaggczr1zkw9rf1qy78krc"))))
+            "19if1n2wx1i6mjslh3s2cnb261xjn25w2yll1hk4fdq4afbwbzbs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -41802,17 +41802,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20211220.235")
+    (version "20211222.245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "3d42dc2e723cd647322531a9737d8b7e5d4d16ff")))
+                 "1803cbde00abd3af47f0bc8630e53d24c704e8be")))
         (sha256
           (base32
-            "0a4v1gpy66x5ivq3bkbhma1cn311bzl51b32qqxk3fsihli86klv"))))
+            "0l225vb3fd669h3w3kca0s7j2y9sz8phmrdfw7wl9yv4bbc122qb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -42419,17 +42419,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20211216.1835")
+    (version "20211221.2332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "29c3a15e8307f7a2ddf6881be16d914d6d64558b")))
+                 "ac68fd0677fc393ceba8d74f22472425b910ad53")))
         (sha256
           (base32
-            "0rnpms7cyk181qhhsgri6x2jfvrlmzz6bawlggzg221p9i4x6f8d"))))
+            "03xs3vvv20f583i6b2c451i00idw33gxn896iv2ik42babj5kckn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treepy))
     (arguments
@@ -78006,17 +78006,17 @@
 (define-public emacs-org-autolist
   (package
     (name "emacs-org-autolist")
-    (version "20210810.2215")
+    (version "20211222.445")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/calvinwyoung/org-autolist.git")
                (commit
-                 "943de3a76a16acd54d924392f86e8ef04f1cb086")))
+                 "24622c5792af4a3e2fdd8592b0ca02f8d31e7df1")))
         (sha256
           (base32
-            "1i6sa7pavgk4gal7fppd68brr8vm4jxma6nbkqwcb1djys1vg21b"))))
+            "1qg9gzd2i3k46xym0kb4ni71pi0yha9agyixc34jqv7qplslrx04"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/calvinwyoung/org-autolist")
@@ -88823,17 +88823,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20211221.857")
+    (version "20211222.256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "449bfe709f0a6c9b26b1fed3660dc4a836bc6000")))
+                 "80cb98aff695a102772cc414d96611bdaf96f00e")))
         (sha256
           (base32
-            "1nkag7ayajl54lxfx95qghqr5cdz3yhx7ck3l76absgwqkrsql9m"))))
+            "17jb6zcjbn77giqmwk34yq2jn88jr7hd3jzfspca6lkvcyfyndx2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
@@ -113436,17 +113436,17 @@
 (define-public emacs-wanderlust
   (package
     (name "emacs-wanderlust")
-    (version "20211212.909")
+    (version "20211221.1510")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/wanderlust.git")
                (commit
-                 "7b06ce86a925ce3c41a54ecacc3c27afbe00dcf1")))
+                 "08bb4449582515655a6acb36917624f69813b138")))
         (sha256
           (base32
-            "0p09rqaxwys2jhmlxlxf0xy3x42b183l3kbfrhbivagxpb10r608"))))
+            "1cn9v8l86qf208g76bjf84diirnj7imdv9lqmx4scwar09gxph6h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-flim emacs-semi))
@@ -115372,17 +115372,17 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20211221.2249")
+    (version "20211222.311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashinin/workgroups2.git")
                (commit
-                 "a1ebdce7a897ae6f75f8090f22cb6d33783f7bcb")))
+                 "784b6bc408648c8535d2e4332fb871bb5ecfbb04")))
         (sha256
           (base32
-            "15fpgvgy3zc5i3njpmpb3ldq7m56cy9wrcwks6v9syc9fbnj6il8"))))
+            "0m3khacr8ac03rfchn513ziynyvkv481adn4zyf4kj7dphkc5xp5"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
