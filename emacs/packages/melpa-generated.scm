@@ -11441,17 +11441,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20211221.1935")
+    (version "20211222.1420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "29f192809c5f02be4708ef804ab2a0ffc7284574")))
+                 "f4853fbcedf24b147ea5fbbbaa3666bebfa35d2a")))
         (sha256
           (base32
-            "16mdfyg5jjh1sbnb5xyijpmqw5b5axw41gyziyjhk7jiy4p30d8c"))))
+            "16iikpnapcmzqsvhsw2hjxdgrqksp5hpwq1mbv3fmixvk5hrvsx8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -11588,17 +11588,17 @@
 (define-public emacs-cilk-mode
   (package
     (name "emacs-cilk-mode")
-    (version "20211217.2031")
+    (version "20211222.1541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ailiop/cilk-mode.git")
                (commit
-                 "b1a2f0e5aa7dea84ebc22bb08a05af5a81bb2e48")))
+                 "6e46cdb72ae0348c77b70f1679b34a1155e70797")))
         (sha256
           (base32
-            "1cy2r4w7igxbskdr836l3mm1vyvf6ldi47m73si5p6bps9q3kpwd"))))
+            "02rrjjaak0kjm0kifdfb7a427b6q86whs1hkc515fdl1bdr7slaj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page "https://github.com/ailiop/cilk-mode")
@@ -13835,17 +13835,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20211219.834")
+    (version "20211222.1133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "ab334b5b7b9d2b219ae8023f9e2dfaf673e17c90")))
+                 "3432f9e397092433b886a2ba5adfe27d1e5bc08f")))
         (sha256
           (base32
-            "154pskmh76sgz2vl345m920c3a23nzs8i64axpj7r81w7l2b0a3l"))))
+            "0grhj44rdz6bjrs9m7cm27r0cb7ny3501zwv89pnkgfxhnpdpyxb"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page "http://company-mode.github.io/")
@@ -19154,17 +19154,17 @@
 (define-public emacs-dashboard-ls
   (package
     (name "emacs-dashboard-ls")
-    (version "20211221.1959")
+    (version "20211222.1402")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/dashboard-ls.git")
                (commit
-                 "0c85bb32e9fd6221a8f4c9d71e11c9b9be805bce")))
+                 "5c6a11bfda542892775b5c55c8430773cc82b3c9")))
         (sha256
           (base32
-            "0wpq38w6vg6776x8blsp8mg7dgi30kwnwrjafxc5v40nlbdw97iy"))))
+            "0fcfjy4gvnzm5s3235pd2mkb8jd386jblh8r9hyw2351ln1pwnjn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dashboard))
     (home-page
@@ -22562,17 +22562,17 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20211215.352")
+    (version "20211222.1142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-doc-show-inline.git")
                (commit
-                 "8b457d565d352c863197c42d7a0cd3b6ae920453")))
+                 "daa99f0773937870e9405a117760566bda419546")))
         (sha256
           (base32
-            "0n6grq5vdxb3l6lskclzr0dzk12k7wkg28asq7ilhv0pzjd3nnhq"))))
+            "1cl0nzg7i3hazd9p2ncril728zr23r8abvyc1f0czbw14d2bm4cy"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-doc-show-inline")
@@ -42869,17 +42869,17 @@
 (define-public emacs-git-gutter
   (package
     (name "emacs-git-gutter")
-    (version "20211002.2345")
+    (version "20211222.913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/git-gutter.git")
                (commit
-                 "c1e51865eb26739052035177846f53476c8605da")))
+                 "9174c74cd607e297d7f14c0595d4c20ebb53847d")))
         (sha256
           (base32
-            "00rldkgmrjzr8nc3mngfh4vjscsdswqfqzrdwxmwmc0m3kx2yppz"))))
+            "1jkhvxlk4lkfjgd5vlfjy8z7w6n7j91rxqr48ricyzzl62p4v2wr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/git-gutter")
@@ -47626,17 +47626,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20211208.606")
+    (version "20211222.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a246a9b278fb973d38d13ade7417f55e0a57eae4")))
+                 "e419f5452d9e81588de5f4a28b07fbe6e79e651a")))
         (sha256
           (base32
-            "1z38jyfw8id62508rxfrkxd2ln70s6sc0cyvngn8zq94z47aqyjx"))))
+            "15yiz1psn4c1y6sag15srjvg4fxxg0wfy0l8hfycsxx2lkr6x6k0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async emacs-popup emacs-helm-core))
@@ -68013,17 +68013,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20211203.2231")
+    (version "20211222.1045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "2fb2787bc302a5533e09bc558c76eb914e98543b")))
+                 "f8e3d409b478461e277cdea1df567387e4b9b1cd")))
         (sha256
           (base32
-            "1ypr2chn5fi2ycpz4dawczcjmyll5a71mfjsx8fqbms73izd5392"))))
+            "14bja7fma4b0n8ggmw9qvicas3cj5mylajgv6fhfqvcjdcvwbqzy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -91303,17 +91303,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211221.854")
+    (version "20211222.906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "1b0815bb306161412b403768d7361dd8b4861842")))
+                 "c5df73e15525ab0a999e72933d5cd9dc2e39f91a")))
         (sha256
           (base32
-            "0b352glwc0xwwjw7xlnbf57hbrsfz9lqrvw3nacb5g7wxg8yhglg"))))
+            "0xm805ii2yifnk52g9zrpxfbvc9g5z2jdlr3n41g5kjd1idvp897"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -100518,17 +100518,17 @@
 (define-public emacs-sly
   (package
     (name "emacs-sly")
-    (version "20211215.2126")
+    (version "20211222.1234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/sly.git")
                (commit
-                 "19f4046decb9715907b8064807b9e97c87a278fa")))
+                 "554e6b09d9741f6367e144a1165e3c7fa2e3a8c3")))
         (sha256
           (base32
-            "0i491qylqbaqgwdcpw0j127f7zzlxjcqg8dzbf6zc8v44l6xpycp"))))
+            "0qlc5ny85dd03i0fj10ypjxkziih23k031m1wlvhjsdjg2ibs0f7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -106021,17 +106021,17 @@
 (define-public emacs-tango-plus-theme
   (package
     (name "emacs-tango-plus-theme")
-    (version "20210804.1943")
+    (version "20211222.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tmalsburg/tango-plus-theme.git")
                (commit
-                 "0460aff3638b7c9e290f28be8eb2b90887a74eed")))
+                 "774b03f932bbc336ce5f943af175d5faa651f2e0")))
         (sha256
           (base32
-            "1vdr5wsq1bw30zpgmgy0sm7kls0qkn6zs800hf95mixh21l4gzlz"))))
+            "0nl73ggirjs0a6zapqpp4h2wszkfbj8956qn3yg86fc0hk9jiz05"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tmalsburg/tango-plus-theme")
@@ -109050,17 +109050,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20211213.2100")
+    (version "20211222.1123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "babf69971ed4c3469b0cdf6a3bf7b637bed1ab18")))
+                 "05efcf4f2566887a6493a05e145a53588d1ed822")))
         (sha256
           (base32
-            "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
+            "0vzqppl6r0fn4y3h9fr22x2rqk72g9c1851gizy9lvi2kjanz1ni"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -115372,17 +115372,17 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20211222.311")
+    (version "20211222.1313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashinin/workgroups2.git")
                (commit
-                 "784b6bc408648c8535d2e4332fb871bb5ecfbb04")))
+                 "925f8b90d6b0b1b3e45686e0bbfc7096d8485b44")))
         (sha256
           (base32
-            "0m3khacr8ac03rfchn513ziynyvkv481adn4zyf4kj7dphkc5xp5"))))
+            "0if19dxn8c9q8c05x1qzjillv55zsc8rbm7n4qrb0q11zpvyaaam"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
