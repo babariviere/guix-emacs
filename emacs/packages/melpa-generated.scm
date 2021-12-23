@@ -11441,17 +11441,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20211222.1420")
+    (version "20211222.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "f4853fbcedf24b147ea5fbbbaa3666bebfa35d2a")))
+                 "28bbde53949176e4c4e55728905a347291b90f7f")))
         (sha256
           (base32
-            "16iikpnapcmzqsvhsw2hjxdgrqksp5hpwq1mbv3fmixvk5hrvsx8"))))
+            "0w5h9h84mndz1k5s8l7f5l5ysn0744gpjp9xl4wwsy1ykc06gs4y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -25932,17 +25932,17 @@
 (define-public emacs-el-secretario-org
   (package
     (name "emacs-el-secretario-org")
-    (version "20211212.1409")
+    (version "20211222.1620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "2a5290ad57d9800d4b56896a768e37631bef06b0")))
+                 "aaf183877156c69bf5eb02832dc33a1908eb1091")))
         (sha256
           (base32
-            "15b2jz0ddvikpfg8m85l1m84ddmj1l9pvai0frw61p6mg5rnwxaj"))))
+            "0nj4axympsls5hnhkwlm0v2pnbm82yks03ndk5iqyf261x7rbhna"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-ql
@@ -47402,17 +47402,17 @@
 (define-public emacs-hass
   (package
     (name "emacs-hass")
-    (version "20210913.2051")
+    (version "20211222.2321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purplg/hass.git")
                (commit
-                 "f7a24c34631aa09fb7bc5bd13e8e4037e256730a")))
+                 "3deecf853a1089186973dddf3a1a2a78d874feac")))
         (sha256
           (base32
-            "1qvmxjl2f9qlj27aqvrpw6w5qkrp35pzdlzj622n5pc5xfpb64x0"))))
+            "14aiybj07w65a1hd8izc6awlqffz02gl670szwrk4lj9abxrs0gj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page "https://github.com/purplg/hass")
@@ -65896,17 +65896,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211220.2128")
+    (version "20211222.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "c9bab9bbb0630ae08b51a4ef4a1dc0afad7e55a4")))
+                 "fefc3663dcd75f97e270f399ad991fb8fc26e6e8")))
         (sha256
           (base32
-            "1m1c5skhsslnnbvg3qmcrkaq6vh1z0zyvmwkzqjcn9r5rynv5zl0"))))
+            "19jkd008qccc78p1xdbwn6a8rlnm343spwi9szxp5cgc0zn8d4cd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68013,7 +68013,7 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20211222.1045")
+    (version "20211222.1356")
     (source
       (origin
         (method git-fetch)
@@ -69072,17 +69072,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211220.2146")
+    (version "20211222.1434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "2a7d647f68fc5e2f78671e2eb0b114cce8eec6aa")))
+                 "aa274c3a25200664f8cdad4f166a1d2433c59447")))
         (sha256
           (base32
-            "1wnrgwqy26zqf7aahz05jzfkll77zqlpzjhb0m9i1fwsmpksc8zz"))))
+            "048y1sgsl7amcsq8pxw9m2fws1zcjwbsqs1lnsz30dx6qasdmjf1"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -72003,17 +72003,17 @@
 (define-public emacs-mu4e-views
   (package
     (name "emacs-mu4e-views")
-    (version "20211220.218")
+    (version "20211222.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lordpretzel/mu4e-views.git")
                (commit
-                 "309aeb8b4e2ad850d5a572c2cc6390bac5313971")))
+                 "a1d7268eb2b737ee69b5bdf45aacbc30e50204fe")))
         (sha256
           (base32
-            "0adbyq0rqiygjl628bi7c05bad95b7xq2kn4lgrihsmy89l9ck59"))))
+            "00yj0ldyxhzqdsbxr4jr4rd4j1njy1r0blh7py2nlxqia22c015g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-xwidgets-reuse emacs-ht emacs-esxml))
@@ -80447,17 +80447,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20211221.2255")
+    (version "20211222.2014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "efd78b6fa254e3c718653b9f8e2bf768ac2eb300")))
+                 "6f3e4a7ea14e6900acffe88303491b64b96ecb59")))
         (sha256
           (base32
-            "1rryxzgfp6w40jfah0n5b31g44y3wgjkvvwwbig4mx7pspj7fl4z"))))
+            "18pkb83akiikjqaxs9abf1z9yw1ch2b0zws25gsxqi20yyvc3lzf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83139,17 +83139,17 @@
 (define-public emacs-ox-jekyll-md
   (package
     (name "emacs-ox-jekyll-md")
-    (version "20180831.1732")
+    (version "20211222.1718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gonsie/ox-jekyll-md.git")
                (commit
-                 "ff7b81733354c2b427293e531bb51647fa84fc88")))
+                 "26edb3f4575bcb0f1a2aed56237cd89694284449")))
         (sha256
           (base32
-            "1fb08c1f9rky0akv9y2brbd38d7s36wcc7z9yvvk343p1kxfipid"))))
+            "0zlmpz7j2b1vixr1mk16sllrj23m3jgrns81z2cab4bbyszs242y"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -89400,6 +89400,29 @@
     (synopsis "Draw tokens as Unicode glyphs.")
     (description
       "Documentation at https://melpa.org/#/pretty-symbols")
+    (license #f)))
+
+(define-public emacs-preview-dvisvgm
+  (package
+    (name "emacs-preview-dvisvgm")
+    (version "20211221.1744")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/TobiasZawada/preview-dvisvgm.git")
+               (commit
+                 "72ee787acdbf0b7767ef9a8d26a74c7225eec4d3")))
+        (sha256
+          (base32
+            "0sbxr7v5lan62cs8f49s4j9zxhyfy2frss3w1ypmpr8rlqc01ssm"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-auctex))
+    (home-page
+      "https://github.com/TobiasZawada/preview-dvisvgm")
+    (synopsis "SVG output for LaTeX preview")
+    (description
+      "Documentation at https://melpa.org/#/preview-dvisvgm")
     (license #f)))
 
 (define-public emacs-prism
@@ -96472,17 +96495,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20211218.1543")
+    (version "20211222.2026")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "8c90bd309adf1862988f625adde9a9d8315a610d")))
+                 "96098beed6c62102e2c053ae73e853e743a81e48")))
         (sha256
           (base32
-            "1g84ljmgi89yf327adi4dxwdfwa4q27r0vxi0qx585ahzhhv4r1j"))))
+            "130b40j94nhcjbmdfzfd8qfwfcsn5dmqdgprr4v1ykzgz24nnpfx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -115372,7 +115395,7 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20211222.1313")
+    (version "20211222.1444")
     (source
       (origin
         (method git-fetch)
