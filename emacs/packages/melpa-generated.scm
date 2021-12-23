@@ -37010,17 +37010,17 @@
 (define-public emacs-flycheck-haskell
   (package
     (name "emacs-flycheck-haskell")
-    (version "20210829.1143")
+    (version "20211223.104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck-haskell.git")
                (commit
-                 "16b748c033e30216259fa8c9c23616db36750a58")))
+                 "8110ef5a1953594d065b67df25d5f0c05c711df4")))
         (sha256
           (base32
-            "08agklr9mw4rxr5mq9c5ynhqsjp5knc7571rnr19iziq33r8srl9"))))
+            "1qdgcykn2rdf9jj9pzd0zyk7pdcf9lr942hr6w3kmkc299qiajf8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck
@@ -40390,17 +40390,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20211202.1215")
+    (version "20211223.405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "3090858848a596ffa88a3b3616e31f70826c8fad")))
+                 "594d0b97fede90a01ed341bb3fc42ac51f31e1c4")))
         (sha256
           (base32
-            "0qvw6s4g2lbxd0w1hja5rzns2h8i40igq137603q1pp6ysmdmqsy"))))
+            "14m6vbiwapd33nmffvimr3y98mw2x1v6a4540csq4v83qjpfb1nx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -69072,17 +69072,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211222.1434")
+    (version "20211223.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "aa274c3a25200664f8cdad4f166a1d2433c59447")))
+                 "1525f755166d71f930991cb4185cfdaaeb492189")))
         (sha256
           (base32
-            "048y1sgsl7amcsq8pxw9m2fws1zcjwbsqs1lnsz30dx6qasdmjf1"))))
+            "15lhkg6265sykifv492jizg6rfqaj8m8fh9xchl5g5bhrk3g6z4y"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -91326,17 +91326,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211222.906")
+    (version "20211223.704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "c5df73e15525ab0a999e72933d5cd9dc2e39f91a")))
+                 "d30d8ad1a8d7858cc01c6d845bf86e3763643853")))
         (sha256
           (base32
-            "0xm805ii2yifnk52g9zrpxfbvc9g5z2jdlr3n41g5kjd1idvp897"))))
+            "0iplis01wvp7jl176kybj3kriybqq446brz27xljb4kmlk1590jl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -118106,17 +118106,17 @@
 (define-public emacs-zoxide
   (package
     (name "emacs-zoxide")
-    (version "20210705.448")
+    (version "20211223.245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/Vonfry/zoxide.el.git")
                (commit
-                 "f68d7cf9c8c813bdc1ec75f880e0dd1b64112f7c")))
+                 "29508e94255c34174bc07c93749cad5d04700063")))
         (sha256
           (base32
-            "030vyh9v89ij1db1riqpzxxfgs50x0lx3isnhzbfj2dy3acmmc7s"))))
+            "12y0vqibb5sn9l42aiy1lm0cp0nl8d27zgql86va28glwzpma6s9"))))
     (build-system melpa-build-system)
     (home-page "https://gitlab.com/Vonfry/zoxide.el")
     (synopsis "Find file by zoxide")
