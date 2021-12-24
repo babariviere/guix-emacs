@@ -4253,17 +4253,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20211218.1258")
+    (version "20211223.1443")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "84755c8833980aa373fac7a9e74bbe81f1570d25")))
+                 "12b06e076689f9b85f2d247b80779b98efb4daa4")))
         (sha256
           (base32
-            "0nr7ciqsi14zsqab00ki1ixy32kfm733al8hb6d828q97imifvmz"))))
+            "00qcdwq59gyg4qz7lsmkr9khx88dfhvixfrgq3cmzj4czpmbf856"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-flycheck emacs-s))
@@ -8295,17 +8295,17 @@
 (define-public emacs-brf
   (package
     (name "emacs-brf")
-    (version "20211223.1239")
+    (version "20211223.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://bitbucket.org/MikeWoolley/brf-mode")
                (commit
-                 "4cc66575ab5e3836f83e68dedce161b55eb54dba")))
+                 "1ac8165f703cbcfa7316185789dd2651e76a6ddd")))
         (sha256
           (base32
-            "019nq83m4y4k12cg8rx3cmvxr6vq8k0pgj5qcg21h52fhsgfwscz"))))
+            "1y9628v0ckdgmgdpjwkq3n7c2frfpkb9raky1vnk42fd9v2fsf48"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fringe-helper))
     (home-page
@@ -31201,17 +31201,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20211219.1729")
+    (version "20211223.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "b5c038729958856b0b194a45daf988c42e97bc58")))
+                 "652d726ebd8cdfcac3e97a801721f33b5b832a0a")))
         (sha256
           (base32
-            "1ilhl7z3crg9p04p0agm92i7b7kqgyjnl47ya71h8zifb0nhvhah"))))
+            "0k5n5d37zjb542v6vrcz4n897cskfb82wm67xjnpddkzh7q6x562"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -32916,17 +32916,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211218.2149")
+    (version "20211223.1540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "cf3fbd2c6c92797915ae84861e2bcdaca6017785")))
+                 "2423228258ff6bb0f7726f745bc02528f9f0f7ae")))
         (sha256
           (base32
-            "14b0fwbk8n7s0k6wjaga3vqbf1gk8sqxls7dkn542xnq7sc3iai2"))))
+            "1j5fzy9r1xfcv0a654y0yygq5sz23yclh06qbvdx9b45pngv6ysp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -47626,17 +47626,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20211222.1214")
+    (version "20211223.2045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "e419f5452d9e81588de5f4a28b07fbe6e79e651a")))
+                 "c010f5eefcdb7be42d25207d87d258bed99c0f76")))
         (sha256
           (base32
-            "15yiz1psn4c1y6sag15srjvg4fxxg0wfy0l8hfycsxx2lkr6x6k0"))))
+            "1r7yazvq1vl6ssmfbh759dgmbn78d5dv2qbzzgqr6190jjl79jmv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async emacs-popup emacs-helm-core))
@@ -55254,7 +55254,7 @@
 (define-public emacs-iedit
   (package
     (name "emacs-iedit")
-    (version "20211223.1134")
+    (version "20211223.1607")
     (source
       (origin
         (method git-fetch)
@@ -68429,21 +68429,22 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20211223.951")
+    (version "20211223.1924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooseyboots/mastodon.el.git")
                (commit
-                 "0cffc91cfd362190eac9580983cda74248a2d3a0")))
+                 "6c19decad2bdb86d55c96409cd0c96e1c8dd1a32")))
         (sha256
           (base32
-            "1ab6rpry0wq4vfpg1cnlly1ybwkp45z30r1zksl0piwygpvx9i3f"))))
+            "068kj5bs33gfgrw7i6k08n1vpkdicrn155f30fhvc3z8b671hr1g"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-request))
     (arguments '(#:files ("lisp/*.el")))
     (home-page
-      "https://github.com/jdenen/mastodon.el")
+      "https://git.blast.noho.st/mouse/mastodon.el")
     (synopsis "Client for Mastodon")
     (description
       "Documentation at https://melpa.org/#/mastodon")
@@ -69072,17 +69073,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211223.451")
+    (version "20211223.1520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "1525f755166d71f930991cb4185cfdaaeb492189")))
+                 "959c19128ec2f9e4933bad6c9f29ac70bbb2083c")))
         (sha256
           (base32
-            "15lhkg6265sykifv492jizg6rfqaj8m8fh9xchl5g5bhrk3g6z4y"))))
+            "0c0ij53w4zpcxbb5zjzl85ksqlicna2i7i531ydayxvxqxp8m3pj"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -92513,17 +92514,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20211216.2033")
+    (version "20211223.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "ba63c5b9b05ce54e370e5c6bb631060246ce7ea4")))
+                 "25247b6af039b6029ee89d77c50720666025a8cb")))
         (sha256
           (base32
-            "0nzlzpcrk1gphr48xnhhsyf290sl40ibag1acj4gzhg8xx0lf3jg"))))
+            "0jkm21dpm02hvc88h3mds95l267kpwqwb3csnb8yfdf06p0gyx6z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96495,17 +96496,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20211222.2026")
+    (version "20211223.1744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "96098beed6c62102e2c053ae73e853e743a81e48")))
+                 "9c49d4f217b6087ff7ec3d5a0f051081a033fa05")))
         (sha256
           (base32
-            "130b40j94nhcjbmdfzfd8qfwfcsn5dmqdgprr4v1ykzgz24nnpfx"))))
+            "16r3245gp8av9a0a6wkyg386p0jj7475kg4yy920vps6czdpimqf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -108920,17 +108921,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211221.1614")
+    (version "20211223.1540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "77abbe6b004be72c93ca00385b18e8db34184a3b")))
+                 "2423228258ff6bb0f7726f745bc02528f9f0f7ae")))
         (sha256
           (base32
-            "099jl1wfrz7ly9138rd05k9p5x3g0b19qvjl40yamya615k8m6ry"))))
+            "1j5fzy9r1xfcv0a654y0yygq5sz23yclh06qbvdx9b45pngv6ysp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
