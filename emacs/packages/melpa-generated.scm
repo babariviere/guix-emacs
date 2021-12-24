@@ -25702,17 +25702,17 @@
 (define-public emacs-el-get
   (package
     (name "emacs-el-get")
-    (version "20210613.1418")
+    (version "20211224.959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dimitri/el-get.git")
                (commit
-                 "960f3fb962c35d3196bab20b2a3f6d6228119277")))
+                 "9353309744e4f8a7c9b1adf22ec99536fb2146b0")))
         (sha256
           (base32
-            "1d1lkcnjjdca73frn611gz9rck73mn2kxq207lh2ykww3wkaa0pa"))))
+            "14r7n9dkx1kf3j549h0kmdnsl89nwxadbx0qqmj2xzin7n9c412y"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28127,17 +28127,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211224.158")
+    (version "20211224.1334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "407ce267c34d44a35c403ea73512e4abb5c63cf9")))
+                 "ab1ee58dcc31e5c88428a7e258c12510f68b6898")))
         (sha256
           (base32
-            "1dhxnx7586yldmv8fwhiknnc6pkrzzr9d0i5bfxp1hdhvfwrvbyi"))))
+            "1d0wwrrdahwbix50lb3f18cj53lh9hy29ns6ay8ql5b7gmhcjibd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -63988,17 +63988,17 @@
 (define-public emacs-link-hint
   (package
     (name "emacs-link-hint")
-    (version "20211128.1600")
+    (version "20211224.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/link-hint.el.git")
                (commit
-                 "3be270f3a732dc4acae6a20ff449eef0c4f9a966")))
+                 "676dac6621e321b33a8d396fa27dd0ea619d21e3")))
         (sha256
           (base32
-            "14f0x319mqbk7vyh5nm9gijy59m45j342fl8fxgvkr7ajn4rg7aw"))))
+            "1g9w2ymihs649cck3vm0pb4591jzsyf2b2jfpyrwcxipqw30rj63"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (home-page
@@ -65896,17 +65896,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211222.1711")
+    (version "20211224.824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "fefc3663dcd75f97e270f399ad991fb8fc26e6e8")))
+                 "2736652be86f7e83f1fe08e7158a3d1d8f1bb965")))
         (sha256
           (base32
-            "19jkd008qccc78p1xdbwn6a8rlnm343spwi9szxp5cgc0zn8d4cd"))))
+            "0mf2xr05964iy7xyfch4v0bcamm4g0whahjm7y6jphlxcfsrqrwb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69073,17 +69073,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211223.1520")
+    (version "20211224.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "959c19128ec2f9e4933bad6c9f29ac70bbb2083c")))
+                 "7244c32cde623bc92c508436e217a8d3082e3d03")))
         (sha256
           (base32
-            "0c0ij53w4zpcxbb5zjzl85ksqlicna2i7i531ydayxvxqxp8m3pj"))))
+            "1x6gkinyd4kaawpzddpf8cf67vzyn6vz7pb8mnj86qs4as72j8li"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -70756,17 +70756,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211224.554")
+    (version "20211224.1039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "a924ccf810ae9ab656d8a5f8d0f7ee4ed4e4c4d2")))
+                 "8485dba0b11edec5a887ecac448067c0aa38a20d")))
         (sha256
           (base32
-            "08glzayp38spzd6pqswxp762lq5h2fldx8c1r7vjjqswlna5m0sy"))))
+            "0fqm5lgc4b5clga771ilxq6apldq5vvxz9lmgl9z7r2q80aqzl4v"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -82865,17 +82865,17 @@
 (define-public emacs-ox-asciidoc
   (package
     (name "emacs-ox-asciidoc")
-    (version "20210919.1844")
+    (version "20211224.538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yashi/org-asciidoc.git")
                (commit
-                 "d60ac439278cec214882f92c47bc16e0f43ae98e")))
+                 "27bf9a3e900c782bd57719c81c0aa68d9a1e3b46")))
         (sha256
           (base32
-            "1h5vjw4byhixl1vwgd13cy09z7zdh3mjrac4ffvc7xpzkmg4r0zm"))))
+            "1xz5qr1kfhc9r5krdvg4lqc39gdszip44qqwkrkj9jm8pw713yfq"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("ox-asciidoc.el")))
     (home-page
@@ -83345,17 +83345,17 @@
 (define-public emacs-ox-pandoc
   (package
     (name "emacs-ox-pandoc")
-    (version "20211127.1430")
+    (version "20211224.1240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/ox-pandoc.git")
                (commit
-                 "eda1f21fd519427c070d165f8a663db07b87ac29")))
+                 "b2e43b936249de2a100afb4262698105c39ce289")))
         (sha256
           (base32
-            "1d8ymkxgfz5z3nrxaad90q4xdc8vj0vqyv9rwv2fhyx9gl72xhg9"))))
+            "1fj0d37xdn0xgr5xihc6g24j75snwpq5vijyc2n1w2qrw8sav0ak"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page "https://github.com/a-fent/ox-pandoc")
@@ -91687,17 +91687,17 @@
 (define-public emacs-python-coverage
   (package
     (name "emacs-python-coverage")
-    (version "20211213.2017")
+    (version "20211224.1420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-python-coverage.git")
                (commit
-                 "25d9940f3c144797581b2992c6527bbf018d3199")))
+                 "a341615af03dbe3ce0ac9b63cf43dc01c1ae5ebe")))
         (sha256
           (base32
-            "0v4ssxkbl7m0vcwqw341h2w69cqvx440wjrsaws33lqxgp349v30"))))
+            "1k5air9sgg95jl949lwf9hz8i4ivy646mnm4pc37wsxkh4g46wqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-xml+))
@@ -102017,17 +102017,17 @@
 (define-public emacs-solidity-mode
   (package
     (name "emacs-solidity-mode")
-    (version "20211112.1959")
+    (version "20211224.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethereum/emacs-solidity.git")
                (commit
-                 "bac439dbd2097664df45e9fac0ce57e23462c14c")))
+                 "7f239128a15b2baf47be0f8c88f1f533f3114071")))
         (sha256
           (base32
-            "1vs64gwm6zn47fl4nvaizkwh8zwnqh764yqcmggyz4awsxsxg6ym"))))
+            "14757wph4ik09ni97h0r0nkscwp23l2ksb8f988q3bwlw59ay97z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -111736,17 +111736,17 @@
 (define-public emacs-vc-msg
   (package
     (name "emacs-vc-msg")
-    (version "20201210.157")
+    (version "20211224.1354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/vc-msg.git")
                (commit
-                 "6c94578b5c692ade27c8b34bf5d99333ee7b4680")))
+                 "3ad560afc1e0610acd1ce4b9509aedae66276b91")))
         (sha256
           (base32
-            "1p54m71ypvz7x5wyzv0lfrxfsx23ipmb4zkq6dm0ppgh9al9hd7k"))))
+            "02lbjpfyy1hl6kdml9mm7m8aaawaphwqzk3cljw50a0z2m7xrk63"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-popup))
     (home-page
@@ -112204,17 +112204,17 @@
 (define-public emacs-vertigo
   (package
     (name "emacs-vertigo")
-    (version "20180829.2230")
+    (version "20211224.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/vertigo.el.git")
                (commit
-                 "6303d17270ea92290a6960890bca515274f1682b")))
+                 "280b30518529242ee36cd436bd2349c34c35abb0")))
         (sha256
           (base32
-            "0570x63l1j75issnq23hrhhpisv2jm18fn5mspsvbs4xy2hy4h8i"))))
+            "0g5za16kgsccap2frfv4h6jj9b8x4h5jm0xfdrw3lq0846bnzfwp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
