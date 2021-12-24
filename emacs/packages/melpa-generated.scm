@@ -28127,17 +28127,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211219.312")
+    (version "20211224.158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "2772ca0b35e8eb59724c31b5cb88ff802f21067a")))
+                 "407ce267c34d44a35c403ea73512e4abb5c63cf9")))
         (sha256
           (base32
-            "10944i7q16ng85zbfaryxgf7ifwfd8k4y9c7i120lpxg8y2sddv0"))))
+            "1dhxnx7586yldmv8fwhiknnc6pkrzzr9d0i5bfxp1hdhvfwrvbyi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -46869,17 +46869,17 @@
 (define-public emacs-hack-mode
   (package
     (name "emacs-hack-mode")
-    (version "20211005.25")
+    (version "20211224.19")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hhvm/hack-mode.git")
                (commit
-                 "211b5a8f43b852e9e73de83013f51cb01855a530")))
+                 "a522f61c088ee2a13ab17f289a3131329e59badf")))
         (sha256
           (base32
-            "1s9ab1ca072hi2bg7zfzsqwz8md23jd78ky9h9jjra1a75lfbgxb"))))
+            "0nz3mcrdkjjmnj0b1n3hs9hy2kbn004w64j2v6f2i8np2k2il6sd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/hhvm/hack-mode")
@@ -70756,17 +70756,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211221.959")
+    (version "20211224.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "6e1c7760a4ce5bcf6daf2c2bac93434ce654b595")))
+                 "a924ccf810ae9ab656d8a5f8d0f7ee4ed4e4c4d2")))
         (sha256
           (base32
-            "07941w33y82cqmparv3vkll28m9ardbmix8qssbc9j50rsjj6khx"))))
+            "08glzayp38spzd6pqswxp762lq5h2fldx8c1r7vjjqswlna5m0sy"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -89406,17 +89406,17 @@
 (define-public emacs-preview-dvisvgm
   (package
     (name "emacs-preview-dvisvgm")
-    (version "20211221.1744")
+    (version "20211224.135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TobiasZawada/preview-dvisvgm.git")
                (commit
-                 "72ee787acdbf0b7767ef9a8d26a74c7225eec4d3")))
+                 "df3b809d2f4663a091f34f964e823cd068bdd2e6")))
         (sha256
           (base32
-            "0sbxr7v5lan62cs8f49s4j9zxhyfy2frss3w1ypmpr8rlqc01ssm"))))
+            "0h51yfsdw7cp050ivf75fyrm6z2slf2dxdpcjib4nchx20sagqg7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
