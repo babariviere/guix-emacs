@@ -32916,17 +32916,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211223.1540")
+    (version "20211224.1630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "2423228258ff6bb0f7726f745bc02528f9f0f7ae")))
+                 "d74266cbf0dbf4fa18b0ad7cd7f44b14130d1ec3")))
         (sha256
           (base32
-            "1j5fzy9r1xfcv0a654y0yygq5sz23yclh06qbvdx9b45pngv6ysp"))))
+            "07yii5vk3y9h034fidgi8lccycrhc3ndjfn8ywyn8yqb0kqdh990"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -33409,19 +33409,19 @@
 (define-public emacs-expenses
   (package
     (name "emacs-expenses")
-    (version "20211220.1239")
+    (version "20211224.1620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/expenses.git")
                (commit
-                 "d004cabd1a31f5010640371e8aa04f06a7d8ca29")))
+                 "e02a80eedbc825dafd0a0a6cf566f4978dc5ed89")))
         (sha256
           (base32
-            "1zaq61irgmzvibs4pp3zd12pqlfs2vk7gdz6j1c3gvlipa4v41ls"))))
+            "17mw96j162kiswxagcsksxl6mxyd89vj1b53yr83k7i2ahjpq942"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-dash))
+    (propagated-inputs (list emacs-dash emacs-ht))
     (home-page
       "https://github.com/md-arif-shaikh/expenses")
     (synopsis "Record and view expenses")
@@ -65398,17 +65398,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20211221.1602")
+    (version "20211224.1739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "03b5ed80af067ebf18fdd09b75b19c2f691241aa")))
+                 "e2eaf1fd961d33812272d63667078a8ea619b43c")))
         (sha256
           (base32
-            "069a4mwnj41vgfd9n7n8jx7jpgcq6qfac6v7422wvl1z78bhw0pq"))))
+            "12yc7khhazzbnkf4d74wkm5sj3777riim5w31z3i3yprab3q6lwy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -104790,17 +104790,17 @@
 (define-public emacs-svg-tag-mode
   (package
     (name "emacs-svg-tag-mode")
-    (version "20210301.2205")
+    (version "20211224.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rougier/svg-tag-mode.git")
                (commit
-                 "95b5404997d7194b4946df0a475fd93203a36cb9")))
+                 "8d9dd283fb4d5a4d42a5f610b2541b6ec7384a66")))
         (sha256
           (base32
-            "06j19jx3bkdsds5rjqdvaqxfq42gsn8yanqd6jrd8rysncds8an0"))))
+            "1w6v2dlchs7g0rvc9a3idnw6zgqpzgfh452z2rkpkq4ic0nlgyam"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rougier/svg-tag-mode")
@@ -107223,17 +107223,17 @@
 (define-public emacs-theme-anchor
   (package
     (name "emacs-theme-anchor")
-    (version "20210408.2149")
+    (version "20211224.2042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/GongYiLiao/theme-anchor.git")
                (commit
-                 "ec7f522ec25c7f8342dfd067b7d9f6862c828c93")))
+                 "aad9c0c0c888325cf6f9bb2310677d667b364f21")))
         (sha256
           (base32
-            "00bar56lswvdp9rwa55y4m83av7a3g95b0qz6h0wbqi1v0gbpm5n"))))
+            "1cpr11kasmskwx3b5v5x5j6mndlz0dm854p4d793m3m9fwdk3303"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "theme-anchor")))
     (home-page
@@ -108921,17 +108921,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211223.1540")
+    (version "20211224.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "2423228258ff6bb0f7726f745bc02528f9f0f7ae")))
+                 "d74266cbf0dbf4fa18b0ad7cd7f44b14130d1ec3")))
         (sha256
           (base32
-            "1j5fzy9r1xfcv0a654y0yygq5sz23yclh06qbvdx9b45pngv6ysp"))))
+            "07yii5vk3y9h034fidgi8lccycrhc3ndjfn8ywyn8yqb0kqdh990"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
