@@ -3440,17 +3440,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20211227.2035")
+    (version "20211228.423")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/apheleia.git")
                (commit
-                 "f0309b17bb8b8b1b8ef770ecfe2e253a21d31bc8")))
+                 "cb8823dab77379fb67789dc920e0577b8a2594b6")))
         (sha256
           (base32
-            "1cpwdjinn1x3qr7qx142ql5yqqlrp3zgbc9yyydvy3xwzkkjydqq"))))
+            "1kf7ymc46amn0i6gbj1nwy0klb4svs7cpmf98s0py007i5jb4n45"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -12972,17 +12972,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211222.22")
+    (version "20211228.332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "79ae7fa56cc73c8732ab9bc2bb0013546829c0ed")))
+                 "90f59935d394ec022cc78d16945b6dbd2fb8acfe")))
         (sha256
           (base32
-            "0scsi24is1crpmarjm6xqj875z83gvagjin248j7x7sh60kqcpzc"))))
+            "1f29qrsg5rwh27a09gzkjvxjk4rgh7vij7m6a3bd0w5k3pmssgsd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -15007,17 +15007,17 @@
 (define-public emacs-company-prescient
   (package
     (name "emacs-company-prescient")
-    (version "20210227.600")
+    (version "20211228.417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/prescient.el.git")
                (commit
-                 "292ac9fe351d469f44765d487f6b9a1c1a68ad1e")))
+                 "3dbcef387502d309d130a518a18d48cd2f0e15b7")))
         (sha256
           (base32
-            "0ywx7q41i9pzmfgwv83mz5z17gril2s0r7y77hbbriww5yy1ihx4"))))
+            "024l7s0b6apbzanw3cnhjypxnxfinfb5b3nhaabrc138m5pis8j5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-company))
@@ -17964,17 +17964,17 @@
 (define-public emacs-ctrlf
   (package
     (name "emacs-ctrlf")
-    (version "20211019.244")
+    (version "20211228.415")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/ctrlf.git")
                (commit
-                 "e915c5920cd3e39f481a6ce024073dd28cc9f743")))
+                 "282eaa836d2198bb5947dfd3c454ae5305f55efb")))
         (sha256
           (base32
-            "0asy33mgyjiz7kvpsh09npqigb3x9bk64p8j81czaa3jxw40mnh1"))))
+            "04w708g7d1pnsc18h8fjyqkhk08jkq853alaidriamxyycvdwk0i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/raxod502/ctrlf")
     (synopsis "Emacs finally learns how to ctrl+F")
@@ -25778,17 +25778,17 @@
 (define-public emacs-el-patch
   (package
     (name "emacs-el-patch")
-    (version "20211226.2106")
+    (version "20211228.434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/el-patch.git")
                (commit
-                 "8ab8fb3315ec9d3fd758929409ddf3151f464e80")))
+                 "4a4e040fcede0c320e860571d5e96100cac05bb5")))
         (sha256
           (base32
-            "197sxp4sscs0xlp67gbf5zh9ga521qvm9n7klpwljm1kf0jmm4vz"))))
+            "1f7dqv8ikfm869zv8dzfvbmm8v2c1szr6j2rk3w5br78bvw6wrvr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/el-patch")
@@ -55231,17 +55231,17 @@
 (define-public emacs-iedit
   (package
     (name "emacs-iedit")
-    (version "20211223.1607")
+    (version "20211228.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/victorhge/iedit.git")
                (commit
-                 "6bb8d63a9730d7d31d931370cf08145893fa8d2a")))
+                 "3c7159a107b01b8f740ced72f10351b10bb69784")))
         (sha256
           (base32
-            "0fa7ybz34a6yv5ki2sn7qzzss93s2w7sarpq40mk1x6i46sg12y2"))))
+            "0mmvpg1pymzss0mpsrmmaah2ngzp77fvfc4lnf1ik95s90qynzz2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/victorhge/iedit")
     (synopsis
@@ -57985,17 +57985,17 @@
 (define-public emacs-ivy-prescient
   (package
     (name "emacs-ivy-prescient")
-    (version "20210425.1720")
+    (version "20211228.417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/prescient.el.git")
                (commit
-                 "292ac9fe351d469f44765d487f6b9a1c1a68ad1e")))
+                 "3dbcef387502d309d130a518a18d48cd2f0e15b7")))
         (sha256
           (base32
-            "0ywx7q41i9pzmfgwv83mz5z17gril2s0r7y77hbbriww5yy1ihx4"))))
+            "024l7s0b6apbzanw3cnhjypxnxfinfb5b3nhaabrc138m5pis8j5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-ivy))
@@ -62612,17 +62612,17 @@
 (define-public emacs-latex-math-preview
   (package
     (name "emacs-latex-math-preview")
-    (version "20190123.802")
+    (version "20211228.641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/latex-math-preview/latex-math-preview.git")
                (commit
-                 "90fd86da2d9514882146a5db40cb916fc533cf55")))
+                 "1c082179493eed3ce8bc255f87791eb4acb1fbdb")))
         (sha256
           (base32
-            "063vnjhnxm2z9shkdv1j8kwyf37syczfkzxzh5z7w7aidvx55jzj"))))
+            "11kx0fk4lxhwjwy66xy4gvw77ffvghazc1wqld7nbck85wzp33h6"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/latex-math-preview/latex-math-preview")
@@ -64669,17 +64669,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20211227.2006")
+    (version "20211228.717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "2b61e97acddfcb67ff749d733cf259759ba24d91")))
+                 "11bbea72f14fe438c5ce45f74cdf596d7120a570")))
         (sha256
           (base32
-            "1s28n5k1m80gjhh7kgn5qpqprwldyvhqyg5gja05nsl40pj5vji2"))))
+            "0f8cbs0z1d4k9w019sq43n9f2vi6cdjg8cbv9971b48rfjvznbyy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -65873,17 +65873,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211225.1619")
+    (version "20211228.104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "6cb6e659716ceeb76fe2d54c1600ecde730903a6")))
+                 "2fedc14585658c4124c24d97edb8cf3d262d15bc")))
         (sha256
           (base32
-            "027xgb8pmdvf21cqmw9qfdqfr6lnljp094cdnzlqzzzi0j89fgf4"))))
+            "1g1892pp7y6zlhsd7bq5qs1hs42z3irf1nr4ghgmi07d69v1rj3v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68984,17 +68984,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211226.650")
+    (version "20211228.357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "1fc78f5a72faff933b48851d5ef469a0344b021c")))
+                 "b08c9f33a62e186e61a7120e80f1fa585a8cc9be")))
         (sha256
           (base32
-            "1qb5lkjz121l3y3kd0jxg09rpi8p43ghgvaalvp2lzyd355686i2"))))
+            "11jfzz9pp8cav9cvly63l8qx0fffy5808cha3q5dxrva1fz5p1hk"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -70667,17 +70667,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211225.1838")
+    (version "20211228.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "ed918981a088255de76aca48ed34e7e7057a9dbe")))
+                 "58d1732565ce0c2b29004d402099fe7c1050fd10")))
         (sha256
           (base32
-            "13nv7fdwncxckin15maf42ybmkf64ljf8vg9zm8ivjzxpvhjcp14"))))
+            "1s847wida70zma1ldgpcyv2l8f8x44ak6vpwy50ncp761n3965i1"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -89015,17 +89015,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20211031.1908")
+    (version "20211228.417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/prescient.el.git")
                (commit
-                 "292ac9fe351d469f44765d487f6b9a1c1a68ad1e")))
+                 "3dbcef387502d309d130a518a18d48cd2f0e15b7")))
         (sha256
           (base32
-            "0ywx7q41i9pzmfgwv83mz5z17gril2s0r7y77hbbriww5yy1ihx4"))))
+            "024l7s0b6apbzanw3cnhjypxnxfinfb5b3nhaabrc138m5pis8j5"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -92056,17 +92056,17 @@
 (define-public emacs-quelpa
   (package
     (name "emacs-quelpa")
-    (version "20210329.639")
+    (version "20211228.248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/quelpa/quelpa.git")
                (commit
-                 "9acc440f8c200b1e6134f53e219d84360ee1b6b7")))
+                 "54fc5b951f103fadba25dde38274964737815883")))
         (sha256
           (base32
-            "1qk7x9fdcvr84hhrmpvx4lq798n9xlw2fi7zpqgfp1mci9qks0z1"))))
+            "0ckbl69d4xk64gzvy2mmgqa9v3z76nm673k3an937gnnh0l4xssx"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/quelpa/quelpa")
     (synopsis
@@ -97872,17 +97872,17 @@
 (define-public emacs-selectrum-prescient
   (package
     (name "emacs-selectrum-prescient")
-    (version "20210724.1756")
+    (version "20211228.417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/prescient.el.git")
                (commit
-                 "292ac9fe351d469f44765d487f6b9a1c1a68ad1e")))
+                 "3dbcef387502d309d130a518a18d48cd2f0e15b7")))
         (sha256
           (base32
-            "0ywx7q41i9pzmfgwv83mz5z17gril2s0r7y77hbbriww5yy1ihx4"))))
+            "024l7s0b6apbzanw3cnhjypxnxfinfb5b3nhaabrc138m5pis8j5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-selectrum))
