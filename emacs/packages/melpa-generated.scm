@@ -11418,17 +11418,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20211229.1333")
+    (version "20211230.906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "8a8ceb63f8549a9e4be05e7c649b96847a3ac5dc")))
+                 "594db95e72c3d9cac2da2c8e877f846c7b0edc3c")))
         (sha256
           (base32
-            "0v598kcy909rrky8w5l1n720q4j3mbyl33dybbq78bqd3vr321s4"))))
+            "0srjrwmsnzpb3300p21p78lppzjyj81p7aqmqjdchvnwarbxydyp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -12442,17 +12442,17 @@
 (define-public emacs-clojure-mode-extra-font-locking
   (package
     (name "emacs-clojure-mode-extra-font-locking")
-    (version "20211110.1015")
+    (version "20211230.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "3bcb4b9ef247b289c68c859d4470670ffddfa37a")))
+                 "e31186843d06ea86f3771244d1cde0112f9e2079")))
         (sha256
           (base32
-            "1zrs7fzcrcg6f9ir90lpzs6am7qy4fnk2wg3f4aswhdp3hx1w9dk"))))
+            "0dlbwz0vkn2sf394r86s7vbc78jkq7wd3ldziqkwf57ci2068nyi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (arguments
@@ -44941,17 +44941,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20211219.1002")
+    (version "20211230.1510")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "0ae9ab6faf3a6b01391894ae349ecf4c056ba36c")))
+                 "798c8c938db7d0ae79058e77570cbba1f3a98d22")))
         (sha256
           (base32
-            "160ayvpq6k0bgpp743xxmf28pczbipiy4fgm1c1bvsyrkk04js02"))))
+            "1nx0w5ay5vmmypl1nhr8xgvcbdp3m2sqmkslncq5nnhfqcsmhjq4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -45502,17 +45502,17 @@
 (define-public emacs-goto-chg
   (package
     (name "emacs-goto-chg")
-    (version "20210508.1632")
+    (version "20211230.1101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/goto-chg.git")
                (commit
-                 "3ce1389fea12edde4e343bc7d54c8da97a1a6136")))
+                 "8d45a621bf7e99f56a8bc7c526bf6c413520b464")))
         (sha256
           (base32
-            "13v9d97ypkfa3g0x64psk29hpicl4djk35iwxhvw080bagrn5gls"))))
+            "1r2grjmf9grcchk4vjp2whi45163zs7zbkpckx9p2qfv1iaqzsxx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-evil/goto-chg")
@@ -53591,17 +53591,17 @@
 (define-public emacs-howm
   (package
     (name "emacs-howm")
-    (version "20211228.1145")
+    (version "20211230.1221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://scm.osdn.net/gitroot/howm/howm.git")
                (commit
-                 "ffd7f5f921a4d83e2b86127d653ec87c3a3a6dac")))
+                 "c381e50f0c771c38306bda37bd972a37a36a5db5")))
         (sha256
           (base32
-            "0q3hp8gqmdsfh7sgjird5x07ry773hra2873fk1aiyscp2id2dpn"))))
+            "1azzsbvnjbd5y0isl2bq9yjaqbbiivmswkrvyx3mgmq7rw6xvn61"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "*.el.in"))))
@@ -54155,17 +54155,17 @@
 (define-public emacs-hydra
   (package
     (name "emacs-hydra")
-    (version "20201115.1055")
+    (version "20211230.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/hydra.git")
                (commit
-                 "2d553787aca1aceb3e6927e426200e9bb9f056f1")))
+                 "a38690b1b70c5e950626ac6d48d5d7b77c1b51bd")))
         (sha256
           (base32
-            "13zjw64x728pm1a44lzzv9s9r5kkss0ncwqzzczhk8bvmsi7m1l3"))))
+            "0xmfcmgq36a5bc25zlz1lnqhachpkf15abr19libixqrz05mx13l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lv))
     (arguments
@@ -60089,17 +60089,17 @@
 (define-public emacs-julia-repl
   (package
     (name "emacs-julia-repl")
-    (version "20210913.1256")
+    (version "20211230.814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tpapp/julia-repl.git")
                (commit
-                 "3f888ecd30f613ed50f67c614be0b42b7546c693")))
+                 "e90b1ed2cc806262b0ee772dcc88f8da693d9210")))
         (sha256
           (base32
-            "04baf40gqd1mzk7pvyq663ndg5byyq848r802j10zvggvacjwcbx"))))
+            "0jhfb2shz71kwfzmvlpzhldm2rms3wgwikrym2a2fr9hw91i2zy7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/tpapp/julia-repl")
@@ -80332,17 +80332,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20211230.54")
+    (version "20211230.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "0d05f963cd3ed7378d713991d3ce3e3c3713075d")))
+                 "3775188bad74d8e1fbfe5422197be7d45eb825fc")))
         (sha256
           (base32
-            "1k8bipxkivmb9gkgpb22sj48x1zzzxddi82jlyjn65xwrvczqahn"))))
+            "1bydrg3p5dah0ihazg8fv712fky2qald5iy1k3khihgd9imnp1vm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80811,17 +80811,17 @@
 (define-public emacs-org-starter
   (package
     (name "emacs-org-starter")
-    (version "20210314.1558")
+    (version "20211230.1606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-starter.git")
                (commit
-                 "786257e682bf147022d5b19e6df6e7c9939193af")))
+                 "6b1b3b045390bf1cff8214ece54da07c7a0aa8ad")))
         (sha256
           (base32
-            "1vfw06c08yhpc1dbqb4gprh9l3j0rgsyvhhgmvcv3y5cq2yaibhb"))))
+            "0zih4bfncjkkrx9v4f88a26kz41vgd7wvvfm2is5wk93nbcrazz4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -91190,17 +91190,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211229.1248")
+    (version "20211230.1216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "9faf5a0453daf5e764cb91617c30b2d21c865fb6")))
+                 "0fada8a337ce76c7576867a83917ff770562e4bd")))
         (sha256
           (base32
-            "0ljif3z1sv17m1357n64pbj15s4ncq6gc34b1j99zpxhv81lw6d2"))))
+            "1z63qfhwysw749zkj8qkhi9zkfbvjwbkq4kl429vdp0fd688szrm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -106230,17 +106230,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20211227.2205")
+    (version "20211230.1541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "56a562551fd481a9a65ea9243e08a8e1914ee737")))
+                 "66e83c8674042d47bf2cada05192f3d0b7e967a1")))
         (sha256
           (base32
-            "0vli6xvqg2j4zc6sn7zdxwbd6hkwvk3fpifpm67g40krfxlv9xpw"))))
+            "0fkp8vnd39ivc4xn76076gz354fkqg5sxvccvj6n5yxg2fsdf5fs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -116500,17 +116500,17 @@
 (define-public emacs-yaml-mode
   (package
     (name "emacs-yaml-mode")
-    (version "20210808.1122")
+    (version "20211230.1126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yoshiki/yaml-mode.git")
                (commit
-                 "63b637f846411806ae47e63adc06fe9427be1131")))
+                 "0ca35e8a0e75756c7f062339f1aabe2dc37bccf1")))
         (sha256
           (base32
-            "1z759sg45ws08bj1c97xvxxbvs5a0fq8lgxrh5j5n7yv4jz4vr1k"))))
+            "1m59jkiicdy1ia129l710979bdckcqzk53j6x1vq2mhpxcc4qaqc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yoshiki/yaml-mode")
