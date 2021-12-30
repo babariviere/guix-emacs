@@ -15882,7 +15882,7 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211229.1856")
+    (version "20211229.2231")
     (source
       (origin
         (method git-fetch)
@@ -21767,17 +21767,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20211229.1455")
+    (version "20211230.255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "f8968616ddaf1fd3aee021fa8c213f41261fd279")))
+                 "8e58ce451ba28e3b7653bf11505863f4fbad8fa2")))
         (sha256
           (base32
-            "14wdn30fd6n5bk0xk8z1syhpdq7cf10nd32r36zp6xqjild0arby"))))
+            "0w88kn3jd7faw4x6hqw2cwfz71x290kf7x0xnb3bh30bjjmlwfrj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alexluigit/dirvish")
@@ -22970,17 +22970,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20211217.1620")
+    (version "20211230.547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "dc93cdec543e25022db7b034af49d57b6ee1c289")))
+                 "84573ae5e7db2705da67c2eda94b786a99346272")))
         (sha256
           (base32
-            "0js25cf3nrwfnya284f8x8j16gzm2g92nd4cv9jksqbrjzb0f0kz"))))
+            "091f0r8yj1chkvxcblykpfghwsc28fg7yc29f055j2a7n0ww1ham"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -64667,17 +64667,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20211228.1748")
+    (version "20211230.503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "0fbbd6cccf5e841db17d18ac78c5f100d504dc78")))
+                 "7bdcd669647c9604b856617162446d59c0f9e4e1")))
         (sha256
           (base32
-            "1y4if4q25xjd835313cjk7s05mj01w92shblvqkgrpa1qz9bkhnc"))))
+            "00lf0lz5f2dizwwwzwjg54bddrhrf1gg8x4k3c8h51jpgwhbpfzj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -65373,17 +65373,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20211229.1421")
+    (version "20211230.433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "5af1ca0536830d6229e11d2f5d4f4dfbaf21149d")))
+                 "37b1121283c95882dc8e27a65eb3e7df3f6f83f6")))
         (sha256
           (base32
-            "0cl0swwjs2yjw6ikhwdhwcjcmh438rrkbdf7262a8zhwmx2s0dak"))))
+            "19smc4rwmrwbydg52ki4kfkr4gjb8ccnxfpzg1pyhdi4qzs9nbx6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -80332,17 +80332,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20211222.2014")
+    (version "20211230.54")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "6f3e4a7ea14e6900acffe88303491b64b96ecb59")))
+                 "0d05f963cd3ed7378d713991d3ce3e3c3713075d")))
         (sha256
           (base32
-            "18pkb83akiikjqaxs9abf1z9yw1ch2b0zws25gsxqi20yyvc3lzf"))))
+            "1k8bipxkivmb9gkgpb22sj48x1zzzxddi82jlyjn65xwrvczqahn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -101930,17 +101930,17 @@
 (define-public emacs-solo-jazz-theme
   (package
     (name "emacs-solo-jazz-theme")
-    (version "20210924.7")
+    (version "20211230.40")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cstby/solo-jazz-emacs-theme.git")
                (commit
-                 "f7b9ff800cef2c17ecaad9556fca2bfd4b6cc13d")))
+                 "a8aba2b7efd46b1b184d6bb7e120538b80da2469")))
         (sha256
           (base32
-            "109r3fsxl1m7cf95h264ncnz91dmlhq6i15lavvg4j7fj3rmh768"))))
+            "0jj9rn3flj62s2h2xvjysqydsc2h611yz69sc5qd6z7b3vg8ybk2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/cstby/solo-jazz-emacs-theme")
