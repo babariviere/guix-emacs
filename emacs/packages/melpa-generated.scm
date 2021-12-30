@@ -11702,17 +11702,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211228.2153")
+    (version "20211229.2102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "79093b6b2dacb0ed2496dd2b7e7f84836ad24bab")))
+                 "6b705054ad2892195d72d183894b9591388a33fc")))
         (sha256
           (base32
-            "16pfr013whpv76816yiindyawskkqqmvnq6ik16q2wb7z60sgxmq"))))
+            "0437q2fj3jprjw7jffcczpa5pc5jhllinm9vak23d1hh6g2n6xsi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -12585,17 +12585,17 @@
 (define-public emacs-cloud-theme
   (package
     (name "emacs-cloud-theme")
-    (version "20200221.2201")
+    (version "20211229.2131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vallyscode/cloud-theme.git")
                (commit
-                 "bdac53baf1c38f83a16091db515047f7d42dac14")))
+                 "72f1f430c94b93701851567853097b2df7cdd19a")))
         (sha256
           (base32
-            "0ikhngr4cq4v6dgj59fffbdd6z9pdfcckgblsk3xs26frqqqxknf"))))
+            "14jqq522hdy2zy3iqh3r5ql5wgc5jh7mlz9m7h8pgcrwh9h7zjk2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/vallyscode/cloud-theme")
@@ -15882,17 +15882,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211214.1713")
+    (version "20211229.1856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "39366355f4897dfae73d14d93dbe6ca97f7fc713")))
+                 "15ce23520abfe219ff7652f56516cbd38315dee2")))
         (sha256
           (base32
-            "1f2dafi3gxz7jslxrm1zbndyhfjyn6b3fhab25sg29ns4vjx4hp1"))))
+            "0006mxii9808k9gd38cd94paxxj8vflvffhxcbgqw13bw2nrw28d"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -28102,17 +28102,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211229.400")
+    (version "20211229.2056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "82475bb826b21b90b3c61c1d7772ecddd136d870")))
+                 "81520eb69e0b4e1b5b5e1f348f043a0df54fe4a9")))
         (sha256
           (base32
-            "0rj6f3wph8xpjpmkdsrq70fqidsnwywmzdrgvkgs3c7z8v7g8kmx"))))
+            "1gx47sicbrp5093g0wlrm7r3908c70h91mrvy53ganwv07fyyybr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28126,17 +28126,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20211229.400")
+    (version "20211229.1856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "82475bb826b21b90b3c61c1d7772ecddd136d870")))
+                 "81520eb69e0b4e1b5b5e1f348f043a0df54fe4a9")))
         (sha256
           (base32
-            "0rj6f3wph8xpjpmkdsrq70fqidsnwywmzdrgvkgs3c7z8v7g8kmx"))))
+            "1gx47sicbrp5093g0wlrm7r3908c70h91mrvy53ganwv07fyyybr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -41622,17 +41622,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211229.32")
+    (version "20211229.1905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "e5357e6dcd221ba734423c68dc7a823c034d49d2")))
+                 "e204771601e5c985bb0d6b373666be4bc22582f9")))
         (sha256
           (base32
-            "0fszd9y647xv1ccmcchrlkj8iff7lmr97si14bhfhli1hmdmhyc7"))))
+            "0rg15hhf0yzcacyk1bx93fn4g60vgnzyi0a677dqgm240dasp02g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -44085,7 +44085,7 @@
 (define-public emacs-gnuplot
   (package
     (name "emacs-gnuplot")
-    (version "20211229.1054")
+    (version "20211229.1333")
     (source
       (origin
         (method git-fetch)
@@ -65373,7 +65373,7 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20211229.1306")
+    (version "20211229.1421")
     (source
       (origin
         (method git-fetch)
@@ -65766,24 +65766,23 @@
 (define-public emacs-lsp-julia
   (package
     (name "emacs-lsp-julia")
-    (version "20210530.2152")
+    (version "20211229.1534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gdkrmr/lsp-julia.git")
                (commit
-                 "809da95c05fe668acbae5a35e03082d9b9577728")))
+                 "d6688bb131ff4a5a0201f6d3826ef0b018265389")))
         (sha256
           (base32
-            "1v3f9hwbnd4vji6say5k9110ac4qbc3gd7hb62pvsbfa7vqd06gi"))))
+            "1qx1z4v6yxbxkrcpl4ry79zj64q3ckcp7qxx7cavpjcf4zzkj6jb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-julia-mode))
     (arguments
       '(#:files (:defaults "languageserver")))
-    (home-page
-      "https://github.com/non-Jedi/lsp-julia")
+    (home-page "https://github.com/gdkrmr/lsp-julia")
     (synopsis "Julia support for lsp-mode")
     (description
       "Documentation at https://melpa.org/#/lsp-julia")
@@ -65871,17 +65870,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211228.1421")
+    (version "20211229.1549")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "532dc5a786c009610e2b0660e20c346eccdb3d94")))
+                 "f6ea0d3ebbf2bf0c16e5baa2d521fd9879105e53")))
         (sha256
           (base32
-            "1bmfy7513zq7wk95mk5jd9c8hkb3vk7265nqfhnn0n4l3nyvcf4n"))))
+            "0vslsigi5l01r99fmcdgqswfys48d04y35f7x8wc9s87xs4ys5q3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67944,17 +67943,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20211226.1046")
+    (version "20211229.1850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "acbaad4bda9ee2166d55a2ef61521b97170202b3")))
+                 "ba0753ba814ff9adf4ebde1c02cd69abbc19b169")))
         (sha256
           (base32
-            "1pmz0vbna6zjxcpsw9vrvlk041b4w7kpbv5wcimrsb885n1lh1h6"))))
+            "17pnm1302qa7lj2r6zdrdx7s9xqk68wdivf136xy626g38fz3am3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -74619,17 +74618,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20211223.1216")
+    (version "20211229.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "063f5e98620e2f2adeaa8b3313cdac85eb4ef4db")))
+                 "6721e2eac5c8698cc7f364c58c646f6b44105b57")))
         (sha256
           (base32
-            "1d2i791ns5fiybdhjjc4h5rjjmx8phwmdikzmib7bqw9hcgak5nc"))))
+            "1xman6brya9n4rrgn2h479ijdnhsb3a0r55l2b7k7q8k109fxysc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.png")))
@@ -85944,7 +85943,7 @@
 (define-public emacs-pfuture
   (package
     (name "emacs-pfuture")
-    (version "20211229.1357")
+    (version "20211229.1513")
     (source
       (origin
         (method git-fetch)
@@ -93566,17 +93565,17 @@
 (define-public emacs-reazon
   (package
     (name "emacs-reazon")
-    (version "20211229.214")
+    (version "20211229.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nickdrozd/reazon.git")
                (commit
-                 "21a4218538eee90af66c20519457efeb5b319e22")))
+                 "f31c8b2e911c5885551d063c0a2b5de49a646eb1")))
         (sha256
           (base32
-            "163cfji24f0qc6kbrm9ckcvijsslcfb3qnc6y4iy1i9mcwknkkcj"))))
+            "1w8gv48ixf4fp35isr4jlnwygwqh8q04i3bbgwf3zldpzgmm3iwa"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/nickdrozd/reazon")
     (synopsis "miniKanren for Emacs")
@@ -96865,17 +96864,17 @@
 (define-public emacs-sayid
   (package
     (name "emacs-sayid")
-    (version "20211229.640")
+    (version "20211229.1802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/sayid.git")
                (commit
-                 "35aca59781876ea2fc8c277d9b656936f548c27b")))
+                 "ef0c110ad825185875b3f2404ee00b26400785aa")))
         (sha256
           (base32
-            "1g0xc4x11gw9p9fqsgm9dxcba6sz6c2a85x0z7sajbd4ycpczbfh"))))
+            "17sf8vf1hxizna7ir7i6zwpqcxslngl6r9vskh0yf3d3ddyc9q9l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-cider))
     (arguments '(#:files ("src/el/*.el")))
@@ -99873,17 +99872,17 @@
 (define-public emacs-siri-shortcuts
   (package
     (name "emacs-siri-shortcuts")
-    (version "20211217.2130")
+    (version "20211229.1833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DaniruKun/siri-shortcuts.el.git")
                (commit
-                 "2a38a2ef19a279f0d3f8b863a4161ddb167b219e")))
+                 "190f242f71e071adfd89fa1f2f6ea22b62afd133")))
         (sha256
           (base32
-            "014viyn2z6mm207grq45z2hn1hxyfjdw28rcfii5pylhzi8032h5"))))
+            "1v8bxvrkmnrl05m98jkwb0kq349jjldhn6jkpsvpxa8hvlwwc15w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/DaniruKun/siri-shortcuts.el")
@@ -108962,7 +108961,7 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20211229.1416")
+    (version "20211229.1448")
     (source
       (origin
         (method git-fetch)
@@ -109053,17 +109052,17 @@
 (define-public emacs-treemacs-icons-dired
   (package
     (name "emacs-treemacs-icons-dired")
-    (version "20211011.1824")
+    (version "20211229.1448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "c33fb05b9b54c188f324323852d8d48317cfe3a7")))
+                 "d7896187d88a6d91dbedd43f435619eab607d5d3")))
         (sha256
           (base32
-            "0ndcvmm8b5vxddz9n876jrs9nmdp20nj4g2iiabws4d12r8b7j94"))))
+            "0l3as6kp3fv4b3ydzhcybqw1j6zrcdywsrjwk5a8r4w8mm664589"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treemacs))
     (arguments
@@ -109104,17 +109103,17 @@
 (define-public emacs-treemacs-persp
   (package
     (name "emacs-treemacs-persp")
-    (version "20210114.2135")
+    (version "20211229.1448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "babf69971ed4c3469b0cdf6a3bf7b637bed1ab18")))
+                 "d7896187d88a6d91dbedd43f435619eab607d5d3")))
         (sha256
           (base32
-            "1s8csgnbcyjkbycx8hwsmzd37fhs7m7qr5mn4k91j5v3vm8ndjb8"))))
+            "0l3as6kp3fv4b3ydzhcybqw1j6zrcdywsrjwk5a8r4w8mm664589"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-treemacs emacs-persp-mode emacs-dash))
@@ -109130,17 +109129,17 @@
 (define-public emacs-treemacs-perspective
   (package
     (name "emacs-treemacs-perspective")
-    (version "20210116.1155")
+    (version "20211229.1448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "c33fb05b9b54c188f324323852d8d48317cfe3a7")))
+                 "d7896187d88a6d91dbedd43f435619eab607d5d3")))
         (sha256
           (base32
-            "0ndcvmm8b5vxddz9n876jrs9nmdp20nj4g2iiabws4d12r8b7j94"))))
+            "0l3as6kp3fv4b3ydzhcybqw1j6zrcdywsrjwk5a8r4w8mm664589"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-treemacs
