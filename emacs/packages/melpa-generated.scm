@@ -11702,17 +11702,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211229.2102")
+    (version "20211230.2146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "6b705054ad2892195d72d183894b9591388a33fc")))
+                 "1e5b28833a0157e7d4d9bd7510548c1e2add05ea")))
         (sha256
           (base32
-            "0437q2fj3jprjw7jffcczpa5pc5jhllinm9vak23d1hh6g2n6xsi"))))
+            "1xk2kyak2x4dmdqm0dixc4269m8cvs98zkgnkpj3ra8ksn7mi04w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -11726,17 +11726,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20211218.1755")
+    (version "20211230.1951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "f8bfe4c339b054c74dc32cdfd8b0bb2cf0e598fa")))
+                 "bdbbc4bc78d4e7aa03989e7e3adac1b713a9e4a1")))
         (sha256
           (base32
-            "0m82nns2abqc10jclzjzg2svi2wwk2yn4l9wbf4p51vgqd64x5iv"))))
+            "1hyknxs7yyh4s4lr1xv6z0fk6qz44kwbpdk3bdnsn56i6vn4p4a4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -16470,17 +16470,17 @@
 (define-public emacs-counsel
   (package
     (name "emacs-counsel")
-    (version "20210928.949")
+    (version "20211230.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "1c6b3da377a840e898b14020133f59fca9ceea1c")))
+                 "eb89e10b395ea7b433e3184a355ff215c8f5cd65")))
         (sha256
           (base32
-            "1w8x2qk8lafnn6ksv1anixayyl476y1j6hp2amfnqmdkh0vnh63v"))))
+            "0pqgjyadxzsiam2a1cwvgw5yhwq8hz6k24l8k4d9sls2f08cqxfj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-swiper))
     (arguments '(#:files ("counsel.el")))
@@ -21767,17 +21767,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20211230.255")
+    (version "20211230.1856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "8e58ce451ba28e3b7653bf11505863f4fbad8fa2")))
+                 "5eec5aa87039659366386b25a07f4e5ce3760b92")))
         (sha256
           (base32
-            "0w88kn3jd7faw4x6hqw2cwfz71x290kf7x0xnb3bh30bjjmlwfrj"))))
+            "1xqhygkc0jp4x05w55v5wjlvm8nk3by750d7kmxw6hvhplqhdclk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alexluigit/dirvish")
@@ -28102,17 +28102,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211229.2056")
+    (version "20211230.2154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "81520eb69e0b4e1b5b5e1f348f043a0df54fe4a9")))
+                 "19eb9e59bca1e700b9b5405c3a80ffd06c7f823a")))
         (sha256
           (base32
-            "1gx47sicbrp5093g0wlrm7r3908c70h91mrvy53ganwv07fyyybr"))))
+            "1hs09q0gd8xn57l2zia79ql9l69vbmn9syrq5ninkmxvwnvlscn6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -35197,17 +35197,17 @@
 (define-public emacs-fit-text-scale
   (package
     (name "emacs-fit-text-scale")
-    (version "20210112.2246")
+    (version "20211230.2002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/marcowahl/fit-text-scale.git")
                (commit
-                 "3f93650a8e8899114ea48048b7962210f1024862")))
+                 "c53c8ce606380088643463848a9ee3502b0c64f4")))
         (sha256
           (base32
-            "1yjfvb2vn5pmrq5fw4sfx1lfkbnkwlc160izpvkrf9ww9xsas6al"))))
+            "00jbfi2k72w01lzxn9gjam7nabbaqwas3gr922a5s04494yyc8rp"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/marcowahl/fit-text-scale")
@@ -57452,17 +57452,17 @@
 (define-public emacs-ivy
   (package
     (name "emacs-ivy")
-    (version "20210930.1450")
+    (version "20211025.1047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "1c6b3da377a840e898b14020133f59fca9ceea1c")))
+                 "eb89e10b395ea7b433e3184a355ff215c8f5cd65")))
         (sha256
           (base32
-            "1w8x2qk8lafnn6ksv1anixayyl476y1j6hp2amfnqmdkh0vnh63v"))))
+            "0pqgjyadxzsiam2a1cwvgw5yhwq8hz6k24l8k4d9sls2f08cqxfj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -57482,17 +57482,17 @@
 (define-public emacs-ivy-avy
   (package
     (name "emacs-ivy-avy")
-    (version "20210310.1230")
+    (version "20211021.1602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "1c6b3da377a840e898b14020133f59fca9ceea1c")))
+                 "eb89e10b395ea7b433e3184a355ff215c8f5cd65")))
         (sha256
           (base32
-            "1w8x2qk8lafnn6ksv1anixayyl476y1j6hp2amfnqmdkh0vnh63v"))))
+            "0pqgjyadxzsiam2a1cwvgw5yhwq8hz6k24l8k4d9sls2f08cqxfj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-avy))
     (arguments '(#:files ("ivy-avy.el")))
@@ -64241,22 +64241,22 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20211020.907")
+    (version "20211230.1949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "bf315768020f98f6139d5f722bd365f1ddd1fb52")))
+                 "dea1c71f2e4bccc41c41dc2f9ee8878c6e823b8d")))
         (sha256
           (base32
-            "1sd3czlvvpsfq44ppk8jrv53d7irnk1c8nxvjjlyjbxpxj6zk5zh"))))
+            "1048padxh6swss4w1zcb4aajk7a6vx7lj76kdlx8qqqf98q4vz8d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
             emacs-iedit
-            emacs-counsel
+            emacs-swiper
             emacs-hydra
             emacs-zoutline))
     (arguments
@@ -65870,17 +65870,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211229.1549")
+    (version "20211230.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "f6ea0d3ebbf2bf0c16e5baa2d521fd9879105e53")))
+                 "724209ec745ba9de6a9105d7fe146996433be857")))
         (sha256
           (base32
-            "0vslsigi5l01r99fmcdgqswfys48d04y35f7x8wc9s87xs4ys5q3"))))
+            "0mzvaswbx3krhjj7dg5gh98clrzs9ip4aq2yxjgis7drn0751ykh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81429,6 +81429,28 @@
       "Documentation at https://melpa.org/#/org-vcard")
     (license #f)))
 
+(define-public emacs-org-visibility
+  (package
+    (name "emacs-org-visibility")
+    (version "20211222.1910")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nullman/emacs-org-visibility.git")
+               (commit
+                 "2d5e17c20c5ccf6eff381d225de79e20427cf9fb")))
+        (sha256
+          (base32
+            "13fgxmc95ydwp2gc8b7diack275g57aad7zpilzrihbclfb8p5q4"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/nullman/emacs-org-visibility")
+    (synopsis "Persistent org tree visibility")
+    (description
+      "Documentation at https://melpa.org/#/org-visibility")
+    (license #f)))
+
 (define-public emacs-org-wc
   (package
     (name "emacs-org-wc")
@@ -91190,17 +91212,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211230.1216")
+    (version "20211230.2147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "0fada8a337ce76c7576867a83917ff770562e4bd")))
+                 "9e401e5bb8591fd72e2b52b4cf8c9ac946e17e65")))
         (sha256
           (base32
-            "1z63qfhwysw749zkj8qkhi9zkfbvjwbkq4kl429vdp0fd688szrm"))))
+            "01gjw17jfmcm07m8y816dl7yfbb9gqsdsvspn1hy2v424l8lrc9q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -101930,17 +101952,17 @@
 (define-public emacs-solo-jazz-theme
   (package
     (name "emacs-solo-jazz-theme")
-    (version "20211230.40")
+    (version "20211230.2017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cstby/solo-jazz-emacs-theme.git")
                (commit
-                 "a8aba2b7efd46b1b184d6bb7e120538b80da2469")))
+                 "9975f308e247641cce4a3230fbfc3b01c77612c9")))
         (sha256
           (base32
-            "0jj9rn3flj62s2h2xvjysqydsc2h611yz69sc5qd6z7b3vg8ybk2"))))
+            "0gr7iwzj8m0h1dzcdcpvd9i7cinph2h6r8v2nvsn0gqaran0lkkf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/cstby/solo-jazz-emacs-theme")
@@ -105265,17 +105287,17 @@
 (define-public emacs-symex
   (package
     (name "emacs-symex")
-    (version "20211214.2059")
+    (version "20211230.2218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/countvajhula/symex.el.git")
                (commit
-                 "c8044d0e513cbb810229ffbb2c5903dd02c6d064")))
+                 "70d9100c4201a6a0112017a5a4ae4181d1d3c75e")))
         (sha256
           (base32
-            "1vyk8zg4k3rnnq1cd8znflwb6ci5iwv8g7jxqkqzi0i8x2ma00r9"))))
+            "04qkqd5v68jyp5m0ksf9yhk5aq5qcbvnr3mc9v5j274k41kzlm2y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lispy
