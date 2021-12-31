@@ -16515,6 +16515,29 @@
       "Documentation at https://melpa.org/#/counsel-ag-popup")
     (license #f)))
 
+(define-public emacs-counsel-at-point
+  (package
+    (name "emacs-counsel-at-point")
+    (version "20211231.139")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/ideasman42/emacs-counsel-at-point.git")
+               (commit
+                 "7f1a2fdc2a158c8995882ada70c578fc2a361fb0")))
+        (sha256
+          (base32
+            "1nfrk8v8ya6ki5qgbg9l6id4j1xmz37a4qbsmvx8pskq494lr75j"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-counsel))
+    (home-page
+      "https://gitlab.com/ideasman42/emacs-counsel-at-point")
+    (synopsis "Context sensitive project search")
+    (description
+      "Documentation at https://melpa.org/#/counsel-at-point")
+    (license #f)))
+
 (define-public emacs-counsel-bbdb
   (package
     (name "emacs-counsel-bbdb")
@@ -26669,17 +26692,17 @@
 (define-public emacs-elfeed-score
   (package
     (name "emacs-elfeed-score")
-    (version "20211123.1505")
+    (version "20211231.54")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sp1ff/elfeed-score.git")
                (commit
-                 "dc9901aabf6f6659beef1c876bd3c9cc4c7d17b6")))
+                 "38988ebdbc335f990e9a90042141f18e3fc3ddb1")))
         (sha256
           (base32
-            "10wsjq2zd6kz9182gnkjzlzywx16j29dgm1gzwynr79xmvgs4r2b"))))
+            "19g98xpb0kk8i0js4syb2k7sfj0lia3xmywzn9dmrxkpslhfsyms"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed))
     (home-page
@@ -28102,17 +28125,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211230.2154")
+    (version "20211231.319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "19eb9e59bca1e700b9b5405c3a80ffd06c7f823a")))
+                 "e1a0422cca599be81084cee35681601a5503c359")))
         (sha256
           (base32
-            "1hs09q0gd8xn57l2zia79ql9l69vbmn9syrq5ninkmxvwnvlscn6"))))
+            "047v4gc4wg832bf4gpvnipiwkb7az1jqp2pkpy42xwms2bcmj1r7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -64667,17 +64690,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20211230.503")
+    (version "20211231.331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "7bdcd669647c9604b856617162446d59c0f9e4e1")))
+                 "dc5bc80b81a570d384be990d7997bd6452c25f2e")))
         (sha256
           (base32
-            "00lf0lz5f2dizwwwzwjg54bddrhrf1gg8x4k3c8h51jpgwhbpfzj"))))
+            "1hizb2c4974q42049iyxkd3has5sl1n33vyfhhgqq27n2bbhj3n0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -70664,17 +70687,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211229.1023")
+    (version "20211231.406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "c5c8fb9923ff19b1615f5f2f650ee536193d6b4c")))
+                 "2d5ed2ff2965167a4c28b1623565629cf5208fc7")))
         (sha256
           (base32
-            "18asqfy6a3kzr71lygvnmb7zl0711khkl0034yzh3w4gxkcqp3kb"))))
+            "1qfp7m4zs67s2wkqpj9akjfx3dji3r9ydlqp9w72c0g68l252ndr"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -72054,7 +72077,7 @@
 (define-public emacs-multi-project
   (package
     (name "emacs-multi-project")
-    (version "20210908.1233")
+    (version "20211230.2223")
     (source
       (origin
         (method url-fetch)
@@ -72064,7 +72087,7 @@
                ".el"))
         (sha256
           (base32
-            "1h9yc7d8bqsck73dci14gy3dxd3bx80vkkadxyfjgzgggn1snbv5"))))
+            "0wdab0hcl7w8mn8j9h06mr59rclxqr0h1fk8kblfg44kg0kiifr9"))))
     (build-system melpa-build-system)
     (home-page
       "https://hg.osdn.net/view/multi-project/multi-project")
@@ -82974,17 +82997,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20211218.1728")
+    (version "20211231.655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "cd313dca9a2c7da9f8f4e1b2ddfe1a9cfaf45e34")))
+                 "dfc0d6c3466aac0607133468675c0971e740a2df")))
         (sha256
           (base32
-            "14ma2pxcgsijfrxpfpvc1q5zk58bgxpsnykpg9zh0sd8zh2if946"))))
+            "054k8xxjnkq8chbb6lwr8cr5lf171pvkyxqyjq1ifz6rcb7wk4p9"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -85443,17 +85466,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20211110.513")
+    (version "20211231.416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "a8847b75d3487d60e27762816bdbdd23b6dc1c11")))
+                 "5621164d47b0e59676edad252b514f5c3c15824f")))
         (sha256
           (base32
-            "1dv244rxlgb56fzx1d1w9ngdjdrc7bgssshvkrfkxbwy69i803b3"))))
+            "18wd249l4dyzd9wlqrxbcp0lagn2mdp67dc5y8chvgdg25h89wd0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -91212,17 +91235,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211230.2147")
+    (version "20211231.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "9e401e5bb8591fd72e2b52b4cf8c9ac946e17e65")))
+                 "235790ec783638803459735dbcb0d8a8e6b8eedb")))
         (sha256
           (base32
-            "01gjw17jfmcm07m8y816dl7yfbb9gqsdsvspn1hy2v424l8lrc9q"))))
+            "1z12xachz8jsvfy6laz1m976lcbg9dw3hm6av5122gwbwszkzqqs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
