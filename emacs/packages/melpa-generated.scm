@@ -4575,17 +4575,17 @@
 (define-public emacs-auto-complete
   (package
     (name "emacs-auto-complete")
-    (version "20211210.1808")
+    (version "20211231.1808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/auto-complete/auto-complete.git")
                (commit
-                 "027dd93ffdd6219c9229fbb98d0ee25496dec1ee")))
+                 "dca652c068c15806cc229e086bd6c8a640355029")))
         (sha256
           (base32
-            "013g2dkyhvvx44l9q8lphv1011ilanyikhs7jf6qxp5v2plp4i6q"))))
+            "1sahnlgaan9kyazsfb3n3561dbk9d7343iskvv67ksyz3yl35v2z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-popup))
     (arguments '(#:files ("*.el" "dict")))
@@ -12971,17 +12971,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211228.332")
+    (version "20211231.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "90f59935d394ec022cc78d16945b6dbd2fb8acfe")))
+                 "6e55248a1ff509fb2836bd04929966949e7cbc2f")))
         (sha256
           (base32
-            "1f29qrsg5rwh27a09gzkjvxjk4rgh7vij7m6a3bd0w5k3pmssgsd"))))
+            "0mhw2wkq987877jd39j1y3mhknn8k084llba30igwagqwfc1mm5w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -28125,17 +28125,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211231.319")
+    (version "20211231.1526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "e1a0422cca599be81084cee35681601a5503c359")))
+                 "6572462f6c9ffbf720f53def86462e95de887610")))
         (sha256
           (base32
-            "047v4gc4wg832bf4gpvnipiwkb7az1jqp2pkpy42xwms2bcmj1r7"))))
+            "1pxy3qpcpdgx497x082n8myg7ynv944g7g7xrvhghfsj6b429mjq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -30638,17 +30638,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20211219.1013")
+    (version "20211231.1746")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "4475e8c5f3fe6c2f14352d2bdc337195dfc32843")))
+                 "5ec55b95940ac63ef6209c76035a13d02a3248cd")))
         (sha256
           (base32
-            "02wwf6mq8ihm59wcckw4xwjhzv9svm364pdpjr1gnllfmp7s1151"))))
+            "149x113z4k0bgcir82wv0915zcg9mb1zl2qfymp9s6g31xx3m4dc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -41210,17 +41210,17 @@
 (define-public emacs-fuzzy
   (package
     (name "emacs-fuzzy")
-    (version "20210317.140")
+    (version "20211231.1837")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/auto-complete/fuzzy-el.git")
                (commit
-                 "edce468a3077d03ca63e1559f7ffebfa09c8effd")))
+                 "f63d6279a781cf9f33dd2f22826788d98d475961")))
         (sha256
           (base32
-            "126wbccdilqi7yf1w7z9gjr6zr4lmrrii6bz65jg5ffnpx8kj30d"))))
+            "11dj0qg2411r2nby2nzi1i4s2v5wnz4594cl5c8gq9hws7cmp6q2"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("fuzzy.el")))
     (home-page
@@ -57475,17 +57475,17 @@
 (define-public emacs-ivy
   (package
     (name "emacs-ivy")
-    (version "20211025.1047")
+    (version "20211231.1730")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "eb89e10b395ea7b433e3184a355ff215c8f5cd65")))
+                 "c97ea72285f2428ed61b519269274d27f2b695f9")))
         (sha256
           (base32
-            "0pqgjyadxzsiam2a1cwvgw5yhwq8hz6k24l8k4d9sls2f08cqxfj"))))
+            "05ivdsq6l6ixdn5p0rjh7mcgw19fm38m137xb8yi2c9gii6yk6g2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -65893,17 +65893,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20211230.2055")
+    (version "20211231.1952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "724209ec745ba9de6a9105d7fe146996433be857")))
+                 "03a6ab1d7db8a02233b29f2e8840803028f22ded")))
         (sha256
           (base32
-            "0mzvaswbx3krhjj7dg5gh98clrzs9ip4aq2yxjgis7drn0751ykh"))))
+            "1r3phppiglr8gpgqfz2lnpavpqkc87wj6p7nm4s1jkzsn1akj7vi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -79440,17 +79440,17 @@
 (define-public emacs-org-ml
   (package
     (name "emacs-org-ml")
-    (version "20211213.105")
+    (version "20211231.700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ndwarshuis/org-ml.git")
                (commit
-                 "4fdf359fb716bf9b606650ac119ba10021f94f26")))
+                 "3974435bbf72722801f7ed78855381d77a773162")))
         (sha256
           (base32
-            "0chnvs577wvddmcx37gij1zw95hii1lmdycr7w2wp5ig2dyz67ns"))))
+            "0zdvz8lzrf7dj6giryy98wkxrrcawigvhab3prxwhjrkp8n9wvbv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -82997,17 +82997,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20211231.847")
+    (version "20211231.2104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "84fe3de3e8ae79518e6caf160262aff388b28529")))
+                 "822cace78af024964d42105030476bf8c1538e8d")))
         (sha256
           (base32
-            "0dahxdcls557nqb0d3l0cqb8cvcrlkybf3rsl3p2kbkfyhpj2s7v"))))
+            "1797afzk48mifsdpj78dqq9hapmw09j4ik7f976lvlk08vxbkgzj"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -88500,17 +88500,17 @@
 (define-public emacs-popup
   (package
     (name "emacs-popup")
-    (version "20211229.734")
+    (version "20211231.1823")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/auto-complete/popup-el.git")
                (commit
-                 "485284b2b037d98cf588ce23214c98b3f658dffd")))
+                 "ec3d3169a4d60b0374198580e31b6c59f51ab08a")))
         (sha256
           (base32
-            "0ypwj73sgan1n7kgnyvzb5m07sm4h5mwx9y84q9php9a49si6qhm"))))
+            "12ymj71fsps0q4rk2hcj80nf93i5iq93sg0fw6dkn8swdvmhp1lz"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("popup.el")))
     (home-page
@@ -95632,17 +95632,17 @@
 (define-public emacs-ros
   (package
     (name "emacs-ros")
-    (version "20210730.844")
+    (version "20211231.1807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DerBeutlin/ros.el.git")
                (commit
-                 "63d46cefa8552b59556dcb4af0849253dc501ee9")))
+                 "eab72f172304db8e76dafd7e5d86fe7626f22a00")))
         (sha256
           (base32
-            "0imwdapwfj8qn7zqc4842bvxwip7j8gw9bip7mc05l4c9v2v73r0"))))
+            "13pyiawdrprsz609ivgyhydi78pcs4295mlsjh68pq05karbjp0z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/DerBeutlin/ros.el")
