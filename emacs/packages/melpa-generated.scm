@@ -13811,17 +13811,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20211228.1159")
+    (version "20220101.38")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "9108c6226764b629e2834455adb466b42b092acf")))
+                 "699a45ccdacb0ed2e1a01483a04ea2bce87068d0")))
         (sha256
           (base32
-            "005jcy64zkxk94ls4qbp1jq8khds1vkzkvc8gkp70418vsja3iw2"))))
+            "06q2wr5z64mh2whsq1x4bh5yngqzk5qr0f6d34hsqb5y82f74v0b"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page "http://company-mode.github.io/")
@@ -68839,17 +68839,17 @@
 (define-public emacs-meghanada
   (package
     (name "emacs-meghanada")
-    (version "20210505.652")
+    (version "20220101.501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mopemope/meghanada-emacs.git")
                (commit
-                 "6c57e8a0ae27e2929bb12572cf33059cd4ecbc04")))
+                 "59c46cabb7eee715fe810ce59424934a1286df84")))
         (sha256
           (base32
-            "1wq4x80lqzlpixy701xncvmz0jwk1zgp1kpz1z7wgl5i0jnb1516"))))
+            "1azjp340wxv25c7bg1y5m8gwmgsdfvlxxcisczz44v87v8jbjhyw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -82997,17 +82997,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20211231.2104")
+    (version "20220101.616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "822cace78af024964d42105030476bf8c1538e8d")))
+                 "1970cf900dcf7f1880a79b15ffc1f70c3891dbb0")))
         (sha256
           (base32
-            "1797afzk48mifsdpj78dqq9hapmw09j4ik7f976lvlk08vxbkgzj"))))
+            "0mjcyncymip249wnfffm2fh94lv0w5ppw8baa73fpfpvjkvidama"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -84627,17 +84627,17 @@
 (define-public emacs-parrot
   (package
     (name "emacs-parrot")
-    (version "20191015.2127")
+    (version "20220101.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dp12/parrot.git")
                (commit
-                 "29265d118267e524453aaa9121c4eae213a63164")))
+                 "1d381f24d74242018e306d1a0c891bed9a465ac3")))
         (sha256
           (base32
-            "04mpwsn16i00rbjyd3959kjyw1qn9xw9d9as6syhsfq5mzhwksni"))))
+            "0jvnaplab6bsq9pv89zl6amrs39ay6qlzgm0lls6ij9bbrsyjlvp"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "img")))
     (home-page "https://github.com/dp12/parrot.git")
@@ -89196,17 +89196,17 @@
 (define-public emacs-prettify-math
   (package
     (name "emacs-prettify-math")
-    (version "20211220.1009")
+    (version "20220101.549")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitee.com/shaqxu/prettify-math.git")
                (commit
-                 "b7963dbe483c496306525aa862f14d1de994613d")))
+                 "5bdb9a8af7593d3a38492a618aedc545278fe8a1")))
         (sha256
           (base32
-            "1qs89q5d5si2sa1dqhmbryxipv0120l9ckkavzvyz5z1d3smmb35"))))
+            "1aid6z5hwrnqx2gidfwpgy6kx2v29kw2q29cnq1rbhh3w49l6m7z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (arguments
@@ -91235,17 +91235,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20211231.1147")
+    (version "20220101.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "3caad234789c168e933dbab4e1e0bf536425db00")))
+                 "ed8d7557e07f4ebd028e0ecf39882950c9f10e76")))
         (sha256
           (base32
-            "14ah44xmh0bvvg4y6ylvcryx541dw484drslfhrd39y6s2ixz1rk"))))
+            "0w2p9adjd2hcrha3viycvhxhgqnxbxkgvf9wshsxjkz739n9xc2c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -115307,17 +115307,17 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20211231.911")
+    (version "20220101.511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashinin/workgroups2.git")
                (commit
-                 "a65694c6fc45e12ad721da233b90dc28ad39a19e")))
+                 "691b353c7a9f974ce6a7d76a74589fc8abc17dcd")))
         (sha256
           (base32
-            "0bkv6h0440876dn9rj4wmw07sjjdlgih742mhx432d3r7j8rp4w0"))))
+            "19g807lwlfvammjnc9mjc3b0z6rsqzgflpjfkbaz9mmprwdydjd3"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
