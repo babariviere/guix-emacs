@@ -11726,17 +11726,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20211230.1951")
+    (version "20220101.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "bdbbc4bc78d4e7aa03989e7e3adac1b713a9e4a1")))
+                 "abf3e45946598dffebfba6d6bd9a8cda46815765")))
         (sha256
           (base32
-            "1hyknxs7yyh4s4lr1xv6z0fk6qz44kwbpdk3bdnsn56i6vn4p4a4"))))
+            "1wddx2vz5ham26kjs88lmzkln3g5zxdf0d4a6sc8hbsp56hjr8ap"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -11747,7 +11747,7 @@
             emacs-parsebib))
     (home-page
       "https://github.com/andras-simonyi/citeproc-el")
-    (synopsis "A CSL 1.0.1 Citation Processor")
+    (synopsis "A CSL 1.0.2 Citation Processor")
     (description
       "Documentation at https://melpa.org/#/citeproc")
     (license #f)))
@@ -24253,17 +24253,17 @@
 (define-public emacs-eacl
   (package
     (name "emacs-eacl")
-    (version "20211215.1143")
+    (version "20220101.1517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/eacl.git")
                (commit
-                 "a9485331789de245445b2b4a9d5befc7498628a6")))
+                 "4d9d42fa05e550dbac71a2c93e1da71c48af9449")))
         (sha256
           (base32
-            "1d2krw9x1mw6jn1q07nbq2qi92fms85q3i9wa2q5drs3368l55vr"))))
+            "1bpnrvjiz6k9s36v23y1b6pjyl78741g4rc2mpdwxcnk0vzmi0aj"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/redguardtoo/eacl")
     (synopsis
@@ -27882,17 +27882,17 @@
 (define-public emacs-emacsql
   (package
     (name "emacs-emacsql")
-    (version "20210615.1539")
+    (version "20220101.1820")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/emacsql.git")
                (commit
-                 "9dca5996168c4963eb67e61c7f17fdcb8228e314")))
+                 "c82a0e6b4d256a3743b718cfb640fa9efc045f6e")))
         (sha256
           (base32
-            "1gjwll970avjv0ah4m8w56ybi4l4bc4n8p29wq77za56m0g6jzrg"))))
+            "016lnzdsrwrghnnm8ljmzbqrcdj77pmg23nh3k3ayrh5n20ssdli"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -27959,17 +27959,17 @@
 (define-public emacs-emacsql-psql
   (package
     (name "emacs-emacsql-psql")
-    (version "20171219.227")
+    (version "20220101.1820")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/emacsql.git")
                (commit
-                 "9dca5996168c4963eb67e61c7f17fdcb8228e314")))
+                 "c82a0e6b4d256a3743b718cfb640fa9efc045f6e")))
         (sha256
           (base32
-            "1gjwll970avjv0ah4m8w56ybi4l4bc4n8p29wq77za56m0g6jzrg"))))
+            "016lnzdsrwrghnnm8ljmzbqrcdj77pmg23nh3k3ayrh5n20ssdli"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-emacsql))
     (arguments
@@ -27984,17 +27984,17 @@
 (define-public emacs-emacsql-sqlite
   (package
     (name "emacs-emacsql-sqlite")
-    (version "20190727.1710")
+    (version "20220101.1820")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/emacsql.git")
                (commit
-                 "9dca5996168c4963eb67e61c7f17fdcb8228e314")))
+                 "c82a0e6b4d256a3743b718cfb640fa9efc045f6e")))
         (sha256
           (base32
-            "1gjwll970avjv0ah4m8w56ybi4l4bc4n8p29wq77za56m0g6jzrg"))))
+            "016lnzdsrwrghnnm8ljmzbqrcdj77pmg23nh3k3ayrh5n20ssdli"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-emacsql))
     (arguments
@@ -65531,17 +65531,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20211119.1320")
+    (version "20220101.1530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "7afe141fe2a60265049a846abd254b5ff4169c10")))
+                 "f01b05389dc2b5ce9d9f552bac8c83be1229ef3a")))
         (sha256
           (base32
-            "0wrcrqvlyp6gpanp5r67qyrn3q8n2pk1w8qwrkxh6kr466cd2lxp"))))
+            "1xmq6czdkyhfyfkdqb8iw4zbhp8rz5zk6pfqg2gh7z8k4pxw1gi0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -66753,17 +66753,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220101.841")
+    (version "20220101.1954")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "7d0d7068deff003a02f49fa430153e4611c80175")))
+                 "9d80a654d42b50f22e22798426bbdc00a7c6f220")))
         (sha256
           (base32
-            "0cwcw6d86rimnq3r4x3bk9ybn4r42g5nc9ajc082s70r2q1c705n"))))
+            "0vi8ghgc2dda1il74kxzskmxdaxm3j9ynhpk17hj3kkw6lh2g9p4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70692,17 +70692,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20211231.947")
+    (version "20220101.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "8375a4b93b7a552f0902d6a89e16501c66f4eeca")))
+                 "58ceaa80c685a24bd712bf975d9f1c112eb39c13")))
         (sha256
           (base32
-            "1w7lpx087l68d3gpmzw8db1pxh8np9fjmc32g58wln9l5an3lpxn"))))
+            "1pyichdm2mhfv68dxbwa6v6jy0p35cwf6z50qkrn79pwmhcn62fl"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80360,17 +80360,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20211230.1542")
+    (version "20220101.1941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "3775188bad74d8e1fbfe5422197be7d45eb825fc")))
+                 "429733150548a847966685680bca0a20ec3b1ad9")))
         (sha256
           (base32
-            "1bydrg3p5dah0ihazg8fv712fky2qald5iy1k3khihgd9imnp1vm"))))
+            "1zmg9xa33h9528w47h648cmw5wf0ay6hjrqqaznvrq589nmwqx2z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -96431,17 +96431,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20211225.2046")
+    (version "20220101.2038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "e17cdcd0cf6f2aef3a9d37e6aa29b67b74b81e6f")))
+                 "f3c499f2c1f5fcef77380eab9cadc854046eeb89")))
         (sha256
           (base32
-            "1cgmgdfq0j9d6xf1c0mlszbbz97k5jwdgbcw6pxr9g22mmmrnvp5"))))
+            "1ypaxwd3mrfg5ssclh9vcgh8vqhbk10xshs13zqdd6v1i152vw8q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
