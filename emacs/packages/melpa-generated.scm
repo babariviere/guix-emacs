@@ -13811,17 +13811,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220101.38")
+    (version "20220102.10")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "699a45ccdacb0ed2e1a01483a04ea2bce87068d0")))
+                 "ede779d779ccb41a9d0568956c4388489f1e640a")))
         (sha256
           (base32
-            "06q2wr5z64mh2whsq1x4bh5yngqzk5qr0f6d34hsqb5y82f74v0b"))))
+            "0fclz73lk1sv8bgiy0xkgxr28ynhakxkrd8smka1kzgh5fl3r84l"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page "http://company-mode.github.io/")
@@ -15882,17 +15882,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20211231.939")
+    (version "20220101.2318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "f9170bb75f9b4362b42cebee9cd8643b04093342")))
+                 "0940ca016531f3412003c231b476e5023a510ff9")))
         (sha256
           (base32
-            "051fjp03lj3b5kkzpdhk78g2lj37v973q0f012zld1n6937srj6h"))))
+            "0kdg79jzqsxa6gsl2fxmds1yx1347csjzcl75wbbg388nrp0p9zh"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -54180,17 +54180,17 @@
 (define-public emacs-hydra
   (package
     (name "emacs-hydra")
-    (version "20211230.1404")
+    (version "20220102.803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/hydra.git")
                (commit
-                 "a38690b1b70c5e950626ac6d48d5d7b77c1b51bd")))
+                 "9e9e00cb240ea1903ffd36a54956b3902c379d29")))
         (sha256
           (base32
-            "0xmfcmgq36a5bc25zlz1lnqhachpkf15abr19libixqrz05mx13l"))))
+            "11xlhm098gi6fnksnykciwdx5a46xmxwx9y8r6kjpb92vpjfak80"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lv))
     (arguments
@@ -80514,17 +80514,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20211227.1007")
+    (version "20220102.603")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "ee9a8d423e24923ec60c3116a00c8a0e93095d86")))
+                 "679ef6ef001fd1a69b691108178721aa913e7f0f")))
         (sha256
           (base32
-            "1vfrc6s2jp6i6js4wq55mq1v2bpcwsl5p08fx29ymcwall4rkmy0"))))
+            "1m36qs8jgn118pzjybs5kf2wxxz7013mzdm4sdszc2qk05syvzav"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -91240,17 +91240,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220101.1331")
+    (version "20220102.103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "751672f22c0932ef043c8e7187b64d5e5ed614f6")))
+                 "58d283bf34407e1377e9e2af56d86897d0274ca4")))
         (sha256
           (base32
-            "1f36d5l7rcqsl16a9hpwiiiwkwv0v1diiv2751ik77315fy694j3"))))
+            "0hdnn1fblcag8nd8ngydcpd5j05gqfpk6mbx6glngz8s49jbp8lq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -96431,17 +96431,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220101.2038")
+    (version "20220102.128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "f3c499f2c1f5fcef77380eab9cadc854046eeb89")))
+                 "5a4540a05585dc2e84f639a86fde423b2608d6dd")))
         (sha256
           (base32
-            "1ypaxwd3mrfg5ssclh9vcgh8vqhbk10xshs13zqdd6v1i152vw8q"))))
+            "0v0yrw6g0qflaj4rj5fpyfvdc6iap7j2sgmh5id3ka136c7qbhiq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -102707,17 +102707,17 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20211121.701")
+    (version "20220102.125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-spell-fu.git")
                (commit
-                 "b2da2874f3227c0a969be80946e0c4ea455e8458")))
+                 "e7cfe54d4ee5f506cc010ae4d4a9111d2a65c21c")))
         (sha256
           (base32
-            "1rbczz0i2jddh96ln65kf1gji7rg28lr1kh03p4py46vn6bm9xpd"))))
+            "0q4ic4gk5bx3h068m2591rxffh4hv34vflxv9chia9848vgid7bd"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-spell-fu")
@@ -107450,17 +107450,17 @@
 (define-public emacs-tide
   (package
     (name "emacs-tide")
-    (version "20210930.356")
+    (version "20220102.441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ananthakumaran/tide.git")
                (commit
-                 "28137ed904deb143dba8f8f67660966e11921c6d")))
+                 "4bd7f35d8aae160b16642aef3ca205adc71539a9")))
         (sha256
           (base32
-            "1ikvdxjr9kbs0l5hlann34q79r6gr3796rvi2ci2ki50kp69kfbw"))))
+            "0zrapfxdarakp3kwp73c2ymjx51fsnfk6azi2y1wb2kgsdxl2yim"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -114176,17 +114176,17 @@
 (define-public emacs-which-key
   (package
     (name "emacs-which-key")
-    (version "20211214.227")
+    (version "20220102.428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justbur/emacs-which-key.git")
                (commit
-                 "5f19ec67f58585ab0b8fa713905243ea0de190e0")))
+                 "3c0c7c24ef457c1de0ba6f20e2baab02f6c6beaf")))
         (sha256
           (base32
-            "1vixx1iph0vykkh9av5hwhr90jj59rl2y14acf5ivwnwx8m173qd"))))
+            "1p5dlhvplg8sa496bf6n3vl8h1pcfabka145jrfi7ry79z4mq2vl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/justbur/emacs-which-key")
