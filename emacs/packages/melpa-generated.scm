@@ -3440,17 +3440,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20211228.423")
+    (version "20220103.51")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/apheleia.git")
                (commit
-                 "cb8823dab77379fb67789dc920e0577b8a2594b6")))
+                 "e1dbc1b1c04eca33749d7e931c5bb17ea6f9379e")))
         (sha256
           (base32
-            "1kf7ymc46amn0i6gbj1nwy0klb4svs7cpmf98s0py007i5jb4n45"))))
+            "1ln5il9156lyhwyk4gqalq4jwzhi1iv014x71dhl0rgplz534b6i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -12995,17 +12995,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20211231.1719")
+    (version "20220103.110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "6e55248a1ff509fb2836bd04929966949e7cbc2f")))
+                 "8376fb53e31db8e3939b7f8a18be505c2fd52acd")))
         (sha256
           (base32
-            "0mhw2wkq987877jd39j1y3mhknn8k084llba30igwagqwfc1mm5w"))))
+            "0q3amvg5wz8wpkdp4xdi0z4flj9gzzjqnhhs9h1cnd5vvc9s5vbm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -13835,17 +13835,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220102.10")
+    (version "20220103.351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "ede779d779ccb41a9d0568956c4388489f1e640a")))
+                 "6eeaf46b869552b7cb70cab7d4590120c64cc175")))
         (sha256
           (base32
-            "0fclz73lk1sv8bgiy0xkgxr28ynhakxkrd8smka1kzgh5fl3r84l"))))
+            "0aar8czx688rhm0l91xk9rx2kwjrvflldlsj2y9qj6m51adk6plh"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page "http://company-mode.github.io/")
@@ -20709,17 +20709,17 @@
 (define-public emacs-diminish
   (package
     (name "emacs-diminish")
-    (version "20191127.1326")
+    (version "20220103.723")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/myrjola/diminish.el.git")
                (commit
-                 "6ec6ebc391371418efc6c98d70b013f34af5a2ee")))
+                 "66b3902401059d161424b1b8d0abc3cb0a7d6df0")))
         (sha256
           (base32
-            "0q8pihj9fwq9w978ycmvzv8kq8ksrdf8zfadjy8i2iwc4ib0jg7y"))))
+            "1vdm60jas17rdp32gmalasjkgqmhy8md7n09r2c1bfcjp5bw1xgs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/myrjola/diminish.el")
@@ -21814,17 +21814,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220102.1135")
+    (version "20220102.1136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "8234d3dd59ba3f6f629f18090ce2d308a2bb1d7e")))
+                 "de9464452a238f8740470291399a11e9ffd48b1c")))
         (sha256
           (base32
-            "0svlv396w67b9pp4fgmwf5g2g4pgad9nlgnr54gmz6fmv0pbx6zd"))))
+            "15rjnq7sv28gz1g2jih6q8vydvsvmmc02n3m44rayaf70prc07h1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alexluigit/dirvish")
@@ -25823,17 +25823,17 @@
 (define-public emacs-el-patch
   (package
     (name "emacs-el-patch")
-    (version "20211228.434")
+    (version "20220103.142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/el-patch.git")
                (commit
-                 "4a4e040fcede0c320e860571d5e96100cac05bb5")))
+                 "b9dbf15df1e6dff46c96ec5c0259e663997fd9c0")))
         (sha256
           (base32
-            "1f7dqv8ikfm869zv8dzfvbmm8v2c1szr6j2rk3w5br78bvw6wrvr"))))
+            "18n9i5fbj8nmdxqh3k1i41cqh8zis7y94l8l793qa4ralzparfmh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/el-patch")
@@ -28149,17 +28149,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20211231.1526")
+    (version "20220103.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "6572462f6c9ffbf720f53def86462e95de887610")))
+                 "cb440491b31ce25bd9ad388a455b19a697129538")))
         (sha256
           (base32
-            "1pxy3qpcpdgx497x082n8myg7ynv944g7g7xrvhghfsj6b429mjq"))))
+            "1rqnh8qyna4wi3wsb7bvbyx71yyjxr1vrmsf9mbw5w9pp2yfqmwx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -34814,7 +34814,7 @@
 (define-public emacs-filldent
   (package
     (name "emacs-filldent")
-    (version "20211229.341")
+    (version "20220103.10")
     (source
       (origin
         (method git-fetch)
@@ -64638,17 +64638,17 @@
 (define-public emacs-literate-elisp
   (package
     (name "emacs-literate-elisp")
-    (version "20211004.212")
+    (version "20220103.717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jingtaozf/literate-elisp.git")
                (commit
-                 "d1eb390e01407a0b17bbed51f2928afdc26cc488")))
+                 "399f3cbaac0d81f9b44ed048b9e6698c39c69c3d")))
         (sha256
           (base32
-            "0ixwdw6d8hxrmi86wka4sy8i3sscgzcddihkbyf70niclrllspra"))))
+            "0279jsgmc74f1dk8qm94pkq08327fyq8arzk8x6qj1blb7xkzgp1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jingtaozf/literate-elisp")
@@ -66271,17 +66271,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220102.1934")
+    (version "20220103.721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "de4796cf0eaf46dba2e7c87ae17b9fc0a31b1b2c")))
+                 "e5d464537286b494334bab1056f8699a650d9d1f")))
         (sha256
           (base32
-            "0sxfiv3ays6s4hcmaz2dy8n0h13a9l55ad20lklh66kl2mr12flm"))))
+            "0sq90gi73n9vvbzfmrd30q1k1zvmsmcw41frddk2wgf4hmb487bv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -85540,17 +85540,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220102.630")
+    (version "20220103.308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "33376cb16a8553a78ff5feedb192fa8dfad23ab0")))
+                 "ed1d4fc4b02eaf40fbaa7a1a8a2c59eff2a8555d")))
         (sha256
           (base32
-            "1yh793bph78f8glqx0s2dpafm7vcag9kl4z51535pv8lv4m3p27w"))))
+            "1m806qgr8hpcw7lj6jf8wwa87f5wnqy5wzx4m9g1japaj1va5f54"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -91334,17 +91334,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220102.1103")
+    (version "20220103.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "ded2d37c9b63a0c8e8ac75769872c0e5628f030d")))
+                 "19a18b414bc60e5f58f4d800b0d6994164df4baf")))
         (sha256
           (base32
-            "09p1y838wzzwq380jldjk59pk7v1rv0fy1xqll8zxcabgr5fraca"))))
+            "0swkwsxfybifpqi0r3nf70hzzqb7b50sw857nk2z2phmqhx9a30b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -115409,17 +115409,17 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20220101.1511")
+    (version "20220103.744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashinin/workgroups2.git")
                (commit
-                 "2601c3578a3ca34847626d0ac4b391f19cea62d6")))
+                 "fdb9ad678f0c6e99a0c040183cfdd2dcd2f389f5")))
         (sha256
           (base32
-            "09clwpkxci5llimizk32gkml023xj3wabxhh4znz2lsapkz34yrs"))))
+            "1b2bw1479akwg5insgnbvnrpl2f4hv1m4kx1489r84g1hszbzsr0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
