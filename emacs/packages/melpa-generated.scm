@@ -3910,6 +3910,30 @@
       "Documentation at https://melpa.org/#/arview")
     (license #f)))
 
+(define-public emacs-arxiv-mode
+  (package
+    (name "emacs-arxiv-mode")
+    (version "20211231.100")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/fizban007/arxiv-mode.git")
+               (commit
+                 "74105e665758bad77bd67c00435dbee95c83d791")))
+        (sha256
+          (base32
+            "1d9aw5x2ypx6d5dyjrnmlrfdj0k5a6z6nqvrllb1n38a8gsr47ym"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-hydra))
+    (home-page
+      "https://github.com/fizban007/arxiv-mode")
+    (synopsis
+      "Read and search for articles on arXiv.org")
+    (description
+      "Documentation at https://melpa.org/#/arxiv-mode")
+    (license #f)))
+
 (define-public emacs-ascii-table
   (package
     (name "emacs-ascii-table")
@@ -11268,17 +11292,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20211206.928")
+    (version "20220102.2041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "7ca6413907ac57e09010265257c48b5500fe09f8")))
+                 "5d5b423c597ac7f8b484a19943f480d3c04e2e39")))
         (sha256
           (base32
-            "06lsaw2z7q131dfgfcmm0dgiimjd6psxlk1biyzrahgs992gm7d2"))))
+            "0h8fpgrkf0m52przngvp7p7v8s2515sr5anyzl6kp1nvzjf890wb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -34787,6 +34811,28 @@
       "Documentation at https://melpa.org/#/fillcode")
     (license #f)))
 
+(define-public emacs-filldent
+  (package
+    (name "emacs-filldent")
+    (version "20211229.341")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/duckwork/filldent.el.git")
+               (commit
+                 "0b9aa02c2519d9ba9df168fd5b15a0d59f286507")))
+        (sha256
+          (base32
+            "00km757cdjj1kfzfwwik7lg2bj7q3zvxvah95akfm068j3wvhgb4"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/duckwork/filldent.el")
+    (synopsis "Fill or indent")
+    (description
+      "Documentation at https://melpa.org/#/filldent")
+    (license #f)))
+
 (define-public emacs-finalize
   (package
     (name "emacs-finalize")
@@ -44110,17 +44156,17 @@
 (define-public emacs-gnuplot
   (package
     (name "emacs-gnuplot")
-    (version "20211229.1333")
+    (version "20220102.1637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/gnuplot.git")
                (commit
-                 "e74ca19d8b10f844f80aac4caf55e7da3035af22")))
+                 "d1a6a606dcb389a7c91a6b0d9fb995434df561be")))
         (sha256
           (base32
-            "1vpb6rx0pd6hj6sbz9c8rs5n2hyghc2qmi15r09pfz2faa7pq54w"))))
+            "1p1nbgr4ffpp7plllsimshjr9ykcz27afz6fq1xqpnbslryi0bag"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -48249,17 +48295,17 @@
 (define-public emacs-helm-cider
   (package
     (name "emacs-helm-cider")
-    (version "20180307.458")
+    (version "20220102.1626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/helm-cider.git")
                (commit
-                 "9363cc537f06233345aa3af5cd46aa5681ad607b")))
+                 "00809e45de919c82753f332f29358f0ddbf21936")))
         (sha256
           (base32
-            "0vfn4smqba1vsshz48ggkj8gs94la0sxb1sq4shrb41qj2x3dci7"))))
+            "0jjjy68pmmsx0biawyi5581cqh2b4zb0q8f5vs49ihpzn6zc04vk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-cider emacs-helm-core))
@@ -55826,17 +55872,17 @@
 (define-public emacs-impostman
   (package
     (name "emacs-impostman")
-    (version "20211212.851")
+    (version "20220102.1856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flashcode/impostman.git")
                (commit
-                 "083a2c1708af80779d23b562260cdf8246efa569")))
+                 "5b122f3d5a3421aa2d89bdc9dc4aafaf19cf85d4")))
         (sha256
           (base32
-            "18pz6rnfip3v4yqaffbqhw6ib1yn0rwjxlykp73w0zychcxxsxry"))))
+            "095g54cxicd5ysxpw2zaw4i92yxmr3inwacbla34aa0l62lqy5ig"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/flashcode/impostman")
@@ -63524,17 +63570,17 @@
 (define-public emacs-lfe-mode
   (package
     (name "emacs-lfe-mode")
-    (version "20210603.1241")
+    (version "20220102.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rvirding/lfe.git")
                (commit
-                 "3d2483d6a46552eaa832f8e6df5dc1162e58fc79")))
+                 "1db53e014de290ce70e6e3ee3443c94301d6df92")))
         (sha256
           (base32
-            "1vpif0g45xh16sqqsjh9hin61kzc2la79pmrxl3rmw2jvpg6pzym"))))
+            "0zb98pwmfn8nyl68k0xf9skdmaksd8d2jgf02vrs5h0b5q2fmbla"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -63849,7 +63895,7 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220102.1137")
+    (version "20220102.1539")
     (source
       (origin
         (method git-fetch)
@@ -65531,17 +65577,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220101.1530")
+    (version "20220102.1814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "f01b05389dc2b5ce9d9f552bac8c83be1229ef3a")))
+                 "813d3c92db02596a8e8aa7802977c50ec1262f9d")))
         (sha256
           (base32
-            "1xmq6czdkyhfyfkdqb8iw4zbhp8rz5zk6pfqg2gh7z8k4pxw1gi0"))))
+            "1l0208bys0zq9qgnih27aldi5v3rp5bj8i9nar24hgfm42ld75gz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -65895,17 +65941,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220102.1407")
+    (version "20220102.1756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ba4d4a51ec377d9fd895d63b27da96b67039d97b")))
+                 "3d6a01dde958db77a4597bf52e079f5b96469527")))
         (sha256
           (base32
-            "189m96l444m23r428b7kiryylndlvvrl6sf6fliwfrcmsfclxx07"))))
+            "1g4yzshh33r390cmpm1d984sfpznnwy3ckb4swgv12jaqm0cmw6q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -66196,17 +66242,17 @@
 (define-public emacs-lsp-treemacs
   (package
     (name "emacs-lsp-treemacs")
-    (version "20211129.955")
+    (version "20220102.1517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-treemacs.git")
                (commit
-                 "c40a381730251039d33400cc14539c1e0729385f")))
+                 "72d367757a89453a712f6ba1df9b6e789ece2bbd")))
         (sha256
           (base32
-            "1nx5ffgy3yzyynz3ll82flxwci4zrmg608iyk8bqzgfpmdlb4ass"))))
+            "0jy4zq1b5l6m2nd2zz99m0fy88w570d4n8v84lrkkzllc1n488lk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -66225,17 +66271,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20211229.1307")
+    (version "20220102.1934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "39043fe44cd82df2bc67deb07ad3224c651ea7b2")))
+                 "de4796cf0eaf46dba2e7c87ae17b9fc0a31b1b2c")))
         (sha256
           (base32
-            "0sq90gi73n9vvbzfmrd30q1k1zvmsmcw41frddk2wgf4hmb487bv"))))
+            "0sxfiv3ays6s4hcmaz2dy8n0h13a9l55ad20lklh66kl2mr12flm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -66753,17 +66799,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220102.958")
+    (version "20220102.1825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "a6ab38b7017d14aa62d0d2b95b7a8a4668781ab0")))
+                 "2e73b66c2980abb9211d9881a8710c8ac5a33184")))
         (sha256
           (base32
-            "0d2rb2gffkis27lcykqv3ycds2g3sadhh8hk3m9a0dn2ll9qpy6y"))))
+            "0vi8ghgc2dda1il74kxzskmxdaxm3j9ynhpk17hj3kkw6lh2g9p4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68535,6 +68581,29 @@
     (synopsis "Major mode for MATLAB(R) dot-m files")
     (description
       "Documentation at https://melpa.org/#/matlab-mode")
+    (license #f)))
+
+(define-public emacs-matrix-theme
+  (package
+    (name "emacs-matrix-theme")
+    (version "20211231.2245")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/monkeyjunglejuice/matrix-emacs-theme.git")
+               (commit
+                 "15f7b6e585f9a6cf737bc11ad5c36df58b79ceca")))
+        (sha256
+          (base32
+            "0mhdbv42l0b6n59zcdmy8yadcd2k69mj8fgdzgfpq4jhwvz59jwv"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/monkeyjunglejuice/matrix-theme-emacs")
+    (synopsis
+      "Green-on-black dark theme inspired by \"The Matrix\" movie")
+    (description
+      "Documentation at https://melpa.org/#/matrix-theme")
     (license #f)))
 
 (define-public emacs-maude-mode
@@ -70692,17 +70761,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220101.1509")
+    (version "20220102.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "58ceaa80c685a24bd712bf975d9f1c112eb39c13")))
+                 "c25c8dcc779476e8695d7f02055c9fb433d3fb08")))
         (sha256
           (base32
-            "1pyichdm2mhfv68dxbwa6v6jy0p35cwf6z50qkrn79pwmhcn62fl"))))
+            "1qp3ns1vljavyx4qg46m5gcji6kpdzclnhhyhs9z00s27i1b4d3x"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -85946,6 +86015,31 @@
       "Documentation at https://melpa.org/#/perspective")
     (license #f)))
 
+(define-public emacs-perspective-exwm
+  (package
+    (name "emacs-perspective-exwm")
+    (version "20211225.1411")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/SqrtMinusOne/perspective-exwm.el.git")
+               (commit
+                 "26179187bb7401cd59d5d593a5bdbf0a1b6beb05")))
+        (sha256
+          (base32
+            "0nkr7m3rgapr6c9ghnym75anbh7x52m0h06msmd6r2s5lgvjy154"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-burly emacs-exwm emacs-perspective))
+    (home-page
+      "https://github.com/SqrtMinusOne/perspective-exwm.el")
+    (synopsis
+      "Better integration for perspective.el and EXWM")
+    (description
+      "Documentation at https://melpa.org/#/perspective-exwm")
+    (license #f)))
+
 (define-public emacs-perspeen
   (package
     (name "emacs-perspeen")
@@ -98753,17 +98847,17 @@
 (define-public emacs-shell-here
   (package
     (name "emacs-shell-here")
-    (version "20210616.2338")
+    (version "20220102.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ieure/shell-here.git")
                (commit
-                 "a3679c52d31d1dc6ed29bcab087cb5455a992eda")))
+                 "eeb437ff26d62a5009046b1b3b4503b768e3131a")))
         (sha256
           (base32
-            "0w0mlggb5gnvm109qn50ric3lb9znxvfkzvc7xla2qnmaz037ppz"))))
+            "0x8lnybxj7k6wj941lgqmm57f3qqnmb0gc7573l1fxwfhf39fl20"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
