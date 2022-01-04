@@ -3440,17 +3440,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220103.51")
+    (version "20220104.412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/apheleia.git")
                (commit
-                 "e1dbc1b1c04eca33749d7e931c5bb17ea6f9379e")))
+                 "54844c3988c88535186d0b89e7d44fdfbbcc63ae")))
         (sha256
           (base32
-            "1ln5il9156lyhwyk4gqalq4jwzhi1iv014x71dhl0rgplz534b6i"))))
+            "0g6v3d5ivbrc88dsxjaj30fq63rzix1h437pafhd5wcyc88kk366"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -16542,17 +16542,17 @@
 (define-public emacs-counsel-at-point
   (package
     (name "emacs-counsel-at-point")
-    (version "20211231.139")
+    (version "20220104.645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-counsel-at-point.git")
                (commit
-                 "7f1a2fdc2a158c8995882ada70c578fc2a361fb0")))
+                 "942cf8e5475c10c80b69f6ac38feecf4137fba6b")))
         (sha256
           (base32
-            "1nfrk8v8ya6ki5qgbg9l6id4j1xmz37a4qbsmvx8pskq494lr75j"))))
+            "0fqwjccvmi2p4bsk2qh78dzqmbl5kl49cf9b51jxnaciv4shim8k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -19723,17 +19723,17 @@
 (define-public emacs-default-font-presets
   (package
     (name "emacs-default-font-presets")
-    (version "20211104.52")
+    (version "20220104.215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-default-font-presets.git")
                (commit
-                 "dbb6c6c5350ba76b12bd69a584b0634a8262a76f")))
+                 "6b6fe704ea233c65e50263dc0ff584409065e42f")))
         (sha256
           (base32
-            "1yjc4g50r0jghf5a0qipfzys6krgz5vqizm3hlq4lh29hvkazc6i"))))
+            "0ly7k6rkvhw1pwgmmn4cpgbizw2f2ry1swlaq0zf2k6ln7pyl96z"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-default-font-presets")
@@ -22584,17 +22584,17 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20211222.1142")
+    (version "20220104.216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-doc-show-inline.git")
                (commit
-                 "daa99f0773937870e9405a117760566bda419546")))
+                 "6bfea44e0b54c80255d34d15130940a09814e2a3")))
         (sha256
           (base32
-            "1cl0nzg7i3hazd9p2ncril728zr23r8abvyc1f0czbw14d2bm4cy"))))
+            "0rkshqiy9msnsif9fxi484by76fl8zjyzijgxphqlv2h2bb3pbgd"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-doc-show-inline")
@@ -23068,17 +23068,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20211221.1836")
+    (version "20220104.233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "2d7bf3daa50a4e0a612faed43cd8cd4af33b9e19")))
+                 "8644ac46de4318e92501e3e577cde74738ab8622")))
         (sha256
           (base32
-            "01cm9x2p8wsrj0kgqacmfhjf760n518gbv7vmwfqx9x1pmnjx0pa"))))
+            "0a5a01iigs4vl8ai9wwivaqndmcqnmpz85a05w99k274khr1bwwk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -32939,17 +32939,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211226.1648")
+    (version "20211231.1623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "6d8e495169d4e6bb98b3cd1a1a0a06cc806c5e59")))
+                 "3f286fac3c74016a4e3dfa1d146415ca7914a3ab")))
         (sha256
           (base32
-            "1yb46bh5i1yifqfa2d1lbvkcnjigag3qi3v8b5fzk1r537b5dg6d"))))
+            "1a2kzd7z9ldag83dfh54fnp3x4gy0zi5ajs5rci5ah8qm72pma2p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -32957,7 +32957,7 @@
             emacs-evil
             emacs-avy
             emacs-s))
-    (arguments '(#:files ("evil-tree-edit.el")))
+    (arguments '(#:files ("evil-tree-edit*.el")))
     (home-page
       "https://github.com/ethan-leba/tree-edit")
     (synopsis
@@ -64738,17 +64738,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20211231.331")
+    (version "20220104.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "dc5bc80b81a570d384be990d7997bd6452c25f2e")))
+                 "a5f1953904ae6ad7d347f15975d905b7f74ef16a")))
         (sha256
           (base32
-            "1hizb2c4974q42049iyxkd3has5sl1n33vyfhhgqq27n2bbhj3n0"))))
+            "0kaf7gki5m351gipa92kqbp3jf74c2vjj7nm57vkq4gkxr4wmfi1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -70761,17 +70761,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220102.1654")
+    (version "20220104.723")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "c25c8dcc779476e8695d7f02055c9fb433d3fb08")))
+                 "fe5e1f7a16bae0df0cc305dcb3e5be32cf10f0b5")))
         (sha256
           (base32
-            "1qp3ns1vljavyx4qg46m5gcji6kpdzclnhhyhs9z00s27i1b4d3x"))))
+            "04gd1wl8q9b2xa1mb1l8z13xm2sza42qabp8fx8gfpg6j21z605h"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80613,17 +80613,17 @@
 (define-public emacs-org-roam-bibtex
   (package
     (name "emacs-org-roam-bibtex")
-    (version "20211217.1921")
+    (version "20220104.158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-bibtex.git")
                (commit
-                 "cf811abf273ad28d32caad3a93318f92da034556")))
+                 "65f280ff47d6f39e241da1e8572975de4c8688b1")))
         (sha256
           (base32
-            "1919m828sz8f7q4caplncda60m0fh2z4c1qjzwi0fs9g0zdpdiwn"))))
+            "1bdfrvg14ddx4zsnki6bqlvrnpjjp8axvk5vwl9d41m4lj94bq5p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -83071,17 +83071,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220103.2033")
+    (version "20220104.703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "b8f742c1d5c2903d1ff38c25a0ad7841491be9c7")))
+                 "87024bdf7199869120788522cea08fa77635afcf")))
         (sha256
           (base32
-            "0p4cvpyy6r756vxbds1wgqcbflh7xjd34lpjpxgzpjcmyq0mryiy"))))
+            "1y17qp5iz7dwyk7jb6ayhi17rs9wny0lzcv4h643chcla37n1ri8"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -83755,17 +83755,17 @@
 (define-public emacs-ox-yaow
   (package
     (name "emacs-ox-yaow")
-    (version "20210815.1957")
+    (version "20220103.2307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/ox-yaow.el.git")
                (commit
-                 "e20e52ef2968323d26a2e6cd0843c9b36195a1ff")))
+                 "378eb55e39cbc06ead0f0c399351612dca22d716")))
         (sha256
           (base32
-            "0q5k38raqq7ms4wdxqwxhc0pga31wn3v35dc0cv8dr687i9ck0s5"))))
+            "1vls5mhy2crn8zq6j627ywav85v7y782j6azb6bh326hasxhwikl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-s emacs-dash))
@@ -99628,17 +99628,17 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20211006.1413")
+    (version "20220104.217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-sidecar-locals.git")
                (commit
-                 "ee6b399ebda994b9ea6db095947386e3b7f063f7")))
+                 "c90ccd6a02538c7263f6499ca7bd4456ec06791e")))
         (sha256
           (base32
-            "0avinj829gm7hbxljk8kys2abywrzw5w3li2kp0dwbda1gf8832c"))))
+            "02nnvf4c78grdzcd62611qvlq93vspd09ffk4jvc047l2jb8nw6l"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-sidecar-locals")
@@ -102801,17 +102801,17 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220102.125")
+    (version "20220104.646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-spell-fu.git")
                (commit
-                 "e7cfe54d4ee5f506cc010ae4d4a9111d2a65c21c")))
+                 "4782667d7b6b97658f7649598e47aa6cf4d1bd80")))
         (sha256
           (base32
-            "0q4ic4gk5bx3h068m2591rxffh4hv34vflxv9chia9848vgid7bd"))))
+            "1bjp4sa935m6gam6rq6nkx26883r0iv1040f2dsxd15pqlrg87qw"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-spell-fu")
@@ -106422,17 +106422,17 @@
 (define-public emacs-telephone-line
   (package
     (name "emacs-telephone-line")
-    (version "20210724.1411")
+    (version "20220104.507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dbordak/telephone-line.git")
                (commit
-                 "ff5fcb2181cf1d52bfc5fb8d76ac37f9cad22ce2")))
+                 "ff526441a23ac1f1775628e0e20c61cdbf6cabf9")))
         (sha256
           (base32
-            "15l5w4avs3y6mj22k6c1vfvk7az69wiws0yym4vyqmfpdpsmwab2"))))
+            "0vr9ada1f9afinaknzix09mlnymb6qi4cy1dix8g1703z50xn1z7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dbordak/telephone-line")
@@ -108952,17 +108952,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20211226.1648")
+    (version "20220104.129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "6d8e495169d4e6bb98b3cd1a1a0a06cc806c5e59")))
+                 "3f286fac3c74016a4e3dfa1d146415ca7914a3ab")))
         (sha256
           (base32
-            "1yb46bh5i1yifqfa2d1lbvkcnjigag3qi3v8b5fzk1r537b5dg6d"))))
+            "1a2kzd7z9ldag83dfh54fnp3x4gy0zi5ajs5rci5ah8qm72pma2p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
@@ -108973,7 +108973,7 @@
             emacs-s))
     (arguments
       '(#:files
-        (:defaults (:exclude "evil-tree-edit.el"))))
+        (:defaults (:exclude "evil-tree-edit*.el"))))
     (home-page
       "https://github.com/ethan-leba/tree-edit")
     (synopsis
@@ -110404,17 +110404,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20211217.351")
+    (version "20220104.222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "cbe37c664389e2ef8c580dd800ca76b0139f09c5")))
+                 "5fd4280bce0097fa67ca22c9b25434803bf3ba71")))
         (sha256
           (base32
-            "01nsc9b5yiwy5r5zdkwidk22lvxhwahxq741r1rj0f2q7zf44yb9"))))
+            "19rfchy6r55cy4xc8nqd5f2gvkg623l795nl7391psmzcshgqhp1"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
@@ -111400,17 +111400,17 @@
 (define-public emacs-v-mode
   (package
     (name "emacs-v-mode")
-    (version "20211015.309")
+    (version "20220104.142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/damon-kwok/v-mode.git")
                (commit
-                 "a5f39031a3391d0044c716425eb28645af51c79c")))
+                 "a701f4cedfff91cf4bcd17c9a2cd16a49f942743")))
         (sha256
           (base32
-            "1cxnwhwlrngba2wdll6vnr6ca08dkhsjrswj3bwilgb0m5bih7qi"))))
+            "19053f8cp6vcmslfbxickvdfzphafi1mpdj9l4lab8m94xi7nfky"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-hydra))
     (arguments '(#:files (:defaults "etc")))
@@ -112855,17 +112855,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20220101.1028")
+    (version "20220104.621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "78c10dc6c174e9be29b3f2ee8d271e15cc71d025")))
+                 "43688534bfbb812c1708983a0dad6787a5d9aea7")))
         (sha256
           (base32
-            "1px2lcbyb4g92gms0hv7860imf72hy18m51wdwla29nv4ymh1cqj"))))
+            "05rk4wsmhgyidcykjhxwws7xflcs7lf38iymabhs837bjpik4cvk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
