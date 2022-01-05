@@ -3440,17 +3440,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220105.21")
+    (version "20220105.507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/apheleia.git")
                (commit
-                 "cbffa9298cec8f787eefd0d4bc86c943f7b5272b")))
+                 "41fa1f70ee01cd2ab3ab90f6fe4c4fc0819c2f96")))
         (sha256
           (base32
-            "0y9j4rp5jz9jxgmakjf0g0qvajgj9ihyicbg145hiywsd2ickh3x"))))
+            "1646hk36lvf8qiw0b51akx8ws823qxhpk3m5zi49kwxgrx1mwil2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -4599,17 +4599,17 @@
 (define-public emacs-auto-complete
   (package
     (name "emacs-auto-complete")
-    (version "20220104.719")
+    (version "20220105.439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/auto-complete/auto-complete.git")
                (commit
-                 "66eff71e75cffa0ec25adb4986fe496b0c177884")))
+                 "57cb8f2ee32dff17ea1b4431fe5920272aa38d72")))
         (sha256
           (base32
-            "1zg1545xcz3c28yq28vgin7yynkxlcx5lsc3hbyzh5whi7mdzv0d"))))
+            "185q90ibw17dh2nwdljapdw2747hzv32n4hkjfcfsgw5asy58r8z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-popup))
     (arguments '(#:files ("*.el" "dict")))
@@ -11442,17 +11442,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220104.1000")
+    (version "20220105.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "81cb595c03131525618834a175b2c13637e661e2")))
+                 "318fe6878d8bedf5db9dfa649dedb45d72b2e7ee")))
         (sha256
           (base32
-            "152j4wrir83hsn1j5p66z33qfyqzr02wn75xh0yy2jfig0vmir2i"))))
+            "0dq7k8x2sspg2r2275wj9sygscavvs0cy3pbl4d7r3hxy1i8r49n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -11726,17 +11726,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20211230.2146")
+    (version "20220104.2300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "1e5b28833a0157e7d4d9bd7510548c1e2add05ea")))
+                 "0e23cfb700cc14cced4533667cc45259e3bdf251")))
         (sha256
           (base32
-            "1xk2kyak2x4dmdqm0dixc4269m8cvs98zkgnkpj3ra8ksn7mi04w"))))
+            "0df3rkyb6mcrd1f84r7p1lnwhjdbshy0nh55szz5i35iv1fay5vg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -25823,17 +25823,17 @@
 (define-public emacs-el-patch
   (package
     (name "emacs-el-patch")
-    (version "20220103.142")
+    (version "20220105.443")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/el-patch.git")
                (commit
-                 "b9dbf15df1e6dff46c96ec5c0259e663997fd9c0")))
+                 "f2739ec466ed438dad9c7bed46f4eff9aa379c5a")))
         (sha256
           (base32
-            "18n9i5fbj8nmdxqh3k1i41cqh8zis7y94l8l793qa4ralzparfmh"))))
+            "00wyhpjzz945hdjxh1p12bdxczmm1lzja528xxzxz4x5p2b2czp6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/el-patch")
@@ -41847,17 +41847,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20211222.245")
+    (version "20220105.326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "1803cbde00abd3af47f0bc8630e53d24c704e8be")))
+                 "a2634fa2be4bce5042aaa14b33fc5246f78922d7")))
         (sha256
           (base32
-            "0l225vb3fd669h3w3kca0s7j2y9sz8phmrdfw7wl9yv4bbc122qb"))))
+            "1fzx3w2ddr330vs7qs4cd7f679778mqrpc9x0i4hg0ibxnpn8jrn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -62005,17 +62005,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20211129.2118")
+    (version "20220104.2320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "f75a78f785ef1782a32f4464a89fd4c33bf368ca")))
+                 "68d2925c7942039e3fb3eb6c113adec5369c6c72")))
         (sha256
           (base32
-            "0as26hsvkkjzls68wf6f1wwcrpnhj31g13cykclgq3jdwcah6xsp"))))
+            "173ympabfa14rc6y4f3rjxapj7py0dsnzp8zg7q2gkyxv1iwhh55"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -78941,17 +78941,17 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20211007.1843")
+    (version "20220105.400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "8b6df4b727339e3933c68045e104b6b1d99816f7")))
+                 "ad4261ac34f6270a9ddd61c3a0471d582c462365")))
         (sha256
           (base32
-            "0gkdh32cfmqbmvvqd67i2x9i1fm5yfmhw6i5yvrb9swsl24kv194"))))
+            "0df3kgkxhkyb729mnjagh0cjy03014bx8rff8115nxlb7vxhl8rg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request
@@ -83069,17 +83069,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220104.2103")
+    (version "20220105.636")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "3f4141242620e2b3a6e5301a14d1cb1fea4acc9c")))
+                 "de5dfdfdcdc3ec50cb27d1f6cf7314a5c9aa1385")))
         (sha256
           (base32
-            "1ldc14835pv0h071zmlnyh27r7iyc7f6qacyb1kbrrnzfp5lwz1s"))))
+            "12al83mh2kq0yyxwbw20qf40lck8f4dqhq02ngwsfcwh9jl9fb03"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -108195,17 +108195,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220103.1319")
+    (version "20220105.352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "506f2c5aea10815ccb985f72bc6fc11ebb06a7ea")))
+                 "0963d71f56310cb43533645d860ad7751e339346")))
         (sha256
           (base32
-            "0d0yzd5pf0flisaih7fwqrjvfab92gm0090xdyyx2iwll84kxk0w"))))
+            "1rynp9w5iqgprvnpd7b52kpwjbfdd0w6mvr3mzia8g56a090r783"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
