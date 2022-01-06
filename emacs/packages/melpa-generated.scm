@@ -5418,17 +5418,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20180920.923")
+    (version "20220106.416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "8ec0c27a73b2d0a335eda63fde695a101e2956b2")))
+                 "36f1f4f0c71d546b0b19d1d359832ec91d02532d")))
         (sha256
           (base32
-            "1m2r5fg5r4gqhim5l1g5937ngkc2hvidb5kr8r4pffcg8xv8djgn"))))
+            "1syp5qnwcpapxl5b3m1dmcx698043d1mkmgm32dmlin2sklyavp2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -64738,17 +64738,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20220104.613")
+    (version "20220106.340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "a5f1953904ae6ad7d347f15975d905b7f74ef16a")))
+                 "02e23fdb2cca5a00fed291b41be2c2b1110cf19d")))
         (sha256
           (base32
-            "0kaf7gki5m351gipa92kqbp3jf74c2vjj7nm57vkq4gkxr4wmfi1"))))
+            "0w0ypg9rxjy245b48kiadl6aa3m71mckmm6ggss8h8qk8c09m0wk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -66799,17 +66799,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220105.1154")
+    (version "20220106.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "386843483b262ad57b24aec3167035b01acb4bf1")))
+                 "22046b51136593d9fc607f0bb885832cc9719555")))
         (sha256
           (base32
-            "05baplc9415q94p8fhjf4awmxai5jvhxjdq6q7w0y2m5n9hgj371"))))
+            "135rb529jbxkbpd2iv0xgz9cwwlf3vikgzsq3byma7gc9v39rfcl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70761,17 +70761,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220105.1312")
+    (version "20220106.629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "d40952c8f4a72e66cf9de1f0ee5c0ea17d7b52fe")))
+                 "38236a925ef34f8e8c51babee587b594e77dffbe")))
         (sha256
           (base32
-            "05p45dzm2f3skzr2g82lyjz9yckbj94zxrb0lg1n41ahf6q4c39i"))))
+            "0fh9nw7gz3bqpk6r1v6rggajhqaymk6hyww7i3hfb34g74qhyq3i"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -72127,17 +72127,17 @@
 (define-public emacs-multi-line
   (package
     (name "emacs-multi-line")
-    (version "20170822.226")
+    (version "20220106.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/IvanMalison/multi-line.git")
                (commit
-                 "d5ae863ced0adeb7032ada398005f27a6c669d79")))
+                 "7c5fbaea5216949820ba8a8d5969d87f36d7d41d")))
         (sha256
           (base32
-            "0hj2afqw36pxc091k4w4rk110y076lghnap51x3w53k9xfcfwhwa"))))
+            "1zk3w0z2k3ifv2i1rd9y4a8bf51igl5s07l2db9p6bbxpi3h6lvl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-shut-up))
@@ -80429,17 +80429,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220104.2233")
+    (version "20220106.132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "48d44afc43f10b0ad7baf8cced86a397c6eefd9c")))
+                 "9fdff2293e16f75c720ff76a98dac50c623f9565")))
         (sha256
           (base32
-            "00lidylhdhbkl7adbhl7sq5p84sw3qcbr5z1p3ps6w2zd3b1fg6b"))))
+            "0ib4fhbcz2qm9av1i4aggfw0va38bsx061b7w94ack4ac0n9xrws"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -91669,17 +91669,17 @@
 (define-public emacs-python-cell
   (package
     (name "emacs-python-cell")
-    (version "20220104.2118")
+    (version "20220105.2315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/python-cell.el.git")
                (commit
-                 "a00106dcc79b44243c07c95a82c15b01403d53c9")))
+                 "9a111dcee0cbb5922662bfecb37b6983b740950a")))
         (sha256
           (base32
-            "12vi8ybb3nbm0vj9ryspbryqp217fyr7wlr3vzix8yp5dlyfjb1d"))))
+            "17izy7sd7v2144yhshv0nymqx6bkrc1grb60imz5ipqhm6b6yf92"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thisch/python-cell.el")
@@ -98012,17 +98012,17 @@
 (define-public emacs-selectrum
   (package
     (name "emacs-selectrum")
-    (version "20210707.1827")
+    (version "20220106.158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/selectrum.git")
                (commit
-                 "97693d0aea2c548197e9d1de3bdedf8e703775a4")))
+                 "0213699f004e064c093891fb52b4704ce558f79d")))
         (sha256
           (base32
-            "0d03sw0w2yhhmnpdn7xc0sm2n3lk11ffhkbz59kzdkcqqi7ppv04"))))
+            "1x5hk35n2lc83a1adv37qahrbwcrr0lh61fnhgshjlm13317k3q4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/selectrum")
@@ -115407,17 +115407,17 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20220103.744")
+    (version "20220106.249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashinin/workgroups2.git")
                (commit
-                 "fdb9ad678f0c6e99a0c040183cfdd2dcd2f389f5")))
+                 "d2e1f33001f1777767a7c6e862d5e6a37e688f42")))
         (sha256
           (base32
-            "1b2bw1479akwg5insgnbvnrpl2f4hv1m4kx1489r84g1hszbzsr0"))))
+            "03lbfbi05g03w1cnys6smaf0yxm6168ckmdbcvkxy0k519ngzyd1"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -116889,17 +116889,17 @@
 (define-public emacs-yasnippet-lean
   (package
     (name "emacs-yasnippet-lean")
-    (version "20200526.326")
+    (version "20220105.2251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leanprover-community/yasnippet-lean.git")
                (commit
-                 "e0933f55d59da5425d0604bdcdbbf3cb85967563")))
+                 "c75485757cc8675ad4f36c1eb028d9d54dc21733")))
         (sha256
           (base32
-            "0h64h47qdv3c20g9hlys2xb4w2jby7pdfhaza52y48wayz6vhpnx"))))
+            "0lki128rgk5nshpqkz2mndwvzl4a62nammy0xrm4m84ya4vb9mwi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (arguments
