@@ -3440,17 +3440,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220105.507")
+    (version "20220105.2335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/apheleia.git")
                (commit
-                 "41fa1f70ee01cd2ab3ab90f6fe4c4fc0819c2f96")))
+                 "53f243b111b18f49d910d1501b5795a1ec045420")))
         (sha256
           (base32
-            "1646hk36lvf8qiw0b51akx8ws823qxhpk3m5zi49kwxgrx1mwil2"))))
+            "15r3xgyd3qi331k7p66kf10bjy8ixm0pdb6v4z6fhs29s2wzqb5j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -9898,17 +9898,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220104.1535")
+    (version "20220105.2127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "be2014538af37fdb3cf38b2129c06314644f745f")))
+                 "c6290431566e5e6f30518fc925183907820a1edf")))
         (sha256
           (base32
-            "07nva5dmxwpr4q2z7pzf1fdgm2f19dm6l3dsnr8vq4vs2sljjvx5"))))
+            "1y20il2y06phkdhzbq6y50fqvxx1xcyl11dcjyh8v7ccj143d7ax"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11292,17 +11292,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220105.950")
+    (version "20220105.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "74cc00b1e53b7a4fac8de21e40edbf3e1089aec1")))
+                 "0d00ac6fe28cd8a8d56bc36178f3d110b33f23ab")))
         (sha256
           (base32
-            "1gaib9mw8dhshqh1p0d11vccq2bkc1wdk839nks2h33r73mrh3y5"))))
+            "1xz7kq53dpdx7a87sdxfn01r7hhmhzy5xjk35nhbwbnh6radq8nz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -12995,7 +12995,7 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20220105.1254")
+    (version "20220105.1550")
     (source
       (origin
         (method git-fetch)
@@ -30273,17 +30273,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20220104.1900")
+    (version "20220105.1802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "20d0682f392e7e50d9566eb78399950b122e4272")))
+                 "d145705a6138ab5ce7efb6a2519c6f2133790d3b")))
         (sha256
           (base32
-            "0h1vba7isqrg38788g0j3sybday46sxl5k152a0si5brdsf811qh"))))
+            "123ykrm8c24pl1ggrj29y5kawyiqj0lf0cqpra7azwgdikjs7lxx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page
@@ -32939,17 +32939,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20211231.1623")
+    (version "20220105.1638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "3f286fac3c74016a4e3dfa1d146415ca7914a3ab")))
+                 "4ef6bd9ffe5047beb00cf473d0ce80e657cceae2")))
         (sha256
           (base32
-            "1a2kzd7z9ldag83dfh54fnp3x4gy0zi5ajs5rci5ah8qm72pma2p"))))
+            "0n67ka9yyqc1mvz6646kixly1ixp7vhfydgy5wx00rjpp6yxf4ni"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -60392,17 +60392,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20211130.1647")
+    (version "20220105.1943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-jupyter.git")
                (commit
-                 "df343af5e9187a400a9291fa6a2b0c69f3ad0425")))
+                 "42a9765897ad36518b5371f558b36cdac3a0ec74")))
         (sha256
           (base32
-            "0sa8mi5gmb0n1ylgh1vz72nfgrjxny770l5z3xyxl0myw668vmcf"))))
+            "09nrw32bmkcafbr69csz94lykpmbib7f22xa4y165szrd3va8qk9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -80613,17 +80613,17 @@
 (define-public emacs-org-roam-bibtex
   (package
     (name "emacs-org-roam-bibtex")
-    (version "20220105.1403")
+    (version "20220105.2300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-bibtex.git")
                (commit
-                 "91b360b1059d6c5f876601af74adc8243adbc9f5")))
+                 "070a7a732cf38f51245116ddd41aad8ac697c3b0")))
         (sha256
           (base32
-            "00zclyh600865ys7pqiryp3k5li9h20bypvfp2bzqi3588hn9n4i"))))
+            "166n1q30xamms4lfqq9vp0yknq33gwlk54qaravxxwz01fdpgb25"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-bibtex-completion))
@@ -83069,17 +83069,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220105.636")
+    (version "20220105.1808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "de5dfdfdcdc3ec50cb27d1f6cf7314a5c9aa1385")))
+                 "7ffb0c4b84f384c56f84630f6b1b07c7ea3f76ee")))
         (sha256
           (base32
-            "12al83mh2kq0yyxwbw20qf40lck8f4dqhq02ngwsfcwh9jl9fb03"))))
+            "0cm7qjqxrlgp539q5bml39yjrhgh6j6ax937cflz96vdwmda0a2v"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -96523,17 +96523,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220103.1926")
+    (version "20220105.1905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "50a480d275e8dd156ca75fdcb81f398d60942ee0")))
+                 "d2bd5f7468aad555e197ba2aefa0db476b298af5")))
         (sha256
           (base32
-            "0l4vn7v6wfxdmxsa20ly15r0y5a7z6mrq774x1vaf7y7kvsk7df6"))))
+            "0rjqkfv6zrqd7k9qb3lfqn43ibza7xw4llcvj40x8q43bw7rybha"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -108950,17 +108950,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20220104.129")
+    (version "20220105.1657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "3f286fac3c74016a4e3dfa1d146415ca7914a3ab")))
+                 "4ef6bd9ffe5047beb00cf473d0ce80e657cceae2")))
         (sha256
           (base32
-            "1a2kzd7z9ldag83dfh54fnp3x4gy0zi5ajs5rci5ah8qm72pma2p"))))
+            "0n67ka9yyqc1mvz6646kixly1ixp7vhfydgy5wx00rjpp6yxf4ni"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
