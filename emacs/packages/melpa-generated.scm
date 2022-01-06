@@ -2014,17 +2014,17 @@
 (define-public emacs-alan-mode
   (package
     (name "emacs-alan-mode")
-    (version "20210916.1135")
+    (version "20220106.727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alan-platform/AlanForEmacs.git")
                (commit
-                 "217ffe99e3acf7d545827605ec95434e392a9f5f")))
+                 "e96b06115f53ef81097f585f627855d97b35b89f")))
         (sha256
           (base32
-            "09wd1k3hnf1hri8c9m27g8cnqka59szr2anfkkh35s52bynvpxf2"))))
+            "08b3m6233yzkx7ff0pch4k9lzysk6dkwc9vhn0dhip7s775laa63"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck emacs-s))
     (home-page
@@ -2253,17 +2253,17 @@
 (define-public emacs-all-the-icons-completion
   (package
     (name "emacs-all-the-icons-completion")
-    (version "20211009.2207")
+    (version "20220106.1310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iyefrat/all-the-icons-completion.git")
                (commit
-                 "a0f34d68cc12330ab3992a7521f9caa1de3b8470")))
+                 "9e7d456b0934ecb568b6f05a8445e3f4ce32261f")))
         (sha256
           (base32
-            "18dd37p1vh8ixc2q07jqwzpc82qq31m89nzps192pdgkfffhdp8r"))))
+            "04bnmmd6lyx0p39sgymqvmcy7bk8mr7sikbpy49adxi7d2891ldg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -12995,17 +12995,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20220105.1550")
+    (version "20220106.1352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "98274961febf7f877d1521140b4c2a2a43d8f0cf")))
+                 "0b458b64665a3ad03dc3bd9686d9eaff44dfcd2b")))
         (sha256
           (base32
-            "05l8asgi4lxyp32335fpmk9vyj6ic43y30dvdc37q9vv4s1bvqmy"))))
+            "18s6fd3fqyifyxf3vww8ah1sl271c43bag019r1m9q1masjwkrv2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -22856,17 +22856,17 @@
 (define-public emacs-doct
   (package
     (name "emacs-doct")
-    (version "20211018.1902")
+    (version "20220106.709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/doct.git")
                (commit
-                 "c1919a4297e5479d3a22ded90095245317b29935")))
+                 "e92ccc084f164ed87b7ae325669ce5720044179e")))
         (sha256
           (base32
-            "0vzkva3nn8fbk0xhyyns5vfr3irgy8hbn1wcxwpi3ygchrflckia"))))
+            "0r53f580grrxgl839l7lrhg8vcrjxy7n2qw10z9bkabmkvbcl20d"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/progfolio/doct")
     (synopsis
@@ -24527,17 +24527,17 @@
 (define-public emacs-ebuku
   (package
     (name "emacs-ebuku")
-    (version "20220104.727")
+    (version "20220106.902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/ebuku.git")
                (commit
-                 "fa3f29fdf7c871c4eadf43c36ccc2e207116e5c3")))
+                 "5004d377f8c89436c28d4a7ffbef407a2b28861e")))
         (sha256
           (base32
-            "0jwps0dr3pmgm6mab5pn06bqdjbnhaxwb7iv8n0dmrxfj19y5z46"))))
+            "05cwxlqkj9wwy35pc8dq37rdvmkrc8528s64qw0pji406r6qs9l3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/flexibeast/ebuku")
     (synopsis
@@ -31224,17 +31224,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220104.1611")
+    (version "20220106.1318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "b5c6950f65e2cde92bd978ec2bc98e67820d91a0")))
+                 "c2bb7e3fa22a6fe38559046904ec1ecc7502b4b0")))
         (sha256
           (base32
-            "0pcw6wav1d7cmygc7h6cmvxpyx0p9fs8f511jqm0qvzlix0467g7"))))
+            "17kd5x4bac28kvjwfwgiy9m205p9f15xvi2sic7fcncnsm9xzqa5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -31825,17 +31825,17 @@
 (define-public emacs-evil-indent-plus
   (package
     (name "emacs-evil-indent-plus")
-    (version "20151109.1906")
+    (version "20220106.931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TheBB/evil-indent-plus.git")
                (commit
-                 "0c7501e6efed661242c3a20e0a6c79a6455c2c40")))
+                 "b4dacbfdb57f474f798bfbf5026d434d549eb65c")))
         (sha256
           (base32
-            "1g6r1ydscwjvmhh1zg4q3nap4avk8lb9msdqrh7dff6pla0r2qs6"))))
+            "1hlw0zv5niap3vwm4fkqqk8c1bysij76s54ksp84wb8sggkga53p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -32133,17 +32133,17 @@
 (define-public emacs-evil-nerd-commenter
   (package
     (name "emacs-evil-nerd-commenter")
-    (version "20211014.455")
+    (version "20220106.1224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-nerd-commenter.git")
                (commit
-                 "63baf2d1c796edd11bbec5fe1dee711173d4155d")))
+                 "42ba1a473b4f1df061baddd2f8b812a2f35e366e")))
         (sha256
           (base32
-            "0kk9l9wvvb40hric4wdzvccp98mbipln7ah9h8grl5ayb9kw6xxg"))))
+            "1y6qy4gv7k8aghi5snvh248nxpgxv0daryd2794n6gfb4ciwycrr"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-nerd-commenter")
@@ -62388,17 +62388,17 @@
 (define-public emacs-lambdapi-mode
   (package
     (name "emacs-lambdapi-mode")
-    (version "20211207.1509")
+    (version "20220106.1308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Deducteam/lambdapi.git")
                (commit
-                 "b4ce95c10abe91ee9abc6993b41d7f5ab95d49f9")))
+                 "9ab0fab7c6d7cce219da043b21e8dc48bf94fa16")))
         (sha256
           (base32
-            "1pjvyhnq86pkl6lgany25ybyl5b3x3v4p1m7kk631zqrqzk481ms"))))
+            "1h8nwz8hxwrbwml8wi88s22h4hvzr5m67l1f37n9z8ms4nwzypp0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot
@@ -69078,17 +69078,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20211228.357")
+    (version "20220106.1515")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "b08c9f33a62e186e61a7120e80f1fa585a8cc9be")))
+                 "643aa5f2e0c6ab9ccead137997926fce7fa4a168")))
         (sha256
           (base32
-            "11jfzz9pp8cav9cvly63l8qx0fffy5808cha3q5dxrva1fz5p1hk"))))
+            "1vi998y6zc58hr6bpj0p2cbsv4lwvf0c3882fjlrxnnlcnhq60ri"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -70850,17 +70850,17 @@
 (define-public emacs-molokai-theme
   (package
     (name "emacs-molokai-theme")
-    (version "20151016.1545")
+    (version "20220106.1520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alloy-d/color-theme-molokai.git")
                (commit
-                 "04a44f21184b6a26caae4f2c92db9019d883309c")))
+                 "cc53e997e7eff93b58ad16a376a292c1dd66044b")))
         (sha256
           (base32
-            "1hqa59pdrnwfykyl58lr8pfbh2f13sygvmrh707hbwc2aii0jjv2"))))
+            "109z13y6f54idzxk4incd4r0d3fr7wm7r8ifmd0s5hv1v1i93jc0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("molokai-theme.el")))
     (home-page
@@ -78897,17 +78897,17 @@
 (define-public emacs-org-fragtog
   (package
     (name "emacs-org-fragtog")
-    (version "20210815.2349")
+    (version "20220106.758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/io12/org-fragtog.git")
                (commit
-                 "15861261a437aca2ec858317de71603d2957b423")))
+                 "5b346068c346c4164f5e48e81d1e1bb285da8fd5")))
         (sha256
           (base32
-            "0ra4sfy48p8pm1c7h8wlmbl68r4s0f4qc49xapvs550pm4mf3hiq"))))
+            "0r21dpgjxljckl32aicqj0lqwrf30gc52l1yxy2n1qv332gdmpy6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/io12/org-fragtog")
     (synopsis "Auto-toggle Org LaTeX fragments")
@@ -80429,17 +80429,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220106.132")
+    (version "20220106.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "9fdff2293e16f75c720ff76a98dac50c623f9565")))
+                 "772ce59b207940ab69490d07600b0815f8ba2c8c")))
         (sha256
           (base32
-            "0ib4fhbcz2qm9av1i4aggfw0va38bsx061b7w94ack4ac0n9xrws"))))
+            "0dalf22vxadz52sqxzrsp6qszxqis5v99sklzq6w70a9mzq7wq8p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -88352,17 +88352,17 @@
 (define-public emacs-polymode
   (package
     (name "emacs-polymode")
-    (version "20211124.913")
+    (version "20220106.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/polymode.git")
                (commit
-                 "47a7b6541a1e1cea9c22052fa202b7fdb715f03b")))
+                 "4ded73e39e5b367d349b9c6e490865e72c070b13")))
         (sha256
           (base32
-            "02znv2pg07wn13jxgfbik306y3haafapjfib9pnl96aqbv264kp3"))))
+            "0gm1604pbhkyfd1hiqpjkkdwl99y9kc46c1sgljyyyvw04lpf15j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/polymode/polymode")
@@ -102044,17 +102044,17 @@
 (define-public emacs-solidity-mode
   (package
     (name "emacs-solidity-mode")
-    (version "20211224.1200")
+    (version "20220106.1055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethereum/emacs-solidity.git")
                (commit
-                 "7f239128a15b2baf47be0f8c88f1f533f3114071")))
+                 "f0f68b038c5edf16c85fc8ca58537e1c6479738b")))
         (sha256
           (base32
-            "14757wph4ik09ni97h0r0nkscwp23l2ksb8f988q3bwlw59ay97z"))))
+            "0hfp07bg348ppkgp5wca1sqpcprhc6jyxkpb1pmsm0vrifb3261l"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -106096,17 +106096,17 @@
 (define-public emacs-tangotango-theme
   (package
     (name "emacs-tangotango-theme")
-    (version "20200907.729")
+    (version "20220106.1039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juba/color-theme-tangotango.git")
                (commit
-                 "2293311166308a76bda691898b6952921bb95da9")))
+                 "9509035842c5ea44f594879199a74c9fc6d2a368")))
         (sha256
           (base32
-            "1964h3sgd5pzh58i1gjawhlpqfli2n183n9c55y8klb5i3kbf32h"))))
+            "0dn8r1rjn89y087kz2rx46kvzz7f99km78pydbs9bbklmn24692n"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("tangotango-theme.el")))
     (home-page
@@ -108879,17 +108879,17 @@
 (define-public emacs-trashed
   (package
     (name "emacs-trashed")
-    (version "20200523.231")
+    (version "20220106.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shingo256/trashed.git")
                (commit
-                 "23e782f78d9adf6b5479a01bfac90b2cfbf729fe")))
+                 "ddf5830730544435a068f2dc9ac75a81ea69df1d")))
         (sha256
           (base32
-            "0lfza55nbb62nmr27cwpcz2ad1vm95piq4nfd8zvkwqbn6klwmm6"))))
+            "08v7g2zgrad0r0n4pla8j3i2aql46byq82jr712cvxhydd5gnzf9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/shingo256/trashed")
@@ -115943,17 +115943,17 @@
 (define-public emacs-xkcd
   (package
     (name "emacs-xkcd")
-    (version "20160419.1130")
+    (version "20220106.952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vibhavp/emacs-xkcd.git")
                (commit
-                 "66e928706fd660cfdab204c98a347b49c4267bdf")))
+                 "688d0b4ea234adda0c05784e6bb22ab9d71f0884")))
         (sha256
           (base32
-            "0znhjwlpgg05g39b16ddgw3a71a93fn2dicfsxjkziffn2a95m0s"))))
+            "15swryph0sks7lrcwnxsf436vq99b7psydnv0b2662nlbb0a4fdb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/vibhavp/emacs-xkcd")
