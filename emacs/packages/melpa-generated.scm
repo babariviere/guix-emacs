@@ -2229,17 +2229,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20211225.506")
+    (version "20220106.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "6d48bc9e970ab559bc35a125c55fd83732595706")))
+                 "9dd3d7a24956fa9400106626e3bca407861521ec")))
         (sha256
           (base32
-            "1iaw0j0z59zy181k7j14x5badd445f83g8daq3krahc4wd7cz55z"))))
+            "1yxdr3bm7vfnk1p98ai2769zvypkpv2lyddsnzyxmdx1jzh96gr5"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -12995,17 +12995,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20220106.1352")
+    (version "20220106.1533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "0b458b64665a3ad03dc3bd9686d9eaff44dfcd2b")))
+                 "54a6c1d9436dbfdfd95796efcd8d6d9aa4149581")))
         (sha256
           (base32
-            "18s6fd3fqyifyxf3vww8ah1sl271c43bag019r1m9q1masjwkrv2"))))
+            "12lvn8g42mzibj66a351yi0rfq07jahns66dj8qncg3qkd9x6y0r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -21814,17 +21814,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220105.1016")
+    (version "20220106.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "ce849870836994f8d560cdb9cad1328b0d13e00f")))
+                 "c5d09cbc7587c5c7905512580624fb9dfbc521a5")))
         (sha256
           (base32
-            "0r3i16bf3vs6ppank7igx75fr6fwacflv1jvs0ss0y9fvabfm5vj"))))
+            "0l9laii6gsvj9xc2ng3byyh61kh91qgixx79y5pi941wbhnf4yqp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alexluigit/dirvish")
@@ -24505,17 +24505,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20211216.2201")
+    (version "20220106.2256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "2e11ff76407ad79f3d08445647920f380e83e298")))
+                 "e2fee50b6589a52b5f45de45d19370cf0eb1f805")))
         (sha256
           (base32
-            "0brrl4pyjpwp714f4nfw6y4xgfv144ivhbra6v5aq924drv4yvgq"))))
+            "1wpq1fjig076373awxl6kvaixs879nf98ggxwb33iiqffh5za2h9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -26288,17 +26288,17 @@
 (define-public emacs-eldoc-eval
   (package
     (name "emacs-eldoc-eval")
-    (version "20200902.1339")
+    (version "20220106.1951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thierryvolpiatto/eldoc-eval.git")
                (commit
-                 "f6e639047d9b3695877e63dd3de8f24e704d6d23")))
+                 "e91800503c90cb75dc70abe42f1d6ae499346cc1")))
         (sha256
           (base32
-            "0avl9yfprf4q1xpnvhdx0dbcgrf25sln7w7d76jqjmp93cn4idrc"))))
+            "01iklccpvd5n4jpmh0bhfl73a2q3cfk4q6dg70qx7ij87xg5pblf"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -41025,17 +41025,17 @@
 (define-public emacs-fstar-mode
   (package
     (name "emacs-fstar-mode")
-    (version "20211219.1815")
+    (version "20220106.2256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/FStarLang/fstar-mode.el.git")
                (commit
-                 "751726d708f90c543b80a8916f4397140422273c")))
+                 "c95c2a61a6c42a1fa8bab9a8eb812a41be3e6f69")))
         (sha256
           (base32
-            "082fcdy6i4cvx012cp9x9sbcfd4xi2bkfj65q49kmzkhk3dkwlhy"))))
+            "1vj0lgj2q9bjspaqd0qlfifzwilzwnhkn21csnra78bvbhk2pd3p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -44815,17 +44815,17 @@
 (define-public emacs-go-playground
   (package
     (name "emacs-go-playground")
-    (version "20200818.2215")
+    (version "20220106.1618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/grafov/go-playground.git")
                (commit
-                 "ede417a52c0eea1a69658f4c6c6c12d6165e64a4")))
+                 "9ee7dcc7f78be67cc391f13efa6570c2baac0204")))
         (sha256
           (base32
-            "1zzdkp6zqh03gfiirmvwv5c8s9m4511zcaya9cp5sjzmh0g5wjip"))))
+            "0xjdgk7w8b1c8mx568whfrlkj20qqw7mzgva7blr92l5zx86ni3g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-go-mode emacs-gotest))
@@ -73934,17 +73934,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20211209.1529")
+    (version "20220106.2017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "5ae0bee99d005e62c3b18e793a81405a1a3ca0e5")))
+                 "f9bcec4ce0f6cd656a56034ace7811dea769a7bb")))
         (sha256
           (base32
-            "15fhim7cj7inc2kyl0xgv18a8p4lygnpkxgbq34nl567y9374vs4"))))
+            "1mfx03mjm8w5djvwafd9p3zyw4aysalw4j57x1sv51shf1fzz2g6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
@@ -75204,17 +75204,17 @@
 (define-public emacs-numpydoc
   (package
     (name "emacs-numpydoc")
-    (version "20210811.1458")
+    (version "20220106.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/douglasdavis/numpydoc.el.git")
                (commit
-                 "2d280dd704a1a54bcb3e8091f06656c3311894bc")))
+                 "385fc0bdd648d5f8bffabc073662577c8941c86d")))
         (sha256
           (base32
-            "1hqagy3ailigy2r43vhk2aayxxlr3qs4xk18mnx2r6bgmnbrzr5m"))))
+            "0310lhaxybzlid418ngw11zc26pqfyp6hgiim49wwva26h8z5if6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -80429,17 +80429,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220106.1349")
+    (version "20220106.1945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "772ce59b207940ab69490d07600b0815f8ba2c8c")))
+                 "413606f42e9fb206c9670bb54af5236646a3c564")))
         (sha256
           (base32
-            "0dalf22vxadz52sqxzrsp6qszxqis5v99sklzq6w70a9mzq7wq8p"))))
+            "0k9bmfnnpdmfxnx5nz745y9flpw0hycral1g6158xqq1lg7d6gj0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84098,17 +84098,17 @@
 (define-public emacs-pacmacs
   (package
     (name "emacs-pacmacs")
-    (version "20210225.1255")
+    (version "20220106.2248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/codingteam/pacmacs.el.git")
                (commit
-                 "5e0bcba1eeb10a4218087ff9cd6217d662fb775b")))
+                 "25a8c30210f6bd94634a7ff743a2f8be391ed3b3")))
         (sha256
           (base32
-            "15w7wr3bdqmwg459nl6vyf4ymrhqxk9pvli5q55qyvy905n3281j"))))
+            "0wklzqwds2dxf41g677rr9b5n3hviza5145j6aknj2mjjvsrb0zi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-f))
     (arguments
@@ -92519,17 +92519,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20211227.1511")
+    (version "20220106.1455")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "48d67633820840bbd013d3ea2405247792b198e8")))
+                 "184c2c8be4d9eff00477995a99153889fea46305")))
         (sha256
           (base32
-            "0lh5cy7g6323vj714b535lj6n295p12f478pnp2g80gak4lryk1x"))))
+            "1yfryz3vpsd32y496ccvnimg84pbvgnbgjnfsa6v165xw1xky92v"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96523,17 +96523,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220105.1905")
+    (version "20220106.2248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "d2bd5f7468aad555e197ba2aefa0db476b298af5")))
+                 "b4faf3c3e6c87766ebb86fb40c4abf41f6a6b3c9")))
         (sha256
           (base32
-            "0rjqkfv6zrqd7k9qb3lfqn43ibza7xw4llcvj40x8q43bw7rybha"))))
+            "1w7db1d712rjw55prb3kdcag4z1skk56837q1ig9d2bj4mkhqa2s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -109985,17 +109985,17 @@
 (define-public emacs-typit
   (package
     (name "emacs-typit")
-    (version "20210318.1747")
+    (version "20220106.1722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mrkkrp/typit.git")
                (commit
-                 "d08ed004bfc13f8d0bdfc13fc54e8f7402876903")))
+                 "61dba759f8178550bc067a360c42ce1089e99a66")))
         (sha256
           (base32
-            "02fnq52a1i0dgdyhxgqjf89zif23038n8cm9idv9c515835c10m2"))))
+            "15m4nfsig8w9hykqy9mzd014pqx4fj9yykiw273bwm384lf3dq6y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-mmt))
     (arguments '(#:files (:defaults "dict")))
