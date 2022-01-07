@@ -12995,17 +12995,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20220106.1533")
+    (version "20220107.315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "54a6c1d9436dbfdfd95796efcd8d6d9aa4149581")))
+                 "b0509c04c7b50929fedc9917cee3e445da7705a3")))
         (sha256
           (base32
-            "12lvn8g42mzibj66a351yi0rfq07jahns66dj8qncg3qkd9x6y0r"))))
+            "0w8r49fmncbb5bqvbvxkxwv64mqrpri0lxfgjzw1a1gaijy9366p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -21814,17 +21814,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220106.1909")
+    (version "20220107.441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "c5d09cbc7587c5c7905512580624fb9dfbc521a5")))
+                 "15a8876a6f1646005f67a8cf778e9c410a9c0adc")))
         (sha256
           (base32
-            "0l9laii6gsvj9xc2ng3byyh61kh91qgixx79y5pi941wbhnf4yqp"))))
+            "1dggnprncm31c93g3srdd6n6yhlv3i29k48s05cvx3c110fc3isg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alexluigit/dirvish")
@@ -26409,17 +26409,17 @@
 (define-public emacs-electric-cursor
   (package
     (name "emacs-electric-cursor")
-    (version "20210501.2107")
+    (version "20220107.504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/duckwork/electric-cursor.git")
                (commit
-                 "e20c6f6e85c020e472ef05b12af7a12bbae65dbf")))
+                 "6ae66749cd83d643c2ae897b6948ea908b90bfe7")))
         (sha256
           (base32
-            "0x1bhpb86bhkyyg28w81jw124l6zcbbqmf8i3fx28sc14q4y1gsd"))))
+            "1vpr3msjkysybipjar23ll0dypil2rzw6mk4jmhd75937h78hbwq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/duckwork/electric-cursor")
@@ -30273,17 +30273,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20220105.1802")
+    (version "20220107.104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "d145705a6138ab5ce7efb6a2519c6f2133790d3b")))
+                 "f59a472204845513c5c24badbc48d484197362aa")))
         (sha256
           (base32
-            "123ykrm8c24pl1ggrj29y5kawyiqj0lf0cqpra7azwgdikjs7lxx"))))
+            "0g8p9yrmlvga1cxn9id5cvbiw9j47kw0w0mxqyirhbc84gdc9dlf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page
@@ -34701,19 +34701,20 @@
 (define-public emacs-filetree
   (package
     (name "emacs-filetree")
-    (version "20211128.205")
+    (version "20220107.440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knpatel401/filetree.git")
                (commit
-                 "03a58d6de1e76c3a88f50cc3e8735b8b1c09650a")))
+                 "54b0d0bcb0ec2d2b9b840bcc5e16aa0e8bb29a24")))
         (sha256
           (base32
-            "1zm7zlzzxddpbaz9mzg2r7za2p573b3v1kzdywh47hcsa7b1sxss"))))
+            "1vq6450r87qwsh7fz3mdvjzns5iw6izks61va4dbvfnb4wwxx447"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-dash emacs-helm))
+    (propagated-inputs
+      (list emacs-dash emacs-helm emacs-transient))
     (home-page
       "https://github.com/knpatel401/filetree")
     (synopsis
@@ -64738,17 +64739,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20220106.340")
+    (version "20220107.329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "02e23fdb2cca5a00fed291b41be2c2b1110cf19d")))
+                 "7f005d1f114f3167d0d5102bcfb0912f9b2a11c0")))
         (sha256
           (base32
-            "0w0ypg9rxjy245b48kiadl6aa3m71mckmm6ggss8h8qk8c09m0wk"))))
+            "1bpyb5gznvpbc3rgyfzynqw0pjl92ky9za9im9ivm6f5ix829k4r"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -70783,17 +70784,17 @@
 (define-public emacs-moe-theme
   (package
     (name "emacs-moe-theme")
-    (version "20210308.1053")
+    (version "20220107.219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kuanyui/moe-theme.el.git")
                (commit
-                 "b23975ba57a68f69551424552f484227db8a7b97")))
+                 "52102d23f5a20d6349abc645c19bd04370773241")))
         (sha256
           (base32
-            "0vr02ng574k1xfykxn2j2xhl78x4zsvzcszswqjrlps55bvxkm7b"))))
+            "0vfs8dy5qdbygll101av4lpzclxq8n1q334f4fk6lwj8rnnlbipc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kuanyui/moe-theme.el")
@@ -80711,25 +80712,18 @@
 (define-public emacs-org-runbook
   (package
     (name "emacs-org-runbook")
-    (version "20210825.1544")
+    (version "20220107.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tyler-dodge/org-runbook.git")
                (commit
-                 "f4c5e612d87d1ab96323b09cee1da859d9d74775")))
+                 "dd11d253d3ee94b70f0d2cc74c6e85c6f5ac189d")))
         (sha256
           (base32
-            "0jbvrzigw0bjcm4lq7mmg97yh2kzchcmv4gwpmd6izgr1ajp2nir"))))
+            "1vjmpdvcsqrry4jg07l84nfp7kx0wmjn60l60bcfmzj2mwcz4nak"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-f
-            emacs-s
-            emacs-dash
-            emacs-mustache
-            emacs-ht
-            emacs-ivy))
     (home-page
       "https://github.com/tyler-dodge/org-runbook")
     (synopsis "Org mode for runbooks")
@@ -85538,17 +85532,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220103.308")
+    (version "20220107.503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "ed1d4fc4b02eaf40fbaa7a1a8a2c59eff2a8555d")))
+                 "4794b7c087b70421530658cd35c8705e319b76b8")))
         (sha256
           (base32
-            "1m806qgr8hpcw7lj6jf8wwa87f5wnqy5wzx4m9g1japaj1va5f54"))))
+            "03dh0awdw8zvqhb2xz111sz0npvb8xgi9bvrswqs8xnmqylzdks6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -91332,17 +91326,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220103.115")
+    (version "20220107.317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "19a18b414bc60e5f58f4d800b0d6994164df4baf")))
+                 "7e8937010ca04224672d3ac97f3a58b0f6ca0607")))
         (sha256
           (base32
-            "0swkwsxfybifpqi0r3nf70hzzqb7b50sw857nk2z2phmqhx9a30b"))))
+            "0ndvy6yk5yyb1yzwryn910lfqnqjf838706sgls82w40rqf7q8b8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
