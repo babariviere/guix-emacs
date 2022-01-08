@@ -7284,17 +7284,17 @@
 (define-public emacs-bind-map
   (package
     (name "emacs-bind-map")
-    (version "20161207.1511")
+    (version "20220108.228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justbur/emacs-bind-map.git")
                (commit
-                 "bf4181e3a41463684adfffc6c5c305b30480e30f")))
+                 "510a24138d8de3b8df0783f1ac493a551fc9bd74")))
         (sha256
           (base32
-            "0vrk17yg3jbww92p433p64ijmjf7cjg2wmzi9w418235w1xdfzz8"))))
+            "0crxjy1ykgb429z8ikjv5iy8vg5i0qn8n86p2lgri4glx45sxxx0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/justbur/emacs-bind-map")
@@ -13835,17 +13835,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220103.351")
+    (version "20220108.126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "6eeaf46b869552b7cb70cab7d4590120c64cc175")))
+                 "8e4716172a2ba7fdd3f1d37096de88142ebbcc8d")))
         (sha256
           (base32
-            "0aar8czx688rhm0l91xk9rx2kwjrvflldlsj2y9qj6m51adk6plh"))))
+            "1bhvqh3w5qiyjm5ksqicmwybar4baj7dizpbywfdvn6kirwhwird"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page "http://company-mode.github.io/")
@@ -21814,18 +21814,20 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220107.1158")
+    (version "20220108.627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "1dacbd008e7fcef8245789f333c1fd76798ff49f")))
+                 "e2ff994b2610f7ae54d7d877ab5beb21d7c9880e")))
         (sha256
           (base32
-            "0gaq3mspmmgdfb0xb5y6x0zsl8ypm0h3fqbpz144491mcyf1drb1"))))
+            "1dp8bk5hhdqgczmskdw1ldyyczjl9cyawlknhndnz94sfgc91y0p"))))
     (build-system melpa-build-system)
+    (arguments
+      '(#:files (:defaults "extensions/*.el")))
     (home-page
       "https://github.com/alexluigit/dirvish")
     (synopsis
@@ -26409,17 +26411,17 @@
 (define-public emacs-electric-cursor
   (package
     (name "emacs-electric-cursor")
-    (version "20220107.504")
+    (version "20220108.314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/duckwork/electric-cursor.git")
                (commit
-                 "6ae66749cd83d643c2ae897b6948ea908b90bfe7")))
+                 "0db38e5655658fe23253b59fef97fd87163533a4")))
         (sha256
           (base32
-            "1vpr3msjkysybipjar23ll0dypil2rzw6mk4jmhd75937h78hbwq"))))
+            "0x682ckminvjk13q9snib2p5iz8q3gibwfc21ghw1cbgfa3p3caf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/duckwork/electric-cursor")
@@ -28149,17 +28151,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220107.1501")
+    (version "20220108.145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "1fc0d6385da5f3be9d19a4081b81ec0bedd0b71f")))
+                 "8cf1fdbfacdbdb98ca3b4e50bf295059a02fe4a2")))
         (sha256
           (base32
-            "080lnifi405wgahq7bfmql7zdx4y7zbwslmhz78yh6xj8gyi3y1g"))))
+            "1ff1vicshrnfi02ss7xcvglpg6lhw7pib142x99hqfi8a4jrvz28"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28713,17 +28715,17 @@
 (define-public emacs-emr
   (package
     (name "emacs-emr")
-    (version "20211211.500")
+    (version "20220108.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/emacs-refactor.git")
                (commit
-                 "64b7fb7b8dea85865db01e471414c1b2a636d5d3")))
+                 "cac1b52932926f56d7f6d2923732d20bbd20670d")))
         (sha256
           (base32
-            "1bi5x7iald8q4p1fjgfikizxx4aryc4q8rjpmbkg247vrsxd7ljx"))))
+            "06rmknnhzcm3fy1iipvryl85fcshpalz50500rrz8k3vkl2dps2i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -34701,17 +34703,17 @@
 (define-public emacs-filetree
   (package
     (name "emacs-filetree")
-    (version "20220107.440")
+    (version "20220108.249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knpatel401/filetree.git")
                (commit
-                 "54b0d0bcb0ec2d2b9b840bcc5e16aa0e8bb29a24")))
+                 "bb266a8306844f83267a539bca00fb8fab5bb973")))
         (sha256
           (base32
-            "1vq6450r87qwsh7fz3mdvjzns5iw6izks61va4dbvfnb4wwxx447"))))
+            "13ldh2vp3c1sigl24h3pjlr7pp1kqps4pypr9xs9nfp8p1lxyd14"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-helm emacs-transient))
@@ -46371,17 +46373,17 @@
 (define-public emacs-groovy-mode
   (package
     (name "emacs-groovy-mode")
-    (version "20210831.1601")
+    (version "20220108.555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes.git")
                (commit
-                 "84f89b68ec8f79bce0b3f5b29af155a85124e3a6")))
+                 "02670e1401c070e6ae3f50a8d79b210ca4f3a0ee")))
         (sha256
           (base32
-            "1pfaan0chvxpvf1zp3inpx47smm7rb22q4cklhw27n70cqh6qix5"))))
+            "13xlpmp2d96a9hzcwmyl6r9acmqdnvxfa239h00xn8ak0xpr17c0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("*groovy*.el")))
@@ -68584,29 +68586,6 @@
       "Documentation at https://melpa.org/#/matlab-mode")
     (license #f)))
 
-(define-public emacs-matrix-theme
-  (package
-    (name "emacs-matrix-theme")
-    (version "20211231.2245")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/monkeyjunglejuice/matrix-emacs-theme.git")
-               (commit
-                 "15f7b6e585f9a6cf737bc11ad5c36df58b79ceca")))
-        (sha256
-          (base32
-            "0mhdbv42l0b6n59zcdmy8yadcd2k69mj8fgdzgfpq4jhwvz59jwv"))))
-    (build-system melpa-build-system)
-    (home-page
-      "https://github.com/monkeyjunglejuice/matrix-theme-emacs")
-    (synopsis
-      "Green-on-black dark theme inspired by \"The Matrix\" movie")
-    (description
-      "Documentation at https://melpa.org/#/matrix-theme")
-    (license #f)))
-
 (define-public emacs-maude-mode
   (package
     (name "emacs-maude-mode")
@@ -69079,17 +69058,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220107.758")
+    (version "20220108.12")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "b04e2ea972ee25cbada0b852f7c09cdd5cd21c62")))
+                 "0d63977e7251f82960d12f07edd32e16d7e2ae9f")))
         (sha256
           (base32
-            "15q5rk6rf46ihcg4sdkndhmk2sxw65rhy60dw7phli26klnr9wpg"))))
+            "0im12hp8n5xi8bylk08n499irycms7x724mbd7in6a119iszzjvb"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -88823,17 +88802,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20220107.1307")
+    (version "20220107.2350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "0b1a82539c4fa08e2b97c733c64dfd259bb4bbda")))
+                 "8a76d75aa851a314e60a3c20eec81e7e6f952a13")))
         (sha256
           (base32
-            "0hhxbxic5kbw7nl0b6c2wkrb8smzbvgjsh318ckbrmhhdsi377j7"))))
+            "14cvakpp5nmincpcyvb6pzv2d5dky7qap43zk3kbydbp0va9r9dy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
@@ -98006,17 +97985,17 @@
 (define-public emacs-selectrum
   (package
     (name "emacs-selectrum")
-    (version "20220106.158")
+    (version "20220108.316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/selectrum.git")
                (commit
-                 "0213699f004e064c093891fb52b4704ce558f79d")))
+                 "40dace03075e0037ab0d15ca712cee5a36f7560a")))
         (sha256
           (base32
-            "1x5hk35n2lc83a1adv37qahrbwcrr0lh61fnhgshjlm13317k3q4"))))
+            "0j2rw898crbvy32kk5fa2pllzcip1phc74s38w4b5nl8ihv1axbc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/selectrum")
@@ -103402,17 +103381,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20211116.1936")
+    (version "20220108.212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "8874e933643b91d9c545fd4ca3f0ea986561da31")))
+                 "a47c0df8b5df36f5a8ca41f3f5dc60e1fbd09924")))
         (sha256
           (base32
-            "1s0ivhg6rbk5k9yzy8gy589ybba7dnc9cksz4wwsgcsm931sx9fz"))))
+            "1if3xyma26vzsivpvyf9vxsy0yv64vbl1kkd5rvnx48ly4axqk3a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -107240,6 +107219,29 @@
     (synopsis "MS TFS source control interaction.")
     (description
       "Documentation at https://melpa.org/#/tfsmacs")
+    (license #f)))
+
+(define-public emacs-the-matrix-theme
+  (package
+    (name "emacs-the-matrix-theme")
+    (version "20220108.658")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/monkeyjunglejuice/matrix-emacs-theme.git")
+               (commit
+                 "c6681c695c5c9a36465e9c63f637a381b369f2c6")))
+        (sha256
+          (base32
+            "0f3iridbibf1zjmnq73sbr5m3fskdn5fl56rgr2msn99649g2m5x"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/monkeyjunglejuice/matrix-emacs-theme")
+    (synopsis
+      "Green-on-black dark theme inspired by \"The Matrix\" movie")
+    (description
+      "Documentation at https://melpa.org/#/the-matrix-theme")
     (license #f)))
 
 (define-public emacs-theme-anchor
