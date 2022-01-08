@@ -28149,17 +28149,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220104.755")
+    (version "20220107.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "c9b26c2e18f01ae401df6a69b7a0c1a6bc44b90c")))
+                 "1fc0d6385da5f3be9d19a4081b81ec0bedd0b71f")))
         (sha256
           (base32
-            "1lqyglh7f337a9qgz50g62gjz18a9cq4hx1jxp9izfwibigrl9pp"))))
+            "080lnifi405wgahq7bfmql7zdx4y7zbwslmhz78yh6xj8gyi3y1g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -31224,17 +31224,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220107.1218")
+    (version "20220107.1637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "8afda6f6493a7f32c31d0e948e65ade06e17d1be")))
+                 "a5fd96dadc44ab3a00c354aed33cb576f65a50de")))
         (sha256
           (base32
-            "1idjlx9fcbsvfbf72am699ilypqwz9g9k0ayj76r2bkfw6y2ah71"))))
+            "06kc8m8pj5jxs8ljq1x9wpm12ya3k9y77vqg7zy07rkbrbgjacyp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -45530,7 +45530,7 @@
 (define-public emacs-gotham-theme
   (package
     (name "emacs-gotham-theme")
-    (version "20211023.2056")
+    (version "20220107.1730")
     (source
       (origin
         (method url-fetch)
@@ -45540,7 +45540,7 @@
                ".el"))
         (sha256
           (base32
-            "0jzwjw05x3gqfsj9yhv05pf8lrg05w3hfvhw14skninllbsqpah0"))))
+            "0gvvwg6jbgsfr39p7kcgp3b04gb55aybpdd2vaclvmznjxahqbis"))))
     (build-system melpa-build-system)
     (home-page "https://depp.brause.cc/gotham-theme")
     (synopsis "A very dark Emacs color theme")
@@ -45574,17 +45574,17 @@
 (define-public emacs-goto-chg
   (package
     (name "emacs-goto-chg")
-    (version "20220104.1501")
+    (version "20220107.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/goto-chg.git")
                (commit
-                 "a7c69fa6a33774ee8ca759a064845a88483a4995")))
+                 "278cd3e6d5107693aa2bb33189ca503f22f227d0")))
         (sha256
           (base32
-            "1w5c8q8rb4j6p83pm4fhzwg36p82lpgrmkfrjh5h4mb79rjyxzwk"))))
+            "0rgdzhan4n5bd78wvivacqkp0g7jvnwzgh0571p2m4yra09a36mv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-evil/goto-chg")
@@ -46394,17 +46394,17 @@
 (define-public emacs-gruber-darker-theme
   (package
     (name "emacs-gruber-darker-theme")
-    (version "20210921.1408")
+    (version "20220107.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rexim/gruber-darker-theme.git")
                (commit
-                 "091515cee37e586f2028d1226f5ec40e2080f2f9")))
+                 "72278089c440d45c00fb8afcd53af82fd30f451b")))
         (sha256
           (base32
-            "0dp2c97rww8brpw933szfcgdvxaxnq748bs274favsq9ikm12708"))))
+            "15akxpc1zgdbhzcjc1cs8w1wm4yjgnxicgmqjrcgcqc8g0zhagcf"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/rexim/gruber-darker-theme")
@@ -64313,17 +64313,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20220103.1931")
+    (version "20220107.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "8d5582652ee086f9122c01a1550fa5d42a0f6e28")))
+                 "a4844b9f46b97715524beb8d19c9f3192328394c")))
         (sha256
           (base32
-            "07cvqsk2ha43g5pkjylzg7r8fp4aihphb80jivcjp18iv4yalwj5"))))
+            "1n73p74xq2fgv7l9iy88zf0m4qskaz3jhcmxqk65a1myara0i9ib"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -65910,17 +65910,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20211112.1442")
+    (version "20220107.1434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "38dda2c22db66547d99e3cfa6b7e76c42e7c6b5a")))
+                 "743db8df15375ff9270424951d2dcc3a7e8e7a0b")))
         (sha256
           (base32
-            "0p2pz6272h2rbb1si9psb4rh92mahlcr58slkm2mwqjwwbi5hfjl"))))
+            "1251hkpjh0s51znpqhfg193c67fcyr9b7i9hfs8xfalivjpnj254"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
@@ -69055,21 +69055,21 @@
 (define-public emacs-mentor
   (package
     (name "emacs-mentor")
-    (version "20220105.1348")
+    (version "20220107.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skangas/mentor.git")
                (commit
-                 "567daebce2b422b02b3b83296e2dde63d4936938")))
+                 "3f4fda68fcfd7b2fa73910b3e9e122927e3256ee")))
         (sha256
           (base32
-            "1905bp82zwqbfk8sgaqv65cpvykgqkcyhhnsz2dkl2rw72hp95mj"))))
+            "128k5zjk4pjbwx2jzld1g6k09ywdml2gnyxazpabqy5m2gjdq1pl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-xml-rpc emacs-async))
-    (home-page "unspecified")
+    (home-page "https://github.com/skangas/mentor")
     (synopsis
       "Frontend for the rTorrent bittorrent client")
     (description
@@ -74228,17 +74228,17 @@
 (define-public emacs-nnhackernews
   (package
     (name "emacs-nnhackernews")
-    (version "20211031.1221")
+    (version "20220107.1537")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dickmao/nnhackernews.git")
                (commit
-                 "34d82e2c2e4c190b85e751dd3f295daa264baa55")))
+                 "6748065db2f12ae6ea07058e7d643f586fb4b3bc")))
         (sha256
           (base32
-            "1ivmybr94rwrdgxp5d761yy8hnhcdwmiqkhxnyk1bbbyd0a1kxj4"))))
+            "0b566hb8j0mwl8b8plaf10majn8v70r9j7ffwsk1jnkixc8y4l37"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-anaphora))
@@ -96517,17 +96517,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220106.2248")
+    (version "20220107.2157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "b4faf3c3e6c87766ebb86fb40c4abf41f6a6b3c9")))
+                 "f508940acbc2784ab6db9ca26ee1b6633bc104e5")))
         (sha256
           (base32
-            "1w7db1d712rjw55prb3kdcag4z1skk56837q1ig9d2bj4mkhqa2s"))))
+            "14ax7rydplvpxb5ljb30mqnr7fp597yandph88c3iv4c9vr8dd1q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -105401,17 +105401,17 @@
 (define-public emacs-symex
   (package
     (name "emacs-symex")
-    (version "20211230.2218")
+    (version "20220107.1725")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/countvajhula/symex.el.git")
                (commit
-                 "70d9100c4201a6a0112017a5a4ae4181d1d3c75e")))
+                 "e616ac9b6e780b66e96836bcc59080f02f88e201")))
         (sha256
           (base32
-            "04qkqd5v68jyp5m0ksf9yhk5aq5qcbvnr3mc9v5j274k41kzlm2y"))))
+            "10gnrnnmxw8rpc647y6pp2ys457q0faf68zah6mmdak689s6qjym"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lispy
