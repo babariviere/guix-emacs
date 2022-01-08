@@ -11292,17 +11292,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220107.1046")
+    (version "20220108.857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "ea336afe09dfe3d977c7edbad86f02cbc199dbcf")))
+                 "5b272da659182d5e08a06c18a08917359388cbc4")))
         (sha256
           (base32
-            "0svy0v2cm6328ibwhsz817dkfc5g4l0zmmsm947yyncd4sacjpqi"))))
+            "0yp2kbak3a40xyl6j2qjqq4c2k8mcnspwa6djnkvgmm8bf4rfw2x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -21814,17 +21814,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220108.627")
+    (version "20220108.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "e2ff994b2610f7ae54d7d877ab5beb21d7c9880e")))
+                 "aa94c57cc7faf1c6e3fc2257b489e374f07b889d")))
         (sha256
           (base32
-            "1dp8bk5hhdqgczmskdw1ldyyczjl9cyawlknhndnz94sfgc91y0p"))))
+            "0lprf1y48cg6j3xmzzwq8d03gijbrx5b99qljqz6l0lkibd019a8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25408,17 +25408,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20211215.2131")
+    (version "20220108.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "17afdf52089b824ab6ff2000c6c5916135a4eca9")))
+                 "761901bd55362884f337b43f5788c44af7e8d4d4")))
         (sha256
           (base32
-            "18r53ipkycn59v6n6p0v3l0ziga685p0rxbj519jai6jd154apfz"))))
+            "00sk5vbh6zwk53zw3hrp14a5wrldjiwv3kf5j0rhpflw4nzvzgwz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -91305,17 +91305,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220107.317")
+    (version "20220108.806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "7e8937010ca04224672d3ac97f3a58b0f6ca0607")))
+                 "6e3394ba8b72bdc3e018a6d18817ae69403afb87")))
         (sha256
           (base32
-            "0ndvy6yk5yyb1yzwryn910lfqnqjf838706sgls82w40rqf7q8b8"))))
+            "0vd5diyb4m9qbv8bsasqq1yaac1jbqc6cna4lrpvfbvx25yinvay"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -93988,17 +93988,17 @@
 (define-public emacs-redacted
   (package
     (name "emacs-redacted")
-    (version "20211218.1109")
+    (version "20220108.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bkaestner/redacted.el.git")
                (commit
-                 "b64520ac1fc62460a818ff2b5e4f3fffe094484e")))
+                 "c4ea6cbffda9c67af112f25b2db2843aa4abce85")))
         (sha256
           (base32
-            "1mzzh9vck10794gqgmrb2n77zh0l94caf951j0wsyavkxhfi8m8c"))))
+            "1p693dbnx2vq2a7fps28nxd37jcdw4iba2fkac6qf02sqa2xwxk9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bkaestner/redacted.el")
@@ -96450,17 +96450,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20220107.1011")
+    (version "20220108.808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "ad674a1d43a7ffefd3dba33599c6aa5f49d70e43")))
+                 "541786c9bb0887e2357b4d6210b25ca4ceea3ab3")))
         (sha256
           (base32
-            "044cvvrsy2fydvmzxg530zdnhb4hbsk2sbmzk8y5mlrb0mzf6sai"))))
+            "0s2bgnga3808fnx3yqpik9rpdzk8nhpkymfa947icxp0axvbknl2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -96496,17 +96496,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220107.2157")
+    (version "20220108.907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "f508940acbc2784ab6db9ca26ee1b6633bc104e5")))
+                 "52be33a123a454cf89b32ea375b88010f2cac327")))
         (sha256
           (base32
-            "14ax7rydplvpxb5ljb30mqnr7fp597yandph88c3iv4c9vr8dd1q"))))
+            "02dbhcz0czvaj6c029k9809i9licsnf45dbw4lnqlsjcv36zcprp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
