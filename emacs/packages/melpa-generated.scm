@@ -11292,17 +11292,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220108.2205")
+    (version "20220109.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "1525df5fc2625037b302dd1490e2fad1a59b1ce4")))
+                 "52eefcd86f384de089a6fda09642d755fc999fd0")))
         (sha256
           (base32
-            "00lgxl5a4fcgs6r0s88yjq5fivpdpx3rhbkzfh3gg5pxcq8mpkqg"))))
+            "1z8lmf9lzfg092shbq37x97sc72dhjpy0fv075xxwhx0ydb7kiyn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -12217,17 +12217,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220101.1352")
+    (version "20220109.244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "12af23ad8b76519cb8b95eec4e8a5706d3186cd0")))
+                 "bfd83d142f1a05bad779fa7ccbaec8bd24dae177")))
         (sha256
           (base32
-            "10f5gn9a8a3f5xr9lspqndj8w162vrsz1ws4lk7w4ilp74yxz4km"))))
+            "0010db9xagz5dykh377z9r6vn50wk9ffvgq8410ppcymdaq1syx9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -13835,17 +13835,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220108.126")
+    (version "20220109.235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "8e4716172a2ba7fdd3f1d37096de88142ebbcc8d")))
+                 "f481c1e1fc95b18e63063f06c1a6979ff986d6d5")))
         (sha256
           (base32
-            "1bhvqh3w5qiyjm5ksqicmwybar4baj7dizpbywfdvn6kirwhwird"))))
+            "1cxr37a0avynsllmxshc3baqyjszri8lgp7ax47lirw72rxwqj8p"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page "http://company-mode.github.io/")
@@ -16049,17 +16049,17 @@
 (define-public emacs-consult-lsp
   (package
     (name "emacs-consult-lsp")
-    (version "20211104.1506")
+    (version "20220109.937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gagbo/consult-lsp.git")
                (commit
-                 "aaa9a31bc82259d743186c53d8b01f043c6fec13")))
+                 "f4f195046b97be5ce0406e0723921b3393d9442e")))
         (sha256
           (base32
-            "1d4l930gwfp2syxkm129lxbvrwcqv3rz2qzb3m18v6aklk0si2db"))))
+            "094i7g10m8702sxvgis46wnx492fq2kfv641a7255qs51l3y2r49"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-consult emacs-f))
@@ -25408,17 +25408,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220108.2142")
+    (version "20220109.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "4321c84ae78b542d2ebf09c0b795b2eaf1470184")))
+                 "f39d479a5a617d4c1754e33fac5cac2a84a1f672")))
         (sha256
           (base32
-            "16dchsg4i9ipax8vnahvazn2w3i5vsq326jc747awbqd960z13sk"))))
+            "1vj58r5dyb35c5zbjzrv8z3xv7cz6iy1c990x645ms2j6xylj4nf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -33435,17 +33435,17 @@
 (define-public emacs-expenses
   (package
     (name "emacs-expenses")
-    (version "20220104.1459")
+    (version "20220109.1306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/expenses.git")
                (commit
-                 "51733c3b96e2fe4720ef0b5468f4830c2fd9d24c")))
+                 "d8bbc3201a23f596418cbb0a316b446f0ab94585")))
         (sha256
           (base32
-            "0y8zb11s7h11z1zpb2xk2yxn4xc9zx7gmrsffi2s4islb0zv18hs"))))
+            "1shwdlzaf84mlf9gdxly43xwy6s7w48mbh5hqy8jbndq552zkzgh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page
@@ -56206,17 +56206,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20210607.2336")
+    (version "20220108.2343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "03dd9c9d4e3f94f5519a786804d3ef9d3a09ef9f")))
+                 "2fae1a8ba9e7f4fa87b468f90bea3d11d3a7c387")))
         (sha256
           (base32
-            "1xjaqh3m32lbc6avccv5clz1q2ra4pcl58wwlzkg0yhkxn7r750i"))))
+            "06x32z7kpmrbn5b88lz5ipvwqn1i8qcppmb515almf5ivhpcq36d"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -61197,17 +61197,17 @@
 (define-public emacs-keycast
   (package
     (name "emacs-keycast")
-    (version "20210616.826")
+    (version "20220109.1530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/keycast.git")
                (commit
-                 "04ba7519f34421c235bac458f0192c130f732f12")))
+                 "bafde6f35c725d93bebe7bf45895e284602e5d2d")))
         (sha256
           (base32
-            "09xr0h2ag3pzlz455gv5h915vn1dz56gqx61jx3n7fc4a794pqxw"))))
+            "1czpx7vsaq00aa1klngp1kafk17c2f0xlirc6rngl7yyavaq13z8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/keycast")
     (synopsis
@@ -62084,17 +62084,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20220108.1627")
+    (version "20220109.126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "1b17bb445d06296d4bb68660496048616e662c86")))
+                 "79baa7b16239bb8adf6fbf739c5c351e0014c1ce")))
         (sha256
           (base32
-            "06adsq89198z574arsy4ljd70yhyj78v6mlic9y0hshgrq2sk1g3"))))
+            "1pnkgc3mzqi87c47sp89q607sqwkv6kw8c0q1vna6ddigy11372h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -62369,22 +62369,21 @@
 (define-public emacs-laguna-theme
   (package
     (name "emacs-laguna-theme")
-    (version "20200928.2159")
+    (version "20220109.1015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/HenryNewcomer/laguna-theme.git")
                (commit
-                 "61b18f6362b94e42ea5ab19a6f2debc2bd917eda")))
+                 "579bbd2453bd88673873a012dd70522e7d4265ce")))
         (sha256
           (base32
-            "0x46ns9gky937ygnsz899b1c1inffh8zw8icq9ja10pmvx6lh94h"))))
+            "1lnmsicybg02i7yrl3gfngmwa4yyskkq4qrba7cgsgvhadg9fdmq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/HenryNewcomer/laguna-theme")
-    (synopsis
-      "A theme that's easy on the eyes & focuses on importance.")
+    (synopsis "An updated blue-green Laguna Theme.")
     (description
       "Documentation at https://melpa.org/#/laguna-theme")
     (license #f)))
@@ -68044,17 +68043,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20211231.939")
+    (version "20220108.2330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "9229d88ae4757f3439e81f51799758c009838cb4")))
+                 "7782ebdd5ce6cf05190ae47df47232e474f16abb")))
         (sha256
           (base32
-            "0gaqybj52skqcmxcx6k3zmw6lznzlr1fjvlaraic9m6n85xkvzki"))))
+            "0k75296yrprgg8kzy9yxf515idjn0fqx04a3sx7m62v4z9rfssai"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -86526,17 +86525,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20210808.1745")
+    (version "20220109.247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "d66b4986117f621c143bc295205619e036f291d5")))
+                 "8a61f9dd3d804f779444a351342fb616260f6145")))
         (sha256
           (base32
-            "0jj0xmmb65shi8x5l32c0piin4dbiz94fsixzcn13x6ljsv8kd21"))))
+            "18g4dc3snafkkir4dr4ybfkkssa6l3z8svj5a4hfbqqrzyhpgm29"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "lisp/*.el")))
     (home-page
@@ -91329,17 +91328,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220108.806")
+    (version "20220109.1511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "6e3394ba8b72bdc3e018a6d18817ae69403afb87")))
+                 "fbac09e798c2843febba7aebda726208b4fe2a0b")))
         (sha256
           (base32
-            "0vd5diyb4m9qbv8bsasqq1yaac1jbqc6cna4lrpvfbvx25yinvay"))))
+            "0iwg2hs21l1mv6jzvzwgdv1nd83vp3zcnvdx2mg3rmxkz63j3y69"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -93660,17 +93659,17 @@
 (define-public emacs-reaper
   (package
     (name "emacs-reaper")
-    (version "20201121.2302")
+    (version "20220109.1305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xendk/reaper.git")
                (commit
-                 "93d21a26ca022d3929749a82498891054092094b")))
+                 "18a2bdb3f6a5934cf39dbeea5899f10f55e753a9")))
         (sha256
           (base32
-            "0pg56rgwwsik8509mz7kdwjn6iw2hw9xlajv7p2s0f55v111i6h3"))))
+            "0qlcl0dp1ggydz0jcyxzph2vjj8f457jyb81c1a6ds5bvybv8m28"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/xendk/reaper")
     (synopsis
@@ -106369,17 +106368,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220108.1831")
+    (version "20220109.1120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "a79237f8d062dd661f1d99cd0a5c38c474fd993e")))
+                 "6537af71f9c52c61dc8681bed7efcc0e7edd00f9")))
         (sha256
           (base32
-            "0lnprp9wir05649yhm0i0lv07ag9gdlpa7hwp0drphqasq8q88yf"))))
+            "046nam2ggnfdfspwci1n7x1bdfwgmwm6k4z68zzsyyimfg1b3icc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
