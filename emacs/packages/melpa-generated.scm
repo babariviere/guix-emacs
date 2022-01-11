@@ -11292,7 +11292,7 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220110.1639")
+    (version "20220110.2334")
     (source
       (origin
         (method git-fetch)
@@ -15906,17 +15906,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220110.1804")
+    (version "20220111.347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "2d59f238bbed8e02155f095fe0555b43c14fd54f")))
+                 "eda8dbd1a78547fe86e611fe02558e63b57dcf45")))
         (sha256
           (base32
-            "0bnavmrr2qhw0gspawxkbbany4zrcmp416g4sj61jhqjjdkcgy1y"))))
+            "09r348q4flrmpfm4pvyz160ajhyr8z9nl2slsw32k903gsx9mx9g"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -21814,17 +21814,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220110.530")
+    (version "20220111.720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "cbe76feca0b11dfe80124007adf8b67f15c085b9")))
+                 "190e757759bbee8329be0e0b08b2ff0bac685797")))
         (sha256
           (base32
-            "0nxw38lbpja84sclaak22n94c1byp9g858cpyy5y94v9w0f38z8p"))))
+            "0g2vflfq8z3qp47fb4pvb6jy7jl6xbvzj57zqwa99vig15f2r7kx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25408,17 +25408,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220110.1921")
+    (version "20220111.305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "7be57f132b7c5a1e9ee715ae8c4513d43d582d2f")))
+                 "2c0f262c240222e42e3ec914307b9690354bb3a3")))
         (sha256
           (base32
-            "1dk9077aml9gxw8xkl6sxn7rmjs79r32gdpw3gndz476x4vb7zs7"))))
+            "1chc5p5bqxr917jp14c3alxq6bzmzvv5kcdzq66lfgdycp73imzd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -92542,20 +92542,19 @@
 (define-public emacs-rails-i18n
   (package
     (name "emacs-rails-i18n")
-    (version "20211026.1404")
+    (version "20220111.323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/rails-i18n.el.git")
                (commit
-                 "5d7a3e46d801668f53efc4c974b5f46b2cd28a0c")))
+                 "4d7c7ba4c6549e29aadb1eadbce8378291277623")))
         (sha256
           (base32
-            "1r4x4j5d0i4v27mj0cdx6s3qs3vk9v6blxmgnldmbv2ychyxzrnr"))))
+            "010ypc7p416vsg9mxdwrz8yp7mxvp2hijmb9qq6xf6njcrxs6idb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-yaml emacs-dash emacs-projectile))
+    (propagated-inputs (list emacs-yaml emacs-dash))
     (home-page
       "https://github.com/otavioschwanck/rails-i18n.el")
     (synopsis "Seach and insert i18n on ruby code")
@@ -92588,17 +92587,17 @@
 (define-public emacs-rails-routes
   (package
     (name "emacs-rails-routes")
-    (version "20211108.347")
+    (version "20220111.315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/rails-routes.el.git")
                (commit
-                 "b1326e9f4ede6b3da0fada29697fa7f797d7576d")))
+                 "76fde6e50ff42e392cbc6c0b158be2921ef24445")))
         (sha256
           (base32
-            "017fcrnjhqp591q8j51b67qbb6idimy7w3mvlkshbj3pmxl0hzb2"))))
+            "0s0m5j31lv7bxxcqrsa6grdnm6fdbkybp4d2czdy9hpx4avjw7kq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inflections emacs-projectile))
