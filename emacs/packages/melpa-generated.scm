@@ -11292,17 +11292,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220111.2156")
+    (version "20220112.536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "4d1d0c53a926a0dff36efb4c2b73f7f5c615dd50")))
+                 "78b7a760a063a78c2e21793a103d1374e4b9a813")))
         (sha256
           (base32
-            "1vb8ygk8fkk6qmwc03fyxhgj8cs7f139mz15n70f43ikcpb3xl16"))))
+            "1irzlc1mpwkrh30wbycd29c3711pv3czjbminmwfsbslwv6ypp0v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -25408,17 +25408,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220111.305")
+    (version "20220112.728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "2c0f262c240222e42e3ec914307b9690354bb3a3")))
+                 "dade5a148712463a15b7ac65f779e25596a3eefc")))
         (sha256
           (base32
-            "1chc5p5bqxr917jp14c3alxq6bzmzvv5kcdzq66lfgdycp73imzd"))))
+            "08hhzj0wpd67v1nczaggkhy0z3yfbkw8sikqxm3dgn38rnsa4fmq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -55304,17 +55304,17 @@
 (define-public emacs-iedit
   (package
     (name "emacs-iedit")
-    (version "20220110.751")
+    (version "20220112.634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/victorhge/iedit.git")
                (commit
-                 "3bd4c15e3db66bcd13a549ddd9630e926e55ffb7")))
+                 "48ab9e4be2f1a1afe77e0d8a6ab55554cc7c9c39")))
         (sha256
           (base32
-            "0sp8l16f6inwsm1x96wvsh00sf2lxagzsxcx2jbc7d6p0c5vdb88"))))
+            "019lirg8gg81a8wmbnj7nj513k7vqxaikv6k2r26d7wvjafsmsl3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/victorhge/iedit")
     (synopsis
@@ -77756,17 +77756,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20220111.1736")
+    (version "20220112.117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "3678f8460662f5f042e67f642b5dd4bd3bb85ed4")))
+                 "92008e762b30cb445a2227e458cbb9a5e1b1d4e8")))
         (sha256
           (base32
-            "16qjmhy8zl2ngr37cljgmr4i1sszya60jyw71rfv6lv0fsizicxx"))))
+            "0m9nyz80j0qnn14drbgk8vn5yr7sv0z6yiz8w95ahcw2qwlgyjs7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -79043,17 +79043,17 @@
 (define-public emacs-org-gtd
   (package
     (name "emacs-org-gtd")
-    (version "20220109.2016")
+    (version "20220112.437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Trevoke/org-gtd.el.git")
                (commit
-                 "10533bcd71b0735d2f94d95f14d25f08f343d4f8")))
+                 "835b316c7273e234383d1876d43ebc90a45ace59")))
         (sha256
           (base32
-            "0n0i5q8phc7iif5b4h39n4r68q8lmam1fm6y4glxgsdf4987fq49"))))
+            "1wwx35smvnxdh3fq7077s98cmphfmwzcr1bcxawnnnh7dd9yxnrn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-edna
@@ -81350,17 +81350,17 @@
 (define-public emacs-org-tree-slide
   (package
     (name "emacs-org-tree-slide")
-    (version "20211213.1254")
+    (version "20220112.142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/org-tree-slide.git")
                (commit
-                 "917612a0d1593de533b7bf0a2792d7e37bb2ca3d")))
+                 "3faa042393ebfe5699a3bffce775f039d7416ceb")))
         (sha256
           (base32
-            "0kqq47f5fgjx1dp72c3qy3lbqb088qh0b5shn5xrqrq84xzilipy"))))
+            "0751qlg8xxwx7mldgdry1gfrarvhzg2smjzxd3382i6j63mpala9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/takaxp/org-tree-slide")
@@ -83066,17 +83066,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220111.2147")
+    (version "20220112.535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "22677d78b8a15b7f54f6c061570dbc44149823c5")))
+                 "3a7cb207a2e33e74144550ba10644b20d3bdc718")))
         (sha256
           (base32
-            "073svs4pkyrsq97lz33h9116dfcn78zk992i4m5mlbrq0hm7mmhl"))))
+            "0njx1gkkdl2n1wypkzpb8903xa85p47yiry1mv3h5hljc71kqcfp"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -91329,17 +91329,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220111.828")
+    (version "20220112.157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "b579dde1055111b8cfbb57231b1827669aeb657b")))
+                 "75ead11eeaaf801e342bb18d7c0ff93ed1c123ff")))
         (sha256
           (base32
-            "1wbwc957g1bbm9kssaia9q5401a3fmjwx5sn9mamanjm7z6vl1b0"))))
+            "1wlvgh214fn2d4h7wiq68hwshncq85qp9j5agkvh7avla56vi97j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -98008,17 +98008,17 @@
 (define-public emacs-selectrum
   (package
     (name "emacs-selectrum")
-    (version "20220108.316")
+    (version "20220112.328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/selectrum.git")
                (commit
-                 "40dace03075e0037ab0d15ca712cee5a36f7560a")))
+                 "7753613364eaf9983fb9d247b741eca5d711adbc")))
         (sha256
           (base32
-            "0j2rw898crbvy32kk5fa2pllzcip1phc74s38w4b5nl8ihv1axbc"))))
+            "0bs9yc8vrf5gv0n54p7vxp7w4kiyq9vj01b0f3dxdfhhlv778hss"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/selectrum")
