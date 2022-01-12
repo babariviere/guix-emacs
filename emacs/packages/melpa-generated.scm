@@ -9898,17 +9898,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220110.1137")
+    (version "20220111.2156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "9567f1ca09a3867e50ef8f990b486e916460df9d")))
+                 "cf31199bed3f3b542cb4bc5ca52e372b5e3ac6e3")))
         (sha256
           (base32
-            "0780qymlrg3glyxypizqzwicp5ly5xavxgpmayhx8cxlgp2zlkjh"))))
+            "13d84ww6azfa5ah8arrmbxpd3v74l3vnqqcnmvamay1zy5czjag1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11292,17 +11292,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220110.2334")
+    (version "20220111.2156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "8e94af2f3259530a1d311f20f8acffca3fac432c")))
+                 "4d1d0c53a926a0dff36efb4c2b73f7f5c615dd50")))
         (sha256
           (base32
-            "1y0mgaqsfhn0jp6mgf3vhpszih0yjad3s0bngyr25v2v6i482hh5"))))
+            "1vb8ygk8fkk6qmwc03fyxhgj8cs7f139mz15n70f43ikcpb3xl16"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11750,17 +11750,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220111.1125")
+    (version "20220111.1936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "b882929499800a2857637577d608c84ab024e2be")))
+                 "9f783967c1909cc741a691ee4e4021a952ffc4e1")))
         (sha256
           (base32
-            "1pg8bj8l5k5bm0yxx7y06n8cmn1gvjl1929l28d36m72ncf0jmnm"))))
+            "0fj00c1pwcxh1yh9mbmp5jvj8yjbgsi8vbcnf0ih7ag5ld3ybxzg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -15906,17 +15906,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220111.1112")
+    (version "20220111.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "181b941a2eaa7d17e474e7ef8aa7aaacb64acbfd")))
+                 "b33cb2ef098b0f212d035e2677afdd7f04340765")))
         (sha256
           (base32
-            "0iaa1y8bckw5qd1nknfwi8kpcw0spzs2wpj1qnlp983vd34fag4n"))))
+            "12s5m56c5vrc5wb2larl0ml6r057ici2zalr6g511mhjgp130ipa"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -28152,17 +28152,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220108.145")
+    (version "20220111.1739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "8cf1fdbfacdbdb98ca3b4e50bf295059a02fe4a2")))
+                 "1842d6b182c4fe7b6aa4d06f4957fbeabaa96de3")))
         (sha256
           (base32
-            "1ff1vicshrnfi02ss7xcvglpg6lhw7pib142x99hqfi8a4jrvz28"))))
+            "06k36nyanik7mmas4sj0xxjsq16x1bbspmirgfrng4qb8wxm0jg0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -29045,17 +29045,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20220101.1312")
+    (version "20220111.1940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "44bcdb03bb11891f5966b39be942d76a4a57f5cf")))
+                 "eb23aebbfdb65e0cf21d28daf6c91a15346b78ee")))
         (sha256
           (base32
-            "18kjp0f5ch4mpd6yrd83p73pw7ykp2lv5686is8vcvyyys53jrf1"))))
+            "0816vm8qykncjy8q3fz93j7vaf4yfjrmz9618spgf75hvqkazi0a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-closql))
     (arguments
@@ -65968,17 +65968,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220110.1800")
+    (version "20220111.2053")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "355c9e183c9b3a2872487a3068c5902326b58be4")))
+                 "c228bce435b9fb4b1f4d1bb89b99fd5315df15a9")))
         (sha256
           (base32
-            "1nyccrdwac87g69xqgr5a7v5h02xn7pzpl8bscxs3svpslkc2snw"))))
+            "04cnii0sd4z672v4b1vl2blc9ffa8v0p038qvm0aphd0v54hm95y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68044,17 +68044,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220110.2242")
+    (version "20220111.1451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "7608acbe6f8cca3c484d05b5d21d27319ba1ed4f")))
+                 "f352bb76df3dc4c6c28c12cfd9f71003a491760b")))
         (sha256
           (base32
-            "03mvzb6qlkqdj1rhbzk0j6jkk10p5p27rs3qrryq8lbr57b8r82l"))))
+            "19cxn67fl9rgk6zkw7bl8xrd2ynxrvrgxikq7ypbibf8hn3c2dmp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -68460,17 +68460,17 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20211223.1924")
+    (version "20220111.1813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooseyboots/mastodon.el.git")
                (commit
-                 "f9f4ce55ecf93cd8eeb609a38d4679aed5c5bace")))
+                 "ef10fe596e394dac16d23df893d91e7d68989ffc")))
         (sha256
           (base32
-            "1jp1x9rmk7gs2b2y8yfrf16mbzsi2j4gv0q74mkzdm2jbk7027i7"))))
+            "0wlicsivda7sn7khvcbp13s5gbcryzi4bn78ynfnzdzxw5c49chg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (arguments '(#:files ("lisp/*.el")))
@@ -69082,17 +69082,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220109.1801")
+    (version "20220111.1548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "1689b2861c6e23afc2ec4376c341ceb0470b8f5d")))
+                 "b4dd3135cc60bfd144e5d007b4395a3bd65ee4d9")))
         (sha256
           (base32
-            "0mdf492935f66ym2rsc3zczcy775ricbrdssriwhs9i724ycv3d0"))))
+            "0hlc0rijkg93isipwpm6z6hf910gxzwhpj2zsrmch6i6m5b9n54i"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -77756,17 +77756,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20211130.102")
+    (version "20220111.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "1ccf74ffdbb0dd34caa63022e92f947c09c49c86")))
+                 "3678f8460662f5f042e67f642b5dd4bd3bb85ed4")))
         (sha256
           (base32
-            "16vhmm9an2n5wlj7bvz2rx2qassk5b3d6la90kfm7lnqwch4a7mn"))))
+            "16qjmhy8zl2ngr37cljgmr4i1sszya60jyw71rfv6lv0fsizicxx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -80587,17 +80587,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220102.603")
+    (version "20220111.2305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "679ef6ef001fd1a69b691108178721aa913e7f0f")))
+                 "86c908536320201b721c4805407be19c31f0dd54")))
         (sha256
           (base32
-            "1m36qs8jgn118pzjybs5kf2wxxz7013mzdm4sdszc2qk05syvzav"))))
+            "107fvh258m08s624wg9ncm0drgyfj7kxi0ra09gd2iqwazpsz573"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80641,17 +80641,17 @@
 (define-public emacs-org-roam-timestamps
   (package
     (name "emacs-org-roam-timestamps")
-    (version "20220111.955")
+    (version "20220111.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ThomasFKJorna/org-roam-timestamps.git")
                (commit
-                 "b0036020aa8f8fbcb444ea0eb660f539046bbf7e")))
+                 "604fdad0feb61419751d3d6b828cc443a99f418f")))
         (sha256
           (base32
-            "02szirwkf2k5x8xpm8va0jmwblncljc6i3czm3r5658vbqv6g449"))))
+            "1lpqksk7n76n0xgkjnzafslhsjd05j0b3a1scmhdg7idi2c436fi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-roam))
     (home-page
@@ -83066,17 +83066,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220111.1423")
+    (version "20220111.2147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "5c532048f588f092d9a04e72e9b9e4763df0997d")))
+                 "22677d78b8a15b7f54f6c061570dbc44149823c5")))
         (sha256
           (base32
-            "18dkwpsa3g0w7bmfzr91d68c1zw2v75s8hiv6cprc52di4i7jid0"))))
+            "073svs4pkyrsq97lz33h9116dfcn78zk992i4m5mlbrq0hm7mmhl"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -92543,17 +92543,17 @@
 (define-public emacs-rails-i18n
   (package
     (name "emacs-rails-i18n")
-    (version "20220111.323")
+    (version "20220111.1811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/rails-i18n.el.git")
                (commit
-                 "4d7c7ba4c6549e29aadb1eadbce8378291277623")))
+                 "b2048154beb384e9a732d3b4054dd18d974e9675")))
         (sha256
           (base32
-            "010ypc7p416vsg9mxdwrz8yp7mxvp2hijmb9qq6xf6njcrxs6idb"))))
+            "1ci7an9jjnnl25gly1bg4njhcs20nvavpgbk34z9kvahpy12df48"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml emacs-dash))
     (home-page
@@ -92588,17 +92588,17 @@
 (define-public emacs-rails-routes
   (package
     (name "emacs-rails-routes")
-    (version "20220111.315")
+    (version "20220111.1811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/rails-routes.el.git")
                (commit
-                 "76fde6e50ff42e392cbc6c0b158be2921ef24445")))
+                 "50daf1d06dbd6a1e262757b5da844d7246dd2b0b")))
         (sha256
           (base32
-            "0s0m5j31lv7bxxcqrsa6grdnm6fdbkybp4d2czdy9hpx4avjw7kq"))))
+            "1ilym61xl2ngl0wglry550ahhlkl8c09ay3qnz8p3h1100w7060m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inflections emacs-projectile))
@@ -108741,17 +108741,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220105.1210")
+    (version "20220111.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "3de8d9b256a09adfe5ef6d199870a07adffa6acf")))
+                 "3b4202e8ca201c2213d4618dbc53ae06448e0d71")))
         (sha256
           (base32
-            "05gsjminfvm2dw5sa1ivmjz9j852vscx8bp3qr5ylvib2sk1s5z5"))))
+            "0z95hmkg2inrgzycczg3l4akln14hqmxk895h2dvq7hf9w2cwnpf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
