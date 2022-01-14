@@ -3597,17 +3597,17 @@
 (define-public emacs-apropospriate-theme
   (package
     (name "emacs-apropospriate-theme")
-    (version "20220110.2020")
+    (version "20220114.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/apropospriate-theme.git")
                (commit
-                 "1d994b5c60004981e8e975fc30bb233edeefee12")))
+                 "1761bf480cd62859e452ca492b69f09024bb308a")))
         (sha256
           (base32
-            "0rrabl3fzlp5vlr0l6yx24033vszxhdg8nfg2x7ql5mrkwq02ash"))))
+            "1vhms80pdw46a16l9cjrh8sfyxwwrr8r28qpx1gkzh4bjqyszphx"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -6405,17 +6405,17 @@
 (define-public emacs-bazel
   (package
     (name "emacs-bazel")
-    (version "20220112.2050")
+    (version "20220114.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
                (commit
-                 "e6e63777ab416a3eb28907fb27dc06b55c63172c")))
+                 "57a28859258bc83f2cca62b8530221d228119655")))
         (sha256
           (base32
-            "0g4ignil2af9yl125xwcll2mfk2m8cvg23qpmg0xqb5zc8adfbb7"))))
+            "1vlg4b1k3jw2pssa7fpf9sx9bjb4gmswkcyv30ha4c8pm39byp79"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bazelbuild/emacs-bazel-mode")
@@ -9899,17 +9899,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220111.2156")
+    (version "20220114.1050")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "cf31199bed3f3b542cb4bc5ca52e372b5e3ac6e3")))
+                 "9db78299616bab3c601ace2bcab205c9fbff8dd0")))
         (sha256
           (base32
-            "13d84ww6azfa5ah8arrmbxpd3v74l3vnqqcnmvamay1zy5czjag1"))))
+            "0108wi14fw546mgp2k3jzvycsnmc15hfppl7fk7xqdq2xqnwvq5x"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -21815,17 +21815,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220113.1956")
+    (version "20220114.1440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "8a4eab1c5e50a350d96f17594f57406974b282bb")))
+                 "d663f40766f243382be7a584e368878fcfbff35b")))
         (sha256
           (base32
-            "01164053xj07nvrrkq8kgp9w02w317crl9wmzcyx7h4blial5lbv"))))
+            "1jw4p4x8ha490c21xqwyk0jc1xsd4jy56vc3mn6k897nla95m74d"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -30277,17 +30277,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20220107.1109")
+    (version "20220114.1021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "d4033120c1259c454aaba21eb1c297b0507b34d4")))
+                 "247d8bf4dd93d796c41c0f60947cc77b73b99e83")))
         (sha256
           (base32
-            "0f1zgbgzfc6djr3h5lkw9z614wcr5sfz77lfya31brpbiqpvqz6d"))))
+            "02xni607801764pwnhj0g3mvl1pg5mr0kvg6mbgxxwjpjcv6cndf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -88350,17 +88350,17 @@
 (define-public emacs-polymode
   (package
     (name "emacs-polymode")
-    (version "20220106.1236")
+    (version "20220114.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/polymode.git")
                (commit
-                 "4ded73e39e5b367d349b9c6e490865e72c070b13")))
+                 "1f0cea6d59a6eaec2ce0640d60d705b5fccb24ef")))
         (sha256
           (base32
-            "0gm1604pbhkyfd1hiqpjkkdwl99y9kc46c1sgljyyyvw04lpf15j"))))
+            "0pc9mfwqavnlrbgw9pywb52ks0cg60s2kviswj36ldd98yksasj6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/polymode/polymode")
@@ -96520,17 +96520,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220112.2117")
+    (version "20220114.1250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "79960f971172c63b3de38ffeac1f634370ddca78")))
+                 "702f920d308649ed83ba4ce9b80b4b3fd250356e")))
         (sha256
           (base32
-            "1gl2pwhqxa0gph7rp9xs32z2mh7l7cja8sy2yd10395mg1jb0nan"))))
+            "1kl1ybnyxprzgih7ikgjv7affga3z94ly5bib0vsnb332byb483b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -106369,17 +106369,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220113.1920")
+    (version "20220114.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "0282743a7b3d3ad9534cc57c2b561c7e1fc27520")))
+                 "86bdd2fbd27684b4ef90197a5de14007a2b7ac7d")))
         (sha256
           (base32
-            "19cpm6hl77jyf99839amflv4z6al5ajafzxq7x4k9vjvxwv5fnnm"))))
+            "19g6q890q9in4kscc7mahbc29k3d9s18nmmwfs810pj318wgx1mc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
