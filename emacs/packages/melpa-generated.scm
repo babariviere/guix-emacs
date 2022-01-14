@@ -3117,21 +3117,22 @@
 (define-public emacs-ansible
   (package
     (name "emacs-ansible")
-    (version "20210103.543")
+    (version "20220114.45")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/k1LoW/emacs-ansible.git")
                (commit
-                 "40af0d2bbb6c5bbcf7aa9269ac9a07e22622d263")))
+                 "d89ac0ee57742cca0f0e0a3453d9dcc521575690")))
         (sha256
           (base32
-            "12k8mwlyiipsdjq5h1v04g3aa7ymjyhmy14j6vzjil4w9l6xyvdh"))))
+            "1n38cvdpp2d00vl7ky4qf820rylffkapa3d9s4pwjw6lj55f00ak"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-f))
     (arguments '(#:files ("*.el" "snippets" "dict")))
-    (home-page "http://101000lab.org")
+    (home-page
+      "https://github.com/k1LoW/emacs-ansible")
     (synopsis "Ansible minor mode")
     (description
       "Documentation at https://melpa.org/#/ansible")
@@ -31424,17 +31425,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220113.2019")
+    (version "20220114.633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "a8a12c62902fa743cc7a0303bce55e017a37b55b")))
+                 "081e2ba130d1bc0c43cd2aed88f81a7c67668cb4")))
         (sha256
           (base32
-            "02s6ybwpm0hnf601lscllka0rivxm38pa6vjmslam7hb5kzrb0gm"))))
+            "1ds87bdsvcgg8j2d390n8zw9171n08wsak93mzbz4bzdkpll06ph"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -45016,17 +45017,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20220105.1541")
+    (version "20220114.328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "277216f83f6843f8c6cade704ca39ea2f23aeae7")))
+                 "8b635f07b3b77e84999eeea75b194d95b6457561")))
         (sha256
           (base32
-            "031kfp31wg8ykmq4f6c5njjk52xvcpm4sc79a5bj6arblhfzliix"))))
+            "06la461j3zv460dkyc2mhab3ha9zyb6wim3m4sms84dj2ifnzljf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -47676,17 +47677,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220113.1759")
+    (version "20220114.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "4a1c05249b05d6fac0afcbd8efbbc116b947bb64")))
+                 "318a4d4cee492563efd3a36ad991706e79a99175")))
         (sha256
           (base32
-            "0b7iwhv23qalvwgflb2mlylb2lljxy6ry7f628gvr8snc5q94hcz"))))
+            "0z4cmnf7a0vlm807nf8bxldk45ay3810chi4zgrridxp8a3qi828"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async emacs-popup emacs-helm-core))
@@ -55304,17 +55305,17 @@
 (define-public emacs-iedit
   (package
     (name "emacs-iedit")
-    (version "20220112.634")
+    (version "20220114.434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/victorhge/iedit.git")
                (commit
-                 "48ab9e4be2f1a1afe77e0d8a6ab55554cc7c9c39")))
+                 "699e179dac18c78698cba1a2052bee6f0bbc6bf7")))
         (sha256
           (base32
-            "019lirg8gg81a8wmbnj7nj513k7vqxaikv6k2r26d7wvjafsmsl3"))))
+            "02jdyrff88n69d4kadjaac38gwcv28lhiqqa93rlqzdvmgqsbwak"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/victorhge/iedit")
     (synopsis
@@ -59074,17 +59075,17 @@
 (define-public emacs-jest
   (package
     (name "emacs-jest")
-    (version "20210219.1508")
+    (version "20220114.213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Emiller88/emacs-jest.git")
                (commit
-                 "0fe875082e54bdbfe924808aa155b938ed90d401")))
+                 "760a783a190afb23e12cf3cf3d8949e9a53c7c79")))
         (sha256
           (base32
-            "0dxzml0i4x072jwxsbv0nnj3ws1i3z1x2ybg3fqfnfvzy2vynx3w"))))
+            "0j7dnq0ifad92gv2cx352zf5729imvb3y56z3sgcjx70dlcz61d6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -78253,17 +78254,17 @@
 (define-public emacs-org-category-capture
   (package
     (name "emacs-org-category-capture")
-    (version "20200329.313")
+    (version "20220114.730")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/IvanMalison/org-projectile.git")
                (commit
-                 "96a57a43555e24e5e0d81e79f0fbb47001c41bac")))
+                 "642b39c698db00bc535c1c2335f425fb9f4855a9")))
         (sha256
           (base32
-            "05h9scvnd9ggfwbbl1m124k6sdn5kp9mv2695cril2m4dkr1kyqz"))))
+            "1pcfyrmbnsk39w4d6cs27bcyihics3gll515fslnl5kqbaj9qn09"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("org-category-capture*.el")))
@@ -80095,17 +80096,17 @@
 (define-public emacs-org-projectile
   (package
     (name "emacs-org-projectile")
-    (version "20190130.1439")
+    (version "20220114.730")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/IvanMalison/org-projectile.git")
                (commit
-                 "96a57a43555e24e5e0d81e79f0fbb47001c41bac")))
+                 "642b39c698db00bc535c1c2335f425fb9f4855a9")))
         (sha256
           (base32
-            "05h9scvnd9ggfwbbl1m124k6sdn5kp9mv2695cril2m4dkr1kyqz"))))
+            "1pcfyrmbnsk39w4d6cs27bcyihics3gll515fslnl5kqbaj9qn09"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile
@@ -83066,7 +83067,7 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220113.2228")
+    (version "20220113.2316")
     (source
       (origin
         (method git-fetch)
@@ -97548,17 +97549,17 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20211104.51")
+    (version "20220114.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-scroll-on-jump.git")
                (commit
-                 "0cf26a15bb6278c4273ee53f6a8d7d790792fc29")))
+                 "7b2919f8d8c5350f302ef2382e4bc0921938d355")))
         (sha256
           (base32
-            "0ns1mxbfw5s7mimzqwxbi2sbbs6w60gi7z3l5hmxiv1qwdl0a8p7"))))
+            "0jv6gnvlvpzpa0zwv8is6vqr5w0b04cj09lniqd28bkyy8j7bxb9"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-scroll-on-jump")
@@ -98008,17 +98009,17 @@
 (define-public emacs-selectrum
   (package
     (name "emacs-selectrum")
-    (version "20220112.328")
+    (version "20220114.106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/selectrum.git")
                (commit
-                 "7753613364eaf9983fb9d247b741eca5d711adbc")))
+                 "afe2063341a1bc5ad912109b715aacb0fb983f6b")))
         (sha256
           (base32
-            "0bs9yc8vrf5gv0n54p7vxp7w4kiyq9vj01b0f3dxdfhhlv778hss"))))
+            "0lycgp3k8rlkyk2929ykxpgni05lhi409jkzmbsazmsp8pl5zj8s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/selectrum")
