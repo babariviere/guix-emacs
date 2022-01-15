@@ -44774,17 +44774,17 @@
 (define-public emacs-go-mode
   (package
     (name "emacs-go-mode")
-    (version "20211215.1139")
+    (version "20220114.2239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dominikh/go-mode.el.git")
                (commit
-                 "32cbd78c0af29837ace3db04a224d6d01ec6851e")))
+                 "3273fcece5d9ab7edd4f15b2d6bce61f4e5a0666")))
         (sha256
           (base32
-            "1gq6hm7r5c3k5na5s0rmfzglg9vlc70g50avpayb22x3v5bz6245"))))
+            "00qzn136d8cl3szbi44xf3iiv75r6n1m7wwgldmzn4i5mpz8dbq7"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("go-mode.el")))
     (home-page
@@ -65969,17 +65969,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220112.2206")
+    (version "20220114.2256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "27f30ccfb953c10159af0d12ba91c4c8a1106705")))
+                 "7508c5a51fb0a061f3d45f9ffc32c235041f6b1e")))
         (sha256
           (base32
-            "1rss68pafr21c7j7sb3xfj3hpdipwyvg2bb4gj13biv2vw8g2b2a"))))
+            "13dpqd8gm1lnliwfxd9zzzc57nwfpypavyx74xg1lg6g43kgzr6c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -85919,17 +85919,17 @@
 (define-public emacs-persp-mode-project-bridge
   (package
     (name "emacs-persp-mode-project-bridge")
-    (version "20210524.656")
+    (version "20220115.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/CIAvash/persp-mode-project-bridge.git")
                (commit
-                 "c8a2b76c4972c1e00648def5a9b59a2942bd462a")))
+                 "cacc22942ca5dffdfc3d16cf88576ce0bd9e3a68")))
         (sha256
           (base32
-            "1fzvz7f86azffyqrqx3jiwj54b739p2adb5yp9cilbfwkkqyff0v"))))
+            "1avcc4nlnp1a87p2yaq09yljl639l3j2d44xjkp4vhxqrx9v3xv8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-persp-mode))
     (home-page
@@ -88350,17 +88350,17 @@
 (define-public emacs-polymode
   (package
     (name "emacs-polymode")
-    (version "20220114.2045")
+    (version "20220114.2315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/polymode.git")
                (commit
-                 "355daf3db8e02f1d5a75600d2d3a5325b54d1739")))
+                 "b837826d1cd2197f9029e231054a5151b2af7648")))
         (sha256
           (base32
-            "1pg47bp2k1l2zj6pp2bdjzwb661wqr138ljizn6qykx60l9yqdiv"))))
+            "18jb7fdgpqvwhxql6329by2daa3rw5qdgp29433ikqg075y33yff"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/polymode/polymode")
@@ -107248,17 +107248,17 @@
 (define-public emacs-the-matrix-theme
   (package
     (name "emacs-the-matrix-theme")
-    (version "20220108.658")
+    (version "20220115.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/monkeyjunglejuice/matrix-emacs-theme.git")
                (commit
-                 "c6681c695c5c9a36465e9c63f637a381b369f2c6")))
+                 "70edeba78da844bfbcbcaa24abd5c8983a9df0d7")))
         (sha256
           (base32
-            "0f3iridbibf1zjmnq73sbr5m3fskdn5fl56rgr2msn99649g2m5x"))))
+            "17w40rz4wd7c6w893ksasrsw203jna4n9jsnpymssdmjdf7sbwxk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/monkeyjunglejuice/matrix-emacs-theme")
