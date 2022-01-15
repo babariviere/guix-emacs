@@ -9899,17 +9899,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220114.1050")
+    (version "20220115.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "9db78299616bab3c601ace2bcab205c9fbff8dd0")))
+                 "45fe322c993aa08cac55a8bcfac3ccc3518ad24d")))
         (sha256
           (base32
-            "0108wi14fw546mgp2k3jzvycsnmc15hfppl7fk7xqdq2xqnwvq5x"))))
+            "19n9ckmq9n3iaffm2av162azxg0vhcsbaxgcrsipx80yzswv5plv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -25409,17 +25409,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220113.2147")
+    (version "20220115.1248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "b928abaf3670a9eac69e08a73a9ea8e097fe8720")))
+                 "305b1a81714cefbc0ee7bc74ac84c5e7d49f5858")))
         (sha256
           (base32
-            "00abzvpyk4ylk392dz8fsif1wa1vh6yznc219g3pg4wh0v2pyknk"))))
+            "17vgk70gg4r9md5rqii05p4mhxjv5f9xbaa3w5039lbwncjv56yk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -61198,17 +61198,17 @@
 (define-public emacs-keycast
   (package
     (name "emacs-keycast")
-    (version "20220111.1112")
+    (version "20220115.1538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/keycast.git")
                (commit
-                 "b4965ff5db0e913e58c906c228042921b22335a0")))
+                 "b3c15c3b4564a2b23025e9ee97e7634a6c17b053")))
         (sha256
           (base32
-            "0s31b3kal4j08waa2fwz5d6269wsdywb60a7h4r5vzsrr238lks3"))))
+            "1b9gg5gfs9ffsskvmp3h38ycb97ss9q3iybl66kzgwdif8dchyq1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/keycast")
     (synopsis
@@ -62234,17 +62234,17 @@
 (define-public emacs-kwin
   (package
     (name "emacs-kwin")
-    (version "20150308.1812")
+    (version "20220115.1522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/reactormonk/kwin-minor-mode.git")
                (commit
-                 "d4f8f3593598b71ee596e0a87b2c1d6a912a9566")))
+                 "ec1e794168692c71e5bf89e124981f790b2a726b")))
         (sha256
           (base32
-            "0irbfgip493hyh45msnb7climgfwr8f05nvc97bzaqggnay88scy"))))
+            "1c9jq6msrvw9mh2rhcrr402k4c0hhn3d3i7cr1zmiz1r3nffmm5p"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/reactormonk/kwin-minor-mode")
@@ -66827,17 +66827,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220114.2140")
+    (version "20220115.1530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "804d189bc77c6514dc3cfd757835015fd052ec47")))
+                 "7f03f572d55400899d1e48cfc115e3baf5639021")))
         (sha256
           (base32
-            "1zfdb3kb1flrfccx2hs71bn251d1xj0dw09mvp22cd72h8pzjc71"))))
+            "0li11f2g0l6ws76a1lijdrkhhi4jdf0qnbmak6vdlryvnpsbj33x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68158,17 +68158,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220110.1204")
+    (version "20220115.1538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "ba8de41d861ea0947f2585429b4ca39917683e35")))
+                 "1f8dda7465b1a62d0a6b992be83649c234ddc362")))
         (sha256
           (base32
-            "17rvb0j4r91m7g3gfmsf0ckbazpc8rd5diqrlgk9k35dmlin958r"))))
+            "13j5s2np255jqpkjsj8bs431z2mz6xrf4psrlz48yf9lvag9qv99"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -69083,17 +69083,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220111.1548")
+    (version "20220115.1533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "b4dd3135cc60bfd144e5d007b4395a3bd65ee4d9")))
+                 "b01c6a968e8be9990b1306ee62737dbf13525177")))
         (sha256
           (base32
-            "0hlc0rijkg93isipwpm6z6hf910gxzwhpj2zsrmch6i6m5b9n54i"))))
+            "082f013f8gbd67s6q9636lqhlhwlbg6z6n7icrqfj9x6671phwgn"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -71150,17 +71150,17 @@
 (define-public emacs-moody
   (package
     (name "emacs-moody")
-    (version "20220103.1539")
+    (version "20220115.1428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/moody.git")
                (commit
-                 "6e0ee218788ec5b2d9e1d765ee4cf6a3deec25b6")))
+                 "90503f872b42670d4dbe62ce033042cac7062aa4")))
         (sha256
           (base32
-            "1c1lrf1b7hpip8248m13pjs5yg66d20vva2vym9j1il95ql2c348"))))
+            "163lggazsic4ivxcky2k93l1qcax973yxd6594wx3s5gadkqsyv0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/moody")
     (synopsis "Tabs and ribbons for the mode line")
@@ -88350,7 +88350,7 @@
 (define-public emacs-polymode
   (package
     (name "emacs-polymode")
-    (version "20220114.2315")
+    (version "20220115.812")
     (source
       (origin
         (method git-fetch)
@@ -96520,17 +96520,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220114.1250")
+    (version "20220115.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "702f920d308649ed83ba4ce9b80b4b3fd250356e")))
+                 "2c3a8f185a918203d404eb78c2c4031495c562ac")))
         (sha256
           (base32
-            "1kl1ybnyxprzgih7ikgjv7affga3z94ly5bib0vsnb332byb483b"))))
+            "1k4kqy0xx85cy6yq57hpnvhpbz3q8m3daw1xqsl0fz5x6j7gv0i9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -98274,17 +98274,17 @@
 (define-public emacs-sequed
   (package
     (name "emacs-sequed")
-    (version "20220113.346")
+    (version "20220115.743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brannala/sequed.git")
                (commit
-                 "5b0ce92962ee076f507e06876e9011b275366151")))
+                 "c886981c46d199e1522f18c3fc15198ab8c9a02f")))
         (sha256
           (base32
-            "1ih9fbz4m5w1ix23215x7606ry2ci1ra5mgg2s1r0nxvl0259k73"))))
+            "1illfhlz5r6r9b0dx0mn8zfi7hklcl34za10mnpz63bs2c13vrbq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/brannala/sequed")
     (synopsis
