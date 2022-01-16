@@ -21815,17 +21815,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220115.1845")
+    (version "20220116.326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "754e2594a85cc12bc9de1fead41d510ee0f2a564")))
+                 "a2be700763291d8e88f537209690ba31fe0d8c09")))
         (sha256
           (base32
-            "0zbl8ya8z7b6jrs1y3dr9p4fdjb6a2ymrgn4dfpd9kf3fn6ghvsv"))))
+            "0c5zq2dp5b56m6fgy9chl6x7wlhvlb9k171qsa52dy4ca5j93kid"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -68158,17 +68158,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220115.1538")
+    (version "20220116.209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "1f8dda7465b1a62d0a6b992be83649c234ddc362")))
+                 "1d491a4ba022bd80637c1b63a596b506359c5985")))
         (sha256
           (base32
-            "13j5s2np255jqpkjsj8bs431z2mz6xrf4psrlz48yf9lvag9qv99"))))
+            "0p8i40dvr01p4dz7hsm1n1y2p1xv2i6jhgw7k6z1za3a3j2nfp5v"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -80588,21 +80588,20 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220114.1853")
+    (version "20220116.536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "6170cc99288e75b8e3f3fd3101b66acc12a9613a")))
+                 "5b15159a2c43aeb1400642b80050ba7e8fd87a0b")))
         (sha256
           (base32
-            "0q3nhw05wnqh1qgggxsj8wki4ihciqlkic2x7qbcsskjqm73j1r7"))))
+            "17y6adgs2myn9dn0lxix9716njs1c77xmy668m24gsdnvas48rni"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
-            emacs-f
             emacs-emacsql
             emacs-emacsql-sqlite
             emacs-magit-section))
