@@ -21815,17 +21815,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220116.326")
+    (version "20220116.902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a2be700763291d8e88f537209690ba31fe0d8c09")))
+                 "9ab1d7da2d26701da8fe723ea52c9747b5b27e18")))
         (sha256
           (base32
-            "0c5zq2dp5b56m6fgy9chl6x7wlhvlb9k171qsa52dy4ca5j93kid"))))
+            "1118gnqwxc7xqny14fjv162abf0dsjnkfkcnzyr7x7rg0ighs0gc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23342,17 +23342,17 @@
 (define-public emacs-dracula-theme
   (package
     (name "emacs-dracula-theme")
-    (version "20220105.1056")
+    (version "20220116.920")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dracula/emacs.git")
                (commit
-                 "7d622209de758c3ccf88bf042c85fe13de9dc225")))
+                 "9571f3cac4b9f0a72a12d05706f71f3c8df283e6")))
         (sha256
           (base32
-            "0b6w3k4rpkcvxa816khdri9yjpchsyrq79zq38jabzfladai0kwd"))))
+            "0rsj91rqkgfrbjhhqwz8cr6g37l392h1c7gr32py8vs1pv029ylm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dracula/emacs")
     (synopsis "Dracula Theme")
@@ -25409,17 +25409,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220115.1827")
+    (version "20220116.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "c4fe081c08835a0a015ca866eda8d3514943e59b")))
+                 "e5cea1f44dd6008898b44b2aaf81f6819f3d665f")))
         (sha256
           (base32
-            "1jzc6hjwd4gwqqd59r4hd977zr89s5qj5271mfaygqslj6mw8jz6"))))
+            "0qf3lf67m48jcwbzwb4lw7clfsz3j9pz3p3izfcrh3jznv2b5vpg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -31425,17 +31425,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220114.633")
+    (version "20220116.751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "081e2ba130d1bc0c43cd2aed88f81a7c67668cb4")))
+                 "dbfe2d7d229fdd89fa7d73e4b4201917b24d318f")))
         (sha256
           (base32
-            "1ds87bdsvcgg8j2d390n8zw9171n08wsak93mzbz4bzdkpll06ph"))))
+            "12kii0frm0sbkvac3lv45yj2gyigvpa81fh51c0zx0avhhhjibls"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -32894,17 +32894,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20211227.410")
+    (version "20220116.1346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "d226f5f03235a914f8620ca841908180d5e5c33b")))
+                 "1f1decd46d1cd6e1551c25101428966d8c4a87af")))
         (sha256
           (base32
-            "1zfs9g1lpb8dispngkyfvc70mah5k06hxgjmvvg8sqwc7915hcs2"))))
+            "1dsvivdyp75ivrhpsd7fwddx25p5vg7q4a7mijba68cns7x39bxr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -42153,17 +42153,17 @@
 (define-public emacs-germanium
   (package
     (name "emacs-germanium")
-    (version "20211101.1453")
+    (version "20220116.842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/matsuyoshi30/germanium-el.git")
                (commit
-                 "1f28da73dd767b1cf5afe2230a0fd81bfbb1bb6f")))
+                 "54c9a56da1e86941f2580d4838fbb6097f22f349")))
         (sha256
           (base32
-            "1v1ig4pf5ydb4b1fnjv9awdr2kfwzv1vbgqgkqhbswasxzzz4vgm"))))
+            "193ck3641skspdbggx1a5lqy6rq84k0bj3xkznrzgrcfa9iw1mmx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/matsuyoshi30/germanium-el")
@@ -65472,17 +65472,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220104.1452")
+    (version "20220116.1511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "65e35072d8d38c4882a3f9ff9c88c796ad4ad07d")))
+                 "5235d7a02f7b27292906dd7db644139dea33019b")))
         (sha256
           (base32
-            "1ccy25ba16k6v7s64g774i328x0rcq8jnikh2sa6vywnlb1kyxx7"))))
+            "081gqmp3bi4fcqm862ijww3g7i0gfykhkgzn7rnb1pw15s2026d3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -66827,17 +66827,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220115.1530")
+    (version "20220116.1158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "7f03f572d55400899d1e48cfc115e3baf5639021")))
+                 "9663a644f19810d65570253895fe054f49305646")))
         (sha256
           (base32
-            "0li11f2g0l6ws76a1lijdrkhhi4jdf0qnbmak6vdlryvnpsbj33x"))))
+            "05rijwxj2jiys15j6va01iywlw4p624hhd85pyckjvqk1kh2pcb3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83066,17 +83066,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220115.2319")
+    (version "20220116.744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "268f16a0448ccc703ea76595e37b546ba634f5c0")))
+                 "3d8054b286183edb71e14d8207505a7f28e5cf7c")))
         (sha256
           (base32
-            "0yar7xl07bs5glqikv8w7qrix2bsfjrdxv37v99y9xy1ynb8qgpy"))))
+            "1xqz1q4vh7nm13i9p9nhjmr4yaa5vsd0pcd6n0inili8ga8pkbw2"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -95220,17 +95220,17 @@
 (define-public emacs-rg
   (package
     (name "emacs-rg")
-    (version "20211113.1958")
+    (version "20220116.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dajva/rg.el.git")
                (commit
-                 "47bda7ee2f3c14082f9dd468063d45667a9d5256")))
+                 "dcbaa48689d3d73f8a142a1ab5f1e722d7434ff9")))
         (sha256
           (base32
-            "0m1ykfx2yfhqbzv1ppj2p2dbi7c3kck7p1k7s8z6c955wnday5xc"))))
+            "1djccv9fdl0a3jlv3xsflds1hx5kam2n2ghhv7hr2whivlh9wkrb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient emacs-wgrep))
