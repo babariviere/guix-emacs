@@ -2229,17 +2229,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220106.2021")
+    (version "20220117.108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "9dd3d7a24956fa9400106626e3bca407861521ec")))
+                 "2c963ebb75f211d2f7ac3d2db5f4a9ee2f3e27da")))
         (sha256
           (base32
-            "1yxdr3bm7vfnk1p98ai2769zvypkpv2lyddsnzyxmdx1jzh96gr5"))))
+            "1gn5nyyhrvz8w1y5m8lg2khwfir0czjizmdzinr70gd7n8g1xqk9"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -8018,6 +8018,28 @@
       "A collection of programming modes for Boogie, Dafny, and Z3 (SMTLIB v2).")
     (description
       "Documentation at https://melpa.org/#/boogie-friends")
+    (license #f)))
+
+(define-public emacs-bookmark-in-project
+  (package
+    (name "emacs-bookmark-in-project")
+    (version "20220117.318")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
+               (commit
+                 "d4c60c022d5df4e6325eaf0775e15186a4b73737")))
+        (sha256
+          (base32
+            "1g8njdila7nxlpagsdj8ar3qw42rria42k05vj7jp8fvzpnv72a4"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
+    (synopsis "Bookmark access within a project")
+    (description
+      "Documentation at https://melpa.org/#/bookmark-in-project")
     (license #f)))
 
 (define-public emacs-bookmark-view
@@ -79520,17 +79542,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220105.1255")
+    (version "20220117.438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "613969effcf47d1002c7bc7b0e943df31bf47257")))
+                 "b3932a64ca0d3017255fc99b9cde253eb17b08f5")))
         (sha256
           (base32
-            "0f1vk4wy9661ha5p9wbgp54rp33jf5kjv5cici4k6slbvrbm1xwp"))))
+            "0456i9784pvqkxwdyrrkgair2y4i46r9svx67fz5qljxd1z4yjkx"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -97595,17 +97617,17 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20220114.17")
+    (version "20220117.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-scroll-on-jump.git")
                (commit
-                 "7b2919f8d8c5350f302ef2382e4bc0921938d355")))
+                 "556e9a7a8119e24503f54b25f5c2a8084752d64d")))
         (sha256
           (base32
-            "0jv6gnvlvpzpa0zwv8is6vqr5w0b04cj09lniqd28bkyy8j7bxb9"))))
+            "086p847snpz62b6g7k8sz7izfrbkza1g178q3lj4vysdg8w1fhf7"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-scroll-on-jump")
@@ -106528,6 +106550,28 @@
       "Documentation at https://melpa.org/#/teletext-yle")
     (license #f)))
 
+(define-public emacs-tempel
+  (package
+    (name "emacs-tempel")
+    (version "20220116.2206")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/minad/tempel.git")
+               (commit
+                 "b1db2330ec1c8113b8ad9ae452a1a9fbf08deb5d")))
+        (sha256
+          (base32
+            "0zpa45bgcrqc454m501z3413z6x7m15czphn3sxhqad077da54pz"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/minad/tempel")
+    (synopsis
+      "Tempo templates/snippets with in-buffer field editing")
+    (description
+      "Documentation at https://melpa.org/#/tempel")
+    (license #f)))
+
 (define-public emacs-template-overlays
   (package
     (name "emacs-template-overlays")
@@ -110120,6 +110164,29 @@
       "Don't make typos with the help of helm and company")
     (description
       "Documentation at https://melpa.org/#/typo-suggest")
+    (license #f)))
+
+(define-public emacs-tzc
+  (package
+    (name "emacs-tzc")
+    (version "20220109.542")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/md-arif-shaikh/tzc.git")
+               (commit
+                 "a5396dd63cbd00999844c29b77a99b8fcb02d48c")))
+        (sha256
+          (base32
+            "0vp4i7vqj3cxmmf0gg1wdbazjj4126az1vlzrwbsb1bh8gibc2dd"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/md-arif-shaikh/tzc")
+    (synopsis
+      "Converts time between different time zones")
+    (description
+      "Documentation at https://melpa.org/#/tzc")
     (license #f)))
 
 (define-public emacs-ubuntu-theme
