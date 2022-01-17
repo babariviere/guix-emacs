@@ -6811,17 +6811,17 @@
 (define-public emacs-better-defaults
   (package
     (name "emacs-better-defaults")
-    (version "20211216.420")
+    (version "20220116.2220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~technomancy/better-defaults")
                (commit
-                 "4b833e0601e77a8ed86b30929da2aba2b88f33be")))
+                 "db2d945c44e26f32a658e9e743dd4b7a0d84b2fd")))
         (sha256
           (base32
-            "0g28ra3x38nq6qaxn163iyjjipj4pspwsyyi1y15qqp264fv1002"))))
+            "0mlga8kk09ir66lqs5xx0bkr51vcc89hxq3ax2vaq1zsvlddl5h2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/technomancy/better-defaults")
@@ -12213,6 +12213,30 @@
     (synopsis "Clojure Java decompiler expansion")
     (description
       "Documentation at https://melpa.org/#/clj-decompiler")
+    (license #f)))
+
+(define-public emacs-clj-deps-new
+  (package
+    (name "emacs-clj-deps-new")
+    (version "20220109.1459")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jpe90/emacs-deps-new.git")
+               (commit
+                 "7d774b5e66bd292ab817103dd6bd4281f3d447b3")))
+        (sha256
+          (base32
+            "1gay8pscaaawlm1y1gv1ljjq42sb00139msxqk1qkbfiw3n9hrir"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-transient))
+    (home-page
+      "https://github.com/jpe90/emacs-deps-new")
+    (synopsis
+      "Create clojure projects from templates")
+    (description
+      "Documentation at https://melpa.org/#/clj-deps-new")
     (license #f)))
 
 (define-public emacs-clj-refactor
@@ -26643,23 +26667,22 @@
 (define-public emacs-elfeed-goodies
   (package
     (name "emacs-elfeed-goodies")
-    (version "20190128.1631")
+    (version "20220116.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/algernon/elfeed-goodies.git")
                (commit
-                 "95b4ea632fbd5960927952ec8f3394eb88da4752")))
+                 "8e4c1fbfb86226d867b524fd0f8ae78b4b602f1b")))
         (sha256
           (base32
-            "0mfigkp77acqlnkj07vjzbcamwxp37zqxramp1qdf95psnz177q7"))))
+            "1f8gyzzdfj0x078m8az2n4c4ihxyxg3yrhx5ry9fi0xsglzvrcn0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-popwin
             emacs-powerline
             emacs-elfeed
-            emacs-noflet
             emacs-ace-jump-mode))
     (home-page
       "https://github.com/algernon/elfeed-goodies")
@@ -39360,6 +39383,30 @@
       "Documentation at https://melpa.org/#/flymake-racket")
     (license #f)))
 
+(define-public emacs-flymake-rest
+  (package
+    (name "emacs-flymake-rest")
+    (version "20220109.15")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/mohkale/flymake-rest.git")
+               (commit
+                 "fd9928801cf601a221cf45508e254f405d19c819")))
+        (sha256
+          (base32
+            "1paiw6ax6zcqdr2gxj78d8by7glag0nnrp8y489qz6k2y7mwv9s8"))))
+    (build-system melpa-build-system)
+    (arguments
+      '(#:files (:defaults "checkers/*.el")))
+    (home-page
+      "https://github.com/mohkale/flymake-rest")
+    (synopsis "Core features for flymake-rest")
+    (description
+      "Documentation at https://melpa.org/#/flymake-rest")
+    (license #f)))
+
 (define-public emacs-flymake-ruby
   (package
     (name "emacs-flymake-ruby")
@@ -42153,7 +42200,7 @@
 (define-public emacs-germanium
   (package
     (name "emacs-germanium")
-    (version "20220116.842")
+    (version "20220116.1634")
     (source
       (origin
         (method git-fetch)
@@ -56207,17 +56254,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20220110.30")
+    (version "20220116.2242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "bcdb97983c010b2017c547dbde30e43546db8b46")))
+                 "ff25dda5e25727ba79aad7676dd223fec4a12826")))
         (sha256
           (base32
-            "1p0rsq3dixlf2xdzqhl82kll3vx2zjzy4ba4pnzn6cczi7i8l6f6"))))
+            "15pcvc6jq31416rl3050pfnvqmbiaqljhgghlq59w843vw3y4icr"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -66827,17 +66874,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220116.1158")
+    (version "20220116.1908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "9663a644f19810d65570253895fe054f49305646")))
+                 "2a7812705f5cf4b864bb162576415863f4116285")))
         (sha256
           (base32
-            "05rijwxj2jiys15j6va01iywlw4p624hhd85pyckjvqk1kh2pcb3"))))
+            "02rnk0c3yc5ws7phiywkmak7d3zi9w4krxqalzbdhj22nhh0l7pq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80588,17 +80635,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220116.536")
+    (version "20220116.2130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "5b15159a2c43aeb1400642b80050ba7e8fd87a0b")))
+                 "69742c3d5145f2cfbf126d28437274e7ae9fb555")))
         (sha256
           (base32
-            "17y6adgs2myn9dn0lxix9716njs1c77xmy668m24gsdnvas48rni"))))
+            "0ii07va5hc4f47cnrbid4as08ph1iqnsdj4cf2r7dg3qhsz13kh6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83066,17 +83113,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220116.744")
+    (version "20220116.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "3d8054b286183edb71e14d8207505a7f28e5cf7c")))
+                 "30d55cad86ccc5dedb607bb5c580aa5fdc366b6f")))
         (sha256
           (base32
-            "1xqz1q4vh7nm13i9p9nhjmr4yaa5vsd0pcd6n0inili8ga8pkbw2"))))
+            "14daihz0kzh6rajlbmflfhx5r9zylhii528llkxf3nra2cjf3d5g"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -84766,17 +84813,17 @@
 (define-public emacs-parsebib
   (package
     (name "emacs-parsebib")
-    (version "20211208.2335")
+    (version "20220116.2336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/parsebib.git")
                (commit
-                 "3d46fb939371664682c711750367de088aa66f92")))
+                 "63e85c8477fdf98ba920437c9df15f8f06c315e9")))
         (sha256
           (base32
-            "08vrkadjxaw1w1bx8dg12kxxkvgl65p0d7gkpfhwpvv35k0d9z3y"))))
+            "1pk6n1nzvq01miswdddf6ny49zswjlc6cghd5ga0af0nmn61fl6z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/joostkremers/parsebib")
@@ -96519,17 +96566,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220115.1848")
+    (version "20220116.2233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "44a1e6790ed66c0b0fd23234f292dea032afc9dd")))
+                 "f92e9cdfa44c7948417093d6f275a2a8241cae8f")))
         (sha256
           (base32
-            "0v4f9qcp5bwdgyvsaw8kwzqcq3r2z0agnpl979cvmj1vv43p6180"))))
+            "00i500k8cjc4vskvqlcn095vidyklc61np2i8nh8bazqh1k9d15g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -112849,17 +112896,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20220112.721")
+    (version "20220116.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "b9d5e73963474aeb885e5ba0327a8969b7311903")))
+                 "442026eea23a7a8e73de3f837ae0d1435b13e838")))
         (sha256
           (base32
-            "04ghd0hj0wbplm1zbfiy8hykh96j54j6aw91c0brp169h9nysfn4"))))
+            "1v4g06xl4zcjzd9xphj58aidynpm0v64gh13fsbj2b15i095zrqa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
@@ -112871,17 +112918,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20220112.722")
+    (version "20220116.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "2017bac6847c47a564b12139cef45a4a1af8527f")))
+                 "b60bbe05b5085cedcfd135375ccd51cc8d44e879")))
         (sha256
           (base32
-            "1zfvhg0xiq9n6jz97bma00sic9mqqi45f2d9r57k7ycaa80y6rha"))))
+            "0s9s3vgw1nv4fwz5w475337sp1w5360lnapgm04hdck9lcyb6374"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
@@ -116860,17 +116907,17 @@
 (define-public emacs-yascroll
   (package
     (name "emacs-yascroll")
-    (version "20220103.1605")
+    (version "20220116.2241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/yascroll.git")
                (commit
-                 "42750d23b47c6c8a3aa77088eb7dcf289ffbca4b")))
+                 "a5920d660f660ed05f4ca63bfd5e70f912baf9d2")))
         (sha256
           (base32
-            "1dpxcylckv2fh1m5bs1iphsjjrjf208yzp8s5dmhrgbfhwirzdsv"))))
+            "1dbqjxyxl5p7hg2z249nlw06cx2hn4sciv7fvxlnyhcdnhhv2bhd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/yascroll")
