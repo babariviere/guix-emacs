@@ -21861,17 +21861,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220117.1641")
+    (version "20220118.758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "d4745e67161733087bdf5fe8114532dddadb7520")))
+                 "4960458c1d4cf57d6ba70947b6e0629786502e90")))
         (sha256
           (base32
-            "03v4b681g9b5gjx0gq7hh52ss91g4cxxa2v2f5hjwg9nriy7hqvl"))))
+            "05gnad4hdzf1lld424q6i9vd2m1cvk1k240xr3nl8vhra0swf3vp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23388,17 +23388,17 @@
 (define-public emacs-dracula-theme
   (package
     (name "emacs-dracula-theme")
-    (version "20220116.920")
+    (version "20220118.748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dracula/emacs.git")
                (commit
-                 "9571f3cac4b9f0a72a12d05706f71f3c8df283e6")))
+                 "a7a3becaf11488eee36d50c06a692f3fa4201297")))
         (sha256
           (base32
-            "0rsj91rqkgfrbjhhqwz8cr6g37l392h1c7gr32py8vs1pv029ylm"))))
+            "0v3yan01yhqz6k34x580j7q8xirgbv86ghsc153k175jc7ig0hi0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dracula/emacs")
     (synopsis "Dracula Theme")
@@ -24554,17 +24554,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220108.2115")
+    (version "20220118.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "66aa4c3513dbdaef951d392083f73ecf9bcd60d6")))
+                 "c854cd0ba979085178b797adb72ad42eed2f87f7")))
         (sha256
           (base32
-            "11j7m24p4zk8d1gx4xakc1cxljk9yqis254qmzly2dw23gy6c8ia"))))
+            "05lihrrbflr63cbp342g8s2y2i0l3hd4z6q88yvwirfmdv9hlmz9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -31470,17 +31470,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220116.751")
+    (version "20220118.49")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "dbfe2d7d229fdd89fa7d73e4b4201917b24d318f")))
+                 "5cc50418d0654c4dae1b312f327493e96724cd5e")))
         (sha256
           (base32
-            "12kii0frm0sbkvac3lv45yj2gyigvpa81fh51c0zx0avhhhjibls"))))
+            "014isydh72wynk5pfbxv9yc9vgxmzzhn8iywqpd73jps42q7kn5x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -32089,17 +32089,17 @@
 (define-public emacs-evil-mc
   (package
     (name "emacs-evil-mc")
-    (version "20210730.1752")
+    (version "20220118.122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gabesoft/evil-mc.git")
                (commit
-                 "246aecc17481dd23c172a9b845f02a9d9e322c7f")))
+                 "63fd2fe0c213a4cc31c464d246f92931c4cb720f")))
         (sha256
           (base32
-            "0d3d72q908rdnd4g03aakraij2himw6q4qqrf9wsr3c846q3bvrn"))))
+            "1f8853zg9f0ib1jcfq25lm997l11bbg6rw2jvphcll51ag5zbyad"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page "https://github.com/gabesoft/evil-mc")
@@ -56300,17 +56300,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20220116.2242")
+    (version "20220118.125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "ff25dda5e25727ba79aad7676dd223fec4a12826")))
+                 "d6aa7d32aee6665784766858e40b5e4e13190652")))
         (sha256
           (base32
-            "15pcvc6jq31416rl3050pfnvqmbiaqljhgghlq59w843vw3y4icr"))))
+            "08sizq24n2w6cr22hmnlprdvnvkslgj8rlv41zb9g75yjn5sd9gy"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -80682,17 +80682,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220116.2130")
+    (version "20220118.219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "69742c3d5145f2cfbf126d28437274e7ae9fb555")))
+                 "6263c3a9563d825f8729d66eb10c4745a0f5e945")))
         (sha256
           (base32
-            "0ii07va5hc4f47cnrbid4as08ph1iqnsdj4cf2r7dg3qhsz13kh6"))))
+            "1a0i8pkqasb4w1dgzm4nxacdly8m788p1n4002hgldvldj08z4g5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -91944,17 +91944,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20220112.2048")
+    (version "20220118.300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "c3e3ee945a828b91fa2792e492b6acabdbb54372")))
+                 "049bd0a118e0ea133b777b40af1728734c4bf481")))
         (sha256
           (base32
-            "01v6rk3w9jqn27r16pbfdh4lnxfjpsv7mixlh8d4snv9n2c3r2gl"))))
+            "13x6vvzxwmcjs6gd3xmhszy139dxa4vylvn9bq4677cj62yf5xpl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/python-mls")
@@ -108011,17 +108011,17 @@
 (define-public emacs-titlecase
   (package
     (name "emacs-titlecase")
-    (version "20220109.2137")
+    (version "20220118.604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/duckwork/titlecase.el.git")
                (commit
-                 "5c60eeedd259bf137544b5711f767349c2734da1")))
+                 "d82f3d23c166db1c3ea9ae25adaf43d1eeb748dc")))
         (sha256
           (base32
-            "1q8ypylrlw5s2iyqmpmqhkahphxfhs53k1523r0hl9h65fhcxf3x"))))
+            "1m1zn8fh68jvh3n7x89bj2v0wgdj0323vrxp7251n9vj3fffnchi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/duckwork/titlecase.el")
@@ -110216,17 +110216,17 @@
 (define-public emacs-tzc
   (package
     (name "emacs-tzc")
-    (version "20220117.1746")
+    (version "20220118.557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/tzc.git")
                (commit
-                 "e5c5a9e4c8506c23f4c87690f51d022dd1554d98")))
+                 "d1f08fff5d4f9c2584a3b405464c6a92000f62b3")))
         (sha256
           (base32
-            "0ild8cshci0nhqgbqmvxzfnvgjqdhycpp25s4pbrivvzh97gp5dh"))))
+            "108920snw6i0lbdy7ky336n5lkf44bv1cfn0an12amfa3jb5w1wg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/md-arif-shaikh/tzc")
