@@ -21861,17 +21861,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220118.758")
+    (version "20220118.939")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4960458c1d4cf57d6ba70947b6e0629786502e90")))
+                 "a530012114d74ae9dcc4b1b81fcde143b7f21571")))
         (sha256
           (base32
-            "05gnad4hdzf1lld424q6i9vd2m1cvk1k240xr3nl8vhra0swf3vp"))))
+            "121qfq7v2saiad9zsf2l2zfc19s6gxhn49fnnikxkbvbf9blq9nb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -64580,17 +64580,17 @@
 (define-public emacs-lister
   (package
     (name "emacs-lister")
-    (version "20220117.2053")
+    (version "20220118.1322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/publicimageltd/lister.git")
                (commit
-                 "c88fe7afc644e3a9459cc95bf34c3a899f9483e5")))
+                 "51581b53ecf8e68d67a2d85dde539533aa7199ee")))
         (sha256
           (base32
-            "0jrrqnqgcwqb2gk2rf2nng577vbq0zzf0rvgrqrfjnz2pz9j3f2h"))))
+            "051wd9gnbr702qf3qz7ni8cmc6sxbxmxvlzipf03gga0n2dhrlas"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/publicimageltd/lister")
@@ -68252,17 +68252,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220117.1451")
+    (version "20220118.1440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "c002dc075397143147b5660df289d834d06b5909")))
+                 "541bd7b48a4b7586f3c419f9ee1bb24810e1f56d")))
         (sha256
           (base32
-            "0dkqhg1252m4i0c9y5n0gq3l7wn1bbxb2rkxkql606i56xjwplkv"))))
+            "0m634gigg6ypns2j9ipf97jv659d6zdcdfff825kazb31hz9lms4"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -80613,17 +80613,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20210531.1929")
+    (version "20220118.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "e7a7109e4c34811d471bf685b710234564a556f6")))
+                 "faca69e10bc53b761b4d95cb05afb1c29dff7a97")))
         (sha256
           (base32
-            "10p35q5l9racfqp92xcqard7n75gpqw6l5zjgbybswnkzvdjzd8c"))))
+            "1vjc2hs8nf5cpniyji9rbj3alm5zc4z4j3i0glj3vjw18wndaq2z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -81594,17 +81594,17 @@
 (define-public emacs-org-vcard
   (package
     (name "emacs-org-vcard")
-    (version "20220112.835")
+    (version "20220118.1102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/org-vcard.git")
                (commit
-                 "079d6227147427c7f53471e57a56582a858ced13")))
+                 "3a73d6e1f54fda807ffa7b978884ea7efc09b55e")))
         (sha256
           (base32
-            "1q46aj2zd51nkyq5d3y0xlaxfmd4jc0xahjplp80lscnlc6cy39k"))))
+            "1hjr78j5fld2842m65lk2wl86z5m3njvcfzhs4qwabmq55v9zq0n"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-vcard.el" "styles")))
     (home-page
@@ -88230,17 +88230,17 @@
 (define-public emacs-poly-markdown
   (package
     (name "emacs-poly-markdown")
-    (version "20210625.803")
+    (version "20220117.2351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/poly-markdown.git")
                (commit
-                 "e79d811d78da668556a694bb840bea3515b4c6f8")))
+                 "d4ca396ec4a7d674ef0d671a6896f929ce5b504c")))
         (sha256
           (base32
-            "02jpak60jl6nrz5zkkc0cw5i95vl4h6g31qvgb3qsidimav305n6"))))
+            "15m16krh3xq5h5amd3prx4m69rcp1gy790jrwrh6xpq2yp86f0iz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-polymode emacs-markdown-mode))
@@ -88443,17 +88443,17 @@
 (define-public emacs-polymode
   (package
     (name "emacs-polymode")
-    (version "20220115.812")
+    (version "20220118.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/polymode.git")
                (commit
-                 "b837826d1cd2197f9029e231054a5151b2af7648")))
+                 "5e730d58101ba3fd7933a0e0f65bb1d5b09e3745")))
         (sha256
           (base32
-            "18jb7fdgpqvwhxql6329by2daa3rw5qdgp29433ikqg075y33yff"))))
+            "0xrzrzwxh9v0ab1a8wq6vkpxlrxxrna017ana51nbnb4kddma2i1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/polymode/polymode")
@@ -106462,17 +106462,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220117.2312")
+    (version "20220118.637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "f5a716b3d19141444fa35fdfd81b5c275280a645")))
+                 "27bccb98eaca5f6c6e67db1d45769458dbb546ef")))
         (sha256
           (base32
-            "16dh9n3g48zgnr9qdpwsa3gxdnzq0v86y0d0zhgzim6dkigh8zig"))))
+            "0prh9ghsqf7avfsw9ad2r034jb97wgdn254jja99wqy33hscq49m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -108352,17 +108352,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220105.836")
+    (version "20220118.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "5a85936fe19f9c8692fb805527031ea9d1ca87bb")))
+                 "e8a4790e1979f05dc4a6d3589a173566b0ee2c44")))
         (sha256
           (base32
-            "0qj3p9kjygwdb7kd6182af28kk3fb3r6y7fp6z9j9487rgwf26ky"))))
+            "04860qbnb4gc2pwfav897qhkyw9941br7vb5b3hz7yv5d3n4qq06"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
