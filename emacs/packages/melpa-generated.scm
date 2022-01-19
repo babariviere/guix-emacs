@@ -8023,17 +8023,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220117.833")
+    (version "20220119.421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "9bbadacc557c0c7bf80aa39b3d91014183a1d440")))
+                 "e725de273de33e48ecb066f00d9665021edb9a28")))
         (sha256
           (base32
-            "03y72xqm1axprd5qwjjkynbqs4w1cyqj5g2gcx6m8wp0vwbacixs"))))
+            "018kjiiv9v41wcaxwnjsmy368l5r2gyak9y0pybaa7cgpf3w8xlk"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -9921,17 +9921,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220117.1225")
+    (version "20220119.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "46a6807ec43d3403f0b3f54f9b6c12e61ae6a8ea")))
+                 "fa38c165d80535fea9aaa261be5301299f30a38e")))
         (sha256
           (base32
-            "1dmc8w07nyrkjkrs0qh1ffn13bg6sva6lsws8dy5bn2zszna649k"))))
+            "0g232jjv57s1zyzil28aw6hz8rzdg06s36p7phgr7yzlnx498r76"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -21039,17 +21039,17 @@
 (define-public emacs-dired-fdclone
   (package
     (name "emacs-dired-fdclone")
-    (version "20210226.532")
+    (version "20220119.717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/dired-fdclone.el.git")
                (commit
-                 "3ba369f5fc48a8fdf06d1c6ee1167b5a6eb7c1b3")))
+                 "66e337012e72cebd2485f1efca0b2f78dc9c6252")))
         (sha256
           (base32
-            "1qh19f0ry7ri7vibcsb9y36ni7k8spjlnl01knlx7cs65qza8mpf"))))
+            "012a4fwkixpyn9d6zy58slip0xdylx6dla89b885chzaadgrzbd6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/knu/dired-fdclone.el")
@@ -41790,17 +41790,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20211229.1905")
+    (version "20220118.2341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "e204771601e5c985bb0d6b373666be4bc22582f9")))
+                 "0f2cb17dd6cad1eb5c1447a1b5f80c933309a153")))
         (sha256
           (base32
-            "0rg15hhf0yzcacyk1bx93fn4g60vgnzyi0a677dqgm240dasp02g"))))
+            "11sl3bbnx10yjndszhr4fk3asjyz27fxf7igh2vi7vmahby52ckf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -81594,17 +81594,17 @@
 (define-public emacs-org-vcard
   (package
     (name "emacs-org-vcard")
-    (version "20220118.1102")
+    (version "20220119.248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/org-vcard.git")
                (commit
-                 "3a73d6e1f54fda807ffa7b978884ea7efc09b55e")))
+                 "74fc34319ce26455f58c7ae476b482d323796276")))
         (sha256
           (base32
-            "1hjr78j5fld2842m65lk2wl86z5m3njvcfzhs4qwabmq55v9zq0n"))))
+            "0s0bx2vgn2rzcda9sfcfds3x68d2gnz90qviphpf6bi27ab83a20"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-vcard.el" "styles")))
     (home-page
@@ -98102,17 +98102,17 @@
 (define-public emacs-selectrum
   (package
     (name "emacs-selectrum")
-    (version "20220114.106")
+    (version "20220119.50")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/selectrum.git")
                (commit
-                 "afe2063341a1bc5ad912109b715aacb0fb983f6b")))
+                 "823eec0246388e8dcf5581533dac96c2626d51f3")))
         (sha256
           (base32
-            "0lycgp3k8rlkyk2929ykxpgni05lhi409jkzmbsazmsp8pl5zj8s"))))
+            "1h6a5mvfcyz3x0s15g4mi503fg3mqbwajns9y20148gydvfjbxjl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/selectrum")
