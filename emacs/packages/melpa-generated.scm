@@ -8023,17 +8023,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220119.421")
+    (version "20220119.949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "e725de273de33e48ecb066f00d9665021edb9a28")))
+                 "1033822db4ebf675bd55cfe490b39602e7c3c2d3")))
         (sha256
           (base32
-            "018kjiiv9v41wcaxwnjsmy368l5r2gyak9y0pybaa7cgpf3w8xlk"))))
+            "1wkh084i62kssx47x154rlsmswqljj7k5nkj0icmdnxlf4ynx71a"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -9921,17 +9921,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220119.754")
+    (version "20220119.829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "fa38c165d80535fea9aaa261be5301299f30a38e")))
+                 "86b5013270f806895243748ef63b6ce33e29053a")))
         (sha256
           (base32
-            "0g232jjv57s1zyzil28aw6hz8rzdg06s36p7phgr7yzlnx498r76"))))
+            "13vm0wlzq5xmrcfkbsza3rg6mdcw67n01c8aaf9l4z5fiks8q8y0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -34774,17 +34774,17 @@
 (define-public emacs-filetree
   (package
     (name "emacs-filetree")
-    (version "20220108.249")
+    (version "20220119.851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knpatel401/filetree.git")
                (commit
-                 "bb266a8306844f83267a539bca00fb8fab5bb973")))
+                 "a9278b4581a9cb5ab0b8e2008f09911a965f0cc1")))
         (sha256
           (base32
-            "13ldh2vp3c1sigl24h3pjlr7pp1kqps4pypr9xs9nfp8p1lxyd14"))))
+            "08b82vp4m9011fa87901736rvy7mbqnwynjcmg7wnblwqm8shs2n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-helm emacs-transient))
@@ -55398,17 +55398,17 @@
 (define-public emacs-iedit
   (package
     (name "emacs-iedit")
-    (version "20220117.954")
+    (version "20220119.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/victorhge/iedit.git")
                (commit
-                 "3fb4762f844baae1db9c19c6c5506558bfaae323")))
+                 "44968bea9bff8fdd5bf9d227f53814c44bb9f619")))
         (sha256
           (base32
-            "11v89cm0sdbmcjqy2p37r413ih8fzmhvsc1ah8llv7wn1gvkr23b"))))
+            "15l0dprhgfv948vlc05n91npb4331n4i3v1idd3zww6vrw85n9l6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/victorhge/iedit")
     (synopsis
@@ -70860,17 +70860,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220118.1928")
+    (version "20220119.820")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "581ada01203c13758060852b758706565290935b")))
+                 "8d8aeb6e7ed8618ec373f59b35bc65c74237f90d")))
         (sha256
           (base32
-            "0pibblpxb6yaja1japfd4sp1yn1f8fmp8my28dx06g5gz44n27gp"))))
+            "1160lbzfafyzljn46fj4dczib055dc474xq31y2xadlmq4jmfl0f"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80613,17 +80613,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220118.754")
+    (version "20220119.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "faca69e10bc53b761b4d95cb05afb1c29dff7a97")))
+                 "eac6aa8694b37623cef14d208ed88415499072a1")))
         (sha256
           (base32
-            "1vjc2hs8nf5cpniyji9rbj3alm5zc4z4j3i0glj3vjw18wndaq2z"))))
+            "01ri6h144s0bgf45azbqzkm2h4x0jlz9n2azxq27dk2n7k3lzv6l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -88277,17 +88277,17 @@
 (define-public emacs-poly-org
   (package
     (name "emacs-poly-org")
-    (version "20200817.756")
+    (version "20220119.910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/poly-org.git")
                (commit
-                 "0793ee5c3565718606c514c3f299c0aa5bb71272")))
+                 "e8e5375f82c1d1a6b4b0ba6ae7ea181ff6f49e3e")))
         (sha256
           (base32
-            "011nacpyxc969qyvbzwhz0hr3bcbkjiwlaqa27sb4hffnl4p1py9"))))
+            "1v1k0aah4c6b1zrswjgcfnsaypxxgiyai33j4slxvalbj4nsa5g5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-polymode))
     (home-page
@@ -88443,17 +88443,17 @@
 (define-public emacs-polymode
   (package
     (name "emacs-polymode")
-    (version "20220118.2310")
+    (version "20220119.925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/polymode.git")
                (commit
-                 "0ea23b89ec18377bacb7d91bc02feb55e49b5a65")))
+                 "d0913ed53d27ee90b8a31b7a78a29502a5314087")))
         (sha256
           (base32
-            "1p3c2b28ghrcwz26s0ggw2lm9ym99chamk8lkzfq92mhahwbn2fm"))))
+            "0h4xndlgyqv1ywqnvl6zb08brviiznmarnn56sikmjzkh9i64zdh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/polymode/polymode")
@@ -113010,17 +113010,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20220116.1844")
+    (version "20220119.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "442026eea23a7a8e73de3f837ae0d1435b13e838")))
+                 "be9e32f04ea7f190c57d18e59eb4fdd53e89e542")))
         (sha256
           (base32
-            "1v4g06xl4zcjzd9xphj58aidynpm0v64gh13fsbj2b15i095zrqa"))))
+            "0bc5n14xzdlwyxx2h4pw4ffzb16jzsmm4a3pr99i5di8gr57d5rh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
@@ -113032,17 +113032,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20220116.1844")
+    (version "20220119.1101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "b60bbe05b5085cedcfd135375ccd51cc8d44e879")))
+                 "0198d598657ce02c95a977eb27b681a5cc7604a7")))
         (sha256
           (base32
-            "0s9s3vgw1nv4fwz5w475337sp1w5360lnapgm04hdck9lcyb6374"))))
+            "1zvhiz45nnzh5k1pki4j6mx5vr3nyqp7q5vb5816f646j8kf7lby"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
@@ -113933,17 +113933,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220104.1504")
+    (version "20220119.1026")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "4f1c96381a96000358b6621782d79c79b05ca5da")))
+                 "d95e0db1bd042d1a8c9bb6bf744eb07ecbf62d73")))
         (sha256
           (base32
-            "16hh7mzn0jkv6bq4iwy413yq9qppivmnwshlm0n4dx6hwdqadfsq"))))
+            "0mw2ws23fvxc5lnpic8kbqii0rvjamdvff5xa7rywd9yiwv3yfm8"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
