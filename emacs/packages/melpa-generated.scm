@@ -11773,17 +11773,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220115.1537")
+    (version "20220118.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "cb901fed8f7575419f5986217f2f4aa50276551b")))
+                 "470ecfb761062cbb546293e21cd5aa56dd77f528")))
         (sha256
           (base32
-            "1bzcdc18zr950c4pkwl2cv40w0a09rmwfh67aarbpk2wh2fy23v3"))))
+            "0pn6f5hi3ldqzx2p53365arcixxqyrmhvqd2cl0nlz0g0q5wzwhm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -30712,17 +30712,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20211231.1746")
+    (version "20220118.1855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "5ec55b95940ac63ef6209c76035a13d02a3248cd")))
+                 "3a919560e701c3fc19dc7e03e49f0950eb120b6c")))
         (sha256
           (base32
-            "149x113z4k0bgcir82wv0915zcg9mb1zl2qfymp9s6g31xx3m4dc"))))
+            "0iizk76py74m9gm39x57dfjnaz745knmpddcwnh6xqmhsh4wgqar"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -31273,17 +31273,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220117.1131")
+    (version "20220118.2201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "11913ecee10063cd1f53ebb9f4b7ded1e413e83e")))
+                 "be97395e31861fa7b84e7440a87db455e2089107")))
         (sha256
           (base32
-            "1fs15rm9kqvzjrz8652rvjajx7l69kqrc2ndzdbrlydpiwhayyja"))))
+            "11mcf6461z1v7asaa7kxa88y0x16m51g1lixkx7ggjdls21nbwf6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -68252,7 +68252,7 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220118.1440")
+    (version "20220118.1509")
     (source
       (origin
         (method git-fetch)
@@ -70860,17 +70860,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220117.1302")
+    (version "20220118.1928")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "d370604bfa09f9f9c4cc5535306919ec1ce29e97")))
+                 "581ada01203c13758060852b758706565290935b")))
         (sha256
           (base32
-            "07wliqlik2mdrck026c1kfavgrj1r67fhvcyzb5691yh8mj6h07b"))))
+            "0pibblpxb6yaja1japfd4sp1yn1f8fmp8my28dx06g5gz44n27gp"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80682,17 +80682,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220118.219")
+    (version "20220118.2356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "6263c3a9563d825f8729d66eb10c4745a0f5e945")))
+                 "47ad646d51ab1f8a1d8e87ff770290399f6045f5")))
         (sha256
           (base32
-            "1a0i8pkqasb4w1dgzm4nxacdly8m788p1n4002hgldvldj08z4g5"))))
+            "0m628sdsklyqmj9ycshw98ra061l7na72blkp58k9bmf4g5krcnc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -88443,17 +88443,17 @@
 (define-public emacs-polymode
   (package
     (name "emacs-polymode")
-    (version "20220118.1145")
+    (version "20220118.2310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/polymode.git")
                (commit
-                 "5e730d58101ba3fd7933a0e0f65bb1d5b09e3745")))
+                 "0ea23b89ec18377bacb7d91bc02feb55e49b5a65")))
         (sha256
           (base32
-            "0xrzrzwxh9v0ab1a8wq6vkpxlrxxrna017ana51nbnb4kddma2i1"))))
+            "1p3c2b28ghrcwz26s0ggw2lm9ym99chamk8lkzfq92mhahwbn2fm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/polymode/polymode")
@@ -92610,17 +92610,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220109.1535")
+    (version "20220118.1424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "a2b428ff12b4c5a1e935dc6f9b551c8c312f55a1")))
+                 "e9b40d2902e2fe7a46757a4fc64c780a18c94169")))
         (sha256
           (base32
-            "13z2f9jzw3b3r0wqhn2h2jyahgfdqrwfrgla9n7yw3vjwi2kwwxl"))))
+            "1b97q81qhn3v42ivfzckqv7rc1k3j060gzp90p7qg73nslxiz1vg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -106462,17 +106462,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220118.637")
+    (version "20220119.6")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "27bccb98eaca5f6c6e67db1d45769458dbb546ef")))
+                 "5739794d2d0c8a4e7b77c2e37a097e19f80ac9f0")))
         (sha256
           (base32
-            "0prh9ghsqf7avfsw9ad2r034jb97wgdn254jja99wqy33hscq49m"))))
+            "1am0b2bjjkw7zd0yq39v015a08dcbk43j4d4h8y2q8hj53ryfk5a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -108352,17 +108352,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220118.1447")
+    (version "20220118.2058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "e8a4790e1979f05dc4a6d3589a173566b0ee2c44")))
+                 "763c141ee79d67d8f57bfe8960f4691a357067c6")))
         (sha256
           (base32
-            "04860qbnb4gc2pwfav897qhkyw9941br7vb5b3hz7yv5d3n4qq06"))))
+            "1dknbml53m2n7ajm36dj118lxbky9lhlv4yj50dhrbxffgwrjmdd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -113303,17 +113303,17 @@
 (define-public emacs-vunit-mode
   (package
     (name "emacs-vunit-mode")
-    (version "20220112.1823")
+    (version "20220118.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/embed-me/vunit-mode.git")
                (commit
-                 "cab061b0cdd1fd3f05d953c6c7e6b01bbbfcdfee")))
+                 "7f36752161b1a172ff74b3fd9f1289f89471e002")))
         (sha256
           (base32
-            "1ciiq4vm4kajn5dm10l4lw1jlmf71s371cgc816a90i8nzjyrrih"))))
+            "1na722d9mgcmsqf0pdwnr7wy4zl8d4f3yj1ckpi4rmh5mj0g1blp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-hydra))
     (home-page "https://github.com/embed-me")
