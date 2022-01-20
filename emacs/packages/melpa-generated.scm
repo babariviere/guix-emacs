@@ -972,17 +972,17 @@
 (define-public emacs-ac-php-core
   (package
     (name "emacs-ac-php-core")
-    (version "20211220.219")
+    (version "20220120.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xcwen/ac-php.git")
                (commit
-                 "92d559309d0c7614e2ccc982002b7ff963f3c9dd")))
+                 "f44c5c6a23829e53bcb0712adcad406a8e9498ce")))
         (sha256
           (base32
-            "0aidj0hz97qw8jpwcbdmhjqk8wsdls3jiq9j6bbrqh458j6p317h"))))
+            "1k3919v7mczwzk50dhrfnx2sbzlcm192c6ks4wzajr5hzvd448qc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -15953,17 +15953,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220115.1548")
+    (version "20220120.1426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "a899e183d3f85741e6bf92a55a57afe9b9a4c7ae")))
+                 "0127b52a97da30e30fea9605cf8f7e156052f366")))
         (sha256
           (base32
-            "1rd4gfzn43g8gzv3v9fl7jbyj8wdn3nkz5l35qlqr0iyz5cd5bzz"))))
+            "15bn3swnf8nvvvz156bhprkn1063shggwh5hh6lqx7bd36igmc00"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -21861,17 +21861,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220120.504")
+    (version "20220120.1441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "762db50fa84decf5ec2b87ea51f5c8b70680a0af")))
+                 "91ef79e20afb5120f5bf02f43f4d292c22a254dc")))
         (sha256
           (base32
-            "06b32sgbnfadanarihgsffcqbbbz0ccrcf6v1p59a2kw432jx5kz"))))
+            "1461dbapqm7fsqg0f67lw7f7g921p1vp85bw6hmx97hgshz5d516"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -70861,17 +70861,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220120.804")
+    (version "20220120.1134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "e3bbb6293ba243a8e1bf9d0b7167641a9f3b4cd7")))
+                 "b464e3be93801f4553a3ef070eee17c65b0222d9")))
         (sha256
           (base32
-            "1i8xr9cmx1m4sq5gqjyv2icsk047hjx3kdwjsndkdv5rjr402ay5"))))
+            "02v19k6xwpcjyb9r9pri8gq917cixgxd5xs3f3cgimbg09rqjzjb"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -71245,17 +71245,17 @@
 (define-public emacs-moody
   (package
     (name "emacs-moody")
-    (version "20220115.1428")
+    (version "20220120.1155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/moody.git")
                (commit
-                 "90503f872b42670d4dbe62ce033042cac7062aa4")))
+                 "aa6666eb344947bf1eb9d14619f4249403048321")))
         (sha256
           (base32
-            "163lggazsic4ivxcky2k93l1qcax973yxd6594wx3s5gadkqsyv0"))))
+            "09yyihx6cpa724z6cj2rqspajwj325ipgpmckklpgq6l4h5xnwy4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/moody")
     (synopsis "Tabs and ribbons for the mode line")
@@ -88278,17 +88278,17 @@
 (define-public emacs-poly-org
   (package
     (name "emacs-poly-org")
-    (version "20220119.910")
+    (version "20220120.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/poly-org.git")
                (commit
-                 "e8e5375f82c1d1a6b4b0ba6ae7ea181ff6f49e3e")))
+                 "b4874ff587189dea8fad56be3b6c34e450a68b68")))
         (sha256
           (base32
-            "1v1k0aah4c6b1zrswjgcfnsaypxxgiyai33j4slxvalbj4nsa5g5"))))
+            "1h2r66l9qplq8nazmk2xm08hrf3bf1llsqnw6qvmr08vj1y9azay"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-polymode))
     (home-page
@@ -88444,17 +88444,17 @@
 (define-public emacs-polymode
   (package
     (name "emacs-polymode")
-    (version "20220119.1503")
+    (version "20220120.1016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/polymode/polymode.git")
                (commit
-                 "d0913ed53d27ee90b8a31b7a78a29502a5314087")))
+                 "61e2326731cad373432126e7b12a153bed7d1e89")))
         (sha256
           (base32
-            "0h4xndlgyqv1ywqnvl6zb08brviiznmarnn56sikmjzkh9i64zdh"))))
+            "08x16hr52nwqznjz349b8nz39z5bqys50n6wgcl65x3bd4hrggd1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/polymode/polymode")
