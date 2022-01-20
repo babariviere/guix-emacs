@@ -8762,17 +8762,17 @@
 (define-public emacs-buffer-ring
   (package
     (name "emacs-buffer-ring")
-    (version "20211008.1508")
+    (version "20220120.124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/countvajhula/buffer-ring.git")
                (commit
-                 "a2bc0252eae7a787219627512d5d54984b97e1a2")))
+                 "177d67238c4d126a0270585e21c0f03ae750ca2a")))
         (sha256
           (base32
-            "0scqddzijg02dggyj7v59f30irp9hw68sc075wa0i039f4ab8kh4"))))
+            "1li3fq5797hcd2wy5w2vp6hmgf779mrm0pw2nj4a19snwl9ak02j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dynaring emacs-s emacs-ht))
@@ -21861,17 +21861,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220118.939")
+    (version "20220120.504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a530012114d74ae9dcc4b1b81fcde143b7f21571")))
+                 "762db50fa84decf5ec2b87ea51f5c8b70680a0af")))
         (sha256
           (base32
-            "121qfq7v2saiad9zsf2l2zfc19s6gxhn49fnnikxkbvbf9blq9nb"))))
+            "06b32sgbnfadanarihgsffcqbbbz0ccrcf6v1p59a2kw432jx5kz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32989,17 +32989,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20220112.1631")
+    (version "20220120.123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "fd30d15308dfc6951db20dc0814c28067e774f5a")))
+                 "ad5d3c5060d8cf43d2053c2bc74b0beda1e664a1")))
         (sha256
           (base32
-            "092ds4ww5rql1h679ryxihlhf93zil6gbbj3qa7ihnhy1mh0hiyp"))))
+            "0az5p42vhpbrqhgavfk3jyp1izillvqsik9rpwh5g48c3qm42bjh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -34775,17 +34775,17 @@
 (define-public emacs-filetree
   (package
     (name "emacs-filetree")
-    (version "20220119.851")
+    (version "20220120.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knpatel401/filetree.git")
                (commit
-                 "a9278b4581a9cb5ab0b8e2008f09911a965f0cc1")))
+                 "0187be7e538f89eacc06324a0e712cde2fe7d8a6")))
         (sha256
           (base32
-            "08b82vp4m9011fa87901736rvy7mbqnwynjcmg7wnblwqm8shs2n"))))
+            "1p0rpawqb0rc0fqg5yr4mnqiwi62frvlbkdfqv6xk3rmy4hsi0mz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-helm emacs-transient))
@@ -54867,17 +54867,17 @@
 (define-public emacs-idle-highlight-mode
   (package
     (name "emacs-idle-highlight-mode")
-    (version "20211011.557")
+    (version "20220120.133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-idle-highlight-mode.git")
                (commit
-                 "0916be7075e792773440c3bdb5cf9c153691846b")))
+                 "03b5de12a6414f6e4299fc166f1dcd7ce12b37fb")))
         (sha256
           (base32
-            "0817y99zm1x01nya6lnhby96da2w9kivw4p59bbaxm7hi0ycrsfz"))))
+            "0qhifxkz2kn4cnd9wyrvxy7784r47v233rsvr20xf80xzxdnf4a7"))))
     (build-system melpa-build-system)
     (home-page
       "http://www.emacswiki.org/cgi-bin/wiki/IdleHighlight")
@@ -65700,17 +65700,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220102.1814")
+    (version "20220120.202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "813d3c92db02596a8e8aa7802977c50ec1262f9d")))
+                 "d20fda0477da5740c916614dc6e07deefc8b5835")))
         (sha256
           (base32
-            "1l0208bys0zq9qgnih27aldi5v3rp5bj8i9nar24hgfm42ld75gz"))))
+            "12lrw9ybddzjrqchvrg8d63mpfsq8fjnkp63algndw9clfn8haqi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -70861,17 +70861,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220119.820")
+    (version "20220120.804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "8d8aeb6e7ed8618ec373f59b35bc65c74237f90d")))
+                 "e3bbb6293ba243a8e1bf9d0b7167641a9f3b4cd7")))
         (sha256
           (base32
-            "1160lbzfafyzljn46fj4dczib055dc474xq31y2xadlmq4jmfl0f"))))
+            "1i8xr9cmx1m4sq5gqjyv2icsk047hjx3kdwjsndkdv5rjr402ay5"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80683,17 +80683,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220119.2223")
+    (version "20220120.257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "c17310f0de222319bde66d6a39bc0ff730eff598")))
+                 "817d8036fbf028d2c5c386720fbf9946d03fe891")))
         (sha256
           (base32
-            "1xww4w52qkvdc1a0d7zii0vy14f26i4dczpvbxw79zn6x3sh2pa6"))))
+            "18rma7hm43zm7s8c0fjrdaphmbzsjryly7g46hgf3qwrn55n0y8m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -102890,7 +102890,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220119.2334")
+    (version "20220119.2344")
     (source
       (origin
         (method git-fetch)
@@ -109108,17 +109108,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20220105.1657")
+    (version "20220120.122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "4ef6bd9ffe5047beb00cf473d0ce80e657cceae2")))
+                 "ad5d3c5060d8cf43d2053c2bc74b0beda1e664a1")))
         (sha256
           (base32
-            "0n67ka9yyqc1mvz6646kixly1ixp7vhfydgy5wx00rjpp6yxf4ni"))))
+            "0az5p42vhpbrqhgavfk3jyp1izillvqsik9rpwh5g48c3qm42bjh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
