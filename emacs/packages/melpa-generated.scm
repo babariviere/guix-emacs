@@ -11465,17 +11465,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220113.610")
+    (version "20220121.1047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "8bb67174ffa0cd7ae01f544926b4ed5a17965d76")))
+                 "502b5210cc77f0bbbbea72517f75c0fef7754cec")))
         (sha256
           (base32
-            "1fh95x4gabmm95ligy30lhqgay5snlp9d4m21l5zmk64klfyrpfb"))))
+            "038mhgi26jsyl9wcmy0j45pzshhkzvn01yll260jh761kvi100d7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -15953,17 +15953,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220121.554")
+    (version "20220121.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "0276cafa97cd09635ba906804a7941f9b0c5cb3f")))
+                 "d44696b58b65eff6b1af5d674456bfa2b20a39fa")))
         (sha256
           (base32
-            "0laqvrhz1yh16ba0vrbn192xf3igcyr34d5ghid9h56kdbj3mvw3"))))
+            "0k2j2c0v936ifnhpwz5780hfirp61cyx75h13qww5gxnk2w2f79g"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -21861,17 +21861,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220120.1441")
+    (version "20220121.711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "91ef79e20afb5120f5bf02f43f4d292c22a254dc")))
+                 "e694d3891e91e235b055698814dc7a2f7390eda6")))
         (sha256
           (base32
-            "1461dbapqm7fsqg0f67lw7f7g921p1vp85bw6hmx97hgshz5d516"))))
+            "0cw91l6k2j9wr1wmb5vjhr0j3kyciwab8b06429ra58z4ix1zpk7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -66900,17 +66900,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20210907.804")
+    (version "20220121.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "6fe271f371ccb06b599a782839030bb8dee8535f")))
+                 "6e2555f5f52e808ca62a8c5cd64194ba2e637273")))
         (sha256
           (base32
-            "178whq47zs055srly8wzdai5p0d0s1n3p349kb5wx2d9c2lg0pnm"))))
+            "0vy5kirs43hvvc1mkys9rfpr0pggha1nsgflk7svp3v6qz6gv6jh"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -70861,17 +70861,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220120.1134")
+    (version "20220121.1552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "b464e3be93801f4553a3ef070eee17c65b0222d9")))
+                 "c85dd343ded0bf2c2071871f336491761af25954")))
         (sha256
           (base32
-            "02v19k6xwpcjyb9r9pri8gq917cixgxd5xs3f3cgimbg09rqjzjb"))))
+            "1vjjfkwnfg08snrnhxfqwhbd83w0cjfpiahmz5jqbngxipmbhac6"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -79212,17 +79212,17 @@
 (define-public emacs-org-index
   (package
     (name "emacs-org-index")
-    (version "20211110.1423")
+    (version "20220121.1503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/marcIhm/org-index.git")
                (commit
-                 "399020d435d296014f92fa5f632d7481ee002661")))
+                 "64930ad82c0220ad7d80ec0896b8647a3206d2d3")))
         (sha256
           (base32
-            "01q8w49dh9fpr2sc70p92cxjm66fnrrgnk4ba321aq9dlfmly2zg"))))
+            "0r4kn82jwv6w6ngz5azqq7jyxlfcspjj8lpscq8cnha5112qw7nh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -79568,17 +79568,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220117.438")
+    (version "20220121.847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "b3932a64ca0d3017255fc99b9cde253eb17b08f5")))
+                 "fc3ac72c3a5912f8ec1b64ee67997002b59bd931")))
         (sha256
           (base32
-            "0456i9784pvqkxwdyrrkgair2y4i46r9svx67fz5qljxd1z4yjkx"))))
+            "0jwfkd74sc12r94z9cnacljfsh66c3gg4k2bmynas95z5a453b10"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -80760,17 +80760,17 @@
 (define-public emacs-org-roam-ui
   (package
     (name "emacs-org-roam-ui")
-    (version "20220104.1733")
+    (version "20220121.1345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-ui.git")
                (commit
-                 "5ecd418060bf606924ac86faa1aa4036d4c785fb")))
+                 "f1e1769d97e4f44d7336839db587b0acbb918d99")))
         (sha256
           (base32
-            "1gj8bca7y8zjjnqjs0mg6vv2nvjrkqbqrj055zwkhz9sj36q5s5h"))))
+            "1rcxmilrpqxbi8nbiqr1fh7d1r2crvrzjwyjfa8hkad48m3iih8n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -83255,17 +83255,17 @@
 (define-public emacs-ox-jira
   (package
     (name "emacs-ox-jira")
-    (version "20201202.1658")
+    (version "20220121.1015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stig/ox-jira.el.git")
                (commit
-                 "0bd966ba241a2458d5097e256543eceee50d462c")))
+                 "a8019237a8f5e016a7c952fc2f673a2498a0e779")))
         (sha256
           (base32
-            "1a1cwq8gaq3q6g7lfm2finz4srla5iyg8s81k2991fz2fh1iir9k"))))
+            "0pa7pwk0yjcgak3f9w9jggj3ghlig1azf15ng954r646810j9i4v"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/stig/ox-jira.el")
     (synopsis "JIRA Backend for Org Export Engine")
