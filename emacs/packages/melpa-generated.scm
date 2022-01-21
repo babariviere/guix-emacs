@@ -15953,17 +15953,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220120.1426")
+    (version "20220121.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "0127b52a97da30e30fea9605cf8f7e156052f366")))
+                 "0276cafa97cd09635ba906804a7941f9b0c5cb3f")))
         (sha256
           (base32
-            "15bn3swnf8nvvvz156bhprkn1063shggwh5hh6lqx7bd36igmc00"))))
+            "0laqvrhz1yh16ba0vrbn192xf3igcyr34d5ghid9h56kdbj3mvw3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -44075,17 +44075,17 @@
 (define-public emacs-gmpl-mode
   (package
     (name "emacs-gmpl-mode")
-    (version "20171031.2054")
+    (version "20220121.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cute-jumper/gmpl-mode.git")
                (commit
-                 "c5d362169819ee8b8e8954145daee7e260c54921")))
+                 "97b103eea8b18f7e27b0f0be6cb4809a4156c032")))
         (sha256
           (base32
-            "00p2z6kbyc0bas21d1zygx7z49w6mf22y9kf1rcm9gqsnnadb4j9"))))
+            "1592sn1wzlmg65wc05103dyklprrwn048qgfhlims9618zapk5yr"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -66922,7 +66922,7 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220120.1612")
+    (version "20220120.2330")
     (source
       (origin
         (method git-fetch)
@@ -69178,17 +69178,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220119.1855")
+    (version "20220121.434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "371f6554acfa4ecb9fc121f23539f77064f97115")))
+                 "279f0b0b5ed5167a185b848f08cc9fe6b6cf1b36")))
         (sha256
           (base32
-            "1csw64pva8x63v233v2rb2iv99139hv7yprjsmchbrjlakvs1df4"))))
+            "12r4iv8ksfk5bgjc7acsddgz2bjhx0jsd28nnsvgjrmlk1fxkyrz"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -80683,7 +80683,7 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220120.1919")
+    (version "20220120.2314")
     (source
       (origin
         (method git-fetch)
@@ -92135,17 +92135,17 @@
 (define-public emacs-q-mode
   (package
     (name "emacs-q-mode")
-    (version "20211126.1944")
+    (version "20220121.522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psaris/q-mode.git")
                (commit
-                 "43e509ed323c105f9b312813a1ae953d1a2efe3e")))
+                 "a75924cc4de5d3f9709cb9a640c8d12bfe4b0fe8")))
         (sha256
           (base32
-            "1b6prwdy3dnkdsxy1lwws1jmq5r80g729z18np8ylp9j3pzz0nrh"))))
+            "0r8bg65i3xipq4qm8drx3029ca3xfmxhwmv9zxf3n0k16hi80z1i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/psaris/q-mode")
     (synopsis "A q editing mode")
