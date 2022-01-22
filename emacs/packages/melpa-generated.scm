@@ -25455,17 +25455,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220120.2206")
+    (version "20220122.359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "76971e53e16d6debecc21efe1d96c2d42c68a705")))
+                 "d25a7e2558202717befbcf79d65d312cea2a05d3")))
         (sha256
           (base32
-            "1jg175k7zsfvqbvgg1hay0g7ic9w2zw77iik1gy4sw1lppgh0f85"))))
+            "11lhdxzi61zgz792m2fi80wdjs3bw77sgf6y1zlps1ky9lphhp2w"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -46992,17 +46992,17 @@
 (define-public emacs-habitica
   (package
     (name "emacs-habitica")
-    (version "20201210.1933")
+    (version "20220122.435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/emacs-habitica.git")
                (commit
-                 "eeb0209fd638192f0b833526deb222f9f61361cb")))
+                 "0f86e706683541910742a4bed7b0b722012667de")))
         (sha256
           (base32
-            "10z24hh1g9bf00maiwkjs324da55qqzxrz196rzs53i8lkli0xkd"))))
+            "0yhqg2maic95bnyhrvjjxbc3hccp5jzh7w0bwxw7g1xi76ia6xy6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/abrochard/emacs-habitica")
@@ -54867,20 +54867,20 @@
 (define-public emacs-idle-highlight-mode
   (package
     (name "emacs-idle-highlight-mode")
-    (version "20220120.133")
+    (version "20220121.2251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-idle-highlight-mode.git")
                (commit
-                 "03b5de12a6414f6e4299fc166f1dcd7ce12b37fb")))
+                 "5881f796ad167a5fd46e8e964733725aa825516f")))
         (sha256
           (base32
-            "0qhifxkz2kn4cnd9wyrvxy7784r47v233rsvr20xf80xzxdnf4a7"))))
+            "1a1pkq0q8g40s033ldlyvbn1s83lw9irc9hskv78pjgch1k3qz8y"))))
     (build-system melpa-build-system)
     (home-page
-      "http://www.emacswiki.org/cgi-bin/wiki/IdleHighlight")
+      "https://gitlab.com/ideasman42/emacs-idle-highlight-mode")
     (synopsis "Highlight the word the point is on")
     (description
       "Documentation at https://melpa.org/#/idle-highlight-mode")
@@ -59983,17 +59983,17 @@
 (define-public emacs-json-par
   (package
     (name "emacs-json-par")
-    (version "20211219.829")
+    (version "20220122.352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/taku0/json-par.git")
                (commit
-                 "255e99ba789fc69f977129a1ea22e57334874cb8")))
+                 "962e5a2221136aa07f512834925c381cfeed2d92")))
         (sha256
           (base32
-            "09674zsxlza4b1p6z2r73zhmfa08v2ywkn388qa7lkpyjvd0n09j"))))
+            "0pxcya18gbgzx772sh68803dbhxpss4smh6ar9vlc87mqwg5cqnk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-json-mode))
     (home-page "https://github.com/taku0/json-par")
@@ -70861,17 +70861,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220121.1841")
+    (version "20220122.614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "1d799887cd3c8692c4bb05602f7d34c29cc57f37")))
+                 "8396118da7d275ad27c25d8154aa89ae875f9dfd")))
         (sha256
           (base32
-            "0wk2869rxwm0amf0167xw8zdqwjcw6aphrax22abmkznv1m4lnpa"))))
+            "04mmz14887hcyp76kz6nnh79jwgplrphbzg7r42vxg59q4zlrnpn"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80684,17 +80684,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220120.2314")
+    (version "20220121.2350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "445e3594b25c1c29dd269e99cb0cc958ed3f28b0")))
+                 "3e2716edf308085eef60185275245da88d3bcea0")))
         (sha256
           (base32
-            "1g46x8ipacn69nza263ny8inyl265mjvdkws5gfy0c8sivpbmfbc"))))
+            "0iwcwq7swmls21g85q8ffirqk497hqxmbqbhga0ffvl9s7a65bzn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
