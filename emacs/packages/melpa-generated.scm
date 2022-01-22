@@ -7558,17 +7558,17 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20211206.2137")
+    (version "20220122.1202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "d452006a31895a79216bf35a64482631a83cfc2d")))
+                 "aeb8368fc3e2787f4445fede93eaf8fccd8da3d1")))
         (sha256
           (base32
-            "0gi0q60q9r5nx5wzavxywajmh9gw4nl20msgh9k9k9ilj4jy3a1b"))))
+            "0zlprw3c13b12qnhfq535r7jy5rkwqvly8frydb7rv251mv2y80p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-a))
     (home-page
@@ -11773,17 +11773,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220118.2057")
+    (version "20220122.902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "470ecfb761062cbb546293e21cd5aa56dd77f528")))
+                 "bccf7a1c365c4d2f2deaf9f0d0607353fd954407")))
         (sha256
           (base32
-            "0pn6f5hi3ldqzx2p53365arcixxqyrmhvqd2cl0nlz0g0q5wzwhm"))))
+            "0dswsal5gzc6xqwf1kx09i5bsjbmzmck1bv3rahfgfwa2hr4vr72"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -11902,17 +11902,17 @@
 (define-public emacs-clang-capf
   (package
     (name "emacs-clang-capf")
-    (version "20211204.1351")
+    (version "20220122.1219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~pkal/clang-capf")
                (commit
-                 "147be0e908f09ab2346443d48457f9624a404019")))
+                 "b1765719288a138e125cc5ce624ef561c80015bf")))
         (sha256
           (base32
-            "1qwlafw28axrnhk9zrhpgww22964j9s0ys43dndmmh16ykyzaxgc"))))
+            "1v8h916rqylz98v1xi1bqdcakgjjl3l1f51xcvyd41wn1kfiaxnf"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~pkal/clang-capf")
     (synopsis
@@ -21861,17 +21861,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220121.711")
+    (version "20220122.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "e694d3891e91e235b055698814dc7a2f7390eda6")))
+                 "8b63425a3be43a155a58023588692413138db23f")))
         (sha256
           (base32
-            "0cw91l6k2j9wr1wmb5vjhr0j3kyciwab8b06429ra58z4ix1zpk7"))))
+            "1b0hib9xplxcfy85l8f9haxvzavqcvmdsg1dbnly0307ypkppb69"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -65567,17 +65567,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220121.1751")
+    (version "20220122.1253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "8b5e779010fedd5d0279a736243d35bf258b3381")))
+                 "f506c416a267d1ec0f933f42de3cf7bfae73d309")))
         (sha256
           (base32
-            "0xkz5l4h72mj6zkcdn6s9c0wglmchn71yh9hq48swgjsini2klq8"))))
+            "0wpi09bfsd2zx9zvaa3gf8kpw9am98kldana7chshnnjdybzcxxb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -101838,17 +101838,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220121.1529")
+    (version "20220122.1543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "b96a10f2d06db781a52b084be8ecb04f2825e7c6")))
+                 "9edf24d0c23bac0321e08711546401c6d7eee081")))
         (sha256
           (base32
-            "0pcv89miyki2ffxfvvrlwz8x421x1cq32fcf60hph0hmh6dmbljz"))))
+            "1yz3bg49r6lp1f85zym7lb1kz5rpq8nk7a0liqjv5lcnkjg8ji1p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -106352,17 +106352,17 @@
 (define-public emacs-tc
   (package
     (name "emacs-tc")
-    (version "20201022.1646")
+    (version "20220122.1443")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kanchoku/tc.git")
                (commit
-                 "5c6bbb0ff08e5d81e905198156ae5600df7ff7ab")))
+                 "a3a4738ede3e107a5149c9d55691f57736bf4f48")))
         (sha256
           (base32
-            "0n78aiwdkb7k8hj1cxg2gawlgq228vi2v0fyjicry6l4i1p4d1ds"))))
+            "0y2p4jibvbm2c76lik0gsg1hyl9gxb0x0pi0azak6yk3dyzci5w2"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("*.el" "tcode")))
     (home-page "unspecified")
@@ -108354,17 +108354,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220118.2058")
+    (version "20220122.1310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "763c141ee79d67d8f57bfe8960f4691a357067c6")))
+                 "7ed84907a9e829ac10d619421653fb425009cbe1")))
         (sha256
           (base32
-            "1dknbml53m2n7ajm36dj118lxbky9lhlv4yj50dhrbxffgwrjmdd"))))
+            "1rqh203y6gaikpsc2bdr61m1wlb8iv4dbqajyw24lbai4d3qbn1f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
