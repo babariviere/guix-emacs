@@ -2371,17 +2371,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220122.2337")
+    (version "20220123.308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "09dd31a364782a3e9eacaa1b4ae320197f92f591")))
+                 "eae724144f8b8a06e425b7fe5c060502fc9f3b84")))
         (sha256
           (base32
-            "1bghjihyb33x0gfxkmm1dm90g5hiy6pwiyknz8379v2w1ikcvb2h"))))
+            "1a32d4l9bisq559bfccdpapmib9y4dhymk59y06fw75i1z4gksq5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -8023,17 +8023,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220122.2323")
+    (version "20220123.128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "64cbab8fe00090df902d649bbe88aa045a3dfcee")))
+                 "ce70eee389d3698443ff7eb2c6bba7c4764e372d")))
         (sha256
           (base32
-            "1qkw9fk8dpzxy3w17hg867mf912dk4iagl3drz1944xx068v8b2q"))))
+            "1imc6z3fg971014s7fpnkdf72s4g4v7hlsbbdyw6255z2djwqars"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -11315,17 +11315,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220113.1718")
+    (version "20220123.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "fe9f2b494f7f78a21b54d43f2546a6da5818b3d3")))
+                 "f0073b583bc79cb4dd716954e331cb6492e03259")))
         (sha256
           (base32
-            "1d21y00c5nq6pj2rpbn0jmfghm2fpvq0n1jnq3vqqjy467jwzz2a"))))
+            "1zixr215syi9cfa5i5paxgw61rn28sx83n71m9ki0jn2b4zj48i1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11337,7 +11337,8 @@
           (:exclude "elisp/chronometrist-goal*"))))
     (home-page
       "https://tildegit.org/contrapunctus/chronometrist")
-    (synopsis "A time tracker with a nice interface")
+    (synopsis
+      "Friendly and powerful personal time tracker and analyzer")
     (description
       "Documentation at https://melpa.org/#/chronometrist")
     (license #f)))
@@ -11370,17 +11371,17 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20211118.1235")
+    (version "20220123.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "7ca6413907ac57e09010265257c48b5500fe09f8")))
+                 "f0073b583bc79cb4dd716954e331cb6492e03259")))
         (sha256
           (base32
-            "06lsaw2z7q131dfgfcmm0dgiimjd6psxlk1biyzrahgs992gm7d2"))))
+            "1zixr215syi9cfa5i5paxgw61rn28sx83n71m9ki0jn2b4zj48i1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chronometrist))
     (arguments
@@ -53277,17 +53278,17 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20211025.2138")
+    (version "20220123.142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "121f24c12c6711f65157259d90cbe88a53c10336")))
+                 "a93ae6770a225acc7131c916d8f12bb42956ac86")))
         (sha256
           (base32
-            "0mwhqhf84kf76wrqz6l9rp4majfl7dnxs1dg49qls32lv44ihs2x"))))
+            "0s7j1bgz5qc5r9d74cqv4plfr53d059spd7y03dwxh81cvmw7bgi"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-hl-prog-extra")
