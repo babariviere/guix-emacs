@@ -2323,17 +2323,17 @@
 (define-public emacs-all-the-icons-ibuffer
   (package
     (name "emacs-all-the-icons-ibuffer")
-    (version "20220104.1421")
+    (version "20220122.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ibuffer.git")
                (commit
-                 "df9822a782c409f7e19481921c985d4290882c65")))
+                 "8a914b100348493a665f0d53de4e22bf5b30a2a5")))
         (sha256
           (base32
-            "1906z26h84zz9f7zj1lzqgr92i05h2vgkx2mg5aa2k8kiv4v8p3j"))))
+            "02rymhafqd2amazi2ds39vf5p01lfa75k5vyary3zrk2q01x1ba3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -2371,17 +2371,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220104.1420")
+    (version "20220122.2337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "f7d3d1bb69c86087f8b05fa672dd62e096370bfa")))
+                 "09dd31a364782a3e9eacaa1b4ae320197f92f591")))
         (sha256
           (base32
-            "0xnrhrc51hvjxn1mc53jdz868a7gbr6frkl2vgcdbbm2v41jqxlv"))))
+            "1bghjihyb33x0gfxkmm1dm90g5hiy6pwiyknz8379v2w1ikcvb2h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -7558,17 +7558,17 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20220122.1202")
+    (version "20220122.2332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "aeb8368fc3e2787f4445fede93eaf8fccd8da3d1")))
+                 "f5c0fc350db07ca89839c6bec7196945dba495eb")))
         (sha256
           (base32
-            "0zlprw3c13b12qnhfq535r7jy5rkwqvly8frydb7rv251mv2y80p"))))
+            "0phmisdckdq706wjhici8pnvvslq77dvv8pph5yawy7lvh07va6k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-a))
     (home-page
@@ -8023,17 +8023,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220119.949")
+    (version "20220122.2323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "1033822db4ebf675bd55cfe490b39602e7c3c2d3")))
+                 "64cbab8fe00090df902d649bbe88aa045a3dfcee")))
         (sha256
           (base32
-            "1wkh084i62kssx47x154rlsmswqljj7k5nkj0icmdnxlf4ynx71a"))))
+            "1qkw9fk8dpzxy3w17hg867mf912dk4iagl3drz1944xx068v8b2q"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -11773,7 +11773,7 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220122.902")
+    (version "20220122.1635")
     (source
       (origin
         (method git-fetch)
@@ -32989,17 +32989,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20220121.1603")
+    (version "20220122.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "c85ff644a4be4471bc06c4cd8f35ce696f3294da")))
+                 "7e9dee89408f22938c70e4e453a0b49e91c6fbe2")))
         (sha256
           (base32
-            "1x926vq8fdqvwyz9s8rxxc8942dz21zyghp6fq0ls744l8mma87w"))))
+            "18q9npggdkjw13b6bpyac4m2zr1b39r53rp0yp69a4r5iq2wymwp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -41791,17 +41791,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220118.2341")
+    (version "20220122.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "0f2cb17dd6cad1eb5c1447a1b5f80c933309a153")))
+                 "30ec9f27613e0ed2517654355f3aa00927da5451")))
         (sha256
           (base32
-            "11sl3bbnx10yjndszhr4fk3asjyz27fxf7igh2vi7vmahby52ckf"))))
+            "1jbniqas4ipwzan7rq6d6smf4x9wmdf3bi992wmvy0nva09kc5rq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -51835,6 +51835,30 @@
       "Tramp helm interface for ssh, docker, vagrant")
     (description
       "Documentation at https://melpa.org/#/helm-tramp")
+    (license #f)))
+
+(define-public emacs-helm-tree-sitter
+  (package
+    (name "emacs-helm-tree-sitter")
+    (version "20220116.2021")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Giedriusj1/helm-tree-sitter.git")
+               (commit
+                 "8ee97eaa59084faad78931c35694fc2d8907e68f")))
+        (sha256
+          (base32
+            "0ca20593gvdds0sfvl1vj21hy1w3rzvf5qqb57vqf0wc7fwp4agv"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-helm emacs-tree-sitter))
+    (home-page
+      "https://github.com/Giedriusj1/helm-tree-sitter")
+    (synopsis "Helm interface for tree-sitter")
+    (description
+      "Documentation at https://melpa.org/#/helm-tree-sitter")
     (license #f)))
 
 (define-public emacs-helm-unicode
@@ -69178,17 +69202,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220121.434")
+    (version "20220122.1835")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "279f0b0b5ed5167a185b848f08cc9fe6b6cf1b36")))
+                 "de39ddf6f9fd6503ae68ede681117ac3a323c1a7")))
         (sha256
           (base32
-            "12r4iv8ksfk5bgjc7acsddgz2bjhx0jsd28nnsvgjrmlk1fxkyrz"))))
+            "16zp0nnbmf83pa4ll17lys99brqsd5i5wjl1anbgpvxwh530rwi1"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -73266,17 +73290,17 @@
 (define-public emacs-native-complete
   (package
     (name "emacs-native-complete")
-    (version "20220103.1622")
+    (version "20220122.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/CeleritasCelery/emacs-native-shell-complete.git")
                (commit
-                 "20e1dceb459856c8c4f903e6d8562991069bb8c1")))
+                 "bd601960c2dcaadf3ddbc1fe999dbd54e562e112")))
         (sha256
           (base32
-            "11m3y6kbjm0nqmdqbcv4xrchcabh4x1w4gy1p8gp36k600s1h7zj"))))
+            "1aaccs2g39860k4xkada4905rz7hv9q63lnx871gzxwy21b6ns90"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("native-complete.el")))
     (home-page
@@ -75277,6 +75301,28 @@
       "Display information and trivia about numbers")
     (description
       "Documentation at https://melpa.org/#/numbers")
+    (license #f)))
+
+(define-public emacs-numbex
+  (package
+    (name "emacs-numbex")
+    (version "20220122.2337")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/enricoflor/numbex.git")
+               (commit
+                 "848cea52494211d04c9136ebe54255309cb18d50")))
+        (sha256
+          (base32
+            "1zarrfc4hg5kkwjb9fbkg7kfq5ynf7vxfk8hzkjxjryr1qcmk3d8"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/enricoflor/numbex")
+    (synopsis "Manage numbered examples")
+    (description
+      "Documentation at https://melpa.org/#/numbex")
     (license #f)))
 
 (define-public emacs-nummm-mode
@@ -78021,17 +78067,17 @@
 (define-public emacs-org-appear
   (package
     (name "emacs-org-appear")
-    (version "20220117.1642")
+    (version "20220122.1913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/awth13/org-appear.git")
                (commit
-                 "559a40dd036b6e8204b6a078ad4dc9439bc20e5c")))
+                 "303fcc8d5d85a4ebff2798dab50b2ccc0255ea5f")))
         (sha256
           (base32
-            "0y6fw53vasas7hcq9r711rvsjbc7p897pjrhqpzda8nyyvd673h4"))))
+            "1pdf16agcjfzpjvz8kv39abir35rip93nkawxcpjjh4ywsdsbnm6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/awth13/org-appear")
@@ -89032,17 +89078,17 @@
 (define-public emacs-powerline
   (package
     (name "emacs-powerline")
-    (version "20211022.655")
+    (version "20220122.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/milkypostman/powerline.git")
                (commit
-                 "390a95fe5b71cfc20e18d034b4b35b5c159a83fc")))
+                 "566c77844f053cb39fa7acdfbc143a855450f0b5")))
         (sha256
           (base32
-            "0n5fd38qqsj2m6m6dkm11ndk0blxnn5z5rdpb9blrni7p45d6z8b"))))
+            "0nhh2bq35s8rgz6g38i97759d92d6z5yak66687lnk481wca3x4l"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/milkypostman/powerline/")
@@ -92136,17 +92182,17 @@
 (define-public emacs-q-mode
   (package
     (name "emacs-q-mode")
-    (version "20220121.522")
+    (version "20220122.2257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psaris/q-mode.git")
                (commit
-                 "a75924cc4de5d3f9709cb9a640c8d12bfe4b0fe8")))
+                 "419b2d7ed2a607e48004cbf921ea4f20ca5bdb42")))
         (sha256
           (base32
-            "0r8bg65i3xipq4qm8drx3029ca3xfmxhwmv9zxf3n0k16hi80z1i"))))
+            "03g449fi5gjx94d9fgx399b0nw90p8pf9y50x0y0x911bl5jgw82"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/psaris/q-mode")
     (synopsis "A q editing mode")
@@ -92612,17 +92658,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220120.2028")
+    (version "20220122.1551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "59b227b1aab315cdaa798648e47c4c4a8f71ddba")))
+                 "88a9c290fb6685a960c8c4a6ad1854576f970fbf")))
         (sha256
           (base32
-            "1c45ilb9qpjrz6vc8vhnh5zgakwpc1nvrm9awisl0n5rqlyx704y"))))
+            "0vv2qhq5z0n0brq7c2z6v3fhdds7d6mzsqrs2mg866s20w61hk61"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96615,17 +96661,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220121.1952")
+    (version "20220122.2140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "81689e2265a6438178a0ccf4a635979be649301f")))
+                 "1beb324835333bc95a69bafcb0261c2cd771299d")))
         (sha256
           (base32
-            "1m5zml370i1jz01nwjyz44vabah60bhxdzxqy48gaf5dqi8c4s16"))))
+            "11i3j10vbspkk0mav9q9gm7ajd68ciar3r1lpxpsk4y1va0fb1mi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -98104,17 +98150,17 @@
 (define-public emacs-selectrum
   (package
     (name "emacs-selectrum")
-    (version "20220119.50")
+    (version "20220123.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/selectrum.git")
                (commit
-                 "823eec0246388e8dcf5581533dac96c2626d51f3")))
+                 "26908ea0e88727f5eb6c5ebae7f9fbbe117ef25f")))
         (sha256
           (base32
-            "1h6a5mvfcyz3x0s15g4mi503fg3mqbwajns9y20148gydvfjbxjl"))))
+            "0fd7nq7nxl9gjb37r14z5rdrk97p9z80z91i9744c1p6x714w702"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/selectrum")
@@ -105730,6 +105776,29 @@
       "Documentation at https://melpa.org/#/syntax-subword")
     (license #f)))
 
+(define-public emacs-syntree
+  (package
+    (name "emacs-syntree")
+    (version "20220122.2341")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/enricoflor/syntree.git")
+               (commit
+                 "45d010b071c32cab4a3a5d336d6c01cde49657f8")))
+        (sha256
+          (base32
+            "0dlq1z4d1sfhzv14y8b3xk9ixjsjd9wl66nbd18aqkm86rx0320f"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-transient))
+    (home-page
+      "https://github.com/enricoflor/syntree")
+    (synopsis "Draw plain text constituency trees")
+    (description
+      "Documentation at https://melpa.org/#/syntree")
+    (license #f)))
+
 (define-public emacs-sysctl
   (package
     (name "emacs-sysctl")
@@ -108354,17 +108423,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220122.1310")
+    (version "20220122.1852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "7ed84907a9e829ac10d619421653fb425009cbe1")))
+                 "0e015504f8ec8040171c901ab3f19625dcaabcc9")))
         (sha256
           (base32
-            "1rqh203y6gaikpsc2bdr61m1wlb8iv4dbqajyw24lbai4d3qbn1f"))))
+            "16jmizf5rwnl19g01ivv95i42wfgwsr700wl2ljr355621bahwva"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
