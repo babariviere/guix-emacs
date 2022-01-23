@@ -2371,17 +2371,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220123.308")
+    (version "20220123.924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "eae724144f8b8a06e425b7fe5c060502fc9f3b84")))
+                 "45f8c41bb7426e042c55eba624bfe8d3c5c6fed8")))
         (sha256
           (base32
-            "1a32d4l9bisq559bfccdpapmib9y4dhymk59y06fw75i1z4gksq5"))))
+            "0iz3pgf052nmhd33mcq7jriwnd4ph2s0qmqnklqjsj2cf0g0v6yx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -15954,17 +15954,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220121.1200")
+    (version "20220123.647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "d44696b58b65eff6b1af5d674456bfa2b20a39fa")))
+                 "cc24d57e4c9f61d7238c99b577ab8161ea70244e")))
         (sha256
           (base32
-            "0k2j2c0v936ifnhpwz5780hfirp61cyx75h13qww5gxnk2w2f79g"))))
+            "17w5817z4653q7zbm26jl3xj0h66y1dbzyjb4pkjqhf9yhlba6qs"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -25456,17 +25456,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220122.359")
+    (version "20220123.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "d25a7e2558202717befbcf79d65d312cea2a05d3")))
+                 "57779f9c3940a188e2c089758d095d05cf0a0e24")))
         (sha256
           (base32
-            "11lhdxzi61zgz792m2fi80wdjs3bw77sgf6y1zlps1ky9lphhp2w"))))
+            "1a3sfg90gpkj3b0nz7vi27c8w10gx1z50b7xcjpjnf6lz6zy8g0s"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -27493,17 +27493,17 @@
 (define-public emacs-elpa-mirror
   (package
     (name "emacs-elpa-mirror")
-    (version "20210614.302")
+    (version "20220123.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/elpa-mirror.git")
                (commit
-                 "a3e5b974ca9a7004ed6cf72f9d831ba525432c67")))
+                 "3e0fe0f91d1c5798752c255b89950617f88b8d9e")))
         (sha256
           (base32
-            "19hmvrck77pxxm2pq6a6hfdk2azl6nlhffwyzymr80rqcpx0hysx"))))
+            "1vfhxbn9m3412hpgpnpf523lm9cl4lkbk1fgjvqldlknwks376jh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -31472,17 +31472,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220118.49")
+    (version "20220123.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "5cc50418d0654c4dae1b312f327493e96724cd5e")))
+                 "ffe4f66d431cc6039a1c66b0fefca4e94ee57095")))
         (sha256
           (base32
-            "014isydh72wynk5pfbxv9yc9vgxmzzhn8iywqpd73jps42q7kn5x"))))
+            "1xg9n9jn4jn7k5sl3q6xxfnr763jymclxkasllj7p0w9rb7i2mp1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -46993,17 +46993,17 @@
 (define-public emacs-habitica
   (package
     (name "emacs-habitica")
-    (version "20220122.435")
+    (version "20220123.1424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/emacs-habitica.git")
                (commit
-                 "0f86e706683541910742a4bed7b0b722012667de")))
+                 "cbb5a0f11a8a91111d753c25c59582741ae49f2e")))
         (sha256
           (base32
-            "0yhqg2maic95bnyhrvjjxbc3hccp5jzh7w0bwxw7g1xi76ia6xy6"))))
+            "1chykvq41ivmyg85ixh09q1wl4ayqdpbzacj4npy3jiafh6sksz4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/abrochard/emacs-habitica")
@@ -65592,17 +65592,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220122.1253")
+    (version "20220123.652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "f506c416a267d1ec0f933f42de3cf7bfae73d309")))
+                 "792a0085d73e081bf338555904e35d00edd8b4f8")))
         (sha256
           (base32
-            "0wpi09bfsd2zx9zvaa3gf8kpw9am98kldana7chshnnjdybzcxxb"))))
+            "139c1w778khy7sxfbc6fh2pmr5hbxrjw7i7pclc1zxxkrvjxb4gm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -70886,17 +70886,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220122.614")
+    (version "20220123.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "8396118da7d275ad27c25d8154aa89ae875f9dfd")))
+                 "3d1d33ea40fb805698885c58d3e6ddf11550b168")))
         (sha256
           (base32
-            "04mmz14887hcyp76kz6nnh79jwgplrphbzg7r42vxg59q4zlrnpn"))))
+            "0j55h49p1diygkw1ssl3m47dqkzif8xripd226ajlbdqvb2w8qsl"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -101885,17 +101885,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220122.1543")
+    (version "20220123.825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "9edf24d0c23bac0321e08711546401c6d7eee081")))
+                 "9d408ee810c13dd7308d70947284aefd9b7fd055")))
         (sha256
           (base32
-            "1yz3bg49r6lp1f85zym7lb1kz5rpq8nk7a0liqjv5lcnkjg8ji1p"))))
+            "1wj93w3b0ydbn99n721bq2vrnm6b8bj4gmkn2xhc4r6rzq41vqqg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -110288,17 +110288,17 @@
 (define-public emacs-tzc
   (package
     (name "emacs-tzc")
-    (version "20220118.557")
+    (version "20220123.700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/tzc.git")
                (commit
-                 "d1f08fff5d4f9c2584a3b405464c6a92000f62b3")))
+                 "59e0bcc977b3f1fb820a185973e40cae6d60d349")))
         (sha256
           (base32
-            "108920snw6i0lbdy7ky336n5lkf44bv1cfn0an12amfa3jb5w1wg"))))
+            "1dfva6sfbzhkgl6mv6al11g0pcqzg0r494bvdgwxhvzlxlakjvxv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/md-arif-shaikh/tzc")
