@@ -4005,17 +4005,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20220124.411")
+    (version "20220124.1430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "0c35b2a882f7816c2860abc62ecabdf89ef98789")))
+                 "ad00c5eb90f189223ef8a0b49c1dc5fef1ef26b0")))
         (sha256
           (base32
-            "1ky1wjj5dmy0gnprkzqg2mb5xdmaihpzd1lmr0q8pnzzsbapsl3g"))))
+            "0wrwqr79swsj4jmvnn0ljzymjmp1rr4al37qibagl6pj8vfdqim0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -4324,17 +4324,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20220113.823")
+    (version "20220124.1253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "70d15ebaf68d613134a1651bfb3118b57264a3db")))
+                 "19a520ecb99529790906a1fb5599acdf2b4f005f")))
         (sha256
           (base32
-            "0p3d39d0vhb0c9lr6q4fz1g1jwvap5ym7kwfkk1m4dg16c2a0p60"))))
+            "15jv6bng8xnkng005n1qbbg5lngjyq7mb5q6x3j77bkb3l8pnr9d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-flycheck emacs-s))
@@ -11911,17 +11911,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20211225.1020")
+    (version "20220124.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "641f2f7f69de2c0f4f055efe55b3ecd899a60b24")))
+                 "ef0711048da5917f4edf4822040ce4059fefb9e6")))
         (sha256
           (base32
-            "052b0zwxn7cnm9l9hb8nv794fbl9vds39f1a9xp0grg5q70qy3k3"))))
+            "1ndcyzhx4fav481h2cmz274hczjgglcqh318c5a7whs5lf7c073h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -20512,17 +20512,17 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20220124.531")
+    (version "20220124.1011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-diff-ansi.git")
                (commit
-                 "af7a0497dd5f6ba101ebd003e3947d3617f07cdf")))
+                 "947136ca12f8c340d94ac17ef8669e5b6199fe5a")))
         (sha256
           (base32
-            "1zkhr04qsxhjd22lyv1wcxmhcl27a0sqn7wsw4yiiw5pw2q40jr2"))))
+            "1q17zw167qzzjh50ixz06rvla3ymb9y73y6ddyq9k1j6ii686rgq"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-diff-ansi")
@@ -47476,17 +47476,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220122.247")
+    (version "20220124.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "064e535439337eead322cbae6e05ac9a7f456fa7")))
+                 "0c9977f30ea949cd345461ad3d53370bcd9ccddb")))
         (sha256
           (base32
-            "0ncnj0ghcsbxmw7k45b6xd1wsa5c5pkbigldi4iyldp4g9bwdzbb"))))
+            "1r8mpqfzx7v5f5i5v7s1iml57lqvw9ln3y5nk6vn2ipckvqycn82"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile emacs-magit emacs-f))
@@ -63773,17 +63773,17 @@
 (define-public emacs-leuven-theme
   (package
     (name "emacs-leuven-theme")
-    (version "20210602.709")
+    (version "20220124.1312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fniessen/emacs-leuven-theme.git")
                (commit
-                 "b8b5076d643046008ea1496559acdd4ddfdb649a")))
+                 "ba1f245a72d9a5ed63fd6be36689970f976d3242")))
         (sha256
           (base32
-            "16rfyjk0cp487ra6v5c1cmf106ixipr9b71zfp0bwm35wa2mvdic"))))
+            "0j28absab69l0allqprvazr7v8x60qf733rs953bvh1w3zd58ll4"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("lisp/*.el")))
     (home-page
@@ -67204,7 +67204,7 @@
 (define-public emacs-magit-commit-mark
   (package
     (name "emacs-magit-commit-mark")
-    (version "20220124.149")
+    (version "20220124.557")
     (source
       (origin
         (method git-fetch)
@@ -69371,17 +69371,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220123.2135")
+    (version "20220124.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "5dda9f4b7d73d1f866153d8e955112dfd8dec9ab")))
+                 "e50f4ffe1112ad041866ed2ba003c34b8627c229")))
         (sha256
           (base32
-            "1siwcc61drh8fsj0nf1ywaic81n80nxc4c8qgnszabwfvqjs0dfl"))))
+            "0ahzf41dp6dswi660sflj3qad0050va60smavrx86i2kharykmxb"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -71054,17 +71054,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220123.1343")
+    (version "20220124.1045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "3d1d33ea40fb805698885c58d3e6ddf11550b168")))
+                 "18c08990c6b0ec7f144f9155da46988aa8c95e3a")))
         (sha256
           (base32
-            "0j55h49p1diygkw1ssl3m47dqkzif8xripd226ajlbdqvb2w8qsl"))))
+            "0n0kl06hkggvhc4937wpbylzzpyr166qlb4wx680bya4jp5h7y6g"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -89137,17 +89137,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20220110.422")
+    (version "20220124.859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "6c0e63d6b3b6638c11729c5db28019a38ff44f5b")))
+                 "c91d4d53fa479ceb604071008ce0a901770eff57")))
         (sha256
           (base32
-            "0l3c7d24lirks8i4s715cdv2x022h4l6p5kg81ramqzd843335qf"))))
+            "15h809mf8d8w8axbfzjs40j8yrh5ms88x4pmlx1qlcac8j6qrilf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
@@ -102075,17 +102075,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220123.825")
+    (version "20220124.735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "9d408ee810c13dd7308d70947284aefd9b7fd055")))
+                 "e47d4e4c498804dc4df328f868013c9ad590f943")))
         (sha256
           (base32
-            "1wj93w3b0ydbn99n721bq2vrnm6b8bj4gmkn2xhc4r6rzq41vqqg"))))
+            "1arg90gz8g866xrlvrwa9kvlamrx6m0z7d7m3yvgyd4436dkdshi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -106724,17 +106724,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220119.6")
+    (version "20220124.1428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "5739794d2d0c8a4e7b77c2e37a097e19f80ac9f0")))
+                 "9ccc8d2dbb36b89e01820626ebe2b2fde385741f")))
         (sha256
           (base32
-            "1am0b2bjjkw7zd0yq39v015a08dcbk43j4d4h8y2q8hj53ryfk5a"))))
+            "0k0ccaspkg06jsm1sqg81l5lly7c5nj2ccbz675gvdwkjashg9rz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
