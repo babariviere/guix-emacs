@@ -2394,17 +2394,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220123.2021")
+    (version "20220124.550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "18196606df6d477bf1cef96c460b9515a72f2a0f")))
+                 "bbafef8fb7a11990aa3ff145cc7f1b9e61c6281b")))
         (sha256
           (base32
-            "1hzm3rrsgjrjpyxh1n4sr6x4m9c6lagb1g8hqv12qy4i7zimylnx"))))
+            "0jjpaw0f8hw0gbv3f56g4pacirn19mqaaw0kd295qxk85mva86s8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -4005,17 +4005,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20220118.1")
+    (version "20220124.411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "e5a5f1f12b28566841388fa292b4bd56b22d3608")))
+                 "0c35b2a882f7816c2860abc62ecabdf89ef98789")))
         (sha256
           (base32
-            "1h3r9l0ylkksq71m55hn912d5izkca67xl04pgwvirqvazbcai9d"))))
+            "1ky1wjj5dmy0gnprkzqg2mb5xdmaihpzd1lmr0q8pnzzsbapsl3g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -11444,6 +11444,35 @@
       "Documentation at https://melpa.org/#/chronometrist-key-values")
     (license #f)))
 
+(define-public emacs-chronometrist-spark
+  (package
+    (name "emacs-chronometrist-spark")
+    (version "20220123.739")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://tildegit.org/contrapunctus/chronometrist.git")
+               (commit
+                 "5629b06f33ba0bebb69fa208ae0d07ee32c5da6d")))
+        (sha256
+          (base32
+            "0pcv253j1rfsnmwhis3r67m87lvrrfhgjd1dnmpdd87827q1196i"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-chronometrist emacs-spark))
+    (arguments
+      '(#:files
+        ("elisp/chronometrist-spark.el"
+         "elisp/chronometrist-spark.org")))
+    (home-page
+      "https://tildegit.org/contrapunctus/chronometrist")
+    (synopsis
+      "Show sparklines in Chronometrist buffers")
+    (description
+      "Documentation at https://melpa.org/#/chronometrist-spark")
+    (license #f)))
+
 (define-public emacs-chronos
   (package
     (name "emacs-chronos")
@@ -11820,17 +11849,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220122.1635")
+    (version "20220124.721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "bccf7a1c365c4d2f2deaf9f0d0607353fd954407")))
+                 "ba49516265fa24b138346c4918d39d19b4de8a62")))
         (sha256
           (base32
-            "0dswsal5gzc6xqwf1kx09i5bsjbmzmck1bv3rahfgfwa2hr4vr72"))))
+            "1zxrzx537ar35i32g7y76k8w5z4x2nip2vw6lr4xwvzl6bwxnfqv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -20483,17 +20512,17 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20220122.1053")
+    (version "20220124.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-diff-ansi.git")
                (commit
-                 "4efeebb102a485b4d7a535f7f92c5d4b98fa056f")))
+                 "af7a0497dd5f6ba101ebd003e3947d3617f07cdf")))
         (sha256
           (base32
-            "1vr1krni92gw54ycny7vzskwwq0a6l98hyngyzi7y1c1chgscj40"))))
+            "1zkhr04qsxhjd22lyv1wcxmhcl27a0sqn7wsw4yiiw5pw2q40jr2"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-diff-ansi")
@@ -20528,17 +20557,17 @@
 (define-public emacs-diff-hl
   (package
     (name "emacs-diff-hl")
-    (version "20211106.2353")
+    (version "20220124.323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/diff-hl.git")
                (commit
-                 "6fa3af0843093f44e028584a93eef091ec7e79d2")))
+                 "4a08b02afec1fc6b1e84de46cc34f75f6c9c3bcc")))
         (sha256
           (base32
-            "0fg7mdcjjnibqi8f7zj2pig35kcq4gqfi4jvg4hvw9fcncdv0yln"))))
+            "1c8v4c9cz9mcn70dws79yh1fd3nxkbb6mdrlqs5nwy7m3d2l567a"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dgutov/diff-hl")
     (synopsis
@@ -23702,6 +23731,29 @@
     (synopsis "Subversion interface")
     (description
       "Documentation at https://melpa.org/#/dsvn")
+    (license #f)))
+
+(define-public emacs-dtache
+  (package
+    (name "emacs-dtache")
+    (version "20220123.2334")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/niklaseklund/dtache.git")
+               (commit
+                 "cdeb7dcf3ba3780c470e9649fcd77afb885195bd")))
+        (sha256
+          (base32
+            "1kfjy6yinrcqiigg42i19gcq56gj6n2nd8yz8bqfpjy1r3zkwzjy"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://www.gitlab.com/niklaseklund/dtache.git")
+    (synopsis
+      "Run and interact with detached shell commands")
+    (description
+      "Documentation at https://melpa.org/#/dtache")
     (license #f)))
 
 (define-public emacs-dtb-mode
@@ -31541,17 +31593,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220123.1243")
+    (version "20220124.225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "ffe4f66d431cc6039a1c66b0fefca4e94ee57095")))
+                 "e69abfcb1cc0dd59dfe7c055b0779a6622f8282d")))
         (sha256
           (base32
-            "1xg9n9jn4jn7k5sl3q6xxfnr763jymclxkasllj7p0w9rb7i2mp1"))))
+            "1gsrh5scp8yksilx14cn3h2hy68xh8jhmm15wwzwlg457kc3jcm4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -67063,17 +67115,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220123.2135")
+    (version "20220124.422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "2a6b51b7f1b2d35f1dd3ec7b158362263fab77cc")))
+                 "d74494f833c8d4b55b2f02462e64d890556c375c")))
         (sha256
           (base32
-            "0z0k522z6p98y0k2n55rdvgfibjbhmwbpk0irij1rmg2ihxycjjq"))))
+            "02llaw447ng8f39bxaqzpjpqv0p1mj1k7m72ild1al7b6cr0x6m7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67152,17 +67204,17 @@
 (define-public emacs-magit-commit-mark
   (package
     (name "emacs-magit-commit-mark")
-    (version "20211101.948")
+    (version "20220124.149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-magit-commit-mark.git")
                (commit
-                 "5b60f0c88c33b8dbf73a41b388f55bf8e73e1d8d")))
+                 "d02a69c0c1b411157e8ba34d6e986767c5ea758c")))
         (sha256
           (base32
-            "03i4rjwdqw2hf6nl5vwgh5zm235svrrnrj0wq82yk25f58dgskb6"))))
+            "1adqc4c9xqydmmk1zh4ar590hznfq4ls8g9x5xc0id7mc0pc9rjs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -74516,17 +74568,17 @@
 (define-public emacs-nnreddit
   (package
     (name "emacs-nnreddit")
-    (version "20211116.1718")
+    (version "20220124.351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dickmao/nnreddit.git")
                (commit
-                 "7347ad1f3db7351c2e7f9a06d2ca8873130dbbfb")))
+                 "ddb59e309018416d1f867b6dddca44f17a1b6bb9")))
         (sha256
           (base32
-            "178sq7rsghqhmhjdxixrybls00g7mp6wbmsx9lzg8c0ywpr9n332"))))
+            "1qj1yzpgcdn550lb1c9hqc3wb46pah6h00y3m3q3n2v6cks8lnmc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request
@@ -74957,7 +75009,7 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220123.1827")
+    (version "20220124.47")
     (source
       (origin
         (method git-fetch)
@@ -89640,6 +89692,28 @@
     (synopsis "Prettify Guix/Nix store paths")
     (description
       "Documentation at https://melpa.org/#/pretty-sha-path")
+    (license #f)))
+
+(define-public emacs-pretty-speedbar
+  (package
+    (name "emacs-pretty-speedbar")
+    (version "20220124.16")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/kcyarn/pretty-speedbar.git")
+               (commit
+                 "ea3daaf6a526a1ad4ae385066c99fd9643da7f94")))
+        (sha256
+          (base32
+            "0irnp6v1i930s8fh1iqmbs4amyia9qdnggq7n5hxfi4ni0p66yqq"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/kcyarn/pretty-speedbar")
+    (synopsis "Make speedbar pretty")
+    (description
+      "Documentation at https://melpa.org/#/pretty-speedbar")
     (license #f)))
 
 (define-public emacs-pretty-symbols
@@ -110404,17 +110478,17 @@
 (define-public emacs-tzc
   (package
     (name "emacs-tzc")
-    (version "20220123.1827")
+    (version "20220124.58")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/tzc.git")
                (commit
-                 "880869626200f47cbb9e048002935ad3857536c3")))
+                 "08566843f598e645aec25d7d75e486b47ab8ef9e")))
         (sha256
           (base32
-            "1q714h0dk9b51hj2izw8cllg510rz907f45v6y7s8ys8mcxkii7l"))))
+            "0wgnr2s6p5iw4fxkc7zsx8yhjhf2mk42cikyydzz8ppi613fc6b4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/md-arif-shaikh/tzc")
@@ -115656,6 +115730,29 @@
       "declarative configuration for Emacsen")
     (description
       "Documentation at https://melpa.org/#/wonderland")
+    (license #f)))
+
+(define-public emacs-wordel
+  (package
+    (name "emacs-wordel")
+    (version "20220124.251")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/progfolio/wordel.git")
+               (commit
+                 "12f9801d2ba6878e0c7e68841d83e23df7216145")))
+        (sha256
+          (base32
+            "0478saf227gahc0biwckkmg80bdmf2bhh6r9wmb0w2vk38nhp81y"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files (:defaults "words")))
+    (home-page "https://github.com/progfolio/wordel")
+    (synopsis
+      "An Elisp implementation of \"Wordle\" (aka \"Lingo\")")
+    (description
+      "Documentation at https://melpa.org/#/wordel")
     (license #f)))
 
 (define-public emacs-wordgen
