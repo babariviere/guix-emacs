@@ -10601,17 +10601,17 @@
 (define-public emacs-centered-window
   (package
     (name "emacs-centered-window")
-    (version "20200426.1053")
+    (version "20220125.804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/anler/centered-window-mode.git")
                (commit
-                 "f50859941ab5c7cbeaee410f2d38716252b552ac")))
+                 "80965f6c6afe8d918481433984b493de72af5399")))
         (sha256
           (base32
-            "1l7m3gfn7j1mxs0rj1pm5avknplw2f34dd2k24n5rldfm41pf8i8"))))
+            "0zmq84gvkyj20l9gv5wwraa6zis2vk7hadagkmyqg1w6vs25n2mh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/anler/centered-window-mode")
@@ -11541,17 +11541,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220121.1047")
+    (version "20220125.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "502b5210cc77f0bbbbea72517f75c0fef7754cec")))
+                 "3695a9289e5352481c8f8c7d699ff83ed06e842d")))
         (sha256
           (base32
-            "038mhgi26jsyl9wcmy0j45pzshhkzvn01yll260jh761kvi100d7"))))
+            "10fibikvakszc7fbazikp7xw4k4wbn7w94qlpksc0vigz38nyvk7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -21960,17 +21960,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220125.343")
+    (version "20220125.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "48822adf69284d953fbda7ecd6a4356ae44d2c74")))
+                 "16aa978151e4859d00bd22e2c228b14430a63653")))
         (sha256
           (base32
-            "1n6vp5xznbp9cv07561xcpxyzql4ggs1sxzsz9yinlpf421mx1w0"))))
+            "19ksdiydgg8chdgjliqb6fp81kahjnpnh6w8kj9i3mnzk95rx7kx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23665,17 +23665,17 @@
 (define-public emacs-drupal-mode
   (package
     (name "emacs-drupal-mode")
-    (version "20220117.1142")
+    (version "20220125.1044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/arnested/drupal-mode.git")
                (commit
-                 "5b90a053f73849db77e4c89a030acd81b53712d1")))
+                 "17927723adc5921e8058f7c29e5e50e88b975639")))
         (sha256
           (base32
-            "0pl00a0gr6xgyrf8fhdk6s79kr1l4fimszmwhr05zdya70jlav7i"))))
+            "1j0zlcjrz0pswcc8wh476vx503qvlyzjscwh0gs3cfss8j6r6gd5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-php-mode))
     (arguments
@@ -28482,17 +28482,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20220104.2105")
+    (version "20220125.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "2c24a16fa2e57ccedf4b502c887213c8f4eeb872")))
+                 "c3596ae7166db2de004c57da303b5eb8d3e1f2e8")))
         (sha256
           (base32
-            "1qsshfnrkimpvz6w5hy1wrx9s70ffbfcqzrdlwcvaly66zna7zq1"))))
+            "09fs05cgvxxsqcbswrdr5fi8g0m0y2iq2w19ks7a102zqpfp2bml"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("*.el" "lisp/*.el" "doc/emms.texinfo")))
@@ -30987,17 +30987,17 @@
 (define-public emacs-ess-view-data
   (package
     (name "emacs-ess-view-data")
-    (version "20211206.916")
+    (version "20220124.1430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/ess-view-data.git")
                (commit
-                 "05888711212f9a9d72ecd48904de0c66adf6575a")))
+                 "6277684e06d5c3a2cbd340f656b7ffca4046e45b")))
         (sha256
           (base32
-            "1nm1vzjby8ind8pvqzyy5yjcf0la72azjf55pwr46rzrjgia0s1a"))))
+            "1ijxrcfbk8l1jbij9nc7b9j2nk3k5imvjbs5319z85q10k5cz7f9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ess emacs-csv-mode))
@@ -33881,17 +33881,17 @@
 (define-public emacs-exwm-modeline
   (package
     (name "emacs-exwm-modeline")
-    (version "20220109.804")
+    (version "20220125.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/exwm-modeline.git")
                (commit
-                 "4c77d4e3df851ea96eac627bfd580f313e2860f3")))
+                 "71345b59d8eb885340d9e29102c6f2a977c55b43")))
         (sha256
           (base32
-            "1jdmmncmyhivn83xj7arapww5yp8iqcbfffhlbhl8aiq0dc8lgdg"))))
+            "0k1ips78l1na2ymccbg8bqc70gzbw2dh8y0s4qjcnkxdyrmw841p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-exwm))
     (home-page
@@ -35101,17 +35101,17 @@
 (define-public emacs-find-file-in-project
   (package
     (name "emacs-find-file-in-project")
-    (version "20210924.952")
+    (version "20220125.726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/find-file-in-project.git")
                (commit
-                 "1d2f0b374460be798ba5c4854d3660e9b4d6d6f7")))
+                 "204b3d489a606c6e7b83518e46be3bbcef1bcb3d")))
         (sha256
           (base32
-            "1aqsgfbhc382h009hv3xqh5kq5x7y3smk1vc0vj3bwfg95fw6jdx"))))
+            "0h22rh88i11sz0kh1pq9fc9w58lja00xrany6mcy1hr6l0wy2g5h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/redguardtoo/find-file-in-project")
@@ -55950,17 +55950,17 @@
 (define-public emacs-immaterial-theme
   (package
     (name "emacs-immaterial-theme")
-    (version "20211208.729")
+    (version "20220125.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petergardfjall/emacs-immaterial-theme.git")
                (commit
-                 "1c576624758429118794db9407c9627dfff7c975")))
+                 "592ebfcb6e3761174b6e2cdf91cc55a1e2ffb9c7")))
         (sha256
           (base32
-            "0a704nk7ly4wy5nmgqkdrg3lp3lpyk701myp9b72dn6diiv9r4nd"))))
+            "0jqysfinwrvzlimhmwbbvbr2sdpk665ymwv9771ils5q3kdnlz22"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/petergardfjall/emacs-immaterial-theme")
@@ -69371,17 +69371,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220124.1237")
+    (version "20220125.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "e50f4ffe1112ad041866ed2ba003c34b8627c229")))
+                 "cccf8afdbb1ffc4621515d817a4ffb89d592f815")))
         (sha256
           (base32
-            "0ahzf41dp6dswi660sflj3qad0050va60smavrx86i2kharykmxb"))))
+            "0r691fdklf63051iqwpgxzs81a9mk1bbyx5a89mzca8qjixliqkj"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -86324,17 +86324,17 @@
 (define-public emacs-perspective-exwm
   (package
     (name "emacs-perspective-exwm")
-    (version "20220123.1529")
+    (version "20220125.1325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/perspective-exwm.el.git")
                (commit
-                 "c758a6d0c0aab0643cb11ce40a5fe0abb9de3f5c")))
+                 "2a3d9c0af98e20876f956d0d822baba25561d1f8")))
         (sha256
           (base32
-            "1iglbdy2fm7ykgq5jji39ppb3dh7w6557hzhdagy0s9ylyrkqhwm"))))
+            "0iyf3351qc5qgyzy18s2w0i7w6ky78jdbwzj4i3zfxny0c8pqh38"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-burly emacs-exwm emacs-perspective))
@@ -92849,17 +92849,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220122.1551")
+    (version "20220125.1340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "88a9c290fb6685a960c8c4a6ad1854576f970fbf")))
+                 "8f28f82a7d784ff1d9fe3e08550fbe95959c3bb5")))
         (sha256
           (base32
-            "0vv2qhq5z0n0brq7c2z6v3fhdds7d6mzsqrs2mg866s20w61hk61"))))
+            "113y8cxfxlgaj9d8j1v918sljhqai067fpn7092q62zb3qlg06pk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -108614,17 +108614,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220123.1937")
+    (version "20220125.930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "a68728a87f63b0ddf04e50739bb29982a20f0296")))
+                 "1f9709697c02f705b509bdd8aa4898d2d85a006e")))
         (sha256
           (base32
-            "0xmxicsccvr34czby9r4ygcb08ipkpz25zdw5i6glfjmvyih4wvi"))))
+            "0zjg4yfcs5ci9wyhvqm1jg86pg6mnd07knifcq8nhkdr933xqgbd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -110478,17 +110478,17 @@
 (define-public emacs-tzc
   (package
     (name "emacs-tzc")
-    (version "20220124.58")
+    (version "20220125.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/tzc.git")
                (commit
-                 "08566843f598e645aec25d7d75e486b47ab8ef9e")))
+                 "a21183aee387296fe77244c25735dc445f83f4d1")))
         (sha256
           (base32
-            "0wgnr2s6p5iw4fxkc7zsx8yhjhf2mk42cikyydzz8ppi613fc6b4"))))
+            "0nhda8lrd37xsi1nswx71z7mlf5l890d7sji6lidafxsz6b9mlf3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/md-arif-shaikh/tzc")
