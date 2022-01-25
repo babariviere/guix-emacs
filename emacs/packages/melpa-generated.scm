@@ -21960,17 +21960,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220124.1726")
+    (version "20220125.343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "bf0005d09a58089573bbdbfcdb8b8a5b5271fcf1")))
+                 "48822adf69284d953fbda7ecd6a4356ae44d2c74")))
         (sha256
           (base32
-            "07v768wf8jj8n91hlz5kk6wpslg82fm91xnz7sn27ld71zapxp2g"))))
+            "1n6vp5xznbp9cv07561xcpxyzql4ggs1sxzsz9yinlpf421mx1w0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -51986,7 +51986,7 @@
 (define-public emacs-helm-tree-sitter
   (package
     (name "emacs-helm-tree-sitter")
-    (version "20220124.2108")
+    (version "20220124.2246")
     (source
       (origin
         (method git-fetch)
@@ -67227,17 +67227,17 @@
 (define-public emacs-magit-delta
   (package
     (name "emacs-magit-delta")
-    (version "20210104.1541")
+    (version "20220125.50")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dandavison/magit-delta.git")
                (commit
-                 "56cdffd377279589aa0cb1df99455c098f1848cf")))
+                 "5fc7dbddcfacfe46d3fd876172ad02a9ab6ac616")))
         (sha256
           (base32
-            "19q04y61hkzxkqw2xi1g7m4bwaxpfwza7if6cm41g72kdb8r68vb"))))
+            "1kph5r9dy21pgfknpcdzzqfn6rqig5nvp8ksh16y13k3axlzvkiw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-xterm-color))
@@ -94572,17 +94572,17 @@
 (define-public emacs-regex-dsl
   (package
     (name "emacs-regex-dsl")
-    (version "20100124.1028")
+    (version "20220125.506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alk/elisp-regex-dsl.git")
                (commit
-                 "ac89ab8b7691a165ef3007cb84417125cfc0632e")))
+                 "8802555ecdab8b50bb64181798497c10cdb5034b")))
         (sha256
           (base32
-            "1d34jd7is979vfgdy56zkd1m15ng3waiabfpak6dv6ak3cdh5fgx"))))
+            "0a3jyxrgr2sqigv86zr9irf0g8rvvc2bwjc3z2m8pbk75hm00k50"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "lisp syntax for regexps")
@@ -102075,17 +102075,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220124.1648")
+    (version "20220125.702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "411ee7d14ef833afba19aa58ec4ee04993dfbec1")))
+                 "150c25c8e0db87c1750d4f6d6e07f0644c051886")))
         (sha256
           (base32
-            "12hv50n5kv39rk2q3gqyxifhrv301l969rhsn1sjzjhjdbr75jvy"))))
+            "02jaa9cm8cdj2gvxqdpkrwlamkfgnmyrl5xk8wg50m4xbn095fq7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -102987,17 +102987,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20211202.1925")
+    (version "20220125.252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "4d1ce0ca8a4c84667301b3e347fe594989c25e60")))
+                 "d7e0eb6dd1d05b5f521cff739ee4cdccf2fb9784")))
         (sha256
           (base32
-            "0fmaxsx6yn3j9i4k6kzap0s2fc5899j623sz9v71g5pjg4pfwmyy"))))
+            "1c9qxhz11sq3hhmdpp1idiixd4n5fndbna21zrvgkxbgsifq4nva"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
