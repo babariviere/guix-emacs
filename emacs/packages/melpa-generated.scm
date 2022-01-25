@@ -21960,17 +21960,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220122.904")
+    (version "20220124.1726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "8b63425a3be43a155a58023588692413138db23f")))
+                 "bf0005d09a58089573bbdbfcdb8b8a5b5271fcf1")))
         (sha256
           (base32
-            "1b0hib9xplxcfy85l8f9haxvzavqcvmdsg1dbnly0307ypkppb69"))))
+            "07v768wf8jj8n91hlz5kk6wpslg82fm91xnz7sn27ld71zapxp2g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -51986,17 +51986,17 @@
 (define-public emacs-helm-tree-sitter
   (package
     (name "emacs-helm-tree-sitter")
-    (version "20220116.2021")
+    (version "20220124.2108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Giedriusj1/helm-tree-sitter.git")
                (commit
-                 "8ee97eaa59084faad78931c35694fc2d8907e68f")))
+                 "1cace1f9a8c5c519b985f7ee542ba3375eabd0e1")))
         (sha256
           (base32
-            "0ca20593gvdds0sfvl1vj21hy1w3rzvf5qqb57vqf0wc7fwp4agv"))))
+            "1ka0xq5ghhn4r82k1aq5v4scariwvpwbr7c179j36axxlyvr6zkn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm emacs-tree-sitter))
@@ -63415,17 +63415,17 @@
 (define-public emacs-lean-mode
   (package
     (name "emacs-lean-mode")
-    (version "20211220.917")
+    (version "20220124.1813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leanprover/lean-mode.git")
                (commit
-                 "a4205749d20a09871f0951c34f919d4ee5fbdb55")))
+                 "c1c68cc946eb31b6ba8faefdceffce1f77ca52df")))
         (sha256
           (base32
-            "0jqfnwjwn5payjj1lfl1zvw8gpcdlc6k3lqbw6iwpzlyal7y0nyb"))))
+            "0qb5j50qi9b04jrfk6fryllpf0i9s2h4kp93fyk53sjczm52kh7p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-f emacs-flycheck))
@@ -64628,17 +64628,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20220110.1932")
+    (version "20220124.1847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "9c03f3be2bae318363f1a35a01ab9906124610c5")))
+                 "c6abaed62649b2230f35e4091f3ea234d217440a")))
         (sha256
           (base32
-            "1jxc4pmlmsd7mca4x62kxyf7ynzr094m04bywmazh6yypb7nri5l"))))
+            "02k6gqw499acsphg9992q736mvcyrcz81r59ah3wkwaim2grrzmd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -66257,17 +66257,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220115.1742")
+    (version "20220124.1546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "1d9da9f24fd477faa2a38b369842a27fe5bda160")))
+                 "b21c70d15ef1cc0c1787ce9faf641ef479a4af0e")))
         (sha256
           (base32
-            "1p0jdfrn3v4qh0x29i5x6x5lkqd2y9wi6rx5w7kwbv5c5wfxcgw2"))))
+            "00l2v3qsspamj5mpfz180jg1i6war9gp00rbvp8d3jp9as33i4r9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73459,17 +73459,17 @@
 (define-public emacs-native-complete
   (package
     (name "emacs-native-complete")
-    (version "20220122.1732")
+    (version "20220124.1806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/CeleritasCelery/emacs-native-shell-complete.git")
                (commit
-                 "bd601960c2dcaadf3ddbc1fe999dbd54e562e112")))
+                 "5f94022fc9168971c77f8c12f9efd569c45f4850")))
         (sha256
           (base32
-            "1aaccs2g39860k4xkada4905rz7hv9q63lnx871gzxwy21b6ns90"))))
+            "0lfqvm71lxxga06pjzcdydjpgd3548rql7bsjdvbknkwx2p54w4g"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("native-complete.el")))
     (home-page
@@ -91102,17 +91102,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20211204.1256")
+    (version "20220124.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "e147a72f3c6b7bb40ef7fa37d12ea54afa09cd7e")))
+                 "ed4a863460329a3019c286ff382e2ddc0ffdc9d7")))
         (sha256
           (base32
-            "06lkpzz6ri092awgba575vq4qy3ym4qbk6hrwfpvmy81n26v7wsw"))))
+            "14lcqf0qdkq2rklx12v12qpgfahz2bpqmnl3bzcz5myawgjjcphd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -102075,17 +102075,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220124.735")
+    (version "20220124.1648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "e47d4e4c498804dc4df328f868013c9ad590f943")))
+                 "411ee7d14ef833afba19aa58ec4ee04993dfbec1")))
         (sha256
           (base32
-            "1arg90gz8g866xrlvrwa9kvlamrx6m0z7d7m3yvgyd4436dkdshi"))))
+            "12hv50n5kv39rk2q3gqyxifhrv301l969rhsn1sjzjhjdbr75jvy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -109522,17 +109522,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220119.1620")
+    (version "20220124.1914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "410277b60282fc4b400e34cd87008a1183b1151d")))
+                 "5045bcd9250689faebf419e252a8f2e4082fa3a5")))
         (sha256
           (base32
-            "1pd8kp6bym4y8hrr9b6ws12g3acvhrzrq06fjcdwpwp8aihgpw0w"))))
+            "0vi126algw66w9bfg1n6fidddffmdj6968dskpnkp6d2mh7hdvb2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -109560,17 +109560,17 @@
 (define-public emacs-treemacs-all-the-icons
   (package
     (name "emacs-treemacs-all-the-icons")
-    (version "20211107.1818")
+    (version "20220124.1914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "c33fb05b9b54c188f324323852d8d48317cfe3a7")))
+                 "5045bcd9250689faebf419e252a8f2e4082fa3a5")))
         (sha256
           (base32
-            "0ndcvmm8b5vxddz9n876jrs9nmdp20nj4g2iiabws4d12r8b7j94"))))
+            "0vi126algw66w9bfg1n6fidddffmdj6968dskpnkp6d2mh7hdvb2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons emacs-treemacs))
@@ -115479,17 +115479,17 @@
 (define-public emacs-with-editor
   (package
     (name "emacs-with-editor")
-    (version "20220107.1056")
+    (version "20220124.1620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "a4e720b12a0946a271a274bbe0b45ae07f83520b")))
+                 "bc8fb282f1d18f375cd357abe9cdaa95c9b2d9da")))
         (sha256
           (base32
-            "06a66119rp5vfqdzqk10df3qyh9jvjl6j3pqm03jy0b110v2bfa8"))))
+            "0pqd1mm0n62knvzhn0iyp9cz0vrxb3zyypczcizl1pnhjy10wsrn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
