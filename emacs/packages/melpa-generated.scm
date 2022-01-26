@@ -21960,17 +21960,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220125.1317")
+    (version "20220126.709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "16aa978151e4859d00bd22e2c228b14430a63653")))
+                 "8f1c9bfa2fb57878da6bcac94cc10c8e2c0adf76")))
         (sha256
           (base32
-            "19ksdiydgg8chdgjliqb6fp81kahjnpnh6w8kj9i3mnzk95rx7kx"))))
+            "1ymsm8nyxan6hzdxgkchp32xhr7n6yskqvb58a7jv0wxnlqxnvkx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26864,17 +26864,17 @@
 (define-public emacs-elfeed-protocol
   (package
     (name "emacs-elfeed-protocol")
-    (version "20210430.846")
+    (version "20220126.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fasheng/elfeed-protocol.git")
                (commit
-                 "c88bb246a40c2f8ec2cb36bc16690d1ed43f8b14")))
+                 "d2e22f5506bc75dbf4ca42ac87257fd1b259dd66")))
         (sha256
           (base32
-            "0aq1rp46dr2hdkzm8aapb1xlcbdpa0nbrgb8b5avkihmyx7nkwkb"))))
+            "0zmalhdd4xbn9wc5dmk4511ha955smrjpmzknwkwhqn8npgbj4m5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed))
     (home-page
@@ -44737,17 +44737,17 @@
 (define-public emacs-go-dlv
   (package
     (name "emacs-go-dlv")
-    (version "20211015.816")
+    (version "20220126.1436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/benma/go-dlv.el.git")
                (commit
-                 "8811c0aa79fcbc0d495ed8c68f49a3c42d1a0d4b")))
+                 "0a296bc3b7b4dcf0c140a78c5ca3e1a8c6b7ea1a")))
         (sha256
           (base32
-            "1h4p0i13fxsr4rgxh4grn5p24sbwb9c6mszwdajnlf8yjz65prf9"))))
+            "0dql0c272n6zmfgbk30abipkhhdfncm4kj6wb9pslfi4fmrk7czq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-go-mode))
     (home-page "https://github.com/benma/go-dlv.el/")
@@ -47476,17 +47476,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220125.1659")
+    (version "20220126.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "6acdf2410f80a2c95600df4be6661d3fd4b0084c")))
+                 "a425152bd97ca8010b35c66ee4afcd9275e680fa")))
         (sha256
           (base32
-            "19yvn8g5m1mcv36qfaclp1ibx4vmm4hm8i54c3g2lc7kbkm20cm5"))))
+            "18hwnnlpqyx2wj4ds7716a75ch8lhx69jaba0532daas5dmfs4ii"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -61462,17 +61462,17 @@
 (define-public emacs-keycast
   (package
     (name "emacs-keycast")
-    (version "20220117.1747")
+    (version "20220126.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/keycast.git")
                (commit
-                 "72d9add8ba16e0cae8cfcff7fc050fa75e493b4e")))
+                 "99693da56ba81e1d1239770f207e9ff8a7a3a000")))
         (sha256
           (base32
-            "07lwnz2i063v517lw739xpqgh04mq3ri060xni7qvvm3baiqjlry"))))
+            "12baiw5jkrpaxnmxaw1308kjiy7dlyibz0b6a0k9328s9k7fr7g8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/keycast")
     (synopsis
@@ -65759,17 +65759,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220123.652")
+    (version "20220126.1002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "792a0085d73e081bf338555904e35d00edd8b4f8")))
+                 "eb82ec7caa608afed6db166033e6461c9696f833")))
         (sha256
           (base32
-            "139c1w778khy7sxfbc6fh2pmr5hbxrjw7i7pclc1zxxkrvjxb4gm"))))
+            "1wyincmfj9i89yclcf2xm0gbdmffh8bjkkdw3zh0i6v3ak7qhicf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -75008,17 +75008,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220124.47")
+    (version "20220126.1122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "15207652a1e52f995d08eb5645f28531b5e19d46")))
+                 "0a32741fceb7778ced34064eacb7b5aac2c71638")))
         (sha256
           (base32
-            "1ah9skdrfifdrsmy2n2gxavc2mdsagglcgnj1sydzk0fmvl2ifq1"))))
+            "0691vkkslg76mwvxj4r42rrgyq1457s04y20w7qhqx26j5gfxn3i"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.png")))
@@ -88883,17 +88883,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20211226.2111")
+    (version "20220126.844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "8af5e6b3bb08a71abbafba2491e3ab001a13a067")))
+                 "a50edecacf2939fc50ad2bc48f1015486a09f885")))
         (sha256
           (base32
-            "1pcf5jdzh94c1x99z2w71cp3866g4qnqv9bs4aqmik54xklnkrh5"))))
+            "0p12zz2lhm10yikhnq52z66xwy64gcvig42bzajv5q7x09qvvna7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -115478,17 +115478,17 @@
 (define-public emacs-with-editor
   (package
     (name "emacs-with-editor")
-    (version "20220124.1620")
+    (version "20220126.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "bc8fb282f1d18f375cd357abe9cdaa95c9b2d9da")))
+                 "21388a4cc7e4fa8e0686a4ba99472984029dda1c")))
         (sha256
           (base32
-            "0pqd1mm0n62knvzhn0iyp9cz0vrxb3zyypczcizl1pnhjy10wsrn"))))
+            "0nk2n5bdx0mcxwfm9zyqfk545zs7glsz53s8jlg8qzvh2v8m2dy2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
