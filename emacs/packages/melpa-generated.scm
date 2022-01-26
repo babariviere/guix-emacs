@@ -33111,17 +33111,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20220122.1641")
+    (version "20220126.110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "7e9dee89408f22938c70e4e453a0b49e91c6fbe2")))
+                 "0a718e473651d4443f24d0f6625f96822be21cd0")))
         (sha256
           (base32
-            "18q9npggdkjw13b6bpyac4m2zr1b39r53rp0yp69a4r5iq2wymwp"))))
+            "1dqhvaiiq4j42b7lj12ms71bwazl098xad262zn4nxidcpf0qlll"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -71053,17 +71053,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220124.1045")
+    (version "20220126.534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "18c08990c6b0ec7f144f9155da46988aa8c95e3a")))
+                 "b3fc225a91ac742b18b90789344e490c131e4780")))
         (sha256
           (base32
-            "0n0kl06hkggvhc4937wpbylzzpyr166qlb4wx680bya4jp5h7y6g"))))
+            "1lwg37kn3fldq9ai5skr725nj1hcbn2xhwq2yifriyksns5s2wwj"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80898,17 +80898,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220121.2350")
+    (version "20220126.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "3e2716edf308085eef60185275245da88d3bcea0")))
+                 "aafe4114c2288706c5a7499c29cd5442e3c9e708")))
         (sha256
           (base32
-            "0iwcwq7swmls21g85q8ffirqk497hqxmbqbhga0ffvl9s7a65bzn"))))
+            "1jdfyf667kais5qsa8093kj4gnvkd7hxsacxc3pvhfnh0bx0lgff"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -85645,17 +85645,17 @@
 (define-public emacs-pcmpl-args
   (package
     (name "emacs-pcmpl-args")
-    (version "20210805.1537")
+    (version "20220126.143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/JonWaltman/pcmpl-args.el.git")
                (commit
-                 "5f2943fd70d94065496c52d21f05eb89028637cc")))
+                 "e51aae79a7aeaac677f7bd0c0b3c18c7cdea5d91")))
         (sha256
           (base32
-            "19xwwpfcf0l9jh7xixyjd5adivj27jw00zvxb7n1240k5p332pzi"))))
+            "17zj8v9s517ldb9h1qv5mjf4hklbk5rbrbf8ix6z0dvljmy4zcki"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/JonWaltman/pcmpl-args.el")
@@ -103869,17 +103869,17 @@
 (define-public emacs-ssh-deploy
   (package
     (name "emacs-ssh-deploy")
-    (version "20210626.2228")
+    (version "20220126.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cjohansson/emacs-ssh-deploy.git")
                (commit
-                 "7c5fe8af2d62d8f6d32ebe2d3bfc53051a9432d1")))
+                 "9311f9b4f8d25ce54fb7da9bf59d955fed366a4d")))
         (sha256
           (base32
-            "1ca1ai742g2901pni08clk37h1ls4n65pzxpsfzsxnr7i46yh989"))))
+            "1wgm4q46nja71grwbdnacnlazj3cgfr6r1glpkyx8y3dn9amdhip"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/cjohansson/emacs-ssh-deploy")
@@ -109140,7 +109140,7 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220124.1516")
+    (version "20220121.1603")
     (source
       (origin
         (method git-fetch)
@@ -109368,17 +109368,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20220121.1603")
+    (version "20220126.110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "c85ff644a4be4471bc06c4cd8f35ce696f3294da")))
+                 "0a718e473651d4443f24d0f6625f96822be21cd0")))
         (sha256
           (base32
-            "1x926vq8fdqvwyz9s8rxxc8942dz21zyghp6fq0ls744l8mma87w"))))
+            "1dqhvaiiq4j42b7lj12ms71bwazl098xad262zn4nxidcpf0qlll"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
@@ -110477,17 +110477,17 @@
 (define-public emacs-tzc
   (package
     (name "emacs-tzc")
-    (version "20220125.1535")
+    (version "20220126.604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/tzc.git")
                (commit
-                 "a21183aee387296fe77244c25735dc445f83f4d1")))
+                 "7b2315b6bf9c87ec282c71c27c99eec0f61b8f82")))
         (sha256
           (base32
-            "0nhda8lrd37xsi1nswx71z7mlf5l890d7sji6lidafxsz6b9mlf3"))))
+            "1vqnmyb13zf9j7svdgclg27krl0xngp23hq3l17c6c8rbjsvf271"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/md-arif-shaikh/tzc")
