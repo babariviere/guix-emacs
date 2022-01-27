@@ -16029,17 +16029,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220123.647")
+    (version "20220126.2133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "cc24d57e4c9f61d7238c99b577ab8161ea70244e")))
+                 "0804d27a8c5c4ebbf157356f255d022bb84336cc")))
         (sha256
           (base32
-            "17w5817z4653q7zbm26jl3xj0h66y1dbzyjb4pkjqhf9yhlba6qs"))))
+            "03l9kp60iwqj41fyjr44y0pf1i4k2lrkhlmdy5sdvfw76cgc61qz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -23736,17 +23736,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220123.2334")
+    (version "20220126.2157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/niklaseklund/dtache.git")
                (commit
-                 "cdeb7dcf3ba3780c470e9649fcd77afb885195bd")))
+                 "8d4106e2f2b352e1b4d9585b888547414df9318c")))
         (sha256
           (base32
-            "1kfjy6yinrcqiigg42i19gcq56gj6n2nd8yz8bqfpjy1r3zkwzjy"))))
+            "154jkdgrvggnkqifvj2b4p66wmcs58r02j37hkb5gxdm6i8w2j1k"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -36266,17 +36266,17 @@
 (define-public emacs-flycheck-aspell
   (package
     (name "emacs-flycheck-aspell")
-    (version "20210618.920")
+    (version "20220126.2310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leotaku/flycheck-aspell.git")
                (commit
-                 "576e7f3e96ef8757a45106346a5f45831a8fee13")))
+                 "ab499be2b7e99bb851b472fbc243155595bdd107")))
         (sha256
           (base32
-            "1680qkn6n145ib0q039081k9iwgl81i81d1wmy1myifq8h9pgjzc"))))
+            "1awj9isvgvnksf5gbyii23bl0i21agxmxqzbjav2sknlckjiwyid"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files ("flycheck-aspell.el")))
@@ -38698,17 +38698,17 @@
 (define-public emacs-flymake-aspell
   (package
     (name "emacs-flymake-aspell")
-    (version "20210411.2342")
+    (version "20220126.2310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leotaku/flycheck-aspell.git")
                (commit
-                 "576e7f3e96ef8757a45106346a5f45831a8fee13")))
+                 "ab499be2b7e99bb851b472fbc243155595bdd107")))
         (sha256
           (base32
-            "1680qkn6n145ib0q039081k9iwgl81i81d1wmy1myifq8h9pgjzc"))))
+            "1awj9isvgvnksf5gbyii23bl0i21agxmxqzbjav2sknlckjiwyid"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("flymake-aspell.el")))
     (home-page
@@ -47476,17 +47476,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220126.1359")
+    (version "20220126.2043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "a425152bd97ca8010b35c66ee4afcd9275e680fa")))
+                 "0a4b5ef472e9de8b01d15b660fae5a7f79b88102")))
         (sha256
           (base32
-            "18hwnnlpqyx2wj4ds7716a75ch8lhx69jaba0532daas5dmfs4ii"))))
+            "0qpvsfaszigz7456d233iydm2ny11x4ks8db47il0jyk68pzbdg4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -61462,17 +61462,17 @@
 (define-public emacs-keycast
   (package
     (name "emacs-keycast")
-    (version "20220126.1431")
+    (version "20220126.2100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/keycast.git")
                (commit
-                 "99693da56ba81e1d1239770f207e9ff8a7a3a000")))
+                 "ebe6ea5e4ce73fb7b30f9d6647d7635396410837")))
         (sha256
           (base32
-            "12baiw5jkrpaxnmxaw1308kjiy7dlyibz0b6a0k9328s9k7fr7g8"))))
+            "02izx6cgdzi5882zny38gwsc6frdry854f6ihfspfv53qiwslxzd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/keycast")
     (synopsis
@@ -67114,17 +67114,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220124.422")
+    (version "20220126.1645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "d74494f833c8d4b55b2f02462e64d890556c375c")))
+                 "6ba3b50373fffa89ae99fc0ad5135e3d574f6df4")))
         (sha256
           (base32
-            "02llaw447ng8f39bxaqzpjpqv0p1mj1k7m72ild1al7b6cr0x6m7"))))
+            "09fwgr7cba0pb4m4whi90agshxp88bfa40wl97fspl25vwr5gnk7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75474,17 +75474,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220123.2238")
+    (version "20220126.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "9ba2fddc40379e976cf62c86b24999dafab16925")))
+                 "d30659a8286c12def0c910d6cf3411ea84a68ca1")))
         (sha256
           (base32
-            "1mi0c6kj1713snhv4fypsdmj8zmra8szlvv62bjy5g9mgbpa6j08"))))
+            "0pw99cy20k9wyp87g0hgaqcxckynf6asvz0y4abmg6i9ax7p4mxi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -85645,17 +85645,17 @@
 (define-public emacs-pcmpl-args
   (package
     (name "emacs-pcmpl-args")
-    (version "20220126.143")
+    (version "20220126.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/JonWaltman/pcmpl-args.el.git")
                (commit
-                 "e51aae79a7aeaac677f7bd0c0b3c18c7cdea5d91")))
+                 "02ae18bda3fb3f49468f30635af6b508e0ecffc4")))
         (sha256
           (base32
-            "17zj8v9s517ldb9h1qv5mjf4hklbk5rbrbf8ix6z0dvljmy4zcki"))))
+            "0c8ag20v9j4p2mrf7bhjc225aabncah2j92g909w3hh0w4yac9l0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/JonWaltman/pcmpl-args.el")
@@ -92875,17 +92875,17 @@
 (define-public emacs-rails-i18n
   (package
     (name "emacs-rails-i18n")
-    (version "20220111.1811")
+    (version "20220126.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/rails-i18n.el.git")
                (commit
-                 "b2048154beb384e9a732d3b4054dd18d974e9675")))
+                 "8e87e4e48e31902b8259ded28a208c2e7efea6e9")))
         (sha256
           (base32
-            "1ci7an9jjnnl25gly1bg4njhcs20nvavpgbk34z9kvahpy12df48"))))
+            "0mddr1gjhaxgc9rqmbkw2fymz3blvm0cvg15c9lrary1z1almj64"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml emacs-dash))
     (home-page
@@ -92920,20 +92920,19 @@
 (define-public emacs-rails-routes
   (package
     (name "emacs-rails-routes")
-    (version "20220111.1811")
+    (version "20220126.1631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/rails-routes.el.git")
                (commit
-                 "50daf1d06dbd6a1e262757b5da844d7246dd2b0b")))
+                 "eab995a9297ca5bd9bd4f4c2737f2fecfc36def0")))
         (sha256
           (base32
-            "1ilym61xl2ngl0wglry550ahhlkl8c09ay3qnz8p3h1100w7060m"))))
+            "0109mfxz7h7423yri1g0l4fr911iw7n6wkivpjcv09f0nq82jxch"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-inflections emacs-projectile))
+    (propagated-inputs (list emacs-inflections))
     (home-page
       "https://github.com/otavioschwanck/rails-routes")
     (synopsis "Search for and insert rails routes")
@@ -96851,17 +96850,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220122.2140")
+    (version "20220126.1800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "1beb324835333bc95a69bafcb0261c2cd771299d")))
+                 "3c51de2803ee514c3d8e95a325b4024a68104ab3")))
         (sha256
           (base32
-            "11i3j10vbspkk0mav9q9gm7ajd68ciar3r1lpxpsk4y1va0fb1mi"))))
+            "0rdsz0cxk47jfibafys7np0zpcas4fch6lmmzjrzq2v6kfy055jx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -97880,17 +97879,17 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20220117.606")
+    (version "20220126.2331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-scroll-on-jump.git")
                (commit
-                 "556e9a7a8119e24503f54b25f5c2a8084752d64d")))
+                 "1e9e09f0ccadf805e9bb4dbd1050944f82c5ed0f")))
         (sha256
           (base32
-            "086p847snpz62b6g7k8sz7izfrbkza1g178q3lj4vysdg8w1fhf7"))))
+            "0n472jp8j1al7c4cf1k8l5my1hzln68ix5gl8vz8kpaxhlh0s8p0"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-scroll-on-jump")
@@ -108136,17 +108135,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20220119.2057")
+    (version "20220126.2034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "8e28f7ba737a53cb304a4d4c5317f36d2273cc60")))
+                 "f0e8cee8caef2f3a411cbf276940dfacfc4d4158")))
         (sha256
           (base32
-            "135igyyhl1f4kmlcr05x6srwrx98v6m6750migi7dsmga00ragpg"))))
+            "1rhr7j0gfcxvcgl5dfr4fidyx9m9lxwqyi8vcnvwcz0vnfxbr8x1"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
@@ -108429,17 +108428,17 @@
 (define-public emacs-todoist
   (package
     (name "emacs-todoist")
-    (version "20210922.2254")
+    (version "20220126.1813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/emacs-todoist.git")
                (commit
-                 "3662c323f02e89d48c206103b43a185b930220e7")))
+                 "585cd45b2c1442888a465e4e9d538eeb1a7b3c0a")))
         (sha256
           (base32
-            "02wwsaj7vc5vs8xij6kzgqqdwigy0qcvridbp8zsjmhy2rgq4w3w"))))
+            "1m7pxf54l7qazh7fj2b6b0z9h2zfaxspxlx7lyxrfncdmp1bcswz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-transient))
@@ -109140,17 +109139,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220121.1603")
+    (version "20220126.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "4477555b17506ca47a6ef1c8d5420b53372781a7")))
+                 "99943f73c979cb2a386506a1613635aaf89651ab")))
         (sha256
           (base32
-            "14qfx9fda7n3w01dzgmyaw3a01z1xdcq4dyvjfq60rx729vf0jc6"))))
+            "19r1flgk1pb9h174fvw3ghr10a1c8p44xzz08s5yi0p4h49pb485"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
