@@ -8069,17 +8069,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220123.128")
+    (version "20220127.449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "ce70eee389d3698443ff7eb2c6bba7c4764e372d")))
+                 "0ecafa919d9250668410c050a575d4f2188c48d5")))
         (sha256
           (base32
-            "1imc6z3fg971014s7fpnkdf72s4g4v7hlsbbdyw6255z2djwqars"))))
+            "1xf2rx5lhz0pf8d8sr6w7pd4p6jr2ca65a7g9ckdrhxn2m30b8sh"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -105734,17 +105734,17 @@
 (define-public emacs-symex
   (package
     (name "emacs-symex")
-    (version "20220112.1901")
+    (version "20220127.144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/countvajhula/symex.el.git")
                (commit
-                 "be991cad7aa119ef10798be37c9a41fd0e77113b")))
+                 "9a42b40a116adfe490aa5babab492ae53db61660")))
         (sha256
           (base32
-            "06xsd838g5qwd4wy6ld2lf6nmjnrkc80d9ldpvpd2xf3andf7y5m"))))
+            "040vwv3zqlhzf8ck16axpdy8w6xvagl0nmqydmxajpjln10skhr5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lispy
