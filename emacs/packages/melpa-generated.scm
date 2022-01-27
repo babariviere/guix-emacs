@@ -11911,17 +11911,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20220124.1529")
+    (version "20220127.1422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "ef0711048da5917f4edf4822040ce4059fefb9e6")))
+                 "b7ccce3528cfecb5ac686b6fef179a1bd778aa33")))
         (sha256
           (base32
-            "1ndcyzhx4fav481h2cmz274hczjgglcqh318c5a7whs5lf7c073h"))))
+            "12dwlv4y25lb22dsx0l8py214qrj5jflk9xww90xmlqrd41i2vzs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -14479,17 +14479,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20211104.1200")
+    (version "20220127.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "44ef04f5f21285d68bd419f4f153e192777d9991")))
+                 "d80e0fef7e9abfd3dd4a912ec77e81db33f35727")))
         (sha256
           (base32
-            "1gca3i7ylk28wx7wa722ismy6irya96k8qf1zjh851sn2m7bkfin"))))
+            "1xkifia79vli818k7kkp2if1msfdc1548cilaknnl4d3i0m11gbl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -71053,17 +71053,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220126.534")
+    (version "20220127.823")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "b3fc225a91ac742b18b90789344e490c131e4780")))
+                 "056dbaf3833100ce177f512658f85a46efd00573")))
         (sha256
           (base32
-            "1lwg37kn3fldq9ai5skr725nj1hcbn2xhwq2yifriyksns5s2wwj"))))
+            "0149ylb5jckifb86vmzys6ph3dajyv0pbfhm28mrrwqs3wsfy225"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -82363,17 +82363,17 @@
 (define-public emacs-orgtbl-aggregate
   (package
     (name "emacs-orgtbl-aggregate")
-    (version "20220109.1727")
+    (version "20220127.1502")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgaggregate.git")
                (commit
-                 "b46158737eb6fb409ecef1a072184c5f7ae4b85d")))
+                 "36d7aec5549655174467db45d1dba6647b9e19b1")))
         (sha256
           (base32
-            "0wwlvc1nl5w3987wql3fp7j5qqxzjx0h5df84zbr77qjx637cs4d"))))
+            "0cg8rxl8wrcgm910jm0m61wbxk5i9f8cxcb289p7ip5bjbijmic9"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -82407,17 +82407,17 @@
 (define-public emacs-orgtbl-join
   (package
     (name "emacs-orgtbl-join")
-    (version "20220109.1733")
+    (version "20220127.1516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgtbljoin.git")
                (commit
-                 "3e99ebc8ad013d846d9d987a7dce54dd6f83e52a")))
+                 "f5254db6ae78e30c2786c53991e98e86ed344ac6")))
         (sha256
           (base32
-            "1aj4g7gh498xccq0hb6gxvxm20124754cnhp98pn7yaz5a56967b"))))
+            "1l63bcvlnqnj5z10cyanybc5jz9yimf53vffycf9wbsph5lpfs12"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "join columns from another table")
@@ -102073,17 +102073,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220125.702")
+    (version "20220127.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "150c25c8e0db87c1750d4f6d6e07f0644c051886")))
+                 "8cd4e533cb7bf5c21af15d520f2482e986eb0102")))
         (sha256
           (base32
-            "02jaa9cm8cdj2gvxqdpkrwlamkfgnmyrl5xk8wg50m4xbn095fq7"))))
+            "10w0a66g4ha8bbil7wxbysz2c0xz1d3fx3r82ir0bs7qmk7892ws"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -102490,17 +102490,17 @@
 (define-public emacs-soria-theme
   (package
     (name "emacs-soria-theme")
-    (version "20211025.1535")
+    (version "20220127.1004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mssola/soria.git")
                (commit
-                 "a111e7169405778d95f7a1e61a7d197ca1217edf")))
+                 "2db1859743fe9fc58eab4e6f6c1e37825ad7b69c")))
         (sha256
           (base32
-            "130sz27mq3w0svv114qnwqjdbvrnljprab7v0acp5zwj9gqgwkk5"))))
+            "0vikil31dwpmnd5iv3iwb8wrnny2xibydvc2mlgsvxjqjw7d40ng"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mssola/soria")
     (synopsis
@@ -108612,17 +108612,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220125.2042")
+    (version "20220127.853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "25f881cb1f75ea0f92fe57898fe1b3c0d0d9be81")))
+                 "5c402f7edfdafba06a8b8a17744a8a1bdbebf6b4")))
         (sha256
           (base32
-            "0zmbnpcxsjn44xyqdx5lfdkaqq28bh5a6kxvjl54z1pfv0f9n5mp"))))
+            "1431q5w0j2f4y4nbkixfh024qsabwknly2c1rrb7kb37v4flvh50"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
