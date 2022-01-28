@@ -8069,7 +8069,7 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220127.2234")
+    (version "20220128.24")
     (source
       (origin
         (method git-fetch)
@@ -11541,17 +11541,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220125.1326")
+    (version "20220128.716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "3695a9289e5352481c8f8c7d699ff83ed06e842d")))
+                 "a3a607365c94dd11f1981e1d884641773a8a048c")))
         (sha256
           (base32
-            "10fibikvakszc7fbazikp7xw4k4wbn7w94qlpksc0vigz38nyvk7"))))
+            "16da59aywxjrrvw3w0vzp2y90cqws4wrr63n9j17lxjknhn5r46k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -41913,7 +41913,7 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220123.1550")
+    (version "20220127.2354")
     (source
       (origin
         (method git-fetch)
@@ -47916,17 +47916,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220121.1833")
+    (version "20220126.557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b9acaecbc05970b9c85eff8f2898b2410066bac6")))
+                 "6d5abba6c6e6e40cd8ab1af7871672c8e4ee8405")))
         (sha256
           (base32
-            "1mv8b09hp8kh5jr0nw7xr8kx9s0ks7hvbcasw9gi857vkp7h7ijb"))))
+            "1210g215ys0sxji21skfkx2rxs5i1ywknfxarlipb14vcnpjmmg1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async emacs-popup emacs-helm-core))
@@ -83376,17 +83376,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220127.1955")
+    (version "20220128.257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "a8a9b163a67e06a21cf3274d6871bd4d554b6858")))
+                 "430c967491299956a85e26bbf013be1e71127bb5")))
         (sha256
           (base32
-            "1hzwn30xsa8wrr1bp5yzgvym6idanlbl6fn7g65mqk31yjbhg783"))))
+            "12pknx6wh98lzh482780zmkd071vmpg7xjc32dh725b013lr647z"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
