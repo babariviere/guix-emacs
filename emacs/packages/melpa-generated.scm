@@ -3028,17 +3028,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20211001.946")
+    (version "20220128.1118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "b9c908f24c2119d99cd93c86a0920223ef0568e9")))
+                 "0cfad246ee4c1297efa399e3d2c6ebb8bb46288b")))
         (sha256
           (base32
-            "169nwa7jfsdcjk6mbm3yabk3j8iwfixfkypwk5336dy2ncf90cjc"))))
+            "1g4gyf087h98njzzjj23n114zhrlg2z1ab7d3v4438wph6c7my14"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -3937,17 +3937,17 @@
 (define-public emacs-arxiv-mode
   (package
     (name "emacs-arxiv-mode")
-    (version "20211231.100")
+    (version "20220128.920")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fizban007/arxiv-mode.git")
                (commit
-                 "74105e665758bad77bd67c00435dbee95c83d791")))
+                 "f550583d2da8bd9600bd26bb4028fe22a9744da2")))
         (sha256
           (base32
-            "1d9aw5x2ypx6d5dyjrnmlrfdj0k5a6z6nqvrllb1n38a8gsr47ym"))))
+            "1hrrpll7yhqdf4jin28dnbv2a1yccn0f1a4hmay7f8yxmp42r1ln"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-hydra))
     (home-page
@@ -67114,17 +67114,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220126.1645")
+    (version "20220128.1207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "6ba3b50373fffa89ae99fc0ad5135e3d574f6df4")))
+                 "466c7adf5de85257712629dfa637dc03b9bc6cb4")))
         (sha256
           (base32
-            "09fwgr7cba0pb4m4whi90agshxp88bfa40wl97fspl25vwr5gnk7"))))
+            "1ssf7i2hp6qk7c7axblbc5407n24iq861zq43075mvwqxp74lq8l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71053,17 +71053,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220127.823")
+    (version "20220128.741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "056dbaf3833100ce177f512658f85a46efd00573")))
+                 "cf04581880ba6efdfb6e4eb603fd6b04c996a425")))
         (sha256
           (base32
-            "0149ylb5jckifb86vmzys6ph3dajyv0pbfhm28mrrwqs3wsfy225"))))
+            "0gal1qvg1nm81hxg1fd68ic6f73zkbx7aw1mbn8yys4af5apv6dz"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -85304,17 +85304,17 @@
 (define-public emacs-password-store-otp
   (package
     (name "emacs-password-store-otp")
-    (version "20190713.1748")
+    (version "20220128.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/volrath/password-store-otp.el.git")
                (commit
-                 "04998c8578a060ab4a4e8f46f2ee0aafad4ab4d5")))
+                 "be3a00a981921ed1b2f78012944dc25eb5a0beca")))
         (sha256
           (base32
-            "1c9lvxi0yf0x3ywciv58zkn9ss6n41305g5rp4l32a33sq51s567"))))
+            "0hqfxdpis2if5fl5avar93mr2gfqqnd87s835hiibqq0800dv3v7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-password-store))
@@ -106722,17 +106722,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220124.1428")
+    (version "20220128.1335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "9ccc8d2dbb36b89e01820626ebe2b2fde385741f")))
+                 "64b25ea05a1752b6133b02f09c37729de62aa7e8")))
         (sha256
           (base32
-            "0k0ccaspkg06jsm1sqg81l5lly7c5nj2ccbz675gvdwkjashg9rz"))))
+            "0chms4h9qa1mmzbwfbay65yd9j1frphmmfz2fp16y18i6d645i5n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
