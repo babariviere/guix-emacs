@@ -10812,17 +10812,17 @@
 (define-public emacs-cfrs
   (package
     (name "emacs-cfrs")
-    (version "20211013.1802")
+    (version "20220129.1149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/cfrs.git")
                (commit
-                 "c1f639d7bfd3e728cf85dbe224b06a4be76158f4")))
+                 "f3a21f237b2a54e6b9f8a420a9da42b4f0a63121")))
         (sha256
           (base32
-            "1bic67769xvjdhinq88jqxnb4dql8gssmnx1wvrl69338zjqqjzg"))))
+            "1vf5zm82sx3m1yvq73km8ajapv6rnz41b1jrsif7kh0ijh9vk3qi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-posframe))
@@ -11825,17 +11825,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220119.2244")
+    (version "20220129.1313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "46da9225a852a8f37399462add58419346c09eb0")))
+                 "79512aefdf11071b66908320aa346255dd349234")))
         (sha256
           (base32
-            "0sf8sv1wasv4bbis2x8dz9d7g4d0rqbfsxa8knjqvcy6gqpssj1c"))))
+            "0v6pi5d12a5zj98wgxsqj1qv61axlph01y58vr454a0axc3y6nlg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -23165,17 +23165,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220104.1417")
+    (version "20220129.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "5f30d231176186cbe5206aa133f91cea967717d9")))
+                 "b1726bf6b3328763851dfa1d343e4b2f1ccad125")))
         (sha256
           (base32
-            "1qwk4f3v5m0574nb5cnjnvj1akvsanl7xj66dr5f9lzqhf1j17aa"))))
+            "1qalk74l8vkv69ph642m6m2rvqq5pfvx8jfr40kpf83lx5amrch2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -29098,17 +29098,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20220103.1759")
+    (version "20220129.1031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "456c4100de41d2cb50813058a9e727b6e83c5d1e")))
+                 "e161624b9155b5d171d7f64d35531313ca1075d6")))
         (sha256
           (base32
-            "1l80sr74lb275i49xna5li64v2ip598xs0fdqcnhc449b1zpazm3"))))
+            "06ma5rcva078504ipgrdiyd9gvjsc7nwz0qznpz6bsbxlm64nn7m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -65759,17 +65759,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220126.1002")
+    (version "20220129.1057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "eb82ec7caa608afed6db166033e6461c9696f833")))
+                 "81af073bf1e69d0267699c7da9bf4b8fdafee3e9")))
         (sha256
           (base32
-            "1wyincmfj9i89yclcf2xm0gbdmffh8bjkkdw3zh0i6v3ak7qhicf"))))
+            "14mlfjffsxh8nz36j44k1dh8dzin7zxyk8lsqxkm3q6bn2vqxcdf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -73810,17 +73810,17 @@
 (define-public emacs-netease-cloud-music
   (package
     (name "emacs-netease-cloud-music")
-    (version "20211030.1339")
+    (version "20220129.1230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/netease-cloud-music.el.git")
                (commit
-                 "d821e0359883ae5ccc12a1cb0f684909cbde98a3")))
+                 "a0af6f4f6043ffe3a3f84d66b341f02972b4b588")))
         (sha256
           (base32
-            "0p595lfwzzmjzxx4mdzp47bab07ypxkk3jk3yzvd1dcf2lgd0h9k"))))
+            "1594bhy6yb1qq74lgyspvfm1n2s7jnr3kmg5nbdzw74g1jl28j6c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -102073,17 +102073,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220127.1339")
+    (version "20220129.928")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "8cd4e533cb7bf5c21af15d520f2482e986eb0102")))
+                 "5012b015380a8f98760b7f1c9f708618ddc7befd")))
         (sha256
           (base32
-            "10w0a66g4ha8bbil7wxbysz2c0xz1d3fx3r82ir0bs7qmk7892ws"))))
+            "1y72qm84gzrq3dnskfpbrbirqrmy5s127gid8magpqzwg4s93482"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -109520,17 +109520,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220128.1800")
+    (version "20220129.1122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "c12b6a244e96be0d8c5e9f2c3dcfb0a392a40426")))
+                 "ca4b4dd373ed4ff879dcc07b18832f3e27559314")))
         (sha256
           (base32
-            "0nr7c75w84gb2kzk57gxl1kqqvv633sh0zjzd28fc6vrgb1qhab5"))))
+            "18yaswgyaxji27b0shccdp99g4amay6x6vsl80dlzjf070y483ar"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
