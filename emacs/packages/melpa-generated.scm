@@ -19252,17 +19252,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220128.1905")
+    (version "20220129.533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "43cb4fcf03000ed93e855234eba9e9a2db6158f9")))
+                 "d6e9f4df42815de467765e78b7c27125f35d30bb")))
         (sha256
           (base32
-            "1vcnm2ibmm215gc89m9as57vsqv9s2nbdpdsj51gkb5dhzliyz2n"))))
+            "02lhkk4z8va95fnv5x4sd3xdas28gf3ykbl7gry015sms9jxj7w3"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -21753,17 +21753,17 @@
 (define-public emacs-dired-view-data
   (package
     (name "emacs-dired-view-data")
-    (version "20220128.1527")
+    (version "20220129.339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/dired-view-data.git")
                (commit
-                 "1827b9f87e7dc759b53d12caa8c6b889c0979f05")))
+                 "96d4cb6569fd2be90a516dedd98263374bbc6ead")))
         (sha256
           (base32
-            "17ailv97l9r6hz5f7hcavh40yw2lcf1kz93h7bba952f8br0x9hw"))))
+            "1i1prpzp10irshv42lwv08lzwvm0r9amapbbki07qhmqd5q0av06"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ess emacs-ess-view-data))
@@ -28011,17 +28011,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220117.1826")
+    (version "20220129.454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "9e24e4e8e81ac93c9e13748759a15436ea565966")))
+                 "02450162adba68a16ae8a0b68f362cc06c54fc04")))
         (sha256
           (base32
-            "1r23l5i63h9k697bq199nzpyzifbrb7lph53w0yi6w6a54yy6dan"))))
+            "1fnggqzgwywcc94mk99322qcd2k84djrri10gscamkqmvssq314j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -33111,17 +33111,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20220126.110")
+    (version "20220129.446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "0a718e473651d4443f24d0f6625f96822be21cd0")))
+                 "a94e4a645988a2c0e2369e27a2635f6555d321d8")))
         (sha256
           (base32
-            "1dqhvaiiq4j42b7lj12ms71bwazl098xad262zn4nxidcpf0qlll"))))
+            "1pszg8vlhdbpl3q6wr60jv1pn52dpxl8lzmvrvsy5jwvlmiwy91y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -41137,17 +41137,17 @@
 (define-public emacs-frog-jump-buffer
   (package
     (name "emacs-frog-jump-buffer")
-    (version "20210906.1634")
+    (version "20220129.539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/frog-jump-buffer.git")
                (commit
-                 "387fa2a61a9e4b50701aece19dd798361f51d366")))
+                 "d82cc1a449d368f5a3dac61695400926da222a84")))
         (sha256
           (base32
-            "104nhnix34ymkkgdvxn612d1k4iy95swrmb5isknd48c5mys94gq"))))
+            "0c8x5a0rlyys8dqxsliy4m35c338srffl5387bmyzj68dj43vbfh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-avy emacs-dash emacs-frog-menu))
@@ -43302,17 +43302,17 @@
 (define-public emacs-git-link
   (package
     (name "emacs-git-link")
-    (version "20211208.312")
+    (version "20220128.2343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sshaw/git-link.git")
                (commit
-                 "09961648e654ba0f7239eedf5cbaea0f0cc0ccf1")))
+                 "783d88b9acf0fb3cd83c5a176cbcb4231904136d")))
         (sha256
           (base32
-            "0zwbcp2881n92nd0y40sw6id6qbidprzr0bsh9vn64gmvch6jlnd"))))
+            "0j005bjclsala3nycjy4kqs069vp8h8qyc956zwz67h2zv3x7vs9"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/sshaw/git-link")
     (synopsis
@@ -53422,17 +53422,17 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20220123.142")
+    (version "20220129.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "a93ae6770a225acc7131c916d8f12bb42956ac86")))
+                 "c3fefadb40e02ae19890050518d009769cdf2739")))
         (sha256
           (base32
-            "0s7j1bgz5qc5r9d74cqv4plfr53d059spd7y03dwxh81cvmw7bgi"))))
+            "1sp1fn70i1w9b3zzm8y6m3wf99igjv0mi34iff56xkqx2ap6r8cs"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-hl-prog-extra")
@@ -65053,17 +65053,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20220107.329")
+    (version "20220129.655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "7f005d1f114f3167d0d5102bcfb0912f9b2a11c0")))
+                 "4b5b7c4f4ff73b72c7daf684cc534cca3e205881")))
         (sha256
           (base32
-            "1bpyb5gznvpbc3rgyfzynqw0pjl92ky9za9im9ivm6f5ix829k4r"))))
+            "10fcxzxfm56s8zb0g3kynbxnxdk3cpy16pyh1769m2848g20900w"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109139,17 +109139,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220126.1647")
+    (version "20220129.22")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "99943f73c979cb2a386506a1613635aaf89651ab")))
+                 "0f39af0eef473073ae62c31500be3b04163107c2")))
         (sha256
           (base32
-            "19r1flgk1pb9h174fvw3ghr10a1c8p44xzz08s5yi0p4h49pb485"))))
+            "0hn92y62rk37kb9a0ajkrixsjjld4bz3w28q0byigbv6r17andp4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109367,17 +109367,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20220126.110")
+    (version "20220129.448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "0a718e473651d4443f24d0f6625f96822be21cd0")))
+                 "a94e4a645988a2c0e2369e27a2635f6555d321d8")))
         (sha256
           (base32
-            "1dqhvaiiq4j42b7lj12ms71bwazl098xad262zn4nxidcpf0qlll"))))
+            "1pszg8vlhdbpl3q6wr60jv1pn52dpxl8lzmvrvsy5jwvlmiwy91y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
