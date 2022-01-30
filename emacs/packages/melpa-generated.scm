@@ -11911,17 +11911,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20220127.1422")
+    (version "20220130.538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "b7ccce3528cfecb5ac686b6fef179a1bd778aa33")))
+                 "d7b6428da289c2f63a7a97f4eaba5b76616a09ce")))
         (sha256
           (base32
-            "12dwlv4y25lb22dsx0l8py214qrj5jflk9xww90xmlqrd41i2vzs"))))
+            "0kg64va0iqjzwswzs4z9sx278w20c35pg4ysp9x198z0575lvpid"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -20512,17 +20512,17 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20220124.1011")
+    (version "20220130.244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-diff-ansi.git")
                (commit
-                 "947136ca12f8c340d94ac17ef8669e5b6199fe5a")))
+                 "39251970a1430bf8a511f3ef929b4044c0d40df0")))
         (sha256
           (base32
-            "1q17zw167qzzjh50ixz06rvla3ymb9y73y6ddyq9k1j6ii686rgq"))))
+            "14zbvr7gxbhylgysijqyqhxpm8zdrr9d7di379bc2fs4fpqdfkff"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-diff-ansi")
@@ -28011,17 +28011,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220129.454")
+    (version "20220130.457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "02450162adba68a16ae8a0b68f362cc06c54fc04")))
+                 "ace53396a66ed4b753f42c04a5a0db2bcd770423")))
         (sha256
           (base32
-            "1fnggqzgwywcc94mk99322qcd2k84djrri10gscamkqmvssq314j"))))
+            "0p55shxvqm1713af33mfglny7rpi31d42wvgwylcsfy4jvnsq8bb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -28105,22 +28105,22 @@
 (define-public emacs-emacsql-libsqlite3
   (package
     (name "emacs-emacsql-libsqlite3")
-    (version "20211209.1243")
+    (version "20220129.2241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/emacsql-libsqlite3.git")
                (commit
-                 "d3e401750410979be50cab3fee0ec8d0d2a9998c")))
+                 "2aca80a3869d4fd654e79c4a1e20b5227fc2ba39")))
         (sha256
           (base32
-            "07c9dc49sh1vh1rzw80sqk4nivc4mwkjq3amhx3knm8dpysa1208"))))
+            "0x0fmxgjs17hckx2a32y96nlqdcsx42wcw4lpyc6nk98ikraipgq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-emacsql
             emacs-emacsql-sqlite
-            emacs-sqlite))
+            emacs-sqlite3))
     (home-page
       "https://github.com/emacscollective/emacsql-libsqlite3")
     (synopsis
@@ -28321,7 +28321,7 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220129.1855")
+    (version "20220129.2337")
     (source
       (origin
         (method git-fetch)
@@ -34897,17 +34897,17 @@
 (define-public emacs-filetree
   (package
     (name "emacs-filetree")
-    (version "20220120.630")
+    (version "20220130.9")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knpatel401/filetree.git")
                (commit
-                 "0187be7e538f89eacc06324a0e712cde2fe7d8a6")))
+                 "953f0b2d130d3944557d2c909328afd8c8097e8c")))
         (sha256
           (base32
-            "1p0rpawqb0rc0fqg5yr4mnqiwi62frvlbkdfqv6xk3rmy4hsi0mz"))))
+            "09r3k0ba89iv6vzhyzgl7aa496ycld0ab18z45qvp7m8aqkvf3jw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-helm emacs-transient))
@@ -45233,17 +45233,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20220114.328")
+    (version "20220130.138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "8b635f07b3b77e84999eeea75b194d95b6457561")))
+                 "b6a5842fdd08872d9243375c46cd549f1399e5b8")))
         (sha256
           (base32
-            "06la461j3zv460dkyc2mhab3ha9zyb6wim3m4sms84dj2ifnzljf"))))
+            "1570b0v4dr745hwvw20byzhkhn4cr1v2g0n3zalh4j8wq1qkb0cw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -53422,17 +53422,17 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20220129.718")
+    (version "20220130.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "c3fefadb40e02ae19890050518d009769cdf2739")))
+                 "58c14d50f1e2e783c9048a846d3a2335f9b3b0d6")))
         (sha256
           (base32
-            "1sp1fn70i1w9b3zzm8y6m3wf99igjv0mi34iff56xkqx2ap6r8cs"))))
+            "04rmh30vsb91d5nvl061zwlvczpj796qaxhxlzrwbxk4pjvcmwxv"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-hl-prog-extra")
@@ -59366,17 +59366,17 @@
 (define-public emacs-jest-test-mode
   (package
     (name "emacs-jest-test-mode")
-    (version "20210615.41")
+    (version "20220130.25")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rymndhng/jest-test-mode.git")
                (commit
-                 "73aebe62e8adf8e737c9a94361cce45063d05ae4")))
+                 "7d0b97853e12af2c8c6d273e21539549d4221d68")))
         (sha256
           (base32
-            "1zagxpz598ssn88mch1mzc2aqa7sx29q7y1ifw4mrglsicgrxlv7"))))
+            "1z7fvl39jav4a3nybpnmx90i8gdvfk9l2i9nhbk1h5z9x9ygdjcd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rymndhng/jest-test-mode.el")
@@ -65053,17 +65053,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20220129.1757")
+    (version "20220130.237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "d8ee3b121186165cab01fe8f8c7585b618e22428")))
+                 "f2b639bc6528ac87d17303bc555b7262f3610046")))
         (sha256
           (base32
-            "1vsb9f35wp3a09n8h1wpbxfjc8hnppa238ib9ss50dz08mkcmds3"))))
+            "130krb5vkdbh8cxp8l872lx72i096chf569cl4m0phj1d0cyakm6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -84313,17 +84313,17 @@
 (define-public emacs-package-loading-notifier
   (package
     (name "emacs-package-loading-notifier")
-    (version "20210724.1700")
+    (version "20220130.318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tttuuu888/package-loading-notifier.git")
                (commit
-                 "895ab23f970f954349ccb6c89d397ad7d86087f8")))
+                 "bc06ba97a0537aa202f277e5597ac96ca39307ab")))
         (sha256
           (base32
-            "0maa3w06wx54f482z2k6d0vq8mr01j75nnbb7d0mjw15d6qi7pbk"))))
+            "0wp3jdbzcjpbx4720nd31fzs5app6phdrbcwisw89361wvmmnhkj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tttuuu888/package-loading-notifier")
@@ -91101,17 +91101,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20220124.1632")
+    (version "20220130.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "ed4a863460329a3019c286ff382e2ddc0ffdc9d7")))
+                 "7708d6c07ea73a034183b7b7c1c76dc40ff3f0bb")))
         (sha256
           (base32
-            "14lcqf0qdkq2rklx12v12qpgfahz2bpqmnl3bzcz5myawgjjcphd"))))
+            "04z5mlpc6vdr768hslc3g73152gjpgffcm43sfikv71ng5fzl7z6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -91661,17 +91661,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220112.157")
+    (version "20220130.722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "75ead11eeaaf801e342bb18d7c0ff93ed1c123ff")))
+                 "028e443527166e8cd6ecc903e635fbe89aca9c91")))
         (sha256
           (base32
-            "1wlvgh214fn2d4h7wiq68hwshncq85qp9j5agkvh7avla56vi97j"))))
+            "1qpskp8jqxwfbg274lkl95fmilygzxqpy2i7vv0vdl7pdknvbkgk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
