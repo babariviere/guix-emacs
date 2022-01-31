@@ -11172,6 +11172,30 @@
       "Documentation at https://melpa.org/#/cherry-blossom-theme")
     (license #f)))
 
+(define-public emacs-chezmoi
+  (package
+    (name "emacs-chezmoi")
+    (version "20220131.226")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tuh8888/chezmoi.el.git")
+               (commit
+                 "18ae369f03d458b7379bdb30ae90578d986590db")))
+        (sha256
+          (base32
+            "1y482i5ly9dkbkv1g1g9h8gqg5v5bhwivak59m3ifsw5l51s20y0"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-magit))
+    (home-page
+      "http://www.github.com/tuh8888/chezmoi.el")
+    (synopsis
+      "A package for interacting with chezmoi")
+    (description
+      "Documentation at https://melpa.org/#/chezmoi")
+    (license #f)))
+
 (define-public emacs-chinese-conv
   (package
     (name "emacs-chinese-conv")
@@ -28321,17 +28345,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220130.1935")
+    (version "20220131.609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "36872170b0a632c4ff922249648656e2a91fdd04")))
+                 "d8ad4a28f9ebf95cc1d07c26fe5b7b658920e537")))
         (sha256
           (base32
-            "1cggsy0x0fx4nifvzjcm6slm4n78flv8qqwvr4dsbsk7ydiqls9a"))))
+            "12zrfs1av27b0naiz4iqz5ynixfkydi6iji6044hazy7a4xjfbw2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28482,17 +28506,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20220125.1524")
+    (version "20220131.501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "c3596ae7166db2de004c57da303b5eb8d3e1f2e8")))
+                 "d32a9bbc8ffcd736c4aa33a6dcea819a01b8e808")))
         (sha256
           (base32
-            "09fs05cgvxxsqcbswrdr5fi8g0m0y2iq2w19ks7a102zqpfp2bml"))))
+            "1bsdwp4h5b3xbigaaa8mx3sx9650xn34b1w4l47r8a4c5imkxspi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("*.el" "lisp/*.el" "doc/emms.texinfo")))
@@ -34718,17 +34742,17 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20211126.1803")
+    (version "20220131.627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/technomancy/fennel-mode.git")
                (commit
-                 "a622c110a2ae6ababfaab0506647a7fbc81e623a")))
+                 "824d330c32637d8e0ef349ffaa8e002aca56991a")))
         (sha256
           (base32
-            "1bfd983zdhq097bb101k8p7x4jkmkgaxfj7s7aiyf4s3zq84v6xy"))))
+            "1f1i28jlghzm7fa4998izakasmr6jvzghx96shahc6walcr8zb2h"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/technomancy/fennel-mode")
@@ -53420,17 +53444,17 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20220130.2251")
+    (version "20220131.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "eee903f4f87c02ca59a47c5312fffc80c36b789f")))
+                 "8275de778fa273f63a6254a17f80c83c6780cac2")))
         (sha256
           (base32
-            "0h72p62ywyci3w737lls96wz9ara4kx9wcj9m6h673cshqs3rffh"))))
+            "1i94x08fdkbcixfj5mq0mvdlnwgbc6a0gjdska58icksalc6814v"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-hl-prog-extra")
@@ -59364,17 +59388,17 @@
 (define-public emacs-jest-test-mode
   (package
     (name "emacs-jest-test-mode")
-    (version "20220130.25")
+    (version "20220131.304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rymndhng/jest-test-mode.git")
                (commit
-                 "7d0b97853e12af2c8c6d273e21539549d4221d68")))
+                 "e08326a467ccb1ec9ddf99c1f5d53f55c50e52b4")))
         (sha256
           (base32
-            "1z7fvl39jav4a3nybpnmx90i8gdvfk9l2i9nhbk1h5z9x9ygdjcd"))))
+            "1rgi5qwrd9pfz6yqmfgmx2inlxqykq615aay5vi7wajdiss36i3f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rymndhng/jest-test-mode.el")
@@ -67112,17 +67136,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220130.2007")
+    (version "20220131.125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "eb14cc7241dc3f52b5b9ad0f8099fbcaf1dec745")))
+                 "846d153a2e715aeb5b5a43adfdbc9cf2597d5b67")))
         (sha256
           (base32
-            "095524vrgwpmm5b2kk64pinycd68c3p0ig7wblxi4rq4as28mgih"))))
+            "05qcr3bwzw6b9idnx6mv65fl1j4hib7dwxwqg54mq1hdbp2qzgq5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80939,17 +80963,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220130.1911")
+    (version "20220131.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "905564a7ebeac2f1ebeff6834b64a3cfdb4fcc36")))
+                 "eed1df90f571b19cae1581e7f5d938892b00c24d")))
         (sha256
           (base32
-            "1n40ps1m7nvxfbs6p2ggvvwfya7yrizl7iypqm2gf3f9csma6j2s"))))
+            "1pd887c4g9rykfz4sf7n6845b9md1sh64bychjbbwbj63375xvsm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -115544,7 +115568,7 @@
 (define-public emacs-wisp-mode
   (package
     (name "emacs-wisp-mode")
-    (version "20220130.2218")
+    (version "20220131.642")
     (source
       (origin
         (method url-fetch)
@@ -115554,7 +115578,7 @@
                ".el"))
         (sha256
           (base32
-            "0q12fm419a7kgf9cxf3blzxgzdwbh5ndmavfrfi88rh0dd4xzjyl"))))
+            "0830hhcgsha8a2p9kb0rb5hrsr3larfw39lym7q84lkxcjn8wdaz"))))
     (build-system melpa-build-system)
     (home-page "http://www.draketo.de/english/wisp")
     (synopsis
@@ -118331,6 +118355,29 @@
       "Reformat python imports with zimports")
     (description
       "Documentation at https://melpa.org/#/zimports")
+    (license #f)))
+
+(define-public emacs-zk
+  (package
+    (name "emacs-zk")
+    (version "20220130.1144")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/localauthor/zk.git")
+               (commit
+                 "592edfb6932aeed7c9626ff493816229ed2d841d")))
+        (sha256
+          (base32
+            "1492yhp2n9qi5rf37h392jx1499iphw1rmnhmrqjclywb8p3nhr2"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files ("zk.el")))
+    (home-page "https://github.com/localauthor/zk")
+    (synopsis
+      "Functions for working with Zettelkasten-style linked notes")
+    (description
+      "Documentation at https://melpa.org/#/zk")
     (license #f)))
 
 (define-public emacs-zlc
