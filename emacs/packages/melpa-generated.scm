@@ -4163,7 +4163,7 @@
 (define-public emacs-async-backup
   (package
     (name "emacs-async-backup")
-    (version "20211128.1603")
+    (version "20220131.1438")
     (source
       (origin
         (method git-fetch)
@@ -8160,17 +8160,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220130.1918")
+    (version "20220131.1421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "ff9de30d1a105baa627d8fc7565bda6598efc001")))
+                 "0bad132b4eb25ae9a1e26360e7b87771ab3208d3")))
         (sha256
           (base32
-            "0njfa4pbhgj3ahckv0ss5v5qjnrwzclbh01iwxwi3v9k906rw4g7"))))
+            "134cirgaxypsr39dlhshw3db4d9cz56dhl4d7d41lbzysih472km"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments
@@ -9967,17 +9967,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220119.2013")
+    (version "20220131.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "e01162ab1007457aba788916c1d59de8d6083b25")))
+                 "92c3168283c6d9faa3fcf2e72d0d71afbfa5d6e1")))
         (sha256
           (base32
-            "18w1xq3q9jc43krvmgc1ic3m09r7am0acwhcgc9xs1jyaxwcg5pi"))))
+            "1bmxpfp0zs24lbp1mlcc66f4s5gxgrj78001h241mzndc3kaiqfk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -16053,17 +16053,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220126.2133")
+    (version "20220131.752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "0804d27a8c5c4ebbf157356f255d022bb84336cc")))
+                 "e1e17965a98515a620c439be1eb28cd125f984a0")))
         (sha256
           (base32
-            "03l9kp60iwqj41fyjr44y0pf1i4k2lrkhlmdy5sdvfw76cgc61qz"))))
+            "0cfj8h0k05947cazsr95yy75shs0vpy59sa41f31xbw00q9l48q6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -29265,19 +29265,20 @@
 (define-public emacs-epkg-marginalia
   (package
     (name "emacs-epkg-marginalia")
-    (version "20210802.1740")
+    (version "20220131.1328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg-marginalia.git")
                (commit
-                 "0879f5b2cf87fff17dcfb74009d289d6a89c9816")))
+                 "d41cfe1a00d01a45938d2af2fb311fdb17d3c381")))
         (sha256
           (base32
-            "11sbf363qy3i87hppv4admqd2sy0kwpvjgih51hn3rbimbswkwab"))))
+            "0i295rr9fslhxrqh8967whq1h903i3a45c4x6ycff1fhrxb87frf"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-epkg))
+    (propagated-inputs
+      (list emacs-epkg emacs-marginalia))
     (home-page
       "https://github.com/emacscollective/epkg-marginalia")
     (synopsis
@@ -33905,21 +33906,21 @@
 (define-public emacs-exwm-modeline
   (package
     (name "emacs-exwm-modeline")
-    (version "20220125.1939")
+    (version "20220131.1520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/exwm-modeline.git")
                (commit
-                 "e6aace0235dc04345bebb3f94a5718f32cc1cc1e")))
+                 "86bce1d91089b9a1517e1abfca86bac47be91be3")))
         (sha256
           (base32
-            "0zp9r4pcnm8rs8mmsp0r38xpzhhi4pnbbm62q28jn70jhx03vxqr"))))
+            "0b2aij3w84fl1w1rk6943f58w4x01579ffs5x4xfrn2b3850mviv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-exwm))
     (home-page
-      "https://github.com/SqrtMinusOne/pomm.el")
+      "https://github.com/SqrtMinusOne/exwm-modeline")
     (synopsis
       "A modeline segment for EXWM workspaces")
     (description
@@ -39858,17 +39859,17 @@
 (define-public emacs-flyspell-correct
   (package
     (name "emacs-flyspell-correct")
-    (version "20210724.1042")
+    (version "20220131.834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/flyspell-correct.git")
                (commit
-                 "2e098db03cba74149257e31213097d043780e80a")))
+                 "e9fde6f93af991b0528d6ed47d44bed470dc70af")))
         (sha256
           (base32
-            "0rqp06bk260ms63sidl4x2gsnfc7hb77isjb3lm8qih98376mps7"))))
+            "1sjdd9ixvp84fzx2zkz6kxlkwnd7v95jl2ilx5jf5r6l1118iakq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -68354,17 +68355,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220114.2142")
+    (version "20220131.738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "c66d301dd12e0346cbc6756895c6cfcf17d3e8ae")))
+                 "e9540a7b80f9c4d044748b88720e5cba3e30c20a")))
         (sha256
           (base32
-            "1hs37r1hr1mdzh9h9bgs5rmr3z95xlqglw2nwc72ys35k90yk27z"))))
+            "1a4k00g2pp7mk0x5zhqbxvv2igfjdz6bfy2g3hps2ygf4h12wbhg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -71075,17 +71076,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220128.741")
+    (version "20220131.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "cf04581880ba6efdfb6e4eb603fd6b04c996a425")))
+                 "bec0d18726f890c5a7459d03cef5df24c96f8a4a")))
         (sha256
           (base32
-            "0gal1qvg1nm81hxg1fd68ic6f73zkbx7aw1mbn8yys4af5apv6dz"))))
+            "08n802d4lqayjbpnbd1z64phh5y0j8s161l8cy84b5ijifg2il3a"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -81040,17 +81041,17 @@
 (define-public emacs-org-roam-ui
   (package
     (name "emacs-org-roam-ui")
-    (version "20220129.1457")
+    (version "20220131.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-ui.git")
                (commit
-                 "dae41a72774a5bcfbda8412f5c811a4c1c2281a3")))
+                 "e546e207e8fca37379a00cf515a68891859eeffd")))
         (sha256
           (base32
-            "15f004ilmqykg7zswqzqmxgqi09rl0cka1m6dh6bqznfvmx0d283"))))
+            "0anz72qhd27flh2872ndgiamkjxjgg79j6x7v84ds3jn5y4q4f83"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -93147,17 +93148,17 @@
 (define-public emacs-rake
   (package
     (name "emacs-rake")
-    (version "20180212.1008")
+    (version "20220131.808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/asok/rake.git")
                (commit
-                 "9c204334b03b4e899fadae6e59c20cf105404128")))
+                 "759fb373b90dc4cf762a58217e81d8a3fecb5563")))
         (sha256
           (base32
-            "09k2fqkmqr6g19rvqr5x2kpj1cn3wkncxg50hz02vmsrbgmzmnja"))))
+            "0w677abkmrghphi2gwbxypyb59znyv331shmg4j8y5fcqf1whm14"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-dash))
     (home-page "https://github.com/asok/rake.el")
@@ -96780,23 +96781,20 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220129.805")
+    (version "20220131.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "9a91c0334e5d522abd7c40af9547eba03afff244")))
+                 "5357a857432ccb432dbad711fc3d178883c45a56")))
         (sha256
           (base32
-            "0bcy4k4l3nxxdzwdx750cc16b6mbn32yggs562jc8g30959gxhfr"))))
+            "1fr9szw5g8cb629c1fw4icr0b9kya99w7znmlk3kqfmldsxjnlix"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-dash
-            emacs-s
-            emacs-f
-            emacs-run-command))
+      (list emacs-dash emacs-f emacs-run-command))
     (home-page
       "https://github.com/semenInRussia/emacs-run-command-recipes")
     (synopsis
@@ -102187,17 +102185,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220130.1358")
+    (version "20220131.1428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "49379de156447ba6563770addb51604eb58886e4")))
+                 "a81038b8b4430552dedd42f8b9273dc946c241ee")))
         (sha256
           (base32
-            "0bqgw02mpiksrmlr1yqqazqqhx8bgv3lrssgqhd41wzrq666i8jd"))))
+            "1q76645241siakzwjq8dzblm41p4zklp6b24gzx87gczljpyxk5p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -106836,17 +106834,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220129.1612")
+    (version "20220131.1316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "e19b86def5eccbf900d1eab00ce293e161d4381e")))
+                 "eba700ba60bc56fd2424736b1f15fec07932e870")))
         (sha256
           (base32
-            "1sfx56nc1syfv2b45b2rqks0jhvb11qck7w3bbdl0gpg4kz20g8r"))))
+            "14li4n9wlswvdw91jvqbwwm00h4hfyvzxg6y19zhnadwhpqvb5h7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -115568,7 +115566,7 @@
 (define-public emacs-wisp-mode
   (package
     (name "emacs-wisp-mode")
-    (version "20220131.642")
+    (version "20220131.744")
     (source
       (origin
         (method url-fetch)
@@ -115578,7 +115576,7 @@
                ".el"))
         (sha256
           (base32
-            "0830hhcgsha8a2p9kb0rb5hrsr3larfw39lym7q84lkxcjn8wdaz"))))
+            "0gdviq13y54rwncrj6snjcq5pdcijhw37q1vpgj4wrf01g6ff8lf"))))
     (build-system melpa-build-system)
     (home-page "http://www.draketo.de/english/wisp")
     (synopsis
@@ -118360,17 +118358,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220130.1144")
+    (version "20220131.830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "592edfb6932aeed7c9626ff493816229ed2d841d")))
+                 "4a0e44ad77e198d7b47c3f2bb6c2e296e9552527")))
         (sha256
           (base32
-            "1492yhp2n9qi5rf37h392jx1499iphw1rmnhmrqjclywb8p3nhr2"))))
+            "142cmsyicrsd3q1ccirmhi6ysb2czvqrs5gx9chg27542yb1ssgv"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
