@@ -11175,17 +11175,17 @@
 (define-public emacs-chezmoi
   (package
     (name "emacs-chezmoi")
-    (version "20220131.226")
+    (version "20220131.1935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tuh8888/chezmoi.el.git")
                (commit
-                 "18ae369f03d458b7379bdb30ae90578d986590db")))
+                 "e2da725a513a6070e11b507f2725f500adacf420")))
         (sha256
           (base32
-            "1y482i5ly9dkbkv1g1g9h8gqg5v5bhwivak59m3ifsw5l51s20y0"))))
+            "1siq2kcnr2pjs3mbjdqb1gwqkq9wgw5smamhhvpb6h4n8il7x1r6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -23760,17 +23760,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220128.1719")
+    (version "20220131.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/niklaseklund/dtache.git")
                (commit
-                 "b44b8ab0ad7db8d6fd90dff12339ea8b7ee52aca")))
+                 "10a11312b8590f88de9c7d4feb91ae869ddbe162")))
         (sha256
           (base32
-            "0798idrgzlg5l8cxh7lib3jlkc5xs9iliq0gp9rqm8r1mkch4dwq"))))
+            "0a2l9mrvq5g36q816hx5llmrcyxsf76xsv1z1k83m35f5z2gr2ds"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -30860,17 +30860,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20220127.1454")
+    (version "20220131.2002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "c59d8c100830aae6ad538450df787c65d79184db")))
+                 "325239688f06fde19ae6cd22c15ec0e34749cf00")))
         (sha256
           (base32
-            "17qcvw548nvp1qaixnipa56lf3x1gf76wqw02br24rzxc1mlmrs9"))))
+            "03bmyid52v9gd6n72fb9x2br5b39ws5hna863xvk6gavl2fl1ijm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -41938,17 +41938,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220128.2258")
+    (version "20220131.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "22702313a1f65abaa3bb691cc82cb50b1c14f455")))
+                 "f7d91d04e3fcca40268439e702cb6c4f5c90ab98")))
         (sha256
           (base32
-            "0ljaw0yh93hizvr85i4qvv3fwl35h8hw8yfa1g8l8nijchxa7qdd"))))
+            "15a0l7g6qbmy2mh7jw866sjfkv7xzk01qlmwvmr9kfb7vkk6wppv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -42093,17 +42093,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20220113.2232")
+    (version "20220131.1758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "de2260883726d23eb964050797fdcf48655f0dc4")))
+                 "ecd118171a111e04120d11c0d72345ce1d0f8066")))
         (sha256
           (base32
-            "0fk5rr7mjmb4waiagi80dhddas5mrsgqr0flag5v5b0piblixxq6"))))
+            "1ri1l203vp5nnl7chmmvvj3b03315fpzjjkisv55m6xs77ig2cl7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -47499,17 +47499,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220126.2043")
+    (version "20220131.1558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "0a4b5ef472e9de8b01d15b660fae5a7f79b88102")))
+                 "9bbca44630cd23dda8595e13f8d3cc9af28c85db")))
         (sha256
           (base32
-            "0qpvsfaszigz7456d233iydm2ny11x4ks8db47il0jyk68pzbdg4"))))
+            "1a6mlga3k2816gi7s0lmjdbbflinpbcg3pzpx1zr1aknxi8ciw91"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -61102,17 +61102,17 @@
 (define-public emacs-kaolin-themes
   (package
     (name "emacs-kaolin-themes")
-    (version "20211023.1347")
+    (version "20220131.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
                (commit
-                 "ea6394619219b6d54b843836e3a6b2e7d8aaecec")))
+                 "ff7f31b100421328b6b8c57a5b640a26b9d914c2")))
         (sha256
           (base32
-            "1awgh70g7k7bjjga8kd6rfd8k3fqzkswgxyf4qgrsjci80is8jcn"))))
+            "066iqbyvapc7i41xlci2jlnvdkdhkv7c8rj4ambz8rbj6i2sjb5s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (arguments '(#:files (:defaults "themes/*.el")))
@@ -71076,17 +71076,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220131.1457")
+    (version "20220131.1648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "bec0d18726f890c5a7459d03cef5df24c96f8a4a")))
+                 "df0d0848eb37bf0f54585748a08b4229fd2b03eb")))
         (sha256
           (base32
-            "08n802d4lqayjbpnbd1z64phh5y0j8s161l8cy84b5ijifg2il3a"))))
+            "1hwj4wdfknxdyzbmyr5ph8msphkrhk82s7kg1flxwwd7wshigpdb"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -76649,17 +76649,17 @@
 (define-public emacs-ob-restclient
   (package
     (name "emacs-ob-restclient")
-    (version "20210718.2008")
+    (version "20220131.1745")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alf/ob-restclient.el.git")
                (commit
-                 "bfbc4d8e8a348c140f9328542daf5d979f0993e2")))
+                 "f81f2f4f3fe6882947b8547ccd570f540106ed4d")))
         (sha256
           (base32
-            "0nq5w2gankvb7ix8rv33814j7qvhiawd9r15b9i6syn1i5k5pxhj"))))
+            "16byn85gsl99k818686jp3r4ipjcwdyq3nilmb32g4hgg0dlgaij"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-restclient))
     (home-page
@@ -85711,17 +85711,17 @@
 (define-public emacs-pcmpl-args
   (package
     (name "emacs-pcmpl-args")
-    (version "20220126.1844")
+    (version "20220131.2316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/JonWaltman/pcmpl-args.el.git")
                (commit
-                 "02ae18bda3fb3f49468f30635af6b508e0ecffc4")))
+                 "94a19b693a226aa11b15627e01f9f4c9af752bab")))
         (sha256
           (base32
-            "0c8ag20v9j4p2mrf7bhjc225aabncah2j92g909w3hh0w4yac9l0"))))
+            "0y0mnm2fhshvvc9iz4mgzvxhvhj0xriinn155dilnm4skglzgxk1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/JonWaltman/pcmpl-args.el")
@@ -96962,17 +96962,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220130.1332")
+    (version "20220131.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "63a6ba631e362f83c8ab89bd9e8bf1a68462981e")))
+                 "91e07768920918d0182b46085fe7a756881e1951")))
         (sha256
           (base32
-            "128vqshj19jppvx2mgw4zdli5wdijjqf12k4jhpq3y416zk745dm"))))
+            "1csiq0lwriqrx6jwmnjvp9a7xwp90scx94hj3ig5dlb1lhmb062f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -101008,17 +101008,17 @@
 (define-public emacs-sly
   (package
     (name "emacs-sly")
-    (version "20211222.1234")
+    (version "20220131.1646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/sly.git")
                (commit
-                 "2e00c3bd4bdf6658f258cc78b3254f0ec24591e5")))
+                 "8074da031ed9d677abc77fb3dab4bb42c6be76c3")))
         (sha256
           (base32
-            "0qlc5ny85dd03i0fj10ypjxkziih23k031m1wlvhjsdjg2ibs0f7"))))
+            "0yp1fzm7kiqd7316v6ndgildf81mslylnmqhx1xn8g8hsp2fl2l6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
