@@ -8069,17 +8069,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220128.24")
+    (version "20220201.544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "e0677c03bed8e16b94ccce021d23d566215488b6")))
+                 "ff0d1c3531352a6c54bb48ced797f41bda95939e")))
         (sha256
           (base32
-            "1x4nisj9mkvv507kf1lrn6zwb7pw539j29m94kvzd1aibrq7zm02"))))
+            "06cprpbff06q98d06vljcrmvixvdnvjmwqgxvpz9yx7s14ml289l"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -79849,17 +79849,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220121.847")
+    (version "20220201.419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "fc3ac72c3a5912f8ec1b64ee67997002b59bd931")))
+                 "3facf18272d0a72edec5a21bbb2111203af90da0")))
         (sha256
           (base32
-            "0jwfkd74sc12r94z9cnacljfsh66c3gg4k2bmynas95z5a453b10"))))
+            "1jf3857qf92v1qbvijlla92xclac2773fizjdbgq2s9p9x9wz7j3"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -108724,17 +108724,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220130.1658")
+    (version "20220201.621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "bf5c5381bb1c10af816bb362067648c10d176399")))
+                 "a4aeb2284d708577754234a9ba7d381adb3224fd")))
         (sha256
           (base32
-            "068cdg4gdjhs5ad8y6vzym4zz8gi9p17nn0yp8720vy2z44g8566"))))
+            "0yh32g3wnrdyhq6zh4ky4wynj2a1q62h45c6w5pqmyx1mjgqh84g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -115566,7 +115566,7 @@
 (define-public emacs-wisp-mode
   (package
     (name "emacs-wisp-mode")
-    (version "20220131.744")
+    (version "20220201.637")
     (source
       (origin
         (method url-fetch)
@@ -115576,7 +115576,7 @@
                ".el"))
         (sha256
           (base32
-            "0gdviq13y54rwncrj6snjcq5pdcijhw37q1vpgj4wrf01g6ff8lf"))))
+            "1s2afp2yqfcgqyl31z046ygp9ywyln6402b900aicvd8pyqwf66p"))))
     (build-system melpa-build-system)
     (home-page "http://www.draketo.de/english/wisp")
     (synopsis
