@@ -12590,17 +12590,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20211119.1904")
+    (version "20220202.704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "7d3c0c16e4aa14a051b393c249f0f4d307a2c74d")))
+                 "328fb6cdd3ea861de210aab1d62e5bdd935105b9")))
         (sha256
           (base32
-            "1b3442z4awk3h1ns0fn0mif8vzlrdqzq1gbj9k848df5qz2qgvcv"))))
+            "07zcmmrr9mqs2kpj6w40pmak5qjz7b3i5lym2c785bvhrpj318cr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -26912,17 +26912,17 @@
 (define-public emacs-elfeed-score
   (package
     (name "emacs-elfeed-score")
-    (version "20211231.54")
+    (version "20220202.201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sp1ff/elfeed-score.git")
                (commit
-                 "38988ebdbc335f990e9a90042141f18e3fc3ddb1")))
+                 "3448413280d5e8fce0d8098476d246c6c584771d")))
         (sha256
           (base32
-            "19g98xpb0kk8i0js4syb2k7sfj0lia3xmywzn9dmrxkpslhfsyms"))))
+            "0rkm3vyyklpcyaz7zs2a5azyf20bnbj9nd8ik3jgcg2lsd6jgj5m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed))
     (home-page
@@ -41939,17 +41939,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220131.1343")
+    (version "20220201.2346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "f7d91d04e3fcca40268439e702cb6c4f5c90ab98")))
+                 "a859d98f71ae38e41847301e3d43cb0a3bc31ec5")))
         (sha256
           (base32
-            "15a0l7g6qbmy2mh7jw866sjfkv7xzk01qlmwvmr9kfb7vkk6wppv"))))
+            "1fs9282r8cj9mldxdiw81v3ig0fhafmjmyhiahcpl02wdi92nimz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -79850,17 +79850,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220201.419")
+    (version "20220202.413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "3facf18272d0a72edec5a21bbb2111203af90da0")))
+                 "f831a692848348f737815373c06759d13a06e5d3")))
         (sha256
           (base32
-            "1jf3857qf92v1qbvijlla92xclac2773fizjdbgq2s9p9x9wz7j3"))))
+            "0wc55z31pjbx8sca58azb5f6px5gbr70nr7q6vjc9hrlcp2jy1lf"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
