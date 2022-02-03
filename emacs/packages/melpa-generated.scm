@@ -21984,17 +21984,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220202.1133")
+    (version "20220202.1854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "5c3787fa06a3c8cee967d1dfa9700e4c917fb65c")))
+                 "15f323a11f3212f3ac20224de9806dc1d3ebc0a1")))
         (sha256
           (base32
-            "1cb6j0vbgswfs6rjj7p3rjjxmq9bn2fz0vj7dvbimgzd772fyghp"))))
+            "1vc5lg5fs60yvmkcxwk2spxilczqn1jc2h34pz2pab3afcy85153"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23760,17 +23760,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220131.1509")
+    (version "20220202.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/niklaseklund/dtache.git")
                (commit
-                 "10a11312b8590f88de9c7d4feb91ae869ddbe162")))
+                 "ecf4c57d96eda400d9b2d5cfeaa9244993ae3603")))
         (sha256
           (base32
-            "0a2l9mrvq5g36q816hx5llmrcyxsf76xsv1z1k83m35f5z2gr2ds"))))
+            "05gm5l533y8xr00w3c3i4fbhzhib6i7q2bbnpkm08w1n8a08iaj5"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -27664,17 +27664,17 @@
 (define-public emacs-elpher
   (package
     (name "emacs-elpher")
-    (version "20220202.1246")
+    (version "20220202.2138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://thelambdalab.xyz/git/elpher.git")
                (commit
-                 "09f4d52c0f3ff9cdd4fbddbdc513c42f6650918a")))
+                 "68388182b99d7e12ec649826cf0a8d167be57a88")))
         (sha256
           (base32
-            "0zip0w3fgz8b98vx3m3gj1yw9kq1ss3yypd2ggcmgf44fc9h5jak"))))
+            "1ylxkdhln63g0pli51r7jxp07g7r09agi72dw5mgxld1kgxln9m6"))))
     (build-system melpa-build-system)
     (home-page "https://thelambdalab.xyz/elpher")
     (synopsis "A friendly gopher and gemini client")
@@ -57893,17 +57893,17 @@
 (define-public emacs-ivy-clipmenu
   (package
     (name "emacs-ivy-clipmenu")
-    (version "20200302.1419")
+    (version "20220202.2122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wpcarro/ivy-clipmenu.el.git")
                (commit
-                 "ef25acf3f058fe1ede3a29fae2e9cdac8b08cd17")))
+                 "7c200cd4732821187084fad23547ee3f58365062")))
         (sha256
           (base32
-            "1yzvaf95pncfi1r3xj8h6393dfvx291q3ahdwpp7qn3jh71kjx6k"))))
+            "1zf0xx3j0mcyppx1a8dhx8h80xi3dxl4fsc6y9pkhrlimlz36qv6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-s emacs-dash emacs-ivy))
@@ -76650,17 +76650,17 @@
 (define-public emacs-ob-restclient
   (package
     (name "emacs-ob-restclient")
-    (version "20220131.1745")
+    (version "20220202.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alf/ob-restclient.el.git")
                (commit
-                 "f81f2f4f3fe6882947b8547ccd570f540106ed4d")))
+                 "586f1fa07f76aaca13cb3f86945759f4b9fb8db7")))
         (sha256
           (base32
-            "16byn85gsl99k818686jp3r4ipjcwdyq3nilmb32g4hgg0dlgaij"))))
+            "12cgjk3lpx8d0ms2j6b33s65jr4bg8g9cw9h2l82bm39nd6h5q9d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-restclient))
     (home-page
@@ -80811,17 +80811,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220125.1455")
+    (version "20220202.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "6c023d8924b066c206b75abe35f970f17d022802")))
+                 "9db9afb50407cdb1a8ec7c28bea69d0b6208fbdb")))
         (sha256
           (base32
-            "0cc8vdrbvzqxj7y0k20b2apz0ijaizcaq0mwwknhicimpa5j5awm"))))
+            "1qs8c1sdz53pr2p53lqd1kx1747r4i2h9ynwi6dq6xab148zmdjg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -98691,17 +98691,17 @@
 (define-public emacs-separedit
   (package
     (name "emacs-separedit")
-    (version "20211116.326")
+    (version "20220202.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/twlz0ne/separedit.el.git")
                (commit
-                 "59c4e3718943dbe8d14bdbba5de24fe2c80f0b56")))
+                 "a2cea75f7b66a02e28334291fc6fb371cd5741b1")))
         (sha256
           (base32
-            "06wx9nz688x15rz1mcl3jcbaa3pn6xls7my2srn5id1rdbwyl52x"))))
+            "133r9s2zbc1k2jd9ajxbxss0iy9xsjphxzwfhfvvay8jqy0r71gi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-edit-indirect))
@@ -100742,17 +100742,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220127.2255")
+    (version "20220202.1848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "cf30941e5858e93eb91574ad91499075222a447b")))
+                 "5b26718084e912a732ffabcc0921c9c0bdafcd3a")))
         (sha256
           (base32
-            "1s5mbljlz22pb90gwbd380nighkz6gdxl77hc08gri7wwr5gy5n2"))))
+            "1486c6im94yfa4d4rbqvamz4jwi5bq8kn4h4cwb5qcdvig924zvv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -102186,17 +102186,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220202.1443")
+    (version "20220202.1635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "a5a15f2744b4c914e60d460532a5dcf5b9e3c6a3")))
+                 "2fbe785d2011524ee8eb3cef781cac7f4b9e891c")))
         (sha256
           (base32
-            "0v3pzs5zp7ljm0snp1xgpp3s4z7zdgyps6x38cyjbcsfs4jyn3yn"))))
+            "085licc8bk5qcwc2an8va9a76zjialphs2wx8g13l00bni84k0lz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -103848,17 +103848,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20220108.212")
+    (version "20220202.2241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "a47c0df8b5df36f5a8ca41f3f5dc60e1fbd09924")))
+                 "48318da86b2b214106c3e6248c7865407aeebcd4")))
         (sha256
           (base32
-            "1if3xyma26vzsivpvyf9vxsy0yv64vbl1kkd5rvnx48ly4axqk3a"))))
+            "111h20gp0ns2c4cj9rh2bqlp4mksv1w4ybli64fnm300jci1p2lg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -108725,17 +108725,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220201.1112")
+    (version "20220202.1805")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "e7bfe48d684d79fe02fe7639a9e138443eba5b38")))
+                 "5df42d3f5569d9005f9180337aa88befaf77c491")))
         (sha256
           (base32
-            "1355964mlaqmi09g4hi5v2yp2iq2v78iib7v5d31kcr64l2ddh1z"))))
+            "120lh5c01wbv92zljw8jhx16cdjp154bjas8k0bi461x1xa5mzl5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -113548,17 +113548,17 @@
 (define-public emacs-vterm-toggle
   (package
     (name "emacs-vterm-toggle")
-    (version "20210902.828")
+    (version "20220202.1722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jixiuf/vterm-toggle.git")
                (commit
-                 "ea0bfeaa200d9ed02b51bbbd83222657b02637e7")))
+                 "2a6861ef6af91dad4be082139214a30116b50acf")))
         (sha256
           (base32
-            "0bwgzpf2wyzdj9smwys06zx4yha72pw50wzdh4zld45ph40pb6qw"))))
+            "19rr03fqicykw73wbpw2nzz0b0dc62qpqh7gddmgz8lv39d6xmfb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
