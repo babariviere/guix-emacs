@@ -27706,17 +27706,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20220113.430")
+    (version "20220203.108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "edea3321e6cd44e466c1b56672324ac7bd28f011")))
+                 "9b458c80dc1bcecb6345e157d8e921c1e4e8a7ea")))
         (sha256
           (base32
-            "1ws8pxh3djdfdarpii777fyjwphv5v67v5ch3l3gjmkgx7acz2sz"))))
+            "1dniwj4lbmmwk715gi8kykp3c953migh0bs1br3vk1w2n8d6lax4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company
@@ -31036,17 +31036,17 @@
 (define-public emacs-esup
   (package
     (name "emacs-esup")
-    (version "20200814.1400")
+    (version "20220202.2335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jschaf/esup.git")
                (commit
-                 "5169dd7fc8765a7377b0ab93aa63b7f0f934689a")))
+                 "4b49c8d599d4cc0fbf994e9e54a9c78e5ab62a5f")))
         (sha256
           (base32
-            "0mn9pffw7kzdzwv3jkhygdkmlqax9fsrbjznbck90ydiv095fmp6"))))
+            "1zyix297qpgx0l90afg1pxalsjph6yb7b2qxy2rxmbl9fkn4b774"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/jschaf/esup")
@@ -56494,17 +56494,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20220118.125")
+    (version "20220203.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "d6aa7d32aee6665784766858e40b5e4e13190652")))
+                 "f892e6e74ffdf9f80019cf85f4e128dc66359266")))
         (sha256
           (base32
-            "08sizq24n2w6cr22hmnlprdvnvkslgj8rlv41zb9g75yjn5sd9gy"))))
+            "09kzmw9i4d77qjz1i37v40g683d9q7rw79bnxkj56acpd7h9dvk0"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -65739,17 +65739,17 @@
 (define-public emacs-look-mode
   (package
     (name "emacs-look-mode")
-    (version "20220202.742")
+    (version "20220203.456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petermao/look-mode.git")
                (commit
-                 "ae144d63ae9e23dad22e2139b788570496dfd77d")))
+                 "0eca7634108b69c687e31641e79583891846d98c")))
         (sha256
           (base32
-            "0fkaqmxp6m5grcwwd39vfhamwx2nscdxw8dyr9i3cybf8h5cgbym"))))
+            "0j4fl77d6w4s3g9y7ic7zh693xxh6imznsgs3vapngr7kr6jbal8"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -96253,17 +96253,17 @@
 (define-public emacs-rspec-mode
   (package
     (name "emacs-rspec-mode")
-    (version "20201228.1319")
+    (version "20220203.211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pezra/rspec-mode.git")
                (commit
-                 "92ef785010f6a68cbf73861e75ac6cf4e1832291")))
+                 "4215ff1f2d1cee24a144ff08297276dc7b971c25")))
         (sha256
           (base32
-            "1di1b9psmaqzhp0ik3niwgy43i0vj16m5fx7xnsyi0bvwv45cab8"))))
+            "11bada87rji78pw0d3l9g70vz2i1cvdlwxl4ixxcyc6whlfbff3f"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("rspec-mode.el" "snippets")))
