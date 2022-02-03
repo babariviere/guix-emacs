@@ -11565,17 +11565,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220128.716")
+    (version "20220203.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "a3a607365c94dd11f1981e1d884641773a8a048c")))
+                 "7de723c05d4847a4bc9711c06d0eb704b29a7a5e")))
         (sha256
           (base32
-            "16da59aywxjrrvw3w0vzp2y90cqws4wrr63n9j17lxjknhn5r46k"))))
+            "1wkxnhc5wi2r2dm1f6yds1si80pv92glixr9gsz9d8312269fxdl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -21984,17 +21984,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220202.1854")
+    (version "20220203.1118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "15f323a11f3212f3ac20224de9806dc1d3ebc0a1")))
+                 "bc278f42110fe34e14ebfce0cda036b3ce17730a")))
         (sha256
           (base32
-            "1vc5lg5fs60yvmkcxwk2spxilczqn1jc2h34pz2pab3afcy85153"))))
+            "16rqyfj7lsrkp7a406z23dkcz7c6vb0gh6243ywjiwiqj7qdzcqc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -55973,17 +55973,17 @@
 (define-public emacs-immaterial-theme
   (package
     (name "emacs-immaterial-theme")
-    (version "20220125.1427")
+    (version "20220203.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petergardfjall/emacs-immaterial-theme.git")
                (commit
-                 "592ebfcb6e3761174b6e2cdf91cc55a1e2ffb9c7")))
+                 "90a0f4e6992a99d000d016b5a82fe1a10fcc5e1a")))
         (sha256
           (base32
-            "0jqysfinwrvzlimhmwbbvbr2sdpk665ymwv9771ils5q3kdnlz22"))))
+            "0s7vvn300x7cazsp13jzp28r1jrf9bg3asvxm92xi64d45pkki4q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/petergardfjall/emacs-immaterial-theme")
@@ -63796,17 +63796,17 @@
 (define-public emacs-leuven-theme
   (package
     (name "emacs-leuven-theme")
-    (version "20220202.1028")
+    (version "20220203.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fniessen/emacs-leuven-theme.git")
                (commit
-                 "10be661cbf149ec173dfc6371702fb394143ae1c")))
+                 "d7dd9188a65e2ab7cf73c2e575a830baae38cb0c")))
         (sha256
           (base32
-            "1s7m5g30ac1pyl2ih9661f5if3x94v9rng0333mmkrsgkys68wqr"))))
+            "0wvx4wcn845v1fh5jlljlh7l28nwycpivaay7flqb52zz47xj116"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("lisp/*.el")))
     (home-page
@@ -71077,17 +71077,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220202.1408")
+    (version "20220203.1213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "59422c05e00d65582a005ccb06c3767622d14e03")))
+                 "3927576b75e02c68d256564e7b0af7c3f5af174b")))
         (sha256
           (base32
-            "0d8y8p75q39sl3na6lxpizyc8cr86xqynhk4rlzngalggknbpycx"))))
+            "16218ji0i7x3h8k1wnpgqvb6f2csf0mf5zlfsv48y594wjpa0lpl"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -90270,17 +90270,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20211220.1144")
+    (version "20220203.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "24de2940a8a1f46a7715175a66be67733f1c8fa8")))
+                 "df3d73e1f0ff625a09196ff3ba6f4be82a53fb3b")))
         (sha256
           (base32
-            "0zgy50xbbfsp7gfhis2w5prapm866fi33xnsyihfil4g1pap0a2s"))))
+            "1iy5i8mdvzgfirsv5k59v8i45fcm6cimlfl546hgzb9ygl6l15vr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -96917,17 +96917,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20220108.1844")
+    (version "20220203.902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "49ff6cceba7a546595c5b0cc18c7501b22e0c9e9")))
+                 "07e1e0aa2f750da0a73d95e45eb474b54031d2a0")))
         (sha256
           (base32
-            "1cj59mwrp4igfcrsya3nlrgp465r0gmnyzglmgsg24pyna3rycwz"))))
+            "0x0h90hix3bwygpry7nbdxrrq7rlb0xh6lw9lih4i81rzda2mxl0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -100742,17 +100742,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220202.1848")
+    (version "20220203.1336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "5b26718084e912a732ffabcc0921c9c0bdafcd3a")))
+                 "321ec0c032cf5cecb4f715719aae29ddcfd243e6")))
         (sha256
           (base32
-            "1486c6im94yfa4d4rbqvamz4jwi5bq8kn4h4cwb5qcdvig924zvv"))))
+            "0xxbihi3rwrl18l4ana728bjwbj0aq7335q5dzpyfxxmbg9sgfjk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -106835,17 +106835,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220131.1316")
+    (version "20220203.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "eba700ba60bc56fd2424736b1f15fec07932e870")))
+                 "bf765d11f067bf09359f8e81775f742a2677c100")))
         (sha256
           (base32
-            "14li4n9wlswvdw91jvqbwwm00h4hfyvzxg6y19zhnadwhpqvb5h7"))))
+            "1ka0gbyyg3xsff96n18yrgbikdwivr4qfwahc9gm7b5c9s9l4ns4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
