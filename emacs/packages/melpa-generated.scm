@@ -33087,17 +33087,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220123.1540")
+    (version "20220204.417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "607b71f38a1b2d7fa464814d968427435d31dd7c")))
+                 "ff733576d1dc5395c08d8f0e396b7a7073e39674")))
         (sha256
           (base32
-            "08zrykm016hmqd5p9irkghamx7nm3zs8qf87x2pv9pwkm0sz79qy"))))
+            "1pa6ffz5wssnrs2x81p06w4c7iba4jx4man0h8qgl3qfsl2nkchw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -67138,17 +67138,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220131.125")
+    (version "20220203.2302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "846d153a2e715aeb5b5a43adfdbc9cf2597d5b67")))
+                 "16b313ba47872613c735863e9ece4193d4fc0ec4")))
         (sha256
           (base32
-            "05qcr3bwzw6b9idnx6mv65fl1j4hib7dwxwqg54mq1hdbp2qzgq5"))))
+            "0y8jmjbx8k1kgwxkqw7wih19xyydjw6cwi9045l83qh534s9y9kg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67662,17 +67662,17 @@
 (define-public emacs-magit-tbdiff
   (package
     (name "emacs-magit-tbdiff")
-    (version "20210525.2329")
+    (version "20220204.455")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit-tbdiff.git")
                (commit
-                 "fef1b7772fe192c434089b67644ff93765e384d4")))
+                 "5fc67d0ca96d5db8f51ed9f2d9e3a7f69e7cd497")))
         (sha256
           (base32
-            "1g5nsg6zb3jrm7w1ssawv109ai2l7dpnd1dqrjsry2dnx1mxd212"))))
+            "1gzv5d1iar53b020qy17hrvqc5h0phx4hz22lkdmw0br554vyzgl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -71077,17 +71077,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220203.1213")
+    (version "20220204.610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "3927576b75e02c68d256564e7b0af7c3f5af174b")))
+                 "91ef46502c277f325ddd757806667dfa741a64cc")))
         (sha256
           (base32
-            "16218ji0i7x3h8k1wnpgqvb6f2csf0mf5zlfsv48y594wjpa0lpl"))))
+            "023a21hvhbm4my07yr8xhx46r8x6zcc2kdfss9zlh3m0f0cbb55h"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -79850,17 +79850,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220202.413")
+    (version "20220204.42")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "f831a692848348f737815373c06759d13a06e5d3")))
+                 "3f1f3a38429da17811f61a7a5685224d79de9594")))
         (sha256
           (base32
-            "0wc55z31pjbx8sca58azb5f6px5gbr70nr7q6vjc9hrlcp2jy1lf"))))
+            "01f04xpqkgja34a0z4smh2kxzn3lvx2391fnbfxmq92pxqp3gk0j"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -103098,17 +103098,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220125.252")
+    (version "20220204.53")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "d7e0eb6dd1d05b5f521cff739ee4cdccf2fb9784")))
+                 "38cfd66c3044f26cd1c7d6e599bc73f9b9fc0760")))
         (sha256
           (base32
-            "1c9qxhz11sq3hhmdpp1idiixd4n5fndbna21zrvgkxbgsifq4nva"))))
+            "1s5hi5kgq6m2ms9k2f0an3h0mf1lm9s5yriprkp7kmr4d4rk3c6s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -107759,17 +107759,17 @@
 (define-public emacs-theme-anchor
   (package
     (name "emacs-theme-anchor")
-    (version "20220203.2213")
+    (version "20220204.321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/GongYiLiao/theme-anchor.git")
                (commit
-                 "f778a4c1b013f2cc4231ca5a849ba87bbe7d2c6f")))
+                 "c6f715d4ccd30e83922e39cab856578ce19224bb")))
         (sha256
           (base32
-            "17pmvw4kapya6c2lmmirpb575yypy8bwgg7kw1qnkc20kiyyxlsn"))))
+            "1k6vb1r1lzksnki4rxjjcbvcpc59q76vhc3dq7kmi5d20fdgrm9v"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "theme-anchor")))
     (home-page
@@ -115567,7 +115567,7 @@
 (define-public emacs-wisp-mode
   (package
     (name "emacs-wisp-mode")
-    (version "20220203.2242")
+    (version "20220204.436")
     (source
       (origin
         (method url-fetch)
@@ -115577,7 +115577,7 @@
                ".el"))
         (sha256
           (base32
-            "1bw81wvxdvsmx17hllx9zf2xavsk334bg6ychwz1bxyak934z08h"))))
+            "09hh419d04md20gq2zrj7cjx2pbsv5f9xlcshxzi0wbrxsr8hhid"))))
     (build-system melpa-build-system)
     (home-page "http://www.draketo.de/english/wisp")
     (synopsis
