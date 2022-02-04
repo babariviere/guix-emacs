@@ -11565,17 +11565,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220203.1323")
+    (version "20220204.917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "7de723c05d4847a4bc9711c06d0eb704b29a7a5e")))
+                 "3cf53e7cad339b9c7e991746053d2e86bc6db23f")))
         (sha256
           (base32
-            "1wkxnhc5wi2r2dm1f6yds1si80pv92glixr9gsz9d8312269fxdl"))))
+            "1i5pz93y2kh4dmhrpid06p6ml5gxg3qz0k6sygbi08hmmllv8ssw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -12469,17 +12469,17 @@
 (define-public emacs-clmemo
   (package
     (name "emacs-clmemo")
-    (version "20160326.1623")
+    (version "20220204.1345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ataka/clmemo.git")
                (commit
-                 "846a81b984d71edf8278a4d9f9b886e44d5b8365")))
+                 "f695c38c551f72f6ac5e1a82badc540c80d3b33b")))
         (sha256
           (base32
-            "152qf7i5bf7xvr35gyawl8abkh7v5dsz957zxslrbbnc8bb1k6bz"))))
+            "19lzrbkkabyw2pha005vpkgn42bs3b52nij1x2wr7v35bvpsck2q"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ataka/clmemo")
     (synopsis "Change Log MEMO")
@@ -47940,17 +47940,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220130.1408")
+    (version "20220204.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cd4add6fae1d9acf8904d93f2f32e37c0737b03d")))
+                 "dd13f19eba2c0206d94b7dd2b171f72bfdb14586")))
         (sha256
           (base32
-            "05dwq8z686k41w8ryld49hn0b9c2mg6calm2cfxkdnh53g6vk52z"))))
+            "0vr1smh5jgz5f1lbdzc3f7kmijp8v1mjlfmvw1lhvg5vbmvc8n7f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async emacs-popup emacs-helm-core))
@@ -64234,17 +64234,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220102.1539")
+    (version "20220204.952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "ff58aceed180bb6bc0d4477620689c7656144055")))
+                 "8bf9e6d70347a99528bab56f90e0210f9a88dad8")))
         (sha256
           (base32
-            "1sbvrnin5q178b72aaqpz47jf5gn3d3znjqs4j7ydv4g1pxj3960"))))
+            "0f78dnz0qmmq2g4xsm3a9kqg4864lghv1nbz0hj2c8mz2c58laqs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
@@ -66860,17 +66860,17 @@
 (define-public emacs-lyrics-fetcher
   (package
     (name "emacs-lyrics-fetcher")
-    (version "20210828.813")
+    (version "20220204.916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/lyrics-fetcher.el.git")
                (commit
-                 "f0212bea838f0c284ea97e051c9c6c63f1b527ff")))
+                 "f6948259b388102208d8a29dabf383f10f801cab")))
         (sha256
           (base32
-            "03mnj12b7y597p77066c979d0pbyz4a092vgjyb830dhihms2x5y"))))
+            "1p7dpnjspjcxs3wi7fmfnwxgl5ha3d420imhni4wlgdx2nyjqp8f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-emms emacs-f emacs-request))
@@ -67116,17 +67116,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20220121.1349")
+    (version "20220204.1229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "6e2555f5f52e808ca62a8c5cd64194ba2e637273")))
+                 "0168a410ea2e25c1e98c9be6381ba0872d1e1ae1")))
         (sha256
           (base32
-            "0vy5kirs43hvvc1mkys9rfpr0pggha1nsgflk7svp3v6qz6gv6jh"))))
+            "19v5902fij5q6cfzxx8b9lsm5kkgrzsd9lccj7di1aj2yf02n4jx"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -100742,17 +100742,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220203.1336")
+    (version "20220204.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "321ec0c032cf5cecb4f715719aae29ddcfd243e6")))
+                 "2080537746ba808b9c1683a280e803e65f196a9c")))
         (sha256
           (base32
-            "0xxbihi3rwrl18l4ana728bjwbj0aq7335q5dzpyfxxmbg9sgfjk"))))
+            "0dvdai85bbkawbw8dnj6ly5i9k6lrch1rakikmrhqlh9x0fwvphr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -101639,17 +101639,17 @@
 (define-public emacs-smartparens
   (package
     (name "emacs-smartparens")
-    (version "20211101.1101")
+    (version "20220204.1134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/smartparens.git")
                (commit
-                 "f59a40d54f35299007c396bd667ce3e9ec4714e3")))
+                 "37f77bf2e2199be9fe27e981317b02cfd0e8c70e")))
         (sha256
           (base32
-            "0n0c2knva2c6ajdhqglr2yzhr53sgqr4bscsd1lwmwajgb0iyrw3"))))
+            "095aqr4mz6yx8xa2gr7k5nf6a82qxdrjh8qv47hfhbc3832gy8jk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -113674,17 +113674,17 @@
 (define-public emacs-vulpea
   (package
     (name "emacs-vulpea")
-    (version "20211118.734")
+    (version "20220204.936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/vulpea.git")
                (commit
-                 "398ca17f83ea59f54f61898fefdb55332cd3ba46")))
+                 "38efd2e08345d02f64b768629e26fa4e4e7beb85")))
         (sha256
           (base32
-            "0qa49s0nhqbh9bmxi1zglnx3yajqcdx8j7yiy23lxbya2fpl557i"))))
+            "1n1fhy9456d10isddfp29dqnjccs6hs4ymdxcs05c55sw2vgjc1l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-roam emacs-s))
     (home-page
