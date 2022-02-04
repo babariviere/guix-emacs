@@ -11849,17 +11849,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220129.1313")
+    (version "20220203.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "79512aefdf11071b66908320aa346255dd349234")))
+                 "d1eab2bbd5cae84e97e90997fcfdb273ecf08317")))
         (sha256
           (base32
-            "0v6pi5d12a5zj98wgxsqj1qv61axlph01y58vr454a0axc3y6nlg"))))
+            "16d6g7g26f9jmd49l03lnlic7myfy4ah4imz3vy03hcp1m2s4ffz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -41939,17 +41939,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220201.2346")
+    (version "20220203.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "a859d98f71ae38e41847301e3d43cb0a3bc31ec5")))
+                 "c1cc4da1edc46b763e0342ab4aa971e54f48658d")))
         (sha256
           (base32
-            "1fs9282r8cj9mldxdiw81v3ig0fhafmjmyhiahcpl02wdi92nimz"))))
+            "11vc57nkgbsyl1wrjikxs0ixzkp7dksj51p4aa9girsm2hs3bs6v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -55973,7 +55973,7 @@
 (define-public emacs-immaterial-theme
   (package
     (name "emacs-immaterial-theme")
-    (version "20220203.1159")
+    (version "20220203.1519")
     (source
       (origin
         (method git-fetch)
@@ -64651,17 +64651,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20220124.1847")
+    (version "20220203.1437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "c6abaed62649b2230f35e4091f3ea234d217440a")))
+                 "80a4f6e9a7fb39e514a5ddfa919fa14f73716b71")))
         (sha256
           (base32
-            "02k6gqw499acsphg9992q736mvcyrcz81r59ah3wkwaim2grrzmd"))))
+            "0vkvsg0x24yabkhcal25xlz0r5zbvdhd4x0zni9w5wg3rcf2rvmj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -96917,17 +96917,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20220203.902")
+    (version "20220203.1832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "07e1e0aa2f750da0a73d95e45eb474b54031d2a0")))
+                 "832980d96a3b7e985bc8bfb1dc2bd7e9599c6312")))
         (sha256
           (base32
-            "0x0h90hix3bwygpry7nbdxrrq7rlb0xh6lw9lih4i81rzda2mxl0"))))
+            "1dlg6526zfpflmvsq12fql0ri6l8mchs0bi8malx9v8rxn84k3bp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -106951,17 +106951,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220116.2206")
+    (version "20220203.2002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "b1db2330ec1c8113b8ad9ae452a1a9fbf08deb5d")))
+                 "6ca08f66585dee09d1e48ee600cbaab579720488")))
         (sha256
           (base32
-            "0zpa45bgcrqc454m501z3413z6x7m15czphn3sxhqad077da54pz"))))
+            "09l7scif2sc0m9ral5nzv4rf02pwsk7z5822y77klj36zsrxigdc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
@@ -107759,17 +107759,17 @@
 (define-public emacs-theme-anchor
   (package
     (name "emacs-theme-anchor")
-    (version "20211224.2042")
+    (version "20220203.2213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/GongYiLiao/theme-anchor.git")
                (commit
-                 "aad9c0c0c888325cf6f9bb2310677d667b364f21")))
+                 "f778a4c1b013f2cc4231ca5a849ba87bbe7d2c6f")))
         (sha256
           (base32
-            "1cpr11kasmskwx3b5v5x5j6mndlz0dm854p4d793m3m9fwdk3303"))))
+            "17pmvw4kapya6c2lmmirpb575yypy8bwgg7kw1qnkc20kiyyxlsn"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "theme-anchor")))
     (home-page
@@ -115567,7 +115567,7 @@
 (define-public emacs-wisp-mode
   (package
     (name "emacs-wisp-mode")
-    (version "20220201.637")
+    (version "20220203.2242")
     (source
       (origin
         (method url-fetch)
@@ -115577,7 +115577,7 @@
                ".el"))
         (sha256
           (base32
-            "1s2afp2yqfcgqyl31z046ygp9ywyln6402b900aicvd8pyqwf66p"))))
+            "1bw81wvxdvsmx17hllx9zf2xavsk334bg6ychwz1bxyak934z08h"))))
     (build-system melpa-build-system)
     (home-page "http://www.draketo.de/english/wisp")
     (synopsis
