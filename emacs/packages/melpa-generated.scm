@@ -28345,17 +28345,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220131.609")
+    (version "20220204.2243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "d8ad4a28f9ebf95cc1d07c26fe5b7b658920e537")))
+                 "53ff463a7907fc2eef33322f0178abb6ecf34a27")))
         (sha256
           (base32
-            "12zrfs1av27b0naiz4iqz5ynixfkydi6iji6044hazy7a4xjfbw2"))))
+            "04b3yrnk3y5ddvc7cr62y6csim93118raqywpqv1pziwdwhmzw2g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -35854,17 +35854,17 @@
 (define-public emacs-flex-compile
   (package
     (name "emacs-flex-compile")
-    (version "20211203.849")
+    (version "20220205.205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/flex-compile.git")
                (commit
-                 "7d0421805e4a287358a5c188ff868bd93be2192a")))
+                 "2da0e5e791896810747c710276ff3a1d0465d843")))
         (sha256
           (base32
-            "0hv9lp4ybcl7vn27cx3iq64rk0fydinq6sgyslhc2616kll6fdb7"))))
+            "0xix6j99hb1l0ml8ry2zcz74n86572bnq5czr0xni8hvrgxa9b61"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-buffer-manage))
@@ -102186,17 +102186,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220204.1513")
+    (version "20220205.453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "3cc4b69ca9c48ee35da1f4abcca1a18d2e5e5b15")))
+                 "cff8a21e8cf9f573c47ed4c3f5cb5e5f6f00288b")))
         (sha256
           (base32
-            "1z6hnan421w7rlqd9ybqqklqzppi0hyqw3fmb0v8kgicqyggvhv3"))))
+            "189zibfqjr05xjba8fm5bdimw7fsssjfpzspf4qbbnlvn1j62c1p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
