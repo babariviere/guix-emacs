@@ -2462,17 +2462,17 @@
 (define-public emacs-alt-codes
   (package
     (name "emacs-alt-codes")
-    (version "20200723.1037")
+    (version "20220205.722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/alt-codes.git")
                (commit
-                 "fb8550cb690b0ec954968afc7e8e953fd6859cdb")))
+                 "a1671339bde3dec273b367bf7dc849d1c306dac6")))
         (sha256
           (base32
-            "1flw5msh1sda3ymkkg8xcgixpa5jgm2i1ligna5h501xbybnk1iz"))))
+            "17n11prkp1d1ln16jcfyy1m6wp6i8qi57zwy8g9cr13xwgq9f324"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jcs-elpa/alt-codes")
@@ -12756,17 +12756,17 @@
 (define-public emacs-cloud-theme
   (package
     (name "emacs-cloud-theme")
-    (version "20211229.2131")
+    (version "20220205.1336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vallyscode/cloud-theme.git")
                (commit
-                 "72f1f430c94b93701851567853097b2df7cdd19a")))
+                 "16372ea1f527917102ac302afaec3ef09e289d24")))
         (sha256
           (base32
-            "14jqq522hdy2zy3iqh3r5ql5wgc5jh7mlz9m7h8pgcrwh9h7zjk2"))))
+            "0wyrc532iqviq1r8pa3qnz10bd66qnvac3qcgcwvjhd5h772y0dh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/vallyscode/cloud-theme")
@@ -23760,17 +23760,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220202.1733")
+    (version "20220205.1420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/niklaseklund/dtache.git")
                (commit
-                 "ecf4c57d96eda400d9b2d5cfeaa9244993ae3603")))
+                 "c9f7c16d4d703c8890deea6a9c9b9d30e65e1737")))
         (sha256
           (base32
-            "05gm5l533y8xr00w3c3i4fbhzhib6i7q2bbnpkm08w1n8a08iaj5"))))
+            "0idbj36ncyf4ak1kw3hksynyrz4mnaraamycxgk979wm93l1wg1x"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -42418,17 +42418,17 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20220127.2213")
+    (version "20220205.845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/gerrit.el.git")
                (commit
-                 "6cade6a3283de27792efc4609b60a72ab7e6b5ee")))
+                 "c2d9f3c0beef75ce2ca8e1e4b582980f2ffaef34")))
         (sha256
           (base32
-            "1ay8q6kimbzq3byhs7iwy87znamfav55bnx43hggs2mrll2i9bsh"))))
+            "1ayk60r3g6v8v8mdaxrv8psk5dhw8ss9rzglw8qzgxhj2dih73d6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-s emacs-dash))
@@ -47940,17 +47940,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220204.754")
+    (version "20220205.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "dd13f19eba2c0206d94b7dd2b171f72bfdb14586")))
+                 "08c4ad8e80394c8bc2c0d50429bce765f03826db")))
         (sha256
           (base32
-            "0vr1smh5jgz5f1lbdzc3f7kmijp8v1mjlfmvw1lhvg5vbmvc8n7f"))))
+            "0kfw83jz44b30v5rzvrx4ish62rkvacxd4s64xmf18h2342nrzi0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async emacs-popup emacs-helm-core))
@@ -48749,17 +48749,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220121.1833")
+    (version "20220205.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b9acaecbc05970b9c85eff8f2898b2410066bac6")))
+                 "08c4ad8e80394c8bc2c0d50429bce765f03826db")))
         (sha256
           (base32
-            "1mv8b09hp8kh5jr0nw7xr8kx9s0ks7hvbcasw9gi857vkp7h7ijb"))))
+            "0kfw83jz44b30v5rzvrx4ish62rkvacxd4s64xmf18h2342nrzi0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -60267,17 +60267,17 @@
 (define-public emacs-json-rpc-server
   (package
     (name "emacs-json-rpc-server")
-    (version "20190714.1521")
+    (version "20220205.1503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcaw/json-rpc-server.el.git")
                (commit
-                 "2f41d292b87916f6989e7ff5dc94da18ae6a9e4e")))
+                 "9bf7efd5c69f429acbac41f33a1c9fdaddcb9914")))
         (sha256
           (base32
-            "1z5v7z98dinlayxzik45gjja93daxym75mh2shsy4wz8yclkw22p"))))
+            "1zpgc20b0rdfl7kr1smm8xww4j852w341hxl7awi4ixapgjpd0h0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jcaw/json-rpc-server.el")
@@ -83812,17 +83812,17 @@
 (define-public emacs-ox-reveal
   (package
     (name "emacs-ox-reveal")
-    (version "20211128.1509")
+    (version "20220205.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yjwen/org-reveal.git")
                (commit
-                 "59adea80013e962811b204403cc500a4d28b85a0")))
+                 "2f1509cc145c3604a0b17a306603f231d067ea16")))
         (sha256
           (base32
-            "133vzdhyzg5w5fqrams9n88adr8klpgb53g2ig2rvir3sckp449v"))))
+            "06p6r86way5cxvp6z65j5hdmv09frk69qly2c02zg64xxymc8n55"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -102186,17 +102186,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220205.453")
+    (version "20220205.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "cff8a21e8cf9f573c47ed4c3f5cb5e5f6f00288b")))
+                 "72acb51ad48ea56fb4fb270f93aebd73c96bb38f")))
         (sha256
           (base32
-            "189zibfqjr05xjba8fm5bdimw7fsssjfpzspf4qbbnlvn1j62c1p"))))
+            "0wjzmarkzwnsv9cwx5g8hfk2hdwd4chl01c6x8x48507sjk210lv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
