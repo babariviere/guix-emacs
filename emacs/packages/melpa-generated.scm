@@ -11849,17 +11849,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220203.1404")
+    (version "20220204.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "d1eab2bbd5cae84e97e90997fcfdb273ecf08317")))
+                 "903dcd3d21be58ec2f7ac61432ff26f037373180")))
         (sha256
           (base32
-            "16d6g7g26f9jmd49l03lnlic7myfy4ah4imz3vy03hcp1m2s4ffz"))))
+            "1danf825jj5ahsicwnb8szis0ixqysy0k4vflvhbjwhl9n38rwg6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -65783,17 +65783,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220130.1835")
+    (version "20220204.1512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "0b3bfd1dbb61f29d21b8aa17c60848456aad76c9")))
+                 "d2a48068c4ce29966229f128d50163762b685091")))
         (sha256
           (base32
-            "043j28jrpifzqqdia4y2kdy0l0xw5cnh96mv3wr3sfbi3x33m44p"))))
+            "0hx5x7mv98sr935v97j2zxzjcmvzkh6h2zxra5vjxvwgwykqk9am"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -83443,17 +83443,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220128.1708")
+    (version "20220204.1606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "be9d24d4aabf0d6437d65c0ce04be6d32a815ee9")))
+                 "e52b7e50db825027b5e770c433793b3284ce4367")))
         (sha256
           (base32
-            "1vccgc2l7x8lyni07i7w6hzdqmkdjsjg893wkdypfp9mx7yy4a5z"))))
+            "0gfzkzlfl5119nxlrc8dm1y6gqppvqc21ljy68nz2npp6fcswkb7"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -91168,17 +91168,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20220130.630")
+    (version "20220204.1645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "7708d6c07ea73a034183b7b7c1c76dc40ff3f0bb")))
+                 "e6681214afc6b5ae06e4813492633bb4ad9b2b1b")))
         (sha256
           (base32
-            "04z5mlpc6vdr768hslc3g73152gjpgffcm43sfikv71ng5fzl7z6"))))
+            "0jqii5ijbnppayawrl27b22accpxayf5i4h15zx1s0wpb77km0s8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -92915,17 +92915,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220129.1749")
+    (version "20220204.2212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "3027de086eb0b77ac8ae81acceeddab91c66ba0e")))
+                 "cef5a55d2b766973db92f9d9ab2210c03fa8ba02")))
         (sha256
           (base32
-            "0ngivysizsvllc4xq1jxfbdfi857v4fry0x15jq75c4dncb36dbp"))))
+            "0zzk0s4akx6ffsbhylgfflcypkkg36a3accxhmmdd11yn5rckv7f"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96963,17 +96963,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220201.1704")
+    (version "20220204.1613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "15e5662ffbfa1bd0197d478fbd0c0e579dc68bee")))
+                 "7261c78004317628d2fdaf425a4c1a1bdb687605")))
         (sha256
           (base32
-            "1bn1vm8sij9xl9mkd4i7j47fwwzrxk3qbzlj5y1qpks9ckrhxpik"))))
+            "0fzkpli0l8ir4wa4hibkhgia2gxc5pb56zr7mpfyd736j3016acl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -100269,17 +100269,17 @@
 (define-public emacs-simple-mpc
   (package
     (name "emacs-simple-mpc")
-    (version "20200523.1804")
+    (version "20220204.2207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorenvo/simple-mpc.git")
                (commit
-                 "ce731fa390b7e4edfc461a9cfb4443c1aab4b011")))
+                 "265ee01f6c7c6c44f103b740c37df14f4c1fdb16")))
         (sha256
           (base32
-            "14fb52r5fzdcqqbh5kkajaz43iqq8g64g0rsswwwv6g1j23y93k3"))))
+            "14z8sqs094xq1n3hynglh1bj38kmzwfd9h66nxp95wdxanzlzghz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -102186,17 +102186,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220202.1635")
+    (version "20220204.1513")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "2fbe785d2011524ee8eb3cef781cac7f4b9e891c")))
+                 "3cc4b69ca9c48ee35da1f4abcca1a18d2e5e5b15")))
         (sha256
           (base32
-            "085licc8bk5qcwc2an8va9a76zjialphs2wx8g13l00bni84k0lz"))))
+            "1z6hnan421w7rlqd9ybqqklqzppi0hyqw3fmb0v8kgicqyggvhv3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -108566,17 +108566,17 @@
 (define-public emacs-todotxt
   (package
     (name "emacs-todotxt")
-    (version "20200530.2337")
+    (version "20220204.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rpdillon/todotxt.el.git")
                (commit
-                 "b51f7fa1357d2cbc1b72b10d15f8c6f009ce5a46")))
+                 "ddb25fb931b4bbc1af14c4c712d412af454794c4")))
         (sha256
           (base32
-            "1asf33na834mc4ppvfyjxa70v4r80dnq641si5kd86gjfzjjjfmi"))))
+            "1mb7cp0czhfzq0wb69lcihblr77f4fvq7ffcl64kkddnlp1ychr3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rpdillon/todotxt.el")
@@ -118359,17 +118359,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220131.830")
+    (version "20220204.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "4a0e44ad77e198d7b47c3f2bb6c2e296e9552527")))
+                 "731fbebeecfebc745b3bff8adeb3d339f9d6b0fe")))
         (sha256
           (base32
-            "142cmsyicrsd3q1ccirmhi6ysb2czvqrs5gx9chg27542yb1ssgv"))))
+            "0yds4wy97inpkfk5kqh72gdqvdgz1jynrninmhiassmvyj3w6kr5"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
