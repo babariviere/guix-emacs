@@ -30447,17 +30447,17 @@
 (define-public emacs-eshell-git-prompt
   (package
     (name "emacs-eshell-git-prompt")
-    (version "20210817.553")
+    (version "20220206.458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xuchunyang/eshell-git-prompt.git")
                (commit
-                 "f638ba32b661d15895e767305f59f41eb01197ae")))
+                 "1eb1fd56649f291cac482fbf06dd43ef867873bc")))
         (sha256
           (base32
-            "1hn05bgznc1az4fb4grg8d9acwpmwr4bp6ibch901c79hp79qlkv"))))
+            "1l3dlzzkx3k532ig2hmpky50zcz73p7vsnlxr24ichq5sn2lwfg2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -65739,17 +65739,17 @@
 (define-public emacs-look-mode
   (package
     (name "emacs-look-mode")
-    (version "20220203.456")
+    (version "20220206.207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petermao/look-mode.git")
                (commit
-                 "0eca7634108b69c687e31641e79583891846d98c")))
+                 "f1f4217b442fd52fb91cdbea34ff2c6af99ec8de")))
         (sha256
           (base32
-            "0j4fl77d6w4s3g9y7ic7zh693xxh6imznsgs3vapngr7kr6jbal8"))))
+            "145swf80935wq7pgz46f0g3ix4j0szi6r8cxwq5aw9fc8y1438n3"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -75498,17 +75498,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220126.1844")
+    (version "20220206.251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "d30659a8286c12def0c910d6cf3411ea84a68ca1")))
+                 "21fb1d4c998c914a91302fd5dec85fc803393917")))
         (sha256
           (base32
-            "0pw99cy20k9wyp87g0hgaqcxckynf6asvz0y4abmg6i9ax7p4mxi"))))
+            "146ln9wbmk9j62klh6yi4b7hfijnnfayr660hvjzyvd4jj0lr8wa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
