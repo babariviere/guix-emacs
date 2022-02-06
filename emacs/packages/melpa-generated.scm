@@ -12364,17 +12364,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220109.244")
+    (version "20220206.1011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "bfd83d142f1a05bad779fa7ccbaec8bd24dae177")))
+                 "d1b68c7807476de95a684fa52de294c96b3e8523")))
         (sha256
           (base32
-            "0010db9xagz5dykh377z9r6vn50wk9ffvgq8410ppcymdaq1syx9"))))
+            "0rckg0pwq6dvh4zn62r599pc32p436ybiy1wmj14ink0ywk3bqay"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -23760,17 +23760,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220205.1420")
+    (version "20220206.1134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/niklaseklund/dtache.git")
                (commit
-                 "c9f7c16d4d703c8890deea6a9c9b9d30e65e1737")))
+                 "948c110bbdd802a530f393580d74f3dc8bbdda1e")))
         (sha256
           (base32
-            "0idbj36ncyf4ak1kw3hksynyrz4mnaraamycxgk979wm93l1wg1x"))))
+            "1ii8zggw3db5nrkfnfhqsa7w7676bq3vl0z8larwhb34q6shi655"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -27782,17 +27782,17 @@
 (define-public emacs-elsa
   (package
     (name "emacs-elsa")
-    (version "20220205.2040")
+    (version "20220206.1454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-elsa/Elsa.git")
                (commit
-                 "ea2d2afee38af1511728f61083b22a3e688c7570")))
+                 "4f797e3dabec1336c75dab0329673d22af6cd9cb")))
         (sha256
           (base32
-            "0xp7dgn5llh58v9mkj9wd6wx81q26bgxxf8vdrllyz35rkwb1sq4"))))
+            "0ka5adwkqxn0d0p5mnwrllghjjslq6776a3p0rgm1kb8ik19r8km"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-trinary emacs-f emacs-dash))
@@ -63584,17 +63584,17 @@
 (define-public emacs-leetcode
   (package
     (name "emacs-leetcode")
-    (version "20211005.1331")
+    (version "20220206.1515")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaiwk/leetcode.el.git")
                (commit
-                 "e278b099173dced55e6e39f9924e90899542ebf1")))
+                 "b3103bd08c8943091f702c66d674f0f27ef7fe0b")))
         (sha256
           (base32
-            "1cm6z3ad3c704y3n0f1h38fhqrd69mrf7f4x79l8v76f6fj8vdhh"))))
+            "184dxfgsy1l6r1pn9c9jb22b8gw5hah1cnhl3sncd79mzv6gjhl0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -65783,17 +65783,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220204.1512")
+    (version "20220206.1523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "d2a48068c4ce29966229f128d50163762b685091")))
+                 "76aab7aa835429aeada897e85b955e85df2a68fe")))
         (sha256
           (base32
-            "0hx5x7mv98sr935v97j2zxzjcmvzkh6h2zxra5vjxvwgwykqk9am"))))
+            "1bagddnm85yk5hbgqlsi1xwhjikg7rs0dflfjyamc7c2v6b1jq18"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -71077,17 +71077,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220205.1636")
+    (version "20220206.751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "8300b0a289fa105b4b85c0b90a4f5e1a1fe5daa4")))
+                 "6789e5790c8faec1cdac5036a5910d4644707eba")))
         (sha256
           (base32
-            "112b5dbp15yqng39g1d9iz19mqyqlhnrim6v63z1bl21bfcxydzg"))))
+            "18jw3dyf1mpfkq8rnqlzwp805kqqf3my0av72kbzynw5biggaqzk"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -73834,17 +73834,17 @@
 (define-public emacs-netease-cloud-music
   (package
     (name "emacs-netease-cloud-music")
-    (version "20220202.1126")
+    (version "20220206.1052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/netease-cloud-music.el.git")
                (commit
-                 "9b1926a5fb2310b8eabc033e07ed0b15c33ddb9c")))
+                 "c94ab2fc0beb80f4cb378dceba566b9314095152")))
         (sha256
           (base32
-            "1g73siiwcnwda6zq2ls9gl4qwvwwdsizf7hxcw3c8ka5bf03a23y"))))
+            "0s7inq1j053lnfgyn7nsh3s12bx1wc9f1fp001n5gj4qna8lbfw9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -81877,17 +81877,17 @@
 (define-public emacs-org-vcard
   (package
     (name "emacs-org-vcard")
-    (version "20220119.248")
+    (version "20220206.1209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/org-vcard.git")
                (commit
-                 "74fc34319ce26455f58c7ae476b482d323796276")))
+                 "bdaebcb4ef44c155a92d9c89a21a1d29019ee026")))
         (sha256
           (base32
-            "0s0bx2vgn2rzcda9sfcfds3x68d2gnz90qviphpf6bi27ab83a20"))))
+            "1djpjs0v0w6drqpi39y58hs563rqszcfwmldnwcmyp3f3cgqd8k3"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-vcard.el" "styles")))
     (home-page
@@ -83834,17 +83834,17 @@
 (define-public emacs-ox-rfc
   (package
     (name "emacs-ox-rfc")
-    (version "20201218.1356")
+    (version "20220206.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/choppsv1/org-rfc-export.git")
                (commit
-                 "1a49535cf927cd52ffa05c815b890888c4addf86")))
+                 "c9c1be3ff0ac2464f0d514939887f34f9b4198b2")))
         (sha256
           (base32
-            "001dv3zxsvh5zgrwn5jmib82bns4phbbd5kcy5mvmk7nyayrmq9p"))))
+            "005qrg580328l4h67i0mm2r540dknmn0bnqyy2vdpk75qc2rirca"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/choppsv1/org-rfc-export")
@@ -94255,17 +94255,17 @@
 (define-public emacs-recomplete
   (package
     (name "emacs-recomplete")
-    (version "20211108.2240")
+    (version "20220206.1140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-recomplete.git")
                (commit
-                 "9d64b65855464bd92ccecf93c19db8b1fc12d7a3")))
+                 "2b38ca25e3392636fe936d3edad447970279a463")))
         (sha256
           (base32
-            "1fixdmrpa9jbjmpqf201420lpg6wcgngzddz7h5c4j68gw1a7jd0"))))
+            "0fqrhfk3jg4dyf4z8nx6sgpi9l5mxzld2w0icz81kr8vm9p92nmx"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-recomplete")
@@ -96782,17 +96782,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220205.1840")
+    (version "20220206.1412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "b14cde6f15fc52eb4b836dae76078d68f29bd0df")))
+                 "f7dfb61c9be0c4ee32be132b4fd9b1bd2f8e0bb1")))
         (sha256
           (base32
-            "1m1825f7pxkabsjbnjc1w77hjdavkgsk7w801m1v8gwl47x9awyk"))))
+            "0cbqdz23q9739lcyi14900p56ybcm785kcidasiqwnx82rh5hj66"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
@@ -102186,17 +102186,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220205.1145")
+    (version "20220206.815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "72acb51ad48ea56fb4fb270f93aebd73c96bb38f")))
+                 "f629aa45bbfbbde99390e7d4791f14b649d79f35")))
         (sha256
           (base32
-            "0wjzmarkzwnsv9cwx5g8hfk2hdwd4chl01c6x8x48507sjk210lv"))))
+            "070nbk9a68ww1mrb4xpda59s3wlcxvz0x2krc0f1g546vj3drakx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -106835,17 +106835,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220203.739")
+    (version "20220206.849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "bf765d11f067bf09359f8e81775f742a2677c100")))
+                 "13077c5e5eaa5621fbb68838ca3c15238faf73e0")))
         (sha256
           (base32
-            "1ka0gbyyg3xsff96n18yrgbikdwivr4qfwahc9gm7b5c9s9l4ns4"))))
+            "0z5h4g2c5ldfdsxzsiyj1dfwrk684vwhb7vx25mjvv01591mgq5c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
