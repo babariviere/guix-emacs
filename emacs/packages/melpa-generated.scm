@@ -27782,17 +27782,17 @@
 (define-public emacs-elsa
   (package
     (name "emacs-elsa")
-    (version "20211129.38")
+    (version "20220205.2040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-elsa/Elsa.git")
                (commit
-                 "5b8848fd7d87ee4927adda12a6cf5ed2a7e0c186")))
+                 "ea2d2afee38af1511728f61083b22a3e688c7570")))
         (sha256
           (base32
-            "08h86wpgr71xbxpqgbv2jikyzfh1fm33kfb6nxir001inzj0h7aq"))))
+            "0xp7dgn5llh58v9mkj9wd6wx81q26bgxxf8vdrllyz35rkwb1sq4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-trinary emacs-f emacs-dash))
@@ -28345,17 +28345,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220204.2243")
+    (version "20220205.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "53ff463a7907fc2eef33322f0178abb6ecf34a27")))
+                 "e8ef9424b3d8852935f7c547093bc2ebc23aeab5")))
         (sha256
           (base32
-            "04b3yrnk3y5ddvc7cr62y6csim93118raqywpqv1pziwdwhmzw2g"))))
+            "0k2mdjp473pzifk3p83xybqd05gyw1kak4bkapjziqk8061ab27f"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -71077,17 +71077,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220204.610")
+    (version "20220205.1636")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "91ef46502c277f325ddd757806667dfa741a64cc")))
+                 "8300b0a289fa105b4b85c0b90a4f5e1a1fe5daa4")))
         (sha256
           (base32
-            "023a21hvhbm4my07yr8xhx46r8x6zcc2kdfss9zlh3m0f0cbb55h"))))
+            "112b5dbp15yqng39g1d9iz19mqyqlhnrim6v63z1bl21bfcxydzg"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -96782,17 +96782,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220131.1307")
+    (version "20220205.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "5357a857432ccb432dbad711fc3d178883c45a56")))
+                 "b14cde6f15fc52eb4b836dae76078d68f29bd0df")))
         (sha256
           (base32
-            "1fr9szw5g8cb629c1fw4icr0b9kya99w7znmlk3kqfmldsxjnlix"))))
+            "1m1825f7pxkabsjbnjc1w77hjdavkgsk7w801m1v8gwl47x9awyk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
@@ -118359,17 +118359,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220204.1957")
+    (version "20220205.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "731fbebeecfebc745b3bff8adeb3d339f9d6b0fe")))
+                 "44b59d15e4ec491129104b6d1a1a0ed8bdff645f")))
         (sha256
           (base32
-            "0yds4wy97inpkfk5kqh72gdqvdgz1jynrninmhiassmvyj3w6kr5"))))
+            "1fgcdip4jn8j5668ws0pxma8hibsnsamk1gq0fb4mcb24mczxvc3"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
