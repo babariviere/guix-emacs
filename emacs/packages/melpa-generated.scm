@@ -8069,17 +8069,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220201.544")
+    (version "20220207.256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "ff0d1c3531352a6c54bb48ced797f41bda95939e")))
+                 "63831add85c28c7077b44a1682b9aa5dda580fea")))
         (sha256
           (base32
-            "06cprpbff06q98d06vljcrmvixvdnvjmwqgxvpz9yx7s14ml289l"))))
+            "12rbi85cjn20wdk5ainj64sh83kvb6h4n9vqk0401qznb5mbmhq5"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -69395,17 +69395,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220202.1100")
+    (version "20220207.439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "845c4693ade5aa24715d3c0e4da678ca3fa98b51")))
+                 "cca4dd751a26715b60237c4904031a25a7c89216")))
         (sha256
           (base32
-            "124afg43kxlizn69hfhd7w157i3c59ifap1ilfcpga3dgvhn3ws7"))))
+            "0jss9zjfdxysqliasqqhwk357b5kdxzgir7hfv81slrylfvnsh1q"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -102187,17 +102187,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220206.815")
+    (version "20220207.612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "f629aa45bbfbbde99390e7d4791f14b649d79f35")))
+                 "0aca66f10f625e7c1620e66e2f4da16ff1fad980")))
         (sha256
           (base32
-            "070nbk9a68ww1mrb4xpda59s3wlcxvz0x2krc0f1g546vj3drakx"))))
+            "1wnxri5sb7lhw9rlmm9yklbm81h2cmwp2aac98vvxsygzdi02k56"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -103099,17 +103099,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220204.53")
+    (version "20220207.54")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "38cfd66c3044f26cd1c7d6e599bc73f9b9fc0760")))
+                 "cc331a92f5e81613796110a529b3f9fb511dda87")))
         (sha256
           (base32
-            "1s5hi5kgq6m2ms9k2f0an3h0mf1lm9s5yriprkp7kmr4d4rk3c6s"))))
+            "1z4nyax8glnvax7fj05p2mgwy9g1gbs4n0lqghc4a6ih0cm314nk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -113496,17 +113496,17 @@
 (define-public emacs-vscode-dark-plus-theme
   (package
     (name "emacs-vscode-dark-plus-theme")
-    (version "20210925.1940")
+    (version "20220207.308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ianyepan/vscode-dark-plus-emacs-theme.git")
                (commit
-                 "b6ab14278cc0aaac13fb7cb3a12e73985a781cb7")))
+                 "1611c7c1716e3e0a39ffd7290c03fa3a14d5a862")))
         (sha256
           (base32
-            "1f24cd9isxhlr1rdbk3inhc2rx9n090wx35fs47nxicicz8hncas"))))
+            "1fdj6p9xxb5zyjk4z0fa97xxf8q5swvfdr3a2pdqixl6f6v3hn94"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ianpan870102/vscode-dark-plus-emacs-theme")
