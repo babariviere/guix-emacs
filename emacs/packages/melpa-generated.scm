@@ -5215,17 +5215,17 @@
 (define-public emacs-auto-sudoedit
   (package
     (name "emacs-auto-sudoedit")
-    (version "20210522.612")
+    (version "20220207.946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ncaq/auto-sudoedit.git")
                (commit
-                 "0dec9e632f1f3208f0da2f94b57efa1aae9ce2ab")))
+                 "b00316f378d1626faee9ed9cc5b0db39cdc72eab")))
         (sha256
           (base32
-            "1isk9106lpdh45l41n2v8q8m9vcfb4biy9dv87rkks58nysrxy3z"))))
+            "0mfisxxbjdslpzr28qlqz4rr05l7jda3f3f9qg9hqiv41jbi33d9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -23189,17 +23189,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220129.1017")
+    (version "20220207.911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "b1726bf6b3328763851dfa1d343e4b2f1ccad125")))
+                 "30d15b121f58a26f503e3bb63aa5d74445114493")))
         (sha256
           (base32
-            "1qalk74l8vkv69ph642m6m2rvqq5pfvx8jfr40kpf83lx5amrch2"))))
+            "0c5q4laawx6r99qabys40dwnqax5xiry9hi1d158bcl6kndyhz1n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -65784,17 +65784,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220206.1523")
+    (version "20220207.1335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "76aab7aa835429aeada897e85b955e85df2a68fe")))
+                 "450a2c1d9994adc760ac36f5a9cdeebafd1c630c")))
         (sha256
           (base32
-            "1bagddnm85yk5hbgqlsi1xwhjikg7rs0dflfjyamc7c2v6b1jq18"))))
+            "15falz9ff7z7x9b0021scfmsddjifpgjl7v0436mmlxibagw42sj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -66861,17 +66861,17 @@
 (define-public emacs-lyrics-fetcher
   (package
     (name "emacs-lyrics-fetcher")
-    (version "20220204.916")
+    (version "20220207.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/lyrics-fetcher.el.git")
                (commit
-                 "f6948259b388102208d8a29dabf383f10f801cab")))
+                 "06bd0293dfa759df48faefd73be60d43d1febd17")))
         (sha256
           (base32
-            "1p7dpnjspjcxs3wi7fmfnwxgl5ha3d420imhni4wlgdx2nyjqp8f"))))
+            "10lifif5nbbn172l6dyifm00q3ak91bp143ng3p2j5518vah2cb2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-emms emacs-f emacs-request))
@@ -69395,7 +69395,7 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220207.439")
+    (version "20220207.745")
     (source
       (origin
         (method git-fetch)
@@ -85188,17 +85188,17 @@
 (define-public emacs-parseclj
   (package
     (name "emacs-parseclj")
-    (version "20220206.1811")
+    (version "20220207.1351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/parseclj.git")
                (commit
-                 "1ce54fa2eb7a5d99d34c07d271e18eaabd0489da")))
+                 "90595049634549e6d8872f719b13e9555897d17b")))
         (sha256
           (base32
-            "0hv4v1y16ahsjmzn097ln217k9mpv4bpxgilyqidq604rfrlyja3"))))
+            "0ifc9gyp7hr97ssnsqxiwrzmldqysz874crlg6jm4iy5l9fyls22"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Clojure/EDN parser")
@@ -85209,17 +85209,17 @@
 (define-public emacs-parseedn
   (package
     (name "emacs-parseedn")
-    (version "20211013.452")
+    (version "20220207.1352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/parseedn.git")
                (commit
-                 "e5ba280d1fb7b408d54062d4eac545326e850172")))
+                 "ea7b5281ec80aca0bd1cc93a348aebb302497339")))
         (sha256
           (base32
-            "1xp2d42yvqkimb7a15bv89bj0124lljw9cb36g49m13d7ny4fafn"))))
+            "01j8nrkcm2s0ps277b5zb4pys29lk4cq49rlcqpj19gbfpkwcvdv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parseclj))
     (home-page "unspecified")
@@ -96783,17 +96783,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220206.1739")
+    (version "20220207.1504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "250abc8eb5ed7d38b84b1823a1d853f2189c9237")))
+                 "06d46dd08e5341750322a4a68cb7c886be4cd0e4")))
         (sha256
           (base32
-            "1y0g2r4fq5w5s23isrqyh32p3rqps7i1y2qy3sh8z88ciqg8lm4z"))))
+            "12qsfq9rssjlnbjkh8zl0rsnh7zsx1gz7fx86zkv22yc4ijwm02f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
@@ -110407,17 +110407,17 @@
 (define-public emacs-twitch-api
   (package
     (name "emacs-twitch-api")
-    (version "20220205.732")
+    (version "20220207.813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/benediktbroich/twitch-api.git")
                (commit
-                 "7298951b124dc772a7b0c3e97cc475d9255716ac")))
+                 "e48b0b350516e20eaf85514e8855c2fbfbf09c11")))
         (sha256
           (base32
-            "1ywib385lbgp7qcln3xl2kq2xy6yhmz24gcm5ffv49xsxi043a3w"))))
+            "1pfrqa7lc85b9ww54w15liwi0swj3h9vx41fcmv7w0b31fijmzjd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
