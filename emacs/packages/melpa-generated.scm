@@ -22828,14 +22828,14 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20211105.138")
+    (version "20220131.2100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "8d64cf4f84d7da5f839a8248fdddfb635a63f803")))
+                 "ff8a564622df8cf086e4ace9eb4251a74b20f77b")))
         (sha256
           (base32
             "1ivyvgh24nadhiv9ffqxckwln8vc9c2l0bvrvrd53yf0w8i345yz"))))
@@ -23760,17 +23760,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220206.1134")
+    (version "20220206.2103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/niklaseklund/dtache.git")
                (commit
-                 "948c110bbdd802a530f393580d74f3dc8bbdda1e")))
+                 "fb29761b4c33c8bc940e240a0728c15813bd05b3")))
         (sha256
           (base32
-            "1ii8zggw3db5nrkfnfhqsa7w7676bq3vl0z8larwhb34q6shi655"))))
+            "05ig54f33bdd8s5hg847s2b6shpmkjphmcndh60njc4hb81yxnnj"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -26764,7 +26764,7 @@
 (define-public emacs-elfeed
   (package
     (name "emacs-elfeed")
-    (version "20210606.1130")
+    (version "20210822.2129")
     (source
       (origin
         (method git-fetch)
@@ -26776,6 +26776,7 @@
           (base32
             "0v49l289wiral01pvgm30wyv79h5d3ly3i05dmcw1q93g4z4l56d"))))
     (build-system melpa-build-system)
+    (arguments '(#:files (:defaults "README.md")))
     (home-page "https://github.com/skeeto/elfeed")
     (synopsis "an Emacs Atom/RSS feed reader")
     (description
@@ -27782,17 +27783,17 @@
 (define-public emacs-elsa
   (package
     (name "emacs-elsa")
-    (version "20220206.1454")
+    (version "20220206.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-elsa/Elsa.git")
                (commit
-                 "4f797e3dabec1336c75dab0329673d22af6cd9cb")))
+                 "ce2fc8cdf67e74ee2df6f79fd6f7358e6e34a461")))
         (sha256
           (base32
-            "0ka5adwkqxn0d0p5mnwrllghjjslq6776a3p0rgm1kb8ik19r8km"))))
+            "16ifrf2ji6nzjyh0i9cinr3q0yj3ckkyq5p84asjnyxgpf53l0rf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-trinary emacs-f emacs-dash))
@@ -43326,17 +43327,17 @@
 (define-public emacs-git-link
   (package
     (name "emacs-git-link")
-    (version "20220129.2006")
+    (version "20220206.1802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sshaw/git-link.git")
                (commit
-                 "28e937fe4229e93ab3fe3dc31c22e390a42329ba")))
+                 "a715c116341162ff1a49fff684a45dec8ac0b0af")))
         (sha256
           (base32
-            "1qp5f483szngx67386ladd9nxyydx3k9a540y34sgrwbyssx4qc3"))))
+            "18y1c0nfvc6sr2f4kfddq78kbivlf38zn35pzdvnmfm9nc42dc6m"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/sshaw/git-link")
     (synopsis
@@ -46799,17 +46800,17 @@
 (define-public emacs-gsnip
   (package
     (name "emacs-gsnip")
-    (version "20200928.357")
+    (version "20220206.1526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaiwk/gsnip.git")
                (commit
-                 "c8bff61b10cd33de9d6f5fd84e4b27f48c772304")))
+                 "4d473b726b3f3b6bb7d1b5f66a9d368588ce0f86")))
         (sha256
           (base32
-            "0lw1psy1258vbvnl4j918hkzwqa65g94azbq84fvf2lgv4lbvgln"))))
+            "1slnvkpzhzffvnwyqr5bjgw84j0rapwr7mnaky9925l0rrv3fz6h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-aio emacs-log4e))
     (home-page
@@ -47940,20 +47941,20 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220205.1456")
+    (version "20220206.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "08c4ad8e80394c8bc2c0d50429bce765f03826db")))
+                 "a7b9e898296142465c0857b2d201d8d828ba7b05")))
         (sha256
           (base32
-            "0kfw83jz44b30v5rzvrx4ish62rkvacxd4s64xmf18h2342nrzi0"))))
+            "1nb98bdxlrh2rvi081fl3naiydcgb6p9ibzbxgcz74ajljwvdfml"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-async emacs-popup emacs-helm-core))
+      (list emacs-helm-core emacs-popup))
     (arguments
       '(#:files
         ("*.el"
@@ -47964,7 +47965,7 @@
            "helm-source.el"
            "helm-multi-match.el"
            "helm-core-pkg.el"))))
-    (home-page "https://github.com/emacs-helm/helm")
+    (home-page "https://emacs-helm.github.io/helm/")
     (synopsis
       "Helm is an Emacs incremental and narrowing framework")
     (description
@@ -48749,17 +48750,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220205.1456")
+    (version "20220206.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "08c4ad8e80394c8bc2c0d50429bce765f03826db")))
+                 "a7b9e898296142465c0857b2d201d8d828ba7b05")))
         (sha256
           (base32
-            "0kfw83jz44b30v5rzvrx4ish62rkvacxd4s64xmf18h2342nrzi0"))))
+            "1nb98bdxlrh2rvi081fl3naiydcgb6p9ibzbxgcz74ajljwvdfml"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -48769,7 +48770,7 @@
          "helm-lib.el"
          "helm-source.el"
          "helm-multi-match.el")))
-    (home-page "unspecified")
+    (home-page "https://emacs-helm.github.io/helm/")
     (synopsis "Development files for Helm")
     (description
       "Documentation at https://melpa.org/#/helm-core")
@@ -64234,17 +64235,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220204.952")
+    (version "20220206.1919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "8bf9e6d70347a99528bab56f90e0210f9a88dad8")))
+                 "e4e7477443c95dd5de62d0052e703166c42960a0")))
         (sha256
           (base32
-            "0f78dnz0qmmq2g4xsm3a9kqg4864lghv1nbz0hj2c8mz2c58laqs"))))
+            "1n4i021rs7ymzhzhz2cs44zqhhpchlyfkcks0502iz1c8ycq4qpp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
@@ -65739,17 +65740,17 @@
 (define-public emacs-look-mode
   (package
     (name "emacs-look-mode")
-    (version "20220206.207")
+    (version "20220206.223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petermao/look-mode.git")
                (commit
-                 "f1f4217b442fd52fb91cdbea34ff2c6af99ec8de")))
+                 "54088b0d23d2cafb0379fd95c89e2dc48a8f6423")))
         (sha256
           (base32
-            "145swf80935wq7pgz46f0g3ix4j0szi6r8cxwq5aw9fc8y1438n3"))))
+            "0d5xijpz1s0l39g55y3gkqyn406p7dsmkhdy06i3rcbpxaav1ciy"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -72258,17 +72259,17 @@
 (define-public emacs-mu4e-marker-icons
   (package
     (name "emacs-mu4e-marker-icons")
-    (version "20210124.514")
+    (version "20210119.514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/mu4e-marker-icons.git")
+               (url "https://github.com/emacsmirror/mu4e-marker-icons.git")
                (commit
-                 "e5c4f9b14eab69a0a28f108c6fee3390e19bd080")))
+                 "c8112f1c1bc006b73a423890d7483e9904b0fba6")))
         (sha256
           (base32
-            "1a3cinvi0j92j65qfgzmnx6z0xvq4l2jkvw9wydhm3bkmi3v6ni4"))))
+            "109cmhs2ka5z89miy4jmgm6qwg509cc5djacapq3gyz96wvxp9yb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -80965,17 +80966,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220131.654")
+    (version "20220206.2220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "eed1df90f571b19cae1581e7f5d938892b00c24d")))
+                 "0432b0048523f7487154ae4aa8c7166de3fd46f4")))
         (sha256
           (base32
-            "1pd887c4g9rykfz4sf7n6845b9md1sh64bychjbbwbj63375xvsm"))))
+            "18vgl4lmgpdbxy699pcw5rg1xja9r722mdfw174x091df20ix9da"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81519,17 +81520,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220111.826")
+    (version "20210125.1126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/org-tag-beautify.git")
+               (url "https://github.com/emacsmirror/org-tag-beautify.git")
                (commit
-                 "98f419d81fb71d39c097c1a58f14923e9c705ba0")))
+                 "c92cec0229b428440aea23917984be82b83c74e5")))
         (sha256
           (base32
-            "12ndvcw51lxwcpfsh6kvx1bgvkhkdyw9nrg461nifjfdlf968b0m"))))
+            "0kqvbn2vm1h2r4273g297y6gwp7hfmnw83gki18dr7ds83mfacl0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -85187,17 +85188,17 @@
 (define-public emacs-parseclj
   (package
     (name "emacs-parseclj")
-    (version "20211013.453")
+    (version "20220206.1811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/parseclj.git")
                (commit
-                 "a8c4cf30fb68b66ae51541462a8b21753229a6e5")))
+                 "1ce54fa2eb7a5d99d34c07d271e18eaabd0489da")))
         (sha256
           (base32
-            "0n0m3xc2dawgdhb68zznpsbzbbvf9fwgf9v8pzzwa2jncgi1yhh0"))))
+            "0hv4v1y16ahsjmzn097ln217k9mpv4bpxgilyqidq604rfrlyja3"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Clojure/EDN parser")
@@ -86272,17 +86273,17 @@
 (define-public emacs-persp-mode
   (package
     (name "emacs-persp-mode")
-    (version "20201128.2015")
+    (version "20220206.1742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Bad-ptr/persp-mode.el.git")
                (commit
-                 "298df111f081b5925f0aa0126a1b8d334117e0a2")))
+                 "7a594a3d8f1c4ba9234dcd831a589e87f3f4ae86")))
         (sha256
           (base32
-            "0r2j8zs6hwpfvwd6av35izlyd3kplnvc4c941vjjq7sm6j95q6k8"))))
+            "0ckcnqg2fn4m5zp06jlw5cj81clizrm8cxjiwz5rd4d9m9lwdrgd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Bad-ptr/persp-mode.el")
@@ -96782,17 +96783,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220206.1412")
+    (version "20220206.1739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "f7dfb61c9be0c4ee32be132b4fd9b1bd2f8e0bb1")))
+                 "250abc8eb5ed7d38b84b1823a1d853f2189c9237")))
         (sha256
           (base32
-            "0cbqdz23q9739lcyi14900p56ybcm785kcidasiqwnx82rh5hj66"))))
+            "1y0g2r4fq5w5s23isrqyh32p3rqps7i1y2qy3sh8z88ciqg8lm4z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
@@ -110401,6 +110402,30 @@
       "Twilight theme for GNU Emacs 24 (deftheme)")
     (description
       "Documentation at https://melpa.org/#/twilight-theme")
+    (license #f)))
+
+(define-public emacs-twitch-api
+  (package
+    (name "emacs-twitch-api")
+    (version "20220205.732")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/benediktbroich/twitch-api.git")
+               (commit
+                 "7298951b124dc772a7b0c3e97cc475d9255716ac")))
+        (sha256
+          (base32
+            "1ywib385lbgp7qcln3xl2kq2xy6yhmz24gcm5ffv49xsxi043a3w"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-dash))
+    (home-page
+      "https://github.com/BenediktBroich/twitch-api")
+    (synopsis
+      "An elisp interface for the Twitch.tv API")
+    (description
+      "Documentation at https://melpa.org/#/twitch-api")
     (license #f)))
 
 (define-public emacs-twittering-mode
