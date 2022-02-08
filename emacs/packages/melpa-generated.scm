@@ -12364,17 +12364,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220207.2352")
+    (version "20220208.758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "f17beb6a49f0ee2ad60593bfb1b360fce6738a6c")))
+                 "fa0d5f7448b55f6e6803d99a128a5a123fb4f822")))
         (sha256
           (base32
-            "0b3i0s9njsq1asz5i99cgwdp74v3zpf3n498rzfjf7k192c429ki"))))
+            "03imbd260zb2y07ml34kyp7c7nwv4fx5k3yrllqwd1khbixrnzcn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -19276,17 +19276,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220129.533")
+    (version "20220208.915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "d6e9f4df42815de467765e78b7c27125f35d30bb")))
+                 "7ae46300df5d22d3941ff9f10bc52d232985b628")))
         (sha256
           (base32
-            "02lhkk4z8va95fnv5x4sd3xdas28gf3ykbl7gry015sms9jxj7w3"))))
+            "1qv5vffbf0wjymdhabc3jl4h9ib9x38swabsjs23rm3a5jf9b091"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -31619,17 +31619,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220124.225")
+    (version "20220208.1212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "e69abfcb1cc0dd59dfe7c055b0779a6622f8282d")))
+                 "2e9ce571d23e4675e7e310d19944748641de847c")))
         (sha256
           (base32
-            "1gsrh5scp8yksilx14cn3h2hy68xh8jhmm15wwzwlg457kc3jcm4"))))
+            "1wnqww9as0ylfn9xfczm5rj6vfr17wjdj3dhbqkflcyhi8y7qp54"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -42044,17 +42044,17 @@
 (define-public emacs-geiser-gambit
   (package
     (name "emacs-geiser-gambit")
-    (version "20220207.2239")
+    (version "20220208.1356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/gambit.git")
                (commit
-                 "42249ec44d02ca3c45a6b76072f108ae32af2a8f")))
+                 "381d74ca5059b44fe3d8b5daf42214019c6d1a88")))
         (sha256
           (base32
-            "02bn2sy5xsw78jfk5qnbm2d854528zww0729njncyg9ig9yli5d8"))))
+            "1dcrhm1am2dam94a0m7pjkiygah1lw53y2hq0870x1ji4gzgnkl8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -56403,17 +56403,17 @@
 (define-public emacs-inf-clojure
   (package
     (name "emacs-inf-clojure")
-    (version "20211027.1611")
+    (version "20220208.1028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/inf-clojure.git")
                (commit
-                 "765653dc23dc2a2c1520a1e24332ab9d4b49dd47")))
+                 "e47684de78da1ee470d42ae2a411909b2cf61d50")))
         (sha256
           (base32
-            "1hbylg5nsix65a85bibwgzcyjkf19rjvdkg04p9hnvsgh59x2d5l"))))
+            "0ngkhp4i3qgl6lgld5qbnrk8grd8r18mabrsana8z2pmy58hxz73"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (home-page
@@ -65784,17 +65784,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220207.1335")
+    (version "20220208.1410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "450a2c1d9994adc760ac36f5a9cdeebafd1c630c")))
+                 "de9538b91fcbd4b392c231d14fa001405625a7c9")))
         (sha256
           (base32
-            "15falz9ff7z7x9b0021scfmsddjifpgjl7v0436mmlxibagw42sj"))))
+            "0kw1agxy4dpqjvf6svm80j6njw5qbsbkd9n0q9xgaski49bqj9g7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -71078,17 +71078,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220206.751")
+    (version "20220208.717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "6789e5790c8faec1cdac5036a5910d4644707eba")))
+                 "83359b716d7f49770460f111f396c9e42af07d9e")))
         (sha256
           (base32
-            "18jw3dyf1mpfkq8rnqlzwp805kqqf3my0av72kbzynw5biggaqzk"))))
+            "183z8pf4i6zhwznwjsv0c6vbqr6giswjvrj3y5xlr1arlddai9j9"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80812,17 +80812,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220208.117")
+    (version "20220208.1245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "639045788c35550df1eb8cacbf3cecffcce40f37")))
+                 "88129a7b31f3e06b129423dbae302f7ab23ce257")))
         (sha256
           (base32
-            "1zairvfaq5n9rb24sjwfxfygn9s8gixs1442kj4k9f2nyblkyhk2"))))
+            "1wh2zf2czbzabxix5z3vihg604gzkca38xpszprghp0qj31wyra0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -90271,17 +90271,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220203.1326")
+    (version "20220208.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "df3d73e1f0ff625a09196ff3ba6f4be82a53fb3b")))
+                 "474cd42df58e748eb83d312ccb7ea75b1b3dda13")))
         (sha256
           (base32
-            "1iy5i8mdvzgfirsv5k59v8i45fcm6cimlfl546hgzb9ygl6l15vr"))))
+            "044zv4n747mfq4jhfysndrspjbf8c7jrpfxp5bgdhya2mrlinzd9"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -96783,20 +96783,23 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220207.1532")
+    (version "20220208.1018")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "06d46dd08e5341750322a4a68cb7c886be4cd0e4")))
+                 "c8c1c16f303e10bada563f9505cfccd1f818423d")))
         (sha256
           (base32
-            "12qsfq9rssjlnbjkh8zl0rsnh7zsx1gz7fx86zkv22yc4ijwm02f"))))
+            "061gx6wijsbc5jmllcpkha4vh308jckbidh441pqghvi9j2n4l8b"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-dash emacs-f emacs-run-command))
+      (list emacs-dash
+            emacs-f
+            emacs-run-command
+            emacs-s))
     (home-page
       "https://github.com/semenInRussia/emacs-run-command-recipes")
     (synopsis
@@ -115592,7 +115595,7 @@
 (define-public emacs-wisp-mode
   (package
     (name "emacs-wisp-mode")
-    (version "20220204.436")
+    (version "20220208.636")
     (source
       (origin
         (method url-fetch)
@@ -115602,7 +115605,7 @@
                ".el"))
         (sha256
           (base32
-            "09hh419d04md20gq2zrj7cjx2pbsv5f9xlcshxzi0wbrxsr8hhid"))))
+            "18vcf6021v5h2dags0nm8mr5frxbsy7li53s2ghj225m4yx4j240"))))
     (build-system melpa-build-system)
     (home-page "http://www.draketo.de/english/wisp")
     (synopsis
