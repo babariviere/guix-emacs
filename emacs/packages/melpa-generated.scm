@@ -14503,17 +14503,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20220127.817")
+    (version "20220207.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "d80e0fef7e9abfd3dd4a912ec77e81db33f35727")))
+                 "dcdf9568b3ca6e63e8c3955748b2cec2748a417d")))
         (sha256
           (base32
-            "1xkifia79vli818k7kkp2if1msfdc1548cilaknnl4d3i0m11gbl"))))
+            "1j6v1jcnpj6qsckl9004h26dyifa5ngprv9lcxcq8xyipsn00law"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -16053,17 +16053,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220201.1112")
+    (version "20220207.2239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "1a6ed29e92f00266daff4ff5f62602f53ef7d158")))
+                 "2106eee75f84206715631da45eae08827da266f9")))
         (sha256
           (base32
-            "137s984r5nf9j5padha45n9jhyh82ik4yybcr9nljg86l065s3nz"))))
+            "174bclfhnp2zhd2ybji678hz6zx1a2vbggms9pchyd5s94fi2j45"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -20902,17 +20902,17 @@
 (define-public emacs-diminish-buffer
   (package
     (name "emacs-diminish-buffer")
-    (version "20210715.1026")
+    (version "20220207.1649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/diminish-buffer.git")
                (commit
-                 "5ea0f4da3b9ad863ce21503715fd62722e4cd6ec")))
+                 "4db1f5d7c9880833cfc499ebab0dc0b162b03029")))
         (sha256
           (base32
-            "139dwggd97mbq1p5g1dqxaml6j0wbk2w0gcgy4wv8fb4xppzklkb"))))
+            "07304g0hlqi9y139ngm625bp9arpkw85vb8s11gg2k3fk2d6r1kf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jcs-elpa/diminish-buffer")
@@ -26414,17 +26414,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20211219.1520")
+    (version "20220207.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "bcfbef5062b54451171db56159e22765a25ec22a")))
+                 "b60abf67dfa9d64cab8087df008003db64982ca9")))
         (sha256
           (base32
-            "119qm2g3zwgmlrh82ydi343phmwvic5flppzm3ya4k8nklr2dlgk"))))
+            "0gygg0c50cn3z06bikjgzkz62i5zk8nbfrl8a89amiqyff24rjnd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42044,17 +42044,17 @@
 (define-public emacs-geiser-gambit
   (package
     (name "emacs-geiser-gambit")
-    (version "20211204.1940")
+    (version "20220207.2239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/gambit.git")
                (commit
-                 "faff8bac11621228640a3107622fe23df4bb6e2c")))
+                 "42249ec44d02ca3c45a6b76072f108ae32af2a8f")))
         (sha256
           (base32
-            "1v736wh19yma3vjpgb2s1n77rrl5i3n8x451kq3cadsch0wid31d"))))
+            "02bn2sy5xsw78jfk5qnbm2d854528zww0729njncyg9ig9yli5d8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -96783,7 +96783,7 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220207.1504")
+    (version "20220207.1532")
     (source
       (origin
         (method git-fetch)
@@ -100293,17 +100293,17 @@
 (define-public emacs-simple-paren
   (package
     (name "emacs-simple-paren")
-    (version "20210806.1022")
+    (version "20220207.2007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andreas-roehler/simple-paren.git")
                (commit
-                 "7eec13672c2b6d0226d56de8b8b1e12a1f78aa57")))
+                 "a454901635dfe4142d8c4f0153e737ddc778d708")))
         (sha256
           (base32
-            "03mxy2f4i8pjmb1d9s6llaa4pmzrsigxaf1srfdwzc8ccaj1qi5n"))))
+            "0b0ix9h5in324bbyv9q9l9xrifpfhjs6zhr6r5cadd36iip40r6g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/andreas-roehler/simple-paren")
@@ -115893,17 +115893,17 @@
 (define-public emacs-wordel
   (package
     (name "emacs-wordel")
-    (version "20220124.251")
+    (version "20220207.2147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/wordel.git")
                (commit
-                 "12f9801d2ba6878e0c7e68841d83e23df7216145")))
+                 "9f38ff96ccf7176e8a199a57260d79f32ea37953")))
         (sha256
           (base32
-            "0478saf227gahc0biwckkmg80bdmf2bhh6r9wmb0w2vk38nhp81y"))))
+            "0772apdgj877mip8s5c56p99grf1k2jh7qaszqkjx969qk6648zq"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "words")))
     (home-page "https://github.com/progfolio/wordel")
