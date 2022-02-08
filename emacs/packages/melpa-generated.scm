@@ -12364,17 +12364,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220206.1011")
+    (version "20220207.2352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "d1b68c7807476de95a684fa52de294c96b3e8523")))
+                 "f17beb6a49f0ee2ad60593bfb1b360fce6738a6c")))
         (sha256
           (base32
-            "0rckg0pwq6dvh4zn62r599pc32p436ybiy1wmj14ink0ywk3bqay"))))
+            "0b3i0s9njsq1asz5i99cgwdp74v3zpf3n498rzfjf7k192c429ki"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -27783,17 +27783,17 @@
 (define-public emacs-elsa
   (package
     (name "emacs-elsa")
-    (version "20220206.2118")
+    (version "20220208.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-elsa/Elsa.git")
                (commit
-                 "ce2fc8cdf67e74ee2df6f79fd6f7358e6e34a461")))
+                 "82ffb6eecefde7e99383e4a657f17fe414287846")))
         (sha256
           (base32
-            "16ifrf2ji6nzjyh0i9cinr3q0yj3ckkyq5p84asjnyxgpf53l0rf"))))
+            "1aya2cavpvagkhhrxzvs3d4qgddfjxl097d571xp3gzi3cn7k35r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-trinary emacs-f emacs-dash))
@@ -28346,17 +28346,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220205.1643")
+    (version "20220208.136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "e8ef9424b3d8852935f7c547093bc2ebc23aeab5")))
+                 "2163e3f87460121e41cc1af953c30df02511b58d")))
         (sha256
           (base32
-            "0k2mdjp473pzifk3p83xybqd05gyw1kak4bkapjziqk8061ab27f"))))
+            "0nd80xdpf5wfgi877yv41lz2b70nyp8hhp8z1krja0hdkh6qwhpk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -34227,17 +34227,17 @@
 (define-public emacs-faff-theme
   (package
     (name "emacs-faff-theme")
-    (version "20211124.1842")
+    (version "20220208.49")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
                (commit
-                 "c090f3d3a8a2ddedeffc1f5b5147cb7633dae79e")))
+                 "e6dc6d4397d70318c8e5acdd86b9b31b25102182")))
         (sha256
           (base32
-            "1kiaqascf4lh1kpvp79yynjyncakq31xgx0h2bfinji8i7y32pg1"))))
+            "0iayhg58yxcxwjywfr024df03y1ifj2y9gshvnndrjjc4jkm6zn1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/WJCFerguson/emacs-faff-theme")
@@ -65078,17 +65078,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20220130.237")
+    (version "20220208.308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "f2b639bc6528ac87d17303bc555b7262f3610046")))
+                 "cc2adbd4455dcc70cc1366af5e0754a619e75242")))
         (sha256
           (base32
-            "130krb5vkdbh8cxp8l872lx72i096chf569cl4m0phj1d0cyakm6"))))
+            "14n8cf020hpz9hrhf7pxcxszvbkp19s5j5cz3a42n4jh7jpacdzp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -80812,17 +80812,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220202.1733")
+    (version "20220208.117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "9db9afb50407cdb1a8ec7c28bea69d0b6208fbdb")))
+                 "639045788c35550df1eb8cacbf3cecffcce40f37")))
         (sha256
           (base32
-            "1qs8c1sdz53pr2p53lqd1kx1747r4i2h9ynwi6dq6xab148zmdjg"))))
+            "1zairvfaq5n9rb24sjwfxfygn9s8gixs1442kj4k9f2nyblkyhk2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
