@@ -5215,17 +5215,17 @@
 (define-public emacs-auto-sudoedit
   (package
     (name "emacs-auto-sudoedit")
-    (version "20220207.946")
+    (version "20220209.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ncaq/auto-sudoedit.git")
                (commit
-                 "b00316f378d1626faee9ed9cc5b0db39cdc72eab")))
+                 "df455f9723fbaab8ab550c7e7df79dc6b2d159c6")))
         (sha256
           (base32
-            "0mfisxxbjdslpzr28qlqz4rr05l7jda3f3f9qg9hqiv41jbi33d9"))))
+            "14n77h7w69w0i845dbbq39nxnh1xw28kacp0cgf666r62vgdcvvj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -11849,17 +11849,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220204.1902")
+    (version "20220209.37")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "903dcd3d21be58ec2f7ac61432ff26f037373180")))
+                 "a447d8c7f80c3ba8c5f544e6e1181757c7c3d742")))
         (sha256
           (base32
-            "1danf825jj5ahsicwnb8szis0ixqysy0k4vflvhbjwhl9n38rwg6"))))
+            "10iyzdnhn29cpxjzc4d4zqajpj8d6zcsckz4vmj5imdqmf04hbjc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -19664,17 +19664,17 @@
 (define-public emacs-deadgrep
   (package
     (name "emacs-deadgrep")
-    (version "20211228.1756")
+    (version "20220209.719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/deadgrep.git")
                (commit
-                 "aebaf72e35546fd235b4861399791814e4e4c7d8")))
+                 "0a3ba239c458ffc4f63a180b43d0e70b81742a3e")))
         (sha256
           (base32
-            "1qd60winrrpxmrjsx77i24921p6dad9halz5l5s6biwa421zcgr3"))))
+            "0xavp98da1hr0jsq5dr2h4rfs5y1qgnv3b3pnpc08rfj1h4x211b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-spinner))
@@ -23028,17 +23028,17 @@
 (define-public emacs-doct
   (package
     (name "emacs-doct")
-    (version "20220121.2018")
+    (version "20220209.646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/doct.git")
                (commit
-                 "9ed9b8c7f7e2ea2d2fb739d65ae4626a1cf16b9f")))
+                 "ce21bce19b91e6f1dfc1f23983b4b8ce4464c8f5")))
         (sha256
           (base32
-            "11rzq8qbvivmi2sj5gw4g4n7qf8zjjypqz8xvn6s3w4ahz8n5nmd"))))
+            "0gdxg9r4nxp856vgp764cf3w81awbc6rczym27xlxzp1m7s6rfyy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/progfolio/doct")
     (synopsis
@@ -23511,17 +23511,17 @@
 (define-public emacs-dracula-theme
   (package
     (name "emacs-dracula-theme")
-    (version "20220118.748")
+    (version "20220209.724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dracula/emacs.git")
                (commit
-                 "a7a3becaf11488eee36d50c06a692f3fa4201297")))
+                 "2c9efdae8b7b9a8e57dfd3aa1c62426a262e9eba")))
         (sha256
           (base32
-            "0v3yan01yhqz6k34x580j7q8xirgbv86ghsc153k175jc7ig0hi0"))))
+            "1wblaspw1yb2xgymlajjqap5rkj6danrsh8hnkhpcd1x9q49llis"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dracula/emacs")
     (synopsis "Dracula Theme")
@@ -31619,17 +31619,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220208.1212")
+    (version "20220209.537")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "2e9ce571d23e4675e7e310d19944748641de847c")))
+                 "1959625fca6c8bedc5394e4e75ef0cae60487505")))
         (sha256
           (base32
-            "1wnqww9as0ylfn9xfczm5rj6vfr17wjdj3dhbqkflcyhi8y7qp54"))))
+            "0r9py6bhfkai0xkmb1anh0ws17sj66xdavzm5p2wfvsdabnyrj5p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -65805,17 +65805,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20220110.144")
+    (version "20220209.320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "e7a6bd15cebe94d7dfe2732187afb50bcd58088c")))
+                 "e3933cccbce289eef2591cd0bbd42de55a56cba7")))
         (sha256
           (base32
-            "0yz9xxah6jg1wrvk2g4slrl1vaxc99icfb62ic62gs54s1cz27qs"))))
+            "14wd16dkqcn8ip6ijhzchdm9i6i205lgin66g7amrqs26vx6wqw6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "loopy-dash.el"))))
