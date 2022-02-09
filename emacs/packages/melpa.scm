@@ -1,10 +1,11 @@
 (define-module (emacs packages melpa)
+  #:use-module (emacs build-system melpa)
   #:use-module ((emacs packages melpa-generated) #:prefix g/)
   #:use-module ((gnu packages emacs-xyz) #:prefix e/)
   #:use-module (gnu packages sqlite)
   #:use-module (guix packages)
   #:use-module (guix utils)
-  #:replace (emacs-emacsql-sqlite emacs-emacsql-sqlite3))
+  #:replace (emacs-emacsql-sqlite emacs-emacsql-sqlite3 emacs-vterm))
 
 (eval-when (eval load compile)
   (let ((i (module-public-interface (current-module))))
@@ -73,3 +74,43 @@
      (list g/emacs-ert-runner))
     (inputs
      (list sqlite))))
+
+(define-public emacs-vterm
+  (package
+   (inherit g/emacs-vterm)
+   (arguments
+    `(#:modules ((emacs build melpa-build-system)
+                 ((guix build cmake-build-system) #:prefix cmake:)
+                 (guix build emacs-utils)
+                 (guix build utils))
+      #:imported-modules (,@%melpa-build-system-modules
+                          (guix build cmake-build-system))
+      #:phases
+      (modify-phases %standard-phases
+                     (add-after 'unpack 'substitute-vterm-module-path
+                                (lambda* (#:key outputs #:allow-other-keys)
+                                  (chmod "vterm.el" #o644)
+                                  (emacs-substitute-sexps "vterm.el"
+                                                          ("(require 'vterm-module nil t)"
+                                                           `(module-load
+                                                             ,(string-append (assoc-ref outputs "out")
+                                                                             "/lib/vterm-module.so"))))))
+                     (add-after 'build 'configure
+                                ;; Run cmake.
+                                (lambda* (#:key outputs #:allow-other-keys)
+                                  ((assoc-ref cmake:%standard-phases 'configure)
+                                   #:outputs outputs
+                                   #:out-of-source? #f
+                                   #:configure-flags '("-DUSE_SYSTEM_LIBVTERM=ON"))))
+                     (add-after 'configure 'make
+                                ;; Run make.
+                                (lambda* (#:key (make-flags '()) outputs #:allow-other-keys)
+                                  ;; Compile the shared object file.
+                                  (apply invoke "make" "all" make-flags)
+                                  ;; Move the file into /lib.
+                                  (install-file
+                                   "vterm-module.so"
+                                   (string-append (assoc-ref outputs "out") "/lib")))))
+      #:tests? #f))
+   (native-inputs
+    (package-native-inputs e/emacs-vterm))))
