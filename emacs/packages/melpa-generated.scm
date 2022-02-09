@@ -21984,17 +21984,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220208.1556")
+    (version "20220209.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "76843b7af0c09126862602fa430ad7d6363e2647")))
+                 "361c9ac62c3a5605e948080d688fc933dca4055f")))
         (sha256
           (base32
-            "10cw0znyadj2031d14yqxr8xspvj2vrkj2zzg5afiiwvb2y35zza"))))
+            "1akzlv5336mgxczwwfxk6630an1hj3hbqcbarz4l52pv5sss8wgn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28036,17 +28036,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220130.457")
+    (version "20220209.1510")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "ace53396a66ed4b753f42c04a5a0db2bcd770423")))
+                 "634924587be831bcb3ca47e97c104216516f9ca9")))
         (sha256
           (base32
-            "0p55shxvqm1713af33mfglny7rpi31d42wvgwylcsfy4jvnsq8bb"))))
+            "0mmd5lr424mn76yrk61cjmzwi6q0ilji209jnc36lclrdyyx3r06"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -55974,17 +55974,17 @@
 (define-public emacs-immaterial-theme
   (package
     (name "emacs-immaterial-theme")
-    (version "20220208.1918")
+    (version "20220209.1252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petergardfjall/emacs-immaterial-theme.git")
                (commit
-                 "51f861cd6543b33d61c45f2d9c82d6d13e0f4a93")))
+                 "b1f493ecd13d49bf6c6e974bf22f490a7e61ff7a")))
         (sha256
           (base32
-            "1ccb34pphmq7ca0236q4hi6d0p69yaq41nzzi7npb116cc78dqm6"))))
+            "0qlmhv38kgmsgh3hbxc45a0w0fkbn8k3ln6pxqz6c46qvh5f171q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/petergardfjall/emacs-immaterial-theme")
@@ -64210,17 +64210,17 @@
 (define-public emacs-ligo-mode
   (package
     (name "emacs-ligo-mode")
-    (version "20211119.1813")
+    (version "20220209.755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ligolang/ligo.git")
                (commit
-                 "1611a8eefb87e2f0c29d590d66e0a05b866e7d59")))
+                 "c61f4efef26cab351260293cf255b5b2542a8d24")))
         (sha256
           (base32
-            "1z0qirrq50qrsaf2xrnrsx0mql0i6862k6gsl1483yfjs1l4jv78"))))
+            "19im07ydrc1fkfcspls6vhc8b8fm6y217wyrlpbbp80vpyvvyip7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("tools/emacs/ligo-mode.el")))
@@ -64652,17 +64652,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20220203.1437")
+    (version "20220209.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "80a4f6e9a7fb39e514a5ddfa919fa14f73716b71")))
+                 "df1b7e614fb0f73646755343e8892ddda310f427")))
         (sha256
           (base32
-            "0vkvsg0x24yabkhcal25xlz0r5zbvdhd4x0zni9w5wg3rcf2rvmj"))))
+            "02pmnn9cqslahnvllqzawp2j5icmb3wgkrk4qrfxjds68jg7pjj4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -71078,17 +71078,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220208.717")
+    (version "20220209.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "83359b716d7f49770460f111f396c9e42af07d9e")))
+                 "04ca70e4e76668ac4d77f0904d9815888e4884ad")))
         (sha256
           (base32
-            "183z8pf4i6zhwznwjsv0c6vbqr6giswjvrj3y5xlr1arlddai9j9"))))
+            "0mzwcgypb3nmnlykknsmbx4clc691yr0lff7sibxl96jsaq0nc2l"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
