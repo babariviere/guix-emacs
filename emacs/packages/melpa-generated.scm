@@ -2394,17 +2394,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220125.1547")
+    (version "20220209.2045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "1365b83824614656278b0b818fadf293e8ec0973")))
+                 "b9bd88abe56bcd2862f7931db4857279f4e8781a")))
         (sha256
           (base32
-            "0xx0ls0i6rhnacyscxzpnpdm9vy79lj634jvi9cp572y742l7cpx"))))
+            "10s7wnpyv496gdjl12vi0a1y6pck3gb9ay46wzl23qn3c9sys5c1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -4962,17 +4962,17 @@
 (define-public emacs-auto-dim-other-buffers
   (package
     (name "emacs-auto-dim-other-buffers")
-    (version "20211101.1155")
+    (version "20220209.2101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mina86/auto-dim-other-buffers.el.git")
                (commit
-                 "a1c67bf557277934f6dae9f2de6624d949ef2c8a")))
+                 "33b5f88b799a17947c266b04ad59462c5aeb4ed7")))
         (sha256
           (base32
-            "0z5afn48w3p3i98zn81422khbl0k460spgqj60b9s7sqccbssg57"))))
+            "17h9hh8n6ib1crap8jdgjhaszvlqb4gri1z821apyn66lqvix7x8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mina86/auto-dim-other-buffers.el")
@@ -9967,17 +9967,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220201.2018")
+    (version "20220209.1942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "dba8492f70a46fde51d6269ae971693fd1777575")))
+                 "1e58824f29f1cbd4b4dd938412d19d1faa5651c1")))
         (sha256
           (base32
-            "1jaygxplh2y8lqq7p0yynql5zrb6yf0vyrcbwi1dvllq0clncnwn"))))
+            "0nn686rdl1p3f1895kqlcw5g83lyaahivakkgxna4dx4yd7fiy44"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -21984,17 +21984,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220209.1137")
+    (version "20220209.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "361c9ac62c3a5605e948080d688fc933dca4055f")))
+                 "64aa48103099d9581dbf6fd2f10e02a78abd77df")))
         (sha256
           (base32
-            "1akzlv5336mgxczwwfxk6630an1hj3hbqcbarz4l52pv5sss8wgn"))))
+            "1ygps8vw4kdd46wbshs58j45fyxfln482g0w8sbh0i7vnf4bj2d1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -45751,17 +45751,17 @@
 (define-public emacs-gotest
   (package
     (name "emacs-gotest")
-    (version "20210221.1905")
+    (version "20220209.1739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nlamirault/gotest.el.git")
                (commit
-                 "9b1dc4eba1b22d751cb2f0a12e29912e010fac60")))
+                 "298335fab797d0465516ed396f6e2acbe8f2ed93")))
         (sha256
           (base32
-            "0693fcli1nv9mn60gh30xspwiwhab8vxf09i1s9yxs80ai712i12"))))
+            "12sn06c4gw5jddmdaw73djlraj01f57z9plnyf1gxss4gnch6kmd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-f emacs-go-mode))
@@ -47941,17 +47941,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220206.1752")
+    (version "20220209.1313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a7b9e898296142465c0857b2d201d8d828ba7b05")))
+                 "f26fdbc9fe943f389ad2c5e72744c237e3eb9452")))
         (sha256
           (base32
-            "1nb98bdxlrh2rvi081fl3naiydcgb6p9ibzbxgcz74ajljwvdfml"))))
+            "1ml1r2ry09py3q4bgmhi7k78gz0lbc19mb5wcl6yxf6q2gqp6p38"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -55974,7 +55974,7 @@
 (define-public emacs-immaterial-theme
   (package
     (name "emacs-immaterial-theme")
-    (version "20220209.1252")
+    (version "20220209.1432")
     (source
       (origin
         (method git-fetch)
@@ -65784,17 +65784,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220208.1410")
+    (version "20220209.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "de9538b91fcbd4b392c231d14fa001405625a7c9")))
+                 "e4b418309e543465efc09bd53d9b20a2207b4750")))
         (sha256
           (base32
-            "0kw1agxy4dpqjvf6svm80j6njw5qbsbkd9n0q9xgaski49bqj9g7"))))
+            "0nzla1fy6l3zcqz0i31mgjgjhw32m8w3768vnfn9dc7d88w6pbdl"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -67516,17 +67516,17 @@
 (define-public emacs-magit-patch-changelog
   (package
     (name "emacs-magit-patch-changelog")
-    (version "20210910.1333")
+    (version "20220209.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dickmao/magit-patch-changelog.git")
                (commit
-                 "875f8ace4c38d1f6f2126ab0f038687c42f1ab2b")))
+                 "e792755514cb5a98b94fcd1c5eacd487f7e04d7b")))
         (sha256
           (base32
-            "1mbh5qshaiv5x6rlklzx9l3icccb9kn3rvbdaq1xbqbgfdpfhfwd"))))
+            "1x6663ycyvxmacww7cdq82cxbjkpgjpwcvxgaqgh6pfc2wwqiwml"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -68470,17 +68470,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220118.1509")
+    (version "20220209.1436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "541bd7b48a4b7586f3c419f9ee1bb24810e1f56d")))
+                 "800be46cfb831333e7f35a2841b9e231fa012963")))
         (sha256
           (base32
-            "0m634gigg6ypns2j9ipf97jv659d6zdcdfff825kazb31hz9lms4"))))
+            "1v865w37phig76aq3mpw5qx0ma79hy8nhsjaz5jfcinfwr9x1ywh"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -71078,17 +71078,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220209.1323")
+    (version "20220209.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "04ca70e4e76668ac4d77f0904d9815888e4884ad")))
+                 "2a977be08b2f963c10f110329bfefba5e56ad0fc")))
         (sha256
           (base32
-            "0mzwcgypb3nmnlykknsmbx4clc691yr0lff7sibxl96jsaq0nc2l"))))
+            "142h7rml61zsnsngwhn9001nw39fax850f05ffnp0zj5n4jhk95x"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -90661,17 +90661,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20211217.1753")
+    (version "20220209.1726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "a61a1d8e5ffa610b794535995d58adf18e9ec47b")))
+                 "df19c7ba0eadf9f47e9dd757a7d0350fc967da99")))
         (sha256
           (base32
-            "1c6216yz2wb9c5yn5rq6jr9pwxb44vhvgnsi0wsh0rcccm24mdp8"))))
+            "0xh9x6b4fmbnvs8awdkg74msabchqf7lx9w3z14qwfzn4jjzqwlb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109637,17 +109637,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220129.1122")
+    (version "20220209.2117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "ca4b4dd373ed4ff879dcc07b18832f3e27559314")))
+                 "04cbbd93e63405278db470b1d0f7db3eae8725ed")))
         (sha256
           (base32
-            "18yaswgyaxji27b0shccdp99g4amay6x6vsl80dlzjf070y483ar"))))
+            "06354j1d5nmd7ry0p02y69ypw05i5g8vp3m24m7zyxl94hj3jxlz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -109779,17 +109779,17 @@
 (define-public emacs-treemacs-persp
   (package
     (name "emacs-treemacs-persp")
-    (version "20211229.1448")
+    (version "20220209.2117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d7896187d88a6d91dbedd43f435619eab607d5d3")))
+                 "04cbbd93e63405278db470b1d0f7db3eae8725ed")))
         (sha256
           (base32
-            "0l3as6kp3fv4b3ydzhcybqw1j6zrcdywsrjwk5a8r4w8mm664589"))))
+            "06354j1d5nmd7ry0p02y69ypw05i5g8vp3m24m7zyxl94hj3jxlz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-treemacs emacs-persp-mode emacs-dash))
@@ -109805,17 +109805,17 @@
 (define-public emacs-treemacs-perspective
   (package
     (name "emacs-treemacs-perspective")
-    (version "20211229.1448")
+    (version "20220209.2117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d7896187d88a6d91dbedd43f435619eab607d5d3")))
+                 "04cbbd93e63405278db470b1d0f7db3eae8725ed")))
         (sha256
           (base32
-            "0l3as6kp3fv4b3ydzhcybqw1j6zrcdywsrjwk5a8r4w8mm664589"))))
+            "06354j1d5nmd7ry0p02y69ypw05i5g8vp3m24m7zyxl94hj3jxlz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-treemacs
