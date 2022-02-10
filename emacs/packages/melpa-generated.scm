@@ -14503,17 +14503,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20220207.1957")
+    (version "20220210.305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "dcdf9568b3ca6e63e8c3955748b2cec2748a417d")))
+                 "74922fcd0c4bd1102d10bd40b63fc36756330969")))
         (sha256
           (base32
-            "1j6v1jcnpj6qsckl9004h26dyifa5ngprv9lcxcq8xyipsn00law"))))
+            "1v8maaxhpz4kbrjwi6753y48m7396g64b3wg7fwncmbdyzqbjrsw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -26364,17 +26364,17 @@
 (define-public emacs-elcord
   (package
     (name "emacs-elcord")
-    (version "20211218.1738")
+    (version "20220209.2301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Mstrodl/elcord.git")
                (commit
-                 "eb4ae2e7e03a5fc26b054ba2fa9a1d308e239c76")))
+                 "ed8de0e9d218723f45200542b21a68dc8440f278")))
         (sha256
           (base32
-            "0wznxssmh2f0jx4c8mci5idzsixpzcxyaa7yxi9ip5h4qig73sqm"))))
+            "0q1vr5ks04qjzml13wzmzkvm1za3faq9m2y5f3g0z254fh82cbbb"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "stdpipe.ps1")))
     (home-page "https://github.com/Mstrodl/elcord")
@@ -65740,17 +65740,17 @@
 (define-public emacs-look-mode
   (package
     (name "emacs-look-mode")
-    (version "20220206.223")
+    (version "20220210.601")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petermao/look-mode.git")
                (commit
-                 "54088b0d23d2cafb0379fd95c89e2dc48a8f6423")))
+                 "e0eb613974bea22a117b04341272f20092f8542e")))
         (sha256
           (base32
-            "0d5xijpz1s0l39g55y3gkqyn406p7dsmkhdy06i3rcbpxaav1ciy"))))
+            "1qiaxbmx542c3bjw5x2mbh3ay0x82fjhn17n9vdn54qmrl5dmyas"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -69850,17 +69850,17 @@
 (define-public emacs-metronome
   (package
     (name "emacs-metronome")
-    (version "20200502.1748")
+    (version "20220210.147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jagrg/metronome.git")
                (commit
-                 "18257ecdd7b3d816104e83a5f0f96e676cc9fbfc")))
+                 "1e1bd5234f3ecfb608041d423be7412c461ad3c2")))
         (sha256
           (base32
-            "14qzb1i9l149nw4zhx8jlrrz7nvflc974zr5lbv7vv2zky0pya6w"))))
+            "1igx3ajzgrrhc1bxzj24bf1r9ipm3pd4haq82wqdqskf60gidkac"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "sounds")))
     (home-page "https://gitlab.com/jagrg/metronome")
