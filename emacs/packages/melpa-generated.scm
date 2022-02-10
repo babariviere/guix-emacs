@@ -2394,17 +2394,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220209.2045")
+    (version "20220210.931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "b9bd88abe56bcd2862f7931db4857279f4e8781a")))
+                 "33c77aeb704834acc6e9c38f93f178a230cccf4a")))
         (sha256
           (base32
-            "10s7wnpyv496gdjl12vi0a1y6pck3gb9ay46wzl23qn3c9sys5c1"))))
+            "04fj750jhyicqywjwyq8qr8lrc98lmg6k7206alrzmiqqgq7llqw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -2624,20 +2624,19 @@
 (define-public emacs-amread-mode
   (package
     (name "emacs-amread-mode")
-    (version "20200623.1544")
+    (version "20220210.1354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/amread-mode.git")
+               (url "https://repo.or.cz/amread-mode.git")
                (commit
-                 "7b1ed6c8aea409e2dce4a3b59f304d716a8efab7")))
+                 "a3358645582148e81bff54e18877451b747173bb")))
         (sha256
           (base32
-            "12hcgkznf1l4db8y0q33v735b5iin8iycc5s0di46ichxcjr0b7x"))))
+            "0nl1w5ysq90bxl16jrdh87wyp6ffawbjc3c6zrbhsfmfd24jiq28"))))
     (build-system melpa-build-system)
-    (home-page
-      "https://github.com/stardiviner/amread-mode")
+    (home-page "https://repo.or.cz/amread-mode.git")
     (synopsis
       "A minor mode helper user speed-reading")
     (description
@@ -3802,21 +3801,20 @@
 (define-public emacs-arduino-mode
   (package
     (name "emacs-arduino-mode")
-    (version "20211112.1223")
+    (version "20220210.1355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/arduino-mode.git")
+               (url "https://repo.or.cz/arduino-mode.git")
                (commit
-                 "3bc47bd7f75a7ccae409236dab43208ce8d41d51")))
+                 "652c6a328fa8f2db06534d5f231c6b6933be3edc")))
         (sha256
           (base32
-            "1jsifn9gfpb2rwhz9fr6r4qsmyydfd6rmz87iy7884nrnxkmdsci"))))
+            "16izwrk1dfsa14kylfhsxdwkx76g0jdk0znl1z7cypxh5q9ijy1x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-spinner))
-    (home-page
-      "https://github.com/stardiviner/arduino-mode")
+    (home-page "https://repo.or.cz/arduino-mode.git")
     (synopsis "Major mode for editing Arduino code")
     (description
       "Documentation at https://melpa.org/#/arduino-mode")
@@ -11385,17 +11383,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220123.739")
+    (version "20220210.1248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "f0073b583bc79cb4dd716954e331cb6492e03259")))
+                 "a83173d0a9efc0d785a18a88f62f60a46c02c5f2")))
         (sha256
           (base32
-            "1zixr215syi9cfa5i5paxgw61rn28sx83n71m9ki0jn2b4zj48i1"))))
+            "1a3v5s9j7agxmj1xnk7l5h5rngmdc33p1h1hmfhjx010lv7kdl74"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -12364,17 +12362,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220208.758")
+    (version "20220210.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "fa0d5f7448b55f6e6803d99a128a5a123fb4f822")))
+                 "4db2483928b59785b94e0c00af3f1d5744150fe3")))
         (sha256
           (base32
-            "03imbd260zb2y07ml34kyp7c7nwv4fx5k3yrllqwd1khbixrnzcn"))))
+            "1klwappsydkaqk0dqkxc4fxxcfghqxlspsc8fmlyq3mdfpgsa23r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -14929,21 +14927,21 @@
 (define-public emacs-company-nginx
   (package
     (name "emacs-company-nginx")
-    (version "20201020.2038")
+    (version "20220210.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/company-nginx.git")
+               (url "https://repo.or.cz/company-nginx.git")
                (commit
-                 "82bdb730ad5971c594d9c99c069f3c7bb067897d")))
+                 "8a9f1a5653fe2d9a5042bfb9377d54f37fcc64c8")))
         (sha256
           (base32
-            "0qrlqir7fa2zf97yfsg8phj5dqgjz2rzn5zspfk9qlys3j8i483d"))))
+            "0ylblgf34zpmdmwmd1vp8z59p024f176a1m75kwj96in65y6b6b9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-company))
     (home-page
-      "https://github.com/stardiviner/company-nginx")
+      "https://repo.or.cz/company-nginx.git")
     (synopsis
       "company-mode keywords support for nginx-mode")
     (description
@@ -24966,20 +24964,20 @@
 (define-public emacs-edebug-inline-result
   (package
     (name "emacs-edebug-inline-result")
-    (version "20210213.25")
+    (version "20220210.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/edebug-inline-result.git")
+               (url "https://repo.or.cz/edebug-inline-result.git")
                (commit
-                 "86a9ed9e4f58c2e9870b8918dc898ccd78d2d3f8")))
+                 "9fb3c48434da24f800833a5ee3419452d5fb83cb")))
         (sha256
           (base32
-            "1zf09s03xkhpbhkj99ilzp679lhkyiaaa5kmyj4lb380di1nrw2w"))))
+            "09rqvs1vj6h8k93xi5h2r1vba2hj5dl7bk7x9ry6mcr3m0c2z6di"))))
     (build-system melpa-build-system)
     (home-page
-      "https://www.github.com/stardiviner/edebug-inline-result")
+      "https://repo.or.cz/edebug-inline-result.git")
     (synopsis "Show Edebug result inline")
     (description
       "Documentation at https://melpa.org/#/edebug-inline-result")
@@ -26506,22 +26504,22 @@
 (define-public emacs-eldoc-overlay
   (package
     (name "emacs-eldoc-overlay")
-    (version "20210630.1345")
+    (version "20220210.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/eldoc-overlay.git")
+               (url "https://repo.or.cz/eldoc-overlay.git")
                (commit
-                 "3edbfb23836bdef253f4a5fd125952e55877d2b2")))
+                 "b96f5864a47407ec608c807e0d890f62b891ee03")))
         (sha256
           (base32
-            "1r2fjdra4bav16c108jzzjd2qhng7493i7l7znbasialf40j3cbs"))))
+            "1rdpg18gffh7ss5di6f4l1wks904867r38w0ilpgb52p8j0pswa0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inline-docs emacs-quick-peek))
     (home-page
-      "https://github.com/stardiviner/eldoc-overlay")
+      "https://repo.or.cz/eldoc-overlay.git")
     (synopsis
       "Display eldoc with contextual documentation overlay.")
     (description
@@ -29239,17 +29237,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20220130.1922")
+    (version "20220210.1319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "c18a2fc8b4a83ceea6a1128d7a77107983301e56")))
+                 "beaf643468372cf24250b60449dfa788c8633cad")))
         (sha256
           (base32
-            "0ykjv4xaz95syiw3dbf91c2c8716psc53f2l36xzkaxzj8nsz3vw"))))
+            "0smz191pkqybcz33y5iyvk8xdliaskbz0l3w9c1i7m6yf52w3h69"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-closql))
     (arguments
@@ -40481,17 +40479,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220130.1941")
+    (version "20220210.1021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "43055ac34f9de045e7f878e4be7a7f04b172f498")))
+                 "36a9c0d10d15cf0756bbb849b4fb69900a71a4fa")))
         (sha256
           (base32
-            "1ds4ikqddnf4k25p6ng8g2vdxi2gl4qa6s0w0kxklgh3di8zmppn"))))
+            "0c0340h1xp2xnq958fzwmk7pbkahxbq17mj6l300ndd8kxs1rl0b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -45437,20 +45435,20 @@
 (define-public emacs-goldendict
   (package
     (name "emacs-goldendict")
-    (version "20201108.201")
+    (version "20220210.1401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/goldendict.el.git")
+               (url "https://repo.or.cz/goldendict.el.git")
                (commit
-                 "700f60be192f4d46787e7f009637c15567064f2a")))
+                 "f3fbe658a8d31dc1bd0ca69e4d2ebaab59e92791")))
         (sha256
           (base32
-            "0nn7ilprx465r5yx0q11vghq3cv0a269jzz3q1p1vwllwfj0f31x"))))
+            "0x38j3wpyaxggihkw3g1qcf0phfrcic555xyqy3vskhvvf5xgc5v"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/stardiviner/goldendict.el")
+      "https://repo.or.cz/goldendict.el.git")
     (synopsis
       "query word smartly with goldendict.el")
     (description
@@ -47941,17 +47939,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220209.1313")
+    (version "20220210.748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f26fdbc9fe943f389ad2c5e72744c237e3eb9452")))
+                 "45e2751cfb1a611d491b173bad85c02f7450126b")))
         (sha256
           (base32
-            "1ml1r2ry09py3q4bgmhi7k78gz0lbc19mb5wcl6yxf6q2gqp6p38"))))
+            "0m639j2s6gxyci2jb3y5y7s0k9xfm201jvmhmgyl8v6q4y73grcn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -56883,20 +56881,19 @@
 (define-public emacs-inline-docs
   (package
     (name "emacs-inline-docs")
-    (version "20170523.450")
+    (version "20220210.1402")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/inline-docs.el.git")
+               (url "https://repo.or.cz/inline-docs.git")
                (commit
-                 "b57f1681be6147f999cdc12abff414a0442e8897")))
+                 "cda596d9ff4c2aa5035692a97c430f6589eafbb1")))
         (sha256
           (base32
-            "0ji8qgscs4fxp2i29l3v8z9y6i2glga6bysbcsn855pqsn00xkcv"))))
+            "0kc73qv3986n7fv8qrxr81zyg5lk14266v4rpwrib4nv5qwhzjza"))))
     (build-system melpa-build-system)
-    (home-page
-      "https://github.com/stardiviner/inline-docs.el")
+    (home-page "https://repo.or.cz/inline-docs.git")
     (synopsis "Show inline contextual docs.")
     (description
       "Documentation at https://melpa.org/#/inline-docs")
@@ -61983,21 +61980,20 @@
 (define-public emacs-kiwix
   (package
     (name "emacs-kiwix")
-    (version "20220110.1542")
+    (version "20220210.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/kiwix.el.git")
+               (url "https://repo.or.cz/kiwix.el.git")
                (commit
-                 "1645c5b659a74c7fe3cae364b967edd45f64d61c")))
+                 "d21cbe30d697fa6720d016c52a807c8502719d4d")))
         (sha256
           (base32
-            "1x57gkb7mh6q5xqqw9g9a9y2ink2sy7rz3ak94w4z0yidz7kmzb3"))))
+            "0yapgm2fp9igc39did3h1kf3m236683h08n6615kldq8wxd5w774"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
-    (home-page
-      "https://github.com/stardiviner/kiwix.el")
+    (home-page "https://repo.or.cz/kiwix.el.git")
     (synopsis
       "Searching offline Wikipedia through Kiwix.")
     (description
@@ -67916,27 +67912,25 @@
 (define-public emacs-major-mode-icons
   (package
     (name "emacs-major-mode-icons")
-    (version "20200127.512")
+    (version "20220210.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/major-mode-icons.git")
+               (url "https://repo.or.cz/major-mode-icons.git")
                (commit
-                 "b36eae2e976bad3c431b082c64b1a724a2ba1fe6")))
+                 "b0214e0af13cd3691c4d28f03e3108bd98ec7a85")))
         (sha256
           (base32
-            "1jjmma9lx5g4qprmy71izgdp564lbdb0wsiysl1f6d8wipml78ys"))))
+            "04zhns2ziwkz67zlnh4qc7faqq751f9mc5b38zmkh6nidlhfhjj5"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-powerline
-            emacs-xpm
-            emacs-all-the-icons))
+      (list emacs-powerline emacs-all-the-icons))
     (arguments '(#:files (:defaults "icons")))
     (home-page
-      "http://github.com/stardiviner/major-mode-icons")
+      "https://repo.or.cz/major-mode-icons.git")
     (synopsis
-      "Display icon for major-mode on mode-line")
+      "display icon for major-mode on mode-line.")
     (description
       "Documentation at https://melpa.org/#/major-mode-icons")
     (license #f)))
@@ -69395,17 +69389,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220207.745")
+    (version "20220210.1521")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "cca4dd751a26715b60237c4904031a25a7c89216")))
+                 "1729d897ee6e6bb12b599663e65ed3550589060b")))
         (sha256
           (base32
-            "0jss9zjfdxysqliasqqhwk357b5kdxzgir7hfv81slrylfvnsh1q"))))
+            "0ag15l88i5k963fs105l6hymc7am1b8ciy3z4wbi14xfx4cf0x12"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -71078,17 +71072,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220209.1903")
+    (version "20220210.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "2a977be08b2f963c10f110329bfefba5e56ad0fc")))
+                 "993fd2ebd994c1e2caabb7faff6bab4b813c506b")))
         (sha256
           (base32
-            "142h7rml61zsnsngwhn9001nw39fax850f05ffnp0zj5n4jhk95x"))))
+            "1fy2m4b89iz179mil4bc2j9jsy65z6yc7y9ywyah0m2dd1ksnn6m"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -72259,21 +72253,21 @@
 (define-public emacs-mu4e-marker-icons
   (package
     (name "emacs-mu4e-marker-icons")
-    (version "20210119.514")
+    (version "20220210.1405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/emacsmirror/mu4e-marker-icons.git")
+               (url "https://repo.or.cz/mu4e-marker-icons.git")
                (commit
-                 "c8112f1c1bc006b73a423890d7483e9904b0fba6")))
+                 "35ca0c9bd0d1512eed943f704ffc73ed97cca454")))
         (sha256
           (base32
-            "109cmhs2ka5z89miy4jmgm6qwg509cc5djacapq3gyz96wvxp9yb"))))
+            "1x7vkc7bagnk8xan0ylckj8wfxpqk2r4ij64vy9p0z0rgyrvj56v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
-      "https://github.com/stardiviner/mu4e-marker-icons")
+      "https://repo.or.cz/mu4e-marker-icons.git")
     (synopsis "Display icons for mu4e markers")
     (description
       "Documentation at https://melpa.org/#/mu4e-marker-icons")
@@ -74509,17 +74503,17 @@
 (define-public emacs-nndiscourse
   (package
     (name "emacs-nndiscourse")
-    (version "20210926.1845")
+    (version "20220210.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dickmao/nndiscourse.git")
                (commit
-                 "168b5ff1d8d8c39ac2db31e56fbab0927d557d7f")))
+                 "1b7d7bfc99b104b7c4948af9f3394b416105e9d9")))
         (sha256
           (base32
-            "1vka4i3hsgvwiwqh06xsdrlf50q7mjzyvc4gdk28705gaxnzqmiy"))))
+            "0c38j3drf89f98b6h3xcky6alggszrr86325g72mlbkknszkhh95"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -76584,21 +76578,21 @@
 (define-public emacs-ob-php
   (package
     (name "emacs-ob-php")
-    (version "20211229.744")
+    (version "20220210.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/ob-php.git")
+               (url "https://repo.or.cz/ob-php.git")
                (commit
-                 "cff022a2aaaf1785e1937e232c31670d748b8c6e")))
+                 "e9d46541ca1b522ddf423dd8ec5b5d2f00b0b5ed")))
         (sha256
           (base32
-            "1g53j5wy7m3mkfbyk5m5rz49sacmx64j1xl5535fdc06cl2kcxjm"))))
+            "1828h5cvl1cdinx45dn3xfqw49p1ivm633h6kb73mpi1mkh0ywn8"))))
     (build-system melpa-build-system)
-    (home-page
-      "https://github.com/stardiviner/ob-php")
-    (synopsis "Execute PHP within org-mode blocks.")
+    (home-page "https://repo.or.cz/ob-php.git")
+    (synopsis
+      "Execute PHP within org-mode source blocks.")
     (description
       "Documentation at https://melpa.org/#/ob-php")
     (license #f)))
@@ -76628,20 +76622,19 @@
 (define-public emacs-ob-redis
   (package
     (name "emacs-ob-redis")
-    (version "20210527.1336")
+    (version "20220210.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/ob-redis.git")
+               (url "https://repo.or.cz/ob-redis.git")
                (commit
-                 "ad31bf482a081b9c595a02ee6053c1426e3d8faf")))
+                 "937099d74f2e8cb68e4166c141ff742a278c4dec")))
         (sha256
           (base32
-            "1w8wbiwzi8b3gm376yyynvc833skkvgylmrn803pnqsa1ij77jni"))))
+            "0r5ciwdxnsw5hilx6s65mg649zzrysydfd28c1llhjwhjqcdhxrg"))))
     (build-system melpa-build-system)
-    (home-page
-      "https://github.com/stardiviner/ob-redis")
+    (home-page "https://repo.or.cz/ob-redis.git")
     (synopsis
       "Execute Redis queries within org-mode blocks.")
     (description
@@ -76745,20 +76738,20 @@
 (define-public emacs-ob-smiles
   (package
     (name "emacs-ob-smiles")
-    (version "20210527.1401")
+    (version "20220210.1412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/ob-smiles.git")
+               (url "https://repo.or.cz/ob-smiles.git")
                (commit
-                 "9f1fed213eb194924ab7d12b9d6e1074578a791c")))
+                 "5a5462d25b24ef30960740202c3952c55278fb1d")))
         (sha256
           (base32
-            "1x0rq9l9j3khp47q2j9bnyhhj2xrs4zggw9p8rmmai165drh1i9r"))))
+            "07qcydf2w5xspl6v9qhzyi8yvn8qagf926ybm38qjxxdfza0vjk9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-smiles-mode))
-    (home-page "unspecified")
+    (home-page "https://repo.or.cz/ob-smiles.git")
     (synopsis "Org-mode Babel support for SMILES.")
     (description
       "Documentation at https://melpa.org/#/ob-smiles")
@@ -76790,20 +76783,20 @@
 (define-public emacs-ob-spice
   (package
     (name "emacs-ob-spice")
-    (version "20210527.1355")
+    (version "20220210.1415")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/ob-spice.git")
+               (url "https://repo.or.cz/ob-spice.git")
                (commit
-                 "3c77144ecb059411441730bb47f6d5892b62d13d")))
+                 "6dc2c6b9391ea8dd8123224f6c282b673b89dc94")))
         (sha256
           (base32
-            "00cnym62hp0masikr3ndk2a0mpafjw0cjx0xavcq486w2xi7r8rm"))))
+            "15lnmqzpgaz8n6zh0x9dm6hynl7rf1pcyf5m3fk7bbinqbxclljn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-spice-mode))
-    (home-page "https://tiagoweber.github.io")
+    (home-page "https://repo.or.cz/ob-spice.git")
     (synopsis
       "org-babel functions for spice evaluation")
     (description
@@ -79689,20 +79682,19 @@
 (define-public emacs-org-kindle
   (package
     (name "emacs-org-kindle")
-    (version "20210930.1008")
+    (version "20220210.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/org-kindle.git")
+               (url "https://repo.or.cz/org-kindle.git")
                (commit
-                 "fdba34a47b670226f46ad7b3a4db4edc7f7907e7")))
+                 "fadcfd62e254d0c45e87d63128a82a08ae21869a")))
         (sha256
           (base32
-            "17klypc5fk6v9ccnyixak9ixyvsfzv3ivm7j8aiv9dk3acjf4yrd"))))
+            "0f61xy0hv3pjbhx9wmhpbi43nis90rsx1ljw9kirp99h64gg0jgd"))))
     (build-system melpa-build-system)
-    (home-page
-      "https://github.com/stardiviner/org-kindle")
+    (home-page "https://repo.or.cz/org-kindle.git")
     (synopsis "Send org link file to ebook reader.")
     (description
       "Documentation at https://melpa.org/#/org-kindle")
@@ -79736,21 +79728,21 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20211229.241")
+    (version "20220210.1409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/org-link-beautify.git")
+               (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "c755af07a9ca0c75e99ba06412d29829a7dfccc6")))
+                 "e8be9d886b5a9467244ed906ebb48089d9406aa2")))
         (sha256
           (base32
-            "1m0l864rw27myrdyby3706f8ir4znibkjyprpi83i5b04hkbyfbx"))))
+            "0rivgwi1570ybzz136q02kijv6cjbqx8ncwm71kas0gvcp6i73py"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
-      "https://github.com/stardiviner/org-link-beautify")
+      "https://repo.or.cz/org-link-beautify.git")
     (synopsis "Beautify Org Links")
     (description
       "Documentation at https://melpa.org/#/org-link-beautify")
@@ -81520,22 +81512,22 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20210125.1126")
+    (version "20220210.1410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/emacsmirror/org-tag-beautify.git")
+               (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "c92cec0229b428440aea23917984be82b83c74e5")))
+                 "7677cc435521f27d2bd889c8353f29de24ea7b5b")))
         (sha256
           (base32
-            "0kqvbn2vm1h2r4273g297y6gwp7hfmnw83gki18dr7ds83mfacl0"))))
+            "01pcr8gviqyrk0xm4qd9bgnicid24hxbpb0q0nmpp78mnivd9wvz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
     (home-page
-      "https://github.com/stardiviner/org-tag-beautify")
+      "https://repo.or.cz/org-tag-beautify.git")
     (synopsis "Beautify Org Mode tags")
     (description
       "Documentation at https://melpa.org/#/org-tag-beautify")
@@ -84283,17 +84275,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220115.2346")
+    (version "20220210.1334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "415552b9548fb4fd929a62ec09563e94dfbec5c9")))
+                 "032e9bd086029b2fdff09c3c2e606e29682e1fb1")))
         (sha256
           (base32
-            "0y5b6y0a39x82qrg7bjk1gs5xn0qj68gywz2wkxkh5g4m90kylsg"))))
+            "0jjb1gl6qqkrvf4v03fp9sv69xc6qh3lc65blms46zkx64995c6r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -90837,20 +90829,19 @@
 (define-public emacs-proxy-mode
   (package
     (name "emacs-proxy-mode")
-    (version "20201214.727")
+    (version "20220210.1410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/proxy-mode.git")
+               (url "https://repo.or.cz/proxy-mode.git")
                (commit
-                 "dbf163413e9e404c652cc0ea7185c623016a38e1")))
+                 "620e48c6afaf760d0ee9f5bdf583fd91cd9d0ec6")))
         (sha256
           (base32
-            "1c5m0gb4qms28vahvi5kam1qf1hnpd9v1f6cwxiqdj8aka9ll8sd"))))
+            "0xlla1ymqgpb15bycxl4xijlgcwir01krcvsyhxl4anmrpj2c0hm"))))
     (build-system melpa-build-system)
-    (home-page
-      "https://github.com/stardiviner/proxy-mode")
+    (home-page "https://repo.or.cz/proxy-mode.git")
     (synopsis "A minor mode to toggle proxy.")
     (description
       "Documentation at https://melpa.org/#/proxy-mode")
@@ -92916,17 +92907,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220208.1949")
+    (version "20220210.1543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "d2838248611f01721feeab70cc06a9fc5a7d9bb9")))
+                 "e172ef5dbca77dee7b919e067ac661d0e6b0af8c")))
         (sha256
           (base32
-            "0ra3gj9n96ix1naamp46fdl41h3cv80jrihrmb2zd1d977c8jprg"))))
+            "0pia871gkd232nywpnsrmrib88768ilsshs7js1kiqpvcp1hgab0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -93102,22 +93093,22 @@
 (define-public emacs-rainbow-fart
   (package
     (name "emacs-rainbow-fart")
-    (version "20211114.905")
+    (version "20220210.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/emacs-rainbow-fart.git")
+               (url "https://repo.or.cz/emacs-rainbow-fart.git")
                (commit
-                 "aaaec8e20b3bde3a567baa501623c451f796a46a")))
+                 "4e5d3cca6cdc667e5da3300c04e1b3d1b00664a8")))
         (sha256
           (base32
-            "1mrq585wq4c23jv6fvphh03y4s8wjrh02dhd0l2369axl6bdslz7"))))
+            "06874ymiqpmx2isys0bf1fxw83xfzx64sxjq01xjzb3zv5ydy13w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files (:defaults "voices")))
     (home-page
-      "https://github.com/stardiviner/emacs-rainbow-fart")
+      "https://repo.or.cz/emacs-rainbow-fart.git")
     (synopsis
       "Checks the keywords of code to play suitable sounds")
     (description
@@ -98130,22 +98121,21 @@
 (define-public emacs-sdcv
   (package
     (name "emacs-sdcv")
-    (version "20190610.732")
+    (version "20220210.1412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/sdcv.el.git")
+               (url "https://repo.or.cz/sdcv.el.git")
                (commit
-                 "943ae3e90cc9a0a88a37cc710acd7424fd4defc4")))
+                 "98e239c7380c63282845d5bc55ea6d605f5a33b8")))
         (sha256
           (base32
-            "0i1ylvw7p46pkf3yyyzcdmdhsspzymnnnvx8s0i7vynngr5x0vzh"))))
+            "17jxnc8z2a5rdfrjxw6gfkijp06jkjpsvj0pyxrhmg94gimfprxa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-popup emacs-showtip emacs-pos-tip))
-    (home-page
-      "http://www.emacswiki.org/emacs/download/sdcv.el")
+    (home-page "https://repo.or.cz/sdcv.el.git")
     (synopsis
       "Interface for sdcv (StartDict console version).")
     (description
@@ -100746,17 +100736,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220204.1357")
+    (version "20220210.1512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "2080537746ba808b9c1683a280e803e65f196a9c")))
+                 "3b9713f207a4f607427d08adf9d092d28dcd0074")))
         (sha256
           (base32
-            "0dvdai85bbkawbw8dnj6ly5i9k6lrch1rakikmrhqlh9x0fwvphr"))))
+            "151p7779x08ha4vjgzvylhr69yn3a7n0axv8ah0yim39a9qq3xmi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -101823,19 +101813,19 @@
 (define-public emacs-smiles-mode
   (package
     (name "emacs-smiles-mode")
-    (version "20160717.1120")
+    (version "20220210.1413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/smiles-mode.git")
+               (url "https://repo.or.cz/smiles-mode.git")
                (commit
-                 "fbb381758adcb000a0c304be1b797f985f00e2de")))
+                 "950a8b3224f8f069c82faeb0282d041f872d5550")))
         (sha256
           (base32
-            "07lzr1p58v95a4n6zad8y0dpj7chbxlcmb6s144pvcxx8kjwd4dr"))))
+            "1pvbxmxhkmzhimvvzw2gmwhzkssgg8hs765vl0ly9jcdgqc46lgq"))))
     (build-system melpa-build-system)
-    (home-page "unspecified")
+    (home-page "https://repo.or.cz/smiles-mode.git")
     (synopsis "Major mode for SMILES.")
     (description
       "Documentation at https://melpa.org/#/smiles-mode")
@@ -103334,19 +103324,19 @@
 (define-public emacs-spice-mode
   (package
     (name "emacs-spice-mode")
-    (version "20190608.1033")
+    (version "20220210.1414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/stardiviner/spice-mode.git")
+               (url "https://repo.or.cz/spice-mode.git")
                (commit
-                 "e5e0644f03f9696f56dd69e2b6979da7f30ed600")))
+                 "f55c2b6dd35caace0ec7250b5c7b5d119235a23d")))
         (sha256
           (base32
-            "01905cdplj9icbxzr7sqb62x5qchzgvs8qjf5s4qga4x3vjh1dc4"))))
+            "1jkqwclk65rcyv5qj2vq7qpiimlrqij7c7fbjvxv4pf4zd2wx0k8"))))
     (build-system melpa-build-system)
-    (home-page "http://spice-mode.4t.com/")
+    (home-page "https://repo.or.cz/spice-mode.git")
     (synopsis "Major mode for SPICE")
     (description
       "Documentation at https://melpa.org/#/spice-mode")
@@ -118387,17 +118377,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220205.2000")
+    (version "20220207.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "44b59d15e4ec491129104b6d1a1a0ed8bdff645f")))
+                 "5c8d9554f1dfbe864e7d2fb51730a70755496a03")))
         (sha256
           (base32
-            "1fgcdip4jn8j5668ws0pxma8hibsnsamk1gq0fb4mcb24mczxvc3"))))
+            "13ikhsqi79bq9w4md6jkjmcbbwzj294chhwql3wvpssg96102hcr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
