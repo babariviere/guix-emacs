@@ -6494,17 +6494,17 @@
 (define-public emacs-bbdb
   (package
     (name "emacs-bbdb")
-    (version "20210108.38")
+    (version "20220211.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.nongnu.org/git/bbdb.git")
                (commit
-                 "03c9ab00642fd54d7fb601f95a094b8b7f0eefb0")))
+                 "1172bd901e29f5c001d52ef521b2b3ae50f3110c")))
         (sha256
           (base32
-            "1nk4d3qb5ibdjp3jmlbf5751y8zd6gms9r19l3hk1ajkw94p43kn"))))
+            "1cs0wsa4dr01rhdfqf28psmmbf0vpiazxk755r6vclxzr69cf3z6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("lisp/*.el*" "doc/*.texi")))
@@ -8067,17 +8067,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220207.256")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "63831add85c28c7077b44a1682b9aa5dda580fea")))
+                 "57130f989f999254b083f2f1de70dbf7649acfd8")))
         (sha256
           (base32
-            "12rbi85cjn20wdk5ainj64sh83kvb6h4n9vqk0401qznb5mbmhq5"))))
+            "0y2k1gb2i6h3mp6kjjwl8flb8vf69hyc9333q87pdm7i289vm35n"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -16687,17 +16687,17 @@
 (define-public emacs-counsel-at-point
   (package
     (name "emacs-counsel-at-point")
-    (version "20220113.455")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-counsel-at-point.git")
                (commit
-                 "257f9457f60384eeaf29c1f458852b648eaf366c")))
+                 "28b26ecac676d6a3942f1b96d2916f4c23d9b3ab")))
         (sha256
           (base32
-            "0llghbv6zqy9nl3iivk6pd2mmxw3xhlz6dkgn9j9srrabddzkfxk"))))
+            "0dmr5aa74kziwmf8w1jr38lb23yir0mff2wjiidgpxm452pwwrqy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -19868,17 +19868,17 @@
 (define-public emacs-default-font-presets
   (package
     (name "emacs-default-font-presets")
-    (version "20220104.215")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-default-font-presets.git")
                (commit
-                 "6b6fe704ea233c65e50263dc0ff584409065e42f")))
+                 "94a1d168bab5fbec459adfddd588f722e015fc15")))
         (sha256
           (base32
-            "0ly7k6rkvhw1pwgmmn4cpgbizw2f2ry1swlaq0zf2k6ln7pyl96z"))))
+            "1x2p0b3ag3ld5z28c039s4qi9smwhv2ycbxpn60m7g3c9gr38v7y"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-default-font-presets")
@@ -20534,17 +20534,17 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20220130.2254")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-diff-ansi.git")
                (commit
-                 "f2207a67e3cc79433b43deeb463d0768357c350f")))
+                 "6ced92510df2c121e577189fa838dbf84303a0a9")))
         (sha256
           (base32
-            "1avfss2syaqsrdb4nlgsd49xyiy6bjqsf17r2is5il8g4yj1jabs"))))
+            "0mdyb2mlckcwphm6yaapdw6m2w2br0yfsvi6maw422mnm6nvjlwh"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-diff-ansi")
@@ -20557,17 +20557,17 @@
 (define-public emacs-diff-at-point
   (package
     (name "emacs-diff-at-point")
-    (version "20210921.603")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-diff-at-point.git")
                (commit
-                 "63951d8236163d86d5261b35d6c9a3f3f280e876")))
+                 "819da8d75762e1fb1a975d78c2b4666506048485")))
         (sha256
           (base32
-            "1l1smrb2xmnz4cyimyvhq9hl406w364gkvqsk32b1q4jcvqhmdz4"))))
+            "1l3q7ks4ylr85ywyrg49hk0wvzlj97rznwmqsf74awgfcl1cy7nk"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-diff-at-point")
@@ -22754,17 +22754,17 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20220104.216")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-doc-show-inline.git")
                (commit
-                 "6bfea44e0b54c80255d34d15130940a09814e2a3")))
+                 "5705f8d6f5583d50fc0497a88f06fb7c84a9ddb0")))
         (sha256
           (base32
-            "0rkshqiy9msnsif9fxi484by76fl8zjyzijgxphqlv2h2bb3pbgd"))))
+            "189bahsiyv7j0h1i1nfilr5rp2bihfgi19lipdxmixfmfv8fjy6j"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-doc-show-inline")
@@ -31735,17 +31735,17 @@
 (define-public emacs-evil-embrace
   (package
     (name "emacs-evil-embrace")
-    (version "20210418.2038")
+    (version "20220211.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cute-jumper/evil-embrace.el.git")
                (commit
-                 "464e8ec52ff78edf3c9060143fc375f6ce5f275f")))
+                 "7b5a539cfe7db238d860122c793a0cb2d329cc6e")))
         (sha256
           (base32
-            "1bga1idxj8mg5xpl7k4ymwaniyba2x13lf8yihyh713s5238fdmd"))))
+            "03b53626ywq9qdqzsb92321lc0fzjqb674kwkssjrxlz6hhn5hlq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embrace emacs-evil-surround))
@@ -33628,17 +33628,17 @@
 (define-public emacs-expenses
   (package
     (name "emacs-expenses")
-    (version "20220109.1306")
+    (version "20220211.617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/expenses.git")
                (commit
-                 "d8bbc3201a23f596418cbb0a316b446f0ab94585")))
+                 "1d9149a1ec18f392ee70b25bac41bbb6bfdbfbd6")))
         (sha256
           (base32
-            "1shwdlzaf84mlf9gdxly43xwy6s7w48mbh5hqy8jbndq552zkzgh"))))
+            "0aqmlp9jgf7bls0cvhkzw5kgfvkc3aswf50rbgsx0xg6p4mn9ava"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page
@@ -53378,17 +53378,17 @@
 (define-public emacs-hl-block-mode
   (package
     (name "emacs-hl-block-mode")
-    (version "20211029.602")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-hl-block-mode.git")
                (commit
-                 "0593a1a77db28503025d5c1850e6a99551c3bcbd")))
+                 "3dd29cfbf24fec16eaf3d47936338adb6b34f5c8")))
         (sha256
           (base32
-            "1rkxm6ak1zaqzp6q6mqpng0k4qjnsshkwydfxfm63xfsgr4vwhwv"))))
+            "0c0533id01lx0xf5dkkddd3gwb3k2jh55fa6z0d2xzrmc7p1971x"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-hl-block-mode")
@@ -53445,17 +53445,17 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20220131.358")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "8275de778fa273f63a6254a17f80c83c6780cac2")))
+                 "aaa9cd5085c13cbbfa41648ca4134a1699e64d5e")))
         (sha256
           (base32
-            "1i94x08fdkbcixfj5mq0mvdlnwgbc6a0gjdska58icksalc6814v"))))
+            "1pbhyskam5jklglrqmzqdfzs5vgh8qykp3ihr9q4rsmh2wypxy4g"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-hl-prog-extra")
@@ -55059,17 +55059,17 @@
 (define-public emacs-idle-highlight-mode
   (package
     (name "emacs-idle-highlight-mode")
-    (version "20220121.2251")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-idle-highlight-mode.git")
                (commit
-                 "5881f796ad167a5fd46e8e964733725aa825516f")))
+                 "0a24f8e402383b0da1f956d946781317fba14bbc")))
         (sha256
           (base32
-            "1a1pkq0q8g40s033ldlyvbn1s83lw9irc9hskv78pjgch1k3qz8y"))))
+            "11mbm87rx4i093csdqrgin550wgkps69ysgy2ig56m3l1hs5pp78"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-idle-highlight-mode")
@@ -56837,17 +56837,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20211130.214")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-inkpot-theme.git")
                (commit
-                 "9afc537af6e56dda5a3ef60792f15ed391ba3b8b")))
+                 "eb3f6deac945e536cdc8ddc09f6021fdbaa645eb")))
         (sha256
           (base32
-            "0mffhf0zzvlrc0kcvfj91p4q7wx9v4ih1v1spjad40h5790gn9an"))))
+            "1s0srxvcwv1myba22z0phkrs7da7cn22mgp6m6d01v5zgj03924m"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-inkpot-theme")
@@ -65736,17 +65736,17 @@
 (define-public emacs-look-mode
   (package
     (name "emacs-look-mode")
-    (version "20220210.601")
+    (version "20220211.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petermao/look-mode.git")
                (commit
-                 "e0eb613974bea22a117b04341272f20092f8542e")))
+                 "478e6a402cf16f76f2f812895a49454cf6897520")))
         (sha256
           (base32
-            "1qiaxbmx542c3bjw5x2mbh3ay0x82fjhn17n9vdn54qmrl5dmyas"))))
+            "07rdz77skyc1v9pgvkagnis6pxlaf7f2vkm756s9s6nirbajw8gh"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -67224,17 +67224,17 @@
 (define-public emacs-magit-commit-mark
   (package
     (name "emacs-magit-commit-mark")
-    (version "20220124.557")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-magit-commit-mark.git")
                (commit
-                 "d02a69c0c1b411157e8ba34d6e986767c5ea758c")))
+                 "4845e535a38da2dae1b2dd857cef9eb15abefb41")))
         (sha256
           (base32
-            "1adqc4c9xqydmmk1zh4ar590hznfq4ls8g9x5xc0id7mc0pc9rjs"))))
+            "0vnp1xn7s447waa1319bix8xnvwbbz0vshplzl37zdjyh1myf33k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -70934,17 +70934,17 @@
 (define-public emacs-mode-line-idle
   (package
     (name "emacs-mode-line-idle")
-    (version "20210215.2345")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-mode-line-idle.git")
                (commit
-                 "8454a5ef404c6f4fe954a10da6ce4fd4311decfa")))
+                 "ab45689351aa089c9fa82805b2cf34847d26b407")))
         (sha256
           (base32
-            "01aq4bgris8v7q0yfyz1928q4rh9mba3b799zw2df8slqiigbf8i"))))
+            "08flayni445wfzkmzzvppw6ak03c0asipxdl3b8rwmwjjxglx9pd"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-mode-line-idle")
@@ -82287,17 +82287,17 @@
 (define-public emacs-orgit
   (package
     (name "emacs-orgit")
-    (version "20220107.1206")
+    (version "20220211.25")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/orgit.git")
                (commit
-                 "66367d6bfc5e00726fb74f7cd20c32175ab8521b")))
+                 "42b7f682b3e4e487ff209a44221a729921241133")))
         (sha256
           (base32
-            "0lc2lk9c7b92c1cna2pyb88x9fa4bydcqkp4zcn0khpdv54fmszq"))))
+            "0vns8fbavfgyazlhbvwgc17w3v5iaf7ng92na2sl4lvc33rk941j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page "https://github.com/magit/orgit")
@@ -82310,17 +82310,17 @@
 (define-public emacs-orgit-forge
   (package
     (name "emacs-orgit-forge")
-    (version "20210615.1516")
+    (version "20220211.26")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/orgit-forge.git")
                (commit
-                 "365b75609a9454dccf5681eb6075ca53bd32af85")))
+                 "36e57a0359992e02312f453b8086512e77beb150")))
         (sha256
           (base32
-            "1y7rywlqhsvkism9dmzlb3sijd8isp6qqhgba79aqgk9wz593rkv"))))
+            "0mrq7mrgvj5r0bmxa4365xycfwp6m42mdqi5l5pljr5xz6k3rnc4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-forge emacs-magit emacs-orgit))
@@ -94248,17 +94248,17 @@
 (define-public emacs-recomplete
   (package
     (name "emacs-recomplete")
-    (version "20220206.1140")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-recomplete.git")
                (commit
-                 "2b38ca25e3392636fe936d3edad447970279a463")))
+                 "d0d380929460ff35534900e34ababad43d23c966")))
         (sha256
           (base32
-            "0fqrhfk3jg4dyf4z8nx6sgpi9l5mxzld2w0icz81kr8vm9p92nmx"))))
+            "178415wsvjvji4caz72mksrv4krr7aykh02cggnp41w66chm503y"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-recomplete")
@@ -95526,17 +95526,17 @@
 (define-public emacs-revert-buffer-all
   (package
     (name "emacs-revert-buffer-all")
-    (version "20211004.1321")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-revert-buffer-all.git")
                (commit
-                 "947f2471acaf1b9d5162f8a886aed6a211dd8fca")))
+                 "0343c04a4408ff6cb3c8a9dff7d1ffee8256aa70")))
         (sha256
           (base32
-            "19nmz7nw8v2i395wzyva96y5sm5z6h01jh1fl6n9dpavq12s934a"))))
+            "16ws4j2fpnv96338z7vcibhscjrjmym910hsxc137lqrkavqhm19"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-buffer-revert-all")
@@ -96803,17 +96803,17 @@
 (define-public emacs-run-stuff
   (package
     (name "emacs-run-stuff")
-    (version "20211007.304")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-run-stuff.git")
                (commit
-                 "db66c1ca0f6a090f8c9ae17f80f99c878047778e")))
+                 "3723346dc6d867bdc3fd86ca11c32efc43704d7c")))
         (sha256
           (base32
-            "1kfnk3pa3p50nfylhxhcngxa4n8ilqwna1k179w4abmnsm0r4xz8"))))
+            "0082mv45a8ybfrrvw8jnc52rk2zw80i52gid1387q2hxsdil0csm"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-run-stuff")
@@ -97966,17 +97966,17 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20211127.1220")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-scroll-on-drag.git")
                (commit
-                 "97741be699f08952c79a630869f5772918b378aa")))
+                 "d93b69eed6947cabdfde53dfbcf4bd919cb1f154")))
         (sha256
           (base32
-            "01y34ghp02znckafq51cvzahlbqbnpxdwpdrcgg1insq3qv658wb"))))
+            "0r1c3b7w1mh7hpi7pi1szdac297w1ig0i1a9c1r7qs41id2bvw51"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-scroll-on-drag")
@@ -97988,17 +97988,17 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20220126.2331")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-scroll-on-jump.git")
                (commit
-                 "1e9e09f0ccadf805e9bb4dbd1050944f82c5ed0f")))
+                 "99386fc01b3c7bc2e75458efca408a23220a5f87")))
         (sha256
           (base32
-            "0n472jp8j1al7c4cf1k8l5my1hzln68ix5gl8vz8kpaxhlh0s8p0"))))
+            "0b3d5bw635jjirkmym4w0y5x450zd88ic3k74jmmgf4fw0fl1q0z"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-scroll-on-jump")
@@ -100061,17 +100061,17 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20220104.217")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-sidecar-locals.git")
                (commit
-                 "c90ccd6a02538c7263f6499ca7bd4456ec06791e")))
+                 "b69943575bfa7f13ee99c8b8871d3216ad24c85f")))
         (sha256
           (base32
-            "02nnvf4c78grdzcd62611qvlq93vspd09ffk4jvc047l2jb8nw6l"))))
+            "0bfl4py2s3mxpzc60l9qmmdy079li0llzd6gsczwbmvfnrs1189q"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-sidecar-locals")
@@ -103070,17 +103070,17 @@
 (define-public emacs-spatial-navigate
   (package
     (name "emacs-spatial-navigate")
-    (version "20211007.307")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-spatial-navigate.git")
                (commit
-                 "03bc1255dfaa87fb6cb62a850877445bd7a14455")))
+                 "0365544483f957db79b8e617fb0bd8160134a655")))
         (sha256
           (base32
-            "0xyyc89205qc3i9q96jp1in3y3ravcfia9pc5s2smam01kqvipld"))))
+            "0c52dfy1jqmbkl8ml06xif166kxbyy9q8z33cpvkljh36ia23y1z"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-spatial-navigate")
@@ -103234,17 +103234,17 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220119.2344")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-spell-fu.git")
                (commit
-                 "50be652a6ec8590c3098f46094a92213623349c1")))
+                 "3a19836c693686d5f67573f75e158ec4a4a9497f")))
         (sha256
           (base32
-            "0n7qwnirvkh2aprb7l1wj9rywdsn33a7s32716m3afcvy7z9pyh4"))))
+            "069g3ax371ly04n788issia2vr9r1lhys5fyaa5x9ahwfffhf93n"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-spell-fu")
@@ -110952,17 +110952,17 @@
 (define-public emacs-undo-fu
   (package
     (name "emacs-undo-fu")
-    (version "20211030.612")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu.git")
                (commit
-                 "ab8bc10e424bccc847800c31ab41888db789d55d")))
+                 "e81c8da4416b15cac9d5ac7574e11471417a65ca")))
         (sha256
           (base32
-            "1vdaysc328gwqi57fp4cfbl96g76m8wc2qr53wgb3l89m9kx5sgg"))))
+            "1f25h3rx09ci56gkpypsscp8bkqmj7fr2yfniki0y92czix9x70s"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu")
@@ -110974,17 +110974,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220117.2256")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "edf050d6133478d04fc06cc65914517b18d6bcc6")))
+                 "d4f078abcbeea614ac2b32808c9cadf460a61e2e")))
         (sha256
           (base32
-            "1sbd5fmpc3kcw9w566aqx7css2bjbca503j9y8aj6h08hpais561"))))
+            "02b95pasbgr82g2ii225ixfd39w2y7jncxwmvm7ix2pw77g9mc7v"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
@@ -111902,17 +111902,17 @@
 (define-public emacs-utimeclock
   (package
     (name "emacs-utimeclock")
-    (version "20211008.454")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-utimeclock.git")
                (commit
-                 "e6e3dd50fb7e3b20e38db555950b2f417a12c993")))
+                 "0e36664ffe9f278bb008107d1b743edfcfba60f1")))
         (sha256
           (base32
-            "0iri2836zxadqdvivkmm0rz2ai4wxb1khnfxjmk8k8q274w1lslf"))))
+            "1ninhp8z9lr705k8a5pd8cvm3nwrml9wp2hvrv3lilmdr9879h0y"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-utimeclock")
@@ -116850,17 +116850,17 @@
 (define-public emacs-xref-rst
   (package
     (name "emacs-xref-rst")
-    (version "20211006.2319")
+    (version "20220211.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-xref-rst.git")
                (commit
-                 "4ca1c15e9fe98fadfb13098dd0ee104d5ca6abf2")))
+                 "f07722ac9c2952e86d9e84546c3c5eb1a768247e")))
         (sha256
           (base32
-            "0rawl98fsx1rrhq051d77wmz1xp82m9yr9rgb8k3p5g0yacyfkfv"))))
+            "1wq815c2bs1fqjkl7kjpzmhdlw95dsayvcgclnkk1bb70xgzsivg"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-xref-rst")
