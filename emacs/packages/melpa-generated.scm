@@ -19605,17 +19605,17 @@
 (define-public emacs-ddskk
   (package
     (name "emacs-ddskk")
-    (version "20210522.348")
+    (version "20220210.2155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skk-dev/ddskk.git")
                (commit
-                 "251df5b02c91311140d2375b019c1de836655fd0")))
+                 "eede626d70953715d2405b325dcb151b7cb597e7")))
         (sha256
           (base32
-            "1gk1sx6lhf8qxq5qfynn07yxn5qv34l42q2mqwpv5z4by6wf5p9a"))))
+            "1qpci82kdymvqzricp6cn8dh1kwlbbda8q6klwpmr63dgg6nydwh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ccc emacs-cdb))
     (arguments
@@ -23758,17 +23758,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220208.2044")
+    (version "20220209.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/niklaseklund/dtache.git")
                (commit
-                 "e91def3b2192b8a18f116466beb9405733db1487")))
+                 "9b39e9ebbfd19bae1b0b30e98b574f0e8a952bec")))
         (sha256
           (base32
-            "131qnqhmc3xdd7blj9f0pnz099v6znpi163930j7dcfp16kgcs6l"))))
+            "0jx228qzqmw3ncrjqdd6jhphl6j58iyg7knmk6favbsnr3nl2y54"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -45568,17 +45568,17 @@
 (define-public emacs-google-c-style
   (package
     (name "emacs-google-c-style")
-    (version "20180130.1736")
+    (version "20220210.1659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/google/styleguide.git")
                (commit
-                 "842b872ac4da18dda02b797976ea12fd7d84768f")))
+                 "af78b49ac4fef8083094d5105f72528ee7d09073")))
         (sha256
           (base32
-            "09bxbm59fbqjqcmsmnqg74yzzmi92h9b2z4r62x5hpz625045mhg"))))
+            "00vryh0h5sc72f49172nxnxwkphw811k58ivkmal97zd2v3m6w7g"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Google's C/C++ style for c-mode")
@@ -71072,21 +71072,22 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220210.1524")
+    (version "20220210.1741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "993fd2ebd994c1e2caabb7faff6bab4b813c506b")))
+                 "7c050e297f857f633fe9deee45fb342a1e50e46d")))
         (sha256
           (base32
-            "1fy2m4b89iz179mil4bc2j9jsy65z6yc7y9ywyah0m2dd1ksnn6m"))))
+            "149ygn58gczpkfa3hrb2ilcpd1h5zl4scyqhnwx2a5fzify46wqm"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
-    (synopsis "Highly accessible themes (WCAG AAA)")
+    (synopsis
+      "Highly accessible and customizable themes (WCAG AAA)")
     (description
       "Documentation at https://melpa.org/#/modus-themes")
     (license #f)))
@@ -74667,17 +74668,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20220129.1234")
+    (version "20220210.1734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "ba3facc3f6204ca82fa5b139dc01d8ce9e202443")))
+                 "f01872a2972450f8d12d84f58f3c5b812c716299")))
         (sha256
           (base32
-            "0w2r49c94xaag4nyfzz8ga05b15nc5zgm8y6sw63vaxbzg291nmz"))))
+            "0rf05lfmr77yq7xqz1nd4bji6d2cipb3hd5ap9lrk6jiv7f72dr2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacscollective/no-littering")
@@ -96958,17 +96959,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220204.1613")
+    (version "20220210.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "7261c78004317628d2fdaf425a4c1a1bdb687605")))
+                 "df166b97ab3920f2ffa8798089f5f0f369022a93")))
         (sha256
           (base32
-            "0fzkpli0l8ir4wa4hibkhgia2gxc5pb56zr7mpfyd736j3016acl"))))
+            "1754dbri0jiayfbjmhzmx6bw3nc2q37h9rz5sjc7v74ac5cqjcwb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -102180,17 +102181,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220207.612")
+    (version "20220210.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "0aca66f10f625e7c1620e66e2f4da16ff1fad980")))
+                 "5824a3c33ee51acc1d3cba36ef6892ebb3a8df1c")))
         (sha256
           (base32
-            "1wnxri5sb7lhw9rlmm9yklbm81h2cmwp2aac98vvxsygzdi02k56"))))
+            "0svjaid3x3l7c59g7ckpgsnmgh7j118rakmfs0qhjh5xla60bglm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -104371,17 +104372,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20210920.1345")
+    (version "20220210.1829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "caf1c099ee5da59c6686af99c36eb846ebb7a610")))
+                 "ce7c9805c9030fe28c4f29720bfe413ee4674c2d")))
         (sha256
           (base32
-            "112l5g5s71r8krbcx03xgm18v5lm3r4dz10a3qss27s2m6a1y8i5"))))
+            "0pspxxpydzb5yhw1lmw5y6lcgrxq9zdrp40ckgjwdq0x49j7166z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
