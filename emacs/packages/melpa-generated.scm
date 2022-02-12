@@ -8067,17 +8067,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220211.548")
+    (version "20220212.156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "57130f989f999254b083f2f1de70dbf7649acfd8")))
+                 "70ae40b4c4cdf44999ee4c738f5a4ae34a2d8421")))
         (sha256
           (base32
-            "0y2k1gb2i6h3mp6kjjwl8flb8vf69hyc9333q87pdm7i289vm35n"))))
+            "1hidzm6yv5fqx93shfxx70xsjbyzkia00ylxd06jniqpydl3fydh"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -11173,17 +11173,17 @@
 (define-public emacs-chezmoi
   (package
     (name "emacs-chezmoi")
-    (version "20220131.1935")
+    (version "20220212.7")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tuh8888/chezmoi.el.git")
                (commit
-                 "e2da725a513a6070e11b507f2725f500adacf420")))
+                 "87ca8c8948f971f30c1b2a0a2795132883d969fe")))
         (sha256
           (base32
-            "1siq2kcnr2pjs3mbjdqb1gwqkq9wgw5smamhhvpb6h4n8il7x1r6"))))
+            "1yhr09rqp28z3r5krw86ffiks5n7f1w6kf5nxzgk94f32g6blgk4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -60705,17 +60705,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20220105.1943")
+    (version "20220212.210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-jupyter.git")
                (commit
-                 "42a9765897ad36518b5371f558b36cdac3a0ec74")))
+                 "0a7055d7b12cf98723110415b08ee91869fa7d94")))
         (sha256
           (base32
-            "09nrw32bmkcafbr69csz94lykpmbib7f22xa4y165szrd3va8qk9"))))
+            "183313jlmfnbndczllkqm47y4495prw4ks2jav3pdwn5qqfmpznx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -65913,17 +65913,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220129.1427")
+    (version "20220212.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "5cef1b6a34327bf236c8b7b23c44bdd968b4585b")))
+                 "40aa90d8ad0ec6d5f9682e135eefb794b675dc9a")))
         (sha256
           (base32
-            "0kvjkpv0yvahmlkqyzl9ayl3mmmr4gcmi3p5pp8092ah0xgys86p"))))
+            "0dbbfsspwfx654y8gkn12whf5942lchcma8ki6jy06h7pbx4wgm8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -78107,17 +78107,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20220113.137")
+    (version "20220212.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "ce462a63e32dd32bceea041f656bb79da953d62f")))
+                 "7ddf5dfe9e982ee1510ceec36eeb4d8bb802ea73")))
         (sha256
           (base32
-            "1phqqhddsialm5ls0ab6jr4hwwj0isyks2l9pi1w1k9blkyqx994"))))
+            "0jl9zcpxlz89fzvagvwz73y2qxq0vbmzk7rmqcz37f8r75fz63aw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -98778,17 +98778,17 @@
 (define-public emacs-seriestracker
   (package
     (name "emacs-seriestracker")
-    (version "20210629.2303")
+    (version "20220212.304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/MaximeWack/seriestracker.git")
                (commit
-                 "a5ce1bfd06ed90bba9947a9045659d13f3362a96")))
+                 "4706db081bd214b272e0bcaabb66887e4b5b0968")))
         (sha256
           (base32
-            "0gjwp0h9ip58da1p8q9s9pjfh0g6pav4gam9s51xnx8mv0vbgb68"))))
+            "0ghnxli8xjlr5yb0c1jlax42dc4bjhz49x6mjm7m2jz94sa397ls"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-transient))
