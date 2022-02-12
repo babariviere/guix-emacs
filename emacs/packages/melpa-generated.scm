@@ -18883,17 +18883,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20211117.1555")
+    (version "20220212.1217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "76cad34de8984f57c2b1e374e9c985cc7ec8dad0")))
+                 "fc52714b1bd18bb20f9be3af87a8f1778c0c04a3")))
         (sha256
           (base32
-            "0q37nnxvb362pni0nralb6cpw7vvaj0kw63y8zpip8szwj9yqrki"))))
+            "1qp5c9syvpc6rkw8jcvjiybg7lla0y9lfgqk38d566zx1nqlszjl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -21982,17 +21982,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220211.826")
+    (version "20220212.1021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "e98a4788bc247ecaa0e43dc36bfe02c34b620536")))
+                 "17c434783ff8eb4e3546ec731284717391a1cad1")))
         (sha256
           (base32
-            "0n1iqydkxqpj61a62f5zkyn1n8jmb2x4pxdk0vwlwj7rcdqzn32f"))))
+            "0rca9228m3nrzvfbjbikq5k7ai1dqxr445k0r1cz2ldkc4cl04g5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -46614,17 +46614,17 @@
 (define-public emacs-groovy-mode
   (package
     (name "emacs-groovy-mode")
-    (version "20220108.555")
+    (version "20220212.646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes.git")
                (commit
-                 "02670e1401c070e6ae3f50a8d79b210ca4f3a0ee")))
+                 "bf732d367b16887f81d404481c11ed1a58671d4e")))
         (sha256
           (base32
-            "13xlpmp2d96a9hzcwmyl6r9acmqdnvxfa239h00xn8ak0xpr17c0"))))
+            "1w7ly961mqb1396653ali52h0311f0dz3pbmlaxml67dshidjjci"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("*groovy*.el")))
@@ -60756,17 +60756,17 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20210924.1138")
+    (version "20220212.814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "18604956b8f6ba58cba99470464c67f7b16ce329")))
+                 "f60f57ad3e8c97509af3ea925dbb3afa2a25f814")))
         (sha256
           (base32
-            "1d6y84gm5n9gkn7v9rhxhxsihabrdgx6mddam0pw75ka53q5s8wi"))))
+            "1gkfz54x80a5k1nw2dmcqs3m7cp1zsm7v7hmbz9xzrszfdiq5zil"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -68464,17 +68464,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220211.1518")
+    (version "20220212.728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "8c7b0c4ab4483a18c3dc0c44be71630362843fc7")))
+                 "521658eb32e456681592443e04ae507c3a59ed07")))
         (sha256
           (base32
-            "05ba1rmbpsvblkaz99c43bc9vl1jpgkmwn4xgh2c27a9cm6rxw6x"))))
+            "162xfchw2nxsx5a53kx15qlhr0vqqsn1vpqjnfp3ys7yngs3vvdm"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -71072,17 +71072,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220211.1914")
+    (version "20220212.1113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "cea0db51c52f6aefcb98bc3d71c2e63df7b2ddfc")))
+                 "22ebf56381c8e27a9dd0ac122921c4387652d3f1")))
         (sha256
           (base32
-            "0bizx20aysyj4wssnkwss7jxn28w7xxlwkn8hhkbk70hdvj9qcag"))))
+            "08nz1swjs3grk0d2yfbbrvkhcldamiml9szqa3k60sz3i4ss2ry7"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -84323,17 +84323,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20211122.1152")
+    (version "20220212.830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "b5f5554ec38ec2a4d5ef49a0ad9f57f6825d9af9")))
+                 "fc30a795000a1ae98bb3d09e5b2929bedfc402fe")))
         (sha256
           (base32
-            "1ic1a0j8gj930ssc623vi55jflyfw52gb9zkf3yg51w43cw4isfn"))))
+            "052m1p4k6dpwxkvm9jzz0n7y872w1qp39s2aah0ppa1kgknx16k2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
