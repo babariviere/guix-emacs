@@ -11173,17 +11173,17 @@
 (define-public emacs-chezmoi
   (package
     (name "emacs-chezmoi")
-    (version "20220212.7")
+    (version "20220213.545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tuh8888/chezmoi.el.git")
                (commit
-                 "87ca8c8948f971f30c1b2a0a2795132883d969fe")))
+                 "ce4f245314efe1cb05a174c2d3a1ecccae1b6fb4")))
         (sha256
           (base32
-            "1yhr09rqp28z3r5krw86ffiks5n7f1w6kf5nxzgk94f32g6blgk4"))))
+            "1f4jvg1rwjz6b1dvibnqnhnnnrhpspniahwg72ycf5rsz3i5mvc7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -29982,17 +29982,17 @@
 (define-public emacs-erlang
   (package
     (name "emacs-erlang")
-    (version "20220110.807")
+    (version "20220213.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erlang/otp.git")
                (commit
-                 "4a038ab2f1249f55af35587009afde786a97610b")))
+                 "2413ca0be7f2a076be9e152cbec7f8bf33ba7d9a")))
         (sha256
           (base32
-            "1zxnqbsd0qhwsciy3ps3cxqn8z1sln41x1ax3nln1cyp9gciyb9p"))))
+            "1xvp0byzgcwdvmqvk2m9kcdq5da1kckcixrq6f461cfihsgzxmd7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -41915,17 +41915,17 @@
 (define-public emacs-geeknote
   (package
     (name "emacs-geeknote")
-    (version "20160717.1249")
+    (version "20220213.612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/avendael/emacs-geeknote.git")
                (commit
-                 "8ed607c76864afcc9c338972ab093caf4501cbf8")))
+                 "ce2738aebeeda35f9d31027e9b7bad0813b975c3")))
         (sha256
           (base32
-            "1dadsyvkzf0rg6immjdjkb0k7iaqh3hm1w9qhap94j54j7v75w2q"))))
+            "18z0m2qlsr9bs1m5wp88p7snd25wxz8i829z8ybkny6ax1vfi0y1"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/avendael/emacs-geeknote")
@@ -47939,17 +47939,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220211.1707")
+    (version "20220212.1651")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f75e1d82bec733d077983e56c2bf412df9b4d402")))
+                 "262ba579a9d8fc256bbe1d7baf89ce6cd75f9716")))
         (sha256
           (base32
-            "1v3jcpw4iy07wc4jwhvzjs9kapcxf69br6a392xkxxl6nz0m80by"))))
+            "054s6nrzzcvjs9ghs8s6z91bqykl1ag1bp98x0j36vpwqismzvn4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -48748,17 +48748,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220211.2040")
+    (version "20220213.747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f75e1d82bec733d077983e56c2bf412df9b4d402")))
+                 "262ba579a9d8fc256bbe1d7baf89ce6cd75f9716")))
         (sha256
           (base32
-            "1v3jcpw4iy07wc4jwhvzjs9kapcxf69br6a392xkxxl6nz0m80by"))))
+            "054s6nrzzcvjs9ghs8s6z91bqykl1ag1bp98x0j36vpwqismzvn4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -65780,17 +65780,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220212.1751")
+    (version "20220213.355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "3d5eaec4c37410d5d1dd51a75b22cdd930ac1709")))
+                 "766dc1c79c0e1e40d1a6eb096f5e6c32e49e0dad")))
         (sha256
           (base32
-            "0xabzmpsii3k348gd3bwzn0y3vy2d6j9rc8nid8dw00l2nmbhnin"))))
+            "08f3rqrypjiw3sa0jsm6mpxzkvdni3qihsfhm3ki0z9ibgvr7xq7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -79416,17 +79416,17 @@
 (define-public emacs-org-gtd
   (package
     (name "emacs-org-gtd")
-    (version "20220112.437")
+    (version "20220213.41")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Trevoke/org-gtd.el.git")
                (commit
-                 "835b316c7273e234383d1876d43ebc90a45ace59")))
+                 "4e0fcf9a440e463d395f8f37efe8f1e691ed07dc")))
         (sha256
           (base32
-            "1wwx35smvnxdh3fq7077s98cmphfmwzcr1bcxawnnnh7dd9yxnrn"))))
+            "0672pcklp743k8fz39hwf1zxb7f1sywdjsm8d8ha8r6h2rjbyl6k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-edna
@@ -115886,17 +115886,17 @@
 (define-public emacs-wordel
   (package
     (name "emacs-wordel")
-    (version "20220207.2147")
+    (version "20220213.243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/wordel.git")
                (commit
-                 "9f38ff96ccf7176e8a199a57260d79f32ea37953")))
+                 "cb0321c79abbcf31a61d9be02690b434ece55d4d")))
         (sha256
           (base32
-            "0772apdgj877mip8s5c56p99grf1k2jh7qaszqkjx969qk6648zq"))))
+            "09wamwxplj02xi603jkp246n0qynjaj83gvg7d3jn5z0fhgr6blp"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "words")))
     (home-page "https://github.com/progfolio/wordel")
