@@ -7602,17 +7602,17 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20220122.2332")
+    (version "20220213.1310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "f5c0fc350db07ca89839c6bec7196945dba495eb")))
+                 "ed208798ecbc299003581229114d9404cd3f6c7a")))
         (sha256
           (base32
-            "0phmisdckdq706wjhici8pnvvslq77dvv8pph5yawy7lvh07va6k"))))
+            "19zas7vam5l742ihpvjf56z9fzj9w71f1j1w7lmgvgs1zl76ycjy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-a))
     (home-page
@@ -9965,17 +9965,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220209.1942")
+    (version "20220213.931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "1e58824f29f1cbd4b4dd938412d19d1faa5651c1")))
+                 "a20e8c3596c317619cdcecbf8fc66441e558d997")))
         (sha256
           (base32
-            "0nn686rdl1p3f1895kqlcw5g83lyaahivakkgxna4dx4yd7fiy44"))))
+            "0p9gqc05ay7pfa1j9bhh53nnd2khrgk3cw47njsk0gpvp3ivf0dc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11383,17 +11383,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220212.1935")
+    (version "20220213.1033")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "7f4e5e9c7c3ff2223a10a237e4130dc0f17db4c1")))
+                 "21c442069e16083153040837e671bc5e446f9643")))
         (sha256
           (base32
-            "1094ycqavkjbfzmwy6aigva4a3rlg9sahi081ag4zf25f4h4vczy"))))
+            "1pgq28ar0g8l00y5pbyd6xmq2fhi2z2q5adx1sfhs5plyx3zz2c5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11563,17 +11563,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220211.1414")
+    (version "20220213.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "f556d30f687cbf20703ccda6f510254bdfa0cb9e")))
+                 "83f18a9ad4b97614bf1ec9e65444ebc90dd8bddf")))
         (sha256
           (base32
-            "1xbqsd0wb4h0aygy1spxccipj4m8i4zcbkcq6yzj9d2z0xaccbkg"))))
+            "0c8fianv7vv8qj40fakriq37bs8klxlmn2kk8c81kqdqfjsb5dny"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -16854,17 +16854,17 @@
 (define-public emacs-counsel-etags
   (package
     (name "emacs-counsel-etags")
-    (version "20211210.1127")
+    (version "20220213.1104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/counsel-etags.git")
                (commit
-                 "bafd22a20c3328b0cf81aa9c35bfa37a095cf9c3")))
+                 "80b5816c1fab8c0621601f7fbe7ba65b2c67e9cd")))
         (sha256
           (base32
-            "1p651ykxbakzhwlrxcz4v62kj4f78l83f67qcghi58sq9cvwg1gi"))))
+            "10bprk9ixbsyfzrl7b23gc6wgwwyg4ksyw9w28071r2hpz2dssv7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -36098,17 +36098,17 @@
 (define-public emacs-flutter
   (package
     (name "emacs-flutter")
-    (version "20210914.17")
+    (version "20220213.1334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/flutter.el.git")
                (commit
-                 "81c524a43c46f4949ccde3b57e2a6ea359f712f4")))
+                 "8cc0507cc6619cb9ec236c4eca7417ac081f1468")))
         (sha256
           (base32
-            "16j455iymwcnqh6zwwlk47x9jsdim4va9k4il3qqj8bwgjv30xmb"))))
+            "074dkgpflc9pgpwfmha2cjfyyk6fac968nsw30mfi8ifb1gqvl28"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -36124,17 +36124,17 @@
 (define-public emacs-flutter-l10n-flycheck
   (package
     (name "emacs-flutter-l10n-flycheck")
-    (version "20200221.1415")
+    (version "20220213.1335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/flutter.el.git")
                (commit
-                 "81c524a43c46f4949ccde3b57e2a6ea359f712f4")))
+                 "8cc0507cc6619cb9ec236c4eca7417ac081f1468")))
         (sha256
           (base32
-            "16j455iymwcnqh6zwwlk47x9jsdim4va9k4il3qqj8bwgjv30xmb"))))
+            "074dkgpflc9pgpwfmha2cjfyyk6fac968nsw30mfi8ifb1gqvl28"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-flutter))
@@ -47939,7 +47939,7 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220212.1651")
+    (version "20220213.747")
     (source
       (origin
         (method git-fetch)
@@ -47958,7 +47958,6 @@
         ("*.el"
          "emacs-helm.sh"
          (:exclude
-           "helm.el"
            "helm-lib.el"
            "helm-source.el"
            "helm-multi-match.el"
@@ -65736,17 +65735,17 @@
 (define-public emacs-look-mode
   (package
     (name "emacs-look-mode")
-    (version "20220211.703")
+    (version "20220213.126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petermao/look-mode.git")
                (commit
-                 "478e6a402cf16f76f2f812895a49454cf6897520")))
+                 "c6e7baedd652a9a2b7e6b9418039e8f4922e0baf")))
         (sha256
           (base32
-            "07rdz77skyc1v9pgvkagnis6pxlaf7f2vkm756s9s6nirbajw8gh"))))
+            "0r6yp86nbbxv6m4mzh7xya2mqxrq77s3qpzf5w5aj9hlnx1p5psl"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -66277,17 +66276,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220212.1503")
+    (version "20220213.906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "a3c1f184343deea29ea8e0706a9ce2a47e78b120")))
+                 "9b3a9215807af0727b514e8c7cf440bcc0bdad44")))
         (sha256
           (base32
-            "0vmhq9ah71c3qiiys80k69ld05mkr416jqyc9n8nvx7g5660hbks"))))
+            "0wq2nrg7dfd5570q5s8w36z3c8brsdby1q9iqfxrab7v1byxzyd8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68767,22 +68766,22 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220130.952")
+    (version "20220213.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/mastodon.el")
                (commit
-                 "5a0cc2fcc5fa0dad2d884dcc9989222d6df9e88e")))
+                 "a7544802120cafa33f103e3c38868042f9a8373f")))
         (sha256
           (base32
-            "0ndawsh4gg2lcgs7php8660wvc2qbwrqnb6cbw7dkzhhcnyyi266"))))
+            "1skxk0ahvqqfxm0mg0940cf04k2zk6nln4dwgjfsw11dcj9ns89z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (arguments '(#:files ("lisp/*.el")))
     (home-page
-      "https://git.blast.noho.st/mouse/mastodon.el")
+      "https://codeberg.org/martianh/mastodon.el")
     (synopsis "Client for Mastodon")
     (description
       "Documentation at https://melpa.org/#/mastodon")
@@ -69389,17 +69388,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220212.2112")
+    (version "20220213.827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "6842c1c3eb4a4b01bd83f47fa97a87a809f81236")))
+                 "87d395607b26386c929d95f2b7472744a83e6b8f")))
         (sha256
           (base32
-            "04801jnzp0b57wa66ycm8zl9y7anqamhcqywls0cwwva90kjjxlr"))))
+            "1bsw0xhkhv3hr0666smvjczj68znhzyz6736a56f9r1i1pbsk6sq"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -71072,17 +71071,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220212.1113")
+    (version "20220213.726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "22ebf56381c8e27a9dd0ac122921c4387652d3f1")))
+                 "8080eb1c6c0020ba82e8abaa933d6686327bc616")))
         (sha256
           (base32
-            "08nz1swjs3grk0d2yfbbrvkhcldamiml9szqa3k60sz3i4ss2ry7"))))
+            "06jz2ypazm3pw4hwsfmnfywcib9fmivi1rygnxz98rqw16dk40bs"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -88944,17 +88943,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20220126.844")
+    (version "20220213.916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "a50edecacf2939fc50ad2bc48f1015486a09f885")))
+                 "47bf592c89e6bb54150559386ca2a094ca3dff1e")))
         (sha256
           (base32
-            "0p12zz2lhm10yikhnq52z66xwy64gcvig42bzajv5q7x09qvvna7"))))
+            "0lwiv18fykq7icmlgrj5gzq0a4d719dy62vy1fqz33dfakga6m1k"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -89448,17 +89447,17 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20211219.224")
+    (version "20220213.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-pr-review.git")
                (commit
-                 "bae2d8aff61cbe05da6f3f41e6cf854ece4a41f0")))
+                 "5c44b06e314a43a30de8323cae75b1e87594f991")))
         (sha256
           (base32
-            "1p9vbhsal667cjh36wmww95c6c3srp3hqi2yfq9srmplma7ffc5n"))))
+            "1f2lrwbb85i31vcjin9b0gi89m2zn9w2npwi1sqp0bjd0ndimwp5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section
@@ -103233,17 +103232,17 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220211.548")
+    (version "20220213.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-spell-fu.git")
                (commit
-                 "3a19836c693686d5f67573f75e158ec4a4a9497f")))
+                 "8185467b24f05bceb428a0e9909651ec083cc54e")))
         (sha256
           (base32
-            "069g3ax371ly04n788issia2vr9r1lhys5fyaa5x9ahwfffhf93n"))))
+            "0ka7i2jl9vbr5071pbb3n8ckc9nqgpxrbfgij7wn33g01dpn2zjn"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-spell-fu")
