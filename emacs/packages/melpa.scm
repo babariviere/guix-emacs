@@ -2,10 +2,12 @@
   #:use-module (emacs build-system melpa)
   #:use-module ((emacs packages melpa-generated) #:prefix g/)
   #:use-module ((gnu packages emacs-xyz) #:prefix e/)
+  #:use-module (gnu packages gnupg)
   #:use-module (gnu packages sqlite)
+  #:use-module (guix build-system gnu)
   #:use-module (guix packages)
   #:use-module (guix utils)
-  #:replace (emacs-emacsql-sqlite emacs-emacsql-sqlite3 emacs-vterm))
+  #:replace (emacs-emacsql-sqlite emacs-emacsql-sqlite3 emacs-vterm emacs-guix emacs-geiser-guile))
 
 (eval-when (eval load compile)
   (let ((i (module-public-interface (current-module))))
@@ -114,3 +116,23 @@
       #:tests? #f))
    (native-inputs
     (package-native-inputs e/emacs-vterm))))
+
+(define-public emacs-geiser-guile
+  (package
+    (inherit g/emacs-geiser-guile)
+    (inputs (package-inputs e/emacs-geiser-guile))))
+
+(define-public emacs-guix
+  (package
+    (inherit g/emacs-guix)
+    (build-system gnu-build-system)
+    (arguments (package-arguments e/emacs-guix))
+    (native-inputs (package-native-inputs e/emacs-guix))
+    (inputs (package-inputs e/emacs-guix))
+    (propagated-inputs
+     (list g/emacs-dash
+           g/emacs-geiser
+           emacs-geiser-guile
+           g/emacs-bui
+           g/emacs-magit-popup
+           g/emacs-edit-indirect))))
