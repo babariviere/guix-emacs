@@ -11173,17 +11173,17 @@
 (define-public emacs-chezmoi
   (package
     (name "emacs-chezmoi")
-    (version "20220213.2147")
+    (version "20220214.311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tuh8888/chezmoi.el.git")
                (commit
-                 "2b85c471817c40cfe913415f79a2b3e3884a551a")))
+                 "e037884556aec7f4f6b830a6f44b1dcb51120d40")))
         (sha256
           (base32
-            "0fm1kdmfwrdi30w5gwxmvc3fg04vqcdm4hdhmfvhj0hrmmv3m8ih"))))
+            "11hmipc7ia4zsbdw000ii7n9ck1fhlbvfz5jznfiqfgwyamacd8z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -18833,17 +18833,17 @@
 (define-public emacs-danneskjold-theme
   (package
     (name "emacs-danneskjold-theme")
-    (version "20211019.1630")
+    (version "20220214.552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rails-to-cosmos/danneskjold-theme.git")
                (commit
-                 "e74c5960eae3db90bf1b3ea7e71a2406c27554a8")))
+                 "eaf1c6a99cd1697a805a3f04325906412eef8171")))
         (sha256
           (base32
-            "1vpfhiqwhdfa0w4akh6wfam88qkjy73i8yryfaz8a5qbm60nd43h"))))
+            "1nb34gmzlypq3yccm4dwii86pn6k75hb9y50ldsyx3x93zwcm3dk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rails-to-cosmos/")
     (synopsis "Beautiful high-contrast Emacs theme.")
@@ -21982,17 +21982,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220212.1548")
+    (version "20220214.655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "17c434783ff8eb4e3546ec731284717391a1cad1")))
+                 "a51cf33293abbb2a72003ca1e43e2419fa9dc526")))
         (sha256
           (base32
-            "0rca9228m3nrzvfbjbikq5k7ai1dqxr445k0r1cz2ldkc4cl04g5"))))
+            "1fllcj0zbi64vxwd83lm82ki3nfs96az7p42imz8lbysij3p685a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -31420,7 +31420,7 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220213.2249")
+    (version "20220213.2300")
     (source
       (origin
         (method git-fetch)
@@ -68377,17 +68377,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220131.738")
+    (version "20220214.28")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "e9540a7b80f9c4d044748b88720e5cba3e30c20a")))
+                 "dae176389c1663faab7505ea01697ca139b37ff6")))
         (sha256
           (base32
-            "1a4k00g2pp7mk0x5zhqbxvv2igfjdz6bfy2g3hps2ygf4h12wbhg"))))
+            "0v5d5w3is5z4xh6qcw6zv7y3xw27pw0sh6kigdlba8ihiacsibd3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -72347,17 +72347,17 @@
 (define-public emacs-mu4e-views
   (package
     (name "emacs-mu4e-views")
-    (version "20211222.1457")
+    (version "20220214.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lordpretzel/mu4e-views.git")
                (commit
-                 "a1d7268eb2b737ee69b5bdf45aacbc30e50204fe")))
+                 "84a17bb3d725cb8b37cd700a6b88fbf98f5ca094")))
         (sha256
           (base32
-            "00yj0ldyxhzqdsbxr4jr4rd4j1njy1r0blh7py2nlxqia22c015g"))))
+            "05ygjbr6vbkji5jh1vyyyxh8inc8qis95xwp9zdjwc57dzjb2kah"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-xwidgets-reuse emacs-ht emacs-esxml))
@@ -85990,17 +85990,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220125.1708")
+    (version "20220214.344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "72ef774320d9eacd4d79b5016e9e989ab176afba")))
+                 "326552eef71ae6d53e215c46be5bf532575b7abb")))
         (sha256
           (base32
-            "15da6k648r0ir515bpyqf88wg7f8rxqz60zk88c4277ywa61z1zq"))))
+            "1gvaw0684svv9v294f8zgmqa2ym2wa3gymn9y9v2slhamf51r4vk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -113769,17 +113769,17 @@
 (define-public emacs-vuiet
   (package
     (name "emacs-vuiet")
-    (version "20211116.1109")
+    (version "20220214.647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mihaiolteanu/vuiet.git")
                (commit
-                 "ddfd4be99b46ddc042139028980ad8dd616b7d45")))
+                 "0b46ce53aaf1b7d96ec2d9cedbd5e143bc27fec3")))
         (sha256
           (base32
-            "10wjzx8vq8k16dwcjppnr28pkiilxl2ak78h60h68flakmdzibmg"))))
+            "0y10y5r0aa84w1z2aj16w4pxfsvda6a84hkyhc6xjng5sg3j3flh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lastfm
@@ -114966,17 +114966,17 @@
 (define-public emacs-which-key
   (package
     (name "emacs-which-key")
-    (version "20220102.1433")
+    (version "20220214.333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justbur/emacs-which-key.git")
                (commit
-                 "9f64733e4ac563c0cda3685acf4e1c2cf600319b")))
+                 "8d934c571fb954232c4cbe6f1dab554a35ad5e7d")))
         (sha256
           (base32
-            "086jcw31jl3cb6ahgrgf40s7ydp7gv58pah2ai12j7j3g6vvdjnj"))))
+            "13cdcp5y8g9yhkc2nnffgvjbph2y1wvi16dpy01lslgmx8lpzpkw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/justbur/emacs-which-key")
