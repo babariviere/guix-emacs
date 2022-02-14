@@ -9845,23 +9845,24 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20210728.802")
+    (version "20220214.1251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "7a40f9ddb16a6ce9345e0bd632109b7e2048baa1")))
+                 "aa5ffb15cec39920012aa526e932d48e5c74bbb0")))
         (sha256
           (base32
-            "18as7vq8cmhxkxgh0p8qlifyvza66n6xf9a2fi07wc4acp2gpn55"))))
+            "12rsylxr9ls6br38vwq9h6fzqsqjxgqwyv76wf6qaazd4rp76m0y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-hierarchy
             emacs-tree-mode
             emacs-ivy
-            emacs-anaconda-mode))
+            emacs-anaconda-mode
+            emacs-beacon))
     (home-page
       "https://github.com/beacoder/call-graph")
     (synopsis
@@ -9965,17 +9966,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220213.931")
+    (version "20220214.1115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "a20e8c3596c317619cdcecbf8fc66441e558d997")))
+                 "e5e11f30f0b6ed0a2b283d5d3dec84bcd36557fc")))
         (sha256
           (base32
-            "0p9gqc05ay7pfa1j9bhh53nnd2khrgk3cw47njsk0gpvp3ivf0dc"))))
+            "0qxypl6ghr31idgn2mvwgjkp1fhjlhwjldnqim4l658yxivh2jyz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -16051,17 +16052,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220207.2239")
+    (version "20220214.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "2106eee75f84206715631da45eae08827da266f9")))
+                 "fd110782aaddbfe55b8565d112de07f9366337a3")))
         (sha256
           (base32
-            "174bclfhnp2zhd2ybji678hz6zx1a2vbggms9pchyd5s94fi2j45"))))
+            "06fcagby7z7f4hilk02rvdjm4f7zc54xii1ap0sl4nl610x1vm2l"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -21982,17 +21983,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220214.655")
+    (version "20220214.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a51cf33293abbb2a72003ca1e43e2419fa9dc526")))
+                 "78d30d7d3137cdf70a9849f135716376de1b73a9")))
         (sha256
           (base32
-            "1fllcj0zbi64vxwd83lm82ki3nfs96az7p42imz8lbysij3p685a"))))
+            "0p1gnnna6c4s79p69gwn5wa1gqckhz1cincgh8fk3mjj780979w1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23003,17 +23004,17 @@
 (define-public emacs-docstr
   (package
     (name "emacs-docstr")
-    (version "20211004.722")
+    (version "20220214.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/docstr.git")
                (commit
-                 "aa2e30dc6b1d3fa6fb1da309fb87df683eab1e62")))
+                 "3d350b221bca9f9f1a0b2168158c471bcf5ee9ac")))
         (sha256
           (base32
-            "1pqs4z97vs6s08g7pfbp3qqjx1q3z09lrjdzxjb24vrcfkki9cmi"))))
+            "0ygnkaqlqc82mkf2hxhrqz7hn0nmbwc0nwh4p0mwc5wfy3v6lcs6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (arguments '(#:files (:defaults "langs/*.el")))
@@ -71098,17 +71099,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220213.726")
+    (version "20220214.1310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "8080eb1c6c0020ba82e8abaa933d6686327bc616")))
+                 "68a1d39fefb1a9bf61403467f2f88e1b851a9f0b")))
         (sha256
           (base32
-            "06jz2ypazm3pw4hwsfmnfywcib9fmivi1rygnxz98rqw16dk40bs"))))
+            "1vl2pfpflcxwh2zyshdwy7mv60pdd92w4ifqx9rnzrv3nx2gqyf7"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80943,17 +80944,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220119.1444")
+    (version "20220214.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "eac6aa8694b37623cef14d208ed88415499072a1")))
+                 "760cf5ff5b75c4b23dfff4f3837f9ce853c44063")))
         (sha256
           (base32
-            "01ri6h144s0bgf45azbqzkm2h4x0jlz9n2azxq27dk2n7k3lzv6l"))))
+            "0bizz0245b9hmw249y4djfqyaf310ph59hr89mny4pbmma180d2a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -112745,17 +112746,17 @@
 (define-public emacs-verb
   (package
     (name "emacs-verb")
-    (version "20211103.1927")
+    (version "20220214.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/federicotdn/verb.git")
                (commit
-                 "6250360b3b06f590dd37885f3c33a451a3eab5d3")))
+                 "67dd7aa58530d237f60e0090bfdcd96da94fe3e8")))
         (sha256
           (base32
-            "07xdl2ng435iy9zqrq1wgrmwygarc91kqmz6ck1ngvn4mh86ndxk"))))
+            "1bvcavq0xzlmlk9ajb27h3wcgpyvwjpa50rxb947xsykzgdfli3x"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/federicotdn/verb")
     (synopsis "Organize and send HTTP requests")
@@ -113529,17 +113530,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20220201.1229")
+    (version "20220214.1401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "e292c57d53823038733105d22f576a83b5dfdaae")))
+                 "899a46132c47b37e262e66ebef3bf7f89f9b161a")))
         (sha256
           (base32
-            "0687q8m5a3rqwdjgr898gz4nckyi5awksz5z6m6qhga3zmhcmqkw"))))
+            "0i0wbs9w3rlfqal3pwbvjqqd85yw5m3whmycgk4d1md5hcw8pdym"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
@@ -113551,17 +113552,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20220201.1228")
+    (version "20220214.1401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "b99fdcfdb5259b2d831302f38288bdbb3a21ed19")))
+                 "aaed826c9c7e34cd86f173fd30a9a677addf0bd5")))
         (sha256
           (base32
-            "09nbdyw4kjbfpyswjwn0rdffpcmcnl5y32vrncaxwx44rsg3y1cr"))))
+            "1hbxpjvbcksp5c5y4yz1lvyzwjq66ji6v61p7rv9jpm45bv6r09g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
@@ -118483,17 +118484,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220207.2114")
+    (version "20220211.917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "5c8d9554f1dfbe864e7d2fb51730a70755496a03")))
+                 "2d5188eb5be1190fc10c23adcdf731325f1d352a")))
         (sha256
           (base32
-            "13ikhsqi79bq9w4md6jkjmcbbwzj294chhwql3wvpssg96102hcr"))))
+            "0r8fasxs7zf3y4r87cvdpy55j3gsh6qjmyl3c7djclhxjn1ancwz"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
