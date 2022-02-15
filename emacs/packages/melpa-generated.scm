@@ -19845,17 +19845,17 @@
 (define-public emacs-default-font-presets
   (package
     (name "emacs-default-font-presets")
-    (version "20220211.548")
+    (version "20220214.2326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-default-font-presets.git")
                (commit
-                 "94a1d168bab5fbec459adfddd588f722e015fc15")))
+                 "1727055b59e21e91a5b72356968232e31a92f743")))
         (sha256
           (base32
-            "1x2p0b3ag3ld5z28c039s4qi9smwhv2ycbxpn60m7g3c9gr38v7y"))))
+            "098s8s9j8gvzkkyx6ivd84bi0dmf2p6a3nlz215ljl43l97134pw"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-default-font-presets")
@@ -23215,17 +23215,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20220127.2136")
+    (version "20220214.2356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "f55e32cebb2c756c1c0019cad5aff59abb5882bb")))
+                 "436d001ab1f0a406cde4ea237647a99f8c0b5dde")))
         (sha256
           (base32
-            "10bcg2yi0axccp2nks4di2by5y4d7j4vhjg1h692qkc908gb9irs"))))
+            "0jv3m6ab8492mvqrj10g2q1bhrdxikj3yihp5642i90s6s85z99b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -64117,17 +64117,17 @@
 (define-public emacs-lice
   (package
     (name "emacs-lice")
-    (version "20200607.103")
+    (version "20220215.303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/buzztaiki/lice-el.git")
                (commit
-                 "482e58ab83fff86ed754b00be27b62a219597e7c")))
+                 "b15230dbfc66cc92bbde8f9fd369522d7666c0c7")))
         (sha256
           (base32
-            "0yxkjyhfk8kpr8yqz54gdx6xwkj4s8bnbz60162jh12crj0bs5n7"))))
+            "0xpjcp4b76lc0d5jpry055d572rdp93vkbm8ck5yh97wy1y2837w"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("*.el" "template")))
     (home-page
@@ -71075,17 +71075,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220214.1310")
+    (version "20220215.526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "68a1d39fefb1a9bf61403467f2f88e1b851a9f0b")))
+                 "802041636904df5fa463df579cf89bcdc2a1b410")))
         (sha256
           (base32
-            "1vl2pfpflcxwh2zyshdwy7mv60pdd92w4ifqx9rnzrv3nx2gqyf7"))))
+            "0lglwwa95q5nimkshqh4hsq3n4znvbz09jdm816yypbxbcfsc55a"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
