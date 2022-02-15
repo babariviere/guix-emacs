@@ -5328,17 +5328,17 @@
 (define-public emacs-autocrypt
   (package
     (name "emacs-autocrypt")
-    (version "20220201.2102")
+    (version "20220215.1204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~pkal/autocrypt")
                (commit
-                 "8965ce57c7d206e5d28167a37c11b9713576b009")))
+                 "00b87a82c4561b017052974eecd93c79b6790841")))
         (sha256
           (base32
-            "13ccb1r646c0k9vgr1h9r4xfn27yqw1489dj76nwq13awg81pjyr"))))
+            "1cnnw2cwhsrlp2nanvcgdpd90vpmzwxnr9sprwfgzldgk9651r58"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~pkal/autocrypt")
     (synopsis "Autocrypt implementation")
@@ -11360,17 +11360,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220213.1033")
+    (version "20220215.1533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "21c442069e16083153040837e671bc5e446f9643")))
+                 "2c1274147475b552716de7cecd7a9fd46e578e46")))
         (sha256
           (base32
-            "1pgq28ar0g8l00y5pbyd6xmq2fhi2z2q5adx1sfhs5plyx3zz2c5"))))
+            "0qpkpkipmac24m3ng4ahsml3vi15qcvmid3g02pbpgbpc113zfpl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220214.1201")
+    (version "20220215.1354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "fd110782aaddbfe55b8565d112de07f9366337a3")))
+                 "2db402d74f8ede75b84ac135af3121cad24827f6")))
         (sha256
           (base32
-            "06fcagby7z7f4hilk02rvdjm4f7zc54xii1ap0sl4nl610x1vm2l"))))
+            "09ggp0qarhnq5im1rcx7lnqmnfcszj3256156klpnbx6h0s6n0ni"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -33605,17 +33605,17 @@
 (define-public emacs-expenses
   (package
     (name "emacs-expenses")
-    (version "20220211.617")
+    (version "20220215.1518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/expenses.git")
                (commit
-                 "1d9149a1ec18f392ee70b25bac41bbb6bfdbfbd6")))
+                 "fb4349fb7dbddcebc189cce52dda25ab42d27b06")))
         (sha256
           (base32
-            "0aqmlp9jgf7bls0cvhkzw5kgfvkc3aswf50rbgsx0xg6p4mn9ava"))))
+            "18ihdfm8hbfl0nhk5k02m0f5dni5pmljnv0my87pmhqa4bzi1b38"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page
@@ -56972,17 +56972,17 @@
 (define-public emacs-insert-kaomoji
   (package
     (name "emacs-insert-kaomoji")
-    (version "20210707.1126")
+    (version "20220215.1204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~pkal/insert-kaomoji")
                (commit
-                 "e818845a99d418e04c1685f06fe25116916f6168")))
+                 "974bb7dc02059253e032c501b2c3c0ece448d472")))
         (sha256
           (base32
-            "0acyzysz04sd3rahymw6x3a8zy57sy84d36zp6prd62y4w0sw361"))))
+            "061809gl7dfz4mis5igz9aiis1gq4np3fk75ydmzm0j9isz4dc2q"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "KAOMOJIS")))
     (home-page
@@ -68354,17 +68354,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220214.28")
+    (version "20220215.1031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "dae176389c1663faab7505ea01697ca139b37ff6")))
+                 "4d4ca2c2285b6fa0621a4cf8a54a9de418182a5d")))
         (sha256
           (base32
-            "0v5d5w3is5z4xh6qcw6zv7y3xw27pw0sh6kigdlba8ihiacsibd3"))))
+            "1jv0lnvxci7j2g8dccfa9ragahpdipkfdicm9g8rqj7qyn3vvcxr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -95581,17 +95581,17 @@
 (define-public emacs-review-mode
   (package
     (name "emacs-review-mode")
-    (version "20210516.503")
+    (version "20220215.842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kmuto/review-el.git")
                (commit
-                 "4f64f0ce1fe3a59389a1462dc26d6ba89d44d51c")))
+                 "f08ef20d9ff4f03a00a8c24dae9ce416da0d9d1c")))
         (sha256
           (base32
-            "05w3n8hv5wclgwy58wbnximkf7xi6anp8vpxh523dplzxd77b5q6"))))
+            "0wyjh9ymj62rlvvhahcqy48xjw768x6pkvhrwp8sp8pyb64ghkj3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/kmuto/review-el")
     (synopsis "major mode for ReVIEW")
@@ -108752,17 +108752,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220202.1805")
+    (version "20220215.1121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "5df42d3f5569d9005f9180337aa88befaf77c491")))
+                 "f78976e448853646e3b5e718783ddb8256bf341e")))
         (sha256
           (base32
-            "120lh5c01wbv92zljw8jhx16cdjp154bjas8k0bi461x1xa5mzl5"))))
+            "06fc46gxsbc8wv3y68n4pxyz34cfln7b5pbrwih68qs4ybp51nn8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
