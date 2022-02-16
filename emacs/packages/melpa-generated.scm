@@ -11540,17 +11540,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220213.1329")
+    (version "20220216.732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "83f18a9ad4b97614bf1ec9e65444ebc90dd8bddf")))
+                 "7afa8ac74b1e511387ac9bfe5b0bee83c1dbb943")))
         (sha256
           (base32
-            "0c8fianv7vv8qj40fakriq37bs8klxlmn2kk8c81kqdqfjsb5dny"))))
+            "0nhvn0jrpkzzjv94b98l293pfbibfx2srlck5ycdi3760lk4k6vh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220215.1858")
+    (version "20220216.104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "2a6f8027186e3ca209cf910ad53e90b2c4ba20dd")))
+                 "0150ab6d4eb2214b888f639f71268b8f1d421182")))
         (sha256
           (base32
-            "18npa6pmlvfa42i3dnn2d0p7rr5g8drlvwvflmchladzrn0h50r3"))))
+            "0j9rl0vn9qx81gpk1l63fv69idl6nl8k9kjcvd35msgbvzys064l"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -20285,17 +20285,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220128.1441")
+    (version "20220216.735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "a632b3cddc88bc1ed5f323afba03d91c34453194")))
+                 "b87acab44ed391b9c10a1118a6415b43b4223dfc")))
         (sha256
           (base32
-            "08z1i260r3i7shybcwyiq5michwwfpmzvvnqpppcasazrgpz6vyz"))))
+            "1ahfnnfxy6jpx9d9sjlfgfmjls2k29sdrvib8a53ngb36830axb6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -42070,17 +42070,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20220131.1758")
+    (version "20220215.2320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "ecd118171a111e04120d11c0d72345ce1d0f8066")))
+                 "cfd9116dcb246126950d7f2f662f09149684128b")))
         (sha256
           (base32
-            "1ri1l203vp5nnl7chmmvvj3b03315fpzjjkisv55m6xs77ig2cl7"))))
+            "1k8qgkamzd6ljvk7xiqs1r0fvr4gzffhylpll7c4zjywrbixw3g1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -55594,17 +55594,17 @@
 (define-public emacs-iedit
   (package
     (name "emacs-iedit")
-    (version "20220119.658")
+    (version "20220216.717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/victorhge/iedit.git")
                (commit
-                 "44968bea9bff8fdd5bf9d227f53814c44bb9f619")))
+                 "2fff88fe5d480089ef0b235901b3a5e4a1bcefc1")))
         (sha256
           (base32
-            "15l0dprhgfv948vlc05n91npb4331n4i3v1idd3zww6vrw85n9l6"))))
+            "07z659w9m94h79wnvs2fg80f5impidqhsmg6awc3fxwd3ib0yzih"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/victorhge/iedit")
     (synopsis
@@ -68354,17 +68354,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220215.1514")
+    (version "20220216.137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "4d4ca2c2285b6fa0621a4cf8a54a9de418182a5d")))
+                 "5fcbed43d555929a6fd6427b3d8f1ed4773c0e6f")))
         (sha256
           (base32
-            "1jv0lnvxci7j2g8dccfa9ragahpdipkfdicm9g8rqj7qyn3vvcxr"))))
+            "0l5h732xgbi5wwyc3pyrhagd557wrccnz0076m9fxklcfi5q99r1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -69392,17 +69392,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220214.1732")
+    (version "20220216.547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "904d823ee80646b3aeb4ea798999543e08b3742e")))
+                 "b494651e1e02a232c5b9a359d6d4474ade736baa")))
         (sha256
           (base32
-            "04801jnzp0b57wa66ycm8zl9y7anqamhcqywls0cwwva90kjjxlr"))))
+            "1w6586q237c5li8c0rrivissvhn2hic6l199yr9qx92mm9cvic0q"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -79635,24 +79635,24 @@
 (define-public emacs-org-journal-tags
   (package
     (name "emacs-org-journal-tags")
-    (version "20220208.1429")
+    (version "20220216.801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/org-journal-tags.git")
                (commit
-                 "c27c77246e821e20349e5019b9fe92ff1d67da58")))
+                 "f8ad372c5839eeb882d2bd256ddd740e900aad95")))
         (sha256
           (base32
-            "1vrqw2vacc69fl044kl6gms4wvrcpik5h8xrarbwn5j76jqpinym"))))
+            "0ky4am88azrnhync6zr3ilq9lf5hknymm6m0cg4iphklx0694v6m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-journal
             emacs-magit-section
             emacs-transient))
     (home-page
-      "https://github.com/SqrtMinusOne/org-journal-tags.el")
+      "https://github.com/SqrtMinusOne/org-journal-tags")
     (synopsis
       "Tagging and querying system of org-journal")
     (description
@@ -80991,17 +80991,17 @@
 (define-public emacs-org-roam-bibtex
   (package
     (name "emacs-org-roam-bibtex")
-    (version "20220117.801")
+    (version "20220213.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-bibtex.git")
                (commit
-                 "3ac2445f431bc39aa0ca5abfc80e28c0c06f0738")))
+                 "714b519f000697983eee291f7a28d595ef731d99")))
         (sha256
           (base32
-            "07qiis3c7ypfvy6v6b6wsj993yp41cw8yi66gc0ssmg053vymz5p"))))
+            "0sl9dy63g6isjj5kmcc3lijjlsjwdp1fb11zri454lvnlmwa4w8i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-bibtex-completion))
@@ -100274,17 +100274,17 @@
 (define-public emacs-simple-mpc
   (package
     (name "emacs-simple-mpc")
-    (version "20220204.2207")
+    (version "20220216.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorenvo/simple-mpc.git")
                (commit
-                 "265ee01f6c7c6c44f103b740c37df14f4c1fdb16")))
+                 "57ee14ada8aec477ddde5e4f632c8d3d99a66535")))
         (sha256
           (base32
-            "14z8sqs094xq1n3hynglh1bj38kmzwfd9h66nxp95wdxanzlzghz"))))
+            "1gij7kjidi21p8sbywlj9734s5cq1h31h6mv71drcj3cna9n06pb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
