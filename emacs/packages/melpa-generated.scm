@@ -11360,17 +11360,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220215.1533")
+    (version "20220215.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "2c1274147475b552716de7cecd7a9fd46e578e46")))
+                 "2b2bfa27787ae524852abcb75408b0b1927aa2e1")))
         (sha256
           (base32
-            "0qpkpkipmac24m3ng4ahsml3vi15qcvmid3g02pbpgbpc113zfpl"))))
+            "11lnj6fd9xhwhwr900vjbzbviqrza29b9nf8d53b4bzdrij6ilgw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11416,17 +11416,17 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20220212.1832")
+    (version "20220215.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "7f4e5e9c7c3ff2223a10a237e4130dc0f17db4c1")))
+                 "2b2bfa27787ae524852abcb75408b0b1927aa2e1")))
         (sha256
           (base32
-            "1094ycqavkjbfzmwy6aigva4a3rlg9sahi081ag4zf25f4h4vczy"))))
+            "11lnj6fd9xhwhwr900vjbzbviqrza29b9nf8d53b4bzdrij6ilgw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chronometrist))
     (arguments
@@ -11446,17 +11446,17 @@
 (define-public emacs-chronometrist-spark
   (package
     (name "emacs-chronometrist-spark")
-    (version "20220210.1321")
+    (version "20220215.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "66d747d27c952d7b71a5d27f1b353a8a575d1085")))
+                 "2b2bfa27787ae524852abcb75408b0b1927aa2e1")))
         (sha256
           (base32
-            "00q4wvfs3qxybvlqaqx64kdx3i6jh1fhlcv6qv31hslxiybsivh0"))))
+            "11lnj6fd9xhwhwr900vjbzbviqrza29b9nf8d53b4bzdrij6ilgw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-chronometrist emacs-spark))
@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220215.1354")
+    (version "20220215.1858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "2db402d74f8ede75b84ac135af3121cad24827f6")))
+                 "2a6f8027186e3ca209cf910ad53e90b2c4ba20dd")))
         (sha256
           (base32
-            "09ggp0qarhnq5im1rcx7lnqmnfcszj3256156klpnbx6h0s6n0ni"))))
+            "18npa6pmlvfa42i3dnn2d0p7rr5g8drlvwvflmchladzrn0h50r3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -47114,17 +47114,17 @@
 (define-public emacs-habitica
   (package
     (name "emacs-habitica")
-    (version "20220123.1424")
+    (version "20220215.1758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/emacs-habitica.git")
                (commit
-                 "cbb5a0f11a8a91111d753c25c59582741ae49f2e")))
+                 "9e1fde7f359f7f6a6976b857fbbdbc8dd4fd3327")))
         (sha256
           (base32
-            "1chykvq41ivmyg85ixh09q1wl4ayqdpbzacj4npy3jiafh6sksz4"))))
+            "0xi0yvm4v2mjyml44jbprdl9lza7lhxmf2j177nbgvn8zgfjc7ac"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/abrochard/emacs-habitica")
@@ -56092,17 +56092,17 @@
 (define-public emacs-import-js
   (package
     (name "emacs-import-js")
-    (version "20180709.1833")
+    (version "20220215.1948")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Galooshi/emacs-import-js.git")
                (commit
-                 "fb1f167e33c388b09a2afd32fbda90a67bfb2e40")))
+                 "d2bbb53f96395415f9f01de4fa88d82c1f59ba63")))
         (sha256
           (base32
-            "0if117lia2ykd6ai0cf5z4ddhsm9icijigwbrn079v7m9s8yl43p"))))
+            "1r2in6zjhp0cywlyncnqblhb0k1bymhbhs7r974khrpf8byw69p9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-grizzl))
     (arguments '(#:files ("plugin/import-js.el")))
@@ -60521,17 +60521,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220117.2310")
+    (version "20220215.2141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "ec9b332e78e146a6dbd348574190b2e7887133ab")))
+                 "b288e081727d6291e99b9c84287035e9449647ba")))
         (sha256
           (base32
-            "1gnzylfdp0n08g4psbrns6g3pki2m6kck6rsyf7d60ba0jpfyliw"))))
+            "0nhwmn1qpvs8z63ihd8bmwp08v6pb9rgmry88fwix7g0kgzcnj7k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -64931,17 +64931,17 @@
 (define-public emacs-literate-calc-mode
   (package
     (name "emacs-literate-calc-mode")
-    (version "20211101.948")
+    (version "20220215.1814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sulami/literate-calc-mode.el.git")
                (commit
-                 "ba7d22140a165b0fdd900a8d04916115ca6ab8ff")))
+                 "f5133e65d8ffdab918cdfc269ac0c067a0de5e9b")))
         (sha256
           (base32
-            "1bdybw44pmhfpikdv1kg2sx88546xyncks5a4b2s0ak4p66r82k3"))))
+            "0gvha2fl5macpwsp4fpa9nv14sg0yqr90s3v92f6imx89ll0rcya"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -65783,17 +65783,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220214.1536")
+    (version "20220215.1425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "822c6b35b0df39c40abeb14a89b982e11ddb51f0")))
+                 "459004fd6612b54fbbaa4be240d43afd203d5e16")))
         (sha256
           (base32
-            "1jr4zy03gsb7080ls5rgh4752l3w6fn8kpz52dl4hvprwrg596vn"))))
+            "1r3sb503h1wa659bxgwp55hwjrbrdg4k1hjc3mbw1gmb223ljcns"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -67611,17 +67611,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220130.2007")
+    (version "20220215.1807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "eb14cc7241dc3f52b5b9ad0f8099fbcaf1dec745")))
+                 "2df1e34665a2fb7872050a770a5cd608418fdc7f")))
         (sha256
           (base32
-            "095524vrgwpmm5b2kk64pinycd68c3p0ig7wblxi4rq4as28mgih"))))
+            "0s1vvsc9yqnshya7x16m8sngyjn0l3y72xh3m3553vq2bp990mx1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -68354,7 +68354,7 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220215.1031")
+    (version "20220215.1514")
     (source
       (origin
         (method git-fetch)
@@ -71075,17 +71075,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220215.526")
+    (version "20220215.1631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "802041636904df5fa463df579cf89bcdc2a1b410")))
+                 "10141c8b0ee622055ece5071944ea8df63b83698")))
         (sha256
           (base32
-            "0lglwwa95q5nimkshqh4hsq3n4znvbz09jdm816yypbxbcfsc55a"))))
+            "0j0lgmnvdkhcvpdhn028wa6p4ssahjlawwifa7flzvrgv6b77m5m"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -100459,17 +100459,17 @@
 (define-public emacs-simplicity-theme
   (package
     (name "emacs-simplicity-theme")
-    (version "20220207.2118")
+    (version "20220215.1952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/smallwat3r/emacs-simplicity-theme.git")
                (commit
-                 "ce6e89c154732ae56c07c613876de3f65df1177a")))
+                 "5975aad486f93a277092e27bf88e42f691da4a88")))
         (sha256
           (base32
-            "0hsfn4viqvwyfy70hkk0927387jydm677mw2n4nqafmfdbngc5r3"))))
+            "1svp3b5kjbra6cj5skzcjv2vffkib5dj2d0gllnc34x5gch3k11j"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/smallwat3r/emacs-simplicity-theme")
