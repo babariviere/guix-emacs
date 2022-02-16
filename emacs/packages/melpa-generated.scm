@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220216.104")
+    (version "20220216.1109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "0150ab6d4eb2214b888f639f71268b8f1d421182")))
+                 "19aa0d03025de2f4afaaca4d3ac5e4e7c1f68608")))
         (sha256
           (base32
-            "0j9rl0vn9qx81gpk1l63fv69idl6nl8k9kjcvd35msgbvzys064l"))))
+            "164ailzhh8n37pi1sdisksch2rnd7xppcbkcn93w7dqy67jymvia"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -18860,17 +18860,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220212.1217")
+    (version "20220216.1029")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "fc52714b1bd18bb20f9be3af87a8f1778c0c04a3")))
+                 "8d110d4fa62c406aee836b352f5d5a3454e338b4")))
         (sha256
           (base32
-            "1qp5c9syvpc6rkw8jcvjiybg7lla0y9lfgqk38d566zx1nqlszjl"))))
+            "0rpgfnlp1ixbam8iq2wxvmxbi8v6lhab2l3azm2294w2sr1r4qzg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22803,20 +22803,21 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220131.2100")
+    (version "20220216.1338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "ff8a564622df8cf086e4ace9eb4251a74b20f77b")))
+                 "81f2b379af504428bf2c93a77c7aeb8e56a0f219")))
         (sha256
           (base32
-            "1ivyvgh24nadhiv9ffqxckwln8vc9c2l0bvrvrd53yf0w8i345yz"))))
+            "0wyx77hyprw307r486q0x58navyzn7vbx1lsr8c94mb9ykq4icwq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-dash
+      (list emacs-aio
+            emacs-dash
             emacs-docker-tramp
             emacs-json-mode
             emacs-s
@@ -29959,17 +29960,17 @@
 (define-public emacs-erlang
   (package
     (name "emacs-erlang")
-    (version "20220213.554")
+    (version "20220215.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erlang/otp.git")
                (commit
-                 "2413ca0be7f2a076be9e152cbec7f8bf33ba7d9a")))
+                 "eccc556e79f315d1f87c10fb46f2c4af50a63f20")))
         (sha256
           (base32
-            "1xvp0byzgcwdvmqvk2m9kcdq5da1kckcixrq6f461cfihsgzxmd7"))))
+            "0aljr6gd8pgs26qy1k72yfxgmlaf4zj9q2ax198rv69sm810bpnp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -69392,17 +69393,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220216.547")
+    (version "20220216.845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "b494651e1e02a232c5b9a359d6d4474ade736baa")))
+                 "df68729f6fd4afd280689a7771ec18028a51048d")))
         (sha256
           (base32
-            "1w6586q237c5li8c0rrivissvhn2hic6l199yr9qx92mm9cvic0q"))))
+            "05lmax7mcr6jbpnw2x36li3rymw28zddrw6ddpmb06xz2y1gvkz4"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -83440,17 +83441,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220211.2229")
+    (version "20220216.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "51f4ad26c6251728766649f491b6360737111ec6")))
+                 "58a685c91784da474c1b3e5c2087aee014edf996")))
         (sha256
           (base32
-            "0k26fnfxjvknzmsn01yils2cnvdcdq34l9sij876jv5m43wc427a"))))
+            "02w2vhrhykyn250gfjdzpg6znbjg5nc4i4m7b70ihy3b6ixsr4cj"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -96992,17 +96993,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220213.1530")
+    (version "20220216.1155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "7b2e5c7188ac0bfd688480545650883266b0f4c6")))
+                 "c4894db07a73bad5028fcad605b38f8d2ba06d69")))
         (sha256
           (base32
-            "1j25jmsjingwsxyzcrjfc2qkycpkbahmwpxrybgcmxbzk50mvcpv"))))
+            "00qj5x2aq44hkwn8fm33vy9z9gkc38vjiw96fr6czygjcd7qdykn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -106862,17 +106863,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220211.1052")
+    (version "20220216.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "323974bb033bb871b9e9fc113db0322d2ee442a5")))
+                 "9b0525e5e83de3ce86666c3d147a30a6f10f01de")))
         (sha256
           (base32
-            "04v8w98pyykbnm29b3bqi4rd28qmnrv4qa92spx02m32l6v62ym6"))))
+            "0apbf523gcmg9qkldznfshas63fvjm172bh922faflqn8wp8jb4b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
