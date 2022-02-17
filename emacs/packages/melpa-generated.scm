@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220217.42")
+    (version "20220217.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "29ce1ba14b578ebf28f00143e0b6280ad037029e")))
+                 "44580944f95d52bcd5a3ed79adef57e51aca7e31")))
         (sha256
           (base32
-            "0iviskr819qzih66pl4x7qvb4mxx68w8dqpbbrx980hpjpwq4ggr"))))
+            "0b05vxialpal5ddmahls1lfnlm9wi5c622mvlikr0qis0000bglp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -31398,17 +31398,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220213.2300")
+    (version "20220217.748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "4ed0543c9235f97748d4a4913cfdce03fee0e17c")))
+                 "00fca685479e772361765b13de4689099a328c28")))
         (sha256
           (base32
-            "02xj5l290fkg0w6j8wddqhgr6ascd7lszs3ngrrdkgg35jsqjqrx"))))
+            "0gpw5hajzlaam3gdqrr8vxdjdghqr29il8zsmn9q77askf64wsbw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -47917,17 +47917,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220213.747")
+    (version "20220216.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "262ba579a9d8fc256bbe1d7baf89ce6cd75f9716")))
+                 "e17ad364b9ddc7b283b21df94b3ba2fa8bdc11e3")))
         (sha256
           (base32
-            "054s6nrzzcvjs9ghs8s6z91bqykl1ag1bp98x0j36vpwqismzvn4"))))
+            "0161qh6la4m5208ix737l8am7gzzwzpgsciiiklslawv28cykyxa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -48725,23 +48725,22 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220213.747")
+    (version "20220217.812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "262ba579a9d8fc256bbe1d7baf89ce6cd75f9716")))
+                 "e17ad364b9ddc7b283b21df94b3ba2fa8bdc11e3")))
         (sha256
           (base32
-            "054s6nrzzcvjs9ghs8s6z91bqykl1ag1bp98x0j36vpwqismzvn4"))))
+            "0161qh6la4m5208ix737l8am7gzzwzpgsciiiklslawv28cykyxa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
       '(#:files
         ("helm-core.el"
-         "helm.el"
          "helm-lib.el"
          "helm-source.el"
          "helm-multi-match.el")))
@@ -65784,17 +65783,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220216.1439")
+    (version "20220217.1452")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "793ddc074f75e6aa9428a4052d86c4beedc2d173")))
+                 "474b706dab58dfb8bec40b9ac5084b8dc26e833b")))
         (sha256
           (base32
-            "113ryvzqfvzdhfcbdhfbphzapikjgqxd0qi3zw83v1dbslmf6x91"))))
+            "085d6k3yi2lzyxm0raycr9ssavqb5yqqxn94jpvwhnlzg00qpiah"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -68771,14 +68770,14 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220213.1349")
+    (version "20220216.1103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/mastodon.el")
                (commit
-                 "a7544802120cafa33f103e3c38868042f9a8373f")))
+                 "813faf2381a7c4322c1ef71ca1364457609a3a57")))
         (sha256
           (base32
             "1skxk0ahvqqfxm0mg0940cf04k2zk6nln4dwgjfsw11dcj9ns89z"))))
@@ -69393,17 +69392,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220216.1819")
+    (version "20220217.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "583e072d84a73dbb353d9c48d6236dd69795795c")))
+                 "2cbb794904002362ab342d8b6b27addbb119998d")))
         (sha256
           (base32
-            "0kn14dp49ywi7ji5bnm9krax77y71hvb58bbq7fb60gpci4bskv8"))))
+            "1irdasnwfh512d4dkwcsihmc6a88bxd3g490h4wbn4x87z8pzhzg"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -71076,17 +71075,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220217.420")
+    (version "20220217.1635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "8c91160151a8d43a00ce0651fa7fee154567bedb")))
+                 "4bd32dac89cc0e0ae9ad2074133ff1d2c60bdbcc")))
         (sha256
           (base32
-            "1sn2c66h424fa2qq3vjj132w08hawi0mlcs2sh55f4kx7nqhd040"))))
+            "1v5p057drqpd23m04vckc100pr4hfxj2ms7j3xwlvqbh6z4fnkg2"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -100770,17 +100769,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220210.1512")
+    (version "20220217.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "3b9713f207a4f607427d08adf9d092d28dcd0074")))
+                 "33d9f46a48809fab77fc0aef209196d99be4df0c")))
         (sha256
           (base32
-            "151p7779x08ha4vjgzvylhr69yn3a7n0axv8ah0yim39a9qq3xmi"))))
+            "11jkg9igijdc50pd4354rifx40dfn2dhpn0yjl71jcvywgpvsb1r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
