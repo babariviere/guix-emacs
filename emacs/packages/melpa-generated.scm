@@ -2394,17 +2394,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220213.1626")
+    (version "20220217.604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "462ab80ba29ee109e3a51b32732477baeadd5f96")))
+                 "d2658536b58cb42e9f2dac551d42055b734552ba")))
         (sha256
           (base32
-            "0li80mb76i34n4wk35d85l9l6aa0brjryg02s3wv5a2ag173jnap"))))
+            "0mn5dqcfs4z5lsl5104zf7km819xcxpmdk3v7r9dnrnny3al7qfi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220216.1109")
+    (version "20220217.42")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "19aa0d03025de2f4afaaca4d3ac5e4e7c1f68608")))
+                 "29ce1ba14b578ebf28f00143e0b6280ad037029e")))
         (sha256
           (base32
-            "164ailzhh8n37pi1sdisksch2rnd7xppcbkcn93w7dqy67jymvia"))))
+            "0iviskr819qzih66pl4x7qvb4mxx68w8dqpbbrx980hpjpwq4ggr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -60522,17 +60522,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220215.2141")
+    (version "20220216.2301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "b288e081727d6291e99b9c84287035e9449647ba")))
+                 "d06598796f863010e6783b48e946d0337b88e68f")))
         (sha256
           (base32
-            "0nhwmn1qpvs8z63ihd8bmwp08v6pb9rgmry88fwix7g0kgzcnj7k"))))
+            "1b8ggag14mp8wwfkn2kcbcyfpykvncpymrs7zyxnlvy98kyqmypv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67139,17 +67139,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220216.1853")
+    (version "20220217.349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "efe590bb4f1020cf8e9503e564a84f569f5ba82e")))
+                 "f9a15cb349b24ce705cae3dde646a1e027dc54d5")))
         (sha256
           (base32
-            "0hx2khmgkh66my1ri7jj26qs5lh6nai0i7adiyy1db2plhc37c3v"))))
+            "1w0ld6wl9k4r6yzx4a0xhxkpz1bkndh5rvlzkkml8dfyaddcvqa8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68355,17 +68355,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220216.137")
+    (version "20220217.21")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "5fcbed43d555929a6fd6427b3d8f1ed4773c0e6f")))
+                 "097bd81743026c9b4889b860efd0283b26e64ccf")))
         (sha256
           (base32
-            "0l5h732xgbi5wwyc3pyrhagd557wrccnz0076m9fxklcfi5q99r1"))))
+            "1zkm3axkg676jcr0rv3na4v212cq4m2lpk0zac5a2s1y0fgvvx2q"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -71076,17 +71076,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220215.1631")
+    (version "20220217.420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "10141c8b0ee622055ece5071944ea8df63b83698")))
+                 "8c91160151a8d43a00ce0651fa7fee154567bedb")))
         (sha256
           (base32
-            "0j0lgmnvdkhcvpdhn028wa6p4ssahjlawwifa7flzvrgv6b77m5m"))))
+            "1sn2c66h424fa2qq3vjj132w08hawi0mlcs2sh55f4kx7nqhd040"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -75032,20 +75032,20 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220126.1122")
+    (version "20220216.1156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "0a32741fceb7778ced34064eacb7b5aac2c71638")))
+                 "6286b76a69f11a72927c96a928d4493cab2237ce")))
         (sha256
           (base32
-            "0691vkkslg76mwvxj4r42rrgyq1457s04y20w7qhqx26j5gfxn3i"))))
+            "17zj6af4y22r703g2z6jw7pk2jn56iv5ai25q2y3z8icsnx0dmzv"))))
     (build-system melpa-build-system)
     (arguments
-      '(#:files ("emacs/*.el" "emacs/*.png")))
+      '(#:files ("emacs/*.el" "emacs/*.svg")))
     (home-page "https://notmuchmail.org")
     (synopsis "run notmuch within emacs")
     (description
@@ -113523,17 +113523,17 @@
 (define-public emacs-vscode-dark-plus-theme
   (package
     (name "emacs-vscode-dark-plus-theme")
-    (version "20220207.308")
+    (version "20220217.350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ianyepan/vscode-dark-plus-emacs-theme.git")
                (commit
-                 "1611c7c1716e3e0a39ffd7290c03fa3a14d5a862")))
+                 "612646c3e707f9665bdbd034a6c2e17cb2645c3a")))
         (sha256
           (base32
-            "1fdj6p9xxb5zyjk4z0fa97xxf8q5swvfdr3a2pdqixl6f6v3hn94"))))
+            "0m6vwvrsl4dnw42pd3fi2s513jjlq8km7gzks8c6jch7lydwxabk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ianpan870102/vscode-dark-plus-emacs-theme")
