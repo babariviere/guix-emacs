@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220217.2013")
+    (version "20220218.135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "75a6a831598f34aca348f8eddd495386ff31a631")))
+                 "8083f7f314e2d0bd5a4d424bf9b2cb2950f4310b")))
         (sha256
           (base32
-            "15881ijmzqwazdd825zggg92k5bf9hv6wg8r70gw0s35cd2v3k1j"))))
+            "0xmz9bi7dkz5y36mrj6y7jk9yc8wwxcmgdiv83zj36ky8gw1v60p"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -28322,17 +28322,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220216.2111")
+    (version "20220218.642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "29848fc3c88761fac6cea4093e6af48aa10b1fd3")))
+                 "ed8cd7dc81026a9e123c52d8c78fdb5f9329ee33")))
         (sha256
           (base32
-            "09vhqq1giawkc93xzrikcv271s7vnk7rwd6s2g678bs8n8li0160"))))
+            "0j4k58x8vffc80ail85j0di2zi0gv61qdsvv6xn9l2504jf0aj5z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28346,17 +28346,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220115.1540")
+    (version "20220218.19")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "2f147726fef37b085e3f4ee2d94d953480544552")))
+                 "ed8cd7dc81026a9e123c52d8c78fdb5f9329ee33")))
         (sha256
           (base32
-            "10flx40bwkghziypp5spggcpjd731b150jvp9qri5vlaii98ays9"))))
+            "0j4k58x8vffc80ail85j0di2zi0gv61qdsvv6xn9l2504jf0aj5z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -43303,17 +43303,17 @@
 (define-public emacs-git-link
   (package
     (name "emacs-git-link")
-    (version "20220206.1802")
+    (version "20220217.2315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sshaw/git-link.git")
                (commit
-                 "a715c116341162ff1a49fff684a45dec8ac0b0af")))
+                 "f5691f8c66eb0f6050d9ab3834ab32661244b378")))
         (sha256
           (base32
-            "18y1c0nfvc6sr2f4kfddq78kbivlf38zn35pzdvnmfm9nc42dc6m"))))
+            "1ifq9z4p0rbz2bpm6qz89xg5ycn5fflsyradzzxzsgyys0zc6szx"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/sshaw/git-link")
     (synopsis
@@ -60521,17 +60521,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220216.2301")
+    (version "20220218.512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "d06598796f863010e6783b48e946d0337b88e68f")))
+                 "fc67e4d603907160766cf22e8ef16029238e78d3")))
         (sha256
           (base32
-            "1b8ggag14mp8wwfkn2kcbcyfpykvncpymrs7zyxnlvy98kyqmypv"))))
+            "04nh37izz04lxkvkxhsig8khbrrgdl4p6pkjsv5bxymnp84zwlw7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83440,17 +83440,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220217.2212")
+    (version "20220218.414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "ff7a462f83ea00b767e61cb45a1a2525973384df")))
+                 "077b3494cba830bdaccb4091ec96ec48ec809fff")))
         (sha256
           (base32
-            "1csz0q9ab53f29jciwq34hqfyajp6w09hyaj6cwc6gfyh10fmnlv"))))
+            "0irkb7n6n4y4jrwn0bc2a6lr0a0j8f27zq3w2c8vhm32bx7crl1x"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -106910,17 +106910,17 @@
 (define-public emacs-telephone-line
   (package
     (name "emacs-telephone-line")
-    (version "20220108.2147")
+    (version "20220218.449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dbordak/telephone-line.git")
                (commit
-                 "4fd47989c499ccc973f0e904cf1649c037ff1626")))
+                 "aa7b1ec159252f8a25f3c75fcc346fa4b0b3c73d")))
         (sha256
           (base32
-            "1wm10pb9k9s7mzswsqynm80cnh9wbndw4f9cw9h4z1rw28p1hvc5"))))
+            "0dy3w69rndgvhlfp5mx4axdgn517ip63js219vb8m9514mswhxav"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dbordak/telephone-line")
