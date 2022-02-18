@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220218.135")
+    (version "20220218.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "8083f7f314e2d0bd5a4d424bf9b2cb2950f4310b")))
+                 "5cce728528b1e04c460fb7f7300ed20a9afa6886")))
         (sha256
           (base32
-            "0xmz9bi7dkz5y36mrj6y7jk9yc8wwxcmgdiv83zj36ky8gw1v60p"))))
+            "002in4jhyiwcxcihivjbclwry9daz6sbla89pk3cylpn76lli9p0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -20877,17 +20877,17 @@
 (define-public emacs-diminish-buffer
   (package
     (name "emacs-diminish-buffer")
-    (version "20220217.1855")
+    (version "20220218.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/diminish-buffer.git")
                (commit
-                 "672de7e1d022cb7da47a746ba508fe23f7bd6737")))
+                 "f9b8dac19ccf0df06d29c0f9f2ac71b178ecd803")))
         (sha256
           (base32
-            "0rnsq6cmffcygdkg2n8kn3sg1pddcl4ww93pwm7nx1iqf4afwxfb"))))
+            "1c8mq3zmragpnhz8v7apf8aqwffgmw34blm8g4wiz0i28bx7jlmc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jcs-elpa/diminish-buffer")
@@ -26604,17 +26604,17 @@
 (define-public emacs-electric-operator
   (package
     (name "emacs-electric-operator")
-    (version "20211114.1153")
+    (version "20220218.826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/davidshepherd7/electric-operator.git")
                (commit
-                 "1c51e88d5719e7b0dd022a4704c46b24e0c91348")))
+                 "6dbd8f80aee44e2f6ff9995f1bebb8f05575505a")))
         (sha256
           (base32
-            "1zzy3y5vkdlb7wb3b4fgvm61zn3dj9n0ldi3153qvrgwn6w8m648"))))
+            "0a65cin6r2bx9fz3a56iywmsdm5k6i6av0j6ba3s8hm2hdl7ckdq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -47917,17 +47917,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220217.1752")
+    (version "20220218.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "e17ad364b9ddc7b283b21df94b3ba2fa8bdc11e3")))
+                 "011cc63cd2b01bcd4ee5c27ac7efdefcab882191")))
         (sha256
           (base32
-            "0161qh6la4m5208ix737l8am7gzzwzpgsciiiklslawv28cykyxa"))))
+            "1fjn3ajzyqd87j21q5i6j8h5a9az4spkkqg32cp967vfmyf5swsg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -66248,17 +66248,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20220107.1434")
+    (version "20220218.1105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "743db8df15375ff9270424951d2dcc3a7e8e7a0b")))
+                 "5891149014308e73faf025bf40cd099cc185277b")))
         (sha256
           (base32
-            "1251hkpjh0s51znpqhfg193c67fcyr9b7i9hfs8xfalivjpnj254"))))
+            "165040pm6g8sm1afcdp6x6jciqpix12cskn7jhy21vr5ff0awsiz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
@@ -71075,17 +71075,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220217.1635")
+    (version "20220218.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "4bd32dac89cc0e0ae9ad2074133ff1d2c60bdbcc")))
+                 "f2d174c2103bde9c2d38e7029429c733cf5cbaab")))
         (sha256
           (base32
-            "1v5p057drqpd23m04vckc100pr4hfxj2ms7j3xwlvqbh6z4fnkg2"))))
+            "03yhpgm15l6wz890f0np35xpcm4498b9ikbw875w5rm1wf9pf1hf"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -81277,17 +81277,17 @@
 (define-public emacs-org-starter
   (package
     (name "emacs-org-starter")
-    (version "20211230.1606")
+    (version "20220218.743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-starter.git")
                (commit
-                 "6b1b3b045390bf1cff8214ece54da07c7a0aa8ad")))
+                 "2b06b02b8008dde8cfad69b679f89742d80aa4e6")))
         (sha256
           (base32
-            "0zih4bfncjkkrx9v4f88a26kz41vgd7wvvfm2is5wk93nbcrazz4"))))
+            "1x6kcwyyixgi92yq7cmx2bhcbh342acwr1c5nw31mi03v6hczjzk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -84612,17 +84612,17 @@
 (define-public emacs-paimon
   (package
     (name "emacs-paimon")
-    (version "20220214.2145")
+    (version "20220218.1252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/r0man/paimon.el.git")
                (commit
-                 "826a11d449a6cc8453093d79a8c031f43f753139")))
+                 "e13bbd4d58d31d34e4c8edfd34b095529d02ec73")))
         (sha256
           (base32
-            "183lvy7i71ilsp98hqifmdhagf2a57x7lbhw5qq0nzk4jjaam2yp"))))
+            "0733lb96hmvlm1437chrhgy6hdh5pi4s6wz946pad1id0yc4qzz5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -86228,17 +86228,17 @@
 (define-public emacs-persistent-scratch
   (package
     (name "emacs-persistent-scratch")
-    (version "20200921.2309")
+    (version "20220218.810")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fanael/persistent-scratch.git")
                (commit
-                 "57221e5fdff22985c0ea2f3e7c282ce823ea5932")))
+                 "4e159967801b75d07303221c4e5a2b89039c6a11")))
         (sha256
           (base32
-            "0fp9kqpbphzafd28xd30n7j4mibki56fg4xmfv13pbs459awrzdh"))))
+            "1f4s2rjgylqxjnx2885hc58215k3j162v0qlk2agq6m0hk9nn6fb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Fanael/persistent-scratch")
@@ -106862,17 +106862,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220216.1307")
+    (version "20220218.1203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "9b0525e5e83de3ce86666c3d147a30a6f10f01de")))
+                 "b83e7081038179a9db6fc63436bea962d6cd4911")))
         (sha256
           (base32
-            "0apbf523gcmg9qkldznfshas63fvjm172bh922faflqn8wp8jb4b"))))
+            "05xlg7mzc16f0dgbkl9wnfk6713v4zajksx6qigyd7lhvz6dcxgj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -113696,17 +113696,17 @@
 (define-public emacs-vuiet
   (package
     (name "emacs-vuiet")
-    (version "20220214.647")
+    (version "20220218.1024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mihaiolteanu/vuiet.git")
                (commit
-                 "0b46ce53aaf1b7d96ec2d9cedbd5e143bc27fec3")))
+                 "aed3272b95fc73fd78712ff7dcfc05916f382fed")))
         (sha256
           (base32
-            "0y10y5r0aa84w1z2aj16w4pxfsvda6a84hkyhc6xjng5sg3j3flh"))))
+            "0faxcgvi8r6nchvgh2dzmnawbv5qzsf1aiyfg3f39pskcrnip62v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lastfm
