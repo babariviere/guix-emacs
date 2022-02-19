@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220218.1429")
+    (version "20220218.2231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "5cce728528b1e04c460fb7f7300ed20a9afa6886")))
+                 "1d5571f57977067fa9e4ac3794b0cb0fbca5dc6a")))
         (sha256
           (base32
-            "002in4jhyiwcxcihivjbclwry9daz6sbla89pk3cylpn76lli9p0"))))
+            "0h4jpjc8ph88cy9dd7862f9mml0d91w6fhs5m1g54hch5qzdkw5f"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -18860,17 +18860,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220217.2037")
+    (version "20220218.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "4b1fa7e836c34ec82c8d4958d50226fa3f86a9af")))
+                 "ec0c707f0051a172eb87d6d04d40b8aaa69a575e")))
         (sha256
           (base32
-            "07xz5wbjm1k1g3hw5rrc0acjj4mdz14k33n78c64njcka3m0n4ib"))))
+            "0q6l89fj7c990nccpvcq327m5s5lc6scpkmi20j1d24j23vnpjln"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -20877,7 +20877,7 @@
 (define-public emacs-diminish-buffer
   (package
     (name "emacs-diminish-buffer")
-    (version "20220218.1453")
+    (version "20220218.1541")
     (source
       (origin
         (method git-fetch)
@@ -23165,17 +23165,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220207.911")
+    (version "20220218.1547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "30d15b121f58a26f503e3bb63aa5d74445114493")))
+                 "3cc3913c2b03f89020fd282563cab38e4e3c9d4f")))
         (sha256
           (base32
-            "0c5q4laawx6r99qabys40dwnqax5xiry9hi1d158bcl6kndyhz1n"))))
+            "1ayq3qmbij7bral1qdim46r9y545c4w8p1zk4iddvq8v32lnf45l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -28181,17 +28181,17 @@
 (define-public emacs-emacsql-sqlite
   (package
     (name "emacs-emacsql-sqlite")
-    (version "20220101.1820")
+    (version "20220218.1543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/emacsql.git")
                (commit
-                 "c82a0e6b4d256a3743b718cfb640fa9efc045f6e")))
+                 "374726060d74df0e2bcb9d0355ff41e2c400ed30")))
         (sha256
           (base32
-            "016lnzdsrwrghnnm8ljmzbqrcdj77pmg23nh3k3ayrh5n20ssdli"))))
+            "0z382qksrwhkv0ayjp8nays65c3xwd4kylj41k1pc3nnqg6b2k45"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-emacsql))
     (arguments
@@ -29099,17 +29099,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20220130.1525")
+    (version "20220218.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "cef2061bb70797a7db6b1bc739b2dbb41ce79748")))
+                 "57d78f0138d9c676dff182e713249ad055ccf85d")))
         (sha256
           (base32
-            "0vp658kijs1zk4ra55p2wpmwv3ngaqwnxbrj598jwg1a51psd9dl"))))
+            "12bs9ywyf30qrmhibbdvcf5i24mvq8l2j3y0fv32fb2ydk4lpcmw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -66224,20 +66224,19 @@
 (define-public emacs-lsp-ltex
   (package
     (name "emacs-lsp-ltex")
-    (version "20211024.809")
+    (version "20220218.2058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/lsp-ltex.git")
                (commit
-                 "f600d5f1d65c6209fa73a7bb916f6de2b60e5fc5")))
+                 "741a5400353e5c508151d95874e5dea057b7dfe8")))
         (sha256
           (base32
-            "1ss0b2rk22i58sl430844vi119maz9rd0j1zv9wkcn81k6wmrdlq"))))
+            "11qhwx52cdgypgni5159kbz6gi11l2h892759j3lns79857gr4v8"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-lsp-mode emacs-f emacs-s))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page
       "https://github.com/emacs-languagetool/lsp-ltex")
     (synopsis "LSP Clients for LTEX")
@@ -69392,17 +69391,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220217.1046")
+    (version "20220218.2024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "2cbb794904002362ab342d8b6b27addbb119998d")))
+                 "2a822b78e0483f2f32995c72870a16e43d3f0c92")))
         (sha256
           (base32
-            "1irdasnwfh512d4dkwcsihmc6a88bxd3g490h4wbn4x87z8pzhzg"))))
+            "1cljyk7b56idr0qh23sy6spfqws33mq3m4hwnsk8rj5qi0pr6pbn"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -71075,17 +71074,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220218.1550")
+    (version "20220218.1616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "f2d174c2103bde9c2d38e7029429c733cf5cbaab")))
+                 "cdc5a6000f24b712a7356180ef38ceb0b7928122")))
         (sha256
           (base32
-            "03yhpgm15l6wz890f0np35xpcm4498b9ikbw875w5rm1wf9pf1hf"))))
+            "1ss5aac846sd0q832lnv31hpvb5ndlnxyymdczb81p33mw7lrnr8"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -79662,17 +79661,17 @@
 (define-public emacs-org-kanban
   (package
     (name "emacs-org-kanban")
-    (version "20210315.28")
+    (version "20220218.1845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gizmomogwai/org-kanban.git")
                (commit
-                 "198ffa2066aadcdd9530dcc9b82cb5626c49e257")))
+                 "5310e208d151f460f9b7e3961b4796842e91a3ae")))
         (sha256
           (base32
-            "1lh7hgzbkmhv7hqc0fvgvivkihg96c41ms1v7rcknnp3f1kj195h"))))
+            "1d7v9vn9bli4lj59lbcldhplg46g79038j9avzicwgrysm74ybic"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("org-kanban.el")))
@@ -83028,17 +83027,17 @@
 (define-public emacs-outrespace
   (package
     (name "emacs-outrespace")
-    (version "20190724.1553")
+    (version "20220218.1936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/articuluxe/outrespace.git")
                (commit
-                 "d8c1619ec81fd3f4e728212a3526cd13bc2b0147")))
+                 "4b6f8a103b2ce76bb0638eac9356c462402b0665")))
         (sha256
           (base32
-            "0rcr85slklpaqhx5j8agd8yz6lg66qisniqlbz6zm4vvszqh0r4a"))))
+            "0dsiid2g93cc9k1385igbn26rqmdn1nr11l3gfaikcqbrh93pdgw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/articuluxe/outrespace.git")
@@ -83440,17 +83439,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220218.414")
+    (version "20220218.2137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "077b3494cba830bdaccb4091ec96ec48ec809fff")))
+                 "f0d06bdb8a2f6256f0e71e085e2761ea8e0c3a5c")))
         (sha256
           (base32
-            "0irkb7n6n4y4jrwn0bc2a6lr0a0j8f27zq3w2c8vhm32bx7crl1x"))))
+            "1vddvj2vji6p9x6pzpf4pckl4vzkd605vwlf1l5x8lsw81al8yjx"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -84612,17 +84611,17 @@
 (define-public emacs-paimon
   (package
     (name "emacs-paimon")
-    (version "20220218.1252")
+    (version "20220218.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/r0man/paimon.el.git")
                (commit
-                 "e13bbd4d58d31d34e4c8edfd34b095529d02ec73")))
+                 "a05e38a6303239d899afb116763f4fa06f2088dc")))
         (sha256
           (base32
-            "0733lb96hmvlm1437chrhgy6hdh5pi4s6wz946pad1id0yc4qzz5"))))
+            "08ab0x44fz44gxr9gwyh8zck8sf571snfl7pmj995dwbq27pqbjd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -104272,17 +104271,17 @@
 (define-public emacs-steam
   (package
     (name "emacs-steam")
-    (version "20220208.2122")
+    (version "20220218.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Kungsgeten/steam.el.git")
                (commit
-                 "08e7b3474bb065d128734b90cd8c6c9aa3b6aece")))
+                 "20aa58c5ccd85f6c4f288a14e79adc66e691cd23")))
         (sha256
           (base32
-            "1x1jdg6k75d3r26cikf7vfzh69sam39vlwcx4srqr5czl15c5ins"))))
+            "0hghcfvj5pr8hvrrqfka91yghaf1gzhc3jhv68dwaq01lbqnszqz"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/Kungsgeten/steam.el")
