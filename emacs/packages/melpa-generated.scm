@@ -111050,17 +111050,17 @@
 (define-public emacs-undohist
   (package
     (name "emacs-undohist")
-    (version "20210517.411")
+    (version "20220219.634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/undohist.git")
                (commit
-                 "56c6f58873f8ebb743e4dc5aff143744720375bd")))
+                 "94959e708d5a74913788324893d0b6dabc88ff18")))
         (sha256
           (base32
-            "1ayf2rgw0y0qa65s585408nxdqpq6vgyz8l015crk72l6hv35l8n"))))
+            "09gf5bm2kwgfx4b1rbnljarzj9mfbx3f0xiqias3cbj0x0lmwmd1"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
