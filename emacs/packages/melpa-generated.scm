@@ -2394,17 +2394,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220217.604")
+    (version "20220219.1054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "d2658536b58cb42e9f2dac551d42055b734552ba")))
+                 "2aca118abec76886a0689bcb4b6ba1049ff4e297")))
         (sha256
           (base32
-            "0mn5dqcfs4z5lsl5104zf7km819xcxpmdk3v7r9dnrnny3al7qfi"))))
+            "0h6sq20pg3g68p4a0ziy8n41h236q9vfc21wx7qs5g9v6k3pbdng"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220218.2231")
+    (version "20220219.1309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "1d5571f57977067fa9e4ac3794b0cb0fbca5dc6a")))
+                 "f2ec9b3f31ad485302425e9c4171fbe578531b62")))
         (sha256
           (base32
-            "0h4jpjc8ph88cy9dd7862f9mml0d91w6fhs5m1g54hch5qzdkw5f"))))
+            "1gb16a33ixkgcd720vq5gi0i15rb3ygmg8xxnqslzf81wy2xd6x6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -20442,17 +20442,17 @@
 (define-public emacs-dictcc
   (package
     (name "emacs-dictcc")
-    (version "20211007.1016")
+    (version "20220219.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/martenlienen/dictcc.el.git")
                (commit
-                 "235841b19567b9c2e17727901ca041a22c096512")))
+                 "8ecb954fcf193cba138191f8947c8b0b60a1c6c5")))
         (sha256
           (base32
-            "0lsqf199gxsgdldmizf7frn8ngbn3fjj81lc8lx30l3ib7d40493"))))
+            "1alpycrazpk2lgsgmqspxjcpirsppn8zcwa4znsh7rxb2v3y1ih6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (home-page "unspecified")
@@ -31976,17 +31976,17 @@
 (define-public emacs-evil-iedit-state
   (package
     (name "emacs-evil-iedit-state")
-    (version "20200830.617")
+    (version "20220219.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/syl20bnr/evil-iedit-state.git")
                (commit
-                 "30fcfa96ceebed0191337c493f5c2efc8ae090ad")))
+                 "6f7b502447ba35676375169d7707372ebad2791f")))
         (sha256
           (base32
-            "0aqwjd7pmzxf7l768vyqqgjzmqdwlpznh30w5bdr7yh79r6xm6n1"))))
+            "0vjzjmp3ba0nzf0v04bhxvzgdwwm11vivxqjzgnvp3kq95kajr5h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil emacs-iedit))
     (home-page
@@ -67137,17 +67137,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220217.349")
+    (version "20220219.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "f9a15cb349b24ce705cae3dde646a1e027dc54d5")))
+                 "991de20f76644bde6fc653bfad294acb82167cbc")))
         (sha256
           (base32
-            "1w0ld6wl9k4r6yzx4a0xhxkpz1bkndh5rvlzkkml8dfyaddcvqa8"))))
+            "0ja63qyzcb92hqqzkkli813w6l06407gqiz4nnw53f6r83hv8r1s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -92940,17 +92940,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220217.2016")
+    (version "20220219.1340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "2f7b12cfebbde9f2436959387d4348cc5869a6bb")))
+                 "52e993f3b39416eeb4df6262491d4a42d0b35232")))
         (sha256
           (base32
-            "04zwhzmm6fx727xd8712xn3lh1chx0vcr2yxg0gsg1fg00p68gjj"))))
+            "00qc3nj6lmwb3xyqgd601jwsjv1dn3pndcy9ax2ifwjlrj2x2i9f"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96991,17 +96991,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220217.1820")
+    (version "20220219.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "6f7a6055cd5f21903ec1e405be096fafc03626ed")))
+                 "b3f4442f7198eee758958196f89a150f8de8963a")))
         (sha256
           (base32
-            "070kw2lcj5lk1ps9azsamx1wz7zy9c7w51384pwanwc72fwbsaxb"))))
+            "18br5yfakfwcbw3vkawhw5sm41xg78cz4bimz36x5xcgbwi88k3p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
