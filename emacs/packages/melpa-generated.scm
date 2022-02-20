@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220220.124")
+    (version "20220220.1222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "1ce90d2e21c7bcbca2ce1a83a827ab98099ee892")))
+                 "f24b363f04644c7602af24d3fadb89f321499442")))
         (sha256
           (base32
-            "0zh3gwkvpbas0djs45cj24mc6lwhkhqaiy0i8xb1ss70ykm6w1gs"))))
+            "17x94cyjrmy1zj9bl1djqmjy9ibn4gs205imkigsvy5vy7lzck14"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -22827,17 +22827,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220219.2108")
+    (version "20220220.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "af4a88ac8b0a298a62514b65a908ed3cee1c023c")))
+                 "710a5ed1bdad9a6a9dd97409993306e08a89d59c")))
         (sha256
           (base32
-            "0s7w6whycvrmvp4h02xnkjrjj26slr5d5wlfyzrchdh88aaws3db"))))
+            "0xpasqd4k85b2cjmgwasypc6n6zacrcsdj5q4lpxdqirn2i9yky9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -47525,17 +47525,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220220.459")
+    (version "20220220.839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "f8f19a61222b55d41aed3f63de0e1231e1e56997")))
+                 "2e252559667ebe27485aa990a5ec062f94b67835")))
         (sha256
           (base32
-            "160dicc9w154x7fzg3pbmpvllrjh2x4aghghxvvjmf8rzrmipf3z"))))
+            "0s2ags1ashr1mk5g5x467xh0ffxzkmyhr9w86qgmjnq37r0iw5zi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -60807,17 +60807,17 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220212.814")
+    (version "20220220.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "f60f57ad3e8c97509af3ea925dbb3afa2a25f814")))
+                 "b0c1fa0ea5317220e573ed29a2607e5f583111ee")))
         (sha256
           (base32
-            "1gkfz54x80a5k1nw2dmcqs3m7cp1zsm7v7hmbz9xzrszfdiq5zil"))))
+            "1ki0vbyylgg041vc70l3j7w28sri612mrgn425d5jyz1gdrg4d3s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -67208,17 +67208,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220220.201")
+    (version "20220220.1252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "222cbb30f9fcbbb619b5c826301566c8efbae463")))
+                 "aeda0e08f3a80f80732054edfecebe0a4f60fdc1")))
         (sha256
           (base32
-            "18g68hi0mmq1g0f3ql1sa1c40xd1c6z8l6qardai5m5ak2ymc3aa"))))
+            "18bijrjsy6qi20ch2yg0bny182y2bkisw7yirp9fb3rwv87xbipl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -97109,17 +97109,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220219.1519")
+    (version "20220220.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "b3f4442f7198eee758958196f89a150f8de8963a")))
+                 "eb5ca14809f28a8774c7212081984c8fbb41a95d")))
         (sha256
           (base32
-            "18br5yfakfwcbw3vkawhw5sm41xg78cz4bimz36x5xcgbwi88k3p"))))
+            "0mrw7myijfvx3b8yjvq0p5a1nxxm8yqz614449ycwv9h7mh0ysxj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -118573,17 +118573,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220217.2020")
+    (version "20220220.723")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "b29e0fd14d76398fca18b9d221fc859890de5fa0")))
+                 "b91a310a150a38234f9f22050e40dd803c7e032b")))
         (sha256
           (base32
-            "18a5df1l8wf5n9c38z4xp9x5gsprf75lysr4xbjqwrda735xv1wg"))))
+            "0ljqm4g7rnrfr81ibdc8wgwnrc0llhbh25i7dsfaf8j2jphafa0w"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
