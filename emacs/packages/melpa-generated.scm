@@ -20309,17 +20309,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220217.1624")
+    (version "20220220.1223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "783e9a6d4b0a36dfb646e3b9dad19c54018f7195")))
+                 "c8f5ca5c01c5a9881da779402ef370f712119a9f")))
         (sha256
           (base32
-            "19hlrz8vhabxgbdbqgkiav73wnfb33kb1nv53v8v0jvz9gh7a33j"))))
+            "0g2xh7kbds8pxxvgik81azy78f1zjqqnk9i9ddbvsaxldkhrv9b5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -21983,17 +21983,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220214.1730")
+    (version "20220220.1823")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "55d0a5cbfcf2c4d14ce049eece102c48bdc774b2")))
+                 "0d21876b8a5db2e2d5999ddbe0514c6e0c0bd79d")))
         (sha256
           (base32
-            "1cqjwmra0llmj7qn0661yi9aawy3snbjjzmmv3c70qs0nzgws19d"))))
+            "05crcbqb7y6vw2l2vaxsgk6p7aq908cr1fp7xfymkchq0v9hzip0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -22954,17 +22954,17 @@
 (define-public emacs-dockerfile-mode
   (package
     (name "emacs-dockerfile-mode")
-    (version "20211016.1545")
+    (version "20220220.1439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/spotify/dockerfile-mode.git")
                (commit
-                 "5db94549ce8b000ae35adf511c820ad228178052")))
+                 "11c43de04b128b7638cd98a1e80be2b661c18fbb")))
         (sha256
           (base32
-            "1qldv6zcayj8sqjdl16g9rwxa0dzyja2r5d6v7kch9559vif1nyb"))))
+            "0nmybfc9qch0jng06qgs2xb41dl9v52ckc9nc20d7hv3x36w555x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/spotify/dockerfile-mode")
@@ -25386,17 +25386,17 @@
 (define-public emacs-edts
   (package
     (name "emacs-edts")
-    (version "20210630.1626")
+    (version "20220220.1753")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sebastiw/edts.git")
                (commit
-                 "5564f5292eba339afa7760af9467c896ccd708da")))
+                 "603e182f8f0a4140e6cbf71c2d73673cd08028ee")))
         (sha256
           (base32
-            "0dkpijsfprlckaggnzmarrbny2qn02927s0fh94dql2gqkvfxhd0"))))
+            "0zvbahgm910sdasq1404lyxxan0mrcpzcjwm64jpzinx2i0bai5j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-auto-complete
@@ -26464,17 +26464,17 @@
 (define-public emacs-eldoc-box
   (package
     (name "emacs-eldoc-box")
-    (version "20220216.2221")
+    (version "20220220.2003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/casouri/eldoc-box.git")
                (commit
-                 "3efb59ab784a704f075e4925ecadb1999c950440")))
+                 "646ae5cdd8ccbf5d78eb0488298b7c5e9c9a18a6")))
         (sha256
           (base32
-            "0fzz8wpnqf5b4kafm4a7r6x4dnczf48jxqmxgbs14wh2wrxazr82"))))
+            "0y2502b0d0fy2pm7kklv5262maxky2y2y8nw223f4f3bicbymxwy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/casouri/eldoc-box")
@@ -26676,17 +26676,17 @@
 (define-public emacs-electric-spacing
   (package
     (name "emacs-electric-spacing")
-    (version "20211025.1016")
+    (version "20220220.1540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xwl/electric-spacing.git")
                (commit
-                 "859f4ab05eff9b00b3fd460b69010a03e010130e")))
+                 "c37b2502512dd49a8311d7c34e9bfd1af3d4dbcd")))
         (sha256
           (base32
-            "1s10sn14386dgjxkb7y6mlf5amcb5pq5p3akr0xjdh0dkdwy3db0"))))
+            "04p7bxlm82c7f28sskr044p1vyyffa3wir75b430d82by53b6yrj"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -27357,23 +27357,20 @@
 (define-public emacs-elm-mode
   (package
     (name "emacs-elm-mode")
-    (version "20210525.152")
+    (version "20220220.1657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcollard/elm-mode.git")
                (commit
-                 "f2e2d0053f3272d9fc0c2e16c8d17d97724cf524")))
+                 "70734a1eed6f008135c197e115ca5f197e47ee0b")))
         (sha256
           (base32
-            "1gaddxw63d5fna43d7kc3px9sbd2knbjga0lx2zz0lsbcjr54pzr"))))
+            "1dgk8r1mbc6lmji4by0111sx61zmwlnbi1jd2k1bydhdmbpdi04w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-f
-            emacs-s
-            emacs-dash
-            emacs-reformatter))
+      (list emacs-f emacs-s emacs-reformatter))
     (arguments '(#:files (:defaults "elm.tags")))
     (home-page
       "https://github.com/jcollard/elm-mode")
@@ -27731,17 +27728,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20220203.108")
+    (version "20220220.2059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "9b458c80dc1bcecb6345e157d8e921c1e4e8a7ea")))
+                 "758c1ab3516b1e38fdc5b978da6252284f4ecade")))
         (sha256
           (base32
-            "1dniwj4lbmmwk715gi8kykp3c953migh0bs1br3vk1w2n8d6lax4"))))
+            "0mldrhqppm3cqrdl836g3rzd6l29ynjvz4b747n0z86sj1chgn54"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company
@@ -28060,17 +28057,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220209.1510")
+    (version "20220220.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "634924587be831bcb3ca47e97c104216516f9ca9")))
+                 "f23230e67c45536501d651ef6b93546b4ac9fe4f")))
         (sha256
           (base32
-            "0mmd5lr424mn76yrk61cjmzwi6q0ilji209jnc36lclrdyyx3r06"))))
+            "0x9kfrcf59l0ql9b71a4hbgxjl9lb5w0fwydxcyz5ib0yk5nca55"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -36124,17 +36121,17 @@
 (define-public emacs-flutter
   (package
     (name "emacs-flutter")
-    (version "20220213.1334")
+    (version "20220220.1423")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/flutter.el.git")
                (commit
-                 "8cc0507cc6619cb9ec236c4eca7417ac081f1468")))
+                 "08138f8c95488aaf315a1f5d52c33deb8d28672b")))
         (sha256
           (base32
-            "074dkgpflc9pgpwfmha2cjfyyk6fac968nsw30mfi8ifb1gqvl28"))))
+            "0h4r6m9yi5pvqlc4a3m2kc8jl1ywp4vv8bgmnkzy1aa7i8lb94c3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -56817,17 +56814,17 @@
 (define-public emacs-init-open-recentf
   (package
     (name "emacs-init-open-recentf")
-    (version "20210528.1902")
+    (version "20220220.2004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zonuexe/init-open-recentf.el.git")
                (commit
-                 "c019ea85a9c589815b0af60153858d09bcef130e")))
+                 "51463effe54ca9390ec339b9678968f35a40dbfd")))
         (sha256
           (base32
-            "12jwz0ssfxz1z55fb7v978xz8pwnclnqnzq5pqggzb06zkfxx7iv"))))
+            "1f1y3wafix0xvffkckbx3yh1sf548xvk6v3lshy859nbcbm4nbha"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/zonuexe/init-open-recentf.el")
@@ -67208,17 +67205,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220220.1252")
+    (version "20220220.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "aeda0e08f3a80f80732054edfecebe0a4f60fdc1")))
+                 "f0296148a64f8058f920e3ae90c418087c966344")))
         (sha256
           (base32
-            "18bijrjsy6qi20ch2yg0bny182y2bkisw7yirp9fb3rwv87xbipl"))))
+            "0wjmdkpwna48a5q632bczicq3mliz21vwnwlwwzbz3fr6g39jdkc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81056,17 +81053,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220220.312")
+    (version "20220220.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "d20480bb8d86764d0ce37906fcda0484b46ee7fa")))
+                 "25d828c32e3a0da6b97b574cc96d3fde8fe66a17")))
         (sha256
           (base32
-            "1yjdxb5z9rif23351h5b9g3zakij1gc2xs13rpigs9f29439gbb3"))))
+            "0h8hdk984w6n5dpjxrs1653p1n53m83z42r7qsbz246nmakcf242"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81944,17 +81941,17 @@
 (define-public emacs-org-variable-pitch
   (package
     (name "emacs-org-variable-pitch")
-    (version "20210414.1844")
+    (version "20220220.1757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cadadr/elisp.git")
                (commit
-                 "8a3b529d5ece261a8847298ea03ed35615cc9bfa")))
+                 "350af0e5d53307c900e4f8b2617f3852f51a74d2")))
         (sha256
           (base32
-            "16zalqjd2llwkp7v0218crgf3k34py8zx6lj6z7i3kbmxm9nb27q"))))
+            "097pd9ihnzjiaxbzrabcw0016wdwrljs9b5s6cbkrrbgicngb8vj"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-variable-pitch.el")))
     (home-page
@@ -109026,6 +109023,29 @@
       "Documentation at https://melpa.org/#/tongbu")
     (license #f)))
 
+(define-public emacs-topspace
+  (package
+    (name "emacs-topspace")
+    (version "20220219.1645")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/trevorpogue/topspace.git")
+               (commit
+                 "976971f4a9a21dbe5fbd89a9be3ae694de51bc44")))
+        (sha256
+          (base32
+            "0masa98i6ycn45i6wsbvg4n4nl5s7y9sl191pr94z51hyhkjb87s"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/trevorpogue/topspace")
+    (synopsis
+      "Scroll above the top line to vertically center top text")
+    (description
+      "Documentation at https://melpa.org/#/topspace")
+    (license #f)))
+
 (define-public emacs-topsy
   (package
     (name "emacs-topsy")
@@ -118591,6 +118611,29 @@
       "Functions for working with Zettelkasten-style linked notes")
     (description
       "Documentation at https://melpa.org/#/zk")
+    (license #f)))
+
+(define-public emacs-zk-index
+  (package
+    (name "emacs-zk-index")
+    (version "20220220.1952")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/localauthor/zk.git")
+               (commit
+                 "3cca6a7271c9f7975828c9bcfa0d761a05c8e4a1")))
+        (sha256
+          (base32
+            "07ragi8jagq3b0d73gz2g9qz6h0xl9akrfasxah6qzw811q0drvm"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-zk))
+    (arguments '(#:files ("zk-index.el")))
+    (home-page "https://github.com/localauthor/zk")
+    (synopsis "Index and Desktop for zk")
+    (description
+      "Documentation at https://melpa.org/#/zk-index")
     (license #f)))
 
 (define-public emacs-zlc
