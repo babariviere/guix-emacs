@@ -12314,7 +12314,7 @@
 (define-public emacs-clj-deps-new
   (package
     (name "emacs-clj-deps-new")
-    (version "20220221.2012")
+    (version "20220221.2235")
     (source
       (origin
         (method git-fetch)
@@ -14477,17 +14477,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20220210.305")
+    (version "20220222.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "74922fcd0c4bd1102d10bd40b63fc36756330969")))
+                 "122cdecee0a269b014471875f3eb29cd8af96d6e")))
         (sha256
           (base32
-            "1v8maaxhpz4kbrjwi6753y48m7396g64b3wg7fwncmbdyzqbjrsw"))))
+            "1wnh11m9pqlin58izx5w72a807pi59dj7mfhl5jfvsk7ds29yb04"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -37250,17 +37250,17 @@
 (define-public emacs-flycheck-grammarly
   (package
     (name "emacs-flycheck-grammarly")
-    (version "20211231.914")
+    (version "20220222.638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-grammarly/flycheck-grammarly.git")
                (commit
-                 "1352c1d970e42afbbb93d029636e17aa7b921cd0")))
+                 "7ded0a4f36b88867ec6b14a791dc4d14baf09bd5")))
         (sha256
           (base32
-            "0m6zhqm0n3fhni5h7ky18zrcmmw3rwizq6wrpl1cnbyp38vljl7h"))))
+            "0q3bhfjb0cr4f0g9dyyz70lgzzzwa3k77ahyhkc1jscmjafsjs5i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-grammarly emacs-s))
@@ -39064,17 +39064,17 @@
 (define-public emacs-flymake-grammarly
   (package
     (name "emacs-flymake-grammarly")
-    (version "20211231.914")
+    (version "20220222.638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-grammarly/flymake-grammarly.git")
                (commit
-                 "57d6d69b1b55eca484d643d180682a7e683b4b0e")))
+                 "ae2190f47b8e0792ae936f972081de5a5b796d95")))
         (sha256
           (base32
-            "0a2azplyv9mp6xjjxdff35sz2r65h4svnrrsraib9jvz5hbqmny5"))))
+            "1k66jv6nqmaazibr212swhkn4y3dkzwrg7f9mvpig19abfima6yn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-grammarly emacs-s))
@@ -46143,17 +46143,17 @@
 (define-public emacs-grammarly
   (package
     (name "emacs-grammarly")
-    (version "20211231.919")
+    (version "20220222.638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-grammarly/grammarly.git")
                (commit
-                 "ed552610a59fdd2f8fe5bcbf50e3ebc3b5d383f7")))
+                 "b340f523caa88534a89f5fa9fd0fae502e56a12c")))
         (sha256
           (base32
-            "0jr1dxpsp33zi744rsk2djnix5lyqy8qfiqi9nyb37vzffpzdpgi"))))
+            "0f8nr981n7ndc7zvj21hsfqiy4h1ry5r1vz004lggphb2lzpzgyn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-request emacs-websocket))
@@ -61755,17 +61755,17 @@
 (define-public emacs-keytar
   (package
     (name "emacs-keytar")
-    (version "20210523.403")
+    (version "20220222.639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-grammarly/keytar.git")
                (commit
-                 "584395339f85a95ffe3ade3f4e30898bad495ecd")))
+                 "f0f8b04f9f8e7863bdd3459d6ee6fd88ecd55dcf")))
         (sha256
           (base32
-            "0vqi7cq8952idymp9hm89v0pin5icj7ng2wxdsysqsy2crfyd5zm"))))
+            "0vkaz5ifqasn2q51hnx024pdbr48xvx07g1rclfpw26990ah6yqa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-grammarly/keytar")
@@ -65074,17 +65074,17 @@
 (define-public emacs-litex-mode
   (package
     (name "emacs-litex-mode")
-    (version "20220214.27")
+    (version "20220221.2240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/litex-mode.git")
                (commit
-                 "5cb1b1a0dd16f2bb13f0aba1a5c77347f7369e88")))
+                 "bad847232a9453db76a9a1de024bdcf4ed1e97e2")))
         (sha256
           (base32
-            "1ypsbnha638szg0jyq8rp324w6zv364qjblzfdp0fziacw4hlq4j"))))
+            "07sic5ihf4680kcyw34gm1hyli7p63778awn697555bnmbd7y5as"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Atreyagaurav/litex-mode")
@@ -66064,17 +66064,17 @@
 (define-public emacs-lsp-grammarly
   (package
     (name "emacs-lsp-grammarly")
-    (version "20211120.1840")
+    (version "20220222.638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-grammarly/lsp-grammarly.git")
                (commit
-                 "02c1d83c6e7ef703ce7426f8eff2c3fc7733cf72")))
+                 "f54d1a7ec9ee1b7bd4fd71490038064d49caa1b5")))
         (sha256
           (base32
-            "06qrd42hnz0cg28wkxcwb2mi0xpsgdy0yb8x9x7k23hzwdv6wrr6"))))
+            "0vjwwfl54lm0szsrr40mjzk3r10j0cmiks2gbwhf1aa948lwda82"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -66291,17 +66291,17 @@
 (define-public emacs-lsp-ltex
   (package
     (name "emacs-lsp-ltex")
-    (version "20220218.2058")
+    (version "20220222.656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/lsp-ltex.git")
                (commit
-                 "741a5400353e5c508151d95874e5dea057b7dfe8")))
+                 "daad61dbdbdac83267c6de04a13f8e2ecde3226d")))
         (sha256
           (base32
-            "11qhwx52cdgypgni5159kbz6gi11l2h892759j3lns79857gr4v8"))))
+            "1aky40r4850d4203wj1wxgx3xq0pb8rdvcv3b957nclvn8fmzvzw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -79384,17 +79384,17 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20220119.2142")
+    (version "20220221.2338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "6e26ae75aea521ea5dae67e34265da534bdad2d1")))
+                 "d700950b89b92ca330b4efea0f8f7b64812e29ff")))
         (sha256
           (base32
-            "1814w5bgf9zwvsga4926i002q2xg2qgyrmb2jlkc7gzv0j86ccv9"))))
+            "0smqck7s5dyq8gbinv0lkcinc0cyavs10a6f72g3654qx2b13afc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request
@@ -95935,17 +95935,17 @@
 (define-public emacs-rime
   (package
     (name "emacs-rime")
-    (version "20211210.1806")
+    (version "20220222.228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DogLooksGood/emacs-rime.git")
                (commit
-                 "5c2ade217134f6f20cd405447af20825e5b44513")))
+                 "e5727c5218a4345adb9b960cf6f4202246aea70c")))
         (sha256
           (base32
-            "1yp92sfirvcz3s2q8j8g6qlcmb7pn30m9ww4nc332m1axah7l05n"))))
+            "14vifq3ksmr0dg4lp293pgr70j76ajasvrm9j9hf3jspq7hbxb0x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-popup emacs-posframe))
@@ -102255,19 +102255,19 @@
 (define-public emacs-snakemake-mode
   (package
     (name "emacs-snakemake-mode")
-    (version "20201224.1744")
+    (version "20220222.515")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kyleam/snakemake-mode.git")
                (commit
-                 "592901893f297099ffb759b4d1359bcd3411d1a9")))
+                 "f6abb59d4f3b97d9519b075157f4bb19efac494b")))
         (sha256
           (base32
-            "0rmvzrkx56zrlziln9cbq9p7lpm7jlv6i1mfrzrqhri239xlybn4"))))
+            "10mg9665y7cafkqb7yagr4wkirpmchnpj3j232dcf0wyfg42bncp"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-magit-popup))
+    (propagated-inputs (list emacs-transient))
     (home-page
       "https://git.kyleam.com/snakemake-mode/about")
     (synopsis
