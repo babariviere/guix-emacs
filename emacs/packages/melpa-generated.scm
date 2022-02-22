@@ -5550,17 +5550,17 @@
 (define-public emacs-avy-embark-collect
   (package
     (name "emacs-avy-embark-collect")
-    (version "20220221.1543")
+    (version "20220221.1638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "85c332af00943dae5dafdf135c6803f69ebb2b18")))
+                 "df4cdfd497361cf65f68052c1bb31d321c902269")))
         (sha256
           (base32
-            "0fljn0s64i1wg7xaqz4qqiphr55q7cw0pb5r4gyli1g4pkglmydn"))))
+            "0ab8xjfccpir9k33illgm27d3k3fqrr03lm2028rc2gnna3lyi71"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-embark emacs-avy))
     (arguments '(#:files ("avy-embark-collect.el")))
@@ -12314,17 +12314,17 @@
 (define-public emacs-clj-deps-new
   (package
     (name "emacs-clj-deps-new")
-    (version "20220221.1509")
+    (version "20220221.2012")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jpe90/emacs-deps-new.git")
                (commit
-                 "717fad92cfe5a11579b0e18228d491c1013aa4ca")))
+                 "7610809815cedcd3078fb83e16a58deb12a295f8")))
         (sha256
           (base32
-            "1arfp7xx6hvp61c126c81ddfjsscpn99ziqapgbyf3yxhxgczdyr"))))
+            "0glk32b8aj9l2z7icczwlwrjj6yyp1m12m8vlq3z8bbbhzqpdmss"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (home-page
@@ -26437,17 +26437,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220219.2111")
+    (version "20220221.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "4bb088f2bc93ee72cb2d94d687512ad26193a594")))
+                 "7be0cb16ce5d9d3139b4ed1724ac6d8292935267")))
         (sha256
           (base32
-            "0xifi4aiir67wp6k3c8fpfmb459rxwasd5zmava9k7jmifxn2532"))))
+            "0yb8rpv6yi47kdk6gaav063zqq3l4jlyb4wk95abwzkgjcmjc4ky"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28366,17 +28366,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220221.1515")
+    (version "20220221.1710")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "85c332af00943dae5dafdf135c6803f69ebb2b18")))
+                 "df4cdfd497361cf65f68052c1bb31d321c902269")))
         (sha256
           (base32
-            "0fljn0s64i1wg7xaqz4qqiphr55q7cw0pb5r4gyli1g4pkglmydn"))))
+            "0ab8xjfccpir9k33illgm27d3k3fqrr03lm2028rc2gnna3lyi71"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -47961,17 +47961,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220218.1256")
+    (version "20220221.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "011cc63cd2b01bcd4ee5c27ac7efdefcab882191")))
+                 "5e7c9a79207fdd878212b6ec6c989a40b1014d18")))
         (sha256
           (base32
-            "1fjn3ajzyqd87j21q5i6j8h5a9az4spkkqg32cp967vfmyf5swsg"))))
+            "1a5b6x4jira811970xlb3lzlypbjvm692dpwpw9674ly5gpcbn1p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -66346,17 +66346,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220213.906")
+    (version "20220221.2042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9b3a9215807af0727b514e8c7cf440bcc0bdad44")))
+                 "fc5c06c562cea739e2a969f261aa8670120a4c82")))
         (sha256
           (base32
-            "0wq2nrg7dfd5570q5s8w36z3c8brsdby1q9iqfxrab7v1byxzyd8"))))
+            "0gvy5bz2l3dz4gx30hbjfr22f4n2wcjf8wsww5iwmgnz0ngnnclj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67204,17 +67204,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220221.403")
+    (version "20220221.2158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "314b24cb405fa14880c2affc447c1d1fae22f893")))
+                 "68be0584f464b6aa2a7d026339835ee70f472e92")))
         (sha256
           (base32
-            "0s63pj9fsyrh7xpjlx6s17d285qy8957wf38i921g2znyc35y767"))))
+            "0z0avqbsl6dc4ri149amzqf987pmgrh7gvld5ygx65yd7ifph3ry"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -106999,17 +106999,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220218.1203")
+    (version "20220221.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "b83e7081038179a9db6fc63436bea962d6cd4911")))
+                 "8402e7e2f016e372585273df35ea8484a7c4854c")))
         (sha256
           (base32
-            "05xlg7mzc16f0dgbkl9wnfk6713v4zajksx6qigyd7lhvz6dcxgj"))))
+            "0k9q83xllhl1bmyrraylb38q285s96p43cbiagkq4lghib83d03l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -109025,22 +109025,22 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220219.1645")
+    (version "20220221.1838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "976971f4a9a21dbe5fbd89a9be3ae694de51bc44")))
+                 "4a69b2eb741f8db9d69169a03a6724af0f2ec7ac")))
         (sha256
           (base32
-            "0masa98i6ycn45i6wsbvg4n4nl5s7y9sl191pr94z51hyhkjb87s"))))
+            "026as84ahz4s5kwl4ihhz1ym6jkz0w02mzsjwr79alkry6gs6fsb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
     (synopsis
-      "Scroll above the top line to vertically center top text")
+      "Scroll above the top line to vertically center top text with a scrollable top margin/padding")
     (description
       "Documentation at https://melpa.org/#/topspace")
     (license #f)))
@@ -118259,17 +118259,17 @@
 (define-public emacs-zenburn-theme
   (package
     (name "emacs-zenburn-theme")
-    (version "20220130.1555")
+    (version "20220221.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/zenburn-emacs.git")
                (commit
-                 "50e9bb9bcd62edf29d29a29b2b9b6b845db68174")))
+                 "cef1e26146c1b8b32fc5ce346f2cfa9861eb67d4")))
         (sha256
           (base32
-            "0yp0szhncygbb5cl7ai0296fiiz401r1wf7xm9kix3h2211zm5id"))))
+            "198n2pikpvk65bqivw7f8bvy9j9mpc2149zxzqc16m2868l9ngsx"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bbatsov/zenburn-emacs")
