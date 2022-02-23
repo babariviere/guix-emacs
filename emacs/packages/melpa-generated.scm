@@ -23239,17 +23239,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20220216.1451")
+    (version "20220222.2326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "9253497b6b1f86ea682313744b3eceb629918508")))
+                 "83fd9545c2823b4b2610947802fa3a52995517b4")))
         (sha256
           (base32
-            "14vbj663v7zsahs94nfkxfg15iw6d7b2577cv4vyfqxv9q29rwg4"))))
+            "0jrmmdz7s6jlq7h6dpxfgx1wvvzwam3rq5dgsqqcn383d9i7zbmb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -71141,17 +71141,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220222.1722")
+    (version "20220223.541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "fa6a81ac91cd95b53869942378eb0083c839b0e4")))
+                 "7b203db9e4295903792d999c40eb912b107ad30c")))
         (sha256
           (base32
-            "0ic95nlxj3sydg4yz2am230a68g0bvgkypvv1m3whdfjnr4bcwwg"))))
+            "1mnfbr312dqifsdngb29kvggfirfclc9ncaw5srd52hnwc5n0rxi"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -102255,17 +102255,17 @@
 (define-public emacs-snakemake-mode
   (package
     (name "emacs-snakemake-mode")
-    (version "20220222.515")
+    (version "20220223.218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kyleam/snakemake-mode.git")
                (commit
-                 "f6abb59d4f3b97d9519b075157f4bb19efac494b")))
+                 "0dfeaff6079558c39081c2c078c41369da01903b")))
         (sha256
           (base32
-            "10mg9665y7cafkqb7yagr4wkirpmchnpj3j232dcf0wyfg42bncp"))))
+            "0mir9ic4ywhyhhsn7y2qwy2s5h4qlrxz11mrs6680d2ki1bnyc81"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (home-page
@@ -109025,22 +109025,22 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220221.1838")
+    (version "20220223.557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "4a69b2eb741f8db9d69169a03a6724af0f2ec7ac")))
+                 "532509d6ce9141ef8d15b32210a669ca969c8bd3")))
         (sha256
           (base32
-            "026as84ahz4s5kwl4ihhz1ym6jkz0w02mzsjwr79alkry6gs6fsb"))))
+            "11ryqk4cs07jvf56bg3d95vqwqfg8nf1rp85v5l2a3gkx46fsss0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
     (synopsis
-      "Scroll above the top line to vertically center top text with a scrollable top margin/padding")
+      "Scroll above the top line to vertically center top text or cursor with a scrollable top margin/padding")
     (description
       "Documentation at https://melpa.org/#/topspace")
     (license #f)))
@@ -118592,17 +118592,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220221.1035")
+    (version "20220222.2250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "69e1e25188ad2bb925b12e1426a5afd9e11fa714")))
+                 "08f996693213ec1ff960aab0895151683e846ef1")))
         (sha256
           (base32
-            "06lb9c7v1w6wxx9fyrjc1ax9zky1kc3wfbn3pbamwf6c4jjaz25r"))))
+            "0p8l39rawlpd27j6mza4ag5gkmj73xvnwqv8zhxvhhvipb82w43j"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
