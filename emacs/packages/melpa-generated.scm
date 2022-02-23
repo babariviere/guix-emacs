@@ -6425,17 +6425,17 @@
 (define-public emacs-bazel
   (package
     (name "emacs-bazel")
-    (version "20220222.1452")
+    (version "20220222.1616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
                (commit
-                 "599f971d86ccdef298735b389805bd4aaca6287c")))
+                 "e07a16666154c8ddc65ddaae599d58b25727350d")))
         (sha256
           (base32
-            "0xm86rk8s9g4x33jd276fi4h2ilavnh5lh074izyrqld419bmv2h"))))
+            "0kdlhp3h2kkijxsmd7jhrbb1dgs6x5q3gpw4qv5ij89xrlxanz7d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bazelbuild/emacs-bazel-mode")
@@ -11539,17 +11539,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220221.1406")
+    (version "20220222.1710")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "956984faa1f8a5edc9eb94eacdf530cb9404850b")))
+                 "7a072d8374eb92c8164b436ee271abb5e9e351e3")))
         (sha256
           (base32
-            "03xdc20kqcvi4mxj5apzvr15by9kxby4m473m0iah6g96fmgjx8z"))))
+            "098h86i41dqxydmhx9akiyixnz846i7jhl1hcsz7dnwl7ibbz14k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -22826,17 +22826,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220222.1508")
+    (version "20220222.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "641258c0bdee3f477ab710d1fa65cddf41cb24db")))
+                 "78881bea51c74ef171788fa989908cd51f5b3f8d")))
         (sha256
           (base32
-            "0f65v065020wwr3jp2xaqg9q8m7z26qrbw3ir4f7g0l793ypql3i"))))
+            "0wgdabjkcwi9a3615imny8xysbrydnlcz9rmkavp22kypk6ydcjw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -31588,17 +31588,17 @@
 (define-public emacs-evil-colemak-basics
   (package
     (name "emacs-evil-colemak-basics")
-    (version "20211125.2021")
+    (version "20220222.1856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-evil-colemak-basics.git")
                (commit
-                 "ddea4486de929c399745713a6e616df50b22dedd")))
+                 "66648de206a7368013f28c0d053b1b32c3efe6c6")))
         (sha256
           (base32
-            "1ld9iv6ysk28ps6gx6jgrqyazyqk1xd17a4fhf94m2hy7jzakwaj"))))
+            "1h9d9jicvc8kdw8yfpsasl038h7s6zpfh1gjfcxn3lwgfmfnjkh1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-evil-snipe))
@@ -71141,17 +71141,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220222.937")
+    (version "20220222.1722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "f3ff0bc0089051cea85e39700ec148c1a40aeba4")))
+                 "fa6a81ac91cd95b53869942378eb0083c839b0e4")))
         (sha256
           (base32
-            "0732ssr59gn2rd4w345xxq897vn5jrp3ygpym34n6kk0xngjpr53"))))
+            "0ic95nlxj3sydg4yz2am230a68g0bvgkypvv1m3whdfjnr4bcwwg"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -75281,17 +75281,17 @@
 (define-public emacs-npm
   (package
     (name "emacs-npm")
-    (version "20210930.703")
+    (version "20220222.1650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shaneikennedy/npm.el.git")
                (commit
-                 "2bd544162cdfce69d70806446569d12ec27ad46c")))
+                 "45d8084aeafae415dc45ddc9c3a18b546315fcc6")))
         (sha256
           (base32
-            "024p9wn365qdl7gmzljk6hp9snixqffg3vqqivndxbgykcjg4sar"))))
+            "1iai69sdjfl9ynif7cbg654r8wdcjlkk8w8qzd2x4wxg72bfa2d2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient emacs-jest))
@@ -79384,17 +79384,17 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20220221.2338")
+    (version "20220222.1915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "d700950b89b92ca330b4efea0f8f7b64812e29ff")))
+                 "f7a3145fac5d7e637a7cc557e5196086061159e0")))
         (sha256
           (base32
-            "0smqck7s5dyq8gbinv0lkcinc0cyavs10a6f72g3654qx2b13afc"))))
+            "0s4nai9c2s237cwy6649zsgqp6z75129ly43v0kibfvf4pgrbkxw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request
@@ -85466,17 +85466,17 @@
 (define-public emacs-password-mode
   (package
     (name "emacs-password-mode")
-    (version "20210323.1816")
+    (version "20220222.1757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juergenhoetzel/password-mode.git")
                (commit
-                 "114b721ebbf384b6af6fd46797e83896a9e14aca")))
+                 "456a01e959140cb070e77bce5032a6885c7b7ae0")))
         (sha256
           (base32
-            "1zwc3wk770plfwlywqwiviqv9hiskf3fsl2nv9zp4gmvphzrqvql"))))
+            "08achm8xxpadkqk0jk6nk0x8zk25xwn59xmvybj1rsmm4apnqsqx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/juergenhoetzel/password-mode")
@@ -93054,17 +93054,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220220.1557")
+    (version "20220222.1947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "1bb7c89532bb166473f151fb3c273b5b071bc7d6")))
+                 "30b5dfdd3a11a513b1c21e448fc8cb1ecc8a71bd")))
         (sha256
           (base32
-            "0rhahcbmi4rm6hyghp19sl9q7af5y6a7wvhq6dg2l4y0ibhbm2hv"))))
+            "0fgg2qn5b5d0zm2id80jx9jrdyb4z1fjd8sbn11ajiawsjb9wb3d"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -94503,7 +94503,7 @@
 (define-public emacs-recursion-indicator
   (package
     (name "emacs-recursion-indicator")
-    (version "20220222.1312")
+    (version "20220222.1514")
     (source
       (origin
         (method git-fetch)
