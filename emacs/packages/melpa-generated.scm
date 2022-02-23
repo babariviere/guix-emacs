@@ -11359,17 +11359,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220215.1904")
+    (version "20220223.922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "2b2bfa27787ae524852abcb75408b0b1927aa2e1")))
+                 "7334be5743f27a965bcf1a2ad06650d7fa8d907b")))
         (sha256
           (base32
-            "11lnj6fd9xhwhwr900vjbzbviqrza29b9nf8d53b4bzdrij6ilgw"))))
+            "1cirxmgyw9kv7496npj8zjk1dlsh2i8w6rn3m427xmvgaq0zzqnv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11415,17 +11415,17 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20220215.1904")
+    (version "20220223.922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "2b2bfa27787ae524852abcb75408b0b1927aa2e1")))
+                 "7334be5743f27a965bcf1a2ad06650d7fa8d907b")))
         (sha256
           (base32
-            "11lnj6fd9xhwhwr900vjbzbviqrza29b9nf8d53b4bzdrij6ilgw"))))
+            "1cirxmgyw9kv7496npj8zjk1dlsh2i8w6rn3m427xmvgaq0zzqnv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chronometrist))
     (arguments
@@ -27123,21 +27123,21 @@
 (define-public emacs-elisp-depmap
   (package
     (name "emacs-elisp-depmap")
-    (version "20200714.1630")
+    (version "20220223.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/mtekman/elisp-depmap.el.git")
                (commit
-                 "98676e6ffcc4efb70cc991e659c79cb599b01bc7")))
+                 "15909462e3f7daf445d3cecf402ee16c7e3263ed")))
         (sha256
           (base32
-            "0ybqbyv1jnjk25z6ys90d5lddd4qxqspn2xppkzvby21x634s2ry"))))
+            "0l08xy83b3avjjaydys7f25rr0l4ifh6awl8dyy6ww6wvrz7sd4c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
-      "https://github.com/mtekman/elisp-depmap.el")
+      "https://gitlab.com/mtekman/elisp-depmap.el")
     (synopsis
       "Generate an elisp dependency map in graphviz")
     (description
@@ -29926,17 +29926,17 @@
 (define-public emacs-ergoemacs-mode
   (package
     (name "emacs-ergoemacs-mode")
-    (version "20220104.2107")
+    (version "20220223.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ergoemacs/ergoemacs-mode.git")
                (commit
-                 "b0ede648b660cc7fe2b15abf6d85cf59ab01bc96")))
+                 "757475874a840f99b20c56182c7199257b6ae477")))
         (sha256
           (base32
-            "0hhrd3fllmvjpl3kj96sv9k9qn2cb4wy74gz2czy712xj5bh0y4w"))))
+            "1ipwzl0l26g5qvc1sgmz2ra5vn1j3hl0mnkgzpa3j4p8gsmxdiqr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -40702,17 +40702,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20211223.405")
+    (version "20220223.1041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "594d0b97fede90a01ed341bb3fc42ac51f31e1c4")))
+                 "63f29cbd66b9a3d2ff11ff99b36d4d095638d084")))
         (sha256
           (base32
-            "14m6vbiwapd33nmffvimr3y98mw2x1v6a4540csq4v83qjpfb1nx"))))
+            "16pawv0i8pgy3cjrgi6a7fv8jm272l1c9cl0zsx95bhlblwdfy6v"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -61843,17 +61843,17 @@
 (define-public emacs-khardel
   (package
     (name "emacs-khardel")
-    (version "20201019.553")
+    (version "20220223.934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/khardel.git")
                (commit
-                 "ca021fad32430e3f3a995d4158e73b5ee485258d")))
+                 "1436ec5ef1b5b26104a4735ee64c0afe148700de")))
         (sha256
           (base32
-            "0p210q71cn7a4sg82638mxc4v8b2lyi6yv888fjzwnxc804ahwxc"))))
+            "1pa7kl3d0hmgybbvsffhinn10qmqrkkzccprqcmwhc246yb4abqa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml-mode))
     (home-page
@@ -66346,17 +66346,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220222.841")
+    (version "20220223.639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "7d161eea9594e7c7126413626eb4d8f098225b08")))
+                 "cf87368054f32f9ecd3960f79f0815fbf97d798b")))
         (sha256
           (base32
-            "1vb1x0v5pl644z0l72g898ij2aqhdkmpc33z1vwi0dkjw7gqng6y"))))
+            "06cw9syavm0hm68w7l41zy9hvy5x6rbc1wla2siy54qwwhsk4jfa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71141,17 +71141,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220223.541")
+    (version "20220223.1441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "7b203db9e4295903792d999c40eb912b107ad30c")))
+                 "a0ab3decab5c9e1dc7af32673b977701b7a68d0b")))
         (sha256
           (base32
-            "1mnfbr312dqifsdngb29kvggfirfclc9ncaw5srd52hnwc5n0rxi"))))
+            "0syvgl6iwp8wwp3c7y0ljcm236ck42qw862yw73lhwn0rxx5nqyf"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -71644,17 +71644,17 @@
 (define-public emacs-morlock
   (package
     (name "emacs-morlock")
-    (version "20180318.2023")
+    (version "20220223.1454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/morlock.git")
                (commit
-                 "b883d48024ddfffebe2d0dd69f5ed54c617f8834")))
+                 "ca6d72900392f1940914ee38ac3ebbce89f11373")))
         (sha256
           (base32
-            "0xns4f39x012n7piiv6kgb45n932wxs5fp4yyq44p1mnr0m8v4y8"))))
+            "1bb1z1ycbafzyd3rq7mdr9akjcyfyvx3p0l68akkach1yj4gk137"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/morlock")
     (synopsis "more font-lock keywords for elisp")
@@ -92410,17 +92410,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220216.1924")
+    (version "20220223.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "3e28ca0310774c83026c927688610fa36fc4992a")))
+                 "b26546ff9d5d112baf822563beffe6f7fdd3c327")))
         (sha256
           (base32
-            "0606ypkwwr545ap09sc4x8c3pkal03xj70i354mv79gfy6n149xd"))))
+            "0yx5bq6fq6y1v69cmwxchmxx4lnq5zgc5q0izz392bbpbyha9xzc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -110661,17 +110661,17 @@
 (define-public emacs-typescript-mode
   (package
     (name "emacs-typescript-mode")
-    (version "20211130.1332")
+    (version "20220223.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-typescript/typescript.el.git")
                (commit
-                 "e82416205158d4b21d42d6b60c4385f68f0ae1b1")))
+                 "84ff4228b5d1af287f35c9869e8eb079184a9831")))
         (sha256
           (base32
-            "1gidnpwk4n9zsrv9jxb7fmn3i46sggncv62w1aaw6g6v8h3yj5ad"))))
+            "1kjw7phch5vyxc7gwkcwdl1p0cy3zzg7vyx4k1p5dbvh261k7c6h"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/ananthakumaran/typescript.el")
