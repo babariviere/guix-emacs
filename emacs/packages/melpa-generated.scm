@@ -4959,17 +4959,17 @@
 (define-public emacs-auto-highlight-symbol
   (package
     (name "emacs-auto-highlight-symbol")
-    (version "20220103.1602")
+    (version "20220223.1622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elp-revive/auto-highlight-symbol.git")
                (commit
-                 "5949aa269d3781985c3c9fc5e557bd82c3c1f7e4")))
+                 "db22c24d13532e80ce02c2f51f41f6c979cf0604")))
         (sha256
           (base32
-            "01qqdkd16zy5sqla821k2q3bh4gmlq5xp5wdar58rm7cww6r4w5x"))))
+            "0z1frm9kicrlb63iyk7wa5dpvy92ygh5vxaw2kv1rvnfbsfmxl7b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ht))
     (home-page
@@ -11415,7 +11415,7 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20220223.922")
+    (version "20220223.1517")
     (source
       (origin
         (method git-fetch)
@@ -21982,17 +21982,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220220.1823")
+    (version "20220223.1713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "0d21876b8a5db2e2d5999ddbe0514c6e0c0bd79d")))
+                 "9bb39bef29a41162e00a563da4966b6a368e6b5f")))
         (sha256
           (base32
-            "05crcbqb7y6vw2l2vaxsgk6p7aq908cr1fp7xfymkchq0v9hzip0"))))
+            "0wgyd66lrvl8i6sn7ar9mvm06lq6h57asm3sfhkiq0qf65w7bwhn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -27803,17 +27803,17 @@
 (define-public emacs-elsa
   (package
     (name "emacs-elsa")
-    (version "20220208.17")
+    (version "20220223.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-elsa/Elsa.git")
                (commit
-                 "82ffb6eecefde7e99383e4a657f17fe414287846")))
+                 "21ed4f46e2d02ffb48b3ae377b0c93732ccf3f4f")))
         (sha256
           (base32
-            "1aya2cavpvagkhhrxzvs3d4qgddfjxl097d571xp3gzi3cn7k35r"))))
+            "0pfwi4xddxphanh83xzvbj3a04wv7x55xjs796i1h820hm7zhidq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-trinary emacs-f emacs-dash))
@@ -28366,17 +28366,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220221.1710")
+    (version "20220223.2258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "df4cdfd497361cf65f68052c1bb31d321c902269")))
+                 "f741dab05b09beb18e0a7e87f5b80ea462ca44a2")))
         (sha256
           (base32
-            "0ab8xjfccpir9k33illgm27d3k3fqrr03lm2028rc2gnna3lyi71"))))
+            "1mw3qf1bn0033yajll05f8k3wvvqld1j6qzhbzppnk95kp9vgknm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -41960,17 +41960,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220203.2107")
+    (version "20220223.1659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "c1cc4da1edc46b763e0342ab4aa971e54f48658d")))
+                 "ed6d6a1b362fe389acb7f7e1bf6d89ff88e060af")))
         (sha256
           (base32
-            "11vc57nkgbsyl1wrjikxs0ixzkp7dksj51p4aa9girsm2hs3bs6v"))))
+            "1zs3ywy81754daygch6nc03wg5z953gm03kclnv5fngxjzjf5xgk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -67204,17 +67204,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220222.1354")
+    (version "20220223.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "3525928602a3b68855fa239cadbc7d31c67fd50e")))
+                 "cd2b712602ab4ae6bc930d9e9011c5f669562117")))
         (sha256
           (base32
-            "1i7zj8f95asrs5vyjfcp884mycckbisbaixxvka0wsdwnd3mh8wc"))))
+            "1fmqgbgs7212f81hh0gygf63k2m5j202gbc02k4fmlgj9xlqdmml"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67677,17 +67677,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220222.1354")
+    (version "20220223.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "3525928602a3b68855fa239cadbc7d31c67fd50e")))
+                 "cd2b712602ab4ae6bc930d9e9011c5f669562117")))
         (sha256
           (base32
-            "1i7zj8f95asrs5vyjfcp884mycckbisbaixxvka0wsdwnd3mh8wc"))))
+            "1fmqgbgs7212f81hh0gygf63k2m5j202gbc02k4fmlgj9xlqdmml"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -71141,17 +71141,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220223.1441")
+    (version "20220223.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "a0ab3decab5c9e1dc7af32673b977701b7a68d0b")))
+                 "7773a4ec72d346d6cf4123b574c74507a3dab97f")))
         (sha256
           (base32
-            "0syvgl6iwp8wwp3c7y0ljcm236ck42qw862yw73lhwn0rxx5nqyf"))))
+            "14sik5hf3k2p4p6h2qrr5cknfzmksxyhng4xb2fg2cxdvxw7s1aa"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -107115,17 +107115,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220213.1913")
+    (version "20220223.2047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "5242ebb37fbf14f60c8eecf4461091ee22389912")))
+                 "40de509ff635b75d877d83d42d8e36672fdcc47d")))
         (sha256
           (base32
-            "1j6f9y50w4h7cn4bl3dabv8d1i94kc0cf0rla825lglai206cwrx"))))
+            "1h9sj8w6yrrlf1gjwv7lxzkbgam78804f8zm8d3knic8qv3h03lk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
