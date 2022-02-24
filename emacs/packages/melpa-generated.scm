@@ -6470,17 +6470,17 @@
 (define-public emacs-bbdb
   (package
     (name "emacs-bbdb")
-    (version "20220221.403")
+    (version "20220224.403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.nongnu.org/git/bbdb.git")
                (commit
-                 "a6f2ebcdb0c521990e034815de37ceaab5b13495")))
+                 "00a003c9a3788c3a0fe8bd89b827b4e9bbdf2261")))
         (sha256
           (base32
-            "0vfxrkyxib3rij8s6inbwm55cpwfziqdlpsqd08pk420gvcqkvgl"))))
+            "0iskn78ynz24wdbq1ja24m0pqcbhb4dfipnxx0nijdsbf6xpj37r"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("lisp/*.el*" "doc/*.texi")))
@@ -81606,17 +81606,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220212.1727")
+    (version "20220224.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "10286cce91a1675c681c482a4f2d99ce5dd220e6")))
+                 "c9bfe0d84f1ea6aa18febf098ed47dbf7373782b")))
         (sha256
           (base32
-            "1d9z3kczbs6jp02c2h2m36dixw7g5zy6h8xai9w1zhkzirqx6dmh"))))
+            "1ldc8calzxszqr8zp3fq5ix72pszg7wjh48a7wmj2kzd6p56akh6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -83553,17 +83553,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220218.2137")
+    (version "20220223.2135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "f0d06bdb8a2f6256f0e71e085e2761ea8e0c3a5c")))
+                 "ee87af8abcfc6661d0de5fd4a0aa40c336788123")))
         (sha256
           (base32
-            "1vddvj2vji6p9x6pzpf4pckl4vzkd605vwlf1l5x8lsw81al8yjx"))))
+            "17r6xf6ci84qxpykh0af92p1pvggh44gzgrx2qgmv7shr7bfczid"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
