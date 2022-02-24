@@ -10530,17 +10530,17 @@
 (define-public emacs-centaur-tabs
   (package
     (name "emacs-centaur-tabs")
-    (version "20220112.1239")
+    (version "20220224.808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ema2159/centaur-tabs.git")
                (commit
-                 "cde3469d77f83b0877f2a7c727ca101cfeb86401")))
+                 "f4cef95acbd2eb99c8db3b6cdde74a6e0a966a0a")))
         (sha256
           (base32
-            "12msyfz54am5n9qwm2igjp0cfczm9h6z5phay5ya75cdm0bmxby4"))))
+            "10vpy22g2ccrj00kycrjcywywc69hqf3dm7vcbmmw7ralh9vclbc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-powerline))
     (home-page
@@ -11359,17 +11359,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220223.922")
+    (version "20220224.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "7334be5743f27a965bcf1a2ad06650d7fa8d907b")))
+                 "9ef3337c5a68caf73866a6949bb5783d7e246979")))
         (sha256
           (base32
-            "1cirxmgyw9kv7496npj8zjk1dlsh2i8w6rn3m427xmvgaq0zzqnv"))))
+            "0jd9bcf1qjz9hd9qpajx7xls5h8czadwvcahfdwiy8hqhl09vgii"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11415,17 +11415,17 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20220223.1517")
+    (version "20220224.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "7334be5743f27a965bcf1a2ad06650d7fa8d907b")))
+                 "9ef3337c5a68caf73866a6949bb5783d7e246979")))
         (sha256
           (base32
-            "1cirxmgyw9kv7496npj8zjk1dlsh2i8w6rn3m427xmvgaq0zzqnv"))))
+            "0jd9bcf1qjz9hd9qpajx7xls5h8czadwvcahfdwiy8hqhl09vgii"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chronometrist))
     (arguments
@@ -16027,17 +16027,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220222.1445")
+    (version "20220224.1109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "d0261c0ecdf95ab543ad73d466c450bfedb8b1e7")))
+                 "95d1851567637325425c0956adbf711c801dd45c")))
         (sha256
           (base32
-            "0w0g1628wm5s3pbs7z6xspsicpyh7iajbnzlwkkl71xqj5b83fbr"))))
+            "13mf0qrpyq8p1py4csqp49za18r6v61ibpcgiyprr6wiv3vmkg7p"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -47961,17 +47961,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220222.1327")
+    (version "20220224.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "d80b6a2122daaa6854cf04bb51bdd922488b7c6e")))
+                 "57a54ad97e46b0eee8a7aac96cb27b30b84f400c")))
         (sha256
           (base32
-            "076r64vyggs0dmhrm16njir536p4capzgl7ndgh0d5l7wk2n7a32"))))
+            "0kqjxc4cml4w87ndkj2hl9fcwfd178g4qsl769dzkbz795yf619l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -67204,17 +67204,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220223.2013")
+    (version "20220224.1244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "cd2b712602ab4ae6bc930d9e9011c5f669562117")))
+                 "52131989f356ecd397d64634266bae7cb3db18b9")))
         (sha256
           (base32
-            "1fmqgbgs7212f81hh0gygf63k2m5j202gbc02k4fmlgj9xlqdmml"))))
+            "06963skbn719vah43v114r0v23m0zwrw155d02014cnhib27pf9q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -94503,17 +94503,17 @@
 (define-public emacs-recursion-indicator
   (package
     (name "emacs-recursion-indicator")
-    (version "20220222.1514")
+    (version "20220224.1333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/recursion-indicator.git")
                (commit
-                 "12994eca68930d7a1c83890671803bda5eae7869")))
+                 "e9bca04318fef45badd487cda002ff9617429f6b")))
         (sha256
           (base32
-            "0yjqzwkvxyd52nzzfc5d8k5pqbbz36f5ixvxqqxphcqjxi6rwx0s"))))
+            "0cjn61dn67vxz3495h7klszqwkjv17bmlfv01adj8d2cibc5wqi3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/minad/recursion-indicator")
