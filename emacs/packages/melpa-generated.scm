@@ -7578,17 +7578,17 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20220219.1634")
+    (version "20220224.1940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "34082bcf54f5a920ac710394b1fdea2f653b9662")))
+                 "45d04ac3935ade2b1e856115c69a32f11e3e7585")))
         (sha256
           (base32
-            "0mph3k0zpi06w3ars7vvh434vz0mpk0nridpc4mvjnii1bslgpkc"))))
+            "0f2b3i22xl0j8j6b3i5vbfqfn1irylslwk4xvm3w0sk2pghi93y2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-a))
     (home-page
@@ -16027,7 +16027,7 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220224.1109")
+    (version "20220224.1532")
     (source
       (origin
         (method git-fetch)
@@ -20308,17 +20308,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220220.1223")
+    (version "20220224.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "c8f5ca5c01c5a9881da779402ef370f712119a9f")))
+                 "4f64975c609e5b052a7dee8f96bc3a025a4a581b")))
         (sha256
           (base32
-            "0g2xh7kbds8pxxvgik81azy78f1zjqqnk9i9ddbvsaxldkhrv9b5"))))
+            "0zd2nxg3rhgni4drb3sd3llnm4wzd0ijxagvpp4irph30qvhm78d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -67204,17 +67204,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220224.1244")
+    (version "20220224.2034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "52131989f356ecd397d64634266bae7cb3db18b9")))
+                 "9d4997c067d3b7e051b06bcdab22a292610a730d")))
         (sha256
           (base32
-            "06963skbn719vah43v114r0v23m0zwrw155d02014cnhib27pf9q"))))
+            "003d03nyrr49x79mdpyy44yxh3gs35wx49vx0ylwjana40afq4ds"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81052,17 +81052,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220221.51")
+    (version "20220224.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "cebe77135a327cacf7fa60265b553c984664e32a")))
+                 "c8a360afdd96a99c14de1bd22f5f9cd16f2580a6")))
         (sha256
           (base32
-            "1z7yyjggdjvs5nc3988pflmis9v51rsba32crms2rfh07vwpn349"))))
+            "1cj3xwny146f3likhcpxwkvyxflyq6z750m6ig5jjrgyq89gqrfy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -100906,17 +100906,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220217.1145")
+    (version "20220224.2352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "33d9f46a48809fab77fc0aef209196d99be4df0c")))
+                 "180dea856b1026fff1546eedf992a0ec0f103613")))
         (sha256
           (base32
-            "11jkg9igijdc50pd4354rifx40dfn2dhpn0yjl71jcvywgpvsb1r"))))
+            "162hcx2q88k8g6six2wmh2yslrdnl51hk9x53y80w15ywblr96nc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
