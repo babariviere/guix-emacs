@@ -11415,17 +11415,17 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20220224.1017")
+    (version "20220225.950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "9ef3337c5a68caf73866a6949bb5783d7e246979")))
+                 "7cf2c86afd8f6fb6235320ac9f7ebd76153d8bc6")))
         (sha256
           (base32
-            "0jd9bcf1qjz9hd9qpajx7xls5h8czadwvcahfdwiy8hqhl09vgii"))))
+            "1gw69ps98bc28kwfqi6m9v4im71jla410ici5cyhfyk67m3dvgbb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chronometrist))
     (arguments
@@ -67204,17 +67204,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220224.2034")
+    (version "20220225.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "9d4997c067d3b7e051b06bcdab22a292610a730d")))
+                 "44c58868c997f0b86d66faeed2f0b29064f8d0b9")))
         (sha256
           (base32
-            "003d03nyrr49x79mdpyy44yxh3gs35wx49vx0ylwjana40afq4ds"))))
+            "0yd5h61ykl1kmcla1z71kwi0yikax817da77fxz29l6mv85dlsfm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -72323,17 +72323,17 @@
 (define-public emacs-mu4e-marker-icons
   (package
     (name "emacs-mu4e-marker-icons")
-    (version "20220210.1405")
+    (version "20220225.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/mu4e-marker-icons.git")
                (commit
-                 "35ca0c9bd0d1512eed943f704ffc73ed97cca454")))
+                 "66674ee00dbf953e7d8c1696fb12e9b5b4b272bd")))
         (sha256
           (base32
-            "1x7vkc7bagnk8xan0ylckj8wfxpqk2r4ij64vy9p0z0rgyrvj56v"))))
+            "0pswfq8apihjglysphq3g4la39hyhrms0g010rp691m2mgg1lp39"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -75097,17 +75097,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220216.1156")
+    (version "20220225.1239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "6286b76a69f11a72927c96a928d4493cab2237ce")))
+                 "d298af9e9d75f076d767044738b4811a82f9b2ca")))
         (sha256
           (base32
-            "17zj6af4y22r703g2z6jw7pk2jn56iv5ai25q2y3z8icsnx0dmzv"))))
+            "1yximnzcv4j4fxjiw4mk7qpqmn8ix49kfyh2jfx858c1nbvbhkrl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -87650,17 +87650,17 @@
 (define-public emacs-pippel
   (package
     (name "emacs-pippel")
-    (version "20211205.1711")
+    (version "20220225.1128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/arifer612/pippel.git")
                (commit
-                 "5493309f17e7d30254e3832162f73b486079d12d")))
+                 "682a40af266f395cf39862ad0bfb30152ddee204")))
         (sha256
           (base32
-            "1agnag5n516966np9027zjvpyr27nrawh1l0l6hmy6hy8hb1jwpq"))))
+            "1gb7nf047gm57jdggj49ri46hgz8gphqy58abniqlqxjcx9zp4z7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files (:defaults "pippel.py")))
