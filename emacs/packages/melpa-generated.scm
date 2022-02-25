@@ -47961,17 +47961,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220224.1254")
+    (version "20220225.727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "57a54ad97e46b0eee8a7aac96cb27b30b84f400c")))
+                 "fbe5eb03255c18466162253c60db7b6ca50f32b4")))
         (sha256
           (base32
-            "0kqjxc4cml4w87ndkj2hl9fcwfd178g4qsl769dzkbz795yf619l"))))
+            "11n5rwcw4ky96na3gbfxcdwcp0x4dnrqadpgzkcz2pv8s5ih8g1y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -60519,17 +60519,17 @@
 (define-public emacs-julia-repl
   (package
     (name "emacs-julia-repl")
-    (version "20211230.814")
+    (version "20220225.810")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tpapp/julia-repl.git")
                (commit
-                 "e90b1ed2cc806262b0ee772dcc88f8da693d9210")))
+                 "603868544e4a96bbe7593a4db5d6752b43c8411e")))
         (sha256
           (base32
-            "0jhfb2shz71kwfzmvlpzhldm2rms3wgwikrym2a2fr9hw91i2zy7"))))
+            "0pa18qmg58v2vlm1rfwg33i3c7xbi0sn5rhvy92x790jjq6zr3d5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/tpapp/julia-repl")
@@ -79654,17 +79654,17 @@
 (define-public emacs-org-jira
   (package
     (name "emacs-org-jira")
-    (version "20220129.2049")
+    (version "20220225.158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahungry/org-jira.git")
                (commit
-                 "f424364605b21e5f1686f8ce2645afe543538684")))
+                 "96e92585ed6f510f87363be3cb10d804f67e1b52")))
         (sha256
           (base32
-            "1646hr3mmg0ppa4xx9gjc1zkdryfs2m0j39cjhrfxcn05gsykklh"))))
+            "1n1h3xby4998hdv6j4gllznzbhh4gl2wr9bm4235n859zypq9b4l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash))
@@ -83553,17 +83553,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220223.2135")
+    (version "20220225.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "ee87af8abcfc6661d0de5fd4a0aa40c336788123")))
+                 "8503350603c10d1e264f5599ae288fd71725919f")))
         (sha256
           (base32
-            "17r6xf6ci84qxpykh0af92p1pvggh44gzgrx2qgmv7shr7bfczid"))))
+            "1a5idw9p83m3jnf8s3f0lg28pw5059n05q1m4j5d92wajxlxf2wv"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -103262,17 +103262,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220207.54")
+    (version "20220225.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "cc331a92f5e81613796110a529b3f9fb511dda87")))
+                 "fba53cc8d05d768dc7835b06d0fb857d7f13d5ea")))
         (sha256
           (base32
-            "1z4nyax8glnvax7fj05p2mgwy9g1gbs4n0lqghc4a6ih0cm314nk"))))
+            "1lmf3zmwain0y6psmdazbbh240p64a4p6cwlj55sngbnzqidf7h1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -105146,17 +105146,17 @@
 (define-public emacs-suggest
   (package
     (name "emacs-suggest")
-    (version "20180916.1859")
+    (version "20190807.851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/suggest.el.git")
                (commit
-                 "83a2679baf661ee834e9e75921fd546243a6d919")))
+                 "7b1c7fd38cd9389e58f672bfe58d9e88aeb898c7")))
         (sha256
           (base32
-            "11jqglwqi5q14rk44z02dffk6cqmhjgdda0y63095g8n1ll71jsb"))))
+            "04cabm1wn1cy78a47rhn1kh8vd6dclsr2js8plvldbgq2qfq7l4q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-loop
