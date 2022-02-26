@@ -20308,17 +20308,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220224.1712")
+    (version "20220226.925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "4f64975c609e5b052a7dee8f96bc3a025a4a581b")))
+                 "cdc1a7cc3f05235883ffb098fe1c5a8963ed06e2")))
         (sha256
           (base32
-            "0zd2nxg3rhgni4drb3sd3llnm4wzd0ijxagvpp4irph30qvhm78d"))))
+            "1r84yimb8dc1i6ybc2vngvv38ypfnjwrbp93n13h9ij2p9dmxl8p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -23847,17 +23847,17 @@
 (define-public emacs-dtrt-indent
   (package
     (name "emacs-dtrt-indent")
-    (version "20220111.1234")
+    (version "20220226.1354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/dtrt-indent.git")
                (commit
-                 "926fc4260c3f71f5aac2e0becb9ee435a4124d5d")))
+                 "66fc30af02901db023e464a24d2b5fb3ff472794")))
         (sha256
           (base32
-            "1jq59zac8jwdkp5lc01ygi7f5wlx4bnzkmrsa4j57w0xn70lbkjv"))))
+            "0ihwmkxgbd0mgfvzisjiwvyypa9z21ckyxdnkf9y5lxywjyr39zh"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Adapt to foreign indentation offsets")
@@ -66346,17 +66346,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220226.706")
+    (version "20220226.1259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ccaba369e822b97df68ab185b13a4d4400cb66ca")))
+                 "f1b73ddd6c168f85a298f81151c97f60e5267a60")))
         (sha256
           (base32
-            "095kgkzhh88wj6f8cvcqlvl2mdny72kx1rsljpvi09lb6pzx1950"))))
+            "1p51rr0rp30ki33d6diiy19ihw4vb5djj61wb717m4jrgm4af3m6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68420,17 +68420,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220217.21")
+    (version "20220226.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "097bd81743026c9b4889b860efd0283b26e64ccf")))
+                 "5767b6ff49e26ecd6aa26f552397d5d2b8213d25")))
         (sha256
           (base32
-            "1zkm3axkg676jcr0rv3na4v212cq4m2lpk0zac5a2s1y0fgvvx2q"))))
+            "143d57fy5i5ziwfxxix595k0f98ay5l57x5z69g8lkp6nb7b1rq7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -71141,17 +71141,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220226.725")
+    (version "20220226.1217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "33df82444444e3c987504857f21d256b3928001e")))
+                 "c98a35c11b49e3e6cd55f4d7451798d87c9fb13a")))
         (sha256
           (base32
-            "1mfrgd1f60xg6kq0gvrhww2gn1dqnaabikv26iajag8c3z33bq17"))))
+            "1c72nxyh7ca6k17ck1jxmyv8rs7qfq5wq2i3ss5chxvh668ypc1a"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -75097,17 +75097,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220225.1239")
+    (version "20220226.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "d298af9e9d75f076d767044738b4811a82f9b2ca")))
+                 "7167b7556cccbb16ec83144a2f2a095b91a6ba02")))
         (sha256
           (base32
-            "1yximnzcv4j4fxjiw4mk7qpqmn8ix49kfyh2jfx858c1nbvbhkrl"))))
+            "1i6cmaa530s45sawmfsabr8vvqlnk64bifill070jfzpgilxj7bp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -114561,17 +114561,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220119.1026")
+    (version "20220226.1332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "d95e0db1bd042d1a8c9bb6bf744eb07ecbf62d73")))
+                 "7ad06cafeccdb81840a31cf68ff99a540471c478")))
         (sha256
           (base32
-            "0mw2ws23fvxc5lnpic8kbqii0rvjamdvff5xa7rywd9yiwv3yfm8"))))
+            "1hvwm1qfinp3byysd2clqz0gcdqz1nqdyjzchsv4ywr2hij39c2j"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
