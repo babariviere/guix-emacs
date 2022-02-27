@@ -18883,17 +18883,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220219.1917")
+    (version "20220226.1848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "1880ac680cd7389d2169886dff09f79017e1d28e")))
+                 "6933fca0b53ea5d2d65a0545e5a4ae6424d32e9b")))
         (sha256
           (base32
-            "069l0dkngj1sbcx3g31r8kgm7i75xbbbd8d5m4qf3mqqx4fx5sdj"))))
+            "1m99z72qmq4ghaiv5s9bqzx4aj1wj4r1d233h6a92hw7kdd9hj0l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -25364,17 +25364,17 @@
 (define-public emacs-ednc
   (package
     (name "emacs-ednc")
-    (version "20201122.25")
+    (version "20220226.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sinic/ednc.git")
                (commit
-                 "537e2e165984b53b45cf760ea9e4b86794b8a09d")))
+                 "bf588399e241742962613ce2a96f0cffc86417f6")))
         (sha256
           (base32
-            "07cnp40rbl2p4mn40cib6mvby1svxqd8kb3dxb3a8idb736nzqrp"))))
+            "0y0rxiqa1vxz4ylhagr9mnh1x4lghg1md3k1pqzciq9gnqgl3fpn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/sinic/ednc")
     (synopsis "Emacs Desktop Notification Center")
@@ -47961,17 +47961,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220225.727")
+    (version "20220226.2008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "fbe5eb03255c18466162253c60db7b6ca50f32b4")))
+                 "e4fe41bbca936ca43a51103626fe33e87a47b0f6")))
         (sha256
           (base32
-            "11n5rwcw4ky96na3gbfxcdwcp0x4dnrqadpgzkcz2pv8s5ih8g1y"))))
+            "1fra5q7p0rsfcbvw1kkylb9249aldrw9js7q3j0s8fyhqy3lm33i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -54588,17 +54588,17 @@
 (define-public emacs-hyperkitty
   (package
     (name "emacs-hyperkitty")
-    (version "20200927.106")
+    (version "20220226.1951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/maxking/hyperkitty.el.git")
                (commit
-                 "ad65766fee2675bf123491544707b056b89b52ce")))
+                 "2c1d22ff017d096c359aa151e6a29f7214a58118")))
         (sha256
           (base32
-            "1h819sxbzpcnr6mkl6aw9qxhyhkydppwwwqsgyw9qfil9sk8hyff"))))
+            "1ymrzy0l6r6kvrf6p6xwb8dlg4gj8h14xam56d94fbh6mhr53z50"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -60803,17 +60803,17 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220220.1315")
+    (version "20220226.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "b0c1fa0ea5317220e573ed29a2607e5f583111ee")))
+                 "73cb3a8f519dd555f73b981ac9c803b7489ce25b")))
         (sha256
           (base32
-            "1ki0vbyylgg041vc70l3j7w28sri612mrgn425d5jyz1gdrg4d3s"))))
+            "0d68zhzclvnhyxvb0l6a841mvbfawvzryrpck36x06wy3899jn5l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -65850,17 +65850,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20220226.715")
+    (version "20220226.1702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "97e52aef8659161b83358bd037e3bfb536d51e76")))
+                 "0bf72869cd83c8262e521cf30cb022e5e994205b")))
         (sha256
           (base32
-            "0fya52linc85zsc34hq12kdwxly36xfxk56mi3srzhb5vhaa66kd"))))
+            "0g1phgnlb1fz9d7id8wmpg6f4d526wwcrj0vbihf51m4qalp0d6i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -66092,20 +66092,19 @@
 (define-public emacs-lsp-haskell
   (package
     (name "emacs-lsp-haskell")
-    (version "20211214.1110")
+    (version "20220226.1437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-haskell.git")
                (commit
-                 "6ffc681fec8ffce43f836616e98d7fb09164c3cc")))
+                 "69ddd5d32d6d7d658ec3f89c8ec6280e912e6be8")))
         (sha256
           (base32
-            "1jqpxwbmnj2i6wm4idazsai5pkdxgvjrp7slayxr2c8paq6iyf8r"))))
+            "080k3ghhrnlnlq8dzqki6jwnxg3dvg2kzcsx8214k7sfp47qfkwn"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-lsp-mode emacs-haskell-mode))
+    (propagated-inputs (list emacs-lsp-mode))
     (home-page
       "https://github.com/emacs-lsp/lsp-haskell")
     (synopsis "Haskell support for lsp-mode")
@@ -66346,7 +66345,7 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220226.1259")
+    (version "20220226.1335")
     (source
       (origin
         (method git-fetch)
@@ -71141,17 +71140,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220226.1217")
+    (version "20220226.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "c98a35c11b49e3e6cd55f4d7451798d87c9fb13a")))
+                 "0c3bc01d3779d0d6649e3d9552c9c983056d2971")))
         (sha256
           (base32
-            "1c72nxyh7ca6k17ck1jxmyv8rs7qfq5wq2i3ss5chxvh668ypc1a"))))
+            "0907mm82w9f33ci0xzv7yshd961pd2b3pixvcknhdkz49kgr7wsa"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -98809,17 +98808,17 @@
 (define-public emacs-separedit
   (package
     (name "emacs-separedit")
-    (version "20220226.523")
+    (version "20220226.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/twlz0ne/separedit.el.git")
                (commit
-                 "6161b6e2a4d234ead7bdbda0e978c7669e7133d1")))
+                 "a33a04479fc1d4fa0ee618833965ce9914b9c1f4")))
         (sha256
           (base32
-            "030w3bvf7bzhvbx78pkm5658cy242m9cjg5mnkvchnfzjagsvkp3"))))
+            "1llvhm9kwv67rng7zd91j5cfx34aklx64drs3hrm5nlxpjass7sm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-edit-indirect))
@@ -114561,7 +114560,7 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220226.1332")
+    (version "20220226.1427")
     (source
       (origin
         (method git-fetch)
