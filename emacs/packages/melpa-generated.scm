@@ -9942,17 +9942,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220225.2101")
+    (version "20220227.316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "4f52903663370dfb674fed0ff75659b78e8b81cf")))
+                 "fc7a20be524d0faa848ba2a16a80767a445a1391")))
         (sha256
           (base32
-            "0fmm4blqs37cay7p27v2ypqra7maip5cjsqpavxi7v8q4inb73wd"))))
+            "1dwbvixk2zr2k061zrljr933l2gpkx672d1d67gbz5znz4sbjsgh"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -23027,17 +23027,17 @@
 (define-public emacs-doct
   (package
     (name "emacs-doct")
-    (version "20220220.456")
+    (version "20220227.205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/doct.git")
                (commit
-                 "1e3c1962558d6545e453583793e1d48417d4ef14")))
+                 "4033a8fd8681d3989550f7a2532d6b4e3c45bfe8")))
         (sha256
           (base32
-            "0zkixr30wxgym9440hkr8996b0d1i8jj04alwd7cmnh8vkwijxfx"))))
+            "1vfwxjn86rprfz3cfc6w6hw5lqnbh093kydv0lapgz508f5yjazg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/progfolio/doct")
     (synopsis
@@ -66345,17 +66345,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220226.1335")
+    (version "20220227.507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "f1b73ddd6c168f85a298f81151c97f60e5267a60")))
+                 "ae68af041f7bea8eaa4eacddec0342d9351af64d")))
         (sha256
           (base32
-            "1p51rr0rp30ki33d6diiy19ihw4vb5djj61wb717m4jrgm4af3m6"))))
+            "1rpak52r7bwi6a14h45zx2vmpffias8df6f5jv197zfnp5xc0248"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71140,17 +71140,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220226.1619")
+    (version "20220227.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "0c3bc01d3779d0d6649e3d9552c9c983056d2971")))
+                 "404a9658196debdde95a51148fc62c5b2faccfb9")))
         (sha256
           (base32
-            "0907mm82w9f33ci0xzv7yshd961pd2b3pixvcknhdkz49kgr7wsa"))))
+            "03iyyp16qpk69542waflhnhyvzz2halp183xk4612r3zj97r2xji"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -81051,17 +81051,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220224.1711")
+    (version "20220227.207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "c8a360afdd96a99c14de1bd22f5f9cd16f2580a6")))
+                 "62d311de22d46e5ee3030d6b3e214add6619e01d")))
         (sha256
           (base32
-            "1cj3xwny146f3likhcpxwkvyxflyq6z750m6ig5jjrgyq89gqrfy"))))
+            "0rhmk5yq7mbp53bwlk5wzabcbil6mbkmyd2zzgsdfrm9jx95znfz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -90409,17 +90409,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220211.932")
+    (version "20220227.551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "0243ad7dc96072126fc6c23e48184a0419bab028")))
+                 "2c948f3a8ed378ae5fd800d2c66aece06ba058b8")))
         (sha256
           (base32
-            "0ryvhffvf8dv0x6g1ianisw7ff8zxvcdz5x043fld33mykfp716h"))))
+            "1nmdyd8bldgs0zcsdqdjj4c5kq3742019qlxprx2cqs640fi5y2s"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -114560,17 +114560,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220226.1427")
+    (version "20220227.639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "7ad06cafeccdb81840a31cf68ff99a540471c478")))
+                 "837f422f0858a5bda7692cd8fd25ab34a57403e4")))
         (sha256
           (base32
-            "1hvwm1qfinp3byysd2clqz0gcdqz1nqdyjzchsv4ywr2hij39c2j"))))
+            "0kl9y1vhlylwiglxq3b6psygjph33n4qvwgsh3wk3sc221bs5m50"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
