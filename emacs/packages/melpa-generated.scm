@@ -9797,20 +9797,24 @@
 (define-public emacs-calibredb
   (package
     (name "emacs-calibredb")
-    (version "20210603.323")
+    (version "20220228.610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chenyanming/calibredb.el.git")
                (commit
-                 "cb93563d0ec9e0c653210bc574f9546d1e7db437")))
+                 "e650911d86289a2c54ef6101f4a4a24cfe87f9af")))
         (sha256
           (base32
-            "10dymcd17ili5r6ydiz7bj0q81y5fh0s1d64m4acfa8xfsi7zx55"))))
+            "1b0zkyamzjbgwhy2l0dr2drh3l3qx17dq6h83wz5n93686m8dsn3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-transient emacs-s emacs-dash))
+      (list emacs-transient
+            emacs-s
+            emacs-dash
+            emacs-request
+            emacs-esxml))
     (home-page
       "https://github.com/chenyanming/calibredb.el")
     (synopsis "Yet another calibre client")
@@ -16218,17 +16222,17 @@
 (define-public emacs-consult-project-extra
   (package
     (name "emacs-consult-project-extra")
-    (version "20220222.1825")
+    (version "20220228.843")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Qkessler/consult-project-extra.git")
                (commit
-                 "b2a7062251b101aa9d1ba6c1f3f65c69ebdfd784")))
+                 "897f2f71a94ce1b72c3bf823e14791a332befbb7")))
         (sha256
           (base32
-            "14ji1vjj265j0chn3fk9ncm4l66j6jq0g2nq5qz94qnpk1fadf8s"))))
+            "1c0nllj6hhgvjf7zzy44iacnl29flg54ahb26r4bi9lip8aw65xs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -26509,17 +26513,17 @@
 (define-public emacs-eldoc-box
   (package
     (name "emacs-eldoc-box")
-    (version "20220220.2003")
+    (version "20220228.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/casouri/eldoc-box.git")
                (commit
-                 "646ae5cdd8ccbf5d78eb0488298b7c5e9c9a18a6")))
+                 "c0cbb8d9191a1df8a289aafc8cb94a3ebb515d6b")))
         (sha256
           (base32
-            "0y2502b0d0fy2pm7kklv5262maxky2y2y8nw223f4f3bicbymxwy"))))
+            "102z9wl7d563x7i44zhlc81bi7k030rlzfgs5cm8vbmalgqv1c63"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/casouri/eldoc-box")
@@ -27731,17 +27735,17 @@
 (define-public emacs-elpher
   (package
     (name "emacs-elpher")
-    (version "20220208.1726")
+    (version "20220228.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://thelambdalab.xyz/git/elpher.git")
                (commit
-                 "6e3a8ef5af192eddcd834efac49866f84e2c73dd")))
+                 "ecb5e17d37249bc38c25ee278094fb93b63b0a49")))
         (sha256
           (base32
-            "1p43x7mf14q84armxhp294xaclq5c6mpggq619ravia0kdrqij1w"))))
+            "0q2wmsxvcg6c98fbnldk64lc49zlzd42k8zisk03f8g91l12wxac"))))
     (build-system melpa-build-system)
     (home-page "https://thelambdalab.xyz/elpher")
     (synopsis "A friendly gopher and gemini client")
@@ -37296,17 +37300,17 @@
 (define-public emacs-flycheck-grammarly
   (package
     (name "emacs-flycheck-grammarly")
-    (version "20220222.638")
+    (version "20220228.731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-grammarly/flycheck-grammarly.git")
                (commit
-                 "7ded0a4f36b88867ec6b14a791dc4d14baf09bd5")))
+                 "68e689584616b4695ab7e8ad7937412985a35e45")))
         (sha256
           (base32
-            "0q3bhfjb0cr4f0g9dyyz70lgzzzwa3k77ahyhkc1jscmjafsjs5i"))))
+            "057vi5s7cmmnjpk1vnr33h9bw9drq1qihf5ykzd42jalg8l2v3yq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-grammarly emacs-s))
@@ -37655,17 +37659,17 @@
 (define-public emacs-flycheck-languagetool
   (package
     (name "emacs-flycheck-languagetool")
-    (version "20211107.1001")
+    (version "20220228.737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flycheck-languagetool.git")
                (commit
-                 "4c22da6aa2878cbf490214b034f2ac25209f0fdc")))
+                 "6d55bfbffa574ed7574f11fcb802f290eca93810")))
         (sha256
           (base32
-            "07qlaay65gs2v4zbawnfwf5ry2ag9dl0zzjrr8slqk7z6wy2c5wb"))))
+            "0mmdpz1aicckk69z6yry7mssdkk369vp1p9qm0a7q1qq7yxqvrh0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -47567,19 +47571,19 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220228.500")
+    (version "20220228.915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "610680070c1e33e6d21ef5e0ec850b3b2c604fef")))
+                 "0b0f98fca3f40db88c27c0005f20f5b4c37f7e01")))
         (sha256
           (base32
-            "1qqqm35p7375307x1zxaziqm3axzwniy1wb1nssn68c51f8vg5ag"))))
+            "1sqjx5c1c8b0nv114807583j7r7ayzwr8g9q2140rzjvc8w9m4s5"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-f))
+    (propagated-inputs (list emacs-f emacs-hydra))
     (home-page
       "https://github.com/otavioschwanck/harpoon.el")
     (synopsis "Bookmarks on steroids")
@@ -64324,17 +64328,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220206.1919")
+    (version "20220228.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "e4e7477443c95dd5de62d0052e703166c42960a0")))
+                 "df2e5c7e0433b253d8f5688da134efff403e68e4")))
         (sha256
           (base32
-            "1n4i021rs7ymzhzhz2cs44zqhhpchlyfkcks0502iz1c8ycq4qpp"))))
+            "08kbgdgv9d6bdjwfv5kjffp4cix64ir5rpgpl4a3dd0nwmklijb9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
@@ -80118,17 +80122,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220226.26")
+    (version "20220228.1319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "fdb7b59682b656a998bf8821d112283e1a3edbd8")))
+                 "dd7d45878f04c8aa9872ba6f6b4fb638dcba3032")))
         (sha256
           (base32
-            "1ihzv6n4zwxq51gba6w3bgzb4ws18h79z8k1iw24gpbz6pw0pwww"))))
+            "1fwfkns0nhaq913rjcbipbazl5rk8yaykbyhnwwr1rx5y1vgykay"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -89756,24 +89760,24 @@
 (define-public emacs-prefab
   (package
     (name "emacs-prefab")
-    (version "20220210.1658")
+    (version "20220228.1246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/prefab.el.git")
                (commit
-                 "70c20db8423e39e9889222531ba52715c6d5ce87")))
+                 "01ebae39d66170061443bab75c1c8acf95f41f2b")))
         (sha256
           (base32
-            "1f4qikrs9zdnnr6f1a5vwb0f9kqn1b7fb5n5n9r14h1wc6pn6y48"))))
+            "044v3gryfh31yl5kxgmwqn9r3bg1w4q5x1ahn3g1n1fgmkdvi7ym"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-transient))
     (home-page
       "https://github.com/laurencewarne/prefab.el")
     (synopsis
-      "Integration for project generation tools")
+      "Integration for project generation tools like cookiecutter")
     (description
       "Documentation at https://melpa.org/#/prefab")
     (license #f)))
@@ -90935,17 +90939,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20220209.1726")
+    (version "20220228.1205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "df19c7ba0eadf9f47e9dd757a7d0350fc967da99")))
+                 "fe8b9fccb3690178be7fc455202c941c4c674ac3")))
         (sha256
           (base32
-            "0xh9x6b4fmbnvs8awdkg74msabchqf7lx9w3z14qwfzn4jjzqwlb"))))
+            "0vg7fyy4zgk3gapjr8qqs57jmlpx0bs1qj0kida01pzd4qrlshp3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -113435,17 +113439,17 @@
 (define-public emacs-virtual-comment
   (package
     (name "emacs-virtual-comment")
-    (version "20211103.209")
+    (version "20220228.737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-virtual-comment.git")
                (commit
-                 "4effa95c7d6243fc5696597f488653f9d2a5d4a6")))
+                 "e98d6daccdc51d065e96a31b6b20df4d6e4e4f48")))
         (sha256
           (base32
-            "164yiiqqxk2fpjk65y72fr71j05b1330zmvbaxh0w3ww2axkjz68"))))
+            "16ikgi4dskywnminzqg4a7r4m5c9sh9jnjv1rz9wpkxzvzrir1kq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thanhvg/emacs-virtual-comment")
