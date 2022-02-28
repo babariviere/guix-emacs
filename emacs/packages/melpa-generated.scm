@@ -9252,17 +9252,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20210105.2255")
+    (version "20220227.2337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "108d2298cc34d906b196178ad955e3dc139e1779")))
+                 "e097df4192d9b1a894beae16b49f0c457fd1fcd4")))
         (sha256
           (base32
-            "1vwg82haclgwgjaq0r84gj416ribv7qn1lz8ixf05xhqsvq7ja87"))))
+            "1zgklxnk4dws66gf1y83mzidcfxcmlhi0nnzka67325hvzgc3jyv"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -23211,17 +23211,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220218.1547")
+    (version "20220228.314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "3cc3913c2b03f89020fd282563cab38e4e3c9d4f")))
+                 "1ecf8fcd779c3ef7472f532e0f7843b3ad9682c7")))
         (sha256
           (base32
-            "1ayq3qmbij7bral1qdim46r9y545c4w8p1zk4iddvq8v32lnf45l"))))
+            "08zvi1a6hiii3sw8fk0x26jv7vgzy04aal8zvcbwaaczl063vark"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -47567,17 +47567,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220227.2159")
+    (version "20220228.500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "e179ca76d5a82e7ab9c6aaa618b163a54fa694c7")))
+                 "610680070c1e33e6d21ef5e0ec850b3b2c604fef")))
         (sha256
           (base32
-            "02nj7afspyxa4yh1lq0r78j60s36dqgf8h1ing5q02mwpyyn8z8x"))))
+            "1qqqm35p7375307x1zxaziqm3axzwniy1wb1nssn68c51f8vg5ag"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -48007,17 +48007,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220226.2016")
+    (version "20220227.1854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f030e584b7f2c8679297ce960cedbdf0f7e7e86e")))
+                 "13c4171217ad4d657d2cf1c1f46c2d7778504b32")))
         (sha256
           (base32
-            "0y1d8kh0swpgplqji5cmpd2xpaywd3zr3qc4msdw9lvylnrkrdgn"))))
+            "0isn7zknmln14ziisrj0f0wnrkag7nyw5w4sjsiq9w6q94gwkinz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -56586,17 +56586,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20220203.153")
+    (version "20220228.208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "f892e6e74ffdf9f80019cf85f4e128dc66359266")))
+                 "dbf4386bac12f1733257db6105e3f1fca05ffb79")))
         (sha256
           (base32
-            "09kzmw9i4d77qjz1i37v40g683d9q7rw79bnxkj56acpd7h9dvk0"))))
+            "0sb72prfcglkjvpsgadyql5s9r28dbiihby3szl500lv7cfpc6ds"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -71689,17 +71689,17 @@
 (define-public emacs-morgentau-theme
   (package
     (name "emacs-morgentau-theme")
-    (version "20220223.1047")
+    (version "20220228.133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Melchizedek6809/morgentau-theme.git")
                (commit
-                 "63792c50a1fdfdf85c6ba6d7a8eb9fc3ec0a434a")))
+                 "8dc0df19f3984e555a90e4fb382fedd158265e73")))
         (sha256
           (base32
-            "0p448x7kl4y9zapkf808x4yxg86ifih95af2rhgzaxxm6ndvkyjl"))))
+            "0pgamfhx7p9yfix1l35xrb83sma7dz0a4g97a39cy21vg0wiv1q0"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/morgentau-theme/morgentau-theme.el")
@@ -73571,17 +73571,17 @@
 (define-public emacs-narumi
   (package
     (name "emacs-narumi")
-    (version "20220221.313")
+    (version "20220228.243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nryotaro/narumi.git")
                (commit
-                 "7a3b3c3a314612d16f89120b13ebeb8a4149d829")))
+                 "2f23f03a7b94766799f26605e167b259a4a90903")))
         (sha256
           (base32
-            "0j47yah1prq9kvgx4nvbyvmvgivzalg6m1zjldsa63w76d8sfpqk"))))
+            "09bjxlphh985w389qrk0plfqllqy5a0rwxblwh0fpabxsqrinz8v"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/nryotaro/narumi")
     (synopsis
@@ -80647,17 +80647,17 @@
 (define-public emacs-org-preview-html
   (package
     (name "emacs-org-preview-html")
-    (version "20211126.2350")
+    (version "20220228.414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jakebox/org-preview-html.git")
                (commit
-                 "14e39aec6e29dc15ff40b219b2b7284a9ec0af36")))
+                 "cb85524d5090b8189e965cc49d65be04650c17c4")))
         (sha256
           (base32
-            "0qza6ylknsd0d87dhwxk5hyqzs5107n2s8y189nr23lnyvpggn49"))))
+            "1ikcsn970pf5m30h6bqshykpnwpn7vwyyi9ymk3fv6pxh772x5wc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jakebox/org-preview-html")
@@ -81139,17 +81139,17 @@
 (define-public emacs-org-rich-yank
   (package
     (name "emacs-org-rich-yank")
-    (version "20201115.823")
+    (version "20220227.2154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/org-rich-yank.git")
                (commit
-                 "56d698c2614025538f456479c79073ef40399bc3")))
+                 "4bcd030f0d736d77c647955739b61fae541417e9")))
         (sha256
           (base32
-            "0l20a8ljpg8bk6hw4py5g9wv6kyv6y4nrc06l1w0lr0l808w5gqd"))))
+            "11j7ywvhsi4a4ayapxqccvag8sraw168pwwq4s3a0f98yzknd9h9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/unhammer/org-rich-yank")
@@ -83663,17 +83663,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220225.358")
+    (version "20220228.313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "8503350603c10d1e264f5599ae288fd71725919f")))
+                 "19cbc09d6a2d1189d14bacf567181ee4bd925a7c")))
         (sha256
           (base32
-            "1a5idw9p83m3jnf8s3f0lg28pw5059n05q1m4j5d92wajxlxf2wv"))))
+            "1hlfixh8valqfpnvvpp4lpnb06padh48bdkw49p22r9sl0k3m8cd"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -95915,17 +95915,17 @@
 (define-public emacs-rhq
   (package
     (name "emacs-rhq")
-    (version "20220128.1344")
+    (version "20220228.503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/rhq.git")
                (commit
-                 "8d7e25de54f0b11df90a21d3fd2f7fd7608607f0")))
+                 "67476529ce1572c7c9542dc74a78267c6011f5c3")))
         (sha256
           (base32
-            "17qiigk6ikfcyjgwxifmvwkyl8pa6iapyxz2qs0sbskw5d4mhdan"))))
+            "14ngs7p8d31mn7gc97gsdsdx50xrsvz766gcaw1l5xagdr6fp943"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ROCKTAKEY/rhq")
     (synopsis "Client for rhq")
