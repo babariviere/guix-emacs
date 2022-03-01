@@ -25276,17 +25276,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20210830.1025")
+    (version "20220301.332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "2ab86dc9a8ed7a669ca348252d4af46522b5c411")))
+                 "1d4acc3ec73609990eabacb59c038708bc401003")))
         (sha256
           (base32
-            "1ii93vw55vqik765sm79gvlhlnp9xgqzml2ibwwkrfgz7gip9i0m"))))
+            "1blx38fyfl1zgfh5k1mgsnxxjlski7f0n890kiyjbaw2ba9zzmgr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -41052,17 +41052,17 @@
 (define-public emacs-freeze-it
   (package
     (name "emacs-freeze-it")
-    (version "20210727.1535")
+    (version "20220301.148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/freeze-it.git")
                (commit
-                 "151d264a0d0593b413b5a984b391023e905a190b")))
+                 "ad92e33a7ebd860905da60d194833516bf61cbf5")))
         (sha256
           (base32
-            "04cv6p9df7h6w9h2ina3y3mmkp0y1rs6d9wmzari0cbm7q50hz4l"))))
+            "0gvc6f8jdvrfwhm5rlvrjd6lbvw1j84z3pwcfajpgyr1a5y6gx49"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rnkn/freeze-it")
     (synopsis
@@ -65124,17 +65124,17 @@
 (define-public emacs-litex-mode
   (package
     (name "emacs-litex-mode")
-    (version "20220225.2010")
+    (version "20220301.529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/litex-mode.git")
                (commit
-                 "533a0c0777e25134d2782917648b6e8d8274a3ac")))
+                 "324081d31a75bae26c56a84276cb1a074e97e005")))
         (sha256
           (base32
-            "0pspw0w0w8jzi97hhsrgniwjymf7ri59kqkjv9lrxycxddaccc5q"))))
+            "1j0bkxza2bjl2gs4mcyshiasmkyjkvph9717rd93hbsfh7yhs9ji"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Atreyagaurav/litex-mode")
@@ -83667,17 +83667,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220228.313")
+    (version "20220301.357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "19cbc09d6a2d1189d14bacf567181ee4bd925a7c")))
+                 "6b053cc765b5162c40aea6fd4c43bc1358b98be4")))
         (sha256
           (base32
-            "1hlfixh8valqfpnvvpp4lpnb06padh48bdkw49p22r9sl0k3m8cd"))))
+            "08lsph0xx0jhp5hjxg78sjdn1xm5mmycxbagf9m546ji11qfglak"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -113439,17 +113439,17 @@
 (define-public emacs-virtual-comment
   (package
     (name "emacs-virtual-comment")
-    (version "20220228.737")
+    (version "20220301.430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-virtual-comment.git")
                (commit
-                 "e98d6daccdc51d065e96a31b6b20df4d6e4e4f48")))
+                 "5205379bcfa1774a745e3dcbaa4ea861ff6a9ad2")))
         (sha256
           (base32
-            "16ikgi4dskywnminzqg4a7r4m5c9sh9jnjv1rz9wpkxzvzrir1kq"))))
+            "1blgy286id63mqr2gan7xkg88rn2nwj36vqdsyyxq8w2p3f5qh54"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thanhvg/emacs-virtual-comment")
