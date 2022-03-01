@@ -2346,17 +2346,17 @@
 (define-public emacs-all-the-icons-ibuffer
   (package
     (name "emacs-all-the-icons-ibuffer")
-    (version "20220122.2206")
+    (version "20220228.1513")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ibuffer.git")
                (commit
-                 "8a914b100348493a665f0d53de4e22bf5b30a2a5")))
+                 "b494b329400dafac5d41ec90d505120559ee589e")))
         (sha256
           (base32
-            "02rymhafqd2amazi2ds39vf5p01lfa75k5vyary3zrk2q01x1ba3"))))
+            "1sf4nx2pq9jlkxbd9gp40hzmar9c6a7fwr4dp04nkh5xkqp69hqp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -2394,17 +2394,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220219.1054")
+    (version "20220228.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "2aca118abec76886a0689bcb4b6ba1049ff4e297")))
+                 "a866ed554932d4c52f802b2235e6d5c3382d8a67")))
         (sha256
           (base32
-            "0h6sq20pg3g68p4a0ziy8n41h236q9vfc21wx7qs5g9v6k3pbdng"))))
+            "0id821qis6yqaicr0dv2cxyfdy8dh0m5xp7zbfrgnbzk1ah0npd5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -8691,17 +8691,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20210520.1616")
+    (version "20220228.2036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "32c1cfdf06dfa7bdbd79aba8066064212672e755")))
+                 "dc7342277f5094058f88f1a9a76cc8879f95d05a")))
         (sha256
           (base32
-            "1mbrsakg7mbrr4szi7ha5hcfr88i79p5bn59dh7v6ywa357brmky"))))
+            "1hxxy60cm22adp3y4v924x0xcgvwdpplxm70k7rwhg5z4i3is37a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/buffer-env")
@@ -9797,7 +9797,7 @@
 (define-public emacs-calibredb
   (package
     (name "emacs-calibredb")
-    (version "20220228.610")
+    (version "20220228.1557")
     (source
       (origin
         (method git-fetch)
@@ -13074,22 +13074,22 @@
 (define-public emacs-code-cells
   (package
     (name "emacs-code-cells")
-    (version "20211014.738")
+    (version "20220228.2054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/code-cells.el.git")
                (commit
-                 "68148cfc1f0723e554a09cbae4c732cfc348ecfd")))
+                 "dcb0465a4650ba580f288cf9bcd56d12fe292954")))
         (sha256
           (base32
-            "07y8ry0rwlxqdw39fi2maw114yyga8yzlbrxypw6irhnpm8mscjw"))))
+            "0l2ib6qgya401drllz8hrq1jylvljyk3cvhvxw669h29lhbaxh7v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/code-cells.el")
     (synopsis
-      "Work with code split into cells, including Jupyter notebooks")
+      "Lightweight notebooks with support for ipynb files")
     (description
       "Documentation at https://melpa.org/#/code-cells")
     (license #f)))
@@ -46619,17 +46619,17 @@
 (define-public emacs-grip-mode
   (package
     (name "emacs-grip-mode")
-    (version "20220104.1419")
+    (version "20220228.1516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/grip-mode.git")
                (commit
-                 "9220a560b4ac8431067be9c25a4c7f19075dc525")))
+                 "c0b45c3a0bf2f6ea51b166020aaf27050f4d3c66")))
         (sha256
           (base32
-            "0vq5nj4a6v7736lif992c3pdrpflp6p3y4x9l96qhi5fvbga7pfz"))))
+            "1zcrzy47lxk5p6qk0d9x2gpy2pza8kjwcp7aqnad7gl6jr257cac"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/seagle0128/grip-mode")
@@ -64328,17 +64328,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220228.1138")
+    (version "20220228.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "df2e5c7e0433b253d8f5688da134efff403e68e4")))
+                 "e016bd5713a73ccc8072009d5ebfb844635f58e2")))
         (sha256
           (base32
-            "08kbgdgv9d6bdjwfv5kjffp4cix64ir5rpgpl4a3dd0nwmklijb9"))))
+            "0wax8b01b26gchy6dahyicmnz9frhga6ij550lcp2jx0d6kn90db"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
@@ -71693,17 +71693,17 @@
 (define-public emacs-morgentau-theme
   (package
     (name "emacs-morgentau-theme")
-    (version "20220228.133")
+    (version "20220228.2214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Melchizedek6809/morgentau-theme.git")
                (commit
-                 "8dc0df19f3984e555a90e4fb382fedd158265e73")))
+                 "1efa7fa43f408660fa49a927ff03763354aed5f6")))
         (sha256
           (base32
-            "0pgamfhx7p9yfix1l35xrb83sma7dz0a4g97a39cy21vg0wiv1q0"))))
+            "0kl87pgy3zmz2aav80y07lm21rjwlrm2x0hb14mgq412rci287hd"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/morgentau-theme/morgentau-theme.el")
@@ -74521,17 +74521,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20220121.1723")
+    (version "20220228.1520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "00b2b8da57dc411cbaa464521d6f6f5f1dd9eb87")))
+                 "20ee8d88900b169831d6b0783bd82d2625e940c7")))
         (sha256
           (base32
-            "0rpz1rfvrkw43mjaviy8p865xnsqm76rfmhgs8945wkms54g6qky"))))
+            "0qv5cin9668pxm5cjhrl5sf170g62qqi954q4y2yj7zh3q0qhwpi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-transient))
@@ -79602,17 +79602,17 @@
 (define-public emacs-org-id-cleanup
   (package
     (name "emacs-org-id-cleanup")
-    (version "20210714.1604")
+    (version "20220228.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/marcIhm/org-id-cleanup.git")
                (commit
-                 "416c95fc9ad8551f1d9544f2504c866daac5477e")))
+                 "b6bf79465cd31d66b547704903b8ba5fcd6dd108")))
         (sha256
           (base32
-            "189zzfi5a1qsjm8ayq5v58s5iagibv2vk6rb6zda4p0hrmnfz2ky"))))
+            "0cs69fa36wdz8i6rvdslmr3nlwmaw74s8r5wcbjvh0kjzipyqdyp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -79648,17 +79648,17 @@
 (define-public emacs-org-index
   (package
     (name "emacs-org-index")
-    (version "20220121.1503")
+    (version "20220228.1651")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/marcIhm/org-index.git")
                (commit
-                 "64930ad82c0220ad7d80ec0896b8647a3206d2d3")))
+                 "9671cf059b681fac39ce910dd8847b5c7bfad170")))
         (sha256
           (base32
-            "0r4kn82jwv6w6ngz5azqq7jyxlfcspjj8lpscq8cnha5112qw7nh"))))
+            "1zygrmihzdsciqnm5kl3j4wgmm796q8ppv7nvgn3d8rv6xky5mx3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -82221,17 +82221,17 @@
 (define-public emacs-org-working-set
   (package
     (name "emacs-org-working-set")
-    (version "20211112.1600")
+    (version "20220228.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/marcIhm/org-working-set.git")
                (commit
-                 "729445496d94ea0050706007391817ef84dc0226")))
+                 "25ddd0169eafece581bbb4919427a4d64dab8ae8")))
         (sha256
           (base32
-            "0xa545wbh7kjbpry74x2bkw6rs9dshlajb5i17zc6v8zf400ds4r"))))
+            "08s9rf57yci4xla6dlkb9av9qd2nwls487vxr4zfyb932j8vdp4h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -101045,17 +101045,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220227.1043")
+    (version "20220228.1726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "8bdcc23f9b9738dd400b98b4503bb359b7bb43e4")))
+                 "7789d05e91bb0858874128ba71d057e84e7fa2bb")))
         (sha256
           (base32
-            "1jywlca3als5v990s4aynvkb290s3acv2gbv6z02sr6kby44jwa8"))))
+            "0k9pydy2dqvg4f3zbrdsbpl5gx7rhqj4saffpyhnwgjxfp5f8i4i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -109164,22 +109164,22 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220227.2126")
+    (version "20220228.1907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "a0aa7b9b07674e1e6b21a30081dc1bea01690250")))
+                 "c1e4621a11c79ec962bec75c12a6187f6dec3dc3")))
         (sha256
           (base32
-            "1w448ppnzlvinrph17vgjha1rvdjry1lrm5dpqksivchc9cix1kg"))))
+            "1zp07h33p2ckg61aicn65zy3nqpd4hppgw6sjmgvk17labxzn23d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
     (synopsis
-      "Scroll down & recenter top lines, get upper margins/padding")
+      "Scroll down & recenter top lines / get upper margins/padding")
     (description
       "Documentation at https://melpa.org/#/topspace")
     (license #f)))
