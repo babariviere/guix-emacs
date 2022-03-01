@@ -9797,17 +9797,17 @@
 (define-public emacs-calibredb
   (package
     (name "emacs-calibredb")
-    (version "20220228.1557")
+    (version "20220301.1245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chenyanming/calibredb.el.git")
                (commit
-                 "e650911d86289a2c54ef6101f4a4a24cfe87f9af")))
+                 "ea6930e2b355201d03c45d9d586fbc21da04cd93")))
         (sha256
           (base32
-            "1b0zkyamzjbgwhy2l0dr2drh3l3qx17dq6h83wz5n93686m8dsn3"))))
+            "1idaq2hb8pcqsna737rzg11mjqlvsvjrq3b0fz6pps3x1yv85c56"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -47571,17 +47571,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220228.915")
+    (version "20220301.607")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "0b0f98fca3f40db88c27c0005f20f5b4c37f7e01")))
+                 "e6de0c3754e04e04ba43c7ccac7e1e8182e68f8e")))
         (sha256
           (base32
-            "1sqjx5c1c8b0nv114807583j7r7ayzwr8g9q2140rzjvc8w9m4s5"))))
+            "1bxwc1qxb8wbj1fin92xigags1zr2bn09p7ss59dx8k1745cfi4w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-hydra))
     (home-page
@@ -48011,17 +48011,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220227.1854")
+    (version "20220301.1227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "13c4171217ad4d657d2cf1c1f46c2d7778504b32")))
+                 "04f5cdba41a68d3012f1979e2f9e96c95a88892b")))
         (sha256
           (base32
-            "0isn7zknmln14ziisrj0f0wnrkag7nyw5w4sjsiq9w6q94gwkinz"))))
+            "079kyi8c1gndfcyccibwif5xk16764if7vv2145kgy53ig2alx4b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -67253,17 +67253,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220227.1341")
+    (version "20220301.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "0f96d398346293b4d1f60dd878a490c25917cd8a")))
+                 "438f3dc43425d178f0725871795a727b620ba1dc")))
         (sha256
           (base32
-            "1q948ihwfr55spa81vpg3lih6bc0vappl0xlgdagh7m55mg561bm"))))
+            "1fkp3lw8685cs1glkvjpbjr95xavryjdjjbnsa3r8vabk1hxfb2w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68469,17 +68469,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220226.1237")
+    (version "20220301.1104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "5767b6ff49e26ecd6aa26f552397d5d2b8213d25")))
+                 "051bddf304c8bae7a7dc5f4fdf6e741ce7d73246")))
         (sha256
           (base32
-            "143d57fy5i5ziwfxxix595k0f98ay5l57x5z69g8lkp6nb7b1rq7"))))
+            "0l8nz00m1g2c5yvc17snnafl9ngp2r9f0x8xy8rw72qr87i8aah1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -80122,17 +80122,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220228.1319")
+    (version "20220301.1239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "dd7d45878f04c8aa9872ba6f6b4fb638dcba3032")))
+                 "f45be59ff5f754a2638399254cd7be37c02fb933")))
         (sha256
           (base32
-            "1fwfkns0nhaq913rjcbipbazl5rk8yaykbyhnwwr1rx5y1vgykay"))))
+            "1kv51kdcmgxyqcc850ad97zpwsy8d0xbl56za7cr45rqw3lrc36y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -80750,17 +80750,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20210922.615")
+    (version "20220301.841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "31aeb0a2505acf8044c07824888ddec7f3e529c1")))
+                 "af18eac2b80b2f56c135f37fcbdcce19fbc34b65")))
         (sha256
           (base32
-            "1jfm4ahh58x3a3njigrbfzd86fnbyybbcgca2mgmxddcy6bszfp1"))))
+            "0d7qc23n96sfn4r73y00223a8rlkd99rz6q1ihhhqxri6jw1mznd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -101045,17 +101045,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220228.1726")
+    (version "20220301.900")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "7789d05e91bb0858874128ba71d057e84e7fa2bb")))
+                 "906900bf058c4e66d29fbf100cb62584d743d035")))
         (sha256
           (base32
-            "0k9pydy2dqvg4f3zbrdsbpl5gx7rhqj4saffpyhnwgjxfp5f8i4i"))))
+            "1axvpybxjh32cw26sdkzp9d85h807wpn080g6wb5i9cclry02wad"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -118803,17 +118803,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220220.1952")
+    (version "20220301.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "3cca6a7271c9f7975828c9bcfa0d761a05c8e4a1")))
+                 "89fb5b16949435c22cb482d28c9babd38665d95e")))
         (sha256
           (base32
-            "07ragi8jagq3b0d73gz2g9qz6h0xl9akrfasxah6qzw811q0drvm"))))
+            "0hk2g3733ipg8fgqmxmghrrpqxq53g52dq9sqnd2vr9k055fb9rl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
