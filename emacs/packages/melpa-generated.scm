@@ -217,17 +217,17 @@
 (define-public emacs-aas
   (package
     (name "emacs-aas")
-    (version "20220217.2054")
+    (version "20220301.1628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymarco/auto-activating-snippets.git")
                (commit
-                 "1cb08537e255c60a9439e3fea7c5d406e32f5e97")))
+                 "8ce591165e0bdc1a6ea76e78bc10c6b55bab9634")))
         (sha256
           (base32
-            "1mm8c69r9jjs4qr0nha7pj1i8pq03q4nban4pik280swn4c8f3zl"))))
+            "0v9hw8rf5ypxn7bbwdvv5wrmvdghp691xkfc7kj2zihc0f7vyxak"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ymarco/auto-activating-snippets")
@@ -13960,19 +13960,23 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220110.2248")
+    (version "20220301.1502")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "c25f1fbc3850e36e6521b77fa1641d5583365d8b")))
+                 "adc387ab1c040c32a011630a31f852c87f54dba5")))
         (sha256
           (base32
-            "1ski2dv8ndlrpad08xg1bz9fxy8lj3c27z8i0vlc96x40nc788bh"))))
+            "0dvglaycnczj68h2d7347d839rb60xlpqdsh08kf6yd1xf9hssx2"))))
     (build-system melpa-build-system)
-    (arguments '(#:files (:defaults "icons")))
+    (arguments
+      '(#:files
+        (:defaults
+          "icons"
+          ("images/small" "doc/images/small/*.png"))))
     (home-page "http://company-mode.github.io/")
     (synopsis "Modular text completion framework")
     (description
@@ -22853,17 +22857,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220225.1528")
+    (version "20220301.2133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "498ffb2ba51fce12cb543caca0ecbc62782620d3")))
+                 "4989092b1d6938256f8dbd66e0a4d62870746c0b")))
         (sha256
           (base32
-            "1ixzi9lsjra01srvkd30jvryhbgxl9s49mspy2f6975zna390m60"))))
+            "02pwzs00485jw85fracr1yfhlmhiv3f1q6wfbh41mf07a4f3k89a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -33207,17 +33211,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20220129.446")
+    (version "20220301.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "a94e4a645988a2c0e2369e27a2635f6555d321d8")))
+                 "ad6d5971faf6958fd0a7776c7a14791b101c8563")))
         (sha256
           (base32
-            "1pszg8vlhdbpl3q6wr60jv1pn52dpxl8lzmvrvsy5jwvlmiwy91y"))))
+            "1h43dg3ravc2d09y1rcm21q3d9hyx4k1l2gzhfkj4iryh4p07axw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -62683,17 +62687,17 @@
 (define-public emacs-laas
   (package
     (name "emacs-laas")
-    (version "20220108.1536")
+    (version "20220301.1629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/LaTeX-auto-activating-snippets.git")
                (commit
-                 "14c6cc2ff8c0c6b20b83fb075b94a8661a985249")))
+                 "b372f9a44bea03cce09b20cd2409e3ae3fa2d651")))
         (sha256
           (base32
-            "1vz0q7z3n6iv2m3xiw5m5f17ifig47c08zz2sm3svqwjq328pnwh"))))
+            "1f2cfvc4iz71x43z8f7v24cnfdvn249685qqz9lz16j2sga9f3y1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-auctex emacs-aas emacs-yasnippet))
@@ -67253,7 +67257,7 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220301.1343")
+    (version "20220301.1526")
     (source
       (origin
         (method git-fetch)
@@ -80122,17 +80126,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220301.1239")
+    (version "20220301.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "f45be59ff5f754a2638399254cd7be37c02fb933")))
+                 "074b7e5b514a0d7758bc0afce3d107ddc40c5da2")))
         (sha256
           (base32
-            "1kv51kdcmgxyqcc850ad97zpwsy8d0xbl56za7cr45rqw3lrc36y"))))
+            "19j3iv21lgd09p2l0bs78mai6ixhnqah0nvjdayv2nl2a76xbiw7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -83667,17 +83671,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220301.357")
+    (version "20220301.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "6b053cc765b5162c40aea6fd4c43bc1358b98be4")))
+                 "c1bcb0f9ff3e944a34025b3b5a14ee228e5098f8")))
         (sha256
           (base32
-            "08lsph0xx0jhp5hjxg78sjdn1xm5mmycxbagf9m546ji11qfglak"))))
+            "1klgfacmf1jln7v3q1i4q2mmvb1rqsbjp4jskk9y6a9pkvf4va7i"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -97060,17 +97064,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220208.1018")
+    (version "20220301.2010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "c8c1c16f303e10bada563f9505cfccd1f818423d")))
+                 "02a4d366e309b7dd6a45f8a94669a25d6fe80ea1")))
         (sha256
           (base32
-            "061gx6wijsbc5jmllcpkha4vh308jckbidh441pqghvi9j2n4l8b"))))
+            "0j634n2v8sqpybbmd62jayyamz28dzlmvr45bsijbwxn6b4pa8k0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -97244,17 +97248,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220227.1323")
+    (version "20220301.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "4140ce28ed7beda6b7a1cc6e6cbf242856f1dbb7")))
+                 "13ba8cd0c7f99dcc7baa55b0d5c68bc03ac5b9e0")))
         (sha256
           (base32
-            "0sd1n4wxw68hj2x87r5vhii3c36p64i36d4mx6ml8f91gxh4nrc6"))))
+            "1qxxm3gz7kph2xqj0chjp2c61fi2mb0909n50lq1ylknxprmq33m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -109164,17 +109168,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220228.1907")
+    (version "20220301.1633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "c1e4621a11c79ec962bec75c12a6187f6dec3dc3")))
+                 "156dabbe05c05fde44638e0b161bdff1141cf39d")))
         (sha256
           (base32
-            "1zp07h33p2ckg61aicn65zy3nqpd4hppgw6sjmgvk17labxzn23d"))))
+            "0ps98646qvha663qb3w7g54ixrcldnpx3f977i0z4ryvxyjls841"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
@@ -109806,17 +109810,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20220211.1633")
+    (version "20220301.1729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "f7d393b5caf601fe20c7543a53fca3d7e74ea09d")))
+                 "ad6d5971faf6958fd0a7776c7a14791b101c8563")))
         (sha256
           (base32
-            "0i8vc5mpwgkf21awnzc4m60paf13lwl0ff4ihks6k6xq65va3rhn"))))
+            "1h43dg3ravc2d09y1rcm21q3d9hyx4k1l2gzhfkj4iryh4p07axw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
