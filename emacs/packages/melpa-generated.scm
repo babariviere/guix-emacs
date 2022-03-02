@@ -16202,17 +16202,17 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20211229.420")
+    (version "20220302.229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-notmuch.git")
                (commit
-                 "0b7fae73f51bc855078dca9593c8c7f67fe2ed98")))
+                 "883527072b56bb09dd921800bca13860caaa4ffe")))
         (sha256
           (base32
-            "0kiwc7qbhkmaj5hlarxsv3gy3gikykvxklgqkq8f68jjfgb0hdag"))))
+            "0xzpkpf2sb89qkbqcrwddp4pgnzdjp40bc5da22jq9r4pf67y7qs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-notmuch))
@@ -42606,21 +42606,21 @@
 (define-public emacs-gh
   (package
     (name "emacs-gh")
-    (version "20201222.438")
+    (version "20220302.549")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sigma/gh.el.git")
                (commit
-                 "4b2dd0667ebe9c684c1de5bc96961c2ab0885c07")))
+                 "27ccc892e94f7e747e5b879eec71119965d9ed6e")))
         (sha256
           (base32
-            "11qjlwsiicnmgcy0yvpvagpcl31rrv5qzm18hlh16cyis4z3vngi"))))
+            "0biljpqw14kjv0njyrahfdgglaphghva0kpfjhiprfwbd0rmmi1k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pcache emacs-logito emacs-marshal))
-    (home-page "unspecified")
+    (home-page "https://github.com/sigma/gh.el")
     (synopsis "A GitHub library for Emacs")
     (description
       "Documentation at https://melpa.org/#/gh")
@@ -67257,17 +67257,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220301.1526")
+    (version "20220302.515")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "438f3dc43425d178f0725871795a727b620ba1dc")))
+                 "613682a70631178caee15d1b5a16fae90da4af7b")))
         (sha256
           (base32
-            "1fkp3lw8685cs1glkvjpbjr95xavryjdjjbnsa3r8vabk1hxfb2w"))))
+            "1b8mqbhh5xy6g3nhmfqaj3d4qs0miglg8nk8b9aw1vpk4gvgq34c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -119187,17 +119187,17 @@
 (define-public emacs-zoxide
   (package
     (name "emacs-zoxide")
-    (version "20211223.245")
+    (version "20220302.522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/Vonfry/zoxide.el.git")
                (commit
-                 "29508e94255c34174bc07c93749cad5d04700063")))
+                 "ecdcb62847b5e54ccd477d740e4974f28c8f5809")))
         (sha256
           (base32
-            "12y0vqibb5sn9l42aiy1lm0cp0nl8d27zgql86va28glwzpma6s9"))))
+            "1f4j53a1bm4kpgmlpfxnqb9zm8q0qxl7frxd8a0nqwfrxrzkqp8p"))))
     (build-system melpa-build-system)
     (home-page "https://gitlab.com/Vonfry/zoxide.el")
     (synopsis "Find file by zoxide")
