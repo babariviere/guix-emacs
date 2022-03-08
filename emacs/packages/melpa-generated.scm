@@ -16272,17 +16272,17 @@
 (define-public emacs-consult-projectile
   (package
     (name "emacs-consult-projectile")
-    (version "20220225.1544")
+    (version "20220308.458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/OlMon/consult-projectile.git")
                (commit
-                 "758cfc259ae83421d008731642ff1ada41b7b514")))
+                 "0cfbadac64f44b901770f09e2806b869b0628880")))
         (sha256
           (base32
-            "0fsqz88xplbkr6hl8zwmg65s3d8jjfnvf2bdfv795i0n8lsprl3c"))))
+            "18ch047rv0k2f2xr9r2818bz968qlzkf3y61jnc2cf0zb12cqs8l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-projectile))
@@ -66239,17 +66239,17 @@
 (define-public emacs-lsp-haskell
   (package
     (name "emacs-lsp-haskell")
-    (version "20220226.1437")
+    (version "20220307.2312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-haskell.git")
                (commit
-                 "69ddd5d32d6d7d658ec3f89c8ec6280e912e6be8")))
+                 "7cf64944ab3a25ea5d6f8d5e0cd33124182df991")))
         (sha256
           (base32
-            "080k3ghhrnlnlq8dzqki6jwnxg3dvg2kzcsx8214k7sfp47qfkwn"))))
+            "037wcvan0185bhzzhi4phw9z245a28s29zvyfik04c27n0bhm2xf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -80219,7 +80219,7 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220307.1755")
+    (version "20220307.2239")
     (source
       (origin
         (method git-fetch)
@@ -81367,17 +81367,17 @@
 (define-public emacs-org-ros
   (package
     (name "emacs-org-ros")
-    (version "20220304.2111")
+    (version "20220307.2308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/ros.git")
                (commit
-                 "c30da1357a7607d61e2e99df719c4d9ec3dacd8a")))
+                 "bf3c4a3a41ad960ef5d9ae062a20664834e926e9")))
         (sha256
           (base32
-            "061g6v22q90c9v3l3f0vifx9vswjpgkll3hqbjzsf64pi30fqyf1"))))
+            "1l7h6f2ins9hgxd5yqb608hca5212x6crxwsmyy6025n0rq4yqmd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/LionyxML/ros")
     (synopsis "Rahul's Org-Mode Screenshot")
@@ -89323,17 +89323,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20220216.1906")
+    (version "20220308.607")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "7b02960025fb89384f78ba12ad03cae0ddf1e411")))
+                 "3212241316f7da42d2848700dbb23f09f768df4e")))
         (sha256
           (base32
-            "0p12zz2lhm10yikhnq52z66xwy64gcvig42bzajv5q7x09qvvna7"))))
+            "0rphvshd58dh4fvx1dv668kd5gg9cpyprb9rvaw1zmvgv8fxa4ih"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -92532,17 +92532,17 @@
 (define-public emacs-python-docstring
   (package
     (name "emacs-python-docstring")
-    (version "20220304.2113")
+    (version "20220308.22")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/glyph/python-docstring-mode.git")
                (commit
-                 "cff5b24936c6cdf0962cac2b6cb6e46164eaa5a1")))
+                 "01d0470498d08ce9d99dd4ce709c567229f857d2")))
         (sha256
           (base32
-            "0749l92a011z1s47npyahj2cg2cfilmpv3rgash3ych6lwql6wjc"))))
+            "1573qiqllckd5xbdbll8h786v5znahd0l5hipda9i6ppb1vj3vwg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109309,17 +109309,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220305.641")
+    (version "20220304.2335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "b7c738a7596473d7c0eafacbcfcd04280aa4d668")))
+                 "bd01b69790f065bf5c859979e34a934b32af7d3c")))
         (sha256
           (base32
-            "140bzgmyl03dk4d9cklz8xgvhzw0s4pd4v364qfy05f8f2lgi4l0"))))
+            "1mw9wqni2crgk7w90p7kfcs8w63iga9g72gb4hg913aysm0x9pfl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
