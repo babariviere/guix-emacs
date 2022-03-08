@@ -1716,17 +1716,17 @@
 (define-public emacs-affe
   (package
     (name "emacs-affe")
-    (version "20220227.2050")
+    (version "20220308.1016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/affe.git")
                (commit
-                 "33aeeac9b56ba0dc36c1399999212ca54ea5ed0e")))
+                 "0982fbfee5877b2492568cce2d746b263f198db3")))
         (sha256
           (base32
-            "0gkssm5vmbhmbys1lql51pbg26bgn0cd8ll0vf3vw5hq6fm7bxwm"))))
+            "01hmhg3smjni8gpyap4wmqb4ax6dxfn6jnwlpdp76imbvb9m26ma"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page "https://github.com/minad/affe")
@@ -9946,17 +9946,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220227.316")
+    (version "20220308.1006")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "fc7a20be524d0faa848ba2a16a80767a445a1391")))
+                 "51b9bf1276445faebfbad636d9b6a39dc57b22bc")))
         (sha256
           (base32
-            "1dwbvixk2zr2k061zrljr933l2gpkx672d1d67gbz5znz4sbjsgh"))))
+            "0731c55bb1vxdh8k7312z1bvf7g8jwr2n04q3ffpqp0fan6ra025"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -12568,17 +12568,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220222.827")
+    (version "20220307.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "4a0b598c340143c5d9d39e36d32cee9693ec0e32")))
+                 "b7d08b87f6a116ff47b33ee857926b60c66c3ab7")))
         (sha256
           (base32
-            "0rias19vnxpf190mijncbajym07p3pslhxssq3kf1pwbx256aa1w"))))
+            "0n7v6hx21f8x37gj388wnff38aqpzxxv5g8vxavp74vr3cbagsnn"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -16035,17 +16035,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220303.1408")
+    (version "20220308.1010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "9b4f33ba7a41b5b2facf163a411c27f9c4e52777")))
+                 "800824601b610016066991d6e2dde198d4b0ad8f")))
         (sha256
           (base32
-            "1zr2apbwjzrr2r3899kgnl0f49xxxgqv0nlzfzcl6mc929li0ffb"))))
+            "1mravx5aapy8bcgk6nvi1jvb5jgl7jsn7pd7br7v7fqadcp225m6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -22059,17 +22059,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220307.1457")
+    (version "20220308.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "f010dc7a081a61588c220fb815f023544f444493")))
+                 "e1e80d3e85912041a34be915bd1af0cae050f2ba")))
         (sha256
           (base32
-            "0nbbj23ha9v03rqxxc6y030cvnyadk9258x287623gvy2s5p3bv0"))))
+            "1f0dmgsijkxfg2ngzpislxjay70pb5pqyfqw63krln2ziil9sxkh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -58374,17 +58374,17 @@
 (define-public emacs-ivy-migemo
   (package
     (name "emacs-ivy-migemo")
-    (version "20210425.613")
+    (version "20220308.908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/ivy-migemo.git")
                (commit
-                 "b91f341d1b70175baf989f0c6eee6573bf781a27")))
+                 "fe1e76cc6f5e958920b5eb922969bec3f8fe3ece")))
         (sha256
           (base32
-            "0svvh14zhym9ssc0dc7wyr1pw0rhiirn2s7a0xk43wl2r0c36cgj"))))
+            "14jg7v6vblr52vjd1jg1hpqjrr57pm6235shb0jrpincs4hgj0aq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-migemo))
     (home-page
@@ -68566,17 +68566,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220301.1104")
+    (version "20220308.1007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "051bddf304c8bae7a7dc5f4fdf6e741ce7d73246")))
+                 "bd98c02720bc59a5c185c293f60595d06dfd7637")))
         (sha256
           (base32
-            "0l8nz00m1g2c5yvc17snnafl9ngp2r9f0x8xy8rw72qr87i8aah1"))))
+            "1qk6j7l39z92h4kvvbwcs85ilyx3d6y0l8zm33iar2pjnyks1kq3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -96064,17 +96064,17 @@
 (define-public emacs-rhq
   (package
     (name "emacs-rhq")
-    (version "20220228.503")
+    (version "20220308.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/rhq.git")
                (commit
-                 "67476529ce1572c7c9542dc74a78267c6011f5c3")))
+                 "9cd8c2d61c3b8d4c92542a8c7f7493f61a850dc0")))
         (sha256
           (base32
-            "14ngs7p8d31mn7gc97gsdsdx50xrsvz766gcaw1l5xagdr6fp943"))))
+            "0pj9900jmlid6ygwv5r8nnz1j4axcspyk73hl2vi1xvlna93yxdr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ROCKTAKEY/rhq")
     (synopsis "Client for rhq")
@@ -107399,17 +107399,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220223.2047")
+    (version "20220308.1011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "40de509ff635b75d877d83d42d8e36672fdcc47d")))
+                 "ee964c24b69579fcd5ec3c7d3d1d84d1ca3d90e4")))
         (sha256
           (base32
-            "1h9sj8w6yrrlf1gjwv7lxzkbgam78804f8zm8d3knic8qv3h03lk"))))
+            "1cq7gg4fh105229my57wbb7v72l8mx957pvsg8k3zc1l0hbc796i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
@@ -116547,17 +116547,17 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20220306.1328")
+    (version "20220308.1314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashinin/workgroups2.git")
                (commit
-                 "b4fb2287cd646c2d165f8ebe80c5fcbbce861856")))
+                 "b2c457a720e98dd1c560860e44a6a80372ef07ef")))
         (sha256
           (base32
-            "02b5747w4czjhwpzxfypgwvlc7fvkxj8i6sbnms6b30bh8rcgv46"))))
+            "198bm8l8jf6xvc7djy3d9z7xm437pkabmi9i30pd79g5l2dikj8f"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
