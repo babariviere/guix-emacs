@@ -12342,17 +12342,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220305.420")
+    (version "20220307.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "1017297cb04b3c72dc5fceb48bf2791917eeccd2")))
+                 "867d23eadbda72b29bf1240c0bb32089b6ae042f")))
         (sha256
           (base32
-            "1nabfbh6j4s42h21qc56xa8anxba93nm2x3vli0k690gsqfsqp23"))))
+            "0ssdmmbg6jcb65ncczs0l932qabygv9wlcycg3p1gg640d4msgx4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -19328,17 +19328,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220208.915")
+    (version "20220307.1807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "7ae46300df5d22d3941ff9f10bc52d232985b628")))
+                 "f042f820d919d529668a3ea240b71ef231f6c388")))
         (sha256
           (base32
-            "1qv5vffbf0wjymdhabc3jl4h9ib9x38swabsjs23rm3a5jf9b091"))))
+            "0bzl1jy2lh2x4fvqsvb2r0vgw57xa8zf66f75yacn6mkgj15y5j4"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -22059,7 +22059,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220307.507")
+    (version "20220307.1457")
     (source
       (origin
         (method git-fetch)
@@ -26537,17 +26537,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220306.1826")
+    (version "20220307.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "198910a70e3ef376283bf0d2cae516973e69a5a2")))
+                 "d90aae7001b93aec4e65eb94f86fea052f896d57")))
         (sha256
           (base32
-            "1p76jkwp004lfzs1ss5yvs7a3b0492dqbrjfr26az650bclyxpca"))))
+            "1j710cbvi6js84fwfz7y7bixrhdvwsmsd3zyahs02bxydfrn1368"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -35404,17 +35404,17 @@
 (define-public emacs-finito
   (package
     (name "emacs-finito")
-    (version "20220111.1121")
+    (version "20220307.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/finito.el.git")
                (commit
-                 "57d3e873a5a5fde4f8dfdd99608780b7020c7b9d")))
+                 "be1ae9bcb1b85d93f138c510dbc16c28af228916")))
         (sha256
           (base32
-            "18li3w3qf9j1lb90p3vsn28wlqqad05rq7nhd988nzf7izxir094"))))
+            "0jslc8j153sglagfjq5vrcnhgzjjxkf763h3md9735z231svvvk6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -40601,17 +40601,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220225.1417")
+    (version "20220307.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "0f436173d1660321edac761e3e82c40e97709f63")))
+                 "ff52305986407fa80fe65762aa79aaa31008cb5e")))
         (sha256
           (base32
-            "03iwng2l5gj3mhk8jw72wzz5iji4c0m5p59f2igbiqm79xrxghys"))))
+            "04lkzy91xr7zldnsbda462b5xarsvpn2f4zpjcqqdjvhgxxjhphk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -48085,17 +48085,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220305.1000")
+    (version "20220307.2026")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f2e6d91c943d7ba0c69fbfc832a9e88fecd124b9")))
+                 "4fa1255970d575ec24f07a935a054efd65e6ce57")))
         (sha256
           (base32
-            "1789bm62g3yiwsjdac8yzdc2dwxmailrr5h8d293zz1vnhg6hq0k"))))
+            "1w56jgij4w2bf5wxfrlaxv1qz1g1zrflcxdlbg7jfq0ax4hxf025"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -67350,17 +67350,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220306.2049")
+    (version "20220307.1734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "036f5cb77576dd0fd141210ec02918893b482da5")))
+                 "bdd2f13feddd684bd7aee86128f7f77de9e9008b")))
         (sha256
           (base32
-            "0q9p0f1cbhl1x869nsdmdri9ik7wzs6dbma55rd6rcjyddxrikzg"))))
+            "14wng71ha2x2fkbfn71gj8lppfq98k2vspdm341brk2ahfpv74r7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80219,17 +80219,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220307.1016")
+    (version "20220307.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "f9be17a6317d395a2426e8060f503d24038a62f8")))
+                 "5c50baecd7cd605ec8ac23857f3696b7f1fee4c8")))
         (sha256
           (base32
-            "00kar9xcm8xkhwmyad21vd3i8q1rqnk06aisbqg9l5s4x4zzggk2"))))
+            "1napmf7qj5cka4r1jnm75vvmgizyqa7kjqy3mcwcalrhwrynprda"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -109723,17 +109723,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220227.1751")
+    (version "20220307.2129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "7c771c94c8fc31d859c1e083bf32fbce403f4766")))
+                 "45ef6df3fbc7f4fc87fd0db20b48334f61b521e0")))
         (sha256
           (base32
-            "1x4bk5m9s5zag8din004n3paiy8l560p2cwcyfc9y2zjn7h5p42v"))))
+            "1hjjdwg4zgjbkmfg114kyiqbp9c2g3mp0wbzr7sgr9jh1g04586c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -110943,29 +110943,6 @@
     (synopsis "Major mode for Twitter")
     (description
       "Documentation at https://melpa.org/#/twittering-mode")
-    (license #f)))
-
-(define-public emacs-twtxt
-  (package
-    (name "emacs-twtxt")
-    (version "20200824.1323")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/deadblackclover/twtxt-el.git")
-               (commit
-                 "e7bafaf92124bb4f2a0be5c1a635b80f9b3a8c87")))
-        (sha256
-          (base32
-            "1qqc6ykrpq311fwn5mvzc3yl6z48v1c3yq3vi8g9zv63ywj33bbk"))))
-    (build-system melpa-build-system)
-    (propagated-inputs (list emacs-request))
-    (home-page
-      "https://github.com/deadblackclover/twtxt-el")
-    (synopsis "Client twtxt")
-    (description
-      "Documentation at https://melpa.org/#/twtxt")
     (license #f)))
 
 (define-public emacs-typescript-mode
