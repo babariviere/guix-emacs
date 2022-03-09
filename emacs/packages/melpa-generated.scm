@@ -23265,17 +23265,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220306.1201")
+    (version "20220309.239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "7182c8abdfb367a00091c7b14a8127c69aaf3462")))
+                 "4b1cc7d887b94e1dd60348ecf547e2c5c95bedd9")))
         (sha256
           (base32
-            "1pprgb5iv0xwcmw8hb7dh22i1ad7c8kn13z76g7r06f7d1yqgw0z"))))
+            "00cikl22l2da0m82dkdrs6b8s1xdjp55jkhwk60j5pvngxpdfkh5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -39797,17 +39797,17 @@
 (define-public emacs-flymake-shellcheck
   (package
     (name "emacs-flymake-shellcheck")
-    (version "20210314.2048")
+    (version "20220308.2218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/federicotdn/flymake-shellcheck.git")
                (commit
-                 "ac534e9ef15c82ac86ae65fe5004d29dbc8c92c7")))
+                 "688638177b4e23ecc192975e3062274ca904ada1")))
         (sha256
           (base32
-            "04yfb4sy41spjzk9mhm4gy0h8vnjx09p2g6nm1yzgd9a5ph9sqgl"))))
+            "1x5blblaf1h6jz4v6l10w2gy7xkbwzzw2a4s0afdicm0r1wc7v44"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/federicotdn/flymake-shellcheck")
@@ -42060,17 +42060,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220308.2056")
+    (version "20220309.256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "76b19057f97e834f2873c502d7bd66a31b1d0b17")))
+                 "445175d8de1ae2b94d4a00843cdb75e07b782f9f")))
         (sha256
           (base32
-            "0krkvwwi80z9cvhhr4gm29vwmqk3mkghkc3bv5pg8mnwrdm1py43"))))
+            "16bai3rqpgj74g7kp63lyhcsd835w3ssg0msa00azjrhsdkkcb1c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -58374,17 +58374,17 @@
 (define-public emacs-ivy-migemo
   (package
     (name "emacs-ivy-migemo")
-    (version "20220308.908")
+    (version "20220309.605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/ivy-migemo.git")
                (commit
-                 "fe1e76cc6f5e958920b5eb922969bec3f8fe3ece")))
+                 "f31a2b314b81e328ce0222d8796b808230ddaa0e")))
         (sha256
           (base32
-            "14jg7v6vblr52vjd1jg1hpqjrr57pm6235shb0jrpincs4hgj0aq"))))
+            "07l6x4aysxzrwlva7df5mdmb8kir1w9jpk7jqc5823zd00dmd6hf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-migemo))
     (home-page
@@ -61430,17 +61430,17 @@
 (define-public emacs-keg
   (package
     (name "emacs-keg")
-    (version "20220307.936")
+    (version "20220309.637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/conao3/keg.el.git")
                (commit
-                 "c28ce03bbaee51874246aa798c8532a1c0df7495")))
+                 "944e36144d92a798e1fd0f3d83fc6347d57a976e")))
         (sha256
           (base32
-            "0n8xzmg2ycmhhp4msnsjz26mphw2v947nrfw6ch7aps8x86yb114"))))
+            "1flri9jmhhhak2zx46sw86jm05mw4banyk1ag2354v1irsc81piv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -62691,17 +62691,17 @@
 (define-public emacs-kuronami-theme
   (package
     (name "emacs-kuronami-theme")
-    (version "20220302.342")
+    (version "20220309.604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/super3ggo/kuronami.git")
                (commit
-                 "ec253f7749c2215c5156c552a2fea8330588b246")))
+                 "910e8fa56a0cfe89dae888522f9fec4045d017fb")))
         (sha256
           (base32
-            "1xk9x3hhfzipmx5j6shxmmsmcrmb40nra8gg27fh27c9w7h5ry5s"))))
+            "0pghi50ffzlp7igvq81dmrbrwyj9ivl5kkxm47hff7qgb9rvx8n1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/super3ggo/kuronami")
@@ -64425,17 +64425,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220228.1927")
+    (version "20220309.611")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "e016bd5713a73ccc8072009d5ebfb844635f58e2")))
+                 "880b0f252ec18b318c9b76e5f59f09faca564205")))
         (sha256
           (base32
-            "0wax8b01b26gchy6dahyicmnz9frhga6ij550lcp2jx0d6kn90db"))))
+            "1f9vrc3qar94amxiwzr6hsgx2r634sn5rxhri8hs3gbgrrpdl42l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
@@ -81194,17 +81194,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220304.1116")
+    (version "20220309.421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "274c775692e34c4580ff7c7d7019d73863ea7770")))
+                 "1ecc9c8da12fb7d270b42301bda02ca2c23bde3f")))
         (sha256
           (base32
-            "13hqjmc0cr5n4l6ss5377yshbgb278zii43a1mnjswl5q4z53g0l"))))
+            "1c41rkr8q4yir8mww2w7bg58iqdx9pwzwaj360j4lhpn29l61mgv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -83785,17 +83785,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220301.1542")
+    (version "20220309.238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "c1bcb0f9ff3e944a34025b3b5a14ee228e5098f8")))
+                 "b26e986b86292ad8964605d02d62d0a75790a663")))
         (sha256
           (base32
-            "1klgfacmf1jln7v3q1i4q2mmvb1rqsbjp4jskk9y6a9pkvf4va7i"))))
+            "1fpxp19kjrdl0d4535218ysyxjmq2fxafzmp7yg8wpcyq93j4qxp"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -89323,17 +89323,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20220308.607")
+    (version "20220309.457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "3212241316f7da42d2848700dbb23f09f768df4e")))
+                 "60297066e31e012b8087b1b7818febd73e02d2cf")))
         (sha256
           (base32
-            "0rphvshd58dh4fvx1dv668kd5gg9cpyprb9rvaw1zmvgv8fxa4ih"))))
+            "1ivj61hjg5gqlivb04ynnk2mry8bac9mmf9f473naplzwnd741p1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -91057,17 +91057,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20220228.1205")
+    (version "20220309.4")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "fe8b9fccb3690178be7fc455202c941c4c674ac3")))
+                 "d9cfe74845e1f77017406e3327e7502f17bab063")))
         (sha256
           (base32
-            "0vg7fyy4zgk3gapjr8qqs57jmlpx0bs1qj0kida01pzd4qrlshp3"))))
+            "1x3ln80qz18x8p3wy4rb4zx25031v41z2innm3c8jf5kkkq0ksd8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -91081,12 +91081,13 @@
           ("coq" "coq/*.el")
           "easycrypt"
           "phox"
+          "qrhl"
           "pghaskell"
           "pgocaml"
           "pgshell")))
     (home-page "https://proofgeneral.github.io/")
     (synopsis
-      "PG init file for package.el and ELPA compatibility")
+      "A generic Emacs interface for proof assistants")
     (description
       "Documentation at https://melpa.org/#/proof-general")
     (license #f)))
@@ -115566,17 +115567,17 @@
 (define-public emacs-why-this
   (package
     (name "emacs-why-this")
-    (version "20220222.1306")
+    (version "20220309.534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-why-this.git")
                (commit
-                 "3497115c2b3cc6f288770d3ae61ff1079ecc3b1e")))
+                 "f3d1e47b80446899fa08815b605a6c17f6284f81")))
         (sha256
           (base32
-            "1xcq6r25j60x2zrv1hn5whzq9aydjya5a3k25k6nz8hmc9cdp9dm"))))
+            "1zpm9aj42gkrxhh5swpyjy8xh83c2r5wmy7ap7v0kr1354krx0hx"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-why-this")
