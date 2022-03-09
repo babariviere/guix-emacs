@@ -1599,17 +1599,17 @@
 (define-public emacs-add-node-modules-path
   (package
     (name "emacs-add-node-modules-path")
-    (version "20210305.312")
+    (version "20220309.921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/codesuki/add-node-modules-path.git")
                (commit
-                 "7d9be65b3be062842b7ead862dec15d6f25db4a2")))
+                 "d8bd55d5929ac4655fdd163a3e59c7660fd5d1c4")))
         (sha256
           (base32
-            "0za0jjba2qdpqdkcp5bch6ma8crf0vsi7bxj2rasn2icqgxyn89m"))))
+            "039rfgwzmavgfa9gc7mh7hiw46gmgrhndsjib5kixynvcpl1y42l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/codesuki/add-node-modules-path")
@@ -9946,17 +9946,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220308.1006")
+    (version "20220309.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "51b9bf1276445faebfbad636d9b6a39dc57b22bc")))
+                 "96eec1dd1fc2ba6458ab17d9647e739e64953946")))
         (sha256
           (base32
-            "0731c55bb1vxdh8k7312z1bvf7g8jwr2n04q3ffpqp0fan6ra025"))))
+            "0in7wk6i9388f30xm2y964cbxkwwv32b3hhqml6cgd57s3av8f7d"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11543,17 +11543,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220306.2050")
+    (version "20220309.618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "865d6f73e2a3613393fec745cbff20830786b41a")))
+                 "1e27eba570d265bc27317dc2a8f8c98d8b5414e0")))
         (sha256
           (base32
-            "1srmsmdr1xzv4fafaab53mbdbdvr7y5g7igll78x89fv0vs9whsp"))))
+            "1zx918pkdiihj7s5x9pqy946q9bbjv774z3dkvkrnvj0xv1x34n6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -12342,17 +12342,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220308.2222")
+    (version "20220309.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "b849e6b969c78ee1d1965281ff3b8c8c2011698c")))
+                 "d7384a4edddc6c875f8562e2acd4e7346a68553f")))
         (sha256
           (base32
-            "0yyjff6qpp9bqdd25nicivi5ch43xj9r37xysjzvmljliakq7qig"))))
+            "0ajbylqvrdx2qzz3mncq43hjs8cwzw0wr8kiyp86xwcl1c376xx9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -22059,17 +22059,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220308.1908")
+    (version "20220309.1152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "6be5740c3ef610e3b4d254ea66e3acc46827b8f3")))
+                 "259043e17696070335fb9b82fc2e3228c85d9c18")))
         (sha256
           (base32
-            "05lg67p6zniwbyrld61rf2fxx7lpirjf8xq7fdxdk8iycl5vchgr"))))
+            "165wpcxm0k2jza0qya9kj5wpb068wgxr8gv5a57b2vci041pagmm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23880,17 +23880,17 @@
 (define-public emacs-dtk
   (package
     (name "emacs-dtk")
-    (version "20210926.541")
+    (version "20220309.759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dtk01/dtk.git")
                (commit
-                 "f6a94d86263041f9a172cb7df90e00d1ec44604a")))
+                 "56b339bc76926defa775c406113e306ec6d31b36")))
         (sha256
           (base32
-            "1q29lpza8rd209zh0n04ia6n359p372czkm57hhmvcd9cmi91fc8"))))
+            "0g33sn95zk4fp1jyh472k3qyvbm062njbxkmnv0qavrbli097q80"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/dtk01/dtk.el")
@@ -24776,17 +24776,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220121.2236")
+    (version "20220309.916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "4aed0c3a34e5faa95435e03be043f9a843971560")))
+                 "68c7c08df1f65c073837c4ce5f3e0374377ce3f9")))
         (sha256
           (base32
-            "13h94383lqfk2gcrfd7czdm46q38zg8bm8dyk8lcbyi7b60rczbg"))))
+            "16a6q43sfks5yn1gj2ch4l60szsi9c5hhw9d3ch2p1sszxvnszaq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -46442,17 +46442,17 @@
 (define-public emacs-graphviz-dot-mode
   (package
     (name "emacs-graphviz-dot-mode")
-    (version "20220117.1537")
+    (version "20220309.1336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ppareit/graphviz-dot-mode.git")
                (commit
-                 "a1b7d66f5c20404a1e59c2ee5e841022622535b8")))
+                 "6e96a89762760935a7dff6b18393396f6498f976")))
         (sha256
           (base32
-            "1xzpj81zzasj4ys9zypl4svgcikz4d32fvmzxdp8gq67bkwdlb6h"))))
+            "04p8x4lwbp2qwlsr5xlzjn3a25bg0rsnk3nqfvvz66zv0srz62mn"))))
     (build-system melpa-build-system)
     (home-page
       "https://ppareit.github.io/graphviz-dot-mode/")
@@ -61430,7 +61430,7 @@
 (define-public emacs-keg
   (package
     (name "emacs-keg")
-    (version "20220309.637")
+    (version "20220309.647")
     (source
       (origin
         (method git-fetch)
@@ -64425,21 +64425,22 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220309.611")
+    (version "20220309.848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "880b0f252ec18b318c9b76e5f59f09faca564205")))
+                 "260b8b84459ba40955970b6ee979fc71ebcac68a")))
         (sha256
           (base32
-            "1f9vrc3qar94amxiwzr6hsgx2r634sn5rxhri8hs3gbgrrpdl42l"))))
+            "0s6ygj00jw1cnp3mbv7zn63h8hzd41fq5shi0qm837s7bxb0sjfr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
             emacs-fringe-helper
+            emacs-ov
             emacs-ht))
     (home-page
       "https://github.com/emacs-vs/line-reminder")
