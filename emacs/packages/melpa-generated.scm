@@ -12342,17 +12342,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220307.1857")
+    (version "20220308.2222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "867d23eadbda72b29bf1240c0bb32089b6ae042f")))
+                 "b849e6b969c78ee1d1965281ff3b8c8c2011698c")))
         (sha256
           (base32
-            "0ssdmmbg6jcb65ncczs0l932qabygv9wlcycg3p1gg640d4msgx4"))))
+            "0yyjff6qpp9bqdd25nicivi5ch43xj9r37xysjzvmljliakq7qig"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -22059,17 +22059,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220308.1339")
+    (version "20220308.1908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "e1e80d3e85912041a34be915bd1af0cae050f2ba")))
+                 "6be5740c3ef610e3b4d254ea66e3acc46827b8f3")))
         (sha256
           (base32
-            "1f0dmgsijkxfg2ngzpislxjay70pb5pqyfqw63krln2ziil9sxkh"))))
+            "05lg67p6zniwbyrld61rf2fxx7lpirjf8xq7fdxdk8iycl5vchgr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26537,17 +26537,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220307.2114")
+    (version "20220308.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "d90aae7001b93aec4e65eb94f86fea052f896d57")))
+                 "838ef1623b7eb0811adc5e2253be6f0edecfe541")))
         (sha256
           (base32
-            "1j710cbvi6js84fwfz7y7bixrhdvwsmsd3zyahs02bxydfrn1368"))))
+            "1g661lgdgixc7j5w0r9k0bcn925vydvabh2plyc5dzpb2yq5khav"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42060,17 +42060,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220306.1918")
+    (version "20220308.2056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "f9a40fe67e15ad2ec984687a8e99844707f736e5")))
+                 "76b19057f97e834f2873c502d7bd66a31b1d0b17")))
         (sha256
           (base32
-            "12mfbiqh8s24nx4l2xzizpmvlq4frxxyyxf7wcvxqizmd921k2yf"))))
+            "0krkvwwi80z9cvhhr4gm29vwmqk3mkghkc3bv5pg8mnwrdm1py43"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -65221,17 +65221,17 @@
 (define-public emacs-litex-mode
   (package
     (name "emacs-litex-mode")
-    (version "20220301.529")
+    (version "20220308.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/litex-mode.git")
                (commit
-                 "324081d31a75bae26c56a84276cb1a074e97e005")))
+                 "59ef93dca6618c42db1b61fe0a44bdc8faf04506")))
         (sha256
           (base32
-            "1j0bkxza2bjl2gs4mcyshiasmkyjkvph9717rd93hbsfh7yhs9ji"))))
+            "08i5v97azfxkp4aqsg2kijyy2w5swxhkplvp40v1bswyy3kn176v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Atreyagaurav/litex-mode")
@@ -67350,17 +67350,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220307.1734")
+    (version "20220308.1849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "bdd2f13feddd684bd7aee86128f7f77de9e9008b")))
+                 "10b5407131d4299ca9ed038a23a3a41bcaac14fc")))
         (sha256
           (base32
-            "14wng71ha2x2fkbfn71gj8lppfq98k2vspdm341brk2ahfpv74r7"))))
+            "1fj4m0yh56nc5a12smw5q5ws3nah3fsr8p7mb4jwjsnh120fgvp8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67823,17 +67823,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220223.2013")
+    (version "20220308.1849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "cd2b712602ab4ae6bc930d9e9011c5f669562117")))
+                 "10b5407131d4299ca9ed038a23a3a41bcaac14fc")))
         (sha256
           (base32
-            "1fmqgbgs7212f81hh0gygf63k2m5j202gbc02k4fmlgj9xlqdmml"))))
+            "1fj4m0yh56nc5a12smw5q5ws3nah3fsr8p7mb4jwjsnh120fgvp8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -102932,17 +102932,17 @@
 (define-public emacs-solidity-mode
   (package
     (name "emacs-solidity-mode")
-    (version "20220106.1055")
+    (version "20220308.1517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethereum/emacs-solidity.git")
                (commit
-                 "f0f68b038c5edf16c85fc8ca58537e1c6479738b")))
+                 "20fb77e089e10187b37ae1a94153017b82ed2a0a")))
         (sha256
           (base32
-            "0hfp07bg348ppkgp5wca1sqpcprhc6jyxkpb1pmsm0vrifb3261l"))))
+            "0lyfhb4lirk08jc73c2vhlskfb496vnh0h906a74wz2pwg84q4m5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
