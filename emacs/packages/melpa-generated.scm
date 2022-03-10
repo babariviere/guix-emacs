@@ -2394,17 +2394,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220228.1509")
+    (version "20220310.1112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "a866ed554932d4c52f802b2235e6d5c3382d8a67")))
+                 "328047e1b107baa1f7df3c706000a1ec9e8f51db")))
         (sha256
           (base32
-            "0id821qis6yqaicr0dv2cxyfdy8dh0m5xp7zbfrgnbzk1ah0npd5"))))
+            "1vh3khzzaryb7glxywgmvi4fb3pv4nqbmdw93sxsg9j73nbnnd79"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -10037,17 +10037,17 @@
 (define-public emacs-cargo
   (package
     (name "emacs-cargo")
-    (version "20220302.1706")
+    (version "20220310.959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kwrooijen/cargo.el.git")
                (commit
-                 "a500fd2a6ee179fa788db4db651801d3242be8d7")))
+                 "8020eb0a589a1d8080de94f4873f1f2dfebe1e5a")))
         (sha256
           (base32
-            "0x83hkqvjdiz504ymbsrn4842m6xgv3nyw9a851i82ahxhmahazh"))))
+            "0qx6l87yiqiwwqxaz9zaqvvqa8fh2iq420j5d3a55vil6w5i3glq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page "unspecified")
@@ -22059,17 +22059,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220309.1152")
+    (version "20220310.1206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "259043e17696070335fb9b82fc2e3228c85d9c18")))
+                 "9a2849471bba98a56791f070d797d853efb36644")))
         (sha256
           (base32
-            "165wpcxm0k2jza0qya9kj5wpb068wgxr8gv5a57b2vci041pagmm"))))
+            "1az12yng0vgcw47lgza384mbcvzjyl4bd3vzi8kzn0209rjdasbb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25724,17 +25724,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220306.1115")
+    (version "20220310.1132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "d03235f39a39bdf2e74571d695163aa42f5b9506")))
+                 "f006162629a99c007572906147e3fb8c2b6e0ae3")))
         (sha256
           (base32
-            "14c9yr72z9hwmgz89n58kpggbknis6p8wn8q38ya497x4ms356y7"))))
+            "04zfgw8b99v59zl6yrn59zg3si5qn1m0qr0p4pzi22wj0imgy7vd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -34347,17 +34347,17 @@
 (define-public emacs-faff-theme
   (package
     (name "emacs-faff-theme")
-    (version "20220305.105")
+    (version "20220308.1440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
                (commit
-                 "1385058dfe1db579cc5e08bd81ad9b15282f0650")))
+                 "f1a1cf6c900cccc2b189d49ed6bc4557cfb1593b")))
         (sha256
           (base32
-            "1ph7myinasxbamr7vpiijihqniq06ng4h58jgh04xb7vvi4b07nx"))))
+            "1isang50iajcpch1b2j2wljq834qg3p6x4jflh9fh7dsl8x515yf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/WJCFerguson/emacs-faff-theme")
@@ -40601,17 +40601,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220307.1747")
+    (version "20220310.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "ff52305986407fa80fe65762aa79aaa31008cb5e")))
+                 "d8773c8de4a7e903a978d1ae36b63a76a257141d")))
         (sha256
           (base32
-            "04lkzy91xr7zldnsbda462b5xarsvpn2f4zpjcqqdjvhgxxjhphk"))))
+            "1b1nx8ywzl0pqfv6fmy8b6ji3549nhly9maw4k715mx4sinn66wz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -42832,17 +42832,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20220216.2156")
+    (version "20220310.1436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "2f50383cb35f0cc54599c54cc9794bf25387c050")))
+                 "bd6e02b884368f26aeef9fd67107809f355c2c3d")))
         (sha256
           (base32
-            "1ph96pqhizaq2vkvmkbzilacsbyx69g2bbsb3z8kqafrhg0khajj"))))
+            "0qaz0p7178xd4rs5wxw01804dhnzg9c0dbxlvddm66s6l31baij5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treepy))
     (arguments
@@ -81839,17 +81839,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220303.1426")
+    (version "20220310.847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "a7868e3456b3b202f06d53f3597a742004aa06a9")))
+                 "e0b1151c15d0eb7e0fac3f3a61e868fe1e2875fe")))
         (sha256
           (base32
-            "1y8h823fsqk7nclibl795zsl3ffrqmp3wzq833fqfab06d47xmxc"))))
+            "11mhsjr39smck2sjr9hfsm6fv6qx438bs507a9mp2pq6v23r2lh9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -87392,17 +87392,17 @@
 (define-public emacs-phpactor
   (package
     (name "emacs-phpactor")
-    (version "20220120.1919")
+    (version "20220310.1511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/phpactor.el.git")
                (commit
-                 "585862496e8ac9f496c0c99c5b97af456cb1f73c")))
+                 "34195f1533209e2ffd0f898a69c7db2bffd1eabe")))
         (sha256
           (base32
-            "1y5g5g2d5g9xiw3vwxqnmz58gyfn9hybpfzcjhyjhnjma74jkqfr"))))
+            "1xp4v5dm2x31xp5rq80jii2y8nprqd3jcmzpc0dp9xk3fq9hbq7l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -91058,17 +91058,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20220309.4")
+    (version "20220310.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "d9cfe74845e1f77017406e3327e7502f17bab063")))
+                 "a5021b929f21e2a478ca803be68e7b48c4752851")))
         (sha256
           (base32
-            "1x3ln80qz18x8p3wy4rb4zx25031v41z2innm3c8jf5kkkq0ksd8"))))
+            "1vd4pv9f7nnih9h8z6x07s4hf3qjc8hb2jr95w7y6gymrjxphj3m"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -108028,17 +108028,17 @@
 (define-public emacs-text-categories
   (package
     (name "emacs-text-categories")
-    (version "20211130.1719")
+    (version "20220310.1053")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Dspil/text-categories.git")
                (commit
-                 "b6afe804e23c624eec2af0f2a5c04bdcdfd833b5")))
+                 "f046a0e3da5283fdf3046b2f4cf3689a520ae552")))
         (sha256
           (base32
-            "0p63ypxfd4s0ywmja3ynyn0i9mirgv8kyr2wj4a0i20havxd29gz"))))
+            "0amx3wa5vr913vvvz7vlyajvg8d5nagjfnc9gmi842nzqcm2699j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Dspil/text-categories")
@@ -118904,17 +118904,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220305.1345")
+    (version "20220310.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "181cd27f6c4b469a02d112c77559911d192ec0fe")))
+                 "ddb2ed14ad6d6d442b8b640e846260bc28e3a1da")))
         (sha256
           (base32
-            "0gzvq0am3i6h0yn9qa3f4zvz788gw9w0m4pai2xvcnaafmg22y5w"))))
+            "08h14b5h52g0lmahfwm3v2rlzpxylssx13mm7i146c3yn3dk3i9i"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
