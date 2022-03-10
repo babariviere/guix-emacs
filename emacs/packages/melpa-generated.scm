@@ -11827,17 +11827,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220217.1606")
+    (version "20220309.1552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "b84cb375933053cf3e5408f0386034e8dabca5cb")))
+                 "02323c6f9bad12aa3a53f6f6b9d7f714ddf6e773")))
         (sha256
           (base32
-            "0hgyl2akvm5z13x403hmk3xyybbdp40sxbkf97m81k9y8m5fz7lz"))))
+            "0izwc82qvssfkjlcp36dg773ggd2fdlflap83fgzyhldlnmf3k6c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -28466,17 +28466,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220305.447")
+    (version "20220309.1530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "913ccec9b8423396e7c5327a9efa7685bdb04782")))
+                 "5faf1389162dd64bfe3511dfb8f52c18efb5140b")))
         (sha256
           (base32
-            "11drsdkd5nlmclb09qr1l50akkhq2f49nwkbd84i152fk4rrm0vf"))))
+            "04xxwhh577aam0fqfmprxqaw0v1l6yidikr6chajcf16mf1wd2gv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28490,17 +28490,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220219.1728")
+    (version "20220309.1530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "6683d7023c4128b4d62df2df56cdb7168f4844ed")))
+                 "5faf1389162dd64bfe3511dfb8f52c18efb5140b")))
         (sha256
           (base32
-            "1m9knr0r7fkbqjqp39zia5d0ndkqr36j39hfplmnjybrvgwwjnj8"))))
+            "04xxwhh577aam0fqfmprxqaw0v1l6yidikr6chajcf16mf1wd2gv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -31542,17 +31542,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220302.1726")
+    (version "20220309.2216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "2ba00479db3f71f46444733c0edc5f8d16155b69")))
+                 "3e41a823334abbba9cf16e482855699054d9dfe0")))
         (sha256
           (base32
-            "14xnszgw5ryjrbhi9ws7q0nzah3w1ycfik2l5fw8xb8z82v7997s"))))
+            "1ir4ybrnylx9slyb7znrshfjf0gw1xi7f9nf6bryidqxspsn2ri5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -39914,17 +39914,17 @@
 (define-public emacs-flymake-yamllint
   (package
     (name "emacs-flymake-yamllint")
-    (version "20211215.1416")
+    (version "20220309.2048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shaohme/flymake-yamllint.git")
                (commit
-                 "22690dd862089f470980cceea06153682a397b7a")))
+                 "8d5ef50f7f39920f94a7803c3d8d51c962bd40e1")))
         (sha256
           (base32
-            "1x3ivvwnbwpsavbypgkh1il7l7vmq8vp4w3y40f60zv3zz06nf16"))))
+            "057wqg478sk5wwhxdk83q75p1h7jyxhpvz7g7vh6bria0chd8m23"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/shaohme/flymake-yamllint")
@@ -41157,17 +41157,17 @@
 (define-public emacs-friendly-shell
   (package
     (name "emacs-friendly-shell")
-    (version "20201212.2302")
+    (version "20220309.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/p3r7/friendly-shell.git")
                (commit
-                 "ad4ac00662829fa18858be02b322753ad091ffe3")))
+                 "e530e359848e8bdad09d26529f17eb25e5558b3e")))
         (sha256
           (base32
-            "0xf71bvz4252y2jxkn9dpcmg5fvf9i049bbm8bvs7s9f6bcplba6"))))
+            "0n4p0682k6q7p4kn8khb87zbaa9by36gr7iz218p1bnv3v8c42b8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-with-shell-interpreter))
@@ -71288,17 +71288,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220304.909")
+    (version "20220309.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "109903a8737cc9a7540d710fdec148c3165057c8")))
+                 "1458edbbbb28c666a1061f1f67fa5fc33fcb41fb")))
         (sha256
           (base32
-            "0mhn8p7a66agkya0hr06kp1a22cfwb3hh6g29d8frzd258v3ifpx"))))
+            "01sw50091hm01gz5b7342dn4m6c1k9lcyhawf2ylsk71kgxn95n3"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -95913,17 +95913,17 @@
 (define-public emacs-reverse-im
   (package
     (name "emacs-reverse-im")
-    (version "20211005.2158")
+    (version "20220309.1919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/a13/reverse-im.el.git")
                (commit
-                 "380cce8deb1ea7ad79a8b1aaec4a753bd300b6fa")))
+                 "65e64ffa9f5358ebbe88cc84e8486987eda70c2d")))
         (sha256
           (base32
-            "039y306py7fb3pn4nhlq2mb7rznd6kv2m9bfpd7hbxpfysj7kmi5"))))
+            "0ihcgwdwz0gvc4i42hw8gam5jfns5sh2096pp2qcw5l07l8q8278"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/a13/reverse-im.el")
@@ -96317,17 +96317,17 @@
 (define-public emacs-ripgrep
   (package
     (name "emacs-ripgrep")
-    (version "20190215.841")
+    (version "20220309.1746")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nlamirault/ripgrep.el.git")
                (commit
-                 "40e871dcc4519a70981e9f28acea304692a60978")))
+                 "4ed5c741233a81d96115f556784269042070901e")))
         (sha256
           (base32
-            "0snn12iibz5frsx6yk6c31hb8knvsd568ghw9jjka5vxdjzap7p9"))))
+            "1bz9srlimpr5lzsjd02jq23h0vg2lnk921m24g0wsrdrccvmfxi2"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("ripgrep.el")))
     (home-page
