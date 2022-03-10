@@ -20157,17 +20157,17 @@
 (define-public emacs-demap
   (package
     (name "emacs-demap")
-    (version "20220303.333")
+    (version "20220310.422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sawyerjgardner/demap.el.git")
                (commit
-                 "9987f4b5f921c862d548c973111182f3bd34f29c")))
+                 "d0436f89e55c8cb386c4db3a3ece3f7d14d872c2")))
         (sha256
           (base32
-            "1xn8mp0g5zasxrij964iwf17fmlah00599qls4m2c60ifk0qq1fj"))))
+            "0qd8zpb3xw7q6kvja1jyq3rkxq50450649v5c0vbv4m25wbqjkm9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -23265,17 +23265,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220309.239")
+    (version "20220310.335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "4b1cc7d887b94e1dd60348ecf547e2c5c95bedd9")))
+                 "27c374d8013819885653b6065e236b9119992158")))
         (sha256
           (base32
-            "00cikl22l2da0m82dkdrs6b8s1xdjp55jkhwk60j5pvngxpdfkh5"))))
+            "1vf02j22ixz1y9mxp2ig3f4ysmmz6zsdpl326in6mwh4md7fjkqi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -34487,17 +34487,17 @@
 (define-public emacs-fanyi
   (package
     (name "emacs-fanyi")
-    (version "20220306.2010")
+    (version "20220310.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/fanyi.el.git")
                (commit
-                 "d82a298cb76175108f2f76987ef3e86771e49ec5")))
+                 "b01cb24209d223ae0e7281c279daab87800ee7f4")))
         (sha256
           (base32
-            "01jw9rqv5yjx1xyawnbharnakl79gkjm3qs2887fkmai8gz6lsp2"))))
+            "1jaw9xwh58p1n0x943f6fly0scxf6zd6czq87xrb3fnkmv8qdnhk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -81264,17 +81264,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220304.647")
+    (version "20220310.611")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "f50d6e7376b3ba603fb4df1d95204ca5f3cc3ca8")))
+                 "feb9179c9f05b34a225a3455b98691462cf00362")))
         (sha256
           (base32
-            "110374yzh26kdis6rkwghfq2bw4b3vczq9jkja325g10apbcp0s4"))))
+            "0v7gzpi5pga5kii9y952m4kj96yqbk0m33iccii842lrvf1f73cp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
