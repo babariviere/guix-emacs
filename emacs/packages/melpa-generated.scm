@@ -2394,17 +2394,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220310.1112")
+    (version "20220311.311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "328047e1b107baa1f7df3c706000a1ec9e8f51db")))
+                 "42dead856fe4647fdc18bc5a8b64440f03026525")))
         (sha256
           (base32
-            "1vh3khzzaryb7glxywgmvi4fb3pv4nqbmdw93sxsg9j73nbnnd79"))))
+            "167hwik7mjlvq502r0kx8hcrpizcyv532g5j3jayp5rvv2x6zwki"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -60927,17 +60927,17 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220226.1619")
+    (version "20220311.340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "73cb3a8f519dd555f73b981ac9c803b7489ce25b")))
+                 "b24b4ec07b3c6458b33e1e52f8e9ede613bcf5f4")))
         (sha256
           (base32
-            "0d68zhzclvnhyxvb0l6a841mvbfawvzryrpck36x06wy3899jn5l"))))
+            "1q2613p7pss194rjifslcbhxfk3943sgjmm0axi2fjm9kkv5slxd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -81264,7 +81264,7 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220310.1746")
+    (version "20220311.7")
     (source
       (origin
         (method git-fetch)
@@ -103548,17 +103548,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220225.102")
+    (version "20220311.108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "fba53cc8d05d768dc7835b06d0fb857d7f13d5ea")))
+                 "8ca8d0df3b9ab149a94d94f6c5e74fd526262057")))
         (sha256
           (base32
-            "1lmf3zmwain0y6psmdazbbh240p64a4p6cwlj55sngbnzqidf7h1"))))
+            "05l0885g6dp1blndc8zawmfkpcbgm01df3krw23fyvah2ax35cy6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -105075,17 +105075,17 @@
 (define-public emacs-stripes
   (package
     (name "emacs-stripes")
-    (version "20211022.2144")
+    (version "20220310.2237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/stepnem/stripes-el.git")
                (commit
-                 "5e7adbd6e19a2d362ba818fdb44ad7744d757df2")))
+                 "618e40e0a9cf80decea32c8daecb1c9f6eae2991")))
         (sha256
           (base32
-            "0ikhgqwwfbx1zmbx2scvi9cx7wlzwq91pwjydj2vxsg7c03iadd8"))))
+            "0yb8mnix056n6ll17w13afr9rap53bb542xqy5ywcg9ajc1gd4jz"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/stepnem/stripes-el")
@@ -107401,7 +107401,7 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220310.2105")
+    (version "20220310.2211")
     (source
       (origin
         (method git-fetch)
@@ -117742,17 +117742,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20210730.143")
+    (version "20220311.332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "84b88c9ed178af16da18b230c1f61c57cefedf28")))
+                 "34c300b08579b72c7c92aefee1f4b500913f0c85")))
         (sha256
           (base32
-            "13fjxrr7iyfagbm21p5is5jw1zv56ns2mnac145v8lqli6mrr5gx"))))
+            "1lwhm3c7xmx1j9ggf9ka0whpm7g5p6b11gfv1bxkdx1j8ypvxn0m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
