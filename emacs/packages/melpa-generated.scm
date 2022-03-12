@@ -24687,17 +24687,17 @@
 (define-public emacs-easy-kill
   (package
     (name "emacs-easy-kill")
-    (version "20220306.522")
+    (version "20220311.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leoliu/easy-kill.git")
                (commit
-                 "f155d19c528e27f8f6c72f0d75f652edbdcab37f")))
+                 "f9b450a87c41e5ef616df565ed158cb236aa5189")))
         (sha256
           (base32
-            "0vh8f7v5vcsl40mbim42284h2yjgd2222r6f41s01wjmjzv2d225"))))
+            "05drsb7kaksdsk1v0i5gip255rvlziirl4wcana08cpm9v9p4m21"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/leoliu/easy-kill")
     (synopsis "kill & mark things easily")
@@ -62511,17 +62511,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20220104.2320")
+    (version "20220311.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "68d2925c7942039e3fb3eb6c113adec5369c6c72")))
+                 "033bf69d523a783cbd245e667836c1e5b9aaa383")))
         (sha256
           (base32
-            "173ympabfa14rc6y4f3rjxapj7py0dsnzp8zg7q2gkyxv1iwhh55"))))
+            "14dfnpjjd2gdrb1wg4gdkydyhsy54fxj46lzajg25rdh6hnjmr4h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -66823,17 +66823,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220104.1635")
+    (version "20220311.1634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "21ce926eedd41ef305c2d89412506ce59b1a7eac")))
+                 "96b1ecbfbf87a775f05b5f0b55253376a3bd61e7")))
         (sha256
           (base32
-            "0v58imgrcgqs4fla1cncsd3wk6a8d5v7j014nn0pirypwfznyq0j"))))
+            "0xjskdws354zbs906frcmx37862xldpai09sicdk8jy2sdwhamk6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69102,17 +69102,17 @@
 (define-public emacs-matlab-mode
   (package
     (name "emacs-matlab-mode")
-    (version "20211122.833")
+    (version "20220311.1955")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.code.sf.net/p/matlab-emacs/src")
                (commit
-                 "c945bf50251150e0d4ad7ee751c7e9615cb4b3e8")))
+                 "45febb409c474417562f79e90387d3568b4fc024")))
         (sha256
           (base32
-            "0f0h73n5zg766aqhd8w0s2lbg71av4nyswzbcxprah7l57yr6kzi"))))
+            "0sn4c8gbvf68sn3qh75lq499lqds1rcc7ccifj5zgzxcgaf2x2wf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -80220,17 +80220,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220311.1421")
+    (version "20220311.1629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "8f35dd1fdcc2fa9f853823b572d28974ccd1a859")))
+                 "a0172a06a6b1290dbc58e7b8361e5854d5779005")))
         (sha256
           (base32
-            "0sjcn4yv9c3x7ikalh6csw25i7ny4jd42p9g37bns7z6wv75an97"))))
+            "1zak1z9hw8czjrsf9jm5s65gsmf8jmy3jxxdmbcwmqk12dmvzzq8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -80953,17 +80953,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20211119.624")
+    (version "20220311.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "55fca47c740c50fe04cbf2b8ae90e02174626c0c")))
+                 "81e0bf26338983beb4e2576d1294a78b0f7ff054")))
         (sha256
           (base32
-            "01h1vdg96ml8zxfi78j178w4m33n2rmwgcl6k2cisymcfijcp2c5"))))
+            "0xx36i943zmmkrv92zx2lkprx5ffczzgxbldq4486ykp80qz7817"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -98509,17 +98509,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20210828.1634")
+    (version "20220311.2122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/t-e-r-m/sculpture-themes.git")
                (commit
-                 "cce59d2bcc48d622f3978c583108cf853f21789c")))
+                 "407cbed4145af8feb5232b1161a5f79b6a9878fb")))
         (sha256
           (base32
-            "0f8aqq026j0wxkgs0p3yjq3r1jd30lk79199wrdk58x9120pp6z6"))))
+            "0x15fwrc53z1g517jrqyjdd8diil8sjdp9qhbhnbm2nsp97f07yk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
@@ -104916,17 +104916,17 @@
 (define-public emacs-streak
   (package
     (name "emacs-streak")
-    (version "20211004.2025")
+    (version "20220311.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fosskers/streak.git")
                (commit
-                 "32d6e3814df50284466d6d3a69f7f236e3746699")))
+                 "b2206de2fe43f97e754bbcb0abe9b078a419e787")))
         (sha256
           (base32
-            "0a3cn9kqkln4nxln78wjzr2zph3aa5y3hp0kxymniqz26dga29cn"))))
+            "0v2yvwgkc48kbqh2lx52044b5d7yvg7d24vivqbri1wny5zpriqr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/fosskers/streak")
     (synopsis
