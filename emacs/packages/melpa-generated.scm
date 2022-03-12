@@ -67351,17 +67351,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220308.1849")
+    (version "20220312.452")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "10b5407131d4299ca9ed038a23a3a41bcaac14fc")))
+                 "ca7504a12d0e899d7a82f3b0cbe2598d8d376fb8")))
         (sha256
           (base32
-            "1fj4m0yh56nc5a12smw5q5ws3nah3fsr8p7mb4jwjsnh120fgvp8"))))
+            "0xv9dkj4f6ap170iaxb2j3pxzvs4dpg96nlnnqnr9imzyb6d357w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81839,17 +81839,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220310.847")
+    (version "20220312.319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "e0b1151c15d0eb7e0fac3f3a61e868fe1e2875fe")))
+                 "e4c3dfa1aaf3ffcab9637481d4e36b0d80ac85f5")))
         (sha256
           (base32
-            "11mhsjr39smck2sjr9hfsm6fv6qx438bs507a9mp2pq6v23r2lh9"))))
+            "1vf5g2l0qpmc3wp3vkvh1zkivz2m1bgcbq352gnp6gyvhk217msf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
