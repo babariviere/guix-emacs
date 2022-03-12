@@ -330,17 +330,17 @@
 (define-public emacs-abs-mode
   (package
     (name "emacs-abs-mode")
-    (version "20210411.1013")
+    (version "20220312.1113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abstools/abs-mode.git")
                (commit
-                 "3b332ec1e941874f220897e5c0e0a6df762ca28d")))
+                 "50e9b85f278835a86af2fbf64a85e4f6324fa7a7")))
         (sha256
           (base32
-            "0m7v87w2akdpgr360gyjiw0p5sc6ms3y9bccwi9j4jz4gnlix6l5"))))
+            "1s0vhq9qv9k7mpfskb6hwhc7r68vph7qqag28rkwsz3vr6hn2q1z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-erlang emacs-maude-mode))
@@ -9946,17 +9946,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220311.1302")
+    (version "20220312.1052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "0f222fc942503ffacec8a22c4466c5abfdc8fe71")))
+                 "8f5f8d67169e2c889b78d5d19f27684aed6daa3e")))
         (sha256
           (base32
-            "00da931bwkkj6fm1lx9cpbjmw5hm8yf2s0vr019f0fhskyya7cr0"))))
+            "1pnlgslfjgrkvzw006a95ls5x2jvdja9brl51xyryjjdch16qvr4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -22059,17 +22059,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220311.1304")
+    (version "20220312.1121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "0d5f0f776a8788c1c4768ea0cc507d308a925c38")))
+                 "08688a8f94eac5ebcff7108a241012c8be2325b6")))
         (sha256
           (base32
-            "12wg1449hlq5n3mm9a827vbaijmi70d4n8zf2x24ihn721xbkylj"))))
+            "1nxvnd7c2f2720n89fc28h3z0f8v22hk6yskgl8js6khgkiyyhqg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25724,17 +25724,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220311.1241")
+    (version "20220312.957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "b90d2f39259c9f6e7ec4cd964f3608a52a0f335b")))
+                 "9389d2e4a0976068f129c9b4d20253bc0c562199")))
         (sha256
           (base32
-            "1bgdw9nr4zhxhx59liwvz7v52gsicgkza0iipsmfaijhdwz2ghbm"))))
+            "0ybp0c3bhdnl28gl3qxn8519ydb0vz5jiaa4mzwzvlvkn9xz2g9j"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -60927,17 +60927,17 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220311.340")
+    (version "20220312.1104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "b24b4ec07b3c6458b33e1e52f8e9ede613bcf5f4")))
+                 "9f77366aaf2227bb0cbd3cdc0f78088032f2e873")))
         (sha256
           (base32
-            "1q2613p7pss194rjifslcbhxfk3943sgjmm0axi2fjm9kkv5slxd"))))
+            "17l4lh9511dw4ri7csvp8258q59brhgrkir60kqmzxglrpmgjj6s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -64308,17 +64308,17 @@
 (define-public emacs-lice
   (package
     (name "emacs-lice")
-    (version "20220215.303")
+    (version "20220312.828")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/buzztaiki/lice-el.git")
                (commit
-                 "b15230dbfc66cc92bbde8f9fd369522d7666c0c7")))
+                 "9daa798da9faf13ed3652b3e7103136078a9da4f")))
         (sha256
           (base32
-            "0xpjcp4b76lc0d5jpry055d572rdp93vkbm8ck5yh97wy1y2837w"))))
+            "1phn1ldvjm2hc31gylln3jrpd9dgddk9hlmgxkgkvn274n8zikla"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("*.el" "template")))
     (home-page
@@ -68567,17 +68567,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220308.1007")
+    (version "20220312.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "bd98c02720bc59a5c185c293f60595d06dfd7637")))
+                 "e63d27e6fb24ed16339de9d813c555d40aa1e4ca")))
         (sha256
           (base32
-            "1qk6j7l39z92h4kvvbwcs85ilyx3d6y0l8zm33iar2pjnyks1kq3"))))
+            "0pfl2h0xgd9jbpzw8b25pa601gad8p4l470yrkhzyzv5hs7774s4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -87998,17 +87998,17 @@
 (define-public emacs-pkgbuild-mode
   (package
     (name "emacs-pkgbuild-mode")
-    (version "20220304.1645")
+    (version "20220312.1316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juergenhoetzel/pkgbuild-mode.git")
                (commit
-                 "56d628cc755b472d6c213a936de781aa77d72a5c")))
+                 "3cbf38c22d783ac77d5dbc69a38afa04e0aa4803")))
         (sha256
           (base32
-            "19rx6qhki0q5c0ndkknymhhw5wnm38s5gnrzvn0a6kmlrg325f6j"))))
+            "14ll9z57jlnbvsnzarqi0k0a0bxnkc9y4r52xah1h09v5fmcyi8a"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("pkgbuild-mode.el")))
     (home-page
@@ -90668,17 +90668,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220227.551")
+    (version "20220312.556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "2c948f3a8ed378ae5fd800d2c66aece06ba058b8")))
+                 "1fbce79c86a8f713286ce5fbf47b62fa4041e7c4")))
         (sha256
           (base32
-            "1nmdyd8bldgs0zcsdqdjj4c5kq3742019qlxprx2cqs640fi5y2s"))))
+            "0p5vr1hrnrbz1g55p47mh7p36rgdxrpx8g8wxmmn6bn8ppmsazcn"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -94856,17 +94856,17 @@
 (define-public emacs-reddigg
   (package
     (name "emacs-reddigg")
-    (version "20220120.2200")
+    (version "20220312.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-reddigg.git")
                (commit
-                 "edabb5df2aa0fee0c0f34b862505977dc13449cc")))
+                 "911a1c6310b42226392fd03dc1746a4c6fc4eb95")))
         (sha256
           (base32
-            "0g6kj94904ymsk54y5f6ynh5w562hy6bx9lngnwrqxcga1xydk71"))))
+            "0zljjqd1qyxh0p5rjphkljbl4b1kpmjw279axxp8y4hd67rk8fc2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-promise emacs-ht emacs-request))
