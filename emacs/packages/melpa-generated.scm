@@ -9946,17 +9946,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220312.1052")
+    (version "20220313.58")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "8f5f8d67169e2c889b78d5d19f27684aed6daa3e")))
+                 "79e8771c18c76a5bef5fdbf74718527e74b6d702")))
         (sha256
           (base32
-            "1pnlgslfjgrkvzw006a95ls5x2jvdja9brl51xyryjjdch16qvr4"))))
+            "1v5q066xppxf0crzcliqa2mya0x18qjmz5xp0mcr2szi1nps8z7s"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -15876,17 +15876,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20211123.357")
+    (version "20220313.304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "7a34e06931515d46f9e22154762e06e66cfbc81c")))
+                 "01d347784a2c34a02ae9f94c563f25f64bc84992")))
         (sha256
           (base32
-            "0n1w3gx7xv84nc5hz8w1ab2ml45g64jx05cwrflf5kqmx496phms"))))
+            "0h4al7ryg7g9cbaipfqqaiibmin500nlfrk25awldq9q29zfhkf8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -21736,17 +21736,17 @@
 (define-public emacs-dired-sidebar
   (package
     (name "emacs-dired-sidebar")
-    (version "20220305.1835")
+    (version "20220313.232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/dired-sidebar.git")
                (commit
-                 "3635a36f4b4febc8e79e18a0684c8d031adffd92")))
+                 "4d25ad2effcb32d0d88f7d40266613e714a10ce6")))
         (sha256
           (base32
-            "1bqmai5sf4awwdqcjknppa7vg976i1x7w53hcbzkllb0aj5r7ivb"))))
+            "0hd1qghh7hbim07px6l5asz3bm8nf08qd0whlz70ghdwqf1y054i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dired-subtree))
     (home-page
@@ -22059,17 +22059,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220312.1121")
+    (version "20220313.623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "08688a8f94eac5ebcff7108a241012c8be2325b6")))
+                 "36a064255e04e366fb40729879531eb0a15c3d7a")))
         (sha256
           (base32
-            "1nxvnd7c2f2720n89fc28h3z0f8v22hk6yskgl8js6khgkiyyhqg"))))
+            "02bn9kxa4wn1v6ixzclb5a7azyxscnh26wms74s8g0mc1xsjx4v3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23265,17 +23265,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220312.1557")
+    (version "20220313.524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "0d5b0bc38108029304bb906632e79bdcdd764931")))
+                 "b95340d24a37ac8b76b7934ff9508ff58f577a96")))
         (sha256
           (base32
-            "198v2ccxglzv8xy9iai90igvi747v1y1vldmbm5fcfdj0himc677"))))
+            "12f03mpm7iqas25h8miqzd3jpf16flk5kiw3yhmqb6lpinaxijg8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -24776,17 +24776,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220310.1532")
+    (version "20220313.721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "8424f455adb92d77725ce39c6bef103f49c5f0b7")))
+                 "0c94f61f4b30dccd484f185def835a7a9a6e1d3d")))
         (sha256
           (base32
-            "0lz1b42p28bjd0s4k6wvdq3nby26s6yfxlxw8zg6wy8iaxz5w1rv"))))
+            "05q7nmxgdnycacy343hlxxfzwr37ag77vkkyhfbvb2ydmdrlp944"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -60689,17 +60689,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220218.512")
+    (version "20220313.633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "fc67e4d603907160766cf22e8ef16029238e78d3")))
+                 "388c4c9ff915dfd5ded6906b62b76f97d59ada94")))
         (sha256
           (base32
-            "04nh37izz04lxkvkxhsig8khbrrgdl4p6pkjsv5bxymnp84zwlw7"))))
+            "1wpaspl09zrj27hw1d4mk935cdhn2cs8jrg53vx7smfppip3ddb3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -72701,7 +72701,7 @@
 (define-public emacs-multi-project
   (package
     (name "emacs-multi-project")
-    (version "20211230.2223")
+    (version "20220312.2321")
     (source
       (origin
         (method url-fetch)
@@ -72711,7 +72711,7 @@
                ".el"))
         (sha256
           (base32
-            "0wdab0hcl7w8mn8j9h06mr59rclxqr0h1fk8kblfg44kg0kiifr9"))))
+            "1vmyrz7gpfk4ijabqxn65lav4plr2284cbagzi0g8ig8whl6f43h"))))
     (build-system melpa-build-system)
     (home-page
       "https://hg.osdn.net/view/multi-project/multi-project")
