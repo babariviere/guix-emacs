@@ -14209,17 +14209,17 @@
 (define-public emacs-company-coq
   (package
     (name "emacs-company-coq")
-    (version "20210708.2357")
+    (version "20220314.526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cpitclaudel/company-coq.git")
                (commit
-                 "382db93374380e5db56f02934ee32bbe39159019")))
+                 "a6e349e0131f676a885bd14c908fd26054b2df42")))
         (sha256
           (base32
-            "1vlbw54a02qy77ad2qgd6sy7y3b6x1y1nm3bjxcd7f67hnncjg0p"))))
+            "1qws0a0ia039d6bv2sbjsdl1ry28y9jrv98qnp5jcm7jfb2jmvsp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22854,17 +22854,17 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20220211.548")
+    (version "20220314.57")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-doc-show-inline.git")
                (commit
-                 "5705f8d6f5583d50fc0497a88f06fb7c84a9ddb0")))
+                 "42954390621f281930a70104162db1bb70532a1b")))
         (sha256
           (base32
-            "189bahsiyv7j0h1i1nfilr5rp2bihfgi19lipdxmixfmfv8fjy6j"))))
+            "0nvk10nh2mkw430zdr0m2cnqzvi48ah32k8zay4lh0qgz4jl2kdy"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-doc-show-inline")
@@ -36364,17 +36364,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20210825.1804")
+    (version "20220314.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "784f184cdd9f9cb4e3dbb997c09d93e954142842")))
+                 "278d0810f05eb03600d835c2bdd67d6b55a58034")))
         (sha256
           (base32
-            "137zsivwh3i4b757hzwf5mhv5sg8j2jg7kg0cjphplwasqk70qm7"))))
+            "1c722aapkqbkxqchpchd2id9kz4hv2dckyl851x4na3yd7k0dzky"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -71311,17 +71311,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220313.1121")
+    (version "20220314.433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "ab8cbe3beacb4588d8b46b4b801184e1a08109eb")))
+                 "6635b6f9d9c44c459958775877274c270151901e")))
         (sha256
           (base32
-            "0vfyb8094nlfww2nkylpg3bayyq8nnap9345iw7afj37wrzhi36l"))))
+            "0lqm3xiic51nzaqjspdwlwcnwcq34jpr6bj08b1b4hhd249majfi"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
