@@ -8691,17 +8691,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220228.2036")
+    (version "20220314.832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "dc7342277f5094058f88f1a9a76cc8879f95d05a")))
+                 "5d0a3d67c9ae196bd44c9d41edc60cb59550eb21")))
         (sha256
           (base32
-            "1hxxy60cm22adp3y4v924x0xcgvwdpplxm70k7rwhg5z4i3is37a"))))
+            "0ps1wh77bwxqkcnqzczhkbs99gdr0j7cr1p5ak8i07m8c93c2zsc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/buffer-env")
@@ -22315,17 +22315,17 @@
 (define-public emacs-display-wttr
   (package
     (name "emacs-display-wttr")
-    (version "20220306.2205")
+    (version "20220314.1400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/josegpt/display-wttr.git")
                (commit
-                 "4021cd3cbaf1e8fbda206cccd1042829df07d1e0")))
+                 "ce097ffae30c2697bd037317338437bdea151fc0")))
         (sha256
           (base32
-            "0yddn8al5bkii0j6b2hg3xk6d9h24svwmpz1p7z6skk7mkg7imhf"))))
+            "0f5w3gps6kvpy696hczd0k01s4mzz4qam68yn7p861kajcwcm3al"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/josegpt/display-wttr")
@@ -22522,17 +22522,17 @@
 (define-public emacs-django-commands
   (package
     (name "emacs-django-commands")
-    (version "20220313.916")
+    (version "20220314.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/muffinmad/emacs-django-commands.git")
                (commit
-                 "e1f1dd88bb021aef3767d2b7a9631bbbc4013b59")))
+                 "7510c0f068bf214ad012c203d68e03ff4262efdf")))
         (sha256
           (base32
-            "0w21j81jj5xsns0iyi0jxa3q44scyhnp9a55y0qkph7ssn1b0ga8"))))
+            "0d27cz3i78n5n4bhmkzr6yg2mz5hrpf0r25m71176d6v0ckq7pwh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/muffinmad/emacs-django-commands")
@@ -27411,17 +27411,17 @@
 (define-public emacs-elixir-mode
   (package
     (name "emacs-elixir-mode")
-    (version "20211013.1408")
+    (version "20220314.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elixir-editors/emacs-elixir.git")
                (commit
-                 "7373e91e859c3ddc66457723d531cfab821160a3")))
+                 "e0d0466d83ec80ddb412bb1473908a21baad1ec3")))
         (sha256
           (base32
-            "0g1krxgm3x8mj959yin1k8khqhgdr70cymvn78kb0w286079xkmn"))))
+            "1whi4ni2jcinwq68yrzcl0q23dhp0b5k3jy5j3m89s2kdv3rwsm9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/elixir-editors/emacs-elixir")
@@ -35316,17 +35316,17 @@
 (define-public emacs-find-file-rg
   (package
     (name "emacs-find-file-rg")
-    (version "20220313.909")
+    (version "20220314.1540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/muffinmad/emacs-find-file-rg.git")
                (commit
-                 "46850d91627bc3fb0c5e6171bc0c82b03094c44d")))
+                 "404b1cc97c2f700d3dc1c66b640f96ed5a268dc3")))
         (sha256
           (base32
-            "1x8xcp1zx43igcs3l5q2s96ciikhx8db8l440ab2d4jix23bbsl5"))))
+            "18v3wdkh7ld6ap4nfc8p84i44gc99nrvk7v0gyq1zdg0yy20vwaq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/muffinmad/emacs-find-file-rg")
@@ -89902,17 +89902,17 @@
 (define-public emacs-prefab
   (package
     (name "emacs-prefab")
-    (version "20220228.1246")
+    (version "20220314.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/prefab.el.git")
                (commit
-                 "01ebae39d66170061443bab75c1c8acf95f41f2b")))
+                 "492bac529e006f84a234fca124feeae0bb6406e9")))
         (sha256
           (base32
-            "044v3gryfh31yl5kxgmwqn9r3bg1w4q5x1ahn3g1n1fgmkdvi7ym"))))
+            "1ry7kg9svb5r06gzgyvwrvcyasd2jy7inmwpa758lkz0q2gggvp4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-transient))
@@ -108568,17 +108568,17 @@
 (define-public emacs-tide
   (package
     (name "emacs-tide")
-    (version "20220102.441")
+    (version "20220314.930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ananthakumaran/tide.git")
                (commit
-                 "4bd7f35d8aae160b16642aef3ca205adc71539a9")))
+                 "b93e555858edc331ba33d1d8bd4582d578c7ca31")))
         (sha256
           (base32
-            "0zrapfxdarakp3kwp73c2ymjx51fsnfk6azi2y1wb2kgsdxl2yim"))))
+            "0il0rdg6qk4bdpq86hxzwbv1rgwn028v72i3xh2kg6xsmpil4f0z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -109793,17 +109793,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220307.2129")
+    (version "20220314.1258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "45ef6df3fbc7f4fc87fd0db20b48334f61b521e0")))
+                 "017eb7b3cb631bb432066539c459bfa96afa0543")))
         (sha256
           (base32
-            "1hjjdwg4zgjbkmfg114kyiqbp9c2g3mp0wbzr7sgr9jh1g04586c"))))
+            "05389csxv8ggs2gksdv42adddjdjxfhrf3ip9ip1w8ya8n6wh9qr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
