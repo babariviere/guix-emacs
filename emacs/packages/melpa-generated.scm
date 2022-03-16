@@ -22060,17 +22060,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220315.1306")
+    (version "20220316.129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "f2a52d4412e5c30c0d146f3721d467e4dbad65a9")))
+                 "2ef309eb6a8bfb23d02e5352515f9f1d07538120")))
         (sha256
           (base32
-            "125432lxvx9ghanf1j9xf1d5kscy50wxjnbsp3j5jm29npcvvna4"))))
+            "1j9qmkzwn0afbyb6fxxd8lbqlxvp4xglrkgl2agw2cj3sfvdcaky"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -22316,17 +22316,17 @@
 (define-public emacs-display-wttr
   (package
     (name "emacs-display-wttr")
-    (version "20220314.1400")
+    (version "20220316.213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/josegpt/display-wttr.git")
                (commit
-                 "ce097ffae30c2697bd037317338437bdea151fc0")))
+                 "2cb36df32b0ecf381185126a969b7282af5a0e01")))
         (sha256
           (base32
-            "0f5w3gps6kvpy696hczd0k01s4mzz4qam68yn7p861kajcwcm3al"))))
+            "03lb0a9w9rgiqar93crh4h4q3m7d3yk9hn8y5h806h56lzrp54f2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/josegpt/display-wttr")
@@ -42084,17 +42084,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220309.256")
+    (version "20220315.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "445175d8de1ae2b94d4a00843cdb75e07b782f9f")))
+                 "2fac9caf1b43dcdf5b5896cf41737c90ce3ea34a")))
         (sha256
           (base32
-            "16bai3rqpgj74g7kp63lyhcsd835w3ssg0msa00azjrhsdkkcb1c"))))
+            "1wypkqwm3hz73pwj7rskzjp21cnwvg6v281vrldmj9xbbr6vq2q7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -44227,17 +44227,17 @@
 (define-public emacs-gitter
   (package
     (name "emacs-gitter")
-    (version "20180122.856")
+    (version "20220316.138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xuchunyang/gitter.el.git")
                (commit
-                 "11cb9b4b45f67bdc24f055a9bfac21d2bd19ea1a")))
+                 "49327c91eb50cfea633af8fd32b0643691d75cb7")))
         (sha256
           (base32
-            "14ri86kxqz9qfhcr0bkgfyggy4bgg9imk9akhw6dfzqkl90gn2gy"))))
+            "0m8np2pxmgziirmprs70jbflilc98b7zlx1g07i6mhp39xw1sx98"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xuchunyang/gitter.el")
@@ -117969,17 +117969,17 @@
 (define-public emacs-yara-mode
   (package
     (name "emacs-yara-mode")
-    (version "20210520.1318")
+    (version "20220316.121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/binjo/yara-mode.git")
                (commit
-                 "345cf782926414f92f57d7f1b129974dc38a545b")))
+                 "7e4d10cbd28d9de10be1dc23ab2f7202eb4e2232")))
         (sha256
           (base32
-            "0n3cnxxwm3rgzpgqy1kkv6fhqzqw3gnj1p9anp5vdhss8fdad7s3"))))
+            "1vy2wq3w55dq87nfwzdzrls63cinl5m983knx3yylfhci5vmv8yy"))))
     (build-system melpa-build-system)
     (home-page "not distributed yet")
     (synopsis
