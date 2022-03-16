@@ -330,17 +330,17 @@
 (define-public emacs-abs-mode
   (package
     (name "emacs-abs-mode")
-    (version "20220315.1458")
+    (version "20220316.921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abstools/abs-mode.git")
                (commit
-                 "3838449a517ad346a87510bbd39324674e198408")))
+                 "d860ddbbd7cb93c7a77980c78c1a2a7634ef01e1")))
         (sha256
           (base32
-            "1qhqrllngg2jk3adl0pj3njf421siww1s3x2r3mal9cxjihkfj5k"))))
+            "03j70vk0gaf96cljkxxk2d1df85b968yn31wa13d465swcaq8wav"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-erlang emacs-maude-mode))
@@ -2253,17 +2253,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220312.1602")
+    (version "20220316.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "5bc4cbc5d7ef5c1869bdcc4800267a13950857d5")))
+                 "a040a01ef50bef5bfd1b82f0141221f334310b1d")))
         (sha256
           (base32
-            "13324ax6acijrskb0dxrhv0kvvqshpb74ka1i8f1g4x32y187bv2"))))
+            "070z380816r1adbcz6jzhkqbxnycynrydpx4bdn6gpir0arjjm8h"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -18888,17 +18888,17 @@
 (define-public emacs-danneskjold-theme
   (package
     (name "emacs-danneskjold-theme")
-    (version "20220214.552")
+    (version "20220316.1101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rails-to-cosmos/danneskjold-theme.git")
                (commit
-                 "eaf1c6a99cd1697a805a3f04325906412eef8171")))
+                 "054c0b9bc9cefb53a4065096e66707d20885c461")))
         (sha256
           (base32
-            "1nb34gmzlypq3yccm4dwii86pn6k75hb9y50ldsyx3x93zwcm3dk"))))
+            "1bw9ng01d0y6ri67w42z8ql37kxxra59v4cnra94s00abc212lja"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rails-to-cosmos/")
     (synopsis "Beautiful high-contrast Emacs theme.")
@@ -22060,7 +22060,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220316.129")
+    (version "20220316.620")
     (source
       (origin
         (method git-fetch)
@@ -25873,17 +25873,17 @@
 (define-public emacs-eide
   (package
     (name "emacs-eide")
-    (version "20220119.2125")
+    (version "20220316.619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://forge.chapril.org/hjuvi/eide.git")
                (commit
-                 "b0aab3735f3333ba0b429e669730ff22c9d59da7")))
+                 "23c78f4850f44d18eef66c694e7e05882d841ba6")))
         (sha256
           (base32
-            "0ms8a4wrkf98p0fjvy4fck0285gx1fdr8nwry0c2p4s1afj48kcn"))))
+            "1icj34anks7f0cjdqc1kgj3bva3bnhily5xc5mzx21w0iciqvpk6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/*.el" "src/themes/*.el")))
@@ -42699,17 +42699,17 @@
 (define-public emacs-gh-md
   (package
     (name "emacs-gh-md")
-    (version "20151207.1740")
+    (version "20220316.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/gh-md.git")
                (commit
-                 "693cb0dcadff70e813e1a9d303d227aff7898557")))
+                 "e721fd5e41e682f47f2dd4ce26ef2ba28c7fa0b5")))
         (sha256
           (base32
-            "0g3bjpnwgqczw6ddh4mv7pby0zyqzqgywjrjz2ib6hwmdqzyp1s0"))))
+            "1xnfq6bbc5bgkd0mzkr7r66sd85qfn859swpsp6sr0xfl8cq12wm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-pe/gh-md.el")
@@ -60182,17 +60182,17 @@
 (define-public emacs-js2-mode
   (package
     (name "emacs-js2-mode")
-    (version "20211229.135")
+    (version "20220316.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooz/js2-mode.git")
                (commit
-                 "997cac4c80a03062145b541b006c51cc91ee0c24")))
+                 "d3144b54666bf466f4c46982c557efb95048baa7")))
         (sha256
           (base32
-            "1wcz3xji7viqxa5is81jd7in7x1fya6rzybm8qj9rwgdc8camvyb"))))
+            "1dslg083jpc9fc61k0dmkwdb6hq2b6glppc177s5km0x8bhdaph2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mooz/js2-mode/")
     (synopsis "Improved JavaScript editing mode")
@@ -62175,17 +62175,17 @@
 (define-public emacs-kiwix
   (package
     (name "emacs-kiwix")
-    (version "20220313.1822")
+    (version "20220316.847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/kiwix.el.git")
                (commit
-                 "99c4663b6a40e85b124ca8e475955a75c007c019")))
+                 "444f686a7f75db788d54f544b923a3532732eb8b")))
         (sha256
           (base32
-            "10hrxd08cdfkf3lqvg2ga7vszpnb9v15659c38bnpqnzbj3s1gbv"))))
+            "1pdm69ghdfzv738c5y1b61d12cfafkvcmmjf0v4m3qai2xxqk4sn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page "https://repo.or.cz/kiwix.el.git")
@@ -62241,27 +62241,27 @@
       "Documentation at https://melpa.org/#/klere-theme")
     (license #f)))
 
-(define-public emacs-kmacro-mc
+(define-public emacs-kmacro-x
   (package
-    (name "emacs-kmacro-mc")
-    (version "20220314.2326")
+    (name "emacs-kmacro-x")
+    (version "20220315.1856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/vifon/kmacro-mc.el.git")
+               (url "https://github.com/vifon/kmacro-x.el.git")
                (commit
-                 "3dbb208b25381f84dffc0859a6a744058038686d")))
+                 "5dc825a8a2d739343e93ee2664c40deef8f461a4")))
         (sha256
           (base32
-            "0gmkrw3qawv183y8s04h3xgj6dycnilag8wdjpdb70ygaqbp3phd"))))
+            "1mjk65m4vr3m9fx4csxyrzj0idq645zkdq6nzmx7qi101018951v"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/vifon/kmacro-mc.el")
+      "https://github.com/vifon/kmacro-x.el")
     (synopsis
-      "Multiple cursors emulation with keyboard macros")
+      "Keyboard macro helpers and extensions")
     (description
-      "Documentation at https://melpa.org/#/kmacro-mc")
+      "Documentation at https://melpa.org/#/kmacro-x")
     (license #f)))
 
 (define-public emacs-know-your-http-well
@@ -71312,17 +71312,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220315.448")
+    (version "20220316.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "6a1e155198858624cb8b14107b6df12d708a7283")))
+                 "87508b4c21343cac910040705fe14f84d2c70d70")))
         (sha256
           (base32
-            "0s3xhc6fpxp01wica8k5l07x560lg6dxs59wd2d6jajb1f59zb81"))))
+            "1xliizsbdg6hqkyf0fvl03mg95qspzpcsgvnj54cpc8vbyj9xafd"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -74952,17 +74952,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20220227.1208")
+    (version "20220315.2232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "e0f8daa7c374cd91d9c4e89cbdda6e0e7fe24317")))
+                 "13414b7a294fa6f35bbeb535cdcab6b256e39da7")))
         (sha256
           (base32
-            "1098wm46gi15pzh065fpxfjf8lr7jf2sg48yy9yzdi0dwdyz6l4c"))))
+            "1grc5fk7ng4d6i8fwfpm3cb2b19s9sbdjbdn8ybchk7cj45kkl24"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacscollective/no-littering")
