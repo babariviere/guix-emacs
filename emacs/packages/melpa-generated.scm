@@ -12343,17 +12343,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220315.406")
+    (version "20220315.2251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "a06d33d26320967136656514d4c9d37d16727bab")))
+                 "f368c56c83843396b160440f472a661a3b639862")))
         (sha256
           (base32
-            "01cz7j75syzbi0kyn7x8vss96rml3ryjlx4sbg9268d9q48hqrbb"))))
+            "0xp17gc5ipm7jzyx8smnq5z3hb7nb36c11f5c637chg3qdhw1r8m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -15877,17 +15877,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20220313.304")
+    (version "20220315.1533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "01d347784a2c34a02ae9f94c563f25f64bc84992")))
+                 "9c28d7a853b4b4bd00215cf7f07856c1563f2ad7")))
         (sha256
           (base32
-            "0h4al7ryg7g9cbaipfqqaiibmin500nlfrk25awldq9q29zfhkf8"))))
+            "03r9f2pvxxv6nlxgljnd5cmnlvsykypdl38cfi79iw3spr0lcrxn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -20158,17 +20158,17 @@
 (define-public emacs-demap
   (package
     (name "emacs-demap")
-    (version "20220315.10")
+    (version "20220316.2")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sawyerjgardner/demap.el.git")
                (commit
-                 "5e1034abda4ffaf4bfe96bcc96144fa7396477eb")))
+                 "237a33714c094577510b2e040635ee7732fe36fe")))
         (sha256
           (base32
-            "1lyi5hrbwd8yjq80s8694c9dl511rh0inp49i8ff38pbxclwap3d"))))
+            "1wbhirkd0wdi0w3q7x3mbsvvbb3gyyfh8v37py6wwl762wccsf57"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -28651,17 +28651,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20220221.1445")
+    (version "20220315.1727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "6afe1b26d679357586380ecd69c9795985231013")))
+                 "dd1ee74db3325d6a27e14df7ae882b5cbd84989a")))
         (sha256
           (base32
-            "03cb4v50cxbprl695r9812zl35y5a8sdk7q8byflrlk6arihgrxy"))))
+            "0s50ap75wsjapxdby7x2gk85jnsr6aaf0l1vzpb6ax96ag92d4lm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("*.el" "lisp/*.el" "doc/emms.texinfo")))
@@ -66517,17 +66517,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220315.434")
+    (version "20220315.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "6ff97a3cd2abda0bc168f1d226b2ca4b74d5e3e3")))
+                 "bb6aa1c6bb043e288b82c85e7a2d8e8f0d16f961")))
         (sha256
           (base32
-            "07l6v9gi4l03c8azj7kkvslm7x7jqxf9wmn92cy5k1kz7390y1hn"))))
+            "0zc8z8271j2pddj4vn5mnxn8jbf1zb6fls4j95x0ny4zlhj4glz5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80977,17 +80977,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20220311.1925")
+    (version "20220315.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "81e0bf26338983beb4e2576d1294a78b0f7ff054")))
+                 "e5bae22b9ef63a9fcfbbaa000e087703751eaad0")))
         (sha256
           (base32
-            "0xx36i943zmmkrv92zx2lkprx5ffczzgxbldq4486ykp80qz7817"))))
+            "1njib0ah1913lk3ma18y8m5k8jqki17i9298cc03k7vvfw3l19wz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -83810,17 +83810,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220314.2107")
+    (version "20220315.1804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "d709f568fa9a287475eef4b0a59aa57c8d8ff4fd")))
+                 "cd1a55ff9820186c3896de78359458955583e2ee")))
         (sha256
           (base32
-            "1y9f2fi5w80ls6xmnxysvqicsypnlg9bmhad58dc8iq34i0gyn20"))))
+            "1jsafjg9hhfsj7ivj5cddi1hqc4yk10hn21ljmjjyaipik8ms3aw"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -89172,17 +89172,17 @@
 (define-public emacs-pomm
   (package
     (name "emacs-pomm")
-    (version "20220208.1648")
+    (version "20220315.2038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/pomm.el.git")
                (commit
-                 "6dc3b5f913908bca8db85e4b2161a1de76c60a58")))
+                 "2a2673bdc8e2c2af99040b14e97b39271806bf79")))
         (sha256
           (base32
-            "1rxlz0l58g2vvlhf0y3s7abfph3nplvm7q4vrymgj1s251kjxmmi"))))
+            "09w3m2gb0qv3cr3kklv37rgpcaxvyp21sdjmb15c26cf0i8rc86c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-transient))
@@ -92861,20 +92861,21 @@
 (define-public emacs-pyvenv-auto
   (package
     (name "emacs-pyvenv-auto")
-    (version "20220307.243")
+    (version "20220315.1606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nryotaro/pyvenv-auto.git")
                (commit
-                 "29666797ca69289bfc0f998041b16c107aa1b91b")))
+                 "59ece8554bf249f30984c81c103a5704d2fb27bf")))
         (sha256
           (base32
-            "1fslabhll5i0s8wlzxrfy7xx93fk0p25g5q209abr1gz1hbf9dig"))))
+            "1f599q5bd89k68s0m9mq08a2f3465j00hklnmbyv0cm3j0majwzm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pyvenv))
-    (home-page "https://github.com/nryotaro/narumi")
+    (home-page
+      "https://github.com/nryotaro/pyvenv-auto")
     (synopsis "Automatically switch Python venvs")
     (description
       "Documentation at https://melpa.org/#/pyvenv-auto")
@@ -104897,17 +104898,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220210.1829")
+    (version "20220315.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "ce7c9805c9030fe28c4f29720bfe413ee4674c2d")))
+                 "ab9debd7ebbf1d8d1575c81743a8dab508338e5e")))
         (sha256
           (base32
-            "0pspxxpydzb5yhw1lmw5y6lcgrxq9zdrp40ckgjwdq0x49j7166z"))))
+            "0n20pqhy8c429mfsyx7gr01v3y6zzx92acmryxa6wqa295ndj6nl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
