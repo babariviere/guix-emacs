@@ -2227,6 +2227,30 @@
       "Documentation at https://melpa.org/#/alert-termux")
     (license #f)))
 
+(define-public emacs-alert-toast
+  (package
+    (name "emacs-alert-toast")
+    (version "20220312.229")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/gkowzan/alert-toast.git")
+               (commit
+                 "96c88c93c1084de681700f655223142ee0eb944a")))
+        (sha256
+          (base32
+            "1jir8qh87faqlxq1g0yyp5zy3d60615agyddxhsmx6l9a8x91zkn"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-alert emacs-f emacs-s))
+    (home-page
+      "https://github.com/gkowzan/alert-toast")
+    (synopsis "Windows 10 toast notifications")
+    (description
+      "Documentation at https://melpa.org/#/alert-toast")
+    (license #f)))
+
 (define-public emacs-align-cljlet
   (package
     (name "emacs-align-cljlet")
@@ -4092,17 +4116,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20220104.1222")
+    (version "20220317.620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "0d52411d3accc3e11a2c64838703a8ce9755c77c")))
+                 "5463ef80d2f252f23125320ef48c0fee42454bb9")))
         (sha256
           (base32
-            "0afjx74l0fywjr1gdf023prkbv9xglicjakbfbyw41m7vvlzcvk3"))))
+            "0gkmk9k65kqvjnwnqvppycqf1hz0wdgafkpbw6bmhf8526d6gq14"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -16600,6 +16624,28 @@
       "Documentation at https://melpa.org/#/coq-commenter")
     (license #f)))
 
+(define-public emacs-corfu-doc
+  (package
+    (name "emacs-corfu-doc")
+    (version "20220316.1301")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/galeo/corfu-doc.git")
+               (commit
+                 "a8835a654048e0ba687e1377a29083e05888fe81")))
+        (sha256
+          (base32
+            "11x3f4hnqh7p5564092hc7caxpkli6rlp1l28brpz0c4ly5hihqy"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-corfu))
+    (home-page "https://github.com/galeo/corfu-doc")
+    (synopsis "Documentation popup for Corfu")
+    (description
+      "Documentation at https://melpa.org/#/corfu-doc")
+    (license #f)))
+
 (define-public emacs-corral
   (package
     (name "emacs-corral")
@@ -20158,17 +20204,17 @@
 (define-public emacs-demap
   (package
     (name "emacs-demap")
-    (version "20220316.2")
+    (version "20220317.829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sawyerjgardner/demap.el.git")
                (commit
-                 "237a33714c094577510b2e040635ee7732fe36fe")))
+                 "cb119fa912699a7697b958a467e21f655b95a741")))
         (sha256
           (base32
-            "1wbhirkd0wdi0w3q7x3mbsvvbb3gyyfh8v37py6wwl762wccsf57"))))
+            "027fyjmxjdskamn3js1jsyiqbrkk9c4qp79fnrf3p73xnci9570m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -22060,17 +22106,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220316.620")
+    (version "20220317.1004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "2ef309eb6a8bfb23d02e5352515f9f1d07538120")))
+                 "2600201e181fedd16fbdfb36bf303a4c3119f536")))
         (sha256
           (base32
-            "1j9qmkzwn0afbyb6fxxd8lbqlxvp4xglrkgl2agw2cj3sfvdcaky"))))
+            "01f12x1iccjdnfjv990dv8shkc6qxswis42ydpyrnz02xg7bvbjq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32261,17 +32307,17 @@
 (define-public emacs-evil-lion
   (package
     (name "emacs-evil-lion")
-    (version "20170811.614")
+    (version "20220317.1030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/edkolev/evil-lion.git")
                (commit
-                 "6b03593f5dd6e7c9ca02207f9a73615cf94c93ab")))
+                 "4da660e124731ed65e7aaa6c067c30e876619429")))
         (sha256
           (base32
-            "1a162hynp0jcsn50c1w5a02mrw9w3q05c7lkqzqd25px3d0p772q"))))
+            "0akhw0a9qsk65lvanb57fqh7hf601xdzkbyi560ximfrsr7f94pi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (arguments '(#:files ("evil-lion.el")))
@@ -34371,17 +34417,17 @@
 (define-public emacs-faff-theme
   (package
     (name "emacs-faff-theme")
-    (version "20220308.1440")
+    (version "20220316.1753")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
                (commit
-                 "f1a1cf6c900cccc2b189d49ed6bc4557cfb1593b")))
+                 "a5d25006ad00bfc7a4772ade3fe73d614a1ba69a")))
         (sha256
           (base32
-            "1isang50iajcpch1b2j2wljq834qg3p6x4jflh9fh7dsl8x515yf"))))
+            "129kmfs4s33kx37xvx5naqfh18nspjb5i7n86bgplf49jcbxvkvs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/WJCFerguson/emacs-faff-theme")
@@ -61296,17 +61342,17 @@
 (define-public emacs-kaolin-themes
   (package
     (name "emacs-kaolin-themes")
-    (version "20220131.1652")
+    (version "20220317.1238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
                (commit
-                 "ff7f31b100421328b6b8c57a5b640a26b9d914c2")))
+                 "78df90fa411c0d24d884abd47bf63a167231a84c")))
         (sha256
           (base32
-            "066iqbyvapc7i41xlci2jlnvdkdhkv7c8rj4ambz8rbj6i2sjb5s"))))
+            "05z7w4ig17w5vxz3g4waghkq8ay9cdjc22aihn34h3q7h1vlv5dd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (arguments '(#:files (:defaults "themes/*.el")))
@@ -117969,17 +118015,17 @@
 (define-public emacs-yara-mode
   (package
     (name "emacs-yara-mode")
-    (version "20220316.121")
+    (version "20220317.935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/binjo/yara-mode.git")
                (commit
-                 "7e4d10cbd28d9de10be1dc23ab2f7202eb4e2232")))
+                 "4c959b300ce52665c92e04e524dda5ed051c34f3")))
         (sha256
           (base32
-            "1vy2wq3w55dq87nfwzdzrls63cinl5m983knx3yylfhci5vmv8yy"))))
+            "0kb2a4hcmaczn279hbgk0jv88hsjznv1kqpkgkadszd02q53n0cl"))))
     (build-system melpa-build-system)
     (home-page "not distributed yet")
     (synopsis
@@ -118975,17 +119021,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220311.839")
+    (version "20220317.1147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "11d58bdb789cd3922c07effdbd85c1c480499132")))
+                 "527ca510d073bcda7746c754935346f531c60b4b")))
         (sha256
           (base32
-            "0wi1p5zv5zjfmmrvf03hcxzyni0bdzdvlrssf05q2969wkdq1mv1"))))
+            "1zvhd1fk2p9n3gn8bbqsv3lcgc2bmhd6hf0pp4a8z0wv5nkv1235"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
