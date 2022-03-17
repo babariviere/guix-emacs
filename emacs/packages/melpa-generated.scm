@@ -33281,17 +33281,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20220301.1720")
+    (version "20220317.29")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "ad6d5971faf6958fd0a7776c7a14791b101c8563")))
+                 "5961b738e30be007cb0fe984a76e406e0854c006")))
         (sha256
           (base32
-            "1h43dg3ravc2d09y1rcm21q3d9hyx4k1l2gzhfkj4iryh4p07axw"))))
+            "17lfs5qqm2gjj40s3r6j1438zvrcfbsz6bxwn9z6flz6idj7ca0n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -62244,17 +62244,17 @@
 (define-public emacs-kmacro-x
   (package
     (name "emacs-kmacro-x")
-    (version "20220315.1856")
+    (version "20220317.307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vifon/kmacro-x.el.git")
                (commit
-                 "5dc825a8a2d739343e93ee2664c40deef8f461a4")))
+                 "f9df322d0c894129ac96e9a4fba03077957157be")))
         (sha256
           (base32
-            "1mjk65m4vr3m9fx4csxyrzj0idq645zkdq6nzmx7qi101018951v"))))
+            "10gvrj5qsi6nvldl4rnxxqbwr92b2y53gsx8lk67ljrcq70vqgd1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/vifon/kmacro-x.el")
@@ -110024,17 +110024,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20220301.1729")
+    (version "20220317.29")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "ad6d5971faf6958fd0a7776c7a14791b101c8563")))
+                 "5961b738e30be007cb0fe984a76e406e0854c006")))
         (sha256
           (base32
-            "1h43dg3ravc2d09y1rcm21q3d9hyx4k1l2gzhfkj4iryh4p07axw"))))
+            "17lfs5qqm2gjj40s3r6j1438zvrcfbsz6bxwn9z6flz6idj7ca0n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-sitter
