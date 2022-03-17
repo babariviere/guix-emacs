@@ -8692,17 +8692,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220314.832")
+    (version "20220316.2046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "5d0a3d67c9ae196bd44c9d41edc60cb59550eb21")))
+                 "d5fbf1d173da54fd8609b2ea10832d871021feec")))
         (sha256
           (base32
-            "0ps1wh77bwxqkcnqzczhkbs99gdr0j7cr1p5ak8i07m8c93c2zsc"))))
+            "02azqjsanpzhzby0sscnnv9jddimmqvl08ijir7172x2n3fws2dk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/buffer-env")
@@ -10151,17 +10151,17 @@
 (define-public emacs-cask
   (package
     (name "emacs-cask")
-    (version "20211103.1654")
+    (version "20220316.1557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cask/cask.git")
                (commit
-                 "b6e3ba0802b5c4e336eeec5d60e3722c4ca0172d")))
+                 "9347a4d4459722f0863167bd21001477d76f3dc8")))
         (sha256
           (base32
-            "015ixibbidcc6pwn5salvqzzdlqghzqf0nai3ccmg8sa1kr7b39b"))))
+            "1i948z6q07mfibs1v7k1cl8hs299m5vlm2brlpz9hm0bkfmmwm2f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -42239,17 +42239,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20220215.2320")
+    (version "20220316.2111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "cfd9116dcb246126950d7f2f662f09149684128b")))
+                 "aa48110d69b018f03dbff0aa9e830111fef71da4")))
         (sha256
           (base32
-            "1k8qgkamzd6ljvk7xiqs1r0fvr4gzffhylpll7c4zjywrbixw3g1"))))
+            "1v9f90smnk41nz1pjy5mwz199y8p4qar3llgaryzxr7s4wg2v9wi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -108769,17 +108769,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20220305.41")
+    (version "20220316.2014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "232f76592d6aab5f63111698b48a7bd59209d8c5")))
+                 "3be10cb5c3e17d9babb67190f63500ee68df267c")))
         (sha256
           (base32
-            "00vlcpb8hdzgvjr98ygv3nn4bvwzzgmlwwhppgm72wybm134ni93"))))
+            "04n31pgzn53cnlcs6qagdbspjy85w4dxm3iz6gynwnp50g4y16cv"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
@@ -114269,17 +114269,17 @@
 (define-public emacs-vunit-mode
   (package
     (name "emacs-vunit-mode")
-    (version "20220121.1644")
+    (version "20220316.1812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/embed-me/vunit-mode.git")
                (commit
-                 "13311cc9fba6e73cf859dd5defefd330cc41b489")))
+                 "5643460a7011d6bc13c2d4762f329d19f6c7d46b")))
         (sha256
           (base32
-            "0k7xj2a0xdc4g0bi1fxmwy1bl1ha9z68f7l1qc296r8q3hq8ghi9"))))
+            "1zzlfscnzvck658ylsmqwk30jdf9qnrnmhvghd3xinlhglnmwrp7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-hydra))
     (home-page "https://github.com/embed-me")
