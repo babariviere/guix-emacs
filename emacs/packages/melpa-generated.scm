@@ -9277,17 +9277,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20220227.2337")
+    (version "20220309.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "e097df4192d9b1a894beae16b49f0c457fd1fcd4")))
+                 "09459403f54783ddff9337010d9536da25ca7818")))
         (sha256
           (base32
-            "1zgklxnk4dws66gf1y83mzidcfxcmlhi0nnzka67325hvzgc3jyv"))))
+            "1aaa0a8x1347xhnxsifwrzqk1inhgb6wljvqyibvhy22ap38bxm6"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -10835,6 +10835,30 @@
     (synopsis "Child-frame based read-string")
     (description
       "Documentation at https://melpa.org/#/cfrs")
+    (license #f)))
+
+(define-public emacs-cg
+  (package
+    (name "emacs-cg")
+    (version "20220316.1359")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/GrammarSoft/cg3.git")
+               (commit
+                 "a23a2aa346dd5b3561437d51f0b6d63fc6de7389")))
+        (sha256
+          (base32
+            "1z3syfnzbhc1rvqn5l79c1fx5kxakfsvxmg2715gv9zdy02lqsdn"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files ("emacs/*.el")))
+    (home-page
+      "https://visl.sdu.dk/constraint_grammar.html")
+    (synopsis
+      "Major mode for editing Constraint Grammar files")
+    (description
+      "Documentation at https://melpa.org/#/cg")
     (license #f)))
 
 (define-public emacs-challenger-deep-theme
@@ -21501,17 +21525,17 @@
 (define-public emacs-dired-launch
   (package
     (name "emacs-dired-launch")
-    (version "20211205.712")
+    (version "20220317.1839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/dired-launch.git")
                (commit
-                 "b4a5341e22efed3c1a261b9b5098d7c429d655d1")))
+                 "72ebbe2b3d2e04dbfda636fa114d4f47835ce044")))
         (sha256
           (base32
-            "1i0lc6sq87yyg1xzj2qqk3rld9j0mvbl7vhlpdpk75g7nlfi2w8w"))))
+            "0z53ymlbyan542mzsjkgab29czx2zk05qgady99kg40rik78599q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thomp/dired-launch")
@@ -21783,17 +21807,17 @@
 (define-public emacs-dired-sidebar
   (package
     (name "emacs-dired-sidebar")
-    (version "20220313.232")
+    (version "20220317.1546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/dired-sidebar.git")
                (commit
-                 "4d25ad2effcb32d0d88f7d40266613e714a10ce6")))
+                 "aed7e44b5a4ef37fa7be6210ddfe73bb724bac6f")))
         (sha256
           (base32
-            "0hd1qghh7hbim07px6l5asz3bm8nf08qd0whlz70ghdwqf1y054i"))))
+            "1wc4lb7rpim4npjl7aszc1ddpsqf2an8v7j4dasxlvdq0n2zz6qn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dired-subtree))
     (home-page
@@ -22106,17 +22130,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220317.1004")
+    (version "20220317.1723")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "2600201e181fedd16fbdfb36bf303a4c3119f536")))
+                 "d1fc7a9985f6c1d215b9d008541517f911ce1a3e")))
         (sha256
           (base32
-            "01f12x1iccjdnfjv990dv8shkc6qxswis42ydpyrnz02xg7bvbjq"))))
+            "1vx6rxn33n63g80y4ki9qrlcbar8643bqlx3nln5j3283r9ycva0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -66563,17 +66587,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220315.1736")
+    (version "20220317.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "bb6aa1c6bb043e288b82c85e7a2d8e8f0d16f961")))
+                 "0228b4a5871d11adba7234b0aa3554f8d264fa65")))
         (sha256
           (base32
-            "0zc8z8271j2pddj4vn5mnxn8jbf1zb6fls4j95x0ny4zlhj4glz5"))))
+            "0fxdd4acggzw8jqmzhmy7yxvhjj03ijhr9jw9rnnswhn09pr3v3c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83856,17 +83880,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220315.1804")
+    (version "20220317.2052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "cd1a55ff9820186c3896de78359458955583e2ee")))
+                 "a7e76261883067eba3f7eab39b4f2c9035ce3705")))
         (sha256
           (base32
-            "1jsafjg9hhfsj7ivj5cddi1hqc4yk10hn21ljmjjyaipik8ms3aw"))))
+            "1l6h04yd3ar71bk94f8i674yas17ab1y33pva8v0al73hnjpzlm6"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -96136,17 +96160,17 @@
 (define-public emacs-rg
   (package
     (name "emacs-rg")
-    (version "20220116.1228")
+    (version "20220317.1540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dajva/rg.el.git")
                (commit
-                 "dcbaa48689d3d73f8a142a1ab5f1e722d7434ff9")))
+                 "82105c6ae75af1587884baeaf3668becd9eb5802")))
         (sha256
           (base32
-            "1djccv9fdl0a3jlv3xsflds1hx5kam2n2ghhv7hr2whivlh9wkrb"))))
+            "1pnr461nwhi8zv88bba13mb9m8rxg5nwkvd3rl8c2dzxyw6dzaq2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient emacs-wgrep))
@@ -109428,17 +109452,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220304.2335")
+    (version "20220317.1843")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "bd01b69790f065bf5c859979e34a934b32af7d3c")))
+                 "97c69d912e36b7f7c2cca8c510be6019f45a9351")))
         (sha256
           (base32
-            "1mw9wqni2crgk7w90p7kfcs8w63iga9g72gb4hg913aysm0x9pfl"))))
+            "16wm1h0978js0fiwqnmxb8hd1pph2w0ylqq7wzwhi7w9d7gc11d7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
