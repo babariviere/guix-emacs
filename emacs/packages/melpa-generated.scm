@@ -22130,17 +22130,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220317.1723")
+    (version "20220318.431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "d1fc7a9985f6c1d215b9d008541517f911ce1a3e")))
+                 "10d2af55f7b6c02b40f153389cdabd76769501fb")))
         (sha256
           (base32
-            "1vx6rxn33n63g80y4ki9qrlcbar8643bqlx3nln5j3283r9ycva0"))))
+            "1bcs9rrhfnji9cm62qxbspb86hg90l3qjnsbyn83g2fqy70maf8j"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -39099,17 +39099,17 @@
 (define-public emacs-flymake-eslint
   (package
     (name "emacs-flymake-eslint")
-    (version "20220315.55")
+    (version "20220318.152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/orzechowskid/flymake-eslint.git")
                (commit
-                 "8089f884237db5d404b38de36af828ccc5190fc4")))
+                 "bfcf28259c7d774b259a6ed122f1f0936a5b96b9")))
         (sha256
           (base32
-            "10kgg817p366w8ds1m63k5n5xsgdlqv38s79w2cz787cm5qv6zcn"))))
+            "18rvmvaw7jdlrc4xvl9nw9lawwqnd5ahnf7j95qlqfrr3fm2avmw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/orzechowskid/flymake-eslint")
@@ -83880,17 +83880,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220317.2052")
+    (version "20220318.523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "a7e76261883067eba3f7eab39b4f2c9035ce3705")))
+                 "e1a3e07c96ea0ab8fa5cdd4ec674448a26d62279")))
         (sha256
           (base32
-            "1l6h04yd3ar71bk94f8i674yas17ab1y33pva8v0al73hnjpzlm6"))))
+            "1ncwdxn116zx6bygd5s7iyqwyh7nihaxj6345hszx8wdsbwmzhpb"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -103689,17 +103689,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220311.108")
+    (version "20220318.106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "8ca8d0df3b9ab149a94d94f6c5e74fd526262057")))
+                 "251b9e7e5ba3a92ea26c3d676b9e76f8c42b2654")))
         (sha256
           (base32
-            "05l0885g6dp1blndc8zawmfkpcbgm01df3krw23fyvah2ax35cy6"))))
+            "1smrz3zh4cq2f344gm7l2jww5c0lkf9pinw6dvpcsl9sasqkxz0m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
