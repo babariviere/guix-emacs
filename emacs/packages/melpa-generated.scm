@@ -3758,17 +3758,17 @@
 (define-public emacs-archive-rpm
   (package
     (name "emacs-archive-rpm")
-    (version "20180706.1232")
+    (version "20220314.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/legoscia/archive-rpm.git")
+               (url "https://github.com/nbarrientos/archive-rpm.git")
                (commit
-                 "59f83caebbd2f92fd634f6968e6d17b50ffa3dc7")))
+                 "379dddfbe4e801df6fdb81a55528fab6c7dbb78e")))
         (sha256
           (base32
-            "11ssqaax4jl7r3z5agzmc74sjsfvl0m3xvp015ncqzpzysla47g3"))))
+            "1w505zv614xsc0bjc0539fw68x88vfxmd8k9mnp5364pvjfc7g87"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -4116,17 +4116,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20220317.620")
+    (version "20220318.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "5463ef80d2f252f23125320ef48c0fee42454bb9")))
+                 "c78bab7506a70a735d2c3deab13fa87bf44a83d3")))
         (sha256
           (base32
-            "0gkmk9k65kqvjnwnqvppycqf1hz0wdgafkpbw6bmhf8526d6gq14"))))
+            "1pa0cmphja9flib8m86rlsns7q53g06pn0m4ksdj0ig1xmzj4108"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -4933,6 +4933,29 @@
       "An auto-complete source for sage-shell-mode.")
     (description
       "Documentation at https://melpa.org/#/auto-complete-sage")
+    (license #f)))
+
+(define-public emacs-auto-dark
+  (package
+    (name "emacs-auto-dark")
+    (version "20220310.1126")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/LionyxML/auto-dark-emacs.git")
+               (commit
+                 "4da522bbba7605531349f6940f4fc5a5b9673f82")))
+        (sha256
+          (base32
+            "0kz6akbhpmzg9bm3mpsx9q73rqxkj6w36g1b7xxwv1n4bgya6a30"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/LionyxML/auto-dark-emacs")
+    (synopsis
+      "Automatically set the dark-mode theme based on MacOS status")
+    (description
+      "Documentation at https://melpa.org/#/auto-dark")
     (license #f)))
 
 (define-public emacs-auto-dictionary
@@ -10840,17 +10863,17 @@
 (define-public emacs-cg
   (package
     (name "emacs-cg")
-    (version "20220316.1359")
+    (version "20220318.1007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/GrammarSoft/cg3.git")
                (commit
-                 "a23a2aa346dd5b3561437d51f0b6d63fc6de7389")))
+                 "140a63995ca15d393c7e7003cf0e6edddcd4088c")))
         (sha256
           (base32
-            "1z3syfnzbhc1rvqn5l79c1fx5kxakfsvxmg2715gv9zdy02lqsdn"))))
+            "1ssl0nzm2bs3iyjak9x2gkl3206v5ihbzsspqrvrgijfv3h9yhzr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("emacs/*.el")))
     (home-page
@@ -16651,17 +16674,17 @@
 (define-public emacs-corfu-doc
   (package
     (name "emacs-corfu-doc")
-    (version "20220316.1301")
+    (version "20220318.1052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galeo/corfu-doc.git")
                (commit
-                 "a8835a654048e0ba687e1377a29083e05888fe81")))
+                 "95fdae5755e6c88cf77b409b555290c36961ec6c")))
         (sha256
           (base32
-            "11x3f4hnqh7p5564092hc7caxpkli6rlp1l28brpz0c4ly5hihqy"))))
+            "09lmvb88nj7ivsr6gh93xhbfav80pm69z3dgnifnn1g2gfjnjjka"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-corfu))
     (home-page "https://github.com/galeo/corfu-doc")
@@ -22130,17 +22153,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220318.431")
+    (version "20220318.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "10d2af55f7b6c02b40f153389cdabd76769501fb")))
+                 "c3102b42673e8df6035a9172c260c94754d6ded1")))
         (sha256
           (base32
-            "1bcs9rrhfnji9cm62qxbspb86hg90l3qjnsbyn83g2fqy70maf8j"))))
+            "0l5q18w89dnj65m84jx24msb984b8cgc7n89jk1h2fqwbkhlkakg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25818,17 +25841,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220315.1021")
+    (version "20220318.1054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "d5c7c40bc25cd77605c0800277fd7f73060c6fee")))
+                 "f77518711507810b779d87190d0ca0183fc02e10")))
         (sha256
           (base32
-            "1kjhpvj9ynlp1zjl8zi91m4kbb30vz39mfn71xi84y6sm7wqb1rs"))))
+            "0jab7f92blc4gh5bpg1vcc42ly5m29zgl7ffymssypk32vbig0sd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -33844,17 +33867,17 @@
 (define-public emacs-expenses
   (package
     (name "emacs-expenses")
-    (version "20220313.1844")
+    (version "20220318.842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/expenses.git")
                (commit
-                 "8cfb7d3dbf10e591e0575d350d843a0cb858d5c0")))
+                 "e668666770858e92de83d8217c7e384de3ba1e34")))
         (sha256
           (base32
-            "0kk7wnsyzymci5iq2x1dmhyhls7cwipxirsi3675q7v1mwhfcf72"))))
+            "0hlm8c1sif4z8fl6k9k9akc26nzxby792ca6wkrqxcjsc65a65zv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page
@@ -66587,17 +66610,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220317.1906")
+    (version "20220318.1246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "0228b4a5871d11adba7234b0aa3554f8d264fa65")))
+                 "c6482c1bbfa366a1fc52c32c03164ac77f297022")))
         (sha256
           (base32
-            "0fxdd4acggzw8jqmzhmy7yxvhjj03ijhr9jw9rnnswhn09pr3v3c"))))
+            "0nxjjl7hcbf7br919rkl4q5zixy7r75s08ag98mksbwrfr2mmgm1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83880,17 +83903,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220318.523")
+    (version "20220318.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "e1a3e07c96ea0ab8fa5cdd4ec674448a26d62279")))
+                 "76d77f753b75c9fa1d091419f333b01225192466")))
         (sha256
           (base32
-            "1ncwdxn116zx6bygd5s7iyqwyh7nihaxj6345hszx8wdsbwmzhpb"))))
+            "0lq9dd64ambx76605s24wwg00mpcqwfmyv4adpx1xi5286qrwld2"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
