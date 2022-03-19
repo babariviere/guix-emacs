@@ -4938,17 +4938,17 @@
 (define-public emacs-auto-dark
   (package
     (name "emacs-auto-dark")
-    (version "20220310.1126")
+    (version "20220318.2356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/auto-dark-emacs.git")
                (commit
-                 "4da522bbba7605531349f6940f4fc5a5b9673f82")))
+                 "fd07fbdff1d5e370b1714dde882e1ed37dca9936")))
         (sha256
           (base32
-            "0kz6akbhpmzg9bm3mpsx9q73rqxkj6w36g1b7xxwv1n4bgya6a30"))))
+            "10r586w7p3x7axvxmf8qpjfi3mhccahgq2yk6w665j4hj917k5sr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/LionyxML/auto-dark-emacs")
@@ -19031,17 +19031,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220226.1848")
+    (version "20220319.702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "6933fca0b53ea5d2d65a0545e5a4ae6424d32e9b")))
+                 "de713ea5ebb0644aac03e5e6f8117d2de7a68aa9")))
         (sha256
           (base32
-            "1m99z72qmq4ghaiv5s9bqzx4aj1wj4r1d233h6a92hw7kdd9hj0l"))))
+            "00nlrncb6rjyfiyplyra8a9zlwjkm8wfmhw93g3kx8n592r416r2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22153,17 +22153,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220318.1804")
+    (version "20220319.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "5170e712fecb5b6ef1e537fda3994373f230ff8b")))
+                 "558df68ffebe8248d4654f4691c047917ad07dee")))
         (sha256
           (base32
-            "1syz893g4cvlz3138f7yyazsq4rd9dblwlgckhmwiajl16hl164d"))))
+            "0s1gpffq7ismdsyiyhnygnm5bqmdzv8fvwxr9m2q6sibyb3r7dv5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -40718,17 +40718,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220310.1917")
+    (version "20220318.2335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "bc99603b5a0cd5b3a5f209772b7f818d205b8a3f")))
+                 "de8856738f5c5d5b77349709c42329c1e23c0da5")))
         (sha256
           (base32
-            "0d4av0dk4d4rkh60gslvm02qx4n1yms93fzhapr2s50s0z1f3xnf"))))
+            "16bchyf9dnax0cd0v45scyw7jwmmdaxaam9ss04gn8grw5drjdvr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -83120,6 +83120,27 @@
       "Documentation at https://melpa.org/#/osa-chrome")
     (license #f)))
 
+(define-public emacs-osm
+  (package
+    (name "emacs-osm")
+    (version "20220318.1151")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/minad/osm.git")
+               (commit
+                 "cd3f8e0d05ab453f9dee2527448a53c8a0e5a1cc")))
+        (sha256
+          (base32
+            "03nw3iv7jyhv5cnjaz56jhxxzlqas55i927b8q5xb4qc8bwclm19"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/minad/osm")
+    (synopsis "OpenStreetMap viewer")
+    (description
+      "Documentation at https://melpa.org/#/osm")
+    (license #f)))
+
 (define-public emacs-osx-browse
   (package
     (name "emacs-osx-browse")
@@ -110222,17 +110243,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20220212.641")
+    (version "20220319.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "4b9a0cc616bd849bb97b21a30745b3da654e13d6")))
+                 "695ab38d8190042f5da8487e9885a804c039193c")))
         (sha256
           (base32
-            "1zgdfpgvvv3m9cwxzmrd0lqrwnymg6bplv0g1hsg1wi8y94nmj4x"))))
+            "1fprqvg7dfhv838pdc8j2v7m4bj2rxpm857ka0ifv9maxj1gb2va"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
