@@ -16273,17 +16273,17 @@
 (define-public emacs-consult-lsp
   (package
     (name "emacs-consult-lsp")
-    (version "20220109.937")
+    (version "20220320.1125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gagbo/consult-lsp.git")
                (commit
-                 "f4f195046b97be5ce0406e0723921b3393d9442e")))
+                 "0dfc9d55876d4cf7c32f8a663fe6343927f78052")))
         (sha256
           (base32
-            "094i7g10m8702sxvgis46wnx492fq2kfv641a7255qs51l3y2r49"))))
+            "15w586gp8x4d52wlf4b6lcmgsidav8slqr97yrj1jfhyri2sryx9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-consult emacs-f))
@@ -20479,17 +20479,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220226.925")
+    (version "20220320.1536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "cdc1a7cc3f05235883ffb098fe1c5a8963ed06e2")))
+                 "8e4cd09bdf876c0f7e991d4fcafc1459a7f29d8c")))
         (sha256
           (base32
-            "1r84yimb8dc1i6ybc2vngvv38ypfnjwrbp93n13h9ij2p9dmxl8p"))))
+            "0ijgbddry7r6if3b5vlxiimm1y9zvi2kiaswgp4rd2fk694lbb7i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -23953,17 +23953,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220319.1410")
+    (version "20220320.932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/niklaseklund/dtache.git")
                (commit
-                 "bdbd007caf16002b2b46edb7c19123195d1f91af")))
+                 "e7d143df8a8f88cbbe0fa023cd1fc30219598d88")))
         (sha256
           (base32
-            "06b8i4rjcsyw95in0mx7nchadnpbl7fgywqz6159gqjhl39pdcld"))))
+            "02bpghhjcgfgcrlkvsrj652ki558pf9q5vj6j056lalfhcrckpvd"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -39582,17 +39582,17 @@
 (define-public emacs-flymake-markdownlint
   (package
     (name "emacs-flymake-markdownlint")
-    (version "20220310.1708")
+    (version "20220320.1208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shaohme/flymake-markdownlint.git")
                (commit
-                 "0781ef4babdd270981672482d17af8d54ae18459")))
+                 "59e3520668d9394c573e07b7980a2d48d9f6086c")))
         (sha256
           (base32
-            "0wfiwjd4ix9csp0y5sz2xaabh0c063dps74185ykh0vvm0bgldlm"))))
+            "1d51gfk0yw9hxr3i48v7b7g3zh2pdwlygxy2gdcjcy4a4ih1014s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/shaohme/flymake-markdownlint")
@@ -63229,17 +63229,17 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20210916.831")
+    (version "20220320.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-language-id.git")
                (commit
-                 "906fac7d91994d02120cfb5f547c1d06cea1ad69")))
+                 "cca4441fcf3721f5016c29ff3b537648a5c0f465")))
         (sha256
           (base32
-            "1rgf90z6rl5g348s49w39ng7avq2s9qwi7mmpfxi3hjaslazn1jl"))))
+            "17cdfcbcxzsnbxsljvlcifqvhr2zd536rss2by37yzn2ixlrm7x7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-language-id")
@@ -66632,17 +66632,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220318.1246")
+    (version "20220320.1029")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "c6482c1bbfa366a1fc52c32c03164ac77f297022")))
+                 "828c6c234a3231670ba5649666652e22a9bc4f35")))
         (sha256
           (base32
-            "0nxjjl7hcbf7br919rkl4q5zixy7r75s08ag98mksbwrfr2mmgm1"))))
+            "10fs6gxacmv71sd5xslsr78lw7p22lcn4sg6ix73kzjm2fs0k8gs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -77774,17 +77774,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20220117.1434")
+    (version "20220320.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "e8c43c843f97eb9fc4ffeb1e7758935a314d1cfe")))
+                 "7271c4c88adef9af9267a1b64a7989cfd0cb3085")))
         (sha256
           (base32
-            "0baa27f60l4351h6m054hmzk48y838a5cppw0qp7bacbzv9d9qq6"))))
+            "17g70slmzqx72g22x66k7bi9byxbbi2l0vv10b0ih7v3vnbqyfq6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -91561,17 +91561,17 @@
 (define-public emacs-psession
   (package
     (name "emacs-psession")
-    (version "20211228.839")
+    (version "20220318.1129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thierryvolpiatto/psession.git")
                (commit
-                 "97f6fb308fcb007e53c7277fb4603a6faef99c79")))
+                 "328c64804c4c9e15b373c7ba3bc82bfdfb27971a")))
         (sha256
           (base32
-            "0k2myrd1ar2nlgnavsvbawiff7x27fr72921xnzp7rwnl07klyji"))))
+            "1mmn5qmjn77jh0zjfgl6w87yxxq116cb7rj3an0svmaabqsmwpjj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -119180,17 +119180,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220319.1105")
+    (version "20220320.1022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "ddf2208c0972e565f2ef934a2cd6624159774889")))
+                 "798ad5027a2c710d3e386f0405a5c9b95718bfa9")))
         (sha256
           (base32
-            "1c5pg1j6imix9m42jfiz0kn435lm8rn7cfilaiimnbk63lvji7xh"))))
+            "0nayy0fdyvc8sd8mq3nh7jf26nxz5avn14czswda3wln732pyrxq"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
