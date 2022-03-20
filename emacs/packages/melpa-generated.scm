@@ -80588,17 +80588,17 @@
 (define-public emacs-org-noter-pdftools
   (package
     (name "emacs-org-noter-pdftools")
-    (version "20210118.1611")
+    (version "20220320.300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fuxialexander/org-pdftools.git")
                (commit
-                 "a5b61bca3f8c91b0859bb0df1a929f9a31a57b99")))
+                 "967f48fb5038bba32915ee9da8dc4e8b10ba3376")))
         (sha256
           (base32
-            "18iy03hc7jb7qsfj25f6hmrwli6fyjbf14c1p5bhp5gwk49rm9p1"))))
+            "0f47ww8r00b7lb1msybnmnqdhm9i2vwz5lrz9m9bn6gbh97mzhn8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pdf-tools
@@ -80791,17 +80791,17 @@
 (define-public emacs-org-pdftools
   (package
     (name "emacs-org-pdftools")
-    (version "20210118.1611")
+    (version "20220320.301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fuxialexander/org-pdftools.git")
                (commit
-                 "a5b61bca3f8c91b0859bb0df1a929f9a31a57b99")))
+                 "967f48fb5038bba32915ee9da8dc4e8b10ba3376")))
         (sha256
           (base32
-            "18iy03hc7jb7qsfj25f6hmrwli6fyjbf14c1p5bhp5gwk49rm9p1"))))
+            "0f47ww8r00b7lb1msybnmnqdhm9i2vwz5lrz9m9bn6gbh97mzhn8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pdf-tools emacs-org-noter))
@@ -86946,17 +86946,17 @@
 (define-public emacs-perspective
   (package
     (name "emacs-perspective")
-    (version "20220313.716")
+    (version "20220320.437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nex3/perspective-el.git")
                (commit
-                 "14cbdb5460d7ee728d397aace280702866eb880e")))
+                 "d3afc52ed098b713b6607943bd1ee0ef899db267")))
         (sha256
           (base32
-            "05w69p7qimnidiv08qbcj8pj7y24qj3cs6118m363pprri4yw2pf"))))
+            "0bbpmrjyz0zfgbfhf340axnx93ln39ml58frpqiiablz9n1xvj0j"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nex3/perspective-el")
@@ -114247,17 +114247,17 @@
 (define-public emacs-vscode-dark-plus-theme
   (package
     (name "emacs-vscode-dark-plus-theme")
-    (version "20220217.350")
+    (version "20220320.530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ianyepan/vscode-dark-plus-emacs-theme.git")
                (commit
-                 "612646c3e707f9665bdbd034a6c2e17cb2645c3a")))
+                 "cec18a9d816fef372a4e70f6ad1e16a42aa93b06")))
         (sha256
           (base32
-            "0m6vwvrsl4dnw42pd3fi2s513jjlq8km7gzks8c6jch7lydwxabk"))))
+            "1byssa2rv2j9s3m10v7ihi1avqkjc5wqj62393wkp85k73z9v3dq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ianpan870102/vscode-dark-plus-emacs-theme")
