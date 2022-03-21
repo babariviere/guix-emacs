@@ -28583,17 +28583,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220314.2324")
+    (version "20220321.250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "5a74f42bd0031b28ee30b64fcb24717ceae8a030")))
+                 "3a9e5e1744033511ca32beeea42f228c7948448e")))
         (sha256
           (base32
-            "15g9mm1k4c0qbf9y3fcgsmkxzi4wh3hi6nb62rim2ackxw9f4ndp"))))
+            "05liqhaxg7vmc2rk4n5d9lmnv4vw1r7a4ha3ip1xfnk61a5ycib5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28607,17 +28607,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220309.1530")
+    (version "20220321.239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "5faf1389162dd64bfe3511dfb8f52c18efb5140b")))
+                 "3a9e5e1744033511ca32beeea42f228c7948448e")))
         (sha256
           (base32
-            "04xxwhh577aam0fqfmprxqaw0v1l6yidikr6chajcf16mf1wd2gv"))))
+            "05liqhaxg7vmc2rk4n5d9lmnv4vw1r7a4ha3ip1xfnk61a5ycib5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -33325,17 +33325,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220306.711")
+    (version "20220321.342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "f3b3e9554e5ecae55200454804e183e268b4a6fc")))
+                 "5f7b509c3603c324312a007825bc00e7aac9095c")))
         (sha256
           (base32
-            "0aiy0bkffnq5g7a7ay4jwkp7whx211ybnrh590vl5bd9mnasmxxj"))))
+            "1jxigabijm4d22cjp5q2vxnqcrdb1zbj8pfvf0pkfkkkr7pgvcpi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -45541,17 +45541,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20220130.138")
+    (version "20220321.210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "b6a5842fdd08872d9243375c46cd549f1399e5b8")))
+                 "2616a4c2e26827ecba0f2576d26b01a63546b452")))
         (sha256
           (base32
-            "1570b0v4dr745hwvw20byzhkhn4cr1v2g0n3zalh4j8wq1qkb0cw"))))
+            "00bs8alcd2hj4c2yz1m6h1h0zddy9vicmhvipz5q1lsmnbaamwmr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -57147,17 +57147,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220211.548")
+    (version "20220321.308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-inkpot-theme.git")
                (commit
-                 "eb3f6deac945e536cdc8ddc09f6021fdbaa645eb")))
+                 "55bff806ca6b9dd538f065ba13d226d6fe2d9206")))
         (sha256
           (base32
-            "1s0srxvcwv1myba22z0phkrs7da7cn22mgp6m6d01v5zgj03924m"))))
+            "1szvq974dysd2d8j0qjn5ikimxvvsixk49yrq6fp64f3dc4jw8xb"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-inkpot-theme")
@@ -67490,17 +67490,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220319.1030")
+    (version "20220319.2217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "da1815172fca35985b71cc75c42050aa4b5130f4")))
+                 "e1302064809bf958023b3dc2b4e3007487bc3602")))
         (sha256
           (base32
-            "12nf63bf4dmjfnw5fxr58vffrpdxvzi8g6jxid5qk42vlqpx0y9v"))))
+            "1cfgrb2yvfiimvdys07pqp0fc9lpn8q6iz2f2bw7rrhfl9iifp78"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80197,17 +80197,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220210.1409")
+    (version "20220321.145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "e8be9d886b5a9467244ed906ebb48089d9406aa2")))
+                 "75a0f3bc427b9449f6f7ae3b2ac67e16e24153bd")))
         (sha256
           (base32
-            "0rivgwi1570ybzz136q02kijv6cjbqx8ncwm71kas0gvcp6i73py"))))
+            "0p33n195xl6pgvyf7z47mq48fh8ihkq7wx70z1vn9js3xvig2ahm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -83213,17 +83213,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220320.2055")
+    (version "20220321.408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "4124183d15bb5ad84ac93664895bf93557572b6c")))
+                 "372a4bedaaebad92b586033c6163a3d3e971dff6")))
         (sha256
           (base32
-            "160h949kqkrdd40j9hjc2s0hkclrfhzpac9mg83dqkzkbmja1zz1"))))
+            "0gc0q3ia4qhhy8vpg5dg53xfv23ym4kqmwxip4vw6zlpqys5j1fy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -99919,17 +99919,17 @@
 (define-public emacs-sharper
   (package
     (name "emacs-sharper")
-    (version "20220314.1527")
+    (version "20220321.422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sebasmonia/sharper.git")
                (commit
-                 "c3406576ab855daa2e7084000f9797db59251e42")))
+                 "96edd4a1dbc267afdff0cb97298d1b05b7c2080c")))
         (sha256
           (base32
-            "0jl7jg844a0cjd5s0x0mpl2if2svhaac3hvc1vxzamdwan7qvqx2"))))
+            "0pprbp9n43g1ijap96fjiz6sckplryi198gci0ywpyglx6illllg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (home-page
