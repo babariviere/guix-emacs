@@ -4938,17 +4938,17 @@
 (define-public emacs-auto-dark
   (package
     (name "emacs-auto-dark")
-    (version "20220318.2356")
+    (version "20220320.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/auto-dark-emacs.git")
                (commit
-                 "fd07fbdff1d5e370b1714dde882e1ed37dca9936")))
+                 "c5dd3afa6771f4777db9e427f21bfcbe4883abaf")))
         (sha256
           (base32
-            "10r586w7p3x7axvxmf8qpjfi3mhccahgq2yk6w665j4hj917k5sr"))))
+            "0r4i664kybzzfmpn9w7pi1czjivq6kk1yqdym30c6kvdq1kv73d3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/LionyxML/auto-dark-emacs")
@@ -11830,17 +11830,17 @@
 (define-public emacs-circe
   (package
     (name "emacs-circe")
-    (version "20210717.1041")
+    (version "20220320.1811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-circe/circe.git")
                (commit
-                 "77e16de3b9fbaa0417b56a9acc70a9bca17c4ad0")))
+                 "e4c5bb69e6f1338239bdbf66baf57bb610828b2e")))
         (sha256
           (base32
-            "1ww04kfz4kkbhrbd78r4dpylhayb5hl72qcjv8wm0mhgfwmbb358"))))
+            "05ddgcgqribdwbph7qkz5r24h1xsbrnhlg4yqgnyyw5kfxayapzj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-circe/circe")
@@ -11985,17 +11985,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20220130.538")
+    (version "20220320.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "d7b6428da289c2f63a7a97f4eaba5b76616a09ce")))
+                 "b84428d282533069718ba10aa237df54024d5ca1")))
         (sha256
           (base32
-            "0kg64va0iqjzwswzs4z9sx278w20c35pg4ysp9x198z0575lvpid"))))
+            "0xf2745l7025xwjg569pwxazwld1hkawqb7yilfhgxapgpbgi202"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -22153,17 +22153,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220319.1448")
+    (version "20220320.812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "6f7de657dc1e7e1c533fb93c03dd38a34b34fad3")))
+                 "ef6451b43b92909f699bf3bd574749f5388b90cf")))
         (sha256
           (base32
-            "1i60x4a6cs2cwvj10wvsrakx2vhqk8hvc506v3yj3vbbz5pwy39v"))))
+            "11rihf4aznq0iwma9m54avn3pkckzc8f16bfxbha8qcqgdmcas2b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23020,17 +23020,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220315.715")
+    (version "20220320.1935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "674bfb7e24da3f9d0fe926945dd0625e2c15e50a")))
+                 "fbd896e3138f497b89a128d17b6f5e0e5286515b")))
         (sha256
           (base32
-            "1fzlxqff0a4bw3l6vdki4fdw107wd0vp0l6asaqz9kkgv9wlffq0"))))
+            "0d430ignd6yw117srysc8bxghlq0h8k533pl8k882q0mfgpnaqhw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -23953,7 +23953,7 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220320.932")
+    (version "20220320.1338")
     (source
       (origin
         (method git-fetch)
@@ -25841,17 +25841,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220318.1054")
+    (version "20220320.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "f77518711507810b779d87190d0ca0183fc02e10")))
+                 "9eb9353fdc15c91a66ef8f4e53e18b22aa0870cd")))
         (sha256
           (base32
-            "0jab7f92blc4gh5bpg1vcc42ly5m29zgl7ffymssypk32vbig0sd"))))
+            "1lmk61z5jbi6qkj7qhc11fmvkrsg0965ppc08xldkj1fcchiyyi3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -63229,7 +63229,7 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20220320.754")
+    (version "20220320.1407")
     (source
       (origin
         (method git-fetch)
@@ -64704,17 +64704,17 @@
 (define-public emacs-link-hint
   (package
     (name "emacs-link-hint")
-    (version "20211224.1358")
+    (version "20220320.1727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/link-hint.el.git")
                (commit
-                 "676dac6621e321b33a8d396fa27dd0ea619d21e3")))
+                 "44e98956e04dfa8e440951c6cc6cefb9e64f1658")))
         (sha256
           (base32
-            "1g9w2ymihs649cck3vm0pb4591jzsyf2b2jfpyrwcxipqw30rj63"))))
+            "0fhs1ha2j4k1pkfhyvc3x2mp9r3xl7slj6y4hqfzgllmhzmr93g0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (home-page
@@ -72516,17 +72516,17 @@
 (define-public emacs-mu4e-alert
   (package
     (name "emacs-mu4e-alert")
-    (version "20220227.1658")
+    (version "20220320.1917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xzz53/mu4e-alert.git")
                (commit
-                 "d7f745f2c92a631ff3a61a11c93d10d9e6ece5cd")))
+                 "cfd8bf3edab29ba7babb7cbe75c67aeb15a8a386")))
         (sha256
           (base32
-            "0nv1l3v71y0x61sfcr0figyq9xmyi6wkaikirrr8p7icfrs2xvcy"))))
+            "1wgfs61x2m9prjnmc0019km177p9ayzyhxxf8py97fckxn2hkwlz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-s emacs-ht))
@@ -75893,17 +75893,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220206.251")
+    (version "20220320.1742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "21fb1d4c998c914a91302fd5dec85fc803393917")))
+                 "c0016a3208f4c9eb91a9afbbf5f483f7384bcf2d")))
         (sha256
           (base32
-            "146ln9wbmk9j62klh6yi4b7hfijnnfayr660hvjzyvd4jj0lr8wa"))))
+            "1jg0630qqia5xhxp1dfisz65g9i7y5f76c3faqcbvpbg2gdjn8jk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -76352,20 +76352,20 @@
 (define-public emacs-ob-compile
   (package
     (name "emacs-ob-compile")
-    (version "20220307.1609")
+    (version "20220320.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TxGVNN/ob-compile.git")
                (commit
-                 "4217ae0cfa71793ee1b42bc8e07283f5e269e7cb")))
+                 "cbfad24503491ba2bb0fff7454c339e655968c90")))
         (sha256
           (base32
-            "0v6q1j5argp3sb96k8ys38v1y6pbwdlh1h7163hjdkisfjkp7016"))))
+            "01jmyvan8f5p4v8yyafyvv6j6fm01y184b3y6wxfk4c80m2zh86f"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/TxGVNN/giaelpa/tree/recipes/ob-compile")
+      "https://github.com/TxGVNN/ob-compile")
     (synopsis "Run compile by org-babel")
     (description
       "Documentation at https://melpa.org/#/ob-compile")
@@ -80404,17 +80404,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220311.1629")
+    (version "20220320.2014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "a0172a06a6b1290dbc58e7b8361e5854d5779005")))
+                 "1a97306a1da290c5efdf4dad64ef2be5e419ef7b")))
         (sha256
           (base32
-            "1zak1z9hw8czjrsf9jm5s65gsmf8jmy3jxxdmbcwmqk12dmvzzq8"))))
+            "1bfyhpgrp5gwd5mn4iymdh76x33y9qwdzmdvx1bklc2hx9wfyi7g"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -81552,17 +81552,17 @@
 (define-public emacs-org-ros
   (package
     (name "emacs-org-ros")
-    (version "20220307.2308")
+    (version "20220320.1705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/ros.git")
                (commit
-                 "bf3c4a3a41ad960ef5d9ae062a20664834e926e9")))
+                 "70e0f33ee027ca1dce68351ad14a9e47a452fc17")))
         (sha256
           (base32
-            "1l7h6f2ins9hgxd5yqb608hca5212x6crxwsmyy6025n0rq4yqmd"))))
+            "0qjfb2fllzkh1d0jprxdsvg6fcrrhc7wc2lg0kffp5vwmfv7m3db"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/LionyxML/ros")
     (synopsis "Rahul's Org-Mode Screenshot")
@@ -81975,6 +81975,29 @@
       "Export snippets to org-mode and vice versa")
     (description
       "Documentation at https://melpa.org/#/org-sync-snippets")
+    (license #f)))
+
+(define-public emacs-org-table-color
+  (package
+    (name "emacs-org-table-color")
+    (version "20220311.1927")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/fosskers/org-table-color.git")
+               (commit
+                 "2022f301ef323953c3a0e087a1b601da85e06da1")))
+        (sha256
+          (base32
+            "18bbsi79i0xf8kzzbpr6v4sh150m1qip7m74ighbb9as3kx07r0f"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/fosskers/org-table-color")
+    (synopsis
+      "Add color to your org-mode table cells")
+    (description
+      "Documentation at https://melpa.org/#/org-table-color")
     (license #f)))
 
 (define-public emacs-org-table-comment
@@ -83190,17 +83213,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220319.2011")
+    (version "20220320.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "da25f3fe7b8b6201c94bc352cc4c3b16d60d9e21")))
+                 "4124183d15bb5ad84ac93664895bf93557572b6c")))
         (sha256
           (base32
-            "101wlqz4iz5gwp5yp68z0sqraz1p9fyh6xkv40b3w5fg9xd2fixl"))))
+            "160h949kqkrdd40j9hjc2s0hkclrfhzpac9mg83dqkzkbmja1zz1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -93592,17 +93615,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220310.1610")
+    (version "20220320.1401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "e321d8ecfb1bc94c3772ef4d20df0ddf9c9c9d76")))
+                 "681aaf07d6b8dfa4e662452b45e943d913cca962")))
         (sha256
           (base32
-            "0bnzfr2kz877bpin2xjg53c70npq772lp773ikrvhlj5zvwwk1i7"))))
+            "13j2pikvwcl9mg9wbhlhy5ivbb184b7vxyjk3yw4h7454iamfbp3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96662,17 +96685,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20210920.1617")
+    (version "20220320.1751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "54bdd5090e0e3ae907d3f9075eb3a3fab0ba497a")))
+                 "7a964319baad91ebbbb90aa5262bd136ef358347")))
         (sha256
           (base32
-            "0i11kmqnbb201x9gmai279lni7csgq6isi1klpzch2c6y6pw01n0"))))
+            "180s5kyg7xc36f9mpbf7rpvvslsravq2k0klhligw412nfpq1law"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
@@ -104877,6 +104900,29 @@
       "Documentation at https://melpa.org/#/standoff-mode")
     (license #f)))
 
+(define-public emacs-starlit-theme
+  (package
+    (name "emacs-starlit-theme")
+    (version "20220313.2329")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/SFTtech/starlit-emacs.git")
+               (commit
+                 "3243822fe83953b6b5e04f47f78e65138ce00dfe")))
+        (sha256
+          (base32
+            "03klcxkgrhbp60pdmdf9qml28sggww8kp4fn0mjg6l288vqrbjy1"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/SFTtech/starlit-emacs")
+    (synopsis
+      "Deep blue dark theme with bright colors from the starlit sky")
+    (description
+      "Documentation at https://melpa.org/#/starlit-theme")
+    (license #f)))
+
 (define-public emacs-start-menu
   (package
     (name "emacs-start-menu")
@@ -112743,6 +112789,28 @@
       "Provides various UUID generating functions")
     (description
       "Documentation at https://melpa.org/#/uuidgen")
+    (license #f)))
+
+(define-public emacs-uwu-theme
+  (package
+    (name "emacs-uwu-theme")
+    (version "20220314.2232")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/kborling/uwu-theme.git")
+               (commit
+                 "3c6c45972e1200c20e0617b1f126d0d251a30a8d")))
+        (sha256
+          (base32
+            "0a22d48s0d90jl888xmbs3yjjwss0xbwf0512lzab60q03pgvgw1"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/kborling/uwu-theme")
+    (synopsis "An awesome dark color scheme")
+    (description
+      "Documentation at https://melpa.org/#/uwu-theme")
     (license #f)))
 
 (define-public emacs-v-mode
