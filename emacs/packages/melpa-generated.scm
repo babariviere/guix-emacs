@@ -11899,17 +11899,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220309.1552")
+    (version "20220321.2316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "02323c6f9bad12aa3a53f6f6b9d7f714ddf6e773")))
+                 "bcc0015870f6b669ac339a97f76c9bd08b08a72a")))
         (sha256
           (base32
-            "0izwc82qvssfkjlcp36dg773ggd2fdlflap83fgzyhldlnmf3k6c"))))
+            "02vzqh4kj4h32rlwa0qy91qsf1mynjgz61rw2rixpnc0d815j038"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -23382,17 +23382,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220313.524")
+    (version "20220322.625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "b95340d24a37ac8b76b7934ff9508ff58f577a96")))
+                 "f2e85398cf6d98edb04ec331be817dbacd28cd75")))
         (sha256
           (base32
-            "12f03mpm7iqas25h8miqzd3jpf16flk5kiw3yhmqb6lpinaxijg8"))))
+            "10jqa0r1vpfhbl17qwk9crrhf8np3vlik1vhhvqm9jmsiw94jzxp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -27944,17 +27944,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20220318.2201")
+    (version "20220322.41")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "d3df7021adab256eec679b833256352753c07b88")))
+                 "1746e7009000b7635c0ea6f1559018143aa61642")))
         (sha256
           (base32
-            "0wjpj7ddyb6krpqglp4fp4vgys2j7aca22hzfn4sbhjb8mrqvmns"))))
+            "120xzzaa8jxls3lri6d53zq6gafnkc6d9mlg09an334kkmh8k2fc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company
@@ -65308,17 +65308,17 @@
 (define-public emacs-literate-elisp
   (package
     (name "emacs-literate-elisp")
-    (version "20220103.717")
+    (version "20220322.133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jingtaozf/literate-elisp.git")
                (commit
-                 "399f3cbaac0d81f9b44ed048b9e6698c39c69c3d")))
+                 "dc4f9d64a8483aa6e394178087c589cdefc571e2")))
         (sha256
           (base32
-            "0279jsgmc74f1dk8qm94pkq08327fyq8arzk8x6qj1blb7xkzgp1"))))
+            "08hhp74s56h9k3hlfqky68aiv4qy79gnci46r5nh4mbkrybsijnq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jingtaozf/literate-elisp")
@@ -75893,17 +75893,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220321.2142")
+    (version "20220322.408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "33efdad4e8fba235469aaf0339c468aca9a5e218")))
+                 "4cab753e3cddc60cf1e18c449d7d0d4a86da8d4f")))
         (sha256
           (base32
-            "0srpps0w9l8511w0sprg243brb61hk1vjq1xdzk4hc5f1aw4b0d7"))))
+            "1mmgfd5d6dc28fi97x6z7fsf600yyf93m4626vr3kdn3rxdbc85j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -84014,17 +84014,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220318.2004")
+    (version "20220322.137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "917bab6cfc05d8c64e299d10f499f69cfd055b08")))
+                 "d04f41af6d128ccb9421c9bcd83b5fb12d14f440")))
         (sha256
           (base32
-            "1bqdmyaz1jj9xcq1ik8f91g6gbkb91rypwikqzmlk11dgp7fw8qi"))))
+            "0qqaqykcm3pzc8a3ap4jnspn2p1034f6qhv6xyf43iqy8nhvrl03"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
