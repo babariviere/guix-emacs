@@ -22153,17 +22153,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220321.935")
+    (version "20220321.1830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4e2db43eb3128e54977eb8f5d0afd0b4e68b36aa")))
+                 "ced778f22e7a140350958f5d436303a9f84be622")))
         (sha256
           (base32
-            "19ayg3n6iysi73dcxv9yznvbyqy40lv95nah2x73bd1j4riivcgq"))))
+            "0slm7jyrkbig0wr6fhkgaj1zw190la2crjzbqinfabvfqyyyydkb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28583,17 +28583,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220321.250")
+    (version "20220321.1756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "3a9e5e1744033511ca32beeea42f228c7948448e")))
+                 "1bedea7531c749c8131928b39889db9a8ad0da5b")))
         (sha256
           (base32
-            "05liqhaxg7vmc2rk4n5d9lmnv4vw1r7a4ha3ip1xfnk61a5ycib5"))))
+            "0a64s489szifpqaqiqnvxhzn3ycad0ikjp59h5fxvpqh1iasr80f"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -69744,17 +69744,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220313.809")
+    (version "20220321.2047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "57656a69d3c29ddb0d18697491f80674e1097eaf")))
+                 "979acca991cdada7438f360ef0fec573b20f4f96")))
         (sha256
           (base32
-            "11iz95lm25vpdc3plpm3h1zlmfmfz08xlman8iqk5fa13636v7hj"))))
+            "0m46nil2bbmks6d9zg18246xfwjyghdfsim5fvfhxq39amw5rp9j"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -71427,17 +71427,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220321.738")
+    (version "20220321.2139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "f677e4f7384021f0cd65defd095e44eb01938df9")))
+                 "c3fc319bcfc3541a5cb575672a769e9a97e7eacd")))
         (sha256
           (base32
-            "1iylsrkcsdxqx465b3cbh0v055zfpamxvw5m7amb5q8wkvmbh3mw"))))
+            "120n7pcca81sp1f66vlbgggqbgh0d5bfpk5rz3azvqmrwxasbv5g"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -75893,17 +75893,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220321.1340")
+    (version "20220321.2142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "8cbaec7670d2ca02e94b9eea3ae10d74f3677c7d")))
+                 "33efdad4e8fba235469aaf0339c468aca9a5e218")))
         (sha256
           (base32
-            "1g5iv8n4bx9d9gwnmh561i3gr0id8p99394nlybldya0k87lk17d"))))
+            "0srpps0w9l8511w0sprg243brb61hk1vjq1xdzk4hc5f1aw4b0d7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -77774,17 +77774,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20220321.1410")
+    (version "20220321.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "b26ca7fc8e8bfc6d188ebb95ae7a95a1d537b259")))
+                 "8ac1829bbe3458a100ef7de1195a9714b59db98b")))
         (sha256
           (base32
-            "0zcg43rg2jn38v0m58irc3k9nbvvvr2dw054jkc5iv1gy3rwadg2"))))
+            "0f75k0vvikvzlkd6yr7wl53lh167njfwd0hkfp8mkxfzls36rwxk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -80404,17 +80404,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220320.2014")
+    (version "20220321.1517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "1a97306a1da290c5efdf4dad64ef2be5e419ef7b")))
+                 "91ad14f155e09a4abdb481b2e6f33ff089ec35f4")))
         (sha256
           (base32
-            "1bfyhpgrp5gwd5mn4iymdh76x33y9qwdzmdvx1bklc2hx9wfyi7g"))))
+            "1n9vdiigrhfmm50icj6w62gqab5mr74qzf39yf36clinazygbnmk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -84564,17 +84564,17 @@
 (define-public emacs-ox-timeline
   (package
     (name "emacs-ox-timeline")
-    (version "20210118.536")
+    (version "20220321.2115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jjuliano/org-simple-timeline.git")
                (commit
-                 "238e05b01dde37fa27a3a8943cc04dcc9b9b83b2")))
+                 "b28bd4ccd5fa114c0f51b9766f0b9be7fe05fdd8")))
         (sha256
           (base32
-            "0949gabr0wfsrzzaf217jsaawkc3gj1lxkrzwp3bigmxngsn4ykn"))))
+            "0l71bhbgs2g0gbfl8lf6p2hnnyma26qk67q59x935hkgjbb4vx1z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jjuliano/org-simple-timeline")
@@ -85993,6 +85993,28 @@
       "Password store (pass) OTP extension support")
     (description
       "Documentation at https://melpa.org/#/password-store-otp")
+    (license #f)))
+
+(define-public emacs-password-vault
+  (package
+    (name "emacs-password-vault")
+    (version "20220321.1521")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/PuercoPop/password-vault.git")
+               (commit
+                 "763750e2fbdd3bc96dfd256215b5e49394b7bef3")))
+        (sha256
+          (base32
+            "0zwnk5ljack42f3nmjwrhsx7f7cr52r3w5y414c5bg9yk3y47dda"))))
+    (build-system melpa-build-system)
+    (home-page
+      "http://github.com/PuercoPop/password-vault")
+    (synopsis "A Password manager for Emacs.")
+    (description
+      "Documentation at https://melpa.org/#/password-vault")
     (license #f)))
 
 (define-public emacs-paste-of-code
@@ -90249,23 +90271,22 @@
 (define-public emacs-prettier-rc
   (package
     (name "emacs-prettier-rc")
-    (version "20220317.1154")
+    (version "20220321.1516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jjuliano/prettier-rc-emacs.git")
                (commit
-                 "10fa39e3693cdf56c72c82e3a0a4b08cfc44a3f5")))
+                 "f2aa1a7469d62a11479a3abb826c8fb96dd00082")))
         (sha256
           (base32
-            "1wjysznpb3db8v83nabyns3p6xfhs34i98xdyw8vzw0aji3nr6xc"))))
+            "1rlfh2c680nl2bbv82mp4y6k6cp7qwp2axi0v998zb62ymw6p1bv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prettier-js))
     (home-page
       "https://github.com/jjuliano/prettier-rc-emacs")
-    (synopsis
-      "Minor mode for prettier to use local rc rules")
+    (synopsis "Use local rc rules with prettier")
     (description
       "Documentation at https://melpa.org/#/prettier-rc")
     (license #f)))
@@ -104575,17 +104596,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20220202.2241")
+    (version "20220321.2152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "48318da86b2b214106c3e6248c7865407aeebcd4")))
+                 "5efe17755c04dedb62033c1c53eda3c28c3a5f65")))
         (sha256
           (base32
-            "111h20gp0ns2c4cj9rh2bqlp4mksv1w4ybli64fnm300jci1p2lg"))))
+            "0yxjzp1wxyggjk15d84b0399z5d5xspphdsy4m8r52aqcfxaqnd6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -119226,17 +119247,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220320.1022")
+    (version "20220321.2050")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "798ad5027a2c710d3e386f0405a5c9b95718bfa9")))
+                 "4c6426e5e26e6a4d375442660d4f78aaea1691f7")))
         (sha256
           (base32
-            "0nayy0fdyvc8sd8mq3nh7jf26nxz5avn14czswda3wln732pyrxq"))))
+            "056xx1xlq9hwfjbympkl517544n1gfs605q0c7jkixh2vs6ipydr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
