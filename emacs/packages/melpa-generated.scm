@@ -22152,17 +22152,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220322.1430")
+    (version "20220322.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "684c00b4bb62dedf300e3b6f8d4b47c8b97d5532")))
+                 "0ae07c9380a8246d104eabb4cc937b0d78a5cbb5")))
         (sha256
           (base32
-            "0idkzc97d4s603hbbd9by4czcs5pnqsyy3b468a9qhw0kbq7g4qj"))))
+            "1gckjjzv6sv68xwsyq8fyx3rwa59fnzkbg3m3fa9jbpckwnmynni"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -22544,17 +22544,17 @@
 (define-public emacs-dix
   (package
     (name "emacs-dix")
-    (version "20220105.1017")
+    (version "20220323.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/dix.git")
                (commit
-                 "a2d924725380aca4d61df4a70825fc4b76185938")))
+                 "5230c18456ab034f2fb69acdbef62c1abae6a8cf")))
         (sha256
           (base32
-            "1cg565l7iviis7888in7bf3v59b2a67jb552yshq6yb4d63v0b6f"))))
+            "161ykw5p6wxy3dlx7f6zxg1cwl8hh411b7clzc5zhdpmq1wnqy0b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28582,17 +28582,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220321.1756")
+    (version "20220323.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "1bedea7531c749c8131928b39889db9a8ad0da5b")))
+                 "183ab2fa379a14e4fb10ba9e2446274ac06ec0f3")))
         (sha256
           (base32
-            "0a64s489szifpqaqiqnvxhzn3ycad0ikjp59h5fxvpqh1iasr80f"))))
+            "0mbkhnpg0zwwajdjs27jp9z0702ri0y7a42c6iycxq365358m7y2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -37567,17 +37567,17 @@
 (define-public emacs-flycheck-hledger
   (package
     (name "emacs-flycheck-hledger")
-    (version "20220321.724")
+    (version "20220323.726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/flycheck-hledger.git")
                (commit
-                 "c01321665e65233897f359e32d8f9a1a8563eff3")))
+                 "87b275b9b3d476b5f458e85e760f3f7fa3e66775")))
         (sha256
           (base32
-            "03zclgakk23hqrapy5lnbmd61v4s3hna5kmkk0wbqfpwgqg2vw8i"))))
+            "0l4xqrjzz2spld624zsnnx7bqsiyqhfd3wixcjh7rjshiaf5vhb5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -42677,17 +42677,17 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20220208.2103")
+    (version "20220323.1105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/gerrit.el.git")
                (commit
-                 "a802be95aea25f500583f72df968c86c6771a3d0")))
+                 "b7603d14f3869e1fba6265bd8255469a47be7357")))
         (sha256
           (base32
-            "1ac6d4fxcac4p6dp4nhbqf3bzd0yvgwajrllrh3j0vcdpzmbg95s"))))
+            "1hshq5bv3cmd04mkq8lckk9cnmjlhb4l34wapgpqrsyhfnz18zxw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-s emacs-dash))
@@ -71426,17 +71426,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220322.1801")
+    (version "20220323.1312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "524d5ca33b7741a23d5f35229c0d329f165bdc18")))
+                 "30f282069e385b604f337942efcd65f344c04096")))
         (sha256
           (base32
-            "0v0bm1zjnckxm22nwhh7pi6n8kavrhcv5nci84n5kgss6jrkk92h"))))
+            "1hiq7npnbqcsh8mrgkfxv34s59z16aab3wqr8gj2qflyj91p4i1s"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -80403,17 +80403,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220322.1813")
+    (version "20220323.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "c46436fda56515d33fdc366e60c4cc4d50ce4247")))
+                 "89875c58c0ce5eb4cc3747dbba7b98b435229029")))
         (sha256
           (base32
-            "0byjyinr2h6mxpnsiby0v9s8j3kaw5l6b3mbvihxfgkh1n76bzf6"))))
+            "1i2rfznpnwjad9d65pm59gpwjssa7nyyhwlmpil3shlkbkr388p3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -97665,17 +97665,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220301.1958")
+    (version "20220323.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "13ba8cd0c7f99dcc7baa55b0d5c68bc03ac5b9e0")))
+                 "e3cc89f3b4e06f034a5716e7e66095b9a9e6e20d")))
         (sha256
           (base32
-            "1qxxm3gz7kph2xqj0chjp2c61fi2mb0909n50lq1ylknxprmq33m"))))
+            "1nn61ysc93hnpn24x35hsxg2qfkjd2j9yn0w6w2gckpdqlh03hda"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
