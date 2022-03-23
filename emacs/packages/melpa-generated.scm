@@ -20704,17 +20704,17 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20220211.548")
+    (version "20220323.106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-diff-ansi.git")
                (commit
-                 "6ced92510df2c121e577189fa838dbf84303a0a9")))
+                 "39b39a7265c59e413ff32f1fccebe4dc1a7a966e")))
         (sha256
           (base32
-            "0mdyb2mlckcwphm6yaapdw6m2w2br0yfsvi6maw422mnm6nvjlwh"))))
+            "1kw2fvkfydyc8fbwqf4r88qgzrl85qzypjwzklkpwsawdpp6vzs2"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-diff-ansi")
@@ -23381,17 +23381,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220322.625")
+    (version "20220323.229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "f2e85398cf6d98edb04ec331be817dbacd28cd75")))
+                 "3df6c84224dc03001fc5b4b19022ec55732badd1")))
         (sha256
           (base32
-            "10jqa0r1vpfhbl17qwk9crrhf8np3vlik1vhhvqm9jmsiw94jzxp"))))
+            "0zs70pmgfnyzax6ycp4pg1jc9x1ysxnm8m4zr0n6wmsm7z8mq609"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -46831,17 +46831,17 @@
 (define-public emacs-grip-mode
   (package
     (name "emacs-grip-mode")
-    (version "20220311.1034")
+    (version "20220323.312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/grip-mode.git")
                (commit
-                 "d49af7a21a1f81d809566755085679bbc7d794a5")))
+                 "3071699b96c23806b2a08f50912004e5c3e88553")))
         (sha256
           (base32
-            "08n9bv5dxygkk8yxm58sha5ds6bcg3zhw4fradwcxs7pcdjlpabi"))))
+            "0szz8fi186sxfh5zf600yr8990pf419nxj515011wg35j96m4am2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/seagle0128/grip-mode")
@@ -99130,17 +99130,17 @@
 (define-public emacs-selectrum
   (package
     (name "emacs-selectrum")
-    (version "20220319.2247")
+    (version "20220323.10")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/selectrum.git")
                (commit
-                 "4b17cc53e1c1ce1a272d8882613a325ad83b53e0")))
+                 "7ef5a2596dcf472993cc82311c53e90b67769bd1")))
         (sha256
           (base32
-            "16csqa7hxj3mral6vck57csdgx63dcdl7b1mm1d3pw1319gnyr8s"))))
+            "1ppa32cddpsgijwaiik23ij2swhpwzfr04v09a4w8dsc09d3nhfz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/selectrum")
@@ -112792,17 +112792,17 @@
 (define-public emacs-uwu-theme
   (package
     (name "emacs-uwu-theme")
-    (version "20220314.2232")
+    (version "20220322.2258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kborling/uwu-theme.git")
                (commit
-                 "3c6c45972e1200c20e0617b1f126d0d251a30a8d")))
+                 "b99d00e627c9c10c0a1e3ac4096a92b8ff34a1e5")))
         (sha256
           (base32
-            "0a22d48s0d90jl888xmbs3yjjwss0xbwf0512lzab60q03pgvgw1"))))
+            "1m89bc4mva18nwqlvb5csj9ypj8nvn7i83b16x5x90v27cqzssj6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kborling/uwu-theme")
