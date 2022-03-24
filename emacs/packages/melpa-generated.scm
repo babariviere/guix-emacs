@@ -22152,17 +22152,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220323.1206")
+    (version "20220324.1422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "0ae07c9380a8246d104eabb4cc937b0d78a5cbb5")))
+                 "232ae4ac69be96acdaacdb606961b3ee074109f9")))
         (sha256
           (base32
-            "1gckjjzv6sv68xwsyq8fyx3rwa59fnzkbg3m3fa9jbpckwnmynni"))))
+            "0nhlaqpfz58mi3idhhdshyb9v77j3gvfis332hzzrvl3y7vskmxj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -43722,17 +43722,17 @@
 (define-public emacs-git-timemachine
   (package
     (name "emacs-git-timemachine")
-    (version "20210528.908")
+    (version "20220324.1057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/pidu/git-timemachine.git")
                (commit
-                 "3381797bcbf906b18dff654a2361032d2d01b4a3")))
+                 "ca09684e94767cc0b2339b77b778b4de4f9d104f")))
         (sha256
           (base32
-            "05pyjhi26charkjy0mhvigd72rvb4s1s8imycfynf0fmjy7f7n7x"))))
+            "13zs30sr8fkxar883va9xbfcl27m7jf02g63rq09gccjfw670r7z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (home-page
@@ -62358,17 +62358,17 @@
 (define-public emacs-kmacro-x
   (package
     (name "emacs-kmacro-x")
-    (version "20220317.307")
+    (version "20220323.2215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vifon/kmacro-x.el.git")
                (commit
-                 "f9df322d0c894129ac96e9a4fba03077957157be")))
+                 "429abd82c97031948b7681197551bb77708bd174")))
         (sha256
           (base32
-            "10gvrj5qsi6nvldl4rnxxqbwr92b2y53gsx8lk67ljrcq70vqgd1"))))
+            "07yxqcq84hlj3h3b66cwlmmk4cfnwb7pfr5lqvgaxywvziv2hqng"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/vifon/kmacro-x.el")
@@ -66631,17 +66631,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220320.1029")
+    (version "20220324.1032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "828c6c234a3231670ba5649666652e22a9bc4f35")))
+                 "4acf72202d47dd7f0166c69220e1f734d133db89")))
         (sha256
           (base32
-            "10fs6gxacmv71sd5xslsr78lw7p22lcn4sg6ix73kzjm2fs0k8gs"))))
+            "1dpvxnhki0anbgfxh9jz45q94zcnxj6yljkwknrd7ahh4df67zqq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -100213,17 +100213,17 @@
 (define-public emacs-shenshou
   (package
     (name "emacs-shenshou")
-    (version "20211103.1010")
+    (version "20220324.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/shenshou.git")
                (commit
-                 "5b9a400cafbf4778cdb4ab26f7718f8cb0c84705")))
+                 "bc16a637edaaca831a5147b6f479ba1dbdc02454")))
         (sha256
           (base32
-            "143b5np4d8vmpdyw1pzxl6xgh6pzfp0phhli0j4wsly83ivcf7w2"))))
+            "0mli3h3i511vq8g69b2y8hq9591bv5yjblvx7cnh1nrjpb4flak0"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/shenshou")
