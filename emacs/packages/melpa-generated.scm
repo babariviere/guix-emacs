@@ -3620,17 +3620,17 @@
 (define-public emacs-apropospriate-theme
   (package
     (name "emacs-apropospriate-theme")
-    (version "20220114.1444")
+    (version "20220323.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/apropospriate-theme.git")
                (commit
-                 "1761bf480cd62859e452ca492b69f09024bb308a")))
+                 "7bcabbbbef2cb1dd12917f248402565b557d8f60")))
         (sha256
           (base32
-            "1vhms80pdw46a16l9cjrh8sfyxwwrr8r28qpx1gkzh4bjqyszphx"))))
+            "1frlcjd82g0m3aj3wi45gv5gzqy16frj7as22v4c07b78xg1mzks"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -22152,7 +22152,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220322.1514")
+    (version "20220323.1206")
     (source
       (origin
         (method git-fetch)
@@ -28582,17 +28582,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220323.1255")
+    (version "20220323.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "183ab2fa379a14e4fb10ba9e2446274ac06ec0f3")))
+                 "5bad2fd6b56344b42a46a71bb5bd5def01610c70")))
         (sha256
           (base32
-            "0mbkhnpg0zwwajdjs27jp9z0702ri0y7a42c6iycxq365358m7y2"))))
+            "0qyiiamhm1m2457bf5hr1xi79drr62jq82l3kk5rxxw27fzzp1h7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -46831,17 +46831,17 @@
 (define-public emacs-grip-mode
   (package
     (name "emacs-grip-mode")
-    (version "20220323.312")
+    (version "20220323.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/grip-mode.git")
                (commit
-                 "3071699b96c23806b2a08f50912004e5c3e88553")))
+                 "3146ad1df0b629addb20dcc9c0a3b9e44c610efe")))
         (sha256
           (base32
-            "0szz8fi186sxfh5zf600yr8990pf419nxj515011wg35j96m4am2"))))
+            "16l6aaffh8yhj59gwzn4aydc81d7vyqcavg4blvg593wvznmirwi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/seagle0128/grip-mode")
@@ -53800,17 +53800,17 @@
 (define-public emacs-hl-todo
   (package
     (name "emacs-hl-todo")
-    (version "20220317.2321")
+    (version "20220323.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/hl-todo.git")
                (commit
-                 "e0ba3e1829aedece7fd54a3c53d4d94376c3e707")))
+                 "c0f0555a6b9f3818f29e6394db0b45d6d5675edf")))
         (sha256
           (base32
-            "1p008l5va3fzdg3yzsz5bd9hc1p5nqa74rryl88d7qyxaq1bxm80"))))
+            "15sndz0dd8aasg23yp298rlrw17pn73irzn048fmvri8wl8951hv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/hl-todo")
     (synopsis "highlight TODO and similar keywords")
@@ -67079,17 +67079,17 @@
 (define-public emacs-lux-mode
   (package
     (name "emacs-lux-mode")
-    (version "20210607.1130")
+    (version "20220121.913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hawk/lux.git")
                (commit
-                 "d158bb78029705a6ee848f8e00c09ba1f3575564")))
+                 "4304c89b3c9cccb256655b7d1058d7619e926dc7")))
         (sha256
           (base32
-            "1vfvvkhsfmnbava87ns67zs6l9bzb9bsnba6v6r4xx1k2sf3dmfq"))))
+            "06ls38bmrcfxp34kcv8kvz6r78bxsi3lpjf2fik94hqx3912w0zj"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("emacs/lux-mode.el")))
     (home-page "https://github.com/hawk/lux")
@@ -75892,17 +75892,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220322.408")
+    (version "20220323.2011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "4cab753e3cddc60cf1e18c449d7d0d4a86da8d4f")))
+                 "c1db2846cf7448307500fec718fab7a02b179c8b")))
         (sha256
           (base32
-            "1mmgfd5d6dc28fi97x6z7fsf600yyf93m4626vr3kdn3rxdbc85j"))))
+            "0kssw66g4hy5xs8map2vn3vygjhawp9jl0wx7nmjaaz8vagv8zca"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -85185,17 +85185,17 @@
 (define-public emacs-paimon
   (package
     (name "emacs-paimon")
-    (version "20220304.1110")
+    (version "20220323.2015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/r0man/paimon.el.git")
                (commit
-                 "38e6f128dc0a84ba805089808aff9942584db56a")))
+                 "b29ccfcedefd03cc05d98cd06a5935ecf4bd6917")))
         (sha256
           (base32
-            "1dqagd4856dfy8m6ajb66rl9nlr4dyrkpznpkrm5p8xdbkryhb3v"))))
+            "1wd1z2l0jyx20y2h95w6ybjabjn613m09gmrp6bj13ry4355sfvs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -96683,17 +96683,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20220320.1751")
+    (version "20220323.1859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "7a964319baad91ebbbb90aa5262bd136ef358347")))
+                 "fffadc0b865a58fd8eee00f03ed55b9ae5b78e08")))
         (sha256
           (base32
-            "180s5kyg7xc36f9mpbf7rpvvslsravq2k0klhligw412nfpq1law"))))
+            "1nk542ic6kxxax5p0pvi47163ca93v3pd15lpfmwvnjjzf0fr8ma"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
@@ -106617,17 +106617,17 @@
 (define-public emacs-symex
   (package
     (name "emacs-symex")
-    (version "20220221.252")
+    (version "20220323.1808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/countvajhula/symex.el.git")
                (commit
-                 "520682d49e4e0684d6ee45cfa8d3157e830778b8")))
+                 "8ab435c2866869977c92ad64c3706f626acfb4d3")))
         (sha256
           (base32
-            "01kfqwh7dkrq4dmdaxf5z6f3hj144d34nhfnjsq204mbnq37mdph"))))
+            "1jc9a27cpdldigyna3spdmx7ad0pcxfgl27xk1ikh74cbvry0ir4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lispy
@@ -109631,17 +109631,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220322.1528")
+    (version "20220323.2050")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "a6c375a96f22066557767a2d99d4d4868d49aa2a")))
+                 "1daae45343622c65fdfc9abe456020fd17e9168d")))
         (sha256
           (base32
-            "1b5602r7grrzllavky59zqpbp4af3gajzn3zgp0f1rx4w76lj032"))))
+            "1gwv7r6xaxkpnd7nyyj1v6xh4pd8lrnh3crlbf2d1sz49c5rf1zd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
