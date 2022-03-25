@@ -44810,17 +44810,17 @@
 (define-public emacs-gnus-recent
   (package
     (name "emacs-gnus-recent")
-    (version "20210920.902")
+    (version "20220324.2011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/gnus-recent.git")
                (commit
-                 "dfa0e687601e78d6be82530413cb00edb1a39889")))
+                 "a0ace8ea6e62a6b79a18149fbd560c6948a8103b")))
         (sha256
           (base32
-            "021rq3qp3544abqzr8cdsblpqh8yh2ss3f9gsf5sifckz7127h0s"))))
+            "0z1ad57kb0xbm8568cs6wwsgv9zbzs0skjvc12y83j5say3gwlgy"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("gnus-recent.el")))
     (home-page
@@ -71426,17 +71426,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220324.604")
+    (version "20220325.456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "69acc6148f002490800f6b6c7fb52dcfb27e974c")))
+                 "03f7046dff86c5342af778ad3f9850af7e950aed")))
         (sha256
           (base32
-            "0q9k5lcl7g5n9dlhmzn34mz9hd0v20xhfjd996kwnrqpf6il6m4a"))))
+            "1ab0s4jqav3l66zzgxpx9gr6p0s3d6rhd98jkh3i3hba7qqsjn7x"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -100147,17 +100147,17 @@
 (define-public emacs-shelldon
   (package
     (name "emacs-shelldon")
-    (version "20211118.1811")
+    (version "20220324.2237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Overdr0ne/shelldon.git")
                (commit
-                 "df8ab901c7f47c760879e5ccc26ee0b5195946c2")))
+                 "1a4da834c21911b36715c4d9062f40ccda23ce3c")))
         (sha256
           (base32
-            "1xkv0c2hzjccn73wl8x789cqwckbvkwgp80x8fagwswvg6ngzdcx"))))
+            "0ix5rlgg21g5iw38ma25sflqqfgy4js6xd6wynxs5nzwlbwa26r0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Overdr0ne/shelldon")
@@ -103845,17 +103845,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220318.106")
+    (version "20220325.106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "251b9e7e5ba3a92ea26c3d676b9e76f8c42b2654")))
+                 "914df7fa483825d813e7aaeb9dffce629aae2a52")))
         (sha256
           (base32
-            "1smrz3zh4cq2f344gm7l2jww5c0lkf9pinw6dvpcsl9sasqkxz0m"))))
+            "0ccw0wmc5kx9x31x0ycw74ngh6zdkjqm10my9ypfc97rfv2q6bh1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -104901,17 +104901,17 @@
 (define-public emacs-starlit-theme
   (package
     (name "emacs-starlit-theme")
-    (version "20220313.2329")
+    (version "20220325.2")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SFTtech/starlit-emacs.git")
                (commit
-                 "3243822fe83953b6b5e04f47f78e65138ce00dfe")))
+                 "53eb50b1e3247984f89afbb3c0a2748cdc01edf8")))
         (sha256
           (base32
-            "03klcxkgrhbp60pdmdf9qml28sggww8kp4fn0mjg6l288vqrbjy1"))))
+            "157ibnprvgj2y1kp0qiwqfg2m9s05kl4x6vszxpaa8pjsyfg8ywb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/SFTtech/starlit-emacs")
