@@ -2277,17 +2277,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220316.1339")
+    (version "20220324.1700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "a040a01ef50bef5bfd1b82f0141221f334310b1d")))
+                 "c111323857cb53f29734549a74f051b0697d1579")))
         (sha256
           (base32
-            "070z380816r1adbcz6jzhkqbxnycynrydpx4bdn6gpir0arjjm8h"))))
+            "0ybbkqb740mwh461ll1h83np3v5877pn4bbwm76gyr571zwz300n"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -9300,17 +9300,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20220309.2311")
+    (version "20220321.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "09459403f54783ddff9337010d9536da25ca7818")))
+                 "c365dae776f823aa7489bcf0f750ca748fefdb28")))
         (sha256
           (base32
-            "1aaa0a8x1347xhnxsifwrzqk1inhgb6wljvqyibvhy22ap38bxm6"))))
+            "1p7c6p33nk23jywwd9b7c7062chr8x0bjffgall9rxsyqczdqzxx"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -11899,17 +11899,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220321.2316")
+    (version "20220324.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "bcc0015870f6b669ac339a97f76c9bd08b08a72a")))
+                 "e97e33128051b5311d640492a3dfaf8dd7cdfcfd")))
         (sha256
           (base32
-            "02vzqh4kj4h32rlwa0qy91qsf1mynjgz61rw2rixpnc0d815j038"))))
+            "0yyb3gq140cl4dxlaagm8rwxf4cvv51g20sv5d3xfkhbkymbqjf6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -11985,17 +11985,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20220320.1714")
+    (version "20220324.1741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "b84428d282533069718ba10aa237df54024d5ca1")))
+                 "8b51e58819e0a4b65c15f01177d1a154d9a9d153")))
         (sha256
           (base32
-            "0xf2745l7025xwjg569pwxazwld1hkawqb7yilfhgxapgpbgi202"))))
+            "0yrcqypj1paszp2iwv0c67bh7vy1p3fj9n4h1ghn1y0pcqgbccb9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -19903,17 +19903,17 @@
 (define-public emacs-decide
   (package
     (name "emacs-decide")
-    (version "20211127.2248")
+    (version "20220319.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lifelike/decide-mode.git")
                (commit
-                 "668fa559b95b50f140e73f26a21fad559c1ffa77")))
+                 "b4feee9d5ad32c7b73ab3e1da5cfcdab532754c2")))
         (sha256
           (base32
-            "1wbiy8lda6p888qf4ak8j02cp42h25y17xnz5bq5p032xgq731n0"))))
+            "0xwflq1k4x2br5dw8fhqbz6zq4hbwvknrnzd2c2b1l68l4y7rs3j"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "rolling dice and other random things")
@@ -22152,17 +22152,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220324.1422")
+    (version "20220324.1630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "232ae4ac69be96acdaacdb606961b3ee074109f9")))
+                 "66a9508255e5405796be3a5824884f2804057c4b")))
         (sha256
           (base32
-            "0nhlaqpfz58mi3idhhdshyb9v77j3gvfis332hzzrvl3y7vskmxj"))))
+            "0gija01faji89jxchczs9f6dlnk1227p2hj3ddfdak2j8xrv31ym"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25840,17 +25840,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220320.1653")
+    (version "20220324.1606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "9eb9353fdc15c91a66ef8f4e53e18b22aa0870cd")))
+                 "03fc783c4b701fc8c19096b7167b73bd5d8f63a8")))
         (sha256
           (base32
-            "1lmk61z5jbi6qkj7qhc11fmvkrsg0965ppc08xldkj1fcchiyyi3"))))
+            "1w2j3rrbgh1mffhzbjgm3hcvijmfdcfp06pkgnacfi9dydwcap62"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -47906,17 +47906,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20220312.1521")
+    (version "20220324.1803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "5750f74d892ecc8f34ad8c73e75f78bfb3a86303")))
+                 "b1505b727b1fb8ae352e59dc90ec6dd05369ce32")))
         (sha256
           (base32
-            "1ivizlymkz4ciyyyd8l6y0cdrj72qbymagzmqivq8gxak9wyh71p"))))
+            "1a2znlg42jg5v2ml1n6a5chrh4365kppfrrd2y6f8rk4x6jwr6mx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -79758,17 +79758,17 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20220222.1915")
+    (version "20220324.1852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "f7a3145fac5d7e637a7cc557e5196086061159e0")))
+                 "554c48fb57dc46877202028019197b0699961ca0")))
         (sha256
           (base32
-            "0s4nai9c2s237cwy6649zsgqp6z75129ly43v0kibfvf4pgrbkxw"))))
+            "1l48dgzwwh230l5kxd17jdmjwhbkaqzmj95znxzhs9jrfm7jixyb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request
@@ -93613,17 +93613,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220321.1400")
+    (version "20220324.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "03ade92008941ed908e81a02127cd337dc96d9bc")))
+                 "45baad2f5217cbe5ad53f1b0f99a496b20035218")))
         (sha256
           (base32
-            "1f3rc9s2jbdy6x14wl7mn84sn5mdmd7lm7mc496pgzmdpwg6swwq"))))
+            "17i2i21qrwwhb0zc48ix0wd3mr8l8hmnqv67av5p0093z9pykrvk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96683,17 +96683,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20220323.1859")
+    (version "20220324.1757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "fffadc0b865a58fd8eee00f03ed55b9ae5b78e08")))
+                 "d09d72f463cde47b6f861c8e20f90c6bb082c44f")))
         (sha256
           (base32
-            "1nk542ic6kxxax5p0pvi47163ca93v3pd15lpfmwvnjjzf0fr8ma"))))
+            "15vhs49r0rf031xhwpmd9lvf7ambk98l6cih3s7j76izj2h582mb"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
@@ -112792,17 +112792,17 @@
 (define-public emacs-uwu-theme
   (package
     (name "emacs-uwu-theme")
-    (version "20220322.2258")
+    (version "20220324.1828")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kborling/uwu-theme.git")
                (commit
-                 "b99d00e627c9c10c0a1e3ac4096a92b8ff34a1e5")))
+                 "04fb60d75295a057dcc4d050217122215e6765d6")))
         (sha256
           (base32
-            "1m89bc4mva18nwqlvb5csj9ypj8nvn7i83b16x5x90v27cqzssj6"))))
+            "1yw9sg3s7yw9pnjffbk7d982v0d5ms19i8g7zy532xppxg4bldrf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kborling/uwu-theme")
