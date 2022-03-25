@@ -2277,17 +2277,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220324.1700")
+    (version "20220325.1238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "c111323857cb53f29734549a74f051b0697d1579")))
+                 "65c496d3d1d1298345beb9845840067bffb2ffd8")))
         (sha256
           (base32
-            "0ybbkqb740mwh461ll1h83np3v5877pn4bbwm76gyr571zwz300n"))))
+            "05n68r1f9g0xhffv8da5142c1771ma0lbwh44fqiraw80zjp5ybi"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -14557,17 +14557,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20220222.613")
+    (version "20220325.1206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "122cdecee0a269b014471875f3eb29cd8af96d6e")))
+                 "4fd30469d50a5d49e035a02a29c6acf5fb72a494")))
         (sha256
           (base32
-            "1wnh11m9pqlin58izx5w72a807pi59dj7mfhl5jfvsk7ds29yb04"))))
+            "1qqdma87jvmybd0af5ls86v2k62586ijqkymg99w6dxvlsd8wj6w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -19031,17 +19031,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220319.702")
+    (version "20220325.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "de713ea5ebb0644aac03e5e6f8117d2de7a68aa9")))
+                 "f918c0580bd17105cbe50aa701a2375abca5a6ab")))
         (sha256
           (base32
-            "00nlrncb6rjyfiyplyra8a9zlwjkm8wfmhw93g3kx8n592r416r2"))))
+            "12wnvj6bnz9xx9skzqjmldn9ak0pxm46b2g7ishj7q810fg5hzws"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22152,17 +22152,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220324.1630")
+    (version "20220325.559")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "66a9508255e5405796be3a5824884f2804057c4b")))
+                 "7d26d98df1a7af0266261e0e666a890a86a52bd0")))
         (sha256
           (base32
-            "0gija01faji89jxchczs9f6dlnk1227p2hj3ddfdak2j8xrv31ym"))))
+            "1yw1y5kdhs2213bvsmd65yhw3h2c7dzb70977bjd0pa083xddr0p"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23381,17 +23381,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220323.229")
+    (version "20220325.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "3df6c84224dc03001fc5b4b19022ec55732badd1")))
+                 "edf18b93cceb5cf00e1006d0034663ef4d9fdc11")))
         (sha256
           (base32
-            "0zs70pmgfnyzax6ycp4pg1jc9x1ysxnm8m4zr0n6wmsm7z8mq609"))))
+            "0l0lb3in80p9hgqqbrjrnbcjb2vqxw4qxgxl42vz6kvx77fk77j7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -42970,17 +42970,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20220310.1436")
+    (version "20220325.1028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "bd6e02b884368f26aeef9fd67107809f355c2c3d")))
+                 "fdf2e5bb9ba34216d6a76444c1889863db447b29")))
         (sha256
           (base32
-            "0qaz0p7178xd4rs5wxw01804dhnzg9c0dbxlvddm66s6l31baij5"))))
+            "03c1934gck19gmhmy1cv3m2fma7f9pxi9l7p1pcz7iy1x6cyi6bm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treepy))
     (arguments
@@ -66448,17 +66448,17 @@
 (define-public emacs-lsp-java
   (package
     (name "emacs-lsp-java")
-    (version "20211124.605")
+    (version "20220325.547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-java.git")
                (commit
-                 "ce03cb6574566e334c3ce5735458cc3ec1989486")))
+                 "0968038b9aea52ef3bf499e597cf3800d913c059")))
         (sha256
           (base32
-            "0z18b7xn9rgrs8w485bzw93g1nimfp0616d9xlrj0wc4k1i8vyd4"))))
+            "1rpssrv1avbfq47h23qiymzhzddcxgs77diwq3mavqkxkqrkj3vz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -71426,7 +71426,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220325.456")
+    (version "20220325.617")
     (source
       (origin
         (method git-fetch)
@@ -80403,17 +80403,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220323.1154")
+    (version "20220325.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "89875c58c0ce5eb4cc3747dbba7b98b435229029")))
+                 "dc19304f409259d1b258c51cedd2d362e0ff9b98")))
         (sha256
           (base32
-            "1i2rfznpnwjad9d65pm59gpwjssa7nyyhwlmpil3shlkbkr388p3"))))
+            "1b0cis1n786c4lkrsi71ak2wv21mhgbfk3q2pp6qiqhddah0l1cg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -85185,17 +85185,17 @@
 (define-public emacs-paimon
   (package
     (name "emacs-paimon")
-    (version "20220323.2015")
+    (version "20220325.1032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/r0man/paimon.el.git")
                (commit
-                 "b29ccfcedefd03cc05d98cd06a5935ecf4bd6917")))
+                 "8e28efe96a171b04b1fd83f763ca26e939dd44ed")))
         (sha256
           (base32
-            "1wd1z2l0jyx20y2h95w6ybjabjn613m09gmrp6bj13ry4355sfvs"))))
+            "1d3bcy1wb7wsw6qqihwdy835z32pibz9d8ia8xcarzcg5c983is8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -100147,17 +100147,17 @@
 (define-public emacs-shelldon
   (package
     (name "emacs-shelldon")
-    (version "20220324.2237")
+    (version "20220325.1305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Overdr0ne/shelldon.git")
                (commit
-                 "1a4da834c21911b36715c4d9062f40ccda23ce3c")))
+                 "8d073ce580e7782ed863fc6e19dc33b4f73c0d79")))
         (sha256
           (base32
-            "0ix5rlgg21g5iw38ma25sflqqfgy4js6xd6wynxs5nzwlbwa26r0"))))
+            "07ka7nd1apyjdf9cljs4zbcyv0bfbn1z4arhq2m2kdinjqpr6mbq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Overdr0ne/shelldon")
@@ -104901,17 +104901,17 @@
 (define-public emacs-starlit-theme
   (package
     (name "emacs-starlit-theme")
-    (version "20220325.2")
+    (version "20220325.1418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SFTtech/starlit-emacs.git")
                (commit
-                 "53eb50b1e3247984f89afbb3c0a2748cdc01edf8")))
+                 "9a76710497482110f5cba6e86aea66d94f5dbb50")))
         (sha256
           (base32
-            "157ibnprvgj2y1kp0qiwqfg2m9s05kl4x6vszxpaa8pjsyfg8ywb"))))
+            "16nswflx3ccqkc64ijy4wvq0qqikijqh5dvj0j2ylf8bydnv4xqb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/SFTtech/starlit-emacs")
@@ -105147,17 +105147,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220315.1458")
+    (version "20220325.1400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "ab9debd7ebbf1d8d1575c81743a8dab508338e5e")))
+                 "5d4f0adfee528c8740d85f1bda0d31a6ac04be5e")))
         (sha256
           (base32
-            "0n20pqhy8c429mfsyx7gr01v3y6zzx92acmryxa6wqa295ndj6nl"))))
+            "027vhwsz0j8v3r03hnmxlaqsj5fhw201cfx0gyqsfnbdh5sj7b83"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -110045,17 +110045,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220314.1605")
+    (version "20220325.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "017eb7b3cb631bb432066539c459bfa96afa0543")))
+                 "132090a4b6d65603a09e33113f6dbd9a1131e38e")))
         (sha256
           (base32
-            "05389csxv8ggs2gksdv42adddjdjxfhrf3ip9ip1w8ya8n6wh9qr"))))
+            "11sds4d9c173ink9ihl1949r13mzvqdi7h5d0fa8l9c7l0msmqz3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
