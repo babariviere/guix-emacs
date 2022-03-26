@@ -14032,17 +14032,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220310.2313")
+    (version "20220326.48")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "18a662082948b5aa9bea6b4ad752e027fc12aeb5")))
+                 "783287526a791590bea4f9a23992c2bfebdb4c8d")))
         (sha256
           (base32
-            "0a53an8q2vgcsfvbcz3cnhpvzkc3ah79vhq16y9yd78x1zdc5wb2"))))
+            "1cxr4dc0yfnccjk3l3sc15ys0pzff0r133msq59nzk6r48ba9p0q"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -19422,17 +19422,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220307.1807")
+    (version "20220326.435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "f042f820d919d529668a3ea240b71ef231f6c388")))
+                 "1d3fce6e8e8605f770f2b23184b055029128c477")))
         (sha256
           (base32
-            "0bzl1jy2lh2x4fvqsvb2r0vgw57xa8zf66f75yacn6mkgj15y5j4"))))
+            "0kylaqz16xmc22xainarnwn31rlanw3ycapdxga0hgyg972p1z45"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -19470,17 +19470,17 @@
 (define-public emacs-dashboard-ls
   (package
     (name "emacs-dashboard-ls")
-    (version "20220117.1607")
+    (version "20220326.628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/dashboard-ls.git")
                (commit
-                 "cde30ac64006f79be71c9e59eda2218d725e2bee")))
+                 "73d280e029dfb68c2666dbc20130300439b170b7")))
         (sha256
           (base32
-            "0272j1wr7399zfpl0vdk397dmi1ll3bqrv5h6rrbwg8vvmfk01vj"))))
+            "1rsv008hfk8v8wkhfqhhpyf5k7hhhh0aisa36ram6a3y5gwj0ac5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dashboard))
     (home-page
@@ -28582,17 +28582,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220323.1714")
+    (version "20220326.56")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "5bad2fd6b56344b42a46a71bb5bd5def01610c70")))
+                 "b80d96ce0ab79e73829322e46c6d7493eb2b8c34")))
         (sha256
           (base32
-            "0qyiiamhm1m2457bf5hr1xi79drr62jq82l3kk5rxxw27fzzp1h7"))))
+            "1jsynjl0y7w0jqxqlibg8m4rwzv9lxj443m6dlac6zncz8plnizp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -44363,17 +44363,17 @@
 (define-public emacs-gkroam
   (package
     (name "emacs-gkroam")
-    (version "20210914.1311")
+    (version "20220326.521")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Kinneyzhang/gkroam.git")
                (commit
-                 "a9c9034a8fa3c08ec3097ae40e227d400d766db9")))
+                 "38f517ac2894b16e6cf983b93ee96762fffa152a")))
         (sha256
           (base32
-            "1fc8srqvygiv3h2hw31vy20ip6kbm2m1aq5imx01fw9qig7xfv47"))))
+            "1ag1cpyljid237ki91zq68chyaalskibadz7af3abaa00d4lvf9v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-db emacs-company))
     (home-page
@@ -68036,17 +68036,17 @@
 (define-public emacs-magit-todos
   (package
     (name "emacs-magit-todos")
-    (version "20210811.459")
+    (version "20220326.519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/magit-todos.git")
                (commit
-                 "60152d5c4e4b73e72e15f23ca16e8cc7734906bc")))
+                 "67fd80c2f10aec4d5b2a24b5d3d53c08cc1f05dc")))
         (sha256
           (base32
-            "1ri53hnhamp3b9nh9dld6wxjvsxrk883kw900gglvw962ndimx5x"))))
+            "00hs3a9hpxmwsrd8xxwn9cpxk69x5ghmxq205aqpr7mjigcg7n2d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -83212,7 +83212,7 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220325.1446")
+    (version "20220325.2356")
     (source
       (origin
         (method git-fetch)
@@ -83623,17 +83623,17 @@
 (define-public emacs-outshine
   (package
     (name "emacs-outshine")
-    (version "20191112.1414")
+    (version "20220326.540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/outshine.git")
                (commit
-                 "9334b555aaf1426a9e405a57b80809a1615627b3")))
+                 "bf1eed10dd7a89b63d0fc014944033db397c1e23")))
         (sha256
           (base32
-            "11r6advraz5rkrxr25mj0wpfgzxcvn5gzppsc7ma51zqfmijg7dk"))))
+            "19ni7j84361if3kyap1jf2xj0w3myp9iiz52gjcmbgk1g1g9ycdc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-outorg))
     (home-page
