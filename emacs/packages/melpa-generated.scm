@@ -11435,17 +11435,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220224.1017")
+    (version "20220326.1439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "9ef3337c5a68caf73866a6949bb5783d7e246979")))
+                 "3f52469f31f0bc23dd63d0b3c29bc2040dfcd98a")))
         (sha256
           (base32
-            "0jd9bcf1qjz9hd9qpajx7xls5h8czadwvcahfdwiy8hqhl09vgii"))))
+            "1mjvn02dwhnwq6x1llnlpxzvpfkl753mbs68dahd520fvyjglnrq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11491,17 +11491,17 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20220225.950")
+    (version "20220326.1439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "7cf2c86afd8f6fb6235320ac9f7ebd76153d8bc6")))
+                 "3f52469f31f0bc23dd63d0b3c29bc2040dfcd98a")))
         (sha256
           (base32
-            "1gw69ps98bc28kwfqi6m9v4im71jla410ici5cyhfyk67m3dvgbb"))))
+            "1mjvn02dwhnwq6x1llnlpxzvpfkl753mbs68dahd520fvyjglnrq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chronometrist))
     (arguments
@@ -11521,17 +11521,17 @@
 (define-public emacs-chronometrist-spark
   (package
     (name "emacs-chronometrist-spark")
-    (version "20220215.1904")
+    (version "20220321.349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "2b2bfa27787ae524852abcb75408b0b1927aa2e1")))
+                 "3f52469f31f0bc23dd63d0b3c29bc2040dfcd98a")))
         (sha256
           (base32
-            "11lnj6fd9xhwhwr900vjbzbviqrza29b9nf8d53b4bzdrij6ilgw"))))
+            "1mjvn02dwhnwq6x1llnlpxzvpfkl753mbs68dahd520fvyjglnrq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-chronometrist emacs-spark))
@@ -19422,7 +19422,7 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220326.435")
+    (version "20220326.725")
     (source
       (origin
         (method git-fetch)
@@ -20478,17 +20478,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220320.1536")
+    (version "20220326.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "8e4cd09bdf876c0f7e991d4fcafc1459a7f29d8c")))
+                 "be6cdf690a49d5bb39da7ea29c10cec660f7c60a")))
         (sha256
           (base32
-            "0ijgbddry7r6if3b5vlxiimm1y9zvi2kiaswgp4rd2fk694lbb7i"))))
+            "0wq220bv7k2aqqsfc83akg6ygrwshn5haaqibpzgr05n8w4264v6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -30707,17 +30707,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20220114.1021")
+    (version "20220326.933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "247d8bf4dd93d796c41c0f60947cc77b73b99e83")))
+                 "9c17e92f0229c9002e071842a88396c3f2439d72")))
         (sha256
           (base32
-            "02xni607801764pwnhj0g3mvl1pg5mr0kvg6mbgxxwjpjcv6cndf"))))
+            "08kqqlvia3hzl9yq5yia92a27rk3fsahdizlf7rpywkmj5aix43l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -40739,17 +40739,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220318.2335")
+    (version "20220326.908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "de8856738f5c5d5b77349709c42329c1e23c0da5")))
+                 "2aaf4462e868acf6eca95e5ca2c3693c3f059c2b")))
         (sha256
           (base32
-            "16bchyf9dnax0cd0v45scyw7jwmmdaxaam9ss04gn8grw5drjdvr"))))
+            "16d3zcjwxhy18jhgcznwx643v9fc93yxb6fxgkasrzb0dlxrhhwq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -57146,17 +57146,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220321.308")
+    (version "20220326.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-inkpot-theme.git")
                (commit
-                 "55bff806ca6b9dd538f065ba13d226d6fe2d9206")))
+                 "a8d0d2ecd4855ba91e21d0481b02dff3755f8afd")))
         (sha256
           (base32
-            "1szvq974dysd2d8j0qjn5ikimxvvsixk49yrq6fp64f3dc4jw8xb"))))
+            "0qz91mzfp8ywk9ngaw60q0nczxykanl5sbgf42v9xfgm6fys8yal"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-inkpot-theme")
@@ -67489,17 +67489,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220325.2057")
+    (version "20220326.946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "d134b87a6b4b84791e1fca655f5e4feb62580920")))
+                 "b1702991eec2c068d282fc2f1bd665726a14e10d")))
         (sha256
           (base32
-            "0pw80bwrcr9z08aw09bx79d1xgykd46vx6s5ibskmfs99ygvj99s"))))
+            "0gyvbhwm5x7wgm4cdp3v0h8vv5vkw066fmwsvlvgyqqppkq5pqz3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81783,17 +81783,17 @@
 (define-public emacs-org-starter
   (package
     (name "emacs-org-starter")
-    (version "20220218.743")
+    (version "20220326.1106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-starter.git")
                (commit
-                 "2b06b02b8008dde8cfad69b679f89742d80aa4e6")))
+                 "cd9c5c0402de941299d1c8901f26a8f24d755022")))
         (sha256
           (base32
-            "1x6kcwyyixgi92yq7cmx2bhcbh342acwr1c5nw31mi03v6hczjzk"))))
+            "07z17r2ny9m4cddr87v636vgvcfgv1j5qkvhckms0xnfh9wcs9j3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -105147,17 +105147,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220325.1623")
+    (version "20220326.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "bc642a59157a0a857f93eb54ff33e5723413415c")))
+                 "659d5814c5f9b21b159778ffab30aa9d8fb2cb96")))
         (sha256
           (base32
-            "06gzlm9pspxv4mmrg9sqxv338x3hjsb89kj6hpv7zbn20gfv38k8"))))
+            "0skvns8x15cffwmv904sfgqz5rh4kv84aflwk547p7j1fcz8pja2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -111775,17 +111775,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220211.548")
+    (version "20220326.622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "d4f078abcbeea614ac2b32808c9cadf460a61e2e")))
+                 "7bbc89a42f6bb4abcd4513488bd45784cf4041e4")))
         (sha256
           (base32
-            "02b95pasbgr82g2ii225ixfd39w2y7jncxwmvm7ix2pw77g9mc7v"))))
+            "1is1ywsr78k9fil44psb8hqhm8b2a8hmv1pf6a8h04hwv3svpf3q"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
