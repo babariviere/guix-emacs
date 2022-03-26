@@ -8739,17 +8739,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220319.858")
+    (version "20220325.1659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "51800506d9ecd7a44e90caf85c2c9915afdc1378")))
+                 "ba1c9d24d3f1ba58445cbf1f762ba6859b66f6bf")))
         (sha256
           (base32
-            "1bpjs4fr26sks29624c84fi6rjxr11jq4vl2m5fd5csqkwwbwd03"))))
+            "0davkvlyqj78i6njhkjyrv4l7qnscysimssbwjsnl4lbk7c1z85k"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/buffer-env")
@@ -22152,7 +22152,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220325.559")
+    (version "20220325.1418")
     (source
       (origin
         (method git-fetch)
@@ -33324,17 +33324,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220321.342")
+    (version "20220325.1401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "5f7b509c3603c324312a007825bc00e7aac9095c")))
+                 "d488792ee1ceadf3ae4a8b7b93ca3a88d36111cc")))
         (sha256
           (base32
-            "1jxigabijm4d22cjp5q2vxnqcrdb1zbj8pfvf0pkfkkkr7pgvcpi"))))
+            "0mwxv0al1i8vplsh2bl8y5vl9zga6zlz6f8mjbbm6gvcnzpbz5ff"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -60827,17 +60827,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220313.633")
+    (version "20220325.2038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "388c4c9ff915dfd5ded6906b62b76f97d59ada94")))
+                 "80a2def11e444d8ba2b640d0ea76720cfefccb65")))
         (sha256
           (base32
-            "1wpaspl09zrj27hw1d4mk935cdhn2cs8jrg53vx7smfppip3ddb3"))))
+            "1k5wqlxgijz73qscbdnkaia3ffw55x08xyqmfppvqv1w4gdvr0ya"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -66631,17 +66631,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220324.1032")
+    (version "20220325.1415")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "4acf72202d47dd7f0166c69220e1f734d133db89")))
+                 "95a5270ff783af063392286e8f45cf338c5a9765")))
         (sha256
           (base32
-            "1dpvxnhki0anbgfxh9jz45q94zcnxj6yljkwknrd7ahh4df67zqq"))))
+            "1sbww4m1pm5n0y3gzsqdggv39ic39gy0l15va5m26pvz9ffd7367"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67489,17 +67489,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220321.1312")
+    (version "20220325.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "b32521d5432b5fbc33a2e47b72f2258bf98cb8b4")))
+                 "d134b87a6b4b84791e1fca655f5e4feb62580920")))
         (sha256
           (base32
-            "0pl1z7l96c3xm078hx314xgv661svws66d78jfqhj7vzri0sddlm"))))
+            "0pw80bwrcr9z08aw09bx79d1xgykd46vx6s5ibskmfs99ygvj99s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67962,17 +67962,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220311.1044")
+    (version "20220325.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "9d8d5e560394c001b866c00200ccea65b7d94a04")))
+                 "d134b87a6b4b84791e1fca655f5e4feb62580920")))
         (sha256
           (base32
-            "194jpwg3h1xsxq7gi01mx1r0r5r1b2hr40kas21vfmdwsjpj5n1v"))))
+            "0pw80bwrcr9z08aw09bx79d1xgykd46vx6s5ibskmfs99ygvj99s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -80403,7 +80403,7 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220325.1326")
+    (version "20220325.1506")
     (source
       (origin
         (method git-fetch)
@@ -83212,17 +83212,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220321.408")
+    (version "20220325.1446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "372a4bedaaebad92b586033c6163a3d3e971dff6")))
+                 "881b1c969fcf3dae5c020ce520e5a16f8f2b6f18")))
         (sha256
           (base32
-            "0gc0q3ia4qhhy8vpg5dg53xfv23ym4kqmwxip4vw6zlpqys5j1fy"))))
+            "06ryshf804m6npygf8546kxg1xsjsl52kgbzr147h2ay5kq90q06"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -93613,17 +93613,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220324.1641")
+    (version "20220325.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "45baad2f5217cbe5ad53f1b0f99a496b20035218")))
+                 "c1774ad168bd0857cf695ad39ae4d61cd668f6d9")))
         (sha256
           (base32
-            "17i2i21qrwwhb0zc48ix0wd3mr8l8hmnqv67av5p0093z9pykrvk"))))
+            "1rksxymhadsj6zikhbn68j9iq0b01m9ajdddkk4kbaczh35vwyx5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96683,17 +96683,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20220324.1757")
+    (version "20220325.1526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "d09d72f463cde47b6f861c8e20f90c6bb082c44f")))
+                 "2e1ff0653e5355a2214e735f0ada287071457c6a")))
         (sha256
           (base32
-            "15vhs49r0rf031xhwpmd9lvf7ambk98l6cih3s7j76izj2h582mb"))))
+            "1ra2q2wnman6zdfmky296r8h73zhjwkika8r3czjx5nsg24464vi"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
@@ -105147,17 +105147,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220325.1400")
+    (version "20220325.1623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "5d4f0adfee528c8740d85f1bda0d31a6ac04be5e")))
+                 "bc642a59157a0a857f93eb54ff33e5723413415c")))
         (sha256
           (base32
-            "027vhwsz0j8v3r03hnmxlaqsj5fhw201cfx0gyqsfnbdh5sj7b83"))))
+            "06gzlm9pspxv4mmrg9sqxv338x3hjsb89kj6hpv7zbn20gfv38k8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -110045,17 +110045,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220325.1020")
+    (version "20220325.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "132090a4b6d65603a09e33113f6dbd9a1131e38e")))
+                 "270eff1c7cc910dfe9882e97df608627028eaa40")))
         (sha256
           (base32
-            "11sds4d9c173ink9ihl1949r13mzvqdi7h5d0fa8l9c7l0msmqz3"))))
+            "197j1jih73vjd3awycbiyfkj1fxmizaqs8h3id0kd1gyyjq4anck"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
