@@ -6518,17 +6518,17 @@
 (define-public emacs-bbdb
   (package
     (name "emacs-bbdb")
-    (version "20220224.403")
+    (version "20220327.407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.nongnu.org/git/bbdb.git")
                (commit
-                 "00a003c9a3788c3a0fe8bd89b827b4e9bbdf2261")))
+                 "304415b1afff1ec857049237e4945d01655b5df2")))
         (sha256
           (base32
-            "0iskn78ynz24wdbq1ja24m0pqcbhb4dfipnxx0nijdsbf6xpj37r"))))
+            "0xnmgzsqj4lvsxbmmg74c3izp7y9ya0a7mj6d90n8pg52qxdxcjr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("lisp/*.el*" "doc/*.texi")))
@@ -13412,17 +13412,17 @@
 (define-public emacs-color-identifiers-mode
   (package
     (name "emacs-color-identifiers-mode")
-    (version "20220318.1558")
+    (version "20220327.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ankurdave/color-identifiers-mode.git")
                (commit
-                 "05dfc97b004f1a962313710d81cffae3b2f9c98a")))
+                 "6fe76f0c3090f6023da3806e9d760e93810905d4")))
         (sha256
           (base32
-            "161mn6b14kbpf4lyqw9ijxqir8qxbz9rr7ydx03z6shjfp7ciz54"))))
+            "05lsgksrif3isrlgr31fcwpmndgbl6qggj6jxznj3lqvhq9vz5zj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -16273,17 +16273,17 @@
 (define-public emacs-consult-lsp
   (package
     (name "emacs-consult-lsp")
-    (version "20220320.1125")
+    (version "20220327.1030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gagbo/consult-lsp.git")
                (commit
-                 "0dfc9d55876d4cf7c32f8a663fe6343927f78052")))
+                 "5a3c4e3f4233feff3f141df38f93d1be80259301")))
         (sha256
           (base32
-            "15w586gp8x4d52wlf4b6lcmgsidav8slqr97yrj1jfhyri2sryx9"))))
+            "18j1gvd1mnyszic01b98ax9yblchvd4jmsvq8jrf8raf0i6c5ha7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-consult emacs-f))
@@ -22152,17 +22152,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220326.1728")
+    (version "20220327.845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "8207cd48ab1910f4edcf1571045e6375209004aa")))
+                 "1d4f2e2e3b70e1438d31771b9f11f3983aa5054d")))
         (sha256
           (base32
-            "04i5fhdyw1dj35kfkl41qylyxy25fbizanfxchrddfhrzgsy6ydp"))))
+            "1h2la5gc4qdizxm2lz0d5cnx1wy6sdgi905mrgkmnx2zxsm3n2q8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -66631,17 +66631,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220325.1415")
+    (version "20220327.1322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "95a5270ff783af063392286e8f45cf338c5a9765")))
+                 "3ec5fb1844d08fff6200553eb3c4784918987f3e")))
         (sha256
           (base32
-            "1sbww4m1pm5n0y3gzsqdggv39ic39gy0l15va5m26pvz9ffd7367"))))
+            "1gm0mfaiiax9ykik9qffgjl4bm4i4gi86ngknf3rf0xg6hf2zxh9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -111802,17 +111802,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220326.622")
+    (version "20220327.1405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "7bbc89a42f6bb4abcd4513488bd45784cf4041e4")))
+                 "2fe1efcfa1cc790fa466894cf3f7629352e8627f")))
         (sha256
           (base32
-            "1is1ywsr78k9fil44psb8hqhm8b2a8hmv1pf6a8h04hwv3svpf3q"))))
+            "0gll5g9sqzp1q9s2m7imf4564b3gsq0aavmq8w1snml86s7rcmgf"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
@@ -116918,17 +116918,17 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20220308.1314")
+    (version "20220327.1001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashinin/workgroups2.git")
                (commit
-                 "b2c457a720e98dd1c560860e44a6a80372ef07ef")))
+                 "59952e80acecfd6f8b79f075d473501ee468085e")))
         (sha256
           (base32
-            "198bm8l8jf6xvc7djy3d9z7xm437pkabmi9i30pd79g5l2dikj8f"))))
+            "0jsk210ahf05dm0bmpbl1hj9xld2cvwiyjp09wg084fj5h6fdk6d"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
