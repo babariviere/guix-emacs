@@ -14032,17 +14032,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220326.48")
+    (version "20220327.40")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "783287526a791590bea4f9a23992c2bfebdb4c8d")))
+                 "390d9af44209e82581bb80b3b3ca04375402d4a6")))
         (sha256
           (base32
-            "1cxr4dc0yfnccjk3l3sc15ys0pzff0r133msq59nzk6r48ba9p0q"))))
+            "1cyzxfwi6wvqc29jx5zajq8xi4y6xj3dcrgjnijp60a70yygf068"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -25840,17 +25840,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220324.1606")
+    (version "20220326.2143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "03fc783c4b701fc8c19096b7167b73bd5d8f63a8")))
+                 "5772e043d8459a4166608a54f7277ac0c479ca2c")))
         (sha256
           (base32
-            "1w2j3rrbgh1mffhzbjgm3hcvijmfdcfp06pkgnacfi9dydwcap62"))))
+            "0wq4h92by9lq5y7nba1wf7ymwkw5b013x3r5p01w4qacixxn62z8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -67489,17 +67489,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220326.946")
+    (version "20220326.2159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "b1702991eec2c068d282fc2f1bd665726a14e10d")))
+                 "29f5be3576ce031f90eb9637dd3bd8ec627d53f4")))
         (sha256
           (base32
-            "0gyvbhwm5x7wgm4cdp3v0h8vv5vkw066fmwsvlvgyqqppkq5pqz3"))))
+            "00260hm786j4xwqaqjclys287523ypzfj7vvd53pi5mlg0jgkiyp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67962,7 +67962,7 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220326.1956")
+    (version "20220326.2202")
     (source
       (origin
         (method git-fetch)
@@ -76136,6 +76136,29 @@
     (synopsis "OAuth2 request package interface")
     (description
       "Documentation at https://melpa.org/#/oauth2-request")
+    (license #f)))
+
+(define-public emacs-ob-ada-spark
+  (package
+    (name "emacs-ob-ada-spark")
+    (version "20220322.1810")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/rocher/ob-ada-spark.git")
+               (commit
+                 "6ca4c19ecb890f44f1f269738d35bd8e3b79f76a")))
+        (sha256
+          (base32
+            "1zr26l00cb08irwgf7n6h4skm1zizl8m3sr8a0l77ifp0wbw8aqn"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-f))
+    (home-page
+      "https://github.com/rocher/ob-ada-spark")
+    (synopsis "Babel functions for Ada & SPARK")
+    (description
+      "Documentation at https://melpa.org/#/ob-ada-spark")
     (license #f)))
 
 (define-public emacs-ob-applescript
@@ -103849,17 +103872,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220325.106")
+    (version "20220327.113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "914df7fa483825d813e7aaeb9dffce629aae2a52")))
+                 "279caa7aa99e7b5d6f2f9307b20e9fcb730ffb29")))
         (sha256
           (base32
-            "0ccw0wmc5kx9x31x0ycw74ngh6zdkjqm10my9ypfc97rfv2q6bh1"))))
+            "1ilkyi7j1nj9g6xdvq8y85wk34qhb7zan5a1ds1q3nbmdzgxgmwj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -104480,17 +104503,17 @@
 (define-public emacs-sqlite3
   (package
     (name "emacs-sqlite3")
-    (version "20220202.728")
+    (version "20220327.521")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pekingduck/emacs-sqlite3-api.git")
                (commit
-                 "88dfeae8f9612cb3564a7393aa8a5c867aacbaf8")))
+                 "7cb4b660fe30deb8a4229f3abb18bd99ca9c971c")))
         (sha256
           (base32
-            "0sj1fsgcgfzz6dfpmp8r5gmdwpbdzpk5g5lm8j7c3nqj6wqgg7g6"))))
+            "1b7if1dp6i5kqwhq25gna89xbca66i4mmgx1a5yn12kncfdgs6d7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -104905,17 +104928,17 @@
 (define-public emacs-starlit-theme
   (package
     (name "emacs-starlit-theme")
-    (version "20220325.1418")
+    (version "20220326.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SFTtech/starlit-emacs.git")
                (commit
-                 "9a76710497482110f5cba6e86aea66d94f5dbb50")))
+                 "f3b26f134c54387aaf5c470e1d0ce811bf186604")))
         (sha256
           (base32
-            "16nswflx3ccqkc64ijy4wvq0qqikijqh5dvj0j2ylf8bydnv4xqb"))))
+            "1rvls8bf6mpflm8bnbbplbbz20w49vx5c5p97zvairc0vpsq6ji9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/SFTtech/starlit-emacs")
