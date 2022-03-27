@@ -22152,17 +22152,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220325.1418")
+    (version "20220326.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "7d26d98df1a7af0266261e0e666a890a86a52bd0")))
+                 "8207cd48ab1910f4edcf1571045e6375209004aa")))
         (sha256
           (base32
-            "1yw1y5kdhs2213bvsmd65yhw3h2c7dzb70977bjd0pa083xddr0p"))))
+            "04i5fhdyw1dj35kfkl41qylyxy25fbizanfxchrddfhrzgsy6ydp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -67962,17 +67962,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220325.1720")
+    (version "20220326.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "d134b87a6b4b84791e1fca655f5e4feb62580920")))
+                 "29f5be3576ce031f90eb9637dd3bd8ec627d53f4")))
         (sha256
           (base32
-            "0pw80bwrcr9z08aw09bx79d1xgykd46vx6s5ibskmfs99ygvj99s"))))
+            "00260hm786j4xwqaqjclys287523ypzfj7vvd53pi5mlg0jgkiyp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -81734,20 +81734,24 @@
 (define-public emacs-org-special-block-extras
   (package
     (name "emacs-org-special-block-extras")
-    (version "20210909.2032")
+    (version "20220326.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alhassy/org-special-block-extras.git")
                (commit
-                 "1e9731dfd79b0605ee88c8cc891d4b5106c9e0f4")))
+                 "2e397dac372ff75ea6ee6eed9ae3a0540a082af8")))
         (sha256
           (base32
-            "0lp0gn7p5d0fkm3wy27xhj2q6snhl1ssqqhyl52hw06jhifamm8l"))))
+            "0i838ph9p92vfirf6q145m22nydzrans2ss6aj80m4g0b2mprq2z"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-s emacs-dash emacs-lf))
+      (list emacs-s
+            emacs-dash
+            emacs-lf
+            emacs-dad-joke
+            emacs-lolcat))
     (home-page
       "https://alhassy.github.io/org-special-block-extras")
     (synopsis
@@ -83212,17 +83216,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220325.2356")
+    (version "20220326.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "881b1c969fcf3dae5c020ce520e5a16f8f2b6f18")))
+                 "95f11d19446084801706f5fe3fc95c88586bb81d")))
         (sha256
           (base32
-            "06ryshf804m6npygf8546kxg1xsjsl52kgbzr147h2ay5kq90q06"))))
+            "19rwa4c6zp19x334kxhcw2xvkcsm4qb0nkavfs21ks8d2nj547fl"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -85185,17 +85189,17 @@
 (define-public emacs-paimon
   (package
     (name "emacs-paimon")
-    (version "20220325.1032")
+    (version "20220326.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/r0man/paimon.el.git")
                (commit
-                 "8e28efe96a171b04b1fd83f763ca26e939dd44ed")))
+                 "01675ff30ce0f29ad81f9275b4fc0797c0a7073f")))
         (sha256
           (base32
-            "1d3bcy1wb7wsw6qqihwdy835z32pibz9d8ia8xcarzcg5c983is8"))))
+            "0kpn9i8dd1ij5fx8h9ycilfhz9ik2kaw5dq2xn4j5jifqrfbl268"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -105147,7 +105151,7 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220326.943")
+    (version "20220326.1241")
     (source
       (origin
         (method git-fetch)
