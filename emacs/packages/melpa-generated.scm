@@ -9994,17 +9994,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220313.58")
+    (version "20220327.1917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "79e8771c18c76a5bef5fdbf74718527e74b6d702")))
+                 "ee826d70fdd2e8324a4af1a427ea9ce54f5e32e6")))
         (sha256
           (base32
-            "1v5q066xppxf0crzcliqa2mya0x18qjmz5xp0mcr2szi1nps8z7s"))))
+            "05jhjysp1jicw5ps1bihq2gwvgm5xh66ikfglnhkyq9rvp9xslvj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -22152,7 +22152,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220327.845")
+    (version "20220327.1325")
     (source
       (origin
         (method git-fetch)
@@ -25840,17 +25840,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220326.2143")
+    (version "20220327.2058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "5772e043d8459a4166608a54f7277ac0c479ca2c")))
+                 "7a0b93a76d1c53811a1670eb8f8091e3536aa248")))
         (sha256
           (base32
-            "0wq4h92by9lq5y7nba1wf7ymwkw5b013x3r5p01w4qacixxn62z8"))))
+            "0vngji0720ks9rnp2g1gidhnv5gb1pgl32yx016mxh7p96b402cf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -34980,17 +34980,17 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20220309.445")
+    (version "20220327.1825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~technomancy/fennel-mode")
                (commit
-                 "c55eecd7c731a18c40be98684370c4c6903d243d")))
+                 "e3382dcbe1c822d06a57ed1e5637198e74fd2aab")))
         (sha256
           (base32
-            "1cg21a2p9pqx9dif35k0p393ckz8f433qznwxgircajjmz65b7b2"))))
+            "0gif7z08yb03c46zialk3hvndawpzrg2lccv8anwhjjvqmf0h99a"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -71426,17 +71426,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220325.617")
+    (version "20220326.619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "03f7046dff86c5342af778ad3f9850af7e950aed")))
+                 "283819834b1e710b02bd1c2feec1f4d0f00629de")))
         (sha256
           (base32
-            "1ab0s4jqav3l66zzgxpx9gr6p0s3d6rhd98jkh3i3hba7qqsjn7x"))))
+            "10ifiqg4n706vdxigxp74xcd2v85iklh37dmga0i04wdzapxrz3i"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -75892,17 +75892,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220323.2011")
+    (version "20220327.2049")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "c1db2846cf7448307500fec718fab7a02b179c8b")))
+                 "78a4f72e666a67486dd616b89f7318a8ae3c125b")))
         (sha256
           (base32
-            "0kssw66g4hy5xs8map2vn3vygjhawp9jl0wx7nmjaaz8vagv8zca"))))
+            "1f5fhwj9bm3i3rnaig3gp88lg5l0b5yq4anqid6479j7ig3g7w0i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -81316,17 +81316,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220318.2105")
+    (version "20220327.1635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "ec449195438f815698241f0b01a5395221b3306e")))
+                 "23682455b370e79992129885b72b31253c7baca7")))
         (sha256
           (base32
-            "19hf4lp1z14gczs0d39vi8lcl67bbraz2wkimshk8fwhjc14wf4l"))))
+            "17d2id57zy2i6wzpa6vnl2g29n1sqasnhc56540lrmz4ldh3629x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81470,17 +81470,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220319.1902")
+    (version "20220327.1811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "d71675fb479d11da3ae597bb13bc1c96256ff0b0")))
+                 "36152590ad1e8ffea86cb909e5ef818cbdb2a22d")))
         (sha256
           (base32
-            "056gkk7fxla2rm8lzzig1rq8brhznciifdn0pqfxwwyvpa6sy1i5"))))
+            "1n07zfd47m0hkgmv736arj9rsgvvrm6sz3rayzp5vx60i8jlnqp7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -92946,17 +92946,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220315.1118")
+    (version "20220327.1842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "29c6815c585c200eda2541b678e499d06c3e14d2")))
+                 "dbaf4a660809e2dd4f4b8b9ecd2cfa4198fc5afd")))
         (sha256
           (base32
-            "1b146lq5hwr76fl1abg189xsjdvz8ggaas18n8d3yx4zvjskiqs9"))))
+            "1n8zdjgg9m9sa2yfqy2b0b69grmhrzydfdvvvi3f5fk5k60mk5bi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -105174,17 +105174,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220326.1241")
+    (version "20220327.1555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "659d5814c5f9b21b159778ffab30aa9d8fb2cb96")))
+                 "e8b574e370528e281f0465852a4a3964090c903a")))
         (sha256
           (base32
-            "0skvns8x15cffwmv904sfgqz5rh4kv84aflwk547p7j1fcz8pja2"))))
+            "07vr7kpkf0dqb08wg8m6pa2gbg56wjdmdp2mm7im6fw57yl5z4wl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
