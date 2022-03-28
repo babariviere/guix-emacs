@@ -6518,17 +6518,17 @@
 (define-public emacs-bbdb
   (package
     (name "emacs-bbdb")
-    (version "20220327.407")
+    (version "20220327.2341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.nongnu.org/git/bbdb.git")
                (commit
-                 "304415b1afff1ec857049237e4945d01655b5df2")))
+                 "029128c0a7c320e93c3a7526a40135d02a3f3ee4")))
         (sha256
           (base32
-            "0xnmgzsqj4lvsxbmmg74c3izp7y9ya0a7mj6d90n8pg52qxdxcjr"))))
+            "1l3ipcfdrky92i14akmp1r69kqinfyng8rn16zv065rpag0nnbkv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("lisp/*.el*" "doc/*.texi")))
@@ -10324,6 +10324,27 @@
       "Documentation at https://melpa.org/#/catmacs")
     (license #f)))
 
+(define-public emacs-catppuccin-theme
+  (package
+    (name "emacs-catppuccin-theme")
+    (version "20220327.505")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/pspiagicw/catppuccin-emacs.git")
+               (commit
+                 "c5e268c9f9c5ed4523be28a8fcab921e8c108751")))
+        (sha256
+          (base32
+            "04dc2wzb4dbffagjkcka7g9n40pib63lcx76bgqwfy1wvhhx583p"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/catppuccin/emacs")
+    (synopsis "Catppuccin Theme")
+    (description
+      "Documentation at https://melpa.org/#/catppuccin-theme")
+    (license #f)))
+
 (define-public emacs-cbm
   (package
     (name "emacs-cbm")
@@ -13192,17 +13213,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20220318.1429")
+    (version "20220328.108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "3af92f0259378c2b2c31f7f03bd677fa1017b3a3")))
+                 "85ab2080e489b4ca01c787f5a316ade02a4ee877")))
         (sha256
           (base32
-            "03dqnm50v0ga7d0m8j6f5k73p933b4cjn818cn1qfgjlxbawa8ah"))))
+            "0j0ijnzfd7b3a2jqi94zlky8iqv9g7vj9fx5fd4g2k53ilgapmdl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -14032,17 +14053,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220327.40")
+    (version "20220328.155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "390d9af44209e82581bb80b3b3ca04375402d4a6")))
+                 "073aef72ddf93f897a856c246c58dcdfe003674e")))
         (sha256
           (base32
-            "1cyzxfwi6wvqc29jx5zajq8xi4y6xj3dcrgjnijp60a70yygf068"))))
+            "12446114dv6833wka84j49vqx5a6gy9rgbvniyml51xi00zfx44v"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -27172,6 +27193,30 @@
       "Documentation at https://melpa.org/#/elfeed-score")
     (license #f)))
 
+(define-public emacs-elfeed-summary
+  (package
+    (name "emacs-elfeed-summary")
+    (version "20220326.901")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
+               (commit
+                 "6f84e2f7be58ef46d39a4912bd5f89f0da0e7514")))
+        (sha256
+          (base32
+            "0nbnzvf0f81w5sd92mi4amga7hpr1ppvwh20ysb3lb1vnq1qx1nh"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-magit-section emacs-elfeed))
+    (home-page
+      "https://github.com/SqrtMinusOne/elfeed-summary.el")
+    (synopsis "Feed summary interface for elfeed")
+    (description
+      "Documentation at https://melpa.org/#/elfeed-summary")
+    (license #f)))
+
 (define-public emacs-elfeed-web
   (package
     (name "emacs-elfeed-web")
@@ -27996,22 +28041,22 @@
 (define-public emacs-elquery
   (package
     (name "emacs-elquery")
-    (version "20200628.1756")
+    (version "20220328.255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AdamNiederer/elquery.git")
                (commit
-                 "cba7629ad886c4e51d66f8b509aad48bdfe100cc")))
+                 "92ae8d6b907fb03ca1eb5576e002b6fe3373e3f3")))
         (sha256
           (base32
-            "119g9ca40rg0aam7i2n4jhjzjzm8r7bg6q0yjaw5x1j7ywks5af6"))))
+            "1h07yvy12q3f3pmca6c2zqh9dsmdqyfna69favkw386182siw1qg"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s emacs-dash))
+    (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/AdamNiederer/elquery")
-    (synopsis "The HTML library for elisp.")
+    (synopsis "The HTML library for elisp")
     (description
       "Documentation at https://melpa.org/#/elquery")
     (license #f)))
@@ -30885,6 +30930,29 @@
     (synopsis "cd to frequent directory in eshell")
     (description
       "Documentation at https://melpa.org/#/eshell-z")
+    (license #f)))
+
+(define-public emacs-eslint-disable-rule
+  (package
+    (name "emacs-eslint-disable-rule")
+    (version "20220328.354")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/DamienCassou/eslint-disable-rule.git")
+               (commit
+                 "7d4cc05d336fbc465f91a87b38bf360efaf76fcf")))
+        (sha256
+          (base32
+            "08428v3w80v16c8a57gd6abfz2jafvrh0sbscsxm07ykcsp7y2cf"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/DamienCassou/eslint-disable-rule")
+    (synopsis
+      "Commands to add JS comments disabling eslint rules")
+    (description
+      "Documentation at https://melpa.org/#/eslint-disable-rule")
     (license #f)))
 
 (define-public emacs-eslint-fix
@@ -39301,6 +39369,29 @@
       "Documentation at https://melpa.org/#/flymake-grammarly")
     (license #f)))
 
+(define-public emacs-flymake-hadolint
+  (package
+    (name "emacs-flymake-hadolint")
+    (version "20220321.212")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/buzztaiki/flymake-hadolint.git")
+               (commit
+                 "649b77823754b9a17cd2e27da2c426af2c9cf2bd")))
+        (sha256
+          (base32
+            "01j4sqaal32y2fxvk0nbxn75hr9x4kmix9gxajd87a231s6lr77v"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/buzztaiki/flymake-hadolint")
+    (synopsis
+      "Flymake backend for hadolint, a Dockerfile linter")
+    (description
+      "Documentation at https://melpa.org/#/flymake-hadolint")
+    (license #f)))
+
 (define-public emacs-flymake-haml
   (package
     (name "emacs-flymake-haml")
@@ -42198,17 +42289,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220324.51")
+    (version "20220327.2323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "cbfab92584072ba0e1c4119612a8438db61ecbf6")))
+                 "9507e81a075351d090fd1f4f708efd05d6470cba")))
         (sha256
           (base32
-            "1gxa5ba5n7k169klg3zyrl8ywyljmcp006x2fql3s7awz0c98rw0"))))
+            "1qhwnybp947p2h78hw5rxfigm8sws9w3lhdrr8rl5386qj3fxwsq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -44679,6 +44770,28 @@
     (synopsis "Integrate GNU APL with Emacs")
     (description
       "Documentation at https://melpa.org/#/gnu-apl-mode")
+    (license #f)))
+
+(define-public emacs-gnu-indent
+  (package
+    (name "emacs-gnu-indent")
+    (version "20220328.412")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://codeberg.org/akib/emacs-gnu-indent.git")
+               (commit
+                 "892ac23b266022cd98ff82541738cedb7b439118")))
+        (sha256
+          (base32
+            "1qywymfv6bnnwykihfgv472qwdgsylr4r4lybsk90qkc6zbn0ax3"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://codeberg.org/akib/emacs-why-this")
+    (synopsis "Indent your code with GNU Indent")
+    (description
+      "Documentation at https://melpa.org/#/gnu-indent")
     (license #f)))
 
 (define-public emacs-gnuplot
@@ -66932,17 +67045,17 @@
 (define-public emacs-lsp-treemacs
   (package
     (name "emacs-lsp-treemacs")
-    (version "20220102.1517")
+    (version "20220328.625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-treemacs.git")
                (commit
-                 "72d367757a89453a712f6ba1df9b6e789ece2bbd")))
+                 "355e468b7fa9887c616a8bfe873d8e456303b67b")))
         (sha256
           (base32
-            "0jy4zq1b5l6m2nd2zz99m0fy88w570d4n8v84lrkkzllc1n488lk"))))
+            "0a9m0n50j3lkig9zsdach6fwxc0m6z33mb2pwwxyhv1xp3jksv92"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70105,19 +70218,18 @@
 (define-public emacs-metamorph
   (package
     (name "emacs-metamorph")
-    (version "20201025.2357")
+    (version "20220328.129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AdamNiederer/metamorph.git")
                (commit
-                 "ec74c733d78c995af69ed24aa5b8a3d84e0c1b29")))
+                 "3633e32a9601c491df32d6c2212dbe63dc6484f4")))
         (sha256
           (base32
-            "0xkj9m9j2mgd61lxnag1n97zd01dkh9dgwpvinq142v145rd4xvn"))))
+            "1wpibd9ib27xp4693d1hq2qcf0yfcdyrc97i5b7zkc4h6ll3hxyc"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-ov))
     (home-page
       "http://github.com/AdamNiederer/metamorph")
     (synopsis "Transform your buffers with lisp")
@@ -76232,6 +76344,28 @@
       "Documentation at https://melpa.org/#/ob-axiom")
     (license #f)))
 
+(define-public emacs-ob-bitfield
+  (package
+    (name "emacs-ob-bitfield")
+    (version "20220321.832")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/gsingh93/ob-bitfield.git")
+               (commit
+                 "87dc63ec21e83060ead76232ba6514f71b70cb5d")))
+        (sha256
+          (base32
+            "1q09y32jgcgbmwrjb5fg39cwcz6gnb1cqyvq00k07v89226v00wi"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/gsingh93/ob-bitfield")
+    (synopsis "Babel Functions for bitfield")
+    (description
+      "Documentation at https://melpa.org/#/ob-bitfield")
+    (license #f)))
+
 (define-public emacs-ob-blockdiag
   (package
     (name "emacs-ob-blockdiag")
@@ -76530,6 +76664,29 @@
       "org-babel functions for diagrams evaluation")
     (description
       "Documentation at https://melpa.org/#/ob-diagrams")
+    (license #f)))
+
+(define-public emacs-ob-dsq
+  (package
+    (name "emacs-ob-dsq")
+    (version "20220324.2029")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/fritzgrabo/ob-dsq.git")
+               (commit
+                 "55433631458dd57ae890b2665f8f15b2df2f71e8")))
+        (sha256
+          (base32
+            "0zj9scwa00n4f539wmjq47zxnvaq1xn28q6n3jd6hbd8v2qxjypx"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/fritzgrabo/ob-dsq")
+    (synopsis
+      "Babel functions for the `dsq` CLI tool by Multiprocess Labs")
+    (description
+      "Documentation at https://melpa.org/#/ob-dsq")
     (license #f)))
 
 (define-public emacs-ob-elixir
@@ -77537,6 +77694,28 @@
     (synopsis "Navigate and edit text objects.")
     (description
       "Documentation at https://melpa.org/#/objed")
+    (license #f)))
+
+(define-public emacs-oblivion-theme
+  (package
+    (name "emacs-oblivion-theme")
+    (version "20220328.651")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/ideasman42/emacs-oblivion-theme.git")
+               (commit
+                 "4a2dc8127bd5e9589bda59617a3eaf910e397500")))
+        (sha256
+          (base32
+            "151mlbnbgq0xmkzjblw0fb513pc1qc0bpjv38slx3s6lqr834p9b"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/ideasman42/emacs-oblivion-theme")
+    (synopsis "A port of GEdit oblivion theme")
+    (description
+      "Documentation at https://melpa.org/#/oblivion-theme")
     (license #f)))
 
 (define-public emacs-obsidian-theme
@@ -80051,17 +80230,17 @@
 (define-public emacs-org-jira
   (package
     (name "emacs-org-jira")
-    (version "20220225.158")
+    (version "20220328.407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahungry/org-jira.git")
                (commit
-                 "96e92585ed6f510f87363be3cb10d804f67e1b52")))
+                 "069a58244d5211c3ea69c6f4c8be6fa976269d6e")))
         (sha256
           (base32
-            "1n1h3xby4998hdv6j4gllznzbhh4gl2wr9bm4235n859zypq9b4l"))))
+            "12kjn40kdif7x45v71v4h0rm04yl11l875klyjgqlq58583kwzkw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash))
@@ -85815,17 +85994,17 @@
 (define-public emacs-parseclj
   (package
     (name "emacs-parseclj")
-    (version "20220313.1649")
+    (version "20220328.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/parseclj.git")
                (commit
-                 "f32c041f2b301e790429fd16677c8cab11645702")))
+                 "b04eae67384c1d8181edf318fd62d422a8220724")))
         (sha256
           (base32
-            "1i3xrhfhdjadq6qyn492r37ayd88cna1yih87b9n3iky1ziryljj"))))
+            "10vavzmhwh0bh10sp4zkhjp17cxpy8whnaxmk7icc543r7z1vyzd"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Clojure/EDN parser")
@@ -100332,17 +100511,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20211029.150")
+    (version "20220328.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "6112c6a9e13c00c2c7aecd96820a46b4800d4cda")))
+                 "3b3e93f588204923487f8f5e562a068bab78683b")))
         (sha256
           (base32
-            "18c1rbcpxv289fbzl66lvyd41l1jhkia7296sksaqsgv9n79c2w6"))))
+            "1hhs8l732w6jy91xk8q4sfpmm8n6qkiwh3aysnlsbf0mxdpy0kj0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
@@ -105174,17 +105353,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220327.1555")
+    (version "20220328.728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "e8b574e370528e281f0465852a4a3964090c903a")))
+                 "b4c97df76f3cb56dec92678b449e2a1ca3f40289")))
         (sha256
           (base32
-            "07vr7kpkf0dqb08wg8m6pa2gbg56wjdmdp2mm7im6fw57yl5z4wl"))))
+            "1ashragin9dak5813y6bf97wf3dhjj7vhv3qhwsnjm59dmyqzp2w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -108462,6 +108641,29 @@
       "Documentation at https://melpa.org/#/textmate-to-yas")
     (license #f)))
 
+(define-public emacs-textsize
+  (package
+    (name "emacs-textsize")
+    (version "20220323.1330")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/WJCFerguson/textsize.git")
+               (commit
+                 "6d20632d2b3467144babe01e55275b699219f171")))
+        (sha256
+          (base32
+            "11rg08waziii410g9d1lkyhmpnp0dw5r2bsw5l3x80f4n5c1k0a0"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/WJCFerguson/textsize")
+    (synopsis
+      "Configure frame text size automatically")
+    (description
+      "Documentation at https://melpa.org/#/textsize")
+    (license #f)))
+
 (define-public emacs-textx-mode
   (package
     (name "emacs-textx-mode")
@@ -110140,6 +110342,29 @@
       "Documentation at https://melpa.org/#/transient-posframe")
     (license #f)))
 
+(define-public emacs-translate-mode
+  (package
+    (name "emacs-translate-mode")
+    (version "20220328.556")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/rayw000/translate-mode.git")
+               (commit
+                 "a85612c5fd46dca8c8b2df565463aa24a646c339")))
+        (sha256
+          (base32
+            "0x7533sqpc5ikill1l4irdzv2jzfi3i016c867xy5a94klk8c4mm"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/rayw000/translate-mode")
+    (synopsis
+      "Paragraph-oriented side-by-side doc translation workflow")
+    (description
+      "Documentation at https://melpa.org/#/translate-mode")
+    (license #f)))
+
 (define-public emacs-transmission
   (package
     (name "emacs-transmission")
@@ -110405,17 +110630,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20220319.356")
+    (version "20220328.214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "695ab38d8190042f5da8487e9885a804c039193c")))
+                 "f8e4790c5f5a35d189f889ab3f82580e37bf64b4")))
         (sha256
           (base32
-            "1fprqvg7dfhv838pdc8j2v7m4bj2rxpm857ka0ifv9maxj1gb2va"))))
+            "0yd54rahdgrz524w01lnyy22fcg0148zsrakw2izxk5pf61y7kbf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
