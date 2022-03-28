@@ -6279,17 +6279,17 @@
 (define-public emacs-bash-completion
   (package
     (name "emacs-bash-completion")
-    (version "20210821.1941")
+    (version "20220328.844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/szermatt/emacs-bash-completion.git")
                (commit
-                 "c5eaeed156ab906190c662d491269230967104b1")))
+                 "29b5fc860a5b0db9828acfceca09b773fbdb8e8a")))
         (sha256
           (base32
-            "0r221iirqsbz13s76r68i496izbirrvcw8ql3wsh205zmxa3jqg1"))))
+            "1gj62v4j3s21kbm1zapb7scv1zh4q9k1jjpgrr4wy0fqk7gzfprq"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/szermatt/emacs-bash-completion")
@@ -22173,17 +22173,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220327.1325")
+    (version "20220328.522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "1d4f2e2e3b70e1438d31771b9f11f3983aa5054d")))
+                 "3a9825c5cdafce6d214ae97cead0d660fb1c135a")))
         (sha256
           (base32
-            "1h2la5gc4qdizxm2lz0d5cnx1wy6sdgi905mrgkmnx2zxsm3n2q8"))))
+            "1dj57fvsggcfgw2y5kg2nrn899v2cxy7fxca8nb2haw0vsglmg2i"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26410,17 +26410,17 @@
 (define-public emacs-el-secretario-org
   (package
     (name "emacs-el-secretario-org")
-    (version "20211222.1620")
+    (version "20220328.1246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "aaf183877156c69bf5eb02832dc33a1908eb1091")))
+                 "4ad20eae06e20de7134e48bd6598d1d4a419b41f")))
         (sha256
           (base32
-            "0nj4axympsls5hnhkwlm0v2pnbm82yks03ndk5iqyf261x7rbhna"))))
+            "03rizzzpc18805fnmc7if105bcmxw636hlyr9c8q2q2k32xrm515"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-ql
@@ -27196,17 +27196,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20220326.901")
+    (version "20220328.907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "6f84e2f7be58ef46d39a4912bd5f89f0da0e7514")))
+                 "7b58bb1beb49f84c39ece322fbd22f22d7da2a5e")))
         (sha256
           (base32
-            "0nbnzvf0f81w5sd92mi4amga7hpr1ppvwh20ysb3lb1vnq1qx1nh"))))
+            "17xwc8cg2bkrpm2clry0sysfswvcf7lgx5a38w7wzakaimv7hhma"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -36525,17 +36525,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20220314.27")
+    (version "20220328.1518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "278d0810f05eb03600d835c2bdd67d6b55a58034")))
+                 "55f25fd98abc145c0c464756504132c271f0f039")))
         (sha256
           (base32
-            "1c722aapkqbkxqchpchd2id9kz4hv2dckyl851x4na3yd7k0dzky"))))
+            "0z1j5w7kifk130ijgkajbxg7n3kj3znn3rd4kwpxb2njwi5ml18x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -39372,17 +39372,17 @@
 (define-public emacs-flymake-hadolint
   (package
     (name "emacs-flymake-hadolint")
-    (version "20220321.212")
+    (version "20220328.823")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/buzztaiki/flymake-hadolint.git")
                (commit
-                 "649b77823754b9a17cd2e27da2c426af2c9cf2bd")))
+                 "82a6df7f6cc95e1ab95c5d28f2edcd8c1d4c7382")))
         (sha256
           (base32
-            "01j4sqaal32y2fxvk0nbxn75hr9x4kmix9gxajd87a231s6lr77v"))))
+            "07fanb8ifdpwfnf1rr1h4v2dihmdnnxsikb9s9qxmfbpf0rmjnf9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/buzztaiki/flymake-hadolint")
@@ -52403,17 +52403,17 @@
 (define-public emacs-helm-tree-sitter
   (package
     (name "emacs-helm-tree-sitter")
-    (version "20220124.2246")
+    (version "20220328.1345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Giedriusj1/helm-tree-sitter.git")
                (commit
-                 "1cace1f9a8c5c519b985f7ee542ba3375eabd0e1")))
+                 "ef5209bd1deb56d6cab7a26e6d55615161f2115a")))
         (sha256
           (base32
-            "1ka0xq5ghhn4r82k1aq5v4scariwvpwbr7c179j36axxlyvr6zkn"))))
+            "1cmjz8dl8r218r1bx85slzb91xwlrhxq9w73p5ql967wd9dzi60g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm emacs-tree-sitter))
@@ -66744,17 +66744,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220327.1322")
+    (version "20220328.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "3ec5fb1844d08fff6200553eb3c4784918987f3e")))
+                 "1e7128c43f611ed78752130ce5ce67e641a276df")))
         (sha256
           (base32
-            "1gm0mfaiiax9ykik9qffgjl4bm4i4gi86ngknf3rf0xg6hf2zxh9"))))
+            "1bq6amg16968xx8a35229g99rj0js3vrv1gz07f54s9f0bwx5gfy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69856,17 +69856,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220321.2047")
+    (version "20220328.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "979acca991cdada7438f360ef0fec573b20f4f96")))
+                 "6a0e74eb2ef507818291cd53dd5757435d6c79f8")))
         (sha256
           (base32
-            "0m46nil2bbmks6d9zg18246xfwjyghdfsim5fvfhxq39amw5rp9j"))))
+            "19r1dds0pd6f2fzc6yp24vhgz0mgrchvg57jpn4cxk6ckvvy73fy"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -69878,17 +69878,17 @@
 (define-public emacs-merlin
   (package
     (name "emacs-merlin")
-    (version "20220318.2012")
+    (version "20220328.1348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "fb5cfc2a5091ffa77894629538efb0ec953fb6e7")))
+                 "ebd07f4a039a62dcf673d02d20b294bb63fb48b6")))
         (sha256
           (base32
-            "13g281pyfdid3kcd00x04k12f5b4zyx3xk19h636wah9hn27dyjn"))))
+            "1gr08jw25kb052gjsgf4mkbqiflxq5lnapzcspwpij3wna762kb1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -77699,17 +77699,17 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20220328.651")
+    (version "20220328.837")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-oblivion-theme.git")
                (commit
-                 "4a2dc8127bd5e9589bda59617a3eaf910e397500")))
+                 "3a1d67637ea4a6099a62de45842b8c5e4440ede4")))
         (sha256
           (base32
-            "151mlbnbgq0xmkzjblw0fb513pc1qc0bpjv38slx3s6lqr834p9b"))))
+            "07jhb49zwgf0x2drnlxrach95hr0br3r96lwj4magc069almgbki"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-oblivion-theme")
@@ -110345,17 +110345,17 @@
 (define-public emacs-translate-mode
   (package
     (name "emacs-translate-mode")
-    (version "20220328.556")
+    (version "20220328.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rayw000/translate-mode.git")
                (commit
-                 "a85612c5fd46dca8c8b2df565463aa24a646c339")))
+                 "beecbd5e448fbb01a42346a4033729361d5655ff")))
         (sha256
           (base32
-            "0x7533sqpc5ikill1l4irdzv2jzfi3i016c867xy5a94klk8c4mm"))))
+            "15yfsjbbb6qvd53ackh38iqzwmf7fw5z2lpz0x1jiz8kva1lj185"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rayw000/translate-mode")
