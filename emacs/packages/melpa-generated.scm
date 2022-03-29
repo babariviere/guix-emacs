@@ -25861,17 +25861,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220327.2058")
+    (version "20220329.1217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "7a0b93a76d1c53811a1670eb8f8091e3536aa248")))
+                 "83a61f673a0395e9ea3f17f8bf7afd7da37bce03")))
         (sha256
           (base32
-            "0vngji0720ks9rnp2g1gidhnv5gb1pgl32yx016mxh7p96b402cf"))))
+            "04008pn3b2nyc18hh2r1v3zy201x1h8hifdx7l25dchwkmbqiydb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -28041,7 +28041,7 @@
 (define-public emacs-elquery
   (package
     (name "emacs-elquery")
-    (version "20220328.2308")
+    (version "20220329.536")
     (source
       (origin
         (method git-fetch)
@@ -28627,7 +28627,7 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220329.34")
+    (version "20220329.505")
     (source
       (origin
         (method git-fetch)
@@ -67169,17 +67169,17 @@
 (define-public emacs-lux-mode
   (package
     (name "emacs-lux-mode")
-    (version "20220121.913")
+    (version "20220328.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hawk/lux.git")
                (commit
-                 "4304c89b3c9cccb256655b7d1058d7619e926dc7")))
+                 "924dcda3e4212c0b28e8ce140b9d8e9a1117c5ef")))
         (sha256
           (base32
-            "06ls38bmrcfxp34kcv8kvz6r78bxsi3lpjf2fik94hqx3912w0zj"))))
+            "12g98n08gaqicj62ml87yc77j2i6axg2vif40w5pn86rv0nbyb90"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("emacs/lux-mode.el")))
     (home-page "https://github.com/hawk/lux")
@@ -67579,17 +67579,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220328.47")
+    (version "20220329.1156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "7c8254f6db66d6dfbe9ff9732f2c54ad65e9bd49")))
+                 "0154391fa24538347d76bd64d3879fb68237f851")))
         (sha256
           (base32
-            "1m92fwm7w5c7zg2539rl2pjdk0jv8wx1z59v5y1vf7nhmz49fcb0"))))
+            "0p93y252vy84w1h5awhynkx6syggdhyl8kdicahvkyx815apryif"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68052,17 +68052,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220328.47")
+    (version "20220329.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "7c8254f6db66d6dfbe9ff9732f2c54ad65e9bd49")))
+                 "0154391fa24538347d76bd64d3879fb68237f851")))
         (sha256
           (base32
-            "1m92fwm7w5c7zg2539rl2pjdk0jv8wx1z59v5y1vf7nhmz49fcb0"))))
+            "0p93y252vy84w1h5awhynkx6syggdhyl8kdicahvkyx815apryif"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -91101,17 +91101,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220313.1334")
+    (version "20220329.937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "3c07cca10713e8212442143b6999a96ca32b68ac")))
+                 "f3468e8d20b9d3c0da58fe5d779bd2ff35e310a9")))
         (sha256
           (base32
-            "01i0m3vdp119icak56yqqcg5zh4j8pgrcanfz9jrgfnyyffar6f3"))))
+            "0igzji2m5yla47f3wf39ss6mh9ik5rms2hvwql62jpw0nwgjj6p9"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -91491,17 +91491,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20220328.1209")
+    (version "20220329.655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "40c40d229e9db177f2114266ac6246daf6a060bc")))
+                 "e1e29acb04f0707fb2b323727d08f0fe85fc0c02")))
         (sha256
           (base32
-            "1gzqbw81fbl3hypj4x9pg7k2xyml0n3aym2hvgd18633bq544i03"))))
+            "1xazfq92kvnp7z9p0l599swsfi62j4j9ljf8an97lhm3wik0djkk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96522,17 +96522,17 @@
 (define-public emacs-rhq
   (package
     (name "emacs-rhq")
-    (version "20220308.1254")
+    (version "20220329.1027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/rhq.git")
                (commit
-                 "9cd8c2d61c3b8d4c92542a8c7f7493f61a850dc0")))
+                 "46a3108436cc4a2c5343b010f2086088d7b9682b")))
         (sha256
           (base32
-            "0pj9900jmlid6ygwv5r8nnz1j4axcspyk73hl2vi1xvlna93yxdr"))))
+            "1swc4i5fb1b7khwk01n0hyz4k473mxfigihqca1b8xfi8vsa3bvy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ROCKTAKEY/rhq")
     (synopsis "Client for rhq")
@@ -105330,17 +105330,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220328.1812")
+    (version "20220329.945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "f97f8763c126fd0f7182ff67fe5d39ea267757cb")))
+                 "e8a2699914d13228ca24ad81373e93dd796f2c38")))
         (sha256
           (base32
-            "1h4qwk8npj5b63rw59fnhadbqjnylimgnn37lcqb7jr7hzj2ssfc"))))
+            "1kcc18rr1xd2dzdbhrwdb5arhsvs8allrshjwkkyjpzz3gz13f57"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -110204,17 +110204,17 @@
 (define-public emacs-tramp-term
   (package
     (name "emacs-tramp-term")
-    (version "20190628.1207")
+    (version "20220329.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/randymorris/tramp-term.el.git")
+               (url "https://github.com/cuspymd/tramp-term.el.git")
                (commit
-                 "fdc3d5a29ca9549db462cd66d8f5d97026a1200f")))
+                 "2ce4b7c03a04551a119841c4226106358358b4d0")))
         (sha256
           (base32
-            "1xznm3q2d4xffynqb1bkpcif8jr6mpkrir4hc7gmi4q987j2lpdr"))))
+            "0z6y2mgc0bifn0qi20sg8539fqgblj201c257vgrphdyhy2hxmh9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/randymorris/tramp-term.el")
