@@ -28041,17 +28041,17 @@
 (define-public emacs-elquery
   (package
     (name "emacs-elquery")
-    (version "20220328.255")
+    (version "20220328.2308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AdamNiederer/elquery.git")
                (commit
-                 "92ae8d6b907fb03ca1eb5576e002b6fe3373e3f3")))
+                 "0e5f7addacb14502977e93b05786ecec1e108619")))
         (sha256
           (base32
-            "1h07yvy12q3f3pmca6c2zqh9dsmdqyfna69favkw386182siw1qg"))))
+            "0l5hs80ggnrfzl80qynm89jqjc1whmnz12m1zby5m2bpw28jg1js"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -28627,17 +28627,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220326.56")
+    (version "20220329.34")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "b80d96ce0ab79e73829322e46c6d7493eb2b8c34")))
+                 "06d5caafd58db6b6d7fa14cf8b6f7336486b92ca")))
         (sha256
           (base32
-            "1jsynjl0y7w0jqxqlibg8m4rwzv9lxj443m6dlac6zncz8plnizp"))))
+            "08g2zskdgq7p08zyv600vzdkzyva860f2i4mrl6hljkkp66ndcc1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28651,17 +28651,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220321.239")
+    (version "20220329.32")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "3a9e5e1744033511ca32beeea42f228c7948448e")))
+                 "06d5caafd58db6b6d7fa14cf8b6f7336486b92ca")))
         (sha256
           (base32
-            "05liqhaxg7vmc2rk4n5d9lmnv4vw1r7a4ha3ip1xfnk61a5ycib5"))))
+            "08g2zskdgq7p08zyv600vzdkzyva860f2i4mrl6hljkkp66ndcc1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -30730,17 +30730,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20220326.933")
+    (version "20220328.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "9c17e92f0229c9002e071842a88396c3f2439d72")))
+                 "f9490f07a1b8064dd5ea9fb6d84328e0926e6ce4")))
         (sha256
           (base32
-            "08kqqlvia3hzl9yq5yia92a27rk3fsahdizlf7rpywkmj5aix43l"))))
+            "0s8mzmap0zha8kavv6zg8jbgn8v1iicfw62djbl1b01r17fgh5cd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -33370,17 +33370,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220325.1401")
+    (version "20220329.421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "d488792ee1ceadf3ae4a8b7b93ca3a88d36111cc")))
+                 "f9346b6b4a1edff487820c39b771fb941cb88170")))
         (sha256
           (base32
-            "0mwxv0al1i8vplsh2bl8y5vl9zga6zlz6f8mjbbm6gvcnzpbz5ff"))))
+            "04n0laygh31pmsl2qm2xm856zrbj5j6nn0dgcani5n4vrcrpgykq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -53891,17 +53891,17 @@
 (define-public emacs-hl-todo
   (package
     (name "emacs-hl-todo")
-    (version "20220323.1714")
+    (version "20220326.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/hl-todo.git")
                (commit
-                 "c0f0555a6b9f3818f29e6394db0b45d6d5675edf")))
+                 "8046bebb977ddf81d311c4ca38f40c815ab7755b")))
         (sha256
           (base32
-            "15sndz0dd8aasg23yp298rlrw17pn73irzn048fmvri8wl8951hv"))))
+            "0qlbnwg26cnz5lwir43ggjf84z2mph9gr0qi6prrdmxfs1wprzjv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/hl-todo")
     (synopsis "highlight TODO and similar keywords")
@@ -61884,21 +61884,20 @@
 (define-public emacs-keycast
   (package
     (name "emacs-keycast")
-    (version "20220211.2035")
+    (version "20220328.2315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/keycast.git")
                (commit
-                 "a94f9839addabc2d491ee5c8927453ae2c5ce0fb")))
+                 "56887cfea8323a8ce2effebba8b37477049eae80")))
         (sha256
           (base32
-            "0yxi1s4czkxhzl6dp3b9iaqds35gjccqgrghvfmqyyvmzi0lzss4"))))
+            "0k5f9r7dncvhs1583jk7bijaviply5sr8hi40b8p88f4kradlsw7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/keycast")
-    (synopsis
-      "Show current command and its key in the mode line")
+    (synopsis "Show current command and its binding")
     (description
       "Documentation at https://melpa.org/#/keycast")
     (license #f)))
@@ -70837,17 +70836,17 @@
 (define-public emacs-minions
   (package
     (name "emacs-minions")
-    (version "20211110.142")
+    (version "20220328.2319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/minions.git")
                (commit
-                 "fca3ba548dccc6e553affca8068c9aecb6a9a789")))
+                 "76916b6961708782b7b0f64c4d0236e51dafd589")))
         (sha256
           (base32
-            "1bzxxs8mxaihpjkbxgynhsi39lbbnij28grdc3sk9sq09j9752vw"))))
+            "1fxmf7gfj7vzwswybsx8hj9kzxzv7l80411zi98qdc36xc8qgjvr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/minions")
     (synopsis "A minor-mode menu for the mode line")
@@ -71516,17 +71515,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220328.1840")
+    (version "20220329.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "d7c7574269d335fb45d520047c4f2cdb91f82b1a")))
+                 "d33ae51f89b8b0775ab22f2bd16eb2ff8359d9b0")))
         (sha256
           (base32
-            "1i3qfr5y9wf2c77g4dci9yyc009mhdlpjg1dn31s1q2prmmscs0b"))))
+            "1sq6fmiavwxjf0ny46ryv58235wkbmrcy8w26f5n9jl0ysr1nr9k"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -72041,17 +72040,17 @@
 (define-public emacs-morlock
   (package
     (name "emacs-morlock")
-    (version "20220223.1454")
+    (version "20220326.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/morlock.git")
                (commit
-                 "ca6d72900392f1940914ee38ac3ebbce89f11373")))
+                 "4294915a21ff5df6c1265457a64170ac90621c3d")))
         (sha256
           (base32
-            "1bb1z1ycbafzyd3rq7mdr9akjcyfyvx3p0l68akkach1yj4gk137"))))
+            "08yiirafzfsj2l8np1fm585sz15xy4113zn6gsmkj4miffx7p82r"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/morlock")
     (synopsis "more font-lock keywords for elisp")
