@@ -6518,17 +6518,17 @@
 (define-public emacs-bbdb
   (package
     (name "emacs-bbdb")
-    (version "20220327.2341")
+    (version "20220328.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.nongnu.org/git/bbdb.git")
                (commit
-                 "029128c0a7c320e93c3a7526a40135d02a3f3ee4")))
+                 "a50c89a6f01be757335e64df322837300c4ced04")))
         (sha256
           (base32
-            "1l3ipcfdrky92i14akmp1r69kqinfyng8rn16zv065rpag0nnbkv"))))
+            "1ymcrpf97prhxdbv4x8nzyb6yn9b1k69xq51l35vmjdvhhdcfhz2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("lisp/*.el*" "doc/*.texi")))
@@ -11920,17 +11920,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220324.1539")
+    (version "20220328.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "e97e33128051b5311d640492a3dfaf8dd7cdfcfd")))
+                 "ee98b94f7f80ae3c11b901ff1bc6212f9e5701a5")))
         (sha256
           (base32
-            "0yyb3gq140cl4dxlaagm8rwxf4cvv51g20sv5d3xfkhbkymbqjf6"))))
+            "0rza06qybq8wfsf2hn6vcvrqnv0dyl7kbfd9kdjh880y4djwllh6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -29635,28 +29635,6 @@
       "Documentation at https://melpa.org/#/epresent")
     (license #f)))
 
-(define-public emacs-eprime-mode
-  (package
-    (name "emacs-eprime-mode")
-    (version "20140513.1816")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/VioletHynes/eprime-mode.git")
-               (commit
-                 "17a481af26496be91c07139a9bfc05cfe722506f")))
-        (sha256
-          (base32
-            "1wwg46xdb488wxvglwvsy08vznrnmdmmbcvm9vb60dy3gqjmz7cw"))))
-    (build-system melpa-build-system)
-    (home-page
-      "https://github.com/AndrewHynes/eprime-mode")
-    (synopsis "An E-prime checking mode for Emacs")
-    (description
-      "Documentation at https://melpa.org/#/eprime-mode")
-    (license #f)))
-
 (define-public emacs-eproject
   (package
     (name "emacs-eproject")
@@ -43410,17 +43388,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20220222.1036")
+    (version "20220328.47")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "3525928602a3b68855fa239cadbc7d31c67fd50e")))
+                 "7c8254f6db66d6dfbe9ff9732f2c54ad65e9bd49")))
         (sha256
           (base32
-            "1i7zj8f95asrs5vyjfcp884mycckbisbaixxvka0wsdwnd3mh8wc"))))
+            "1m92fwm7w5c7zg2539rl2pjdk0jv8wx1z59v5y1vf7nhmz49fcb0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient emacs-with-editor))
@@ -48019,17 +47997,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20220324.1803")
+    (version "20220328.1617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "b1505b727b1fb8ae352e59dc90ec6dd05369ce32")))
+                 "15c5eb0acafefd90935aced615c3ff68a441e903")))
         (sha256
           (base32
-            "1a2znlg42jg5v2ml1n6a5chrh4365kppfrrd2y6f8rk4x6jwr6mx"))))
+            "0idn9hhzzmmlwcka3rjsqk82kwnsnkd39nrkcbwagppzd597xcif"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -63341,17 +63319,17 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20220321.638")
+    (version "20220328.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-language-id.git")
                (commit
-                 "46a44793a2ac73c7b70f8b4c11818423aa1582e3")))
+                 "698a6011e76bde459a6228c7549e73a1816c91be")))
         (sha256
           (base32
-            "0i3qww2lc7kcvw27iwwvi871k81s8jc2rbfbpcnrsy3cnrxx7smd"))))
+            "0rp0plh19w5vpnql162pnfv8g9byl3hgjcihq2vc623ifjh706r7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-language-id")
@@ -67602,17 +67580,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220326.2159")
+    (version "20220328.47")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "29f5be3576ce031f90eb9637dd3bd8ec627d53f4")))
+                 "7c8254f6db66d6dfbe9ff9732f2c54ad65e9bd49")))
         (sha256
           (base32
-            "00260hm786j4xwqaqjclys287523ypzfj7vvd53pi5mlg0jgkiyp"))))
+            "1m92fwm7w5c7zg2539rl2pjdk0jv8wx1z59v5y1vf7nhmz49fcb0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68075,17 +68053,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220326.2202")
+    (version "20220328.47")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "29f5be3576ce031f90eb9637dd3bd8ec627d53f4")))
+                 "7c8254f6db66d6dfbe9ff9732f2c54ad65e9bd49")))
         (sha256
           (base32
-            "00260hm786j4xwqaqjclys287523ypzfj7vvd53pi5mlg0jgkiyp"))))
+            "1m92fwm7w5c7zg2539rl2pjdk0jv8wx1z59v5y1vf7nhmz49fcb0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -71538,17 +71516,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220326.619")
+    (version "20220328.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "283819834b1e710b02bd1c2feec1f4d0f00629de")))
+                 "d7c7574269d335fb45d520047c4f2cdb91f82b1a")))
         (sha256
           (base32
-            "10ifiqg4n706vdxigxp74xcd2v85iklh37dmga0i04wdzapxrz3i"))))
+            "1i3qfr5y9wf2c77g4dci9yyc009mhdlpjg1dn31s1q2prmmscs0b"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -73112,17 +73090,17 @@
 (define-public emacs-multiple-cursors
   (package
     (name "emacs-multiple-cursors")
-    (version "20211112.2223")
+    (version "20220328.1724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/multiple-cursors.el.git")
                (commit
-                 "8a60fc7ef0ae6e5ca089a7c95264cd0ae83e7274")))
+                 "aae47aebc0ae829211fa1e923232715d8e327b36")))
         (sha256
           (base32
-            "14yayh8hmv00f27kgz5y57z035ccv94cmsgqpyl15p1vnwiq2if3"))))
+            "1rpimqf8srlvilnqi02lr7my9ccxc89gc14pzs6jdffc60gb4659"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/magnars/multiple-cursors.el")
@@ -78939,17 +78917,17 @@
 (define-public emacs-org-arbeitszeit
   (package
     (name "emacs-org-arbeitszeit")
-    (version "20220127.754")
+    (version "20220328.1951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bkaestner/org-arbeitszeit.git")
                (commit
-                 "5b307ebc0db0d58ed6b94d4db30f2653b5782e41")))
+                 "60e6adfe457bcc4ee47e3e5805b6b40544f98ee0")))
         (sha256
           (base32
-            "0dcawxni158af3jdhr22zkh39b39qvzsdk6kc5l8vjwjd37r1kks"))))
+            "0m93d60bybw2sjw75h65y76r9aspdfpv846pwm6xvjph9v614dgy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bkaestner/org-arbeitszeit")
@@ -91514,17 +91492,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20220310.2253")
+    (version "20220328.1209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "f34a4938399e6b863f14315ba5eeefb5ce047c50")))
+                 "40c40d229e9db177f2114266ac6246daf6a060bc")))
         (sha256
           (base32
-            "1cgnjpxjrdwf1sk8a7b76gsdvlsl8p0cwb4yhizvafm5p4276v5s"))))
+            "1gzqbw81fbl3hypj4x9pg7k2xyml0n3aym2hvgd18633bq544i03"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -105353,17 +105331,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220328.728")
+    (version "20220328.1812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "b4c97df76f3cb56dec92678b449e2a1ca3f40289")))
+                 "f97f8763c126fd0f7182ff67fe5d39ea267757cb")))
         (sha256
           (base32
-            "1ashragin9dak5813y6bf97wf3dhjj7vhv3qhwsnjm59dmyqzp2w"))))
+            "1h4qwk8npj5b63rw59fnhadbqjnylimgnn37lcqb7jr7hzj2ssfc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -110630,17 +110608,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20220328.214")
+    (version "20220328.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "f8e4790c5f5a35d189f889ab3f82580e37bf64b4")))
+                 "0dd5e56e2f5646aa51ed0fc9eb869a8f7090228a")))
         (sha256
           (base32
-            "0yd54rahdgrz524w01lnyy22fcg0148zsrakw2izxk5pf61y7kbf"))))
+            "0jyzpiyl3b88vwfzkda7ak77kl0b2nybvsz0j9cndl3pf95d62g0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
