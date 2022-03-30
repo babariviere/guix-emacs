@@ -10327,17 +10327,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20220327.505")
+    (version "20220330.1021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pspiagicw/catppuccin-emacs.git")
                (commit
-                 "c5e268c9f9c5ed4523be28a8fcab921e8c108751")))
+                 "352ebf62099e95cb4a71060a7d4a228f00358b97")))
         (sha256
           (base32
-            "04dc2wzb4dbffagjkcka7g9n40pib63lcx76bgqwfy1wvhhx583p"))))
+            "01qh2q0vlgpni66mks4xzvdzm22yq314n5n4jx20bdknbhlvb8rq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis "Catppuccin Theme")
@@ -16128,17 +16128,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220319.2221")
+    (version "20220330.1009")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "397a2da402868c68a95775e26828d000dbcff739")))
+                 "473e6585c516d0e7fd4c256c333713fb40e9947a")))
         (sha256
           (base32
-            "1kl02l28kwssf60r1cyly79cqjnsj0y21qd0278ykfwlz463nf29"))))
+            "140w52wvgwnni5pljxxd9sbc1kf8v9d8jiwg5s5vr2yvgklf64mk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -27196,17 +27196,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20220328.907")
+    (version "20220330.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "7b58bb1beb49f84c39ece322fbd22f22d7da2a5e")))
+                 "2f351bed59e251b53b884f8c59f828a352d56269")))
         (sha256
           (base32
-            "17xwc8cg2bkrpm2clry0sysfswvcf7lgx5a38w7wzakaimv7hhma"))))
+            "16ibv7kga87378n8j0xpb3wpjh884m5ay5nr6w3n0x54dgrds7y8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -41784,17 +41784,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20220211.1009")
+    (version "20220330.711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "03c6ab09c8a580aaaab89709edcd999e66fca0e7")))
+                 "6a91ae15df19468ced98b669f20a3d172cce7505")))
         (sha256
           (base32
-            "12rf82ijlisvksq6jvkzgd73y3vgiwmprxfjssjzz8p5myp0m42i"))))
+            "12ahm9dzg44m9jy86lp0bx30wd4p185v2i13c8kp4m6dz5r8qm1i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -48313,17 +48313,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220319.1850")
+    (version "20220330.1322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "5e035c9193bf1e1d4bb709794a154957544dcfc7")))
+                 "5b173130116324b13c97a662b251753e58c5dc34")))
         (sha256
           (base32
-            "1my6c87ia7h99dbbbw1yxcmgacwss1j36rf3swn3k2ab6k34hsf4"))))
+            "0jxz6ndzzkqbc1mvxqj8l0sxszmfc0nr978k9v6jxl3p1nczp6vx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49121,17 +49121,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220319.1850")
+    (version "20220330.644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "5e035c9193bf1e1d4bb709794a154957544dcfc7")))
+                 "5b173130116324b13c97a662b251753e58c5dc34")))
         (sha256
           (base32
-            "1my6c87ia7h99dbbbw1yxcmgacwss1j36rf3swn3k2ab6k34hsf4"))))
+            "0jxz6ndzzkqbc1mvxqj8l0sxszmfc0nr978k9v6jxl3p1nczp6vx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -110203,22 +110203,22 @@
 (define-public emacs-tramp-term
   (package
     (name "emacs-tramp-term")
-    (version "20220329.1324")
+    (version "20220330.1341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cuspymd/tramp-term.el.git")
                (commit
-                 "2ce4b7c03a04551a119841c4226106358358b4d0")))
+                 "1e9cdd404f816f8dd3692c12192ca5ef4d62324b")))
         (sha256
           (base32
-            "0z6y2mgc0bifn0qi20sg8539fqgblj201c257vgrphdyhy2hxmh9"))))
+            "0cj96jmw088xrqflg6fcypijpk9ly65zsjmj4fif6bfs1scg5pr8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/randymorris/tramp-term.el")
     (synopsis
-      "Automatic setup of directory tracking in ssh sessions.")
+      "Automatic setup of directory tracking in ssh sessions")
     (description
       "Documentation at https://melpa.org/#/tramp-term")
     (license #f)))
