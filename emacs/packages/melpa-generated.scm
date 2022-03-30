@@ -9300,17 +9300,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20220321.1903")
+    (version "20220329.2043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "c365dae776f823aa7489bcf0f750ca748fefdb28")))
+                 "f5cbf97e1086441b2d6fa3ea240758b932c7c5e1")))
         (sha256
           (base32
-            "1p7c6p33nk23jywwd9b7c7062chr8x0bjffgall9rxsyqczdqzxx"))))
+            "187jhcjx0p9vp8zhs22nnxsxz7pik151ksdcilcny9q2s5rmhrm8"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -35026,17 +35026,17 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20220327.1825")
+    (version "20220329.116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~technomancy/fennel-mode")
                (commit
-                 "e3382dcbe1c822d06a57ed1e5637198e74fd2aab")))
+                 "50ef3c6246f36085cd908cf5432133cadb792304")))
         (sha256
           (base32
-            "0gif7z08yb03c46zialk3hvndawpzrg2lccv8anwhjjvqmf0h99a"))))
+            "0rk5x4ipam32aizdjinhbmb0cjg7wakdh78fnm60jc7a07175ip3"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -40808,17 +40808,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220326.908")
+    (version "20220329.2038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "2aaf4462e868acf6eca95e5ca2c3693c3f059c2b")))
+                 "c04d4968e12604e0e6b66603b4e33206af6cbea2")))
         (sha256
           (base32
-            "16d3zcjwxhy18jhgcznwx643v9fc93yxb6fxgkasrzb0dlxrhhwq"))))
+            "12rfgq08rr86jrw85s2gw235hyshxwxfgc09vlp2l59lcigmww6q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -43039,25 +43039,24 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20220325.1028")
+    (version "20220329.2141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "fdf2e5bb9ba34216d6a76444c1889863db447b29")))
+                 "80f5008b8c6b48dee2b77fbffe380653d2d7720d")))
         (sha256
           (base32
-            "03c1934gck19gmhmy1cv3m2fma7f9pxi9l7p1pcz7iy1x6cyi6bm"))))
+            "0qapxmid7gw9ycx08c8mbnpna0dd6q4981334i4nm68fkz7sfmqs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treepy))
     (arguments
       '(#:files
         ("lisp/*.el" "docs/ghub.texi" "*.el" "*.texi")))
     (home-page "https://github.com/magit/ghub")
-    (synopsis
-      "Minuscule client libraries for Git forge APIs.")
+    (synopsis "Client libraries for Git forge APIs.")
     (description
       "Documentation at https://melpa.org/#/ghub")
     (license #f)))
@@ -67557,17 +67556,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20220311.1219")
+    (version "20220329.1721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "86f1ca9f0f45e61a1ac7b96c809a85defc4ca665")))
+                 "61b2935152b3c2f9511bcd399c55c4aa252fa233")))
         (sha256
           (base32
-            "0scg4n7p9k7kj18w2v73f3w5f6xwf7fpjvf0sa253jwpdk6ln5b8"))))
+            "1pf6f7x09gmv2f1sxa618r5y04xs0k0ivpppfsyyfs4qyyl14gr5"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -72040,17 +72039,17 @@
 (define-public emacs-morlock
   (package
     (name "emacs-morlock")
-    (version "20220326.1539")
+    (version "20220329.1833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/morlock.git")
                (commit
-                 "4294915a21ff5df6c1265457a64170ac90621c3d")))
+                 "6683502bdb4ad0a1c37862df10b3ebfeb8ac6391")))
         (sha256
           (base32
-            "08yiirafzfsj2l8np1fm585sz15xy4113zn6gsmkj4miffx7p82r"))))
+            "16bnxp066ll5rd1f2vasrdc0zhvvpf001ssn3zrdnn12g778v555"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/morlock")
     (synopsis "more font-lock keywords for elisp")
