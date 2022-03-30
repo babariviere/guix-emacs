@@ -44752,20 +44752,20 @@
 (define-public emacs-gnu-indent
   (package
     (name "emacs-gnu-indent")
-    (version "20220328.412")
+    (version "20220330.422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-gnu-indent.git")
                (commit
-                 "892ac23b266022cd98ff82541738cedb7b439118")))
+                 "cd5dc79ac65c24e9e775bd2582ad620e316f2182")))
         (sha256
           (base32
-            "1qywymfv6bnnwykihfgv472qwdgsylr4r4lybsk90qkc6zbn0ax3"))))
+            "07ccrjlh5ph8sdsrd7k5ihrjl4qgsjf9qr54y90fq5b9hzy9ksgp"))))
     (build-system melpa-build-system)
     (home-page
-      "https://codeberg.org/akib/emacs-why-this")
+      "https://codeberg.org/akib/emacs-gnu-indent")
     (synopsis "Indent your code with GNU Indent")
     (description
       "Documentation at https://melpa.org/#/gnu-indent")
@@ -66246,17 +66246,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20220209.320")
+    (version "20220330.127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "e3933cccbce289eef2591cd0bbd42de55a56cba7")))
+                 "cd49433244ef450a1dd10a65a7839076d61bdcf1")))
         (sha256
           (base32
-            "14wd16dkqcn8ip6ijhzchdm9i6i205lgin66g7amrqs26vx6wqw6"))))
+            "0mdr09vqy4xrqb2l4g3j8n99zvqajw1jxxvvm9zv03zkwvcink1c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "loopy-dash.el"))))
@@ -66269,17 +66269,17 @@
 (define-public emacs-loopy-dash
   (package
     (name "emacs-loopy-dash")
-    (version "20211020.157")
+    (version "20220330.127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "6a078102467527aff5bf7d6341cc279b53657984")))
+                 "cd49433244ef450a1dd10a65a7839076d61bdcf1")))
         (sha256
           (base32
-            "0ksdgml2nz0jmrkjv939mm7kk8b0xf6d2b2h53y0crlxhi4s8823"))))
+            "0mdr09vqy4xrqb2l4g3j8n99zvqajw1jxxvvm9zv03zkwvcink1c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-loopy emacs-dash))
     (arguments '(#:files ("loopy-dash.el")))
@@ -67578,17 +67578,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220329.1156")
+    (version "20220330.159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "0154391fa24538347d76bd64d3879fb68237f851")))
+                 "d1ad778280f651f0ab87ce191784b96b3ebe312a")))
         (sha256
           (base32
-            "0p93y252vy84w1h5awhynkx6syggdhyl8kdicahvkyx815apryif"))))
+            "0x09i80rrf2gji0igqvjirgdmpxfzfcaynfydbhdzrf56a6syzn5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -78116,17 +78116,17 @@
 (define-public emacs-olivetti
   (package
     (name "emacs-olivetti")
-    (version "20211030.838")
+    (version "20220330.635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/olivetti.git")
                (commit
-                 "a31ac05a161a91fe5c157930b62a6c07037982ee")))
+                 "8d287a80c5e3d72ac01b56c8afe60b01f18500b4")))
         (sha256
           (base32
-            "0wc0rki4zvzdxs126g5c8d92h1vfn9slfkdx831rr9d0jx93wc7s"))))
+            "0axgfpnwsi2wfr8nrzmfqkmj7y31h28sadl4yqv58m849x90gdra"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rnkn/olivetti")
     (synopsis
@@ -84195,17 +84195,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220322.137")
+    (version "20220330.56")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "d04f41af6d128ccb9421c9bcd83b5fb12d14f440")))
+                 "65e349b306b7fa27285f4c663e44bb36f6c8e653")))
         (sha256
           (base32
-            "0qqaqykcm3pzc8a3ap4jnspn2p1034f6qhv6xyf43iqy8nhvrl03"))))
+            "02a9wnpbm01k8gf68qcfgpkxhx8qyla3grd1nwx1ihc44x0psny0"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -90452,17 +90452,17 @@
 (define-public emacs-prettier-rc
   (package
     (name "emacs-prettier-rc")
-    (version "20220321.1516")
+    (version "20220330.145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jjuliano/prettier-rc-emacs.git")
                (commit
-                 "f2aa1a7469d62a11479a3abb826c8fb96dd00082")))
+                 "99e40a9783299e41911f6b37156626d53e43809e")))
         (sha256
           (base32
-            "1rlfh2c680nl2bbv82mp4y6k6cp7qwp2axi0v998zb62ymw6p1bv"))))
+            "0qbjrrmkm1qnmmki80didis903dmc60aacxh773xlvglyxlvgyxn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prettier-js))
     (home-page
@@ -110321,17 +110321,17 @@
 (define-public emacs-translate-mode
   (package
     (name "emacs-translate-mode")
-    (version "20220328.1100")
+    (version "20220330.339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rayw000/translate-mode.git")
                (commit
-                 "beecbd5e448fbb01a42346a4033729361d5655ff")))
+                 "f313293bf6d0780bd8438d0d44cedfcf0dc45cba")))
         (sha256
           (base32
-            "15yfsjbbb6qvd53ackh38iqzwmf7fw5z2lpz0x1jiz8kva1lj185"))))
+            "1kp2fl12b4xjvnm0g52bvkxcs9cmlw94zjs687inb1i8g3pfdrjd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rayw000/translate-mode")
