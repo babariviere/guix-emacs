@@ -8182,17 +8182,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220216.1925")
+    (version "20220330.1945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "ee4491481955eb49de07693b58e00a5ff5908d0b")))
+                 "820e5262314036b35a7a5225a763ffc370c9a93a")))
         (sha256
           (base32
-            "1p13q43l9da48vpwgjwirwvwqwlmksgvq4w6n77sy6akx2xywgzv"))))
+            "191r6l08wx6kxdxdhlbggz9zjn4qwzr542pz83sk8gsf6v216c3v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments
@@ -17424,17 +17424,17 @@
 (define-public emacs-cov
   (package
     (name "emacs-cov")
-    (version "20211203.416")
+    (version "20220330.2204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AdamNiederer/cov.git")
                (commit
-                 "6c951cca9867e26df316ca5dc313ceabd22070a5")))
+                 "bf3dd5a27b1d9c809fe4e4a3e4e6f69368e15b03")))
         (sha256
           (base32
-            "16xf7hfyq39wc363g6lqmdcl0vidk4i9wycdws17954w9gzhahq6"))))
+            "0d232jhcvm6fdy07kx1i7gr6j3mr2aq4w5pkf27gmapddy9gy1zw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-s emacs-elquery))
@@ -66688,17 +66688,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20220314.1111")
+    (version "20220330.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "b7fe3ade85d020560947f1a4f4913130c9dd1809")))
+                 "b7f77de69431786c54e9a57845e4f2d75fbee053")))
         (sha256
           (base32
-            "0dq18p5bqqyf36mqck0iprydjm77y29k8n2d25xz26i64s3pkykq"))))
+            "02bp1j7k5hmp3rmlswhn3plr7f8vl10bqgb68safl88hmqlvvgxd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
@@ -69854,17 +69854,17 @@
 (define-public emacs-merlin
   (package
     (name "emacs-merlin")
-    (version "20220328.1348")
+    (version "20220330.1751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "ebd07f4a039a62dcf673d02d20b294bb63fb48b6")))
+                 "5d59c7065938ea9c9b52f368b97a50bc8bf6d65b")))
         (sha256
           (base32
-            "1gr08jw25kb052gjsgf4mkbqiflxq5lnapzcspwpij3wna762kb1"))))
+            "1lwv8gj7hfcdnr0pqfw0yxbh9v0kxvkpbcbc5hw24268rgy33kpf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -69956,17 +69956,17 @@
 (define-public emacs-merlin-iedit
   (package
     (name "emacs-merlin-iedit")
-    (version "20210615.1208")
+    (version "20220330.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "ab77e5bdc6bad11f94e7f04fbba21e9c489c76d4")))
+                 "5d59c7065938ea9c9b52f368b97a50bc8bf6d65b")))
         (sha256
           (base32
-            "0y0mjx8w21nc4v5f5vym7cgwjwai10ab5j80wlq4vjiyhmcaw89z"))))
+            "1lwv8gj7hfcdnr0pqfw0yxbh9v0kxvkpbcbc5hw24268rgy33kpf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-merlin emacs-iedit))
@@ -83394,17 +83394,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220326.1929")
+    (version "20220330.2019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "95f11d19446084801706f5fe3fc95c88586bb81d")))
+                 "a0191917fa672636da916fb2ba119ad6cdf77e11")))
         (sha256
           (base32
-            "19rwa4c6zp19x334kxhcw2xvkcsm4qb0nkavfs21ks8d2nj547fl"))))
+            "0qwzvna7n2a5zxbczgpyzbhi90433f1hgzp2x88sw241c916f057"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -93795,17 +93795,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220325.1342")
+    (version "20220330.1931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "c1774ad168bd0857cf695ad39ae4d61cd668f6d9")))
+                 "b3edf04740f6edfc872b1ba61b13a58a03d983c0")))
         (sha256
           (base32
-            "1rksxymhadsj6zikhbn68j9iq0b01m9ajdddkk4kbaczh35vwyx5"))))
+            "1n8j0d35hdqh3fjnqqkg8cvq6b8phs5lmixyl2acjlcraz8y33qf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -98965,17 +98965,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20220311.2122")
+    (version "20220330.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/t-e-r-m/sculpture-themes.git")
                (commit
-                 "407cbed4145af8feb5232b1161a5f79b6a9878fb")))
+                 "d4f311fbe0d5ac6b6622afd0d84cf976e0a96153")))
         (sha256
           (base32
-            "0x15fwrc53z1g517jrqyjdd8diil8sjdp9qhbhnbm2nsp97f07yk"))))
+            "0pdnp9ysqh8xfdr4vnhsdx30bgl42n368sk0gkwb2al5p2i68zf1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
