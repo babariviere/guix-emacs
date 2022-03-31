@@ -24913,17 +24913,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220314.2256")
+    (version "20220331.616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "600b5e3d3dd98ba4017ad257470424b4507b4e59")))
+                 "87d8f7d6e34d2ecc04118806a48d7fd9a53a4aad")))
         (sha256
           (base32
-            "0mybyw2hh104z53lnp2pvcm9sg01wdad0hqyxl6msrq12n8pkr4x"))))
+            "1znvr9152i8q26bsvwh8navb10bj0qrpsif530ksfd52rid4qjig"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -28041,17 +28041,17 @@
 (define-public emacs-elquery
   (package
     (name "emacs-elquery")
-    (version "20220329.536")
+    (version "20220331.143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AdamNiederer/elquery.git")
                (commit
-                 "0e5f7addacb14502977e93b05786ecec1e108619")))
+                 "38f3bd41096cb270919b06095da0b9ac1add4598")))
         (sha256
           (base32
-            "0l5hs80ggnrfzl80qynm89jqjc1whmnz12m1zby5m2bpw28jg1js"))))
+            "169i8nd0iwapn2r9grni40qcgzkwsa7267c2z1cdwmwlb5whqs34"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -71514,17 +71514,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220329.442")
+    (version "20220331.540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "d33ae51f89b8b0775ab22f2bd16eb2ff8359d9b0")))
+                 "b834e5f298f66ba87c89d32b5fb20f2832362ec6")))
         (sha256
           (base32
-            "1sq6fmiavwxjf0ny46ryv58235wkbmrcy8w26f5n9jl0ysr1nr9k"))))
+            "0jvs3xh4f31fklp2az8ycsd2wwjqry7wb3k5cns5ll8v2icrv9sz"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -109836,17 +109836,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220323.2050")
+    (version "20220331.339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "1daae45343622c65fdfc9abe456020fd17e9168d")))
+                 "d4615f82f8721910a1c53dfe73ca35f7a7116ddb")))
         (sha256
           (base32
-            "1gwv7r6xaxkpnd7nyyj1v6xh4pd8lrnh3crlbf2d1sz49c5rf1zd"))))
+            "1k02p5ql5bvp9lp75d4w9i5yra3plcf95z7rcbwa10mjgp2fq23q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
@@ -113020,17 +113020,17 @@
 (define-public emacs-uwu-theme
   (package
     (name "emacs-uwu-theme")
-    (version "20220324.1828")
+    (version "20220330.2359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kborling/uwu-theme.git")
                (commit
-                 "04fb60d75295a057dcc4d050217122215e6765d6")))
+                 "9151d2547e52245eaea6fe73b047a8ff32184553")))
         (sha256
           (base32
-            "1yw9sg3s7yw9pnjffbk7d982v0d5ms19i8g7zy532xppxg4bldrf"))))
+            "1nkj52wpifnmh0gc468fz4r9vwni7dyiwfh8injbc9459w376xry"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kborling/uwu-theme")
