@@ -19443,17 +19443,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220326.725")
+    (version "20220401.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "1d3fce6e8e8605f770f2b23184b055029128c477")))
+                 "99f6504850f47fc8b0cfbef5f0721a6442719f2a")))
         (sha256
           (base32
-            "0kylaqz16xmc22xainarnwn31rlanw3ycapdxga0hgyg972p1z45"))))
+            "0h71mazamcfyfzf9n34faxq3y5b3q7q61i5x7rcpwh3ma47iz3zy"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -41201,17 +41201,17 @@
 (define-public emacs-frameshot
   (package
     (name "emacs-frameshot")
-    (version "20210819.2123")
+    (version "20220401.1041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/frameshot.git")
                (commit
-                 "029df561ef6572b1ab034490ac48d909d037ac1d")))
+                 "183bfa2b091e7aa86fd8b52f0f6255bca43f45c7")))
         (sha256
           (base32
-            "1b6frjhv4gkix0yj6ibvjgaf4y2b94xq0x4y021v086sp5ifsh3g"))))
+            "0cmwg8fwwjq2c2qqq96qchqjqhqqfsn2pmqfd5x2j99rm37sspsh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tarsius/frameshot")
@@ -56220,17 +56220,17 @@
 (define-public emacs-imake
   (package
     (name "emacs-imake")
-    (version "20210918.2046")
+    (version "20220401.1051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/imake.git")
                (commit
-                 "e69a09e7962afe81474aa6c88974a1e6add15624")))
+                 "2541fb021dec9eaa3083aca4c8ce30b67a50d6b9")))
         (sha256
           (base32
-            "0953irnlzx0nl4iirpgf7llyld2n8yl1w9yjkh0lvlz1l9gcpvqy"))))
+            "0k89lbq9dfi3vx7kmf8z3an0x278806skr5s86y54c2l0190giz3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/imake")
     (synopsis
@@ -62745,17 +62745,17 @@
 (define-public emacs-kubedoc
   (package
     (name "emacs-kubedoc")
-    (version "20220331.815")
+    (version "20220401.1113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/r0bobo/kubedoc.el.git")
                (commit
-                 "a0d3d51f2f96210470fb8b2b03ae29e2aee5c15f")))
+                 "f8503f121e38f0ff9343544a5c912e50b25efd4c")))
         (sha256
           (base32
-            "13qszn34cgmbnk7i05byw7mq52izqq6q8q4zyj70l697xb1g3qcy"))))
+            "0j4w8dqbcmdy571xn870jib92fmsl6sj71pm1mi39bgh28yfqbvg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/r0bobo/kubedoc.el/")
@@ -66749,17 +66749,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220328.1429")
+    (version "20220401.1003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "1e7128c43f611ed78752130ce5ce67e641a276df")))
+                 "017529b420d6382990885d8e2bc88720795090a7")))
         (sha256
           (base32
-            "1bq6amg16968xx8a35229g99rj0js3vrv1gz07f54s9f0bwx5gfy"))))
+            "0m4r43a6kim5qq65h5rq0f2s7x28dha5wkilhnmq4lrivx3ajarm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71382,17 +71382,17 @@
 (define-public emacs-mode-line-debug
   (package
     (name "emacs-mode-line-debug")
-    (version "20210525.2014")
+    (version "20220401.1056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/mode-line-debug.git")
                (commit
-                 "41184eb66a3205abcc32a885780004207df86dbd")))
+                 "fca0c5c2c1b14251effaeaecd159f3c119ef7ac9")))
         (sha256
           (base32
-            "0qnrvddbka8klmihfaydpkwrigrjmbabxnm0vkybdqwzx619hwyi"))))
+            "1ra17h1l2n1ingq02j0fkm5hpsk26v42809dz80grl468x9rspvm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tarsius/mode-line-debug")
@@ -71543,17 +71543,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220401.658")
+    (version "20220401.933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "6e1b4f665111acc15711a9bfb3f4bc7a61d3f354")))
+                 "f9b2c8b677d343dc2d8da7a1154033f5c304c73a")))
         (sha256
           (base32
-            "0lcdcsxc2pcf0gqgxgikz9kszvnyq78k5h6xnn2si0p2siwmgi4q"))))
+            "10p53z64hc11whdfpv2qwd0as48sh3qi8y9icf6961399dbyspy4"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -76258,17 +76258,17 @@
 (define-public emacs-ob-ada-spark
   (package
     (name "emacs-ob-ada-spark")
-    (version "20220322.1810")
+    (version "20220401.926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rocher/ob-ada-spark.git")
                (commit
-                 "6ca4c19ecb890f44f1f269738d35bd8e3b79f76a")))
+                 "1213b877bc893ac5990a20052ea2bf2d8f086260")))
         (sha256
           (base32
-            "1zr26l00cb08irwgf7n6h4skm1zizl8m3sr8a0l77ifp0wbw8aqn"))))
+            "18v4psk9ilvbnsbdksarix7zak7pbyxbn0rfy3kv9r2p0nrw9brj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -82256,17 +82256,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220315.1159")
+    (version "20220401.929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "aad66c775e3010f7af2ebd3e0914aa6a57127f1b")))
+                 "70c0a5b49712cc612ff367a6616630cef926ac3d")))
         (sha256
           (base32
-            "01y53nh9z7y77gns28dg5s2sr672i3sb39vpflx7mhfcijkribzj"))))
+            "1i3gn85ks97h2wwnjzqbs3bw05bhcjabirdyva8waw6pv91wf9jj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -83423,17 +83423,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220401.236")
+    (version "20220401.1016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "1264c3e1dc514567a5093b46fa5b4a7abdf74dec")))
+                 "d40ef3f4fea0724993db6a8f0a7a502a6333f598")))
         (sha256
           (base32
-            "0fjxx8bly20gmncnmg7ksfd36yxxanabfjn8my6rm1f9w78i60m7"))))
+            "0gdiw6mbyy347z7zbwb49b74csx716x385r3v994ajcjw30iiiy3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -85229,17 +85229,17 @@
 (define-public emacs-packed
   (package
     (name "emacs-packed")
-    (version "20211021.1753")
+    (version "20220401.1116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/packed.git")
                (commit
-                 "51f22a68e23b87626d162c58a0afbc21ad22f210")))
+                 "b372a15f80bf97ef1f8e7f2c647a3b58fd52d61d")))
         (sha256
           (base32
-            "1gpv2vaci0m48fzn0sy7iwl1mnkkqc30bf05jjrqlpn9kpbjyf1p"))))
+            "02rnqpmdxfs4xz6ssl2rbmcn3y5iw6kabcfq424s8bx4ii0gkxd1"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("packed.el")))
     (home-page
