@@ -5964,17 +5964,17 @@
 (define-public emacs-backline
   (package
     (name "emacs-backline")
-    (version "20200104.1851")
+    (version "20220331.2327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/backline.git")
                (commit
-                 "dc541a6daf82ab73774904ae9ccecd13e3c2af48")))
+                 "16ea9779bccdcbc6d7dbe05f83f774f130fe354d")))
         (sha256
           (base32
-            "0410p7144k2kh1bz050h45zrfd98j10sbx409la5x01l9xrmb03y"))))
+            "18z0c1yk7qv1whakq6xrhzda6q4m7bjmmv5hsszkyv8w7w9a3d0d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-outline-minor-faces))
@@ -8091,17 +8091,17 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20220212.156")
+    (version "20220401.348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-bookmark-in-project.git")
                (commit
-                 "70ae40b4c4cdf44999ee4c738f5a4ae34a2d8421")))
+                 "e95aa25b933e705e87b7a9328e89c8cf0898c201")))
         (sha256
           (base32
-            "1hidzm6yv5fqx93shfxx70xsjbyzkia00ylxd06jniqpydl3fydh"))))
+            "14vradzbh7rd11427q3kzbwsq3kmy6m8by2bd74bwpkyaw5x44ci"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-bookmark-in-project")
@@ -11456,17 +11456,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220326.1439")
+    (version "20220401.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "3f52469f31f0bc23dd63d0b3c29bc2040dfcd98a")))
+                 "25dd20f170085a913203b524365123c5089e7e2b")))
         (sha256
           (base32
-            "1mjvn02dwhnwq6x1llnlpxzvpfkl753mbs68dahd520fvyjglnrq"))))
+            "1m1fpi3dvwvml35yc9wwwy91kj15l0jhjnwlyr36mb5lk8q195bl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11512,17 +11512,17 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20220326.1439")
+    (version "20220401.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "3f52469f31f0bc23dd63d0b3c29bc2040dfcd98a")))
+                 "25dd20f170085a913203b524365123c5089e7e2b")))
         (sha256
           (base32
-            "1mjvn02dwhnwq6x1llnlpxzvpfkl753mbs68dahd520fvyjglnrq"))))
+            "1m1fpi3dvwvml35yc9wwwy91kj15l0jhjnwlyr36mb5lk8q195bl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chronometrist))
     (arguments
@@ -71449,17 +71449,17 @@
 (define-public emacs-modern-fringes
   (package
     (name "emacs-modern-fringes")
-    (version "20200321.1817")
+    (version "20220401.202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpecialBomb/emacs-modern-fringes.git")
                (commit
-                 "108daba8407dc8acf140157e7f49137c397a0af7")))
+                 "98473694a33922cfdddb18b4791028e4854b53b5")))
         (sha256
           (base32
-            "15370yw3147fzx8ly1svk7xvm0l9fg2gbzd8sx9ls93nyml7c5k7"))))
+            "0j1lyzia3i37q6b35pd06j5bkz2yji0f0r6xcgg79177zyyqj0lp"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/specialbomb/emacs-modern-fringes")
@@ -71543,17 +71543,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220331.1952")
+    (version "20220401.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "7aec1013f43de28e7ad82d45c1611dca666765a1")))
+                 "6e1b4f665111acc15711a9bfb3f4bc7a61d3f354")))
         (sha256
           (base32
-            "1vvch2j18j6vv112sjkqfshmwapnybzy274wk1lp2i1avklf5011"))))
+            "0lcdcsxc2pcf0gqgxgikz9kszvnyq78k5h6xnn2si0p2siwmgi4q"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -76352,17 +76352,17 @@
 (define-public emacs-ob-bitfield
   (package
     (name "emacs-ob-bitfield")
-    (version "20220321.832")
+    (version "20220401.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gsingh93/ob-bitfield.git")
                (commit
-                 "87dc63ec21e83060ead76232ba6514f71b70cb5d")))
+                 "28e01448ee66b8b6858294cad1b7dae0b9a85e6a")))
         (sha256
           (base32
-            "1q09y32jgcgbmwrjb5fg39cwcz6gnb1cqyvq00k07v89226v00wi"))))
+            "16j2f54ys401q8h4hj4qvd0z7fqwk2lnfi8995sgvs00xnx2wdzk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gsingh93/ob-bitfield")
@@ -83423,17 +83423,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220330.2019")
+    (version "20220401.236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "a0191917fa672636da916fb2ba119ad6cdf77e11")))
+                 "1264c3e1dc514567a5093b46fa5b4a7abdf74dec")))
         (sha256
           (base32
-            "0qwzvna7n2a5zxbczgpyzbhi90433f1hgzp2x88sw241c916f057"))))
+            "0fjxx8bly20gmncnmg7ksfd36yxxanabfjn8my6rm1f9w78i60m7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -97163,17 +97163,17 @@
 (define-public emacs-rspec-mode
   (package
     (name "emacs-rspec-mode")
-    (version "20220203.211")
+    (version "20220401.306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pezra/rspec-mode.git")
                (commit
-                 "4215ff1f2d1cee24a144ff08297276dc7b971c25")))
+                 "a54ac64097b6ccc6acc52a8b077ceb63766fc4d1")))
         (sha256
           (base32
-            "11bada87rji78pw0d3l9g70vz2i1cvdlwxl4ixxcyc6whlfbff3f"))))
+            "0s512jgd62rh0x5x24jzkmnw7hs6m1s1bcys41hr1vv27i0j2zvh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("rspec-mode.el" "snippets")))
@@ -110279,17 +110279,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220325.1619")
+    (version "20220331.2312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "270eff1c7cc910dfe9882e97df608627028eaa40")))
+                 "d02458186344ee6eddc718740d0b225f8fb1ca6b")))
         (sha256
           (base32
-            "197j1jih73vjd3awycbiyfkj1fxmizaqs8h3id0kd1gyyjq4anck"))))
+            "03pli7wxqcb3id4fgg45k1pmlnna22im9jz5qnd0if0zmk0rlnsl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -110350,17 +110350,17 @@
 (define-public emacs-translate-mode
   (package
     (name "emacs-translate-mode")
-    (version "20220331.907")
+    (version "20220401.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rayw000/translate-mode.git")
                (commit
-                 "592e6dce5fac9c988aff11a7bd10bab9690abb89")))
+                 "3bee9802524ea704e3c4dee9648b094caa4ebf68")))
         (sha256
           (base32
-            "19d46cla4i8wjqw3wh8xwv2fcg02lbm1id9fxlardzwbclb2nldk"))))
+            "056wqkczklhjyr3rjvx4dy813qj4x1fwfhy7k4fmkay8wyhphl43"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rayw000/translate-mode")
