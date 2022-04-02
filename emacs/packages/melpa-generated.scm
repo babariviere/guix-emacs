@@ -9994,17 +9994,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220327.1917")
+    (version "20220401.2339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "ee826d70fdd2e8324a4af1a427ea9ce54f5e32e6")))
+                 "fbf3f275ad789cdfacc09bf8a6841ec49d0120fa")))
         (sha256
           (base32
-            "05jhjysp1jicw5ps1bihq2gwvgm5xh66ikfglnhkyq9rvp9xslvj"))))
+            "1v2vr5dwzfbwlb26j5ymjfgzs0xrj9k61z946wj9migvnwq7y28m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -43614,17 +43614,17 @@
 (define-public emacs-git-identity
   (package
     (name "emacs-git-identity")
-    (version "20210905.1208")
+    (version "20220402.708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/git-identity.el.git")
                (commit
-                 "e2620767694d8cd2860b632c47fbe92e20a9ef14")))
+                 "e7da2b3e3a5a790311431e3263b00df41d335136")))
         (sha256
           (base32
-            "1wyfszd9jzg6c7lbl2rw7xpbr6fr4rj70h0jyqnwz081j9w92bb1"))))
+            "0mm5fbp9x1far97bk7n2y5hmcjbmd3iss9wx7iqh1852b4k4087x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-hydra emacs-f))
@@ -47902,17 +47902,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220301.607")
+    (version "20220402.446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "e6de0c3754e04e04ba43c7ccac7e1e8182e68f8e")))
+                 "a23571eaab94fb2da0569ed5ab3c1b469f123b97")))
         (sha256
           (base32
-            "1bxwc1qxb8wbj1fin92xigags1zr2bn09p7ss59dx8k1745cfi4w"))))
+            "0xl7lfj9cc9qp72ibjyilrdxrknvfd07fk206c8933yngrkqf376"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-hydra))
     (home-page
@@ -48118,17 +48118,17 @@
 (define-public emacs-hass
   (package
     (name "emacs-hass")
-    (version "20220401.2158")
+    (version "20220402.144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purplg/hass.git")
                (commit
-                 "9f317cefafb329ac30cfbf14f8e3dc16632397b0")))
+                 "44bb81d9d1b5263d6fbcd52c708bc81dcca935bb")))
         (sha256
           (base32
-            "0sfhgls8q54spcw0ff614c56mz3dmxw4qyglcvrgl9w1a99sh13j"))))
+            "1y8slg6430qg5g7aykdyx77qkpfhwknddlaxwrn36bq4z43m9ysg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page "https://github.com/purplg/hass")
@@ -49722,17 +49722,17 @@
 (define-public emacs-helm-flx
   (package
     (name "emacs-helm-flx")
-    (version "20180103.516")
+    (version "20220402.21")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/PythonNut/helm-flx.git")
                (commit
-                 "6640fac5cb16bee73c95b8ed1248a4e5e113690e")))
+                 "27dd9e3ce385a3ca15092150e65781de14b5b00b")))
         (sha256
           (base32
-            "1fh1dy6xpc476hs87mn9fwxhxi97h7clfnnm7dxb7hg43xmgsjjs"))))
+            "1ipg6sfwnv9ilhy3qy84ml3awf74gm18vjmkw42adcsvyg54w843"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm emacs-flx))
     (home-page
@@ -83423,17 +83423,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220401.1318")
+    (version "20220402.241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "d40ef3f4fea0724993db6a8f0a7a502a6333f598")))
+                 "277de5f785c0300f54a7ba27c585fa1d79d00d6f")))
         (sha256
           (base32
-            "0gdiw6mbyy347z7zbwb49b74csx716x385r3v994ajcjw30iiiy3"))))
+            "1vv86mri4vxmpzdvmnlv0zlibgan3lvag284f6v1s0ld7lc88grb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
