@@ -11456,17 +11456,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220401.632")
+    (version "20220401.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "25dd20f170085a913203b524365123c5089e7e2b")))
+                 "059579e841148362d5081a43dcb27c8a3c7751ea")))
         (sha256
           (base32
-            "1m1fpi3dvwvml35yc9wwwy91kj15l0jhjnwlyr36mb5lk8q195bl"))))
+            "1jrq5rjw8q88vcd82f2z5qfgzj2agb4ywsyflaj04k3fwxqgnwnf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11512,17 +11512,17 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20220401.632")
+    (version "20220401.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "25dd20f170085a913203b524365123c5089e7e2b")))
+                 "059579e841148362d5081a43dcb27c8a3c7751ea")))
         (sha256
           (base32
-            "1m1fpi3dvwvml35yc9wwwy91kj15l0jhjnwlyr36mb5lk8q195bl"))))
+            "1jrq5rjw8q88vcd82f2z5qfgzj2agb4ywsyflaj04k3fwxqgnwnf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chronometrist))
     (arguments
@@ -20499,17 +20499,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220326.943")
+    (version "20220401.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "be6cdf690a49d5bb39da7ea29c10cec660f7c60a")))
+                 "beaf3584e18e9359181b9a9cdc57cfce0d7724e7")))
         (sha256
           (base32
-            "0wq220bv7k2aqqsfc83akg6ygrwshn5haaqibpzgr05n8w4264v6"))))
+            "1m9alj6bqh518d972wdsfmnsi2ah6pfhb2y11q4g3sn88gsk08wr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -34538,17 +34538,17 @@
 (define-public emacs-faff-theme
   (package
     (name "emacs-faff-theme")
-    (version "20220318.2213")
+    (version "20220401.1750")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
                (commit
-                 "c58c162a2d1284033497feff4bfa8c3210685d9d")))
+                 "fffae9ada9057e81812f90edbd589f4a4f346768")))
         (sha256
           (base32
-            "0v5xn0zpc2khy97pbhvhja724hfc9y3rm9fmqf0xzpm6czbgi4xr"))))
+            "1rcjawwjk0jkihv26wrhhp0ncnj9qq1q16gkb9c8ys1qvaqyaiah"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/WJCFerguson/emacs-faff-theme")
@@ -48118,17 +48118,17 @@
 (define-public emacs-hass
   (package
     (name "emacs-hass")
-    (version "20211222.2321")
+    (version "20220401.2158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purplg/hass.git")
                (commit
-                 "884ac7221df1106bda7363ecddbad4183dd5bce6")))
+                 "9f317cefafb329ac30cfbf14f8e3dc16632397b0")))
         (sha256
           (base32
-            "020x3a47dqmh19d12lgq2fkc48509jkhf3bzh5q4h8dn73y6g2pn"))))
+            "0sfhgls8q54spcw0ff614c56mz3dmxw4qyglcvrgl9w1a99sh13j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page "https://github.com/purplg/hass")
@@ -61162,17 +61162,17 @@
 (define-public emacs-just-mode
   (package
     (name "emacs-just-mode")
-    (version "20210818.1526")
+    (version "20220401.1814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leon-barrett/just-mode.el.git")
                (commit
-                 "8cf9e686c8c7bb725c724b5220a4a3ed17d005d0")))
+                 "35f1bd4748cd3e960e6930b34310e5506212b304")))
         (sha256
           (base32
-            "0i280w7nv6zdzpwsyc9njlz5n75awqgpmmh3wklzrfh7mh1vzp89"))))
+            "19piyjnkvy8g87s7gyn07wh67kdygxksv3k7xiq49wb3rpqdrr0g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/leon-barrett/just-mode.el")
@@ -83423,7 +83423,7 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220401.1016")
+    (version "20220401.1318")
     (source
       (origin
         (method git-fetch)
@@ -118656,17 +118656,17 @@
 (define-public emacs-yasnippet-snippets
   (package
     (name "emacs-yasnippet-snippets")
-    (version "20220221.1234")
+    (version "20220401.1534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AndreaCrotti/yasnippet-snippets.git")
                (commit
-                 "b7c09f1ad7e1a62da6f6042bfaa2b26d111c7e81")))
+                 "c5bf4c4085aa61b9c07563de89f7aacc2a357db5")))
         (sha256
           (base32
-            "0r4rjsgd13n8k0ijypwh3ky0dzzmz0p08lfaalpbqk3w555mkzyf"))))
+            "12kvg1nl93893pwhhx49a78camb8m8yzrgn6wg7kh9y50bqmh9ma"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (arguments
