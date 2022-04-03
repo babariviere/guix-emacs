@@ -2419,17 +2419,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220402.1049")
+    (version "20220402.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "a251939db4a4ab28ac296bde716fce46baa20b7d")))
+                 "a24563706de279d75aa43edd466dda6ae6dac23e")))
         (sha256
           (base32
-            "1p6kzyxfh79qrwgzh2g39v05p2zbadhksbhnsp6b6k8v7pbh9fx6"))))
+            "0w9djmhr0v62xs0y71l7gxga5vb1f1ljjbxclp7z1q65iwhh0yqa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -24913,17 +24913,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220331.616")
+    (version "20220402.1952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "87d8f7d6e34d2ecc04118806a48d7fd9a53a4aad")))
+                 "a03b2ee3c775f9cf0348330ea2c327fe7abb8d91")))
         (sha256
           (base32
-            "1znvr9152i8q26bsvwh8navb10bj0qrpsif530ksfd52rid4qjig"))))
+            "0nd3lpk2qgglll7xgxxhv6m5y458zqrvvxi1qgh2mp0h124nzgl5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -30759,17 +30759,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20220328.2206")
+    (version "20220402.1721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "f9490f07a1b8064dd5ea9fb6d84328e0926e6ce4")))
+                 "53fc69b8712b9869cee49468a6e418d64d2c3ab9")))
         (sha256
           (base32
-            "0s8mzmap0zha8kavv6zg8jbgn8v1iicfw62djbl1b01r17fgh5cd"))))
+            "16ma3z7sxj95p3jfaszdvaj45rjkmb806mlm2vv5pgcbzqjfhrp6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -37900,17 +37900,17 @@
 (define-public emacs-flycheck-languagetool
   (package
     (name "emacs-flycheck-languagetool")
-    (version "20220228.737")
+    (version "20220402.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flycheck-languagetool.git")
                (commit
-                 "6d55bfbffa574ed7574f11fcb802f290eca93810")))
+                 "d80889477c7752b7bab5c2a88d7c7929188b8454")))
         (sha256
           (base32
-            "0mmdpz1aicckk69z6yry7mssdkk369vp1p9qm0a7q1qq7yxqvrh0"))))
+            "16p7jvmqcwaq45nsp0a6fz2dg3qgv2fmk91l9dkk0lpbpkcimznp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -40962,17 +40962,17 @@
 (define-public emacs-forth-mode
   (package
     (name "emacs-forth-mode")
-    (version "20210829.1824")
+    (version "20220402.2103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/larsbrinkhoff/forth-mode.git")
                (commit
-                 "38d5152011ee67e0cff9d4a5ddfb1f908e5be013")))
+                 "122a9916c1ad1f1e3f4888951e1ad92a2fc10804")))
         (sha256
           (base32
-            "09irbi8z1p2006abl4fnkyfj3c16nzzf55wqighlc2ri2v8bbisb"))))
+            "1fb99l3kmxhhd9dyl99wy48b0r7zz5279nf4iargv7641xwkksy8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -41929,17 +41929,17 @@
 (define-public emacs-fwb-cmds
   (package
     (name "emacs-fwb-cmds")
-    (version "20220402.1110")
+    (version "20220402.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/fwb-cmds.git")
                (commit
-                 "8da9e4f192010244a506093380cca2990bed2682")))
+                 "254dfda0a9f0e03b8b865089343845d3da2c8743")))
         (sha256
           (base32
-            "1jz1zhixrs3mzpn7lm4jcxqyj6i4hniiq6f7mrkd97ihpn6nr4m6"))))
+            "1x50s5mvxlbcaqrx3bf3kjvb5xgc2rsk3i0ify9l8y2rpc8lbh92"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/fwb-cmds")
     (synopsis
@@ -60415,17 +60415,17 @@
 (define-public emacs-js2-mode
   (package
     (name "emacs-js2-mode")
-    (version "20220316.1506")
+    (version "20220402.2211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooz/js2-mode.git")
                (commit
-                 "d3144b54666bf466f4c46982c557efb95048baa7")))
+                 "fed41615b26404e0bfd7e4f64643981ca798a34b")))
         (sha256
           (base32
-            "1dslg083jpc9fc61k0dmkwdb6hq2b6glppc177s5km0x8bhdaph2"))))
+            "007b4z3qpdy6apljb48aay9v1pf6pkrq0prhwhdqcqkq9rbghg7m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mooz/js2-mode/")
     (synopsis "Improved JavaScript editing mode")
@@ -71928,17 +71928,17 @@
 (define-public emacs-moody
   (package
     (name "emacs-moody")
-    (version "20220331.2311")
+    (version "20220402.1624")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/moody.git")
                (commit
-                 "67372e9a03d5683d5e165c9d469bc12df591d86d")))
+                 "9c81859e522717f9a5c2b3ae88cf673a02bffc23")))
         (sha256
           (base32
-            "0h6i8h49y8fkyhfqvl81a3z0m8qkxirvnqpjfmhad9j3g1p3yr4x"))))
+            "0h2v7rsjgms71pljc8lqis3bxkjln3gs8jja8bk5ndy9d4d986jz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/moody")
     (synopsis "Tabs and ribbons for the mode line")
@@ -75566,17 +75566,17 @@
 (define-public emacs-notmuch-addr
   (package
     (name "emacs-notmuch-addr")
-    (version "20210615.1512")
+    (version "20220402.1624")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~tarsius/notmuch-addr")
                (commit
-                 "c447ddb94b3c2a473ec1762fc083794acd6057f0")))
+                 "4fc0621106bf5d3ef66152456a22403bccdf0a4d")))
         (sha256
           (base32
-            "0x6vvi3j27xi2gkgd9mf7mfprmymdhc4zvna9gn71padpaqf9v50"))))
+            "0318zjp7nv02pyycllpf6zbi6ccf7yf6n0466qk3hmsb1jd2vxjl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-notmuch))
     (home-page
@@ -75660,17 +75660,17 @@
 (define-public emacs-notmuch-transient
   (package
     (name "emacs-notmuch-transient")
-    (version "20210703.2133")
+    (version "20220402.1625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~tarsius/notmuch-transient")
                (commit
-                 "d43ac12e397e1f014deef6c76aaf9b187b17ba5b")))
+                 "d8994bd33d50cc70e0c0bb04588ab384f5104185")))
         (sha256
           (base32
-            "1hv3p124wg8lc9jzb8llp47q9x3c9bwy7k6zvsncb1p513n7z8di"))))
+            "14z6lmgq3l6q2csswk6x95h8dr2kdvm2ifzfv6n4fqyl39za8hjz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-notmuch))
     (home-page
@@ -78057,17 +78057,17 @@
 (define-public emacs-ol-notmuch
   (package
     (name "emacs-ol-notmuch")
-    (version "20210530.2054")
+    (version "20220402.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~tarsius/ol-notmuch")
                (commit
-                 "126fb446d8fa9e54cf21103afaf506fd81273c02")))
+                 "48a7245f560f2da61bfdb374d0059bea81639ddf")))
         (sha256
           (base32
-            "1pkb333m1rryhxf26p8661y7w9fnsaarn0qkzys1pyfj09q9rsmj"))))
+            "17zb3hn8343mlpszdxf47kskd08lisw4ggw999m62ybji88yfxib"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-notmuch))
     (home-page
@@ -83053,17 +83053,17 @@
 (define-public emacs-orgit
   (package
     (name "emacs-orgit")
-    (version "20220211.25")
+    (version "20220402.1629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/orgit.git")
                (commit
-                 "42b7f682b3e4e487ff209a44221a729921241133")))
+                 "bc4168ecd241a8e2b4b30af51f671b53fe3187be")))
         (sha256
           (base32
-            "0vns8fbavfgyazlhbvwgc17w3v5iaf7ng92na2sl4lvc33rk941j"))))
+            "16fyp8vd9d0c97s0vp7n8qg34dh38g5z2h4llvdrs3y51s2v5zyd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page "https://github.com/magit/orgit")
@@ -83076,17 +83076,17 @@
 (define-public emacs-orgit-forge
   (package
     (name "emacs-orgit-forge")
-    (version "20220211.26")
+    (version "20220402.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/orgit-forge.git")
                (commit
-                 "36e57a0359992e02312f453b8086512e77beb150")))
+                 "a2e547d152e154eda48675f172b7d78c7307315a")))
         (sha256
           (base32
-            "0mrq7mrgvj5r0bmxa4365xycfwp6m42mdqi5l5pljr5xz6k3rnc4"))))
+            "0a76b4x6wl2dr9cpmv6a25prh6ip5k3h7k1sld501212qyay2khs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-forge emacs-magit emacs-orgit))
@@ -83100,17 +83100,17 @@
 (define-public emacs-orglink
   (package
     (name "emacs-orglink")
-    (version "20220101.1045")
+    (version "20220402.1637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/orglink.git")
                (commit
-                 "d0210403b62eaf5c68f04a313f509589f253bc12")))
+                 "bb4b19f48134f43410cd9762a086da59fa338e98")))
         (sha256
           (base32
-            "1619ly90vh2lla5rbw87a4n0rfal3wpbf7005jjiyv2ay88nc7l9"))))
+            "0r930pzfks9b0whbmawmgx4s6vxk8hfsz9k19lddn6rxb64c9db0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/orglink")
     (synopsis "use Org Mode links in other modes")
@@ -83723,17 +83723,17 @@
 (define-public emacs-outline-minor-faces
   (package
     (name "emacs-outline-minor-faces")
-    (version "20210530.1259")
+    (version "20220402.1637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/outline-minor-faces.git")
                (commit
-                 "942bd43ea7099984e9ebccf48db70af345d4b6bf")))
+                 "d9b220eaa7e845a02fd17779f3f1820527a6ef50")))
         (sha256
           (base32
-            "0xnzwb1ybhq38qgd3ml18565bbagfx6yzcfndc5d4ll7bzij6jbh"))))
+            "071lhipssh79kzy2lm7j2phmmsfp745yl2n95h7w5c7i9kxvc2zh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tarsius/outline-minor-faces")
@@ -85229,17 +85229,17 @@
 (define-public emacs-packed
   (package
     (name "emacs-packed")
-    (version "20220401.1116")
+    (version "20220402.1638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/packed.git")
                (commit
-                 "b372a15f80bf97ef1f8e7f2c647a3b58fd52d61d")))
+                 "1e2d1a96a2105fec7c1e95d3484790da45fbdf36")))
         (sha256
           (base32
-            "02rnqpmdxfs4xz6ssl2rbmcn3y5iw6kabcfq424s8bx4ii0gkxd1"))))
+            "0ph97hkbvv1hdf6g7mjxgqahj1z8zwhiha1kjw2dj0g0ymwh6iwm"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("packed.el")))
     (home-page
@@ -85818,17 +85818,17 @@
 (define-public emacs-paren-face
   (package
     (name "emacs-paren-face")
-    (version "20220129.2216")
+    (version "20220402.1639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/paren-face.git")
                (commit
-                 "4f6ad761a7d508bb6b3e6539559929d2706caa10")))
+                 "1e66895083bd9e6d918450b1cd8be61a19bfc67f")))
         (sha256
           (base32
-            "13d8psgd2j3vqmgwwf62gwyq7h6qlj8rrs31fxwjqmzzdblwqy1y"))))
+            "0aqs201b30i6zlk4v90m03g99hzbiyw9b6c4wd31z51x5h9prvxa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tarsius/paren-face")
@@ -106423,7 +106423,7 @@
 (define-public emacs-swift-helpful
   (package
     (name "emacs-swift-helpful")
-    (version "20220402.1042")
+    (version "20220402.1433")
     (source
       (origin
         (method git-fetch)
@@ -110508,17 +110508,17 @@
 (define-public emacs-tray
   (package
     (name "emacs-tray")
-    (version "20210214.1119")
+    (version "20220402.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~tarsius/tray")
                (commit
-                 "e2b169daae9d1d6f7e9fc32365247027fb4e87ba")))
+                 "5bd96ecb464844749712e5fa786e2e5258b1885d")))
         (sha256
           (base32
-            "1wrip00q6lbpllhaz0c7llnm774dq2mizr39ynfssvsdci38z1lm"))))
+            "1g8nh86afj75na9bzlam28ng0nafvwc2alxpwx6snc9xm8px0cl4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (home-page "https://git.sr.ht/~tarsius/tray")
@@ -116756,17 +116756,17 @@
 (define-public emacs-with-editor
   (package
     (name "emacs-with-editor")
-    (version "20220318.1640")
+    (version "20220402.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "495a545178bc43adf96dc0dd7dd0546e56127d7c")))
+                 "7381fa1ebf9295f2cd6af1f3f25e4adaccbff0bd")))
         (sha256
           (base32
-            "0dcqim83x73m0gag3gca7cdqn6vjq2gfdvyhlmfvzg2n4153wr0i"))))
+            "1mn5hsg5v8applrgrgyihvywmcrbszqlxqag6385pjnlv7d21s3f"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
