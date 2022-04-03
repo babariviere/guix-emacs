@@ -7626,19 +7626,18 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20220302.1936")
+    (version "20220403.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "0dc1328b8640207ac75a009c690d392f63c44f4d")))
+                 "680a2792a60e35b11c3d8fe7b9db50d4fc5256a2")))
         (sha256
           (base32
-            "1sdgbwv3iiwcw5af7hdk04ab841nl8y8xm854b9qdh9n0micwx3a"))))
+            "1jwp6l538vm6sjq0qyfh2nb2l3lq4dhlxjh8zqqrwcjy74kxrwmj"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-a))
     (home-page
       "https://github.com/artawower/blamer.el")
     (synopsis
@@ -82732,17 +82731,17 @@
 (define-public emacs-org-wild-notifier
   (package
     (name "emacs-org-wild-notifier")
-    (version "20220221.928")
+    (version "20220402.2331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akhramov/org-wild-notifier.el.git")
                (commit
-                 "860392e309e75474ae03128ce52b6592bd28027a")))
+                 "4b1d874aafdee90815136c308f1f3bd3577971ec")))
         (sha256
           (base32
-            "1npl118j457zcsmn2b4vsx6kmz8v6k8czrqgmi2fl7aql5xhvp6j"))))
+            "0wqcm65gisiapkx9m8zd5l6ysir2m7vk0px8adv04kjb5j937isq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-async emacs-dash))
@@ -103492,17 +103491,17 @@
 (define-public emacs-somafm
   (package
     (name "emacs-somafm")
-    (version "20200224.48")
+    (version "20220402.2131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/artenator/somafm.el.git")
                (commit
-                 "918e7c876f26f74ab21b585de2607819e9e74c08")))
+                 "90b661fb1abc652feb6508eb61735919d02e9687")))
         (sha256
           (base32
-            "1a2bsz5b9mz5wxj5bf4k79ddjln987k8s2d12q8fifq5pnj1gp26"))))
+            "0n8y8aj42j646vfjarl6w1dxn7wxqx3w6vjwbm8wj4i8nm17a77z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-request))
