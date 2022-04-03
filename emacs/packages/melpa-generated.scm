@@ -22172,17 +22172,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220328.522")
+    (version "20220403.1516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "3a9825c5cdafce6d214ae97cead0d660fb1c135a")))
+                 "a69d09a440997c30bb0203c66641a85e8ccb2688")))
         (sha256
           (base32
-            "1dj57fvsggcfgw2y5kg2nrn899v2cxy7fxca8nb2haw0vsglmg2i"))))
+            "0amnymxww0fcvw9vg2rv92ayl4mi3i1y81gk90vazl0bby8nv6xn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -65547,17 +65547,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20220208.308")
+    (version "20220403.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "cc2adbd4455dcc70cc1366af5e0754a619e75242")))
+                 "3c1f3a7828ba250982da8126096ac241f46914cf")))
         (sha256
           (base32
-            "14n8cf020hpz9hrhf7pxcxszvbkp19s5j5cz3a42n4jh7jpacdzp"))))
+            "048mgbxkxkapfhqrj8mja8pj61pq9pizha047hxm9whn9x8lmv7n"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -71542,17 +71542,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220401.933")
+    (version "20220403.428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "f9b2c8b677d343dc2d8da7a1154033f5c304c73a")))
+                 "bdb4235eacdef25cd307b401c21f71ceabe0a98f")))
         (sha256
           (base32
-            "10p53z64hc11whdfpv2qwd0as48sh3qi8y9icf6961399dbyspy4"))))
+            "00qb0s0szv8pdy85wgwnn5vkwbwkl5y5vpgvbsldmnwk55rf3q3k"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -83422,17 +83422,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220402.241")
+    (version "20220403.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "277de5f785c0300f54a7ba27c585fa1d79d00d6f")))
+                 "ae8194e3032d8740edd7c08380ff5dbc6767fd9d")))
         (sha256
           (base32
-            "1vv86mri4vxmpzdvmnlv0zlibgan3lvag284f6v1s0ld7lc88grb"))))
+            "137lc50913c3fjfsw668d2rvg58r122z722wc314f6rvdsxx7h1d"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -90316,17 +90316,17 @@
 (define-public emacs-prefab
   (package
     (name "emacs-prefab")
-    (version "20220314.2005")
+    (version "20220403.1026")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/prefab.el.git")
                (commit
-                 "4d9cac415a4ee86bb5793ce18a350a30f562c2fd")))
+                 "cbb701796a35ed21cf5743cc8965a8ca956c95fb")))
         (sha256
           (base32
-            "0f4cm5kvsa14yl93vw750ll51vf1g4b04vl6zivq1nzrb8gjj6zr"))))
+            "1n9qbpxq8r96270nfnxzl95aymwyvky5jiipniid16lqkssy1i65"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-transient))
@@ -105852,17 +105852,17 @@
 (define-public emacs-subsonic
   (package
     (name "emacs-subsonic")
-    (version "20211231.1449")
+    (version "20220403.1208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~amk/subsonic.el")
                (commit
-                 "f7a91df94d7d0cda4d8421e28d7b6b331927eec2")))
+                 "e9acece0f840bc6ea096ae56e77573939a2c510c")))
         (sha256
           (base32
-            "01jpyrcx3d667l2dxqcj8ax8rlsdcbwnlxlaga7d6j8jy6m208k1"))))
+            "0pynzc34bzppdfl1bxkhb0r7z4c0kd1bil5vblnyn4gnjx00jb94"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (home-page "https://git.sr.ht/~amk/subsonic.el")
