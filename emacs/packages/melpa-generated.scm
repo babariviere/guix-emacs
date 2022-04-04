@@ -25884,17 +25884,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220331.1322")
+    (version "20220404.1005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "fd9a5646d1b49ef5968713005d83131dd75a52ad")))
+                 "21ab73c0a4cff88b1356d459f97796e431e80ad1")))
         (sha256
           (base32
-            "0zaanyzk1r2jncpw9fyxpypdsiiy4ymkwn66dzpqv90xgp3kp0wf"))))
+            "08cvj9k2vk1856jcxzh0lcws7zb6l263q4p6x01fgp9a9yf5rwax"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -40171,17 +40171,17 @@
 (define-public emacs-flymake-swi-prolog
   (package
     (name "emacs-flymake-swi-prolog")
-    (version "20220403.2016")
+    (version "20220404.950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~eshel/flymake-swi-prolog")
                (commit
-                 "10561537e893f03306a55bc83506a8bdc82b33b9")))
+                 "ae0e4b706a40b71c007ed6cb0ec5425d49bea4c3")))
         (sha256
           (base32
-            "09m7pf6kdlv8hysd7bn2zyim6xvgn4xd9w8x33sja7ky26hngg5n"))))
+            "07wpm394vm026ihw1lzndmrw8bx9fk48bh6569llvcw439ni0mzy"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~eshel/flymake-swi-prolog")
@@ -41004,17 +41004,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20220322.1003")
+    (version "20220404.512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "eb2a7fa6da15d23b57921218a36ac67d523e81f1")))
+                 "69e72fabb010cac2e0f3d3294b8bda2edc3aecc7")))
         (sha256
           (base32
-            "1lf719fifgaci4hirz1bdnf918ijmkp017ynmlg1gq0lfx7ay7gj"))))
+            "0czcc6kllz1qdwahlzcppdb4b62sfc3k0ainjab350w4rbxzjsxd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -45772,17 +45772,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20220321.210")
+    (version "20220404.1240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "2616a4c2e26827ecba0f2576d26b01a63546b452")))
+                 "b3b3e0acfe5ebeba556f3b98bcff089b889c82c4")))
         (sha256
           (base32
-            "00bs8alcd2hj4c2yz1m6h1h0zddy9vicmhvipz5q1lsmnbaamwmr"))))
+            "00d1z91zq2sixl80g4ax7n7hc1wh4dmzg5c1p66i9lsmybg2aaxh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -68936,17 +68936,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220331.2340")
+    (version "20220404.804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "746f73898987571a6703155d882d983334c7f950")))
+                 "a514c024ac2796ec9d52f65c1f51b51f96bcb1c7")))
         (sha256
           (base32
-            "0lmds1x7lddlrwz2y77x2idvzmws16ji22rjzy02gcqw5vhv5fsd"))))
+            "1adfckbis1033xwvkrxkq4z3zxzcnn1za38daqhdp0lasbxp6048"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -71656,17 +71656,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220403.428")
+    (version "20220404.1314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "bdb4235eacdef25cd307b401c21f71ceabe0a98f")))
+                 "81196af7f0defe831321487ddcef302260e1bd99")))
         (sha256
           (base32
-            "00qb0s0szv8pdy85wgwnn5vkwbwkl5y5vpgvbsldmnwk55rf3q3k"))))
+            "1czl9ph8di44nnfb77n0ki6bvjlrvg34l3ww1g6n8w462gcd6w4y"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -79035,17 +79035,17 @@
 (define-public emacs-org-appear
   (package
     (name "emacs-org-appear")
-    (version "20220211.727")
+    (version "20220404.1322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/awth13/org-appear.git")
                (commit
-                 "ffbd742267ff81ba8433177fac5d7fe22b6d68a9")))
+                 "3c0ae25019961cfb66326e9ca5c06f60057c841e")))
         (sha256
           (base32
-            "0h1689mzkcgnrnpjwlh3a9ks9vb0a8sj60nlyn9x2nkcalg6vsw4"))))
+            "1lff3m0i3f7140zf9dxjza6jjqcrxbs568vh746bjpq238v4n2mf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/awth13/org-appear")
@@ -85223,17 +85223,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20220213.1457")
+    (version "20220404.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "873025ffc85b5e40ec361e953218fa09c6ebd621")))
+                 "6ca68488851404a41dbf993095eeb49f76dff877")))
         (sha256
           (base32
-            "10sinzpnk41xvdb1va9vv6nnwyyryvmyrvxxwq6xska9ab580g6y"))))
+            "00dblaqzrwd5bzhgrcgr53dg5fqk06invwb2464lmapg9ih41653"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
