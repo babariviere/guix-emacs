@@ -8112,17 +8112,17 @@
 (define-public emacs-bookmark-view
   (package
     (name "emacs-bookmark-view")
-    (version "20220216.2024")
+    (version "20220403.2204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/bookmark-view.git")
                (commit
-                 "314e74e11386af72ca282e228996321a8a6d4c9a")))
+                 "0d40ac67f53b7fa75fe65c38a5ef65701ce4c3da")))
         (sha256
           (base32
-            "1bqajd2slg5gh33q84ps9cpv0g04y5gz6m8gy55m01f2zrwxvyqc"))))
+            "0sa5lypdxgffzz22kq2jpcc02xmcmr77bsc0iggh7b2khnxjppxj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/minad/bookmark-view")
@@ -16127,17 +16127,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220330.1009")
+    (version "20220403.1805")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "473e6585c516d0e7fd4c256c333713fb40e9947a")))
+                 "20606f1c88810b31bb6cc97b7ec36d317e2d1707")))
         (sha256
           (base32
-            "140w52wvgwnni5pljxxd9sbc1kf8v9d8jiwg5s5vr2yvgklf64mk"))))
+            "0x1cfmvpgrh4143snnvz84ly291k6lpgg2r667i0p8s06kxy1i2z"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -16196,17 +16196,17 @@
 (define-public emacs-consult-eglot
   (package
     (name "emacs-consult-eglot")
-    (version "20210905.1830")
+    (version "20220403.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/consult-eglot.git")
                (commit
-                 "f93c571dc392a8b11d35541bffde30bd9f411d30")))
+                 "dfdb4c4cada61e2e87752c5f0e55dfdc738b9a7f")))
         (sha256
           (base32
-            "1jqg6sg6iaqxpfn7symiy221mg9sn4y1rn0l1rw9rj9xmcnng7s0"))))
+            "1n64pn7qir4ifrcy2jxhk2i59c8sv1m2hh2bsqakyp0kw4q1kyhv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-consult))
@@ -16221,17 +16221,17 @@
 (define-public emacs-consult-flycheck
   (package
     (name "emacs-consult-flycheck")
-    (version "20210530.202")
+    (version "20220403.1810")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult-flycheck.git")
                (commit
-                 "0ad7e8ff15683a4d64b79c29b3fcf847edfe244b")))
+                 "9b40f136c017fadf6239d7602d16bf73b4ad5198")))
         (sha256
           (base32
-            "09h9p7axy4gavzz2fn847hx2xvfxlnz4x9lpvp9arivjzn0yqrzi"))))
+            "0m30kz2ixxih433kddkyi0sfh7hkwm746417l2f30b273vlfj7ya"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-flycheck))
@@ -16336,6 +16336,30 @@
     (synopsis "Notmuch search using consult")
     (description
       "Documentation at https://melpa.org/#/consult-notmuch")
+    (license #f)))
+
+(define-public emacs-consult-org-roam
+  (package
+    (name "emacs-consult-org-roam")
+    (version "20220329.540")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jgru/consult-org-roam.git")
+               (commit
+                 "3348f97786d1b8de540e33ed4611a5f44c1da0d8")))
+        (sha256
+          (base32
+            "016c61mczpbfm0ndc20j04db1x7134r6fmzsr79wy0lih09sl7n3"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-org-roam emacs-consult))
+    (home-page
+      "https://github.com/jgru/consult-org-roam")
+    (synopsis "Consult integration for org-roam")
+    (description
+      "Documentation at https://melpa.org/#/consult-org-roam")
     (license #f)))
 
 (define-public emacs-consult-project-extra
@@ -22172,17 +22196,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220403.1516")
+    (version "20220403.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a69d09a440997c30bb0203c66641a85e8ccb2688")))
+                 "fdd350baaed8cf4e72dcc124c1eac9cd1113223e")))
         (sha256
           (base32
-            "0amnymxww0fcvw9vg2rv92ayl4mi3i1y81gk90vazl0bby8nv6xn"))))
+            "0kga9dcr29asxj0xs8qq4i212yv2043xwr4gpfnm7z1nvna6xgmm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25907,17 +25931,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20211213.1014")
+    (version "20220403.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "66b9615ab021d26d92de34e5131cee44f8e58886")))
+                 "da76eb69b3f86992d62302649a987f157b7b7371")))
         (sha256
           (base32
-            "0lfifd43fz09avwgy6gs7j06s2xxlll6vkrbfbb9gl4r6q17786y"))))
+            "0m64jdv20pch1f1n41rh28bgi4cxa84vdfpq7sdxjgs8laqc928g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-eglot))
     (home-page
@@ -30983,6 +31007,29 @@
       "Documentation at https://melpa.org/#/eslint-fix")
     (license #f)))
 
+(define-public emacs-eslint-rc
+  (package
+    (name "emacs-eslint-rc")
+    (version "20220328.800")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jjuliano/eslint-rc-emacs.git")
+               (commit
+                 "eb6f3e715792952bc957d5dc8ab1a607f3dbbd55")))
+        (sha256
+          (base32
+            "1bdv3lbcq8wppcn8dcbp53zsxrz3qaz72iazpg5dbdq047rm6s1x"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-eslint-fix))
+    (home-page
+      "https://github.com/jjuliano/eslint-rc-emacs")
+    (synopsis "Use local rc rules with ESLint")
+    (description
+      "Documentation at https://melpa.org/#/eslint-rc")
+    (license #f)))
+
 (define-public emacs-eslintd-fix
   (package
     (name "emacs-eslintd-fix")
@@ -31732,17 +31779,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220309.2216")
+    (version "20220403.1955")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "3e41a823334abbba9cf16e482855699054d9dfe0")))
+                 "067a29214d9d4e1fc4b4d29fc596ad4cefe7e492")))
         (sha256
           (base32
-            "1ir4ybrnylx9slyb7znrshfjf0gw1xi7f9nf6bryidqxspsn2ri5"))))
+            "048dgbyyswwdvw5px9zy0ys2f65kbgsba33wmpaqslgb8m7d62bl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -33046,17 +33093,17 @@
 (define-public emacs-evil-snipe
   (package
     (name "emacs-evil-snipe")
-    (version "20211114.1647")
+    (version "20220403.1639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hlissner/evil-snipe.git")
                (commit
-                 "a79177df406a79b4ffa25743c752f21363bba1cc")))
+                 "1444065e3fb637ec3c976ce68a4679625713b1d5")))
         (sha256
           (base32
-            "0pz2s0g0859zhyryvn1glngw1aq7a04x9rydl1l89h50hf5avmvj"))))
+            "1lzjw22fmjhw1ivnn9053n3zicnb8k2jgwyzvyv6x29fvqhw5xgb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -40076,6 +40123,28 @@
       "Documentation at https://melpa.org/#/flymake-solidity")
     (license #f)))
 
+(define-public emacs-flymake-swi-prolog
+  (package
+    (name "emacs-flymake-swi-prolog")
+    (version "20220403.2016")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~eshel/flymake-swi-prolog")
+               (commit
+                 "10561537e893f03306a55bc83506a8bdc82b33b9")))
+        (sha256
+          (base32
+            "09m7pf6kdlv8hysd7bn2zyim6xvgn4xd9w8x33sja7ky26hngg5n"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.sr.ht/~eshel/flymake-swi-prolog")
+    (synopsis "A Flymake backend for SWI-Prolog")
+    (description
+      "Documentation at https://melpa.org/#/flymake-swi-prolog")
+    (license #f)))
+
 (define-public emacs-flymake-vala
   (package
     (name "emacs-flymake-vala")
@@ -43067,17 +43136,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20220402.1111")
+    (version "20220403.1248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "b7d1efae8a8d5e08fcb34a9d387e72aee0e83953")))
+                 "8c4d0baa37230ef47f4950e7b101304851dd5c95")))
         (sha256
           (base32
-            "1b0pfb32k1r2z73ijwnsgr3zvhnyh5hw0jvhbplv18p937c480i7"))))
+            "13rkw6ydpfp7v92py4yxfyd0ifm4pxnr6069vpvblmg4y8z4zh30"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treepy))
     (arguments
@@ -45748,17 +45817,17 @@
 (define-public emacs-goggles
   (package
     (name "emacs-goggles")
-    (version "20220222.1514")
+    (version "20220403.1812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/goggles.git")
                (commit
-                 "5d10b00b5f4ee686683c48804235f62d644ae2ef")))
+                 "6941fd5bc19c0a2789dda38334d2be582ed34e5a")))
         (sha256
           (base32
-            "0q7vnvqr9283wg0gj7cwn8b540syhzyibjkhv3h81qi3cwk5a5fy"))))
+            "16vc4j1hbs25vy414wjid8i821cx1pcld3ilnrlapix3hlsnnjbc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/goggles")
     (synopsis "Pulse modified regions")
@@ -90732,6 +90801,29 @@
       "Documentation at https://melpa.org/#/private")
     (license #f)))
 
+(define-public emacs-private-comments-mode
+  (package
+    (name "emacs-private-comments-mode")
+    (version "20220330.1316")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/masukomi/private-comments-mode.git")
+               (commit
+                 "57eb1ba3812e44344b7d5336c3a3ad14a28e4f9e")))
+        (sha256
+          (base32
+            "0m5qksmzbjwzv10n7hb3v8sa6zab4kp2w7ayv2g7fc94cm1aljz2"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/masukomi/private-comments-mode")
+    (synopsis
+      "Minor mode for masukomi/private_comments")
+    (description
+      "Documentation at https://melpa.org/#/private-comments-mode")
+    (license #f)))
+
 (define-public emacs-private-diary
   (package
     (name "emacs-private-diary")
@@ -91202,17 +91294,17 @@
 (define-public emacs-projectile-rails
   (package
     (name "emacs-projectile-rails")
-    (version "20220331.1640")
+    (version "20220403.1621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/asok/projectile-rails.git")
                (commit
-                 "772f4766b5d1159a395b93459f07d5f1f6c02f4e")))
+                 "f7877971cfe266d3d91b3a72012855e12a0112df")))
         (sha256
           (base32
-            "1b8m4b2r5x7hqw3h14zp0ikk39jvabxzj8l6487x7ii8v9n9ijgj"))))
+            "0rlqrrndzlv96siyjcy47rwbd14sfk30rj0pqkv62rdy94m2wxay"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile
@@ -95272,17 +95364,17 @@
 (define-public emacs-recursion-indicator
   (package
     (name "emacs-recursion-indicator")
-    (version "20220224.1333")
+    (version "20220403.1812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/recursion-indicator.git")
                (commit
-                 "e9bca04318fef45badd487cda002ff9617429f6b")))
+                 "63d946c5cb11b81184151f1385efed325f6cac2d")))
         (sha256
           (base32
-            "0cjn61dn67vxz3495h7klszqwkjv17bmlfv01adj8d2cibc5wqi3"))))
+            "1p0m1fklflvfd78p506js2i687fxv061j8n959wiiv6avm41nccp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/minad/recursion-indicator")
@@ -107420,6 +107512,29 @@
     (synopsis "Extended tabulated-list-mode")
     (description
       "Documentation at https://melpa.org/#/tablist")
+    (license #f)))
+
+(define-public emacs-tabspaces
+  (package
+    (name "emacs-tabspaces")
+    (version "20220403.2030")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/mclear-tools/tabspaces.git")
+               (commit
+                 "5d81e856027796ef1f48132be0636cbeffab4d68")))
+        (sha256
+          (base32
+            "021yqqgz4fw8zmq2nfw4qlflpwzpaakxcgygga3y6rxwnz9h09p2"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/mclear-tools/tabspaces")
+    (synopsis
+      "Leverage tab-bar and project for buffer-isolated workspaces")
+    (description
+      "Documentation at https://melpa.org/#/tabspaces")
     (license #f)))
 
 (define-public emacs-tabula-rasa
