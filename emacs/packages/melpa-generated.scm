@@ -19307,17 +19307,17 @@
 (define-public emacs-dart-mode
   (package
     (name "emacs-dart-mode")
-    (version "20210830.0")
+    (version "20220401.0")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bradyt/dart-mode.git")
                (commit
-                 "3bac14200f9f8f8fcebc383087572da5c3823c34")))
+                 "9c846769abd37f7fdc7ba8388d1f3a2b844b75e3")))
         (sha256
           (base32
-            "1vql8m4nj0brmv58b6lkbhykik8n6j4i7d3nylcls78y7ihc2cz8"))))
+            "1qlxjfmw8hbg1d1ll4jivsjw6a3x6j5q00w6kkvl58n65pkpm5ng"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bradyt/dart-mode")
     (synopsis "Major mode for editing Dart files")
@@ -26178,6 +26178,29 @@
       "Documentation at https://melpa.org/#/el-autoyas")
     (license #f)))
 
+(define-public emacs-el-fetch
+  (package
+    (name "emacs-el-fetch")
+    (version "20220403.2327")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/xgqt/emacs-el-fetch.git")
+               (commit
+                 "2f76f47ab8b8330f04be4c045f3496dd0a59f251")))
+        (sha256
+          (base32
+            "11j41mn8p1pgn0ja0fx3sj4440f92zg4gxh4mrw9p9mvj6l2578c"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files ("src/el-fetch/*")))
+    (home-page "https://gitlab.com/xgqt/el-fetch")
+    (synopsis
+      "Show system information in Neofetch-like style (eg CPU, RAM)")
+    (description
+      "Documentation at https://melpa.org/#/el-fetch")
+    (license #f)))
+
 (define-public emacs-el-fly-indent-mode
   (package
     (name "emacs-el-fly-indent-mode")
@@ -31776,6 +31799,28 @@
       "Documentation at https://melpa.org/#/eve-mode")
     (license #f)))
 
+(define-public emacs-everlasting-scratch
+  (package
+    (name "emacs-everlasting-scratch")
+    (version "20220401.1521")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/beacoder/everlasting-scratch.git")
+               (commit
+                 "7aeb3633eab5856351e8f8454e851200a42b8816")))
+        (sha256
+          (base32
+            "0hpvxwd8fflsvq95slh1pfsr34zxy63xbbskx4d9497yja4v88il"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/beacoder/everlasting-scratch")
+    (synopsis "The *scratch* that lasts forever")
+    (description
+      "Documentation at https://melpa.org/#/everlasting-scratch")
+    (license #f)))
+
 (define-public emacs-evil
   (package
     (name "emacs-evil")
@@ -32572,17 +32617,17 @@
 (define-public emacs-evil-matchit
   (package
     (name "emacs-evil-matchit")
-    (version "20220402.935")
+    (version "20220404.221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-matchit.git")
                (commit
-                 "7715248c67e22afedff04a3a35be2c4ad0b046af")))
+                 "1884276feca8bd927a371760673b0f99d734e1c5")))
         (sha256
           (base32
-            "1wdavvxj0d5p2xba33npclix7i3gr0f0nan9mwhd2kijxasg6b2p"))))
+            "12as39q0ya1174h867fkz3g3vph8mdni6k0mbdfb8r3l6x7rw6sl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -32688,17 +32733,17 @@
 (define-public emacs-evil-nerd-commenter
   (package
     (name "emacs-evil-nerd-commenter")
-    (version "20220106.1224")
+    (version "20220404.301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-nerd-commenter.git")
                (commit
-                 "42ba1a473b4f1df061baddd2f8b812a2f35e366e")))
+                 "29ced6fda6a76771a8a054ef55c13a1330793d4d")))
         (sha256
           (base32
-            "1y6qy4gv7k8aghi5snvh248nxpgxv0daryd2794n6gfb4ciwycrr"))))
+            "0xnm8i23c2p3mdf4xxjk00766ygvysk7c8iib2jkah5pfg6jc9vb"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-nerd-commenter")
@@ -44828,17 +44873,17 @@
 (define-public emacs-gnu-apl-mode
   (package
     (name "emacs-gnu-apl-mode")
-    (version "20211012.1139")
+    (version "20220404.341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lokedhs/gnu-apl-mode.git")
                (commit
-                 "5d998206a963f2205dc6c4eddb41fb34187cb527")))
+                 "c8695b0d55b5167263a843252ffd21a589018427")))
         (sha256
           (base32
-            "1yzyq8k770j78f2gkkr1n1d5jpdfmj9l3w40pjd7fmn94xg3qw9a"))))
+            "03hwnzzxn5d1wdw93dgznflsx9m9hb133gv54pbrij2454pkvm4g"))))
     (build-system melpa-build-system)
     (home-page "http://www.gnu.org/software/apl/")
     (synopsis "Integrate GNU APL with Emacs")
@@ -65616,17 +65661,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20220403.518")
+    (version "20220404.0")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "3c1f3a7828ba250982da8126096ac241f46914cf")))
+                 "342a4ec24c20539dc617511f4daf4abb04f17dc3")))
         (sha256
           (base32
-            "048mgbxkxkapfhqrj8mja8pj61pq9pizha047hxm9whn9x8lmv7n"))))
+            "0nx3aik0xzrr0g5av8xhygxh551ipgm4bc7pp3k432s7hrjf3k5c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -93915,17 +93960,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220330.1951")
+    (version "20220404.257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "af9b760e7baca91e26723df6a31400cbfe6a627d")))
+                 "819ac6778712022d1e75c8f21422c862e4f85e3e")))
         (sha256
           (base32
-            "1kzpynayiivk5ib02r01icmcr9zwy0h03ian5z2nfp5096p27zvl"))))
+            "0w7py32y4n8rmpaq516g257h94cz27qync39w85pgwa30fypmi73"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -100193,6 +100238,28 @@
       "Documentation at https://melpa.org/#/shampoo")
     (license #f)))
 
+(define-public emacs-shanty-themes
+  (package
+    (name "emacs-shanty-themes")
+    (version "20220403.2333")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/qhga/shanty-themes.git")
+               (commit
+                 "404e721e0cb5dbf813bebc997f9c10623b101c4b")))
+        (sha256
+          (base32
+            "1hr80fwm5kwb00m7104502mhn2fxdxfzh0nw6wmlazglx479016w"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/qhga/shanty-themes")
+    (synopsis "The themes for digital workers")
+    (description
+      "Documentation at https://melpa.org/#/shanty-themes")
+    (license #f)))
+
 (define-public emacs-share2computer
   (package
     (name "emacs-share2computer")
@@ -103235,17 +103302,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220210.1654")
+    (version "20220404.307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "5824a3c33ee51acc1d3cba36ef6892ebb3a8df1c")))
+                 "afe4286dec79ef45a42a343033f69d90dd308535")))
         (sha256
           (base32
-            "0svjaid3x3l7c59g7ckpgsnmgh7j118rakmfs0qhjh5xla60bglm"))))
+            "1nq1w4vxcb1sv0gbdfrmjxjk07vailjrigk6yhjms65ansy7qfsq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
