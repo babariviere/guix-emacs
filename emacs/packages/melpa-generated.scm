@@ -17022,17 +17022,17 @@
 (define-public emacs-counsel-etags
   (package
     (name "emacs-counsel-etags")
-    (version "20220213.1104")
+    (version "20220405.510")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/counsel-etags.git")
                (commit
-                 "80b5816c1fab8c0621601f7fbe7ba65b2c67e9cd")))
+                 "c74ae94297c4a2dc0b6878c2e9460a4f386158d4")))
         (sha256
           (base32
-            "10bprk9ixbsyfzrl7b23gc6wgwwyg4ksyw9w28071r2hpz2dssv7"))))
+            "01a11dij88ysnrpmrs0flc9m43mlbc41zcahwmaqdp58rvgc24ji"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -22196,17 +22196,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220403.1752")
+    (version "20220405.434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "fdd350baaed8cf4e72dcc124c1eac9cd1113223e")))
+                 "10005d15048bce8dc5e3755b3a6d9bf7daadf5ee")))
         (sha256
           (base32
-            "0kga9dcr29asxj0xs8qq4i212yv2043xwr4gpfnm7z1nvna6xgmm"))))
+            "14a54aqdd877k61ayfm11apg8mp8dyi2a2dc04y6z6ydyhnpcs67"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26181,7 +26181,7 @@
 (define-public emacs-el-fetch
   (package
     (name "emacs-el-fetch")
-    (version "20220404.2033")
+    (version "20220404.2144")
     (source
       (origin
         (method git-fetch)
@@ -28703,17 +28703,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220404.2036")
+    (version "20220405.408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "05cf792f8fdc061cfacf8686e1bb39d9c6e092ac")))
+                 "b57c947f20dc36faff7a43076b9a3b0358f87921")))
         (sha256
           (base32
-            "0ciif40r1v7ni19nbdg48fp1lqkmb73s4pcbfqy43ab38bhnbh8g"))))
+            "0haymziqlkvi30y75j7zwsca67hyxffiif3cmck11xm8sbc51988"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28727,17 +28727,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220329.32")
+    (version "20220405.408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "06d5caafd58db6b6d7fa14cf8b6f7336486b92ca")))
+                 "b57c947f20dc36faff7a43076b9a3b0358f87921")))
         (sha256
           (base32
-            "08g2zskdgq7p08zyv600vzdkzyva860f2i4mrl6hljkkp66ndcc1"))))
+            "0haymziqlkvi30y75j7zwsca67hyxffiif3cmck11xm8sbc51988"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -71657,17 +71657,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220404.1314")
+    (version "20220405.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "81196af7f0defe831321487ddcef302260e1bd99")))
+                 "7f4cd627c224776d9682b508a9b058473fa51573")))
         (sha256
           (base32
-            "1czl9ph8di44nnfb77n0ki6bvjlrvg34l3ww1g6n8w462gcd6w4y"))))
+            "1azrj062p703lxf52mny8mrmysp9lj5zkpiz53mnayqdcnj40vla"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/protesilaos/modus-themes")
@@ -93458,17 +93458,17 @@
 (define-public emacs-q-mode
   (package
     (name "emacs-q-mode")
-    (version "20220123.1721")
+    (version "20220306.1629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psaris/q-mode.git")
                (commit
-                 "0bc3cdb32636278b1dc0bcc55741b147441347f6")))
+                 "3eac36d23131088e32057716a3241407fa8dc041")))
         (sha256
           (base32
-            "0dyf35fhm2wzq6p2wcgdhf81y4rs92j5np7jvrwp9ic9xzw51cx5"))))
+            "1wlgkyh8ci03448n5fm0p4z7jkhbrvrd3s8rbxvbdbl6ll1d9x15"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/psaris/q-mode")
     (synopsis "A q editing mode")
@@ -100675,17 +100675,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20220328.718")
+    (version "20220405.124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "3b3e93f588204923487f8f5e562a068bab78683b")))
+                 "c3a3a947fb267df1f03287be2eab4f7119707e90")))
         (sha256
           (base32
-            "1hhs8l732w6jy91xk8q4sfpmm8n6qkiwh3aysnlsbf0mxdpy0kj0"))))
+            "1f065v3i7n60lgdz9nzvla3n1xzcvznrg8f3kbf2ccvp5viwzi10"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
@@ -103049,17 +103049,17 @@
 (define-public emacs-smog
   (package
     (name "emacs-smog")
-    (version "20200211.528")
+    (version "20220405.251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zzkt/smog.git")
                (commit
-                 "531957d7356f623b026aa45923e536421f682c1a")))
+                 "28b053198ff9c1b142789614d85d7d762d9b0fa3")))
         (sha256
           (base32
-            "0rb8vjnkn9pp0lrmmvsfslmw7xya4n18s82vs98545phwc4bjga5"))))
+            "0hqmpgvggsrq2dj0zxy3675dvf6wbw7kyhv72wjqb2ldx35j52pq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zzkt/smog")
     (synopsis
@@ -114344,17 +114344,17 @@
 (define-public emacs-virtual-comment
   (package
     (name "emacs-virtual-comment")
-    (version "20220301.430")
+    (version "20220405.229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-virtual-comment.git")
                (commit
-                 "5205379bcfa1774a745e3dcbaa4ea861ff6a9ad2")))
+                 "d1f08e8bec3b52818d44ff06f719950b89204126")))
         (sha256
           (base32
-            "1blgy286id63mqr2gan7xkg88rn2nwj36vqdsyyxq8w2p3f5qh54"))))
+            "0fsjly3c9b29z8b113h7jzizlvb45xpp3jc7ay0dq3x5mfgpmnxb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thanhvg/emacs-virtual-comment")
@@ -115069,17 +115069,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20211122.335")
+    (version "20220405.124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "6112c6a9e13c00c2c7aecd96820a46b4800d4cda")))
+                 "c3a3a947fb267df1f03287be2eab4f7119707e90")))
         (sha256
           (base32
-            "18c1rbcpxv289fbzl66lvyd41l1jhkia7296sksaqsgv9n79c2w6"))))
+            "1f065v3i7n60lgdz9nzvla3n1xzcvznrg8f3kbf2ccvp5viwzi10"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
