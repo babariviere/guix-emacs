@@ -2419,17 +2419,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220406.527")
+    (version "20220406.1059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "ab975a0bde46c1140ca5d7e9f64afe0d71e53828")))
+                 "fc1ad6c4b37be643cacea9248b7a814527fa098d")))
         (sha256
           (base32
-            "0y4c8gsxv6czpgqfsjzsqmnd49zcyr4jakbymbcd8c06nk4rk5ly"))))
+            "1zrgk8b07xgdh79mdsnaaqjpnxvqhc1zf4w4wcs6zm5rfck3r9lq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -12005,17 +12005,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20220405.1637")
+    (version "20220406.315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "c398d77adc4b7210ca9be665f9b0243deafe2d3f")))
+                 "0ae60846b0b58f09ea463f603bcc3f414a8fb35d")))
         (sha256
           (base32
-            "0mspvxiy3hlf7ipgxzsyg5a95mjn06yxjsi7hiz8b6gk3zd5mq84"))))
+            "0wqvsdbasbz0hbw90883683mh5h1h8rcy7qw6qbabdiyigsv2867"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -16127,17 +16127,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220405.2120")
+    (version "20220406.1136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "3df1b1e5126bf4f7446fdcc6d7a2a8573d814911")))
+                 "e9fa6ab2258f015fad3d3e87764872125bc57374")))
         (sha256
           (base32
-            "0xjb7aiqys8yidmb8ccl556537lg6wpy6vybix9pbrvi2qv3mcb9"))))
+            "0i7zp9za2rqvvz544kxswys04rl3y7akjqc02rqch33ps88xl06w"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -23425,17 +23425,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220406.741")
+    (version "20220406.814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "471f4f50455f5363b342b48c1f1ea8a871d0267f")))
+                 "5de92d5f67b1ba2d04634373e23345f570a89e5c")))
         (sha256
           (base32
-            "0vafgi6ldy064nms64gzhc0hf27wcdy7fplm1655f0zb8pz5kky5"))))
+            "1r7qqj5rgdijqaxlvfh3cq73bwp2jhw8cc319w6gv3123pa60cyx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -48456,17 +48456,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220405.605")
+    (version "20220406.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "3bb4dedf774ad03f9aa760636966c897df6c6329")))
+                 "06772626648242fe308b9118518af36a29c9f2ed")))
         (sha256
           (base32
-            "1laxngirp7jbwsi7rz6cmwa1pd96syzfc952l0ndx059l0lwpnx8"))))
+            "1g3715s00dcsbk1742wpz00sc98ysphhbcb6dbjnwz3nzjs729sh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49264,17 +49264,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220405.2028")
+    (version "20220406.556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "501d12109c91afe1d82b5bfcd63da6a3ab79e24a")))
+                 "06772626648242fe308b9118518af36a29c9f2ed")))
         (sha256
           (base32
-            "127cr354b480fvhaqpzd09pkvrv4v2v7v19p49v7i3rh74dbidm0"))))
+            "1g3715s00dcsbk1742wpz00sc98ysphhbcb6dbjnwz3nzjs729sh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -105517,17 +105517,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220329.945")
+    (version "20220406.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "e8a2699914d13228ca24ad81373e93dd796f2c38")))
+                 "e092cd79d777ac7ed0c4347e8edc5a0515276fc2")))
         (sha256
           (base32
-            "1kcc18rr1xd2dzdbhrwdb5arhsvs8allrshjwkkyjpzz3gz13f57"))))
+            "1i81r7wzn6lp3zz5p3384fffhva7ggng8nk9qkq296w5hl4311d7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -108114,7 +108114,7 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220406.335")
+    (version "20220406.706")
     (source
       (origin
         (method git-fetch)
@@ -108741,17 +108741,17 @@
 (define-public emacs-text-categories
   (package
     (name "emacs-text-categories")
-    (version "20220405.1649")
+    (version "20220406.1319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Dspil/text-categories.git")
                (commit
-                 "057078125fe69b11bdc86ace7134ceb5d92f1c7a")))
+                 "11e280341b9466bad1acba7a1d486f99673d95bc")))
         (sha256
           (base32
-            "0jhjdbmcxjdizwmizypc51q2y7i970b64aihvy8yq1g3j49ryydl"))))
+            "0337zrl829zh7y3szjla376xw3b90sw25gx9pzl5wmd5p6h7rb5c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Dspil/text-categories")
@@ -110461,17 +110461,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220331.2312")
+    (version "20220406.1156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "d02458186344ee6eddc718740d0b225f8fb1ca6b")))
+                 "81b2b912de679749a52a4f5faf5fd02b36465431")))
         (sha256
           (base32
-            "03pli7wxqcb3id4fgg45k1pmlnna22im9jz5qnd0if0zmk0rlnsl"))))
+            "044x5h4hzwk6d3npcqi3v0w58glgb9bx153pwvpy1i4aml7vg26x"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -113512,17 +113512,17 @@
 (define-public emacs-vc-darcs
   (package
     (name "emacs-vc-darcs")
-    (version "20170905.320")
+    (version "20220406.659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/velkyel/vc-darcs.git")
                (commit
-                 "390fb1ebdda1ffac45b9be02626dde3b6d95ac11")))
+                 "56426a235b742618b48fad8538777a9b3ffb7240")))
         (sha256
           (base32
-            "1fcqkavc7hlbhswx5nnaqhash42cjsbr72ijznx5cplr582g3mfq"))))
+            "16q9kp9fvm6vpdr9b5p16lyjqbs8zplj4klz93s96n3jwxv50kim"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "a VC backend for darcs")
