@@ -2419,17 +2419,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220402.1731")
+    (version "20220406.527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "a24563706de279d75aa43edd466dda6ae6dac23e")))
+                 "ab975a0bde46c1140ca5d7e9f64afe0d71e53828")))
         (sha256
           (base32
-            "0w9djmhr0v62xs0y71l7gxga5vb1f1ljjbxclp7z1q65iwhh0yqa"))))
+            "0y4c8gsxv6czpgqfsjzsqmnd49zcyr4jakbymbcd8c06nk4rk5ly"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -20793,17 +20793,17 @@
 (define-public emacs-diff-hl
   (package
     (name "emacs-diff-hl")
-    (version "20220124.323")
+    (version "20220405.2359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/diff-hl.git")
                (commit
-                 "4a08b02afec1fc6b1e84de46cc34f75f6c9c3bcc")))
+                 "9d5dc2ffa1e4c7b43734b03dccb5ae6a80800569")))
         (sha256
           (base32
-            "1c8v4c9cz9mcn70dws79yh1fd3nxkbb6mdrlqs5nwy7m3d2l567a"))))
+            "1mk0lqfgln23zqx4fc1z6vv2wprmksjv2cy7yyrj8qvkm29fqm94"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dgutov/diff-hl")
     (synopsis
@@ -23425,17 +23425,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220325.554")
+    (version "20220406.741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "edf18b93cceb5cf00e1006d0034663ef4d9fdc11")))
+                 "471f4f50455f5363b342b48c1f1ea8a871d0267f")))
         (sha256
           (base32
-            "0l0lb3in80p9hgqqbrjrnbcjb2vqxw4qxgxl42vz6kvx77fk77j7"))))
+            "0vafgi6ldy064nms64gzhc0hf27wcdy7fplm1655f0zb8pz5kky5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -28703,17 +28703,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220405.1141")
+    (version "20220406.506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "7e6db952d01a7908eaa3c3550fd5d4b27cb1f923")))
+                 "ba1762b7846301fec6c18bfb5ba2125db572a5db")))
         (sha256
           (base32
-            "1zlgdxmcz901cw8mdqzbgln2hnni0crql4rx70wjrq75cmfi5sak"))))
+            "1d89b8p7v22l0mc22vqbvnhbnbb6x4y80ypgffwp9lsm9ssg7a1w"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28727,17 +28727,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220405.1146")
+    (version "20220406.506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "7e6db952d01a7908eaa3c3550fd5d4b27cb1f923")))
+                 "ba1762b7846301fec6c18bfb5ba2125db572a5db")))
         (sha256
           (base32
-            "1zlgdxmcz901cw8mdqzbgln2hnni0crql4rx70wjrq75cmfi5sak"))))
+            "1d89b8p7v22l0mc22vqbvnhbnbb6x4y80ypgffwp9lsm9ssg7a1w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -69050,17 +69050,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220212.728")
+    (version "20220406.410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "521658eb32e456681592443e04ae507c3a59ed07")))
+                 "d2a3d5b8625a7c6be21f19f9146745cd5c791a6a")))
         (sha256
           (base32
-            "162xfchw2nxsx5a53kx15qlhr0vqqsn1vpqjnfp3ys7yngs3vvdm"))))
+            "00wiyghp38x788hn5rbm26lihx0bjwj4w76ya1bx6vl5g8k1h2yw"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -89876,17 +89876,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20220309.457")
+    (version "20220406.336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "60297066e31e012b8087b1b7818febd73e02d2cf")))
+                 "6599c9b5a12b411c6cf1536bf200ae233fa24389")))
         (sha256
           (base32
-            "1ivj61hjg5gqlivb04ynnk2mry8bac9mmf9f473naplzwnd741p1"))))
+            "0k306s29qj8dxgjzv24lxz3xnykra99h2gv76802snlyjbnzc50y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -93961,17 +93961,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220404.257")
+    (version "20220405.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "819ac6778712022d1e75c8f21422c862e4f85e3e")))
+                 "3e34e16432507ef8568025ead9724a41befd87dc")))
         (sha256
           (base32
-            "0w7py32y4n8rmpaq516g257h94cz27qync39w85pgwa30fypmi73"))))
+            "03r17c98vjs2rwydirayb95kjn80w2kp0ci1h32k0ij2aqqzwlki"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -108114,17 +108114,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220310.2211")
+    (version "20220406.335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "a725dfc5bcd21423ebc108cd4d5d92fb33becded")))
+                 "f51cf4ad3b1e71fc825c155b570a393e3991b328")))
         (sha256
           (base32
-            "0rvz4g88403qf5vril946a1v6qvazfn3pqv1ch6k1vh5c9xyavak"))))
+            "0mzc85jp54cx6ivg07wnzz17jsv74fp8zf5j6gn5zn10x360avip"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
