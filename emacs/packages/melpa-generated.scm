@@ -15705,17 +15705,17 @@
 (define-public emacs-company-wordfreq
   (package
     (name "emacs-company-wordfreq")
-    (version "20210201.1839")
+    (version "20220405.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/johannes-mueller/company-wordfreq.el.git")
                (commit
-                 "3787785af2135c42af7b22562da554628141afdb")))
+                 "83569cf346c2320ef22f6a858e3424f771c4324e")))
         (sha256
           (base32
-            "0iwhi1pw14finc9n9avlv79wnyl8628cmdka5j83hjv1bs2fnysw"))))
+            "1rmv8985adf1vibs070fnzzjnbxaj0qgwjyqmnd5v7v020rkpmrc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-company))
     (home-page
@@ -16127,17 +16127,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220405.1231")
+    (version "20220405.2120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "1711d7b8837f34dc08bc19e59a16fa369904a699")))
+                 "3df1b1e5126bf4f7446fdcc6d7a2a8573d814911")))
         (sha256
           (base32
-            "08rny5m5k59jh2w02k0dwlbz58rkc75rsqydg7ynb6xx7jfyjzzx"))))
+            "0xjb7aiqys8yidmb8ccl556537lg6wpy6vybix9pbrvi2qv3mcb9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -25884,17 +25884,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220404.1005")
+    (version "20220405.1608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "21ab73c0a4cff88b1356d459f97796e431e80ad1")))
+                 "000598af20d23f8ada556029eaf06cda745947eb")))
         (sha256
           (base32
-            "08cvj9k2vk1856jcxzh0lcws7zb6l263q4p6x01fgp9a9yf5rwax"))))
+            "1x668sgzvqgfc4j1k2k8lildz08k1lcm8k3dax937cx2nd3qrqr7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -34471,17 +34471,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20210624.1103")
+    (version "20220405.1534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "50af874cd19042f17c8686813d52569b1025c76a")))
+                 "b5cb884b3b4372a6f3d1d4428cf092ca1e5c8044")))
         (sha256
           (base32
-            "0k6qp5vqyiql9f6i6z95iskjpv9wn6sd66wnf2x0jxbws4r2bjxy"))))
+            "04wa28css71k5h7faxybczl0qy008kk1m5pdfb53g7ybjrn5cxdn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("f.el")))
@@ -49264,17 +49264,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220405.903")
+    (version "20220405.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "3bb4dedf774ad03f9aa760636966c897df6c6329")))
+                 "501d12109c91afe1d82b5bfcd63da6a3ab79e24a")))
         (sha256
           (base32
-            "1laxngirp7jbwsi7rz6cmwa1pd96syzfc952l0ndx059l0lwpnx8"))))
+            "127cr354b480fvhaqpzd09pkvrv4v2v7v19p49v7i3rh74dbidm0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -64795,17 +64795,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220405.1400")
+    (version "20220405.1658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "1210929213c84e3d8c4aac80810e2562e63c7cb4")))
+                 "039b8749bb20d3c5968fad22bdbfcbbb1edc81a7")))
         (sha256
           (base32
-            "11sk86wwkp3v5pha7pqc52ck7267hbd0lwjxc286v7zcic8zbmkn"))))
+            "1mvhnkw1kp9bq5sqy6w88fhgpgl1337nas028fcaa910qghrmdz4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
@@ -69353,17 +69353,17 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220216.1103")
+    (version "20220405.1531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/mastodon.el")
                (commit
-                 "813faf2381a7c4322c1ef71ca1364457609a3a57")))
+                 "b3649a12a398537ade7136d704f2f05ccc856e23")))
         (sha256
           (base32
-            "1skxk0ahvqqfxm0mg0940cf04k2zk6nln4dwgjfsw11dcj9ns89z"))))
+            "13swcbvwhjl8ksrgzvmfafkgd3iz8znk49bs1n48w3g9qvh097w7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (arguments '(#:files ("lisp/*.el")))
@@ -76788,17 +76788,17 @@
 (define-public emacs-ob-dsq
   (package
     (name "emacs-ob-dsq")
-    (version "20220324.2029")
+    (version "20220405.2219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/ob-dsq.git")
                (commit
-                 "55433631458dd57ae890b2665f8f15b2df2f71e8")))
+                 "37090235c064ba5a5e436b0b77b5442f606cf5b3")))
         (sha256
           (base32
-            "0zj9scwa00n4f539wmjq47zxnvaq1xn28q6n3jd6hbd8v2qxjypx"))))
+            "0vpxjbri5vs560rjfgy1fy8zi0jadfa0bxj0hqdc23bjmvdg45wx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/ob-dsq")
@@ -84338,17 +84338,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220404.2146")
+    (version "20220405.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "61e4a962f2fa827c2034dd68046a7ef646524740")))
+                 "a0d1c8eabca37cc03a893ccef7df4b2e980b92df")))
         (sha256
           (base32
-            "1bpb4hv5a1svsg6p1010i1bj7bq0qij8q7l04hnbnwwd66hlnkjp"))))
+            "155hnchlz5dmw1cwlgr31q7z547wxc49wc5pj6z7ar2gpkwg130y"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -93589,17 +93589,17 @@
 (define-public emacs-quarto-mode
   (package
     (name "emacs-quarto-mode")
-    (version "20220306.2243")
+    (version "20220405.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/quarto-dev/quarto-emacs.git")
                (commit
-                 "9250975a4602d7a78efa2b0e477088aa2df5659c")))
+                 "2a199735866dc34126a061c6f2990378b381e687")))
         (sha256
           (base32
-            "0n0cqcfmq9d36vdqa47scpny8hpdr975ykw01nf7924zacwgnjfb"))))
+            "0bdigc8d2b9g2dgdcalf5f0a7hh56sji7k78vv23ikdydmag5bi1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-polymode
@@ -108741,17 +108741,17 @@
 (define-public emacs-text-categories
   (package
     (name "emacs-text-categories")
-    (version "20220310.1053")
+    (version "20220405.1649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Dspil/text-categories.git")
                (commit
-                 "f046a0e3da5283fdf3046b2f4cf3689a520ae552")))
+                 "057078125fe69b11bdc86ace7134ceb5d92f1c7a")))
         (sha256
           (base32
-            "0amx3wa5vr913vvvz7vlyajvg8d5nagjfnc9gmi842nzqcm2699j"))))
+            "0jhjdbmcxjdizwmizypc51q2y7i970b64aihvy8yq1g3j49ryydl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Dspil/text-categories")
