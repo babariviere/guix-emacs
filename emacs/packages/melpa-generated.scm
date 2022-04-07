@@ -14052,17 +14052,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220328.155")
+    (version "20220406.2323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "073aef72ddf93f897a856c246c58dcdfe003674e")))
+                 "1005540b1cdf176cbcf893b2fa83d2075cbbe3ca")))
         (sha256
           (base32
-            "12446114dv6833wka84j49vqx5a6gy9rgbvniyml51xi00zfx44v"))))
+            "0fh1ym2axvhw25i4g56znsclapr9mvidq9n33cz4gxp4g2l82z2v"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28364,17 +28364,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220220.1404")
+    (version "20220407.329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "f23230e67c45536501d651ef6b93546b4ac9fe4f")))
+                 "54b9ba1ac0d7f8b644354fd6d27c9e3aff111dcc")))
         (sha256
           (base32
-            "0x9kfrcf59l0ql9b71a4hbgxjl9lb5w0fwydxcyz5ib0yk5nca55"))))
+            "165ba97ll0k8fsr3k2bxpwg4lnmd3513vn4mdgxcx9ll5p1jr4nd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -34630,17 +34630,17 @@
 (define-public emacs-faff-theme
   (package
     (name "emacs-faff-theme")
-    (version "20220401.1750")
+    (version "20220407.145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
                (commit
-                 "fffae9ada9057e81812f90edbd589f4a4f346768")))
+                 "f824c3f55ea42d65e0b632879c6948d3eb43b2f3")))
         (sha256
           (base32
-            "1rcjawwjk0jkihv26wrhhp0ncnj9qq1q16gkb9c8ys1qvaqyaiah"))))
+            "1i36ndcak5svml173v98dnw9vwa8bc0qxhnkwsrwmrnvg44rw0a0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/WJCFerguson/emacs-faff-theme")
@@ -43796,17 +43796,17 @@
 (define-public emacs-git-link
   (package
     (name "emacs-git-link")
-    (version "20220217.2315")
+    (version "20220406.2328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sshaw/git-link.git")
                (commit
-                 "f5691f8c66eb0f6050d9ab3834ab32661244b378")))
+                 "0197c9812417e18df2c7b5cd5c0084271c2f3286")))
         (sha256
           (base32
-            "1ifq9z4p0rbz2bpm6qz89xg5ycn5fflsyradzzxzsgyys0zc6szx"))))
+            "0vsgb6jridasscp45prqlwf8lh9x7br3cfqby2lwzgzr8kqphivv"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/sshaw/git-link")
     (synopsis
@@ -66736,17 +66736,17 @@
 (define-public emacs-lsp-jedi
   (package
     (name "emacs-lsp-jedi")
-    (version "20210602.1925")
+    (version "20220407.406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fredcamps/lsp-jedi.git")
                (commit
-                 "ab265f7fb26f4fa0385158a9f9d3649b606d2e23")))
+                 "b22927b2b51bde8692e70ea60cbb90ff4bfaffb4")))
         (sha256
           (base32
-            "013vmhcxz7648jxxhk69rr0v5br2839517l72fwzk770l02mc6si"))))
+            "1aadck54fx2f907wi0bm9bwrhjf9ivzfyrrgp50m8a4yjnh9acfv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -67810,17 +67810,17 @@
 (define-public emacs-magit-commit-mark
   (package
     (name "emacs-magit-commit-mark")
-    (version "20220315.250")
+    (version "20220406.2314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-magit-commit-mark.git")
                (commit
-                 "f0fff86ffb669357b0897132d386c4c19dbf300e")))
+                 "18d03e38f2825dfcf9d121720ee550294e5611a0")))
         (sha256
           (base32
-            "0l9fg19izp4f4ph9by1zz6nwpxpvgdl77kcbxykphf22wx5j0jyr"))))
+            "0621rcfbd81p6vlr2i3h9lbbqagp4iyr4z63g38y0bylfj4hlc8j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -71519,17 +71519,17 @@
 (define-public emacs-mode-line-idle
   (package
     (name "emacs-mode-line-idle")
-    (version "20220211.548")
+    (version "20220406.2322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-mode-line-idle.git")
                (commit
-                 "ab45689351aa089c9fa82805b2cf34847d26b407")))
+                 "6ff3eb73586e9f3d6197447290aa92fd49f467e8")))
         (sha256
           (base32
-            "08flayni445wfzkmzzvppw6ak03c0asipxdl3b8rwmwjjxglx9pd"))))
+            "1ygsfzw2s3d8jli2z6qsgmy3yrmigpy364525v7jrn2ns7p9i3kd"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-mode-line-idle")
@@ -99131,17 +99131,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20220331.1101")
+    (version "20220406.2330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/t-e-r-m/sculpture-themes.git")
                (commit
-                 "55baf9fa457069edbb76502a41fd5ca54ccd39fc")))
+                 "a21871b75cc7cb575ceb43640d039307fbb412e1")))
         (sha256
           (base32
-            "0d09x2fz2j7xdc8v6glpjc48l78c9rdv7b0vdxjzdwnyzdgvvfs0"))))
+            "0ki45bvc93p76mxpsm5pyknqgf67xz6c122yssps1hcxhdazij5v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
@@ -118157,17 +118157,17 @@
 (define-public emacs-xref-rst
   (package
     (name "emacs-xref-rst")
-    (version "20220211.548")
+    (version "20220406.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-xref-rst.git")
                (commit
-                 "f07722ac9c2952e86d9e84546c3c5eb1a768247e")))
+                 "7964709276ff033cd138efabfafb4f2179e75c22")))
         (sha256
           (base32
-            "1wq815c2bs1fqjkl7kjpzmhdlw95dsayvcgclnkk1bb70xgzsivg"))))
+            "15sdarz7iqifk9jazgp8l4v8ni48jb6rrixzmf1h60d5r3rf0z68"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-xref-rst")
