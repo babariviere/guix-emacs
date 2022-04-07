@@ -2419,17 +2419,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220406.1059")
+    (version "20220407.828")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "fc1ad6c4b37be643cacea9248b7a814527fa098d")))
+                 "99655faedf11c129cc78ed7b8edbcbb6f2e678d3")))
         (sha256
           (base32
-            "1zrgk8b07xgdh79mdsnaaqjpnxvqhc1zf4w4wcs6zm5rfck3r9lq"))))
+            "15g6h324fy01k6q15clrs5hmfyck8l6skbxzwqqqp519fzsbrcxl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -16127,17 +16127,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220406.1136")
+    (version "20220407.1246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "e9fa6ab2258f015fad3d3e87764872125bc57374")))
+                 "72d09f83be77b7673526ffc7a1388bb9dd6d2b85")))
         (sha256
           (base32
-            "0i7zp9za2rqvvz544kxswys04rl3y7akjqc02rqch33ps88xl06w"))))
+            "1p0m53mdfnjp2c9snk7vg834hhyzk8khq4sxjmjm6nrv1qcj3p38"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -24936,17 +24936,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220402.1952")
+    (version "20220407.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "a03b2ee3c775f9cf0348330ea2c327fe7abb8d91")))
+                 "66cbc3790fcaf6b03564ce6472a6c1390f4dda19")))
         (sha256
           (base32
-            "0nd3lpk2qgglll7xgxxhv6m5y458zqrvvxi1qgh2mp0h124nzgl5"))))
+            "07wkjyv61gal90ik39fd51ckg4zghw2i7r4m6m3lyw7lgfl3cfsp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -25906,17 +25906,17 @@
 (define-public emacs-eglot-fsharp
   (package
     (name "emacs-eglot-fsharp")
-    (version "20211020.1758")
+    (version "20220407.1355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "0ba09a8124cee35cf81f55b4db9144efeb00a92f")))
+                 "f6dec45d4c53c6193e61b299d0bf686567bf7f3b")))
         (sha256
           (base32
-            "1y11q6zbmdfwswgy205f0iqsd5c4075zsf135vsnc7bpmmkpgcvw"))))
+            "1gfrq2qgly03xwlrgabaz2f54avpqwkjbhp97s86jwmx8j2cfsyd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-fsharp-mode))
@@ -48456,17 +48456,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220406.558")
+    (version "20220407.747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "06772626648242fe308b9118518af36a29c9f2ed")))
+                 "1003539c2ec66e7697903f4b4cb354adea70040e")))
         (sha256
           (base32
-            "1g3715s00dcsbk1742wpz00sc98ysphhbcb6dbjnwz3nzjs729sh"))))
+            "1as3wxklmarcxl4mvl0gga54ghynh7bqxh6v4hapm83c2wyl4023"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49264,17 +49264,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220406.556")
+    (version "20220407.747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "06772626648242fe308b9118518af36a29c9f2ed")))
+                 "1003539c2ec66e7697903f4b4cb354adea70040e")))
         (sha256
           (base32
-            "1g3715s00dcsbk1742wpz00sc98ysphhbcb6dbjnwz3nzjs729sh"))))
+            "1as3wxklmarcxl4mvl0gga54ghynh7bqxh6v4hapm83c2wyl4023"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -57379,17 +57379,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220326.733")
+    (version "20220407.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-inkpot-theme.git")
                (commit
-                 "a8d0d2ecd4855ba91e21d0481b02dff3755f8afd")))
+                 "42925d521315ddefd0afcd7b003fbe7e3f97b15f")))
         (sha256
           (base32
-            "0qz91mzfp8ywk9ngaw60q0nczxykanl5sbgf42v9xfgm6fys8yal"))))
+            "0nfmpj0yf6vgkshshs8n3s6hxnsd8s74df6qqihdimzlsyj36fb9"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-inkpot-theme")
@@ -71657,20 +71657,20 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220405.630")
+    (version "20220407.959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "7f4cd627c224776d9682b508a9b058473fa51573")))
+                 "874a2834b5bd3bb6c3702194e6e14dbe4e9c10b2")))
         (sha256
           (base32
-            "1azrj062p703lxf52mny8mrmysp9lj5zkpiz53mnayqdcnj40vla"))))
+            "0h2kg81iff50w4mckl25fnbbwz0rb8r4nq4k71zzxw4w73nrpxai"))))
     (build-system melpa-build-system)
     (home-page
-      "https://gitlab.com/protesilaos/modus-themes")
+      "https://git.sr.ht/~protesilaos/modus-themes")
     (synopsis
       "Elegant, highly legible and customizable themes")
     (description
@@ -77818,17 +77818,17 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20220328.837")
+    (version "20220407.748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-oblivion-theme.git")
                (commit
-                 "3a1d67637ea4a6099a62de45842b8c5e4440ede4")))
+                 "95eff40ed18adbce14bb390e9a4a7d6fa864c14b")))
         (sha256
           (base32
-            "07jhb49zwgf0x2drnlxrach95hr0br3r96lwj4magc069almgbki"))))
+            "0094981c1nqqaf76azg5ap7xdagwjc5rypc16dk689najk77cqih"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-oblivion-theme")
@@ -80724,17 +80724,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220405.1255")
+    (version "20220407.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "ca6cd85724e1efd6d1d32983619d51956809b36e")))
+                 "25579fa1b317c5da9fbaa1eff34c82ef350df32f")))
         (sha256
           (base32
-            "0s1hyl4jcpljmh5rpy9gi552k3kqkfnnynmnkx0h5a9y73qpsj47"))))
+            "0hzd28bzlgp64xkvsxzdv6apq597c5zw7a37r3qwk30nk8anb9p0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -105562,17 +105562,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20200228.542")
+    (version "20220407.801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "32ae436a4cad49fea5038cc3e8eb638a3a83dd6c")))
+                 "a00beca4a1526fa85e087c9e67a981c801c4b79a")))
         (sha256
           (base32
-            "0dmjvgkhd445azs6vrj8lzcfmnm3h4prajr0c416s2ircrzpgnd9"))))
+            "1nnh1j67d7gb7yrlk03yx2yq26awahsihxbw1xpwpxdaq5m0q8x7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -108741,17 +108741,17 @@
 (define-public emacs-text-categories
   (package
     (name "emacs-text-categories")
-    (version "20220406.1319")
+    (version "20220407.842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Dspil/text-categories.git")
                (commit
-                 "11e280341b9466bad1acba7a1d486f99673d95bc")))
+                 "afd8126cee2ad4f7984cc4360fed675dc3b9e469")))
         (sha256
           (base32
-            "0337zrl829zh7y3szjla376xw3b90sw25gx9pzl5wmd5p6h7rb5c"))))
+            "18xpx2a1ckbx0k706y03srchdd12ajk9bamqh38rbsyl27axj0md"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Dspil/text-categories")
