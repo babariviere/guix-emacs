@@ -1717,7 +1717,7 @@
 (define-public emacs-affe
   (package
     (name "emacs-affe")
-    (version "20220407.2224")
+    (version "20220407.2313")
     (source
       (origin
         (method git-fetch)
@@ -16127,17 +16127,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220407.2225")
+    (version "20220408.657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "b50118f6e9ddf296c48e052d8b8d6dc6fa419e6f")))
+                 "6cfe1fdfd0979de28b2545b4f7f5ca051b0c959e")))
         (sha256
           (base32
-            "0ans1pw59p7j354qk5hqgl5l3cizf4sj7m6i3kxbk68nphv7jm9b"))))
+            "15czbccb4p5scfnfg9j68w9mpsc0zcrqyv33fnrd9fn4ng4gnj61"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -61643,17 +61643,17 @@
 (define-public emacs-kaolin-themes
   (package
     (name "emacs-kaolin-themes")
-    (version "20220404.2005")
+    (version "20220408.633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
                (commit
-                 "cdfbdd7f5f62ef1a2f7dd5a0bcd9577050f6db23")))
+                 "80505a6abe6dca761434be94fd6a1858e1aa1ba0")))
         (sha256
           (base32
-            "05fnvrsppnaji0fvlq681p3kv63pkkhlbk6fvsbnhjpgqrdzjj59"))))
+            "110zyihqm9pv7isv4k3wh1v1mhhpqikl3gr5m9y1f0n21npi5ccy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (arguments '(#:files (:defaults "themes/*.el")))
@@ -71657,17 +71657,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220407.959")
+    (version "20220408.646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "874a2834b5bd3bb6c3702194e6e14dbe4e9c10b2")))
+                 "b5aa33d2df742fd43a2dc8b7ea64650975798c85")))
         (sha256
           (base32
-            "0h2kg81iff50w4mckl25fnbbwz0rb8r4nq4k71zzxw4w73nrpxai"))))
+            "0kv645r0bg22a1f3q89isymvi9wnbl8jqx0amg8r66xq9klcgyqp"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -80375,17 +80375,17 @@
 (define-public emacs-org-journal
   (package
     (name "emacs-org-journal")
-    (version "20220103.829")
+    (version "20220408.629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-journal.git")
                (commit
-                 "733c5aec4d083fde748b95fd2d63fc3fcfa0d179")))
+                 "839a2e19865a03bec30ef32431f981f33880a754")))
         (sha256
           (base32
-            "1hmmw6zb6izxlfkhnc7linhgca22b5dfbc3yn13s4b31hi1hgnr5"))))
+            "0ggg9p1i016pkwa2322chpwisbllzp1vd4p3qbkzyd5mdp59gwph"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bastibe/org-journal")
@@ -84338,17 +84338,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220406.1315")
+    (version "20220408.219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "fe729e89c139f8e3d681fb8bd09068acc712e29f")))
+                 "3d9cc6423ddcffd2628f0f483e4bbec3f383296a")))
         (sha256
           (base32
-            "1xrcpqdwkdyzzshj2k0mqhfr0il2959fc20zfxjh5wh3kzjs9j7l"))))
+            "13yzsi1wisld6dv6jwszchmryq3isjs2qq913964icpphx8j2q6l"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
