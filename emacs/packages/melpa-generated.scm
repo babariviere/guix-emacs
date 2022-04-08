@@ -2419,17 +2419,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220407.1710")
+    (version "20220408.927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "bb80e15cf778a86c03e6950d4e42546b43aa5899")))
+                 "0e1130fd35a4dfe199a4f993956676d423948c45")))
         (sha256
           (base32
-            "08rrhmika0q3y4fpvv3i4kn3mfd8mkkyyyxx8gqxx2d3d73ck7kq"))))
+            "099jppi2x33na0sn8c4iaxzj5r2ahp5gqgdw6av1qz70rsnq0l6d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -3028,17 +3028,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20220407.1448")
+    (version "20220408.921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "47cb29be964bd6367c0f88dd24bfc75786cb283e")))
+                 "a3d42262f518a52e221c038cca3c1630ea90db25")))
         (sha256
           (base32
-            "11j9qp3zk8m476pby5hgwvbyh1h0midqw2xirc85858pi9yhjyzq"))))
+            "0vxyqkhdsvl2rch0ln3jbrs6wn96lbwn5bhpgrvr93bh6lzq3zl4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -16127,17 +16127,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220408.657")
+    (version "20220408.1512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "6cfe1fdfd0979de28b2545b4f7f5ca051b0c959e")))
+                 "e926d593d3e09d6bd1ffdf2dc55aec4c6f42abeb")))
         (sha256
           (base32
-            "15czbccb4p5scfnfg9j68w9mpsc0zcrqyv33fnrd9fn4ng4gnj61"))))
+            "1dm7x1cml9idsx4lyf7n154q3xk32rz92zh8bc0bcl8qvdk394sw"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -16341,17 +16341,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20220405.1228")
+    (version "20220408.909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "ca417a73c15368b8844fe22e4949d80f23b6c234")))
+                 "2da70d2241cb7bcc36370108d831ec98613f0226")))
         (sha256
           (base32
-            "0g4xjdkp8vkibbx9dmi2dz6w8bp3bqxmfx6am4vxk1hkd2240cd4"))))
+            "1nyb5v9ml5iagdh146b3xzj44471fa3k768djdmndz8gy45jsmvy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -23425,17 +23425,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220406.814")
+    (version "20220408.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "5de92d5f67b1ba2d04634373e23345f570a89e5c")))
+                 "432c167def75f9be4a743d90d4593252c9283c7a")))
         (sha256
           (base32
-            "1r7qqj5rgdijqaxlvfh3cq73bwp2jhw8cc319w6gv3123pa60cyx"))))
+            "1kng7ki8smffj7fjm28vbicx6a53iahzpk27ryqm6bnwvxv0brf2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -41717,19 +41717,18 @@
 (define-public emacs-fsharp-mode
   (package
     (name "emacs-fsharp-mode")
-    (version "20211229.1121")
+    (version "20220408.1321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "b3aa4c53fc9e98648b25ad036e657632ae2fe192")))
+                 "159d3cb7c6b12c86013c98ffbb8f480e48f6db3e")))
         (sha256
           (base32
-            "14n1xpj5waflhc1zj8mfnm4xavy560n1hamqk6a0dvsahpixjx6g"))))
+            "0556j305ismmvqxlp7r92n2dvyq6s06vjgx24m1556235np5b4yj"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s))
     (arguments
       '(#:files
         (:defaults (:exclude "eglot-fsharp.el"))))
@@ -42889,17 +42888,17 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20220405.707")
+    (version "20220408.1546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/gerrit.el.git")
                (commit
-                 "0501bc0887beca21fd7080c6560c1445e757f274")))
+                 "3425027a4394eb71fe1a6024799cb7b4b0e9413e")))
         (sha256
           (base32
-            "1mmlcxba2ak09a3l73wm7hc2rzhx6nxi4a5d7by0lzz9jf0r4s4h"))))
+            "17y1z7axvi6330dbzlvcgb8ydvg79kx78l0l1hki6wnzxy0dzvny"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-s emacs-dash))
@@ -53505,17 +53504,17 @@
 (define-public emacs-highlight-parentheses
   (package
     (name "emacs-highlight-parentheses")
-    (version "20210821.1957")
+    (version "20220408.845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~tsdh/highlight-parentheses.el")
                (commit
-                 "98178e79a92515fcacd278fb486702dedde0bed3")))
+                 "438a1cb2563e2a2496be4678cc0df8d5b22caf5d")))
         (sha256
           (base32
-            "02psp4sfirvab6bv9nylfqqfrmmz87wv8x1sf8bmrrqqk0rwn37p"))))
+            "0ixjai9w9x4sm1lx9yljl58r7ydbbjlkb0a2pbv316l8qph8w44r"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~tsdh/highlight-parentheses.el/")
@@ -68937,17 +68936,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220404.804")
+    (version "20220408.1102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "a514c024ac2796ec9d52f65c1f51b51f96bcb1c7")))
+                 "dbc37b373e734269bd75d1763e7309863508bf10")))
         (sha256
           (base32
-            "1adfckbis1033xwvkrxkq4z3zxzcnn1za38daqhdp0lasbxp6048"))))
+            "1jnh78iklq3s9rrh62l7vh5pff01jddnm8kmnffivgrhxr7m10n9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -71657,17 +71656,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220408.646")
+    (version "20220408.941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/protesilaos/modus-themes.git")
                (commit
-                 "b5aa33d2df742fd43a2dc8b7ea64650975798c85")))
+                 "a3a12c0afb843dc599a96d4fea410048979a41d7")))
         (sha256
           (base32
-            "0kv645r0bg22a1f3q89isymvi9wnbl8jqx0amg8r66xq9klcgyqp"))))
+            "1589kvn60daagvc7fr8hvkwir1yr4gbfcn68i9jgjvd7n4l7m1df"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -85224,17 +85223,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20220404.1243")
+    (version "20220408.711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "6ca68488851404a41dbf993095eeb49f76dff877")))
+                 "9e8c2d1f945c032ce310d37fcf6afee25980f152")))
         (sha256
           (base32
-            "00dblaqzrwd5bzhgrcgr53dg5fqk06invwb2464lmapg9ih41653"))))
+            "1758fcf0zcprc3g4wni1zz5xs6b1nzl2pwislq1hssciaychpbps"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
