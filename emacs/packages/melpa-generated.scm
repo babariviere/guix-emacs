@@ -69974,17 +69974,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220328.1431")
+    (version "20220409.24")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "6a0e74eb2ef507818291cd53dd5757435d6c79f8")))
+                 "ec03160337ea0c9f073b137791eea908491ff840")))
         (sha256
           (base32
-            "19r1dds0pd6f2fzc6yp24vhgz0mgrchvg57jpn4cxk6ckvvy73fy"))))
+            "13r5zlkw887dap6v5p24aff738r3gk4v56h8wcnzlfm09x6fwh07"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -76256,24 +76256,24 @@
 (define-public emacs-nyan-mode
   (package
     (name "emacs-nyan-mode")
-    (version "20200526.1054")
+    (version "20220408.2334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TeMPOraL/nyan-mode.git")
                (commit
-                 "06e67ab2c490756d3eeed4a68aba7c33e508a5d5")))
+                 "09904af23adb839c6a9c1175349a1fb67f5b4370")))
         (sha256
           (base32
-            "0d0hdjliad8afz4br38gwidph9zhmm5s09y45n95kqlazq62jfsx"))))
+            "03xp4dvq3y3q9xyb6pm9m5gb756rvbxcqk52ind08n7prqv4w1lp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("nyan-mode.el" "img" "mus")))
     (home-page
       "https://github.com/TeMPOraL/nyan-mode/")
     (synopsis
-      "Nyan Cat shows position in current buffer in mode-line.")
+      "Nyan Cat shows position in current buffer in mode-line")
     (description
       "Documentation at https://melpa.org/#/nyan-mode")
     (license #f)))
@@ -90379,17 +90379,17 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20220213.1524")
+    (version "20220409.339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-pr-review.git")
                (commit
-                 "5c44b06e314a43a30de8323cae75b1e87594f991")))
+                 "a1d35f5633d7181371e795e3f98c900ba5845bb6")))
         (sha256
           (base32
-            "1f2lrwbb85i31vcjin9b0gi89m2zn9w2npwi1sqp0bjd0ndimwp5"))))
+            "0cj9jjkgi1la9wkak8mnpx6d2xrjq5m03ia5bssaman6kxkwbq0f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section
