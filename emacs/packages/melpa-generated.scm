@@ -16317,17 +16317,17 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20220302.229")
+    (version "20220408.1923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-notmuch.git")
                (commit
-                 "883527072b56bb09dd921800bca13860caaa4ffe")))
+                 "5e952b540552dea5965929711a716775b9a0dc74")))
         (sha256
           (base32
-            "0xzpkpf2sb89qkbqcrwddp4pgnzdjp40bc5da22jq9r4pf67y7qs"))))
+            "1jg05qng54j8m5rnvp8x5fv9ib4i8ba2g569vjgazjq20g6b3lc8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-notmuch))
@@ -28431,17 +28431,17 @@
 (define-public emacs-emacsql
   (package
     (name "emacs-emacsql")
-    (version "20220101.1820")
+    (version "20220408.1614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/emacsql.git")
                (commit
-                 "c82a0e6b4d256a3743b718cfb640fa9efc045f6e")))
+                 "373975cbccf7776af771e23f86043b236a330702")))
         (sha256
           (base32
-            "016lnzdsrwrghnnm8ljmzbqrcdj77pmg23nh3k3ayrh5n20ssdli"))))
+            "0p4aj1h0qp201vywdlsc8snga8b6bn1ndzrzsaw7rwpa3b6c4i4s"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -47386,17 +47386,17 @@
 (define-public emacs-guess-language
   (package
     (name "emacs-guess-language")
-    (version "20210623.1505")
+    (version "20220408.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tmalsburg/guess-language.el.git")
                (commit
-                 "e6b78ed2a36bf5debd3d07ffd99a5a8ca60609d6")))
+                 "b1fc363ca2c30b8a8ddaf2e366bca7770c8cfbec")))
         (sha256
           (base32
-            "0g0vdz42s6hns249lfxcha7l7ihqpyay3n5iijziwrbrrhqi6rx6"))))
+            "1sgzvi6ax05rfnjdlmhkd52sr26b6w3q1lfcrrv6rdzsifarh2iv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("guess-language.el" "trigrams/*")))
@@ -67698,17 +67698,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20220329.1721")
+    (version "20220408.1250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "61b2935152b3c2f9511bcd399c55c4aa252fa233")))
+                 "9c0faba222afc875cf604dd7fe4265f1ff891535")))
         (sha256
           (base32
-            "1pf6f7x09gmv2f1sxa618r5y04xs0k0ivpppfsyyfs4qyyl14gr5"))))
+            "17wz1mwfnpjzqzzlhns5jk7zc7ma22kasb0wfpwrnsra8wdx4svj"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -85223,7 +85223,7 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20220408.711")
+    (version "20220408.1247")
     (source
       (origin
         (method git-fetch)
@@ -93266,17 +93266,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220407.1853")
+    (version "20220408.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "049b61e942546417744c246623d4e4bd676d95a6")))
+                 "ee956c6a6c5aacf3cc32479eed9f84ccc5aec7dd")))
         (sha256
           (base32
-            "0jcnwqlhz5rdzlcx7jyx3llgn6211clf9b9za5gccbb59pr0jh9f"))))
+            "1gdff63rn5aiwxkaxr5bqgs4zda3qd84bc1bqd40wjdfmhzr41if"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
