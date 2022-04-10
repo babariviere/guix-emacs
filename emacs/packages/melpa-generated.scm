@@ -3599,17 +3599,17 @@
 (define-public emacs-aproject
   (package
     (name "emacs-aproject")
-    (version "20190730.152")
+    (version "20220410.541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vietor/aproject.git")
                (commit
-                 "b534e2a62738ad59a8a3cddd386466c145dad3b2")))
+                 "13e176ee69851403bec6471c5cceed17b7912b6f")))
         (sha256
           (base32
-            "08nhfa845cn20kx0q9rchs24imfmvpywi1b8mn40d1lw587yr519"))))
+            "1kb1vlqla4l2mixkd5awmgbh0bzwbngj8sq5mjvrw6slf7i35xjn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/vietor/aproject")
     (synopsis "Basic project framework for Emacs")
@@ -16127,17 +16127,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220409.1158")
+    (version "20220410.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "d30213aa209391e03b1c1011df92d91a1fc5ef32")))
+                 "0e6d3ef3c87c68b57db5b118ea6cb541055f87cc")))
         (sha256
           (base32
-            "0z6zhi4xnciykwbjl81w3rn6n1fcyx8jclsgbrf50whwc8zcrqbi"))))
+            "08wyzl5zi3ji8wdpkp8khkbn23b5jsk1wnk99mk9r3gii9vshkdb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -16341,17 +16341,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20220408.909")
+    (version "20220410.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "2da70d2241cb7bcc36370108d831ec98613f0226")))
+                 "53b50493309a8f5e4dcc3951ec341b3124fddbf6")))
         (sha256
           (base32
-            "1nyb5v9ml5iagdh146b3xzj44471fa3k768djdmndz8gy45jsmvy"))))
+            "00bc1padsnw6dmnfabl90p4qj8709446vvmb8i0gbk5a36m2yjn0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -66164,7 +66164,7 @@
 (define-public emacs-lognav-mode
   (package
     (name "emacs-lognav-mode")
-    (version "20191124.1011")
+    (version "20220410.1344")
     (source
       (origin
         (method url-fetch)
@@ -66174,7 +66174,7 @@
                ".el"))
         (sha256
           (base32
-            "0hzvf05r5sjb0jyjbmrxvz4g92g712np9pfwz91sm8g3gszhnlp0"))))
+            "0xzah5n869v29zcvp88sdhynf3wqgq994s5lphgkf4hy7v76gvk7"))))
     (build-system melpa-build-system)
     (home-page
       "https://hg.osdn.net/view/lognav-mode/lognav-mode")
@@ -68958,17 +68958,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220408.1102")
+    (version "20220410.810")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "dbc37b373e734269bd75d1763e7309863508bf10")))
+                 "f7026bac4809be5e0625070d429be1acee9d4989")))
         (sha256
           (base32
-            "1jnh78iklq3s9rrh62l7vh5pff01jddnm8kmnffivgrhxr7m10n9"))))
+            "0qkzx8ym59y0nbzrm6l2fi1svp75cq9vfhgn2wlayjrn1nic1x0k"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -75362,17 +75362,17 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220409.1627")
+    (version "20220410.1334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "9c842eb654d1f102fe3360cfe446bff760678c3c")))
+                 "bfa7b2f9abcc7a18472c6998634450c876900170")))
         (sha256
           (base32
-            "0qab0xf5slfdqdh676biasrwsmxqblkc0bnai32511n968j0fsq4"))))
+            "1d6c1zad3gava05ncnqxznbcy1y3m4hcs1x9p5dbqcs2vsw5l5ln"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash))
@@ -84751,17 +84751,17 @@
 (define-public emacs-ox-reveal
   (package
     (name "emacs-ox-reveal")
-    (version "20220216.1506")
+    (version "20220410.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yjwen/org-reveal.git")
                (commit
-                 "fed9be1f4c317c08ca2372bd45cb9d1bcf8a3f7e")))
+                 "862b41df7734f57019543f6bd82ff7dad7183358")))
         (sha256
           (base32
-            "1vmkj60lmah79r62k2gigkblilkw21ciyj324iwvk6hqmaahw6km"))))
+            "1009w8bp2rkqjvks97xlzbprrb1fxhcdb9fzx08ak229glvwav08"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -105165,17 +105165,17 @@
 (define-public emacs-ssh-tunnels
   (package
     (name "emacs-ssh-tunnels")
-    (version "20190622.931")
+    (version "20220410.1424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/death/ssh-tunnels.git")
                (commit
-                 "d32e2072f50bcbde787196abb5862735837dc8be")))
+                 "a74488a71c2827dcaf42d9381d0d974aca96e27f")))
         (sha256
           (base32
-            "1i0wmdv0pglsz1pbhfjrpr1q6sxh1q74s41vnjxk5r2q8p1fh69n"))))
+            "0lrfrzxwjrhj90ampkg92pcpblb4i7744kwx2sl6ivkp7ldklyfn"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/death/ssh-tunnels")
     (synopsis "Manage SSH tunnels")
@@ -105606,17 +105606,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220410.629")
+    (version "20220410.910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "77ac490c5a65e513d9e4274042af688aa54be91f")))
+                 "971382eff7c291e4c247aa9b8b846281be324d7a")))
         (sha256
           (base32
-            "0w8sras03126zza0a8hmq0fzmn807614ay7njlr3l7ivi2v6ivwg"))))
+            "0bpjc7dgylv0fra5dskjq0kx4naz62aafsyd9wcvs01sfkafymva"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
