@@ -41027,17 +41027,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20220404.512")
+    (version "20220409.2327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "69e72fabb010cac2e0f3d3294b8bda2edc3aecc7")))
+                 "36d47eb6db6f5ab1882fab8365fdae56fbada38a")))
         (sha256
           (base32
-            "0czcc6kllz1qdwahlzcppdb4b62sfc3k0ainjab350w4rbxzjsxd"))))
+            "0llsvhaw6b0qgdf2r0zgax43ibwdzdxk7w3idjxk749zl6cy52kf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -42431,17 +42431,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220409.1621")
+    (version "20220410.306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "5b9532a571b28f1f82f0eaaecc1f7792473bdc6c")))
+                 "1300dd1a410a172588c529734a4fb1c8b58eaef1")))
         (sha256
           (base32
-            "16r64vvgnz07h3c9nmf2rj6vq46pzrdqlsws4y7znl5w8iapk1mv"))))
+            "0ssw15rmn06nhk9zdpgkqclc603phx5jh3r5zjvf2pm0gdacwy2y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-transient))
     (arguments
@@ -81789,17 +81789,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220327.1811")
+    (version "20220409.2317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "36152590ad1e8ffea86cb909e5ef818cbdb2a22d")))
+                 "3bb45afccb9f17758c5604e4d883c769f4fc3545")))
         (sha256
           (base32
-            "1n07zfd47m0hkgmv736arj9rsgvvrm6sz3rayzp5vx60i8jlnqp7"))))
+            "04pdlix7wcgkfml41dy2arr2sv3z9s4g3r4ydrbash4w257q9bqq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82391,17 +82391,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220401.929")
+    (version "20220409.2310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "70c0a5b49712cc612ff367a6616630cef926ac3d")))
+                 "72456c2a1caa811a4cda2f7b07ba58645c3efbb8")))
         (sha256
           (base32
-            "1i3gn85ks97h2wwnjzqbs3bw05bhcjabirdyva8waw6pv91wf9jj"))))
+            "04lgrbgk0jsmgkla8jif6kma9328535ajrvqaiyja0r2c5d5x7ng"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -105606,17 +105606,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220407.801")
+    (version "20220410.629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "a00beca4a1526fa85e087c9e67a981c801c4b79a")))
+                 "77ac490c5a65e513d9e4274042af688aa54be91f")))
         (sha256
           (base32
-            "1nnh1j67d7gb7yrlk03yx2yq26awahsihxbw1xpwpxdaq5m0q8x7"))))
+            "0w8sras03126zza0a8hmq0fzmn807614ay7njlr3l7ivi2v6ivwg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
