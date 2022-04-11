@@ -2419,17 +2419,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220408.927")
+    (version "20220411.222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "0e1130fd35a4dfe199a4f993956676d423948c45")))
+                 "b2fc7db5432431e56babb3440c7a4aab8ff0744d")))
         (sha256
           (base32
-            "099jppi2x33na0sn8c4iaxzj5r2ahp5gqgdw6av1qz70rsnq0l6d"))))
+            "1620wmakvgnar61np80jsr52gixxir70fmbf70kn2kv0ybza1ngw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -3530,17 +3530,17 @@
 (define-public emacs-apparmor-mode
   (package
     (name "emacs-apparmor-mode")
-    (version "20211014.2319")
+    (version "20220411.648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexmurray/apparmor-mode.git")
                (commit
-                 "9d1937af52cd8ecfeec27185644ea8cbf0dc1c08")))
+                 "abc2a6adf563b89daee9f8fa07a71d78957defdb")))
         (sha256
           (base32
-            "1kzvqxz0m2lgcm0whb121g1580vi7bvk4fj780d5xqqqlv0091a0"))))
+            "1gyvz9659r3563hn68644v4lahnsa0ax9np31p7y4p8j6mhsc0y8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alexmurray/apparmor-mode")
@@ -11919,17 +11919,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220409.1221")
+    (version "20220411.146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "f5291bddd999bb0ff9d05aa9f451f05712a03f06")))
+                 "c94799e9f33e0645b5ac8696e19bdc9328d7cb7e")))
         (sha256
           (base32
-            "0ivyf0agmhf8jcsv3nsvpsdv2xgzm4i3grjqscfbma69pvsx9519"))))
+            "1p8jdm08r4gyc7p00i1dp2k52ddhqwxyy7f1wzkpx6rxjbqlah95"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-parsebib emacs-citeproc))
@@ -30263,17 +30263,17 @@
 (define-public emacs-ergoemacs-mode
   (package
     (name "emacs-ergoemacs-mode")
-    (version "20220223.1148")
+    (version "20220411.338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ergoemacs/ergoemacs-mode.git")
                (commit
-                 "757475874a840f99b20c56182c7199257b6ae477")))
+                 "9cd89eef490f6c9f4af273bb3dd2c68d5ed2de61")))
         (sha256
           (base32
-            "1ipwzl0l26g5qvc1sgmz2ra5vn1j3hl0mnkgzpa3j4p8gsmxdiqr"))))
+            "10p8pi5hlaka2pbrrzfcxjsrv142394k17z8hdx1fq0gvjcycrpl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -77839,17 +77839,17 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20220407.748")
+    (version "20220411.425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-oblivion-theme.git")
                (commit
-                 "95eff40ed18adbce14bb390e9a4a7d6fa864c14b")))
+                 "d46983d69d75d8db6284ad297b17eedc495be2eb")))
         (sha256
           (base32
-            "0094981c1nqqaf76azg5ap7xdagwjc5rypc16dk689najk77cqih"))))
+            "1wgv1hjm7xsy4f0xgh2ndiknxxbr4scrvzvqqz530f3nxx00hwz9"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-oblivion-theme")
@@ -90425,17 +90425,17 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20220409.339")
+    (version "20220411.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-pr-review.git")
                (commit
-                 "a1d35f5633d7181371e795e3f98c900ba5845bb6")))
+                 "258a3590d903daa644bd326526d051d89ae0db16")))
         (sha256
           (base32
-            "0cj9jjkgi1la9wkak8mnpx6d2xrjq5m03ia5bssaman6kxkwbq0f"))))
+            "014rgbas0y3x0wlcaz0qsdfrqi8fg21ddz3bhbrd83s8lld0sg6q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section
@@ -92769,17 +92769,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220130.722")
+    (version "20220411.238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "028e443527166e8cd6ecc903e635fbe89aca9c91")))
+                 "01d6c038b87ddf61cb60e77e7b43e398b9f780b5")))
         (sha256
           (base32
-            "1qpskp8jqxwfbg274lkl95fmilygzxqpy2i7vv0vdl7pdknvbkgk"))))
+            "126hdpng1zi0x63l4mlc468hpfqcwpk6l4yz7x6gsdy2v6ib4zrg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -105607,17 +105607,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220410.1545")
+    (version "20220411.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "76e15e4b8bcb08fcae8a669e1ae8df81d0f88fdb")))
+                 "b8351ca8ed5eb685fe1105b85b7b4c09efa1624b")))
         (sha256
           (base32
-            "10i3n2nrbp5ywza2kcc8gw1f9wlqj83ckhawvg62bsnwspyz32ni"))))
+            "0j2s8wbn9ppnf79hb801z0ffnwpdizw5fp3mij1jj9mp377j8m5q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -109976,6 +109976,28 @@
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
 
+(define-public emacs-tokei
+  (package
+    (name "emacs-tokei")
+    (version "20220410.1528")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nagy/tokei.el.git")
+               (commit
+                 "948a62dc7b2f66db4f25b1836dca6bc20ea2f02d")))
+        (sha256
+          (base32
+            "0si14i2ii2y3s142dw3q9ypcddhdyb73vhh8gnwb00v1amyb465g"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-magit-section))
+    (home-page "https://github.com/nagy/tokei.el")
+    (synopsis "Display codebase statistics")
+    (description
+      "Documentation at https://melpa.org/#/tokei")
+    (license #f)))
+
 (define-public emacs-tomatinho
   (package
     (name "emacs-tomatinho")
@@ -112260,17 +112282,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220327.1405")
+    (version "20220411.359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "2fe1efcfa1cc790fa466894cf3f7629352e8627f")))
+                 "4b14cea4a9ea548f6e28ff1bdfe28814cabc5b2b")))
         (sha256
           (base32
-            "0gll5g9sqzp1q9s2m7imf4564b3gsq0aavmq8w1snml86s7rcmgf"))))
+            "0v01byy0q0p2xkrymcnyp35qnsgqyg4a2mg2ipkbxch9rmjrkyvf"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
@@ -113479,6 +113501,28 @@
       "Compilation mode for W3C HTML Validator")
     (description
       "Documentation at https://melpa.org/#/validate-html")
+    (license #f)))
+
+(define-public emacs-vampyricdark-theme
+  (package
+    (name "emacs-vampyricdark-theme")
+    (version "20220405.2235")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/VampyricDark/emacs.git")
+               (commit
+                 "000d0b30b83e2d3b1a83eac165dca414fa52a60d")))
+        (sha256
+          (base32
+            "0s7zvxkgxhigfi977cjf5p7p6as8k51gc4aifb8x8c1blcb105br"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/VampyricDark/emacs")
+    (synopsis "VampyricDark Theme")
+    (description
+      "Documentation at https://melpa.org/#/vampyricdark-theme")
     (license #f)))
 
 (define-public emacs-vbasense
