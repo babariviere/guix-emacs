@@ -28015,17 +28015,17 @@
 (define-public emacs-elpher
   (package
     (name "emacs-elpher")
-    (version "20220228.1307")
+    (version "20220411.818")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://thelambdalab.xyz/git/elpher.git")
                (commit
-                 "ecb5e17d37249bc38c25ee278094fb93b63b0a49")))
+                 "ab75cffa4572115c3d6b17348b6bfa2f746f4798")))
         (sha256
           (base32
-            "0q2wmsxvcg6c98fbnldk64lc49zlzd42k8zisk03f8g91l12wxac"))))
+            "166fjq9d883hifa35zklyjrm4c575nd6zxdx7akbwibrgwi65bl0"))))
     (build-system melpa-build-system)
     (home-page "https://thelambdalab.xyz/elpher")
     (synopsis "A friendly gopher and gemini client")
@@ -36717,17 +36717,17 @@
 (define-public emacs-flycheck-aspell
   (package
     (name "emacs-flycheck-aspell")
-    (version "20220128.1518")
+    (version "20220411.826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leotaku/flycheck-aspell.git")
                (commit
-                 "ffe905560bb917ae4bbbbb8ad2d7e2c70664225a")))
+                 "5ec0f9b28b1d86eec192b23bc24d9a33dfe51882")))
         (sha256
           (base32
-            "1rk5vlw8c2d0jycp1i7r030gldwg0fikj23fj7z3sw5x254p7waq"))))
+            "02qv8gxlnasak87gggfg1643m5281fzjh4snpq1gjwyv6biqlldz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files ("flycheck-aspell.el")))
@@ -39149,17 +39149,17 @@
 (define-public emacs-flymake-aspell
   (package
     (name "emacs-flymake-aspell")
-    (version "20220128.1518")
+    (version "20220411.826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leotaku/flycheck-aspell.git")
                (commit
-                 "ffe905560bb917ae4bbbbb8ad2d7e2c70664225a")))
+                 "5ec0f9b28b1d86eec192b23bc24d9a33dfe51882")))
         (sha256
           (base32
-            "1rk5vlw8c2d0jycp1i7r030gldwg0fikj23fj7z3sw5x254p7waq"))))
+            "02qv8gxlnasak87gggfg1643m5281fzjh4snpq1gjwyv6biqlldz"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("flymake-aspell.el")))
     (home-page
@@ -48477,17 +48477,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220408.639")
+    (version "20220411.557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cac2ffceefb816a3dcb005ed2d4e1fc8b2450669")))
+                 "90841263c9e7535bbf5ddcf00843c8c150ef4c71")))
         (sha256
           (base32
-            "16j0wnkk58qac5w82k9y2dzxxypkb9lm55n5xc4bwv12h8l4kqn3"))))
+            "1agrhmyvp26c62glvd7sbxh90h6rrjy187p8xpf0z5fzz93hi3kp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -57400,17 +57400,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220407.754")
+    (version "20220411.526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-inkpot-theme.git")
                (commit
-                 "42925d521315ddefd0afcd7b003fbe7e3f97b15f")))
+                 "c19880e06bc06228eb5a8447e5e920004e148bb3")))
         (sha256
           (base32
-            "0nfmpj0yf6vgkshshs8n3s6hxnsd8s74df6qqihdimzlsyj36fb9"))))
+            "1ypiizlyilrj99aj1gzjjjfvr4prwdiy1h1a8kg443wzbi43283n"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-inkpot-theme")
@@ -71678,17 +71678,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220409.1314")
+    (version "20220411.512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://gitlab.com/protesilaos/modus-themes.git")
+               (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "7cdf9302a3ea6ba739be08dbf66e8bd6cfad2833")))
+                 "df59b4ca8d850722845a125722aa0949a5603a26")))
         (sha256
           (base32
-            "16rrp2i8i4934czddn5nb6h9cgygjzd1m0g7qmajgqd6fnlf9yig"))))
+            "1gk5ra050ykj3l8bscqz72b9gqkbjdbbbbicdvdjb8m59rgbabkw"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -77839,7 +77839,7 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20220411.425")
+    (version "20220411.525")
     (source
       (origin
         (method git-fetch)
@@ -81744,17 +81744,17 @@
 (define-public emacs-org-review
   (package
     (name "emacs-org-review")
-    (version "20160907.537")
+    (version "20220411.1205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brabalan/org-review.git")
                (commit
-                 "058e75b7f28d2ad2390290fe17a63d98ef5ab763")))
+                 "466f7d8f183f226f1e665cf806cb094471903d9c")))
         (sha256
           (base32
-            "1j917zblg5ncls9lbvpzhqal55mx27d3kpvhzvjw2h7x47ji6iym"))))
+            "122l2n1qz5qps3jphimp1dd743ckbqcvnjdwc5zcdzp9x70yy3nh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/brabalan/org-review")
@@ -90425,7 +90425,7 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20220411.130")
+    (version "20220411.527")
     (source
       (origin
         (method git-fetch)
@@ -105562,17 +105562,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220406.739")
+    (version "20220411.703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "e092cd79d777ac7ed0c4347e8edc5a0515276fc2")))
+                 "19023d8b81c43cbaea62a87017b8762b8b190bbb")))
         (sha256
           (base32
-            "1i81r7wzn6lp3zz5p3384fffhva7ggng8nk9qkq296w5hl4311d7"))))
+            "0ixlrhksgvpzbg1r4p9msfzmrjyaz5qckyj4rjvhdkdsncxchs4v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -108159,17 +108159,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220406.706")
+    (version "20220411.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "f51cf4ad3b1e71fc825c155b570a393e3991b328")))
+                 "bffdf5140c86cdae2d8b381ba31f82ed5f98720c")))
         (sha256
           (base32
-            "0mzc85jp54cx6ivg07wnzz17jsv74fp8zf5j6gn5zn10x360avip"))))
+            "1bxjahxm4hiwfjpimplj075qvz2hw2540b920rls61s3jy1aizb6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
@@ -109956,17 +109956,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220409.1346")
+    (version "20220411.655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "511083e43dd4402b0a6bdd1c4f0f678c35ee0904")))
+                 "f8ec6b3e301d511649ce84b36067c8eab7038c72")))
         (sha256
           (base32
-            "0zg0krxj2a1bn7klih35dl7ffx49rzh5vamizgbikkzlqszk44hv"))))
+            "08lssap3c9dsy1w66mhbyam9f2rhdmb2dw25fzzgy1ziqg1mn0rv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -112282,7 +112282,7 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220411.359")
+    (version "20220411.809")
     (source
       (origin
         (method git-fetch)
@@ -113299,17 +113299,17 @@
 (define-public emacs-uwu-theme
   (package
     (name "emacs-uwu-theme")
-    (version "20220410.1738")
+    (version "20220411.1015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kborling/uwu-theme.git")
                (commit
-                 "27d294add7cff66c7687b2b3674d8caed43e2c05")))
+                 "5ae7d9d1cb64bca22f3cffa8f02d49db707f6136")))
         (sha256
           (base32
-            "0x49iavzl7sz0mhrr2rfm7sypcqx1499bf1xdmxzlfg8z1y9x2jb"))))
+            "1hp3mrnqsy7l47nzs3nrvf8dgzz0hd7v0iqgpw917x6cf0pqxg16"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kborling/uwu-theme")
@@ -119798,17 +119798,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220409.1128")
+    (version "20220411.923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "813edf7b19a9d787260077a2fd59c3ec04dd3268")))
+                 "d03cc5905b9883ee328769d41532a49115823bc2")))
         (sha256
           (base32
-            "1vz7y1yvn34yx4d971c7fqrk67i7gc46zqbp7462gc4y5g4ayksy"))))
+            "1f19izadrphsv88yw64zlzqc42w4gcchajc8qygi0ng3lsagdr59"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -120044,17 +120044,17 @@
 (define-public emacs-zoom
   (package
     (name "emacs-zoom")
-    (version "20201215.1913")
+    (version "20220411.1126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cyrus-and/zoom.git")
                (commit
-                 "c7beef180bc4037404e2d56b9ab9b7c76d1713a0")))
+                 "2104abb074682db79b9ff3a748e8e2e760a4d8cf")))
         (sha256
           (base32
-            "0vzrg5vfb4rnripdxlnl2gs6mm85ysiwnn8rclsaljrmk5xrp5ls"))))
+            "0wp7a1ibyqll8rpirsiazpf51lnd0q3yrya9pqvlx9ik5r41jp2m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/cyrus-and/zoom")
     (synopsis
