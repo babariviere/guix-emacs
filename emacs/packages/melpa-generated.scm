@@ -31825,17 +31825,17 @@
 (define-public emacs-everlasting-scratch
   (package
     (name "emacs-everlasting-scratch")
-    (version "20220401.1521")
+    (version "20220412.206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/everlasting-scratch.git")
                (commit
-                 "7aeb3633eab5856351e8f8454e851200a42b8816")))
+                 "b083307628bed077345196f6d4e4212af04297ba")))
         (sha256
           (base32
-            "0hpvxwd8fflsvq95slh1pfsr34zxy63xbbskx4d9497yja4v88il"))))
+            "0h3bkk08w6ivf0gm6kqa85gkxhlzlksl1xdynfka3inq824ynwn8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/beacoder/everlasting-scratch")
@@ -31847,17 +31847,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220403.1955")
+    (version "20220411.2143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "067a29214d9d4e1fc4b4d29fc596ad4cefe7e492")))
+                 "a6a6a83e1038acb4093fae4b46aa415a210ba17b")))
         (sha256
           (base32
-            "048dgbyyswwdvw5px9zy0ys2f65kbgsba33wmpaqslgb8m7d62bl"))))
+            "10ryikrwp8bmd0fdsyaaxzpnl0lfr2jcq7703m033681awaysdgl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -32044,17 +32044,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220411.2051")
+    (version "20220412.607")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "4e9468d1db419009804b92e316bff503e6ba4697")))
+                 "86abadd96cf611989af2d07efbf60766d06a5c74")))
         (sha256
           (base32
-            "0p3zr18axj7j99k3kvcz5gwayfcdj9124wbqv4knhw6m8v3br557"))))
+            "0mzj462l94jzjxndsar0ap6hq2h5fgz2rk1xjp09qyzja58b71yf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -33350,17 +33350,17 @@
 (define-public emacs-evil-tex
   (package
     (name "emacs-evil-tex")
-    (version "20211208.1631")
+    (version "20220412.621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iyefrat/evil-tex.git")
                (commit
-                 "a4b8a4769efb4cf38d91f51145b275f64bdd832e")))
+                 "ae397c8bfe8d16e54e96a9955273b767fc2347fd")))
         (sha256
           (base32
-            "00mrxmf6s3fss6jb0aic09vk2sk6zpy367nzy8i4r4s7zlnv4wsh"))))
+            "1lz787yshg8zadd9bplx0cppn4ch7sfrwppa5spivnysnnxh876k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-auctex))
@@ -52877,17 +52877,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20220220.2308")
+    (version "20220412.421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "67cdd1030b3022d3dc4da2297f55349da57cde01")))
+                 "c2729a236a84a1fbd3d184c163fbd10e0fd62077")))
         (sha256
           (base32
-            "064rnxcf1w7zrjr39a72hngyndj24wkmmyqrgr1bpgsl87zgvbrg"))))
+            "0q5a1s4wkxjp56gy95qzkxzz8w46djacgh9fhwm509rkkdxpp30c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -57400,17 +57400,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220411.526")
+    (version "20220412.538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-inkpot-theme.git")
                (commit
-                 "c19880e06bc06228eb5a8447e5e920004e148bb3")))
+                 "8e5c3ce6269debfe7879dfa33a82a4f63c881720")))
         (sha256
           (base32
-            "1ypiizlyilrj99aj1gzjjjfvr4prwdiy1h1a8kg443wzbi43283n"))))
+            "1q3j1vfyh0a5fmqayz6q6znwszmkpbyv717lzqpjlll4yj8bzw37"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-inkpot-theme")
@@ -87338,17 +87338,17 @@
 (define-public emacs-perspective
   (package
     (name "emacs-perspective")
-    (version "20220404.2142")
+    (version "20220412.547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nex3/perspective-el.git")
                (commit
-                 "4b3111cd23f980fc2bda83bd0f23066c78d910cd")))
+                 "9f898cadc43c2c2e947d72636af30f028e2b925f")))
         (sha256
           (base32
-            "1vmdgxkda1smmljik0x3267m0z0ivnn41jxk46bcna8zl7kcgf0d"))))
+            "0ay7h3gr1qf01im17jn1jpj82lyd5mw0ynryq4l21mjxbsb9vvmf"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nex3/perspective-el")
@@ -90425,17 +90425,17 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20220411.527")
+    (version "20220412.440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-pr-review.git")
                (commit
-                 "258a3590d903daa644bd326526d051d89ae0db16")))
+                 "cfc5643c4ab66f17a31d82418465ae434486d8db")))
         (sha256
           (base32
-            "014rgbas0y3x0wlcaz0qsdfrqi8fg21ddz3bhbrd83s8lld0sg6q"))))
+            "0gf5s7f4906qypy3imaqh7zy24xd1ijz57rh72vdvjd33n4x857f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section
@@ -105607,17 +105607,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220411.1449")
+    (version "20220412.132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "c39058e8badfb838302dffe69eda3f50776b1781")))
+                 "25e105bded1acb6533ec388df9cbc153b56d7b6e")))
         (sha256
           (base32
-            "0sakafnjcp9vb8jz6zfsrvkn3inf8095qbdj17vx7xki448qjv72"))))
+            "0l2hhvpqjd3q97qi9ymz1fczlw01d2hayaq2933yrvyss035mkbs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -113847,17 +113847,17 @@
 (define-public emacs-vdirel
   (package
     (name "emacs-vdirel")
-    (version "20210813.754")
+    (version "20220412.646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/vdirel.git")
                (commit
-                 "dccc51bf68ad3f0066a462b354ec395229bd6a7f")))
+                 "4eebcf91bdb9ee10fbbba198c4995ae070442f26")))
         (sha256
           (base32
-            "0mlfmigqsqmvn3rzyxnpq5zy6k0xf4vd2ww2qrr7kd2dqyv55hhw"))))
+            "055qn11in0wz3mcvhi8kf187m7z55w4gs8pxq017bpx094xmqvhz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-vcard emacs-helm))
