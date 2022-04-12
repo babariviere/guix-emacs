@@ -16127,17 +16127,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220410.1437")
+    (version "20220412.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "0e6d3ef3c87c68b57db5b118ea6cb541055f87cc")))
+                 "af452dc5d429e15fb1228dd6967d592f1c483640")))
         (sha256
           (base32
-            "08wyzl5zi3ji8wdpkp8khkbn23b5jsk1wnk99mk9r3gii9vshkdb"))))
+            "0b87i9v4mdd9ay1kngsylp725vkw9wvi3r1mqd6gb49ygs9bz6f6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -23447,17 +23447,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220408.1447")
+    (version "20220412.853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "432c167def75f9be4a743d90d4593252c9283c7a")))
+                 "7d8eb7c44087a62d8dd6e8ba1afc26facd914fbc")))
         (sha256
           (base32
-            "1kng7ki8smffj7fjm28vbicx6a53iahzpk27ryqm6bnwvxv0brf2"))))
+            "0y050g6qgzzw7krabgw0gx2dx6mv7kkzy5y501id37cgryhws483"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons
@@ -31825,17 +31825,17 @@
 (define-public emacs-everlasting-scratch
   (package
     (name "emacs-everlasting-scratch")
-    (version "20220412.206")
+    (version "20220412.921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/everlasting-scratch.git")
                (commit
-                 "b083307628bed077345196f6d4e4212af04297ba")))
+                 "b3f8339f9564a1926bd8b71c163fa7660cc3b1f4")))
         (sha256
           (base32
-            "0h3bkk08w6ivf0gm6kqa85gkxhlzlksl1xdynfka3inq824ynwn8"))))
+            "17lbrcgddrxw111a8al3i5cgnksmkv1qi0wzqzmvvggq073mvmqr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/beacoder/everlasting-scratch")
@@ -31847,17 +31847,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220411.2143")
+    (version "20220412.1536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "a6a6a83e1038acb4093fae4b46aa415a210ba17b")))
+                 "ec2c47a83df53993c53b1cf5598a13d41bd4c6b7")))
         (sha256
           (base32
-            "10ryikrwp8bmd0fdsyaaxzpnl0lfr2jcq7703m033681awaysdgl"))))
+            "07g908idxf99ydqqjsviinzs55vwkhw4y8xfdl7jx88njaj3f51h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -32044,7 +32044,7 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220412.607")
+    (version "20220412.646")
     (source
       (origin
         (method git-fetch)
@@ -33350,7 +33350,7 @@
 (define-public emacs-evil-tex
   (package
     (name "emacs-evil-tex")
-    (version "20220412.621")
+    (version "20220412.639")
     (source
       (origin
         (method git-fetch)
@@ -41027,17 +41027,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20220411.1929")
+    (version "20220412.1141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "c9e2a7568f503b6edc4b9a32d6834a85c6034170")))
+                 "a07bf109ce8e27458a40420508943f53856549fc")))
         (sha256
           (base32
-            "119n0g5j0a2pc7sfmhfmm5s3v8zylbxwql98bvci4hkly4wq5mcc"))))
+            "0sj30s70nmm09rlq5h2fxjmrlw2mcwq30ncwqvlxqawpfpxzn5yj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -63150,17 +63150,17 @@
 (define-public emacs-l
   (package
     (name "emacs-l")
-    (version "20211118.1837")
+    (version "20220412.1418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~tarsius/l")
                (commit
-                 "5e2c05478868e9e5fac909ac1bee535ffc5c6695")))
+                 "4cad5aef534c8a731b852ed6fe04654e233114f0")))
         (sha256
           (base32
-            "11fmcqn9xpq8hqwf914yd715xrbfyymki95iq5y3r4x42gl30q7s"))))
+            "1dz3ckwszc2n4l97rklp0bvqbix0h8yibzl6p63ll2ycq75q1flm"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~tarsius/l")
     (synopsis "Compact syntax for short lambda")
@@ -69493,17 +69493,17 @@
 (define-public emacs-matlab-mode
   (package
     (name "emacs-matlab-mode")
-    (version "20220311.1955")
+    (version "20220412.913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.code.sf.net/p/matlab-emacs/src")
                (commit
-                 "45febb409c474417562f79e90387d3568b4fc024")))
+                 "5069e3ca0034e0da64eb9b3cd426f52992938d06")))
         (sha256
           (base32
-            "0sn4c8gbvf68sn3qh75lq499lqds1rcc7ccifj5zgzxcgaf2x2wf"))))
+            "02b4gayf67fgsridj2a57p0x298pj4dly8nkimyjm15k8152s9c9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -105607,17 +105607,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220412.132")
+    (version "20220412.908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "25e105bded1acb6533ec388df9cbc153b56d7b6e")))
+                 "11fb6bc7d1920c9b9895dea6dde47ed47a11cae4")))
         (sha256
           (base32
-            "0l2hhvpqjd3q97qi9ymz1fczlw01d2hayaq2933yrvyss035mkbs"))))
+            "0allq2jckb00zn53ikqdz5x8s7lfw4fprpnb4hfnprbywy854ssx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -112282,17 +112282,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220411.809")
+    (version "20220412.1212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "4b14cea4a9ea548f6e28ff1bdfe28814cabc5b2b")))
+                 "d2a5ca1299d35f88419e94bf941d6347ce140f2e")))
         (sha256
           (base32
-            "0v01byy0q0p2xkrymcnyp35qnsgqyg4a2mg2ipkbxch9rmjrkyvf"))))
+            "0qwvql0vdir0yv78gk3yzpqasm53bylpdjm5cm6i5sxh41865d12"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
@@ -114889,17 +114889,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20211226.817")
+    (version "20220412.1140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "a940dd2ee8a82684860e320c0f6d5e15d31d916f")))
+                 "a2f2286c40725244257f46d3a27a730e73f9f596")))
         (sha256
           (base32
-            "0r1iz92sn2ddi11arr9s8z7cdpjli7pn55yhaswvp4sdch7chb5r"))))
+            "08z9r3wz5rnx5pbv82pi5123hynbnwyhzgpkldxfcj4w3cd4qwhs"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -119798,17 +119798,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220411.2037")
+    (version "20220412.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "66c3573c0adcad94e0338c5af93a6e86bc3533d4")))
+                 "b471a07c27140e9ca127e1a5e24bfaa1a4c6f78c")))
         (sha256
           (base32
-            "09n80gfgzaxa8x203g6xmfd46zj1qc9iz9rpsr3afjx0s6vg6gf9"))))
+            "0qgn4ld8cv44mjb6lnpziy6sbbgf63wym2pjbhbfrl6gn5d18yys"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
