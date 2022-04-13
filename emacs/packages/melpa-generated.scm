@@ -21895,17 +21895,17 @@
 (define-public emacs-dired-sidebar
   (package
     (name "emacs-dired-sidebar")
-    (version "20220317.1546")
+    (version "20220413.753")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/dired-sidebar.git")
                (commit
-                 "aed7e44b5a4ef37fa7be6210ddfe73bb724bac6f")))
+                 "0521cdc53e4a7ae7ea4728e5ac9f69287528dc56")))
         (sha256
           (base32
-            "1wc4lb7rpim4npjl7aszc1ddpsqf2an8v7j4dasxlvdq0n2zz6qn"))))
+            "0r25hnij6yfdnspp0kmcp1j8dkw44xgq05ldvxqmricawxnsaxw8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dired-subtree))
     (home-page
@@ -22218,17 +22218,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220410.1704")
+    (version "20220413.1257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "5966b0587449d0f0b3c57ee987b2b411ce446b6c")))
+                 "78ba565d1aa476d76e799876716ea2ff79a6aadc")))
         (sha256
           (base32
-            "0p6fvxbgsfm3pdm3a0z7fnwc8jh0lq6rq59yi9vxvbg8aasb0gqb"))))
+            "0p7r3vj8vjhbw3kxw9i1210l3fvhg0hm2pp1a0jamn3a7d31534l"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -31847,17 +31847,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220412.2309")
+    (version "20220413.1112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "dbab24f01daeef99039e6cd6f671d8b9ff1b4796")))
+                 "7e87b82660668cb10f1f9838ddd622abab1f7a62")))
         (sha256
           (base32
-            "0msfr3njjlq67lfmv3wssjilb1hpjc3r0cifhhfpf7kip4vi88bk"))))
+            "1bbj5hk6fycsc4xavsmpybd77jfrg60lq9mfhsjfg3lj0k66k60f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -42910,17 +42910,17 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20220408.1546")
+    (version "20220413.1219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/gerrit.el.git")
                (commit
-                 "3425027a4394eb71fe1a6024799cb7b4b0e9413e")))
+                 "1f2be2a157555b9f328cc3f8bc07c5898038b331")))
         (sha256
           (base32
-            "17y1z7axvi6330dbzlvcgb8ydvg79kx78l0l1hki6wnzxy0dzvny"))))
+            "1qjnwz8f678nf0zd2qy7jazqw9r9ccxpmsb84mlc7l6xg64kdgzw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-s emacs-dash))
@@ -48477,17 +48477,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220411.557")
+    (version "20220413.708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "90841263c9e7535bbf5ddcf00843c8c150ef4c71")))
+                 "5546efa7d177068c4f28fe41a02927cf19a7b018")))
         (sha256
           (base32
-            "1agrhmyvp26c62glvd7sbxh90h6rrjy187p8xpf0z5fzz93hi3kp"))))
+            "1p0blx8k6vvmi8y5v0wkz9n1bvljin4gn5apk0k26cv6npllrycz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -68958,17 +68958,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220410.810")
+    (version "20220413.621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "f7026bac4809be5e0625070d429be1acee9d4989")))
+                 "20c019e8847128b1303fbbad339a55a7ec2a482d")))
         (sha256
           (base32
-            "0qkzx8ym59y0nbzrm6l2fi1svp75cq9vfhgn2wlayjrn1nic1x0k"))))
+            "06f4y3l767x07rih7jr7zcdb73ilsrmnk5ychkd8ci9ylcimlhni"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -110115,17 +110115,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220413.528")
+    (version "20220413.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "8fcd11d4a5adddf4b0b60658bfe9b04106bf155b")))
+                 "cb9dbf5c0f7a7d7c60daeed8f00c20e750f5ffec")))
         (sha256
           (base32
-            "0v9cbv8gy4mdydqvfyzk43i5fq820w51ppc2mwywya9fivpr4ybx"))))
+            "1zbsj1vakh0k646hbmlg10gmh7yg6jddagpg55j9w3pzzwm31psi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
