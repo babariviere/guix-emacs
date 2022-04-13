@@ -31847,17 +31847,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220412.1536")
+    (version "20220412.2309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "ec2c47a83df53993c53b1cf5598a13d41bd4c6b7")))
+                 "dbab24f01daeef99039e6cd6f671d8b9ff1b4796")))
         (sha256
           (base32
-            "07g908idxf99ydqqjsviinzs55vwkhw4y8xfdl7jx88njaj3f51h"))))
+            "0msfr3njjlq67lfmv3wssjilb1hpjc3r0cifhhfpf7kip4vi88bk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -76648,17 +76648,17 @@
 (define-public emacs-ob-compile
   (package
     (name "emacs-ob-compile")
-    (version "20220320.1343")
+    (version "20220413.228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TxGVNN/ob-compile.git")
                (commit
-                 "cbfad24503491ba2bb0fff7454c339e655968c90")))
+                 "eb4fca6dc728cdc1e73d5d7ca8cad0f4cb1ad36a")))
         (sha256
           (base32
-            "01jmyvan8f5p4v8yyafyvv6j6fm01y184b3y6wxfk4c80m2zh86f"))))
+            "0y7pfb6q90mxh8rv0cdz4m28jb2alnwpkhhb7iyyhh0n4166da23"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/TxGVNN/ob-compile")
@@ -105607,17 +105607,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220412.908")
+    (version "20220413.514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "11fb6bc7d1920c9b9895dea6dde47ed47a11cae4")))
+                 "3977981e1b78a5905e2af19dd2ff7fa4c89f2597")))
         (sha256
           (base32
-            "0allq2jckb00zn53ikqdz5x8s7lfw4fprpnb4hfnprbywy854ssx"))))
+            "0cnrnrww4y0pbvxi95hlgqkaym049p6bxyj99fs2bjh04rkny9ph"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -109772,17 +109772,17 @@
 (define-public emacs-todoist
   (package
     (name "emacs-todoist")
-    (version "20220318.2120")
+    (version "20220412.2337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/emacs-todoist.git")
                (commit
-                 "383d139a4627f4199cdda99f08551ed3237595a2")))
+                 "f6906be346073f082a6d1f9ae14932ec2bfd99f5")))
         (sha256
           (base32
-            "1wvf1mq0j7bnjswssvnn2b4vqfxd19hw15v2ch6c7zai0jrqylzh"))))
+            "0iwsic69cffwiy63dhxmypy89zvadrr82pjcn228ipdnimkgd11p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-transient))
@@ -110115,17 +110115,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220412.2017")
+    (version "20220413.528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "c21ceb5e3aceb6bfddf23e2818d943250df84e4a")))
+                 "8fcd11d4a5adddf4b0b60658bfe9b04106bf155b")))
         (sha256
           (base32
-            "0vwv6k8hawpdgd4p6sg72f6yd603hikqbdvvvn364v88h9bk2phc"))))
+            "0v9cbv8gy4mdydqvfyzk43i5fq820w51ppc2mwywya9fivpr4ybx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
@@ -112260,17 +112260,17 @@
 (define-public emacs-undo-fu
   (package
     (name "emacs-undo-fu")
-    (version "20220211.548")
+    (version "20220412.2337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu.git")
                (commit
-                 "e81c8da4416b15cac9d5ac7574e11471417a65ca")))
+                 "f9c39c248cb965cd3c7cb3c8e15a4eee71921f8c")))
         (sha256
           (base32
-            "1f25h3rx09ci56gkpypsscp8bkqmj7fr2yfniki0y92czix9x70s"))))
+            "071k1fnhk102psqg7myj25aqdd61wpvd4zhv4k4p2hlx4d6a2wi6"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu")
