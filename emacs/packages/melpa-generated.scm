@@ -9137,17 +9137,17 @@
 (define-public emacs-burly
   (package
     (name "emacs-burly")
-    (version "20211005.1159")
+    (version "20220413.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/burly.el.git")
                (commit
-                 "c94fe0a355859fe6ddfa34cf7d362dca896f38a1")))
+                 "96f59fe24fdce14d14f204372f99bf522ab192bf")))
         (sha256
           (base32
-            "0jl8dj4mk4zc0kckdj3qmrhc21xxchp4x9cgd9fdhza50icbmy92"))))
+            "0mzv82qd2w3nsfjj08kmsb8sjg0fmmhjldbymqd60ybx3gq9h9ba"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/burly.el")
@@ -28725,17 +28725,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220411.2055")
+    (version "20220413.2146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "67ef67885a2a51c3171b5e47dbb7d9a8d2aab1db")))
+                 "ab778510d5db9935a2d436b13d98c47b824172ee")))
         (sha256
           (base32
-            "1c69x3isy834wwr18xvy5vlaks344y39hq473msjzzsrkk6hspbs"))))
+            "1w2jiv8wffm4lf22bkc4znbk20jarnpwl5483jd3bfg712ykqcsq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28749,17 +28749,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220406.1246")
+    (version "20220413.1944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "2890e535f55b1f08f379fd761b263fa337a72185")))
+                 "ab778510d5db9935a2d436b13d98c47b824172ee")))
         (sha256
           (base32
-            "1xdfw8hz2rhv80wf3l5i2svsv0zawcgyl2fg4bc9n8whs9vdl7fq"))))
+            "1w2jiv8wffm4lf22bkc4znbk20jarnpwl5483jd3bfg712ykqcsq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -31847,17 +31847,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220413.1112")
+    (version "20220413.2212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "7e87b82660668cb10f1f9838ddd622abab1f7a62")))
+                 "05714e8daacadb7603a05ffe81d1fbda7439a748")))
         (sha256
           (base32
-            "1bbj5hk6fycsc4xavsmpybd77jfrg60lq9mfhsjfg3lj0k66k60f"))))
+            "0240j6xqvy6mpsj4id5xs1i5g9scipa40i02m29c0m4nw8alyg11"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -32044,17 +32044,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220412.646")
+    (version "20220413.1532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "86abadd96cf611989af2d07efbf60766d06a5c74")))
+                 "7d593ab2855c7a729642848c6e13b13998231791")))
         (sha256
           (base32
-            "0mzj462l94jzjxndsar0ap6hq2h5fgz2rk1xjp09qyzja58b71yf"))))
+            "08z8ami6pmm0gym28yzw6k88qdgn4bfkqdv9b0hj3spxasa8fk96"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -39726,17 +39726,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20211227.1908")
+    (version "20220413.1944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "a43fd0d92dbec5f1d4129b30ab0ed917e0864129")))
+                 "22ad2e53468d6811263faa07e1c055c524f3366c")))
         (sha256
           (base32
-            "03nfbdjfx5bnv5phs3fcysvfza9lcw32mai1a8gjdmm8p4cgc851"))))
+            "0wcflidrhmxxzk71msrpmr9kn20flqy57glrdlazamj88lmwi2fw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -61664,17 +61664,17 @@
 (define-public emacs-kaolin-themes
   (package
     (name "emacs-kaolin-themes")
-    (version "20220408.633")
+    (version "20220413.1705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
                (commit
-                 "80505a6abe6dca761434be94fd6a1858e1aa1ba0")))
+                 "bd37ae6e48d918e9d72513345903093239a8ad8d")))
         (sha256
           (base32
-            "110zyihqm9pv7isv4k3wh1v1mhhpqikl3gr5m9y1f0n21npi5ccy"))))
+            "0sv1f7yhh5ap6j1a5j6ysrgbhqmnk4mpgkmzdjlclg8209d8as24"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (arguments '(#:files (:defaults "themes/*.el")))
@@ -71678,17 +71678,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220411.512")
+    (version "20220413.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "df59b4ca8d850722845a125722aa0949a5603a26")))
+                 "dd2b51a76f7177224202b68efdd1bec6fdc65553")))
         (sha256
           (base32
-            "1gk5ra050ykj3l8bscqz72b9gqkbjdbbbbicdvdjb8m59rgbabkw"))))
+            "110qj8ivbr21lgfssbb6hvi0a1798aaapwclasiigj458db5z6iy"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -80745,17 +80745,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220409.1320")
+    (version "20220413.2110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "2e851d3742b4c0f436f21314657cf8d1d999698e")))
+                 "8cd0d0653a962e1f9e99e9c8dc126d8615f132f0")))
         (sha256
           (base32
-            "1h3ll8xbn439wwrpyrslg6wmmkc4wdffdl4lqlqwjjnjv9am1mp1"))))
+            "1844f71lzarhxyyjfpdlz3pb31rdwyj8jgjlvd434gbsm8mkchaj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -108159,17 +108159,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220411.1940")
+    (version "20220413.2112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "85364d79fe240d43d234086fae75d0478eca75ed")))
+                 "d915e56b3c5cee3388a9e60334447a1b2ab3e2d4")))
         (sha256
           (base32
-            "0prqzwfr5j1yvz81gqwdbfmy7cxcly683i0wkfvqsb5ykxa2vad7"))))
+            "14w59kyx5z2wi42qfx59zy6zl3glqvc9y9wxj80dvvcg5dnfmgn0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
@@ -109979,17 +109979,17 @@
 (define-public emacs-tokei
   (package
     (name "emacs-tokei")
-    (version "20220410.1528")
+    (version "20220413.1836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nagy/tokei.el.git")
                (commit
-                 "948a62dc7b2f66db4f25b1836dca6bc20ea2f02d")))
+                 "c6e1f333283c6c3f366141ba32dcd57252f6947e")))
         (sha256
           (base32
-            "0si14i2ii2y3s142dw3q9ypcddhdyb73vhh8gnwb00v1amyb465g"))))
+            "0jzfhxpkv4syl1wxfyxzkjhkr5h9j8562xwafr2vai2vc6y9p94y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (home-page "https://github.com/nagy/tokei.el")
@@ -110529,17 +110529,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220412.1523")
+    (version "20220413.2332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "c088aaccbb4942d8770c89f15a43b52243be9e97")))
+                 "19cf9bef5d5c70fdd636ea021a0d26f0104a473d")))
         (sha256
           (base32
-            "118a9k2haphb4gyk7pwa9sdfklmwakscy49wjcpcyqwa6gksw0di"))))
+            "044x5h4hzwk6d3npcqi3v0w58glgb9bx153pwvpy1i4aml7vg26x"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
