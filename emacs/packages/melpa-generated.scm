@@ -9993,17 +9993,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220401.2339")
+    (version "20220414.505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "fbf3f275ad789cdfacc09bf8a6841ec49d0120fa")))
+                 "0a618040aa4adaa4f42bcc9cd65491453e2e6253")))
         (sha256
           (base32
-            "1v2vr5dwzfbwlb26j5ymjfgzs0xrj9k61z946wj9migvnwq7y28m"))))
+            "10sicdxslp93byxcy2irgi2p4w0qg6rhjlgz5dl0i6jlxxxnr6nm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -32044,17 +32044,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220413.1532")
+    (version "20220414.351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "7d593ab2855c7a729642848c6e13b13998231791")))
+                 "b1c37b8ad06eeec21d05e7201fa56f946bc361bf")))
         (sha256
           (base32
-            "08z8ami6pmm0gym28yzw6k88qdgn4bfkqdv9b0hj3spxasa8fk96"))))
+            "0wam5jz0lnn1755ggbxd5x30m9mws7my414bvnkrwxykhds1djq9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -34215,17 +34215,17 @@
 (define-public emacs-exwm-edit
   (package
     (name "emacs-exwm-edit")
-    (version "20200728.8")
+    (version "20220414.106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/agzam/exwm-edit.git")
                (commit
-                 "2fd9426922c8394ec8d21c50dcc20b7d03af21e4")))
+                 "b5b7e950f57e30befd68d51df34540b70e6ac28f")))
         (sha256
           (base32
-            "1gwqwj50ch8iib5yqbyvski7vxiwid6s49lj2xcy5kksnx1a2410"))))
+            "11yjvry950xiq91rzbx9jsa8hx3lnabhkqzgiqlcgx36q6diw6fh"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/agzam/exwm-edit")
     (synopsis "Edit mode for EXWM")
@@ -39726,17 +39726,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20220413.1944")
+    (version "20220414.429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "22ad2e53468d6811263faa07e1c055c524f3366c")))
+                 "88eabedc4f9ed57ab4c6b095732199fdbe5b9a31")))
         (sha256
           (base32
-            "0wcflidrhmxxzk71msrpmr9kn20flqy57glrdlazamj88lmwi2fw"))))
+            "0dk7nzp0s1sx6nxlg9z6aqfl8c2hsmzzxmbnj68jprw5jqbqwlwa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -59899,17 +59899,17 @@
 (define-public emacs-jenkinsfile-mode
   (package
     (name "emacs-jenkinsfile-mode")
-    (version "20200929.428")
+    (version "20220414.542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/john2x/jenkinsfile-mode.git")
                (commit
-                 "65bf3925852c35c6bd499978f08f83c1193f4347")))
+                 "169f7a9aaabe5e0763b53f07e60c20f5d64741c7")))
         (sha256
           (base32
-            "0w38g88yykslg71xr99ff4vx1ffgy90b7xqvvdflr189gwk3avx1"))))
+            "1vaqwsapnzg728vjk546p4zdhqwc0psxs3k8fa6yhiy8x6iqb82r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-groovy-mode))
     (home-page
@@ -64956,17 +64956,17 @@
 (define-public emacs-link-hint
   (package
     (name "emacs-link-hint")
-    (version "20220320.1727")
+    (version "20220414.56")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/link-hint.el.git")
                (commit
-                 "44e98956e04dfa8e440951c6cc6cefb9e64f1658")))
+                 "a24546e0dee901bce94e3a11c20b1ed12a22b9c6")))
         (sha256
           (base32
-            "0fhs1ha2j4k1pkfhyvc3x2mp9r3xl7slj6y4hqfzgllmhzmr93g0"))))
+            "0zdsm2wp04nlnlixgwgrs49hcg6a0pwyxv44y9is449kk5593m11"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (home-page
@@ -80745,17 +80745,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220413.2110")
+    (version "20220414.352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "8cd0d0653a962e1f9e99e9c8dc126d8615f132f0")))
+                 "1ab67473d1096aa17c30339214e01cf91cff02a6")))
         (sha256
           (base32
-            "1844f71lzarhxyyjfpdlz3pb31rdwyj8jgjlvd434gbsm8mkchaj"))))
+            "0gll7gmv7ns45mg3rn5p1zlbzp5ij182h3aa1z1wc380lfg85qsj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -95148,17 +95148,17 @@
 (define-public emacs-reaper
   (package
     (name "emacs-reaper")
-    (version "20220211.1223")
+    (version "20220413.2343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xendk/reaper.git")
                (commit
-                 "d073fa8d00411af58fced861b7236aaa23b0692d")))
+                 "b5c03fc4c2104b1ae661327a0e72d5ce02ee5584")))
         (sha256
           (base32
-            "0qg81yasilwk15jpxm0177slh9byihni9kc217m44pn0fxgpnsmi"))))
+            "17gn1nlzmflhc6hnpckdkxlm9l2m9mbfadcgm9n0i20i8gp88f76"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/xendk/reaper")
     (synopsis
@@ -100515,17 +100515,17 @@
 (define-public emacs-shellcop
   (package
     (name "emacs-shellcop")
-    (version "20220409.620")
+    (version "20220414.530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/shellcop.git")
                (commit
-                 "f6060cc292d0143c925252b27d5db21de03ce7f0")))
+                 "327f5ac43e5d543149a772aef06cdb616477eb43")))
         (sha256
           (base32
-            "0gqrmfxg1wd42pp071ax66kv9vfy88wgfp7hpvsq6ba3mrvqah4w"))))
+            "1rmv2swyir91c6x94bggkrwankfkipfzhxzmg2c1455ybm48n3lx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/redguardtoo/shellcop")
@@ -105607,17 +105607,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220413.514")
+    (version "20220414.529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "3977981e1b78a5905e2af19dd2ff7fa4c89f2597")))
+                 "0871a05b0658da6fc201ae2b05b9a31236db498a")))
         (sha256
           (base32
-            "0cnrnrww4y0pbvxi95hlgqkaym049p6bxyj99fs2bjh04rkny9ph"))))
+            "0gbfm42qfpc2wqhcqc0k33scjcys9lq3qkdrgvlqf01qi66sr47g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -107791,17 +107791,17 @@
 (define-public emacs-tao-theme
   (package
     (name "emacs-tao-theme")
-    (version "20211221.1443")
+    (version "20220414.354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/11111000000/tao-theme-emacs.git")
                (commit
-                 "891338eba148d8f0e80102323d18ce8e9eda30d4")))
+                 "d6fe980783e22df310df1ae51ac249c28c83ac53")))
         (sha256
           (base32
-            "1sdj6n2ma004m6b88nrd3mri4vyciyac4zbd1ivqc6mgwj5b7vhy"))))
+            "0pi1rbz6fdqy7l39ymqa509n8f16lfgwv9b9995g29xp0sil35hm"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/11111000000/tao-theme-emacs")
@@ -110115,17 +110115,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220413.630")
+    (version "20220414.429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "cb9dbf5c0f7a7d7c60daeed8f00c20e750f5ffec")))
+                 "c5b424788f44912502ed21ddb5c890527f40e5e7")))
         (sha256
           (base32
-            "1zbsj1vakh0k646hbmlg10gmh7yg6jddagpg55j9w3pzzwm31psi"))))
+            "1fjslvypifgaqq6awmky07lqdqidw63qdlpkc1zw90bshgfqcvvs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
