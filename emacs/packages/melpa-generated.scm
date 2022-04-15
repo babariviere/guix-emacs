@@ -6770,21 +6770,22 @@
 (define-public emacs-benchmark-init
   (package
     (name "emacs-benchmark-init")
-    (version "20150905.938")
+    (version "20220414.1612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dholm/benchmark-init-el.git")
                (commit
-                 "7a0f263282bbc86b01b662636306f22813082647")))
+                 "02435560415bbadbcf5051fb7042880549170e7e")))
         (sha256
           (base32
-            "1kyn1izm5sbqbp9whnhk9dn3yc7zy8bz5san5w3ivi3rpx15fh94"))))
+            "19375vamhld4xm2qrdmhlp2nczfvalmz9x6ahl23zwkilr8n1nbw"))))
     (build-system melpa-build-system)
-    (home-page "unspecified")
+    (home-page
+      "https://github.com/dholm/benchmark-init-el")
     (synopsis
-      "Benchmarks Emacs require and load calls")
+      "Benchmarks for require and load calls")
     (description
       "Documentation at https://melpa.org/#/benchmark-init")
     (license #f)))
@@ -12755,17 +12756,17 @@
 (define-public emacs-clomacs
   (package
     (name "emacs-clomacs")
-    (version "20220414.1327")
+    (version "20220414.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clomacs.git")
                (commit
-                 "331339b06335a0592a39b842a3ab7d8dbed84b7a")))
+                 "61171c7a7c9f83fd495a6db57b63d3164dea96b6")))
         (sha256
           (base32
-            "0vyw89fka8sqnc39969qxqf0kpcsr76ma2hl78fc83w93gzpngzh"))))
+            "1clarf3ysqmbry4cl9fsidrj2p9vqfcm7xr7gqv2if32ym9viwam"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-cider
@@ -26080,17 +26081,17 @@
 (define-public emacs-ein
   (package
     (name "emacs-ein")
-    (version "20220324.204")
+    (version "20220414.1910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/millejoh/emacs-ipython-notebook.git")
                (commit
-                 "e04e1e19c63667e6847ae6341ab7fc7488f5eb8c")))
+                 "ca440a37f0430357aa48d7e476dac9256281370e")))
         (sha256
           (base32
-            "16f1ka02n06li4griyrviv9bwzvj4s5fk7i2kqa5mkg0gibxmawc"))))
+            "08sf3l1xbnxwyz57l5fs5p175i8b396rdiqhl7cvy7lv5zp4rsmp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -26747,17 +26748,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220313.1510")
+    (version "20220414.1724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "bdc729893ccfc52b2b7369624111cc175e4ce0b9")))
+                 "ed6ade7cd938a1804584211ced62d84d3a08b27f")))
         (sha256
           (base32
-            "1yii555k43v94cqlxv2n9k1d6pz3mjg1sc1zgpbnx5gqhzfk7m5r"))))
+            "0csvyf2i5qa2pyab9ra5x531ahql76fk6zidrs2psg9n7c38mlqq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -32048,17 +32049,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220414.1505")
+    (version "20220414.2140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "01e3ba594e4e784e8770bdaa76bab6843cc80115")))
+                 "71630c94771c8f2688e385bc989f0f40c8292dc4")))
         (sha256
           (base32
-            "0v6v0lm58q71mhv7mbqgqcn1av02ry0kyy5lchyhbznlbixi13z1"))))
+            "0fjzniicila170m9cksix12pnvns87z31923xn684wa1c5a6yayi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -41659,17 +41660,17 @@
 (define-public emacs-frog-jump-buffer
   (package
     (name "emacs-frog-jump-buffer")
-    (version "20220129.539")
+    (version "20220414.1935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/frog-jump-buffer.git")
                (commit
-                 "d82cc1a449d368f5a3dac61695400926da222a84")))
+                 "ff0cfe9cb4a60d855f0754b741a9417ee413dee0")))
         (sha256
           (base32
-            "0c8x5a0rlyys8dqxsliy4m35c338srffl5387bmyzj68dj43vbfh"))))
+            "0pp0z6zk6lni6pgkrh8is4c99v6npddaarsykwdxai0qxim9q4f3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-avy emacs-dash emacs-frog-menu))
@@ -81793,17 +81794,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220409.2317")
+    (version "20220414.1650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "3bb45afccb9f17758c5604e4d883c769f4fc3545")))
+                 "9eaf91b801a4d5a47d1b7fc862b6c8c65bd4bc92")))
         (sha256
           (base32
-            "04pdlix7wcgkfml41dy2arr2sv3z9s4g3r4ydrbash4w257q9bqq"))))
+            "08r6clc96n9894s9b747505836haw9an88j2cdj5nmw17x13zzbc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84387,17 +84388,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220411.1555")
+    (version "20220414.2003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "d3d4c57444f03898e78d2ae11e97fdb94a4655c5")))
+                 "e5fe9fa0d552481a7261db7a9d9b0e9b7ea2370e")))
         (sha256
           (base32
-            "0wzn9pm72bm1r9z42d7g38l0s1s5dplgmvnqppl02mx6ls1lx1rz"))))
+            "1lj6rbdiqdxwkg9ivfy3hwhwgfxypmkx931c5sizsizjarhj9irj"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -90357,17 +90358,17 @@
 (define-public emacs-powerthesaurus
   (package
     (name "emacs-powerthesaurus")
-    (version "20220221.1004")
+    (version "20220414.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SavchenkoValeriy/emacs-powerthesaurus.git")
                (commit
-                 "810a25056c623f304de6a72123652d9c35936718")))
+                 "88bc5229cba1604c8f74db0a1456d99259d538cc")))
         (sha256
           (base32
-            "13pzfqjh734lma8yfmp6a7r0j4a8jk3r0dc38hlx1vxwp0pw5ags"))))
+            "19fvibfv3skvs77k3bsd0q5cg3shn9wrdjfyrcybgc9sjfcngv7n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request emacs-s))
     (home-page
@@ -105611,7 +105612,7 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220414.1017")
+    (version "20220414.1601")
     (source
       (origin
         (method git-fetch)
@@ -109960,22 +109961,22 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220411.655")
+    (version "20220414.2008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "f8ec6b3e301d511649ce84b36067c8eab7038c72")))
+                 "be713a135fe50047fe33f076c2ddfb8d95570ab6")))
         (sha256
           (base32
-            "08lssap3c9dsy1w66mhbyam9f2rhdmb2dw25fzzgy1ziqg1mn0rv"))))
+            "16dl9y3rx3vfn2d28ph7is1c343pnghipirh2wzsjj5349fp13hv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
     (synopsis
-      "Simple dark theme with cyberpunk aesthetics")
+      "Minimal theme with yellow and green color scheme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
