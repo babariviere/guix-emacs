@@ -71683,17 +71683,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220414.922")
+    (version "20220415.236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "15fe9503c3ac5bd41b840c6799bfc9e37db0ae74")))
+                 "7f9ee33e8f9db2fd7a2a77e4228a534794819719")))
         (sha256
           (base32
-            "0j9ig04sg18shbwv5hlgmlp0s8fd2zpl2y0jhk2h1r08m9vr9wkj"))))
+            "1ilvxdvd74p2qj0p22s3jay593njfsfdgs67c29q6swkl5k4qxhs"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -105612,17 +105612,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220414.1601")
+    (version "20220415.352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "9def006a002ef951be14cd4c2fc1338641ed6e58")))
+                 "9612f88b2642c66bfdb76cf9cf45d276f56b3cb5")))
         (sha256
           (base32
-            "0fm8rmg2sp5kayr66bv0y6bash0av4kqg8i7bcb7vdaklv7krr4c"))))
+            "0sm1b2gxshl4cjww8y2cq9a2m95varszbvd5dgrvqprms4knmgjx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
