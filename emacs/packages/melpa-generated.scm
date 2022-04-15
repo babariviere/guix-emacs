@@ -11920,17 +11920,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220414.941")
+    (version "20220415.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "2cf72bfe8b0d0392f4f2fbc3b1e800e2b5ae5639")))
+                 "8584b75faf85e8e800aaf6e90dda642cb370a2c6")))
         (sha256
           (base32
-            "0yx1npraqxkxfijvlns9i0r97kbbp681gwykydcdnhmnv57bi4q8"))))
+            "0n2281nnrvqyzx6c3vdwa3p46y520iw7j2fx3lpn71n17c7qhll2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -12756,17 +12756,17 @@
 (define-public emacs-clomacs
   (package
     (name "emacs-clomacs")
-    (version "20220414.1743")
+    (version "20220415.1035")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clomacs.git")
                (commit
-                 "61171c7a7c9f83fd495a6db57b63d3164dea96b6")))
+                 "9cd7c9fd86bc7bc627a31275d1ef131378b90a49")))
         (sha256
           (base32
-            "1clarf3ysqmbry4cl9fsidrj2p9vqfcm7xr7gqv2if32ym9viwam"))))
+            "0aj3739xxv4plyjslvvm7kxa520hn1v0p6f6qpihpx4f24dyh6hm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-cider
@@ -22223,17 +22223,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220413.1257")
+    (version "20220415.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "78ba565d1aa476d76e799876716ea2ff79a6aadc")))
+                 "3d640589b47fb2724bd78390ddfa6dedda23e1ce")))
         (sha256
           (base32
-            "0p7r3vj8vjhbw3kxw9i1210l3fvhg0hm2pp1a0jamn3a7d31534l"))))
+            "150d41y8wkyrw75zdafsicbzs4jibddh982zd8sxdv3jn8by28f2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -31852,17 +31852,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220413.2212")
+    (version "20220415.1003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "05714e8daacadb7603a05ffe81d1fbda7439a748")))
+                 "fd0644ebfc7e827ea790a7b8fb6c590aada6b225")))
         (sha256
           (base32
-            "0240j6xqvy6mpsj4id5xs1i5g9scipa40i02m29c0m4nw8alyg11"))))
+            "17ckw26039si95ns70mpjnm8xd02gzp31jwznch158r2h8wrnhby"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -33355,17 +33355,17 @@
 (define-public emacs-evil-tex
   (package
     (name "emacs-evil-tex")
-    (version "20220412.639")
+    (version "20220415.842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iyefrat/evil-tex.git")
                (commit
-                 "ae397c8bfe8d16e54e96a9955273b767fc2347fd")))
+                 "716c311370f3830a36e7aee67f6f3d8293d186a1")))
         (sha256
           (base32
-            "1lz787yshg8zadd9bplx0cppn4ch7sfrwppa5spivnysnnxh876k"))))
+            "0q0nl3p7lvks6468v3qdh20yifq22qiqj6nl48zgfjqnh8q4kmq9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-auctex))
@@ -105612,7 +105612,7 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220415.352")
+    (version "20220415.538")
     (source
       (origin
         (method git-fetch)
@@ -108164,17 +108164,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220413.2112")
+    (version "20220415.637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "d915e56b3c5cee3388a9e60334447a1b2ab3e2d4")))
+                 "a3b35cf2432b4614aeae7c3382a8b1e7bfaf4002")))
         (sha256
           (base32
-            "14w59kyx5z2wi42qfx59zy6zl3glqvc9y9wxj80dvvcg5dnfmgn0"))))
+            "1jnc8m4g70bm1xyffx5z169nqdksl13vw5bdkm4m317q7kaij9gn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
@@ -110120,17 +110120,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220414.429")
+    (version "20220415.855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "c5b424788f44912502ed21ddb5c890527f40e5e7")))
+                 "9760a3ab5ebcde43ab93246fd9cb93732c5d8647")))
         (sha256
           (base32
-            "1fjslvypifgaqq6awmky07lqdqidw63qdlpkc1zw90bshgfqcvvs"))))
+            "1xk4nyivzhlxigsxbxfhvf7zp8bwbmp5hkzcqnz8xg9b6zdn7lz8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
