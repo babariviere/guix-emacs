@@ -11920,17 +11920,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220415.2051")
+    (version "20220416.1220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "8c820ced36d5d0ce8149eea384e29dd21c3d3057")))
+                 "8f378ed341f1865b9df826f709690172a218d27e")))
         (sha256
           (base32
-            "1chsanjpaq3gbay753n993dnvrhqxm6rhiz19j520vclbc38qp5g"))))
+            "1irg49kzjzrfs7fb8pamxvxdyijwlzq9ik1hxpllqdlkms4f5h61"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -22223,17 +22223,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220415.1329")
+    (version "20220416.535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "3d640589b47fb2724bd78390ddfa6dedda23e1ce")))
+                 "123ecbb4938fc8b5206792a9d44f323049a5ef28")))
         (sha256
           (base32
-            "150d41y8wkyrw75zdafsicbzs4jibddh982zd8sxdv3jn8by28f2"))))
+            "0apkklaicavrq5m8vrv7m7v0pbz71ds5al5b2xspk8lklk0pm1vx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -27198,17 +27198,17 @@
 (define-public emacs-elfeed-org
   (package
     (name "emacs-elfeed-org")
-    (version "20210510.1219")
+    (version "20220416.900")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/remyhonig/elfeed-org.git")
                (commit
-                 "268efdd0121fa61f63b722c30e0951c5d31224a4")))
+                 "6652fbd02820395a34679b9f0b5f1ea2c1320b19")))
         (sha256
           (base32
-            "0krfklh3hyc72m9llz3j7pmf63n4spwlgi88b237vcml9rhlda5b"))))
+            "1w76qaixgv19ai73qfgfsdagl0m0gd8imzflmdj1m6ixbxjbsq42"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-elfeed emacs-dash emacs-s))
@@ -50844,17 +50844,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220113.1752")
+    (version "20220416.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "736f642ffa0f92706f71c3b7a995f9b97069b069")))
+                 "326d887994a8730db0d76779b5ce1de63dd26003")))
         (sha256
           (base32
-            "19bvcwfv7nzvm3qx41nh0x66c1jldciq2qcn9gkf4r64xwc32yz1"))))
+            "04d601dqk9ks6qqkx2fdqimx0d71yhs26k97ni6i7yz5z3zqhnmd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -105612,17 +105612,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220416.317")
+    (version "20220416.1013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "17ab571b89470dc04dc5ac41113d983311a5528b")))
+                 "96f960218ce8dcaab76a04de221a58bf6ec0df2c")))
         (sha256
           (base32
-            "1d8k96ipz24lmygzypkyz01dx7vcvha93dc2h6n2d9lq242gdd4p"))))
+            "1lh3y3z70fwsdjw1jda0z45ighc9pv11khshbkl43zhjqb4p8c46"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -114894,17 +114894,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220412.1140")
+    (version "20220416.946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "a2f2286c40725244257f46d3a27a730e73f9f596")))
+                 "17f80c2259512db55003d78c894c308aaa2283e2")))
         (sha256
           (base32
-            "08z9r3wz5rnx5pbv82pi5123hynbnwyhzgpkldxfcj4w3cd4qwhs"))))
+            "0mdfkw4ypwsry7nrajdavbq98jvgprlwdcjzks9mcpn1a01ks1ai"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -114924,17 +114924,17 @@
 (define-public emacs-vterm-toggle
   (package
     (name "emacs-vterm-toggle")
-    (version "20220414.706")
+    (version "20220416.1034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jixiuf/vterm-toggle.git")
                (commit
-                 "7ae7861b17bb5b3fbe156383b06f4e5bc2d80601")))
+                 "2c155593bb65baa1b0be1f66bb071e3a1920c441")))
         (sha256
           (base32
-            "1czc03w0cd88ksa3gzrnl74qkbkibl91njjxw0188kk8p2zymiw1"))))
+            "17p11a6zdm5h9kbq2jjh400wq04rax8qldp565v4564jfar44074"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
