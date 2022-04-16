@@ -6518,17 +6518,17 @@
 (define-public emacs-bbdb
   (package
     (name "emacs-bbdb")
-    (version "20220328.1456")
+    (version "20220416.405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.nongnu.org/git/bbdb.git")
                (commit
-                 "a50c89a6f01be757335e64df322837300c4ced04")))
+                 "ed7648f723d3fd03476b8a007a76e9058f7f7f47")))
         (sha256
           (base32
-            "1ymcrpf97prhxdbv4x8nzyb6yn9b1k69xq51l35vmjdvhhdcfhz2"))))
+            "05a6rh2chyafsw9n3aar4dscvq8wdb9bbl3b12vawilj3b5bv9jy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("lisp/*.el*" "doc/*.texi")))
@@ -48482,17 +48482,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220415.1805")
+    (version "20220416.349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "155227133cac17c5db8a47e2cf937d9b77ed15ac")))
+                 "7c1b872d267d4b78b9e1b48974b4f98183587354")))
         (sha256
           (base32
-            "15qif61ixb74gzj0xbd9hfkp7xzf3x6q56hyn9pfn4wc4kq1am34"))))
+            "1dxv4wpb9g0y898m574b1haqsyva03i38b6sv5a41cbnvwzl1ryy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -73096,7 +73096,7 @@
 (define-public emacs-multi-project
   (package
     (name "emacs-multi-project")
-    (version "20220312.2321")
+    (version "20220415.2334")
     (source
       (origin
         (method url-fetch)
@@ -73106,7 +73106,7 @@
                ".el"))
         (sha256
           (base32
-            "1vmyrz7gpfk4ijabqxn65lav4plr2284cbagzi0g8ig8whl6f43h"))))
+            "0qxf8mn1gph26bdgazih8pvzbnzg09557g4m2rr3r71y9qzp6ygf"))))
     (build-system melpa-build-system)
     (home-page
       "https://hg.osdn.net/view/multi-project/multi-project")
@@ -84388,17 +84388,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220414.2003")
+    (version "20220416.205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "e5fe9fa0d552481a7261db7a9d9b0e9b7ea2370e")))
+                 "5b3a0d8a7da49f602785aa20486bbbbeb35ebb36")))
         (sha256
           (base32
-            "1lj6rbdiqdxwkg9ivfy3hwhwgfxypmkx931c5sizsizjarhj9irj"))))
+            "1p3xvzf4s0zrn5npzdnf9mcajdfwgk1pyv57q2wj8j1s277wca5r"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -105612,17 +105612,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220415.538")
+    (version "20220416.317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "9612f88b2642c66bfdb76cf9cf45d276f56b3cb5")))
+                 "17ab571b89470dc04dc5ac41113d983311a5528b")))
         (sha256
           (base32
-            "0sm1b2gxshl4cjww8y2cq9a2m95varszbvd5dgrvqprms4knmgjx"))))
+            "1d8k96ipz24lmygzypkyz01dx7vcvha93dc2h6n2d9lq242gdd4p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -108164,7 +108164,7 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220415.1359")
+    (version "20220415.2157")
     (source
       (origin
         (method git-fetch)
@@ -109484,17 +109484,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20220316.2014")
+    (version "20220415.2237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "3be10cb5c3e17d9babb67190f63500ee68df267c")))
+                 "ae853fd88557ec0918e117deb093356f918921e5")))
         (sha256
           (base32
-            "04n31pgzn53cnlcs6qagdbspjy85w4dxm3iz6gynwnp50g4y16cv"))))
+            "045g4csq8q2xs90msrfpxd8hzpydc20l63jf1i746s9lqnxakcrv"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
