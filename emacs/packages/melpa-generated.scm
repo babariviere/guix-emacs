@@ -9873,28 +9873,27 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220214.1251")
+    (version "20220417.905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "aa5ffb15cec39920012aa526e932d48e5c74bbb0")))
+                 "9e00a51c1102b9c7d3688e203bf7bb5d1ebebba2")))
         (sha256
           (base32
-            "12rsylxr9ls6br38vwq9h6fzqsqjxgqwyv76wf6qaazd4rp76m0y"))))
+            "03wbl6w9mzg3a11bl2mcrw8bjbx2734v3hp6589al8xrf5dg96m6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-hierarchy
             emacs-tree-mode
             emacs-ivy
-            emacs-anaconda-mode
             emacs-beacon))
     (home-page
       "https://github.com/beacoder/call-graph")
     (synopsis
-      "Library to generate call graph for c/c++ functions")
+      "Generate call graph for c/c++ functions")
     (description
       "Documentation at https://melpa.org/#/call-graph")
     (license #f)))
@@ -11456,17 +11455,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220414.726")
+    (version "20220415.1213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://tildegit.org/contrapunctus/chronometrist.git")
                (commit
-                 "88aa54c08224bb8b8987dd2024052a25b275dab8")))
+                 "d348ef73da958dfee27f9ceda0d599ccef83cfb0")))
         (sha256
           (base32
-            "1jjjisz64qnnzs3jdkdv3794mhybr056i6mjcyihn5g0ix5kg4g5"))))
+            "0bqikbz06gyzng7l2b7062246k3vnmpib7rzav87lh3m8fa1adc2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -11636,17 +11635,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220405.1216")
+    (version "20220417.951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "db972bbdfbe777272529ec848c9f1991ae94dbda")))
+                 "9130c6493f339edf3aa24da928d1f1c4edef6582")))
         (sha256
           (base32
-            "0hvgczbyki9yvip00gx75laxshjbx0lixf3ibc4rj1mfplfvlcxk"))))
+            "0j5wgzw4ch72dcwkv5kqm1lqk1qnawsjb67m18zbdrdx56zpjjhw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -16345,17 +16344,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20220410.632")
+    (version "20220417.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "53b50493309a8f5e4dcc3951ec341b3124fddbf6")))
+                 "da86614508e5d138b517e25b0752611563e3117e")))
         (sha256
           (base32
-            "00bc1padsnw6dmnfabl90p4qj8709446vvmb8i0gbk5a36m2yjn0"))))
+            "1zqr9mgxsap7a6wnfd9fz5fb9ydsyqmr5hccn38d8azhjjxqbbl6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -26962,17 +26961,17 @@
 (define-public emacs-electric-operator
   (package
     (name "emacs-electric-operator")
-    (version "20220313.911")
+    (version "20220417.809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/davidshepherd7/electric-operator.git")
                (commit
-                 "8bcc6b02722adb21d3698df46db2426718aebf70")))
+                 "f567f03da4a55d6eafa0e6e148ca4884d5370498")))
         (sha256
           (base32
-            "0xh658xwx5bbzak4axdrwx90zv9vmba8lwcma4m7scinzwhnjfx5"))))
+            "1km5ghqldd0avbxr9drps6pik51yfkh2dj2gg4z7jkyvi8i0cxkm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -32049,17 +32048,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220415.1942")
+    (version "20220417.1119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "572de25f93752d806efa11bb80a641afd4c06e40")))
+                 "63c6fd00c23b91e6b84b735add756d6e4b5c3b86")))
         (sha256
           (base32
-            "1sc0m8sbaqhqlf33sqbmpv0zf9s58pks2r9w82nmglrcc3ih7nns"))))
+            "0x72zlbsbc8wi2vb34ak33swa4g74rag26mp43x5fi5w0y2zbg81"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -71683,17 +71682,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220415.236")
+    (version "20220417.759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "7f9ee33e8f9db2fd7a2a77e4228a534794819719")))
+                 "2329803b865151aec13a26f44da2382026178c38")))
         (sha256
           (base32
-            "1ilvxdvd74p2qj0p22s3jay593njfsfdgs67c29q6swkl5k4qxhs"))))
+            "1p4h35q590155ya6fk50pp9dfbxydypw7jq0yfi9i7g15d65liin"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -92774,17 +92773,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220414.757")
+    (version "20220417.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "b3de11c39318c821d1febe4946b63ea1ed7b060b")))
+                 "eda5877193380cd0661d60cd64e63eeef0cadc62")))
         (sha256
           (base32
-            "019jyrabhjkzfw08wbxsvc098njz5rgzfr3vm8kixnib1zhqb05n"))))
+            "0y75hprdd9mx9mcb2ljwxxz3h82i6kpv57hsd3zk80zysxiivvh4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
