@@ -16131,17 +16131,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220415.1647")
+    (version "20220416.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "b670d9a6d5c2a8062391bd5b972172061b65d8f6")))
+                 "a924b3b0d943d12c71d23964da7733251f4705b2")))
         (sha256
           (base32
-            "09yzvwkz2y3r6aarjzz4fc0g4h40fnspdwrbizr5k2z6zvdc3zp3"))))
+            "0ll5z5zlhcpd6qmk6140yml73lkl9mspwr6dngqldlhxnb6sv3gl"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -19079,17 +19079,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220325.1144")
+    (version "20220416.1252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "f918c0580bd17105cbe50aa701a2375abca5a6ab")))
+                 "e29d3e6c79356a4c149bb50059cffca7de0ce079")))
         (sha256
           (base32
-            "12wnvj6bnz9xx9skzqjmldn9ak0pxm46b2g7ishj7q810fg5hzws"))))
+            "04bpf50cbhifwwb9p60w66jy7dl8cl2i2yda8bj4nwrpslmpd7qs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22223,17 +22223,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220416.535")
+    (version "20220416.1825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "123ecbb4938fc8b5206792a9d44f323049a5ef28")))
+                 "28fb2b927d3e3f38eb3c55e145933cee05765b4c")))
         (sha256
           (base32
-            "0apkklaicavrq5m8vrv7m7v0pbz71ds5al5b2xspk8lklk0pm1vx"))))
+            "1phpcql7xcjq0mkng757zfn3lrn10yp3830ivgzdirm29x89dhnm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26748,17 +26748,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220414.1724")
+    (version "20220416.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "ed6ade7cd938a1804584211ced62d84d3a08b27f")))
+                 "3f3feb94b426ade9f960f1a3a6d07e0b7a8dda80")))
         (sha256
           (base32
-            "0csvyf2i5qa2pyab9ra5x531ahql76fk6zidrs2psg9n7c38mlqq"))))
+            "1h3l6880nx7iqb3c4bbqzhy02vwalnl3aks0j2lzxiv0795y4f02"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28730,17 +28730,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220414.1430")
+    (version "20220416.1419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "c4889163c8aa4f96af520cefa81d60f7f0048626")))
+                 "7a32b9342221327ea71233404441b5e2466ee0a9")))
         (sha256
           (base32
-            "0jfyz26bl1705dacg5y9dz06cvihkhjq1sv9mr07x41lh1jq3sn9"))))
+            "157hv8dx2bm388pilswjmzs339fj5bfc3r0flpyj91034zkjzkf8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -33518,17 +33518,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220415.1437")
+    (version "20220416.1337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "907b96ca3fe961a8166c351742172d6700693b44")))
+                 "0a46dbcc4db569cf065f0c4a80a32ae123f0cc70")))
         (sha256
           (base32
-            "0ws435arwf11kk4fv9ipq6rfnc8wsqzi7im713mpvw1l17lyff34"))))
+            "18pr2my6dyk32dyl2541pc4gld6svnvi78ra6wk0vai9p52ybsq7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -72772,17 +72772,17 @@
 (define-public emacs-mu4e-alert
   (package
     (name "emacs-mu4e-alert")
-    (version "20220411.2")
+    (version "20220416.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xzz53/mu4e-alert.git")
                (commit
-                 "56c58eea4fe5cd015300649d98d0314b454b0fc7")))
+                 "b34d0ea7b75709cc25d842a783cebea855dc9f7d")))
         (sha256
           (base32
-            "17k981q708jgc5jbzd8fpagyqbscb395hnpzdlpnj8w0kpf38mjk"))))
+            "09qzph8madnhd8kqnj662sgfcyvp1wg35ll6i5xbh98yazc0r64s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-s emacs-ht))
@@ -80446,17 +80446,17 @@
 (define-public emacs-org-journal-tags
   (package
     (name "emacs-org-journal-tags")
-    (version "20220411.2018")
+    (version "20220416.1507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/org-journal-tags.git")
                (commit
-                 "1e19f7a1a815881e244c6ff42a12c56d3249c6f5")))
+                 "ca6327161f4994ea0e98d7c6c3f662222e2650bf")))
         (sha256
           (base32
-            "02maqn8hpl3cmjq1bhd2pfvy8gqw00jjijfmzzdfx7wwfvgz3vb7"))))
+            "1pg7wxjlhbh3fls17zgh9wdzk0mjc3sfi873207kc5rcd4araq89"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-journal
@@ -81794,17 +81794,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220414.1650")
+    (version "20220416.2125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "9eaf91b801a4d5a47d1b7fc862b6c8c65bd4bc92")))
+                 "d8985aa2454a24f6cd434179faa031ab2bc0ed78")))
         (sha256
           (base32
-            "08r6clc96n9894s9b747505836haw9an88j2cdj5nmw17x13zzbc"))))
+            "0j9qjv832gcwgwzd850gdwbdphyymg1vy7fh2ahlsh28dj7wr4zm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -88485,17 +88485,17 @@
 (define-public emacs-pippel
   (package
     (name "emacs-pippel")
-    (version "20220225.1128")
+    (version "20220416.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/arifer612/pippel.git")
                (commit
-                 "682a40af266f395cf39862ad0bfb30152ddee204")))
+                 "cb194952ee150e77601d3233dabdb521b976ee79")))
         (sha256
           (base32
-            "1gb7nf047gm57jdggj49ri46hgz8gphqy58abniqlqxjcx9zp4z7"))))
+            "17606l24yyrjxa4rc0p2zj50lfbayqldw4phhi59yqf61289d520"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files (:defaults "pippel.py")))
@@ -96848,20 +96848,20 @@
 (define-public emacs-rigid-tabs
   (package
     (name "emacs-rigid-tabs")
-    (version "20170903.1559")
+    (version "20220416.2123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/rigid-tabs.el.git")
                (commit
-                 "eba84ceaba2e57e76ad2dfbb7a7154238a25d956")))
+                 "872a10c8751574c9610cba1800f541a6eda24997")))
         (sha256
           (base32
-            "18rba101m9vmjl4mf3x0k7wvbgn6qmay9la745vzpr3lx1f4nn98"))))
+            "170j67x499a76nfa8s5nzh5d7b602a4j31y61jaxa82877gi2j25"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/wavexx/rigid-tabs.el")
+      "https://gitlab.com/wavexx/rigid-tabs.el")
     (synopsis "Fix TAB alignment in diff buffers")
     (description
       "Documentation at https://melpa.org/#/rigid-tabs")
@@ -105612,7 +105612,7 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220416.1013")
+    (version "20220416.1528")
     (source
       (origin
         (method git-fetch)
@@ -109961,22 +109961,22 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220414.2008")
+    (version "20220416.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "be713a135fe50047fe33f076c2ddfb8d95570ab6")))
+                 "b4dad537a7a72e15c6abee2e950d274876583b67")))
         (sha256
           (base32
-            "16dl9y3rx3vfn2d28ph7is1c343pnghipirh2wzsjj5349fp13hv"))))
+            "1fabl09f7bal4gpy12dri1dbwvxk5ss2i3asjla7d5hy7wcnch24"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
     (synopsis
-      "Minimal theme with yellow and green color scheme")
+      "Minimal theme with dark and yellow color scheme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
