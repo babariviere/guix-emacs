@@ -26208,17 +26208,17 @@
 (define-public emacs-el-fetch
   (package
     (name "emacs-el-fetch")
-    (version "20220404.2144")
+    (version "20220416.2223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-el-fetch.git")
                (commit
-                 "759702504fe684dc0b2e89f6476e5d10064b8e30")))
+                 "c6dbf743e8c5bf8a58a86c72ada1a6e877a81291")))
         (sha256
           (base32
-            "1f8w068pfj3b2ybjm6531yh7bvnxiav6v59mkbhccnrqf4p96px9"))))
+            "1l74rs18b72f0m6988xv96l8yc9h1w4nrmbn611sx8ix9cwlsppn"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/el-fetch/*")))
     (home-page
@@ -68963,14 +68963,14 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220413.621")
+    (version "20220417.418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "20c019e8847128b1303fbbad339a55a7ec2a482d")))
+                 "4a40cfb4f2d54ddf63722e341e8112bd7fc413e6")))
         (sha256
           (base32
             "06f4y3l767x07rih7jr7zcdb73ilsrmnk5ychkd8ci9ylcimlhni"))))
@@ -81794,17 +81794,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220416.2125")
+    (version "20220417.332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "d8985aa2454a24f6cd434179faa031ab2bc0ed78")))
+                 "b948cfbe3763f49346f89523845d65ef4baf3aed")))
         (sha256
           (base32
-            "0j9qjv832gcwgwzd850gdwbdphyymg1vy7fh2ahlsh28dj7wr4zm"))))
+            "0jyhkbs31akxmn15zs0bhcz2h56lha039inz6743pfvz65gvv8m0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
