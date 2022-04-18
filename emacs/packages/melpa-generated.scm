@@ -3464,17 +3464,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220410.2121")
+    (version "20220417.1859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/apheleia.git")
                (commit
-                 "806210414b84549f1c19d2df94a4a0491a581f2f")))
+                 "9804f241ac8235027ea91a49d3c6275ecbaae203")))
         (sha256
           (base32
-            "0y3iyd5p0sbwijqhpsnlfrvg3ra19cqkmv9q0jshy74k674gwpbs"))))
+            "144lagg7vdxgqd4mzbv7wvddpmbd0ydgx676jlb1ijg1gnqacprc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -9873,7 +9873,7 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220417.905")
+    (version "20220417.1602")
     (source
       (origin
         (method git-fetch)
@@ -11919,17 +11919,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220416.1220")
+    (version "20220417.1953")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "8f378ed341f1865b9df826f709690172a218d27e")))
+                 "c5d2ff9066f58e437b83854cbefa613a78544248")))
         (sha256
           (base32
-            "1irg49kzjzrfs7fb8pamxvxdyijwlzq9ik1hxpllqdlkms4f5h61"))))
+            "1fvbc04nqcw5pnal6ggc9f9n6wvndq8kn1dsacl0x8lasj89ilbq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -12268,6 +12268,29 @@
       "Major mode for the Click Modular Router Project")
     (description
       "Documentation at https://melpa.org/#/click-mode")
+    (license #f)))
+
+(define-public emacs-clingo-mode
+  (package
+    (name "emacs-clingo-mode")
+    (version "20220409.2004")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/llaisdy/clingo-mode.git")
+               (commit
+                 "aa7ed9bf1e331296f3a36debeda7851fb537c1c4")))
+        (sha256
+          (base32
+            "1lmhwiwiix728jhr1dvq9lcpv8vxi8y5qkkgbqd6b1k3c7mafigz"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/llaisdy/clingo-mode")
+    (synopsis
+      "A major mode for editing Answer Set Programs")
+    (description
+      "Documentation at https://melpa.org/#/clingo-mode")
     (license #f)))
 
 (define-public emacs-clipetty
@@ -26352,17 +26375,17 @@
 (define-public emacs-el-patch
   (package
     (name "emacs-el-patch")
-    (version "20220115.34")
+    (version "20220417.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/el-patch.git")
                (commit
-                 "abe86793f0684a51ed895c43775a964a6900504e")))
+                 "d4f4574bcf4005f4fbafde8874cb19b907783956")))
         (sha256
           (base32
-            "01ixs3rksm4y66q27d69nkj87k1l214fkixkh6yr5rv3xfd7jr5b"))))
+            "0qkx7f19kl85n56bp3q40200a6ynpkhimcnb3k6x4n6idn6ff2pa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/el-patch")
@@ -26747,17 +26770,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220416.1736")
+    (version "20220417.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "3f3feb94b426ade9f960f1a3a6d07e0b7a8dda80")))
+                 "42187b20dd62705f352a976d1bc327955f1e39e1")))
         (sha256
           (base32
-            "1h3l6880nx7iqb3c4bbqzhy02vwalnl3aks0j2lzxiv0795y4f02"))))
+            "0dqfgvbgnbqn9chk88yr6ba61pdf0v5bj22pp438k7288lphn3y4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28729,17 +28752,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220416.1419")
+    (version "20220417.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "7a32b9342221327ea71233404441b5e2466ee0a9")))
+                 "0d18a5409a964e312c0f14e4631204a0f651c2e4")))
         (sha256
           (base32
-            "157hv8dx2bm388pilswjmzs339fj5bfc3r0flpyj91034zkjzkf8"))))
+            "18fk4ng14kn30y1qxvdwdbzg3i8i82i5anr39xvpbq4dlvp6lgd7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -36482,22 +36505,22 @@
 (define-public emacs-flower
   (package
     (name "emacs-flower")
-    (version "20201022.1904")
+    (version "20220416.1744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/PositiveTechnologies/flower.git")
+               (url "https://github.com/FlowerAutomation/flower.git")
                (commit
-                 "0d5dd8b9b844adab1a1b7a9641daa9e98918712c")))
+                 "047846409867b2dd0ba4e2047a414b498680cd9c")))
         (sha256
           (base32
-            "0d2vl8lclwcn03p4ch0alb5ib0hbjp1ry5g3mkchd0pzwx6wwsrz"))))
+            "0bbmyd03rhpkifgjk60pfg0knqh2d7nl3qfi0rzqk44f2f556j89"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clomacs))
     (arguments '(#:files (:defaults "project.clj")))
     (home-page
-      "https://github.com/PositiveTechnologies/flower")
+      "https://github.com/FlowerAutomation/flower")
     (synopsis "Emacs task tracker client.")
     (description
       "Documentation at https://melpa.org/#/flower")
@@ -39196,6 +39219,32 @@
       "Documentation at https://melpa.org/#/flymake-coffee")
     (license #f)))
 
+(define-public emacs-flymake-collection
+  (package
+    (name "emacs-flymake-collection")
+    (version "20220410.1343")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/mohkale/flymake-collection.git")
+               (commit
+                 "297406f601daffbec2b3305013442b2829451416")))
+        (sha256
+          (base32
+            "031l4f8c2pqbdjcxsjsp18vgh2sv7lzn9rin1w0kmx6srgbh9gjl"))))
+    (build-system melpa-build-system)
+    (arguments
+      '(#:files
+        (:defaults "src/*.el" "src/checkers/*.el")))
+    (home-page
+      "https://github.com/mohkale/flymake-collection")
+    (synopsis
+      "Collection of checkers for flymake, bringing flymake to the level of flycheck")
+    (description
+      "Documentation at https://melpa.org/#/flymake-collection")
+    (license #f)))
+
 (define-public emacs-flymake-css
   (package
     (name "emacs-flymake-css")
@@ -40050,30 +40099,6 @@
     (synopsis "Flymake extension for Racket.")
     (description
       "Documentation at https://melpa.org/#/flymake-racket")
-    (license #f)))
-
-(define-public emacs-flymake-rest
-  (package
-    (name "emacs-flymake-rest")
-    (version "20220409.1233")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/mohkale/flymake-rest.git")
-               (commit
-                 "4b7051222b64650e2ec8c8340fdbe792138ede83")))
-        (sha256
-          (base32
-            "1bxyhqz4rgclqp4p29jkr5wvg143cd1f8nlv38zj23x8hfp2n6si"))))
-    (build-system melpa-build-system)
-    (arguments
-      '(#:files (:defaults "checkers/*.el")))
-    (home-page
-      "https://github.com/mohkale/flymake-rest")
-    (synopsis "Core features for flymake")
-    (description
-      "Documentation at https://melpa.org/#/flymake-rest")
     (license #f)))
 
 (define-public emacs-flymake-ruby
@@ -61085,17 +61110,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220325.2038")
+    (version "20220417.1439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "80a2def11e444d8ba2b640d0ea76720cfefccb65")))
+                 "918ea03bc79b39a7e03ef1492947c0c1dcceb69c")))
         (sha256
           (base32
-            "1k5wqlxgijz73qscbdnkaia3ffw55x08xyqmfppvqv1w4gdvr0ya"))))
+            "1q4z0fhgrrk8r9bg6ka7qvj532wwln40jphwharfbxpz7i93zbvh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -64632,6 +64657,29 @@
       "Documentation at https://melpa.org/#/libgit")
     (license #f)))
 
+(define-public emacs-liblouis
+  (package
+    (name "emacs-liblouis")
+    (version "20220412.918")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/liblouis/liblouis-mode.git")
+               (commit
+                 "83b4071b578513bd3936e0aa2304eae09b4820e7")))
+        (sha256
+          (base32
+            "1hlhpwxbcs5mprfrwardvzsd1hdz34c8yfxjyikszi914ymmi9j2"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/liblouis/liblouis-mode")
+    (synopsis
+      "Mode for editing liblouis braille translation tables")
+    (description
+      "Documentation at https://melpa.org/#/liblouis")
+    (license #f)))
+
 (define-public emacs-libmpdee
   (package
     (name "emacs-libmpdee")
@@ -66888,17 +66936,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220415.1810")
+    (version "20220417.1706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "7b00b676e0a5a3a0002373f87c3521e5d1f85d8e")))
+                 "ba0247471b06214de7bc4b1a7275a55d4c78922b")))
         (sha256
           (base32
-            "0bh4czzkfvrp1xjq56rmn4d4bphm9fhalbhxbdpscbx1xw3xayiq"))))
+            "0fdyikyw1m50rp2ig7r4n0bsiwlyh570jxk4b8ns490lra17458i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80542,17 +80590,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220321.145")
+    (version "20220417.1730")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "75a0f3bc427b9449f6f7ae3b2ac67e16e24153bd")))
+                 "1bf0d8cb3d80efffbf1d561942c27ee701716ef2")))
         (sha256
           (base32
-            "0p33n195xl6pgvyf7z47mq48fh8ihkq7wx70z1vn9js3xvig2ahm"))))
+            "0shdvv9mxhnrldyfybhv9gjd1l16l7inq0sx126bnla0lqid4ynl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -95152,17 +95200,17 @@
 (define-public emacs-reaper
   (package
     (name "emacs-reaper")
-    (version "20220413.2343")
+    (version "20220417.2116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xendk/reaper.git")
                (commit
-                 "b5c03fc4c2104b1ae661327a0e72d5ce02ee5584")))
+                 "f42cd58d84e001473607d907791f728ebbfe50d3")))
         (sha256
           (base32
-            "17gn1nlzmflhc6hnpckdkxlm9l2m9mbfadcgm9n0i20i8gp88f76"))))
+            "175dysparh29s6sdazbbs2wm5h7arb3bn96lb3ih0vrzcipz2ykr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/xendk/reaper")
     (synopsis
@@ -104474,17 +104522,17 @@
 (define-public emacs-sphinx-mode
   (package
     (name "emacs-sphinx-mode")
-    (version "20211021.1444")
+    (version "20220417.1552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/sphinx-mode.git")
                (commit
-                 "9d4075c106fc837006394c4c803281383f2ec6f3")))
+                 "77ca51adf9ee877f3a8f43e744f59e650772f121")))
         (sha256
           (base32
-            "0ngc0b4z0s25l85wk3b4f3ipxnzxl4caiava9kb6jsci0ylap98a"))))
+            "0imv3baiy0cq4aj220l8rx4d1drsmiak7vrhbshsg9987026b8ig"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-dash))
     (home-page "unspecified")
@@ -117372,6 +117420,29 @@
     (synopsis "Major mode interface to WordNet")
     (description
       "Documentation at https://melpa.org/#/wordnut")
+    (license #f)))
+
+(define-public emacs-wordreference
+  (package
+    (name "emacs-wordreference")
+    (version "20220417.2112")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://codeberg.org/martianh/wordreference.el")
+               (commit
+                 "8b03aff74f4c6f7587ae4efbccbe39a6c34a1545")))
+        (sha256
+          (base32
+            "06pg9qils6zg4igfxglipvg301raxlcvvb0dzrys62asd50m5hqz"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-s))
+    (home-page
+      "https://codeberg.org/martianh/wordreference")
+    (synopsis "Interface for wordreference.com")
+    (description
+      "Documentation at https://melpa.org/#/wordreference")
     (license #f)))
 
 (define-public emacs-wordsmith-mode
