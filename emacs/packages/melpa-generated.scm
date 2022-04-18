@@ -972,17 +972,17 @@
 (define-public emacs-ac-php-core
   (package
     (name "emacs-ac-php-core")
-    (version "20220120.754")
+    (version "20220418.419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xcwen/ac-php.git")
                (commit
-                 "f44c5c6a23829e53bcb0712adcad406a8e9498ce")))
+                 "f34e09783b77d1158ea139b7b3d8034bc52b0b9f")))
         (sha256
           (base32
-            "1k3919v7mczwzk50dhrfnx2sbzlcm192c6ks4wzajr5hzvd448qc"))))
+            "1qi529lg3y5l4wrzfyk0w2fz36mpd432bp39s859z4cq06yybxga"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -19378,17 +19378,17 @@
 (define-public emacs-dash
   (package
     (name "emacs-dash")
-    (version "20220404.2004")
+    (version "20220417.2250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/dash.el.git")
                (commit
-                 "dc61f4641779616122692e34a32ba2a158ee034c")))
+                 "7fd71338dce041b352f84e7939f6966f4d379459")))
         (sha256
           (base32
-            "1lhcqlmysqlv38i3nx09bn4ad8q3ly9r5i0ba0lx3a1al94djmpl"))))
+            "1q2p51348bpg35h9c9cg21k27c7svh52qvi6zlslvnig7wcx662s"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("dash.el" "dash.texi")))
     (home-page "https://github.com/magnars/dash.el")
@@ -28752,7 +28752,7 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220417.2107")
+    (version "20220418.13")
     (source
       (origin
         (method git-fetch)
@@ -44195,17 +44195,17 @@
 (define-public emacs-github-linguist
   (package
     (name "emacs-github-linguist")
-    (version "20220324.548")
+    (version "20220418.22")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/github-linguist.el.git")
                (commit
-                 "6e3fc58a465e6726dcba6da038f959028c62223b")))
+                 "e1055cba19d82620a735e8e40d094b538e1f4d94")))
         (sha256
           (base32
-            "1zli3xzp44c61jrg0fn7h39ianxjp2r24sswm3i99hnx052pp8fp"))))
+            "00abshhhm6pvzgwaqhw8g0gwfs915hpdnfh5bqxr9434a56hgkd2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -70048,17 +70048,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220409.24")
+    (version "20220418.357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "ec03160337ea0c9f073b137791eea908491ff840")))
+                 "6fbf6b192c9d348ff3599af2c153d4c7d4254224")))
         (sha256
           (base32
-            "13r5zlkw887dap6v5p24aff738r3gk4v56h8wcnzlfm09x6fwh07"))))
+            "0vl5b6gmqah1c23y6klbdnl1zlqi4ii5p845qf1cahq5mpzgs4rv"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -84322,17 +84322,17 @@
 (define-public emacs-ox-gemini
   (package
     (name "emacs-ox-gemini")
-    (version "20220110.2102")
+    (version "20220417.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~abrahms/ox-gemini")
                (commit
-                 "7c3300ace135e94467942f77f0a2c07a93ab00ad")))
+                 "d0f2cabb2bca341494690fee4e652f926203ed9d")))
         (sha256
           (base32
-            "1kggmlj8qr0657skrixk1532smp5946a3vkg1xnwy5kwh8z0n8sf"))))
+            "063vgm4as9i2w28fikq35xjhx8j4cnnwhj6l812pdxfxcr82dwdj"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~abrahms/ox-gemini")
