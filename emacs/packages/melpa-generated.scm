@@ -16153,7 +16153,7 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220418.2219")
+    (version "20220418.2329")
     (source
       (origin
         (method git-fetch)
@@ -16744,7 +16744,7 @@
 (define-public emacs-corfu-doc
   (package
     (name "emacs-corfu-doc")
-    (version "20220418.1400")
+    (version "20220418.2347")
     (source
       (origin
         (method git-fetch)
@@ -23040,17 +23040,17 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20220314.57")
+    (version "20220419.101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-doc-show-inline.git")
                (commit
-                 "42954390621f281930a70104162db1bb70532a1b")))
+                 "fabe149f76202f8feb12ce626ef36d5f2edab9a6")))
         (sha256
           (base32
-            "0nvk10nh2mkw430zdr0m2cnqzvi48ah32k8zay4lh0qgz4jl2kdy"))))
+            "0qm83rksb0n28z9av074c9pcr160v37f168blz7hlc2b8zp05hwm"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-doc-show-inline")
@@ -27548,17 +27548,17 @@
 (define-public emacs-elisp-lint
   (package
     (name "emacs-elisp-lint")
-    (version "20211018.212")
+    (version "20220419.252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gonewest818/elisp-lint.git")
                (commit
-                 "a5ae046c35a898a88eff05137fe9e5159ae610d8")))
+                 "c5765abf75fd1ad22505b349ae1e6be5303426c2")))
         (sha256
           (base32
-            "0vzgqjsx8crikr13r87vczjr47sh2xm3hckqc10s6b26hc2jbxrv"))))
+            "13g3nknb3rdq941avrjczvaa75jv7mdln4i65rwhz0nyh2sd6jnd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-package-lint))
@@ -66936,17 +66936,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220418.1736")
+    (version "20220419.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "d6d16792b91b04702169141015e077a587dfc37f")))
+                 "b2a2e1aea502b4d07028606a91b1afd12ec22a8b")))
         (sha256
           (base32
-            "07mi61cg1819vhw8r24zs6hzf6qvn5m7xrzyxn0cyasbmn0i8rlg"))))
+            "1j4zk0wfx460dv9g6bi8l8bj56pig4ixynqnv9x35ivnv5szqrja"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84712,17 +84712,17 @@
 (define-public emacs-ox-pandoc
   (package
     (name "emacs-ox-pandoc")
-    (version "20211224.1240")
+    (version "20220419.750")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/ox-pandoc.git")
                (commit
-                 "b2e43b936249de2a100afb4262698105c39ce289")))
+                 "0a35d0fbfa56bdd9ec5ba5bac2fe002b61c05c52")))
         (sha256
           (base32
-            "1fj0d37xdn0xgr5xihc6g24j75snwpq5vijyc2n1w2qrw8sav0ak"))))
+            "00fx05jkz3mbgqw5y1g7pfrhrpkcqn5zf0s51r25ykzdfiggcn7a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page "https://github.com/a-fent/ox-pandoc")
@@ -91363,17 +91363,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220402.624")
+    (version "20220419.647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "defce6e6bb504bdfab1e091550e2f709310327b9")))
+                 "4fe6b464db5409c6e11c7ce708d72519a69d9084")))
         (sha256
           (base32
-            "1qxns4s8wf02aiwp8hwcbqqydyldvj0ssh6rdbyi3fkq87fajcp6"))))
+            "15g009agf48xnc3bi1sd14sarpp7y8hc8vwinmii0d0qr2rarcsd"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -92821,17 +92821,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220418.644")
+    (version "20220419.722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "7af7eb0a95c51d2d14a5327bc762a358c294950f")))
+                 "6ed46ceef67f3472089f986ebbd7b7d5dff3c9a7")))
         (sha256
           (base32
-            "0x4hxg0j7ilx1a6pgl5wqbnqprbvaanwfdxlj4xsq2ck3wszg5p2"))))
+            "02lpvd8vmfd8wy3924hvizj1l8mbnkxb8lh5sfa78nihi93y9kl9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -116310,17 +116310,17 @@
 (define-public emacs-which-key
   (package
     (name "emacs-which-key")
-    (version "20220214.1818")
+    (version "20220419.227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justbur/emacs-which-key.git")
                (commit
-                 "1217db8c6356659e67b35dedd9f5f260c06f6e99")))
+                 "129f4ebfc74f207ac82978f6d90d8b4bb1a55cf9")))
         (sha256
           (base32
-            "0ph5mrzz3r7x4dmy93v6affl4jznvic97a30mrs3kvhwyr2v4mby"))))
+            "065jfwnz9ymv5xiiyhnhsi5sm03ah5985hnm5psay6z9msskcnx8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/justbur/emacs-which-key")
