@@ -3620,17 +3620,17 @@
 (define-public emacs-apropospriate-theme
   (package
     (name "emacs-apropospriate-theme")
-    (version "20220411.2036")
+    (version "20220418.1554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/apropospriate-theme.git")
                (commit
-                 "0f8ff945942ecb036691ce4400c664a16545c491")))
+                 "52ed4bf4aaa01c527271d71e6ce00f3607839777")))
         (sha256
           (base32
-            "104inw43k4rmrjr4fl64phr3phlmnvdrmqrr7zjiqc1h5rj6qn57"))))
+            "168z5i0y7rldbqpmxyvi5z19i57l14yhqzzyhl0sv7zdcqa66s21"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -8182,17 +8182,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220412.1439")
+    (version "20220418.1930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "c79ad66ba061bbe295943328425744616170f8af")))
+                 "2cf5635da90d6dcc3e7e64500f67e914a44ef59f")))
         (sha256
           (base32
-            "0gxpq8l7f8s9mfyk2f00m7gf9x45rr5nxwn9fdpg81pmrqfjxjvf"))))
+            "1fhscmr6x46chp374fy1bwy45as511f1bkm7iy574ia39khyinad"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments
@@ -12683,17 +12683,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220307.1903")
+    (version "20220418.2015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "b7d08b87f6a116ff47b33ee857926b60c66c3ab7")))
+                 "b6f41d74904daa9312648f3a7bea7a72fd8e140b")))
         (sha256
           (base32
-            "0n7v6hx21f8x37gj388wnff38aqpzxxv5g8vxavp74vr3cbagsnn"))))
+            "0s9750x739biwbcc8m09spkvkwlf1nlrdz869imjpkagk0pci7xm"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -16153,17 +16153,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220416.1904")
+    (version "20220418.2219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "a924b3b0d943d12c71d23964da7733251f4705b2")))
+                 "35ae1fe7cf38cf46cf915f29ca0d2f51b7cedc77")))
         (sha256
           (base32
-            "0ll5z5zlhcpd6qmk6140yml73lkl9mspwr6dngqldlhxnb6sv3gl"))))
+            "131gha7kibg2ni3bp0ysr7dxggk4h2mawiplqsl2mkix925qa2km"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -16744,17 +16744,17 @@
 (define-public emacs-corfu-doc
   (package
     (name "emacs-corfu-doc")
-    (version "20220418.1340")
+    (version "20220418.1400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galeo/corfu-doc.git")
                (commit
-                 "1fd578caa00d85b6d7ad411fac72d5a18e49b9e3")))
+                 "c14d42e5e2107c1d3f51e88c7d42d0bd3b247b39")))
         (sha256
           (base32
-            "1c5yg4br5nb83yigs5id41vy1lz1gdia489rhnhflp6v7mn7szkz"))))
+            "0cbcxm330jy22pfzlghm37bcddw89l3kpxzzqfnxizjagpg7469x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-corfu))
     (home-page "https://github.com/galeo/corfu-doc")
@@ -28752,17 +28752,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220418.13")
+    (version "20220418.2042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "0d18a5409a964e312c0f14e4631204a0f651c2e4")))
+                 "f46b6ba6a567024f28e1e814f402b020e67be882")))
         (sha256
           (base32
-            "18fk4ng14kn30y1qxvdwdbzg3i8i82i5anr39xvpbq4dlvp6lgd7"))))
+            "1p6j52h7xwnpmysk8sh71bwsaskkx383aym9q79x7j2hkr3w6zk2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28776,17 +28776,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220413.1944")
+    (version "20220418.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "ab778510d5db9935a2d436b13d98c47b824172ee")))
+                 "f46b6ba6a567024f28e1e814f402b020e67be882")))
         (sha256
           (base32
-            "1w2jiv8wffm4lf22bkc4znbk20jarnpwl5483jd3bfg712ykqcsq"))))
+            "1p6j52h7xwnpmysk8sh71bwsaskkx383aym9q79x7j2hkr3w6zk2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -31874,17 +31874,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220418.1024")
+    (version "20220418.2139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "76a104dd87252f8b1107fe3fc1d3eb5ae45bcc55")))
+                 "b904c4f0bf7a3f2037e3f93a6ced8d7fb6243827")))
         (sha256
           (base32
-            "0ginka1a8pfh60k6ansxjlfcb1k3hi8wxiwp87cwa7ca2bx34rp7"))))
+            "1c9426wlr5dkzba4vwpij2ksqsi1zb5mbzgyw1064wbrf92za1a7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -55516,17 +55516,17 @@
 (define-public emacs-icomplete-vertical
   (package
     (name "emacs-icomplete-vertical")
-    (version "20210603.1343")
+    (version "20220418.2119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/icomplete-vertical.git")
                (commit
-                 "3bee30b374226deecde8a5cbbc6ca8471c303348")))
+                 "f5775d535630199703c936380d210d38249b342c")))
         (sha256
           (base32
-            "1c7riqgm5fi13kb2k7qfykr0zsx3hkwyzgcxh4kqnd1y5w54pgs2"))))
+            "1xc1sy51xf3mcbx6bprb6g4hzgg1rm7as3nx8q54wma7dllmh092"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/icomplete-vertical")
@@ -66936,17 +66936,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220417.1706")
+    (version "20220418.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ba0247471b06214de7bc4b1a7275a55d4c78922b")))
+                 "d6d16792b91b04702169141015e077a587dfc37f")))
         (sha256
           (base32
-            "0fdyikyw1m50rp2ig7r4n0bsiwlyh570jxk4b8ns490lra17458i"))))
+            "07mi61cg1819vhw8r24zs6hzf6qvn5m7xrzyxn0cyasbmn0i8rlg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71730,17 +71730,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220417.759")
+    (version "20220418.1649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "2329803b865151aec13a26f44da2382026178c38")))
+                 "9928e20172882554641bd30bf30d5d52a0c88d32")))
         (sha256
           (base32
-            "1p4h35q590155ya6fk50pp9dfbxydypw7jq0yfi9i7g15d65liin"))))
+            "132rz1phzqg63kas93fznh47sq401qa15796m9p8ax0gwdsw1sks"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -78941,17 +78941,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20220406.1434")
+    (version "20220418.2119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "8f64537f556f26492fe5ee401d8d578d7d88684b")))
+                 "75eeae21971d86b51a712ed8ecd6434463b2d866")))
         (sha256
           (base32
-            "068sqaxlig3fj7z3a5hc34mnw6g3lv9kn68ibq6yw1b4q8r82knq"))))
+            "0rl3na97qkl5a5p2ifs1sli80rq38qqmjqkv6khn60f05rj5yvk3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -86935,17 +86935,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220214.344")
+    (version "20220418.1555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "326552eef71ae6d53e215c46be5bf532575b7abb")))
+                 "8e622b26e384148cbe18402370e4cbf3f00943b0")))
         (sha256
           (base32
-            "1gvaw0684svv9v294f8zgmqa2ym2wa3gymn9y9v2slhamf51r4vk"))))
+            "0av03qmwdnh1svihlfjw2wpalhnlw02ji769bzkw50klmf6g12y8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -110008,22 +110008,22 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220418.1106")
+    (version "20220418.2137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "756c482240603fd29524d55d8ab11cbc6e0edda1")))
+                 "92c747c9d41d074d2a1b5eacc6d4076c47213425")))
         (sha256
           (base32
-            "0vf937c891a44vvkw4w2gb57gwwvl2mqdvajwcysbmpxcks3nb6a"))))
+            "102xffwaqa3rl545n80shjdccv2mk1bkpqhna4sal85hp185fhvc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
     (synopsis
-      "Minimal theme with dark and yellow color scheme")
+      "Minimal theme with light and yellow color scheme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
@@ -110031,17 +110031,17 @@
 (define-public emacs-tokei
   (package
     (name "emacs-tokei")
-    (version "20220413.1836")
+    (version "20220418.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nagy/tokei.el.git")
                (commit
-                 "c6e1f333283c6c3f366141ba32dcd57252f6947e")))
+                 "ab3dbc2440222e35efbfc499c1588ec3b20dfbaf")))
         (sha256
           (base32
-            "0jzfhxpkv4syl1wxfyxzkjhkr5h9j8562xwafr2vai2vc6y9p94y"))))
+            "11kgqgcxrfy7ndh8d72d07lb7prcaf8gmrix5xvn9pl6z8fjlil3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (home-page "https://github.com/nagy/tokei.el")
@@ -119873,17 +119873,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220418.1144")
+    (version "20220418.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "00061fc5968d73bcc17c86886b33b5b2d5371eba")))
+                 "ae2316ab1e3c7ed471cd5051b9f36724af272b02")))
         (sha256
           (base32
-            "12ix7gv6g7xqhrdf9ywwdi34gx4df6hh537lnrzczhmqcj2046ii"))))
+            "02zz1wga87l104nkjmyb086j4pnpibq9w5d4nwy5r507vc1d6f7k"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
