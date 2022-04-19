@@ -9873,17 +9873,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220417.1602")
+    (version "20220419.1321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "9e00a51c1102b9c7d3688e203bf7bb5d1ebebba2")))
+                 "3a420786baa7ad9f8d656862edff52e902d0a48c")))
         (sha256
           (base32
-            "03wbl6w9mzg3a11bl2mcrw8bjbx2734v3hp6589al8xrf5dg96m6"))))
+            "0r48b0wl227fk9jxwf4zzf9xkbykpzqvhn4qm7a4dkllh965mfzv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-hierarchy
@@ -16153,17 +16153,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220418.2329")
+    (version "20220419.1304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "35ae1fe7cf38cf46cf915f29ca0d2f51b7cedc77")))
+                 "09c252060914a3c0cd8a5cee5116f67123c0b937")))
         (sha256
           (base32
-            "131gha7kibg2ni3bp0ysr7dxggk4h2mawiplqsl2mkix925qa2km"))))
+            "19yym1048v2xaiqal98z4m0wzlfag0izyzr4szfgksssbrnbyl85"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -26103,17 +26103,17 @@
 (define-public emacs-ein
   (package
     (name "emacs-ein")
-    (version "20220414.1910")
+    (version "20220419.735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/millejoh/emacs-ipython-notebook.git")
                (commit
-                 "ca440a37f0430357aa48d7e476dac9256281370e")))
+                 "388c8f753cfb99b4f82acbdff26bbe27189d2299")))
         (sha256
           (base32
-            "08sf3l1xbnxwyz57l5fs5p175i8b396rdiqhl7cvy7lv5zp4rsmp"))))
+            "03idq7z0ry3mjvsw0w3acnsnfjijqkp9lr1v1xn5jn3s58ciyw80"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -27245,17 +27245,17 @@
 (define-public emacs-elfeed-protocol
   (package
     (name "emacs-elfeed-protocol")
-    (version "20220126.1404")
+    (version "20220419.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fasheng/elfeed-protocol.git")
                (commit
-                 "d2e22f5506bc75dbf4ca42ac87257fd1b259dd66")))
+                 "eaf1329ff221098eb6d4709245010d070c89b173")))
         (sha256
           (base32
-            "0zmalhdd4xbn9wc5dmk4511ha955smrjpmzknwkwhqn8npgbj4m5"))))
+            "14zn3h7v9vygi6syjnywd5j56xlqv4a1z2grlkgrr0jd0y427jzk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed))
     (home-page
@@ -61110,17 +61110,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220417.1439")
+    (version "20220419.907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "918ea03bc79b39a7e03ef1492947c0c1dcceb69c")))
+                 "f64e0d7cbf195ceed7dfd2eecd9565dd7e1fa202")))
         (sha256
           (base32
-            "1q4z0fhgrrk8r9bg6ka7qvj532wwln40jphwharfbxpz7i93zbvh"))))
+            "0741cbnl3vdd94hqd8dzq5i08zqbxzpxyzx5fc5zdbbj1ldqx1lw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71730,17 +71730,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220418.1649")
+    (version "20220419.850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "9928e20172882554641bd30bf30d5d52a0c88d32")))
+                 "0751e312302eedfcc6668bd290cb8e0f25db7a72")))
         (sha256
           (base32
-            "132rz1phzqg63kas93fznh47sq401qa15796m9p8ax0gwdsw1sks"))))
+            "18r5sb7rfs2b1536iz27klx1gix71bkpbam52ffhbrz4yprv34qg"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -91363,17 +91363,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220419.647")
+    (version "20220419.1102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "4fe6b464db5409c6e11c7ce708d72519a69d9084")))
+                 "b014d79f5bca2103cf055b27334ad89f007a6ac8")))
         (sha256
           (base32
-            "15g009agf48xnc3bi1sd14sarpp7y8hc8vwinmii0d0qr2rarcsd"))))
+            "00pj2mi8j6whha2s7kra2pwb1blqgj8327cfpxm36n2b96gs8wpq"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -105659,17 +105659,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220416.1528")
+    (version "20220419.648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "96f960218ce8dcaab76a04de221a58bf6ec0df2c")))
+                 "e091d96847bce473db797070a181095b123ec1b0")))
         (sha256
           (base32
-            "1lh3y3z70fwsdjw1jda0z45ighc9pv11khshbkl43zhjqb4p8c46"))))
+            "1vd92hjc0y5r0jr59yyivb54dps50yf7ps27j9s7ngdqjbmsz0n5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -119873,17 +119873,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220418.1815")
+    (version "20220419.1204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "ae2316ab1e3c7ed471cd5051b9f36724af272b02")))
+                 "e5d479a476b6c98d442d70662999041c30ba8bab")))
         (sha256
           (base32
-            "02zz1wga87l104nkjmyb086j4pnpibq9w5d4nwy5r507vc1d6f7k"))))
+            "1jwqdmjvh5gxgyqnc5rnv0amrbmv2jxjm8mh5fgy36mhw3gp7gfs"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
