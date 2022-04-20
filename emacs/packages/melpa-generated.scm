@@ -307,17 +307,17 @@
 (define-public emacs-abridge-diff
   (package
     (name "emacs-abridge-diff")
-    (version "20210519.322")
+    (version "20220419.2358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/abridge-diff.git")
                (commit
-                 "85d0512e239f2ec2217da7f316a5aed350041fd9")))
+                 "996d921da0a0ee651b3486c2afe29447f48be50f")))
         (sha256
           (base32
-            "0ca375q90fg29c0y47s7ljb5ymwf8wnq6b8v375r06rkqvi7svdx"))))
+            "19k23326dwnnbf8gdm1b8zm1p8qx0515ak939vdp6falhqa9x4rn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/abridge-diff")
@@ -9873,17 +9873,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220419.2330")
+    (version "20220420.535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "77d4c5f76886a7d4af7e360d70be127aaf122a54")))
+                 "2901f4f1801c2d5eeb6b7e7fb212e4bb6143af3d")))
         (sha256
           (base32
-            "0l9gc14xa2k2w8d2jz7rnsd9pnpqypdmnbwvv1d35rl395w3a2qw"))))
+            "1yaxy6yffj9ij1fnk9snsp5nqmyd6hadhzh08h49xq58g5d0jlvx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-hierarchy emacs-tree-mode emacs-ivy))
@@ -16364,17 +16364,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20220419.1839")
+    (version "20220420.528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "fd535800a615af4d2af0577e8351cb16561f0e32")))
+                 "41f5d43c50e283a7d509675cd448e69f0f94ef6b")))
         (sha256
           (base32
-            "0lqycm1qaw2hsagv4bldxqwak30nzvkxa1p5qalrrk0wp796cjf1"))))
+            "0swxa4mf8c797ykf1ds00fm2gash4plvflfszvb8zp9lirl3cy8a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -28749,17 +28749,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220419.1915")
+    (version "20220420.52")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "02d9abe5929e7c95cba516d3f65a3d5d41aff78c")))
+                 "a1c3c3d52b924286a2c2034786da9e60d8134c94")))
         (sha256
           (base32
-            "0dgp86jvll24ha8927m3wh5am4b2mzmz5jb93rw394iaj5csw9p2"))))
+            "10cka4nfgqfd47xg9fc5r9q0mszi5r69hchx9wmsw67a2y9wcbv9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -110164,7 +110164,7 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220419.1517")
+    (version "20220419.2323")
     (source
       (origin
         (method git-fetch)
