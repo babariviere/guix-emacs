@@ -8062,17 +8062,17 @@
 (define-public emacs-boogie-friends
   (package
     (name "emacs-boogie-friends")
-    (version "20210703.238")
+    (version "20220419.2240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/boogie-org/boogie-friends.git")
                (commit
-                 "1e3b6a8aee9fa7c113468838c5b647080caf3703")))
+                 "d685a52259f50c2db51205ef9cc93f713ae8d8fa")))
         (sha256
           (base32
-            "1h3j7a1y5p90dd1vj4kyngj5xvbr2z4dkzkq74s85bqf61j66yw2"))))
+            "1879vjan19kdvfkck1xk30jllwbiqpyc4m3v1v6kmac7gxm10min"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -9873,23 +9873,20 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220419.1321")
+    (version "20220419.2330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "3a420786baa7ad9f8d656862edff52e902d0a48c")))
+                 "77d4c5f76886a7d4af7e360d70be127aaf122a54")))
         (sha256
           (base32
-            "0r48b0wl227fk9jxwf4zzf9xkbykpzqvhn4qm7a4dkllh965mfzv"))))
+            "0l9gc14xa2k2w8d2jz7rnsd9pnpqypdmnbwvv1d35rl395w3a2qw"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-hierarchy
-            emacs-tree-mode
-            emacs-ivy
-            emacs-beacon))
+      (list emacs-hierarchy emacs-tree-mode emacs-ivy))
     (home-page
       "https://github.com/beacoder/call-graph")
     (synopsis
@@ -16153,17 +16150,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220419.1304")
+    (version "20220419.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "09c252060914a3c0cd8a5cee5116f67123c0b937")))
+                 "4223ef5edb3ed834fd9a80afb41a5fdcf561a2ab")))
         (sha256
           (base32
-            "19yym1048v2xaiqal98z4m0wzlfag0izyzr4szfgksssbrnbyl85"))))
+            "04gmb7jdlgcqpagln4w61vjja9mlsgijdqz9m81ylhdzc23aja8x"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -16272,17 +16269,17 @@
 (define-public emacs-consult-flyspell
   (package
     (name "emacs-consult-flyspell")
-    (version "20220227.2210")
+    (version "20220419.2044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/OlMon/consult-flyspell.git")
                (commit
-                 "2e7b99dec6c51259d0bffbae3e863f4054dd2346")))
+                 "396def174495cc77413e2065ef79658a02490dad")))
         (sha256
           (base32
-            "1cj3ahxdihi4v4x5qsn1lgacl7dzswy79qli23zrkxaw78x8is0i"))))
+            "1yvxzkp81yn5k3z1fdkayhb3cn2x92z7wfxcxrqxlasjz9nax5cm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -16367,17 +16364,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20220417.554")
+    (version "20220419.1839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "da86614508e5d138b517e25b0752611563e3117e")))
+                 "fd535800a615af4d2af0577e8351cb16561f0e32")))
         (sha256
           (base32
-            "1zqr9mgxsap7a6wnfd9fz5fb9ydsyqmr5hccn38d8azhjjxqbbl6"))))
+            "0lqycm1qaw2hsagv4bldxqwak30nzvkxa1p5qalrrk0wp796cjf1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -28752,17 +28749,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220418.2042")
+    (version "20220419.1915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "f46b6ba6a567024f28e1e814f402b020e67be882")))
+                 "02d9abe5929e7c95cba516d3f65a3d5d41aff78c")))
         (sha256
           (base32
-            "1p6j52h7xwnpmysk8sh71bwsaskkx383aym9q79x7j2hkr3w6zk2"))))
+            "0dgp86jvll24ha8927m3wh5am4b2mzmz5jb93rw394iaj5csw9p2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28776,17 +28773,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220418.2005")
+    (version "20220419.2029")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "f46b6ba6a567024f28e1e814f402b020e67be882")))
+                 "02d9abe5929e7c95cba516d3f65a3d5d41aff78c")))
         (sha256
           (base32
-            "1p6j52h7xwnpmysk8sh71bwsaskkx383aym9q79x7j2hkr3w6zk2"))))
+            "0dgp86jvll24ha8927m3wh5am4b2mzmz5jb93rw394iaj5csw9p2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -31874,17 +31871,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220418.2139")
+    (version "20220419.2339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "b904c4f0bf7a3f2037e3f93a6ced8d7fb6243827")))
+                 "2a5360eccc9bcb784e61c3b58ebe4690f2c7ea49")))
         (sha256
           (base32
-            "1c9426wlr5dkzba4vwpij2ksqsi1zb5mbzgyw1064wbrf92za1a7"))))
+            "0nk93qf91f7y8zy0hjzkygla9lp93g7dwamw7zbmzms6y3gsc7fh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -35489,17 +35486,17 @@
 (define-public emacs-filldent
   (package
     (name "emacs-filldent")
-    (version "20220103.10")
+    (version "20220419.1628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/duckwork/filldent.el.git")
                (commit
-                 "0b9aa02c2519d9ba9df168fd5b15a0d59f286507")))
+                 "b55fd3aae9f389b76fe695b300984188f24f9366")))
         (sha256
           (base32
-            "00km757cdjj1kfzfwwik7lg2bj7q3zvxvah95akfm068j3wvhgb4"))))
+            "0kj6pi2dvgd2wgnwjx411gpfy8fi165kzf5w07sl8dd6mrlfbi7j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/duckwork/filldent.el")
@@ -54083,17 +54080,17 @@
 (define-public emacs-hl-todo
   (package
     (name "emacs-hl-todo")
-    (version "20220402.1112")
+    (version "20220419.1930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/hl-todo.git")
                (commit
-                 "7772ce536e5146f44efc3cc0ce2d9326f115683d")))
+                 "d2f7a9b261a52e3c04c8d677165136a306f0aed3")))
         (sha256
           (base32
-            "03gb1vp44bf6a0h6r298bw1zsfd7rxxpph2ll2prspx7kzi2f5ph"))))
+            "1iss2jyikvwavj6v1zir6n6wfisgizqmqgq9df1righfvg90r93b"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tarsius/hl-todo")
     (synopsis "highlight TODO and similar keywords")
@@ -61297,17 +61294,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20220212.210")
+    (version "20220419.1852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-jupyter.git")
                (commit
-                 "0a7055d7b12cf98723110415b08ee91869fa7d94")))
+                 "7d20c0aee2f9c896215f35232905b23532ef04c5")))
         (sha256
           (base32
-            "183313jlmfnbndczllkqm47y4495prw4ks2jav3pdwn5qqfmpznx"))))
+            "0lrg43xas5dx1qlhzk7irq5hwgpfpxkv27zgcrcy0sbhd9y8dad6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -63293,17 +63290,17 @@
 (define-public emacs-laguna-theme
   (package
     (name "emacs-laguna-theme")
-    (version "20220109.1015")
+    (version "20220419.1459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/HenryNewcomer/laguna-theme.git")
                (commit
-                 "579bbd2453bd88673873a012dd70522e7d4265ce")))
+                 "48d14ffad6f0ffb4bd60c341e618c47ddbb7a2d8")))
         (sha256
           (base32
-            "1lnmsicybg02i7yrl3gfngmwa4yyskkq4qrba7cgsgvhadg9fdmq"))))
+            "0s2pm1ykkg4r39sigbpr5rjqv25dxpiz47jg3j38m2qpihgi03nw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/HenryNewcomer/laguna-theme")
@@ -69579,17 +69576,17 @@
 (define-public emacs-maude-mode
   (package
     (name "emacs-maude-mode")
-    (version "20200725.2035")
+    (version "20220419.1454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rudi/maude-mode.git")
                (commit
-                 "008f372631a1efe15be033792cfb1686b1736aeb")))
+                 "68de3c11ae16c409afa74516aaf465996d1a9e59")))
         (sha256
           (base32
-            "07a51iwlzj88b6jaxzz8p8r7l9kcbflw8l11h67sx5y0gv23a6vv"))))
+            "18dwn1wp29yr9k8967qnm9avmdi2wxn82kjsyykj1xy3sh9n28my"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rudi/abs-mode")
     (synopsis
@@ -95002,17 +94999,17 @@
 (define-public emacs-realgud-lldb
   (package
     (name "emacs-realgud-lldb")
-    (version "20210417.1434")
+    (version "20220419.2006")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/realgud/realgud-lldb.git")
                (commit
-                 "abffd0d2d23f6c87be5dc5d36e948af92de5df86")))
+                 "19a2c0a8b228af543338f3a8e51141a9e23484a5")))
         (sha256
           (base32
-            "1zjrjgs9vjaqsf5h9sxw1pf2f9sfngx1gxp37lb8myan52qmhlz1"))))
+            "1yyh945w13qh8isj5p0v8sjwzmvzh330szd2hdy3fgc3d58r7sym"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-load-relative emacs-realgud))
@@ -110167,17 +110164,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220415.855")
+    (version "20220419.1517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "9760a3ab5ebcde43ab93246fd9cb93732c5d8647")))
+                 "d376bca4c8cd8e787f54e46d73389cf0a7cfafbd")))
         (sha256
           (base32
-            "1xk4nyivzhlxigsxbxfhvf7zp8bwbmp5hkzcqnz8xg9b6zdn7lz8"))))
+            "1xxpii7m6cysyqrg2s5pl3anxxv1w4pjg77qi7c4xnj8gnylx04k"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
