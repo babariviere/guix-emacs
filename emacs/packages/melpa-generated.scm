@@ -5237,17 +5237,17 @@
 (define-public emacs-auto-sudoedit
   (package
     (name "emacs-auto-sudoedit")
-    (version "20220209.554")
+    (version "20220421.1147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ncaq/auto-sudoedit.git")
                (commit
-                 "df455f9723fbaab8ab550c7e7df79dc6b2d159c6")))
+                 "39cb574a4b5ec74ad62857320bf5fec58abe876f")))
         (sha256
           (base32
-            "14n77h7w69w0i845dbbq39nxnh1xw28kacp0cgf666r62vgdcvvj"))))
+            "1h9wh1gd7i0j3lg08l25p1n9pr24x9cyc3j1all4j77phl38sxhh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -16150,17 +16150,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220420.2202")
+    (version "20220421.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "69bba57ad7a7943b413a2bdbb41c15ee06a027a6")))
+                 "6df330a2856a5d4fc19c865d8839ce64f179bd89")))
         (sha256
           (base32
-            "0s3pav9gja7awsl0igacb49yc1bvarlrvp44jr0f2rjni14mbhcf"))))
+            "1f5p6898phdqi17a8k0mwh9akarsaqx1kpz970pg19yi6f9adz7k"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -16340,7 +16340,7 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20220421.346")
+    (version "20220421.717")
     (source
       (origin
         (method git-fetch)
@@ -22242,17 +22242,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220420.808")
+    (version "20220420.1321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "11a60d45c7bfba65951ac839976cfdf5386a8cb8")))
+                 "7a0e47365482700bce2884790c2970b493776838")))
         (sha256
           (base32
-            "13ihkj3ykj439ir9r2z4d905z5gh1fm6sz9sc7ap51rndk758jd6"))))
+            "1k3bqa399sx3314c9z0fmvlf3b4bq4qynnzvx0p1z6p511dhd4j1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -48503,17 +48503,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220418.1322")
+    (version "20220421.806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "09f1a35023cd26e4ac43d1a840a57640610f5325")))
+                 "24cc8959fbcab17fb5ce1e71ead8fd30950014bb")))
         (sha256
           (base32
-            "0m81q2l9j3a60qgmr3sqx4p3ychiyz1rdlc35nvkhz368fp9xz62"))))
+            "050d45pp2j1a5b9xj7aq71zjzag98vk6l4ik8a4fcpg29bnjbjk7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49311,17 +49311,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220409.756")
+    (version "20220421.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cac2ffceefb816a3dcb005ed2d4e1fc8b2450669")))
+                 "24cc8959fbcab17fb5ce1e71ead8fd30950014bb")))
         (sha256
           (base32
-            "16j0wnkk58qac5w82k9y2dzxxypkb9lm55n5xc4bwv12h8l4kqn3"))))
+            "050d45pp2j1a5b9xj7aq71zjzag98vk6l4ik8a4fcpg29bnjbjk7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -56990,17 +56990,17 @@
 (define-public emacs-inf-clojure
   (package
     (name "emacs-inf-clojure")
-    (version "20220315.1102")
+    (version "20220421.559")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/inf-clojure.git")
                (commit
-                 "f511dcad0e0684c9609c7526930e88d11da989ab")))
+                 "abeab8d6d4cb3bdded5e9083776aab0c06cbdf57")))
         (sha256
           (base32
-            "1xxjqf3j2k92sj4zwhkjywc6yr5x183r8n33lba2v3w5hcfgahd0"))))
+            "0b73dm3kyard035jfijcah8vp96vzgywmkl0ajnhyzzxmbl26hqa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (home-page
@@ -71727,17 +71727,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220420.854")
+    (version "20220421.1021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "5738d159d70e9d843ecf2e69ec2ab512d7ebef15")))
+                 "e8f1b8997466e244d9aa1a11b7ffaa4b70419874")))
         (sha256
           (base32
-            "1ry03vkg2p5hkbrms425bihnvgm3p0ah99fmbx49mgv3d9kb6ax8"))))
+            "1ih8dp105r77bwkzswns1ck8kyldgzaykrm26p4ww4nwi9f4jy62"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -84432,17 +84432,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220416.205")
+    (version "20220421.1318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "5b3a0d8a7da49f602785aa20486bbbbeb35ebb36")))
+                 "0af8d50e8385c920f542fc55006dd042b3f714bd")))
         (sha256
           (base32
-            "1p3xvzf4s0zrn5npzdnf9mcajdfwgk1pyv57q2wj8j1s277wca5r"))))
+            "0268wiqkbp08cyvkm531bg8zvxr0k76syd2wzjqcrmhh5mz2gsm6"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -105656,17 +105656,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220421.550")
+    (version "20220421.1337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "34632dd99903d4ffbb78a2deb5b658291a6cf040")))
+                 "2ecf0a83b749096c5a3988a6cf00c080ae676555")))
         (sha256
           (base32
-            "0rq8qimc3xfh1x9g691x2bmmy9a1bglv6180hdc5z6irv5gfszvn"))))
+            "1jhbr1ixavf6iiqb2h3dz7zwbkkzx725w1nxizxahg34x8f74z8j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -115370,17 +115370,17 @@
 (define-public emacs-walkclj
   (package
     (name "emacs-walkclj")
-    (version "20201116.735")
+    (version "20220421.645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plexus/walkclj.git")
                (commit
-                 "2077475eb3c8d1a170c3a3b0e836420469024f0f")))
+                 "4b4e9fcef2361bdf88ab3c7f905a76672cfd43e4")))
         (sha256
           (base32
-            "1ml1jz2dcva98kgzvrbad4myvyx2g1xzl584vj0mj41x0h6m47b3"))))
+            "19an6ny0r41wl567z0z8zlyrcq9c4jck1nf5rqnp3z07zswlp5sw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parseclj emacs-treepy))
@@ -117996,17 +117996,17 @@
 (define-public emacs-xenops
   (package
     (name "emacs-xenops")
-    (version "20211121.1953")
+    (version "20220421.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dandavison/xenops.git")
                (commit
-                 "c5fafbc41ae5c4d20a1eb2de3b3226f8a55eb65e")))
+                 "a2c685b3bb2257da49af771caa02325aa41fa699")))
         (sha256
           (base32
-            "1lzd053b27jikgb10bpbihynx08c9c33fcswrykl0r5548qjwm4j"))))
+            "12iy5fk3vz4rfyw848nb9dnnc4l338s9wm981w17k73wf37gnv89"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
