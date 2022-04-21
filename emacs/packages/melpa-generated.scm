@@ -16150,17 +16150,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220420.759")
+    (version "20220420.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "446c704cbcb86ee945d851f750582c1583a6ed3b")))
+                 "69bba57ad7a7943b413a2bdbb41c15ee06a027a6")))
         (sha256
           (base32
-            "0c4nb0glyhka3gg2zq69x40wqs8i3132qsrh9nqlbwjik9qfwhxa"))))
+            "0s3pav9gja7awsl0igacb49yc1bvarlrvp44jr0f2rjni14mbhcf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -27217,17 +27217,17 @@
 (define-public emacs-elfeed-org
   (package
     (name "emacs-elfeed-org")
-    (version "20220416.900")
+    (version "20220420.1234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/remyhonig/elfeed-org.git")
                (commit
-                 "6652fbd02820395a34679b9f0b5f1ea2c1320b19")))
+                 "e6bf4268485703907a97896fb1080f59977c9e3d")))
         (sha256
           (base32
-            "1w76qaixgv19ai73qfgfsdagl0m0gd8imzflmdj1m6ixbxjbsq42"))))
+            "1md7nxayysd6pkxyp85jmmz3jh6civpd3y0qgn0zq865jcjv86l6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-elfeed emacs-dash emacs-s))
@@ -43027,17 +43027,17 @@
 (define-public emacs-ggtags
   (package
     (name "emacs-ggtags")
-    (version "20211020.354")
+    (version "20220420.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leoliu/ggtags.git")
                (commit
-                 "8e16861392d7499bf3a212db1f5e9e0ef2e4fba9")))
+                 "22d3a3a951cb605d29138f1acee191ef674a4518")))
         (sha256
           (base32
-            "01fhc6cc13i9nvyl3d692s0fsyymr6vjxqpj7ydxsh489nw7hj4a"))))
+            "05jl5b2s3chqz67fapxrr3189scrsb2mvjn255hficrghzw0dh1s"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/leoliu/ggtags")
     (synopsis
@@ -49836,17 +49836,17 @@
 (define-public emacs-helm-firefox
   (package
     (name "emacs-helm-firefox")
-    (version "20210331.1900")
+    (version "20220420.1346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-firefox.git")
                (commit
-                 "58a7ff023c76857ca9cd82075c8743446a50c055")))
+                 "571cf8dfcbe43d91f9890eebefc88d7572c62e75")))
         (sha256
           (base32
-            "06ihkw61ivgghasxignalr0zrfrh5nayky9adrqid9bgmiah3q9y"))))
+            "0x93x29d74mqbq78jcxq06w9myfml7yni5p2zfdyqva7q725wsgb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -52594,17 +52594,17 @@
 (define-public emacs-helm-twitch
   (package
     (name "emacs-helm-twitch")
-    (version "20220207.1314")
+    (version "20220420.1625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/BenediktBroich/helm-twitch.git")
                (commit
-                 "533216a1add8acc2d6f2b4039c67528b97d06549")))
+                 "27fbec24cc250d508cd2f4286da16262752908eb")))
         (sha256
           (base32
-            "14686l3idn34scz9a3bai2x42zsrbfazpv1am6j64y7mrp284p8g"))))
+            "1sair8har6blwn1s12msz780cfsjpn0fzhy6ckhjh4sw9747808b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80794,17 +80794,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220414.352")
+    (version "20220420.1400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "1ab67473d1096aa17c30339214e01cf91cff02a6")))
+                 "42cb064f9d31adaf00168f18072cec0206b9737c")))
         (sha256
           (base32
-            "0gll7gmv7ns45mg3rn5p1zlbzp5ij182h3aa1z1wc380lfg85qsj"))))
+            "18c8hf89pavwzsmvr148vk17x86rymz70hzaxbq87r630d1najrr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -87387,17 +87387,17 @@
 (define-public emacs-perspective
   (package
     (name "emacs-perspective")
-    (version "20220412.547")
+    (version "20220420.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nex3/perspective-el.git")
                (commit
-                 "9f898cadc43c2c2e947d72636af30f028e2b925f")))
+                 "4e38680793585a907ae46b148697030c2b552a00")))
         (sha256
           (base32
-            "0ay7h3gr1qf01im17jn1jpj82lyd5mw0ynryq4l21mjxbsb9vvmf"))))
+            "0jgd2vzfza3pnnksh1kss5mqhbirqn93lvzanhgjr4vb4fv8x13f"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nex3/perspective-el")
@@ -105656,17 +105656,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220419.648")
+    (version "20220420.1646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "e091d96847bce473db797070a181095b123ec1b0")))
+                 "0ebd4606169c6904839276e17a11636881d79609")))
         (sha256
           (base32
-            "1vd92hjc0y5r0jr59yyivb54dps50yf7ps27j9s7ngdqjbmsz0n5"))))
+            "1vwp7z807fh55qiwwfvn5a5m1jhz3hi0rgf5fvh7jj19s49wjnv6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -111781,17 +111781,17 @@
 (define-public emacs-twitch-api
   (package
     (name "emacs-twitch-api")
-    (version "20220207.813")
+    (version "20220420.1547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/benediktbroich/twitch-api.git")
+               (url "https://github.com/BenediktBroich/twitch-api.git")
                (commit
-                 "e48b0b350516e20eaf85514e8855c2fbfbf09c11")))
+                 "181681097d1fc8d7b78928f8a5b38c61d0e20ef5")))
         (sha256
           (base32
-            "1pfrqa7lc85b9ww54w15liwi0swj3h9vx41fcmv7w0b31fijmzjd"))))
+            "14b8a22jbrnj42iva3mjb66j5w6zj0kd6dyk8pjkk22915w0jwcj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
