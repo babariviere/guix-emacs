@@ -8182,17 +8182,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220418.1930")
+    (version "20220420.2106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "2cf5635da90d6dcc3e7e64500f67e914a44ef59f")))
+                 "5fe1113c70a116826734b2f5dfdb06247372a48f")))
         (sha256
           (base32
-            "1fhscmr6x46chp374fy1bwy45as511f1bkm7iy574ia39khyinad"))))
+            "0q43nccpg3z27ga41wgq4bbn0njhvlb6bla5h17l50cp55030k6d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments
@@ -16150,7 +16150,7 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220420.1632")
+    (version "20220420.2202")
     (source
       (origin
         (method git-fetch)
@@ -16340,17 +16340,17 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20220408.1923")
+    (version "20220421.346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-notmuch.git")
                (commit
-                 "5e952b540552dea5965929711a716775b9a0dc74")))
+                 "16eb2c100ca144140f07014c32e99487c6a73e18")))
         (sha256
           (base32
-            "1jg05qng54j8m5rnvp8x5fv9ib4i8ba2g569vjgazjq20g6b3lc8"))))
+            "0ynla60n7aksp8fqikpsxv45li68ccgklr3xq601z3zyiyjg54a2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-notmuch))
@@ -23037,17 +23037,17 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20220419.101")
+    (version "20220421.122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-doc-show-inline.git")
                (commit
-                 "fabe149f76202f8feb12ce626ef36d5f2edab9a6")))
+                 "11a29ebfd7939691b34b511082173e4b5d1b9c81")))
         (sha256
           (base32
-            "0qm83rksb0n28z9av074c9pcr160v37f168blz7hlc2b8zp05hwm"))))
+            "04cdwmzfkvxv1kb28c4sc1kgsq0w32ig8h9wcdcann0hjaqkq2bq"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-doc-show-inline")
@@ -75411,17 +75411,17 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220410.1334")
+    (version "20220420.2256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "bfa7b2f9abcc7a18472c6998634450c876900170")))
+                 "c72ffc99c477f22959451c8b548b11c238c9864d")))
         (sha256
           (base32
-            "1d6c1zad3gava05ncnqxznbcy1y3m4hcs1x9p5dbqcs2vsw5l5ln"))))
+            "11jxfa0jfn8j22r428c1xlkkbplrslcnsc5802fpgzni0kk0jlf6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash))
@@ -101208,17 +101208,17 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20220211.548")
+    (version "20220421.145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-sidecar-locals.git")
                (commit
-                 "b69943575bfa7f13ee99c8b8871d3216ad24c85f")))
+                 "6a5fe7da992f057232bd5a57d275d9ff6311864f")))
         (sha256
           (base32
-            "0bfl4py2s3mxpzc60l9qmmdy079li0llzd6gsczwbmvfnrs1189q"))))
+            "1ja0rhii8lrv10md6pi93k52dkcz8m5gg9a0m0nidg2pp4qgzfv2"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-sidecar-locals")
@@ -105656,17 +105656,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220420.1646")
+    (version "20220421.550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "0ebd4606169c6904839276e17a11636881d79609")))
+                 "34632dd99903d4ffbb78a2deb5b658291a6cf040")))
         (sha256
           (base32
-            "1vwp7z807fh55qiwwfvn5a5m1jhz3hi0rgf5fvh7jj19s49wjnv6"))))
+            "0rq8qimc3xfh1x9g691x2bmmy9a1bglv6180hdc5z6irv5gfszvn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -110028,17 +110028,17 @@
 (define-public emacs-tokei
   (package
     (name "emacs-tokei")
-    (version "20220418.1550")
+    (version "20220420.2307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nagy/tokei.el.git")
                (commit
-                 "ab3dbc2440222e35efbfc499c1588ec3b20dfbaf")))
+                 "e14c38790a6eaf8efa44901d9c9ccbe466bbd248")))
         (sha256
           (base32
-            "11kgqgcxrfy7ndh8d72d07lb7prcaf8gmrix5xvn9pl6z8fjlil3"))))
+            "0d90s80yff27f4j2hr06jbp8x6q21r2ksi83kfiws942smjn4lyw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (home-page "https://github.com/nagy/tokei.el")
