@@ -11847,17 +11847,17 @@
 (define-public emacs-circe
   (package
     (name "emacs-circe")
-    (version "20220320.1811")
+    (version "20220421.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-circe/circe.git")
                (commit
-                 "e4c5bb69e6f1338239bdbf66baf57bb610828b2e")))
+                 "710f057fedae6e9b820cce9336fef24b7d057e4c")))
         (sha256
           (base32
-            "05ddgcgqribdwbph7qkz5r24h1xsbrnhlg4yqgnyyw5kfxayapzj"))))
+            "0lrxd4hanaxj85nafsc0wss677slmyaks3qb7a95mj7vic3ib937"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-circe/circe")
@@ -21375,17 +21375,17 @@
 (define-public emacs-dired-efap
   (package
     (name "emacs-dired-efap")
-    (version "20140122.1656")
+    (version "20220421.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juan-leon/dired-efap.git")
                (commit
-                 "624757b2e54d9a13e2183118d6c113e37684b90c")))
+                 "360b369cb19998c6730ee1debfbec3edb7f349a9")))
         (sha256
           (base32
-            "0jj9da880b4zwxba140fldai1x9p2sxc6hdf3wz6lnbvz1pyn1mv"))))
+            "07yfks2gj15fw0arrf0nyh5ip8kjc46fyrgpdcviwr6lk739c3jk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/juan-leon/dired-efap")
@@ -28749,17 +28749,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220420.52")
+    (version "20220421.1436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "a1c3c3d52b924286a2c2034786da9e60d8134c94")))
+                 "c7b6a00bb864082658029474a5d5457ed0a49135")))
         (sha256
           (base32
-            "10cka4nfgqfd47xg9fc5r9q0mszi5r69hchx9wmsw67a2y9wcbv9"))))
+            "1w4sgiz2v9q1plmsmfm6rba4g96426i4wdgcpi7iyxhx8dzg4d58"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -43677,17 +43677,17 @@
 (define-public emacs-git-gutter
   (package
     (name "emacs-git-gutter")
-    (version "20211222.913")
+    (version "20220421.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/git-gutter.git")
                (commit
-                 "9174c74cd607e297d7f14c0595d4c20ebb53847d")))
+                 "66dc2a284d7e5b554d28ef94b998255079709c01")))
         (sha256
           (base32
-            "1jkhvxlk4lkfjgd5vlfjy8z7w6n7j91rxqr48ricyzzl62p4v2wr"))))
+            "1v1b0ajmpjsa4bsd9hhrycyf0kmxr5w15jfd2pm6cn1xbaparqga"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/git-gutter")
@@ -66933,17 +66933,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220419.602")
+    (version "20220421.1428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "b2a2e1aea502b4d07028606a91b1afd12ec22a8b")))
+                 "d230fd1170ead71276bd5b7a2fc5072fea8fc933")))
         (sha256
           (base32
-            "1j4zk0wfx460dv9g6bi8l8bj56pig4ixynqnv9x35ivnv5szqrja"))))
+            "0qp36721mknj3w0k0pbzlsr1l0qvlih88jnfpqb1fhkg2sbifybf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -94055,17 +94055,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220406.1330")
+    (version "20220421.1826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "e7efbb52fdf2219532230a199153d8a33889c26f")))
+                 "b4c65d1ae24db5156a2db1dd1762de774a03c49a")))
         (sha256
           (base32
-            "10d089fvbdxlkqy8hhl42ljsj89j5vzrzckw0vs0im55a8vrih9r"))))
+            "175pxsahxarmd25n0b81amvrr6qzji676dkq5a00m2nqrfg1z15b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96936,17 +96936,17 @@
 (define-public emacs-rime
   (package
     (name "emacs-rime")
-    (version "20220222.228")
+    (version "20220421.1811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DogLooksGood/emacs-rime.git")
                (commit
-                 "e5727c5218a4345adb9b960cf6f4202246aea70c")))
+                 "e6a89e9fa9eabc32063bffb2eacfcece46f7a049")))
         (sha256
           (base32
-            "14vifq3ksmr0dg4lp293pgr70j76ajasvrm9j9hf3jspq7hbxb0x"))))
+            "0rzynl2n6bk5lwff2rvpj0p3djnr421i1a9vm53554hk0vljzksr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-popup emacs-posframe))
@@ -105656,7 +105656,7 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220421.1337")
+    (version "20220421.1537")
     (source
       (origin
         (method git-fetch)
@@ -112331,17 +112331,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220412.1212")
+    (version "20220421.2239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "d2a5ca1299d35f88419e94bf941d6347ce140f2e")))
+                 "e4cf026fd535dbd734a355af98b6b2e788947093")))
         (sha256
           (base32
-            "0qwvql0vdir0yv78gk3yzpqasm53bylpdjm5cm6i5sxh41865d12"))))
+            "0ximn11vhr9586dlb1cqslsxq556yfiza57j0zwphq7gd3a6a1dp"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
@@ -114938,17 +114938,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220418.733")
+    (version "20220421.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "dccb6b23edb8c983eb2a3862fad3c9602c03b8df")))
+                 "8d7c8c593f528646bd3304e64f4ec47d52c40aec")))
         (sha256
           (base32
-            "15pprp28i5if4a0yak0x87785sy4ddbjyzlhyrlhaw8hrfk0a329"))))
+            "1j1jijihgb2gi7xslaq8wvxj8pifydsfb4an61y9frs058amqpxj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
