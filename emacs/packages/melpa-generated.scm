@@ -22242,17 +22242,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220420.1321")
+    (version "20220422.330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "7a0e47365482700bce2884790c2970b493776838")))
+                 "a7f3759a2dd5333e0bd8def3a73fb9b681b77374")))
         (sha256
           (base32
-            "1k3bqa399sx3314c9z0fmvlf3b4bq4qynnzvx0p1z6p511dhd4j1"))))
+            "0y467rsnr0g54bgc7llhdlx2yd9l7n5yjwavczv1z8x354mbk1ak"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23522,17 +23522,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20220222.2326")
+    (version "20220421.2236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "83fd9545c2823b4b2610947802fa3a52995517b4")))
+                 "872ea5a7c7b2d9cc9e1370f397488e8f92149b67")))
         (sha256
           (base32
-            "0jrmmdz7s6jlq7h6dpxfgx1wvvzwam3rq5dgsqqcn383d9i7zbmb"))))
+            "08393sjwri9sqxh4xhyn1rbg60783c18jqxxix0b9w03mprlj6xp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -33327,17 +33327,17 @@
 (define-public emacs-evil-terminal-cursor-changer
   (package
     (name "emacs-evil-terminal-cursor-changer")
-    (version "20211225.600")
+    (version "20220422.255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/7696122/evil-terminal-cursor-changer.git")
                (commit
-                 "3d7db4d6b4a3121ffd7e505b12ea94fcdb8c5df8")))
+                 "69d562932f9ab9869ab1ed923e9789cbfa0ff14c")))
         (sha256
           (base32
-            "01haj9b1vhgmnc12csdfsw0lwv2kvgka9k0smlcc6rr840aapi72"))))
+            "14d9hyv2hhv0vzvmq5m1d59imzxmlm1qc484kn3sbc99553q0s1x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -54034,17 +54034,17 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20220324.16")
+    (version "20220422.541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "3312497ddfc7b7bc0e773ae98fc02477a4b0c7a0")))
+                 "40905568a040c1050941275cc9b970a45b77eb90")))
         (sha256
           (base32
-            "1n436z6dg7c1vw6sl5bswny059d2629yx9cvlkf076xg8dmlhwdv"))))
+            "07gf05f0psbxl93f7xcwn9s4hx6bfx62hlfz09gzj0sk6l9a4xiq"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-hl-prog-extra")
@@ -67880,17 +67880,17 @@
 (define-public emacs-magit-commit-mark
   (package
     (name "emacs-magit-commit-mark")
-    (version "20220406.2314")
+    (version "20220422.620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-magit-commit-mark.git")
                (commit
-                 "18d03e38f2825dfcf9d121720ee550294e5611a0")))
+                 "2a4d08ac816734fc8195f86f685443e58e63da06")))
         (sha256
           (base32
-            "0621rcfbd81p6vlr2i3h9lbbqagp4iyr4z63g38y0bylfj4hlc8j"))))
+            "0zdabxvg4ds1s5qb660afrsmp2sqa239zk1xhxgz7diwysslrg9i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -71727,17 +71727,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220421.1021")
+    (version "20220422.552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "e8f1b8997466e244d9aa1a11b7ffaa4b70419874")))
+                 "a1752787db94b398a9f120c5f5e24fdf0c82e77b")))
         (sha256
           (base32
-            "1ih8dp105r77bwkzswns1ck8kyldgzaykrm26p4ww4nwi9f4jy62"))))
+            "0nimadvnpn336la8d0li6gh350w5bckhin0y7q69sag86jznkcq7"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -75058,17 +75058,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20220228.1520")
+    (version "20220422.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "20ee8d88900b169831d6b0783bd82d2625e940c7")))
+                 "66206cab276c0f4d1c84e77ba2a67ed6a46b2d9c")))
         (sha256
           (base32
-            "0qv5cin9668pxm5cjhrl5sf170g62qqi954q4y2yj7zh3q0qhwpi"))))
+            "0a1hcqib9aq1d73yw2yznyhlmxyiyhzkf8dbgjhixpqj6j7ihvg1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-transient))
@@ -79482,17 +79482,17 @@
 (define-public emacs-org-chef
   (package
     (name "emacs-org-chef")
-    (version "20220412.1423")
+    (version "20220422.300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Chobbes/org-chef.git")
                (commit
-                 "f244b33a5a42d2879b9a6f4fcfeedcefb3326b94")))
+                 "6a786e77e67a715b3cd4f5128b59d501614928af")))
         (sha256
           (base32
-            "19dnp8s3aplcran1byr525fc3pmvyva6lac9ba68685ga0pxc4j9"))))
+            "0ik5akhsh9aji6n477i1jnk0wnljj7n1d0ybp8szgj2nr5258mhk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/Chobbes/org-chef")
     (synopsis
@@ -92818,17 +92818,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220420.746")
+    (version "20220422.208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "fcd1655ea2c7278c0419707640be4e200f03b8e5")))
+                 "63de15e13b8c3ad6be50b7cb6a5855a53a6d8739")))
         (sha256
           (base32
-            "0xv40dy40l0gfhz9m1pdd8xq8schiadz26gksbc69sma6y3hpklb"))))
+            "08q2lc89199pp8pdk74xmisgrcbwp0v455lbc6sgmqdqk7gi5gq4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -105656,17 +105656,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220421.1537")
+    (version "20220422.539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "2ecf0a83b749096c5a3988a6cf00c080ae676555")))
+                 "242f575605ec7590614d8722ac2b3e753aedacf4")))
         (sha256
           (base32
-            "1jhbr1ixavf6iiqb2h3dz7zwbkkzx725w1nxizxahg34x8f74z8j"))))
+            "1cmyw62n8x6v6vvjslxgbc5dybvvbkc0ba58n3027vsphn3v1x1i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -112331,17 +112331,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220421.2239")
+    (version "20220422.320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "e4cf026fd535dbd734a355af98b6b2e788947093")))
+                 "ee3879e469c792ae09933a2ca160b7979796b9e1")))
         (sha256
           (base32
-            "0ximn11vhr9586dlb1cqslsxq556yfiza57j0zwphq7gd3a6a1dp"))))
+            "02pc7hsag3dcil3hsh6sn42kdrvm41w7d93rwqb35lcls741i11z"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
