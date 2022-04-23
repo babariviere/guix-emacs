@@ -9746,17 +9746,17 @@
 (define-public emacs-calibredb
   (package
     (name "emacs-calibredb")
-    (version "20220422.1429")
+    (version "20220423.337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chenyanming/calibredb.el.git")
                (commit
-                 "901bf686889c75c11db065c8a7721ae071020cdf")))
+                 "8432243b402bab499ca730be270944b4e1196dcd")))
         (sha256
           (base32
-            "0vxagl8friildn1ljw851apram8x8g9n35wpygnr40vzm7ckh604"))))
+            "10bmbjrk0ccpq47xv4lp9gp0pyxxg1c7sjmlzikb2nvxarlxj7fq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -16028,17 +16028,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220422.1334")
+    (version "20220423.417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "d705257e99622d738ec48295eb573f2c686d3757")))
+                 "8fab8a0061e030bf1d0d583f5b4da687df564d14")))
         (sha256
           (base32
-            "0l70qkm9y68mg5qwc29brzc0m925xvmhrr6y3jdgrk2wc8kma024"))))
+            "0iapdwd3hnfgnkrvv7liavpa2kj5kmf88gy0lgwsng64jz6kymb2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -28581,17 +28581,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220421.1436")
+    (version "20220423.250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "c7b6a00bb864082658029474a5d5457ed0a49135")))
+                 "29e227f7ec4cdf9fdab8b5723f4db236c81c2eb7")))
         (sha256
           (base32
-            "1w4sgiz2v9q1plmsmfm6rba4g96426i4wdgcpi7iyxhx8dzg4d58"))))
+            "1a11dayfss4njx7x0ba40nfdpkkrmck4jfrngn8ahh3i8sskcm5m"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28605,17 +28605,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220419.2029")
+    (version "20220423.354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "02d9abe5929e7c95cba516d3f65a3d5d41aff78c")))
+                 "29e227f7ec4cdf9fdab8b5723f4db236c81c2eb7")))
         (sha256
           (base32
-            "0dgp86jvll24ha8927m3wh5am4b2mzmz5jb93rw394iaj5csw9p2"))))
+            "1a11dayfss4njx7x0ba40nfdpkkrmck4jfrngn8ahh3i8sskcm5m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -68315,17 +68315,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220417.418")
+    (version "20220423.249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "4a40cfb4f2d54ddf63722e341e8112bd7fc413e6")))
+                 "f97b6f398b6b08576bc919835e1ab4872a8d5de4")))
         (sha256
           (base32
-            "06f4y3l767x07rih7jr7zcdb73ilsrmnk5ychkd8ci9ylcimlhni"))))
+            "15gyrkqz5kc1dix035gjsc1l8mcy1xajlc3a1l51z5qnd5r36cfn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -69353,17 +69353,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220418.357")
+    (version "20220423.341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "6fbf6b192c9d348ff3599af2c153d4c7d4254224")))
+                 "c4b7df0305530da4a51561556794abaf831a228e")))
         (sha256
           (base32
-            "0vl5b6gmqah1c23y6klbdnl1zlqi4ii5p845qf1cahq5mpzgs4rv"))))
+            "14dlpszdgj224hpa0jh0f2bv4ijcyi7vh64rxsi1v3ay0s5aznjh"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -91706,17 +91706,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220422.936")
+    (version "20220422.2255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "cd1bfd2bbc10fe0ac47d0ec383cde453f6019e6c")))
+                 "b6eb72c8493b45a376203e29b012e77162283f3c")))
         (sha256
           (base32
-            "0lvf50p97fns4pc6ilm4pqzp7s4srhcx2gyg6x5ywd5wv32nd04d"))))
+            "0hansyf44rrnffrcn53m3gwb4wrlw734a9gf1iq0d4vkcgvik64v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -109441,30 +109441,6 @@
       "Documentation at https://melpa.org/#/transfer-sh")
     (license #f)))
 
-(define-public emacs-transient
-  (package
-    (name "emacs-transient")
-    (version "20220413.2332")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/magit/transient.git")
-               (commit
-                 "19cf9bef5d5c70fdd636ea021a0d26f0104a473d")))
-        (sha256
-          (base32
-            "044x5h4hzwk6d3npcqi3v0w58glgb9bx153pwvpy1i4aml7vg26x"))))
-    (build-system melpa-build-system)
-    (arguments
-      '(#:files
-        ("lisp/transient.el" "docs/transient.texi")))
-    (home-page "https://github.com/magit/transient")
-    (synopsis "Transient commands")
-    (description
-      "Documentation at https://melpa.org/#/transient")
-    (license #f)))
-
 (define-public emacs-transient-dwim
   (package
     (name "emacs-transient-dwim")
@@ -109668,28 +109644,6 @@
     (synopsis "Emacs client for Travis")
     (description
       "Documentation at https://melpa.org/#/travis")
-    (license #f)))
-
-(define-public emacs-tray
-  (package
-    (name "emacs-tray")
-    (version "20220402.1640")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~tarsius/tray")
-               (commit
-                 "5bd96ecb464844749712e5fa786e2e5258b1885d")))
-        (sha256
-          (base32
-            "1g8nh86afj75na9bzlam28ng0nafvwc2alxpwx6snc9xm8px0cl4"))))
-    (build-system melpa-build-system)
-    (propagated-inputs (list emacs-transient))
-    (home-page "https://git.sr.ht/~tarsius/tray")
-    (synopsis "Various transient menus")
-    (description
-      "Documentation at https://melpa.org/#/tray")
     (license #f)))
 
 (define-public emacs-tree-edit
@@ -115961,34 +115915,6 @@
     (synopsis "Major mode for Wisp code.")
     (description
       "Documentation at https://melpa.org/#/wispjs-mode")
-    (license #f)))
-
-(define-public emacs-with-editor
-  (package
-    (name "emacs-with-editor")
-    (version "20220412.1340")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/magit/with-editor.git")
-               (commit
-                 "3d1af157b466c689ae2c4d1ddc1562d613d84879")))
-        (sha256
-          (base32
-            "1xd35ma3mm45dzz3gw9cqjdsnl04bpzq7q9qwibc93i2c0l0xf60"))))
-    (build-system melpa-build-system)
-    (arguments
-      '(#:files
-        ("lisp/with-editor.el"
-         "docs/with-editor.texi"
-         "with-editor.el"
-         "with-editor.texi")))
-    (home-page
-      "https://github.com/magit/with-editor")
-    (synopsis "Use the Emacsclient as $EDITOR")
-    (description
-      "Documentation at https://melpa.org/#/with-editor")
     (license #f)))
 
 (define-public emacs-with-emacs
