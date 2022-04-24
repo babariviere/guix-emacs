@@ -2371,17 +2371,17 @@
 (define-public emacs-all-the-icons-ibuffer
   (package
     (name "emacs-all-the-icons-ibuffer")
-    (version "20220422.1034")
+    (version "20220424.1027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ibuffer.git")
                (commit
-                 "feebb1c2fe6564cc46489e37b7423afec670f3a6")))
+                 "0c7221366ceddbf122073ecd07dd86e1baf032ff")))
         (sha256
           (base32
-            "15i9yx1wsbb7yqvngxnbyr8sns6zdpwapm7zk5h7k8lwdfx6dp3q"))))
+            "1zb8ginhgjdyf571laysqqhnh1cf7n4h06diqkjdz5gmdq3yyzv6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -20334,17 +20334,17 @@
 (define-public emacs-desktop-environment
   (package
     (name "emacs-desktop-environment")
-    (version "20220422.1837")
+    (version "20220424.805")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/desktop-environment.git")
                (commit
-                 "08404b6e6ab1ffec3130cf9ef6277e7fe46c8727")))
+                 "c4b7680861cb47c4f9d020b13c82dc57c9304893")))
         (sha256
           (base32
-            "1g4qmw84cjgz97fagw88x8nmdwrn9702p0f76m9cgmg5cq7drr6n"))))
+            "07fcmw446rxx31zhx7qzny745jcvjk86zsrfz7mwmmf7qpr9m8w2"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.petton.fr/DamienCassou/desktop-environment")
@@ -48105,17 +48105,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220423.1617")
+    (version "20220423.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f9593496f592302c1228b41ee53ce0995db0c5df")))
+                 "dc0c082a451cfe25d35ba3b9b0c0fc2766cc8319")))
         (sha256
           (base32
-            "04s8pxkm0njwrc1a1vx7n6lpsajz58gyb8zvx5l7hx0vy8kqsvy7"))))
+            "05dvjylsnmbmj70smjrbjm23qdrfvayf19cmdywxvp0na5w58hjb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -48888,17 +48888,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220423.1506")
+    (version "20220423.1804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f9593496f592302c1228b41ee53ce0995db0c5df")))
+                 "dc0c082a451cfe25d35ba3b9b0c0fc2766cc8319")))
         (sha256
           (base32
-            "04s8pxkm0njwrc1a1vx7n6lpsajz58gyb8zvx5l7hx0vy8kqsvy7"))))
+            "05dvjylsnmbmj70smjrbjm23qdrfvayf19cmdywxvp0na5w58hjb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -69353,17 +69353,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220423.1957")
+    (version "20220424.815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "115d078221bc9d9235c6bcb651146d099ac30ccf")))
+                 "1a9cd3c91b06ccfed2b8a81e197a49dffeb1e3f5")))
         (sha256
           (base32
-            "1yi0fyc1s5rk6xlkprr5ilc0w8zgq16g2iwaw7c8ijrrq3s92gc7"))))
+            "1amiwphy1ji8vid2758kyknmqgmz6fxrihqic8rcfqc66rdw8cn5"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -75990,17 +75990,17 @@
 (define-public emacs-ob-dsq
   (package
     (name "emacs-ob-dsq")
-    (version "20220423.2218")
+    (version "20220424.819")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/ob-dsq.git")
                (commit
-                 "b205fa8a5905d2d5f231682b9bc3096c3058d712")))
+                 "98331933924cddea75a89c4b5b7bab51eee86755")))
         (sha256
           (base32
-            "1ljb0qndimn92niqvjpcqrn48hlyfv4irib28a8ksnpqvp8jxn3q"))))
+            "0klqxvarkkvghhbrcwhxz53xmh0lyzcwi2wrlh1gniw5iv5fxfqi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/ob-dsq")
