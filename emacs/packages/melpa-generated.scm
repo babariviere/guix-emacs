@@ -11817,17 +11817,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220420.1123")
+    (version "20220423.1738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "8bc284ce6d9d13a0432f89d64580bfae85eb1c2e")))
+                 "4fbdbdddb7f564b19d2507cafbbe29e18938ee51")))
         (sha256
           (base32
-            "1jfrlazzkkjdpci3bwjn6kdbssycy262dsbixdch90f73zx0bxiw"))))
+            "1dqb2y0q2jw4yp31qgd6g0vinnifkcrvn2g1avgpvavsfnllpzd3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -18947,17 +18947,17 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20210301.1738")
+    (version "20220423.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "8741419333fb85ed2c1d71f5902688f5201b0a40")))
+                 "81c67457ca72c9be7d90d037fcd306c1ca7c1f05")))
         (sha256
           (base32
-            "1i4rz1lp78wzn8x9xgjar8h66csdkf5836ny8lwd68m7z5gh0w21"))))
+            "15nnln0k90yrbq748vpby7213kzch9f0vb3smjr1bd6bc3bbnscx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -28581,17 +28581,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220423.250")
+    (version "20220423.1635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "29e227f7ec4cdf9fdab8b5723f4db236c81c2eb7")))
+                 "cd40fe19c2b06eb0eae0177aaf1946410dd5e69e")))
         (sha256
           (base32
-            "1a11dayfss4njx7x0ba40nfdpkkrmck4jfrngn8ahh3i8sskcm5m"))))
+            "06aq02rfdhvl51rmv32mjpvmlm6fyij6b8rbc3qblsl3b46w30s9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28605,17 +28605,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220423.354")
+    (version "20220423.1631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "29e227f7ec4cdf9fdab8b5723f4db236c81c2eb7")))
+                 "cd40fe19c2b06eb0eae0177aaf1946410dd5e69e")))
         (sha256
           (base32
-            "1a11dayfss4njx7x0ba40nfdpkkrmck4jfrngn8ahh3i8sskcm5m"))))
+            "06aq02rfdhvl51rmv32mjpvmlm6fyij6b8rbc3qblsl3b46w30s9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -31848,17 +31848,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220417.1119")
+    (version "20220423.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "63c6fd00c23b91e6b84b735add756d6e4b5c3b86")))
+                 "0488e2840fa6adc139fd27685a2f9a2fe17029a5")))
         (sha256
           (base32
-            "0x72zlbsbc8wi2vb34ak33swa4g74rag26mp43x5fi5w0y2zbg81"))))
+            "1snqdiniwshsn4bl91bk1k2kjnsl682yk4n5b3ah5f9xry0mnxmn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -35266,17 +35266,17 @@
 (define-public emacs-filldent
   (package
     (name "emacs-filldent")
-    (version "20220419.1628")
+    (version "20220423.2216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/duckwork/filldent.el.git")
                (commit
-                 "b55fd3aae9f389b76fe695b300984188f24f9366")))
+                 "2f32e0cf5e27c613f962fa41bf3427bbdc04e6c0")))
         (sha256
           (base32
-            "0kj6pi2dvgd2wgnwjx411gpfy8fi165kzf5w07sl8dd6mrlfbi7j"))))
+            "02hjn163f8pvs3p4ka879fizlivaxhvj1lzkma5fgrrwzhhg5nh8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/duckwork/filldent.el")
@@ -43330,17 +43330,17 @@
 (define-public emacs-git-gutter
   (package
     (name "emacs-git-gutter")
-    (version "20220421.2107")
+    (version "20220423.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/git-gutter.git")
                (commit
-                 "66dc2a284d7e5b554d28ef94b998255079709c01")))
+                 "a50672b62a678922b8c0cab95225d520f493439b")))
         (sha256
           (base32
-            "1v1b0ajmpjsa4bsd9hhrycyf0kmxr5w15jfd2pm6cn1xbaparqga"))))
+            "0xywglck2z06vgwf7m7a87plcrxca06pgd4y0iq8asbl046akj0g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/git-gutter")
@@ -48105,17 +48105,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220421.806")
+    (version "20220423.1617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "24cc8959fbcab17fb5ce1e71ead8fd30950014bb")))
+                 "f9593496f592302c1228b41ee53ce0995db0c5df")))
         (sha256
           (base32
-            "050d45pp2j1a5b9xj7aq71zjzag98vk6l4ik8a4fcpg29bnjbjk7"))))
+            "04s8pxkm0njwrc1a1vx7n6lpsajz58gyb8zvx5l7hx0vy8kqsvy7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -48888,17 +48888,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220422.706")
+    (version "20220423.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7ff0b93b79117babeb5262b2f0754005b6d050ad")))
+                 "f9593496f592302c1228b41ee53ce0995db0c5df")))
         (sha256
           (base32
-            "1zcwmsjs67scwpmxzcfrnrk4bmrd6ycp4wwzi26sr0x57q6ahk44"))))
+            "04s8pxkm0njwrc1a1vx7n6lpsajz58gyb8zvx5l7hx0vy8kqsvy7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -69353,17 +69353,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220423.341")
+    (version "20220423.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "c4b7df0305530da4a51561556794abaf831a228e")))
+                 "115d078221bc9d9235c6bcb651146d099ac30ccf")))
         (sha256
           (base32
-            "14dlpszdgj224hpa0jh0f2bv4ijcyi7vh64rxsi1v3ay0s5aznjh"))))
+            "1yi0fyc1s5rk6xlkprr5ilc0w8zgq16g2iwaw7c8ijrrq3s92gc7"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -80766,17 +80766,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220331.2336")
+    (version "20220423.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "10ed481413a8cbc676d26e754a3e7c6ff7d44cf3")))
+                 "b5aea83078acb51688c2ac66b4fac419aecbd329")))
         (sha256
           (base32
-            "0nwbjh5pn8p16w33jd0d4vi497aaww7368899q1hr12yjl9b6c3q"))))
+            "0ya6g221b5mjjnqa6rixq0i2817kpq6ihlq6avvnrlr6fxiqxkdl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83488,17 +83488,17 @@
 (define-public emacs-ox-jira
   (package
     (name "emacs-ox-jira")
-    (version "20220121.1015")
+    (version "20220423.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stig/ox-jira.el.git")
                (commit
-                 "a8019237a8f5e016a7c952fc2f673a2498a0e779")))
+                 "00184f8fdef02a3a359a253712e8769cbfbea3ba")))
         (sha256
           (base32
-            "0pa7pwk0yjcgak3f9w9jggj3ghlig1azf15ng954r646810j9i4v"))))
+            "1zyq4d0fvyawvb3w6072zl4zgbnrpzmxlz2l731wqrgnwm0l80gy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/stig/ox-jira.el")
     (synopsis "JIRA Backend for Org Export Engine")
@@ -108893,7 +108893,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220423.1256")
+    (version "20220423.1413")
     (source
       (origin
         (method git-fetch)
@@ -118662,17 +118662,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220422.1230")
+    (version "20220423.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "609963f989f989dfcf0562bdda565bf2a31b9f66")))
+                 "404b52829ad58155f8ba40e507334267ad95e2a1")))
         (sha256
           (base32
-            "0fssxbyzi5l2zmr3kmmcaww76y36r5hspqyanr7zs2yiyhfyv6ac"))))
+            "1hgl4swipnqlbrbvysyjxr34h176ax0j7ynca5kaq489msznvf5x"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -118685,17 +118685,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220422.1234")
+    (version "20220423.1935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "609963f989f989dfcf0562bdda565bf2a31b9f66")))
+                 "404b52829ad58155f8ba40e507334267ad95e2a1")))
         (sha256
           (base32
-            "0fssxbyzi5l2zmr3kmmcaww76y36r5hspqyanr7zs2yiyhfyv6ac"))))
+            "1hgl4swipnqlbrbvysyjxr34h176ax0j7ynca5kaq489msznvf5x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
