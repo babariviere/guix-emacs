@@ -28581,17 +28581,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220423.1635")
+    (version "20220424.240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "cd40fe19c2b06eb0eae0177aaf1946410dd5e69e")))
+                 "5ad6fe2420fb29e5740e8acd8136c0aaa0b12921")))
         (sha256
           (base32
-            "06aq02rfdhvl51rmv32mjpvmlm6fyij6b8rbc3qblsl3b46w30s9"))))
+            "0a03kmz2cgn7j2qbqy7lray7g90mzsdz74gdmr3ny9y94k16g1ix"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -29569,17 +29569,17 @@
 (define-public emacs-equake
   (package
     (name "emacs-equake")
-    (version "20210913.145")
+    (version "20220424.350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacsomancer/equake.git")
                (commit
-                 "4d6ef75a4d91ded22caad220909518ccb67b7b87")))
+                 "ea5c0570f58b8e62249e001ed434a1056a50abe7")))
         (sha256
           (base32
-            "11xfr71y78idcn461p4pz7b0k01nhz15cyl97bjqq6ii5xhbhvdx"))))
+            "0l85xks1m8yprd5q84gp0ryaagjd74kwb40r0mwdly6y4dzi0kvr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -74481,17 +74481,17 @@
 (define-public emacs-nnreddit
   (package
     (name "emacs-nnreddit")
-    (version "20220124.351")
+    (version "20220423.2302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dickmao/nnreddit.git")
                (commit
-                 "ddb59e309018416d1f867b6dddca44f17a1b6bb9")))
+                 "8f247dce12bd10de37f0903f3027a1ddbc318eff")))
         (sha256
           (base32
-            "1qj1yzpgcdn550lb1c9hqc3wb46pah6h00y3m3q3n2v6cks8lnmc"))))
+            "0g4l2d7mji7wl2bzwj1h6p5cyw8w6bw63fcy3kqsgdjny2mkijl5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request
@@ -75990,17 +75990,17 @@
 (define-public emacs-ob-dsq
   (package
     (name "emacs-ob-dsq")
-    (version "20220422.2201")
+    (version "20220423.2218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/ob-dsq.git")
                (commit
-                 "550d28da274932d9744045b74dde75b276883f76")))
+                 "b205fa8a5905d2d5f231682b9bc3096c3058d712")))
         (sha256
           (base32
-            "1qbb1phjrn48alznh94imn1hsrw560hv78bsawps8jf7vzm5hcm9"))))
+            "1ljb0qndimn92niqvjpcqrn48hlyfv4irib28a8ksnpqvp8jxn3q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/ob-dsq")
@@ -106567,17 +106567,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220422.1957")
+    (version "20220424.306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "72ab1f43f1385a3ca65ffaaf78222fb3c18a940d")))
+                 "5d1f720baf13d211ae46e2242d1f5ae881ff9aa3")))
         (sha256
           (base32
-            "06fssnz0975m35lwiii10yq61580d730pyz6zrm8740asiwb0xqm"))))
+            "1k2pc0s8q7dig4s8rqkjyka4vfd2xx8xs8fq7hp694717vrybs11"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -107028,17 +107028,17 @@
 (define-public emacs-telephone-line
   (package
     (name "emacs-telephone-line")
-    (version "20220313.2218")
+    (version "20220424.400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dbordak/telephone-line.git")
                (commit
-                 "7a0ba06db860dfe9a9ca012c2750b13deec385c6")))
+                 "6f3455a365912e8f0c45a2240ea79507dee45ade")))
         (sha256
           (base32
-            "1w7b5qhg4nd92hl9whvbzz6nx2cb09m84ixkqqzygmjnrxknqsdl"))))
+            "1hnd6wnc52sc0ckriqnhaz64pyjk027y0dpcmh2zhpd27i8d4hmq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dbordak/telephone-line")
