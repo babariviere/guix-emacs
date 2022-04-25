@@ -14080,17 +14080,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220406.2323")
+    (version "20220425.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "1005540b1cdf176cbcf893b2fa83d2075cbbe3ca")))
+                 "d5145006b948f93e673f439a766da01f636d39fc")))
         (sha256
           (base32
-            "0fh1ym2axvhw25i4g56znsclapr9mvidq9n33cz4gxp4g2l82z2v"))))
+            "0ghdk8iif240bg9pv24837y619g1s19dp3akxqjwr89sj2llhyln"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -22272,17 +22272,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220423.1140")
+    (version "20220425.524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "523ad7e1be4188521cf543176c61750665159695")))
+                 "3e0a414df35742799759f71915443226574fc961")))
         (sha256
           (base32
-            "0c0ra6s86k671vq27d2mpk23hg7v7vzsva1bd3n3acs34bd85kbr"))))
+            "1k8lkv4071czpcbc1whz70mlg3bmkwzdk7jjg0jlqwg9qrg4vqy6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32099,17 +32099,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220423.1927")
+    (version "20220425.851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "0488e2840fa6adc139fd27685a2f9a2fe17029a5")))
+                 "694c1b4201dce70e7a98bdf6d95cd1a08107fc97")))
         (sha256
           (base32
-            "1snqdiniwshsn4bl91bk1k2kjnsl682yk4n5b3ah5f9xry0mnxmn"))))
+            "0c1cvykflhzj7nm7sfzccz2gninj0xxcjnjv0y9fymkfbh9fx9zz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -42030,17 +42030,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20220415.1524")
+    (version "20220425.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "761212b71c3bc564dd6d56ba479269614a581ed8")))
+                 "7fd0a3c6c96ed8afd0249ab0734d9b63d4fd1cb1")))
         (sha256
           (base32
-            "02cma597k7dgb7bv2m0xpl9b9bx634byyj31hkw0fdnymc29bsic"))))
+            "06y66lzhw2vl5y3lpcmgn71rpshq07ljah2p2ksgml87qml29r3s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -66632,17 +66632,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220313.1835")
+    (version "20220425.1211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "01b58674842197eb565fdbaa723e9e536ae6d6ab")))
+                 "a1336f196daf6048c48681f5fe3e77bf46fd5a1d")))
         (sha256
           (base32
-            "1damw69qmgrw7rbsgk7mkni1isgargg17y68s7c4r5x0hg42wksy"))))
+            "1pxq6vk58pf5gzyywyd1vpqnpr7c3vv53acjfv6fwgddzvpi8zcn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -67324,17 +67324,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220411.1413")
+    (version "20220425.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "769a129ba7589ec0f5e9242f0b7332a48cec9cd3")))
+                 "6cd0409de6ca59c02d752b8e543bb5eaa61357e4")))
         (sha256
           (base32
-            "1aassslqaij01l94ryzirbcaify61q1nr20ydabvlsi17nqvrjqg"))))
+            "1g82vx17wk8g91bshb7i7j7fbmb63032sz1alqlh8b0qc4fw0r39"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67852,17 +67852,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220424.1428")
+    (version "20220425.1153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "ab801de53827a232b7806362fb08ca804f27c6d0")))
+                 "3cb7f5ba430906bded9e5d9951f5260ab25644d0")))
         (sha256
           (base32
-            "12pgyvikl8kzk7jqq6rni7hbnhf4y7vnzdijszw573psz7jprdvf"))))
+            "0819lx7xwf2gydy3x0jgvjcl4816lzg28hvigdbcpi5y86nzpikq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -68325,17 +68325,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220424.1428")
+    (version "20220425.1002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "ab801de53827a232b7806362fb08ca804f27c6d0")))
+                 "3cb7f5ba430906bded9e5d9951f5260ab25644d0")))
         (sha256
           (base32
-            "12pgyvikl8kzk7jqq6rni7hbnhf4y7vnzdijszw573psz7jprdvf"))))
+            "0819lx7xwf2gydy3x0jgvjcl4816lzg28hvigdbcpi5y86nzpikq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -76955,17 +76955,17 @@
 (define-public emacs-ob-dsq
   (package
     (name "emacs-ob-dsq")
-    (version "20220424.2044")
+    (version "20220425.716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/ob-dsq.git")
                (commit
-                 "4a1a6850db0703e74455e739f074d7da105c9530")))
+                 "b8dbf53e5d9ed359fbf69e9d14adf68a7c08af10")))
         (sha256
           (base32
-            "1jxq3p4aalqvmm88h13fd6pc7di0jrhv6y8r5kk5w2x1l8jqsh1g"))))
+            "0v721spl9n4lz70dh9vx0pc3as5crmyrwfn0zg8hsbf0gq0m745v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/ob-dsq")
@@ -83333,17 +83333,17 @@
 (define-public emacs-orgit
   (package
     (name "emacs-orgit")
-    (version "20220422.1624")
+    (version "20220425.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/orgit.git")
                (commit
-                 "79ed3337ab0ca3d5018732dcdabfbf700c4822d9")))
+                 "6dc4d4bfffd6c11550952203a51346b13e120165")))
         (sha256
           (base32
-            "0008c4iy6sj6nh3053sh60ywm7p6dk7ayq72gvhv1q1g5dkf1lfj"))))
+            "1xpkwp3qk2jr1rphrcxdmld498prh3cds12y2a9cln27yfg8lkql"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-magit))
@@ -87583,17 +87583,17 @@
 (define-public emacs-pfuture
   (package
     (name "emacs-pfuture")
-    (version "20211229.1513")
+    (version "20220425.1242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/pfuture.git")
                (commit
-                 "bde5b06795e3e35bfb2bba4c34b538d506a0856e")))
+                 "f9e67bd7edbd5b4e033efd82c0acc4a85ff860a8")))
         (sha256
           (base32
-            "0cks18fwir8h9b35ryz2yr5rligv1da2iqkqz0fcb5dx2a4fxwjj"))))
+            "0ifasmkfj06fb9whk7gg47fiim0bbwyh3279sd72psqbbxfixddf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Alexander-Miller/pfuture")
@@ -110728,17 +110728,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220424.1248")
+    (version "20220425.1314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "ed2febd0056932689da00414af9db0260ea08ead")))
+                 "84f2d12ef31ec74c85e616283926780532fed13f")))
         (sha256
           (base32
-            "0zzvg84w9p1lg9dii14jcbj9ijli15j0ai7na62dhffmdriwkd21"))))
+            "1nh13b4yyv30h0wq8h9wf0z6xnq9s0g48asdldrzn2gzbsyin16c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -110753,19 +110753,18 @@
 (define-public emacs-transient-dwim
   (package
     (name "emacs-transient-dwim")
-    (version "20200812.1033")
+    (version "20220425.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/conao3/transient-dwim.el.git")
                (commit
-                 "de03d875dd89b1d838be67b0c44d9786adf96717")))
+                 "7b6e70fb49b9d18106748202011863ebc39b864a")))
         (sha256
           (base32
-            "0gb4k3758bv25vdw30rq0vbs94vdyss0xsiyaxnmvpfnj0v9k2cq"))))
+            "1qph3ffpvrx02a423hpmdfp15g9yqdd38bnmsa735cnnhqm3yshd"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-transient))
     (home-page
       "https://github.com/conao3/transient-dwim.el")
     (synopsis "Useful preset transient commands")
@@ -111133,17 +111132,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220411.1944")
+    (version "20220425.1217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "6e206216cec383d47acec872a0c8ef6e70b7746b")))
+                 "82ec575b759e68256b359edd8c491bf35f6a4751")))
         (sha256
           (base32
-            "1ahk3ijhs6qgxqwz0v0zx1x8pz1x7l2902m8n2548npqa868gxrh"))))
+            "0hn38w7sz2jdjlp9fd4jxhgzc76v0cyjfcw9kihhay07ina0k6c1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -111171,17 +111170,17 @@
 (define-public emacs-treemacs-all-the-icons
   (package
     (name "emacs-treemacs-all-the-icons")
-    (version "20220124.1914")
+    (version "20220425.1124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "5045bcd9250689faebf419e252a8f2e4082fa3a5")))
+                 "82ec575b759e68256b359edd8c491bf35f6a4751")))
         (sha256
           (base32
-            "0vi126algw66w9bfg1n6fidddffmdj6968dskpnkp6d2mh7hdvb2"))))
+            "0hn38w7sz2jdjlp9fd4jxhgzc76v0cyjfcw9kihhay07ina0k6c1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons emacs-treemacs))
