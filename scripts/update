@@ -32,6 +32,7 @@
 (define header
   '((define-module (emacs packages melpa-generated)
       #:use-module (emacs build-system melpa)
+      #:use-module (emacs packages elpa)
       #:use-module (guix download)
       #:use-module (guix packages)
       #:use-module (gnu packages emacs-xyz))
@@ -133,29 +134,31 @@ rather than \\n."
       (member (first archive) archives))))
 
 (define emacs-xyz-module (resolve-module '(gnu packages emacs-xyz)))
+(define emacs-elpa-module (resolve-module '(emacs packages elpa)))
 
 (define* (resolve-archive package-name resolved-entries final-entries)
   (let ((handle (hashq-get-handle resolved-entries package-name))
-	(entry (hashq-ref final-entries package-name)))
+	    (entry (hashq-ref final-entries package-name)))
     (if (not handle)
-	(begin
-	  (if entry
-	      (let loop ((deps (archive-deps entry)))
-		(match deps
-		  ((dep rest ...)
-		   (if (or (resolve-archive dep resolved-entries final-entries)
-			   (module-variable emacs-xyz-module dep))
-		       (loop rest)
-		       (begin
-			 (format #t "[~a] excluded package: dep ~a not found~%" package-name dep)
-			 (hashq-set! resolved-entries package-name #f)
-			 (hashq-remove! final-entries package-name)
-			 #f)))
-		  (()
-		   (hashq-set! resolved-entries package-name entry)
-		   entry)))
-	      #f))
-	(cdr handle))))
+	    (begin
+	      (if entry
+	          (let loop ((deps (archive-deps entry)))
+		        (match deps
+		          ((dep rest ...)
+		           (if (or (resolve-archive dep resolved-entries final-entries)
+			               (module-variable emacs-xyz-module dep)
+                           (module-variable emacs-elpa-module dep))
+		               (loop rest)
+		               (begin
+			             (format #t "[~a] excluded package: dep ~a not found~%" package-name dep)
+			             (hashq-set! resolved-entries package-name #f)
+			             (hashq-remove! final-entries package-name)
+			             #f)))
+		          (()
+		           (hashq-set! resolved-entries package-name entry)
+		           entry)))
+	          #f))
+	    (cdr handle))))
 
 (define (filter-archive archive)
   (let ((entries (make-hash-table)))
