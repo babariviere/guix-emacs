@@ -3,6 +3,8 @@
   #:use-module
   (emacs build-system melpa)
   #:use-module
+  (emacs packages elpa)
+  #:use-module
   (guix download)
   #:use-module
   (guix packages)
@@ -4618,6 +4620,31 @@
       "Documentation at https://melpa.org/#/auto-auto-indent")
     (license #f)))
 
+(define-public emacs-auto-compile
+  (package
+    (name "emacs-auto-compile")
+    (version "20220422.1600")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacscollective/auto-compile.git")
+               (commit
+                 "f19e9fbb8d72a47f0cef049b784e1a492bef9287")))
+        (sha256
+          (base32
+            "0bjq0x7hv1fg4db3wria5lnlliln7598qsc0l42pic34w1qq3h6l"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-packed))
+    (home-page
+      "https://github.com/emacscollective/auto-compile")
+    (synopsis
+      "Automatically compile Emacs Lisp libraries")
+    (description
+      "Documentation at https://melpa.org/#/auto-compile")
+    (license #f)))
+
 (define-public emacs-auto-complete
   (package
     (name "emacs-auto-complete")
@@ -5937,6 +5964,30 @@
       "Documentation at https://melpa.org/#/backlight")
     (license #f)))
 
+(define-public emacs-backline
+  (package
+    (name "emacs-backline")
+    (version "20220424.2212")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/backline.git")
+               (commit
+                 "0d44408262080cdf998de5a52516f220e7e7c99a")))
+        (sha256
+          (base32
+            "1l818vv2wh07jxc7wxmnidr8rcbj8526245fsflxp051hpilvan8"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-outline-minor-faces))
+    (home-page "https://github.com/tarsius/backline")
+    (synopsis
+      "Preserve appearance of outline headings")
+    (description
+      "Documentation at https://melpa.org/#/backline")
+    (license #f)))
+
 (define-public emacs-backup-each-save
   (package
     (name "emacs-backup-each-save")
@@ -7184,6 +7235,28 @@
       "Provides utilities for extending BibTeX mode")
     (description
       "Documentation at https://melpa.org/#/bibtex-utils")
+    (license #f)))
+
+(define-public emacs-bicycle
+  (package
+    (name "emacs-bicycle")
+    (version "20220422.1600")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/bicycle.git")
+               (commit
+                 "aad77ba6ce64245570b4baa83b62008522c3ce3a")))
+        (sha256
+          (base32
+            "1n4cshnq9nfqa4yr126g144725ivc492xw1pw37fhvjcjpmg7g2p"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://github.com/tarsius/bicycle")
+    (synopsis "Cycle outline and code visibility")
+    (description
+      "Documentation at https://melpa.org/#/bicycle")
     (license #f)))
 
 (define-public emacs-bifocal
@@ -8873,6 +8946,36 @@
       "Wrap the beginning and the end of buffer")
     (description
       "Documentation at https://melpa.org/#/buffer-wrap")
+    (license #f)))
+
+(define-public emacs-bufler
+  (package
+    (name "emacs-bufler")
+    (version "20210907.1145")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/alphapapa/bufler.el.git")
+               (commit
+                 "a68e0eb2719c67ab8a3ad56c4036364061d06004")))
+        (sha256
+          (base32
+            "155g4p2yw88cpc8ydfzybc4r6ab2qwcmzdwkrrhnra4psimahjq6"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-dash
+            emacs-f
+            emacs-pretty-hydra
+            emacs-magit-section))
+    (arguments
+      '(#:files (:defaults (:exclude "helm-bufler.el"))))
+    (home-page
+      "https://github.com/alphapapa/bufler.el")
+    (synopsis
+      "Group buffers into workspaces with programmable rules")
+    (description
+      "Documentation at https://melpa.org/#/bufler")
     (license #f)))
 
 (define-public emacs-bufshow
@@ -12700,6 +12803,30 @@
       "Simplifies Emacs Lisp interaction with Clojure.")
     (description
       "Documentation at https://melpa.org/#/clomacs")
+    (license #f)))
+
+(define-public emacs-closql
+  (package
+    (name "emacs-closql")
+    (version "20220422.1601")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacscollective/closql.git")
+               (commit
+                 "6f4af0fc87fa0a1734480d6a4b72797c0916bc12")))
+        (sha256
+          (base32
+            "1azp6gpswqzhvqamh4h1wi8xkby98irj6w3f3ky943a1zlkibq4a"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-emacsql-sqlite))
+    (home-page
+      "https://github.com/emacscollective/closql")
+    (synopsis "Store EIEIO objects using EmacSQL")
+    (description
+      "Documentation at https://melpa.org/#/closql")
     (license #f)))
 
 (define-public emacs-closure-lint-mode
@@ -20991,6 +21118,29 @@
       "Documentation at https://melpa.org/#/dim")
     (license #f)))
 
+(define-public emacs-dim-autoload
+  (package
+    (name "emacs-dim-autoload")
+    (version "20220422.1601")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/dim-autoload.git")
+               (commit
+                 "09073e6bfd21f3a7f8fcf1e2e7c49994cdee7d2a")))
+        (sha256
+          (base32
+            "0g8wdsf8rbyl2z9h4d40hjxqp3krj3vkrwwc3j36pzrc48ms2wl1"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page
+      "https://github.com/tarsius/dim-autoload")
+    (synopsis "Dim or hide autoload cookie lines")
+    (description
+      "Documentation at https://melpa.org/#/dim-autoload")
+    (license #f)))
+
 (define-public emacs-dime
   (package
     (name "emacs-dime")
@@ -27166,6 +27316,30 @@
       "Documentation at https://melpa.org/#/elfeed-score")
     (license #f)))
 
+(define-public emacs-elfeed-summary
+  (package
+    (name "emacs-elfeed-summary")
+    (version "20220331.1634")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
+               (commit
+                 "6357eb8b1ece47451f4c5eff46c0ee42081c38a8")))
+        (sha256
+          (base32
+            "0mfx9rvbpqvgjrrd89p6dsp1bgv4mjk3i2njqdlp2nd6wbdr2zfl"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-magit-section emacs-elfeed))
+    (home-page
+      "https://github.com/SqrtMinusOne/elfeed-summary.el")
+    (synopsis "Feed summary interface for elfeed")
+    (description
+      "Documentation at https://melpa.org/#/elfeed-summary")
+    (license #f)))
+
 (define-public emacs-elfeed-web
   (package
     (name "emacs-elfeed-web")
@@ -29493,6 +29667,59 @@
       "Ping websites to check internet connectivity")
     (description
       "Documentation at https://melpa.org/#/eping")
+    (license #f)))
+
+(define-public emacs-epkg
+  (package
+    (name "emacs-epkg")
+    (version "20220423.1552")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacscollective/epkg.git")
+               (commit
+                 "5dd40e242f305859a26ebbd6249e7cbf7361e005")))
+        (sha256
+          (base32
+            "071lkzw9227zdqdfdb0n450lgiccd04ri79qbhgqfv2pglkcxyjl"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-closql))
+    (arguments
+      '(#:files
+        ("lisp/*.el" "docs/epkg.texi" "*.el" "*.texi")))
+    (home-page
+      "https://github.com/emacscollective/epkg")
+    (synopsis
+      "Browse the Emacsmirror package database")
+    (description
+      "Documentation at https://melpa.org/#/epkg")
+    (license #f)))
+
+(define-public emacs-epkg-marginalia
+  (package
+    (name "emacs-epkg-marginalia")
+    (version "20220424.2211")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacscollective/epkg-marginalia.git")
+               (commit
+                 "73519c62db12c17804bfbcdfb0a6028389374bec")))
+        (sha256
+          (base32
+            "0r3pxnd0rbfafzfmjln37c0njs1pnn6rzfblvbmplscyzqw7iqgy"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-epkg emacs-marginalia))
+    (home-page
+      "https://github.com/emacscollective/epkg-marginalia")
+    (synopsis
+      "Show Epkg information in completion annotations")
+    (description
+      "Documentation at https://melpa.org/#/epkg-marginalia")
     (license #f)))
 
 (define-public emacs-epl
@@ -40824,6 +41051,38 @@
       "Documentation at https://melpa.org/#/forest-blue-theme")
     (license #f)))
 
+(define-public emacs-forge
+  (package
+    (name "emacs-forge")
+    (version "20220424.1416")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/forge.git")
+               (commit
+                 "627972bbc83b2355047e075ce938f79136b1f74a")))
+        (sha256
+          (base32
+            "0k2q9d3ji4d3l5dw3cx4zgc1i13q04i298wmxap7fxczkcgwsdi3"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat
+            emacs-closql
+            emacs-dash
+            emacs-emacsql-sqlite
+            emacs-ghub
+            emacs-magit
+            emacs-markdown-mode
+            emacs-yaml))
+    (arguments
+      '(#:files ("lisp/*.el" "docs/forge.texi")))
+    (home-page "https://github.com/magit/forge")
+    (synopsis "Access Git forges from Magit.")
+    (description
+      "Documentation at https://melpa.org/#/forge")
+    (license #f)))
+
 (define-public emacs-form-feed
   (package
     (name "emacs-form-feed")
@@ -41154,6 +41413,29 @@
     (synopsis "Use frames instead of Emacs windows")
     (description
       "Documentation at https://melpa.org/#/frames-only-mode")
+    (license #f)))
+
+(define-public emacs-frameshot
+  (package
+    (name "emacs-frameshot")
+    (version "20220422.1610")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/frameshot.git")
+               (commit
+                 "fa5e2363efabc2e61e79bd66c96e7d1a5c827a0d")))
+        (sha256
+          (base32
+            "1ywl7dc6ksynvcx3v3y8j96lpydwx5jkb2b90dd3skqrxpfqr9vm"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page
+      "https://github.com/tarsius/frameshot")
+    (synopsis "Take screenshots of a frame")
+    (description
+      "Documentation at https://melpa.org/#/frameshot")
     (license #f)))
 
 (define-public emacs-framesize
@@ -41859,6 +42141,29 @@
       "A major mode for editing Fvwm configuration files")
     (description
       "Documentation at https://melpa.org/#/fvwm-mode")
+    (license #f)))
+
+(define-public emacs-fwb-cmds
+  (package
+    (name "emacs-fwb-cmds")
+    (version "20220422.1610")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/fwb-cmds.git")
+               (commit
+                 "4bd3c23c3dc649ab5412e2bad7eebe3069363190")))
+        (sha256
+          (base32
+            "112a291aznh3jzcbdl4hm8xqk3nbhkab2yx604a89w69hwi960yl"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://github.com/tarsius/fwb-cmds")
+    (synopsis
+      "misc frame, window and buffer commands")
+    (description
+      "Documentation at https://melpa.org/#/fwb-cmds")
     (license #f)))
 
 (define-public emacs-fxrd-mode
@@ -42978,6 +43283,32 @@
       "Documentation at https://melpa.org/#/ghq")
     (license #f)))
 
+(define-public emacs-ghub
+  (package
+    (name "emacs-ghub")
+    (version "20220424.947")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/ghub.git")
+               (commit
+                 "5135058a78a2bea112f9e591500790c1e3b731fd")))
+        (sha256
+          (base32
+            "17vi0blzpnj8ycwglj0mwyw9hpkwmz1m2dfkj28h39lvwavxya6z"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-treepy))
+    (arguments
+      '(#:files
+        ("lisp/*.el" "docs/ghub.texi" "*.el" "*.texi")))
+    (home-page "https://github.com/magit/ghub")
+    (synopsis "Client libraries for Git forge APIs.")
+    (description
+      "Documentation at https://melpa.org/#/ghub")
+    (license #f)))
+
 (define-public emacs-ghub+
   (package
     (name "emacs-ghub+")
@@ -43301,6 +43632,32 @@
       "Documentation at https://melpa.org/#/git-command")
     (license #f)))
 
+(define-public emacs-git-commit
+  (package
+    (name "emacs-git-commit")
+    (version "20220422.1903")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/magit.git")
+               (commit
+                 "ab801de53827a232b7806362fb08ca804f27c6d0")))
+        (sha256
+          (base32
+            "12pgyvikl8kzk7jqq6rni7hbnhf4y7vnzdijszw573psz7jprdvf"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-with-editor))
+    (arguments
+      '(#:files
+        ("lisp/git-commit.el" "lisp/git-commit-pkg.el")))
+    (home-page "https://github.com/magit/magit")
+    (synopsis "Edit Git commit messages.")
+    (description
+      "Documentation at https://melpa.org/#/git-commit")
+    (license #f)))
+
 (define-public emacs-git-commit-insert-issue
   (package
     (name "emacs-git-commit-insert-issue")
@@ -43398,6 +43755,32 @@
       "Documentation at https://melpa.org/#/git-gutter")
     (license #f)))
 
+(define-public emacs-git-gutter+
+  (package
+    (name "emacs-git-gutter+")
+    (version "20151204.1723")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nonsequitur/git-gutter-plus.git")
+               (commit
+                 "b7726997806d9a2da9fe84ff00ecf21d62b6f975")))
+        (sha256
+          (base32
+            "0bhrrgdzzj8gwxjx7b2kibp1b6s0vgvykfg0n47iq49m6rqkgi5q"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-git-commit emacs-dash))
+    (arguments '(#:files ("git-gutter+.el")))
+    (home-page
+      "https://github.com/nonsequitur/git-gutter-plus")
+    (synopsis
+      "Manage Git hunks straight from the buffer")
+    (description
+      "Documentation at https://melpa.org/#/git-gutter+")
+    (license #f)))
+
 (define-public emacs-git-gutter-fringe
   (package
     (name "emacs-git-gutter-fringe")
@@ -43420,6 +43803,31 @@
     (synopsis "Fringe version of git-gutter.el")
     (description
       "Documentation at https://melpa.org/#/git-gutter-fringe")
+    (license #f)))
+
+(define-public emacs-git-gutter-fringe+
+  (package
+    (name "emacs-git-gutter-fringe+")
+    (version "20140729.1103")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nonsequitur/git-gutter-fringe-plus.git")
+               (commit
+                 "7a2f49d2455a3a872e90e5f7dd4e6b27f1d96cfc")))
+        (sha256
+          (base32
+            "1rsj193zpblndki4khjjlwl2njxb329d42l75ki55msxifqrn4fi"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-git-gutter+ emacs-fringe-helper))
+    (arguments '(#:files ("git-gutter-fringe+.el")))
+    (home-page
+      "https://github.com/nonsequitur/git-gutter-fringe-plus")
+    (synopsis "Fringe version of git-gutter+.el")
+    (description
+      "Documentation at https://melpa.org/#/git-gutter-fringe+")
     (license #f)))
 
 (define-public emacs-git-identity
@@ -48532,6 +48940,31 @@
     (synopsis "Helm interface for searching books")
     (description
       "Documentation at https://melpa.org/#/helm-books")
+    (license #f)))
+
+(define-public emacs-helm-bufler
+  (package
+    (name "emacs-helm-bufler")
+    (version "20210708.2217")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/alphapapa/bufler.el.git")
+               (commit
+                 "a68e0eb2719c67ab8a3ad56c4036364061d06004")))
+        (sha256
+          (base32
+            "155g4p2yw88cpc8ydfzybc4r6ab2qwcmzdwkrrhnra4psimahjq6"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-bufler emacs-helm))
+    (arguments '(#:files ("helm-bufler.el")))
+    (home-page
+      "https://github.com/alphapapa/bufler.el")
+    (synopsis "Helm source for Bufler")
+    (description
+      "Documentation at https://melpa.org/#/helm-bufler")
     (license #f)))
 
 (define-public emacs-helm-bundle-show
@@ -53702,6 +54135,28 @@
       "Documentation at https://melpa.org/#/hl-sentence")
     (license #f)))
 
+(define-public emacs-hl-todo
+  (package
+    (name "emacs-hl-todo")
+    (version "20220422.1611")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/hl-todo.git")
+               (commit
+                 "6769accd7003ba5a0376d2c5cef0fcffce8f45be")))
+        (sha256
+          (base32
+            "16jgnv26jp3zxz2gry6703gi4p9v8ggm4ljhm85bg84ana81rhw0"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://github.com/tarsius/hl-todo")
+    (synopsis "Highlight TODO and similar keywords")
+    (description
+      "Documentation at https://melpa.org/#/hl-todo")
+    (license #f)))
+
 (define-public emacs-hledger-mode
   (package
     (name "emacs-hledger-mode")
@@ -55980,6 +56435,29 @@
       "imakado's usefull macros and functions")
     (description
       "Documentation at https://melpa.org/#/imakado")
+    (license #f)))
+
+(define-public emacs-imake
+  (package
+    (name "emacs-imake")
+    (version "20220422.1611")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/imake.git")
+               (commit
+                 "51aeac9f3a24f23d063f591066675d1d70dcea09")))
+        (sha256
+          (base32
+            "1zl2lkdflssii5mvxr2hgz6spx4qpbvixrm1jj0nrh128s23jx9m"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://github.com/tarsius/imake")
+    (synopsis
+      "Simple, opinionated make target runner")
+    (description
+      "Documentation at https://melpa.org/#/imake")
     (license #f)))
 
 (define-public emacs-imapfilter
@@ -61652,6 +62130,28 @@
       "Documentation at https://melpa.org/#/key-seq")
     (license #f)))
 
+(define-public emacs-keycast
+  (package
+    (name "emacs-keycast")
+    (version "20220422.1611")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/keycast.git")
+               (commit
+                 "0c37db482ca98e729430121209d70dd093082a5e")))
+        (sha256
+          (base32
+            "1i4l145k9jrl8dv5wkcg3nbm6s0as1myz8vzh4k9rdi2ra6lkajr"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://github.com/tarsius/keycast")
+    (synopsis "Show current command and its binding")
+    (description
+      "Documentation at https://melpa.org/#/keycast")
+    (license #f)))
+
 (define-public emacs-keychain-environment
   (package
     (name "emacs-keychain-environment")
@@ -61715,6 +62215,29 @@
     (synopsis "track command frequencies")
     (description
       "Documentation at https://melpa.org/#/keyfreq")
+    (license #f)))
+
+(define-public emacs-keymap-utils
+  (package
+    (name "emacs-keymap-utils")
+    (version "20220422.1612")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/keymap-utils.git")
+               (commit
+                 "0fd91fef890fb4c18c552e5ecaddd53c9bdac2bd")))
+        (sha256
+          (base32
+            "1qhl8zq0b8qzanglw2j1c7ll4ifryvjmf3z4y9c22pfr5xf187c2"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page
+      "https://github.com/tarsius/keymap-utils")
+    (synopsis "Keymap utilities")
+    (description
+      "Documentation at https://melpa.org/#/keymap-utils")
     (license #f)))
 
 (define-public emacs-keypress-multi-event
@@ -62515,6 +63038,63 @@
       "extension for kubel to provide evil keybindings")
     (description
       "Documentation at https://melpa.org/#/kubel-evil")
+    (license #f)))
+
+(define-public emacs-kubernetes
+  (package
+    (name "emacs-kubernetes")
+    (version "20220331.1314")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/kubernetes-el/kubernetes-el.git")
+               (commit
+                 "e0d0cd6b949802fe63ff8940cc743cc7efedb089")))
+        (sha256
+          (base32
+            "1xnl8bci3j0l14gkb0n23kr4867cmypyxcydjn59niwab9srg7pm"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-dash
+            emacs-magit-section
+            emacs-magit-popup
+            emacs-with-editor
+            emacs-request
+            emacs-s))
+    (arguments
+      '(#:files
+        (:defaults (:exclude "kubernetes-evil.el"))))
+    (home-page
+      "https://github.com/kubernetes-el/kubernetes-el")
+    (synopsis "Magit-like porcelain for Kubernetes")
+    (description
+      "Documentation at https://melpa.org/#/kubernetes")
+    (license #f)))
+
+(define-public emacs-kubernetes-evil
+  (package
+    (name "emacs-kubernetes-evil")
+    (version "20211225.300")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/kubernetes-el/kubernetes-el.git")
+               (commit
+                 "e0d0cd6b949802fe63ff8940cc743cc7efedb089")))
+        (sha256
+          (base32
+            "1xnl8bci3j0l14gkb0n23kr4867cmypyxcydjn59niwab9srg7pm"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-kubernetes emacs-evil))
+    (arguments '(#:files ("kubernetes-evil.el")))
+    (home-page "unspecified")
+    (synopsis
+      "Kubernetes keybindings for evil-mode.")
+    (description
+      "Documentation at https://melpa.org/#/kubernetes-evil")
     (license #f)))
 
 (define-public emacs-kubernetes-helm
@@ -67269,6 +67849,48 @@
       "Documentation at https://melpa.org/#/magik-mode")
     (license #f)))
 
+(define-public emacs-magit
+  (package
+    (name "emacs-magit")
+    (version "20220424.1428")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/magit.git")
+               (commit
+                 "ab801de53827a232b7806362fb08ca804f27c6d0")))
+        (sha256
+          (base32
+            "12pgyvikl8kzk7jqq6rni7hbnhf4y7vnzdijszw573psz7jprdvf"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat
+            emacs-dash
+            emacs-git-commit
+            emacs-magit-section
+            emacs-with-editor))
+    (arguments
+      '(#:files
+        ("lisp/magit"
+         "lisp/magit*.el"
+         "lisp/git-rebase.el"
+         "docs/magit.texi"
+         "docs/AUTHORS.md"
+         "LICENSE"
+         (:exclude
+           "lisp/magit-libgit.el"
+           "lisp/magit-libgit-pkg.el"
+           "lisp/magit-section.el"
+           "lisp/magit-section-pkg.el")
+         "Documentation/magit.texi"
+         "Documentation/AUTHORS.md")))
+    (home-page "https://github.com/magit/magit")
+    (synopsis "A Git porcelain inside Emacs.")
+    (description
+      "Documentation at https://melpa.org/#/magit")
+    (license #f)))
+
 (define-public emacs-magit-annex
   (package
     (name "emacs-magit-annex")
@@ -67553,6 +68175,33 @@
       "Documentation at https://melpa.org/#/magit-lfs")
     (license #f)))
 
+(define-public emacs-magit-libgit
+  (package
+    (name "emacs-magit-libgit")
+    (version "20220422.1903")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/magit.git")
+               (commit
+                 "ab801de53827a232b7806362fb08ca804f27c6d0")))
+        (sha256
+          (base32
+            "12pgyvikl8kzk7jqq6rni7hbnhf4y7vnzdijszw573psz7jprdvf"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-libgit emacs-magit))
+    (arguments
+      '(#:files
+        ("lisp/magit-libgit.el"
+         "lisp/magit-libgit-pkg.el")))
+    (home-page "https://github.com/magit/magit")
+    (synopsis ".")
+    (description
+      "Documentation at https://melpa.org/#/magit-libgit")
+    (license #f)))
+
 (define-public emacs-magit-org-todos
   (package
     (name "emacs-magit-org-todos")
@@ -67671,6 +68320,35 @@
       "Show open Reviewboard reviews in Magit")
     (description
       "Documentation at https://melpa.org/#/magit-reviewboard")
+    (license #f)))
+
+(define-public emacs-magit-section
+  (package
+    (name "emacs-magit-section")
+    (version "20220424.1428")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/magit.git")
+               (commit
+                 "ab801de53827a232b7806362fb08ca804f27c6d0")))
+        (sha256
+          (base32
+            "12pgyvikl8kzk7jqq6rni7hbnhf4y7vnzdijszw573psz7jprdvf"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-dash))
+    (arguments
+      '(#:files
+        ("lisp/magit-section.el"
+         "lisp/magit-section-pkg.el"
+         "docs/magit-section.texi"
+         "Documentation/magit-section.texi")))
+    (home-page "https://github.com/magit/magit")
+    (synopsis "Sections for read-only buffers")
+    (description
+      "Documentation at https://melpa.org/#/magit-section")
     (license #f)))
 
 (define-public emacs-magit-svn
@@ -67793,6 +68471,34 @@
     (synopsis "Magit vcsh integration")
     (description
       "Documentation at https://melpa.org/#/magit-vcsh")
+    (license #f)))
+
+(define-public emacs-magithub
+  (package
+    (name "emacs-magithub")
+    (version "20220315.117")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/vermiculus/magithub.git")
+               (commit
+                 "dd62c7057155c0a334e6d9087779a2923d2300b8")))
+        (sha256
+          (base32
+            "1v8nsv1y4fa3y2skx1w3gbf438zlf00zlmsxkh692kmvbkx4sdf4"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-magit
+            emacs-s
+            emacs-ghub+
+            emacs-git-commit
+            emacs-markdown-mode))
+    (home-page
+      "https://github.com/vermiculus/magithub")
+    (synopsis "Magit interfaces for GitHub")
+    (description
+      "Documentation at https://melpa.org/#/magithub")
     (license #f)))
 
 (define-public emacs-magma-mode
@@ -70401,6 +71107,28 @@
       "Documentation at https://melpa.org/#/minimal-theme")
     (license #f)))
 
+(define-public emacs-minions
+  (package
+    (name "emacs-minions")
+    (version "20220422.1615")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/minions.git")
+               (commit
+                 "b0427eea174adb494efc9fa212c22021861d3f76")))
+        (sha256
+          (base32
+            "0jzmyf9x9nq4jw8a0b5lisam0wz6vy3f8sxn4dj3anawjivn6ml0"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://github.com/tarsius/minions")
+    (synopsis "A minor-mode menu for the mode line")
+    (description
+      "Documentation at https://melpa.org/#/minions")
+    (license #f)))
+
 (define-public emacs-minitest
   (package
     (name "emacs-minitest")
@@ -70896,6 +71624,30 @@
       "Flash the mode line instead of ringing the bell")
     (description
       "Documentation at https://melpa.org/#/mode-line-bell")
+    (license #f)))
+
+(define-public emacs-mode-line-debug
+  (package
+    (name "emacs-mode-line-debug")
+    (version "20220422.1615")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/mode-line-debug.git")
+               (commit
+                 "d33e76efac6978c755bb5e0ced061b0063a6dff9")))
+        (sha256
+          (base32
+            "1vzqwijlqvlzwh74gmb5cmc4k932x023361k4csxmpg5xvsgbg0f"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page
+      "https://github.com/tarsius/mode-line-debug")
+    (synopsis
+      "Show status of debug-on-error in mode-line")
+    (description
+      "Documentation at https://melpa.org/#/mode-line-debug")
     (license #f)))
 
 (define-public emacs-mode-line-idle
@@ -71421,6 +72173,28 @@
       "Documentation at https://melpa.org/#/mood-one-theme")
     (license #f)))
 
+(define-public emacs-moody
+  (package
+    (name "emacs-moody")
+    (version "20220422.1616")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/moody.git")
+               (commit
+                 "ac647781d2d66d57c84a64dfd33b463b4a99b257")))
+        (sha256
+          (base32
+            "0g9bq9z030kf4l5za54300zq98396a6f50d9rd9vylyjqsfxv7fk"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://github.com/tarsius/moody")
+    (synopsis "Tabs and ribbons for the mode line")
+    (description
+      "Documentation at https://melpa.org/#/moody")
+    (license #f)))
+
 (define-public emacs-moom
   (package
     (name "emacs-moom")
@@ -71538,6 +72312,28 @@
     (synopsis "Tango-based custom theme")
     (description
       "Documentation at https://melpa.org/#/morgentau-theme")
+    (license #f)))
+
+(define-public emacs-morlock
+  (package
+    (name "emacs-morlock")
+    (version "20220422.1616")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/morlock.git")
+               (commit
+                 "b699497363c60bddc18393f68e3c9185e5fbb589")))
+        (sha256
+          (base32
+            "0byaqhb1w0z6i87xj87g6ylx4r5bsjipspla0g0zrk33vk7vcfis"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://github.com/tarsius/morlock")
+    (synopsis "More font-lock keywords for elisp")
+    (description
+      "Documentation at https://melpa.org/#/morlock")
     (license #f)))
 
 (define-public emacs-mosey
@@ -74325,6 +75121,32 @@
       "Documentation at https://melpa.org/#/nix-haskell-mode")
     (license #f)))
 
+(define-public emacs-nix-mode
+  (package
+    (name "emacs-nix-mode")
+    (version "20220422.451")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/NixOS/nix-mode.git")
+               (commit
+                 "66206cab276c0f4d1c84e77ba2a67ed6a46b2d9c")))
+        (sha256
+          (base32
+            "0a1hcqib9aq1d73yw2yznyhlmxyiyhzkf8dbgjhixpqj6j7ihvg1"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-magit-section))
+    (arguments
+      '(#:files
+        (:defaults
+          (:exclude "nix-company.el" "nix-mode-mmm.el"))))
+    (home-page "https://github.com/NixOS/nix-mode")
+    (synopsis "Major mode for editing .nix files")
+    (description
+      "Documentation at https://melpa.org/#/nix-mode")
+    (license #f)))
+
 (define-public emacs-nix-modeline
   (package
     (name "emacs-nix-modeline")
@@ -74605,6 +75427,29 @@
       "Show :emoji-name: instead of emoji characters")
     (description
       "Documentation at https://melpa.org/#/no-emoji")
+    (license #f)))
+
+(define-public emacs-no-littering
+  (package
+    (name "emacs-no-littering")
+    (version "20220422.1616")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacscollective/no-littering.git")
+               (commit
+                 "405dc3f842fe74a3ea58fe798007f94d3ee60b68")))
+        (sha256
+          (base32
+            "1zrfl3dvmj46nhddkkqpmcb8mskgih5m1c8aks91ni6xsszp0f6k"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page
+      "https://github.com/emacscollective/no-littering")
+    (synopsis "Help keeping ~/.emacs.d clean")
+    (description
+      "Documentation at https://melpa.org/#/no-littering")
     (license #f)))
 
 (define-public emacs-no-spam
@@ -74996,6 +75841,30 @@
       "Documentation at https://melpa.org/#/notmuch")
     (license #f)))
 
+(define-public emacs-notmuch-addr
+  (package
+    (name "emacs-notmuch-addr")
+    (version "20220422.1618")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~tarsius/notmuch-addr")
+               (commit
+                 "2e479851b5cb2d25c31f21b400cfd34777348874")))
+        (sha256
+          (base32
+            "1y9i88hadvdz1cd4792g6rvrj6jshva6p74f83qfhw7rhddzvsqn"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-notmuch))
+    (home-page
+      "https://git.sr.ht/~tarsius/notmuch-addr")
+    (synopsis "An alternative to notmuch-address.el")
+    (description
+      "Documentation at https://melpa.org/#/notmuch-addr")
+    (license #f)))
+
 (define-public emacs-notmuch-bookmarks
   (package
     (name "emacs-notmuch-bookmarks")
@@ -75042,6 +75911,54 @@
       "Improve notmuch way of displaying labels")
     (description
       "Documentation at https://melpa.org/#/notmuch-labeler")
+    (license #f)))
+
+(define-public emacs-notmuch-maildir
+  (package
+    (name "emacs-notmuch-maildir")
+    (version "20220422.1621")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~tarsius/notmuch-maildir")
+               (commit
+                 "cb404064313145b7225a76694ceb06fe12078251")))
+        (sha256
+          (base32
+            "17vyxdw46jch05ypygh4z3a2lr388313snvhnl5nd5ksc2h1sxqi"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-notmuch))
+    (home-page
+      "https://git.sr.ht/~tarsius/notmuch-maildir")
+    (synopsis "Visualize maildirs as a tree")
+    (description
+      "Documentation at https://melpa.org/#/notmuch-maildir")
+    (license #f)))
+
+(define-public emacs-notmuch-transient
+  (package
+    (name "emacs-notmuch-transient")
+    (version "20220423.1524")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~tarsius/notmuch-transient")
+               (commit
+                 "2b044aabfe962935ce13087667e1827b28ec7805")))
+        (sha256
+          (base32
+            "14393npqwzs5bwc7cabswkdmjilw9g2yyx6hb5j293vfljic0n8n"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-notmuch))
+    (home-page
+      "https://git.sr.ht/~tarsius/notmuch-transient")
+    (synopsis "Command dispatchers for Notmuch")
+    (description
+      "Documentation at https://melpa.org/#/notmuch-transient")
     (license #f)))
 
 (define-public emacs-nova-theme
@@ -77418,6 +78335,30 @@
       "Documentation at https://melpa.org/#/oj")
     (license #f)))
 
+(define-public emacs-ol-notmuch
+  (package
+    (name "emacs-ol-notmuch")
+    (version "20220422.1623")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~tarsius/ol-notmuch")
+               (commit
+                 "1e0176fe6315f2e8d80338c6570adf9bbca7ade0")))
+        (sha256
+          (base32
+            "1j3sv3x9jdkdqbaj0zl7sfhlrp5aib89d7zgzhcsnysi6rgc5ncd"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-notmuch))
+    (home-page
+      "https://git.sr.ht/~tarsius/ol-notmuch")
+    (synopsis "Links to notmuch messages")
+    (description
+      "Documentation at https://melpa.org/#/ol-notmuch")
+    (license #f)))
+
 (define-public emacs-olc
   (package
     (name "emacs-olc")
@@ -79644,6 +80585,31 @@
       "Documentation at https://melpa.org/#/org-journal-list")
     (license #f)))
 
+(define-public emacs-org-journal-tags
+  (package
+    (name "emacs-org-journal-tags")
+    (version "20220416.1507")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/SqrtMinusOne/org-journal-tags.git")
+               (commit
+                 "ca6327161f4994ea0e98d7c6c3f662222e2650bf")))
+        (sha256
+          (base32
+            "1pg7wxjlhbh3fls17zgh9wdzk0mjc3sfi873207kc5rcd4araq89"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-org-journal emacs-magit-section))
+    (home-page
+      "https://github.com/SqrtMinusOne/org-journal-tags")
+    (synopsis
+      "Tagging and querying system of org-journal")
+    (description
+      "Documentation at https://melpa.org/#/org-journal-tags")
+    (license #f)))
+
 (define-public emacs-org-kanban
   (package
     (name "emacs-org-kanban")
@@ -80963,6 +81929,35 @@
       "Paste with org-mode markup and link to source")
     (description
       "Documentation at https://melpa.org/#/org-rich-yank")
+    (license #f)))
+
+(define-public emacs-org-roam
+  (package
+    (name "emacs-org-roam")
+    (version "20220425.12")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/org-roam/org-roam.git")
+               (commit
+                 "b63ff2a7bbd888128939b8ae88c3f62c0d529945")))
+        (sha256
+          (base32
+            "17fk3mxkg53wqwv2kmzffc4yly8sf0swzvvvs39ljjim3pw8bfhy"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-dash
+            emacs-emacsql
+            emacs-emacsql-sqlite
+            emacs-magit-section))
+    (arguments '(#:files (:defaults "extensions/*")))
+    (home-page
+      "https://github.com/org-roam/org-roam")
+    (synopsis
+      "A database abstraction layer for Org-mode")
+    (description
+      "Documentation at https://melpa.org/#/org-roam")
     (license #f)))
 
 (define-public emacs-org-roam-bibtex
@@ -82335,6 +83330,79 @@
       "Documentation at https://melpa.org/#/orgbox")
     (license #f)))
 
+(define-public emacs-orgit
+  (package
+    (name "emacs-orgit")
+    (version "20220422.1624")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/orgit.git")
+               (commit
+                 "79ed3337ab0ca3d5018732dcdabfbf700c4822d9")))
+        (sha256
+          (base32
+            "0008c4iy6sj6nh3053sh60ywm7p6dk7ayq72gvhv1q1g5dkf1lfj"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat emacs-magit))
+    (home-page "https://github.com/magit/orgit")
+    (synopsis
+      "Support for Org links to Magit buffers")
+    (description
+      "Documentation at https://melpa.org/#/orgit")
+    (license #f)))
+
+(define-public emacs-orgit-forge
+  (package
+    (name "emacs-orgit-forge")
+    (version "20220422.1625")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/orgit-forge.git")
+               (commit
+                 "72285807707a802ebe7f3c6149de9a78a022b17e")))
+        (sha256
+          (base32
+            "1n5vhpwy2ay1s106icr542wh7a8zrsr7jbprp76qaqhzfzddkiv7"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-compat
+            emacs-forge
+            emacs-magit
+            emacs-orgit))
+    (home-page
+      "https://github.com/magit/orgit-forge")
+    (synopsis "Org links to Forge issue buffers")
+    (description
+      "Documentation at https://melpa.org/#/orgit-forge")
+    (license #f)))
+
+(define-public emacs-orglink
+  (package
+    (name "emacs-orglink")
+    (version "20220422.1626")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/orglink.git")
+               (commit
+                 "36129691e60e992f31065be4c26d58645b83b033")))
+        (sha256
+          (base32
+            "0k3x931fv66asdmmgfr44b9wy0z8xv1r324mw91fj8zf4v3ryj05"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://github.com/tarsius/orglink")
+    (synopsis "Use Org Mode links in other modes")
+    (description
+      "Documentation at https://melpa.org/#/orglink")
+    (license #f)))
+
 (define-public emacs-orglue
   (package
     (name "emacs-orglue")
@@ -82935,6 +84003,30 @@
     (synopsis "outline mode extensions for Emacs")
     (description
       "Documentation at https://melpa.org/#/outline-magic")
+    (license #f)))
+
+(define-public emacs-outline-minor-faces
+  (package
+    (name "emacs-outline-minor-faces")
+    (version "20220424.1803")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/outline-minor-faces.git")
+               (commit
+                 "e92af60c68c4cb05db84c13bb71becaca90763d7")))
+        (sha256
+          (base32
+            "1h2qvvpqz3yi1chhdl8kxc7s98qgn5hyg9131qa5sdn41qx1gi4d"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page
+      "https://github.com/tarsius/outline-minor-faces")
+    (synopsis
+      "Headings faces for outline-minor-mode")
+    (description
+      "Documentation at https://melpa.org/#/outline-minor-faces")
     (license #f)))
 
 (define-public emacs-outline-toc
@@ -84444,6 +85536,31 @@
       "Documentation at https://melpa.org/#/package-utils")
     (license #f)))
 
+(define-public emacs-packed
+  (package
+    (name "emacs-packed")
+    (version "20220422.1626")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacscollective/packed.git")
+               (commit
+                 "3489c97340434096f24c64a33feea22e19c18a2c")))
+        (sha256
+          (base32
+            "04nz6gl7r9sv51n3yaids524v8ccq5wbblxci1vckzsipbc8ys2i"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (arguments '(#:files ("packed.el")))
+    (home-page
+      "https://github.com/emacscollective/packed")
+    (synopsis
+      "Package manager agnostic Emacs Lisp package utilities")
+    (description
+      "Documentation at https://melpa.org/#/packed")
+    (license #f)))
+
 (define-public emacs-pacmacs
   (package
     (name "emacs-pacmacs")
@@ -85007,6 +86124,29 @@
       "Automatically, language agnostically, fill in delimiters.")
     (description
       "Documentation at https://melpa.org/#/paren-completer")
+    (license #f)))
+
+(define-public emacs-paren-face
+  (package
+    (name "emacs-paren-face")
+    (version "20220422.1627")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tarsius/paren-face.git")
+               (commit
+                 "5dc2c2e06152dc51f7395073569f448a8f94d296")))
+        (sha256
+          (base32
+            "0plw57g866z6nafgh8czb2hh87z1l2rihv9cvda3gs4fkh8hvimx"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page
+      "https://github.com/tarsius/paren-face")
+    (synopsis "A face for parentheses in lisp modes")
+    (description
+      "Documentation at https://melpa.org/#/paren-face")
     (license #f)))
 
 (define-public emacs-parent-mode
@@ -89433,6 +90573,34 @@
       "Extended pretty printer for Emacs Lisp")
     (description
       "Documentation at https://melpa.org/#/ppp")
+    (license #f)))
+
+(define-public emacs-pr-review
+  (package
+    (name "emacs-pr-review")
+    (version "20220412.440")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/blahgeek/emacs-pr-review.git")
+               (commit
+                 "cfc5643c4ab66f17a31d82418465ae434486d8db")))
+        (sha256
+          (base32
+            "0gf5s7f4906qypy3imaqh7zy24xd1ijz57rh72vdvjd33n4x857f"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-magit-section
+            emacs-magit
+            emacs-markdown-mode
+            emacs-ghub))
+    (arguments '(#:files (:defaults "graphql")))
+    (home-page
+      "https://github.com/blahgeek/emacs-pr-review")
+    (synopsis "Review github PR")
+    (description
+      "Documentation at https://melpa.org/#/pr-review")
     (license #f)))
 
 (define-public emacs-prassee-theme
@@ -109007,6 +110175,28 @@
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
 
+(define-public emacs-tokei
+  (package
+    (name "emacs-tokei")
+    (version "20220422.2234")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nagy/tokei.el.git")
+               (commit
+                 "181021cd881eecd604a546d4a717866a81c7a511")))
+        (sha256
+          (base32
+            "0gcjlcfxd4bg123gjf7d0vfvfd6zpd0da8svynglca1qhp77jkx1"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-magit-section))
+    (home-page "https://github.com/nagy/tokei.el")
+    (synopsis "Display codebase statistics")
+    (description
+      "Documentation at https://melpa.org/#/tokei")
+    (license #f)))
+
 (define-public emacs-tomatinho
   (package
     (name "emacs-tomatinho")
@@ -109535,6 +110725,31 @@
       "Documentation at https://melpa.org/#/transfer-sh")
     (license #f)))
 
+(define-public emacs-transient
+  (package
+    (name "emacs-transient")
+    (version "20220424.1248")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/transient.git")
+               (commit
+                 "ed2febd0056932689da00414af9db0260ea08ead")))
+        (sha256
+          (base32
+            "0zzvg84w9p1lg9dii14jcbj9ijli15j0ai7na62dhffmdriwkd21"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (arguments
+      '(#:files
+        ("lisp/transient.el" "docs/transient.texi")))
+    (home-page "https://github.com/magit/transient")
+    (synopsis "Transient commands")
+    (description
+      "Documentation at https://melpa.org/#/transient")
+    (license #f)))
+
 (define-public emacs-transient-dwim
   (package
     (name "emacs-transient-dwim")
@@ -109738,6 +110953,28 @@
     (synopsis "Emacs client for Travis")
     (description
       "Documentation at https://melpa.org/#/travis")
+    (license #f)))
+
+(define-public emacs-tray
+  (package
+    (name "emacs-tray")
+    (version "20220422.1628")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~tarsius/tray")
+               (commit
+                 "7c70d499d08321337f860a3cd59cba7296cfcace")))
+        (sha256
+          (base32
+            "0yl0ddn1iz7iph0vxh0fzavgsgrk8ks5axggzbgs8ywl6ya8r7g2"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page "https://git.sr.ht/~tarsius/tray")
+    (synopsis "Various transient menus")
+    (description
+      "Documentation at https://melpa.org/#/tray")
     (license #f)))
 
 (define-public emacs-tree-edit
@@ -116009,6 +117246,35 @@
     (synopsis "Major mode for Wisp code.")
     (description
       "Documentation at https://melpa.org/#/wispjs-mode")
+    (license #f)))
+
+(define-public emacs-with-editor
+  (package
+    (name "emacs-with-editor")
+    (version "20220422.1628")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/magit/with-editor.git")
+               (commit
+                 "54d1e816ac0f3203f0065ea9e6a551b9d103dad4")))
+        (sha256
+          (base32
+            "1han1a4y7ijjz5fzl26djix3dgz62dscffsz7ybqmlmaa2krj8vp"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (arguments
+      '(#:files
+        ("lisp/with-editor.el"
+         "docs/with-editor.texi"
+         "with-editor.el"
+         "with-editor.texi")))
+    (home-page
+      "https://github.com/magit/with-editor")
+    (synopsis "Use the Emacsclient as $EDITOR")
+    (description
+      "Documentation at https://melpa.org/#/with-editor")
     (license #f)))
 
 (define-public emacs-with-emacs
