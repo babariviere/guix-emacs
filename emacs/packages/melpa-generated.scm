@@ -31675,17 +31675,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220423.811")
+    (version "20220424.2228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "48404a336850a20ed093fcf78539037c17386235")))
+                 "f75732de0ca5cae70f17dbc4bf7df03cb4ec491f")))
         (sha256
           (base32
-            "0rf2xcxsmwg1j9wc16ffv6zdwnvm2xl6f30s5af8yf7anwx17vjs"))))
+            "0hfrdcgy8mvbhjzgy3i12kf50b53mnabisnadpcsp36wp5rslnmp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -71039,17 +71039,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220423.340")
+    (version "20220425.333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "f2445a43d845adfb65485a02e653cb4844574983")))
+                 "29b8a115046f864e454ded9e2ff864d9cf9d6d6e")))
         (sha256
           (base32
-            "1h26fpl3vks01i7668rzfi3kjkvx6nd3dqc8l93zd3q0wcyy2yrl"))))
+            "175b0cfr2wqvm7846xy85nipabpa8j0gywgkl9zgn14hq4hyrfqf"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -83442,17 +83442,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220421.1318")
+    (version "20220425.301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "0af8d50e8385c920f542fc55006dd042b3f714bd")))
+                 "262b7b432a7f81124fe181c07b57a4f42b6eedc9")))
         (sha256
           (base32
-            "0268wiqkbp08cyvkm531bg8zvxr0k76syd2wzjqcrmhh5mz2gsm6"))))
+            "0w8jhpb05bc9wflmrh7v2srdhfkj119ncfrslz2a9vdmp7dw02pq"))))
     (build-system melpa-build-system)
     (home-page "https://ox-hugo.scripter.co")
     (synopsis
@@ -97708,17 +97708,17 @@
 (define-public emacs-scihub
   (package
     (name "emacs-scihub")
-    (version "20211020.420")
+    (version "20220423.421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-pe/scihub.el.git")
                (commit
-                 "d96c462e7f340f142ce3c5ffd31fa267223fd854")))
+                 "57333c849bcd4953663cbf7c271e9f3a62179765")))
         (sha256
           (base32
-            "0w8xlnpawkq580gc6cvxzln29x9v5g05ab7i8wwg1r5jhw9bjvgs"))))
+            "0pla2qzpnilx73z3mjflc2a1pp5fnh7ynm749w2fxlrnhz7cmwx8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-pe/scihub.el")
@@ -106638,17 +106638,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220424.2130")
+    (version "20220425.252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "383b3b6d5c95efc7677056137da2ef880bf67b56")))
+                 "810ab43c5aad09d808ad643d90f4f53427966c57")))
         (sha256
           (base32
-            "0282h4isdx4qlm67ywqfzwp6b8ybgfqdjpq8dnmg68zkl25r0h4r"))))
+            "00459lifcg6cnh5gbgj9k8hfbbfczbz39cran7h4wd6zr3x3chh0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
