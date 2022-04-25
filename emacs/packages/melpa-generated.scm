@@ -9746,17 +9746,17 @@
 (define-public emacs-calibredb
   (package
     (name "emacs-calibredb")
-    (version "20220423.754")
+    (version "20220424.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chenyanming/calibredb.el.git")
                (commit
-                 "8432243b402bab499ca730be270944b4e1196dcd")))
+                 "8a6148a264e5e57e11824a238ae7b92bb3b6c9ab")))
         (sha256
           (base32
-            "10bmbjrk0ccpq47xv4lp9gp0pyxxg1c7sjmlzikb2nvxarlxj7fq"))))
+            "0xqc8q8lqmqsmb9grmpwl45hyr94g2rycfng9ismjnxc182j925r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-transient
@@ -16046,6 +16046,30 @@
       "Documentation at https://melpa.org/#/consult")
     (license #f)))
 
+(define-public emacs-consult-ag
+  (package
+    (name "emacs-consult-ag")
+    (version "20220419.1721")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/yadex205/consult-ag.git")
+               (commit
+                 "2460ae6829e86c9f1186a852304d919526838cb8")))
+        (sha256
+          (base32
+            "0f5m66xgmm306ifh794q65wm4wwyayfgvm9fn1kip7aj86n0snfh"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-consult))
+    (home-page
+      "https://github.com/yadex205/consult-ag")
+    (synopsis
+      "The silver searcher integration using Consult")
+    (description
+      "Documentation at https://melpa.org/#/consult-ag")
+    (license #f)))
+
 (define-public emacs-consult-company
   (package
     (name "emacs-consult-company")
@@ -16266,17 +16290,17 @@
 (define-public emacs-consult-project-extra
   (package
     (name "emacs-consult-project-extra")
-    (version "20220228.843")
+    (version "20220424.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Qkessler/consult-project-extra.git")
                (commit
-                 "897f2f71a94ce1b72c3bf823e14791a332befbb7")))
+                 "fa882a0bf9b697ebb59d0dfa2ffd81ea6daabf41")))
         (sha256
           (base32
-            "1c0nllj6hhgvjf7zzy44iacnl29flg54ahb26r4bi9lip8aw65xs"))))
+            "00gf7fam9gfll9s7bw7bna64y1ynmlhqf4jcbkfhj02laff2virf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -39876,6 +39900,30 @@
     (synopsis "Flymake extension for Racket.")
     (description
       "Documentation at https://melpa.org/#/flymake-racket")
+    (license #f)))
+
+(define-public emacs-flymake-rakudo
+  (package
+    (name "emacs-flymake-rakudo")
+    (version "20220424.637")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Raku/flymake-rakudo.git")
+               (commit
+                 "f8e3d03a7207876cd891174702efd572d74f2e49")))
+        (sha256
+          (base32
+            "1j6v1hdwp1jidx9i28gfkzp9hllzkw3r5qd3ggrb96lbqc5hmyi5"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-flymake-collection))
+    (home-page
+      "https://github.com/Raku/flymake-rakudo")
+    (synopsis "Flymake syntax checker for Rakudo")
+    (description
+      "Documentation at https://melpa.org/#/flymake-rakudo")
     (license #f)))
 
 (define-public emacs-flymake-ruby
@@ -66366,17 +66414,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220422.2059")
+    (version "20220424.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "4f6dfc761249e9d3ee9b773ee6eb682cd58de60e")))
+                 "fd1a431b3d50ab1426681bce2d5c4ff8c9c6301e")))
         (sha256
           (base32
-            "0lcyngmr77gsx19f9m77c4r5wyqlwib68869wklyi6v6x0z5bggx"))))
+            "0min5y1513844ihc7yn111mrk3fs7z3gzp82gpn2il40fyizpmcl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75990,17 +76038,17 @@
 (define-public emacs-ob-dsq
   (package
     (name "emacs-ob-dsq")
-    (version "20220424.819")
+    (version "20220424.2044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/ob-dsq.git")
                (commit
-                 "98331933924cddea75a89c4b5b7bab51eee86755")))
+                 "4a1a6850db0703e74455e739f074d7da105c9530")))
         (sha256
           (base32
-            "0klqxvarkkvghhbrcwhxz53xmh0lyzcwi2wrlh1gniw5iv5fxfqi"))))
+            "1jxq3p4aalqvmm88h13fd6pc7di0jrhv6y8r5kk5w2x1l8jqsh1g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/ob-dsq")
@@ -104429,6 +104477,29 @@
       "Documentation at https://melpa.org/#/stem-english")
     (license #f)))
 
+(define-public emacs-stem-reading-mode
+  (package
+    (name "emacs-stem-reading-mode")
+    (version "20220418.1136")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/wavexx/stem-reading-mode.el.git")
+               (commit
+                 "a8bacd80fab6013c09e4e8d337fd88267cbe2ff8")))
+        (sha256
+          (base32
+            "0ib2rqybwjxclgqy6bp0gmgr6mvyp434mf9ix6m8by3jrkpppvgq"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/wavexx/stem-reading-mode.el")
+    (synopsis
+      "Highlight word stems for speed-reading")
+    (description
+      "Documentation at https://melpa.org/#/stem-reading-mode")
+    (license #f)))
+
 (define-public emacs-stgit
   (package
     (name "emacs-stgit")
@@ -106567,17 +106638,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220424.306")
+    (version "20220424.2130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "5d1f720baf13d211ae46e2242d1f5ae881ff9aa3")))
+                 "383b3b6d5c95efc7677056137da2ef880bf67b56")))
         (sha256
           (base32
-            "1k2pc0s8q7dig4s8rqkjyka4vfd2xx8xs8fq7hp694717vrybs11"))))
+            "0282h4isdx4qlm67ywqfzwp6b8ybgfqdjpq8dnmg68zkl25r0h4r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -106655,6 +106726,29 @@
     (synopsis "Emacs remote web access")
     (description
       "Documentation at https://melpa.org/#/take-off")
+    (license #f)))
+
+(define-public emacs-talonscript-mode
+  (package
+    (name "emacs-talonscript-mode")
+    (version "20220204.1441")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jcaw/talonscript-mode.git")
+               (commit
+                 "b6eb61f56349e0d47276270163ec611c2d5b188e")))
+        (sha256
+          (base32
+            "1a2x0972psaaz4d89adcr37440a71jm0vbdwca3ixj7rs7l4myp9"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/jcaw/talonscript-mode")
+    (synopsis
+      "Major mode for Talon Voice's .talon files")
+    (description
+      "Documentation at https://melpa.org/#/talonscript-mode")
     (license #f)))
 
 (define-public emacs-tango-2-theme
@@ -108893,17 +108987,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220423.1413")
+    (version "20220424.1852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "505363f07d00b671e1d886c808574e42a25b8de8")))
+                 "f0bdc2aa4c6f1e463a3027a5e194f6dab3d0fda6")))
         (sha256
           (base32
-            "17jwxp3a2cx2is4lyxsmnbkfkas8105wnz3sdy2h5c2wfpwy8fx4"))))
+            "0n4vn5s845a50s8gfvj7v5vlr81k6mn4v94h58021fd911m21ar1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -116214,17 +116308,17 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20220420.936")
+    (version "20220424.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/wordreference.el")
                (commit
-                 "0809575220ddfb9290829873dacf576f93222d05")))
+                 "33303dc1ee71bb78b6a9bf96b22b3bd6a62203a8")))
         (sha256
           (base32
-            "0f5380iimmibwwvz5hahln8lxxnr882z71v9sbjl1rlqc3rfj39x"))))
+            "0is7hgx4qr3qjfpg3qwzhrmj94a4xr4ggjpfbnb0pz922r2cz3da"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
