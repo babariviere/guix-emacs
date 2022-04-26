@@ -1647,17 +1647,17 @@
 (define-public emacs-ado-mode
   (package
     (name "emacs-ado-mode")
-    (version "20210510.1902")
+    (version "20220415.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/louabill/ado-mode.git")
                (commit
-                 "4832a51c2e94e969a99817ccdd13d656344d0afc")))
+                 "07ab2979692d70ca21ac64313903d5347ab748a9")))
         (sha256
           (base32
-            "0iyijlyj1d7k5m9mk3blb4wlam652487jhayrmgfy25snqd8b0sm"))))
+            "1qdjx229x584qad4bhs6v23mmk4zjkcwbpap076lgbj3vg39cfzw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("lisp/*.el" "scripts" "templates")))
@@ -20112,17 +20112,17 @@
 (define-public emacs-default-font-presets
   (package
     (name "emacs-default-font-presets")
-    (version "20220214.2326")
+    (version "20220426.8")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-default-font-presets.git")
                (commit
-                 "1727055b59e21e91a5b72356968232e31a92f743")))
+                 "a7e6acc7a0b9f4c01fb4018e3d3d044475c83825")))
         (sha256
           (base32
-            "098s8s9j8gvzkkyx6ivd84bi0dmf2p6a3nlz215ljl43l97134pw"))))
+            "1x1g1zcp38b732z2gy1qsfyaysqh5ynq3ib69ak4vjr9np8pfz9x"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-default-font-presets")
@@ -20485,17 +20485,17 @@
 (define-public emacs-desktop-environment
   (package
     (name "emacs-desktop-environment")
-    (version "20220424.805")
+    (version "20220425.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/desktop-environment.git")
                (commit
-                 "c4b7680861cb47c4f9d020b13c82dc57c9304893")))
+                 "2863dc3d66aed9052c8af39cc8c8c264be300560")))
         (sha256
           (base32
-            "07fcmw446rxx31zhx7qzny745jcvjk86zsrfz7mwmmf7qpr9m8w2"))))
+            "1cn17igd9dwbqrds7k3p8lkfg4gq5vh6rqkmmjyagnaklj793van"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.petton.fr/DamienCassou/desktop-environment")
@@ -22272,17 +22272,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220425.524")
+    (version "20220426.315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "3e0a414df35742799759f71915443226574fc961")))
+                 "4c7628c2bab6b9109b1c2c63c4f2ac9a44f39a89")))
         (sha256
           (base32
-            "1k8lkv4071czpcbc1whz70mlg3bmkwzdk7jjg0jlqwg9qrg4vqy6"))))
+            "0ivrrk9w2q3va6ngbn0z865ibvsb92inxppfv69m9iwhyif7npb9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28779,17 +28779,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220424.240")
+    (version "20220425.1718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "5ad6fe2420fb29e5740e8acd8136c0aaa0b12921")))
+                 "19e0de0786f7d5db196ff1d5a459d39e265b2960")))
         (sha256
           (base32
-            "0a03kmz2cgn7j2qbqy7lray7g90mzsdz74gdmr3ny9y94k16g1ix"))))
+            "15z9rn8bjx2smpd8h6srvrbvhp5d901rm9xhn2cyiigfm6m9n1vw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -31902,17 +31902,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220424.2228")
+    (version "20220425.2132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "f75732de0ca5cae70f17dbc4bf7df03cb4ec491f")))
+                 "008a6cdb12f15e748979a7d1c2f26c34c84dedbf")))
         (sha256
           (base32
-            "0hfrdcgy8mvbhjzgy3i12kf50b53mnabisnadpcsp36wp5rslnmp"))))
+            "1hxhw1rsm0wbrhz85gfabncanijpxd47g5yrdnl3bbm499z1gsvg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -33382,17 +33382,17 @@
 (define-public emacs-evil-test-helpers
   (package
     (name "emacs-evil-test-helpers")
-    (version "20201008.1515")
+    (version "20220425.2132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "652d726ebd8cdfcac3e97a801721f33b5b832a0a")))
+                 "008a6cdb12f15e748979a7d1c2f26c34c84dedbf")))
         (sha256
           (base32
-            "0k5n5d37zjb542v6vrcz4n897cskfb82wm67xjnpddkzh7q6x562"))))
+            "1hxhw1rsm0wbrhz85gfabncanijpxd47g5yrdnl3bbm499z1gsvg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (arguments '(#:files ("evil-test-helpers.el")))
@@ -33617,17 +33617,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20220319.1652")
+    (version "20220425.2355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "63816d614e6e2112c2f26e65afd7440f022ba2ad")))
+                 "eafee31ca4f532a9dbee326d3ec3bdd1e997223b")))
         (sha256
           (base32
-            "1c0s9hsm5wisikgxzskmnkin0r2vs9yc5yhgkjrsrvaiiv05g9ip"))))
+            "1p8ghpj83smh1bh38ydhlpyaxfdx0f83wp4sdgzv3zxdfydmb4n9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -35224,17 +35224,17 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20220329.116")
+    (version "20220425.1900")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~technomancy/fennel-mode")
                (commit
-                 "50ef3c6246f36085cd908cf5432133cadb792304")))
+                 "da74dc0c9aca3b25820e19c122e632bab6bf32c6")))
         (sha256
           (base32
-            "0rk5x4ipam32aizdjinhbmb0cjg7wakdh78fnm60jc7a07175ip3"))))
+            "1af9rgmlvwviymaks0j72xxi59cyrlpyfhlc7wm8a08aqmm582f5"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -48561,17 +48561,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220423.1712")
+    (version "20220424.753")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "dc0c082a451cfe25d35ba3b9b0c0fc2766cc8319")))
+                 "2569c427f7cc2490e8ae2d9a849c9539ee1e4944")))
         (sha256
           (base32
-            "05dvjylsnmbmj70smjrbjm23qdrfvayf19cmdywxvp0na5w58hjb"))))
+            "0p2zlyz61f49838hch0ipzb84iz4yyxf3zjnc96pl2db4d9cvhbx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49369,17 +49369,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220423.1804")
+    (version "20220425.1625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "dc0c082a451cfe25d35ba3b9b0c0fc2766cc8319")))
+                 "2569c427f7cc2490e8ae2d9a849c9539ee1e4944")))
         (sha256
           (base32
-            "05dvjylsnmbmj70smjrbjm23qdrfvayf19cmdywxvp0na5w58hjb"))))
+            "0p2zlyz61f49838hch0ipzb84iz4yyxf3zjnc96pl2db4d9cvhbx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -66994,17 +66994,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220424.1824")
+    (version "20220425.1901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "fd1a431b3d50ab1426681bce2d5c4ff8c9c6301e")))
+                 "e16f9574aa2c9bb99d4e4a3e604b5d92d4822bd2")))
         (sha256
           (base32
-            "0min5y1513844ihc7yn111mrk3fs7z3gzp82gpn2il40fyizpmcl"))))
+            "0hbh8vvylln4zsym7f57gmnnz74wqk1csxfl0lm2gmfjdbp5b06y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69069,17 +69069,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220423.249")
+    (version "20220426.449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "f97b6f398b6b08576bc919835e1ab4872a8d5de4")))
+                 "26f2bd9ee7b63bcad6604108e2f565b34bc6083b")))
         (sha256
           (base32
-            "15gyrkqz5kc1dix035gjsc1l8mcy1xajlc3a1l51z5qnd5r36cfn"))))
+            "0bbmhgcx6266rljbw641c7q8q7ygz8i4xvk6zyaqwvmnq09xqfch"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -70107,17 +70107,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220424.815")
+    (version "20220425.1626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "1a9cd3c91b06ccfed2b8a81e197a49dffeb1e3f5")))
+                 "2144ef179bce8338b45f91a1d538c33e2f53771e")))
         (sha256
           (base32
-            "1amiwphy1ji8vid2758kyknmqgmz6fxrihqic8rcfqc66rdw8cn5"))))
+            "16slinn7ma9by7hld3iaqfzkvaz703517c43r231dyz1n8k72327"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -76290,17 +76290,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220327.2049")
+    (version "20220425.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "78a4f72e666a67486dd616b89f7318a8ae3c125b")))
+                 "af069f1df3cd0f7612083e4e6a5ddfb0dde07a5d")))
         (sha256
           (base32
-            "1f5fhwj9bm3i3rnaig3gp88lg5l0b5yq4anqid6479j7ig3g7w0i"))))
+            "1jq9gc3cxan3xd8z7nmv6xn0iwfhppgm65k3g7l7r9mhw0vzzy4n"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -87036,17 +87036,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220418.1555")
+    (version "20220426.235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "8e622b26e384148cbe18402370e4cbf3f00943b0")))
+                 "b867ea782bda6b7509dfa22dcfe6e2c83ced575a")))
         (sha256
           (base32
-            "0av03qmwdnh1svihlfjw2wpalhnlw02ji769bzkw50klmf6g12y8"))))
+            "1sf6nqnflq3wmkjnmdz1gw113b9srn64bkmwml80a96cl4jhplkj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -92922,17 +92922,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220422.2255")
+    (version "20220426.211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "b6eb72c8493b45a376203e29b012e77162283f3c")))
+                 "c77996088452a51957fb78ed000b303ba643544d")))
         (sha256
           (base32
-            "0hansyf44rrnffrcn53m3gwb4wrlw734a9gf1iq0d4vkcgvik64v"))))
+            "0wzk9dv3wpf3fsm7cnmrmma3xds2j47x745giw98999wj3rlx5nj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -105783,17 +105783,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220423.512")
+    (version "20220426.342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "1d1f247af491686fbe13dc8eae68190ee100e706")))
+                 "098b9213a3fd06e9e58382d9afc84e449881ca59")))
         (sha256
           (base32
-            "0gvwwb89pqh4frh18nvpr0x6xxqywwsyd529s0l2nd9p5rqyj9sb"))))
+            "0pjpkcy99ws3n61sx37sph5lyzxwcy7m999z08g82rfav9018yw6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -109678,17 +109678,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20220415.2237")
+    (version "20220425.1850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "ae853fd88557ec0918e117deb093356f918921e5")))
+                 "9e1a12a494537472fb1f9f9f23dc38b8bca1f9af")))
         (sha256
           (base32
-            "045g4csq8q2xs90msrfpxd8hzpydc20l63jf1i746s9lqnxakcrv"))))
+            "0bndwcpz2alzimlmkcpcdxsl5xvckks22xmqn78rkg9pscl10gjq"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
