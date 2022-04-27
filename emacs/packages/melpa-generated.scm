@@ -9877,20 +9877,20 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220422.1432")
+    (version "20220427.515")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "89a130f04bf04b0b1e5dac41fc640023db2ddc21")))
+                 "db771c7217b2c9cfd2716e67488a56966bc9b470")))
         (sha256
           (base32
-            "0sx274rwqw5cfa4crdfwy8gxbwmjnx0k02fa4qgzwda3xnp6l865"))))
+            "16fcqy5cprvbp02p6s79wasv9s6lk19404n3489mil4x68g6xr8w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-hierarchy emacs-tree-mode emacs-ivy))
+      (list emacs-tree-mode emacs-ivy))
     (home-page
       "https://github.com/beacoder/call-graph")
     (synopsis
@@ -11636,17 +11636,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220426.2014")
+    (version "20220427.506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "7506cc4613a5b71e5246fd83de347185b5d49c42")))
+                 "cfea755de682bb91dd59ef7e789d4d2bb170efe1")))
         (sha256
           (base32
-            "0k7gbdjz2rx5xfamd1k09w3391k7sj9514k1c8hsd2pgj7q7drd0"))))
+            "14grdqad54dafkw9svgyhqlgmfrji4afx4i44lnhq55cznnabcza"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -37758,17 +37758,17 @@
 (define-public emacs-flycheck-haskell
   (package
     (name "emacs-flycheck-haskell")
-    (version "20211223.104")
+    (version "20220426.2358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck-haskell.git")
                (commit
-                 "8110ef5a1953594d065b67df25d5f0c05c711df4")))
+                 "d92dea78fb8638f7c27a3eb925d84c669fb257dd")))
         (sha256
           (base32
-            "1qdgcykn2rdf9jj9pzd0zyk7pdcf9lr942hr6w3kmkc299qiajf8"))))
+            "0sv8k40h4qxlfwz2g8qzrri5vwwan5aadk9snaif10ix84zyfzbn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck
@@ -99912,17 +99912,17 @@
 (define-public emacs-separedit
   (package
     (name "emacs-separedit")
-    (version "20220315.1610")
+    (version "20220427.625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/twlz0ne/separedit.el.git")
                (commit
-                 "c3c493a700a9bf8078d65b23b9ae1aad3774b8d9")))
+                 "7657784eb37f8c06c05fdcd47fc0c400b96e4875")))
         (sha256
           (base32
-            "0dri9i2x62xy2zbgws719ivx9l39pjq01bxpnjzs9n69zx9il9ff"))))
+            "1nvpznh6hdj8ks53r38xfgys4dx7l1ma93qc8l5c4rjxqgv6jxl2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-edit-indirect))
@@ -104410,17 +104410,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220327.113")
+    (version "20220427.140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "279caa7aa99e7b5d6f2f9307b20e9fcb730ffb29")))
+                 "37422ad4a1a691207a273bc6500cdd1da092a2d9")))
         (sha256
           (base32
-            "1ilkyi7j1nj9g6xdvq8y85wk34qhb7zan5a1ds1q3nbmdzgxgmwj"))))
+            "1b7ii7l2l7s13cy9asdway9563cqv73dkni8f57fm61av16q5jxj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -105780,17 +105780,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220426.1153")
+    (version "20220427.253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "5454fcc2dfb586ad7b8f1752aef07aea83715ca5")))
+                 "ebba90fa4285b49027c3725041017093d2b70379")))
         (sha256
           (base32
-            "138la28afay6lhz7phnzx0b045ksiimv3cyj890fk0cfk7dr97lm"))))
+            "0n7lk2jp4kxvz0yaq5j1g6ba2ngpp4q04c46rbi60qbnw62q3d4v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
