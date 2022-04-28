@@ -9877,7 +9877,7 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220427.1629")
+    (version "20220427.2358")
     (source
       (origin
         (method git-fetch)
@@ -16155,17 +16155,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220423.417")
+    (version "20220428.559")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "8fab8a0061e030bf1d0d583f5b4da687df564d14")))
+                 "8d0e5a547dec6cde5111f1a314ba7ccccc22af21")))
         (sha256
           (base32
-            "0iapdwd3hnfgnkrvv7liavpa2kj5kmf88gy0lgwsng64jz6kymb2"))))
+            "0a6z4h9cfaipd2lzkk3psypdjiafzpdkbvwz72kqyfi1bbad24jx"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -27296,17 +27296,17 @@
 (define-public emacs-elfeed-score
   (package
     (name "emacs-elfeed-score")
-    (version "20220202.201")
+    (version "20220428.123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sp1ff/elfeed-score.git")
                (commit
-                 "3448413280d5e8fce0d8098476d246c6c584771d")))
+                 "419de17d681d75789271b8457509fa3f942eab54")))
         (sha256
           (base32
-            "0rkm3vyyklpcyaz7zs2a5azyf20bnbj9nd8ik3jgcg2lsd6jgj5m"))))
+            "1mx134xj9n73v55i0yjn86zn19sg93m95gqacs2c6dxzq1v3q14f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed))
     (home-page
@@ -28803,17 +28803,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220423.1631")
+    (version "20220428.19")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "cd40fe19c2b06eb0eae0177aaf1946410dd5e69e")))
+                 "70f720f914b78bd11f84b0790df5f125945dd50f")))
         (sha256
           (base32
-            "06aq02rfdhvl51rmv32mjpvmlm6fyij6b8rbc3qblsl3b46w30s9"))))
+            "01ykcq2w7z28zrmsw0097mnx58fym1qddsgl7sgs4l2933p5bqfy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -32099,17 +32099,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220425.851")
+    (version "20220428.524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "694c1b4201dce70e7a98bdf6d95cd1a08107fc97")))
+                 "205d43f1a033cba85a7c4966c78143971386f88d")))
         (sha256
           (base32
-            "0c1cvykflhzj7nm7sfzccz2gninj0xxcjnjv0y9fymkfbh9fx9zz"))))
+            "01llw04nw38yjw1354mfsz0a6p48gf6qjrm7n5ywvsx0163pdc68"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -61119,17 +61119,17 @@
 (define-public emacs-julia-repl
   (package
     (name "emacs-julia-repl")
-    (version "20220225.810")
+    (version "20220428.541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tpapp/julia-repl.git")
                (commit
-                 "603868544e4a96bbe7593a4db5d6752b43c8411e")))
+                 "ee4a33f8d0121d0092ae73e0c4c84db6a86ea55c")))
         (sha256
           (base32
-            "0pa18qmg58v2vlm1rfwg33i3c7xbi0sn5rhvy92x790jjq6zr3d5"))))
+            "12c2yni17dcj8c4iyzwyvph2s4s9gk35hddd6f0da9c33g9qi9wp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/tpapp/julia-repl")
@@ -84302,17 +84302,17 @@
 (define-public emacs-ox-asciidoc
   (package
     (name "emacs-ox-asciidoc")
-    (version "20211224.538")
+    (version "20220428.740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yashi/org-asciidoc.git")
                (commit
-                 "27bf9a3e900c782bd57719c81c0aa68d9a1e3b46")))
+                 "c8bc184f9088b76fdf1ce20e6e5d0a1588e1b327")))
         (sha256
           (base32
-            "1xz5qr1kfhc9r5krdvg4lqc39gdszip44qqwkrkj9jm8pw713yfq"))))
+            "0799wah7ywzpzjjhmqkyj9v8krzh0j6qa5gs4a7iwvp9r66jwcpl"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("ox-asciidoc.el")))
     (home-page
@@ -88743,17 +88743,17 @@
 (define-public emacs-pkgbuild-mode
   (package
     (name "emacs-pkgbuild-mode")
-    (version "20220423.602")
+    (version "20220428.556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juergenhoetzel/pkgbuild-mode.git")
                (commit
-                 "2fc38d30bd2a6b0333a5492fdc5c2dfbbc455653")))
+                 "8faee70e4640bd6ec1857651ec64e139e4dc2833")))
         (sha256
           (base32
-            "0a7a7mni3x9qvd2m17w4fnj5r9c9cv4w5khx2c3hf760cqijxf01"))))
+            "1a18kc2rjkgdm8s816pf3nrdjxkwi9yrvkvwwqbxg915rzyv9858"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("pkgbuild-mode.el")))
     (home-page
@@ -112475,17 +112475,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220422.320")
+    (version "20220428.200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "ee3879e469c792ae09933a2ca160b7979796b9e1")))
+                 "3e54374b3749e4885dc0de900f3d7a83b72536e1")))
         (sha256
           (base32
-            "02pc7hsag3dcil3hsh6sn42kdrvm41w7d93rwqb35lcls741i11z"))))
+            "03mln5985882c54pmhlcafaxdprda1i5fywfrrbbr0kyja40mcf7"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-undo-fu-session")
