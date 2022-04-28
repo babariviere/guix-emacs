@@ -2421,17 +2421,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220411.222")
+    (version "20220428.822")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "b2fc7db5432431e56babb3440c7a4aab8ff0744d")))
+                 "7d5a04b6beffcc96572d74304d58372a413a0076")))
         (sha256
           (base32
-            "1620wmakvgnar61np80jsr52gixxir70fmbf70kn2kv0ybza1ngw"))))
+            "1c3dj50py6ayi35l2pwk4wn4ivzq6fmcwz5ygkw7hhf2z0wji0kz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -3030,17 +3030,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20220408.921")
+    (version "20220428.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "a3d42262f518a52e221c038cca3c1630ea90db25")))
+                 "e982a7b74a681a8c2c823d8dcaafd185ab5f719e")))
         (sha256
           (base32
-            "0vxyqkhdsvl2rch0ln3jbrs6wn96lbwn5bhpgrvr93bh6lzq3zl4"))))
+            "13vnc9qkz2n121yf482sj19daxa262pnp49cy8p5cvrr75narh1r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -9994,17 +9994,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220427.1409")
+    (version "20220428.950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "29130e35225fa8e5f5ecc86f2ad2425f7ec3c35d")))
+                 "7f22485d61ddee0063493a25d9800c67421d8a0a")))
         (sha256
           (base32
-            "0c1npw9miivy13vcggmcqi8khfkmb6vx8n4lm1mvxpnnk70rxa75"))))
+            "1fcl74gvx0myz2hydd0jk36a96hc99yaq59z58ll41z98slc96ra"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -26507,17 +26507,17 @@
 (define-public emacs-el-secretario-notmuch
   (package
     (name "emacs-el-secretario-notmuch")
-    (version "20211214.1851")
+    (version "20220426.1905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~zetagon/el-secretario")
                (commit
-                 "aaf183877156c69bf5eb02832dc33a1908eb1091")))
+                 "c28a4f42829ed1f96a17abb63a8616216db913a5")))
         (sha256
           (base32
-            "0nj4axympsls5hnhkwlm0v2pnbm82yks03ndk5iqyf261x7rbhna"))))
+            "0s4smf6ldwivardvwnilg0p109dh51s04hqn6dna5qr9gal3ff26"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-el-secretario emacs-notmuch))
@@ -33216,17 +33216,17 @@
 (define-public emacs-evil-snipe
   (package
     (name "emacs-evil-snipe")
-    (version "20220403.1639")
+    (version "20220428.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hlissner/evil-snipe.git")
                (commit
-                 "1444065e3fb637ec3c976ce68a4679625713b1d5")))
+                 "c07788c35cf8cd8e652a494322fdc0643e30a89f")))
         (sha256
           (base32
-            "1lzjw22fmjhw1ivnn9053n3zicnb8k2jgwyzvyv6x29fvqhw5xgb"))))
+            "06zhpsmn67f2n0f2yqzcv978l10nkvdr25kkl3cwkhhj9a56x62g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -59983,17 +59983,17 @@
 (define-public emacs-jenkinsfile-mode
   (package
     (name "emacs-jenkinsfile-mode")
-    (version "20220414.542")
+    (version "20220428.1113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/john2x/jenkinsfile-mode.git")
                (commit
-                 "169f7a9aaabe5e0763b53f07e60c20f5d64741c7")))
+                 "fa5545be1329df3067dcfd81749bbd99df070d6b")))
         (sha256
           (base32
-            "1vaqwsapnzg728vjk546p4zdhqwc0psxs3k8fa6yhiy8x6iqb82r"))))
+            "1cg1k3c4k21im499i09yajqhh20igmd2riyia8y65swvvksnzyrc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-groovy-mode))
     (home-page
@@ -76003,20 +76003,19 @@
 (define-public emacs-npm
   (package
     (name "emacs-npm")
-    (version "20220222.1650")
+    (version "20220428.839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shaneikennedy/npm.el.git")
                (commit
-                 "45d8084aeafae415dc45ddc9c3a18b546315fcc6")))
+                 "6eb0a58274870dd75bf848cf5a916a9f2c6ddae5")))
         (sha256
           (base32
-            "1iai69sdjfl9ynif7cbg654r8wdcjlkk8w8qzd2x4wxg72bfa2d2"))))
+            "1shl3ixvbfs84cw62dh0xzc0kacpbvrg49qnbkyvk9kn91x6k9c1"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-transient emacs-jest))
+    (propagated-inputs (list emacs-jest))
     (home-page
       "https://github.com/shaneikennedy/npm.el")
     (synopsis "Run your npm workflows")
@@ -77980,17 +77979,17 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20220411.525")
+    (version "20220428.1039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-oblivion-theme.git")
                (commit
-                 "d46983d69d75d8db6284ad297b17eedc495be2eb")))
+                 "f2217357bc446b27292d1c0ad6cfe2e331ccec14")))
         (sha256
           (base32
-            "1wgv1hjm7xsy4f0xgh2ndiknxxbr4scrvzvqqz530f3nxx00hwz9"))))
+            "03gzcwkb17flfb9kbyips7m3y8ff94gxqsi1h5ilzb10xa4xwzbq"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-oblivion-theme")
@@ -82326,17 +82325,17 @@
 (define-public emacs-org-static-blog
   (package
     (name "emacs-org-static-blog")
-    (version "20220110.739")
+    (version "20220428.923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-static-blog.git")
                (commit
-                 "a1a1738b14dfb73be759023e2bd3dffb0792ebeb")))
+                 "f74c93cdb84af627543d4ac08d5671f311277ebb")))
         (sha256
           (base32
-            "18c4kjmab089073npcvh1qi4g6m9yqyb0ifm96nay7rivw4rchj2"))))
+            "1ry353lynq63qv4ivymmys1r2br22sh2hvg7927hixqwj5r5nqvm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/org-static-blog")
@@ -107800,17 +107799,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220427.1457")
+    (version "20220428.533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "b099766ebf1876d15cb8722427abb997fc33b8b3")))
+                 "b7db8720ad136555342cc87912ea539098dccc4e")))
         (sha256
           (base32
-            "14agxr4p0l665bgpnaqnd0wh7114fdaq52jvwivz42g8sf8l62wg"))))
+            "10wrn1khhav8h5f52vyfi3mwbj6q8fkz4980r6rnm941kpiwnikx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
