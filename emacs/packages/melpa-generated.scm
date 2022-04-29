@@ -8186,17 +8186,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220427.1409")
+    (version "20220428.1655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "dee07acd2064022e66e1c9317398418f14b9b839")))
+                 "1a1782a43033cf173300b6a9d7bb97a670b54c0e")))
         (sha256
           (base32
-            "0apvykak46hb4crz4714d3zsnnrk4qssflsmlvqs83y2cbz4g2z2"))))
+            "1762wxf9mch2knzdhza3ccwgc9az98j8v26yinsc1znwr75w79qh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments
@@ -28803,17 +28803,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220428.19")
+    (version "20220428.1635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "70f720f914b78bd11f84b0790df5f125945dd50f")))
+                 "ed20d8fbb517f55135a5309f468f971c73f7b4a1")))
         (sha256
           (base32
-            "01ykcq2w7z28zrmsw0097mnx58fym1qddsgl7sgs4l2933p5bqfy"))))
+            "1wqks1n1mqbmv5w99s2dqf1y0v6xg4csyxv7l7wlri0ryhf3ar00"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -32099,17 +32099,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220428.524")
+    (version "20220428.1648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "205d43f1a033cba85a7c4966c78143971386f88d")))
+                 "b0c0bfb1c66efb8b2757b0955d0181ad9e7bc4ef")))
         (sha256
           (base32
-            "01llw04nw38yjw1354mfsz0a6p48gf6qjrm7n5ywvsx0163pdc68"))))
+            "00nvc4lblfckg7r3n8sa09l48nw0pwarvp3nbsy5assaxy5c2rxp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -65928,17 +65928,17 @@
 (define-public emacs-llama
   (package
     (name "emacs-llama")
-    (version "20211118.1847")
+    (version "20220428.1405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~tarsius/llama")
                (commit
-                 "22278a95474ccd665f84c16aa8760534ced9b150")))
+                 "adc5d169fad53d6d11000a72dc95f8489a8c7534")))
         (sha256
           (base32
-            "1f5hnimnz9vjwnqk0m07g6rrhnxbv84mdybxiblzqgbgrh7x0cx3"))))
+            "1c1yvndzs7lry8nw1bhks4vjlvbjg1fikcpf3xdlfahahp3w1dh9"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~tarsius/llama")
     (synopsis "Anonymous function literals")
@@ -78332,17 +78332,17 @@
 (define-public emacs-ol-notmuch
   (package
     (name "emacs-ol-notmuch")
-    (version "20220422.1623")
+    (version "20220428.1337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~tarsius/ol-notmuch")
                (commit
-                 "1e0176fe6315f2e8d80338c6570adf9bbca7ade0")))
+                 "744399e054ef3a19f66418fdb98ef9ad139cc3b5")))
         (sha256
           (base32
-            "1j3sv3x9jdkdqbaj0zl7sfhlrp5aib89d7zgzhcsnysi6rgc5ncd"))))
+            "0mxhnh64arm8dlna88ml9x9grm0v4fh1zbk1pfav957fxwx9l9dm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-notmuch))
