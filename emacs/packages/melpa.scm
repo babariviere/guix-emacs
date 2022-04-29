@@ -135,4 +135,5 @@
            emacs-geiser-guile
            g/emacs-bui
            g/emacs-magit-popup
-           g/emacs-edit-indirect))))
+           g/emacs-edit-indirect
+           g/emacs-transient))))
