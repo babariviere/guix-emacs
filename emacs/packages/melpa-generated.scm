@@ -16155,17 +16155,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220428.559")
+    (version "20220429.716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "8d0e5a547dec6cde5111f1a314ba7ccccc22af21")))
+                 "9d7282c2b3cce2753b8093b722e320d171c4a20e")))
         (sha256
           (base32
-            "0a6z4h9cfaipd2lzkk3psypdjiafzpdkbvwz72kqyfi1bbad24jx"))))
+            "1xlwdg1xs5s257c36hqi7gn4rsl6yyy86s4kip2wal0hc1a60r43"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -42286,17 +42286,17 @@
 (define-public emacs-gams-mode
   (package
     (name "emacs-gams-mode")
-    (version "20210701.36")
+    (version "20220429.238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShiroTakeda/gams-mode.git")
                (commit
-                 "64e3544726b77f10becb58a51d61993fbba433af")))
+                 "7505c59eecd3d42c2ce38aa08da196165eeb89d0")))
         (sha256
           (base32
-            "1sn893lnqfr13p1m2g36i6f0ikpibhp7q7ak5271fhpzjzh0fi1r"))))
+            "0bfqbmmrv8qxmg2j15gb6z5w6jqkhgkq3ga6i0jcm9c7d3wn4j9s"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("gams-mode.el" "gams-logo.xpm")))
@@ -57484,17 +57484,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220412.538")
+    (version "20220429.359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-inkpot-theme.git")
                (commit
-                 "8e5c3ce6269debfe7879dfa33a82a4f63c881720")))
+                 "0b7e425e82053b2f230060595df252994cd6d9eb")))
         (sha256
           (base32
-            "1q3j1vfyh0a5fmqayz6q6znwszmkpbyv717lzqpjlll4yj8bzw37"))))
+            "0yk40090qdmx202pci8fg6fxgzm70amjv6ra9rsjksl30b2q8nlg"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-inkpot-theme")
@@ -77979,17 +77979,17 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20220428.1039")
+    (version "20220429.116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-oblivion-theme.git")
                (commit
-                 "f2217357bc446b27292d1c0ad6cfe2e331ccec14")))
+                 "37e562b92cebafbc38ea817ac7bdf7b41576eeca")))
         (sha256
           (base32
-            "03gzcwkb17flfb9kbyips7m3y8ff94gxqsi1h5ilzb10xa4xwzbq"))))
+            "1hvz4aji4m5r0073bn7c5s9lmzckh5vh6bv3lpxagwal0z3vym0q"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-oblivion-theme")
@@ -104406,17 +104406,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220427.140")
+    (version "20220429.126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "37422ad4a1a691207a273bc6500cdd1da092a2d9")))
+                 "1405b4f050f8181b8bcbe2951760e6c5b68b08c7")))
         (sha256
           (base32
-            "1b7ii7l2l7s13cy9asdway9563cqv73dkni8f57fm61av16q5jxj"))))
+            "0l0kpmf3acsxr1xbq8kzfs72232vm2szjx9q8w2s982jfwqsfrxr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -115081,17 +115081,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220427.1536")
+    (version "20220429.21")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "0d9cabc994e3749611f0282e3f7f0baabda618d3")))
+                 "b44723552f86407d528c4a6c8057382c061b008e")))
         (sha256
           (base32
-            "01rd40hrz494d2zbnx9b856ibvja9bsb4ssbzp07jla84rj4n6dq"))))
+            "0rq2skwylvc7s4vfpbbsdykws4akyp9sc6xgrh2ql5yydhhnv2h3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
