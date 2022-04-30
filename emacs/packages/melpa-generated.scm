@@ -9994,17 +9994,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220429.1945")
+    (version "20220430.1439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "5c96c5cdff72b93ca4adea5e36da51fa87d03eb6")))
+                 "640e53f909f6702ff8a9069f4d250f8d936cfe7f")))
         (sha256
           (base32
-            "0l4jw2ylpx437f8j6ijxaw748gmdlwgpz4gk2k0w88agm71ycv11"))))
+            "10g2gxy39m1r8adnmd17lqkijv61xy5wdnhnmvlprrdnkzginncl"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -66627,17 +66627,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220425.1211")
+    (version "20220430.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "a1336f196daf6048c48681f5fe3e77bf46fd5a1d")))
+                 "7ca60ce9a703ad7a950dcd5ec36ef4251f57d207")))
         (sha256
           (base32
-            "1pxq6vk58pf5gzyywyd1vpqnpr7c3vv53acjfv6fwgddzvpi8zcn"))))
+            "1snsnd9pgq2lz3avypps73qfdl3ky2i5sx04sybj7gj41yz834bc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -66989,17 +66989,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220429.647")
+    (version "20220430.1115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "d1178661020d0c1710963dcefe02fa5bf2f91bad")))
+                 "03ac31f352fdc07f770314404ccaffe52a640cbb")))
         (sha256
           (base32
-            "0i2mfz3889zndgbha37f606s7wgif09hi73yhv0a5vlr70n1k5hs"))))
+            "1739pam7f89rasz0jy3msc5kzrbky4yy6kyr3j5395h7fhp12c88"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67847,17 +67847,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220429.1809")
+    (version "20220430.919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "622626ef6239018698471e46e6b3ec4530061ea3")))
+                 "2235876dd86f24530ec415c30e41a34cec2a8520")))
         (sha256
           (base32
-            "01cv5wlkcylir0wpx911din1d0cw4v7gglqc79bgypv40r4k97pl"))))
+            "0hppbw980snzhyl9krgpswpwzcn4mkfr123f2fz7blprmk15svhq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -91458,17 +91458,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220419.1102")
+    (version "20220430.800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "b014d79f5bca2103cf055b27334ad89f007a6ac8")))
+                 "a4f86f981c84a546530d5904253fa266431ef806")))
         (sha256
           (base32
-            "00pj2mi8j6whha2s7kra2pwb1blqgj8327cfpxm36n2b96gs8wpq"))))
+            "02303v7y79vdl4n2qga42892cqd5hdajwzp4vk3a4fxcyl8yhv8k"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("projectile.el")))
     (home-page
@@ -105776,17 +105776,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20220427.253")
+    (version "20220430.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "ebba90fa4285b49027c3725041017093d2b70379")))
+                 "58018a1747273df23dec08ec5d318da1960428c1")))
         (sha256
           (base32
-            "0n7lk2jp4kxvz0yaq5j1g6ba2ngpp4q04c46rbi60qbnw62q3d4v"))))
+            "0jbj24pbc07gjb6zk29yzjrd80c4aaqfp2mffc4qqisws0f8gfvb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -108351,17 +108351,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220430.339")
+    (version "20220430.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "e4bcf5b08d7e15f7b606bf1976f9e18f74b3d5f2")))
+                 "1ce581e30455b113d9c8358e79952134ca2e0356")))
         (sha256
           (base32
-            "1ldy3frrr1n151fr82yczi6k43lp8z6ywcb5cmziq0jnz8d702rj"))))
+            "1i5vaxfinmj5zrrh80yjjd61sncxvjkb90g2wwa65h3icpa9vvyr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
