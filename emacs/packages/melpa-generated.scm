@@ -7381,17 +7381,17 @@
 (define-public emacs-binder
   (package
     (name "emacs-binder")
-    (version "20211030.511")
+    (version "20220429.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/binder.git")
                (commit
-                 "8cefdf0959f0da33250044cf4890b69cfdcf0c5b")))
+                 "127463a7cb8cc2fa9904d3feb3fca95d2244ddcc")))
         (sha256
           (base32
-            "0q4cz07s8qzkvnym7ab2l111dk88nfigpf0r3x0jcxx2qivs52s4"))))
+            "00nizafvpbhzkc5vnwdgrg5f208gwap79av2ayj8zp76fi718yfk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rnkn/binder")
     (synopsis
@@ -9994,17 +9994,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220428.950")
+    (version "20220429.1945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "7f22485d61ddee0063493a25d9800c67421d8a0a")))
+                 "5c96c5cdff72b93ca4adea5e36da51fa87d03eb6")))
         (sha256
           (base32
-            "1fcl74gvx0myz2hydd0jk36a96hc99yaq59z58ll41z98slc96ra"))))
+            "0l4jw2ylpx437f8j6ijxaw748gmdlwgpz4gk2k0w88agm71ycv11"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -35224,17 +35224,17 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20220425.1900")
+    (version "20220429.1636")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~technomancy/fennel-mode")
                (commit
-                 "da74dc0c9aca3b25820e19c122e632bab6bf32c6")))
+                 "90498bd9c8dac2749baaddb605d35370aa79ba15")))
         (sha256
           (base32
-            "1af9rgmlvwviymaks0j72xxi59cyrlpyfhlc7wm8a08aqmm582f5"))))
+            "1793gakvc7rdjx2f41f3wlk10l34577dwrrlw82rp6gy668x6zw5"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -41820,17 +41820,17 @@
 (define-public emacs-fsharp-mode
   (package
     (name "emacs-fsharp-mode")
-    (version "20220423.1321")
+    (version "20220429.1847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "13022af44d68525870b15bcdfdc3391e71c6ae1b")))
+                 "5208b54098c7534f4768b87c5f4c8a01b638737b")))
         (sha256
           (base32
-            "00s39sahlnv93a95npj9zjxscggz6g03knsinqmylvixwzgsd4vl"))))
+            "04s37djxzy8v5xwc5hh8gq37zh7f6ih3y07g07q2fc39rk1xslpd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43284,17 +43284,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20220427.954")
+    (version "20220429.1708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "d86128db0e0cd2625e6189fbaaef97d97770914f")))
+                 "f3a26544575303e86b423a3406656f0e5a576d67")))
         (sha256
           (base32
-            "1npjpl3h86kk8ql2q59c2nd5w31rrbzcyslx1ml2iy8kbj301qyb"))))
+            "1ha1mcrgnckz04hq2vslcdd60m0dqqrcbqj2h601wmv8qrf6m5hz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-treepy))
@@ -66862,17 +66862,17 @@
 (define-public emacs-lsp-jedi
   (package
     (name "emacs-lsp-jedi")
-    (version "20220407.406")
+    (version "20220430.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fredcamps/lsp-jedi.git")
                (commit
-                 "b22927b2b51bde8692e70ea60cbb90ff4bfaffb4")))
+                 "5e3eb3e160c2d38b8bd2b5cd3b86fa4f823f9330")))
         (sha256
           (base32
-            "1aadck54fx2f907wi0bm9bwrhjf9ivzfyrrgp50m8a4yjnh9acfv"))))
+            "0kax988drrzsx103v71bz4vczh4bg0n80arrzm4r6sgrk01219j0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -67847,17 +67847,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220429.934")
+    (version "20220429.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "eef732e30b9409e1b3c96edf2a62c764be86097c")))
+                 "622626ef6239018698471e46e6b3ec4530061ea3")))
         (sha256
           (base32
-            "1aj9ci2la1vvwa6hxw67h3daa9h09raxj7b8krnvsmwsv220is73"))))
+            "01cv5wlkcylir0wpx911din1d0cw4v7gglqc79bgypv40r4k97pl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -68173,17 +68173,17 @@
 (define-public emacs-magit-libgit
   (package
     (name "emacs-magit-libgit")
-    (version "20220429.934")
+    (version "20220429.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "eef732e30b9409e1b3c96edf2a62c764be86097c")))
+                 "622626ef6239018698471e46e6b3ec4530061ea3")))
         (sha256
           (base32
-            "1aj9ci2la1vvwa6hxw67h3daa9h09raxj7b8krnvsmwsv220is73"))))
+            "01cv5wlkcylir0wpx911din1d0cw4v7gglqc79bgypv40r4k97pl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-libgit emacs-magit))
@@ -68192,7 +68192,7 @@
         ("lisp/magit-libgit.el"
          "lisp/magit-libgit-pkg.el")))
     (home-page "https://github.com/magit/magit")
-    (synopsis ".")
+    (synopsis "(POC) Teach Magit to use Libgit2.")
     (description
       "Documentation at https://melpa.org/#/magit-libgit")
     (license #f)))
@@ -68320,17 +68320,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220429.934")
+    (version "20220429.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "eef732e30b9409e1b3c96edf2a62c764be86097c")))
+                 "622626ef6239018698471e46e6b3ec4530061ea3")))
         (sha256
           (base32
-            "1aj9ci2la1vvwa6hxw67h3daa9h09raxj7b8krnvsmwsv220is73"))))
+            "01cv5wlkcylir0wpx911din1d0cw4v7gglqc79bgypv40r4k97pl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -68341,7 +68341,7 @@
          "docs/magit-section.texi"
          "Documentation/magit-section.texi")))
     (home-page "https://github.com/magit/magit")
-    (synopsis "Sections for read-only buffers")
+    (synopsis "Sections for read-only buffers.")
     (description
       "Documentation at https://melpa.org/#/magit-section")
     (license #f)))
@@ -94153,17 +94153,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220422.1410")
+    (version "20220429.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "db8b07a634b10db56ad7bb8c914fd2b9479b2ac5")))
+                 "e878810ce83f1a6f8903e7614e25cc90454679d5")))
         (sha256
           (base32
-            "1ancsj25ac7hq7h6knbyc0c663vbhxrqxm7r35fwysh6a11lkk16"))))
+            "15hvy9wgiwqg2dhp9i6xbf60qk4kdpyalwz9iq1n9n2j8cwcfwj6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -95693,17 +95693,17 @@
 (define-public emacs-redis
   (package
     (name "emacs-redis")
-    (version "20150531.1948")
+    (version "20220429.1758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-pe/redis.el.git")
                (commit
-                 "2c33f3397bc14e7a8192867b55920492d4eead8c")))
+                 "a6ad30d6a43b7be083c13f8725b45571d623001a")))
         (sha256
           (base32
-            "1rjpf23a8rggjmmxvm1997d3xz03kz84xams486b9ky0n2v02d57"))))
+            "048jvvxb6cskhs95n2ngl4cfgf8hbqidvbi1xsyb0gyzvvqbrhj1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-pe/redis.el")
@@ -109473,17 +109473,17 @@
 (define-public emacs-tide
   (package
     (name "emacs-tide")
-    (version "20220314.930")
+    (version "20220429.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ananthakumaran/tide.git")
                (commit
-                 "b93e555858edc331ba33d1d8bd4582d578c7ca31")))
+                 "83c34c636f47cb0c10c7d1a728fa308bfec40890")))
         (sha256
           (base32
-            "0il0rdg6qk4bdpq86hxzwbv1rgwn028v72i3xh2kg6xsmpil4f0z"))))
+            "19yg6zij9jx39d8b6c41ipa0z99q0af4l59pmnpxv8pfadxvi9qg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -119864,17 +119864,17 @@
 (define-public emacs-zetteldeft
   (package
     (name "emacs-zetteldeft")
-    (version "20220331.1903")
+    (version "20220429.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/EFLS/zetteldeft.git")
                (commit
-                 "9309bdb1cba8120b43158c09da86727c6bd42373")))
+                 "86dd346be4bdddd6ac8d47503355fea350098271")))
         (sha256
           (base32
-            "1nnq9zsf2whfmd8bm1razsvc00ljgkky840h9ara64wggrh9sli9"))))
+            "1s9gnsd3gj6wpv1vc3l2hhz4ccmfq6wvxcn3qj011pgz7y557iz9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-deft emacs-ace-window))
