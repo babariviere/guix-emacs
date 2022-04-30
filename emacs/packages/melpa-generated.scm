@@ -20112,17 +20112,17 @@
 (define-public emacs-default-font-presets
   (package
     (name "emacs-default-font-presets")
-    (version "20220429.1318")
+    (version "20220430.135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-default-font-presets.git")
                (commit
-                 "a88995d492d0babceab703bb4235be1e3dd09ba8")))
+                 "ea79012408f99bd1ee952f22bee59c22c124fdd6")))
         (sha256
           (base32
-            "0b11njjaf28p3fvzbpyhmxrcj0ssnks8a7fqkzvp52jlb45v19am"))))
+            "0lcan78ch67pdlgibdnqg1av6yj20w9cnd2hiv8am8kf3vzx7dx7"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-default-font-presets")
@@ -22272,17 +22272,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220429.1251")
+    (version "20220430.436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "90adc0364cf43c1a1edb32452a3925ccf4083ef0")))
+                 "5e2335601608f230f166d7f3a5418d43206141d7")))
         (sha256
           (base32
-            "0klynwhkvbfdx7fmiaq89j3r5s1539xzd8pnjqsrrffikffv1jbg"))))
+            "1lip0qc1bywvl2g3vf61qmq0l5mmk2k3bw773mr4vslvsicc7wfg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -35607,17 +35607,17 @@
 (define-public emacs-find-file-in-project
   (package
     (name "emacs-find-file-in-project")
-    (version "20220125.726")
+    (version "20220430.107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/find-file-in-project.git")
                (commit
-                 "204b3d489a606c6e7b83518e46be3bbcef1bcb3d")))
+                 "116b976b526680c038109882d5cd2d9f218b62a5")))
         (sha256
           (base32
-            "0h22rh88i11sz0kh1pq9fc9w58lja00xrany6mcy1hr6l0wy2g5h"))))
+            "0sq8fyq19jw1hm0m6hiqnvzzvx0c3xigfx7x6i40ib5hnfjlqs0a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/redguardtoo/find-file-in-project")
@@ -66862,7 +66862,7 @@
 (define-public emacs-lsp-jedi
   (package
     (name "emacs-lsp-jedi")
-    (version "20220430.1")
+    (version "20220430.18")
     (source
       (origin
         (method git-fetch)
@@ -108351,17 +108351,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220415.2157")
+    (version "20220430.339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "2394b4a3d45a60a32e0d97867dffe3790cf8c6d7")))
+                 "e4bcf5b08d7e15f7b606bf1976f9e18f74b3d5f2")))
         (sha256
           (base32
-            "13mqvlpr6wszm2143nm19qka0lmr7dnpn40npcr65vlcg3cycfq9"))))
+            "1ldy3frrr1n151fr82yczi6k43lp8z6ywcb5cmziq0jnz8d702rj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
