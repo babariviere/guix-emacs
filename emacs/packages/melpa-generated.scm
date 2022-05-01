@@ -16155,17 +16155,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220429.800")
+    (version "20220430.1945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "9d7282c2b3cce2753b8093b722e320d171c4a20e")))
+                 "c1ad36a582ebb6e11bee37e3040070a75c8f0799")))
         (sha256
           (base32
-            "1xlwdg1xs5s257c36hqi7gn4rsl6yyy86s4kip2wal0hc1a60r43"))))
+            "1cinmkvc3z02z0lal63p8qdnra3c1rf82zj9ml18wgh86ghcw2jm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -24072,17 +24072,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220320.1338")
+    (version "20220424.1300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://gitlab.com/niklaseklund/dtache.git")
+               (url "https://git.sr.ht/~niklaseklund/dtache")
                (commit
-                 "e7d143df8a8f88cbbe0fa023cd1fc30219598d88")))
+                 "aee3289eb1e1c3c31ca2f9a4f5323aeb4feed262")))
         (sha256
           (base32
-            "02bpghhjcgfgcrlkvsrj652ki558pf9q5vj6j056lalfhcrckpvd"))))
+            "1d2vpl1fp0hsw4r1rvnk8vm04p0k66alvmwkglwf243lbb425r2g"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -25012,17 +25012,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220426.2044")
+    (version "20220430.2219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "a338d8b2007e9353a5ced6c98f12f3332e153f12")))
+                 "0e243a78f435038dda31953c5b48cbddf2a89e27")))
         (sha256
           (base32
-            "0b8nb0pwpq0j5g7rgmdhjp4g9za4ppzxp7b3swkqr06vvhn7db7v"))))
+            "14br20mzxg84l8nbzglkwvam9ac1xlkdm6dpdfxw5ri6lkcd2bpf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -31902,17 +31902,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220425.2132")
+    (version "20220430.2239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "008a6cdb12f15e748979a7d1c2f26c34c84dedbf")))
+                 "b799fca7adc70536c0c832cb297ce2b8cfe2ae96")))
         (sha256
           (base32
-            "1hxhw1rsm0wbrhz85gfabncanijpxd47g5yrdnl3bbm499z1gsvg"))))
+            "06ws7sprlvj773fpjk2wny14676dsxbwzqg6m6fxrp7r8l3784qg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -32099,17 +32099,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220429.948")
+    (version "20220430.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "e696e1e925a4958ee79ad3b09f60895de6d01882")))
+                 "c8366be12490b1cf9b4e5dff05522e416bb2ba9c")))
         (sha256
           (base32
-            "1lczdgyinxcb3p8r3fqa7adnrfrxnm2hlbx7a0460x236wnj4mxs"))))
+            "1z6sd0p9xxycik99vpx8qrwjs0sy824vjngc462f8vyp972p4spp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -47167,17 +47167,17 @@
 (define-public emacs-grip-mode
   (package
     (name "emacs-grip-mode")
-    (version "20220323.1519")
+    (version "20220430.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/grip-mode.git")
                (commit
-                 "3146ad1df0b629addb20dcc9c0a3b9e44c610efe")))
+                 "7fa9e9e6b650f7a6c026b7e24c2af171e8818667")))
         (sha256
           (base32
-            "16l6aaffh8yhj59gwzn4aydc81d7vyqcavg4blvg593wvznmirwi"))))
+            "0jhdj6hvfv5psq5xixjjr13i92q5a2fkibzw25dz5c1f4ky0crcl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/seagle0128/grip-mode")
@@ -70102,17 +70102,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220425.1626")
+    (version "20220430.2010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "2144ef179bce8338b45f91a1d538c33e2f53771e")))
+                 "0f85569e9561c791608803cf019bdbf7d60a389d")))
         (sha256
           (base32
-            "16slinn7ma9by7hld3iaqfzkvaz703517c43r231dyz1n8k72327"))))
+            "1jabxwb0dhajj0biw5yr7hd5wp7zisg4nwix39pphvyghqb01n7j"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -75472,17 +75472,17 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220420.2256")
+    (version "20220430.2218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "c72ffc99c477f22959451c8b548b11c238c9864d")))
+                 "d9c3adc777fc7cf7a76e8349b2d462f87d5244da")))
         (sha256
           (base32
-            "11jxfa0jfn8j22r428c1xlkkbplrslcnsc5802fpgzni0kk0jlf6"))))
+            "18gr4hswlxfd12751gsvmxamwd4nhbnf95ww2iwpwvj9fvs8wsn1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash))
@@ -84415,17 +84415,17 @@
 (define-public emacs-ox-gemini
   (package
     (name "emacs-ox-gemini")
-    (version "20220417.1906")
+    (version "20220418.1433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~abrahms/ox-gemini")
                (commit
-                 "d0f2cabb2bca341494690fee4e652f926203ed9d")))
+                 "168f820ea401fb813435a3a55af295873a4c110b")))
         (sha256
           (base32
-            "063vgm4as9i2w28fikq35xjhx8j4cnnwhj6l812pdxfxcr82dwdj"))))
+            "0jmiya3f9vv4v64p5kxla6wiiyv4wg4w7f4a6zmdrjcn11hflqmm"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~abrahms/ox-gemini")
@@ -96609,6 +96609,32 @@
       "Documentation at https://melpa.org/#/restclient-helm")
     (license #f)))
 
+(define-public emacs-restclient-jq
+  (package
+    (name "emacs-restclient-jq")
+    (version "20220426.1734")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/pashky/restclient.el.git")
+               (commit
+                 "ae79e7dd283890072da69b8f48aeec1afd0d9442")))
+        (sha256
+          (base32
+            "0hbxrwp8nqd12x9z9krddlcm9b9adjzp1az90ywyr1a30bdmv5sk"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-restclient emacs-jq-mode))
+    (arguments '(#:files ("restclient-jq.el")))
+    (home-page
+      "https://github.com/pashky/restclient.el")
+    (synopsis
+      "Support for setting restclient vars from jq expressions")
+    (description
+      "Documentation at https://melpa.org/#/restclient-jq")
+    (license #f)))
+
 (define-public emacs-restclient-test
   (package
     (name "emacs-restclient-test")
@@ -104271,17 +104297,17 @@
 (define-public emacs-spacemacs-theme
   (package
     (name "emacs-spacemacs-theme")
-    (version "20220128.1519")
+    (version "20220430.2248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nashamri/spacemacs-theme.git")
                (commit
-                 "a09347a354a14f5407e99fa730e01345d03e03fd")))
+                 "bd376f705d6eb7afd9a1dfa0c1bd407e869d1e9f")))
         (sha256
           (base32
-            "0nnc6pk5jjx4yhadcph9q9aqb0ks8gs9ybhd32wm32653518hmv4"))))
+            "1kxnnmnj7pbli7lybxvhhd63q376i65il8zxnjig0p13pyh5j1mv"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -106900,17 +106926,17 @@
 (define-public emacs-swiper
   (package
     (name "emacs-swiper")
-    (version "20210919.1221")
+    (version "20220430.2247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "1c6b3da377a840e898b14020133f59fca9ceea1c")))
+                 "8bf8027e4bd8c093bddb76a813952d2a0dcbf21d")))
         (sha256
           (base32
-            "1w8x2qk8lafnn6ksv1anixayyl476y1j6hp2amfnqmdkh0vnh63v"))))
+            "1rdv8r6zw0lziycwv5kd2yyflfwby4gnqgfvv67b1y2l3psjwp94"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (arguments '(#:files ("swiper.el")))
@@ -107799,17 +107825,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220428.533")
+    (version "20220430.2143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "b7db8720ad136555342cc87912ea539098dccc4e")))
+                 "a021485c38be1b5fd728f1a077943696945e9368")))
         (sha256
           (base32
-            "10wrn1khhav8h5f52vyfi3mwbj6q8fkz4980r6rnm941kpiwnikx"))))
+            "10554kcjzwvxng4lhiwhfi8zaix0jm9s9g9gz4x2d7mzy8nmqhk9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -117678,6 +117704,29 @@
       "save&load multiple named workspaces (or \"workgroups\")")
     (description
       "Documentation at https://melpa.org/#/workgroups2")
+    (license #f)))
+
+(define-public emacs-workroom
+  (package
+    (name "emacs-workroom")
+    (version "20220421.1340")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://codeberg.org/akib/emacs-workroom.git")
+               (commit
+                 "fd6edce3726747723b50ec74584032006768640f")))
+        (sha256
+          (base32
+            "1f8cwvnvrw6ihfp9lx2w2m6nx2z1xaa2iizbk5frrxbqpagf030k"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://codeberg.org/akib/emacs-workroom")
+    (synopsis
+      "Named rooms for work without irrelevant distracting buffers")
+    (description
+      "Documentation at https://melpa.org/#/workroom")
     (license #f)))
 
 (define-public emacs-world-time-mode
