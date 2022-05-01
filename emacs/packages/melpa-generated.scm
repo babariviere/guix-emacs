@@ -11636,17 +11636,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220429.1351")
+    (version "20220501.151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "9bc6a18f94bcce7d6412649b0aeffe588c4844fa")))
+                 "af1ab5677fd6570eba08a57aa2b3cd02ce54d339")))
         (sha256
           (base32
-            "1r4c8ad08yx4ly7fag22zr1irqisgc3m77khys5ky7bg4w7m3xph"))))
+            "0xjcalxgylczfy01yq111zab1z80ghnq79irl17b594abbzpq4x2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
