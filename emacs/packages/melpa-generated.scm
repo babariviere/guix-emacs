@@ -16155,17 +16155,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220430.1945")
+    (version "20220501.832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "c1ad36a582ebb6e11bee37e3040070a75c8f0799")))
+                 "a568960aa2603e1c976d11b826110e21e743526b")))
         (sha256
           (base32
-            "1cinmkvc3z02z0lal63p8qdnra3c1rf82zj9ml18wgh86ghcw2jm"))))
+            "0snfmf9k0p0fb53z8q666g2f1az7jdkpl9xik7db2yrm55yn8r1l"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -24072,17 +24072,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220424.1300")
+    (version "20220501.931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~niklaseklund/dtache")
                (commit
-                 "aee3289eb1e1c3c31ca2f9a4f5323aeb4feed262")))
+                 "4ecda689e4ccddc23805a22484c95c4f3f65e3bb")))
         (sha256
           (base32
-            "1d2vpl1fp0hsw4r1rvnk8vm04p0k66alvmwkglwf243lbb425r2g"))))
+            "0lrj4dwcrx3s9mxnik9h9cppqjdfnbnlknfa40qwhlzxdvhxmfmq"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -26797,17 +26797,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220417.1712")
+    (version "20220501.1128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "42187b20dd62705f352a976d1bc327955f1e39e1")))
+                 "7275089749779599d87bee878e5103921ea919f9")))
         (sha256
           (base32
-            "0dqfgvbgnbqn9chk88yr6ba61pdf0v5bj22pp438k7288lphn3y4"))))
+            "07p8qz4fx2gvgk46sl076w1rgqmdpbxsn54m330627sla5wk5bpf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -64102,17 +64102,17 @@
 (define-public emacs-lean-mode
   (package
     (name "emacs-lean-mode")
-    (version "20220124.1813")
+    (version "20220501.1007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leanprover/lean-mode.git")
                (commit
-                 "c1c68cc946eb31b6ba8faefdceffce1f77ca52df")))
+                 "362bc6fa3efb1874c525ed6b4b6f24f76af22596")))
         (sha256
           (base32
-            "0qb5j50qi9b04jrfk6fryllpf0i9s2h4kp93fyk53sjczm52kh7p"))))
+            "1lr4h555fa1kdi3q7hkhsnznv7nh9rgjqjkbj2bqp9zwh06245w3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-f emacs-flycheck))
@@ -64528,17 +64528,17 @@
 (define-public emacs-lexic
   (package
     (name "emacs-lexic")
-    (version "20220405.1339")
+    (version "20220501.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/lexic.git")
                (commit
-                 "83e78f8b1b42b15a890aa29dbeccb2eb389215fb")))
+                 "f9b3de4d9c2dd1ce5022383e1a504b87bf7d1b09")))
         (sha256
           (base32
-            "16iancwz1n50g2kqvs8ipyljh7x268ssj6lkzy82mmngskfz7sz8"))))
+            "02iz8dh18gb1q97v8ghcd3lavkf28sqbrk0bx6jzzryp69ickk4h"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tecosaur/lexic")
     (synopsis
@@ -66656,17 +66656,17 @@
 (define-public emacs-lsp-docker
   (package
     (name "emacs-lsp-docker")
-    (version "20211203.1659")
+    (version "20220501.1056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-docker.git")
                (commit
-                 "c2da2a65cb11e92d23c480dcc12387aa53997181")))
+                 "c57863609abfb93fccabf81dc3112ac38f93c4a2")))
         (sha256
           (base32
-            "067bc37v14mvrmayah95qkcmi8gh3fdhdh8493wabm47kgszsfh4"))))
+            "007rf2zbkskidskmcnlsx56dxv0saqm2nl9ih1rk6h9vm27yl24z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -105063,17 +105063,17 @@
 (define-public emacs-sqlite3
   (package
     (name "emacs-sqlite3")
-    (version "20220327.521")
+    (version "20220501.1217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pekingduck/emacs-sqlite3-api.git")
                (commit
-                 "7cb4b660fe30deb8a4229f3abb18bd99ca9c971c")))
+                 "68eda59d5f3d29d0a64d6256d58b8c1f93ba3583")))
         (sha256
           (base32
-            "1b7if1dp6i5kqwhq25gna89xbca66i4mmgx1a5yn12kncfdgs6d7"))))
+            "0yrfwb3yvhp1ib4izxh1ds68b3zw8gjkjhlk1kivarxnfjnjnly2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109833,17 +109833,17 @@
 (define-public emacs-titlecase
   (package
     (name "emacs-titlecase")
-    (version "20220427.1552")
+    (version "20220501.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/duckwork/titlecase.el.git")
                (commit
-                 "b56c2e3409b46c615d63c7637e04875f58d257db")))
+                 "5676da54210c739b583d841c6b957fbf09063861")))
         (sha256
           (base32
-            "0y0b767cv6246gs4ya0yznwmq93vkyy41jg7ndw91mw7vh4dy33j"))))
+            "1lc8dz76ahy7d8wi9ilcsxn4jyrkmfcjf8nl2vbfp93fpsg6wg5a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/duckwork/titlecase.el")
@@ -117709,17 +117709,17 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20220421.1340")
+    (version "20220501.1500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-workroom.git")
                (commit
-                 "fd6edce3726747723b50ec74584032006768640f")))
+                 "001fe2777f49ac73b6ab24401094a1c3c5efc887")))
         (sha256
           (base32
-            "1f8cwvnvrw6ihfp9lx2w2m6nx2z1xaa2iizbk5frrxbqpagf030k"))))
+            "0haj4w8xcpm1yb3anla4ql2zi339hs6bcznxzl7qla575ff5sivp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-workroom")
