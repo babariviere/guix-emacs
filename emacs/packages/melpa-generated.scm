@@ -18398,17 +18398,17 @@
 (define-public emacs-ctrlf
   (package
     (name "emacs-ctrlf")
-    (version "20220130.2307")
+    (version "20220501.2234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/ctrlf.git")
                (commit
-                 "38b5e94bf718eeea0b880a78ed52926dec89fea9")))
+                 "efe9534747e056b210e359c3abc67ef94a8ea5ad")))
         (sha256
           (base32
-            "0yc89vfca2q9bii4145wkyb5g4nil3n14b8af08npjhmb2i85aw1"))))
+            "12i6mis37196c13jw5wnybfhdkhw3cfny3v0l98ksp6ki6sr2h5w"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/raxod502/ctrlf")
     (synopsis "Emacs finally learns how to ctrl+F")
@@ -28802,17 +28802,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220427.2144")
+    (version "20220502.426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "70f720f914b78bd11f84b0790df5f125945dd50f")))
+                 "7a2487f5bb8a6ea5a9b5048386d6dcbbc1b6cc85")))
         (sha256
           (base32
-            "01ykcq2w7z28zrmsw0097mnx58fym1qddsgl7sgs4l2933p5bqfy"))))
+            "1rqmmybgszc1xx9ndcb44g31dl8v0pqgbz12gihr43lp805zj9qj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28826,17 +28826,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220428.1635")
+    (version "20220502.513")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "ed20d8fbb517f55135a5309f468f971c73f7b4a1")))
+                 "7a2487f5bb8a6ea5a9b5048386d6dcbbc1b6cc85")))
         (sha256
           (base32
-            "1wqks1n1mqbmv5w99s2dqf1y0v6xg4csyxv7l7wlri0ryhf3ar00"))))
+            "1rqmmybgszc1xx9ndcb44g31dl8v0pqgbz12gihr43lp805zj9qj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -36602,17 +36602,17 @@
 (define-public emacs-flutter
   (package
     (name "emacs-flutter")
-    (version "20220220.1423")
+    (version "20220502.50")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/flutter.el.git")
                (commit
-                 "08138f8c95488aaf315a1f5d52c33deb8d28672b")))
+                 "e49cbcb70235fa39a7d243521e03ad874451a39a")))
         (sha256
           (base32
-            "0h4r6m9yi5pvqlc4a3m2kc8jl1ywp4vv8bgmnkzy1aa7i8lb94c3"))))
+            "1hjfkcdi99yfld9jakhhrncpm2yvg03xz35dngc6nn23dkwdpidm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -36628,17 +36628,17 @@
 (define-public emacs-flutter-l10n-flycheck
   (package
     (name "emacs-flutter-l10n-flycheck")
-    (version "20220213.1335")
+    (version "20220502.50")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/flutter.el.git")
                (commit
-                 "8cc0507cc6619cb9ec236c4eca7417ac081f1468")))
+                 "e49cbcb70235fa39a7d243521e03ad874451a39a")))
         (sha256
           (base32
-            "074dkgpflc9pgpwfmha2cjfyyk6fac968nsw30mfi8ifb1gqvl28"))))
+            "1hjfkcdi99yfld9jakhhrncpm2yvg03xz35dngc6nn23dkwdpidm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-flutter))
@@ -39322,17 +39322,17 @@
 (define-public emacs-flymake-cursor
   (package
     (name "emacs-flymake-cursor")
-    (version "20210126.1733")
+    (version "20220502.456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flymake/emacs-flymake-cursor.git")
                (commit
-                 "0c9f3fa273cf1cea8fd64c2b3c20119e2d5c8f6e")))
+                 "91025284824b3fef086709702e8a791dbaf2ef4a")))
         (sha256
           (base32
-            "0vw21na55i7fxrls5b3frf2mml7nk8k6y39936r7gbnmn00dcmam"))))
+            "00199diz5cjlv1k28j9agnp3cb89c6vmfwdgyssk9v3676r7cijn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/flymake/emacs-flymake-cursor")
@@ -67012,17 +67012,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220430.1115")
+    (version "20220502.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "03ac31f352fdc07f770314404ccaffe52a640cbb")))
+                 "f7b363082f28aaf54b354912cd3ad3253a1e5fe4")))
         (sha256
           (base32
-            "1739pam7f89rasz0jy3msc5kzrbky4yy6kyr3j5395h7fhp12c88"))))
+            "0svc6ax4rxn4fak7ij8dqass6gq44n5ffawvi23r7cv64d1w14xg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67313,17 +67313,17 @@
 (define-public emacs-lsp-treemacs
   (package
     (name "emacs-lsp-treemacs")
-    (version "20220328.625")
+    (version "20220502.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-treemacs.git")
                (commit
-                 "355e468b7fa9887c616a8bfe873d8e456303b67b")))
+                 "9859326df6b8e8c954a3c227e53b6878e54aaae8")))
         (sha256
           (base32
-            "0a9m0n50j3lkig9zsdach6fwxc0m6z33mb2pwwxyhv1xp3jksv92"))))
+            "0g1azw6638hig4bwy00wyr8pdj13dwf3v5lsjbgxsgckz831wl79"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67689,17 +67689,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220428.44")
+    (version "20220502.422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "3771ed2c0e649b7f03abbaedeb317c2515c54509")))
+                 "a96f26b325cc7c95d9835217556fb3cb544d5c0b")))
         (sha256
           (base32
-            "1b7k8fjq5naf9ixfa7gwc4cdvcq65a1m429n7f5k6934kblsjk7l"))))
+            "1sfrv6kmy0wy7b3iw9rniimm54s903vrlrzq0aa7lxmm14kmszqp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -71831,17 +71831,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220427.1414")
+    (version "20220502.513")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "a42c1710389eab741bb2921b575e3fa7b678eddd")))
+                 "493c8e8cc6dbe2c0a4389d40df94540e3a5c96f3")))
         (sha256
           (base32
-            "1p3c2hvrn0b28hjvw6cjfgfhhn0hj92vfykgqa9vmkqj58hya211"))))
+            "02gbp30357r05xw67n3jnm7p6gmc9sa1mdjs864z3spaixcyqmpr"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -74541,6 +74541,27 @@
     (synopsis "Neat-o graph bars CPU/memory etc.")
     (description
       "Documentation at https://melpa.org/#/neato-graph-bar")
+    (license #f)))
+
+(define-public emacs-neil
+  (package
+    (name "emacs-neil")
+    (version "20220501.2053")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/babashka/neil.git")
+               (commit
+                 "239c16655431b27ee558bf250bece4f4b10a0e83")))
+        (sha256
+          (base32
+            "1d31g7a9js378cq56gqwrd978bzc57848j169lsykz24yqx3sf22"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/babashka/neil")
+    (synopsis "companion for Babashka Neil")
+    (description
+      "Documentation at https://melpa.org/#/neil")
     (license #f)))
 
 (define-public emacs-nemerle
@@ -84961,6 +84982,28 @@
       "Documentation at https://melpa.org/#/ox-reveal")
     (license #f)))
 
+(define-public emacs-ox-review
+  (package
+    (name "emacs-ox-review")
+    (version "20220430.1133")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/masfj/ox-review.git")
+               (commit
+                 "3a6dedb37709560bd75d96b94eafafbbd388deb9")))
+        (sha256
+          (base32
+            "1fr0jpzm5mn171gc1dbncn8jp3z4fd1vbdvlwanxdxdx02imxvsb"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/masfj/ox-review")
+    (synopsis
+      "Re:VIEW Back-End for Org Export Engine")
+    (description
+      "Documentation at https://melpa.org/#/ox-review")
+    (license #f)))
+
 (define-public emacs-ox-rfc
   (package
     (name "emacs-ox-rfc")
@@ -92624,17 +92667,17 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20220426.233")
+    (version "20220502.310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ideasman42/emacs-py-autopep8.git")
                (commit
-                 "09f06f3955bc688d0e62f910fb151d5967fedc74")))
+                 "026e74bbf52d24126d12187d523390b85e2ac638")))
         (sha256
           (base32
-            "16qm8sqqcinq0mv6d2wd78h6z5xlbxd8v7lj76d37hl6jcijryr7"))))
+            "1izfqwbhrznqa7jjgh17xgbr53asyl1mxhl7fx8d3crjxqrb8dfc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ideasman42/emacs-py-autopep8")
@@ -99908,17 +99951,17 @@
 (define-public emacs-sensei
   (package
     (name "emacs-sensei")
-    (version "20220428.715")
+    (version "20220502.648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abailly/sensei.git")
                (commit
-                 "ee40bf2ad087262dcd263b7b53638dc81153f20a")))
+                 "56fc18ca605e2877b2135260f19d476c766df312")))
         (sha256
           (base32
-            "0dylx6scklfczb9167jacfrgydq5gy999gbrf5ls80zwl3ajm4jm"))))
+            "01pghzq548hqhc3jpbprwzy9b9c3hd4h626yh3g330sdl2mzqb5m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile emacs-request))
@@ -110402,17 +110445,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220426.2134")
+    (version "20220502.449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "ca7eb6b94a04a13f40b94881e8807414dc6fe5a8")))
+                 "25020db16f988690bdf94ec4ca370afbf23dfbbd")))
         (sha256
           (base32
-            "1jm0vbiy17r25gwrql6qbqcj9kb1hsp1g6z47mnb10vrzk4vji28"))))
+            "0fk8lvns3d3da6g8980ilgwwj9nwyhsgfbi5yd8r7ly3cyv0b15k"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
@@ -113608,17 +113651,17 @@
 (define-public emacs-uxntal-mode
   (package
     (name "emacs-uxntal-mode")
-    (version "20220501.1900")
+    (version "20220502.154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/non/uxntal-mode.git")
                (commit
-                 "a72ad9c329ea3b810a58a47d3d0f018247aa317a")))
+                 "39cde87b15a98e0612e30b80e0676211236ac3e7")))
         (sha256
           (base32
-            "0dlfhyvc6h0bxcr87x0mhl2ivnrz03ibz9vdvsd0w1p3by90iph8"))))
+            "1i5rkxnb4bib30qx602b426m0ydcmwlwgs9hl92540kx7d9j8416"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/non/uxntal-mode")
     (synopsis "Major mode for Uxntal assembly")
