@@ -3466,17 +3466,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220417.1859")
+    (version "20220501.2151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/apheleia.git")
                (commit
-                 "9804f241ac8235027ea91a49d3c6275ecbaae203")))
+                 "50da8cd1a94fbcd6456b2528a9db20a5cfc8ff5f")))
         (sha256
           (base32
-            "144lagg7vdxgqd4mzbv7wvddpmbd0ydgx676jlb1ijg1gnqacprc"))))
+            "12z8vsnxq8bsfbds3d1wbnrkv8i4kcm6l75hr0pnh4jr6yrmc419"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -16342,6 +16342,29 @@
       "Documentation at https://melpa.org/#/consult-ghq")
     (license #f)))
 
+(define-public emacs-consult-ls-git
+  (package
+    (name "emacs-consult-ls-git")
+    (version "20220501.1823")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/rcj/consult-ls-git.git")
+               (commit
+                 "f2398b354994e583ad22af324a129cf94d06009e")))
+        (sha256
+          (base32
+            "1brvhnlw72vhxjf6d984pjf5sq6l7d6vpnhzq2swp3zz4a5sfqvx"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-consult))
+    (home-page
+      "https://github.com/rcj/consult-ls-git")
+    (synopsis "Consult integration for git")
+    (description
+      "Documentation at https://melpa.org/#/consult-ls-git")
+    (license #f)))
+
 (define-public emacs-consult-lsp
   (package
     (name "emacs-consult-lsp")
@@ -19849,17 +19872,17 @@
 (define-public emacs-ddskk
   (package
     (name "emacs-ddskk")
-    (version "20220305.522")
+    (version "20220501.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skk-dev/ddskk.git")
                (commit
-                 "5c209e0306364118abf9d9440d7b8b9613183072")))
+                 "c664b26d0861621ac86b5b5f47835dd84f06dc93")))
         (sha256
           (base32
-            "0sp9hxnmaqwsqak2b2k0r4n89xiahqhy6s61ib1qjs9y6mz5ravp"))))
+            "0hzrjmsyj7npilsvimrrd5q6hca9wramc3q3kgl7l7y7mknmmkp1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ccc emacs-cdb))
     (arguments
@@ -22272,17 +22295,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220430.436")
+    (version "20220501.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "5e2335601608f230f166d7f3a5418d43206141d7")))
+                 "4cf24f974a4d3c47fa18d499a62a3d969e2cd21c")))
         (sha256
           (base32
-            "1lip0qc1bywvl2g3vf61qmq0l5mmk2k3bw773mr4vslvsicc7wfg"))))
+            "148r8vnnsxfc3fl5kpybknrcsr3s0lrzvvg1mzh45aslp1bc7wzh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28069,17 +28092,17 @@
 (define-public emacs-elpher
   (package
     (name "emacs-elpher")
-    (version "20220411.818")
+    (version "20220501.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://thelambdalab.xyz/git/elpher.git")
                (commit
-                 "ab75cffa4572115c3d6b17348b6bfa2f746f4798")))
+                 "61d565ce18392a8a92347cb3376f7cd8d1092fe5")))
         (sha256
           (base32
-            "166fjq9d883hifa35zklyjrm4c575nd6zxdx7akbwibrgwi65bl0"))))
+            "1l5h7vf8j1ix6addnwpniah21ah6nnvkhah23y3wf9kb60wbj21w"))))
     (build-system melpa-build-system)
     (home-page "https://thelambdalab.xyz/elpher")
     (synopsis "A friendly gopher and gemini client")
@@ -32099,17 +32122,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220430.2107")
+    (version "20220501.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "c8366be12490b1cf9b4e5dff05522e416bb2ba9c")))
+                 "ca4c6172240321a06498390d7d6fa790033f7fc1")))
         (sha256
           (base32
-            "1z6sd0p9xxycik99vpx8qrwjs0sy824vjngc462f8vyp972p4spp"))))
+            "09a7w18xmv9wim38s50sdaj5yhc0vrmna4sndmcybkmkk0s4ndy8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -42286,17 +42309,17 @@
 (define-public emacs-gams-mode
   (package
     (name "emacs-gams-mode")
-    (version "20220429.238")
+    (version "20220501.1507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShiroTakeda/gams-mode.git")
                (commit
-                 "7505c59eecd3d42c2ce38aa08da196165eeb89d0")))
+                 "1964d9a52693f3aa9279eed8864bc317ee5c6dc4")))
         (sha256
           (base32
-            "0bfqbmmrv8qxmg2j15gb6z5w6jqkhgkq3ga6i0jcm9c7d3wn4j9s"))))
+            "070qmshqn6gz4av3rzbjihlw6psx5c61kbcwdymswzfzmhg5dyn6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("gams-mode.el" "gams-logo.xpm")))
@@ -58363,17 +58386,17 @@
 (define-public emacs-iter2
   (package
     (name "emacs-iter2")
-    (version "20211119.1718")
+    (version "20220501.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/iter2.git")
                (commit
-                 "077684feec98ce6d5e283a13f056c083986628a2")))
+                 "1abca3665ecfa6b016311906560f8be4fbb3e3db")))
         (sha256
           (base32
-            "12flc98nv353cqr9qbkasgdmiyf9c3iw4apzh899xw857j1h5qdr"))))
+            "1jzd9kzxf3ncw40d55r1apw0cpk4i1a3s5p85mg9n20553cb6lhj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/doublep/iter2")
     (synopsis "Reimplementation of Elisp generators")
@@ -58991,17 +59014,17 @@
 (define-public emacs-ivy-prescient
   (package
     (name "emacs-ivy-prescient")
-    (version "20211228.417")
+    (version "20220501.2235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/prescient.el.git")
                (commit
-                 "3dbcef387502d309d130a518a18d48cd2f0e15b7")))
+                 "d9b30d741c729a37eb2c6e51d72281c0844780ca")))
         (sha256
           (base32
-            "024l7s0b6apbzanw3cnhjypxnxfinfb5b3nhaabrc138m5pis8j5"))))
+            "1n9sa0wvw8yhq2l82hfpx1pgg7lmphd18xrjx6jfqfdkna9j3a8j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-ivy))
@@ -61195,17 +61218,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20210410.40")
+    (version "20220501.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "d57448466c11833d4fd67f5dbbea9cb9a07a74e2")))
+                 "d36dde1c7eaac7c55a4cefa6f27ba08fc8d67102")))
         (sha256
           (base32
-            "0v7l4jxq71vcw3sjs476smbw9ln6xfrq7n3vzw26apzkrplizqyy"))))
+            "00gvzlf64r0am770pyis99y10iklip97iwkzx69kzj58jhz9x4g3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -64248,17 +64271,17 @@
 (define-public emacs-leetcode
   (package
     (name "emacs-leetcode")
-    (version "20220206.1515")
+    (version "20220501.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaiwk/leetcode.el.git")
                (commit
-                 "b3103bd08c8943091f702c66d674f0f27ef7fe0b")))
+                 "0db97dec51ec8eff6682239aff60ff48c5be65c4")))
         (sha256
           (base32
-            "184dxfgsy1l6r1pn9c9jb22b8gw5hah1cnhl3sncd79mzv6gjhl0"))))
+            "0sx6axp0ywkfccz4fx9krvmsjdir45ybigbq9h688x2sw86w1y8l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67663,6 +67686,28 @@
       "Documentation at https://melpa.org/#/maces-game")
     (license #f)))
 
+(define-public emacs-macports
+  (package
+    (name "emacs-macports")
+    (version "20220428.44")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/amake/macports.el.git")
+               (commit
+                 "3771ed2c0e649b7f03abbaedeb317c2515c54509")))
+        (sha256
+          (base32
+            "1b7k8fjq5naf9ixfa7gwc4cdvcq65a1m429n7f5k6934kblsjk7l"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/amake/macports.el")
+    (synopsis "A porcelain for MacPorts")
+    (description
+      "Documentation at https://melpa.org/#/macports")
+    (license #f)))
+
 (define-public emacs-macro-math
   (package
     (name "emacs-macro-math")
@@ -70102,17 +70147,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220430.2010")
+    (version "20220501.1918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "0f85569e9561c791608803cf019bdbf7d60a389d")))
+                 "72d6ff36b62a57aa9c9dbfbd44cdb3002a0e940a")))
         (sha256
           (base32
-            "1jabxwb0dhajj0biw5yr7hd5wp7zisg4nwix39pphvyghqb01n7j"))))
+            "0vaam51wg8a7ilk9kp3lvz3p0vfcc3fl2nkpwswdadgr69f2d4qb"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -75472,17 +75517,17 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220430.2218")
+    (version "20220501.2104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "d9c3adc777fc7cf7a76e8349b2d462f87d5244da")))
+                 "915b468ce051dda9d91932b2b305bd8e8da99708")))
         (sha256
           (base32
-            "18gr4hswlxfd12751gsvmxamwd4nhbnf95ww2iwpwvj9fvs8wsn1"))))
+            "1k7s16ms2cqhzwlyin0q9nxhxj6zqcvafvq3lyygjv8flrzhnw90"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash))
@@ -79619,22 +79664,22 @@
 (define-public emacs-org-clock-convenience
   (package
     (name "emacs-org-clock-convenience")
-    (version "20200705.1527")
+    (version "20220501.916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dfeich/org-clock-convenience.git")
                (commit
-                 "efc9773a8dedf834cf4a78fb6f5f8fffe55ef8eb")))
+                 "47ffb66c8daf2e563de12eb1c925012a4a632c16")))
         (sha256
           (base32
-            "0xnzw4p0wvahkfnxpj2ysz9nylzndp4pvy90vlf0l0d2ff5dymbh"))))
+            "1sn7hdj7h7d1lawc29zzykx3m41371ywa1wvfs296wkvva8krlf6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dfeich/org-clock-convenience")
     (synopsis
-      "convenience functions for org time tracking")
+      "Convenience functions for org time tracking")
     (description
       "Documentation at https://melpa.org/#/org-clock-convenience")
     (license #f)))
@@ -92579,20 +92624,20 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20160925.1052")
+    (version "20220426.233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/paetzke/py-autopep8.el.git")
+               (url "https://github.com/ideasman42/emacs-py-autopep8.git")
                (commit
-                 "68e12d8788c91c7ec53a68acf1d23adb2ffa4788")))
+                 "09f06f3955bc688d0e62f910fb151d5967fedc74")))
         (sha256
           (base32
-            "16fmym6hvi2lx0mmbrrhld1vzki5iqfqx2m0xa9021gjjzb33lw6"))))
+            "16qm8sqqcinq0mv6d2wd78h6z5xlbxd8v7lj76d37hl6jcijryr7"))))
     (build-system melpa-build-system)
     (home-page
-      "http://paetzke.me/project/py-autopep8.el")
+      "https://github.com/ideasman42/emacs-py-autopep8")
     (synopsis
       "Use autopep8 to beautify a Python buffer")
     (description
@@ -99858,6 +99903,30 @@
       "send the region content to a function")
     (description
       "Documentation at https://melpa.org/#/sendto")
+    (license #f)))
+
+(define-public emacs-sensei
+  (package
+    (name "emacs-sensei")
+    (version "20220428.715")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/abailly/sensei.git")
+               (commit
+                 "ee40bf2ad087262dcd263b7b53638dc81153f20a")))
+        (sha256
+          (base32
+            "0dylx6scklfczb9167jacfrgydq5gy999gbrf5ls80zwl3ajm4jm"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-projectile emacs-request))
+    (arguments '(#:files ("elisp/sensei.el")))
+    (home-page "https://abailly.github.io/sensei")
+    (synopsis "A client for sensei")
+    (description
+      "Documentation at https://melpa.org/#/sensei")
     (license #f)))
 
 (define-public emacs-sensitive
@@ -109697,17 +109766,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20220425.1850")
+    (version "20220501.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "9e1a12a494537472fb1f9f9f23dc38b8bca1f9af")))
+                 "1318c58a118c6c5a95a82e71da5eda6bfcf8f143")))
         (sha256
           (base32
-            "0bndwcpz2alzimlmkcpcdxsl5xvckks22xmqn78rkg9pscl10gjq"))))
+            "1vav4f6g86fh71ddprql0m8b05f4h8l04n7jfskfmvpfwgw2w87r"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
@@ -110174,22 +110243,22 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220424.1852")
+    (version "20220501.2130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "f0bdc2aa4c6f1e463a3027a5e194f6dab3d0fda6")))
+                 "4efb664ed48df333b29ac06fc99dd529c08a3acc")))
         (sha256
           (base32
-            "0n4vn5s845a50s8gfvj7v5vlr81k6mn4v94h58021fd911m21ar1"))))
+            "012c42jp4j3yy665b1s00c1mfqgckdv58bxij8invz3v7vxg2b2z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
     (synopsis
-      "Minimal theme with light and yellow color scheme")
+      "Minimal theme with dark and yellow color scheme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
@@ -113428,20 +113497,20 @@
 (define-public emacs-utimeclock
   (package
     (name "emacs-utimeclock")
-    (version "20220211.548")
+    (version "20220425.939")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://gitlab.com/ideasman42/emacs-utimeclock.git")
+               (url "https://codeberg.org/ideasman42/emacs-utimeclock.git")
                (commit
-                 "0e36664ffe9f278bb008107d1b743edfcfba60f1")))
+                 "cfd5109e004d3e2522f5e758b3ff7238fcf385d6")))
         (sha256
           (base32
-            "1ninhp8z9lr705k8a5pd8cvm3nwrml9wp2hvrv3lilmdr9879h0y"))))
+            "0ii3rvxq0408snj8rmclrk1b1kkx46lkak16q8xlxz1gx01kn64d"))))
     (build-system melpa-build-system)
     (home-page
-      "https://gitlab.com/ideasman42/emacs-utimeclock")
+      "https://codeberg.org/ideasman42/emacs-utimeclock")
     (synopsis
       "Simple utility for manual time tracking")
     (description
@@ -113534,6 +113603,27 @@
     (synopsis "An awesome dark color scheme")
     (description
       "Documentation at https://melpa.org/#/uwu-theme")
+    (license #f)))
+
+(define-public emacs-uxntal-mode
+  (package
+    (name "emacs-uxntal-mode")
+    (version "20220501.1900")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/non/uxntal-mode.git")
+               (commit
+                 "a72ad9c329ea3b810a58a47d3d0f018247aa317a")))
+        (sha256
+          (base32
+            "0dlfhyvc6h0bxcr87x0mhl2ivnrz03ibz9vdvsd0w1p3by90iph8"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/non/uxntal-mode")
+    (synopsis "Major mode for Uxntal assembly")
+    (description
+      "Documentation at https://melpa.org/#/uxntal-mode")
     (license #f)))
 
 (define-public emacs-v-mode
@@ -116518,6 +116608,28 @@
     (synopsis "Using posframe to show which-key")
     (description
       "Documentation at https://melpa.org/#/which-key-posframe")
+    (license #f)))
+
+(define-public emacs-whiley-mode
+  (package
+    (name "emacs-whiley-mode")
+    (version "20220501.2219")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Whiley/WhileyEmacsMode.git")
+               (commit
+                 "69eb67cf41dad029f1456079aea62a4b61ca9b46")))
+        (sha256
+          (base32
+            "19j12h9v7agw340zb0cwlga2a0agl8c4bv19hxma5wd6sj0srp3v"))))
+    (build-system melpa-build-system)
+    (home-page
+      "http://github.com/Whiley/WhileyEmacsMode")
+    (synopsis "Major mode for Whiley language")
+    (description
+      "Documentation at https://melpa.org/#/whiley-mode")
     (license #f)))
 
 (define-public emacs-whitaker
