@@ -13240,17 +13240,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20220328.108")
+    (version "20220503.203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "85ab2080e489b4ca01c787f5a316ade02a4ee877")))
+                 "9cf84cd867d27433e0c8097f0d33cb3ade64f5ca")))
         (sha256
           (base32
-            "0j0ijnzfd7b3a2jqi94zlky8iqv9g7vj9fx5fd4g2k53ilgapmdl"))))
+            "17n066qs73rqjmjaynhcr5q73azz8584a3vsgbc9sr1flp3sypwy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -22295,17 +22295,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220502.1224")
+    (version "20220503.433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "acfcd7f367cd5a624876afd64fbb16c06800f4bf")))
+                 "4b1254f0f6a34093014b5cb3f3af30c1de1ad705")))
         (sha256
           (base32
-            "0v12b0mgz9925islpfz65dczwbcaskl2f8a1yw5y62w32kilxdsx"))))
+            "15rssh4iii7p1af0cyqdhjfiica7jcx7xrgkh78jr92r4dafyzhz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28802,17 +28802,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220502.2008")
+    (version "20220503.247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "254609cb6c685e65ec276140ad6aa7c96cff9509")))
+                 "d4e4498c871f7edf32b59a731c582a74059157c5")))
         (sha256
           (base32
-            "1l3msix7d4j741fililvks2dinylx5a8zmz6byscnijrwvfn6r28"))))
+            "0fifpyx0k7wwh2vq1bd24cgvvfd064xcn0wmz5vfp88kh8090did"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -42355,17 +42355,17 @@
 (define-public emacs-gap-mode
   (package
     (name "emacs-gap-mode")
-    (version "20191110.2237")
+    (version "20220503.20")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/gvol/gap-mode.git")
                (commit
-                 "62adb8935033eead7fbf2c107c2dfb79afa53c67")))
+                 "b217b94bcfae5657b86424c56d8b053973b92e1f")))
         (sha256
           (base32
-            "1rhhls2ylc2jg3mman3zq0mknmmwhll09d9dxrqmk5262d2f7vw4"))))
+            "0ghdvy59j5yxwlm86164jka62k5wx15hll5fag2xibcq952536vf"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "emacs.gaprc")))
     (home-page "https://gitlab.com/gvol/gap-mode")
@@ -61218,17 +61218,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20220501.1529")
+    (version "20220503.7")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "d36dde1c7eaac7c55a4cefa6f27ba08fc8d67102")))
+                 "443924f6eb77d64a20b4b34a99d3c7d2d54f73a8")))
         (sha256
           (base32
-            "00gvzlf64r0am770pyis99y10iklip97iwkzx69kzj58jhz9x4g3"))))
+            "00piv8ifjhpwsk0rwnz9nph02ws1yiybqn4yxb7wv3ppxy139vzx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -64271,17 +64271,17 @@
 (define-public emacs-leetcode
   (package
     (name "emacs-leetcode")
-    (version "20220502.1019")
+    (version "20220503.534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaiwk/leetcode.el.git")
                (commit
-                 "bb255174a9139c49b0124ea8f51b9d05671ff0a4")))
+                 "682f7a44d0bea0daf6f9a2888fa7f905d3a0cd70")))
         (sha256
           (base32
-            "0zw8rh9v5fvadkpl7qaxph8g4qnd669hn78mrak1n18x6dcxy3r1"))))
+            "1y6b5sh83n5daz6p0n33ynf4j6227dpa54x4hpjwr8n7fkjfjwiq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67689,17 +67689,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220502.1033")
+    (version "20220503.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "e5e7641db3d4ea89270f58cc1d74bf714a466ee5")))
+                 "c0d74a5a820742400e05859c1f56443c1aabd25b")))
         (sha256
           (base32
-            "1qp0da9k8r4103jm9ill4clrvlwq0m9aramjpp442lh1cm7sdjkf"))))
+            "1yygmwydzfa346w2d1dkb7s2vkg0h1aw2kimzn1rhq9caabbncsa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -68365,17 +68365,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220429.1720")
+    (version "20220502.2245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "622626ef6239018698471e46e6b3ec4530061ea3")))
+                 "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")))
         (sha256
           (base32
-            "01cv5wlkcylir0wpx911din1d0cw4v7gglqc79bgypv40r4k97pl"))))
+            "1zwr7s92m10y28qk53yqg5y1bwn37q0dlvbp3906anbgyhqhfphn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -79685,17 +79685,17 @@
 (define-public emacs-org-clock-convenience
   (package
     (name "emacs-org-clock-convenience")
-    (version "20220501.916")
+    (version "20220503.530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dfeich/org-clock-convenience.git")
                (commit
-                 "47ffb66c8daf2e563de12eb1c925012a4a632c16")))
+                 "988d4e3c9f0ae6df098b0ab1985b79eed2c5b808")))
         (sha256
           (base32
-            "1sn7hdj7h7d1lawc29zzykx3m41371ywa1wvfs296wkvva8krlf6"))))
+            "0b1i013likxba92z3bwrg9in3g3daaz31fdsn1cfxbn3yha6yzai"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dfeich/org-clock-convenience")
@@ -80743,17 +80743,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220417.1730")
+    (version "20220503.458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "1bf0d8cb3d80efffbf1d561942c27ee701716ef2")))
+                 "b20e296b497360de12d5d973aa273cab70c77126")))
         (sha256
           (base32
-            "0shdvv9mxhnrldyfybhv9gjd1l16l7inq0sx126bnla0lqid4ynl"))))
+            "17vcrz99759sh75swd94w1pajq5kknj7bgw5n12frwgfjlq6hi3s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -108370,17 +108370,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220426.933")
+    (version "20220503.349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "88cc457c4143ab8f5920e910ca373aa274c1e4d2")))
+                 "29010616931f52e3a5aa9d155c14873c09c7306b")))
         (sha256
           (base32
-            "0dl9h7738kxqzyy02hvvl0ggkkz1yxf1hn0nr3j5q9v2dbmdrnzf"))))
+            "17cshy0ba7jiq36rj66k6m8swijzvpnwpfrgy0xvhgxsz115bhp6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -109294,17 +109294,17 @@
 (define-public emacs-the-matrix-theme
   (package
     (name "emacs-the-matrix-theme")
-    (version "20220331.632")
+    (version "20220503.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/monkeyjunglejuice/matrix-emacs-theme.git")
                (commit
-                 "00f3e6ffda899ddd0ac2366753d6e810dbdf7bbb")))
+                 "2c226010be9ee02bea09c70c1d8ae5fea8b3bef7")))
         (sha256
           (base32
-            "06r8nxsx4k6pa46dv7w9chwh1f8s545rpl4m2ipbyfmppyvarf4x"))))
+            "0y0zl8p8x9jcl0cxf7rcqcaspw7569ayiln2s9l10d7lisdzaz43"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/monkeyjunglejuice/matrix-emacs-theme")
@@ -110442,17 +110442,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220502.449")
+    (version "20220503.238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "25020db16f988690bdf94ec4ca370afbf23dfbbd")))
+                 "3531e9f84c4a54792c0680acf48eb48c91c658d9")))
         (sha256
           (base32
-            "0fk8lvns3d3da6g8980ilgwwj9nwyhsgfbi5yd8r7ly3cyv0b15k"))))
+            "12w2mcscwxshxv7v82yxsx55p917mjyn50c63apda6s2hp8qqf7d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
