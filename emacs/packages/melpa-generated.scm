@@ -19149,17 +19149,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220503.1552")
+    (version "20220504.1309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "d036abe26853f8a5353703edae06cd9172ffb90e")))
+                 "675d5a8e959ab0f2d1f8261a7cf99e6d8f169118")))
         (sha256
           (base32
-            "0qz9mky7490kfw9gpiyakxv9d0c3479cw6ag2prfax4rf1asp584"))))
+            "1i98bccbgdy1iygbccjq1xfinphrzf4750nb765kq11fqlzlm2xa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -27341,17 +27341,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20220503.718")
+    (version "20220504.757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "6254cb424edde85fedae35babe8d97c28fb020b8")))
+                 "55e2f8722bbe7b394e17563f2e13d855e77c4260")))
         (sha256
           (base32
-            "0n9q8wjcyfvncxyhhxzfg03f6hm02yp91y6hmfp4ciyvsqzzs2vc"))))
+            "117r3c8ay32h7wxa7nlgmwas9x5m39nzlmn1vqwwm1xwhqipf9s1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -33310,17 +33310,17 @@
 (define-public emacs-evil-surround
   (package
     (name "emacs-evil-surround")
-    (version "20220503.953")
+    (version "20220504.802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-surround.git")
                (commit
-                 "123b30135bcb181d00e351d714263eaa137ae10b")))
+                 "c9e1449bf3f740b5e9b99e7820df4eca7fc7cf02")))
         (sha256
           (base32
-            "1g9si2wahmd587v03bmxwgifls3xvanm9s7d2l43n617911v89f9"))))
+            "1ghc10rsrfvmd7m5qf7695gz241v9m5c2fg2mflwy8pw0h2l9nki"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page "unspecified")
@@ -36722,17 +36722,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20220328.1518")
+    (version "20220504.830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "55f25fd98abc145c0c464756504132c271f0f039")))
+                 "1d7c1b20782ccbaa6f97e37f5e1d0cee3d5eda8a")))
         (sha256
           (base32
-            "0z1j5w7kifk130ijgkajbxg7n3kj3znn3rd4kwpxb2njwi5ml18x"))))
+            "01hr9xpjyws32aap2jlyncbgl1rfig8ylspln01yxf1lljysicc2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -48581,17 +48581,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220501.651")
+    (version "20220504.827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "24d6d9264689b7cb9fcedecde50c8f6eb5751538")))
+                 "a23bf2fa7b5553d2a3a8d61efa504416f876ec20")))
         (sha256
           (base32
-            "08phbj2qk3wkd33ccbj67ph3v17vrgaz8svv64b572m6p54ciflw"))))
+            "1xpimf4cmwwrqjchhrbyrv0n048m2vngjxcvm7xs8yq373d8987x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -54112,17 +54112,17 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20220422.541")
+    (version "20220504.607")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "40905568a040c1050941275cc9b970a45b77eb90")))
+                 "cc09c1eb9460c1aa54ab1fc77331eae40cf7c3a3")))
         (sha256
           (base32
-            "07gf05f0psbxl93f7xcwn9s4hx6bfx62hlfz09gzj0sk6l9a4xiq"))))
+            "1mxh2si9wz52pj06xjbnaxnipv2xqylvd5fgnbm4h8iygk08xhdp"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/ideasman42/emacs-hl-prog-extra")
@@ -76349,17 +76349,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220504.350")
+    (version "20220504.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "e6b2a43f39984723d9413d20362bd33063582eb7")))
+                 "55d4977c74ca33d1ad4c10fea7369f4bcdfd3f86")))
         (sha256
           (base32
-            "0d9xjqmp56bn2ikinc83ql4f278w9vcdj6fhkfxkp71587s46fi6"))))
+            "0d43ad14b2k1w3my2nwrnw58z594hw18k6p37xvvpnx8r4fdxbl2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -93524,17 +93524,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220408.1906")
+    (version "20220504.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "ee956c6a6c5aacf3cc32479eed9f84ccc5aec7dd")))
+                 "d9937dd995302056066ab99878c6c85495512611")))
         (sha256
           (base32
-            "1gdff63rn5aiwxkaxr5bqgs4zda3qd84bc1bqd40wjdfmhzr41if"))))
+            "1111jb0a64pgmi501s4pdd9sjgr4x2icl7vp67r9gn98792bfmjm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -101873,17 +101873,17 @@
 (define-public emacs-sis
   (package
     (name "emacs-sis")
-    (version "20211016.1144")
+    (version "20220504.1316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/laishulu/emacs-smart-input-source.git")
                (commit
-                 "237fb7029fde7c16a24d2231754d95190c1f03cd")))
+                 "a72e09246bc5be7a164932c51e7dd2a5d2d97858")))
         (sha256
           (base32
-            "18fnvr7a6zai2nxnv8sq42lgwgfig6ygfkyvcnzn04x7yw7wigxg"))))
+            "15r8p1h5g844098szxp95dm5jnqdib7cvr0rwxw0a4159vgkj4wx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-terminal-focus-reporting))
