@@ -9948,17 +9948,17 @@
 (define-public emacs-caml
   (package
     (name "emacs-caml")
-    (version "20211226.27")
+    (version "20220503.1742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/caml-mode.git")
                (commit
-                 "204bfde9ad21cb94c273db8b0c12d31a4eb425e5")))
+                 "f2f170f46b758341d96385986e8a93b9b4d248f1")))
         (sha256
           (base32
-            "1pn6whyp66bf2a4zj7g3g1ljlzfn0ia1xwb8lclvmjv0ind12zsz"))))
+            "0w9ypvvkm8qx88rldkhysp12inc8izn1qj9rpcchk8xzs0s7sqxp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ocaml/caml-mode")
     (synopsis "Caml mode for GNU Emacs")
@@ -13240,17 +13240,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20220503.203")
+    (version "20220503.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "9cf84cd867d27433e0c8097f0d33cb3ade64f5ca")))
+                 "d38fbe59304ed31c759ce733cda16f69a8ef2d8c")))
         (sha256
           (base32
-            "17n066qs73rqjmjaynhcr5q73azz8584a3vsgbc9sr1flp3sypwy"))))
+            "0ph2kp1yy08g0wr3wm55zisz04lwsrmlgxgsfcnznw0qj5c2d5cg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -16155,17 +16155,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220502.1450")
+    (version "20220503.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "87a9499c7b11fe230ee38b88a1606554132824dd")))
+                 "ea30b4dc8b25b65082ab9a2d56d2c6035d63b31e")))
         (sha256
           (base32
-            "1m9nz97046y42g992n2xlx0fzl6z3rl4vbjfschbp7mn2llljc6w"))))
+            "0himf1sbs9qd4r690lygvwk53q0fbby524lbvnr49vdd6gpzdmm9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/consult")
     (synopsis "Consulting completing-read")
@@ -19150,17 +19150,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220502.1644")
+    (version "20220503.1552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "1a5ed8d156dfb24caf0fe23e05b39d97b740d8f3")))
+                 "d036abe26853f8a5353703edae06cd9172ffb90e")))
         (sha256
           (base32
-            "0j4al9wfvj7nmagkv0f5nrl9hvj8bry6f61n4c60bj42gcg0pd9z"))))
+            "0qz9mky7490kfw9gpiyakxv9d0c3479cw6ag2prfax4rf1asp584"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22295,17 +22295,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220503.433")
+    (version "20220503.1706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4b1254f0f6a34093014b5cb3f3af30c1de1ad705")))
+                 "a03f651791f50f1e49afb1bc4282af25bfec747e")))
         (sha256
           (base32
-            "15rssh4iii7p1af0cyqdhjfiica7jcx7xrgkh78jr92r4dafyzhz"))))
+            "0v0p05zn1zddpgi6zym43f79jivl22h0vxzlf75m81p8hn0hq67q"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28802,17 +28802,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220503.247")
+    (version "20220503.1817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "d4e4498c871f7edf32b59a731c582a74059157c5")))
+                 "e9f0ea81a492f2e12971ad0e2f6c9771fc1f0ec9")))
         (sha256
           (base32
-            "0fifpyx0k7wwh2vq1bd24cgvvfd064xcn0wmz5vfp88kh8090did"))))
+            "067399yv9ka3ymzyqkgx3l2052ss8c5pqssbw5p3cin2d1p1wp99"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28826,17 +28826,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220502.2012")
+    (version "20220503.1817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "254609cb6c685e65ec276140ad6aa7c96cff9509")))
+                 "e9f0ea81a492f2e12971ad0e2f6c9771fc1f0ec9")))
         (sha256
           (base32
-            "1l3msix7d4j741fililvks2dinylx5a8zmz6byscnijrwvfn6r28"))))
+            "067399yv9ka3ymzyqkgx3l2052ss8c5pqssbw5p3cin2d1p1wp99"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -42355,17 +42355,17 @@
 (define-public emacs-gap-mode
   (package
     (name "emacs-gap-mode")
-    (version "20220503.20")
+    (version "20220503.1555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/gvol/gap-mode.git")
                (commit
-                 "b217b94bcfae5657b86424c56d8b053973b92e1f")))
+                 "99237f714c28981142674e8cfeb155863c834858")))
         (sha256
           (base32
-            "0ghdvy59j5yxwlm86164jka62k5wx15hll5fag2xibcq952536vf"))))
+            "0bjrrjz6k7a83gxad9grmynr14s6mig4cihd21nk6x499fn3ssia"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "emacs.gaprc")))
     (home-page "https://gitlab.com/gvol/gap-mode")
@@ -42665,17 +42665,17 @@
 (define-public emacs-geiser-gauche
   (package
     (name "emacs-geiser-gauche")
-    (version "20210911.1041")
+    (version "20220503.1700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/gauche.git")
                (commit
-                 "fd52cbaed9b0a0d0f10e87674b5747e5ee44ebc9")))
+                 "8ff743f6416f00751e24aef8b9791501a40f5421")))
         (sha256
           (base32
-            "1sv1a6lhxn8xhbgajz2knrblnaaryp3fz4yw19ggzdx4r30k278y"))))
+            "1ppracwfl1snq0ifdlyxpdlv7fbn3pbxm1hd1ihgqivii5nbya9r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -71831,17 +71831,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220502.513")
+    (version "20220503.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "493c8e8cc6dbe2c0a4389d40df94540e3a5c96f3")))
+                 "94f39c7c6f4473836c88eb3f000468c0f25c4b3d")))
         (sha256
           (base32
-            "02gbp30357r05xw67n3jnm7p6gmc9sa1mdjs864z3spaixcyqmpr"))))
+            "0h2icrw1ikd3av2zyn5mhdjim1zk2bfczwbrvwirh5cc1kmzv5hq"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -75493,17 +75493,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20220422.1616")
+    (version "20220503.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "405dc3f842fe74a3ea58fe798007f94d3ee60b68")))
+                 "27c713964c2b605931cdd691dc010de415b71d81")))
         (sha256
           (base32
-            "1zrfl3dvmj46nhddkkqpmcb8mskgih5m1c8aks91ni6xsszp0f6k"))))
+            "1c7ml3nrr0i9aj1mgn7b77sdj695i47hdvn8vi09lwdaqv0c4wfj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -76350,17 +76350,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220425.1619")
+    (version "20220503.2201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "af069f1df3cd0f7612083e4e6a5ddfb0dde07a5d")))
+                 "6a4d44aceb1dfc64a6647fa396f26203f5b92124")))
         (sha256
           (base32
-            "1jq9gc3cxan3xd8z7nmv6xn0iwfhppgm65k3g7l7r9mhw0vzzy4n"))))
+            "1ns8pk3wg4h613ahzia3lh67jxz50bhmc5jm78ar01i6nnj6mg8g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -97333,17 +97333,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20220427.1619")
+    (version "20220503.1708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "f3fe3d24dbc8f7d0a166385c8cdadc92e22575a7")))
+                 "de28f7903a3b895c3bf9628ac6d4db4378748fa8")))
         (sha256
           (base32
-            "12lfnaizfckq57krz1v5fkmrhf21l15miqff47z4hl3d8ix2yr3q"))))
+            "1j5s30rv6qxjiv73zzdl0mnm9qgndyiiqdc29j8iw5m2gv5p5ncl"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
@@ -110442,17 +110442,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220503.238")
+    (version "20220503.1554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "3531e9f84c4a54792c0680acf48eb48c91c658d9")))
+                 "50ca92c72d1ff5e4034c66fa115f25b60263cff1")))
         (sha256
           (base32
-            "12w2mcscwxshxv7v82yxsx55p917mjyn50c63apda6s2hp8qqf7d"))))
+            "1wqkrrjqivfqms6bn28694c9wvhcvb07pmik09mp9lc714qvavym"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
@@ -111260,17 +111260,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220502.1331")
+    (version "20220503.1534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "fdf7548fb32926cb9ebe192d9616167ec4805f4b")))
+                 "d46550e6ed659e6b6cdd157c6e366e5fff5f77d3")))
         (sha256
           (base32
-            "1gdhibanpbl8jiz2cncq91d39yhlwxw2xxhdgvlspj93vmqg3br2"))))
+            "09j44mr3jyh58l27jijd8hn741n2h3v6axv5vphrvqsn65wqkfhd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
