@@ -9849,21 +9849,20 @@
 (define-public emacs-calibredb
   (package
     (name "emacs-calibredb")
-    (version "20220424.1610")
+    (version "20220504.516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chenyanming/calibredb.el.git")
                (commit
-                 "8a6148a264e5e57e11824a238ae7b92bb3b6c9ab")))
+                 "a59e8ab65601e30073fa55bef76e95c964c678d8")))
         (sha256
           (base32
-            "0xqc8q8lqmqsmb9grmpwl45hyr94g2rycfng9ismjnxc182j925r"))))
+            "15dx3ppqrv1chkjpj0dn463bmhncvl5vy0lg74g6bdbw5z0vhbzc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-transient
-            emacs-s
+      (list emacs-s
             emacs-dash
             emacs-request
             emacs-esxml))
@@ -16155,7 +16154,7 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220503.1654")
+    (version "20220503.2229")
     (source
       (origin
         (method git-fetch)
@@ -22295,17 +22294,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220503.1706")
+    (version "20220504.448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a03f651791f50f1e49afb1bc4282af25bfec747e")))
+                 "15981b685cdb4948219a9db2da71ac9f7d60723c")))
         (sha256
           (base32
-            "0v0p05zn1zddpgi6zym43f79jivl22h0vxzlf75m81p8hn0hq67q"))))
+            "15wb8n2m2ba5rikilndd2jcqfyi9qnf5sm6qvbawbq4x7x67c4hg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -66538,17 +66537,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20220330.127")
+    (version "20220503.2340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "cd49433244ef450a1dd10a65a7839076d61bdcf1")))
+                 "9db4f2f2a2c4f4ef5fd4e80cb6dfe00306aa9d8c")))
         (sha256
           (base32
-            "0mdr09vqy4xrqb2l4g3j8n99zvqajw1jxxvvm9zv03zkwvcink1c"))))
+            "1dz0mjywjsgpsbqdyg7x3aw6p377zsw6qyfj8w5ab6kgln5b36fa"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "loopy-dash.el"))))
@@ -71831,17 +71830,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220503.1528")
+    (version "20220504.438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "94f39c7c6f4473836c88eb3f000468c0f25c4b3d")))
+                 "ee0670f85bc55a3178c18774e141b4e58b2f6fe7")))
         (sha256
           (base32
-            "0h2icrw1ikd3av2zyn5mhdjim1zk2bfczwbrvwirh5cc1kmzv5hq"))))
+            "14nfb94y9vcnpmwj9acwl6h5v0h1c6swqf33ch4zimxxqgx9zrm4"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -76350,17 +76349,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220503.2201")
+    (version "20220504.350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "6a4d44aceb1dfc64a6647fa396f26203f5b92124")))
+                 "e6b2a43f39984723d9413d20362bd33063582eb7")))
         (sha256
           (base32
-            "1ns8pk3wg4h613ahzia3lh67jxz50bhmc5jm78ar01i6nnj6mg8g"))))
+            "0d9xjqmp56bn2ikinc83ql4f278w9vcdj6fhkfxkp71587s46fi6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -81994,17 +81993,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220502.1612")
+    (version "20220504.106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "5483e65d5ac489f0bbadb68278bfbd74177304a1")))
+                 "007e76725cdee4b16c003aec096e2dd7ab399b56")))
         (sha256
           (base32
-            "1x3k443nxzv158svjjr89y96kv34gsvgs3an34s9js77q26v5jf7"))))
+            "1nxba0g9kvb0pfmyc94zd29w3mh8ghy8msg9ljksgqlwnc7hzsb6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84589,28 +84588,6 @@
     (synopsis "Export org-mode to HTML5 slide.")
     (description
       "Documentation at https://melpa.org/#/ox-html5slide")
-    (license #f)))
-
-(define-public emacs-ox-hugo
-  (package
-    (name "emacs-ox-hugo")
-    (version "20220425.301")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/kaushalmodi/ox-hugo.git")
-               (commit
-                 "262b7b432a7f81124fe181c07b57a4f42b6eedc9")))
-        (sha256
-          (base32
-            "0w8jhpb05bc9wflmrh7v2srdhfkj119ncfrslz2a9vdmp7dw02pq"))))
-    (build-system melpa-build-system)
-    (home-page "https://ox-hugo.scripter.co")
-    (synopsis
-      "Hugo Markdown Back-End for Org Export Engine")
-    (description
-      "Documentation at https://melpa.org/#/ox-hugo")
     (license #f)))
 
 (define-public emacs-ox-impress-js
@@ -93004,17 +92981,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220503.849")
+    (version "20220504.313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "90a5e443e9663731017e958c063633f8003a60e2")))
+                 "a52c11ada2381a162b1fd75d98282320601a1a1e")))
         (sha256
           (base32
-            "1ddkingnkzhx4c717hl54j6xqla6l7dslgfp296xbfs85p2ihxq6"))))
+            "0znxq15rwxzyn9d253yvr8dfnhrydzqag41xs6six7vb3ax21kgn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
