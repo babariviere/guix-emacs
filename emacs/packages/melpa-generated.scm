@@ -8743,17 +8743,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220325.1659")
+    (version "20220504.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "ba1c9d24d3f1ba58445cbf1f762ba6859b66f6bf")))
+                 "f213017cc64017a3ed4197a6528272679c0c0612")))
         (sha256
           (base32
-            "0davkvlyqj78i6njhkjyrv4l7qnscysimssbwjsnl4lbk7c1z85k"))))
+            "12h8n37bab1imq6drpq9y05wwpma86z3710w0pis64ippm4hnsb1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/buffer-env")
@@ -10197,17 +10197,17 @@
 (define-public emacs-cask
   (package
     (name "emacs-cask")
-    (version "20220503.1109")
+    (version "20220504.1421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cask/cask.git")
                (commit
-                 "8e56e92762e76a0a98d565528250e37ba239fd79")))
+                 "2eb520e64c2e1047319761df0bcc6fa5149f8cd6")))
         (sha256
           (base32
-            "1f6y8qr99cqbjykyjgwmawcrd8cysg3ssxbfdfjbb01s6zna25d8"))))
+            "1fg8c8wksban6kblrdsp008ga8srhyp7dbhzbk46dgmprvwmxbwn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -19149,7 +19149,7 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220504.1309")
+    (version "20220504.1410")
     (source
       (origin
         (method git-fetch)
@@ -23574,17 +23574,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20220421.2236")
+    (version "20220504.1557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "872ea5a7c7b2d9cc9e1370f397488e8f92149b67")))
+                 "10a47f0efb51289007da2997016debfa634af817")))
         (sha256
           (base32
-            "08393sjwri9sqxh4xhyn1rbg60783c18jqxxix0b9w03mprlj6xp"))))
+            "0lv7l6h2fgy29h83vn31mzri1l2w2fkviysrlxh6bc603q6gqmz2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -23592,8 +23592,7 @@
           "themes/*.el"
           "themes/*/*.el"
           "extensions/*.el")))
-    (home-page
-      "https://github.com/hlissner/emacs-doom-themes")
+    (home-page "https://github.com/doomemacs/themes")
     (synopsis
       "an opinionated pack of modern color-themes")
     (description
@@ -35970,17 +35969,17 @@
 (define-public emacs-fish-mode
   (package
     (name "emacs-fish-mode")
-    (version "20210215.1114")
+    (version "20220504.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wwwjfy/emacs-fish.git")
                (commit
-                 "a7c953b1491ac3a3e00a7b560f2c9f46b3cb5c04")))
+                 "2664dec27a28cdfc9f9296bf278ba8fb9269db02")))
         (sha256
           (base32
-            "1spxxkji9xa930sbwvzyjm8jrqk9ra0xqhivw7zd12a4c56nhna9"))))
+            "12xwpwpp2gbc4202h51hxq2s8grasl3xdd5ynzwvzq4qg3vy5ivj"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Major mode for fish shell scripts")
@@ -75537,17 +75536,17 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220501.2104")
+    (version "20220504.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "915b468ce051dda9d91932b2b305bd8e8da99708")))
+                 "c1f24d46e08972b2be3912e41337eb630514ac06")))
         (sha256
           (base32
-            "1k7s16ms2cqhzwlyin0q9nxhxj6zqcvafvq3lyygjv8flrzhnw90"))))
+            "1q927nn8hss0h93jjawkcrzk9fkhk0qdsmsry851bi397sva6n7b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash))
@@ -93524,17 +93523,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220504.1237")
+    (version "20220504.1829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "d9937dd995302056066ab99878c6c85495512611")))
+                 "f633c00233104d506fe2801d00f1430110ca5cdc")))
         (sha256
           (base32
-            "1111jb0a64pgmi501s4pdd9sjgr4x2icl7vp67r9gn98792bfmjm"))))
+            "1lcy5lgv5pf01i7kbz45jggpzp09jnkxy1fvzmjab5a441sz92kx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -107911,17 +107910,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220430.2143")
+    (version "20220504.1751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "a021485c38be1b5fd728f1a077943696945e9368")))
+                 "d8c9e06b4260c970b5a26e14c11d5e396dfc1de1")))
         (sha256
           (base32
-            "10554kcjzwvxng4lhiwhfi8zaix0jm9s9g9gz4x2d7mzy8nmqhk9"))))
+            "1c5rra6gv6xyi200khjlxjrd7r1ndnqam8ln8rd9sd6mmky4bs07"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -110419,17 +110418,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220503.1554")
+    (version "20220504.2220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "50ca92c72d1ff5e4034c66fa115f25b60263cff1")))
+                 "cbd1f7e8dad4284455488f759946d2f38deff2c6")))
         (sha256
           (base32
-            "1wqkrrjqivfqms6bn28694c9wvhcvb07pmik09mp9lc714qvavym"))))
+            "0lbcabpp5a9zz36j710b1dw1zzjhhm1434nv3icq8q2z6k8n06xb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
@@ -117721,17 +117720,17 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20220424.1712")
+    (version "20220504.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/wordreference.el")
                (commit
-                 "33303dc1ee71bb78b6a9bf96b22b3bd6a62203a8")))
+                 "30d2ddb9a0a4ad0223bae81ba56d65b620dccf0b")))
         (sha256
           (base32
-            "0is7hgx4qr3qjfpg3qwzhrmj94a4xr4ggjpfbnb0pz922r2cz3da"))))
+            "1hbl5mwnmhzxygi8b688afh1c3sgcg306p1z1c4w60palspxhaq6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
