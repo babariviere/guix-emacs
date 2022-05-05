@@ -5010,17 +5010,17 @@
 (define-public emacs-auto-highlight-symbol
   (package
     (name "emacs-auto-highlight-symbol")
-    (version "20220223.1622")
+    (version "20220505.505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elp-revive/auto-highlight-symbol.git")
                (commit
-                 "db22c24d13532e80ce02c2f51f41f6c979cf0604")))
+                 "3d60d2c64278f9f933ee78299f6decde2254af7e")))
         (sha256
           (base32
-            "0z1frm9kicrlb63iyk7wa5dpvy92ygh5vxaw2kv1rvnfbsfmxl7b"))))
+            "1r5a9a1s0gb1f7dr36bjkf8zch0q7krk0mjikhs4kd2rfga3ba4a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ht))
     (home-page
@@ -21286,17 +21286,17 @@
 (define-public emacs-dir-treeview
   (package
     (name "emacs-dir-treeview")
-    (version "20210625.2358")
+    (version "20220505.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tilmanrassy/emacs-dir-treeview.git")
                (commit
-                 "c48b0e12eb02ae046cf6dc97fe006db31ded3f2b")))
+                 "fa0b795b36740755ec37f5b41c3a734ad702e5a1")))
         (sha256
           (base32
-            "07hhy41h1qx38rrf6f9b2r13chs3v4mzyplhpx1r6wjrj0nmh2pv"))))
+            "17r27gvapc68dwyd4diw406k9nx2slicshdl923swqzyxm2c75vb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treeview))
     (home-page
@@ -26844,17 +26844,17 @@
 (define-public emacs-eldoc-box
   (package
     (name "emacs-eldoc-box")
-    (version "20220228.631")
+    (version "20220505.315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/casouri/eldoc-box.git")
                (commit
-                 "c0cbb8d9191a1df8a289aafc8cb94a3ebb515d6b")))
+                 "6c3107aa6955b8ada76f73519363224efda097d8")))
         (sha256
           (base32
-            "102z9wl7d563x7i44zhlc81bi7k030rlzfgs5cm8vbmalgqv1c63"))))
+            "147ndggirxxr97l95gh9vxhnq3jdps4gak0lsmy2lvwhpw8rj508"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/casouri/eldoc-box")
@@ -36402,17 +36402,17 @@
 (define-public emacs-flim
   (package
     (name "emacs-flim")
-    (version "20220427.1122")
+    (version "20220503.1442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/flim.git")
                (commit
-                 "e7e2f51b6817f55e45916811c5fa1f102fcd24bd")))
+                 "289e5bbd66f6f14306a6e0b922ee8f26267e2470")))
         (sha256
           (base32
-            "092c6p4f3v76a2vya83ww28gkrz7b9amdnkr19xmipl1pgr55yzl"))))
+            "00w0381nngj497jf240zrh26hhanm6fn9xl74k1f94crsfva3ccq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-oauth2))
@@ -67010,17 +67010,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220502.459")
+    (version "20220505.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "f7b363082f28aaf54b354912cd3ad3253a1e5fe4")))
+                 "6327359f3b5e19aeaa1c9ee6bd9b80b51f95f843")))
         (sha256
           (base32
-            "0svc6ax4rxn4fak7ij8dqass6gq44n5ffawvi23r7cv64d1w14xg"))))
+            "04aw7iq07nv9b1nhf9qq7sdphhq3fa684rkaxvc23r1zraxxqsdf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82389,17 +82389,17 @@
 (define-public emacs-org-static-blog
   (package
     (name "emacs-org-static-blog")
-    (version "20220428.923")
+    (version "20220505.620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-static-blog.git")
                (commit
-                 "f74c93cdb84af627543d4ac08d5671f311277ebb")))
+                 "61a3ab0e2e8e1ac0ef8772e89ae320c07142f7f5")))
         (sha256
           (base32
-            "1ry353lynq63qv4ivymmys1r2br22sh2hvg7927hixqwj5r5nqvm"))))
+            "0p3bhnp91x65xr5d40kdmyj7vgyq62bvq3b1gfwv7881sh8p6hr9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/org-static-blog")
@@ -92980,17 +92980,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220504.313")
+    (version "20220505.643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "a52c11ada2381a162b1fd75d98282320601a1a1e")))
+                 "34a1140ddb824b1be727fdf994c3680b07990af4")))
         (sha256
           (base32
-            "0znxq15rwxzyn9d253yvr8dfnhrydzqag41xs6six7vb3ax21kgn"))))
+            "152z5kgwh3dg8fn0511pgcz11hd5277hj52dmnb7s42m0288q7jm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -99852,17 +99852,17 @@
 (define-public emacs-semi
   (package
     (name "emacs-semi")
-    (version "20220427.1124")
+    (version "20220503.1449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/semi.git")
                (commit
-                 "dca60ff62fcd5abb9f7e92a8e75f2b282112c7dd")))
+                 "b1c245b81715b0430f7593cee2339e6264104f3d")))
         (sha256
           (base32
-            "0c7ygsa3gmd0dpsrd5m8a7qiqladf2hhhd322b8lpqxg6zx8a8jf"))))
+            "1s1qvhxklzhmq9h62cn95iaxacvmp7c2hn6jh9bhymx4x9afqagh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-apel emacs-flim))
     (home-page "unspecified")
@@ -115782,17 +115782,17 @@
 (define-public emacs-wanderlust
   (package
     (name "emacs-wanderlust")
-    (version "20220103.800")
+    (version "20220429.549")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/wanderlust.git")
                (commit
-                 "638d089bba25ce8184c981d0721eba6417b3d7e2")))
+                 "a341b43e5e5fc97a14d1c9fc7d8e92490a8b7a0a")))
         (sha256
           (base32
-            "1rz9ydhhx38xvyggfdw8aqb2dgvv36g1db13ggkcyxcwp3x22y4s"))))
+            "1gwzvwnc12c4gs8z0mm56w4s550iqmxgzyvaacgzn7jnmnm2js9x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-flim emacs-semi))
