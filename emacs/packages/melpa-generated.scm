@@ -2421,17 +2421,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220428.822")
+    (version "20220505.834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "7d5a04b6beffcc96572d74304d58372a413a0076")))
+                 "7c9db258ba7dd0a8c90eb7cebd335961cc45e031")))
         (sha256
           (base32
-            "1c3dj50py6ayi35l2pwk4wn4ivzq6fmcwz5ygkw7hhf2z0wji0kz"))))
+            "0jh46x04n13a2bcfz5vkpwknhc6d6ppfpf39w5v980my2jghs5n7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -16223,17 +16223,17 @@
 (define-public emacs-consult-dir
   (package
     (name "emacs-consult-dir")
-    (version "20211007.2352")
+    (version "20220505.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/consult-dir.git")
                (commit
-                 "08f543ae6acbfc1ffe579ba1d00a5414012d5c0b")))
+                 "eee5beb13112d315fd283573006277d1b7a27843")))
         (sha256
           (base32
-            "1cff4ssrn1mw2s5n090pdmwdirnfih8idg5f0ll2bi2djc4hq5kn"))))
+            "1z8q1wjk54ka42xmmsvcfkgqcdsanmfi9m2gqyjhyz93kwrqpwa3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -16462,17 +16462,17 @@
 (define-public emacs-consult-projectile
   (package
     (name "emacs-consult-projectile")
-    (version "20220414.738")
+    (version "20220505.1139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/OlMon/consult-projectile.git")
                (commit
-                 "f510a5ca83cc8a42a2038ae15e998ca1c4f2f575")))
+                 "8e618bc62405e345cc59e891f82d8ee45691010a")))
         (sha256
           (base32
-            "1w98blw40y6pjrmgh123q2a1gnbwsk0sfjkdx4z2as27pyxnryby"))))
+            "1mpj0sxy1x8333h88av4nmawy5amgbszxfzc653w3325s6x39xnc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-projectile))
@@ -28800,17 +28800,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220503.1817")
+    (version "20220505.615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "e9f0ea81a492f2e12971ad0e2f6c9771fc1f0ec9")))
+                 "80ff7d105afc090817c4162ec021758e586272f2")))
         (sha256
           (base32
-            "067399yv9ka3ymzyqkgx3l2052ss8c5pqssbw5p3cin2d1p1wp99"))))
+            "0l75mr1pwagxphap26dpmhx1rmnlllzldsi0w2sgxxqxs6j1iw3f"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -31538,17 +31538,17 @@
 (define-public emacs-esxml
   (package
     (name "emacs-esxml")
-    (version "20211122.1657")
+    (version "20220505.1058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tali713/esxml.git")
                (commit
-                 "f88a323bd15ad7bd94eda684e1a36525ba81a089")))
+                 "aafc2eced58906678d1e789855893e0f8cd6fc1c")))
         (sha256
           (base32
-            "1sx8mjk0pfbl664brfwmswn6q1z0iyz23d1457z1imh98b1g91xy"))))
+            "0adbbnmw0m67qy4rhn34hw8xs6439z21zmmjnyywq62jyl8gk6a4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-kv))
     (arguments
@@ -32120,17 +32120,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220501.1712")
+    (version "20220505.619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "ca4c6172240321a06498390d7d6fa790033f7fc1")))
+                 "9707efcae4fc76fa204b1c29565aae35b99b865a")))
         (sha256
           (base32
-            "09a7w18xmv9wim38s50sdaj5yhc0vrmna4sndmcybkmkk0s4ndy8"))))
+            "0iyhxmaiqk0c72lmggv9jppxmlkb0vd9y0zqxgzjnznz9p08l3vz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -35969,17 +35969,17 @@
 (define-public emacs-fish-mode
   (package
     (name "emacs-fish-mode")
-    (version "20220504.1542")
+    (version "20220505.1111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wwwjfy/emacs-fish.git")
                (commit
-                 "2664dec27a28cdfc9f9296bf278ba8fb9269db02")))
+                 "d04478c0aba018cb789d77d591bfe315cb25132a")))
         (sha256
           (base32
-            "12xwpwpp2gbc4202h51hxq2s8grasl3xdd5ynzwvzq4qg3vy5ivj"))))
+            "1dkimwhf7l6bcv6wyh0x4z1zp28kcdakzpz20q279amghif4dymd"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Major mode for fish shell scripts")
@@ -67687,17 +67687,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220503.606")
+    (version "20220505.1059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "c0d74a5a820742400e05859c1f56443c1aabd25b")))
+                 "da67254eaa162613af900f211fbb4ac9dd84e137")))
         (sha256
           (base32
-            "1yygmwydzfa346w2d1dkb7s2vkg0h1aw2kimzn1rhq9caabbncsa"))))
+            "1xpfsj7dhi09h5cqb02ddnc18kbckbn49q2nyk9nj0lpbniayvqk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -71829,17 +71829,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220504.438")
+    (version "20220505.737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "ee0670f85bc55a3178c18774e141b4e58b2f6fe7")))
+                 "842c672a81cf976b47f0fb6ae13bcf13ee774024")))
         (sha256
           (base32
-            "14nfb94y9vcnpmwj9acwl6h5v0h1c6swqf33ch4zimxxqgx9zrm4"))))
+            "10a9x1bxhqfyyzrjvr9pfhhg07j7liffglk093627zxia67rhg2c"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -94214,17 +94214,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220429.1958")
+    (version "20220505.1350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "e878810ce83f1a6f8903e7614e25cc90454679d5")))
+                 "fbb4a4664e2cc2b5d21eee62735f73b7f0272e60")))
         (sha256
           (base32
-            "15hvy9wgiwqg2dhp9i6xbf60qk4kdpyalwz9iq1n9n2j8cwcfwj6"))))
+            "0120v4z3qk59bkfcn1gazjp0xyn2vbmb4cpflpir4b0xndpgp92g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -110259,17 +110259,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220503.1129")
+    (version "20220505.1155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "3403b0855f8a91d0102e051266c707b76e230a19")))
+                 "118565dab2d3cf1b083d666bc19ed1b063035732")))
         (sha256
           (base32
-            "1ns022fkgf0pma3idlsbk4gb704ra5yv22gdg37s6x1pv9sx48b1"))))
+            "1l2s99n7gcm810di9z7v79znlg3yy3aj6pdgwgd7mnyjhlxm3m4a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -111236,17 +111236,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220503.1534")
+    (version "20220505.1120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "d46550e6ed659e6b6cdd157c6e366e5fff5f77d3")))
+                 "eb6e530e856cccdaf34dc1ae8fc87090383c7f59")))
         (sha256
           (base32
-            "09j44mr3jyh58l27jijd8hn741n2h3v6axv5vphrvqsn65wqkfhd"))))
+            "1bg2qqn8rfa001n150f930ayp1q0jz2b0dzf85ryxd2mr5kclp96"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -120214,17 +120214,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220423.1935")
+    (version "20220505.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "404b52829ad58155f8ba40e507334267ad95e2a1")))
+                 "d6d7713cfac073940dcd96b55c18830a64d4ccca")))
         (sha256
           (base32
-            "1hgl4swipnqlbrbvysyjxr34h176ax0j7ynca5kaq489msznvf5x"))))
+            "09vnhnf61l5ap60b2kbc11sxj2zqbf57gmcjv954wsd6zr01rzcg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
