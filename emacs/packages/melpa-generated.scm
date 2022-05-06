@@ -8743,17 +8743,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220504.1643")
+    (version "20220505.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "f213017cc64017a3ed4197a6528272679c0c0612")))
+                 "504ebfe8670e778a9c53fd8712b1d97584abb233")))
         (sha256
           (base32
-            "12h8n37bab1imq6drpq9y05wwpma86z3710w0pis64ippm4hnsb1"))))
+            "0j7qpjdpmyd7rbv2acarwxh2i68nchyg5y44v2b88av1fiyl84zi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/buffer-env")
@@ -22294,17 +22294,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220504.448")
+    (version "20220505.1830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "15981b685cdb4948219a9db2da71ac9f7d60723c")))
+                 "8c55a5e89237b68866f2653e99b5cf746cd58b9e")))
         (sha256
           (base32
-            "15wb8n2m2ba5rikilndd2jcqfyi9qnf5sm6qvbawbq4x7x67c4hg"))))
+            "0vyscwv6cb38x9rhsgx2jwy8g02syn41f0s5g5ghw3y5fr4hgvpv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -67687,7 +67687,7 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220505.1059")
+    (version "20220505.1455")
     (source
       (origin
         (method git-fetch)
@@ -71829,17 +71829,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220505.737")
+    (version "20220505.1841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "842c672a81cf976b47f0fb6ae13bcf13ee774024")))
+                 "e034dcaa1606db2e8c62cb1b4982e98a4f41eb12")))
         (sha256
           (base32
-            "10a9x1bxhqfyyzrjvr9pfhhg07j7liffglk093627zxia67rhg2c"))))
+            "1xzadfqmbsgn69lawbxax6yq0nvsgx6h8rkkl9m783waxv92cb2q"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -75183,17 +75183,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20220422.451")
+    (version "20220505.1706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "66206cab276c0f4d1c84e77ba2a67ed6a46b2d9c")))
+                 "8fe2ccf0b01f694a77d2528e06c10f06057784f6")))
         (sha256
           (base32
-            "0a1hcqib9aq1d73yw2yznyhlmxyiyhzkf8dbgjhixpqj6j7ihvg1"))))
+            "08kz9qp4gp55z1i87ig0ysq6pgqgwlgr765g1vp8gsh6lp3myh36"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (arguments
@@ -81838,17 +81838,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220429.1110")
+    (version "20220505.2209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "f2ebc18c36c106e94810d5a1b15b108811a87283")))
+                 "a5a096b0c621fb42aa80cea14677bfb1d0df1f39")))
         (sha256
           (base32
-            "1wkka10i222x9i0nisdwyl8px090ij6246bs42rh6rzisz687y6d"))))
+            "1xirg1cjzr7dm6ffmhybl3s2vvwy72nz775dqmf3aa4kgvg6n47v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93501,17 +93501,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20220128.1953")
+    (version "20220505.1523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "97e58c6b785f7096c0e02f6c1d12b008cc0219c1")))
+                 "6016c780865b3b9dcf90d9452367e0d39bbc1d1f")))
         (sha256
           (base32
-            "0nhk2jwzlnc0c1fzzdbc7dwil9wwk2ghizgynvdp9b2kg3jyd76n"))))
+            "00n2vrc7yq2cfsiwpwdga0yjl483rd59zvbdf41nxa92sircvjp2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/python-mls")
