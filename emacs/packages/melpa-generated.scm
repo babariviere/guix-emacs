@@ -26844,17 +26844,17 @@
 (define-public emacs-eldoc-box
   (package
     (name "emacs-eldoc-box")
-    (version "20220505.315")
+    (version "20220506.28")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/casouri/eldoc-box.git")
                (commit
-                 "6c3107aa6955b8ada76f73519363224efda097d8")))
+                 "8d523f4fddbd8986340cf76f349ab18c0b3d5581")))
         (sha256
           (base32
-            "147ndggirxxr97l95gh9vxhnq3jdps4gak0lsmy2lvwhpw8rj508"))))
+            "0sa97bxkl04s3kg1fd6c6dynp9jklw74jkgny2qhk1d2lzc64bja"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/casouri/eldoc-box")
@@ -61186,24 +61186,25 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220420.455")
+    (version "20220506.519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "d72afe0e06909ee5a66ca7d60eef4111f62da234")))
+                 "603c752d67e02ce078084d8ad98031530b952cc1")))
         (sha256
           (base32
-            "1wiyym49c7ckj610wkdlnm1n2kz012ja7d1668mc839rzla2lbwm"))))
+            "08hg1j222hh1lh2zl8g0pp76nck9gv2fyj1z738mzx93ph738ypv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
             emacs-julia-mode
             emacs-s
             emacs-spinner
-            emacs-vterm))
+            emacs-vterm
+            emacs-popup))
     (arguments
       '(#:files
         (:defaults "*.jl" "*.toml" "extensions")))
