@@ -8555,17 +8555,17 @@
 (define-public emacs-brutalist-theme
   (package
     (name "emacs-brutalist-theme")
-    (version "20181023.1222")
+    (version "20220507.909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.madhouse-project.org/algernon/brutalist-theme.el.git")
                (commit
-                 "72adc339c433a98e944cbe76da4c45b9ba4400f5")))
+                 "c58131f3a8cb71cc0f8efa47766f29578c45bc59")))
         (sha256
           (base32
-            "068a0z66bidzllz8jhkcfqjksjyffhzqkvddpazcbcnj9fq6ircy"))))
+            "09kak8szdfbscd0byj1mdgb94ajrrr4kcqf5x3c2bwlgdazr15gx"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.madhouse-project.org/algernon/brutalist-theme.el")
@@ -11635,17 +11635,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220502.903")
+    (version "20220507.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "4ecf553baf40df0b956b2ce84d49a03654883829")))
+                 "69d374818bd0af1489ee8828b258c689ccc24a66")))
         (sha256
           (base32
-            "15zrsfnd2i7nhdsrb1j9q7k485lh6xsdch9zhfazblnyq7x1gj5c"))))
+            "0r585myfkdsqrmd7fydbfdakwsfh4wq4bkjgngyag8mkam88ms16"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -11919,17 +11919,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220426.2152")
+    (version "20220507.1216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "08caa779c4254a69dc2f65e48d85723452ff2a3a")))
+                 "c07217124bf20a9ce5e02d653b28e2a38e9453fc")))
         (sha256
           (base32
-            "08fwvhjgjkrdcxycklawql85iz5aj261mjcd65p8ibclkqr9az7p"))))
+            "1p079f8c9m8k99267c2ys4li74ncnby14h2r9qz52qlmp782b9h4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -16367,17 +16367,17 @@
 (define-public emacs-consult-lsp
   (package
     (name "emacs-consult-lsp")
-    (version "20220409.1107")
+    (version "20220507.856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gagbo/consult-lsp.git")
                (commit
-                 "a8eb3a062feb2715f174500d0624d3a85e000cf7")))
+                 "19606a03cf854e1b0930c4526ed92c4560dccdc2")))
         (sha256
           (base32
-            "12yq494xd256fsqzlvcpv70i6szyvqchhrw9wnkw320ciim815sw"))))
+            "1g4wimqghcph6jrk9y7sqk2pqppx63n4z0557fpgwd57x62rl7zv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-consult emacs-f))
@@ -22294,17 +22294,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220507.425")
+    (version "20220507.1402")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "fa5f3475eff20a67ce4c4446b3c2d74cd6f1f92c")))
+                 "3075374d34a96d320e54ec053a30482170d08c2e")))
         (sha256
           (base32
-            "1mw9xaqdwkc8j14bnz8iklxahp1mhsggf3hyv06hpmk88149q1vi"))))
+            "0m1irmhr7ih2p8z9a3fzb8xqyqyx1nf9idnz6cbmsd32racgk2gz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -31923,17 +31923,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220503.1314")
+    (version "20220507.902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "f6866b5d2b85a38ad8029f83b113371d1b3aecd1")))
+                 "61a680042f422be715b42ceccb2418847c5f6b65")))
         (sha256
           (base32
-            "05sarx3nd73yka66wr2blhzlaxx2yr2iza0c03xx1m7hik7wk8vs"))))
+            "0imcxr2lq1bqpcbqv97lly904iq8iz30gry1qgj4phmksji73b42"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -81877,17 +81877,17 @@
 (define-public emacs-org-ref-prettify
   (package
     (name "emacs-org-ref-prettify")
-    (version "20220112.1746")
+    (version "20220507.649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alezost/org-ref-prettify.el.git")
                (commit
-                 "cbf9a709a10304981c38eba1149def17151aca3c")))
+                 "0ec3b6e398ee117c8b8a787a0422b95d9e95f7bb")))
         (sha256
           (base32
-            "1n1rgm2i3mn8cyyslbkrh6gyln59sn03bld0m5ib0s1a8k9099pp"))))
+            "14cs9qg1fszg9gxpkrf74b49avcx4smpr39z7a9k3n2w6v4dn19x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-ref emacs-bibtex-completion))
@@ -83767,17 +83767,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20220403.904")
+    (version "20220507.1001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "ae8194e3032d8740edd7c08380ff5dbc6767fd9d")))
+                 "17884f69eb9681db880865af73762686c8e83cc0")))
         (sha256
           (base32
-            "137lc50913c3fjfsw668d2rvg58r122z722wc314f6rvdsxx7h1d"))))
+            "0rxrzgaxn4ck40jgrnr01s3f96vd4v66jwkg0bfklxgxsx9dmnav"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -107934,17 +107934,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220504.1751")
+    (version "20220507.607")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "d8c9e06b4260c970b5a26e14c11d5e396dfc1de1")))
+                 "24266c6c9a766261a8c8620692dfa4000f3e1d5d")))
         (sha256
           (base32
-            "1c5rra6gv6xyi200khjlxjrd7r1ndnqam8ln8rd9sd6mmky4bs07"))))
+            "1fyfpi31qy03qpxw8hpjgykn67pvflgah3agwf053iqpj1krh1gz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
