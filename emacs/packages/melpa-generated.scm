@@ -22294,17 +22294,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220506.1408")
+    (version "20220507.425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "967cab02edc1328d654c216c1a102c1e77faae1f")))
+                 "fa5f3475eff20a67ce4c4446b3c2d74cd6f1f92c")))
         (sha256
           (base32
-            "03dl7yiblbsawd7wzdfrcqfhq6vl0lvjf8qccc25gbzwy4vr9aw2"))))
+            "1mw9xaqdwkc8j14bnz8iklxahp1mhsggf3hyv06hpmk88149q1vi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28800,17 +28800,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220506.2231")
+    (version "20220507.144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "273261b717fbc12ff8e46392a4ce813158877fa2")))
+                 "d88478b45f2d589339334dc8d40b07bce28aab0e")))
         (sha256
           (base32
-            "02ajprpsb450r5pz0r49fcijrn81xc5dzylrcr1j3rbqlc6fvgs7"))))
+            "11j45y1kvh5gmscklimc0zgqm8px38qh0wdlwdwwz3is36043yx8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -28824,17 +28824,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220503.1817")
+    (version "20220507.143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "e9f0ea81a492f2e12971ad0e2f6c9771fc1f0ec9")))
+                 "d88478b45f2d589339334dc8d40b07bce28aab0e")))
         (sha256
           (base32
-            "067399yv9ka3ymzyqkgx3l2052ss8c5pqssbw5p3cin2d1p1wp99"))))
+            "11j45y1kvh5gmscklimc0zgqm8px38qh0wdlwdwwz3is36043yx8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -42534,17 +42534,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220423.1805")
+    (version "20220507.34")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "1b1fdd2be47fcbadab4b224266d30dee4484a4b0")))
+                 "d28d19b582347bffebbf0ca905297e744842a5f2")))
         (sha256
           (base32
-            "1kxiz7pbjb1bf3f1zngala0gi3gkz0yfmz33hhg7lhzs0zhmgn60"))))
+            "0g96982zq5yarv1ky86qvin2an30n4fsxqgrcyg6yhas9vz7gc4b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109089,17 +109089,17 @@
 (define-public emacs-texfrag
   (package
     (name "emacs-texfrag")
-    (version "20200716.1331")
+    (version "20220507.431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TobiasZawada/texfrag.git")
                (commit
-                 "a5f59e0c5f43578f139a2943bd08e5b3140f4c2b")))
+                 "ec99cba30602b65dc0c7ad7f6d440c9e30856985")))
         (sha256
           (base32
-            "11xissn0xpfx2xxcm5qj2smkxa5frcswvhpfv6m34j12z0nww7pw"))))
+            "1j04a6hsslq435m777y6flwix621h982qmx01sj7d5qmkn9whgss"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
