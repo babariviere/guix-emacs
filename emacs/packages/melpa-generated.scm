@@ -8743,7 +8743,7 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220506.1155")
+    (version "20220506.1506")
     (source
       (origin
         (method git-fetch)
@@ -9993,17 +9993,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220502.1039")
+    (version "20220506.1814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "d836397d9c025f03125fb4321abd48d557518bb6")))
+                 "e72edf2d6357beb64798ef1894cc807190f80901")))
         (sha256
           (base32
-            "1zcy3nygw9w2av9g15b3hvmwiv6dn9cksfaiws28llcvs6xq31za"))))
+            "0l6slrbh7sr3r3zgxh4r1r0g2131mvpmy2vd1hrkjf9q9c5hpqq0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -20868,17 +20868,17 @@
 (define-public emacs-diff-hl
   (package
     (name "emacs-diff-hl")
-    (version "20220405.2359")
+    (version "20220506.2102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/diff-hl.git")
                (commit
-                 "9d5dc2ffa1e4c7b43734b03dccb5ae6a80800569")))
+                 "14f2db367e8023ab0027713315a38ecd703afdbf")))
         (sha256
           (base32
-            "1mk0lqfgln23zqx4fc1z6vv2wprmksjv2cy7yyrj8qvkm29fqm94"))))
+            "0ciyg1g9sil1pvmd53r57gyds85f11457anjcfi96p4jjyjg9sxx"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dgutov/diff-hl")
     (synopsis
@@ -28800,17 +28800,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220505.615")
+    (version "20220506.2231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "80ff7d105afc090817c4162ec021758e586272f2")))
+                 "273261b717fbc12ff8e46392a4ce813158877fa2")))
         (sha256
           (base32
-            "0l75mr1pwagxphap26dpmhx1rmnlllzldsi0w2sgxxqxs6j1iw3f"))))
+            "02ajprpsb450r5pz0r49fcijrn81xc5dzylrcr1j3rbqlc6fvgs7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -39320,17 +39320,17 @@
 (define-public emacs-flymake-cursor
   (package
     (name "emacs-flymake-cursor")
-    (version "20220502.456")
+    (version "20220506.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flymake/emacs-flymake-cursor.git")
                (commit
-                 "91025284824b3fef086709702e8a791dbaf2ef4a")))
+                 "95806594cacddbbc0c3aa2351a6a7cf28e73a8bf")))
         (sha256
           (base32
-            "00199diz5cjlv1k28j9agnp3cb89c6vmfwdgyssk9v3676r7cijn"))))
+            "19h47khw9p68yk9z4z7jrakniiwc1b3ca1r2017h3ldzmpacwa6y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/flymake/emacs-flymake-cursor")
@@ -43654,17 +43654,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20220429.934")
+    (version "20220506.1936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "eef732e30b9409e1b3c96edf2a62c764be86097c")))
+                 "09ed9e739b9403520c63bfa21a53892305ffb963")))
         (sha256
           (base32
-            "1aj9ci2la1vvwa6hxw67h3daa9h09raxj7b8krnvsmwsv220is73"))))
+            "0vkbyj0v3v7g5f4lfpjd71pl0hb52wvqq23ip3mdavnj3cs9jvsp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -67891,17 +67891,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220506.1136")
+    (version "20220506.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "ea1d09e0a788543ed958579bd3da8c4c04b4532a")))
+                 "09ed9e739b9403520c63bfa21a53892305ffb963")))
         (sha256
           (base32
-            "1icqm8j301q4pxd0hlbdp8p42wxh8iq5h7qiahhzzsyxyhq91va2"))))
+            "0vkbyj0v3v7g5f4lfpjd71pl0hb52wvqq23ip3mdavnj3cs9jvsp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -68364,17 +68364,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220502.2245")
+    (version "20220506.1936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "547ad9e39341c9a9dc37b2c88acb487d737a8e3b")))
+                 "09ed9e739b9403520c63bfa21a53892305ffb963")))
         (sha256
           (base32
-            "1zwr7s92m10y28qk53yqg5y1bwn37q0dlvbp3906anbgyhqhfphn"))))
+            "0vkbyj0v3v7g5f4lfpjd71pl0hb52wvqq23ip3mdavnj3cs9jvsp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -93524,17 +93524,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220506.1229")
+    (version "20220506.1922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "3d8b2c469b4659e820bad8cf386c47f25cd82f33")))
+                 "0c99eaa39b1f4ed23791d1537b9df75ce73071a7")))
         (sha256
           (base32
-            "128g6hzc1r9fpb04lsnpiys6cj7rqqd46h2z4nv3l0qixpnsp5dx"))))
+            "0sqb2zql8w2rglmcblhccvx36ds5q9qm6qpsv51vjznm2f20ikds"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -101873,17 +101873,17 @@
 (define-public emacs-sis
   (package
     (name "emacs-sis")
-    (version "20220504.1316")
+    (version "20220506.1606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/laishulu/emacs-smart-input-source.git")
                (commit
-                 "a72e09246bc5be7a164932c51e7dd2a5d2d97858")))
+                 "f26d25194c65e19b5473fa1a3cdf96be2b209e19")))
         (sha256
           (base32
-            "15r8p1h5g844098szxp95dm5jnqdib7cvr0rwxw0a4159vgkj4wx"))))
+            "1427qzmr1cmhld24iza0hrkfcs03h4flf3lcyhxfrykikqs486is"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-terminal-focus-reporting))
