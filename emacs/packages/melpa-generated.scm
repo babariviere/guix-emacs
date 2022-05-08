@@ -19149,17 +19149,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220504.1410")
+    (version "20220507.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "675d5a8e959ab0f2d1f8261a7cf99e6d8f169118")))
+                 "d534b4a2f9ec3f9e4d804a660830764bed062e15")))
         (sha256
           (base32
-            "1i98bccbgdy1iygbccjq1xfinphrzf4750nb765kq11fqlzlm2xa"))))
+            "1ww9hlwa3912gkny16chvk4s7qzn2sl0hf81dijismxwwlpcmhid"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -19928,17 +19928,17 @@
 (define-public emacs-deadgrep
   (package
     (name "emacs-deadgrep")
-    (version "20220418.741")
+    (version "20220507.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/deadgrep.git")
                (commit
-                 "bd5d00be3637dcd9e0b14966b87e3d8151710db0")))
+                 "ae333e4069e296e98bf9631088c8198f50891d55")))
         (sha256
           (base32
-            "1lh1992lr8kpphv1lr23s78rlypa6z6p0izpiw6qb738dshpbzmc"))))
+            "000s08mwadvdwcsisw741pv3l5znii7qbdc2865i8ywbj5b3dadb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-spinner))
@@ -22294,7 +22294,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220507.1402")
+    (version "20220507.1433")
     (source
       (origin
         (method git-fetch)
@@ -28800,17 +28800,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220507.144")
+    (version "20220507.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "d88478b45f2d589339334dc8d40b07bce28aab0e")))
+                 "857c8403529f54bfeecf460fe98b1a0b8e206802")))
         (sha256
           (base32
-            "11j45y1kvh5gmscklimc0zgqm8px38qh0wdlwdwwz3is36043yx8"))))
+            "09rpnr8lxk5gpjx4vbsi59027yggwh68909vqyxhbqqs2d7f9n26"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -91245,23 +91245,22 @@
 (define-public emacs-prodigy
   (package
     (name "emacs-prodigy")
-    (version "20210116.816")
+    (version "20220507.1753")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/prodigy.el.git")
                (commit
-                 "168f5ace1671876d8c3bd350c0853bd0196bddda")))
+                 "535789e32028133fa9dfb4c9135b6a65c199472f")))
         (sha256
           (base32
-            "15rshpq0h5i252xamxh70acdz9jddn5xwgswzk5h2b24kxsbfnli"))))
+            "0x68c7c40cafg4lbi1lwlli3bghnhcb21wm4idg6qr07y351fjqd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-f))
     (home-page "http://github.com/rejeep/prodigy.el")
-    (synopsis
-      "Manage external services from within Emacs")
+    (synopsis "Manage external services")
     (description
       "Documentation at https://melpa.org/#/prodigy")
     (license #f)))
@@ -93524,17 +93523,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220506.1922")
+    (version "20220507.2031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "0c99eaa39b1f4ed23791d1537b9df75ce73071a7")))
+                 "c9ba7b75ee940cfdb5d3da0211e6a954c1735592")))
         (sha256
           (base32
-            "0sqb2zql8w2rglmcblhccvx36ds5q9qm6qpsv51vjznm2f20ikds"))))
+            "1qcx2kaqxwmap39jvyzy8i1s23rsi0cyai5zn89gjvif0smyj9h4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -105597,17 +105596,17 @@
 (define-public emacs-starlit-theme
   (package
     (name "emacs-starlit-theme")
-    (version "20220412.1312")
+    (version "20220507.1833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SFTtech/starlit-emacs.git")
                (commit
-                 "ba7f57db3988075394d6ccec97f0dcb35ebb089d")))
+                 "f788903244778508891eba0da70ea9f287efc9ae")))
         (sha256
           (base32
-            "19vlv75ycsr89wi4fhh5fsw0q37dw32hyhbznbbc83dpahmxda8n"))))
+            "12dn7sz4xkici1k3jizijh0lzwf8fd0k62dy6v8kcvmwpnqxmrkb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/SFTtech/starlit-emacs")
@@ -105866,17 +105865,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220502.850")
+    (version "20220507.1611")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "c516bcc077ffc334006e77c608b068eb2f11e845")))
+                 "f84278803ab61fabf25ed6c6fb5b3dc4822b162c")))
         (sha256
           (base32
-            "1vz7r4dra23iifx1i7s21g0nqv8q5mb1vdqgrxqm395byr26dsmg"))))
+            "1ryx94hk446pq4rmd2pddjls1vzh5gshihg1r3n1dpgj4m4q4x0w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -113739,17 +113738,17 @@
 (define-public emacs-vagrant-tramp
   (package
     (name "emacs-vagrant-tramp")
-    (version "20210217.704")
+    (version "20220507.2152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dougm/vagrant-tramp.git")
                (commit
-                 "5f00b42a0c023c461cef7af4de7652d90c788b4d")))
+                 "9e3efe1f8b4eeb2cf0e77ddc75e1ae531a5d4db8")))
         (sha256
           (base32
-            "1mshxcbwdjs2fs7lzqhs3pqbmdmy2fyzkf9b6r8rsxqlisa4x6sn"))))
+            "06z99lr8rb0ivzykhzl6x7a8ia1i1jz13y09hnblvii1kpzga8kc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("*.el" "bin")))
