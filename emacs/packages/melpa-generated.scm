@@ -20710,20 +20710,20 @@
 (define-public emacs-diary-manager
   (package
     (name "emacs-diary-manager")
-    (version "20210404.1821")
+    (version "20220508.128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/raxod502/diary-manager.git")
+               (url "https://github.com/radian-software/diary-manager.git")
                (commit
-                 "0fa122be62dd296cefe23bcf5074cc6159bd9868")))
+                 "c538504e606208fa902d040e54188072df6193d0")))
         (sha256
           (base32
-            "0zhhfba9ak7j713xp2qhxfdc3h9a9a1grp1nprlz7qnz3pkl2rjj"))))
+            "1j10wl00mgfpw3554jngkmn44z4s28m5qvw3lg0zgca50xkjnyqa"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/raxod502/diary-manager")
+      "https://github.com/radian-software/diary-manager")
     (synopsis "Simple personal diary")
     (description
       "Documentation at https://melpa.org/#/diary-manager")
@@ -61186,17 +61186,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220506.519")
+    (version "20220508.456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "603c752d67e02ce078084d8ad98031530b952cc1")))
+                 "47cfc8cc0c5b383b0647c91e657f1ffeaf73cce8")))
         (sha256
           (base32
-            "08hg1j222hh1lh2zl8g0pp76nck9gv2fyj1z738mzx93ph738ypv"))))
+            "1n7igv0lfkx9zh12lhbc77mg3ycl3qmc58982damh7r4cvq1lv4w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -66956,17 +66956,17 @@
 (define-public emacs-lsp-ltex
   (package
     (name "emacs-lsp-ltex")
-    (version "20220222.656")
+    (version "20220508.522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/lsp-ltex.git")
                (commit
-                 "daad61dbdbdac83267c6de04a13f8e2ecde3226d")))
+                 "85a3cf269466795a0a1c8c157abb1528080eeb10")))
         (sha256
           (base32
-            "1aky40r4850d4203wj1wxgx3xq0pb8rdvcv3b957nclvn8fmzvzw"))))
+            "1rayql109fp37cwqsdyz8xpyqvabr0y51yryw1qwv42jn0phd1wv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -81993,17 +81993,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220504.106")
+    (version "20220508.19")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "007e76725cdee4b16c003aec096e2dd7ab399b56")))
+                 "c0871c42bec9fa836e1b2a8c7691f06694f99714")))
         (sha256
           (base32
-            "1nxba0g9kvb0pfmyc94zd29w3mh8ghy8msg9ljksgqlwnc7hzsb6"))))
+            "0d7dvmrpmvp0hw9aygflw4jvvjsq89yg227g7bgkcnq8970qbwfz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -92980,17 +92980,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220505.643")
+    (version "20220508.458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "34a1140ddb824b1be727fdf994c3680b07990af4")))
+                 "069ff6b6b039b16ccc135a4288eebfcd76a0fbd2")))
         (sha256
           (base32
-            "152z5kgwh3dg8fn0511pgcz11hd5277hj52dmnb7s42m0288q7jm"))))
+            "1wz2c24i530xz62hbx0ahbm3sn2y6iwdpq3wk9npqyvhrk11g6ih"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -113738,17 +113738,17 @@
 (define-public emacs-vagrant-tramp
   (package
     (name "emacs-vagrant-tramp")
-    (version "20220507.2152")
+    (version "20220508.52")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dougm/vagrant-tramp.git")
                (commit
-                 "9e3efe1f8b4eeb2cf0e77ddc75e1ae531a5d4db8")))
+                 "2b7a4fabd328961384da06e0e302250cd97edc47")))
         (sha256
           (base32
-            "06z99lr8rb0ivzykhzl6x7a8ia1i1jz13y09hnblvii1kpzga8kc"))))
+            "03jbjsyf3lrqxk6455892hkz9iwfxahghjbp0kj34h46fprms78s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("*.el" "bin")))
