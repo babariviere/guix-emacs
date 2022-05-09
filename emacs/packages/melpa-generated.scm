@@ -26003,17 +26003,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220503.953")
+    (version "20220509.18")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "f8556b7e76ef7086191c469979274e499d992aed")))
+                 "7857cc1c54cd32af72248da6dad38f0b31914219")))
         (sha256
           (base32
-            "011i3afyxqfs7nidm7f0p4gb3v62fhxzvq2jhlygla5fz7bf36ww"))))
+            "15kmc8y0sw7dfw05mq3nfpqw7afah99ra055y6d3kcn93zs93fwp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -63055,17 +63055,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20220426.1722")
+    (version "20220509.104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "dea03843dc7b152cdfb84c14e076cf79a721a87f")))
+                 "c45e19a215e8e7df80a61c10ca1fa26dcfd1de35")))
         (sha256
           (base32
-            "1y4qy6v2nj3pimffdsc2bgjlb10hvvbhpnizv3xnhcb3brfz3ddr"))))
+            "03i6iyhiqhi2vxb8qvw99n6h6xg8jnxkazikw6sqnp0flnrgcf7q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -66606,17 +66606,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20220508.2220")
+    (version "20220509.116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "5608825f3eaa30c23ae495a4ce6f6458672743ba")))
+                 "ed6f9087e9ada080bcedc345a69a2b57e1b5a27b")))
         (sha256
           (base32
-            "1jgh82idfrcpnyik3zd129lg0f0mayjnc7xd1wk2jbh84vv217ds"))))
+            "1sdhav6f4m2jrc0j1r9j6czsk0s86qzr2xqj5zakpg982lmwa807"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "loopy-dash.el"))))
@@ -93072,17 +93072,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220508.655")
+    (version "20220509.405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "069ff6b6b039b16ccc135a4288eebfcd76a0fbd2")))
+                 "3339ffac4bb116f09754f1ed262e8bede2df2bf1")))
         (sha256
           (base32
-            "1wz2c24i530xz62hbx0ahbm3sn2y6iwdpq3wk9npqyvhrk11g6ih"))))
+            "0yzfcm25ilgh1narx73z0k29dmw790kfhskg5703m1v7gjra3941"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -104656,17 +104656,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220429.126")
+    (version "20220509.141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "1405b4f050f8181b8bcbe2951760e6c5b68b08c7")))
+                 "9c054f6c86797ece9079e46662ea16b7ac6af790")))
         (sha256
           (base32
-            "0l0kpmf3acsxr1xbq8kzfs72232vm2szjx9q8w2s982jfwqsfrxr"))))
+            "1ayjkbjjr3yid22xqpyl6nwfb9by4f8bk57kdi7pznvly9whz8fj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
