@@ -3466,17 +3466,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220511.2326")
+    (version "20220512.1952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/raxod502/apheleia.git")
+               (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "982df5a2e0c1695e87069b1e4a54ed90d7b2026c")))
+                 "b5dbab53eadf64529a0bfe217c7750f1d7d85fce")))
         (sha256
           (base32
-            "0s1wdqpnvd8br06s6zrp69vc2yglfx8n9fnh0dy99js8353p4js8"))))
+            "1w7x7k5mrvp5yq5ppq9zps5z2c7h67yjxyaxcvbkjibvswb0c616"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -5816,17 +5816,17 @@
 (define-public emacs-axiom-environment
   (package
     (name "emacs-axiom-environment")
-    (version "20211120.1646")
+    (version "20220512.1931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://bitbucket.org/pdo/axiom-environment")
                (commit
-                 "e60de5ed107ffeb530a56d24d04f38988124d12b")))
+                 "b52fa715285e7ad182c8e679ebf05b130dd5b5e2")))
         (sha256
           (base32
-            "0p8kbxfcrx1ib8g17g6h2i2ygy35qq992n3s2xa6ysij7wrfn4hd"))))
+            "1hb4npfpg1iy9j0p29q1jrjgx0mrn333m45nmsnxw8nlaxzd97x6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -18583,17 +18583,17 @@
 (define-public emacs-cue-mode
   (package
     (name "emacs-cue-mode")
-    (version "20220507.1728")
+    (version "20220512.2104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/russell/cue-mode.git")
                (commit
-                 "598c9b33b888e067e7472710a5f159cee98a0307")))
+                 "f98b9f9088fcb66c97f9200f6c8a0cd16c11caae")))
         (sha256
           (base32
-            "08px1mxpsl5n7yd8pgkpj0xkmhfvhgppbwwrjm59wgnaiq0mw8sf"))))
+            "08nxlgf02v8gz92dif3fy72qz3yisybxlx1i0any3sxn5swi7g7y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/russell/cue-mode")
     (synopsis "Major mode for CUE language files")
@@ -22317,17 +22317,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220512.1203")
+    (version "20220512.1734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "89fe2b2b9ff87f5cad7fccb1e9d35af67397ddb5")))
+                 "e40cc2dd1594d4285ec78100e98a0b0516d23782")))
         (sha256
           (base32
-            "07q86qza8k2aw573238xp5h19nk6hzmrl7y9v8xqf1cmrvhmqvkc"))))
+            "0qzz9bzl0rjllr84hqfczjg6h4ra4ylpcsikhdx25gc7jfvah1zi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24116,7 +24116,7 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220511.2036")
+    (version "20220512.1524")
     (source
       (origin
         (method git-fetch)
@@ -69641,17 +69641,17 @@
 (define-public emacs-math-preview
   (package
     (name "emacs-math-preview")
-    (version "20211221.1611")
+    (version "20220512.1853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/matsievskiysv/math-preview.git")
                (commit
-                 "75dd44ad8dcfa12fe03f8e65babe0ea04e1a7d1a")))
+                 "0f0b2315d23e5d18b627c9faa8f231f175b728a0")))
         (sha256
           (base32
-            "183m24yj54j8mix27q731wdxp1yyjm9qgd82hqflfivldlabm0x8"))))
+            "003ih3nrv753rj4ssdvs6ddqzxgl63vzmrypd41xf4g5dfsbmsf0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -71900,17 +71900,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220512.1007")
+    (version "20220512.1808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "0494b9bfa00cd3170513680641b06f34bf7eb8a2")))
+                 "b6285162d80fe438b4ac99acff74d33b5f901c35")))
         (sha256
           (base32
-            "0r5fm7jkgq1hcyfbzakvnp5mbs5s0px1sb9x60avvk76xp1qmnvj"))))
+            "139ycd3p63hlxs70g266xj6i7bng1p2xavwcsxf4j4nvfayib9r7"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -82064,17 +82064,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220512.519")
+    (version "20220512.1634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "455f139d3ee389eacaa2b61a42ade00fde6d899d")))
+                 "2657f0b444194e1de6957f9cfc112383980d62f9")))
         (sha256
           (base32
-            "0d7dvmrpmvp0hw9aygflw4jvvjsq89yg227g7bgkcnq8970qbwfz"))))
+            "1x1222nvy5fq2cyz8ds271xq03bcyn4252vxzdch9gai3n0vg00b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82212,17 +82212,17 @@
 (define-public emacs-org-runbook
   (package
     (name "emacs-org-runbook")
-    (version "20220512.144")
+    (version "20220512.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tyler-dodge/org-runbook.git")
                (commit
-                 "d2d97cb5badc29d9af37f24fce9d76bf9baf8af2")))
+                 "ec8b933c1269804546c356fe379169d1f0fce9ea")))
         (sha256
           (base32
-            "0xnldgzxjvmcfxj0pgsa8c4pnmyd1vygg33p8pzn7809baz76qnv"))))
+            "09lg1ycfb3qkzqnhk088ija62kvv0z5jgg4apcbr2y4plb0bgc6h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tyler-dodge/org-runbook")
@@ -94308,7 +94308,7 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220510.1326")
+    (version "20220512.1447")
     (source
       (origin
         (method git-fetch)
@@ -99527,17 +99527,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20220406.2330")
+    (version "20220512.2235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/t-e-r-m/sculpture-themes.git")
                (commit
-                 "a21871b75cc7cb575ceb43640d039307fbb412e1")))
+                 "be3adaf9db276e899b44e5093316cae2014b22c9")))
         (sha256
           (base32
-            "0ki45bvc93p76mxpsm5pyknqgf67xz6c122yssps1hcxhdazij5v"))))
+            "0wn066zc72djac8ccss95ydi69ggngknkjh2hg0hi17g3m2pj6f6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
@@ -110581,17 +110581,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220511.2119")
+    (version "20220512.2008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "7e44e30c8a13d7f253ab654106683edb4f39ea0b")))
+                 "86127bf20f241a3c421b13523f0de6590fe42055")))
         (sha256
           (base32
-            "0klmfw1vabnkqnwvh6iisg2cli1pdbdrivk57x58cqff2p41c9rp"))))
+            "1ahi1kgfis3khbgr3ps9ms71nc4b10aydd97q9mpm6h5rxvl2iv8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
