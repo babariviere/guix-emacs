@@ -22317,17 +22317,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220512.1734")
+    (version "20220513.541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "e40cc2dd1594d4285ec78100e98a0b0516d23782")))
+                 "73197912bb5f39ec25e57f3c418db7c7127abe39")))
         (sha256
           (base32
-            "0qzz9bzl0rjllr84hqfczjg6h4ra4ylpcsikhdx25gc7jfvah1zi"))))
+            "03mnwjf7kj7ipfn58xdn8apj77q68z3ilcynrbi4c3gzggqjpkg8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32739,17 +32739,17 @@
 (define-public emacs-evil-matchit
   (package
     (name "emacs-evil-matchit")
-    (version "20220414.1316")
+    (version "20220513.230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-matchit.git")
                (commit
-                 "b314e816bacfc01bb7df9b19a06b18638af5cdbe")))
+                 "b47931128c6b7924ea432895f469769986de410d")))
         (sha256
           (base32
-            "01r85bnmqbmvwlhv5ihglp0dhws1g2wsw2vy0vsw5mi5mmx2xsqr"))))
+            "1zjdwqqrc2znk2y8f424ygnkxsvx0hq46gicjb4nllbvvvbx6kyb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -39873,17 +39873,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20220414.429")
+    (version "20220512.2355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "88eabedc4f9ed57ab4c6b095732199fdbe5b9a31")))
+                 "c24339b50a4b42cc2bd7e8e167c77a75d8227774")))
         (sha256
           (base32
-            "0dk7nzp0s1sx6nxlg9z6aqfl8c2hsmzzxmbnj68jprw5jqbqwlwa"))))
+            "1lvpyn9s3x9wyhdsa9krra03appn8p0dv8086hixpmqm10d21wl1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -53026,17 +53026,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20220412.421")
+    (version "20220513.302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "c2729a236a84a1fbd3d184c163fbd10e0fd62077")))
+                 "2f91e7992dae078a9cbc0d7f8e603e02d0abfcb0")))
         (sha256
           (base32
-            "0q5a1s4wkxjp56gy95qzkxzz8w46djacgh9fhwm509rkkdxpp30c"))))
+            "1qi7x5fkwr2bpf99i1qrr3zx83xj1h1drg9q4dkjsr5x4iw3sbpg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75141,17 +75141,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20220511.2232")
+    (version "20220513.240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "66b18bd7ef56fc52dc59cd894e3de85a0059a726")))
+                 "958a92a979c88bee909d03a78b2faf6726d0069b")))
         (sha256
           (base32
-            "1dfscx8wbzizs65n7m547qhjkfklgsl1frpbgynfgkyvx85k7kr0"))))
+            "0l4bi6hnwk4lssmya8x6av0j0nhvwccxaiv2ar1byiy7i3bxvr16"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
@@ -93074,17 +93074,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220512.930")
+    (version "20220513.605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "dcdae4db85646de85b1ca75e4604691cf9273273")))
+                 "1208a9dcbc029865bbd75621e9035c8f44def15f")))
         (sha256
           (base32
-            "1432ph59plnh41xrmq59n9z987r41xf34qsxl3sbzfw6v8m927ys"))))
+            "0pv45af94n5hiraqkp749arkhf4addm18jcp25d55wf95i5yw9qb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (arguments '(#:files ("pyim*.el")))
@@ -108486,17 +108486,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220503.349")
+    (version "20220513.604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "29010616931f52e3a5aa9d155c14873c09c7306b")))
+                 "25e07c86c43af1cc949cb6ac6c2ca63bfb7c5e78")))
         (sha256
           (base32
-            "17cshy0ba7jiq36rj66k6m8swijzvpnwpfrgy0xvhgxsz115bhp6"))))
+            "17dw99rq9668gm0jvw029504cv3z48dmpnq47sv5x90sf64idr22"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -112382,17 +112382,17 @@
 (define-public emacs-tzc
   (package
     (name "emacs-tzc")
-    (version "20220126.604")
+    (version "20220513.434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/tzc.git")
                (commit
-                 "7b2315b6bf9c87ec282c71c27c99eec0f61b8f82")))
+                 "8fa2aa5636448a3c3e7b59ea3fe38e80a268537a")))
         (sha256
           (base32
-            "1vqnmyb13zf9j7svdgclg27krl0xngp23hq3l17c6c8rbjsvf271"))))
+            "0qdh1y0jfm8w5xz1z3xy55jy3f7vdjg5gv6w451yszf33092sddc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/md-arif-shaikh/tzc")
