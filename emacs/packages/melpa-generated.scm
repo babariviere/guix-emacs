@@ -19172,17 +19172,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220513.1923")
+    (version "20220514.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "1054efd6da63011d6643f40cda4dd48135e9ac89")))
+                 "98190a310c2385716a6d4a1c1f65d7132f8cfd96")))
         (sha256
           (base32
-            "06ql1a6wbwdzkis2mmxgkk5h61z8cwi990dkcnqgpswjbb4dqc47"))))
+            "1w6w9mpcqbjaffzfv1wwxmjm3wijlb1bn7jqigyay0w070jfvzj0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22317,17 +22317,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220513.541")
+    (version "20220514.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "73197912bb5f39ec25e57f3c418db7c7127abe39")))
+                 "a66ba7036b33825f201309e9c351e008dc03e4a2")))
         (sha256
           (base32
-            "03mnwjf7kj7ipfn58xdn8apj77q68z3ilcynrbi4c3gzggqjpkg8"))))
+            "0dnw29az81zgljwlpggl4av5h6qm8wrazdc5sdl5capvlhmj1gbg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -45942,17 +45942,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20220404.1240")
+    (version "20220514.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "b3b3e0acfe5ebeba556f3b98bcff089b889c82c4")))
+                 "3b48787f5e91b9480ef5066bf3657f67306524ca")))
         (sha256
           (base32
-            "00d1z91zq2sixl80g4ax7n7hc1wh4dmzg5c1p66i9lsmybg2aaxh"))))
+            "1c27rk6r9103lwmb0mqkfiph521w7af34p2hli9ahjj8da5y91cb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -49433,17 +49433,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220513.846")
+    (version "20220514.725")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "70c9e00470d0b53a47dde93d050076582d596bd1")))
+                 "4489fec779eb4c2f54db06218c83d431a88716b5")))
         (sha256
           (base32
-            "0pc581fzplix5c5ljmxw2ivv22wziqaxpls4hqykppdizphhf28z"))))
+            "0c5sv96ghm2hdv3das3vfa2nlv2phb4lzjwcfnhn7y34cmx5qnbd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -49605,17 +49605,17 @@
 (define-public emacs-helm-dictionary
   (package
     (name "emacs-helm-dictionary")
-    (version "20220319.955")
+    (version "20220514.714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-dictionary.git")
                (commit
-                 "69f1e5bf03d67c9e5cb0065e702e8c311ac9d3db")))
+                 "65fdf36e9a5c6dd8dffa71dfb6c65bc03879abe2")))
         (sha256
           (base32
-            "0haq758rxayl4qwyxm44w7mq1s5g0gpfxspd0q9c546qvws4kwrr"))))
+            "1r62xrq95lzgg3if0q86idl9l8gmks76pgpxr615vm8ndhq8a545"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -91547,17 +91547,17 @@
 (define-public emacs-project-rootfile
   (package
     (name "emacs-project-rootfile")
-    (version "20220512.443")
+    (version "20220514.1040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/buzztaiki/project-rootfile.el.git")
                (commit
-                 "cb87657c4426e39aa2c481190e594c68fb0de8be")))
+                 "12145e13af5020482e68d95485e2e19fe5b0065a")))
         (sha256
           (base32
-            "07gb9b72gkwz748xwnsjayn68x5qn8b0ka8wmwvqgwgak14f1da3"))))
+            "0v1q8fgbpa2zsa0yrmpgmg8cn2z2baya5mx8zfxfyq6r85r5m13m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/buzztaiki/project-rootfile.el")
@@ -94308,17 +94308,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220512.1447")
+    (version "20220514.1259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "3b351fbb0d3e81bf260cb3fc7b623f1b782550cc")))
+                 "9d06ad1e44a1b56293debf21398e9150caf8c2a3")))
         (sha256
           (base32
-            "0gcyb47ld10jvrf3wm63njz0d9y70fi8dwsx14pbdcrw2xs2p4s3"))))
+            "07940pdj8lsb4nghssldl91v2crf999ypaw7a9c6hsvdlxlz0d9y"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -99527,17 +99527,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20220512.2235")
+    (version "20220514.950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/t-e-r-m/sculpture-themes.git")
                (commit
-                 "be3adaf9db276e899b44e5093316cae2014b22c9")))
+                 "339023228c00d66ac9a72b85c2059356736c74ae")))
         (sha256
           (base32
-            "0wn066zc72djac8ccss95ydi69ggngknkjh2hg0hi17g3m2pj6f6"))))
+            "1a7pvf35znnhi70d2afayz5csybkwplqp7s0bni7bh7nxdlqa1dl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
@@ -110995,17 +110995,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220509.1943")
+    (version "20220514.945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "6fc09a663e408ade0d1b88f47701c96a9b051e34")))
+                 "a0c69e5c712511a35d0ab53a5634420e9705149e")))
         (sha256
           (base32
-            "0xihkzz94s84xkl60hi388lhcdiwnlyq2mpnnqn0vf54amjfdh7x"))))
+            "038278pmp7b7pk118a8dw95bhkyy2yfc1146a68h6dhjvzkvspw5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
