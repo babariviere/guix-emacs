@@ -33402,19 +33402,18 @@
 (define-public emacs-evil-terminal-cursor-changer
   (package
     (name "emacs-evil-terminal-cursor-changer")
-    (version "20220422.255")
+    (version "20220514.258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/7696122/evil-terminal-cursor-changer.git")
                (commit
-                 "69d562932f9ab9869ab1ed923e9789cbfa0ff14c")))
+                 "81ede5cfa5d8944aa4777987c846a27e28457266")))
         (sha256
           (base32
-            "14d9hyv2hhv0vzvmq5m1d59imzxmlm1qc484kn3sbc99553q0s1x"))))
+            "01q3h1dmhpcjqs9zchq7wfpibd49pycfnrpn0gj0sh5bspzrqfm7"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/7696122/evil-terminal-cursor-changer")
     (synopsis
@@ -63654,17 +63653,17 @@
 (define-public emacs-languagetool
   (package
     (name "emacs-languagetool")
-    (version "20220127.2215")
+    (version "20220514.309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/PillFall/Emacs-LanguageTool.el.git")
+               (url "https://github.com/PillFall/languagetool.el.git")
                (commit
-                 "ea50c120ee3418489b43d51ed750288791d6eb95")))
+                 "503d18bd3c074fe8f495cfa6a34ccca1ef6961ce")))
         (sha256
           (base32
-            "0xm6yh6aybz8mnf6lh0dx9qgbk05kr2chiw4pnk9w6n9apssx9xa"))))
+            "0zid9ip540qknnj9sdky2jrxp5l5kym76dr3wgff3ika6g7y75p6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -67961,17 +67960,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220513.1456")
+    (version "20220513.2322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "21e671ed7601b3ef4b02782bf515ca88dc8dcc8d")))
+                 "421105ef4f21a84d0ba222681590bfbe22203ff9")))
         (sha256
           (base32
-            "0wlqv87p43jzvpg88lbs3rqh1bmza0vgvpy44khf3d53iqidy90a"))))
+            "146apizk8l3k8rcsvks2kk4cl3kf5913n41qxja9kivpkw54vzx8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -88741,19 +88740,20 @@
 (define-public emacs-pipenv
   (package
     (name "emacs-pipenv")
-    (version "20210127.1444")
+    (version "20220514.123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pwalsh/pipenv.el.git")
                (commit
-                 "8f50c68d415307a2cbc65cc4df20df18e1776e9b")))
+                 "3af159749824c03f59176aff7f66ddd6a5785a10")))
         (sha256
           (base32
-            "0l81vbwp7gmcg1n7i8cwa01rpwc24db7gxqvmhln8piy1r2ymh6x"))))
+            "1ak9dvjqhdm12i7yamgbqjmc4zmvy2f0gd1nia1q9dy3n6576ryq"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s emacs-pyvenv))
+    (propagated-inputs
+      (list emacs-s emacs-pyvenv emacs-load-env-vars))
     (home-page "https://github.com/pwalsh/pipenv.el")
     (synopsis "A Pipenv porcelain")
     (description
@@ -109724,17 +109724,17 @@
 (define-public emacs-tide
   (package
     (name "emacs-tide")
-    (version "20220429.1501")
+    (version "20220514.614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ananthakumaran/tide.git")
                (commit
-                 "83c34c636f47cb0c10c7d1a728fa308bfec40890")))
+                 "96bfc5da11a9b83b32368c38e933a405270652de")))
         (sha256
           (base32
-            "19yg6zij9jx39d8b6c41ipa0z99q0af4l59pmnpxv8pfadxvi9qg"))))
+            "1py0z8nrkgh3lzsmgxq62bi2nbdx3c97194frjyb5wl81kh4pbbp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
