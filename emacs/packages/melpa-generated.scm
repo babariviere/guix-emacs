@@ -3466,17 +3466,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220512.1952")
+    (version "20220513.1623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "b5dbab53eadf64529a0bfe217c7750f1d7d85fce")))
+                 "363d634c5c3d79983fb44d2238fcfdf24fbf81b2")))
         (sha256
           (base32
-            "1w7x7k5mrvp5yq5ppq9zps5z2c7h67yjxyaxcvbkjibvswb0c616"))))
+            "1c5977872wab3jj1v4p0js9b39adr9ym9hnsb1w57k2rq6avkxqq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -16392,17 +16392,17 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20220421.717")
+    (version "20220513.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-notmuch.git")
                (commit
-                 "16eb2c100ca144140f07014c32e99487c6a73e18")))
+                 "4138855cddee0ef126cff6a5fc5ca9c49fd2682d")))
         (sha256
           (base32
-            "0ynla60n7aksp8fqikpsxv45li68ccgklr3xq601z3zyiyjg54a2"))))
+            "1wqp0pp408bxywxzq3gk1hk5vr19k4vsz5b979b4gbk89i1gxamb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-notmuch))
@@ -19172,17 +19172,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220513.1434")
+    (version "20220513.1923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "ed90a3d0887a9b956f0ddd56d4f0c73fefd1d920")))
+                 "1054efd6da63011d6643f40cda4dd48135e9ac89")))
         (sha256
           (base32
-            "1zpvs098hh2p7rzqvr0ps01lhwp02izqvqz6b0zdz5yy59j1xgvn"))))
+            "06ql1a6wbwdzkis2mmxgkk5h61z8cwi990dkcnqgpswjbb4dqc47"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -24116,17 +24116,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220512.1524")
+    (version "20220513.2050")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~niklaseklund/dtache")
                (commit
-                 "5a39733299cae60da2aab0e0b9f559bcc022369f")))
+                 "08310ca70b935d82fab146c7135d19a2c784f160")))
         (sha256
           (base32
-            "166sbnq9n70yp7w8in2qkv921gzkzhzwkr3bjgnj427gxn34m1xd"))))
+            "1q28i4pm4agncr3jlmj8l3jwsqyxka8fww59173r5yx0mhvrqhz1"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -26174,17 +26174,17 @@
 (define-public emacs-ein
   (package
     (name "emacs-ein")
-    (version "20220419.735")
+    (version "20220513.1959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/millejoh/emacs-ipython-notebook.git")
                (commit
-                 "388c8f753cfb99b4f82acbdff26bbe27189d2299")))
+                 "c629877ce3a6a14f00468c0025919080c85a2163")))
         (sha256
           (base32
-            "03idq7z0ry3mjvsw0w3acnsnfjijqkp9lr1v1xn5jn3s58ciyw80"))))
+            "02zzd9z960vhvkj4z83y3iywkidsm3ih58vlkh32c7kmmnvbw7kz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -27506,17 +27506,17 @@
 (define-public emacs-elisp-demos
   (package
     (name "emacs-elisp-demos")
-    (version "20220513.1356")
+    (version "20220513.1626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xuchunyang/elisp-demos.git")
                (commit
-                 "4c336a6dff79048520c8fe0f38095541bc884894")))
+                 "01c301b516e9949d0239d20f6834afbc9acf0abb")))
         (sha256
           (base32
-            "168qqqkwm1wcmra8cbzhynh3nzv9h7x26dn7pib7xzbr3kfmrk7p"))))
+            "07rjc6kkhhc0y2wwgsv09z66i9qyfl2b189jrxqcha02rw5sb0lp"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.org")))
     (home-page
@@ -99874,20 +99874,20 @@
 (define-public emacs-selectrum
   (package
     (name "emacs-selectrum")
-    (version "20220323.10")
+    (version "20220513.2106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/raxod502/selectrum.git")
                (commit
-                 "7ef5a2596dcf472993cc82311c53e90b67769bd1")))
+                 "810ea697bdd559d97b86b795e01769cddfa3daf2")))
         (sha256
           (base32
-            "1ppa32cddpsgijwaiik23ij2swhpwzfr04v09a4w8dsc09d3nhfz"))))
+            "1bci9vnpki7lf3v3wwcixq1ak5mgbvlxplsw5c04nckir163cqvb"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/raxod502/selectrum")
+      "https://github.com/radian-software/selectrum")
     (synopsis "Easily select item from list")
     (description
       "Documentation at https://melpa.org/#/selectrum")
@@ -110581,17 +110581,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220512.2008")
+    (version "20220513.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "86127bf20f241a3c421b13523f0de6590fe42055")))
+                 "dd7d35b52dda7bf503b8d4c23d97150152eebc41")))
         (sha256
           (base32
-            "1ahi1kgfis3khbgr3ps9ms71nc4b10aydd97q9mpm6h5rxvl2iv8"))))
+            "1sqbjxxl631w3i7hf32a672f8bkf1p76w6vwq26i8r8ay2yrs5pq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
@@ -120354,17 +120354,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220509.2156")
+    (version "20220513.2040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "9a3ed5e743c38725e7d9a7e4eaecfe624654c68d")))
+                 "dd0aba48e10ddbf1939cb7f6e2b2e05e7f2aa0b7")))
         (sha256
           (base32
-            "1az7n1f0203kk7x50ljjz3dcirkbk0zxzc54b3xxv64sd806vfw6"))))
+            "0xm1kal1kcy0kcgdx6dajjr3kbyva2r59d2n18jd1na7lr6q53va"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -120377,17 +120377,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220509.802")
+    (version "20220513.2040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "9a3ed5e743c38725e7d9a7e4eaecfe624654c68d")))
+                 "dd0aba48e10ddbf1939cb7f6e2b2e05e7f2aa0b7")))
         (sha256
           (base32
-            "1az7n1f0203kk7x50ljjz3dcirkbk0zxzc54b3xxv64sd806vfw6"))))
+            "0xm1kal1kcy0kcgdx6dajjr3kbyva2r59d2n18jd1na7lr6q53va"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
