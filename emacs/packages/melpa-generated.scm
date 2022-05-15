@@ -11659,17 +11659,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220507.1357")
+    (version "20220515.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "69d374818bd0af1489ee8828b258c689ccc24a66")))
+                 "0d2ba20c029b12582e5fa318f046f2feddc1b270")))
         (sha256
           (base32
-            "0r585myfkdsqrmd7fydbfdakwsfh4wq4bkjgngyag8mkam88ms16"))))
+            "09nipsnlslvcjwc2dn1ylwv2gqvjhwrrz3zq3c83vbrp2anlrvjy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -22341,17 +22341,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220515.636")
+    (version "20220515.1206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "e1cc2405da869c09a71f3cd017056f852bd2f5c4")))
+                 "3b0533ede1be2408296db028a5df76d4a98184f0")))
         (sha256
           (base32
-            "03kvz9wvhzmzvvrnbfmqwphz3g7128kydwpjz6n81rqh39sfdcrh"))))
+            "0k9iqwz3ylwh819wivkj3sd7qi5sy6acrjlq2xiwddhha5yvq02l"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -45087,17 +45087,17 @@
 (define-public emacs-gnu-indent
   (package
     (name "emacs-gnu-indent")
-    (version "20220330.422")
+    (version "20220515.1234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-gnu-indent.git")
                (commit
-                 "cd5dc79ac65c24e9e775bd2582ad620e316f2182")))
+                 "95ffb0e043bebcdd10fd7412b24d22ad9f6e3454")))
         (sha256
           (base32
-            "07ccrjlh5ph8sdsrd7k5ihrjl4qgsjf9qr54y90fq5b9hzy9ksgp"))))
+            "1v0af0ra0qcjrhjn4lvb9j8967m893l8w8zsln457qvb64pwx7v1"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-gnu-indent")
@@ -52572,17 +52572,17 @@
 (define-public emacs-helm-system-packages
   (package
     (name "emacs-helm-system-packages")
-    (version "20210628.1727")
+    (version "20220515.812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-system-packages.git")
                (commit
-                 "a16bb1c3708416984106a98353700d456414b6a1")))
+                 "e93f4aeaa77b73c6e529141c3fa0ac49b40b6306")))
         (sha256
           (base32
-            "09acgs1mjkqmm7n88x4hck2bp3jv5fifdkd406r8fh874vyfib38"))))
+            "1i5dy2hi5xiyb2p2795pk24h8kzmd38pasd51azyx5d0qmjjvb8m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -54247,17 +54247,17 @@
 (define-public emacs-hledger-mode
   (package
     (name "emacs-hledger-mode")
-    (version "20210706.1225")
+    (version "20220515.1225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/narendraj9/hledger-mode.git")
                (commit
-                 "9ac07ff0adbce6a402c17e789b1750f9da0d22f4")))
+                 "400bde42a8d2712af80cd7c773c9cdfbb63a515a")))
         (sha256
           (base32
-            "0x3dgws8nh7q8x7zzjwbm5k9n7gi7qqd3ww7y51fbx6p6ii3jpp4"))))
+            "0xmcfpr3rxli1adwypg18npl8hb8ak5rg6a6i26inzzqja6vr897"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-popup emacs-async emacs-htmlize))
@@ -66822,17 +66822,17 @@
 (define-public emacs-lsp-grammarly
   (package
     (name "emacs-lsp-grammarly")
-    (version "20220511.707")
+    (version "20220515.833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-grammarly/lsp-grammarly.git")
                (commit
-                 "709c522df7a68e2724dbfb5bd210199dff5a2264")))
+                 "450fea02cdf0b6f765271cc22e1f0031716868e0")))
         (sha256
           (base32
-            "188sx0a6n1kl9awcic1pjbzxsqhq2cbbk8chbp8zgpl0x67ph7d6"))))
+            "0qn9kqzvpixcn2g1fic37zivhngl0cnrzr5k2qkgha0h925cvx2l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -79776,17 +79776,17 @@
 (define-public emacs-org-clock-convenience
   (package
     (name "emacs-org-clock-convenience")
-    (version "20220503.530")
+    (version "20220515.849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dfeich/org-clock-convenience.git")
                (commit
-                 "988d4e3c9f0ae6df098b0ab1985b79eed2c5b808")))
+                 "9201db80862d144459f1316d571842f5389a47eb")))
         (sha256
           (base32
-            "0b1i013likxba92z3bwrg9in3g3daaz31fdsn1cfxbn3yha6yzai"))))
+            "010wl014dh8sipfqnyasxy1rq5q726bgxm50v4fyqlqkpc6r07d2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dfeich/org-clock-convenience")
@@ -99573,17 +99573,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20220514.950")
+    (version "20220515.1006")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/t-e-r-m/sculpture-themes.git")
                (commit
-                 "339023228c00d66ac9a72b85c2059356736c74ae")))
+                 "d779c5f5f58409c5e4394c881e86bc11399b8f5c")))
         (sha256
           (base32
-            "1a7pvf35znnhi70d2afayz5csybkwplqp7s0bni7bh7nxdlqa1dl"))))
+            "0agpmdzqiak9ywfbzwljzh3ln3qp7w081xmx0l82rcm3640xz1kp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
@@ -115331,17 +115331,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20220414.930")
+    (version "20220515.714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "5cf8f1942e50bf2fa00cdcbd822c88863ed845ee")))
+                 "890d21867a50bf447d2a192aab6460401089c6c2")))
         (sha256
           (base32
-            "0kql51a0az94ak9s5s2brbspxzmk98604fsslnnnnj3z4q44apmn"))))
+            "0x798c35yckgq1hs1x7myp76riyi3c45kxxlmh4h0s0lwwdakjv1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
@@ -115353,17 +115353,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20220414.931")
+    (version "20220515.714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "50791c8b4f02f08738d38481e9c726ab350c984b")))
+                 "dc5c1fda65ad7f8da2c06944560c1818fdf64390")))
         (sha256
           (base32
-            "1h7axky1vm4chi7irzfmddmli4j9qv8sxpk69335n9iws6x2h56y"))))
+            "1n3yqhq204x0d8hfm5kgwnfwqldv5cvm06pja2qgszi4qc483rg1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
@@ -117039,17 +117039,17 @@
 (define-public emacs-why-this
   (package
     (name "emacs-why-this")
-    (version "20220510.1146")
+    (version "20220515.1238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-why-this.git")
                (commit
-                 "71baf80f9ae7c1117f3b1bf531e23e43bf567424")))
+                 "f18b8d8d18ae0feea640a480917d779a9de191cd")))
         (sha256
           (base32
-            "1cwasg2dyy86c3hh71xqqsl7wy5c6mf9mnaf251l5fa5895xhbff"))))
+            "1mrbdgd6381b0b8zs4bvakx01anj4654lryhlm6skgc1rp9m90hw"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-why-this")
@@ -118068,17 +118068,17 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20220501.1500")
+    (version "20220515.1259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-workroom.git")
                (commit
-                 "001fe2777f49ac73b6ab24401094a1c3c5efc887")))
+                 "94700152e562478f4a7c91d71143e0bec2a99c68")))
         (sha256
           (base32
-            "0haj4w8xcpm1yb3anla4ql2zi339hs6bcznxzl7qla575ff5sivp"))))
+            "0mlkdr2l1iazszj298chrihp6dqynnmm22wycr5rcd0680y5k7m1"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-workroom")
