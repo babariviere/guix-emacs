@@ -10350,17 +10350,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20220330.1021")
+    (version "20220515.435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/pspiagicw/catppuccin-emacs.git")
+               (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "352ebf62099e95cb4a71060a7d4a228f00358b97")))
+                 "9dcbe770d38f6ea417dc614caa4ab197bfa896a7")))
         (sha256
           (base32
-            "01qh2q0vlgpni66mks4xzvdzm22yq314n5n4jx20bdknbhlvb8rq"))))
+            "02cwwa6c5gqqivm64qr65455bx9l3j4k3w8y5d39g27lcbawl2vp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis "Catppuccin Theme")
@@ -17145,17 +17145,17 @@
 (define-public emacs-counsel-fd
   (package
     (name "emacs-counsel-fd")
-    (version "20210606.1724")
+    (version "20220514.2227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/CsBigDataHub/counsel-fd.git")
                (commit
-                 "e9513a3c7f6cdbdf038f951e828e631c0455e7d4")))
+                 "c1ba2e36fe69111e7f6f42ea1b0e3b7a45d96de0")))
         (sha256
           (base32
-            "005l1is12jq35nn1ap87a7p74qin26zpgbk599619lh9vai157ww"))))
+            "1jpaknp9v9xyxqs9gkm9v1ylwp9pn2smla9zk4qk49i6ff5db6dd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -22341,17 +22341,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220514.1432")
+    (version "20220515.636")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a66ba7036b33825f201309e9c351e008dc03e4a2")))
+                 "e1cc2405da869c09a71f3cd017056f852bd2f5c4")))
         (sha256
           (base32
-            "0dnw29az81zgljwlpggl4av5h6qm8wrazdc5sdl5capvlhmj1gbg"))))
+            "03kvz9wvhzmzvvrnbfmqwphz3g7128kydwpjz6n81rqh39sfdcrh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28508,17 +28508,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220407.329")
+    (version "20220515.346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "54b9ba1ac0d7f8b644354fd6d27c9e3aff111dcc")))
+                 "516f30f38cf9616e810df4e5ee4939004c375baa")))
         (sha256
           (base32
-            "165ba97ll0k8fsr3k2bxpwg4lnmd3513vn4mdgxcx9ll5p1jr4nd"))))
+            "0pbizm7wi9n6i78qq2dcplc5z2166mqgl73f3p4in8x2rdqim0b3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -32167,17 +32167,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220505.619")
+    (version "20220515.514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "9707efcae4fc76fa204b1c29565aae35b99b865a")))
+                 "5902b3553ade02327f67c947e84345cae9c9de6b")))
         (sha256
           (base32
-            "0iyhxmaiqk0c72lmggv9jppxmlkb0vd9y0zqxgzjnznz9p08l3vz"))))
+            "1vcwfx87pz21ppavhg8n2fv28hcfr5pws6qwmif4ggg189583yqs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -32763,19 +32763,18 @@
 (define-public emacs-evil-matchit
   (package
     (name "emacs-evil-matchit")
-    (version "20220513.1221")
+    (version "20220515.349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-matchit.git")
                (commit
-                 "ec7a8479fec4c9249b52be9fd8e201bb0f3206f2")))
+                 "7a2a7384b6e752a805d6fbb78cf9425e54c2b18b")))
         (sha256
           (base32
-            "1mq473qkcfg3fm6khlnfhyq335l1zckh7ag7ixsnbmp6rcqn0x0m"))))
+            "0a55hhqi14g0hy80cfi5anxs44rcdxm1jkkyl561b4d4g823bpbi"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-evil))
     (home-page
       "http://github.com/redguardtoo/evil-matchit")
     (synopsis "Vim matchit ported to Evil")
@@ -75630,20 +75629,19 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220509.1600")
+    (version "20220515.512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "507831164b09a2d769bd68d5a45608fc0de626dd")))
+                 "d0c0c6a311591df94c6580ba634c0ed0c20bd85d")))
         (sha256
           (base32
-            "1xsnr4y3al9ps2v1y8yjapmghrvcgk8671h300l3w9w0gjcwkbhj"))))
+            "124s81pwdj3k62a7hiavg0h2x4w5wb25l84gwqslxf5hz7qxhwya"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-request emacs-dash))
+    (propagated-inputs (list emacs-request))
     (home-page "https://github.com/thomp/noaa")
     (synopsis "Get NOAA weather data")
     (description
@@ -80975,17 +80973,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220204.42")
+    (version "20220515.736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "3f1f3a38429da17811f61a7a5685224d79de9594")))
+                 "1fc8edbf15d0c34baa34fd566dce4a96f3575bb6")))
         (sha256
           (base32
-            "01f04xpqkgja34a0z4smh2kxzn3lvx2391fnbfxmq92pxqp3gk0j"))))
+            "1f4rcc7k9rmqf5bdka5mn30s4wyh30nj2cdkpkyglshx6w85jn7l"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -91595,17 +91593,17 @@
 (define-public emacs-project-rootfile
   (package
     (name "emacs-project-rootfile")
-    (version "20220514.1040")
+    (version "20220515.728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/buzztaiki/project-rootfile.el.git")
                (commit
-                 "12145e13af5020482e68d95485e2e19fe5b0065a")))
+                 "ef582d4459ade8360932a00b814ffbb8b4584f82")))
         (sha256
           (base32
-            "0v1q8fgbpa2zsa0yrmpgmg8cn2z2baya5mx8zfxfyq6r85r5m13m"))))
+            "1kbzdlg4szjrfn4djpw2sza50q38figrlzldvaaa32qkwdqdardx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/buzztaiki/project-rootfile.el")
@@ -102349,17 +102347,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220510.2050")
+    (version "20220515.746")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "c5342a3086367c371e8d88b3140e6db070365d43")))
+                 "32f5652d6a976f68e7cf47b61d7d0e2764b68aae")))
         (sha256
           (base32
-            "12yzd23y1zq1qhsj1h1ihpz7nf66aifvn7vd4j6q6g86rkdfd8xk"))))
+            "1lxwbj3kwv7qldi2hsim06lrdwzcxa4lhasyrjqlmrfycam9f7nb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
