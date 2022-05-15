@@ -3935,6 +3935,30 @@
       "Documentation at https://melpa.org/#/arview")
     (license #f)))
 
+(define-public emacs-arxiv-citation
+  (package
+    (name "emacs-arxiv-citation")
+    (version "20220510.1137")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/slotThe/arxiv-citation.git")
+               (commit
+                 "a7e79919aa44c495c4fd10fd801e3b1225207446")))
+        (sha256
+          (base32
+            "0k5fy5g88vsx4izg1shcimsikvxyfpphkmp6mw9wwws4x5v4qvha"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-dash emacs-s))
+    (home-page
+      "https://gitlab.com/slotThe/arXiv-citation")
+    (synopsis
+      "Utility functions for dealing with arXiv papers")
+    (description
+      "Documentation at https://melpa.org/#/arxiv-citation")
+    (license #f)))
+
 (define-public emacs-arxiv-mode
   (package
     (name "emacs-arxiv-mode")
@@ -8186,17 +8210,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220511.1643")
+    (version "20220514.1916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "55271c12e05c14e30102bd64bd609af29d58846e")))
+                 "04df5cac8c3ba8981833feabd15a87af319f734b")))
         (sha256
           (base32
-            "104kf3km7450jj7brgjhmw5idrvk3s1qjxclzpv7xypyvi53ab8l"))))
+            "0mnn7vq0qf905281n7n54d86jk68r71jrrbsfjl0sqfjlqsdfd75"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments
@@ -18307,17 +18331,17 @@
 (define-public emacs-ct
   (package
     (name "emacs-ct")
-    (version "20210219.1344")
+    (version "20220514.2027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/neeasade/ct.el.git")
                (commit
-                 "c302ee94feee0c5efc511e8f9fd8cb2f6dfe3490")))
+                 "6bc55d01780fa921ced0e648d04497e27e23fe54")))
         (sha256
           (base32
-            "0230h5qvg5jbpyry4xxmh41c0wpinmm04k5hc1qsc2mvqhv3n9n5"))))
+            "03yfk0kwckb6gpp9ndnb9i1vcvx61wcy30jg35zkyfd2h93vjnp2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-hsluv))
     (home-page "https://github.com/neeasade/ct.el")
@@ -30927,17 +30951,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20220402.1721")
+    (version "20220514.2001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "53fc69b8712b9869cee49468a6e418d64d2c3ab9")))
+                 "8c6e37cc61f6b5efa833312887461e2de1bb7651")))
         (sha256
           (base32
-            "16ma3z7sxj95p3jfaszdvaj45rjkmb806mlm2vv5pgcbzqjfhrp6"))))
+            "1ajjf2zgrcq82si39qvyf1igmhl7y5mj83a2nvxmk19y1ksm4p4i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -36766,17 +36790,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20220504.830")
+    (version "20220514.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "1d7c1b20782ccbaa6f97e37f5e1d0cee3d5eda8a")))
+                 "66a973afca1d03b8284baaa7590eb2b8615a1e6a")))
         (sha256
           (base32
-            "01hr9xpjyws32aap2jlyncbgl1rfig8ylspln01yxf1lljysicc2"))))
+            "1acvldcdac11p92c47a25q5k3lxsibigr98b3b2zcmf5l90l0y49"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -67080,17 +67104,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220511.1331")
+    (version "20220514.1948")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "465bcc5fbeb6293446a3241f5f2c1b872337958c")))
+                 "1d9ec3f30a6491b58a904b071694a1a8a0faca87")))
         (sha256
           (base32
-            "151vc741rwi2gggkw39msql1y050b1n46rrjnzalz9nqsk6l5dp2"))))
+            "0p0f09zxz7jh8spixzs7hfgdwrn5772157x24dzs8n918aw37xg8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67410,17 +67434,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220510.627")
+    (version "20220514.2010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "eba9c4eaa255a14e2facd658e7122674c05390f8")))
+                 "370022b6785e5c1906cf23fe92d658f10623f3ba")))
         (sha256
           (base32
-            "09c6qy17dlqh2jnzk6xf6cj8r7gbwgn59cmhaadzhh3v3n13362z"))))
+            "0sd8r9b386wqjdp6980mr5q6z31knbg1my6xlzizfps5764ffy9p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74614,17 +74638,17 @@
 (define-public emacs-neil
   (package
     (name "emacs-neil")
-    (version "20220501.2053")
+    (version "20220514.2039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/babashka/neil.git")
                (commit
-                 "239c16655431b27ee558bf250bece4f4b10a0e83")))
+                 "17ed64da0782a3f469853464901dba2316759ab1")))
         (sha256
           (base32
-            "1d31g7a9js378cq56gqwrd978bzc57848j169lsykz24yqx3sf22"))))
+            "0wqwx75n546kmbd7zr0038yij6b4xsnjwwj1vxsshwdbh38k1yxq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/babashka/neil")
     (synopsis "companion for Babashka Neil")
@@ -80164,6 +80188,30 @@
       "An easier way to add images from the web in org mode")
     (description
       "Documentation at https://melpa.org/#/org-easy-img-insert")
+    (license #f)))
+
+(define-public emacs-org-edit-indirect
+  (package
+    (name "emacs-org-edit-indirect")
+    (version "20220508.2141")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/agzam/org-edit-indirect.el.git")
+               (commit
+                 "f146d1b406308298b4004a28aaa11124b02d015b")))
+        (sha256
+          (base32
+            "18w6gpdj8ch8zgyidaglym8mxp23y4aa6a0z2qix7skka0vlknjq"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-edit-indirect))
+    (home-page
+      "https://github.com/agzam/org-edit-indirect.el")
+    (synopsis
+      "Edit anything, not just source blocks")
+    (description
+      "Documentation at https://melpa.org/#/org-edit-indirect")
     (license #f)))
 
 (define-public emacs-org-edit-latex
@@ -92514,17 +92562,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20220405.1808")
+    (version "20220514.1722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "bb9b1e271b51b3dfae984da15f0e40f5be5b2473")))
+                 "9757b6b5533bede372b03fdaa375987a0840eb5e")))
         (sha256
           (base32
-            "1m581adq9pp6q22n2dfazzmnlyb375ggk4f0ihpccrwccf2kzdk3"))))
+            "0isxnz2prd1m7lxx5k0lc1rynnlc504a27h5yhcz5nlm2vnfwxw5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -94308,17 +94356,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220514.1259")
+    (version "20220514.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "9d06ad1e44a1b56293debf21398e9150caf8c2a3")))
+                 "5ecebcf34068cae6df2e4be175d453c9cf2eacdd")))
         (sha256
           (base32
-            "07940pdj8lsb4nghssldl91v2crf999ypaw7a9c6hsvdlxlz0d9y"))))
+            "17k16d1x5qg39k9zmvqd2ix8n4rn9yhjda6jzm3cpvqi8gkl662c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -105237,6 +105285,28 @@
     (synopsis "Adds SQLLine support to SQLi mode")
     (description
       "Documentation at https://melpa.org/#/sql-sqlline")
+    (license #f)))
+
+(define-public emacs-sql-trino
+  (package
+    (name "emacs-sql-trino")
+    (version "20220502.851")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/regadas/sql-trino.git")
+               (commit
+                 "bad7be0bf2f6d2d653a787a4b5bc6a281a8bea88")))
+        (sha256
+          (base32
+            "0b27b8nbghxfqynr6sfadpmwlsixn4hhqqmczc3i9i69sbm2m8a0"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/regadas/sql-trino")
+    (synopsis "Adds Trino support to SQLi mode")
+    (description
+      "Documentation at https://melpa.org/#/sql-trino")
     (license #f)))
 
 (define-public emacs-sqlformat
@@ -120224,6 +120294,31 @@
     (synopsis "Turn deft into a zettelkasten system")
     (description
       "Documentation at https://melpa.org/#/zetteldeft")
+    (license #f)))
+
+(define-public emacs-zetteldesk
+  (package
+    (name "emacs-zetteldesk")
+    (version "20220512.1736")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Vidianos-Giannitsis/zetteldesk.el.git")
+               (commit
+                 "0237a5a0f9cc40dc543c9713c37bbb34d548de50")))
+        (sha256
+          (base32
+            "1isqd3a0mkcfqqj386h3glmxq02323a1gdykf8wpsm67x8myjgij"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-org-roam))
+    (arguments '(#:files ("zetteldesk.el")))
+    (home-page
+      "https://github.com/Vidianos-Giannitsis/zetteldesk.el")
+    (synopsis
+      "A revision and outlining tool for org-roam")
+    (description
+      "Documentation at https://melpa.org/#/zetteldesk")
     (license #f)))
 
 (define-public emacs-zettelkasten
