@@ -17121,17 +17121,17 @@
 (define-public emacs-counsel-etags
   (package
     (name "emacs-counsel-etags")
-    (version "20220405.510")
+    (version "20220516.1309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/counsel-etags.git")
                (commit
-                 "c74ae94297c4a2dc0b6878c2e9460a4f386158d4")))
+                 "3541edc21ab67ef4c51d8081418e699c956d0e90")))
         (sha256
           (base32
-            "01a11dij88ysnrpmrs0flc9m43mlbc41zcahwmaqdp58rvgc24ji"))))
+            "1nhnc3h2nv86dfpzhr82ych3aqg3qrrfykq9481fpq18dy5b8x9m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -25872,17 +25872,17 @@
 (define-public emacs-efar
   (package
     (name "emacs-efar")
-    (version "20220515.1844")
+    (version "20220516.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/suntsov/efar.git")
                (commit
-                 "8434ce2ad6c2e71d215a6d0bcc418277948fd113")))
+                 "4f7b0c6345829bb6fc27aa3eca30f2b67fea9f2c")))
         (sha256
           (base32
-            "0a1137l064d9mvkhj2x8b19f1wf3pmf49jd1kcg6m9lqlbsbgb6x"))))
+            "14wi16k4nbm7g1h3nl3anhl991izr7sy46pli9ljsqy4ycip6xyc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/suntsov/efar")
     (synopsis "FAR-like file manager")
@@ -64047,17 +64047,17 @@
 (define-public emacs-le-thesaurus
   (package
     (name "emacs-le-thesaurus")
-    (version "20220509.2120")
+    (version "20220516.840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AnselmC/le-thesaurus.el.git")
                (commit
-                 "2af1ab37097cdd17044ab217e9aa6839add98626")))
+                 "185ba932b3bc4aaa4318d3fad571d90830eb2bb2")))
         (sha256
           (base32
-            "1w2k2pvzgd5v008ma9bc6y16aiyjixhgvrn7bxf6cy43056mh0wf"))))
+            "07ms3zvij5ha2caljpab5w2wxh4n6klm5422mgb4gxbiywrpm530"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -75970,17 +75970,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220226.1200")
+    (version "20220516.1012")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "7167b7556cccbb16ec83144a2f2a095b91a6ba02")))
+                 "90a7c1af368a527700dcde9b0dcbd760afc7bd92")))
         (sha256
           (base32
-            "1i6cmaa530s45sawmfsabr8vvqlnk64bifill070jfzpgilxj7bp"))))
+            "0afirr21qdy9j29qyyg8kl60pzp5x6izf8sxapad8fpbb2541yqq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -78410,17 +78410,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20220402.1505")
+    (version "20220516.924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "df7180a8d75dedb2fd8878843a3d3cc654be508d")))
+                 "fccf92f222654c6e442bb38a0ca1cef9a6fa31f4")))
         (sha256
           (base32
-            "0wf02hziqxmjvcxbnl8nr6dmgw9ivmx2n1ybrqh2k75zz1rnzasc"))))
+            "1d3570hmhw1jyksfsr53ydik0xjfqipjjcg3zi5slm0lpy7rzank"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -85546,17 +85546,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220510.2024")
+    (version "20220516.1125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "899bb08963c21028a02894426a9d86f768fe06d8")))
+                 "32a66832e376cfc918b63bd9a67b1c8cae23662a")))
         (sha256
           (base32
-            "1zw68gg8ai5921kly35fnxapnxqzdqx8ll7w8bdxpv8f06vq24xj"))))
+            "09b2bgcsn0kc6rfc567i42izfm1kasg0jyrqzn45w8i892pgaj9c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -88156,17 +88156,17 @@
 (define-public emacs-php-cs-fixer
   (package
     (name "emacs-php-cs-fixer")
-    (version "20220510.1407")
+    (version "20220516.1008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/OVYA/php-cs-fixer.git")
                (commit
-                 "225ca7127052e2b3d660495d04319e817ec302ab")))
+                 "efe4368d891f1eec6311363cfd6be3e9eadb5e0a")))
         (sha256
           (base32
-            "1zwl6hpw0ka4pdsk9i67dbv42idb0nhi5i3yajy1wzdihj7hqg3y"))))
+            "1j0ivk4d8xd2r9ssdn9y4xl3lr2isg4sks5va7wjvk6h7jnf81bj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/OVYA/php-cs-fixer")
@@ -91591,17 +91591,17 @@
 (define-public emacs-project-rootfile
   (package
     (name "emacs-project-rootfile")
-    (version "20220515.728")
+    (version "20220516.1419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/buzztaiki/project-rootfile.el.git")
                (commit
-                 "ef582d4459ade8360932a00b814ffbb8b4584f82")))
+                 "ec33877552a5dabebca4ab272677a7fbaf98864f")))
         (sha256
           (base32
-            "1kbzdlg4szjrfn4djpw2sza50q38figrlzldvaaa32qkwdqdardx"))))
+            "1qpns8b638gmzq8qbi7p8xypqv81q6rn7bb3g9ww2ka03scms8n7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/buzztaiki/project-rootfile.el")
@@ -92992,17 +92992,17 @@
 (define-public emacs-pydoc
   (package
     (name "emacs-pydoc")
-    (version "20211119.2211")
+    (version "20220513.2059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/statmobile/pydoc.git")
                (commit
-                 "3aaffe41e1c5a9d53fbc1de02686c386fd002890")))
+                 "604c12e19deeae60b9416c1ac0454fd9bce5e6ce")))
         (sha256
           (base32
-            "1z6p1glspxr5vl9igzhginaws65iqs9h2ymi21f62x7ydm54i96y"))))
+            "1zq8a26x5bghsa9ivp7n54ka86r53zvq4qalv3qmm169wnnbv60h"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/statmobile/pydoc")
     (synopsis
@@ -102902,17 +102902,17 @@
 (define-public emacs-smart-hungry-delete
   (package
     (name "emacs-smart-hungry-delete")
-    (version "20211020.1822")
+    (version "20220516.1421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hrehfeld/emacs-smart-hungry-delete.git")
                (commit
-                 "78acd1f16fb99b66a6c9bd605a988c3c74280577")))
+                 "e06525cc1841805ebe470c876d6b966de90bc275")))
         (sha256
           (base32
-            "0c4yrnngq1m5nwis5y26qf0mfp12qnargh7s4hd3wm5xl4n5369x"))))
+            "0226lpiqnrjjdnay6nafgm118g8dkr59ilvygk4xrjcb52jjhn7z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/hrehfeld/emacs-smart-hungry-delete")
@@ -118275,17 +118275,17 @@
 (define-public emacs-wucuo
   (package
     (name "emacs-wucuo")
-    (version "20211201.1214")
+    (version "20220516.751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/wucuo.git")
                (commit
-                 "09fc58a02621b6c9615f8289c457e30ca6f63bcb")))
+                 "44cf8adee58f2b4922c34dfa51af06c52de0a192")))
         (sha256
           (base32
-            "15jva7qp723fpwv6f24300h8knmxrlsjb2icg9rzr0994g9f36qs"))))
+            "1z0qyycgaycx5r3jdlv7czv7awsfxyl7123kq2b2x02zbdqbf0dq"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/redguardtoo/wucuo")
     (synopsis
