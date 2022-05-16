@@ -3466,17 +3466,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220513.1623")
+    (version "20220516.436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "363d634c5c3d79983fb44d2238fcfdf24fbf81b2")))
+                 "cececba08fa7cb39a24d0f2c97aebf3dfd70a2cf")))
         (sha256
           (base32
-            "1c5977872wab3jj1v4p0js9b39adr9ym9hnsb1w57k2rq6avkxqq"))))
+            "0g97n6fjp6794zmhd6g5lpi6db6fwq70qgfhjfj2pm08144ywxxc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -19196,17 +19196,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220514.1535")
+    (version "20220516.615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "98190a310c2385716a6d4a1c1f65d7132f8cfd96")))
+                 "4fee7a5c38d6fb733b289902243e28a736aa1eb7")))
         (sha256
           (base32
-            "1w6w9mpcqbjaffzfv1wwxmjm3wijlb1bn7jqigyay0w070jfvzj0"))))
+            "12k51aw39p57jgp8dj83k6xbs8ir8lkwy6hp65mwqn2g3bqnwrcy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -19587,17 +19587,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220409.620")
+    (version "20220516.456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "a96b6c24bbda549b413fb67deab03f5a7578af9e")))
+                 "a4eb09778f7b685b6ff652212bf1fa2e6e1305d7")))
         (sha256
           (base32
-            "17bmh8qnvvsjv0b2jp0amvjhjlrg8bbq4fwl373x37gpg5z02k3q"))))
+            "017wmpwwf54q3prhywkfcrfxlhc123j2gglq5nhm0hfq49gw0966"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -19611,17 +19611,17 @@
 (define-public emacs-dashboard-hackernews
   (package
     (name "emacs-dashboard-hackernews")
-    (version "20190109.205")
+    (version "20220516.243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hyakt/emacs-dashboard-hackernews.git")
                (commit
-                 "b71814716d8f78181b9d1990f06072460de0797e")))
+                 "5a0c83aa2e048ef8e5384c8a1051dd4bc8aa8969")))
         (sha256
           (base32
-            "1dvv10xn2mh0nh85cd78y23cn8p9ygdhj4k7xs4fa6r7bhp0xvqm"))))
+            "1p0h64ym94b7rsyml5gm1k0mzkfffaxlc1psfkiwnv5jiqmkwqqf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dashboard emacs-request))
@@ -22341,17 +22341,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220515.1206")
+    (version "20220516.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "3b0533ede1be2408296db028a5df76d4a98184f0")))
+                 "7fd3c317e7def7e2421ec0a65612e8f869c5e3f4")))
         (sha256
           (base32
-            "0k9iqwz3ylwh819wivkj3sd7qi5sy6acrjlq2xiwddhha5yvq02l"))))
+            "0ih9kq8svbaccjxnp6zbnmbxpp9n8fgfahz882vzyzr9cx6dzgp1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -75627,17 +75627,17 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220515.512")
+    (version "20220515.2359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "d0c0c6a311591df94c6580ba634c0ed0c20bd85d")))
+                 "1ebacdfbaa996319adf88a49258814c28ba49b1b")))
         (sha256
           (base32
-            "124s81pwdj3k62a7hiavg0h2x4w5wb25l84gwqslxf5hz7qxhwya"))))
+            "1gz3blbj1snvdq9vyc2f2brbpkarxid221lpqm8h58jlzxx0by86"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page "https://github.com/thomp/noaa")
@@ -82107,17 +82107,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220512.1634")
+    (version "20220515.2351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "2657f0b444194e1de6957f9cfc112383980d62f9")))
+                 "1f51ec91d5274f371720ec37a038c5bbe6a49dbc")))
         (sha256
           (base32
-            "1x1222nvy5fq2cyz8ds271xq03bcyn4252vxzdch9gai3n0vg00b"))))
+            "1sx4g3kqygv96zkn6hynr8skpmqnkxnxrwrg37vvna9pyhc7dgci"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
