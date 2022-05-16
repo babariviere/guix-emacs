@@ -11659,7 +11659,7 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220515.754")
+    (version "20220515.1458")
     (source
       (origin
         (method git-fetch)
@@ -11943,17 +11943,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220509.2336")
+    (version "20220515.1726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "9a6fc6da11ad2b475244cc4cbd51c77615e9aad3")))
+                 "a2d7a9975a1535a8cc587ca1ed8847e743203da6")))
         (sha256
           (base32
-            "0q1hl8xsqb64lx10kcc4az3azaa8j3zly3pkf3lixh0qrc74bil2"))))
+            "06cz79drc0yj3igrzs2svps8zr1xash25192vbblp3m2sh3j39pg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -20915,17 +20915,17 @@
 (define-public emacs-diff-hl
   (package
     (name "emacs-diff-hl")
-    (version "20220506.2102")
+    (version "20220515.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/diff-hl.git")
                (commit
-                 "14f2db367e8023ab0027713315a38ecd703afdbf")))
+                 "e84209e959a17c7b96148e099e391daa29a4835e")))
         (sha256
           (base32
-            "0ciyg1g9sil1pvmd53r57gyds85f11457anjcfi96p4jjyjg9sxx"))))
+            "1jjgdjlbpi8d5yb83143jhkb2v4375kvmxkn1q5v3wyqx0f21npx"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dgutov/diff-hl")
     (synopsis
@@ -23570,22 +23570,20 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220412.853")
+    (version "20220515.1603")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "7d8eb7c44087a62d8dd6e8ba1afc26facd914fbc")))
+                 "60412d8b4df87b0440169567df73c2f57669f7d7")))
         (sha256
           (base32
-            "0y050g6qgzzw7krabgw0gx2dx6mv7kkzy5y501id37cgryhws483"))))
+            "1gwi3ms02py49gybn21n7cv57dz490paj679pq030xs08jqq305j"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-all-the-icons
-            emacs-shrink-path
-            emacs-dash))
+      (list emacs-shrink-path emacs-dash))
     (home-page
       "https://github.com/seagle0128/doom-modeline")
     (synopsis "A minimal and modern mode-line")
@@ -25874,17 +25872,17 @@
 (define-public emacs-efar
   (package
     (name "emacs-efar")
-    (version "20211122.1943")
+    (version "20220515.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/suntsov/efar.git")
                (commit
-                 "49dc9b89a8b9bf2523c202ac8830d1245768f3f4")))
+                 "8434ce2ad6c2e71d215a6d0bcc418277948fd113")))
         (sha256
           (base32
-            "18pxs3mml90hd97fdhpgxyww4vjcj7jjiz0xzlzj0fd83pxxjr3n"))))
+            "0a1137l064d9mvkhj2x8b19f1wf3pmf49jd1kcg6m9lqlbsbgb6x"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/suntsov/efar")
     (synopsis "FAR-like file manager")
@@ -45087,17 +45085,17 @@
 (define-public emacs-gnu-indent
   (package
     (name "emacs-gnu-indent")
-    (version "20220515.1234")
+    (version "20220515.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-gnu-indent.git")
                (commit
-                 "95ffb0e043bebcdd10fd7412b24d22ad9f6e3454")))
+                 "ff3e10edbdf9b919747ec2ba3434d5858f5cc9fa")))
         (sha256
           (base32
-            "1v0af0ra0qcjrhjn4lvb9j8967m893l8w8zsln457qvb64pwx7v1"))))
+            "040vlkzhgi7mhp6m4nrqz2srh8fr8xgpgbiqm8mbcs7py41smkg0"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-gnu-indent")
@@ -70238,17 +70236,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220501.1918")
+    (version "20220515.2054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "72d6ff36b62a57aa9c9dbfbd44cdb3002a0e940a")))
+                 "b6db7f35d4a664e1e175318e96982fa3688f8264")))
         (sha256
           (base32
-            "0vaam51wg8a7ilk9kp3lvz3p0vfcc3fl2nkpwswdadgr69f2d4qb"))))
+            "088cwcgily8gdy3pf0qxkc6l1pnfbzkbhmhy4hcw8n2ianv45bic"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -76689,17 +76687,17 @@
 (define-public emacs-ob-ada-spark
   (package
     (name "emacs-ob-ada-spark")
-    (version "20220401.926")
+    (version "20220515.2014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rocher/ob-ada-spark.git")
                (commit
-                 "1213b877bc893ac5990a20052ea2bf2d8f086260")))
+                 "b4f16b255947240e458127e5c737d793ac894ac1")))
         (sha256
           (base32
-            "18v4psk9ilvbnsbdksarix7zak7pbyxbn0rfy3kv9r2p0nrw9brj"))))
+            "1vfkp4k5wz6aqq13f8p3la825q7qa3q1m05s2a5mdffn2r7f7nb9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -98734,27 +98732,6 @@
       "Documentation at https://melpa.org/#/salt-mode")
     (license #f)))
 
-(define-public emacs-sane-term
-  (package
-    (name "emacs-sane-term")
-    (version "20181130.101")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/adamrt/sane-term.git")
-               (commit
-                 "46352169bd6d2a86ca9c2052cd05ecd16fc7657b")))
-        (sha256
-          (base32
-            "1k0b1w9a3b89ricji92nq4cqbh1l2fm7ly1bdl8pvf59drp7cpd4"))))
-    (build-system melpa-build-system)
-    (home-page "http://github.com/adamrt/sane-term")
-    (synopsis "Multi Term is crazy. This is not.")
-    (description
-      "Documentation at https://melpa.org/#/sane-term")
-    (license #f)))
-
 (define-public emacs-sass-mode
   (package
     (name "emacs-sass-mode")
@@ -109990,17 +109967,17 @@
 (define-public emacs-timu-rouge-theme
   (package
     (name "emacs-timu-rouge-theme")
-    (version "20220501.1753")
+    (version "20220515.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-rouge-theme.git")
                (commit
-                 "935e4907f01fba2c7c2ecaab88eb7c4163955c3b")))
+                 "a00b704235bcc595e02b157eee22caaecfc0080f")))
         (sha256
           (base32
-            "0651q30pvxqdfv31mn87jxxkhds3f7bqh8bl1dsn7k9l1j6l3xfz"))))
+            "05zckq47vk90517cbwg0caxqqv510pkbz806l1sd0gi834ixg8ki"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-rouge-theme")
@@ -117039,17 +117016,17 @@
 (define-public emacs-why-this
   (package
     (name "emacs-why-this")
-    (version "20220515.1238")
+    (version "20220515.1722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-why-this.git")
                (commit
-                 "f18b8d8d18ae0feea640a480917d779a9de191cd")))
+                 "c7f771736cd82a6c420078c07787a3872b444c40")))
         (sha256
           (base32
-            "1mrbdgd6381b0b8zs4bvakx01anj4654lryhlm6skgc1rp9m90hw"))))
+            "07isx99f9xfbi010sp3j0q3bigy7w8cmgs3jrvvwxvr4ivlqjpgc"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-why-this")
@@ -118068,17 +118045,17 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20220515.1259")
+    (version "20220515.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-workroom.git")
                (commit
-                 "94700152e562478f4a7c91d71143e0bec2a99c68")))
+                 "5da61d48fb1cf855ac76ff5bbb126d4033212678")))
         (sha256
           (base32
-            "0mlkdr2l1iazszj298chrihp6dqynnmm22wycr5rcd0680y5k7m1"))))
+            "17mg84l78widc1gqcny2v53civ77z8n5xc7bxkj7h4xs573nl0ag"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-workroom")
@@ -120017,29 +119994,6 @@
     (synopsis "Search the word at point with Zeal")
     (description
       "Documentation at https://melpa.org/#/zeal-at-point")
-    (license #f)))
-
-(define-public emacs-zel
-  (package
-    (name "emacs-zel")
-    (version "20171014.832")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/rudolfochrist/zel.git")
-               (commit
-                 "9dae2d212224d1deae1f62561fa8e4d689fd09f2")))
-        (sha256
-          (base32
-            "1518wp3zjfdvzz5r22cjgn735c4yxr345qzj40b5agww4dsxmwmp"))))
-    (build-system melpa-build-system)
-    (propagated-inputs (list emacs-frecency))
-    (home-page
-      "https://github.com/rudolfochrist/zel")
-    (synopsis "Access frecent files easily")
-    (description
-      "Documentation at https://melpa.org/#/zel")
     (license #f)))
 
 (define-public emacs-zen-and-art-theme
