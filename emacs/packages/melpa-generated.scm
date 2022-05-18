@@ -9900,17 +9900,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220506.1214")
+    (version "20220518.222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "42023e5d1781c75f425e8c72b63b28e53dae6e9c")))
+                 "99692868946566c4cfa042a85e99818fdefec55a")))
         (sha256
           (base32
-            "029ssw7k9prmh7rv4drjmwzcykrihpqkmkylz0fla40l7ycmdr5c"))))
+            "03vgi5rc9k9kg0hg6k3zw4li7zg0nyly1v4m71d0y6rrd8abx6a7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -10017,17 +10017,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220506.1814")
+    (version "20220517.2253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "e72edf2d6357beb64798ef1894cc807190f80901")))
+                 "0a490abfbf89a24ceb148bdb8afbbd8823a2a201")))
         (sha256
           (base32
-            "0l6slrbh7sr3r3zgxh4r1r0g2131mvpmy2vd1hrkjf9q9c5hpqq0"))))
+            "1f3l1vd1jya1w1099j1l1gi71gxma1zq75ag3563dfhy74whyxzz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -65900,17 +65900,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20220512.34")
+    (version "20220518.204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "7eaf6dc55caaaa65c5d6937b25e1748df75dbdb3")))
+                 "e509c806138cbe164c0d655cc7d662f94c386c9b")))
         (sha256
           (base32
-            "0gcszam4qsl64jx5yggbawsawrj74cqsp7mbzmvvs40gr8pvx2yp"))))
+            "1hc4zggmvizhbim37l61jk5xmnm0r3vn8d2vzmvzw70kiwiwss53"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -76438,17 +76438,17 @@
 (define-public emacs-numbex
   (package
     (name "emacs-numbex")
-    (version "20220504.1329")
+    (version "20220518.29")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/numbex.git")
                (commit
-                 "55d4977c74ca33d1ad4c10fea7369f4bcdfd3f86")))
+                 "aa3903f190946e54f41601dd7831f3aa973a8be7")))
         (sha256
           (base32
-            "0d43ad14b2k1w3my2nwrnw58z594hw18k6p37xvvpnx8r4fdxbl2"))))
+            "1fnll6ccys7wmwbw4xp638ln0qsdy9bfczphgrdjps0h8xr3awpc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/enricoflor/numbex")
@@ -80971,17 +80971,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220517.1644")
+    (version "20220518.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "2eede712acc51aaf495984ec457431dbb520038c")))
+                 "79de0b6cee5e289370d559614d30ec74fbcbbbcc")))
         (sha256
           (base32
-            "1qxv0wglgfcvy6akykjrji3bzsbbg0lhjmkypi1hq9mz51jnlbv0"))))
+            "12d7vcb9ig70f8waxq0n8925iynz39bmzg56vfq2id334s4rr1hx"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -94352,17 +94352,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220515.1531")
+    (version "20220517.2322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "2477f07e779cceb034d62a79f8afae92e0e794ff")))
+                 "c6f18e6883c4f48eee2d0d4f5bd7604a2de31753")))
         (sha256
           (base32
-            "1pa3anmh1nj5q34d571sys3x4rwidmrkdnfvhibyg9r6fch8y311"))))
+            "1n0yanmsk1n4qqxk275fy305ivn7hj4czss5d20irlmxr18jmjl7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -97716,17 +97716,17 @@
 (define-public emacs-rspec-mode
   (package
     (name "emacs-rspec-mode")
-    (version "20220401.306")
+    (version "20220517.2325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pezra/rspec-mode.git")
                (commit
-                 "a54ac64097b6ccc6acc52a8b077ceb63766fc4d1")))
+                 "41224216cb7762a18eb0e309095796f3eb319e01")))
         (sha256
           (base32
-            "0s512jgd62rh0x5x24jzkmnw7hs6m1s1bcys41hr1vv27i0j2zvh"))))
+            "0ym2i3w071iqh32p36fb22br62cbfs6zyhpm9khbspgmvpxaas8x"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("rspec-mode.el" "snippets")))
@@ -104680,17 +104680,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220511.143")
+    (version "20220518.117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "701e7c49c38babaa2b2071febd2b112fef600683")))
+                 "e23ac498e9c96f5e93569271d192e6c247134412")))
         (sha256
           (base32
-            "1wkqrlwh9n827x49m71j5ilkgk9xn6smxi11cfbd35hbdkdf5gyn"))))
+            "1dyc7ax2idr30ph2y05lxb94pg0qnpj23l17bg0rscv00pg8883c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -119236,17 +119236,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20220311.332")
+    (version "20220518.54")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "34c300b08579b72c7c92aefee1f4b500913f0c85")))
+                 "01ab8d19100831697c9d20035ce200084682b577")))
         (sha256
           (base32
-            "1lwhm3c7xmx1j9ggf9ka0whpm7g5p6b11gfv1bxkdx1j8ypvxn0m"))))
+            "18hfk6a2cwm4ah6gc83cpy2bl6zigrzfx99hjab8fy6mh5l9n8rc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
