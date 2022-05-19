@@ -24138,17 +24138,17 @@
 (define-public emacs-dtache
   (package
     (name "emacs-dtache")
-    (version "20220513.2050")
+    (version "20220518.1600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~niklaseklund/dtache")
                (commit
-                 "08310ca70b935d82fab146c7135d19a2c784f160")))
+                 "02651e47d3142deb675dceb42b76822d72584070")))
         (sha256
           (base32
-            "1q28i4pm4agncr3jlmj8l3jwsqyxka8fww59173r5yx0mhvrqhz1"))))
+            "1mf238cyz795wg9kd1x6w2ypw9r6gxhbfp4p7s9b50l2408q61bj"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.gitlab.com/niklaseklund/dtache.git")
@@ -29484,17 +29484,17 @@
 (define-public emacs-engine-mode
   (package
     (name "emacs-engine-mode")
-    (version "20200611.1825")
+    (version "20220518.2125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hrs/engine-mode.git")
                (commit
-                 "e0910f141f2d37c28936c51c3c8bb8a9ca0c01d1")))
+                 "282f5d5910a7bdda08905d7c4e0c87cf96244cb0")))
         (sha256
           (base32
-            "15zx4a8gvgk077pnj7wr78nfjrzrj2i9ma6cj6jj6i8ikz6wyvjz"))))
+            "0lwl214mqbd1aql4x9s0cyan69ll780is4awak18awqqc6kx8pns"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/hrs/engine-mode")
     (synopsis
@@ -62944,17 +62944,17 @@
 (define-public emacs-kotlin-mode
   (package
     (name "emacs-kotlin-mode")
-    (version "20220517.2030")
+    (version "20220518.1700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode.git")
                (commit
-                 "f8b7b3648e230368fc019b63263dff874ac255cd")))
+                 "60ebf567ec1bcd56a40594d04ac2b866aa6935a2")))
         (sha256
           (base32
-            "016qqrcsngxxhamsxv26q94s4f9fpqa4qlqirfwvzy0wpq6qgnvd"))))
+            "04flv8dqfc0g91l525b9dpzwr5yx65k866ps0lh6gkmij7ird0w1"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Major mode for kotlin")
@@ -77384,17 +77384,17 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20220512.820")
+    (version "20220518.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "448b1d0d2edf908c13a99a2424fec20de636f5a3")))
+                 "39dbdb265785ae72bcd53706bc53190ec5e11bf0")))
         (sha256
           (base32
-            "040k25ikvngczd8yxm8i6qa0q6vbqgsiq1ddwq1wlvhaw9iam6qm"))))
+            "0wnvfv2ddvfwm6w446xx3x024g2vi8wzxyj85wdhpdh2hzssfchi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
@@ -80971,17 +80971,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220518.518")
+    (version "20220518.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "79de0b6cee5e289370d559614d30ec74fbcbbbcc")))
+                 "1a57b9c926e8b23b93c8c376a6d37d34fc949285")))
         (sha256
           (base32
-            "12d7vcb9ig70f8waxq0n8925iynz39bmzg56vfq2id334s4rr1hx"))))
+            "0w8p9011pmwgv3qbypwvkj5hh2a649nngfpsh4af8yw5fyiws189"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -114354,20 +114354,20 @@
 (define-public emacs-vdiff-magit
   (package
     (name "emacs-vdiff-magit")
-    (version "20210908.135")
+    (version "20220518.1948")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justbur/emacs-vdiff-magit.git")
                (commit
-                 "d3a39c3f8cb7ad9a6a769ce45f633b613b067490")))
+                 "413f32c9f7e66f8379c23b5ab6341695dbcc2f20")))
         (sha256
           (base32
-            "0ci5zsmd4r7z8h7g19ddd29y09lja0ikkm9rp8d2whxi9fz37dha"))))
+            "1zr6j6lw0x5w06sjlx8vnrrp1kx87zhm505plkb31hspf0ggsqlq"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-vdiff emacs-magit emacs-transient))
+      (list emacs-vdiff emacs-magit))
     (home-page
       "https://github.com/justbur/emacs-vdiff-magit")
     (synopsis "magit integration for vdiff")
@@ -115077,17 +115077,17 @@
 (define-public emacs-visual-fill-column
   (package
     (name "emacs-visual-fill-column")
-    (version "20220426.2045")
+    (version "20220518.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/joostkremers/visual-fill-column.git")
                (commit
-                 "cdfe574a51c4fc3519536fa3b169b01d5482d5df")))
+                 "106189b000ca092886dd9f1c1503613a751dbd3f")))
         (sha256
           (base32
-            "1gimqhpnagv675wsb1yr50wxf8fwxlviks515yhyxn65hgl2x4wn"))))
+            "1qxb5n8n6dcf3vd758dw892xxkcv921b9srdsckxy3gyrfnp2jry"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/joostkremers/visual-fill-column")
@@ -116789,17 +116789,17 @@
 (define-public emacs-which-key
   (package
     (name "emacs-which-key")
-    (version "20220419.227")
+    (version "20220518.1941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justbur/emacs-which-key.git")
                (commit
-                 "129f4ebfc74f207ac82978f6d90d8b4bb1a55cf9")))
+                 "1ab1d0cc88843c9a614ed3226c5a1070e32e4823")))
         (sha256
           (base32
-            "065jfwnz9ymv5xiiyhnhsi5sm03ah5985hnm5psay6z9msskcnx8"))))
+            "0i4wxihcly3i8pgmw1gv7lriqcyis9q476akvwrdgjwxnn2gmk0w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/justbur/emacs-which-key")
@@ -120325,17 +120325,17 @@
 (define-public emacs-zig-mode
   (package
     (name "emacs-zig-mode")
-    (version "20211227.1108")
+    (version "20220518.1715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ziglang/zig-mode.git")
                (commit
-                 "1ef8a13b93b3bdd20f86727b3a71572b02c421ef")))
+                 "905917322b8b5f191593c66b5f26dd347fe1290d")))
         (sha256
           (base32
-            "06qgphf7341jyyzq2j9qpac6g7xj61kkvx70j82xg89r1ckrd37w"))))
+            "0indj8b94ycigy91q1yfnl8fmr5zbalvh1n46d5kd562fh8p01f0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/zig-lang/zig-mode")
