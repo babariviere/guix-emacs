@@ -2627,17 +2627,17 @@
 (define-public emacs-amread-mode
   (package
     (name "emacs-amread-mode")
-    (version "20220210.1354")
+    (version "20220519.45")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/amread-mode.git")
                (commit
-                 "a3358645582148e81bff54e18877451b747173bb")))
+                 "21f3cf796c08625cf70d534a990f4ae2273a5d4f")))
         (sha256
           (base32
-            "0nl1w5ysq90bxl16jrdh87wyp6ffawbjc3c6zrbhsfmfd24jiq28"))))
+            "1rs5ybxh779fzb2xr0y8rhh4qzdpgrfgir4r81rpfxyhksls88xx"))))
     (build-system melpa-build-system)
     (home-page "https://repo.or.cz/amread-mode.git")
     (synopsis
@@ -48206,17 +48206,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220402.446")
+    (version "20220519.252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "a23571eaab94fb2da0569ed5ab3c1b469f123b97")))
+                 "902aff3f978adfe65da130aedac698d084355735")))
         (sha256
           (base32
-            "0xl7lfj9cc9qp72ibjyilrdxrknvfd07fk206c8933yngrkqf376"))))
+            "0hxhfvnnf9jcll6k65grpfs57gc8fidpfs6s7hyjj7g2i9rpwm11"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-hydra))
     (home-page
@@ -66739,17 +66739,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220430.1535")
+    (version "20220519.126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "7ca60ce9a703ad7a950dcd5ec36ef4251f57d207")))
+                 "f1b73660e92b01f90454ed4c1e8c862590e11292")))
         (sha256
           (base32
-            "1snsnd9pgq2lz3avypps73qfdl3ky2i5sx04sybj7gj41yz834bc"))))
+            "1k46ia546jaxr18adlxpcplqmsih6kn4xrrwzr7npvq77y3mckgm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -67981,17 +67981,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220516.2019")
+    (version "20220518.2359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "5a7519fd3d56522b1c6a1601a12ae0f4717c26a7")))
+                 "e920cdb326d2c2da5a32809085aa6b9369b51b1a")))
         (sha256
           (base32
-            "1fgh8z2q6siqrz0q1v0rhhxqrs4ckpnycrfcmqwxiavzwhin4bgm"))))
+            "09vz7mn7j7x35zplid2s7ihn3wbdyk472wfx2jjqni9d65n2kp3a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -108998,17 +108998,17 @@
 (define-public emacs-terminal-here
   (package
     (name "emacs-terminal-here")
-    (version "20220517.655")
+    (version "20220519.552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/davidshepherd7/terminal-here.git")
                (commit
-                 "54fcbc50fd58fe2c1b756ea6c21bd95f5e5f9d22")))
+                 "ae5974712563d21fb1d3f8e456f579e2ff2da84d")))
         (sha256
           (base32
-            "1fl8r1xlpip30njj2f8cpi114rvavvcllzmhnc8m27pjpw2laz00"))))
+            "1zl36l73nldhnfa13r3lymdin7lyl87awa1cpxzqgcvmjhi46m23"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/davidshepherd7/terminal-here")
