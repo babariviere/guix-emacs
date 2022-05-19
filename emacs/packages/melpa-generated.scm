@@ -20712,17 +20712,17 @@
 (define-public emacs-dhall-mode
   (package
     (name "emacs-dhall-mode")
-    (version "20200822.258")
+    (version "20220519.1115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/dhall-mode.git")
                (commit
-                 "ad259c8a2292fb398dff1ce7d25c686edb02945d")))
+                 "c77f1c1e75b6d2725019c5275fc102ae98d25628")))
         (sha256
           (base32
-            "1vp8cjkkiih7cz5d8kcpc2ysq3iz4wr5wi2lkkkhp94k04jl5h1r"))))
+            "0b0pahi122rnfqpjk2svdcyywka2md6sch609d0x7vqlpylk66dx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page "https://github.com/psibi/dhall-mode")
@@ -22341,17 +22341,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220518.1241")
+    (version "20220519.958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "73dcaa404da9ab84d25f2919e6e3af4b1f8e7f37")))
+                 "1b077d80ed916d3a0514bdeb21d40313adf9405e")))
         (sha256
           (base32
-            "03m97z7dp20p3x1dgqjqppcjbdibbnn83dyqq0b7h70zvk4k7la3"))))
+            "05ki57r3kcmdxqx1sznpy8c4b3p4q28g3md029xzkspn9r8f2r4l"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26026,17 +26026,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220509.1904")
+    (version "20220519.900")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "ba618d2cee55c8c339d46621b7e721957cc30a72")))
+                 "2b87b06d9ef15e7c39d87fd5a4375b6deaa7e322")))
         (sha256
           (base32
-            "08ynxy8wpb1ran8r7h51n5r1njpjvz7hdxkgvr5njlhwp5wz2jd5"))))
+            "1rwlmq2xfzrz4r0xy6l5dhhcyhqa51756xxn3vapak32ndwnd87m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -26323,17 +26323,17 @@
 (define-public emacs-el-fetch
   (package
     (name "emacs-el-fetch")
-    (version "20220510.1536")
+    (version "20220519.1227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-el-fetch.git")
                (commit
-                 "3aa9594e807cb03af228c13224b381ecdd7ba2e3")))
+                 "6e5c49114dcc93d8ead5b8f29c4eb284a0560b70")))
         (sha256
           (base32
-            "0rpdmhck3qn325jscysvgj2nzdy09rl895wsk5jhssmgmnp92zxs"))))
+            "0i9ylhih695yc3fcjsyx8srarzzvn0ardn909rnmrjz010xdj4nv"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/el-fetch/*")))
     (home-page
@@ -34934,17 +34934,17 @@
 (define-public emacs-fanyi
   (package
     (name "emacs-fanyi")
-    (version "20220310.358")
+    (version "20220519.105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/fanyi.el.git")
                (commit
-                 "b01cb24209d223ae0e7281c279daab87800ee7f4")))
+                 "b09d122a17724668f73d44b9fe0b47add7f596c1")))
         (sha256
           (base32
-            "1jaw9xwh58p1n0x943f6fly0scxf6zd6czq87xrb3fnkmv8qdnhk"))))
+            "1ys3aymskjsrvkqq3k91ml1rxms8bp64i9r4q4ya5k8xdz828m5z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -56274,17 +56274,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20220105.1300")
+    (version "20220519.917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "65d6db1b7574ceccd3d97eee3790c2f74aa9724d")))
+                 "3c1f8f8410d909229d12d0227399f2d5c16b1ea4")))
         (sha256
           (base32
-            "0dc5mfm0gh7y4yzsz2lgc3802m4pv85l213j04k347xqqcl414lc"))))
+            "1is7n7j7h6w3x5i7byqn3kc41qk2p5wb0cdnr6cjxvlc3zar3wb0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -56706,17 +56706,17 @@
 (define-public emacs-immaterial-theme
   (package
     (name "emacs-immaterial-theme")
-    (version "20220214.1859")
+    (version "20220519.635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/petergardfjall/emacs-immaterial-theme.git")
                (commit
-                 "ca82a1700cf7834b55ada36e53811f6effde6283")))
+                 "e022d1a2fdc899b4c22254ebcf8997f5690d7c60")))
         (sha256
           (base32
-            "1c9d895g4dw0jp1ipm1mlhs2ln5f61ng83rv294jh32nrl3wrs81"))))
+            "0knpyh0ci777g6h83lr4pvy7w1syf068gy1p409rg3ssnwjnkxnl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/petergardfjall/emacs-immaterial-theme")
@@ -61836,17 +61836,17 @@
 (define-public emacs-kaolin-themes
   (package
     (name "emacs-kaolin-themes")
-    (version "20220422.1305")
+    (version "20220519.720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
                (commit
-                 "51b1f719bc300a4f684b6dc7511dfb044f75f575")))
+                 "5fd75d41647d9535eb730b99b5adddc9edf55cd2")))
         (sha256
           (base32
-            "0nq78kb751lgz398w8xbbl63cznb1g3l6j0j4limylmi8rlzvsnd"))))
+            "1pi9xhrlw76b35zsndgkfc4g5v1kk29y023xd0iczf74v8ih08ps"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (arguments '(#:files (:defaults "themes/*.el")))
@@ -64047,21 +64047,21 @@
 (define-public emacs-le-thesaurus
   (package
     (name "emacs-le-thesaurus")
-    (version "20220517.1725")
+    (version "20220519.610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AnselmC/le-thesaurus.el.git")
                (commit
-                 "a5d19479ab18ded79b30c7a9b7d6194e84a03dac")))
+                 "3ea30714e7197f660dea59ec6c762cde0a44f74e")))
         (sha256
           (base32
-            "1ilq695bihag2c055vqxv4s9zpbslbkk3wdhfi69wl0wx9zza53m"))))
+            "0dbaxxa81bsfqnkqz0sfx67kqghi3qscclwnsvk638m3xrp6sbbz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
-      "https://github.com/AnselmC/le-thesaurus")
+      "https://github.com/AnselmC/le-thesaurus.el")
     (synopsis
       "Query thesaurus.com for synonyms of a given word")
     (description
@@ -78178,17 +78178,17 @@
 (define-public emacs-ocamlformat
   (package
     (name "emacs-ocamlformat")
-    (version "20220307.1315")
+    (version "20220519.1004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml-ppx/ocamlformat.git")
                (commit
-                 "d42c4089d983c4cc2e1bcdd58ce0487b0ccd1a30")))
+                 "c3381ffce07c3b6c089aa50688f79eff784ac998")))
         (sha256
           (base32
-            "0hd6qkppmg7f1m3hgvzq4h53h6nawymq8q05pxbm1bazhafac2wh"))))
+            "0w9pxrhh34hmm55xklfmjh56k0kv15n3alpalabv8w1i43gd32vq"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("emacs/ocamlformat.el")))
     (home-page
@@ -79329,17 +79329,17 @@
 (define-public emacs-org-anki
   (package
     (name "emacs-org-anki")
-    (version "20220518.1132")
+    (version "20220519.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/eyeinsky/org-anki.git")
                (commit
-                 "9bd24635e54328401e91bdd06847631a5630064d")))
+                 "1e2269b826b5749604e124f0b89c08a96281f879")))
         (sha256
           (base32
-            "1xwqxc893k1hzjdxp21bzm8j6xs6d7z0yclfjh8kk6vbbnnnzm40"))))
+            "13i519cy311ac1g03g81qdryv0242849ijk2lsgx6apqa2sdj7yw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-promise))
@@ -115943,19 +115943,18 @@
 (define-public emacs-wand
   (package
     (name "emacs-wand")
-    (version "20210511.725")
+    (version "20220519.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cmpitg/wand.git")
                (commit
-                 "08c3d9156517a31dd98ea64bfc269fae730b643c")))
+                 "e4afc0469c818e7ce73ef31c38d911477947d72e")))
         (sha256
           (base32
-            "18xgi1anficjl6cnhhv197zbrnb0p63pnj8gshvixb6fr4ybw8k0"))))
+            "1gcmzqpv8s87s5md3nr2s0vvbp68c4na5zmmwc080x9nf8q3hnm4"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/cmpitg/wand")
     (synopsis
       "Magic wand for Emacs - Select and execute")
