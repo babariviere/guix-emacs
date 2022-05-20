@@ -29484,17 +29484,17 @@
 (define-public emacs-engine-mode
   (package
     (name "emacs-engine-mode")
-    (version "20220518.2125")
+    (version "20220519.1916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hrs/engine-mode.git")
                (commit
-                 "282f5d5910a7bdda08905d7c4e0c87cf96244cb0")))
+                 "d99f9b4ab266b2b777f3f323f766687970456fa9")))
         (sha256
           (base32
-            "0lwl214mqbd1aql4x9s0cyan69ll780is4awak18awqqc6kx8pns"))))
+            "1rmfdjg35an5s1grhja7vms10ngk3b980s4zhiszkayvyy61kpx0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/hrs/engine-mode")
     (synopsis
@@ -48646,17 +48646,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220518.522")
+    (version "20220519.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "5e25bc5b662494d5a49242d1134bd5921ac898c5")))
+                 "e038260fcca73e4f234e9b6abdf90f5ef094a490")))
         (sha256
           (base32
-            "1ncqys6bz62rg37ksmp8pp6z1rmb7fdpf8pi01vd3q3fw3gh5rsw"))))
+            "0a7kla289idfqfjabpbwyhn87lcjcpsc1rhw11y26ca19bppc3j8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -86071,17 +86071,17 @@
 (define-public emacs-pandoc-mode
   (package
     (name "emacs-pandoc-mode")
-    (version "20211208.2229")
+    (version "20220519.2008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/pandoc-mode.git")
                (commit
-                 "c1429887287b7ee9601196e26f97c908b6e4f5c0")))
+                 "2a4e726a29d38e7c2379787cad619e5392ad2da0")))
         (sha256
           (base32
-            "1zw92bkp5mjzc78vrvsaj3ycqn0j5mqzxxxv2nkb891spgandpvy"))))
+            "1yn9mdlxcv9d33nvgy3wp09qhynb2m50cyhsv1xf77wyzlwdlb2p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-hydra emacs-dash))
     (home-page
@@ -92781,17 +92781,17 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20220502.310")
+    (version "20220519.2330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/ideasman42/emacs-py-autopep8.git")
+               (url "https://codeberg.org/ideasman42/emacs-py-autopep8.git")
                (commit
-                 "026e74bbf52d24126d12187d523390b85e2ac638")))
+                 "c303dc2ace27acac41c9ed172a2b23f1661fb668")))
         (sha256
           (base32
-            "1izfqwbhrznqa7jjgh17xgbr53asyl1mxhl7fx8d3crjxqrb8dfc"))))
+            "09l29arkq6ynz08f2w4j40p9xyjzikkcxj93k7jrk1g3qmgnaqp7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ideasman42/emacs-py-autopep8")
@@ -92992,17 +92992,17 @@
 (define-public emacs-pydoc
   (package
     (name "emacs-pydoc")
-    (version "20220513.2059")
+    (version "20220519.1726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/statmobile/pydoc.git")
                (commit
-                 "604c12e19deeae60b9416c1ac0454fd9bce5e6ce")))
+                 "7d18ec1a69371dda10f6caf1c0748b99a5592331")))
         (sha256
           (base32
-            "1zq8a26x5bghsa9ivp7n54ka86r53zvq4qalv3qmm169wnnbv60h"))))
+            "07ibwsnr4a3pa4ls90qgccb51f53xdh6x8dk6knpmj49vaxz1g3c"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/statmobile/pydoc")
     (synopsis
@@ -101117,17 +101117,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20220426.715")
+    (version "20220519.2301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "2420e7fb0d11372f1fa898a3b996bf2ce00fe66a")))
+                 "98086b3e23b483e28221b5e3de0b1bdd429e6a72")))
         (sha256
           (base32
-            "05m1nqcvwc7vlki3n8v3d4idpvvbb2lkwwj9z30033g0q4j125m8"))))
+            "0ni4f3g8p930k6rbmihbi89mkj5l14gdpjzzh5zwygsdyra165w7"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
@@ -101968,17 +101968,17 @@
 (define-public emacs-simplicity-theme
   (package
     (name "emacs-simplicity-theme")
-    (version "20220217.1928")
+    (version "20220519.1439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/smallwat3r/emacs-simplicity-theme.git")
                (commit
-                 "2a0aaf19cf1e99c50df0d2e6225a2d2931a203d2")))
+                 "692d908961990f463632089041d4705cbb1c5912")))
         (sha256
           (base32
-            "0xv1gf0a9i3ajxd6cprr7b62xvar6r6ia5qd4sjvr8pnaw3cav45"))))
+            "0a1igxk9jrybrf8qgh8nqdqkk7i7gvq7jq66w34gi9lbckmfvi05"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/smallwat3r/emacs-simplicity-theme")
@@ -111443,17 +111443,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220516.2036")
+    (version "20220519.1708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "96a53189f51f3c75db8dcf3bf54bf82e927cf980")))
+                 "68fd2ddab926e2a9e3948e64803abfd02d8c40cd")))
         (sha256
           (base32
-            "0zilwxsgy8w3ykv8cqsc96dh7am1xr9mmaibldi4z7adxgxa9jip"))))
+            "1ggbpdpyqlm1afslxh3hnwnqkdgaf72wzbmj395sap4h5a2nblya"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -115077,17 +115077,17 @@
 (define-public emacs-visual-fill-column
   (package
     (name "emacs-visual-fill-column")
-    (version "20220518.1925")
+    (version "20220519.1959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/joostkremers/visual-fill-column.git")
                (commit
-                 "106189b000ca092886dd9f1c1503613a751dbd3f")))
+                 "453d698d7fc243a547665f8ba43c55eee574e0db")))
         (sha256
           (base32
-            "1qxb5n8n6dcf3vd758dw892xxkcv921b9srdsckxy3gyrfnp2jry"))))
+            "168wiywaffhhn7j4nfbnq4lfxpxl0x17z9ckk3nwkpaz45d9a2q6"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/joostkremers/visual-fill-column")
