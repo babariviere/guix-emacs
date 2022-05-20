@@ -22341,17 +22341,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220519.958")
+    (version "20220520.539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "1b077d80ed916d3a0514bdeb21d40313adf9405e")))
+                 "426408f2f9d6a5cf33ea34d1eaa476c7a9dbfd08")))
         (sha256
           (base32
-            "05ki57r3kcmdxqx1sznpy8c4b3p4q28g3md029xzkspn9r8f2r4l"))))
+            "05d93iq52c3lpm1v5a1608kq43cqfl3c4rrswpim9kdjff8886k3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -48646,17 +48646,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220519.1154")
+    (version "20220520.455")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "e038260fcca73e4f234e9b6abdf90f5ef094a490")))
+                 "a25fa0e614357fbee3266988c8f6675f706f0557")))
         (sha256
           (base32
-            "0a7kla289idfqfjabpbwyhn87lcjcpsc1rhw11y26ca19bppc3j8"))))
+            "1viw3wbxy5nyzyx850l0mq965zgwqmnpczbkdv1d74za9dlgz7d0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -65484,17 +65484,17 @@
 (define-public emacs-lispyville
   (package
     (name "emacs-lispyville")
-    (version "20210702.2031")
+    (version "20220519.2339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/lispyville.git")
                (commit
-                 "9c14bed0359f659e246d345c706f895737c3d172")))
+                 "32d6b1f4b3f5bc792a0610c7e91123a70b582a91")))
         (sha256
           (base32
-            "1jlxcr9vikczhryw3xslfy6hzs2ikcf9khbwaw53ymwdxrmphcci"))))
+            "1h87j2yc79skb56i8j5239nr0hialgwg0fkz418caxzkrjglrf8m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lispy emacs-evil))
     (home-page
@@ -71920,17 +71920,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220512.1808")
+    (version "20220520.350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "b6285162d80fe438b4ac99acff74d33b5f901c35")))
+                 "9c80eba37de776e298432f84b9aa437e01c32e1a")))
         (sha256
           (base32
-            "139ycd3p63hlxs70g266xj6i7bng1p2xavwcsxf4j4nvfayib9r7"))))
+            "1vrim9zf4jjs66isa1pascrmbdhz5fb1cigiz84ff02wh9qi83pa"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
