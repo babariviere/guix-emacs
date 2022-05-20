@@ -40519,17 +40519,17 @@
 (define-public emacs-flyspell-correct
   (package
     (name "emacs-flyspell-correct")
-    (version "20220131.834")
+    (version "20220520.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/flyspell-correct.git")
                (commit
-                 "e9fde6f93af991b0528d6ed47d44bed470dc70af")))
+                 "7d7b6b01188bd28e20a13736ac9f36c3367bd16e")))
         (sha256
           (base32
-            "1sjdd9ixvp84fzx2zkz6kxlkwnd7v95jl2ilx5jf5r6l1118iakq"))))
+            "1b6h3wjmxg9d1d3mfvw6fsgkr1w0d14zxllv9jb5cscl5lq8rbmm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -40545,17 +40545,17 @@
 (define-public emacs-flyspell-correct-avy-menu
   (package
     (name "emacs-flyspell-correct-avy-menu")
-    (version "20210124.1143")
+    (version "20220520.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/flyspell-correct.git")
                (commit
-                 "2e098db03cba74149257e31213097d043780e80a")))
+                 "7d7b6b01188bd28e20a13736ac9f36c3367bd16e")))
         (sha256
           (base32
-            "0rqp06bk260ms63sidl4x2gsnfc7hb77isjb3lm8qih98376mps7"))))
+            "1b6h3wjmxg9d1d3mfvw6fsgkr1w0d14zxllv9jb5cscl5lq8rbmm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flyspell-correct emacs-avy-menu))
@@ -40572,17 +40572,17 @@
 (define-public emacs-flyspell-correct-helm
   (package
     (name "emacs-flyspell-correct-helm")
-    (version "20210124.1143")
+    (version "20220520.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/flyspell-correct.git")
                (commit
-                 "2e098db03cba74149257e31213097d043780e80a")))
+                 "7d7b6b01188bd28e20a13736ac9f36c3367bd16e")))
         (sha256
           (base32
-            "0rqp06bk260ms63sidl4x2gsnfc7hb77isjb3lm8qih98376mps7"))))
+            "1b6h3wjmxg9d1d3mfvw6fsgkr1w0d14zxllv9jb5cscl5lq8rbmm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flyspell-correct emacs-helm))
@@ -40599,17 +40599,17 @@
 (define-public emacs-flyspell-correct-ivy
   (package
     (name "emacs-flyspell-correct-ivy")
-    (version "20210124.1143")
+    (version "20220520.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/flyspell-correct.git")
                (commit
-                 "2e098db03cba74149257e31213097d043780e80a")))
+                 "7d7b6b01188bd28e20a13736ac9f36c3367bd16e")))
         (sha256
           (base32
-            "0rqp06bk260ms63sidl4x2gsnfc7hb77isjb3lm8qih98376mps7"))))
+            "1b6h3wjmxg9d1d3mfvw6fsgkr1w0d14zxllv9jb5cscl5lq8rbmm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flyspell-correct emacs-ivy))
@@ -40626,17 +40626,17 @@
 (define-public emacs-flyspell-correct-popup
   (package
     (name "emacs-flyspell-correct-popup")
-    (version "20210124.1143")
+    (version "20220520.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/flyspell-correct.git")
                (commit
-                 "2e098db03cba74149257e31213097d043780e80a")))
+                 "7d7b6b01188bd28e20a13736ac9f36c3367bd16e")))
         (sha256
           (base32
-            "0rqp06bk260ms63sidl4x2gsnfc7hb77isjb3lm8qih98376mps7"))))
+            "1b6h3wjmxg9d1d3mfvw6fsgkr1w0d14zxllv9jb5cscl5lq8rbmm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flyspell-correct emacs-popup))
@@ -79329,17 +79329,17 @@
 (define-public emacs-org-anki
   (package
     (name "emacs-org-anki")
-    (version "20220519.658")
+    (version "20220520.1105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/eyeinsky/org-anki.git")
                (commit
-                 "1e2269b826b5749604e124f0b89c08a96281f879")))
+                 "29b181bc49fe39d531eed58ee8eb49cc6ddbad1c")))
         (sha256
           (base32
-            "13i519cy311ac1g03g81qdryv0242849ijk2lsgx6apqa2sdj7yw"))))
+            "05himx0dgvlg4azvdrm2yszbj839p3aa9a0xv7sdj1pf3n6an1fz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-promise))
@@ -81796,17 +81796,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20220402.1456")
+    (version "20220520.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "c787ebf93d51b63b8726df241e3e2fcda35d4ae1")))
+                 "ac67832e7b342326deef650db6601b95127627bc")))
         (sha256
           (base32
-            "02y6qm4va43c25i7b0q3pvk888war64rrb2p9bmv5p8176dy1mjw"))))
+            "1kcr1zpafgaykbkxfav4iia6fbglpjv4kvj5yjn8wcm1liiaj6ck"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -86505,17 +86505,17 @@
 (define-public emacs-parseedn
   (package
     (name "emacs-parseedn")
-    (version "20220512.1328")
+    (version "20220520.835")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/parseedn.git")
                (commit
-                 "35e9f3173a6cca60b6851dddace470b29654ac77")))
+                 "a09686fbb9113b8b1b4f20c9e1dc0d6fea01a64f")))
         (sha256
           (base32
-            "06in2r87rn398bnqfc7bmpfvfbvrx9ybqs8r5yzy5y84f9gbfnm4"))))
+            "0wjzzjwz92rk5nx1km1fw46lgspqahj93p5mfyrxwcw27cb8z1av"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parseclj))
     (home-page "unspecified")
@@ -97354,17 +97354,17 @@
 (define-public emacs-ripgrep
   (package
     (name "emacs-ripgrep")
-    (version "20220309.1746")
+    (version "20220520.1410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nlamirault/ripgrep.el.git")
                (commit
-                 "4ed5c741233a81d96115f556784269042070901e")))
+                 "872e250e8f93b8bb0a8a1de8bde17fd9bd116e31")))
         (sha256
           (base32
-            "1bz9srlimpr5lzsjd02jq23h0vg2lnk921m24g0wsrdrccvmfxi2"))))
+            "1n3jkj8a37ap4ndh9an5qm8dn8nxcgv9vqr8bcnxx5l0wnsvdg8z"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("ripgrep.el")))
     (home-page
@@ -120399,17 +120399,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220516.1848")
+    (version "20220520.1246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "42576bd09163c6f6a87e2827702a76d3eccbcb1d")))
+                 "477ea733287b7609d143f32b4dba025314436973")))
         (sha256
           (base32
-            "19c2aqzcnhz1xghdlhi5cifwyanawwkyc70r8xmvbgdl7z8iz4h0"))))
+            "1rdqmw5wp1a47w95y4b3pprji3ddxnhj2ag9rapbc6iazxycq3qr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
