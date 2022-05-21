@@ -10017,17 +10017,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220517.2253")
+    (version "20220520.1702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "0a490abfbf89a24ceb148bdb8afbbd8823a2a201")))
+                 "2ac24a8ac26dc36a3930fab52863cf66583f5251")))
         (sha256
           (base32
-            "1f3l1vd1jya1w1099j1l1gi71gxma1zq75ag3563dfhy74whyxzz"))))
+            "03bv61mfq4kg9gn86g1x204k59hhmay5l96985s5kxqk4dhdj41m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -22341,17 +22341,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220520.539")
+    (version "20220520.1422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "426408f2f9d6a5cf33ea34d1eaa476c7a9dbfd08")))
+                 "57c2033183b9f8746b86bf03212a149388350476")))
         (sha256
           (base32
-            "05d93iq52c3lpm1v5a1608kq43cqfl3c4rrswpim9kdjff8886k3"))))
+            "195q9fbg2pw7pf0csfhsawn9z6v6y00lv5cdqv6zpf216n25ivp2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -33632,17 +33632,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220423.947")
+    (version "20220520.1459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "bfdef5a292f7dde36967bb86eb2f7009b03631b1")))
+                 "0bf5bbbfecba95d49d40441ea54c6130e52bbeb1")))
         (sha256
           (base32
-            "18nxwn051rq2r4jhc21hy2lmla7aghc2l9cvj7ib97q2l4f0jv64"))))
+            "19b81k22a632fxa211xabnmx0pr408mrsnkb9d75pl0hcddh5am7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -67981,17 +67981,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220518.2359")
+    (version "20220520.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "e920cdb326d2c2da5a32809085aa6b9369b51b1a")))
+                 "9a09823e56ccb1d9a63f0edeac260fbc9bd5025b")))
         (sha256
           (base32
-            "09vz7mn7j7x35zplid2s7ihn3wbdyk472wfx2jjqni9d65n2kp3a"))))
+            "1p3vmd8y13hh2m0l71pn95q71lfzzm4pknpmr6lfc1ngapwdc7c0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -120249,17 +120249,17 @@
 (define-public emacs-zetteldesk
   (package
     (name "emacs-zetteldesk")
-    (version "20220512.1736")
+    (version "20220520.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Vidianos-Giannitsis/zetteldesk.el.git")
                (commit
-                 "0237a5a0f9cc40dc543c9713c37bbb34d548de50")))
+                 "692c127f3ae2628dc4ba28741a851cafa3d3981c")))
         (sha256
           (base32
-            "1isqd3a0mkcfqqj386h3glmxq02323a1gdykf8wpsm67x8myjgij"))))
+            "1w6cdpfhb4is71l27a37mmdqr4fhxlq1gm3kz5qdb2xkp5axnnz5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-roam))
     (arguments '(#:files ("zetteldesk.el")))
