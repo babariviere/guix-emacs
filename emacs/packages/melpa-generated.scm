@@ -11659,17 +11659,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220518.1139")
+    (version "20220521.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "e86f2f74f65eaa3aa2dd088ad2e0b1426a04c3e1")))
+                 "0dcc5b079a79a928b791cc9cd9bbd2e3bef92d0d")))
         (sha256
           (base32
-            "0a3ppbimrh05ix89yqqips7d9qjxlknd4dfqpdvxgf26qalw1va7"))))
+            "13jdvadkxpb0m6lkddp3pxpnagrvws6cz702f96rvifbxphd7k5g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -70757,17 +70757,17 @@
 (define-public emacs-meyvn
   (package
     (name "emacs-meyvn")
-    (version "20211025.106")
+    (version "20220521.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielsz/meyvn-el.git")
                (commit
-                 "80ece19a6ce6fd3dac374911edb9734286978450")))
+                 "ae02f9e3b93730672f2f0a476a4e32bf1a024937")))
         (sha256
           (base32
-            "0qqr88r1g3lwzl4m9qjiwba23ylp44g5hspawwfzchlbs9js6yj7"))))
+            "0j0p3s4n0z873191w8z27p2fl77ybpb958v0wzjdi1alq0rl1bdf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-cider
@@ -75970,17 +75970,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220516.1012")
+    (version "20220521.140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "90a7c1af368a527700dcde9b0dcbd760afc7bd92")))
+                 "fd46fc1977e3b0712c07cc4610edee2d91ec5ee0")))
         (sha256
           (base32
-            "0afirr21qdy9j29qyyg8kl60pzp5x6izf8sxapad8fpbb2541yqq"))))
+            "1q70qf5kskm9xfs0i8ishmv0fqbm7xy4zm64mq5aaffvjc7yihih"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -101025,17 +101025,17 @@
 (define-public emacs-shenshou
   (package
     (name "emacs-shenshou")
-    (version "20220324.1137")
+    (version "20220521.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/shenshou.git")
                (commit
-                 "bc16a637edaaca831a5147b6f479ba1dbdc02454")))
+                 "c6c0ac34fb42d85eeefa219d335b5318c5c5a74c")))
         (sha256
           (base32
-            "0mli3h3i511vq8g69b2y8hq9591bv5yjblvx7cnh1nrjpb4flak0"))))
+            "1n0hxfm8smcj6hqsxbskkmwlr3v3xvg9x05g3qgqj6i1qyqa0jxb"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/shenshou")
