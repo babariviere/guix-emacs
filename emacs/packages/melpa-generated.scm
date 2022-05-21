@@ -2279,17 +2279,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220427.1911")
+    (version "20220521.816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "68365b48f142d75ef4bdc3a274256d97752e3b65")))
+                 "ca1ef30004d3fb76aaa70bd47cb83e9fe017a7f7")))
         (sha256
           (base32
-            "1nf6z5i9gpbv1qdrm7r0qb0mbzipdn9mnfwc478rrazmn2l0m5cs"))))
+            "149i1wh2wk4j6x8zyz8macz6pfhkmpvf9j6xqhn3psnbdpikjvqp"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -5403,17 +5403,17 @@
 (define-public emacs-autocrypt
   (package
     (name "emacs-autocrypt")
-    (version "20220215.1204")
+    (version "20220521.810")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~pkal/autocrypt")
                (commit
-                 "00b87a82c4561b017052974eecd93c79b6790841")))
+                 "ff87f73f00689689f023e39f4cee2fd97caf458b")))
         (sha256
           (base32
-            "1cnnw2cwhsrlp2nanvcgdpd90vpmzwxnr9sprwfgzldgk9651r58"))))
+            "04nn6jjp992915drbxl0xiw4g81hcg06cw7v3lv4z3hydfsjh312"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~pkal/autocrypt")
     (synopsis "Autocrypt implementation")
@@ -7891,17 +7891,17 @@
 (define-public emacs-blox
   (package
     (name "emacs-blox")
-    (version "20210225.1900")
+    (version "20220521.807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kennethloeffler/blox.git")
                (commit
-                 "2bf0e618451fb1da11263d8a35ffcd9210590c0a")))
+                 "9ebebb65fb38b5570ba8dfbb5ec835633c06b67d")))
         (sha256
           (base32
-            "0lkhdm9jhy8wlmrmd9nqrbrczh5k75q38n6bq3gfhppycmysh9d5"))))
+            "0cbmqzhv8bnfjracdc7xc5ba7cr8fqfh8l617sxarw51daallxri"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kennethloeffler/blox")
@@ -12029,17 +12029,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20220427.1203")
+    (version "20220521.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "87e2cbf3b2ae6d59ec919a2dcb38e56ccfa5ec14")))
+                 "093722a4ba4e339d5c85fa6a56b5cfb0777a5cc5")))
         (sha256
           (base32
-            "1wycbcwmls7lf1vn83pwfrb1bhxf8d5p7w25b1c9lrzq7l769i2k"))))
+            "1274vygvwdhlxqkm9hmkfdyh4pyyz3rdn6jz7cp3vcfwz6i88mv7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -25787,17 +25787,17 @@
 (define-public emacs-edts
   (package
     (name "emacs-edts")
-    (version "20220415.1722")
+    (version "20220521.1345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sebastiw/edts.git")
                (commit
-                 "5c096ecdf9462b125f2eb4092899ff63636cfc40")))
+                 "77e0dc91f603e8bedebfdccc90352ebbfd217c99")))
         (sha256
           (base32
-            "1l97a55kg8dcvbdv9c2bk1acz4y9vl3x68mbybhbm0rs78170hx3"))))
+            "1ny3nk6x428ksfnhpgfy6z0rd272nbsnqdzaxdshld8b0cj5rz6b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-auto-complete
@@ -32165,17 +32165,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220516.1554")
+    (version "20220521.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "11cfad9b3c01feb7848f13d5c3f5cc1787ab6eb6")))
+                 "815408f8b87041d173a6b68dcf54562596124ee0")))
         (sha256
           (base32
-            "1p93m3sx6mbk3lhknsna9hl61pprywahbwfl4jzqd3r15pr104a4"))))
+            "01gwqsy1zdyw0iyqy67xqf0a3i778qr4xc6dslg9bkhvc1awgysg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -80971,17 +80971,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220518.1326")
+    (version "20220521.1422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "1a57b9c926e8b23b93c8c376a6d37d34fc949285")))
+                 "cf96f585c68ad14751a3f73d937cbfcb890171b9")))
         (sha256
           (base32
-            "0w8p9011pmwgv3qbypwvkj5hh2a649nngfpsh4af8yw5fyiws189"))))
+            "17380kpf08j5ai30nn5iks0k3x8sm3kmz8lkyr1v0qvpr5a8s70b"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -82709,17 +82709,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220427.1552")
+    (version "20220521.1149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "88fde267441118836a5c4ed28bb5958fca37a800")))
+                 "9e1863875f0deb98acd9a2872bc707d2ff8c268d")))
         (sha256
           (base32
-            "1f7acxpc133abqzhc667syd7dkazarazndwl1dg8clcms4v6xaqq"))))
+            "1wdvnkniciiy1yd7zdyl9xdikfjy4ymv9x4pra21zkfga8q8smq1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -113153,17 +113153,17 @@
 (define-public emacs-unify-opening
   (package
     (name "emacs-unify-opening")
-    (version "20171122.2012")
+    (version "20220521.911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/unify-opening.git")
                (commit
-                 "502469ddba6d8d52159f53976265f7d956b6b17c")))
+                 "4c6e3447e203a51af116a2117e88d41114950205")))
         (sha256
           (base32
-            "0mni9vnbs50wvgnwfjwgzlwfff38h3wbrpr20nv84dmfh8ac0v61"))))
+            "0pmln3z3vz3qnxbv79n8lrk28k9759czz6wllk81m1np5k6yjhnj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/DamienCassou/unify-opening")
@@ -120324,17 +120324,17 @@
 (define-public emacs-zig-mode
   (package
     (name "emacs-zig-mode")
-    (version "20220518.1715")
+    (version "20220521.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ziglang/zig-mode.git")
                (commit
-                 "905917322b8b5f191593c66b5f26dd347fe1290d")))
+                 "dbc648f5bca8f3b9ca2cc7827f326f5530115144")))
         (sha256
           (base32
-            "0indj8b94ycigy91q1yfnl8fmr5zbalvh1n46d5kd562fh8p01f0"))))
+            "0hwkkwhc5b2pzyqa2h0xw8wxijsrp1fk70fhyv8hx19shzlc4la3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/zig-lang/zig-mode")
