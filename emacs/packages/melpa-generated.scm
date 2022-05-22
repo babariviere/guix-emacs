@@ -3938,17 +3938,17 @@
 (define-public emacs-arxiv-citation
   (package
     (name "emacs-arxiv-citation")
-    (version "20220510.1137")
+    (version "20220522.1245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/slotThe/arxiv-citation.git")
                (commit
-                 "a7e79919aa44c495c4fd10fd801e3b1225207446")))
+                 "30431c48b3d885052381df44baca6908908abf22")))
         (sha256
           (base32
-            "0k5fy5g88vsx4izg1shcimsikvxyfpphkmp6mw9wwws4x5v4qvha"))))
+            "0z68lvywan5v8lg1q1bc9c37f1c6yal3yx6bfr0s9h9ha9s63bcm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -16178,17 +16178,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220508.928")
+    (version "20220522.952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "1dfdf55f3d941f08089e5d0e611cd9daa8a44b19")))
+                 "380886441ed80f474d153de7c39dd5c5ab38b457")))
         (sha256
           (base32
-            "1hsxavf55xmy91xmv8yh6fb4aphv6sv947hs35ghvfm5s74sk47v"))))
+            "0988g8qfk5djhdb0c0wb623ngkk0gk70am74c4mngsvvqyxc0pm4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22341,17 +22341,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220520.1422")
+    (version "20220522.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "57c2033183b9f8746b86bf03212a149388350476")))
+                 "36db5dccaead034d2a55ac804e789d3dedf398c8")))
         (sha256
           (base32
-            "195q9fbg2pw7pf0csfhsawn9z6v6y00lv5cdqv6zpf216n25ivp2"))))
+            "0zby87mh6smqmx2aszri9hn2nd4afgkkgkz1q3jh9phs3vx2khwi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23208,17 +23208,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220409.1157")
+    (version "20220522.1028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "cf137f5b8af7cbda17ef1d09c626db35e0e84078")))
+                 "ff85ae40d43dd6bc6c3a96dedbf3036fef79ba5d")))
         (sha256
           (base32
-            "0rdi882r746nv8zzpcc3rv9p110ylwv1bk7nbzcychn7qsc05ydz"))))
+            "1ld3hrz9m9s8w7hirhhgnnc0hfx9aqi50fciwgprkcp5pzwgzrji"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -23226,8 +23226,7 @@
             emacs-docker-tramp
             emacs-json-mode
             emacs-s
-            emacs-tablist
-            emacs-transient))
+            emacs-tablist))
     (home-page "https://github.com/Silex/docker.el")
     (synopsis "Interface to Docker")
     (description
@@ -85523,17 +85522,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220516.1125")
+    (version "20220522.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "32a66832e376cfc918b63bd9a67b1c8cae23662a")))
+                 "35017a2d87376c70c3239f48bdbac7efca85aa10")))
         (sha256
           (base32
-            "09b2bgcsn0kc6rfc567i42izfm1kasg0jyrqzn45w8i892pgaj9c"))))
+            "07hdmam85452v4r2vaabj1qfyami1hgbh0jgj9dcwbkpr0y1gvqj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -91637,19 +91636,18 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220430.800")
+    (version "20220522.741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "a4f86f981c84a546530d5904253fa266431ef806")))
+                 "39314925e0813d9042911197b08cfe304baff350")))
         (sha256
           (base32
-            "02303v7y79vdl4n2qga42892cqd5hdajwzp4vk3a4fxcyl8yhv8k"))))
+            "04kx9mbhj0xx6i53f3x0q7mqj00szw6938bpgb2mkk9r062rvh41"))))
     (build-system melpa-build-system)
-    (arguments '(#:files ("projectile.el")))
     (home-page
       "https://github.com/bbatsov/projectile")
     (synopsis
@@ -92758,17 +92756,17 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20220522.438")
+    (version "20220522.1152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-py-autopep8.git")
                (commit
-                 "c626bf5a18d9d3d7ec04cd06ae0cb4a8c488a168")))
+                 "d904639f1fca12435e38adb6cc602cd468fa618b")))
         (sha256
           (base32
-            "0dhzv0px730daf81570b8cyxb5hy0hjy9j5rf059395khzsissbg"))))
+            "1sr64n1cg1pdxfa3n8ckq3hy92asnwi2b5nl88qy3jy1mybah4d2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ideasman42/emacs-py-autopep8")
@@ -93095,20 +93093,19 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220513.605")
+    (version "20220522.938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "1208a9dcbc029865bbd75621e9035c8f44def15f")))
+                 "ca463aa6523d7ef9f81846cf98e43e536e3d4beb")))
         (sha256
           (base32
-            "0pv45af94n5hiraqkp749arkhf4addm18jcp25d55wf95i5yw9qb"))))
+            "0lay5cjfk3n5x06a4wp388wd5nmf2cs73zn4xqcznbdnf8zfpamh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
-    (arguments '(#:files ("pyim*.el")))
     (home-page "https://github.com/tumashu/pyim")
     (synopsis
       "A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime.")
@@ -100090,17 +100087,17 @@
 (define-public emacs-sentence-navigation
   (package
     (name "emacs-sentence-navigation")
-    (version "20180408.1619")
+    (version "20220522.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/emacs-sentence-navigation.git")
                (commit
-                 "7c5d2edeaed01196aec25031782e89adeaa089f0")))
+                 "ea6e94a5518643acda5b6e98e4e7f47dfc107d29")))
         (sha256
           (base32
-            "15za4fg7c8fsih86wz1npyx6gdmw0xhizklfsyfh84416dsmgswp"))))
+            "1wpr37gwkly0jl0m8kh7f1pkp9dwg5i1r3bpx3sd1z8c57sfn8da"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ample-regexps))
     (home-page
@@ -105914,17 +105911,17 @@
 (define-public emacs-stem-reading-mode
   (package
     (name "emacs-stem-reading-mode")
-    (version "20220418.1136")
+    (version "20220522.1053")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/stem-reading-mode.el.git")
                (commit
-                 "a8bacd80fab6013c09e4e8d337fd88267cbe2ff8")))
+                 "6efc9962e3a19a452c7ab9636cf1e2566a51bd38")))
         (sha256
           (base32
-            "0ib2rqybwjxclgqy6bp0gmgr6mvyp434mf9ix6m8by3jrkpppvgq"))))
+            "04kjf6byxp66v6iprp8wcymi283c46fb4w4wiyj64pp76y3g59az"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/wavexx/stem-reading-mode.el")
