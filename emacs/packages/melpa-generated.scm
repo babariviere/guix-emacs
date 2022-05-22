@@ -24135,29 +24135,6 @@
       "Documentation at https://melpa.org/#/dsvn")
     (license #f)))
 
-(define-public emacs-dtache
-  (package
-    (name "emacs-dtache")
-    (version "20220518.1600")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~niklaseklund/dtache")
-               (commit
-                 "02651e47d3142deb675dceb42b76822d72584070")))
-        (sha256
-          (base32
-            "1mf238cyz795wg9kd1x6w2ypw9r6gxhbfp4p7s9b50l2408q61bj"))))
-    (build-system melpa-build-system)
-    (home-page
-      "https://www.gitlab.com/niklaseklund/dtache.git")
-    (synopsis
-      "Run and interact with detached shell commands")
-    (description
-      "Documentation at https://melpa.org/#/dtache")
-    (license #f)))
-
 (define-public emacs-dtb-mode
   (package
     (name "emacs-dtb-mode")
@@ -25100,17 +25077,17 @@
 (define-public emacs-ebuku
   (package
     (name "emacs-ebuku")
-    (version "20220106.902")
+    (version "20220521.1416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/ebuku.git")
                (commit
-                 "5004d377f8c89436c28d4a7ffbef407a2b28861e")))
+                 "92bbcd537123416b9296332e4bf8cb790657794e")))
         (sha256
           (base32
-            "05cwxlqkj9wwy35pc8dq37rdvmkrc8528s64qw0pji406r6qs9l3"))))
+            "0s3j7x115jkqm52ndly096qjn6dpdg3yidq7q4cmc8gjvigv9dzq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/flexibeast/ebuku")
     (synopsis
@@ -28845,17 +28822,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220509.2259")
+    (version "20220521.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "81c7f751be1de33dee9f7523fd3429ee3fe9a0d1")))
+                 "97270d725761ee02db461b45b18ec16ae31f203e")))
         (sha256
           (base32
-            "11yvhhq251qmbnljjcfxnc53dqa63jm6ximfd0618hcwcgxlkkdc"))))
+            "1s0ssf4q9kg4c5w87h2ypyvrhi31mz3s6k4h7pxi9a47lkccq8n1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -32165,17 +32142,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220521.1343")
+    (version "20220521.1924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "815408f8b87041d173a6b68dcf54562596124ee0")))
+                 "8a85b46b60fdc4678c9519d04d30339c0bcdae9b")))
         (sha256
           (base32
-            "01gwqsy1zdyw0iyqy67xqf0a3i778qr4xc6dslg9bkhvc1awgysg"))))
+            "1mgw1yhyj03a2rrp5j9p9q8cz5n1jhb8vr0rc8k7yb7v5gkxx7kw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -66739,17 +66716,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220519.126")
+    (version "20220521.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "f1b73660e92b01f90454ed4c1e8c862590e11292")))
+                 "17801322a0dc8072d40f0e7372fea68f2bdc6cdb")))
         (sha256
           (base32
-            "1k46ia546jaxr18adlxpcplqmsih6kn4xrrwzr7npvq77y3mckgm"))))
+            "17pvym3hnvyhf0qhz5h4q7h1qizc3gaj7b1bx84jwh56rfc71qs8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -82038,17 +82015,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220310.1646")
+    (version "20220521.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "c42078f8601b7f600135f66e75246a53c5f9975f")))
+                 "0b24765e270a2dfd84adf3a0f9afa8b72aabad30")))
         (sha256
           (base32
-            "1afmv6ncjbm6dalgz459lhh0rif8rlag23n05jwdv7izibwb1dm2"))))
+            "1z529iy3zm8szyr98kmi7m3rfpkx139xcpjz4vazk23zj93mpxrc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
