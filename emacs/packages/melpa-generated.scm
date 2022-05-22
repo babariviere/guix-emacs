@@ -32142,17 +32142,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220521.1924")
+    (version "20220522.139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "8a85b46b60fdc4678c9519d04d30339c0bcdae9b")))
+                 "763e77f4b3763db250b4626e8cf7c5295d07a09a")))
         (sha256
           (base32
-            "1mgw1yhyj03a2rrp5j9p9q8cz5n1jhb8vr0rc8k7yb7v5gkxx7kw"))))
+            "0xax6r0lkmy5ms6hk56xic2rv7lkh8a4bikmzna2xzgyvya967sq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -67755,17 +67755,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220512.1330")
+    (version "20220522.438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "ebca27f8e16d3607070582849bea81d40ca5f584")))
+                 "26f47122c1be75be2ab889979fdc75ec8bf388b2")))
         (sha256
           (base32
-            "0xz5y5smfa69ylngkfck935c03ak40i4aazzklzyslv385vv9kd4"))))
+            "1mmcbx4h65bgwxylfhyi5y7bl383h7r8f7xqcm71qw67vrrwvm1i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -87186,17 +87186,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220512.145")
+    (version "20220522.13")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "fedd930a09a497c03df3ce5204ccbd80da724662")))
+                 "f9ccdf99e560bae70d3a13325cec9dc0e3cc45b0")))
         (sha256
           (base32
-            "13yl83ld5z1asjqrsfdzyhnz4nrrr064lwbsgfvk3mmlqpas7b08"))))
+            "19hj0hbg3rssw9xjia1g0nmknmvcrxhgb3p0y5vy8nlk0d2h5v4z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -87641,17 +87641,17 @@
 (define-public emacs-perspective
   (package
     (name "emacs-perspective")
-    (version "20220420.1550")
+    (version "20220521.2138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nex3/perspective-el.git")
                (commit
-                 "4e38680793585a907ae46b148697030c2b552a00")))
+                 "794afdbc5188ef6f2d78d26302cd78903ce618fa")))
         (sha256
           (base32
-            "0jgd2vzfza3pnnksh1kss5mqhbirqn93lvzanhgjr4vb4fv8x13f"))))
+            "1adn4knbhsygsy67q6w86qbhqx2gg6rw5hcnan7x40wq8fi7hr0p"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nex3/perspective-el")
@@ -92758,17 +92758,17 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20220519.2330")
+    (version "20220522.438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-py-autopep8.git")
                (commit
-                 "c303dc2ace27acac41c9ed172a2b23f1661fb668")))
+                 "c626bf5a18d9d3d7ec04cd06ae0cb4a8c488a168")))
         (sha256
           (base32
-            "09l29arkq6ynz08f2w4j40p9xyjzikkcxj93k7jrk1g3qmgnaqp7"))))
+            "0dhzv0px730daf81570b8cyxb5hy0hjy9j5rf059395khzsissbg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ideasman42/emacs-py-autopep8")
@@ -97058,17 +97058,17 @@
 (define-public emacs-rg
   (package
     (name "emacs-rg")
-    (version "20220511.1328")
+    (version "20220521.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dajva/rg.el.git")
                (commit
-                 "c46c5167ac03f68fd6fee07972017282c62bc942")))
+                 "89343e9858787fa8d3651cd03ff7b0d03309dee8")))
         (sha256
           (base32
-            "1pkbkh260k2r7x158b691ppqvxxzqkyylbapwlrxzc2ly23rmaxs"))))
+            "0pka31i87mf9ih40cb8yc1scvzklb5h5agscac2v7faklranih7i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wgrep))
     (home-page "https://github.com/dajva/rg.el")
@@ -107356,22 +107356,23 @@
 (define-public emacs-sxiv
   (package
     (name "emacs-sxiv")
-    (version "20210514.918")
+    (version "20220511.1818")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://tildegit.org/contrapunctus/sxiv")
+               (url "https://codeberg.org/contrapunctus/sxiv.el.git")
                (commit
-                 "14057b156dd57610edf101403e653be874a342bb")))
+                 "0449244925cb7b74956736611c30cea1f4d0672c")))
         (sha256
           (base32
-            "14wh7fw45w5cfdqibrcfzahsf4cwbi97xp16jd773ynkcf049cjs"))))
+            "0amn2lrzn7j4i9f1qqpir605kvg59yz2nmnbv04n9bvskgs56rmx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
-      "https://gitlab.com/contrapunctus/sxiv.el")
-    (synopsis "Run the sxiv image viewer")
+      "https://tildegit.org/contrapunctus/sxiv")
+    (synopsis
+      "Run the Simple X Image Viewer, with Dired integration")
     (description
       "Documentation at https://melpa.org/#/sxiv")
     (license #f)))
