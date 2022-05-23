@@ -5403,17 +5403,17 @@
 (define-public emacs-autocrypt
   (package
     (name "emacs-autocrypt")
-    (version "20220521.810")
+    (version "20220522.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~pkal/autocrypt")
                (commit
-                 "ff87f73f00689689f023e39f4cee2fd97caf458b")))
+                 "a89bbd717edfd0d0b9826b38d5300f8f5c86006b")))
         (sha256
           (base32
-            "04nn6jjp992915drbxl0xiw4g81hcg06cw7v3lv4z3hydfsjh312"))))
+            "1l4a2wvqv765zyip8wpbs6k87d7mlakjrx9hr796y9bdlqniz2jq"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~pkal/autocrypt")
     (synopsis "Autocrypt implementation")
@@ -10739,6 +10739,29 @@
       "Documentation at https://melpa.org/#/cerbere")
     (license #f)))
 
+(define-public emacs-cern-root-mode
+  (package
+    (name "emacs-cern-root-mode")
+    (version "20220520.1817")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jaypmorgan/cern-root-mode.git")
+               (commit
+                 "2df8781df1d807bf522eb19ac7b03b4bfaeb89c0")))
+        (sha256
+          (base32
+            "159q50m8sr4adw7czkq0mq6hq43svkk2psx0wnmmb1aa8ivhwyip"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/jaypmorgan/cern-root-mode")
+    (synopsis
+      "Major-mode for running C++ code with ROOT")
+    (description
+      "Documentation at https://melpa.org/#/cern-root-mode")
+    (license #f)))
+
 (define-public emacs-ceylon-mode
   (package
     (name "emacs-ceylon-mode")
@@ -11943,17 +11966,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220518.1158")
+    (version "20220522.1914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "23f4ec7ba8ec0e2f0d1f7d0d7a29e90fb22b3920")))
+                 "85812b593271537e4f1d49f33bb39ab5dce0cd12")))
         (sha256
           (base32
-            "15csyshx2b2mm693mcp7hgrb3548l3vrsp96vwrih8cprfkzil3q"))))
+            "0d1chqp0vb3f4y52igv07crvw5jdx2m06knlj5ir0a4x5ak0czm1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -12651,6 +12674,30 @@
     (synopsis "Note taker and clock-in enforcer")
     (description
       "Documentation at https://melpa.org/#/clocker")
+    (license #f)))
+
+(define-public emacs-clockodo
+  (package
+    (name "emacs-clockodo")
+    (version "20220516.1310")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/santifa/clockodo-el.git")
+               (commit
+                 "02ade55427c42dfcac615a8340672af468ae9dfc")))
+        (sha256
+          (base32
+            "0900y3df6iwi9z37cznpl87qs25lgz3bj9rklfwkxv7vb69lrks1"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-request emacs-ts))
+    (home-page
+      "https://github.com/santifa/clockodo-el")
+    (synopsis
+      "A small integration for the clockodo api")
+    (description
+      "Documentation at https://melpa.org/#/clockodo")
     (license #f)))
 
 (define-public emacs-clojars
@@ -20618,6 +20665,29 @@
       "Keep a central registry of desktop files")
     (description
       "Documentation at https://melpa.org/#/desktop-registry")
+    (license #f)))
+
+(define-public emacs-detached
+  (package
+    (name "emacs-detached")
+    (version "20220522.910")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~niklaseklund/detached.el")
+               (commit
+                 "1e17ad996559507f50a80555e1f731bef159073b")))
+        (sha256
+          (base32
+            "1w349ka4mrjkzjw7ppxliz0arg8ddvq0pxrwbx9rh2ywx19y4ima"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://sr.ht/~niklaseklund/detached.el/")
+    (synopsis
+      "A package to launch, and manage, detached processes")
+    (description
+      "Documentation at https://melpa.org/#/detached")
     (license #f)))
 
 (define-public emacs-detour
@@ -36258,17 +36328,17 @@
 (define-public emacs-flatfluc-theme
   (package
     (name "emacs-flatfluc-theme")
-    (version "20210908.1423")
+    (version "20220522.1657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seblemaguer/flatfluc-theme.git")
                (commit
-                 "33726cd072ad83c6943e1c3b83db2fff60f324ce")))
+                 "1679983d22a3b213262e09b3b25db75818a9d37a")))
         (sha256
           (base32
-            "1nai41dzpnmv63k75xnhc64vipb9nqyv3k75mp2g8csxz569ph2l"))))
+            "1ikkr45bdkajg1s3slq00wwrk06iyly2rnrigzm5vnbw6b5ildn4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/seblemaguer/flatfluc-theme")
@@ -64289,17 +64359,17 @@
 (define-public emacs-ledger-mode
   (package
     (name "emacs-ledger-mode")
-    (version "20220307.854")
+    (version "20220522.2054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ledger/ledger-mode.git")
                (commit
-                 "b55384d9cd14aa0ba3eb100660f929cfa6674558")))
+                 "820e1de9c9230bffe338d401524445ecd18d61f4")))
         (sha256
           (base32
-            "0wn9v7qarciq16hhcl8dy8yp1hcdhmircqkla59g5khv3qybjphs"))))
+            "147kycsldyfdk77aiacb4r30blj5lfipw0jml1k05h8ypsplsgb2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "ledger-test.el")))
@@ -66715,17 +66785,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220521.1556")
+    (version "20220522.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "17801322a0dc8072d40f0e7372fea68f2bdc6cdb")))
+                 "4d28d13d8b468bfb8f992da0ea450269d672562c")))
         (sha256
           (base32
-            "17pvym3hnvyhf0qhz5h4q7h1qizc3gaj7b1bx84jwh56rfc71qs8"))))
+            "1z936j2x5sy5hagn0i4a4j16ippmkh1d2ccd7kw6ilal4zi4smk9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -67077,17 +67147,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220517.602")
+    (version "20220522.1526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9131ab7a8c83a027f42c4cb4a209aeb36c2217dd")))
+                 "eac730f19a9255fa320f199b62a301a44869173b")))
         (sha256
           (base32
-            "1blhxjnm9clinzrkdpsll07h892nrcrl3czr4wyx7cwfkq3rslfw"))))
+            "1pnxxchg4c0c7ad0rn9lb5m0x1xii0j2imxi36zaid6j2svrm9b3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67957,17 +68027,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220520.1545")
+    (version "20220522.1713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "9a09823e56ccb1d9a63f0edeac260fbc9bd5025b")))
+                 "a4a78d341a7006ccdec708b424048ba3b22ee801")))
         (sha256
           (base32
-            "1p3vmd8y13hh2m0l71pn95q71lfzzm4pknpmr6lfc1ngapwdc7c0"))))
+            "1kxwlhps529cl4wd8qlvsh7f3ccyvimf7lap14g1kbpwl894i2hc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -93635,17 +93705,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220512.1206")
+    (version "20220522.1658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "97bb2d5ca50bec43a22ffc6187d13e3afb38238f")))
+                 "16aedd8dab9df62fceaf1b654f486b6c99a58df4")))
         (sha256
           (base32
-            "02i5mqx3ip6k9n09yzr395ayhf4i1l7n8sk9q0ibcm2zadxnlqc7"))))
+            "1kc5k2c4r5ysa5f01f72r5xpqw7zfwbhyw9zfah0a0pxv2hykf0a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -111964,6 +112034,28 @@
       "Emacs major mode for editing Template Toolkit files.")
     (description
       "Documentation at https://melpa.org/#/tt-mode")
+    (license #f)))
+
+(define-public emacs-ttl-mode
+  (package
+    (name "emacs-ttl-mode")
+    (version "20170920.1329")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nxg/ttl-mode.git")
+               (commit
+                 "8aa647178942c9be58e5c9cea1e6ede30c8fd562")))
+        (sha256
+          (base32
+            "0sy8v6m4769390mj8qws106m4vky0hkc3dqg5142icsqiybhmsw0"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files ("ttl-mode.el.in")))
+    (home-page "unspecified")
+    (synopsis "mode for Turtle (and Notation 3)")
+    (description
+      "Documentation at https://melpa.org/#/ttl-mode")
     (license #f)))
 
 (define-public emacs-tuareg
