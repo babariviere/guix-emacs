@@ -71966,17 +71966,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220520.350")
+    (version "20220523.614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "9c80eba37de776e298432f84b9aa437e01c32e1a")))
+                 "cf4f308ad1e054d6a1aefa2c4f703c18ccfeeacf")))
         (sha256
           (base32
-            "1vrim9zf4jjs66isa1pascrmbdhz5fb1cigiz84ff02wh9qi83pa"))))
+            "1s1pq5ih43lh9ynzw36hz10yh6s7bczadl4z7016a20y0ry8km10"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -97302,17 +97302,17 @@
 (define-public emacs-rime
   (package
     (name "emacs-rime")
-    (version "20220421.1811")
+    (version "20220522.2351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DogLooksGood/emacs-rime.git")
                (commit
-                 "e6a89e9fa9eabc32063bffb2eacfcece46f7a049")))
+                 "0b4a2709159f5e975544b26302b8463deb7640d8")))
         (sha256
           (base32
-            "0rzynl2n6bk5lwff2rvpj0p3djnr421i1a9vm53554hk0vljzksr"))))
+            "1sk09z05xvg94pkf4181hvlg9q0m71kinzxv8223ls8df6ymc43k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-popup emacs-posframe))
@@ -110511,17 +110511,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220517.1916")
+    (version "20220523.734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "5933f36f847a4cc2775f75c6686b28355e448d7d")))
+                 "9ec3c2750525457eb90a879ed9f44422debb7779")))
         (sha256
           (base32
-            "1h53k1l2j1y193b529d08d63a775zyv484z7zdp9hf8w1wh62qng"))))
+            "1fgs7i7f71rzbir017flxk4vdn559p9qnd7khb73jx4ll1c6591d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
