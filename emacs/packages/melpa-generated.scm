@@ -22411,17 +22411,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220523.1338")
+    (version "20220524.1229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "68e562200853dc76a748d3820cf599aaa7fd8eed")))
+                 "806a60a9d5b507a46fd2c07fd0db988674b1e4f1")))
         (sha256
           (base32
-            "00ixdplig7sq71dv8198c9a7l2w583idx0sfqfk08lcfhflypw4j"))))
+            "0x7bnkz8q21mj92ks6idgnq70vs63fm2vgzfvy0drkpbxpd66vqn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32807,17 +32807,17 @@
 (define-public emacs-evil-matchit
   (package
     (name "emacs-evil-matchit")
-    (version "20220515.349")
+    (version "20220524.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-matchit.git")
                (commit
-                 "7a2a7384b6e752a805d6fbb78cf9425e54c2b18b")))
+                 "ce93c5bcdbb049506c199dfc4324bf60f6fb4f2d")))
         (sha256
           (base32
-            "0a55hhqi14g0hy80cfi5anxs44rcdxm1jkkyl561b4d4g823bpbi"))))
+            "10887xppv9vigrssi774bh7k0amv5q4cwvy12zimsmz8gqjgai46"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-matchit")
@@ -32922,17 +32922,17 @@
 (define-public emacs-evil-nerd-commenter
   (package
     (name "emacs-evil-nerd-commenter")
-    (version "20220414.1201")
+    (version "20220524.1231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-nerd-commenter.git")
                (commit
-                 "95ed1ad2448e7f49f1ee417061b61edbb69a0749")))
+                 "73b230073e4535391c6c6be499d2dc45a39f91c2")))
         (sha256
           (base32
-            "0hypgk03yksvgakx24mrz9nrx2z0d691ls80by2fw96788d68k8x"))))
+            "1c4y21zplxg7icc049126ss63iqm765rsqhcsb8ycbs09gkcgzai"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-nerd-commenter")
@@ -61329,17 +61329,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20220510.2259")
+    (version "20220524.1328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "5374776991232de966efca245f9ce24c59728588")))
+                 "c5f67a372777bb6a855ba2a89228a713c8dda957")))
         (sha256
           (base32
-            "0cg5mqiciawigb5n7w8q5hi8q1h253nbjif3p9n7vhbckwx318rx"))))
+            "15h92yq88na3banbf7x0k99bya9z5216qckyrgx3f5ksdci1bbih"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -81999,17 +81999,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220509.1414")
+    (version "20220524.1219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "0d2355d1eb4dcac1095a03d885788a12fe566610")))
+                 "2d91eba9274a79f908723a4a215e0f0b5c04ed01")))
         (sha256
           (base32
-            "019pbp02fnbb7rcr80cfyi7pa9b413lgdfmbwaak2icb5cpmj452"))))
+            "12mw157qmwr5sz21hcwjs73lz96j4mvjkv9s5rkvgnjvplij2a0a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82020,7 +82020,8 @@
             emacs-avy
             emacs-parsebib
             emacs-bibtex-completion
-            emacs-citeproc))
+            emacs-citeproc
+            emacs-ox-pandoc))
     (arguments
       '(#:files
         (:defaults
@@ -85100,17 +85101,17 @@
 (define-public emacs-ox-reveal
   (package
     (name "emacs-ox-reveal")
-    (version "20220523.1259")
+    (version "20220524.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yjwen/org-reveal.git")
                (commit
-                 "bb3e4dbed9ef0feb41e9c6c5acfd75975ecafce5")))
+                 "43ebe238ef747985b336880305ae5065da67235c")))
         (sha256
           (base32
-            "016abgfxdd65x7cm3iiakc9g8zc6db9fkpy3q407iy9a96zviq59"))))
+            "1j7bz4g6dd5zcsdj24ry71i5sadldcza2ib7k4yayz6xi5qv3gl5"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -90965,17 +90966,17 @@
 (define-public emacs-prettier
   (package
     (name "emacs-prettier")
-    (version "20211018.955")
+    (version "20220524.1319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/prettier.el.git")
                (commit
-                 "42d4787196358e9cbd5b0c6aee990ebea9cb7521")))
+                 "74f36fe7f2b81a3b52c4672324d6ffcc7206409e")))
         (sha256
           (base32
-            "1xf0a12arfjs8hhd9kl5xqrdlkfhjn70zf8nsfc8ags60ha4qgvk"))))
+            "0v39wfxn78d0ky0pjzkacgrg7rf419xyazrcidijnn8fk1chwbjk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-iter2 emacs-nvm))
     (arguments
@@ -93163,17 +93164,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220522.938")
+    (version "20220524.1134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "ca463aa6523d7ef9f81846cf98e43e536e3d4beb")))
+                 "f045cc9d4916174dae8c5bdc41889726f2be5e35")))
         (sha256
           (base32
-            "0lay5cjfk3n5x06a4wp388wd5nmf2cs73zn4xqcznbdnf8zfpamh"))))
+            "12rgxlgir4dyb3jma2ac7y7zm6ayyvadbicxip4bw0rri9m9giag"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -108576,17 +108577,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220518.809")
+    (version "20220524.1140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "f5ba3b17c5ac8c7567e3da080fcb3a4e9c38cb94")))
+                 "8154d9969972bdd87647be3874ded1bd55934972")))
         (sha256
           (base32
-            "0fzi3b8gw5qkyw4iqas01dkvi7z9m03px37cj5kspsy8gp9pry5n"))))
+            "0zb13m30zv714dvhv2xmajisa2yvd5qn5vl1gml8s4i98d2v2s16"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
