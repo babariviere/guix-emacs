@@ -16225,17 +16225,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220523.1452")
+    (version "20220524.625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "2dab69568b4a6aea2fc379882583c89d334ce090")))
+                 "3dbb14797583cb14e40966529021ee723287d200")))
         (sha256
           (base32
-            "0846j8m0qdrmyi69ly52iwny1418zdi93njik2bkhx4lhx7fkz1i"))))
+            "0fnrgxld0130r43lci76pcqsqgvv4xj9kpxgcy9gc88iaivvhaq6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -20940,17 +20940,17 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20220507.1118")
+    (version "20220524.18")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-diff-ansi.git")
                (commit
-                 "bfcce7f609a95b4b5e11c384c75fef8c7c972b95")))
+                 "7e493019234d468354758f7e60032a1fb379de44")))
         (sha256
           (base32
-            "0gddzdx0f6l982ij9q2ljm9dbpjrwi12glxhqr599jnxnlcrxshn"))))
+            "0ri50ralsbmi3j0fbrk0xspnyw7ivpjii59dd09791sgyycaakh4"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.com/ideasman42/emacs-diff-ansi")
@@ -27384,17 +27384,17 @@
 (define-public emacs-elfeed-protocol
   (package
     (name "emacs-elfeed-protocol")
-    (version "20220419.1358")
+    (version "20220524.336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fasheng/elfeed-protocol.git")
                (commit
-                 "eaf1329ff221098eb6d4709245010d070c89b173")))
+                 "b813574faefc1ac4825da19b40f620339b6badff")))
         (sha256
           (base32
-            "14zn3h7v9vygi6syjnywd5j56xlqv4a1z2grlkgrr0jd0y427jzk"))))
+            "0k9rkghp9rg7aidmx7q0n4wpb9z5cwr7j8z167yzaqgf9s3y4jj2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed))
     (home-page
@@ -32211,7 +32211,7 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220523.1335")
+    (version "20220523.2135")
     (source
       (origin
         (method git-fetch)
@@ -48692,17 +48692,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220521.605")
+    (version "20220524.441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "30cdeac619f7e44366180116252400a1b018d092")))
+                 "49bf6a160a96057f56e51c69e9402569b12643f1")))
         (sha256
           (base32
-            "0ljaasgy2hnaph9rb149rw1m9y6ajbsqfm3h556ggkspwmfkrgh1"))))
+            "0f8gai3pq42i975bi6fmf6vqr4vd23hh7jr0a14bmxkqqk2q08ij"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -65823,17 +65823,17 @@
 (define-public emacs-literate-elisp
   (package
     (name "emacs-literate-elisp")
-    (version "20220322.133")
+    (version "20220524.217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jingtaozf/literate-elisp.git")
                (commit
-                 "dc4f9d64a8483aa6e394178087c589cdefc571e2")))
+                 "4bfc686f5ee5d781f99d6d4d9b7dd057054c8b1c")))
         (sha256
           (base32
-            "08hhp74s56h9k3hlfqky68aiv4qy79gnci46r5nh4mbkrybsijnq"))))
+            "0r0mzfj6yxlzh89cs249s2xlryi6z6acvd43picz0jv7ff616fph"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jingtaozf/literate-elisp")
@@ -67147,17 +67147,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220522.1526")
+    (version "20220524.622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "eac730f19a9255fa320f199b62a301a44869173b")))
+                 "57fb2db71101e580ff2d222212dfae209bfc9c24")))
         (sha256
           (base32
-            "1pnxxchg4c0c7ad0rn9lb5m0x1xii0j2imxi36zaid6j2svrm9b3"))))
+            "1ayggchcmx2bd3gaqh1ck79msm6pxzjd2clqjl4qnrn1a7mqapd0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -108140,17 +108140,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220507.607")
+    (version "20220524.257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "24266c6c9a766261a8c8620692dfa4000f3e1d5d")))
+                 "ca6eef8dccd8dd0676cc82825ef0b7f205d088dc")))
         (sha256
           (base32
-            "1fyfpi31qy03qpxw8hpjgykn67pvflgah3agwf053iqpj1krh1gz"))))
+            "0sam6r0gjmv38452kdy98nwry8lmzg6vvv92fhbv6l6jkspi6cgh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
