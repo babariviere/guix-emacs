@@ -1,23 +1,25 @@
 (define-module (emacs packages melpa)
   #:use-module (emacs build-system melpa)
-  #:use-module ((emacs packages melpa-generated) #:prefix g/)
   #:use-module ((gnu packages emacs-xyz) #:prefix e/)
   #:use-module (gnu packages gnupg)
   #:use-module (gnu packages sqlite)
   #:use-module (guix build-system gnu)
   #:use-module (guix packages)
-  #:use-module (guix utils)
-  #:replace (emacs-emacsql-sqlite emacs-emacsql-sqlite3 emacs-vterm emacs-guix emacs-geiser-guile))
+  #:use-module (guix utils))
 
-(eval-when (eval load compile)
-  (let ((i (module-public-interface (current-module))))
-    (module-use! i (resolve-interface `(emacs packages melpa-generated)))))
+(load-from-path "emacs/packages/melpa-generated")
 
-(define-public emacs-emacsql-sqlite
+(define-syntax define-override
+  (syntax-rules ()
+    ((_ name var exp)
+     (let ((var name))
+       (define-public name exp)))))
+
+(define-override emacs-emacsql-sqlite pkg
   (package
-    (inherit g/emacs-emacsql-sqlite)
+    (inherit pkg)
     (arguments
-     `(,@(package-arguments g/emacs-emacsql-sqlite)
+     `(,@(package-arguments pkg)
        #:modules ((emacs build melpa-build-system)
                   (guix build utils)
                   (guix build emacs-utils)
@@ -53,14 +55,14 @@
                  ("(defvar emacsql-sqlite-executable-path"
                   (string-append (assoc-ref outputs "out")
                                  "/bin/emacsql-sqlite")))))))))
-   (inputs (package-inputs e/emacs-emacsql))))
+    (inputs (package-inputs e/emacs-emacsql))))
 
 
-(define-public emacs-emacsql-sqlite3
+(define-override emacs-emacsql-sqlite3 pkg
   (package
-    (inherit g/emacs-emacsql-sqlite3)
+    (inherit pkg)
     (arguments
-     `(,@(package-arguments g/emacs-emacsql-sqlite3)
+     `(,@(package-arguments pkg)
        #:tests? #t
        #:test-command '("emacs" "-Q" "--batch" "-L" "."
                         "--load" "emacsql-sqlite3-test.el"
@@ -73,13 +75,13 @@
                (("\\(executable-find \"sqlite3\"\\)")
                 (string-append "\"" (which "sqlite3") "\""))))))))
     (native-inputs
-     (list g/emacs-ert-runner))
+     (list emacs-ert-runner))
     (inputs
      (list sqlite))))
 
-(define-public emacs-vterm
+(define-override emacs-vterm pkg
   (package
-   (inherit g/emacs-vterm)
+   (inherit pkg)
    (arguments
     `(#:modules ((emacs build melpa-build-system)
                  ((guix build cmake-build-system) #:prefix cmake:)
@@ -117,23 +119,23 @@
    (native-inputs
     (package-native-inputs e/emacs-vterm))))
 
-(define-public emacs-geiser-guile
+(define-override emacs-geiser-guile pkg
   (package
-    (inherit g/emacs-geiser-guile)
+    (inherit pkg)
     (inputs (package-inputs e/emacs-geiser-guile))))
 
-(define-public emacs-guix
+(define-override emacs-guix pkg
   (package
-    (inherit g/emacs-guix)
+    (inherit pkg)
     (build-system gnu-build-system)
     (arguments (package-arguments e/emacs-guix))
     (native-inputs (package-native-inputs e/emacs-guix))
     (inputs (package-inputs e/emacs-guix))
     (propagated-inputs
-     (list g/emacs-dash
-           g/emacs-geiser
+     (list emacs-dash
+           emacs-geiser
            emacs-geiser-guile
-           g/emacs-bui
-           g/emacs-magit-popup
-           g/emacs-edit-indirect
-           g/emacs-transient))))
+           emacs-bui
+           emacs-magit-popup
+           emacs-edit-indirect
+           emacs-transient))))

@@ -31,16 +31,10 @@ If this happens, you can always use ~guix import elpa -t melpa <package_name+>~.
 In emacs/packages/melpa.scm, define a new package:
 
 #+begin_src scheme
-(define-module (emacs packages melpa)
-  #:replace (
-			   emacs-my-package ; don't forget to re-export it
-			   ))
-
-
-(define-public emacs-my-package
-  (inherit g/emacs-my-package) ; inherit from generated package
-  ;; add your new fields here
-  )
+(define-override emacs-my-package pkg
+  (package
+    (inherit pkg)  ; inherit from generated package
+    ))
 #+end_src
 
 To build your package, you can run:

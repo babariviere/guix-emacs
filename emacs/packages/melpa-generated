@@ -1,14 +1,8 @@
-(define-module
-  (emacs packages melpa-generated)
-  #:use-module
+(use-modules
   (emacs build-system melpa)
-  #:use-module
   (emacs packages elpa)
-  #:use-module
   (guix download)
-  #:use-module
   (guix packages)
-  #:use-module
   (gnu packages emacs-xyz))
 
 (module-use-interfaces!
@@ -121070,4 +121064,3 @@
     (description
       "Documentation at https://melpa.org/#/zzz-to-char")
     (license #f)))
-

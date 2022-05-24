@@ -27,15 +27,15 @@
 (define %root
   (dirname (canonicalize-path (dirname (or (current-filename) "./update")))))
 
-(define %melpa-path (string-append %root "/emacs/packages/melpa-generated.scm"))
+(define %melpa-path (string-append %root "/emacs/packages/melpa-generated"))
 
 (define header
-  '((define-module (emacs packages melpa-generated)
-      #:use-module (emacs build-system melpa)
-      #:use-module (emacs packages elpa)
-      #:use-module (guix download)
-      #:use-module (guix packages)
-      #:use-module (gnu packages emacs-xyz))
+  '((use-modules
+     (emacs build-system melpa)
+     (emacs packages elpa)
+     (guix download)
+     (guix packages)
+     (gnu packages emacs-xyz))
     (module-use-interfaces! (current-module) (module-uses (resolve-module '(gnu packages emacs-xyz))))))
 
 (define (string->emacs-package-name str)
