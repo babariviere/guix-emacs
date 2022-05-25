@@ -20664,17 +20664,17 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220523.1616")
+    (version "20220524.1604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~niklaseklund/detached.el")
                (commit
-                 "43faf8459416aaa22738fbafec0f67f210a912fd")))
+                 "cf229d6d6be3f7fd6454a7db9a9f6397b6a8ffed")))
         (sha256
           (base32
-            "0x00b4h3s9r8651kgc05ss6sbyf1jaxicckndz8sanpfcmk3imk1"))))
+            "05c2aggva8rb6xfdzsx19yx6n0hjndwdvibj4adscc6h5279lqia"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -24353,17 +24353,17 @@
 (define-public emacs-dumb-jump
   (package
     (name "emacs-dumb-jump")
-    (version "20211018.1545")
+    (version "20220524.2122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jacktasia/dumb-jump.git")
                (commit
-                 "dbb915441a2b66f2fbb954ff5de2723c5a4771d4")))
+                 "1dd583011f4025b1b8c75fd785691851b6c5dfa3")))
         (sha256
           (base32
-            "0gbxhl50j6m6c0kq2v3ph9b3mdrmjdslxiy6lhms4l01zyrg621g"))))
+            "1c4w5hxydn59ga9731mcg0r0hlbn2fzjalvv0w2flnx77pkl8g6a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-popup))
@@ -85587,17 +85587,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220522.1411")
+    (version "20220523.1859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "35017a2d87376c70c3239f48bdbac7efca85aa10")))
+                 "f046cac8fd74133492e649717be2bea8cf4602dd")))
         (sha256
           (base32
-            "07hdmam85452v4r2vaabj1qfyami1hgbh0jgj9dcwbkpr0y1gvqj"))))
+            "09kvpmjb762c8v3j4a9xb7zzip1kpysplwk3g72alva92i5yr82n"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -93158,17 +93158,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220524.1134")
+    (version "20220524.2141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "f045cc9d4916174dae8c5bdc41889726f2be5e35")))
+                 "556718aef9ef3ce27a87c50055614b346ec6baff")))
         (sha256
           (base32
-            "12rgxlgir4dyb3jma2ac7y7zm6ayyvadbicxip4bw0rri9m9giag"))))
+            "04p3d6zl867j8rnfnxffhps71b7i79asbfn2snds1rnj9n4d1958"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -110007,17 +110007,17 @@
 (define-public emacs-timu-rouge-theme
   (package
     (name "emacs-timu-rouge-theme")
-    (version "20220515.1712")
+    (version "20220524.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-rouge-theme.git")
                (commit
-                 "a00b704235bcc595e02b157eee22caaecfc0080f")))
+                 "02281cde75ab7e5bb624003dc0de035dc14f2469")))
         (sha256
           (base32
-            "05zckq47vk90517cbwg0caxqqv510pkbz806l1sd0gi834ixg8ki"))))
+            "1xv0cjiwl86hvyb9f8awjwx14b158qpnlmfxlxn7f0z3lzim9d7x"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-rouge-theme")
@@ -110030,17 +110030,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20220501.1509")
+    (version "20220524.1933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "1318c58a118c6c5a95a82e71da5eda6bfcf8f143")))
+                 "d8db5dceb95144ad50c1dc3577196eef7a10d5b3")))
         (sha256
           (base32
-            "1vav4f6g86fh71ddprql0m8b05f4h8l04n7jfskfmvpfwgw2w87r"))))
+            "14r325a9qq9xigqbp03dbblc8lnw3hz7hbnmj9d58jshd6avdcnc"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
@@ -116336,17 +116336,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220319.653")
+    (version "20220524.2048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "efa853e5cfff8e0bcacbda9d1c6696b33da91b03")))
+                 "52ee948d68ec62c44e0533111b71bf1ea27e4dfd")))
         (sha256
           (base32
-            "1hpdr9r1wvvh44iqkv1lcfnjlvn16yrsgdq2ald2p6sxh9hkvn66"))))
+            "1y9v1qn366pbddmh0p4r9p0kbl72hykdgv68m4ywchnqqfmq8f5v"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
@@ -116546,17 +116546,17 @@
 (define-public emacs-webpaste
   (package
     (name "emacs-webpaste")
-    (version "20211211.658")
+    (version "20220524.1745")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/etu/webpaste.el.git")
                (commit
-                 "78272662e6992b8614e79a571ff2395fa9630357")))
+                 "d96da58fe42988d5c433c71ee9f8e6fb75d595a9")))
         (sha256
           (base32
-            "07hj9nr7x6c9w2dnvc58cfbprgp9cqzdxflp5qlpglzdw0bi9s3c"))))
+            "0h4cp334ga2vk89gmkhycqzakxsjldql98a687y57ixpq7ri8qsq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page "https://github.com/etu/webpaste.el")
@@ -121064,3 +121064,4 @@
     (description
       "Documentation at https://melpa.org/#/zzz-to-char")
     (license #f)))
+
