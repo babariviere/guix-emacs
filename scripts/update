@@ -34,6 +34,7 @@
      (emacs build-system melpa)
      (emacs packages elpa)
      (guix download)
+     (guix git-download)
      (guix packages)
      (gnu packages emacs-xyz))
     (module-use-interfaces! (current-module) (module-uses (resolve-module '(gnu packages emacs-xyz))))))

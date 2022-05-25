@@ -2,6 +2,7 @@
   (emacs build-system melpa)
   (emacs packages elpa)
   (guix download)
+  (guix git-download)
   (guix packages)
   (gnu packages emacs-xyz))
 
@@ -22405,17 +22406,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220524.1229")
+    (version "20220525.326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "806a60a9d5b507a46fd2c07fd0db988674b1e4f1")))
+                 "cce248d2dfb42bfcc4c3475c27b7fc58309fbabb")))
         (sha256
           (base32
-            "0x7bnkz8q21mj92ks6idgnq70vs63fm2vgzfvy0drkpbxpd66vqn"))))
+            "0w5w65mwf896rkjaxph1zckfmgrs273k07325rdgk03yd2qi8ma0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -75201,17 +75202,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20220513.240")
+    (version "20220525.220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "958a92a979c88bee909d03a78b2faf6726d0069b")))
+                 "92f96b83fab2649d224115bb71324cefe139ffc5")))
         (sha256
           (base32
-            "0l4bi6hnwk4lssmya8x6av0j0nhvwccxaiv2ar1byiy7i3bxvr16"))))
+            "0wcshry27wd5zvzpkmkh62mzrqrhkjibbs66s6g7c4yaqyiy14i4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
