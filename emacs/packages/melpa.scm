@@ -5,9 +5,19 @@
   #:use-module (gnu packages sqlite)
   #:use-module (guix build-system gnu)
   #:use-module (guix packages)
-  #:use-module (guix utils))
+  #:use-module (guix utils)
+  #:use-module (srfi srfi-1))
 
-(load-from-path "emacs/packages/melpa-generated")
+(define %channel-root
+  (canonicalize-path
+   (find (lambda (path)
+	   (and
+	    (file-exists? (string-append path "/.guix-channel"))
+	    (file-exists? (string-append path "/emacs"))
+	    (file-exists? (string-append path "/emacs/packages/melpa-generated"))))
+	 %load-path)))
+
+(load (string-append %channel-root "/emacs/packages/melpa-generated"))
 
 (define-syntax define-override
   (syntax-rules ()
