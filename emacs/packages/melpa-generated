@@ -8205,21 +8205,20 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220514.1916")
+    (version "20220525.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "04df5cac8c3ba8981833feabd15a87af319f734b")))
+                 "9917084fb806796f91025dbec9f946f4415059ed")))
         (sha256
           (base32
-            "0mnn7vq0qf905281n7n54d86jk68r71jrrbsfjl0sqfjlqsdfd75"))))
+            "08fykxqkr560qlnlir5xzlmvz01gxbqy2zg7qa4sqcnp64mvpq6g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
-    (arguments
-      '(#:files (:defaults "borg.mk" "docs/borg.texi")))
+    (arguments '(#:files (:defaults "borg.mk")))
     (home-page
       "https://github.com/emacscollective/borg")
     (synopsis
@@ -16220,17 +16219,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220524.625")
+    (version "20220525.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "3dbb14797583cb14e40966529021ee723287d200")))
+                 "b15c81f7766a8981f2f022fc47bbeb7000696caf")))
         (sha256
           (base32
-            "0fnrgxld0130r43lci76pcqsqgvv4xj9kpxgcy9gc88iaivvhaq6"))))
+            "184ib6d685lhg4y9crlsml1bf756hrcdp1wh8vgjmxi2vlgmlr71"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -20665,17 +20664,17 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220525.1513")
+    (version "20220525.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~niklaseklund/detached.el")
                (commit
-                 "87037e0b9f947d8b150820817f1da60b1dc2a7cf")))
+                 "11dbd0a990f51c310bb119ae713b0ca7b10efe82")))
         (sha256
           (base32
-            "1ai4csqd0cyk9cx9n05qzrvcvjbdqz207yaam0r2kmy48p3sqj8w"))))
+            "0rli1wgpn4yf6ga1rld3bl00cwpba9kda13mf239c6gshk216xdq"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -62985,17 +62984,17 @@
 (define-public emacs-kotlin-mode
   (package
     (name "emacs-kotlin-mode")
-    (version "20220518.1700")
+    (version "20220525.2054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode.git")
                (commit
-                 "60ebf567ec1bcd56a40594d04ac2b866aa6935a2")))
+                 "d92c3b773473e9fe15f61f6177e4fbf097aadd05")))
         (sha256
           (base32
-            "04flv8dqfc0g91l525b9dpzwr5yx65k866ps0lh6gkmij7ird0w1"))))
+            "1da3vy4yklpdl0p2agvf86mq271n537i2f6i1l746wlix14r3xi2"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Major mode for kotlin")
@@ -67142,17 +67141,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220524.622")
+    (version "20220525.1953")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "57fb2db71101e580ff2d222212dfae209bfc9c24")))
+                 "b855a3412a5410be09013d15495cfd251e9850d0")))
         (sha256
           (base32
-            "1ayggchcmx2bd3gaqh1ck79msm6pxzjd2clqjl4qnrn1a7mqapd0"))))
+            "0gzqzc34s84jq9rx21fhmnc8k103s7rvf4ybd1vhwbm6gq9a6fmx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82149,17 +82148,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220516.1640")
+    (version "20220525.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "01843a648650a92f35f4dce6693f7b640c79b0c8")))
+                 "32557afdbfd875b1cd47b3737ecb52a6ee97b910")))
         (sha256
           (base32
-            "0xvp3b3n0hsil6rb6wm8bn4il7zzf0aa6vyavz1m6j3qfx497i7q"))))
+            "1i0qqia7jnzvsc8qpa5j1v3ik29a85ascqxkcqhhcnxx3w6fwqfr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93159,17 +93158,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220525.602")
+    (version "20220525.2248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "2de0aa68d62ef4b996f164426256982e8043e470")))
+                 "69d8ff819222a54ee1c1d4cac1581afb92a7843d")))
         (sha256
           (base32
-            "13x4krpl0010z1q30lpms95bril0227x5yi5vbrpz8zbk0lc32h6"))))
+            "027kg6n2y9zjcf290s4x9p61bh7zmaj0nhkiv7rpn23064sldwla"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -102364,17 +102363,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220515.746")
+    (version "20220525.1351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "32f5652d6a976f68e7cf47b61d7d0e2764b68aae")))
+                 "485aa0ca171d2b00b51ffa4c471b0140bf468d9b")))
         (sha256
           (base32
-            "1lxwbj3kwv7qldi2hsim06lrdwzcxa4lhasyrjqlmrfycam9f7nb"))))
+            "1gs5dg18nfyvxkmgn7qsmy94sva7k1q223m9455rld27g6g42bly"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -106947,17 +106946,17 @@
 (define-public emacs-svg-tag-mode
   (package
     (name "emacs-svg-tag-mode")
-    (version "20211229.920")
+    (version "20220525.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rougier/svg-tag-mode.git")
                (commit
-                 "3b07983614bee0195534e7a8a6dcfab757da4f0b")))
+                 "efd22edf650fb25e665269ba9fed7ccad0771a2f")))
         (sha256
           (base32
-            "0nc0y2dn67gy9cly3yamskfd9dd028xbask8gjxql934bq0ads2i"))))
+            "1qwbhkl0fd22yymncmsw5ivrhwsl42mch64kai6zpn1q0aclk1dx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-svg-lib))
     (home-page
@@ -108273,17 +108272,17 @@
 (define-public emacs-tango-plus-theme
   (package
     (name "emacs-tango-plus-theme")
-    (version "20211222.1100")
+    (version "20220525.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tmalsburg/tango-plus-theme.git")
                (commit
-                 "774b03f932bbc336ce5f943af175d5faa651f2e0")))
+                 "bdf1dd6ea9c43d07b22dfa15fec0dcfd03544c63")))
         (sha256
           (base32
-            "0nl73ggirjs0a6zapqpp4h2wszkfbj8956qn3yg86fc0hk9jiz05"))))
+            "01q6c2k9lkz1zpi816b9s99lwrnlf4ni9r0z45jx4fljsy59c0i3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tmalsburg/tango-plus-theme")
@@ -116337,7 +116336,7 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220525.748")
+    (version "20220525.1422")
     (source
       (origin
         (method git-fetch)
