@@ -25140,17 +25140,17 @@
 (define-public emacs-ebuku
   (package
     (name "emacs-ebuku")
-    (version "20220521.1416")
+    (version "20220526.331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/ebuku.git")
                (commit
-                 "92bbcd537123416b9296332e4bf8cb790657794e")))
+                 "fbd9e36c701e945c12fea7037452cefbf4d0eae3")))
         (sha256
           (base32
-            "0s3j7x115jkqm52ndly096qjn6dpdg3yidq7q4cmc8gjvigv9dzq"))))
+            "13jzrcbbawgn7av30r1rvd9lvqsh3svjk1l4khmkpqr94wi41ryb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/flexibeast/ebuku")
     (synopsis
@@ -48686,17 +48686,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220525.1139")
+    (version "20220526.516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "fece523da270b87658636a25ffe31751e5a9c1ee")))
+                 "b28378b719ed8aee0c7118481a78309960a2e906")))
         (sha256
           (base32
-            "1fabjkwcifrmlq34mrqnk6mij6yvi8976cplsq179yi3af12cnbl"))))
+            "1s8b4il83snmb62pvshxx3565wz1kkm4ds27j1jmwfl9y0dldhqf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -71960,17 +71960,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220523.614")
+    (version "20220526.517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "cf4f308ad1e054d6a1aefa2c4f703c18ccfeeacf")))
+                 "810a035768085167440c07f99bd7b64e6894d1b7")))
         (sha256
           (base32
-            "1s1pq5ih43lh9ynzw36hz10yh6s7bczadl4z7016a20y0ry8km10"))))
+            "1w48s53x41047bava4q3ar8xjmzp1sdbwjg3jsygc3rfmblwz1vh"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -109838,17 +109838,17 @@
 (define-public emacs-tikz
   (package
     (name "emacs-tikz")
-    (version "20210927.1704")
+    (version "20220526.521")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emiliotorres/tikz.git")
                (commit
-                 "f9ea0793affa34be29e1861bfa559fd248b7d22e")))
+                 "4b205afc5c88f050639135d1d57f1276db323842")))
         (sha256
           (base32
-            "03jcj6vkb8i7jqfwyiix5achq5bgwvjz97w2pwr46v3hbrf4r62q"))))
+            "0ykhlyq45r0nzv03kbmdwxbhrydpls6iihcf0g43nq0fhswb20g7"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "templates")))
     (home-page
