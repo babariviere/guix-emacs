@@ -6277,21 +6277,21 @@
 (define-public emacs-base16-theme
   (package
     (name "emacs-base16-theme")
-    (version "20220510.423")
+    (version "20220526.1015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/belak/base16-emacs.git")
                (commit
-                 "43f3257aaf53e9c50f5db11b81fd66ec41ab2883")))
+                 "26b84fc93505219517a512eb01e6370365174989")))
         (sha256
           (base32
-            "07k73bgjb6ixfgbiwf8zswf6n0kb3bf1ka1pcv88h3a9hhndvgv5"))))
+            "0qp71j77zg8gippcn277s0j5a9n6dbwv3kdp2nya6li4b412vgba"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "build/*.el")))
     (home-page
-      "https://github.com/belak/base16-emacs")
+      "https://github.com/base16-project/base16-emacs")
     (synopsis
       "Collection of themes built on combinations of 16 base colors")
     (description
@@ -10736,17 +10736,17 @@
 (define-public emacs-cern-root-mode
   (package
     (name "emacs-cern-root-mode")
-    (version "20220520.1817")
+    (version "20220526.833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jaypmorgan/cern-root-mode.git")
                (commit
-                 "2df8781df1d807bf522eb19ac7b03b4bfaeb89c0")))
+                 "5c49421e8674ac3519b9d168c880a3131494b095")))
         (sha256
           (base32
-            "159q50m8sr4adw7czkq0mq6hq43svkk2psx0wnmmb1aa8ivhwyip"))))
+            "07kwh7n9gl4j7s229cqw8q5hb8snn9igz5xg9rd7i5yhdn5aad8g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jaypmorgan/cern-root-mode")
@@ -11891,17 +11891,17 @@
 (define-public emacs-circe
   (package
     (name "emacs-circe")
-    (version "20220421.1956")
+    (version "20220526.1206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-circe/circe.git")
                (commit
-                 "710f057fedae6e9b820cce9336fef24b7d057e4c")))
+                 "41cdc116b09818d33f5cb0fc1d72c025c23aa2f1")))
         (sha256
           (base32
-            "0lrxd4hanaxj85nafsc0wss677slmyaks3qb7a95mj7vic3ib937"))))
+            "0hmclqaagnqvyvxb93vi1qdyvqm53hsyjyv1b4zh79hwzvn6s8g3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-circe/circe")
@@ -11960,17 +11960,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220523.1000")
+    (version "20220526.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "7dd4a21b6f750b16101067e66937f26fb997cc5a")))
+                 "d55cac7a2b8b848990ebd713de8667bf3fe93c6b")))
         (sha256
           (base32
-            "0zxzy6m8lx4d6yy17bvg7a62wdbwzcynllppc9xgjwc7bq5596y0"))))
+            "04asi5gr4p1d8llra3qwly2jp1ll3zs0hjcysrrvdcax0jcr473b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -17162,17 +17162,17 @@
 (define-public emacs-counsel-etags
   (package
     (name "emacs-counsel-etags")
-    (version "20220516.1309")
+    (version "20220526.1213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/counsel-etags.git")
                (commit
-                 "3541edc21ab67ef4c51d8081418e699c956d0e90")))
+                 "05d364b556aadcfe49df727c0729abc3f0c14372")))
         (sha256
           (base32
-            "1nhnc3h2nv86dfpzhr82ych3aqg3qrrfykq9481fpq18dy5b8x9m"))))
+            "1v77lpp0nij1rjg2k9wj42kqk7xqg1dzs9vmadha6f2j8j6375m8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -19628,17 +19628,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220516.456")
+    (version "20220526.738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "a4eb09778f7b685b6ff652212bf1fa2e6e1305d7")))
+                 "1e691b346b9220b73337fd4962bbe6ef775ad9e7")))
         (sha256
           (base32
-            "017wmpwwf54q3prhywkfcrfxlhc123j2gglq5nhm0hfq49gw0966"))))
+            "01glbn5z18pqi13lhm0461m25wqfk9m324y1awrsjf3lk1gnz3b4"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220525.1021")
+    (version "20220526.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "b1afa4393a4a7123a9f056fbe6ebdd32a5674a83")))
+                 "836983ebc8f6bdd8c3bbf04238fa24ac327f9ecd")))
         (sha256
           (base32
-            "1ng3r0bfb976hm8ja4hpzwvkh3kljbk3alysdinzdq0bvkvklw32"))))
+            "0j2qimavp4r8ikhg0fn5ni3bknn8h3npfyk747lw8az4q6l2mgp8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24890,17 +24890,17 @@
 (define-public emacs-eacl
   (package
     (name "emacs-eacl")
-    (version "20220101.1517")
+    (version "20220526.1229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/eacl.git")
                (commit
-                 "4d9d42fa05e550dbac71a2c93e1da71c48af9449")))
+                 "4fe2cafbfeb73d806ebea8801c3522ff2886f30b")))
         (sha256
           (base32
-            "1bpnrvjiz6k9s36v23y1b6pjyl78741g4rc2mpdwxcnk0vzmi0aj"))))
+            "05m121lw90rjs1a6wq8gvqxzydm4940x30xp3kh1v5x4zwwcf03b"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/redguardtoo/eacl")
     (synopsis
@@ -36706,17 +36706,17 @@
 (define-public emacs-flutter
   (package
     (name "emacs-flutter")
-    (version "20220502.50")
+    (version "20220526.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/flutter.el.git")
                (commit
-                 "e49cbcb70235fa39a7d243521e03ad874451a39a")))
+                 "b4148db1e6e6822a6a0da1eda3c58affe562d1dc")))
         (sha256
           (base32
-            "1hjfkcdi99yfld9jakhhrncpm2yvg03xz35dngc6nn23dkwdpidm"))))
+            "0ga6jw948w0zwab4jixcrlmv6f9ck0vf7v40g3z4l6ddi2ibsy15"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -41180,17 +41180,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220506.420")
+    (version "20220526.1151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "29fc1302382700dc7ecb5e0fe20e47b8a9d0a1a4")))
+                 "75992a7559bd92009f5ff9e5170bed39c620ee8c")))
         (sha256
           (base32
-            "1v5nq39fqzzc83syap8icclic7hjaq91y45rx5y9a6rs5dv53akc"))))
+            "1v2sn9drr315df1fp60sfr45w6ysg13zkaxnyykm9gvhlw4lkkr5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -41201,8 +41201,6 @@
             emacs-magit
             emacs-markdown-mode
             emacs-yaml))
-    (arguments
-      '(#:files ("lisp/*.el" "docs/forge.texi")))
     (home-page "https://github.com/magit/forge")
     (synopsis "Access Git forges from Magit.")
     (description
@@ -54612,17 +54610,17 @@
 (define-public emacs-hotfuzz
   (package
     (name "emacs-hotfuzz")
-    (version "20210924.936")
+    (version "20220526.1027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/axelf4/hotfuzz.git")
                (commit
-                 "e963cef1bf24b2da491c1aafd4260ee6ae3a766c")))
+                 "aa53273d794c1e8579ff236f4854c636c18fb192")))
         (sha256
           (base32
-            "1w51drd0zchgl5yxyg1a3rd0xkxf6cybfalzdz7cjprd8kmipmj5"))))
+            "0f4b4c8l21rjklzaalwyn5359znyx3zw6v6f3g2s08bfyq8992f4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/axelf4/hotfuzz")
     (synopsis "Fuzzy completion style")
@@ -60368,17 +60366,17 @@
 (define-public emacs-jmt-mode
   (package
     (name "emacs-jmt-mode")
-    (version "20220510.430")
+    (version "20220524.2327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Michael-Allan/Java_Mode_Tamed.git")
                (commit
-                 "f968413df2c2bd1e00c5b6c61c53bdd208b90ee3")))
+                 "5e8eb048dd398597378eaf20842e410398bd5b55")))
         (sha256
           (base32
-            "0gyf61krqy6d5sjvj5c9z57vqx2nq0fia2pxmk32slisxc9drcqm"))))
+            "0qhp1p49b8mjnyr8lxlvwjdhnl36l5byyzb9psnf1iid7f306rki"))))
     (build-system melpa-build-system)
     (home-page "http://reluk.ca/project/Java/Emacs/")
     (synopsis "Java Mode Tamed")
@@ -67141,17 +67139,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220525.1953")
+    (version "20220526.1209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "b855a3412a5410be09013d15495cfd251e9850d0")))
+                 "9faa49269234c3ad39d66e6baba6642bf2653f86")))
         (sha256
           (base32
-            "0gzqzc34s84jq9rx21fhmnc8k103s7rvf4ybd1vhwbm6gq9a6fmx"))))
+            "15dlmj2zfkzicx6zzd6akw5hzg9v8xm9j9ff9yih39k00d4qsi9v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73853,17 +73851,17 @@
 (define-public emacs-mybigword
   (package
     (name "emacs-mybigword")
-    (version "20201030.1253")
+    (version "20220526.1306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/mybigword.git")
                (commit
-                 "4c1386252444df2ade734e02078069a06f3f0f97")))
+                 "ffbfa2a938a58c4e60ccc4c2ec0ae32a11eac485")))
         (sha256
           (base32
-            "0gbynsf84dgsg2m6h2m2xj54ph0a7kiz9njd33j4xp7r36d268f8"))))
+            "1aknn89k9chrn65jxxj82pjia4rqfqp8s71j7x1hb10fscmscdbp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("mybigword.el" "eng.zipf")))
@@ -90960,17 +90958,17 @@
 (define-public emacs-prettier
   (package
     (name "emacs-prettier")
-    (version "20220525.750")
+    (version "20220526.703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/prettier.el.git")
                (commit
-                 "205d7e52300d912107e958cffcac20c34d1f7ce9")))
+                 "4c70da95267f1c5486a6dbdd1dbf67be9347aad6")))
         (sha256
           (base32
-            "0zd3blkbhj7kpjvr2jwfccjh1k46zkv3wfl4ag7p42wfzb7q285d"))))
+            "1xs96l7v1nji8cg4394c1f2bmmn2syv4jxbhzpkilcjk84q7s7b4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-iter2 emacs-nvm))
     (arguments
@@ -102363,14 +102361,14 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220525.1351")
+    (version "20220526.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "485aa0ca171d2b00b51ffa4c471b0140bf468d9b")))
+                 "1f9a95f3a07b2aa5b01d8be427b90837be5cea6a")))
         (sha256
           (base32
             "1gs5dg18nfyvxkmgn7qsmy94sva7k1q223m9455rld27g6g42bly"))))
@@ -114282,17 +114280,17 @@
 (define-public emacs-vc-msg
   (package
     (name "emacs-vc-msg")
-    (version "20211224.1354")
+    (version "20220526.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/vc-msg.git")
                (commit
-                 "3ad560afc1e0610acd1ce4b9509aedae66276b91")))
+                 "720c6f0e699f25463cd37642ee23adb4e23bc60b")))
         (sha256
           (base32
-            "02lbjpfyy1hl6kdml9mm7m8aaawaphwqzk3cljw50a0z2m7xrk63"))))
+            "0pn4gpxzgxlz12h4yymqdfmvic51jc5s3b973wl3qjizv1j1062l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-popup))
     (home-page
@@ -118335,17 +118333,17 @@
 (define-public emacs-wucuo
   (package
     (name "emacs-wucuo")
-    (version "20220516.751")
+    (version "20220526.1139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/wucuo.git")
                (commit
-                 "44cf8adee58f2b4922c34dfa51af06c52de0a192")))
+                 "fe5dfb4e4db38f9fc944509a687812b8f419b958")))
         (sha256
           (base32
-            "1z0qyycgaycx5r3jdlv7czv7awsfxyl7123kq2b2x02zbdqbf0dq"))))
+            "05h5wxzwzl5almgsk2mjas8in7h5kfmb06r3lfrwgydwxl3wmqnl"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/redguardtoo/wucuo")
     (synopsis
