@@ -17857,17 +17857,17 @@
 (define-public emacs-creamsody-theme
   (package
     (name "emacs-creamsody-theme")
-    (version "20220516.1515")
+    (version "20220527.504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-creamsody.git")
                (commit
-                 "fdf66a8e47ebd71f7bb6509d4ad6044bc0ac02db")))
+                 "c685648979963c3051a0bf70ed3f02bdc5caa15c")))
         (sha256
           (base32
-            "1g4k86w0ffs248y4mv6lsn2zc170q79imipy7bgls7z34w645jig"))))
+            "0m0xbs7a9niwr6psypq5fjan2h15h4b37jkg3nf086c1d90cdiyr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -63265,21 +63265,21 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220508.929")
+    (version "20220527.526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "1c80df0f2c542f54920f18aa4eb837f0a51c7676")))
+                 "05af612e066c9382e48a734419fb9840a8d63b72")))
         (sha256
           (base32
-            "0hmsf7kgzmpzri3ggb7l6y3pvfpinfv0d24fnxpbp1zd17lfwks1"))))
+            "0mwnnbjw94c5w3w1dgq7r8dva0qalvg6zlvw14ix3mnc0rzlrryr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "unspecified")
-    (synopsis "color editing goodies for Emacs")
+    (synopsis "color editing goodies")
     (description
       "Documentation at https://melpa.org/#/kurecolor")
     (license #f)))
@@ -93153,17 +93153,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220525.2248")
+    (version "20220527.202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "69d8ff819222a54ee1c1d4cac1581afb92a7843d")))
+                 "6b4cea1b541f5efd18067d4cafa1ca4b059a0c63")))
         (sha256
           (base32
-            "027kg6n2y9zjcf290s4x9p61bh7zmaj0nhkiv7rpn23064sldwla"))))
+            "1qcdf1v20sm99gbirjycppm3rnig1qvk8iiv50zmd6z38l48j7vh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
