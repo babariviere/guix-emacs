@@ -16219,17 +16219,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220525.2118")
+    (version "20220528.812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "b15c81f7766a8981f2f022fc47bbeb7000696caf")))
+                 "21ccad0e75db4098befc592168002b03f2d663ec")))
         (sha256
           (base32
-            "184ib6d685lhg4y9crlsml1bf756hrcdp1wh8vgjmxi2vlgmlr71"))))
+            "0awgpzjl7ilx622k8bdgsllqz6wjp51a9wbpl5s98p45kb9my78s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220527.1146")
+    (version "20220528.1135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "ed84a7ffb83037416af2811e83152855b117c3bf")))
+                 "cfd3220bc4727638084260c77ccc08bfd6e5f802")))
         (sha256
           (base32
-            "0v411b785c2pa5vck9kbz9p9brsxjsza2ch883kvapwdfklkadsk"))))
+            "1z07cb38xfk92ika6vibbliglql4a4zqf8hdxhp9r5g3clwj1j8b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -67813,17 +67813,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220522.438")
+    (version "20220528.803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "26f47122c1be75be2ab889979fdc75ec8bf388b2")))
+                 "72e3758ab0ba35ed16872f4740740344f0d61585")))
         (sha256
           (base32
-            "1mmcbx4h65bgwxylfhyi5y7bl383h7r8f7xqcm71qw67vrrwvm1i"))))
+            "0kgf7asygkx1g3v37igami0wsknhixvmy57z22cdrcywz7m97dm2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -73531,17 +73531,17 @@
 (define-public emacs-multiple-cursors
   (package
     (name "emacs-multiple-cursors")
-    (version "20220328.1724")
+    (version "20220528.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/multiple-cursors.el.git")
                (commit
-                 "aae47aebc0ae829211fa1e923232715d8e327b36")))
+                 "fd8441bfc8738d463601823e5a3d9c2d7123bfbf")))
         (sha256
           (base32
-            "1rpimqf8srlvilnqi02lr7my9ccxc89gc14pzs6jdffc60gb4659"))))
+            "1201q60cnydglq431hkf68kz6gx4i1fs1v00jldliqrxkxm0ignx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/magnars/multiple-cursors.el")
@@ -98278,17 +98278,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220526.1930")
+    (version "20220528.1245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "9dca87b2e162cc3ecfedca9203e7ec6654ac2e10")))
+                 "af6b6f4f34f471b43859cc13afc550892e08aca8")))
         (sha256
           (base32
-            "01302wwhp9bq65bj25y611mw277481i5wjhkzzyac1sd6b1i25j4"))))
+            "1yrff40hapi7z6p5pnpm31n90rxaqwhn3p5wmfh8vj5frl8w3jzl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
