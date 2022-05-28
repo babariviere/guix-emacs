@@ -9894,17 +9894,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220527.1353")
+    (version "20220528.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "900de7737466f54c34bdd397ac420815c9cdd1a4")))
+                 "fec9f746de753b85d75ff2a595b39014a8f44dbb")))
         (sha256
           (base32
-            "02r1chwqmzssi2h887i08j0y4ddsf8wyzckm7i6v5qqwxqqi72nm"))))
+            "0f8sl7am5rmsxi9b39x9d7m7cybf6ky5iigwx5p4hzjjaji9j7gd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -82142,17 +82142,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220525.1857")
+    (version "20220528.321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "32557afdbfd875b1cd47b3737ecb52a6ee97b910")))
+                 "ed7d4f0a2ee215cc42b7ea737633a944b2b77791")))
         (sha256
           (base32
-            "1i0qqia7jnzvsc8qpa5j1v3ik29a85ascqxkcqhhcnxx3w6fwqfr"))))
+            "1f3q197l45zkc1dnmxyq2908c3rrd2jih585rbs0fnnjcp3idkic"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -90536,17 +90536,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20220124.859")
+    (version "20220528.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "c91d4d53fa479ceb604071008ce0a901770eff57")))
+                 "0d23bc5f7cfac00277d83ae7ba52c48685bcbc68")))
         (sha256
           (base32
-            "15h809mf8d8w8axbfzjs40j8yrh5ms88x4pmlx1qlcac8j6qrilf"))))
+            "1p42kyh1l9m3h48fl4pq27rcz2dbhgk28qnrf5h1mmxjln1lbb2w"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
@@ -93152,17 +93152,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220527.756")
+    (version "20220528.343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "6b4cea1b541f5efd18067d4cafa1ca4b059a0c63")))
+                 "c982b3fc3f51324eb7b451ce4684d14361b88e40")))
         (sha256
           (base32
-            "1qcdf1v20sm99gbirjycppm3rnig1qvk8iiv50zmd6z38l48j7vh"))))
+            "0ywnzi7cckx1gysmgzfyfszx8b9m3a0aps3c7bk36sqslq0aqsi9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
