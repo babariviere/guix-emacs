@@ -1667,20 +1667,19 @@
 (define-public emacs-adoc-mode
   (package
     (name "emacs-adoc-mode")
-    (version "20160314.2130")
+    (version "20220529.551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/sensorflo/adoc-mode.git")
+               (url "https://github.com/emacsorphanage/adoc-mode.git")
                (commit
-                 "745884359a1b8826ede2c4cfd2f0b5478953ac40")))
+                 "02f53a301b8e5b6e4934b47ab326892f70719c32")))
         (sha256
           (base32
-            "199da15f6p84809z33w3m35lrk9bgx8qpgnxsxgisli373mpzvd8"))))
+            "0544p3wggb1b1n55ibf693gglj874xy5phywgl4160bmnxcvdsb5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markup-faces))
-    (arguments '(#:files ("adoc-mode.el")))
     (home-page
       "https://github.com/sensorflo/adoc-mode/wiki")
     (synopsis
@@ -1895,17 +1894,17 @@
 (define-public emacs-ahg
   (package
     (name "emacs-ahg")
-    (version "20210412.847")
+    (version "20220529.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://bitbucket.org/agriggio/ahg")
                (commit
-                 "77bc2a628df006dcd2dc359ac12acdf8091a1356")))
+                 "d93cc73f79f6c29d533c468112181cd4c7b11935")))
         (sha256
           (base32
-            "1wmvz9d40aznqh2y078v8k7n3l66m48vnf873vifi8rwg6158kqh"))))
+            "1jq411g0ryxkqw4wig6mlm0dpjzx87cw3x277bcj796s3nxl95ln"))))
     (build-system melpa-build-system)
     (home-page "https://bitbucket.org/agriggio/ahg")
     (synopsis
@@ -11676,7 +11675,7 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220529.513")
+    (version "20220529.646")
     (source
       (origin
         (method git-fetch)
@@ -11960,17 +11959,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220528.2331")
+    (version "20220529.1024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/bdarcus/citar.git")
+               (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "ae758613cbb3cf6d3a3d0ce1137d3b39293aa851")))
+                 "58da24d8316b0ac7f76067ec45d6074747e49245")))
         (sha256
           (base32
-            "0vj4y4kb5am4ah1bng0wk58g1yhrlr9dq6ghwkpjsxavhxq02k5g"))))
+            "1f9rg75vqwhhr0q4ica1qj509nz8bycxkx1s6rpcz23av9shwjhg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -16219,17 +16218,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220528.812")
+    (version "20220529.833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "21ccad0e75db4098befc592168002b03f2d663ec")))
+                 "ca07137fc99d404efc5431e8b01ca1e96ed76644")))
         (sha256
           (base32
-            "0awgpzjl7ilx622k8bdgsllqz6wjp51a9wbpl5s98p45kb9my78s"))))
+            "1hbpml8fmi5n0f51qfan7zpw7imp1z6v8aih2xzbx1jlq2bz7apc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16947,17 +16946,17 @@
 (define-public emacs-counsel
   (package
     (name "emacs-counsel")
-    (version "20220402.953")
+    (version "20220529.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "40e017dc1bc4655f7c3cf4bbbe3a827ce2fff213")))
+                 "f8d80a4055514f92d94f128f5fcb1cda79e5cd22")))
         (sha256
           (base32
-            "0znpz1dmhgdjs2k68lz46j0br1a0714z9crl6ff8vghpcw19fnn3"))))
+            "1cmafp5rssp27lhvszyzf4mc1z130kkgkl9d36lgg97qk5jp58g8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-swiper))
     (arguments '(#:files ("counsel.el")))
@@ -48681,17 +48680,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220526.516")
+    (version "20220529.713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b28378b719ed8aee0c7118481a78309960a2e906")))
+                 "fb5c5b3f36dcf634b7deb396193c8c05878bf6ff")))
         (sha256
           (base32
-            "1s8b4il83snmb62pvshxx3565wz1kkm4ds27j1jmwfl9y0dldhqf"))))
+            "0zxhnk4arz243whsdjp3h8yh2s3wiabya76ic7a9qyqs0m16g9sv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -58582,17 +58581,17 @@
 (define-public emacs-ivy
   (package
     (name "emacs-ivy")
-    (version "20220406.1052")
+    (version "20220529.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "7489968257a74f176c0d1de7ec8bd1e2011f0db4")))
+                 "f8d80a4055514f92d94f128f5fcb1cda79e5cd22")))
         (sha256
           (base32
-            "0gmgfv9d5vicd5lqcbzn0i6qfjw42whhww6hdqch2pgkhl4i1ria"))))
+            "1cmafp5rssp27lhvszyzf4mc1z130kkgkl9d36lgg97qk5jp58g8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -67160,17 +67159,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220527.905")
+    (version "20220529.1330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "2f0ea2e396ec9a570f2a2aeb097c304ddc61ebee")))
+                 "3b11afbd1bca586d05d05d56526ad52ea8c58df6")))
         (sha256
           (base32
-            "1cyafdvig96y1qs7wjx5s57g0ck5yqwhnxrhdvr2rpss878z3fmi"))))
+            "1hcvjnxrkj7vgffmah6y4zjkplhbd4dymhp89j2myl895brds5qq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80915,17 +80914,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220517.1208")
+    (version "20220529.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "f16b079226e85aecca1a5920375c18ab20297ce3")))
+                 "022a51626d9bbb8b984908e9ebbc2cafb0888db7")))
         (sha256
           (base32
-            "0qs22hx0p3yyjr53y08h1b09qq6y1hx23q9sf71naqizk81mvi20"))))
+            "0aifx52m4pp5w6wrpc7nmzywsfq9ikay194jlxj6377jlwiwnf65"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -93176,17 +93175,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220528.2307")
+    (version "20220529.741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "01a924ba8c3b523f8b3e5682a5ad521adf1d16cd")))
+                 "b8d2428e3919c6d7cdfcb298d97aa58e1145119f")))
         (sha256
           (base32
-            "0da02wamd2kfa9hhr9r99qiclxhywm57xmcfy5y764q2nmcj2aap"))))
+            "11rv8bl6v56g723335lybz0zjk176gainrzpbnzl5415c7dxnc9d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -105390,17 +105389,17 @@
 (define-public emacs-sqlite3
   (package
     (name "emacs-sqlite3")
-    (version "20220501.1217")
+    (version "20220529.1106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pekingduck/emacs-sqlite3-api.git")
                (commit
-                 "68eda59d5f3d29d0a64d6256d58b8c1f93ba3583")))
+                 "2f6095201b1d943d92cc017e100eec571a8d2aab")))
         (sha256
           (base32
-            "0yrfwb3yvhp1ib4izxh1ds68b3zw8gjkjhlk1kivarxnfjnjnly2"))))
+            "00kxjvfgw3qcy49l5qkkxar32m7kk25knc9kij7xr8fz8pqhr633"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
