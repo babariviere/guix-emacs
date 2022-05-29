@@ -11676,17 +11676,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220525.1237")
+    (version "20220529.513")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "0f8fd4d84decfa3514fbdd556c5235f490b7a507")))
+                 "b2dd4a7d9def83d420424fcaf69fd791198a264b")))
         (sha256
           (base32
-            "0frjx9ws831p8n0gfajwk8z6lsdziwd3z5hqnjsqs0nr1g1v6afd"))))
+            "1fgcpd85pyir5xlawpbh4q9jflinzbfls1izq74h660dmpy8n4jh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -11960,17 +11960,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220526.1215")
+    (version "20220528.2331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdarcus/citar.git")
                (commit
-                 "d55cac7a2b8b848990ebd713de8667bf3fe93c6b")))
+                 "ae758613cbb3cf6d3a3d0ce1137d3b39293aa851")))
         (sha256
           (base32
-            "04asi5gr4p1d8llra3qwly2jp1ll3zs0hjcysrrvdcax0jcr473b"))))
+            "0vj4y4kb5am4ah1bng0wk58g1yhrlr9dq6ghwkpjsxavhxq02k5g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220528.1437")
+    (version "20220529.345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "cfd3220bc4727638084260c77ccc08bfd6e5f802")))
+                 "594f035fb40663cc9363366f413e3bb078a7c888")))
         (sha256
           (base32
-            "1z07cb38xfk92ika6vibbliglql4a4zqf8hdxhp9r5g3clwj1j8b"))))
+            "1j69p65nhyr9l6zs5j5c93spr6s6rd3s1hlhfc0mqawc8a7axm35"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32202,17 +32202,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220528.1524")
+    (version "20220529.234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "b59a6656f02c71d4ac152df6cbda7704f32fbc9f")))
+                 "e1bbf13194e06c435cd3328b2b431c9c46fbbf40")))
         (sha256
           (base32
-            "0123mp0mv6qnqfcrhccxwkhz03kx8qqzj9n6fdqlwbljqshqaznm"))))
+            "1l1vadq95zzc5x9i0cgj2f767ll8p3yy8xzlwr1b0zpcfmyb7m61"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -77898,17 +77898,17 @@
 (define-public emacs-ob-spice
   (package
     (name "emacs-ob-spice")
-    (version "20220210.1415")
+    (version "20220529.404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/ob-spice.git")
                (commit
-                 "6dc2c6b9391ea8dd8123224f6c282b673b89dc94")))
+                 "b1106ef2a74b2e88b294b05b83af22810feef4f6")))
         (sha256
           (base32
-            "15lnmqzpgaz8n6zh0x9dm6hynl7rf1pcyf5m3fk7bbinqbxclljn"))))
+            "1k0ylhlaz8g2f1p1chn9vrzid78fswpyjalim73566pslc09lxsp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-spice-mode))
     (home-page "https://repo.or.cz/ob-spice.git")
@@ -93271,17 +93271,17 @@
 (define-public emacs-pyim-wbdict
   (package
     (name "emacs-pyim-wbdict")
-    (version "20210902.1714")
+    (version "20220529.20")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim-wbdict.git")
                (commit
-                 "4db1ca7fee75bd3aa394d620e5af2f42b3caf3c4")))
+                 "0adf8372a9e983ee2c0b6ad35480d45e11c2e68d")))
         (sha256
           (base32
-            "141rzf15334r4sdqy791n3kspad8jcz4iig55mvcqabii4bqx9p1"))))
+            "1fk3d8bxh7csqvpjbkf3kgy6m18d56kmr493v9lzambgmx9sh4si"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pyim))
     (arguments
