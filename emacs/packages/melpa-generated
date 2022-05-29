@@ -22405,7 +22405,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220528.1135")
+    (version "20220528.1437")
     (source
       (origin
         (method git-fetch)
@@ -27402,17 +27402,17 @@
 (define-public emacs-elfeed-score
   (package
     (name "emacs-elfeed-score")
-    (version "20220428.123")
+    (version "20220528.2320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sp1ff/elfeed-score.git")
                (commit
-                 "419de17d681d75789271b8457509fa3f942eab54")))
+                 "ff8cfdfcb3fce9ecdfe7e58463c5c5814cb3d1c2")))
         (sha256
           (base32
-            "1mx134xj9n73v55i0yjn86zn19sg93m95gqacs2c6dxzq1v3q14f"))))
+            "1x909sbwcnjkamhvi0jkd4qy99a971zxc3ydqx3x2k12slhvaczz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed))
     (home-page
@@ -32202,17 +32202,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220527.1739")
+    (version "20220528.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "45b0761b226442a671c0471c02604f5459fceab5")))
+                 "b59a6656f02c71d4ac152df6cbda7704f32fbc9f")))
         (sha256
           (base32
-            "1a5ny04p1dbvs3klp4msihqqqrhw643m16341kygh9jag4w3335z"))))
+            "0123mp0mv6qnqfcrhccxwkhz03kx8qqzj9n6fdqlwbljqshqaznm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -63780,6 +63780,30 @@
       "Documentation at https://melpa.org/#/lastpass")
     (license #f)))
 
+(define-public emacs-latex-change-env
+  (package
+    (name "emacs-latex-change-env")
+    (version "20220523.553")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/slotThe/change-env.git")
+               (commit
+                 "0483bd0af943305b93b327c72c63780aadd5d8f9")))
+        (sha256
+          (base32
+            "0dy2mk5skgmwg9553m03099r6jdwkljnv19ddxm5hscv8z50dcqm"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-auctex))
+    (home-page
+      "https://gitlab.com/slotThe/change-env")
+    (synopsis
+      "Change in and out of LaTeX environments")
+    (description
+      "Documentation at https://melpa.org/#/latex-change-env")
+    (license #f)))
+
 (define-public emacs-latex-extra
   (package
     (name "emacs-latex-extra")
@@ -73046,17 +73070,17 @@
 (define-public emacs-mu4e-alert
   (package
     (name "emacs-mu4e-alert")
-    (version "20220416.1840")
+    (version "20220528.1923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xzz53/mu4e-alert.git")
                (commit
-                 "b34d0ea7b75709cc25d842a783cebea855dc9f7d")))
+                 "85489fae322a655e275be2483b9d02486b172ea8")))
         (sha256
           (base32
-            "09qzph8madnhd8kqnj662sgfcyvp1wg35ll6i5xbh98yazc0r64s"))))
+            "17d2nqndb760k96s8wskpx4g6xmfzwaifmbs25pj9114zvpz2byy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-s emacs-ht))
@@ -82142,17 +82166,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220528.321")
+    (version "20220528.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "ed7d4f0a2ee215cc42b7ea737633a944b2b77791")))
+                 "83a0b3d4645d1c32edbe1aa5dc12cadeccb1f319")))
         (sha256
           (base32
-            "1f3q197l45zkc1dnmxyq2908c3rrd2jih585rbs0fnnjcp3idkic"))))
+            "09w1fs9rqnxrz0dzkmw6rgm4f0rq43mgmiwk1nz4v3hslxb1m6pw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93152,17 +93176,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220528.343")
+    (version "20220528.2307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "c982b3fc3f51324eb7b451ce4684d14361b88e40")))
+                 "01a924ba8c3b523f8b3e5682a5ad521adf1d16cd")))
         (sha256
           (base32
-            "0ywnzi7cckx1gysmgzfyfszx8b9m3a0aps3c7bk36sqslq0aqsi9"))))
+            "0da02wamd2kfa9hhr9r99qiclxhywm57xmcfy5y764q2nmcj2aap"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -93175,17 +93199,17 @@
 (define-public emacs-pyim-basedict
   (package
     (name "emacs-pyim-basedict")
-    (version "20210517.43")
+    (version "20220528.2314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim-basedict.git")
                (commit
-                 "86f6de3e3a1523eb278bd3afe7c4ceba2a0e2972")))
+                 "c606c34101b2c07352ee6bf16f90abeac26a2f2c")))
         (sha256
           (base32
-            "07jrp0n5cfhlfhjjfkiqrc3aadjx1vn33dw1f39snqhqly4x4yq8"))))
+            "1azmpf4wayjlxyn6bsbgc8w3lpxq73p6qhsazvyma9g3ifnrqf71"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "*.pyim" "*.pyim.gz")))
@@ -93672,17 +93696,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20220505.1523")
+    (version "20220528.1502")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "6016c780865b3b9dcf90d9452367e0d39bbc1d1f")))
+                 "bbfe9a8b2ea081c032eccfd541dac2bc46aa54a6")))
         (sha256
           (base32
-            "00n2vrc7yq2cfsiwpwdga0yjl483rd59zvbdf41nxa92sircvjp2"))))
+            "0686f0a2jglby8nmwjfbzxjm7xd7h71safa4bphj1rb9v23kxzwl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/python-mls")
@@ -94385,17 +94409,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220527.1605")
+    (version "20220528.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "2a76aa04c0105b6d53ab71d6ffbd37196f77d9e5")))
+                 "f92a8746d5aa6353b10dd5b5923e236b07ac7627")))
         (sha256
           (base32
-            "00h88kh81m5mfdb0jksb1nmwa4adpzaps4jbjr4s2b7g3n81z84y"))))
+            "08hfjspp8v10nlf0l5jymfrig2zy0g9fgnr2hirhk0qgja6d5bch"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -98278,17 +98302,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220528.1245")
+    (version "20220528.1646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "af6b6f4f34f471b43859cc13afc550892e08aca8")))
+                 "70adf7e53a571255ebd64e78ba7851023848e183")))
         (sha256
           (base32
-            "1yrff40hapi7z6p5pnpm31n90rxaqwhn3p5wmfh8vj5frl8w3jzl"))))
+            "1zr9y13z1piwpmba6j6wdkwinb9w5p9vl6jm5szxvzha1mxsbfwd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -106960,6 +106984,27 @@
       "Documentation at https://melpa.org/#/svg-tag-mode")
     (license #f)))
 
+(define-public emacs-svgo
+  (package
+    (name "emacs-svgo")
+    (version "20220525.2059")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/hupf/svgo.el.git")
+               (commit
+                 "40ddd6f47966561344bec8f46235e40dad99115f")))
+        (sha256
+          (base32
+            "1h06dimzii1acnf42jg0irwr5sjlr9br9dkrndx9wl2wwhjnwzdz"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/hupf/svgo.el/")
+    (synopsis "SVG optimization with SVGO")
+    (description
+      "Documentation at https://melpa.org/#/svgo")
+    (license #f)))
+
 (define-public emacs-svnwrapper
   (package
     (name "emacs-svnwrapper")
@@ -114228,17 +114273,17 @@
 (define-public emacs-vc-fossil
   (package
     (name "emacs-vc-fossil")
-    (version "20210928.737")
+    (version "20220528.1544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/venks1/emacs-fossil.git")
                (commit
-                 "7815c30d739a01e1100961abb3f2b93e0ea9920f")))
+                 "72538f815df3b4fc91a5dac9623bfc2524383aba")))
         (sha256
           (base32
-            "0j33cmnl9ka2r7ahf84dkj6y2lf8m455986y7rms1d62ih9fq6ds"))))
+            "0sjp3zpxrcy9iw01ab4822r66y2dyjp5qk0zkcs8lnb25dfmnwns"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -120302,17 +120347,17 @@
 (define-public emacs-zetteldesk
   (package
     (name "emacs-zetteldesk")
-    (version "20220520.1834")
+    (version "20220528.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Vidianos-Giannitsis/zetteldesk.el.git")
                (commit
-                 "692c127f3ae2628dc4ba28741a851cafa3d3981c")))
+                 "de0d84374b3b60d1456965bb85cfe68aeb4f6f59")))
         (sha256
           (base32
-            "1w6cdpfhb4is71l27a37mmdqr4fhxlq1gm3kz5qdb2xkp5axnnz5"))))
+            "1x9h908l3bs78cfy4p4mkskws6jmflprf89ayaakfn9yrl313zcn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-roam))
     (arguments '(#:files ("zetteldesk.el")))
