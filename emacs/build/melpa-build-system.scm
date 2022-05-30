@@ -56,10 +56,14 @@
   ;;
   ;; Taken from:
   ;; https://github.com/melpa/melpa/blob/e8dc709d0ab2b4a68c59315f42858bcb86095f11/package-build/package-build.el#L580-L585
-  '("*.el" "*.el.in" "dir"
-    "*.info" "*.texi" "*.texinfo"
+  '("*.el" "lisp/*.el"
+    "dir" "*.info" "*.texi" "*.texinfo"
     "doc/dir" "doc/*.info" "doc/*.texi" "doc/*.texinfo"
-    (:exclude ".dir-locals.el" "test.el" "tests.el" "*-test.el" "*-tests.el")))
+    "docs/dir" "docs/*.info" "docs/*.texi" "docs/*.texinfo"
+    (:exclude
+     ".dir-locals.el" "lisp/.dir-locals.el"
+     "test.el" "tests.el" "*-test.el" "*-tests.el"
+     "lisp/test.el" "lisp/tests.el" "lisp/*-test.el" "lisp/*-tests.el")))
 
 (define (glob->regexp glob)
   (string-append
