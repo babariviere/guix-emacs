@@ -16857,17 +16857,17 @@
 (define-public emacs-corfu-doc
   (package
     (name "emacs-corfu-doc")
-    (version "20220529.1726")
+    (version "20220530.908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galeo/corfu-doc.git")
                (commit
-                 "d89012ed6a9661fb328f8e96991f952dfdfb6ceb")))
+                 "d7d7c27703cdbe8b42497b300e82706c6edce96e")))
         (sha256
           (base32
-            "1rdfkpcsf3mbaj7dbnm6hkv1la61df50wg3js0bi3dc9h0r881p9"))))
+            "16v11w99hbqqkh5mf6x4qwi0blin33ccvnnpcypf3nwkx0zsa7qd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-corfu))
     (home-page "https://github.com/galeo/corfu-doc")
@@ -20663,17 +20663,17 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220527.1048")
+    (version "20220530.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~niklaseklund/detached.el")
                (commit
-                 "f08110df5761c5803197ecce8b70eeb1c05e61db")))
+                 "bae90a13ddff90fcbfa581a1e8556072e01fd09b")))
         (sha256
           (base32
-            "0qbnlsnwhvwkvncfww5nnrqs6k2prvsfr9jgfxpz4h7qjk1zvlca"))))
+            "0s5kxxw10bna7rh9vi26cx4l66rfq7a2z0kd3ikqvchnp3hiw3ym"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -25911,17 +25911,17 @@
 (define-public emacs-efar
   (package
     (name "emacs-efar")
-    (version "20220516.1145")
+    (version "20220530.1412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/suntsov/efar.git")
                (commit
-                 "4f7b0c6345829bb6fc27aa3eca30f2b67fea9f2c")))
+                 "bcf74e57031bb700c0e8b0a49c6e4583112b7eda")))
         (sha256
           (base32
-            "14wi16k4nbm7g1h3nl3anhl991izr7sy46pli9ljsqy4ycip6xyc"))))
+            "1mfv5v120d49gsxf01imj4m71d7ijrvzi0h9nsfpd9yn93i8sraf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/suntsov/efar")
     (synopsis "FAR-like file manager")
@@ -28171,17 +28171,17 @@
 (define-public emacs-elpher
   (package
     (name "emacs-elpher")
-    (version "20220503.833")
+    (version "20220530.1219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://thelambdalab.xyz/git/elpher.git")
                (commit
-                 "bf0dd36eb2f5b339c6b561dbe3ee9693565b484b")))
+                 "79c241f1ce5d4e4f2ba377485f4434e93391eb0f")))
         (sha256
           (base32
-            "0dv71zc95m5sa4824vk3d1xk726nh2v50i0yp6w3ydfzzsfph6j6"))))
+            "00av8qfxvr9f4jfai7pr7c1sf50m07z6gfxwy3lzvsv6i88s43fs"))))
     (build-system melpa-build-system)
     (home-page "https://thelambdalab.xyz/elpher")
     (synopsis "A friendly gopher and gemini client")
@@ -38076,17 +38076,17 @@
 (define-public emacs-flycheck-jest
   (package
     (name "emacs-flycheck-jest")
-    (version "20180411.328")
+    (version "20220530.1418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/flycheck-jest.git")
                (commit
-                 "08f27c5ed97c83c445f99fab58f0b6c826f14449")))
+                 "8181c5d2e1318c6ddcff21c6f3f6d76413545645")))
         (sha256
           (base32
-            "1ipr1yyk5vf2i8q7923r18a216sgf759x5f6j5776jcjkhp98c98"))))
+            "0lhvgffn08ipafyh7icldbkgslcvqr1pja70fas54f3s077sql2k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -67159,17 +67159,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220529.1330")
+    (version "20220530.1224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "3b11afbd1bca586d05d05d56526ad52ea8c58df6")))
+                 "b97ca36bf46181fcdf389baba24ecd11e53b8633")))
         (sha256
           (base32
-            "1hcvjnxrkj7vgffmah6y4zjkplhbd4dymhp89j2myl895brds5qq"))))
+            "0r9c7phg9hf2d5d75mh1fyx5wd9yqklrnh004d1nym1nysyc9mlm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83840,17 +83840,17 @@
 (define-public emacs-ormolu
   (package
     (name "emacs-ormolu")
-    (version "20211020.2229")
+    (version "20220530.921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vyorkin/ormolu.el.git")
                (commit
-                 "1941a8ce48027b5670d226bacc2fa10b00774b3a")))
+                 "a6b1d3f8838d067ac5352fb0673c3c3dae7abd73")))
         (sha256
           (base32
-            "1bs6c6059g585dwsd4ldl49v38l6jlr54z9rj9qhc1a1gg6pzb3b"))))
+            "098az157nsgwdxl8pbvznha1lvh2mpilm7m90p9v6pwdfvmcjb3x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
@@ -85604,17 +85604,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220523.1859")
+    (version "20220530.1027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "f046cac8fd74133492e649717be2bea8cf4602dd")))
+                 "6bbe65de495110970c2c33497ca640a0774e41b3")))
         (sha256
           (base32
-            "09kvpmjb762c8v3j4a9xb7zzip1kpysplwk3g72alva92i5yr82n"))))
+            "0g6x0p6dbz7zk4xrh5n3367zhv026h3a9hbb8jf2f0qw95685cbr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -90977,17 +90977,17 @@
 (define-public emacs-prettier
   (package
     (name "emacs-prettier")
-    (version "20220526.703")
+    (version "20220530.1042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/prettier.el.git")
                (commit
-                 "4c70da95267f1c5486a6dbdd1dbf67be9347aad6")))
+                 "788976eb0f8583dc10fc066c68b9eaf12102bd35")))
         (sha256
           (base32
-            "1xs96l7v1nji8cg4394c1f2bmmn2syv4jxbhzpkilcjk84q7s7b4"))))
+            "0b03wqsdgmqlykkwl5akf11j4yprx8x4ahyw4mdlf0biq7j9isav"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-iter2 emacs-nvm))
     (arguments
@@ -91718,17 +91718,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220522.741")
+    (version "20220530.615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "39314925e0813d9042911197b08cfe304baff350")))
+                 "e60883ff370c1545499b97cf56479de1a58c5b3b")))
         (sha256
           (base32
-            "04kx9mbhj0xx6i53f3x0q7mqj00szw6938bpgb2mkk9r062rvh41"))))
+            "08h4q3fghhc749pb8zak2z5p1sify01bkxhhv9iyrg0iiwl9bl6p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -100122,17 +100122,17 @@
 (define-public emacs-sensei
   (package
     (name "emacs-sensei")
-    (version "20220526.1625")
+    (version "20220530.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abailly/sensei.git")
                (commit
-                 "b7e2c0e75b108d1b7662d243049bb81f0db1c916")))
+                 "3538990de9ab57154e3da08d10fbd2c6228d87b8")))
         (sha256
           (base32
-            "0ajf98isw0xkaazf86w6ncxzplwfvyj24v2b4acchdbj0v2bbdvy"))))
+            "1f7q7s0ajrpgaa78j3zrff5dr1p2j82kgpvpal2lgqns4947m726"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile emacs-request))
@@ -106831,17 +106831,17 @@
 (define-public emacs-super-save
   (package
     (name "emacs-super-save")
-    (version "20220426.1056")
+    (version "20220530.647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/super-save.git")
                (commit
-                 "71c26cbd47d993fff37e572523ea79c9c49f5caf")))
+                 "e1ef852f6ff91bdbd137d7cc89c670343153fe4f")))
         (sha256
           (base32
-            "1r56g3h7cn2p64lk5d9zw2hmr7f5xzim1ccydzi8i1g7m7rzlgjp"))))
+            "0ahk0cx5n70a5551giv896vb91c5qmxl307scd6q5bdg90z1syrf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/super-save")
