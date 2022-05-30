@@ -23271,17 +23271,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220525.1508")
+    (version "20220530.603")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "5283a4203a3359877c2a3241d651db042a5f9632")))
+                 "44f0bbec9b3deb027d17f4c10d8ec4106ed89dfb")))
         (sha256
           (base32
-            "1ymwjsxc1daskmy40nf6hq72kw9cj4mrzql1kyf7n1mwcalrzsqz"))))
+            "0w62z4y77fx2flyybhk44n2207r55j3djhpdn5xgj0hd1gnprfzr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -25139,17 +25139,17 @@
 (define-public emacs-ebuku
   (package
     (name "emacs-ebuku")
-    (version "20220526.331")
+    (version "20220530.453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/ebuku.git")
                (commit
-                 "fbd9e36c701e945c12fea7037452cefbf4d0eae3")))
+                 "83ec048a6d9b5376b4416ec8a07c14f243a1b45f")))
         (sha256
           (base32
-            "13jzrcbbawgn7av30r1rvd9lvqsh3svjk1l4khmkpqr94wi41ryb"))))
+            "1zl89afgj085sc6hqb8ibz0fmm4gjwaf3wzpwr8dhdh2qkl8wdiy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/flexibeast/ebuku")
     (synopsis
@@ -79525,17 +79525,17 @@
 (define-public emacs-org-autolist
   (package
     (name "emacs-org-autolist")
-    (version "20211225.658")
+    (version "20220529.2352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/calvinwyoung/org-autolist.git")
                (commit
-                 "48666001f9ae1fdf9e295410d5a494e79284e2f7")))
+                 "ce66b32de2fbf9e77583cefba89820f58fab6856")))
         (sha256
           (base32
-            "0ij0j96ns4scrlcf52ljwhi3y4q9jfv9kra3nw162fs3f4q6lp7m"))))
+            "1xvcxkxq2rqvgjbjkw229j5pv7wlcpbyyh34r46wq6rnlbxpgq7a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/calvinwyoung/org-autolist")
@@ -93175,17 +93175,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220529.741")
+    (version "20220529.2153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "b8d2428e3919c6d7cdfcb298d97aa58e1145119f")))
+                 "18827de43e53eb69797397f4e62e44cfb271ea79")))
         (sha256
           (base32
-            "11rv8bl6v56g723335lybz0zjk176gainrzpbnzl5415c7dxnc9d"))))
+            "14qdzh8l4ixs8z37ls2br2fs7mg3dn9a26vzhpgsvdgcysc59mvb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -105665,17 +105665,17 @@
 (define-public emacs-ssh-tunnels
   (package
     (name "emacs-ssh-tunnels")
-    (version "20220410.1424")
+    (version "20220530.9")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/death/ssh-tunnels.git")
                (commit
-                 "a74488a71c2827dcaf42d9381d0d974aca96e27f")))
+                 "21770eac179b03cd3c6c58048c021817b2f7cb55")))
         (sha256
           (base32
-            "0lrfrzxwjrhj90ampkg92pcpblb4i7744kwx2sl6ivkp7ldklyfn"))))
+            "09f9kawjgvrl16yc0nf46rjv22jz8n3bdp5cfz9chgz95mvxd5j1"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/death/ssh-tunnels")
     (synopsis "Manage SSH tunnels")
@@ -107457,17 +107457,17 @@
 (define-public emacs-sxiv
   (package
     (name "emacs-sxiv")
-    (version "20220511.1818")
+    (version "20220530.14")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/contrapunctus/sxiv.el.git")
                (commit
-                 "0449244925cb7b74956736611c30cea1f4d0672c")))
+                 "47f5b2fbb94c569dc5e71cbe4de9c6eabbbc69e8")))
         (sha256
           (base32
-            "0amn2lrzn7j4i9f1qqpir605kvg59yz2nmnbv04n9bvskgs56rmx"))))
+            "0j0dqab5br92qz9wz3ssjps84dr0q28x11065cx90b6gis9wvv5j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
