@@ -41810,6 +41810,33 @@
       "Documentation at https://melpa.org/#/friendly-tramp-path")
     (license #f)))
 
+(define-public emacs-frimacs
+  (package
+    (name "emacs-frimacs")
+    (version "20220528.1935")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/pdo/frimacs.git")
+               (commit
+                 "c33b4d37751d31cf901e933f58779ab606ccb6fb")))
+        (sha256
+          (base32
+            "1ki9g283ypcankimawpg6zvh2hwjismdbjsbyf6f352b2ix15lcp"))))
+    (build-system melpa-build-system)
+    (arguments
+      '(#:files
+        ("*.el"
+         ("data" "data/*.dat")
+         (:exclude "frimacs-build-utils.el"))))
+    (home-page "https://github.com/pdo/frimacs")
+    (synopsis
+      "An environment for the FriCAS computer algebra system")
+    (description
+      "Documentation at https://melpa.org/#/frimacs")
+    (license #f)))
+
 (define-public emacs-fringe-current-line
   (package
     (name "emacs-fringe-current-line")
@@ -66878,17 +66905,17 @@
 (define-public emacs-lsp-grammarly
   (package
     (name "emacs-lsp-grammarly")
-    (version "20220515.833")
+    (version "20220530.2101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-grammarly/lsp-grammarly.git")
                (commit
-                 "450fea02cdf0b6f765271cc22e1f0031716868e0")))
+                 "96ee298c6af821a98602d0f59d54c2e95aa801af")))
         (sha256
           (base32
-            "0qn9kqzvpixcn2g1fic37zivhngl0cnrzr5k2qkgha0h925cvx2l"))))
+            "1a3bvshb3fi46xjzmxwy9sawaayan02rhb703hajgfni07lvxnx6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -67159,17 +67186,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220530.1224")
+    (version "20220530.1919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "b97ca36bf46181fcdf389baba24ecd11e53b8633")))
+                 "8123c5cd33bedf3ac5e88d98ede690f73b7f1b00")))
         (sha256
           (base32
-            "0r9c7phg9hf2d5d75mh1fyx5wd9yqklrnh004d1nym1nysyc9mlm"))))
+            "1fraa85f0nn11k1pzka6gzncqs2l5h1dd5qi56ia7ayvng2s3wqd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75640,17 +75667,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20220523.1114")
+    (version "20220530.1845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "c88c5d9a5b47edee65fd440f37b8c2a799dc0fea")))
+                 "a5aa3faada054f96b70b32ba9d9447f7a4cf403c")))
         (sha256
           (base32
-            "1v2snjpjd8jcg4wg2wpafwmgy0z8qs4w0pfiw4fyl8nxmnffvlhp"))))
+            "1gykaxdzv1j5q6h9m36ms5708h3jsn5yjilnajrngv3nkh6mb0qs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -79525,17 +79552,17 @@
 (define-public emacs-org-autolist
   (package
     (name "emacs-org-autolist")
-    (version "20220529.2352")
+    (version "20220530.1620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/calvinwyoung/org-autolist.git")
                (commit
-                 "ce66b32de2fbf9e77583cefba89820f58fab6856")))
+                 "da3a45f95f2e9f7281d533d1e5cec1764ae26a9c")))
         (sha256
           (base32
-            "1xvcxkxq2rqvgjbjkw229j5pv7wlcpbyyh34r46wq6rnlbxpgq7a"))))
+            "0zj4g6vfwyyxlpci6fcawvf35bgk7b84rrnm9s9myv53b6nri73f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/calvinwyoung/org-autolist")
@@ -81749,17 +81776,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220527.705")
+    (version "20220530.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "8933f8853c08018ab13c1dfe3f446ba7b3a4431c")))
+                 "d0acc8cbba63ef50f1c0ecffdf1770792b13592d")))
         (sha256
           (base32
-            "14pi8c4707aaxymb6ghjifnr35qbdw2xsnqzz5cn45n6afslkws4"))))
+            "04gk92axni506gqw23sm80b3x0v1cd68rzhi1q4c25cir24n53gf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93175,17 +93202,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220529.2153")
+    (version "20220530.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "18827de43e53eb69797397f4e62e44cfb271ea79")))
+                 "ed178db3a0d3190b767113ada62d5a08cc22e058")))
         (sha256
           (base32
-            "14qdzh8l4ixs8z37ls2br2fs7mg3dn9a26vzhpgsvdgcysc59mvb"))))
+            "01472alzwz4kz0biv1fa7izdfy72gj4njr8rcs4g09ifpybrrkd8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -94408,17 +94435,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220528.1411")
+    (version "20220530.1615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "f92a8746d5aa6353b10dd5b5923e236b07ac7627")))
+                 "90b5fd100208969b7880a5e2e539c90da34fab47")))
         (sha256
           (base32
-            "08hfjspp8v10nlf0l5jymfrig2zy0g9fgnr2hirhk0qgja6d5bch"))))
+            "0af8fjy5b58jif9xnj1m0lz0c8sdz1isd28l3x2nzv9ya5y7gmqp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -120367,6 +120394,33 @@
       "A revision and outlining tool for org-roam")
     (description
       "Documentation at https://melpa.org/#/zetteldesk")
+    (license #f)))
+
+(define-public emacs-zetteldesk-kb
+  (package
+    (name "emacs-zetteldesk-kb")
+    (version "20220530.2045")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Vidianos-Giannitsis/zetteldesk.el.git")
+               (commit
+                 "177771d7e1eddf86e0b6f6e94332200cf26dedaa")))
+        (sha256
+          (base32
+            "0zncqyzhmcvxprg4ba9wn6mgi35sih465r45bygcc97g19hlxy43"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-zetteldesk
+            emacs-hydra
+            emacs-major-mode-hydra))
+    (arguments '(#:files ("zetteldesk-kb.el")))
+    (home-page
+      "https://github.com/Vidianos-Giannitsis/zetteldesk-kb.el")
+    (synopsis "Keybindings for zetteldesk.el")
+    (description
+      "Documentation at https://melpa.org/#/zetteldesk-kb")
     (license #f)))
 
 (define-public emacs-zettelkasten
