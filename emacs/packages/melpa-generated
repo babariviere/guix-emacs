@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220531.1640")
+    (version "20220601.406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "593f3a9a0515a80cc84d6745449f37c860e1c5b4")))
+                 "460bf045cf69027eada323d8a96de6739bcc4bbf")))
         (sha256
           (base32
-            "0ryihpv910zp71y1y0hihr9ns0p49d21ihl7vxqzsw20yrs2fm9h"))))
+            "090i4i3p36z2qdbikkqgxil0x1wrmig16vx3gzmiya78d91mcqhr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23633,17 +23633,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220529.1614")
+    (version "20220601.407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "3300a10a19aa3817a0ae660d821398b8c6e562e9")))
+                 "375a2cb087876172c814ce874435d69321e8ef3e")))
         (sha256
           (base32
-            "04vcqmva3z41f7vviap7ydj70b7ib855fmmyfhj2nab4lx9j1f25"))))
+            "1m3pq0vwpg8kdjkkgbqrg4kz25ispjlsr909zf8zzz7rvbqyfd8m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shrink-path emacs-dash))
@@ -32201,17 +32201,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220531.237")
+    (version "20220531.2328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "232cb104990ab2ce408f40b6e9dccd9eb56ad339")))
+                 "a63cb007bf15c3fd4c3322f29f85d18d5574f7ba")))
         (sha256
           (base32
-            "009ly72lj4ffnyaiig9hiq5hhwkmlkkrfw8kj7mz9557qij3linp"))))
+            "159i3qvjnp7jiffwpr517nnxcy3w3g40302vyzxvz6mb6qay6f2c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -42176,17 +42176,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220531.1829")
+    (version "20220601.524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "7b3a7708a73e838ce3447a3b16d6f7c015c1b1bf")))
+                 "ddacde9408393181a5760cc6a482508987b1cad2")))
         (sha256
           (base32
-            "0vfix0kiqsv5vq0kb9rx13xn6n59sv9bcy45c5ixlr4mnhv7hpnd"))))
+            "0jrl284x5k26n73hi1kj8hf7176wcznq312vdlw8zq1wj3l6h3gy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -91047,17 +91047,17 @@
 (define-public emacs-prettier
   (package
     (name "emacs-prettier")
-    (version "20220530.1042")
+    (version "20220601.521")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/prettier.el.git")
                (commit
-                 "788976eb0f8583dc10fc066c68b9eaf12102bd35")))
+                 "913b6f72a062db91517dc7a0a743f7d1773a0927")))
         (sha256
           (base32
-            "0b03wqsdgmqlykkwl5akf11j4yprx8x4ahyw4mdlf0biq7j9isav"))))
+            "0w3aibjjbmrkj9phycphqbry1i7fddl36wpp5bbw4gb5p52h2yk3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-iter2 emacs-nvm))
     (arguments
@@ -110615,17 +110615,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220529.1737")
+    (version "20220601.708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "4db445277ecfa679453a1add29622c5e63c3b8ce")))
+                 "3e7e946f0e474fa2d2a5bbdddf7f168e6ed759ba")))
         (sha256
           (base32
-            "1hr2j1k108d8n4m4wxw71qw5w2wg9psq3rpjdnmvy65awzi3nnf4"))))
+            "0jd54rxrc3b26z3d9p4d8bg9dxs5p20s5qkc0h3vfbwfhcjj2vwf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -117182,17 +117182,17 @@
 (define-public emacs-why-this
   (package
     (name "emacs-why-this")
-    (version "20220515.1722")
+    (version "20220601.206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-why-this.git")
                (commit
-                 "c7f771736cd82a6c420078c07787a3872b444c40")))
+                 "a4e7a1a126f79e402ec8423ce32a658d36541439")))
         (sha256
           (base32
-            "07isx99f9xfbi010sp3j0q3bigy7w8cmgs3jrvvwxvr4ivlqjpgc"))))
+            "1lhgq1j4s5hswcrbw64sr7vy13dpfsvwn78kfkl21bpr5xz5f1cp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-why-this")
@@ -118094,17 +118094,17 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20220504.2021")
+    (version "20220601.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/wordreference.el")
                (commit
-                 "30d2ddb9a0a4ad0223bae81ba56d65b620dccf0b")))
+                 "f1f0354dee403b0ee9b2187bc346e9badff69ec3")))
         (sha256
           (base32
-            "1hbl5mwnmhzxygi8b688afh1c3sgcg306p1z1c4w60palspxhaq6"))))
+            "0yq5vrampjibn7p9ixx8fp0jzdhw4acr7i5jxjczypnhp96f6vk0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
