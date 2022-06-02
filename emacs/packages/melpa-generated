@@ -19053,17 +19053,17 @@
 (define-public emacs-d-mode
   (package
     (name "emacs-d-mode")
-    (version "20210119.1853")
+    (version "20220601.1949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode.git")
                (commit
-                 "199743df55c6bfce3cdb08405bd8519768c8dfa9")))
+                 "024aca97d07e72bf3500fb6bf0cdf50c4992a741")))
         (sha256
           (base32
-            "18jzrql5g2sd322w25phws7d1v8906lyc0ipn6cknlrv4pjmdazv"))))
+            "0mwd412d2kha8avkyhvvkh8r7an859xk18f7phgx7kj989pr3xkr"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -23449,21 +23449,21 @@
 (define-public emacs-docstr
   (package
     (name "emacs-docstr")
-    (version "20220517.1530")
+    (version "20220602.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/docstr.git")
                (commit
-                 "9233d2785c24b9fc3ac4ae83ba54355703c569b3")))
+                 "5ae804724ccfe9ca935832180d535014e58b4d12")))
         (sha256
           (base32
-            "1csp086d12x6pa16h6wq188qvi7ygimjlmxa9z3iw0xnq7m44hpc"))))
+            "1gvxk98kis05h4wnd4q72n0s5mplsi4vyw8l0m9b464kwf83n6gc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (arguments '(#:files (:defaults "langs/*.el")))
-    (home-page "https://github.com/jcs-elpa/docstr")
+    (home-page "https://github.com/emacs-vs/docstr")
     (synopsis "A document string minor mode")
     (description
       "Documentation at https://melpa.org/#/docstr")
@@ -29658,17 +29658,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20220218.1627")
+    (version "20220602.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "57d78f0138d9c676dff182e713249ad055ccf85d")))
+                 "8ba78ec70dabb5d96756087b4bd12d71cd8c88c1")))
         (sha256
           (base32
-            "12bs9ywyf30qrmhibbdvcf5i24mvq8l2j3y0fv32fb2ydk4lpcmw"))))
+            "004ynphfh6kl5h2478nfzrdl70xx2jgkwfmcz5h0yzz8msqvgz3v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -34671,17 +34671,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20220531.2234")
+    (version "20220602.1136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "6dea98538936d0c2cc2f09d2e84f60129c284e85")))
+                 "185bed4c00cdce9938eb905d63ff96d489ed6ae6")))
         (sha256
           (base32
-            "0l6hsir34dg5rf0hqjz7i8305rb5f9s0gh8cr7dpjh68icy6jysi"))))
+            "01kqd98kz65cpbs7r370gkxrf20w4kzdwc0pn5yl950pb72m0scd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -76075,17 +76075,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220601.1136")
+    (version "20220602.1121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "66369ddf1cd1d7f84a048095ee5dcf5cb07e110c")))
+                 "3a6b479a7360fbdbc1c6def4c1e1581bfd63e8a2")))
         (sha256
           (base32
-            "094jysa70knk6phxgmpqg8jnmrm3bwvii6h3rwkyffnzx2syf853"))))
+            "1r7vr10yz0vjhlv5wbgv1x3519fg9lhdp165ksr1gg8mcp5yca37"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -80983,17 +80983,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220529.1301")
+    (version "20220602.1041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "022a51626d9bbb8b984908e9ebbc2cafb0888db7")))
+                 "42af79242096e81ac163eaad41c20c230b4a4d7d")))
         (sha256
           (base32
-            "0aifx52m4pp5w6wrpc7nmzywsfq9ikay194jlxj6377jlwiwnf65"))))
+            "1iyjynpccsmxx12pndglz408cbznl1c05iskfxyqrpk2mz7c9kn1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -81818,17 +81818,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220531.1701")
+    (version "20220602.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "67506a56f8e84af80af922e40797f8dc861243e4")))
+                 "995a4038256f3cc92fc9ebe1956b0545d1156894")))
         (sha256
           (base32
-            "0z22jdnm3ds2sfdjfh70c9gfdbdsqmvsb9v3va3fcgj2bvv1fzq1"))))
+            "0jzcwgv004h8085lznqabl35m0vq1a9yp09kbqwagy9dqhkp9zj4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82836,17 +82836,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220521.1149")
+    (version "20220602.940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "9e1863875f0deb98acd9a2872bc707d2ff8c268d")))
+                 "481f44aa4067b287e0c724c6d5e1185c62d1560c")))
         (sha256
           (base32
-            "1wdvnkniciiy1yd7zdyl9xdikfjy4ymv9x4pra21zkfga8q8smq1"))))
+            "016p3fjdd5vpri7bg2yfmk3ldkng7jp65fb0fv9i89kmzkkcq4az"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -93786,17 +93786,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220531.2002")
+    (version "20220602.903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "d3f236aeb3c29bf4a3b1cd16f4c17bfe07c8bb9a")))
+                 "b5b84cab162caf0b89ccba454d45d1dba094ecf9")))
         (sha256
           (base32
-            "1dbir3hjxvn83gqrl8hnwx40a92lkhh02ndjswq2fjkl0pxw0jw0"))))
+            "0l1lzjjigz6qhijpy028xjcawybyas0npn73m38cmy11q3knq2dj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -118552,17 +118552,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20210407.627")
+    (version "20220602.1153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "470769edba111aed8eabce58a3f2a02da0767624")))
+                 "134e3d693ba0c3ad1e86817bf31d80c4fbb7b17e")))
         (sha256
           (base32
-            "19xvfzmsnc271a2zhjbnspb269c5mnps4l94ifrdlqn7y886qr4r"))))
+            "1nvfn8g24b3rck3n9zqmcq8q0wdfh1xfp9qz4l6ss58iggsd7hfw"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
