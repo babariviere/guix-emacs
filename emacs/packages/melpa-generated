@@ -63334,20 +63334,19 @@
 (define-public emacs-kuronami-theme
   (package
     (name "emacs-kuronami-theme")
-    (version "20220309.604")
+    (version "20220602.339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/super3ggo/kuronami.git")
+               (url "https://github.com/inj0h/kuronami.git")
                (commit
-                 "910e8fa56a0cfe89dae888522f9fec4045d017fb")))
+                 "a51d5ff3883bd94d0a181bb5d60f747190eda4f6")))
         (sha256
           (base32
-            "0pghi50ffzlp7igvq81dmrbrwyj9ivl5kkxm47hff7qgb9rvx8n1"))))
+            "0mrk8d0z09cbvqisl44ln50bbmfim0j876v91x73428vr7k46z0d"))))
     (build-system melpa-build-system)
-    (home-page
-      "https://github.com/super3ggo/kuronami")
+    (home-page "https://github.com/inj0h/kuronami")
     (synopsis
       "A deep blue theme with cool autumnal colors")
     (description
