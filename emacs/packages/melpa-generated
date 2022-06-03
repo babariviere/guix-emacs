@@ -11960,17 +11960,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220601.1504")
+    (version "20220602.2157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "6b8d6a7b80ef0a638d233c0625fdc9d5dd771955")))
+                 "1976f2938b3fc2ebb963429dce78f2372edb483c")))
         (sha256
           (base32
-            "0iq09msfdgbb8w6y638rypwnf7ss2npaln8b4dpyjhcqjd4rgai1"))))
+            "0fdasl6nzrp8q29njda5z4x79fjlfigjyx4xxgpq0wkq41kw3zy0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -14097,17 +14097,17 @@
 (define-public emacs-commify
   (package
     (name "emacs-commify")
-    (version "20210904.1106")
+    (version "20220531.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ddoherty03/commify.git")
                (commit
-                 "d6656bd3a909917a51ba033a11d4ab5f5fe55f83")))
+                 "c4aeccae5b4a073fc3f4e8bd780a2ebbb7d5e533")))
         (sha256
           (base32
-            "1zbk2nc1qnryapsj68hlqmkn0ab7llzpmnls6y3s2656lxcn2b0k"))))
+            "0ph5z31hibsjy6711gwfxa1qmlyyg3fh3wvgsafsgnkg6mlf2h3h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -19514,17 +19514,17 @@
 (define-public emacs-dash
   (package
     (name "emacs-dash")
-    (version "20220527.2231")
+    (version "20220602.2113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/dash.el.git")
                (commit
-                 "76606f90774c5349f7adac20c33e6d37a1939a1f")))
+                 "f9e6602ac9966b74a5ba6e3d332535543c84f4d5")))
         (sha256
           (base32
-            "048fs4mwwyxckvqzzydz2jgx24ggpx9j4jzhk56xb9zkhasslbd3"))))
+            "06g2my0g57ccnaa1ldnylnkyw7vzhs3sypk3sgczwic4mzkfyxcm"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("dash.el" "dash.texi")))
     (home-page "https://github.com/magnars/dash.el")
@@ -24222,17 +24222,17 @@
 (define-public emacs-dtk
   (package
     (name "emacs-dtk")
-    (version "20220531.1358")
+    (version "20220602.2129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dtk01/dtk.git")
                (commit
-                 "12a7799a2c537d24597f15ed163e6a9491e1a592")))
+                 "092cb79d1985a0c5017070353abbb93b8977803d")))
         (sha256
           (base32
-            "1i40n511k6pmblczmfavyvv0hfjgy9gl71gwybzbncg9x0rwgyyh"))))
+            "1lgjph43lc13iil6cp6ihn4w8d9yy7kc0s6y912hialykrscvcas"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/dtk01/dtk.el")
@@ -41812,17 +41812,17 @@
 (define-public emacs-frimacs
   (package
     (name "emacs-frimacs")
-    (version "20220528.1935")
+    (version "20220602.1847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pdo/frimacs.git")
                (commit
-                 "c33b4d37751d31cf901e933f58779ab606ccb6fb")))
+                 "4713aa13c96183bccaeccc135b932f94522c2c05")))
         (sha256
           (base32
-            "1ki9g283ypcankimawpg6zvh2hwjismdbjsbyf6f352b2ix15lcp"))))
+            "02i6niy6axhwdxw56vqqcnin9iba8vblnmf0fprk06rwlxyj7svc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42176,17 +42176,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220601.1443")
+    (version "20220602.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "c41849372e7c1ee1be6c1dc380ae8a2d87af021b")))
+                 "ed20aa4d712eca435842992421f5ff7028b9463b")))
         (sha256
           (base32
-            "0k5zpqjs7kcwx2bl9sjdgmn6dk52k6ad8838g3vdjzpka5w194mg"))))
+            "0cdfw4p9ay643ahi3aa4h990z04pa8pfbwidxc7z849j9pz851x2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -67206,17 +67206,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220530.1919")
+    (version "20220602.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "8123c5cd33bedf3ac5e88d98ede690f73b7f1b00")))
+                 "2147fbeb060f9a725070e3f3a8a8a9a24589e3bb")))
         (sha256
           (base32
-            "1fraa85f0nn11k1pzka6gzncqs2l5h1dd5qi56ia7ayvng2s3wqd"))))
+            "1q3vf79lgr21gsw1gvamw4aw4mas2zpqbhf4wby8phvyrk2jqkbf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81818,17 +81818,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220602.1243")
+    (version "20220602.1651")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "995a4038256f3cc92fc9ebe1956b0545d1156894")))
+                 "64a9234733904af20fd495861792f1d5c2b37190")))
         (sha256
           (base32
-            "0jzcwgv004h8085lznqabl35m0vq1a9yp09kbqwagy9dqhkp9zj4"))))
+            "1w3vly4jh854gb9bgnwqfzry6214v498fmiwm491gi8m5g0d05xp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93882,17 +93882,17 @@
 (define-public emacs-python-x
   (package
     (name "emacs-python-x")
-    (version "20190611.1303")
+    (version "20220602.2108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/python-x.el.git")
                (commit
-                 "b1f8eaccee210d7c0580dba6dc9bd361fcf3765d")))
+                 "fef5162af9dfc1225339098ae00e053a2e16b799")))
         (sha256
           (base32
-            "0vyipfsppissa87pdnbksamdby0yl2q8nzawqivv6smn33jp6vsn"))))
+            "17nyjvbydclp2v2nrmdayxic2mj7j0frksc359ad999r05qq0nv7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-folding))
     (home-page "unspecified")
@@ -94105,17 +94105,17 @@
 (define-public emacs-quarto-mode
   (package
     (name "emacs-quarto-mode")
-    (version "20220405.1556")
+    (version "20220602.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/quarto-dev/quarto-emacs.git")
                (commit
-                 "2a199735866dc34126a061c6f2990378b381e687")))
+                 "3cf4546a01766775d56b92e1c974c850ec35d5a9")))
         (sha256
           (base32
-            "0bdigc8d2b9g2dgdcalf5f0a7hh56sji7k78vv23ikdydmag5bi1"))))
+            "0r2f4m5vqxhb6jpkciywj86mxvw9zw5wxpmh56d1znids4jyypxz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-polymode
@@ -101174,17 +101174,17 @@
 (define-public emacs-shfmt
   (package
     (name "emacs-shfmt")
-    (version "20210803.222")
+    (version "20220602.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/emacs-shfmt.git")
                (commit
-                 "8496b0df2209cf6792c5197b924dd55807f0cffd")))
+                 "279a51defa3e0d97dc40b8a26e078699d4e22e90")))
         (sha256
           (base32
-            "1sb9zdig0ypr3c0dmm26cysc6dsij5vxf3zypqpjdh77si5asx24"))))
+            "1kzi8gy37cm1z4x69400gbkawx4k0jafvz8m50w0b48nvrvsy6ys"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
@@ -108679,17 +108679,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220525.1120")
+    (version "20220602.2031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "311d24e86fa353fc8ba2af1c9c9f3e228767fedd")))
+                 "892ac2e88f764af516abc307ff199cb819442e4e")))
         (sha256
           (base32
-            "0s7rzhrjqdqmc8rci9xb301dqmal99bgdw5gblvmhxs5dg6jk6xa"))))
+            "17ysqxb5j2qi3kkjwnb8rvwan6yz90av5967sypdss2by0hlwd97"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -118552,17 +118552,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220602.1153")
+    (version "20220602.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "134e3d693ba0c3ad1e86817bf31d80c4fbb7b17e")))
+                 "9539de3eae60a08caa130c62af7d55d8df9e7728")))
         (sha256
           (base32
-            "1nvfn8g24b3rck3n9zqmcq8q0wdfh1xfp9qz4l6ss58iggsd7hfw"))))
+            "1qyzl9rbr0v6alqhl1kidjwbdq3gg3lm2cykdns019abvrnmz9gg"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
