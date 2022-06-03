@@ -3024,17 +3024,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20220428.1339")
+    (version "20220603.1023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "e982a7b74a681a8c2c823d8dcaafd185ab5f719e")))
+                 "7f48fad362b15546da7b015b533609a2452497b0")))
         (sha256
           (base32
-            "13vnc9qkz2n121yf482sj19daxa262pnp49cy8p5cvrr75narh1r"))))
+            "01kv6bjsnsarnmmy7jrbs74q1pdabz2k4p0330hcny7nl9xp51jj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -10011,17 +10011,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220520.1702")
+    (version "20220603.1110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "2ac24a8ac26dc36a3930fab52863cf66583f5251")))
+                 "de4532bbce98ac4e10fd6db0e9c14f9c4f2cd91c")))
         (sha256
           (base32
-            "03bv61mfq4kg9gn86g1x204k59hhmay5l96985s5kxqk4dhdj41m"))))
+            "1445aygd28mp5v8zw6pqzbqgmg3vi5ywl9m1wcykcs3l4wp6y2zi"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -20664,17 +20664,17 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220531.1305")
+    (version "20220603.1446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~niklaseklund/detached.el")
                (commit
-                 "6e7a236fa5858b7a9adae487bee7e767baf611e9")))
+                 "24b925435c5fb7d5927fd4db5217fbfd4f8ed9c8")))
         (sha256
           (base32
-            "0cd1kw50pm069saxwqr25ak5vvi4g8w22j8ncskvm0zf8zvqjh54"))))
+            "0lvx39i879d8n5m3b2pgjpw7i0a6wlfr2zk3bfk6kjm1vcrhhaz6"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220603.630")
+    (version "20220603.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "7576e1e1d6ba92ee2641cbd739a61e163db3c0ba")))
+                 "853c890bc754a024dbe4cfbb286ea0583b359213")))
         (sha256
           (base32
-            "0qxjfkbq083b1g47q2asg5giai375hk93bf149yx59kswhggwckk"))))
+            "0dd6j5mw5m6ziawkp9i037psnm7bya0jaiax4hshix1hsf84pjpm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32797,17 +32797,17 @@
 (define-public emacs-evil-matchit
   (package
     (name "emacs-evil-matchit")
-    (version "20220524.1237")
+    (version "20220603.846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-matchit.git")
                (commit
-                 "ce93c5bcdbb049506c199dfc4324bf60f6fb4f2d")))
+                 "a344ac8e495cb6b240a096c67a01399cbdc53895")))
         (sha256
           (base32
-            "10887xppv9vigrssi774bh7k0amv5q4cwvy12zimsmz8gqjgai46"))))
+            "1ll6h2f7jpc4v64y5a3jj3c84i6lq1cbz5i2syfqigjdl8v7fykg"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-matchit")
@@ -48728,17 +48728,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220601.603")
+    (version "20220603.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "4948d844be20819995466424a4b5610870eb9ba0")))
+                 "190d60c25debe7e2fe26578b8fb8204352db1ae9")))
         (sha256
           (base32
-            "14s3m6kn61al04ak7img9fqpy71d4557iqgi4ki2cib3dqjrjqmk"))))
+            "1wd66fgyqcafcpyxvdir3kxz7ajn9hmxnardljzarlm11b8d0m74"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49536,17 +49536,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220514.725")
+    (version "20220603.845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "4489fec779eb4c2f54db06218c83d431a88716b5")))
+                 "190d60c25debe7e2fe26578b8fb8204352db1ae9")))
         (sha256
           (base32
-            "0c5sv96ghm2hdv3das3vfa2nlv2phb4lzjwcfnhn7y34cmx5qnbd"))))
+            "1wd66fgyqcafcpyxvdir3kxz7ajn9hmxnardljzarlm11b8d0m74"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -63829,17 +63829,17 @@
 (define-public emacs-latex-change-env
   (package
     (name "emacs-latex-change-env")
-    (version "20220523.553")
+    (version "20220531.726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/slotThe/change-env.git")
                (commit
-                 "0483bd0af943305b93b327c72c63780aadd5d8f9")))
+                 "b5c31c9551bea70835762360a57407fba6e37b4e")))
         (sha256
           (base32
-            "0dy2mk5skgmwg9553m03099r6jdwkljnv19ddxm5hscv8z50dcqm"))))
+            "1q88pg2izz2m22n0xgd281vhna5znrs3q6nfg3v6bkxp73y17k13"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -67883,17 +67883,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220530.2344")
+    (version "20220603.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "4774c1a47cd8d72626313949dc5da91b64b00eb9")))
+                 "6795b5c833c3d144eee80cf97e1599bb23b79efe")))
         (sha256
           (base32
-            "02ddm4skgk2b0jzdy6zmnscaab4y8zz8gw2avf043nkjfyj30acr"))))
+            "0xff51kdp6k4rm1ywjx9acmaak8k56ai3lg5a2r5byqm44gc8pzi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -68086,17 +68086,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220531.1340")
+    (version "20220603.1122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "a7953b2645503904b2a31e18e019f07af9e71a7a")))
+                 "a07b46fbe3bf3f4737be812c4bd42a85db012a9a")))
         (sha256
           (base32
-            "0gq6f7x63y5maiml5ns7w6j1237ni1cg1zgwfc17imqnhvgwpkax"))))
+            "0v08xqgkh416bi9vwv35b3pswhqp0q1mz43ajxakn7wh3n48l37m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -78515,28 +78515,19 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20220603.607")
+    (version "20220603.1106")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://gitlab.com/oer/oer-reveal.git")
-               (commit
-                 "d0da8d1adfe769fd81a7ceaafefddd7a8370e874")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/oer-reveal-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "01i6p488xp52kbhr1nvrhxxkbkxnj29wy8bd1kxb3g14kg46wmhs"))))
+            "0hxhafhdx3kjzzbgp8nl22172imaksm1485sss5f4yfyndggdxk3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
-    (arguments
-      '(#:files
-        (:defaults
-          "README*"
-          "LICENSE*"
-          "org"
-          "css"
-          "title-slide"
-          "examples")))
     (home-page "https://gitlab.com/oer/oer-reveal")
     (synopsis
       "OER with reveal.js, plugins, and org-re-reveal")
@@ -81190,17 +81181,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220422.940")
+    (version "20220603.1332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "ff1046705b3950b7a49da50bc34c11da86c6226d")))
+                 "2186c64777450de21a22bb6cc628585ec800bc6b")))
         (sha256
           (base32
-            "0zg2bi6jprigvqy4zglb8f8357sxikcfx0b8vjbwcjl08iimxp6j"))))
+            "04s5hmbfmfqnh1iaxxkw3hj7aa64kjx8s19h9lgyb0qa0yj0iw15"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -85720,17 +85711,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20220412.1648")
+    (version "20220603.848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "80a9d9815ab2919c992ad29ae4846443dec43a35")))
+                 "622a5a6e853e5a4c7f2b4c53e2ac0edde354b07c")))
         (sha256
           (base32
-            "0sfxpw19vi7hsr3j86wbwxfi02020z38qg1w72j8k6mm0m9m21yi"))))
+            "049xpv5l50zj85gcpvbp6dlrh714jwy3cmiwzv7qynpjaz12l1h0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -91046,19 +91037,20 @@
 (define-public emacs-prettier
   (package
     (name "emacs-prettier")
-    (version "20220601.907")
+    (version "20220603.1338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/prettier.el.git")
                (commit
-                 "fee9a7b4b8abcc1c72fd69c4203f3d10590033ee")))
+                 "e419bb7a916c38a4a62632c49233de1523f41218")))
         (sha256
           (base32
-            "0qpx1qmd4ysl6jlzjp0vnm3z7md33xvcxbq1w8lz49phvvwh488n"))))
+            "0572kry08ia8773nfxm2rmpw1nz4gzk72yr85k7m1cl9jkacq2y3"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-iter2 emacs-nvm))
+    (propagated-inputs
+      (list emacs-iter2 emacs-nvm emacs-editorconfig))
     (arguments
       '(#:files (:defaults "*.js" "*.base64")))
     (home-page
