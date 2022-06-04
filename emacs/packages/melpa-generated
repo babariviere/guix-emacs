@@ -11496,17 +11496,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220415.1213")
+    (version "20220603.1928")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://tildegit.org/contrapunctus/chronometrist.git")
+               (url "https://codeberg.org/contrapunctus/chronometrist.git")
                (commit
-                 "d348ef73da958dfee27f9ceda0d599ccef83cfb0")))
+                 "86a54edcf9eddb3f31d9710001c56439728f3197")))
         (sha256
           (base32
-            "0bqikbz06gyzng7l2b7062246k3vnmpib7rzav87lh3m8fa1adc2"))))
+            "10vfqzp1z9q3yvrshb4gfdl9158x6p8sdv8pkcc0zx6wj1y9dlqr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -16219,17 +16219,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220601.1541")
+    (version "20220603.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "b76f7fb0856ecf03a6f539ccb4d4a0fd627acd87")))
+                 "b816d1c42f420411c31fe0968ddc868aa2186de7")))
         (sha256
           (base32
-            "15lqskanvxb2py6zgm3yf0aarh9p4rxcfdcwnlf496jypi03md7f"))))
+            "014sbc3d2w7p5a8jsyag7qxlmixvs7zycpdrylxxbs9gkivfyyxw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -57217,17 +57217,17 @@
 (define-public emacs-inf-clojure
   (package
     (name "emacs-inf-clojure")
-    (version "20220421.559")
+    (version "20220603.1523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/inf-clojure.git")
                (commit
-                 "abeab8d6d4cb3bdded5e9083776aab0c06cbdf57")))
+                 "8f295050a856b03d6ec14f0fd5e782e7acde6e2d")))
         (sha256
           (base32
-            "0b73dm3kyard035jfijcah8vp96vzgywmkl0ajnhyzzxmbl26hqa"))))
+            "0gm2psay483202vjzf27gvlmy7l2y8gawwviv5rbfbsxyb4l5xrm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (home-page
@@ -67206,17 +67206,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220602.1619")
+    (version "20220603.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "2147fbeb060f9a725070e3f3a8a8a9a24589e3bb")))
+                 "eabea9893ad61ed230b74f4bbeef0443ba0a5aa9")))
         (sha256
           (base32
-            "1q3vf79lgr21gsw1gvamw4aw4mas2zpqbhf4wby8phvyrk2jqkbf"))))
+            "1d1h1gcfdqa2907y6kar7z1qqjhbdzgn79arbblzyvlk2kbg2r5p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68086,17 +68086,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220603.1122")
+    (version "20220603.1738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "a07b46fbe3bf3f4737be812c4bd42a85db012a9a")))
+                 "475bc370ff9e567c69944e1611107584810a79aa")))
         (sha256
           (base32
-            "0v08xqgkh416bi9vwv35b3pswhqp0q1mz43ajxakn7wh3n48l37m"))))
+            "0xhqs2kbfkqpzmc506b348lhkiz7jrfrzbmaar859rfama9krqj7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -81181,17 +81181,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220603.1332")
+    (version "20220603.1849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "2186c64777450de21a22bb6cc628585ec800bc6b")))
+                 "0da8a79c64d8b9e1e7b9ad7de455d7a7013989e4")))
         (sha256
           (base32
-            "04s5hmbfmfqnh1iaxxkw3hj7aa64kjx8s19h9lgyb0qa0yj0iw15"))))
+            "08cm5565chmslnzssqz5ki45npl4kp18j7dbindyr8i6gr8i5lgc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
