@@ -11496,17 +11496,17 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220603.1928")
+    (version "20220604.344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/contrapunctus/chronometrist.git")
                (commit
-                 "86a54edcf9eddb3f31d9710001c56439728f3197")))
+                 "b80d6ac5b661a90e84ab84bad9badb596c1d1965")))
         (sha256
           (base32
-            "10vfqzp1z9q3yvrshb4gfdl9158x6p8sdv8pkcc0zx6wj1y9dlqr"))))
+            "01sdf2w73zapjv1x1dcasy16qs2nsnya3xz5q5avpi5gvmrarb36"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (arguments
@@ -48288,17 +48288,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20220519.252")
+    (version "20220604.50")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "902aff3f978adfe65da130aedac698d084355735")))
+                 "b08d4af6e4ab404c8a1031ff8cbfff49d5c8aec4")))
         (sha256
           (base32
-            "0hxhfvnnf9jcll6k65grpfs57gc8fidpfs6s7hyjj7g2i9rpwm11"))))
+            "103z74y5x3pfanbalf6xgrm7cny30f1n3lihliabfiav96xzpmq7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-hydra))
     (home-page
@@ -80011,17 +80011,17 @@
 (define-public emacs-org-contacts
   (package
     (name "emacs-org-contacts")
-    (version "20220603.329")
+    (version "20220604.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-contacts.git")
                (commit
-                 "0501463909d3d10432c7948517146bff2d471293")))
+                 "c1c4cadf3f7890a07d03c531ef823e1fb5f3ef2f")))
         (sha256
           (base32
-            "0wcyjwfnv250g3pdr4z0kfpdqafcwr5d9jbq943i8iiji420wwxw"))))
+            "07jkgmi9i9k0pnlxhrmhx3rjqaxl3q69mz9zmyxrpk7y9dv6hc92"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -80974,17 +80974,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220603.256")
+    (version "20220604.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "e61eaa7d1a7a5f1678acc7eab12149101a0f23d8")))
+                 "ecdd22e80915eb41c4905614486edc197ffcd464")))
         (sha256
           (base32
-            "1rv0w3s03ym6zn4knsv8p7244h7rbx3df4fpqw1m6y0fq6ibrlv9"))))
+            "132qma814yzr0cbgrqzryk45cjha2v3mlf7za2hn6z8qayvycm9x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -81181,17 +81181,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220603.1849")
+    (version "20220604.656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "0da8a79c64d8b9e1e7b9ad7de455d7a7013989e4")))
+                 "c07a8a245e73ad3bbbfc4548963b2c863b29ba25")))
         (sha256
           (base32
-            "08cm5565chmslnzssqz5ki45npl4kp18j7dbindyr8i6gr8i5lgc"))))
+            "0s2vi6kv40d5k18zhzlysa7daxyfad9f798m11msn1zsv9kq19f1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
