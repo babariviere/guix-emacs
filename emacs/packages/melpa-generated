@@ -23449,17 +23449,17 @@
 (define-public emacs-docstr
   (package
     (name "emacs-docstr")
-    (version "20220602.1529")
+    (version "20220605.1058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/jcs-elpa/docstr.git")
+               (url "https://github.com/emacs-vs/docstr.git")
                (commit
-                 "5ae804724ccfe9ca935832180d535014e58b4d12")))
+                 "9e3d606d5a6042facaace496046bb5b56d7c65c9")))
         (sha256
           (base32
-            "1gvxk98kis05h4wnd4q72n0s5mplsi4vyw8l0m9b464kwf83n6gc"))))
+            "1zi7s2qwv3z7sx84pfk82r4m3s4jwx0yd4qh0zyqylwwmaqyhl7q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (arguments '(#:files (:defaults "langs/*.el")))
@@ -26088,17 +26088,17 @@
 (define-public emacs-eglot-fsharp
   (package
     (name "emacs-eglot-fsharp")
-    (version "20220604.1309")
+    (version "20220605.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "faf021ac31eed962d0a45ebfee3fe117f80c6697")))
+                 "c7842fe63b8bae5aa8bd6a9891036c5ce04e4030")))
         (sha256
           (base32
-            "1rd75i42nwnb9182j01rz7rvm0x0hfi8lhdiws8djiwzvgrjz1pg"))))
+            "17ibcl9ilm7ml4gjlvcx40hni8awccm1zk37y0nfvcscigf3i8pr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-fsharp-mode))
@@ -41965,17 +41965,17 @@
 (define-public emacs-fsharp-mode
   (package
     (name "emacs-fsharp-mode")
-    (version "20220601.1740")
+    (version "20220605.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "4278c5fbe5aec33158ebb930bf5737b5d43fe43a")))
+                 "c7842fe63b8bae5aa8bd6a9891036c5ce04e4030")))
         (sha256
           (base32
-            "13c8k82kbll2gs63dgjsgzlxvaijx0hq5smsgg9459ml528kc37c"))))
+            "17ibcl9ilm7ml4gjlvcx40hni8awccm1zk37y0nfvcscigf3i8pr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -67881,17 +67881,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220603.739")
+    (version "20220605.1239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "6795b5c833c3d144eee80cf97e1599bb23b79efe")))
+                 "189e3915ec1b7172c2754787ffd091ccc77e4f75")))
         (sha256
           (base32
-            "0xff51kdp6k4rm1ywjx9acmaak8k56ai3lg5a2r5byqm44gc8pzi"))))
+            "09y970340b4061c09g538gfc9xk9jabsn2ggvliw34sbd8rp224n"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -81179,17 +81179,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220604.1005")
+    (version "20220605.1230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "4982a63926aae047d24c22f089314731ad84839d")))
+                 "6ddcd95170ebffaa857c7bbd1b241b1a68236937")))
         (sha256
           (base32
-            "1ycp8cc9fzdkpcjnvw88vbpwvjb11xdnmb4i8lkbmm4nb3qbs06k"))))
+            "0crp86a56jshnp9gh5f8jkgmxj4970xgmja2jhbjcwq3dplq5cp1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -90942,20 +90942,19 @@
 (define-public emacs-prefab
   (package
     (name "emacs-prefab")
-    (version "20220403.1026")
+    (version "20220605.1310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/prefab.el.git")
                (commit
-                 "cbb701796a35ed21cf5743cc8965a8ca956c95fb")))
+                 "5ca61a420d8de5e3707a5c2f01153f4ab2ea3ec1")))
         (sha256
           (base32
-            "1n9qbpxq8r96270nfnxzl95aymwyvky5jiipniid16lqkssy1i65"))))
+            "16fhcry3a66acwnms7qshw4q1jzqqcqhl4g3yddhxramcgbp2x3f"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-f emacs-transient))
+    (propagated-inputs (list emacs-f))
     (home-page
       "https://github.com/laurencewarne/prefab.el")
     (synopsis
@@ -93257,17 +93256,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220605.706")
+    (version "20220605.1005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "70ef5b1adf69821af0f29284bf25a6630487f0f6")))
+                 "a6854aa6673072f1c5d561b3b842672dfdf62d63")))
         (sha256
           (base32
-            "1cv35xyv3plji0nc7wmwza8hggi2klkim0bgfkpwaykxxvfmkn44"))))
+            "1ylr0vy6nixnl7djj0sm7yvqam78bsianv1ayf0rslr7m5km0vq2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
