@@ -3460,17 +3460,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220601.1737")
+    (version "20220604.2239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "18ccacc5cf0806ecf11d0a3d462de1803e46a9ad")))
+                 "67853e98b190cc735a8ad31bd1de64f76f2990c4")))
         (sha256
           (base32
-            "0fpqh4wv69msfsnv3k88cai3nbja70ab5c02xf8gwfgg3613pjdd"))))
+            "1jbidfz0s7lz190hzwvj7qxh2f3lmbwaynqrarr183pksja4jqwc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -42174,17 +42174,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220604.2002")
+    (version "20220605.355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "7fb7c3720c02f7f6aa65238bf6e4855dcd41d971")))
+                 "0571ed71d85ae882ad10d9c87ab2fa4d7dd3f2b2")))
         (sha256
           (base32
-            "1y6g9qgx89rx3var3wcs2rzq80yi4d7hmzcdms5lx6y725115q3p"))))
+            "0v30lv5awl4fff9mp9jm9h0wg8gv16gikkklpjscsyd4y11l0a91"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -48726,17 +48726,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220604.950")
+    (version "20220605.411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "5e4f624c00e44f31de37b92697b35a1e112ad2fc")))
+                 "3b8e7c108b938b44d71dc0044837d928c3830302")))
         (sha256
           (base32
-            "1hl8ss03492pygfv5yfgw3hwmplfkzq1szli3vchhimdy5si15cl"))))
+            "0p2gmkyd3gzx7fcq98xj8f2zyby8aj3xlhdbrs8r791v18l41kmc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49534,17 +49534,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220604.950")
+    (version "20220605.411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "5e4f624c00e44f31de37b92697b35a1e112ad2fc")))
+                 "3b8e7c108b938b44d71dc0044837d928c3830302")))
         (sha256
           (base32
-            "1hl8ss03492pygfv5yfgw3hwmplfkzq1szli3vchhimdy5si15cl"))))
+            "0p2gmkyd3gzx7fcq98xj8f2zyby8aj3xlhdbrs8r791v18l41kmc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -51088,17 +51088,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220418.657")
+    (version "20220605.434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "c6494a462e605d6fd16c9355e32685c3e0085589")))
+                 "27a0fae5c8927c5980f49726bd29d0a7274af337")))
         (sha256
           (base32
-            "02gx6a8n7csip5wm818bmhrq4r0r394r3vvfsn8fja8fagmg3z1a"))))
+            "03k5gpz3vinj4w7k0cfmpjn6rxwiyyscn4jl9zyj2bgdf2m39wfm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -67204,17 +67204,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220603.1349")
+    (version "20220605.633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "eabea9893ad61ed230b74f4bbeef0443ba0a5aa9")))
+                 "c777778dc52c25fbf7f154b7029c1c57bc242389")))
         (sha256
           (base32
-            "1d1h1gcfdqa2907y6kar7z1qqjhbdzgn79arbblzyvlk2kbg2r5p"))))
+            "1pcq25wwf9drd8g5q6y6kldh80n8w3x4j4shsbfjkjjjwjnzzdip"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80972,17 +80972,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220604.1551")
+    (version "20220605.239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "373accd31e7b0f7edc3eb6bb2bdc396bcf8d02c1")))
+                 "a7fe761d3ed0f64124ded26f2c776973b5e84f14")))
         (sha256
           (base32
-            "05aw8vxbn0c2vdp02ha8pnrqf29xafdwwads5r9hv4nr38464b6j"))))
+            "00rd7q20znnnsazp5n1j7ca3a5fbkq89yc2gcb295c32pg58hs5v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -93257,17 +93257,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220604.1349")
+    (version "20220605.706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "7c75e04a0cd1aadb521268750b433181fc084bf6")))
+                 "70ef5b1adf69821af0f29284bf25a6630487f0f6")))
         (sha256
           (base32
-            "1ilk2bly2s9ccq658kg805ynnfqycqci0y1n5dhbx8rsn865kkn7"))))
+            "1cv35xyv3plji0nc7wmwza8hggi2klkim0bgfkpwaykxxvfmkn44"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -101164,17 +101164,17 @@
 (define-public emacs-shenshou
   (package
     (name "emacs-shenshou")
-    (version "20220527.1332")
+    (version "20220605.410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/shenshou.git")
                (commit
-                 "2942ae73d60f14081b5bb3a1b646f29f7c555340")))
+                 "41b4539444ff0af1a3aabb77c7c99d2e9914ebbe")))
         (sha256
           (base32
-            "1df210sq0nxlnppg96xh42yfjc0qwln1npgf1m8hs4nk7yv80aix"))))
+            "1f0ln20c1kjv77dk9zsxrp625pxrpqhsdjsi0p0lcx9k80202amb"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/shenshou")
