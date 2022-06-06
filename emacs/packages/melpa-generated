@@ -10215,17 +10215,17 @@
 (define-public emacs-cask
   (package
     (name "emacs-cask")
-    (version "20220504.1421")
+    (version "20220605.2031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cask/cask.git")
                (commit
-                 "2eb520e64c2e1047319761df0bcc6fa5149f8cd6")))
+                 "f2c6609590380bf4791fa18b7581ed6a8db2cbbb")))
         (sha256
           (base32
-            "1fg8c8wksban6kblrdsp008ga8srhyp7dbhzbk46dgmprvwmxbwn"))))
+            "1zvibg876q5zi7fh72wfl6avskgvvn4az75gjc3bkdckv9rpy43a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -16858,17 +16858,17 @@
 (define-public emacs-corfu-doc
   (package
     (name "emacs-corfu-doc")
-    (version "20220604.1543")
+    (version "20220605.1717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galeo/corfu-doc.git")
                (commit
-                 "13574ae5d17de692f335136f3e3a3ee63463f180")))
+                 "b5477fd1107cf95e773d1fff44a49881f28bf3eb")))
         (sha256
           (base32
-            "0cdbfr8vg4k0hsckq7818y7lsm1wvg5wwls2q5ar5dpjiigl6zqw"))))
+            "02iwv817hp5gpw2apvnvxfn3gyvbhmfk2gl1rrvjzaig4zkhhy2l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-corfu))
     (home-page "https://github.com/galeo/corfu-doc")
@@ -67204,17 +67204,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220605.633")
+    (version "20220605.2030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "c777778dc52c25fbf7f154b7029c1c57bc242389")))
+                 "700c7932dcff775a7686418e3a15941a36e9baac")))
         (sha256
           (base32
-            "1pcq25wwf9drd8g5q6y6kldh80n8w3x4j4shsbfjkjjjwjnzzdip"))))
+            "18ykc6qc2pvhr1n3plzn60sakl5dqd681fl2jf1kgh47q75kk0ls"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68084,17 +68084,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220603.1738")
+    (version "20220605.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "475bc370ff9e567c69944e1611107584810a79aa")))
+                 "9b48dd7e3618ac3736f66ef964ae5e1fedd54f98")))
         (sha256
           (base32
-            "0xhqs2kbfkqpzmc506b348lhkiz7jrfrzbmaar859rfama9krqj7"))))
+            "1xvsiczkahm5x7ld1j0pjdip0pb7vyhbgas24969wa3jfr2h3syw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -72023,17 +72023,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220601.1045")
+    (version "20220605.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "467aab71377a6e1476dcab7ab5f2c55d1ffc28fe")))
+                 "6f2b048528d1c40bf5bead0d3e01beff28b78d2b")))
         (sha256
           (base32
-            "0b4y8dzyc9qwwaf2ngqiwyfcnhwlr49kxhc96laqk20lvjlfsrnx"))))
+            "0hr7202jhmjcx3z71dn2lzwv7980lalj0kbvjn6jjg4dm71fywjn"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -81179,17 +81179,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220605.1230")
+    (version "20220605.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "6ddcd95170ebffaa857c7bbd1b241b1a68236937")))
+                 "b352680d9ee8c6e6966cc21d595513c3595e3bb7")))
         (sha256
           (base32
-            "0crp86a56jshnp9gh5f8jkgmxj4970xgmja2jhbjcwq3dplq5cp1"))))
+            "1mc1m6x9bj92lfsbrxnasp78sc501mjiad4jrb5m1j42j0d1cs83"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -82223,17 +82223,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220528.1937")
+    (version "20220605.2053")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "83a0b3d4645d1c32edbe1aa5dc12cadeccb1f319")))
+                 "0cd9b9e6d3c446ae7932218f0b3f0c31f18d4d2d")))
         (sha256
           (base32
-            "09w1fs9rqnxrz0dzkmw6rgm4f0rq43mgmiwk1nz4v3hslxb1m6pw"))))
+            "102yxi68a45gmcw9gamss9li6psybkx04bsx84yjcca2brwfvdww"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -87708,17 +87708,17 @@
 (define-public emacs-persp-mode
   (package
     (name "emacs-persp-mode")
-    (version "20220206.1742")
+    (version "20220507.32")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Bad-ptr/persp-mode.el.git")
                (commit
-                 "7a594a3d8f1c4ba9234dcd831a589e87f3f4ae86")))
+                 "d0f8eb099e852b6073d4ec06d32587c60a7dce3f")))
         (sha256
           (base32
-            "0ckcnqg2fn4m5zp06jlw5cj81clizrm8cxjiwz5rd4d9m9lwdrgd"))))
+            "02518lq9wma0hsm96lws7fg2bdjsp52jg2rj33iczsj515w5mdgl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Bad-ptr/persp-mode.el")
@@ -93798,17 +93798,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220602.903")
+    (version "20220605.1845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "b5b84cab162caf0b89ccba454d45d1dba094ecf9")))
+                 "fbd366644c2f021a17962d26ce161f1793e7a87e")))
         (sha256
           (base32
-            "0l1lzjjigz6qhijpy028xjcawybyas0npn73m38cmy11q3knq2dj"))))
+            "0vcs8acnwj7shs2jzyd9wrxb06gqdalb236bxvind1jhr77d3wf9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -118562,17 +118562,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220604.1201")
+    (version "20220605.1449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "551d7f388efde975ebc98d1ddeb5e038bb6e5cf1")))
+                 "0c85378e648fbc12026cd9e8570aac29e64b6181")))
         (sha256
           (base32
-            "1lqkz6660fvdcznxl8h4fz0nq1j36z7qw8pb0qvg9fkj214hnk7y"))))
+            "1rj9jzl3zdycam1wq22pgcnpbbiqj6wbb1ziq6g2sgv56gicxn9i"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
