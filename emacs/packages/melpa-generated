@@ -32199,17 +32199,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220604.1751")
+    (version "20220606.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "98d28bc67909225a4746c557449c9da816f5d0f5")))
+                 "d48c72490b93d082c76cfb07190d855837159334")))
         (sha256
           (base32
-            "1rbchsn4n6815wydb9s9002fiv2gmrjy9ck81sd5jyhra94agdgr"))))
+            "02jqy498mlsmgfjf6x02357dd3928qkb2ys1v0nrjnlmydqhsylk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -42174,17 +42174,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220605.355")
+    (version "20220605.2315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "0571ed71d85ae882ad10d9c87ab2fa4d7dd3f2b2")))
+                 "7240323da4665a6b54f31a64f98d8b04228423e6")))
         (sha256
           (base32
-            "0v30lv5awl4fff9mp9jm9h0wg8gv16gikkklpjscsyd4y11l0a91"))))
+            "0a1rixcncxd895hqnk5qd73irzdcibpq20yfchjsijdl3b7jnvmi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -67881,17 +67881,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220605.1239")
+    (version "20220606.34")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "189e3915ec1b7172c2754787ffd091ccc77e4f75")))
+                 "bb5c789af7adaaf5b7c0a6013d0397b4cd801b10")))
         (sha256
           (base32
-            "09y970340b4061c09g538gfc9xk9jabsn2ggvliw34sbd8rp224n"))))
+            "0v63m2i505074i63642ywiaplis65mszg66rn4h7r7x960a6bpyq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -93256,17 +93256,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220605.1005")
+    (version "20220606.455")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "a6854aa6673072f1c5d561b3b842672dfdf62d63")))
+                 "b6bdadf10670c9ecc435e2e3cec973bfee430fc2")))
         (sha256
           (base32
-            "1ylr0vy6nixnl7djj0sm7yvqam78bsianv1ayf0rslr7m5km0vq2"))))
+            "1ydf4nppp7didj85vs2k8ki9qpmv0abk5dnmxgqm658ls4s0az5i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -101255,17 +101255,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20220519.2301")
+    (version "20220606.9")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "98086b3e23b483e28221b5e3de0b1bdd429e6a72")))
+                 "9422b583d0113ccc699618d0e475d3dbd5a49170")))
         (sha256
           (base32
-            "0ni4f3g8p930k6rbmihbi89mkj5l14gdpjzzh5zwygsdyra165w7"))))
+            "0yvz5rsw7nbh0nz9vy42khpyjr3ahbkn56bj8660vq850yyihzpv"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
