@@ -8761,17 +8761,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220513.1501")
+    (version "20220606.1330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "c76e282125779ea8de522dce899b974b5b343441")))
+                 "fc98ca9e2a8b6edcec7199bf52eaf1848bd3e35c")))
         (sha256
           (base32
-            "0dapbbg7zkvjbv2cvscmmffxw8lp4wg23xym3xzmv4fb4d2p1rs1"))))
+            "1i629jdlp3lxjk3awarx64s7czbzg15yy101ns9hrjk914bvskbc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/buffer-env")
@@ -10011,17 +10011,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220603.1110")
+    (version "20220606.1156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "de4532bbce98ac4e10fd6db0e9c14f9c4f2cd91c")))
+                 "d69114e8bd44d08c30b3374f4d7032d73621f1c6")))
         (sha256
           (base32
-            "1445aygd28mp5v8zw6pqzbqgmg3vi5ywl9m1wcykcs3l4wp6y2zi"))))
+            "1g8hr2szcvs6hf4f8f14givp0si9kfxxpmrvs8p9dm0p9rgw2ryz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -13258,17 +13258,17 @@
 (define-public emacs-code-cells
   (package
     (name "emacs-code-cells")
-    (version "20220305.1320")
+    (version "20220606.852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/code-cells.el.git")
                (commit
-                 "8660bdeedee360e5eb632f1eb1356eb09d7dfbee")))
+                 "27ac22bc0be905f31abf8c09e63d371b0b0059d3")))
         (sha256
           (base32
-            "0mvfsdlhc3znc0d2p8vm7apkbpvbs688wmwvd0sms33qly53f546"))))
+            "1j704wncimabcydxazbllsqlp4wlh2mwv2zdf7kpcaychsw9990c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/code-cells.el")
@@ -16858,17 +16858,17 @@
 (define-public emacs-corfu-doc
   (package
     (name "emacs-corfu-doc")
-    (version "20220605.1717")
+    (version "20220606.1111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galeo/corfu-doc.git")
                (commit
-                 "b5477fd1107cf95e773d1fff44a49881f28bf3eb")))
+                 "7f7e25117334c9c13bbc5a925bd0a95a2b0965d8")))
         (sha256
           (base32
-            "02iwv817hp5gpw2apvnvxfn3gyvbhmfk2gl1rrvjzaig4zkhhy2l"))))
+            "1a3sya5hjgr3sl4q37dv5aq57lvpqass56nrh5kw0ghws8cx3xji"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-corfu))
     (home-page "https://github.com/galeo/corfu-doc")
@@ -20708,17 +20708,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220410.1627")
+    (version "20220606.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "4257e59dafbffb2616d240f84c5c25770ee28cac")))
+                 "d5d0cfbfbcd037ef8f84f41b2adc3f5a23baa11f")))
         (sha256
           (base32
-            "1ddzydqrgz2c12s24gy3c1gb2d9344z7ykxy2yn5gn6dzjynfnl9"))))
+            "1q81ddnvdsfmfas2sfkxzpcr51f8zmmwmig0p3i3hcc9jf1wviid"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -32199,17 +32199,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220606.631")
+    (version "20220606.1512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "d48c72490b93d082c76cfb07190d855837159334")))
+                 "6c8627d3b3cc029589b519a0a019af13d0ad29be")))
         (sha256
           (base32
-            "02jqy498mlsmgfjf6x02357dd3928qkb2ys1v0nrjnlmydqhsylk"))))
+            "13fajzxcvgk0nb5a42amya1pw17hnnjlhfbhminmk81p3yisj3f3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -42174,17 +42174,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220605.2315")
+    (version "20220606.1553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "7240323da4665a6b54f31a64f98d8b04228423e6")))
+                 "1e77aa133b1bed8164a927b9090af839d0383774")))
         (sha256
           (base32
-            "0a1rixcncxd895hqnk5qd73irzdcibpq20yfchjsijdl3b7jnvmi"))))
+            "0jiip3gcrqvm91bcv647j30kqxbpfqi10w21zi986ggdjjhdcdjs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -67204,17 +67204,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220605.2030")
+    (version "20220606.702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "700c7932dcff775a7686418e3a15941a36e9baac")))
+                 "ae5ef019291a95443f0d9e97bad85f612e6a8e76")))
         (sha256
           (base32
-            "18ykc6qc2pvhr1n3plzn60sakl5dqd681fl2jf1kgh47q75kk0ls"))))
+            "0myxmg5qhsacmwiwknkb3y6ywh4q5kc84zq0lwlcc28i27pkcad1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -76654,17 +76654,17 @@
 (define-public emacs-nxml-uxml
   (package
     (name "emacs-nxml-uxml")
-    (version "20220130.1405")
+    (version "20220606.1213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/dpk/nxml-uxml.git")
                (commit
-                 "94440741f7e8b83504d53991f26f63b4855cce27")))
+                 "95bbd0018ab218b9f39f5bf1f1e809f60fbc3edc")))
         (sha256
           (base32
-            "17k0d6ik2zj99kdvxdj5jg2kjj83lpy983mgcr3vv36axlw58wyr"))))
+            "10rah19x3pnvksi7ikji36i5bci9jhh6xjqlv6cn6xm7fdwrrkd8"))))
     (build-system melpa-build-system)
     (home-page "https://gitlab.com/dpk/nxml-uxml")
     (synopsis "MicroXML support for nXML")
@@ -85732,17 +85732,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20220603.848")
+    (version "20220606.1210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "622a5a6e853e5a4c7f2b4c53e2ac0edde354b07c")))
+                 "468b147ee85b4e963eaac46b8e8428fe740997c4")))
         (sha256
           (base32
-            "049xpv5l50zj85gcpvbp6dlrh714jwy3cmiwzv7qynpjaz12l1h0"))))
+            "0wn3jw9845rhapwhxa4dvslk1bk9brzl3k5vq9lk5wip2c8zqqrq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -93256,17 +93256,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220606.455")
+    (version "20220606.759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "b6bdadf10670c9ecc435e2e3cec973bfee430fc2")))
+                 "66583bd085d728c19060e9fdba3c57d10868f581")))
         (sha256
           (base32
-            "1ydf4nppp7didj85vs2k8ki9qpmv0abk5dnmxgqm658ls4s0az5i"))))
+            "02z7l9w8ppn5anwqnsgnsq7wsrlf5fp60savjcsagrdqz8jwg2a9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -105746,17 +105746,17 @@
 (define-public emacs-ssh-tunnels
   (package
     (name "emacs-ssh-tunnels")
-    (version "20220530.9")
+    (version "20220606.1229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/death/ssh-tunnels.git")
                (commit
-                 "21770eac179b03cd3c6c58048c021817b2f7cb55")))
+                 "191013b83f3ec3214394a1ed698c4cf38e4d9047")))
         (sha256
           (base32
-            "09f9kawjgvrl16yc0nf46rjv22jz8n3bdp5cfz9chgz95mvxd5j1"))))
+            "0l50d8vkfc5hv1j5j807a398ghv4ap19mpiv75c8l5k1mbrysald"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/death/ssh-tunnels")
     (synopsis "Manage SSH tunnels")
