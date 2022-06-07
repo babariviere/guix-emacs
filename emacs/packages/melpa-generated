@@ -16858,17 +16858,17 @@
 (define-public emacs-corfu-doc
   (package
     (name "emacs-corfu-doc")
-    (version "20220606.1111")
+    (version "20220606.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galeo/corfu-doc.git")
                (commit
-                 "7f7e25117334c9c13bbc5a925bd0a95a2b0965d8")))
+                 "616a2a9fc6fb3222ea2273435ddbc63eba72670d")))
         (sha256
           (base32
-            "1a3sya5hjgr3sl4q37dv5aq57lvpqass56nrh5kw0ghws8cx3xji"))))
+            "0hkcpwkwz9ls2yawlpi2zx2zvrggyqc5qrnl1q4fc3dajnkl1gy4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-corfu))
     (home-page "https://github.com/galeo/corfu-doc")
@@ -42174,7 +42174,7 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220606.1553")
+    (version "20220606.1543")
     (source
       (origin
         (method git-fetch)
@@ -66551,17 +66551,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20220531.1734")
+    (version "20220606.1727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "a715f41651c83b423ec008a060e960f807c29fa5")))
+                 "1fdeaec361abe67cdb3a31285c2fe37ce4be99dc")))
         (sha256
           (base32
-            "00h9rnicb7k4asnwxw54k6y75776jl5q99ibmy059z2pwm4assaj"))))
+            "1kfp4h047xifh5wijhpfhc6vc4xksbk5z0plnygnx578f1jf5p01"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -88339,19 +88339,18 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20220120.1959")
+    (version "20220606.1831")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "5f26bec865ee159dc30d3922f17bc42adfcfed50")))
+                 "81717a56b74d7ab76a1126eb4f45167d5eb61c32")))
         (sha256
           (base32
-            "0132az773sk6w1wdz4a1wxmxy5w69x4h2jrgd67h94k845nyl348"))))
+            "1bnn1lwsqd9rlx1qjrl4h2v6j29cnhagd4ay82psq309yvr4av5x"))))
     (build-system melpa-build-system)
-    (arguments '(#:files (:defaults "lisp/*.el")))
     (home-page
       "https://github.com/emacs-php/php-mode")
     (synopsis "Major mode for editing PHP code")
@@ -93256,7 +93255,7 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220606.759")
+    (version "20220606.1339")
     (source
       (origin
         (method git-fetch)
@@ -115627,17 +115626,17 @@
 (define-public emacs-vterm-toggle
   (package
     (name "emacs-vterm-toggle")
-    (version "20220527.1422")
+    (version "20220606.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jixiuf/vterm-toggle.git")
                (commit
-                 "2809e6b0cab6b21637e28a7e5f10a4a478fb48ba")))
+                 "02519323aa0a2e6af641cd205b230f48a04a5ca3")))
         (sha256
           (base32
-            "1b02y5r7i85r2dqf0g15wc1m2g8lp1zk4zrrijz5xyzb9z40imbb"))))
+            "15na73bil1kfyg3915d1gm7lsl6k4p81x7ybwr79lx8qpw9rlqvg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
