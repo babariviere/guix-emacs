@@ -19514,17 +19514,17 @@
 (define-public emacs-dash
   (package
     (name "emacs-dash")
-    (version "20220606.2204")
+    (version "20220607.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/dash.el.git")
                (commit
-                 "ae0ce7959e647c2a5a9553fd4b8dee844e2fa357")))
+                 "0c49a33a61c739eb12e4c3680138c1659926202d")))
         (sha256
           (base32
-            "1l2lxsrsrbcdcvd7vlsrrg60bcddbyhxvkx7r18jcvq7izl5j5fz"))))
+            "0wv0hkifzn8qmwa5pxs6lc2dywc0pc6wyfcf13kvjhnj7md4wplh"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("dash.el" "dash.texi")))
     (home-page "https://github.com/magnars/dash.el")
@@ -34669,17 +34669,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20220602.1136")
+    (version "20220607.1258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "185bed4c00cdce9938eb905d63ff96d489ed6ae6")))
+                 "c9511634704fa012717aa8bc50e6d46cfd5bff97")))
         (sha256
           (base32
-            "01kqd98kz65cpbs7r370gkxrf20w4kzdwc0pn5yl950pb72m0scd"))))
+            "1z4b4dhmmp7c4d1j79737i5plhc8x9f4xiaivxf5knbpasc8jln4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -43800,17 +43800,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20220506.1936")
+    (version "20220607.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "09ed9e739b9403520c63bfa21a53892305ffb963")))
+                 "2dfeaa6839c643a54d96c9f855bae11d5cba2453")))
         (sha256
           (base32
-            "0vkbyj0v3v7g5f4lfpjd71pl0hb52wvqq23ip3mdavnj3cs9jvsp"))))
+            "052zdj08296s34b7a5p6fapxym7ni1mlw3iqpvw6jhkv9qihmqv2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -48726,17 +48726,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220605.411")
+    (version "20220607.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "3b8e7c108b938b44d71dc0044837d928c3830302")))
+                 "9e706bc154deab9b5932d7849eff249f7c4bf1c9")))
         (sha256
           (base32
-            "0p2gmkyd3gzx7fcq98xj8f2zyby8aj3xlhdbrs8r791v18l41kmc"))))
+            "1kgh0srn59sbjkrjb1kwvyiyklp3aj6bf8c161b3k73g6gpz3kj4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49534,17 +49534,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220605.411")
+    (version "20220607.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "3b8e7c108b938b44d71dc0044837d928c3830302")))
+                 "9e706bc154deab9b5932d7849eff249f7c4bf1c9")))
         (sha256
           (base32
-            "0p2gmkyd3gzx7fcq98xj8f2zyby8aj3xlhdbrs8r791v18l41kmc"))))
+            "1kgh0srn59sbjkrjb1kwvyiyklp3aj6bf8c161b3k73g6gpz3kj4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -67204,17 +67204,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220606.702")
+    (version "20220607.937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ae5ef019291a95443f0d9e97bad85f612e6a8e76")))
+                 "358b5df8df10b4837193af78c2e72df2c381b1fa")))
         (sha256
           (base32
-            "0myxmg5qhsacmwiwknkb3y6ywh4q5kc84zq0lwlcc28i27pkcad1"))))
+            "1bqd1ga9jcwhkcm527sisx65lvh3lfsg01xln0iilyi2y7ahvzy7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -85732,17 +85732,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20220606.1210")
+    (version "20220607.738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "468b147ee85b4e963eaac46b8e8428fe740997c4")))
+                 "70529b2ecba5f3a037be8b2c6ecbca769c64b00e")))
         (sha256
           (base32
-            "0wn3jw9845rhapwhxa4dvslk1bk9brzl3k5vq9lk5wip2c8zqqrq"))))
+            "1s26jbxlpqd9p1ahmxga6m28d142l1lnv315bkzsf642kk57446k"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -93255,17 +93255,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220607.430")
+    (version "20220607.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "ca9cf25673c75d1ca6a322e0f59a019e40a2c13f")))
+                 "b9732d28213af0937962703d82d7b1f91f23836d")))
         (sha256
           (base32
-            "1ivk7mhri32fil66kz7a4xn01kxggr07w5dj9sjmbc7sd8xqh8p3"))))
+            "197vk1zi48k7i01yb8nk13aw6ibc3cb8si56w06g25q77zildv2x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -117779,25 +117779,19 @@
 (define-public emacs-with-editor
   (package
     (name "emacs-with-editor")
-    (version "20220506.420")
+    (version "20220605.2036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "7348f6d5ff90318a1c948d0499d8dc6721fe851a")))
+                 "7344bb67855278e3884e970b681c5aae09717920")))
         (sha256
           (base32
-            "02m44jrn5yznx4j6dwxsdjxbz8ik0r6mjy6cx9jda2kh7yr9pnc9"))))
+            "0h7718diwk65g50lldy6apmq1mkmqi4hvajjk2qpjqxsjnj2fx72"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
-    (arguments
-      '(#:files
-        ("lisp/with-editor.el"
-         "docs/with-editor.texi"
-         "with-editor.el"
-         "with-editor.texi")))
     (home-page
       "https://github.com/magit/with-editor")
     (synopsis "Use the Emacsclient as $EDITOR")
