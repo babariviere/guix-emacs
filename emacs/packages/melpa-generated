@@ -2415,17 +2415,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220510.752")
+    (version "20220607.1820")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "7c382ccbc8b1b2d0e18d280b24ee2029dca070d8")))
+                 "e489b08aeae53c0288474495b5c0e6847ba1005d")))
         (sha256
           (base32
-            "0145agd3kg1m7ylishf4ypg6bc01jrps17rwxw0kdqrh3gp7xvg3"))))
+            "150p4aqg7dd3k277518ia3zsjkyn8f8a5msmgh9x812gypcrgcpm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -10011,17 +10011,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220606.1156")
+    (version "20220607.1615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "d69114e8bd44d08c30b3374f4d7032d73621f1c6")))
+                 "67c48f1c3609f1426f02c5d8b81e23b1e8b89659")))
         (sha256
           (base32
-            "1g8hr2szcvs6hf4f8f14givp0si9kfxxpmrvs8p9dm0p9rgw2ryz"))))
+            "15cq18pc97lhibz4nyyjavhgyalyg8wrc6wc9pzg2iq1gp0yrq2x"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -23633,17 +23633,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220601.407")
+    (version "20220607.1810")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "375a2cb087876172c814ce874435d69321e8ef3e")))
+                 "43170f11c1114c1b3e893e9c274a396a34e1d0a0")))
         (sha256
           (base32
-            "1m3pq0vwpg8kdjkkgbqrg4kz25ispjlsr909zf8zzz7rvbqyfd8m"))))
+            "099mq72q96bz464cp33cjmfjxxzpv66y3a73ij8y88v9k7jjmkyd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shrink-path emacs-dash))
@@ -26900,17 +26900,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220524.1830")
+    (version "20220607.2112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "f9b13a976abd5152accf33331b9285ec1b095156")))
+                 "61e3d10df55c8600f3a1f504dd718a1fe368ab50")))
         (sha256
           (base32
-            "08bzml0sli5a4dnfxz8a8dkjhc7pj9ddgfqi7bbxbm7npxhgym4w"))))
+            "1aswsj7b2913v6v22drl3xc5n286xyf7w0zp3681jpmsba1h2xv3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -34669,7 +34669,7 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20220607.1258")
+    (version "20220607.1618")
     (source
       (origin
         (method git-fetch)
@@ -54652,17 +54652,17 @@
 (define-public emacs-hotfuzz
   (package
     (name "emacs-hotfuzz")
-    (version "20220527.853")
+    (version "20220607.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/axelf4/hotfuzz.git")
                (commit
-                 "21fe545d5ff110aebc9ea157548614d2640cb863")))
+                 "50ea5b54c21dc6a2437e37b17c7ea14f8ba06771")))
         (sha256
           (base32
-            "0dnz7gips7qpafjjqllxpmagv55r795zfa9vbgg5kqd74mr4ldyd"))))
+            "11aw2b5wixf6qlh3b2wnnms4n1fgp23g1yy48ykb3g6hkwrs2nrs"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/axelf4/hotfuzz")
     (synopsis "Fuzzy completion style")
@@ -62365,17 +62365,17 @@
 (define-public emacs-keyfreq
   (package
     (name "emacs-keyfreq")
-    (version "20210630.1318")
+    (version "20220607.1613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dacap/keyfreq.git")
                (commit
-                 "7bb36e910ae04ff1dce387e3ce73b669d299680b")))
+                 "dd88193cd7a91a92113121191573758ea2a3ceb1")))
         (sha256
           (base32
-            "188055yg9fqw92p1wip7mx7nz5gz5jbwb6lgcjncxzs4i9v7w8kr"))))
+            "1rld3pwrdpgvpbn1pfwa71bb0kapv5a0ny0dh7ck2g07k1wql7lh"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "track command frequencies")
@@ -66551,17 +66551,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20220606.1727")
+    (version "20220607.1757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "1fdeaec361abe67cdb3a31285c2fe37ce4be99dc")))
+                 "a17cafb5445b584e8fa386709192317da5ac4530")))
         (sha256
           (base32
-            "1kfp4h047xifh5wijhpfhc6vc4xksbk5z0plnygnx578f1jf5p01"))))
+            "0ck9milv8jv0qxqbb77f1z5q36d8c3hwgryq3mxllc2i0mvssyq6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -68084,17 +68084,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220605.1458")
+    (version "20220607.1443")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "9b48dd7e3618ac3736f66ef964ae5e1fedd54f98")))
+                 "2dfeaa6839c643a54d96c9f855bae11d5cba2453")))
         (sha256
           (base32
-            "1xvsiczkahm5x7ld1j0pjdip0pb7vyhbgas24969wa3jfr2h3syw"))))
+            "052zdj08296s34b7a5p6fapxym7ni1mlw3iqpvw6jhkv9qihmqv2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -79537,17 +79537,17 @@
 (define-public emacs-org-auto-tangle
   (package
     (name "emacs-org-auto-tangle")
-    (version "20211115.543")
+    (version "20220607.2042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yilkalargaw/org-auto-tangle.git")
                (commit
-                 "ad3c332f062b5830e88b2ab13287a096ae434657")))
+                 "87b867b46e9d75bb65c6b4d02565c67e225bd429")))
         (sha256
           (base32
-            "05yrw59zrzxj1p8n65sk6mvy7jzik812mp9i2nsimwhlhn3si1pj"))))
+            "1zb7vcmhmjiqpbbhqrqci689rnpn10p985cs5jk9sgg66xsbrgs3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -92484,21 +92484,22 @@
 (define-public emacs-psysh
   (package
     (name "emacs-psysh")
-    (version "20190709.106")
+    (version "20220607.1642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/psysh.el.git")
                (commit
-                 "21250984ad8137aa3440ac12e52475ef03f19fcb")))
+                 "796b26a5cd75df9d2ecb206718b310ff21787063")))
         (sha256
           (base32
-            "1r0aiwdmj0y96faqvbz39wgxw91i9bj6rnwlj3a277pzlhzmyyxl"))))
+            "01j8dfgck3wlayh5spklfwvkzzckd0zwa4d5mrhpii2xsjy28r8a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-s emacs-f emacs-php-runtime))
-    (home-page "https://github.com/zonuexe/psysh.el")
+      (list emacs-s emacs-php-runtime))
+    (home-page
+      "https://github.com/emacs-php/psysh.el")
     (synopsis "PsySH, PHP interactive shell (REPL)")
     (description
       "Documentation at https://melpa.org/#/psysh")
@@ -94488,17 +94489,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220530.1615")
+    (version "20220607.1810")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "90b5fd100208969b7880a5e2e539c90da34fab47")))
+                 "1c88636d5da4537b897e7b9b23edfd9495a24d10")))
         (sha256
           (base32
-            "0af8fjy5b58jif9xnj1m0lz0c8sdz1isd28l3x2nzv9ya5y7gmqp"))))
+            "12nfrdvgndn11a17zaawv2i6mbjfiw1gih683l0cj0xknx11rg8j"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -118213,17 +118214,17 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20220515.1728")
+    (version "20220607.1715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/akib/emacs-workroom.git")
                (commit
-                 "5da61d48fb1cf855ac76ff5bbb126d4033212678")))
+                 "c38489669e8b0ddc7a6a13544a099fc51b65d388")))
         (sha256
           (base32
-            "17mg84l78widc1gqcny2v53civ77z8n5xc7bxkj7h4xs573nl0ag"))))
+            "1jng8a0qwsdxghpisvibjgxd0yr7l4nn5gvv16fpm2vfqjgaglwh"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-workroom")
