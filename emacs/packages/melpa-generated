@@ -15966,17 +15966,17 @@
 (define-public emacs-composable
   (package
     (name "emacs-composable")
-    (version "20201024.1458")
+    (version "20220608.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/paldepind/composable.el.git")
                (commit
-                 "6f2efaa7018feb854720cc2518e4274ad708f793")))
+                 "205a69c64ea95ef67070423c31ed70ec44ec980c")))
         (sha256
           (base32
-            "101shj0z8piww7idb6ha67synhw12x1lwgp3w48w1khrcw43zq7f"))))
+            "0wlqfdiab60ciznrl9ny4rspva7xdwl8w9k8jxd2gpcb11fy1nn0"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "composable editing")
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220603.1144")
+    (version "20220608.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "853c890bc754a024dbe4cfbb286ea0583b359213")))
+                 "f47331477af930a9759cadc9ade8cf81bc03497d")))
         (sha256
           (base32
-            "0dd6j5mw5m6ziawkp9i037psnm7bya0jaiax4hshix1hsf84pjpm"))))
+            "12h6z8z51bcnvlsb3274zxfpg3rrfhxbldyar0jn2ix0msy6kc50"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23633,17 +23633,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220608.235")
+    (version "20220608.936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "01e27852e3eb3dd45faa5f15151088688a842781")))
+                 "999790c984a83288c2b62d0a7294123f8eaf4b52")))
         (sha256
           (base32
-            "0vbr6h72rhbv6y1jzdpmxb6l6zw1wa16lz9bkz7ax9vblp3smyfj"))))
+            "0skdczk429p5cp8k24wc9inv6dripm9m5fb306nifq3akpc37dvx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shrink-path emacs-dash))
@@ -26235,17 +26235,17 @@
 (define-public emacs-ein
   (package
     (name "emacs-ein")
-    (version "20220604.1147")
+    (version "20220608.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/millejoh/emacs-ipython-notebook.git")
                (commit
-                 "5d031ae6f1159780d13da1bc56602fe261574ac8")))
+                 "7b9b14435c1dee85dd1eb5faf5d58edfa5ca5cbb")))
         (sha256
           (base32
-            "064h8k2sq1xyi8y64ddgacysgr948y5j5mpgmgf9dzl8mwgd9gks"))))
+            "1k8qj7h0kshf5crpk05q7bmp7pn6mzzbj80vwd0x9w4dwyrw0kin"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -32795,17 +32795,17 @@
 (define-public emacs-evil-matchit
   (package
     (name "emacs-evil-matchit")
-    (version "20220603.846")
+    (version "20220608.1134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-matchit.git")
                (commit
-                 "a344ac8e495cb6b240a096c67a01399cbdc53895")))
+                 "271551560c3c8c066b29d335f781ff9b5aefe746")))
         (sha256
           (base32
-            "1ll6h2f7jpc4v64y5a3jj3c84i6lq1cbz5i2syfqigjdl8v7fykg"))))
+            "1vzpmr33smi1kgcrxj7jl8wvk1ffvy2bf6p6pki0r53lk03mf8fr"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-matchit")
@@ -34669,17 +34669,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20220607.1618")
+    (version "20220608.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "c9511634704fa012717aa8bc50e6d46cfd5bff97")))
+                 "d2019d4f9625bcc44349c69fe46d6645fd9ff4ff")))
         (sha256
           (base32
-            "1z4b4dhmmp7c4d1j79737i5plhc8x9f4xiaivxf5knbpasc8jln4"))))
+            "0vml6p19zwab2zrln2g6g2hb31czlz2rqln5wi8lc37h8lgfx7fy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -71479,17 +71479,17 @@
 (define-public emacs-mips-mode
   (package
     (name "emacs-mips-mode")
-    (version "20211114.1645")
+    (version "20220608.1204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hlissner/emacs-mips-mode.git")
                (commit
-                 "5676174bea9a5780ddd33d2d8111b8678dfa4e99")))
+                 "98795cdc81979821ac35d9f94ce354cd99780c67")))
         (sha256
           (base32
-            "0nlxhchcy3swmyfzdd8qmdzq05a4lzlgs1psnsvfjbbi9w8g8w5v"))))
+            "1wpgp08q1f2gbkn4ksd3chfz2s3cn8fdfyz04wmj37ss43mai355"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/hlissner/emacs-mips-mode")
@@ -72046,17 +72046,17 @@
 (define-public emacs-moe-theme
   (package
     (name "emacs-moe-theme")
-    (version "20220111.1220")
+    (version "20220608.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kuanyui/moe-theme.el.git")
                (commit
-                 "0aad6ff44b9ee496d8c1053c3d7cbc59e11e3999")))
+                 "4d9e876d24d69d18c4111fa42bd34fe01a124866")))
         (sha256
           (base32
-            "0x9x7f53wv02a3i9sjhmkx0bhk93civgq52rfi2maawshh8cwwdd"))))
+            "1a18pg8fwx0iicxrab2qj7wfh05pbqb4bh13nhlp2r94w024idd9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kuanyui/moe-theme.el")
@@ -110784,17 +110784,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220513.1925")
+    (version "20220608.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "dd7d35b52dda7bf503b8d4c23d97150152eebc41")))
+                 "6692cd1346ce0b0a1fbdcbfa496b49365bcd660b")))
         (sha256
           (base32
-            "1sqbjxxl631w3i7hf32a672f8bkf1p76w6vwq26i8r8ay2yrs5pq"))))
+            "18lj15y63lx57vzximsa0f7rhbr4vr39abj0r4b7fl5ivs46k3gy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
@@ -117780,17 +117780,17 @@
 (define-public emacs-with-editor
   (package
     (name "emacs-with-editor")
-    (version "20220605.2036")
+    (version "20220608.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "7344bb67855278e3884e970b681c5aae09717920")))
+                 "cfcbc2731e402b9169c0dc03e89b5b57aa988502")))
         (sha256
           (base32
-            "0h7718diwk65g50lldy6apmq1mkmqi4hvajjk2qpjqxsjnj2fx72"))))
+            "02kdsksjn76g4fcqxnidzdy1zql25650fpdjjsx2ccdnbyj9fqax"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
