@@ -23449,17 +23449,17 @@
 (define-public emacs-docstr
   (package
     (name "emacs-docstr")
-    (version "20220605.1058")
+    (version "20220608.532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/docstr.git")
                (commit
-                 "9e3d606d5a6042facaace496046bb5b56d7c65c9")))
+                 "0a48429c2d0c2aa1de34ea24d2d3f9c8176519de")))
         (sha256
           (base32
-            "1zi7s2qwv3z7sx84pfk82r4m3s4jwx0yd4qh0zyqylwwmaqyhl7q"))))
+            "145b9rgkrsxbnwjplkm6qx6bdzq1zgx99qrwnrl9kkk13091xhk2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (arguments '(#:files (:defaults "langs/*.el")))
@@ -23633,17 +23633,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220607.1810")
+    (version "20220608.235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "43170f11c1114c1b3e893e9c274a396a34e1d0a0")))
+                 "01e27852e3eb3dd45faa5f15151088688a842781")))
         (sha256
           (base32
-            "099mq72q96bz464cp33cjmfjxxzpv66y3a73ij8y88v9k7jjmkyd"))))
+            "0vbr6h72rhbv6y1jzdpmxb6l6zw1wa16lz9bkz7ax9vblp3smyfj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shrink-path emacs-dash))
@@ -28879,17 +28879,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220527.2228")
+    (version "20220608.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "7eab6ea6182581f508c20e9a60c40c106a3539bd")))
+                 "63f0d4dc09afb058450dc10dd3916027a93ee487")))
         (sha256
           (base32
-            "0sk7f9v3kvzzr8aba9vvradw8697spkajymkrms4l8a307plccmp"))))
+            "0q8l4ckdmcagiiccvb0s94gc1lywgqh02d8p16ygpcfxz8967w4a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -29920,17 +29920,17 @@
 (define-public emacs-equake
   (package
     (name "emacs-equake")
-    (version "20220424.350")
+    (version "20220607.2211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacsomancer/equake.git")
                (commit
-                 "ea5c0570f58b8e62249e001ed434a1056a50abe7")))
+                 "1f1f269edd27ffce8b6ead5b317e49fa433b039f")))
         (sha256
           (base32
-            "0l85xks1m8yprd5q84gp0ryaagjd74kwb40r0mwdly6y4dzi0kvr"))))
+            "0am0lixinl10x6j62hz86wg0pdminmm74vfyklzxh0yhvbvlcc5l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -72385,17 +72385,17 @@
 (define-public emacs-mood-one-theme
   (package
     (name "emacs-mood-one-theme")
-    (version "20210221.18")
+    (version "20220608.25")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-one-theme.git")
                (commit
-                 "42e402a89473458f55a71c5bbe785575e9a927ba")))
+                 "65e98bafa0277b9c706c6e3564f11edbca5d5699")))
         (sha256
           (base32
-            "1ma5138src6iglkhd2h8w9k4gqqaxvsngz08cd4v2s8dhqkcayw8"))))
+            "1sc8z0fp7q9xkjm5d2x8gv0l0km4m28q71li1pkvdzmxmzn40ayd"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-one-theme")
@@ -93256,17 +93256,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220607.943")
+    (version "20220608.343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "b9732d28213af0937962703d82d7b1f91f23836d")))
+                 "21eb4d60d0af85099ddd820e4a367e662185beac")))
         (sha256
           (base32
-            "197vk1zi48k7i01yb8nk13aw6ibc3cb8si56w06g25q77zildv2x"))))
+            "1bj63c8hp05hah0cwsn4df3wjqfp556brqbhhr4n5sx57mfgr2xj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
