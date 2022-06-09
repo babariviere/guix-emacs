@@ -23633,17 +23633,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220608.1839")
+    (version "20220609.1003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "685e26a9f44c5430b65bde4f94661bde87cd114d")))
+                 "5b010db4a67897989410a4225de4d3f422514a60")))
         (sha256
           (base32
-            "0nyq25vly959842997n4jdp8ncppr813xk194whm7z2pj1j7p5xw"))))
+            "1wim8zsjkpf573g5akm7848ykqi5wh4f0g7qabsjzjr5b3w53ppv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shrink-path emacs-dash))
@@ -23682,17 +23682,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20220526.2301")
+    (version "20220609.1038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "ec199971005e720f138b3bf12b4004714a074c8c")))
+                 "6aeec22d766acdcd2ac5597ed5e0caffc896284a")))
         (sha256
           (base32
-            "0457frpjinqg9vzbhjdmz5vcw22bg1n3g4gv7j80lw8lbj9ljr61"))))
+            "08r3vcljklhgk6nxv06fvaxy0w9pf5y009zdrj9gs55sbzf4dffz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -56354,17 +56354,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20220519.917")
+    (version "20220609.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "3c1f8f8410d909229d12d0227399f2d5c16b1ea4")))
+                 "9bc7697406f719258d93835df3c1761efbfecaa7")))
         (sha256
           (base32
-            "1is7n7j7h6w3x5i7byqn3kc41qk2p5wb0cdnr6cjxvlc3zar3wb0"))))
+            "1d1f7kx0fw632js7qd1sra5wbpwyamcqs5wpzhyynmr5ybb0vyl7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -82068,17 +82068,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220601.2032")
+    (version "20220609.1156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "cbe9e870a5f488cdfc5e6a3b5478845ea8acdcde")))
+                 "d6ef0ffa6c26009f549b034c8c9f5a47ecdfa82e")))
         (sha256
           (base32
-            "05js4f3xnms8c06s63agmhfcwj6cjsp2z83pqmlwga8h74z7f5y7"))))
+            "1bxz9s8zci1nnk1bnzlwcl35s1v6cvv9hbw2rfsqxzdwc85yanxy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
