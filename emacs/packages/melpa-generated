@@ -8205,17 +8205,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220527.2237")
+    (version "20220609.2036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "1f87dfcca69decc9db651af6b9f38034ab9fbd51")))
+                 "78cae244b384b22bf48e8880a46b1b82c4f89c05")))
         (sha256
           (base32
-            "1k2lp2g6nsm843gf3a5ddck75pg62dpvnnpjpwbxzjhraswr9z5c"))))
+            "1qnqqp92ly7czg41swiypfsfb048ahnk28kfd3w9m5k5487hy9c3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -29040,20 +29040,22 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20220422.1318")
+    (version "20220609.1859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "22f3d9e5359c565b33f55715f90fbde35e4f675e")))
+                 "b55bc4fe185799e7821322b60d1707cba2adddfc")))
         (sha256
           (base32
-            "17lkc5r0zg7374fv9fqmnpdwvcyjl6q61gnwrvj3wc7ng5njjihh"))))
+            "01gx969x4gsgb26qzrf6g2pj27wf1mvb0z9brhna0rcdl58dnd4z"))))
     (build-system melpa-build-system)
     (arguments
-      '(#:files ("*.el" "lisp/*.el" "doc/emms.texinfo")))
+      '(#:files
+        (:defaults
+          (:exclude "doc/fdl.texi" "doc/gpl.texi"))))
     (home-page "https://www.gnu.org/software/emms/")
     (synopsis "The Emacs Multimedia System")
     (description
@@ -34827,17 +34829,17 @@
 (define-public emacs-faff-theme
   (package
     (name "emacs-faff-theme")
-    (version "20220527.1238")
+    (version "20220609.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
                (commit
-                 "cb0ce3ef4430eda81aa6225f7083beb8ae03a425")))
+                 "49b9e3cc48ed27ce56c3f8a9fc2fb3d700c8dd8e")))
         (sha256
           (base32
-            "0zq8k1ggv40fdz6a5ri5nxg7yznvlwx7j3cpl7gig1v1p97h0b8k"))))
+            "0ysxa9l894wx639f4yqic3x1m9hs8rfpbpd435m5fmfw2kic30x1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/WJCFerguson/emacs-faff-theme")
@@ -66551,17 +66553,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20220608.2015")
+    (version "20220609.2003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "b37079f93cb027a687b3ab4b5ee1c0697f3f6b42")))
+                 "6446ccf25f834519d7f5c71e5293b062d599b355")))
         (sha256
           (base32
-            "07pfq67k69czrnh4wbg2sr6j0r2g1b41bqyd0zzxympfsh91dnqa"))))
+            "1gnslcf30zpx4nsiimwskwgfwpx6ghx69b83azc0wpi2pj8gv40s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -67204,17 +67206,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220608.1840")
+    (version "20220609.1822")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "aac642cfdddb1c35ea88d28f0875112b1bdf82cf")))
+                 "2ec52b7f536f11b695ca9a83055b7abed1c868df")))
         (sha256
           (base32
-            "0adqahzmvwjhckx3zgsh7yaj4w6yf4rvwvc1rjdrkjg23pxxcal7"))))
+            "041kkpj777l97sxjs1dirr653pzpkd3g1h9sihnjrfrcn7g68hcm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93256,17 +93258,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220609.246")
+    (version "20220609.2201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "1e0834c456938afccbd0380e79b5cf22d3e82fae")))
+                 "005bc95678a0f86319e57634acd35cf5eff1333b")))
         (sha256
           (base32
-            "08xyd9mrdb34gxrhcwhxlw31d1pk3x5z3iqmsa2kjhidnq4xm6wh"))))
+            "10r4khd1275iwyylh093qj84d53scc1wigx19xqld2f96j3ficdr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -102462,17 +102464,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220526.1343")
+    (version "20220609.1831")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "1f9a95f3a07b2aa5b01d8be427b90837be5cea6a")))
+                 "618f8de186ae3f8faa467cef79e45b28826dd46b")))
         (sha256
           (base32
-            "1gs5dg18nfyvxkmgn7qsmy94sva7k1q223m9455rld27g6g42bly"))))
+            "0scz59nijd7v66cxnzwzc07xns2adaiw640v2zpnyp4pymvrznml"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -110149,17 +110151,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20220525.1238")
+    (version "20220604.1042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "d9ff61d8e5393952e19da434b9f226be75eee493")))
+                 "1051753f371535c0af2008a372a456b3769c7f69")))
         (sha256
           (base32
-            "0649npmyj4x1hi57dic7gmr49723q0dv5ccj824qjq3jb0ng21hm"))))
+            "1nfl9r99w5gfdf7z00f4kha4b9z3zw4x9nv0qnbph4xb6milc4dj"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
@@ -120620,17 +120622,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220604.1536")
+    (version "20220609.2215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "2dee0650892494410c0e0a340c565b79606f53e4")))
+                 "4ae3ed5aa44cc9fa415c638b543c9342aa296ae1")))
         (sha256
           (base32
-            "1bf19614bp7954j4d23d7mx30jshvb6dpd4cdpxkxil1h7dc7f5q"))))
+            "1pjsz3gkx2ndc620ns3py2b1iiir0xndha0yw6an8ar44rq4d9bd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
