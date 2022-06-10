@@ -10011,17 +10011,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220607.1615")
+    (version "20220610.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "67c48f1c3609f1426f02c5d8b81e23b1e8b89659")))
+                 "86a1df6cbacd0e05b801208f83be5ca6c1cc8cec")))
         (sha256
           (base32
-            "15cq18pc97lhibz4nyyjavhgyalyg8wrc6wc9pzg2iq1gp0yrq2x"))))
+            "0b37qz3dvlsmhigmipzxq9i0z1yz6n95iiqzfdrl42q9bl7fd0k0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -16060,17 +16060,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20220610.22")
+    (version "20220610.1424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "9825001ddb172d9224276170dd7fdfa3cf8c39a6")))
+                 "ed92b4bab3b2a7868aa1b70d852cf5bdd082ea6c")))
         (sha256
           (base32
-            "1qhxf6fgq7c65xx5kf7qhrybkl1wi3p56qdv72qb752xr86b6w55"))))
+            "0zqvykh29p5f7zba16bzkssa6jigv7yr3h89d5h82r4xzg4rkadj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -18372,17 +18372,17 @@
 (define-public emacs-ct
   (package
     (name "emacs-ct")
-    (version "20220610.642")
+    (version "20220610.1146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/neeasade/ct.el.git")
                (commit
-                 "668e3fbdc959cd4ffed3c77b5a129e5496a28009")))
+                 "dd883e2315aba099e32fba9f1039437551b96ef3")))
         (sha256
           (base32
-            "07n6yc3b5bcqhdk00nac4s6nxjlw4wmy0byzm9qmcx576qma9la9"))))
+            "0qky9zjp0hy1335brkr16sifcjgy2w7nmffiqf5i501kkjy3z53c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-hsluv))
     (home-page "https://github.com/neeasade/ct.el")
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220610.537")
+    (version "20220610.1450")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "cae89cc2e66a71824bf1fc1c00c96beb3459a844")))
+                 "3d3230842632356ee9d4e6a67d419b0a5335e239")))
         (sha256
           (base32
-            "0q8f9wa8vr3j60q3wff63kmf7nnbxxshxs4azggah68hzmk9m1ms"))))
+            "077lr9j2l4hwg2wgbcn0lh2xrxsa2wgmni381svad1rm032lhfhm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -31474,17 +31474,17 @@
 (define-public emacs-ess-r-insert-obj
   (package
     (name "emacs-ess-r-insert-obj")
-    (version "20220531.31")
+    (version "20220610.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/ess-r-insert-obj.git")
                (commit
-                 "105a8edf97cc1e82ce1e959e7b7bd049851a255a")))
+                 "2ded9c23d0af2a7f6c0e02f9ea4af0e5b3cb7fb4")))
         (sha256
           (base32
-            "02ydx9l074wl4f57b0l7lv2vnjvj8rbzppjd2gqh5g7gpy9lggv6"))))
+            "1rc9hk1jsdfdlq1vfbz8yvg47qvyk19y2ki1w7qsvm8v3sviw959"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ess))
     (home-page
@@ -60527,17 +60527,17 @@
 (define-public emacs-jq-mode
   (package
     (name "emacs-jq-mode")
-    (version "20200604.833")
+    (version "20220610.1119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ljos/jq-mode.git")
                (commit
-                 "1af31ba701cf844f938f840ed78867c9a28174b6")))
+                 "071c1c29bac30351ad338136f2b625e5601365cd")))
         (sha256
           (base32
-            "0zxqvy1vya0f0yrfp622hhf400cm5ygwl7mjdj5scwfk2y852xw1"))))
+            "0idn59kab5y764vs9wnyrdfi4nf9rqyh727yv245afcq71g8zpzs"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ljos/jq-mode")
     (synopsis "Edit jq scripts.")
@@ -63829,17 +63829,17 @@
 (define-public emacs-latex-change-env
   (package
     (name "emacs-latex-change-env")
-    (version "20220531.726")
+    (version "20220610.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/slotThe/change-env.git")
                (commit
-                 "b5c31c9551bea70835762360a57407fba6e37b4e")))
+                 "02a718ee6c3e01f580008a0082bcc50ec02b122b")))
         (sha256
           (base32
-            "1q88pg2izz2m22n0xgd281vhna5znrs3q6nfg3v6bkxp73y17k13"))))
+            "17kjvkk7bhmaiibs3dk7y97jwxnwy5aj3n442p4jfy5xsypzy6da"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -93258,17 +93258,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220610.355")
+    (version "20220610.942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "2b33a80561cbc444b56a279815cc11b011e61fcc")))
+                 "38efab117f0dc47087d3e427923c4a87bd9b6489")))
         (sha256
           (base32
-            "0sqn2v8h2j33i8chi3c6n4x092cvh8fsn4w407y7fqbls4gn02g4"))))
+            "022cfmxzraaq5jd2ckw79k57fngfydwq8j5g5angkcfvh8q5w4im"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -116167,17 +116167,17 @@
 (define-public emacs-wanderlust
   (package
     (name "emacs-wanderlust")
-    (version "20220508.1540")
+    (version "20220607.2211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/wanderlust.git")
                (commit
-                 "e3cd5e39454737c0b641e114ddcc550122288a2a")))
+                 "8fc4e70989deb8ffdd92ce436c4ef482a0d90c90")))
         (sha256
           (base32
-            "0qm5gyss1mxwcxgc4s201c0bvh7kfkfg8fii766nfnddfywccj43"))))
+            "01iffc2zmqvjw9vn88vy5akirysm4s3x5k91rzn7dx3gfsl0da4r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-flim emacs-semi))
@@ -120599,17 +120599,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220604.1536")
+    (version "20220610.824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "2dee0650892494410c0e0a340c565b79606f53e4")))
+                 "0879cf809995da77efe8cb7b1957c428e3c04a48")))
         (sha256
           (base32
-            "1bf19614bp7954j4d23d7mx30jshvb6dpd4cdpxkxil1h7dc7f5q"))))
+            "119l9l58f95br5smr34bgpcg00g6kj5d76f0y0ynqj891fpzpinw"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -120622,17 +120622,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220610.614")
+    (version "20220610.845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "a1228e737fd7b85e84deb3dd74580ceacb2b996f")))
+                 "0879cf809995da77efe8cb7b1957c428e3c04a48")))
         (sha256
           (base32
-            "1zb2bjgplwcn5fjp33z0kq8xygslapay4vkf57hvzq8ddg5jv560"))))
+            "119l9l58f95br5smr34bgpcg00g6kj5d76f0y0ynqj891fpzpinw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
