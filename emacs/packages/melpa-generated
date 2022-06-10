@@ -16060,17 +16060,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20220604.1727")
+    (version "20220610.22")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "e4154db0dbfb7faf46b645eddfaad9326e4ea18d")))
+                 "9825001ddb172d9224276170dd7fdfa3cf8c39a6")))
         (sha256
           (base32
-            "1ily4abrn85fwy90hfm1nq9kwazb80amdgx4disaa2s62yx6k62j"))))
+            "1qhxf6fgq7c65xx5kf7qhrybkl1wi3p56qdv72qb752xr86b6w55"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -18372,17 +18372,17 @@
 (define-public emacs-ct
   (package
     (name "emacs-ct")
-    (version "20220514.2027")
+    (version "20220610.642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/neeasade/ct.el.git")
                (commit
-                 "6bc55d01780fa921ced0e648d04497e27e23fe54")))
+                 "668e3fbdc959cd4ffed3c77b5a129e5496a28009")))
         (sha256
           (base32
-            "03yfk0kwckb6gpp9ndnb9i1vcvx61wcy30jg35zkyfd2h93vjnp2"))))
+            "07n6yc3b5bcqhdk00nac4s6nxjlw4wmy0byzm9qmcx576qma9la9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-hsluv))
     (home-page "https://github.com/neeasade/ct.el")
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220609.548")
+    (version "20220610.537")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "14c6e1c927461e6162735e461c45548d6409ea8e")))
+                 "cae89cc2e66a71824bf1fc1c00c96beb3459a844")))
         (sha256
           (base32
-            "1wrsjhnch9pmdvch6mm9npxqrcg3i6gjf51r8571nf5whljfcaw0"))))
+            "0q8f9wa8vr3j60q3wff63kmf7nnbxxshxs4azggah68hzmk9m1ms"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -42176,17 +42176,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220606.1543")
+    (version "20220610.155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "1e77aa133b1bed8164a927b9090af839d0383774")))
+                 "c77689241a5ba367342393a512e76a78e73e3655")))
         (sha256
           (base32
-            "0jiip3gcrqvm91bcv647j30kqxbpfqi10w21zi986ggdjjhdcdjs"))))
+            "0crz2f4pirx4q5fra80d117110k2v7hm7m01v0yd24j95nngqw1y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -75266,17 +75266,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20220525.220")
+    (version "20220610.207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "92f96b83fab2649d224115bb71324cefe139ffc5")))
+                 "5beeda54ece58c8eb91ffcf2b365c832c9b454aa")))
         (sha256
           (base32
-            "0wcshry27wd5zvzpkmkh62mzrqrhkjibbs66s6g7c4yaqyiy14i4"))))
+            "1wqzfflmk9sw2pwl5jvxv05a0jx2f68ndsy2373xrrfm8kbm2imi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
@@ -81809,17 +81809,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220602.1651")
+    (version "20220610.334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "64a9234733904af20fd495861792f1d5c2b37190")))
+                 "c8c89be7bce2547e8ff24468680a0eb28f33449c")))
         (sha256
           (base32
-            "1w3vly4jh854gb9bgnwqfzry6214v498fmiwm491gi8m5g0d05xp"))))
+            "0x4xn01m3k5pfzns6j7zr9g7j9v5zj0pb5w8gksafcpsmrgcz8nz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -92189,17 +92189,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20220525.1052")
+    (version "20220610.705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "ac9ba11fda58800a1cec699fbda8811644847bbe")))
+                 "3bbe326bf2789bea90eed563dfb2895c54a6e7df")))
         (sha256
           (base32
-            "03bn22byy8p80wjdpal2w1cq2jkxdnivdd6xdkfh3vl5mb5vwc68"))))
+            "02sgi0f18y1l3ig7p9rnsnhax58qmggr2g2c7s7vsb8jwrh2a787"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -93258,17 +93258,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220609.2201")
+    (version "20220610.355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "005bc95678a0f86319e57634acd35cf5eff1333b")))
+                 "2b33a80561cbc444b56a279815cc11b011e61fcc")))
         (sha256
           (base32
-            "10r4khd1275iwyylh093qj84d53scc1wigx19xqld2f96j3ficdr"))))
+            "0sqn2v8h2j33i8chi3c6n4x092cvh8fsn4w407y7fqbls4gn02g4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -119408,17 +119408,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20220518.1229")
+    (version "20220610.120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "adb3e52a214a5154267085639f95a3ffae1ec2d3")))
+                 "f8803066ae50a17438e2c5040a1bca5ddfa17042")))
         (sha256
           (base32
-            "0ziqjiszidr6kwnpwnzfsi1as0iawjvbg7nb9jhkbzvbal1mxh2s"))))
+            "17k9pzqx8cr6gqvfq337v79xqx27xwlwsgpqa5sk0wpa4iya5hh3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
@@ -120622,17 +120622,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220609.2215")
+    (version "20220610.614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "4ae3ed5aa44cc9fa415c638b543c9342aa296ae1")))
+                 "a1228e737fd7b85e84deb3dd74580ceacb2b996f")))
         (sha256
           (base32
-            "1pjsz3gkx2ndc620ns3py2b1iiir0xndha0yw6an8ar44rq4d9bd"))))
+            "1zb2bjgplwcn5fjp33z0kq8xygslapay4vkf57hvzq8ddg5jv560"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
