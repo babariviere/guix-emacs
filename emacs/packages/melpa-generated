@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220610.2136")
+    (version "20220611.142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "22201848cfc12a1d25fc1666471486937ddc01b4")))
+                 "4cfefd1bc3b71f19acb631af109d92be3d40157e")))
         (sha256
           (base32
-            "180838dcr4asy1p4f7kyxza575zpglf1d99fpzfikv1mnq84f9y8"))))
+            "0n96yl5n7vdir5b9ibjfkc045hw4xv3z39ij2d9apzh4i6i7v6jq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -72025,17 +72025,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220605.1714")
+    (version "20220611.657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "6f2b048528d1c40bf5bead0d3e01beff28b78d2b")))
+                 "5d68eda0965caa159630901669a7b8ca42d712e7")))
         (sha256
           (base32
-            "0hr7202jhmjcx3z71dn2lzwv7980lalj0kbvjn6jjg4dm71fywjn"))))
+            "1swbfnvjhls9jdag2w3ljlvimwyzvm61bz7pbz7gav3i5vkn09m2"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -82225,17 +82225,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220608.1621")
+    (version "20220611.8")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "fcefc1b1b4027185dc35cc1fe16c268ae65bc076")))
+                 "bbac208fdae0712fd1ae8069cb6885eaf0e230ec")))
         (sha256
           (base32
-            "0brfmiz97sg7wz7pi148xw422jcmvcfk60rb9nfvw71xdnncqaj0"))))
+            "1ka1vpvxla7k2gwb0l51sl50glx0skgidg7w86fsfj739559yfwq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93258,17 +93258,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220610.942")
+    (version "20220611.225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "38efab117f0dc47087d3e427923c4a87bd9b6489")))
+                 "f2f3197a9fcf917aebd9370577c0b0bfd47d8c23")))
         (sha256
           (base32
-            "022cfmxzraaq5jd2ckw79k57fngfydwq8j5g5angkcfvh8q5w4im"))))
+            "03wr4c3jfimph0ag9a7f8lgki24r6slk022v2fclp582sx4vlmvg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -99399,17 +99399,17 @@
 (define-public emacs-scratch-ext
   (package
     (name "emacs-scratch-ext")
-    (version "20140104.516")
+    (version "20220611.630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kyanagi/scratch-ext-el.git")
                (commit
-                 "388c53cddd0466b451264894667ed64a6947ad67")))
+                 "43ddfb2b1890352b11a493b8b3fe840255b47b88")))
         (sha256
           (base32
-            "0ng0by647r49mia7vmjqc97gwlwgs8kmaz0lw2y54jdz8m0bbngp"))))
+            "0frc384sbgyqyw1bmliax5h35l5nivfscc8w41sgwm6s2jg3qc2g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kyanagi/scratch-ext-el")
@@ -120214,17 +120214,17 @@
 (define-public emacs-zenburn-theme
   (package
     (name "emacs-zenburn-theme")
-    (version "20220527.1800")
+    (version "20220611.542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/zenburn-emacs.git")
                (commit
-                 "b600814c8ddfe8812582f4ba4b62db817d665860")))
+                 "fd10925a3a8c39818a9e353b804ac8b1a847d73a")))
         (sha256
           (base32
-            "1d08g55z9m3cj3v9fvw647i6x7dz4g7z9c3y3yq35dlaz6rlsk0m"))))
+            "1pmpy63ava7yayzhwdg1c9p9h1by9jpsfnzaxlkp0hap76chnbv7"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bbatsov/zenburn-emacs")
