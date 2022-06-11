@@ -8205,17 +8205,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220609.2036")
+    (version "20220610.1604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "78cae244b384b22bf48e8880a46b1b82c4f89c05")))
+                 "3cea55cd44fe3b92034afa02315c4c37a42fbb2f")))
         (sha256
           (base32
-            "1qnqqp92ly7czg41swiypfsfb048ahnk28kfd3w9m5k5487hy9c3"))))
+            "149l8afn8r0sqm2qzkx5qxnasf76qs044w0zws323qz709x0df38"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220610.1450")
+    (version "20220610.2136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "3d3230842632356ee9d4e6a67d419b0a5335e239")))
+                 "22201848cfc12a1d25fc1666471486937ddc01b4")))
         (sha256
           (base32
-            "077lr9j2l4hwg2wgbcn0lh2xrxsa2wgmni381svad1rm032lhfhm"))))
+            "180838dcr4asy1p4f7kyxza575zpglf1d99fpzfikv1mnq84f9y8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -67206,17 +67206,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220609.1822")
+    (version "20220610.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "2ec52b7f536f11b695ca9a83055b7abed1c868df")))
+                 "9615c4c70b9ad5b2146d71d84c4969348903f6f6")))
         (sha256
           (base32
-            "041kkpj777l97sxjs1dirr653pzpkd3g1h9sihnjrfrcn7g68hcm"))))
+            "14jlwvavck7qvixcjwdwp3ac98mhwhxnbp27yp2yh2q4mn140iav"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -111938,17 +111938,17 @@
 (define-public emacs-tron-legacy-theme
   (package
     (name "emacs-tron-legacy-theme")
-    (version "20220312.1645")
+    (version "20220610.1746")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ianyepan/tron-legacy-emacs-theme.git")
                (commit
-                 "d775d9f348a942230ea57b6520e1eb56a5d67569")))
+                 "72655ce5ea0580cc23966821d2813e4d5e961f93")))
         (sha256
           (base32
-            "03v8izw95ksl104w4zgacy0wpcvl4x3kwzamvd11d7ndlzn3jqpy"))))
+            "1ba7abw53qmn0d1swxcvgdx6xgrx79ql0mri5mm7nxf7abifskxp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ianpan870102/tron-legacy-emacs-theme")
