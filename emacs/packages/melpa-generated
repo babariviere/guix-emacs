@@ -8205,17 +8205,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220611.1146")
+    (version "20220611.1724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "d873be807a736c9798dae6675c0ba201009ef322")))
+                 "c8b5ee24a289848a8c100bf04e29ae56130d0cf4")))
         (sha256
           (base32
-            "1rq3ryn7i2a41ik55qhl9s7ga1x891j82wpwgmyjf29zmcmsc54q"))))
+            "1n766s994kymppgn2gmv2qx7gm5wka5wcwhby1kpv7b2zq3xx9hr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -41812,17 +41812,17 @@
 (define-public emacs-frimacs
   (package
     (name "emacs-frimacs")
-    (version "20220602.1847")
+    (version "20220611.1858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pdo/frimacs.git")
                (commit
-                 "4713aa13c96183bccaeccc135b932f94522c2c05")))
+                 "7813f151b4e59c3c175c7117228f0dd70dcc10d7")))
         (sha256
           (base32
-            "02i6niy6axhwdxw56vqqcnin9iba8vblnmf0fprk06rwlxyj7svc"))))
+            "1nfappyq7hpcpknl0gz0q051pjvfxq93sgbxpm6g9h1yn04a41fb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42176,17 +42176,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220610.155")
+    (version "20220611.1853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "c77689241a5ba367342393a512e76a78e73e3655")))
+                 "1b27205245484a44439785460e989f49fb615dc5")))
         (sha256
           (base32
-            "0crz2f4pirx4q5fra80d117110k2v7hm7m01v0yd24j95nngqw1y"))))
+            "1s7assxlw2xhbqxx9wlz6yvy914qx7fj4z0zh07knsk3afizbf1d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -56472,17 +56472,17 @@
 (define-public emacs-ignoramus
   (package
     (name "emacs-ignoramus")
-    (version "20210515.1422")
+    (version "20220611.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rolandwalker/ignoramus.git")
                (commit
-                 "e509e134eeb81617414e5381b610108c967dbc45")))
+                 "f5e4a66191be12c2fc3cf42a5e0849fcc8518a3f")))
         (sha256
           (base32
-            "0f9fad3d1kf9r5560kgidkipildd7hnwiqv8siv22yd3axqi62dw"))))
+            "072i5l6547p9ilkd5gx2r554kfb6bv0h268hwx421wh0cak0w0dh"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/rolandwalker/ignoramus")
@@ -66844,17 +66844,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220522.1902")
+    (version "20220611.1536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "4d28d13d8b468bfb8f992da0ea450269d672562c")))
+                 "1be022324b6c081eddcf27de546bbf3e87cd29ef")))
         (sha256
           (base32
-            "1z936j2x5sy5hagn0i4a4j16ippmkh1d2ccd7kw6ilal4zi4smk9"))))
+            "09cy5ggvv0pxvnmcn6px9f961vdcmjlsrirggaa074zzk5xl39vf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -67206,17 +67206,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220610.1458")
+    (version "20220611.1817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9615c4c70b9ad5b2146d71d84c4969348903f6f6")))
+                 "32e07173fb0e8ead2073369f64ddc55b259e35bf")))
         (sha256
           (base32
-            "14jlwvavck7qvixcjwdwp3ac98mhwhxnbp27yp2yh2q4mn140iav"))))
+            "00740d5q7dhmr42rp75fpsmz30b5fha4bzlrdvflmlcwd0cgwxh3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73231,17 +73231,17 @@
 (define-public emacs-mu4e-marker-icons
   (package
     (name "emacs-mu4e-marker-icons")
-    (version "20220225.1137")
+    (version "20220611.1328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/mu4e-marker-icons.git")
                (commit
-                 "66674ee00dbf953e7d8c1696fb12e9b5b4b272bd")))
+                 "7926972c7f197330ba1cbde1a2fbab5dac7a61fd")))
         (sha256
           (base32
-            "0pswfq8apihjglysphq3g4la39hyhrms0g010rp691m2mgg1lp39"))))
+            "11hjmx6603kxl7drahbc3xpsmn5b8km6820h490wrg4z105zn8n6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -77320,6 +77320,29 @@
       "Documentation at https://melpa.org/#/ob-ess-julia")
     (license #f)))
 
+(define-public emacs-ob-fricas
+  (package
+    (name "emacs-ob-fricas")
+    (version "20220528.1935")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/pdo/frimacs.git")
+               (commit
+                 "7813f151b4e59c3c175c7117228f0dd70dcc10d7")))
+        (sha256
+          (base32
+            "1nfappyq7hpcpknl0gz0q051pjvfxq93sgbxpm6g9h1yn04a41fb"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-frimacs))
+    (arguments '(#:files ("extras/ob-fricas.el")))
+    (home-page "https://github.com/pdo/frimacs")
+    (synopsis "A FriCAS backend for Org-Babel")
+    (description
+      "Documentation at https://melpa.org/#/ob-fricas")
+    (license #f)))
+
 (define-public emacs-ob-fsharp
   (package
     (name "emacs-ob-fsharp")
@@ -80033,17 +80056,17 @@
 (define-public emacs-org-context
   (package
     (name "emacs-org-context")
-    (version "20210216.1526")
+    (version "20220606.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisirs/org-context.git")
                (commit
-                 "a08f1f607f819791b9b95ad4f91c5eaa9fdbb091")))
+                 "47bd45149cb74dab2ebecccfb918f6f8502a4f2c")))
         (sha256
           (base32
-            "18ld5kqr0l7nklybdwbwrnkrh06w71myfynbwp9rh8q4lhzh73jc"))))
+            "1vfwrv3vspdl2bj8rk6jawjk21qlrmby2465skbc5wiriknpyxk9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thisirs/org-context")
@@ -81181,17 +81204,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220605.2206")
+    (version "20220611.2149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "b352680d9ee8c6e6966cc21d595513c3595e3bb7")))
+                 "d0f13dc88781f51368c479c83d00753b78f55d46")))
         (sha256
           (base32
-            "1mc1m6x9bj92lfsbrxnasp78sc501mjiad4jrb5m1j42j0d1cs83"))))
+            "15r6ipl302x2pfm60a9n34hjxi5m7g1lgpbzjacn1jfs60a17fn0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -81809,7 +81832,7 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220611.1316")
+    (version "20220611.1601")
     (source
       (origin
         (method git-fetch)
@@ -118558,17 +118581,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220607.715")
+    (version "20220611.1449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "2b44e4aec3a733bd22e00a56906eb5151f8b8d81")))
+                 "3337e1bfed13186ac137d8203c79492c1819cb86")))
         (sha256
           (base32
-            "01w6bddbrx0bh2dkrwd1p98hpnp0k6w5r7nb3p9l95gk8pvvmnby"))))
+            "1kjpqml3affg1sy3jjy24w28j165c1mibrg4crfscx027xrzkxi4"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
