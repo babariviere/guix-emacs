@@ -2415,17 +2415,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220607.1820")
+    (version "20220613.304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "e489b08aeae53c0288474495b5c0e6847ba1005d")))
+                 "0967b19e4c5cc06699665b7a8518984fb69a2b02")))
         (sha256
           (base32
-            "150p4aqg7dd3k277518ia3zsjkyn8f8a5msmgh9x812gypcrgcpm"))))
+            "03fizrak2mmvnncnjs9zpb918q7qlzsavl00n3d9cfr16i5gvbqr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220612.1746")
+    (version "20220613.419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "553cab696bfb49b2af684d1b9b1e09b278e83662")))
+                 "cc0c04f0aaf0bc9649bf0f645b11f3b5741a28f8")))
         (sha256
           (base32
-            "11430z2p0hwrfsa38jdl2bmk9gwjpsiv43bapiz9698smr32xci5"))))
+            "0mbs0wwr6s7xnmkasn8af2mdvwf6p4pj7p740h59p13yf8296vvy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -44068,17 +44068,17 @@
 (define-public emacs-git-link
   (package
     (name "emacs-git-link")
-    (version "20220406.2328")
+    (version "20220613.135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sshaw/git-link.git")
                (commit
-                 "0197c9812417e18df2c7b5cd5c0084271c2f3286")))
+                 "fe2e8aa92dd8f1a9fb3f471658701487ff21f22b")))
         (sha256
           (base32
-            "0vsgb6jridasscp45prqlwf8lh9x7br3cfqby2lwzgzr8kqphivv"))))
+            "1pbzcvv4hd6hkbqaln4gmdqmbv46b0556d35m3zkg0hvrrspp7bi"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/sshaw/git-link")
     (synopsis
@@ -48504,17 +48504,17 @@
 (define-public emacs-hass
   (package
     (name "emacs-hass")
-    (version "20220526.2124")
+    (version "20220612.2151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purplg/hass.git")
                (commit
-                 "5da5404c8de483ca70dcab13ad07805f1b37e4bd")))
+                 "9de26718ba6f369c9f161957cbc5136382fc51e1")))
         (sha256
           (base32
-            "1a9m8pny9x8mfi1jkk7y4357hbhqfi7i71shs26ilr0gyivfvxbp"))))
+            "0jb38idqrh16mfn5hkvl1q96njd4s9s0a6phqjhfs8vpg53f27f9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page "https://github.com/purplg/hass")
@@ -72387,17 +72387,17 @@
 (define-public emacs-mood-one-theme
   (package
     (name "emacs-mood-one-theme")
-    (version "20220608.25")
+    (version "20220613.114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-one-theme.git")
                (commit
-                 "65e98bafa0277b9c706c6e3564f11edbca5d5699")))
+                 "033910aaf1bb41f384d1b5b96d55975d1378a34b")))
         (sha256
           (base32
-            "1sc8z0fp7q9xkjm5d2x8gv0l0km4m28q71li1pkvdzmxmzn40ayd"))))
+            "0ban8p3nnxnds3yscdi4h9v3ni9l0diwd4y9cy52xp0kkl4jxayg"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-one-theme")
@@ -84848,17 +84848,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220531.2158")
+    (version "20220613.516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "df0b12ef1aff2b322403f24006f0ec17676d3606")))
+                 "2b46cd602c9692e339833a765ef6fe3acc4fa2ec")))
         (sha256
           (base32
-            "0xxj133j2l0002yp4hm4k01klrcvpbzxp6f75rhyvijny0ggmnw4"))))
+            "0njb0j8w3gpn6667jq7m68s27v9n5wf68kw5dcz12x6653fnw0xn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tomelr))
     (home-page "https://ox-hugo.scripter.co")
@@ -93281,7 +93281,7 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220612.1258")
+    (version "20220613.15")
     (source
       (origin
         (method git-fetch)
@@ -119431,17 +119431,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20220610.120")
+    (version "20220613.41")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "f8803066ae50a17438e2c5040a1bca5ddfa17042")))
+                 "164cd43d6ecba9a49714127511ecf7dcc9725bff")))
         (sha256
           (base32
-            "17k9pzqx8cr6gqvfq337v79xqx27xwlwsgpqa5sk0wpa4iya5hh3"))))
+            "158l95swwb15y8544jwny3qqy7p0r87c7668g1s50yghy2qpsddv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
