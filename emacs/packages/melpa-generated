@@ -2415,17 +2415,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220613.304")
+    (version "20220613.1804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "0967b19e4c5cc06699665b7a8518984fb69a2b02")))
+                 "a14e1328d228cc7b8d3f5ae3f9ce9121c19f394f")))
         (sha256
           (base32
-            "03fizrak2mmvnncnjs9zpb918q7qlzsavl00n3d9cfr16i5gvbqr"))))
+            "0jccbdwnzyn2nrj7bxswzs4nvbckd4760323wqlbk50qvyi0h6v9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -20016,17 +20016,17 @@
 (define-public emacs-deadgrep
   (package
     (name "emacs-deadgrep")
-    (version "20220507.1755")
+    (version "20220613.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/deadgrep.git")
                (commit
-                 "ae333e4069e296e98bf9631088c8198f50891d55")))
+                 "3bfaccb72b5be38d4db897af81109ff51833ae46")))
         (sha256
           (base32
-            "000s08mwadvdwcsisw741pv3l5znii7qbdc2865i8ywbj5b3dadb"))))
+            "1imx5mc651agib2r1xhbxkaamh8q1fszwrmd4305ps8i965hkghj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-spinner))
@@ -23633,17 +23633,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220613.932")
+    (version "20220613.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "e4550d9f5158eb8613fe63b1925e9d52f1dbcc59")))
+                 "d1aa8a31c2b9c5bd574bb874702c50f3b692b67f")))
         (sha256
           (base32
-            "1sbxsjcy0mzmif1syqvglcg8rvsmrcyqyym55q7lb93gsqpk1vrm"))))
+            "0amj9hnyq7x45xiyjjrl4cxbsmaqna607gdp8sz9lil7d50ikqjb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shrink-path emacs-dash))
@@ -25118,17 +25118,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220608.1923")
+    (version "20220613.1915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "db2b467c2ede510479ba3d026fbe0227f89294b4")))
+                 "8be19a2eb48898a75a8cc68aa8d0a0df8d02154e")))
         (sha256
           (base32
-            "0xby7959ymacqyv8k38b557r5nmqqcg0kxqrl51iksag6kjngqxl"))))
+            "17m0r6igj5plfd0kg3ccb9406zp1rrz1zfhlz0mmy498pyiayyhz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -41175,17 +41175,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220526.1854")
+    (version "20220613.2038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "66b3993c98c724e0d3e6411036ccdfab95c7a504")))
+                 "fa77ed0771e2565b4fb4223730da1dc13ed56950")))
         (sha256
           (base32
-            "0mfg16vb006avbgw8gygylbqa74cp1fp5cfdr2mp32z6fc77sqcd"))))
+            "1aylnnl1gwyaw4fki3xwjk09p77bnwzwi252v5q38pkcx7h4mvaq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73601,17 +73601,17 @@
 (define-public emacs-multiple-cursors
   (package
     (name "emacs-multiple-cursors")
-    (version "20220528.1215")
+    (version "20220613.2122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/multiple-cursors.el.git")
                (commit
-                 "fd8441bfc8738d463601823e5a3d9c2d7123bfbf")))
+                 "225fc0e889e094bfd2913cfd448084cb49211ac6")))
         (sha256
           (base32
-            "1201q60cnydglq431hkf68kz6gx4i1fs1v00jldliqrxkxm0ignx"))))
+            "0j0958ziik1wpdxb4clyxcl1fzs6ar51vlk8rrqdzwb8if8h9z21"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/magnars/multiple-cursors.el")
@@ -115631,17 +115631,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220429.21")
+    (version "20220613.1614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "b44723552f86407d528c4a6c8057382c061b008e")))
+                 "3155a477b43c1567d754768f5be79296440ebaf8")))
         (sha256
           (base32
-            "0rq2skwylvc7s4vfpbbsdykws4akyp9sc6xgrh2ql5yydhhnv2h3"))))
+            "1pki7ih33n09k0q23053xc6vwn9gcvas91g3z5y19b9c5nr9b1sr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
