@@ -23633,17 +23633,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220613.1752")
+    (version "20220614.605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "d1aa8a31c2b9c5bd574bb874702c50f3b692b67f")))
+                 "a3d37058771ea1014160deb20452f0f269b65335")))
         (sha256
           (base32
-            "0amj9hnyq7x45xiyjjrl4cxbsmaqna607gdp8sz9lil7d50ikqjb"))))
+            "12glax0lyqhxhivc63x8pjlfxc3329dxp673lb22xxlmigrqb2q7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shrink-path emacs-dash))
@@ -27323,17 +27323,17 @@
 (define-public emacs-elfeed-goodies
   (package
     (name "emacs-elfeed-goodies")
-    (version "20220306.2253")
+    (version "20220614.49")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/algernon/elfeed-goodies.git")
                (commit
-                 "6711de66c22360f80fcfd9730293e5f3d419f787")))
+                 "c9d9cd196746add3010d74f43b5c9866562f39fb")))
         (sha256
           (base32
-            "1c2wqa08wjmqq9kax1akyad23664h5cwdan9mcrn68w6pgqd9rv8"))))
+            "1b80srhravjf791qlx42hmzlprzlf7p8faqn5cljh3nrrridivxn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-popwin
@@ -43453,23 +43453,20 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20220429.1708")
+    (version "20220613.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "f3a26544575303e86b423a3406656f0e5a576d67")))
+                 "7beed8c5c638ed9a94cb5962587ea286f07b8981")))
         (sha256
           (base32
-            "1ha1mcrgnckz04hq2vslcdd60m0dqqrcbqj2h601wmv8qrf6m5hz"))))
+            "0s4z9s7b4107fqmax7h2s3038g6fb6sxfd4s5y5hk20r444z1brf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-treepy))
-    (arguments
-      '(#:files
-        ("lisp/*.el" "docs/ghub.texi" "*.el" "*.texi")))
     (home-page "https://github.com/magit/ghub")
     (synopsis "Client libraries for Git forge APIs.")
     (description
@@ -72025,17 +72022,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220611.657")
+    (version "20220614.559")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "5d68eda0965caa159630901669a7b8ca42d712e7")))
+                 "e342e3568c8a3a1cc20714c774bbe9df68489b32")))
         (sha256
           (base32
-            "1swbfnvjhls9jdag2w3ljlvimwyzvm61bz7pbz7gav3i5vkn09m2"))))
+            "101r2r9aqbsx939f73ag9dh3diaq3mzkjbnb6wkdwkl3czyzr4ql"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -81841,17 +81838,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220611.1601")
+    (version "20220614.8")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "6e7371ce61198859b34e3b3468add59f284bf851")))
+                 "bacdacb1b233e4199ccda810152484edd59fa091")))
         (sha256
           (base32
-            "0mkfdzz13irsndi0x02v12lqbfm7lvjn2wyijkf5v2sq6di4gcqq"))))
+            "1jbqvwi05a1cd367xihw7j6pbnas0d21n2npb2mq7rbm9x8kafpc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82257,17 +82254,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220611.8")
+    (version "20220613.2301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "bbac208fdae0712fd1ae8069cb6885eaf0e230ec")))
+                 "171a8db32f5b51d3ddb4a31356e1d9c581b4bbd2")))
         (sha256
           (base32
-            "1ka1vpvxla7k2gwb0l51sl50glx0skgidg7w86fsfj739559yfwq"))))
+            "0sxwk19692gn6irib89dz1z97xbs6kbp43df0vpjy7r3m3sy7mxc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93290,17 +93287,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220613.1400")
+    (version "20220614.113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "ade6a1f5c7dd5e983a4a6d5ea0ada6ef418043de")))
+                 "3d39d731885eb9af91b27195d3dca1096e8ff700")))
         (sha256
           (base32
-            "13w3rpy77v041gw51695lncxc6hzhsgwnl1m9wl0q1bvnzz763rb"))))
+            "1z03c41drnp6w77vq6afk9ib3ss0r0ccmp45kywxdnmsc1s7y9h4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -118590,17 +118587,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220612.714")
+    (version "20220614.652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "bde8311b8b75fbe5d8cc9f4bfd57569ef8912fc2")))
+                 "5e2f6860534d84dec0b2b4971317e542bf4e8584")))
         (sha256
           (base32
-            "1y7943l33m515k72fkq74ai3fjwr64xh7gzmywbds4ajhgkyi625"))))
+            "17pybcfh6vdh6gjw6z7l2jhi3bywb7mwz4pnn3vbswmsjb6yslb3"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
@@ -119440,17 +119437,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20220613.41")
+    (version "20220614.152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "164cd43d6ecba9a49714127511ecf7dcc9725bff")))
+                 "c07cc6d0f3af7cbacb08f0596bdd831f8a1ae5dd")))
         (sha256
           (base32
-            "158l95swwb15y8544jwny3qqy7p0r87c7668g1s50yghy2qpsddv"))))
+            "1vs7q8lgcizr2hz0kn8v2nv217l5nsyvxj960rmisnyplkin762z"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
