@@ -11960,17 +11960,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220613.1223")
+    (version "20220614.1054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "784791a090f9a2ed293f8b3ebd5636c690b718bc")))
+                 "dd028c6a4d2fb1c7b89082dffa15be01637765c5")))
         (sha256
           (base32
-            "0ppznldbw2awizmkkiq5bf0hmks2xsinwsmrlskk3w8bb98baaq5"))))
+            "10ayqf59b9phsnbr9gjrzsz30rcz0mg6sivci4lfn3ajsbxv642y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -49347,17 +49347,17 @@
 (define-public emacs-helm-cider
   (package
     (name "emacs-helm-cider")
-    (version "20220102.1626")
+    (version "20220614.942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/helm-cider.git")
                (commit
-                 "00809e45de919c82753f332f29358f0ddbf21936")))
+                 "62eb5613984c9e7f4d04bd46637e675eda351ca4")))
         (sha256
           (base32
-            "0jjjy68pmmsx0biawyi5581cqh2b4zb0q8f5vs49ihpzn6zc04vk"))))
+            "04cm8cij21vpgfv153snar30bzs4fi7s7cklagmijplmj1w96k9b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-cider emacs-helm-core))
@@ -67356,17 +67356,17 @@
 (define-public emacs-lsp-pyright
   (package
     (name "emacs-lsp-pyright")
-    (version "20220411.1753")
+    (version "20220614.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-pyright.git")
                (commit
-                 "308ba57a272c5b17705e534584bd52933e2ace6b")))
+                 "c745228f39fdb35372b29b909f25fa6c98dc7c88")))
         (sha256
           (base32
-            "020njrx0g4isjshldq4gd3f0jp6h3xgk7xs0n0a7czp5hakx9p3n"))))
+            "0rwy6c4id2hihvdgkmvbw4n51kv3pqwk2wnhyhsarnlmk7v8drdm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-dash emacs-ht))
@@ -72022,7 +72022,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220614.559")
+    (version "20220614.723")
     (source
       (origin
         (method git-fetch)
@@ -93287,17 +93287,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220614.113")
+    (version "20220614.1111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "3d39d731885eb9af91b27195d3dca1096e8ff700")))
+                 "920f514beb8d59d5e6a109c268fb5ef986ee27b7")))
         (sha256
           (base32
-            "1z03c41drnp6w77vq6afk9ib3ss0r0ccmp45kywxdnmsc1s7y9h4"))))
+            "0d90swby2vr7bbh5pigc3sml6nc482xciiz37i7wahib4vhi7ywx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -93310,17 +93310,17 @@
 (define-public emacs-pyim-basedict
   (package
     (name "emacs-pyim-basedict")
-    (version "20220531.555")
+    (version "20220614.1108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim-basedict.git")
                (commit
-                 "0e6da11c4f500f6a3642dca167592eb27066ba52")))
+                 "d61af27686f7a39e6c138b7261a686e7ea7a0ef7")))
         (sha256
           (base32
-            "0h3w44q1ivhrrhy19ckis4z54kqrh7madzjif1ai2fnxfqk0zi5p"))))
+            "0fzyh8qmicq2vy9j1ca708ir67dpxp1cwjaw0sw469p24cvj12yy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "*.pyim" "*.pyim.gz")))
@@ -100854,17 +100854,17 @@
 (define-public emacs-shanty-themes
   (package
     (name "emacs-shanty-themes")
-    (version "20220509.1656")
+    (version "20220614.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qhga/shanty-themes.git")
                (commit
-                 "14a0e9de08aa6412931b121ae97b700e10ccaa80")))
+                 "7beb53d68b75b0a2a8bbb7254303889dbbdbd1ae")))
         (sha256
           (base32
-            "188h918n55mhw3jss10nsdc2m04ngdy1mbh7kfh6hhc9d36ydj7y"))))
+            "08zk0p8xzslgdv7rwkr2m2cdfnkg8603y0301d53d7gzslh63xp6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qhga/shanty-themes")
@@ -116482,17 +116482,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220531.615")
+    (version "20220614.1336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "cdbd74b5e71d78ca7cb0768771f38e7b764fa0ac")))
+                 "cb0375debc928dbf926e9669ee0b942abb98385e")))
         (sha256
           (base32
-            "0ghkdnq1iad2flz49fwjxxn9q1ryiwq65276axbx1j7572rxshwa"))))
+            "01i0v94bb8w1j9hjf4sfsmc51klwr70ss1169y1kwxd7kv1qzxw6"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
@@ -118587,17 +118587,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220614.652")
+    (version "20220614.1606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "5e2f6860534d84dec0b2b4971317e542bf4e8584")))
+                 "dbc89aa43122964163a25b0864c52977878826bd")))
         (sha256
           (base32
-            "17pybcfh6vdh6gjw6z7l2jhi3bywb7mwz4pnn3vbswmsjb6yslb3"))))
+            "0z8cj79v0ang1aha7c6gsq4z7zyc21qaxggpp61nhlc4faw858ja"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
