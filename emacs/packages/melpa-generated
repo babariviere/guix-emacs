@@ -19628,17 +19628,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220526.738")
+    (version "20220615.540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "1e691b346b9220b73337fd4962bbe6ef775ad9e7")))
+                 "970c968adab60047c64d06d9e7d39c9dd09a25a0")))
         (sha256
           (base32
-            "01glbn5z18pqi13lhm0461m25wqfk9m324y1awrsjf3lk1gnz3b4"))))
+            "0364bhmwnzm5imbgrf5azj3ffd7q7np4wx2wavl1xzr2gljv9kv6"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220614.1823")
+    (version "20220615.509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "40397c02aa5a08f78cc1b8ead702285364f1cf34")))
+                 "96fbfee450f2283a01d58ac8f2f8e700b798b835")))
         (sha256
           (base32
-            "0ypw7f675cclqj69n75bz300skyjhkrd3mvnhm30m81pqi525lvj"))))
+            "1kc2kxajmcj7bmd8gsyj57f3i6cqiq2jrba8wqp95jx2g1r6y6sk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -42682,17 +42682,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220507.34")
+    (version "20220614.2009")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "d28d19b582347bffebbf0ca905297e744842a5f2")))
+                 "57637081c47e90a4a257fc5472d3cf49756bafde")))
         (sha256
           (base32
-            "0g96982zq5yarv1ky86qvin2an30n4fsxqgrcyg6yhas9vz7gc4b"))))
+            "18l8qwransp8ad0h26bzlab1inkn3xvswbyk82gdmycbh7hgfxl7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -84810,17 +84810,17 @@
 (define-public emacs-ox-haunt
   (package
     (name "emacs-ox-haunt")
-    (version "20220602.143")
+    (version "20220615.7")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~jakob/ox-haunt")
                (commit
-                 "4d585c51d5701b4d43c02db78c7032658cae47fd")))
+                 "d32c4b1ab258dc34ca7e713152a274eab35d2608")))
         (sha256
           (base32
-            "19pwg5qds5xmrv3yxkmhd3ibln3spcldwkmfwixkaq20an9z2d6k"))))
+            "1h5g32kw3dgdp3vdzx34n8pcmg3ssn2bzmx5an7yksymibmayfjs"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~jakob/ox-haunt")
     (synopsis
@@ -93287,17 +93287,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220614.2156")
+    (version "20220615.126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "48bc29d774c056174aa3bec44e70dc6cf4b9b95c")))
+                 "3010879323d446f368d10857705710c2359607f6")))
         (sha256
           (base32
-            "0wqn3cscgy4v07m463gshssib1pxmr0lv6cimr787wpw6cv5fdv6"))))
+            "0fmqz2s2fqxk1rn6ywsxhk96dgbinygxyh4bc36qg28xgxl6xb62"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -116482,17 +116482,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220614.1336")
+    (version "20220615.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "cb0375debc928dbf926e9669ee0b942abb98385e")))
+                 "7b5459f58c381f31eed257480b000a9a46209094")))
         (sha256
           (base32
-            "01i0v94bb8w1j9hjf4sfsmc51klwr70ss1169y1kwxd7kv1qzxw6"))))
+            "054jawhk1cd3bjr6b320bmbjkmpx3mbp7fyn9l20gm4h5sjs4y70"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
