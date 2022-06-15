@@ -22405,17 +22405,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220613.419")
+    (version "20220614.1823")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "cc0c04f0aaf0bc9649bf0f645b11f3b5741a28f8")))
+                 "40397c02aa5a08f78cc1b8ead702285364f1cf34")))
         (sha256
           (base32
-            "0mbs0wwr6s7xnmkasn8af2mdvwf6p4pj7p740h59p13yf8296vvy"))))
+            "0ypw7f675cclqj69n75bz300skyjhkrd3mvnhm30m81pqi525lvj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23633,20 +23633,20 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220614.605")
+    (version "20220614.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "a3d37058771ea1014160deb20452f0f269b65335")))
+                 "cb6456a845f0a31508b625e07c3f75feb813b98c")))
         (sha256
           (base32
-            "12glax0lyqhxhivc63x8pjlfxc3329dxp673lb22xxlmigrqb2q7"))))
+            "1lqriq4vchka4fhz0abkj0g0c40s2cy80ldj2c0a3i1n1550w6ns"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-shrink-path emacs-dash))
+      (list emacs-compat emacs-shrink-path))
     (home-page
       "https://github.com/seagle0128/doom-modeline")
     (synopsis "A minimal and modern mode-line")
@@ -67203,17 +67203,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220613.1526")
+    (version "20220614.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "e8ca2462525bff52362ccc51f724757c22b8610f")))
+                 "4aafe25e03ab7470b8d3c1cb326affa3c5e9930e")))
         (sha256
           (base32
-            "09gla0baa29p85lf7layfj013liyy2rw7fyihxnhz26ahy67h7i8"))))
+            "01csz4vr3fg1q2py45mxj5j8bkvckn3daam1jafb2gg9gjc9bp7z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70338,17 +70338,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220515.2054")
+    (version "20220614.2011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "b6db7f35d4a664e1e175318e96982fa3688f8264")))
+                 "ca4f781cef271fe8affc206d0cd9cfce426e63c1")))
         (sha256
           (base32
-            "088cwcgily8gdy3pf0qxkc6l1pnfbzkbhmhy4hcw8n2ianv45bic"))))
+            "03g1h3av8dva7i13mnx4ld1xj8c1fl659c2awq3j74b6qy84xmx5"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -77205,17 +77205,17 @@
 (define-public emacs-ob-dsq
   (package
     (name "emacs-ob-dsq")
-    (version "20220425.716")
+    (version "20220614.1942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/ob-dsq.git")
                (commit
-                 "b8dbf53e5d9ed359fbf69e9d14adf68a7c08af10")))
+                 "45a1e4a24bc89a23912478479b9afb162dd768a3")))
         (sha256
           (base32
-            "0v721spl9n4lz70dh9vx0pc3as5crmyrwfn0zg8hsbf0gq0m745v"))))
+            "13r2izka3wa320z847mvawz7x2v2fw0c8zzy7w9372sgg6d67rgj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/ob-dsq")
@@ -93287,17 +93287,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220614.1111")
+    (version "20220614.2156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "920f514beb8d59d5e6a109c268fb5ef986ee27b7")))
+                 "48bc29d774c056174aa3bec44e70dc6cf4b9b95c")))
         (sha256
           (base32
-            "0d90swby2vr7bbh5pigc3sml6nc482xciiz37i7wahib4vhi7ywx"))))
+            "0wqn3cscgy4v07m463gshssib1pxmr0lv6cimr787wpw6cv5fdv6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -93829,17 +93829,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220608.1625")
+    (version "20220614.1621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "68f5313712e20e2f292e723a84ebb5db609e38e5")))
+                 "8fa47232add6927dc85686a77dd40741e458eb46")))
         (sha256
           (base32
-            "1lhnfac9jc5p80pvi9akv4b288g3i9x2j5658z5v0g5rwfipqncz"))))
+            "0638yr8zchs1acwlnm3zjykp2fjb7rh978aar7pjsag6240nljxq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -96769,17 +96769,17 @@
 (define-public emacs-request
   (package
     (name "emacs-request")
-    (version "20211107.1907")
+    (version "20220614.1604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tkf/emacs-request.git")
                (commit
-                 "3336eaa97de923f74b90dda3e35985e122d40805")))
+                 "38ed1d2e64138eb16a9d8ed2987cff2e01b4a93b")))
         (sha256
           (base32
-            "0jckwy5zhz95d6l3lz8b9b34pppcjjzy97fg1wn8mqzhf3h460ac"))))
+            "0c8jmw4jif6vcizz2ba9yvh334ci45q7alhsayij0rwmwawgykgc"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("request.el")))
     (home-page
@@ -96792,17 +96792,17 @@
 (define-public emacs-request-deferred
   (package
     (name "emacs-request-deferred")
-    (version "20210214.37")
+    (version "20220614.1604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tkf/emacs-request.git")
                (commit
-                 "3336eaa97de923f74b90dda3e35985e122d40805")))
+                 "38ed1d2e64138eb16a9d8ed2987cff2e01b4a93b")))
         (sha256
           (base32
-            "0jckwy5zhz95d6l3lz8b9b34pppcjjzy97fg1wn8mqzhf3h460ac"))))
+            "0c8jmw4jif6vcizz2ba9yvh334ci45q7alhsayij0rwmwawgykgc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-deferred emacs-request))
@@ -108285,17 +108285,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220607.526")
+    (version "20220614.2113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "0ce73ece84027939428ade3d46706cbd0a61ec3f")))
+                 "6c3314167bf15a99247acb4eb60827faea36f4dd")))
         (sha256
           (base32
-            "09li624kg8p5637lq85sl6f4lrmlc71a9cgy1xj0rs63jv2wf3w3"))))
+            "1d9m8aji2nd38w1a39whbqsg1kpfjxkmi1xn6pyfkng5bzalfq40"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
