@@ -17857,17 +17857,17 @@
 (define-public emacs-creamsody-theme
   (package
     (name "emacs-creamsody-theme")
-    (version "20220527.927")
+    (version "20220616.119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-creamsody.git")
                (commit
-                 "4e1f00a590628034282a914d483fd6008a76c8f8")))
+                 "21add9e946e2d00c15b609e75d65aa4c292bc7a2")))
         (sha256
           (base32
-            "0yw40fmisw5wby45pk4jblpshj1vsdhs43d7b25xpvjc6l0j5jz4"))))
+            "02cv63iyxslsxrfim20562cnffa0wkv9y9rmg22pj9i060c5fiw4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -32201,17 +32201,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220608.1954")
+    (version "20220616.109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "e049bc4777cae21d937e08ad2d3960f3e1432dd5")))
+                 "6cc02b238cde28d850ac68ce429d24dd1e354ad4")))
         (sha256
           (base32
-            "0zsad5a1gd2zfbhnp6469srm63wzkkf19zrhp48pgqa1195b92kd"))))
+            "1nby48pjszy9sdzwgzv4zmsq1ycmyrvxy8m0jzkk13rinrxl6ns6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -66841,7 +66841,7 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220615.1617")
+    (version "20220615.2350")
     (source
       (origin
         (method git-fetch)
@@ -67203,17 +67203,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220614.1834")
+    (version "20220616.425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "4aafe25e03ab7470b8d3c1cb326affa3c5e9930e")))
+                 "7538125d20a21485320f3bc8a442feca8c97c09b")))
         (sha256
           (base32
-            "01csz4vr3fg1q2py45mxj5j8bkvckn3daam1jafb2gg9gjc9bp7z"))))
+            "024i6qdv18ajkb919fmqspkl3m6gvpj5i362lfmvr0w91i67n5vb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -87834,17 +87834,17 @@
 (define-public emacs-perspective
   (package
     (name "emacs-perspective")
-    (version "20220521.2138")
+    (version "20220616.529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nex3/perspective-el.git")
                (commit
-                 "794afdbc5188ef6f2d78d26302cd78903ce618fa")))
+                 "b6a13bf5ffc454df32f65eddf057b166a5b42048")))
         (sha256
           (base32
-            "1adn4knbhsygsy67q6w86qbhqx2gg6rw5hcnan7x40wq8fi7hr0p"))))
+            "0q4mga7ivk0irnjmzrsyy1fp9pmixvnk93sn3idy5y9nhalqakvv"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nex3/perspective-el")
@@ -107921,7 +107921,7 @@
 (define-public emacs-syntree
   (package
     (name "emacs-syntree")
-    (version "20220615.1950")
+    (version "20220615.2331")
     (source
       (origin
         (method git-fetch)
