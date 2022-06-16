@@ -23633,17 +23633,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220615.933")
+    (version "20220616.1455")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "c0a3b9f3c3c2b9942f9e57d79b5f8d4307653981")))
+                 "3f7ce84d565528ae32c6463269ae689460bb22be")))
         (sha256
           (base32
-            "0ghivhgjr2r3abpakfgkmwahc9b6zbgkrxkdglbh1mp1yb9jafv2"))))
+            "0f4g79asrhzxgi7knnqfb5g3jijn602qdnz39adagnb4skv9zh7y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -48725,17 +48725,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220615.1946")
+    (version "20220616.1004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "6465eaff089357d3356c9b6ec908110d73e0c415")))
+                 "a6df31a7cff0c64b8b999a85cbf5b4cc253a104f")))
         (sha256
           (base32
-            "1ixhkrf3yfr0jyrqq36w6kmkq81p1pzwvkxgwsbhfnhdf7jba2ln"))))
+            "1r626rnr8nzd938d1nz1w81j1vvbs3qdvmhdgyr81fxzi0vrpwi0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -76072,17 +76072,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220613.1106")
+    (version "20220616.1151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "fb4a0967cab7df737d5d53199a48a0e79c429b61")))
+                 "9695e4c38de562249cbae02bd896d6bb46ba879f")))
         (sha256
           (base32
-            "1las719cc7vnyb47n6gyg9nqaqhp6ry6fq4x5367175hlp587jkq"))))
+            "0vky5sizghxnpbq9jwhwxi8k1f28wynzw7fh58042idq7ys2xbfb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -86610,17 +86610,17 @@
 (define-public emacs-parsebib
   (package
     (name "emacs-parsebib")
-    (version "20220426.2049")
+    (version "20220616.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/parsebib.git")
                (commit
-                 "dd4c5540fa6c2cd990cba324741d7abbc8ed2f23")))
+                 "83a77ea7e51f78093b1a0f1eb51615ec9295829d")))
         (sha256
           (base32
-            "16jx7qay8ipyd202xrslfrcbjrvzzal77iqc69rwci3nlwax8vy5"))))
+            "11km1c5nla999q2p8vipirnvlwcddfhjdg4042ydalckz18phrd1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/joostkremers/parsebib")
@@ -111628,17 +111628,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220601.1749")
+    (version "20220616.1202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "faa2d10b894df9df0b6789047ea7ae05434d3030")))
+                 "0578a1ba33037322828aabe240a7cc8e283077c0")))
         (sha256
           (base32
-            "0p0fj8d0cjpw4v2a4xhnf9x983h8xxfz7ardyc9g4qcm9ybs58xr"))))
+            "1a2gnp7fwv4qmxrpp1869fnl35axppkzd4m1j8ixvvdc5hq8rvnk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -111693,17 +111693,17 @@
 (define-public emacs-treemacs-evil
   (package
     (name "emacs-treemacs-evil")
-    (version "20220511.1852")
+    (version "20220616.1202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "dca83bd42918b510173759df4cc8b3663d5d480d")))
+                 "0578a1ba33037322828aabe240a7cc8e283077c0")))
         (sha256
           (base32
-            "1cxz5kx9qiv0imlzsbwjkydks2xfrcdchcnia2hyxhjpldff5vnq"))))
+            "1a2gnp7fwv4qmxrpp1869fnl35axppkzd4m1j8ixvvdc5hq8rvnk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-treemacs))
@@ -111744,17 +111744,17 @@
 (define-public emacs-treemacs-magit
   (package
     (name "emacs-treemacs-magit")
-    (version "20220502.1310")
+    (version "20220616.1202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "fdf7548fb32926cb9ebe192d9616167ec4805f4b")))
+                 "0578a1ba33037322828aabe240a7cc8e283077c0")))
         (sha256
           (base32
-            "1gdhibanpbl8jiz2cncq91d39yhlwxw2xxhdgvlspj93vmqg3br2"))))
+            "1a2gnp7fwv4qmxrpp1869fnl35axppkzd4m1j8ixvvdc5hq8rvnk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-treemacs emacs-pfuture emacs-magit))
@@ -118586,17 +118586,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220615.743")
+    (version "20220616.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "638fe3b78ab46919e2325b3a01c62f45afa4ca91")))
+                 "28d693031976aa8b73a09a8f5006cb820293ba6a")))
         (sha256
           (base32
-            "0392yxc2diizz9gxwxqdsp29qhkxhb0j3600dwmfvmmj6s03qw5i"))))
+            "0rrvwwr6s459szhj6939zjlk65dvp686zrw3l9h8c2y8400xs1ic"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
@@ -120650,17 +120650,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220615.2031")
+    (version "20220616.1515")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "da8b68da0e0cc2ba999d4e1d36599cfeaec7a4ef")))
+                 "ad5fab5a8cc3db261450e0a9b07acb8a3bb572aa")))
         (sha256
           (base32
-            "0gdxfc387mmq82cf4h55xwfj4v86s44bi7ng7fg4sp0ifcm9fn1l"))))
+            "0braaxl5byi0ksv0hdvq27g3pf68g50hi7y94jaq8gn5l7ly8vgr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
