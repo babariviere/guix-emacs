@@ -48725,17 +48725,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220615.557")
+    (version "20220615.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "ece8a6042da8dad0239055570e45b44d641293ac")))
+                 "6465eaff089357d3356c9b6ec908110d73e0c415")))
         (sha256
           (base32
-            "14c8c4i53kvplfa6vv7np9fcw30ipa4dkvf1iykvydnvpswfsqh7"))))
+            "1ixhkrf3yfr0jyrqq36w6kmkq81p1pzwvkxgwsbhfnhdf7jba2ln"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -66841,17 +66841,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220615.1457")
+    (version "20220615.1617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "c2f3cad2c36fc7104cedcfc971274aa67a1867a8")))
+                 "dc6b71457fd096596889a6488c3c137e2a4a4bc3")))
         (sha256
           (base32
-            "162wwrgbqxk0fnnskxh19jhpllfnxb35b7527xz46da1662w8i35"))))
+            "1k851kcji6mmhqb0hgq424hxsq6zg41k6kcya1psja9dhwczrbvz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -73113,17 +73113,17 @@
 (define-public emacs-mu4e-alert
   (package
     (name "emacs-mu4e-alert")
-    (version "20220528.1923")
+    (version "20220615.1948")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xzz53/mu4e-alert.git")
                (commit
-                 "85489fae322a655e275be2483b9d02486b172ea8")))
+                 "3c9af8c7994df0a1a4f0703552ea3beffb485ace")))
         (sha256
           (base32
-            "17d2nqndb760k96s8wskpx4g6xmfzwaifmbs25pj9114zvpz2byy"))))
+            "13li5pqqkzj7dwgpnngnk1ff46i100qw9xknlimpy2vf2k5yqv3y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-s emacs-ht))
@@ -107921,19 +107921,18 @@
 (define-public emacs-syntree
   (package
     (name "emacs-syntree")
-    (version "20220122.2341")
+    (version "20220615.1950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/syntree.git")
                (commit
-                 "45d010b071c32cab4a3a5d336d6c01cde49657f8")))
+                 "1ad84a7905959b1d2c4f2fee37fbccc87d711864")))
         (sha256
           (base32
-            "0dlq1z4d1sfhzv14y8b3xk9ixjsjd9wl66nbd18aqkm86rx0320f"))))
+            "1c47v2bwgpjbz05sszmd8a85flwrs9ikmvny9jjk5kc8z40kxg2q"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-transient))
     (home-page
       "https://github.com/enricoflor/syntree")
     (synopsis "Draw plain text constituency trees")
@@ -120651,17 +120650,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220611.1034")
+    (version "20220615.2031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "621f7c17fb246dd3f286f6d4cbe5d7e5eaf49cd8")))
+                 "da8b68da0e0cc2ba999d4e1d36599cfeaec7a4ef")))
         (sha256
           (base32
-            "0mh9wy4yzbm00imskwxyksr6hcfrvvz3dwnq5l7a0xrgqqm8frk6"))))
+            "0gdxfc387mmq82cf4h55xwfj4v86s44bi7ng7fg4sp0ifcm9fn1l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
