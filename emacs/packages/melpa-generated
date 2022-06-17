@@ -16528,21 +16528,20 @@
 (define-public emacs-consult-projectile
   (package
     (name "emacs-consult-projectile")
-    (version "20220511.2103")
+    (version "20220617.1042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/OlMon/consult-projectile.git")
                (commit
-                 "130ba9d3879bc293d81b1aa9fbfd0dffae3b5579")))
+                 "5ef1ada3be767ea766255801050210f5d796deec")))
         (sha256
           (base32
-            "0gvrhh58097lry1d13xx4il2kbkljrk170hgr8ibxdzq0jf09aah"))))
+            "1x0h9jbgkm32gs75hha3cwk5l24mpq0lmsik03msnc4wl2kvpnhm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-projectile))
-    (arguments '(#:files ("consult-projectile.el")))
     (home-page
       "https://gitlab.com/OlMon/consult-projectile")
     (synopsis "Consult integration for projectile")
@@ -23633,17 +23632,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220616.1552")
+    (version "20220617.1040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "3f7ce84d565528ae32c6463269ae689460bb22be")))
+                 "0986e084b2aa6e215da678e81f40c30ecd5b7a23")))
         (sha256
           (base32
-            "0f4g79asrhzxgi7knnqfb5g3jijn602qdnz39adagnb4skv9zh7y"))))
+            "1rnpj2qxk13ln7fawqdx01wik4rzc1k0l74gg8c0f0xmx3i56qfn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -55488,17 +55487,17 @@
 (define-public emacs-i3wm-config-mode
   (package
     (name "emacs-i3wm-config-mode")
-    (version "20201105.2022")
+    (version "20220617.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/i3wm-Config-Mode.git")
                (commit
-                 "c70bdc1367e461299e13a4797bc9d9d950184edd")))
+                 "3574d88241118ed6cc5a3022b6dde58d6f5af9dd")))
         (sha256
           (base32
-            "1kpnm7ph0ydm0h5jxwff316yy4aff6ml9x7f4z5zgm4wmgn0bxc5"))))
+            "115irh30d2g867a790ygf8zi7m3v662v1ks6hfinpbzzv0sl8nwc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Alexander-Miller/i3wm-Config-Mode")
@@ -63826,17 +63825,17 @@
 (define-public emacs-latex-change-env
   (package
     (name "emacs-latex-change-env")
-    (version "20220610.733")
+    (version "20220617.929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/slotThe/change-env.git")
                (commit
-                 "02a718ee6c3e01f580008a0082bcc50ec02b122b")))
+                 "d2b0a2d1830ccddf2c687752e66b2f3048553ca0")))
         (sha256
           (base32
-            "17kjvkk7bhmaiibs3dk7y97jwxnwy5aj3n442p4jfy5xsypzy6da"))))
+            "1040mbp8nlsdsvagmrppml64jqxpcxzp34dskhjxhp7v4z804iwk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -64415,17 +64414,17 @@
 (define-public emacs-ledger-mode
   (package
     (name "emacs-ledger-mode")
-    (version "20220616.1902")
+    (version "20220617.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ledger/ledger-mode.git")
                (commit
-                 "13d5b4802c447f0cd798b7fd23aba837b8b4b678")))
+                 "5d46822596469253507796ea3141eb824de3587a")))
         (sha256
           (base32
-            "1rph2558aidlnq9h1xjlkkd1c5visp4p88r95r30kxgi5paq654v"))))
+            "007vzf6dlz3l4v7px8wxd1lmszjhy5ymy9m1j2mw19nxla1rd30v"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "ledger-test.el")))
@@ -98598,17 +98597,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220615.1501")
+    (version "20220617.1303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "d5726c1c69520a59489e9c2f2764e20728ab54b1")))
+                 "35e5352316cfd3e5004f01ab27062c9256bc02a2")))
         (sha256
           (base32
-            "0r9ws674v9g1f6p61zxqa911xw3yychih2q827fsxkbqx13h25ym"))))
+            "0zi3za3wnij0cgn6lp050h5dg8ci04rmlp7x8k129i4h9c1w6kfv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
