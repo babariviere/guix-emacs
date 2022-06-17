@@ -24981,20 +24981,20 @@
 (define-public emacs-easy-hugo
   (package
     (name "emacs-easy-hugo")
-    (version "20211017.1248")
+    (version "20220616.2302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/masasam/emacs-easy-hugo.git")
                (commit
-                 "baead14d7f2fa86e108269932a94bf376de9c2e5")))
+                 "46aa41a207c9644ef9789512e025d4e7c7f3d5ea")))
         (sha256
           (base32
-            "1d61wkambq4dr65bv8ldyqzkicgspw4yiyb52x6ngka6gj8cs27h"))))
+            "07nhcnq0b1wha1nd7y6mzqgf7x5dzi4pg11q827fjfap7aw9mh6p"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-popup emacs-request emacs-transient))
+      (list emacs-popup emacs-request))
     (home-page
       "https://github.com/masasam/emacs-easy-hugo")
     (synopsis
@@ -41175,7 +41175,7 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220615.1440")
+    (version "20220616.2201")
     (source
       (origin
         (method git-fetch)
@@ -67203,17 +67203,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220616.425")
+    (version "20220617.628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "7538125d20a21485320f3bc8a442feca8c97c09b")))
+                 "3a8bbe238d6ab46b1287063d104ee2b00ec949bb")))
         (sha256
           (base32
-            "024i6qdv18ajkb919fmqspkl3m6gvpj5i362lfmvr0w91i67n5vb"))))
+            "12dpfp48rbb3sd8f3farj55dhb2c75p68w7m4jl41z3ll65ph76a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93287,17 +93287,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220615.126")
+    (version "20220617.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "3010879323d446f368d10857705710c2359607f6")))
+                 "188949301091447cf976c5bf0c818be9466236d7")))
         (sha256
           (base32
-            "0fmqz2s2fqxk1rn6ywsxhk96dgbinygxyh4bc36qg28xgxl6xb62"))))
+            "0v54f9yx2f864dkj7m43fj491hk7166xgh2912svb81ipjcry47g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -99428,17 +99428,17 @@
 (define-public emacs-scratch-ext
   (package
     (name "emacs-scratch-ext")
-    (version "20220611.744")
+    (version "20220617.132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kyanagi/scratch-ext-el.git")
                (commit
-                 "43ddfb2b1890352b11a493b8b3fe840255b47b88")))
+                 "8bbe1649503bb2e3676643e6e49fde155c1d6c70")))
         (sha256
           (base32
-            "0frc384sbgyqyw1bmliax5h35l5nivfscc8w41sgwm6s2jg3qc2g"))))
+            "1nma84s5x1q264b73s1kqyyrf0g3j63zmnnxrxk9ly09y7cdqgpb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kyanagi/scratch-ext-el")
@@ -120627,17 +120627,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220610.824")
+    (version "20220617.325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "0879cf809995da77efe8cb7b1957c428e3c04a48")))
+                 "f4ea2f2c9de84e993aed6082fc70f89a109f20f9")))
         (sha256
           (base32
-            "119l9l58f95br5smr34bgpcg00g6kj5d76f0y0ynqj891fpzpinw"))))
+            "0s6nw0sad66009wd5m8g4piavrfvqsjb3msig31cn4ncbxmm5hqp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -120650,17 +120650,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220616.1614")
+    (version "20220617.325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "9863d97fd9e2774b3acc9c4ecdab19e3128cb897")))
+                 "f4ea2f2c9de84e993aed6082fc70f89a109f20f9")))
         (sha256
           (base32
-            "0a5qprnz37v7xwaq3x0091f6mmfndckkcm8nmqa8kw8ajq390qrq"))))
+            "0s6nw0sad66009wd5m8g4piavrfvqsjb3msig31cn4ncbxmm5hqp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
