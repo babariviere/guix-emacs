@@ -11960,17 +11960,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220614.1054")
+    (version "20220618.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "dd028c6a4d2fb1c7b89082dffa15be01637765c5")))
+                 "b6cd49ffb56824b8d1793b0c4268237b3d89fb45")))
         (sha256
           (base32
-            "10ayqf59b9phsnbr9gjrzsz30rcz0mg6sivci4lfn3ajsbxv642y"))))
+            "0984jmy9pirjabyhnmiylam9sh6rzi549bq05ddpab1v0hvpxp4b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -26234,17 +26234,17 @@
 (define-public emacs-ein
   (package
     (name "emacs-ein")
-    (version "20220608.1138")
+    (version "20220618.1101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/millejoh/emacs-ipython-notebook.git")
                (commit
-                 "7b9b14435c1dee85dd1eb5faf5d58edfa5ca5cbb")))
+                 "b806c779cd6a550180c2b7bb66bf6e76dd89431f")))
         (sha256
           (base32
-            "1k8qj7h0kshf5crpk05q7bmp7pn6mzzbj80vwd0x9w4dwyrw0kin"))))
+            "03zv3ba55d8gbzpvjsf0n1aqpx8y3mwlhyj68q6s31j83zgsyv0j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -41811,17 +41811,17 @@
 (define-public emacs-frimacs
   (package
     (name "emacs-frimacs")
-    (version "20220611.1858")
+    (version "20220618.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pdo/frimacs.git")
                (commit
-                 "7813f151b4e59c3c175c7117228f0dd70dcc10d7")))
+                 "5d8e7ad44de328d31cd642f2a0c92b4049114af4")))
         (sha256
           (base32
-            "1nfappyq7hpcpknl0gz0q051pjvfxq93sgbxpm6g9h1yn04a41fb"))))
+            "026b5h1z3hv6by2yzn7ndl61hg7l2ghcn61ql4klk3s5bji8nvgl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -51086,17 +51086,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220605.434")
+    (version "20220618.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "27a0fae5c8927c5980f49726bd29d0a7274af337")))
+                 "98a71170cc25203bc986299e82fe2e3a3e52bcb0")))
         (sha256
           (base32
-            "03k5gpz3vinj4w7k0cfmpjn6rxwiyyscn4jl9zyj2bgdf2m39wfm"))))
+            "1wyvryjnwdqvi87m1y89ba4syjyg9hn9hfgzfln9pr2nsrg43bjk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -54650,17 +54650,17 @@
 (define-public emacs-hotfuzz
   (package
     (name "emacs-hotfuzz")
-    (version "20220607.1906")
+    (version "20220618.1031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/axelf4/hotfuzz.git")
                (commit
-                 "50ea5b54c21dc6a2437e37b17c7ea14f8ba06771")))
+                 "405493a4cc0c62e6e4d8fca5bc5b5621ea9d67c5")))
         (sha256
           (base32
-            "11aw2b5wixf6qlh3b2wnnms4n1fgp23g1yy48ykb3g6hkwrs2nrs"))))
+            "0zi8xwd21p8lk2l3r5395w74qgr8g8k7nv5n3njbmcvxvq3x5k07"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/axelf4/hotfuzz")
     (synopsis "Fuzzy completion style")
@@ -66840,17 +66840,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220615.2350")
+    (version "20220618.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "dc6b71457fd096596889a6488c3c137e2a4a4bc3")))
+                 "64c93a047b19b5564cd8aa55dca2189d94dc3a71")))
         (sha256
           (base32
-            "1k851kcji6mmhqb0hgq424hxsq6zg41k6kcya1psja9dhwczrbvz"))))
+            "083alvmnl5210b8rbayxy4ga76876pnwm67p2kbm8c5j4i27wpd2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -92726,17 +92726,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20220517.1536")
+    (version "20220618.745")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "a8f6e66be99051f34f0ab2704bdea04667d8b005")))
+                 "082c933f37bb1e34522947f2bb92ce4756e7fe77")))
         (sha256
           (base32
-            "0h6isykcwh7b1vxm5qikcfd3g6v0lv487q7gf5j9p6v5gs1f9yb9"))))
+            "11igbgiw139d37kj0m276f5xqbvbm0v2dmlapp2718l8dkakyb82"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -107310,17 +107310,17 @@
 (define-public emacs-swift-mode
   (package
     (name "emacs-swift-mode")
-    (version "20220613.709")
+    (version "20220618.829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/swift-emacs/swift-mode.git")
                (commit
-                 "c92e780530950a2cd6e501baf48c96ae4d8214a6")))
+                 "da673f995fac844a3584efdaa3ea76cb9ebfb9a8")))
         (sha256
           (base32
-            "0ni9ckm98v08f7fvdvf6wg96yr98vvyc3rvhp0w4212szdas3msl"))))
+            "12gr3i25hj6kjn92y48kz3dw7kfhqpq76hgafnl1r79npi3askxw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/swift-emacs/swift-mode")
@@ -107853,17 +107853,17 @@
 (define-public emacs-syntactic-close
   (package
     (name "emacs-syntactic-close")
-    (version "20210105.1400")
+    (version "20220618.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-berlin/syntactic-close.git")
                (commit
-                 "ffe8b28907973fda775254432f88b55c92b5ae1f")))
+                 "28410740e42ad9bb84416164406269b177fb49fa")))
         (sha256
           (base32
-            "03qgrchvzw489594s6ghd0wmq53qzlxqsjlcwcnvlj185hg5fiwp"))))
+            "0mxnnrrqkpyjqps6fs7bwy6n4jvl0glwkmzk1fbcy1cmkl1pxm80"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-berlin/syntactic-close")
@@ -108719,17 +108719,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220613.1012")
+    (version "20220618.955")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "733194c4ed16f57e2b4e66a79be842a5d0731012")))
+                 "3cd54b6f60aded6a3c11d2ba21b7d27f6118ba2a")))
         (sha256
           (base32
-            "0l3a2qbqwf6rrnnkranclqq9fig3ki176ddj02azr9360ps46xly"))))
+            "0b0nz8h2w33sp2gjgyxlqxj9py9wby5zbgl1i5iwid6yxaps92ja"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
