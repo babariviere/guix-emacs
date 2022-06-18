@@ -22081,17 +22081,17 @@
 (define-public emacs-dired-sidebar
   (package
     (name "emacs-dired-sidebar")
-    (version "20220609.515")
+    (version "20220618.237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/dired-sidebar.git")
                (commit
-                 "dfc135b24c3f225222dddf691fece32dc7668b05")))
+                 "f08bf15cb6cb3c44102731f50ffd812d8d68316c")))
         (sha256
           (base32
-            "1smy1v8zs2yz7aqkqbl0i98w3x55jv807arc1wpmlcmkxcy58lk6"))))
+            "0f39j8d47ids6yr427hvvqk6wlsw9qz3knm4fdf478v0lkxmpxdc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dired-subtree))
     (home-page
@@ -32200,17 +32200,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220616.109")
+    (version "20220617.2157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "6cc02b238cde28d850ac68ce429d24dd1e354ad4")))
+                 "ae35410851b91f88acecba60fa1066e69742bf27")))
         (sha256
           (base32
-            "1nby48pjszy9sdzwgzv4zmsq1ycmyrvxy8m0jzkk13rinrxl6ns6"))))
+            "1z93p5883xhpkpwaqn6ixrdzsjz3v2r85gydx5vq202cbgwpr4f8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -48724,17 +48724,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220616.1004")
+    (version "20220617.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a6df31a7cff0c64b8b999a85cbf5b4cc253a104f")))
+                 "218fa70297128d09410b5702c582feadb7b2b31e")))
         (sha256
           (base32
-            "1r626rnr8nzd938d1nz1w81j1vvbs3qdvmhdgyr81fxzi0vrpwi0"))))
+            "1smqkbvnkjsmgvplkqls12l3a5dirwip5hfifwh1yii350ax8asm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49532,17 +49532,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220607.1243")
+    (version "20220617.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "9e706bc154deab9b5932d7849eff249f7c4bf1c9")))
+                 "218fa70297128d09410b5702c582feadb7b2b31e")))
         (sha256
           (base32
-            "1kgh0srn59sbjkrjb1kwvyiyklp3aj6bf8c161b3k73g6gpz3kj4"))))
+            "1smqkbvnkjsmgvplkqls12l3a5dirwip5hfifwh1yii350ax8asm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -79477,17 +79477,17 @@
 (define-public emacs-org-appear
   (package
     (name "emacs-org-appear")
-    (version "20220405.1146")
+    (version "20220617.2355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/awth13/org-appear.git")
                (commit
-                 "89e25b8d04cd1445f0ec4cec773f7e173d173bcd")))
+                 "60ba267c5da336e75e603f8c7ab3f44e6f4e4dac")))
         (sha256
           (base32
-            "02mg0qz1qiy60qc0zz2j4m9cgijjhys749xs5clp01lh8qjf02fj"))))
+            "03ph0mg9ny8gc8rl1r87ghs3c25wdix5yv70p0854xhkmp5fz5m5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/awth13/org-appear")
