@@ -13055,17 +13055,17 @@
 (define-public emacs-cmake-mode
   (package
     (name "emacs-cmake-mode")
-    (version "20220322.1258")
+    (version "20220617.1532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.kitware.com/cmake/cmake.git")
                (commit
-                 "c173b1009a12981c91bf9094c58b9b68a3806737")))
+                 "d94e09ec88c99434941029cde07b6c1e6bd0dde1")))
         (sha256
           (base32
-            "1lq9qwyn143p5b9dih3fvc4353cssk9k40hlfvbfnm8r8d3wyf9j"))))
+            "0slzrj5njj4kgsq4qfyjynkqslj16n0ckf410qwhb39vbdgkzwax"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("Auxiliary/*.el")))
     (home-page "unspecified")
@@ -30522,17 +30522,17 @@
 (define-public emacs-erlstack-mode
   (package
     (name "emacs-erlstack-mode")
-    (version "20210419.1917")
+    (version "20220617.2049")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/k32/erlstack-mode.git")
                (commit
-                 "ca264bca24cdaa8b2bac57882716f03f633e42b0")))
+                 "a4a30f74e48894ccfdefc073a9e1b005ee632017")))
         (sha256
           (base32
-            "0541q21srscy8x7w4f8vbag1nsjksv9i1wi6sq5xjqnrl0piyv4k"))))
+            "132w9xbdc6r7sa03wpyd0vpn0z12pgawv4r21ihpgqpqmk4srrj3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -41174,17 +41174,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220616.2201")
+    (version "20220617.1205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "36208c43bf41782cfe81fccc904f8adbe57818e1")))
+                 "2cca7c78bbe37a36ea1b6b7709be8ce69d1a9940")))
         (sha256
           (base32
-            "0nlwi5286ym5w7ksdrhjmx25yinky7pngkf6lhxcycqfzix3sxmj"))))
+            "1ys41kv9gw9gzpdwws69fkqnikqkv9nw4xfg5d212n828bmk1fw6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -60799,17 +60799,17 @@
 (define-public emacs-js2-mode
   (package
     (name "emacs-js2-mode")
-    (version "20220402.2211")
+    (version "20220617.1625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooz/js2-mode.git")
                (commit
-                 "fed41615b26404e0bfd7e4f64643981ca798a34b")))
+                 "88c081ec7ed960d1058bc9a9712758f5b6330996")))
         (sha256
           (base32
-            "007b4z3qpdy6apljb48aay9v1pf6pkrq0prhwhdqcqkq9rbghg7m"))))
+            "1caf02dfdj7x4s98piizy8b5qc3lg9cmdykvml8q1612wgq7kp3w"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mooz/js2-mode/")
     (synopsis "Improved JavaScript editing mode")
@@ -112493,17 +112493,17 @@
 (define-public emacs-typescript-mode
   (package
     (name "emacs-typescript-mode")
-    (version "20220506.827")
+    (version "20220617.1901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-typescript/typescript.el.git")
                (commit
-                 "4f056f6db77839dc8653afff68dfecf62d83ec70")))
+                 "f2de3f4946c846a23753b351eaf8b56017e02d89")))
         (sha256
           (base32
-            "0viyrfxnpmj164kiaai8j0wlrylss8mvpp3q57ldk2r6ijm85klb"))))
+            "1j3has4k1nawj1vhb6379w9b0pr9dpd2ksnw96hk1i6r3limygp6"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/ananthakumaran/typescript.el")
