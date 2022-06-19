@@ -63205,17 +63205,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20220331.1314")
+    (version "20220619.108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "e0d0cd6b949802fe63ff8940cc743cc7efedb089")))
+                 "8ff79f7776cb9143f63bf3a11728bbecfcaca34c")))
         (sha256
           (base32
-            "1xnl8bci3j0l14gkb0n23kr4867cmypyxcydjn59niwab9srg7pm"))))
+            "1qn1m77f3jndjqwd7q96p300jmirmgz7wpkqsxmgv6809fyxqqlj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93310,17 +93310,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220617.650")
+    (version "20220618.2209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "188949301091447cf976c5bf0c818be9466236d7")))
+                 "b24a1a0124e43fabcfd1d26a7731b2fd115b468b")))
         (sha256
           (base32
-            "0v54f9yx2f864dkj7m43fj491hk7166xgh2912svb81ipjcry47g"))))
+            "0phv3zmhp5iapq7zxsmhmrf2c267082qa4p0q20y7rzyid2f14sr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
