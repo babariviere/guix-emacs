@@ -26087,17 +26087,17 @@
 (define-public emacs-eglot-fsharp
   (package
     (name "emacs-eglot-fsharp")
-    (version "20220605.1329")
+    (version "20220618.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "c7842fe63b8bae5aa8bd6a9891036c5ce04e4030")))
+                 "76fc02698afa728749221d32fca4563e6858dbc7")))
         (sha256
           (base32
-            "17ibcl9ilm7ml4gjlvcx40hni8awccm1zk37y0nfvcscigf3i8pr"))))
+            "1irw05118p835djcvzb2y67avcpryvs6i1p4mp5snygk4n8nl2gc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-fsharp-mode))
@@ -43452,17 +43452,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20220613.2208")
+    (version "20220618.1940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "7beed8c5c638ed9a94cb5962587ea286f07b8981")))
+                 "fb9d33b21b3105acc1fcbced851dca70c4be2ff8")))
         (sha256
           (base32
-            "0s4z9s7b4107fqmax7h2s3038g6fb6sxfd4s5y5hk20r444z1brf"))))
+            "08nqdgnxk8pvs3gfj04gciv8qfc8qa843ngq5hnfic8mmxzblnzv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-treepy))
@@ -51086,17 +51086,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220618.546")
+    (version "20220618.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "98a71170cc25203bc986299e82fe2e3a3e52bcb0")))
+                 "950d254f4bc496e1811939cf5832f70b4555d1cb")))
         (sha256
           (base32
-            "1wyvryjnwdqvi87m1y89ba4syjyg9hn9hfgzfln9pr2nsrg43bjk"))))
+            "0vhbi3fsyrnr9h7lnjisw9f5wv2npb0xdi6199xdkr439ym8xrvm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -59488,26 +59488,27 @@
 (define-public emacs-jabber
   (package
     (name "emacs-jabber")
-    (version "20180927.2325")
+    (version "20220601.403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/legoscia/emacs-jabber.git")
+               (url "https://codeberg.org/emacs-jabber/emacs-jabber.git")
                (commit
-                 "fff33826f42e040dad7ef64ea312d85215d3b0a1")))
+                 "e93665085c06ef587b4739b2bf475db6f469bd00")))
         (sha256
           (base32
-            "1fif38qhiaxskfmqin82n9334bzrkgd1h5ip1djcm571i670gj74"))))
+            "03sg7868xxlqg3rjxx7sgj3gdk7lqga6j7hsp2ydl5wji4vvq3l1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fsm emacs-srv))
     (arguments
       '(#:files
-        ("*.el"
-         "*.texi"
-         ("jabber-fallback-lib"
-          "jabber-fallback-lib/hexrgb.el"))))
-    (home-page "unspecified")
+        (:defaults
+          "*.org"
+          ("jabber-fallback-lib"
+           "jabber-fallback-lib/hexrgb.el"))))
+    (home-page
+      "https://codeberg.org/emacs-jabber/emacs-jabber")
     (synopsis "A Jabber client for Emacs.")
     (description
       "Documentation at https://melpa.org/#/jabber")
@@ -68082,17 +68083,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220615.1159")
+    (version "20220618.550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "c1fb53d3de6390961ccd8dfb1cc135383508d0fc")))
+                 "adf5848ea787401b09aa37b134aacaaaae3007f7")))
         (sha256
           (base32
-            "0chjz0vj40kwb0ay88ij4mg802r1q2mamd4b39p59crkqwp3qn93"))))
+            "0qm88jymjd3hw1xlp36hfvy267nvyhfhgxm4mmqz1f440abjj5f3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -77800,17 +77801,17 @@
 (define-public emacs-ob-restclient
   (package
     (name "emacs-ob-restclient")
-    (version "20220202.1609")
+    (version "20220618.2139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alf/ob-restclient.el.git")
                (commit
-                 "586f1fa07f76aaca13cb3f86945759f4b9fb8db7")))
+                 "3ac834b02b8276aae1b760312612c3b940598f90")))
         (sha256
           (base32
-            "12cgjk3lpx8d0ms2j6b33s65jr4bg8g9cw9h2l82bm39nd6h5q9d"))))
+            "10x1ll090ihgjgzr76194mfc1z7yh3sr19dh0h561910gy97w2wk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-restclient))
     (home-page
@@ -90866,6 +90867,29 @@
     (synopsis "Powerthesaurus integration")
     (description
       "Documentation at https://melpa.org/#/powerthesaurus")
+    (license #f)))
+
+(define-public emacs-ppcompile
+  (package
+    (name "emacs-ppcompile")
+    (version "20220613.1410")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/whatacold/ppcompile.git")
+               (commit
+                 "c6450517157dfb73572892785a0aafe440596d19")))
+        (sha256
+          (base32
+            "1s64qbfrfl7z128qczflxcllbvlgfiwfwnqsd2sdvbaykv38xi6h"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/whatacold/ppcompile")
+    (synopsis
+      "Ping-pong compile projects on remote machines")
+    (description
+      "Documentation at https://melpa.org/#/ppcompile")
     (license #f)))
 
 (define-public emacs-ppd-sr-speedbar
