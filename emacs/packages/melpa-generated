@@ -11676,17 +11676,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220531.616")
+    (version "20220619.1106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "625f91c11b5d2887624aec0b9babb1fb57b513d5")))
+                 "14246b89b7451f51197d57a73f962d0ba6e945b9")))
         (sha256
           (base32
-            "08x6qvldpjjk0y4swnr1z130imaxkalln71cbawwip438aqm41mg"))))
+            "0ycs9z6pzr65v1aj3ryq1ajggnxfd846m523jwfdp3fb7d57yxjk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -11984,17 +11984,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220124.721")
+    (version "20220619.717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "ba49516265fa24b138346c4918d39d19b4de8a62")))
+                 "701f87c59d9bb1d2ddfd2ba10d97a1d6d927ece5")))
         (sha256
           (base32
-            "1zxrzx537ar35i32g7y76k8w5z4x2nip2vw6lr4xwvzl6bwxnfqv"))))
+            "0vjx6k2q83p3pm6v73j3f3zxidk5p0bkjv1ny9m8p6587lw7hvan"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -26087,17 +26087,17 @@
 (define-public emacs-eglot-fsharp
   (package
     (name "emacs-eglot-fsharp")
-    (version "20220618.1535")
+    (version "20220619.1216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "76fc02698afa728749221d32fca4563e6858dbc7")))
+                 "03fc1f48ed3cb69e53e815791abdd196640f72d5")))
         (sha256
           (base32
-            "1irw05118p835djcvzb2y67avcpryvs6i1p4mp5snygk4n8nl2gc"))))
+            "03l7yrrp6x780n0w2p9z1aqd1i0mk5219jm36fayqal57c1hzhhb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-fsharp-mode))
@@ -44727,17 +44727,17 @@
 (define-public emacs-gitlab-pipeline
   (package
     (name "emacs-gitlab-pipeline")
-    (version "20210601.1339")
+    (version "20220619.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TxGVNN/gitlab-pipeline.git")
                (commit
-                 "2404f9cf0a064aabea975adada250895c385e057")))
+                 "595e699aeab6c28582f309a047c42a0498873a8e")))
         (sha256
           (base32
-            "00i6q4pggaq97xgvi2ifanh0lx8nq5gbi4r2gy596635x26a55zq"))))
+            "118njld8c7d0szq2z36drbkm03f27kjiwcw67595ndnnpa7h59mi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ghub))
     (home-page
@@ -55421,17 +55421,17 @@
 (define-public emacs-i-ching
   (package
     (name "emacs-i-ching")
-    (version "20211112.1528")
+    (version "20220619.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zzkt/i-ching.git")
                (commit
-                 "992f53ae2bd572b89bc642ca70b8bdaa5eb2553f")))
+                 "54f19e2dcb1d16735b94fc7e06a2aa8b1b6f165a")))
         (sha256
           (base32
-            "0z00w8ssr1syh5fphk7y7910l66vlcyj2lc76jhs1g7pxs6q5hh9"))))
+            "1y6jabsnkn1fa0czxbh6rz6fcm7557dg4w8nsp30makc2bly02cr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page "https://github.com/zzkt/i-ching")
@@ -65879,17 +65879,17 @@
 (define-public emacs-literate-elisp
   (package
     (name "emacs-literate-elisp")
-    (version "20220524.217")
+    (version "20220619.1312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jingtaozf/literate-elisp.git")
                (commit
-                 "4bfc686f5ee5d781f99d6d4d9b7dd057054c8b1c")))
+                 "6d1b0c550d9300aa6bb308847db45f5472b9a51a")))
         (sha256
           (base32
-            "0r0mzfj6yxlzh89cs249s2xlryi6z6acvd43picz0jv7ff616fph"))))
+            "182mf738kizwjkl197rlknyiz3mw7h3gicd13aph86b7jimbj6x0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jingtaozf/literate-elisp")
@@ -67533,17 +67533,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220514.2010")
+    (version "20220619.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "370022b6785e5c1906cf23fe92d658f10623f3ba")))
+                 "3632ddd9e4b76da2a547b6be7a5d27c622638b61")))
         (sha256
           (base32
-            "0sd8r9b386wqjdp6980mr5q6z31knbg1my6xlzizfps5764ffy9p"))))
+            "0ca8nvi2hs87h0gp2sbdrfwxgk7hnyr7lg9hfn55zxvxh47sjnw4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -85246,17 +85246,17 @@
 (define-public emacs-ox-review
   (package
     (name "emacs-ox-review")
-    (version "20220502.1146")
+    (version "20220619.724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/masfj/ox-review.git")
                (commit
-                 "4abb1aa4665d246a38a9a53e5b365b3e57ec6d85")))
+                 "f7dc418f9812088afc0ee0d08f778a5654686ef3")))
         (sha256
           (base32
-            "0gxlps90xnmmd2dv9s82c2p2r8zl8nzdlhadw1zq2rxqqhilxn4w"))))
+            "0yplmrzb2j47plj99l06mznva93wynsqjcz5v4bkryswnwn10jab"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/masfj/ox-review")
     (synopsis
@@ -98650,20 +98650,19 @@
 (define-public emacs-rutils
   (package
     (name "emacs-rutils")
-    (version "20210805.608")
+    (version "20220619.1421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/rutils.el.git")
                (commit
-                 "e216db63a2ccd50fe5c80679fc5b929dd2c114e8")))
+                 "dd500ab8062ce40cb339ec8620bdfc63fdd28364")))
         (sha256
           (base32
-            "0ldbrx7xchy4p26ggs0hmazwfw9cbv97mzl4f02whblq3zkx7h5j"))))
+            "1hzly8kxdhddz4b4i7cxafl54aqpk6q4ziwh1k92s1767mjqwg2d"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-ess emacs-transient))
+    (propagated-inputs (list emacs-ess))
     (home-page
       "https://github.com/ShuguangSun/rutils.el")
     (synopsis "R utilities with transient")
@@ -104209,17 +104208,17 @@
 (define-public emacs-solarized-theme
   (package
     (name "emacs-solarized-theme")
-    (version "20220324.445")
+    (version "20220619.1203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/solarized-emacs.git")
                (commit
-                 "86e5f94ea033c8b2a21084774063a493b62a4e81")))
+                 "94e7c342da1b04326028708e5503973d554bd828")))
         (sha256
           (base32
-            "17z6cj8ids88xj2i6zs1s0mxs0fhn3gr7g5nhhy8s8khnzmyy2vj"))))
+            "1a5s9j32v04sc5adly98y1zlx3q9i4m3b0zggrbgy56qk10yqdx4"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bbatsov/solarized-emacs")
