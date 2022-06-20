@@ -3202,6 +3202,30 @@
       "Documentation at https://melpa.org/#/ansible-vault")
     (license #f)))
 
+(define-public emacs-ansilove
+  (package
+    (name "emacs-ansilove")
+    (version "20220619.2311")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/xgqt/emacs-ansilove.git")
+               (commit
+                 "757345ddbe6d8a9f1f5c15e17f76e132b5c83869")))
+        (sha256
+          (base32
+            "13nrqnqbdc5xq844g9an38kmp2q8pyxs7p505lf6h8h1jna34gdj"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files ("src/*")))
+    (home-page
+      "https://gitlab.com/xgqt/emacs-ansilove/")
+    (synopsis
+      "Display buffers as PNG images using ansilove")
+    (description
+      "Documentation at https://melpa.org/#/ansilove")
+    (license #f)))
+
 (define-public emacs-ant
   (package
     (name "emacs-ant")
@@ -9322,17 +9346,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20220410.1557")
+    (version "20220619.2214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "ceedad5efa797e860dbb356bc2c3028a4e0321ec")))
+                 "42df1faa653f2765941f478167dafac059dc3a57")))
         (sha256
           (base32
-            "1fp9f0lprmzdacjsd78yrbbrzksk2kz0bvals1cbnrqr4dhknxhi"))))
+            "1s9ps7a4459hgvpdslzvkhq3gsdj600l2h9jsxrfbam7lxkp7v35"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -10145,6 +10169,28 @@
       "Documentation at https://melpa.org/#/cargo-mode")
     (license #f)))
 
+(define-public emacs-cargo-transient
+  (package
+    (name "emacs-cargo-transient")
+    (version "20220619.1114")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/peterstuart/cargo-transient.git")
+               (commit
+                 "9aad485b3bb46ff6dfc4f7a93974f34c9081b077")))
+        (sha256
+          (base32
+            "169iy04mvn2mm8208rib7vl1z34hqjsmpxxmnw01m0k7lrrc6jhj"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/peterstuart/cargo-transient")
+    (synopsis "A transient for cargo")
+    (description
+      "Documentation at https://melpa.org/#/cargo-transient")
+    (license #f)))
+
 (define-public emacs-caroline-theme
   (package
     (name "emacs-caroline-theme")
@@ -10215,17 +10261,17 @@
 (define-public emacs-cask
   (package
     (name "emacs-cask")
-    (version "20220605.2031")
+    (version "20220619.2144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cask/cask.git")
                (commit
-                 "f2c6609590380bf4791fa18b7581ed6a8db2cbbb")))
+                 "66b52168f3ac5adebcd50582e4bd36267bf4433b")))
         (sha256
           (base32
-            "1zvibg876q5zi7fh72wfl6avskgvvn4az75gjc3bkdckv9rpy43a"))))
+            "0vh7ns05yapnpa8r4a7y56xmg697clxfd6xynwpss6i2l943sapb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -23681,17 +23727,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20220609.1038")
+    (version "20220619.2105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "6aeec22d766acdcd2ac5597ed5e0caffc896284a")))
+                 "fdbcbe1ebdd4c4700709e7aece14168969f9d981")))
         (sha256
           (base32
-            "08r3vcljklhgk6nxv06fvaxy0w9pf5y009zdrj9gs55sbzf4dffz"))))
+            "0rgpxmf665sd45jcf9a2z3hl1hgl3ch6y03jq50xj8mi97s0jxa9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -25134,6 +25180,27 @@
     (synopsis "a BibTeX database manager")
     (description
       "Documentation at https://melpa.org/#/ebib")
+    (license #f)))
+
+(define-public emacs-ebnf-mode
+  (package
+    (name "emacs-ebnf-mode")
+    (version "20220606.1846")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nverno/ebnf-mode.git")
+               (commit
+                 "89a868226e7ddb303548e82a81f76fbb0e5b21c5")))
+        (sha256
+          (base32
+            "0hqlvjhbx6zz11dhnacqgi62mwwbiji95jgv2zwdl9y1zmizd23c"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/nverno/ebnf-mode")
+    (synopsis "Major mode for EBNF files")
+    (description
+      "Documentation at https://melpa.org/#/ebnf-mode")
     (license #f)))
 
 (define-public emacs-ebuku
@@ -57801,6 +57868,29 @@
       "Documentation at https://melpa.org/#/insert-kaomoji")
     (license #f)))
 
+(define-public emacs-insert-random
+  (package
+    (name "emacs-insert-random")
+    (version "20220607.1542")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/lassik/emacs-insert-random.git")
+               (commit
+                 "62d9a9981f37964ba34380a78e3aae73a1009a8f")))
+        (sha256
+          (base32
+            "00hn895q4jgbrqjrv0zmylbhyvja4hjagdnbi88i2ifml8h1sysv"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/lassik/emacs-insert-random")
+    (synopsis
+      "Insert random characters from various character sets")
+    (description
+      "Documentation at https://melpa.org/#/insert-random")
+    (license #f)))
+
 (define-public emacs-insert-shebang
   (package
     (name "emacs-insert-shebang")
@@ -63205,17 +63295,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20220619.108")
+    (version "20220619.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "8ff79f7776cb9143f63bf3a11728bbecfcaca34c")))
+                 "b434684154cfcbf0f60508bf09c178e027de0958")))
         (sha256
           (base32
-            "1qn1m77f3jndjqwd7q96p300jmirmgz7wpkqsxmgv6809fyxqqlj"))))
+            "1c4v8x7s7hvq32v349ijlcj36xjlhakzzrqfw008739w6cd5lwbr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -65248,6 +65338,29 @@
       "A package for basic linguistic analysis.")
     (description
       "Documentation at https://melpa.org/#/linguistic")
+    (license #f)))
+
+(define-public emacs-lingva
+  (package
+    (name "emacs-lingva")
+    (version "20220611.1553")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://codeberg.org/martianh/lingva.el.git")
+               (commit
+                 "5008210246b5dc0abddec5ecbb833faaf117cb49")))
+        (sha256
+          (base32
+            "1a9aj2yym27xil6v116vavhgyvdp5mmibwd1m5bvzgs9736pwdxm"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://codeberg.org/martianh/lingva.el")
+    (synopsis
+      "Access Google Translate via lingva.ml")
+    (description
+      "Documentation at https://melpa.org/#/lingva")
     (license #f)))
 
 (define-public emacs-link
@@ -67533,17 +67646,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220619.1215")
+    (version "20220619.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "3632ddd9e4b76da2a547b6be7a5d27c622638b61")))
+                 "ca195f3ba02cb0aebffa439e4d30d4fc0934df63")))
         (sha256
           (base32
-            "0ca8nvi2hs87h0gp2sbdrfwxgk7hnyr7lg9hfn55zxvxh47sjnw4"))))
+            "06cg58xszmvgfrhpz7zfa3c10pqg7kza6haz07ianc3nap9w5nz3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81091,6 +81204,29 @@
       "Documentation at https://melpa.org/#/org-listcruncher")
     (license #f)))
 
+(define-public emacs-org-mac-link
+  (package
+    (name "emacs-org-mac-link")
+    (version "20220616.2340")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/aimebertrand/org-mac-link.git")
+               (commit
+                 "0b18c1d070b9601cc65c40e902169e367e4348c9")))
+        (sha256
+          (base32
+            "0ijlmfq6dbdmk3jpl87g4knk4l76yxf63nmk3n2nll3v3swbk22g"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/aimebertrand/org-mac-link")
+    (synopsis
+      "Insert org-mode links to items selected in various Mac apps")
+    (description
+      "Documentation at https://melpa.org/#/org-mac-link")
+    (license #f)))
+
 (define-public emacs-org-make-toc
   (package
     (name "emacs-org-make-toc")
@@ -90872,17 +91008,17 @@
 (define-public emacs-ppcompile
   (package
     (name "emacs-ppcompile")
-    (version "20220613.1410")
+    (version "20220619.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/whatacold/ppcompile.git")
                (commit
-                 "c6450517157dfb73572892785a0aafe440596d19")))
+                 "4c287c9ebc0e78dbbe75195bb5eb3fe82e0bfaff")))
         (sha256
           (base32
-            "1s64qbfrfl7z128qczflxcllbvlgfiwfwnqsd2sdvbaykv38xi6h"))))
+            "0nqqsx51bfs90183yldjfxiv1k4d6l0vy8acnhmifbzbwzxa1b7i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/whatacold/ppcompile")
@@ -94543,17 +94679,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220607.1810")
+    (version "20220619.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "1c88636d5da4537b897e7b9b23edfd9495a24d10")))
+                 "9d2303ce38f206bb745111103f2f964dec65f9cf")))
         (sha256
           (base32
-            "12nfrdvgndn11a17zaawv2i6mbjfiw1gih683l0cj0xknx11rg8j"))))
+            "02s2j5cppv9a05hdh692qvqym20kdkci1bi3hy8dyci4y9x2k0mw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -103633,6 +103769,29 @@
       "A startup message featuring Mr C.M. Burns")
     (description
       "Documentation at https://melpa.org/#/smithers")
+    (license #f)))
+
+(define-public emacs-smithy-mode
+  (package
+    (name "emacs-smithy-mode")
+    (version "20220619.1304")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/mnemitz/smithy-mode.git")
+               (commit
+                 "8d248fbe3135766451df9b88eb972f61619ebc9b")))
+        (sha256
+          (base32
+            "1ap5askrv3zv005ma2ipllsc7k6l2wahvnc5y2vmxj9zb89gl6p4"))))
+    (build-system melpa-build-system)
+    (home-page
+      "http://github.com/mnemitz/smithy-mode")
+    (synopsis
+      "Major mode for editing Smithy IDL files")
+    (description
+      "Documentation at https://melpa.org/#/smithy-mode")
     (license #f)))
 
 (define-public emacs-sml-basis
@@ -120472,17 +120631,17 @@
 (define-public emacs-zetteldesk
   (package
     (name "emacs-zetteldesk")
-    (version "20220528.1904")
+    (version "20220619.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Vidianos-Giannitsis/zetteldesk.el.git")
                (commit
-                 "de0d84374b3b60d1456965bb85cfe68aeb4f6f59")))
+                 "559b9c170aad80e759f68a2739c9c8b6c6448f84")))
         (sha256
           (base32
-            "1x9h908l3bs78cfy4p4mkskws6jmflprf89ayaakfn9yrl313zcn"))))
+            "0glhchzrnsp1zb5x3svxbab0438g9m0n3l2r48gksr7k9fw2l1b0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-roam))
     (arguments '(#:files ("zetteldesk.el")))
@@ -120497,17 +120656,17 @@
 (define-public emacs-zetteldesk-kb
   (package
     (name "emacs-zetteldesk-kb")
-    (version "20220530.2045")
+    (version "20220619.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Vidianos-Giannitsis/zetteldesk.el.git")
                (commit
-                 "177771d7e1eddf86e0b6f6e94332200cf26dedaa")))
+                 "559b9c170aad80e759f68a2739c9c8b6c6448f84")))
         (sha256
           (base32
-            "0zncqyzhmcvxprg4ba9wn6mgi35sih465r45bygcc97g19hlxy43"))))
+            "0glhchzrnsp1zb5x3svxbab0438g9m0n3l2r48gksr7k9fw2l1b0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zetteldesk
@@ -120519,6 +120678,32 @@
     (synopsis "Keybindings for zetteldesk.el")
     (description
       "Documentation at https://melpa.org/#/zetteldesk-kb")
+    (license #f)))
+
+(define-public emacs-zetteldesk-ref
+  (package
+    (name "emacs-zetteldesk-ref")
+    (version "20220619.2028")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Vidianos-Giannitsis/zetteldesk.el.git")
+               (commit
+                 "559b9c170aad80e759f68a2739c9c8b6c6448f84")))
+        (sha256
+          (base32
+            "0glhchzrnsp1zb5x3svxbab0438g9m0n3l2r48gksr7k9fw2l1b0"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-zetteldesk emacs-bibtex-completion))
+    (arguments '(#:files ("zetteldesk-ref.el")))
+    (home-page
+      "https://github.com/Vidianos-Giannitsis/zetteldesk-ref.el")
+    (synopsis
+      "A zetteldesk extension for interfacing with literature nodes")
+    (description
+      "Documentation at https://melpa.org/#/zetteldesk-ref")
     (license #f)))
 
 (define-public emacs-zettelkasten
