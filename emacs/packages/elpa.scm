@@ -8,7 +8,7 @@
 (define-public emacs-compat
   (package
    (name "emacs-compat")
-   (version "28.1.1.2")
+   (version "28.1.1.3")
    (source
     (origin
      (method url-fetch)
@@ -17,7 +17,7 @@
            version
            ".tar"))
      (sha256
-      (base32 "1g0w743x1w00yn1w1iznhnqzxagmxdhjn9flavs1737972jk3ld5"))))
+      (base32 "11g27n0103j1xmj1s3m49jcqxn4n4wd9pm69i2g3ikijxs1qw18n"))))
    (build-system emacs-build-system)
    (propagated-inputs (list emacs-nadvice))
    (home-page "https://sr.ht/~pkal/compat")
