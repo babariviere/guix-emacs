@@ -23,7 +23,7 @@
   (syntax-rules ()
     ((_ name var exp)
      (let ((var name))
-       (define-public name exp)))))
+       (set! name exp)))))
 
 (define-override emacs-emacsql-sqlite pkg
   (package
