@@ -1,4 +1,4 @@
-;;; guix-emacs --- Reproducible development environment.
+;;; guix-emacs --- Guix Emacs channel.
 ;;;
 ;;; Copyright © 2014 Taylan Ulrich Bayirli/Kammer <taylanbayirli@gmail.com>
 ;;; Copyright © 2013-2022 Ludovic Courtès <ludo@gnu.org>
