@@ -2273,17 +2273,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220521.816")
+    (version "20220620.249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "ca1ef30004d3fb76aaa70bd47cb83e9fe017a7f7")))
+                 "0e8820dffec876ab89e262c5cd3dd8ec1b07cb86")))
         (sha256
           (base32
-            "149i1wh2wk4j6x8zyz8macz6pfhkmpvf9j6xqhn3psnbdpikjvqp"))))
+            "1g2k9m2zddjhkahalqwb4srck9ms6880lrn7jiq1pvvhpvlb2sbz"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -10172,17 +10172,17 @@
 (define-public emacs-cargo-transient
   (package
     (name "emacs-cargo-transient")
-    (version "20220619.1114")
+    (version "20220620.44")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/peterstuart/cargo-transient.git")
                (commit
-                 "9aad485b3bb46ff6dfc4f7a93974f34c9081b077")))
+                 "ecf86fe350b6295db0e660eb0d1a5b7fd95f0827")))
         (sha256
           (base32
-            "169iy04mvn2mm8208rib7vl1z34hqjsmpxxmnw01m0k7lrrc6jhj"))))
+            "1mgj4by2hmm3dzqpx09kfgj7mhrm978qpwilrv7parzzg7c3sm7y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/peterstuart/cargo-transient")
@@ -23678,17 +23678,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220617.1040")
+    (version "20220620.541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "0986e084b2aa6e215da678e81f40c30ecd5b7a23")))
+                 "b4ba497760976faab6d275157830fa6ec07d30b9")))
         (sha256
           (base32
-            "1rnpj2qxk13ln7fawqdx01wik4rzc1k0l74gg8c0f0xmx3i56qfn"))))
+            "13y9jfib7bcs270mvyy6cz56ai0hhk76ziwwk1acgxqdj07yajkn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -87515,28 +87515,25 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220522.13")
+    (version "20220619.2227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "f9ccdf99e560bae70d3a13325cec9dc0e3cc45b0")))
+                 "fe42da60ad68e806af1677210249caccd7b99451")))
         (sha256
           (base32
-            "19hj0hbg3rssw9xjia1g0nmknmvcrxhgb3p0y5vy8nlk0d2h5v4z"))))
+            "1h411p0b0bkmihp8jn9mhzjhv2q41q6s2v8l1209qi4rmrwvb2c0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
       '(#:files
-        ("lisp/*.el"
-         "README"
-         ("build" "Makefile")
-         ("build" "server")
-         (:exclude
-           "lisp/tablist.el"
-           "lisp/tablist-filter.el"))))
+        (:defaults
+          "README"
+          ("build" "Makefile")
+          ("build" "server"))))
     (home-page "http://github.com/vedang/pdf-tools/")
     (synopsis "Support library for PDF documents")
     (description
@@ -87803,17 +87800,17 @@
 (define-public emacs-persistent-scratch
   (package
     (name "emacs-persistent-scratch")
-    (version "20220218.810")
+    (version "20220620.408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fanael/persistent-scratch.git")
                (commit
-                 "4e159967801b75d07303221c4e5a2b89039c6a11")))
+                 "92f540e7d310ec2e0b636eff1033cf78f0d9eb40")))
         (sha256
           (base32
-            "1f4s2rjgylqxjnx2885hc58215k3j162v0qlk2agq6m0hk9nn6fb"))))
+            "1hl4xac1zsvpbibahp54phf1b1srhnm2nh30vzmh96aynnf38vqd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Fanael/persistent-scratch")
@@ -98043,17 +98040,17 @@
 (define-public emacs-rspec-mode
   (package
     (name "emacs-rspec-mode")
-    (version "20220613.923")
+    (version "20220620.105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pezra/rspec-mode.git")
                (commit
-                 "a72751dff9728c54316daf83ef301d4d3f1a970b")))
+                 "2ad9e69dc9cf13fdc0dae84148467c9e353c9742")))
         (sha256
           (base32
-            "1awxwrs3c9586jaam9brv31qfwnh2lfi12d1vi0cs4wv9rmqz845"))))
+            "0r7yqswnmlhibisbc0mkk1pj7mdkzbd9qndys3ivgh8szif7gqbj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("rspec-mode.el" "snippets")))
