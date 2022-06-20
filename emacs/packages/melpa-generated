@@ -21024,17 +21024,17 @@
 (define-public emacs-diff-hl
   (package
     (name "emacs-diff-hl")
-    (version "20220515.1714")
+    (version "20220620.1309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/diff-hl.git")
                (commit
-                 "e84209e959a17c7b96148e099e391daa29a4835e")))
+                 "dabb7be6283488abd8d232ea8ce590d502713ed8")))
         (sha256
           (base32
-            "1jjgdjlbpi8d5yb83143jhkb2v4375kvmxkn1q5v3wyqx0f21npx"))))
+            "0j9xq8r4ar6rv6a3gnakm2bzr43r7sqnbgczriifr3ybkssnpzp0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dgutov/diff-hl")
     (synopsis
@@ -23678,17 +23678,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220620.541")
+    (version "20220620.1428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "b4ba497760976faab6d275157830fa6ec07d30b9")))
+                 "6d1e8c0a804725a4d2d5aa1da013e09cf28e3f30")))
         (sha256
           (base32
-            "13y9jfib7bcs270mvyy6cz56ai0hhk76ziwwk1acgxqdj07yajkn"))))
+            "1sqbi5y5vbdm3spvqr3lb0l2i1bigqxm2jji0xm11lgc91akzfpv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -47557,17 +47557,17 @@
 (define-public emacs-gruvbox-theme
   (package
     (name "emacs-gruvbox-theme")
-    (version "20220101.1208")
+    (version "20220620.1209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greduan/emacs-theme-gruvbox.git")
                (commit
-                 "921bfd7a2f5174b68682b04e6010b156bbfe6c70")))
+                 "c30c28f81455fe3eed9895bdaca11fc35a687644")))
         (sha256
           (base32
-            "12s9879spz1d5a90x2mp85crxkxz42jq20qk5vkkka1rqfmfmlk1"))))
+            "0w90llh7ahc2h1plqp1v16wx4ap17bzn0xxdrc9cbnr2qlxlj4zq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -63295,17 +63295,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20220619.1732")
+    (version "20220620.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "b434684154cfcbf0f60508bf09c178e027de0958")))
+                 "ba098721b5d5cf034825455d0c0f6796cc40aa7d")))
         (sha256
           (base32
-            "1c4v8x7s7hvq32v349ijlcj36xjlhakzzrqfw008739w6cd5lwbr"))))
+            "1fslbd27rlf37kv3bwmyninpl15yk9vy7jf3d632qb1yik43igyg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69526,17 +69526,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220603.300")
+    (version "20220620.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "1f709778ac7990f4a07fdf11fe37bc6541810b29")))
+                 "8244e0b6b94ec6183d55b1dfce4b6cd00eada718")))
         (sha256
           (base32
-            "1gwx11rzyaz7ym5lzaddcr1mz1pzysykz8kajkkfx2rq65k9skpw"))))
+            "0b43k6vas9varv9zn9cc80ij2sg63jdfnn98lcywm80vvvp20vhi"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -72520,17 +72520,17 @@
 (define-public emacs-moody
   (package
     (name "emacs-moody")
-    (version "20220422.1616")
+    (version "20220620.844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/moody.git")
                (commit
-                 "ac647781d2d66d57c84a64dfd33b463b4a99b257")))
+                 "a798096ee4ccf66ef2aa7016c00c8531bd63d27a")))
         (sha256
           (base32
-            "0g9bq9z030kf4l5za54300zq98396a6f50d9rd9vylyjqsfxv7fk"))))
+            "0xqv6wd7zyka0dn5hrk0rq6ym04qn3sfza7cqr7i4fvpdkxlv7iv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/tarsius/moody")
@@ -97582,14 +97582,14 @@
 (define-public emacs-rime
   (package
     (name "emacs-rime")
-    (version "20220522.2351")
+    (version "20220620.951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DogLooksGood/emacs-rime.git")
                (commit
-                 "0b4a2709159f5e975544b26302b8463deb7640d8")))
+                 "3eeef9c445fa056a4b32137f9ef72c27ced2d4ab")))
         (sha256
           (base32
             "1sk09z05xvg94pkf4181hvlg9q0m71kinzxv8223ls8df6ymc43k"))))
@@ -98754,17 +98754,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220617.1303")
+    (version "20220620.914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "35e5352316cfd3e5004f01ab27062c9256bc02a2")))
+                 "0bd7932ebe30c19068b8c4fc154e00787a678200")))
         (sha256
           (base32
-            "0zi3za3wnij0cgn6lp050h5dg8ci04rmlp7x8k129i4h9c1w6kfv"))))
+            "000awxvnwxg2hmhhn6yd9pnvflr91npfs2v1p5y7hcwg1d6mmvgk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
