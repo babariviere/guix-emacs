@@ -6300,17 +6300,17 @@
 (define-public emacs-base16-theme
   (package
     (name "emacs-base16-theme")
-    (version "20220526.1015")
+    (version "20220621.905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/belak/base16-emacs.git")
+               (url "https://github.com/base16-project/base16-emacs.git")
                (commit
-                 "26b84fc93505219517a512eb01e6370365174989")))
+                 "283f461969b9c29055e9e2aa1547b605c096949b")))
         (sha256
           (base32
-            "0qp71j77zg8gippcn277s0j5a9n6dbwv3kdp2nya6li4b412vgba"))))
+            "0wd2knsz9yj9p4x7inddk0ks90bdl3q87c94k2752sv334m3wws9"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "build/*.el")))
     (home-page
@@ -31487,17 +31487,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20220509.801")
+    (version "20220621.1054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "e83ac622fe7e3cbfc848481a9257e5ed5c7b5afb")))
+                 "1eac54456e00bfcf96ee69ce56311c5d9943aaa1")))
         (sha256
           (base32
-            "1qi399iidac2hbz1c2ydqcbfcqr5f7ldgqbhchk96az2l41yb6sp"))))
+            "151nbqhi1lw0j45lirf8gvkf84xgzl11q9c87d1lampnimq56dfy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -46108,17 +46108,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20220621.340")
+    (version "20220621.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "ba554de51cc8abe648ba8d2104aabd5a05abe38e")))
+                 "82e24704ce12ab7a810507f911dc56a0425b2cc3")))
         (sha256
           (base32
-            "0aqdmq38w7pdn9bs9cvwkjbnj4lz476fr9pgmsb0cydmq2xvq1gl"))))
+            "1nn6f0cb2v3mswbn4bqxh7kvxgf4qq673rwlan152kf47b5c23k9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -63295,7 +63295,7 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20220621.316")
+    (version "20220621.808")
     (source
       (origin
         (method git-fetch)
@@ -65343,22 +65343,22 @@
 (define-public emacs-lingva
   (package
     (name "emacs-lingva")
-    (version "20220611.1553")
+    (version "20220621.1023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/lingva.el.git")
                (commit
-                 "5008210246b5dc0abddec5ecbb833faaf117cb49")))
+                 "025a8e37d71a51c1e359292c24cc6b06c5434cc8")))
         (sha256
           (base32
-            "1a9aj2yym27xil6v116vavhgyvdp5mmibwd1m5bvzgs9736pwdxm"))))
+            "17174bimr91nas1wmvhxjwni5qmcb1q9drg3ckb1krp69bmaz1qk"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/martianh/lingva.el")
     (synopsis
-      "Access Google Translate via lingva.ml")
+      "Access Google Translate without tracking via lingva.ml")
     (description
       "Documentation at https://melpa.org/#/lingva")
     (license #f)))
@@ -71228,17 +71228,17 @@
 (define-public emacs-mini-frame
   (package
     (name "emacs-mini-frame")
-    (version "20220620.2121")
+    (version "20220621.1000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/muffinmad/emacs-mini-frame.git")
                (commit
-                 "7e09b3119c93a71a86689d083fad2e076ff53e29")))
+                 "d4a0defd2b7b914cdc1d48bb16330136cb90abfb")))
         (sha256
           (base32
-            "1gjjs6qwihq7mix5bdfzhb3zaqk8kzzbk893rsfzpxzfiz0m2kz9"))))
+            "0s9v7a811kmciaid13lyzbifcsi4fxlay8iix3fynvxva1d58d6q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/muffinmad/emacs-mini-frame")
@@ -95949,17 +95949,17 @@
 (define-public emacs-recentf-remove-sudo-tramp-prefix
   (package
     (name "emacs-recentf-remove-sudo-tramp-prefix")
-    (version "20210509.43")
+    (version "20220621.749")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ncaq/recentf-remove-sudo-tramp-prefix.git")
                (commit
-                 "c462344739867f35d39c8794c358b4c4b5af7dcc")))
+                 "95ff600058371dd08f615095a55850d2910021bb")))
         (sha256
           (base32
-            "1bpf9bqnhwb6gcr6gxi2fgr03fdh0s7k0k3pgy543dpafhlzm2ac"))))
+            "1nvrc61lcyij2y64hbrsap9fc2lxx2srg763wyvhclzdi4lk4px6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ncaq/recentf-remove-sudo-tramp-prefix")
@@ -98754,17 +98754,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220620.914")
+    (version "20220621.840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "0bd7932ebe30c19068b8c4fc154e00787a678200")))
+                 "060149c3347ff056392474b11c36a990373f725b")))
         (sha256
           (base32
-            "000awxvnwxg2hmhhn6yd9pnvflr91npfs2v1p5y7hcwg1d6mmvgk"))))
+            "0wh37gmkn56a0nvzhrhx5ifz0i3x5ldqgfsw1jyfm0rfs71kk3lq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -110833,17 +110833,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220601.708")
+    (version "20220621.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "3e7e946f0e474fa2d2a5bbdddf7f168e6ed759ba")))
+                 "d69ec1f49d69e23467551240accece95c513e499")))
         (sha256
           (base32
-            "0jd54rxrc3b26z3d9p4d8bg9dxs5p20s5qkc0h3vfbwfhcjj2vwf"))))
+            "1pg17v0blmis5nmnnhv2f8si8wm5nrda2plr2hrcpz4xhyp1ah9q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -111806,17 +111806,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220620.2018")
+    (version "20220621.1121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")))
+                 "9a1b2742d030bfa2cd9b272b103a6a5c6080f4e8")))
         (sha256
           (base32
-            "01ny57qn4x94d417gaivg0d6b2s171c8cr0drdri7vf118wjb30w"))))
+            "0faddl42hr9vyq9x5271swdmlzb1l4wagp6vlxmrqhdznmqyfmmr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -118167,17 +118167,17 @@
 (define-public emacs-wolfram
   (package
     (name "emacs-wolfram")
-    (version "20220621.749")
+    (version "20220621.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hsjunnesson/wolfram.el.git")
                (commit
-                 "af8f90469a0206f4ac762228ee549dae8a7a5000")))
+                 "b1d9905666eb075fb2f40d09beec272200f6eb3b")))
         (sha256
           (base32
-            "0m7vyy63a531ncky3i103c765n0k7cyz764fcgdzcj83nrbn2xpn"))))
+            "05682cbflka1nvqr1jm1bpf92ia7zr7ad1cwndpgsxggidnsns3q"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Wolfram Alpha Integration")
