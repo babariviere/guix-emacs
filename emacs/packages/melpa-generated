@@ -2320,17 +2320,17 @@
 (define-public emacs-all-the-icons-dired
   (package
     (name "emacs-all-the-icons-dired")
-    (version "20220304.1638")
+    (version "20220620.1939")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wyuenho/all-the-icons-dired.git")
                (commit
-                 "147ed0dfd1034a686795a08dc63e2c293128597e")))
+                 "b5d3af1e47de09e6ac80d4d7fba516e6a3c38e26")))
         (sha256
           (base32
-            "1vlwhnvgpjsvrlifczlnf4w02vpzp8rqkfw3mphhzxkfzvif5v53"))))
+            "1a72ka2sfnn644kgz6ag8sz3j8dxkbmlyd5rv7fq9qwj7487n2yh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -3484,17 +3484,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220604.2239")
+    (version "20220620.2121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "67853e98b190cc735a8ad31bd1de64f76f2990c4")))
+                 "12804a50206c708570104637472411288d6133f5")))
         (sha256
           (base32
-            "1jbidfz0s7lz190hzwvj7qxh2f3lmbwaynqrarr183pksja4jqwc"))))
+            "1dw9d1xm1c1l528bbrm0gckg0qnn9364g37fi41mi10cg6fvi04c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -16265,17 +16265,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220613.947")
+    (version "20220620.2036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "4916cda94127ae495f3b1f38e2e9261d0138e439")))
+                 "1ddc88fd982a95f01425e618ba628f1e65c7f870")))
         (sha256
           (base32
-            "1lfnj7jj5lifyd5mi1ryxmig3i9xdchfswvydfy9sa76parbmzhj"))))
+            "0hba21j8fnfyizkv04wkswd5asi1iz4ky1l7n3pcfzmygza5x97l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -48791,17 +48791,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220617.1957")
+    (version "20220619.1437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "218fa70297128d09410b5702c582feadb7b2b31e")))
+                 "452dd1baebb765bf633f37818cd63c6f085f89b9")))
         (sha256
           (base32
-            "1smqkbvnkjsmgvplkqls12l3a5dirwip5hfifwh1yii350ax8asm"))))
+            "000ibz0dwflfwpnxmv3ka75b1c52sxkjwkksqpv5biam9hfx75va"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -66954,17 +66954,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220618.1527")
+    (version "20220620.1516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "64c93a047b19b5564cd8aa55dca2189d94dc3a71")))
+                 "7868b87ab27cf96878ded35c390e15bb5bb588e6")))
         (sha256
           (base32
-            "083alvmnl5210b8rbayxy4ga76876pnwm67p2kbm8c5j4i27wpd2"))))
+            "1p93bg44lz1wh5xap592kjfjvg0m599418qn7ybmbx7j1l68m15v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -67133,17 +67133,17 @@
 (define-public emacs-lsp-java
   (package
     (name "emacs-lsp-java")
-    (version "20220325.547")
+    (version "20220620.1843")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-java.git")
                (commit
-                 "0968038b9aea52ef3bf499e597cf3800d913c059")))
+                 "359da2e13dab1b31151b9b693d04a81b00093ba5")))
         (sha256
           (base32
-            "1rpssrv1avbfq47h23qiymzhzddcxgs77diwq3mavqkxkqrkj3vz"))))
+            "1k95l7h0c89j1kn7arhpl1i49r60gjz7nzlwbslid9x9y5zxi1za"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -67316,17 +67316,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220617.628")
+    (version "20220620.2056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "3a8bbe238d6ab46b1287063d104ee2b00ec949bb")))
+                 "9957623d93b13fabaca8ba35b85da8fcceaeef69")))
         (sha256
           (base32
-            "12dpfp48rbb3sd8f3farj55dhb2c75p68w7m4jl41z3ll65ph76a"))))
+            "0gnp4zg9ak5ydjy9dma95h415y3c0nrsiwil1062vv13ygaj4697"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71228,17 +71228,17 @@
 (define-public emacs-mini-frame
   (package
     (name "emacs-mini-frame")
-    (version "20210710.1941")
+    (version "20220620.2121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/muffinmad/emacs-mini-frame.git")
                (commit
-                 "57a049b9e1ea4a9b65e82fc10c8c7e70a042f636")))
+                 "7e09b3119c93a71a86689d083fad2e076ff53e29")))
         (sha256
           (base32
-            "0bhsicy4van5xml8s9if2q7b36fbnzqg7kbg41zknf7nyhzl8pxi"))))
+            "1gjjs6qwihq7mix5bdfzhb3zaqk8kzzbk893rsfzpxzfiz0m2kz9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/muffinmad/emacs-mini-frame")
@@ -81346,17 +81346,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220611.2149")
+    (version "20220620.2110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "d0f13dc88781f51368c479c83d00753b78f55d46")))
+                 "ae8797c0feeb41fac5206d5460ea4cd1f9edcb89")))
         (sha256
           (base32
-            "15r6ipl302x2pfm60a9n34hjxi5m7g1lgpbzjacn1jfs60a17fn0"))))
+            "1kw59wxa3n35f315szlf97qs2zqif0k24xzna44kqz0zd9chdnda"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -86746,17 +86746,17 @@
 (define-public emacs-parsebib
   (package
     (name "emacs-parsebib")
-    (version "20220616.1506")
+    (version "20220620.2207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/parsebib.git")
                (commit
-                 "83a77ea7e51f78093b1a0f1eb51615ec9295829d")))
+                 "35e9ced9ff7332b989f90e59e8d15c8c1148c654")))
         (sha256
           (base32
-            "11km1c5nla999q2p8vipirnvlwcddfhjdg4042ydalckz18phrd1"))))
+            "0sgm2k6jwh6ghfkrx6b845fmj348g6y88fz2ymm08f60n65kaqsq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/joostkremers/parsebib")
@@ -98086,17 +98086,17 @@
 (define-public emacs-rtags
   (package
     (name "emacs-rtags")
-    (version "20210313.1541")
+    (version "20211101.2149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Andersbakken/rtags.git")
                (commit
-                 "db39790fda5c2443bc790b8971ac140914f7e9c2")))
+                 "c628efc9b485470a48aec2692d79f7c140bc5b92")))
         (sha256
           (base32
-            "05cigdvlq5lfahr9a1z8rvlw2s99j4pha2in59pshz9ph8cqgq10"))))
+            "03avv7brbrj69368riq3xg4qh65yzl5cyjn9wc2rbyx4jw2q3p4p"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/rtags.el")))
     (home-page
@@ -111806,17 +111806,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220616.1202")
+    (version "20220620.2018")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "0578a1ba33037322828aabe240a7cc8e283077c0")))
+                 "e9f439c2ad18b6c9cb3ef962b57f932a9a14b362")))
         (sha256
           (base32
-            "1a2gnp7fwv4qmxrpp1869fnl35axppkzd4m1j8ixvvdc5hq8rvnk"))))
+            "01ny57qn4x94d417gaivg0d6b2s171c8cr0drdri7vf118wjb30w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -112401,17 +112401,17 @@
 (define-public emacs-tubestatus
   (package
     (name "emacs-tubestatus")
-    (version "20220303.1736")
+    (version "20220620.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/smallwat3r/tubestatus.el.git")
                (commit
-                 "c81373f1bc32cbd2e2d642ee10ee1cb31915acb0")))
+                 "bf722d441ff96ff8fac6c8d2a798e283fef5613b")))
         (sha256
           (base32
-            "1ili2jfp8ycigq022ws92x6x91k0myq34ipq318b461shd1by4yq"))))
+            "08cwyabcb0qzydsw14n9vk93y471yp8cyif9pcbmx2qrr9kd07xa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
