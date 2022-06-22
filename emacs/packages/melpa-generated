@@ -30574,7 +30574,7 @@
                  "eccc556e79f315d1f87c10fb46f2c4af50a63f20")))
         (sha256
           (base32
-            "0aljr6gd8pgs26qy1k72yfxgmlaf4zj9q2ax198rv69sm810bpnp"))))
+            "10m0x8fcni34g58zkqz3mi1x4q81ksd798hmg9n3kb3zhyx7bzck"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -121434,4 +121434,3 @@
     (description
       "Documentation at https://melpa.org/#/zzz-to-char")
     (license #f)))
-
