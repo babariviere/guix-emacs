@@ -55778,17 +55778,17 @@
 (define-public emacs-iceberg-theme
   (package
     (name "emacs-iceberg-theme")
-    (version "20200812.943")
+    (version "20220622.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/conao3/iceberg-theme.el.git")
                (commit
-                 "183b41eae07d94d4a8f299306078410bddc41d34")))
+                 "c9fdf9a8f5ff417c206730a84731f64a95483935")))
         (sha256
           (base32
-            "1sxadaip63mhfjvgkax45jlv3c8cnbjnq653qbvw98vb8xsrmjc4"))))
+            "03a7mmaykwvmm9yc8ii5k5wgihl88kyq0amp2byjddl7f4mq7zak"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-solarized-theme))
     (home-page
@@ -80950,17 +80950,17 @@
 (define-public emacs-org-jira
   (package
     (name "emacs-org-jira")
-    (version "20220509.2058")
+    (version "20220622.25")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahungry/org-jira.git")
                (commit
-                 "c0c0086419b4e68bb45bf609931916d6d8ae48a2")))
+                 "44fe1d947feb1c982d900b468737d133df8bd4fe")))
         (sha256
           (base32
-            "0yrmgr4jr49qr94j50cbbpgwszgsw6w7c2c0q4pdz2ckqff0y1fx"))))
+            "0iz4415z3ydkrzq2w8ldndp4iavda94a5yvdypdkv4ssg8db09bq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash))
@@ -82078,17 +82078,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20220523.1744")
+    (version "20220622.642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "93ba4e91f1d007669d39fc76c097ff5d6a64489e")))
+                 "f184e66e398e1cfdfd55894c67392805ae531a39")))
         (sha256
           (base32
-            "0qwlyikci53z1qc33nsg19fazg5p1jrjsjc481afyjf364ds2j1i"))))
+            "180dn5iywarljbmx8lm61y30n2d800kg96psrvc8ghfglnvp6964"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -93443,17 +93443,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220621.104")
+    (version "20220622.639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "45184b228cc009ea7b3fd3078b17beabd120e026")))
+                 "63d2399cb8a92e84448b5cd6ba0c940fa767c41d")))
         (sha256
           (base32
-            "1w9valsm49al1zbx08cjj3xn307m5m4rlyxm9w5cmqxy7ril2hhd"))))
+            "0w29hqwrpj8z78sidzbwigmyryfbnsvxbrbkz8xka8swn7j61h5h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
