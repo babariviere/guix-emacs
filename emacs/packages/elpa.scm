@@ -5,37 +5,6 @@
   #:use-module (guix packages)
   #:use-module ((guix licenses) #:prefix license:))
 
-(define-public emacs-compat
-  (package
-   (name "emacs-compat")
-   (version "28.1.1.3")
-   (source
-    (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://elpa.gnu.org/packages/compat-"
-           version
-           ".tar"))
-     (sha256
-      (base32 "11g27n0103j1xmj1s3m49jcqxn4n4wd9pm69i2g3ikijxs1qw18n"))))
-   (build-system emacs-build-system)
-   (propagated-inputs (list emacs-nadvice))
-   (home-page "https://sr.ht/~pkal/compat")
-   (synopsis "Compatibility Library")
-   (description
-    "To allow for the usage of Emacs functions and macros that are defined in newer
-versions of Emacs, compat.el provides definitions that are installed ONLY if
-necessary.  These reimplementations of functions and macros are at least subsets
-of the actual implementations.  Be sure to read the documentation string to make
-sure.
-
-Not every function provided in newer versions of Emacs is provided here.  Some
-depend on new features from the core, others cannot be implemented to a
-meaningful degree.  The main audience for this library are not regular users,
-but package maintainers.  Therefore commands and user options are usually not
-implemented here.")
-   (license license:gpl3+)))
-
 (define-public emacs-vundo
   (package
   (name "emacs-vundo")
