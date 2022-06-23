@@ -64505,17 +64505,17 @@
 (define-public emacs-ledger-mode
   (package
     (name "emacs-ledger-mode")
-    (version "20220617.1148")
+    (version "20220623.1125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ledger/ledger-mode.git")
                (commit
-                 "5d46822596469253507796ea3141eb824de3587a")))
+                 "8bad528d43007e0310b5e72e6e021b502b30495c")))
         (sha256
           (base32
-            "007vzf6dlz3l4v7px8wxd1lmszjhy5ymy9m1j2mw19nxla1rd30v"))))
+            "11s33ajzjhqjqxilwn06v79vndl3x61z35c0cr5s641h5lxlj442"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "ledger-test.el")))
@@ -65343,17 +65343,17 @@
 (define-public emacs-lingva
   (package
     (name "emacs-lingva")
-    (version "20220621.1023")
+    (version "20220623.954")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/lingva.el.git")
                (commit
-                 "025a8e37d71a51c1e359292c24cc6b06c5434cc8")))
+                 "2032ffdcace23cca0a2ad4345352c20c1580be9e")))
         (sha256
           (base32
-            "17174bimr91nas1wmvhxjwni5qmcb1q9drg3ckb1krp69bmaz1qk"))))
+            "1xfjbqf42jb78w1qddxi0iac5qqbaljarn46ydymm6ak1cwhfpz8"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/martianh/lingva.el")
@@ -70473,17 +70473,17 @@
 (define-public emacs-merlin
   (package
     (name "emacs-merlin")
-    (version "20220517.1602")
+    (version "20220623.848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "c7abce25b675f8eda57d389bf399dabceb044105")))
+                 "cc0ef799302c45478a09bc1e9749e3b61188b325")))
         (sha256
           (base32
-            "1i89rv4yhvvdamay99cmdqsjwi5klrsi8kfay4g8086rc4ih47cm"))))
+            "1w81d7kl8iv6856m1x2hchdzxvzab3njpr98lmagp0y6xaglhhvc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -72135,17 +72135,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220623.605")
+    (version "20220623.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "469ff07139ac30e68102563f57010e866680d9f9")))
+                 "6f0eda73a76e0472d461c8bca12ed59f858f7ead")))
         (sha256
           (base32
-            "0l1hmi1vcvjnz4x8qb9cz67hnz7kdgjhxp7gjm2crsw3rry3hnaw"))))
+            "0s1faqpacf4slarc927cnrams44cq2zh8jqlsf36kx9xk6m8jdxd"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -96375,17 +96375,17 @@
 (define-public emacs-reformatter
   (package
     (name "emacs-reformatter")
-    (version "20210831.1405")
+    (version "20220623.1109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/emacs-reformatter.git")
                (commit
-                 "b57f5d480003ab7b0880e0059dcc51747fb2e088")))
+                 "7c5452bf31c7bcaa19df7c94dfe17dcae5bdc078")))
         (sha256
           (base32
-            "16ajp4p26aaswxcxpqgh43p3dk699gab1xc3l3aj7x1sjf3ag3zq"))))
+            "07h6wlrg81sd26s31p5w1v9d700f5am825k8v8155a88jgrv6bk5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/emacs-reformatter")
@@ -105277,43 +105277,6 @@
       "Documentation at https://melpa.org/#/spice-mode")
     (license #f)))
 
-(define-public emacs-spiral
-  (package
-    (name "emacs-spiral")
-    (version "20180223.1140")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/volrath/spiral.git")
-               (commit
-                 "907b9792467139a942ba7b07ca0276b90770baf9")))
-        (sha256
-          (base32
-            "1rggzzvya26abbzd8bc2kpv59kzgm75wqv1vwqnj9c8im1jvs1na"))))
-    (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-a
-            emacs-avy
-            emacs-clojure-mode
-            emacs-highlight
-            emacs-treepy))
-    (arguments
-      '(#:files
-        (:defaults
-          "blob.clj"
-          "tools"
-          "parseclj/parseclj.el"
-          "parseclj/parseedn.el"
-          "parseclj/parseclj-parser.el"
-          "parseclj/parseclj-lex.el"
-          "parseclj/parseclj-ast.el")))
-    (home-page "https://github.com/Unrepl/spiral")
-    (synopsis "Clojure IDE based on UNREPL")
-    (description
-      "Documentation at https://melpa.org/#/spiral")
-    (license #f)))
-
 (define-public emacs-splitjoin
   (package
     (name "emacs-splitjoin")
@@ -110833,22 +110796,22 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220622.1806")
+    (version "20220623.1111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "f216570e69ec46d2ecdd2577f4295a2bf10c8bc9")))
+                 "e0b03f76bbbd2e30987de56c564655f1919b346a")))
         (sha256
           (base32
-            "1bcwq8chd5pa4p228x9qm58qggqsizgqpdmixr6h91x85qy867ii"))))
+            "02g8f8yz5mkwn50132il0vb7kbim2vvz98qjsmd129wwxcspg7m8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
     (synopsis
-      "Minimal theme with dark and yellow color scheme")
+      "Simple, brutalistic and minimal Emacs theme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
