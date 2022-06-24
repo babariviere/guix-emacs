@@ -12030,17 +12030,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220622.1538")
+    (version "20220623.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "008710d23f194cd4903f315a6778dc78f89d34a1")))
+                 "65e1c52486d788b9b0d4baba63645453b4abcfca")))
         (sha256
           (base32
-            "0s6w92p3i4kv7kia3r89f14xn6d43jag76w8bng5irgjsnx7plsm"))))
+            "0wixd8c22k03643f9mm7bibykwl10yfxlypxc12k8pihpjvg1kyj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -65388,17 +65388,17 @@
 (define-public emacs-link-hint
   (package
     (name "emacs-link-hint")
-    (version "20220414.56")
+    (version "20220623.2310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/link-hint.el.git")
                (commit
-                 "a24546e0dee901bce94e3a11c20b1ed12a22b9c6")))
+                 "54612293cc4e01df639c41597cb83a633b0f5514")))
         (sha256
           (base32
-            "0zdsm2wp04nlnlixgwgrs49hcg6a0pwyxv44y9is449kk5593m11"))))
+            "0mk65vglhx8z7a1j7ag5rxqbpxjqmk0zb6fihb6gh29d8qlcppfl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (home-page
@@ -71228,17 +71228,17 @@
 (define-public emacs-mini-frame
   (package
     (name "emacs-mini-frame")
-    (version "20220621.1000")
+    (version "20220623.2117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/muffinmad/emacs-mini-frame.git")
                (commit
-                 "d4a0defd2b7b914cdc1d48bb16330136cb90abfb")))
+                 "aee8c115b479e54dbb9739bf53e8d8ec410e8cd6")))
         (sha256
           (base32
-            "0s9v7a811kmciaid13lyzbifcsi4fxlay8iix3fynvxva1d58d6q"))))
+            "0si4z8xxhk95ssxb70l82qlfvxyks17wd7vcaq7fpbcwv22fqb0j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/muffinmad/emacs-mini-frame")
@@ -83397,17 +83397,17 @@
 (define-public emacs-org-visibility
   (package
     (name "emacs-org-visibility")
-    (version "20220404.1502")
+    (version "20220623.1717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nullman/emacs-org-visibility.git")
                (commit
-                 "a3aef6573d23309f9a6f340b41fa103cca3c79a6")))
+                 "c3f9710db2d44e7bd5a2bd2530a7e22f629ec26d")))
         (sha256
           (base32
-            "0fc9zisw87kn5jp5pkac13jwai9m5jrm9xvbmsig7s2yr12ifwch"))))
+            "1q5n26v4p54cs5szp86cw590k3vp31j2f6f2mjd1vjnjgqyh0qyd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nullman/emacs-org-visibility")
@@ -98708,17 +98708,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20220217.2009")
+    (version "20220623.2123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "e35a1800fc0f9ed178539d6fb82ed885c1014fb5")))
+                 "af4aa18a9ba7ef9e7dbc1bcae0f4f58fc21f5a4f")))
         (sha256
           (base32
-            "10972zw2h1dijx08j5h7aa4d717vhrmahzkslisy3dk2gd8y2v0q"))))
+            "1pyw0vp5rylcy08rrvrvvnbgib5k7wks7k7jh10zws6hx0a1bmyv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -101009,17 +101009,17 @@
 (define-public emacs-shanty-themes
   (package
     (name "emacs-shanty-themes")
-    (version "20220614.1130")
+    (version "20220623.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qhga/shanty-themes.git")
                (commit
-                 "7beb53d68b75b0a2a8bbb7254303889dbbdbd1ae")))
+                 "906104f6a6b185efc19285fcc3bc943f094fb594")))
         (sha256
           (base32
-            "08zk0p8xzslgdv7rwkr2m2cdfnkg8603y0301d53d7gzslh63xp6"))))
+            "1gxb0sgq2ng9l7nfjbwjzc0ylxdgms018srs6550d779mi5gc8b7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qhga/shanty-themes")
@@ -103545,17 +103545,17 @@
 (define-public emacs-smartparens
   (package
     (name "emacs-smartparens")
-    (version "20220510.934")
+    (version "20220623.1523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/smartparens.git")
                (commit
-                 "ec15aaa748b21c9b8453dd95604ccc95fc1138cf")))
+                 "8b6a3c3b31afd5b3f846e09859b5fc62eb06e7c1")))
         (sha256
           (base32
-            "0cza0wnk3fyyh13srczf2976xwhyfmq2v9m7q6k2lyn7jyfvfxiq"))))
+            "1bifalcx0v9h28q9mdnbad4mrxzr58f4l0wfnw1jhg5khgx4kgl2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -108861,17 +108861,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220618.955")
+    (version "20220623.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "3cd54b6f60aded6a3c11d2ba21b7d27f6118ba2a")))
+                 "659b31a3bf123c10553791f61eb92ac9c9c83bd8")))
         (sha256
           (base32
-            "0b0nz8h2w33sp2gjgyxlqxj9py9wby5zbgl1i5iwid6yxaps92ja"))))
+            "002jsi76xcd8fm5fgcm5knlcms2z92wv7dnq03ssfa6pzwbkpvbq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
