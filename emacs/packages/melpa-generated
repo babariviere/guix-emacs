@@ -2415,7 +2415,7 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220624.332")
+    (version "20220624.744")
     (source
       (origin
         (method git-fetch)
@@ -10172,21 +10172,22 @@
 (define-public emacs-cargo-transient
   (package
     (name "emacs-cargo-transient")
-    (version "20220621.2100")
+    (version "20220624.1042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/peterstuart/cargo-transient.git")
                (commit
-                 "e5ec156e7a56518aae5be92f76c935b30c6207b8")))
+                 "2082c8096513a1dc0a633451ee0a39a0625f886a")))
         (sha256
           (base32
-            "0h52zf22rv3zf7bwb5s0xrmncw4dlhd288wyslrv3rl8sb5nknfm"))))
+            "06dwqpwmpss85j0mg5j1chpx6kbc1n9kggfwjn47hfgbdyndblg0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/peterstuart/cargo-transient")
-    (synopsis "A transient for cargo")
+    (synopsis
+      "A transient UI for Cargo, Rust's package manager")
     (description
       "Documentation at https://melpa.org/#/cargo-transient")
     (license #f)))
@@ -16265,17 +16266,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220622.1544")
+    (version "20220624.635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "de94f2c7c1c9ec6ffebf77c94b1b5b6ab5b615cc")))
+                 "5b7cdb19024857037663e27a4855921e4f368426")))
         (sha256
           (base32
-            "1x39bi308nxb2hmljp8sl0gihhdfns85nf65xxfmhybscp13x6lg"))))
+            "1kgdx8zc8nhyn47bmg37a2ydns3ifpk276p4aba7r6jz0hxspvwj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22450,17 +22451,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220623.617")
+    (version "20220624.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "9a3151470275cb2e84aca6e9a1b2e5d1e0b23379")))
+                 "c96ab8ad47d6ba4a68fd7bbf2839a101351a2336")))
         (sha256
           (base32
-            "0ygwm8xyz42930b5fnbzj4a5kfv9cbl1rnaawsb6rmsylfyn3hcw"))))
+            "0vqnj3ns5ks3yiiwmrxrp6cjpzp01m1awz1ymsg68k95q2qav1cf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23678,17 +23679,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220622.842")
+    (version "20220624.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "87d766746a791c2ca6e5362338a7a4900c60400c")))
+                 "16679e21256754cdcf4c35535546a8aca5a2a295")))
         (sha256
           (base32
-            "1kk1rx6cfhhicln33m6dqrk3jm53mrp6il9hlaz4yyxzpl86d4k3"))))
+            "1ja64ill1p5f2jj7prgvwqif8xy3nz93pgb2gwx5dxq9avdvnhn5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -26132,17 +26133,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220612.1004")
+    (version "20220624.939")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "e835996e16610d0ded6d862214b3b452b8803ea8")))
+                 "35a519a533c2d28e7d88e8541eca0de2daa531ee")))
         (sha256
           (base32
-            "0b4ijjh5l05zgba1gblsrp7j0srf8c6ih5w2d0ixxx9rfx6izbla"))))
+            "0pk9nxqji1by4alq5s6xx02f0x7g2xp3b04rspzx9ffnsyxr33mc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -43519,17 +43520,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20220621.1746")
+    (version "20220624.803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "0e61c0b547b4e88ec8aee956ba9ce7bfc1f243b1")))
+                 "94f5aa2ddecc6426ebc69a0c67934ccba6ae9797")))
         (sha256
           (base32
-            "06zrnhndg4cbfhmhya1cf2j6774jnhijkykb058pjav1wvrb7mjs"))))
+            "11ylxrc6hrzzw0z2wd9h375fmg42q637c5nf1n8yxmqfx3skj5bm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-treepy))
@@ -48791,17 +48792,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220621.1947")
+    (version "20220622.2059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "6b95028425b5ac7567a046e762d2df2b6c443132")))
+                 "01aa41750941cdaef6104210dc9a8e9391b463af")))
         (sha256
           (base32
-            "0qply4avwqib55wdndwnyczkaydiv5qb6rgzd4fif6nkrlrxc39s"))))
+            "1a5iva278yvpw51ci3az38vr2x23qv8pkvmrfhwhd0219m5zmad1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -67316,17 +67317,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220620.2056")
+    (version "20220624.1004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9957623d93b13fabaca8ba35b85da8fcceaeef69")))
+                 "aa946a51fba597357e130b6f1d7a53b14fbf546c")))
         (sha256
           (base32
-            "0gnp4zg9ak5ydjy9dma95h415y3c0nrsiwil1062vv13ygaj4697"))))
+            "1n8l99m36d650x0l0k0karanrlyqh1wnj3yz631hwp70dyw7s62w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68196,17 +68197,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220621.1746")
+    (version "20220624.806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "5e2d12615223a24a959a8c38854a146dda6a6d74")))
+                 "6a711f1b94abe2858ebbb57ef6b58847f21809c4")))
         (sha256
           (base32
-            "0zl9q4jsgaqbkp96x4qybl01wzaam30hxmpmx43aci8prcf4shx7"))))
+            "08w74xh3v0slafv9ril7hqdbgz3x3spc73xipv1kf9mi2bksgqzz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -93443,17 +93444,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220624.52")
+    (version "20220624.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "b12d6219248b8c6b684103f9f6c7635ec88a3f1b")))
+                 "0a9137cbf23aadbcd789d795844c198992ae3404")))
         (sha256
           (base32
-            "1dq7wd115wn37g9yzqd7qi7v9z45mgrfwwrxdgn6l3085xmmfjnw"))))
+            "0vqkj38a0pd89z4847gva48996lxxzgr68hlclc3psi81k6mx17f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -98708,17 +98709,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20220623.2123")
+    (version "20220624.1208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "af4aa18a9ba7ef9e7dbc1bcae0f4f58fc21f5a4f")))
+                 "56e5c3aeb0af110221b4144dacfb38537392f4ea")))
         (sha256
           (base32
-            "1pyw0vp5rylcy08rrvrvvnbgib5k7wks7k7jh10zws6hx0a1bmyv"))))
+            "0jkbrqjmlx8isydh7g2amglzz26fsd7b5035jv1dnrlkkw6qiah4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -110796,17 +110797,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220623.1111")
+    (version "20220624.1532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "e0b03f76bbbd2e30987de56c564655f1919b346a")))
+                 "98876e6c47158d00b35feee342380bc68a608ae6")))
         (sha256
           (base32
-            "02g8f8yz5mkwn50132il0vb7kbim2vvz98qjsmd129wwxcspg7m8"))))
+            "07hls196pf0dz3h3w3icmb74yb6i7pmx1z8pvj5625c7ahyw8bqz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
