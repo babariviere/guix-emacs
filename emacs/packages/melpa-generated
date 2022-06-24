@@ -2415,17 +2415,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220613.1804")
+    (version "20220624.332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "a14e1328d228cc7b8d3f5ae3f9ce9121c19f394f")))
+                 "02dff32701a5d4d600c33b1f3b6322b08bf098dd")))
         (sha256
           (base32
-            "0jccbdwnzyn2nrj7bxswzs4nvbckd4760323wqlbk50qvyi0h6v9"))))
+            "1dwmvyipglf84bkgkpsds1acwm00dilzh92rlbfxr9b4xj4bs2zi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -84990,17 +84990,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220616.1539")
+    (version "20220624.431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "85d11219a58d3a7927d7fe67144987a574fa54aa")))
+                 "1572c62304b9c8261416bc739f29add547d3edb9")))
         (sha256
           (base32
-            "18xzvjrbrhx9d8182cf57b02h86m1xg52l7l43syiy0hmzvx57p4"))))
+            "0a7d48ycp5g1zqkf5nr63jdnv9ra8zdb893v8fim00q3w18g5k2n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tomelr))
     (home-page "https://ox-hugo.scripter.co")
@@ -93443,17 +93443,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220623.505")
+    (version "20220624.52")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "a887d56f67227289af9b7ece2aef310334004980")))
+                 "b12d6219248b8c6b684103f9f6c7635ec88a3f1b")))
         (sha256
           (base32
-            "1322642ca9sy8bfi91r8z91byq18lwfgjqw3xz7zv6c9w2dana1r"))))
+            "1dq7wd115wn37g9yzqd7qi7v9z45mgrfwwrxdgn6l3085xmmfjnw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
