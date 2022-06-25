@@ -22451,17 +22451,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220624.1733")
+    (version "20220624.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "e917354eaebf35b6bec97cb3d2973a02e542547d")))
+                 "867dfc41ab54246e62b5153b593aca1d7dabbdcf")))
         (sha256
           (base32
-            "0pszv19qcr0wjym3r90dxjcrax5bplhva294adfqcgj60jqiss36"))))
+            "01xyj3hs1zb3kspgcw9ipcjh7v1vh1ljzfwmvgg6iw5r3sxql7rs"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -63296,17 +63296,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20220621.808")
+    (version "20220625.534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "83fbac3ba03b62df8d6f2dab56f2b13db3051046")))
+                 "d26b6caa6e5e3bb2f7cab10aef77e084549fcbb2")))
         (sha256
           (base32
-            "0k3z0z0qzffxmwma8b464d14g03r5z9a1v4cfligqxq6wnzjddxd"))))
+            "1xkmx6nk34y393miaxp7a77gv5pzw2aqyfadq0bb7xiwkdsyif0m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -63328,17 +63328,17 @@
 (define-public emacs-kubernetes-evil
   (package
     (name "emacs-kubernetes-evil")
-    (version "20211225.300")
+    (version "20220625.534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "e0d0cd6b949802fe63ff8940cc743cc7efedb089")))
+                 "d26b6caa6e5e3bb2f7cab10aef77e084549fcbb2")))
         (sha256
           (base32
-            "1xnl8bci3j0l14gkb0n23kr4867cmypyxcydjn59niwab9srg7pm"))))
+            "1xkmx6nk34y393miaxp7a77gv5pzw2aqyfadq0bb7xiwkdsyif0m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-kubernetes emacs-evil))
@@ -67317,17 +67317,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220624.1004")
+    (version "20220625.46")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "aa946a51fba597357e130b6f1d7a53b14fbf546c")))
+                 "c8b8cd8be491a87a9f629b9a550ddd1715f3dee2")))
         (sha256
           (base32
-            "1n8l99m36d650x0l0k0karanrlyqh1wnj3yz631hwp70dyw7s62w"))))
+            "0qws96mn59015lwh44di4xw53lr7w1rm99nbag3q148dcjr5p1cn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -77623,17 +77623,17 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20220518.1429")
+    (version "20220625.20")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "39dbdb265785ae72bcd53706bc53190ec5e11bf0")))
+                 "a7ff8f05e4a7af4082262c7a7ba3d83ae490a7f3")))
         (sha256
           (base32
-            "0wnvfv2ddvfwm6w446xx3x024g2vi8wzxyj85wdhpdh2hzssfchi"))))
+            "014qmprba9b6a2zmcfjhy3hi58lp7iylh4s4xgigm50nwgfkw4cg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
@@ -81347,17 +81347,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220621.2046")
+    (version "20220625.607")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "5de3da1ff55b4567e9df3b234c09427aed2cbcd7")))
+                 "4131dd8de59b937d2ed54f9b3785b1377280d6fd")))
         (sha256
           (base32
-            "0af9dzp9n3882kvsp3q4008hffq1mp9hjl964mlp5j8vay3x7qbz"))))
+            "136azj3bdxvxg4y1n8bms83wdz3im2qz0nl1vgkqachcx36cwn5d"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -120795,17 +120795,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220617.325")
+    (version "20220625.305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "f4ea2f2c9de84e993aed6082fc70f89a109f20f9")))
+                 "c57a0e1b1255c350c5b3d370585f07a36813fdbe")))
         (sha256
           (base32
-            "0s6nw0sad66009wd5m8g4piavrfvqsjb3msig31cn4ncbxmm5hqp"))))
+            "0ch4grcx2ylblcx2kzmgxb6bsj593ig1wzk94rnqzrk31h75xd4j"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
