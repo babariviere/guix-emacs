@@ -2415,17 +2415,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220624.744")
+    (version "20220624.1931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "02dff32701a5d4d600c33b1f3b6322b08bf098dd")))
+                 "1238aeeaaec0caea5a9c520ca8363035ce2bb634")))
         (sha256
           (base32
-            "1dwmvyipglf84bkgkpsds1acwm00dilzh92rlbfxr9b4xj4bs2zi"))))
+            "0b696y9f82zx81b6sa6xmgn8x8jr57wmdan07iwcv1i1fcmcqg5c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -22451,17 +22451,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220624.1317")
+    (version "20220624.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "c96ab8ad47d6ba4a68fd7bbf2839a101351a2336")))
+                 "e917354eaebf35b6bec97cb3d2973a02e542547d")))
         (sha256
           (base32
-            "0vqnj3ns5ks3yiiwmrxrp6cjpzp01m1awz1ymsg68k95q2qav1cf"))))
+            "0pszv19qcr0wjym3r90dxjcrax5bplhva294adfqcgj60jqiss36"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -42034,17 +42034,17 @@
 (define-public emacs-fsharp-mode
   (package
     (name "emacs-fsharp-mode")
-    (version "20220605.1329")
+    (version "20220624.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "c7842fe63b8bae5aa8bd6a9891036c5ce04e4030")))
+                 "c1e58c61f9b57ddd6c0199581ec3784e361d61b4")))
         (sha256
           (base32
-            "17ibcl9ilm7ml4gjlvcx40hni8awccm1zk37y0nfvcscigf3i8pr"))))
+            "1hfzjrj8gz8aaccrqzxlhfbgy8k9dd5g8s3hjja070k443jqf09v"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -68197,17 +68197,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220624.806")
+    (version "20220624.2018")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "6a711f1b94abe2858ebbb57ef6b58847f21809c4")))
+                 "bf0ef3826bcda9d90f3e3c9a8f801c2c3c01bc5b")))
         (sha256
           (base32
-            "08w74xh3v0slafv9ril7hqdbgz3x3spc73xipv1kf9mi2bksgqzz"))))
+            "1g9nzha9sp8mx3m8s6cr207w63sxdzbdz21xknf3q4d66vam7avn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -70452,17 +70452,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220614.2011")
+    (version "20220624.1950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "ca4f781cef271fe8affc206d0cd9cfce426e63c1")))
+                 "70c27de889260b809a4f1010b3ce9c21bac5f87b")))
         (sha256
           (base32
-            "03g1h3av8dva7i13mnx4ld1xj8c1fl659c2awq3j74b6qy84xmx5"))))
+            "1k9lbnwg33ax33z2301wmyacj66ybdxljj9qk7bgv663pl43y1q5"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -75798,17 +75798,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20220530.1845")
+    (version "20220624.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "a5aa3faada054f96b70b32ba9d9447f7a4cf403c")))
+                 "d7a6122d0eb8848e1aa15f521441104f969f555f")))
         (sha256
           (base32
-            "1gykaxdzv1j5q6h9m36ms5708h3jsn5yjilnajrngv3nkh6mb0qs"))))
+            "1y0mm56g2f4ljvj1zim03si75kmqa1ypm1jyl9lblj0xrvlsn4im"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -93444,17 +93444,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220624.1315")
+    (version "20220624.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "0a9137cbf23aadbcd789d795844c198992ae3404")))
+                 "c94f38ffda57eeec91694b3811c2be28fd80c27a")))
         (sha256
           (base32
-            "0vqkj38a0pd89z4847gva48996lxxzgr68hlclc3psi81k6mx17f"))))
+            "1wmv98bs209k1dyldgnmxf9j56bp8sajbbvhg9zh9j4aijbi8aj9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -110797,17 +110797,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220624.1532")
+    (version "20220624.1832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "98876e6c47158d00b35feee342380bc68a608ae6")))
+                 "3df2d34c8fcefa2d43938599c66f93dd81d8e3f7")))
         (sha256
           (base32
-            "07hls196pf0dz3h3w3icmb74yb6i7pmx1z8pvj5625c7ahyw8bqz"))))
+            "1nmr2hj5zm611v9hrwmk5653aphq59r02ah0ckswnk0z7kp0dkb4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
