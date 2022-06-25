@@ -146,17 +146,17 @@
 (define-public emacs-750words
   (package
     (name "emacs-750words")
-    (version "20210701.1950")
+    (version "20220625.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zzamboni/750words-client.git")
                (commit
-                 "0fed7621c04debad64ea6455455494d4e6eb03fa")))
+                 "8abef82d644223c7991beb689072889c72d1faee")))
         (sha256
           (base32
-            "1qglbfdc6526aqsba93ngw1a6hp19lqx1wlxzzy9yvggbb02mii2"))))
+            "1vbh0gynm4z5rhrzcava5dh1m6hh683fz18b7rjjib31l7fx96s0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("750words.el")))
     (home-page
@@ -2415,17 +2415,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220624.1931")
+    (version "20220625.1332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "1238aeeaaec0caea5a9c520ca8363035ce2bb634")))
+                 "616a39f71484b15d21d89ca40cd174e0ca15b8f4")))
         (sha256
           (base32
-            "0b696y9f82zx81b6sa6xmgn8x8jr57wmdan07iwcv1i1fcmcqg5c"))))
+            "0k3lg23jd83cav74rvpmwv3v7b7700ih4jgs2hilwszs8kq2kn5g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -16266,17 +16266,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220624.635")
+    (version "20220625.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "5b7cdb19024857037663e27a4855921e4f368426")))
+                 "18c3a4edcf258de1a34c57cf5ad28262f5435c32")))
         (sha256
           (base32
-            "1kgdx8zc8nhyn47bmg37a2ydns3ifpk276p4aba7r6jz0hxspvwj"))))
+            "182f1479bh3sk4g2l3dbyh08h0f08c5d5qlb50xgfsrmz621f7a8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22451,17 +22451,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220624.1815")
+    (version "20220625.852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "867dfc41ab54246e62b5153b593aca1d7dabbdcf")))
+                 "698caa9f9012932bcca5914fd65b303b038f75d3")))
         (sha256
           (base32
-            "01xyj3hs1zb3kspgcw9ipcjh7v1vh1ljzfwmvgg6iw5r3sxql7rs"))))
+            "1ib1hdkws20wcz8fww8pcl0dyp4n3qagaz3q8hyx5c6k1375wzl5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -61661,23 +61661,20 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220312.1104")
+    (version "20220625.855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "9f77366aaf2227bb0cbd3cdc0f78088032f2e873")))
+                 "f4d123cd0b6a9f32c9423fdd9950062054287835")))
         (sha256
           (base32
-            "17l4lh9511dw4ri7csvp8258q59brhgrkir60kqmzxglrpmgjj6s"))))
+            "0idww2iixk43qg18cr25nyxnw5hinrb5in9h5l5jpbb02l8fzfm3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-transient
-            emacs-xterm-color
-            emacs-s
-            emacs-f))
+      (list emacs-xterm-color emacs-s emacs-f))
     (home-page "https://github.com/psibi/justl.el")
     (synopsis "Major mode for driving just files")
     (description
@@ -68197,17 +68194,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220624.2018")
+    (version "20220625.1219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "bf0ef3826bcda9d90f3e3c9a8f801c2c3c01bc5b")))
+                 "35da95e99943740c7778fb588cd275f0be1536fa")))
         (sha256
           (base32
-            "1g9nzha9sp8mx3m8s6cr207w63sxdzbdz21xknf3q4d66vam7avn"))))
+            "1gh2i8x72k79sa5322aj2fvp071ml5a69kpm7mx1zj9c8f2vmkny"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -75798,17 +75795,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20220624.1429")
+    (version "20220625.1106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "d7a6122d0eb8848e1aa15f521441104f969f555f")))
+                 "d9db6d88ccae0727fa96125fae8601cac80efde0")))
         (sha256
           (base32
-            "1y0mm56g2f4ljvj1zim03si75kmqa1ypm1jyl9lblj0xrvlsn4im"))))
+            "1m7fygl2f5myi49liyk2i22piaic1bix5z5if30csc25623sa4yb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -81347,17 +81344,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220625.607")
+    (version "20220625.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "4131dd8de59b937d2ed54f9b3785b1377280d6fd")))
+                 "cef71f81e6a1b66795e70a209121841c98335f82")))
         (sha256
           (base32
-            "136azj3bdxvxg4y1n8bms83wdz3im2qz0nl1vgkqachcx36cwn5d"))))
+            "1j5i672zn0mvlz6bpmlwanxsxc0n5gy5jgr64mpfh2724gnbdi3y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -84740,17 +84737,17 @@
 (define-public emacs-ox-750words
   (package
     (name "emacs-ox-750words")
-    (version "20210701.1950")
+    (version "20220625.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zzamboni/750words-client.git")
                (commit
-                 "0fed7621c04debad64ea6455455494d4e6eb03fa")))
+                 "8abef82d644223c7991beb689072889c72d1faee")))
         (sha256
           (base32
-            "1qglbfdc6526aqsba93ngw1a6hp19lqx1wlxzzy9yvggbb02mii2"))))
+            "1vbh0gynm4z5rhrzcava5dh1m6hh683fz18b7rjjib31l7fx96s0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-750words))
     (arguments '(#:files ("ox-750words.el")))
@@ -84764,17 +84761,17 @@
 (define-public emacs-ox-asciidoc
   (package
     (name "emacs-ox-asciidoc")
-    (version "20220428.740")
+    (version "20220625.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yashi/org-asciidoc.git")
                (commit
-                 "c8bc184f9088b76fdf1ce20e6e5d0a1588e1b327")))
+                 "3eb2e284040bfb65a52fa41750d0d3ae0f246efd")))
         (sha256
           (base32
-            "0799wah7ywzpzjjhmqkyj9v8krzh0j6qa5gs4a7iwvp9r66jwcpl"))))
+            "1fsrga5sz1x8rw0rmr39r46sx0895kpl26yp5p1a55yw55yg5fb7"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("ox-asciidoc.el")))
     (home-page
