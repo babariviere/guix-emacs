@@ -26550,17 +26550,17 @@
 (define-public emacs-el-mock
   (package
     (name "emacs-el-mock")
-    (version "20170824.1954")
+    (version "20220625.1949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/el-mock.el.git")
                (commit
-                 "5df1d3a956544f1d3ad0bcd81daf47fff33ab8cc")))
+                 "6cfbc9de8f1927295dca6864907fe4156bd71910")))
         (sha256
           (base32
-            "06ldnrpqvbdxfzr8v7pj9xacgvkp36xjlhvjkpxldmqj1l5v8a6w"))))
+            "09c3a1771v6kliwj0bn953pxxyjlk6q9kp31cxcr0nraik7d0mhk"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/rejeep/el-mock.el")
     (synopsis
@@ -47558,17 +47558,17 @@
 (define-public emacs-gruvbox-theme
   (package
     (name "emacs-gruvbox-theme")
-    (version "20220620.1209")
+    (version "20220625.1642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greduan/emacs-theme-gruvbox.git")
                (commit
-                 "c30c28f81455fe3eed9895bdaca11fc35a687644")))
+                 "e88ee445b791b77078ab0be8aa972bfab3078ed0")))
         (sha256
           (base32
-            "0w90llh7ahc2h1plqp1v16wx4ap17bzn0xxdrc9cbnr2qlxlj4zq"))))
+            "0amj785fd2j3xnqb26p363w2hhhn50kw44kfga7wyyljifv3lnjr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -67314,17 +67314,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220625.46")
+    (version "20220625.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "c8b8cd8be491a87a9f629b9a550ddd1715f3dee2")))
+                 "5395b9f28a007dce124279728c5685f1e9b7f58c")))
         (sha256
           (base32
-            "0qws96mn59015lwh44di4xw53lr7w1rm99nbag3q148dcjr5p1cn"))))
+            "0hgfa4b461kvcgy4dvpgp3mnkx02yjk5srlblriaqmz34sd2bdpc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81972,17 +81972,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220614.8")
+    (version "20220625.1558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "bacdacb1b233e4199ccda810152484edd59fa091")))
+                 "77916a1c4f6dd45737db66756e17ea1c6bda0368")))
         (sha256
           (base32
-            "1jbqvwi05a1cd367xihw7j6pbnas0d21n2npb2mq7rbm9x8kafpc"))))
+            "085b0j1wnc3b372lp5kp4alw6c741bhy8vp5kirp4nrs5ww68vlw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83395,17 +83395,17 @@
 (define-public emacs-org-visibility
   (package
     (name "emacs-org-visibility")
-    (version "20220623.1717")
+    (version "20220625.2122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nullman/emacs-org-visibility.git")
                (commit
-                 "c3f9710db2d44e7bd5a2bd2530a7e22f629ec26d")))
+                 "3aa780edced6fd83a2b560b94fd35f673da0e465")))
         (sha256
           (base32
-            "1q5n26v4p54cs5szp86cw590k3vp31j2f6f2mjd1vjnjgqyh0qyd"))))
+            "18nfampmcabsv67j7ihna0gi5xjgrpkals7gpz4accmvh59agxm7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nullman/emacs-org-visibility")
@@ -98752,17 +98752,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220621.1523")
+    (version "20220625.2008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "060149c3347ff056392474b11c36a990373f725b")))
+                 "39029a7e1f059674a9767a9b15514af30ef9f479")))
         (sha256
           (base32
-            "0wh37gmkn56a0nvzhrhx5ifz0i3x5ldqgfsw1jyfm0rfs71kk3lq"))))
+            "18hw3dfdfcgfr9i4zya344qzy29liyf0bc383qvqzh0lcsavdx1z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -108859,17 +108859,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220623.1707")
+    (version "20220625.1718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "659b31a3bf123c10553791f61eb92ac9c9c83bd8")))
+                 "996388638b7658414463ab2ae51e5fd8576e8c54")))
         (sha256
           (base32
-            "002jsi76xcd8fm5fgcm5knlcms2z92wv7dnq03ssfa6pzwbkpvbq"))))
+            "0c73xbxn7ly1x9m9x1q32am0qhvl1nlyixin3vh41kb76hhzc5mn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -110794,17 +110794,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220624.1832")
+    (version "20220625.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "3df2d34c8fcefa2d43938599c66f93dd81d8e3f7")))
+                 "d613366429d49e4cec800128d596bc7e6b0e6fee")))
         (sha256
           (base32
-            "1nmr2hj5zm611v9hrwmk5653aphq59r02ah0ckswnk0z7kp0dkb4"))))
+            "1javv7z89zjr2zbwidwiyiwjm4475hskaj78l3hwjflnkcbn0n9b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -120792,17 +120792,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220625.305")
+    (version "20220625.1127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "c57a0e1b1255c350c5b3d370585f07a36813fdbe")))
+                 "b69a04e885eff848bf4b18aed5f3d34dc3772c2d")))
         (sha256
           (base32
-            "0ch4grcx2ylblcx2kzmgxb6bsj593ig1wzk94rnqzrk31h75xd4j"))))
+            "0vdqkx4h5kj2fmwsi3qz514vz6420xb3g2y8pyr4wkrwd0j686xj"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
