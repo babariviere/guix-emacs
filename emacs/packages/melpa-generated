@@ -16993,17 +16993,17 @@
 (define-public emacs-counsel
   (package
     (name "emacs-counsel")
-    (version "20220529.1130")
+    (version "20220626.1826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "f8d80a4055514f92d94f128f5fcb1cda79e5cd22")))
+                 "2051de5882706246da298ce5f60482cd7f469fe7")))
         (sha256
           (base32
-            "1cmafp5rssp27lhvszyzf4mc1z130kkgkl9d36lgg97qk5jp58g8"))))
+            "0gk0dznnd7y08f83pjgwdxy9i9dz06jj1kk7mq1schbky82a1i57"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-swiper))
     (arguments '(#:files ("counsel.el")))
@@ -22451,7 +22451,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220626.1351")
+    (version "20220626.1506")
     (source
       (origin
         (method git-fetch)
@@ -28991,6 +28991,33 @@
       "Documentation at https://melpa.org/#/embark-consult")
     (license #f)))
 
+(define-public emacs-embark-vc
+  (package
+    (name "emacs-embark-vc")
+    (version "20220625.1903")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/elken/embark-vc.git")
+               (commit
+                 "e0d901a20eab3b627b2aeacd32d9a72f1ffae3c9")))
+        (sha256
+          (base32
+            "0achwjkmh0f9axq5c1mb9ny07lddr86waw9r7cidxqdbk86cb9jr"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-code-review
+            emacs-embark
+            emacs-forge
+            emacs-s))
+    (home-page "https://github.com/elken/embark-vc")
+    (synopsis
+      "Embark actions for various VC integrations")
+    (description
+      "Documentation at https://melpa.org/#/embark-vc")
+    (license #f)))
+
 (define-public emacs-ember-mode
   (package
     (name "emacs-ember-mode")
@@ -29989,17 +30016,17 @@
 (define-public emacs-equake
   (package
     (name "emacs-equake")
-    (version "20220607.2211")
+    (version "20220626.1911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacsomancer/equake.git")
                (commit
-                 "1f1f269edd27ffce8b6ead5b317e49fa433b039f")))
+                 "91b4fcedc091fc789b7723cf26f241e592a2dd27")))
         (sha256
           (base32
-            "0am0lixinl10x6j62hz86wg0pdminmm74vfyklzxh0yhvbvlcc5l"))))
+            "0nkhq6yn11l3wqz6dk36k8wy4dbvy5kdzmrid57viiy0lj2cgdjn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -54718,17 +54745,17 @@
 (define-public emacs-hotfuzz
   (package
     (name "emacs-hotfuzz")
-    (version "20220618.1031")
+    (version "20220626.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/axelf4/hotfuzz.git")
                (commit
-                 "405493a4cc0c62e6e4d8fca5bc5b5621ea9d67c5")))
+                 "a19395aca9eff0e31c51efbbe4c6e16229f3b380")))
         (sha256
           (base32
-            "0zi8xwd21p8lk2l3r5395w74qgr8g8k7nv5n3njbmcvxvq3x5k07"))))
+            "1hm7nd4736lq118b7626clk4371pd94dg9gvwxyjrpgbrf9qc5mv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/axelf4/hotfuzz")
     (synopsis "Fuzzy completion style")
@@ -67644,17 +67671,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220619.1731")
+    (version "20220626.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "ca195f3ba02cb0aebffa439e4d30d4fc0934df63")))
+                 "11a3a6540514b3f681fec2e7320be048afafca3c")))
         (sha256
           (base32
-            "06cg58xszmvgfrhpz7zfa3c10pqg7kza6haz07ianc3nap9w5nz3"))))
+            "0b70bajx612daby9vr303byciasgq1syndkqb8dfgh2mglby86bb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -77474,6 +77501,28 @@
       "Documentation at https://melpa.org/#/ob-fsharp")
     (license #f)))
 
+(define-public emacs-ob-git-permalink
+  (package
+    (name "emacs-ob-git-permalink")
+    (version "20220626.41")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/kijimaD/ob-git-permalink.git")
+               (commit
+                 "488efd38e487494d2ab5250c90f2a55a93efe5b6")))
+        (sha256
+          (base32
+            "0z4xlal9cv5d5yic9anr67l06jziirmv8j43j2v5z82cs5avm8ih"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/kijimaD/ob-git-permalink")
+    (synopsis "Import GitHub code given a permalink")
+    (description
+      "Documentation at https://melpa.org/#/ob-git-permalink")
+    (license #f)))
+
 (define-public emacs-ob-go
   (package
     (name "emacs-ob-go")
@@ -84988,17 +85037,17 @@
 (define-public emacs-ox-hugo
   (package
     (name "emacs-ox-hugo")
-    (version "20220624.431")
+    (version "20220626.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaushalmodi/ox-hugo.git")
                (commit
-                 "1572c62304b9c8261416bc739f29add547d3edb9")))
+                 "97ff24fe0b8d29c503b88eea69235b02ae71beb0")))
         (sha256
           (base32
-            "0a7d48ycp5g1zqkf5nr63jdnv9ra8zdb893v8fim00q3w18g5k2n"))))
+            "0s58mynwry8087rsp1ypcl7x7p6pikxz8pnarp0vnzjq1gysk4sw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tomelr))
     (home-page "https://ox-hugo.scripter.co")
@@ -91983,17 +92032,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220626.655")
+    (version "20220626.1730")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "78be7717cd7e81f039c7206de9ebef20f845d29f")))
+                 "8f2e1eafe2dd42ea0f3590d2fbd6d171c7f3b0fc")))
         (sha256
           (base32
-            "1bn4xk9v6p6mbmhg16j2nxb4cn0qhnd3pwnqk9p5nz525qia1npw"))))
+            "0phj99x6g2hr8gwrpkgqviw3l5yafh51nba54bk3jznalbzaf9vh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -120609,6 +120658,31 @@
       "A revision and outlining tool for org-roam")
     (description
       "Documentation at https://melpa.org/#/zetteldesk")
+    (license #f)))
+
+(define-public emacs-zetteldesk-info
+  (package
+    (name "emacs-zetteldesk-info")
+    (version "20220626.1100")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Vidianos-Giannitsis/zetteldesk.el.git")
+               (commit
+                 "00575b41f5ff7587eff4dd88733aba9ff5f73f5b")))
+        (sha256
+          (base32
+            "0kanp087y8bwy0vg3azkraxppgffd1bq80zajdmncgg8i75h09vi"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-zetteldesk))
+    (arguments '(#:files ("zetteldesk-info.el")))
+    (home-page
+      "https://github.com/Vidianos-Giannitsis/zetteldesk-info.el")
+    (synopsis
+      "A zetteldesk extension for interacting with the info program")
+    (description
+      "Documentation at https://melpa.org/#/zetteldesk-info")
     (license #f)))
 
 (define-public emacs-zetteldesk-kb
