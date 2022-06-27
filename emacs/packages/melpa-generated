@@ -28994,17 +28994,17 @@
 (define-public emacs-embark-vc
   (package
     (name "emacs-embark-vc")
-    (version "20220625.1903")
+    (version "20220627.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elken/embark-vc.git")
                (commit
-                 "e0d901a20eab3b627b2aeacd32d9a72f1ffae3c9")))
+                 "a022f89ceaa49465e33b97bdbe046a0b651590ab")))
         (sha256
           (base32
-            "0achwjkmh0f9axq5c1mb9ny07lddr86waw9r7cidxqdbk86cb9jr"))))
+            "02c6nrcczws7ll8mfyff20hmmz8dykpqp2rcp7gx0cbj6ki15mbv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-code-review
@@ -46136,17 +46136,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20220622.833")
+    (version "20220627.545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "2ab0f8e3e21b66e9302a1f964294026cdbe37439")))
+                 "8bbcbce42a7139f079df3e9b9bda0def2cbb690f")))
         (sha256
           (base32
-            "1dxdzirvkbk438dvbyw9xc855p7ig2ncm90xv6h992j7w1rbrjrm"))))
+            "1d4ck11mflkc9i0lninpxlb4xgs7j04br12k5i1ccajwklhxjwbd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -54350,17 +54350,17 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20220626.949")
+    (version "20220627.409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "bce1f135169a00c43299f4544c89051782219475")))
+                 "37415944505239870face16559174523920b761a")))
         (sha256
           (base32
-            "0vyx9j6yaxyr3dv1ic79fxlv2zbiy5a2qpnjj1m6hzn8h5a9im5c"))))
+            "04fb2d8nzr9kclxqmj25rrlnikam62p6y9rva9wy3mixnr8frnvw"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.com/ideasman42/emacs-hl-prog-extra")
@@ -61236,6 +61236,27 @@
       "Grabs the path to JSON values in a JSON file")
     (description
       "Documentation at https://melpa.org/#/json-snatcher")
+    (license #f)))
+
+(define-public emacs-jsonian
+  (package
+    (name "emacs-jsonian")
+    (version "20220627.5")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/iwahbe/jsonian.git")
+               (commit
+                 "34c1ae16029d590bef68be35b3a955ea815c1d94")))
+        (sha256
+          (base32
+            "0r92554ay8lnba6bc5wz304cjpsxfnf0avs935ryc3wl7v2icjcn"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/iwahbe/jsonian")
+    (synopsis "A major mode for editing JSON files")
+    (description
+      "Documentation at https://melpa.org/#/jsonian")
     (license #f)))
 
 (define-public emacs-jsonl
@@ -77504,17 +77525,17 @@
 (define-public emacs-ob-git-permalink
   (package
     (name "emacs-ob-git-permalink")
-    (version "20220626.41")
+    (version "20220627.46")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kijimaD/ob-git-permalink.git")
                (commit
-                 "488efd38e487494d2ab5250c90f2a55a93efe5b6")))
+                 "14224327a6b34c804b0e90d37b80630a80c56c0a")))
         (sha256
           (base32
-            "0z4xlal9cv5d5yic9anr67l06jziirmv8j43j2v5z82cs5avm8ih"))))
+            "16xjma3n24clbiyf2vw13sy3nz902wigj6pd965d50acmihd5z4a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kijimaD/ob-git-permalink")
@@ -82021,17 +82042,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220625.1558")
+    (version "20220627.355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "77916a1c4f6dd45737db66756e17ea1c6bda0368")))
+                 "c2b8af3181c6f1048f189b4d3d0958a73de52ed7")))
         (sha256
           (base32
-            "085b0j1wnc3b372lp5kp4alw6c741bhy8vp5kirp4nrs5ww68vlw"))))
+            "1lpmfwal5dl3lrd3rl4w3sgnj7iy57kx065wja69qd1x7yhamy4c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -91547,17 +91568,17 @@
 (define-public emacs-prism
   (package
     (name "emacs-prism")
-    (version "20210804.417")
+    (version "20220627.413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/prism.el.git")
                (commit
-                 "b0cbdaf4916c1cf348a8f0e4f6158e040a627562")))
+                 "1ce65db67e3f521c6c0ac8f67e4a39eb0cc950ab")))
         (sha256
           (base32
-            "1h5fca47kinwr5qy58nh0bqn259vcj540013wb7kwki6ab33l809"))))
+            "0sfz4bd9bsy50q99a88345qmw5ggjhm66jkjvir59y8dhxb6mllb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -93490,17 +93511,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220626.1524")
+    (version "20220627.422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "76761ef76d245f968f2f02ee3f2161f983d5db75")))
+                 "db676274faee42ebd74c00b5177b2f7608f13ea9")))
         (sha256
           (base32
-            "1208v6pcv6gpl0n3g8k214vf9fkrgljcsnxr92rn01bmv2xzhmyw"))))
+            "0p5wg9nq6167iif71db4mfqipl49qwpb70ahqxvf100629igj23s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
