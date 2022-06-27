@@ -16266,17 +16266,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220625.1150")
+    (version "20220627.905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "18c3a4edcf258de1a34c57cf5ad28262f5435c32")))
+                 "9acf9398ce187829f6afe6d33f0891ba1c07cd0d")))
         (sha256
           (base32
-            "182f1479bh3sk4g2l3dbyh08h0f08c5d5qlb50xgfsrmz621f7a8"))))
+            "0y4w5d1zd49k0ljgpdz580avq1y5cpfb7ymw0ccw2p2yhaq3divm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22451,17 +22451,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220626.1506")
+    (version "20220627.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "73f6020f1408be56729b768591325e3201176a54")))
+                 "2db93aa908f612110423fc64e345ebbca86be358")))
         (sha256
           (base32
-            "19yv4jk6xpmiyxffmj60b00j01i7zf7lni4d98nn6my90v2zzsai"))))
+            "1rbzw51vyg65np9jsivk1y7d100ckh4s26grii7nyy5rj7m8j1bl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28278,17 +28278,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20220322.41")
+    (version "20220627.1416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "1746e7009000b7635c0ea6f1559018143aa61642")))
+                 "de31d30003c515c25ff7bfd3a361c70c298f78bb")))
         (sha256
           (base32
-            "120xzzaa8jxls3lri6d53zq6gafnkc6d9mlg09an334kkmh8k2fc"))))
+            "0l28480q1mb5hm4w2135hzppnnw1bh5a864w9p5als2pxn5lsrq9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company
@@ -69572,17 +69572,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220620.2325")
+    (version "20220627.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "f7cbc960d76b4b6a605a0675a1330959bfb99ed1")))
+                 "45aed2caf032edef8a13b92570595310455899d9")))
         (sha256
           (base32
-            "0mrr2h0znsrxs7d3iz64kjfbs7q5yknlpfb0qq5ws44rcqg9nf0r"))))
+            "1kjflpjmc1g7282lm3y8f8308bf71hllrnj4lba9zxmyjhig2s7c"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -70497,17 +70497,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220624.1950")
+    (version "20220627.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "70c27de889260b809a4f1010b3ce9c21bac5f87b")))
+                 "74fbe3d7e07abf72cbb794d7048716216330e9e3")))
         (sha256
           (base32
-            "1k9lbnwg33ax33z2301wmyacj66ybdxljj9qk7bgv663pl43y1q5"))))
+            "11p7rm7d8z4fynq3zd1kghsa203f2kxg0pvjfgc6yjfk75kdh3ji"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -85428,17 +85428,17 @@
 (define-public emacs-ox-reveal
   (package
     (name "emacs-ox-reveal")
-    (version "20220524.1144")
+    (version "20220627.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yjwen/org-reveal.git")
                (commit
-                 "43ebe238ef747985b336880305ae5065da67235c")))
+                 "8567d2b1118bde343980b878af9a38f14d85ffcd")))
         (sha256
           (base32
-            "1j7bz4g6dd5zcsdj24ry71i5sadldcza2ib7k4yayz6xi5qv3gl5"))))
+            "0prxa7rijhxha3z4y1vyy7y0pr8wzavj7gq1aqaw42rvlpnbdv84"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -93511,17 +93511,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220627.422")
+    (version "20220627.935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "db676274faee42ebd74c00b5177b2f7608f13ea9")))
+                 "e1aeac91ee18726603f31a8158a239aad6899526")))
         (sha256
           (base32
-            "0p5wg9nq6167iif71db4mfqipl49qwpb70ahqxvf100629igj23s"))))
+            "0p4a691qfk2caqklfiq0bh5252awyzd6m26j40ip5ajf6rmb3ivp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -96443,17 +96443,17 @@
 (define-public emacs-reformatter
   (package
     (name "emacs-reformatter")
-    (version "20220623.1109")
+    (version "20220627.825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/emacs-reformatter.git")
                (commit
-                 "7c5452bf31c7bcaa19df7c94dfe17dcae5bdc078")))
+                 "84cff54b0873fcca6fc0314d7584284e86708e8d")))
         (sha256
           (base32
-            "07h6wlrg81sd26s31p5w1v9d700f5am825k8v8155a88jgrv6bk5"))))
+            "0gib2ylmm5kp23s2mkhx9b83bh9pxszzdrx55rf1b9gh13qz2nw9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/emacs-reformatter")
