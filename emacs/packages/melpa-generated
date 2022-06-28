@@ -11723,17 +11723,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220619.1106")
+    (version "20220628.551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "14246b89b7451f51197d57a73f962d0ba6e945b9")))
+                 "186b4976565a18fcb00e1685a44a87a8559eadcc")))
         (sha256
           (base32
-            "0ycs9z6pzr65v1aj3ryq1ajggnxfd846m523jwfdp3fb7d57yxjk"))))
+            "0r0fgmk36hkbwm30ck2gywc9nzgxzil4riwmpc18wxp6alqf3mwi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -22451,17 +22451,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220627.1615")
+    (version "20220628.522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "cd88fc7e78fd409d36f03deb9fb9e069acfd7902")))
+                 "ca78ba036326e662ee85809ca6cdd805bb0d9d02")))
         (sha256
           (base32
-            "1pr3d9h7njxp8iya65bilgqabs56j2jvc5kzi84c5g064nnxg2lr"))))
+            "09h6pvgxp4iv9r7kqmcw570mj99x33cvbybxglcir8gj69y60iak"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23318,17 +23318,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220627.2018")
+    (version "20220628.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "064bd80b74ae585978cfbfd2a76248c7b3790f7b")))
+                 "a14957ff870817bd9fd9c25b53206d1097c454c2")))
         (sha256
           (base32
-            "0aqwqx8w25i48r7zkrcwba9a9dk5jvlgpa2sgxypmqb351pzcgwr"))))
+            "0r7lab5wvjmy88cnvlykh5si92cc6ylxj3qzqmzsiy0y4sc2ggda"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -30015,17 +30015,17 @@
 (define-public emacs-equake
   (package
     (name "emacs-equake")
-    (version "20220626.1911")
+    (version "20220627.2248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacsomancer/equake.git")
                (commit
-                 "91b4fcedc091fc789b7723cf26f241e592a2dd27")))
+                 "7aa2e1715e6ea286b08bb446d2d9915afa0fdf03")))
         (sha256
           (base32
-            "0nkhq6yn11l3wqz6dk36k8wy4dbvy5kdzmrid57viiy0lj2cgdjn"))))
+            "11wag6sgfr62yj4zjr9n71kxd3kfa105l0rpbag47qmac2wsg7h5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -54349,20 +54349,20 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20220627.409")
+    (version "20220627.2301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "37415944505239870face16559174523920b761a")))
+                 "c6f1ad55d12c5b726a797fa2216d4ddb3a261764")))
         (sha256
           (base32
-            "04fb2d8nzr9kclxqmj25rrlnikam62p6y9rva9wy3mixnr8frnvw"))))
+            "1y8j08qygzxlg0vfkv8jz64xixdkqmbzcxw9kv53p87i8hzd485i"))))
     (build-system melpa-build-system)
     (home-page
-      "https://codeberg.com/ideasman42/emacs-hl-prog-extra")
+      "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
     (synopsis
       "Customizable highlighting for source-code")
     (description
@@ -72179,17 +72179,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220623.1301")
+    (version "20220628.634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "6f0eda73a76e0472d461c8bca12ed59f858f7ead")))
+                 "5d35fed1ab7d2d59f64b2c5dcf77c05e64a0322e")))
         (sha256
           (base32
-            "0s1faqpacf4slarc927cnrams44cq2zh8jqlsf36kx9xk6m8jdxd"))))
+            "1bvskba3388ih3jyf26zvc8c092bb99hv5gap9n60szxn0aaaxlg"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -93509,17 +93509,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220627.935")
+    (version "20220628.634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "e1aeac91ee18726603f31a8158a239aad6899526")))
+                 "48549c5688f5ae97871631447cc45049c458718f")))
         (sha256
           (base32
-            "0p4a691qfk2caqklfiq0bh5252awyzd6m26j40ip5ajf6rmb3ivp"))))
+            "1bg2q1wnsspw68w4dgkmdd9hzwh1nj7cnr54kh2y03mii9faycky"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -105234,20 +105234,20 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220507.1118")
+    (version "20220627.2309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-spell-fu.git")
                (commit
-                 "2f2fd6de0003edb1038b7c639cf23264d1406993")))
+                 "cbe5cd84c3375ebf6c1ce00d8eb4af7f62a9d710")))
         (sha256
           (base32
-            "1p23c2y124xmd3zwfns4zmk460vxd459dds0w0k9mnjnm9p8dkq2"))))
+            "0gpz58w2cpvhg91gv0cchlgp7d0737c5a73adg4593sc5kj6py3r"))))
     (build-system melpa-build-system)
     (home-page
-      "https://codeberg.com/ideasman42/emacs-spell-fu")
+      "https://codeberg.org/ideasman42/emacs-spell-fu")
     (synopsis "Fast & light spelling highlighter")
     (description
       "Documentation at https://melpa.org/#/spell-fu")
@@ -108927,17 +108927,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220625.1718")
+    (version "20220628.4")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "996388638b7658414463ab2ae51e5fd8576e8c54")))
+                 "24453af66516ab548d44c09e508af9e944551946")))
         (sha256
           (base32
-            "0c73xbxn7ly1x9m9x1q32am0qhvl1nlyixin3vh41kb76hhzc5mn"))))
+            "19gq972kcv1p3mdxrw60m35xh0il4ksz2j3k8zl2mmjilfbapf0w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -119277,20 +119277,20 @@
 (define-public emacs-xref-rst
   (package
     (name "emacs-xref-rst")
-    (version "20220518.1102")
+    (version "20220523.1234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-xref-rst.git")
                (commit
-                 "bc76bc228d51f64a2e57be8f230cf8a7746ea54a")))
+                 "4cbe37a4ae45dda7f8228f9490408eba3f92a19e")))
         (sha256
           (base32
-            "1yrvymgqwxib93dd6q57p3glj8ll6385wbnpzf3q7pbmdiihi82y"))))
+            "17whfpdwliafpfnf7qbkapmk92gqm4hwycb91mpa8gbz133xa9nf"))))
     (build-system melpa-build-system)
     (home-page
-      "https://gitlab.com/ideasman42/emacs-xref-rst")
+      "https://codeberg.org/ideasman42/emacs-xref-rst")
     (synopsis "Lookup reStructuredText symbols")
     (description
       "Documentation at https://melpa.org/#/xref-rst")
