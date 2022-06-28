@@ -22451,17 +22451,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220628.522")
+    (version "20220628.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "ca78ba036326e662ee85809ca6cdd805bb0d9d02")))
+                 "dbe912dcf6d75431ce473f839a89e5c4c228f51d")))
         (sha256
           (base32
-            "09h6pvgxp4iv9r7kqmcw570mj99x33cvbybxglcir8gj69y60iak"))))
+            "1i0anwqra02ddxjn2l57il2x90sy722jvs0662ljl1gp6xxd55k2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23678,17 +23678,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220624.1131")
+    (version "20220628.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "16679e21256754cdcf4c35535546a8aca5a2a295")))
+                 "c78d45bc33f77281d925e68f8d50d93fc4ec829a")))
         (sha256
           (base32
-            "1ja64ill1p5f2jj7prgvwqif8xy3nz93pgb2gwx5dxq9avdvnhn5"))))
+            "14vgaxycn25ndwym7rvpxlynjiwpbrqkzsl80dxnspgr4xsdjkhx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -28606,17 +28606,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220517.1401")
+    (version "20220628.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "0d0d1854299aa50edb3fd57317949c00f3fcbb03")))
+                 "cbe56e216df38756de11370535601b5324fdc63b")))
         (sha256
           (base32
-            "1x7c4sj7rj17mc3iwim96vn9m9ar04hj6a8lvilf4814lgvz9q4k"))))
+            "1xdahfnrvfda427grv69agx4ry3mq30nyz1ay01a23ijjlrf4q58"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -28993,17 +28993,17 @@
 (define-public emacs-embark-vc
   (package
     (name "emacs-embark-vc")
-    (version "20220627.531")
+    (version "20220628.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elken/embark-vc.git")
                (commit
-                 "a022f89ceaa49465e33b97bdbe046a0b651590ab")))
+                 "ca995ad8fd90a7e8a5cf78982a9953edd7f756e4")))
         (sha256
           (base32
-            "02c6nrcczws7ll8mfyff20hmmz8dykpqp2rcp7gx0cbj6ki15mbv"))))
+            "12qv4s5b94r6k7vfwzwah5bf0c938cr3dfjznrh86iwx8gn4916x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-code-review
@@ -29012,7 +29012,7 @@
             emacs-s))
     (home-page "https://github.com/elken/embark-vc")
     (synopsis
-      "Embark actions for various VC integrations")
+      "Embark actions for various version control integrations")
     (description
       "Documentation at https://melpa.org/#/embark-vc")
     (license #f)))
@@ -33552,18 +33552,19 @@
 (define-public emacs-evil-terminal-cursor-changer
   (package
     (name "emacs-evil-terminal-cursor-changer")
-    (version "20220514.258")
+    (version "20220628.1231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/7696122/evil-terminal-cursor-changer.git")
                (commit
-                 "81ede5cfa5d8944aa4777987c846a27e28457266")))
+                 "66403b9f22dd1766f4840f163173011148f6e9eb")))
         (sha256
           (base32
-            "01q3h1dmhpcjqs9zchq7wfpibd49pycfnrpn0gj0sh5bspzrqfm7"))))
+            "14ynkk5ayrav1w668q8179d9bq20i3ijx5dygy0l91ns9c5mgr60"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/7696122/evil-terminal-cursor-changer")
     (synopsis
@@ -41320,17 +41321,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20220627.1837")
+    (version "20220628.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "3227bd4d504bc1112e4d3d1c8f148960f4ae64f6")))
+                 "7e047a45f41884d045e1a66421891ee1c1f48376")))
         (sha256
           (base32
-            "0zmpch9wdp5a10i3nzg21aihyyvy58zsigr98g1j8i6snd55zba1"))))
+            "1sw9jbkqk0vpr2gk1dx8mksybw43ks1sj3i5311w7mi3caq30nr2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -41391,17 +41392,17 @@
 (define-public emacs-forth-mode
   (package
     (name "emacs-forth-mode")
-    (version "20220402.2103")
+    (version "20220628.1335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/larsbrinkhoff/forth-mode.git")
                (commit
-                 "122a9916c1ad1f1e3f4888951e1ad92a2fc10804")))
+                 "3ad7b9e9d6b9b69140ceed8ffabaa58aa89b78cb")))
         (sha256
           (base32
-            "1fb99l3kmxhhd9dyl99wy48b0r7zz5279nf4iargv7641xwkksy8"))))
+            "1madp6z4zs9fazc4dnp48d9h87xm4nj0paza0dixw77bn5r9vlxj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42269,17 +42270,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220611.1853")
+    (version "20220628.731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "1b27205245484a44439785460e989f49fb615dc5")))
+                 "0452a374cf290592a217fe77ed45d9f912790954")))
         (sha256
           (base32
-            "1s7assxlw2xhbqxx9wlz6yvy914qx7fj4z0zh07knsk3afizbf1d"))))
+            "15ln6pypvi5al4qab6c68yjvnzdndlndyn6av6axshhx4iw6a02q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -48818,17 +48819,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220626.549")
+    (version "20220628.845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a4b655974573c14ebce1fa6b79f620e8aaf10ec8")))
+                 "7cd4a463153447c8dd7ad60173ccabfe8a367d55")))
         (sha256
           (base32
-            "045l10fbq0wrby8j0sy9ffylhzzmy91g7g3pw5c2fqhggy7kwiia"))))
+            "0j1j97phjzccyh6fnzk38rfikjd2zlsr0rcfnzl4kv7192gb2nh8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -51180,17 +51181,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220622.526")
+    (version "20220628.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "87ae2f0f1147295cbef6101df1698cb3942a69c3")))
+                 "db922016dfe6b673210e8e5b40e8f5103b57333d")))
         (sha256
           (base32
-            "0c1kddy7732mn336ywnhirrr0739n143lsil25q9w35mkjpisdqa"))))
+            "0qqhxw3zlm056r9n8j1h96iv4izxshzcfbvw1l99xiw5v5n9lgia"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -67361,17 +67362,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220627.1913")
+    (version "20220628.907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "c44cd787a9164df683ac21ece2c05d21cb3deda7")))
+                 "4b23ed460243f860327ba105e753326a721edd82")))
         (sha256
           (base32
-            "1nriq685lm5npsj3sif5762cn872bwpr4gd7xfrpx07jbi6shmmg"))))
+            "1dz2c55hc8lhv6b4c55w6hd8cbv5pfwdc5wmhy45dddf2rifd91a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68038,17 +68039,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220613.1355")
+    (version "20220628.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "7327a13f2706edc740f25630719f128f393598a0")))
+                 "ca72bc5719bae6785c9f69e95e54d0522ee3d157")))
         (sha256
           (base32
-            "10li5q6lvdayg45nfd321hkxas4bvjn6id6v425b3c91askqdgl5"))))
+            "02ikrki621a93zkm38wkpmagv3f75dshv6s33p40zw86lnkv3k5x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -77688,17 +77689,17 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20220625.20")
+    (version "20220628.722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "a7ff8f05e4a7af4082262c7a7ba3d83ae490a7f3")))
+                 "abf149274bd98f562d34d4dbd8d65350a12e2c8e")))
         (sha256
           (base32
-            "014qmprba9b6a2zmcfjhy3hi58lp7iylh4s4xgigm50nwgfkw4cg"))))
+            "12fryqknyarb6jmnl6d2q4amsrsmslmp3gxa9v4mlkl5jmh7swck"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
@@ -93509,17 +93510,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220628.634")
+    (version "20220628.1238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "48549c5688f5ae97871631447cc45049c458718f")))
+                 "b28653f340bec21b275ad8e00476c0aaef7f20d4")))
         (sha256
           (base32
-            "1bg2q1wnsspw68w4dgkmdd9hzwh1nj7cnr54kh2y03mii9faycky"))))
+            "13pgaq8bfr8w4s40bibbpgxi9vm9lhwwdg51rq69xfy0fnl0angc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -102402,17 +102403,17 @@
 (define-public emacs-sis
   (package
     (name "emacs-sis")
-    (version "20220511.1734")
+    (version "20220628.726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/laishulu/emacs-smart-input-source.git")
                (commit
-                 "0eeb75db3eb031bde3e5820ee39a2b7549dc5d8b")))
+                 "c1995854f57cf231e4484d7bec1dd6c5953d09ec")))
         (sha256
           (base32
-            "06ky6358cc00z18srp6wcid9f0pjy1kwlvvmfznhsfqkjr6pshzp"))))
+            "0plm4cnxcnqr4dxwfbr1blhcn6z0kxz0c64jc4w7dnj2imglh2ki"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-terminal-focus-reporting))
@@ -118427,17 +118428,17 @@
 (define-public emacs-workgroups2
   (package
     (name "emacs-workgroups2")
-    (version "20220626.1144")
+    (version "20220628.1244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashinin/workgroups2.git")
                (commit
-                 "9d0cf8923c7e026d783a243c0c971b935f4bc4f5")))
+                 "892f2dde2a45396685c89552157250c238fbc582")))
         (sha256
           (base32
-            "0xv0g3xpm8h3064lmcjlkr91p6drz55c6l7s24l2dnvz99n6a26i"))))
+            "0by84pa4c8ma9h7gkgp3bwhs5qpk1wi1629acr1cbfqfvwv231ga"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
