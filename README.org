@@ -28,7 +28,7 @@ All packages that are unfetchable will not be included in the package list.
 If this happens, you can always use ~guix import elpa -t melpa <package_name+>~.
 
 ** Override package
-In emacs/packages/melpa.scm, define a new package:
+In emacs/packages/melpa-overrides, define a new package:
 
 #+begin_src scheme
 (define-override emacs-my-package pkg
