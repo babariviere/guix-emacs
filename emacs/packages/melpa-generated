@@ -6518,17 +6518,17 @@
 (define-public emacs-bazel
   (package
     (name "emacs-bazel")
-    (version "20220222.1616")
+    (version "20220629.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
                (commit
-                 "e07a16666154c8ddc65ddaae599d58b25727350d")))
+                 "0b01986b1ba4acb0505be80303cdbed3727e958f")))
         (sha256
           (base32
-            "0kdlhp3h2kkijxsmd7jhrbb1dgs6x5q3gpw4qv5ij89xrlxanz7d"))))
+            "0h6lqlng7wwmnzcvyh6py1m024xjjyvvviaxr4a53y9ris55545f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bazelbuild/emacs-bazel-mode")
@@ -10172,17 +10172,17 @@
 (define-public emacs-cargo-transient
   (package
     (name "emacs-cargo-transient")
-    (version "20220624.1042")
+    (version "20220629.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/peterstuart/cargo-transient.git")
                (commit
-                 "2082c8096513a1dc0a633451ee0a39a0625f886a")))
+                 "1b6a0486b74b304bda5660db462c188dc8e82b14")))
         (sha256
           (base32
-            "06dwqpwmpss85j0mg5j1chpx6kbc1n9kggfwjn47hfgbdyndblg0"))))
+            "0ly9w2m2j3i19q8kwhj640wnbalsfhh12ljh5pb2fna46gb3702b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/peterstuart/cargo-transient")
@@ -13351,17 +13351,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20220628.1636")
+    (version "20220629.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "e4014c54ba3f53a83d068fdd9fa537f7e2416b78")))
+                 "95b36ec8e7935f96b2f3c6c9086d49cf4a72cbff")))
         (sha256
           (base32
-            "0p98c79618xas8vpn6irdaj3hhrbijzn8rhdlqxdckja09b716k1"))))
+            "1mplrc84a5qd6cqv0kcqm13zdmvn71g5pmilhjdagn36dsb1vn16"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -22451,17 +22451,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220628.1714")
+    (version "20220629.859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "872e0edcf127d417c6b2ceeb715121d7e72e5d3f")))
+                 "db116ba78988cb00b4f8db34c81757d332962adb")))
         (sha256
           (base32
-            "1j8w403ar1xq72r290a1a9lf6v9lily6cd03lz36djk0pzh4gkwi"))))
+            "1y0wl1ppqch2glz3w92zq4igzk9gg3qw60zsqpliv3mxlrzqg55f"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -34922,17 +34922,17 @@
 (define-public emacs-faff-theme
   (package
     (name "emacs-faff-theme")
-    (version "20220609.1956")
+    (version "20220629.1216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
                (commit
-                 "49b9e3cc48ed27ce56c3f8a9fc2fb3d700c8dd8e")))
+                 "5d3c7e2f32f4dcdb22865c385ec48ababe5f293a")))
         (sha256
           (base32
-            "0ysxa9l894wx639f4yqic3x1m9hs8rfpbpd435m5fmfw2kic30x1"))))
+            "0a2d3h6xmgi06p10yw0c6y1z2mgb11ikxp1afp6lffx8i2dlx1l3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/WJCFerguson/emacs-faff-theme")
@@ -35062,17 +35062,17 @@
 (define-public emacs-fanyi
   (package
     (name "emacs-fanyi")
-    (version "20220519.105")
+    (version "20220629.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/fanyi.el.git")
                (commit
-                 "b09d122a17724668f73d44b9fe0b47add7f596c1")))
+                 "45eb63f62c24a9d3ceaa6f7d30e63920fdeefca3")))
         (sha256
           (base32
-            "1ys3aymskjsrvkqq3k91ml1rxms8bp64i9r4q4ya5k8xdz828m5z"))))
+            "02f1rx42sw5jzcg1prhbdnpjr5rd4pnlpsjjqmj64dh0mqdd41b2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -51180,17 +51180,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220629.616")
+    (version "20220629.1258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "a2197e21e221691b98ca0541df4add177d84f549")))
+                 "11c91c13ca3649e3d6fca4672dc7fae4a59b5d56")))
         (sha256
           (base32
-            "17rac4596fap9k9gf2mjh57gj72h0a9ixd1d7m3fjhzrnqq9cgm6"))))
+            "1npydapghqm3np85r1jah8jhs8vd8cz0x38j22jc41qvr3ysnxrh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -55604,17 +55604,17 @@
 (define-public emacs-ialign
   (package
     (name "emacs-ialign")
-    (version "20200711.1117")
+    (version "20220629.1241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mkcms/interactive-align.git")
                (commit
-                 "eca40b8b59ea713dba21b18f5b047a6c086b91dc")))
+                 "bc4d30d79f2f4b413288195ef19894ac0fd258b7")))
         (sha256
           (base32
-            "1nvj47d62dffgry0dy08m8rz5fqsrn1yhmkmp5jn57fyhbk6nfal"))))
+            "18hldv1id2s3rhh6bsxnv6g0lvw912vlgidwz8540nl6j9vr64dv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mkcms/interactive-align")
@@ -93509,17 +93509,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220629.511")
+    (version "20220629.949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "255f15aa1f7abf26cbe93756d0e2e8f7d5b08f45")))
+                 "9606d25f906f802307eb1d8cb5fa458eec837b04")))
         (sha256
           (base32
-            "1j9n9czi2vi5f58l7s9cnb2xm6awmk8wfl56dm17g31bcv0q8kgp"))))
+            "1iqhxssjlhvnd76qxi73rra9w4g93cp6wqvg00qryrbgkc7sj80x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
