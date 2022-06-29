@@ -23318,17 +23318,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220628.546")
+    (version "20220629.527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "a14957ff870817bd9fd9c25b53206d1097c454c2")))
+                 "8d0429d6bd7f7a74cd58b00ac26a0c9148706124")))
         (sha256
           (base32
-            "0r7lab5wvjmy88cnvlykh5si92cc6ylxj3qzqmzsiy0y4sc2ggda"))))
+            "02z7m57502yxn1rx29j6qlzwwdbjzki1bpia2ac1hygb0ixdxbkm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -41391,17 +41391,17 @@
 (define-public emacs-forth-mode
   (package
     (name "emacs-forth-mode")
-    (version "20220628.1335")
+    (version "20220629.519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/larsbrinkhoff/forth-mode.git")
                (commit
-                 "3ad7b9e9d6b9b69140ceed8ffabaa58aa89b78cb")))
+                 "162b79f005a64b1f91e60b8f4c022d1d90cd3d95")))
         (sha256
           (base32
-            "1madp6z4zs9fazc4dnp48d9h87xm4nj0paza0dixw77bn5r9vlxj"))))
+            "09x4ghfk1wri7awfmhk5l2xgidx590g979n5qk16ydk6f87nlxw0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -51180,17 +51180,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220628.1411")
+    (version "20220629.616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "db922016dfe6b673210e8e5b40e8f5103b57333d")))
+                 "a2197e21e221691b98ca0541df4add177d84f549")))
         (sha256
           (base32
-            "0qqhxw3zlm056r9n8j1h96iv4izxshzcfbvw1l99xiw5v5n9lgia"))))
+            "17rac4596fap9k9gf2mjh57gj72h0a9ixd1d7m3fjhzrnqq9cgm6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -63340,17 +63340,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20220625.534")
+    (version "20220629.640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "d26b6caa6e5e3bb2f7cab10aef77e084549fcbb2")))
+                 "c5b5f9550804031c1e0271e036d8abbaf6af8930")))
         (sha256
           (base32
-            "1xkmx6nk34y393miaxp7a77gv5pzw2aqyfadq0bb7xiwkdsyif0m"))))
+            "146fdz3vdj5sy2n5id2bn22w18j10wg7mypwqlpd3xv7g5zvmg9a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68038,17 +68038,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220628.1201")
+    (version "20220628.2351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "ca72bc5719bae6785c9f69e95e54d0522ee3d157")))
+                 "4505d405ff3e81b0fe371ce42cd574e5c66f9eb8")))
         (sha256
           (base32
-            "02ikrki621a93zkm38wkpmagv3f75dshv6s33p40zw86lnkv3k5x"))))
+            "0qqnhyqbj6xabxhg9frr23afal28g1raaxafvdzdk68lw7rgm7ac"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -70495,17 +70495,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220627.733")
+    (version "20220629.520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "74fbe3d7e07abf72cbb794d7048716216330e9e3")))
+                 "dcc705b7aba3b7a194fb7f44923ab4a6ef0e0cf9")))
         (sha256
           (base32
-            "11p7rm7d8z4fynq3zd1kghsa203f2kxg0pvjfgc6yjfk75kdh3ji"))))
+            "0b0rmfgz18hfx5035d18rsv8absb3kaq2rkbh9yg7ihz35icl593"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -72179,17 +72179,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220628.1734")
+    (version "20220629.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "9eda0afacf49ec852e2c7b77785c46d5e7fc96da")))
+                 "7241ea0a4160a34167720964190681f2d70139ed")))
         (sha256
           (base32
-            "102vngnslb6fmp3r1z8wnm12a51l65grwlm6nwd0f3vqq6v2b9q9"))))
+            "0fdpg32mzpqzk4hd92l1nwk8ifk3a9fzgj8cs7za3iwzdl34dyvi"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -93509,17 +93509,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220628.1238")
+    (version "20220629.511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "b28653f340bec21b275ad8e00476c0aaef7f20d4")))
+                 "255f15aa1f7abf26cbe93756d0e2e8f7d5b08f45")))
         (sha256
           (base32
-            "13pgaq8bfr8w4s40bibbpgxi9vm9lhwwdg51rq69xfy0fnl0angc"))))
+            "1j9n9czi2vi5f58l7s9cnb2xm6awmk8wfl56dm17g31bcv0q8kgp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -118793,17 +118793,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220622.1041")
+    (version "20220629.622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "163f4b6376614d361ef66012b7b2fed709ed8bb3")))
+                 "56f041f5b0a5bb4c34dffeffc9aef5c64b2b98a8")))
         (sha256
           (base32
-            "14izk1y3bwavndpb89vjgrbki4z9p05ivm1wvl624khx3ahw38nk"))))
+            "185kdzjcw5fag5kggc7wja59qr2f47zyb9d9sr0djvxczaxqsmry"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
@@ -120908,17 +120908,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220627.1552")
+    (version "20220629.301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "bb0470d95639dd5008fc1a63f5b59acaa15ce8aa")))
+                 "a4fd1771b3a84e35e8406d182d3e422e13e59b8f")))
         (sha256
           (base32
-            "0agiwml4xf7iz7sgcrxbnyafhjkagg713x367vwm3g5zbd89z9kn"))))
+            "1wzx2l9zs9gqjjzpdjhqd705rwb46k3dgq49w29lk6n7ddk2qbdf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
