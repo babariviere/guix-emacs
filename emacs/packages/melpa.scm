@@ -22595,17 +22595,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220630.1410")
+    (version "20220630.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "d7d4bd901871920ff38525a3242c763fc1ffa124")))
+                 "1f89ca8a5c5e0646f9a89b07eb5c5dc572b7d181")))
         (sha256
           (base32
-            "0dp7026n1v85wg7h3y4brr9z59dl8xisqz68iwfj4lswcqxs725k"))))
+            "0halnw4qs3ady2jfm3k6gw2yzw5a838m2dnf66pibwzmsadj4qa6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26298,17 +26298,17 @@
 (define-public emacs-eglot-fsharp
   (package
     (name "emacs-eglot-fsharp")
-    (version "20220629.1828")
+    (version "20220630.2007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "6b0e27a75a2bfd1db08bd4d002d31ba67456eb1c")))
+                 "185bfc2ca091cdd5d80ee798247d249076de2b30")))
         (sha256
           (base32
-            "1zryz91v3608552crq8cd5yihdw5r3nbk31pvwmz0dl2d236my7m"))))
+            "012lqc8px3qbn7qdm2w1ylaa6zxvs3l71xmpdyh5whhmgpfhc3wf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-fsharp-mode))
@@ -42204,17 +42204,17 @@
 (define-public emacs-fsharp-mode
   (package
     (name "emacs-fsharp-mode")
-    (version "20220624.2051")
+    (version "20220630.1931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "c1e58c61f9b57ddd6c0199581ec3784e361d61b4")))
+                 "185bfc2ca091cdd5d80ee798247d249076de2b30")))
         (sha256
           (base32
-            "1hfzjrj8gz8aaccrqzxlhfbgy8k9dd5g8s3hjja070k443jqf09v"))))
+            "012lqc8px3qbn7qdm2w1ylaa6zxvs3l71xmpdyh5whhmgpfhc3wf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -112552,17 +112552,17 @@
 (define-public emacs-tuareg
   (package
     (name "emacs-tuareg")
-    (version "20220629.1711")
+    (version "20220630.1742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/tuareg.git")
                (commit
-                 "b93890a87700ec6bbf73e6afa1c6a3213be14a00")))
+                 "0dedb350690cf5ff2b89d4c23a8103404fa793f9")))
         (sha256
           (base32
-            "1b1xasb5jk30q0s2vysnirhbb86yxrglnfazqpixjc1rg7iqs33x"))))
+            "1psf540asrpirq4xnp08wrh7489k4bjz033i15d6p8i2vz5l991c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-caml))
     (home-page "https://github.com/ocaml/tuareg")
@@ -121751,6 +121751,21 @@
       #:tests? #f))
    (native-inputs
     (package-native-inputs e/emacs-vterm))))
+
+(define-override emacs-geiser pkg
+  (package
+    (inherit pkg)
+    (native-inputs (package-native-inputs e/emacs-geiser))
+    (arguments
+     `(,@(package-arguments pkg)
+       #:phases
+       (modify-phases %standard-phases
+         (add-before 'install 'make-info
+           (lambda* (#:key outputs #:allow-other-keys)
+             (with-directory-excursion "doc"
+               (invoke "makeinfo" "--no-split"
+                       "-o" "geiser.info" "geiser.texi")
+               (install-file "geiser.info" (string-append (assoc-ref outputs "out") "/share/info"))))))))))
 
 (define-override emacs-geiser-guile pkg
   (package

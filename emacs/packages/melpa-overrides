@@ -117,6 +117,21 @@
    (native-inputs
     (package-native-inputs e/emacs-vterm))))
 
+(define-override emacs-geiser pkg
+  (package
+    (inherit pkg)
+    (native-inputs (package-native-inputs e/emacs-geiser))
+    (arguments
+     `(,@(package-arguments pkg)
+       #:phases
+       (modify-phases %standard-phases
+         (add-before 'install 'make-info
+           (lambda* (#:key outputs #:allow-other-keys)
+             (with-directory-excursion "doc"
+               (invoke "makeinfo" "--no-split"
+                       "-o" "geiser.info" "geiser.texi")
+               (install-file "geiser.info" (string-append (assoc-ref outputs "out") "/share/info"))))))))))
+
 (define-override emacs-geiser-guile pkg
   (package
     (inherit pkg)
