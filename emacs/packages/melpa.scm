@@ -6662,17 +6662,17 @@
 (define-public emacs-bazel
   (package
     (name "emacs-bazel")
-    (version "20220629.1323")
+    (version "20220630.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
                (commit
-                 "0b01986b1ba4acb0505be80303cdbed3727e958f")))
+                 "f87ff76a639a06c0652f90e59cdc71732a4ad30d")))
         (sha256
           (base32
-            "0h6lqlng7wwmnzcvyh6py1m024xjjyvvviaxr4a53y9ris55545f"))))
+            "1fwya9cpkrrmfn84rmdjvh6ndyaxdn53xa8wq84zcsjs8b9idkl9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bazelbuild/emacs-bazel-mode")
@@ -9328,17 +9328,17 @@
 (define-public emacs-burly
   (package
     (name "emacs-burly")
-    (version "20220413.1529")
+    (version "20220630.1113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/burly.el.git")
                (commit
-                 "96f59fe24fdce14d14f204372f99bf522ab192bf")))
+                 "a3b43a0afd3ceebc196585115ee94dfa423f3c4a")))
         (sha256
           (base32
-            "0mzv82qd2w3nsfjj08kmsb8sjg0fmmhjldbymqd60ybx3gq9h9ba"))))
+            "1dhny0b9fjbgy5dzh3f3jh3qjn2fdwv2c6pkvz6y5y51k2vyb5iv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/burly.el")
@@ -22595,17 +22595,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220629.859")
+    (version "20220630.1410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "db116ba78988cb00b4f8db34c81757d332962adb")))
+                 "d7d4bd901871920ff38525a3242c763fc1ffa124")))
         (sha256
           (base32
-            "1y0wl1ppqch2glz3w92zq4igzk9gg3qw60zsqpliv3mxlrzqg55f"))))
+            "0dp7026n1v85wg7h3y4brr9z59dl8xisqz68iwfj4lswcqxs725k"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26276,17 +26276,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220624.939")
+    (version "20220630.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "35a519a533c2d28e7d88e8541eca0de2daa531ee")))
+                 "bd970be047aba4513c2970b9ff2d842f0472cb0e")))
         (sha256
           (base32
-            "0pk9nxqji1by4alq5s6xx02f0x7g2xp3b04rspzx9ffnsyxr33mc"))))
+            "0i6mghx1a5vkcj2x43rlxshgjjbl1rj6slw4v2js91849ql7b04d"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -67505,17 +67505,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220629.2120")
+    (version "20220630.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "f15f1fdef735ecb6b60c6e0dae2a0dd9a13ec8b9")))
+                 "a7dd2ede8957ab4f3320e04d5c9d56a6c113d7fc")))
         (sha256
           (base32
-            "06fdrsjvh3854f5rph4ncc8c1xlnfpxd6gnqi2lwi1x65g7a1bs2"))))
+            "1hzw8i2ydrs7vz78s3fz0ynvqvcr5b3x34sh8c92z9hssk6sircw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70661,17 +70661,17 @@
 (define-public emacs-merlin
   (package
     (name "emacs-merlin")
-    (version "20220628.1608")
+    (version "20220630.1249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "d6943ba5a4d918482e3193f63fa5399086e6fe63")))
+                 "be753d9412387aedcf32aba88a1be9bcd33d97ba")))
         (sha256
           (base32
-            "087dcy6mdhakvhslr84lwk0rr201l92wzyr5fw01fqlw9rr1mw6x"))))
+            "1cpa9x45w54l4mqqmc8z3s5gscggw37gb6z9i7wwss86fj1wgclh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -79891,17 +79891,17 @@
 (define-public emacs-org-auto-tangle
   (package
     (name "emacs-org-auto-tangle")
-    (version "20220607.2042")
+    (version "20220630.1109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yilkalargaw/org-auto-tangle.git")
                (commit
-                 "87b867b46e9d75bb65c6b4d02565c67e225bd429")))
+                 "c20803648055791eb7ff7a72d0c43ceb43d7c082")))
         (sha256
           (base32
-            "1zb7vcmhmjiqpbbhqrqci689rnpn10p985cs5jk9sgg66xsbrgs3"))))
+            "0m8z26gbqb7zjhz0pl925ia9nixn2nnf010p5ksxhg4sh82iyj5j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -90038,17 +90038,17 @@
 (define-public emacs-pocket-reader
   (package
     (name "emacs-pocket-reader")
-    (version "20210824.658")
+    (version "20220630.844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/pocket-reader.el.git")
                (commit
-                 "0a177d4a3b4b2532be7f0775e5cc41e6382a45d4")))
+                 "88d1e6019a3408835745e117cb5b83a8e31f11fe")))
         (sha256
           (base32
-            "00ik1lgz9gzpx6701z26y0m064gf574ir4hjf1b2a052917gi97a"))))
+            "1rya9d3pcyrhxrk9n7h31b9b6jvw91hzj6xdss5x6lslyfz1aidn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -91710,17 +91710,17 @@
 (define-public emacs-prism
   (package
     (name "emacs-prism")
-    (version "20220627.413")
+    (version "20220630.723")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/prism.el.git")
                (commit
-                 "1ce65db67e3f521c6c0ac8f67e4a39eb0cc950ab")))
+                 "757bbcdf0ec51b6c7372c1853fa542c7de30499c")))
         (sha256
           (base32
-            "0sfz4bd9bsy50q99a88345qmw5ggjhm66jkjvir59y8dhxb6mllb"))))
+            "11hzlh5afq2asig3cv8fq0440xn7pfkriydbcb0n4ky8krq6ybx7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
