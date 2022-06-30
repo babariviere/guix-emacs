@@ -3349,17 +3349,17 @@
 (define-public emacs-ansilove
   (package
     (name "emacs-ansilove")
-    (version "20220628.1849")
+    (version "20220629.2339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-ansilove.git")
                (commit
-                 "7841c01c56026f2b4405228803f8a9d4746a5680")))
+                 "3e3f6e8baa2135b072855567e4a1fc599a2fc800")))
         (sha256
           (base32
-            "0b0imwj311v4h4pkbqaj3va5bsy6336rx8a9v4kgmkjpbbp9n62a"))))
+            "18p448arf6b6hbqvcxfvw6p45zijfzi2rg91dh26xbzaa398p9bj"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*")))
     (home-page
@@ -4304,17 +4304,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20220318.1342")
+    (version "20220630.57")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "c78bab7506a70a735d2c3deab13fa87bf44a83d3")))
+                 "7f4ed1e8b44e0b88eadb2efeeaf97f32c38f14c4")))
         (sha256
           (base32
-            "1pa0cmphja9flib8m86rlsns7q53g06pn0m4ksdj0ig1xmzj4108"))))
+            "08d1sv97xhk20r7xgb9mxlvdzlj5x7pi542fdm5nrz2s47y4w0xg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -72323,17 +72323,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220629.546")
+    (version "20220630.659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "7241ea0a4160a34167720964190681f2d70139ed")))
+                 "712a9f446b41b2c861e55946c37f4ecf1b927f76")))
         (sha256
           (base32
-            "0fdpg32mzpqzk4hd92l1nwk8ifk3a9fzgj8cs7za3iwzdl34dyvi"))))
+            "0zfimz525cw1f8v9wprkywjhf4fzidhbm9b96j1rsa64sh2yc0bk"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -93653,17 +93653,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220629.949")
+    (version "20220630.419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "9606d25f906f802307eb1d8cb5fa458eec837b04")))
+                 "154da73a5d1e2296a91b7f333592a6a4566ebaa5")))
         (sha256
           (base32
-            "1iqhxssjlhvnd76qxi73rra9w4g93cp6wqvg00qryrbgkc7sj80x"))))
+            "153q43shp0zrcyf3h6h6w7xrwnf0hyhpvqlifrfck1lq8dpx5a0l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -121052,17 +121052,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220629.1827")
+    (version "20220630.312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "5f065301be9cb5374234ad7e6717d63634e15938")))
+                 "bfe7be9f483c9eb9764bdccd8601fc27b3546082")))
         (sha256
           (base32
-            "17yqpwi6d0fhj94jz88sbhnsg977dwx7zhw6ydi5wy1hwcfv1k1a"))))
+            "090hvqf1xi4rmaqgswgfljqs9yvhm81bsb77zlz1yh5dw90f59pv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
