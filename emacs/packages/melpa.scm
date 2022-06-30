@@ -41197,17 +41197,17 @@
 (define-public emacs-font-lock-studio
   (package
     (name "emacs-font-lock-studio")
-    (version "20170127.2051")
+    (version "20220629.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Lindydancer/font-lock-studio.git")
                (commit
-                 "12c35967b31233e06946c70627aa3152dacfe261")))
+                 "78472ae1f65721b4da17756ee7e506f3d0487033")))
         (sha256
           (base32
-            "0q0s6f5vi3sfifj7vq2nnsmgyyivp1sd3idk32858md5ri71qif0"))))
+            "0gyzl2rz9kzrpvb3pfkcwbd0b7rxjxlklzc7zfh7ch6xxg0ghslw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Lindydancer/font-lock-studio")
@@ -48962,17 +48962,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220628.845")
+    (version "20220629.1952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7cd4a463153447c8dd7ad60173ccabfe8a367d55")))
+                 "99c0362c2bb879df44f224d0add69a7434447d48")))
         (sha256
           (base32
-            "0j1j97phjzccyh6fnzk38rfikjd2zlsr0rcfnzl4kv7192gb2nh8"))))
+            "02z5jxjkqspj6f6j2a87l9bzl2b4mh1560bzl8ia72w2vxg15m8z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49770,17 +49770,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220617.518")
+    (version "20220629.1935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "218fa70297128d09410b5702c582feadb7b2b31e")))
+                 "99c0362c2bb879df44f224d0add69a7434447d48")))
         (sha256
           (base32
-            "1smqkbvnkjsmgvplkqls12l3a5dirwip5hfifwh1yii350ax8asm"))))
+            "02z5jxjkqspj6f6j2a87l9bzl2b4mh1560bzl8ia72w2vxg15m8z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -67505,17 +67505,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220628.907")
+    (version "20220629.2120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "4b23ed460243f860327ba105e753326a721edd82")))
+                 "f15f1fdef735ecb6b60c6e0dae2a0dd9a13ec8b9")))
         (sha256
           (base32
-            "1dz2c55hc8lhv6b4c55w6hd8cbv5pfwdc5wmhy45dddf2rifd91a"))))
+            "06fdrsjvh3854f5rph4ncc8c1xlnfpxd6gnqi2lwi1x65g7a1bs2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74127,17 +74127,17 @@
 (define-public emacs-mw-thesaurus
   (package
     (name "emacs-mw-thesaurus")
-    (version "20210224.449")
+    (version "20220629.2024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/agzam/mw-thesaurus.el.git")
                (commit
-                 "96f02694bc28f31c2a280a05d47e6ff589f525f3")))
+                 "39d27eb4511588160b72078b67e11ce645dc76ee")))
         (sha256
           (base32
-            "0gy3lyncyvwimkhfmd0qh1kkc0qgf7sgvbyr1aljdn9qh7n5l34k"))))
+            "0nrql6vlbibymrq12pcwa65qqqw922lqf71xh228wcgnj94mhxhl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash))
@@ -112552,17 +112552,17 @@
 (define-public emacs-tuareg
   (package
     (name "emacs-tuareg")
-    (version "20220628.1516")
+    (version "20220629.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/tuareg.git")
                (commit
-                 "3fdf4f28695b9e2ecee0044c6d8c4a2c3b9f0638")))
+                 "b93890a87700ec6bbf73e6afa1c6a3213be14a00")))
         (sha256
           (base32
-            "1lr4s291ncxa4zf0l1wjybba9fxsk8dl6jain11m7lrahf54dipy"))))
+            "1b1xasb5jk30q0s2vysnirhbb86yxrglnfazqpixjc1rg7iqs33x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-caml))
     (home-page "https://github.com/ocaml/tuareg")
@@ -117687,17 +117687,17 @@
 (define-public emacs-wikinfo
   (package
     (name "emacs-wikinfo")
-    (version "20220121.2017")
+    (version "20220629.1826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/wikinfo.git")
                (commit
-                 "b149228023d4abb29555ce69877df521887cafe9")))
+                 "bd5d58bbee4eb7eaa923b3c310aa8d3082a6333e")))
         (sha256
           (base32
-            "153jmq14x4bim9v5xhd4zd100bqy2amj62sqjlmxf60pmd6xqc69"))))
+            "1nnnjv9878sm8sqw24mkc8cjb7qaj4gnai8j3d2lgdf0399km6zg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/progfolio/wikinfo")
@@ -121029,17 +121029,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220627.1934")
+    (version "20220629.1701")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "bb0470d95639dd5008fc1a63f5b59acaa15ce8aa")))
+                 "5f065301be9cb5374234ad7e6717d63634e15938")))
         (sha256
           (base32
-            "0agiwml4xf7iz7sgcrxbnyafhjkagg713x367vwm3g5zbd89z9kn"))))
+            "17yqpwi6d0fhj94jz88sbhnsg977dwx7zhw6ydi5wy1hwcfv1k1a"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -121052,17 +121052,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220629.301")
+    (version "20220629.1827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "a4fd1771b3a84e35e8406d182d3e422e13e59b8f")))
+                 "5f065301be9cb5374234ad7e6717d63634e15938")))
         (sha256
           (base32
-            "1wzx2l9zs9gqjjzpdjhqd705rwb46k3dgq49w29lk6n7ddk2qbdf"))))
+            "17yqpwi6d0fhj94jz88sbhnsg977dwx7zhw6ydi5wy1hwcfv1k1a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
