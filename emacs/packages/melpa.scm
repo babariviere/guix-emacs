@@ -1113,17 +1113,17 @@
 (define-public emacs-ac-php-core
   (package
     (name "emacs-ac-php-core")
-    (version "20220418.419")
+    (version "20220701.253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xcwen/ac-php.git")
                (commit
-                 "f34e09783b77d1158ea139b7b3d8034bc52b0b9f")))
+                 "dc563f4b1efeac8ae75f217532f4c99b4ba417de")))
         (sha256
           (base32
-            "1qi529lg3y5l4wrzfyk0w2fz36mpd432bp39s859z4cq06yybxga"))))
+            "188hisppjbpia3bmrpsxvkfi8xkirisarnrpvkk3ya4k8lv4z13p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -10248,17 +10248,17 @@
 (define-public emacs-carbon-now-sh
   (package
     (name "emacs-carbon-now-sh")
-    (version "20201028.950")
+    (version "20220701.332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/veelenga/carbon-now-sh.el.git")
                (commit
-                 "6444a77a6065803cf97c3321f811bd34a8063d76")))
+                 "e66f2e43e288f35ad9075f5fc84d59ad348efc88")))
         (sha256
           (base32
-            "039zsvhicqj4qg5dzvchj8myqfbsib1ia4v668mmalhksijldyma"))))
+            "04pld093g14dq139ghbvk67xs1fam729m8az4mkyp3f369gwz3y0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/veelenga/carbon-now-sh.el")
@@ -61852,20 +61852,19 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220625.855")
+    (version "20220701.641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "f4d123cd0b6a9f32c9423fdd9950062054287835")))
+                 "f9844fa3e14cd51d9f667c3ab9d7a7d816c3fd55")))
         (sha256
           (base32
-            "0idww2iixk43qg18cr25nyxnw5hinrb5in9h5l5jpbb02l8fzfm3"))))
+            "1lw4iwxw8ixiq0fxs5i0i80kqyzsisc7hjmilkmhs2hi525diy46"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-xterm-color emacs-s emacs-f))
+    (propagated-inputs (list emacs-s emacs-f))
     (home-page "https://github.com/psibi/justl.el")
     (synopsis "Major mode for driving just files")
     (description
@@ -81326,17 +81325,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220605.239")
+    (version "20220701.359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "a7fe761d3ed0f64124ded26f2c776973b5e84f14")))
+                 "ee06be6d82d36330cf0f96544e7cfcfdc1b7bb02")))
         (sha256
           (base32
-            "00rd7q20znnnsazp5n1j7ca3a5fbkq89yc2gcb295c32pg58hs5v"))))
+            "1dnlnk1gin48bc36798y9swj0q96gnsyrdf6sjq7asfm821zv68k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -81510,17 +81509,17 @@
 (define-public emacs-org-ml
   (package
     (name "emacs-org-ml")
-    (version "20220601.1412")
+    (version "20220630.2230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ndwarshuis/org-ml.git")
                (commit
-                 "f191ebfee6dcf6a05b5d1db43cf75f4a20faa8b4")))
+                 "4fd3feb65b93819e2bddc506f3c425aa7972a9d6")))
         (sha256
           (base32
-            "1vcdbpq746xa5a3rlq9vj4r42ygmws0wg7r7q4zylkvx9gv0c3n5"))))
+            "01hq6jchscxmfjlpgbzngnvimbxch0iza9krvdhrbj7ppqvhjjxz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -86205,17 +86204,17 @@
 (define-public emacs-package-utils
   (package
     (name "emacs-package-utils")
-    (version "20210221.822")
+    (version "20220630.2345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/package-utils.git")
                (commit
-                 "6a26accfdf9c0f1cbceb09d970bf9c25a72f562a")))
+                 "0168172062467b1bff913ea955b2ef709b43ecfa")))
         (sha256
           (base32
-            "1gmr3ncr98fb7j3iwig9bbawkpj1f0vmq3nmapwqbaqv6gyy93h1"))))
+            "0pghwwxmn90vfkdzl8fqc7zg3xkcx7lyiihjwvkgfmzmqs4hwn1p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-restart-emacs))
     (home-page
@@ -93653,17 +93652,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220630.419")
+    (version "20220701.134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "154da73a5d1e2296a91b7f333592a6a4566ebaa5")))
+                 "35315cf9fd554bb652961e5a8a8ebbafc3566d2e")))
         (sha256
           (base32
-            "153q43shp0zrcyf3h6h6w7xrwnf0hyhpvqlifrfck1lq8dpx5a0l"))))
+            "013ff8jkl73hcli3vmr5amc4kzhsjd59vnj7vqw2bk18zrzm8g4z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
