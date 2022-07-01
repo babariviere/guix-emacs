@@ -9328,17 +9328,17 @@
 (define-public emacs-burly
   (package
     (name "emacs-burly")
-    (version "20220630.1113")
+    (version "20220701.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/burly.el.git")
                (commit
-                 "a3b43a0afd3ceebc196585115ee94dfa423f3c4a")))
+                 "1f7140c6b1bff0c8b09b0b16fcad4b68922c810e")))
         (sha256
           (base32
-            "1dhny0b9fjbgy5dzh3f3jh3qjn2fdwv2c6pkvz6y5y51k2vyb5iv"))))
+            "0x2ajbws34f0f5g41cgk489pk93982dwd1h40a20sii6hj7nz09s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/burly.el")
@@ -10316,17 +10316,17 @@
 (define-public emacs-cargo-transient
   (package
     (name "emacs-cargo-transient")
-    (version "20220629.1226")
+    (version "20220701.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/peterstuart/cargo-transient.git")
                (commit
-                 "1b6a0486b74b304bda5660db462c188dc8e82b14")))
+                 "f74e177f29c0f58d6e3e392421f14e6d6ad2bf4d")))
         (sha256
           (base32
-            "0ly9w2m2j3i19q8kwhj640wnbalsfhh12ljh5pb2fna46gb3702b"))))
+            "1mc0sgl5s855796xg8g2yf55z7qg7g6jjym9zg1xll01d1ak0dmf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/peterstuart/cargo-transient")
@@ -10691,18 +10691,19 @@
 (define-public emacs-cdlatex
   (package
     (name "emacs-cdlatex")
-    (version "20210804.452")
+    (version "20220701.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cdominik/cdlatex.git")
                (commit
-                 "8e963c68531f75e459e8ebe7a34fd3ba9d3729a0")))
+                 "4c392765e123f9c5481e7d113486a6acf720ab13")))
         (sha256
           (base32
-            "1x5zg7qj4npi1y4030iakwy1mvfa04r79ijc3bwlsc74351wf27z"))))
+            "0dg69rj9zbjvw9qm3lpx46vhp3zgcc3njbvp2dhpqkvya6jnzrnk"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-auctex))
     (home-page "unspecified")
     (synopsis
       "Fast input methods for LaTeX environments and math")
@@ -16410,17 +16411,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220627.905")
+    (version "20220701.1352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "9acf9398ce187829f6afe6d33f0891ba1c07cd0d")))
+                 "ef4b83cf7d1538840a698fd8e44fcd1e6fdeeede")))
         (sha256
           (base32
-            "0y4w5d1zd49k0ljgpdz580avq1y5cpfb7ymw0ccw2p2yhaq3divm"))))
+            "1apm2d7h0swhawj5wcwszw9zl3rw8vv8nkz6cx5inx8wyk6gcc33"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -20854,17 +20855,17 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220615.1304")
+    (version "20220701.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~niklaseklund/detached.el")
                (commit
-                 "bcbf83bb1b9c460c989406b9a558b021c8561ee9")))
+                 "70ebb9488f2abe6b133101a696155106c7a44998")))
         (sha256
           (base32
-            "06rdp56s0zjv2ypazjx41pyjw4bsr6h1y0hxvgrh5ppqr2n38afi"))))
+            "1k5pghii56qvqil00rkcvjw4hkgv9a2cs76d074b9g5bqa2rhh7h"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -32241,17 +32242,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220628.1929")
+    (version "20220701.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "7e67e61271ca5b60efa341e6a4c1a0cfa636dc23")))
+                 "59158b3df13681c42edf5ba73e307adef503777a")))
         (sha256
           (base32
-            "08wjjw03l9n8s6ww4fgqpx2bvzy4schx18q41l24vnr80vz174zp"))))
+            "1vz3sl2lyfka7yns88ls5w1gmvq6qc1zbmrl4733k7pg6973alb7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -33905,17 +33906,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220527.1400")
+    (version "20220701.1325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "fba268b2fd15657404da308b3e91efa87d9f15be")))
+                 "d6dae906079e46db6e90ebae7ea337ffe6b55dbf")))
         (sha256
           (base32
-            "0av546si5h8ka9qm07sqwfklq6d864di16cfwg80g4s7anhh7f11"))))
+            "01i4gr8358hva2d9xsd4d4881gjgfyd8s4w8kjlkbvg9zykfq4mj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -41464,17 +41465,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20220628.1228")
+    (version "20220701.823")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "7e047a45f41884d045e1a66421891ee1c1f48376")))
+                 "aa22b06283382baf73d78064fcfd6c2f075ead5c")))
         (sha256
           (base32
-            "1sw9jbkqk0vpr2gk1dx8mksybw43ks1sj3i5311w7mi3caq30nr2"))))
+            "0fl68l5qcf78z7m7hwb4089vqa0py46fbv9rzars450kpkc82hhg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -42413,17 +42414,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220628.731")
+    (version "20220701.814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "0452a374cf290592a217fe77ed45d9f912790954")))
+                 "f926c49e9ab7b0b3eda0be6d6852234f2ee4665c")))
         (sha256
           (base32
-            "15ln6pypvi5al4qab6c68yjvnzdndlndyn6av6axshhx4iw6a02q"))))
+            "1d6pyprc7gwiw4rhwlgz0dyl2339g88pj8b3j66mhiflpykjd44c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -64007,17 +64008,17 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20220627.2112")
+    (version "20220701.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-language-id.git")
                (commit
-                 "e48aba3f020724f648fbc5003bc060a8609083e7")))
+                 "6ca0c79dfd1161399ce3be0e66501dd23b2f8916")))
         (sha256
           (base32
-            "15wq1fni655xfgimf0qfzcnr9xmgwmabxzs65qqds7p3imsjn0is"))))
+            "0h3qsarravk9rnnlhbjg250vgy4nxwbd0q61vmkwslnicx2q8chi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-language-id")
@@ -83677,17 +83678,17 @@
 (define-public emacs-org-wild-notifier
   (package
     (name "emacs-org-wild-notifier")
-    (version "20220402.2331")
+    (version "20220701.1147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akhramov/org-wild-notifier.el.git")
                (commit
-                 "4b1d874aafdee90815136c308f1f3bd3577971ec")))
+                 "9392b06d20b2f88e45a41bea17bb2f10f24fd19c")))
         (sha256
           (base32
-            "0wqcm65gisiapkx9m8zd5l6ysir2m7vk0px8adv04kjb5j937isq"))))
+            "1wj1dj2nirdj9m748q1yaakzzv3w39qlgak59yg3slbj6pcpgzl4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-async emacs-dash))
