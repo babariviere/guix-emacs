@@ -22596,17 +22596,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220630.1747")
+    (version "20220701.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "1f89ca8a5c5e0646f9a89b07eb5c5dc572b7d181")))
+                 "ef31960cf3f566bb5578b5c1bae45ece2939973b")))
         (sha256
           (base32
-            "0halnw4qs3ady2jfm3k6gw2yzw5a838m2dnf66pibwzmsadj4qa6"))))
+            "1jz6vv2408k3ikzm7mpc1a1mqh5nqsivcxvhyd0lvhiygbbwr6fc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -35584,17 +35584,17 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20220510.748")
+    (version "20220701.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~technomancy/fennel-mode")
                (commit
-                 "0e9ed013a163d91993a2883ad5c37c02694c2b92")))
+                 "5664357349462d0564c0bb55cb289a6722f0ecbc")))
         (sha256
           (base32
-            "0rdrap1kyj0csaa25d46xvb5hgbwlcqvmwrq6yicmbsnpdrwpwy7"))))
+            "11l6qhjbmi2367g12gz0rific7ji4qvqxwv76371rawsxbmrv29p"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -51325,17 +51325,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220629.1258")
+    (version "20220701.523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "11c91c13ca3649e3d6fca4672dc7fae4a59b5d56")))
+                 "50627b2c5ac64f65a406c94aaaf5f7d115d02603")))
         (sha256
           (base32
-            "1npydapghqm3np85r1jah8jhs8vd8cz0x38j22jc41qvr3ysnxrh"))))
+            "0xz4j4w439krh55r824am9wl4w49czwrvgp8ghjr866b6ql8vwmm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -67505,17 +67505,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220630.1550")
+    (version "20220701.2109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "a7dd2ede8957ab4f3320e04d5c9d56a6c113d7fc")))
+                 "6c28d61fe18ffc04492e84c3451b1f3517b2ec5d")))
         (sha256
           (base32
-            "1hzw8i2ydrs7vz78s3fz0ynvqvcr5b3x34sh8c92z9hssk6sircw"))))
+            "1js7kb0hk9bisg1yj3nygkxsqnzgyxs22mdi8d542abf2i85qaq2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69715,17 +69715,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220627.1048")
+    (version "20220701.1618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "45aed2caf032edef8a13b92570595310455899d9")))
+                 "b1db3c4c838a47f21d2c4a210b9840f61e757604")))
         (sha256
           (base32
-            "1kjflpjmc1g7282lm3y8f8308bf71hllrnj4lba9zxmyjhig2s7c"))))
+            "06asliggp9nv2vl966h56hcs9ll643n6jn4r480hdwayf9xmf47v"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -78858,17 +78858,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20220613.1351")
+    (version "20220701.1438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "48884ade629af4c366092e68f08dd5cb626cfaa4")))
+                 "c9bae0ea58085154cc3a22703c33ca5153ed6a80")))
         (sha256
           (base32
-            "1zmj319ppc01n1z8yq5rn4agq84v1kwfzdkxp96r3ishg9vh62b8"))))
+            "0jvh1w5h1zdg3rbk85d7lf1fj9fgmlwjqqqd3ils3y2rj9fw0ks3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -111165,22 +111165,22 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220608.1302")
+    (version "20220701.1742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "6692cd1346ce0b0a1fbdcbfa496b49365bcd660b")))
+                 "ccc5c23731a87004884b4496da1a6f4229594f79")))
         (sha256
           (base32
-            "18lj15y63lx57vzximsa0f7rhbr4vr39abj0r4b7fl5ivs46k3gy"))))
+            "0hflfl6bzcwbd9wygjyg2anrmjnd37pjvy62dy9bdm833kfiax4x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
     (synopsis
-      "Scroll down & recenter top lines / get upper margins/padding")
+      "Scroll down & recenter line 1 to be below the top of the window using upper margin/padding")
     (description
       "Documentation at https://melpa.org/#/topspace")
     (license #f)))
