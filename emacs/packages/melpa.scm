@@ -22596,17 +22596,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220701.1747")
+    (version "20220702.435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "ef31960cf3f566bb5578b5c1bae45ece2939973b")))
+                 "cd656ed98293288ed9f745b5716f93436fdb118e")))
         (sha256
           (base32
-            "1jz6vv2408k3ikzm7mpc1a1mqh5nqsivcxvhyd0lvhiygbbwr6fc"))))
+            "1dalldf199cpn9a7sf72n0jnvdafnwfdp9nmvdiismsml7fhvqwm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -29278,17 +29278,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20220627.2051")
+    (version "20220701.2312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "912024027e797d2671b4a9ffbfc9f634b8f7aa84")))
+                 "9adffa2e362e3d93367f5f69be20d81b969ad00c")))
         (sha256
           (base32
-            "0hkfjqhfjrggmdnsbi4z742qf92kw40jm3yciypd4j811lkiassk"))))
+            "0cks08qm5mcvadyrrl8rzycgqz9s719v6b2qsw4iy5sf9vqy3540"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -61853,17 +61853,17 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220701.641")
+    (version "20220702.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "f9844fa3e14cd51d9f667c3ab9d7a7d816c3fd55")))
+                 "3c7f325132a88d27b0a5e0ea100869797b0cfc16")))
         (sha256
           (base32
-            "1lw4iwxw8ixiq0fxs5i0i80kqyzsisc7hjmilkmhs2hi525diy46"))))
+            "0i1dqiyw3b9g70s8c5l6n5fmid433zyxdrcp71xs9smvcb43b6ww"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-f))
     (home-page "https://github.com/psibi/justl.el")
@@ -64008,17 +64008,17 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20220701.1200")
+    (version "20220702.529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-language-id.git")
                (commit
-                 "6ca0c79dfd1161399ce3be0e66501dd23b2f8916")))
+                 "1d05bb74075879351a33fedc363a5f375a18b8e5")))
         (sha256
           (base32
-            "0h3qsarravk9rnnlhbjg250vgy4nxwbd0q61vmkwslnicx2q8chi"))))
+            "0msirbjyf5daaycq3zvwsl4gxhk5lw1nxd492wzj4rb1m7dm4wk4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-language-id")
@@ -82531,17 +82531,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220521.1755")
+    (version "20220702.511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "0b24765e270a2dfd84adf3a0f9afa8b72aabad30")))
+                 "bd8bc9b4c15783debcec132c79835e37b03626c8")))
         (sha256
           (base32
-            "1z529iy3zm8szyr98kmi7m3rfpkx139xcpjz4vazk23zj93mpxrc"))))
+            "004nhqkcv6a9gcnxpkmpr15bzzrx7nn376cbcsxryzyz3z13lx31"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -111165,22 +111165,22 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220701.1742")
+    (version "20220702.609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "ccc5c23731a87004884b4496da1a6f4229594f79")))
+                 "0399f73f9b976737f51ad8079ad620673eb0106c")))
         (sha256
           (base32
-            "0hflfl6bzcwbd9wygjyg2anrmjnd37pjvy62dy9bdm833kfiax4x"))))
+            "0rprfg1gjd7bxhlhjan715035bxakjf9m44i76d614g6vc158zs1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
     (synopsis
-      "Scroll down & recenter line 1 to be below the top of the window using upper margin/padding")
+      "Recenter line 1 with scrollable upper margin/padding")
     (description
       "Documentation at https://melpa.org/#/topspace")
     (license #f)))
@@ -121052,17 +121052,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220630.312")
+    (version "20220702.436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "bfe7be9f483c9eb9764bdccd8601fc27b3546082")))
+                 "7f87fd84d04965f6adf53b28f26fd1f1bd2ed684")))
         (sha256
           (base32
-            "090hvqf1xi4rmaqgswgfljqs9yvhm81bsb77zlz1yh5dw90f59pv"))))
+            "0015bi4r665b0v7irh53brjpc2wh051wf81cgc1r7bm8yb2f35yr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
