@@ -6707,23 +6707,22 @@
 (define-public emacs-bbdb
   (package
     (name "emacs-bbdb")
-    (version "20220416.405")
+    (version "20220706.433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.nongnu.org/git/bbdb.git")
                (commit
-                 "ed7648f723d3fd03476b8a007a76e9058f7f7f47")))
+                 "1b121e94871f5d931c75793257db732ba82fdddb")))
         (sha256
           (base32
-            "05a6rh2chyafsw9n3aar4dscvq8wdb9bbl3b12vawilj3b5bv9jy"))))
+            "1mak78xg46hz5l00xqy5g8d6mrfs5z36nb0arjmpam2gvi6mzcz2"))))
     (build-system melpa-build-system)
     (arguments
-      '(#:files ("lisp/*.el*" "doc/*.texi")))
+      '(#:files (:defaults "lisp/bbdb-site.el.in")))
     (home-page "unspecified")
-    (synopsis
-      "The Insidious Big Brother Database for GNU Emacs")
+    (synopsis "Big Brother DataBase")
     (description
       "Documentation at https://melpa.org/#/bbdb")
     (license #f)))
@@ -22643,17 +22642,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220705.1723")
+    (version "20220706.618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a02910407bd5170d1b288560753dcd40921d11e3")))
+                 "fe744784a6166236b5a4f6515d70f0d85177cd0a")))
         (sha256
           (base32
-            "12p5jabj3b5b6drwq5hwaqxj50ibsnzq0anycdc7kfd46ldc2655"))))
+            "1ijx43krfpihm8xjlgqhxsy679bdd3967m8hnxkd229ggj3b3v7g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -61483,7 +61482,7 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20220705.2045")
+    (version "20220705.2155")
     (source
       (origin
         (method git-fetch)
@@ -67628,17 +67627,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220705.1637")
+    (version "20220706.42")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "512604f27092465386979e1276f58c5eb37bbdc3")))
+                 "4c20f04f5a6e6192e0f6752bb65cdd99c235b14e")))
         (sha256
           (base32
-            "02ir1jfmmqw1r58d8wdy6hljrzfhx8vwv86zp73zwacxcczkgmh3"))))
+            "166g2qi9dc4bav44njw1h45pqnj24nlh1kw7in4rlc2cywp6n0q3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68532,17 +68531,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220704.1912")
+    (version "20220706.148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "1f7a29371395dbfe6d6fbdc1aaa901638eb8ad45")))
+                 "acd26dd9f3708602d4c721395d790a4af7937eed")))
         (sha256
           (base32
-            "0laq3phaha9850d7i9kyblv12d46ciy5nq0b41l1kg00k7admf2m"))))
+            "05xfkk4dssqcf1kgxjlr74nya7nbkjmvqhqj6rmxbq89yb46nim5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -87353,17 +87352,17 @@
 (define-public emacs-password-mode
   (package
     (name "emacs-password-mode")
-    (version "20220222.1757")
+    (version "20220706.507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juergenhoetzel/password-mode.git")
                (commit
-                 "456a01e959140cb070e77bce5032a6885c7b7ae0")))
+                 "883981d9f8d0e2a8ec479c89f5f6b2492c22e01a")))
         (sha256
           (base32
-            "08achm8xxpadkqk0jk6nk0x8zk25xwn59xmvybj1rsmm4apnqsqx"))))
+            "003r3fy05bimv9j8v6hr6saq8bvq7h2k8nfl45bxai8mhsm6fhsd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/juergenhoetzel/password-mode")
@@ -88392,17 +88391,17 @@
 (define-public emacs-perspective
   (package
     (name "emacs-perspective")
-    (version "20220616.529")
+    (version "20220706.445")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nex3/perspective-el.git")
                (commit
-                 "b6a13bf5ffc454df32f65eddf057b166a5b42048")))
+                 "e994fb3067d343732f9fc0ae209cecd5a6192237")))
         (sha256
           (base32
-            "0q4mga7ivk0irnjmzrsyy1fp9pmixvnk93sn3idy5y9nhalqakvv"))))
+            "11z80lpiy8hbsc7ik5j1cjic1nbh29lb0wb12n90ddxrxi2p30g3"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nex3/perspective-el")
@@ -90975,17 +90974,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20220406.336")
+    (version "20220706.557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "6599c9b5a12b411c6cf1536bf200ae233fa24389")))
+                 "7ea13618c82d759247054c7630ee142bbe706cc7")))
         (sha256
           (base32
-            "0k306s29qj8dxgjzv24lxz3xnykra99h2gv76802snlyjbnzc50y"))))
+            "1c34di5vay4s8ng4nj8wpk9fjhfxd6848xlad0vcyiwpzlfwf6vc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -93868,17 +93867,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220701.134")
+    (version "20220706.456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "35315cf9fd554bb652961e5a8a8ebbafc3566d2e")))
+                 "6d8190ca200dddb8b6744de17badc41352b4fc60")))
         (sha256
           (base32
-            "013ff8jkl73hcli3vmr5amc4kzhsjd59vnj7vqw2bk18zrzm8g4z"))))
+            "0036jnlfhz6w769703hhwcpfaz9lz5l7vqc32s61a57mv5rqha8m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -120094,17 +120093,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20220702.1912")
+    (version "20220706.117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "14e6e4bc3d43078750571f446cbc670701d672c6")))
+                 "2500074ebf988a5d2e6a4a9f6dbe9b7df513a96c")))
         (sha256
           (base32
-            "0nci6n5dj2dgapimmw1sjg5pkgwb6clqfxy50y0fjgmqml12ghjc"))))
+            "11ylfdwagpp514353ygbbmyi32yw4w85x359h3lb6g65xr2m0h2p"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
