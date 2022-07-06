@@ -4100,17 +4100,17 @@
 (define-public emacs-arxiv-citation
   (package
     (name "emacs-arxiv-citation")
-    (version "20220609.602")
+    (version "20220706.706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/slotThe/arxiv-citation.git")
                (commit
-                 "ac30166e2ed4e07df7123377821487350aa4f026")))
+                 "a10af07419b66559569362ea57d897d988c17760")))
         (sha256
           (base32
-            "1bpn4zzqxvgiac33fdlvc5apng89ryy691darkycfjiaayyhp95i"))))
+            "05109ci3nccisjrn1ycx642zdas126g4vfvszbafb758777x9a02"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -12939,17 +12939,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220418.2015")
+    (version "20220706.1132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "b6f41d74904daa9312648f3a7bea7a72fd8e140b")))
+                 "d82417cf86644a4135c6d764aa901f69045fd5ca")))
         (sha256
           (base32
-            "0s9750x739biwbcc8m09spkvkwlf1nlrdz869imjpkagk0pci7xm"))))
+            "0blans78dwbp5rj6jg6nmcsm818vrmwfvddwgic9fm2x13aq423q"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -16696,17 +16696,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20220508.1232")
+    (version "20220706.627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "05cec288f931a1f3cd5984b88a79f1339110e4b9")))
+                 "9b51aed939054c54934a6969290ad78587051cde")))
         (sha256
           (base32
-            "0ar9qfkigwpifca05020p4144d6qh42milwz8wrn8ylxwsmm7v0m"))))
+            "160rix04azd1wc7fls29bhssjwzwmmnnqcfbkvapsyryvn80q219"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -22642,17 +22642,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220706.618")
+    (version "20220706.1436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "fe744784a6166236b5a4f6515d70f0d85177cd0a")))
+                 "4e3b33f1004e10ee7df940c3a6030823d5aa0622")))
         (sha256
           (base32
-            "1ijx43krfpihm8xjlgqhxsy679bdd3967m8hnxkd229ggj3b3v7g"))))
+            "0h99h68p55y4b8frfwx4538azrwwfhlxy8pwprpwc4n6r0j8my2x"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23869,17 +23869,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220705.1510")
+    (version "20220706.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "30ad1ac5e207d6d53d2fdf8597cac6615a4287ec")))
+                 "1d1f37c0a73eb131c2fbd44b6b08237760dd4e43")))
         (sha256
           (base32
-            "0hrhznwhk6srg70rrbkljsmr6virlvwsb173nlbr9y2d7pg367da"))))
+            "0pkmk1jvzdb2l1y7fq0ka4zrv1d4xal3rcjrjc3m8jynk00g681x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -49682,17 +49682,17 @@
 (define-public emacs-helm-cider
   (package
     (name "emacs-helm-cider")
-    (version "20220614.942")
+    (version "20220706.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/helm-cider.git")
                (commit
-                 "62eb5613984c9e7f4d04bd46637e675eda351ca4")))
+                 "fe7e48befdb0b20ea1b0fb3626a8a725e54ae626")))
         (sha256
           (base32
-            "04cm8cij21vpgfv153snar30bzs4fi7s7cklagmijplmj1w96k9b"))))
+            "0kj3465klq4a1awfp5xzk9rvrz3gv9n6d8b1k1lsmh4vvm4bsb6g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-cider emacs-helm-core))
@@ -65348,20 +65348,19 @@
 (define-public emacs-libmpdel
   (package
     (name "emacs-libmpdel")
-    (version "20210627.755")
+    (version "20220706.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpdel/libmpdel.git")
                (commit
-                 "e4ae63dd002fe07835c3c8a35b20b6e8347f8e84")))
+                 "8cf3512a437251863d56ba4933a8dd53988b1d6d")))
         (sha256
           (base32
-            "0pryjihv1766x86lqy2anpxwr159dndlzmqxxiiwhhz4skp5498w"))))
+            "0fsg2si7afrnsz91i0ziza6nbc4ds9kpnr2z71wf6896zb1afhfx"))))
     (build-system melpa-build-system)
-    (home-page
-      "https://gitea.petton.fr/mpdel/libmpdel")
+    (home-page "https://github.com/mpdel/libmpdel")
     (synopsis "Communication with an MPD server")
     (description
       "Documentation at https://melpa.org/#/libmpdel")
@@ -72514,17 +72513,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220705.757")
+    (version "20220706.1233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "ef0e3f5229422f3e7da285e3cfe121ed90101902")))
+                 "7ff26d12672035b578389b9059c3074004acbff0")))
         (sha256
           (base32
-            "017q51n0rzvcyz2ach906ghkxxq0017b6mkc33mzk8x3zj7qhnix"))))
+            "1rsg17bpf806l8m519yyl89xy8qfq0wnjd3yj1skmi4j83vzd8fz"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -73354,21 +73353,21 @@
 (define-public emacs-mpdel
   (package
     (name "emacs-mpdel")
-    (version "20210107.1303")
+    (version "20220706.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpdel/mpdel.git")
                (commit
-                 "6682446c6263a79e79c55cf32c0efb066245feec")))
+                 "0a06789e9f74bf6bb23f9097dd8072fb7c545d96")))
         (sha256
           (base32
-            "0q84gml1g9zwchp4h3r0xvj1sc1ynx0s2drfkpd357br3fw8ivzf"))))
+            "1wg48z0g6qqsd38r2ydba8dp7cq72cnkzshmhj6900xak6f5ywfd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-libmpdel emacs-navigel))
-    (home-page "https://gitea.petton.fr/mpdel/mpdel")
+    (home-page "https://github.com/mpdel/mpdel")
     (synopsis "Play and control your MPD music")
     (description
       "Documentation at https://melpa.org/#/mpdel")
@@ -74570,17 +74569,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220705.811")
+    (version "20220706.912")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "bc90550b6f528944b9e99d1ac916f6e743599f24")))
+                 "900ea0393f6ddc0551436276a7d801bd22a20779")))
         (sha256
           (base32
-            "0gv4h537xfdq1fzg4jkm3pmwchjr664iw70mzshlnyy8g4wwrzp5"))))
+            "1srqlngpidrmfarj19wc1dir51dixy4x4m224kv9wg56qgqy1d1m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
