@@ -22642,7 +22642,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220706.1436")
+    (version "20220706.1559")
     (source
       (origin
         (method git-fetch)
@@ -49060,17 +49060,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220704.1750")
+    (version "20220706.803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "2a2a142fdfb004e2f93157468e101e780fb0c550")))
+                 "004c9c12edb40b67856e5f6e59141f8b0f06e53b")))
         (sha256
           (base32
-            "1ghx6i682qv577wlspcvx4swdhya9ifq4pm6ss9fdr5xcfxa2h7j"))))
+            "0yfpp6908whwsv0nw2f6b9g0ircvrk4v2j2hjxsyblgd26wv9kq6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49868,17 +49868,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220704.1741")
+    (version "20220705.429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "2a2a142fdfb004e2f93157468e101e780fb0c550")))
+                 "004c9c12edb40b67856e5f6e59141f8b0f06e53b")))
         (sha256
           (base32
-            "1ghx6i682qv577wlspcvx4swdhya9ifq4pm6ss9fdr5xcfxa2h7j"))))
+            "0yfpp6908whwsv0nw2f6b9g0ircvrk4v2j2hjxsyblgd26wv9kq6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -65348,17 +65348,17 @@
 (define-public emacs-libmpdel
   (package
     (name "emacs-libmpdel")
-    (version "20220706.1458")
+    (version "20220706.1952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpdel/libmpdel.git")
                (commit
-                 "8cf3512a437251863d56ba4933a8dd53988b1d6d")))
+                 "c27c08949a742a888eb9921a8528882b2aec6137")))
         (sha256
           (base32
-            "0fsg2si7afrnsz91i0ziza6nbc4ds9kpnr2z71wf6896zb1afhfx"))))
+            "1lp3ld38x0s982zvpgj1hfky3wsdfwjii1yp5j7rq5n6si97aw7i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mpdel/libmpdel")
     (synopsis "Communication with an MPD server")
@@ -73353,17 +73353,17 @@
 (define-public emacs-mpdel
   (package
     (name "emacs-mpdel")
-    (version "20220706.1501")
+    (version "20220706.1952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpdel/mpdel.git")
                (commit
-                 "0a06789e9f74bf6bb23f9097dd8072fb7c545d96")))
+                 "be954f3722d4f28718748eeb5dc859b04d3fefeb")))
         (sha256
           (base32
-            "1wg48z0g6qqsd38r2ydba8dp7cq72cnkzshmhj6900xak6f5ywfd"))))
+            "0aqg6lzih3v9fik370l9q1ans678zng258vnr36f9jj0wayi60z5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-libmpdel emacs-navigel))
@@ -74988,17 +74988,17 @@
 (define-public emacs-native-complete
   (package
     (name "emacs-native-complete")
-    (version "20220124.1806")
+    (version "20220706.1800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/CeleritasCelery/emacs-native-shell-complete.git")
                (commit
-                 "5f94022fc9168971c77f8c12f9efd569c45f4850")))
+                 "f60037efdf4a453e24c12e9c063ed67f73ba65b1")))
         (sha256
           (base32
-            "0lfqvm71lxxga06pjzcdydjpgd3548rql7bsjdvbknkwx2p54w4g"))))
+            "0llcdp3mwifyn8vmxp4g9zjvdclr020jbjqvs23gbxd7fgmw1n04"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("native-complete.el")))
     (home-page
@@ -76490,17 +76490,17 @@
 (define-public emacs-norns
   (package
     (name "emacs-norns")
-    (version "20220422.2152")
+    (version "20220706.2023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/p3r7/norns.el.git")
                (commit
-                 "0eb487e15cf4aaaa30efde9068e205f014fd1dd2")))
+                 "d9972936192458ae194e43ef484b3f24fc923c11")))
         (sha256
           (base32
-            "09z85fzbcibhj5mcp3i003zihqqxx8qpwrq99fjd0szjmk8g8zj7"))))
+            "0skj7cg7kp1vyd0b7mk07lrpx8gcgrv832zzmrz0mzx73vm7313g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -79071,17 +79071,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20220701.1438")
+    (version "20220706.1759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "c9bae0ea58085154cc3a22703c33ca5153ed6a80")))
+                 "f25b51fc4370fedaebb52d82ff72a597bf44ccc4")))
         (sha256
           (base32
-            "0jvh1w5h1zdg3rbk85d7lf1fj9fgmlwjqqqd3ils3y2rj9fw0ks3"))))
+            "1d5v2wmvfgffi6jmkz8mkfy547d5amis64i756cah0kv2km6zdw6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -81723,17 +81723,17 @@
 (define-public emacs-org-ml
   (package
     (name "emacs-org-ml")
-    (version "20220630.2230")
+    (version "20220706.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ndwarshuis/org-ml.git")
                (commit
-                 "4fd3feb65b93819e2bddc506f3c425aa7972a9d6")))
+                 "a2f710129e102dba03004c4bdd84dd576dd98f2e")))
         (sha256
           (base32
-            "01hq6jchscxmfjlpgbzngnvimbxch0iza9krvdhrbj7ppqvhjjxz"))))
+            "0fa39a7mc2v6288gql5l76jhacgzi1lcrphfdxdpz6zg425rdxsj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -93866,17 +93866,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220706.456")
+    (version "20220706.2136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "6d8190ca200dddb8b6744de17badc41352b4fc60")))
+                 "bc228c1caf9db1c770cbb76926a9baf2c8195cc6")))
         (sha256
           (base32
-            "0036jnlfhz6w769703hhwcpfaz9lz5l7vqc32s61a57mv5rqha8m"))))
+            "0lc8f9yh1mxrpmhsq39z6kg1mfpkbq7jmkhb2v0v0x56s4barysk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -109304,17 +109304,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220705.110")
+    (version "20220706.1546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "23a9efee19851b94a630667552607eb09a4cf3cd")))
+                 "1080f10d1f87ea8f096ff451be831b953e4ccb98")))
         (sha256
           (base32
-            "1k85zhq7myj0h1rh3givjqyni4nrxin9rgmwd02r798mkjpal5bm"))))
+            "0qpn4iz6ryrf2h508iqgib8b1a0w7fp1w2j5q6rqyzng72r073lc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
