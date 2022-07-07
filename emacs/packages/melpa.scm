@@ -22642,17 +22642,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220706.1559")
+    (version "20220707.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4e3b33f1004e10ee7df940c3a6030823d5aa0622")))
+                 "96a257df6691b49f1c36973c6e17c56f8532d722")))
         (sha256
           (base32
-            "0h99h68p55y4b8frfwx4538azrwwfhlxy8pwprpwc4n6r0j8my2x"))))
+            "1pq5mrajmvpkg9i0l3al2qdz9dg4gai2d8l7yi1pykqgfzzx03rl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -27873,17 +27873,17 @@
 (define-public emacs-elisp-demos
   (package
     (name "emacs-elisp-demos")
-    (version "20220513.1626")
+    (version "20220707.410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xuchunyang/elisp-demos.git")
                (commit
-                 "01c301b516e9949d0239d20f6834afbc9acf0abb")))
+                 "4b51dff1ee5b6cb9fac946431753489cd96a67b0")))
         (sha256
           (base32
-            "07rjc6kkhhc0y2wwgsv09z66i9qyfl2b189jrxqcha02rw5sb0lp"))))
+            "02qp816ll2n3dvy5vwnpr3m959fz37md7mf7dqn84nfwf16g7k16"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.org")))
     (home-page
@@ -42511,17 +42511,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220705.534")
+    (version "20220706.2245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "eb5b6799a207aa00779575b7e7e791645d7905fb")))
+                 "95ab380202006169d8c1532d2074bb4a868a358f")))
         (sha256
           (base32
-            "1vpw1cbz36nbcvnwjjic1kqgp1jq3q85l8lzb507y8fj8i25g2gc"))))
+            "04q3fyk66kxsjf8zkb8c0pgi834ilgmqvnqn2zskvy31xyy661jw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -101863,17 +101863,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20220606.2301")
+    (version "20220707.40")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "45155e42ea10990295d47d5ee3cb29be16a1f9f6")))
+                 "e3ca74f62602e69af5ff3271bd98977bd490e9de")))
         (sha256
           (base32
-            "1cjz3sli309i2qrwxic63x1am4hpn8r9gwjnfjb62b954wdhhf97"))))
+            "0jznj2zh2bb32sy7cgwkb8sy4x9w63y8f929nq6271s6ljg8akc2"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
@@ -103366,17 +103366,17 @@
 (define-public emacs-sly-asdf
   (package
     (name "emacs-sly-asdf")
-    (version "20220117.714")
+    (version "20220707.5")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mmgeorge/sly-asdf.git")
                (commit
-                 "89fff94868f01d000b8bb4dd9d7e4d6389e61259")))
+                 "3180921efdc19a2195960e1d601b2a6f31a6feea")))
         (sha256
           (base32
-            "0zdj094r08n8g9mxki2qqx3ajy6f17xsijpdb02553v713q41287"))))
+            "0gncp8xv33s4wx594bgd35vr1455bcggv1bg28qv75mhv41nzw97"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-sly emacs-popup))
     (arguments
