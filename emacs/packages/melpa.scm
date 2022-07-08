@@ -6662,17 +6662,17 @@
 (define-public emacs-bazel
   (package
     (name "emacs-bazel")
-    (version "20220630.1236")
+    (version "20220707.1549")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
                (commit
-                 "f87ff76a639a06c0652f90e59cdc71732a4ad30d")))
+                 "8f7875998f233d248097006df224a33873bbc4f2")))
         (sha256
           (base32
-            "1fwya9cpkrrmfn84rmdjvh6ndyaxdn53xa8wq84zcsjs8b9idkl9"))))
+            "0nirvfq49s629163p2k2g8ir8di78p0zp0qriyyycg4v4ir4q63m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bazelbuild/emacs-bazel-mode")
@@ -8599,17 +8599,17 @@
 (define-public emacs-brf
   (package
     (name "emacs-brf")
-    (version "20220104.2222")
+    (version "20220707.2130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://bitbucket.org/MikeWoolley/brf-mode")
                (commit
-                 "59ec15094917666f253eaf61d17664525a7971f4")))
+                 "e723f57dcba4d06634490f2bbb963dfdbdfed9f7")))
         (sha256
           (base32
-            "0cxcjjslh9n678abs289d32880z97xb8cxmglhrhnfly2zx7h8p7"))))
+            "1pazkdsivan356fmdwymbdhgd9nbnjzxxzn07idjsay4v7zxkj14"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fringe-helper))
     (home-page
@@ -21171,17 +21171,17 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20220705.319")
+    (version "20220707.2354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-diff-ansi.git")
                (commit
-                 "4ae0a6d55572efecfcf6da7288488058cf1b4bc6")))
+                 "c189b8206ccff38a4079740330ee07a308470b82")))
         (sha256
           (base32
-            "0lmdlrjyg70vzamjynvhffcpim8szp3ldqag0zjwkzgzfvhmzgqb"))))
+            "0fs443ksv5iz4fw69scj7g13a9nxqln57m86lrh0b9zsg6iqzym6"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-diff-ansi")
@@ -29877,17 +29877,17 @@
 (define-public emacs-enh-ruby-mode
   (package
     (name "emacs-enh-ruby-mode")
-    (version "20220612.1949")
+    (version "20220707.1949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zenspider/enhanced-ruby-mode.git")
                (commit
-                 "02e312b8f6361958851c00386e971850779eb3ee")))
+                 "23ee0e8690a157d9c81d7aec179c82f0bba309b8")))
         (sha256
           (base32
-            "0m2psjx8jw2lsagxxcn389lni58hmsqxxa86vly47pxnv9siahqq"))))
+            "0rsx48lkv9j9gc9mx6ky65z8ab88fxf06ffyqvxxibnb9idjsmy6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -71541,17 +71541,17 @@
 (define-public emacs-mindre-theme
   (package
     (name "emacs-mindre-theme")
-    (version "20220707.1507")
+    (version "20220707.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erikbackman/mindre-theme.git")
                (commit
-                 "97057694d19cbe755fa26c8caf4c795ddfa38b4e")))
+                 "03a089c64c0dc637cfe34e4943ee546f60fc7ebb")))
         (sha256
           (base32
-            "12ll5pq0yb36q2885jhsiy4jk93lxzc2l2njiwa9mhc81kpr5ksa"))))
+            "1fj5h7n08q06rs1rh8cf98b1bbcghxsyxq6whyn059i4lp3arbkb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/erikbackman/mindre-theme")
@@ -94408,17 +94408,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220622.1850")
+    (version "20220707.1847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "768eb37dec574fc8760f1939080319bcd56171ac")))
+                 "7180cf8787476b257063d9f40cbb0dc97a1608de")))
         (sha256
           (base32
-            "0fjqnfgqmwm7w55a3j7zwq0b6a2fa2r18z1vzd560ap6ddb5y4fa"))))
+            "01wlbhgi1g3yz58y0vx8xn8isynkgg5s9mcmxqc0s72wjqmhiim7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -121334,17 +121334,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220629.1701")
+    (version "20220707.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "5f065301be9cb5374234ad7e6717d63634e15938")))
+                 "f8e62c0409fc94a50e699350b9d3bf754a736495")))
         (sha256
           (base32
-            "17yqpwi6d0fhj94jz88sbhnsg977dwx7zhw6ydi5wy1hwcfv1k1a"))))
+            "0wxca1vs7mkxrp46blmvcsy4i5w0d6sqp9djdqrl087rqax2qxra"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -121357,17 +121357,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220702.436")
+    (version "20220707.2009")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "7f87fd84d04965f6adf53b28f26fd1f1bd2ed684")))
+                 "f8e62c0409fc94a50e699350b9d3bf754a736495")))
         (sha256
           (base32
-            "0015bi4r665b0v7irh53brjpc2wh051wf81cgc1r7bm8yb2f35yr"))))
+            "0wxca1vs7mkxrp46blmvcsy4i5w0d6sqp9djdqrl087rqax2qxra"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
@@ -121380,17 +121380,17 @@
 (define-public emacs-zk-luhmann
   (package
     (name "emacs-zk-luhmann")
-    (version "20220704.1341")
+    (version "20220706.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk-luhmann.git")
                (commit
-                 "e6b1ef1a7f942db8e109ddb109f796dc2d7686f5")))
+                 "9f9623ba527d73015771d5bd6c50af83857d457a")))
         (sha256
           (base32
-            "1ylxx8gl6y7lv2cfwnbvnr3vhgcl1mh7mrwq5smkgbvi10hxrxy5"))))
+            "04hy297bv0bcr92qmwwylqpkxbg47yaq4zfd6n81b3j39x8ykcz3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zk emacs-zk-index))
