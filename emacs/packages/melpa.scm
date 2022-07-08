@@ -67626,17 +67626,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220706.42")
+    (version "20220708.1050")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "4c20f04f5a6e6192e0f6752bb65cdd99c235b14e")))
+                 "6d42130ea6c3abf6cfe046ffec0d7d04b1ac45b9")))
         (sha256
           (base32
-            "166g2qi9dc4bav44njw1h45pqnj24nlh1kw7in4rlc2cywp6n0q3"))))
+            "0v8z8fmibjxfcgczvcka7f4p1k2p3c8xawci9nr5i79mkdikyxh1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68327,17 +68327,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220628.2351")
+    (version "20220708.1127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "4505d405ff3e81b0fe371ce42cd574e5c66f9eb8")))
+                 "942f8fd7a96bdc1e1e2ce5730153f78e8528cec4")))
         (sha256
           (base32
-            "0qqnhyqbj6xabxhg9frr23afal28g1raaxafvdzdk68lw7rgm7ac"))))
+            "1a6cqjqgm8awqjkmlr75x3hqx0bihjwdxzalw2qgwkz6wvxnl7sc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -71541,17 +71541,17 @@
 (define-public emacs-mindre-theme
   (package
     (name "emacs-mindre-theme")
-    (version "20220707.1958")
+    (version "20220708.1451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erikbackman/mindre-theme.git")
                (commit
-                 "03a089c64c0dc637cfe34e4943ee546f60fc7ebb")))
+                 "7e28932815febea116aa85b695d8d2ae5907e892")))
         (sha256
           (base32
-            "1fj5h7n08q06rs1rh8cf98b1bbcghxsyxq6whyn059i4lp3arbkb"))))
+            "1yjq793ypcgkc8qclr31figlpb908spfgmxx87y1mm24195lriwn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/erikbackman/mindre-theme")
@@ -72513,17 +72513,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220706.1233")
+    (version "20220708.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "7ff26d12672035b578389b9059c3074004acbff0")))
+                 "2860a94f78154dfdd0b2d01bdf0af7992195f34c")))
         (sha256
           (base32
-            "1rsg17bpf806l8m519yyl89xy8qfq0wnjd3yj1skmi4j83vzd8fz"))))
+            "0drphvxg2c8rn6fyzq1cab9znhwsfkbq45vh551bx3hljgzgx1m9"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -92339,17 +92339,17 @@
 (define-public emacs-project-rootfile
   (package
     (name "emacs-project-rootfile")
-    (version "20220516.1419")
+    (version "20220708.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/buzztaiki/project-rootfile.el.git")
                (commit
-                 "ec33877552a5dabebca4ab272677a7fbaf98864f")))
+                 "b37b6a4d2943bd63f9931f8fe6cc2af8b27fcde4")))
         (sha256
           (base32
-            "1qpns8b638gmzq8qbi7p8xypqv81q6rn7bb3g9ww2ka03scms8n7"))))
+            "1rl39m9m5q41cn9jcvvdqmb53f5r6afwr5casd04kk5dqr84x2g4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/buzztaiki/project-rootfile.el")
@@ -94408,17 +94408,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220707.1847")
+    (version "20220708.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "7180cf8787476b257063d9f40cbb0dc97a1608de")))
+                 "3929d120d0281d38939dda6a61b021445d449214")))
         (sha256
           (base32
-            "01wlbhgi1g3yz58y0vx8xn8isynkgg5s9mcmxqc0s72wjqmhiim7"))))
+            "0cyby0g7alyjmhb2j0ylcfzrbqf623kh2lxd8xp2akinhlpsx86n"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -111239,17 +111239,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220626.1217")
+    (version "20220708.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "044567a46687d1eece3ca052ce114cd51a322542")))
+                 "8708fa7978e1c3655bda3e5f166f11c11cc31fd8")))
         (sha256
           (base32
-            "1hb9aqc3mj2lzh1q1bw0kjrn450i3kn7z5d925k3kpgc45glin1v"))))
+            "17gpv1d93b6bjhb6m5vdsml8dhlxwkdiwc13569mgwpwi727iifs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
