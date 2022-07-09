@@ -26323,17 +26323,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220707.1132")
+    (version "20220709.16")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "f9c986ffd826a34cb5da81936a44dab93cb11b9c")))
+                 "e0c08e7f687119d1dd39c8e298cbc49e4b16fdff")))
         (sha256
           (base32
-            "0ad2d00155zppww8s4k41w4cklciqxmsj66c5k3la68hgqpj2f5r"))))
+            "0c8lsvjq9fjfjv59r1mmdikng4hbpjzfng2xff05804jn2g79r31"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -78045,17 +78045,17 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20220628.722")
+    (version "20220708.2223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "abf149274bd98f562d34d4dbd8d65350a12e2c8e")))
+                 "59f25bfe2355c5109e25b5c1ca0c3b895a560363")))
         (sha256
           (base32
-            "12fryqknyarb6jmnl6d2q4amsrsmslmp3gxa9v4mlkl5jmh7swck"))))
+            "1vsgp2j3d8l6v71741sl4wglibb4wmhziyw31sjv4l1s47j1vdyx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
@@ -93866,17 +93866,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220708.616")
+    (version "20220709.519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "b22263d9635b838a90bf030a098ebe3be4454ef6")))
+                 "3d9d16b578a1136ef344b61db5f0d55cefcf4164")))
         (sha256
           (base32
-            "1n5psz71zd7gkfkwcfjqgb3szym0zplj3jdpz2kkfb8aj36q12jp"))))
+            "032an8d6mr67q4xip9x6imw7ljslnck8s1mx44gxdrz94zi2rk4h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -101771,22 +101771,22 @@
 (define-public emacs-shenshou
   (package
     (name "emacs-shenshou")
-    (version "20220607.39")
+    (version "20220709.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/shenshou.git")
                (commit
-                 "317a87ca4b1a3f1860d9ce88aeabac154598a834")))
+                 "f3f991f9773283f3834e8518eb6910aa29e88f9e")))
         (sha256
           (base32
-            "045z3h0yk5bkdiipp158s47bphmbz1fgmfx9fdm5acf1w1sdqm8q"))))
+            "0gmih585vb1qlcz152gkx8q9xdfjg456w43d4bd0q363ysqjfd70"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/shenshou")
     (synopsis
-      "Download subtitles from opensubtitles.org")
+      "Download&Extract subtitles from opensubtitles.org")
     (description
       "Documentation at https://melpa.org/#/shenshou")
     (license #f)))
@@ -107874,17 +107874,17 @@
 (define-public emacs-swift-mode
   (package
     (name "emacs-swift-mode")
-    (version "20220618.829")
+    (version "20220709.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/swift-emacs/swift-mode.git")
                (commit
-                 "da673f995fac844a3584efdaa3ea76cb9ebfb9a8")))
+                 "cdd194cbadcee724a9813da386f0a612082b1ab1")))
         (sha256
           (base32
-            "12gr3i25hj6kjn92y48kz3dw7kfhqpq76hgafnl1r79npi3askxw"))))
+            "16c5xfc29gi8mv0liy8n689zy8fp8jbymljik3qpcazrhyav7rf7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/swift-emacs/swift-mode")
