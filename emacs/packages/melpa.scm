@@ -8950,17 +8950,17 @@
 (define-public emacs-buffer-flip
   (package
     (name "emacs-buffer-flip")
-    (version "20180307.2251")
+    (version "20220708.1751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/killdash9/buffer-flip.el.git")
                (commit
-                 "b8ecbf0251a59c351a3e44607ee502af343da64b")))
+                 "5b85c1cfd37b60c7419e1d4bf8931ea04c0db743")))
         (sha256
           (base32
-            "1zb4k5v4n6j42z7kzlw2y1jp4xbkp6w9zxls3ja36g326mz5mdjz"))))
+            "02qxwhrcfmrsbrh90fjxf97rpqqj92p32hjhpyi17y9ky1g5x68x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/killdash9/buffer-flip.el")
@@ -22642,17 +22642,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220707.531")
+    (version "20220708.1828")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "96a257df6691b49f1c36973c6e17c56f8532d722")))
+                 "ebe95ca58b6a7e5a30452e218945b1d9ad1a6e48")))
         (sha256
           (base32
-            "1pq5mrajmvpkg9i0l3al2qdz9dg4gai2d8l7yi1pykqgfzzx03rl"))))
+            "0xaz02vrim2scj0whxkw5d22igbx6knalqzxfaqal7fxz87gbycg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -61482,17 +61482,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20220708.251")
+    (version "20220708.1813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "2c0c5b4aa371c6e41b56e13c610b7083da317532")))
+                 "7ad6d73aff49b346dc9f577ba8a450ac0a8d2aa5")))
         (sha256
           (base32
-            "0v963971lhcsz7l3dgn8l4jgfh199y01n5klpbkxgd37n6511s91"))))
+            "03q7d5mc0jlgmwxm0lmlrc5pcbpvdxmmbi8qm5wsk9xazdynn7fk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -67626,17 +67626,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220708.1050")
+    (version "20220708.1848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "6d42130ea6c3abf6cfe046ffec0d7d04b1ac45b9")))
+                 "9e0280e99b25dcb937af543831e0de0b2142d5e7")))
         (sha256
           (base32
-            "0v8z8fmibjxfcgczvcka7f4p1k2p3c8xawci9nr5i79mkdikyxh1"))))
+            "0fadsd1l459jyas1aikijwdfgvlycqlq14xvlzh7rhajx0pa0mz0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71541,17 +71541,17 @@
 (define-public emacs-mindre-theme
   (package
     (name "emacs-mindre-theme")
-    (version "20220708.1451")
+    (version "20220708.1914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erikbackman/mindre-theme.git")
                (commit
-                 "7e28932815febea116aa85b695d8d2ae5907e892")))
+                 "c2814c0d3ca6b70b8c8881fc6a6336e67f445e78")))
         (sha256
           (base32
-            "1yjq793ypcgkc8qclr31figlpb908spfgmxx87y1mm24195lriwn"))))
+            "1i6k148pjbf5znrz57yz516fkb33hb3bqcidb2f372pwgzi2p7xm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/erikbackman/mindre-theme")
@@ -121358,17 +121358,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220708.454")
+    (version "20220708.2022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "13bfe3cc66710297c38c3785942a0578b0164e58")))
+                 "f7e92412d6e6a66022ab6f426e8ab9ffe8201c1e")))
         (sha256
           (base32
-            "1w614k1gvhf73ib5zlwpc5dfsmps5pz6qyid749rpaapiymsr97g"))))
+            "0gs29ylan5is21vrslq9n2ha0qga1qkygjcq9isyif6hwizgxhb8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
