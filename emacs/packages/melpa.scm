@@ -6444,17 +6444,17 @@
 (define-public emacs-base16-theme
   (package
     (name "emacs-base16-theme")
-    (version "20220621.905")
+    (version "20220709.727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/base16-project/base16-emacs.git")
                (commit
-                 "283f461969b9c29055e9e2aa1547b605c096949b")))
+                 "310d0a966f9120997c80476c42043c1023f835e2")))
         (sha256
           (base32
-            "0wd2knsz9yj9p4x7inddk0ks90bdl3q87c94k2752sv334m3wws9"))))
+            "1qm53gn69bgpkpbsyqzk8aqk4xk87gyyasgjrx5jyrqiysyr6xvq"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "build/*.el")))
     (home-page
@@ -10178,17 +10178,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220610.1458")
+    (version "20220709.821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "86a1df6cbacd0e05b801208f83be5ca6c1cc8cec")))
+                 "6409bb43c8a7826186699572e4a5fe9356ca4351")))
         (sha256
           (base32
-            "0b37qz3dvlsmhigmipzxq9i0z1yz6n95iiqzfdrl42q9bl7fd0k0"))))
+            "03vmimdfy62hdfs2yflak56jk7s3ismg6kp6350rpm2haskdxq8v"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -12175,17 +12175,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220702.2132")
+    (version "20220709.759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "aeb5e68bd1f396e3a31c4fd39f66a7724c9919fc")))
+                 "993aeb24ba53d638cf9e5b4f2f7926d6d235c123")))
         (sha256
           (base32
-            "0xgj3nx907kf2jss9kd0dbf7w6sr9gqm0ffrjwk6h50rsz54xwyd"))))
+            "0sx7wf3ldp77ba1g4cpq86365b0dmdnry6vmf5mbxp9hp62xv3v8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22642,17 +22642,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220708.1828")
+    (version "20220709.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "ebe95ca58b6a7e5a30452e218945b1d9ad1a6e48")))
+                 "c27464957f3864c45b64374e0f9efe46510a9bff")))
         (sha256
           (base32
-            "0xaz02vrim2scj0whxkw5d22igbx6knalqzxfaqal7fxz87gbycg"))))
+            "0xn556jmihswj7sjmp0fnmbaj3nfp044wlwarb27spixlyygajwk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -83415,17 +83415,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220602.940")
+    (version "20220709.33")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "481f44aa4067b287e0c724c6d5e1185c62d1560c")))
+                 "1b9180f408aa57e8560504a54ae22bdd50909b77")))
         (sha256
           (base32
-            "016p3fjdd5vpri7bg2yfmk3ldkng7jp65fb0fv9i89kmzkkcq4az"))))
+            "0vgfr6c5ab5rvd3vidd38rhdjgac2g7x15s4ip9p9577pl9a281x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -86941,7 +86941,7 @@
 (define-public emacs-paredit
   (package
     (name "emacs-paredit")
-    (version "20191121.2328")
+    (version "20220709.849")
     (source
       (origin
         (method url-fetch)
@@ -86951,7 +86951,7 @@
                ".el"))
         (sha256
           (base32
-            "13p26n2nblfcg2nl5rmkwg18qsbzdbzx31fdnihkjw65mzlaymss"))))
+            "0jx77nmikrdk1zwkf4ylpr8gnxdb5imx8k9pfcl1i97hqby8mw6f"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "minor mode for editing parentheses")
@@ -90973,17 +90973,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20220706.557")
+    (version "20220709.727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "7ea13618c82d759247054c7630ee142bbe706cc7")))
+                 "3406efb1df99eb0d9469b966a0590c5b6ff949d1")))
         (sha256
           (base32
-            "1c34di5vay4s8ng4nj8wpk9fjhfxd6848xlad0vcyiwpzlfwf6vc"))))
+            "1n1zagkhhhxjykdw8w8360g1fwz922qj3h0siql2n0z4sd2rblaj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -109420,17 +109420,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220509.2139")
+    (version "20220709.816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "b88c58a89390cf3834de898109c5e69a5cf434cd")))
+                 "ff9756b0646b1d06443eb4bdc64db443f1aa6c40")))
         (sha256
           (base32
-            "0mk2ghqvg4raja1hg5hwg6774blba56sg2bmfh8xma4slg5n8js5"))))
+            "0iyh6wxchqg83gpwvg6lz4qy4c2qh25iqjpjm56kif52346a99d2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
@@ -121358,17 +121358,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220708.2022")
+    (version "20220709.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "f7e92412d6e6a66022ab6f426e8ab9ffe8201c1e")))
+                 "7327b43552f0405d80ef54e72ddfa8bc12b8130f")))
         (sha256
           (base32
-            "0gs29ylan5is21vrslq9n2ha0qga1qkygjcq9isyif6hwizgxhb8"))))
+            "0kmn8wgp2zgmls0n1nmwdp1sv82glq6nl2bznlhv3imfxmb0w924"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
@@ -121381,17 +121381,17 @@
 (define-public emacs-zk-luhmann
   (package
     (name "emacs-zk-luhmann")
-    (version "20220706.1925")
+    (version "20220709.1530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk-luhmann.git")
                (commit
-                 "9f9623ba527d73015771d5bd6c50af83857d457a")))
+                 "c8d7fdcbb2684e7e62d1a6e7de93612f732b6a69")))
         (sha256
           (base32
-            "04hy297bv0bcr92qmwwylqpkxbg47yaq4zfd6n81b3j39x8ykcz3"))))
+            "0srj2la822hiz94yr5ylrlqkcdr6j8laxx6s8ghvhg9qmcqi143g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zk emacs-zk-index))
