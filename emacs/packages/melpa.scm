@@ -22642,7 +22642,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220709.1243")
+    (version "20220709.1519")
     (source
       (origin
         (method git-fetch)
@@ -42511,17 +42511,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220706.2245")
+    (version "20220709.2135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "95ab380202006169d8c1532d2074bb4a868a358f")))
+                 "03a1ef1231a4ad8b59b02d6b44bc027b1b4b8781")))
         (sha256
           (base32
-            "04q3fyk66kxsjf8zkb8c0pgi834ilgmqvnqn2zskvy31xyy661jw"))))
+            "1rjm8lzmhbcvzpk0k9g9da0r8lkfv7p46dh0yrbnipz1c08qszx3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -49060,17 +49060,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220707.1116")
+    (version "20220709.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f97b280cb543fc37583f475b09e3194f3ab0ccbf")))
+                 "93e9428400154db2f5bd4f03f201e0554d5cc4ab")))
         (sha256
           (base32
-            "1j7kgq1yqfkbkbdrxvq5nvgqxc9vzqli98j3x94bblvg8bx96kap"))))
+            "1lf32a7l5jh8dvq9h268039ndnd3v0pxr8rn7pd138wyw3m9lsp7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -49868,17 +49868,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220705.429")
+    (version "20220708.343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "004c9c12edb40b67856e5f6e59141f8b0f06e53b")))
+                 "93e9428400154db2f5bd4f03f201e0554d5cc4ab")))
         (sha256
           (base32
-            "0yfpp6908whwsv0nw2f6b9g0ircvrk4v2j2hjxsyblgd26wv9kq6"))))
+            "1lf32a7l5jh8dvq9h268039ndnd3v0pxr8rn7pd138wyw3m9lsp7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -65163,17 +65163,17 @@
 (define-public emacs-lfe-mode
   (package
     (name "emacs-lfe-mode")
-    (version "20220102.1653")
+    (version "20220709.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rvirding/lfe.git")
                (commit
-                 "1db53e014de290ce70e6e3ee3443c94301d6df92")))
+                 "d10af0a774d6d9c41ea78fe0185fdd0065a05d66")))
         (sha256
           (base32
-            "0zb98pwmfn8nyl68k0xf9skdmaksd8d2jgf02vrs5h0b5q2fmbla"))))
+            "1v9xawdmbbrqcax1n47dgysjr14nv1db63kmrjs8qq0ci9jb66dc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -80104,17 +80104,17 @@
 (define-public emacs-org-auto-tangle
   (package
     (name "emacs-org-auto-tangle")
-    (version "20220702.940")
+    (version "20220709.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yilkalargaw/org-auto-tangle.git")
                (commit
-                 "c64ca020f99952cce9798209912a8e335900a1a4")))
+                 "c07a86bbd5e43a56852bf95403c6682cdb7c6211")))
         (sha256
           (base32
-            "1cb5r5b2ya105xh5pc9ly4qvhlwph2bwf7zij6qdc8l3csyx7lw6"))))
+            "10zskf7zwf81bhvn9ihrn7xgky5liaqqqs9k3imrk8cnys9napai"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -88926,17 +88926,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20220703.1211")
+    (version "20220709.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "c143ab3d64d69b3196d980176bfac768be6930da")))
+                 "ca6ae67dab6a8646316d62d400a37dd96d8de3f6")))
         (sha256
           (base32
-            "0rf7m4dh3fcr3l60gl9yn35wk91b9psi46w7ag3y4ya6w9v1j4ly"))))
+            "0m0x5xhj2l3gp03jvjaawk0w3xb4nsddxkgnm31sacchqwxjmxcz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -94408,17 +94408,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220708.1037")
+    (version "20220709.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "3929d120d0281d38939dda6a61b021445d449214")))
+                 "cf4c7be22343032e00c7bcf24071aba63ad14f01")))
         (sha256
           (base32
-            "0cyby0g7alyjmhb2j0ylcfzrbqf623kh2lxd8xp2akinhlpsx86n"))))
+            "0w33wl6chl02kgr427c8rxcgdyfa6agm7fh8926grc29hzcjjhzd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -120093,17 +120093,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20220706.117")
+    (version "20220709.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "2500074ebf988a5d2e6a4a9f6dbe9b7df513a96c")))
+                 "bdfaa8ce5588445e1798e14242a027af46795f2c")))
         (sha256
           (base32
-            "11ylfdwagpp514353ygbbmyi32yw4w85x359h3lb6g65xr2m0h2p"))))
+            "0n8d2p4x7yvqg4756p671p5psrmnphxqjajv9bfll43rs57dd2bv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
@@ -121358,17 +121358,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220709.1529")
+    (version "20220709.1858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "7327b43552f0405d80ef54e72ddfa8bc12b8130f")))
+                 "533d335126c9eb8aeab1ef96812c01f9015fffe6")))
         (sha256
           (base32
-            "0kmn8wgp2zgmls0n1nmwdp1sv82glq6nl2bznlhv3imfxmb0w924"))))
+            "1wqyzakvr6kx0rfjp9p0dp9micpjq59kr5c5gk66i5k9fnlf1w7y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
