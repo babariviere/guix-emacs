@@ -10573,6 +10573,30 @@
       "Documentation at https://melpa.org/#/cbm")
     (license #f)))
 
+(define-public emacs-cbor
+  (package
+    (name "emacs-cbor")
+    (version "20220623.22")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Titan-C/cardano.el.git")
+               (commit
+                 "821f77cd0814284bb4fe606b9b436be818a444fc")))
+        (sha256
+          (base32
+            "0gfa2nygn32md0ihzqj7pmhf11fjmnb3v63lhiwcz1ml9rxdmida"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-dash))
+    (arguments '(#:files ("cbor.el")))
+    (home-page
+      "https://github.com/Titan-C/cardano.el")
+    (synopsis "CBOR utilities")
+    (description
+      "Documentation at https://melpa.org/#/cbor")
+    (license #f)))
+
 (define-public emacs-cc-cedict
   (package
     (name "emacs-cc-cedict")
@@ -25442,17 +25466,17 @@
 (define-public emacs-echo-bar
   (package
     (name "emacs-echo-bar")
-    (version "20220222.214")
+    (version "20220705.2212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qaiviq/echo-bar.el.git")
                (commit
-                 "06cc8ef88f3b054f676b76815879bd6c71107591")))
+                 "b00e80acbbb708a3528c7b376dfb216deb64e4fe")))
         (sha256
           (base32
-            "00cipip1zlfag1mrqi887qq2a3zf4n39a0z5h3vsv38zslq1rz7x"))))
+            "081rmpbkq2fx1jx71hfz61szaimcpjh933sa4vqz2cn7cf2l4n5s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qaiviq/echo-bar.el")
@@ -49060,17 +49084,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220709.1652")
+    (version "20220709.1922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "93e9428400154db2f5bd4f03f201e0554d5cc4ab")))
+                 "aa2ece8aba6f95984e391e35360c824aafac25d6")))
         (sha256
           (base32
-            "1lf32a7l5jh8dvq9h268039ndnd3v0pxr8rn7pd138wyw3m9lsp7"))))
+            "0pnja0ckk1jldmryn0ix0l5jdq17wlrdp5ya6brw1a9ra21cfiyp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -57641,17 +57665,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20220228.208")
+    (version "20220710.103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "dbf4386bac12f1733257db6105e3f1fca05ffb79")))
+                 "4ddf6b3889004156a224e061c78357fa8936777a")))
         (sha256
           (base32
-            "0sb72prfcglkjvpsgadyql5s9r28dbiihby3szl500lv7cfpc6ds"))))
+            "0pbhd6x8yjkxms2q8lr3a4c87xqsdghavh6cifa2vvargpjrrdy0"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -61159,17 +61183,17 @@
 (define-public emacs-js2-mode
   (package
     (name "emacs-js2-mode")
-    (version "20220626.1135")
+    (version "20220710.57")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooz/js2-mode.git")
                (commit
-                 "a48b87353b5f0903bb7bb791c89d8645a10b216b")))
+                 "841cfec9570ae06a67a131997e2aff32340e81d7")))
         (sha256
           (base32
-            "0x7shdv5zq3waz3shda6qs8mkrlcsyabqyxmwcrcfg3wyjax0izi"))))
+            "0whvhmgpv6yxqiljd1l4a880i0dhp0z0jxqaad7jjvwij07vvla4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mooz/js2-mode/")
     (synopsis "Improved JavaScript editing mode")
@@ -72375,17 +72399,17 @@
 (define-public emacs-mode-line-idle
   (package
     (name "emacs-mode-line-idle")
-    (version "20220708.211")
+    (version "20220710.431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-mode-line-idle.git")
                (commit
-                 "3c3a747d68b3f83e1f0a5124a5848ceb2a87a258")))
+                 "4c309f0890bc888f95c8be31bae6fe5a5d4164a9")))
         (sha256
           (base32
-            "1ybr2g9pg49ashwa75a0vrjfk8vm9l32csalabm6dzb21jkqj0ms"))))
+            "1y94dm0nphdsfrsg236zbkxz2gmy788a0926m2imip7b06a09hwk"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-mode-line-idle")
@@ -74379,6 +74403,28 @@
     (synopsis "Simple MXF viewer")
     (description
       "Documentation at https://melpa.org/#/mxf-view")
+    (license #f)))
+
+(define-public emacs-my-repo-pins
+  (package
+    (name "emacs-my-repo-pins")
+    (version "20220705.839")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ninjatrappeur/my-repo-pins.git")
+               (commit
+                 "01dacd4b01bef53742b0f79f0e254c4762ebc23e")))
+        (sha256
+          (base32
+            "0djwkgs8h2xgz31lh2bclqvlqhnim5wbadfdhd2qhfvikqgnzcj9"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/NinjaTrappeur/my-repo-pins.el")
+    (synopsis "Keep your git repositories organized")
+    (description
+      "Documentation at https://melpa.org/#/my-repo-pins")
     (license #f)))
 
 (define-public emacs-myanmar-input-methods
@@ -81223,6 +81269,38 @@
     (synopsis "An implementation of GTD.")
     (description
       "Documentation at https://melpa.org/#/org-gtd")
+    (license #f)))
+
+(define-public emacs-org-hyperscheduler
+  (package
+    (name "emacs-org-hyperscheduler")
+    (version "20220704.2140")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/dmitrym0/org-hyperscheduler.git")
+               (commit
+                 "b7f33e7bf19b7ce7c81dbac4de765a854ee7f52f")))
+        (sha256
+          (base32
+            "0h7r8rxb4aldr31awl8w7fk82nghh5g8ayz9yspyqr3ix4q4n8z7"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-websocket emacs-log4e))
+    (arguments
+      '(#:files
+        (:defaults
+          ("calendar"
+           "calendar/index.html"
+           "calendar/index.js"
+           "calendar/org-hs.css"))))
+    (home-page
+      "https://github.com/dmitrym0/org-hyperscheduler")
+    (synopsis
+      "UI (web) representation of org-agenda")
+    (description
+      "Documentation at https://melpa.org/#/org-hyperscheduler")
     (license #f)))
 
 (define-public emacs-org-id-cleanup
@@ -102322,6 +102400,28 @@
       "Documentation at https://melpa.org/#/sidecar-locals")
     (license #f)))
 
+(define-public emacs-sideline
+  (package
+    (name "emacs-sideline")
+    (version "20220706.720")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacs-sideline/sideline.git")
+               (commit
+                 "32c2c9f8d752073c2b637ea8f0b4473804339f64")))
+        (sha256
+          (base32
+            "1n1diyz95d0g1gq0yzf86a94fcgsqvh834ww7pblgq1yk7ld9hzd"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/emacs-sideline/sideline")
+    (synopsis "Show information on the side")
+    (description
+      "Documentation at https://melpa.org/#/sideline")
+    (license #f)))
+
 (define-public emacs-sift
   (package
     (name "emacs-sift")
@@ -112140,17 +112240,17 @@
 (define-public emacs-tree-sitter-ess-r
   (package
     (name "emacs-tree-sitter-ess-r")
-    (version "20220705.959")
+    (version "20220710.515")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/tree-sitter-ess-r.git")
                (commit
-                 "7dd0aca6a7d2b492d8d92395213712e2eb69b206")))
+                 "2781d18303110549b4e61cb6b465b1dcbe3635f8")))
         (sha256
           (base32
-            "002c0missciinjdf35pw9a6anhqyv176sh9pwbzw2z45f2pvhbma"))))
+            "0zxy9263v5sp0sv9l10ps7i7czsjr3vj27kl09wf92mhykxqcjx9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ess
@@ -113633,17 +113733,17 @@
 (define-public emacs-undo-fu
   (package
     (name "emacs-undo-fu")
-    (version "20220708.211")
+    (version "20220710.351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-undo-fu.git")
                (commit
-                 "81598b1bec7192759214959bf953950dd8a41ab6")))
+                 "2c00eff32487e90d40588dcc69dc0e8d40a99f61")))
         (sha256
           (base32
-            "14nch1yzlrrv38cffcc1b5lffzxx0iqnl8zwwndzvw4v0insx4y4"))))
+            "1p4bg3c9ph5hcdwwx9h0qpm415vfi0frisi49zac3q60q90bqx9m"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-undo-fu")
@@ -116852,17 +116952,17 @@
 (define-public emacs-wanderlust
   (package
     (name "emacs-wanderlust")
-    (version "20220622.2329")
+    (version "20220710.221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/wanderlust.git")
                (commit
-                 "512a98741d64f55eaa03fae3a6cd42fe872b4822")))
+                 "d0296bb70abe97fdc3d855ee76eff0414a5fae62")))
         (sha256
           (base32
-            "0r3x7qppwngsb841wk3rn68821srs1bkfba366qayvbjkindq3sn"))))
+            "0n4h4486bzqk6wlqlc7p05ahiwqr7pbhgfc0j5hgz188lf9kjqra"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-flim emacs-semi))
@@ -120899,17 +120999,17 @@
 (define-public emacs-zenburn-theme
   (package
     (name "emacs-zenburn-theme")
-    (version "20220611.542")
+    (version "20220710.623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/zenburn-emacs.git")
                (commit
-                 "fd10925a3a8c39818a9e353b804ac8b1a847d73a")))
+                 "cff73bfea8deef2c97cc1ceac4b03702702c4a83")))
         (sha256
           (base32
-            "1pmpy63ava7yayzhwdg1c9p9h1by9jpsfnzaxlkp0hap76chnbv7"))))
+            "1nj4zbf0551whlzgx4gc0p0l5223ag1rwjmjsvk08knvr14jnjm5"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bbatsov/zenburn-emacs")
