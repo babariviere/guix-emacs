@@ -6889,6 +6889,30 @@
       "Documentation at https://melpa.org/#/beacon")
     (license #f)))
 
+(define-public emacs-bech32
+  (package
+    (name "emacs-bech32")
+    (version "20220615.1225")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Titan-C/cardano.el.git")
+               (commit
+                 "821f77cd0814284bb4fe606b9b436be818a444fc")))
+        (sha256
+          (base32
+            "0gfa2nygn32md0ihzqj7pmhf11fjmnb3v63lhiwcz1ml9rxdmida"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-dash))
+    (arguments '(#:files ("bech32.el")))
+    (home-page
+      "https://github.com/Titan-C/cardano.el")
+    (synopsis "Bech32 library")
+    (description
+      "Documentation at https://melpa.org/#/bech32")
+    (license #f)))
+
 (define-public emacs-beeminder
   (package
     (name "emacs-beeminder")
@@ -8599,17 +8623,17 @@
 (define-public emacs-brf
   (package
     (name "emacs-brf")
-    (version "20220708.535")
+    (version "20220710.2116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://bitbucket.org/MikeWoolley/brf-mode")
                (commit
-                 "ea49cefad49eec42b67250b1017d294c8c7d7a58")))
+                 "1aaf5b237a2bd550dceff6d76c56e4bf3365ca25")))
         (sha256
           (base32
-            "1diabw1fr587bxz7jnr3clzn3hiq98ay4bahqrpp56z5y0fzib5c"))))
+            "0pkxp9c9jqrh91jmscsl3b7r892mbb9aid9iqk78cr29zn6q44g5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fringe-helper))
     (home-page
@@ -12197,6 +12221,31 @@
       "Documentation at https://melpa.org/#/citar")
     (license #f)))
 
+(define-public emacs-citar-embark
+  (package
+    (name "emacs-citar-embark")
+    (version "20220710.1109")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacs-citar/citar.git")
+               (commit
+                 "96a567d70bae00118187c77051159df95c33f2dc")))
+        (sha256
+          (base32
+            "0ks4llnh0gix8biby8jcp8fg6cvpibdgba7nigxfhilabwlnwfnb"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-embark emacs-citar))
+    (arguments '(#:files ("citar-embark.el")))
+    (home-page
+      "https://github.com/emacs-citar/citar-embark")
+    (synopsis "Citar/Embark integration")
+    (description
+      "Documentation at https://melpa.org/#/citar-embark")
+    (license #f)))
+
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
@@ -12814,6 +12863,29 @@
       "A minor mode for the ClojureScript 'lein cljsbuild' command")
     (description
       "Documentation at https://melpa.org/#/cljsbuild-mode")
+    (license #f)))
+
+(define-public emacs-cljstyle-format
+  (package
+    (name "emacs-cljstyle-format")
+    (version "20220706.309")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/dpassen/cljstyle-format.git")
+               (commit
+                 "4ca28444856e0e1e6b24e5343bcd5c601c4aa86a")))
+        (sha256
+          (base32
+            "088j7walsshafy4nrwqycq9h8yyn29rx8kxcgn2x58y5iz2hfx86"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-reformatter))
+    (home-page
+      "http://www.github.com/dpassen/cljstyle-format")
+    (synopsis "Reformat Clojure code using cljstyle")
+    (description
+      "Documentation at https://melpa.org/#/cljstyle-format")
     (license #f)))
 
 (define-public emacs-clmemo
@@ -71566,17 +71638,17 @@
 (define-public emacs-mindre-theme
   (package
     (name "emacs-mindre-theme")
-    (version "20220708.1914")
+    (version "20220711.55")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erikbackman/mindre-theme.git")
                (commit
-                 "c2814c0d3ca6b70b8c8881fc6a6336e67f445e78")))
+                 "9eaf0a3e8611d9441c8db6d7c56b62325e5a8a1b")))
         (sha256
           (base32
-            "1i6k148pjbf5znrz57yz516fkb33hb3bqcidb2f372pwgzi2p7xm"))))
+            "00j1lv0741bask3wlyc8wyi3wyf7lzxki4y1kvaff17khpnv72rs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/erikbackman/mindre-theme")
@@ -72538,17 +72610,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220708.1408")
+    (version "20220711.501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "2860a94f78154dfdd0b2d01bdf0af7992195f34c")))
+                 "fc936326f9486cfda0c9113dc4a3054e9971447d")))
         (sha256
           (base32
-            "0drphvxg2c8rn6fyzq1cab9znhwsfkbq45vh551bx3hljgzgx1m9"))))
+            "03mdmv2f099578ajmhdnaw50h7wywg18pp28a39rvp3rigfyiqfr"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -76290,19 +76362,19 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220515.2359")
+    (version "20220711.445")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "1ebacdfbaa996319adf88a49258814c28ba49b1b")))
+                 "c7e42920c2db19428c1b30402aaf99bd65bcac7e")))
         (sha256
           (base32
-            "1gz3blbj1snvdq9vyc2f2brbpkarxid221lpqm8h58jlzxx0by86"))))
+            "1fabx74caj6q5a5hhw5yyg68j415qhadarliwfp2n071pf4dickw"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-request))
+    (propagated-inputs (list emacs-request emacs-s))
     (home-page "https://github.com/thomp/noaa")
     (synopsis "Get NOAA weather data")
     (description
@@ -89562,6 +89634,28 @@
       "Documentation at https://melpa.org/#/pinyinlib")
     (license #f)))
 
+(define-public emacs-pip-frame
+  (package
+    (name "emacs-pip-frame")
+    (version "20220706.810")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.zamazal.org/pdm/pip-frame")
+               (commit
+                 "7a75e73f884f294c979d19a520268f2a4371861b")))
+        (sha256
+          (base32
+            "0wssm2rrm53hg2gvg7y926zgca2r8hvjib0dbgg6lz6bflshv8bp"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.zamazal.org/pdm/pip-frame")
+    (synopsis "Display and manage a PIP frame")
+    (description
+      "Documentation at https://melpa.org/#/pip-frame")
+    (license #f)))
+
 (define-public emacs-pip-requirements
   (package
     (name "emacs-pip-requirements")
@@ -97212,6 +97306,28 @@
       "Documentation at https://melpa.org/#/renpy")
     (license #f)))
 
+(define-public emacs-repeat-help
+  (package
+    (name "emacs-repeat-help")
+    (version "20220706.1225")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/karthink/repeat-help.git")
+               (commit
+                 "4f8bc98a35047146438f47059e32fbd5aae80e89")))
+        (sha256
+          (base32
+            "1s7n651lwqk1cv6ld98sfqvynx3zvjjpsfgybr2cvdp2nbi9iljm"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/karthink/repeat-help")
+    (synopsis "Display keybindings for repeat-mode")
+    (description
+      "Documentation at https://melpa.org/#/repeat-help")
+    (license #f)))
+
 (define-public emacs-repeatable-motion
   (package
     (name "emacs-repeatable-motion")
@@ -102418,6 +102534,30 @@
     (synopsis "Show information on the side")
     (description
       "Documentation at https://melpa.org/#/sideline")
+    (license #f)))
+
+(define-public emacs-sideline-flycheck
+  (package
+    (name "emacs-sideline-flycheck")
+    (version "20220629.752")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacs-sideline/sideline-flycheck.git")
+               (commit
+                 "7f11c14c938a88a35728b04add991903486ddd31")))
+        (sha256
+          (base32
+            "0y30iw3psllf0g8llvzm8sd0kkhazhn433fwq0nq6hy21rm4r12x"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-sideline emacs-flycheck emacs-ht))
+    (home-page
+      "https://github.com/emacs-sideline/sideline-flycheck")
+    (synopsis "Show flycheck errors with sideline")
+    (description
+      "Documentation at https://melpa.org/#/sideline-flycheck")
     (license #f)))
 
 (define-public emacs-sift
@@ -121860,17 +122000,17 @@
 (define-public emacs-zoxide
   (package
     (name "emacs-zoxide")
-    (version "20220302.522")
+    (version "20220711.33")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/Vonfry/zoxide.el.git")
                (commit
-                 "ecdcb62847b5e54ccd477d740e4974f28c8f5809")))
+                 "b09c06962316d28b14ecbb2340af7c0636ab6d16")))
         (sha256
           (base32
-            "1f4j53a1bm4kpgmlpfxnqb9zm8q0qxl7frxd8a0nqwfrxrzkqp8p"))))
+            "1fngxjd4yg73rnx9hwvkp66x972m72ysm1b7dj76fkvfdrcdz0gb"))))
     (build-system melpa-build-system)
     (home-page "https://gitlab.com/Vonfry/zoxide.el")
     (synopsis "Find file by zoxide")
