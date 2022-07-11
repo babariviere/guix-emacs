@@ -12200,17 +12200,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220710.1208")
+    (version "20220710.2043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "dea83413ac58f9d23927a2b4843034666ab50611")))
+                 "7cc0152706d59954124f8c1559198050783bbc59")))
         (sha256
           (base32
-            "1x0ba88h1g12n2lay6rw8rc1wmnxdcsi69kkcsbq4c8kzxg1y45z"))))
+            "04v1r545304g00kbfzcfk8cr6ma9xqkglkns0f1828smlhknqbw2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -16276,17 +16276,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20220702.1848")
+    (version "20220710.1740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "b97ab1ac89b862219e12e1cd89dd30f0f4f40718")))
+                 "06a1ac946ed245e0b0fae2755f9641c4c180de9f")))
         (sha256
           (base32
-            "1lacc6kcki19xqqnmz72rx3wml0cpbkhghyslks4zl997bngscmm"))))
+            "0ngj4prn9lk1ymffpkj5h7wcy1zmqsfm9ljyqqxrcmmjylciglav"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -22667,7 +22667,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220710.1309")
+    (version "20220710.1522")
     (source
       (origin
         (method git-fetch)
@@ -83899,17 +83899,17 @@
 (define-public emacs-org-visibility
   (package
     (name "emacs-org-visibility")
-    (version "20220625.2122")
+    (version "20220710.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nullman/emacs-org-visibility.git")
                (commit
-                 "3aa780edced6fd83a2b560b94fd35f673da0e465")))
+                 "24aee13a956bc1cff72f8b04f47e7d9ec01bb3b3")))
         (sha256
           (base32
-            "18nfampmcabsv67j7ihna0gi5xjgrpkals7gpz4accmvh59agxm7"))))
+            "1b7afdiagnf9biw0px7qc6ayjbbhy5z2gwl7g1whb3h5hvrri4j5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nullman/emacs-org-visibility")
@@ -93266,23 +93266,20 @@
 (define-public emacs-pubmed
   (package
     (name "emacs-pubmed")
-    (version "20210927.1933")
+    (version "20220710.2149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/fvdbeek/emacs-pubmed.git")
                (commit
-                 "e1ac5433daf966cf7c5e9178b037191e1eb3e4bd")))
+                 "7e38b3f8ec72618b89afdeaa113f1787dcb690ca")))
         (sha256
           (base32
-            "0ylsn36zmrn8mds2z74vbyv7sd4699a4wicg4shrf2gd5bbsi72g"))))
+            "1f884r3fs9nybf5y9dwp8f9m8azssxjy55z7bd0nl9pjll9rhsz2"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-deferred
-            emacs-esxml
-            emacs-s
-            emacs-unidecode))
+      (list emacs-esxml emacs-s emacs-unidecode))
     (home-page
       "https://gitlab.com/fvdbeek/emacs-pubmed")
     (synopsis "Interface to PubMed")
@@ -121459,17 +121456,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220710.1446")
+    (version "20220710.2020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "956c44a0f6b27f7e1797613137deed6a957feb0f")))
+                 "84805842febd76cce71ca66bce01f54aba7cd8b3")))
         (sha256
           (base32
-            "09l2ycr03rfxnsfa2n4cgn5mfkjfpza6yhgmcsbsbl6jc95by4cx"))))
+            "1b1mf75dm92cymcdrdb7lzc3f0cl28idm05n0jy68q72f5wah3gr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
