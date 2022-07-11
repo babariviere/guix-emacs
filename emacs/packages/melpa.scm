@@ -6892,17 +6892,17 @@
 (define-public emacs-bech32
   (package
     (name "emacs-bech32")
-    (version "20220615.1225")
+    (version "20220711.911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "821f77cd0814284bb4fe606b9b436be818a444fc")))
+                 "a3ebdcdd91d32f044b68541a00e162396e4acb38")))
         (sha256
           (base32
-            "0gfa2nygn32md0ihzqj7pmhf11fjmnb3v63lhiwcz1ml9rxdmida"))))
+            "1jmlg5rbgam3s9n7blmk2b9r9ggzdvsbry1fdsx5gipymbldx1gg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("bech32.el")))
@@ -22739,17 +22739,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220710.1522")
+    (version "20220711.820")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "930d24a26c5a7acf443a7a9895782d0fdfab68aa")))
+                 "b2a4da610bd06ec092b715a085895c11aa3f340b")))
         (sha256
           (base32
-            "027ysnqcg44z0miswwanxcfiar74ih0vhv2rrps42f72bkg2wa7j"))))
+            "0izfcb84ypbv839ykkar4wr94v9ffkb8xi1xkzn3fyqjnsl5vj0z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28574,17 +28574,17 @@
 (define-public emacs-elpher
   (package
     (name "emacs-elpher")
-    (version "20220530.1219")
+    (version "20220711.527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://thelambdalab.xyz/git/elpher.git")
                (commit
-                 "79c241f1ce5d4e4f2ba377485f4434e93391eb0f")))
+                 "d31e967beeba40a32e4da0b36d8fbb47b6bfb228")))
         (sha256
           (base32
-            "00av8qfxvr9f4jfai7pr7c1sf50m07z6gfxwy3lzvsv6i88s43fs"))))
+            "1m2a9pnbyld37x9dc3wnmfn97rb7z4wg5l6zxx7ppk1ik0q89sps"))))
     (build-system melpa-build-system)
     (home-page "https://thelambdalab.xyz/elpher")
     (synopsis "A friendly gopher and gemini client")
@@ -33389,17 +33389,17 @@
 (define-public emacs-evil-numbers
   (package
     (name "emacs-evil-numbers")
-    (version "20211011.103")
+    (version "20220711.930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juliapath/evil-numbers.git")
                (commit
-                 "08f0c1ee93b8a563770eaefaf21ab9087fca7bdb")))
+                 "61dde4e3715fd1255df8f87a37d9c8022e909bf4")))
         (sha256
           (base32
-            "0pcacrfvvk6ra9dgq84fdcsh5ziwk78k8dmr2c442fvr2lzch4yn"))))
+            "006s8azhypp5n7jnvqkb4rmzqmnsdwj87c3r97zhjzgi2jq953gx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -64299,17 +64299,17 @@
 (define-public emacs-latex-change-env
   (package
     (name "emacs-latex-change-env")
-    (version "20220617.929")
+    (version "20220710.933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/slotThe/change-env.git")
                (commit
-                 "d2b0a2d1830ccddf2c687752e66b2f3048553ca0")))
+                 "4e6f75f678b207b3bb5031c8b2e31f8d577df445")))
         (sha256
           (base32
-            "1040mbp8nlsdsvagmrppml64jqxpcxzp34dskhjxhp7v4z804iwk"))))
+            "1bggvbs9q9yq1p8v188h2hgnhg405n8zjxg8az6h30kpkw8nz04g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -74481,20 +74481,20 @@
 (define-public emacs-my-repo-pins
   (package
     (name "emacs-my-repo-pins")
-    (version "20220705.839")
+    (version "20220711.1300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ninjatrappeur/my-repo-pins.git")
                (commit
-                 "01dacd4b01bef53742b0f79f0e254c4762ebc23e")))
+                 "9e7ff9c2436684ff08a3da0c88371582ffdf31c9")))
         (sha256
           (base32
-            "0djwkgs8h2xgz31lh2bclqvlqhnim5wbadfdhd2qhfvikqgnzcj9"))))
+            "0szifgwswmz47ydwf4c8qrhvaqcrwl6mnwf7w5bxqffdr9cykwk4"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/NinjaTrappeur/my-repo-pins.el")
+      "https://alternativebit.fr/projects/my-repo-pins/")
     (synopsis "Keep your git repositories organized")
     (description
       "Documentation at https://melpa.org/#/my-repo-pins")
@@ -74688,17 +74688,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220707.1208")
+    (version "20220711.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "b52f142b834c67dccc6aacc16c1eb1601664cfc0")))
+                 "9bba468e116869b65391230e029bfab5f2dc5e07")))
         (sha256
           (base32
-            "1gf406swzridm3inhmx26p85l7w1pl8bjli3qy1hznl6d06dw8bd"))))
+            "0bcaxjh7zmcfk6zg0pfnyfh1hq3pn2s8i0qr8m10qsvi7x0qqgyc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -91146,17 +91146,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20220709.727")
+    (version "20220711.836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "3406efb1df99eb0d9469b966a0590c5b6ff949d1")))
+                 "d7560f18350faaee8362aee16481268de3cc6457")))
         (sha256
           (base32
-            "1n1zagkhhhxjykdw8w8360g1fwz922qj3h0siql2n0z4sd2rblaj"))))
+            "12br7pnn01k7hwbcrx9c0dppp2jly7xhif3jrkg1v7mh8cj6sccs"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
