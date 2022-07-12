@@ -28574,17 +28574,17 @@
 (define-public emacs-elpher
   (package
     (name "emacs-elpher")
-    (version "20220711.527")
+    (version "20220711.2344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://thelambdalab.xyz/git/elpher.git")
                (commit
-                 "d31e967beeba40a32e4da0b36d8fbb47b6bfb228")))
+                 "3d9d07495a70cf969150c031881d8f1c902a5572")))
         (sha256
           (base32
-            "1m2a9pnbyld37x9dc3wnmfn97rb7z4wg5l6zxx7ppk1ik0q89sps"))))
+            "1w3505y570fsgab3q6isz0xqgvq1vnvadjj6p9bhdxhdwx1fqsd9"))))
     (build-system melpa-build-system)
     (home-page "https://thelambdalab.xyz/elpher")
     (synopsis "A friendly gopher and gemini client")
@@ -32633,17 +32633,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220617.2157")
+    (version "20220712.744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "ae35410851b91f88acecba60fa1066e69742bf27")))
+                 "9cea83273c1af812e2e3feab1ec13ab54aba25a0")))
         (sha256
           (base32
-            "1z93p5883xhpkpwaqn6ixrdzsjz3v2r85gydx5vq202cbgwpr4f8"))))
+            "10lnf016qf8wb3wxhky2j2hfni58b2d2m1p97v21b0jwiga7bzcj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -67723,17 +67723,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220708.1848")
+    (version "20220712.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9e0280e99b25dcb937af543831e0de0b2142d5e7")))
+                 "5e511babdeda47552e56396dd05dfb86eaabeefd")))
         (sha256
           (base32
-            "0fadsd1l459jyas1aikijwdfgvlycqlq14xvlzh7rhajx0pa0mz0"))))
+            "1gvyl5llx1jysi4jacpblr51sjgfic8pckha0z66asca6k0sj506"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71638,7 +71638,7 @@
 (define-public emacs-mindre-theme
   (package
     (name "emacs-mindre-theme")
-    (version "20220711.1339")
+    (version "20220711.2253")
     (source
       (origin
         (method git-fetch)
@@ -83566,17 +83566,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220709.33")
+    (version "20220712.123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "1b9180f408aa57e8560504a54ae22bdd50909b77")))
+                 "7a6aec1b28416fb4bdda5611f1ca30c77d18a854")))
         (sha256
           (base32
-            "0vgfr6c5ab5rvd3vidd38rhdjgac2g7x15s4ip9p9577pl9a281x"))))
+            "0c40c2g80jy9yw93ahjkm43hfjrv29hkpspx72yfzmnynkv49bg6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
