@@ -16507,17 +16507,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220711.1452")
+    (version "20220712.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "1680f26f1c692743d3c9a38cfd33fcd5d943550f")))
+                 "53e78c6be5c64f9fdeb61c55cbec9a4f56f46adc")))
         (sha256
           (base32
-            "1k3w4c4zdka6whbz6ixj2ji04b9g8ldgk1bliwgz2y517y8ravss"))))
+            "1s64n7hp2g7yb3xc9z9sjs37nb53svzyim77xxgsh9wnrz1jqh8i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -19570,17 +19570,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220705.1958")
+    (version "20220712.919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "5e449c864107e08353fd21c44897c4d480190d94")))
+                 "ad0b8f9d25a7bd82f8fc9694c5406429e8e34d8c")))
         (sha256
           (base32
-            "1kkmg97p4y19czxcb7pc0241658j70qfssqrr8dpk0mzqaxc7mm0"))))
+            "1d8k517darmlwx29v8k1q6ycqq3ji92hdl68ab440hbjkm0mz4cw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22739,17 +22739,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220711.1734")
+    (version "20220712.1152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a9976b7f1bf2d46bf7913dee32c326b38d0090ea")))
+                 "61fe17b805de4593865980fa7a8d5c36887dd96c")))
         (sha256
           (base32
-            "0c9ph9s9lyz4f7ibhl52i516qhxmqxr0iipfiw3c0kxrlh7lym2v"))))
+            "1b1l7dj0hpmm85a91qaqkvcvhl65n5k3hshbb11fqm0rk1kbkfmq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32633,7 +32633,7 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220712.744")
+    (version "20220712.758")
     (source
       (origin
         (method git-fetch)
@@ -67691,17 +67691,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20220510.1457")
+    (version "20220712.1400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "6980fb902c3c7b43ff0d4056a6cd7d8b4709866e")))
+                 "39cda6e693e5caad27453d10759897822678d573")))
         (sha256
           (base32
-            "0v2zj1jrgvx6gwhp414v9jg8j0qz724dv2fh8xwqksl5qjiq6kaz"))))
+            "1j2vsvzsnqv8kc1x7ni3jimibn032yxxcf2wxx3ii3z0w97qpb3s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
@@ -99369,17 +99369,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220625.2008")
+    (version "20220712.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "39029a7e1f059674a9767a9b15514af30ef9f479")))
+                 "e0fa356570451a359d89e93a75ffc91b265c361e")))
         (sha256
           (base32
-            "18hw3dfdfcgfr9i4zya344qzy29liyf0bc383qvqzh0lcsavdx1z"))))
+            "0pq5yl98hd214r45xfchizvid5wnpwacj5abd7ydxj1widgv1m62"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -103308,17 +103308,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220707.1413")
+    (version "20220712.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "9d3d303333e6bcf5a39cd3866f0dc9c95520601c")))
+                 "805c29672c8a1f6c68286ab379359f9ab9ad9dc2")))
         (sha256
           (base32
-            "1wgzldw0lj87kxl7vvgzr0cm2449lw9qzc0v2vf3xapj70k7aqrd"))))
+            "0xw72iizkgvnr99gca05mc7qylpg48j7qn7ilfw6yh8mpghhhj7f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
