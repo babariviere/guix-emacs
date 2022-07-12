@@ -9160,17 +9160,17 @@
 (define-public emacs-bufler
   (package
     (name "emacs-bufler")
-    (version "20210907.1145")
+    (version "20220711.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/bufler.el.git")
                (commit
-                 "a68e0eb2719c67ab8a3ad56c4036364061d06004")))
+                 "23132ffed65d78c0bf5ab2c4c6385d009db496ec")))
         (sha256
           (base32
-            "155g4p2yw88cpc8ydfzybc4r6ab2qwcmzdwkrrhnra4psimahjq6"))))
+            "15zam24zz4pb4zq20wzp3j31cg87fdwxn4bzn9mrm4q466rbldl7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -12763,17 +12763,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220705.1339")
+    (version "20220711.1920")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "7bf500ce67ceacf5e726f5adcf1b46a41be369ab")))
+                 "5b289c47c8b008812419a2f9e1e2616c7ab0bb31")))
         (sha256
           (base32
-            "1cl1fn3wvfw19mi0h62lhfd25pqknmszj54li3dnimia4nlgg4q3"))))
+            "0a7sz592lz6ji6wfnaadbi5acm5f7h45f4pnblqyx6dzw934r517"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -16507,17 +16507,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220701.1352")
+    (version "20220711.1452")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "ef4b83cf7d1538840a698fd8e44fcd1e6fdeeede")))
+                 "1680f26f1c692743d3c9a38cfd33fcd5d943550f")))
         (sha256
           (base32
-            "1apm2d7h0swhawj5wcwszw9zl3rw8vv8nkz6cx5inx8wyk6gcc33"))))
+            "1k3w4c4zdka6whbz6ixj2ji04b9g8ldgk1bliwgz2y517y8ravss"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22739,17 +22739,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220711.820")
+    (version "20220711.1734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "b2a4da610bd06ec092b715a085895c11aa3f340b")))
+                 "a9976b7f1bf2d46bf7913dee32c326b38d0090ea")))
         (sha256
           (base32
-            "0izfcb84ypbv839ykkar4wr94v9ffkb8xi1xkzn3fyqjnsl5vj0z"))))
+            "0c9ph9s9lyz4f7ibhl52i516qhxmqxr0iipfiw3c0kxrlh7lym2v"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25451,17 +25451,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220621.2116")
+    (version "20220711.1845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "d882c2e9ea1bf4cc7dc98bc426e3b3fe563149fd")))
+                 "43f4e50d8e20c87f279da1a7317977297387bff1")))
         (sha256
           (base32
-            "14pk3l0qhk219msxx6wxpf29dyx3kjcj769lcqyb5g05lclw9531"))))
+            "1a2pjnfk3yk7r13avjv4xcmq0ld1lw78ngifn9khpl28kd9fgv74"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -49157,17 +49157,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220709.1922")
+    (version "20220710.337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "aa2ece8aba6f95984e391e35360c824aafac25d6")))
+                 "68f4dde811fa3255070968932639c8c8180086fd")))
         (sha256
           (base32
-            "0pnja0ckk1jldmryn0ix0l5jdq17wlrdp5ya6brw1a9ra21cfiyp"))))
+            "15jv15lxbhliq8z27g9ahasvvb5vk17rsm7knl2a76v7xyvz40ly"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -71638,17 +71638,17 @@
 (define-public emacs-mindre-theme
   (package
     (name "emacs-mindre-theme")
-    (version "20220711.55")
+    (version "20220711.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erikbackman/mindre-theme.git")
                (commit
-                 "9eaf0a3e8611d9441c8db6d7c56b62325e5a8a1b")))
+                 "06e7e2401a79425b9c02bb44cb995a8e79077d68")))
         (sha256
           (base32
-            "00j1lv0741bask3wlyc8wyi3wyf7lzxki4y1kvaff17khpnv72rs"))))
+            "0rw8m675n7fvk6gplcs72yf63h8ik4x1kpywlq4rwzw5izf58d16"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/erikbackman/mindre-theme")
@@ -81874,17 +81874,17 @@
 (define-public emacs-org-ml
   (package
     (name "emacs-org-ml")
-    (version "20220706.2150")
+    (version "20220711.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ndwarshuis/org-ml.git")
                (commit
-                 "a2f710129e102dba03004c4bdd84dd576dd98f2e")))
+                 "385e3bee497f858705144d7ab5e6570d31d3ffe8")))
         (sha256
           (base32
-            "0fa39a7mc2v6288gql5l76jhacgzi1lcrphfdxdpz6zg425rdxsj"))))
+            "0j506lp3lgf9iz94ag041bpdcr837j5lmbazq7v3brblm43dvh9p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -82809,17 +82809,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220612.1243")
+    (version "20220711.1417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "21c7b6f20a6b263df3fd40a0a168ed8ec2715021")))
+                 "028977fa52d57ca38ce1af1dd391032a8ea1c67b")))
         (sha256
           (base32
-            "0c3yx07wwi6xkixq5j23y9v6w56clsq20sywnj0cgakrfp2cw8sr"))))
+            "073xp91412zak0h36z1ac2k6jb4vdg4vzn566qrwj1hikcwcxzj5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
