@@ -6444,17 +6444,17 @@
 (define-public emacs-base16-theme
   (package
     (name "emacs-base16-theme")
-    (version "20220709.727")
+    (version "20220713.402")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/base16-project/base16-emacs.git")
                (commit
-                 "310d0a966f9120997c80476c42043c1023f835e2")))
+                 "6f37e4a849a84a41c4404a15d1bac57cbf912324")))
         (sha256
           (base32
-            "1qm53gn69bgpkpbsyqzk8aqk4xk87gyyasgjrx5jyrqiysyr6xvq"))))
+            "0y0yw6wnsfkmv8nrl2a0v6l0aiqc9bjhiwxjz4l8ncbp0gkvad1y"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "build/*.el")))
     (home-page
@@ -22739,17 +22739,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220712.1634")
+    (version "20220713.608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "40b6cf0baea8813481c5e359404547ce1eee7fa9")))
+                 "6e69f7662ed7e0f7ee7bb859d3ee5ceaccf9c31f")))
         (sha256
           (base32
-            "0dxixmwq4hlp6glw59hzn1xmla6bhjvjh484mxdlx3a85q84nxik"))))
+            "0i3amizcnmxas0lcwbaklq6v0yqjdazs18xix1gmdmfc1ymy8ndv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -42608,17 +42608,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220709.2135")
+    (version "20220713.23")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "03a1ef1231a4ad8b59b02d6b44bc027b1b4b8781")))
+                 "314280ae62a907004ce82f8bbbddf8feca497e95")))
         (sha256
           (base32
-            "1rjm8lzmhbcvzpk0k9g9da0r8lkfv7p46dh0yrbnipz1c08qszx3"))))
+            "062lg7a6bb57zr1rcisk8hxagm2jd5ywphm881q87c8vkfhki2ar"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -61839,17 +61839,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20220702.1411")
+    (version "20220713.216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "2ef6514fd9534610c806f4de4ab1f7652e3cb731")))
+                 "fef0df66e1de1733c4df706d76a4fc29788fe251")))
         (sha256
           (base32
-            "1vczn9qb12j1070s8fvq2b7h9qbk24x3h2h2mbbxb6giwlg76gb8"))))
+            "1fk67c3cwv0iz0vkn9jaclvhzdsk3j5w13n51sigxgflhdpbr77h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -82449,17 +82449,17 @@
 (define-public emacs-org-preview-html
   (package
     (name "emacs-org-preview-html")
-    (version "20220228.414")
+    (version "20220713.151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jakebox/org-preview-html.git")
                (commit
-                 "cb85524d5090b8189e965cc49d65be04650c17c4")))
+                 "220d7ea93945581a9ab9fa7b43c67070bb5680a4")))
         (sha256
           (base32
-            "1ikcsn970pf5m30h6bqshykpnwpn7vwyyi9ymk3fv6pxh772x5wc"))))
+            "15z6hijfg28p5siz9iqyknpfs77j5c9hvmxmmdhazisb99v0iq0k"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jakebox/org-preview-html")
@@ -120331,17 +120331,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20220709.1653")
+    (version "20220713.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "bdfaa8ce5588445e1798e14242a027af46795f2c")))
+                 "0ac7f365bb6b4507259b31679bb37ac291e1f1c7")))
         (sha256
           (base32
-            "0n8d2p4x7yvqg4756p671p5psrmnphxqjajv9bfll43rs57dd2bv"))))
+            "0n0cf5y862ajyf2q0pnvbkhg57ggsri33x8y4q99s0a17ksk4qrm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
