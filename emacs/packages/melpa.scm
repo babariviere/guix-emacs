@@ -380,17 +380,17 @@
 (define-public emacs-abc-mode
   (package
     (name "emacs-abc-mode")
-    (version "20210508.1552")
+    (version "20220713.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mkjunker/abc-mode.git")
                (commit
-                 "80fa954787b57d14e21e19bd65e52abab1686f4a")))
+                 "45193b67508861cf77da7e76b71711855c002caa")))
         (sha256
           (base32
-            "0x7y2r5kijzg33jqlwym8lw1ivx00j3g7lzbl171wzyy3qn15bk5"))))
+            "10i8wkzwngflfzbwmqv5gv6jzh5v5j7yh1364xdygg4xpnf7qdnv"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -20626,24 +20626,24 @@
 (define-public emacs-define-it
   (package
     (name "emacs-define-it")
-    (version "20220704.647")
+    (version "20220713.744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/define-it.git")
                (commit
-                 "004f24aff4ff12113e2fb9365640526bdf0a6f22")))
+                 "de026f399d5b7fa9286f7733b2e3416c6f234372")))
         (sha256
           (base32
-            "093mns305xivb5hf514541pfvr3kj1cmg8bm280z7yr6b870ch3v"))))
+            "1dhf64sb0ja5bs7zfbzkwk40ccqmb35kv3cdhshlmdf9d9fj9jv0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
-            emacs-request
             emacs-popup
             emacs-pos-tip
             emacs-posframe
+            emacs-define-word
             emacs-google-translate
             emacs-wiki-summary))
     (home-page
@@ -22739,17 +22739,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220713.608")
+    (version "20220713.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "6e69f7662ed7e0f7ee7bb859d3ee5ceaccf9c31f")))
+                 "ec051a01b11ced661afd8b004fd5c161a811251e")))
         (sha256
           (base32
-            "0i3amizcnmxas0lcwbaklq6v0yqjdazs18xix1gmdmfc1ymy8ndv"))))
+            "09k3k32vkm1abvhz3b6zaszjdn70va4l1cg7f6kghl5f9szh6ypk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -70032,17 +70032,17 @@
 (define-public emacs-markdown-soma
   (package
     (name "emacs-markdown-soma")
-    (version "20220704.200")
+    (version "20220713.1438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/markdown-soma.git")
                (commit
-                 "0bc5fcaeca919f0ce639eb7e6565a70de5189712")))
+                 "507ca274e901aca86cdf84b03218dac3df920812")))
         (sha256
           (base32
-            "006dxldxi296w11s2cq58gyqbx1pwgyi7lrprpwiwjdcwn47aag0"))))
+            "1skb7dkpn5s2kv114qysj7h7cwff7diqhfzc322wmj5lbwdicxv5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -71335,17 +71335,17 @@
 (define-public emacs-metrics-tracker
   (package
     (name "emacs-metrics-tracker")
-    (version "20211026.1347")
+    (version "20220713.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ianxm/emacs-tracker.git")
                (commit
-                 "115f6de4a01b9e10936b7e6d1fdadd3770bae391")))
+                 "b524398c768227bc14fd12c833dcd4e22d66efd3")))
         (sha256
           (base32
-            "11jdk260j9axi4f852vzgzqfb0kpl3hry02wfbhba3qp5bff2j7m"))))
+            "1fz3mvgmn94a3csfhlwgagqpr8838q3jxl3l89zsa9sjmbl4cyfj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ianxm/emacs-tracker")
@@ -72610,17 +72610,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220711.501")
+    (version "20220713.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "fc936326f9486cfda0c9113dc4a3054e9971447d")))
+                 "bee9dda7ac94f985f9ad7545b985dc50569b4eb4")))
         (sha256
           (base32
-            "03mdmv2f099578ajmhdnaw50h7wywg18pp28a39rvp3rigfyiqfr"))))
+            "0wqxniqk3x022lmaw1hfpqxqgbxbijyfc53hnizdjl3bxbf25csb"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -83041,17 +83041,17 @@
 (define-public emacs-org-roam-ui
   (package
     (name "emacs-org-roam-ui")
-    (version "20220225.2151")
+    (version "20220713.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-ui.git")
                (commit
-                 "df1f9522c5a9cdb248208427fa9df4f2a7666e2a")))
+                 "2cd93bfa517d51b4c97d42817713ca5ce61cb0df")))
         (sha256
           (base32
-            "03kyg95f012ql0gpzy58kzxgdfksig5zlbr1p9m9ycgqmmxyq4jp"))))
+            "10p9fyk4y5qsg06y2mw0lacjpf1kkjgwrvc8cjcj4xcyka2lz9jf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -102790,17 +102790,17 @@
 (define-public emacs-simple-paren
   (package
     (name "emacs-simple-paren")
-    (version "20220207.2007")
+    (version "20220713.902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andreas-roehler/simple-paren.git")
                (commit
-                 "a454901635dfe4142d8c4f0153e737ddc778d708")))
+                 "05331d19942f48e2fc857a07152698d5a6eb4780")))
         (sha256
           (base32
-            "0b0ix9h5in324bbyv9q9l9xrifpfhjs6zhr6r5cadd36iip40r6g"))))
+            "0lsv3b9fc527f79a19j9qjpagf6jw15y88bh1rgvvf96rhfizvij"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/andreas-roehler/simple-paren")
@@ -103575,17 +103575,17 @@
 (define-public emacs-sly
   (package
     (name "emacs-sly")
-    (version "20220603.843")
+    (version "20220713.1433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/sly.git")
                (commit
-                 "b501b4335096fd4306c2c1eb86382b69e91c09e5")))
+                 "ef5211456a59d639c98b2ed42428726d32728ff8")))
         (sha256
           (base32
-            "1naj8cm0rd4pimrncmv6dka73l22avypclhr00dmpnh174vizpnp"))))
+            "02wmkfysrix7a1915f1lp1v3v3jpl4xh6bnzd5c4jcl8mj3vypn9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109542,17 +109542,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220706.1546")
+    (version "20220713.758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "1080f10d1f87ea8f096ff451be831b953e4ccb98")))
+                 "4da9c7a1517fba0ff0ce76fef4c50c7d493bb4a7")))
         (sha256
           (base32
-            "0qpn4iz6ryrf2h508iqgib8b1a0w7fp1w2j5q6rqyzng72r073lc"))))
+            "1lp8jvh7b68p6aldqyfg8qx5a6f43qzahm16c49j2l5h00czmkzr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -111477,17 +111477,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220710.1130")
+    (version "20220713.748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~tok/tok-theme")
                (commit
-                 "b978cc6078145c0e847630386e362bf952beb3f2")))
+                 "3c88eca01a7978c8e425b714346631227e68f3e1")))
         (sha256
           (base32
-            "117fsvir0blqbvgmbwspx0fpk9wkh12kd9wx5049v8bv8lsgngnz"))))
+            "0bnmx2iaa9sgkaxlv5dd2kmfrwli5zdnq1f8fi45yqqnfy9nxxnz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
