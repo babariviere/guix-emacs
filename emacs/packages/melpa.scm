@@ -5449,17 +5449,17 @@
 (define-public emacs-auto-virtualenv
   (package
     (name "emacs-auto-virtualenv")
-    (version "20211215.907")
+    (version "20220712.1612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/marcwebbie/auto-virtualenv.git")
                (commit
-                 "07064e05feb62277991b8a7c04f7cdad50acaddf")))
+                 "92bc2cd7cb401ab0643e9ca037c4d225ba45a7c1")))
         (sha256
           (base32
-            "1f1fi57dc19mp1cbkg7xh62g4xpqc3i0pzqpjkg8m5361gb67qz4"))))
+            "1lzjk451fbz0lh0lls3xdy9s6gi4x3c352s98jq6wi12nwp2bil8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pyvenv emacs-s))
     (home-page
@@ -22739,17 +22739,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220712.1152")
+    (version "20220712.1634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "61fe17b805de4593865980fa7a8d5c36887dd96c")))
+                 "40b6cf0baea8813481c5e359404547ce1eee7fa9")))
         (sha256
           (base32
-            "1b1l7dj0hpmm85a91qaqkvcvhl65n5k3hshbb11fqm0rk1kbkfmq"))))
+            "0dxixmwq4hlp6glw59hzn1xmla6bhjvjh484mxdlx3a85q84nxik"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -59944,17 +59944,17 @@
 (define-public emacs-jabber
   (package
     (name "emacs-jabber")
-    (version "20220601.403")
+    (version "20220712.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/emacs-jabber/emacs-jabber.git")
                (commit
-                 "e93665085c06ef587b4739b2bf475db6f469bd00")))
+                 "28353b2a0daaf6fef5b170745b52257816a52774")))
         (sha256
           (base32
-            "03sg7868xxlqg3rjxx7sgj3gdk7lqga6j7hsp2ydl5wji4vvq3l1"))))
+            "009b5y1f52drw6d6xklsgj13blrvqq02fwzk2yzclh3192yy5kql"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fsm emacs-srv))
     (arguments
@@ -60203,17 +60203,17 @@
 (define-public emacs-java-imports
   (package
     (name "emacs-java-imports")
-    (version "20211006.2153")
+    (version "20220712.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dakrone/emacs-java-imports.git")
                (commit
-                 "7535a36d85497448a6e83579b822beaca7251ccb")))
+                 "bbb173c319a32b46680b5c0bffd72b607ed7b71a")))
         (sha256
           (base32
-            "0zny134wxbwf4igzg9s4f4505hgjb7hy5l9ycqhl7l0ss2baz19j"))))
+            "1wg8g4xf2gc9zalckkn35f49kl8ds2jqxqiiynk18r248axpkxkb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-pcache))
     (home-page
@@ -80109,17 +80109,17 @@
 (define-public emacs-org-anki
   (package
     (name "emacs-org-anki")
-    (version "20220710.1144")
+    (version "20220712.1916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/eyeinsky/org-anki.git")
                (commit
-                 "f51f85d6d4dbb2b59a324b7ef177de3480ba9d20")))
+                 "4c3b27efe8eed9a9c8b5636fb15b86975ef7e00e")))
         (sha256
           (base32
-            "1rmgrpyd26dqvw7g9f8nb473lr598zi230dhac9jqyarjgi7v1s7"))))
+            "19vig86ivx4gycfa54yi8k66zkp45sp8b082673xkmhrvvnnjm0a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-promise))
