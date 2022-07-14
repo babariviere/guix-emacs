@@ -23805,17 +23805,17 @@
 (define-public emacs-doct
   (package
     (name "emacs-doct")
-    (version "20220529.1851")
+    (version "20220713.1659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/doct.git")
                (commit
-                 "8464809754f3316d5a2fdcf3c01ce1e8736b323b")))
+                 "15974ad8d4d7baa071b5ea33877e9dc117c4153e")))
         (sha256
           (base32
-            "01sjb41kii5hhh7gdd132k4iaqqfd0psy9hlc3bi7g4bplp7h7gf"))))
+            "0cz0anbp286pcm9ymjlax5p42ifnkkmpcf9q396zl20vgm8xgdib"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/progfolio/doct")
     (synopsis
@@ -23966,17 +23966,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220706.1447")
+    (version "20220713.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "1d1f37c0a73eb131c2fbd44b6b08237760dd4e43")))
+                 "9d35a33ef36447d34a35e313dc4454c2b17b16eb")))
         (sha256
           (base32
-            "0pkmk1jvzdb2l1y7fq0ka4zrv1d4xal3rcjrjc3m8jynk00g681x"))))
+            "0gqfbhaciqg7jg1q9vclv8f55nca2smgd5razay4z3wjm82y768l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -59944,17 +59944,17 @@
 (define-public emacs-jabber
   (package
     (name "emacs-jabber")
-    (version "20220712.1643")
+    (version "20220713.1538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/emacs-jabber/emacs-jabber.git")
                (commit
-                 "28353b2a0daaf6fef5b170745b52257816a52774")))
+                 "af0315e174fa6446d5c4dd3e6465d48912950e58")))
         (sha256
           (base32
-            "009b5y1f52drw6d6xklsgj13blrvqq02fwzk2yzclh3192yy5kql"))))
+            "08q0hbm4pvp8sf261w1ihqa93sg8blfybfkhq7wrnvgs6kasgwvq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fsm emacs-srv))
     (arguments
@@ -92970,17 +92970,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20220707.758")
+    (version "20220713.1618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "0ee2b759391fbd5f82a5831c891aab1890aa2ea4")))
+                 "c366365aaddeb3a65dc0816c8f93ec209dc9de44")))
         (sha256
           (base32
-            "127cfkjvch74ffrai0362y7gfpmny8ry0mgkl7cc3ddasv1paj3i"))))
+            "14ll3gxjcw8ghpnhsyk1vpc0ffba0nmm8sz3hq6ddwq2nja5w96x"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -105046,17 +105046,17 @@
 (define-public emacs-solidity-flycheck
   (package
     (name "emacs-solidity-flycheck")
-    (version "20210411.758")
+    (version "20220713.2146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethereum/emacs-solidity.git")
                (commit
-                 "7f239128a15b2baf47be0f8c88f1f533f3114071")))
+                 "211dbdf0dfab1139681156e6f9621a5bbe0f74a1")))
         (sha256
           (base32
-            "14757wph4ik09ni97h0r0nkscwp23l2ksb8f988q3bwlw59ay97z"))))
+            "14mpncf9mpypcinfvzhmvnjlxf5laxxwnf02qjdagiws42lgwm2f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck
@@ -109542,17 +109542,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220713.758")
+    (version "20220713.2342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "4da9c7a1517fba0ff0ce76fef4c50c7d493bb4a7")))
+                 "11c0c785ed9e479b65514a10022d5c34984aab59")))
         (sha256
           (base32
-            "1lp8jvh7b68p6aldqyfg8qx5a6f43qzahm16c49j2l5h00czmkzr"))))
+            "0g4lk0lp4hj05hvl7pyxfc9lpmaknlr85h71sawpnvkr8853v2as"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -113072,17 +113072,17 @@
 (define-public emacs-tuareg
   (package
     (name "emacs-tuareg")
-    (version "20220630.1742")
+    (version "20220713.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/tuareg.git")
                (commit
-                 "0dedb350690cf5ff2b89d4c23a8103404fa793f9")))
+                 "85472b109a2f8d340ccbb9cc66f25de080a71593")))
         (sha256
           (base32
-            "1psf540asrpirq4xnp08wrh7489k4bjz033i15d6p8i2vz5l991c"))))
+            "0jagmilnz231mj5n67sh9xnysnw07kvaq100sb0vnayr1knlx9b0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-caml))
     (home-page "https://github.com/ocaml/tuareg")
@@ -114079,17 +114079,17 @@
 (define-public emacs-unicode-fonts
   (package
     (name "emacs-unicode-fonts")
-    (version "20200803.1335")
+    (version "20220713.1837")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rolandwalker/unicode-fonts.git")
                (commit
-                 "47f2397ade28eba621baa865fd69e4efb71407a5")))
+                 "44d0a22420c39709d1e1fa659a3f135facf3c986")))
         (sha256
           (base32
-            "1c9byhlkzjvijhl7izwxfp4z6dwism4np4m8705i23ccrpf039jw"))))
+            "00qdwkphwpc5kddn3k3ck1isykbhlvqmfb45877a65274am79pd7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-font-utils
@@ -120646,17 +120646,17 @@
 (define-public emacs-yasnippet-snippets
   (package
     (name "emacs-yasnippet-snippets")
-    (version "20220401.1534")
+    (version "20220713.1234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AndreaCrotti/yasnippet-snippets.git")
                (commit
-                 "c5bf4c4085aa61b9c07563de89f7aacc2a357db5")))
+                 "cd665c9cba4bab646f6d50ac098bee63573a4ca5")))
         (sha256
           (base32
-            "12kvg1nl93893pwhhx49a78camb8m8yzrgn6wg7kh9y50bqmh9ma"))))
+            "113yn1imk8pffn3vyqbjmg7j64x0y0dgqx56jss8wbf17nzck17w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (arguments
@@ -121596,17 +121596,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220710.2020")
+    (version "20220713.2002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "84805842febd76cce71ca66bce01f54aba7cd8b3")))
+                 "bc8b849138034bb6c80606a14e0691c1707b92fe")))
         (sha256
           (base32
-            "1b1mf75dm92cymcdrdb7lzc3f0cl28idm05n0jy68q72f5wah3gr"))))
+            "0n6b3d88j64daipg8sswwf1829n960i3f3jfkfslhizdny8vk024"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
@@ -121619,17 +121619,17 @@
 (define-public emacs-zk-luhmann
   (package
     (name "emacs-zk-luhmann")
-    (version "20220709.1530")
+    (version "20220713.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk-luhmann.git")
                (commit
-                 "c8d7fdcbb2684e7e62d1a6e7de93612f732b6a69")))
+                 "566fa6a5933455a3f42f700bc91f9f9958878861")))
         (sha256
           (base32
-            "0srj2la822hiz94yr5ylrlqkcdr6j8laxx6s8ghvhg9qmcqi143g"))))
+            "15h28v1aljbwril0mx5swk6vy0972qymxiki2y7a6wsczx252zrh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zk emacs-zk-index))
