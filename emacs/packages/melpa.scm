@@ -81690,7 +81690,7 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220701.359")
+    (version "20220605.239")
     (source
       (origin
         (method git-fetch)
@@ -83566,7 +83566,7 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220712.123")
+    (version "20220602.940")
     (source
       (origin
         (method git-fetch)
