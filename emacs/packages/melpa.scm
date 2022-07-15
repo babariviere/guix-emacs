@@ -10429,17 +10429,17 @@
 (define-public emacs-cask
   (package
     (name "emacs-cask")
-    (version "20220628.1540")
+    (version "20220715.1113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cask/cask.git")
                (commit
-                 "f72c8b6bd25c7a648b7422c4030ae95352e55eae")))
+                 "10a3b656a6b361589c2e7be70766f6ca3589fc25")))
         (sha256
           (base32
-            "01y9ckinwdgcfa5dvp41wljijv8c34jv41ip0mhg00im8mfjgai2"))))
+            "0xpp15yj810nww0932ic7ni3z18hkby3wh8sqrsix58hnpic6blk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -26419,17 +26419,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220714.1447")
+    (version "20220715.1158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "c64fe76e866d6ab38bb7ff7283b766a48c116440")))
+                 "33c464f658de70f36c27237d57b9c9858c68bc81")))
         (sha256
           (base32
-            "1zwff92binnjrssqk8raam8m1vs004009d7sw67zhs2b6yw5d1q9"))))
+            "1qplg6ilrr5p28mn3jflqkidz04s475q2nl53qdfh2mvhviwwklz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -28573,7 +28573,7 @@
 (define-public emacs-elpher
   (package
     (name "emacs-elpher")
-    (version "20220715.458")
+    (version "20220715.612")
     (source
       (origin
         (method git-fetch)
@@ -38363,17 +38363,17 @@
 (define-public emacs-flycheck-hledger
   (package
     (name "emacs-flycheck-hledger")
-    (version "20220323.726")
+    (version "20220715.1115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/flycheck-hledger.git")
                (commit
-                 "87b275b9b3d476b5f458e85e760f3f7fa3e66775")))
+                 "c360025b8433abc4da89b0bfcc7ed1ff27004c64")))
         (sha256
           (base32
-            "0l4xqrjzz2spld624zsnnx7bqsiyqhfd3wixcjh7rjshiaf5vhb5"))))
+            "1q5fggyshzm6r3cg2wdrj5zx2jskx2dn0kdwdwmw6k0vvx0anxh4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -57645,17 +57645,17 @@
 (define-public emacs-inf-clojure
   (package
     (name "emacs-inf-clojure")
-    (version "20220603.1523")
+    (version "20220715.905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/inf-clojure.git")
                (commit
-                 "8f295050a856b03d6ec14f0fd5e782e7acde6e2d")))
+                 "67b0403aa183d521e36545266100f1f62a34e783")))
         (sha256
           (base32
-            "0gm2psay483202vjzf27gvlmy7l2y8gawwviv5rbfbsxyb4l5xrm"))))
+            "0446ip809xzyb4n1dz3sm5d90y0lwgvd661h3cjybakpphykzcb4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (home-page
@@ -74687,17 +74687,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220711.558")
+    (version "20220715.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "9bba468e116869b65391230e029bfab5f2dc5e07")))
+                 "44204a9d0dabe1553c28310f6d2d78f144c08990")))
         (sha256
           (base32
-            "0bcaxjh7zmcfk6zg0pfnyfh1hq3pn2s8i0qr8m10qsvi7x0qqgyc"))))
+            "0ba20v82m5sy4ya7aiwldvnsnlkfw71grgfrw4cn5xwz6qihl809"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -82808,17 +82808,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220711.1417")
+    (version "20220715.1202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "028977fa52d57ca38ce1af1dd391032a8ea1c67b")))
+                 "ebe3bb6f58350ac10da73e583d3ad1078f0690e2")))
         (sha256
           (base32
-            "073xp91412zak0h36z1ac2k6jb4vdg4vzn566qrwj1hikcwcxzj5"))))
+            "03z215lmca2xcsfcdb1vfhnhdh178rm0hfbhp89qpxa3hrmx92i5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -91377,17 +91377,17 @@
 (define-public emacs-pos-tip
   (package
     (name "emacs-pos-tip")
-    (version "20191227.1356")
+    (version "20220715.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pitkali/pos-tip.git")
                (commit
-                 "179cc126b363f72ca12fab1e0dc462ce0ee79742")))
+                 "bfe74204d1201a33ace81898e7c485382817510a")))
         (sha256
           (base32
-            "1rz6lqmhs7l49cwwqs7gl2i49l3gvziz1gs556jzsic7jzf9xk1j"))))
+            "1vmmnajdmfaq9psrgv0fd0qf739201qaihhwg5qbqvbm86v2ns1f"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Show tooltip at point")
@@ -99368,17 +99368,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220712.1131")
+    (version "20220715.1010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "e0fa356570451a359d89e93a75ffc91b265c361e")))
+                 "baef1faba8c73587455f8582ee6ba3ef32077a69")))
         (sha256
           (base32
-            "0pq5yl98hd214r45xfchizvid5wnpwacj5abd7ydxj1widgv1m62"))))
+            "0vbwcbslbmrh3jmwb2m2jk394s0jnbsw26lmcg0fs17byxfzssv4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
