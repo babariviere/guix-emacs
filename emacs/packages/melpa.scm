@@ -12199,20 +12199,23 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220710.1109")
+    (version "20220715.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "96a567d70bae00118187c77051159df95c33f2dc")))
+                 "c05dce095f340b1ab91434e17eac06b40911fd2a")))
         (sha256
           (base32
-            "0ks4llnh0gix8biby8jcp8fg6cvpibdgba7nigxfhilabwlnwfnb"))))
+            "010a5azp8ycwar643b5n6d57y7yrhl80scrkml6mjinm95s6snz7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
+    (arguments
+      '(#:files
+        (:defaults (:exclude "citar-embark.el"))))
     (home-page
       "https://github.com/emacs-citar/citar")
     (synopsis
@@ -13036,17 +13039,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220706.1132")
+    (version "20220715.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "d82417cf86644a4135c6d764aa901f69045fd5ca")))
+                 "fee38d780f7d0b2a42a441e4d8bcfaa4fa672983")))
         (sha256
           (base32
-            "0blans78dwbp5rj6jg6nmcsm818vrmwfvddwgic9fm2x13aq423q"))))
+            "1ck9d8jzs6m5qvg5bnx9i7d94icsfl4698p66vxsn3yqclhc8yzz"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -13059,17 +13062,17 @@
 (define-public emacs-clojure-mode-extra-font-locking
   (package
     (name "emacs-clojure-mode-extra-font-locking")
-    (version "20211230.817")
+    (version "20220715.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "e31186843d06ea86f3771244d1cde0112f9e2079")))
+                 "fee38d780f7d0b2a42a441e4d8bcfaa4fa672983")))
         (sha256
           (base32
-            "0dlbwz0vkn2sf394r86s7vbc78jkq7wd3ldziqkwf57ci2068nyi"))))
+            "1ck9d8jzs6m5qvg5bnx9i7d94icsfl4698p66vxsn3yqclhc8yzz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (arguments
@@ -16506,17 +16509,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220712.1046")
+    (version "20220716.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "53e78c6be5c64f9fdeb61c55cbec9a4f56f46adc")))
+                 "0fa264c2efc17e564af406d60dbe77ae2fb6f010")))
         (sha256
           (base32
-            "1s64n7hp2g7yb3xc9z9sjs37nb53svzyim77xxgsh9wnrz1jqh8i"))))
+            "13ilnd2599m3sfkbcm9y858qg9l0v1835g89sxbakm9k2mnm7ysl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22738,17 +22741,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220713.1048")
+    (version "20220716.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "ec051a01b11ced661afd8b004fd5c161a811251e")))
+                 "b8b114d0bcb2ddac7a14a37575f9ce89b5c44f8c")))
         (sha256
           (base32
-            "09k3k32vkm1abvhz3b6zaszjdn70va4l1cg7f6kghl5f9szh6ypk"))))
+            "0fmwq77s45ccyvfpz9h4ha62b18vmkf1z61fq5074caijb7maibw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23965,17 +23968,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220713.1904")
+    (version "20220716.514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "9d35a33ef36447d34a35e313dc4454c2b17b16eb")))
+                 "7003009213fd1433e47240e5387b84e6cbb7d350")))
         (sha256
           (base32
-            "0gqfbhaciqg7jg1q9vclv8f55nca2smgd5razay4z3wjm82y768l"))))
+            "0gaqfqk8k8k93r4wcv624507ggmlch596kcxr8mq2mb0dzjmmxmw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -27253,17 +27256,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220628.1756")
+    (version "20220715.2010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "cf837cf05575c1c77c316eadac603a3edace8e5f")))
+                 "0d2f46eb41180ada741725f9ea2e1272491591c4")))
         (sha256
           (base32
-            "08zf46w1yrj91lmg9x2l53cj1pqxjq8a05dsy8f6nbmc8wnx4ic6"))))
+            "0c87rb8r2ghhj49xdjpiqq4b8222mi3bmmc97m63844zii1fjsc5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -34099,17 +34102,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220701.1325")
+    (version "20220715.1530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "d6dae906079e46db6e90ebae7ea337ffe6b55dbf")))
+                 "9dce8dab68c954ae32095328cf898eb856fc341a")))
         (sha256
           (base32
-            "01i4gr8358hva2d9xsd4d4881gjgfyd8s4w8kjlkbvg9zykfq4mj"))))
+            "08s2za167a76p6z40cdpi1b10968sf4mvwgm0sinvqh26pqqz9n4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -49156,17 +49159,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220710.337")
+    (version "20220715.1758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "68f4dde811fa3255070968932639c8c8180086fd")))
+                 "c451a06123fc90f949b7f734944b80c44033db4f")))
         (sha256
           (base32
-            "15jv15lxbhliq8z27g9ahasvvb5vk17rsm7knl2a76v7xyvz40ly"))))
+            "1cr78z6m99zyfps5zjfhcrkzk7mggrxwc78wdf7kmpb8yj4hg16k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -55171,17 +55174,17 @@
 (define-public emacs-howdoyou
   (package
     (name "emacs-howdoyou")
-    (version "20220715.552")
+    (version "20220715.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-howdoyou.git")
                (commit
-                 "faf2b8a1ef0c6b5a12250f8bde7ca0b3a879ce21")))
+                 "f6c659a45f59a08546578c169524a12f0945c29b")))
         (sha256
           (base32
-            "0iphcavg9yndkra4c7lln5p175vfx9p568dvmk93ffl3aq6p7ccg"))))
+            "1iljws88j4jdqxyzcgssak3sra54645my8ls4n8lf6fygcnbvg2c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-promise emacs-request))
@@ -63677,17 +63680,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20220704.1457")
+    (version "20220715.1717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "d2559c3c506372ab06e495f97034537eaac0f6e6")))
+                 "8163fd38015cbde0485f6eaab41450132bf6e19d")))
         (sha256
           (base32
-            "1y2vlwfgvayn9g3zkcx05a3m6ybjcsyr3vdacqmssmd9k9nwncws"))))
+            "06p5qz4h5ar86vv4nzpw08x18fjvs2zg5brx55h80hjdgr89b771"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70031,17 +70034,17 @@
 (define-public emacs-markdown-soma
   (package
     (name "emacs-markdown-soma")
-    (version "20220713.1438")
+    (version "20220716.347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/markdown-soma.git")
                (commit
-                 "507ca274e901aca86cdf84b03218dac3df920812")))
+                 "f78ffe4ef3e2f4ce8af818c719148b17acf51097")))
         (sha256
           (base32
-            "1skb7dkpn5s2kv114qysj7h7cwff7diqhfzc322wmj5lbwdicxv5"))))
+            "1l0dahrd9dlimja1m0l9qxjynpmy27aic0xmn29jgca949c0qj8z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -71051,17 +71054,17 @@
 (define-public emacs-mermaid-mode
   (package
     (name "emacs-mermaid-mode")
-    (version "20220426.1631")
+    (version "20220715.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/mermaid-mode.git")
                (commit
-                 "1a6526bc68561b7da6a612152b842a41ffb0aa09")))
+                 "938f8ed7e6deea7c255414ab62d1478afa1ac07b")))
         (sha256
           (base32
-            "1l8vcdsgqgfbd5lp3jjjbcpxcrvgn7bz4q9g6hxqrcvkzj0radv0"))))
+            "1vydm5vfqnqr4m7fvd18pcqwy9jajcxs1d6rrhvg8ba1r06ka91r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -77421,17 +77424,17 @@
 (define-public emacs-ob-ada-spark
   (package
     (name "emacs-ob-ada-spark")
-    (version "20220515.2014")
+    (version "20220715.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rocher/ob-ada-spark.git")
                (commit
-                 "b4f16b255947240e458127e5c737d793ac894ac1")))
+                 "38b72a41c12f8b6e6ba47f9136affa956123d73e")))
         (sha256
           (base32
-            "1vfkp4k5wz6aqq13f8p3la825q7qa3q1m05s2a5mdffn2r7f7nb9"))))
+            "159cjalj49w9kj603lqkxjchpq3zvlqssdi0nijwddsdf9qsd3sy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -82547,17 +82550,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220714.1805")
+    (version "20220715.1850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "a986e360c336f076e4051668ecb120ddf0e06e62")))
+                 "98b6049eccc4f3b19700d27a86f22d4428013501")))
         (sha256
           (base32
-            "0idynnag4fy798xp3rc7wxpyalv80ypvx7wfpaaxcji124k58r7n"))))
+            "0qn3ww9hp08xbmjicd451zcqm3za84wvizjwlzmxi6hqsaxmzpfm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -92095,17 +92098,17 @@
 (define-public emacs-prism
   (package
     (name "emacs-prism")
-    (version "20220630.723")
+    (version "20220716.40")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/prism.el.git")
                (commit
-                 "757bbcdf0ec51b6c7372c1853fa542c7de30499c")))
+                 "9cf6b5e3bcb6044567f3911a4adb796e0c61f207")))
         (sha256
           (base32
-            "11hzlh5afq2asig3cv8fq0440xn7pfkriydbcb0n4ky8krq6ybx7"))))
+            "1j2ifn1nc94b07ypifimmb6v13askcd93063pppjqjsh1qzm8s6n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
