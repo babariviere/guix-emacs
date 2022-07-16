@@ -16509,7 +16509,7 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220716.459")
+    (version "20220716.522")
     (source
       (origin
         (method git-fetch)
@@ -47493,17 +47493,17 @@
 (define-public emacs-graphql-mode
   (package
     (name "emacs-graphql-mode")
-    (version "20220714.807")
+    (version "20220716.827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/davazp/graphql-mode.git")
                (commit
-                 "daeb5557a918093272755bdfbd1a56b936fca932")))
+                 "92136cf9b5a4dcd8c202c8dba9064b497776d2f7")))
         (sha256
           (base32
-            "1frcq09mibncn8jrslakwzq40sv40clvvh8ly1djwzzzb044pw61"))))
+            "0df2lsvmxzkpma3crw3y421divkmx8kr2lpx3066ihqwblphr6mi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/davazp/graphql-mode")
@@ -50468,17 +50468,17 @@
 (define-public emacs-helm-file-preview
   (package
     (name "emacs-helm-file-preview")
-    (version "20220704.651")
+    (version "20220716.850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/helm-file-preview.git")
                (commit
-                 "638185f7ba1e7ca3511e6deaa334ea374b44fd16")))
+                 "b6108fa3f2508087bb2e38085806b7a9d4802884")))
         (sha256
           (base32
-            "1bynfxibazpljwa5svdhay95k26d0aghxs1iqw02jd4bl8zr81aq"))))
+            "07vqdzg9j94rw4vlyr5g0pmqv8knx9nlpa578x1inxlldlyv19a3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -67725,17 +67725,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220712.17")
+    (version "20220716.814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "5e511babdeda47552e56396dd05dfb86eaabeefd")))
+                 "e4cc46d754bd0cd55e67eed56381bd525ee67fa9")))
         (sha256
           (base32
-            "1gvyl5llx1jysi4jacpblr51sjgfic8pckha0z66asca6k0sj506"))))
+            "06dvaw4bdw1815nfzhk2vdcfqhgnpha1jb0l100h908qbbjr232m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67951,17 +67951,17 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220629.2248")
+    (version "20220716.808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/rgherdt/emacs-lsp-scheme")
                (commit
-                 "e683842668b728c057c7eaa415e43922c3bfd9b4")))
+                 "16fd04af47fb2168707ed0c455acfcd9c52839f8")))
         (sha256
           (base32
-            "0fpp1wjz5bvyhafr5mc020zgl5s8v5rywh8fvh7q46wxx3953pna"))))
+            "1zd7injh2h02k0z76d7rq4cjaq3krj6jbnnwdna1ngx2vfri16mm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
     (arguments '(#:files (:defaults "scripts")))
