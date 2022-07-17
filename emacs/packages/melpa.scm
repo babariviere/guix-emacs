@@ -16350,17 +16350,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20220710.1740")
+    (version "20220717.251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "06a1ac946ed245e0b0fae2755f9641c4c180de9f")))
+                 "f34c1218e5f9a759646f68f6afd8f9b8fd4022cc")))
         (sha256
           (base32
-            "0ngj4prn9lk1ymffpkj5h7wcy1zmqsfm9ljyqqxrcmmjylciglav"))))
+            "0iprlzgshad6p2m9avsjgvyj03wfv488j9xgr4m61i83hc28dzwr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -22741,17 +22741,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220716.1721")
+    (version "20220717.355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a81ae8023d3e55d9943b430441eb7d2f3ff04f72")))
+                 "41f5aec7532586212c0d6e83252c9528e7e9b71c")))
         (sha256
           (base32
-            "0wryqpym5flj2cc9fpkvl1av8zqj91fzss8vccs81928gm8h03ci"))))
+            "04d5ax9dsj7flsxzxk30cy41f6y3wqwlx8v1bqw0x5mkb7lmvvya"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -101147,21 +101147,20 @@
 (define-public emacs-separedit
   (package
     (name "emacs-separedit")
-    (version "20220501.1539")
+    (version "20220715.2343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/twlz0ne/separedit.el.git")
                (commit
-                 "454c9a3561acca3d57cce6ddb356f686b3d8cbee")))
+                 "74b7e1d5fe917dfa8fbf7e7867454b454d0d3f0d")))
         (sha256
           (base32
-            "0i7d4cig64lz27vq8rf6kqnpm5k7shzj34d6pg56pphf0xs26zyk"))))
+            "1j1076w7xh1kr9sr42nl9sjxwmqjkj8mc1dx6d46mqmgr9w7pfs7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-edit-indirect))
-    (arguments '(#:files ("separedit.el")))
     (home-page
       "https://github.com/twlz0ne/separedit.el")
     (synopsis
