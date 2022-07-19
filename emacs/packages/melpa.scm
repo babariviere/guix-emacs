@@ -6892,17 +6892,17 @@
 (define-public emacs-bech32
   (package
     (name "emacs-bech32")
-    (version "20220711.911")
+    (version "20220718.1440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "a3ebdcdd91d32f044b68541a00e162396e4acb38")))
+                 "5db27c3c3d469c755bbf5ab5f60cadf96c1add62")))
         (sha256
           (base32
-            "1jmlg5rbgam3s9n7blmk2b9r9ggzdvsbry1fdsx5gipymbldx1gg"))))
+            "18885jc2h3h9q40m6qv5h02biq8marqizvr3vnpsszs635ph7vyr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("bech32.el")))
@@ -14434,17 +14434,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220714.1331")
+    (version "20220718.2141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "890797d3d7ca9c6703aac11753dd1513de67d46d")))
+                 "89e0d0bada4946b45a9d085d0f05f2cf07f74c11")))
         (sha256
           (base32
-            "0m3xygppb5dm84mjmsw1z014wvch1n3m8lgjdnhpswrb3ff0hhax"))))
+            "0rdns0mvbll1h9yj5ds2rzghjf4nwjqcpb3q2988jadnhjs2cc7b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -23991,17 +23991,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220717.1851")
+    (version "20220718.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "c410a3aca5a1d055a4ce88cfc524832dc4a2af6e")))
+                 "61841f95742fdae9eae258bbfa72bbfd7129983b")))
         (sha256
           (base32
-            "0srzrr7zqxmcjpp3wrwa4mlcyda6lxvfnx1w4371407ii2d825s9"))))
+            "0x995shxxdpi686cwgd2s8xcbis97zcag9wna70iwdihkp9dk5iw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -27229,17 +27229,17 @@
 (define-public emacs-elcord
   (package
     (name "emacs-elcord")
-    (version "20220708.55")
+    (version "20220718.2254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Mstrodl/elcord.git")
                (commit
-                 "c3c9d318171c2627a64e6f34eed5942e4f5ad369")))
+                 "f821107fdd82b67878be527323f2fa830e5375c0")))
         (sha256
           (base32
-            "1p78rdpin836giqmz479awbjzp6mass3mjrsbxbrp5yak4swhjwg"))))
+            "1mspmxzipvfn55d1lskg9lsmj6d3672z86bc1ci9sifnvknhmqrh"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "stdpipe.ps1")))
     (home-page "https://github.com/Mstrodl/elcord")
@@ -27279,17 +27279,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220717.1134")
+    (version "20220718.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "dbed17c339ec19da3b3f77849262e15a59ac9015")))
+                 "e6452da5697b71083de888156babd8c0b8006585")))
         (sha256
           (base32
-            "0ibygk71bd4p7f2madjq6l1hinlmv863i1b1p61p8zlqama3drmi"))))
+            "081sjd00hya6qcwx8zqinjvmi0qrjrwfhgm4bdh48k9wbn8g3gcc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42291,17 +42291,17 @@
 (define-public emacs-frimacs
   (package
     (name "emacs-frimacs")
-    (version "20220717.1916")
+    (version "20220718.1739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pdo/frimacs.git")
                (commit
-                 "9fc66368c21a05d8c10605afcf832739c428ff97")))
+                 "1acd5666bd0d920b488243bbf7a24741d29f8e9d")))
         (sha256
           (base32
-            "12cldl7zp0m6m3375x7i1rn04lvm3799lpbpis8i43vi31yppycm"))))
+            "1h5hn9sjggcsrxcwvvcrciy9nfyag14pd65lc44zbv71ys4nkyz2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -74758,17 +74758,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220715.1017")
+    (version "20220718.1917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "44204a9d0dabe1553c28310f6d2d78f144c08990")))
+                 "9551b5c446baf61fc4f76e802b89fdaf4567cc1b")))
         (sha256
           (base32
-            "0ba20v82m5sy4ya7aiwldvnsnlkfw71grgfrw4cn5xwz6qihl809"))))
+            "1lvfgdwxxdrz5n1zmxwqj97q8hvngz6bakz459j3jxl2mbbzazd3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -82618,17 +82618,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220718.1557")
+    (version "20220718.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "a02ed48ac81583300747e91c0a964abbb590ef43")))
+                 "06f1e1be6ff5ef7e2c8c05dc1954bcedcbb6eb0b")))
         (sha256
           (base32
-            "1kj841dj0a8gqkcckhf28qv6qikhj47mj5bgr7cqcyi70la9xz4z"))))
+            "0qn3ww9hp08xbmjicd451zcqm3za84wvizjwlzmxi6hqsaxmzpfm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -97402,17 +97402,17 @@
 (define-public emacs-repeat-help
   (package
     (name "emacs-repeat-help")
-    (version "20220706.1225")
+    (version "20220718.1742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/repeat-help.git")
                (commit
-                 "4f8bc98a35047146438f47059e32fbd5aae80e89")))
+                 "bdc21d9a8846b4adf63dd9317860666da5ade478")))
         (sha256
           (base32
-            "1s7n651lwqk1cv6ld98sfqvynx3zvjjpsfgybr2cvdp2nbi9iljm"))))
+            "1bvgq9amnawyv3k1vbalvlfw2r2z1yqilwllcsanlrdcz95awcv2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/karthink/repeat-help")
@@ -112643,17 +112643,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220622.2016")
+    (version "20220718.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "e80c3020270720ff114f7a2ad62c85e1fb627678")))
+                 "1a2609425d36d679d49481b7307240145457305c")))
         (sha256
           (base32
-            "0c91awhg02awbhmz632s0d0b9h4sn6adn22lgj52b9fddv9nq77r"))))
+            "0kaabdg226m5flmji1ca5s1jv2jr09qv503xsi23sd60nh0w9dm0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -113216,17 +113216,17 @@
 (define-public emacs-tuareg
   (package
     (name "emacs-tuareg")
-    (version "20220718.221")
+    (version "20220718.2116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/tuareg.git")
                (commit
-                 "12ccb48071fe9f5d570a78167f3438e297815941")))
+                 "2bc92bc3c203f3123c33f2ca8a0662b7247900e0")))
         (sha256
           (base32
-            "1gb4vkgix7i5zaq8ymgmm5asf9ih8kw1nf31yml646r0qk9py684"))))
+            "118d59nfwd4l0lbk0b7c00i2wbzv9w7rvsdk555vy5m647qx6v76"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-caml))
     (home-page "https://github.com/ocaml/tuareg")
@@ -114988,17 +114988,17 @@
 (define-public emacs-utop
   (package
     (name "emacs-utop")
-    (version "20220716.1832")
+    (version "20220718.2034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diml/utop.git")
                (commit
-                 "e7b1ff36d13e2d71db687df1563a013fab0f7eaa")))
+                 "e89802f24ca2289ddc71e5b058088b88e1a11fad")))
         (sha256
           (base32
-            "0qdr5j1wjbn3n2w2y1rr197ikadw1fm0dfwzin0s5azyxaibrs9c"))))
+            "1hb018v6m40dsjmnk7dk09m4idqz6cv349mqsgsw22cr5klll1zk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tuareg))
     (arguments '(#:files ("src/top/utop.el")))
@@ -120476,17 +120476,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20220713.358")
+    (version "20220718.1335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "0ac7f365bb6b4507259b31679bb37ac291e1f1c7")))
+                 "e787dd06c661e167b5afb96173b69d34eddfba1d")))
         (sha256
           (base32
-            "0n0cf5y862ajyf2q0pnvbkhg57ggsri33x8y4q99s0a17ksk4qrm"))))
+            "060h58nahf3rbh4y60nrhpvrdj8jmx4zqxspvdmlc4lgzi8n37h8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
@@ -121763,17 +121763,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220717.2316")
+    (version "20220718.2101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "46c7e83e73cc00b4c4b9c1175c40539d873b3ccf")))
+                 "9a1a5e1e677d08ac1d38846325df123955aeb2d8")))
         (sha256
           (base32
-            "01lwiskkdkp8x1g36m31zz6w1rmcx302pmm8agabqplv335s1xl2"))))
+            "18r5v7jr28hqcf9cv2y3nznnxqjn0bqhxq1nq8jl4h7dyxr3ghw7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
