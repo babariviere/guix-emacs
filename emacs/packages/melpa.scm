@@ -22764,17 +22764,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220718.1030")
+    (version "20220719.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "0f61b3e3f73bdfebe29ea6cab810f71f8c9d3540")))
+                 "2449d301b9b59e20ed689471c66af39f39654afb")))
         (sha256
           (base32
-            "09jxdvdfai6fdfl72s8952haqi43lzqgrh6wg8lvcx3zn71sm57p"))))
+            "1knrsskkkis8pszbwin255ymm19x9h71s4dqya0l6akaj347m4ns"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -35356,17 +35356,17 @@
 (define-public emacs-fancy-compilation
   (package
     (name "emacs-fancy-compilation")
-    (version "20220717.2251")
+    (version "20220719.244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-fancy-compilation.git")
                (commit
-                 "913fa36583e89032ca258a75df18b45b530cc9d9")))
+                 "1e710e0a3d531fa089545a296c5b300967ee03ef")))
         (sha256
           (base32
-            "0rh20f273ncv6vkwqas5dhmw0bagn995526f3fhvgfmm55n57cdn"))))
+            "1p1f8lsv43gbf4d4iz6phcik6h1rmk5fi3idm6xj1wrhqf5jijdg"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-fancy-compilation")
@@ -38906,17 +38906,17 @@
 (define-public emacs-flycheck-ocaml
   (package
     (name "emacs-flycheck-ocaml")
-    (version "20170730.2153")
+    (version "20220719.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck-ocaml.git")
                (commit
-                 "8707a7bf545a8639a6a5c600a98d9a2ea1487dc9")))
+                 "af3d3f244cd95827bd431f4a0e54732780084d3c")))
         (sha256
           (base32
-            "13vzxkjq6v1f1i9zgxgjbwpiba04k9frkcl2wx6a9h3vgd7jyay0"))))
+            "1xhw0kcy8bgdmb0jad0mzrzmay905w3f933zl7lvqzc8v1lh20lp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-merlin))
@@ -43238,17 +43238,17 @@
 (define-public emacs-geiser-chicken
   (package
     (name "emacs-geiser-chicken")
-    (version "20211204.2049")
+    (version "20220717.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chicken.git")
                (commit
-                 "79a9ac78f4df7c9ec1f918313c543c116dbb8b70")))
+                 "a480598b5908c95bc8d3178a48f13e9072a9235b")))
         (sha256
           (base32
-            "19j4ar7900yp2q4i4kdwqj1g0fjywflk6jr2x5n2y3zn7pj7z9nz"))))
+            "0jb0zlg82axp44iy51w7fh96z3pmn2k1idipznhw90hkr3wkiiqw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -43315,17 +43315,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20220323.2352")
+    (version "20220719.143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "c641fcc50b6b86ca95743122b5206cdcd475f96e")))
+                 "7a4945fbc199ec823da1be7283f6e81f83b2609b")))
         (sha256
           (base32
-            "18m5ldj4r4c2hxgvv5b4azl90r8az1kn5f3s913h971asyv4wx06"))))
+            "140kd55qld95fbacvcgk2823l2rh7syj6rplppxcp7yvrji5nkn0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -58152,17 +58152,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220718.208")
+    (version "20220719.13")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-theme-inkpot.git")
                (commit
-                 "119549cb8475d3bf6b481bb82b0646e63f464cd5")))
+                 "935d72cf8ebafe24b685c1e6fca2209037a7d95f")))
         (sha256
           (base32
-            "0a3j95rn38s79cra6yib3nln1i852x8zc56l9vfzzhv9w4m61azw"))))
+            "0shslnx2lk0rp99fy5kc38k2s48q065k96qvkxzbbk0wwzmprx5c"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-inkpot-theme")
@@ -63852,17 +63852,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220527.829")
+    (version "20220719.143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "d17a77d9210b3e7b8141d03c04d1898bcab2b876")))
+                 "7fcb1472d2e3e9dfd02663bb5f3809c271402368")))
         (sha256
           (base32
-            "0gnh0yzip0238ycprx03147xaclcbmiy4lkp6wqil2waavwrkwbf"))))
+            "1vd4vfz5pp83v9imxz1pax4ccqspac1hqdic29m98p56scwsli2d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "unspecified")
@@ -76079,17 +76079,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20220505.1706")
+    (version "20220719.505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "8fe2ccf0b01f694a77d2528e06c10f06057784f6")))
+                 "b3f71c75f7d43a32e7cbc632e9be80f2a03788d4")))
         (sha256
           (base32
-            "08kz9qp4gp55z1i87ig0ysq6pgqgwlgr765g1vp8gsh6lp3myh36"))))
+            "14vcjjyvjdxpzrcd6arq6lrjqgmbbsibx73h0v34fdzfpi4wfx08"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (arguments
@@ -92651,17 +92651,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220710.959")
+    (version "20220719.446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "00fce5a62cab56873c37629bef653bb2a1e4a4c1")))
+                 "dc6e7ff658789e4c6cf7c32a4b4fdf22ef9bc5a3")))
         (sha256
           (base32
-            "1qa5xir20x6qrs3cj79pykp5cpb74y4s23n8664p6kjyhmg7l5cs"))))
+            "0p0660w9p4ndpqiqr3wvm8c2nsmhkvlyrh7f7bhlx371604653xl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -96702,17 +96702,17 @@
 (define-public emacs-recomplete
   (package
     (name "emacs-recomplete")
-    (version "20220708.211")
+    (version "20220719.16")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-recomplete.git")
                (commit
-                 "541e98dad23c019b62af37cf4971ed17226c8713")))
+                 "0fa0d48a74f16e1fea55848f78e2374086906c31")))
         (sha256
           (base32
-            "02mc088551sj5iyd41ra3vfp6a5m9j22yg44w5axa9539klv0i98"))))
+            "0b72djamram2ql4yiq4zx88v3vg066gqy5vbdshklwnjz8pn5ga5"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-recomplete")
@@ -113216,17 +113216,17 @@
 (define-public emacs-tuareg
   (package
     (name "emacs-tuareg")
-    (version "20220718.2116")
+    (version "20220719.148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/tuareg.git")
                (commit
-                 "2bc92bc3c203f3123c33f2ca8a0662b7247900e0")))
+                 "ad8a688b7e2aeeafc320a845f86cdd9aa7c971ce")))
         (sha256
           (base32
-            "118d59nfwd4l0lbk0b7c00i2wbzv9w7rvsdk555vy5m647qx6v76"))))
+            "0vma9ylyaxrl21a3g4vlzd9iqpwallchaar3p7v0dyp5cf8xxvfw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-caml))
     (home-page "https://github.com/ocaml/tuareg")
