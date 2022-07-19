@@ -10202,17 +10202,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220717.1549")
+    (version "20220719.646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "e6903dc0d978ae634a6f55cb5378fbf1afb56c12")))
+                 "be078bfb331df23418be6657e0320d81f1d363f4")))
         (sha256
           (base32
-            "0i41liq5lbaiyfj95nwx0yg57rcgg2a91a1als18wzgznl3fgppl"))))
+            "0wv4wjm3qfdv4f6mhcpfmh513ffjwwla5pax0ar8jch13n5dmgsc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -13436,17 +13436,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20220715.409")
+    (version "20220719.818")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "3732ada115cae269e0fa5e3434f92f3e6e6823d9")))
+                 "b263edf140e3ecdb0640a001c120b5e0b7edeb5f")))
         (sha256
           (base32
-            "1z510dn4ih5av59nridhr99jpd1bsnjwbh15kqnw0nd8zpawixkf"))))
+            "0h4x4z28z41zkw52z0f6k9x0ai8klyb36bwa3qsdx00w7jlpaax4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/cnfonts")
     (synopsis "A simple Chinese fonts config tool")
@@ -22764,17 +22764,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220719.602")
+    (version "20220719.1140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "2449d301b9b59e20ed689471c66af39f39654afb")))
+                 "a5960911a7ad36aef8b286a1f5cc9b38cf205988")))
         (sha256
           (base32
-            "1knrsskkkis8pszbwin255ymm19x9h71s4dqya0l6akaj347m4ns"))))
+            "0wdnnyci4ay54hj0g1gm2kl0gnymg3m6y5bbpi9wygv8xvcy968z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32658,17 +32658,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220712.758")
+    (version "20220719.734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "9cea83273c1af812e2e3feab1ec13ab54aba25a0")))
+                 "7a44d753346ef8effd565d3d4a1f5cde581be7cf")))
         (sha256
           (base32
-            "10lnf016qf8wb3wxhky2j2hfni58b2d2m1p97v21b0jwiga7bzcj"))))
+            "1w775vv7q46isls38q5rk419wd78akzi3g2v3kiirfax4rg89an8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -38906,7 +38906,7 @@
 (define-public emacs-flycheck-ocaml
   (package
     (name "emacs-flycheck-ocaml")
-    (version "20220719.658")
+    (version "20220719.724")
     (source
       (origin
         (method git-fetch)
@@ -70102,19 +70102,20 @@
 (define-public emacs-markdown-soma
   (package
     (name "emacs-markdown-soma")
-    (version "20220718.1424")
+    (version "20220719.1004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/markdown-soma.git")
                (commit
-                 "4b2bada7b0c0255aa80bc0f7d8a59da46e04eafe")))
+                 "96cf7820023e23e0008d07ad9456aee3ae21cfda")))
         (sha256
           (base32
-            "11bh3m756i8m7iywpdh5846j9v3cmdhfia9l3a8iinqakkffzwnv"))))
+            "1f7zqj17jh7ifvb9r6sy2cvzqzbvk3zry4kvwdffspvisvbz3hrb"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s emacs-dash))
+    (propagated-inputs
+      (list emacs-s emacs-dash emacs-f))
     (home-page
       "https://github.com/jasonm23/markdown-soma")
     (synopsis "Live preview for Markdown")
@@ -94648,17 +94649,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220718.820")
+    (version "20220719.1418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "fb997fda17bcd3ea3dda7f2d4dea892c2628096d")))
+                 "527f6189463c40e7fb38b0839a14cc8a4bcbf9fb")))
         (sha256
           (base32
-            "1kb8b2vryqc9i6q7aanfawqp9flsxgspjpmfnr1ybh0zwlf7qs1g"))))
+            "0scvh0nksmf0aghwk3bwk1c16i4p6av9gg003v6prb9bg26xc67q"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -111214,17 +111215,17 @@
 (define-public emacs-tiny-menu
   (package
     (name "emacs-tiny-menu")
-    (version "20161213.1235")
+    (version "20220719.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/aaronbieber/tiny-menu.el.git")
                (commit
-                 "05563b94537b6eb22aeddedef2a6e59e3f88d073")))
+                 "eae513ba326b44a677453e96fe866e08d9c76ebd")))
         (sha256
           (base32
-            "0k0djq60mwhjiwy9dpy9m9bs507b9p19pdl3g2s8sd9i2fk53rfy"))))
+            "1m9c7b51s4va309p7vhqbgclmg1jxfg9n532kqma0jkawvcd31y4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/aaronbieber/tiny-menu.el")
@@ -117099,17 +117100,17 @@
 (define-public emacs-walkclj
   (package
     (name "emacs-walkclj")
-    (version "20220422.854")
+    (version "20220719.1318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/plexus/walkclj.git")
+               (url "https://github.com/corgi-emacs/walkclj.git")
                (commit
-                 "ce4e7713d801b03f94f5da9898fce09718380ed4")))
+                 "875ee7a350f5141f425c4b5350a630e1ee1795e8")))
         (sha256
           (base32
-            "1r66fxbm39i1p75aizicravy2n8yjnj3m5nckzdqd86nw2v5d5c6"))))
+            "1390qxghf1q11n1gpk6brqzdlvj4jn6dzl6a6d08nbv95wm3ppq3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parseclj emacs-treepy))
@@ -120544,17 +120545,17 @@
 (define-public emacs-yaml-pro
   (package
     (name "emacs-yaml-pro")
-    (version "20220716.2313")
+    (version "20220719.1430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml-pro.git")
                (commit
-                 "9e8886b2b55d318ba7ba0df50789894381321dad")))
+                 "36d9900875ddde46d300c3c472bed902e5d0e8df")))
         (sha256
           (base32
-            "1g74j6m6vsw08g853ad4d50ibpyw3sqk9m6dcsj0hzk1p677c1fj"))))
+            "1h97a650zlzqpf2rssjqhmilh83882lqy0xl3d1fqrrqqzm1h9fd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/yaml-pro")
