@@ -1,0 +1,23 @@
+Disclaimer: this doc is not finished but I wanted to write an overview of the script internal.
+
+* Design
+Everything is done in [[file:../scripts/update][the update script]].
+
+The script ensure the following things:
+- all packages must have existing packages as dependencies
+- internal libraries from emacs should be excluded from the dependencies
+- a package is not updated if it already has the latest version (to avoid redownloading the emacs world)
+
+* Loop
+The script works as follow:
+1. We re-read already generated packages (to get package version)
+   1. It reads the code source and parse it (there is no evaluation)
+   2. It only reads packages defined with ~define-public~
+2. Then, it fetches ~https://melpa.org/archive.json~ and read it
+3. Archives are then filtered
+   1. We resolve dependencies to see if they exists
+   2. This is done recursively
+4. Once it's done, we can download all new packages from melpa to compute the hashes
+5. Then we write everything to [[file:../emacs/packages/melpa.scm]]
+   1. We are appending the ~define-module~ code + copyrights
+   2. We are appending content of [[file:../emacs/packages/melpa-overrides]] at the end of the file

@@ -81,3 +81,6 @@ What this can look like:
 #+end_src
 
 One issue with this: some packages will fail to build since they expect files to be at a certain place. So it may cause more issue than just plain elisp files.
+
+** Internals
+There is a small documentation to explain how the updating is done: [[file:doc/how_it_works.org]]
