@@ -1,4 +1,10 @@
 * Emacs channel
+** Disclaimer
+This repo is meant to mirror packages from melpa (primarly). Packages without any external dependencies (non-emacs packages) will work perfectly fine (but you may not have ~info~ documentation from emacs).
+For packages with external dependencies, there are a few that are patched in [[file:emacs/packages/melpa-overrides]].
+
+I do not plan to patch them since there is a lot of them. But you can always open a merge request to patch your package and/or include it in your code with a simple package redefinition.
+
 ** Quickstart
 
 To use this channel, add to your ~.config/guix/channels.scm~:
@@ -43,7 +49,35 @@ To build your package, you can run:
 guix build -L . '(@@ (emacs packages melpa) emacs-my-package)'
 #+end_src
 
-** What can be improved
+** Potential improvements
+Note: I don't plan them to do it for now. So, don't expect anything from this list.
+
 *** Allow to import only one package
 
 *** Support Emacs native compilation
+
+*** Export sources as a json
+We could export sources as a json file like it's done in [[https://github.com/nix-community/emacs-overlay/blob/master/repos/melpa/recipes-archive-melpa.json][Nix emacs-overlay]]. After that, we could provide a function to generate packages dynamically.
+
+Example:
+#+begin_src scheme
+(melpa-package "my-package") ; would return a <package emacs-my-package> with all dependencies.
+#+end_src
+
+This would avoid the long compile time but might be less practical to use.
+
+*** Reuse packages from guix channel
+Instead of overriding packages manually by copy pasting code from guix, we can try to inherit packages from guix and change source + build inputs to include up-to-date packages.
+
+What this can look like:
+#+begin_src scheme
+(define-public emacs-my-package
+  (inherit e/emacs-my-package)
+  (source (package-source g/emacs-my-source))
+  (build-system melpa-build-system)
+  (build-inputs (replace (package-build-inputs e/emacs-my-package)
+                  ; replace all emacs packages...
+                    )))
+#+end_src
+
+One issue with this: some packages will fail to build since they expect files to be at a certain place. So it may cause more issue than just plain elisp files.
