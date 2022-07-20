@@ -14434,17 +14434,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220718.2141")
+    (version "20220720.911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "89e0d0bada4946b45a9d085d0f05f2cf07f74c11")))
+                 "16ffeba5ef96c4c8e0cd39860b5402e25e304601")))
         (sha256
           (base32
-            "0rdns0mvbll1h9yj5ds2rzghjf4nwjqcpb3q2988jadnhjs2cc7b"))))
+            "0b4ckin8sp9wqk7c2n0ip4cm0nik008nv38x87a176zjzbjg15f0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -22764,17 +22764,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220719.1140")
+    (version "20220720.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a5960911a7ad36aef8b286a1f5cc9b38cf205988")))
+                 "c59b48e93f30b5e3d6a685c9ea50c513d609777d")))
         (sha256
           (base32
-            "0wdnnyci4ay54hj0g1gm2kl0gnymg3m6y5bbpi9wygv8xvcy968z"))))
+            "03bw28glkklm32a8jwc65svjfz3slhqlyrra3f81jc1x92y69rv4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23945,17 +23945,17 @@
 (define-public emacs-doneburn-theme
   (package
     (name "emacs-doneburn-theme")
-    (version "20181110.1857")
+    (version "20220720.1218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/manuel-uberti/doneburn-theme.git")
                (commit
-                 "da4fa915a2a659001eea04498d790cdd8cac1fce")))
+                 "824eae7ecf1cce08fa41f6762a27670815b7f786")))
         (sha256
           (base32
-            "1xlh20vc43ywljjw13cp0aj4h9qackhqqzm0yi5g881lcyng2ca1"))))
+            "0jvq6k9qlyk5g9gvs8yhmq27hgdygplvqn94rcjw77gwsgr568p6"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/manuel-uberti/doneburn-emacs")
@@ -32655,17 +32655,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220719.734")
+    (version "20220720.802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "7a44d753346ef8effd565d3d4a1f5cde581be7cf")))
+                 "0595cd8b95c0bc6360a0c275b0f42c4e5fc24190")))
         (sha256
           (base32
-            "1w775vv7q46isls38q5rk419wd78akzi3g2v3kiirfax4rg89an8"))))
+            "16x8lm2b8bspqxsg85vja323nk7ybjrl8f0irdviw6i9gp4qb7j1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -36362,17 +36362,17 @@
 (define-public emacs-finito
   (package
     (name "emacs-finito")
-    (version "20220704.1022")
+    (version "20220720.1031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/finito.el.git")
                (commit
-                 "508f6699795528c579b235f4f7726b5aa5ad9595")))
+                 "84aef517f3a61713f6093de981d404080e8ef7d8")))
         (sha256
           (base32
-            "1raq1l4ixap83n98wf7a7dzd2mx2i1mgfsksim00x1qy9fpr5qar"))))
+            "1vcylaz7b4x7bhdgcbn3p1c5gwfq8l0sb731g7ni54qhk6x72fck"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -38903,17 +38903,17 @@
 (define-public emacs-flycheck-ocaml
   (package
     (name "emacs-flycheck-ocaml")
-    (version "20220719.724")
+    (version "20220720.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck-ocaml.git")
                (commit
-                 "af3d3f244cd95827bd431f4a0e54732780084d3c")))
+                 "629080c1bbe4d6195c70bae3f4e09cc2b79c8e2d")))
         (sha256
           (base32
-            "1xhw0kcy8bgdmb0jad0mzrzmay905w3f933zl7lvqzc8v1lh20lp"))))
+            "1xk8n5ak73gzh8yl9c5qlfj9frqiyjfxsf2174xx8bwakhfnmyk2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-merlin))
@@ -61906,17 +61906,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20220713.216")
+    (version "20220720.1410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "fef0df66e1de1733c4df706d76a4fc29788fe251")))
+                 "698ca35da04d99f25c8f075e8342015434f6a662")))
         (sha256
           (base32
-            "1fk67c3cwv0iz0vkn9jaclvhzdsk3j5w13n51sigxgflhdpbr77h"))))
+            "0n6nif6vci5dxq1s9vv2awf953pa2g5snpzg61jxbqsv533rn01y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -70099,17 +70099,17 @@
 (define-public emacs-markdown-soma
   (package
     (name "emacs-markdown-soma")
-    (version "20220719.1004")
+    (version "20220720.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/markdown-soma.git")
                (commit
-                 "96cf7820023e23e0008d07ad9456aee3ae21cfda")))
+                 "9c6c869050f086eeb3307691c4f68b8dba73dd35")))
         (sha256
           (base32
-            "1f7zqj17jh7ifvb9r6sy2cvzqzbvk3zry4kvwdffspvisvbz3hrb"))))
+            "05pskbyz7ibwdsi1r8kq2ynz8wvji3nlp00yh5lhxgki7xpj7c8v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-f))
@@ -72678,17 +72678,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220716.1452")
+    (version "20220720.1330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "d4148687be79f60da2c15eac7a45f1ae3dd8f017")))
+                 "03c2457a89dff8db96d90f2029b0376bdeea970f")))
         (sha256
           (base32
-            "0mb35i406hmb67pybkzpsw5z8hdgsc4kvhd4z5mj55fw4c028kyl"))))
+            "1k4acnrpjyfbrph4xv9ncd84sfaf1nd6l4xhwhw4z78h78f0yzc3"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -85106,17 +85106,17 @@
 (define-public emacs-outline-minor-faces
   (package
     (name "emacs-outline-minor-faces")
-    (version "20220613.1341")
+    (version "20220720.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/outline-minor-faces.git")
                (commit
-                 "f83db95e07c55b9a7e69df23a6291171d4697e15")))
+                 "9cc3fed195e0a1f960a971880287856c148b4861")))
         (sha256
           (base32
-            "09ji0z1mmn2ihf759i2h21bqr52bfy4axhi6zgkj4dkhjpzrdwi8"))))
+            "1k3nislsc47k7sf24vyv4krj2nldcibxwq0j33bzq5sxg8q2rz8i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
