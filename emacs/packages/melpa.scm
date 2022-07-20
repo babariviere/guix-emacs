@@ -1811,21 +1811,21 @@
 (define-public emacs-adoc-mode
   (package
     (name "emacs-adoc-mode")
-    (version "20220529.551")
+    (version "20220720.622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/adoc-mode.git")
                (commit
-                 "02f53a301b8e5b6e4934b47ab326892f70719c32")))
+                 "e0d08ee6d29289a475796e22b2298b028c02b408")))
         (sha256
           (base32
-            "0544p3wggb1b1n55ibf693gglj874xy5phywgl4160bmnxcvdsb5"))))
+            "1dp3av91rwq87vfgwpgi622imbv0z79znnfx0r6f5i06xn1ag5bv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markup-faces))
     (home-page
-      "https://github.com/sensorflo/adoc-mode/wiki")
+      "https://github.com/emacsorphanage/adoc-mode")
     (synopsis
       "a major-mode for editing AsciiDoc files in Emacs")
     (description
@@ -4238,17 +4238,17 @@
 (define-public emacs-assess
   (package
     (name "emacs-assess")
-    (version "20200211.1817")
+    (version "20220719.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/phillord/assess.git")
                (commit
-                 "5bac045b273623772b6a2d820997d50f7ab4e466")))
+                 "44083d94feb45d3636f7ee6c55e0ef6bbb32b938")))
         (sha256
           (base32
-            "0mq59wz9anvywazl7d01fis1z7z7fsp9c7pymrc8rgmz77xpwnqx"))))
+            "1mgx6sism6l1mwmz81fq6wcxkxlbyn4k6p8nl0v8xc1zsh2mn8m0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-m-buffer))
     (home-page "unspecified")
@@ -13039,17 +13039,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220715.1509")
+    (version "20220719.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "fee38d780f7d0b2a42a441e4d8bcfaa4fa672983")))
+                 "bb327cb9707787c8f1dbcb2d219f6cbceb553a96")))
         (sha256
           (base32
-            "1ck9d8jzs6m5qvg5bnx9i7d94icsfl4698p66vxsn3yqclhc8yzz"))))
+            "0ydlk7vqvljsmx38w3cbj05ypydpdvd9071iksdcx3zy0hb4zcvr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -23991,17 +23991,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220718.1906")
+    (version "20220719.1716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "61841f95742fdae9eae258bbfa72bbfd7129983b")))
+                 "f98f806466d7ccb109bd0220ef5b9f1d48a5b05f")))
         (sha256
           (base32
-            "0x995shxxdpi686cwgd2s8xcbis97zcag9wna70iwdihkp9dk5iw"))))
+            "1sabs2cmrq2hcflxp49g0mzsbsgkm39v3b0wzhbx3958zb11h9pf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -26445,17 +26445,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220715.1158")
+    (version "20220719.1650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "33c464f658de70f36c27237d57b9c9858c68bc81")))
+                 "eed9a6551562501241ed9ee7eaad24d59a836ff6")))
         (sha256
           (base32
-            "1qplg6ilrr5p28mn3jflqkidz04s475q2nl53qdfh2mvhviwwklz"))))
+            "1rbmfp2k2wq0cic4kir78zna7j007drf3y9yjj7ylvybq6chs130"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -27279,17 +27279,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220718.1906")
+    (version "20220719.1802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "e6452da5697b71083de888156babd8c0b8006585")))
+                 "3703fbcae613cf4451b4cc72cf74105c3a30d20a")))
         (sha256
           (base32
-            "081sjd00hya6qcwx8zqinjvmi0qrjrwfhgm4bdh48k9wbn8g3gcc"))))
+            "15dd57cn6vmiqsm39qzxn6yf2vdgpp7rn03vmhlrnkkj7fwf2d3a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29357,23 +29357,20 @@
 (define-public emacs-embark-vc
   (package
     (name "emacs-embark-vc")
-    (version "20220703.1008")
+    (version "20220720.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elken/embark-vc.git")
                (commit
-                 "6124909d8b07c70a0eb3bcaf47f1c3a28698528a")))
+                 "4a6fcf96d07c79ab8c5f4fe3f84b4335a2a4033f")))
         (sha256
           (base32
-            "0rcnmqvsvwwqa8f9j4jflk9b15l4577ay3q2c3mdhx46g3q1c9cx"))))
+            "1xx66szz5y9w7cdj1gp3arn49z49sqf3f7plchcqzzn6aiz88ddr"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-code-review
-            emacs-embark
-            emacs-forge
-            emacs-s))
+      (list emacs-embark emacs-forge emacs-s))
     (home-page "https://github.com/elken/embark-vc")
     (synopsis
       "Embark actions for various version control integrations")
@@ -35356,17 +35353,17 @@
 (define-public emacs-fancy-compilation
   (package
     (name "emacs-fancy-compilation")
-    (version "20220719.244")
+    (version "20220720.301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-fancy-compilation.git")
                (commit
-                 "1e710e0a3d531fa089545a296c5b300967ee03ef")))
+                 "a4cd5e4d21a2ff7029052e6202854d6fb20902d3")))
         (sha256
           (base32
-            "1p1f8lsv43gbf4d4iz6phcik6h1rmk5fi3idm6xj1wrhqf5jijdg"))))
+            "0y22s2xb12gcygbci7jnh4pvg9im643w4hpl891fzriqj1v7qpdz"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-fancy-compilation")
@@ -49227,17 +49224,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220715.1758")
+    (version "20220719.1829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "c451a06123fc90f949b7f734944b80c44033db4f")))
+                 "1c36098cca02fac7d66c4f752af1505619b67372")))
         (sha256
           (base32
-            "1cr78z6m99zyfps5zjfhcrkzk7mggrxwc78wdf7kmpb8yj4hg16k"))))
+            "1pv0c3kd1qm1apz9r1xfmm2fdmw3afan0943qjkybqwlan1f2068"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50536,17 +50533,17 @@
 (define-public emacs-helm-file-preview
   (package
     (name "emacs-helm-file-preview")
-    (version "20220716.850")
+    (version "20220720.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/helm-file-preview.git")
                (commit
-                 "b6108fa3f2508087bb2e38085806b7a9d4802884")))
+                 "bebd4e9c42543c9003984442701db2c384c21f3e")))
         (sha256
           (base32
-            "07vqdzg9j94rw4vlyr5g0pmqv8knx9nlpa578x1inxlldlyv19a3"))))
+            "03yp6qfx1qnn97pj0kbydh9qx8zb2cpy0g4l33caasa67128wk5a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -68421,17 +68418,17 @@
 (define-public emacs-m-buffer
   (package
     (name "emacs-m-buffer")
-    (version "20170407.2141")
+    (version "20220719.1850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/phillord/m-buffer-el.git")
                (commit
-                 "8681342aaffa187e5c54945ab91b812965a96d19")))
+                 "d2e35bf9293367f1a2d19f259f32a35bd9f4788b")))
         (sha256
           (base32
-            "040g7l0r4bxz4ynp4zxy80jsa6x2f48z8rylc41fqxiblasmh0af"))))
+            "0b961hwyrbabrf732859aqbi3n9s237cx7j96baq9yf2azi6a9fb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -69170,17 +69167,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220615.1159")
+    (version "20220719.2014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "c1fb53d3de6390961ccd8dfb1cc135383508d0fc")))
+                 "80cdadb08efcf3287f6af138608d2a71bd8d0a40")))
         (sha256
           (base32
-            "0chjz0vj40kwb0ay88ij4mg802r1q2mamd4b39p59crkqwp3qn93"))))
+            "1qywqwx5qp9kqw1acqplp7wq2s2ppim89rw06f0k3jphdxl1x44p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -81761,7 +81758,7 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220701.359")
+    (version "20220605.239")
     (source
       (origin
         (method git-fetch)
@@ -83637,7 +83634,7 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220712.123")
+    (version "20220602.940")
     (source
       (origin
         (method git-fetch)
@@ -106568,17 +106565,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20220526.2233")
+    (version "20220719.2124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "3e5fbaef46126634c58d0f39be4bc522c05de1f9")))
+                 "685bad7c96adc7608e05ffa0a9f498bfae31efda")))
         (sha256
           (base32
-            "1wahhk2fssjasiz691pkh61qd6x8dbabv4vrwzvc32r9vy8xpyg5"))))
+            "0b8d1lm9bn5370q1iqjimx9r7w532vmgbrc1nfnsdr9al7vs1k1h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -114989,17 +114986,17 @@
 (define-public emacs-utop
   (package
     (name "emacs-utop")
-    (version "20220718.2034")
+    (version "20220719.2111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diml/utop.git")
                (commit
-                 "e89802f24ca2289ddc71e5b058088b88e1a11fad")))
+                 "ebca87c7a3b2f366cfcb8885da1a6ae5fa362d6c")))
         (sha256
           (base32
-            "1hb018v6m40dsjmnk7dk09m4idqz6cv349mqsgsw22cr5klll1zk"))))
+            "19gc6rqajpsxjcm2c8nzpch9x5bbly77gdsdi30pnn0kf06lz3dq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tuareg))
     (arguments '(#:files ("src/top/utop.el")))
@@ -117100,7 +117097,7 @@
 (define-public emacs-walkclj
   (package
     (name "emacs-walkclj")
-    (version "20220719.1318")
+    (version "20220719.1610")
     (source
       (origin
         (method git-fetch)
@@ -117113,7 +117110,7 @@
             "1390qxghf1q11n1gpk6brqzdlvj4jn6dzl6a6d08nbv95wm3ppq3"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-parseclj emacs-treepy))
+      (list emacs-parseclj emacs-treepy emacs-a))
     (home-page "https://github.com/plexus/walkclj")
     (synopsis "Manipulate Clojure parse trees")
     (description
