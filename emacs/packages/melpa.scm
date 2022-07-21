@@ -35354,17 +35354,17 @@
 (define-public emacs-fancy-compilation
   (package
     (name "emacs-fancy-compilation")
-    (version "20220720.301")
+    (version "20220721.139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-fancy-compilation.git")
                (commit
-                 "a4cd5e4d21a2ff7029052e6202854d6fb20902d3")))
+                 "6755db743aed81841f2fe0bd676e475a50d5a0f5")))
         (sha256
           (base32
-            "0y22s2xb12gcygbci7jnh4pvg9im643w4hpl891fzriqj1v7qpdz"))))
+            "10yj6rs9aflsym60wnxr4jrw7si4abd6pybiwdd6xcpmgsvacymg"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-fancy-compilation")
@@ -43067,17 +43067,17 @@
 (define-public emacs-gdscript-mode
   (package
     (name "emacs-gdscript-mode")
-    (version "20220510.944")
+    (version "20220721.547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/godotengine/emacs-gdscript-mode.git")
                (commit
-                 "d9e1f7f766c73115de8ce2815bc249069636c3db")))
+                 "d392e8aa7e7c6dd79ce52fb55d78f7acfa443194")))
         (sha256
           (base32
-            "165xf8sg0sfnw8cvgfpym0jcfkn1dm7skpnvhrl647wmhba175is"))))
+            "1zwhcqh3zvblmqz7ipm8r4n4qs4rv1myv3xbg5fm4axba46hpa5y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/godotengine/emacs-gdscript-mode/")
@@ -49225,17 +49225,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220720.1757")
+    (version "20220720.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "466d6a73115c469cdf2098da1506387a18c57c03")))
+                 "084dd2fd66b12c77334e364e20c377aba5644535")))
         (sha256
           (base32
-            "0j7q16l9h36yinbgxi20q1383ycd9hmy3ikg9yskbmmgblns3hm0"))))
+            "1mrccznxifb8dfh07wcqksp7qsj1bhgnnqv762j1bm3fvl50a9a0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50033,17 +50033,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220720.1746")
+    (version "20220721.529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "466d6a73115c469cdf2098da1506387a18c57c03")))
+                 "084dd2fd66b12c77334e364e20c377aba5644535")))
         (sha256
           (base32
-            "0j7q16l9h36yinbgxi20q1383ycd9hmy3ikg9yskbmmgblns3hm0"))))
+            "1mrccznxifb8dfh07wcqksp7qsj1bhgnnqv762j1bm3fvl50a9a0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -50109,17 +50109,17 @@
 (define-public emacs-helm-ctest
   (package
     (name "emacs-helm-ctest")
-    (version "20191031.1435")
+    (version "20220721.400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danlamanna/helm-ctest.git")
                (commit
-                 "2a29cfb4ec583da247fa2ae7bac88790b1223e40")))
+                 "48edc9fa862219da34feb423c06c33d8f6d43722")))
         (sha256
           (base32
-            "11am95crkf409w3ph17x55v0xx2gy4spb4qc6z5f7vbxgwyaa4a6"))))
+            "14n8inbpg4abxnda8x06m5myy2l5ddcmicyl44ycmfaqbk379mih"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-helm-core))
@@ -53244,17 +53244,17 @@
 (define-public emacs-helm-themes
   (package
     (name "emacs-helm-themes")
-    (version "20200323.712")
+    (version "20220721.330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/helm-themes.git")
                (commit
-                 "244121903650c2d25a233d12b378060cf8b010e7")))
+                 "12e856c0346fa69d13d941f27bd3cddb3a3deed2")))
         (sha256
           (base32
-            "0ii70wn3vadx8a36q2frmsvrmlpz1w58qgn2w3knjivj195knliw"))))
+            "19wqdf4v8cacfyg709xcmczwbaal32290cbv933wc6ridc5576i7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm-core))
     (home-page
@@ -62480,17 +62480,17 @@
 (define-public emacs-kaomoji
   (package
     (name "emacs-kaomoji")
-    (version "20171227.440")
+    (version "20220721.441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kuanyui/kaomoji.el.git")
                (commit
-                 "90a1490743b2a30762f5454c9d9309018eff83dd")))
+                 "fba0018a13eba70c2bffc6153dcfee99937fa3d6")))
         (sha256
           (base32
-            "1jc796nyrck3k50x6jb1wsaawk396y4gk87gkwb8yd5qks7ci35q"))))
+            "1zmi7q0vsyx5m50f34vr2fhij1id03dkj2l93hlqyz5037wij1ka"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm-core))
     (home-page
@@ -65675,17 +65675,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220704.630")
+    (version "20220721.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "e0fa3c93ff7e422507812b6ac414766fe4d9b1e7")))
+                 "1b2dfa899409f4af2896fce6b9acbe98072abd59")))
         (sha256
           (base32
-            "09jv8zgskljn7bwmr6crm55g6kinfjlndjpzqqhz40z07n4kkpgh"))))
+            "1xxmvdgqfj3lv33vn4pw3rdrxjmqypf09hh5w1jr69xbyl2ahzzp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
@@ -70973,17 +70973,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220715.47")
+    (version "20220721.3")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "6083e746f7c009b16d2178b7a4eddb309f50d738")))
+                 "0c977962f45d22fe8079e94ec7947f3b37663826")))
         (sha256
           (base32
-            "0yapr0aj6yvkfkijnl79nnhqxm5ibhb1z5dqh4kj1h31ng90gry1"))))
+            "193mcvzmcp1xc0d572k8z3w2z72naappdmkbjkjyw2pkiljq8p34"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -76431,17 +76431,17 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220711.445")
+    (version "20220721.537")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "c7e42920c2db19428c1b30402aaf99bd65bcac7e")))
+                 "67537aa4bca3745c887dfc40641a9a374d450474")))
         (sha256
           (base32
-            "1fabx74caj6q5a5hhw5yyg68j415qhadarliwfp2n071pf4dickw"))))
+            "1i1kq1v3a9k3w9b32jfm7n0ydsa9ylq2maf5vh47rnw8rgrdprwh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request emacs-s))
     (home-page "https://github.com/thomp/noaa")
@@ -88158,17 +88158,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220714.2356")
+    (version "20220721.29")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "386dca5b2d078ba691eefe230478a440ee1f7b16")))
+                 "a72fc93fb1450772007d55f75e302468c0c44015")))
         (sha256
           (base32
-            "0gav9fg6x7gbbvpnjs5l5hdmvb7ynhdr4jkdhxr4s4mz1ba6mp2w"))))
+            "0fpsqhshlfhra23j7668saja90jfv9kk8i78c7m6rzb15rpqmab9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -116936,17 +116936,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20220606.2300")
+    (version "20220721.333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "45155e42ea10990295d47d5ee3cb29be16a1f9f6")))
+                 "6d19aab88f9a465d60134d37fad41826b61cf513")))
         (sha256
           (base32
-            "1cjz3sli309i2qrwxic63x1am4hpn8r9gwjnfjb62b954wdhhf97"))))
+            "11x1cnflrsmj2h1nks65b0r1byw3hpin6jy773n6nwh8x3h7ayz7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -120475,7 +120475,7 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20220720.2350")
+    (version "20220720.2359")
     (source
       (origin
         (method git-fetch)
