@@ -12799,17 +12799,17 @@
 (define-public emacs-cljr-helm
   (package
     (name "emacs-cljr-helm")
-    (version "20160913.828")
+    (version "20220721.824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/philjackson/cljr-helm.git")
                (commit
-                 "f2fc7b698a56e4a44d5dfbc6a55d77a93c0fa9a4")))
+                 "2c1f9cbd892ec03335f671ea3f974ee2ff6078dc")))
         (sha256
           (base32
-            "0jy6hkz8sr1bplymwxnjg4q408cw2dgfrv70chlw3y5ddc4cingj"))))
+            "0cd2ik9kjnl47c3ys4zbi8pp6kv8vvrcv8ylqpnlikqy1fmnj7wv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clj-refactor emacs-helm-core))
@@ -36363,17 +36363,17 @@
 (define-public emacs-finito
   (package
     (name "emacs-finito")
-    (version "20220720.1031")
+    (version "20220721.1235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/finito.el.git")
                (commit
-                 "84aef517f3a61713f6093de981d404080e8ef7d8")))
+                 "b97a2af3961888b5fa7bf003d092266c5bcd030d")))
         (sha256
           (base32
-            "1vcylaz7b4x7bhdgcbn3p1c5gwfq8l0sb731g7ni54qhk6x72fck"))))
+            "0rcy2zkpjicxyja1c54794dxfha4a6j1sgkqk6hkniaxyy92r6d3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -44474,17 +44474,17 @@
 (define-public emacs-git-identity
   (package
     (name "emacs-git-identity")
-    (version "20220402.708")
+    (version "20220721.912")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/git-identity.el.git")
                (commit
-                 "e7da2b3e3a5a790311431e3263b00df41d335136")))
+                 "f920916a92fad0c551cd0739e48fc09d8709bd8d")))
         (sha256
           (base32
-            "0mm5fbp9x1far97bk7n2y5hmcjbmd3iss9wx7iqh1852b4k4087x"))))
+            "1ig7xf9f3hs3xh8428fsjrczfhnxzzjjjij2xhgns6m0kwh5j0r3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-hydra emacs-f))
@@ -52053,17 +52053,17 @@
 (define-public emacs-helm-orgcard
   (package
     (name "emacs-helm-orgcard")
-    (version "20151001.1524")
+    (version "20220721.756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-jp/helm-orgcard.git")
                (commit
-                 "9655ac340d1ccc5f3d1c0f7c49be8dd3556d4d0d")))
+                 "d58d35627bb1714bb2cb095f696706b6881233ed")))
         (sha256
           (base32
-            "1zyjxrrda7nxxjqczv2p3sfimxy2pq734kf51j6v2y0biclc4bk3"))))
+            "05ah4ha9zg1fzs60hs2zdfnxwy7cbrn35c8r6rrryy59dn40jzxc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm-core))
     (home-page
@@ -67791,17 +67791,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220717.1810")
+    (version "20220721.1133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "5a62d4aa1b05fd14e338c47dad976b0b53c4bbc0")))
+                 "6b0c94bd5eb133b0fc89542d9356cad10fb01868")))
         (sha256
           (base32
-            "0g8gzaapwa7n6rfwhplp7zrgrlxx46j4k66s9l48ifpmyppvbjl0"))))
+            "1ak8i36pmydimmxdymn33cbgqvbs2j80mpkhgh52133ywxj9qwz6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69912,17 +69912,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220707.914")
+    (version "20220721.1224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "4fe73f5724d1e7e61b2e0abf4a530d8a2cdadcb8")))
+                 "ee2bd929fc40875dbe2df031cb93c5df908bea04")))
         (sha256
           (base32
-            "0ini275pkw5dy7y6jhrsddaq2z1lb744b8mdlyfssy0hs53abszg"))))
+            "1mdnl12savg9r1xga4rlg5pvgdwa6mvb0cji45lk11ss45g1yjbw"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -106722,17 +106722,17 @@
 (define-public emacs-ssh-tunnels
   (package
     (name "emacs-ssh-tunnels")
-    (version "20220606.1229")
+    (version "20220721.1242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/death/ssh-tunnels.git")
                (commit
-                 "191013b83f3ec3214394a1ed698c4cf38e4d9047")))
+                 "5010d779edef33f869065231b99d74723c9c7eaf")))
         (sha256
           (base32
-            "0l50d8vkfc5hv1j5j807a398ghv4ap19mpiv75c8l5k1mbrysald"))))
+            "15pwgc9s7f5fjmx2savjrpwr6qcpp0s9iy0y10abpy63np4krc62"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/death/ssh-tunnels")
     (synopsis "Manage SSH tunnels")
