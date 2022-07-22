@@ -22765,17 +22765,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220721.1645")
+    (version "20220722.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4a6576eb4e707067f533d7480d2eb7a2de4014e0")))
+                 "bc3d42d168229dd33411e4e5cdc41b0fc6e428e6")))
         (sha256
           (base32
-            "0i1w2w6ynvc3awl858kqn6v4q5pdnlgmq46yzssiwig2njx34vnm"))))
+            "1mc5z492a9zijv5qa23qnqnwm2hsljcbv3447jc6bhh3zj1rm501"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -36363,17 +36363,17 @@
 (define-public emacs-finito
   (package
     (name "emacs-finito")
-    (version "20220721.1235")
+    (version "20220722.840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/finito.el.git")
                (commit
-                 "b97a2af3961888b5fa7bf003d092266c5bcd030d")))
+                 "e09fbd82c3c484033c34fad622bb51b0cd177196")))
         (sha256
           (base32
-            "0rcy2zkpjicxyja1c54794dxfha4a6j1sgkqk6hkniaxyy92r6d3"))))
+            "0wwijv4rfvp3mqywijci48wdy1mg33d4pqsj51ny9r2y22v4vr9l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -38904,17 +38904,17 @@
 (define-public emacs-flycheck-ocaml
   (package
     (name "emacs-flycheck-ocaml")
-    (version "20220720.1256")
+    (version "20220722.1330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck-ocaml.git")
                (commit
-                 "629080c1bbe4d6195c70bae3f4e09cc2b79c8e2d")))
+                 "dd3cf1080a9c49c8290eec027a3adedb72979cbd")))
         (sha256
           (base32
-            "1xk8n5ak73gzh8yl9c5qlfj9frqiyjfxsf2174xx8bwakhfnmyk2"))))
+            "1yri6fsskicbns0y1ncynf0r74jp3my0lfwsq7dzbdcdhygnnfxg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-merlin))
@@ -57714,17 +57714,17 @@
 (define-public emacs-inf-clojure
   (package
     (name "emacs-inf-clojure")
-    (version "20220716.1651")
+    (version "20220722.628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/inf-clojure.git")
                (commit
-                 "7de63df35fd912fb04fde56a1c07862e0e22bfe4")))
+                 "151b20ba9d3ae39b88f91aecbab98bd5a5215f1a")))
         (sha256
           (base32
-            "0h0f3bzimvy6yg6j6fp0iwdbxkf01v2v9x418l5lmrfdx3bdps1m"))))
+            "179k3w67v1sx8dg5fjg6pf2pg9qdg48slbihcax033bm494kydq5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (home-page
@@ -67791,17 +67791,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220721.1133")
+    (version "20220722.1319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "6b0c94bd5eb133b0fc89542d9356cad10fb01868")))
+                 "2ca7364c31aefbe43e1b06699b1a15f78a935a95")))
         (sha256
           (base32
-            "1ak8i36pmydimmxdymn33cbgqvbs2j80mpkhgh52133ywxj9qwz6"))))
+            "1c4xl43qaxvg8v9wlk8anclna952mb1b93mxvp5ffc8q9zi19a1k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -102079,17 +102079,17 @@
 (define-public emacs-shenshou
   (package
     (name "emacs-shenshou")
-    (version "20220709.654")
+    (version "20220722.853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/shenshou.git")
                (commit
-                 "f3f991f9773283f3834e8518eb6910aa29e88f9e")))
+                 "c4880ee5324a53822a7f28d3d54e53e58713326c")))
         (sha256
           (base32
-            "0gmih585vb1qlcz152gkx8q9xdfjg456w43d4bd0q363ysqjfd70"))))
+            "01bwpgd7yx8cfgg9124crn7rxqpfqby4rqf5j8ffw8z0sp5x6s4d"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/shenshou")
@@ -105902,17 +105902,17 @@
 (define-public emacs-speed-type
   (package
     (name "emacs-speed-type")
-    (version "20191204.1107")
+    (version "20220722.1332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/parkouss/speed-type.git")
                (commit
-                 "5ef695f7159aa1f20c7c9e55f0c39bcdacce8d21")))
+                 "3cec9fe34bc2bd83d43c3a69e937e2126031eb9f")))
         (sha256
           (base32
-            "17xh7f1ps6bfs55a08d0jjma2hs117fv4j90w4xif0n2h49m4pjp"))))
+            "0ck3sd9qr22j3xyhz3i35mn2pwqsgrfs2r59cpfrz6pn4a6im8d1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/parkouss/speed-type")
@@ -119166,17 +119166,17 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20220601.650")
+    (version "20220722.1027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/wordreference.el")
                (commit
-                 "f1f0354dee403b0ee9b2187bc346e9badff69ec3")))
+                 "a010013ec90e5233173377e7d79265a2b69306a1")))
         (sha256
           (base32
-            "0yq5vrampjibn7p9ixx8fp0jzdhw4acr7i5jxjczypnhp96f6vk0"))))
+            "0ih7xxc64pmiv9dawgphlbfrr6n7vgcj7vz3w9jsv20sb236ycfm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
