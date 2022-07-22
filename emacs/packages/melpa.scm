@@ -11916,17 +11916,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220628.551")
+    (version "20220721.1551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "186b4976565a18fcb00e1685a44a87a8559eadcc")))
+                 "b47fe53b39184b03b413284139d81b255d559db9")))
         (sha256
           (base32
-            "0r0fgmk36hkbwm30ck2gywc9nzgxzil4riwmpc18wxp6alqf3mwi"))))
+            "04iwdba8kflp8l88shbg4lp34ig2jz034qj6ycvjdr22l89jzhl6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -14960,17 +14960,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20220704.727")
+    (version "20220721.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "4b5fa0b4e298447d139f7700eb5c70a2b8d2e386")))
+                 "91b76fc475f7eb17a0ae8b94a42625dfb546cc01")))
         (sha256
           (base32
-            "05p1zz53449mnc75jy4ic30gfzbgfd6s5cw5qq2454sq4q7ydqnj"))))
+            "1yabv0g07xpj1kfm95ygxa21zgq8r0lq0iyavdv9s56q1aiwpkpq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -16867,17 +16867,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220720.2120")
+    (version "20220721.1851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-recoll.git")
                (commit
-                 "85a527af318f220c1671c56b89faa5ca23d2c7ec")))
+                 "d80ad99e4df0ab47829eeee148ab701d014d67ae")))
         (sha256
           (base32
-            "1v3mlwcgrkvn695pz96xlb0yp7djwdrprq898r1ffj551lzmd5f5"))))
+            "04npihrg02w8sd783gjs2mb5hjzgw6fza6s3jjz7pnnj5zxhrmsz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -22765,17 +22765,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220720.1255")
+    (version "20220721.1645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "c59b48e93f30b5e3d6a685c9ea50c513d609777d")))
+                 "4a6576eb4e707067f533d7480d2eb7a2de4014e0")))
         (sha256
           (base32
-            "03bw28glkklm32a8jwc65svjfz3slhqlyrra3f81jc1x92y69rv4"))))
+            "0i1w2w6ynvc3awl858kqn6v4q5pdnlgmq46yzssiwig2njx34vnm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -42653,17 +42653,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220713.23")
+    (version "20220721.1948")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "314280ae62a907004ce82f8bbbddf8feca497e95")))
+                 "82b8a357ecfcf5f148b60f860c104b2b20c58481")))
         (sha256
           (base32
-            "062lg7a6bb57zr1rcisk8hxagm2jd5ywphm881q87c8vkfhki2ar"))))
+            "107xa8mg9glygv71lfw32isclhg0i8qz1ig4ckxar0hli8jdhb3k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -50033,17 +50033,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220721.529")
+    (version "20220721.1832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "084dd2fd66b12c77334e364e20c377aba5644535")))
+                 "da114dfc9c21f0ed6f42981ec06aa7dd8855836c")))
         (sha256
           (base32
-            "1mrccznxifb8dfh07wcqksp7qsj1bhgnnqv762j1bm3fvl50a9a0"))))
+            "0sc6x4ckx3a3qa0cmmn9cmk0mpi87ali4w5i1ll723bky9nl13hb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -57762,17 +57762,17 @@
 (define-public emacs-inf-elixir
   (package
     (name "emacs-inf-elixir")
-    (version "20211202.210")
+    (version "20220721.1939")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/J3RN/inf-elixir.git")
                (commit
-                 "acb948ca41a862c8c9b3f61ad576dec2c30d0052")))
+                 "5b45f5bd346446d87c629794b3c3e586c3eefd9c")))
         (sha256
           (base32
-            "1rlc2sf8r1vzs13fa2kab93m2xr883ckywx1h1an2b4si73y5ddc"))))
+            "19h3wxwv4yws2hw03pqw4574dvmywy36zr3rby6bd71sx8ljdbkl"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/J3RN/inf-elixir")
     (synopsis "Run an interactive Elixir shell")
@@ -69912,17 +69912,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220721.1224")
+    (version "20220721.1833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "ee2bd929fc40875dbe2df031cb93c5df908bea04")))
+                 "69442c2d9472b665f698f67426cd255f6c0620a3")))
         (sha256
           (base32
-            "1mdnl12savg9r1xga4rlg5pvgdwa6mvb0cji45lk11ss45g1yjbw"))))
+            "088hl9swh8ns4249cb2vapchbynxmy06njb7y4mvj1da493wp6az"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -80129,17 +80129,17 @@
 (define-public emacs-org-alert
   (package
     (name "emacs-org-alert")
-    (version "20210922.125")
+    (version "20220721.1721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/spegoraro/org-alert.git")
                (commit
-                 "c039d0121d21e4558c0f5433135c839679b556d7")))
+                 "f1801e061722843329b95409957c7dbd5cc223e9")))
         (sha256
           (base32
-            "0xalf5bbawnxm61askvldg2g93gvf6i1bpxqk55bglnl2cdq6g2i"))))
+            "0k8rc820s57rxb74xzk6w838887x3swbvaya3k7xfkwm6yshfg6z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-alert))
     (home-page
@@ -103140,17 +103140,17 @@
 (define-public emacs-sis
   (package
     (name "emacs-sis")
-    (version "20220720.1536")
+    (version "20220721.1600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/laishulu/emacs-smart-input-source.git")
                (commit
-                 "4a5189cf1beb9965cabc021b2697b51f18390266")))
+                 "d7a415b00bb1ddcf940d82afdd01e8b793d5466b")))
         (sha256
           (base32
-            "1ljib0ijkwns773miakhp9fbp81k8kjls6qjlpi31lb9s70njwxb"))))
+            "1vj1yr6likmsapr6nrkbr3sf2bk9w16jxa8hra0328b3q8afh21f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-terminal-focus-reporting))
