@@ -26446,17 +26446,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220719.1650")
+    (version "20220722.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "eed9a6551562501241ed9ee7eaad24d59a836ff6")))
+                 "29690e88e3b1d2f5d5472d7457a56cc363fb2805")))
         (sha256
           (base32
-            "1rbmfp2k2wq0cic4kir78zna7j007drf3y9yjj7ylvybq6chs130"))))
+            "0piy9k0v9h23sd0p01a1cnnsyswbid0n4cgr28z836ldvmqrcja1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -50033,17 +50033,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220721.1832")
+    (version "20220722.424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "da114dfc9c21f0ed6f42981ec06aa7dd8855836c")))
+                 "4a3897a2f756c20d460e969427cc6401e1e637d9")))
         (sha256
           (base32
-            "0sc6x4ckx3a3qa0cmmn9cmk0mpi87ali4w5i1ll723bky9nl13hb"))))
+            "13az6vpkzvlfxddls8jg6psnpy48s17mpz5v8rb372klr4la3j1l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -61876,17 +61876,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220523.435")
+    (version "20220722.547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "0d84683fca326dfd39f049068d1bccea20d6121b")))
+                 "a40b73fed941588ada5bc21087b4959b33d73ceb")))
         (sha256
           (base32
-            "1x0p14sfn4421nm4zjgfzsdszysn11iaghlfrx8wan067d7rhv4s"))))
+            "1pl68jy2a5yd4zc3dbzasjai0n0ya3fh3nyg6s6i71k8c6k3871k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -64030,20 +64030,20 @@
 (define-public emacs-lacquer
   (package
     (name "emacs-lacquer")
-    (version "20220321.720")
+    (version "20220722.140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dingansichKum0/lacquer.git")
                (commit
-                 "0d7d09f7fe22fb0241e91228ce44568ed3e3e798")))
+                 "71bf9e8464ae240db17204dd2b968260a9c4c305")))
         (sha256
           (base32
-            "1xfh4yi5r96vfy0zmr09lkvgzf7v82cs03y3jvflpz75acmbiryh"))))
+            "1y2vdypmr0bbmfm4xh6ss8r6rq41mpxgkrlrcfmxdlal1qzx93vy"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/dingansichKum0/lacquer")
+      "https://github.com/zakudriver/lacquer")
     (synopsis
       "Switch theme/font by selecting from a cache")
     (description
@@ -68695,17 +68695,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220706.148")
+    (version "20220722.345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "acd26dd9f3708602d4c721395d790a4af7937eed")))
+                 "281f0c3c377cc03f685f43c15e90be5a1fc09e75")))
         (sha256
           (base32
-            "05xfkk4dssqcf1kgxjlr74nya7nbkjmvqhqj6rmxbq89yb46nim5"))))
+            "04x5j094qvil81pp1r0d56nsrlbjggwgsqkw2z5wvggrfirp2ix6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -68784,17 +68784,17 @@
 (define-public emacs-magit-commit-mark
   (package
     (name "emacs-magit-commit-mark")
-    (version "20220708.211")
+    (version "20220722.36")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-magit-commit-mark.git")
                (commit
-                 "5762fdd85b3381fa72fa3219dc758e9e8c342246")))
+                 "0e67320abc7f2198d5a5688d339f0c4ae7b63d32")))
         (sha256
           (base32
-            "1vpg9ahrqpmd93kcxi8bwv98bz7204h5ir4r5j70c15d62y029yi"))))
+            "0cc47qxijw77zdvkagchbcjfy6v9myxg4l1f585sw8894fgislfp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -70100,17 +70100,17 @@
 (define-public emacs-markdown-soma
   (package
     (name "emacs-markdown-soma")
-    (version "20220720.944")
+    (version "20220722.411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/markdown-soma.git")
                (commit
-                 "9c6c869050f086eeb3307691c4f68b8dba73dd35")))
+                 "1d1242124ba44672c760884a3199044b23353206")))
         (sha256
           (base32
-            "05pskbyz7ibwdsi1r8kq2ynz8wvji3nlp00yh5lhxgki7xpj7c8v"))))
+            "1wbj12n9ms23zpw5asflsgmhwcaq9bs67wpyp2q5hcm919vmswkm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-f))
@@ -81897,17 +81897,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220521.1422")
+    (version "20220722.242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "cf96f585c68ad14751a3f73d937cbfcb890171b9")))
+                 "5c19b458f8dbd61f8a40c8b94ba843833ba90a77")))
         (sha256
           (base32
-            "17380kpf08j5ai30nn5iks0k3x8sm3kmz8lkyr1v0qvpr5a8s70b"))))
+            "0j8h9wqk0ca551ynfx9wliy92ddhgiq4gw8idhq4l1lkdykpnb11"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
@@ -88158,17 +88158,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220721.29")
+    (version "20220721.2312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "a72fc93fb1450772007d55f75e302468c0c44015")))
+                 "0b8d47ddddbf2e41a446df847701d00a9de01745")))
         (sha256
           (base32
-            "0fpsqhshlfhra23j7668saja90jfv9kk8i78c7m6rzb15rpqmab9"))))
+            "13cyz5snzgnc98s3sap1dnmaqj83h4y0dyimr7lsingv4i68bvp6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -120543,17 +120543,17 @@
 (define-public emacs-yaml-pro
   (package
     (name "emacs-yaml-pro")
-    (version "20220719.1430")
+    (version "20220722.334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml-pro.git")
                (commit
-                 "36d9900875ddde46d300c3c472bed902e5d0e8df")))
+                 "3e698c625c716a1f85e64b9b839241cb56f0db92")))
         (sha256
           (base32
-            "1h97a650zlzqpf2rssjqhmilh83882lqy0xl3d1fqrrqqzm1h9fd"))))
+            "0c0p07g6zjpfnmac368iigw63zl7fylxawx8rbmcwzkb5yrbq4xq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/yaml-pro")
