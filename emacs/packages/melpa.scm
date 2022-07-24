@@ -4192,22 +4192,21 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20220124.1430")
+    (version "20220724.241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "ad00c5eb90f189223ef8a0b49c1dc5fef1ef26b0")))
+                 "274beab092dcc169b9887f7734a5f82b892e7702")))
         (sha256
           (base32
-            "0wrwqr79swsj4jmvnn0ljzymjmp1rr4al37qibagl6pj8vfdqim0"))))
+            "0qyn0w9jh0y74m50xznaq0wbi2q892hnkrhbf9ay6jhr0y88hqv7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
-    (synopsis
-      "Programming game involving WAT and YAML")
+    (synopsis "Programming game involving WAT")
     (description
       "Documentation at https://melpa.org/#/asm-blox")
     (license #f)))
@@ -22765,17 +22764,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220723.1344")
+    (version "20220724.458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "d5f9a57be098c28ebb52f25532454b9d00ee23ec")))
+                 "86b7002d3b035b1a314775db5ff1946e29bd33ef")))
         (sha256
           (base32
-            "0psn1h9wgf63db4r2j7adgn6j1403rgnnfw8gkcci9la9i43hcgs"))))
+            "14q7m74ryj5rm1bzxixw1877wsszf4yicmqr05im7d87jk6x8r6x"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -73086,17 +73085,17 @@
 (define-public emacs-moom
   (package
     (name "emacs-moom")
-    (version "20210324.825")
+    (version "20220724.808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/moom.git")
                (commit
-                 "f94cf84138a81212ffe856599834f7824a1b6e95")))
+                 "808952a934d0459829422b3417ca23926c1ceabf")))
         (sha256
           (base32
-            "0rdvcv8hwrxxbb9s8sfx5331a08kdk28x8chnnq3pj58pxqvagy3"))))
+            "0llkf7f7cq4ydql8ynqvslmnmbkxx7bdpawxm10cv44n1qyv8s7h"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/takaxp/Moom")
     (synopsis
