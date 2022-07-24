@@ -16913,17 +16913,17 @@
 (define-public emacs-consult-yasnippet
   (package
     (name "emacs-consult-yasnippet")
-    (version "20220409.1209")
+    (version "20220724.1338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/consult-yasnippet.git")
                (commit
-                 "cdb256d2c50e4f8473c6052e1009441b65b8f8ab")))
+                 "ae0450889484f23dc4ec37518852a2c61b89f184")))
         (sha256
           (base32
-            "0sr0v6kd91sbz8zfg35b5y2s3mr047a75kwh9himn2jgrm75kl50"))))
+            "13hmmsnmh32vafws61sckzzy354rq0nslqpyzhw97iwvn0fpsa35"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet emacs-consult))
@@ -22764,17 +22764,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220724.458")
+    (version "20220724.1212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "86b7002d3b035b1a314775db5ff1946e29bd33ef")))
+                 "1b90bf473b840f9c85598934c7654d8c706ac51f")))
         (sha256
           (base32
-            "14q7m74ryj5rm1bzxixw1877wsszf4yicmqr05im7d87jk6x8r6x"))))
+            "1rvpv9j7s4a259623565348xia9jibi2km540fhzl762bphpcd91"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -66115,17 +66115,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20220209.1138")
+    (version "20220526.1832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "df1b7e614fb0f73646755343e8892ddda310f427")))
+                 "dbab5899f26fa2ee27f5c2e8b32c20f2f69242fb")))
         (sha256
           (base32
-            "02pmnn9cqslahnvllqzawp2j5icmb3wgkrk4qrfxjds68jg7pjj4"))))
+            "0s5f4qlpa1nrlww2x1k77mchybvk92vh1n7i65p3vxfb6d3qvz1a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -94102,17 +94102,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220709.519")
+    (version "20220724.1211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "3d9d16b578a1136ef344b61db5f0d55cefcf4164")))
+                 "f8a1d82e27eea188fa9be28e05c409a6a41bda0b")))
         (sha256
           (base32
-            "032an8d6mr67q4xip9x6imw7ljslnck8s1mx44gxdrz94zi2rk4h"))))
+            "10zgfaykmb9z3p3af3qzpqgdvc1v5mman0asyf81qav53lssinay"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -95335,17 +95335,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220705.1452")
+    (version "20220723.2044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "9dae07533f0fde32c12af5260055a2c3cc199312")))
+                 "88f4e1305d91609b91f29428355210d6eee196b9")))
         (sha256
           (base32
-            "1wbrxfmagp1v7wyhhwiv6yplw8bnpyjzs4bd7nqgsvvjgf3lk2h4"))))
+            "0qpypmd2f4kv6m6gxa1f3isdaji6kfjg00p8qv6vz4z3zq24vhlb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
