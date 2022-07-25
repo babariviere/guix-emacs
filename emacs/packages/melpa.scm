@@ -6443,17 +6443,17 @@
 (define-public emacs-base16-theme
   (package
     (name "emacs-base16-theme")
-    (version "20220713.402")
+    (version "20220725.353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/base16-project/base16-emacs.git")
                (commit
-                 "6f37e4a849a84a41c4404a15d1bac57cbf912324")))
+                 "36cd6ed044ee37e399fc5d0db8070ae79fb06800")))
         (sha256
           (base32
-            "0y0yw6wnsfkmv8nrl2a0v6l0aiqc9bjhiwxjz4l8ncbp0gkvad1y"))))
+            "1v0i80iydmzrd8z1ri1dmg9bqj13xvr21lwvaqpq9jxh7iq1b9a8"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "build/*.el")))
     (home-page
@@ -34866,17 +34866,17 @@
 (define-public emacs-external-dict
   (package
     (name "emacs-external-dict")
-    (version "20220724.38")
+    (version "20220725.528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/external-dict.el.git")
                (commit
-                 "0aa200022212f8fc4d76d0ae0fa19644a90f44ac")))
+                 "c364895f27c7b5a6421a7bf159851390bfc95642")))
         (sha256
           (base32
-            "1zkby0wig7gkqw0dqjg5kdyjal367awffbrxv33mpdii8wrd24c1"))))
+            "1krx9bmw3sh8q1f90fx6hiq6il93gp284c076xispiwq0gyixibl"))))
     (build-system melpa-build-system)
     (home-page
       "https://repo.or.cz/external-dict.el.git")
@@ -109560,6 +109560,29 @@
       "Documentation at https://melpa.org/#/tango-plus-theme")
     (license #f)))
 
+(define-public emacs-tangonov-theme
+  (package
+    (name "emacs-tangonov-theme")
+    (version "20220724.2201")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/trev-dev/tangonov-theme.git")
+               (commit
+                 "c74f9be51a41fe319a47123e92efc41236d18e80")))
+        (sha256
+          (base32
+            "0fz1vrhpz485fj2w42rc6fn65y7rps64h5gxvjrdmqxs6famz7x5"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/trev-dev/tangonov")
+    (synopsis
+      "A 256 color dark theme featuring bright pastels")
+    (description
+      "Documentation at https://melpa.org/#/tangonov-theme")
+    (license #f)))
+
 (define-public emacs-tangotango-theme
   (package
     (name "emacs-tangotango-theme")
@@ -114189,17 +114212,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220710.1043")
+    (version "20220725.101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-undo-fu-session.git")
                (commit
-                 "0d50961415876a8468f6eac06701f290a63eea6d")))
+                 "a522c9a511819083bb1b1c760e92df80a246f5fd")))
         (sha256
           (base32
-            "1x2qryf0505daix3nixs3ql2n66kyhfyxgdz5ppy9ir0anh89a5p"))))
+            "1ii73kx2nh74h7msdmi7245gbk934hi6kn4ykjhn7jzv0bvinb6q"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-undo-fu-session")
