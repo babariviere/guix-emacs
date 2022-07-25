@@ -10290,6 +10290,49 @@
       "Documentation at https://melpa.org/#/carbon-now-sh")
     (license #f)))
 
+(define-public emacs-cardano-tx
+  (package
+    (name "emacs-cardano-tx")
+    (version "20220718.1440")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Titan-C/cardano.el.git")
+               (commit
+                 "2c1ad565ff39fd03d137ba115b1fb77841914c6d")))
+        (sha256
+          (base32
+            "1mnv42f2grlas39r5r7ajgm5f8wad8w1lqnsnl81i1hbhz3mm4aw"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-f
+            emacs-yasnippet
+            emacs-yaml-mode
+            emacs-yaml
+            emacs-helm
+            emacs-cbor
+            emacs-bech32
+            emacs-readable-numbers
+            emacs-emacsql
+            emacs-emacsql-sqlite3))
+    (arguments
+      '(#:files
+        (:defaults
+          "snippets"
+          (:exclude
+            "cbor.el"
+            "bech32.el"
+            "readable-numbers.el"
+            "cardano-wallet.el"
+            "ouroboros.el"))))
+    (home-page
+      "https://github.com/Titan-C/cardano.el")
+    (synopsis "Cardano transaction editor")
+    (description
+      "Documentation at https://melpa.org/#/cardano-tx")
+    (license #f)))
+
 (define-public emacs-cargo
   (package
     (name "emacs-cargo")
@@ -12199,17 +12242,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220717.2139")
+    (version "20220724.2250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "c5ed78e69ab1ddbf19f6b5793c8356678466caf8")))
+                 "8475c1fd2b8d2171b7c9dd4318aa67d09c62b820")))
         (sha256
           (base32
-            "1rs9s1xp2igbxcn45ifwf54wfqcfphk0wn3ipl5i5n5z0sda0p33"))))
+            "1sh0hxx2a983czpnpihpr9zhi0321g7riv98lk2knz06xhqai0cy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -12227,17 +12270,17 @@
 (define-public emacs-citar-embark
   (package
     (name "emacs-citar-embark")
-    (version "20220710.1109")
+    (version "20220724.2250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "96a567d70bae00118187c77051159df95c33f2dc")))
+                 "8475c1fd2b8d2171b7c9dd4318aa67d09c62b820")))
         (sha256
           (base32
-            "0ks4llnh0gix8biby8jcp8fg6cvpibdgba7nigxfhilabwlnwfnb"))))
+            "1sh0hxx2a983czpnpihpr9zhi0321g7riv98lk2knz06xhqai0cy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-citar))
@@ -16350,17 +16393,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20220717.251")
+    (version "20220724.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "f34c1218e5f9a759646f68f6afd8f9b8fd4022cc")))
+                 "a65ed0084876366fd1b238bb2b8b36ee75ac98d8")))
         (sha256
           (base32
-            "0iprlzgshad6p2m9avsjgvyj03wfv488j9xgr4m61i83hc28dzwr"))))
+            "0w4fb615019w8bav5v67a5y6rb4bs2fbh3kggs3pya96ncr475cr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -24624,17 +24667,17 @@
 (define-public emacs-dtrt-indent
   (package
     (name "emacs-dtrt-indent")
-    (version "20220518.807")
+    (version "20220724.2231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/dtrt-indent.git")
                (commit
-                 "57f4072fa8acd5f7af40b11f5f33607bca324fe1")))
+                 "397ca8e244dc57ee9583815d30fc3fbbb0dfac3d")))
         (sha256
           (base32
-            "1pimn792p93i2rs08al32xr3p9csp645ai5830mgjza6nkkqhxml"))))
+            "0spx7s92fbx8grlhzzmkvizwds0xva4v57aa8jinpd4nvjhccpf0"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Adapt to foreign indentation offsets")
@@ -24870,6 +24913,28 @@
       "Diceware passphrase generation commands")
     (description
       "Documentation at https://melpa.org/#/dw")
+    (license #f)))
+
+(define-public emacs-dwim-shell-command
+  (package
+    (name "emacs-dwim-shell-command")
+    (version "20220724.2117")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/xenodium/dwim-shell-command.git")
+               (commit
+                 "c1949a73bf672614b989124118d6222c741ef93c")))
+        (sha256
+          (base32
+            "09y9kw3yms05kk2c91llb1vjl59gs4hwa4xrik7276y2d0f4gwcn"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/xenodium/dwim-shell-command")
+    (synopsis "Shell commands with DWIM behaviour")
+    (description
+      "Documentation at https://melpa.org/#/dwim-shell-command")
     (license #f)))
 
 (define-public emacs-dyalog-mode
@@ -34796,6 +34861,29 @@
     (synopsis "R drag and Drop")
     (description
       "Documentation at https://melpa.org/#/extend-dnd")
+    (license #f)))
+
+(define-public emacs-external-dict
+  (package
+    (name "emacs-external-dict")
+    (version "20220724.38")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://repo.or.cz/external-dict.el.git")
+               (commit
+                 "0aa200022212f8fc4d76d0ae0fa19644a90f44ac")))
+        (sha256
+          (base32
+            "1zkby0wig7gkqw0dqjg5kdyjal367awffbrxv33mpdii8wrd24c1"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://repo.or.cz/external-dict.el.git")
+    (synopsis
+      "Query external dictionary like goldendict, Bob.app etc")
+    (description
+      "Documentation at https://melpa.org/#/external-dict")
     (license #f)))
 
 (define-public emacs-extmap
@@ -46692,29 +46780,6 @@
       "Scroll half screen down or up, and highlight current line")
     (description
       "Documentation at https://melpa.org/#/golden-ratio-scroll-screen")
-    (license #f)))
-
-(define-public emacs-goldendict
-  (package
-    (name "emacs-goldendict")
-    (version "20220210.1401")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://repo.or.cz/goldendict.el.git")
-               (commit
-                 "f3fbe658a8d31dc1bd0ca69e4d2ebaab59e92791")))
-        (sha256
-          (base32
-            "0x38j3wpyaxggihkw3g1qcf0phfrcic555xyqy3vskhvvf5xgc5v"))))
-    (build-system melpa-build-system)
-    (home-page
-      "https://repo.or.cz/goldendict.el.git")
-    (synopsis
-      "query word smartly with goldendict.el")
-    (description
-      "Documentation at https://melpa.org/#/goldendict")
     (license #f)))
 
 (define-public emacs-golint
@@ -74756,17 +74821,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220718.1917")
+    (version "20220724.2023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "9551b5c446baf61fc4f76e802b89fdaf4567cc1b")))
+                 "c5ef0baf1d2e95bc613e99700c38a1227cabe187")))
         (sha256
           (base32
-            "1lvfgdwxxdrz5n1zmxwqj97q8hvngz6bakz459j3jxl2mbbzazd3"))))
+            "133d871a1rrapnkjv5nhll1gc14ih3n045v5brmmr642w97ri9dh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -87913,17 +87978,17 @@
 (define-public emacs-pcache
   (package
     (name "emacs-pcache")
-    (version "20201226.634")
+    (version "20220724.1841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sigma/pcache.git")
                (commit
-                 "893d2a637423bae2cc5e72c559e3a9d1518797c9")))
+                 "507230d094cc4a5025fe09b62569ad60c71c4226")))
         (sha256
           (base32
-            "1xxbi4lp4ygvciqmy8lp6zn47k954ziz5d95qz1l7a2jix3rxf1p"))))
+            "1fjdn4g9ww70f3x6vbzi3gqs9dsmqg16isajlqlflzw2716zf2nh"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "persistent caching for Emacs.")
@@ -89767,6 +89832,28 @@
     (synopsis "A Pipenv porcelain")
     (description
       "Documentation at https://melpa.org/#/pipenv")
+    (license #f)))
+
+(define-public emacs-pipewire
+  (package
+    (name "emacs-pipewire")
+    (version "20220716.1933")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.zamazal.org/pdm/pipewire-0")
+               (commit
+                 "8109f438550a83633db5f4bd2cf88a5feb445f82")))
+        (sha256
+          (base32
+            "0jvdhm5xn57rakn6yarfq0x3iyw1bn30988i33rghmplm09x8nc0"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.zamazal.org/pdm/pipewire-0")
+    (synopsis "PipeWire user interface")
+    (description
+      "Documentation at https://melpa.org/#/pipewire")
     (license #f)))
 
 (define-public emacs-pippel
@@ -98543,6 +98630,29 @@
       "Documentation at https://melpa.org/#/robe")
     (license #f)))
 
+(define-public emacs-robot-log
+  (package
+    (name "emacs-robot-log")
+    (version "20220719.1301")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~apteryx/emacs-robot-log")
+               (commit
+                 "26da47597aa97be9649cb60f4da6d94d47d0c0ac")))
+        (sha256
+          (base32
+            "1l9yxryrhvylh2x17cczd8v8978w1nv8173d4l9hv0cr26kp5b68"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.sr.ht/~apteryx/emacs-robot-log")
+    (synopsis
+      "Major mode for viewing RobotFramework debug log files")
+    (description
+      "Documentation at https://melpa.org/#/robot-log")
+    (license #f)))
+
 (define-public emacs-robot-mode
   (package
     (name "emacs-robot-mode")
@@ -102649,6 +102759,30 @@
       "Documentation at https://melpa.org/#/sideline")
     (license #f)))
 
+(define-public emacs-sideline-blame
+  (package
+    (name "emacs-sideline-blame")
+    (version "20220629.801")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacs-sideline/sideline-blame.git")
+               (commit
+                 "6e9fb45caea9031554e6e2110e39e219a407779e")))
+        (sha256
+          (base32
+            "00a75fl7akwvn04icz79zhl4bk940y2hc6yvm2977r4y9wqbhjj0"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-sideline emacs-vc-msg))
+    (home-page
+      "https://github.com/emacs-sideline/sideline-blame")
+    (synopsis "Show blame messages with sideline")
+    (description
+      "Documentation at https://melpa.org/#/sideline-blame")
+    (license #f)))
+
 (define-public emacs-sideline-flycheck
   (package
     (name "emacs-sideline-flycheck")
@@ -106282,6 +106416,27 @@
     (synopsis "Upload pastes to sprunge.us")
     (description
       "Documentation at https://melpa.org/#/sprunge")
+    (license #f)))
+
+(define-public emacs-sq
+  (package
+    (name "emacs-sq")
+    (version "20220717.2039")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/sequoia-pgp/sqel.git")
+               (commit
+                 "bb0d1756bb9c62bb999fa21e15949e28650c663e")))
+        (sha256
+          (base32
+            "1ih91f58spn1225x6a8mlpikxqg2ga4xbln6aalrcjk6pk84s69d"))))
+    (build-system melpa-build-system)
+    (home-page "https://gitlab.com/sequoia-pgp/sqel")
+    (synopsis "Bindings for Sequoia PGP's cli")
+    (description
+      "Documentation at https://melpa.org/#/sq")
     (license #f)))
 
 (define-public emacs-sql-clickhouse
