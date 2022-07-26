@@ -8395,17 +8395,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220611.1724")
+    (version "20220726.1334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "c8b5ee24a289848a8c100bf04e29ae56130d0cf4")))
+                 "cb198c70e20c7ec0eec0388fd91da9b47af20da4")))
         (sha256
           (base32
-            "1n766s994kymppgn2gmv2qx7gm5wka5wcwhby1kpv7b2zq3xx9hr"))))
+            "1ppk6w557zm2qhk12grlw01qskrqsw7xcr629r5g1jirayxr6i5p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -24034,17 +24034,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220719.1716")
+    (version "20220726.834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "f98f806466d7ccb109bd0220ef5b9f1d48a5b05f")))
+                 "c536ba38dc8079590ec9392028fe173d355831eb")))
         (sha256
           (base32
-            "1sabs2cmrq2hcflxp49g0mzsbsgkm39v3b0wzhbx3958zb11h9pf"))))
+            "0qdn7jfqj3vljczv3szhgy8q58f0va361r3sdl3gv2lixqswblhj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -24918,17 +24918,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220725.2123")
+    (version "20220726.652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "848131455a2c3451108386861455e94de81ab9a6")))
+                 "d20d778cc8f9157e2ea7781cef7337b3d838b01d")))
         (sha256
           (base32
-            "05p810dagxw2jhz4sg2vh4gn3b659irsa91kkdzhk7m0bni3rj6n"))))
+            "1qw0mgkvwbi4mbbdl9dlcr9y16q84sfyr26n74h9vqncsphg5nm1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -31940,17 +31940,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20220718.906")
+    (version "20220726.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "a90260ae03d30d6df24c2546590cfd6f661e376f")))
+                 "238546eae3a4cfc9db9f43dbfa0c3c908ee57a1a")))
         (sha256
           (base32
-            "19xac5xvrvbzdnbdljf3v4an0rrlv3wd66zspngc3miny6haq6a3"))))
+            "0j23w4pf55hlcmi8ygfnk7vqwgj3mmwf5qyzf59aw1alapzwj6vy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -53261,17 +53261,17 @@
 (define-public emacs-helm-tail
   (package
     (name "emacs-helm-tail")
-    (version "20181124.439")
+    (version "20220726.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/helm-tail.git")
                (commit
-                 "1f5a6355aa3bdb00b9b0bc93db29c17f0d6701e3")))
+                 "8dc44a87fa1a52199e43b73b55c8ef8fe8069e79")))
         (sha256
           (base32
-            "1ad0khw26m22xpdv0iyg5gac92i8m455sznsfh16vxaa98gq0c4q"))))
+            "1gn3z14md9b20pkjk8gzjajjqdgb3nmnf10ylanlfh7gx5xjig77"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "https://github.com/akirak/helm-tail")
@@ -72743,17 +72743,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220723.835")
+    (version "20220726.1024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "960ddb7211775df51dcfd202be1d48166d6c646c")))
+                 "8567d60bf029d5a04a9839d6bf2dc8e2512b7bbe")))
         (sha256
           (base32
-            "0a9pkqca9xbl78g33rhb192vahvc334wvnid5n2xy4ixq7azpixq"))))
+            "0ymbhd7dmh7kmrr44krm2hvgxqdmbcm7mbsyr8rcrpxxk7j6935x"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -74614,17 +74614,17 @@
 (define-public emacs-my-repo-pins
   (package
     (name "emacs-my-repo-pins")
-    (version "20220717.1416")
+    (version "20220726.813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ninjatrappeur/my-repo-pins.git")
                (commit
-                 "3a85c415b2fd6c9146de9de6cc99fe5de629cd07")))
+                 "f460f17c524db2c815966a0b1ffe86ac450d4908")))
         (sha256
           (base32
-            "1ndn17jqlcgp7k7qwli67i23hvbcvgp0jyj967hfisbd553x9964"))))
+            "1ma1fgnka7v03jf0vn0fxn137k0gj4i9c58a34d7gqf6i2j7wajn"))))
     (build-system melpa-build-system)
     (home-page
       "https://alternativebit.fr/projects/my-repo-pins/")
@@ -75286,17 +75286,17 @@
 (define-public emacs-nav-flash
   (package
     (name "emacs-nav-flash")
-    (version "20210906.1942")
+    (version "20220726.1117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rolandwalker/nav-flash.git")
                (commit
-                 "2e31f32085757e1dfdd8ec78e9940fd1c88750de")))
+                 "5d4b48567862f6be0ca973d6b1dca90e4815cb9b")))
         (sha256
           (base32
-            "0wzk6nqky5zjpds9mmi1dcwn00d3044l7a0giawqycsa4zcybdlk"))))
+            "0l6zamrh3n3416pgr2jhqabldl180zg0n4651g42jn8xcbwg4w6c"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/rolandwalker/nav-flash")
@@ -84637,17 +84637,17 @@
 (define-public emacs-orgtbl-aggregate
   (package
     (name "emacs-orgtbl-aggregate")
-    (version "20220127.1502")
+    (version "20220726.1241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgaggregate.git")
                (commit
-                 "36d7aec5549655174467db45d1dba6647b9e19b1")))
+                 "cfdddd6700c7c0e8850aecfaae6f0bb4345ea5d0")))
         (sha256
           (base32
-            "0cg8rxl8wrcgm910jm0m61wbxk5i9f8cxcb289p7ip5bjbijmic9"))))
+            "047ys7qlg7s35drp5izz13gknri2hbsms2f57kf76w2qlp6i5ijv"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -84681,17 +84681,17 @@
 (define-public emacs-orgtbl-join
   (package
     (name "emacs-orgtbl-join")
-    (version "20220127.1516")
+    (version "20220726.1235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgtbljoin.git")
                (commit
-                 "f5254db6ae78e30c2786c53991e98e86ed344ac6")))
+                 "4b09436de15545ce73dd40e938176a98254109f8")))
         (sha256
           (base32
-            "1l63bcvlnqnj5z10cyanybc5jz9yimf53vffycf9wbsph5lpfs12"))))
+            "0k7z3d24k4nqz13xj0a7l79idar3kdl022r4jm3f9hjkxlddsbfk"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "join columns from another table")
@@ -119342,17 +119342,17 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20220723.1000")
+    (version "20220726.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/wordreference.el")
                (commit
-                 "2d38f5eeffc3019c3d6516d2314e47ca6be2b299")))
+                 "23800ccdf98134ef2bdc2592c92756cb01e17132")))
         (sha256
           (base32
-            "07r3fmykvznpa55v9g59v0a0n8f7czzn5f0nq2mxf73a118xrr8w"))))
+            "1cm2im2f2gb2s0673j4i9b998aq5qhrgs7np8djd713934dsrzhg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
