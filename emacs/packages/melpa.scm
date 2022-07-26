@@ -22507,17 +22507,17 @@
 (define-public emacs-dired-single
   (package
     (name "emacs-dired-single")
-    (version "20211101.2319")
+    (version "20220726.137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crocket/dired-single.git")
                (commit
-                 "b254f9b7bfc96a5eab5760a56811f2872d2c590a")))
+                 "48532d747f0098280050721b5d016ec59c97c77c")))
         (sha256
           (base32
-            "1w243yq5m6zd6yvcsnvxf8162fd6i0l5izqj11mji7jzyqxl1ih3"))))
+            "10l6bx2hai3k73bb406zfaf0nfp42d3mr19fm6r60v2g352wz6c4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crocket/dired-single")
@@ -35441,7 +35441,7 @@
 (define-public emacs-fancy-compilation
   (package
     (name "emacs-fancy-compilation")
-    (version "20220725.932")
+    (version "20220725.2313")
     (source
       (origin
         (method git-fetch)
@@ -54820,17 +54820,17 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20220710.1157")
+    (version "20220726.5")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-hl-prog-extra.git")
                (commit
-                 "286a4916ad4dd764ead07fb17000ad64cbcf11bd")))
+                 "6f05c4152dbbec033deb9c0ef7b4c9b6971a7173")))
         (sha256
           (base32
-            "077yjk1vh47jgfdd2x680maz5mfgmb35rpq98dv6ivdsr7m1p1p9"))))
+            "1xvbf85hv1b40x67makwfz40gs8jn36xydhwdf0b01i6c5nd1dx9"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
@@ -68556,17 +68556,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220725.1252")
+    (version "20220726.607")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "a9a8f0fb8e4a2e8838af34eb9e0af7b4d1d7d98d")))
+                 "02beee660243bf0aaff7e9f4c4ee5551f7f2d57f")))
         (sha256
           (base32
-            "1lfc3p9sl2ycnsidhpb3ya3mvam2ls2bgz001h7hb35dnvbr006c"))))
+            "1wjn15l83psdav1gf3mpbqy95cpdqzmss0358m2jkas1czglwkkx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -109563,17 +109563,17 @@
 (define-public emacs-tangonov-theme
   (package
     (name "emacs-tangonov-theme")
-    (version "20220725.1836")
+    (version "20220726.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trev-dev/tangonov-theme.git")
                (commit
-                 "06d09b19cded3cdf9eaf5251f97ef1d35e0390b1")))
+                 "6d6c3e89a01e6527168ea2efcbcfe2f32f0c908f")))
         (sha256
           (base32
-            "19xd6kz3lf005nwm8vykaza2wg6zkkrchsz6zv9ngd383pddazga"))))
+            "0pdrc0i2pam9gqji0d5cmvkj3c1n22nakyvg7bzbvh1k8lc7i7ai"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trev-dev/tangonov-theme")
