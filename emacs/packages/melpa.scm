@@ -24083,17 +24083,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20220622.2317")
+    (version "20220727.853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "d79a41f593c69697af1ddaac971c0c47ecc446a8")))
+                 "5f96ee83e9734587bf3e8ec61d4f067b43d9c26e")))
         (sha256
           (base32
-            "120pcas0l1m6w551qxfcl2fx0aysjqp91nn47zdxrr8rs01654wr"))))
+            "047axnd0xa6zqhrm09ldv09gw12k5gcpb9i6x7ma45nfbjvwc15y"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -24918,17 +24918,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220726.652")
+    (version "20220727.708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "d20d778cc8f9157e2ea7781cef7337b3d838b01d")))
+                 "412bde80ed2f636d1f6c599786d21d4a3f68287b")))
         (sha256
           (base32
-            "1qw0mgkvwbi4mbbdl9dlcr9y16q84sfyr26n74h9vqncsphg5nm1"))))
+            "0nicl8p490ripq4gnzlybwbv5iw7gisy6bifqzkba5kc57aly8q2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -31940,17 +31940,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20220726.1020")
+    (version "20220727.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "238546eae3a4cfc9db9f43dbfa0c3c908ee57a1a")))
+                 "b8167727d3c51f7adee6ebcad698ab566b68a55e")))
         (sha256
           (base32
-            "0j23w4pf55hlcmi8ygfnk7vqwgj3mmwf5qyzf59aw1alapzwj6vy"))))
+            "1g3bih73fr8vinasw19kag28f1d2z9isxa5n9jk52vi0rcspmsb1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -67855,17 +67855,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220722.1915")
+    (version "20220727.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "b2dc84128fc6b2cd0460569bae6d0451856d2e0b")))
+                 "2c6a0e92402708780f18745f98ca128be64bbc78")))
         (sha256
           (base32
-            "133wi872q97nbp2n59a0wi4r7a5iyrw2bahfpkqr8rgkfccqc6xg"))))
+            "148qyl40sy3wsyl6cddg9msw8jhysxg72yrfklfb54fyr0sr5jh6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70416,17 +70416,17 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220726.1541")
+    (version "20220727.854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/mastodon.el")
                (commit
-                 "b7e899de67dec07954a859c5d0803e13449ca77b")))
+                 "c06f1a14cceb02ba702c1a67d6ba97f3badc2a7b")))
         (sha256
           (base32
-            "07fd6f9746qxhwcckixry3sqcpbcnqlxfpgjpfh43fiq8zbiglma"))))
+            "162bv2q9h976902lqr7ahmbj3ll0kkcmvxcwiib0g4pibsqpr0wf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -72743,17 +72743,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220726.1613")
+    (version "20220727.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "8567d60bf029d5a04a9839d6bf2dc8e2512b7bbe")))
+                 "4211bcd6db3c3c51d6d97e3c9c119fb5b32b7ecd")))
         (sha256
           (base32
-            "0ymbhd7dmh7kmrr44krm2hvgxqdmbcm7mbsyr8rcrpxxk7j6935x"))))
+            "06hjba6afyk64jqc796i2ynbq3hldlyij7nm80pp0ksgh1svkyfq"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -84247,17 +84247,17 @@
 (define-public emacs-org-zettelkasten
   (package
     (name "emacs-org-zettelkasten")
-    (version "20220503.1357")
+    (version "20220727.859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymherklotz/emacs-zettelkasten.git")
                (commit
-                 "603a5b692a08340c1865a6f73cacf57c4fd64cb2")))
+                 "edba7bcfdc054ad0ff1952bb525f5709a687db25")))
         (sha256
           (base32
-            "1hwibhqmm7a4zz0fw6qhbgyyw7rx73zd6gn7mg2g4m0c4kwwfifa"))))
+            "06rb7frgw1vja7azsd9cxzkbvlr7xpzapgqypsc777szncz06xhi"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-zettelkasten.el")))
     (home-page
@@ -109563,17 +109563,17 @@
 (define-public emacs-tangonov-theme
   (package
     (name "emacs-tangonov-theme")
-    (version "20220726.358")
+    (version "20220727.1356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trev-dev/tangonov-theme.git")
                (commit
-                 "6d6c3e89a01e6527168ea2efcbcfe2f32f0c908f")))
+                 "b07f75382cdbba6c26e95bfe96a78827ed702be3")))
         (sha256
           (base32
-            "0pdrc0i2pam9gqji0d5cmvkj3c1n22nakyvg7bzbvh1k8lc7i7ai"))))
+            "16i1f0nm0m3y2v5ygp7ncfknyfcw5l7ds2l8lslkp6gc4xdrr8a8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trev-dev/tangonov-theme")
@@ -121790,17 +121790,17 @@
 (define-public emacs-zettelkasten
   (package
     (name "emacs-zettelkasten")
-    (version "20210830.1025")
+    (version "20220727.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymherklotz/emacs-zettelkasten.git")
                (commit
-                 "4048bf9e1be7ab759696a9541eec8f435359bcf3")))
+                 "edba7bcfdc054ad0ff1952bb525f5709a687db25")))
         (sha256
           (base32
-            "1rnir9mc9cp12wg5p19f0m6g6mvfyv1ahr7zq7azl8hvwmnb6gx7"))))
+            "06rb7frgw1vja7azsd9cxzkbvlr7xpzapgqypsc777szncz06xhi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (arguments '(#:files ("zettelkasten.el")))
