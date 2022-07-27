@@ -2417,17 +2417,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220628.2233")
+    (version "20220726.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "9c90dbaa31a2fdc163e4394514bf9ee359e46ee5")))
+                 "b18db6be0a290e8f91fd8d8340b2b44c8b75049a")))
         (sha256
           (base32
-            "0sx1xj9fspv560h23h7hmg3kwcc5vjk337i6ic3c3vl94zhd92r2"))))
+            "1bcs7fxsjf5xk508zvzz2nb9l7dhq6sqhz7kyn321h5yyi68kq86"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -4192,17 +4192,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20220724.241")
+    (version "20220726.2211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "274beab092dcc169b9887f7734a5f82b892e7702")))
+                 "62e5149b350af3b448663a5db20c91834b37b75a")))
         (sha256
           (base32
-            "0qyn0w9jh0y74m50xznaq0wbi2q892hnkrhbf9ay6jhr0y88hqv7"))))
+            "11j2bbcpvk4cri9wsmjyfd9p5f371h4hxcjksm8d6ccjfpr6q4w2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -17965,17 +17965,17 @@
 (define-public emacs-cov
   (package
     (name "emacs-cov")
-    (version "20220410.2247")
+    (version "20220727.31")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AdamNiederer/cov.git")
                (commit
-                 "8396fa82a84965cd88fa23f5b361ab80ff28e231")))
+                 "cd3e1995c596cc227124db9537792d8329ffb696")))
         (sha256
           (base32
-            "14qgws2zi9qvw7jvp155xh8437g409g02bv7042xkjxz13bwa5ss"))))
+            "1gyc0si60czhgrkm7kink1p1zj1h5j5nzif4ivm5bg78l28skmpm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-s emacs-elquery))
@@ -42950,17 +42950,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20220717.1823")
+    (version "20220726.2216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "7d32bb31cbb897548a59778b7d337904009b9040")))
+                 "21912ebc7e1084aa88c9d8b7715e782a3978ed23")))
         (sha256
           (base32
-            "1npbyd8g9pba92fnfx73ss78ppd5wq8f6vrabqgrlmpkfr5mad6k"))))
+            "0gdqjh8996hb06bnnyhi94k69mjfrzyfgq00a9s4wwagv28sqmkj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -46363,17 +46363,17 @@
 (define-public emacs-go-mode
   (package
     (name "emacs-go-mode")
-    (version "20220114.2239")
+    (version "20220727.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dominikh/go-mode.el.git")
                (commit
-                 "3273fcece5d9ab7edd4f15b2d6bce61f4e5a0666")))
+                 "08aa90d52f0e7d2ad02f961b554e13329672d7cb")))
         (sha256
           (base32
-            "00qzn136d8cl3szbi44xf3iiv75r6n1m7wwgldmzn4i5mpz8dbq7"))))
+            "1zdyhjg3crvcw093zw2nv3kzs583i26ba6pbs8jyhqnnysl7llfc"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("go-mode.el")))
     (home-page
@@ -50097,17 +50097,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220723.1604")
+    (version "20220727.508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7c2f08063910ef15a63cd58e6db0ffa2e4ddc12d")))
+                 "f5159e17b8f40f262310504767651e1b953ea779")))
         (sha256
           (base32
-            "1f5fhd3crgmprh5m6njj5ddz1xgqs6h9pq0gch37fz86rbi88yq6"))))
+            "1xmcpgnaa6p98c43f90x68qf1allqmzdqrl2w00kqa1wbi0967cy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -51651,17 +51651,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220707.1048")
+    (version "20220727.505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "bbe111adc204b7dcfa0657e5f56d5b90d2286afd")))
+                 "9d91c25c7d1776d137fd126f241d0272b6e5f90e")))
         (sha256
           (base32
-            "1xq2j6ynxjr24gbhqa7224a195skajlkfklg50pvz7bfawml0db0"))))
+            "0bxmhi1dr553v1grspig5b16ldwl74dzflf6xqi8kk7wdpk1ir3k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -54450,17 +54450,17 @@
 (define-public emacs-highlight-thing
   (package
     (name "emacs-highlight-thing")
-    (version "20220626.831")
+    (version "20220726.2237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fgeller/highlight-thing.el.git")
                (commit
-                 "f122a40ef717602937a8e083813395d423963202")))
+                 "cdf429c41c13c22d25fe43493cc5d85cc480dba6")))
         (sha256
           (base32
-            "0p01g89b3hxl2mx96mh3masii3zsbh2yih0bkp6a8i8zks3m04is"))))
+            "1p3q0s96f2pgmf327zzwx11sdy24im3dy9qv53bk2nb5zysvklzm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fgeller/highlight-thing.el")
