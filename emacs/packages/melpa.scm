@@ -8275,17 +8275,17 @@
 (define-public emacs-boogie-friends
   (package
     (name "emacs-boogie-friends")
-    (version "20220704.1741")
+    (version "20220726.1637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/boogie-org/boogie-friends.git")
                (commit
-                 "e162f0d89fbc9d55da7d4a6059449449afc29f3b")))
+                 "0a736ab6e9669e755141db5afefbfe8cd5df6961")))
         (sha256
           (base32
-            "1glcszq0mf63z45dhny02vyxx1shlan0cxg22r2hrm2p36lm8nkm"))))
+            "0mg5w8zvavw4g9iaivsbg1r42vzjjcbzq0zprwl0x09p8z23drga"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -9160,17 +9160,17 @@
 (define-public emacs-bufler
   (package
     (name "emacs-bufler")
-    (version "20220711.1909")
+    (version "20220726.1658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/bufler.el.git")
                (commit
-                 "23132ffed65d78c0bf5ab2c4c6385d009db496ec")))
+                 "5e8f02c3a454d6d43c18851023d6ac6ae470c31f")))
         (sha256
           (base32
-            "15zam24zz4pb4zq20wzp3j31cg87fdwxn4bzn9mrm4q466rbldl7"))))
+            "1m7x5zksjfyh254mvsl9va5jqr76niyf54djjiacnrlpqnn3bf2s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -24034,7 +24034,7 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220726.834")
+    (version "20220726.1419")
     (source
       (origin
         (method git-fetch)
@@ -26510,17 +26510,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220722.17")
+    (version "20220726.1405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "29690e88e3b1d2f5d5472d7457a56cc363fb2805")))
+                 "000b7fdce93ed29c505a7fa75baaf87094fd690a")))
         (sha256
           (base32
-            "0piy9k0v9h23sd0p01a1cnnsyswbid0n4cgr28z836ldvmqrcja1"))))
+            "0x4b592vx1x63avmybdi6n6v7ik1v15idhbf1dpda2m54fhrf7bn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -49289,17 +49289,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220723.555")
+    (version "20220726.1622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "18e2b3821ad42eb5607040f77da68b83518aa6c4")))
+                 "7c2f08063910ef15a63cd58e6db0ffa2e4ddc12d")))
         (sha256
           (base32
-            "0yv4j8kbdjpvf5sf10pq6x4kr80zbwhmy77zw6bn9rs4rrvhs2yc"))))
+            "1f5fhd3crgmprh5m6njj5ddz1xgqs6h9pq0gch37fz86rbi88yq6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50097,17 +50097,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220723.620")
+    (version "20220723.1604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "18e2b3821ad42eb5607040f77da68b83518aa6c4")))
+                 "7c2f08063910ef15a63cd58e6db0ffa2e4ddc12d")))
         (sha256
           (base32
-            "0yv4j8kbdjpvf5sf10pq6x4kr80zbwhmy77zw6bn9rs4rrvhs2yc"))))
+            "1f5fhd3crgmprh5m6njj5ddz1xgqs6h9pq0gch37fz86rbi88yq6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -70416,17 +70416,17 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220723.1629")
+    (version "20220726.1541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/mastodon.el")
                (commit
-                 "d0a9ced78111175edb4afb8f45e06d2a496e387d")))
+                 "b7e899de67dec07954a859c5d0803e13449ca77b")))
         (sha256
           (base32
-            "0n9lbkx32djl3lalarzdvb25476wmkign165qjv5rdzwcdn2znp9"))))
+            "07fd6f9746qxhwcckixry3sqcpbcnqlxfpgjpfh43fiq8zbiglma"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -71037,17 +71037,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220725.1606")
+    (version "20220726.1525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "6741f4dc51bc44d8fe0f01bf1aff48ae6ec237f5")))
+                 "679f73dddcdcb13fc80fab3e1d04d4e28b780cf7")))
         (sha256
           (base32
-            "04hwzq8a5nxgiazq41ksybxyw8lmc60jpsmk5km47jwhyl7zz1kb"))))
+            "1dh7yxgknma7l2g5vydl7bkkyjn8qxlxr32fnn47wnhd0jbr0g5d"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -72743,7 +72743,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220726.1024")
+    (version "20220726.1613")
     (source
       (origin
         (method git-fetch)
@@ -94731,17 +94731,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220725.1910")
+    (version "20220726.1741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "e59c10157f37722ebe4aea5c51202832c1cec8f1")))
+                 "23f8f55d3e5ce34b19f74c78928a43914df38696")))
         (sha256
           (base32
-            "0x83g4zh1agjiraszh3qaj2318r6iga03xj0ryqia2whfxnh4qmd"))))
+            "1ar1x8k3pl05zffbz6aj239j22523vgxiiikdxj5515w0rddk06k"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
