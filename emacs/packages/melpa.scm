@@ -17540,17 +17540,17 @@
 (define-public emacs-counsel-etags
   (package
     (name "emacs-counsel-etags")
-    (version "20220526.1436")
+    (version "20220728.1351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/counsel-etags.git")
                (commit
-                 "05d364b556aadcfe49df727c0729abc3f0c14372")))
+                 "b109dff190db6706e32ad08deb64b77fc8ad75c7")))
         (sha256
           (base32
-            "1v77lpp0nij1rjg2k9wj42kqk7xqg1dzs9vmadha6f2j8j6375m8"))))
+            "0qgdhqwhw4pf2aclb602p0hirym28fh38ykmdnhzang2027l16p5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -22807,17 +22807,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220728.442")
+    (version "20220728.1410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "78e8bbffa2f0f9d9bd36a9eb850f7f93f749b0bc")))
+                 "a6b7e7231ae785aa0dcd316ecc106754fa4b1246")))
         (sha256
           (base32
-            "053yp16gjz6q76bvlb52r8flsrxx7aaqm857h9gixmagzzk5wsm2"))))
+            "145a76w8cr8m7d2rzryzk7fhp3zfhm9sdkjcrgj721smgjxm4l8h"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -31504,17 +31504,17 @@
 (define-public emacs-eshell-info-banner
   (package
     (name "emacs-eshell-info-banner")
-    (version "20220531.940")
+    (version "20220728.1006")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/eshell-info-banner.el.git")
                (commit
-                 "b7f2bfc0137be9cdc3dfe26a71e1984d3c3bcdc4")))
+                 "2f4e59ea7ac2129b175af2b6acf353b29687fb9f")))
         (sha256
           (base32
-            "0xj9cmcm8cfmmnvjs2wwhqc9j7jwydywscbwq16clwb3v4v5gj1i"))))
+            "1362fag0hxsiah0y6rwwkrbxn01h07l59a73xr2piwl1m6imsihr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -50097,17 +50097,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220727.508")
+    (version "20220728.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f5159e17b8f40f262310504767651e1b953ea779")))
+                 "202a70168ff9afb03f6d540fce9aa9424b489d67")))
         (sha256
           (base32
-            "1xmcpgnaa6p98c43f90x68qf1allqmzdqrl2w00kqa1wbi0967cy"))))
+            "1z484p8hdg2z99gy4ak9gbxl1x5p1yfvgv78g0jxijdx6bagd12f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -68556,17 +68556,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220726.607")
+    (version "20220728.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "02beee660243bf0aaff7e9f4c4ee5551f7f2d57f")))
+                 "668a61cf45856e25a63770e8887845d0922778d1")))
         (sha256
           (base32
-            "1wjn15l83psdav1gf3mpbqy95cpdqzmss0358m2jkas1czglwkkx"))))
+            "0h8pxyy51r024d6yja34vfhf8vc2r8g42vnbqhlqy9pbszz7plh6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -106889,32 +106889,6 @@
     (synopsis "Manage SSH tunnels")
     (description
       "Documentation at https://melpa.org/#/ssh-tunnels")
-    (license #f)))
-
-(define-public emacs-stack-mode
-  (package
-    (name "emacs-stack-mode")
-    (version "20150923.1523")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/commercialhaskell/stack-ide.git")
-               (commit
-                 "f3481e239dde9817152ec00e32bfc3ebf5aaf2cb")))
-        (sha256
-          (base32
-            "1f2dxlc3dsf9ay417h1l43fxjkrb0a4gg96zd3asx9v2alpzgcim"))))
-    (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-haskell-mode emacs-flycheck))
-    (arguments '(#:files ("stack-mode/*.el")))
-    (home-page
-      "https://github.com/commercialhaskell/stack-ide")
-    (synopsis
-      "A minor mode enabling various features based on stack-ide.")
-    (description
-      "Documentation at https://melpa.org/#/stack-mode")
     (license #f)))
 
 (define-public emacs-stan-mode
