@@ -11958,17 +11958,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220721.1551")
+    (version "20220728.508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "b47fe53b39184b03b413284139d81b255d559db9")))
+                 "f422665fb0491abb9d8a8fdc2ce1aebb2497d6d3")))
         (sha256
           (base32
-            "04iwdba8kflp8l88shbg4lp34ig2jz034qj6ycvjdr22l89jzhl6"))))
+            "0f980p21ablr2dyl354jqljfl0cc13afbgzhcvxmq39gd7pq56b0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -22807,17 +22807,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220724.1212")
+    (version "20220728.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "1b90bf473b840f9c85598934c7654d8c706ac51f")))
+                 "78e8bbffa2f0f9d9bd36a9eb850f7f93f749b0bc")))
         (sha256
           (base32
-            "1rvpv9j7s4a259623565348xia9jibi2km540fhzl762bphpcd91"))))
+            "053yp16gjz6q76bvlb52r8flsrxx7aaqm857h9gixmagzzk5wsm2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32720,17 +32720,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220727.2208")
+    (version "20220728.350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "b71d6d6f9748230848b832be815dd81be71b7fef")))
+                 "928b1075ff3b0a642a0ee9b73ee1a69c38df19db")))
         (sha256
           (base32
-            "1il3as4gxd06lw6wy8vwcqnlgqyjka4gai5sy2w2a2viidrchrqs"))))
+            "00sf95zp0vv015qwx8w9fbck0glazha73pfm49jzn7sji1ybdlxy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -47076,17 +47076,17 @@
 (define-public emacs-gotest
   (package
     (name "emacs-gotest")
-    (version "20220209.1739")
+    (version "20220728.750")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nlamirault/gotest.el.git")
                (commit
-                 "298335fab797d0465516ed396f6e2acbe8f2ed93")))
+                 "2ec82dcc70d5f6aa22f66b44f8b537be33bd7903")))
         (sha256
           (base32
-            "12sn06c4gw5jddmdaw73djlraj01f57z9plnyf1gxss4gnch6kmd"))))
+            "0jm4i5axw19451z8m79iv1zqlhqpr8mn4r9mcli5j9hrvb7wczrd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-f emacs-go-mode))
@@ -81354,17 +81354,17 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20220708.611")
+    (version "20220728.203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "396a30cf256c8b32a69fd73a081364937b43a1c7")))
+                 "3e199c494645e58c5bfa80968dfc4e8480c60f85")))
         (sha256
           (base32
-            "19d6v06bks41anyisv4sjlsbw4yndi51ccn6hr767y9wyhn1337l"))))
+            "06i1ivcg2pgvvyad0nalhdks1r4zf3pak5bs4z48lx9c2nz7bg3f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request
