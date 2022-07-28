@@ -14905,17 +14905,17 @@
 (define-public emacs-company-emojify
   (package
     (name "emacs-company-emojify")
-    (version "20220704.647")
+    (version "20220727.1740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-emojify.git")
                (commit
-                 "1b3f944973eb0393e3bb63a88659385ade0ea6cc")))
+                 "cc3ae96fbafa51d71fde802fa3c1e5fad9402158")))
         (sha256
           (base32
-            "157azpvakk3xhj6gq8wv2bpbh657csw6jls6hkryk8y9qhz9siv0"))))
+            "0hw2pzg1prcjysrxrki0qsfzfqr0gp0mh606lakr33hzkib447xx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-emojify emacs-ht))
@@ -24034,17 +24034,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220726.1419")
+    (version "20220727.1428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "c536ba38dc8079590ec9392028fe173d355831eb")))
+                 "b818be65bf256af3f57ecd12af5b258a9610f7e0")))
         (sha256
           (base32
-            "0qdn7jfqj3vljczv3szhgy8q58f0va361r3sdl3gv2lixqswblhj"))))
+            "19g180803346k41d7kb4sjq0y9sp699jb8ycc9xicbg89860drab"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -24918,17 +24918,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220727.708")
+    (version "20220727.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "412bde80ed2f636d1f6c599786d21d4a3f68287b")))
+                 "bd87d12bc7e8c28534172ae076809a368b3ae654")))
         (sha256
           (base32
-            "0nicl8p490ripq4gnzlybwbv5iw7gisy6bifqzkba5kc57aly8q2"))))
+            "1vdxc0rj47lnpispgrc9fd8blrns1wlk4x2xjn028qlvmmxmr5g0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -32720,17 +32720,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220725.906")
+    (version "20220727.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "2fa3609ebfd0bfa20e37d1dadcdec920e55a8492")))
+                 "b71d6d6f9748230848b832be815dd81be71b7fef")))
         (sha256
           (base32
-            "0681bzzks2phwbissxg1l201fz09hkng4n384r3p5aixgy6hn0pl"))))
+            "1il3as4gxd06lw6wy8vwcqnlgqyjka4gai5sy2w2a2viidrchrqs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -49289,17 +49289,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220726.1622")
+    (version "20220727.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7c2f08063910ef15a63cd58e6db0ffa2e4ddc12d")))
+                 "e39db6bbf26d6a4b4b4d14140d98b4a254c7e153")))
         (sha256
           (base32
-            "1f5fhd3crgmprh5m6njj5ddz1xgqs6h9pq0gch37fz86rbi88yq6"))))
+            "05bvc6dp36z6px9kxviixvxyp346bdxbc1xs6185hxxmslhqsi5w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -71037,17 +71037,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220726.1525")
+    (version "20220727.2104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "679f73dddcdcb13fc80fab3e1d04d4e28b780cf7")))
+                 "7471762ec043fa85a91398b2b5b05859da544200")))
         (sha256
           (base32
-            "1dh7yxgknma7l2g5vydl7bkkyjn8qxlxr32fnn47wnhd0jbr0g5d"))))
+            "1i7smdmryn8irhn2s7gkym3xkmimkvfkqm2cjal0jgb7z6rg3mkj"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -72493,19 +72493,18 @@
 (define-public emacs-mocker
   (package
     (name "emacs-mocker")
-    (version "20210115.157")
+    (version "20220727.1452")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sigma/mocker.el.git")
                (commit
-                 "5b01b3cc51388faf1ba823683c3600790099c84c")))
+                 "e455599f48bad7d73fd445e70a3acf4b44c2f5c1")))
         (sha256
           (base32
-            "0nmi6bsbbgcxihjb865bmm2zrirnzi1lq02d6cl1df57k47md4ny"))))
+            "1mdw08rgdfdxwai38ff3c5r884vhw15shrc67x5yh02jfqzbkkfq"))))
     (build-system melpa-build-system)
-    (arguments '(#:files ("mocker.el")))
     (home-page "unspecified")
     (synopsis "mocking framework for emacs")
     (description
@@ -115944,17 +115943,17 @@
 (define-public emacs-verb
   (package
     (name "emacs-verb")
-    (version "20220214.943")
+    (version "20220727.1923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/federicotdn/verb.git")
                (commit
-                 "67dd7aa58530d237f60e0090bfdcd96da94fe3e8")))
+                 "aa12067ba3c34749c41bf5247f4bda1c68625110")))
         (sha256
           (base32
-            "1bvcavq0xzlmlk9ajb27h3wcgpyvwjpa50rxb947xsykzgdfli3x"))))
+            "0kilyi46b6z0v5kzpyml1jg3zmhlpn3dxq8s7ic6qji492bixd6k"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/federicotdn/verb")
     (synopsis "Organize and send HTTP requests")
