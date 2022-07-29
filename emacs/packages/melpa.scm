@@ -13082,17 +13082,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220719.1719")
+    (version "20220729.811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "bb327cb9707787c8f1dbcb2d219f6cbceb553a96")))
+                 "f38ca723971cb46a57541947417f24549ff41fa9")))
         (sha256
           (base32
-            "0ydlk7vqvljsmx38w3cbj05ypydpdvd9071iksdcx3zy0hb4zcvr"))))
+            "09xi7ry9f15m2hkqmzb91l417yykldb6n5cik8avjd23dp8ca2nb"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -14477,17 +14477,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220720.911")
+    (version "20220729.1249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "16ffeba5ef96c4c8e0cd39860b5402e25e304601")))
+                 "73a3bdea0a82731ba8fb5890b6cdcba5b9dd44b7")))
         (sha256
           (base32
-            "0b4ckin8sp9wqk7c2n0ip4cm0nik008nv38x87a176zjzbjg15f0"))))
+            "0bzsxd5z4ps7m80kyq2x3pw0rw6idv7b5ndirdfjma643z5r7jqz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -21087,17 +21087,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220606.1342")
+    (version "20220729.923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "d5d0cfbfbcd037ef8f84f41b2adc3f5a23baa11f")))
+                 "60099be5fc5c90d5adc2795b3bfacb492a0adb88")))
         (sha256
           (base32
-            "1q81ddnvdsfmfas2sfkxzpcr51f8zmmwmig0p3i3hcc9jf1wviid"))))
+            "0hxyanl0vy3ajyzrjqgcybp388jxdk139wgwbb0kzw05blr0jzxv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -22461,17 +22461,17 @@
 (define-public emacs-dired-rsync
   (package
     (name "emacs-dired-rsync")
-    (version "20220313.1533")
+    (version "20220729.1031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stsquad/dired-rsync.git")
                (commit
-                 "b327971d197e95e9b78e7ef92539bd4196a12797")))
+                 "7bdc1dd7c9e1217a20a4e1f26c3d1a3ed35f4a14")))
         (sha256
           (base32
-            "15bkjvrdyn1bpvj0lpxm370cl7phyypmpswc80qngx2axdqbr0a2"))))
+            "1qwdc92rzqdzv96rz4q9davzs0myirmf1cyr0cly2wqxg4zmms18"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -22807,17 +22807,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220728.1410")
+    (version "20220729.1218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a6b7e7231ae785aa0dcd316ecc106754fa4b1246")))
+                 "69738a8467e748b8d3c7de9f607f796d6c725704")))
         (sha256
           (base32
-            "145a76w8cr8m7d2rzryzk7fhp3zfhm9sdkjcrgj721smgjxm4l8h"))))
+            "13xgm7yy2rqnywrz4xbx7pgjb2yap59ny7ak7rnrrsn7cl8ddqzm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24034,17 +24034,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220727.1428")
+    (version "20220729.843")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "b818be65bf256af3f57ecd12af5b258a9610f7e0")))
+                 "81666b9b142d091a46d19e43ce08061b9dca973b")))
         (sha256
           (base32
-            "19g180803346k41d7kb4sjq0y9sp699jb8ycc9xicbg89860drab"))))
+            "07qrab5yll5jis24dcq1k8pv2izcwjq3pipgn2pffmvq1njc1pv9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -37386,17 +37386,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20220725.1500")
+    (version "20220729.1039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "944699ed538736a503556c6eb6c197970b581978")))
+                 "8541a61053bba1f2f31d0791e597cd3c78a21456")))
         (sha256
           (base32
-            "047j7n19hrb7ljysz7kgbbxv91vn2mwhvydf2s470cvwhgj140vb"))))
+            "1rh76xwiikcq2pbq5i2nf5dx1dsgaqlgmjpcm011w99m0nzg7bvi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -38991,17 +38991,17 @@
 (define-public emacs-flycheck-ocaml
   (package
     (name "emacs-flycheck-ocaml")
-    (version "20220722.1330")
+    (version "20220729.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck-ocaml.git")
                (commit
-                 "dd3cf1080a9c49c8290eec027a3adedb72979cbd")))
+                 "74b1542fcf8dd640dd90e9b3db8210190b68a08b")))
         (sha256
           (base32
-            "1yri6fsskicbns0y1ncynf0r74jp3my0lfwsq7dzbdcdhygnnfxg"))))
+            "0qxjalicvsbja8wsdragy137r8vm61j8igg2j1hpy3qvc8w8f14s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-merlin))
