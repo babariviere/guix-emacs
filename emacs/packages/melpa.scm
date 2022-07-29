@@ -4192,17 +4192,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20220726.2211")
+    (version "20220729.308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "62e5149b350af3b448663a5db20c91834b37b75a")))
+                 "5c070c9ba9a09e8dbb4f34df0536b45f87dcbb94")))
         (sha256
           (base32
-            "11j2bbcpvk4cri9wsmjyfd9p5f371h4hxcjksm8d6ccjfpr6q4w2"))))
+            "1g3m5xga7i4ma5l6rkcwarh5j9qw3v1grsagpvncfd9yh1cwp4md"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -12809,17 +12809,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20220717.2135")
+    (version "20220729.543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "32883b36e36f91c83ebdb4b048b9c76118236564")))
+                 "1bd7b09976c05ebd1ff1ee3d5c882af303780b67")))
         (sha256
           (base32
-            "1say46qsymd1givz6drvpj26bj4s24ppf6rrwkiqpmhzr57cw3vx"))))
+            "0ygq2s9g63lk8v5m4mbkf2411li656wlq9nisadmhlahxk1vs26x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -24918,17 +24918,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220728.2214")
+    (version "20220729.726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "b5997ef4df907937e7d22b4b76263bef61927616")))
+                 "4ea25d1cac537625bc13cf53c30ae78ee7be8061")))
         (sha256
           (base32
-            "0swrcl738byd2d6z45n1zcxfnfdxa7vlsi598nhwyjzn0cdi6g61"))))
+            "1jhxmd5vhhwwxp5zjx9fqwrn49rd5b5alpn2xgp6dhyfn0vzgj34"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -34730,17 +34730,17 @@
 (define-public emacs-expand-region
   (package
     (name "emacs-expand-region")
-    (version "20210708.1952")
+    (version "20220729.659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/expand-region.el.git")
                (commit
-                 "95a773bd8f557cbd43d3b2dab2fa4417ec5927ab")))
+                 "c5c4362741deebb0985a8a29f9b8b0e25160764a")))
         (sha256
           (base32
-            "05zdh71zkp2n740dcixanw9cziw93rkix2bb24vw9phkj271m0d7"))))
+            "17h58v5mnggbrwrp61cwkqx8hzazkdqyz9p6s1hl9g2hys7zkb00"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -37020,17 +37020,17 @@
 (define-public emacs-flex-compile
   (package
     (name "emacs-flex-compile")
-    (version "20220205.205")
+    (version "20220729.145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/flex-compile.git")
                (commit
-                 "2da0e5e791896810747c710276ff3a1d0465d843")))
+                 "cf28cf68f025b0090f9a8ae82326b647dced2d66")))
         (sha256
           (base32
-            "0xix6j99hb1l0ml8ry2zcz74n86572bnq5czr0xni8hvrgxa9b61"))))
+            "03la8jd4n15gx92xl7z5b29xjly2if0pva2bfzqvsm88njp4wgaw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-buffer-manage))
@@ -105961,17 +105961,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220715.157")
+    (version "20220729.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "052b0c908ccb387f50ab8a80befa6a1443ba5b70")))
+                 "e2ed5d9b1039c90c18bc090837dd6a20a219bd1b")))
         (sha256
           (base32
-            "0ddxsggg5i4ncr40wxlqlsn1x0390l7lqj61hy55pk64c0pzrz2q"))))
+            "0fhqcpczlapfazqagx7kymyqf6h57idsba9bqk7624iqjlgnijzp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -111430,20 +111430,20 @@
 (define-public emacs-titlecase
   (package
     (name "emacs-titlecase")
-    (version "20220516.1909")
+    (version "20220728.2253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/duckwork/titlecase.el.git")
+               (url "https://codeberg.org/acdw/titlecase.el")
                (commit
-                 "ca79d9b25e8bab5eef92b13dc69ac0c38ac39172")))
+                 "1fc48a505a0bf7d0e8b1bb25425993212576a3ef")))
         (sha256
           (base32
-            "179h6pzz2nw6b7zbp6w67xckhh12fibk02wh1jyv1i8nic32sfr1"))))
+            "1hvkcf2crpf23p241mcaack6mr43p1p18772gckg56iw8bw8n14f"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/duckwork/titlecase.el")
+      "https://codeberg.org/acdw/titlecase.el")
     (synopsis "Title-case phrases")
     (description
       "Documentation at https://melpa.org/#/titlecase")
@@ -117085,17 +117085,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20220721.333")
+    (version "20220729.42")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "6d19aab88f9a465d60134d37fad41826b61cf513")))
+                 "db02ce0fde628a8eb9a1a0c95939c41981fdd931")))
         (sha256
           (base32
-            "11x1cnflrsmj2h1nks65b0r1byw3hpin6jy773n6nwh8x3h7ayz7"))))
+            "0n8sdyl17650kyl8m770pvz8pwgfl9zyxnkzak8mhphazd72d7a7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
