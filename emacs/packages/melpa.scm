@@ -8951,17 +8951,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220720.1941")
+    (version "20220728.1835")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "180df340f77954aace8a41192d502bb378283c87")))
+                 "7c176d043445ea94fe924a715158c25b91ec4776")))
         (sha256
           (base32
-            "16sa8zbxjk7p80056icrxxv04ngahkzq79714lmnshr9c53szgwq"))))
+            "0badxbj4whqcz8pkwzhp2fxppgcfqrrf0cciwnxy1nyamcrf0y7z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -24918,17 +24918,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220727.1728")
+    (version "20220728.2214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "bd87d12bc7e8c28534172ae076809a368b3ae654")))
+                 "b5997ef4df907937e7d22b4b76263bef61927616")))
         (sha256
           (base32
-            "1vdxc0rj47lnpispgrc9fd8blrns1wlk4x2xjn028qlvmmxmr5g0"))))
+            "0swrcl738byd2d6z45n1zcxfnfdxa7vlsi598nhwyjzn0cdi6g61"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -68556,7 +68556,7 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220728.1243")
+    (version "20220728.1329")
     (source
       (origin
         (method git-fetch)
@@ -82051,17 +82051,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220625.1302")
+    (version "20220728.2014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "cef71f81e6a1b66795e70a209121841c98335f82")))
+                 "f336d5a625fc423b08c6bf7020ceaf8bcbf2eb33")))
         (sha256
           (base32
-            "1j5i672zn0mvlz6bpmlwanxsxc0n5gy5jgr64mpfh2724gnbdi3y"))))
+            "0yac7id7qvisc1v9vqaysg9a9hml9p7zlski2hkyxl3c26sdv8w2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -119662,17 +119662,17 @@
 (define-public emacs-wucuo
   (package
     (name "emacs-wucuo")
-    (version "20220526.1431")
+    (version "20220728.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/wucuo.git")
                (commit
-                 "fe5dfb4e4db38f9fc944509a687812b8f419b958")))
+                 "a7fe5428c88522a121c22b5811cb499a16fd8fa8")))
         (sha256
           (base32
-            "05h5wxzwzl5almgsk2mjas8in7h5kfmb06r3lfrwgydwxl3wmqnl"))))
+            "0h86qv4s3kv03cq89h2nbbda47p2pi2vbdpc1anaxhzd3gclxfb8"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/redguardtoo/wucuo")
     (synopsis
