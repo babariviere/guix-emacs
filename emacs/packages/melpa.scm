@@ -2017,17 +2017,17 @@
 (define-public emacs-ah
   (package
     (name "emacs-ah")
-    (version "20201213.218")
+    (version "20220729.1533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/ah.git")
                (commit
-                 "869219e7853510aeb00af3580aede0e5d49b324a")))
+                 "dc04deafbbddc4d8130cd1c45bf8a101c2dfb46a")))
         (sha256
           (base32
-            "02i6nrkbqf1bj2m4h81p5z1mi9lm92g9vm1mi6qny83zs64m2607"))))
+            "0s72v32pbpb4fkwxmq550w6q337x0pvr48c8k6ji5lg5qvm0jwp7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/takaxp/ah")
     (synopsis "Additional hooks")
@@ -13082,17 +13082,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220729.811")
+    (version "20220729.2246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "f38ca723971cb46a57541947417f24549ff41fa9")))
+                 "ad322e989e56c10c05bb286e5b55a82b1e031d62")))
         (sha256
           (base32
-            "09xi7ry9f15m2hkqmzb91l417yykldb6n5cik8avjd23dp8ca2nb"))))
+            "12m3yjhy4q0x3ri4xxb9raqg9lmw4hk4jgn436d9zvsk4fr3h1nd"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -71013,17 +71013,17 @@
 (define-public emacs-mentor
   (package
     (name "emacs-mentor")
-    (version "20220113.2136")
+    (version "20220729.1756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skangas/mentor.git")
                (commit
-                 "afab3a14a4bfb5117f8e25417fdf151611b3df0b")))
+                 "a820c8492392d2e3480845af4f6573c942996de8")))
         (sha256
           (base32
-            "0wcmgynshjk9xdiv4y86d5qb7ncxkswim2gp34hkhslhvfmhfh8f"))))
+            "1b3mskakbgb65pf576fxryc92h4ycc85ck371kzm2my9vj6pdh21"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-xml-rpc emacs-async))
@@ -94104,31 +94104,6 @@
       "Documentation at https://melpa.org/#/pyenv-mode")
     (license #f)))
 
-(define-public emacs-pyenv-mode-auto
-  (package
-    (name "emacs-pyenv-mode-auto")
-    (version "20180620.1252")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/ssbb/pyenv-mode-auto.git")
-               (commit
-                 "347b94cd5ad22e33cc41be661c102d4548767858")))
-        (sha256
-          (base32
-            "1gz7145jnjcky1751pqrlhh3pq02ybsmz49ngx4ip2589nry7iyv"))))
-    (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-pyenv-mode emacs-s emacs-f))
-    (home-page
-      "https://github.com/ssbb/pyenv-mode-auto")
-    (synopsis
-      "Automatically activates pyenv version if .python-version file exists.")
-    (description
-      "Documentation at https://melpa.org/#/pyenv-mode-auto")
-    (license #f)))
-
 (define-public emacs-pygen
   (package
     (name "emacs-pygen")
@@ -98586,17 +98561,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20220526.1719")
+    (version "20220729.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "9c56c62993b9644a3c8bf6fc0a3a6599c0956707")))
+                 "f3c56ba6949934758e79a371eb5a29d8e832a828")))
         (sha256
           (base32
-            "035cbj2ppxrjx8fdyjq3w7zjznzljxkcnr5pg61xw2vigd9mcjva"))))
+            "0xv7f0hsnjm3zcqqsvmrihh5ik59n16pjd0a1vcbabamcd59yq37"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
