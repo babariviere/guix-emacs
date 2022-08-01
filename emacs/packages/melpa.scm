@@ -12271,17 +12271,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220731.1829")
+    (version "20220801.653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "bc61a81c17d07555b4df538d88528133bd6f0de7")))
+                 "7e66f531eb14098559a6a12d900c79dc61e27f75")))
         (sha256
           (base32
-            "0m4fdbr1jlmrh1gpp61cf1cvn416cyi6m9pska22znabmaxf8bpx"))))
+            "1rkdqm75xdxvc63vm39mx2avpgx4n4z06lv0c38a733ggq6mk8iv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -22836,17 +22836,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220731.1129")
+    (version "20220801.700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "9c3083aae9169d26d0936c9f4838029b44b83563")))
+                 "9e2cfbeea2093ee93a64d2b76c8f66692183243f")))
         (sha256
           (base32
-            "0n09blgkvzkjaggxqcjx5gf6xnsv1gf1pjlrms13p7ihs6pkb11g"))))
+            "1jqajfvd4d5q2i7h2sildz1v54pbpna3gjzyq19xz68yjm069jbc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32574,17 +32574,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220725.908")
+    (version "20220801.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "5826a8877736fc734ea9da7d2bba11ef2b05032c")))
+                 "76b4296826cd924b3f56aafbfd9c71516ec79fb6")))
         (sha256
           (base32
-            "1jw4h1a1wisnkrhzd3pkl7xk0ilpva5iy895hqi1mr8rmg06bfh6"))))
+            "0idnl3irhcvkv56b5viv0bxhb81cz0vzbwvvw8nsvi8mqwbnz90c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -70216,17 +70216,17 @@
 (define-public emacs-markdown-soma
   (package
     (name "emacs-markdown-soma")
-    (version "20220731.1718")
+    (version "20220801.1129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/markdown-soma.git")
                (commit
-                 "5208978a641a0e5e44dce67d2a05054f77dcebe7")))
+                 "a13f7d14ada88a8955c7cd6122b91dac0527b22f")))
         (sha256
           (base32
-            "1jkwzb3rgb81vqlqcmdb040qhygw8qmkcibzrsq8zhc26dg9p0rk"))))
+            "08vbyqfsw7p6fhsr96h7n9zg533mgn68apd8qck9q2q83zqn5dlj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-f))
@@ -73703,17 +73703,17 @@
 (define-public emacs-mpv
   (package
     (name "emacs-mpv")
-    (version "20211228.2043")
+    (version "20220801.1333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kljohann/mpv.el.git")
                (commit
-                 "4fd8baa508dbc1a6b42b4e40292c0dbb0f19c9b9")))
+                 "edf04c18fce5ba502d735d03751e2c5bc8ab2f27")))
         (sha256
           (base32
-            "03zziy1lcvpf1wq15bsxwy0dhdb2z7rrdcj6srgrmgykz2wf33q7"))))
+            "1k71xld0kszxwglw1xjnqhvyjrxvlqdi543vv7p5xak76vvc92ws"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/kljohann/mpv.el")
     (synopsis "control mpv for easy note-taking")
@@ -79374,17 +79374,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20220706.1759")
+    (version "20220801.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "f25b51fc4370fedaebb52d82ff72a597bf44ccc4")))
+                 "772d90d49fc963fe3fc032025fa5ca49cd39e9f1")))
         (sha256
           (base32
-            "1d5v2wmvfgffi6jmkz8mkfy547d5amis64i756cah0kv2km6zdw6"))))
+            "1djn6ssnryf1g7bh214p9igkdi34r6s56pfni01gjq9nsxx4y2m3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -81609,17 +81609,17 @@
 (define-public emacs-org-index
   (package
     (name "emacs-org-index")
-    (version "20220228.1651")
+    (version "20220801.928")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/marcIhm/org-index.git")
                (commit
-                 "9671cf059b681fac39ce910dd8847b5c7bfad170")))
+                 "9ca02c4e7a38c788b70a1f5364ab505695335bd3")))
         (sha256
           (base32
-            "1zygrmihzdsciqnm5kl3j4wgmm796q8ppv7nvgn3d8rv6xky5mx3"))))
+            "0j7c775vx9a25qh3485xlnd3j070cq4d9yyrlq1d6j5r6i5iwhjj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -106011,17 +106011,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220801.156")
+    (version "20220801.1005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "9e31a55c35e72dc92d0a727fc25e5fa6e21ef8ee")))
+                 "1ee38158c736bb5f1a97b493a29147e5b5fe50e2")))
         (sha256
           (base32
-            "1zy2drxfh2jwidngdccfxzhdksxcb2dk43462xbh9qm883y7f36m"))))
+            "0wvvyb0l1q22mfsnf9sjn80jg75w01jw7a1k9hvf3wwaqzmjcz1m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -107833,17 +107833,17 @@
 (define-public emacs-sudo-edit
   (package
     (name "emacs-sudo-edit")
-    (version "20210706.534")
+    (version "20220801.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nflath/sudo-edit.git")
                (commit
-                 "23b78a39053088839f281bc0c3134203d7e04e50")))
+                 "74eb1e6986461baed9a9269566ff838530b4379b")))
         (sha256
           (base32
-            "1c8rrrxq8i287a7r1qwrqhfyrl84jfcpnjxiqczwjmc95r510yyz"))))
+            "11wbmprz4c1rp66v19qk9yavzbcbvhvv684b31zpgfcpy7hx45w5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/nflath/sudo-edit")
     (synopsis "Open files as another user")
