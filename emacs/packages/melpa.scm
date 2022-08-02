@@ -4192,17 +4192,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20220731.1602")
+    (version "20220802.258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "87009cbdc790f835a4d049aec4977d020e4746d3")))
+                 "dd43e800096066a8472db630a2af411de770e3ac")))
         (sha256
           (base32
-            "1pj8lyr49vdizamqwpxbcr90z1xmaspa5kwzs82l2cryc258r8by"))))
+            "06c9w2rr15hr91ay86xsxn14y36kkrdig3ymmz1lkl5jy28m5n8b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -34917,17 +34917,17 @@
 (define-public emacs-external-dict
   (package
     (name "emacs-external-dict")
-    (version "20220725.528")
+    (version "20220801.2349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/external-dict.el.git")
                (commit
-                 "c364895f27c7b5a6421a7bf159851390bfc95642")))
+                 "aa051548ca850d15f939acfa82b358f756a761f6")))
         (sha256
           (base32
-            "1krx9bmw3sh8q1f90fx6hiq6il93gp284c076xispiwq0gyixibl"))))
+            "1nnkyy7wi5zkb511bsp8j95p88rd451nfncyvss27ldrscnizjf0"))))
     (build-system melpa-build-system)
     (home-page
       "https://repo.or.cz/external-dict.el.git")
@@ -43775,7 +43775,7 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20220801.2053")
+    (version "20220801.2144")
     (source
       (origin
         (method git-fetch)
