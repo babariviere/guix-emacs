@@ -10672,17 +10672,17 @@
 (define-public emacs-cbor
   (package
     (name "emacs-cbor")
-    (version "20220623.22")
+    (version "20220802.1008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "821f77cd0814284bb4fe606b9b436be818a444fc")))
+                 "40d04a0baf5c3d1087b18cc03595c573a1b5891d")))
         (sha256
           (base32
-            "0gfa2nygn32md0ihzqj7pmhf11fjmnb3v63lhiwcz1ml9rxdmida"))))
+            "1z2kvv5im24h7hqmz2yhpar6d6cp4hzhzk6kxgrdrwgywpaf0bdx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("cbor.el")))
@@ -19644,17 +19644,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220718.443")
+    (version "20220802.617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "31f92f678cc0c2404bb2a9e6af7113dc73f11d27")))
+                 "e2a37cc0a4ec2da858022badd33ccc086b283075")))
         (sha256
           (base32
-            "02c79w7ji8zvx20pf039vy1s0zk56izn7w0hljbmbw1r5w7ggbzf"))))
+            "0a9wb4wasdc8k9bpqx4hs8s9yhhr3lk1wrnbrq160b2iiayk4qss"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -25730,17 +25730,17 @@
 (define-public emacs-ecukes
   (package
     (name "emacs-ecukes")
-    (version "20210202.1241")
+    (version "20220802.1502")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ecukes/ecukes.git")
                (commit
-                 "d173cdf487bc2c62305e2232db96290bc021950f")))
+                 "3fff6edbf4acfab5b9e042c307bc5bbfac1c550f")))
         (sha256
           (base32
-            "182qgddfv8nd89y1l55rs5vm5i61ayc8cxbplb8zx0alnid9xrw1"))))
+            "0y953fxhxgbkjvh87wq3vkmkhs5pbafwhyflcq2d6krbb1w6jcwh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-commander
@@ -30068,17 +30068,17 @@
 (define-public emacs-encrypt-region
   (package
     (name "emacs-encrypt-region")
-    (version "20220801.1531")
+    (version "20220802.918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cgshep/encrypt-region.git")
                (commit
-                 "468c541b45ac14ff08ce24b1196d9e8f0dba1b4a")))
+                 "8ff5704bc6f4c57f935a8b7680129e599bbe474f")))
         (sha256
           (base32
-            "13g9m0mwz7sdc5x64nrmh99lgn2iz07bgm19qllijb2vwdclhs7c"))))
+            "08dd1grxlbb8mlwp46z35pbvh80y68mcq351id0mz8wwxi7ivan2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/cgshep/encrypt-region")
@@ -32574,17 +32574,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220801.944")
+    (version "20220802.1212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "76b4296826cd924b3f56aafbfd9c71516ec79fb6")))
+                 "5e562ae0a5775a6928fddb6f97a76d770a59dfa6")))
         (sha256
           (base32
-            "0idnl3irhcvkv56b5viv0bxhb81cz0vzbwvvw8nsvi8mqwbnz90c"))))
+            "09zpbfviyaz0nlw27fbqk2fhxw3dxil3ijmqd23ip9qnnhq7gl18"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -43297,17 +43297,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220731.15")
+    (version "20220802.1327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "2fac53cb84e1341fd838ffdd2d9f7e09ecaf617a")))
+                 "bd3d4ab6d7dffd9f8565af32471dc58aaf5a2214")))
         (sha256
           (base32
-            "0zbxcvgwimdlv6x3kfpzk9gij4a6wgp83lzp08iwam72p1xv9729"))))
+            "1kz8sl1iyrxx5lrfj4rkzm4xcmgvxwkvxdpw37id2jh0d986x0ql"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -50148,17 +50148,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220801.1254")
+    (version "20220802.1409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "56c2230d03c27ee1c97d633ab6bbe95abaf76ccb")))
+                 "00bf87a6382dab67891c585869df546e1d753827")))
         (sha256
           (base32
-            "1d45ksrvpvnql5pndzh1c67n10x3m796m891k40m4x4m6fj2p785"))))
+            "1jxnc8s903dga6rl8x154r2x6dbh69xs85favqz8cwaa77k9lng8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -70216,17 +70216,17 @@
 (define-public emacs-markdown-soma
   (package
     (name "emacs-markdown-soma")
-    (version "20220801.1922")
+    (version "20220802.956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/markdown-soma.git")
                (commit
-                 "cba55e699b4c66880dc2a5ad563d45c11583b629")))
+                 "e604b9e4a65bbd2057befbfaebfa73d00bd9826a")))
         (sha256
           (base32
-            "0k8d7wfgg76gd78ql38r10hfw133353wd8sczp40xm6zkzn3yhdf"))))
+            "1rz96x42g5cigzhmpvimxh8c9hb576kyzgnnbkd0jbn8ag0aw4zw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-f))
@@ -72794,17 +72794,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220731.642")
+    (version "20220802.1022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "966a526006c003b3ae275bce28e711af2ea4c389")))
+                 "12e790f315d4ebabb49c2bac8dc6a867bc1eb02a")))
         (sha256
           (base32
-            "16hwyynmy8l7phnsg6izb8y64j8xrgkxwvj4sdcc8niwiv53z9a5"))))
+            "19rc42rjl4pjpsrn4fnmp7nhigpbgl8xpdq99m89v6dj60k12d9v"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -81779,17 +81779,17 @@
 (define-public emacs-org-journal-tags
   (package
     (name "emacs-org-journal-tags")
-    (version "20220416.1507")
+    (version "20220802.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/org-journal-tags.git")
                (commit
-                 "ca6327161f4994ea0e98d7c6c3f662222e2650bf")))
+                 "7578762cdadfd66ceafa6a49b19628020b95dc5c")))
         (sha256
           (base32
-            "1pg7wxjlhbh3fls17zgh9wdzk0mjc3sfi873207kc5rcd4araq89"))))
+            "0kglf8qal41zsm2gbrkz04zwbrxd8xl6gbx0qxws0flljixia0sq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-journal emacs-magit-section))
@@ -93903,17 +93903,17 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20220717.2349")
+    (version "20220802.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-py-autopep8.git")
                (commit
-                 "c98339c352db7d15f8aa0fab173c499d131da070")))
+                 "4e5a8d5ddd77b45841f0e55d7c5326854f565830")))
         (sha256
           (base32
-            "10w1nm1wcxbr3jxj08n0lins9nmp7daslm0px20hap0p1vc7bzlv"))))
+            "1k1yvf5n5ygzf170bfb6wjhw3jrk3wsycb9bf39k53p8gzanh435"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ideasman42/emacs-py-autopep8")
@@ -102212,17 +102212,17 @@
 (define-public emacs-shenshou
   (package
     (name "emacs-shenshou")
-    (version "20220731.907")
+    (version "20220802.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/shenshou.git")
                (commit
-                 "30a99ad35c24e2c7f72a54ebd03697fbc1e93b92")))
+                 "8152f6f6ee975a7f32913d54ae9223a655c3b82c")))
         (sha256
           (base32
-            "1yidm9my63il29hh0yxbrwlbhzpnc9x4y8h9ppfn6k51ws7wlzxl"))))
+            "05wsng4spkakz6pwkps68r1rk5wfvk3pzgw12hlslyb57f36bnjc"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/shenshou")
@@ -106152,17 +106152,17 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220731.2327")
+    (version "20220802.1151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-spell-fu.git")
                (commit
-                 "87fd3522aaf0b523be7a230004a0387f806a75bd")))
+                 "bfd017fd1985418a1b101c1e497510ce24bb0348")))
         (sha256
           (base32
-            "0js9xqr4fy902j2qsl6i8n5yxm2zzpyrj4m1jz30wp4axb9860qf"))))
+            "1gv2596kq06x90cscc5bhwsisrm3pipiwh5gmq11j28dj0mih3pf"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
