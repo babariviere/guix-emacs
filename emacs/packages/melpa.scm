@@ -20367,17 +20367,17 @@
 (define-public emacs-ddskk
   (package
     (name "emacs-ddskk")
-    (version "20220501.2005")
+    (version "20220803.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skk-dev/ddskk.git")
                (commit
-                 "c664b26d0861621ac86b5b5f47835dd84f06dc93")))
+                 "3ed86d42717ab2a54ec8de6ab32d552dc0a4c3b0")))
         (sha256
           (base32
-            "0hzrjmsyj7npilsvimrrd5q6hca9wramc3q3kgl7l7y7mknmmkp1"))))
+            "1jbwkgy704n5l44n414lrvl208zh2dnq54k2bdcaibkxbqh8a052"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ccc emacs-cdb))
     (arguments
@@ -22836,17 +22836,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220801.700")
+    (version "20220803.942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "9e2cfbeea2093ee93a64d2b76c8f66692183243f")))
+                 "b325464b37969aed7cc43c1bfa505f813b733063")))
         (sha256
           (base32
-            "1jqajfvd4d5q2i7h2sildz1v54pbpna3gjzyq19xz68yjm069jbc"))))
+            "11ffv5h09g6hhaq58lmrhxc1h7cr74dzxc0nlqwc9l6x3i8hmfwm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -50148,17 +50148,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220802.1409")
+    (version "20220803.952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "00bf87a6382dab67891c585869df546e1d753827")))
+                 "4ede199d5d1b7050486a0fdeecbbbf49fef31118")))
         (sha256
           (base32
-            "1jxnc8s903dga6rl8x154r2x6dbh69xs85favqz8cwaa77k9lng8"))))
+            "1a8zkp00ahb84ww5072naxwllzbjhi7ccarkk2d7xsykn5lig54c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -72794,17 +72794,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220803.703")
+    (version "20220803.1104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "f04842805f2c07b78b210e9f97a75c3c2dc400ae")))
+                 "64f9378a5114399f3a47c9d23136af677c25e513")))
         (sha256
           (base32
-            "128rwcm4923rc77wppmqbbhrrjqiixnz2hlx0hqq3612j37a8kni"))))
+            "0ng85240zabw87ac53xnrlrafp10ns5wn6dgv9d1jxvnq40p7zqz"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -76546,19 +76546,20 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220801.146")
+    (version "20220803.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "1ef8eb144afd0ddb0e7dbad0fc7b9ed2cf337813")))
+                 "beacb05f7298228dce4d494fb41c73d26991e15c")))
         (sha256
           (base32
-            "0031wvl2vv4ll5a6z6494xb1amkm8fpy037nfy0w7fi11ysqrpsf"))))
+            "1ak7c2qy80idk1izs3xjw7nlsd9hjvig5qxqf1bwmiqrrdbcqsgs"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-request emacs-s))
+    (propagated-inputs
+      (list emacs-kv emacs-request emacs-s))
     (home-page "https://github.com/thomp/noaa")
     (synopsis "Get NOAA weather data")
     (description
@@ -81779,17 +81780,17 @@
 (define-public emacs-org-journal-tags
   (package
     (name "emacs-org-journal-tags")
-    (version "20220802.2042")
+    (version "20220803.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/org-journal-tags.git")
                (commit
-                 "7c33800e000380074b2bfd4d01c0dba045a8ecf4")))
+                 "687c95eea69b515b194b416db27def686392e06f")))
         (sha256
           (base32
-            "0hx46v28skffygq9d1nb6nx6jq7za1j1j1bmjk155c5hlx917h6c"))))
+            "0p265wwfg0ayg1ja6vgkapzh0rfw6g360g4j9qjqsakiyiiydg31"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-journal emacs-magit-section))
@@ -82835,17 +82836,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20220622.642")
+    (version "20220803.1058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "f184e66e398e1cfdfd55894c67392805ae531a39")))
+                 "5235df04b79b223e338bcfcb511e5bc6445791a4")))
         (sha256
           (base32
-            "180dn5iywarljbmx8lm61y30n2d800kg96psrvc8ghfglnvp6964"))))
+            "0xi398m01sri6nizk1302qdzb23mfwf3nlmdzbd4gyvglqlk7lxr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -83224,17 +83225,17 @@
 (define-public emacs-org-roam-ui
   (package
     (name "emacs-org-roam-ui")
-    (version "20220713.1144")
+    (version "20220803.1024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-ui.git")
                (commit
-                 "2cd93bfa517d51b4c97d42817713ca5ce61cb0df")))
+                 "c75fc7506ee7f03840a9a93ed9336d7ed24551aa")))
         (sha256
           (base32
-            "10p9fyk4y5qsg06y2mw0lacjpf1kkjgwrvc8cjcj4xcyka2lz9jf"))))
+            "0mkcd2622np8s5qz2zvx7lch6dc586xqmn6914gi4ym7nvklf3zy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -111099,17 +111100,17 @@
 (define-public emacs-tidal
   (package
     (name "emacs-tidal")
-    (version "20220802.2021")
+    (version "20220803.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tidalcycles/Tidal.git")
                (commit
-                 "9f626e1bd6207b8690fe13f1fee692a9f44e52ad")))
+                 "cf481ed178eb950a0d75c8c3b39990c07cbf7cdf")))
         (sha256
           (base32
-            "0i5z6kqblfm7i41n5az1kpg6q5vsa68h1mfggcnbdgkb6hf7qlzm"))))
+            "1mprn20ahlxq7cc473m0z0llhqgwjrvy8j8c8yw2rpfa9ghkcjcn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-haskell-mode))
     (home-page
@@ -112391,17 +112392,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220717.1713")
+    (version "20220803.1000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "cc887ebe3fa85a3642d937efe2ff882b356da9c0")))
+                 "389d2bffff1d7ada561688861ca67b7a360cf352")))
         (sha256
           (base32
-            "1d1kr76fqa87knkx862mmxw14qz537xgbpb6q9lldyja60pfdvni"))))
+            "0kz4jp1wz81jswspdjmrrx857y76hifwzifm046wc0525vs2hz3p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -119365,17 +119366,17 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20220726.1255")
+    (version "20220803.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/wordreference.el")
                (commit
-                 "23800ccdf98134ef2bdc2592c92756cb01e17132")))
+                 "8ccf0f9feb276ebbb9f4d9ea4ace26211bde5354")))
         (sha256
           (base32
-            "1cm2im2f2gb2s0673j4i9b998aq5qhrgs7np8djd713934dsrzhg"))))
+            "15zljcb49klqj84zh1ldqmy0xjhdxi2zqzc1xbjwpm38idylij53"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
