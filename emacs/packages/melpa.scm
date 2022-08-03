@@ -24947,17 +24947,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220801.1958")
+    (version "20220802.2131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "3606b6a8a9246ff2fe0b20bdb9bc3404f9e23de9")))
+                 "c1aab70ef9b5cff4a796ee033c5e3132d16b9ecb")))
         (sha256
           (base32
-            "07yzjfya4pjb3i2iz9kciff7wi8lwmv83fmvjsf7xdvyj6ixihva"))))
+            "0vm3li4m35l9nwjn35mvn84w1mp8wsiwksma7g3wbx9a0r9y2b92"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -66377,17 +66377,17 @@
 (define-public emacs-lister
   (package
     (name "emacs-lister")
-    (version "20220118.1322")
+    (version "20220802.2128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/publicimageltd/lister.git")
                (commit
-                 "51581b53ecf8e68d67a2d85dde539533aa7199ee")))
+                 "f3e9748b3417184c36e301a381ec20ef4a88e511")))
         (sha256
           (base32
-            "051wd9gnbr702qf3qz7ni8cmc6sxbxmxvlzipf03gga0n2dhrlas"))))
+            "04y51ifjdnkczsvmv70py15p41gc8mhg6f568k3xwdg1791qhwr5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/publicimageltd/lister")
@@ -67851,17 +67851,17 @@
 (define-public emacs-lsp-ltex
   (package
     (name "emacs-lsp-ltex")
-    (version "20220704.636")
+    (version "20220802.1532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/lsp-ltex.git")
                (commit
-                 "1e99307a49f88e92afc4245f3ddaa130b355ab3e")))
+                 "5c26bae674990537b512da00a8b00e69d8e38e01")))
         (sha256
           (base32
-            "188c3acqk8n54lrpbxq7h9djxwmri75z3r9szd5knfbc8x8crhns"))))
+            "0hyg020bh61qms9g2slxg4p69wib92in97jqy4nksq1mqqynxcbx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -67906,17 +67906,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220727.817")
+    (version "20220802.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "2c6a0e92402708780f18745f98ca128be64bbc78")))
+                 "3fef3415be250202744172edeffbb59b0cc7f123")))
         (sha256
           (base32
-            "148qyl40sy3wsyl6cddg9msw8jhysxg72yrfklfb54fyr0sr5jh6"))))
+            "01aph35fl6hmkmbc4siss50v4x1ms0y0vgn21ynh8hi76dgkvghw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -72566,17 +72566,17 @@
 (define-public emacs-modalka
   (package
     (name "emacs-modalka")
-    (version "20210318.1748")
+    (version "20220802.1450")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mrkkrp/modalka.git")
                (commit
-                 "3d7f652d06c8e39cfe252ece804868a20730df07")))
+                 "414b3e89937495b36fd8897adc6443eca98df78c")))
         (sha256
           (base32
-            "1ysfr02mc11sfcxngcki74zbyj4sa9mlk4v0liqk2bv1wx2cpdb5"))))
+            "0x859mslpfqxg38728jf603mgpl4nw9bvx5fdgbjcp9isla7bim0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mrkkrp/modalka")
     (synopsis "Modal editing your way")
@@ -81779,17 +81779,17 @@
 (define-public emacs-org-journal-tags
   (package
     (name "emacs-org-journal-tags")
-    (version "20220802.904")
+    (version "20220802.2042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/org-journal-tags.git")
                (commit
-                 "7578762cdadfd66ceafa6a49b19628020b95dc5c")))
+                 "7c33800e000380074b2bfd4d01c0dba045a8ecf4")))
         (sha256
           (base32
-            "0kglf8qal41zsm2gbrkz04zwbrxd8xl6gbx0qxws0flljixia0sq"))))
+            "0hx46v28skffygq9d1nb6nx6jq7za1j1j1bmjk155c5hlx917h6c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-journal emacs-magit-section))
@@ -89820,17 +89820,17 @@
 (define-public emacs-pip-frame
   (package
     (name "emacs-pip-frame")
-    (version "20220706.810")
+    (version "20220802.1914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.zamazal.org/pdm/pip-frame")
                (commit
-                 "7a75e73f884f294c979d19a520268f2a4371861b")))
+                 "8c396a11f532a1beb594b65e99e594f1e9f1c2c8")))
         (sha256
           (base32
-            "0wssm2rrm53hg2gvg7y926zgca2r8hvjib0dbgg6lz6bflshv8bp"))))
+            "0qx7529i6hscy230rpx6gxk03gapa017pm65cjxvm2cj2lg0f68v"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.zamazal.org/pdm/pip-frame")
@@ -90025,17 +90025,17 @@
 (define-public emacs-pkgbuild-mode
   (package
     (name "emacs-pkgbuild-mode")
-    (version "20220723.1401")
+    (version "20220802.1951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juergenhoetzel/pkgbuild-mode.git")
                (commit
-                 "a6985ae497c5ca721b62d3d2742f1fe1fd9fa3a3")))
+                 "9525be8ecbd3a0d0bc7cc27e6d0f403e111aa067")))
         (sha256
           (base32
-            "151pf8vvxi7yi0q5nf5bw9v22818b3zhmvfzv7lcvgpxc91y3mvy"))))
+            "03rhhmwwigvych4qfn0hly0z2hihs57yjapvfinbkrmw8ajgnl01"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/juergenhoetzel/pkgbuild-mode")
@@ -92785,17 +92785,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220719.446")
+    (version "20220802.1623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "dc6e7ff658789e4c6cf7c32a4b4fdf22ef9bc5a3")))
+                 "d811e2b844a18855776cd7a1da68982917e82fdd")))
         (sha256
           (base32
-            "0p0660w9p4ndpqiqr3wvm8c2nsmhkvlyrh7f7bhlx371604653xl"))))
+            "0gm3z7c93sc9mz3kwiqxx9l2v749lahfxczj8qa7p37n40ls5m8q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -95076,17 +95076,17 @@
 (define-public emacs-quarto-mode
   (package
     (name "emacs-quarto-mode")
-    (version "20220602.1714")
+    (version "20220802.2041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/quarto-dev/quarto-emacs.git")
                (commit
-                 "3cf4546a01766775d56b92e1c974c850ec35d5a9")))
+                 "769a4ec178f8ad3e0c87b1ee23e64616ee161b02")))
         (sha256
           (base32
-            "0r2f4m5vqxhb6jpkciywj86mxvw9zw5wxpmh56d1znids4jyypxz"))))
+            "1xi47d32mlpi80ylg9wj50amxiysbmigzpvf4xwivl181yn7cikl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-polymode
@@ -95448,17 +95448,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220801.1757")
+    (version "20220802.1606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "b0c8d71f5622a2fe7c2dfb3a27fcbc07bd582c90")))
+                 "b80134af1394e82f2761672c4a603e6672e02144")))
         (sha256
           (base32
-            "0bv32dg0idya5sbwb495ixl7srl3ca8rlvf16mcfdpnnn2hl9ix2"))))
+            "19rqpgs952xgw9a8v34hr7hdil71bd0wkw6y5j2nh2dkcxm4jsng"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -111099,17 +111099,17 @@
 (define-public emacs-tidal
   (package
     (name "emacs-tidal")
-    (version "20210211.1531")
+    (version "20220802.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tidalcycles/Tidal.git")
                (commit
-                 "ad985e3b26e81f4b8c0e05191db54b64365000c2")))
+                 "9f626e1bd6207b8690fe13f1fee692a9f44e52ad")))
         (sha256
           (base32
-            "1j78l867ycn075jiijv5qh9fa3ap8qz4s239a1bhf6jnhs1g0v3v"))))
+            "0i5z6kqblfm7i41n5az1kpg6q5vsa68h1mfggcnbdgkb6hf7qlzm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-haskell-mode))
     (home-page
