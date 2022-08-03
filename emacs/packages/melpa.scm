@@ -72794,17 +72794,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220802.1022")
+    (version "20220803.703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "12e790f315d4ebabb49c2bac8dc6a867bc1eb02a")))
+                 "f04842805f2c07b78b210e9f97a75c3c2dc400ae")))
         (sha256
           (base32
-            "19rc42rjl4pjpsrn4fnmp7nhigpbgl8xpdq99m89v6dj60k12d9v"))))
+            "128rwcm4923rc77wppmqbbhrrjqiixnz2hlx0hqq3612j37a8kni"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -106011,17 +106011,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220801.1005")
+    (version "20220803.148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "1ee38158c736bb5f1a97b493a29147e5b5fe50e2")))
+                 "cefebe6215b4065827553f2e0cb87c31c5893e5e")))
         (sha256
           (base32
-            "0wvvyb0l1q22mfsnf9sjn80jg75w01jw7a1k9hvf3wwaqzmjcz1m"))))
+            "060nbh6bq55d1vv0ln67kdp6am7fad6i6zpjvfdf5252gsz63lds"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
