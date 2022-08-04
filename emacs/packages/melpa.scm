@@ -16581,17 +16581,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220801.1750")
+    (version "20220804.821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "bd6fc14dac3943a0ea2b7d02d5abb0a841d29698")))
+                 "aaba2b0260a522cea3c733850dd13a9aae803917")))
         (sha256
           (base32
-            "1ik8a8xza7pi47rh3vwpv9mjwj5v9099an1b42y1fanbv6273r8d"))))
+            "0hq16q9rnis9j82akbz9v57njbpmn1ngcbxy3k5nbp7p2ilb8as2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16938,17 +16938,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220803.2000")
+    (version "20220804.1353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-recoll.git")
                (commit
-                 "3070550d0fed3efc30121e1d3ac5394a319eafe1")))
+                 "a2ee98e0577cae0314b433ffacfc8b9f2ab023d7")))
         (sha256
           (base32
-            "12qf4fia9f082qm82l3l9z1l1g92l6p18cy3kdzdalnmkrcnnz2v"))))
+            "0rxyn709v0ssdq498knyyma236l03r67fbi0rss5c3nq3fwdf4pf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -22836,17 +22836,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220803.942")
+    (version "20220804.1521")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "b325464b37969aed7cc43c1bfa505f813b733063")))
+                 "030457d148e7b32deffb5e0e92c0a03cf7e6657a")))
         (sha256
           (base32
-            "11ffv5h09g6hhaq58lmrhxc1h7cr74dzxc0nlqwc9l6x3i8hmfwm"))))
+            "0i2gvvggmw0zqh4kplsmv6giwr2gf7nvrm04q1bcbb53yqdxviii"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24063,17 +24063,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220801.422")
+    (version "20220804.508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "6438b0608c1286e1983fad68cfb9ca457183de1b")))
+                 "4c4b451fcf705f58e6ca41339f22365434b664cb")))
         (sha256
           (base32
-            "0kwjklinrzdyiiwm0qmh8l5n9xy7k98r3f8i8hm6av942ngvdpx1"))))
+            "0jbf04xafgqx2s3q44bg98i44j7gwkvjs5v53l9q9kcqjhq8q0qx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -24382,17 +24382,17 @@
 (define-public emacs-dracula-theme
   (package
     (name "emacs-dracula-theme")
-    (version "20220209.724")
+    (version "20220804.618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dracula/emacs.git")
                (commit
-                 "2c9efdae8b7b9a8e57dfd3aa1c62426a262e9eba")))
+                 "37b3979b91b06a0520a0d326bc323b4dda280123")))
         (sha256
           (base32
-            "1wblaspw1yb2xgymlajjqap5rkj6danrsh8hnkhpcd1x9q49llis"))))
+            "1z4zk38agf2j36gbrj3wmngmk617mc6id8y4c11kvva2fd7l60am"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dracula/emacs")
     (synopsis "Dracula Theme")
@@ -24947,17 +24947,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220803.2052")
+    (version "20220804.853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "0ca360b69f0caf48f7df519a8c061607efe0147c")))
+                 "8627205f00f4e2eed9607cf80ba116d1c3efae08")))
         (sha256
           (base32
-            "0wvvdmah564r2r8hspgv40l731wy2hbxrlwb73vm7hhw59v519xf"))))
+            "1vg2rbcs66hiiakw0cpaxdriacps12cl8mhl9zq4i66w21rr0z0y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -68132,17 +68132,17 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220803.2023")
+    (version "20220804.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/rgherdt/emacs-lsp-scheme")
                (commit
-                 "65d2d4cb72fd3dd77a77172edc9daf952179624a")))
+                 "55783a92c65bfabcb8252f4db0c1099e2b31d8d9")))
         (sha256
           (base32
-            "0rrmx320li75q27fnlb9cxqqc3xmlhmijwhyjdz80pxby0asr087"))))
+            "0lanbbq1kd9ysf58n3k2xqr781imfr58n6s0x1lkz8z5h9zdyj3d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
     (arguments '(#:files (:defaults "scripts")))
@@ -79375,17 +79375,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20220801.1255")
+    (version "20220804.1019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "772d90d49fc963fe3fc032025fa5ca49cd39e9f1")))
+                 "099a6b85097bcd7830cd8919030d7f2d8b8b06ff")))
         (sha256
           (base32
-            "1djn6ssnryf1g7bh214p9igkdi34r6s56pfni01gjq9nsxx4y2m3"))))
+            "09pk03njc4mk7r0brccch6ajnz182gxxh5d78yiqx4d5kgjj39pm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -108040,17 +108040,17 @@
 (define-public emacs-suomalainen-kalenteri
   (package
     (name "emacs-suomalainen-kalenteri")
-    (version "20220101.718")
+    (version "20220804.657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tlikonen/suomalainen-kalenteri.git")
                (commit
-                 "30103e6c6fa5dcbae70a636b007afdaad2fbcac0")))
+                 "8a41d16371ffaface70739ec861709f674b4a94a")))
         (sha256
           (base32
-            "1b4isqymawq3srcgz4qf5ghdq5074iajwqxsb25jky4niki0kgfz"))))
+            "0rpkwns05aa4d5ix0ffkh2gzag75dvqb78gqhihq560jb83qhc5z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tlikonen/suomalainen-kalenteri")
@@ -111100,17 +111100,17 @@
 (define-public emacs-tidal
   (package
     (name "emacs-tidal")
-    (version "20220803.1329")
+    (version "20220804.906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tidalcycles/Tidal.git")
                (commit
-                 "cf481ed178eb950a0d75c8c3b39990c07cbf7cdf")))
+                 "ddb3b073c3b9e1a5a4856c61d961dd32f2291235")))
         (sha256
           (base32
-            "1mprn20ahlxq7cc473m0z0llhqgwjrvy8j8c8yw2rpfa9ghkcjcn"))))
+            "1n47qxx7cy4g93vaa3ac2xb176lh6x9x04mg4qk7kq1psb4b7xil"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-haskell-mode))
     (home-page
@@ -119366,17 +119366,17 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20220803.1317")
+    (version "20220804.946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/wordreference.el")
                (commit
-                 "8ccf0f9feb276ebbb9f4d9ea4ace26211bde5354")))
+                 "6bb88a37895b62350650447fff124ce06c7e1ec8")))
         (sha256
           (base32
-            "15zljcb49klqj84zh1ldqmy0xjhdxi2zqzc1xbjwpm38idylij53"))))
+            "09zf9m6vvx2g3wg06hk0a1z7vlkl6hish7ic4wapi8p3wg7dif34"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
