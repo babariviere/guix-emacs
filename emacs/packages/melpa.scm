@@ -6937,17 +6937,17 @@
 (define-public emacs-beginend
   (package
     (name "emacs-beginend")
-    (version "20220409.846")
+    (version "20220803.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/beginend.git")
                (commit
-                 "62c75804ba7d74f4c01c0629722c061c11bed393")))
+                 "eb77d82dc88846c5715353b7fd99c9030a2e2ee7")))
         (sha256
           (base32
-            "17r8v1sjvgcmprywny9fdg54x4pssp8p7a9ivv5mrygkqjz1vykk"))))
+            "0xswh4wfrnwzwsrxmfsvfm1bcdviwfs2hhdark62l37s5xx6dcc9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/DamienCassou/beginend")
@@ -12271,17 +12271,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220801.1309")
+    (version "20220803.1554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "c48f15b150f0311b81a71a56cfaf5d8024c451e4")))
+                 "146f2cb5a31d4968ec17f39f189e4ea131ccaf56")))
         (sha256
           (base32
-            "154f7bs1q74nafnmxncrz782xrmppi4l3r3xqhhjadjinaa9n36m"))))
+            "00mv7229q594g98455fzg1h2qswk1zj1zkfsga9zqacgkldx6csx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -16938,17 +16938,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220731.1452")
+    (version "20220803.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-recoll.git")
                (commit
-                 "89457fe05574a57498c11100ba4ffce5ee54165e")))
+                 "3070550d0fed3efc30121e1d3ac5394a319eafe1")))
         (sha256
           (base32
-            "1qcfinxmxxjn4rm0zcay2jljf8kyf1ng53fql6hl3cllg537pc1p"))))
+            "12qf4fia9f082qm82l3l9z1l1g92l6p18cy3kdzdalnmkrcnnz2v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -24947,17 +24947,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220802.2131")
+    (version "20220803.2052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "c1aab70ef9b5cff4a796ee033c5e3132d16b9ecb")))
+                 "0ca360b69f0caf48f7df519a8c061607efe0147c")))
         (sha256
           (base32
-            "0vm3li4m35l9nwjn35mvn84w1mp8wsiwksma7g3wbx9a0r9y2b92"))))
+            "0wvvdmah564r2r8hspgv40l731wy2hbxrlwb73vm7hhw59v519xf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -28065,17 +28065,17 @@
 (define-public emacs-elisp-def
   (package
     (name "emacs-elisp-def")
-    (version "20220704.2144")
+    (version "20220803.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/elisp-def.git")
                (commit
-                 "7e9c950288d5f90b6f5ab0a9846e29db384f4fd4")))
+                 "1d2e88a232ec16bce036b49577c4d4d96035f9f7")))
         (sha256
           (base32
-            "01ipd1if6l320m8hg6xqhmxbd0k6qn7ysfrc0cng02l0y3k8d44c"))))
+            "0slywahznd20369ghyl51mw58svq31042sfljfq53pc7p4f5n15y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -40218,17 +40218,17 @@
 (define-public emacs-flymake-go-staticcheck
   (package
     (name "emacs-flymake-go-staticcheck")
-    (version "20190708.1325")
+    (version "20220803.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/s-kostyaev/flymake-go-staticcheck.git")
                (commit
-                 "130079fcd29c3e2a72f8325f3041042bcc6286f1")))
+                 "d29b158acc2c131cdbb5c62f54cb0fc024339575")))
         (sha256
           (base32
-            "1wxsk6vy9hm8gi5cvhmxmqv9415q8k2yp8636s4fb1xcp1zalysk"))))
+            "09gv4vk39qrcdy4m7y0wwv1gfnabahkfhhs8gclf1m9bircyjbq7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/s-kostyaev/flymake-go-staticcheck")
@@ -49340,17 +49340,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220801.1634")
+    (version "20220803.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "56c2230d03c27ee1c97d633ab6bbe95abaf76ccb")))
+                 "4ede199d5d1b7050486a0fdeecbbbf49fef31118")))
         (sha256
           (base32
-            "1d45ksrvpvnql5pndzh1c67n10x3m796m891k40m4x4m6fj2p785"))))
+            "1a8zkp00ahb84ww5072naxwllzbjhi7ccarkk2d7xsykn5lig54c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50148,7 +50148,7 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220803.952")
+    (version "20220803.1447")
     (source
       (origin
         (method git-fetch)
@@ -50813,17 +50813,17 @@
 (define-public emacs-helm-frame
   (package
     (name "emacs-helm-frame")
-    (version "20180604.1005")
+    (version "20220803.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chee/helm-frame.git")
                (commit
-                 "485e2a534b0de5e8dbeb144a9a60ceca00215a4a")))
+                 "1b5e895e9199deeea049010e5fe4de7a338f41f3")))
         (sha256
           (base32
-            "1hxqyyh8jzk83ppi1p5r9b9gy7k2hanh3xzp129iw9yqpmvwmsnq"))))
+            "0c7qb16yad5qfv40d419mgf4307mif46733ws1cnwxnhvz4dfxqd"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -68132,17 +68132,17 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220716.808")
+    (version "20220803.2023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/rgherdt/emacs-lsp-scheme")
                (commit
-                 "16fd04af47fb2168707ed0c455acfcd9c52839f8")))
+                 "65d2d4cb72fd3dd77a77172edc9daf952179624a")))
         (sha256
           (base32
-            "1zd7injh2h02k0z76d7rq4cjaq3krj6jbnnwdna1ngx2vfri16mm"))))
+            "0rrmx320li75q27fnlb9cxqqc3xmlhmijwhyjdz80pxby0asr087"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
     (arguments '(#:files (:defaults "scripts")))
@@ -70468,17 +70468,17 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220731.2054")
+    (version "20220803.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/mastodon.el")
                (commit
-                 "b6184b5cc445a496397d1b90aac7634c775ca9ee")))
+                 "a74340a72789ed12011d3f8618449bbe515a7e77")))
         (sha256
           (base32
-            "1z65vyr2795254r63h6r3jb98qv4zbg9s7psbznkj33a16jprn68"))))
+            "1zi5xr86kz8vyf27qqwdp9bfgyjhvrvjpz0ccd1098s0ixkamcaf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -93175,17 +93175,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20220731.1322")
+    (version "20220803.1702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "f5600a16d9505308e78e5f34fe4b0cd8f9881a0f")))
+                 "c304d73e09daec54dd8f8cef90df10c0b3d2c2ef")))
         (sha256
           (base32
-            "0yysdf6ark49alz6clwvls5k48ahf7l83i4h746zw7p7bic1qj5q"))))
+            "1vik42pn9gd1kvz2mvnslsg3xy0zsgy8cck1m412ffl8f6rlsgqx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -95449,17 +95449,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220802.1606")
+    (version "20220803.1446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "b80134af1394e82f2761672c4a603e6672e02144")))
+                 "89238bde54b3e9b6c85c6ce8437aa44a73fb71e1")))
         (sha256
           (base32
-            "19rqpgs952xgw9a8v34hr7hdil71bd0wkw6y5j2nh2dkcxm4jsng"))))
+            "1f66vjgh76ffz5jb2zz26vip203bcizlqh1lpwp91hy2d5cn026l"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
