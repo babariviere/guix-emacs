@@ -8395,17 +8395,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220726.1334")
+    (version "20220803.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "cb198c70e20c7ec0eec0388fd91da9b47af20da4")))
+                 "47122b6559f4990c03e0b26d6e123e7f9f46525b")))
         (sha256
           (base32
-            "1ppk6w557zm2qhk12grlw01qskrqsw7xcr629r5g1jirayxr6i5p"))))
+            "00ihsfsinjy0cvgb64chixffv6afb5qj5sidq6699g79xpvdhp1i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -44414,17 +44414,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20220615.1159")
+    (version "20220803.2341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "c1fb53d3de6390961ccd8dfb1cc135383508d0fc")))
+                 "ac7fae6a9893b55ad01942d9ea5a571d44426665")))
         (sha256
           (base32
-            "0chjz0vj40kwb0ay88ij4mg802r1q2mamd4b39p59crkqwp3qn93"))))
+            "0pjf0rln1l61idin92fql9dg509lhxh7j1bnbywi40c1iggi43b3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -48106,17 +48106,17 @@
 (define-public emacs-gruvbox-theme
   (package
     (name "emacs-gruvbox-theme")
-    (version "20220801.1506")
+    (version "20220804.103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greduan/emacs-theme-gruvbox.git")
                (commit
-                 "0abbbe5f7fe464fc127a05a8616b65caf5116dc8")))
+                 "6c54b1f453dca09e5800da5fbce7153c26dc6b82")))
         (sha256
           (base32
-            "1pymjfxsxvlhjkjv567g4qfxmjmsin78g03f3s2bg3man1jmc0sm"))))
+            "1fpy22rvvn8zr48bbpd67awgmzbi0q18lqmnjpg99lzb1maiz1xs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -57921,17 +57921,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20220710.959")
+    (version "20220804.18")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "24bf59caf03db3f24e02ba738df5dab88e57836f")))
+                 "7dfc779dc6038125c516c7c7746994a54b96e409")))
         (sha256
           (base32
-            "05sqznzmj4fyvlg5l24fi7bangxn7yh513afhgyhybfhni6nwx60"))))
+            "0jfc3slm0yxd7l533x5x575h8f6hzmzkf0iya6g1sdhw6kibs66h"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -64168,17 +64168,17 @@
 (define-public emacs-laguna-theme
   (package
     (name "emacs-laguna-theme")
-    (version "20220419.1459")
+    (version "20220804.227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/HenryNewcomer/laguna-theme.git")
                (commit
-                 "48d14ffad6f0ffb4bd60c341e618c47ddbb7a2d8")))
+                 "680ab8c936cb1c249b5a6a07976bcc83ef217e25")))
         (sha256
           (base32
-            "0s2pm1ykkg4r39sigbpr5rjqv25dxpiz47jg3j38m2qpihgi03nw"))))
+            "02ma47pmjavhfdswz3kp6s5icw93f1v9rkyirn0viz6pcxjn6ksd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/HenryNewcomer/laguna-theme")
@@ -68811,17 +68811,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220722.345")
+    (version "20220803.2341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "281f0c3c377cc03f685f43c15e90be5a1fc09e75")))
+                 "ac7fae6a9893b55ad01942d9ea5a571d44426665")))
         (sha256
           (base32
-            "04x5j094qvil81pp1r0d56nsrlbjggwgsqkw2z5wvggrfirp2ix6"))))
+            "0pjf0rln1l61idin92fql9dg509lhxh7j1bnbywi40c1iggi43b3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -69284,17 +69284,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220719.2014")
+    (version "20220803.2341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "80cdadb08efcf3287f6af138608d2a71bd8d0a40")))
+                 "ac7fae6a9893b55ad01942d9ea5a571d44426665")))
         (sha256
           (base32
-            "1qywqwx5qp9kqw1acqplp7wq2s2ppim89rw06f0k3jphdxl1x44p"))))
+            "0pjf0rln1l61idin92fql9dg509lhxh7j1bnbywi40c1iggi43b3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -72794,17 +72794,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220803.1104")
+    (version "20220804.500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "64f9378a5114399f3a47c9d23136af677c25e513")))
+                 "a9399d08ce2199b31f7e64a3f4740156e8f501eb")))
         (sha256
           (base32
-            "0ng85240zabw87ac53xnrlrafp10ns5wn6dgv9d1jxvnq40p7zqz"))))
+            "19pfj58pmn0vsqva2wdrbqpzsv8xjhx157r06kfp1hw2ibb70gql"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -83148,17 +83148,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220723.2058")
+    (version "20220804.437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "e435581215a9eb8e95dde49ce1fb3c25929b80f4")))
+                 "7f453f3fffb924ca4ae3f8d34cabc03fbcae0127")))
         (sha256
           (base32
-            "0vxck2mbd43vppxsg2xgxrshv4zrf2121a6zwa24rjg5dc6ri4db"))))
+            "10a7f10wfvpcyvjha6rwgpxz20qf045fsmbw8649f75hf1vjg0ny"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -95449,17 +95449,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220803.1446")
+    (version "20220803.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "89238bde54b3e9b6c85c6ce8437aa44a73fb71e1")))
+                 "e86ff2c865f1cd28bc047542eedfb55b32588b04")))
         (sha256
           (base32
-            "1f66vjgh76ffz5jb2zz26vip203bcizlqh1lpwp91hy2d5cn026l"))))
+            "0f6lcyc39j8qy268xnhkmjw5fw52z2m1dmi2aaf16jlcsqpr3qpx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -111979,17 +111979,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220702.609")
+    (version "20220803.2258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "0399f73f9b976737f51ad8079ad620673eb0106c")))
+                 "fa67b67e1ae41adb44de0e5180a6cab922da6bb0")))
         (sha256
           (base32
-            "0rprfg1gjd7bxhlhjan715035bxakjf9m44i76d614g6vc158zs1"))))
+            "1v78pmv6554qb9b4s2i19vvxncsp914qblyyv95zbq8id3k3v606"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
