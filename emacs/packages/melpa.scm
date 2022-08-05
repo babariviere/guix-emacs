@@ -4740,17 +4740,17 @@
 (define-public emacs-auth-source-xoauth2
   (package
     (name "emacs-auth-source-xoauth2")
-    (version "20220628.2232")
+    (version "20220804.2219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ccrusius/auth-source-xoauth2.git")
                (commit
-                 "3f80cd338d924ce76273b6749a8b73e2bfdf9db8")))
+                 "5d1adfa649bb5a9df20a2fa89f235a55a64b52e4")))
         (sha256
           (base32
-            "0nwq9id2cxg0fg4h0s3ql6pzhb5q2xrc3xnfjjjg9yhc2z4c5l21"))))
+            "06ssvsqac1vlbay9yp1fidbils56dwfgbzwk4nrnr5qxnl2rd370"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ccrusius/auth-source-xoauth2")
@@ -10202,17 +10202,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220719.646")
+    (version "20220804.2211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "be078bfb331df23418be6657e0320d81f1d363f4")))
+                 "ab2f4ec9ec778d256c7e4b3490ecd50269c422f0")))
         (sha256
           (base32
-            "0wv4wjm3qfdv4f6mhcpfmh513ffjwwla5pax0ar8jch13n5dmgsc"))))
+            "1ivhf9xvhxz8k53fk2m03s4967hcyghacgrbg7sc0mywhdf0ba1f"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -40218,17 +40218,17 @@
 (define-public emacs-flymake-go-staticcheck
   (package
     (name "emacs-flymake-go-staticcheck")
-    (version "20220803.1929")
+    (version "20220804.1907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/s-kostyaev/flymake-go-staticcheck.git")
                (commit
-                 "d29b158acc2c131cdbb5c62f54cb0fc024339575")))
+                 "9098f7e07ea6513667dc6af6d9ad2fa854464d20")))
         (sha256
           (base32
-            "09gv4vk39qrcdy4m7y0wwv1gfnabahkfhhs8gclf1m9bircyjbq7"))))
+            "15gwg431lk7n8n21dsaic3k0rjw6lbsc2g394hr3xzirywk3g40i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/s-kostyaev/flymake-go-staticcheck")
@@ -43775,17 +43775,17 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20220801.2144")
+    (version "20220801.2156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/gerrit.el.git")
                (commit
-                 "554aecaea4709a16f1ecee73907fd0e6762ad2b9")))
+                 "a8bc65d28cea58973827c9e8b989bec0e56e3f0a")))
         (sha256
           (base32
-            "0wsq00arnn0mbrxlmj8wjis24mzd1kr0mdrhfz4lcr3q9pddzln4"))))
+            "0ba4j1f6lld1ij4casn14p95zq45mc7d8vgkp6fmwqn48gzk8953"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-s emacs-dash))
@@ -53921,17 +53921,17 @@
 (define-public emacs-hgignore-mode
   (package
     (name "emacs-hgignore-mode")
-    (version "20210314.431")
+    (version "20220804.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/omajid/hgignore-mode.git")
                (commit
-                 "2c5aa4c238848f5b4f2955afcfb5f21ea513653b")))
+                 "c65810347f39904b985187c5e2aaf27b184f3cae")))
         (sha256
           (base32
-            "0jn9rzhrmmv4lf7rdapdjclk6623d1mir2lq3c46428skhzjlph7"))))
+            "1nwrkyb2przdw9fam7b6y8jwgd36ma5pggiqf54xy9m6fdn2s8ac"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/omajid/hgignore-mode")
@@ -66231,17 +66231,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20220526.1832")
+    (version "20220804.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "dbab5899f26fa2ee27f5c2e8b32c20f2f69242fb")))
+                 "cdb7d32f2195ca2ed8df237aa6826bbd177b2813")))
         (sha256
           (base32
-            "0s5f4qlpa1nrlww2x1k77mchybvk92vh1n7i65p3vxfb6d3qvz1a"))))
+            "000f87v26fdy3ydqiisa53xhrnpf8phkjqxr60wyr8s7r6ng69y9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -67906,17 +67906,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220802.1632")
+    (version "20220804.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "3fef3415be250202744172edeffbb59b0cc7f123")))
+                 "0f56580e98eb8d4fed32bebd62281249604735b3")))
         (sha256
           (base32
-            "01aph35fl6hmkmbc4siss50v4x1ms0y0vgn21ynh8hi76dgkvghw"))))
+            "09awa0w6bgrgai76y1k5y196na2rys0n04xfhj83phnlkyh8n5ig"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68132,7 +68132,7 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220804.1138")
+    (version "20220804.1433")
     (source
       (origin
         (method git-fetch)
@@ -92786,17 +92786,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220802.1623")
+    (version "20220804.1530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "d811e2b844a18855776cd7a1da68982917e82fdd")))
+                 "94273611c95b6718c41018be2657f6982a325f60")))
         (sha256
           (base32
-            "0gm3z7c93sc9mz3kwiqxx9l2v749lahfxczj8qa7p37n40ls5m8q"))))
+            "17819s97qrmq96rvnnwa29hblrnbajqyd8q16dvj28m7366gq90q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -108665,17 +108665,17 @@
 (define-public emacs-sx
   (package
     (name "emacs-sx")
-    (version "20191229.1746")
+    (version "20220804.1419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vermiculus/sx.el.git")
                (commit
-                 "e9d1093c97507a6d7b4f4710ef65200dae725e5f")))
+                 "c58405f9ff27b9740997ea837a1f6fd173d1edc5")))
         (sha256
           (base32
-            "0m90ddwm8j0y6d1ppqhd2gil1107k202blw6mzm5bdambn4nfqkf"))))
+            "1rybhwzvbd6y8p4gshiaw8i5v8ankav4wc4v1viag2j7ay0ygjxz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page
@@ -110002,17 +110002,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220709.816")
+    (version "20220804.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "ff9756b0646b1d06443eb4bdc64db443f1aa6c40")))
+                 "dac7e7bcbda97560532c854888a3d51ac01829ae")))
         (sha256
           (base32
-            "0iyh6wxchqg83gpwvg6lz4qy4c2qh25iqjpjm56kif52346a99d2"))))
+            "06sxz9p86q4hzdwdi0jdnq6gc4chh3kh4c2dbi0wm3fyndbviqwh"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
@@ -111322,17 +111322,17 @@
 (define-public emacs-timu-rouge-theme
   (package
     (name "emacs-timu-rouge-theme")
-    (version "20220525.1239")
+    (version "20220717.2158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-rouge-theme.git")
                (commit
-                 "5c6f406bf5815e6b72b09093b651b09c7c6769fc")))
+                 "bbfc8bbba01e5caa9d11628f0bc2276605c75901")))
         (sha256
           (base32
-            "04wjz4xzbb5ps16bfvwd39ifh7y880g4n1di76kn9mylc445a0kq"))))
+            "0r2647yll9yx9i5i1j2gqr8ammxll5pc367prs9jz8il6nd4irpa"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-rouge-theme")
