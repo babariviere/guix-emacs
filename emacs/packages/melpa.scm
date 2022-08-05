@@ -4303,17 +4303,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20220630.57")
+    (version "20220805.1153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "7f4ed1e8b44e0b88eadb2efeeaf97f32c38f14c4")))
+                 "5a6c0d5e36d732be266b4b16776457038d67da6e")))
         (sha256
           (base32
-            "08d1sv97xhk20r7xgb9mxlvdzlj5x7pi542fdm5nrz2s47y4w0xg"))))
+            "19hhqgxm4bk9gmw0l2gwmipnjzgjc8p7s46s76qi9ycbrip8izxg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -22836,17 +22836,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220805.629")
+    (version "20220805.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "7753e8165e136e5cc62f83aaeae7e7d953e69eeb")))
+                 "8f1b38d2b8b80bf0adc721d4eb04cdad2b140ac9")))
         (sha256
           (base32
-            "0xqxaywxcmz0v5hsc7ysna4bq99pbnkjj1vl393ixlp7jr9y1lpf"))))
+            "00s2hp292hlzigjd2am0qjfmr56hpza2jxqlnyv1n7mrjd36ck6h"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24063,17 +24063,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220804.508")
+    (version "20220805.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "4c4b451fcf705f58e6ca41339f22365434b664cb")))
+                 "1b7463832f21369377bf0a3d8f402241ad8102cb")))
         (sha256
           (base32
-            "0jbf04xafgqx2s3q44bg98i44j7gwkvjs5v53l9q9kcqjhq8q0qx"))))
+            "08cj22njp8xc9mk02wzjvgsxs9w2gvcrr393xqw452x95n59fnr5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -67906,17 +67906,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220804.1407")
+    (version "20220805.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "0f56580e98eb8d4fed32bebd62281249604735b3")))
+                 "d9317f2f9e0ff08ec9fa7e93c2e4eeafa94c8b7e")))
         (sha256
           (base32
-            "09awa0w6bgrgai76y1k5y196na2rys0n04xfhj83phnlkyh8n5ig"))))
+            "0cjxg7dd4g2ywh14zli3chn5cvkv8jlnp23c1zqkjpd1dic7d3wr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68132,17 +68132,17 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220804.1433")
+    (version "20220804.1814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/rgherdt/emacs-lsp-scheme")
                (commit
-                 "55783a92c65bfabcb8252f4db0c1099e2b31d8d9")))
+                 "3ed8718f21bf6725ad6d5f611aadb8a3bda68bf7")))
         (sha256
           (base32
-            "0lanbbq1kd9ysf58n3k2xqr781imfr58n6s0x1lkz8z5h9zdyj3d"))))
+            "1xw57lg84kv4yz1jcl203s72yc0gi59w62v78hlc2bdx2y2nh7q4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
     (arguments '(#:files (:defaults "scripts")))
@@ -81780,17 +81780,17 @@
 (define-public emacs-org-journal-tags
   (package
     (name "emacs-org-journal-tags")
-    (version "20220803.1358")
+    (version "20220805.1001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/org-journal-tags.git")
                (commit
-                 "687c95eea69b515b194b416db27def686392e06f")))
+                 "66b4dcd6084242008a430aedb27e5834671b5f99")))
         (sha256
           (base32
-            "0p265wwfg0ayg1ja6vgkapzh0rfw6g360g4j9qjqsakiyiiydg31"))))
+            "1l352pqpmhld74qgkzq9i6inkppgiy145cmr0zyjk0803gry0g67"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-journal emacs-magit-section))
@@ -94383,17 +94383,17 @@
 (define-public emacs-pyinspect
   (package
     (name "emacs-pyinspect")
-    (version "20211102.1415")
+    (version "20220805.918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/it-is-wednesday/pyinspect.el.git")
                (commit
-                 "36cf624236c8b4cce852dd52b64d058d4d4a32fd")))
+                 "df5959e699157d757c16ce11efdf3045a5b58d23")))
         (sha256
           (base32
-            "0g2k9fgjvcq2jc3j2k2x2v1vghaf0hyarzvdby5vzycsp7jlzcjm"))))
+            "15xbs4g5agp700ajqrfcz6fgmridj55v8hhg1jmhqn1aacvh6zas"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "pyinspect.py")))
     (home-page
