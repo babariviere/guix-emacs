@@ -16938,17 +16938,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220804.1353")
+    (version "20220805.241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-recoll.git")
                (commit
-                 "a2ee98e0577cae0314b433ffacfc8b9f2ab023d7")))
+                 "1c48329d90f93ec9718b4a2a4775a9b16ed802ca")))
         (sha256
           (base32
-            "0rxyn709v0ssdq498knyyma236l03r67fbi0rss5c3nq3fwdf4pf"))))
+            "0380w8y5nnjca7ggrjrngc3cm871cw92icclcp30cf0pbjnx5n6y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -22836,17 +22836,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220804.1521")
+    (version "20220805.629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "030457d148e7b32deffb5e0e92c0a03cf7e6657a")))
+                 "7753e8165e136e5cc62f83aaeae7e7d953e69eeb")))
         (sha256
           (base32
-            "0i2gvvggmw0zqh4kplsmv6giwr2gf7nvrm04q1bcbb53yqdxviii"))))
+            "0xqxaywxcmz0v5hsc7ysna4bq99pbnkjj1vl393ixlp7jr9y1lpf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -35584,17 +35584,17 @@
 (define-public emacs-fanyi
   (package
     (name "emacs-fanyi")
-    (version "20220702.812")
+    (version "20220805.216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/fanyi.el.git")
                (commit
-                 "07815b29decc08994e7b6ae24be188047531b1b9")))
+                 "031c7ab7a16113bdca2b351781dc95aff9658c9a")))
         (sha256
           (base32
-            "01qnlfcjf7gr0bax94b6s79qf6r3pkvv2h30kmkz630x8a6wsgzf"))))
+            "0d9v93ll884srr8f6di1iyp396wr0bklip6cv0xydw3mimv2rv3x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -48106,17 +48106,17 @@
 (define-public emacs-gruvbox-theme
   (package
     (name "emacs-gruvbox-theme")
-    (version "20220804.103")
+    (version "20220805.204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greduan/emacs-theme-gruvbox.git")
                (commit
-                 "6c54b1f453dca09e5800da5fbce7153c26dc6b82")))
+                 "5cc7e7354a778d5e9df5ee6850e2fdd8e02851d1")))
         (sha256
           (base32
-            "1fpy22rvvn8zr48bbpd67awgmzbi0q18lqmnjpg99lzb1maiz1xs"))))
+            "0ydwr2l3jhqbs3gk5qajirl54vfb8i65qrlzrs04jnsj1pkzq5xa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -117136,17 +117136,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20220729.42")
+    (version "20220805.157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "db02ce0fde628a8eb9a1a0c95939c41981fdd931")))
+                 "c8b94ebeab34dcb5f3d26e65b6cbd92de6cd054c")))
         (sha256
           (base32
-            "0n8sdyl17650kyl8m770pvz8pwgfl9zyxnkzak8mhphazd72d7a7"))))
+            "1063bfhmhi4870gy3islf6yzricb87kjn80ilkscm6wws9arq228"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
