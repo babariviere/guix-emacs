@@ -9513,17 +9513,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20220619.2214")
+    (version "20220629.2119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "42df1faa653f2765941f478167dafac059dc3a57")))
+                 "62176a39ee6aa990c96e97c13ee4992355f0a122")))
         (sha256
           (base32
-            "1s9ps7a4459hgvpdslzvkhq3gsdj600l2h9jsxrfbam7lxkp7v35"))))
+            "0j9qaa45r14kyqv44jhnygc03xzvw2k7rfaai99v7xl6a6aj4p8k"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -22836,17 +22836,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220805.1226")
+    (version "20220806.336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "8f1b38d2b8b80bf0adc721d4eb04cdad2b140ac9")))
+                 "be6f1320c47c5d48a5ba32c4e7dd4999bd55e750")))
         (sha256
           (base32
-            "00s2hp292hlzigjd2am0qjfmr56hpza2jxqlnyv1n7mrjd36ck6h"))))
+            "0lgyppid6hmvy1qa0q4gghnqpxxlbjv6cv5rb9wc84ik2iwls832"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -71639,17 +71639,17 @@
 (define-public emacs-mgmtconfig-mode
   (package
     (name "emacs-mgmtconfig-mode")
-    (version "20210131.2152")
+    (version "20220806.306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purpleidea/mgmt.git")
                (commit
-                 "0652273fe1bfbeb165715613e00583b96ed07c2d")))
+                 "3cea4223657cdbb32fcb0afc54bb736388dfbd5e")))
         (sha256
           (base32
-            "1qr1zg0ppl6xlg91a21j4dlbysglwyjs8x139b2gyf95xlfkxpkw"))))
+            "018spmlvb30x8qxvsr8avbngvcn0qcvzyh5520jwrm0q0yhnvb4x"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("misc/emacs/*.el")))
     (home-page
@@ -80527,19 +80527,18 @@
 (define-public emacs-org-bookmark-heading
   (package
     (name "emacs-org-bookmark-heading")
-    (version "20200103.514")
+    (version "20220805.2357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-bookmark-heading.git")
                (commit
-                 "38a2813f72ff65f3ae91e2ebb23e0bbb42a8d1df")))
+                 "fac3edac3b70a00f5412e3e7e2830a5cfee84432")))
         (sha256
           (base32
-            "09rfp0zf68gnhiwh61wc10kgqk75ypkbk0hawrw1rhida1bi2wb1"))))
+            "1wr442hqiih6ygcwcww1k56fkw5afn5rlcd49hs4qwqg4cchvgc0"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-f))
     (home-page
       "http://github.com/alphapapa/org-bookmark-heading")
     (synopsis "Emacs bookmark support for org-mode")
@@ -102767,17 +102766,17 @@
 (define-public emacs-sideline
   (package
     (name "emacs-sideline")
-    (version "20220706.720")
+    (version "20220806.401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-sideline/sideline.git")
                (commit
-                 "32c2c9f8d752073c2b637ea8f0b4473804339f64")))
+                 "3e1889daa10ea6950b130e29991296d150fd9679")))
         (sha256
           (base32
-            "1n1diyz95d0g1gq0yzf86a94fcgsqvh834ww7pblgq1yk7ld9hzd"))))
+            "0579qmb3sspk438v2qrp3gkfn0cwydp3x7s3lvya7lfs4ywmqcpv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-sideline/sideline")
