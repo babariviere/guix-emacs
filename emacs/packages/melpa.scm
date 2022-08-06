@@ -32574,17 +32574,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220802.1212")
+    (version "20220806.1425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "5e562ae0a5775a6928fddb6f97a76d770a59dfa6")))
+                 "3045e425e9209808788c1a7b7e00e0814ec6c81b")))
         (sha256
           (base32
-            "09zpbfviyaz0nlw27fbqk2fhxw3dxil3ijmqd23ip9qnnhq7gl18"))))
+            "1cgqp9znqbd0qqm07k7h5kpcdc3ggx96h3avph41bfakf83rcrh2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -32771,17 +32771,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220730.1602")
+    (version "20220806.1158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "8cb38434801b5e364abc1e160021c6f1d1a0a006")))
+                 "c005e07420d177e8d7be6c30939e5e1fa68bc2b8")))
         (sha256
           (base32
-            "01aa6aymwmqbmyadlj6dhrxyfx7nqaj3rd0a8bn0sgbwhrmwr1vc"))))
+            "0g4vp0yl2c7yyixkll6al5wghr5b4m63rm8a1qpc2i3kwfxw0dbr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -41842,17 +41842,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20220718.1014")
+    (version "20220806.702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "9e6170437f0c2aa9bc27804c5b06b9cb44ccd02a")))
+                 "7e375c01eeaacdf33a27b59f6cf1849bb6a0caa5")))
         (sha256
           (base32
-            "1lvs48pfcy1vlmqj7c5a57qjw2zpa97zshfwhp0z1aggvbyw2xcs"))))
+            "1xh6bbwcgx6bs78vfmfv5cy16ng7i9k37kr1cpdxfchjl3ylyhw1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -67851,17 +67851,17 @@
 (define-public emacs-lsp-ltex
   (package
     (name "emacs-lsp-ltex")
-    (version "20220802.1532")
+    (version "20220806.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/lsp-ltex.git")
                (commit
-                 "5c26bae674990537b512da00a8b00e69d8e38e01")))
+                 "18b0e8608408f9e913d89075e78c2b4e3f69cf1c")))
         (sha256
           (base32
-            "0hyg020bh61qms9g2slxg4p69wib92in97jqy4nksq1mqqynxcbx"))))
+            "1a0vlcnw7dzaz3ypav7ws5nfs8p8rg7rfjm302fbf8sz167rb2xq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -68811,17 +68811,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220803.2341")
+    (version "20220806.702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "ac7fae6a9893b55ad01942d9ea5a571d44426665")))
+                 "8a0cc83eff98489d3685b8585afdcebbb47c1393")))
         (sha256
           (base32
-            "0pjf0rln1l61idin92fql9dg509lhxh7j1bnbywi40c1iggi43b3"))))
+            "0hf3zyxwhknnkgcms5phwf5qrbzjkj5c8kpmynzb9bwr6ba8yf6p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -102212,17 +102212,17 @@
 (define-public emacs-shenshou
   (package
     (name "emacs-shenshou")
-    (version "20220802.1232")
+    (version "20220806.1210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/shenshou.git")
                (commit
-                 "8152f6f6ee975a7f32913d54ae9223a655c3b82c")))
+                 "ac1ec139ee67ec7ed7dd83061add1bd1ae2a5ee0")))
         (sha256
           (base32
-            "05wsng4spkakz6pwkps68r1rk5wfvk3pzgw12hlslyb57f36bnjc"))))
+            "031j8g228z569aks51fafgrlv9ha6xf6k1wvv2a3bz7zzyybbqnj"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/shenshou")
@@ -119365,17 +119365,17 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20220804.946")
+    (version "20220806.1022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/wordreference.el")
                (commit
-                 "6bb88a37895b62350650447fff124ce06c7e1ec8")))
+                 "fd46c30ddc3abd6124b9057110fb0cbdc242937a")))
         (sha256
           (base32
-            "09zf9m6vvx2g3wg06hk0a1z7vlkl6hish7ic4wapi8p3wg7dif34"))))
+            "18gfhgqchlpbpbd6lyfx1sb548f07lw970ff8896rra8jz5jy565"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
