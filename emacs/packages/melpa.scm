@@ -12133,17 +12133,17 @@
 (define-public emacs-cilk-mode
   (package
     (name "emacs-cilk-mode")
-    (version "20220411.1342")
+    (version "20220805.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ailiop/cilk-mode.git")
                (commit
-                 "794821e129ea47b04fdeedc61d9ccb3c4240c72d")))
+                 "c583d7b35cd3e366abd43eb08b25c2bd4929c18f")))
         (sha256
           (base32
-            "0yvh3f165j3i4qk4qixk7xnqvfckz4dh5z7sdm3940f3wgk2g2mv"))))
+            "0d8lw5ag12n5s0w4649izs815s2zm4kaldgwfmdla1np3ywvaimi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page "https://github.com/ailiop/cilk-mode")
@@ -16581,17 +16581,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220804.821")
+    (version "20220805.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "aaba2b0260a522cea3c733850dd13a9aae803917")))
+                 "39452ddbcd403f9fe7ad18270f124a8c98896c88")))
         (sha256
           (base32
-            "0hq16q9rnis9j82akbz9v57njbpmn1ngcbxy3k5nbp7p2ilb8as2"))))
+            "06sqdcknv0ipskz073alfvl75qsrz18pspqgxqpwv0l13hmrz423"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22231,17 +22231,17 @@
 (define-public emacs-dired-launch
   (package
     (name "emacs-dired-launch")
-    (version "20220317.1839")
+    (version "20220805.1655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/dired-launch.git")
                (commit
-                 "72ebbe2b3d2e04dbfda636fa114d4f47835ce044")))
+                 "e7877700144cf4abb5f5482eea7fde9b749cfc57")))
         (sha256
           (base32
-            "0z53ymlbyan542mzsjkgab29czx2zk05qgady99kg40rik78599q"))))
+            "0i59cn7fk8db3mr6zljgnyvqvhqbdynsdbcj0l0fnlydw9rh9hyd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thomp/dired-launch")
@@ -24831,17 +24831,17 @@
 (define-public emacs-dune
   (package
     (name "emacs-dune")
-    (version "20210909.1010")
+    (version "20220805.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/dune.git")
                (commit
-                 "6046bb8319b51b6344f0422731ce2b36d2921f40")))
+                 "3df932f7f91ea68c3fee789f133b4aa8f9bea807")))
         (sha256
           (base32
-            "1jp5rk6yjr7lb7wdhnlvi9ypsn0pj4h6jfkfmcv2f4rbzhm1h2bz"))))
+            "19b71sg9q9yj00dkqdkq2q0j3ibvvgvf53qyjr8f3j60c5mc6hcv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("editor-integration/emacs/*.el")))
@@ -34238,17 +34238,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220715.1530")
+    (version "20220805.1520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "9dce8dab68c954ae32095328cf898eb856fc341a")))
+                 "7ec5835662941ce64201281bc0ed0f31ee34e48a")))
         (sha256
           (base32
-            "08s2za167a76p6z40cdpi1b10968sf4mvwgm0sinvqh26pqqz9n4"))))
+            "10kh8idwlcxa9f7f5jmwg1sykm3v1lv50lf3zqn13k1blj0k0ya0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -68132,17 +68132,17 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220804.1814")
+    (version "20220805.1939")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/rgherdt/emacs-lsp-scheme")
                (commit
-                 "3ed8718f21bf6725ad6d5f611aadb8a3bda68bf7")))
+                 "2e7196c1e6915069f6ee7bb492f6c6987c9847ab")))
         (sha256
           (base32
-            "1xw57lg84kv4yz1jcl203s72yc0gi59w62v78hlc2bdx2y2nh7q4"))))
+            "0fh23dgz596qxlv18a9kaw24g5j99z99waw1vsiaaqx8cnrkbb1a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
     (arguments '(#:files (:defaults "scripts")))
@@ -91761,17 +91761,17 @@
 (define-public emacs-powershell
   (package
     (name "emacs-powershell")
-    (version "20220402.643")
+    (version "20220805.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jschaf/powershell.el.git")
                (commit
-                 "77b27faf8a292f1dc9f54c872241dc53b6791bf1")))
+                 "f2da15857e430206e215a3c65289b4058ae3c976")))
         (sha256
           (base32
-            "0i66gq5pzgnh4x2y05vsd54cnb8v3adp7gxljwzzljm2jpwmb8hn"))))
+            "00q0qdrdj1rsi6lc1mdmn0nnxklpp2wjp73q12dwav37ymv9cj4w"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/jschaf/powershell.el")
@@ -95449,17 +95449,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220803.1542")
+    (version "20220805.1626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "e86ff2c865f1cd28bc047542eedfb55b32588b04")))
+                 "092a6be063a0fc9955a83b0bf0814f2d0eb01018")))
         (sha256
           (base32
-            "0f6lcyc39j8qy268xnhkmjw5fw52z2m1dmi2aaf16jlcsqpr3qpx"))))
+            "194lp7crg5rrprifinrxgcvan3a93ikj1nv2q1alz7i2s1pbrii1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109587,17 +109587,17 @@
 (define-public emacs-tangonov-theme
   (package
     (name "emacs-tangonov-theme")
-    (version "20220801.528")
+    (version "20220805.2149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trev-dev/tangonov-theme.git")
                (commit
-                 "20b59b96ef57f7531525951989cef0e9f849371b")))
+                 "1f8753577e5628fe4c29b53ab82a94c4a50a6a58")))
         (sha256
           (base32
-            "1zz5n604zy4zjhwz6ac9d4s2gyf3dqij8wqlli79a94r7hk0pcf6"))))
+            "11xfmdj44jq4mcxlpr296ad4pr8j51f8dnzzpcgn5n36bqvlwrbw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trev-dev/tangonov-theme")
@@ -113731,17 +113731,17 @@
 (define-public emacs-typescript-mode
   (package
     (name "emacs-typescript-mode")
-    (version "20220730.1035")
+    (version "20220805.2008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-typescript/typescript.el.git")
                (commit
-                 "acd8d7995204c1faf14383b8236e57f4da380ecf")))
+                 "d1123e0e96da3535a22380e9345249730e756966")))
         (sha256
           (base32
-            "1zqgrrsnm9zksdk5bcaxa3pfwxpgpama26xk8mqz7k12sgxi89ry"))))
+            "0lp2mbfzpvcr08kgk2mgrlmpzxkq4kbaj53qsv6jbkfdcbv48x3i"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/ananthakumaran/typescript.el")
