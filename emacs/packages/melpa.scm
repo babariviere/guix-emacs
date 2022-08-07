@@ -16938,17 +16938,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220805.241")
+    (version "20220806.2209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-recoll.git")
                (commit
-                 "1c48329d90f93ec9718b4a2a4775a9b16ed802ca")))
+                 "c57d3e791349619a62242b7a7faff77cb64e114b")))
         (sha256
           (base32
-            "0380w8y5nnjca7ggrjrngc3cm871cw92icclcp30cf0pbjnx5n6y"))))
+            "1dafnqb1v90fmdqcwjm92avq3qrmq6lxqiz6vnpyf4yg7qk6kdrv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -23828,17 +23828,17 @@
 (define-public emacs-dockerfile-mode
   (package
     (name "emacs-dockerfile-mode")
-    (version "20220220.1439")
+    (version "20220806.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/spotify/dockerfile-mode.git")
                (commit
-                 "11c43de04b128b7638cd98a1e80be2b661c18fbb")))
+                 "c7e4e2541deb66d266f58c364e33a4a10cefbc2b")))
         (sha256
           (base32
-            "0nmybfc9qch0jng06qgs2xb41dl9v52ckc9nc20d7hv3x36w555x"))))
+            "0hmzwh8m72rj6cwaxfypnv3fmjrs11iqr15vsdw1rw7m55xi675f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/spotify/dockerfile-mode")
@@ -29064,17 +29064,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220628.1501")
+    (version "20220806.1536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "cbe56e216df38756de11370535601b5324fdc63b")))
+                 "a1b16b53c5211607fa0f76c80aebb3a72f645ae1")))
         (sha256
           (base32
-            "1xdahfnrvfda427grv69agx4ry3mq30nyz1ay01a23ijjlrf4q58"))))
+            "1jgr1f2nrnw5rsvnsxmvnlrr48fxrb895q4mpawnaw17xx13llpg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -68132,17 +68132,17 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220805.1939")
+    (version "20220806.1936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/rgherdt/emacs-lsp-scheme")
                (commit
-                 "2e7196c1e6915069f6ee7bb492f6c6987c9847ab")))
+                 "d406c0ab1c7bb9f7ec5a09e25e4e9f3bc0f44737")))
         (sha256
           (base32
-            "0fh23dgz596qxlv18a9kaw24g5j99z99waw1vsiaaqx8cnrkbb1a"))))
+            "0xb8lddba4xacicxq0dlj0plbrr38f62aaxv391gii4f24gv3h74"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
     (arguments '(#:files (:defaults "scripts")))
@@ -72794,17 +72794,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220804.500")
+    (version "20220806.1740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "a9399d08ce2199b31f7e64a3f4740156e8f501eb")))
+                 "418d9541e58d4dc403065a04520e2b71a8403532")))
         (sha256
           (base32
-            "19pfj58pmn0vsqva2wdrbqpzsv8xjhx157r06kfp1hw2ibb70gql"))))
+            "05j0fidc761mffhg25xh84ddqkr0xy6fzlfi89gk4m7hp8r9ri66"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -82587,17 +82587,17 @@
 (define-public emacs-org-present
   (package
     (name "emacs-org-present")
-    (version "20220108.1802")
+    (version "20220806.1847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rlister/org-present.git")
                (commit
-                 "7e56ab02b4e54f3350f54a688f8e38f7be194fe1")))
+                 "4ec04e1b77dea76d7c30066ccf3200d2e0b7bee9")))
         (sha256
           (base32
-            "19gps9xw9apwrld8rxz8shnblmhaw2dk7gyaz79yhvsbjgwb2js8"))))
+            "0bcrgwc80968zx52lwg71cs7v2yrygynzbnrakxdja1l5a6h3xy6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rlister/org-present")
@@ -112391,17 +112391,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220803.1000")
+    (version "20220806.2224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "389d2bffff1d7ada561688861ca67b7a360cf352")))
+                 "3b267425c0fe93a518a703d814cff3cf6a304a97")))
         (sha256
           (base32
-            "0kz4jp1wz81jswspdjmrrx857y76hifwzifm046wc0525vs2hz3p"))))
+            "04xdaap7hqx42mpwwxdvlmmsffbdv107jqkvy6pifwjl2mmz2p5v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
