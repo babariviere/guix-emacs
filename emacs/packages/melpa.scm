@@ -52406,17 +52406,17 @@
 (define-public emacs-helm-projectile
   (package
     (name "emacs-helm-projectile")
-    (version "20201217.908")
+    (version "20220807.350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/helm-projectile.git")
                (commit
-                 "58123f14c392021714fc5d23b9f95c7f95ce07f1")))
+                 "6dcc543815984f7f40e99050b1ee3b68a088e160")))
         (sha256
           (base32
-            "0w8267l136l9ci9b0rz0mshh8wcj7za9izvm64ks17lr8avm2his"))))
+            "0xhf56p3svl9bs2gc2sj1i3k6y3wrcbrrh3jfr09pxziffj0300z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm emacs-projectile))
