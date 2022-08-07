@@ -16282,17 +16282,17 @@
 (define-public emacs-compiler-explorer
   (package
     (name "emacs-compiler-explorer")
-    (version "20210916.1316")
+    (version "20220807.1136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mkcms/compiler-explorer.el.git")
                (commit
-                 "9ea0cc78ac40f667dfaf9277758a22b9058ca434")))
+                 "04da0fd822d7e9eca82c993c99f6318df824b652")))
         (sha256
           (base32
-            "1b6cj5scc5n78kmdz9ch574ln91v9hj4svk6455crs8rpqgs7k47"))))
+            "0f9lmwjh644cnifk8wmsv36rwi3zvc8x1g9sm0rqh0mq4fxbgcka"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -16581,17 +16581,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220805.1719")
+    (version "20220807.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "39452ddbcd403f9fe7ad18270f124a8c98896c88")))
+                 "e4546edb6f1268c4a13ac3dd1dec8c9b28d7df51")))
         (sha256
           (base32
-            "06sqdcknv0ipskz073alfvl75qsrz18pspqgxqpwv0l13hmrz423"))))
+            "0i5s6hndk7d45fl2idmbqrrddaf1vjcg2qvycm9gs6f568ld1s0m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22836,17 +22836,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220806.336")
+    (version "20220807.954")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "be6f1320c47c5d48a5ba32c4e7dd4999bd55e750")))
+                 "b9969e27ab13d1ee6ec05cc892b95df0eeb05383")))
         (sha256
           (base32
-            "0lgyppid6hmvy1qa0q4gghnqpxxlbjv6cv5rb9wc84ik2iwls832"))))
+            "0m8q5ad09l79a7wkpqaxz3fy7yh5m2k8wm4qv83clxqv3907s5cw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -22883,22 +22883,21 @@
 (define-public emacs-disaster
   (package
     (name "emacs-disaster")
-    (version "20171016.2152")
+    (version "20220807.1136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jart/disaster.git")
                (commit
-                 "10a785facc60d89d78e0d5177985ab1af1741bb4")))
+                 "92d1bac215ca55b7c3927969c99315d141386653")))
         (sha256
           (base32
-            "0iz43jdkh5qdllqdchliys84gn9bpj6688rpc4jnycp64141m6cx"))))
+            "13975nn00sl3y3f4pbgpkzma4cf2swmp32nkq5p3565nb204rlk9"))))
     (build-system melpa-build-system)
-    (arguments '(#:files ("disaster.el")))
     (home-page "https://github.com/jart/disaster")
     (synopsis
-      "Disassemble C/C++ code under cursor in Emacs")
+      "Disassemble C, C++ or Fortran code under cursor")
     (description
       "Documentation at https://melpa.org/#/disaster")
     (license #f)))
@@ -27373,17 +27372,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220730.1643")
+    (version "20220807.1244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "545412826f199cacdd5b4e937a719cc428e479be")))
+                 "a9d5607372b0935fb1b84a81bfcbdf60a7bf7ca8")))
         (sha256
           (base32
-            "07q2kwmlr3qj2qdfwm45fg9cfzqx8n6na9f4m38gw5qpqd26y3ag"))))
+            "1159kz63fsw116bl42vhfgnzck1g5x6vj41pwz7jl2cx4fgcc7pc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -76890,17 +76889,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220730.1153")
+    (version "20220807.1005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "54190d091cbceb345c489bd3f20fdca7e4b9a111")))
+                 "6d6d2a5fe7a04cc8de43d6b27844c50f02d749ed")))
         (sha256
           (base32
-            "04s9gw8fvb38lnxlg161b116yp3bhnwn96qbwa1rlr5r2202h9sr"))))
+            "0rv19isfggcxzwd7d071i1rh4mix4hf7bnj21w20c6kvryfpfr2b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
