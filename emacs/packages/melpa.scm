@@ -2325,17 +2325,17 @@
 (define-public emacs-alert
   (package
     (name "emacs-alert")
-    (version "20200303.2118")
+    (version "20220807.1555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/alert.git")
                (commit
-                 "7046393272686c7a1a9b3e7f7b1d825d2e5250a6")))
+                 "6698801c8ea2804070b9e7fdf39befd1f00384ff")))
         (sha256
           (base32
-            "1s93ijkax0s78qn79c364ainmq7jq4gc95akl9wra642ql6hz3iq"))))
+            "0ym6c80hwaycn734i999bg93d6p8dwqmlky1rif3jfxa33ppsb60"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-gntp emacs-log4e))
     (home-page "https://github.com/jwiegley/alert")
@@ -4303,17 +4303,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20220805.1153")
+    (version "20220807.1541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "5a6c0d5e36d732be266b4b16776457038d67da6e")))
+                 "6d164db151c4ab68242662342f71741b8594762f")))
         (sha256
           (base32
-            "19hhqgxm4bk9gmw0l2gwmipnjzgjc8p7s46s76qi9ycbrip8izxg"))))
+            "08njlpivli93jc8z5sklwas6m1mjizsn8m46dfsswwnxpsl3zsd7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -7516,23 +7516,23 @@
 (define-public emacs-bind-chord
   (package
     (name "emacs-bind-chord")
-    (version "20171204.2010")
+    (version "20220807.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")))
+                 "c1d8da78365886818c24c3934c4fa5ce25c08b5b")))
         (sha256
           (base32
-            "1zz2gg475254hbbxw4y82b2m2iy8cvx0phh030daax315hdbsaqb"))))
+            "1aaimcgfmm6k848pg59ln6qn45a0h3rlmrjxapvc7b76pk9qrywr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-bind-key emacs-key-chord))
     (arguments '(#:files ("bind-chord.el")))
     (home-page
-      "https://github.com/waymondo/use-package-chords")
+      "https://github.com/jwiegley/use-package")
     (synopsis
       "key-chord binding helper for use-package-chords")
     (description
@@ -7542,17 +7542,17 @@
 (define-public emacs-bind-key
   (package
     (name "emacs-bind-key")
-    (version "20210210.1609")
+    (version "20220807.1553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")))
+                 "c1d8da78365886818c24c3934c4fa5ce25c08b5b")))
         (sha256
           (base32
-            "1zz2gg475254hbbxw4y82b2m2iy8cvx0phh030daax315hdbsaqb"))))
+            "1aaimcgfmm6k848pg59ln6qn45a0h3rlmrjxapvc7b76pk9qrywr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("bind-key.el")))
     (home-page
@@ -8622,17 +8622,17 @@
 (define-public emacs-brf
   (package
     (name "emacs-brf")
-    (version "20220710.2116")
+    (version "20220807.1438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://bitbucket.org/MikeWoolley/brf-mode")
                (commit
-                 "1aaf5b237a2bd550dceff6d76c56e4bf3365ca25")))
+                 "8f86b980d450e44cd29d24e66c30ff079c6b9982")))
         (sha256
           (base32
-            "0pkxp9c9jqrh91jmscsl3b7r892mbb9aid9iqk78cr29zn6q44g5"))))
+            "13jl2ppc8yn8nkwg0xix7cfmgfy34grw4rlask39mdis0jkwazk6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fringe-helper))
     (home-page
@@ -12133,17 +12133,17 @@
 (define-public emacs-cilk-mode
   (package
     (name "emacs-cilk-mode")
-    (version "20220805.1411")
+    (version "20220807.1629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ailiop/cilk-mode.git")
                (commit
-                 "c583d7b35cd3e366abd43eb08b25c2bd4929c18f")))
+                 "d5ba732a5a313a97a96085943cd7840b8e2d9c7c")))
         (sha256
           (base32
-            "0d8lw5ag12n5s0w4649izs815s2zm4kaldgwfmdla1np3ywvaimi"))))
+            "03bdwdrvhzs7yvs7vbqm55nvf1p41xpc5b19l9ajh3n7vr8rflx3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page "https://github.com/ailiop/cilk-mode")
@@ -16938,17 +16938,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220806.2209")
+    (version "20220807.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-recoll.git")
                (commit
-                 "c57d3e791349619a62242b7a7faff77cb64e114b")))
+                 "713ddd9a7d639d107711181d7619e3698478580f")))
         (sha256
           (base32
-            "1dafnqb1v90fmdqcwjm92avq3qrmq6lxqiz6vnpyf4yg7qk6kdrv"))))
+            "17jmqh82yzxmhf9mblbz99yzj5skaz26p82bic99l9lvhgar4kd1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -24946,17 +24946,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220804.853")
+    (version "20220807.2054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "8627205f00f4e2eed9607cf80ba116d1c3efae08")))
+                 "ba838da662259f70e3e9af65831f4d5b1324f2a4")))
         (sha256
           (base32
-            "1vg2rbcs66hiiakw0cpaxdriacps12cl8mhl9zq4i66w21rr0z0y"))))
+            "1333y4iqjqcy34w6vvl6gvqbc5cqr1mh2mjq790n66874znngssa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -32573,17 +32573,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220806.1425")
+    (version "20220807.2016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "3045e425e9209808788c1a7b7e00e0814ec6c81b")))
+                 "fdf8a72b6d8525788a651fef135a0eecf647505b")))
         (sha256
           (base32
-            "1cgqp9znqbd0qqm07k7h5kpcdc3ggx96h3avph41bfakf83rcrh2"))))
+            "06x2mlihvhjhinx9ng5qcxv388xhfynng865nddbvmwjhk7ids36"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -44230,17 +44230,17 @@
 (define-public emacs-git-annex
   (package
     (name "emacs-git-annex")
-    (version "20190625.2118")
+    (version "20220807.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/git-annex-el.git")
                (commit
-                 "1324d3f23c534fe79391a2c256bb8803054e383b")))
+                 "92f2d97c89980d2cea85850353836c68903514a1")))
         (sha256
           (base32
-            "1lfky2nsrlndlbvk6vwbswnvbvkz1sxgg0n3r5q6xykdkjym0lrh"))))
+            "124qa11qzh5174jaidwkllbfzhi1rw9cxfc9px8bkarzqlizsnys"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/git-annex-el")
@@ -48758,6 +48758,30 @@
     (synopsis "Hamlet editing mode")
     (description
       "Documentation at https://melpa.org/#/hamlet-mode")
+    (license #f)))
+
+(define-public emacs-hammy
+  (package
+    (name "emacs-hammy")
+    (version "20220806.1517")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/alphapapa/hammy.el.git")
+               (commit
+                 "0fa5684089ca258a7e0c7ba13f86db3938588cb9")))
+        (sha256
+          (base32
+            "199clgjfjfhgr6l2wk3ilcpksffb0wardffp6gp748m125z8hcas"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-ts))
+    (home-page
+      "https://github.com/alphapapa/hammy.el")
+    (synopsis
+      "Programmable, interactive interval timers")
+    (description
+      "Documentation at https://melpa.org/#/hammy")
     (license #f)))
 
 (define-public emacs-handle
@@ -55875,17 +55899,17 @@
 (define-public emacs-hybrid-reverse-theme
   (package
     (name "emacs-hybrid-reverse-theme")
-    (version "20210806.1955")
+    (version "20220807.2029")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Riyyi/emacs-hybrid-reverse.git")
                (commit
-                 "cb784a69e60938efe14b48130558f1bb1af92d3c")))
+                 "4b5da51c78b319e16ada6b431bddbacb61d5f2c5")))
         (sha256
           (base32
-            "06wibm3xc5mbpq2ha3ssiwczq7c2660dqwkmpbnsqarx2s4v2km5"))))
+            "0l85ng40sqyhgj2qh4cf66gjavl3cwwmd5gcl26p6cqzfsiiyr4w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/riyyi/emacs-hybrid-reverse")
@@ -56075,6 +56099,29 @@
       "Highlights corresponding PHI data in the text portion of an i2b2 XML Document.")
     (description
       "Documentation at https://melpa.org/#/i2b2-mode")
+    (license #f)))
+
+(define-public emacs-i3bar
+  (package
+    (name "emacs-i3bar")
+    (version "20220731.2336")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Stebalien/i3bar.el.git")
+               (commit
+                 "1cc9c7c198982fc31f25274c55cde80948720a7f")))
+        (sha256
+          (base32
+            "11gib863v02s9flmbxsh9hzwh4pv78j6nl1dbz24n38dcvvwig3m"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/Stebalien/i3bar.el")
+    (synopsis
+      "Display status from an i3status command in the tab bar")
+    (description
+      "Documentation at https://melpa.org/#/i3bar")
     (license #f)))
 
 (define-public emacs-i3wm
@@ -57828,17 +57875,17 @@
 (define-public emacs-inf-clojure
   (package
     (name "emacs-inf-clojure")
-    (version "20220723.1536")
+    (version "20220807.2113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/inf-clojure.git")
                (commit
-                 "f436760489cd95400b5a5449158161031beac7ba")))
+                 "59a9f0695f3d97a593f8d5ea04b51ea5dcb2718a")))
         (sha256
           (base32
-            "0wvkyjhsmqmd5bqd5rm0ysxw8nwy87ly0z56kjhbpfa7kq72ifci"))))
+            "18kj3ds5sl4dmfqrsbvkd9hpwfyn5qh5nyx1bf7sljbcfjgildw2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (home-page
@@ -76266,17 +76313,17 @@
 (define-public emacs-nix-update
   (package
     (name "emacs-nix-update")
-    (version "20190124.1935")
+    (version "20220807.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/nix-update-el.git")
                (commit
-                 "fc6c39c2da3fcfa62f4796816c084a6389c8b6e7")))
+                 "52329784a0b61ec76e29714f3f88a2660aaf69d4")))
         (sha256
           (base32
-            "01cpl4w49m5dfkx7l8g1q183s341iz6vkjv2q4fbx93avd7msjgi"))))
+            "1465clxaa24zqq07a3bjrnpgpwas4dj5f1zgp204rf33vshm9hqn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/nix-update-el")
@@ -114981,17 +115028,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20210207.1926")
+    (version "20220807.1558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")))
+                 "c1d8da78365886818c24c3934c4fa5ce25c08b5b")))
         (sha256
           (base32
-            "1zz2gg475254hbbxw4y82b2m2iy8cvx0phh030daax315hdbsaqb"))))
+            "1aaimcgfmm6k848pg59ln6qn45a0h3rlmrjxapvc7b76pk9qrywr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
@@ -115013,17 +115060,17 @@
 (define-public emacs-use-package-chords
   (package
     (name "emacs-use-package-chords")
-    (version "20181024.2322")
+    (version "20220807.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")))
+                 "c1d8da78365886818c24c3934c4fa5ce25c08b5b")))
         (sha256
           (base32
-            "1zz2gg475254hbbxw4y82b2m2iy8cvx0phh030daax315hdbsaqb"))))
+            "1aaimcgfmm6k848pg59ln6qn45a0h3rlmrjxapvc7b76pk9qrywr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-use-package
@@ -115032,7 +115079,7 @@
             emacs-key-chord))
     (arguments '(#:files ("use-package-chords.el")))
     (home-page
-      "https://github.com/waymondo/use-package-chords")
+      "https://github.com/jwiegley/use-package")
     (synopsis "key-chord keyword for use-package")
     (description
       "Documentation at https://melpa.org/#/use-package-chords")
@@ -115064,17 +115111,17 @@
 (define-public emacs-use-package-ensure-system-package
   (package
     (name "emacs-use-package-ensure-system-package")
-    (version "20180913.1501")
+    (version "20220807.1558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "a7422fb8ab1baee19adb2717b5b47b9c3812a84c")))
+                 "c1d8da78365886818c24c3934c4fa5ce25c08b5b")))
         (sha256
           (base32
-            "1zz2gg475254hbbxw4y82b2m2iy8cvx0phh030daax315hdbsaqb"))))
+            "1aaimcgfmm6k848pg59ln6qn45a0h3rlmrjxapvc7b76pk9qrywr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-use-package emacs-system-packages))
