@@ -12270,17 +12270,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220809.1305")
+    (version "20220809.2249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "9d7088c1fe82e9cfa508ead7ef7738c732556644")))
+                 "beb9ce96a083d5cbd3bd5ccdce4cd199424def1f")))
         (sha256
           (base32
-            "1n69lkp7298gasm9hlbx9nhgp9ggh8w8ffyvi1rmbj96lcnpsyi9"))))
+            "0avbw61wsp8459cwclznjb9kdk0bdgcbrnn0mvqckhimzlswlmwr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -19853,17 +19853,17 @@
 (define-public emacs-darktooth-theme
   (package
     (name "emacs-darktooth-theme")
-    (version "20220808.620")
+    (version "20220810.404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-darktooth.git")
                (commit
-                 "7ea1435cc2867fcc4f8a133739cdd506f6ac9a2d")))
+                 "b4956f11ff2a0db8031f0bd637ab03b77c618d27")))
         (sha256
           (base32
-            "19ivnwpmjzg6bgjrpc47symw13c1ipdjx2fif3p4m7r4sbig0412"))))
+            "08rk8wsrjlb28fc5xvdgc1r2vs0hdji45vpj3bc1ab5ykmlxz6sl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
