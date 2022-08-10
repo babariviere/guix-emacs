@@ -1342,17 +1342,17 @@
 (define-public emacs-ace-isearch
   (package
     (name "emacs-ace-isearch")
-    (version "20210830.746")
+    (version "20220809.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tam17aki/ace-isearch.git")
                (commit
-                 "8439136206a42e41ef95af923e0dc3bbd4fa306c")))
+                 "a24bfc626100f183dbad016bd7723eb12e238534")))
         (sha256
           (base32
-            "00mqd02l3fx5jicjwm27xwmr98l3f8v08q4jfxdzh1cjqpi8c5pp"))))
+            "00p8nh7084ifjiqzvm8zy0x0dqdz6i9qym9pfi7db2js17ym8pjc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tam17aki/ace-isearch")
@@ -15530,17 +15530,17 @@
 (define-public emacs-company-org-block
   (package
     (name "emacs-company-org-block")
-    (version "20210825.2107")
+    (version "20220809.2027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/company-org-block.git")
                (commit
-                 "115af0a3625f4669358eca568466d468cacc78bd")))
+                 "29a2edb35e18c2627dcfa0641852a55d9639263c")))
         (sha256
           (base32
-            "13kdwi4d1pvba6wv9yn1s0dl4cnq61zwf3j647d1s5ybqlrw5f4r"))))
+            "14qvxypgc1cj6ijvkkybl7x5p00435v4rdaw7pvvlf58lc422492"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-company))
     (home-page
@@ -19054,17 +19054,17 @@
 (define-public emacs-cue-mode
   (package
     (name "emacs-cue-mode")
-    (version "20220512.2104")
+    (version "20220809.1942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/russell/cue-mode.git")
                (commit
-                 "f98b9f9088fcb66c97f9200f6c8a0cd16c11caae")))
+                 "ebc50a881c6fbce429b0ec6bef8ea91a8310cf46")))
         (sha256
           (base32
-            "08nxlgf02v8gz92dif3fy72qz3yisybxlx1i0any3sxn5swi7g7y"))))
+            "1n8fx8xkyw9aq8hy02wdm7qdfmv5qj4cq5xdp9vniak3x5r3gwwp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/russell/cue-mode")
     (synopsis "Major mode for CUE language files")
@@ -32572,17 +32572,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220807.2016")
+    (version "20220809.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "fdf8a72b6d8525788a651fef135a0eecf647505b")))
+                 "87a1fc7fdf75feaac1b0fd163ca60694eda1834e")))
         (sha256
           (base32
-            "06x2mlihvhjhinx9ng5qcxv388xhfynng865nddbvmwjhk7ids36"))))
+            "0lp9h23ymzz8xqxr5rxaan8jzj4lynmvcvrc459xvh7dv2j2wl83"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -67698,17 +67698,17 @@
 (define-public emacs-lsp-haskell
   (package
     (name "emacs-lsp-haskell")
-    (version "20220307.2312")
+    (version "20220809.2129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-haskell.git")
                (commit
-                 "7cf64944ab3a25ea5d6f8d5e0cd33124182df991")))
+                 "485c1148ce4d27030bb95b21c7289809294e7d31")))
         (sha256
           (base32
-            "037wcvan0185bhzzhi4phw9z245a28s29zvyfik04c27n0bhm2xf"))))
+            "0ygyvam8h59bhx785rwf4hs30d95xk5kb48inr1gs4313qc2lil2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -68177,17 +68177,17 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220806.1936")
+    (version "20220809.2014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/rgherdt/emacs-lsp-scheme")
                (commit
-                 "d406c0ab1c7bb9f7ec5a09e25e4e9f3bc0f44737")))
+                 "02e56f4c4981bc5497cdd516969206418858a357")))
         (sha256
           (base32
-            "0xb8lddba4xacicxq0dlj0plbrr38f62aaxv391gii4f24gv3h74"))))
+            "00r2fcyvz94nydhzw41k0y6np7sx0gbcg36riq5fpq8j5zd3ky95"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
     (arguments '(#:files (:defaults "scripts")))
@@ -72839,17 +72839,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220806.1740")
+    (version "20220809.1644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "418d9541e58d4dc403065a04520e2b71a8403532")))
+                 "2b0c31b94ddb82307181dcf0078cee2f3c187aec")))
         (sha256
           (base32
-            "05j0fidc761mffhg25xh84ddqkr0xy6fzlfi89gk4m7hp8r9ri66"))))
+            "14lm9vn2w3nm5iszi2ghsdzw6krf3lp28l91hn2xhijv8364v3pd"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -80481,17 +80481,17 @@
 (define-public emacs-org-auto-tangle
   (package
     (name "emacs-org-auto-tangle")
-    (version "20220808.543")
+    (version "20220809.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yilkalargaw/org-auto-tangle.git")
                (commit
-                 "f63d7a803bd3fa2aac748982fa70dc0a05e5cb3d")))
+                 "69c4aa39f33c157f124db81050928838aee54704")))
         (sha256
           (base32
-            "0xf7g1f6svlwylhjr76wq6j518isaxlhjixmrnl6nc1xfywpiv06"))))
+            "04i7clcsalq56raw356cn5fis5ghc3dlcrmvs375pd6gwv85rlks"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -81479,17 +81479,17 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20220731.2104")
+    (version "20220809.1955")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "229463ae02f9c0d8ddb510e611b2344ec9a17111")))
+                 "40291bec0cd0bf8a2f5db656e4d3077b256092ae")))
         (sha256
           (base32
-            "0lmmgb1jm084la0z218wcf238pds3fq0avs6fjlc7imbrd53wa7z"))))
+            "00ais9k2qc9ib7ihh38hwz3gmkn9zcb2x5n7x8cllhdq8zmy00a6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request
@@ -82243,17 +82243,17 @@
 (define-public emacs-org-msg
   (package
     (name "emacs-org-msg")
-    (version "20220331.1707")
+    (version "20220809.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jeremy-compostella/org-msg.git")
                (commit
-                 "60e22e446325a9b3387396459d98be7c1c52579d")))
+                 "e0174324ac37a63ed36869c7632dd7139f1b2419")))
         (sha256
           (base32
-            "077g7gvn1k6i2x4m2kd3dkrznc89f5a5pd916wsmpy703pv0aca5"))))
+            "1ks5hcadgzaa81ii71flnna8kbchk8x3kf7dz3h31yk95hx3jjf8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -95521,17 +95521,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220807.1605")
+    (version "20220809.1724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "ba6bba3efe1a63fdcfd131c4ddea76681a349660")))
+                 "194fe14888fb653219ed6e605377884673fb6308")))
         (sha256
           (base32
-            "0ssvcgl1rxphh521acimv5h9n9nazvyl6mhpabwphsk06cvxfcfv"))))
+            "1simri1lrg32qpxhzpxgj7g6zms6j5l442pdk9yf95x6fxxwc24i"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
