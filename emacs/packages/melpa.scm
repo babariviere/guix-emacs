@@ -2559,17 +2559,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220625.1332")
+    (version "20220810.2027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "616a39f71484b15d21d89ca40cd174e0ca15b8f4")))
+                 "5b20fd336f248104a9ab1f8cb37c21d636ea2974")))
         (sha256
           (base32
-            "0k3lg23jd83cav74rvpmwv3v7b7700ih4jgs2hilwszs8kq2kn5g"))))
+            "1za64mbaaymasc6rxvvly417n3ar6ks412rx3xz2xnd2a088b2dp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -2928,18 +2928,19 @@
 (define-public emacs-android-env
   (package
     (name "emacs-android-env")
-    (version "20200722.1403")
+    (version "20220810.1449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fernando-jascovich/android-env.el.git")
                (commit
-                 "5c6a6d9449f300eec4f374a5410edc1cbab02e40")))
+                 "d2890f1156ed184314adbfcf01cdceb6ea79b10d")))
         (sha256
           (base32
-            "182b3fd85q3x5ynnfnjb01phhq1glf1wxj5rz8zx43ddnzz9ahmn"))))
+            "1innx53w0vrsg6b7h4kiyy97kjjlcwx080h3hlrfrvnmmmawwfl5"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/fernando-jascovich/android-env.el")
     (synopsis
@@ -6891,19 +6892,18 @@
 (define-public emacs-bech32
   (package
     (name "emacs-bech32")
-    (version "20220718.1440")
+    (version "20220810.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "5db27c3c3d469c755bbf5ab5f60cadf96c1add62")))
+                 "5e1bf8b8ffa4c75bece7a93feab9858f0e7d676e")))
         (sha256
           (base32
-            "18885jc2h3h9q40m6qv5h02biq8marqizvr3vnpsszs635ph7vyr"))))
+            "0n2zf8pqaylrjy9w2qdir9hch7zhmrkcxnajnrbjswn1cwk8l2mm"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("bech32.el")))
     (home-page
       "https://github.com/Titan-C/cardano.el")
@@ -9513,17 +9513,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20220629.2119")
+    (version "20220810.2348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "62176a39ee6aa990c96e97c13ee4992355f0a122")))
+                 "9022546ebf2f492e9f3ce92e02ed893bcecab027")))
         (sha256
           (base32
-            "0j9qaa45r14kyqv44jhnygc03xzvw2k7rfaai99v7xl6a6aj4p8k"))))
+            "1zr9lczdr9dfh99n079d5advxm9p32a8f984dx14f3jn5mx750b1"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -10672,17 +10672,17 @@
 (define-public emacs-cbor
   (package
     (name "emacs-cbor")
-    (version "20220802.1008")
+    (version "20220810.1600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "40d04a0baf5c3d1087b18cc03595c573a1b5891d")))
+                 "5e1bf8b8ffa4c75bece7a93feab9858f0e7d676e")))
         (sha256
           (base32
-            "1z2kvv5im24h7hqmz2yhpar6d6cp4hzhzk6kxgrdrwgywpaf0bdx"))))
+            "0n2zf8pqaylrjy9w2qdir9hch7zhmrkcxnajnrbjswn1cwk8l2mm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("cbor.el")))
@@ -11986,17 +11986,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220808.1329")
+    (version "20220810.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "9577dbbdae8cffe023442427b97f963b4447983a")))
+                 "68974c9fb6ee6e95a4568c46a9c4371b24d2f0e9")))
         (sha256
           (base32
-            "01f1is17zkz2gzgf8bpismxk5050syk7yacfyp9ihln27h1hlb4f"))))
+            "0fasq2xdvlynmviwiqfc4a6nizwqqalhljnwd7wn4amk7i0d7f1d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -24359,19 +24359,20 @@
 (define-public emacs-dr-racket-like-unicode
   (package
     (name "emacs-dr-racket-like-unicode")
-    (version "20200513.1642")
+    (version "20220810.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/david-christiansen/dr-racket-like-unicode.git")
                (commit
-                 "70bc1caea6b277e49e1cb29e1926a7b0c83c5ebc")))
+                 "d09b9be289e91e25c941107be5e8f52e7c8f0065")))
         (sha256
           (base32
-            "1an4hk9cjg1lhis0japdr371mnf1p4pl5mzl0l1cfkvprbxhzy65"))))
+            "06h15xfqh8s58m3dn1vxrwwfg129001s7j3jpfik98prjh7n0d0m"))))
     (build-system melpa-build-system)
-    (home-page "unspecified")
+    (home-page
+      "https://github.com/david-christiansen/dr-racket-like-unicode")
     (synopsis "DrRacket-style unicode input")
     (description
       "Documentation at https://melpa.org/#/dr-racket-like-unicode")
@@ -32766,17 +32767,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220809.650")
+    (version "20220810.1901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "c1ede88de9b09f280e4a37c671b6dd540bf1028a")))
+                 "665d5c99e216c7b18856f7ceda7c91ea5669f904")))
         (sha256
           (base32
-            "1zx14vm9a7gf38vm4fzby0rg9dgwryp299k735v8f6xghgvpx0k4"))))
+            "0vmwd85vc6hcyfzg4zwhsilp6y0kmygnyfn02ham0b6gc2kakz23"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -48396,17 +48397,17 @@
 (define-public emacs-gumshoe
   (package
     (name "emacs-gumshoe")
-    (version "20211229.152")
+    (version "20220811.2")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Overdr0ne/gumshoe.git")
                (commit
-                 "2366f1c65cdcf09c6b98ca466110842cd88c9db3")))
+                 "f3cb8bad6d688f3892d70a9b0f8d6acf0380bfff")))
         (sha256
           (base32
-            "01ha47h7ylkkplxz2bm6h5d773lvvjdgmqh3b9r5asjiyma8zn31"))))
+            "0j2zv7pfcavsmn55admngqyl48girpng1chf24xpj07waxxlcial"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Overdr0ne/gumshoe")
@@ -64427,17 +64428,17 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20220702.529")
+    (version "20220810.1351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-language-id.git")
                (commit
-                 "1d05bb74075879351a33fedc363a5f375a18b8e5")))
+                 "ba65c244ac931dbf9e8569f080dedffed88fb029")))
         (sha256
           (base32
-            "0msirbjyf5daaycq3zvwsl4gxhk5lw1nxd492wzj4rb1m7dm4wk4"))))
+            "1lyx8ywra09fw0pmlkzx3hbb7wqhxl2dmzdkj90f7wz2da1q1568"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-language-id")
@@ -106152,7 +106153,7 @@
 (define-public emacs-speed-type
   (package
     (name "emacs-speed-type")
-    (version "20220810.1139")
+    (version "20220810.1246")
     (source
       (origin
         (method git-fetch)
@@ -106836,17 +106837,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20220724.11")
+    (version "20220810.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "10c36b101cadfdded4d7b78d920fc2919a7d674e")))
+                 "82644b735bb3839459784efa8b1e1125f5ef1862")))
         (sha256
           (base32
-            "0y2rc30k1dn4w3s2s75789f33vn6r9v1g2i7agkihjyp4sc4zmsa"))))
+            "1pf5gc5adz3bi9qq2nxxwbnyxgpmg22bnihs6gjlrk2kxfr1ma89"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -117788,17 +117789,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220615.602")
+    (version "20220810.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "7b5459f58c381f31eed257480b000a9a46209094")))
+                 "d8258fb33cc1918a2d83ff637157061e804acd6f")))
         (sha256
           (base32
-            "054jawhk1cd3bjr6b320bmbjkmpx3mbp7fyn9l20gm4h5sjs4y70"))))
+            "110d95di7qc5p1m800wd29ar0haydg2jhn1x4jm11d44da53vxix"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
