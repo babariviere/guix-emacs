@@ -8951,17 +8951,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220728.1835")
+    (version "20220811.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "7c176d043445ea94fe924a715158c25b91ec4776")))
+                 "9ccfbd07c4b2e2af38fe315ce7e3d905298d2fdd")))
         (sha256
           (base32
-            "0badxbj4whqcz8pkwzhp2fxppgcfqrrf0cciwnxy1nyamcrf0y7z"))))
+            "1hsf5r96pd3j4s90xym3dkrsnxqg8pwlmrj93p0xvdr493gms2a4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -22718,17 +22718,17 @@
 (define-public emacs-direnv
   (package
     (name "emacs-direnv")
-    (version "20220513.656")
+    (version "20220811.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-direnv.git")
                (commit
-                 "416ed17efa93503b37eba196a14f967e0899bce4")))
+                 "0cbcbcfc12b867779dd19006cf5240dc2ca67ce0")))
         (sha256
           (base32
-            "0s8p96w6jvlcv2fqf3f3a3fkpk0b6a6znj6xr5nwl49xvdivlaw7"))))
+            "0sgvsl4bm6jqws27d2gjkkqbzyc162kbmfnp4h6nh4bwn48mzac5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -31734,17 +31734,17 @@
 (define-public emacs-eslint-disable-rule
   (package
     (name "emacs-eslint-disable-rule")
-    (version "20220328.354")
+    (version "20220811.1006")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/eslint-disable-rule.git")
                (commit
-                 "7d4cc05d336fbc465f91a87b38bf360efaf76fcf")))
+                 "642ead124172dd470e8ab59fd0645597dc9d8e66")))
         (sha256
           (base32
-            "08428v3w80v16c8a57gd6abfz2jafvrh0sbscsxm07ykcsp7y2cf"))))
+            "1s7dhc26pbqxkaahr6cag6xk29bdi1iivd3qmkylz1w0zrl33rvk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/DamienCassou/eslint-disable-rule")
@@ -47899,17 +47899,17 @@
 (define-public emacs-grey-paper-theme
   (package
     (name "emacs-grey-paper-theme")
-    (version "20220711.2241")
+    (version "20220811.1413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gugod/grey-paper-theme.git")
                (commit
-                 "fa20051b6c7c1ac837f72ea2d7414f4594074d11")))
+                 "033a4f5b41e62b2a822811390dd586d093520f19")))
         (sha256
           (base32
-            "19cyqybxxw397ahzmjfq5ykll2yj4brnk94am2p9310a4939nal3"))))
+            "0nb1hygfvbi94wzdccv1h9a10gcxm6hwys17wfjmclkkks4vvrrm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gugod/grey-paper-theme")
@@ -49360,17 +49360,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220807.734")
+    (version "20220811.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "3ce79a958a126623c2e3f65f6e90d7b4dd0248e8")))
+                 "9855b843f3b17f00936d84139548718b7d1979c3")))
         (sha256
           (base32
-            "09s9appcpbymjc0wlfniwrx02ga9r8qr2gr8jw6k88yxs4sjirf9"))))
+            "1lb5rx2bcyhalwdyd970zw88clp11ngbafkpgja9kgww732rc45m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -57964,17 +57964,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20220811.111")
+    (version "20220811.949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "f9c856bd5496cd1b9c8c1f9e09a4331c88c5917e")))
+                 "eb7bf95d5b03bdb9b28647c89ea0a73e35fe0ad1")))
         (sha256
           (base32
-            "0rzzr07kmqcrvf9c577mm9wkk4wzmm5vcrn8c5gy9zf64h4hlxws"))))
+            "1n7zdjf80saj0mwrlcfalk2s04d1cwsy13swp0dlj17cmjndzp66"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -64008,17 +64008,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220811.347")
+    (version "20220811.1028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "c806a6e868c7dbbd9f8a22304796059eda43a154")))
+                 "f7c0b1211c2ea11987c66edd2002b1de0f2d5ad9")))
         (sha256
           (base32
-            "1bzcz1lfjla68xilzh7531n5dw7bkc7xhj3fxzzr76bqnmm7ryx6"))))
+            "1hi3fxvnmn54jjj9zmx21x591f5686vzbiyw303r8rfmg8hpdcwk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "unspecified")
@@ -74915,17 +74915,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220724.2023")
+    (version "20220811.1207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "c5ef0baf1d2e95bc613e99700c38a1227cabe187")))
+                 "109c63ee8879130a76a9eaf9a4a5086d1e48a652")))
         (sha256
           (base32
-            "133d871a1rrapnkjv5nhll1gc14ih3n045v5brmmr642w97ri9dh"))))
+            "1lpci5qck7zx88k1z3lmixrgx8ja89yfqgkjx3vh6kdjfv6s1j4r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -76933,17 +76933,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220807.1005")
+    (version "20220811.1025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "6d6d2a5fe7a04cc8de43d6b27844c50f02d749ed")))
+                 "b76f73efe3a97c707b3b14ca41e7748e21938fea")))
         (sha256
           (base32
-            "0rv19isfggcxzwd7d071i1rh4mix4hf7bnj21w20c6kvryfpfr2b"))))
+            "16pj68anl24lpfh8kjbjdjg5dd676nf7n2wp41yzdy1rgrj45l19"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -79164,21 +79164,20 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20220808.2351")
+    (version "20220811.912")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "49b4712b407a3542bbba50d3f74e1bb45025e255")))
+                 "811c97bf3982788b5b7118e22884493c32163e84")))
         (sha256
           (base32
-            "1x9y6mq72f3p53fcp6p2jv48xjph1i704d7q46gn1hvxbpryvhzz"))))
+            "05gn7ygilc3mskjf2zy275183zirvblshxpfwdskfhyh28z30c0a"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-company
-            emacs-s
+      (list emacs-s
             emacs-dash
             emacs-markdown-mode
             emacs-elgrep))
@@ -106153,17 +106152,17 @@
 (define-public emacs-speed-type
   (package
     (name "emacs-speed-type")
-    (version "20220810.1246")
+    (version "20220811.1305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dakra/speed-type.git")
                (commit
-                 "52aaaa4af46d4bab4b83e38e1a5205fe40f285db")))
+                 "a3540c37cf4d476b67b545a8339c1b4d3dc84ece")))
         (sha256
           (base32
-            "088a8gxi9d4n2vi2pmfqdj00rqf3z7mhagqkqs9lf3szafa736dj"))))
+            "01anb99d7rdsrb40al2dbasnzs93h9dgsfl9mbps61925gvj4i22"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dakra/speed-type")
     (synopsis "Practice touch and speed typing")
@@ -118325,17 +118324,17 @@
 (define-public emacs-which-key
   (package
     (name "emacs-which-key")
-    (version "20220518.1941")
+    (version "20220811.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justbur/emacs-which-key.git")
                (commit
-                 "1ab1d0cc88843c9a614ed3226c5a1070e32e4823")))
+                 "23fc54eb80890b28a72071f72437880c5bfbf94b")))
         (sha256
           (base32
-            "0i4wxihcly3i8pgmw1gv7lriqcyis9q476akvwrdgjwxnn2gmk0w"))))
+            "0bwv1k5aq6nvr2j9hbhqxdnggn6xj26ah44f8ghm87vg7xlhhir0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/justbur/emacs-which-key")
