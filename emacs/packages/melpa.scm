@@ -21115,17 +21115,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20220729.923")
+    (version "20220811.703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "60099be5fc5c90d5adc2795b3bfacb492a0adb88")))
+                 "61ce83b79dc64e2f99d7f016a09b97e14b331459")))
         (sha256
           (base32
-            "0hxyanl0vy3ajyzrjqgcybp388jxdk139wgwbb0kzw05blr0jzxv"))))
+            "1dbffni30h8bx04j4hmia3a6xhzrgxx53yhhvymrrr7144x6i3ap"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -28298,17 +28298,17 @@
 (define-public emacs-elixir-mode
   (package
     (name "emacs-elixir-mode")
-    (version "20220314.1302")
+    (version "20220811.353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elixir-editors/emacs-elixir.git")
                (commit
-                 "e0d0466d83ec80ddb412bb1473908a21baad1ec3")))
+                 "d495ed87a9c507f5939a51c740f119950c83e2ff")))
         (sha256
           (base32
-            "1whi4ni2jcinwq68yrzcl0q23dhp0b5k3jy5j3m89s2kdv3rwsm9"))))
+            "1cqiqairhx7chs3n72ii9iqx926hslz9av4m0k1cr52ldnxz1s80"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/elixir-editors/emacs-elixir")
@@ -48397,17 +48397,17 @@
 (define-public emacs-gumshoe
   (package
     (name "emacs-gumshoe")
-    (version "20220811.2")
+    (version "20220811.257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Overdr0ne/gumshoe.git")
                (commit
-                 "f3cb8bad6d688f3892d70a9b0f8d6acf0380bfff")))
+                 "68cc9c1654862dfb8aee4c1dd732e752bf202532")))
         (sha256
           (base32
-            "0j2zv7pfcavsmn55admngqyl48girpng1chf24xpj07waxxlcial"))))
+            "1g64177qpw1gsnsznly8f7x9bfmisidmjwy4yjr23cxa2hxwj3yc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Overdr0ne/gumshoe")
@@ -57964,17 +57964,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20220804.18")
+    (version "20220811.111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "7dfc779dc6038125c516c7c7746994a54b96e409")))
+                 "f9c856bd5496cd1b9c8c1f9e09a4331c88c5917e")))
         (sha256
           (base32
-            "0jfc3slm0yxd7l533x5x575h8f6hzmzkf0iya6g1sdhw6kibs66h"))))
+            "0rzzr07kmqcrvf9c577mm9wkk4wzmm5vcrn8c5gy9zf64h4hlxws"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -64008,17 +64008,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220808.1456")
+    (version "20220811.347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "2016973e92651f25518e130405155bb8728339e3")))
+                 "c806a6e868c7dbbd9f8a22304796059eda43a154")))
         (sha256
           (base32
-            "0n6lgh3y6qx8rym74ll1z26cc7hihdxb3qny4ymrcyycywh2kmnq"))))
+            "1bzcz1lfjla68xilzh7531n5dw7bkc7xhj3fxzzr76bqnmm7ryx6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "unspecified")
@@ -64188,17 +64188,17 @@
 (define-public emacs-lacquer
   (package
     (name "emacs-lacquer")
-    (version "20220809.635")
+    (version "20220811.649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zakudriver/lacquer.git")
                (commit
-                 "676919f5fc301451fcfb8553c3f8262a65c36192")))
+                 "70650105be1b4c1ade34c0a1c3263d80b2388593")))
         (sha256
           (base32
-            "09irbdnw4crpp572hpv29hdcjp31l1a3rvhdz01v1i5hzbq59p9n"))))
+            "0rzdc2v9gfj3mh2dvpb90ikvyk67cbmd6snadpraawypajgr7vyc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/zakudriver/lacquer")
@@ -84393,17 +84393,17 @@
 (define-public emacs-org2blog
   (package
     (name "emacs-org2blog")
-    (version "20210929.17")
+    (version "20220811.51")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "68695ed0e012379556d57f9564ac5ad8cd68fbb8")))
+                 "6ee1b59e0a83b6a855f583743287e801cbdc1e09")))
         (sha256
           (base32
-            "1qk9kshi4hyy0fni3gb383m0yvj4fmgidiab6vhnms5zgghj4kl7"))))
+            "1rjhnlh71vvkd1zm0gyfs3s355ivjkzx7g0r4basp6fzpnx010h3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-htmlize
