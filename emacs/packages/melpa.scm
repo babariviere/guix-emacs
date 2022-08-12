@@ -6937,17 +6937,17 @@
 (define-public emacs-beginend
   (package
     (name "emacs-beginend")
-    (version "20220803.1431")
+    (version "20220811.1828")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/beginend.git")
                (commit
-                 "eb77d82dc88846c5715353b7fd99c9030a2e2ee7")))
+                 "68b7b76dffc6c5f0df412b4154a72c15b915c6e0")))
         (sha256
           (base32
-            "0xswh4wfrnwzwsrxmfsvfm1bcdviwfs2hhdark62l37s5xx6dcc9"))))
+            "125rf4mikad98kj9s0ra2mrmj3hg5x8dz9v8lag2jabmcjxql42m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/DamienCassou/beginend")
@@ -19054,17 +19054,17 @@
 (define-public emacs-cue-mode
   (package
     (name "emacs-cue-mode")
-    (version "20220809.1942")
+    (version "20220811.1938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/russell/cue-mode.git")
                (commit
-                 "ebc50a881c6fbce429b0ec6bef8ea91a8310cf46")))
+                 "31c671d56e7884fa87ad0f1d27d0bb439dc65380")))
         (sha256
           (base32
-            "1n8fx8xkyw9aq8hy02wdm7qdfmv5qj4cq5xdp9vniak3x5r3gwwp"))))
+            "19f71kwdpv5zrzl96wyc9w516cq1naigvyv7g3n7093yzmgwyj4w"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/russell/cue-mode")
     (synopsis "Major mode for CUE language files")
@@ -22835,17 +22835,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220809.1208")
+    (version "20220811.1819")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "2715ecfaa0147078318d3bcc74e95e0086786045")))
+                 "77a1c3326a7276e84c9f66a7b0e64abd5db600af")))
         (sha256
           (base32
-            "10vpk2hcbij4rpa4z33w2xwg24w1n82n4vd0nk2fyqqm575h7wmi"))))
+            "1pwbsfmsykqv50j01hbgd4a9har7r9lkjwdiqlvvzjwzq9bqp11m"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32570,17 +32570,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220809.2107")
+    (version "20220811.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "87a1fc7fdf75feaac1b0fd163ca60694eda1834e")))
+                 "e408ec8b3d7fcc5e70b1b43598db2c8ba71b88b1")))
         (sha256
           (base32
-            "0lp9h23ymzz8xqxr5rxaan8jzj4lynmvcvrc459xvh7dv2j2wl83"))))
+            "1q7cprni9jqpls196ka81j0kzzrrclz99qgnchp2f9ciqazppbnr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -49360,17 +49360,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220811.1243")
+    (version "20220811.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "9855b843f3b17f00936d84139548718b7d1979c3")))
+                 "b72589386f00f07fdd4f06b9c83a79c27a4faca9")))
         (sha256
           (base32
-            "1lb5rx2bcyhalwdyd970zw88clp11ngbafkpgja9kgww732rc45m"))))
+            "0yrb9cxsv1l10p7riy28wi04ab3x44aw5mr5iwgycrij7x8igjqx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -67949,17 +67949,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220808.1239")
+    (version "20220811.1618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ece9bcdc01953c794533b734b24931485c0070fb")))
+                 "a73e8b0525a3415324ffc11c951e9b828bb155ec")))
         (sha256
           (base32
-            "11xn75rxlgm9xfwbfb9mdk8snh9rnlvyyncvlb54mc3y7xdqhy9q"))))
+            "08bd32zp9ylmsfp1f5ll98gsiz6k25gsvr475x7nml3d51q7maa3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74915,17 +74915,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220811.1207")
+    (version "20220811.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "109c63ee8879130a76a9eaf9a4a5086d1e48a652")))
+                 "34aaa9318e15a8cdce584864e186ba33a6a3c9ea")))
         (sha256
           (base32
-            "1lpci5qck7zx88k1z3lmixrgx8ja89yfqgkjx3vh6kdjfv6s1j4r"))))
+            "1nd3hfkhnmkv53mnyndbf303wj6vdg9ym8rqzcnxlzj6898h0zn1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -108876,17 +108876,17 @@
 (define-public emacs-symex
   (package
     (name "emacs-symex")
-    (version "20220705.1558")
+    (version "20220811.235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/countvajhula/symex.el.git")
                (commit
-                 "533eb8ad0ce43c6a7667a2c8a9a8fd6ae275c820")))
+                 "adebb7aa1dedac88585bd1077ac81f97df3bd7d5")))
         (sha256
           (base32
-            "1al6d586rip99q42farhh117li0d14in0vvy4dy2lm68nk7b095n"))))
+            "0bhm3nvnhmnr2djsig9vqzpsk5plsx6q1zv5hbnwyjcrawm6d9rs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lispy
@@ -118324,17 +118324,17 @@
 (define-public emacs-which-key
   (package
     (name "emacs-which-key")
-    (version "20220811.1324")
+    (version "20220811.1616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justbur/emacs-which-key.git")
                (commit
-                 "23fc54eb80890b28a72071f72437880c5bfbf94b")))
+                 "8093644032854b1cdf3245ce4e3c7b6673f741bf")))
         (sha256
           (base32
-            "0bwv1k5aq6nvr2j9hbhqxdnggn6xj26ah44f8ghm87vg7xlhhir0"))))
+            "1s2c7jdkgxq4rajd1c2n6bkmds7xgkmff1849nviixqsdxxcb0mf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/justbur/emacs-which-key")
