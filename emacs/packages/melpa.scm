@@ -8395,17 +8395,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220810.1200")
+    (version "20220812.1139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "8877961bb23e1963e963cff37b6907db657b8627")))
+                 "d3cdc176ee72e3e3feac6dd6b527cff5dcf788eb")))
         (sha256
           (base32
-            "0k99jrz4629v76l2avdnvjbjpy2241yjrlms27lh0kmrfdx8svas"))))
+            "0nw1vnw60h366a4i97gp2vjly2n4bvj5y645f6wqaabqxbglz463"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -22718,17 +22718,17 @@
 (define-public emacs-direnv
   (package
     (name "emacs-direnv")
-    (version "20220811.1349")
+    (version "20220812.956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-direnv.git")
                (commit
-                 "0cbcbcfc12b867779dd19006cf5240dc2ca67ce0")))
+                 "268536f564b7eba99264a89a9149268eb4bc67ac")))
         (sha256
           (base32
-            "0sgvsl4bm6jqws27d2gjkkqbzyc162kbmfnp4h6nh4bwn48mzac5"))))
+            "1rfr6cby7syshs3fbk83hhb3s4mjp0pfxb4dkznm5sdp259s4rqs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -22835,17 +22835,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220811.1819")
+    (version "20220812.1024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "77a1c3326a7276e84c9f66a7b0e64abd5db600af")))
+                 "6eb7a3cd3be0879f3ce3304bf8ba903154798296")))
         (sha256
           (base32
-            "1pwbsfmsykqv50j01hbgd4a9har7r9lkjwdiqlvvzjwzq9bqp11m"))))
+            "0dz2ckjia7ldyp38g9mls5msl8x33kj1dd7bb5pqsx9sy9824rjp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32570,17 +32570,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220811.1946")
+    (version "20220812.1203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "e408ec8b3d7fcc5e70b1b43598db2c8ba71b88b1")))
+                 "1d63e750bc8f37aa1b8f0eabe86b598973ab75b1")))
         (sha256
           (base32
-            "1q7cprni9jqpls196ka81j0kzzrrclz99qgnchp2f9ciqazppbnr"))))
+            "1m51wv35x4y5fsy2c8r1cygc7a72k2hf62v71lgy1xhspd1kl8jq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -58308,17 +58308,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220731.435")
+    (version "20220812.634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-theme-inkpot.git")
                (commit
-                 "a8a09d1c4f9044f89b480fcfec9cc9cd868190e5")))
+                 "c7c3009180ed0d73d88741a0b40ade722bb9da45")))
         (sha256
           (base32
-            "0dd6w7ffhhj2z3p1y2gy14byyvhcd7cfg4bvjzbjfd3xq1zb8g0g"))))
+            "0rh38ikgn8v5zi3f580bawyakzw3r4akmffsr43zh5b1ij7hhzfm"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-inkpot-theme")
@@ -68854,17 +68854,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220810.1158")
+    (version "20220812.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "2f0efa9f58c3e8ff05dd87fb4d3f992c23798207")))
+                 "9ffaed3f6bc743abd88402c412b970fc2ae2ea91")))
         (sha256
           (base32
-            "18np2vkr58fjmr1zzyq3zv3ddb7iw0459sbl2yz8xd590xwi8lsy"))))
+            "1l3xc6rjazl74k5i39n72vhmxcpnnwdbna4hz4kg7012q4zfkpkn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -99785,19 +99785,18 @@
 (define-public emacs-s
   (package
     (name "emacs-s")
-    (version "20210616.619")
+    (version "20220812.1014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/s.el.git")
                (commit
-                 "08661efb075d1c6b4fa812184c1e5e90c08795a9")))
+                 "078c2b118dbe2f171f671b4739d8834f4c563524")))
         (sha256
           (base32
-            "02hcjnf8n0nzqysqi9g7kqykxmn8nwhsx1scrq6wj1iibc16nh0p"))))
+            "03d6y37gscn10rnhrwi3c94db0c6dcwqg2g8vc38q05b932s52fh"))))
     (build-system melpa-build-system)
-    (arguments '(#:files ("s.el")))
     (home-page "unspecified")
     (synopsis
       "The long lost Emacs string manipulation library.")
@@ -107564,17 +107563,17 @@
 (define-public emacs-string-inflection
   (package
     (name "emacs-string-inflection")
-    (version "20210918.419")
+    (version "20220812.1259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akicho8/string-inflection.git")
                (commit
-                 "fd7926ac17293e9124b31f706a4e8f38f6a9b855")))
+                 "f848c68221f0c474a4f060884d8f7a86f44f42d4")))
         (sha256
           (base32
-            "0wskrp3v5gi3b3s9471ijkdncnfd888qd50c72rv2p8846174paj"))))
+            "188qlhaisrfbhh9646gqvmz0ksqd00vrbc3lb2gfhigadyfzm15j"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
