@@ -23900,17 +23900,17 @@
 (define-public emacs-doct
   (package
     (name "emacs-doct")
-    (version "20220713.1659")
+    (version "20220812.443")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/doct.git")
                (commit
-                 "15974ad8d4d7baa071b5ea33877e9dc117c4153e")))
+                 "506c22f365b75f5423810c4933856802554df464")))
         (sha256
           (base32
-            "0cz0anbp286pcm9ymjlax5p42ifnkkmpcf9q396zl20vgm8xgdib"))))
+            "03a8z9cwfg87144b0g4ggilr925l561hgmgra9wchxwydixrlnml"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/progfolio/doct")
     (synopsis
@@ -42787,17 +42787,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220723.1500")
+    (version "20220811.2301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "d789dd9eb292ef2ff8a0959dc015f2edc67af6f7")))
+                 "9a95ffbe42a299f3270a0c3cf09264d9b6fc03df")))
         (sha256
           (base32
-            "1h08kbd7i1g84rxmwn50rq9h67xmi615wg0yzjzdi0x4f2y56xgi"))))
+            "0z88z189z2vqv0yq402yck0si3g8y7rzcw6ax8l6frjb8dl4gdi6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -47899,17 +47899,17 @@
 (define-public emacs-grey-paper-theme
   (package
     (name "emacs-grey-paper-theme")
-    (version "20220811.1413")
+    (version "20220811.2301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gugod/grey-paper-theme.git")
                (commit
-                 "033a4f5b41e62b2a822811390dd586d093520f19")))
+                 "760e8d26f5b2aeaa56b91bf435e42b1e5d6f69d7")))
         (sha256
           (base32
-            "0nb1hygfvbi94wzdccv1h9a10gcxm6hwys17wfjmclkkks4vvrrm"))))
+            "0wlf35yxd04xfjyyq2xp7bw6bqqz9l8b5cgq897rknjglwk867py"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gugod/grey-paper-theme")
@@ -49360,17 +49360,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220811.1748")
+    (version "20220812.533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b72589386f00f07fdd4f06b9c83a79c27a4faca9")))
+                 "35357ebb37041ab39bc76cec584b7679da8c370e")))
         (sha256
           (base32
-            "0yrb9cxsv1l10p7riy28wi04ab3x44aw5mr5iwgycrij7x8igjqx"))))
+            "1hw7ikr4vbdxzk6vvzgmzfnpi16wkhfg39c9lih2w2hlgp6vza9q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -61089,17 +61089,17 @@
 (define-public emacs-jmt-mode
   (package
     (name "emacs-jmt-mode")
-    (version "20220524.2327")
+    (version "20220812.145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Michael-Allan/Java_Mode_Tamed.git")
                (commit
-                 "5e8eb048dd398597378eaf20842e410398bd5b55")))
+                 "75e484849a43e4ee844c1a63258e9ff1979cd06f")))
         (sha256
           (base32
-            "0qhp1p49b8mjnyr8lxlvwjdhnl36l5byyzb9psnf1iid7f306rki"))))
+            "1lpb46vw5gp4fyi0ax7v4gjlrfbsfyjsbdd2380ps347v6z1x2pi"))))
     (build-system melpa-build-system)
     (home-page "http://reluk.ca/project/Java/Emacs/")
     (synopsis "Java Mode Tamed")
@@ -70557,17 +70557,17 @@
 (define-public emacs-math-preview
   (package
     (name "emacs-math-preview")
-    (version "20220604.1107")
+    (version "20220812.430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/matsievskiysv/math-preview.git")
                (commit
-                 "a7254ba89a524f30c1acfdbde07a179271f02658")))
+                 "226f2be25d74f6f8224eb7aa96dfb1985aeac722")))
         (sha256
           (base32
-            "1d1s1ff49xb5rdmphgx2g5n5mmjrkrdi38wqijlkr6jj15d5lrig"))))
+            "0bl28b7pb80jbjvqjc1ir1had5yr5p4nr09zbj3mdxm6nxwz7p9w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -80478,17 +80478,17 @@
 (define-public emacs-org-auto-tangle
   (package
     (name "emacs-org-auto-tangle")
-    (version "20220809.1711")
+    (version "20220812.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yilkalargaw/org-auto-tangle.git")
                (commit
-                 "69c4aa39f33c157f124db81050928838aee54704")))
+                 "5cd4d5982102f536c749b74febab09ad922a0f6c")))
         (sha256
           (base32
-            "04i7clcsalq56raw356cn5fis5ghc3dlcrmvs375pd6gwv85rlks"))))
+            "070qpq1viwdjv092ckiyxfrn5g6301k30qm1xrlv6v376lzl2q5w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -106081,17 +106081,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220803.148")
+    (version "20220812.141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "cefebe6215b4065827553f2e0cb87c31c5893e5e")))
+                 "bbcc26609aba7772f4c0aa0fcd432c913329a308")))
         (sha256
           (base32
-            "060nbh6bq55d1vv0ln67kdp6am7fad6i6zpjvfdf5252gsz63lds"))))
+            "12y74lw0bmzlnfhzhxrhqhffv4m46sha72xniqddqbbclig85fg2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
