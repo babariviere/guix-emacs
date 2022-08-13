@@ -23826,17 +23826,17 @@
 (define-public emacs-dockerfile-mode
   (package
     (name "emacs-dockerfile-mode")
-    (version "20220806.1709")
+    (version "20220813.5")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/spotify/dockerfile-mode.git")
                (commit
-                 "c7e4e2541deb66d266f58c364e33a4a10cefbc2b")))
+                 "73a8bcc25547b874e1983a75901f6c31708cd104")))
         (sha256
           (base32
-            "0hmzwh8m72rj6cwaxfypnv3fmjrs11iqr15vsdw1rw7m55xi675f"))))
+            "0bv19mii4h47jllps72h69nwrlbfvwxgca1cl4cdxvpx0zkr6qx7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/spotify/dockerfile-mode")
@@ -43771,17 +43771,17 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20220809.928")
+    (version "20220812.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/gerrit.el.git")
                (commit
-                 "eaedb6a200bf76d5add77e4cb00b8b9fd57fd087")))
+                 "4de561d1295d4c86ca9b159ab0c746bedc2d0380")))
         (sha256
           (base32
-            "0ygdfycpipk3g51kmw419b2r5i4240v1i3hk5xjps0ni4x87i26i"))))
+            "1k1gr6hnb9warbaglhfzarm145afsrv55xdkq6wq6s0imac742ba"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-s emacs-dash))
@@ -62034,17 +62034,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220722.547")
+    (version "20220812.2248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "a40b73fed941588ada5bc21087b4959b33d73ceb")))
+                 "d411c022b9259d4e31055fc33323f878d07c6b7e")))
         (sha256
           (base32
-            "1pl68jy2a5yd4zc3dbzasjai0n0ya3fh3nyg6s6i71k8c6k3871k"))))
+            "19d8bvh8c6fd7flnl0idfnw54rzvnvd1wqak2ryk2lhpr17jm5zx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -80479,17 +80479,17 @@
 (define-public emacs-org-auto-tangle
   (package
     (name "emacs-org-auto-tangle")
-    (version "20220812.130")
+    (version "20220812.2327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yilkalargaw/org-auto-tangle.git")
                (commit
-                 "5cd4d5982102f536c749b74febab09ad922a0f6c")))
+                 "2494a6f78c9db5311123abc7cad119851a29a55c")))
         (sha256
           (base32
-            "070qpq1viwdjv092ckiyxfrn5g6301k30qm1xrlv6v376lzl2q5w"))))
+            "1kn1jsbv97ps280lcdx19d6hs7pvz7q9ng67xlb1kwjb680pa7rl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -99786,17 +99786,17 @@
 (define-public emacs-s
   (package
     (name "emacs-s")
-    (version "20220812.1014")
+    (version "20220813.351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/s.el.git")
                (commit
-                 "078c2b118dbe2f171f671b4739d8834f4c563524")))
+                 "39340b58c024b08ea6ef812ef26f37bacbeb2d12")))
         (sha256
           (base32
-            "03d6y37gscn10rnhrwi3c94db0c6dcwqg2g8vc38q05b932s52fh"))))
+            "1v3d3mbgsg5625cp5maw09vxqb9dmjqlgx1hk53wkx9v9bvczkh9"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
