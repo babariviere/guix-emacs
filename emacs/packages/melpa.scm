@@ -22835,17 +22835,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220812.1024")
+    (version "20220812.1835")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "6eb7a3cd3be0879f3ce3304bf8ba903154798296")))
+                 "11d1cecda77ae386e7806ec7e890b942bcb88f9f")))
         (sha256
           (base32
-            "0dz2ckjia7ldyp38g9mls5msl8x33kj1dd7bb5pqsx9sy9824rjp"))))
+            "0vbd9cf6z1lbj6qxccw35a4cr24bjq7flyrfinbzwiy56820i09j"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24061,17 +24061,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220805.1037")
+    (version "20220812.1852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "1b7463832f21369377bf0a3d8f402241ad8102cb")))
+                 "c743761821b74c54794006b89e0d204b4f7c3d97")))
         (sha256
           (base32
-            "08cj22njp8xc9mk02wzjvgsxs9w2gvcrr393xqw452x95n59fnr5"))))
+            "0l3rdfxxgry0r9m6wng0hcainyi14g1d1d97vnsfi60icf1swjxb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -27372,17 +27372,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220807.1244")
+    (version "20220812.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "a9d5607372b0935fb1b84a81bfcbdf60a7bf7ca8")))
+                 "66350f2711938ffebf2076018060da722478d9c1")))
         (sha256
           (base32
-            "1159kz63fsw116bl42vhfgnzck1g5x6vj41pwz7jl2cx4fgcc7pc"))))
+            "1qsii4yf6mffxdhmih0312kkf0vnxplapxaaay4cdgyr1g19jrpw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -34234,17 +34234,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220805.1520")
+    (version "20220812.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "7ec5835662941ce64201281bc0ed0f31ee34e48a")))
+                 "0df263f83ce7d756bbb8cead8ffc9c3b13399b4a")))
         (sha256
           (base32
-            "10kh8idwlcxa9f7f5jmwg1sykm3v1lv50lf3zqn13k1blj0k0ya0"))))
+            "0pxqydmmjpn5dq991yaq33m99kpm4dd7j4k3d7gw6gf5wms3kinn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -43293,17 +43293,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220802.1327")
+    (version "20220812.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "bd3d4ab6d7dffd9f8565af32471dc58aaf5a2214")))
+                 "956ec5ff543e9a0fcb3b3ceb339bb1e21c39719e")))
         (sha256
           (base32
-            "1kz8sl1iyrxx5lrfj4rkzm4xcmgvxwkvxdpw37id2jh0d986x0ql"))))
+            "0hyawpq1f78zhvrnrryp3vjq0xq7h72nvchczd13y8zgbazirkm4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -64008,17 +64008,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220811.1028")
+    (version "20220812.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "f7c0b1211c2ea11987c66edd2002b1de0f2d5ad9")))
+                 "c2633c7cf02dd6d14f561c940885e194507a8990")))
         (sha256
           (base32
-            "1hi3fxvnmn54jjj9zmx21x591f5686vzbiyw303r8rfmg8hpdcwk"))))
+            "1gd8j2y9gb85c5jhm46mvwj0bcafm2in9cqh71cp357r0g6rv2ic"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "unspecified")
@@ -76589,17 +76589,17 @@
 (define-public emacs-noaa
   (package
     (name "emacs-noaa")
-    (version "20220803.1427")
+    (version "20220812.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/noaa.git")
                (commit
-                 "beacb05f7298228dce4d494fb41c73d26991e15c")))
+                 "c691e770da0f1ed5b83c656087dfbc2ff231bef7")))
         (sha256
           (base32
-            "1ak7c2qy80idk1izs3xjw7nlsd9hjvig5qxqf1bwmiqrrdbcqsgs"))))
+            "01whmrfikxmxz2dmg1hy7myp68cvnblvb9blvk872k30y8yv074n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-kv emacs-request emacs-s))
@@ -79164,23 +79164,24 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20220811.912")
+    (version "20220812.2059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "811c97bf3982788b5b7118e22884493c32163e84")))
+                 "0952bcbac335a8eebe6f7d40458eb3342474ab42")))
         (sha256
           (base32
-            "05gn7ygilc3mskjf2zy275183zirvblshxpfwdskfhyh28z30c0a"))))
+            "0x7z9jvz1fa0b8wjsaxmcb8snf4l1s1z4va80ivn4wck0an4f9c9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
             emacs-dash
             emacs-markdown-mode
-            emacs-elgrep))
+            emacs-elgrep
+            emacs-yaml))
     (home-page
       "https://github.com./licht1stein/obsidian.el")
     (synopsis "Obsidian Notes interface")
@@ -83148,17 +83149,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220731.1246")
+    (version "20220812.1659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "e53d0fde875d137eeb03eddd6b50d3c827f9947f")))
+                 "311a8bff2fa0a6ccf83311c648d2cd045d765bc6")))
         (sha256
           (base32
-            "1syksy6c914d1z57zjiyqfmfpi6lpw2nfyw321mc4fr3m2l8wzzv"))))
+            "1427w3bv5rsaq07877lb3w9v5b0il6hgzdg52yf9kx22z5f7qgqr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -106835,17 +106836,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20220810.1946")
+    (version "20220812.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "82644b735bb3839459784efa8b1e1125f5ef1862")))
+                 "a17dabd0c45c4481de48e00ce390f5968d95111d")))
         (sha256
           (base32
-            "1pf5gc5adz3bi9qq2nxxwbnyxgpmg22bnihs6gjlrk2kxfr1ma89"))))
+            "0031xdisf7s57mpqv44f6lwnqmhb51xg25hy2r30x801mz0v8caw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -108664,17 +108665,17 @@
 (define-public emacs-switch-window
   (package
     (name "emacs-switch-window")
-    (version "20210808.742")
+    (version "20220812.2137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dimitri/switch-window.git")
                (commit
-                 "8d9fe251d8d38b223d643df975876356ddfc1b98")))
+                 "71ef2f54c97f3fd2e7ff7964d82e6562eb6282f7")))
         (sha256
           (base32
-            "0qc004gpyzf0hpsjr1xhsnfnn0g2jkpfxzvysa05p9nwglfpsn09"))))
+            "186100j93in5dm1h3xl1sg892yfz8nvssap2hsy5kh6aw1am412y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dimitri/switch-window")
