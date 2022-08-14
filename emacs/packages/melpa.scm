@@ -14505,17 +14505,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220813.2007")
+    (version "20220814.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "c8c6748a728f71b32474013f7c239badcffbddce")))
+                 "09bb128cc040e93e2fdd5c52cb9a806d2ed6e174")))
         (sha256
           (base32
-            "0d2xjk7xsrxypdi9lvsdcj2f7vlgxbv4pydbwi9kv20gdmngnzrg"))))
+            "0k4v6chl44fqdls1831ag584aqchcl1hdw53i5gwbrpjvq1fmngx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -24970,17 +24970,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220813.1750")
+    (version "20220814.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "3c42dfe855f2aac138d3a5896f7296387c1ffe4d")))
+                 "f4667883e7dad0e4b3318459fb0e634ec7b8ceac")))
         (sha256
           (base32
-            "1v76sp53l7cgfj2rmny2qkl088c0v8x5nnkzanhy23aj3x94nxf1"))))
+            "1714my32i064rjzndz7djadrl8mh8p9iji0ir91bqpgar2z19fcj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -35284,17 +35284,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20220608.943")
+    (version "20220814.1054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "d2019d4f9625bcc44349c69fe46d6645fd9ff4ff")))
+                 "85c91f95f8b98e153fd959ae467b46bf79622c5d")))
         (sha256
           (base32
-            "0vml6p19zwab2zrln2g6g2hb31czlz2rqln5wi8lc37h8lgfx7fy"))))
+            "0rb85v52snsh2532na9p4b98lkfd0zz6646frw44k7ydbp29wnd3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -49384,17 +49384,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220812.533")
+    (version "20220814.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "35357ebb37041ab39bc76cec584b7679da8c370e")))
+                 "c88f68de5cfff9925d399fd16e64a5dda31373fe")))
         (sha256
           (base32
-            "1hw7ikr4vbdxzk6vvzgmzfnpi16wkhfg39c9lih2w2hlgp6vza9q"))))
+            "1985ivbvd7dkvjqb4bxnh52in50zq0n33bzpf8gw6y52mjk2w0p9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50192,17 +50192,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220809.1446")
+    (version "20220814.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "1d066466feb786f3477f1e6b3278d6af54666177")))
+                 "c88f68de5cfff9925d399fd16e64a5dda31373fe")))
         (sha256
           (base32
-            "0rgwvav867k7y7nx850nzxq14y10bjf1344m8lk8qs9f4kzy2mnh"))))
+            "1985ivbvd7dkvjqb4bxnh52in50zq0n33bzpf8gw6y52mjk2w0p9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -64032,20 +64032,21 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220812.1407")
+    (version "20220814.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "c2633c7cf02dd6d14f561c940885e194507a8990")))
+                 "91609f4e89cf2237df4bb104c32eca2cc694158c")))
         (sha256
           (base32
-            "1gd8j2y9gb85c5jhm46mvwj0bcafm2in9cqh71cp357r0g6rv2ic"))))
+            "1v7jh9p3mkan5xgnpwykhmlybjzjafg4zxs67q08w8jq8a8xf61x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
-    (home-page "unspecified")
+    (home-page
+      "https://github.com/emacsfodder/kurecolor.el")
     (synopsis "color editing goodies")
     (description
       "Documentation at https://melpa.org/#/kurecolor")
@@ -91294,25 +91295,23 @@
 (define-public emacs-pomm
   (package
     (name "emacs-pomm")
-    (version "20220315.2038")
+    (version "20220814.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/pomm.el.git")
                (commit
-                 "2a2673bdc8e2c2af99040b14e97b39271806bf79")))
+                 "0942131ac3f2d20cc1004eecdb99ec0db1271c31")))
         (sha256
           (base32
-            "09w3m2gb0qv3cr3kklv37rgpcaxvyp21sdjmb15c26cf0i8rc86c"))))
+            "1d302d5ffin1ckgbbj041rd9dwadh88n03ax0ja4gg03g2r3y5ci"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-alert emacs-transient))
+    (propagated-inputs (list emacs-alert))
     (arguments '(#:files (:defaults "resources")))
     (home-page
       "https://github.com/SqrtMinusOne/pomm.el")
-    (synopsis
-      "Yet another Pomodoro timer implementation")
+    (synopsis "Pomodoro and Third Time timers")
     (description
       "Documentation at https://melpa.org/#/pomm")
     (license #f)))
