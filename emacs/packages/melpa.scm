@@ -17592,17 +17592,17 @@
 (define-public emacs-counsel-etags
   (package
     (name "emacs-counsel-etags")
-    (version "20220728.1351")
+    (version "20220814.330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/counsel-etags.git")
                (commit
-                 "b109dff190db6706e32ad08deb64b77fc8ad75c7")))
+                 "6403dfecab5c703a707da9e6611c830ce10bdbbd")))
         (sha256
           (base32
-            "0qgdhqwhw4pf2aclb602p0hirym28fh38ykmdnhzang2027l16p5"))))
+            "0frjqmfg54d4qnafgh1cpyn03vrj9v4azp8dg8k259d9bbqpsbq2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -27942,17 +27942,17 @@
 (define-public emacs-elfeed-tube
   (package
     (name "emacs-elfeed-tube")
-    (version "20220716.1217")
+    (version "20220814.42")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/elfeed-tube.git")
                (commit
-                 "a048950b9dc6d33741ed3224d6d8440fe4408742")))
+                 "d0140f24c7274fca6a357a33ba77dddf70837ba7")))
         (sha256
           (base32
-            "0a8fj2wy9y2k0qrszd4vbizlgpwywjrkjz1vs7x4smbf9cj5mxaw"))))
+            "1gg4lnh54yhxa3hshknfgljjc04p8nx0bbf1f9ygp2f9smw19vf8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed emacs-aio))
     (arguments
@@ -27968,17 +27968,17 @@
 (define-public emacs-elfeed-tube-mpv
   (package
     (name "emacs-elfeed-tube-mpv")
-    (version "20220704.1952")
+    (version "20220814.42")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/elfeed-tube.git")
                (commit
-                 "5817c91f5b3b7159965aa73839d2a0a08fd952bd")))
+                 "d0140f24c7274fca6a357a33ba77dddf70837ba7")))
         (sha256
           (base32
-            "1w22n54gm8my4r4kvi2id6s2wghsqdazzk168v79kw8kfw32vyy9"))))
+            "1gg4lnh54yhxa3hshknfgljjc04p8nx0bbf1f9ygp2f9smw19vf8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-elfeed-tube emacs-mpv))
@@ -37457,17 +37457,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20220729.1039")
+    (version "20220814.346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "8541a61053bba1f2f31d0791e597cd3c78a21456")))
+                 "ab59f520ea98fc2131e84f82ba66defc60786ce0")))
         (sha256
           (base32
-            "1rh76xwiikcq2pbq5i2nf5dx1dsgaqlgmjpcm011w99m0nzg7bvi"))))
+            "0284zi9i7mfdggrrizsngl3lbhirsm1iamz79jnkvz0q4cqlpqgj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -40563,17 +40563,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20220704.637")
+    (version "20220814.550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "857f4f94a7615d7de5305a40045b2b85ae1ff760")))
+                 "b954dde15be113e5b917aebd0f006be1b54a2ee3")))
         (sha256
           (base32
-            "1kmqk7hq07lclnbcmwhwnsbrn4qj4qkbq9kimfc0vy7fcd7qb79p"))))
+            "08zaanidbrnhg1bgd78337zxv9c11y422dqwc8f4k0sii8pls680"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -61693,17 +61693,17 @@
 (define-public emacs-json-par
   (package
     (name "emacs-json-par")
-    (version "20220723.829")
+    (version "20220814.316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/taku0/json-par.git")
                (commit
-                 "2c13ad1bc3c2a62141d3312501d2c2012555972b")))
+                 "7a3921364aa0bf2d9d72bb19a8d294cf801d13c4")))
         (sha256
           (base32
-            "1f0aj6dl5f0gjsgkh12rk79akbrrf6whn79jpgmjc0pa22k1v66p"))))
+            "15qailpvhl2z0nyk3qag67b4g52xblvxjnh2rbd7c3g45d3ga4da"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-json-mode))
     (home-page "https://github.com/taku0/json-par")
@@ -119211,17 +119211,17 @@
 (define-public emacs-with-emacs
   (package
     (name "emacs-with-emacs")
-    (version "20200210.1543")
+    (version "20220814.444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/twlz0ne/with-emacs.el.git")
                (commit
-                 "9f99bec56f87e53deb9f33b364eda77677a17eb9")))
+                 "fb9ef454a4bb2d6de3415807b4858a20a9cc0dad")))
         (sha256
           (base32
-            "0ay860skpnbv6a8xid0hhz9vx33ks2vkdicvpm3a4qngp932jvnp"))))
+            "0dldr2m3lhg68xx6bznkyi2kjfpgbqn849cbh3sdi8njp829vbqb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/twlz0ne/with-emacs.el")
