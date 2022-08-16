@@ -42835,17 +42835,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220811.2301")
+    (version "20220816.355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "9a95ffbe42a299f3270a0c3cf09264d9b6fc03df")))
+                 "d59703fb6f1e1fcba6c5e1a607cadcceff763621")))
         (sha256
           (base32
-            "0z88z189z2vqv0yq402yck0si3g8y7rzcw6ax8l6frjb8dl4gdi6"))))
+            "10pbi6v5xy5fahxl28p244pcnmx6ym7vwzbrkza06szpl7fjv5k9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -43160,17 +43160,17 @@
 (define-public emacs-gap-mode
   (package
     (name "emacs-gap-mode")
-    (version "20220503.1555")
+    (version "20220815.2355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/gvol/gap-mode.git")
                (commit
-                 "99237f714c28981142674e8cfeb155863c834858")))
+                 "afa70e8e396ce15f348612f09146650795fe58f8")))
         (sha256
           (base32
-            "0bjrrjz6k7a83gxad9grmynr14s6mig4cihd21nk6x499fn3ssia"))))
+            "1y4djgqnhy7yrv8az0bgpdyhlpgbxz1j9b84bfg95flrwfbbjiy9"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "emacs.gaprc")))
     (home-page "https://gitlab.com/gvol/gap-mode")
@@ -44387,17 +44387,17 @@
 (define-public emacs-git-backup-ivy
   (package
     (name "emacs-git-backup-ivy")
-    (version "20220412.1914")
+    (version "20220816.30")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/walseb/git-backup-ivy.git")
                (commit
-                 "c53e1bc800963c0d826226c37c22e36f2353c70d")))
+                 "ad6434bcd540de8e3cd9953035680f0a745040d5")))
         (sha256
           (base32
-            "02ilrrgb2vijhd7sylj8dxdbpxh83zxhkkb8m9kqn8mqxpj0ii1g"))))
+            "1c3ycd4if2ykd7pl7zxlrh6cqgrz158nlx9ynq3cddqglqb0jw6l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy emacs-git-backup))
@@ -54939,20 +54939,20 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20220815.2148")
+    (version "20220816.426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-hl-indent-scope.git")
                (commit
-                 "1adcc08057de9eeea88ba3ed8f2c819a1493a3a2")))
+                 "243b6e4202502439f39ab2a485e4ecf8ea50edbe")))
         (sha256
           (base32
-            "1ypwgw3ph3pafnk26mz566qgaxvhwki0r6lxmgfl9nx0shpnki09"))))
+            "14mlpddh5hkxk2db2b46a526df2aap7y4hi9kf70gcz63yjhn07w"))))
     (build-system melpa-build-system)
     (home-page
-      "https://codeberg.org/ideasman42/emacs-hl-indent-scope-mode")
+      "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
     (synopsis "Highlight indentation by scope")
     (description
       "Documentation at https://melpa.org/#/hl-indent-scope")
