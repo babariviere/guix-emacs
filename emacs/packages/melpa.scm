@@ -4101,17 +4101,17 @@
 (define-public emacs-arxiv-citation
   (package
     (name "emacs-arxiv-citation")
-    (version "20220706.706")
+    (version "20220816.542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/slotThe/arxiv-citation.git")
                (commit
-                 "a10af07419b66559569362ea57d897d988c17760")))
+                 "e41d5b90a00b79849cd2fd405b2af75a53b15abe")))
         (sha256
           (base32
-            "05109ci3nccisjrn1ycx642zdas126g4vfvszbafb758777x9a02"))))
+            "1j5cgkiksmgl6slacs5q7wrzyd8bqh3q1yn0rivvfn2v2fxzd5fk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -10810,17 +10810,17 @@
 (define-public emacs-cdlatex
   (package
     (name "emacs-cdlatex")
-    (version "20220815.1610")
+    (version "20220816.1400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cdominik/cdlatex.git")
                (commit
-                 "3ad5ac4c5702a6a97f69a14ad58ca63f9eab2a3a")))
+                 "cf1dad9f993f619c987d84181167ff937e576909")))
         (sha256
           (base32
-            "0vmps35w7v2amgjnhhkbs8hdcvzha811bf0jhfpn4v04hg6r8yp5"))))
+            "0by31akhdmrpj7sfaq0szm0b37va59zz3c5gscy4h7pxyr67mfry"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -22883,17 +22883,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220815.1701")
+    (version "20220816.1007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "2bd049a8f1f2e42fbbcee407178c6581d3ba82f8")))
+                 "005774d7438e69e5197299acfbdbc945cbe75b24")))
         (sha256
           (base32
-            "0jq7basf9hx50qf7d55w4i84cz67b6l526b1bfj6iibg6hxn7sw8"))))
+            "1bb3fasjq41qb35b79qf3k43hbcbi95k0kg3jng1xvajr4izyabq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -27966,22 +27966,24 @@
 (define-public emacs-elfeed-tube
   (package
     (name "emacs-elfeed-tube")
-    (version "20220814.42")
+    (version "20220816.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/elfeed-tube.git")
                (commit
-                 "d0140f24c7274fca6a357a33ba77dddf70837ba7")))
+                 "b5abbdf0ab196eed9ef7552e5de1c516ef502358")))
         (sha256
           (base32
-            "1gg4lnh54yhxa3hshknfgljjc04p8nx0bbf1f9ygp2f9smw19vf8"))))
+            "1yrph4vfygnfj18cawnh8r2sxkc2jjlxcfx6qvl9axxs083cy3dg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed emacs-aio))
     (arguments
       '(#:files
-        ("elfeed-tube.el" "elfeed-tube-utils.el")))
+        ("elfeed-tube.el"
+         "elfeed-tube-utils.el"
+         "elfeed-tube-fill.el")))
     (home-page
       "https://github.com/karthink/elfeed-tube")
     (synopsis "YouTube integration for Elfeed")
@@ -32618,17 +32620,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220812.1203")
+    (version "20220816.1337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "1d63e750bc8f37aa1b8f0eabe86b598973ab75b1")))
+                 "71332209386e431ae13442f20468b2edb59f727b")))
         (sha256
           (base32
-            "1m51wv35x4y5fsy2c8r1cygc7a72k2hf62v71lgy1xhspd1kl8jq"))))
+            "1iln11xqmxp669zs6pc1qshgjy6k9j88zv0jp3h6g1lhwwmplibi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -37481,17 +37483,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20220814.346")
+    (version "20220816.534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "ab59f520ea98fc2131e84f82ba66defc60786ce0")))
+                 "781d830ccf6ace3f858ca597b8b82ee6598b86b5")))
         (sha256
           (base32
-            "0284zi9i7mfdggrrizsngl3lbhirsm1iamz79jnkvz0q4cqlpqgj"))))
+            "12hdjg691gp3di89975xrzxxg0ckvmbvmxq8bzxryk2dpz3q3sif"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -49408,17 +49410,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220814.944")
+    (version "20220816.1013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "c88f68de5cfff9925d399fd16e64a5dda31373fe")))
+                 "451ba2d62512ed9178391a04cd458c07840a5eeb")))
         (sha256
           (base32
-            "1985ivbvd7dkvjqb4bxnh52in50zq0n33bzpf8gw6y52mjk2w0p9"))))
+            "16y4935110l43s7fiixn155nbpl9gg9h6b14fydj1s8w9ikkyni5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -60266,31 +60268,6 @@
       "Documentation at https://melpa.org/#/jabber")
     (license #f)))
 
-(define-public emacs-jabber-otr
-  (package
-    (name "emacs-jabber-otr")
-    (version "20150918.1144")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/legoscia/emacs-jabber-otr.git")
-               (commit
-                 "2692b1530234e0ba9a0d6c1eaa1cbe8679f193c0")))
-        (sha256
-          (base32
-            "0yv86nadp6dfzl05vhk8c1kahg2pcrhfmd3mnfjrngp7ksac5lyf"))))
-    (build-system melpa-build-system)
-    (propagated-inputs (list emacs-jabber))
-    (arguments '(#:files (:defaults "emacs-otr.py")))
-    (home-page
-      "https://github.com/legoscia/emacs-jabber-otr/")
-    (synopsis
-      "Off-The-Record messaging for jabber.el")
-    (description
-      "Documentation at https://melpa.org/#/jabber-otr")
-    (license #f)))
-
 (define-public emacs-jack-connect
   (package
     (name "emacs-jack-connect")
@@ -69450,20 +69427,19 @@
 (define-public emacs-magit-svn
   (package
     (name "emacs-magit-svn")
-    (version "20210426.2114")
+    (version "20220314.1451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/magit-svn.git")
                (commit
-                 "350493217afdb7637564e089f475909adecd9208")))
+                 "b8277081db90977247ae3900ea6afeb0ca644d36")))
         (sha256
           (base32
-            "1v1y4fir1plz4kj0cvkcd29wibli4dw7vp4fmbxq4df76d8iy8yd"))))
+            "1ywwylxasgyk6gldypvbn6hlbmkp24rx6kcd0qvxsp39bbd0in50"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-magit emacs-transient))
+    (propagated-inputs (list emacs-magit))
     (home-page "unspecified")
     (synopsis "Git-Svn extension for Magit")
     (description
@@ -99925,17 +99901,17 @@
 (define-public emacs-s
   (package
     (name "emacs-s")
-    (version "20220813.351")
+    (version "20220816.956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/s.el.git")
                (commit
-                 "39340b58c024b08ea6ef812ef26f37bacbeb2d12")))
+                 "7f25ead4b0deac6f49d07e0c3b8859adedb28207")))
         (sha256
           (base32
-            "1v3d3mbgsg5625cp5maw09vxqb9dmjqlgx1hk53wkx9v9bvczkh9"))))
+            "0krjkcghxirsmvy7l0l8bg44cnplh8cfpr9yjcdgm332gk57ahv4"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -120077,17 +120053,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220813.627")
+    (version "20220816.807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "0e34667fac01fe42f0d8a6e501b5bbd5d4982e8e")))
+                 "42271d2def58b441389d6f6d343cced314b9f308")))
         (sha256
           (base32
-            "03qq9m3c68s293998dikq5j6677a6amsg4qfpdkplpy88vzx9b3l"))))
+            "18xb5qhlnvp841jsdlyh5v9j8mpzzjqnhc089vvqv7wdacrcc96x"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
