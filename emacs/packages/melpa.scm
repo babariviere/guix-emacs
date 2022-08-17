@@ -8370,17 +8370,17 @@
 (define-public emacs-boon
   (package
     (name "emacs-boon")
-    (version "20220502.1850")
+    (version "20220816.2151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/boon.git")
                (commit
-                 "db7b6083d390e3febf82f9af5782e1a36d30093c")))
+                 "225c8b9d979182e7ee27ff2eb33657180971a82c")))
         (sha256
           (base32
-            "1i6wff18rlhdncm8qaz5zmrl4g5bl4h13yw9y635nlzzailmjjvj"))))
+            "1l2dmbrbvhyyqnw6v5914v0msr6a75589d23bqada6ynzfc3cx7a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -12323,17 +12323,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220717.729")
+    (version "20220816.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "406bd9964f1ce531fc45beddcf9ccc44d3456129")))
+                 "36c4ecdc485a2f264297bb60f82c0afe1a1d64d3")))
         (sha256
           (base32
-            "0rkwqn9pcimfcyq19wlrcij0kcjyhbwisla7vwbhjj8ang0bq9rm"))))
+            "1wcwm6cwmy7zxf9s841q6y3nz11a55ymvbgmp8cd8j24aydn3qpn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -16961,17 +16961,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220814.1902")
+    (version "20220816.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-recoll.git")
                (commit
-                 "80f1933d686bdeec09f2adb8cdf491ff849b3e9b")))
+                 "6d71139e4282a13d94f2ad43fc0bd1fff153d18b")))
         (sha256
           (base32
-            "1hq87vammydsq01hwfs18ffkw344n4a0ibxhbj4kmw5a0ygpz2qg"))))
+            "1nx437ajg0n07rlx57w8apdmmmab1s8cfwbskx5n75xxdmcv2fzg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -22883,17 +22883,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220816.1007")
+    (version "20220816.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "005774d7438e69e5197299acfbdbc945cbe75b24")))
+                 "a7294bceea0d379bb60a8b8c8d9e87b274558497")))
         (sha256
           (base32
-            "1bb3fasjq41qb35b79qf3k43hbcbi95k0kg3jng1xvajr4izyabq"))))
+            "0aqmlna53724p21y6ywiv5wk06wa47rv77n2bv312z4zndlk0qmg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24109,17 +24109,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220812.1852")
+    (version "20220816.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "c743761821b74c54794006b89e0d204b4f7c3d97")))
+                 "c26c26131377895984f9fdc49cc4914f9ee6997c")))
         (sha256
           (base32
-            "0l3rdfxxgry0r9m6wng0hcainyi14g1d1d97vnsfi60icf1swjxb"))))
+            "088ac07cishs0cmy1lf4b45aizjvx7p811jmp8jy6ribpj5k44rp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -27420,17 +27420,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220814.2011")
+    (version "20220816.1746")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "f964c59bd28aeb42e60f72d4284dd07b50fbdcfd")))
+                 "067134a9bfe6326de258f0af666a53e13a9b4a93")))
         (sha256
           (base32
-            "1r8yibbjsin9vba8ljrmqyyixffgavqvj5kghdgarjlqcxzwlrlk"))))
+            "1w44rhs5m3s85jrc1fhrry214f3d3ffw7yrgrlzmpalyg8mng39m"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -31670,17 +31670,17 @@
 (define-public emacs-eshell-syntax-highlighting
   (package
     (name "emacs-eshell-syntax-highlighting")
-    (version "20210429.413")
+    (version "20220816.2017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akreisher/eshell-syntax-highlighting.git")
                (commit
-                 "8e3a685fc6d97af79e1046e5b24385786d8e92f6")))
+                 "1ba39a9ffb2298cd716a4314cf3f369028c7bafe")))
         (sha256
           (base32
-            "15m084kk3ikw85pw9dg5xwc1abbv51a2f0k421vks0bhi37ba1wd"))))
+            "0w2f5a9cxa365hcc92c24b3kq5dwry3prig57jgnicwmjn5nkqlz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/akreisher/eshell-syntax-highlighting")
@@ -32620,17 +32620,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220816.1337")
+    (version "20220816.2139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "71332209386e431ae13442f20468b2edb59f727b")))
+                 "b47cb64ceb6d10ecc4a132dce8e3ac0465e1b637")))
         (sha256
           (base32
-            "1iln11xqmxp669zs6pc1qshgjy6k9j88zv0jp3h6g1lhwwmplibi"))))
+            "1gpihq42iai70pgnrkcn9hixb3s40r165k8dnbj9l980klirzib1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -34963,17 +34963,17 @@
 (define-public emacs-external-dict
   (package
     (name "emacs-external-dict")
-    (version "20220801.2349")
+    (version "20220816.2136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/external-dict.el.git")
                (commit
-                 "aa051548ca850d15f939acfa82b358f756a761f6")))
+                 "680c37f01e5205805dffeef05be00e2196886a8c")))
         (sha256
           (base32
-            "1nnkyy7wi5zkb511bsp8j95p88rd451nfncyvss27ldrscnizjf0"))))
+            "01rq6xw86q03br55njh51myzl2v1wfb2z6xpapwfs77rcismx616"))))
     (build-system melpa-build-system)
     (home-page
       "https://repo.or.cz/external-dict.el.git")
@@ -47286,22 +47286,22 @@
 (define-public emacs-goto-last-point
   (package
     (name "emacs-goto-last-point")
-    (version "20190525.1855")
+    (version "20220816.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/manuel-uberti/goto-last-point.git")
+               (url "https://git.sr.ht/~gitmux/goto-last-point")
                (commit
-                 "7ea191df18ff4774cf1dc568e1726143dd54ea02")))
+                 "0a006c70719f479bc4e3ae75dd2fc84cbb15f049")))
         (sha256
           (base32
-            "1x8sr1xrarb7s7hxp4wg96ng7hb3li3ahixybkzcisz4ga9iwj8x"))))
+            "013nh9lwh22v858bkhwj3mqzwg378ncmjp7y4m2hhbv4ap0ay3vd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/manuel-uberti/goto-last-point")
     (synopsis
-      "Record and jump to the last point in the buffer.")
+      "Record and jump to the last point in the buffer")
     (description
       "Documentation at https://melpa.org/#/goto-last-point")
     (license #f)))
@@ -48447,17 +48447,17 @@
 (define-public emacs-gumshoe
   (package
     (name "emacs-gumshoe")
-    (version "20220811.257")
+    (version "20220816.2254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Overdr0ne/gumshoe.git")
                (commit
-                 "68cc9c1654862dfb8aee4c1dd732e752bf202532")))
+                 "5e30a68f1cd80c8bdf67c06afa1fe7642decbef7")))
         (sha256
           (base32
-            "1g64177qpw1gsnsznly8f7x9bfmisidmjwy4yjr23cxa2hxwj3yc"))))
+            "1vw7p92qq5ahvzql4pcbza0nzf2rxfxc6i5g64ldv1hgzih0cv56"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Overdr0ne/gumshoe")
@@ -51772,17 +51772,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220727.505")
+    (version "20220814.1011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "9d91c25c7d1776d137fd126f241d0272b6e5f90e")))
+                 "126bb9bce4cc3965cec940f2002f26b88221c3b7")))
         (sha256
           (base32
-            "0bxmhi1dr553v1grspig5b16ldwl74dzflf6xqi8kk7wdpk1ir3k"))))
+            "04cdav305z4aykpd6kkl34xj6z2kfgazxiri8ykjxa7kycrqlmqx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -64055,17 +64055,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220815.1327")
+    (version "20220816.1419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "922eeabdbe91698fd59e2198474008b2b9e960d3")))
+                 "59e90bbb43f71ec9ba5abf74d5d4fb10f6f10ed1")))
         (sha256
           (base32
-            "19w3k5xmqfcbhqfpwm9xwpbq8zbgwxwn8c8cf66x6lv46z2h4v6p"))))
+            "1702wypma08glj6n5aynyawlycwzj68cc8swq885fm350anmvw5n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -68322,17 +68322,17 @@
 (define-public emacs-lsp-tailwindcss
   (package
     (name "emacs-lsp-tailwindcss")
-    (version "20220601.1509")
+    (version "20220816.1602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/lsp-tailwindcss.git")
                (commit
-                 "09377d5bbb742f11c458481905ddbb022dd2b0da")))
+                 "6cff7196d0742a359a58c21a719a2cd436006e12")))
         (sha256
           (base32
-            "090ymnd24cd2665b9kb32yxwvbbrcxc884s68b9g1x59z7wmw42g"))))
+            "0sxs6p4sglk753q6q2ysqbfr7gbybqc5l76y8f4ima6i66sjn4jm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode emacs-f))
     (home-page
@@ -76379,17 +76379,17 @@
 (define-public emacs-nix-update
   (package
     (name "emacs-nix-update")
-    (version "20220809.412")
+    (version "20220816.2212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/nix-update-el.git")
                (commit
-                 "1dd1434a2fcc054ad0046cca0563a292e890d59b")))
+                 "aab70a38165575a9cb41726f1cc67df60fbf2832")))
         (sha256
           (base32
-            "10h6q8j6p9pvhja6ldpbh1s57lq0wpzy11wcbqknsyv0wpbrcpwk"))))
+            "01cc86wvlwl5sy758vcjhwwh1has4ng6sqyrsd5y610qahs8cbib"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/nix-update-el")
@@ -80503,17 +80503,17 @@
 (define-public emacs-org-arbeitszeit
   (package
     (name "emacs-org-arbeitszeit")
-    (version "20220328.1951")
+    (version "20220816.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bkaestner/org-arbeitszeit.git")
                (commit
-                 "60e6adfe457bcc4ee47e3e5805b6b40544f98ee0")))
+                 "b22ae3292b24772aa37dd5a54cd551f7312b6213")))
         (sha256
           (base32
-            "0m93d60bybw2sjw75h65y76r9aspdfpv846pwm6xvjph9v614dgy"))))
+            "0ns1s0n0nckwkr6akrk2sdwwc0xj636qry1jvvys3rp2irjh6g0s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bkaestner/org-arbeitszeit")
@@ -83241,17 +83241,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220812.1659")
+    (version "20220816.1327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "311a8bff2fa0a6ccf83311c648d2cd045d765bc6")))
+                 "6971f05eedf56b7fc0f95b0df4ac563fbd0e340f")))
         (sha256
           (base32
-            "1427w3bv5rsaq07877lb3w9v5b0il6hgzdg52yf9kx22z5f7qgqr"))))
+            "1098mjn3cpj5zawyl517i3dvrn7yyw2xk0fzl8acyzg3ncm9iqc2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -102057,17 +102057,17 @@
 (define-public emacs-shanty-themes
   (package
     (name "emacs-shanty-themes")
-    (version "20220623.1528")
+    (version "20220816.1830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qhga/shanty-themes.git")
                (commit
-                 "906104f6a6b185efc19285fcc3bc943f094fb594")))
+                 "9ddd8ccd94b51ad5b19ee7097dcfccb3588b5eef")))
         (sha256
           (base32
-            "1gxb0sgq2ng9l7nfjbwjzc0ylxdgms018srs6550d779mi5gc8b7"))))
+            "0j0vf6v4cw9v661zk1hcm3cnxl0lgfk5bpd7xwdah8v38mb02k8w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qhga/shanty-themes")
