@@ -18608,17 +18608,17 @@
 (define-public emacs-csharp-mode
   (package
     (name "emacs-csharp-mode")
-    (version "20220815.935")
+    (version "20220817.712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-csharp/csharp-mode.git")
                (commit
-                 "18fea21c59597a1b51728fc5670400a32b2adc1f")))
+                 "7d7bf8895ba7d34f941169be69a8abaaf7e044ca")))
         (sha256
           (base32
-            "0cvg4723xg8brw9jcw6lnhmrr3gziswrrjb1dvc3klfgvabnkscz"))))
+            "0f3xnci4vzmc7kkhwxqjhpj4j8yzc1gbz3bdw5f588hi3q51q4z9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-csharp/csharp-mode")
@@ -22883,17 +22883,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220817.538")
+    (version "20220817.1003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "f5cf4b36ceb65a634d5ce213a729c0cedf3d6779")))
+                 "04cd900afd4d6c4a393bc041c783e9f613597179")))
         (sha256
           (base32
-            "0dvjhspggnl2bmj8880yzdj553k7ma5z9nnq8sahbwqwsslx1cyz"))))
+            "1jva9pvmnkjackd1xlb1h2s55nnsy4dsj66d0z57dfc9mj3jnnrx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -42837,17 +42837,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220816.355")
+    (version "20220817.1234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "d59703fb6f1e1fcba6c5e1a607cadcceff763621")))
+                 "fa62f9624a6847dac594ab9f9a3154105ba2e3ef")))
         (sha256
           (base32
-            "10pbi6v5xy5fahxl28p244pcnmx6ym7vwzbrkza06szpl7fjv5k9"))))
+            "16ra07ry0gnkimab125971q32aza1zrc4yw4f73cvvphv4ri9f9m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -50218,17 +50218,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220814.944")
+    (version "20220817.553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "c88f68de5cfff9925d399fd16e64a5dda31373fe")))
+                 "746e2c01c806c9e52ff75c3568dad90ca281b784")))
         (sha256
           (base32
-            "1985ivbvd7dkvjqb4bxnh52in50zq0n33bzpf8gw6y52mjk2w0p9"))))
+            "1q2cnw62acjqj2bz9f5snsqwq8bis3nyz2d2p9qwkdfxgvw1ixxd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -51772,17 +51772,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220814.1011")
+    (version "20220817.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "126bb9bce4cc3965cec940f2002f26b88221c3b7")))
+                 "2722899b2d50d388ada55dee0f38efec42aeb3c8")))
         (sha256
           (base32
-            "04cdav305z4aykpd6kkl34xj6z2kfgazxiri8ykjxa7kycrqlmqx"))))
+            "0w0djk2f24qxsd05fc71rviy4mi95sf0ik3yn18aysn43407mk24"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -65534,17 +65534,17 @@
 (define-public emacs-lfe-mode
   (package
     (name "emacs-lfe-mode")
-    (version "20220709.1956")
+    (version "20220817.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rvirding/lfe.git")
                (commit
-                 "d10af0a774d6d9c41ea78fe0185fdd0065a05d66")))
+                 "6b2569f25572dee429f6c2f0eb2ef576999e5fb9")))
         (sha256
           (base32
-            "1v9xawdmbbrqcax1n47dgysjr14nv1db63kmrjs8qq0ci9jb66dc"))))
+            "1qcrkp8bndlhb9hsllik1barbj8q8d22w92da9957b2ym7dwccx3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -84461,17 +84461,17 @@
 (define-public emacs-org-zettelkasten
   (package
     (name "emacs-org-zettelkasten")
-    (version "20220727.859")
+    (version "20220817.1044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymherklotz/emacs-zettelkasten.git")
                (commit
-                 "edba7bcfdc054ad0ff1952bb525f5709a687db25")))
+                 "7278052cb451178a2f1ffc61569156ca0adcc34a")))
         (sha256
           (base32
-            "06rb7frgw1vja7azsd9cxzkbvlr7xpzapgqypsc777szncz06xhi"))))
+            "0h2sjp5jl5j5asz3pvv3widvwj75nq55x2ps2bgg8hqm0g6sjdb7"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-zettelkasten.el")))
     (home-page
@@ -98345,17 +98345,17 @@
 (define-public emacs-review-mode
   (package
     (name "emacs-review-mode")
-    (version "20220809.1250")
+    (version "20220817.1010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kmuto/review-el.git")
                (commit
-                 "d0ec3357ae80e745e3a2b00012dd577e276b88d0")))
+                 "2b24db8d85a1c40dbd67be195caa79c9df1e0f4b")))
         (sha256
           (base32
-            "13lcwhy47p4d6fk6x0xh726q8ka5l41hzqri00rbdafz0dzflbj4"))))
+            "0hw8spbhdwgaaggf8vrmkpg5zdy9s71ygcj8rlp4acw7cfcp6sbx"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/kmuto/review-el")
     (synopsis "major mode for ReVIEW")
@@ -99805,17 +99805,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220715.1010")
+    (version "20220817.1356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "baef1faba8c73587455f8582ee6ba3ef32077a69")))
+                 "78a71617b93af24f5fadf61e82ec0b303b994a5d")))
         (sha256
           (base32
-            "0vbwcbslbmrh3jmwb2m2jk394s0jnbsw26lmcg0fs17byxfzssv4"))))
+            "0c7zr0d3s4pf9nhw3rjg0mm1g04l388kizkkq2bpqr77ikciqm2j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -117002,17 +117002,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20220703.806")
+    (version "20220817.737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "af9c8ee7e99ec4ffb20d15512efafc49d509f5db")))
+                 "1142df58b39383fdd988863d11bbf2ad2d3efa28")))
         (sha256
           (base32
-            "1cvvhckf3s21v7bs20jgza57dazm6ck6k8lzlmj6f3fmhif27hvx"))))
+            "14r2j2qdj2zgwgcfwkbr7qirl5zwk9y64nr4g652g4l7r0438ipi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
@@ -122064,17 +122064,17 @@
 (define-public emacs-zettelkasten
   (package
     (name "emacs-zettelkasten")
-    (version "20220727.1137")
+    (version "20210830.1025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymherklotz/emacs-zettelkasten.git")
                (commit
-                 "edba7bcfdc054ad0ff1952bb525f5709a687db25")))
+                 "7278052cb451178a2f1ffc61569156ca0adcc34a")))
         (sha256
           (base32
-            "06rb7frgw1vja7azsd9cxzkbvlr7xpzapgqypsc777szncz06xhi"))))
+            "0h2sjp5jl5j5asz3pvv3widvwj75nq55x2ps2bgg8hqm0g6sjdb7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (arguments '(#:files ("zettelkasten.el")))
