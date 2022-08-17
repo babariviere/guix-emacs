@@ -1973,17 +1973,17 @@
 (define-public emacs-aggressive-indent
   (package
     (name "emacs-aggressive-indent")
-    (version "20210701.2224")
+    (version "20220817.9")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Malabarba/aggressive-indent-mode.git")
                (commit
-                 "cb416faf61c46977c06cf9d99525b04dc109a33c")))
+                 "70b3f0add29faff41e480e82930a231d88ee9ca7")))
         (sha256
           (base32
-            "1mlvdxs4jbxxfj57h2hc6yapgz4zzqj80k4psds116kpp0y2r5ja"))))
+            "1wxr1z0w5lx5pk1lr7ycss38knar8vb655njlqidlhh1cwbw991v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Malabarba/aggressive-indent-mode")
@@ -3785,17 +3785,17 @@
 (define-public emacs-apropospriate-theme
   (package
     (name "emacs-apropospriate-theme")
-    (version "20220612.1555")
+    (version "20220817.235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/apropospriate-theme.git")
                (commit
-                 "17ec6fc0f43f7c0bcb970e2b71b8674891a464c7")))
+                 "07265cc0122d3bde62615e8f5671e271598d95da")))
         (sha256
           (base32
-            "1w6y3j5r1ngjx08ymqkfp7xjlycrij9bmcnn6pw2jpih3zgzsyny"))))
+            "18kdrnx264bf2k59b6355b1fbpqd02c5rjr9sfhafpgwg0265d6h"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -18287,17 +18287,17 @@
 (define-public emacs-creamsody-theme
   (package
     (name "emacs-creamsody-theme")
-    (version "20220815.1443")
+    (version "20220817.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-creamsody.git")
                (commit
-                 "5a7e072e2c65edc86189d08d612916712d159923")))
+                 "cc16c7ce5d733c5e77ea67342dc655ab8f920684")))
         (sha256
           (base32
-            "1nvrr60yq1iqv1whblhhs6ivzmp0faxpqiadw25r53yxniyywd99"))))
+            "0wzp3qlahkxic924sslaj8v9npqcjcw3ff87mr0d697z2g1kbwdh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -19258,17 +19258,17 @@
 (define-public emacs-cyanometric-theme
   (package
     (name "emacs-cyanometric-theme")
-    (version "20220815.503")
+    (version "20220817.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-cyanometric.git")
                (commit
-                 "c3fe8d919dda9eee5265cb4fae60adcb8eb4ecc7")))
+                 "7911a3d428d616108a49be22b1f05b57321c1c72")))
         (sha256
           (base32
-            "100ijw00x2igv952k65gy7c1z2py8wscy5sm3lkc01rqafjns63d"))))
+            "15v9sb30fh1al0cq4zmmiqvb1fim61rn3z4kzagcmppmi5dzph18"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -19901,17 +19901,17 @@
 (define-public emacs-darktooth-theme
   (package
     (name "emacs-darktooth-theme")
-    (version "20220810.404")
+    (version "20220817.604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-darktooth.git")
                (commit
-                 "b4956f11ff2a0db8031f0bd637ab03b77c618d27")))
+                 "c344fc80647338e137cd78a4c30bfad41ab56736")))
         (sha256
           (base32
-            "08rk8wsrjlb28fc5xvdgc1r2vs0hdji45vpj3bc1ab5ykmlxz6sl"))))
+            "12rv0s8lms9ddzqhdkcrk65ylgp1yzlx6lwamwl7msjay25gmzvw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -21801,17 +21801,17 @@
 (define-public emacs-dimmer
   (package
     (name "emacs-dimmer")
-    (version "20211123.1536")
+    (version "20220817.122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gonewest818/dimmer.el.git")
                (commit
-                 "2f915b100044e09dd647b22085e1696249c4b115")))
+                 "a5b697580e5aed6168b571ae3d925753428284f8")))
         (sha256
           (base32
-            "00y6645zjary1sz7517qy5pjwfm5ipsc46sypmdygin65hbbc8wg"))))
+            "1lj7pgsyzmd547yq33k4r75vfz3pdqafvnrxcv110hmb7mj3dvr4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gonewest818/dimmer.el")
@@ -22883,17 +22883,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220816.1755")
+    (version "20220817.538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "a7294bceea0d379bb60a8b8c8d9e87b274558497")))
+                 "f5cf4b36ceb65a634d5ce213a729c0cedf3d6779")))
         (sha256
           (base32
-            "0aqmlna53724p21y6ywiv5wk06wa47rv77n2bv312z4zndlk0qmg"))))
+            "0dvjhspggnl2bmj8880yzdj553k7ma5z9nnq8sahbwqwsslx1cyz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -27966,17 +27966,17 @@
 (define-public emacs-elfeed-tube
   (package
     (name "emacs-elfeed-tube")
-    (version "20220816.558")
+    (version "20220817.347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/elfeed-tube.git")
                (commit
-                 "b5abbdf0ab196eed9ef7552e5de1c516ef502358")))
+                 "79e0dcf45ff2516177b7750396dfd91941156128")))
         (sha256
           (base32
-            "1yrph4vfygnfj18cawnh8r2sxkc2jjlxcfx6qvl9axxs083cy3dg"))))
+            "19ilnk5iimx4axaprq48iz3vndjg8x8schdnv0rwkb8yk9v43n4p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed emacs-aio))
     (arguments
@@ -64597,17 +64597,17 @@
 (define-public emacs-latex-extra
   (package
     (name "emacs-latex-extra")
-    (version "20170817.147")
+    (version "20220817.5")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Malabarba/latex-extra.git")
                (commit
-                 "82d99b8b0c2db20e5270749582e03bcc2443ffb5")))
+                 "a81e7588448f85c5fcc3f3fc71cf957d0928a656")))
         (sha256
           (base32
-            "15m7zvdhg5z7d8alrw66p703wdp5r57lxrgq3zz7xc4hscwghlb1"))))
+            "0sajg5vmygnkcnmkrpf8r7c4b8v95hgsv1y6pz868jpznmldnxkb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -67521,17 +67521,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20220731.202")
+    (version "20220817.135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "10a9be5f0b143dee454bb64d2b5146e4509553d6")))
+                 "30f6b97633f9182d41558096c552160ca4dd7e10")))
         (sha256
           (base32
-            "0khsnpr1x834zm453ff8ri2i7kyhgxrn782nkzhc4blk6bjljr5p"))))
+            "0fy3scd09jrrrbn1rdbvxfxs134gx78fv82dk5xdv6rgnmv15nbq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "loopy-dash.el"))))
@@ -80268,17 +80268,17 @@
 (define-public emacs-orangey-bits-theme
   (package
     (name "emacs-orangey-bits-theme")
-    (version "20220815.506")
+    (version "20220817.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-orangey-bits.git")
                (commit
-                 "0fca9a9ad79079a4f5c0332dac5e4940370c948d")))
+                 "7277c5d136098c0ba0b7d56307c209b62051b970")))
         (sha256
           (base32
-            "1vxkhryd33iys9kwgdi1niy9qy6676y6i7z22k82fz68p6wpkkqp"))))
+            "1v0aiszkqh04i1dz4ziixy0qzmqxnziknamgpvdy7kby6ccji8ym"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -80457,17 +80457,17 @@
 (define-public emacs-org-anki
   (package
     (name "emacs-org-anki")
-    (version "20220712.1916")
+    (version "20220817.655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/eyeinsky/org-anki.git")
                (commit
-                 "4c3b27efe8eed9a9c8b5636fb15b86975ef7e00e")))
+                 "4ed63cbebb35d7427d92652df209b0450655e5ac")))
         (sha256
           (base32
-            "19vig86ivx4gycfa54yi8k66zkp45sp8b082673xkmhrvvnnjm0a"))))
+            "0zsrvkp4cp65yzqhhx5bzj6bskrjwzvgnsf9nxpf0m0wdcpqxvv6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-promise))
@@ -100058,6 +100058,28 @@
       "Documentation at https://melpa.org/#/sailfish-scratchbox")
     (license #f)))
 
+(define-public emacs-sakura-theme
+  (package
+    (name "emacs-sakura-theme")
+    (version "20220817.437")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacsfodder/emacs-theme-sakura.git")
+               (commit
+                 "a98fbadcfc1e3abafa24a6f1826840867ba75506")))
+        (sha256
+          (base32
+            "0ig6wqhk7rxyky1077wfs8ryyv7m0zsjqsvwshi1fkxg8q7p5pj0"))))
+    (build-system melpa-build-system)
+    (home-page
+      "http://github.com/emacsfodder/emacs-theme-sakura")
+    (synopsis "Filled with cherry blossoms")
+    (description
+      "Documentation at https://melpa.org/#/sakura-theme")
+    (license #f)))
+
 (define-public emacs-salesforce-utils
   (package
     (name "emacs-salesforce-utils")
@@ -107433,17 +107455,17 @@
 (define-public emacs-stgit
   (package
     (name "emacs-stgit")
-    (version "20200606.1308")
+    (version "20220816.2119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stacked-git/stgit.git")
                (commit
-                 "759a38bd8418116e8cdca41a8aacd7ae13ede93e")))
+                 "7b87a0d91f50253bf26535b6fa645f21dde4e9e6")))
         (sha256
           (base32
-            "0xf5a4149x9r6yg13vifx5jgsk80j50jv1m7app9mh4wm04f6kvp"))))
+            "1gs4jags85pgijybhx1w33hmllnixpp3d4krha6a3vf3v8k3svkn"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("contrib/stgit.el")))
     (home-page "http://stacked-git.github.io")
@@ -110069,17 +110091,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220814.1947")
+    (version "20220817.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "c547477be39298eabf8e67f0116a115771f2ee0b")))
+                 "a9541174c796056acfb76898d9d07a6737835e4a")))
         (sha256
           (base32
-            "07fxy47lkrdwazwfnr5vw982dbxq435wskj5ghxs00glmb3vgrg9"))))
+            "17g29m4kian587fjx2m8mq0w5cgivr581hqmhfxwh5wx9bfd4055"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -116151,17 +116173,17 @@
 (define-public emacs-vegetative-theme
   (package
     (name "emacs-vegetative-theme")
-    (version "20220815.504")
+    (version "20220817.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-vegetative.git")
                (commit
-                 "5e36174c75c967a5770422d6e1e325225ad56889")))
+                 "1223929991baac345cffc0687599399af90172cd")))
         (sha256
           (base32
-            "1x0ypgprbd3pxmxbvpwxafps1dbyf6gcyyqv4yjysdiq69mlkyvi"))))
+            "015amvaal9y46dx5v433b9f54c9bnzmz8vp73h3frc4x3j7w1zd3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -116958,17 +116980,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20220703.809")
+    (version "20220817.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "87b1b300375bb9f06f92e253c6941113b9bce5b4")))
+                 "2b318c25268c9e5d9cf4788ba8655154032240d3")))
         (sha256
           (base32
-            "1za8p2xj5drn71xx1yvy8k96576z3rfgfcjgj4h697ldlsbz3xgi"))))
+            "1jfmywkygzm1nbcbz5prqw5vyilxzssnwp6ny1vq3jl2zmmjhalq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
