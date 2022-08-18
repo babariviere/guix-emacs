@@ -9513,17 +9513,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20220810.2348")
+    (version "20220814.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "9022546ebf2f492e9f3ce92e02ed893bcecab027")))
+                 "e2b77ac49cc61c32566f22b84ba304a5703ff7b3")))
         (sha256
           (base32
-            "1zr9lczdr9dfh99n079d5advxm9p32a8f984dx14f3jn5mx750b1"))))
+            "1xymh8nywhb00ylggjfmad1vxqrzw59mzxhd0jhy5c9z8qsvms44"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -27966,17 +27966,17 @@
 (define-public emacs-elfeed-tube
   (package
     (name "emacs-elfeed-tube")
-    (version "20220817.347")
+    (version "20220818.407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/elfeed-tube.git")
                (commit
-                 "79e0dcf45ff2516177b7750396dfd91941156128")))
+                 "395d8add1b090bae075b0f918add0078a2ca9759")))
         (sha256
           (base32
-            "19ilnk5iimx4axaprq48iz3vndjg8x8schdnv0rwkb8yk9v43n4p"))))
+            "1jalkac20c0mbwxcr71l0g0040rfk54qv7x0adqdsh7pdb5xsd41"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed emacs-aio))
     (arguments
@@ -82036,17 +82036,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220701.359")
+    (version "20220818.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "ee06be6d82d36330cf0f96544e7cfcfdc1b7bb02")))
+                 "11577e86e309723943bdf5d66cddbd6ad084918b")))
         (sha256
           (base32
-            "1dnlnk1gin48bc36798y9swj0q96gnsyrdf6sjq7asfm821zv68k"))))
+            "1spismd0vlayi72fg7jk1a6bw80zxdsvj1v0sj888f2byxf503p0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -83753,17 +83753,17 @@
 (define-public emacs-org-super-agenda
   (package
     (name "emacs-org-super-agenda")
-    (version "20210928.916")
+    (version "20220817.2351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-super-agenda.git")
                (commit
-                 "fb5e2ef277bc811a3b061106c99e4c47b6b86f80")))
+                 "fcc860190682274989fef15385c37c02895078df")))
         (sha256
           (base32
-            "1sjx5ahyjpxv5xkxaf1x0p64bjls8ralv9knf80w17nb87dk3p91"))))
+            "1yk2rw6k7cb34j2n0wc0jkdsx8y1aacp865dmjja3jk8n7ab2rrz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-ht emacs-ts))
