@@ -19901,17 +19901,17 @@
 (define-public emacs-darktooth-theme
   (package
     (name "emacs-darktooth-theme")
-    (version "20220817.604")
+    (version "20220817.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-darktooth.git")
                (commit
-                 "c344fc80647338e137cd78a4c30bfad41ab56736")))
+                 "980071d47c8577613e8777d9290919d0a09700dc")))
         (sha256
           (base32
-            "12rv0s8lms9ddzqhdkcrk65ylgp1yzlx6lwamwl7msjay25gmzvw"))))
+            "0y9mcgsxbsbil9z8ai89pq1l0r30clxpvnyz5q5681kjmkbg7qn5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -51772,17 +51772,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220817.739")
+    (version "20220817.1741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "2722899b2d50d388ada55dee0f38efec42aeb3c8")))
+                 "4c4964985a15cfdc3df1344865e21508c902aff0")))
         (sha256
           (base32
-            "0w0djk2f24qxsd05fc71rviy4mi95sf0ik3yn18aysn43407mk24"))))
+            "0h74lq3fdqb5g17a21rnpgw1z3n8aq0wih7g6cdffpyqk7j680gw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -64055,17 +64055,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220816.1419")
+    (version "20220817.1955")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "59e90bbb43f71ec9ba5abf74d5d4fb10f6f10ed1")))
+                 "528aefe83362b7d41fa7fe212033328b7a1577ef")))
         (sha256
           (base32
-            "1702wypma08glj6n5aynyawlycwzj68cc8swq885fm350anmvw5n"))))
+            "1bl9g0d3wzg7zqq3i24hfk7p3bpxl928hm7p00pp6sikncdz1sy9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -66345,17 +66345,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20220804.1946")
+    (version "20220817.1839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "cdb7d32f2195ca2ed8df237aa6826bbd177b2813")))
+                 "887a5a0a296fb361bdc6bb56974a5ac901c5ad21")))
         (sha256
           (base32
-            "000f87v26fdy3ydqiisa53xhrnpf8phkjqxr60wyr8s7r6ng69y9"))))
+            "180p3930kfmdr5isxi3wsslqjb2i1a2sdjf1a1ing8x9f0iplvg9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -94943,17 +94943,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220726.1741")
+    (version "20220817.2017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "23f8f55d3e5ce34b19f74c78928a43914df38696")))
+                 "765af4569eaf93c07c6aecdf7f134022677f9620")))
         (sha256
           (base32
-            "1ar1x8k3pl05zffbz6aj239j22523vgxiiikdxj5515w0rddk06k"))))
+            "0hfkncpz7vl9d2qi8ab9zfdrvjqsw69cw33nwcd2pn1qm08l7zw7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -99805,17 +99805,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220817.1356")
+    (version "20220817.1944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "78a71617b93af24f5fadf61e82ec0b303b994a5d")))
+                 "868757f5675e602d924a15ca7f716fdfd4a873f2")))
         (sha256
           (base32
-            "0c7zr0d3s4pf9nhw3rjg0mm1g04l388kizkkq2bpqr77ikciqm2j"))))
+            "088g6arlbq7czxyg5f31zmcm0gla7qh4vapaaskf6866yyqhizvb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -106083,17 +106083,17 @@
 (define-public emacs-spacemacs-theme
   (package
     (name "emacs-spacemacs-theme")
-    (version "20220430.2248")
+    (version "20220817.1546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nashamri/spacemacs-theme.git")
                (commit
-                 "bd376f705d6eb7afd9a1dfa0c1bd407e869d1e9f")))
+                 "e04d1f21107a1565861625209bb9c46a7aa43cc5")))
         (sha256
           (base32
-            "1kxnnmnj7pbli7lybxvhhd63q376i65il8zxnjig0p13pyh5j1mv"))))
+            "1yz8xg9ni9290nly5b93djkzk9235q6k4lhb5ghs6snr0r39157n"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -109792,20 +109792,20 @@
 (define-public emacs-tangonov-theme
   (package
     (name "emacs-tangonov-theme")
-    (version "20220808.1727")
+    (version "20220816.2316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trev-dev/tangonov-theme.git")
                (commit
-                 "fdef90a7795549181276d51d679eacb6e8e74e74")))
+                 "398ee944df315a321e9a212d65b79b490e4dbb98")))
         (sha256
           (base32
-            "09izx2k8kpcck63qpwjpsbb5952zzynsa9cdbh3irmkkck9i3bnp"))))
+            "1wfsd7vzlxndnlghl6812hn09n4prd5fs6vj55bj0bdbhj706pfc"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/trev-dev/tangonov-theme")
+      "https://sr.ht/~trevdev/tangonov-theme/")
     (synopsis
       "A 256 color dark theme featuring bright pastels")
     (description
