@@ -22883,17 +22883,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220817.1003")
+    (version "20220818.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "04cd900afd4d6c4a393bc041c783e9f613597179")))
+                 "3c3618cd22dec2e6c3eff212ec83a5a0c961836e")))
         (sha256
           (base32
-            "1jva9pvmnkjackd1xlb1h2s55nnsy4dsj66d0z57dfc9mj3jnnrx"))))
+            "1rqkdcyv7hg86nml6qqsgi91w4l06922lc8bzl8k0400p3ylykdp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24994,17 +24994,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220815.1836")
+    (version "20220818.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "e4c756ce350671ea44e5072dae11af77d76c956c")))
+                 "1ee5004ee33ff94f7141210745bfc99e9986f734")))
         (sha256
           (base32
-            "1qidzn5c167rd88x1z75npd1s4m9jlsw265jdsfxrjzj4346zlqp"))))
+            "1nf1h8pwx2kxb1qxagizkff6bfl3pd15ha94mv1xf3bciymgyy5p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -27966,7 +27966,7 @@
 (define-public emacs-elfeed-tube
   (package
     (name "emacs-elfeed-tube")
-    (version "20220818.407")
+    (version "20220818.502")
     (source
       (origin
         (method git-fetch)
@@ -51772,17 +51772,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220817.1741")
+    (version "20220818.553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "4c4964985a15cfdc3df1344865e21508c902aff0")))
+                 "fc44fc1015bbc75d16e7d7aa5d971ff1ad85e9e1")))
         (sha256
           (base32
-            "0h74lq3fdqb5g17a21rnpgw1z3n8aq0wih7g6cdffpyqk7j680gw"))))
+            "1im54c10nv5i0bncdcw8x6mnyy1jh6w9dxg09rkxvy0vjjpv17pr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -64055,17 +64055,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220817.1955")
+    (version "20220818.1211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "528aefe83362b7d41fa7fe212033328b7a1577ef")))
+                 "0b8a9e80602a2a2c7ac34f9ac8c9b374c3e258d9")))
         (sha256
           (base32
-            "1bl9g0d3wzg7zqq3i24hfk7p3bpxl928hm7p00pp6sikncdz1sy9"))))
+            "03faf34alnrwy3v193cadl9b32viql65fwv83mqf34vz7a06ajmk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -74984,17 +74984,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220811.1844")
+    (version "20220818.728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "34aaa9318e15a8cdce584864e186ba33a6a3c9ea")))
+                 "c795a89a9c5a260995b9e5d667e68322bcfaad0e")))
         (sha256
           (base32
-            "1nd3hfkhnmkv53mnyndbf303wj6vdg9ym8rqzcnxlzj6898h0zn1"))))
+            "0rxpi5bxh9ysyihn95ilmpmkidmvb0yy8w851k83b73ggy8jwj1w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -82036,7 +82036,7 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220818.102")
+    (version "20220818.110")
     (source
       (origin
         (method git-fetch)
@@ -83155,17 +83155,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220808.1445")
+    (version "20220818.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "4c9128f8cff3f5393efecf9c7547c630331a0299")))
+                 "a65e3020759ca695c843965295f43d5f3e4fe6c3")))
         (sha256
           (base32
-            "10kmkwyrfklzllgq5a5j5531whsjlq2mba2mh1cd14fvha5dwvd9"))))
+            "14aakjacj296rd2cqm4v2vgwykaaxwr0zgh33y20rygrjx10q18z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -122212,17 +122212,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220723.1824")
+    (version "20220818.1030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "38dab10481c073d71d7edf12a8d52ad5b077e84c")))
+                 "0d6c7fd706e1186b3e4645791ae17f2d741aeb4d")))
         (sha256
           (base32
-            "1nwyh6k44vcsmyv39dfc7hccr5zahl86hc4gsf1vlwb1mihhzgjg"))))
+            "1pqyfy2ps94mzpsl0ncl9lhwsv2g68wh880xlmw4dw3fvbmj7f6h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
