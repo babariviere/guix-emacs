@@ -10810,17 +10810,17 @@
 (define-public emacs-cdlatex
   (package
     (name "emacs-cdlatex")
-    (version "20220816.1400")
+    (version "20220819.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cdominik/cdlatex.git")
                (commit
-                 "cf1dad9f993f619c987d84181167ff937e576909")))
+                 "132176d0c593e23a6e2873a3f43be91739dda75a")))
         (sha256
           (base32
-            "0by31akhdmrpj7sfaq0szm0b37va59zz3c5gscy4h7pxyr67mfry"))))
+            "0jvlyhc9f6maw483jw5cnpfpc07hdi2fn6c0gw2kpjb44d6qzhyb"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -14505,17 +14505,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20220814.1137")
+    (version "20220819.1207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "09bb128cc040e93e2fdd5c52cb9a806d2ed6e174")))
+                 "a96295c055a6938458588b9933e5c0a3fcfae1e5")))
         (sha256
           (base32
-            "0k4v6chl44fqdls1831ag584aqchcl1hdw53i5gwbrpjvq1fmngx"))))
+            "16gxyplplprdj3795s0zq9fliw4zddzw6gz0zqy8rlr5w9da4n8y"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -18287,17 +18287,17 @@
 (define-public emacs-creamsody-theme
   (package
     (name "emacs-creamsody-theme")
-    (version "20220817.356")
+    (version "20220819.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-creamsody.git")
                (commit
-                 "cc16c7ce5d733c5e77ea67342dc655ab8f920684")))
+                 "0823101e9886cc31cc48f2d79f354a4fd2c2b9f3")))
         (sha256
           (base32
-            "0wzp3qlahkxic924sslaj8v9npqcjcw3ff87mr0d697z2g1kbwdh"))))
+            "0z81b1xgyalkws9l4dqncmssm98n8c3rzbkhcxisfhv65qpyzci0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -19258,17 +19258,17 @@
 (define-public emacs-cyanometric-theme
   (package
     (name "emacs-cyanometric-theme")
-    (version "20220817.442")
+    (version "20220819.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-cyanometric.git")
                (commit
-                 "7911a3d428d616108a49be22b1f05b57321c1c72")))
+                 "fdc2dfea745847efb11d5795b2397a2af9bdd05f")))
         (sha256
           (base32
-            "15v9sb30fh1al0cq4zmmiqvb1fim61rn3z4kzagcmppmi5dzph18"))))
+            "0am3kz9yiwf99gkrkfjdrr9rx7hd01p68xdz51n3brbxdcxw4rl3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -19901,17 +19901,17 @@
 (define-public emacs-darktooth-theme
   (package
     (name "emacs-darktooth-theme")
-    (version "20220817.1429")
+    (version "20220819.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-darktooth.git")
                (commit
-                 "980071d47c8577613e8777d9290919d0a09700dc")))
+                 "d6f3876d686b9af5a5eb80bc55ae3d17f8ec42b8")))
         (sha256
           (base32
-            "0y9mcgsxbsbil9z8ai89pq1l0r30clxpvnyz5q5681kjmkbg7qn5"))))
+            "1gkkrnz8q6jdp6f46b3dpfxnj7f63xa0icva2m8gy2jiz2v67h4z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -22883,17 +22883,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220818.1708")
+    (version "20220819.639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "d12056285ac549dcfcea560de8402ebdddeb2700")))
+                 "1534845c8cadd933ad8ab91a3ceebc35361575e8")))
         (sha256
           (base32
-            "0sfy9ch3skd19ax7r2r69g68y0930mfxv3cawrq18b7vv4zd0s1p"))))
+            "0p1b2b6q2vk3bai46812kjfvqmmpfcjkz8bdsckxym9xrrjvjfz0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -48152,17 +48152,17 @@
 (define-public emacs-gruvbox-theme
   (package
     (name "emacs-gruvbox-theme")
-    (version "20220813.1233")
+    (version "20220819.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greduan/emacs-theme-gruvbox.git")
                (commit
-                 "e9f8e6ee52727f6008c125b71a26c80cfa59c0af")))
+                 "ea49242ac449d1263c274cd85f356148b5aca1cf")))
         (sha256
           (base32
-            "1dzaivis9cpqzb53qmkmhijr5l4hl2l3yr2412jxrz2jmqi3q4c5"))))
+            "0w5dm66634sd79gv41jk87kvab4gz714dlak9qbk7vsa6wckrvh1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -49410,17 +49410,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220816.1013")
+    (version "20220819.1346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "451ba2d62512ed9178391a04cd458c07840a5eeb")))
+                 "87f32186458d909f62ea6d3b9c97b0a1a1aaeb9b")))
         (sha256
           (base32
-            "16y4935110l43s7fiixn155nbpl9gg9h6b14fydj1s8w9ikkyni5"))))
+            "1n7705swvks7lzjksmwjcb064744zcjlxrpi17rqkamgdfb66nsr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50218,17 +50218,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220818.1631")
+    (version "20220819.647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "292ddf32ba03361468e78cdf77ee5902e7e75842")))
+                 "87f32186458d909f62ea6d3b9c97b0a1a1aaeb9b")))
         (sha256
           (base32
-            "0r5igb30jwanhfivjzj7zhgl6dkgq10dnpiykl9rm060i4qkw1n7"))))
+            "1n7705swvks7lzjksmwjcb064744zcjlxrpi17rqkamgdfb66nsr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -70580,17 +70580,17 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220810.1258")
+    (version "20220819.722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/mastodon.el")
                (commit
-                 "e4443ee61505b82f967dd4cb2d2cb5af999d4a41")))
+                 "b8838b8a2fb8932227c4daf2cf823ad9d0e1eea6")))
         (sha256
           (base32
-            "11662fj81kb7wb4c0zy18liq1s9y52sgb05xha7wqg4ngkw6dxwx"))))
+            "0s52w53dc4sci119cz80nbpnqnhg3iikyxagq4idzlg6xyhcyqz4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -72906,17 +72906,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220815.856")
+    (version "20220819.1229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "7e08e8b8e5d5a3d4fc4d73544603feca2729db20")))
+                 "e85d2c14dcc16c265339e48c697e281776336ada")))
         (sha256
           (base32
-            "037mkkhh5jp5q6jqisn2s42kr7ksh29a6q8knm213rh0g882lzyc"))))
+            "07gab565sgzlw8afcmf9a6sk5b6d18ij6w9by2njfxhsal7qdzk1"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -80268,17 +80268,17 @@
 (define-public emacs-orangey-bits-theme
   (package
     (name "emacs-orangey-bits-theme")
-    (version "20220817.442")
+    (version "20220819.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-orangey-bits.git")
                (commit
-                 "7277c5d136098c0ba0b7d56307c209b62051b970")))
+                 "d1499dec435e953db6f4ca15e3b25c2dcfb8df21")))
         (sha256
           (base32
-            "1v0aiszkqh04i1dz4ziixy0qzmqxnziknamgpvdy7kby6ccji8ym"))))
+            "0kwwyczdvaymi2mf6a7kzxf3xq4c6yw7ycyc0qxm9ycspm5zwnn0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -82036,17 +82036,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220818.110")
+    (version "20220819.1120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "11577e86e309723943bdf5d66cddbd6ad084918b")))
+                 "e72fa7a1a4d2750e1680eee69296e11c23805681")))
         (sha256
           (base32
-            "1spismd0vlayi72fg7jk1a6bw80zxdsvj1v0sj888f2byxf503p0"))))
+            "136333md6gq94920ll6ysbg0bh47mkrc0xa2rsy7s8rpgqd9zhj6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -82894,17 +82894,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220815.2116")
+    (version "20220819.838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "6257ae83044aa9fcd5c2ddffbd2f73f2b235f905")))
+                 "d7ada532c7d06e91d6e07800ca22d5fbdb970e3e")))
         (sha256
           (base32
-            "0y108yzcdwbrsswik04gx1inrq7imlwnc38q5dwx19c97s68l8xs"))))
+            "0nj1dvg30wj84ayqkjifxi1h0g1kjkm6nhhq59w13pkl2q0w5ygw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -99759,17 +99759,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20220626.1126")
+    (version "20220819.1203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "7bff48894dc532caf4010be3060370d315ef75f6")))
+                 "894487d44c1664a9005cafd625fa99b54ff66c85")))
         (sha256
           (base32
-            "0sjhssxaqdd9mayfcjaf6pb0z4sv0xm5wjaqmk6wdmh543m2v1s8"))))
+            "0dwxf634d1wsnw85iyrxdcbbrqvcsk313bh53mhzmpljsyhinzzw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -100061,17 +100061,17 @@
 (define-public emacs-sakura-theme
   (package
     (name "emacs-sakura-theme")
-    (version "20220817.437")
+    (version "20220819.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-sakura.git")
                (commit
-                 "a98fbadcfc1e3abafa24a6f1826840867ba75506")))
+                 "ea8267d7c32387b50193fa88270973444bbb3d56")))
         (sha256
           (base32
-            "0ig6wqhk7rxyky1077wfs8ryyv7m0zsjqsvwshi1fkxg8q7p5pj0"))))
+            "1c4xqwznmcpmww455rmglpkc99fvzaibp412sl5gj1nrzrajysmk"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/emacsfodder/emacs-theme-sakura")
@@ -105678,21 +105678,22 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20141027.1441")
+    (version "20220819.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "0786fe70c6c1b4ddcfb932fdc6862b9611cfc09b")))
+                 "66399ec22040b7a310a24707867ee6df625fd311")))
         (sha256
           (base32
-            "10gh1hvxq9gm29r6qzlnva7vjidd7n4kih4z2ihyvbvy9za20xqw"))))
+            "0kf2yc2yzyk4d73x59ijv8fc247jkinp6dlzdmrxsmsdw46c5p44"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-autothemer))
     (home-page
-      "https://github.com/jasonm23/emacs-soothe-theme")
-    (synopsis "a dark colorful theme for Emacs24.")
+      "https://github.com/jason/soothe-theme")
+    (synopsis "A dark colorful theme.")
     (description
       "Documentation at https://melpa.org/#/soothe-theme")
     (license #f)))
@@ -116173,17 +116174,17 @@
 (define-public emacs-vegetative-theme
   (package
     (name "emacs-vegetative-theme")
-    (version "20220817.442")
+    (version "20220819.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-vegetative.git")
                (commit
-                 "1223929991baac345cffc0687599399af90172cd")))
+                 "ad0ab4aae06bb7113cc23fbaca7c8621c81e134e")))
         (sha256
           (base32
-            "015amvaal9y46dx5v433b9f54c9bnzmz8vp73h3frc4x3j7w1zd3"))))
+            "16kwq9950b22z6336mk9bw66li6147j8bw0hlac0bmmvh66sbyq1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -117948,17 +117949,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220810.1453")
+    (version "20220819.1128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "d8258fb33cc1918a2d83ff637157061e804acd6f")))
+                 "38ed4c575939083487e8abe59240d0ce4f671c93")))
         (sha256
           (base32
-            "110d95di7qc5p1m800wd29ar0haydg2jhn1x4jm11d44da53vxix"))))
+            "09dn3n8i54bgp0a4j9kbld7ykcdjlph9cdgsggc6h4vqiz8qpy4a"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
