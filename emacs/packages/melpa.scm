@@ -58380,17 +58380,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220812.634")
+    (version "20220819.28")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-theme-inkpot.git")
                (commit
-                 "c7c3009180ed0d73d88741a0b40ade722bb9da45")))
+                 "4a488ddf2cd47949ee627af03743f66ee91177cd")))
         (sha256
           (base32
-            "0rh38ikgn8v5zi3f580bawyakzw3r4akmffsr43zh5b1ij7hhzfm"))))
+            "1byl4lrd82y7wr98c3bljfv9q1cpi44j7r7cjx37wmkfp464gq68"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-inkpot-theme")
@@ -68020,17 +68020,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220818.1233")
+    (version "20220819.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "76918fa08b27923283bad4efd322d17807d958f3")))
+                 "37c2adffc270f0fdf02f6bf203ce150b5a114fde")))
         (sha256
           (base32
-            "1766f1i8ff6gx1zrh3yazbalb9kgbpwgclal15y1j9m3j210zwvf"))))
+            "0jjl1g091nhrj17dwipw7wk6209fmgc82nxjyc89g23f2vycmfhd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71935,17 +71935,17 @@
 (define-public emacs-mindre-theme
   (package
     (name "emacs-mindre-theme")
-    (version "20220725.1404")
+    (version "20220819.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erikbackman/mindre-theme.git")
                (commit
-                 "b8a2942524c75aa94505ee05c82ecfb803f04f7f")))
+                 "9fd58e5d60d786451bf2d2836947d0c7ab25c896")))
         (sha256
           (base32
-            "0svnmxmr1wip6f6aq6j8mg4w155znmkm8mmk70k4kl92dc9l2f6i"))))
+            "10dvknibjk79as96j8ghxv4zy4s44p9v4v4465912wlzari29zs8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/erikbackman/mindre-theme")
@@ -87392,17 +87392,17 @@
 (define-public emacs-paperless
   (package
     (name "emacs-paperless")
-    (version "20201130.1241")
+    (version "20220819.226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/atgreen/paperless.git")
                (commit
-                 "2db39586a2914f78f345379511d0e8cea4c96b86")))
+                 "f230acbc01588bb2ec99426832099b7fb7bad6c0")))
         (sha256
           (base32
-            "03ckcbhpiys3p0jambrlcapba6sv7jn101kikvj2jp66vygdnsn0"))))
+            "1glxxmm28w7yklr86m743mg068k24hbnvfx6xyb48d3fq568r2d0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page "http://github.com/atgreen/paperless")
@@ -97878,17 +97878,17 @@
 (define-public emacs-repo
   (package
     (name "emacs-repo")
-    (version "20191201.38")
+    (version "20220819.707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/canatella/repo-el.git")
                (commit
-                 "7b3ce731f1209d74113cb65a2d6aa6f54ce8ed27")))
+                 "b874903f43fc0a33a687789d674cacc2accf2403")))
         (sha256
           (base32
-            "0jgiawdnzjlrpx2j1y6djwbqncdpmyfd31q1qf1890049y8ppxnb"))))
+            "1lplrqdlpja33jy4nc08w7qprfpc463jk75fbzkgpn4rjjby8v2x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/canatella/repo-el")
@@ -110091,17 +110091,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20220817.558")
+    (version "20220819.506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "a9541174c796056acfb76898d9d07a6737835e4a")))
+                 "42a0dd0e30a82a8e34eaccf6e7a1366f4621d49d")))
         (sha256
           (base32
-            "17g29m4kian587fjx2m8mq0w5cgivr581hqmhfxwh5wx9bfd4055"))))
+            "1psgkb2k5w1f3r6ik4gby9w5qinhwdimb6yhsqz06y9a2d9g97rm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -115188,17 +115188,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20220809.42")
+    (version "20220819.553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "e5f64cc6d9d0df3721b319eeecca1f4f49ea86a3")))
+                 "e2d173b1200865a9efd5c2066831a230497582c0")))
         (sha256
           (base32
-            "1108x07jf9cfgi5wyy18v0dr6vjpssl19032q9g0vci5mpi5k123"))))
+            "1m5987l96xlpxz0aiczc1nifrsjh33z9z7biryb47khdgizhy931"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
@@ -120075,17 +120075,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220816.807")
+    (version "20220819.541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "42271d2def58b441389d6f6d343cced314b9f308")))
+                 "64faa3d60f3db1da3bad4011654d5c2a70718b7c")))
         (sha256
           (base32
-            "18xb5qhlnvp841jsdlyh5v9j8mpzzjqnhc089vvqv7wdacrcc96x"))))
+            "0n6p3np3f1vc7vxy6542c87w7bmaakm3nkq0z3v728k4adajs05a"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
