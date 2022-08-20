@@ -4304,17 +4304,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20220819.1556")
+    (version "20220820.530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "370ead445f5d0fc21b7338e05a64830c410368a3")))
+                 "73f825fd739875e4b8e10d47d497df402bbb61e7")))
         (sha256
           (base32
-            "1q480ss2jgijdpy6pa4xrjni9pf5q6dwf8hv052fhdpi55bmfdn2"))))
+            "0rha8s43hx1angz37a80d38m9hlwwl900hy8cljfy2a4cx16h67r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -12270,17 +12270,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220809.2249")
+    (version "20220820.1409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "beb9ce96a083d5cbd3bd5ccdce4cd199424def1f")))
+                 "731c0ae81aecca94f7dcc4f2dad51a0cd1c3de68")))
         (sha256
           (base32
-            "0avbw61wsp8459cwclznjb9kdk0bdgcbrnn0mvqckhimzlswlmwr"))))
+            "0ng128j689h6q2hqfizrcnj5b927br363qajnqg2n194s5k997zc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -19738,17 +19738,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220818.1830")
+    (version "20220820.923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "192c4e1fbc01506221fe6ecf259a1f5283bb80de")))
+                 "61c8825fd5743139f4b7d8dc93ffbdbf3b2a592b")))
         (sha256
           (base32
-            "1qnjg7y65dizn8kb7c2v3jb6z4zyj818p7lpkj31bcp94bcrzakx"))))
+            "190cirmxxg17vb2qjrfx10sgwd43mz2yjhgrx5kkkdccng2w4fh9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -23921,17 +23921,17 @@
 (define-public emacs-dockerfile-mode
   (package
     (name "emacs-dockerfile-mode")
-    (version "20220813.5")
+    (version "20220820.1433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/spotify/dockerfile-mode.git")
                (commit
-                 "73a8bcc25547b874e1983a75901f6c31708cd104")))
+                 "5e7096d451380d4b9a53dff2894adbe3590aae9f")))
         (sha256
           (base32
-            "0bv19mii4h47jllps72h69nwrlbfvwxgca1cl4cdxvpx0zkr6qx7"))))
+            "1ywwsdrjis4v21jlkm69j8l0kzp1sz6mbf8m3yvlcx2h9ciadc99"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/spotify/dockerfile-mode")
@@ -25041,17 +25041,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220818.739")
+    (version "20220820.1006")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "1ee5004ee33ff94f7141210745bfc99e9986f734")))
+                 "064af9227d6be97d9c4d18ee0d114ccefdb9d414")))
         (sha256
           (base32
-            "1nf1h8pwx2kxb1qxagizkff6bfl3pd15ha94mv1xf3bciymgyy5p"))))
+            "149jzxjj8bbd075hv68z8291amgkls4kpqvm1sjkzvi73m6naq3y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -52523,17 +52523,17 @@
 (define-public emacs-helm-projectile
   (package
     (name "emacs-helm-projectile")
-    (version "20220807.350")
+    (version "20220820.826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/helm-projectile.git")
                (commit
-                 "6dcc543815984f7f40e99050b1ee3b68a088e160")))
+                 "5813f7286533990783546c9c39c184faa034d1f1")))
         (sha256
           (base32
-            "0xhf56p3svl9bs2gc2sj1i3k6y3wrcbrrh3jfr09pxziffj0300z"))))
+            "1qrdms3lmr7wspqhd0ygqmyznlc6spy2lnn1n8p4v495nzdygzdh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm emacs-projectile))
@@ -68769,17 +68769,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220808.41")
+    (version "20220820.1110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "4e5e80721df474d1a4fa8c8ad4123d6435b8b4ac")))
+                 "a3d554e2d9d7900fc4723c1ef8d6941d0f65b010")))
         (sha256
           (base32
-            "1wb56g1xd0avby1hqxk7q71fbdnaxqhaq1gmc8zcxlr3adip4lna"))))
+            "033cvbx6kh77g8l93syzbsr8vr5mqk4d3l43z7qaahgm8yvymisd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -70627,17 +70627,17 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220819.722")
+    (version "20220820.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/martianh/mastodon.el")
                (commit
-                 "b8838b8a2fb8932227c4daf2cf823ad9d0e1eea6")))
+                 "448b9e5a757b4ebf617a8ff1f04b9643f086672e")))
         (sha256
           (base32
-            "0s52w53dc4sci119cz80nbpnqnhg3iikyxagq4idzlg6xyhcyqz4"))))
+            "1hd8289xb2k36xgf7j2yq3ivmzwsy78bkgg8lglgyl1aqzm73lmr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -105747,17 +105747,17 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220819.1723")
+    (version "20220820.919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "14f5ed4eafdfc2e2b59b8a61c551ba1ba327ba66")))
+                 "5175431a82a5a50aede09087a94a2bae59dd67d8")))
         (sha256
           (base32
-            "097dpyq474fflws8yfbc5h0wpzbnaznmj3jjhh6qws0d5yrcnwmw"))))
+            "0s14wz65q8lasp5rdi8jrj2384y2bq6b2zlrsf4h18l91vwl5hfy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -117186,17 +117186,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220613.1614")
+    (version "20220820.1244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "3155a477b43c1567d754768f5be79296440ebaf8")))
+                 "52ae56f0b2d40403938a226e4df95a0f433306cc")))
         (sha256
           (base32
-            "1pki7ih33n09k0q23053xc6vwn9gcvas91g3z5y19b9c5nr9b1sr"))))
+            "03xrdlsbgykbnyns7vwnsn59kgy7i4ysxp7faz3xnzxq6s24sv0i"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -122282,17 +122282,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220818.2040")
+    (version "20220820.1139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "a09458d32f22e731e2bcde50adc3aa4f03ec0832")))
+                 "f376b64ec4ef975ef076ba9c5f64d2716d3adb32")))
         (sha256
           (base32
-            "0saw39nm234a294m245gzcqvki5qshyg3rkb5gxnxabmdhy25y5m"))))
+            "0q1407cp8ry1p0q9cxsqpf0f5r25cyrx94gpxkx4l69zm6w2l47h"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
