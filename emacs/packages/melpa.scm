@@ -2201,17 +2201,17 @@
 (define-public emacs-alarm-clock
   (package
     (name "emacs-alarm-clock")
-    (version "20191204.716")
+    (version "20220819.1538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wlemuel/alarm-clock.git")
                (commit
-                 "644f331071f8b09a898fae490541908b5054d2e6")))
+                 "2ca4e5177d2ca9a21fa52f4b4b75711617d5424c")))
         (sha256
           (base32
-            "0yf2mikpxnfl673rv0w7xp1cvlkgvlmzgaixva3ppz6f0wg3vgz6"))))
+            "08wdycs32krva7y9pbb24rj6srp4s302nlld5003idd5h5ds3xcv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (arguments '(#:files (:defaults "*.mp3")))
@@ -4304,17 +4304,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20220807.1541")
+    (version "20220819.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "6d164db151c4ab68242662342f71741b8594762f")))
+                 "370ead445f5d0fc21b7338e05a64830c410368a3")))
         (sha256
           (base32
-            "08njlpivli93jc8z5sklwas6m1mjizsn8m46dfsswwnxpsl3zsd7"))))
+            "1q480ss2jgijdpy6pa4xrjni9pf5q6dwf8hv052fhdpi55bmfdn2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -10202,17 +10202,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220815.1640")
+    (version "20220819.1710")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "f632114f7df0dfd53c2147509cc351e5c857df8d")))
+                 "f360464007386b36952b4c3ba0a977f056d0ee19")))
         (sha256
           (base32
-            "0ax662w9rbriimcq9k494i3vi4n4aifay5w986gcpqwlh3qrs5hm"))))
+            "1chf8yqpi4hjd98gm27gzx72j7grhy7zf447cynhphl1lvp9fa96"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -18608,17 +18608,17 @@
 (define-public emacs-csharp-mode
   (package
     (name "emacs-csharp-mode")
-    (version "20220817.712")
+    (version "20220819.1351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-csharp/csharp-mode.git")
                (commit
-                 "7d7bf8895ba7d34f941169be69a8abaaf7e044ca")))
+                 "6e9d1f6b9900d3b8aa4106abf84a89311dfed85f")))
         (sha256
           (base32
-            "0f3xnci4vzmc7kkhwxqjhpj4j8yzc1gbz3bdw5f588hi3q51q4z9"))))
+            "1shyv3lkilbglqlg0mzaz9aslx3xg9gjp63phdvhsgafvwzpi254"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-csharp/csharp-mode")
@@ -22883,17 +22883,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220819.639")
+    (version "20220819.1634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "1534845c8cadd933ad8ab91a3ceebc35361575e8")))
+                 "01a77bd6578812d160495e848d28149c0afdd93d")))
         (sha256
           (base32
-            "0p1b2b6q2vk3bai46812kjfvqmmpfcjkz8bdsckxym9xrrjvjfz0"))))
+            "0w96c928g0h6yqkixsb25wcml03pci9s698a9dxa5bb0pcp4lpv8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -34284,17 +34284,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220812.1331")
+    (version "20220819.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "0df263f83ce7d756bbb8cead8ffc9c3b13399b4a")))
+                 "f0b887faac1eb1f964e11745e63c1ef53398a7a8")))
         (sha256
           (base32
-            "0pxqydmmjpn5dq991yaq33m99kpm4dd7j4k3d7gw6gf5wms3kinn"))))
+            "1y2gvf0l6g8gr8kkgy0mi098l5dh2hkmx8nsqid319zr8d4i6cd8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -105678,17 +105678,17 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220819.1453")
+    (version "20220819.1723")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "66399ec22040b7a310a24707867ee6df625fd311")))
+                 "14f5ed4eafdfc2e2b59b8a61c551ba1ba327ba66")))
         (sha256
           (base32
-            "0kf2yc2yzyk4d73x59ijv8fc247jkinp6dlzdmrxsmsdw46c5p44"))))
+            "097dpyq474fflws8yfbc5h0wpzbnaznmj3jjhh6qws0d5yrcnwmw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
