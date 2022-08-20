@@ -12320,6 +12320,30 @@
       "Documentation at https://melpa.org/#/citar-embark")
     (license #f)))
 
+(define-public emacs-citar-org-roam
+  (package
+    (name "emacs-citar-org-roam")
+    (version "20220815.114")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacs-citar/citar-org-roam.git")
+               (commit
+                 "4325e648c228269e519c322d696846a6c1f42f99")))
+        (sha256
+          (base32
+            "0rr5sbl1fcd286h4vbg1b3q1r74l26670bhdx0pialr7rxp67i57"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-org-roam emacs-citar))
+    (home-page
+      "https://github.com/emacs-citar/citar-org-roam")
+    (synopsis "Citar/org-roam integration")
+    (description
+      "Documentation at https://melpa.org/#/citar-org-roam")
+    (license #f)))
+
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
@@ -13764,6 +13788,29 @@
       "Core support for managing codesearch tools")
     (description
       "Documentation at https://melpa.org/#/codesearch")
+    (license #f)))
+
+(define-public emacs-codespaces
+  (package
+    (name "emacs-codespaces")
+    (version "20220815.1146")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/patrickt/codespaces.el.git")
+               (commit
+                 "d08f0b2dff808f308cf92c3d70417e525015e97a")))
+        (sha256
+          (base32
+            "1rgjsw32s5gmm0bij9cs8hi27m065s6nzniymrzhwravf138kpmp"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/patrickt/codespaces.el")
+    (synopsis
+      "Connect to GitHub Codespaces via TRAMP")
+    (description
+      "Documentation at https://melpa.org/#/codespaces")
     (license #f)))
 
 (define-public emacs-codic
@@ -16961,17 +17008,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220816.1937")
+    (version "20220820.257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-recoll.git")
                (commit
-                 "6d71139e4282a13d94f2ad43fc0bd1fff153d18b")))
+                 "22d061c84312445621e2140ff7175db57d545b03")))
         (sha256
           (base32
-            "1nx437ajg0n07rlx57w8apdmmmab1s8cfwbskx5n75xxdmcv2fzg"))))
+            "0lfimyx4lqhb8vlaz9mm7qwcg3cxgv3kf0hdziwndgg9j27lcqz4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -78753,17 +78800,17 @@
 (define-public emacs-ob-restclient
   (package
     (name "emacs-ob-restclient")
-    (version "20220618.2139")
+    (version "20220819.2228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alf/ob-restclient.el.git")
                (commit
-                 "3ac834b02b8276aae1b760312612c3b940598f90")))
+                 "1b021ce1c67c97fa1aa4d2c0816edb7add129e48")))
         (sha256
           (base32
-            "10x1ll090ihgjgzr76194mfc1z7yh3sr19dh0h561910gy97w2wk"))))
+            "1bcjj01q5n9w2cch6brbz8pzwnwsmdlgaa4sf5s97b9frmqb2ffg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-restclient))
     (home-page
@@ -82036,17 +82083,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220819.1120")
+    (version "20220820.330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "e72fa7a1a4d2750e1680eee69296e11c23805681")))
+                 "f0a52b3da11cb12cdff61908c6a2766e1b12daf2")))
         (sha256
           (base32
-            "136333md6gq94920ll6ysbg0bh47mkrc0xa2rsy7s8rpgqd9zhj6"))))
+            "1llfm31wkq0dhg62854vz4k6nldly67shk0vjn29fandh453r7j4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -83912,17 +83959,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220723.758")
+    (version "20220820.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "b9c6ffcc206ffaeafbe6e3ef9561ce6a8e0f30ad")))
+                 "28eceb17131a4a5de79ce06f867bce49d1a04b78")))
         (sha256
           (base32
-            "1apxxhjmz04myl99fm88la941n69a5sw6pkcxaz7svga1cnpdj9l"))))
+            "0smsww8k9vpz0i0sxlw1ys49zrdgl88yxz4iw832p3c6k0hpp0sd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -84461,17 +84508,17 @@
 (define-public emacs-org-zettelkasten
   (package
     (name "emacs-org-zettelkasten")
-    (version "20220817.1044")
+    (version "20220819.2335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymherklotz/emacs-zettelkasten.git")
                (commit
-                 "7278052cb451178a2f1ffc61569156ca0adcc34a")))
+                 "505fd41dea012e743962c3a376c1e63e7a1e127e")))
         (sha256
           (base32
-            "0h2sjp5jl5j5asz3pvv3widvwj75nq55x2ps2bgg8hqm0g6sjdb7"))))
+            "13pf2ygyizqk3axfl7s246an9w1ih38jq1knzy5f4qn2pf5k2zjs"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-zettelkasten.el")))
     (home-page
@@ -91894,6 +91941,28 @@
       "pow (http://pow.cx/) manager for emacs")
     (description
       "Documentation at https://melpa.org/#/pow")
+    (license #f)))
+
+(define-public emacs-power-mode
+  (package
+    (name "emacs-power-mode")
+    (version "20220817.429")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/elizagamedev/power-mode.el.git")
+               (commit
+                 "313698d9c7766c17b077a70b31a2d0f52496d767")))
+        (sha256
+          (base32
+            "1nkqn8jmnv4l2ydj9jipk3mz76kbz1gfk3iz986wgj8h2317vbzy"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/elizagamedev/power-mode.el")
+    (synopsis "Imbue Emacs with power!")
+    (description
+      "Documentation at https://melpa.org/#/power-mode")
     (license #f)))
 
 (define-public emacs-powerline
@@ -111402,6 +111471,29 @@
       "Documentation at https://melpa.org/#/tile")
     (license #f)))
 
+(define-public emacs-time-block
+  (package
+    (name "emacs-time-block")
+    (version "20220817.1343")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://git.sr.ht/~swflint/time-block-command")
+               (commit
+                 "4b2fa8a5f76aabeb26a121650d0f843a9b6933d2")))
+        (sha256
+          (base32
+            "0qgyr55aaqgnbn897h3yxhy776y7xbwmbyywycs9px033pbcpf7p"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-ts))
+    (home-page
+      "https://git.sr.ht/~swflint/time-block")
+    (synopsis "Block running commands using time")
+    (description
+      "Documentation at https://melpa.org/#/time-block")
+    (license #f)))
+
 (define-public emacs-time-ext
   (package
     (name "emacs-time-ext")
@@ -118181,17 +118273,17 @@
 (define-public emacs-websearch
   (package
     (name "emacs-websearch")
-    (version "20220815.2237")
+    (version "20220820.426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-websearch.git")
                (commit
-                 "4904103478aa0aefbbb225182c9a9a58306ea406")))
+                 "d3211664727c03d1aec36f4c10fbd5a6e92ffc63")))
         (sha256
           (base32
-            "0qqljfgyadw6wr918sghc29pdvchl6pv5chpnsqz0m64faixbly9"))))
+            "1dsl48hnzkwxgwapqfqbm9pqw60sc88whdp4gm7gcslnm3j2qyaa"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/xgqt/emacs-websearch/")
@@ -122065,17 +122157,17 @@
 (define-public emacs-zettelkasten
   (package
     (name "emacs-zettelkasten")
-    (version "20210830.1025")
+    (version "20220819.2351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymherklotz/emacs-zettelkasten.git")
                (commit
-                 "7278052cb451178a2f1ffc61569156ca0adcc34a")))
+                 "505fd41dea012e743962c3a376c1e63e7a1e127e")))
         (sha256
           (base32
-            "0h2sjp5jl5j5asz3pvv3widvwj75nq55x2ps2bgg8hqm0g6sjdb7"))))
+            "13pf2ygyizqk3axfl7s246an9w1ih38jq1knzy5f4qn2pf5k2zjs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (arguments '(#:files ("zettelkasten.el")))
