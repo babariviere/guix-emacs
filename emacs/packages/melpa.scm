@@ -74551,17 +74551,17 @@
 (define-public emacs-multiple-cursors
   (package
     (name "emacs-multiple-cursors")
-    (version "20220613.2122")
+    (version "20220821.932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/multiple-cursors.el.git")
                (commit
-                 "225fc0e889e094bfd2913cfd448084cb49211ac6")))
+                 "1e4842d1297241a5277bfd5c7bfab9e8711da60a")))
         (sha256
           (base32
-            "0j0958ziik1wpdxb4clyxcl1fzs6ar51vlk8rrqdzwb8if8h9z21"))))
+            "0qrkgbihbax422x0y0hhdx9aflplp4cbc089ry3dbzyl09s7mwfl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/magnars/multiple-cursors.el")
@@ -99688,17 +99688,17 @@
 (define-public emacs-run-command
   (package
     (name "emacs-run-command")
-    (version "20210529.1505")
+    (version "20220821.1421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bard/emacs-run-command.git")
                (commit
-                 "ce2d69feeffb9ef9815ef5b5e32f236763197a10")))
+                 "0ac25bc1acae652ffb58c48a3853cd1dcd7b40a4")))
         (sha256
           (base32
-            "132gsmgqnfzx8q0f4gchjzhm3wqm5frjrsb8q9cmqsa5y2g7qjmf"))))
+            "0c455f4jv0c2mmvk37s3cs56gbxbw3h6lbc53q76xnm16hg8b0nv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bard/emacs-run-command")
@@ -105769,17 +105769,17 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220820.1737")
+    (version "20220821.1259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "0cee7400ebc565ce3c2fb81a810062205385aec4")))
+                 "d83780156ed74ccf13f73f4db8065aa8edfe0801")))
         (sha256
           (base32
-            "1say7znvihb6vivljn8ldr2lj6ps50x5pih9k0b390v1dan78ywd"))))
+            "1jqhfq14b38n6qmw5l5hl3f7l0dgyp6ambi61j0dqr5cqdamwws6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -111496,17 +111496,17 @@
 (define-public emacs-time-block
   (package
     (name "emacs-time-block")
-    (version "20220820.1608")
+    (version "20220821.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~swflint/time-block-command")
                (commit
-                 "f679d7a9d369ca8ccd72f2fc8a0a3d40121648a6")))
+                 "4ac663b5196567326b82fe76c9930c116bed5596")))
         (sha256
           (base32
-            "0sxcjvd26aikh78bgv7dbidm8cry7901hsbkcmqpvqv9fb1k2arm"))))
+            "0w1iqzdy0zf885wcag77jb21snx2k5wy4m3ckdj24gnjsa6r6inj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -113114,17 +113114,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20220508.636")
+    (version "20220821.1313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "deb2d8674be8f777ace50e15c7c041aeddb1d0b2")))
+                 "5c6900a66a6b3a5d4ae6bde5199b5288c09af43b")))
         (sha256
           (base32
-            "1p2zbb6ac7wi6x6zpbczcmpkb2p45md2csd2bj43d8s56ckzw5mp"))))
+            "0arj78dbinvki0yvgmj4p4blf9gb2c140sgphddnzfh134lvpkl9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
@@ -120328,17 +120328,17 @@
 (define-public emacs-xenops
   (package
     (name "emacs-xenops")
-    (version "20220421.1320")
+    (version "20220821.1111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dandavison/xenops.git")
                (commit
-                 "a2c685b3bb2257da49af771caa02325aa41fa699")))
+                 "4d75c1cd5ee7afba62af3a39a1f43432b295c29c")))
         (sha256
           (base32
-            "12iy5fk3vz4rfyw848nb9dnnc4l338s9wm981w17k73wf37gnv89"))))
+            "11sxypdpf31hmimskqqg9fd6qnycmx9wr2274ghws9l7mn20df60"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -120347,7 +120347,6 @@
             emacs-dash
             emacs-f
             emacs-s))
-    (arguments '(#:files ("lisp/*.el")))
     (home-page
       "https://github.com/dandavison/xenops")
     (synopsis
@@ -122327,17 +122326,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20220818.1030")
+    (version "20220821.1327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "0d6c7fd706e1186b3e4645791ae17f2d741aeb4d")))
+                 "843e33acaa8e0a2caa8cd5fbbcc7ab66693efe06")))
         (sha256
           (base32
-            "1pqyfy2ps94mzpsl0ncl9lhwsv2g68wh880xlmw4dw3fvbmj7f6h"))))
+            "08ijhxd45gv4glfihv8m6r12ypjmr4gdfpyi09lyn7j3jw2m1wqp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
