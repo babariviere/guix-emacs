@@ -5676,17 +5676,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220809.906")
+    (version "20220821.410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "3223cd8867fb75a109e41ccce98ab0e89d0a4f1b")))
+                 "f1cf7b8d918d5bcc52c2769c774104b5938a6f85")))
         (sha256
           (base32
-            "1rwz8hdmycmvak1w5sriwf1pwahham77vyab6jngdw8x9ngxabnx"))))
+            "1zrm09lzl5s3l0rnzihj9azj1n1l214r6lrmp9yqj7sm7y1xjf0c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -6444,17 +6444,17 @@
 (define-public emacs-base16-theme
   (package
     (name "emacs-base16-theme")
-    (version "20220725.353")
+    (version "20220821.127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/base16-project/base16-emacs.git")
                (commit
-                 "36cd6ed044ee37e399fc5d0db8070ae79fb06800")))
+                 "d70a96152a3d2d66776012ec7e578f93d7c6aa2c")))
         (sha256
           (base32
-            "1v0i80iydmzrd8z1ri1dmg9bqj13xvr21lwvaqpq9jxh7iq1b9a8"))))
+            "0cn3pbsjyksi1a8hvvm1s3xyanbv5yw71l4ik349ilf7k9l7n23d"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "build/*.el")))
     (home-page
@@ -22952,17 +22952,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220819.1634")
+    (version "20220821.527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "01a77bd6578812d160495e848d28149c0afdd93d")))
+                 "5a61c8bb5aa350c9b5e4da8ee788be4922144281")))
         (sha256
           (base32
-            "0w96c928g0h6yqkixsb25wcml03pci9s698a9dxa5bb0pcp4lpv8"))))
+            "1jvxgblzjzh5j3yhz1pcn0lr6kc0m2y4yh2a0q5r35pcm8wgqv41"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -43412,17 +43412,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220820.1930")
+    (version "20220821.344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "ffff3931e104c73a0f332c9e181d11eebd81d816")))
+                 "b03bad3e5dfa8f8a74167f78f25d7b664284a9ae")))
         (sha256
           (base32
-            "03iqaqgnaqv0axjxljppngva8hlapplqnf1wkab1jw003xm3lrdc"))))
+            "0wlh2z4j6j1z1ir6233h3fj0mhwgk80if1667v5zl3h9ikp7xpc2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -67590,7 +67590,7 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20220820.2037")
+    (version "20220821.13")
     (source
       (origin
         (method git-fetch)
