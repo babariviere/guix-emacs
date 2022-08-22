@@ -4511,17 +4511,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20220124.1253")
+    (version "20220822.1348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "19a520ecb99529790906a1fb5599acdf2b4f005f")))
+                 "62fbd5f2665f0001f9c6a2dd0622edda7f4431da")))
         (sha256
           (base32
-            "15jv6bng8xnkng005n1qbbg5lngjyq7mb5q6x3j77bkb3l8pnr9d"))))
+            "0b1vzhq5s10wifad7x1m5yiwrry9zwxqhpdvkkvyhbzdlf9c2668"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-flycheck emacs-s))
@@ -8370,17 +8370,17 @@
 (define-public emacs-boon
   (package
     (name "emacs-boon")
-    (version "20220816.2151")
+    (version "20220822.1348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/boon.git")
                (commit
-                 "225c8b9d979182e7ee27ff2eb33657180971a82c")))
+                 "ccf3e5c0c92f0f73d20f14cad0337e4cb0907a9b")))
         (sha256
           (base32
-            "1l2dmbrbvhyyqnw6v5914v0msr6a75589d23bqada6ynzfc3cx7a"))))
+            "0b1dyi9l2cjqpkc22vv0r7bx5k2imv61zsq5dn93yzrz5sab4kg1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -13815,17 +13815,17 @@
 (define-public emacs-codespaces
   (package
     (name "emacs-codespaces")
-    (version "20220815.1146")
+    (version "20220822.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/patrickt/codespaces.el.git")
                (commit
-                 "d08f0b2dff808f308cf92c3d70417e525015e97a")))
+                 "e734b427446202cfed473cdb8a1b5b0fe708fab1")))
         (sha256
           (base32
-            "1rgjsw32s5gmm0bij9cs8hi27m065s6nzniymrzhwravf138kpmp"))))
+            "1p6fc6yh9jwp7xb5rfkh0fmv4nbdgfb3r1wmh5b3m8lk2qf51n7c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/patrickt/codespaces.el")
@@ -30462,17 +30462,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20220821.1819")
+    (version "20220822.1221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "2ebb5e5f7b69a580b586de1a0d112e3fa03e0813")))
+                 "f4dc72d130eae2ad4f479671339d1cdebda62811")))
         (sha256
           (base32
-            "0nwg7m250zsfr0hl44arphpl12s24vv6p9qhca2mgjy9vm94qr06"))))
+            "1jl201pg2sack59bbmwf0rbka6jl1b1lxw45w34zkcwgx54xgjfi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql))
@@ -65603,17 +65603,17 @@
 (define-public emacs-lfe-mode
   (package
     (name "emacs-lfe-mode")
-    (version "20220817.733")
+    (version "20220822.911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rvirding/lfe.git")
                (commit
-                 "6b2569f25572dee429f6c2f0eb2ef576999e5fb9")))
+                 "f7cfdd30620448df1b058467ac160b34d4b8105b")))
         (sha256
           (base32
-            "1qcrkp8bndlhb9hsllik1barbj8q8d22w92da9957b2ym7dwccx3"))))
+            "07xccdww2bsz5jgd19xj7kn9drgqncamvl6px31qw6h2799x81g1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -67702,17 +67702,17 @@
 (define-public emacs-lsp-cfn
   (package
     (name "emacs-lsp-cfn")
-    (version "20220707.824")
+    (version "20220822.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/lsp-cfn.el.git")
                (commit
-                 "624f34c353844f4835e15cf7930b3f74cc67cb5c")))
+                 "55203d41d767c091511599fca236c1f9c39cd58a")))
         (sha256
           (base32
-            "14fvpv8g2dax0znh7l1xshczx5brplc5r7a2pr446w87yp2sbml4"))))
+            "0xmv3aqlfp4qk9vmahzmn58m8m0i7929x1mwy2rh33jx08v67xv3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-yaml-mode))
@@ -68443,17 +68443,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220723.1213")
+    (version "20220822.1345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "8d4fa5a14f5b5c6f57bc69f454eba6861ed2ba9f")))
+                 "e5a562325ebe85febb19bd914ab925d687e28e98")))
         (sha256
           (base32
-            "1z3gfv6ca1ssyyaggzpaljybzrilh77lzqrixm9napzfv3aa795w"))))
+            "064ss33v3al7vmd91bazazm2qzsgfj98250abfzdv8qx4pjnflqm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82105,17 +82105,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220822.223")
+    (version "20220822.1337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "e5cc1255868a92e84d7c16948fc1e1d0a79df7d3")))
+                 "5309895a7616e04a55a9dd397100adfe35fcec60")))
         (sha256
           (base32
-            "1l9j7pw6kjx0hsaf7c4wm2k9xnn81frhp8b3pgwjapidqcpq7mrq"))))
+            "0fzd65p38s1xr3xcji2gficl1lxrb1ip9hnd7hlrab955www2ip7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -84554,17 +84554,17 @@
 (define-public emacs-org2blog
   (package
     (name "emacs-org2blog")
-    (version "20220811.51")
+    (version "20220819.200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "6ee1b59e0a83b6a855f583743287e801cbdc1e09")))
+                 "96d553d6ef02feef4c98b56a704afc277ead87df")))
         (sha256
           (base32
-            "1rjhnlh71vvkd1zm0gyfs3s355ivjkzx7g0r4basp6fzpnx010h3"))))
+            "09r2rwr94pijfycvraqn78499mim9jhkz2gdm9z26asb9dfsba4s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-htmlize
@@ -88529,17 +88529,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220723.2329")
+    (version "20220822.642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "bb0b71f5bafd81d0b5647c4ec48fafa0bb6f6c21")))
+                 "bea5ddb9fc234b48db6df3dcb66d75e76bec00c8")))
         (sha256
           (base32
-            "1j6aj6sxw82n8pvwylwcnrgi95d6n5fpa0g75lphfgkaqk9nbgmw"))))
+            "06swndkkrv44mwbwdicnpar7lz4ykvnbzhv81f7f16fni33jfak1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -106450,17 +106450,17 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220822.47")
+    (version "20220822.1002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-spell-fu.git")
                (commit
-                 "e0cb7b9fda93faf1eba22ad2ea64266087a062b0")))
+                 "3dc3406a50a3081e751e1471b2d6a8f88fa3d795")))
         (sha256
           (base32
-            "0cprkbbbwwdzszq4alvi7jdbzgsi76mi2y6qkia7idqlazj8sybn"))))
+            "0fnm5jvvnnfwy47ayscnbb73bdmylvacgv0v9hbypka33rixxa1g"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -117208,17 +117208,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220822.419")
+    (version "20220822.1158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "f65916b316aa17431221aa3885c0d67f2d1fc30d")))
+                 "f104e3a11c9ff33ccc0e086cffaadc9549e9e8b1")))
         (sha256
           (base32
-            "1ra86zhy39pb3i9pczj8wjk6zzz87icy65n4l59ig1j2hrramxyg"))))
+            "1pcqj1w3gi5bqwwb45z30zmhd2klrq76w1vbxf7l9kq9j5m590x9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
