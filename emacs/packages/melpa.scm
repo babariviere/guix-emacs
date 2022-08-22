@@ -5676,22 +5676,22 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220821.410")
+    (version "20220822.222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "f1cf7b8d918d5bcc52c2769c774104b5938a6f85")))
+                 "026f074b10a35ee1e0e8e39c2dcb78ebfcb04619")))
         (sha256
           (base32
-            "1zrm09lzl5s3l0rnzihj9azj1n1l214r6lrmp9yqj7sm7y1xjf0c"))))
+            "1fy520nkgxsipc6xgc05kv5pgyhcj3wsm587nlg0z2cvzzsanfjc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/jasonm23/autothemer")
-    (synopsis "Conveniently define themes.")
+    (synopsis "Conveniently define themes")
     (description
       "Documentation at https://melpa.org/#/autothemer")
     (license #f)))
@@ -9067,17 +9067,17 @@
 (define-public emacs-buffer-sets
   (package
     (name "emacs-buffer-sets")
-    (version "20220820.1611")
+    (version "20220821.1413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://git.flintfam.org/swf-projects/buffer-sets.git")
+               (url "https://git.sr.ht/~swflint/buffer-sets")
                (commit
-                 "57812d611d40062eee69d5dd0cbb8e402f3791fb")))
+                 "d0e4c86960d0a36cabdc34d860722fd304646a88")))
         (sha256
           (base32
-            "1vy5ngwp1ryhh95bc993mcm77yd53xha1l6ykvyvqhyp6kbiw7rf"))))
+            "03c3msy03130glqg1mxcrj1acy6cgvmz8931p2970i5zn3sys7yc"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("buffer-sets.el")))
     (home-page
@@ -16911,17 +16911,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20220808.1312")
+    (version "20220822.158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "51e152c0ce6b770ab5e9ac5216b38f3da99f2aae")))
+                 "fd4091dd3655fdbbbb3fa15cfa96babe17c8b8b5")))
         (sha256
           (base32
-            "0xaxskpma6cb2jsazn1npchak6k4232xnlaf9vfhlqm7ss793591"))))
+            "0q8hg6290gxchqwic4290jnkhg9pd03pd8gj6fxi9n7k72rx418i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -19327,17 +19327,17 @@
 (define-public emacs-cyanometric-theme
   (package
     (name "emacs-cyanometric-theme")
-    (version "20220819.754")
+    (version "20220822.301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-cyanometric.git")
                (commit
-                 "fdc2dfea745847efb11d5795b2397a2af9bdd05f")))
+                 "9b20e33a8cc2c76bfe6ad45916be6881386707f5")))
         (sha256
           (base32
-            "0am3kz9yiwf99gkrkfjdrr9rx7hd01p68xdz51n3brbxdcxw4rl3"))))
+            "0hhwm9dwzf7dqzacxppgq0c64abjn29h0lyf620q40wvhq79qkwj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -22952,17 +22952,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220821.527")
+    (version "20220821.1838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "5a61c8bb5aa350c9b5e4da8ee788be4922144281")))
+                 "755ab9e34503abc02e3b0ea5b39b829ff3bf8025")))
         (sha256
           (base32
-            "1jvxgblzjzh5j3yhz1pcn0lr6kc0m2y4yh2a0q5r35pcm8wgqv41"))))
+            "0sx5i7cp0q3kj54wzka3dv7k0z30qc3mdywj91g6dc0rkp0jrs84"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24768,17 +24768,17 @@
 (define-public emacs-dtk
   (package
     (name "emacs-dtk")
-    (version "20220808.1529")
+    (version "20220821.2228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dtk01/dtk.git")
                (commit
-                 "2a76bd06d95ef0b07cad235b01107051616a5387")))
+                 "a9dce9b7639c2b011f42c04820472a9c0717546b")))
         (sha256
           (base32
-            "1g29af3ds8c0jqk16bnay93z95brnimynp20p7w4n29n7kqfjmhx"))))
+            "0ghq66dv6acc9z9d04443sq5g50hgc1nqplgcdyrxpfmvxg51cg3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/dtk01/dtk.el")
@@ -32689,7 +32689,7 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220821.1937")
+    (version "20220821.2148")
     (source
       (origin
         (method git-fetch)
@@ -41905,17 +41905,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220810.1156")
+    (version "20220821.2143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "9556d3b4c20bf405390d0931d77c9f012f8e843f")))
+                 "6a820a424465900b0cc7bc54ccdad6491764e581")))
         (sha256
           (base32
-            "0jbm3yxwd1k4glymd1v58in8cxymka920h09nib2am96nd10crq9"))))
+            "07y3001wjslc8qzsg7vrr6yndmxh5icdgvwzff239hkgqr9a1ag9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -48221,17 +48221,17 @@
 (define-public emacs-gruvbox-theme
   (package
     (name "emacs-gruvbox-theme")
-    (version "20220819.754")
+    (version "20220822.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greduan/emacs-theme-gruvbox.git")
                (commit
-                 "ea49242ac449d1263c274cd85f356148b5aca1cf")))
+                 "06674899435910231b1a7e3ffad2a058c21a33f2")))
         (sha256
           (base32
-            "0w5dm66634sd79gv41jk87kvab4gz714dlak9qbk7vsa6wckrvh1"))))
+            "1gh8m4lj1mp1ji9nmhbgndzhqqy5b73h0fsv3cd9x9ns6cvyp0pl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -71791,17 +71791,17 @@
 (define-public emacs-meyvn
   (package
     (name "emacs-meyvn")
-    (version "20220723.1800")
+    (version "20220821.2242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielsz/meyvn-el.git")
                (commit
-                 "20878c2c059d1302b169f6c0252641a176a3f327")))
+                 "43b2061f907dda533abd3136dccdb1ce467ec6c0")))
         (sha256
           (base32
-            "1lhds8k74rcqqd71j02y4n2ci3sh4xyc6d0475qj8sam3j6f329w"))))
+            "0jrqxk0sf6360sm7b78cbmdkhi4ihgdjsyxgw5qn8xl81n41xas1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-cider
@@ -80337,17 +80337,17 @@
 (define-public emacs-orangey-bits-theme
   (package
     (name "emacs-orangey-bits-theme")
-    (version "20220819.754")
+    (version "20220822.324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-orangey-bits.git")
                (commit
-                 "d1499dec435e953db6f4ca15e3b25c2dcfb8df21")))
+                 "533856d399cb4098300bcaf4a2d20920395746f8")))
         (sha256
           (base32
-            "0kwwyczdvaymi2mf6a7kzxf3xq4c6yw7ycyc0qxm9ycspm5zwnn0"))))
+            "0a7xs9rwj2n44zny3fw9h65lz721bql4jdzanj9z7fx544r54x46"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -82105,17 +82105,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220820.330")
+    (version "20220822.223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "f0a52b3da11cb12cdff61908c6a2766e1b12daf2")))
+                 "e5cc1255868a92e84d7c16948fc1e1d0a79df7d3")))
         (sha256
           (base32
-            "1llfm31wkq0dhg62854vz4k6nldly67shk0vjn29fandh453r7j4"))))
+            "1l9j7pw6kjx0hsaf7c4wm2k9xnn81frhp8b3pgwjapidqcpq7mrq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -100152,17 +100152,17 @@
 (define-public emacs-sakura-theme
   (package
     (name "emacs-sakura-theme")
-    (version "20220819.754")
+    (version "20220822.254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-sakura.git")
                (commit
-                 "ea8267d7c32387b50193fa88270973444bbb3d56")))
+                 "d78648632a94dd5354d2fed0f94fcb7aece29132")))
         (sha256
           (base32
-            "1c4xqwznmcpmww455rmglpkc99fvzaibp412sl5gj1nrzrajysmk"))))
+            "0nxj6gx5virv95sfxbasvr2mh427w5srzjsfawhf58ixif8wkhd0"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/emacsfodder/emacs-theme-sakura")
@@ -105769,17 +105769,17 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220821.1613")
+    (version "20220822.437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "d83780156ed74ccf13f73f4db8065aa8edfe0801")))
+                 "f61180e99fa31a124692374fd5f3ffca7ad5e3fa")))
         (sha256
           (base32
-            "1jqhfq14b38n6qmw5l5hl3f7l0dgyp6ambi61j0dqr5cqdamwws6"))))
+            "0xp1v7bmicv6iikqvsklrzi2m1x95b9lxw3xpg4j5qjdhv883hab"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -106450,17 +106450,17 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220802.1151")
+    (version "20220822.47")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/ideasman42/emacs-spell-fu.git")
                (commit
-                 "bfd017fd1985418a1b101c1e497510ce24bb0348")))
+                 "e0cb7b9fda93faf1eba22ad2ea64266087a062b0")))
         (sha256
           (base32
-            "1gv2596kq06x90cscc5bhwsisrm3pipiwh5gmq11j28dj0mih3pf"))))
+            "0cprkbbbwwdzszq4alvi7jdbzgsi76mi2y6qkia7idqlazj8sybn"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -116288,17 +116288,17 @@
 (define-public emacs-vegetative-theme
   (package
     (name "emacs-vegetative-theme")
-    (version "20220819.754")
+    (version "20220822.353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-vegetative.git")
                (commit
-                 "ad0ab4aae06bb7113cc23fbaca7c8621c81e134e")))
+                 "db60ce0fe327ae7e4371545179ed94483b1132a8")))
         (sha256
           (base32
-            "16kwq9950b22z6336mk9bw66li6147j8bw0hlac0bmmvh66sbyq1"))))
+            "1cqrrkp8dhwh73ypfhw3hzn2siy7s23kfafn61y6qgkxm2hnhj0j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -117208,17 +117208,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220820.1602")
+    (version "20220822.419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "52ae56f0b2d40403938a226e4df95a0f433306cc")))
+                 "f65916b316aa17431221aa3885c0d67f2d1fc30d")))
         (sha256
           (base32
-            "03xrdlsbgykbnyns7vwnsn59kgy7i4ysxp7faz3xnzxq6s24sv0i"))))
+            "1ra86zhy39pb3i9pczj8wjk6zzz87icy65n4l59ig1j2hrramxyg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
