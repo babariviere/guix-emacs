@@ -28034,17 +28034,17 @@
 (define-public emacs-elfeed-tube
   (package
     (name "emacs-elfeed-tube")
-    (version "20220818.502")
+    (version "20220823.238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/elfeed-tube.git")
                (commit
-                 "395d8add1b090bae075b0f918add0078a2ca9759")))
+                 "18d89f19203423b9e2df59a556c1240746903d8f")))
         (sha256
           (base32
-            "1jalkac20c0mbwxcr71l0g0040rfk54qv7x0adqdsh7pdb5xsd41"))))
+            "0h32bpq8w1j3rbwfqlfj10vvlw21j9rcpqjpp45pw8z6xxb2q0lp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed emacs-aio))
     (arguments
@@ -88574,17 +88574,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220822.642")
+    (version "20220823.513")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "bea5ddb9fc234b48db6df3dcb66d75e76bec00c8")))
+                 "1a0a30c54dc3effdba4781a2983115d4b6993260")))
         (sha256
           (base32
-            "06swndkkrv44mwbwdicnpar7lz4ykvnbzhv81f7f16fni33jfak1"))))
+            "1gy7d25iplix02h9kqxxvfrxfwr2gm11xdmmx9ckbj3q51b5gi1r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -102647,17 +102647,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20220809.115")
+    (version "20220823.543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "a8e2e5c7b7576afd7b097b40c6ca39e5717f97a5")))
+                 "e185b54d13fb7eac7d045daf6a83731d9ef79231")))
         (sha256
           (base32
-            "0vqq69jkx11d8m9g9v2m4zvpq3khkdhvgzvpcszvic4fvaa65jpc"))))
+            "0mbv68g1q98dysjvhdxwf3gcwwmihy6ni3b4r4kz6klyfr2jwqim"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
@@ -106355,17 +106355,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220812.141")
+    (version "20220823.156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "bbcc26609aba7772f4c0aa0fcd432c913329a308")))
+                 "e1735648bbfadd9e888fcd7c760ab9fb636cbd03")))
         (sha256
           (base32
-            "12y74lw0bmzlnfhzhxrhqhffv4m46sha72xniqddqbbclig85fg2"))))
+            "1angqd60wf5ar56l8097fdk54ls5dbpx23kpgq3fiyb3gnbnymj4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -117524,17 +117524,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20220805.157")
+    (version "20220823.543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "c8b94ebeab34dcb5f3d26e65b6cbd92de6cd054c")))
+                 "e185b54d13fb7eac7d045daf6a83731d9ef79231")))
         (sha256
           (base32
-            "1063bfhmhi4870gy3islf6yzricb87kjn80ilkscm6wws9arq228"))))
+            "0mbv68g1q98dysjvhdxwf3gcwwmihy6ni3b4r4kz6klyfr2jwqim"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -118340,17 +118340,17 @@
 (define-public emacs-websearch
   (package
     (name "emacs-websearch")
-    (version "20220820.426")
+    (version "20220823.42")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-websearch.git")
                (commit
-                 "d3211664727c03d1aec36f4c10fbd5a6e92ffc63")))
+                 "9336601462ce29822e6aa14db01d923a4bd1c6ef")))
         (sha256
           (base32
-            "1dsl48hnzkwxgwapqfqbm9pqw60sc88whdp4gm7gcslnm3j2qyaa"))))
+            "0vwsi1ibmw4947bm7c1yz6jvgphilh7039akckfknc6dpacic2r6"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/xgqt/emacs-websearch/")
@@ -121912,17 +121912,17 @@
 (define-public emacs-zenburn-theme
   (package
     (name "emacs-zenburn-theme")
-    (version "20220710.623")
+    (version "20220823.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/zenburn-emacs.git")
                (commit
-                 "cff73bfea8deef2c97cc1ceac4b03702702c4a83")))
+                 "2db3a34f50ec4dd6e2cae92bab639ccfc742b3cc")))
         (sha256
           (base32
-            "1nj4zbf0551whlzgx4gc0p0l5223ag1rwjmjsvk08knvr14jnjm5"))))
+            "1iqshfkf4xchymmf340bdh6vl555z50l2wd3r3g063gf03vxsr5a"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bbatsov/zenburn-emacs")
