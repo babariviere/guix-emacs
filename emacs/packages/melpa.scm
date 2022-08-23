@@ -5676,17 +5676,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220822.222")
+    (version "20220823.803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "026f074b10a35ee1e0e8e39c2dcb78ebfcb04619")))
+                 "c09d76196c73c0885295c3b3dafee251d6529180")))
         (sha256
           (base32
-            "1fy520nkgxsipc6xgc05kv5pgyhcj3wsm587nlg0z2cvzzsanfjc"))))
+            "1ivg5fqs3k8gsfg4a6pk004s4i1kr4w6ny4dbxs2hfpmz5fbdbjj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -6542,17 +6542,17 @@
 (define-public emacs-basic-mode
   (package
     (name "emacs-basic-mode")
-    (version "20220822.1725")
+    (version "20220823.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/basic-mode.git")
                (commit
-                 "e58d30883f7ab78d2b4573bb566d2199a39f97ba")))
+                 "8d7f66ba38d003d7ee6ff271482edfabf146963c")))
         (sha256
           (base32
-            "04a7f0cbhh08kg2x0v8k791rhkahcmyw2dsfvq9gp80r10czhzwh"))))
+            "0aq1rkd4bwzwfdbzv19m038akj91476l3d1wsmrndbqsnrpj7ngr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -10832,17 +10832,17 @@
 (define-public emacs-cdlatex
   (package
     (name "emacs-cdlatex")
-    (version "20220819.1232")
+    (version "20220823.747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cdominik/cdlatex.git")
                (commit
-                 "132176d0c593e23a6e2873a3f43be91739dda75a")))
+                 "6f734db8ab87f11dffb77c33a445140baeb723c4")))
         (sha256
           (base32
-            "0jvlyhc9f6maw483jw5cnpfpc07hdi2fn6c0gw2kpjb44d6qzhyb"))))
+            "0pcfv8vhqxpcwmbsyvhy08dk4cbj4kzz05c2c9pfnkbbakxfalvk"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -13463,17 +13463,17 @@
 (define-public emacs-cmake-mode
   (package
     (name "emacs-cmake-mode")
-    (version "20220617.1532")
+    (version "20220823.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.kitware.com/cmake/cmake.git")
                (commit
-                 "d94e09ec88c99434941029cde07b6c1e6bd0dde1")))
+                 "5936d4f2adeec64e0ff748b2c6c34f0436b19a97")))
         (sha256
           (base32
-            "0slzrj5njj4kgsq4qfyjynkqslj16n0ckf410qwhb39vbdgkzwax"))))
+            "1rjk2rhdg1wcga5iagaafghj15gy5h45aw0llkpxpnpvvwrh7g59"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("Auxiliary/*.el")))
     (home-page "unspecified")
@@ -17029,17 +17029,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220820.257")
+    (version "20220823.1338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://codeberg.org/jao/consult-recoll.git")
                (commit
-                 "22d061c84312445621e2140ff7175db57d545b03")))
+                 "b3724c704b0d7d942c095dedd9e0ce064a8847c9")))
         (sha256
           (base32
-            "0lfimyx4lqhb8vlaz9mm7qwcg3cxgv3kf0hdziwndgg9j27lcqz4"))))
+            "1f6lmx2brp47f0rqxjpbw3acr9zz3liwp3y68sqq80flssy10msw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -22951,17 +22951,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220821.1838")
+    (version "20220823.702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "755ab9e34503abc02e3b0ea5b39b829ff3bf8025")))
+                 "ef15215677dbfec24953d08960200d1ef869a5fa")))
         (sha256
           (base32
-            "0sx5i7cp0q3kj54wzka3dv7k0z30qc3mdywj91g6dc0rkp0jrs84"))))
+            "15p2m4hc4mlw37123ph5rs0j46b6fylakgw2xgcqrxai7115whvd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -37551,17 +37551,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20220816.534")
+    (version "20220823.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "781d830ccf6ace3f858ca597b8b82ee6598b86b5")))
+                 "600b3bffda3862121d96bbc5c1f8990fa9033a82")))
         (sha256
           (base32
-            "12hdjg691gp3di89975xrzxxg0ckvmbvmxq8bzxryk2dpz3q3sif"))))
+            "0nv8ln8mr63kn1c41amj88isl8f3imqhb0bqrpl6g6frm2rfwxkm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -107659,17 +107659,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220808.1150")
+    (version "20220823.919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "9c8391cbc69bb44576b333af5caec84221d7b596")))
+                 "fc9f685fee717f52a249a72189bbdccb225bc122")))
         (sha256
           (base32
-            "1fwmns83vlbin272zy4nnwbbjlr3zjlh0shb661jlxvbqbi25p9p"))))
+            "0a40ddrpqd3ylf1ylnaxvmrr966z8qqv8xh796nacmr5klbmzc6i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
