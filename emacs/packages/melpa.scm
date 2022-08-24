@@ -71722,17 +71722,17 @@
 (define-public emacs-metaweblog
   (package
     (name "emacs-metaweblog")
-    (version "20210422.326")
+    (version "20220824.148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "68695ed0e012379556d57f9564ac5ad8cd68fbb8")))
+                 "b641fbcf33ac2b8a0de7b80536b42ce035428625")))
         (sha256
           (base32
-            "1qk9kshi4hyy0fni3gb383m0yvj4fmgidiab6vhnms5zgghj4kl7"))))
+            "0wy98gfj7vfmw8rj2zal1jrywsi7p8k4jr5m9rnwhj8v8ld1cw7d"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("metaweblog.el")))
     (home-page
@@ -84599,17 +84599,17 @@
 (define-public emacs-org2blog
   (package
     (name "emacs-org2blog")
-    (version "20220819.200")
+    (version "20220824.148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "96d553d6ef02feef4c98b56a704afc277ead87df")))
+                 "b641fbcf33ac2b8a0de7b80536b42ce035428625")))
         (sha256
           (base32
-            "09r2rwr94pijfycvraqn78499mim9jhkz2gdm9z26asb9dfsba4s"))))
+            "0wy98gfj7vfmw8rj2zal1jrywsi7p8k4jr5m9rnwhj8v8ld1cw7d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-htmlize
@@ -106355,17 +106355,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220823.156")
+    (version "20220824.154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "e1735648bbfadd9e888fcd7c760ab9fb636cbd03")))
+                 "3e9b59dbdb81a8ade36f21ae57690df5922a67b5")))
         (sha256
           (base32
-            "1angqd60wf5ar56l8097fdk54ls5dbpx23kpgq3fiyb3gnbnymj4"))))
+            "1c01v5mdqvsn01pxcd7h7qrr2cqxl6hgpisz8m3gigabj0lx1r6d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -112344,17 +112344,17 @@
 (define-public emacs-topspace
   (package
     (name "emacs-topspace")
-    (version "20220803.2258")
+    (version "20220824.134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/trevorpogue/topspace.git")
                (commit
-                 "fa67b67e1ae41adb44de0e5180a6cab922da6bb0")))
+                 "4f090520174cab0fa752765b7c18885efb6cce11")))
         (sha256
           (base32
-            "1v78pmv6554qb9b4s2i19vvxncsp914qblyyv95zbq8id3k3v606"))))
+            "1qx4ablzj4w16780g6lk97lyhsmip6s2yjlb3nwpivn9979py9m4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/trevorpogue/topspace")
