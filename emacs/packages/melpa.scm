@@ -2417,17 +2417,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220801.1541")
+    (version "20220823.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "6f876fa11ef64af20d9b2a44fdabac6446de51ba")))
+                 "4a4d6269b8b85b0b15954f063e6ce378630d80c0")))
         (sha256
           (base32
-            "1n975ziy5wyfnmmpak1vsj7nqzm5ciw811pcg7rdmc2ljlc90n5p"))))
+            "0y1dpxv8hha8pcxssayy0gaa7jd15ad0hwpmpixg164xzjn0cnb6"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -21187,17 +21187,17 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220822.1911")
+    (version "20220823.2025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~niklaseklund/detached.el")
                (commit
-                 "827e3d64fea7f66056d0f09a96b1039d1d3a6e26")))
+                 "8a76055290aae3e9b555a055498e71591032e995")))
         (sha256
           (base32
-            "08nw9biprxlcr9m1g2ljxsigvw92bnyyiknn559k2ibhlg2h3ajn"))))
+            "0mgxd82p8yqj1gdbck30yjv5pa2kggpsc9p9r93m4w9q6inczk11"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -43411,17 +43411,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220821.1645")
+    (version "20220823.1618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "ecfbef1c771f3a5c34f46fb2b387b9669c661d2f")))
+                 "c681e2b2e92da2e856835449d7097bbe67394a52")))
         (sha256
           (base32
-            "0qm43qkf0rpcbsf5wb7b51m79jvn2fkl19f49acbzjpavx66vn3n"))))
+            "1nvjkz564dd8q7yr7n80psdxm12kwn62735xvzjwwa12w1hkx25d"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -49478,17 +49478,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220819.1346")
+    (version "20220822.659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "87f32186458d909f62ea6d3b9c97b0a1a1aaeb9b")))
+                 "26313b28d1c57ac0b46fec4fbf9741358050da03")))
         (sha256
           (base32
-            "1n7705swvks7lzjksmwjcb064744zcjlxrpi17rqkamgdfb66nsr"))))
+            "0wrd8cmmhm0pcnvj240y9x6bj0wwjnc9vpn6066b53qc2csdbhzp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50286,17 +50286,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220819.647")
+    (version "20220823.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "87f32186458d909f62ea6d3b9c97b0a1a1aaeb9b")))
+                 "26313b28d1c57ac0b46fec4fbf9741358050da03")))
         (sha256
           (base32
-            "1n7705swvks7lzjksmwjcb064744zcjlxrpi17rqkamgdfb66nsr"))))
+            "0wrd8cmmhm0pcnvj240y9x6bj0wwjnc9vpn6066b53qc2csdbhzp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -52048,23 +52048,23 @@
 (define-public emacs-helm-mu
   (package
     (name "emacs-helm-mu")
-    (version "20210816.913")
+    (version "20220823.1905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-mu.git")
                (commit
-                 "b85019d01815a4b58d6016c3a30fefa60d8363f2")))
+                 "4562322214421693efa8dc529d66b6256b81746a")))
         (sha256
           (base32
-            "0dld66r7z525y1b22liq2j8fz248ghj8pxfid66508jpxhh71np3"))))
+            "0im93k6dhdq8apnq43jyh0pm45ffsyxn74barrfzpkardinrh4qs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-mu")
     (synopsis
-      "Helm sources for searching emails and contacts")
+      "Helm sources for searching emails and contacts.")
     (description
       "Documentation at https://melpa.org/#/helm-mu")
     (license #f)))
@@ -66792,17 +66792,17 @@
 (define-public emacs-litex-mode
   (package
     (name "emacs-litex-mode")
-    (version "20220415.1704")
+    (version "20220823.2231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/litex-mode.git")
                (commit
-                 "5d5750af2990c050c8d36baa4b8e7a45850d5a6a")))
+                 "c4a1071fcf6d2bec9eb367ede8c33b190e9ff802")))
         (sha256
           (base32
-            "0kfij90iqslc6lnlpvj0hmfhfrfhp28ljd4zj6gv8wz02aldkjgd"))))
+            "0bm3zx2ylrcs8apid2g6a6m5f27ahkvavqbprld5d0mfb1m42lw2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Atreyagaurav/litex-mode")
@@ -68442,17 +68442,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220822.1345")
+    (version "20220823.1626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "e5a562325ebe85febb19bd914ab925d687e28e98")))
+                 "d8cce7dc154aa3216c080dd5c6fb827bdba9a312")))
         (sha256
           (base32
-            "064ss33v3al7vmd91bazazm2qzsgfj98250abfzdv8qx4pjnflqm"))))
+            "0b7gfyrrzxr3x6vr7mcl3ha60ssmhk77fc250impxqg62ckr2nbx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73020,17 +73020,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220819.1229")
+    (version "20220823.1919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~protesilaos/modus-themes")
                (commit
-                 "e85d2c14dcc16c265339e48c697e281776336ada")))
+                 "777089c0ffaabadc10cefead3737fabe24b9004c")))
         (sha256
           (base32
-            "07gab565sgzlw8afcmf9a6sk5b6d18ij6w9by2njfxhsal7qdzk1"))))
+            "16n87jns4i72369zm5xsa7skqcrq6bf5w1bxwn7q5w4h1694ry2g"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -112208,17 +112208,17 @@
 (define-public emacs-tokei
   (package
     (name "emacs-tokei")
-    (version "20220422.2234")
+    (version "20220823.2058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nagy/tokei.el.git")
                (commit
-                 "181021cd881eecd604a546d4a717866a81c7a511")))
+                 "86fbca422f580a95eb30247e46891184f3ac5c18")))
         (sha256
           (base32
-            "0gcjlcfxd4bg123gjf7d0vfvfd6zpd0da8svynglca1qhp77jkx1"))))
+            "0nn8v9x0dczw0ingibclc1v8fnhjiwl14vm1qjcng9dcr2pbp7mq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (home-page "https://github.com/nagy/tokei.el")
