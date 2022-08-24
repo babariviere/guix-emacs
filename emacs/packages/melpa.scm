@@ -12008,17 +12008,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220810.1514")
+    (version "20220824.759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "68974c9fb6ee6e95a4568c46a9c4371b24d2f0e9")))
+                 "5bba4856fb42636bd52d1a1ebb4997a8806df759")))
         (sha256
           (base32
-            "0fasq2xdvlynmviwiqfc4a6nizwqqalhljnwd7wn4amk7i0d7f1d"))))
+            "0v45bj46y0y8v3mi69zak827qpxhhci7ij72nr6p3ij4h24m7980"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -19759,17 +19759,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220820.923")
+    (version "20220824.623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "61c8825fd5743139f4b7d8dc93ffbdbf3b2a592b")))
+                 "b5a617ff916ea6c50d6d7a6b5584d51a2ea197a0")))
         (sha256
           (base32
-            "190cirmxxg17vb2qjrfx10sgwd43mz2yjhgrx5kkkdccng2w4fh9"))))
+            "1pncc3np5gbn3f9bwfbzrl1sm89n2k50liq05vxl5ai0hy7zhaxq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22951,17 +22951,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220823.702")
+    (version "20220824.1107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "ef15215677dbfec24953d08960200d1ef869a5fa")))
+                 "880f426fb780acdd19f932ba99e581c2f276d744")))
         (sha256
           (base32
-            "15p2m4hc4mlw37123ph5rs0j46b6fylakgw2xgcqrxai7115whvd"))))
+            "1a8kbav07wcl9bs3rg14ms5h7k6cs7idnkxzxv7qkkfzv7q3zwi4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -42927,17 +42927,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20220425.1144")
+    (version "20220824.828")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "7fd0a3c6c96ed8afd0249ab0734d9b63d4fd1cb1")))
+                 "adf92a6c38b059f8ead65a08ccebdc5855cf9d1b")))
         (sha256
           (base32
-            "06y66lzhw2vl5y3lpcmgn71rpshq07ljah2p2ksgml87qml29r3s"))))
+            "0d3inzi0m87qcql0xlppxxprzjn4k8crvds6vmqv7b7wvk86rdjn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -50286,17 +50286,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220823.1840")
+    (version "20220824.736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "26313b28d1c57ac0b46fec4fbf9741358050da03")))
+                 "b778e722bd3613792661da527f16f99cfde23794")))
         (sha256
           (base32
-            "0wrd8cmmhm0pcnvj240y9x6bj0wwjnc9vpn6066b53qc2csdbhzp"))))
+            "0d1kdnmqvimcrikf5kp87887xpgch1v3k46c3a126c49ffvh5kpk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -52048,17 +52048,17 @@
 (define-public emacs-helm-mu
   (package
     (name "emacs-helm-mu")
-    (version "20220823.1905")
+    (version "20220824.757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-mu.git")
                (commit
-                 "4562322214421693efa8dc529d66b6256b81746a")))
+                 "f57e36415e29dd8122fc05b830b4331e4df970db")))
         (sha256
           (base32
-            "0im93k6dhdq8apnq43jyh0pm45ffsyxn74barrfzpkardinrh4qs"))))
+            "17izx0qi3s9x9jahwqp66xbapws8myj19k02b8ippal2nm7ykchr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -68088,17 +68088,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220820.1544")
+    (version "20220824.721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "480f804c1c48f7c2e929ffc1c10525ec3fecca2c")))
+                 "9c47b6d44f6fd78410f13e496d83682dbd52da0e")))
         (sha256
           (base32
-            "023lwjhsns8rx68hqfpzsnlav2kn18ficrlp06d9zsdyjkd3dqnr"))))
+            "0gn63a5bmnf8l3ddq7rw2afmy3r7i5z92zy7zfkprq92322ibzks"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -99941,17 +99941,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220822.1702")
+    (version "20220824.858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "a031dab970b352178b30fd4cd2fcbca2c0a8400a")))
+                 "e279b7d60fa87b54264a8ba6c05604b8178e0d01")))
         (sha256
           (base32
-            "0281aiiillj3zbb29wcsn5nwpdxsvjfl29s54wdsq9krp28jl7gr"))))
+            "0lj3wgiyrv3mma49k1ijlfhaj3d16fg0brdb9bshz0kizjlwzjx4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -106310,17 +106310,17 @@
 (define-public emacs-sparql-mode
   (package
     (name "emacs-sparql-mode")
-    (version "20210701.1202")
+    (version "20220824.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ljos/sparql-mode.git")
                (commit
-                 "ceb370b3879841f8809cc3f9b1b87e898f10562f")))
+                 "15960092e8ce8ebe6a6afd82202ccf47cb306e76")))
         (sha256
           (base32
-            "05vbsfyck0nxa0bsg7jjshjzh7719gx6z6i9i4ayxcfygh3wh6xz"))))
+            "1wlwn2f6r00fj7wk1pymrha2rpfrd3b2ggmcjsz74f7ixc0y4c2k"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ljos/sparql-mode")
     (synopsis
