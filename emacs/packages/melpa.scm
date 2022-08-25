@@ -5676,17 +5676,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220823.803")
+    (version "20220824.2009")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "c09d76196c73c0885295c3b3dafee251d6529180")))
+                 "378f8707bdd944f19b6fd4544359e993c9113752")))
         (sha256
           (base32
-            "1ivg5fqs3k8gsfg4a6pk004s4i1kr4w6ny4dbxs2hfpmz5fbdbjj"))))
+            "1p7ii7f0w607zxyqnr8ivi0n0sg2p93pi6dpd9kjqywdagqyrnw1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -17660,17 +17660,17 @@
 (define-public emacs-counsel-etags
   (package
     (name "emacs-counsel-etags")
-    (version "20220814.330")
+    (version "20220825.259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/counsel-etags.git")
                (commit
-                 "6403dfecab5c703a707da9e6611c830ce10bdbbd")))
+                 "e38b12771183fd43fb94c9fa562b20b5efeefc1b")))
         (sha256
           (base32
-            "0frjqmfg54d4qnafgh1cpyn03vrj9v4azp8dg8k259d9bbqpsbq2"))))
+            "0r4mq4kxbj2kfg3nwni0canp1nvzl7j9jvpi523bj0apfrab1p9v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -32688,17 +32688,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220821.2148")
+    (version "20220825.745")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "df848372a99bc481c163dcd9292c727ee94ca184")))
+                 "691d0cd36e6c09ecbc18537b7721dcb6d775e873")))
         (sha256
           (base32
-            "08nmsbpykrdj24mbxy9kpssn00g0lw6pakr01yzq9763c563x39x"))))
+            "043x68j8g0prv71xbpakw781jb56ywsg55bpf7b14lbb36v0mqvz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -43411,17 +43411,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220824.1716")
+    (version "20220825.46")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "2695870666ed0c699f26421963ce69a321ec6016")))
+                 "621642856832dff4f80ad60153b240991299d419")))
         (sha256
           (base32
-            "0ccivd9glkrk0bhd63lz3zw2n5gqz9g6br02yby28xk1kzx5i99k"))))
+            "10pv8c09hhzbsiq7gvcgaqjcn1sapql841vsky359dzd5nx0jzld"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -48674,17 +48674,17 @@
 (define-public emacs-hack-mode
   (package
     (name "emacs-hack-mode")
-    (version "20211224.19")
+    (version "20220825.127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hhvm/hack-mode.git")
                (commit
-                 "a522f61c088ee2a13ab17f289a3131329e59badf")))
+                 "26f06ffe82574f98e7da381e48202eceb8ef0793")))
         (sha256
           (base32
-            "0nz3mcrdkjjmnj0b1n3hs9hy2kbn004w64j2v6f2i8np2k2il6sd"))))
+            "0sbrrwlr64dkb1dnfblx5l8ypwmcjxwbzf7ppqjnw0n2wx466751"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/hhvm/hack-mode")
@@ -52048,17 +52048,17 @@
 (define-public emacs-helm-mu
   (package
     (name "emacs-helm-mu")
-    (version "20220824.757")
+    (version "20220825.715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-mu.git")
                (commit
-                 "f57e36415e29dd8122fc05b830b4331e4df970db")))
+                 "bf1def8c3e4d565072bb214c10ce6531bd8040a4")))
         (sha256
           (base32
-            "17izx0qi3s9x9jahwqp66xbapws8myj19k02b8ippal2nm7ykchr"))))
+            "1hspq2xszqyg8hzwbcya2abx3qrvay29g5bmpwm8dwn4k5ch1rgx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -62180,17 +62180,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20220720.1410")
+    (version "20220825.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "698ca35da04d99f25c8f075e8342015434f6a662")))
+                 "a82419796dbd2faf70b7cb41f484ccf36e6ae5dd")))
         (sha256
           (base32
-            "0n6nif6vci5dxq1s9vv2awf953pa2g5snpzg61jxbqsv533rn01y"))))
+            "1m2i9r02lk2inz87v5sk6zjhr0wkf8fbjwvzk80w1srga7f3ml4j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
