@@ -6937,17 +6937,17 @@
 (define-public emacs-beginend
   (package
     (name "emacs-beginend")
-    (version "20220811.1828")
+    (version "20220824.1605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/beginend.git")
                (commit
-                 "68b7b76dffc6c5f0df412b4154a72c15b915c6e0")))
+                 "d0aec04c05911a0d47b34625959e1950ead4e4bd")))
         (sha256
           (base32
-            "125rf4mikad98kj9s0ra2mrmj3hg5x8dz9v8lag2jabmcjxql42m"))))
+            "17m0dv2z8yf3cnc9fbvxcbg6mbk9vycws38rw6x5b05dg4vpi1pf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/DamienCassou/beginend")
@@ -13156,17 +13156,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220729.2246")
+    (version "20220824.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "ad322e989e56c10c05bb286e5b55a82b1e031d62")))
+                 "905abd0b42b081762c2df14015b5be49b206f53c")))
         (sha256
           (base32
-            "12m3yjhy4q0x3ri4xxb9raqg9lmw4hk4jgn436d9zvsk4fr3h1nd"))))
+            "0sfnp2l8q5xaz686mr67hag4493pghcj6lb3lh70fwwqb44w5zf6"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -13815,17 +13815,17 @@
 (define-public emacs-codespaces
   (package
     (name "emacs-codespaces")
-    (version "20220822.1255")
+    (version "20220824.1816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/patrickt/codespaces.el.git")
                (commit
-                 "e734b427446202cfed473cdb8a1b5b0fe708fab1")))
+                 "43cf115189b27c7b348b8bb22ef74160d2c942e7")))
         (sha256
           (base32
-            "1p6fc6yh9jwp7xb5rfkh0fmv4nbdgfb3r1wmh5b3m8lk2qf51n7c"))))
+            "0kw9w8viizb4dmmd21ajpldaxp63hqcradgv1y6qh358q42p2cqd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/patrickt/codespaces.el")
@@ -43411,17 +43411,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220823.1618")
+    (version "20220824.1716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "c681e2b2e92da2e856835449d7097bbe67394a52")))
+                 "2695870666ed0c699f26421963ce69a321ec6016")))
         (sha256
           (base32
-            "1nvjkz564dd8q7yr7n80psdxm12kwn62735xvzjwwa12w1hkx25d"))))
+            "0ccivd9glkrk0bhd63lz3zw2n5gqz9g6br02yby28xk1kzx5i99k"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -50286,17 +50286,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220824.736")
+    (version "20220824.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b778e722bd3613792661da527f16f99cfde23794")))
+                 "4e99cc8ef66aac2d824c456f58abe833be26c99d")))
         (sha256
           (base32
-            "0d1kdnmqvimcrikf5kp87887xpgch1v3k46c3a126c49ffvh5kpk"))))
+            "0lldprrgmr7gbnqfp0g7n342hgp3aqbfzv4n9dc51sg1fsdivpz4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -75098,17 +75098,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220818.728")
+    (version "20220824.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "c795a89a9c5a260995b9e5d667e68322bcfaad0e")))
+                 "5f22695256f909667ee416d5f26abc1bc809daf9")))
         (sha256
           (base32
-            "0rxpi5bxh9ysyihn95ilmpmkidmvb0yy8w851k83b73ggy8jwj1w"))))
+            "13g3r32xxcskcdbxjpmj5q8dks4pzil53q9hvg3j0h4622519y5c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -78913,17 +78913,17 @@
 (define-public emacs-ob-rust
   (package
     (name "emacs-ob-rust")
-    (version "20210204.244")
+    (version "20220824.1923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/micanzhang/ob-rust.git")
                (commit
-                 "30fe7e7181f44443d02e905dda77f83ec4944e76")))
+                 "be059d231fafeb24a658db212a55ccdc55c0c500")))
         (sha256
           (base32
-            "103j84iblzw87p12w1vjinfsq6zif47lvmjzs0456d8kwli0hpkp"))))
+            "0r6ckhnyr824s4isz8z6hbd7ix9fyg9pha115km9pvafhcw05xdn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/micanzhang/ob-rust")
@@ -79347,17 +79347,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20220812.2059")
+    (version "20220824.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "0952bcbac335a8eebe6f7d40458eb3342474ab42")))
+                 "324d614d36c2dc9dd5326952b7c44d40453b2b9d")))
         (sha256
           (base32
-            "0x7z9jvz1fa0b8wjsaxmcb8snf4l1s1z4va80ivn4wck0an4f9c9"))))
+            "0lv7j3l8fkfpvpm7367cildjvs1khkw05918hrz5ssyljsvp49pq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -83355,17 +83355,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220816.1327")
+    (version "20220824.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "6971f05eedf56b7fc0f95b0df4ac563fbd0e340f")))
+                 "5794fd8d1aa7bf89abb37f79574118951ad036a6")))
         (sha256
           (base32
-            "1098mjn3cpj5zawyl517i3dvrn7yyw2xk0fzl8acyzg3ncm9iqc2"))))
+            "1p29f9svvzlf2l8pr23azdgrqg4ab8b2jlhx4gz0z0xxmf8yd6iy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
