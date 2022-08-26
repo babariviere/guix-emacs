@@ -49454,17 +49454,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220822.659")
+    (version "20220826.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "26313b28d1c57ac0b46fec4fbf9741358050da03")))
+                 "ae2a726964271dbbce1b608eef6ad61c381c5450")))
         (sha256
           (base32
-            "0wrd8cmmhm0pcnvj240y9x6bj0wwjnc9vpn6066b53qc2csdbhzp"))))
+            "1hn22fbvd12vrjh88klh8yz3c2dp9fvz6c5lrfz0vbqnpx5w4sx7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -59326,17 +59326,17 @@
 (define-public emacs-iter2
   (package
     (name "emacs-iter2")
-    (version "20220501.1542")
+    (version "20220826.1337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/iter2.git")
                (commit
-                 "1abca3665ecfa6b016311906560f8be4fbb3e3db")))
+                 "0cfd73224557d3b8282f4f5b24cbbfa4e0120184")))
         (sha256
           (base32
-            "1jzd9kzxf3ncw40d55r1apw0cpk4i1a3s5p85mg9n20553cb6lhj"))))
+            "12hq64vp5sskfar9zci1jsjyfiyp2npiflz44skgz5ngvi57x0hj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/doublep/iter2")
     (synopsis "Reimplementation of Elisp generators")
@@ -65677,44 +65677,6 @@
       "Documentation at https://melpa.org/#/liberime")
     (license #f)))
 
-(define-public emacs-libgit
-  (package
-    (name "emacs-libgit")
-    (version "20220620.1118")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/magit/libegit2.git")
-               (commit
-                 "3f3d600f1708afbac449d02046e05782ac974866")))
-        (sha256
-          (base32
-            "0q20rchhiqqj7khzgkph3cpfp536yd836j8y8cy2s2zpj5j0mpra"))))
-    (build-system melpa-build-system)
-    (arguments
-      '(#:files
-        ("CMakeLists.txt"
-         ("libgit2" "libgit2/cmake")
-         ("libgit2" "libgit2/CMakeLists.txt")
-         ("libgit2" "libgit2/COPYING")
-         ("libgit2" "libgit2/deps")
-         ("libgit2" "libgit2/.HEADER")
-         ("libgit2" "libgit2/include")
-         ("libgit2" "libgit2/libgit2_clar.supp")
-         ("libgit2" "libgit2/libgit2.pc.in")
-         ("libgit2" "libgit2/script")
-         ("libgit2" "libgit2/src")
-         "libgit.el"
-         "Makefile"
-         "src"
-         "uthash")))
-    (home-page "https://github.com/magit/libegit2")
-    (synopsis "Thin bindings to libgit2.")
-    (description
-      "Documentation at https://melpa.org/#/libgit")
-    (license #f)))
-
 (define-public emacs-liblouis
   (package
     (name "emacs-liblouis")
@@ -69290,33 +69252,6 @@
     (synopsis "Magit plugin for Git LFS")
     (description
       "Documentation at https://melpa.org/#/magit-lfs")
-    (license #f)))
-
-(define-public emacs-magit-libgit
-  (package
-    (name "emacs-magit-libgit")
-    (version "20220615.1159")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/magit/magit.git")
-               (commit
-                 "c1fb53d3de6390961ccd8dfb1cc135383508d0fc")))
-        (sha256
-          (base32
-            "0chjz0vj40kwb0ay88ij4mg802r1q2mamd4b39p59crkqwp3qn93"))))
-    (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-compat emacs-libgit emacs-magit))
-    (arguments
-      '(#:files
-        ("lisp/magit-libgit.el"
-         "lisp/magit-libgit-pkg.el")))
-    (home-page "https://github.com/magit/magit")
-    (synopsis "(POC) Teach Magit to use Libgit2.")
-    (description
-      "Documentation at https://melpa.org/#/magit-libgit")
     (license #f)))
 
 (define-public emacs-magit-org-todos
@@ -86887,17 +86822,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220825.1637")
+    (version "20220826.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "22882e5635fd40f7115f46b1ae70f7708603d2ea")))
+                 "98790cfb9df0c888b768a8a517304c4159ebc424")))
         (sha256
           (base32
-            "1fa1cxr158rc43fr4s1bm4b8132yhjfwmqhxv2ay73p3nal9dvg0"))))
+            "1fgmaqds899vwwpla8dhdgxds3sg760hdxjm79wdbqzy2090zjc0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -105790,17 +105725,17 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220825.1457")
+    (version "20220826.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "502bf30af4c42d4223635730201b5bc1e52afec4")))
+                 "ba20a7b2f32dd8f7b53db5c72bde82650be35baf")))
         (sha256
           (base32
-            "09wdsi9gn6rdx0vc6imasbbg7x0wiixk10kxcldy0l6qbkmx1dls"))))
+            "1bkq5wndjqs4xrdlm8gvmnb4ck3mf6cm27psdc5sg9wiypp28a6v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -106899,17 +106834,17 @@
 (define-public emacs-sql-trino
   (package
     (name "emacs-sql-trino")
-    (version "20220502.851")
+    (version "20220826.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/regadas/sql-trino.git")
                (commit
-                 "bad7be0bf2f6d2d653a787a4b5bc6a281a8bea88")))
+                 "2b70cd73b801b9f8ac28dd18bf28c6408aa36d73")))
         (sha256
           (base32
-            "0b27b8nbghxfqynr6sfadpmwlsixn4hhqqmczc3i9i69sbm2m8a0"))))
+            "0x5da30c948fdr0lch1rdxfw031gfc23yab0vpbjy2mawnj18m8v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/regadas/sql-trino")
@@ -108129,19 +108064,18 @@
 (define-public emacs-subsonic
   (package
     (name "emacs-subsonic")
-    (version "20220403.1208")
+    (version "20220826.748")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~amk/subsonic.el")
-               (commit
-                 "e9acece0f840bc6ea096ae56e77573939a2c510c")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/subsonic-"
+               version
+               ".el"))
         (sha256
           (base32
-            "0pynzc34bzppdfl1bxkhb0r7z4c0kd1bil5vblnyn4gnjx00jb94"))))
+            "0c8pb6ss5cdh5lrv7hhv9c9zi1dkg3f3parrk9rzd1hz66kib5vw"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-transient))
     (home-page "https://git.sr.ht/~amk/subsonic.el")
     (synopsis
       "Browse and play music from subsonic servers with mpv")
@@ -108768,34 +108702,6 @@
       "Major-mode for Apple's Swift programming language")
     (description
       "Documentation at https://melpa.org/#/swift-mode")
-    (license #f)))
-
-(define-public emacs-swift-playground-mode
-  (package
-    (name "emacs-swift-playground-mode")
-    (version "20190717.2223")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://gitlab.com/michael.sanders/swift-playground-mode.git")
-               (commit
-                 "111cde906508824ee11d774b908df867142a8aec")))
-        (sha256
-          (base32
-            "1fr3fkxpkd5dk35fx656cx3h62zi74mnlvixb0vqpkn1qm2iwm55"))))
-    (build-system melpa-build-system)
-    (arguments
-      '(#:files
-        (:defaults
-          "SwiftPlayground.vim/runner.sh"
-          "SwiftPlayground.vim/*.swift")))
-    (home-page
-      "https://gitlab.com/michael.sanders/swift-playground-mode")
-    (synopsis
-      "Run Apple's playgrounds in Swift buffers")
-    (description
-      "Documentation at https://melpa.org/#/swift-playground-mode")
     (license #f)))
 
 (define-public emacs-swift3-mode
@@ -118800,17 +118706,17 @@
 (define-public emacs-whois
   (package
     (name "emacs-whois")
-    (version "20211104.812")
+    (version "20220826.1112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-whois.git")
                (commit
-                 "f22244202fdac5064d5eff95c6f35ae887b01142")))
+                 "1e4fd3a2001b5dd8f52190ef6ff6535d9aa981c4")))
         (sha256
           (base32
-            "0zv80aarrqlgnp7icvmm9yxlpc9qpdzn73lfrvrpry1rmv301wfp"))))
+            "1pjx56zr4bbfgx0x1i6r4krzv22jg2kjhapy8g9i8mi32m2iqwcb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-whois")
