@@ -8600,17 +8600,17 @@
 (define-public emacs-brazilian-holidays
   (package
     (name "emacs-brazilian-holidays")
-    (version "20210302.107")
+    (version "20220825.2222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jadler/brazilian-holidays.git")
                (commit
-                 "68811fd5f3e9d9c0572995c3ca46ead2c35eb421")))
+                 "eaf7684da40c2ad1162cee07f3ffd4c1881f7cf6")))
         (sha256
           (base32
-            "03p3s5cxyi3dzi4ry9l30dwcs9a3rbg8ijsb595hj56al80k9y3q"))))
+            "0n88kj3n8dqa7bi6y762apz88w8riqm56vnlqj0i7zcbjwxyddbd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jadler/brazilian-holidays")
@@ -9351,17 +9351,17 @@
 (define-public emacs-burly
   (package
     (name "emacs-burly")
-    (version "20220714.2053")
+    (version "20220825.2211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/burly.el.git")
                (commit
-                 "d95cf80cb4e06ef08c2589afb8ab72e369c0b97a")))
+                 "4a877f80252edac8dc7e613b1c5b3aa4e9b9137f")))
         (sha256
           (base32
-            "1v8a94hfnpv772y4k3j65spxsgs94w7g8fgy4yf19alz3n8q8665"))))
+            "06abnnn2bwzvlmp0cgiyj5cmi6bkcc5scllvxc343nwlqnxp4anh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/burly.el")
@@ -13815,17 +13815,17 @@
 (define-public emacs-codespaces
   (package
     (name "emacs-codespaces")
-    (version "20220824.1816")
+    (version "20220825.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/patrickt/codespaces.el.git")
                (commit
-                 "43cf115189b27c7b348b8bb22ef74160d2c942e7")))
+                 "c9a42e87dc38aedba6646bf2f4b1b4a6571b3b22")))
         (sha256
           (base32
-            "0kw9w8viizb4dmmd21ajpldaxp63hqcradgv1y6qh358q42p2cqd"))))
+            "1pgsmdsjh5d9vzp5yr386n91sl7rh208ji1bf677hg5b580qclw0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/patrickt/codespaces.el")
@@ -21187,17 +21187,17 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220823.2025")
+    (version "20220825.1830")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~niklaseklund/detached.el")
-               (commit
-                 "8a76055290aae3e9b555a055498e71591032e995")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/detached-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "0mgxd82p8yqj1gdbck30yjv5pa2kggpsc9p9r93m4w9q6inczk11"))))
+            "1ywr0kf0bw7qzkjm1klzn2gb9hl96wgd8sb5y20jz6ar089fjm2l"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -27465,17 +27465,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220816.1746")
+    (version "20220825.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "067134a9bfe6326de258f0af666a53e13a9b4a93")))
+                 "9b3f351a7234901958d8bc4fc4623268aadb904b")))
         (sha256
           (base32
-            "1w44rhs5m3s85jrc1fhrry214f3d3ffw7yrgrlzmpalyg8mng39m"))))
+            "1nm68vglnszkydjni1g07n0k5d101sxrpn1cq396mj9nxf0dhfgi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -36052,17 +36052,17 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20220701.1956")
+    (version "20220825.1549")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~technomancy/fennel-mode")
-               (commit
-                 "5664357349462d0564c0bb55cb289a6722f0ecbc")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/fennel-mode-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "11l6qhjbmi2367g12gz0rific7ji4qvqxwv76371rawsxbmrv29p"))))
+            "08yicz09c69ia0jlgjk4gvsi6shyr0qnjgcns3h51jp8xcwgd6qk"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -43388,17 +43388,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220825.46")
+    (version "20220825.1804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "621642856832dff4f80ad60153b240991299d419")))
+                 "40f03bbad917a16ffda0e4b5d5795a2875bc0428")))
         (sha256
           (base32
-            "10pv8c09hhzbsiq7gvcgaqjcn1sapql841vsky359dzd5nx0jzld"))))
+            "1pm33zlcq84h61xhplmrlicckrax1pv39zrmv8ryzhi9mqrb6bdg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -61181,17 +61181,17 @@
 (define-public emacs-jmt-mode
   (package
     (name "emacs-jmt-mode")
-    (version "20220812.145")
+    (version "20220825.1612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Michael-Allan/Java_Mode_Tamed.git")
                (commit
-                 "75e484849a43e4ee844c1a63258e9ff1979cd06f")))
+                 "ed80b7d736b2f0909dfa9a40be2bba80ea513d7b")))
         (sha256
           (base32
-            "1lpb46vw5gp4fyi0ax7v4gjlrfbsfyjsbdd2380ps347v6z1x2pi"))))
+            "1h4ciihwclvgmgw9z79a9rfxkqyp0p2jh58h6ddpynn4768b7lsk"))))
     (build-system melpa-build-system)
     (home-page "http://reluk.ca/project/Java/Emacs/")
     (synopsis "Java Mode Tamed")
@@ -68065,17 +68065,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220824.721")
+    (version "20220825.1832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9c47b6d44f6fd78410f13e496d83682dbd52da0e")))
+                 "876a9bd0cbfb9fe4e760598698826db86b7a98ac")))
         (sha256
           (base32
-            "0gn63a5bmnf8l3ddq7rw2afmy3r7i5z92zy7zfkprq92322ibzks"))))
+            "1q28m6dffwqdnfmzc8qf4iwc1dq86vsgavfx2k1h5nxfh2hd20jq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82985,17 +82985,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20220819.838")
+    (version "20220825.2155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "d7ada532c7d06e91d6e07800ca22d5fbdb970e3e")))
+                 "e41cdb45912f1731b5b060f9e05d011096663655")))
         (sha256
           (base32
-            "0nj1dvg30wj84ayqkjifxi1h0g1kjkm6nhhq59w13pkl2q0w5ygw"))))
+            "1xhwypxzcq0b1rcm12ra5lylhp83hh4p5klqjb6f4qy34id3wr41"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -86888,17 +86888,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220815.1311")
+    (version "20220825.1637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "b137f76ae76dd7c2e9648a352a679099f1b0f101")))
+                 "22882e5635fd40f7115f46b1ae70f7708603d2ea")))
         (sha256
           (base32
-            "11h62pmnisp4va4gf0pdwgyrvzm2ikbgkh000fbap1g04a6jx076"))))
+            "1fa1cxr158rc43fr4s1bm4b8132yhjfwmqhxv2ay73p3nal9dvg0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -99733,17 +99733,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220801.1851")
+    (version "20220825.1846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "4e7846ea4174fa6f56f5c1173e72fc9743812245")))
+                 "79668110a6b4a7ec4c5d2eb08b1c42dfe35f189e")))
         (sha256
           (base32
-            "11pq39zmr1ihwg5rkdkgvb2j304fsi1md450s4dirhzjqd4lbn1b"))))
+            "1yznd44c0f32c7fp8jm5nsj3z3lcz3q6nfbwpqfinqywy3z0kna2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -105791,7 +105791,7 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220825.729")
+    (version "20220825.1457")
     (source
       (origin
         (method git-fetch)
@@ -109906,17 +109906,17 @@
 (define-public emacs-tangonov-theme
   (package
     (name "emacs-tangonov-theme")
-    (version "20220816.2316")
+    (version "20220825.1535")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/trev-dev/tangonov-theme.git")
-               (commit
-                 "398ee944df315a321e9a212d65b79b490e4dbb98")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/tangonov-theme-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1wfsd7vzlxndnlghl6812hn09n4prd5fs6vj55bj0bdbhj706pfc"))))
+            "1c0i4m3vdh0s4vfzp2h6ri3hjf9y7i7ww65r511b9rp60kv1d8z0"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~trevdev/tangonov-theme/")
@@ -121261,17 +121261,17 @@
 (define-public emacs-yard-mode
   (package
     (name "emacs-yard-mode")
-    (version "20170817.1237")
+    (version "20220825.2203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pd/yard-mode.el.git")
                (commit
-                 "ba74a47463b0320ae152bd42a7dd7aeecd7b5748")))
+                 "ef3426ff55b6e91d581c8da12f5f64855d932527")))
         (sha256
           (base32
-            "0zry3p66bvrk32icnd6kkk8y5rrr8crnqjp6wlp889c8c7wm00n1"))))
+            "18d2lqbnhb6sdh4sisfaqgrpfnqfr0fnbk3k9014a771aqns32sc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/pd/yard-mode.el")
     (synopsis "Minor mode for Ruby YARD comments")
