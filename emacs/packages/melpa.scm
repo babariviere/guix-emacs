@@ -9067,21 +9067,20 @@
 (define-public emacs-buffer-sets
   (package
     (name "emacs-buffer-sets")
-    (version "20220821.1413")
+    (version "20220825.2335")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~swflint/buffer-sets")
-               (commit
-                 "d0e4c86960d0a36cabdc34d860722fd304646a88")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/buffer-sets-"
+               version
+               ".el"))
         (sha256
           (base32
-            "03c3msy03130glqg1mxcrj1acy6cgvmz8931p2970i5zn3sys7yc"))))
+            "120cvkmp9km8dlr6bjyy5a4b45w58x0gm2iv9783yk5g5a8lbndn"))))
     (build-system melpa-build-system)
-    (arguments '(#:files ("buffer-sets.el")))
     (home-page
-      "http://github.com/swflint/buffer-sets")
+      "https://git.sr.ht/~swflint/buffer-sets")
     (synopsis
       "Sets of Buffers for Buffer Management")
     (description
@@ -72997,17 +72996,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220823.1919")
+    (version "20220826.129")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~protesilaos/modus-themes")
-               (commit
-                 "777089c0ffaabadc10cefead3737fabe24b9004c")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/modus-themes-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "16n87jns4i72369zm5xsa7skqcrq6bf5w1bxwn7q5w4h1694ry2g"))))
+            "15pvgahs49xhqwvmr05bjp8isgwxs5rss7h82hz1x7kzp3cy6i4q"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -75075,17 +75074,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220824.2032")
+    (version "20220826.618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "5f22695256f909667ee416d5f26abc1bc809daf9")))
+                 "2517f1f84904c28ba25d6687a8f01e818e10e273")))
         (sha256
           (base32
-            "13g3r32xxcskcdbxjpmj5q8dks4pzil53q9hvg3j0h4622519y5c"))))
+            "0qsgz1r29vvayqhyxa6i00nzd5zqizpibfc1bvfg1a5n2xzxi549"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -82127,17 +82126,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220822.1337")
+    (version "20220826.139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "5309895a7616e04a55a9dd397100adfe35fcec60")))
+                 "0565a7ca247834e19fa03cd7517f03666cd0ec80")))
         (sha256
           (base32
-            "0fzd65p38s1xr3xcji2gficl1lxrb1ip9hnd7hlrab955www2ip7"))))
+            "1r298agdkh7myygad77xcz5jj3gnkp1w8hhg62ygakrbv29id7ns"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -106332,17 +106331,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220824.154")
+    (version "20220826.158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "3e9b59dbdb81a8ade36f21ae57690df5922a67b5")))
+                 "03e2065006fabf5a9529c1b061a1731e1f75bdd8")))
         (sha256
           (base32
-            "1c01v5mdqvsn01pxcd7h7qrr2cqxl6hgpisz8m3gigabj0lx1r6d"))))
+            "0hs4brkayjz5x3mp2pqzp3xvrycb5lsrsyac6kdx20sdzf8a2y7c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
