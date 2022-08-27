@@ -1811,21 +1811,21 @@
 (define-public emacs-adoc-mode
   (package
     (name "emacs-adoc-mode")
-    (version "20220720.622")
+    (version "20220826.1507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/emacsorphanage/adoc-mode.git")
+               (url "https://github.com/bbatsov/adoc-mode.git")
                (commit
-                 "e0d08ee6d29289a475796e22b2298b028c02b408")))
+                 "888a38beb2287f2bde0ce91f4baec9343aaf8eeb")))
         (sha256
           (base32
-            "1dp3av91rwq87vfgwpgi622imbv0z79znnfx0r6f5i06xn1ag5bv"))))
+            "0wf3zn1fh1fkb0q4948jlxhihdjvlxqyabzv7m4s8axkr6l1hgyx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markup-faces))
     (home-page
-      "https://github.com/emacsorphanage/adoc-mode")
+      "https://github.com/bbatsov/adoc-mode")
     (synopsis
       "a major-mode for editing AsciiDoc files in Emacs")
     (description
@@ -13814,17 +13814,17 @@
 (define-public emacs-codespaces
   (package
     (name "emacs-codespaces")
-    (version "20220825.2107")
+    (version "20220826.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/patrickt/codespaces.el.git")
                (commit
-                 "c9a42e87dc38aedba6646bf2f4b1b4a6571b3b22")))
+                 "68ecd1e9fb11d3fd018c7f816f2d99086c375d8b")))
         (sha256
           (base32
-            "1pgsmdsjh5d9vzp5yr386n91sl7rh208ji1bf677hg5b580qclw0"))))
+            "108s7ibvr08w61674qjda901qqz6clglp4jfxdkgfc9cy9d3zr0l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/patrickt/codespaces.el")
@@ -27464,17 +27464,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220825.1958")
+    (version "20220826.1531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "9b3f351a7234901958d8bc4fc4623268aadb904b")))
+                 "b32a8427189c674558047e168b86b00723af5cbb")))
         (sha256
           (base32
-            "1nm68vglnszkydjni1g07n0k5d101sxrpn1cq396mj9nxf0dhfgi"))))
+            "158jc6bncybd2hdyh1x8cw0851c6k0l15sjvyrn50j5v03s51fas"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -34759,17 +34759,17 @@
 (define-public emacs-exec-path-from-shell
   (package
     (name "emacs-exec-path-from-shell")
-    (version "20210914.1247")
+    (version "20220826.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/exec-path-from-shell.git")
                (commit
-                 "3a8d97c096c2c5714b667130fd8a80d5622ee067")))
+                 "dff9ce3577bf3f2938d9bde8ec8aa4fef3b061f3")))
         (sha256
           (base32
-            "1fdfg9zblk82546fhmha84lz45g4nrgmqqq39jsr601axalfkl7q"))))
+            "18260wml2x3di3nqcsvbi5ic1vzni4amrjjldq8f38nhkkk4p7vh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/exec-path-from-shell")
@@ -59326,7 +59326,7 @@
 (define-public emacs-iter2
   (package
     (name "emacs-iter2")
-    (version "20220826.1337")
+    (version "20220826.1344")
     (source
       (origin
         (method git-fetch)
@@ -63945,17 +63945,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20220825.1510")
+    (version "20220826.1854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "01cac797e40df2635384f53be55789fdbdb36b4f")))
+                 "5367baf5511256b255aad6cefc8f0651bd596830")))
         (sha256
           (base32
-            "0m9hm7y5nnd4gr6m1q6s0jylmm0j0r7jnpsvpyldx6psq9zyfqqf"))))
+            "00a8ni00ylz5gfbpw3gzh633b3h30r2ycllrcpv1a2dvzm16xxvg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -68026,17 +68026,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220825.1832")
+    (version "20220826.1855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "876a9bd0cbfb9fe4e760598698826db86b7a98ac")))
+                 "432081360e50d25cd6e0ed40f5cb11c768e3b987")))
         (sha256
           (base32
-            "1q28m6dffwqdnfmzc8qf4iwc1dq86vsgavfx2k1h5nxfh2hd20jq"))))
+            "1mmkj8h983fc1a1f41p8wvj8szlhp0h1cimy71cxh7k4z2sd5pfn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83778,17 +83778,17 @@
 (define-public emacs-org-super-agenda
   (package
     (name "emacs-org-super-agenda")
-    (version "20220817.2351")
+    (version "20220826.2315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-super-agenda.git")
                (commit
-                 "fcc860190682274989fef15385c37c02895078df")))
+                 "f4f528985397c833c870967884b013cf91a1da4a")))
         (sha256
           (base32
-            "1yk2rw6k7cb34j2n0wc0jkdsx8y1aacp865dmjja3jk8n7ab2rrz"))))
+            "0f0bafwbj70nfr2vj8h62az3sr8ff7zb7sir9isk853crzp0rclz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-ht emacs-ts))
@@ -83937,17 +83937,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220820.102")
+    (version "20220826.2149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "28eceb17131a4a5de79ce06f867bce49d1a04b78")))
+                 "fcf655db6c343dbc017d8f1b91af4e0efcbd408c")))
         (sha256
           (base32
-            "0smsww8k9vpz0i0sxlw1ys49zrdgl88yxz4iw832p3c6k0hpp0sd"))))
+            "05a8v9hxnwy0g3pl37bika4mbypcia50bfjkh261ay5fri01i87w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -105725,17 +105725,17 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220826.1301")
+    (version "20220826.1628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "ba20a7b2f32dd8f7b53db5c72bde82650be35baf")))
+                 "fcb4cf648d4bf45d9e5dd3a2fb7f59f8faf99d19")))
         (sha256
           (base32
-            "1bkq5wndjqs4xrdlm8gvmnb4ck3mf6cm27psdc5sg9wiypp28a6v"))))
+            "0z73jvjjpvf05vlm5l9bj3yhc202d6vpfrfnn7vaccxy8f1q1a5x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
