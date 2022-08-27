@@ -4326,17 +4326,17 @@
 (define-public emacs-async-await
   (package
     (name "emacs-async-await")
-    (version "20220825.946")
+    (version "20220827.437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chuntaro/emacs-async-await.git")
                (commit
-                 "46cd65bdac59c85ce54e3bf3ce6ea2849a0331d4")))
+                 "e0d15e8057ed7520100bc50c5552278292ebcb07")))
         (sha256
           (base32
-            "1x4i5rbp2srv7cwdm4nm7xkli56r9j7rdlbn5khp6fgaiwzldj6i"))))
+            "1yjkirjwr1mngl13i1zsk0bip18nn85zbc3d175a23mv6i56c0yq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-promise emacs-iter2))
@@ -5676,17 +5676,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220824.2009")
+    (version "20220827.200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "378f8707bdd944f19b6fd4544359e993c9113752")))
+                 "99c94627bda8ee0dfdf4dfe7dfb2245b5ef3bb0a")))
         (sha256
           (base32
-            "1p7ii7f0w607zxyqnr8ivi0n0sg2p93pi6dpd9kjqywdagqyrnw1"))))
+            "1gpx067j82qcmaw0yk8bpvz3gd8v81mz3g94ca6xnvsq0irhbaw7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -43318,17 +43318,17 @@
 (define-public emacs-geben
   (package
     (name "emacs-geben")
-    (version "20210830.422")
+    (version "20220827.105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahungry/geben.git")
                (commit
-                 "d3706387ed25b3037338572f3968b4cc2d8825a0")))
+                 "1779492d73534e18fbcfdd7c6cc175859527d019")))
         (sha256
           (base32
-            "05kvg13mknn4xgzik637kgg5qa7qhz3626v2ny2p86lga1pzm3yq"))))
+            "161916kz125ah5msh8c02inmlr3rr858k6ywb18x27pnqx6n8lvg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ahungry/geben")
     (synopsis
@@ -81067,17 +81067,17 @@
 (define-public emacs-org-contacts
   (package
     (name "emacs-org-contacts")
-    (version "20220609.126")
+    (version "20220827.135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-contacts.git")
                (commit
-                 "dba21b48952e78e9db27e25628bcfb0353c19b24")))
+                 "919511eb86975353eab78842f6b68e65f55fd44d")))
         (sha256
           (base32
-            "0nmg8p4wxp05ipic9sza7d7rp72h3lnfc793y83c7jbzhv71mri2"))))
+            "0wd92136idgn07d1gnfim9xzvwf53y8kn2z2wkkjn8ldwbfvc9p7"))))
     (build-system melpa-build-system)
     (home-page "https://repo.or.cz/org-contacts.git")
     (synopsis
@@ -83937,17 +83937,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220826.2149")
+    (version "20220827.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "fcf655db6c343dbc017d8f1b91af4e0efcbd408c")))
+                 "a44381d92c342455ab4df218df12a6a084531402")))
         (sha256
           (base32
-            "05a8v9hxnwy0g3pl37bika4mbypcia50bfjkh261ay5fri01i87w"))))
+            "1x8p800xbh64wnz72j9njrs788525pnnbr1i0xsfv283ps73y2qn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -105725,17 +105725,17 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220826.1628")
+    (version "20220827.608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "fcb4cf648d4bf45d9e5dd3a2fb7f59f8faf99d19")))
+                 "e7cf0221b4ab9d773df70e8dbb123776362f8e5a")))
         (sha256
           (base32
-            "0z73jvjjpvf05vlm5l9bj3yhc202d6vpfrfnn7vaccxy8f1q1a5x"))))
+            "0n14ffvy8m47h62i6l1y8zl1bic31gj4x43wqw322aqw8p3q1j0r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -117135,17 +117135,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220822.1158")
+    (version "20220827.239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "f104e3a11c9ff33ccc0e086cffaadc9549e9e8b1")))
+                 "0091bb026637cd6fa6035052d7449df204e53044")))
         (sha256
           (base32
-            "1pcqj1w3gi5bqwwb45z30zmhd2klrq76w1vbxf7l9kq9j5m590x9"))))
+            "03z6x4ycvm2pvnk4prbip5ab06jj11qi54ac5l9hk08d8wh3jimp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
