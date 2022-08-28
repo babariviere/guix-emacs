@@ -1811,17 +1811,17 @@
 (define-public emacs-adoc-mode
   (package
     (name "emacs-adoc-mode")
-    (version "20220826.1507")
+    (version "20220828.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/adoc-mode.git")
                (commit
-                 "888a38beb2287f2bde0ce91f4baec9343aaf8eeb")))
+                 "800c316c90d335a1678f152fcf987f505a492ffe")))
         (sha256
           (base32
-            "0wf3zn1fh1fkb0q4948jlxhihdjvlxqyabzv7m4s8axkr6l1hgyx"))))
+            "1jdizknrg63wdlk8l9454m2azws7h8gnm409drqbl6j1x3d3kq4v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markup-faces))
     (home-page
@@ -84027,17 +84027,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220827.531")
+    (version "20220828.951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "a44381d92c342455ab4df218df12a6a084531402")))
+                 "336869e8ab845669a021f1ee78aef6f44344bc79")))
         (sha256
           (base32
-            "1x8p800xbh64wnz72j9njrs788525pnnbr1i0xsfv283ps73y2qn"))))
+            "1b7crcr0cc1g0rgpgp2rk10ly02wnh9k1c47r37ayz8jghi00zj5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -86912,17 +86912,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220826.1311")
+    (version "20220828.925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "98790cfb9df0c888b768a8a517304c4159ebc424")))
+                 "ac2abd863047e5437398f5d58fe38c4a17062401")))
         (sha256
           (base32
-            "1fgmaqds899vwwpla8dhdgxds3sg760hdxjm79wdbqzy2090zjc0"))))
+            "1z5lv9xyhf2jgd7ifb83ksihqakvik74d0dhfdnn029jrf8z5nf2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
