@@ -5565,17 +5565,17 @@
 (define-public emacs-autocrypt
   (package
     (name "emacs-autocrypt")
-    (version "20220526.1846")
+    (version "20220827.1746")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~pkal/autocrypt")
-               (commit
-                 "5fae83ac0501a26c92e022218341c21cc71e463c")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/autocrypt-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "01ib6lzywssm81mwi72aaavkp078kkbgvnhi0gl09vgn2pba78va"))))
+            "0asx0m1fn08rpx547znncmd8j4gx3xj0269zqzmdl6nrkr65i10s"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~pkal/autocrypt")
     (synopsis "Autocrypt implementation")
@@ -6101,22 +6101,21 @@
 (define-public emacs-back-button
   (package
     (name "emacs-back-button")
-    (version "20150804.2004")
+    (version "20220827.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rolandwalker/back-button.git")
                (commit
-                 "98d92984a740acd1547bd7ed05cca0affdb21c3e")))
+                 "f8783c98a7fefc1d0419959c1b462c7dcadce5a8")))
         (sha256
           (base32
-            "0rj6a8rdwa0h2ckz7h4d91hnxqcin98l4ikbfyak2whfb47z909l"))))
+            "0r9l9krkk955d5mx6q947lf6pqvb0zzyvhlxicb28y2zhg3s26x9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-nav-flash
             emacs-smartrep
-            emacs-ucs-utils
             emacs-list-utils
             emacs-persistent-soft
             emacs-pcache))
@@ -11062,6 +11061,29 @@
       "Unit testing in Emacs for several programming languages")
     (description
       "Documentation at https://melpa.org/#/cerbere")
+    (license #f)))
+
+(define-public emacs-cern-ldap
+  (package
+    (name "emacs-cern-ldap")
+    (version "20220827.1324")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/cern-ldap-"
+               version
+               ".el"))
+        (sha256
+          (base32
+            "0wfxm5rw32m0kvynixff5zklprz0yd776zzzx9rx56vfhpairxjy"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.sr.ht/~nbarrientos/cern-ldap.el")
+    (synopsis
+      "Library to interact with CERN's LDAP servers")
+    (description
+      "Documentation at https://melpa.org/#/cern-ldap")
     (license #f)))
 
 (define-public emacs-cern-root-mode
@@ -22198,17 +22220,17 @@
 (define-public emacs-dired-git
   (package
     (name "emacs-dired-git")
-    (version "20200527.732")
+    (version "20220828.6")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/conao3/dired-git.el.git")
                (commit
-                 "82c93bdb2fe392b122f79d2e425c632f1c69ede3")))
+                 "e84387b947cd707d3ff0c039ddef753a468f88e7")))
         (sha256
           (base32
-            "134f97zk7q2fvqphfgbjdbwlgrrnq51v0zrv6aw8c8n7fln5ap93"))))
+            "04jlaxrqfx5k9pra6iv6fb1zw6jrdck9nn25imxj5643z7dl248r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async-await
@@ -29134,22 +29156,23 @@
 (define-public emacs-elx
   (package
     (name "emacs-elx")
-    (version "20220331.2252")
+    (version "20220717.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/elx.git")
                (commit
-                 "ea0b10340b22e8dd0454fe37ba84ff2157fada4f")))
+                 "2432d4bea001653384c592a11fcc96ecaa5e834f")))
         (sha256
           (base32
-            "1p2jcq3yyasad6c9dbnc4sm3ksx1z023s1j55qfffl238rh0kgrh"))))
+            "108frsb0jk21k2gbiy4wyrl20ky20salz1fhxqcgnzcxjsxc9y5k"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page
       "https://github.com/emacscollective/elx")
     (synopsis
-      "extract information from Emacs Lisp libraries")
+      "Extract information from Emacs Lisp libraries")
     (description
       "Documentation at https://melpa.org/#/elx")
     (license #f)))
@@ -32081,17 +32104,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20220815.2020")
+    (version "20220827.2008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "9675bf58bd7237e2762e24501ccc5a6b4e031333")))
+                 "c041ac58a648f2d85dbc7ec39c74adb9381f1dda")))
         (sha256
           (base32
-            "127nrx9sd251yr0dg53rra49p4wzgsrxb5f6h5bx29wmfwb7xb67"))))
+            "1pny32scyzf63nfjfjqhr6x38q7zyza4i94b7c5xs0rm3cqipwwr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -58916,6 +58939,28 @@
       "Documentation at https://melpa.org/#/iplayer")
     (license #f)))
 
+(define-public emacs-ipp
+  (package
+    (name "emacs-ipp")
+    (version "20220827.1612")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emarsden/ipp-el.git")
+               (commit
+                 "27ba2970f522b8c1f00f5d1f9fe7313b5f7a48bc")))
+        (sha256
+          (base32
+            "0317h5qqjr626qjyh0wcy7q5mmg8r183swbj1lg0gx3znif5d95m"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/emarsden/ipp-el")
+    (synopsis
+      "Implementation of the Internet Printing Protocol")
+    (description
+      "Documentation at https://melpa.org/#/ipp")
+    (license #f)))
+
 (define-public emacs-ipretty
   (package
     (name "emacs-ipretty")
@@ -71036,6 +71081,29 @@
       "Documentation at https://melpa.org/#/md4rd")
     (license #f)))
 
+(define-public emacs-media-thumbnail
+  (package
+    (name "emacs-media-thumbnail")
+    (version "20220821.255")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jojojames/media-thumbnail.git")
+               (commit
+                 "e90e3b556ec5f342446707475615817d3f96aa80")))
+        (sha256
+          (base32
+            "1lh2h9j3gzkqch4qv7x59346fxkf05dr5jv3zvnf3sp25d5cw79x"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/jojojames/media-thumbnail")
+    (synopsis
+      "Utility package to provide media icons")
+    (description
+      "Documentation at https://melpa.org/#/media-thumbnail")
+    (license #f)))
+
 (define-public emacs-mediawiki
   (package
     (name "emacs-mediawiki")
@@ -80732,6 +80800,28 @@
     (synopsis "Emacs bookmark support for org-mode")
     (description
       "Documentation at https://melpa.org/#/org-bookmark-heading")
+    (license #f)))
+
+(define-public emacs-org-bookmarks-extractor
+  (package
+    (name "emacs-org-bookmarks-extractor")
+    (version "20220822.19")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jxq0/org-bookmarks-extractor.git")
+               (commit
+                 "0b170db2a393bb1d79d95fda8ca0eb21b85fceaa")))
+        (sha256
+          (base32
+            "1ri1c4xbirxyzrp6sj1i0a58d2f5izyff9wls4ipnb894llbqsba"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/jxq0/org-bookmarks-extractor")
+    (synopsis "Extract bookmarks from Org mode")
+    (description
+      "Documentation at https://melpa.org/#/org-bookmarks-extractor")
     (license #f)))
 
 (define-public emacs-org-books
