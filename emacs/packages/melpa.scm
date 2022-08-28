@@ -6443,17 +6443,17 @@
 (define-public emacs-base16-theme
   (package
     (name "emacs-base16-theme")
-    (version "20220821.127")
+    (version "20220828.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/base16-project/base16-emacs.git")
                (commit
-                 "d70a96152a3d2d66776012ec7e578f93d7c6aa2c")))
+                 "a53091ca225b70136e8e3a1f693d0e856022dd31")))
         (sha256
           (base32
-            "0cn3pbsjyksi1a8hvvm1s3xyanbv5yw71l4ik349ilf7k9l7n23d"))))
+            "07yqdqidhch8q2baqfrai7nqa4mn9cr45l7nq97z8aq0x57ws7xh"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "build/*.el")))
     (home-page
@@ -42904,17 +42904,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20220817.1234")
+    (version "20220827.2321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "fa62f9624a6847dac594ab9f9a3154105ba2e3ef")))
+                 "27baf4c5bd7c38876f8c408628e4a8d966849cd1")))
         (sha256
           (base32
-            "16ra07ry0gnkimab125971q32aza1zrc4yw4f73cvvphv4ri9f9m"))))
+            "1ysi6mbcsjm4z2s66ads0g41gp2gyhqnajiw5bpl258y7pcj4ml2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -71084,7 +71084,7 @@
 (define-public emacs-media-thumbnail
   (package
     (name "emacs-media-thumbnail")
-    (version "20220821.255")
+    (version "20220827.2325")
     (source
       (origin
         (method git-fetch)
