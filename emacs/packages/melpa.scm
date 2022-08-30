@@ -12029,17 +12029,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220824.759")
+    (version "20220830.500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "5bba4856fb42636bd52d1a1ebb4997a8806df759")))
+                 "20debc82696bdd5ce807618d02665b92a4274492")))
         (sha256
           (base32
-            "0v45bj46y0y8v3mi69zak827qpxhhci7ij72nr6p3ij4h24m7980"))))
+            "1ykl1xlvkg0s9mam62wpiwy14k7jwdwa1z31qhxn3ns4z8z91rrj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -42693,17 +42693,17 @@
 (define-public emacs-fsbot-data-browser
   (package
     (name "emacs-fsbot-data-browser")
-    (version "20160921.1533")
+    (version "20220830.230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Benaiah/fsbot-data-browser.git")
                (commit
-                 "6bca4f7de63e31839d2542f6c678b79931dec344")))
+                 "27455860fec01ca47bf98b85f093cc24b9852bef")))
         (sha256
           (base32
-            "0lvpgfp89sz6f6rn576g1g88s0q3ibj5ghydjwfcg9w6h7vx5b5s"))))
+            "10l6s1jfhrbsxi60la10viqnwsfdxn7gxnbbsjyimpda9kh2ny8y"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/benaiah/fsbot-data-browser")
@@ -53898,17 +53898,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20220704.1722")
+    (version "20220830.456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "94a07d49a80f66f8ebc54a49a4b4f6899a65fbe3")))
+                 "6633d82c6e3c921c486ec284cb6542f33278b605")))
         (sha256
           (base32
-            "1cyac6vvliavhbgmsnrxzay9jgpq00vp0hzbs24amf4djw6j10f1"))))
+            "0dc4w3459nnirg1km43k0bkxn1qwz5lfx5k9fqii29a5b3yb38c3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73064,7 +73064,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220826.129")
+    (version "20220830.206")
     (source
       (origin
         (method url-fetch)
@@ -73074,7 +73074,7 @@
                ".tar"))
         (sha256
           (base32
-            "15pvgahs49xhqwvmr05bjp8isgwxs5rss7h82hz1x7kzp3cy6i4q"))))
+            "1l4gqx77byav193dfgxxb803y2m8x0dyv8jjgi63n6agsqfmdmrg"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -78158,17 +78158,17 @@
 (define-public emacs-ob-compile
   (package
     (name "emacs-ob-compile")
-    (version "20220413.228")
+    (version "20220830.315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TxGVNN/ob-compile.git")
                (commit
-                 "eb4fca6dc728cdc1e73d5d7ca8cad0f4cb1ad36a")))
+                 "9a16b3dd0f467c091e91944b90a2ca3d646d6617")))
         (sha256
           (base32
-            "0y7pfb6q90mxh8rv0cdz4m28jb2alnwpkhhb7iyyhh0n4166da23"))))
+            "0ajs108ib4g57sik31m81hw6ln11gcyrx96x4f1d6hx73c8i8nk7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/TxGVNN/ob-compile")
@@ -117316,17 +117316,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220827.1455")
+    (version "20220830.320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "45b5be43b3265c9f415d0eec68a606db1e863db1")))
+                 "0838ee3b3b77f0a6945b57bca87315acf650479f")))
         (sha256
           (base32
-            "0iqlzpy83ra6xz406fmddfj72bmkdb5b1j59m1dbxf3wxn55320d"))))
+            "0shv57rd4j613wx138hh45bpl9qa3p5hhgc74rvqgm0rcx1vidyq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
