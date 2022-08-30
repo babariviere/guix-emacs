@@ -13177,17 +13177,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220824.1801")
+    (version "20220830.1036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "905abd0b42b081762c2df14015b5be49b206f53c")))
+                 "68e0e1355cd21e0752a24432afa091ada4b35b8e")))
         (sha256
           (base32
-            "0sfnp2l8q5xaz686mr67hag4493pghcj6lb3lh70fwwqb44w5zf6"))))
+            "1jpvz61593f1445ij6hkydcnmdbp5573x7jd8my5ki84avd1r2zj"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -21208,7 +21208,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220825.1830")
+    (version "20220830.834")
     (source
       (origin
         (method url-fetch)
@@ -21218,7 +21218,7 @@
                ".tar"))
         (sha256
           (base32
-            "1ywr0kf0bw7qzkjm1klzn2gb9hl96wgd8sb5y20jz6ar089fjm2l"))))
+            "15sg9k527dmypc57jv54bssnq5ya9dph2v518vb2y1vja0bzxdxb"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220829.1542")
+    (version "20220830.1234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "782fadae0ee9d6314bce5c89dc33e1d327aa63de")))
+                 "60fda8a5f515875f670c22337707866ca0249920")))
         (sha256
           (base32
-            "1amygh607dkc4gcvm4bmbp25af999pqx0qqa6iazdw6292c2nan5"))))
+            "0ns84xcmx2621q4flazv1ihww5han7m4kh2vswvskna1max2z74g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25771,17 +25771,17 @@
 (define-public emacs-echo-bar
   (package
     (name "emacs-echo-bar")
-    (version "20220705.2212")
+    (version "20220830.1322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qaiviq/echo-bar.el.git")
                (commit
-                 "b00e80acbbb708a3528c7b376dfb216deb64e4fe")))
+                 "dee94a0051395e3a0eda516131b7bf4874ab6109")))
         (sha256
           (base32
-            "081rmpbkq2fx1jx71hfz61szaimcpjh933sa4vqz2cn7cf2l4n5s"))))
+            "0nn6vyqcka5gq9ibnqw14k2zxr2hz60y9zswr2y0inpvphaigykl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qaiviq/echo-bar.el")
@@ -32687,17 +32687,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220825.745")
+    (version "20220830.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "691d0cd36e6c09ecbc18537b7721dcb6d775e873")))
+                 "26ec0cda1bcb899ae37086a1268a055484171519")))
         (sha256
           (base32
-            "043x68j8g0prv71xbpakw781jb56ywsg55bpf7b14lbb36v0mqvz"))))
+            "1klh8zx0pmq4lca8c33714h1qczxp3wlqxaqdg31lawvg3cdm5hp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -34351,17 +34351,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220819.1408")
+    (version "20220830.1007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "f0b887faac1eb1f964e11745e63c1ef53398a7a8")))
+                 "4510e31d2cfa08dac571a724e80c2ba4fa686fa4")))
         (sha256
           (base32
-            "1y2gvf0l6g8gr8kkgy0mi098l5dh2hkmx8nsqid319zr8d4i6cd8"))))
+            "1qdmk8xm13a3s9ymjpqwfa2gxqc8393n47gjdmv6y2pgwvas7h0k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220829.1659")
+    (version "20220830.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "5b82e5a9f1e0ff69326fb4bdb995009953b30c14")))
+                 "408ccad777e8934b5fe3dd1e5769fe67867b87c5")))
         (sha256
           (base32
-            "0p6ykdqj7z7sk5ilgh42anpn8d0wp091p7ig9agaa8bwzqvggjlv"))))
+            "09s2n3y86hcmf69m06g9kg2l1v95js0xd4n9dkdpsf0r3f5pgf2r"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -58985,17 +58985,17 @@
 (define-public emacs-ipp
   (package
     (name "emacs-ipp")
-    (version "20220827.1612")
+    (version "20220830.1336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/ipp-el.git")
                (commit
-                 "27ba2970f522b8c1f00f5d1f9fe7313b5f7a48bc")))
+                 "21d3b3fd5d1e655126ee03dac9d6b46cad9deef6")))
         (sha256
           (base32
-            "0317h5qqjr626qjyh0wcy7q5mmg8r183swbj1lg0gx3znif5d95m"))))
+            "1w0mbpprzrf0b24s0cdm6h3g1m6ydp844n3wyd3nx0rf3w980wsy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/ipp-el")
     (synopsis
@@ -64209,17 +64209,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220818.1336")
+    (version "20220830.1019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "0b8a9e80602a2a2c7ac34f9ac8c9b374c3e258d9")))
+                 "e8e5e22775b3a6e74054e8c665fd3772a3f110a6")))
         (sha256
           (base32
-            "03faf34alnrwy3v193cadl9b32viql65fwv83mqf34vz7a06ajmk"))))
+            "0m46gnv7sn7ig6nz7vlq0gfnzcyqh161zvkrrci81bs10paicy2w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -70715,7 +70715,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220829.1405")
+    (version "20220830.721")
     (source
       (origin
         (method url-fetch)
@@ -70725,7 +70725,7 @@
                ".tar"))
         (sha256
           (base32
-            "0yhgd33vjjacff13j9r1gdnjac79km9v13q3s0i1gz7wcfcwqc5b"))))
+            "005p6d2rpvvpr3fkfdlznf4r7scfz6v8d7d76l6rzcl3blf6kg8f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -71359,17 +71359,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220727.2104")
+    (version "20220830.628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "7471762ec043fa85a91398b2b5b05859da544200")))
+                 "6263d32a38d0447f43a718a584a464029e7b68ab")))
         (sha256
           (base32
-            "1i7smdmryn8irhn2s7gkym3xkmimkvfkqm2cjal0jgb7z6rg3mkj"))))
+            "0dr9nqpc01qkpy22s9gxkig83yj4rm6ih1vadhc2ji1vwcn7lw4a"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -83361,17 +83361,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220818.1215")
+    (version "20220830.1210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "a65e3020759ca695c843965295f43d5f3e4fe6c3")))
+                 "f69842ea6bc67f18ac4796bad1414bc476a477e4")))
         (sha256
           (base32
-            "14aakjacj296rd2cqm4v2vgwykaaxwr0zgh33y20rygrjx10q18z"))))
+            "180cw71xz9hkc082h12l87nik45simx8qnn1zwhw2sizj7clvg80"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -87003,17 +87003,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220829.1153")
+    (version "20220830.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "1ed77b9815258eceadd6b924615c2fe2f7be6f5d")))
+                 "c3c535e93d9dc92acd21ebc4b15016b5c3b90e7d")))
         (sha256
           (base32
-            "082riry9jrwbrpjp5mmwpnm2cdarmlxyh3iqz2hby2jcc3dv791x"))))
+            "17z0wbqdd6fspbj43yq8biff6wfggk74xgnaf1xx6ynsp1i74is5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -100033,17 +100033,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220827.1121")
+    (version "20220830.813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "d1488a6f9491a3cad122dbecc17bbba028b43964")))
+                 "ed6c96f6bf8cea9b1431a6151d527ec573571757")))
         (sha256
           (base32
-            "1p1awnph92xj649rcx5pg5bswxvzdrdnydlhncvnd7crpkp8cjsd"))))
+            "0f5q9rxi9yiqv0h0m8shix3adz6fkjwfh9bd0w4jbp3zkp79rxv7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -110062,17 +110062,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20220410.1953")
+    (version "20220830.938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "6015b07c86f239dba5e3d26f4527ed8e1be5d5a8")))
+                 "9f7c512b8bfdc9d5d7a39b65f8ae169f363591c4")))
         (sha256
           (base32
-            "0w8xxpr3ydxcfs30kzm6rix9am48mv98n6gnspybd1k7jhdmbn1r"))))
+            "054wrfs2xhb66ph3l0q6sg94f72ikwxl07b8w0cxxrskm7h81yk6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
@@ -116204,17 +116204,17 @@
 (define-public emacs-vdiff
   (package
     (name "emacs-vdiff")
-    (version "20210426.155")
+    (version "20220830.1450")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justbur/emacs-vdiff.git")
                (commit
-                 "84b8243d9f5d8082b05794dbc998d43dbdd7676a")))
+                 "d5df45f84395f507aba555a54407b60e284b23cd")))
         (sha256
           (base32
-            "0lv9d9g8lnc3rzqi4v9iqr1ck5df8d52yh81cxzy7x2375b2mfgm"))))
+            "01xcl6f5d3d7nlmc0w4har9ms6crhkbbbm3xa1fnbyrgyfiyblgx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-hydra))
     (home-page
