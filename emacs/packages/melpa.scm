@@ -16715,17 +16715,17 @@
 (define-public emacs-consult-company
   (package
     (name "emacs-consult-company")
-    (version "20211021.1152")
+    (version "20220829.1941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/consult-company.git")
                (commit
-                 "ef1c553b4a72b23297b55708bf6f6dd1b27cc68e")))
+                 "f8efa5fdf477db40fbd9e2d0c8d8217082b5e617")))
         (sha256
           (base32
-            "1wqs6ryx7vihmcd11x6ankfrhwn6bhvkld2hw390y1bmxq30pw3n"))))
+            "16dxg9br4k1r1203arz8v35vlv7nlirgmkbas2743bar9xvfi40v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-consult))
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220829.1159")
+    (version "20220829.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "e156c2b8c652f8f74b8e2742f03db39140793273")))
+                 "782fadae0ee9d6314bce5c89dc33e1d327aa63de")))
         (sha256
           (base32
-            "0f9d1ambh3g3r3gplrcbg9m8ix4x8i9bx2845jkxww2vljldkhri"))))
+            "1amygh607dkc4gcvm4bmbp25af999pqx0qqa6iazdw6292c2nan5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -38583,17 +38583,17 @@
 (define-public emacs-flycheck-guile
   (package
     (name "emacs-flycheck-guile")
-    (version "20201202.509")
+    (version "20220826.955")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flatwhatson/flycheck-guile.git")
                (commit
-                 "e46d6e5453dd7471309fae6549445c48e6d8f340")))
+                 "e3ab25245b14fdb267c41532f8035f8aff329952")))
         (sha256
           (base32
-            "12fp99ccshp57bkr9snwqj4bgg356d324fggpxhg0aj7qjgci7fn"))))
+            "1lxrcp4j7bapq3b4xbh4l042wakkbq6jjqp0i2aj8kdnpqq8z42g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-geiser))
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220829.957")
+    (version "20220829.1659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "cfe36764d6a5c44946236b45cfa576c106929743")))
+                 "5b82e5a9f1e0ff69326fb4bdb995009953b30c14")))
         (sha256
           (base32
-            "0lxyvalhl4nwyf6f0gs41iwp29rns5bgzcwwiks1cbcjgdlyyqlx"))))
+            "0p6ykdqj7z7sk5ilgh42anpn8d0wp091p7ig9agaa8bwzqvggjlv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -43585,17 +43585,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20220719.143")
+    (version "20220829.1954")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "7a4945fbc199ec823da1be7283f6e81f83b2609b")))
+                 "b2d6f398e33c0f140dcde5adc91117aa7de4463d")))
         (sha256
           (base32
-            "140kd55qld95fbacvcgk2823l2rh7syj6rplppxcp7yvrji5nkn0"))))
+            "1sa9nglcg04rhw8qw5ifiy7vxlic7gidcslxy1jl61q3gp95ilqv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -70715,7 +70715,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220827.908")
+    (version "20220829.1405")
     (source
       (origin
         (method url-fetch)
@@ -70725,7 +70725,7 @@
                ".tar"))
         (sha256
           (base32
-            "0vay1sprn0p8m7y0wy77wfnmkahvbjcbg7v08mybn5xl026dkvk1"))))
+            "0yhgd33vjjacff13j9r1gdnjac79km9v13q3s0i1gz7wcfcwqc5b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -83447,17 +83447,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220824.1824")
+    (version "20220829.1618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "5794fd8d1aa7bf89abb37f79574118951ad036a6")))
+                 "52b6f1187fe23789b343c412ad40a3f6fa570490")))
         (sha256
           (base32
-            "1p29f9svvzlf2l8pr23azdgrqg4ab8b2jlhx4gz0z0xxmf8yd6iy"))))
+            "1jzk0s64b52cqh9hx9fsps63grb2f1493i76zj0cgwrsp4dm0lf6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -87003,17 +87003,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20220828.1519")
+    (version "20220829.1153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "ac2abd863047e5437398f5d58fe38c4a17062401")))
+                 "1ed77b9815258eceadd6b924615c2fe2f7be6f5d")))
         (sha256
           (base32
-            "1z5lv9xyhf2jgd7ifb83ksihqakvik74d0dhfdnn029jrf8z5nf2"))))
+            "082riry9jrwbrpjp5mmwpnm2cdarmlxyh3iqz2hby2jcc3dv791x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -97401,17 +97401,17 @@
 (define-public emacs-reddigg
   (package
     (name "emacs-reddigg")
-    (version "20220715.538")
+    (version "20220829.1449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-reddigg.git")
                (commit
-                 "5e2ea1316a3fd6c46352402ed44a7d73881dbf73")))
+                 "7b5445d3101bd8c9fa4a456ad37a19bba840a2cb")))
         (sha256
           (base32
-            "0mp2csl2rbawx6kq9drrxivalz11s8jhahxqisd7aj8p78h0x0am"))))
+            "19k0bqsk1lhm7g405dyzb9qkfvm12dlg3h88vn98q2iydfxj43dk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-promise emacs-ht emacs-request))
@@ -100129,7 +100129,7 @@
 (define-public emacs-s
   (package
     (name "emacs-s")
-    (version "20220829.1012")
+    (version "20220829.1443")
     (source
       (origin
         (method git-fetch)
