@@ -38583,17 +38583,17 @@
 (define-public emacs-flycheck-guile
   (package
     (name "emacs-flycheck-guile")
-    (version "20220826.955")
+    (version "20220831.453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flatwhatson/flycheck-guile.git")
                (commit
-                 "e3ab25245b14fdb267c41532f8035f8aff329952")))
+                 "e58ceb8b511cd395b9be69f4a1ff85305fbb51c3")))
         (sha256
           (base32
-            "1lxrcp4j7bapq3b4xbh4l042wakkbq6jjqp0i2aj8kdnpqq8z42g"))))
+            "0hkj3y7xlbbnwagmccav620r3qngpc909pj3n5b876r8gp6rm87p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck emacs-geiser))
@@ -49498,17 +49498,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220827.1154")
+    (version "20220831.351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "1a216854adcea3155b020fff4fbaa97176640198")))
+                 "e86f8addd3c14602313b92f689a532584cb3ee29")))
         (sha256
           (base32
-            "05s4w3hfblg357s3nf7q4ia3lgy5h721nhrg4jb5jf904v721zi6"))))
+            "06vyiqjwx39dcc7xq3l4h5c03hg6m24348rygi2spw4y810i1hpb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -71766,17 +71766,17 @@
 (define-public emacs-metaweblog
   (package
     (name "emacs-metaweblog")
-    (version "20220824.148")
+    (version "20220826.2241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "b641fbcf33ac2b8a0de7b80536b42ce035428625")))
+                 "7b590e1ae430b58c9c3b437bbc02b8a12ca248ca")))
         (sha256
           (base32
-            "0wy98gfj7vfmw8rj2zal1jrywsi7p8k4jr5m9rnwhj8v8ld1cw7d"))))
+            "104c0dq6761mxvk5ry00fj832g3qlqm0c6gmp717xjsy5sxp67kk"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("metaweblog.el")))
     (home-page
@@ -73064,7 +73064,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220830.206")
+    (version "20220831.108")
     (source
       (origin
         (method url-fetch)
@@ -73074,7 +73074,7 @@
                ".tar"))
         (sha256
           (base32
-            "1l4gqx77byav193dfgxxb803y2m8x0dyv8jjgi63n6agsqfmdmrg"))))
+            "0y24anpwzvdq0mimn215f09kyk3cqwcms4ksd0nyi6cx58zl8ns2"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -76489,17 +76489,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20220719.505")
+    (version "20220831.402")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "b3f71c75f7d43a32e7cbc632e9be80f2a03788d4")))
+                 "34d51e2731408b5b615f785a83faa3d6dc2a92a1")))
         (sha256
           (base32
-            "14vcjjyvjdxpzrcd6arq6lrjqgmbbsibx73h0v34fdzfpi4wfx08"))))
+            "0i3j0723njp2640cf70nlv57y1vyh2lhfiz902k6v7pqbl1hvr58"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (arguments
@@ -78645,17 +78645,17 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20220708.2223")
+    (version "20220831.540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "59f25bfe2355c5109e25b5c1ca0c3b895a560363")))
+                 "354de54a4e155f6165507f9427043014ae476ca8")))
         (sha256
           (base32
-            "1vsgp2j3d8l6v71741sl4wglibb4wmhziyw31sjv4l1s47j1vdyx"))))
+            "1klsar8sl76pxmzza8n8q4xp5mdyahsz9035xlwz5dln43rrq98i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
@@ -84691,17 +84691,17 @@
 (define-public emacs-org2blog
   (package
     (name "emacs-org2blog")
-    (version "20220824.148")
+    (version "20220831.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "b641fbcf33ac2b8a0de7b80536b42ce035428625")))
+                 "7b590e1ae430b58c9c3b437bbc02b8a12ca248ca")))
         (sha256
           (base32
-            "0wy98gfj7vfmw8rj2zal1jrywsi7p8k4jr5m9rnwhj8v8ld1cw7d"))))
+            "104c0dq6761mxvk5ry00fj832g3qlqm0c6gmp717xjsy5sxp67kk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-htmlize
