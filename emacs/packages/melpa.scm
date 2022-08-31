@@ -10222,17 +10222,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20220828.1304")
+    (version "20220831.901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "0361400a3affad43b8eb4972a942fee8dfe0c649")))
+                 "3ccb3bbd6633e63444de3112a50a6b0f18d8122b")))
         (sha256
           (base32
-            "13061m6m37h2cd7a51gcwcp447gb19xmf4p7hhj85j5ws6n8svni"))))
+            "1a4ca2pcadv9zxf945pdhw7wm22p8254wyznr5q0knh809n76w3f"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -16669,17 +16669,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220807.1302")
+    (version "20220831.1135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "e4546edb6f1268c4a13ac3dd1dec8c9b28d7df51")))
+                 "d949871387cb5d9f659b30aa23524c4c22ab3742")))
         (sha256
           (base32
-            "0i5s6hndk7d45fl2idmbqrrddaf1vjcg2qvycm9gs6f568ld1s0m"))))
+            "0kppxpss3x8cvaikcb7qn1zg3i33p5x50cs6zqy5pha0kpmm0clw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220830.1558")
+    (version "20220831.1435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "60fda8a5f515875f670c22337707866ca0249920")))
+                 "7d7ac8520b4587d97f75ccdd1c56d32886d2d91d")))
         (sha256
           (base32
-            "0ns84xcmx2621q4flazv1ihww5han7m4kh2vswvskna1max2z74g"))))
+            "0zq7zn3kky3pr7r983pcc1cn0whnncgiqd0h619dcx0q51srxfng"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220830.1324")
+    (version "20220831.902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "408ccad777e8934b5fe3dd1e5769fe67867b87c5")))
+                 "e1f5ca1e4b623eb8f9b948b4ddb1c91896eab1b9")))
         (sha256
           (base32
-            "09s2n3y86hcmf69m06g9kg2l1v95js0xd4n9dkdpsf0r3f5pgf2r"))))
+            "08dkqmqcjqfad0c42ixm2c6fjismcgk9r3yjhf3vlcprhgcgwwz5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -65714,17 +65714,17 @@
 (define-public emacs-libbcel
   (package
     (name "emacs-libbcel")
-    (version "20191216.641")
+    (version "20220831.1413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/libbcel.git")
                (commit
-                 "65288be1b6a6345c72e2cb4ccedfa8548c7834d5")))
+                 "4d5fd6399a6e758b038ae664adb06c4d9b9c29c8")))
         (sha256
           (base32
-            "1m1p0xvihmvdx1syyjnsxnwyjxlcgdcp11akinck1ciq8izyiiqw"))))
+            "1zsc8lk8cclygask1bg417f0p96ch0nvw1gf6avnhp2np7akq1np"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -69041,17 +69041,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220821.1819")
+    (version "20220831.1425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "712be4632b0ddc7899ca90db8f9be20d90b4326f")))
+                 "a12018e9f84bb9cef2fca7862d64b7376bbcda19")))
         (sha256
           (base32
-            "08dk0vdvsxc2pvvk5h3xf2pxb572scsjd4mcj19lqhrzkcwnxgsd"))))
+            "1vm1s9lkpchairsl3aq9s3mp7md0qwkh6acqjx5wkd63pjjgv0h7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73064,7 +73064,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220831.108")
+    (version "20220831.636")
     (source
       (origin
         (method url-fetch)
@@ -73074,7 +73074,7 @@
                ".tar"))
         (sha256
           (base32
-            "0y24anpwzvdq0mimn215f09kyk3cqwcms4ksd0nyi6cx58zl8ns2"))))
+            "0pcaysbzjhqkgqvqfxrqlxl8a99xh8cvkrxr3hz8b3wn938kl8vn"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -82472,17 +82472,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220821.1927")
+    (version "20220831.730")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "23347906b826656c5054b8e35714a1c3d74bdcc4")))
+                 "537e6b75e38bc0eff083c390c257098c9fc9ab49")))
         (sha256
           (base32
-            "1mqzyrs400yfpss1mrfw4yn9fp1rskklzd7wlcg533l1cvggsp25"))))
+            "12px1kc282lmnjbz06l3a9ffjfvi45shpirqidsw0qfvf72flafm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -83447,17 +83447,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220829.1618")
+    (version "20220831.1033")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "52b6f1187fe23789b343c412ad40a3f6fa570490")))
+                 "9b14ffbbdf0c08f3ea15fd4825522f5cd856d9a7")))
         (sha256
           (base32
-            "1jzk0s64b52cqh9hx9fsps63grb2f1493i76zj0cgwrsp4dm0lf6"))))
+            "0v566plqyl82hjd26l38x6vxbw8l6ib9b5v9i0zggkqrahv1x91p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -105645,17 +105645,17 @@
 (define-public emacs-soccer
   (package
     (name "emacs-soccer")
-    (version "20211207.1623")
+    (version "20220831.1033")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/soccer.git")
                (commit
-                 "b5ba10fe43e43fa40617e2936572add10c72b865")))
+                 "4c5d75f7f667b5e3f2b6afe35a20b5239f8d91aa")))
         (sha256
           (base32
-            "09kkbk5rsjdkajqmq8xkgl4xd9b3c96bp823zfal18jq5jcf2x8j"))))
+            "129i0bw041a4ldbq4qm3najxshyp0ppjm538vzzhfh28r56f44yh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -117316,17 +117316,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20220830.320")
+    (version "20220831.835")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "0838ee3b3b77f0a6945b57bca87315acf650479f")))
+                 "d6fcd38b9544dd4d05dbe5db10e950043b68de9c")))
         (sha256
           (base32
-            "0shv57rd4j613wx138hh45bpl9qa3p5hhgc74rvqgm0rcx1vidyq"))))
+            "136rp9lhin6mvi6k35b1cj1vm57s5xg449yxmykngq45811bnr9q"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
