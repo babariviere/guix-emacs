@@ -11066,7 +11066,7 @@
 (define-public emacs-cern-ldap
   (package
     (name "emacs-cern-ldap")
-    (version "20220829.715")
+    (version "20220830.1909")
     (source
       (origin
         (method url-fetch)
@@ -11076,7 +11076,7 @@
                ".el"))
         (sha256
           (base32
-            "1hjsavvhbgb930qydf6gzi60bl4975zabvx1vvqh0b8qn2z2s9al"))))
+            "0dxys27hhcqd2g2q6wv5bnmvjlbpwjsplacnagcijzv3cwcbkhpm"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~nbarrientos/cern-ldap.el")
@@ -16510,17 +16510,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20220814.1919")
+    (version "20220830.1547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "e7f7e72cc058318b9c11499c38c3b0125322e6d6")))
+                 "cb9544e8f7d6c642b7fd8c1ecc2cf4fc7370c352")))
         (sha256
           (base32
-            "1vqgqap06zaspl0wy30fn1mxf6g181b6isp59nidbackksn8z6fc"))))
+            "0cix7xlpz1jq5xpih5v706b2c4mf2769bpkix8fr9pxyc6kf8ra4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -16715,17 +16715,17 @@
 (define-public emacs-consult-company
   (package
     (name "emacs-consult-company")
-    (version "20220829.1941")
+    (version "20220830.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/consult-company.git")
                (commit
-                 "f8efa5fdf477db40fbd9e2d0c8d8217082b5e617")))
+                 "5d8275bff131ce2aaa678dd46aac345eb4fc8b27")))
         (sha256
           (base32
-            "16dxg9br4k1r1203arz8v35vlv7nlirgmkbas2743bar9xvfi40v"))))
+            "0rg5n4yilkm5c137xv5pnk0f24rci00yxgs8xa08vispmzrx3lyd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-consult))
@@ -22972,7 +22972,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220830.1234")
+    (version "20220830.1558")
     (source
       (origin
         (method git-fetch)
@@ -25771,7 +25771,7 @@
 (define-public emacs-echo-bar
   (package
     (name "emacs-echo-bar")
-    (version "20220830.1322")
+    (version "20220830.1406")
     (source
       (origin
         (method git-fetch)
@@ -31645,17 +31645,17 @@
 (define-public emacs-eshell-git-prompt
   (package
     (name "emacs-eshell-git-prompt")
-    (version "20220206.458")
+    (version "20220830.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xuchunyang/eshell-git-prompt.git")
                (commit
-                 "1eb1fd56649f291cac482fbf06dd43ef867873bc")))
+                 "dfcf9cd93add6763e2c46603b0323274d4c22906")))
         (sha256
           (base32
-            "1l3dlzzkx3k532ig2hmpky50zcz73p7vsnlxr24ichq5sn2lwfg2"))))
+            "13b7nr0819pgzyvh0szi0zjyazgpxmsbqcz65cccyhh2pq48zb7j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -64209,17 +64209,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220830.1019")
+    (version "20220830.1620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "e8e5e22775b3a6e74054e8c665fd3772a3f110a6")))
+                 "553e852e19b01015f84846568d96cde9ef670ba2")))
         (sha256
           (base32
-            "0m46gnv7sn7ig6nz7vlq0gfnzcyqh161zvkrrci81bs10paicy2w"))))
+            "18csg7y73bwvdimsj1kjzkzbsh925yd2p3jjh2wcixqykxlqx3kr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -70715,7 +70715,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220830.721")
+    (version "20220830.2134")
     (source
       (origin
         (method url-fetch)
@@ -70725,7 +70725,7 @@
                ".tar"))
         (sha256
           (base32
-            "005p6d2rpvvpr3fkfdlznf4r7scfz6v8d7d76l6rzcl3blf6kg8f"))))
+            "1cdbbq36h1pgk503x2mhqd6pi8gfw95ph3hzmh1hpp40f9vacys9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -70761,17 +70761,17 @@
 (define-public emacs-math-preview
   (package
     (name "emacs-math-preview")
-    (version "20220812.430")
+    (version "20220830.1740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/matsievskiysv/math-preview.git")
                (commit
-                 "226f2be25d74f6f8224eb7aa96dfb1985aeac722")))
+                 "dd41b03c64eca324558e6139699cacccfdd0efd2")))
         (sha256
           (base32
-            "0bl28b7pb80jbjvqjc1ir1had5yr5p4nr09zbj3mdxm6nxwz7p9w"))))
+            "04sd9147ll28zabi1kr4qbg1z04svgfix1rxh151sz6jmars7qj0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -73471,17 +73471,17 @@
 (define-public emacs-moom
   (package
     (name "emacs-moom")
-    (version "20220724.808")
+    (version "20220830.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/moom.git")
                (commit
-                 "808952a934d0459829422b3417ca23926c1ceabf")))
+                 "ba04944750dcb273532e5e0807e398c9b4e6b0f4")))
         (sha256
           (base32
-            "0llkf7f7cq4ydql8ynqvslmnmbkxx7bdpawxm10cv44n1qyv8s7h"))))
+            "0xjlqrglnl1f7jkby8428403vqsgikh9363rfhhj9f031cq1j8my"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/takaxp/Moom")
     (synopsis
@@ -95862,17 +95862,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220818.1323")
+    (version "20220830.1436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "56df0bdf81070a45a524c94cbfe6354ad613dcbe")))
+                 "db7baebe64d5c1620c06e9bfca267a81ddc64aca")))
         (sha256
           (base32
-            "1hyh7incbncf7a01blwm89qwy3nzjmnf4x3z3x9idpwqd2pg485d"))))
+            "1s35jl0hq3s260h9laj403icqg5f17znga056sc8qnwqa84hw7g0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -100033,17 +100033,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220830.813")
+    (version "20220830.1907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "ed6c96f6bf8cea9b1431a6151d527ec573571757")))
+                 "c5564b801a6ff966df39e86830b8313d4c29daed")))
         (sha256
           (base32
-            "0f5q9rxi9yiqv0h0m8shix3adz6fkjwfh9bd0w4jbp3zkp79rxv7"))))
+            "0wyfblwzaxmcfiq346vgbl4xgkby1wx1v3i2kmir1vpwzpk1vl24"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
