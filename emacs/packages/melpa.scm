@@ -2559,17 +2559,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220810.2027")
+    (version "20220831.1917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "5b20fd336f248104a9ab1f8cb37c21d636ea2974")))
+                 "2b0a1df60ea2fb736a63251282450995c7ccacf1")))
         (sha256
           (base32
-            "1za64mbaaymasc6rxvvly417n3ar6ks412rx3xz2xnd2a088b2dp"))))
+            "0jmmb0hnah6q9994idkr3mzy0652ngh155xxlipn3x42b45m3gc0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -29180,17 +29180,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220806.1536")
+    (version "20220831.1636")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "a1b16b53c5211607fa0f76c80aebb3a72f645ae1")))
+                 "e1b701894196b0e0aaf18ab88c778877ec87d0c9")))
         (sha256
           (base32
-            "1jgr1f2nrnw5rsvnsxmvnlrr48fxrb895q4mpawnaw17xx13llpg"))))
+            "1ycq3l757qs4scwi9cn1sjmr8s5hr8dalqdm297ri1dpr6lba063"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -48535,17 +48535,17 @@
 (define-public emacs-gumshoe
   (package
     (name "emacs-gumshoe")
-    (version "20220816.2254")
+    (version "20220831.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Overdr0ne/gumshoe.git")
                (commit
-                 "5e30a68f1cd80c8bdf67c06afa1fe7642decbef7")))
+                 "008e8fdec489a28e8cf807b3b511a9561c64268c")))
         (sha256
           (base32
-            "1vw7p92qq5ahvzql4pcbza0nzf2rxfxc6i5g64ldv1hgzih0cv56"))))
+            "1n5fdi328fvcnq5vb421d7mafkwidn4arah67difxkl6aq7g54jp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Overdr0ne/gumshoe")
@@ -49498,17 +49498,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220831.351")
+    (version "20220831.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "e86f8addd3c14602313b92f689a532584cb3ee29")))
+                 "133ca16604d6ca72968685e0b64b85ac5b3d6a2d")))
         (sha256
           (base32
-            "06vyiqjwx39dcc7xq3l4h5c03hg6m24348rygi2spw4y810i1hpb"))))
+            "1702m4vbcrv6zq7zxbjnw7ixbzjfkac1ammkm6qmqq2rf7mvxvp9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50306,17 +50306,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220828.1905")
+    (version "20220831.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "c90364a9fae911557af9a9a93b7a139a27d109f4")))
+                 "133ca16604d6ca72968685e0b64b85ac5b3d6a2d")))
         (sha256
           (base32
-            "16p4pg2xcqnqikiwijmdi9z79gyhv7vrgg3angm7whdwwiqp0qna"))))
+            "1702m4vbcrv6zq7zxbjnw7ixbzjfkac1ammkm6qmqq2rf7mvxvp9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -67929,17 +67929,17 @@
 (define-public emacs-lsp-ivy
   (package
     (name "emacs-lsp-ivy")
-    (version "20210904.2043")
+    (version "20220831.1823")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ivy.git")
                (commit
-                 "3e87441a625d65ced5a208a0b0442d573596ffa3")))
+                 "9ecf4dd9b1207109802bd1882aa621eb1c385106")))
         (sha256
           (base32
-            "0nb9ypa8hyx7i38rbywh8hn2i5f9l2l567hvdr9767fk279yr97n"))))
+            "1k9q5fsv6gqy4k5bprcvmybc2mv0zqj6m4j1wcbp5rkl2596mlhh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-lsp-mode emacs-ivy))
@@ -76797,17 +76797,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20220625.1106")
+    (version "20220831.1626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "d9db6d88ccae0727fa96125fae8601cac80efde0")))
+                 "714ae852580e5e416f5e661ff0cfaec780e53d38")))
         (sha256
           (base32
-            "1m7fygl2f5myi49liyk2i22piaic1bix5z5if30csc25623sa4yb"))))
+            "0xpfkzxi8my8s6kik9z25yq7dpiwgb833m2mmqpahaxalaxdxqji"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
