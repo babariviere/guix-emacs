@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220901.2311")
+    (version "20220902.347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "60220a371fe4d924d8ec11e1e7082bf23cb36132")))
+                 "ff2e56c379ef732c9b19bd0a4c57e651ee6b8303")))
         (sha256
           (base32
-            "09lw79i7rpswxrzmgqx8ayx97dvbiig63ay1xs9xpy99m4h8l81d"))))
+            "1j7arhq34rq77h2ahkfzsqvrhm6m4dji7y1f4jq901fnymyjpi2h"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -73064,7 +73064,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220831.636")
+    (version "20220902.232")
     (source
       (origin
         (method url-fetch)
@@ -73074,7 +73074,7 @@
                ".tar"))
         (sha256
           (base32
-            "0pcaysbzjhqkgqvqfxrqlxl8a99xh8cvkrxr3hz8b3wn938kl8vn"))))
+            "09pbfkby7wzxmfqkqa0l2hs5g8k2j33ispby788qrvjkrmc51brc"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -82242,17 +82242,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220829.318")
+    (version "20220902.207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "4fe0b89f719ba988849218b09c906bbbb21cb658")))
+                 "65bf939baa7bb091d8062594f6d83e0d98ef0403")))
         (sha256
           (base32
-            "1dvr2209nb14qwa18ndd1di42n4vgb8k68qhynxznhdf329n60dk"))))
+            "06ndfq8640jnkbjc95bxd9kgbvkg8js63gmcix4875p0b6jznfx7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -106449,17 +106449,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220826.158")
+    (version "20220902.156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "03e2065006fabf5a9529c1b061a1731e1f75bdd8")))
+                 "2f09d671abd72b1db521be5b5fdceca8cd84d1e8")))
         (sha256
           (base32
-            "0hs4brkayjz5x3mp2pqzp3xvrycb5lsrsyac6kdx20sdzf8a2y7c"))))
+            "1ailv9nd6jrr56h1wmlzl953z0wi9y6xiddiqri7ldpayh53khjx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -117589,17 +117589,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20220823.543")
+    (version "20220902.545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "e185b54d13fb7eac7d045daf6a83731d9ef79231")))
+                 "8fcf1e4e331180fe964699e2a6a3158e1ec562d2")))
         (sha256
           (base32
-            "0mbv68g1q98dysjvhdxwf3gcwwmihy6ni3b4r4kz6klyfr2jwqim"))))
+            "1688cczdinxyg71150a6zqrx8m7ak42i48bdzf88y7zy6xbxby2d"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -120300,17 +120300,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220901.1922")
+    (version "20220902.534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "0c7ee012c23eb4a435800d6679e8bc4b90ba221d")))
+                 "a4ac0f352a01e4908bfcb03bd56047e68cc70cbd")))
         (sha256
           (base32
-            "167qxvl9lzm5jdzzg9741z2dyqzxwjjg1l1zvl0bdkwb7ranbiaj"))))
+            "0i4sbgj1vy8838bhyd69kpgb830j60n47c50zyjvcaqj6pfmpgb3"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
