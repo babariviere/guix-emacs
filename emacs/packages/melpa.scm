@@ -21208,7 +21208,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220901.1901")
+    (version "20220902.1104")
     (source
       (origin
         (method url-fetch)
@@ -21218,7 +21218,7 @@
                ".tar"))
         (sha256
           (base32
-            "0qm4ss4bii5gkjik22ycxjs4sxmjcgb1dwpmc7slmx7grsi7xrp2"))))
+            "15sljd9c777qjf2nnwcdkkswpkf1wah1nkp1z7ff8c2ksh52ppn8"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220901.1601")
+    (version "20220902.949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "214ae1ac9366178a7338e991940aaab09fc06aa4")))
+                 "7c2fc863a981362aed6b8b385787b0d9a136dcd1")))
         (sha256
           (base32
-            "1amzjxps46rmg034ffjhlwyq1spnv2p8s79x00sjx79f241z42ka"))))
+            "0nms4swrwv5wfz2h7hh3cgbm6acz0i7q6apdayxrr7gfzalimdga"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32104,17 +32104,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20220827.2008")
+    (version "20220902.818")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "c041ac58a648f2d85dbc7ec39c74adb9381f1dda")))
+                 "ecd8865bbbdf6664b66be5ffd5d4e62d5af78240")))
         (sha256
           (base32
-            "1pny32scyzf63nfjfjqhr6x38q7zyza4i94b7c5xs0rm3cqipwwr"))))
+            "09x0hfipb2jmg8q01nn706vn7s8ks23jzwmg9vjndlv0ki94ip62"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -46061,17 +46061,17 @@
 (define-public emacs-gnus-recent
   (package
     (name "emacs-gnus-recent")
-    (version "20220324.2011")
+    (version "20220902.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/gnus-recent.git")
                (commit
-                 "a0ace8ea6e62a6b79a18149fbd560c6948a8103b")))
+                 "ebaa2389d20bc5fe1796f895f1faedcfc99026d0")))
         (sha256
           (base32
-            "0z1ad57kb0xbm8568cs6wwsgv9zbzs0skjvc12y83j5say3gwlgy"))))
+            "06qxc9hhbpc4k1disashc347x589f2hhjs85vrsvr73kphv05b7k"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("gnus-recent.el")))
     (home-page
@@ -70715,7 +70715,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220830.2134")
+    (version "20220902.1416")
     (source
       (origin
         (method url-fetch)
@@ -70725,7 +70725,7 @@
                ".tar"))
         (sha256
           (base32
-            "1cdbbq36h1pgk503x2mhqd6pi8gfw95ph3hzmh1hpp40f9vacys9"))))
+            "1ijx1npqblsrv3w47c8gpp2nmvr2ymqx09b2drzz1n0lyawplv08"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -73471,17 +73471,17 @@
 (define-public emacs-moom
   (package
     (name "emacs-moom")
-    (version "20220901.1114")
+    (version "20220902.1121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/moom.git")
                (commit
-                 "d36b315dd8dd647184d7396d4595e12d076f24bc")))
+                 "f82260600adfd87c013b0ad8399343641e143930")))
         (sha256
           (base32
-            "0r10r1mkihklg63b2pwx6b2gb0pkj88klp2rpxfy0zdmwgc1g076"))))
+            "0j5ai2wbl2fnazk97rb72xx37spjycdgy2djxpl0nfy5604qalqi"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/takaxp/Moom")
     (synopsis
@@ -74711,17 +74711,17 @@
 (define-public emacs-multitran
   (package
     (name "emacs-multitran")
-    (version "20211027.1833")
+    (version "20220902.737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/multitran.el.git")
                (commit
-                 "910f4c929e1d9c1844ddc467f72eef2e03aa3f97")))
+                 "e4fc744f2256c5d9a6a38099111566c8af1a81ba")))
         (sha256
           (base32
-            "13lmhp2vm953s4phqdd119kp7s3p0kb3kqz4z6g3ga6m6py3gq3i"))))
+            "1pphizb0f84hkmwjabf95rlm7p94czngfn6cy21fdsjl95pgjmjw"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Interface to multitran")
@@ -82516,17 +82516,17 @@
 (define-public emacs-org-mru-clock
   (package
     (name "emacs-org-mru-clock")
-    (version "20211029.1147")
+    (version "20220902.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/org-mru-clock.git")
                (commit
-                 "454d317bf772a616cb76cf2212f111c7977016a2")))
+                 "2d3374a1b758a04f08f75b2a5fe05e99989077c1")))
         (sha256
           (base32
-            "1bib2ch2grb7qlyhc7aq82ca1i16nqi8h84nfvlwgx45al8r3k4l"))))
+            "0kcbfs334rkr337kqdds5wpjzs7g1jl36avw6mf4q5iajc8z0pvm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/unhammer/org-mru-clock")
@@ -100131,17 +100131,17 @@
 (define-public emacs-s
   (package
     (name "emacs-s")
-    (version "20220829.1443")
+    (version "20220902.1511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/s.el.git")
                (commit
-                 "2c3e0fffacef065cc8c38aa8af89371ec5d2fe31")))
+                 "e957dcb0677da18b2bb60ad867db5df5c35b5616")))
         (sha256
           (base32
-            "1i78wp2g76xgfl75qh43l60g9szif7d3962j5x7kaa1dpnbf2j5a"))))
+            "01ycvpfqzszcgv2n0d9xj19c8zqi6rl9n5w8c3q228cakpsrn7xc"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -120300,17 +120300,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220902.534")
+    (version "20220902.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "a4ac0f352a01e4908bfcb03bd56047e68cc70cbd")))
+                 "b36972277db97efe00b3b54c43db7070177dc54c")))
         (sha256
           (base32
-            "0i4sbgj1vy8838bhyd69kpgb830j60n47c50zyjvcaqj6pfmpgb3"))))
+            "07q1anz5mnx24kpqkcwzggsbk4i3gbw2kaf9dy6qsngdim4n8b14"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
