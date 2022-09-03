@@ -5676,17 +5676,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220829.305")
+    (version "20220902.1636")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "cf049286263f016b585bcabf80f6e82f186639d0")))
+                 "5a193c796a5499a9b0aa0b40372d3746bc25fe39")))
         (sha256
           (base32
-            "1af2b7r0dappzlffnrmf6nbyz53xihv82zdgacwr3dk518z71hmg"))))
+            "1kr2izg9smg1g8s0aybc9bq7n2bjxdwd3r070r9w0035wzpvzb1h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -43431,17 +43431,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220825.1804")
+    (version "20220902.1915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "40f03bbad917a16ffda0e4b5d5795a2875bc0428")))
+                 "550d57d347b6a2387d633c3da90460106dfcd3e3")))
         (sha256
           (base32
-            "1pm33zlcq84h61xhplmrlicckrax1pv39zrmv8ryzhi9mqrb6bdg"))))
+            "0kxvncsrfj82a7i5ls6sfb5fjjkvgrvw0fznr5i5jg9idbbx000b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -49498,17 +49498,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220831.2055")
+    (version "20220902.1708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "133ca16604d6ca72968685e0b64b85ac5b3d6a2d")))
+                 "e28c9fcfeb5a5f5d8093f17e0715efa07001d3e7")))
         (sha256
           (base32
-            "1702m4vbcrv6zq7zxbjnw7ixbzjfkac1ammkm6qmqq2rf7mvxvp9"))))
+            "1ylpmrhdgx6hp4qi802mbyq6scx4b8m03ns742g4fdixy879gsqa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -73471,17 +73471,17 @@
 (define-public emacs-moom
   (package
     (name "emacs-moom")
-    (version "20220902.1121")
+    (version "20220902.1648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/moom.git")
                (commit
-                 "f82260600adfd87c013b0ad8399343641e143930")))
+                 "e7d60ea56e13ff987d58e9c930e40f5f6c1dbed4")))
         (sha256
           (base32
-            "0j5ai2wbl2fnazk97rb72xx37spjycdgy2djxpl0nfy5604qalqi"))))
+            "1hcmnpq4pk77kxc9rxh6iym6aag48v4v0q6y3m1n83yfb5bqnm1j"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/takaxp/Moom")
     (synopsis
@@ -76172,17 +76172,17 @@
 (define-public emacs-nexus
   (package
     (name "emacs-nexus")
-    (version "20210903.1743")
+    (version "20220902.2009")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juergenhoetzel/emacs-nexus.git")
                (commit
-                 "9603fd3d8ef34d4b3dcad3292c4ac743500d4946")))
+                 "9f0ddf7d6cb5f7df44f684f02e2bd8a96ecabbd6")))
         (sha256
           (base32
-            "07bp6vb2d4sf0csnrc52xiib3lzxpd0mzlpjbikpcn17xjm6xjcb"))))
+            "0gm895ilmq3ra3zhps3kyh3isqi9r0rnfa1km6gkpny5f28ipjhr"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -105908,17 +105908,17 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220827.608")
+    (version "20220902.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "e7cf0221b4ab9d773df70e8dbb123776362f8e5a")))
+                 "a9e6e47cb90182f75a748fffab87c974f76489fc")))
         (sha256
           (base32
-            "0n14ffvy8m47h62i6l1y8zl1bic31gj4x43wqw322aqw8p3q1j0r"))))
+            "121z0n96kvb013d4p47av69kzxwszsam4fc0dlsy5sf2gahnkd4g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
