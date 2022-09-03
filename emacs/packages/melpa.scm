@@ -2559,17 +2559,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220831.1917")
+    (version "20220903.1117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "2b0a1df60ea2fb736a63251282450995c7ccacf1")))
+                 "6e7e0c3d0de794e49b9af7d07084610e04002176")))
         (sha256
           (base32
-            "0jmmb0hnah6q9994idkr3mzy0652ngh155xxlipn3x42b45m3gc0"))))
+            "1l89mf69kj3vaishjhmz6zm5x9hjvm9mbkkipf042mmkf43xg4iz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -13177,17 +13177,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220903.642")
+    (version "20220903.932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "4a5f01156e3ae52f38e98fcdf7157d58111a8c9e")))
+                 "49c1615d5e9ae60768b7da813bad7827e0cacd2e")))
         (sha256
           (base32
-            "0486z63rfbp0nb6d85dxmjk0410kpsfljhrjwhgiyqjimdp3my4y"))))
+            "0xhh2ziir6snq6hypy0lzmq9d6dyyjhfm9cg9mgp50kg4czd4rhv"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220902.949")
+    (version "20220903.1025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "7c2fc863a981362aed6b8b385787b0d9a136dcd1")))
+                 "4f8c2e21dd4a80b7e2069cf48cc0788cee50746d")))
         (sha256
           (base32
-            "0nms4swrwv5wfz2h7hh3cgbm6acz0i7q6apdayxrr7gfzalimdga"))))
+            "1kh9kyvyki3hp4032r939zczar24l5qz4ak4jp89hjjkhj4wipwk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24175,17 +24175,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220827.635")
+    (version "20220903.1118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "c7304c6bc977ab0452cb10264f34e2e4c95dbd9a")))
+                 "89459279ff4a1ca077c36cc68181c9f0f188e32f")))
         (sha256
           (base32
-            "0in47dcw0677b8dd12alahch34sa5jhbxrfcmvwn7yz4x16klp4m"))))
+            "1j85z9b8rb2c4mxj0l7qmic8k571hmkbl045wkkjrgwcd9dv49dp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -28204,17 +28204,17 @@
 (define-public emacs-elisp-demos
   (package
     (name "emacs-elisp-demos")
-    (version "20220707.410")
+    (version "20220903.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xuchunyang/elisp-demos.git")
                (commit
-                 "4b51dff1ee5b6cb9fac946431753489cd96a67b0")))
+                 "792be709c82101aea0585ece7429e2fdded74494")))
         (sha256
           (base32
-            "02qp816ll2n3dvy5vwnpr3m959fz37md7mf7dqn84nfwf16g7k16"))))
+            "1gw2kvfbkabngsmj3xvc5r7xxmhzib7h2zx3cndvim01i6a1sklw"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.org")))
     (home-page
@@ -62474,17 +62474,17 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220903.708")
+    (version "20220903.901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "8414bc857f1168e8552f22542d83458072276ebb")))
+                 "c1995b1a2ea09d7a2af69edcc2a47f5b6d217d5f")))
         (sha256
           (base32
-            "0g0v97vnmr9mkvbrclvrbpsk91yy29riliy7a06gpw1qiwzhwkk7"))))
+            "0qa8q5asnjwl4b3ljgpl3ckahfrr1vbmbqha4paq5b63aiblgm2g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-f))
     (home-page "https://github.com/psibi/justl.el")
@@ -70715,7 +70715,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220902.1416")
+    (version "20220903.1254")
     (source
       (origin
         (method url-fetch)
@@ -70725,7 +70725,7 @@
                ".tar"))
         (sha256
           (base32
-            "1ijx1npqblsrv3w47c8gpp2nmvr2ymqx09b2drzz1n0lyawplv08"))))
+            "1qcnq7k1f43ns30p8bjrjvz77xdss14d91kfvlh46l4dyx017yz2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -77186,17 +77186,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220811.1025")
+    (version "20220903.1112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "b76f73efe3a97c707b3b14ca41e7748e21938fea")))
+                 "8eabd6388ecb7bea8246a9ba6943a0432d23406e")))
         (sha256
           (base32
-            "16pj68anl24lpfh8kjbjdjg5dd676nf7n2wp41yzdy1rgrj45l19"))))
+            "0nh35wzf1sssdlfyxhk666sgcg5aqifm8bz22mawl534i95b1ygn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -99848,17 +99848,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220901.1658")
+    (version "20220903.824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "bc09ded15f83bed3a0170a1e57602d278e1f4f59")))
+                 "6a1ffaed684fdfc4b963d0d723b9753ee0f19e4c")))
         (sha256
           (base32
-            "0yj9ym6w1n9kyb57jykgr16skm91z6lmxqs3klm4kjf186249mjq"))))
+            "0605g09zbhvard03vs0wv5052i3vns82gzf9ar1lz8pd8vngpxy9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -120300,17 +120300,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220902.944")
+    (version "20220903.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "b36972277db97efe00b3b54c43db7070177dc54c")))
+                 "ce1bce34eaf2c8c21ac294195e92a6475ead714e")))
         (sha256
           (base32
-            "07q1anz5mnx24kpqkcwzggsbk4i3gbw2kaf9dy6qsngdim4n8b14"))))
+            "1177qzlxq3xmj9dz37z1bd94rykn2pz94g0idlf2ihb7znnh0l25"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
