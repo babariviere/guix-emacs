@@ -13177,17 +13177,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220830.1036")
+    (version "20220903.642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "68e0e1355cd21e0752a24432afa091ada4b35b8e")))
+                 "4a5f01156e3ae52f38e98fcdf7157d58111a8c9e")))
         (sha256
           (base32
-            "1jpvz61593f1445ij6hkydcnmdbp5573x7jd8my5ki84avd1r2zj"))))
+            "0486z63rfbp0nb6d85dxmjk0410kpsfljhrjwhgiyqjimdp3my4y"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -21941,17 +21941,17 @@
 (define-public emacs-dir-treeview
   (package
     (name "emacs-dir-treeview")
-    (version "20220505.27")
+    (version "20220820.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tilmanrassy/emacs-dir-treeview.git")
                (commit
-                 "fa0b795b36740755ec37f5b41c3a734ad702e5a1")))
+                 "1e516096344e13cc5c19aeaed135a85de01b4561")))
         (sha256
           (base32
-            "17r27gvapc68dwyd4diw406k9nx2slicshdl923swqzyxm2c75vb"))))
+            "071m5rshcjbbv6xrz0dqm9j4m6nhawwq8flhxwjb5ab9vidjby84"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treeview))
     (home-page
@@ -49498,17 +49498,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220902.1708")
+    (version "20220903.608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "e28c9fcfeb5a5f5d8093f17e0715efa07001d3e7")))
+                 "fb4ac27148924be271b2619c2e00437dde4b46ab")))
         (sha256
           (base32
-            "1ylpmrhdgx6hp4qi802mbyq6scx4b8m03ns742g4fdixy879gsqa"))))
+            "1ws3md5nx2sp25w03m804bfwsjcs0cv32w7knyks5g253zrd3v3n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -62474,17 +62474,17 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220702.602")
+    (version "20220903.708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "3c7f325132a88d27b0a5e0ea100869797b0cfc16")))
+                 "8414bc857f1168e8552f22542d83458072276ebb")))
         (sha256
           (base32
-            "0i1dqiyw3b9g70s8c5l6n5fmid433zyxdrcp71xs9smvcb43b6ww"))))
+            "0g0v97vnmr9mkvbrclvrbpsk91yy29riliy7a06gpw1qiwzhwkk7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-f))
     (home-page "https://github.com/psibi/justl.el")
@@ -73064,7 +73064,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220902.232")
+    (version "20220903.523")
     (source
       (origin
         (method url-fetch)
@@ -73074,7 +73074,7 @@
                ".tar"))
         (sha256
           (base32
-            "09pbfkby7wzxmfqkqa0l2hs5g8k2j33ispby788qrvjkrmc51brc"))))
+            "02hlxdh0dj6v3j14y2nzfjjcwk5niip6iwgjalmz0j7va7ajvqas"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -73471,17 +73471,17 @@
 (define-public emacs-moom
   (package
     (name "emacs-moom")
-    (version "20220902.1648")
+    (version "20220903.352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/moom.git")
                (commit
-                 "e7d60ea56e13ff987d58e9c930e40f5f6c1dbed4")))
+                 "c4dfd12068f438919d7966f9e975fcac6a840a76")))
         (sha256
           (base32
-            "1hcmnpq4pk77kxc9rxh6iym6aag48v4v0q6y3m1n83yfb5bqnm1j"))))
+            "1x2b99jnb164i2lhsh1nzbwzdfwgfbzgfizcgv4blj5sh0ic9j48"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/takaxp/Moom")
     (synopsis
@@ -74711,17 +74711,17 @@
 (define-public emacs-multitran
   (package
     (name "emacs-multitran")
-    (version "20220902.737")
+    (version "20220903.510")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/multitran.el.git")
                (commit
-                 "e4fc744f2256c5d9a6a38099111566c8af1a81ba")))
+                 "6244e227bcf57eed391eecb34bae445f9c17e809")))
         (sha256
           (base32
-            "1pphizb0f84hkmwjabf95rlm7p94czngfn6cy21fdsjl95pgjmjw"))))
+            "0zjl7zyydx2pan2ashbwbp70nlmw17hq5w03sfk12wi7j1nihwbz"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Interface to multitran")
@@ -78645,17 +78645,17 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20220831.540")
+    (version "20220902.2244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "354de54a4e155f6165507f9427043014ae476ca8")))
+                 "47bfe05dcad755ec0784f11c94090aacfe492755")))
         (sha256
           (base32
-            "1klsar8sl76pxmzza8n8q4xp5mdyahsz9035xlwz5dln43rrq98i"))))
+            "0d65w1ihy702b7z17bzgszfbz0652gqkcwwmq8bhlw8niv3b1igi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
@@ -101545,17 +101545,17 @@
 (define-public emacs-selectrum-prescient
   (package
     (name "emacs-selectrum-prescient")
-    (version "20220601.1652")
+    (version "20220903.37")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "07d61b7779c4cca3009390383e7f98a55de7e17e")))
+                 "412410bab86cfe6fe58101ce8f520d774e693057")))
         (sha256
           (base32
-            "0z97d7nnl1hgxj4fsvgw3hb3j4dc9wkdq2vq3dw607f29lwqiadk"))))
+            "17rmf0lnzs58w7bq9x7gqv6mjwk17djvq7jw4f8dd3vf48mwkk91"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-selectrum))
