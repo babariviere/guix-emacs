@@ -5676,17 +5676,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220902.1636")
+    (version "20220904.1401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "5a193c796a5499a9b0aa0b40372d3746bc25fe39")))
+                 "10d4dbe719a89a7384925aedc85dfc4710403e28")))
         (sha256
           (base32
-            "1kr2izg9smg1g8s0aybc9bq7n2bjxdwd3r070r9w0035wzpvzb1h"))))
+            "0inwa8lvnqv8y1cr9n6dxkrf7fbyy3snrskjgcbwaz2g6fdr0xih"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -16979,17 +16979,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20220706.627")
+    (version "20220904.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "9b51aed939054c54934a6969290ad78587051cde")))
+                 "268f436858e1ea3b263782af466a54e4d603a7d2")))
         (sha256
           (base32
-            "160rix04azd1wc7fls29bhssjwzwmmnnqcfbkvapsyryvn80q219"))))
+            "0g2653a51gwmn0gskrwh9av384x2xp67mqz0gi1g3ryhyr74ifvr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220903.1654")
+    (version "20220904.1005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "0aad4228debd3e71ceed73119e2c61c992aebcea")))
+                 "c08e1e5ecc56ca269e4fdde35d22842851317384")))
         (sha256
           (base32
-            "11xqz8n78gjg8vy28ilwvgza5wrjp7hzz197a05b37sbx402v33v"))))
+            "1j56m5nvq39353c44mplsjjsdfa5r9fg4dqjvxgalayi4m3f7vdm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220902.347")
+    (version "20220904.1124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "ff2e56c379ef732c9b19bd0a4c57e651ee6b8303")))
+                 "ab4e0783b9dbf48fe95bd464dcd123bd82b48d6d")))
         (sha256
           (base32
-            "1j7arhq34rq77h2ahkfzsqvrhm6m4dji7y1f4jq901fnymyjpi2h"))))
+            "03jsvvsh6g2p43m381j0v9rjl3f7j7189zjrsyasw64mrvpw0kk9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -63489,17 +63489,17 @@
 (define-public emacs-khalel
   (package
     (name "emacs-khalel")
-    (version "20211114.1233")
+    (version "20220904.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/hperrey/khalel.git")
                (commit
-                 "313f74b17580c2a55f5c068e1bda17821b50c31e")))
+                 "dee767071c0fa8fc6ccc73384abf11c4c3b45229")))
         (sha256
           (base32
-            "0m4448qvlh06n26l8l8hax4ir08mbai17mdi6inzvch7b09p0gpl"))))
+            "0gpw5vsx9rnkmqlpi8jxabs240cgx9ny7cnz6wpixwn7xcrdxcal"))))
     (build-system melpa-build-system)
     (home-page "https://gitlab.com/hperrey/khalel")
     (synopsis
@@ -68136,17 +68136,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220901.1705")
+    (version "20220904.732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "7153b3d8648e8bad780df2dc2801170f943c5c9d")))
+                 "d6fb908dac66e14cb03859cbb6e797dfaf7f0fcb")))
         (sha256
           (base32
-            "0lavcr4nl87z7s7n157rj8lrqxqrxi0dayhagizjinlzsgsgz2sm"))))
+            "03pajrsnvpypnyimbizny3cxfidrzrd6a9zqaivn7w3pyzfcjyag"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84141,17 +84141,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220828.951")
+    (version "20220904.1303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "336869e8ab845669a021f1ee78aef6f44344bc79")))
+                 "2d6ddade8fec71fabed8efde36a3cfb8a6df3118")))
         (sha256
           (base32
-            "1b7crcr0cc1g0rgpgp2rk10ly02wnh9k1c47r37ayz8jghi00zj5"))))
+            "1c4jaw9ria8vf5cc2rg32zwi8vfad4kif1snj79jwiypq0p8fv6s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -117979,17 +117979,17 @@
 (define-public emacs-wanderlust
   (package
     (name "emacs-wanderlust")
-    (version "20220720.1344")
+    (version "20220904.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/wanderlust.git")
                (commit
-                 "a3847bf379ac92e39ac7188071707551d1628ccb")))
+                 "d99ffe08649aa2f7e781e701b39d7aba2bcdc183")))
         (sha256
           (base32
-            "0g44bzwxbnql9mqg6n1v5xqwkzyd6srgq007phc9za6x8vclr8yx"))))
+            "0141618ncs203d9009cdky5prnjm86nv9chkhiw8wycyc9dipvdv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-flim emacs-semi))
