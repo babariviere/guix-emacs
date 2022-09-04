@@ -3629,17 +3629,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220821.2221")
+    (version "20220903.1822")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "04366a90dfc1063c4a22ea2e4ccaa48303a457e0")))
+                 "9b745df2fabff6edad07f0c50cb6821d6d48d1b6")))
         (sha256
           (base32
-            "15zkq1jwsmpapck5njm4dgb8nqpjacpsrbp4c51jmgggys75phcx"))))
+            "1irpdwjipqg8amjln8h6vpw8hv2zac2l7vi6fl1lqccigzj501vz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220903.1025")
+    (version "20220903.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4f8c2e21dd4a80b7e2069cf48cc0788cee50746d")))
+                 "0aad4228debd3e71ceed73119e2c61c992aebcea")))
         (sha256
           (base32
-            "1kh9kyvyki3hp4032r939zczar24l5qz4ak4jp89hjjkhj4wipwk"))))
+            "11xqz8n78gjg8vy28ilwvgza5wrjp7hzz197a05b37sbx402v33v"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -70715,7 +70715,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220903.1254")
+    (version "20220903.1634")
     (source
       (origin
         (method url-fetch)
@@ -70725,7 +70725,7 @@
                ".tar"))
         (sha256
           (base32
-            "1qcnq7k1f43ns30p8bjrjvz77xdss14d91kfvlh46l4dyx017yz2"))))
+            "0vcbhvwnglfpvca68pri0jr6p8q7yhzzh7kwaf9qga00af4w5d9s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -71215,6 +71215,29 @@
     (synopsis "A better java development mode")
     (description
       "Documentation at https://melpa.org/#/meghanada")
+    (license #f)))
+
+(define-public emacs-melancholy-theme
+  (package
+    (name "emacs-melancholy-theme")
+    (version "20220830.527")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/baaash/melancholy-theme.git")
+               (commit
+                 "b27f0329f4bda5e06045fb457d62d655e574c494")))
+        (sha256
+          (base32
+            "0giwpi67wfp9c7k6v3pynamqs5flphhisqpqsvgma78bym2ggylm"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/baaash/melancholy-theme")
+    (synopsis
+      "A dark theme that's pretty sad -*- lexical-binding: t; -")
+    (description
+      "Documentation at https://melpa.org/#/melancholy-theme")
     (license #f)))
 
 (define-public emacs-mellow-theme
@@ -80475,17 +80498,17 @@
 (define-public emacs-orca
   (package
     (name "emacs-orca")
-    (version "20210828.1639")
+    (version "20220828.4")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/orca.git")
                (commit
-                 "47c03af0c1df2b679d800f3708d675a4c2a3e722")))
+                 "0687f416a5573f63b691d384454f5a793266ed97")))
         (sha256
           (base32
-            "0dah1wb9fyixwza8h2bc2vzps4zd9y9g97yhrm2vjvddabzsyq3a"))))
+            "00a363vkqvryw5s7pj0kh8pqq5vvbf1pmbzz0b1z1fckwr49sv0f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zoutline))
     (home-page "https://github.com/abo-abo/orca")
@@ -84691,17 +84714,17 @@
 (define-public emacs-org2blog
   (package
     (name "emacs-org2blog")
-    (version "20220831.558")
+    (version "20220903.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "7b590e1ae430b58c9c3b437bbc02b8a12ca248ca")))
+                 "bc3bfe299e98a4bbe01bb0bc751fd74571aeca27")))
         (sha256
           (base32
-            "104c0dq6761mxvk5ry00fj832g3qlqm0c6gmp717xjsy5sxp67kk"))))
+            "0xachsfi9l02qxi421sgz3m7v40gvdqhdk75h6dvppd3n9vvkdx9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-htmlize
@@ -92389,17 +92412,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20220601.1652")
+    (version "20220903.2201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "07d61b7779c4cca3009390383e7f98a55de7e17e")))
+                 "32aa2424cadb970e9adbaddb898ba43f3437530c")))
         (sha256
           (base32
-            "0z97d7nnl1hgxj4fsvgw3hb3j4dc9wkdq2vq3dw607f29lwqiadk"))))
+            "093lmh3gyzap8gj5dv1impa5ijiwa4a07xvbrb2qgm7vmqx1qrng"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -105647,17 +105670,17 @@
 (define-public emacs-soccer
   (package
     (name "emacs-soccer")
-    (version "20220831.1033")
+    (version "20220903.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/soccer.git")
                (commit
-                 "4c5d75f7f667b5e3f2b6afe35a20b5239f8d91aa")))
+                 "304a5720dcf46d1c0e5d8a1f33555c852fb41629")))
         (sha256
           (base32
-            "129i0bw041a4ldbq4qm3najxshyp0ppjm538vzzhfh28r56f44yh"))))
+            "1l3a2il47i9b34g8la3jhdy8s4fgz8vmxil894gjsh22196qda9y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -110064,17 +110087,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20220830.938")
+    (version "20220903.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "9f7c512b8bfdc9d5d7a39b65f8ae169f363591c4")))
+                 "89f1afc63b3e4a264d547825477d5aaac12552c9")))
         (sha256
           (base32
-            "054wrfs2xhb66ph3l0q6sg94f72ikwxl07b8w0cxxrskm7h81yk6"))))
+            "1iszws1ri0wdpqa6nmr52vhm69krpd9v9slm8j81wigjyri1w0la"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
@@ -121195,17 +121218,17 @@
 (define-public emacs-yaml-mode
   (package
     (name "emacs-yaml-mode")
-    (version "20220104.1503")
+    (version "20220903.1821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yoshiki/yaml-mode.git")
                (commit
-                 "a79d2a7b9281f8c56f461d717b1ba40fc58e22fd")))
+                 "9969207f60b69e42c573a63764faeb9caaccb2bf")))
         (sha256
           (base32
-            "1g5ps5q2q046jb1dhxzqrm2mbdny1dyyqijwh9wk75l97bdashgz"))))
+            "0q4fsjaji44j9p1q6hbmv3zpwig5wk42hxqzq545y9h0mdlw3lma"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yoshiki/yaml-mode")
