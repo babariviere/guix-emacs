@@ -23019,17 +23019,17 @@
 (define-public emacs-disaster
   (package
     (name "emacs-disaster")
-    (version "20220807.2215")
+    (version "20220904.449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jart/disaster.git")
                (commit
-                 "e261bb4cfdc9da95a3e6b9614d79e75437c85c8b")))
+                 "0c13bd244cc43773af81e52ce73a55f199d58a61")))
         (sha256
           (base32
-            "1lpxaxhkimhww8296mvgwiq8l8yrzw55jlhhcs7iyv5lpfiwsfsm"))))
+            "1jb48x45gcwpx55aip3vk6wvb7svf08j237wdikhqrghmbqjcpg6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/jart/disaster")
     (synopsis
@@ -84472,6 +84472,28 @@
       "Documentation at https://melpa.org/#/org-trello")
     (license #f)))
 
+(define-public emacs-org-unique-id
+  (package
+    (name "emacs-org-unique-id")
+    (version "20220901.1438")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Phundrak/org-unique-id.git")
+               (commit
+                 "dff82d885f7eaefd194eef1114ae9647ee1461ec")))
+        (sha256
+          (base32
+            "0ci9f1cf79drh1axqsk3mqf9594zm4n1lxyxx89vqv9sckpq5nhh"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://labs.phundrak.com/phundrak/org-unique-id")
+    (synopsis "Create unique IDs for org headers")
+    (description
+      "Documentation at https://melpa.org/#/org-unique-id")
+    (license #f)))
+
 (define-public emacs-org-variable-pitch
   (package
     (name "emacs-org-variable-pitch")
@@ -89230,6 +89252,30 @@
       "Documentation at https://melpa.org/#/pest-mode")
     (license #f)))
 
+(define-public emacs-pet
+  (package
+    (name "emacs-pet")
+    (version "20220901.1635")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/wyuenho/emacs-pet.git")
+               (commit
+                 "0317b4f3248eb60189e2e2ea5abab7f4d37534c5")))
+        (sha256
+          (base32
+            "1bixqcwxxr6ndvdf79zh0s8ik76psjvv0l9x3579mnxhg1pzxxv6"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-f))
+    (home-page
+      "https://github.com/wyuenho/emacs-pet/")
+    (synopsis
+      "Executable and virtualenv tracker for python-mode")
+    (description
+      "Documentation at https://melpa.org/#/pet")
+    (license #f)))
+
 (define-public emacs-pfuture
   (package
     (name "emacs-pfuture")
@@ -91256,17 +91302,17 @@
 (define-public emacs-pollen-mode
   (package
     (name "emacs-pollen-mode")
-    (version "20210120.422")
+    (version "20220904.447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lijunsong/pollen-mode.git")
                (commit
-                 "09a9dc48c468dcd385982b9629f325e70d569faf")))
+                 "19174fab69ce4d2ae903ef2c3da44054e8b84268")))
         (sha256
           (base32
-            "15z6sdkg9vygczr1imk3c5v6cbpqgsvnkydzkcmxnbwnqlx1agpc"))))
+            "1w15v2xj01h9j7glg9854zszh7mi1cdshaacjhplk64s6c9brkfp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("pollen-mode.el")))
     (home-page
@@ -105670,17 +105716,17 @@
 (define-public emacs-soccer
   (package
     (name "emacs-soccer")
-    (version "20220903.1550")
+    (version "20220904.254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/soccer.git")
                (commit
-                 "304a5720dcf46d1c0e5d8a1f33555c852fb41629")))
+                 "1eb7067290f7b27418a0a47f70bd611ca69f4b94")))
         (sha256
           (base32
-            "1l3a2il47i9b34g8la3jhdy8s4fgz8vmxil894gjsh22196qda9y"))))
+            "1rwkqmizv6iilpwp8vw9m3wdwjmz4y8xns55awficmb0wjx7k2iw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -115156,6 +115202,29 @@
     (synopsis "Simple major mode for editing Unison")
     (description
       "Documentation at https://melpa.org/#/unisonlang-mode")
+    (license #f)))
+
+(define-public emacs-units-mode
+  (package
+    (name "emacs-units-mode")
+    (version "20220904.401")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Atreyagaurav/units-mode.git")
+               (commit
+                 "dcc973504017ea3478c03f3434563287608e34a6")))
+        (sha256
+          (base32
+            "0nx5c2mr0a1v3nnl8680km0vhmpifxi5c46afdya4kf0wzwh1pas"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/Atreyagaurav/units-mode")
+    (synopsis
+      "Mode for conversion between different units")
+    (description
+      "Documentation at https://melpa.org/#/units-mode")
     (license #f)))
 
 (define-public emacs-universal-emotions-emoticons
