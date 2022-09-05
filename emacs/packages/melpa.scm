@@ -22972,7 +22972,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220904.1005")
+    (version "20220904.1600")
     (source
       (origin
         (method git-fetch)
@@ -23838,17 +23838,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20220629.527")
+    (version "20220904.1648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "8d0429d6bd7f7a74cd58b00ac26a0c9148706124")))
+                 "670b7c346ba562614c27b68c04723af784978c15")))
         (sha256
           (base32
-            "02z7m57502yxn1rx29j6qlzwwdbjzki1bpia2ac1hygb0ixdxbkm"))))
+            "02dlrnmm9rckncfi3w5pkn3fq9pgqah52w62x607awbgn28q55m4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -68136,7 +68136,7 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220904.732")
+    (version "20220904.1549")
     (source
       (origin
         (method git-fetch)
@@ -115207,17 +115207,17 @@
 (define-public emacs-units-mode
   (package
     (name "emacs-units-mode")
-    (version "20220904.401")
+    (version "20220904.1848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/units-mode.git")
                (commit
-                 "dcc973504017ea3478c03f3434563287608e34a6")))
+                 "8611f09fa1d0ca898eef262ad45d8585a64344b3")))
         (sha256
           (base32
-            "0nx5c2mr0a1v3nnl8680km0vhmpifxi5c46afdya4kf0wzwh1pas"))))
+            "16zcq5wcb294x57m306l0pn7h4p549g0831ancqd89ydln8iwswz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Atreyagaurav/units-mode")
@@ -117274,17 +117274,17 @@
 (define-public emacs-volume
   (package
     (name "emacs-volume")
-    (version "20201002.1022")
+    (version "20220904.1727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dbrock/volume.el.git")
                (commit
-                 "afb75a5f7fe41eb28c8dbb1378e80d103eea05c7")))
+                 "050d3e6d2543a6771a13f95612055864679b6301")))
         (sha256
           (base32
-            "001f9s569pvqa7ycmd15aqb6sq5zq31vy7wq0qrbbbs6swm293d5"))))
+            "1vyl13swx82njqlfzmaj9c4vbdpdsj4m9f8v32a9kycdhbm9x90z"))))
     (build-system melpa-build-system)
     (home-page
       "http://www.brockman.se/software/volume-el/")
