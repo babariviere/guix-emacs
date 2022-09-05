@@ -5676,17 +5676,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220905.333")
+    (version "20220905.1038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "5c878d088a39c1ba8d45d38ade4d8c5a5d8c65e4")))
+                 "2f3736a264ab5bbe5b746e4d6351f6b964dc01a9")))
         (sha256
           (base32
-            "0y2sjpsdrd1s3vj470yhc5yv885rldz97dkjv9cr47mpi28dhkr7"))))
+            "1k837cgjxix79djvz2xb710ablbyxmf8smm0lkb7nkz85vhq8m4z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -13177,17 +13177,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220903.932")
+    (version "20220905.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "49c1615d5e9ae60768b7da813bad7827e0cacd2e")))
+                 "d47298212ffc486ade3f2428f103feba3a467af0")))
         (sha256
           (base32
-            "0xhh2ziir6snq6hypy0lzmq9d6dyyjhfm9cg9mgp50kg4czd4rhv"))))
+            "0jh2navzljxkna04lf95cqbvk9bzyfcjw9knvg5b331q6s9zl9ck"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -21208,7 +21208,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220902.1104")
+    (version "20220905.1429")
     (source
       (origin
         (method url-fetch)
@@ -21218,7 +21218,7 @@
                ".tar"))
         (sha256
           (base32
-            "15sljd9c777qjf2nnwcdkkswpkf1wah1nkp1z7ff8c2ksh52ppn8"))))
+            "1lxjwk68dk9ifqi9m5mjbdcr0m3zrw3wh50hgy90bi0bmzny20p6"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -34351,17 +34351,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20220830.1007")
+    (version "20220905.930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "4510e31d2cfa08dac571a724e80c2ba4fa686fa4")))
+                 "c2408aa1342fddbde5e877e405fdd2eb03a07779")))
         (sha256
           (base32
-            "1qdmk8xm13a3s9ymjpqwfa2gxqc8393n47gjdmv6y2pgwvas7h0k"))))
+            "1aw9pzsnl3wm01a1vc3y7x9cb6pqbb6w521gqiqxjfn8r6xjaljl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -105716,17 +105716,17 @@
 (define-public emacs-soccer
   (package
     (name "emacs-soccer")
-    (version "20220904.254")
+    (version "20220905.740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/md-arif-shaikh/soccer.git")
                (commit
-                 "1eb7067290f7b27418a0a47f70bd611ca69f4b94")))
+                 "4bd4131c452f46f47b029bf38c7d98a2d3337b8f")))
         (sha256
           (base32
-            "1rwkqmizv6iilpwp8vw9m3wdwjmz4y8xns55awficmb0wjx7k2iw"))))
+            "0772ld106dq1bqk6xib9a4ml2jsqqikfrjgz4bz0dc039yw34cp1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -120392,17 +120392,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220903.718")
+    (version "20220905.736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "ce1bce34eaf2c8c21ac294195e92a6475ead714e")))
+                 "67d84df208ca59acc279386f640c95f81f82608b")))
         (sha256
           (base32
-            "1177qzlxq3xmj9dz37z1bd94rykn2pz94g0idlf2ihb7znnh0l25"))))
+            "027h9mfr9l7nc9qnchhjly4qhdx0qcmwbzx3igyi8lfyqnb7qrv0"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
