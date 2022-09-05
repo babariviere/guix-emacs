@@ -5676,17 +5676,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220904.1401")
+    (version "20220905.333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "10d4dbe719a89a7384925aedc85dfc4710403e28")))
+                 "5c878d088a39c1ba8d45d38ade4d8c5a5d8c65e4")))
         (sha256
           (base32
-            "0inwa8lvnqv8y1cr9n6dxkrf7fbyy3snrskjgcbwaz2g6fdr0xih"))))
+            "0y2sjpsdrd1s3vj470yhc5yv885rldz97dkjv9cr47mpi28dhkr7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -49498,17 +49498,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220903.608")
+    (version "20220905.430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "fb4ac27148924be271b2619c2e00437dde4b46ab")))
+                 "5496dbf263e6d91c6360bb4a278710ab9479810d")))
         (sha256
           (base32
-            "1ws3md5nx2sp25w03m804bfwsjcs0cv32w7knyks5g253zrd3v3n"))))
+            "12pby4nw6z3iiljc12rj298k78xzl44c1indrx26442s14sdjjv3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -61246,7 +61246,7 @@
 (define-public emacs-jit-lock-stealth-progress
   (package
     (name "emacs-jit-lock-stealth-progress")
-    (version "20220829.941")
+    (version "20220905.41")
     (source
       (origin
         (method url-fetch)
@@ -61256,7 +61256,7 @@
                ".el"))
         (sha256
           (base32
-            "0knh7labypckdq9kisakn70h4rggzqzv586lfkbn9k5qcq56d7nk"))))
+            "0mgsblxf8bk3295z26l68s4017wzpv4cr30h2pjdq8lmgj76ph8n"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-jit-lock-stealth-progress")
@@ -71220,17 +71220,17 @@
 (define-public emacs-melancholy-theme
   (package
     (name "emacs-melancholy-theme")
-    (version "20220830.527")
+    (version "20220905.241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/baaash/melancholy-theme.git")
                (commit
-                 "b27f0329f4bda5e06045fb457d62d655e574c494")))
+                 "059dbff9749ac6d78624680562f8120b1dbad578")))
         (sha256
           (base32
-            "0giwpi67wfp9c7k6v3pynamqs5flphhisqpqsvgma78bym2ggylm"))))
+            "13a7jnyhki3fzzl4sq9275572kndl6yirdb284kqcrhqm3phwx7k"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/baaash/melancholy-theme")
@@ -73087,7 +73087,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220903.523")
+    (version "20220905.257")
     (source
       (origin
         (method url-fetch)
@@ -73097,7 +73097,7 @@
                ".tar"))
         (sha256
           (base32
-            "02hlxdh0dj6v3j14y2nzfjjcwk5niip6iwgjalmz0j7va7ajvqas"))))
+            "0q66b8gqsv0l073mkfkzd2q642i0pnbx3pjw6rmngglizcsag5zw"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
