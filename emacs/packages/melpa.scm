@@ -5676,17 +5676,17 @@
 (define-public emacs-autothemer
   (package
     (name "emacs-autothemer")
-    (version "20220905.1038")
+    (version "20220905.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/autothemer.git")
                (commit
-                 "2f3736a264ab5bbe5b746e4d6351f6b964dc01a9")))
+                 "3d21737113d00f4b69af462ea56270ae1ab45fba")))
         (sha256
           (base32
-            "1k837cgjxix79djvz2xb710ablbyxmf8smm0lkb7nkz85vhq8m4z"))))
+            "13lj0igrsdycsr8ldv2hilj2x79c888g4lx2ixqn7w29lw6cb44g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -11089,17 +11089,17 @@
 (define-public emacs-cern-root-mode
   (package
     (name "emacs-cern-root-mode")
-    (version "20220531.1304")
+    (version "20220905.2016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jaypmorgan/cern-root-mode.git")
                (commit
-                 "088c0817339ee317f879b2844349a7f53e4b9254")))
+                 "a54241681012b00b514fd20ff894e3c4c83b45c7")))
         (sha256
           (base32
-            "0wf8y0rcr30xpsf6dmsd91rimv5zgb67h78nf6ylqmpyxg8hgwi6"))))
+            "0kxwpzkxbwc02d70aykqs2y35rl923iy8h5l8vm8jy60s6ns8qb5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jaypmorgan/cern-root-mode")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220904.1600")
+    (version "20220905.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "c08e1e5ecc56ca269e4fdde35d22842851317384")))
+                 "2a889ec9b70275165ba10fd6e791dd6d3e14e8a4")))
         (sha256
           (base32
-            "1j56m5nvq39353c44mplsjjsdfa5r9fg4dqjvxgalayi4m3f7vdm"))))
+            "0bm5c11qhha6i7sjyvan0zvc8pwqqvpb0bzpmh2dlad34dk37a61"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24765,17 +24765,17 @@
 (define-public emacs-dtk
   (package
     (name "emacs-dtk")
-    (version "20220828.2002")
+    (version "20220905.1727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dtk01/dtk.git")
                (commit
-                 "368649a57391800ec71f3f70de682ee25e7666cd")))
+                 "9710006877ad6e35b1f8f31858835d71917dc347")))
         (sha256
           (base32
-            "11jabhh5spqbcn9h7910hzlbm4sfgrk6sk9i7j80gdd3scsspngn"))))
+            "0xblc8xgv22sg647z1isaa4zr5g3bbjm83z3xvpgjfm2y1plfhh9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/dtk01/dtk.el")
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220904.1124")
+    (version "20220905.1622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "ab4e0783b9dbf48fe95bd464dcd123bd82b48d6d")))
+                 "575e5878828a651f0cf1f2760a2240fa20696c0e")))
         (sha256
           (base32
-            "03jsvvsh6g2p43m381j0v9rjl3f7j7189zjrsyasw64mrvpw0kk9"))))
+            "11mb326pl5s83c6i28sig2h65zcmy69f5cvsl8lypm79nqx9iiwv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -49498,17 +49498,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220905.430")
+    (version "20220905.1849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "5496dbf263e6d91c6360bb4a278710ab9479810d")))
+                 "056147f733f4ae96feab89d5c8db27f9aca3d389")))
         (sha256
           (base32
-            "12pby4nw6z3iiljc12rj298k78xzl44c1indrx26442s14sdjjv3"))))
+            "1hxbx9i2l9npm46vimah3gvd00hx177b2rr8jgsgbpv8kj4mbii5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -83384,17 +83384,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220830.1210")
+    (version "20220905.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "f69842ea6bc67f18ac4796bad1414bc476a477e4")))
+                 "c852fcb5a47a9763c43eb0f6fab9c576254f6f2b")))
         (sha256
           (base32
-            "180cw71xz9hkc082h12l87nik45simx8qnn1zwhw2sizj7clvg80"))))
+            "0vkzld7gkkcx2f0ggm7avhjc09kn739vpmvqnwnxkg95ji29wkp2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -89255,17 +89255,17 @@
 (define-public emacs-pet
   (package
     (name "emacs-pet")
-    (version "20220901.1635")
+    (version "20220905.2004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wyuenho/emacs-pet.git")
                (commit
-                 "0317b4f3248eb60189e2e2ea5abab7f4d37534c5")))
+                 "90bb4bff1e16210d7e8de72ea0e4ded83e863da0")))
         (sha256
           (base32
-            "1bixqcwxxr6ndvdf79zh0s8ik76psjvv0l9x3579mnxhg1pzxxv6"))))
+            "0lh68z436mjbriw9vqr1aw1rnchjh5g9kqnhiaz12v71skcygifm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -111675,17 +111675,17 @@
 (define-public emacs-time-block
   (package
     (name "emacs-time-block")
-    (version "20220821.1431")
+    (version "20220905.1732")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~swflint/time-block-command")
-               (commit
-                 "4ac663b5196567326b82fe76c9930c116bed5596")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/time-block-"
+               version
+               ".el"))
         (sha256
           (base32
-            "0w1iqzdy0zf885wcag77jb21snx2k5wy4m3ckdj24gnjsa6r6inj"))))
+            "09pgfsipax7lv1qnl0mfb5lzvzxw08xbzxk3cl5z2physmc4j153"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -120392,17 +120392,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220905.736")
+    (version "20220905.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "67d84df208ca59acc279386f640c95f81f82608b")))
+                 "9a84f457f6361ad29a14292a67ae510c784161d4")))
         (sha256
           (base32
-            "027h9mfr9l7nc9qnchhjly4qhdx0qcmwbzx3igyi8lfyqnb7qrv0"))))
+            "09dky9yaj674q5737623ipmwyqz8wqg801s3g1z49zya8y7784l4"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
