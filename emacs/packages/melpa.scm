@@ -8645,17 +8645,17 @@
 (define-public emacs-brightscript-mode
   (package
     (name "emacs-brightscript-mode")
-    (version "20200321.2126")
+    (version "20220906.827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/viseztrance/brightscript-mode.git")
                (commit
-                 "71c555c2e254629c365e6fc44c2fc4d5b6d0ae8b")))
+                 "025d6f5a70752c62a28d4f86c053a283b3898a49")))
         (sha256
           (base32
-            "03f0ipzmmpv64kk9dim8nihai3mz2ys7v2qvhywpd3a52nnmlqv4"))))
+            "1dqz16rqbvi7gqbpqmb2aa0a6sbg3hkcc87amr6fwh9s783ziakq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/viseztrance/brightscript-mode")
@@ -10313,17 +10313,17 @@
 (define-public emacs-cardano-tx
   (package
     (name "emacs-cardano-tx")
-    (version "20220718.1440")
+    (version "20220906.1126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "2c1ad565ff39fd03d137ba115b1fb77841914c6d")))
+                 "2d414d39b4824bf4de97b98f130da24c70ca916e")))
         (sha256
           (base32
-            "1mnv42f2grlas39r5r7ajgm5f8wad8w1lqnsnl81i1hbhz3mm4aw"))))
+            "0ap82dyvzv19w89xinxfqq2ixsr8yrg3wq9lraxy87m6djjhlcy0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -13574,17 +13574,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20220719.818")
+    (version "20220906.730")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "b263edf140e3ecdb0640a001c120b5e0b7edeb5f")))
+                 "d1fc8ebc0b4964e3414bb8b9b6cc8e3b475f7f3c")))
         (sha256
           (base32
-            "0h4x4z28z41zkw52z0f6k9x0ai8klyb36bwa3qsdx00w7jlpaax4"))))
+            "1jm9idrdwx8s2dk6r1xbbr56gqrngn9rgzb5fg7dw3isfplq1n0i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/cnfonts")
     (synopsis "A simple Chinese fonts config tool")
@@ -15769,17 +15769,17 @@
 (define-public emacs-company-posframe
   (package
     (name "emacs-company-posframe")
-    (version "20220331.2141")
+    (version "20220906.933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/company-posframe.git")
                (commit
-                 "df0e34f69dc8e9aaa1a6c5e88783898f4ae3f2df")))
+                 "b67ec1fa83229187fdf1d3dc5576f81a37a2b369")))
         (sha256
           (base32
-            "0qkyxjlzgrpg7vrpdknqhb7649qqhqp4m1ry6as6sf288nbnw28s"))))
+            "0ncvrj57w1wa4q6rjkzsd46wjixnqxmcfbm0vi78fcq8avqjry7y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-posframe))
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220905.1755")
+    (version "20220906.1502")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "2a889ec9b70275165ba10fd6e791dd6d3e14e8a4")))
+                 "2adfb56400c2c45361b4b3752418e2b35ec066fa")))
         (sha256
           (base32
-            "0bm5c11qhha6i7sjyvan0zvc8pwqqvpb0bzpmh2dlad34dk37a61"))))
+            "1gjj90psmds4hdy2sy7swixrysf8z6vkfm5gjmbfdky062jyy5gp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -28008,17 +28008,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20220702.906")
+    (version "20220906.822")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "012f6fee58404205f65fb20877eeaa6f1f6c6270")))
+                 "5006ef64325911785225dc37004f50d4ff51abb4")))
         (sha256
           (base32
-            "01kaf9r45vz2g5pw2avklchis5qn2kp9hd8ngp6qm8myfxnd1grv"))))
+            "0z485gf21qvk5k2xd056ja3fm96z8jazy4zf8hzp2hzwhi338vww"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220905.1622")
+    (version "20220906.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "575e5878828a651f0cf1f2760a2240fa20696c0e")))
+                 "94dbfe7a2fbef46372b99ce8207ff129f2482425")))
         (sha256
           (base32
-            "11mb326pl5s83c6i28sig2h65zcmy69f5cvsl8lypm79nqx9iiwv"))))
+            "0x8ifd65ap4k438gdcqqng0q2p8xd3d3l8511qcmibzx35fi4np3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -49498,17 +49498,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220905.1849")
+    (version "20220906.1543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "056147f733f4ae96feab89d5c8db27f9aca3d389")))
+                 "267dec7ccf2bdd59bd3b866621653ded3253048b")))
         (sha256
           (base32
-            "1hxbx9i2l9npm46vimah3gvd00hx177b2rr8jgsgbpv8kj4mbii5"))))
+            "074k00fbdci20ns9vf8abhr77r3dgdv0x2njdvm50mn3af8vf602"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -67774,17 +67774,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220717.1834")
+    (version "20220906.1416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "a312fe8cd941b641216d4654da2e8be82b16d611")))
+                 "f02daae59b57361723f9db2cd7e0e1b30645ad34")))
         (sha256
           (base32
-            "1mmfi32000917vw098ymkbc54f8kr3sap74i6ii51paqg5nmlpbn"))))
+            "0z3vgi2qd5pcjp875qnhljv3d4vliy3fv3sj0z1j1nmlv2p4rs1b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -68136,17 +68136,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220904.1549")
+    (version "20220906.1121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "d6fb908dac66e14cb03859cbb6e797dfaf7f0fcb")))
+                 "f47c4e6e31ff3244c9210b7100e1ab0d148a5c4b")))
         (sha256
           (base32
-            "03pajrsnvpypnyimbizny3cxfidrzrd6a9zqaivn7w3pyzfcjyag"))))
+            "0scjfk56k2469wvv96y349n6f24ayk054ib30kch584m1jsa7lxi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -79440,17 +79440,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20220824.1728")
+    (version "20220906.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "324d614d36c2dc9dd5326952b7c44d40453b2b9d")))
+                 "df1cb7fc6f5bb4d614ae6c476e2508f47925fef7")))
         (sha256
           (base32
-            "0lv7j3l8fkfpvpm7367cildjvs1khkw05918hrz5ssyljsvp49pq"))))
+            "01wn6l5ij1b0sc4ajcxnyhck5p83vfz55yl8vrci1m5zb5ya2hjw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -94698,17 +94698,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220724.1211")
+    (version "20220906.928")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "f8a1d82e27eea188fa9be28e05c409a6a41bda0b")))
+                 "d50e20a49b8554c34b3010a93efff3ce9047b169")))
         (sha256
           (base32
-            "10zgfaykmb9z3p3af3qzpqgdvc1v5mman0asyf81qav53lssinay"))))
+            "0wrxbhb7r9063wd3maqxz74ns910i9nb63dcvqki9ysjm5x5785w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -113341,17 +113341,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220801.1910")
+    (version "20220905.1549")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "39bc43bcd24afe206b96aa7364e8b6a0907984d3")))
+                 "30251e670fe234f17222980095bef39cb2988b82")))
         (sha256
           (base32
-            "1gkjr84as6qcgqyqhbp84mb79f7bdal8nmk7ag8x8b3j8p8flpi5"))))
+            "0f5i9s5b2yl2qggscasvn4b0njh94628vjbjskjxc2clvy4y8dfb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
