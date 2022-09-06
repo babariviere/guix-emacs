@@ -41509,17 +41509,17 @@
 (define-public emacs-focus
   (package
     (name "emacs-focus")
-    (version "20191209.2210")
+    (version "20220906.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/larstvei/Focus.git")
                (commit
-                 "5f3f20e7f22fb9fd7c48abce8bd38061d97e4bc0")))
+                 "704db499888f106af2bd637109c5c11e7c3db62d")))
         (sha256
           (base32
-            "0a55i4bychfnnzjg67a9h4j130hchcg44446dwwx1l1h48i692dw"))))
+            "0f2nlmbj1kka0v6lkjyp4i63avmcp5vkyvqwg9b6hb2cr5slw5wr"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/larstvei/Focus")
     (synopsis
@@ -43431,17 +43431,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20220902.1915")
+    (version "20220905.2341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "550d57d347b6a2387d633c3da90460106dfcd3e3")))
+                 "d0a54c942839a561032b4bc41ca65ff4481bd073")))
         (sha256
           (base32
-            "0kxvncsrfj82a7i5ls6sfb5fjjkvgrvw0fznr5i5jg9idbbx000b"))))
+            "1k5ligm1aba9b6dqg0yi86a2y2fhnxi7jsjgxj9jw7icgfa11djn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43585,17 +43585,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20220829.1954")
+    (version "20220905.2345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "b2d6f398e33c0f140dcde5adc91117aa7de4463d")))
+                 "e540e14db538ed0d116a188569413f5aadd79180")))
         (sha256
           (base32
-            "1sa9nglcg04rhw8qw5ifiy7vxlic7gidcslxy1jl61q3gp95ilqv"))))
+            "06939mv9i7zzqvq71d0ixk3y9135132f3pk9jgjdwvacl1d31h8k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -61916,17 +61916,17 @@
 (define-public emacs-json-reformat
   (package
     (name "emacs-json-reformat")
-    (version "20160212.853")
+    (version "20220905.2342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gongo/json-reformat.git")
                (commit
-                 "8eb6668ed447988aea06467ba8f42e1f2178246f")))
+                 "9120ab67c5379c44bc7a7a07ca858670cea4f32f")))
         (sha256
           (base32
-            "11y11yybhb8wfj8qcj4gw8rhhly7kjs7ylyxwsh7qnfgq6f771qh"))))
+            "133p77y3xqhqp6njajwry40l865hzsvag4k6cmhva8jxpl0zsz06"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gongo/json-reformat")
@@ -71220,17 +71220,17 @@
 (define-public emacs-melancholy-theme
   (package
     (name "emacs-melancholy-theme")
-    (version "20220905.241")
+    (version "20220906.38")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/baaash/melancholy-theme.git")
                (commit
-                 "059dbff9749ac6d78624680562f8120b1dbad578")))
+                 "21a455d1a005c4640273de8422d2906811cff3f8")))
         (sha256
           (base32
-            "13a7jnyhki3fzzl4sq9275572kndl6yirdb284kqcrhqm3phwx7k"))))
+            "0wkakc43kdzjb34hpimghj5jhdbijpkhd71n9yzp25zpy04f849v"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/baaash/melancholy-theme")
@@ -106658,7 +106658,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220827.935")
+    (version "20220906.243")
     (source
       (origin
         (method url-fetch)
@@ -106668,7 +106668,7 @@
                ".el"))
         (sha256
           (base32
-            "0p0slfgsf4gn165xbxjg71d76r7iarap43875930wx1mrzz444pa"))))
+            "0fdmfik1q9gp8vzkxsnk1h9wpcayc8qj7c4pq46szc1h5i54350w"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -107822,17 +107822,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20220823.919")
+    (version "20220906.643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "fc9f685fee717f52a249a72189bbdccb225bc122")))
+                 "4ff97e9d781df9a33dfaf3724d97b072d5c1f55a")))
         (sha256
           (base32
-            "0a40ddrpqd3ylf1ylnaxvmrr966z8qqv8xh796nacmr5klbmzc6i"))))
+            "1h8qngjsnq4ghdm64vncnjfa6a85ssk5zy9g5hscmxnxbjv5483q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
