@@ -1558,17 +1558,17 @@
 (define-public emacs-ace-window
   (package
     (name "emacs-ace-window")
-    (version "20220906.1805")
+    (version "20220907.704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/ace-window.git")
                (commit
-                 "e3e6ec105ae8d18208f7a56fc1b068dd1427f1d4")))
+                 "0d9a89edafca53a09946e3a59ed64a0b975a0b8a")))
         (sha256
           (base32
-            "1brcj1hk14b6fdp2lm8sfrw6fgmrnaqlqyhi9193s93jphz5ladm"))))
+            "1y0yxi5m2x0r0awk7pfkkrj56gjqqgb96pmlnyk4pcck7ifd6jqg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (home-page
@@ -13574,17 +13574,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20220906.730")
+    (version "20220906.2225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "d1fc8ebc0b4964e3414bb8b9b6cc8e3b475f7f3c")))
+                 "ed68587a8961c7db0e8fcf7d2db5fc69295c5f37")))
         (sha256
           (base32
-            "1jm9idrdwx8s2dk6r1xbbr56gqrngn9rgzb5fg7dw3isfplq1n0i"))))
+            "0x8s955clsm4f6bc77jrw1d9vz3l3b6drcii6ykb031qrjsxbl4f"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/cnfonts")
     (synopsis "A simple Chinese fonts config tool")
@@ -24175,17 +24175,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220903.1118")
+    (version "20220907.716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "89459279ff4a1ca077c36cc68181c9f0f188e32f")))
+                 "5e7c0553ae7d9523607aa2fa5ed566832aa7df77")))
         (sha256
           (base32
-            "1j85z9b8rb2c4mxj0l7qmic8k571hmkbl045wkkjrgwcd9dv49dp"))))
+            "0v3ibihxyw9kf8h0ngip6v1sybzm0wcf4030vr7r0xi0ami0bb3j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220906.1850")
+    (version "20220907.511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "ef4a4f2e3762eca65552428ca56db4d49f0db4e2")))
+                 "258fdc27491a9bec1450962fade366c28377369d")))
         (sha256
           (base32
-            "11gacx19iraip71gy4hjk2a7w8423msfcljxbr3cp44n10ijga10"))))
+            "0bk6yswv9zq7nin95pjzr61bwp9wnnjvhfmqg0hs19arxbvgsgin"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -62266,17 +62266,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20220825.834")
+    (version "20220907.633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "738b9eb50b9febbca2bdcd5e880450eec707c1ee")))
+                 "a3ab6cef6ca938ba446f357b9618572115bf3721")))
         (sha256
           (base32
-            "0fj7qxxizpz7lhq2nf47mfphcb1kjndgkvihhzjhvmhdxn0apmms"))))
+            "034lj6gd4xqqxc6ls5ic466vd2frbk6d4ksrswzcx0wsqw6cgk3c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -71382,17 +71382,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220901.108")
+    (version "20220907.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "eebb79219d64822bc0562fdf858dea22805eb5b8")))
+                 "41c6e12329046d9e6ab4dbddae6bc234c589d28c")))
         (sha256
           (base32
-            "0hdgmq7jprz6q3rch6j6krnbv0am335p4b6ad8npfdqg00gm96qp"))))
+            "08yiwhq9y4f9x463j6navbrs9w2qam1nlaiad5klxlxa5yyynscv"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -94698,17 +94698,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220906.928")
+    (version "20220907.228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "d50e20a49b8554c34b3010a93efff3ce9047b169")))
+                 "c845da74e1733b1fd3760306b02486280c9b1319")))
         (sha256
           (base32
-            "0wrxbhb7r9063wd3maqxz74ns910i9nb63dcvqki9ysjm5x5785w"))))
+            "1maampj8y2ij3w0r5l9lgjavfy741hs80h787yjf2niy023vl0rf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
