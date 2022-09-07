@@ -1558,7 +1558,7 @@
 (define-public emacs-ace-window
   (package
     (name "emacs-ace-window")
-    (version "20220907.704")
+    (version "20220907.709")
     (source
       (origin
         (method git-fetch)
@@ -12313,17 +12313,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220820.1409")
+    (version "20220907.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "731c0ae81aecca94f7dcc4f2dad51a0cd1c3de68")))
+                 "b0fefab5095c5069b4bb5b282223bf5d67194ce1")))
         (sha256
           (base32
-            "0ng128j689h6q2hqfizrcnj5b927br363qajnqg2n194s5k997zc"))))
+            "1gg0wf7z29qxcc50lq2cqmigq9ripavj2c1p2370mp654jiqpfrh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -20172,17 +20172,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220809.1358")
+    (version "20220907.759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "49e5603cac7d028bfc4c679161a20ca40327956c")))
+                 "02c350d7a767f577c8cccee84904c423f86fae54")))
         (sha256
           (base32
-            "0hs4hq9rj3xrjcm98gd9b6vyvakhq97gqym4z19h1wkrnhf3rpv0"))))
+            "0k1c9w75s58rdvs4ihs4m426amvvavc03j5p00ija8kwb0idddrp"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -21208,7 +21208,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220905.1429")
+    (version "20220907.929")
     (source
       (origin
         (method url-fetch)
@@ -21218,7 +21218,7 @@
                ".tar"))
         (sha256
           (base32
-            "1lxjwk68dk9ifqi9m5mjbdcr0m3zrw3wh50hgy90bi0bmzny20p6"))))
+            "1hf391j07r575m3436mf2dy3qizv77hlxn9mi6j4fcpqfk709m5p"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220906.1502")
+    (version "20220907.1149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "2adfb56400c2c45361b4b3752418e2b35ec066fa")))
+                 "ac8ed53dc5e11787ab2651076a6456b3cadc5ab4")))
         (sha256
           (base32
-            "1gjj90psmds4hdy2sy7swixrysf8z6vkfm5gjmbfdky062jyy5gp"))))
+            "02vrh2s13ygd7qz255vbhdaa192w5yr2qph8wifwr1pqk83d16lk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24175,17 +24175,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220907.716")
+    (version "20220907.1149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "5e7c0553ae7d9523607aa2fa5ed566832aa7df77")))
+                 "8ac6dfdf816cb687e7b1ddf0b8adea4e6ec0367b")))
         (sha256
           (base32
-            "0v3ibihxyw9kf8h0ngip6v1sybzm0wcf4030vr7r0xi0ami0bb3j"))))
+            "1j85z9b8rb2c4mxj0l7qmic8k571hmkbl045wkkjrgwcd9dv49dp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -68136,17 +68136,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220906.1121")
+    (version "20220907.1223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "f47c4e6e31ff3244c9210b7100e1ab0d148a5c4b")))
+                 "c00fa42c97594c509e5afa9d7f9816eeb321e826")))
         (sha256
           (base32
-            "0scjfk56k2469wvv96y349n6f24ayk054ib30kch584m1jsa7lxi"))))
+            "0z2v5q1g05mqq8aq16vc4w36kvpiklywd8kgyi3cy09vqr5dcc91"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84475,17 +84475,17 @@
 (define-public emacs-org-unique-id
   (package
     (name "emacs-org-unique-id")
-    (version "20220901.1438")
+    (version "20220907.821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Phundrak/org-unique-id.git")
                (commit
-                 "dff82d885f7eaefd194eef1114ae9647ee1461ec")))
+                 "1a4c2c6bb98a5ad79ad81f2ec9066eed608d33dd")))
         (sha256
           (base32
-            "0ci9f1cf79drh1axqsk3mqf9594zm4n1lxyxx89vqv9sckpq5nhh"))))
+            "1ya9zdk4x60j1asvkgvlzz50j5mv9if7y8gbyyv198gyc1ifv9nv"))))
     (build-system melpa-build-system)
     (home-page
       "https://labs.phundrak.com/phundrak/org-unique-id")
@@ -95240,17 +95240,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220817.2017")
+    (version "20220907.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "765af4569eaf93c07c6aecdf7f134022677f9620")))
+                 "b19009fd9bb411882f8c733125d0232b3e228d93")))
         (sha256
           (base32
-            "0hfkncpz7vl9d2qi8ab9zfdrvjqsw69cw33nwcd2pn1qm08l7zw7"))))
+            "0fvvrdlypw4wdx420vrdxf3yxhl867c30q7csg9r2bpsdbzf71wa"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -120606,17 +120606,17 @@
 (define-public emacs-xmind-org
   (package
     (name "emacs-xmind-org")
-    (version "20201202.1605")
+    (version "20220907.1310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/xmind-org-el.git")
                (commit
-                 "ee09e382b3fefb67ccf3cd4db96a8dd2acc34045")))
+                 "49417098c8cf532dd804f25e262feedcfb0ee1fc")))
         (sha256
           (base32
-            "1icjdgyv5i640p8q8y06h7nhzi7is4szj19j3vbhh6yxbwzdhbn9"))))
+            "0yqr6wrikw27x7qz7rzayvimllbh5ki93mg0k5ngnf1jzhxx3fs5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-ml emacs-dash))
@@ -122252,17 +122252,17 @@
 (define-public emacs-zetteldeft
   (package
     (name "emacs-zetteldeft")
-    (version "20220429.2057")
+    (version "20220630.1825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/EFLS/zetteldeft.git")
                (commit
-                 "86dd346be4bdddd6ac8d47503355fea350098271")))
+                 "40fe8845ea48c7a6a81ea2771962cd810f789406")))
         (sha256
           (base32
-            "1s9gnsd3gj6wpv1vc3l2hhz4ccmfq6wvxcn3qj011pgz7y557iz9"))))
+            "0dy34py5g0z0ixcs581xjm9bbawm64bvvdy8yd154kfy3mw7vrfv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-deft emacs-ace-window))
