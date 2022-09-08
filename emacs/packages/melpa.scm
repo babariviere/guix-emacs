@@ -4511,17 +4511,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20220822.1348")
+    (version "20220907.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "62fbd5f2665f0001f9c6a2dd0622edda7f4431da")))
+                 "aa74a1e2e5cbc0d65a6d0c2c5dec3c8b3cd0370f")))
         (sha256
           (base32
-            "0b1vzhq5s10wifad7x1m5yiwrry9zwxqhpdvkkvyhbzdlf9c2668"))))
+            "0qyy9aax0aa8c6lviw2w7qwpabyx96gb318a2h0x83jkwkzj65m5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-flycheck emacs-s))
@@ -19751,17 +19751,17 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20220429.1454")
+    (version "20220907.1402")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "b81081c2eb8dcbd7e67e05cf5e1991df6cf3e57c")))
+                 "1ab4d9520d17cd37d1f370d1c8adebf4d9d3f737")))
         (sha256
           (base32
-            "0cr9d2kbikal1np7j0zd39ldhpicsn9xb7iqfbl4dgksnf8jc5rd"))))
+            "0xap0fxmnwj3h9qrd0gfadkz3glkjj5gav7vj6jjf2ymhvhwm5mz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -21208,7 +21208,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220907.929")
+    (version "20220907.1105")
     (source
       (origin
         (method url-fetch)
@@ -21218,7 +21218,7 @@
                ".tar"))
         (sha256
           (base32
-            "1hf391j07r575m3436mf2dy3qizv77hlxn9mi6j4fcpqfk709m5p"))))
+            "0h11km8dqxkc4g86kcrbrlf68bmcd44d1albcnhvpx9px97xmplj"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220907.1149")
+    (version "20220907.1655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "ac8ed53dc5e11787ab2651076a6456b3cadc5ab4")))
+                 "39d6bc0c33d5a265f1915563571d3fcc7f58b362")))
         (sha256
           (base32
-            "02vrh2s13ygd7qz255vbhdaa192w5yr2qph8wifwr1pqk83d16lk"))))
+            "0lyz3v4x2cihvryg7hwh4grnvzx8zjcva3ilq2q3m83c4fx4xj2g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -23227,17 +23227,17 @@
 (define-public emacs-display-wttr
   (package
     (name "emacs-display-wttr")
-    (version "20220316.213")
+    (version "20220907.1625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/josegpt/display-wttr.git")
                (commit
-                 "2cb36df32b0ecf381185126a969b7282af5a0e01")))
+                 "d1f5b57e00ee229548005ddd1e8061e213effd32")))
         (sha256
           (base32
-            "03lb0a9w9rgiqar93crh4h4q3m7d3yk9hn8y5h806h56lzrp54f2"))))
+            "1hmawlnd2l89p48pviwn4khvjs0iry8x67cyqw70r10dd0ybn851"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/josegpt/display-wttr")
@@ -29704,17 +29704,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20220906.2138")
+    (version "20220907.2041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "e9fa4c095d007e16365348cb0a1b42e37ed8e701")))
+                 "ddc858d7826d1068dd87f1e3423e95f885264a1f")))
         (sha256
           (base32
-            "18j5gmijc2xxfxfjfa2mn08r9kpdm74ih8sa2vhsbprvyfyksjsm"))))
+            "1w3798jgy6md6yr6a94bq87q85nbawf6azys2awz6ycfmymks9mb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -55331,24 +55331,24 @@
 (define-public emacs-homebrew-mode
   (package
     (name "emacs-homebrew-mode")
-    (version "20210919.331")
+    (version "20220907.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dunn/homebrew-mode.git")
                (commit
-                 "8c630c6f768b942a86a10750f720abc64a817cd0")))
+                 "e32da1397ce176766e39c286861ef4c40d64bbf5")))
         (sha256
           (base32
-            "1n688qffn8nrr45hnq4mmxr8v1wccjim50206c1xw8mvd63hnzhc"))))
+            "1nslh3k6nvx5cgk2zjrfh9lhwkrs089p0hf93p0k8all3pvb7jbz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inf-ruby emacs-dash))
     (home-page
       "https://github.com/dunn/homebrew-mode")
     (synopsis
-      "minor mode for editing Homebrew formulae")
+      "Minor mode for editing Homebrew formulae")
     (description
       "Documentation at https://melpa.org/#/homebrew-mode")
     (license #f)))
@@ -68136,17 +68136,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220907.1223")
+    (version "20220907.1628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "c00fa42c97594c509e5afa9d7f9816eeb321e826")))
+                 "76d87d8f2020fc468d416d5fb3d088505b9cc4ac")))
         (sha256
           (base32
-            "0z2v5q1g05mqq8aq16vc4w36kvpiklywd8kgyi3cy09vqr5dcc91"))))
+            "1b6zmvix3cz93g5sm3cs0apczhgbifrl13f5af6a66wy8syazr34"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -87573,17 +87573,17 @@
 (define-public emacs-pandoc-mode
   (package
     (name "emacs-pandoc-mode")
-    (version "20220519.2008")
+    (version "20220907.2117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/pandoc-mode.git")
                (commit
-                 "2a4e726a29d38e7c2379787cad619e5392ad2da0")))
+                 "0e1a50717599e813e2b872f2af9f40b2272793fd")))
         (sha256
           (base32
-            "1yn9mdlxcv9d33nvgy3wp09qhynb2m50cyhsv1xf77wyzlwdlb2p"))))
+            "1qjwpxjnqnf0pxmsdqwpa7wxs173mivdj4prahjpykknvb0v7z36"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-hydra emacs-dash))
     (home-page
@@ -103550,17 +103550,17 @@
 (define-public emacs-simple-indentation
   (package
     (name "emacs-simple-indentation")
-    (version "20220215.1745")
+    (version "20220907.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/simple-indentation.el.git")
                (commit
-                 "e7c8238af9e1a6b1fc4dab8014d779ac178fc249")))
+                 "f5a8e9ae755e1cc1e7a3b5e3cc37e2ebf40cce2e")))
         (sha256
           (base32
-            "03abad2hgkq5k5q7v4mb7ykd55wa6zg5a8ss62gsdwi373a9mkhh"))))
+            "01pbbn2mizzgp2kql4vfx2mdqsbpsaf1p2lswhaf91njr75bdp37"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -112320,21 +112320,21 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220718.1215")
+    (version "20220907.2057")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~tok/tok-theme")
-               (commit
-                 "f6d036b3213f277b0da86eb0e0f333f469eca643")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/tok-theme-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1nwkw002ah3p9ss7dpkq35q49k8bf4z06qb5yf4hr37w4dc75dg1"))))
+            "0qr8zzq4mrz8m6yjydk84kdn77wxxr7x9jn3r8xj9rxz43bbgkys"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
-    (synopsis "Comfy light theme")
+    (synopsis "Comfy dark theme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
