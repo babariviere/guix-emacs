@@ -1558,17 +1558,17 @@
 (define-public emacs-ace-window
   (package
     (name "emacs-ace-window")
-    (version "20220907.709")
+    (version "20220907.2008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/ace-window.git")
                (commit
-                 "0d9a89edafca53a09946e3a59ed64a0b975a0b8a")))
+                 "3fe3534c75b0205c55d6c8a42e321467879dbdec")))
         (sha256
           (base32
-            "1y0yxi5m2x0r0awk7pfkkrj56gjqqgb96pmlnyk4pcck7ifd6jqg"))))
+            "13hr3ckknjdqp2jiq0l33gif3xax8g8xzlw0spfrkig8c3jaki48"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (home-page
@@ -5743,17 +5743,17 @@
 (define-public emacs-avk-emacs-themes
   (package
     (name "emacs-avk-emacs-themes")
-    (version "20210521.1051")
+    (version "20220908.1022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/avkoval/avk-emacs-themes.git")
                (commit
-                 "7b9b6517873c4d4d73e6e34ca56c54062db60759")))
+                 "598a2a56601db1f474ed3f34a1cc4fb37921c21a")))
         (sha256
           (base32
-            "0vah74474x9wby36hxi7jpmlr3q1zra33lkidvxf4xh9nsliqnqn"))))
+            "1k8qc2hyklhbc7hjv0vpj3vwv1dszzp3xi26alz332392pls048q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/avkoval/avk-emacs-themes")
@@ -21208,7 +21208,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220907.1105")
+    (version "20220908.653")
     (source
       (origin
         (method url-fetch)
@@ -21218,7 +21218,7 @@
                ".tar"))
         (sha256
           (base32
-            "0h11km8dqxkc4g86kcrbrlf68bmcd44d1albcnhvpx9px97xmplj"))))
+            "1df9did7xjkhrz0d1dblmd1zadkzvgzdzx2wgdvl0l475jzr1wjk"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220907.1655")
+    (version "20220908.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "39d6bc0c33d5a265f1915563571d3fcc7f58b362")))
+                 "1657717ce4e1643823048f229922cadbdec9821a")))
         (sha256
           (base32
-            "0lyz3v4x2cihvryg7hwh4grnvzx8zjcva3ilq2q3m83c4fx4xj2g"))))
+            "1v5gnaa5d3ahihkapgrfs1l2pc0xi88b491llkx4m5jhjjrsrd91"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25060,17 +25060,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220820.1006")
+    (version "20220908.1241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "064af9227d6be97d9c4d18ee0d114ccefdb9d414")))
+                 "6481c75be6d0e04b0b30e97bb95d00e20b42e4b7")))
         (sha256
           (base32
-            "149jzxjj8bbd075hv68z8291amgkls4kpqvm1sjkzvi73m6naq3y"))))
+            "1hlzsk11yf7mpgnfqacprrs09rswvqkz816vmcq0290a3p5f70jq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -26205,17 +26205,17 @@
 (define-public emacs-edit-server
   (package
     (name "emacs-edit-server")
-    (version "20181016.1125")
+    (version "20220908.1014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stsquad/emacs_chrome.git")
                (commit
-                 "1632acab5624637031326bd902e2ad7ccb6b4c90")))
+                 "3ce09c6eb2919d56ef052b1584bba6abb12f7e99")))
         (sha256
           (base32
-            "0m7gj224sqxjjw5sxky92fnrxg9jy4nf33kwf0aqxnfhqlgh545k"))))
+            "1yvcwpi5khrzs647nwg0hh8r537xvxjq6ylwq1ss4hd5yg58brsk"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("servers/edit-server.el")))
     (home-page
@@ -26652,17 +26652,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220726.1405")
+    (version "20220908.1036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "000b7fdce93ed29c505a7fa75baaf87094fd690a")))
+                 "f1db9196466e66f4d1147ca01bf0fe435a57a234")))
         (sha256
           (base32
-            "0x4b592vx1x63avmybdi6n6v7ik1v15idhbf1dpda2m54fhrf7bn"))))
+            "0hjy40nqy3z7vsvajsmlga8c67l5xq5i3vc4dgnjm5nvxmy7lsri"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -29704,17 +29704,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20220907.2041")
+    (version "20220908.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "ddc858d7826d1068dd87f1e3423e95f885264a1f")))
+                 "7d56cdf822c4d88baddb570e1228d901d6ca0ed4")))
         (sha256
           (base32
-            "1w3798jgy6md6yr6a94bq87q85nbawf6azys2awz6ycfmymks9mb"))))
+            "0wk965rhbgj8brd9hhd4nj7xxsfiizqscj9gni0svkas7ac3qls0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -48240,17 +48240,17 @@
 (define-public emacs-gruvbox-theme
   (package
     (name "emacs-gruvbox-theme")
-    (version "20220822.1711")
+    (version "20220908.1147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greduan/emacs-theme-gruvbox.git")
                (commit
-                 "74e8dc88b7fa15bba964f4f1ce1fccd76f523bfd")))
+                 "9025a0a72292b3d73c29d6bea21b3f8606903222")))
         (sha256
           (base32
-            "0i9mgfym6rsdj5kgaz3l9bdif6hbv22l3axxp3cnfhm937spqbvq"))))
+            "03xmqmz9535pdi2hjfm84khi47sclxiffppkkqiqn9f2kw6h7nks"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -83568,17 +83568,17 @@
 (define-public emacs-org-roam-bibtex
   (package
     (name "emacs-org-roam-bibtex")
-    (version "20220626.1121")
+    (version "20220908.1053")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-bibtex.git")
                (commit
-                 "201262a839db20af2a49165a80f85f82dad159d1")))
+                 "12f721ab0b1e74ccae00711d60aab700b38fa8cc")))
         (sha256
           (base32
-            "1vpdwfs737fqswsg4qi5y55zznh7yym9wynk8qmdciyvkhmxd43p"))))
+            "0psb9mh00xi9d7r9s0mxjjjfjy66znkhyfkxs78ysmvdhq5jh7c5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-bibtex-completion))
@@ -112320,7 +112320,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220907.2057")
+    (version "20220908.754")
     (source
       (origin
         (method url-fetch)
@@ -112330,7 +112330,7 @@
                ".el"))
         (sha256
           (base32
-            "0qr8zzq4mrz8m6yjydk84kdn77wxxr7x9jn3r8xj9rxz43bbgkys"))))
+            "05x9r5qcrbq67asq45zhycihpjs2d9ligvaf11zgz8cjy8vlhzpz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
