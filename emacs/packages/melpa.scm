@@ -78668,17 +78668,17 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20220902.2244")
+    (version "20220903.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "47bfe05dcad755ec0784f11c94090aacfe492755")))
+                 "45ac1448467bf5960562fcab180b7ac1e89db501")))
         (sha256
           (base32
-            "0d65w1ihy702b7z17bzgszfbz0652gqkcwwmq8bhlw8niv3b1igi"))))
+            "0wyj7lkca5faaw1814sam9qbi5rk0diam4wjigh7baq24d6ac95l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
@@ -89723,17 +89723,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20220709.1748")
+    (version "20220908.216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "ca6ae67dab6a8646316d62d400a37dd96d8de3f6")))
+                 "2440330456e6b73ba3725d1bebddfe67cb6e6e5c")))
         (sha256
           (base32
-            "0m0x5xhj2l3gp03jvjaawk0w3xb4nsddxkgnm31sacchqwxjmxcz"))))
+            "06xgmlbvqhkrnk6390mdbpjij34msxxwzqmagi6zpwpsf38mn6qf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -92458,17 +92458,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20220903.2201")
+    (version "20220908.39")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "32aa2424cadb970e9adbaddb898ba43f3437530c")))
+                 "eb35fc015c8124e92046bb105cb4973c2a6ac910")))
         (sha256
           (base32
-            "093lmh3gyzap8gj5dv1impa5ijiwa4a07xvbrb2qgm7vmqx1qrng"))))
+            "17k06phhglv0x2nf9ia2xpw158aqspxlx2dgwg129gs5s8fhqg7l"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -105977,17 +105977,17 @@
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
-    (version "20220902.1704")
+    (version "20220908.403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-soothe-theme.git")
                (commit
-                 "a9e6e47cb90182f75a748fffab87c974f76489fc")))
+                 "548e8118f94dc7dc8b2085ec0e91c1f76f4167b9")))
         (sha256
           (base32
-            "121z0n96kvb013d4p47av69kzxwszsam4fc0dlsy5sf2gahnkd4g"))))
+            "1kw991cq7w9cz2qsvnp3a3b3m4y5whndcsj5l98hmzav2r4bmfs3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
