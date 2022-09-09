@@ -48240,17 +48240,17 @@
 (define-public emacs-gruvbox-theme
   (package
     (name "emacs-gruvbox-theme")
-    (version "20220908.1147")
+    (version "20220909.241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greduan/emacs-theme-gruvbox.git")
                (commit
-                 "9025a0a72292b3d73c29d6bea21b3f8606903222")))
+                 "3177b458dcbd5db6135a8d57fd5b765131e4da6a")))
         (sha256
           (base32
-            "03xmqmz9535pdi2hjfm84khi47sclxiffppkkqiqn9f2kw6h7nks"))))
+            "0dgjf86i8179l1nsjyc20chysqmy8yhphpd5lzv2ypx79l4z3jka"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -66840,17 +66840,17 @@
 (define-public emacs-litex-mode
   (package
     (name "emacs-litex-mode")
-    (version "20220823.2231")
+    (version "20220909.146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/litex-mode.git")
                (commit
-                 "c4a1071fcf6d2bec9eb367ede8c33b190e9ff802")))
+                 "ad98a61e71e76ab3caf2a2eb36886716d28e8c23")))
         (sha256
           (base32
-            "0bm3zx2ylrcs8apid2g6a6m5f27ahkvavqbprld5d0mfb1m42lw2"))))
+            "1hjl7nxk85dixvw5zqmz11ak08r7wibvxm6cr2gx4jfj9snl2wlk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Atreyagaurav/litex-mode")
@@ -68838,17 +68838,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20220820.1110")
+    (version "20220909.427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "a3d554e2d9d7900fc4723c1ef8d6941d0f65b010")))
+                 "91ea4c1bfd62458d3ccd0956c4ccf81901061258")))
         (sha256
           (base32
-            "033cvbx6kh77g8l93syzbsr8vr5mqk4d3l43z7qaahgm8yvymisd"))))
+            "0s02h65w9y5xwr2hsxpl6q8cy8gl38wwirhcpmx7fllfywhqn41r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -81567,17 +81567,17 @@
 (define-public emacs-org-edit-indirect
   (package
     (name "emacs-org-edit-indirect")
-    (version "20220508.2141")
+    (version "20220909.457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/agzam/org-edit-indirect.el.git")
                (commit
-                 "f146d1b406308298b4004a28aaa11124b02d015b")))
+                 "62894ac7b8b85eb03766f66072b0be10ffb6898e")))
         (sha256
           (base32
-            "18w6gpdj8ch8zgyidaglym8mxp23y4aa6a0z2qix7skka0vlknjq"))))
+            "18wb167ansh0b5k8df2sc1v7ps3l0jb1l63gp09d1gcjdzfd6hvn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-edit-indirect))
     (home-page
@@ -99096,17 +99096,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20220729.1809")
+    (version "20220909.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "f3c56ba6949934758e79a371eb5a29d8e832a828")))
+                 "9aa25c200e6b1709263c0638b1827f36de423519")))
         (sha256
           (base32
-            "0xv7f0hsnjm3zcqqsvmrihh5ik59n16pjd0a1vcbabamcd59yq37"))))
+            "1aplplsdpxhad9dm2p8pibq15v2lhwc9zfwr796710vppl6hjd4p"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
@@ -106518,17 +106518,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220902.156")
+    (version "20220909.204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "2f09d671abd72b1db521be5b5fdceca8cd84d1e8")))
+                 "e1331e2b6531e70cbb85def22757ad8078e64891")))
         (sha256
           (base32
-            "1ailv9nd6jrr56h1wmlzl953z0wi9y6xiddiqri7ldpayh53khjx"))))
+            "0cpnkra383wmcsyskd0y5jhrmzhjvlk6yb20asx3b4khqkaq6vbn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
