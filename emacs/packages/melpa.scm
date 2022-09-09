@@ -4511,17 +4511,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20220907.1403")
+    (version "20220908.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "aa74a1e2e5cbc0d65a6d0c2c5dec3c8b3cd0370f")))
+                 "ecfdf357f4bde6d9acb0826c82a32e72e9c4972f")))
         (sha256
           (base32
-            "0qyy9aax0aa8c6lviw2w7qwpabyx96gb318a2h0x83jkwkzj65m5"))))
+            "03pnyvvvppg60gs9nf6n6inaf2bdppq0ilgm174zw4s8ir2ad4r5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-flycheck emacs-s))
@@ -8691,17 +8691,17 @@
 (define-public emacs-browse-at-remote
   (package
     (name "emacs-browse-at-remote")
-    (version "20210603.802")
+    (version "20220908.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rmuslimov/browse-at-remote.git")
                (commit
-                 "cef26f2c063f2473af42d0e126c8613fe2f709e4")))
+                 "010639fc6bd6c710b56e0f095352da60c92473a3")))
         (sha256
           (base32
-            "094gbvpf9vy95ij7li9vb17nyhi1grh9mbv1csydb9y157baw03v"))))
+            "0ihbapxi99drdn191g7brx4pa5f1w0mskhb3yz7w3qsf0g9y9kn8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page
@@ -22972,7 +22972,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220908.1342")
+    (version "20220908.1459")
     (source
       (origin
         (method git-fetch)
@@ -24175,17 +24175,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220907.1149")
+    (version "20220908.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "8ac6dfdf816cb687e7b1ddf0b8adea4e6ec0367b")))
+                 "31ef377c5317bc433f1559b496286712f550a1e5")))
         (sha256
           (base32
-            "1j85z9b8rb2c4mxj0l7qmic8k571hmkbl045wkkjrgwcd9dv49dp"))))
+            "0z8ar6safhs8jgfg9rvj6vqwmdx09ihk0l2lpqjk9frpzr6gbbc7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -26652,17 +26652,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220908.1036")
+    (version "20220908.2337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "f1db9196466e66f4d1147ca01bf0fe435a57a234")))
+                 "fdd87b7dbb5730a82c908e0dae26f82d8c84207e")))
         (sha256
           (base32
-            "0hjy40nqy3z7vsvajsmlga8c67l5xq5i3vc4dgnjm5nvxmy7lsri"))))
+            "1w1hazwc0wqflhp798p55qx2gy58l07pmlipl7y3wvxjkxrmh59i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -27486,17 +27486,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20220826.1531")
+    (version "20220908.2134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "b32a8427189c674558047e168b86b00723af5cbb")))
+                 "cd9ecdb4783ca0ff4487e49cd079f390d56281e7")))
         (sha256
           (base32
-            "158jc6bncybd2hdyh1x8cw0851c6k0l15sjvyrn50j5v03s51fas"))))
+            "0gn9dixa8m0xa5xn81nh6v673jm81k9dsj6iq3n7ka055xsg2g3m"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220907.511")
+    (version "20220908.2323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "258fdc27491a9bec1450962fade366c28377369d")))
+                 "740402cc9d34725137e53a766f04e545f49bed28")))
         (sha256
           (base32
-            "0bk6yswv9zq7nin95pjzr61bwp9wnnjvhfmqg0hs19arxbvgsgin"))))
+            "1p51a3zpbj1lrrfgz87jzjml438s1ajr03m70sbghg1q2q61wmnc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -65995,17 +65995,17 @@
 (define-public emacs-ligo-mode
   (package
     (name "emacs-ligo-mode")
-    (version "20220209.755")
+    (version "20220908.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ligolang/ligo.git")
                (commit
-                 "c61f4efef26cab351260293cf255b5b2542a8d24")))
+                 "70575ac1c92f0a29096f6f2a1f01c59cefdc4b3e")))
         (sha256
           (base32
-            "19im07ydrc1fkfcspls6vhc8b8fm6y217wyrlpbbp80vpyvvyip7"))))
+            "0fz6k2dk59vxr2a4hidk6lifrv6b09dd94xc48d5jvbc2yff39v9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("tools/emacs/ligo-mode.el")))
@@ -73773,17 +73773,17 @@
 (define-public emacs-move-text
   (package
     (name "emacs-move-text")
-    (version "20170909.330")
+    (version "20220908.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/move-text.git")
                (commit
-                 "bfc255110ad05732a43cf25d6a0e3b4a6710b58c")))
+                 "646378e8848811fdbc571a9d16c76ac62f27aaad")))
         (sha256
           (base32
-            "0pjrl9az2c42bxz3ll7d8mng31ki5id8yfymkgmz73vajik2yc3h"))))
+            "1s6rf6bslcg5m3wgfdr5f9n1mm09arirnwb4a23fdgx3brfp3cqa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsfodder/move-text")
@@ -83539,17 +83539,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220804.437")
+    (version "20220908.1625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "7f453f3fffb924ca4ae3f8d34cabc03fbcae0127")))
+                 "d95d25615e69e7cc847641800c1886366336c97e")))
         (sha256
           (base32
-            "10a7f10wfvpcyvjha6rwgpxz20qf045fsmbw8649f75hf1vjg0ny"))))
+            "0k9wfmjpkzbzsqd4npn8vxs0xch42glnmmh28a55rzkyc2bh8n1r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -89068,17 +89068,17 @@
 (define-public emacs-persp-mode
   (package
     (name "emacs-persp-mode")
-    (version "20220818.1621")
+    (version "20220908.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Bad-ptr/persp-mode.el.git")
                (commit
-                 "8f192c304ef1c51e28a9a36284ee1f79a1931b29")))
+                 "cc5d552cf8e2923fbd5803e59bd9b5392e051b9f")))
         (sha256
           (base32
-            "0bs1048j9s3y02wa16dh9yl4hf87vj4nshhakjk9jy322vrk45ba"))))
+            "1qirc9mrgvavzrb23v801fc9vip4bq53syd072qb38srqvvf8xjb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Bad-ptr/persp-mode.el")
@@ -89163,17 +89163,17 @@
 (define-public emacs-perspective
   (package
     (name "emacs-perspective")
-    (version "20220828.1410")
+    (version "20220908.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nex3/perspective-el.git")
                (commit
-                 "74545ae94687e8d7bd13d81cc22222ed270f0d60")))
+                 "4cb9be75a41b66ec91d95464f1eed34cb1ea3b0a")))
         (sha256
           (base32
-            "1j5n44m4rhi6np41z4jxz94kb7nsw1az73n4xxwman0rqp6848a0"))))
+            "1mrx0dk2p18wizx39x4x9vv0i7dgm5lgcj4ic11m2mv27imjb851"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nex3/perspective-el")
@@ -94818,17 +94818,17 @@
 (define-public emacs-pyimport
   (package
     (name "emacs-pyimport")
-    (version "20180308.1752")
+    (version "20220908.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/pyimport.git")
                (commit
-                 "a6f63cf7ed93f0c0f7c207e6595813966f8852b9")))
+                 "c006a5fd0e5c9e297aa2ad71b2f02f463286b5e3")))
         (sha256
           (base32
-            "1q5gqhvh4zq5dy8vns694warcz48j1hdnxg16sjck4gsi9xivbvs"))))
+            "0afkdcbr91wmkf72rj2kxyl3w6fnff0mgf855pk9ic1gz5sxvn24"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-shut-up))
