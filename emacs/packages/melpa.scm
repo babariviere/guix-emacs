@@ -14773,17 +14773,17 @@
 (define-public emacs-company-box
   (package
     (name "emacs-company-box")
-    (version "20211020.2007")
+    (version "20220909.2043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sebastiencs/company-box.git")
                (commit
-                 "f9cbbc7df8efbb56a8d31a5b422d158660d9109e")))
+                 "7164422b39f4698d86eb1aca30f0c6d11e83008f")))
         (sha256
           (base32
-            "01q5jxas8ak7yk3313mmcjmqspckjwv959w8zqvm08r8jgmcl1bv"))))
+            "1m8i1r9vic77zvqsq90pzmdwpbp9cxcjdg5y26fazrj07hgcmpd7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-company emacs-frame-local))
@@ -26652,17 +26652,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220908.2337")
+    (version "20220909.2125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "fdd87b7dbb5730a82c908e0dae26f82d8c84207e")))
+                 "06e6dd6693123a737fb883dcf277432d63d6518e")))
         (sha256
           (base32
-            "1w1hazwc0wqflhp798p55qx2gy58l07pmlipl7y3wvxjkxrmh59i"))))
+            "0dan6dmszy3fvywikhsg7z2fpiy9wipc0dd756npkq6dc786y887"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220909.1231")
+    (version "20220909.1705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "86bc3b3fd78646ffe2f3bb195d3e10a5a048048f")))
+                 "97ba4612474b034b784dc2e0e613a4622b58a730")))
         (sha256
           (base32
-            "11s97k34q0p48kvndnvmjylwa0h5cbykv6x89dcfy8l2k11l23g7"))))
+            "056chf8cvmvlyldy79awpfnn4r0za8bx0lgxbyyg6wda2wm1r0j0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -49498,17 +49498,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220906.1641")
+    (version "20220909.2018")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "d1493b434176dc03d136567a995329a022672698")))
+                 "44b8eb8a17d0e13d641b57e0e7d9853d2d9b097c")))
         (sha256
           (base32
-            "08sm6j16vffcdav3z0i11nzica3kdvymsqh1k8fki2w6ms0kjq2g"))))
+            "0lgnnvf8crq8sxgs782n68v85g4mxa71yd2plr12sd02hwr6a2kx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -64055,17 +64055,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20220906.1916")
+    (version "20220909.2022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "6c0cd992f1b24e33c9c8755a5eb95e33f8773c45")))
+                 "4bd0c627f198cd2ec72e4f74f7d89778f514443f")))
         (sha256
           (base32
-            "0gq6zkmlp9rv90xxzh6f28rgnrndds5ra0l0cai277968h1fypyf"))))
+            "162wcjf6p1ajp7n5w73923v0xbh2pwcmb8znfsr576dzwrbczl5w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -66138,17 +66138,17 @@
 (define-public emacs-lingva
   (package
     (name "emacs-lingva")
-    (version "20220623.954")
+    (version "20220909.1557")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/martianh/lingva.el.git")
-               (commit
-                 "2032ffdcace23cca0a2ad4345352c20c1580be9e")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/lingva-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1xfjbqf42jb78w1qddxi0iac5qqbaljarn46ydymm6ak1cwhfpz8"))))
+            "04pbfvl9l57n1r6sdq9cfa8mjgw37hsh20f4qqilvx51dijynxsp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/martianh/lingva.el")
@@ -115506,17 +115506,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20220819.553")
+    (version "20220909.2043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "e2d173b1200865a9efd5c2066831a230497582c0")))
+                 "4db51ba3481ac4216147d774e969cbf0a46ac971")))
         (sha256
           (base32
-            "1m5987l96xlpxz0aiczc1nifrsjh33z9z7biryb47khdgizhy931"))))
+            "1q91m28zdnvwvlwq0xww6hkj5xj33rlr47isr5ivvqhb40ph4x4x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
