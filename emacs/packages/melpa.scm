@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220908.1459")
+    (version "20220910.539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "1657717ce4e1643823048f229922cadbdec9821a")))
+                 "7cfe039325ab219de91fcb50e6cfba3c5d7dcde1")))
         (sha256
           (base32
-            "1v5gnaa5d3ahihkapgrfs1l2pc0xi88b491llkx4m5jhjjrsrd91"))))
+            "138dai0x4ihava59r9qndj7wrgp41i59d1n6yyqkl8snn9m7l4g3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -68438,17 +68438,17 @@
 (define-public emacs-lsp-tailwindcss
   (package
     (name "emacs-lsp-tailwindcss")
-    (version "20220816.1602")
+    (version "20220910.347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/lsp-tailwindcss.git")
                (commit
-                 "6cff7196d0742a359a58c21a719a2cd436006e12")))
+                 "a64171870c81e9131fef72e3bd1a5672a77edb80")))
         (sha256
           (base32
-            "0sxs6p4sglk753q6q2ysqbfr7gbybqc5l76y8f4ima6i66sjn4jm"))))
+            "0dp626qsq2s6gsd2jcr0y7wjk2vjld7kb48z0kyy1fllll7fnr3w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode emacs-f))
     (home-page
@@ -71220,17 +71220,17 @@
 (define-public emacs-melancholy-theme
   (package
     (name "emacs-melancholy-theme")
-    (version "20220906.38")
+    (version "20220909.2250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/baaash/melancholy-theme.git")
                (commit
-                 "21a455d1a005c4640273de8422d2906811cff3f8")))
+                 "f009efc4388e46ead770ce5330f1f1493463f252")))
         (sha256
           (base32
-            "0wkakc43kdzjb34hpimghj5jhdbijpkhd71n9yzp25zpy04f849v"))))
+            "0iyj4p28v1d2japbq0n1kjgnxc118r63wp2l8dh84749x9ks2n11"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/baaash/melancholy-theme")
@@ -73494,17 +73494,17 @@
 (define-public emacs-moom
   (package
     (name "emacs-moom")
-    (version "20220903.352")
+    (version "20220910.154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/moom.git")
                (commit
-                 "c4dfd12068f438919d7966f9e975fcac6a840a76")))
+                 "04d6e5900f7f35060a9437cfca3234ef4d2510b1")))
         (sha256
           (base32
-            "1x2b99jnb164i2lhsh1nzbwzdfwgfbzgfizcgv4blj5sh0ic9j48"))))
+            "0jdndzn41a7m7804f8lqx2ixmvcllxi378axlf3bczdsy8y13nps"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/takaxp/Moom")
     (synopsis
@@ -81271,17 +81271,17 @@
 (define-public emacs-org-contacts
   (package
     (name "emacs-org-contacts")
-    (version "20220827.135")
+    (version "20220910.436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-contacts.git")
                (commit
-                 "919511eb86975353eab78842f6b68e65f55fd44d")))
+                 "217ba04c9d638067a6ccb0829cf1885f54c1d568")))
         (sha256
           (base32
-            "0wd92136idgn07d1gnfim9xzvwf53y8kn2z2wkkjn8ldwbfvc9p7"))))
+            "0f0vjdvx0hffj2xvyrya8yfl77djmzmpxdxsx58ym4lmdvwyb6x3"))))
     (build-system melpa-build-system)
     (home-page "https://repo.or.cz/org-contacts.git")
     (synopsis
@@ -84141,17 +84141,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220904.1303")
+    (version "20220909.2216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "2d6ddade8fec71fabed8efde36a3cfb8a6df3118")))
+                 "26293b6dbd1dc708e18f04be9e067a96c6167782")))
         (sha256
           (base32
-            "1c4jaw9ria8vf5cc2rg32zwi8vfad4kif1snj79jwiypq0p8fv6s"))))
+            "0zpmr7k44599jiliba26by5218qzhx0gaidpbzq6k5g7gj70hywh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -89724,17 +89724,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20220908.216")
+    (version "20220910.310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "2440330456e6b73ba3725d1bebddfe67cb6e6e5c")))
+                 "6b24392a51f2689158526a5eca4cb71f112317d1")))
         (sha256
           (base32
-            "06xgmlbvqhkrnk6390mdbpjij34msxxwzqmagi6zpwpsf38mn6qf"))))
+            "1rgyj3iq278w3h3976zhm374y1n1c40xa74w30l5fxzb3i1cadlg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -115506,17 +115506,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20220909.2043")
+    (version "20220910.25")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "4db51ba3481ac4216147d774e969cbf0a46ac971")))
+                 "9407f5f01c78ec3cb180f76eaf3adab35b80e3c3")))
         (sha256
           (base32
-            "1q91m28zdnvwvlwq0xww6hkj5xj33rlr47isr5ivvqhb40ph4x4x"))))
+            "1llivgzivfsrfqzlzpmi6swz18p03sqmbjdncv42b70m5gd34i79"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
