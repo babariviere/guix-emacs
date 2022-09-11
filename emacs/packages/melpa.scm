@@ -5765,17 +5765,17 @@
 (define-public emacs-avy
   (package
     (name "emacs-avy")
-    (version "20220102.805")
+    (version "20220910.1936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/avy.git")
                (commit
-                 "ba5f035be33693d1a136a5cbeedb24327f551a92")))
+                 "955c8dedd68c74f3cf692c1249513f048518c4c9")))
         (sha256
           (base32
-            "0pimrjxxvx48vl5nbp9zskfmlcmdgrrkfa218qpck8igahh3nswl"))))
+            "0hqsi3f5wlxdydhqahipgkqx7q4a79v63bz3k6ys4hv8w6yw8y61"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/abo-abo/avy")
     (synopsis
@@ -13686,17 +13686,17 @@
 (define-public emacs-code-cells
   (package
     (name "emacs-code-cells")
-    (version "20220910.1208")
+    (version "20220910.1718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/code-cells.el.git")
                (commit
-                 "2b157f82f74375454719defd65b0508ce43decd2")))
+                 "9da2ff44d1324b7c827b5d475391ba0a16c34239")))
         (sha256
           (base32
-            "14sz7pkbz137axih44pgjnfjb7arxg6hbhqwcj5m23nszjn8d507"))))
+            "0v78jl6dnjg0v3ghdh9gdyg809yvmzmrhlyz68yh9ygznvsb5a1l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/code-cells.el")
@@ -17466,17 +17466,17 @@
 (define-public emacs-counsel
   (package
     (name "emacs-counsel")
-    (version "20220626.1826")
+    (version "20220910.1908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "2051de5882706246da298ce5f60482cd7f469fe7")))
+                 "4c370d66776bd5145264497408fc67ee2763df3c")))
         (sha256
           (base32
-            "0gk0dznnd7y08f83pjgwdxy9i9dz06jj1kk7mq1schbky82a1i57"))))
+            "0b2wxb6i9xmxm1mrbfcamj9jw9qr83vfg93mgybasl8q609svnxz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-swiper))
     (arguments '(#:files ("counsel.el")))
@@ -56124,17 +56124,17 @@
 (define-public emacs-hydra
   (package
     (name "emacs-hydra")
-    (version "20220102.803")
+    (version "20220910.1206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/hydra.git")
                (commit
-                 "9e9e00cb240ea1903ffd36a54956b3902c379d29")))
+                 "317e1de33086637579a7aeb60f77ed0405bf359b")))
         (sha256
           (base32
-            "11xlhm098gi6fnksnykciwdx5a46xmxwx9y8r6kjpb92vpjfak80"))))
+            "1nbp0kpxb0m4igyjji1b8zi06am4l5m2m6rmxgz0jvks8cyri6dm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lv))
     (arguments
@@ -59511,27 +59511,27 @@
 (define-public emacs-ivy
   (package
     (name "emacs-ivy")
-    (version "20220529.1130")
+    (version "20220910.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "f8d80a4055514f92d94f128f5fcb1cda79e5cd22")))
+                 "4c370d66776bd5145264497408fc67ee2763df3c")))
         (sha256
           (base32
-            "1cmafp5rssp27lhvszyzf4mc1z130kkgkl9d36lgg97qk5jp58g8"))))
+            "0b2wxb6i9xmxm1mrbfcamj9jw9qr83vfg93mgybasl8q609svnxz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
         (:defaults
+          "doc/ivy-help.org"
           (:exclude
             "swiper.el"
             "counsel.el"
             "ivy-hydra.el"
-            "ivy-avy.el")
-          "doc/ivy-help.org")))
+            "ivy-avy.el"))))
     (home-page "https://github.com/abo-abo/swiper")
     (synopsis "Incremental Vertical completYon")
     (description
@@ -66138,7 +66138,7 @@
 (define-public emacs-lingva
   (package
     (name "emacs-lingva")
-    (version "20220909.1557")
+    (version "20220910.1435")
     (source
       (origin
         (method url-fetch)
@@ -66148,7 +66148,7 @@
                ".el"))
         (sha256
           (base32
-            "04pbfvl9l57n1r6sdq9cfa8mjgw37hsh20f4qqilvx51dijynxsp"))))
+            "13w0bp4kz9gck5j3i1wn763618r9i9y55ziwkb0iijklcaik1xgn"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/martianh/lingva.el")
@@ -67774,17 +67774,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220906.1416")
+    (version "20220910.1443")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "f02daae59b57361723f9db2cd7e0e1b30645ad34")))
+                 "0f163756ad65d0400fa91a22b422ae771b513160")))
         (sha256
           (base32
-            "0z3vgi2qd5pcjp875qnhljv3d4vliy3fv3sj0z1j1nmlv2p4rs1b"))))
+            "0v3k3am05h0flbv91k9k9sx2qr3l8ijvj0fn3qy5z2wnlrlvn3yk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -72226,17 +72226,17 @@
 (define-public emacs-mini-modeline
   (package
     (name "emacs-mini-modeline")
-    (version "20211130.604")
+    (version "20220910.1508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kiennq/emacs-mini-modeline.git")
                (commit
-                 "434b98b22c69c8b3b08e9c267c935591c49a8301")))
+                 "55ad82056dd26bbf60585574927ef28441d318d8")))
         (sha256
           (base32
-            "063bpi3gxzi6kkc3mb9h4m8lvbsvfw47z559960h912h2l3z6vhq"))))
+            "05zswpi1anv4fd09wkspfxm0kwfcvp97hmwwlhw41vb3mhqk6czk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -75048,6 +75048,29 @@
       "Vocabulary builder using Zipf to extract English big words")
     (description
       "Documentation at https://melpa.org/#/mybigword")
+    (license #f)))
+
+(define-public emacs-mybuild-mode
+  (package
+    (name "emacs-mybuild-mode")
+    (version "20220910.2015")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/easimonenko/mybuild-mode.git")
+               (commit
+                 "879117b965a593b47432208e388e852223adcc88")))
+        (sha256
+          (base32
+            "000zkams2vxlrnygf5vryxym2ph9i1kzrl5w4ypfhcblbgpkb9wv"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/easimonenko/mybuild-mode")
+    (synopsis
+      "Major mode for editing Mybuild files from Embox")
+    (description
+      "Documentation at https://melpa.org/#/mybuild-mode")
     (license #f)))
 
 (define-public emacs-mykie
@@ -79440,17 +79463,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20220906.944")
+    (version "20220910.2033")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "df1cb7fc6f5bb4d614ae6c476e2508f47925fef7")))
+                 "148874a4778635079525589fdb4136ba314da801")))
         (sha256
           (base32
-            "01wn6l5ij1b0sc4ajcxnyhck5p83vfz55yl8vrci1m5zb5ya2hjw"))))
+            "1qk81pzk9k48cdpkpwh871ilay3jg2c4xjxgvgqvk3115ac2m1bh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -100156,17 +100179,17 @@
 (define-public emacs-rvm
   (package
     (name "emacs-rvm")
-    (version "20201222.17")
+    (version "20220910.1558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/senny/rvm.el.git")
                (commit
-                 "c1f2642434b0f68d9baa0687127079ecd884ba12")))
+                 "e1e83b5466c132c066142ac63729ba833c530c83")))
         (sha256
           (base32
-            "1fmrll8ffa90hi62a1kkxf8z952xglzmf2qb4l4j5wkh0yzyvnln"))))
+            "1kxsd3vglvxgy79px43l4npkm9jaw8ds3b60734mc3ynwl0m00s5"))))
     (build-system melpa-build-system)
     (home-page
       "http://www.emacswiki.org/emacs/RvmEl")
@@ -111890,17 +111913,17 @@
 (define-public emacs-tiny
   (package
     (name "emacs-tiny")
-    (version "20190722.1212")
+    (version "20220910.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/tiny.git")
                (commit
-                 "fd8a6b0b0c564d8242259e20e557ee6041f40908")))
+                 "c107480fca7e42737c51b2afaa33ac31e92a7290")))
         (sha256
           (base32
-            "1498j392ap2mk4zmsm2id16pfgvj78r428da9vw7hdrzzibai2cx"))))
+            "0rxjfx2hab8khxyyaxlk94s8x0c2dhb9bbfbipiaywlzqwmfav7i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/abo-abo/tiny")
     (synopsis
