@@ -3629,17 +3629,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220903.1822")
+    (version "20220911.24")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "9b745df2fabff6edad07f0c50cb6821d6d48d1b6")))
+                 "46d373f4bd0e4c3b46838912cd4c1b667ac557c3")))
         (sha256
           (base32
-            "1irpdwjipqg8amjln8h6vpw8hv2zac2l7vi6fl1lqccigzj501vz"))))
+            "0ln3j6mjb6fv6h8xvimz6lq9kx21i5p7j0xa19qxhjq00k8bhlwq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -7541,17 +7541,17 @@
 (define-public emacs-bind-key
   (package
     (name "emacs-bind-key")
-    (version "20220815.1925")
+    (version "20220910.2157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "ec3941537007cba01c2e15022e2dbdf7dde866ec")))
+                 "9a45a8004a9e520e0e822b960ca9d70c2528181e")))
         (sha256
           (base32
-            "1m5987l96xlpxz0aiczc1nifrsjh33z9z7biryb47khdgizhy931"))))
+            "1bb1c67d8mwy2hcyzadn2ffski2m5hz95wai0754hf978j637mp0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("bind-key.el")))
     (home-page
@@ -15794,17 +15794,17 @@
 (define-public emacs-company-prescient
   (package
     (name "emacs-company-prescient")
-    (version "20220601.1652")
+    (version "20220911.138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "07d61b7779c4cca3009390383e7f98a55de7e17e")))
+                 "928cc72ec3dca8e9a60d356b9b8ce896ec5ff621")))
         (sha256
           (base32
-            "0z97d7nnl1hgxj4fsvgw3hb3j4dc9wkdq2vq3dw607f29lwqiadk"))))
+            "1hyn000z6xy5cb2k7h8xairxvhlhk2pcc1rqabwg76jlh8qbr24w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-company))
@@ -18982,17 +18982,17 @@
 (define-public emacs-ctrlf
   (package
     (name "emacs-ctrlf")
-    (version "20220601.1649")
+    (version "20220911.6")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/ctrlf.git")
                (commit
-                 "cefb0aff9d316bd03e911f7f483f8d01f15cf5a2")))
+                 "e4bd61ef59f10b3c6bd480041396c21bf62174ec")))
         (sha256
           (base32
-            "19kh2h2bbk43hwzmz57jzhq20d8rq7pfzfisq3by3ckrwb1vrvax"))))
+            "1lkl4b24bdnmv66kk3zgl7c9y47r827rj4dsyk7vzi836sa32qci"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/radian-software/ctrlf")
@@ -24175,17 +24175,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220909.1026")
+    (version "20220911.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "a51cfe75988e70322e0b7182fa0266eb6c4bdfe3")))
+                 "73cccaba36aca706e8d819ce01f74d8d24533167")))
         (sha256
           (base32
-            "19b5pnppwjypxh0m81h4ypskia1n8rz8mp4r70pmhzxvn99i7025"))))
+            "0ac9178nkhjnlp0z2y02a6b9jz3k1nxi9kivrg7khvp29vflylfg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -35377,17 +35377,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20220814.1054")
+    (version "20220911.711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "85c91f95f8b98e153fd959ae467b46bf79622c5d")))
+                 "d50dca48929575642912bb5bbb2585709ba38f82")))
         (sha256
           (base32
-            "0rb85v52snsh2532na9p4b98lkfd0zz6646frw44k7ydbp29wnd3"))))
+            "0mr0i823m9fs8n0qf1cj7lvlbyjspk8kblhk9br2hk7hnxk470xz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -71382,17 +71382,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220907.600")
+    (version "20220911.319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "41c6e12329046d9e6ab4dbddae6bc234c589d28c")))
+                 "28ded780283085dcc27b33a8e0d7a93c4798c9a8")))
         (sha256
           (base32
-            "08yiwhq9y4f9x463j6navbrs9w2qam1nlaiad5klxlxa5yyynscv"))))
+            "10clp97x0p0hmrx5gl9lvgnpzcrxnsrmv9bx3l52d7wba68dlk6q"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -73087,7 +73087,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220905.257")
+    (version "20220911.226")
     (source
       (origin
         (method url-fetch)
@@ -73097,7 +73097,7 @@
                ".tar"))
         (sha256
           (base32
-            "0q66b8gqsv0l073mkfkzd2q642i0pnbx3pjw6rmngglizcsag5zw"))))
+            "1335q66ha3ca5qc1vkllxib3clc642ld5y2yz2x4f9q9w7903f67"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -92481,17 +92481,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20220908.39")
+    (version "20220911.138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "eb35fc015c8124e92046bb105cb4973c2a6ac910")))
+                 "928cc72ec3dca8e9a60d356b9b8ce896ec5ff621")))
         (sha256
           (base32
-            "17k06phhglv0x2nf9ia2xpw158aqspxlx2dgwg129gs5s8fhqg7l"))))
+            "1hyn000z6xy5cb2k7h8xairxvhlhk2pcc1rqabwg76jlh8qbr24w"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -101637,17 +101637,17 @@
 (define-public emacs-selectrum-prescient
   (package
     (name "emacs-selectrum-prescient")
-    (version "20220903.37")
+    (version "20220911.138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "412410bab86cfe6fe58101ce8f520d774e693057")))
+                 "928cc72ec3dca8e9a60d356b9b8ce896ec5ff621")))
         (sha256
           (base32
-            "17rmf0lnzs58w7bq9x7gqv6mjwk17djvq7jw4f8dd3vf48mwkk91"))))
+            "1hyn000z6xy5cb2k7h8xairxvhlhk2pcc1rqabwg76jlh8qbr24w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-selectrum))
@@ -113316,17 +113316,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20220821.1313")
+    (version "20220911.657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "5c6900a66a6b3a5d4ae6bde5199b5288c09af43b")))
+                 "4896a562df42990c33891eda043b78420adbd3a0")))
         (sha256
           (base32
-            "0arj78dbinvki0yvgmj4p4blf9gb2c140sgphddnzfh134lvpkl9"))))
+            "0gd35w5y60lks4gjb5lhraiyml7n7yfh45igda1rxasdmwm6imk5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
