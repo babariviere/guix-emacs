@@ -2559,17 +2559,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220910.1540")
+    (version "20220911.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "ee9083c494dae88b48c7282123a3aca474b6d59b")))
+                 "48273db3a6f048bf2d3dcf3a3ef00e490df1c411")))
         (sha256
           (base32
-            "1xq9b1vifxrz8w3wlxpybiakm6spyr00p44g96f0slb8959ag5r7"))))
+            "1vyf32s0y00294r7gmgi1d9k2cdqmpisi2mpczdi6iv3wd5x20zf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -3629,17 +3629,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220911.24")
+    (version "20220911.818")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "46d373f4bd0e4c3b46838912cd4c1b667ac557c3")))
+                 "e01ced3ac985eabd51dad348d04974cefa778625")))
         (sha256
           (base32
-            "0ln3j6mjb6fv6h8xvimz6lq9kx21i5p7j0xa19qxhjq00k8bhlwq"))))
+            "1g9xkzpii9dh71pgwx56y650nhlkcqa2f0x1jg3dvpcsc677zm60"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -12366,17 +12366,17 @@
 (define-public emacs-citar-org-roam
   (package
     (name "emacs-citar-org-roam")
-    (version "20220815.114")
+    (version "20220911.1433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar-org-roam.git")
                (commit
-                 "4325e648c228269e519c322d696846a6c1f42f99")))
+                 "e26af72befc79249ea6574e855f90cc1680a8001")))
         (sha256
           (base32
-            "0rr5sbl1fcd286h4vbg1b3q1r74l26670bhdx0pialr7rxp67i57"))))
+            "1f0h2vpsswng2ljqydfmpap7qw4y9h6vd56hbyzarz0am724mi33"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-citar))
@@ -17466,17 +17466,17 @@
 (define-public emacs-counsel
   (package
     (name "emacs-counsel")
-    (version "20220910.1908")
+    (version "20220911.1209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "4c370d66776bd5145264497408fc67ee2763df3c")))
+                 "e9c0fb953db9f6a23018a52441f3cd775710472c")))
         (sha256
           (base32
-            "0b2wxb6i9xmxm1mrbfcamj9jw9qr83vfg93mgybasl8q609svnxz"))))
+            "1jx31x707vsp0ra5p5f5swmvrmvrzjdgp5n3rjrl626nzif74fyw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-swiper))
     (arguments '(#:files ("counsel.el")))
@@ -26821,17 +26821,17 @@
 (define-public emacs-ein
   (package
     (name "emacs-ein")
-    (version "20220618.1101")
+    (version "20220911.1319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/millejoh/emacs-ipython-notebook.git")
                (commit
-                 "b806c779cd6a550180c2b7bb66bf6e76dd89431f")))
+                 "b2410dc96f61aa806a7934099d8f1e40c8f6ca18")))
         (sha256
           (base32
-            "03zv3ba55d8gbzpvjsf0n1aqpx8y3mwlhyj68q6s31j83zgsyv0j"))))
+            "02392bxl0msda58cls0i79mzqjs73x39czx0mlb0sg2vxp84gy15"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220910.950")
+    (version "20220911.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "6da0ad5422b8846543bb1a0c1f2b5b1a7b818bc7")))
+                 "4b98661c1240583914637ae20ebd2712d2fc54e4")))
         (sha256
           (base32
-            "1np2la4v1593cclh6m44snm8lbhw9fpc0dnha11hgmb202c5k2yz"))))
+            "0h1w8293s799yga1512fln2kjz212q8hpd8h1dixr62r4rf3z66r"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -55029,7 +55029,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20220910.1036")
+    (version "20220911.920")
     (source
       (origin
         (method url-fetch)
@@ -55039,7 +55039,7 @@
                ".tar"))
         (sha256
           (base32
-            "07akyrnnf1hjsyxzngd96pmqaxrgzc538w6bm3rmx809fcrc2cpb"))))
+            "07dcqpk161403q1z9339g0vhz5whwr6fgp9jj05ndblf30m7hdq4"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
@@ -59511,17 +59511,17 @@
 (define-public emacs-ivy
   (package
     (name "emacs-ivy")
-    (version "20220910.1902")
+    (version "20220911.1209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "4c370d66776bd5145264497408fc67ee2763df3c")))
+                 "e9c0fb953db9f6a23018a52441f3cd775710472c")))
         (sha256
           (base32
-            "0b2wxb6i9xmxm1mrbfcamj9jw9qr83vfg93mgybasl8q609svnxz"))))
+            "1jx31x707vsp0ra5p5f5swmvrmvrzjdgp5n3rjrl626nzif74fyw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -106681,7 +106681,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220906.243")
+    (version "20220911.851")
     (source
       (origin
         (method url-fetch)
@@ -106691,7 +106691,7 @@
                ".el"))
         (sha256
           (base32
-            "0fdmfik1q9gp8vzkxsnk1h9wpcayc8qj7c4pq46szc1h5i54350w"))))
+            "0q53fp8ykqp17g4j610wd2kdkfkq6yargkgjs2mg7slx776vs423"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
