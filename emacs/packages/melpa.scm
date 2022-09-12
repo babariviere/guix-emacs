@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220910.1121")
+    (version "20220912.303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "29cfea0528c9f60817872959b8df0d3bf5ba9f7b")))
+                 "2b45839a4fdd105c0704989dfbedb837f3983a7f")))
         (sha256
           (base32
-            "12qpgssf4j7jvm5mss8z2v98l5ndn3mqrmqvdhwqg4sdvqihr9ak"))))
+            "1ffnwrljdfgg4fq9dnk4lrz2r45h9wnybziwdksqxfa5mmysw686"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -42860,17 +42860,17 @@
 (define-public emacs-function-args
   (package
     (name "emacs-function-args")
-    (version "20211231.1150")
+    (version "20220516.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/function-args.git")
                (commit
-                 "503e78fad9e7741ef4b8f5c24ff70c8909240db2")))
+                 "beba049751fed78666c87bd146a6f1cf149bb819")))
         (sha256
           (base32
-            "124sgm6jhr20zn0p15fg3f226vgrmsfsqb5qkd1rssxsjp3jplb6"))))
+            "1j92ll2afvcp891fxra3sawxg000cs3ra01wxksiil2dg5zpzzkn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (home-page
@@ -47170,21 +47170,25 @@
 (define-public emacs-google-translate
   (package
     (name "emacs-google-translate")
-    (version "20210406.1138")
+    (version "20220912.16")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/atykhonov/google-translate.git")
                (commit
-                 "0f7f48a09bca064999ecea03102a7c96f52cbd1b")))
+                 "f2b4534d4554c2103ed8084353c94c9cdc5cb24c")))
         (sha256
           (base32
-            "13iznf7gpczqvgkxbqpmzyvyrj9pib6wly1pvsqhi2k8lmmf5yxf"))))
+            "0dmbqid8fklqgzsqrj7a1b1h8yslxvpbmll6j2mi5xp2rc2ncnmy"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-popup))
+    (arguments
+      '(#:files
+        (:defaults (:exclude "google-translate-pkg.el"))))
     (home-page
       "https://github.com/atykhonov/google-translate")
-    (synopsis "Emacs interface to Google Translate.")
+    (synopsis "Emacs interface to Google Translate")
     (description
       "Documentation at https://melpa.org/#/google-translate")
     (license #f)))
@@ -66437,17 +66441,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20220906.1833")
+    (version "20220912.529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "711281e7011807e1e2a0610d227c6ac1ada5dedb")))
+                 "31b9bfb4bc9799a2654b28e85a5cae2820c15f32")))
         (sha256
           (base32
-            "18l0fra6h0wi0jnlqsrw7mzyp4gzffcqq63avjbsqhm90v2x4xy9"))))
+            "0lsxjh0jycarbaydps3sr1anxfb6j6pnxhmw7b6iz277hhmrcfzf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -69017,17 +69021,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220901.354")
+    (version "20220912.331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "c1def981857614f737561ff38bac89fc19d4bc21")))
+                 "564cff8a40c2d7c8d4e679f1c7c2974c97f5f149")))
         (sha256
           (base32
-            "1vj7aksn1iwjnpji4r1h9z4sw4n3x66ln08pliy2665vy050qyms"))))
+            "1n0iiwx5af5bx48y8g2yc9d0mca19w8s0q242y8g48145ibkrn04"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -70809,17 +70813,17 @@
 (define-public emacs-math-tex-convert
   (package
     (name "emacs-math-tex-convert")
-    (version "20220911.55")
+    (version "20220912.313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/math-tex-convert.git")
                (commit
-                 "08de142db475cc64b9eda301e2845ead464592d5")))
+                 "93daa5c64ac6bbf2f634e1dd19678a9dd70c3444")))
         (sha256
           (base32
-            "0dn3kybdahn0i7sa4sj1ly2r884hmpjq69aa9a7hz4x140s5gkpp"))))
+            "0aj5jmch490pa67lxfhdy0vgka1c2xvvkbgxj86k4289q9gig9mh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-math-symbol-lists emacs-auctex))
@@ -73495,17 +73499,17 @@
 (define-public emacs-moom
   (package
     (name "emacs-moom")
-    (version "20220910.154")
+    (version "20220911.2344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/moom.git")
                (commit
-                 "04d6e5900f7f35060a9437cfca3234ef4d2510b1")))
+                 "9029cd76ba037ca31cc7b91453ff5f8510747cb6")))
         (sha256
           (base32
-            "0jdndzn41a7m7804f8lqx2ixmvcllxi378axlf3bczdsy8y13nps"))))
+            "0p2xwsv77ygcqblc80xcdd92f37vag8zsldw4vvd9c7hr5n5m4s2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/takaxp/Moom")
     (synopsis
@@ -84165,17 +84169,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220909.2216")
+    (version "20220912.430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "26293b6dbd1dc708e18f04be9e067a96c6167782")))
+                 "bfe7f054109f9f0e6fedbf5c9240fa96ebdde5fd")))
         (sha256
           (base32
-            "0zpmr7k44599jiliba26by5218qzhx0gaidpbzq6k5g7gj70hywh"))))
+            "0i9r0623r6wwb8c0r5ph97n2iy166cmfcd6mmkmw6hpiyg19rx3x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -100449,6 +100453,30 @@
     (synopsis "Major mode for Salt States")
     (description
       "Documentation at https://melpa.org/#/salt-mode")
+    (license #f)))
+
+(define-public emacs-samskritam
+  (package
+    (name "emacs-samskritam")
+    (version "20220912.255")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/thapakrish/samskritam.el.git")
+               (commit
+                 "3c557dd39c31b7ee41c3674f5dfd03a7e9186e8f")))
+        (sha256
+          (base32
+            "0xx6lmj6z4fggp8z8b9cvcp7wgavm7qpyr0sh0bzabjxmpzp3mn1"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-google-translate))
+    (home-page
+      "https://github.com/thapakrish/samskritam")
+    (synopsis
+      "Library to get samskrit word definition, translate to & from")
+    (description
+      "Documentation at https://melpa.org/#/samskritam")
     (license #f)))
 
 (define-public emacs-sass-mode
