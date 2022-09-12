@@ -18376,17 +18376,17 @@
 (define-public emacs-creamsody-theme
   (package
     (name "emacs-creamsody-theme")
-    (version "20220819.754")
+    (version "20220912.851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-creamsody.git")
                (commit
-                 "0823101e9886cc31cc48f2d79f354a4fd2c2b9f3")))
+                 "ac27451f395d1718a05de636dde9a69a2f0cd558")))
         (sha256
           (base32
-            "0z81b1xgyalkws9l4dqncmssm98n8c3rzbkhcxisfhv65qpyzci0"))))
+            "1f0ii025crk44mbpfximma0kd6hl12gg6ilhfs7pifzygywkknl8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220912.303")
+    (version "20220912.1055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "2b45839a4fdd105c0704989dfbedb837f3983a7f")))
+                 "f108067898475ac299ae3ead32aa77a80d883c52")))
         (sha256
           (base32
-            "1ffnwrljdfgg4fq9dnk4lrz2r45h9wnybziwdksqxfa5mmysw686"))))
+            "1ajj04w29anaqvi3lfn48zdahg0dhdqawifsz75aymzlm75cp8l5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220911.1746")
+    (version "20220912.1351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "719c4bb2480cb829f1f1a2f83bf6223e29d42b57")))
+                 "8ed0796e4e67ed00a7b5f7f61edf498ee1d33424")))
         (sha256
           (base32
-            "0awpvkcczzsf2nhcvlpg83f8ir1801v3jbgg2phw9p753jfn3hvv"))))
+            "19zilzg84zqcvh8h24rcs849y30mm9h5z2mqqqzrs7xb5fdz9n87"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -62269,17 +62269,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20220907.633")
+    (version "20220912.246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "a3ab6cef6ca938ba446f357b9618572115bf3721")))
+                 "e4d1c28935c47429442ddfcd735cb8d8c2d8db66")))
         (sha256
           (base32
-            "034lj6gd4xqqxc6ls5ic466vd2frbk6d4ksrswzcx0wsqw6cgk3c"))))
+            "0q11f5f7j7rwzd4n1r84cfzx8cw631h4nfykjqrm5zbgkc9zmfd0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -68116,17 +68116,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220907.1628")
+    (version "20220912.819")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "76d87d8f2020fc468d416d5fb3d088505b9cc4ac")))
+                 "b26091342e8663d6f99b8302d6f62c155eff1006")))
         (sha256
           (base32
-            "1b6zmvix3cz93g5sm3cs0apczhgbifrl13f5af6a66wy8syazr34"))))
+            "1sqnzzq93zn5z50nf8d1548jsfylfayyi5jjihy7skkb5ccpr4q7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68418,17 +68418,17 @@
 (define-public emacs-lsp-tailwindcss
   (package
     (name "emacs-lsp-tailwindcss")
-    (version "20220910.347")
+    (version "20220912.1321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/lsp-tailwindcss.git")
                (commit
-                 "a64171870c81e9131fef72e3bd1a5672a77edb80")))
+                 "c0ca58d090453db2ec70fe55f8203055d2358533")))
         (sha256
           (base32
-            "0dp626qsq2s6gsd2jcr0y7wjk2vjld7kb48z0kyy1fllll7fnr3w"))))
+            "1fr1hzlpbq9jpgk3lrjaqap96l0rqnmxb11vwfa3ar0aypvpcz1z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode emacs-f))
     (home-page
@@ -70695,7 +70695,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220903.1634")
+    (version "20220912.1305")
     (source
       (origin
         (method url-fetch)
@@ -70705,7 +70705,7 @@
                ".tar"))
         (sha256
           (base32
-            "0vcbhvwnglfpvca68pri0jr6p8q7yhzzh7kwaf9qga00af4w5d9s"))))
+            "1jwmp18rvcbd5s0cv5xyxjnv41h9zarc3g2290r8qcdyiiskcdq0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -82293,17 +82293,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220902.207")
+    (version "20220912.1056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "65bf939baa7bb091d8062594f6d83e0d98ef0403")))
+                 "8005f6de28ffee2d8d4f805582d24457bfc06de9")))
         (sha256
           (base32
-            "06ndfq8640jnkbjc95bxd9kgbvkg8js63gmcix4875p0b6jznfx7"))))
+            "04z3alijza1ddcicic77his3r7iz3g6hz5hqhv4bpa12y391rhwj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -82523,17 +82523,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220911.1924")
+    (version "20220912.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "b8010f401143bb24272f441a7491fdf573377a67")))
+                 "eef9323a87f7c7721236a8b47bc84984b38884aa")))
         (sha256
           (base32
-            "1sdpd54acf3liqvrlk65i3dx22pa4hdrkw92cjas75lfy82kj7sr"))))
+            "013lrc1z80dmpj73gnib8sqwr2gx0hrc7iv1dn8im31fpslcymdg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -98088,17 +98088,17 @@
 (define-public emacs-repl-toggle
   (package
     (name "emacs-repl-toggle")
-    (version "20210226.1055")
+    (version "20220912.847")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~tomterl/repl-toggle")
-               (commit
-                 "7028ae65f136215f8e07a43afc33a6b99fe82857")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/repl-toggle-"
+               version
+               ".el"))
         (sha256
           (base32
-            "0nycm8a4wwkkaif958z4m89slayp17k20lp2h7lvddjx8prn6yfp"))))
+            "02bcrw45rvgq1ncfiy6m01i45h4kjiczld862qcb405nngpnmvk3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fullframe))
     (home-page "unspecified")
@@ -112372,7 +112372,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220911.2008")
+    (version "20220718.1215")
     (source
       (origin
         (method url-fetch)
@@ -112382,7 +112382,7 @@
                ".el"))
         (sha256
           (base32
-            "18g1kzv8xdwmzdwm3c6n5xpa08z9qxbz84hm2n2b8hm7ryzrssf8"))))
+            "04d8xqmnrbmbp5nic3jsxqz3ysi4jzb9frkx7y2xc53f08fsaxld"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
