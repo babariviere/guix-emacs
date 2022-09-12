@@ -1558,17 +1558,17 @@
 (define-public emacs-ace-window
   (package
     (name "emacs-ace-window")
-    (version "20220907.2008")
+    (version "20220911.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/ace-window.git")
                (commit
-                 "3fe3534c75b0205c55d6c8a42e321467879dbdec")))
+                 "77115afc1b0b9f633084cf7479c767988106c196")))
         (sha256
           (base32
-            "13hr3ckknjdqp2jiq0l33gif3xax8g8xzlw0spfrkig8c3jaki48"))))
+            "1l6rp92q4crahx9nq7s6zxqyw7ccrhkl95v70vxra7zndqpqwsbq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (home-page
@@ -32714,17 +32714,17 @@
 (define-public emacs-evil-anzu
   (package
     (name "emacs-evil-anzu")
-    (version "20200514.1902")
+    (version "20220911.1939")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/evil-anzu.git")
                (commit
-                 "d3f6ed4773b48767bd5f4708c7f083336a8a8a86")))
+                 "d1e98ee6976437164627542909a25c6946497899")))
         (sha256
           (base32
-            "0ribvnw2slaad4xlcyxhg3linvd810qqn52qpyrjsq0dnqrpmwyl"))))
+            "1i8f360lq5a32knkzbwdw10ql9cxsmgfd4iiwnr7vcwacm34zq88"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil emacs-anzu))
     (home-page
@@ -34597,17 +34597,17 @@
 (define-public emacs-evm-mode
   (package
     (name "emacs-evm-mode")
-    (version "20220503.1106")
+    (version "20220911.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/taquangtrung/emacs-evm-mode.git")
                (commit
-                 "2b326751c9421842521e851d969b9c269c79f8b3")))
+                 "422b65cfd04854072bf6b9238c49e3d40577ef98")))
         (sha256
           (base32
-            "1igbahaazscn80ny9ix3kvznbz6rl5b59a0jjzz1zcqkwspc5dgc"))))
+            "1p3kzh4633gvssik7yp50ancfvcwyb6z0m899mf8q6sayxyf2ira"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/taquangtrung/emacs-evm-mode")
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220911.1100")
+    (version "20220911.1746")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "4b98661c1240583914637ae20ebd2712d2fc54e4")))
+                 "719c4bb2480cb829f1f1a2f83bf6223e29d42b57")))
         (sha256
           (base32
-            "0h1w8293s799yga1512fln2kjz212q8hpd8h1dixr62r4rf3z66r"))))
+            "0awpvkcczzsf2nhcvlpg83f8ir1801v3jbgg2phw9p753jfn3hvv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -49498,17 +49498,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220909.2018")
+    (version "20220911.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "44b8eb8a17d0e13d641b57e0e7d9853d2d9b097c")))
+                 "288f7d9f173d7ddd7a7766eb333cc2db1c1caa34")))
         (sha256
           (base32
-            "0lgnnvf8crq8sxgs782n68v85g4mxa71yd2plr12sd02hwr6a2kx"))))
+            "1bbqkzbr44840gzr0gavvy0w0bw01dl0bai302jjgha9nlgm8fvn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -55605,20 +55605,19 @@
 (define-public emacs-ht
   (package
     (name "emacs-ht")
-    (version "20210119.741")
+    (version "20220911.1544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/ht.el.git")
                (commit
-                 "c4c1be487d6ecb353d07881526db05d7fc90ea87")))
+                 "cdc76669a5032c42a2b9f7cddcbc33c5deeb6beb")))
         (sha256
           (base32
-            "1i3ps5zrr719nrcrsyhlmfdazzcz1agrmx424mbyca5vra8cc35i"))))
+            "0zpfxq6f4j2pv3hipbpvvissv1shls95l908d1nayxs2rlpsyycw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
-    (arguments '(#:files ("ht.el")))
     (home-page "unspecified")
     (synopsis
       "The missing hash table library for Emacs")
@@ -64432,29 +64431,6 @@
       "Documentation at https://melpa.org/#/laguna-theme")
     (license #f)))
 
-(define-public emacs-lakota-input
-  (package
-    (name "emacs-lakota-input")
-    (version "20200823.2146")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~shoshin/lakota-input.git")
-               (commit
-                 "b74b9de284a0404a120bb15340def4dd2f9a4779")))
-        (sha256
-          (base32
-            "1zn5n34jhjk1shjinjh3nv0x9y61gp7n5ywvmxwijffhva58h3w6"))))
-    (build-system melpa-build-system)
-    (home-page
-      "https://git.sr.ht/~shoshin/lakota-input.git")
-    (synopsis
-      "Input modes for Lakota language orthographies")
-    (description
-      "Documentation at https://melpa.org/#/lakota-input")
-    (license #f)))
-
 (define-public emacs-lambdapi-mode
   (package
     (name "emacs-lambdapi-mode")
@@ -70828,6 +70804,31 @@
       "Math Symbol Input methods and conversion tools")
     (description
       "Documentation at https://melpa.org/#/math-symbols")
+    (license #f)))
+
+(define-public emacs-math-tex-convert
+  (package
+    (name "emacs-math-tex-convert")
+    (version "20220911.55")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/enricoflor/math-tex-convert.git")
+               (commit
+                 "08de142db475cc64b9eda301e2845ead464592d5")))
+        (sha256
+          (base32
+            "0dn3kybdahn0i7sa4sj1ly2r884hmpjq69aa9a7hz4x140s5gkpp"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-math-symbol-lists emacs-auctex))
+    (home-page
+      "https://github.com/enricoflor/math-tex-convert")
+    (synopsis
+      "Convert LaTeX macros to unicode and back")
+    (description
+      "Documentation at https://melpa.org/#/math-tex-convert")
     (license #f)))
 
 (define-public emacs-matlab-mode
@@ -82518,17 +82519,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220831.730")
+    (version "20220911.1924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "537e6b75e38bc0eff083c390c257098c9fc9ab49")))
+                 "b8010f401143bb24272f441a7491fdf573377a67")))
         (sha256
           (base32
-            "12px1kc282lmnjbz06l3a9ffjfvi45shpirqidsw0qfvf72flafm"))))
+            "1sdpd54acf3liqvrlk65i3dx22pa4hdrkw92cjas75lfy82kj7sr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -89747,17 +89748,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20220910.310")
+    (version "20220911.1543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "6b24392a51f2689158526a5eca4cb71f112317d1")))
+                 "6f9a471e5c0399e9277c1ad6af05de72b642c87a")))
         (sha256
           (base32
-            "1rgyj3iq278w3h3976zhm374y1n1c40xa74w30l5fxzb3i1cadlg"))))
+            "1yabjf02cj7dr9aabcl1w1wfxycsvsl8zshkajx3lpf0mk8lpxlb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -98248,17 +98249,17 @@
 (define-public emacs-request
   (package
     (name "emacs-request")
-    (version "20220814.2158")
+    (version "20220911.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tkf/emacs-request.git")
                (commit
-                 "91313f1e00302b7e60d2043d8104bccf72aae80b")))
+                 "43ff7865f9e0a67911f0f1dab462213089809f25")))
         (sha256
           (base32
-            "1n0idvr3akfawb71a1p20i9984r9gn6y1pnl8k6ffk7lmhpfa0zr"))))
+            "0b12sc20xvgj729bvsc219kk30bik13c7zsb9lnspc7g3k3hvmm0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("request.el")))
     (home-page
@@ -103295,17 +103296,17 @@
 (define-public emacs-sideline
   (package
     (name "emacs-sideline")
-    (version "20220806.401")
+    (version "20220911.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-sideline/sideline.git")
                (commit
-                 "3e1889daa10ea6950b130e29991296d150fd9679")))
+                 "48714f3503d16469dac325dbc909a4a9a3e4a804")))
         (sha256
           (base32
-            "0579qmb3sspk438v2qrp3gkfn0cwydp3x7s3lvya7lfs4ywmqcpv"))))
+            "0577rn5zj811ky3n33n831ws7cpcqzimf8h8l51y6rq7q8xa6j53"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-sideline/sideline")
@@ -112343,7 +112344,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220908.754")
+    (version "20220911.2008")
     (source
       (origin
         (method url-fetch)
@@ -112353,11 +112354,11 @@
                ".el"))
         (sha256
           (base32
-            "05x9r5qcrbq67asq45zhycihpjs2d9ligvaf11zgz8cjy8vlhzpz"))))
+            "18g1kzv8xdwmzdwm3c6n5xpa08z9qxbz84hm2n2b8hm7ryzrssf8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
-    (synopsis "Comfy dark theme")
+    (synopsis "Comfy light theme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
@@ -121998,6 +121999,29 @@
     (synopsis "Query YouTube via Invidious")
     (description
       "Documentation at https://melpa.org/#/ytel")
+    (license #f)))
+
+(define-public emacs-yul-mode
+  (package
+    (name "emacs-yul-mode")
+    (version "20220911.1651")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/taquangtrung/emacs-yul-mode.git")
+               (commit
+                 "6d5a02ee18145d223a5b0bc46359f1938358b8d4")))
+        (sha256
+          (base32
+            "064j7qlallg3wl5gxz94bg17v8qsmdbbv2f1l76h4zw5v4x14y0b"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/taquangtrung/emacs-yul-mode")
+    (synopsis
+      "Major mode for editing Ethereum Yul intermediate code")
+    (description
+      "Documentation at https://melpa.org/#/yul-mode")
     (license #f)))
 
 (define-public emacs-z3-mode
