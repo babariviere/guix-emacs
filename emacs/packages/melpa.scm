@@ -3327,7 +3327,7 @@
 (define-public emacs-ansible-vault
   (package
     (name "emacs-ansible-vault")
-    (version "20211119.1500")
+    (version "20211119.1459")
     (source
       (origin
         (method git-fetch)
@@ -17050,17 +17050,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20220823.1338")
+    (version "20220912.1959")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/jao/consult-recoll.git")
-               (commit
-                 "b3724c704b0d7d942c095dedd9e0ce064a8847c9")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/consult-recoll-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1f6lmx2brp47f0rqxjpbw3acr9zz3liwp3y68sqq80flssy10msw"))))
+            "11h0xifmx83s6vnm6sjr49i47n2p5qn43l3xzfdi3dp0h1lnmg6x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -31394,17 +31394,17 @@
 (define-public emacs-es-mode
   (package
     (name "emacs-es-mode")
-    (version "20201125.2059")
+    (version "20220912.1442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dakrone/es-mode.git")
                (commit
-                 "cde5cafcbbbd57db6d38ae7452de626305bba68d")))
+                 "7db6bee12496c2cc70bfff05ca4d3b376d50db7a")))
         (sha256
           (base32
-            "02zzwf9ykfi2dggjbspg7mk77b5x1fnkpp3bcp6rd4h95apnsjq5"))))
+            "0mrs2ynk9gj3c5x7rcbri9lq0xhq72zd20h6xd1016ihs5dk56lm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68061,17 +68061,17 @@
 (define-public emacs-lsp-ltex
   (package
     (name "emacs-lsp-ltex")
-    (version "20220806.1456")
+    (version "20220912.1600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/lsp-ltex.git")
                (commit
-                 "18b0e8608408f9e913d89075e78c2b4e3f69cf1c")))
+                 "127c8e8ce7c8e23b6b6ad0c85eaa415044059053")))
         (sha256
           (base32
-            "1a0vlcnw7dzaz3ypav7ws5nfs8p8rg7rfjm302fbf8sz167rb2xq"))))
+            "01r19rfpq3wdan1a749zl7fxnqzfk1qzj6vy7mxp8dybf2zc7wsf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -70695,7 +70695,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220912.1305")
+    (version "20220912.2042")
     (source
       (origin
         (method url-fetch)
@@ -70705,7 +70705,7 @@
                ".tar"))
         (sha256
           (base32
-            "1jwmp18rvcbd5s0cv5xyxjnv41h9zarc3g2290r8qcdyiiskcdq0"))))
+            "1qng7342cic8mj1qf12av87hdfx4cawlspbc7ac8mn9qh1895sns"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -82523,17 +82523,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220912.1339")
+    (version "20220912.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "eef9323a87f7c7721236a8b47bc84984b38884aa")))
+                 "7a1e15c9b2097400d603c9ad7e3104d8afde8a7d")))
         (sha256
           (base32
-            "013lrc1z80dmpj73gnib8sqwr2gx0hrc7iv1dn8im31fpslcymdg"))))
+            "02sksk4fs4x3frwwlx4ma7k5lcmpxi92da5mnf7qlpsp6kjnr5c0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -110530,17 +110530,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20220804.1453")
+    (version "20220912.1523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "dac7e7bcbda97560532c854888a3d51ac01829ae")))
+                 "836de584d064bfd2c581ce9ade87a9d4cee88acb")))
         (sha256
           (base32
-            "06sxz9p86q4hzdwdi0jdnq6gc4chh3kh4c2dbi0wm3fyndbviqwh"))))
+            "176a0rh97bwwpkwzb2a3sy6phj6zqb69llmvzdccafqn5bg4khy7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
@@ -112372,7 +112372,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220718.1215")
+    (version "20220912.2053")
     (source
       (origin
         (method url-fetch)
@@ -112382,11 +112382,11 @@
                ".el"))
         (sha256
           (base32
-            "04d8xqmnrbmbp5nic3jsxqz3ysi4jzb9frkx7y2xc53f08fsaxld"))))
+            "097r07jf1icx7xlyh4yhc6iqirndcwsw2wlax1fxygy7mvd0m1dw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
-    (synopsis "Comfy light theme")
+    (synopsis "Comfy dark theme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
@@ -113393,17 +113393,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220905.1549")
+    (version "20220911.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "30251e670fe234f17222980095bef39cb2988b82")))
+                 "861418d9d11b205930bd4555a40b430b9dde9dd4")))
         (sha256
           (base32
-            "0f5i9s5b2yl2qggscasvn4b0njh94628vjbjskjxc2clvy4y8dfb"))))
+            "0l6pbfrkl0v1iyc43vyhchbcfy7cjhinn8pw07aq4ssh6lxil7kp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -113431,17 +113431,17 @@
 (define-public emacs-treemacs-all-the-icons
   (package
     (name "emacs-treemacs-all-the-icons")
-    (version "20220425.1124")
+    (version "20220911.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "82ec575b759e68256b359edd8c491bf35f6a4751")))
+                 "861418d9d11b205930bd4555a40b430b9dde9dd4")))
         (sha256
           (base32
-            "0hn38w7sz2jdjlp9fd4jxhgzc76v0cyjfcw9kihhay07ina0k6c1"))))
+            "0l6pbfrkl0v1iyc43vyhchbcfy7cjhinn8pw07aq4ssh6lxil7kp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons emacs-treemacs))
@@ -113458,17 +113458,17 @@
 (define-public emacs-treemacs-evil
   (package
     (name "emacs-treemacs-evil")
-    (version "20220616.1202")
+    (version "20220911.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "0578a1ba33037322828aabe240a7cc8e283077c0")))
+                 "861418d9d11b205930bd4555a40b430b9dde9dd4")))
         (sha256
           (base32
-            "1a2gnp7fwv4qmxrpp1869fnl35axppkzd4m1j8ixvvdc5hq8rvnk"))))
+            "0l6pbfrkl0v1iyc43vyhchbcfy7cjhinn8pw07aq4ssh6lxil7kp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-treemacs))
@@ -113484,17 +113484,17 @@
 (define-public emacs-treemacs-icons-dired
   (package
     (name "emacs-treemacs-icons-dired")
-    (version "20220622.801")
+    (version "20220911.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "e092411236d89eb5086d63f0ec3cce802fc6f233")))
+                 "861418d9d11b205930bd4555a40b430b9dde9dd4")))
         (sha256
           (base32
-            "13griba6nl0a1zxg8svcv97qdhc46kbxc2knnb5w37s18ili1rnv"))))
+            "0l6pbfrkl0v1iyc43vyhchbcfy7cjhinn8pw07aq4ssh6lxil7kp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treemacs))
     (arguments
@@ -113509,17 +113509,17 @@
 (define-public emacs-treemacs-magit
   (package
     (name "emacs-treemacs-magit")
-    (version "20220616.1202")
+    (version "20220911.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "0578a1ba33037322828aabe240a7cc8e283077c0")))
+                 "861418d9d11b205930bd4555a40b430b9dde9dd4")))
         (sha256
           (base32
-            "1a2gnp7fwv4qmxrpp1869fnl35axppkzd4m1j8ixvvdc5hq8rvnk"))))
+            "0l6pbfrkl0v1iyc43vyhchbcfy7cjhinn8pw07aq4ssh6lxil7kp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-treemacs emacs-pfuture emacs-magit))
@@ -113535,17 +113535,17 @@
 (define-public emacs-treemacs-persp
   (package
     (name "emacs-treemacs-persp")
-    (version "20220209.2117")
+    (version "20220911.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "04cbbd93e63405278db470b1d0f7db3eae8725ed")))
+                 "861418d9d11b205930bd4555a40b430b9dde9dd4")))
         (sha256
           (base32
-            "06354j1d5nmd7ry0p02y69ypw05i5g8vp3m24m7zyxl94hj3jxlz"))))
+            "0l6pbfrkl0v1iyc43vyhchbcfy7cjhinn8pw07aq4ssh6lxil7kp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-treemacs emacs-persp-mode emacs-dash))
@@ -113561,17 +113561,17 @@
 (define-public emacs-treemacs-perspective
   (package
     (name "emacs-treemacs-perspective")
-    (version "20220209.2117")
+    (version "20220911.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "04cbbd93e63405278db470b1d0f7db3eae8725ed")))
+                 "861418d9d11b205930bd4555a40b430b9dde9dd4")))
         (sha256
           (base32
-            "06354j1d5nmd7ry0p02y69ypw05i5g8vp3m24m7zyxl94hj3jxlz"))))
+            "0l6pbfrkl0v1iyc43vyhchbcfy7cjhinn8pw07aq4ssh6lxil7kp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-treemacs
@@ -113589,17 +113589,17 @@
 (define-public emacs-treemacs-projectile
   (package
     (name "emacs-treemacs-projectile")
-    (version "20211223.1454")
+    (version "20220911.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "200861dedd5e6270903a8c3ff5e7abf91e452a3e")))
+                 "861418d9d11b205930bd4555a40b430b9dde9dd4")))
         (sha256
           (base32
-            "13kjnzfpjadvn63vcaqakz3wf90812vasml5vdpkyaw77xwdhwwm"))))
+            "0l6pbfrkl0v1iyc43vyhchbcfy7cjhinn8pw07aq4ssh6lxil7kp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile emacs-treemacs))
