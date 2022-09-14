@@ -2559,17 +2559,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220911.947")
+    (version "20220913.1631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "48273db3a6f048bf2d3dcf3a3ef00e490df1c411")))
+                 "55ccff918e27beb6a17feb747a8bc3fb27be82ca")))
         (sha256
           (base32
-            "1vyf32s0y00294r7gmgi1d9k2cdqmpisi2mpczdi6iv3wd5x20zf"))))
+            "0g7j331r2mc423gq1d3zpdlkdfqk2kk0jzrjaf5c6g6klnr792a9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -12313,17 +12313,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220907.1046")
+    (version "20220913.1718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "b0fefab5095c5069b4bb5b282223bf5d67194ce1")))
+                 "60cc30e4aa6947a9a06db39a4198162fa5959f5e")))
         (sha256
           (base32
-            "1gg0wf7z29qxcc50lq2cqmigq9ripavj2c1p2370mp654jiqpfrh"))))
+            "124r0s9qc40d7hca7l37l4b40dcyd6vcliszp0cf5wc6g13m7n7k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -16669,17 +16669,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220909.1347")
+    (version "20220913.1933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "ef3aad65e41e425fbcc80c4a9a1f6fc4cafff383")))
+                 "1dcdb3df44cf02a2ca996b0ba11674ddcdb51ec0")))
         (sha256
           (base32
-            "1lb7ci1kkgv07c4hcfxisr5zjx68hq15bqf4x3bhmnn13x38j7jw"))))
+            "1p8qd16q5dhy0sbd566a2a80zhyvgmnlmyhywiiblacv9ill5c6v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22972,7 +22972,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220913.1401")
+    (version "20220913.1503")
     (source
       (origin
         (method git-fetch)
@@ -29519,17 +29519,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220704.37")
+    (version "20220913.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "5d0459d27aa7cf738b5af36cf862723a62bef955")))
+                 "02c4b88f25fb4f4f17a553344875366117ccd2e1")))
         (sha256
           (base32
-            "15zk4y43yf58hsh24slszajx40ab0qhha4pwm8fya0wl34cphkzd"))))
+            "0b5g8g1zh2sw3y17cy5b4wkgxb9hbb3g1h7ja63ki4l9z0jjshbs"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -56059,17 +56059,17 @@
 (define-public emacs-hybrid-reverse-theme
   (package
     (name "emacs-hybrid-reverse-theme")
-    (version "20220913.1259")
+    (version "20220913.1954")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Riyyi/emacs-hybrid-reverse.git")
                (commit
-                 "f70c885e2319a573b383b3097ee08351aa063834")))
+                 "7315c279a63872b5da370eba11d1846961b08cb0")))
         (sha256
           (base32
-            "1bvsl97vy341jxjiavvzwcgkdg37q4dcvmm1nzgbgjmcvxrrp8sa"))))
+            "0n1b8yd0y5pn9fmhdfmlyn6wbh7967xawzrzhcxb75shjn37z7cc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/riyyi/emacs-hybrid-reverse")
@@ -68116,17 +68116,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220912.819")
+    (version "20220913.1826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "b26091342e8663d6f99b8302d6f62c155eff1006")))
+                 "9cb2cb3da906e66622f15584788fd2e5546aa957")))
         (sha256
           (base32
-            "1sqnzzq93zn5z50nf8d1548jsfylfayyi5jjihy7skkb5ccpr4q7"))))
+            "08h03s5nca3rsrwpq7fqp23dj2rlkriq894rpawspbq8n9bpcblx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68342,20 +68342,19 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220809.2014")
+    (version "20220913.1808")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/rgherdt/emacs-lsp-scheme")
-               (commit
-                 "02e56f4c4981bc5497cdd516969206418858a357")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/lsp-scheme-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "00r2fcyvz94nydhzw41k0y6np7sx0gbcg36riq5fpq8j5zd3ky95"))))
+            "0910k8p174vrxxxxvh8nz4644i3bzzvxf7clfnnjli0cwxgjzzma"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
-    (arguments '(#:files (:defaults "scripts")))
     (home-page
       "https://codeberg.org/rgherdt/emacs-lsp-scheme")
     (synopsis "Scheme support for lsp-mode")
@@ -82523,7 +82522,7 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220913.1543")
+    (version "20220913.1556")
     (source
       (origin
         (method git-fetch)
@@ -85574,17 +85573,17 @@
 (define-public emacs-osx-trash
   (package
     (name "emacs-osx-trash")
-    (version "20210419.2229")
+    (version "20220913.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/osx-trash.git")
                (commit
-                 "af74a2055a15bf4182d8196600f7decd66eec634")))
+                 "90f0c99206022fec646206018fcd63d9d2e57325")))
         (sha256
           (base32
-            "09960kif9gnfmic4iyv9d28577j6zsiji9fdrxcnhh6586hz70ri"))))
+            "1mmpxbg21zqkapy7vq8a5mbl58z75ax4i41bhb6s4wjqs19idky0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "*.AppleScript")))
@@ -113055,17 +113054,17 @@
 (define-public emacs-transpose-frame
   (package
     (name "emacs-transpose-frame")
-    (version "20200307.2119")
+    (version "20220913.1749")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/transpose-frame.git")
                (commit
-                 "12e523d70ff78cc8868097b56120848befab5dbc")))
+                 "7b7f8a1582436749a57ebbba6ead716b5a0edddc")))
         (sha256
           (base32
-            "01j4ci0c52r2c31hc9r4p7nsb6s8blmvg50g9n5v5h3afjl1c35v"))))
+            "0m9jmfwwhgkwxbq3y000ymx7parbgqr7gq3yjm2wh1ll747gv51y"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
