@@ -3629,17 +3629,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220911.818")
+    (version "20220914.205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "e01ced3ac985eabd51dad348d04974cefa778625")))
+                 "9101a3380cb1a86e8bb78d80e716266b0a484c67")))
         (sha256
           (base32
-            "1g9xkzpii9dh71pgwx56y650nhlkcqa2f0x1jg3dvpcsc677zm60"))))
+            "07gk2qsg4dz87vgpgizg79wc6zspc8m9zqgmnzlhgcrbyc7612is"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -49502,17 +49502,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220911.1317")
+    (version "20220914.719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "288f7d9f173d7ddd7a7766eb333cc2db1c1caa34")))
+                 "ae75e885a647bd3cf47b1851da0ffaf52d9fa8a1")))
         (sha256
           (base32
-            "1bbqkzbr44840gzr0gavvy0w0bw01dl0bai302jjgha9nlgm8fvn"))))
+            "1i4z5dmcmf7n879h64qqhjhigyi0mc20ngxgma416agf8mbz66zz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -51864,17 +51864,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220818.553")
+    (version "20220914.543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "fc44fc1015bbc75d16e7d7aa5d971ff1ad85e9e1")))
+                 "9df8d953ceae4f6747b5e949db4f7ef154a75c6b")))
         (sha256
           (base32
-            "1im54c10nv5i0bncdcw8x6mnyy1jh6w9dxg09rkxvy0vjjpv17pr"))))
+            "1yj6c7glyvbxbjzyf5rb4gxqfy0kif6scw54cv6ffg1lbwvgpf42"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -73777,17 +73777,17 @@
 (define-public emacs-move-text
   (package
     (name "emacs-move-text")
-    (version "20220908.1632")
+    (version "20220914.457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/move-text.git")
                (commit
-                 "646378e8848811fdbc571a9d16c76ac62f27aaad")))
+                 "c47727ada2c17d2832d62079ca981852ae0b0623")))
         (sha256
           (base32
-            "1s6rf6bslcg5m3wgfdr5f9n1mm09arirnwb4a23fdgx3brfp3cqa"))))
+            "0pxvipjp9xvr9zwiwij943jgpy7fk8pxphbdj0vrg8ar5avlqiam"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsfodder/move-text")
@@ -113662,17 +113662,17 @@
 (define-public emacs-treeview
   (package
     (name "emacs-treeview")
-    (version "20210723.2256")
+    (version "20220912.2346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tilmanrassy/emacs-treeview.git")
                (commit
-                 "09c8c1d045c7c8eace61b10b6df9d2f9079de78e")))
+                 "b68f77bf102b289e7b0e97f767bb7ffff9a5835b")))
         (sha256
           (base32
-            "008m6ckrcc0ddnrc5p9b5agbvsma31bq0094yygv5dwg49lh7ly4"))))
+            "11c9m4x4nrh6vxma59vdm24vkipk38n17mcnva3ymn49r3597fwh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tilmanrassy/emacs-treeview")
