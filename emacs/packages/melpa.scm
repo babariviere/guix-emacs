@@ -2559,17 +2559,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220913.1631")
+    (version "20220914.934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "55ccff918e27beb6a17feb747a8bc3fb27be82ca")))
+                 "f5d27ebd729837daec1311e353dcfc850202a945")))
         (sha256
           (base32
-            "0g7j331r2mc423gq1d3zpdlkdfqk2kk0jzrjaf5c6g6klnr792a9"))))
+            "144jjv75f82r4rnmpc93k0inv48qh184b1knn30k80czanak8bjk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -13249,17 +13249,17 @@
 (define-public emacs-clojure-snippets
   (package
     (name "emacs-clojure-snippets")
-    (version "20180314.1308")
+    (version "20220914.950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpenet/clojure-snippets.git")
                (commit
-                 "6068dca90467a0f4ebc2cd39338a173d6f5ddc04")))
+                 "66d23f0ffedf2cc2be0387c3504b5f89d7300cfa")))
         (sha256
           (base32
-            "0vvadcydpsz4b17dlm1jd4fbddzfqibh3mlzv3k4gvp67vv10cqy"))))
+            "0s0jcbwz6bb8215v1rsy1kw1jx19zkavykki9yq9njqm3n6imjax"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
@@ -16669,17 +16669,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220913.1933")
+    (version "20220914.920")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "1dcdb3df44cf02a2ca996b0ba11674ddcdb51ec0")))
+                 "76aab86015c3d7628dbd5f92b2dd8ab9aeadac8d")))
         (sha256
           (base32
-            "1p8qd16q5dhy0sbd566a2a80zhyvgmnlmyhywiiblacv9ill5c6v"))))
+            "0wnsmn978ivf9vhis0by467q0fp4gprq169px41q4z4zaf6fcpjj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220913.1503")
+    (version "20220914.1059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "699d9754c409aa40a4ae7610c7d4f0ed90648680")))
+                 "c74bb0df02adecb425f5718d8f6537f5b8e3d54d")))
         (sha256
           (base32
-            "1qajaild0i5xwnlbkcwc3djsaa459rdq08i0hapjm7jzqvbiw8l6"))))
+            "0zm7d0w9zrrp6k881h4wi6fa0abd1jyhn6pjdp5zyfjydw1x00gl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220913.924")
+    (version "20220914.1115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "89e3eac132dc8f5d2ae7616ec7cccf2e78fd4134")))
+                 "a6cbb22589801e03182f2c2c704f91592e52347e")))
         (sha256
           (base32
-            "0yi1jkjr58ksjvpcz5c2zm9absj7510x8hgdm4gcyzmiwwvxw15c"))))
+            "1nxnlaxykdh811zlskmswvnh1h3ni0pmy0g4k064sp5gfm9ma4rc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -49502,17 +49502,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220914.719")
+    (version "20220914.1117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "ae75e885a647bd3cf47b1851da0ffaf52d9fa8a1")))
+                 "c3cd741a27247334c5f25998442c377cd3b36c78")))
         (sha256
           (base32
-            "1i4z5dmcmf7n879h64qqhjhigyi0mc20ngxgma416agf8mbz66zz"))))
+            "0c6vwp2jps2c6dafh6l4cmbvqrmfirq18850g2jrr0ml95s9r9v7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -51864,17 +51864,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20220914.543")
+    (version "20220914.954")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "9df8d953ceae4f6747b5e949db4f7ef154a75c6b")))
+                 "a9b61744fdf69393c36847f1927c054c8056c996")))
         (sha256
           (base32
-            "1yj6c7glyvbxbjzyf5rb4gxqfy0kif6scw54cv6ffg1lbwvgpf42"))))
+            "0s8l1v46p1vbnx4zdbnkcfpmzic1rzcqn7jc80k4ad7nz7kfmbff"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -55033,7 +55033,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20220913.1050")
+    (version "20220911.920")
     (source
       (origin
         (method url-fetch)
@@ -55043,7 +55043,7 @@
                ".tar"))
         (sha256
           (base32
-            "0lzrszcf0vndi5xm5d2g638ypgg4xg2rmd89y3gj066shr3rf6mq"))))
+            "07dcqpk161403q1z9339g0vhz5whwr6fgp9jj05ndblf30m7hdq4"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
@@ -66787,36 +66787,6 @@
       "Documentation at https://melpa.org/#/literate-elisp")
     (license #f)))
 
-(define-public emacs-literate-starter-kit
-  (package
-    (name "emacs-literate-starter-kit")
-    (version "20150730.1854")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/eschulte/emacs24-starter-kit.git")
-               (commit
-                 "6dce1d01781966c14558aa553cfc85008c06e115")))
-        (sha256
-          (base32
-            "1v37bii372w2g3pl09n5dcrk6y7glhpg8qiv17zsk9jy3ps2xm1b"))))
-    (build-system melpa-build-system)
-    (arguments
-      '(#:files
-        ("elpa"
-         "snippets"
-         "src"
-         "Makefile"
-         "init.el"
-         "*.org")))
-    (home-page "unspecified")
-    (synopsis
-      "A literate starter kit to configure Emacs using Org-mode files.")
-    (description
-      "Documentation at https://melpa.org/#/literate-starter-kit")
-    (license #f)))
-
 (define-public emacs-litex-mode
   (package
     (name "emacs-litex-mode")
@@ -68116,17 +68086,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220913.1826")
+    (version "20220914.1423")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9cb2cb3da906e66622f15584788fd2e5546aa957")))
+                 "d99c123d634b6d33db19a8f1107351f177d10bbe")))
         (sha256
           (base32
-            "08h03s5nca3rsrwpq7fqp23dj2rlkriq894rpawspbq8n9bpcblx"))))
+            "1c6c0qcn9vvj9w45sxjvxswq22ginjsjjkv1rv0n0jxn8z338k3s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69890,17 +69860,17 @@
 (define-public emacs-makefile-executor
   (package
     (name "emacs-makefile-executor")
-    (version "20201119.1500")
+    (version "20220914.1024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thiderman/makefile-executor.el.git")
                (commit
-                 "d0a34c355fb80a8616ae7ed5eebbda8507aa14ac")))
+                 "b2dd81e4218ed1c19ae48da815be01a55c435417")))
         (sha256
           (base32
-            "1nbv03vw4n5lslnzgxp8h1np639m7hdnz31nilywi4nc0v1ak347"))))
+            "1hw6q4b11bjzqhkphk9sarkdmpx3hpv932l9szpgxkmp7n3rjp94"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -70254,17 +70224,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20220909.1343")
+    (version "20220914.945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "b6d9a7e663847d5b539adf46ecb68d25d18f68a3")))
+                 "db12d80307ea9d6de44b59d18533c9cbf0c51724")))
         (sha256
           (base32
-            "1gbcjw447vxd3ivfjgnya2ix3w791kvbika1v9bzj8s7i996fb6f"))))
+            "01fhm1013v0hzm4sk8nwzn9rl4l2pw1h3vm6jjk0w7gpwmpg1wkw"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -82292,17 +82262,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20220912.1056")
+    (version "20220914.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "8005f6de28ffee2d8d4f805582d24457bfc06de9")))
+                 "e349e50928651199213518b84f6df429ac3a32d8")))
         (sha256
           (base32
-            "04z3alijza1ddcicic77his3r7iz3g6hz5hqhv4bpa12y391rhwj"))))
+            "0bh0cqgswaxr4y0zxr8wija04q0w7hgl7y8hs588bq56s0z2nnbr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -82522,17 +82492,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220913.1556")
+    (version "20220914.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "610e6fb535b3baf5cbcf17e6491076793e52ae98")))
+                 "d6307eefcc1576579f21defb1a18cac2f693a194")))
         (sha256
           (base32
-            "1wbmviaxlpz4jr3p4s55k86p0h968pw5zqlri46a98x4p5r8xxyv"))))
+            "15x75ivr41hnzggpahc2w8qwslbapjqrh6gn64s64lxmzcaar2d1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -113392,17 +113362,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220913.1231")
+    (version "20220914.1421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "fd1e70e5ad212eee6cf42215f0e9af1f46621fe1")))
+                 "3b11154957e5eaa555f13c926c08caebf3af89ae")))
         (sha256
           (base32
-            "15nqx0m93dq05j29gn4ip937icizdrgwjiam4mlzpj014pd1bg66"))))
+            "0y84i4bnmwh618bbxb7slkpw6wmznb5p89iixfbscal2ywim36pv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -122326,17 +122296,17 @@
 (define-public emacs-zetteldeft
   (package
     (name "emacs-zetteldeft")
-    (version "20220630.1825")
+    (version "20220914.1351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/EFLS/zetteldeft.git")
                (commit
-                 "40fe8845ea48c7a6a81ea2771962cd810f789406")))
+                 "045f34532d3d96f08ccca2ab2b34354ff6078c63")))
         (sha256
           (base32
-            "0dy34py5g0z0ixcs581xjm9bbawm64bvvdy8yd154kfy3mw7vrfv"))))
+            "14w83b3k5vyf96kni8hm82cs54xwlaidcsi5cnw3jrsisv5nf8qn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-deft emacs-ace-window))
