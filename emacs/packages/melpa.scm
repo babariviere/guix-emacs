@@ -3629,17 +3629,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220914.205")
+    (version "20220915.208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "9101a3380cb1a86e8bb78d80e716266b0a484c67")))
+                 "7aa46ba84f06251f280d226f98cb06ef83a0a697")))
         (sha256
           (base32
-            "07gk2qsg4dz87vgpgizg79wc6zspc8m9zqgmnzlhgcrbyc7612is"))))
+            "0d7za28ii0z4whw59qvnnf2lwl15r7zswa4b62psk3q9ijlqn53b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -68990,17 +68990,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220912.331")
+    (version "20220914.2356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "564cff8a40c2d7c8d4e679f1c7c2974c97f5f149")))
+                 "75647d08a097157231c598648e2f632279ff3a41")))
         (sha256
           (base32
-            "1n0iiwx5af5bx48y8g2yc9d0mca19w8s0q242y8g48145ibkrn04"))))
+            "0sphb03yv9x78dg7gr2szcmlmayfbxpgpq2rdy66sjc5qkl59x05"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -112341,7 +112341,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220914.2128")
+    (version "20220914.2145")
     (source
       (origin
         (method url-fetch)
@@ -112351,7 +112351,7 @@
                ".el"))
         (sha256
           (base32
-            "04b3sf4zijwv4654a9y6s6g1sgglysl4zyqy8z5m8k9w20mfkxpr"))))
+            "11h4fil9piy937z8mwqpvnfq5dhlbhjfp9inb0c7dgmn5m1cgp9w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -112912,17 +112912,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220806.2224")
+    (version "20220914.2139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "3b267425c0fe93a518a703d814cff3cf6a304a97")))
+                 "9d4fabc3c5c58fb845d8a1aa73cd7f889033c95f")))
         (sha256
           (base32
-            "04xdaap7hqx42mpwwxdvlmmsffbdv107jqkvy6pifwjl2mmz2p5v"))))
+            "0j7725knnxgcxv5nm4k018n2xcqgyq7mnhd7h3h28l9n4srd3dvs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -113314,17 +113314,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20220911.657")
+    (version "20220915.441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "4896a562df42990c33891eda043b78420adbd3a0")))
+                 "6d18db5e68d106b21c5c6a746bd262a8e8782a2c")))
         (sha256
           (base32
-            "0gd35w5y60lks4gjb5lhraiyml7n7yfh45igda1rxasdmwm6imk5"))))
+            "0dcahb895wa66p7jzps7fnaaxjca3rg31hq8wrjc9f9fglz5ipvw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
