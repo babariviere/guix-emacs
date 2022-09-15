@@ -2325,17 +2325,17 @@
 (define-public emacs-alert
   (package
     (name "emacs-alert")
-    (version "20220818.1606")
+    (version "20220914.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/alert.git")
                (commit
-                 "c39ce68ed8d80fb996fb78eafc06481a54bf27ce")))
+                 "2c11cf9374f88bfc657764afe39ec7f6bad1779d")))
         (sha256
           (base32
-            "09qcql44d0pkmr4hnql4al269q2naxpybalkqq0zj3x5zbhy7zs0"))))
+            "12iliic7ivcx4wjw0ibxw2wywjv3ywpizk7kc74akwx3r3k44sp5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-gntp emacs-log4e))
     (home-page "https://github.com/jwiegley/alert")
@@ -9066,7 +9066,7 @@
 (define-public emacs-buffer-sets
   (package
     (name "emacs-buffer-sets")
-    (version "20220825.2335")
+    (version "20220914.2115")
     (source
       (origin
         (method url-fetch)
@@ -9076,7 +9076,7 @@
                ".el"))
         (sha256
           (base32
-            "120cvkmp9km8dlr6bjyy5a4b45w58x0gm2iv9783yk5g5a8lbndn"))))
+            "0vimd5pkvrjp2ayxlg6qzfvidlilxs3f4haq215kv4aws1k3bz9b"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~swflint/buffer-sets")
@@ -41924,17 +41924,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220821.2143")
+    (version "20220914.1450")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "6a820a424465900b0cc7bc54ccdad6491764e581")))
+                 "6de20942c99d566ea607b6337bf13fc73dc5f3d8")))
         (sha256
           (base32
-            "07y3001wjslc8qzsg7vrr6yndmxh5icdgvwzff239hkgqr9a1ag9"))))
+            "1v2zcsd27qgqh3zn73lrm13rb76fnj6ba95dmxbrk00ia6ivb18d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -68086,17 +68086,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220914.1423")
+    (version "20220914.1807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "d99c123d634b6d33db19a8f1107351f177d10bbe")))
+                 "45fec559fe63da0742f9bd481a33adba3b1d6d9b")))
         (sha256
           (base32
-            "1c6c0qcn9vvj9w45sxjvxswq22ginjsjjkv1rv0n0jxn8z338k3s"))))
+            "171z4p8vzq7xp16wg45sn7zf11vk4mlh0p9lhc1lmq4lqgs3yl3n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68312,7 +68312,7 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220913.1808")
+    (version "20220914.2015")
     (source
       (origin
         (method url-fetch)
@@ -68322,7 +68322,7 @@
                ".tar"))
         (sha256
           (base32
-            "0910k8p174vrxxxxvh8nz4644i3bzzvxf7clfnnjli0cwxgjzzma"))))
+            "06z8afriahyv6gz5hng21m7ky4srm6qd33pd9a6f9va6q9qdwr9w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
     (home-page
@@ -69488,17 +69488,17 @@
 (define-public emacs-magit-stgit
   (package
     (name "emacs-magit-stgit")
-    (version "20220911.845")
+    (version "20220914.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/emacsorphanage/magit-stgit.git")
+               (url "https://github.com/stacked-git/magit-stgit.git")
                (commit
-                 "0b522949aa80109f2b8e3d38619cda26ca842558")))
+                 "bf96fa0f40c087329ad7e6a3b1946de7df03559c")))
         (sha256
           (base32
-            "0qry9hb4brb46v3a3qv4cb9031nms6ckggzmmcmkxxpk6kxpafnd"))))
+            "03342kkk9lmi0i59slzyl0h8flj90z3nvnmg5p2b9zgvclylscp8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-magit-popup))
@@ -100101,17 +100101,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220830.1907")
+    (version "20220914.1838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "c5564b801a6ff966df39e86830b8313d4c29daed")))
+                 "628b03261fe8f4fbf6c5ce9dcf31d2a281922b30")))
         (sha256
           (base32
-            "0wyfblwzaxmcfiq346vgbl4xgkby1wx1v3i2kmir1vpwzpk1vl24"))))
+            "1vj5fwiqczk9g1kk3l5jza94nlgvxys2h9yvix9cffmwmgddvgp6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -110154,17 +110154,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20220903.1946")
+    (version "20220914.1802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "89f1afc63b3e4a264d547825477d5aaac12552c9")))
+                 "d00ece88dcd65bea4f6319029759bc82497c1e9e")))
         (sha256
           (base32
-            "1iszws1ri0wdpqa6nmr52vhm69krpd9v9slm8j81wigjyri1w0la"))))
+            "1b9ac6ri2s48rjzl5mzhpghqr1sl2yx537hs7l3y6jfjzxqf4537"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
@@ -112341,7 +112341,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220913.820")
+    (version "20220914.2128")
     (source
       (origin
         (method url-fetch)
@@ -112351,7 +112351,7 @@
                ".el"))
         (sha256
           (base32
-            "05zx1g8m6m0w0a2xv6p8fmfcbx30c84q4gz61pmfbvnwycyfxkhj"))))
+            "04b3sf4zijwv4654a9y6s6g1sgglysl4zyqy8z5m8k9w20mfkxpr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
