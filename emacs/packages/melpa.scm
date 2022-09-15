@@ -19780,17 +19780,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220827.1015")
+    (version "20220915.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "7f924d7feacb2c271e5cde179f6fe1c390a78223")))
+                 "5d5043f962de030cadf761613199e0251c602d1e")))
         (sha256
           (base32
-            "0sc0napvyb06pnqfjidpsgnkyajc1b91zxcqmrhzmxfhrhkd150l"))))
+            "005k2kf1jz1i4npyyiy592qvd42lw4hyyfn9pl0h72lifn53cyma"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -21208,7 +21208,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220910.1010")
+    (version "20220915.1320")
     (source
       (origin
         (method url-fetch)
@@ -21218,7 +21218,7 @@
                ".tar"))
         (sha256
           (base32
-            "1ifc0fs70pajwy0d27d0zm1cb4a0b43xv9fsw5yif1pbvckn8k1r"))))
+            "1mdj5y02jn2jp7i258drybay3k6fgfcd3hr7yrk8v70nzp5pr8z6"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22972,17 +22972,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220914.1059")
+    (version "20220915.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "c74bb0df02adecb425f5718d8f6537f5b8e3d54d")))
+                 "49ffb1dba47165daeaf2d9b604ecfee78f6da98a")))
         (sha256
           (base32
-            "0zm7d0w9zrrp6k881h4wi6fa0abd1jyhn6pjdp5zyfjydw1x00gl"))))
+            "017swya64jkqm7x6qi7l0zqvwbrzxsd3vgfa7svp3wsdxszvb8ml"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -41807,17 +41807,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220914.1115")
+    (version "20220915.1158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "a6cbb22589801e03182f2c2c704f91592e52347e")))
+                 "0ea6470632f254e6926c46e8e86e2436520fd7c9")))
         (sha256
           (base32
-            "1nxnlaxykdh811zlskmswvnh1h3ni0pmy0g4k064sp5gfm9ma4rc"))))
+            "0f921kfsxsm6jv30645603id2hsmk3x0db28gwdaw5rilqryxm81"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -41924,17 +41924,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20220914.1450")
+    (version "20220915.1551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "6de20942c99d566ea607b6337bf13fc73dc5f3d8")))
+                 "2a2c6dde1754679673ccb29eb384dabe1d43624c")))
         (sha256
           (base32
-            "1v2zcsd27qgqh3zn73lrm13rb76fnj6ba95dmxbrk00ia6ivb18d"))))
+            "14zp036826bqa5aac0safkiggsj1k4ighf0yq378prymbn595qib"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -76817,17 +76817,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20220910.1920")
+    (version "20220915.1024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "f5265df68c73781a383d6c1379557b85b6318771")))
+                 "1d5ac2720662aa60a33ff916dc9402e61c65064b")))
         (sha256
           (base32
-            "1f0hycy42k5bgdqvk4pa7n5gcnr1cmx94gwyfa47cg4x1sm9m1gb"))))
+            "0451bbp71hprbrf2291mykviianv5fv006w4ilnkah0l1sjh7210"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -91208,20 +91208,19 @@
 (define-public emacs-poetry
   (package
     (name "emacs-poetry")
-    (version "20211016.834")
+    (version "20220915.801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/galaunay/poetry.el.git")
+               (url "https://github.com/cybniv/poetry.el.git")
                (commit
-                 "5b9ef569d629d79820e73b5380e54e443ba90616")))
+                 "5a8575bc78d7fc5a39b2ba4665a909e36961fceb")))
         (sha256
           (base32
-            "1zk5ps9ax456400aa16hcjygpzq4mlhdnhv1d31yy4agqjql927h"))))
+            "16y0max1b92968sxfbis6cd72v9j42w5kf42hmvl357qb0gabjy3"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-transient emacs-pyvenv))
+    (propagated-inputs (list emacs-pyvenv))
     (home-page
       "https://github.com/galaunay/poetry.el")
     (synopsis "Interface to Poetry")
@@ -110154,17 +110153,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20220914.1802")
+    (version "20220915.858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "d00ece88dcd65bea4f6319029759bc82497c1e9e")))
+                 "f61902771993589498345c0a7df0e0781e86794c")))
         (sha256
           (base32
-            "1b9ac6ri2s48rjzl5mzhpghqr1sl2yx537hs7l3y6jfjzxqf4537"))))
+            "088d2fm53dplpv7wq3y959q42g5a236549brzhswqbkqsjjpb2sp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
@@ -112341,7 +112340,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220914.2145")
+    (version "20220915.751")
     (source
       (origin
         (method url-fetch)
@@ -112351,7 +112350,7 @@
                ".el"))
         (sha256
           (base32
-            "11h4fil9piy937z8mwqpvnfq5dhlbhjfp9inb0c7dgmn5m1cgp9w"))))
+            "033kd5kqmfhvm9ipbpj5sf6n6iq6dpb9i5x2wq2z4d7z28rgi24l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -112912,17 +112911,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220914.2139")
+    (version "20220915.856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "9d4fabc3c5c58fb845d8a1aa73cd7f889033c95f")))
+                 "555792f71e0ad41a08ab50cce26e229d5769aeea")))
         (sha256
           (base32
-            "0j7725knnxgcxv5nm4k018n2xcqgyq7mnhd7h3h28l9n4srd3dvs"))))
+            "0zdgn80g19rj4985876vh57spwwdsngbi0my8gjrmdbp128vi03g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
