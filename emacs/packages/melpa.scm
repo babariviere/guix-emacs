@@ -16391,28 +16391,6 @@
       "Documentation at https://melpa.org/#/compiler-explorer")
     (license #f)))
 
-(define-public emacs-completions-frame
-  (package
-    (name "emacs-completions-frame")
-    (version "20210430.640")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/muffinmad/emacs-completions-frame.git")
-               (commit
-                 "860e5b97730df7ef5c34584ad164bc69c561db84")))
-        (sha256
-          (base32
-            "026qzq1ddk1acqsgbsd2nk2g5gm9ml2sq31rnsdapzaj4rxa192w"))))
-    (build-system melpa-build-system)
-    (home-page
-      "https://github.com/muffinmad/emacs-completions-frame")
-    (synopsis "Show completions in child frame")
-    (description
-      "Documentation at https://melpa.org/#/completions-frame")
-    (license #f)))
-
 (define-public emacs-composable
   (package
     (name "emacs-composable")
@@ -29247,17 +29225,17 @@
 (define-public emacs-emacsql
   (package
     (name "emacs-emacsql")
-    (version "20220408.1614")
+    (version "20220915.2050")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/skeeto/emacsql.git")
+               (url "https://github.com/magit/emacsql.git")
                (commit
-                 "373975cbccf7776af771e23f86043b236a330702")))
+                 "d03c1a606f88bd832d3d508526ab5a6e1b551762")))
         (sha256
           (base32
-            "0p4aj1h0qp201vywdlsc8snga8b6bn1ndzrzsaw7rwpa3b6c4i4s"))))
+            "1s0xx8f3v78b5kadxx9ln5k5wajcsvcnakr3lasfpjq2pbwrvmlq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29322,17 +29300,17 @@
 (define-public emacs-emacsql-sqlite
   (package
     (name "emacs-emacsql-sqlite")
-    (version "20220218.1543")
+    (version "20220915.1951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/emacsql.git")
                (commit
-                 "374726060d74df0e2bcb9d0355ff41e2c400ed30")))
+                 "d03c1a606f88bd832d3d508526ab5a6e1b551762")))
         (sha256
           (base32
-            "0z382qksrwhkv0ayjp8nays65c3xwd4kylj41k1pc3nnqg6b2k45"))))
+            "1s0xx8f3v78b5kadxx9ln5k5wajcsvcnakr3lasfpjq2pbwrvmlq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-emacsql))
     (arguments
@@ -41807,17 +41785,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220915.1158")
+    (version "20220915.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "0ea6470632f254e6926c46e8e86e2436520fd7c9")))
+                 "a2fe4af8c395c88e612174aa35d84a6c6fd1b300")))
         (sha256
           (base32
-            "0f921kfsxsm6jv30645603id2hsmk3x0db28gwdaw5rilqryxm81"))))
+            "1i1vkrz07y9x7yg62v3s2s4rl5cj24jy1dmp992wcr3icy1j9bnp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -59514,17 +59492,17 @@
 (define-public emacs-ivy
   (package
     (name "emacs-ivy")
-    (version "20220911.1209")
+    (version "20220915.1532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "e9c0fb953db9f6a23018a52441f3cd775710472c")))
+                 "011653a8c0572202603458fa90f337a419fb88a6")))
         (sha256
           (base32
-            "1jx31x707vsp0ra5p5f5swmvrmvrzjdgp5n3rjrl626nzif74fyw"))))
+            "16ci7d89kflw17h4f7kl9pmmj6gkdfqzjwspj6ckdgw18l4vlbqh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -73379,17 +73357,17 @@
 (define-public emacs-monroe
   (package
     (name "emacs-monroe")
-    (version "20210824.2348")
+    (version "20220915.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sanel/monroe.git")
                (commit
-                 "d140512781bda5160b4786f591694a569639b9ad")))
+                 "8f809e4aa0a35ec2d1c880aacf59e6bc317a566f")))
         (sha256
           (base32
-            "1qcdh7b02yyaqdjw815mgjpmrns15alr27ac0cwy3sm0alk5zshk"))))
+            "1g3chpzww6dp8zz9vqafxg5afsw439isvcfv68cx6kxgfz4y78c1"))))
     (build-system melpa-build-system)
     (home-page "http://www.github.com/sanel/monroe")
     (synopsis "Yet another client for nREPL")
@@ -78339,17 +78317,17 @@
 (define-public emacs-ob-dsq
   (package
     (name "emacs-ob-dsq")
-    (version "20220614.1942")
+    (version "20220915.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/ob-dsq.git")
                (commit
-                 "45a1e4a24bc89a23912478479b9afb162dd768a3")))
+                 "e001b263af87993755319caefaf5d19e196e4e1b")))
         (sha256
           (base32
-            "13r2izka3wa320z847mvawz7x2v2fw0c8zzy7w9372sgg6d67rgj"))))
+            "0x6s58fqka5by7mr6w1xqx788han6wrmd0y2xi4sbpk4nyknld4x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/ob-dsq")
@@ -82492,17 +82470,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20220914.1432")
+    (version "20220915.1915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "d6307eefcc1576579f21defb1a18cac2f693a194")))
+                 "828cf100c62fc9dfb50152c192ac3a968c1b54bc")))
         (sha256
           (base32
-            "15x75ivr41hnzggpahc2w8qwslbapjqrh6gn64s64lxmzcaar2d1"))))
+            "1xllmcvn4328cpw89jbrp6zf6ln39cgvsklfy7f4g94j2ih74zmp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -100100,17 +100078,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220914.1838")
+    (version "20220915.1525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "628b03261fe8f4fbf6c5ce9dcf31d2a281922b30")))
+                 "a391fa6052239fca9e07afafb3227feb4b7d8429")))
         (sha256
           (base32
-            "1vj5fwiqczk9g1kk3l5jza94nlgvxys2h9yvix9cffmwmgddvgp6"))))
+            "19q65m7v8c5gc0m0c7k8iz3lhxwd6z1mj0rfqnwivhdj2sscivk1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -112911,7 +112889,7 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220915.856")
+    (version "20220915.1511")
     (source
       (origin
         (method git-fetch)
@@ -113361,17 +113339,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220914.1421")
+    (version "20220915.1705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "3b11154957e5eaa555f13c926c08caebf3af89ae")))
+                 "6dc0ca1c819ab3c9c8a54599955c03087e7adcfe")))
         (sha256
           (base32
-            "0y84i4bnmwh618bbxb7slkpw6wmznb5p89iixfbscal2ywim36pv"))))
+            "03asgj2x6rk7g74mw0fx9v8scwr7bpz66ij1ak5n44jcyqdzk8yp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -113452,17 +113430,17 @@
 (define-public emacs-treemacs-icons-dired
   (package
     (name "emacs-treemacs-icons-dired")
-    (version "20220913.1231")
+    (version "20220915.1626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "fd1e70e5ad212eee6cf42215f0e9af1f46621fe1")))
+                 "6dc0ca1c819ab3c9c8a54599955c03087e7adcfe")))
         (sha256
           (base32
-            "15nqx0m93dq05j29gn4ip937icizdrgwjiam4mlzpj014pd1bg66"))))
+            "03asgj2x6rk7g74mw0fx9v8scwr7bpz66ij1ak5n44jcyqdzk8yp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treemacs))
     (arguments
@@ -116533,17 +116511,17 @@
 (define-public emacs-verb
   (package
     (name "emacs-verb")
-    (version "20220727.1923")
+    (version "20220915.2159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/federicotdn/verb.git")
                (commit
-                 "aa12067ba3c34749c41bf5247f4bda1c68625110")))
+                 "f945690276fbf16e65ac97f53ba5da9f8b637546")))
         (sha256
           (base32
-            "0kilyi46b6z0v5kzpyml1jg3zmhlpn3dxq8s7ic6qji492bixd6k"))))
+            "1zggkw47v3q7r8v66zvpkp60pgidwxypjc373956s0d09ifw3i2p"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/federicotdn/verb")
     (synopsis "Organize and send HTTP requests")
