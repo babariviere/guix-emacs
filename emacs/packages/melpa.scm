@@ -20150,17 +20150,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220907.759")
+    (version "20220916.306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "02c350d7a767f577c8cccee84904c423f86fae54")))
+                 "5514796ed9cf3ea527d8ddcdeed69d52b6627bf1")))
         (sha256
           (base32
-            "0k1c9w75s58rdvs4ihs4m426amvvavc03j5p00ija8kwb0idddrp"))))
+            "0b58g86fk6lvdvwl9zbgzl2jvs41q93pd04vbgzim3xvr2b8xa4m"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -22950,17 +22950,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220915.1457")
+    (version "20220916.457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "49ffb1dba47165daeaf2d9b604ecfee78f6da98a")))
+                 "23ecfdf87e7c63a6cf33a0ebe82c1f3140e4b705")))
         (sha256
           (base32
-            "017swya64jkqm7x6qi7l0zqvwbrzxsd3vgfa7svp3wsdxszvb8ml"))))
+            "0ah3p3cx3k49nzwlg7nwpd4924n0dhrv86s458k1l5jlhvjd1iri"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -67783,17 +67783,17 @@
 (define-public emacs-lsp-grammarly
   (package
     (name "emacs-lsp-grammarly")
-    (version "20220704.626")
+    (version "20220916.441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-grammarly/lsp-grammarly.git")
                (commit
-                 "ece2c7d8c119213d4622deca756f4affedbabc42")))
+                 "eab5292037478c32e7d658fb5cba8b8fb6d72a7c")))
         (sha256
           (base32
-            "1yfvmdcpa9qr2vmh6lkxip5vmxj5z7rb9k4fn1xvbw5hbdljpmgx"))))
+            "1sx47y9w8cqdrw54acply48wibsmc963i896ncmf8z7mfly7cb9x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -68009,17 +68009,17 @@
 (define-public emacs-lsp-ltex
   (package
     (name "emacs-lsp-ltex")
-    (version "20220912.1600")
+    (version "20220916.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/lsp-ltex.git")
                (commit
-                 "127c8e8ce7c8e23b6b6ad0c85eaa415044059053")))
+                 "ab485b8dca64922c024cb1a7ee95231d68883bca")))
         (sha256
           (base32
-            "01r19rfpq3wdan1a749zl7fxnqzfk1qzj6vy7mxp8dybf2zc7wsf"))))
+            "1b9z01snd1avpvn3zff4bmca96yhs6xgsqrz0jjdmkh64xvnr4l0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -99001,17 +99001,17 @@
 (define-public emacs-riscv-mode
   (package
     (name "emacs-riscv-mode")
-    (version "20170804.1521")
+    (version "20220916.206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AdamNiederer/riscv-mode.git")
                (commit
-                 "99febf97d1fa9441e8dada94fe30c2aa439c9749")))
+                 "8e335b9c93de93ed8dd063d702b0f5ad48eef6d7")))
         (sha256
           (base32
-            "119p926ypz525xdh82m2d1saky1qh5va224fxyqisfbwfrc17arh"))))
+            "06jlf84mx49scw3zm1wjj25zinr2yr9abiyh83rli78wb1hdc0l4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/AdamNiederer/riscv-mode")
@@ -103247,17 +103247,17 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20220710.1040")
+    (version "20220916.16")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-sidecar-locals.git")
-               (commit
-                 "3aa9c890ebc38800ab26f5f877da32a79ce87d18")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/sidecar-locals-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1rg2wc5xkbqq59lbqsha5y80brh9ikdnv79klalww5wx412yfyyx"))))
+            "18cf2jhn8r6cqa4dsk22nqx3kaikgk6nmkfpcz3cr9w720qdp69n"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-sidecar-locals")
