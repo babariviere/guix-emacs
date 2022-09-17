@@ -3169,17 +3169,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20220809.846")
+    (version "20220916.1547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "0f4ffd5c1c9f92fea6961699287f3dd124b88aad")))
+                 "f166cca70bc5d54da6027a590b8407bc08deece6")))
         (sha256
           (base32
-            "00w5lrq6mg95q2kds2b7lipzs4h0w9pg2nwk76lw5gajk6qlnzpi"))))
+            "0n0jir0zhhskxm7z5kz988h9gxbd6mgiyyrixggjr7yyfg3m22r8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -22345,17 +22345,17 @@
 (define-public emacs-dired-launch
   (package
     (name "emacs-dired-launch")
-    (version "20220805.1655")
+    (version "20220916.1836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/dired-launch.git")
                (commit
-                 "e7877700144cf4abb5f5482eea7fde9b749cfc57")))
+                 "519a6a49b56978b53e88a005490175cb913ec7fa")))
         (sha256
           (base32
-            "0i59cn7fk8db3mr6zljgnyvqvhqbdynsdbcj0l0fnlydw9rh9hyd"))))
+            "12fzpkzxk9zm0b7zmlakp2kvg400g90wp6mw1nybancncf0k27i2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thomp/dired-launch")
@@ -22950,17 +22950,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220916.1115")
+    (version "20220916.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "44b25015c2c8628e2933fa8f1c556f9d795ac94a")))
+                 "132fc6ce95c4d2b491519f5a183bbfb755b34cc8")))
         (sha256
           (base32
-            "0s4wznynn74df114ixkprmwp2dir3f4diy2nwlv3rlf71j64ma69"))))
+            "0vbfx61q1rpr9h47lk3qcdg1i5hnxja7ncxlqb8mqd020q93fc9g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -67386,17 +67386,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20220609.2003")
+    (version "20220916.2058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "6446ccf25f834519d7f5c71e5293b062d599b355")))
+                 "a185254605d212881648ceaf6d1504d34413ef8c")))
         (sha256
           (base32
-            "1gnslcf30zpx4nsiimwskwgfwpx6ghx69b83azc0wpi2pj8gv40s"))))
+            "1cn9nzihrnpzrmcv42aql6rrfc3ilfg2b04hh04rh58gx5g2sl1k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -68968,17 +68968,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220914.2356")
+    (version "20220916.1716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "75647d08a097157231c598648e2f632279ff3a41")))
+                 "c92dee94e916db0dfc7cc37b745ef3989017a838")))
         (sha256
           (base32
-            "0sphb03yv9x78dg7gr2szcmlmayfbxpgpq2rdy66sjc5qkl59x05"))))
+            "1y3y2i1zrs2v8g3s5x0z3m23z3nhvv9046ddzv67myin6jdf4qd3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -87918,17 +87918,17 @@
 (define-public emacs-parsebib
   (package
     (name "emacs-parsebib")
-    (version "20220730.2341")
+    (version "20220916.2236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/parsebib.git")
                (commit
-                 "ca7f5fcbbdfb38e84fd1740e14dad32a7081c69e")))
+                 "f87b0fd64abb61e6ed5ac01813fb1ee98eb7d3bf")))
         (sha256
           (base32
-            "0da4b6d65bq9xhyhq7h9g315zg6g5q9435vz870la966rgav5szd"))))
+            "0v2rywfbhlcvg2d4pbf18jil14v938krfnq2hqhi3vsrcshwkfii"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/joostkremers/parsebib")
@@ -98726,17 +98726,17 @@
 (define-public emacs-rhq
   (package
     (name "emacs-rhq")
-    (version "20220329.1027")
+    (version "20220916.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/rhq.git")
                (commit
-                 "46a3108436cc4a2c5343b010f2086088d7b9682b")))
+                 "7d9c5dee2e493eb0c5d41afca1b6049de8c2a26d")))
         (sha256
           (base32
-            "1swc4i5fb1b7khwk01n0hyz4k473mxfigihqca1b8xfi8vsa3bvy"))))
+            "0nyjdl2isx4fvfr1vh8dgpm7w1vjc9n3d63gy9lgbrr0gcby16f9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ROCKTAKEY/rhq")
     (synopsis "Client for rhq")
@@ -116953,17 +116953,17 @@
 (define-public emacs-virtual-comment
   (package
     (name "emacs-virtual-comment")
-    (version "20220913.419")
+    (version "20220916.2155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-virtual-comment.git")
                (commit
-                 "fbfee18042b106c12e9be37a07a6724e1637590d")))
+                 "d6b9f469fb7b98c68b05e55e0dd573328238472f")))
         (sha256
           (base32
-            "0iipg41dw453ayq4ljv8paa48svb6aqxd5177gm64bl0jglm2h8w"))))
+            "14hwq8pzkd0zzjmgav34lbhzvrsxahdjib3g7721h1fcrm618lqc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thanhvg/emacs-virtual-comment")
