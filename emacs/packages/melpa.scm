@@ -6541,17 +6541,17 @@
 (define-public emacs-basic-mode
   (package
     (name "emacs-basic-mode")
-    (version "20220910.1351")
+    (version "20220917.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/basic-mode.git")
                (commit
-                 "fae4bc22d075765d9c945c4d53532c9a885829b6")))
+                 "a3c305577c2e8d53b78f0255161f3568e9d0bb89")))
         (sha256
           (base32
-            "1fya7ah57ni7jwqbs6vmk3b20w20pxrs8k80a5lk6r5nnlc5n46z"))))
+            "0nwzqj3m0nx403kx4qmc7slg9n5x0xyld43rxr95hwv204gwvh6y"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -22650,17 +22650,17 @@
 (define-public emacs-dired-single
   (package
     (name "emacs-dired-single")
-    (version "20220726.137")
+    (version "20220917.625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crocket/dired-single.git")
                (commit
-                 "48532d747f0098280050721b5d016ec59c97c77c")))
+                 "3bb53664ccdfb2f911667947be6b6c022e4ec758")))
         (sha256
           (base32
-            "10l6bx2hai3k73bb406zfaf0nfp42d3mr19fm6r60v2g352wz6c4"))))
+            "0xd61mr2h0p1hmid8wq0l80di3mglgvacl01zgsdw2jn93vwmj0b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crocket/dired-single")
@@ -22950,17 +22950,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220916.1735")
+    (version "20220917.734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "132fc6ce95c4d2b491519f5a183bbfb755b34cc8")))
+                 "737a71371ebfe53b63acb9d5112f91993e928bfb")))
         (sha256
           (base32
-            "0vbfx61q1rpr9h47lk3qcdg1i5hnxja7ncxlqb8mqd020q93fc9g"))))
+            "1wbzj5bqbmz6943r7z27isc9gdn4h046nnvs1fs5ng6gbb6lxmvh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26630,17 +26630,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220909.2125")
+    (version "20220917.110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "06e6dd6693123a737fb883dcf277432d63d6518e")))
+                 "18d462732946a2cb23f4d69b427d56b6f2d274e5")))
         (sha256
           (base32
-            "0dan6dmszy3fvywikhsg7z2fpiy9wipc0dd756npkq6dc786y887"))))
+            "0cq6c0x4ic11vd5mp8xx9kndxciayhfjhgs1dsr29rsi8017qh46"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -103247,7 +103247,7 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20220916.16")
+    (version "20220917.417")
     (source
       (origin
         (method url-fetch)
@@ -103257,7 +103257,7 @@
                ".el"))
         (sha256
           (base32
-            "18cf2jhn8r6cqa4dsk22nqx3kaikgk6nmkfpcz3cr9w720qdp69n"))))
+            "1npgb5874cw6rhhh0v2g5v4gjdmzsv6b8svl8jyfmlvhkq9a2yb2"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-sidecar-locals")
