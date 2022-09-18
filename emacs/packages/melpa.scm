@@ -19758,17 +19758,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220915.1323")
+    (version "20220918.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "5d5043f962de030cadf761613199e0251c602d1e")))
+                 "0f7692568a7374ae121f55e19b0806fb97530a6e")))
         (sha256
           (base32
-            "005k2kf1jz1i4npyyiy592qvd42lw4hyyfn9pl0h72lifn53cyma"))))
+            "18zycibc5plk6pg5mqdhx090gkqql4nwky90i3x190jjzyspydp5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -26630,17 +26630,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220917.2340")
+    (version "20220918.1019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "5b24d46fa2c5711ddbdb9cc050ef04ea2516b830")))
+                 "d703c1a94809b0c69d9dd4ad4f73feef3f05a2ae")))
         (sha256
           (base32
-            "022np8w0ryhnn54gma944n558ac31nmy39fqm7wkhlysif2v4zsh"))))
+            "1k4rr1ym6yas12x6gwnpa5xw9hgw9hc59ahi619y66aysl842fkp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -65885,17 +65885,17 @@
 (define-public emacs-license-templates
   (package
     (name "emacs-license-templates")
-    (version "20220704.654")
+    (version "20220918.813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/license-templates.git")
                (commit
-                 "8182fa959477388b61c3a5d226e88e63ca2e87d3")))
+                 "cebb88350916e0c808668c06c40d55eb1c9d0b2e")))
         (sha256
           (base32
-            "1azzb9cyc4k9sj0gab22d5qx2jfbxzzs89185jzhabappyf4zj5z"))))
+            "0624h9ph6h48irak4pwmy6v4ap557xg5s93rljs6an86p3fgay1x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -68064,17 +68064,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220916.806")
+    (version "20220918.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "68bdac0f806789c064856a47d0e413b65a260e1e")))
+                 "53f5f060cd7b4d49ba84ac4c76976dbb1ffb7f1b")))
         (sha256
           (base32
-            "1icv6cjyaks32mglwisdmjvwg9qzygbbi5akdkp91r4mx56bx7y6"))))
+            "03yd7dw9p382aymd8lnx1465n6f9p95svj06s79ahi6mlf4ky954"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68388,17 +68388,17 @@
 (define-public emacs-lsp-treemacs
   (package
     (name "emacs-lsp-treemacs")
-    (version "20220502.459")
+    (version "20220918.742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-treemacs.git")
                (commit
-                 "9859326df6b8e8c954a3c227e53b6878e54aaae8")))
+                 "f7ae97560cfbc88e781a2d5b9253dace7175b918")))
         (sha256
           (base32
-            "0g1azw6638hig4bwy00wyr8pdj13dwf3v5lsjbgxsgckz831wl79"))))
+            "09zcv0zjzikf1f5l6bkjafwb6icx4vpd625as01d4b2cywnzsyhl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -100078,17 +100078,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220915.1525")
+    (version "20220918.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "a391fa6052239fca9e07afafb3227feb4b7d8429")))
+                 "53cacf5039f1d88cdd5cad98d1e9e0ad92da2615")))
         (sha256
           (base32
-            "19q65m7v8c5gc0m0c7k8iz3lhxwd6z1mj0rfqnwivhdj2sscivk1"))))
+            "16vsv4fhj8zq9g4zrsmipdb1nydxgw3dhh5s3wawpvx2rcg6gx2l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
