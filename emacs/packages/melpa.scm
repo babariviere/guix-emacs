@@ -29497,17 +29497,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220916.1357")
+    (version "20220918.133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "28c1e33fa67223944f3d8de6ca8d4b68ae3d7811")))
+                 "4f924a0246120b26902dd6b047a5c843c82416f7")))
         (sha256
           (base32
-            "1a27qkb2ampcajky88c5lb2kls67d4lyki3072cs3cq5yhfax3d9"))))
+            "1b5jzyknqy9qs4h2dgyazmlmikfbilk5nhjl6i9p344czck117m9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -29521,17 +29521,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20220704.37")
+    (version "20220918.100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "5d0459d27aa7cf738b5af36cf862723a62bef955")))
+                 "4f924a0246120b26902dd6b047a5c843c82416f7")))
         (sha256
           (base32
-            "15zk4y43yf58hsh24slszajx40ab0qhha4pwm8fya0wl34cphkzd"))))
+            "1b5jzyknqy9qs4h2dgyazmlmikfbilk5nhjl6i9p344czck117m9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -80495,17 +80495,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20220527.2228")
+    (version "20220918.48")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "8b9af2796fa0eb87eea4140bc08d16880a493803")))
+                 "6b86527b30ef96e047d97e314ac640a410891d1f")))
         (sha256
           (base32
-            "0vbxg9k4w6yc770l330ir2h0fz108msmxhjq7p8alcql45vmhwn8"))))
+            "0iy6zkbsf5q6vv8qdlpdhdlchbyq30cxjmv4rgl2a85nqay0zic1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -81198,17 +81198,17 @@
 (define-public emacs-org-clock-today
   (package
     (name "emacs-org-clock-today")
-    (version "20191204.1558")
+    (version "20220918.514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mallt/org-clock-today-mode.git")
                (commit
-                 "e326a45b60e0fd4ca057f1d1dc3e99a516a5aa2f")))
+                 "b73cca120eb64538ab0666892a8b97b6d65b4d6b")))
         (sha256
           (base32
-            "08x1907kh6gxnji34gc3r6vya4idd7b79xqxyn8ibn9zswicyy2p"))))
+            "147q7x6q9fi0damvyxlmh6f0asv0gkra9a86138m25133syv3w2g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mallt/org-clock-today-mode")
@@ -106516,17 +106516,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220913.204")
+    (version "20220918.220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "77a896d367f7cf08bc7411d22090109d367d5c91")))
+                 "0617824ce118f8c2f91bea4dae6435da52e34040")))
         (sha256
           (base32
-            "1hbc2545ghz6mvi4jwkdgjca4hilawd808m2wisa1frivjcfs5dx"))))
+            "1dbshaq4vygws12xndddcsyng563n124xd0di6r1l9wifav4qsca"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -121307,17 +121307,17 @@
 (define-public emacs-yaml-pro
   (package
     (name "emacs-yaml-pro")
-    (version "20220901.311")
+    (version "20220918.237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml-pro.git")
                (commit
-                 "22121b234b484bbf9735c6122ce00663b80608ca")))
+                 "7c3e548076f21611e36c61eb46aa4c7e2974f03b")))
         (sha256
           (base32
-            "1w2fpl3cidx4cy34wf8nx9ybwq6f69v4vc90zq7h70qmc9jm0phy"))))
+            "1fdv2sddz88716a920d2c5a24dshm1y3a0jaw402pz97fpg02gpz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/yaml-pro")
