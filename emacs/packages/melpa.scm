@@ -8369,17 +8369,17 @@
 (define-public emacs-boon
   (package
     (name "emacs-boon")
-    (version "20220910.1333")
+    (version "20220918.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/boon.git")
                (commit
-                 "41ad3363c2810cdda5ed08b2d83381843780a15f")))
+                 "ee3d12fa3a811f13806b005bb3b1395e5f41dba9")))
         (sha256
           (base32
-            "08b24wlb6bick0fvzw2s5dq2dgq8mc3w2h0chr4rz61m9cdqaph6"))))
+            "09ajsnp4hj2a467py832p80cm5mdafj1x47vh2cvm4gh5zqdmnwa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -18605,17 +18605,17 @@
 (define-public emacs-crystal-mode
   (package
     (name "emacs-crystal-mode")
-    (version "20220104.2146")
+    (version "20220918.1616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crystal-lang-tools/emacs-crystal-mode.git")
                (commit
-                 "96a8058205b24b513d0b9307db32f05e30f9570b")))
+                 "e5b50952fc1d10b715231588cc1655eeef4a2458")))
         (sha256
           (base32
-            "02i1wwr2h9r5ssdysnvp5lh2i7ghh0fv3flqf57a1s388mk4giia"))))
+            "1z0zwi4alcw591ma5xx5ygcm7ckzgag0hxbq2i16x18ha83nimpp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("crystal-mode.el")))
     (home-page
@@ -22950,17 +22950,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220917.1536")
+    (version "20220918.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "180c1fad467b5844580ae986e2a90ba3c7a08cc1")))
+                 "5164d90c42acadc567ef073677df971249a3eccb")))
         (sha256
           (base32
-            "1nhsrcn0i35zkk8g4qpwis9ck85zr462g19nlnv8nq44jasih7mk"))))
+            "037r8r3917283l3g95r8zn5fn87w2bpryv9hsn6g24b3xfbb8mcd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -29225,17 +29225,17 @@
 (define-public emacs-emacsql
   (package
     (name "emacs-emacsql")
-    (version "20220917.1646")
+    (version "20220918.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/emacsql.git")
                (commit
-                 "9e48d12e4295abcda3f5baff5219f116b2224e5d")))
+                 "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")))
         (sha256
           (base32
-            "17fgx0y1y0v162rllb7x0ivlbfwvjffc964f8q354wj9bg1ksvwz"))))
+            "1hcbigbiahcs9b0sb3grzff88bm6rsb3cs16c4c8lsqlfqkv1ghj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29252,17 +29252,17 @@
 (define-public emacs-emacsql-mysql
   (package
     (name "emacs-emacsql-mysql")
-    (version "20220917.1551")
+    (version "20220918.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/emacsql.git")
                (commit
-                 "9e48d12e4295abcda3f5baff5219f116b2224e5d")))
+                 "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")))
         (sha256
           (base32
-            "17fgx0y1y0v162rllb7x0ivlbfwvjffc964f8q354wj9bg1ksvwz"))))
+            "1hcbigbiahcs9b0sb3grzff88bm6rsb3cs16c4c8lsqlfqkv1ghj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-emacsql))
     (arguments '(#:files ("emacsql-mysql.el")))
@@ -29275,17 +29275,17 @@
 (define-public emacs-emacsql-psql
   (package
     (name "emacs-emacsql-psql")
-    (version "20220917.1551")
+    (version "20220918.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/emacsql.git")
                (commit
-                 "9e48d12e4295abcda3f5baff5219f116b2224e5d")))
+                 "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")))
         (sha256
           (base32
-            "17fgx0y1y0v162rllb7x0ivlbfwvjffc964f8q354wj9bg1ksvwz"))))
+            "1hcbigbiahcs9b0sb3grzff88bm6rsb3cs16c4c8lsqlfqkv1ghj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-emacsql))
     (arguments
@@ -29300,17 +29300,17 @@
 (define-public emacs-emacsql-sqlite
   (package
     (name "emacs-emacsql-sqlite")
-    (version "20220917.1551")
+    (version "20220918.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/emacsql.git")
                (commit
-                 "9e48d12e4295abcda3f5baff5219f116b2224e5d")))
+                 "18b40213fdc4cab2f836f5dc3f42b12f3c27af66")))
         (sha256
           (base32
-            "17fgx0y1y0v162rllb7x0ivlbfwvjffc964f8q354wj9bg1ksvwz"))))
+            "1hcbigbiahcs9b0sb3grzff88bm6rsb3cs16c4c8lsqlfqkv1ghj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-emacsql))
     (arguments
@@ -29497,17 +29497,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220918.133")
+    (version "20220918.1639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "4f924a0246120b26902dd6b047a5c843c82416f7")))
+                 "3add321d7442973413fb92a4052f8d0ad6915829")))
         (sha256
           (base32
-            "1b5jzyknqy9qs4h2dgyazmlmikfbilk5nhjl6i9p344czck117m9"))))
+            "0i1c7aan1nqkkykp5d75ng59ylic2a7a6hsxqs09yin957xshb6q"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -40077,17 +40077,17 @@
 (define-public emacs-flymake-collection
   (package
     (name "emacs-flymake-collection")
-    (version "20220612.1340")
+    (version "20220918.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/flymake-collection.git")
                (commit
-                 "cd2574574bda1f3d94007cdc3b7e0f8007d69716")))
+                 "023472345980c251429046d6a20e85c76f9e928e")))
         (sha256
           (base32
-            "0js7y1ph6r1xgaziggbx7v8jimxyz29fvlzgaq5rbd6ni332jrn5"))))
+            "1zfysavx2w5mvy2mgi3v32205f1b7zfcrabi17rzi0v88h8j46a8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -44180,17 +44180,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20220810.1157")
+    (version "20220918.2022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "4e5bb75305a763ef9ccfc1971b3cba4520f290d7")))
+                 "f07790b36beb563d5b87be896efbd3b8533f2acf")))
         (sha256
           (base32
-            "11a5r5bvjh5d1iwiijwvrd1iq5yvlhqjq00n0ral1vwx1f273zba"))))
+            "132b5b1jdk0r68rklmf05avnmgm39rawl2ak4cinwis5p5m0hw2n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-treepy))
@@ -44526,17 +44526,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20220803.2341")
+    (version "20220918.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "ac7fae6a9893b55ad01942d9ea5a571d44426665")))
+                 "6ad8b71731f0cb2a42cd2315650cf257112d0958")))
         (sha256
           (base32
-            "0pjf0rln1l61idin92fql9dg509lhxh7j1bnbywi40c1iggi43b3"))))
+            "1n0vdblrmqyik6i9czjgd7mhjg4cc7wdamb2vxb6s2xqgza2pxaz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -66768,18 +66768,19 @@
 (define-public emacs-litex-mode
   (package
     (name "emacs-litex-mode")
-    (version "20220909.146")
+    (version "20220918.2348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/litex-mode.git")
                (commit
-                 "ad98a61e71e76ab3caf2a2eb36886716d28e8c23")))
+                 "966aa25af6b4268d20d35f1338753bfa93df01d4")))
         (sha256
           (base32
-            "1hjl7nxk85dixvw5zqmz11ak08r7wibvxm6cr2gx4jfj9snl2wlk"))))
+            "0wmiahqqrw3frf6qx74h11vk7y2pbr99wixnwp4w8lmwxhb2pxm8"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-units-mode))
     (home-page
       "https://github.com/Atreyagaurav/litex-mode")
     (synopsis
@@ -67702,17 +67703,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220910.1443")
+    (version "20220918.1430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "0f163756ad65d0400fa91a22b422ae771b513160")))
+                 "f64c08cdef162bfcf479655685247ef1c9a1bbc1")))
         (sha256
           (base32
-            "0v3k3am05h0flbv91k9k9sx2qr3l8ijvj0fn3qy5z2wnlrlvn3yk"))))
+            "1izx8p1q5dmlbwx7j8mv3ms101bn5sf8pj9r96sirj5z2rnj8h4b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -68064,7 +68065,7 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220918.1020")
+    (version "20220918.1522")
     (source
       (origin
         (method git-fetch)
@@ -68968,17 +68969,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220916.1716")
+    (version "20220918.2059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "c92dee94e916db0dfc7cc37b745ef3989017a838")))
+                 "6ad8b71731f0cb2a42cd2315650cf257112d0958")))
         (sha256
           (base32
-            "1y3y2i1zrs2v8g3s5x0z3m23z3nhvv9046ddzv67myin6jdf4qd3"))))
+            "1n0vdblrmqyik6i9czjgd7mhjg4cc7wdamb2vxb6s2xqgza2pxaz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -70760,17 +70761,17 @@
 (define-public emacs-math-tex-convert
   (package
     (name "emacs-math-tex-convert")
-    (version "20220912.313")
+    (version "20220918.1850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/math-tex-convert.git")
                (commit
-                 "93daa5c64ac6bbf2f634e1dd19678a9dd70c3444")))
+                 "91a9588f0d2d145f1695a531cc8bba8ec0adee3b")))
         (sha256
           (base32
-            "0aj5jmch490pa67lxfhdy0vgka1c2xvvkbgxj86k4289q9gig9mh"))))
+            "1n6pizx5rnjrmr3xm98mwsq95xa50xagpg8k01k7vqwi472g7f3h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-math-symbol-lists emacs-auctex))
@@ -94040,6 +94041,28 @@
     (synopsis "Interface to PubMed")
     (description
       "Documentation at https://melpa.org/#/pubmed")
+    (license #f)))
+
+(define-public emacs-pueue
+  (package
+    (name "emacs-pueue")
+    (version "20220915.1249")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/xFA25E/pueue.git")
+               (commit
+                 "28646d6b27ab0d6700aa279e9b96d2895f24fb21")))
+        (sha256
+          (base32
+            "0ff9mmm2flfszik65a6vhgiyb1qsvcf2a34vag39l6c5sjvh2sp7"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-with-editor))
+    (home-page "https://github.com/xFA25E/pueue")
+    (synopsis "Interface for pueue")
+    (description
+      "Documentation at https://melpa.org/#/pueue")
     (license #f)))
 
 (define-public emacs-pug-mode
