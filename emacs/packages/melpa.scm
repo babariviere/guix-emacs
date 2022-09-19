@@ -5196,17 +5196,17 @@
 (define-public emacs-auto-highlight-symbol
   (package
     (name "emacs-auto-highlight-symbol")
-    (version "20220505.505")
+    (version "20220919.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elp-revive/auto-highlight-symbol.git")
                (commit
-                 "3d60d2c64278f9f933ee78299f6decde2254af7e")))
+                 "e10e4952fd23025f3f46edfde66e3ac2d7bdf069")))
         (sha256
           (base32
-            "1r5a9a1s0gb1f7dr36bjkf8zch0q7krk0mjikhs4kd2rfga3ba4a"))))
+            "0yx8yx6vjqknrxrn24pggr4pzvb9k5is1iy2aisc7wrr5bndb8ly"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ht))
     (home-page
@@ -22950,17 +22950,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220918.1406")
+    (version "20220919.414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "5164d90c42acadc567ef073677df971249a3eccb")))
+                 "4195d53540ca191410b1f44aafd5beee7c7f0894")))
         (sha256
           (base32
-            "037r8r3917283l3g95r8zn5fn87w2bpryv9hsn6g24b3xfbb8mcd"))))
+            "0k7pwyj3ymjqp5f94iskbv2g70gnyfi01bi8nrqjfhnjhj81zks6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -53880,17 +53880,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20220830.456")
+    (version "20220919.540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "6633d82c6e3c921c486ec284cb6542f33278b605")))
+                 "db1e15b3783c83d9781a546f37b900ad53576659")))
         (sha256
           (base32
-            "0dc4w3459nnirg1km43k0bkxn1qwz5lfx5k9fqii29a5b3yb38c3"))))
+            "0cxpm6b36bwd42gmah9ic7i74m25j232wag5s0v3m1bsqrk66ra4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -61851,17 +61851,17 @@
 (define-public emacs-json-par
   (package
     (name "emacs-json-par")
-    (version "20220815.1101")
+    (version "20220919.652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/taku0/json-par.git")
                (commit
-                 "4f1fffd2595be3e3af0b5fb1e0c499ecee698273")))
+                 "2dd58826eef67a656efd9897f65d306b5c3eb8b0")))
         (sha256
           (base32
-            "06wz6kd7y7yiawffkz348q8fw7lqdgh3y6j7waq0fnb6bg4drg9q"))))
+            "0hyjy92n2zngh3hi24w7avp0gybi19rcxnz2nl5n60ky5z3qwkhx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-json-mode))
     (home-page "https://github.com/taku0/json-par")
@@ -64190,17 +64190,17 @@
 (define-public emacs-kurecolor
   (package
     (name "emacs-kurecolor")
-    (version "20220909.1442")
+    (version "20220919.313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/kurecolor.git")
                (commit
-                 "8af900180c888b3b6c2137d4e9457991e62bd6ae")))
+                 "190756dc0046358e172cff7e9f94db23634a4485")))
         (sha256
           (base32
-            "0x2n2vaagvlajb5y1x0dc9gvdqfir1gn439973zbh98vxgsnlwnr"))))
+            "0d1qfdmmp7f8gfqazg9mr0hixq204xh418bznvrrwnk8lfrdpnaz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -90371,6 +90371,30 @@
       "Documentation at https://melpa.org/#/pippel")
     (license #f)))
 
+(define-public emacs-pixelblaze
+  (package
+    (name "emacs-pixelblaze")
+    (version "20220918.1925")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/mgsb/emacs-pixelblaze.git")
+               (commit
+                 "564a093f700a3292cbffb3887dd3a8d789f54e6d")))
+        (sha256
+          (base32
+            "0f8rcs6gi0azl8wh8jhfjjx0092x146dzqdds302gl8f63lvsi9c"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-websocket))
+    (home-page
+      "https://github.com/mgsb/emacs-pixelblaze")
+    (synopsis
+      "Interact with a Pixelblaze via Websocket")
+    (description
+      "Documentation at https://melpa.org/#/pixelblaze")
+    (license #f)))
+
 (define-public emacs-pixie-mode
   (package
     (name "emacs-pixie-mode")
@@ -94494,6 +94518,31 @@
       "Documentation at https://melpa.org/#/py-smart-operator")
     (license #f)))
 
+(define-public emacs-py-snippets
+  (package
+    (name "emacs-py-snippets")
+    (version "20220918.952")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Xaldew/py-snippets.git")
+               (commit
+                 "1a85c41ea33f33e5b4a5a12a64fd9c4591fc0bcb")))
+        (sha256
+          (base32
+            "15iqsf4vbgfknkm6p0s680xz5wfwxzkgpilgb3a1ybzl93hv1hil"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-yasnippet))
+    (arguments '(#:files (:defaults "snippets")))
+    (home-page
+      "https://github.com/Xaldew/py-snippets")
+    (synopsis
+      "Collection of advanced Python yasnippet snippets")
+    (description
+      "Documentation at https://melpa.org/#/py-snippets")
+    (license #f)))
+
 (define-public emacs-py-test
   (package
     (name "emacs-py-test")
@@ -94695,17 +94744,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220913.14")
+    (version "20220919.421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "3263ac79fa5a6521b692256458a98f8ffc95dc06")))
+                 "d1b28087e261814de5b3200629b023c403cb93d4")))
         (sha256
           (base32
-            "13w3rbwdqw9gvcgfkqcfqkdpwq7ih7yc5awp5xsbqakp1q0q72il"))))
+            "1izcw1gqh8j497qjm7zxijk7arlakicl8g5jadjbamxybcha1mlp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -102923,17 +102972,17 @@
 (define-public emacs-show-eol
   (package
     (name "emacs-show-eol")
-    (version "20220704.659")
+    (version "20220919.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/show-eol.git")
                (commit
-                 "1a332666192f377dca933b0da71e6528b288fc09")))
+                 "ad3aa8f4fa0d1b20f8526536f0ac35386f521372")))
         (sha256
           (base32
-            "166af5nmhskkaih955prgbdyqhl3gms20x9wlaj2ckhqapdgikdk"))))
+            "18rlqd4wssvx1497c599a9j54cb8zqjkwb60z10dff4z0xjlri8b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jcs-elpa/show-eol")
@@ -106539,17 +106588,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220918.220")
+    (version "20220919.207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "0617824ce118f8c2f91bea4dae6435da52e34040")))
+                 "36ae026d53a782dc90cc7079ef107a4c80095b01")))
         (sha256
           (base32
-            "1dbshaq4vygws12xndddcsyng563n124xd0di6r1l9wifav4qsca"))))
+            "0v944q1qalpnwqp24grmh3w252n7cb70z357z1pqi3ynw5pl80yv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -108957,17 +109006,17 @@
 (define-public emacs-swift-mode
   (package
     (name "emacs-swift-mode")
-    (version "20220709.602")
+    (version "20220919.608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/swift-emacs/swift-mode.git")
                (commit
-                 "cdd194cbadcee724a9813da386f0a612082b1ab1")))
+                 "b3e090e4e518334fcc5500e1981f6f1876b92a90")))
         (sha256
           (base32
-            "16c5xfc29gi8mv0liy8n689zy8fp8jbymljik3qpcazrhyav7rf7"))))
+            "1bxmbxic30rs0sixrpnjfqpggh267ifxl9shlna7shc8ypd0bkgx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/swift-emacs/swift-mode")
@@ -112912,17 +112961,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20220915.1511")
+    (version "20220918.2101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "555792f71e0ad41a08ab50cce26e229d5769aeea")))
+                 "097f5be6e0c228790a6e78ffee5f0c599cb58b20")))
         (sha256
           (base32
-            "0zdgn80g19rj4985876vh57spwwdsngbi0my8gjrmdbp128vi03g"))))
+            "12x23xkm6h63lqa3bxhjjf943pf918gh49fbxgfh2y4vb358xgyj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -121330,17 +121379,17 @@
 (define-public emacs-yaml-pro
   (package
     (name "emacs-yaml-pro")
-    (version "20220918.237")
+    (version "20220919.16")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml-pro.git")
                (commit
-                 "7c3e548076f21611e36c61eb46aa4c7e2974f03b")))
+                 "5af777dfe5371a18b8c3c2779cc35c2687ab562e")))
         (sha256
           (base32
-            "1fdv2sddz88716a920d2c5a24dshm1y3a0jaw402pz97fpg02gpz"))))
+            "1k7n4ghdzrkxnkmqawki9z53yfi004lf0vfhbnvvgki9sr2s8rli"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/yaml-pro")
