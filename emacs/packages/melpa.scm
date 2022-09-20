@@ -3695,17 +3695,17 @@
 (define-public emacs-apparmor-mode
   (package
     (name "emacs-apparmor-mode")
-    (version "20220411.648")
+    (version "20220920.1225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexmurray/apparmor-mode.git")
                (commit
-                 "abc2a6adf563b89daee9f8fa07a71d78957defdb")))
+                 "fdd520249a882eaf7b52dfaba49887149697741b")))
         (sha256
           (base32
-            "1gyvz9659r3563hn68644v4lahnsa0ax9np31p7y4p8j6mhsc0y8"))))
+            "0v179is71xpz3jn049wqib8dgjncv6pq0i9kx37rkg9djy06z0m8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alexmurray/apparmor-mode")
@@ -10950,17 +10950,17 @@
 (define-public emacs-centaur-tabs
   (package
     (name "emacs-centaur-tabs")
-    (version "20220917.1520")
+    (version "20220920.510")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ema2159/centaur-tabs.git")
                (commit
-                 "0e8bd654dd505ae8a90adf9d1e554361d4f3c3c6")))
+                 "eac6522bb9c19c525770822d9f14b4d0ff07324c")))
         (sha256
           (base32
-            "1r7n1j8nckg34gmcg5s53fdlz39cjyvjisljyfw2742icvbzyr94"))))
+            "1z7b3s29xb0n25bfbbm1wrcap9dvig5zi5fcnvlyrl9si9565948"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-powerline))
     (home-page
@@ -21179,7 +21179,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220919.742")
+    (version "20220920.1327")
     (source
       (origin
         (method url-fetch)
@@ -21189,7 +21189,7 @@
                ".tar"))
         (sha256
           (base32
-            "0blq7dnhsar32hxwyz31161n49l2imwgxk0djinwyqqy5hx4kamh"))))
+            "12494482wj76d0jr285jiyj243696w0q2va6xd8rc0wqq1yhw720"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22943,17 +22943,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220919.414")
+    (version "20220920.1516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4195d53540ca191410b1f44aafd5beee7c7f0894")))
+                 "33da58759d1895dbdb406af2671f55721af881d1")))
         (sha256
           (base32
-            "0k7pwyj3ymjqp5f94iskbv2g70gnyfi01bi8nrqjfhnjhj81zks6"))))
+            "1b50ff6dnfrj0qp7qk0d5cphv2mxvlqpr4kvpghq4csq5nabrfdr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -32227,17 +32227,17 @@
 (define-public emacs-ess-view-data
   (package
     (name "emacs-ess-view-data")
-    (version "20220610.1406")
+    (version "20220920.1548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/ess-view-data.git")
                (commit
-                 "aab369f84cadebbbca7c3825741d643ebeb6b722")))
+                 "8f00579c79d12f359ce6aff828a7462c421c962d")))
         (sha256
           (base32
-            "12f7vinplb9j5yks52cgdjgi242vq6a0404ddlmmj6d131bj3gny"))))
+            "0ww9b8gzih3klaq490k8hyizx867drcsds6kn8hjfqlj8fl0vh9q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ess emacs-csv-mode))
@@ -44922,19 +44922,18 @@
 (define-public emacs-git-timemachine
   (package
     (name "emacs-git-timemachine")
-    (version "20220324.1057")
+    (version "20220920.828")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://gitlab.com/pidu/git-timemachine.git")
-               (commit
-                 "ca09684e94767cc0b2339b77b778b4de4f9d104f")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/git-timemachine-"
+               version
+               ".el"))
         (sha256
           (base32
-            "13zs30sr8fkxar883va9xbfcl27m7jf02g63rq09gccjfw670r7z"))))
+            "1bgkvrmzrrsfrqwhwq8v9ycycakbv48cam25q5drp1b8b4zx3grg"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-transient))
     (home-page
       "https://gitlab.com/pidu/git-timemachine")
     (synopsis "Walk through git revisions of a file")
@@ -49473,17 +49472,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220917.1817")
+    (version "20220920.1000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "d1a4c6eee7b963f42e3473ac5ffe7d18af856d1e")))
+                 "0c12230b4f90118990a3449cbc220b3e13417387")))
         (sha256
           (base32
-            "0968bf23w8d1n0w4dn4z2js2nmq4rjblwb5dgnfhcc6bsd20c7bd"))))
+            "1hrwab6k4sa8f6x6wssl25lpbp214arb1k210xa788gshm40wqjv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50281,17 +50280,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220915.934")
+    (version "20220920.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "2b44a1da5c47d6fc19801493698f2085b109f6fc")))
+                 "0c12230b4f90118990a3449cbc220b3e13417387")))
         (sha256
           (base32
-            "0j407xngvkjn0gqhkclg4nwridljrlymkrxj1pagmywgi8a5334z"))))
+            "1hrwab6k4sa8f6x6wssl25lpbp214arb1k210xa788gshm40wqjv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -52043,17 +52042,17 @@
 (define-public emacs-helm-mu
   (package
     (name "emacs-helm-mu")
-    (version "20220825.1025")
+    (version "20220920.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-mu.git")
                (commit
-                 "85714ac9a9db6619035c40f5b5a2cae948561b01")))
+                 "b9865a3a8ba8af572fcf12d975ea04dc9437c1a2")))
         (sha256
           (base32
-            "1rvq7jbc2a0r2ab6ffxp9rbd907hjppyj4j29mjvm9f5frb2w7f7"))))
+            "1x9z790chc4ia5ipb30fza5bjybp6xp1194z5wbb1fn7hnyxa5z4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -52804,20 +52803,19 @@
 (define-public emacs-helm-recoll
   (package
     (name "emacs-helm-recoll")
-    (version "20200805.1235")
+    (version "20220920.1206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-recoll.git")
                (commit
-                 "c021a3b5e8c010bdad062cceb80fb49788f89e9f")))
+                 "c054047ecca360c3e02281d8d0c021f654e63f37")))
         (sha256
           (base32
-            "09aj1hsj81vx761v5ai48hvl17i2i60gx3szk8qcmmpcn00m3ps7"))))
+            "0w501j1bm73ryxygkw68xd6d7xyyr2wgd2xh0mzvd5y8djyf70hr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
-    (arguments '(#:files ("helm-recoll.el")))
     (home-page
       "https://github.com/emacs-helm/helm-recoll")
     (synopsis
@@ -68940,17 +68938,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20220702.1158")
+    (version "20220920.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "a7c5553d2780640630d31b469d522ecffdf052f5")))
+                 "2f86d2f456029c3ed9d8e5cd0ed2f3dd8cb3b862")))
         (sha256
           (base32
-            "1ba68m3liacpc3x3391h92sz4q6v4lqq3kcxpn2p3h16rpdikkd7"))))
+            "0zg8y62zi59v0p6hi9zq9ajc90q7qz439l7aaqr9rjwbmj91m5bk"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -70636,7 +70634,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220919.1004")
+    (version "20220920.1245")
     (source
       (origin
         (method url-fetch)
@@ -70646,7 +70644,7 @@
                ".tar"))
         (sha256
           (base32
-            "133b1kqvsw056ggf9zyx652glxv8z7aqvnwil6kkqpgw6w8axfpi"))))
+            "09wwr7v1yv20vrny63j512m8lv8f7szc43xbc5l6gg8pcdzw8ma2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist))
@@ -73034,7 +73032,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220911.226")
+    (version "20220920.539")
     (source
       (origin
         (method url-fetch)
@@ -73044,7 +73042,7 @@
                ".tar"))
         (sha256
           (base32
-            "1335q66ha3ca5qc1vkllxib3clc642ld5y2yz2x4f9q9w7903f67"))))
+            "0wpmqq6r0lb3x3hxr0srx78374v2ngjpifl7cfk3wfbk00kcx54y"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -98100,7 +98098,7 @@
 (define-public emacs-repl-toggle
   (package
     (name "emacs-repl-toggle")
-    (version "20220919.1232")
+    (version "20220920.752")
     (source
       (origin
         (method url-fetch)
@@ -98110,7 +98108,7 @@
                ".el"))
         (sha256
           (base32
-            "1i9sj68ian23x8jln7k1m62z4zh9n9vlkcx93a6c98v2m1km429y"))))
+            "1h0six4iba42g3g90vmrg7by2fw8ikn8s3ng8qrz0gc3wvawdry1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fullframe))
     (home-page "unspecified")
@@ -110197,17 +110195,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20220919.1840")
+    (version "20220920.1206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "8c86490b4b7a7f16659ef3cf5a367d24085a4fd9")))
+                 "ebe930b0853650210efa22cb297a2e5554df19e6")))
         (sha256
           (base32
-            "1sgl3h17vihfbi84grfcw9wfh4qsgq28q7i48qxa83xjcz5j8a8l"))))
+            "05cyv2h1hwx06rzdasjsxqg0x60gzp65brj8ya3smallmvxy8iqh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
