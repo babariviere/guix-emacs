@@ -19961,17 +19961,17 @@
 (define-public emacs-darktooth-theme
   (package
     (name "emacs-darktooth-theme")
-    (version "20220819.754")
+    (version "20220920.151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-darktooth.git")
                (commit
-                 "d6f3876d686b9af5a5eb80bc55ae3d17f8ec42b8")))
+                 "4be48efc09f4dd5e61bfec835a08e89d891440ef")))
         (sha256
           (base32
-            "1gkkrnz8q6jdp6f46b3dpfxnj7f63xa0icva2m8gy2jiz2v67h4z"))))
+            "1278zzwa7acr3d9vzipwv90mlif31989xj59vx5c4i3izpx1hv77"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -41778,17 +41778,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220919.1801")
+    (version "20220920.310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "8e8cb94677faee0dd42d26ab3af614de481ce7b6")))
+                 "6d41f5d631d01509d95a1866b81c93b2a380ed08")))
         (sha256
           (base32
-            "0qd62rdd2i1b502w24h8hyib0x2vbd3hifbrivy455yvkzinch9s"))))
+            "0ihpk8rqqd8ln6zq4h6jcj0sfdbb4lm1a09x0ip2n07gk983ad1m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -47141,17 +47141,17 @@
 (define-public emacs-google-translate
   (package
     (name "emacs-google-translate")
-    (version "20220912.16")
+    (version "20220920.35")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/atykhonov/google-translate.git")
                (commit
-                 "f2b4534d4554c2103ed8084353c94c9cdc5cb24c")))
+                 "f893b680311fedb1dd735bf5b3be7af1ed1583be")))
         (sha256
           (base32
-            "0dmbqid8fklqgzsqrj7a1b1h8yslxvpbmll6j2mi5xp2rc2ncnmy"))))
+            "12c6yj7bjradzgl0xjvv7xg8xii9imppb6d9ij0v4q2cfw7v8ihn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-popup))
     (arguments
@@ -68058,7 +68058,7 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220919.1913")
+    (version "20220919.2358")
     (source
       (origin
         (method git-fetch)
@@ -71329,17 +71329,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220917.1649")
+    (version "20220920.45")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "5905f64b70169a7462d8c172802caf8812c7107f")))
+                 "c3f291ad289769fc9a3b2745a5e9969af6322d0c")))
         (sha256
           (base32
-            "0z77hs5jxdlf8zv86aifpb06fwyi9k2xlj5kp4nhpc25imarlrgq"))))
+            "0059jwhdxl4pi90c8rsxidy4ya5ixcxly1iblbbbk58rwfy28ck4"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -107337,17 +107337,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20220812.2051")
+    (version "20220920.345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "a17dabd0c45c4481de48e00ce390f5968d95111d")))
+                 "f564f380f037a0ba877eed6e7b52fb910956c04f")))
         (sha256
           (base32
-            "0031xdisf7s57mpqv44f6lwnqmhb51xg25hy2r30x801mz0v8caw"))))
+            "0ivw4sih0bid8r5476pi4byagjpmc7kphgzbr3m1gf5wvq1mxwy7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
