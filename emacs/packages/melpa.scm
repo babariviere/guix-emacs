@@ -11596,17 +11596,17 @@
 (define-public emacs-chemtable
   (package
     (name "emacs-chemtable")
-    (version "20210713.1551")
+    (version "20220919.1646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sergiruiztrepat/chemtable.git")
                (commit
-                 "05fc1449db497e715b33b8e08359fa17c3148c7b")))
+                 "31040bcc1908b2f69daadcb6409de634d28e4442")))
         (sha256
           (base32
-            "16sdhias8ws93lhfhbf5hm05gff1r3imphk7gdziy51xfgyml619"))))
+            "1vm1lvp6k8vvk7lc3lckh9lc4gv6i3wmbqpjchkjbddih4gdn2yn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/sergiruiztrepat/chemtable")
@@ -12029,17 +12029,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220830.500")
+    (version "20220919.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "20debc82696bdd5ce807618d02665b92a4274492")))
+                 "101671c06df301833b3dcf6a5ed83a028efc334f")))
         (sha256
           (base32
-            "1ykl1xlvkg0s9mam62wpiwy14k7jwdwa1z31qhxn3ns4z8z91rrj"))))
+            "16y01kwm5zyhczw7lpmxcql6jaka2bcdswbn0xnwkld7m4dnjamd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -26623,17 +26623,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220918.1019")
+    (version "20220919.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "d703c1a94809b0c69d9dd4ad4f73feef3f05a2ae")))
+                 "79f41555d49b1f542e3c3428c396813bbc5ca4ff")))
         (sha256
           (base32
-            "1k4rr1ym6yas12x6gwnpa5xw9hgw9hc59ahi619y66aysl842fkp"))))
+            "01k0hxvv8kyl4cvr997rkgwzdigbspsbl1j9pm9ij1p9xzn6mh19"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -40627,17 +40627,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20220814.550")
+    (version "20220919.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "b954dde15be113e5b917aebd0f006be1b54a2ee3")))
+                 "55760aac01e11a755c098f6ff8890ba5712b297e")))
         (sha256
           (base32
-            "08zaanidbrnhg1bgd78337zxv9c11y422dqwc8f4k0sii8pls680"))))
+            "127z2rrzsma0n4hf4pa3n3agf03dldsly2acrvhv48af2xvgz179"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -41778,17 +41778,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220917.923")
+    (version "20220919.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "f9005c92d31e40ec2d8a6dedcf29d9be6463c0aa")))
+                 "8e8cb94677faee0dd42d26ab3af614de481ce7b6")))
         (sha256
           (base32
-            "09kkfr15p7rzzy94kcplf3rvhyhr0vkldjsl1cixbmdah9y9v2aa"))))
+            "0qd62rdd2i1b502w24h8hyib0x2vbd3hifbrivy455yvkzinch9s"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -68058,17 +68058,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220919.1414")
+    (version "20220919.1913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "dae24fa568a74cce61fd9f6fecf5b26a4bfc1e87")))
+                 "03a3ecb263f81442ed7df3ede91ab405539b4fc5")))
         (sha256
           (base32
-            "04brj93i9zwk04sbn9dz4wwd1jiqj4gaqwy2vrxm8micsw525wp9"))))
+            "09v6dyh0miw4slj5qpn51pzwmy3r2i1y2h6r885w5yxr3gdclj9g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71736,23 +71736,23 @@
 (define-public emacs-metaweblog
   (package
     (name "emacs-metaweblog")
-    (version "20220907.504")
+    (version "20220919.2119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "116669f79938ff9bd6f3972672d5152d74a69011")))
+                 "a87e5d665838478dc03416f078e7d6f2100604ea")))
         (sha256
           (base32
-            "05pvif97bin16m2y0b1rqwzcv7mlgbfibx7x96z6d4qcrvyghy58"))))
+            "1zfkny44mvwdlgh0dx0kb7wrlcazfhasbm19yp604adn0nvi9vvm"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("metaweblog.el")))
     (home-page
       "https://github.com/org2blog/org2blog")
     (synopsis
-      "An XML-RPC MetaWeblog and WordPress API client.")
+      "An XML-RPC MetaWeblog and WordPress API client")
     (description
       "Documentation at https://melpa.org/#/metaweblog")
     (license #f)))
@@ -75000,17 +75000,17 @@
 (define-public emacs-mybuild-mode
   (package
     (name "emacs-mybuild-mode")
-    (version "20220919.905")
+    (version "20220919.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/easimonenko/mybuild-mode.git")
                (commit
-                 "ab4777aa298b6ccc4d960e786d2dbc3c23fccf45")))
+                 "0fc84a09a065903338d9364e980b692051f229b0")))
         (sha256
           (base32
-            "164a86vndk9sq8nl8fdsbjnn6xp51cdaj1sxhk6ywx0g2y6w64bv"))))
+            "0iyyxz665qnndcj1scyyxllzbnpzc2239m1kx6w187dfg5gnzk1g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/easimonenko/mybuild-mode")
@@ -84706,17 +84706,17 @@
 (define-public emacs-org2blog
   (package
     (name "emacs-org2blog")
-    (version "20220909.302")
+    (version "20220919.2119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "116669f79938ff9bd6f3972672d5152d74a69011")))
+                 "a87e5d665838478dc03416f078e7d6f2100604ea")))
         (sha256
           (base32
-            "05pvif97bin16m2y0b1rqwzcv7mlgbfibx7x96z6d4qcrvyghy58"))))
+            "1zfkny44mvwdlgh0dx0kb7wrlcazfhasbm19yp604adn0nvi9vvm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-htmlize
@@ -110197,17 +110197,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20220919.1302")
+    (version "20220919.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "2989956a5c156d21f7a5c07f2b40568ac5ed9b0f")))
+                 "8c86490b4b7a7f16659ef3cf5a367d24085a4fd9")))
         (sha256
           (base32
-            "0hvccwr0qzw5awv4asiizqbbv54zc66l8gqarr88zhy3s4z49wmz"))))
+            "1sgl3h17vihfbi84grfcw9wfh4qsgq28q7i48qxa83xjcz5j8a8l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
