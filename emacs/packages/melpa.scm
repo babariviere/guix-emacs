@@ -4193,17 +4193,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20220808.128")
+    (version "20220921.28")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "d511ec0e24a081f1aa691c19cd38c8e0a90cb87e")))
+                 "b9008a3b2df97501d9a5aedcc5666bd292fbc5d6")))
         (sha256
           (base32
-            "1yydjlc4x86fl1n9g9z4a4w9kqqgpvzfd2n7n4qqk07kwcf7nxmc"))))
+            "0vld3d1pbri0xz8c4cyf21z7dfy8g37y05fzhph594xnjmrzf8wx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -16957,17 +16957,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20220919.657")
+    (version "20220921.507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "6e676a81b1cf769637fcd666a2423d70cfe9d8b1")))
+                 "3eae47a4667a583e30703c1c5344e26225b5f676")))
         (sha256
           (base32
-            "1x56hvqpgzhxg34drgf23da1dv2svi0myczn18pdpg2sbbz0vwdg"))))
+            "1p78nb940kyrlb3qpd2ll6zbvi1swdajc661ly9aq6kzmrvcia9r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -20143,17 +20143,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20220916.306")
+    (version "20220921.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "5514796ed9cf3ea527d8ddcdeed69d52b6627bf1")))
+                 "3a7205f4bc55b304421aea8d36366159c0f05fe5")))
         (sha256
           (base32
-            "0b58g86fk6lvdvwl9zbgzl2jvs41q93pd04vbgzim3xvr2b8xa4m"))))
+            "1zbiihmzwrwb0dv8jvwlaskq3yac0mk4c232fawdavlsqhwq3n7i"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -22943,17 +22943,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220920.1516")
+    (version "20220921.47")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "33da58759d1895dbdb406af2671f55721af881d1")))
+                 "cfc78ccf836c0a40389b77cf12e5c9486e675119")))
         (sha256
           (base32
-            "1b50ff6dnfrj0qp7qk0d5cphv2mxvlqpr4kvpghq4csq5nabrfdr"))))
+            "0s44hnyc0ylbimg48c68wis7a4svfq6clncgfjk0fgbsm5qs1iwg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24146,17 +24146,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220920.1807")
+    (version "20220921.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "0310e74a92d96c689ed890021a906d56b01a153d")))
+                 "43a7f64053e946204b4c5c8ddf6b2ec4907ea03f")))
         (sha256
           (base32
-            "06lfcnv5rbvcwzcdw9iwlz9kgqhgx3m2rhhmq1bhpz035wnfm0ch"))))
+            "02ny489vgsh2nb4nhd3r647cgfw4x2f3wdlbdc88slpkfl3ja6pp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -49472,17 +49472,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220920.1000")
+    (version "20220921.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "0c12230b4f90118990a3449cbc220b3e13417387")))
+                 "80b3a39da395bee2db49c88fabcb4fccd1178588")))
         (sha256
           (base32
-            "1hrwab6k4sa8f6x6wssl25lpbp214arb1k210xa788gshm40wqjv"))))
+            "0wl6fv051hy7bc819h2k83j1yb16cpfa5d0n8znlyi1rdjxyn0ki"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -76367,17 +76367,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20220610.207")
+    (version "20220921.39")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "5beeda54ece58c8eb91ffcf2b365c832c9b454aa")))
+                 "dec616ff694e94a3671a48d1b31eb0cce5f0276b")))
         (sha256
           (base32
-            "1wqzfflmk9sw2pwl5jvxv05a0jx2f68ndsy2373xrrfm8kbm2imi"))))
+            "01xgmda0a6yz192rqpa60picinmhf0ydvc3i11rwbj60g2xfymax"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
@@ -89132,17 +89132,17 @@
 (define-public emacs-perspective
   (package
     (name "emacs-perspective")
-    (version "20220908.1514")
+    (version "20220921.346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nex3/perspective-el.git")
                (commit
-                 "4cb9be75a41b66ec91d95464f1eed34cb1ea3b0a")))
+                 "8a69512639ae915c32c5055d1308ebf4b278266c")))
         (sha256
           (base32
-            "1mrx0dk2p18wizx39x4x9vv0i7dgm5lgcj4ic11m2mv27imjb851"))))
+            "1r026cw6p2ss5wg8mxgzf6iv1lb9pdnqyf6yrqb914aibkrvp9b6"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nex3/perspective-el")
@@ -95278,17 +95278,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20220907.1017")
+    (version "20220921.701")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "b19009fd9bb411882f8c733125d0232b3e228d93")))
+                 "532bdd0a02986dc66f13acc0448a5369b9f60f7e")))
         (sha256
           (base32
-            "0fvvrdlypw4wdx420vrdxf3yxhl867c30q7csg9r2bpsdbzf71wa"))))
+            "05lwiv0lnpb4h1k3ph0mjpy3kyi0zhb1bg02b6n72rd5s6rvrifc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -103311,7 +103311,7 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20220917.417")
+    (version "20220921.501")
     (source
       (origin
         (method url-fetch)
@@ -103321,7 +103321,7 @@
                ".el"))
         (sha256
           (base32
-            "1npgb5874cw6rhhh0v2g5v4gjdmzsv6b8svl8jyfmlvhkq9a2yb2"))))
+            "0v6xl1vyb8l6wmzyiqkir07nlg2fdz0n1q658xq2y0n5h9ny42a9"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-sidecar-locals")
@@ -113108,17 +113108,17 @@
 (define-public emacs-transwin
   (package
     (name "emacs-transwin")
-    (version "20220704.640")
+    (version "20220921.514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/transwin.git")
                (commit
-                 "9f3c5ef4029f992fe94b70d54b8d00f0a4cbce1c")))
+                 "da030eb52a4466ea6e18ed0a27b2aeec9b8dccd4")))
         (sha256
           (base32
-            "19ail8y13ywp0rzl1r78iyg7176nijlqjw348is83kdv6qbf8fcc"))))
+            "12zfgrpvbyrgs6myw5bn0sbnqqba8601fi8ipday081zr2ldvzzr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jcs-elpa/transwin")
@@ -117017,17 +117017,17 @@
 (define-public emacs-virtual-comment
   (package
     (name "emacs-virtual-comment")
-    (version "20220916.2155")
+    (version "20220921.221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-virtual-comment.git")
                (commit
-                 "d6b9f469fb7b98c68b05e55e0dd573328238472f")))
+                 "b0c2ac4a9d625b5f4f329bbab879ad86cd7056bd")))
         (sha256
           (base32
-            "14hwq8pzkd0zzjmgav34lbhzvrsxahdjib3g7721h1fcrm618lqc"))))
+            "052djdwlg2bx0smy4xbcniqb48q0nwfbigf98s2330ngpjk7112a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thanhvg/emacs-virtual-comment")
@@ -121687,7 +121687,7 @@
 (define-public emacs-yatex
   (package
     (name "emacs-yatex")
-    (version "20211203.2212")
+    (version "20220921.208")
     (source
       (origin
         (method url-fetch)
@@ -121697,7 +121697,7 @@
                ".tar"))
         (sha256
           (base32
-            "01gdayh0kaj0sc4g3ghchwxbi4i4pw946fgmr85cggrw3zs2i1lm"))))
+            "0qn5vgrya6nyay0hnq74gb1pnig603czbrsgr376ad62mgynrjlc"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
