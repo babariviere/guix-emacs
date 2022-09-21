@@ -19751,17 +19751,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20220918.1145")
+    (version "20220921.941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "0f7692568a7374ae121f55e19b0806fb97530a6e")))
+                 "442aef50dbc3cfb853bee6d919e98d2941973136")))
         (sha256
           (base32
-            "18zycibc5plk6pg5mqdhx090gkqql4nwky90i3x190jjzyspydp5"))))
+            "1mzfj50zfc99p5pxyy779yzz5r6pvlnr8q217f2rihp676vajv8b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22943,17 +22943,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220921.47")
+    (version "20220921.1128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "cfc78ccf836c0a40389b77cf12e5c9486e675119")))
+                 "c8df2d07456352edce8b23da227a1ca6b781daea")))
         (sha256
           (base32
-            "0s44hnyc0ylbimg48c68wis7a4svfq6clncgfjk0fgbsm5qs1iwg"))))
+            "093fg7k31scvyfmq457f04fqs7pp3afc1lwf012sn7psbczwm3k0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -41778,17 +41778,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220920.310")
+    (version "20220921.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "6d41f5d631d01509d95a1866b81c93b2a380ed08")))
+                 "1dc29a8c2b0f79fee256c50b16f5cee0ed75ffcf")))
         (sha256
           (base32
-            "0ihpk8rqqd8ln6zq4h6jcj0sfdbb4lm1a09x0ip2n07gk983ad1m"))))
+            "1zl3j2rzdzq3chpn2gd6i69n9rya2z37hzdcif99v8gqyl0yp49i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -43556,17 +43556,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20220905.2345")
+    (version "20220921.1251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "e540e14db538ed0d116a188569413f5aadd79180")))
+                 "f9b0828e1599078c596df0100886d4199b9b62bc")))
         (sha256
           (base32
-            "06939mv9i7zzqvq71d0ixk3y9135132f3pk9jgjdwvacl1d31h8k"))))
+            "0f9r3np0za97iwv627f0bmhvqpyb2vhb878ls4ljk0j0vf01lv97"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -45447,17 +45447,17 @@
 (define-public emacs-gitlab-pipeline
   (package
     (name "emacs-gitlab-pipeline")
-    (version "20220619.1215")
+    (version "20220921.1044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TxGVNN/gitlab-pipeline.git")
                (commit
-                 "595e699aeab6c28582f309a047c42a0498873a8e")))
+                 "8cc070c156d6e45583074ef4eb110b8d1511b0c4")))
         (sha256
           (base32
-            "118njld8c7d0szq2z36drbkm03f27kjiwcw67595ndnnpa7h59mi"))))
+            "19j6x3hz5fgpgslhiiks5nwv9swj88sf2g290s0254mxyk5ffcn8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ghub))
     (home-page
@@ -49472,17 +49472,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220921.518")
+    (version "20220921.610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "80b3a39da395bee2db49c88fabcb4fccd1178588")))
+                 "92f10d12e779433cc9cfae938be12552bc101c10")))
         (sha256
           (base32
-            "0wl6fv051hy7bc819h2k83j1yb16cpfa5d0n8znlyi1rdjxyn0ki"))))
+            "09lhlx453a5jp51q53bn5c5rrhd4j0awrz4nzlkxfqzl94wx6mps"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -56028,17 +56028,17 @@
 (define-public emacs-hybrid-reverse-theme
   (package
     (name "emacs-hybrid-reverse-theme")
-    (version "20220913.1954")
+    (version "20220921.1345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Riyyi/emacs-hybrid-reverse.git")
                (commit
-                 "7315c279a63872b5da370eba11d1846961b08cb0")))
+                 "5c60e7428d3c135c5f027d09f4474ed776f80d8d")))
         (sha256
           (base32
-            "0n1b8yd0y5pn9fmhdfmlyn6wbh7967xawzrzhcxb75shjn37z7cc"))))
+            "1ac2fwfny4fnp3d9027zhfcv6ykrsxh8agqa76894fzsn6ns2cjn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/riyyi/emacs-hybrid-reverse")
@@ -73032,7 +73032,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220920.539")
+    (version "20220921.1323")
     (source
       (origin
         (method url-fetch)
@@ -73042,7 +73042,7 @@
                ".tar"))
         (sha256
           (base32
-            "0wpmqq6r0lb3x3hxr0srx78374v2ngjpifl7cfk3wfbk00kcx54y"))))
+            "1p3ydpdgyxpirgn59v0g38i3ly3vlxmn0s3gpdnpx6r4jvn6cx8c"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -113108,17 +113108,17 @@
 (define-public emacs-transwin
   (package
     (name "emacs-transwin")
-    (version "20220921.514")
+    (version "20220921.827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/transwin.git")
                (commit
-                 "da030eb52a4466ea6e18ed0a27b2aeec9b8dccd4")))
+                 "ed0156a98b6fce94da9045bdffe369f390b70c0c")))
         (sha256
           (base32
-            "12zfgrpvbyrgs6myw5bn0sbnqqba8601fi8ipday081zr2ldvzzr"))))
+            "13q9mm76pp2h3jhp5kyc3gynzzzzaiczhkc1lvwq1zmrca9bavr2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jcs-elpa/transwin")
@@ -121687,7 +121687,7 @@
 (define-public emacs-yatex
   (package
     (name "emacs-yatex")
-    (version "20220921.208")
+    (version "20220921.1234")
     (source
       (origin
         (method url-fetch)
@@ -121697,7 +121697,7 @@
                ".tar"))
         (sha256
           (base32
-            "0qn5vgrya6nyay0hnq74gb1pnig603czbrsgr376ad62mgynrjlc"))))
+            "1yi2xx89j20km1fcdndgwbql7nk1qz3h095k4l826g0pszm21g9i"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
