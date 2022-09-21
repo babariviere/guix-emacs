@@ -21179,7 +21179,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20220920.1327")
+    (version "20220920.1610")
     (source
       (origin
         (method url-fetch)
@@ -21189,7 +21189,7 @@
                ".tar"))
         (sha256
           (base32
-            "12494482wj76d0jr285jiyj243696w0q2va6xd8rc0wqq1yhw720"))))
+            "1a401x3d2f97m00x91mi04zh21rl2lz61yib4igpbq2ilpf1642n"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -24146,17 +24146,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220911.631")
+    (version "20220920.1807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "73cccaba36aca706e8d819ce01f74d8d24533167")))
+                 "0310e74a92d96c689ed890021a906d56b01a153d")))
         (sha256
           (base32
-            "0ac9178nkhjnlp0z2y02a6b9jz3k1nxi9kivrg7khvp29vflylfg"))))
+            "06lfcnv5rbvcwzcdw9iwlz9kgqhgx3m2rhhmq1bhpz035wnfm0ch"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -25654,17 +25654,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20220910.1240")
+    (version "20220920.2227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "167f619535f95c089b543b751681703689d45339")))
+                 "740d1c3bbb7b5a92073be8428f52932412b7eb8c")))
         (sha256
           (base32
-            "19pnkiwfh6rd13pzzys03ifis3yp2v9x6vn2sbvghd9hv4jcn5yp"))))
+            "1ypaj0cg4dc2qnhwcqkv498s1hrwg3w85dqiww146ps67n4296wd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -29490,17 +29490,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20220918.1639")
+    (version "20220920.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "3add321d7442973413fb92a4052f8d0ad6915829")))
+                 "2422d4e86f24b2b4204f2441f953e8407d011a2e")))
         (sha256
           (base32
-            "0i1c7aan1nqkkykp5d75ng59ylic2a7a6hsxqs09yin957xshb6q"))))
+            "1k053s6mcsn3czq01c0xzah4sr25v01cymar8j8gags4np2dky8c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -64999,17 +64999,17 @@
 (define-public emacs-le-thesaurus
   (package
     (name "emacs-le-thesaurus")
-    (version "20220917.657")
+    (version "20220920.1924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AnselmC/le-thesaurus.el.git")
                (commit
-                 "601cf49dddc90f94864a1d291b7e2a88dc78a69b")))
+                 "4dbe929aeaef7d38e75d52844cf9022244fc94ae")))
         (sha256
           (base32
-            "14az00ckjx88z294738zkvw459lac3a8rq6p6pxfnw566si96wfi"))))
+            "1wbbp4ypph2kvgslwmcnigs6aag0sz3d9wx7dzkn5avj19ym78ci"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -70634,7 +70634,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20220920.1245")
+    (version "20220920.1255")
     (source
       (origin
         (method url-fetch)
@@ -70644,7 +70644,7 @@
                ".tar"))
         (sha256
           (base32
-            "09wwr7v1yv20vrny63j512m8lv8f7szc43xbc5l6gg8pcdzw8ma2"))))
+            "03c5h9jpnavwq3vh20lrnf6j8v41nxvdaj2y2agy3g60r8yr3ib2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist))
@@ -82094,17 +82094,17 @@
 (define-public emacs-org-journal
   (package
     (name "emacs-org-journal")
-    (version "20220408.629")
+    (version "20220920.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-journal.git")
                (commit
-                 "839a2e19865a03bec30ef32431f981f33880a754")))
+                 "1ea9e3b672ed384922ede6af96598446f3691873")))
         (sha256
           (base32
-            "0ggg9p1i016pkwa2322chpwisbllzp1vd4p3qbkzyd5mdp59gwph"))))
+            "0qkdy6vf9pallr21hz9blj1ac08i5q832rz9fr0gajizadf4g3b1"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bastibe/org-journal")
@@ -122337,17 +122337,17 @@
 (define-public emacs-zetteldeft
   (package
     (name "emacs-zetteldeft")
-    (version "20220914.1351")
+    (version "20220920.1812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/EFLS/zetteldeft.git")
                (commit
-                 "045f34532d3d96f08ccca2ab2b34354ff6078c63")))
+                 "5305b87e55c2ec7b4d4ac6e996b1ae953f67133b")))
         (sha256
           (base32
-            "14w83b3k5vyf96kni8hm82cs54xwlaidcsi5cnw3jrsisv5nf8qn"))))
+            "013iq865fjajn434l4acflx2ip1n1mdnpjfw17bzr6h6i15cb7aq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-deft emacs-ace-window))
