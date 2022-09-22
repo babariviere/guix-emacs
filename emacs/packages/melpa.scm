@@ -11596,17 +11596,17 @@
 (define-public emacs-chemtable
   (package
     (name "emacs-chemtable")
-    (version "20220919.1646")
+    (version "20220921.1721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sergiruiztrepat/chemtable.git")
                (commit
-                 "31040bcc1908b2f69daadcb6409de634d28e4442")))
+                 "ba9c3e2ebddf348da462d808fcbce88f37473fd9")))
         (sha256
           (base32
-            "1vm1lvp6k8vvk7lc3lckh9lc4gv6i3wmbqpjchkjbddih4gdn2yn"))))
+            "0bk6mvdhf9iw10xs8d01s1bgnr9plih6lq7nv6qp0m8pfwxr50pc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/sergiruiztrepat/chemtable")
@@ -12390,17 +12390,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20220816.1732")
+    (version "20220921.1924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "36c4ecdc485a2f264297bb60f82c0afe1a1d64d3")))
+                 "678db833e0128fe399ad4c99794186b46f33a68a")))
         (sha256
           (base32
-            "1wcwm6cwmy7zxf9s841q6y3nz11a55ymvbgmp8cd8j24aydn3qpn"))))
+            "1sig8rfbx815nnd7mc7lk17fb82ng3gqiahmzwcr9rj0i7a8wk45"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70908,17 +70908,17 @@
 (define-public emacs-mb-url
   (package
     (name "emacs-mb-url")
-    (version "20211205.1100")
+    (version "20220921.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dochang/mb-url.git")
                (commit
-                 "ca0a3878763180fe2d775feae88b87d21dd8dcb8")))
+                 "a578d302ae1d22cbecfc505107fc78906643b804")))
         (sha256
           (base32
-            "101fynqcw8hnhrgkxb3wdh9a2iqp35q1rh7hijnzz5xpxds2sj96"))))
+            "0vrlv02ay3bw7ad7cnl3h6rds2i6ychgdvsif3ddbyf2vsb6pjfg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dochang/mb-url")
     (synopsis
@@ -95969,17 +95969,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220912.1749")
+    (version "20220921.1525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "caa9259ad08f3aa7b9fb4441933ca3ac7254fad2")))
+                 "0071a3c630a24eca95d115da81fd0091259ccc50")))
         (sha256
           (base32
-            "01bdnxkhvdk077s36d2793z8h2fyyk7f9xhfd8c4jq3jpjm1vk9l"))))
+            "00jl4ybzjwkz687cyzdf7l967bpi26bgp5kqbwlrv7awpwjdbyri"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -122337,17 +122337,17 @@
 (define-public emacs-zetteldeft
   (package
     (name "emacs-zetteldeft")
-    (version "20220920.1812")
+    (version "20220921.1949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/EFLS/zetteldeft.git")
                (commit
-                 "5305b87e55c2ec7b4d4ac6e996b1ae953f67133b")))
+                 "29fa4c9708046f40199106eceaa14ceb58648be9")))
         (sha256
           (base32
-            "013iq865fjajn434l4acflx2ip1n1mdnpjfw17bzr6h6i15cb7aq"))))
+            "1z19x12rq7kwacfkzqqviqnxa2ija60pk587ic6vyd0xls4v025a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-deft emacs-ace-window))
