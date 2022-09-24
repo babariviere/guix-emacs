@@ -24146,17 +24146,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220923.1903")
+    (version "20220924.542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "a1668877ca2dfdc2ed016618d9db6931bec093d2")))
+                 "e90ffae14915ae4fcfd57652103cdb3a33512e75")))
         (sha256
           (base32
-            "07zgrc502q8ii0z1pzig4vwhdmaz2akj47mhw62ba13rc8x75ads"))))
+            "0vn1h61kr3a5lx5jk4sbvkzg85iik333wgj0icd37r48cdm8787f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -29675,17 +29675,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20220908.1226")
+    (version "20220923.2202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "7d56cdf822c4d88baddb570e1228d901d6ca0ed4")))
+                 "e2d64ee4acb8cf25daa88dfaf16a8a12c03abf3a")))
         (sha256
           (base32
-            "0wk965rhbgj8brd9hhd4nj7xxsfiizqscj9gni0svkas7ac3qls0"))))
+            "1nacmp8p28w40mzkh66vxk2qikrw3lpqkq43r8p1bv0wjjicf3ww"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -39490,17 +39490,17 @@
 (define-public emacs-flycheck-pycheckers
   (package
     (name "emacs-flycheck-pycheckers")
-    (version "20211122.235")
+    (version "20220923.2250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/msherry/flycheck-pycheckers.git")
                (commit
-                 "56965c0ef5d45bcef90093360718c6967ce4ef39")))
+                 "897fba15787df94c1ce6a48551f1b149940ffc25")))
         (sha256
           (base32
-            "0dfsqgvmnikza9g3wjq1sclflr640wkh37b3lm9g7r74wrrk8waz"))))
+            "1sdiixvc3rx4ig7p0gag58imc6gjsqr75zvkygnag2y0mfl3vzic"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (arguments
@@ -77176,17 +77176,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20220903.1112")
+    (version "20220923.2323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "8eabd6388ecb7bea8246a9ba6943a0432d23406e")))
+                 "3db892f43b4ac333a09dd05c8f230bf3f8d2b9e9")))
         (sha256
           (base32
-            "0nh35wzf1sssdlfyxhk666sgcg5aqifm8bz22mawl534i95b1ygn"))))
+            "04vrddkxpbp9p82hhx7wpcwq4pvfvr20nyak939z9zbf3399q8ip"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -101916,17 +101916,17 @@
 (define-public emacs-separedit
   (package
     (name "emacs-separedit")
-    (version "20220715.2343")
+    (version "20220924.225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/twlz0ne/separedit.el.git")
                (commit
-                 "74b7e1d5fe917dfa8fbf7e7867454b454d0d3f0d")))
+                 "328d792401f8f099472c4c35a2c085fbe18fd00d")))
         (sha256
           (base32
-            "1j1076w7xh1kr9sr42nl9sjxwmqjkj8mc1dx6d46mqmgr9w7pfs7"))))
+            "1w68083gwbahi85jpac0hv3p2xzn7gfn0gh2xpss2q2b8hc6cbig"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-edit-indirect))
@@ -121686,7 +121686,7 @@
 (define-public emacs-yatex
   (package
     (name "emacs-yatex")
-    (version "20220923.942")
+    (version "20220924.325")
     (source
       (origin
         (method url-fetch)
@@ -121696,7 +121696,7 @@
                ".tar"))
         (sha256
           (base32
-            "0qsc1ajqfn3qp850hmw7lnh37vq2662h445ds6zps1b0i9qr8smb"))))
+            "09k3xh0yk17z5qx55qlv9g7szp4wdq1hcgzhj0i59v0hx9gjwqp0"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
