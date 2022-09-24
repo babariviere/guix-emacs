@@ -2201,19 +2201,18 @@
 (define-public emacs-alarm-clock
   (package
     (name "emacs-alarm-clock")
-    (version "20220819.1538")
+    (version "20220924.840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wlemuel/alarm-clock.git")
                (commit
-                 "2ca4e5177d2ca9a21fa52f4b4b75711617d5424c")))
+                 "1d8cb396f4e63e9e16d82ab64b1ce599f98f09ce")))
         (sha256
           (base32
-            "08wdycs32krva7y9pbb24rj6srp4s302nlld5003idd5h5ds3xcv"))))
+            "0hag6bd7lc9230pn81jg55w6qirgm0rdbzib6kyh4hdhcknm4fmh"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-f))
     (arguments '(#:files (:defaults "*.mp3")))
     (home-page
       "https://github.com/wlemuel/alarm-clock")
@@ -24146,17 +24145,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220924.542")
+    (version "20220924.1354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "e90ffae14915ae4fcfd57652103cdb3a33512e75")))
+                 "3e022a7a12a1a2e2fad0133b215266d73467ff31")))
         (sha256
           (base32
-            "0vn1h61kr3a5lx5jk4sbvkzg85iik333wgj0icd37r48cdm8787f"))))
+            "1b68c1bal7z56zg76i1lzmk2kylc75g49kq6i1f9gk5y71w888y1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -26623,17 +26622,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220919.1519")
+    (version "20220924.854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "79f41555d49b1f542e3c3428c396813bbc5ca4ff")))
+                 "83052a5e61267a2e1c091c1bd4301ea81f1bc6d7")))
         (sha256
           (base32
-            "01k0hxvv8kyl4cvr997rkgwzdigbspsbl1j9pm9ij1p9xzn6mh19"))))
+            "0irxjlfplmixshywsxpq7yknfy9g2m3dpky1mk6psxbk7h7swyyp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -30315,17 +30314,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20220809.1320")
+    (version "20220924.833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "2a6257b5fdf51e77e41038c934fe81015c85fbde")))
+                 "27d2886cc36039527e4e86fc654eaef3804dc4a0")))
         (sha256
           (base32
-            "1s71pzj1lqvdxv00j3k6yvmk9hf7qb72p4y63fj8nnw2d4kpb6j1"))))
+            "0iwx0pijcvdsbrsywiykm964haq7bsbkwhyd8a44k0swkyzw0fxa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -49472,17 +49471,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220921.610")
+    (version "20220923.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "92f10d12e779433cc9cfae938be12552bc101c10")))
+                 "3c64aa842a7d382460cacc9d6fbe0e39d012b4f5")))
         (sha256
           (base32
-            "09lhlx453a5jp51q53bn5c5rrhd4j0awrz4nzlkxfqzl94wx6mps"))))
+            "0j0sfm8an38d9lfgaijrg8abjwz63qrmh4zq8vhrb572gam9kxn8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -68408,17 +68407,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20220823.1626")
+    (version "20220924.850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "d8cce7dc154aa3216c080dd5c6fb827bdba9a312")))
+                 "3cd7cc61273341023b863dcf45906ac9142fd1aa")))
         (sha256
           (base32
-            "0b7gfyrrzxr3x6vr7mcl3ha60ssmhk77fc250impxqg62ckr2nbx"))))
+            "10x4wf046b12kiayd1bhh95kvynpl2wynyrza6zp4c1qnn7mn5gb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -108997,17 +108996,17 @@
 (define-public emacs-swift-mode
   (package
     (name "emacs-swift-mode")
-    (version "20220923.505")
+    (version "20220924.648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/swift-emacs/swift-mode.git")
                (commit
-                 "7552428931b5b8fe8b40e835484dc9d669bf2e87")))
+                 "f4529efa453f2f3051e2c8f772cd9da80147b93d")))
         (sha256
           (base32
-            "0lmx5xnramb2yw2bvalk8f2gz0cr2k14amqwrqpj9v6hndi83khc"))))
+            "01dw8azlwfs6x9arl4kd28s03pqvza79g7dhw54v2rg42g3hpdx5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/swift-emacs/swift-mode")
@@ -110194,17 +110193,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20220920.1206")
+    (version "20220924.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "ebe930b0853650210efa22cb297a2e5554df19e6")))
+                 "566dd054ff70d9bfe26d6db448fcf4cc9c0623f1")))
         (sha256
           (base32
-            "05cyv2h1hwx06rzdasjsxqg0x60gzp65brj8ya3smallmvxy8iqh"))))
+            "14qnyb8vjxlw0qz8bkbpylbjw29pjwkj9k50qi6lmggmlw8x448f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
@@ -112381,7 +112380,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220917.1658")
+    (version "20220924.1242")
     (source
       (origin
         (method url-fetch)
@@ -112391,7 +112390,7 @@
                ".el"))
         (sha256
           (base32
-            "0kadxh3b2bwrwzvqnr21n5ylk9q2ybfh2f0lvcbay5xqnyvywfld"))))
+            "09s74jn4dx3nw27rmbamb177pr87hf3zc8d6qp570c2rjki8i8l6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
