@@ -49471,7 +49471,7 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220923.1748")
+    (version "20220924.1201")
     (source
       (origin
         (method git-fetch)
@@ -68054,17 +68054,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220922.1911")
+    (version "20220924.1816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "447032e53c8bfb56dbd00f2b51355544e87ed180")))
+                 "c1945f1e2731dc60f4593ae20c508b3028368709")))
         (sha256
           (base32
-            "0r26ibqbr4xyfcckkzpwlc42xyhfcdw9clgl45l889pjzdv1rmdx"))))
+            "05fp1097pgsny4x1dc0xdk10s383j00rr80nvbwhhf4qjap9vxpd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -85069,17 +85069,17 @@
 (define-public emacs-orgtbl-aggregate
   (package
     (name "emacs-orgtbl-aggregate")
-    (version "20220726.1241")
+    (version "20220924.1614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgaggregate.git")
                (commit
-                 "cfdddd6700c7c0e8850aecfaae6f0bb4345ea5d0")))
+                 "1108c49e225ece81e00e547424d10d7a5b6ba9be")))
         (sha256
           (base32
-            "047ys7qlg7s35drp5izz13gknri2hbsms2f57kf76w2qlp6i5ijv"))))
+            "0rihhvyphsv3xd9mshdvlbvddyqkfc527z7l929ymrvr3zy5qjad"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -109963,17 +109963,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220614.2113")
+    (version "20220924.1805")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "6c3314167bf15a99247acb4eb60827faea36f4dd")))
+                 "150c9dd740a2482c66b1e2687f19f6c46504efd2")))
         (sha256
           (base32
-            "1d9m8aji2nd38w1a39whbqsg1kpfjxkmi1xn6pyfkng5bzalfq40"))))
+            "0y59jm4ji6j1d4rrjjr8ajhym1xmlc7pb93fpmdfwqr06p11zndv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -110193,17 +110193,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20220924.1232")
+    (version "20220924.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "566dd054ff70d9bfe26d6db448fcf4cc9c0623f1")))
+                 "d441ae6b392597f0e01bc79292845c880d468b60")))
         (sha256
           (base32
-            "14qnyb8vjxlw0qz8bkbpylbjw29pjwkj9k50qi6lmggmlw8x448f"))))
+            "123h7wz2ql6cl6s0n6n18g4ssa0p1a90svx7zh9627w45q68qlbr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
