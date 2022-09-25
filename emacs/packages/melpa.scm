@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220923.1034")
+    (version "20220925.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "36c8cb289fa57e6eb6b90080548deadeb4fc7838")))
+                 "22af07264007bdfced9f332d04053d9d93806289")))
         (sha256
           (base32
-            "09ikiijvqvji3rn9vb7cr32d9ap7r1b73rmm3kmlv18120fp29kb"))))
+            "0yix3p0ynhd8ywcbfwk6kpj25lhf1p983bqmf1xg4im4fx4s3whb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -50279,17 +50279,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220920.1150")
+    (version "20220925.616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "0c12230b4f90118990a3449cbc220b3e13417387")))
+                 "f9e9a3816df0f8fd92db7fac489641bef63f4aa2")))
         (sha256
           (base32
-            "1hrwab6k4sa8f6x6wssl25lpbp214arb1k210xa788gshm40wqjv"))))
+            "03n0lmv5crf9pd0gnvdq83i30y5hycsld4rpig23pn54f74xl1si"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -68936,17 +68936,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20220920.1237")
+    (version "20220925.700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "2f86d2f456029c3ed9d8e5cd0ed2f3dd8cb3b862")))
+                 "17564feba8dd7adb39b402a743cbacd25d2f20d3")))
         (sha256
           (base32
-            "0zg8y62zi59v0p6hi9zq9ajc90q7qz439l7aaqr9rjwbmj91m5bk"))))
+            "1b3zn3ya4gp1rhml4wdp5cr376s0gymsn9ig8md0c1rb41ybq67c"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -85113,17 +85113,17 @@
 (define-public emacs-orgtbl-join
   (package
     (name "emacs-orgtbl-join")
-    (version "20220726.1235")
+    (version "20220925.1225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgtbljoin.git")
                (commit
-                 "4b09436de15545ce73dd40e938176a98254109f8")))
+                 "d4fbd6ec1161794f2d246625c77589b9fb9f2956")))
         (sha256
           (base32
-            "0k7z3d24k4nqz13xj0a7l79idar3kdl022r4jm3f9hjkxlddsbfk"))))
+            "0by1k0alijhn6w20bkibr7bd6i78n4whfygs78hkh2qv01dcrd04"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "join columns from another table")
@@ -100140,17 +100140,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220923.1411")
+    (version "20220925.1240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "17d49c734276fe112bf051492555c3c2ae4f2fea")))
+                 "a4b522c298b46ea36ed53622c0c01d5445a4de58")))
         (sha256
           (base32
-            "0n0hjj2inyl0kh0xkrmwrj5zfx85awba2aamrwz19irw17k1xyzz"))))
+            "0ypidcdcb5wkhdzfia3hpydh1jlb21vjlqkaf4bsmqnffkpf7b54"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -113353,17 +113353,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20220915.441")
+    (version "20220925.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "6d18db5e68d106b21c5c6a746bd262a8e8782a2c")))
+                 "00738cb725785cbd42978f944f8661c33b5d3fe5")))
         (sha256
           (base32
-            "0dcahb895wa66p7jzps7fnaaxjca3rg31hq8wrjc9f9fglz5ipvw"))))
+            "1nr1k92c0k7q0x7mgm0x23jyysc09mf967bmhyw6m4pdy1myc38x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
