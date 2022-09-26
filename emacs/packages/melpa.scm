@@ -2299,17 +2299,17 @@
 (define-public emacs-alectryon
   (package
     (name "emacs-alectryon")
-    (version "20211018.321")
+    (version "20220925.2236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cpitclaudel/alectryon.git")
                (commit
-                 "1bcc7c68abcd6471604c9b7fe7f85b0878bbd435")))
+                 "8a1f3054c97fc86d628413800cfef75577c43485")))
         (sha256
           (base32
-            "10kpdra8m015xsh7w25v18zd62csayji0p5jqgif20bw6g8g20a7"))))
+            "11nsa1jh3d3q848hdx8qrqkk427pilldkai119plv3rnmf2sqckc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (arguments '(#:files ("etc/elisp/*")))
@@ -12312,17 +12312,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220913.1718")
+    (version "20220925.2234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "60cc30e4aa6947a9a06db39a4198162fa5959f5e")))
+                 "219a69c519fa77ba609b05ac5dbcb9ae357d383b")))
         (sha256
           (base32
-            "124r0s9qc40d7hca7l37l4b40dcyd6vcliszp0cf5wc6g13m7n7k"))))
+            "02ay11a5nn7j1f3f3zjrsrp6j1hsyl1k58v8cx4mi5m73wbchc98"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220925.1606")
+    (version "20220926.556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "22af07264007bdfced9f332d04053d9d93806289")))
+                 "ae98a900dc146d7f1f8aca8393025d00af9644c5")))
         (sha256
           (base32
-            "0yix3p0ynhd8ywcbfwk6kpj25lhf1p983bqmf1xg4im4fx4s3whb"))))
+            "02dj3zpi5g3gygd9lqfklggds9jkrby6slv0s7iww7y7n8shb55l"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24145,17 +24145,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220924.1354")
+    (version "20220926.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "3e022a7a12a1a2e2fad0133b215266d73467ff31")))
+                 "4a2151738d87b6332019b74028e63d8f26fbc0ca")))
         (sha256
           (base32
-            "1b68c1bal7z56zg76i1lzmk2kylc75g49kq6i1f9gk5y71w888y1"))))
+            "04v0jgqv44ywgl68cs50xx6a5hkdm99qx84m0g8j5p24g9ya6pz8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -34799,7 +34799,7 @@
 (define-public emacs-exercism
   (package
     (name "emacs-exercism")
-    (version "20220920.1258")
+    (version "20220925.2219")
     (source
       (origin
         (method git-fetch)
@@ -34822,7 +34822,7 @@
     (home-page
       "https://github.com/anonimitoraf/exercism.el")
     (synopsis
-      "Emacs (unofficial) integration for https://exercism.org")
+      "Unofficial https://exercism.org integration")
     (description
       "Documentation at https://melpa.org/#/exercism")
     (license #f)))
@@ -41122,6 +41122,29 @@
       "Documentation at https://melpa.org/#/flymake-solidity")
     (license #f)))
 
+(define-public emacs-flymake-sqlfluff
+  (package
+    (name "emacs-flymake-sqlfluff")
+    (version "20220925.2144")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/erickgnavar/flymake-sqlfluff.git")
+               (commit
+                 "355944e7cc1b98e14b9cef71205f4c382fd524fc")))
+        (sha256
+          (base32
+            "1ch9hvnaij8594xal36a2j0raiwxnwkbxzh29rwk5vp55m08m8zp"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/erickgnavar/flymake-sqlfluff")
+    (synopsis
+      "A flymake plugin for SQL files using sqlfluff")
+    (description
+      "Documentation at https://melpa.org/#/flymake-sqlfluff")
+    (license #f)))
+
 (define-public emacs-flymake-swi-prolog
   (package
     (name "emacs-flymake-swi-prolog")
@@ -41808,17 +41831,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220925.1743")
+    (version "20220926.626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "c0c35056d981b32c97488fe441cf27cfe5faaaeb")))
+                 "938cc7be8e3c3bd14b681bab66e00e06308b56fc")))
         (sha256
           (base32
-            "1amchlp2fzqwqv0rfjrc7kjgvwmixdzicil0hyj7kmw4xbp7vjw8"))))
+            "0smsffjhj6f58dlrjy8d96x4mrn9lx6486hvmd7iwafjx7x8g5ql"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -41977,17 +42000,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20220909.1032")
+    (version "20220926.639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "48f79e894c04b0c73c6334194ee17d7f72046c83")))
+                 "8f40631f5fe04df4988ad4d1e75ebf925a6540d6")))
         (sha256
           (base32
-            "1ri9cbbd73g3a6wlmj8g4xx5vwfnxr2r7sdkr0c91yfihai51xg1"))))
+            "0k1x2y5z320yji12y6acqhw3401r5a7i6h1yyk0nhyjhd5px36xw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -49502,17 +49525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220924.1201")
+    (version "20220925.1921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "3c64aa842a7d382460cacc9d6fbe0e39d012b4f5")))
+                 "cdc5321591c0faae263cc25610229e64912e1a5d")))
         (sha256
           (base32
-            "0j0sfm8an38d9lfgaijrg8abjwz63qrmh4zq8vhrb572gam9kxn8"))))
+            "0rvja83vpnfa6y60k029qnibwpfvzp649b6csfh8srf7vl07dvzb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -53901,17 +53924,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20220919.540")
+    (version "20220925.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "db1e15b3783c83d9781a546f37b900ad53576659")))
+                 "3aa08da7a151f1928bf0e3d12fc2443b6485b6ef")))
         (sha256
           (base32
-            "0cxpm6b36bwd42gmah9ic7i74m25j232wag5s0v3m1bsqrk66ra4"))))
+            "062ym5662b83dxga30qgdvp7krq30m41m3qpj2n64jfimbyk1f56"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69041,17 +69064,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220919.1308")
+    (version "20220926.56")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "4ee691cd90a4975b31ba4f3f6fc3ae69a0b0eb62")))
+                 "ada7b21fcc90004d7ac1c5a42c0750e12c2a5ef8")))
         (sha256
           (base32
-            "0384yy53nfs91sqnhvb9gb9j265dszzz4c0g414f5cf0pj0jar5f"))))
+            "1nl5axpxv5srxyihkzsi1sqnb5r09fah9ppvsiw1ihgc6fh7a460"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -69083,17 +69106,17 @@
 (define-public emacs-magit-annex
   (package
     (name "emacs-magit-annex")
-    (version "20220302.1725")
+    (version "20220926.300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit-annex.git")
                (commit
-                 "efe484644666c6b7c544b0fb7b87e30703fa9425")))
+                 "a770f67ffdd4c03b729b4f4f7f61e5af406f73a7")))
         (sha256
           (base32
-            "1n2q9px8b3s3732a6yiz9gvfxbya7sa2qnxidzcn4gdp867l103c"))))
+            "14ddyhwp9jz6na743qjrz4m3ndpk3xb66k6569h9n2vsfyx064xx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -94839,17 +94862,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220919.421")
+    (version "20220926.332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "d1b28087e261814de5b3200629b023c403cb93d4")))
+                 "2598f3fffc02075323e31494bc89496978bda9ca")))
         (sha256
           (base32
-            "1izcw1gqh8j497qjm7zxijk7arlakicl8g5jadjbamxybcha1mlp"))))
+            "0lwigmrav65casg61rbxi5hf8zhamh110nia18bwmsrbk9gwcwcv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -107438,17 +107461,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20220922.1947")
+    (version "20220925.2308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "72bd263bc3171c5a2123441a4ed89ef9dbbfca02")))
+                 "20a1c9b36e99cbfbf70598e2cfaccd960e74c1ce")))
         (sha256
           (base32
-            "0v2v9fvwqgpxy9dnb2ymfga28rvxsxd5miby953qyjcbgrg7md47"))))
+            "1kz95vb6jbpkzs11mx623sj8xdf8n007vr9ix6wqvdsaqy158qkl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
