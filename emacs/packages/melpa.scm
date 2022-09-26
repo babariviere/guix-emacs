@@ -11065,7 +11065,7 @@
 (define-public emacs-cern-ldap
   (package
     (name "emacs-cern-ldap")
-    (version "20220830.1909")
+    (version "20220925.1550")
     (source
       (origin
         (method url-fetch)
@@ -11075,7 +11075,7 @@
                ".el"))
         (sha256
           (base32
-            "0dxys27hhcqd2g2q6wv5bnmvjlbpwjsplacnagcijzv3cwcbkhpm"))))
+            "1a98xj5sqcr7xh5prk7w1yi37adyly4qk4hwf8g2jn55vwqa1k2p"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~nbarrientos/cern-ldap.el")
@@ -12365,17 +12365,17 @@
 (define-public emacs-citar-org-roam
   (package
     (name "emacs-citar-org-roam")
-    (version "20220913.1114")
+    (version "20220925.1701")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar-org-roam.git")
                (commit
-                 "29688b89ac3bf78405fa0dce7e17965aa8fe0dff")))
+                 "4867479a5daaa8a86d918ad52bc7026213e38ce4")))
         (sha256
           (base32
-            "06xzsrb1ihadwysxpghhcpl315rrv8zrfay03jwzqmm4hyrxvz6i"))))
+            "1cl482v527h266ypc97k2bksvkv5x8nn7hqqksmhp928042zchy0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-citar))
@@ -22942,7 +22942,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220925.1447")
+    (version "20220925.1606")
     (source
       (origin
         (method git-fetch)
@@ -25030,17 +25030,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220910.1225")
+    (version "20220925.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "e5d427e4e63ca7b13960b5ad69893186ae3a9ceb")))
+                 "1f7d18aaec26993a122230590a7fa2d5c4c891f7")))
         (sha256
           (base32
-            "0b5yy09li1v57q8bbf19m51s1w69zj5vnkfds12sdvdlrra7zqr0"))))
+            "08q9dwwwhc14f5anppyxaga6ygawz754c7i8c8wh13cbzpqwb1n8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -34796,6 +34796,37 @@
       "Documentation at https://melpa.org/#/execline")
     (license #f)))
 
+(define-public emacs-exercism
+  (package
+    (name "emacs-exercism")
+    (version "20220920.1258")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/anonimitoraf/exercism.el.git")
+               (commit
+                 "980a8e9db6abd3b1637753ff310203285a136661")))
+        (sha256
+          (base32
+            "0bdd0q95gh4zf84d3bzpbdxyq6sr61p06pmgp18kkhi6l86jfrss"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-dash
+            emacs-a
+            emacs-s
+            emacs-request
+            emacs-async
+            emacs-async-await
+            emacs-persist))
+    (home-page
+      "https://github.com/anonimitoraf/exercism.el")
+    (synopsis
+      "Emacs (unofficial) integration for https://exercism.org")
+    (description
+      "Documentation at https://melpa.org/#/exercism")
+    (license #f)))
+
 (define-public emacs-exiftool
   (package
     (name "emacs-exiftool")
@@ -41777,17 +41808,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220923.1018")
+    (version "20220925.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "5df8659ef315882b90f84da2eb9adf95443b571c")))
+                 "c0c35056d981b32c97488fe441cf27cfe5faaaeb")))
         (sha256
           (base32
-            "0xm4l2kiy5j1pjjrja7791msb37fi26nabfhnacxaiagxksxlda5"))))
+            "1amchlp2fzqwqv0rfjrc7kjgvwmixdzicil0hyj7kmw4xbp7vjw8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -58114,6 +58145,30 @@
       "Documentation at https://melpa.org/#/inf-ruby")
     (license #f)))
 
+(define-public emacs-inferior-islisp
+  (package
+    (name "emacs-inferior-islisp")
+    (version "20220924.1040")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/sasanidas/islisp-mode.git")
+               (commit
+                 "bbf45d02495f9455e91beed01676178dfa5d3561")))
+        (sha256
+          (base32
+            "174zjlgcikaydgx5npsbwqblzc61pxnnpw50nia8jhh8175j2sbl"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-islisp-mode))
+    (arguments '(#:files ("inferior-islisp.el")))
+    (home-page
+      "https://gitlab.com/sasanidas/islisp-mode")
+    (synopsis "Run inferior ISLisp processes")
+    (description
+      "Documentation at https://melpa.org/#/inferior-islisp")
+    (license #f)))
+
 (define-public emacs-inflections
   (package
     (name "emacs-inflections")
@@ -59267,6 +59322,34 @@
       "Shorten URLs using the isgd.com shortener service")
     (description
       "Documentation at https://melpa.org/#/isgd")
+    (license #f)))
+
+(define-public emacs-islisp-mode
+  (package
+    (name "emacs-islisp-mode")
+    (version "20220924.1043")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/sasanidas/islisp-mode.git")
+               (commit
+                 "bbf45d02495f9455e91beed01676178dfa5d3561")))
+        (sha256
+          (base32
+            "174zjlgcikaydgx5npsbwqblzc61pxnnpw50nia8jhh8175j2sbl"))))
+    (build-system melpa-build-system)
+    (arguments
+      '(#:files
+        ("islisp-mode.el"
+         "islisp-hyperdraft.el"
+         ("advance" "advance/*")
+         ("implementations" "implementations/*"))))
+    (home-page
+      "https://gitlab.com/sasanidas/islisp-mode")
+    (synopsis "Major mode for ISLisp programming")
+    (description
+      "Documentation at https://melpa.org/#/islisp-mode")
     (license #f)))
 
 (define-public emacs-isortify
@@ -81301,6 +81384,28 @@
       "Documentation at https://melpa.org/#/org-cua-dwim")
     (license #f)))
 
+(define-public emacs-org-custom-cookies
+  (package
+    (name "emacs-org-custom-cookies")
+    (version "20220922.241")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/gsingh93/org-custom-cookies.git")
+               (commit
+                 "e7474cc839a750c37de93ab7b1ac65ed61f6fe95")))
+        (sha256
+          (base32
+            "1nxcl29dvnr85h407whxp3y1a8jmvh361z0hv2rb6wwycp4fbrr4"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/gsingh93/org-custom-cookies")
+    (synopsis "Custom cookies for org-mode")
+    (description
+      "Documentation at https://melpa.org/#/org-custom-cookies")
+    (license #f)))
+
 (define-public emacs-org-d20
   (package
     (name "emacs-org-d20")
@@ -100140,17 +100245,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220925.1240")
+    (version "20220925.1749")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "a4b522c298b46ea36ed53622c0c01d5445a4de58")))
+                 "ae8666474a74867f07c706d88ddb05e313b70126")))
         (sha256
           (base32
-            "0ypidcdcb5wkhdzfia3hpydh1jlb21vjlqkaf4bsmqnffkpf7b54"))))
+            "1kspr1xhkvijh1jj1xi396z8zh2jkvykv6453q4arrf9668941sz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
