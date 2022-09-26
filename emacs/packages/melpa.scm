@@ -10949,17 +10949,17 @@
 (define-public emacs-centaur-tabs
   (package
     (name "emacs-centaur-tabs")
-    (version "20220920.510")
+    (version "20220926.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ema2159/centaur-tabs.git")
                (commit
-                 "eac6522bb9c19c525770822d9f14b4d0ff07324c")))
+                 "7d9fad0daa44ffb2acecf6525759e46e08e35f2c")))
         (sha256
           (base32
-            "1z7b3s29xb0n25bfbbm1wrcap9dvig5zi5fcnvlyrl9si9565948"))))
+            "0la8fmwirspg7m453qhfb64sqryl59dxc1lfmjkh6mzf85nqbl1i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-powerline))
     (home-page
@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220926.556")
+    (version "20220926.1229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "ae98a900dc146d7f1f8aca8393025d00af9644c5")))
+                 "26766d608145a43a3602d165f88ec01eea1bca24")))
         (sha256
           (base32
-            "02dj3zpi5g3gygd9lqfklggds9jkrby6slv0s7iww7y7n8shb55l"))))
+            "1051l8bxrhycbd0ljiz26x6g0dyilydvhfiwd3mn8qdk9vl0czwg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -26622,17 +26622,17 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20220924.854")
+    (version "20220926.1235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "83052a5e61267a2e1c091c1bd4301ea81f1bc6d7")))
+                 "a49f620f53d00efe471dbceccc795329d6d40e5e")))
         (sha256
           (base32
-            "0irxjlfplmixshywsxpq7yknfy9g2m3dpky1mk6psxbk7h7swyyp"))))
+            "18vgyjagk8s37dm30pqra1xk12rg0nv9npmm2q9vb44r47kbr02l"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
     (synopsis
@@ -59588,17 +59588,17 @@
 (define-public emacs-ivy
   (package
     (name "emacs-ivy")
-    (version "20220915.1532")
+    (version "20220926.1250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "011653a8c0572202603458fa90f337a419fb88a6")))
+                 "29b61fe1f4d5268d750b666a7ffc1269e22c6477")))
         (sha256
           (base32
-            "16ci7d89kflw17h4f7kl9pmmj6gkdfqzjwspj6ckdgw18l4vlbqh"))))
+            "0ckpclxyrihyimpl9bcyql1gfsn1b7flr23asni1rzxzpq16nvn9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -69042,17 +69042,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20220925.700")
+    (version "20220926.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "17564feba8dd7adb39b402a743cbacd25d2f20d3")))
+                 "0ae427be02275054ec08cd6fc5259f38473120b3")))
         (sha256
           (base32
-            "1b3zn3ya4gp1rhml4wdp5cr376s0gymsn9ig8md0c1rb41ybq67c"))))
+            "068wylr06qq2mgpn786lb2jb4cfp28h8aqiqzdhnq1sdcrqmxb1c"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -112508,7 +112508,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220924.1242")
+    (version "20220926.936")
     (source
       (origin
         (method url-fetch)
@@ -112518,7 +112518,7 @@
                ".el"))
         (sha256
           (base32
-            "09s74jn4dx3nw27rmbamb177pr87hf3zc8d6qp570c2rjki8i8l6"))))
+            "06gb27q8v1asfk5xci3pj107m2hkjvf2y96ibb6k5l6y64y0wvsc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -120580,17 +120580,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220905.1652")
+    (version "20220926.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "9a84f457f6361ad29a14292a67ae510c784161d4")))
+                 "933b02832ca2e098f865d2080b9feb058afa008b")))
         (sha256
           (base32
-            "09dky9yaj674q5737623ipmwyqz8wqg801s3g1z49zya8y7784l4"))))
+            "12bc8jzay4l7wmw177l7x3h5yaf8gg3vzisbcvbfcn0x076765ll"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
