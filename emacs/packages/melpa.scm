@@ -5495,17 +5495,17 @@
 (define-public emacs-auto-yasnippet
   (package
     (name "emacs-auto-yasnippet")
-    (version "20191015.942")
+    (version "20220927.857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/auto-yasnippet.git")
                (commit
-                 "db9e0dd4335b2202cd5dac95bbbc87a1032d9bbe")))
+                 "f54fb424082a68f28d2b86707d9bd1cd506b2d9a")))
         (sha256
           (base32
-            "0az8pip0gsq5xqpfizcz4rmj5hmkvz1fdkg996k9qqacp17p2caj"))))
+            "1a80rcpqlfcmy2cscmjmyi281njy0jhcmlhbrs3m2qrz6180vzwv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (home-page
@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220926.1555")
+    (version "20220927.919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "26766d608145a43a3602d165f88ec01eea1bca24")))
+                 "2475e2ea79e1d0554c7144aa39ad0ab60241f386")))
         (sha256
           (base32
-            "1051l8bxrhycbd0ljiz26x6g0dyilydvhfiwd3mn8qdk9vl0czwg"))))
+            "1flk5cy0hn9msw3ms61k1ypa4hri68f9356wr63c0simmqna6hrc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -30430,17 +30430,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20220917.1359")
+    (version "20220927.1207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "01df3974f5bf08d0984619dbea4994e3863208f6")))
+                 "582759aa230e1de252f7b60711e38034769ab602")))
         (sha256
           (base32
-            "0zvybm76nqhpmbmhqj6l7nc3wv2wvi6jfwhj9qfz3ahki3cadsd6"))))
+            "1cgxqaif9azbmfi101alca1x728jm5l5dzly9fczamlbz587jaac"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql))
@@ -41831,17 +41831,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220926.2315")
+    (version "20220927.1224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "87d903142abbc10e466e3561182343ea805e2b20")))
+                 "2c9af7d57b5e78952d63543f65097601e95401b2")))
         (sha256
           (base32
-            "078035vf2hqrw0ppd73ghc68isi001zkmrpf55qlr0n5rx437qqb"))))
+            "1kmjai31rdyhd2lvscgj3xd3s17zzkqd6jwq7nrw106r3w6y70v9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -42000,17 +42000,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20220926.639")
+    (version "20220927.738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "8f40631f5fe04df4988ad4d1e75ebf925a6540d6")))
+                 "4d7a70aad7d63d8470eeffe55695bce251bfb54f")))
         (sha256
           (base32
-            "0k1x2y5z320yji12y6acqhw3401r5a7i6h1yyk0nhyjhd5px36xw"))))
+            "11wgd3jn78s7a32576x20nsqd3lrjbszw0h4v2vphnskjh2xhs7j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -49525,17 +49525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220925.1921")
+    (version "20220927.1039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cdc5321591c0faae263cc25610229e64912e1a5d")))
+                 "4b318710b4ba78131e12c8f0642533e96e8bc8fd")))
         (sha256
           (base32
-            "0rvja83vpnfa6y60k029qnibwpfvzp649b6csfh8srf7vl07dvzb"))))
+            "1kqzwiw7vgm3kvp1c1ml852nn59ywq67jsjlhd84i27q15hph8hc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -62312,7 +62312,7 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220927.423")
+    (version "20220927.704")
     (source
       (origin
         (method git-fetch)
@@ -73136,7 +73136,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220921.1323")
+    (version "20220927.1257")
     (source
       (origin
         (method url-fetch)
@@ -73146,7 +73146,7 @@
                ".tar"))
         (sha256
           (base32
-            "1p3ydpdgyxpirgn59v0g38i3ly3vlxmn0s3gpdnpx6r4jvn6cx8c"))))
+            "18d3q0fhfzhn0rgfyl7dl6npmb30dyim092c02f5axrxpchr7ry3"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -91950,17 +91950,17 @@
 (define-public emacs-popup
   (package
     (name "emacs-popup")
-    (version "20220910.1225")
+    (version "20220927.710")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/auto-complete/popup-el.git")
                (commit
-                 "66b840b6ded808974225501d2e672da7363579a6")))
+                 "20ce6cbd2f06423be35b3b700c698f0e109e880c")))
         (sha256
           (base32
-            "0alrzskhbi1mr3d33gq6ym546yfj7lsfai8xasxnbawb6w8akc4w"))))
+            "13ww7hld5pa32myj9krr6prmc99s7hnpsw8mw9krpxffykkblj2f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/auto-complete/popup-el")
@@ -94862,7 +94862,7 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220927.36")
+    (version "20220927.803")
     (source
       (origin
         (method git-fetch)
@@ -114102,17 +114102,17 @@
 (define-public emacs-tuareg
   (package
     (name "emacs-tuareg")
-    (version "20220719.148")
+    (version "20220927.1011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/tuareg.git")
                (commit
-                 "ad8a688b7e2aeeafc320a845f86cdd9aa7c971ce")))
+                 "760cdcd0e6ff2a6718728f249db81cd9df76a23a")))
         (sha256
           (base32
-            "0vma9ylyaxrl21a3g4vlzd9iqpwallchaar3p7v0dyp5cf8xxvfw"))))
+            "1wf78y9idpbv33120c9a3nip11vq22w1x2p7phca9d7ynr79dg7b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-caml))
     (home-page "https://github.com/ocaml/tuareg")
