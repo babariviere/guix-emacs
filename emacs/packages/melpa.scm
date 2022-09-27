@@ -16646,17 +16646,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220914.920")
+    (version "20220926.2046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "76aab86015c3d7628dbd5f92b2dd8ab9aeadac8d")))
+                 "2105d0bbace14f22a9e1864920af84e5f9c454d9")))
         (sha256
           (base32
-            "0wnsmn978ivf9vhis0by467q0fp4gprq169px41q4z4zaf6fcpjj"))))
+            "1a7jnbzccjzclcmrwswbihw6qcrpmq6gjjza6kv8jpvq4vbl4dlg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22942,7 +22942,7 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220926.1229")
+    (version "20220926.1555")
     (source
       (origin
         (method git-fetch)
@@ -24145,17 +24145,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220926.153")
+    (version "20220926.1716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "4a2151738d87b6332019b74028e63d8f26fbc0ca")))
+                 "aa0e2ddbaa5703d85a8ffea85979aa9a2db9eeb5")))
         (sha256
           (base32
-            "04v0jgqv44ywgl68cs50xx6a5hkdm99qx84m0g8j5p24g9ya6pz8"))))
+            "1v24hiqs4zbq613vanixgng9cx697di63jpafpmjlsripjfvk1qp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -32657,17 +32657,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220830.1232")
+    (version "20220926.1705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "26ec0cda1bcb899ae37086a1268a055484171519")))
+                 "dba2fa9907cf096f5e615df2e8b0381b643d47ee")))
         (sha256
           (base32
-            "1klh8zx0pmq4lca8c33714h1qczxp3wlqxaqdg31lawvg3cdm5hp"))))
+            "1adq6vq4bnql9f3a0bc58d33a3l7m649ix3nflw224v4094bbm5q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -32854,17 +32854,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20220810.1901")
+    (version "20220926.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "665d5c99e216c7b18856f7ceda7c91ea5669f904")))
+                 "f45f4ab142adc02582e88d18e8f7ac904802b4c1")))
         (sha256
           (base32
-            "0vmwd85vc6hcyfzg4zwhsilp6y0kmygnyfn02ham0b6gc2kakz23"))))
+            "04ak4hjg8dlzcx104lgmx66ip57z9vswhjhn2sx2b2sfyfhkbi6y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -41831,17 +41831,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220926.626")
+    (version "20220926.2315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "938cc7be8e3c3bd14b681bab66e00e06308b56fc")))
+                 "87d903142abbc10e466e3561182343ea805e2b20")))
         (sha256
           (base32
-            "0smsffjhj6f58dlrjy8d96x4mrn9lx6486hvmd7iwafjx7x8g5ql"))))
+            "078035vf2hqrw0ppd73ghc68isi001zkmrpf55qlr0n5rx437qqb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -48925,17 +48925,17 @@
 (define-public emacs-hammy
   (package
     (name "emacs-hammy")
-    (version "20220901.1102")
+    (version "20220926.1800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/hammy.el.git")
                (commit
-                 "bd51cfd903d00a3302542dc2a8a17fe8b4d48107")))
+                 "62d3262a60d0f6f07920919bb3c47b57cb11bab2")))
         (sha256
           (base32
-            "1vn0jzdkzjwvzmm824dgjdwhgfjpg4swsky61w2z9d57fl8p04an"))))
+            "0q9lz0pz501l2s5g5hcn62ii2xfma04csij1rc6k3wzv6gnx4ary"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -113529,17 +113529,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20220917.1219")
+    (version "20220926.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "e4bb236bd5cd7c077c2207b33d2699485c405536")))
+                 "20765acd38e00faa46a72b9a2cf63a7b451c6850")))
         (sha256
           (base32
-            "02g8w3xpkil724mwpk67x31gv16ahhj6slvcjbis3c16ni9m14ck"))))
+            "04wglc8lkw06hq9y9lsd3p5pwsc70cxx047da9v9hhdm2milggkn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
