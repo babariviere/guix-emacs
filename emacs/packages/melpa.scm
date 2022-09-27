@@ -2178,17 +2178,17 @@
 (define-public emacs-alan-mode
   (package
     (name "emacs-alan-mode")
-    (version "20220923.1554")
+    (version "20220927.529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alan-platform/AlanForEmacs.git")
                (commit
-                 "01466bf6451104e9e996d157f1258fe0e19e049f")))
+                 "b9ba4d0a789b1d13eedc58f6877d5fb08fed04df")))
         (sha256
           (base32
-            "1phpj6jbj8jbk90k3vi8y9m1faz3cxs3wkj2n17n5d2pmyjy77nb"))))
+            "1h7ahsjip2jnp9icq4m13sjn77k2cf0xpn75mnaagf987bd158nq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck emacs-s))
     (home-page
@@ -32226,17 +32226,17 @@
 (define-public emacs-ess-view-data
   (package
     (name "emacs-ess-view-data")
-    (version "20220920.1548")
+    (version "20220927.353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/ess-view-data.git")
                (commit
-                 "8f00579c79d12f359ce6aff828a7462c421c962d")))
+                 "1b48afef4dcc8fbaed1af98fade7f0df84bd6871")))
         (sha256
           (base32
-            "0ww9b8gzih3klaq490k8hyizx867drcsds6kn8hjfqlj8fl0vh9q"))))
+            "0nybmqj166a5qrhcn0a7mlwdwfijm8hgzizvd3lycycak3ixq6xf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ess emacs-csv-mode))
@@ -33450,17 +33450,17 @@
 (define-public emacs-evil-matchit
   (package
     (name "emacs-evil-matchit")
-    (version "20220608.1134")
+    (version "20220927.220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-matchit.git")
                (commit
-                 "271551560c3c8c066b29d335f781ff9b5aefe746")))
+                 "ec3dd819983b2d824142efddd46ef29b46a7c454")))
         (sha256
           (base32
-            "1vzpmr33smi1kgcrxj7jl8wvk1ffvy2bf6p6pki0r53lk03mf8fr"))))
+            "00yclv8fky3czwnp3qfvcbbadqagqzyf6cxq50vyhmvjhnf9xspi"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-matchit")
@@ -62312,17 +62312,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20220828.1436")
+    (version "20220927.423")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "ef72f073d783a26c008c9fb478f3d686b9e9ea1b")))
+                 "0e6fa5180447024c794cb8186c782c5cf28ae68e")))
         (sha256
           (base32
-            "0vwlc0q1mrrgfwvz753j2wx7krqxyw23bkhms6vjki921zq24fsb"))))
+            "0phzrwr90zl7hvmh7p0cgkhs1sj2zpk3hg4f2gf49ix3q7vbbwhl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -94862,17 +94862,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220926.332")
+    (version "20220927.36")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "2598f3fffc02075323e31494bc89496978bda9ca")))
+                 "1129a07aa45c71c8d6712b73f089e7addbce53db")))
         (sha256
           (base32
-            "0lwigmrav65casg61rbxi5hf8zhamh110nia18bwmsrbk9gwcwcv"))))
+            "180bkdl5zbsxi5q0fxr4p6676iblky9cd1qq9cxssbyzjpj1qpgq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -122168,17 +122168,17 @@
 (define-public emacs-yul-mode
   (package
     (name "emacs-yul-mode")
-    (version "20220911.1651")
+    (version "20220927.338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/taquangtrung/emacs-yul-mode.git")
                (commit
-                 "6d5a02ee18145d223a5b0bc46359f1938358b8d4")))
+                 "56cba05549873fcf1b66e304969011dc1a1ad228")))
         (sha256
           (base32
-            "064j7qlallg3wl5gxz94bg17v8qsmdbbv2f1l76h4zw5v4x14y0b"))))
+            "1wkmi6xi81z3ff872lpz1cpqbw2sj2844kwzhqhvir4w2lqr4ab5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/taquangtrung/emacs-yul-mode")
@@ -122280,17 +122280,17 @@
 (define-public emacs-zenburn-theme
   (package
     (name "emacs-zenburn-theme")
-    (version "20220823.442")
+    (version "20220927.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/zenburn-emacs.git")
                (commit
-                 "2db3a34f50ec4dd6e2cae92bab639ccfc742b3cc")))
+                 "4788de0bcfecf8faec69251decb9924492d008f3")))
         (sha256
           (base32
-            "1iqshfkf4xchymmf340bdh6vl555z50l2wd3r3g063gf03vxsr5a"))))
+            "0x52xmv6rhjss480sddj8hrsibmq4i06kra9m58hhv9pwyfvijdw"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bbatsov/zenburn-emacs")
