@@ -12365,17 +12365,17 @@
 (define-public emacs-citar-org-roam
   (package
     (name "emacs-citar-org-roam")
-    (version "20220925.1701")
+    (version "20220927.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar-org-roam.git")
                (commit
-                 "4867479a5daaa8a86d918ad52bc7026213e38ce4")))
+                 "27105d0a9578279560cd79cfad5871e7e603bc58")))
         (sha256
           (base32
-            "1cl482v527h266ypc97k2bksvkv5x8nn7hqqksmhp928042zchy0"))))
+            "192p4bfa49mj5iq70lazi828gzwd1z7dfmckg4xfmdsd58crygh3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-citar))
@@ -16646,17 +16646,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220926.2046")
+    (version "20220927.2136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "2105d0bbace14f22a9e1864920af84e5f9c454d9")))
+                 "fae2c56bdc6832af65b85a3f2111be32eb2e68b2")))
         (sha256
           (base32
-            "1a7jnbzccjzclcmrwswbihw6qcrpmq6gjjza6kv8jpvq4vbl4dlg"))))
+            "03w7zv0m8n47hggsr4x8z54mghh26mdpjq8fcj6vqiwfa8lsv3cs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -24145,17 +24145,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220926.1716")
+    (version "20220927.1819")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "aa0e2ddbaa5703d85a8ffea85979aa9a2db9eeb5")))
+                 "deca7aebc5013b2ece6454ba984447d15bd8c655")))
         (sha256
           (base32
-            "1v24hiqs4zbq613vanixgng9cx697di63jpafpmjlsripjfvk1qp"))))
+            "0vjvdqjisl0vs6ldg8ikhmcrkwnqvlfb2r68fhpwcxywx8jp004c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -45186,17 +45186,17 @@
 (define-public emacs-github-linguist
   (package
     (name "emacs-github-linguist")
-    (version "20220418.22")
+    (version "20220927.1353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/github-linguist.el.git")
                (commit
-                 "e1055cba19d82620a735e8e40d094b538e1f4d94")))
+                 "f8f28745542d7e4300d73c6bf006ce48b6657947")))
         (sha256
           (base32
-            "00abshhhm6pvzgwaqhw8g0gwfs915hpdnfh5bqxr9434a56hgkd2"))))
+            "0a5ibyg7hncwiavngzvivhf5sbhp3czsicyfy1rpfijmbjm4whyl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -58264,17 +58264,17 @@
 (define-public emacs-info-colors
   (package
     (name "emacs-info-colors")
-    (version "20200125.1447")
+    (version "20220927.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ubolonton/info-colors.git")
                (commit
-                 "47ee73cc19b1049eef32c9f3e264ea7ef2aaf8a5")))
+                 "2e237c301ba62f0e0286a27c1abe48c4c8441143")))
         (sha256
           (base32
-            "1zmiik1ba7xspbk2g8igr1rscxxzxpzjrzspxjcw9khw6z4iwr51"))))
+            "0di34jg2r8nlflxln5azaf2a409hr3pwl93x8jdkv070yqyrf69f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ubolonton/info-colors")
@@ -66073,17 +66073,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20220721.451")
+    (version "20220927.1631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "1b2dfa899409f4af2896fce6b9acbe98072abd59")))
+                 "cc7822b4ce006c3e0213b31de3ccaaafa48c8cef")))
         (sha256
           (base32
-            "1xxmvdgqfj3lv33vn4pw3rdrxjmqypf09hh5w1jr69xbyl2ahzzp"))))
+            "03rw0kfc13d5fl6di76m1wjmmxyvcpfafjglkp6ylgjnwsxb8vkp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
@@ -73684,17 +73684,17 @@
 (define-public emacs-mos-mode
   (package
     (name "emacs-mos-mode")
-    (version "20220828.847")
+    (version "20220927.1845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/themkat/mos-mode.git")
                (commit
-                 "d66b32bdc0e2b237bb8de8d6747d1f2d9352eac6")))
+                 "f336ca8b8191428eb7f23dcb8bea43e31b591d57")))
         (sha256
           (base32
-            "1i3dqsp88srgkaahn4sy5vrcksfhiw8x6argdvg9f44bg1sm66ia"))))
+            "1r4v0lpqr6px5224nr6y7fl59iygs4jhzsaysgl8pf0b9m15s5yv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -83710,17 +83710,17 @@
 (define-public emacs-org-roam-ui
   (package
     (name "emacs-org-roam-ui")
-    (version "20220803.1024")
+    (version "20220927.1434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-ui.git")
                (commit
-                 "c75fc7506ee7f03840a9a93ed9336d7ed24551aa")))
+                 "6bf6a5eecc1fa7ddbb1fcda85e08fe9c393f9298")))
         (sha256
           (base32
-            "0mkcd2622np8s5qz2zvx7lch6dc586xqmn6914gi4ym7nvklf3zy"))))
+            "0y2rpk2ncl18ymvvvqzjvy1d3kxi94ack6qxb8zp2p5jdx2n0ciw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -91950,7 +91950,7 @@
 (define-public emacs-popup
   (package
     (name "emacs-popup")
-    (version "20220927.710")
+    (version "20220927.1610")
     (source
       (origin
         (method git-fetch)
@@ -100268,17 +100268,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220925.1749")
+    (version "20220927.1438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "ae8666474a74867f07c706d88ddb05e313b70126")))
+                 "4c89ea72f7934efd9dd4a7d1a2f6ec47903e59bd")))
         (sha256
           (base32
-            "1kspr1xhkvijh1jj1xi396z8zh2jkvykv6453q4arrf9668941sz"))))
+            "1fxahxrd8x3nsmly33bjjcs0crxwkzss2788vnlq4zr44f7r7w7a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
