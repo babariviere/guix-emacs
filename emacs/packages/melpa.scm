@@ -2463,17 +2463,17 @@
 (define-public emacs-all-the-icons-dired
   (package
     (name "emacs-all-the-icons-dired")
-    (version "20220620.1939")
+    (version "20220929.1135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wyuenho/all-the-icons-dired.git")
                (commit
-                 "b5d3af1e47de09e6ac80d4d7fba516e6a3c38e26")))
+                 "4564bec6bd3fd02dd870e6d2cfed37fe38bbc93a")))
         (sha256
           (base32
-            "1a72ka2sfnn644kgz6ag8sz3j8dxkbmlyd5rv7fq9qwj7487n2yh"))))
+            "0mzsg4iga4p6n06chvpgmmmq0pqf2aqami1w3ds91k5n4s960qcp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220929.359")
+    (version "20220929.1153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "bba6d242dededbd6fb671f738b38f5f595098c04")))
+                 "70b050b5784eb221e101827d8c9c9ff337f5ce1c")))
         (sha256
           (base32
-            "0qg426wfn54mw0qsg7grrx23cl6ya31jaz0c30dsvhvv9gbipwhb"))))
+            "0r4m7z0j8zpzvl2g4kmizd296h9lj6p74d6gcm11m7cmz4s63y24"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -24145,17 +24145,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220928.1706")
+    (version "20220929.1051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "eb270035c132da650d638c204ee7273d98fc7747")))
+                 "b1fa6659b2487e6a7cf86c96f72b6b96f1715e50")))
         (sha256
           (base32
-            "0nmm3lm3wgncmwyrfyvxqv9z453farbb1iqhv3jhcs9wj3gl0f58"))))
+            "03i0hfmyfw5cq6l08lxgci8zz35rjvf1hg9hcp1mszqd1fzl2gjh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -27879,17 +27879,17 @@
 (define-public emacs-elfeed-goodies
   (package
     (name "emacs-elfeed-goodies")
-    (version "20220614.49")
+    (version "20220929.1136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/algernon/elfeed-goodies.git")
+               (url "https://github.com/jeetelongname/elfeed-goodies.git")
                (commit
-                 "c9d9cd196746add3010d74f43b5c9866562f39fb")))
+                 "ff9fa91e29c9cd06fdddedc1eabbdf4d3cb93e8c")))
         (sha256
           (base32
-            "1b80srhravjf791qlx42hmzlprzlf7p8faqn5cljh3nrrridivxn"))))
+            "1s7f21cw84qv59hj3bnsph68p3mhzvdcsl9v095787pcddc85s3b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-popwin
@@ -32657,17 +32657,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220928.1852")
+    (version "20220929.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "a8adc879addb71ef25741c70d4e6e1273b9f7620")))
+                 "0aaf5944db224f1d8948acac64e2b703ed151446")))
         (sha256
           (base32
-            "1b5vcadxc6s9gzym9ccnfssv0baqci5hb6ya0r6vzn8vkx0gbnpj"))))
+            "0b0frclfbh9k5igv5gdcgb9cwnwmnxcmkf5sgsmm8glrnvgblg1q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -41831,17 +41831,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20220927.1224")
+    (version "20220929.1246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "2c9af7d57b5e78952d63543f65097601e95401b2")))
+                 "22de9e71e0b7f831da4e4a756c75abcc73a02fad")))
         (sha256
           (base32
-            "1kmjai31rdyhd2lvscgj3xd3s17zzkqd6jwq7nrw106r3w6y70v9"))))
+            "12asqfhy6bmwg7k0iysvv1z85cvnyrwrl8bzbjrx7giwyy3rk30l"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -53877,17 +53877,17 @@
 (define-public emacs-help-find
   (package
     (name "emacs-help-find")
-    (version "20220513.1028")
+    (version "20220929.822")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/duncanburke/help-find.git")
                (commit
-                 "6dd61bbb6290e06e30c002c011da71e348ac045f")))
+                 "ef7266fc480367c12bff64817c875af940d0c9c0")))
         (sha256
           (base32
-            "00b4vbk3m0br5k2x9mqx1v58j7jpd4k1nln18s99ggxpmx5klk02"))))
+            "1m73capf6flcn8d8ykx13va0wvpcqkjj5isdf5wrlaxhayjc2s7r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -69533,17 +69533,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20220901.331")
+    (version "20220929.1014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "c1def981857614f737561ff38bac89fc19d4bc21")))
+                 "cfe5a1260bf19191adab837e90acc1004529a0c9")))
         (sha256
           (base32
-            "1vj7aksn1iwjnpji4r1h9z4sw4n3x66ln08pliy2665vy050qyms"))))
+            "04lfwy494bv1acmr9jhr4w46jrpi4hyjmg5wjsxf547vx666q6vd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -114101,17 +114101,17 @@
 (define-public emacs-tuareg
   (package
     (name "emacs-tuareg")
-    (version "20220928.833")
+    (version "20220929.1327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/tuareg.git")
                (commit
-                 "9447a6a5b24445601f6c6d734410f02f9e408c8e")))
+                 "53ce2fdfdd372d52f3a6547c33b687e7d403357a")))
         (sha256
           (base32
-            "12ili8f39ks59wnj1n090fsgkcmarvz6sa8llbzzq67c9mhssc75"))))
+            "1pxw5cy1zxw10vqk0mgfjvi26sq50naf22irdv701dwnqdp6j5yy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-caml))
     (home-page "https://github.com/ocaml/tuareg")
