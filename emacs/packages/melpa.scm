@@ -4303,17 +4303,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20220922.1622")
+    (version "20220928.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "dbac40131f6644bf80fd27581b62361e743fb4a8")))
+                 "53addd02fbad33765f508f8e6254ebd44e1f81e5")))
         (sha256
           (base32
-            "04vx7a7rs8klfadafdik5x917zkz5hjbj9ckks6afq2d73pcj8lm"))))
+            "18pysi1pf6hbv6w0nq50j5xclvgd006iqqijh44wck9hxhdwyfr1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -24145,17 +24145,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220928.221")
+    (version "20220928.1706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "e2c062e650179c954119ba537f138818a177763b")))
+                 "eb270035c132da650d638c204ee7273d98fc7747")))
         (sha256
           (base32
-            "0icl1qrqgsp9xdxb3qzfw05j208x3zlqfz8yicak01f9w9qbcs8q"))))
+            "0nmm3lm3wgncmwyrfyvxqv9z453farbb1iqhv3jhcs9wj3gl0f58"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -25030,17 +25030,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220925.1834")
+    (version "20220928.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "1f7d18aaec26993a122230590a7fa2d5c4c891f7")))
+                 "6f599480be69437171fb4e9d58fd29b20731096f")))
         (sha256
           (base32
-            "08q9dwwwhc14f5anppyxaga6ygawz754c7i8c8wh13cbzpqwb1n8"))))
+            "0qr50ivwgbpygp9kscm6h71jjys06s2jib1k8q35xahaah4dbrkf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -32657,17 +32657,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20220926.1705")
+    (version "20220928.1852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "dba2fa9907cf096f5e615df2e8b0381b643d47ee")))
+                 "a8adc879addb71ef25741c70d4e6e1273b9f7620")))
         (sha256
           (base32
-            "1adq6vq4bnql9f3a0bc58d33a3l7m649ix3nflw224v4094bbm5q"))))
+            "1b5vcadxc6s9gzym9ccnfssv0baqci5hb6ya0r6vzn8vkx0gbnpj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -45186,17 +45186,17 @@
 (define-public emacs-github-linguist
   (package
     (name "emacs-github-linguist")
-    (version "20220927.1353")
+    (version "20220928.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/github-linguist.el.git")
                (commit
-                 "f8f28745542d7e4300d73c6bf006ce48b6657947")))
+                 "73f9f52e1f626e866d8becc7a3671630449764c2")))
         (sha256
           (base32
-            "0a5ibyg7hncwiavngzvivhf5sbhp3czsicyfy1rpfijmbjm4whyl"))))
+            "0vsab3jwkck9l42j22j2ndcj6njqbi516z7ayhlnv2z10ifjwfp7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -49525,17 +49525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220927.1039")
+    (version "20220928.1917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "4b318710b4ba78131e12c8f0642533e96e8bc8fd")))
+                 "0a9a1e32cf130d181b26e23919402c8c25f41996")))
         (sha256
           (base32
-            "1kqzwiw7vgm3kvp1c1ml852nn59ywq67jsjlhd84i27q15hph8hc"))))
+            "1i8hbdp5sg99h3imqydk4wd7mqsa04113yavk5sx1wgc17jm1l42"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50333,17 +50333,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220925.616")
+    (version "20220928.1917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "f9e9a3816df0f8fd92db7fac489641bef63f4aa2")))
+                 "0a9a1e32cf130d181b26e23919402c8c25f41996")))
         (sha256
           (base32
-            "03n0lmv5crf9pd0gnvdq83i30y5hycsld4rpig23pn54f74xl1si"))))
+            "1i8hbdp5sg99h3imqydk4wd7mqsa04113yavk5sx1wgc17jm1l42"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -85197,17 +85197,17 @@
 (define-public emacs-orgtbl-aggregate
   (package
     (name "emacs-orgtbl-aggregate")
-    (version "20220924.1614")
+    (version "20220928.1944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgaggregate.git")
                (commit
-                 "1108c49e225ece81e00e547424d10d7a5b6ba9be")))
+                 "068973339af3714ea015501f0fcc35014f255c1a")))
         (sha256
           (base32
-            "0rihhvyphsv3xd9mshdvlbvddyqkfc527z7l929ymrvr3zy5qjad"))))
+            "03h0g2pr1yxbvvp7bj0k00p16dp3g5h4jgqjp28d4pllcpfwspmy"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -85241,17 +85241,17 @@
 (define-public emacs-orgtbl-join
   (package
     (name "emacs-orgtbl-join")
-    (version "20220925.1225")
+    (version "20220928.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgtbljoin.git")
                (commit
-                 "d4fbd6ec1161794f2d246625c77589b9fb9f2956")))
+                 "8ce207b7100dc9cde071099b56cebb87924aaafd")))
         (sha256
           (base32
-            "0by1k0alijhn6w20bkibr7bd6i78n4whfygs78hkh2qv01dcrd04"))))
+            "07mp1kgp9jkajs1lwwzl051gaygi8wqmnkp52pddw4xfcni9i6va"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "join columns from another table")
@@ -112508,7 +112508,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220926.936")
+    (version "20220928.1823")
     (source
       (origin
         (method url-fetch)
@@ -112518,10 +112518,9 @@
                ".el"))
         (sha256
           (base32
-            "06gb27q8v1asfk5xci3pj107m2hkjvf2y96ibb6k5l6y64y0wvsc"))))
+            "145cwza4awczl24s73l3ihk6xr33l6qli1cplf4iwrvjp0v5abqi"))))
     (build-system melpa-build-system)
-    (home-page
-      "https://github.com/topikettunen/tok-theme")
+    (home-page "https://git.sr.ht/~tok/tok-theme")
     (synopsis "Comfy dark monochromatic theme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
