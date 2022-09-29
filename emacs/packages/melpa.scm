@@ -16646,17 +16646,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220927.2136")
+    (version "20220929.5")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "fae2c56bdc6832af65b85a3f2111be32eb2e68b2")))
+                 "b8b26c4c1400d4a6c57b1333002a1b271cbc2c15")))
         (sha256
           (base32
-            "03w7zv0m8n47hggsr4x8z54mghh26mdpjq8fcj6vqiwfa8lsv3cs"))))
+            "0ircdfhihd7yqlvc4kab57bnmgh6rwi5fd0zjv4bkamyi8cc339q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220928.1242")
+    (version "20220929.359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "39806bcb67af2a40585901a2d0c9758d825419e0")))
+                 "bba6d242dededbd6fb671f738b38f5f595098c04")))
         (sha256
           (base32
-            "09g5gbkgir19597nh68qh77prci8xf41m98wvpabwh00snzz86vz"))))
+            "0qg426wfn54mw0qsg7grrx23cl6ya31jaz0c30dsvhvv9gbipwhb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -39911,17 +39911,17 @@
 (define-public emacs-flycheck-vale
   (package
     (name "emacs-flycheck-vale")
-    (version "20190609.1533")
+    (version "20220929.608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abingham/flycheck-vale.git")
                (commit
-                 "f08249535348d046d0974b9c20fe1b7dd3cd2660")))
+                 "7c7ebc3de058a321cb76348a01f45f02dc55d2f0")))
         (sha256
           (base32
-            "0xjaxckl5rajlxq9a4c9n8l4605n2xkkyd2sdj38kd9w9a428wvz"))))
+            "086b2ljx3n2jpjm2vl7p0mnjbhx3v45kjrxd5y7q4ilhi29g5cpf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -73136,7 +73136,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220927.1257")
+    (version "20220929.515")
     (source
       (origin
         (method url-fetch)
@@ -73146,7 +73146,7 @@
                ".tar"))
         (sha256
           (base32
-            "18d3q0fhfzhn0rgfyl7dl6npmb30dyim092c02f5axrxpchr7ry3"))))
+            "0qahhzjgx4wdwlhk4g842x76w2cr4y57qb1hpcarvqqi3d3h9vz9"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -121812,7 +121812,7 @@
 (define-public emacs-yatex
   (package
     (name "emacs-yatex")
-    (version "20220924.325")
+    (version "20220929.123")
     (source
       (origin
         (method url-fetch)
@@ -121822,7 +121822,7 @@
                ".tar"))
         (sha256
           (base32
-            "09k3xh0yk17z5qx55qlv9g7szp4wdq1hcgzhj0i59v0hx9gjwqp0"))))
+            "1qrz4r14h09jvfzsmpvg92fxal7haq8mf2nn63291qr3mcr4135x"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
