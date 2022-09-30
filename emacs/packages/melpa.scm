@@ -358,17 +358,17 @@
 (define-public emacs-aas
   (package
     (name "emacs-aas")
-    (version "20220426.2058")
+    (version "20220930.52")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymarco/auto-activating-snippets.git")
                (commit
-                 "566944e3b336c29d3ac11cd739a954c9d112f3fb")))
+                 "e92b5cffa4e87c221c24f3e72ae33959e1ec2b68")))
         (sha256
           (base32
-            "0walpgv18gx11hvij1mf9hgsd1x40rhccbzsnwsh86lka1g3na34"))))
+            "1nl7wm4l30hjcbqrvdci66aa6ax32ih46n58q3imc46z8c6rhqxh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ymarco/auto-activating-snippets")
@@ -2416,7 +2416,7 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220929.2235")
+    (version "20220929.2303")
     (source
       (origin
         (method git-fetch)
@@ -16646,7 +16646,7 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220929.2226")
+    (version "20220929.2330")
     (source
       (origin
         (method git-fetch)
@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220929.1153")
+    (version "20220930.401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "70b050b5784eb221e101827d8c9c9ff337f5ce1c")))
+                 "287cc15ef57393bafd272d556c5a08d11dd9d48b")))
         (sha256
           (base32
-            "0r4m7z0j8zpzvl2g4kmizd296h9lj6p74d6gcm11m7cmz4s63y24"))))
+            "1r3yq2m32hs8mr4lnhl5szyxzxma2yk3qsj8lcsxzl12a589pch3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -49369,17 +49369,17 @@
 (define-public emacs-haxe-mode
   (package
     (name "emacs-haxe-mode")
-    (version "20210108.1835")
+    (version "20220930.251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/haxe-mode.git")
                (commit
-                 "6057c05154464bfb88d2ba119cdc8d4c7e767541")))
+                 "4d51bd4bf75aef53d1671e22ce6555e4daf883db")))
         (sha256
           (base32
-            "0z1lpsvmkcxs3gcxkmi1vjgfa7wdfa42cp2i9rl2i17jq34j37yb"))))
+            "0dfjr6k0w996ygds0d5w0msx83bincvwnmmwaq8sxhdi3rnx26r2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/haxe-mode")
@@ -55055,7 +55055,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20220911.920")
+    (version "20220929.2350")
     (source
       (origin
         (method url-fetch)
@@ -55065,7 +55065,7 @@
                ".tar"))
         (sha256
           (base32
-            "07dcqpk161403q1z9339g0vhz5whwr6fgp9jj05ndblf30m7hdq4"))))
+            "0hz7a5hkyzgvwcj9s00h4xlz8q9nnkrggkpahxm2zb2199n6gv98"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
@@ -71431,17 +71431,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20220920.45")
+    (version "20220930.15")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "c3f291ad289769fc9a3b2745a5e9969af6322d0c")))
+                 "dae2baa8228ee0a5cb37c6707057160c57bfe5f2")))
         (sha256
           (base32
-            "0059jwhdxl4pi90c8rsxidy4ya5ixcxly1iblbbbk58rwfy28ck4"))))
+            "08zpgaihsza69n6wnx4va3qjnh0bica477xshf7klyp6w13akr3k"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -84235,17 +84235,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220928.1506")
+    (version "20220930.226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "bd91ba0cd57b8394b2ae970f6a110756f7a913b2")))
+                 "0f7ad29dfa2b96cd1fe827d77dbd90603b57f5b9")))
         (sha256
           (base32
-            "1gnvzn27yqk8x511d4a82ji64pn0imm5d5bl27a4x8k4805i63kd"))))
+            "0cx60vi45rd263f0dwvw80flq6d0nrw83s4qs8xkby16zyim54v2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -92947,17 +92947,17 @@
 (define-public emacs-private-comments-mode
   (package
     (name "emacs-private-comments-mode")
-    (version "20220929.1621")
+    (version "20220929.1807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/masukomi/private-comments-mode.git")
                (commit
-                 "f6b50774cd4403b047ea137af4f019b09fa2f71b")))
+                 "d625af361c6f23d3ad79c238721ea04ec3768d18")))
         (sha256
           (base32
-            "02rsg8n03qqvmxc86vc3ba77hz8bj2bhz4fgnzmxjpmhg0qwan5r"))))
+            "05j5ll50j6hc0850cd6fim3ka1kazizg1pxxwf3qgl748259ww20"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/masukomi/private-comments-mode")
