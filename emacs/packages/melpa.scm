@@ -2416,17 +2416,17 @@
 (define-public emacs-all-the-icons
   (package
     (name "emacs-all-the-icons")
-    (version "20220823.1719")
+    (version "20220929.2235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/domtronn/all-the-icons.el.git")
                (commit
-                 "4a4d6269b8b85b0b15954f063e6ce378630d80c0")))
+                 "51bf77da1ebc3c199dfc11f54c0dce67559f5f40")))
         (sha256
           (base32
-            "0y1dpxv8hha8pcxssayy0gaa7jd15ad0hwpmpixg164xzjn0cnb6"))))
+            "1idzamhpfgcdiwap20s3cc258kawxa1k46c4s79xslfbdqy0abdy"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -10312,17 +10312,17 @@
 (define-public emacs-cardano-tx
   (package
     (name "emacs-cardano-tx")
-    (version "20220906.1126")
+    (version "20220929.1312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "2d414d39b4824bf4de97b98f130da24c70ca916e")))
+                 "cecfd85442e541782e095414cffecd0d92adce60")))
         (sha256
           (base32
-            "0ap82dyvzv19w89xinxfqq2ixsr8yrg3wq9lraxy87m6djjhlcy0"))))
+            "0w72w773jpnli922bmh4g6gy8in1bdzsh3dp9i3lh9lnqjzcqkli"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -16646,17 +16646,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220929.5")
+    (version "20220929.2226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "b8b26c4c1400d4a6c57b1333002a1b271cbc2c15")))
+                 "0142e7b5d268eeb8746316e5680424d63320ada3")))
         (sha256
           (base32
-            "0ircdfhihd7yqlvc4kab57bnmgh6rwi5fd0zjv4bkamyi8cc339q"))))
+            "1x9kai43nxb9frbw6aqzr5rbz07lcnf5y9sr45hnx4bhn1c35kgf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16932,17 +16932,17 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20220513.1647")
+    (version "20220929.2111")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/jao/consult-notmuch.git")
-               (commit
-                 "4138855cddee0ef126cff6a5fc5ca9c49fd2682d")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/consult-notmuch-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1wqp0pp408bxywxzq3gk1hk5vr19k4vsz5b979b4gbk89i1gxamb"))))
+            "0v2mb1hayjh71jdbwljq4gikc3yx00lillb8yy59rlnbf0fzvs7l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-notmuch))
@@ -21335,17 +21335,17 @@
 (define-public emacs-diary-manager
   (package
     (name "emacs-diary-manager")
-    (version "20220508.128")
+    (version "20220929.2042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/diary-manager.git")
                (commit
-                 "c538504e606208fa902d040e54188072df6193d0")))
+                 "56c739224e5bb845d275bfe3f4e420285de3a929")))
         (sha256
           (base32
-            "1j10wl00mgfpw3554jngkmn44z4s28m5qvw3lg0zgca50xkjnyqa"))))
+            "1248xyb9rmlf07ag7hnvcisgljvacia72s9l0grihjfa3mrlmdks"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/radian-software/diary-manager")
@@ -24145,17 +24145,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20220929.1051")
+    (version "20220929.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "b1fa6659b2487e6a7cf86c96f72b6b96f1715e50")))
+                 "d39de4d9f042fa838e07c0d11979e2f5169c848f")))
         (sha256
           (base32
-            "03i0hfmyfw5cq6l08lxgci8zz35rjvf1hg9hcp1mszqd1fzl2gjh"))))
+            "12pqbkhpkdps36clc3rl2pv0wzs5fmrzsyi2ymizfcwg2clyv6bi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -63362,17 +63362,17 @@
 (define-public emacs-keymap-utils
   (package
     (name "emacs-keymap-utils")
-    (version "20220422.1612")
+    (version "20220918.2243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/keymap-utils.git")
                (commit
-                 "0fd91fef890fb4c18c552e5ecaddd53c9bdac2bd")))
+                 "e4ef3c5fb46b1f749c9d838d2eba709e164402e2")))
         (sha256
           (base32
-            "1qhl8zq0b8qzanglw2j1c7ll4ifryvjmf3z4y9c22pfr5xf187c2"))))
+            "19vf6rmydf0ayns9cllj2skq79xjfdn343csijmy3vb6hp3zq869"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -83564,17 +83564,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220831.1033")
+    (version "20220929.1630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "9b14ffbbdf0c08f3ea15fd4825522f5cd856d9a7")))
+                 "0b0f653ab6b3f27a578eee5ab32134f5eb97a3cb")))
         (sha256
           (base32
-            "0v566plqyl82hjd26l38x6vxbw8l6ib9b5v9i0zggkqrahv1x91p"))))
+            "18307yr2807rfksv06q1y63w0d7wdcgfkyb2kv585apxsl7vd862"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -84662,17 +84662,17 @@
 (define-public emacs-org-visibility
   (package
     (name "emacs-org-visibility")
-    (version "20220710.1747")
+    (version "20220929.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nullman/emacs-org-visibility.git")
                (commit
-                 "24aee13a956bc1cff72f8b04f47e7d9ec01bb3b3")))
+                 "afa4b6f8ff274df87eb11f1afd0321084a45a2ab")))
         (sha256
           (base32
-            "1b7afdiagnf9biw0px7qc6ayjbbhy5z2gwl7g1whb3h5hvrri4j5"))))
+            "125db5gyyc4xyrr0n06ch5rrai3zcxbr3rm3i3b5gyki8wjw0ydk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nullman/emacs-org-visibility")
@@ -89397,21 +89397,21 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20130731.2142")
+    (version "20220927.1220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/cbbrowne/pg.el.git")
+               (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "4f6516ec3946d95dcef49abb6703cc89ecb5183d")))
+                 "0ab3af7f46784ffc33efabf12989f9d435c4c0ec")))
         (sha256
           (base32
-            "1zh7v4nnpzvbi8yj1ynlqlawk5bmlxi6s80b5f2y7hkdqb5q26k0"))))
+            "0phbidyd2j2m3csdrl0grbclvrkqmpa6zny2im6mpy3ar9ihgx2y"))))
     (build-system melpa-build-system)
-    (home-page "unspecified")
+    (home-page "https://github.com/emarsden/pg-el")
     (synopsis
-      "Emacs Lisp interface to the PostgreSQL RDBMS")
+      "Emacs Lisp socket-level interface to the PostgreSQL RDBMS")
     (description
       "Documentation at https://melpa.org/#/pg")
     (license #f)))
@@ -92947,17 +92947,17 @@
 (define-public emacs-private-comments-mode
   (package
     (name "emacs-private-comments-mode")
-    (version "20220330.1316")
+    (version "20220929.1621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/masukomi/private-comments-mode.git")
                (commit
-                 "57eb1ba3812e44344b7d5336c3a3ad14a28e4f9e")))
+                 "f6b50774cd4403b047ea137af4f019b09fa2f71b")))
         (sha256
           (base32
-            "0m5qksmzbjwzv10n7hb3v8sa6zab4kp2w7ayv2g7fc94cm1aljz2"))))
+            "02rsg8n03qqvmxc86vc3ba77hz8bj2bhz4fgnzmxjpmhg0qwan5r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/masukomi/private-comments-mode")
