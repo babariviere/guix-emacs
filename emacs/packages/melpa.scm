@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20220930.918")
+    (version "20221001.426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "fb40a7f9e3c4646538cb2aff6702cb7f10fbc2ba")))
+                 "252764fe5f974d32835d20dedf08265df05ad8b2")))
         (sha256
           (base32
-            "1l9xh0jj5afvlip56wagp0f60nlgxlydd9qnh94vix0p0m57m7q8"))))
+            "1p4jrqsh2m7h7vzw4jvl7ll89smi60pfa0fy98wfj2a92dx9ha24"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -34799,17 +34799,17 @@
 (define-public emacs-exercism
   (package
     (name "emacs-exercism")
-    (version "20220925.2219")
+    (version "20221001.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/anonimitoraf/exercism.el.git")
                (commit
-                 "980a8e9db6abd3b1637753ff310203285a136661")))
+                 "44dca0c889ac605777257ec3db442263772bb2c6")))
         (sha256
           (base32
-            "0bdd0q95gh4zf84d3bzpbdxyq6sr61p06pmgp18kkhi6l86jfrss"))))
+            "1nzjfbyl0n4h9h9rrb037i65xd6j22ymvhb5irmrqvxbb2fvfs7w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -48222,17 +48222,17 @@
 (define-public emacs-grugru
   (package
     (name "emacs-grugru")
-    (version "20211119.815")
+    (version "20221001.1525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/grugru.git")
                (commit
-                 "1b3b807e84cb250f0cc70876a438fed3b27eb756")))
+                 "d03ccd6314d474f3e6beadc69c0b6ce32af62f07")))
         (sha256
           (base32
-            "1p99lrq6p6xyn9lc2zmf68ns70kayhri1xls0h1h6ibxsqzvxyac"))))
+            "1s5xig6pbkbnb0xn7rp3a02ig0pzdwxqj54f3bjda0c37ch0l1cj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ROCKTAKEY/grugru")
     (synopsis "Rotate text at point")
@@ -68082,17 +68082,17 @@
 (define-public emacs-lsp-latex
   (package
     (name "emacs-lsp-latex")
-    (version "20210815.1426")
+    (version "20221001.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/lsp-latex.git")
                (commit
-                 "3f6b2ac9585682828eef81f895757f74cfba7309")))
+                 "3c327368e51861006d08d60671010e2e77e3ac6d")))
         (sha256
           (base32
-            "0da1fyw0h95hzjippqng9h68kykd0610a074wp4cwlsa4xffhjji"))))
+            "0xhqin2zn80l6q8vgnns4xf4885xzm59jpikscmp8p8xc9xskn1g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -68160,17 +68160,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20220930.1031")
+    (version "20221001.846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "62a39447e03dc1d79c02e681c596e74ff4dde1e2")))
+                 "a5bb8deaa1bfa03ee94b563cd1b030676931a7df")))
         (sha256
           (base32
-            "11fdvcwalggvkg09sdryqv2aawwa05rc707fz63z9kaxdvsj4kpm"))))
+            "1rcqjk6fj0a7plnlb41ci26041r6w3lfkb2ifwb5fgdfg5r7cqiz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73136,7 +73136,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20220929.515")
+    (version "20221001.752")
     (source
       (origin
         (method url-fetch)
@@ -73146,7 +73146,7 @@
                ".tar"))
         (sha256
           (base32
-            "0qahhzjgx4wdwlhk4g842x76w2cr4y57qb1hpcarvqqi3d3h9vz9"))))
+            "0z7br3zr90hssm8v5crzg6gpik5yrj8j8i6pasjawkmz0afbyhg1"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -89397,17 +89397,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20220930.729")
+    (version "20221001.1001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "1f4542a9b0c1ffb5e8886600753c897b76c2b779")))
+                 "a5042f0ee1c32e54a19e02e4a8a1d9fa755a15c5")))
         (sha256
           (base32
-            "17zia3ddzvnn0ij5srl2i8xc6h2wx5dj1ckn0nak12c813r01v0d"))))
+            "14hcpy3xkb2lbq3p55bzq04dbn5crd48pw3akqzm8wnwkmahg56n"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -92575,17 +92575,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20220911.138")
+    (version "20221001.127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "928cc72ec3dca8e9a60d356b9b8ce896ec5ff621")))
+                 "a86b71431002f7c7be6ea86f6f2694d206564b13")))
         (sha256
           (base32
-            "1hyn000z6xy5cb2k7h8xairxvhlhk2pcc1rqabwg76jlh8qbr24w"))))
+            "1hxfilsd8bia4zn2gzsfzpll39bb980z4j76wqh4ry69nx84w2gf"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
