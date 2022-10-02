@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20221001.426")
+    (version "20221002.523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "252764fe5f974d32835d20dedf08265df05ad8b2")))
+                 "4f636bff011fbfbeb43ec66ae6af816d73d961e5")))
         (sha256
           (base32
-            "1p4jrqsh2m7h7vzw4jvl7ll89smi60pfa0fy98wfj2a92dx9ha24"))))
+            "1wg7h9lmhf7rm9hn3w79cfzpm0fqnx4ir9qcmklzqzm0kx18l272"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -33660,17 +33660,17 @@
 (define-public emacs-evil-org
   (package
     (name "emacs-evil-org")
-    (version "20220227.1024")
+    (version "20221001.2335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Somelauw/evil-org-mode.git")
                (commit
-                 "0d10ff7bb9a3a93d25cd91018b17f0a052b335f3")))
+                 "b1f309726b1326e1a103742524ec331789f2bf94")))
         (sha256
           (base32
-            "15g47xgpswzc8lz7qdbbzfcq1n9m4474qa2jkg43l8d5ali8qa7z"))))
+            "1xjmar7zny1g62881ym2dpp3f0cmwh8y8d14phja8y4w6nhiz3s4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -71269,17 +71269,17 @@
 (define-public emacs-melancholy-theme
   (package
     (name "emacs-melancholy-theme")
-    (version "20220909.2250")
+    (version "20221002.50")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/baaash/melancholy-theme.git")
                (commit
-                 "f009efc4388e46ead770ce5330f1f1493463f252")))
+                 "e6797ffb50251f89568b1b9a9fd1904953c6b07f")))
         (sha256
           (base32
-            "0iyj4p28v1d2japbq0n1kjgnxc118r63wp2l8dh84749x9ks2n11"))))
+            "0y6p9r7m7ivfash6n8rb28n2azc6k60cv1b7sbbh5f255hsrj2fa"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/baaash/melancholy-theme")
@@ -79512,17 +79512,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20220910.2033")
+    (version "20221002.553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "148874a4778635079525589fdb4136ba314da801")))
+                 "e1eeb03066f1d54157de87b629a544ebaa63f71d")))
         (sha256
           (base32
-            "1qk81pzk9k48cdpkpwh871ilay3jg2c4xjxgvgqvk3115ac2m1bh"))))
+            "0l741jwnkh50vf4p94ykvyaw5kwk3qfdln8ra0dsi92srhagr4i1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -89818,17 +89818,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20220917.1904")
+    (version "20221002.328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "6513efaf6fd062aaa5ed542a710394553fe1c4e1")))
+                 "7e4905a6e98c275d259a1e899b79d78b6b4cca2a")))
         (sha256
           (base32
-            "1dpv03sgnxhzjh2xi5r5krdxvilzwglllvczn4l715rjx92f55iy"))))
+            "1ns9qqxav1kchal76am6nsaav1jax6p1y9v21cnynpzbh3cq06qw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
