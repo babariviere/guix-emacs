@@ -16646,17 +16646,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20220930.2231")
+    (version "20221001.1918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "af11b72f628c1ff0b051bb4180bfdb7833d64e40")))
+                 "11857fdec772b24a7e83fe9a9f494bcdfd2707f7")))
         (sha256
           (base32
-            "0fmaxga2xws2xnxfxrqkvjacba1a1y6811s2m6bibfcm8iyldpyk"))))
+            "111hsah2ambvi66prwhiqrsxcyg6gin9r9yjr3w6h37hy4kkshnh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16740,17 +16740,17 @@
 (define-public emacs-consult-dir
   (package
     (name "emacs-consult-dir")
-    (version "20220808.141")
+    (version "20221001.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/consult-dir.git")
                (commit
-                 "8abf62df088de87175e98adf8f6f5fb93515004c")))
+                 "ed8f0874d26f10f5c5b181ab9f2cf4107df8a0eb")))
         (sha256
           (base32
-            "17ha6s84i01199p1bcr89d5fxklz7lg1j9wip1485x43f7gfhddj"))))
+            "0fkd4ybgh06x1ci4wqpcyvc3vw97v0qc5lzlyj9ycfgdqixym58y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -25030,17 +25030,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20220928.2032")
+    (version "20221001.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "6f599480be69437171fb4e9d58fd29b20731096f")))
+                 "7085b789f0e6f6239e621b372d05dbf5850956e7")))
         (sha256
           (base32
-            "0qr50ivwgbpygp9kscm6h71jjys06s2jib1k8q35xahaah4dbrkf"))))
+            "02a7ccbq3zpmz5h7nk0jwj9pnjbgsp33q3glv2l60lb1sbzkvg72"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -30198,17 +30198,17 @@
 (define-public emacs-enh-ruby-mode
   (package
     (name "emacs-enh-ruby-mode")
-    (version "20220717.652")
+    (version "20221001.2154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zenspider/enhanced-ruby-mode.git")
                (commit
-                 "8dcb8888cd8007420594212945fee88f82b663f6")))
+                 "ebc2d4be628b4ea27b20b80729b29f584d2fa6ed")))
         (sha256
           (base32
-            "1p98jxfjvc4y42sk5hja1v9vrqycgpj2zqx1fgjaqac0a4f0032j"))))
+            "0qqmgvgbi9bnl984fkrvs9j683f55k2kwpbxm9nn6v71g3djfbcp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -49525,17 +49525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20220928.1917")
+    (version "20221001.1825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "0a9a1e32cf130d181b26e23919402c8c25f41996")))
+                 "b2857de2505d25b463a268ffac02ce21a675a31a")))
         (sha256
           (base32
-            "1i8hbdp5sg99h3imqydk4wd7mqsa04113yavk5sx1wgc17jm1l42"))))
+            "118gh4agq3wvsr5fk4zqnx0dgas3ds90rczzyyiw97jd56bmrwja"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50333,17 +50333,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20220928.1917")
+    (version "20221001.1818")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "0a9a1e32cf130d181b26e23919402c8c25f41996")))
+                 "b2857de2505d25b463a268ffac02ce21a675a31a")))
         (sha256
           (base32
-            "1i8hbdp5sg99h3imqydk4wd7mqsa04113yavk5sx1wgc17jm1l42"))))
+            "118gh4agq3wvsr5fk4zqnx0dgas3ds90rczzyyiw97jd56bmrwja"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -68484,17 +68484,17 @@
 (define-public emacs-lsp-treemacs
   (package
     (name "emacs-lsp-treemacs")
-    (version "20220918.742")
+    (version "20221001.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-treemacs.git")
                (commit
-                 "f7ae97560cfbc88e781a2d5b9253dace7175b918")))
+                 "2894e6dec583eaa77037627e9d8c3bc89cf7273d")))
         (sha256
           (base32
-            "09zcv0zjzikf1f5l6bkjafwb6icx4vpd625as01d4b2cywnzsyhl"))))
+            "0v5glmbv0kb85sprk8s2a25lifzlwan5vz47lqyfwxzavhhyigns"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75263,17 +75263,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20220901.1437")
+    (version "20221001.2105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "368fc32a34f9d91e42d6e98c158da72cf87c28db")))
+                 "b2bd181c1762f3d2e1c8e3dceb83b3c682bcd42f")))
         (sha256
           (base32
-            "0acjxkmall0bd6xxk18wkdx37k143zn3ss2wjim4vivywxvx5pgz"))))
+            "1mmgvxjs25cn8hgn84cs5y2l64zjc3qrvkmsx1xya3bm1bibdg07"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -89397,7 +89397,7 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221001.1001")
+    (version "20221001.1320")
     (source
       (origin
         (method git-fetch)
@@ -111764,17 +111764,17 @@
 (define-public emacs-tidal
   (package
     (name "emacs-tidal")
-    (version "20220808.1553")
+    (version "20221001.2224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tidalcycles/Tidal.git")
                (commit
-                 "4356f6309a3686cbb5e4d298f265baadb855b945")))
+                 "aa5f3a976567552de57090e1b67b537cd08b4367")))
         (sha256
           (base32
-            "07syq66z3b4nnxf67zljsvnmmd0im76vd24kw660qcls5fj4k3ps"))))
+            "0rjpg4ig1wjc6k9dicb2nyc2bvxhwlrj4mb0agpy434j1f1xdm2z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-haskell-mode))
     (home-page
@@ -120766,6 +120766,28 @@
       "Highlight the current line and column")
     (description
       "Documentation at https://melpa.org/#/xhair")
+    (license #f)))
+
+(define-public emacs-xit-mode
+  (package
+    (name "emacs-xit-mode")
+    (version "20221001.2155")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ryanolsonx/xit-mode.git")
+               (commit
+                 "a64498f718bb0fc62e855bee4da121341d9716db")))
+        (sha256
+          (base32
+            "1sahzy1w7xm9nqahpjrg5mgypy3222735s3b4g8fg099qnq3a5cb"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/ryanolsonx/xit-mode")
+    (synopsis "A [x]it! major mode")
+    (description
+      "Documentation at https://melpa.org/#/xit-mode")
     (license #f)))
 
 (define-public emacs-xkcd
