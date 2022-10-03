@@ -13835,17 +13835,17 @@
 (define-public emacs-codespaces
   (package
     (name "emacs-codespaces")
-    (version "20220901.1802")
+    (version "20221003.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/patrickt/codespaces.el.git")
                (commit
-                 "33705cd5e9628f1582baeac371b8bb5a1cc0250e")))
+                 "1f5f991aa2075d91213d5c9f9139551ffaf5cd3a")))
         (sha256
           (base32
-            "01hfbvm31a2ncfsi8d661jsgj8lvyzz78xlpxxfn877lb5i0j3l5"))))
+            "1sr6vs59z7r58al8k2yh5wwzzj0fw2g612xi606mwyimb2jggfmn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/patrickt/codespaces.el")
@@ -27878,17 +27878,17 @@
 (define-public emacs-elfeed-goodies
   (package
     (name "emacs-elfeed-goodies")
-    (version "20220929.1136")
+    (version "20221003.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jeetelongname/elfeed-goodies.git")
                (commit
-                 "ff9fa91e29c9cd06fdddedc1eabbdf4d3cb93e8c")))
+                 "544ef42ead011d960a0ad1c1d34df5d222461a6b")))
         (sha256
           (base32
-            "1s7f21cw84qv59hj3bnsph68p3mhzvdcsl9v095787pcddc85s3b"))))
+            "147pwqx2maf430qhigzfd6lqk7a5sbrydf9a4c5bvsw8jv7wzb6l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-popwin
@@ -35355,14 +35355,14 @@
 (define-public emacs-eziam-theme
   (package
     (name "emacs-eziam-theme")
-    (version "20200327.1810")
+    (version "20221003.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/eziam-theme-emacs.git")
                (commit
-                 "d7e517f8e626035df3b63ec6fc07b85d48a996c5")))
+                 "5bec687a692331f7d8e1fe012817d66c40234bad")))
         (sha256
           (base32
             "1br74wkzvq51wqhimsf0c7pzvfpcb80hb47dqjahh938y7x0fkdc"))))
@@ -49524,7 +49524,7 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221002.714")
+    (version "20221003.602")
     (source
       (origin
         (method git-fetch)
@@ -88829,17 +88829,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20220823.513")
+    (version "20221003.917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "1a0a30c54dc3effdba4781a2983115d4b6993260")))
+                 "aec8ecd0066ba2cbfefed1330a71deada89f5b5a")))
         (sha256
           (base32
-            "1gy7d25iplix02h9kqxxvfrxfwr2gm11xdmmx9ckbj3q51b5gi1r"))))
+            "1yjq1ra8g1dfr4qzc15g8cadwxrnrw08n6q8ayizsx8cn0sgki5d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -95428,17 +95428,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20220528.1502")
+    (version "20221003.1451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "bbfe9a8b2ea081c032eccfd541dac2bc46aa54a6")))
+                 "27829d7c1cb09018148b956b06e3ead66ffd88d6")))
         (sha256
           (base32
-            "0686f0a2jglby8nmwjfbzxjm7xd7h71safa4bphj1rb9v23kxzwl"))))
+            "1ysdiw3rwg2ngdja15phllkj9bvwfd4lga4djk07qma8fj916sha"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/python-mls")
@@ -104372,17 +104372,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20220712.817")
+    (version "20221003.936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "805c29672c8a1f6c68286ab379359f9ab9ad9dc2")))
+                 "f41e5590e28a1dff1fc07111b43841eb1692de94")))
         (sha256
           (base32
-            "0xw72iizkgvnr99gca05mc7qylpg48j7qn7ilfw6yh8mpghhhj7f"))))
+            "17dkawrxqnj0payc53x078x8s6433jrkd1ld8fljwr2j6l0rbaiy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -111204,17 +111204,17 @@
 (define-public emacs-tesouro
   (package
     (name "emacs-tesouro")
-    (version "20220928.1426")
+    (version "20221003.1303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rberaldo/tesouro.el.git")
                (commit
-                 "c7e7ac1d1d88a2ef7f30004611cf3b37dcdcda1b")))
+                 "3dbfc49209237215163be1ea338dea099ddc0795")))
         (sha256
           (base32
-            "0b29az1y2mm69hwp4h8fs6v3jgv1i4aa09z01w5y70k2k5l53imi"))))
+            "1jygw524avkz76gjfa2bbjkd0x7dxd69g6fxl1rkwa514s5gjcid"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
