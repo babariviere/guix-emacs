@@ -49524,17 +49524,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221001.1825")
+    (version "20221002.714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b2857de2505d25b463a268ffac02ce21a675a31a")))
+                 "ed071b797bd287733b46ec17799ce6e8d255eef4")))
         (sha256
           (base32
-            "118gh4agq3wvsr5fk4zqnx0dgas3ds90rczzyyiw97jd56bmrwja"))))
+            "1clyvpsinngrb4v7flwpzp4rvz0i53nhk5b79wxh57ch9481lmip"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -82496,17 +82496,17 @@
 (define-public emacs-org-mime
   (package
     (name "emacs-org-mime")
-    (version "20220722.242")
+    (version "20221003.105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-mime/org-mime.git")
                (commit
-                 "5c19b458f8dbd61f8a40c8b94ba843833ba90a77")))
+                 "cc00afcf0291633324364c1c83bfe2833cfdc1bf")))
         (sha256
           (base32
-            "0j8h9wqk0ca551ynfx9wliy92ddhgiq4gw8idhq4l1lkdykpnb11"))))
+            "1w5z9irzk918mj75z5m0j2h8mms8v27x50kp7r3b01wblf0jd2zc"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/org-mime/org-mime")
     (synopsis
