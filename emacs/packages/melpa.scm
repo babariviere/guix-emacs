@@ -73135,7 +73135,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221002.1649")
+    (version "20221004.241")
     (source
       (origin
         (method url-fetch)
@@ -73145,7 +73145,7 @@
                ".tar"))
         (sha256
           (base32
-            "0ynf4fc8gkbx1wrh9dp6fmwfgdklkwpwnbazzj93jak7m9xd8i5m"))))
+            "120arq0v8479113avqi0jg3wp3hlyvj3a81mq1mqwvxp8z1bibqs"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -79489,17 +79489,17 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20220710.1045")
+    (version "20221004.619")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-theme-oblivion.git")
-               (commit
-                 "3349191b123e5bdcf9177e97d2301bb571800da3")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/oblivion-theme-"
+               version
+               ".el"))
         (sha256
           (base32
-            "00w5by87igi5l72xqkg6dn5zh7rk1lxc9p6m0c885ylp9giwalqj"))))
+            "1jbq6kpjzcinx73b1jmya42pqr79rlrddq2j3aalw2hzhi5znwjg"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-oblivion-theme")
