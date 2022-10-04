@@ -1534,17 +1534,17 @@
 (define-public emacs-ace-popup-menu
   (package
     (name "emacs-ace-popup-menu")
-    (version "20210608.839")
+    (version "20221004.1115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mrkkrp/ace-popup-menu.git")
                (commit
-                 "bc3524eaa28b21725287b59b903c03624cbd5316")))
+                 "e837c3dd4aaa5db869a4bb23ca7653a190a458a3")))
         (sha256
           (base32
-            "1d5mkkdd67kkas7vl2dc98lm2dlgx10mb35zfdnz2rzcygi5brs7"))))
+            "1wywxmw8kg4piv3rf4k37vnxs5qg1hazc94pdrfp98cy0a3p1cjp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy-menu))
     (home-page
@@ -19476,17 +19476,17 @@
 (define-public emacs-cyphejor
   (package
     (name "emacs-cyphejor")
-    (version "20210816.1607")
+    (version "20221004.1118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mrkkrp/cyphejor.git")
                (commit
-                 "576d237a46be79449a22e3a7912a3464d7b0c233")))
+                 "a9c75a38ecd17e6628c5516c2534c6454f6db95e")))
         (sha256
           (base32
-            "1jlyfzqmysbp83nhgldlri86mpsg9ch4amwdjm8li597w9g08fd0"))))
+            "0wh86ixd0nslrw147lknf0gmkzd6322p9lgsw6mfik28c1jb66b9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mrkkrp/cyphejor")
     (synopsis
@@ -19720,17 +19720,17 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20221003.1824")
+    (version "20221004.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "4e379cc5e97b19f7aade91a00f56e047d174abb6")))
+                 "7f156ab80c8b8f9c0a416361c9857e183e35436d")))
         (sha256
           (base32
-            "1lc1zv0amiz7zqd0y60i4vx2dsvn98qggmanp1yaryqbmwbhxqgw"))))
+            "03la74r59rkmh6ygpj1kifmsbhdqrqr1v3swiivndn3x0mhdmssv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -30313,17 +30313,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20220924.833")
+    (version "20221004.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "27d2886cc36039527e4e86fc654eaef3804dc4a0")))
+                 "433df846529f25074955791869797ec4e929d4aa")))
         (sha256
           (base32
-            "0iwx0pijcvdsbrsywiykm964haq7bsbkwhyd8a44k0swkyzw0fxa"))))
+            "0gnz8hjbq3bl12g3lz85lryf2n0zv583k5fl7kin2yj2xsxwq0v3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -32656,17 +32656,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221003.2306")
+    (version "20221004.1004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "30980b30340df4fc8a91a690389d992bd7095ecb")))
+                 "b46acf25705561a9e065b00581a247efc7a340b2")))
         (sha256
           (base32
-            "03qkcrgzmdipdxwaqxc5a0bhn03avp4dw9wrv2vhpvvx4dq1wcw8"))))
+            "1k7kmk7z5mxl3vjgmp6jc057k8pfxc6h2f1sabvnzqlmk0zbw97g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -65081,17 +65081,17 @@
 (define-public emacs-lcr
   (package
     (name "emacs-lcr")
-    (version "20210102.853")
+    (version "20221004.1257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/lcr.git")
                (commit
-                 "493424dab9f374c5521dca8714481b70cb3c3cfd")))
+                 "5371109d5292dcb93608883ee8dcf79d4bf29a9f")))
         (sha256
           (base32
-            "10nvxvyz39avlf2v8d4lag7jj5x5p8jvaqiww7x6l992mp11hahk"))))
+            "06jhq081v8rqa68fby5snwviy3wgfvpqs0xywf58ss0d4i6y75hj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/jyp/lcr")
@@ -68159,17 +68159,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221003.2024")
+    (version "20221004.922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "feea50128b9af3e455dcfcd7d105504594a300f0")))
+                 "bbce14c74f1697672e871d81d3cc20f294b2732f")))
         (sha256
           (base32
-            "1pyinsjf4pwvw167ljdp5y3p2yx70qkk7fll8650ha6mm6r9mj7p"))))
+            "078y552w3jlpp9hrczbhg76vcx56ik4lwn6hjp6hv80yc0217g88"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -72752,17 +72752,17 @@
 (define-public emacs-mmt
   (package
     (name "emacs-mmt")
-    (version "20210321.1829")
+    (version "20221004.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mrkkrp/mmt.git")
                (commit
-                 "e5cd2b4d0967758471fd2753f78120bdeb93a781")))
+                 "2b4ef792dec725d287212e57de55702fa17f1496")))
         (sha256
           (base32
-            "05647fhsn4qlh8fyijrsni3zfvy2flivyij2rwd8q31h5k2gip3w"))))
+            "0mq87qnln9svmfb3lnwcdwpxcz76nnn0ckgh1x4sgb54w559y8dv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mrkkrp/mmt")
     (synopsis "Missing macro tools for Emacs Lisp")
@@ -72907,17 +72907,17 @@
 (define-public emacs-modalka
   (package
     (name "emacs-modalka")
-    (version "20220802.1450")
+    (version "20221004.1116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mrkkrp/modalka.git")
                (commit
-                 "414b3e89937495b36fd8897adc6443eca98df78c")))
+                 "e674b08c21f24bc32ee8fa3db45ffb0743410bce")))
         (sha256
           (base32
-            "0x859mslpfqxg38728jf603mgpl4nw9bvx5fdgbjcp9isla7bim0"))))
+            "1bvgfliq1q0fp8lpjaw01y2747imsxq5cr98zj30jcq3fa5qql6y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mrkkrp/modalka")
     (synopsis "Modal editing your way")
@@ -75262,17 +75262,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20221001.2105")
+    (version "20221004.1251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "b2bd181c1762f3d2e1c8e3dceb83b3c682bcd42f")))
+                 "81ede3eb8f0fb4854ec3a9d2350f98dfd03163d4")))
         (sha256
           (base32
-            "1mmgvxjs25cn8hgn84cs5y2l64zjc3qrvkmsx1xya3bm1bibdg07"))))
+            "0686qrzwrjinp69hnqn76gdydxk8plgdcc3ymwbbbvzfwb466933"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -88829,17 +88829,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20221003.917")
+    (version "20221004.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "aec8ecd0066ba2cbfefed1330a71deada89f5b5a")))
+                 "a4905d8352437905e6ba1d923cd24ad260c92030")))
         (sha256
           (base32
-            "1yjq1ra8g1dfr4qzc15g8cadwxrnrw08n6q8ayizsx8cn0sgki5d"))))
+            "0by6bx9ycrqk4dcbds1k4n3zjij5lmhp3lg4v2wk0bif2ywwdwrj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -89590,17 +89590,17 @@
 (define-public emacs-phi-grep
   (package
     (name "emacs-phi-grep")
-    (version "20210306.425")
+    (version "20221004.836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zk-phi/phi-grep.git")
                (commit
-                 "7e2804c7ab4e875c7511917692c4b192662aa1ae")))
+                 "9f3c42952ad4ad75d24abbdccb041240db4f0557")))
         (sha256
           (base32
-            "1znim5mfd8s4dzwsg8gp2im1i837pw990r9r7mcv5zkzyll7wiq3"))))
+            "011i9dw2n3sq9yhm2qz55mnffmi5v9zc928crv480hjrbjad8f90"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/zk-phi/phi-grep")
     (synopsis
@@ -93431,17 +93431,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20220828.1421")
+    (version "20221004.1327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "20aa2adccc1ecb19f54f2fbc428b4904071fcab8")))
+                 "683862872462c1c3c68fa41e370817399c15f836")))
         (sha256
           (base32
-            "14wwnnms1bg7vn1jkvsl2ham8w0ncphm2gm5a78ggn6rq8z62p82"))))
+            "1j5x95c5br8d0bwdw84nfx2m8kifz0yq4crz7q30d47qzyflggg4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -98435,17 +98435,17 @@
 (define-public emacs-request
   (package
     (name "emacs-request")
-    (version "20220911.1704")
+    (version "20221004.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tkf/emacs-request.git")
                (commit
-                 "43ff7865f9e0a67911f0f1dab462213089809f25")))
+                 "7444e763d8bbbcf82e67d7bcc30550255b81c471")))
         (sha256
           (base32
-            "0b12sc20xvgj729bvsc219kk30bik13c7zsb9lnspc7g3k3hvmm0"))))
+            "0hsrrn603hxapv9khlfka2vgf9vmb6qqf98iw25x8ay5yjmyz35w"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("request.el")))
     (home-page
