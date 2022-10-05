@@ -3784,19 +3784,20 @@
 (define-public emacs-apropospriate-theme
   (package
     (name "emacs-apropospriate-theme")
-    (version "20220817.235")
+    (version "20221005.1428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/apropospriate-theme.git")
                (commit
-                 "07265cc0122d3bde62615e8f5671e271598d95da")))
+                 "cb56b8c1a4ea42a329b279e57b3db473f0be4adc")))
         (sha256
           (base32
-            "18kdrnx264bf2k59b6355b1fbpqd02c5rjr9sfhafpgwg0265d6h"))))
+            "16254f26rvpsjbids5rw8j8wkbfzl4k5bwh8fks52x10q0782aai"))))
     (build-system melpa-build-system)
-    (home-page "unspecified")
+    (home-page
+      "http://github.com/waymondo/apropospriate-theme")
     (synopsis
       "A colorful, low-contrast, light & dark theme set for Emacs with a fun name.")
     (description
@@ -8393,17 +8394,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20220812.1139")
+    (version "20221005.1147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "d3cdc176ee72e3e3feac6dd6b527cff5dcf788eb")))
+                 "78a1c87e2752d2b896b3af8d189dbdbe42364408")))
         (sha256
           (base32
-            "0nw1vnw60h366a4i97gp2vjly2n4bvj5y645f6wqaabqxbglz463"))))
+            "19q96ran8m8qj2srjwcjal54pkgxvy0grc6i0fsjyaxyid9icyvc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -12312,17 +12313,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20220925.2234")
+    (version "20221005.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "219a69c519fa77ba609b05ac5dbcb9ae357d383b")))
+                 "cf3679005efaf2df9560ede7002563d5ee4edf7e")))
         (sha256
           (base32
-            "02ay11a5nn7j1f3f3zjrsrp6j1hsyl1k58v8cx4mi5m73wbchc98"))))
+            "11mpvld5r59wd3012mf77cmrn0n8sfyzl2pjx0kc26x9rrpdw4mx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -21177,7 +21178,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221004.1521")
+    (version "20221005.1112")
     (source
       (origin
         (method url-fetch)
@@ -21187,7 +21188,7 @@
                ".tar"))
         (sha256
           (base32
-            "0c2q9n7yn3q3yr5ay9cxfwkm7wz1bf3n41cnl4rw9rx7l20hamv3"))))
+            "0yxz3vb9gczh4hj82gwa2d72wcj4ra62lw8b5y75gvj79spd3p6w"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22941,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20221005.356")
+    (version "20221005.1155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "b858719c2f67017e14f7d8f48b6b43a53d741548")))
+                 "4a99dc5c9a2d3575183cd368284bb217b35f8007")))
         (sha256
           (base32
-            "1zf990jv3pglxa2f0q7i5s1550rhh3rxikbyasq6y3hf0g2q2mns"))))
+            "0cb69mwprcy61gfr527dnwp5g0r2jy5hgpjw5fn7qj2fm7zi4giy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -69063,17 +69064,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20220926.56")
+    (version "20221005.1047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "ada7b21fcc90004d7ac1c5a42c0750e12c2a5ef8")))
+                 "717171265026c0913a3611251f9d1be727a8890b")))
         (sha256
           (base32
-            "1nl5axpxv5srxyihkzsi1sqnb5r09fah9ppvsiw1ihgc6fh7a460"))))
+            "0z95vx068bdjacj62zqal27w4dvkqs0ms9pisj88ncw0mnwg5vkx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -83320,17 +83321,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20220808.734")
+    (version "20221005.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "6f78a0a2287e7eecd4d22aebdb597ebadcc3eab3")))
+                 "5ab524be0ebeaa5b82d344340a1f58233fa7a5d1")))
         (sha256
           (base32
-            "0mn7qn80289gizvnxyjjs00b7qmlf0692kai7qgzgfj6i87pjc38"))))
+            "0w6v7x4y0wn8af48vfn8m5h46w09wncwgcc9q8pl3zf92s50drg7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -116444,17 +116445,17 @@
 (define-public emacs-vc-msg
   (package
     (name "emacs-vc-msg")
-    (version "20220526.1435")
+    (version "20221005.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/vc-msg.git")
                (commit
-                 "720c6f0e699f25463cd37642ee23adb4e23bc60b")))
+                 "027fefad63868cd7695372510c27922656cf996a")))
         (sha256
           (base32
-            "0pn4gpxzgxlz12h4yymqdfmvic51jc5s3b973wl3qjizv1j1062l"))))
+            "05iqjc9g2kxdbhkywbisc2fkv15vw81hxjzphwiq46ikimrppy6a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-popup))
     (home-page
@@ -120841,17 +120842,17 @@
 (define-public emacs-xit-mode
   (package
     (name "emacs-xit-mode")
-    (version "20221001.2155")
+    (version "20221005.933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ryanolsonx/xit-mode.git")
                (commit
-                 "a64498f718bb0fc62e855bee4da121341d9716db")))
+                 "896951aaa0dc88921ce50a88c0d3013c83dc8873")))
         (sha256
           (base32
-            "1sahzy1w7xm9nqahpjrg5mgypy3222735s3b4g8fg099qnq3a5cb"))))
+            "022kyl9c9dgv7w8jismcmsx0hxsgr8ymn5w3vf957d8q2xapakfw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ryanolsonx/xit-mode")
