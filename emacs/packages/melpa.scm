@@ -1996,17 +1996,17 @@
 (define-public emacs-agtags
   (package
     (name "emacs-agtags")
-    (version "20221003.1708")
+    (version "20221004.1701")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vietor/agtags.git")
                (commit
-                 "e3f187a23032b3b84c67090a6c55a251ff9e9642")))
+                 "1a989711602366447d424ed6596a1c491a6cbb96")))
         (sha256
           (base32
-            "130vcbwjd9680qdws6fgka7im2552bl89209hgwf765jkwgfj5gs"))))
+            "1kbkgln630qaqm1sx6bccgkr7h6b506syin42vc98qw9y9lj2hkf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/vietor/agtags")
     (synopsis "A frontend to GNU Global")
@@ -8368,17 +8368,17 @@
 (define-public emacs-boon
   (package
     (name "emacs-boon")
-    (version "20220918.1946")
+    (version "20221004.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/boon.git")
                (commit
-                 "ee3d12fa3a811f13806b005bb3b1395e5f41dba9")))
+                 "520f68699e2a5a8e022c058992d3d39737c32753")))
         (sha256
           (base32
-            "09ajsnp4hj2a467py832p80cm5mdafj1x47vh2cvm4gh5zqdmnwa"))))
+            "1hr1ic4r6cvy61n00b8dzf7hmmyvpzammlmis5i4chq0jii4kw6l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -21177,7 +21177,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221003.2125")
+    (version "20221004.1521")
     (source
       (origin
         (method url-fetch)
@@ -21187,7 +21187,7 @@
                ".tar"))
         (sha256
           (base32
-            "0nmysp1j5dhrk97lx74bcxxqcnmggb5lbq3yha9cb8s220n25s20"))))
+            "0c2q9n7yn3q3yr5ay9cxfwkm7wz1bf3n41cnl4rw9rx7l20hamv3"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -24144,17 +24144,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221002.1403")
+    (version "20221004.1934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "1d6ad06e21b8ad48023ee26e282e4162df5c947e")))
+                 "36cde4c2c9fd1ba68e8d8aa7562ce5171ada2b5b")))
         (sha256
           (base32
-            "0cc06dnidjrdmnwz2jycnhfdczwrb5ky2gqldkdxvl0wiinccl9b"))))
+            "1306kgr2wxgkdymihyqkffp0vai6v6wh9i7x4b5l85yn9118b56w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -107507,17 +107507,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20220925.2308")
+    (version "20221004.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "20a1c9b36e99cbfbf70598e2cfaccd960e74c1ce")))
+                 "ad2b110a30df7273352d7c12e28e130731de9662")))
         (sha256
           (base32
-            "1kz95vb6jbpkzs11mx623sj8xdf8n007vr9ix6wqvdsaqy158qkl"))))
+            "0v0c6rv9g12a5rhfki985c6zg2qdvzmgjr0q5f31msdcvidcf3vq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -112024,19 +112024,19 @@
 (define-public emacs-timesheet
   (package
     (name "emacs-timesheet")
-    (version "20191024.151")
+    (version "20221004.1702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tmarble/timesheet.el.git")
                (commit
-                 "5098dc87d3d4f289b6c1b6532070dacbfe6de9fd")))
+                 "511751b239c84d7619ec1c61d7f108b732b64442")))
         (sha256
           (base32
-            "0wqxlb4a7fzf14629zw021216qyzz56xwr8hfh2fy6kj90m9br4c"))))
+            "01j8wps938mjjlq55w9lgky3f51k260ipjqv8072x0n73mwf9008"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s emacs-auctex))
+    (propagated-inputs (list emacs-s))
     (arguments '(#:files ("*.el" "bin" "share")))
     (home-page
       "https://github.com/tmarble/timesheet.el")
