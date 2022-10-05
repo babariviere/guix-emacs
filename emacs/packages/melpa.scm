@@ -22941,17 +22941,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20221002.1501")
+    (version "20221005.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "11a3bec247b9e4742f171434e948895b3dc730ed")))
+                 "b858719c2f67017e14f7d8f48b6b43a53d741548")))
         (sha256
           (base32
-            "1aaqic9din4yxcc2icyb5xcd3hzjarx4q5bbz99ink8mkrv3gmlx"))))
+            "1zf990jv3pglxa2f0q7i5s1550rhh3rxikbyasq6y3hf0g2q2mns"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -27547,24 +27547,24 @@
 (define-public emacs-eldoc-overlay
   (package
     (name "emacs-eldoc-overlay")
-    (version "20220210.1358")
+    (version "20221005.154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/eldoc-overlay.git")
                (commit
-                 "b96f5864a47407ec608c807e0d890f62b891ee03")))
+                 "d20dcecdde43737d8c9ae56551e2f0c05173870f")))
         (sha256
           (base32
-            "1rdpg18gffh7ss5di6f4l1wks904867r38w0ilpgb52p8j0pswa0"))))
+            "02zcyrmd986240v9l8944ffh28ydyqc8jqyn25dklfnmj8cipsbn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inline-docs emacs-quick-peek))
     (home-page
       "https://repo.or.cz/eldoc-overlay.git")
     (synopsis
-      "Display eldoc with contextual documentation overlay.")
+      "Display eldoc with contextual documentation overlay")
     (description
       "Documentation at https://melpa.org/#/eldoc-overlay")
     (license #f)))
@@ -79489,7 +79489,7 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20221004.619")
+    (version "20221005.400")
     (source
       (origin
         (method url-fetch)
@@ -79499,7 +79499,7 @@
                ".el"))
         (sha256
           (base32
-            "1jbq6kpjzcinx73b1jmya42pqr79rlrddq2j3aalw2hzhi5znwjg"))))
+            "00pgfh5a0j6lpq52vv3ljhivq2dc1hw53a1djrwnmayg27fp8rqj"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-oblivion-theme")
@@ -109518,17 +109518,17 @@
 (define-public emacs-symex
   (package
     (name "emacs-symex")
-    (version "20220811.235")
+    (version "20221004.2236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/countvajhula/symex.el.git")
                (commit
-                 "adebb7aa1dedac88585bd1077ac81f97df3bd7d5")))
+                 "7e5e712283656e7f075a9840548a6b5004563a15")))
         (sha256
           (base32
-            "0bhm3nvnhmnr2djsig9vqzpsk5plsx6q1zv5hbnwyjcrawm6d9rs"))))
+            "1dd5kc223chy12rizblb5z25njwyaw522vma79bx3ffa4q0401ig"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lispy
