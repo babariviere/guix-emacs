@@ -3628,17 +3628,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20220915.208")
+    (version "20221005.2319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "7aa46ba84f06251f280d226f98cb06ef83a0a697")))
+                 "aae79b7b2a1a7bc905b005ec3f43feb56918b93d")))
         (sha256
           (base32
-            "0d7za28ii0z4whw59qvnnf2lwl15r7zswa4b62psk3q9ijlqn53b"))))
+            "0xfvsh8hzx9g2xvxy9zx65i3wr8z7rcqm7w345pnywa67hxkvc9z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -9158,17 +9158,17 @@
 (define-public emacs-bufler
   (package
     (name "emacs-bufler")
-    (version "20221005.2204")
+    (version "20221006.126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/bufler.el.git")
                (commit
-                 "a9a2ec388b81a2a0951556e497979fdb5fd33fea")))
+                 "ba0157da21096e47b6048982e265f4b0a5351782")))
         (sha256
           (base32
-            "1k6srcsq5h6whg0i3x2zvjjfkc2a1v233blhqjqjxhpb4v9hg7vn"))))
+            "11qn2z34wagp45a07nwbgchg6k2g173vjc1hww6b6hhmjszy44fk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -15023,17 +15023,17 @@
 (define-public emacs-company-emojify
   (package
     (name "emacs-company-emojify")
-    (version "20220727.1740")
+    (version "20221006.557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-emojify.git")
                (commit
-                 "cc3ae96fbafa51d71fde802fa3c1e5fad9402158")))
+                 "6856bdb187bf6f8c31965058e4408827f6ae178f")))
         (sha256
           (base32
-            "0hw2pzg1prcjysrxrki0qsfzfqr0gp0mh606lakr33hzkib447xx"))))
+            "0751hs1gdmn5f2nv607lh7pn01xnpczkkvivqn1nl5n2l45s0i8i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-emojify emacs-ht))
