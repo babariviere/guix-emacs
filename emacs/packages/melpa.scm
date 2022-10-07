@@ -22942,17 +22942,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20221005.1155")
+    (version "20221007.617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4a99dc5c9a2d3575183cd368284bb217b35f8007")))
+                 "a33dbb520e92d3474e6b64ffc55909af2648ab0f")))
         (sha256
           (base32
-            "0cb69mwprcy61gfr527dnwp5g0r2jy5hgpjw5fn7qj2fm7zi4giy"))))
+            "1x0ibn6pqxydpa69pws0v6hjsywax90c0wkq2xh1zg0bb1sx7khv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -27547,17 +27547,17 @@
 (define-public emacs-eldoc-overlay
   (package
     (name "emacs-eldoc-overlay")
-    (version "20221005.154")
+    (version "20221007.212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/eldoc-overlay.git")
                (commit
-                 "d20dcecdde43737d8c9ae56551e2f0c05173870f")))
+                 "5ae9e062295ea2a2855569826b770f3469f73e2f")))
         (sha256
           (base32
-            "02zcyrmd986240v9l8944ffh28ydyqc8jqyn25dklfnmj8cipsbn"))))
+            "1awxac30162p4vk17jnazf4qz48zz7asfgpcj8ivw8x3njr8crsh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inline-docs emacs-quick-peek))
@@ -72684,17 +72684,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20210601.2158")
+    (version "20221007.58")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "a9f2abd32f2517392a396d61e558bea3c887b5b6")))
+                 "398f9d3993e5f3cfb5b53b7653ed7896daa17c56")))
         (sha256
           (base32
-            "0affcw4vnk2jk7pn56alg4i1vmhf3db9dz0x06k4wl2jcm5cslzd"))))
+            "0ps4pw87hv3ih5vlhfpvjnkhr1rp44w28x2cf9avwiq2isfxlgly"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -106752,17 +106752,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20220923.205")
+    (version "20221007.159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "cb733ffbb621c0c3eb3a7ab349c33df41dbcce72")))
+                 "7bbe99a7b3f65fd96bf982b94e58033a96a3bb3c")))
         (sha256
           (base32
-            "03xfszsgqf3wvbnavnnkfj6j931dfzlj1skljmjvg5831c06ifl9"))))
+            "063hrnclilzl445zb8hgs6axsvp0bh0y1gr23dhapcdsyx8lq41g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -116076,20 +116076,19 @@
 (define-public emacs-v-mode
   (package
     (name "emacs-v-mode")
-    (version "20220104.142")
+    (version "20221007.635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/damon-kwok/v-mode.git")
                (commit
-                 "a701f4cedfff91cf4bcd17c9a2cd16a49f942743")))
+                 "84f26ab0f0f5b23133292674da9fa4558207c33d")))
         (sha256
           (base32
-            "19053f8cp6vcmslfbxickvdfzphafi1mpdj9l4lab8m94xi7nfky"))))
+            "10kr5ga8l3061nj4y6qciy0v4mkfvv9mav3i5cl1sz6b6h8kdp66"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-hydra))
-    (arguments '(#:files (:defaults "etc")))
     (home-page
       "https://github.com/damon-kwok/v-mode")
     (synopsis
