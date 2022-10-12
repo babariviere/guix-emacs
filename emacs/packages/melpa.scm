@@ -25007,17 +25007,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221010.1300")
+    (version "20221012.123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "a949445cc23f50c4fc6f13f5094946f8d7673d86")))
+                 "919817520fa507dd3c7e6859eb982976e28b2575")))
         (sha256
           (base32
-            "13nm5avsk2gz7xsrq150cfmib7a2159gslgjf2ry2842lmc55n10"))))
+            "162jamz80xqvspwvvbrycjpqnk0b96jnpmf664dm35dw605nwrp4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -43469,17 +43469,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221009.2303")
+    (version "20221012.237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "d836c0025f9e51689c4c078c57546c0870498137")))
+                 "a9b17f08a0c40d2b2ac5d3d130a8b40f5890ccfa")))
         (sha256
           (base32
-            "13qxdv6s11c1madvx731h2fyl3a47n9rcpa6hmiy47a2gqzf34gh"))))
+            "0sib99qf7j6576y1fb1iz1yakfcq18zmj1kxh1yf95z03804ndf6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -49539,17 +49539,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221009.758")
+    (version "20221011.732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cfc43c5622c9778bc51ea04be1d1073ab91c9115")))
+                 "428d513bf16dba317cd82a8f7b1cff09ad566b6b")))
         (sha256
           (base32
-            "06axw2sgxqh445qrf7rbk0aailwvgl6hzkmd384zx2bhyahlc4sy"))))
+            "1chwliw2z4b72bwrvywwbslc89anizh3vwldjg6sv67h9flhdbm4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50347,17 +50347,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221009.706")
+    (version "20221011.732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cfc43c5622c9778bc51ea04be1d1073ab91c9115")))
+                 "428d513bf16dba317cd82a8f7b1cff09ad566b6b")))
         (sha256
           (base32
-            "06axw2sgxqh445qrf7rbk0aailwvgl6hzkmd384zx2bhyahlc4sy"))))
+            "1chwliw2z4b72bwrvywwbslc89anizh3vwldjg6sv67h9flhdbm4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -71490,17 +71490,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20221006.1218")
+    (version "20221012.26")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "d99fe415e67a8ba424f58dbbaa580d0e5ae803a9")))
+                 "d180d47c56ec06d054fb101bc843340d93c26d41")))
         (sha256
           (base32
-            "1kjqnmx5jdbcy702844vhlgdws5zxc068c9pqcq2qfgqbfh8drwk"))))
+            "1gm6x4zggl5aqb2g363akyic4vz3nhb1wlk3kxp7lc9cmyv1hvpa"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -106880,17 +106880,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221007.159")
+    (version "20221012.210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "7bbe99a7b3f65fd96bf982b94e58033a96a3bb3c")))
+                 "07cbc0cb5258e4f873a292d67646723c0542fac0")))
         (sha256
           (base32
-            "063hrnclilzl445zb8hgs6axsvp0bh0y1gr23dhapcdsyx8lq41g"))))
+            "1fwzsjc1dpklc3rs4kh2fxs4ms87ga56z08g3pnjv11gl8nlx71n"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -110724,17 +110724,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221010.1223")
+    (version "20221012.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "708f00e5e15b39290c220057a44d6e478f2c04fd")))
+                 "1470d27fecf0d81816054de400bfc3f73846f577")))
         (sha256
           (base32
-            "0ir2vc93rpfdf8v8km2x3k963anf70linzfixyp5a0kzk7qc11gp"))))
+            "09v0ils4x95i5lf4y8h5vb5wklvyr47yjwd9a4jqm4pcfxkcl8mg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
