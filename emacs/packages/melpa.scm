@@ -10363,17 +10363,17 @@
 (define-public emacs-cargo
   (package
     (name "emacs-cargo")
-    (version "20220717.1129")
+    (version "20221012.1151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kwrooijen/cargo.el.git")
                (commit
-                 "7bd3682456bcd666ae550224487e63c0106a7cf9")))
+                 "e946e365ad372139e05d29638dae96a52c6dbd70")))
         (sha256
           (base32
-            "17fplf8cr9lgx59fz9f0zm65sz8a5bdjzbkf7x6wbzpp1clnc4m9"))))
+            "19j5ks7y3350l4yvlrivwamjn8s4p3ic2nf6fxj84fjkxk7z317s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page "unspecified")
@@ -15097,17 +15097,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20221011.1910")
+    (version "20221012.801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "e9ab797741225a0b1869b2c0489f9cc1942cd178")))
+                 "f9af160cb2fc78719330318566f1fdc15be7bfc5")))
         (sha256
           (base32
-            "124n7cfx6bvrp46iwcz4z1kksqfnp0rmlrdk783xc9l8jdi1wgrn"))))
+            "0870swmmzbwn2ndhwwnvvb3jn947xs14asy2jy3qzaj5diln1vhc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -19698,17 +19698,17 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20221011.1616")
+    (version "20221012.1414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "e49f71705dc6703489d594fdb989b07f812f22c0")))
+                 "30c8d925a7350aecccf29191af725ae2f84f169b")))
         (sha256
           (base32
-            "1v6dv4d7y2igab96ndrxrs1dpdalg6x4h5p8j6krb71ac840573i"))))
+            "0q83an87vw2cd34ag8iljg6xwik69bcs1hpqyp3dkqfscs8cqxcs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -22919,17 +22919,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20221011.1753")
+    (version "20221012.755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "4bab220594881c038db60c6bfe11615b25f9da73")))
+                 "4813c6669939cac511c792b432b3ee3ca9705478")))
         (sha256
           (base32
-            "0mi361v2npgklnn4g2x1manwwxijiwjgf3yjs9d3ac995rnpchx6"))))
+            "193g7bbr1avppbxisi3arnnhnjvvf9lbf1pbbfxvg0cvf7hcqz59"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -65141,17 +65141,17 @@
 (define-public emacs-lcr
   (package
     (name "emacs-lcr")
-    (version "20221008.908")
+    (version "20221012.742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/lcr.git")
                (commit
-                 "5ff5bc2e46f219e03412d16539c1920522b0d6fc")))
+                 "6c345112ffb59f3e7babca6c83942f686b5f554b")))
         (sha256
           (base32
-            "0zqhvvk94yjrql49ds8743fyxixm4xhf8ldb1aqysiknvf7mjfj7"))))
+            "0hhn0gqkwki0dfk6j759hmbj1ijn4bs550jh3kgy9jfmnb7cd81l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/jyp/lcr")
@@ -70357,17 +70357,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20221011.1133")
+    (version "20221012.1230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "606dc0a829319cd5e2e8bed761cbaa184a543f39")))
+                 "d13ea27e423afa0ce1add640b669500963ba3afa")))
         (sha256
           (base32
-            "1r9hq19irihgrw22k202ahy6sl4v04fc2r9jzb56mi0fgpiymx24"))))
+            "0zclvckbids9rmnjgqnmzv9c2a25hkj9900i921rsnlhskwdwbw6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -73195,7 +73195,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221009.1400")
+    (version "20221012.1133")
     (source
       (origin
         (method url-fetch)
@@ -73205,7 +73205,7 @@
                ".tar"))
         (sha256
           (base32
-            "0yfcbrg1wb50ydsg8md56ircbb8y58h3vnsxn12qxhp8my1fqgll"))))
+            "0dypvax7pxl2nvpjyqa7wvc28m02ah1j0z5bhmq3fb01dwzgrclf"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -83743,17 +83743,17 @@
 (define-public emacs-org-roam-bibtex
   (package
     (name "emacs-org-roam-bibtex")
-    (version "20220908.1053")
+    (version "20221012.846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-bibtex.git")
                (commit
-                 "12f721ab0b1e74ccae00711d60aab700b38fa8cc")))
+                 "aa0920461ada65637ce0218748b9d2b5c3ffa064")))
         (sha256
           (base32
-            "0psb9mh00xi9d7r9s0mxjjjfjy66znkhyfkxs78ysmvdhq5jh7c5"))))
+            "01izdcnz8896srs2fgnhijswxpihqks72q9zq8i07azb0wgxc991"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-bibtex-completion))
@@ -89547,17 +89547,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221007.1435")
+    (version "20221012.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "407ad0f302dc3fc8b5d0425f231c9a7ec7d769f4")))
+                 "85db097c357281162a27e4feabdaa8721edc4fd5")))
         (sha256
           (base32
-            "1q00jyxmsywsz487mins825bshhr1m80aadfa1ldwrxlikkqmj7g"))))
+            "0brbgkwg3sh67ilbz6kzjbgsxm493rl61qy97r9v1834c9sch4qh"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -107915,17 +107915,17 @@
 (define-public emacs-starlit-theme
   (package
     (name "emacs-starlit-theme")
-    (version "20221011.1445")
+    (version "20221012.1412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SFTtech/starlit-emacs.git")
                (commit
-                 "d39dd0f5a487457121bb887df98c9406f7efa15a")))
+                 "aabeb1d0d155d79514b525423572ac5224457268")))
         (sha256
           (base32
-            "147kqf1ir1x9w43p7mvfppvr8zmgwjq6k3l5j1a2zqfr0a0a318k"))))
+            "0kia26mm0dqki41jhms08fmb0plz6b1q1xbb8nq94bvdp21nirlj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/SFTtech/starlit-emacs")
@@ -113605,17 +113605,17 @@
 (define-public emacs-tree-sitter-ess-r
   (package
     (name "emacs-tree-sitter-ess-r")
-    (version "20220801.1453")
+    (version "20221012.640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/tree-sitter-ess-r.git")
                (commit
-                 "52fcf9a83dc3ec1cbd0b662794a59cfc23eaa204")))
+                 "9669c00f3d3463e6769725af74c392891e269eed")))
         (sha256
           (base32
-            "08mr4scy3pw45hghbss71akdy08qqdsphwfw59pmdjs36m65ik1r"))))
+            "083m21lqgic910fqbxc104fai0vh2hrb7s2nlln43l7hlb8939b4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ess
@@ -118648,17 +118648,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20220820.1935")
+    (version "20221012.800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "de9dfa3ac3cd54e6acb4f9d9d1343f8d4eabd363")))
+                 "4b8a695825fda366927894e498421f35fce1cbb9")))
         (sha256
           (base32
-            "0rwifqcn1m5s82vqpi0jk9zx0vz2i2bj5m5jjc1grkgkfhf2psr8"))))
+            "0m8fhy3vgczgl051l05lycydpybki2b5gi63i134h2xmgm2m5rvq"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
