@@ -2038,17 +2038,17 @@
 (define-public emacs-ahg
   (package
     (name "emacs-ahg")
-    (version "20220825.1006")
+    (version "20221013.916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://bitbucket.org/agriggio/ahg")
                (commit
-                 "0e1bb428e1501155dba3f1cbcd789267263ba264")))
+                 "8f0dc52dedcf20e1662c964c6577cfb737381505")))
         (sha256
           (base32
-            "0qavisfyaza5wsg6lksd85y4izy46lyz4vh7wk6m3y4bjxv6rbyn"))))
+            "0hi6vdzx2v18knbz1y6jq5rkrz0nxp7i6gva4riwd55cjd51nbj4"))))
     (build-system melpa-build-system)
     (home-page "https://bitbucket.org/agriggio/ahg")
     (synopsis
@@ -10200,17 +10200,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221011.1128")
+    (version "20221013.829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "89fe409b45b1f73a3de4cb009e20cf99ca6106b2")))
+                 "c976301286df7120863fe31b3224a7b22c8cf550")))
         (sha256
           (base32
-            "049kyasjl0l9xyn0yjm0cp54zsakxzgzk5wvl8w0p83jphvg7iyi"))))
+            "1kw8bd6q9dm2phdwsch3fif7kj68z1z00iczfmyfw5n806a7zifq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -16957,17 +16957,17 @@
 (define-public emacs-consult-project-extra
   (package
     (name "emacs-consult-project-extra")
-    (version "20220424.1815")
+    (version "20221013.1014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Qkessler/consult-project-extra.git")
                (commit
-                 "fa882a0bf9b697ebb59d0dfa2ffd81ea6daabf41")))
+                 "9fdf45fa40471900b0b158d73c4b1521a13d47ef")))
         (sha256
           (base32
-            "00gf7fam9gfll9s7bw7bna64y1ynmlhqf4jcbkfhj02laff2virf"))))
+            "02m5vslf46kc9qjdyjqg3kjgv7a8vs0vmmc9gjh62nxfnz1dl7gn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -20005,17 +20005,17 @@
 (define-public emacs-dash
   (package
     (name "emacs-dash")
-    (version "20220608.1931")
+    (version "20221013.836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/dash.el.git")
                (commit
-                 "0ac1ecf6b56eb67bb81a3cf70f8d4354b5782341")))
+                 "3df46d7d9fe74f52a661565888e4d31fd760f0df")))
         (sha256
           (base32
-            "0li53fpvszg51p1m3mw5klyxhgl5fz45zid82pw985znapk5a0l2"))))
+            "07g8rizz6bsjqymnbmjniv7v09d90x4zy5b9j8clmgyfy5040ivg"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("dash.el" "dash.texi")))
     (home-page "https://github.com/magnars/dash.el")
@@ -21155,7 +21155,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221011.1607")
+    (version "20221013.825")
     (source
       (origin
         (method url-fetch)
@@ -21165,7 +21165,7 @@
                ".tar"))
         (sha256
           (base32
-            "1pfqppjcl4pb6d55xn04p8zymikx0993dpahvinxll9byfzj07ns"))))
+            "0x5xxjypckbkz3vrbgnf54ivg6syswmcglii6l8zra8hqa258ir6"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -25007,17 +25007,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221012.1842")
+    (version "20221013.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "8dd23b6b19d69307f0b43303285c1bae140157cf")))
+                 "7fa2503b4b4009f7fa416248fa7e1cbaa13d69c9")))
         (sha256
           (base32
-            "1xc7chxq0h7k5slrvdz58c49bcacwyl1cd1fmq3izcns1yhcb3xi"))))
+            "1yw8n93c7076zzkw4m7lzh4zyjck68hn7rqc7nh6s9vxlym5m56q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -32670,17 +32670,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221012.2010")
+    (version "20221013.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "a3110e6fb12cef3d29f2716e2e36e47ce886dd1f")))
+                 "a42516de16caad2a23ec25cc15d8c21687a91175")))
         (sha256
           (base32
-            "051lgay7v151jjpddgq3ysf7d0bmmii3h6fcqjp09ypmnmjcc1da"))))
+            "1b1ic40mkbrna3kn2zgl2wk18vmx25my3mvs3dbgddis73gb5mzq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -70356,17 +70356,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20221012.1230")
+    (version "20221013.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "d13ea27e423afa0ce1add640b669500963ba3afa")))
+                 "51085868d06852858bf2aa99baee273bf7703272")))
         (sha256
           (base32
-            "0zclvckbids9rmnjgqnmzv9c2a25hkj9900i921rsnlhskwdwbw6"))))
+            "1q6x6kh0cm3jrjsski9xqqy7wlzjvpxww47h5vq88akb3zp50ccj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -83558,17 +83558,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20220906.1801")
+    (version "20221013.1140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "fcd49ce41bdb906beb557586f5b705e9eb732162")))
+                 "436fb14ebff975781c89297e736047c6aec61e21")))
         (sha256
           (base32
-            "15dwk2h1dr477yh7s5lmns61cwsp9g4lp1aqc92f8a9mvap4rcix"))))
+            "0d7yg5ayf68ikw6wyf17z0rym4i89z8rwb8zqjfryfq1z18z2952"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -98998,17 +98998,17 @@
 (define-public emacs-rfc-mode
   (package
     (name "emacs-rfc-mode")
-    (version "20210615.1721")
+    (version "20221013.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galdor/rfc-mode.git")
                (commit
-                 "3ef663203b157e7c5b2cd3c425ec8fbe7977a24c")))
+                 "93208d44516e1f4c6e181ee5d374f2dbd7199d0c")))
         (sha256
           (base32
-            "0lrmgvrj69rs49vjfwkm3w9z4y5mkndra1kdqmr9s7z9f1558is1"))))
+            "0rxsmxk3kdlywmyaw2nrq26hqb84l46cj56l1f15b98c3m0pzxzg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/galdor/rfc-mode")
     (synopsis "RFC document browser and viewer")
