@@ -34335,17 +34335,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20221007.1749")
+    (version "20221013.635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "3c9a444a14b5f000e909b9b24458332e2916c9fc")))
+                 "490b2664f92abab05ae3e8fee000ce6d36d6cb99")))
         (sha256
           (base32
-            "1cm1bfpb2a9anp2al2624g87jl90xbz64ym9hvl0apy8b2adwy11"))))
+            "0v5hikdak5xk18iw0rhabn403xi3rgbjsc28ykz8sixhwi3cv7jh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -43469,17 +43469,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221012.237")
+    (version "20221013.200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "a9b17f08a0c40d2b2ac5d3d130a8b40f5890ccfa")))
+                 "d0fb87e435e2776c18d67040e0bb0dfb736c6006")))
         (sha256
           (base32
-            "0sib99qf7j6576y1fb1iz1yakfcq18zmj1kxh1yf95z03804ndf6"))))
+            "0wxdg67vdccam2zbz58rgih8d2y0nqdkvhlvpfcyzrbkhfhnb2jc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43494,25 +43494,24 @@
 (define-public emacs-geiser-chez
   (package
     (name "emacs-geiser-chez")
-    (version "20221010.425")
+    (version "20221013.245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chez.git")
                (commit
-                 "53b7279550a06967f660656363daa87bb261a753")))
+                 "b91775c9a778ffbb91a9539ed2b1236ae06c68a6")))
         (sha256
           (base32
-            "0pvbb6gpxmahyzrz8wp1h3hqx2hk9rfv5cra4h65aq9mhsg9ishz"))))
+            "0kxjmwg9jhrplqiyld5q7f7yfr06ppcxz59zsb24150rg67y4mqk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files (:defaults ("src" "src/*"))))
     (home-page
       "https://gitlab.com/emacs-geiser/chez")
-    (synopsis
-      "Chez Scheme's implementation of the geiser protocols")
+    (synopsis "Chez and Geiser talk to each other")
     (description
       "Documentation at https://melpa.org/#/geiser-chez")
     (license #f)))
@@ -93638,17 +93637,17 @@
 (define-public emacs-projectile-ripgrep
   (package
     (name "emacs-projectile-ripgrep")
-    (version "20180914.1500")
+    (version "20221013.541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nlamirault/ripgrep.el.git")
                (commit
-                 "40e871dcc4519a70981e9f28acea304692a60978")))
+                 "b6bd5beb0c11348f1afd9486cbb451d0d2e3c45a")))
         (sha256
           (base32
-            "0snn12iibz5frsx6yk6c31hb8knvsd568ghw9jjka5vxdjzap7p9"))))
+            "0wi7kx98c80vja6hs509d3jg96h5lk1wdldz6qiz5arijbcl3n9z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ripgrep emacs-projectile))
@@ -107017,7 +107016,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20220911.851")
+    (version "20221013.601")
     (source
       (origin
         (method url-fetch)
@@ -107027,7 +107026,7 @@
                ".el"))
         (sha256
           (base32
-            "0q53fp8ykqp17g4j610wd2kdkfkq6yargkgjs2mg7slx776vs423"))))
+            "0klg5nf6jq8l0i0wl993n0gaasr55108jcs6hxs3a2wvhad9si84"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
