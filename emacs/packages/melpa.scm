@@ -10628,17 +10628,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20221011.147")
+    (version "20221012.1849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "005a9765678078908c2e77ba17a08db3e87ca265")))
+                 "6aa060373e5d108a3f28fe4d03f75dc82280beb3")))
         (sha256
           (base32
-            "1bsa643s5gcz097dcmz0p13bvybc0rn23wv2ygy6k2j9akllbx8p"))))
+            "03jfng8lwfvhbvqx23naim53rd1x5b7w7md1pjl652kzkhqsm1ai"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis "Catppuccin Theme")
@@ -19698,17 +19698,17 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20221012.1414")
+    (version "20221012.1919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "30c8d925a7350aecccf29191af725ae2f84f169b")))
+                 "e3a78efd90e0cd3f6919063bdf11b4a02a037442")))
         (sha256
           (base32
-            "0q83an87vw2cd34ag8iljg6xwik69bcs1hpqyp3dkqfscs8cqxcs"))))
+            "0p3a0yvkj2bhkq4rvkrzf0w97i1n9x4jar5k5df4qmlhds5k78xj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -25007,17 +25007,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221012.123")
+    (version "20221012.1842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "919817520fa507dd3c7e6859eb982976e28b2575")))
+                 "8dd23b6b19d69307f0b43303285c1bae140157cf")))
         (sha256
           (base32
-            "162jamz80xqvspwvvbrycjpqnk0b96jnpmf664dm35dw605nwrp4"))))
+            "1xc7chxq0h7k5slrvdz58c49bcacwyl1cd1fmq3izcns1yhcb3xi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -32670,17 +32670,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221006.2227")
+    (version "20221012.2010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "840084f1ce208388b0e36b560763420cc16886dd")))
+                 "a3110e6fb12cef3d29f2716e2e36e47ce886dd1f")))
         (sha256
           (base32
-            "0is2rqawj0dka889biyx6cfpvj5zvrjni1sgklfbgr4wwklyvrkm"))))
+            "051lgay7v151jjpddgq3ysf7d0bmmii3h6fcqjp09ypmnmjcc1da"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -67699,17 +67699,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221009.1500")
+    (version "20221012.1532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "cdf5b13763d6dd893f87b2cdf4d348b4df7c710a")))
+                 "021b8cb6cc23c688720ff0f936ff52b18a9a28d5")))
         (sha256
           (base32
-            "1xqncykb0fhhqrla6dgm77kqixv7mgzpmzq3wy5pfc02i7vsbhsk"))))
+            "0bqj7nj57wwkqxs7i9x1svplgs321lc6r4ms5zk4xyk85x7hqrq7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -100255,23 +100255,20 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20220903.824")
+    (version "20221012.2016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "6a1ffaed684fdfc4b963d0d723b9753ee0f19e4c")))
+                 "c572dd8e1d5028fbf0fff7151a769b5f55b8a152")))
         (sha256
           (base32
-            "0605g09zbhvard03vs0wv5052i3vns82gzf9ar1lz8pd8vngpxy9"))))
+            "00772sw009h1xmlbvf4g719ch6lcnav373dsrvzkwn5f8vdp295m"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-dash
-            emacs-f
-            emacs-run-command
-            emacs-ht))
+      (list emacs-dash emacs-f emacs-run-command))
     (arguments
       '(#:files
         (:defaults "run-command-recipes-template.txt")))
@@ -115890,17 +115887,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20220910.25")
+    (version "20221012.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "9407f5f01c78ec3cb180f76eaf3adab35b80e3c3")))
+                 "28531e9b94c72ed777803e10e391ea287496ffc2")))
         (sha256
           (base32
-            "1llivgzivfsrfqzlzpmi6swz18p03sqmbjdncv42b70m5gd34i79"))))
+            "0xkafiv3yi95ax1zs1rkmsx930dla00aqhnhmqya9bjzifgm6cha"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
@@ -117681,17 +117678,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20220923.1634")
+    (version "20221012.1950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "d03f8d4eb43e89f64985eb661be9a6265588585d")))
+                 "a95aecaba0e6a83b7083be98be636a19df20f666")))
         (sha256
           (base32
-            "1fx7fh367fl2q0s8j3nbgrb8hg82bllibds73nyvdh0v4ffhcl9k"))))
+            "0ccin7lmfqsfa6kcz5fgmsp0awa6cjc32sg1fq4az28c99wmsp2z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
@@ -117703,17 +117700,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20220923.1634")
+    (version "20221012.1950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "0d324e0c536e990dd6592d88b2f41c34e4c18af1")))
+                 "04867f8450bdec6ebad339f006050dbbfce12d76")))
         (sha256
           (base32
-            "15l43fb22vybpcbb4a5m0m5sxc8lhgfdznwpd58ck6xdhqzvyjfz"))))
+            "10vmcqkgmg6xs8wg9izcq5gayajpw3zfcd1q456ip3hvcfhc3jhv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
