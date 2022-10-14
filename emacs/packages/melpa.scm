@@ -17004,7 +17004,7 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20221013.2053")
+    (version "20221013.2233")
     (source
       (origin
         (method url-fetch)
@@ -17014,7 +17014,7 @@
                ".el"))
         (sha256
           (base32
-            "1hm2ng4ysvhpxhnam0pzy8s6qjhnlvsg2c92kixdlppa97ixsdm2"))))
+            "1qy7hbz0jbyn5xklznk653wn1ygsd9slb1kqzxg4hxi88k6h2gh0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -43469,17 +43469,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221013.2203")
+    (version "20221014.412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "9a767e024da339aa12b0861473826384914ba010")))
+                 "9a172f3eb9b4089b9350f88ac015d1d3ee6fcd10")))
         (sha256
           (base32
-            "10i4jf4kxqr29jbip2fqw0m5lb01xrhwaw6wqrgiy1yi1a9ch6f4"))))
+            "1al6vskjdqiwp8hkwhf7zsjgg3x6j48g3jjyf9i2rd2kknna3c9d"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43494,17 +43494,17 @@
 (define-public emacs-geiser-chez
   (package
     (name "emacs-geiser-chez")
-    (version "20221013.245")
+    (version "20221014.353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chez.git")
                (commit
-                 "b91775c9a778ffbb91a9539ed2b1236ae06c68a6")))
+                 "ca9223e0b2cac5a2cab6d967b7cd8b94082bba29")))
         (sha256
           (base32
-            "0kxjmwg9jhrplqiyld5q7f7yfr06ppcxz59zsb24150rg67y4mqk"))))
+            "0vs8w1f0gximj7fwy4vif0ipdk2j8yqfj44z7znjpnx0xv4zj23x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -106879,17 +106879,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221012.210")
+    (version "20221014.213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "07cbc0cb5258e4f873a292d67646723c0542fac0")))
+                 "4ed06484aec64ff04e435c2c8c34325d6c6033f5")))
         (sha256
           (base32
-            "1fwzsjc1dpklc3rs4kh2fxs4ms87ga56z08g3pnjv11gl8nlx71n"))))
+            "01nx3jz9vkzy9xmrf6h9qkwixyg5j9h3dmhp7y66yr6a8y72ghz4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
