@@ -11044,7 +11044,7 @@
 (define-public emacs-cern-ldap
   (package
     (name "emacs-cern-ldap")
-    (version "20221010.1451")
+    (version "20221014.1151")
     (source
       (origin
         (method url-fetch)
@@ -11054,7 +11054,7 @@
                ".el"))
         (sha256
           (base32
-            "1ygj9g7is8xjqg3zfrrxfiy33l33a38br6nh65nnsjd02salpry0"))))
+            "1nmmhb13ib4pnk1l3xr054861sny0w8xnnj1yvlclcvcad26z3bp"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~nbarrientos/cern-ldap.el")
@@ -19937,17 +19937,17 @@
 (define-public emacs-darktooth-theme
   (package
     (name "emacs-darktooth-theme")
-    (version "20220923.347")
+    (version "20221014.1418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-darktooth.git")
                (commit
-                 "c64c1dd0e2364197ca9ac6410392eade27a55909")))
+                 "fd3df73a4d937fa9e12f0b18acb009a9d40f245e")))
         (sha256
           (base32
-            "1bx757mhv2vpjdxc4hna6vfvazddbj8al7p1i47kz64qvgfvnab5"))))
+            "0dvfk9kyza6yq0jn9g2ffb5gv07xnjg6myxkqfxpll7m2s0zasi7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -21155,7 +21155,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221013.1315")
+    (version "20221014.1441")
     (source
       (origin
         (method url-fetch)
@@ -21165,7 +21165,7 @@
                ".tar"))
         (sha256
           (base32
-            "0cs4xrfs3plswis5kap8az34pvbrd3a0r4fb0hbhp2y6xyll3fnl"))))
+            "0w3mgr0ggfnpp7ck5b4fs3wfpxyykxsp7v75nhzzv87ihd6pir19"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -22919,17 +22919,17 @@
 (define-public emacs-dirvish
   (package
     (name "emacs-dirvish")
-    (version "20221013.1528")
+    (version "20221014.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alexluigit/dirvish.git")
                (commit
-                 "6c76aabbb32ba4bfc7faa9512cdb6c1c681f0126")))
+                 "ec4100612b2e93d9e188e7eab4c144b45f3547ee")))
         (sha256
           (base32
-            "1xir9bqxxfhkg4vxrgbmcn16vz5fhs5maq30ir9qdd950min2940"))))
+            "0jqsg91qzbd1n7cg7y1484js8ykrysmxs17c0f4lvx7vxwkjhpyg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "extensions/*.el")))
@@ -25629,17 +25629,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20221009.0")
+    (version "20221014.815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "404b7546c48669ba14e8e0a70e2d61d734038b40")))
+                 "dd055e0657ddee2ea9e5f00b72334faaa8b0c829")))
         (sha256
           (base32
-            "1bzpznj8h65m87dw8bk8lw4ldbrnzniwfwq2ii54b7w4cwgh2q1m"))))
+            "1184i9xhx58y06c5gx9qjsn5qch7vvib1rwnn0j4163mlji6fsfm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -34335,17 +34335,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20221013.635")
+    (version "20221014.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "490b2664f92abab05ae3e8fee000ce6d36d6cb99")))
+                 "b986367722bb853f136fa57795e556c0fd6c981f")))
         (sha256
           (base32
-            "0v5hikdak5xk18iw0rhabn403xi3rgbjsc28ykz8sixhwi3cv7jh"))))
+            "18nswh0kff0gdfccl228dc3lh2k5f870qkylv78f17pgp26ragd0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -68186,17 +68186,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20220715.2128")
+    (version "20221014.853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "097d6021a4ff0eae704cc3074e064c9509c5cafc")))
+                 "6af70181699c5470be34940ee16b44374cec2037")))
         (sha256
           (base32
-            "0ari87b4fxb38rldvvasw4bqxmwndqq1yj18jr1rhb42w367qqdx"))))
+            "17pk416fqf0nl0rxybn6lpsrhyzvklcd1b1dlwmnp4rq855q0nc1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
