@@ -6519,17 +6519,17 @@
 (define-public emacs-basic-mode
   (package
     (name "emacs-basic-mode")
-    (version "20220917.718")
+    (version "20221015.901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/basic-mode.git")
                (commit
-                 "a3c305577c2e8d53b78f0255161f3568e9d0bb89")))
+                 "d270a692ed4a9c6b172d1215ee538ebaff947eab")))
         (sha256
           (base32
-            "0nwzqj3m0nx403kx4qmc7slg9n5x0xyld43rxr95hwv204gwvh6y"))))
+            "0lrmsf23yrqpl4vqihwqa8y8mkk80agzdgkv26rsdbgc2psajsig"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -17420,17 +17420,17 @@
 (define-public emacs-counsel
   (package
     (name "emacs-counsel")
-    (version "20220923.1051")
+    (version "20221015.936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "0ca0c096f1ed6a920f3b398f743525adddb1ad61")))
+                 "b8be4913a661b557e0d3275726e36871556569d3")))
         (sha256
           (base32
-            "0g6xhbsbn8rchj3hg85hy0hms1x451ffq13sjnmh4hi61n9nr48q"))))
+            "1pwq00w97rbx0ppddhxmlkp4cb3d6w81c3ymq6baf12fkghixv6x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-swiper))
     (arguments '(#:files ("counsel.el")))
@@ -19384,17 +19384,17 @@
 (define-public emacs-cycle-at-point
   (package
     (name "emacs-cycle-at-point")
-    (version "20220723.646")
+    (version "20221015.435")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-cycle-at-point.git")
-               (commit
-                 "7d8198e509c49eaeb76072bb8f1baa46d7970100")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/cycle-at-point-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "1jhlda49j0ijd1b3xqy8lh5mspirx0p54icq4s1cs5f8kbf0w9rd"))))
+            "0b70cmpfy0h27cffgbxcak0pfly2abbn4c4nv4kjhh34b071z9c0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-recomplete))
     (home-page
@@ -24122,17 +24122,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221011.1511")
+    (version "20221015.1546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "997c3240067e7b0cd19eac06ad3643e43572875d")))
+                 "68689f4c5e46e6ac3d4669966d506b8b5609cd72")))
         (sha256
           (base32
-            "0zsqlnv564883w4xk2gdkai5h3r4hg3qifxk4nyy1ri87yckl1hl"))))
+            "1qjp03hlhh81lx7vbhxngjd3iancbvvwcbk98cljhy6s3mvs30yl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -33579,17 +33579,17 @@
 (define-public emacs-evil-nerd-commenter
   (package
     (name "emacs-evil-nerd-commenter")
-    (version "20220718.1414")
+    (version "20221015.245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-nerd-commenter.git")
                (commit
-                 "d34ad3001f70d041d676df9cd947784244ebe93e")))
+                 "9609fb170da00aeca1716b022d93e1cb68464a34")))
         (sha256
           (base32
-            "1i4q9lpak6cj1an40d95z6skqy0j3dryn0vvnbhhw1y5l6w4917x"))))
+            "0xrbmz9mx4aclqgjyjaq7vj9xf4291rw4nxaz2nvqblv8yylqbr0"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-nerd-commenter")
@@ -43494,17 +43494,17 @@
 (define-public emacs-geiser-chez
   (package
     (name "emacs-geiser-chez")
-    (version "20221014.353")
+    (version "20221015.615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chez.git")
                (commit
-                 "ca9223e0b2cac5a2cab6d967b7cd8b94082bba29")))
+                 "f00dcb93477ef97c215debf6267192cd0dd94e22")))
         (sha256
           (base32
-            "0vs8w1f0gximj7fwy4vif0ipdk2j8yqfj44z7znjpnx0xv4zj23x"))))
+            "0yzldb0adj27jvcq5x3kkvv1spiaibs6azcnp02r1rvc0cnnw764"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -44514,17 +44514,17 @@
 (define-public emacs-git-backup-ivy
   (package
     (name "emacs-git-backup-ivy")
-    (version "20221014.2018")
+    (version "20221015.431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/walseb/git-backup-ivy.git")
                (commit
-                 "8e6a384fb7656123b06521a49479ebf9e11fcc94")))
+                 "e54a3c4b95023c58664a2c59b95a95a07759a1f8")))
         (sha256
           (base32
-            "09f9x8zbikg8biy5pmm5n2imr2dgi2jd7dkg7l2b2kj5sv1jncfd"))))
+            "12r7nk5zxplaq5sk67003h57nc7m6z3xi50g6xnqwas8z7pczfpi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy emacs-git-backup))
@@ -71465,17 +71465,17 @@
 (define-public emacs-mentor
   (package
     (name "emacs-mentor")
-    (version "20220922.1342")
+    (version "20221015.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skangas/mentor.git")
                (commit
-                 "9508abcd313feeef28f780a6d0061efd8d2f21ef")))
+                 "ba02a36e4fa2587c35c7d6cf8ee6f89f7f5611f4")))
         (sha256
           (base32
-            "1lm8kd9f9dz7d8jh86ggq32q45dl7zg3qwfwklr12gb2ks28zpcd"))))
+            "1g9z9z7v48y7k6s06r7kga2zwd34a71ih4c161l8yjb7cbnkj5a5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-xml-rpc emacs-async))
@@ -83558,17 +83558,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20221013.1140")
+    (version "20221015.1308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "436fb14ebff975781c89297e736047c6aec61e21")))
+                 "7f46abf8c520af4503fe454c79ab121fd3efb9f3")))
         (sha256
           (base32
-            "0d7yg5ayf68ikw6wyf17z0rym4i89z8rwb8zqjfryfq1z18z2952"))))
+            "13ndglfcj2fsv3fm9j3rzj6cp4y42fmsbw74xik5ym7i4s6vj6jp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -89546,17 +89546,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221014.1617")
+    (version "20221015.1054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "f5319ce20a9c1c6351342eba937aab606f8cafe4")))
+                 "334300996b16946709531d74c4285fe3ab2e50be")))
         (sha256
           (base32
-            "00zn5ikpyv1ljyzqd0kdlxs8nrc9dkgnfp1wb1dniylnsap7bv6n"))))
+            "01zyxl17v73yym2rr5gliyc3x93m7ymzc02g20pf2br4ham0mh7l"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -92330,17 +92330,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20221009.23")
+    (version "20221015.727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "0c5e57ac870735cb780936b1efc4bdd17fe87112")))
+                 "3084cb6eb366d26b0f5a4aa9baffb297178be3b8")))
         (sha256
           (base32
-            "15q7igq28z36v0fq31hhdp5xp0fl9cf864i4hhapvh295hf2n8xy"))))
+            "0y8mm8wpylvnmpfvk56hfs550cd181fwwxpbqip7px1wc0wqfmhl"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
@@ -96102,17 +96102,17 @@
 (define-public emacs-quickrun
   (package
     (name "emacs-quickrun")
-    (version "20221010.1843")
+    (version "20221015.1114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/quickrun.git")
                (commit
-                 "04ab23ba3483fcf8ca05927464cf76818cb9dfa3")))
+                 "548b64c3679ff058d80d0080c06d736e25611563")))
         (sha256
           (base32
-            "14607mb9cjbvccil5v3isfm5z0749nm1azfkqzrjwhksyj861l13"))))
+            "1nbvp4vwiz3hd962db1gh4c19r4xj0p0rr6jbm34mbnm3bm0lgyz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ht))
     (home-page
@@ -107019,7 +107019,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20221013.601")
+    (version "20221015.431")
     (source
       (origin
         (method url-fetch)
@@ -107029,7 +107029,7 @@
                ".el"))
         (sha256
           (base32
-            "0klg5nf6jq8l0i0wl993n0gaasr55108jcs6hxs3a2wvhad9si84"))))
+            "09wf1hlc526f3jhyvsyfn85v6r1nnd8lnn8ripy44s9z96vflkh1"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -110723,17 +110723,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221014.1850")
+    (version "20221015.1120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "37432b47883a927d34d0476678d5c06e17760ebe")))
+                 "d88a481e81ed4cc516ed6726f508c4c75aa8cd7d")))
         (sha256
           (base32
-            "1p5cpygfawjrgnvmnjhqdbskhgh0b7m6gaab84ndck0h5dp8gd3j"))))
+            "06aa281vs7dlq7xhvyabmwq0dzf2ghb531f7jx05vda6z0r5kshn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -115097,17 +115097,17 @@
 (define-public emacs-undo-fu
   (package
     (name "emacs-undo-fu")
-    (version "20220731.2326")
+    (version "20221015.433")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-undo-fu.git")
-               (commit
-                 "b0d6eba024ac87a0aaf7fa66ae76d76f6c764d46")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/undo-fu-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1h68p5dy11mmmn680smhh748gxk3ch11lsjfp10wskrhahvfix7y"))))
+            "1p2jdmx1i6hww6fnf2f8sgvqxzbkq9f0nyvcs8kcfcv5f1i4q46f"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-undo-fu")
@@ -115637,17 +115637,17 @@
 (define-public emacs-unkillable-scratch
   (package
     (name "emacs-unkillable-scratch")
-    (version "20190309.17")
+    (version "20221015.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/EricCrosson/unkillable-scratch.git")
                (commit
-                 "b24c2a760529833f230c14cb02ff6e7ec92288ab")))
+                 "6c752e4cd4762bb4bcde2b0b96f2e83740efd104")))
         (sha256
           (base32
-            "13wjbcxr3km4s96yhpavgs5acs5pvqv3ih1p84diqb3x3i6wd4pa"))))
+            "1sx2j32xv95hg3wslhqkrs2fcsiyh3rvkrmp9p0bzmim0v7w2p78"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/EricCrosson/unkillable-scratch")
@@ -122932,17 +122932,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20220828.1523")
+    (version "20221015.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "5960a9d0fbe2c7845773008c35951b16b80155de")))
+                 "0926ece1435577b94837672cf0f0367e12736c20")))
         (sha256
           (base32
-            "0smnm83hrxaddx82rhrypvxxirg63j3m4bklx6kvl6ysf5kaclad"))))
+            "0yj3srwsrax38y5mc7ka7g0r5dhq0vvpb054ny17ayiyqds9p4zp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
