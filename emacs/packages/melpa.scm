@@ -4489,20 +4489,20 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20220908.1519")
+    (version "20221016.1212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "ecfdf357f4bde6d9acb0826c82a32e72e9c4972f")))
+                 "1fa24925fcea475c62bfd3041cf25d828ce00f34")))
         (sha256
           (base32
-            "03pnyvvvppg60gs9nf6n6inaf2bdppq0ilgm174zw4s8ir2ad4r5"))))
+            "0npcn2ajpx1p3560z19wyb1dzf0z4dv9n9r1qw3lxnv45li5bxgn"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-dash emacs-f emacs-flycheck emacs-s))
+      (list emacs-dash emacs-f emacs-s))
     (home-page "https://github.com/jyp/attrap")
     (synopsis "ATtempt To Repair At Point")
     (description
@@ -16624,17 +16624,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221015.2101")
+    (version "20221016.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "cc615b0a8ffe936ae2253fd1d6a43db1f74f2e89")))
+                 "cf9c5e5d0c060189fec174e65d8deb8c77cd1580")))
         (sha256
           (base32
-            "1agf76s99y5b58nziydhrcang3lpl0jm00kbmb7rcnwr26qrdigs"))))
+            "0qw8rcmq1c2l9xy37p5ay18vs8v85fp9g54lg8m2n5zic6q4rpyq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16933,17 +16933,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20220921.507")
+    (version "20221016.1032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "3eae47a4667a583e30703c1c5344e26225b5f676")))
+                 "6f64973ca132217b9689c6140e5e2b7c598f6fbb")))
         (sha256
           (base32
-            "1p78nb940kyrlb3qpd2ll6zbvi1swdajc661ly9aq6kzmrvcia9r"))))
+            "0xw2i64j3v3w3szb2vrl4i3qr7k9pi7g0ly242n0mpn95dp7cpd5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -19698,17 +19698,17 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20221015.1623")
+    (version "20221016.1005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "f24f472d54fbf9543f228d4aa55429f3d1964d4e")))
+                 "d5f9a120423828da3753fc1d92dc679af325c34c")))
         (sha256
           (base32
-            "1f03am93npsafnnw1d0v9fppgncfdhwbpb6lmmd46aj00jhmbf6s"))))
+            "0rgpv98c3vqfpqkbb6kbl8z4cybiz2jyhh2jk5gzbklhkkanaz6c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70356,17 +70356,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20221013.947")
+    (version "20221016.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "51085868d06852858bf2aa99baee273bf7703272")))
+                 "cc7a086cd7816ad41ff004c61c41bdd26ec3ea0b")))
         (sha256
           (base32
-            "1q6x6kh0cm3jrjsski9xqqy7wlzjvpxww47h5vq88akb3zp50ccj"))))
+            "0ncdyczalvl677nim0iha003xway7rwxw8y35vcvkgsdk4vzv848"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -73194,7 +73194,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221015.2022")
+    (version "20221016.1516")
     (source
       (origin
         (method url-fetch)
@@ -73204,7 +73204,7 @@
                ".tar"))
         (sha256
           (base32
-            "002gs8073w9n830l4hvcnic8q94v0wdz9pmxayrskl42r1a7qzm1"))))
+            "03j5xkcss7qwhsmhdhnqnrkyd0ax8s64l4hmqjahxf7cyzaik7vi"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -82669,17 +82669,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20221011.1134")
+    (version "20221016.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "adf89bc7399f3b05766058ea7a60f1445ce6ca74")))
+                 "ed9d67d00f26148019acd67b4aac0e26360a33b1")))
         (sha256
           (base32
-            "1ai9xf12n54417vb4ka1m2wzm0jfc55d5j07f010a5rzkbqh92ax"))))
+            "1gny2p3w6ck5sarv6vap2y1lj6h9qaxbh7r7bzszb9qj8rhapk6q"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -89546,17 +89546,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221015.1054")
+    (version "20221016.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "334300996b16946709531d74c4285fe3ab2e50be")))
+                 "be251cc06c7834cded410d6b1a4e81029725d86e")))
         (sha256
           (base32
-            "01zyxl17v73yym2rr5gliyc3x93m7ymzc02g20pf2br4ham0mh7l"))))
+            "0jxwx8xbnllfk5h0vnrkkdwqyg59ihwdbg0b86bnaz8qjamdyh94"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -97608,17 +97608,17 @@
 (define-public emacs-recomplete
   (package
     (name "emacs-recomplete")
-    (version "20220731.2328")
+    (version "20221016.1018")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-recomplete.git")
-               (commit
-                 "3ed522a234bced2d2ba1d069fd00e715359ac29a")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/recomplete-"
+               version
+               ".el"))
         (sha256
           (base32
-            "18195hq4m5mk95k72q6m4hrircvh29v47w2qv47pw0gplpx0fa47"))))
+            "053yw36j47xn0by5zfqp6xi0dzghx5a8cxdkbrrb0amg26mxbdja"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-recomplete")
@@ -97717,17 +97717,17 @@
 (define-public emacs-recursion-indicator
   (package
     (name "emacs-recursion-indicator")
-    (version "20221011.1130")
+    (version "20221016.1015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/recursion-indicator.git")
                (commit
-                 "492af1a7c6305a552458920f4f46c5388cabc3e2")))
+                 "ba3cc0765af966e8acc27f6606c8918f442e37e9")))
         (sha256
           (base32
-            "08m8m4hlw5ja76m9w5qcn6k17pgzy9zz6yf55yiqv5yf2dv6ld2k"))))
+            "1rq2c5jvs0v9z7zvvs6vynchmaxaznw8jw00qbw5y8hq0alifi3g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/minad/recursion-indicator")
@@ -104140,17 +104140,17 @@
 (define-public emacs-simplicity-theme
   (package
     (name "emacs-simplicity-theme")
-    (version "20221013.1826")
+    (version "20221016.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/smallwat3r/emacs-simplicity-theme.git")
                (commit
-                 "f3c8ce7a01f352a7a1cce981538ae31214d993ce")))
+                 "f4aab6aa07b536688eb62355b83dde5fcd16e049")))
         (sha256
           (base32
-            "1gpb8pbbfy6nhkv7y0irdxldm2x94cq31djwchmk88vbpbmrwcih"))))
+            "0ydgx94wxv6x81yqzy5bwrs06cx8hsrw2c1y4gw3awm953m9259g"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/smallwat3r/emacs-simplicity-theme")
@@ -110839,17 +110839,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20221011.1728")
+    (version "20221016.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "f4e6b35fbf8ff8e7d931c78378113de6d36fc95b")))
+                 "7d7adf155760d33b8c391fbf1e99c5be85bab85a")))
         (sha256
           (base32
-            "12478mp04jr1pvqbdwgciyx2wv9j88lavw3lanxg9dci9m5vrvg7"))))
+            "1za73zszj373r8pxf89cwwfrwsf8dy6nxciw11adcccrm92xwdsz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
