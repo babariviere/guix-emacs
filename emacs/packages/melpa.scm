@@ -24122,17 +24122,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221015.1546")
+    (version "20221016.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "68689f4c5e46e6ac3d4669966d506b8b5609cd72")))
+                 "8cad5410969f7a4957cb54abe48b9a92abc1041d")))
         (sha256
           (base32
-            "1qjp03hlhh81lx7vbhxngjd3iancbvvwcbk98cljhy6s3mvs30yl"))))
+            "13bnykpcq8s1x62ss499hmxy5xyxhkbmdj9ayswpbfs2ga7w63vf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -43469,17 +43469,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221014.2323")
+    (version "20221016.314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "af81e4fb1088d9ccbd36dcd541e29eb2770e4d87")))
+                 "8637d72db828328ea645466036878820ec92d183")))
         (sha256
           (base32
-            "1mk9m6vya544in3b41mj8g7453dchiaj7hp6m6ymmcbfmlbfdwk2"))))
+            "1q8gpzlfs7njrr6rbhlq3azf21bp9yh5pn7vnwnh5wqb9qy9jz58"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43494,17 +43494,17 @@
 (define-public emacs-geiser-chez
   (package
     (name "emacs-geiser-chez")
-    (version "20221015.615")
+    (version "20221016.317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chez.git")
                (commit
-                 "f00dcb93477ef97c215debf6267192cd0dd94e22")))
+                 "e7b2c6635f9511c8294af862daf874bc519f56bf")))
         (sha256
           (base32
-            "0yzldb0adj27jvcq5x3kkvv1spiaibs6azcnp02r1rvc0cnnw764"))))
+            "1iz8vdqpbpzic2qsp0fcnqcvdjcr45vsx0rhb3y0vixmwwbi22z2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -55091,7 +55091,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20220929.2350")
+    (version "20221016.508")
     (source
       (origin
         (method url-fetch)
@@ -55101,7 +55101,7 @@
                ".tar"))
         (sha256
           (base32
-            "0hz7a5hkyzgvwcj9s00h4xlz8q9nnkrggkpahxm2zb2199n6gv98"))))
+            "1wmvd0z8ixpsfdrmn8q4slbi83apnfrq0r2rqxp7vd3zl9m8r1ha"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
@@ -94451,17 +94451,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20220730.1556")
+    (version "20221016.427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "28836e98d5566172b1a94d7b38290d07b49201b2")))
+                 "af8dfe1f5a3e5c4ba650fd15716ae707f29b33f8")))
         (sha256
           (base32
-            "1z35nzsqcp8q9nnka0d5gpiidl07qfqmd2giwnd3b3v7h3v1kwpz"))))
+            "1pdghwwcx28f056w0v26d21da6l3nwh8nsmw7lf8zrn43b259yas"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
