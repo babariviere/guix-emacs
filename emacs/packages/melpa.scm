@@ -4513,17 +4513,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20221016.2018")
+    (version "20221017.813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "04d6864d0a355671e551d6e6cdf00b874a2529ad")))
+                 "17ba9a0f6ad5d7213a48581ba39c2d0fb68eedd5")))
         (sha256
           (base32
-            "1iiy05jcpjn9yndl7a1yidsmncjiy77fi6lmb66yyqchvbmmnbhw"))))
+            "0vrvbizd3amya7vs1cy8a951srxv5sf3h2bi5z9ibd0pkq34kx63"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -13325,17 +13325,17 @@
 (define-public emacs-closql
   (package
     (name "emacs-closql")
-    (version "20220821.1814")
+    (version "20221017.952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/emacscollective/closql.git")
+               (url "https://github.com/magit/closql.git")
                (commit
-                 "46b3020acf6655fd8abb4ef60e090629ee33e8c3")))
+                 "463b0f4d4c3e66acd5d30c6572cc45eaecc25633")))
         (sha256
           (base32
-            "1zgn8mg9l7nymc72bii2677lwin63x15avssz47w04j0g3ii6dwz"))))
+            "0kzi6h41iyz2rhz64f671p7swjnqrg9swlmfm7hr03z3hsghpz3w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-emacsql-sqlite))
@@ -19431,7 +19431,7 @@
 (define-public emacs-cycle-at-point
   (package
     (name "emacs-cycle-at-point")
-    (version "20221015.435")
+    (version "20221017.149")
     (source
       (origin
         (method url-fetch)
@@ -19441,7 +19441,7 @@
                ".tar"))
         (sha256
           (base32
-            "0b70cmpfy0h27cffgbxcak0pfly2abbn4c4nv4kjhh34b071z9c0"))))
+            "1vfps9s3j3i99vagiavkcr32mw511zqaj3x7vp2s816iwmv5l4vz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-recomplete))
     (home-page
@@ -32112,17 +32112,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20220915.2126")
+    (version "20221017.1330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "f45542e723d7415f5e22bcf39f25e31d055d168c")))
+                 "c9e19f1ca94f4225db7c1d6f0fbee7fafff7feb2")))
         (sha256
           (base32
-            "088dd8mmsabpg639r08rv8kz6qzmlmgfvqln8k26h0szzrin01di"))))
+            "0szyyab91jir1vdd5ywlqk1fws01plbn5cvn7icw007i86bvv8b0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -32717,17 +32717,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221015.2013")
+    (version "20221017.1223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "51bd3c3315899e72b5c2014e2f920219b3faef93")))
+                 "d43fe063816ba090e2892460ff1038d6d982d166")))
         (sha256
           (base32
-            "0dx5ffcsy4nlnir7jlhnqi3b0grcm57mjszlw3yi9rdx8w4wyzag"))))
+            "02b8y3i0vafr15ybvfz8gg52sq7b7hf3vbs64jgqwbfkkfa45w0z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -41892,7 +41892,7 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20221017.539")
+    (version "20221017.634")
     (source
       (origin
         (method git-fetch)
@@ -66178,7 +66178,7 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20221016.1811")
+    (version "20221017.747")
     (source
       (origin
         (method git-fetch)
