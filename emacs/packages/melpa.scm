@@ -19745,17 +19745,17 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20221016.1005")
+    (version "20221017.1959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "d5f9a120423828da3753fc1d92dc679af325c34c")))
+                 "3793b5f6b7b94f489bf9a0c33080918e7bc33030")))
         (sha256
           (base32
-            "0rgpv98c3vqfpqkbb6kbl8z4cybiz2jyhh2jk5gzbklhkkanaz6c"))))
+            "01wrinwmizycfyhaw4jl6566k8xp6di6im9z858v9s9d2ls6m4rn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -21202,7 +21202,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221014.2120")
+    (version "20221017.1647")
     (source
       (origin
         (method url-fetch)
@@ -21212,7 +21212,7 @@
                ".tar"))
         (sha256
           (base32
-            "162zan4q3v61rcdah2867fy23k975fslaw8x5qdsn7x9fd2r5zq2"))))
+            "1gd5nixjkdivqw76f5r5m8pbybqkgsg7l56fd3znvnzggvl7vrvn"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -28407,17 +28407,17 @@
 (define-public emacs-elixir-mode
   (package
     (name "emacs-elixir-mode")
-    (version "20220811.353")
+    (version "20221017.2044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elixir-editors/emacs-elixir.git")
                (commit
-                 "d495ed87a9c507f5939a51c740f119950c83e2ff")))
+                 "4974ff9a83daf50f2f03dc0d6d00871296e088b0")))
         (sha256
           (base32
-            "1cqiqairhx7chs3n72ii9iqx926hslz9av4m0k1cr52ldnxz1s80"))))
+            "1cc8qmfiz6azm7ly22cjhv7mmf5crmnfk3gx6315h0lz6rqh2885"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/elixir-editors/emacs-elixir")
@@ -32717,17 +32717,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221017.1223")
+    (version "20221017.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "d43fe063816ba090e2892460ff1038d6d982d166")))
+                 "a13a05f263dd54632d4509e7cfb2bb5df556d442")))
         (sha256
           (base32
-            "02b8y3i0vafr15ybvfz8gg52sq7b7hf3vbs64jgqwbfkkfa45w0z"))))
+            "0mb08xi2pwl5qzdr60lrjsgsg553fbx60jjl8nvmjvnp8hnhmcyw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -49663,17 +49663,17 @@
 (define-public emacs-helm-ag
   (package
     (name "emacs-helm-ag")
-    (version "20210702.845")
+    (version "20221017.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/helm-ag.git")
                (commit
-                 "7cfed5d3e861717466ae6d3f76c759548a9fad04")))
+                 "2f5e41ae979394208989c25f4cdc73a0532fede9")))
         (sha256
           (base32
-            "0j1l9ifssd2xmdiif0c922dsdii143kjp8ifygqigb9m4wbsz8ax"))))
+            "07mxpsay8an9m97g8vbvz09mgb781wh11w2v3s28gyhg8awsk4sq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -55555,17 +55555,17 @@
 (define-public emacs-hotfuzz
   (package
     (name "emacs-hotfuzz")
-    (version "20220731.934")
+    (version "20221017.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/axelf4/hotfuzz.git")
                (commit
-                 "5ccab77f7bfb1d4246aa01639e151ec9509c64bb")))
+                 "05330fc7208c654631e7484c3c7c441716901237")))
         (sha256
           (base32
-            "0s353mpajdzr76bjj8b1qvfyzmy0kv9lmhwlvbcf8xmd05gi6ifn"))))
+            "0s38pip10k4sfjffcx96pbjvrjlx7ijjgs4plr9axxdvdgnjwjvy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/axelf4/hotfuzz")
     (synopsis "Fuzzy completion style")
@@ -76997,17 +76997,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20220915.1024")
+    (version "20221017.1551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "1d5ac2720662aa60a33ff916dc9402e61c65064b")))
+                 "7c35c7b8262d77d8a44a1fe1eec79a1170dd1ef0")))
         (sha256
           (base32
-            "0451bbp71hprbrf2291mykviianv5fv006w4ilnkah0l1sjh7210"))))
+            "0mx8rkkg8ibkkq3pvc3gb73pl71q8hx8wczx6r6xyxgbpx4i6z6q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -88887,19 +88887,18 @@
 (define-public emacs-pcre2el
   (package
     (name "emacs-pcre2el")
-    (version "20221013.1644")
+    (version "20221017.2035")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joddie/pcre2el.git")
                (commit
-                 "a05f5caf1d61cc415871e2a0dc2b6fd8ac3e3550")))
+                 "0a0802b7edbaa636d65d525c21f3a0a26dbd0ec6")))
         (sha256
           (base32
-            "0aiykc1k74wkcx4jkkb2q507jlzz2rp7p6b10ff7wmi8lcl0kgai"))))
+            "0j2yfz0n18b78lmwa4xzyndh6iwjkl7r0nyvqxcj4z6fy198nxvc"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-a))
     (home-page "https://github.com/joddie/pcre2el")
     (synopsis "regexp syntax converter")
     (description
@@ -100506,17 +100505,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20220928.1157")
+    (version "20221017.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "0eca6e6f0b5b3b02233a2d03c797be2f9a983c19")))
+                 "c7b58ebc7588d1837de250927089d24aa10e4fbd")))
         (sha256
           (base32
-            "189dxc9p6dgiqgs3s0855lw4i2vpl2c9rhyyjanyih64mi378rm1"))))
+            "0ylyvw04bfws3sx0k4ccq2amxzzqkzhml6dgvk6wj108zflabps4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -110791,17 +110790,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221015.1810")
+    (version "20221017.1858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "4ac8c68f2c574040342d3f08451ab65d66644a30")))
+                 "c786170ca3f5c6407ba2c618d1e06c59d04778bd")))
         (sha256
           (base32
-            "04qbvbzjsyqsvri802xq2zcz1kplzbkkq065zcqi1qv4jkbgrk89"))))
+            "0nxgd5a3vs8qivwz8imyrvzyb2c8s1xaikzgal2p6vwg593bbvvy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
