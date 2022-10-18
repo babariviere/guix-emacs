@@ -10107,17 +10107,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20221018.146")
+    (version "20221018.925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "c22da7346dd2fd22afc3742895da95f4d0bc1079")))
+                 "758827e08b112d9df7cce051fe16b2f50f8e6b43")))
         (sha256
           (base32
-            "18sva81a6ppxvin1nmw65l1sm02y2sdww4cmpnwf7mxlf0f3m6wz"))))
+            "1x13p26g4f39vaj3lmdk91h9r2vdann7p05q276ky8i6vbhav4bn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -50393,17 +50393,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221018.442")
+    (version "20221018.1234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "0d3be5377d722f15eeaea382ee50fcb7f33b55e1")))
+                 "1697afdfdc00e99df7dc910eebf3d0da73c4f5ae")))
         (sha256
           (base32
-            "1wzb0hyl4vg9rwb8h5f4l7fpx5fgaxcy5fcr63s0yzz903iwffj6"))))
+            "0x4gmi505sg8lambqml5l3a6qb5amsjn2klr8wii9kxds52bbxl3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -67745,17 +67745,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221012.1532")
+    (version "20221018.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "021b8cb6cc23c688720ff0f936ff52b18a9a28d5")))
+                 "8ff37cd27deb63dabd9a96d09aabf820ddc7e45b")))
         (sha256
           (base32
-            "0bqj7nj57wwkqxs7i9x1svplgs321lc6r4ms5zk4xyk85x7hqrq7"))))
+            "1b8ks8jkdxq03z3kzqshlyj7phcb4p0qb5906aafxkqhi1xhy27y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -69169,17 +69169,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20221014.1745")
+    (version "20221018.1231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "557ab2c0620930afc0b1da3453c42fa2b5d86145")))
+                 "1c51352e6f92812b402958724ffd1d327f134510")))
         (sha256
           (base32
-            "070p5z7zfasvxjw9bqcrff9nvf1cqqigjmkz9kmipdk60h8a37z0"))))
+            "1karz9ap83ckkc0z9ya46idsjfvpdw4gc5cwq3mpl409n7jfd44l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73241,7 +73241,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221016.1529")
+    (version "20221018.800")
     (source
       (origin
         (method url-fetch)
@@ -73251,7 +73251,7 @@
                ".tar"))
         (sha256
           (base32
-            "16m78093x2x8fqmd78y5vx3sd6dnlrpwg0swcxc11f14syl526by"))))
+            "1vf3b9kihnmmnnv535171f2zw74k2xxncvkcx4knyq606apn8k1s"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -79660,17 +79660,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20221002.553")
+    (version "20221018.941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "e1eeb03066f1d54157de87b629a544ebaa63f71d")))
+                 "687edd5a04d85261a5543da1e6e76eba6328f1ae")))
         (sha256
           (base32
-            "0l741jwnkh50vf4p94ykvyaw5kwk3qfdln8ra0dsi92srhagr4i1"))))
+            "0dkc7vry9swqrf90y9qywqf01bn92vsfp7kaq0gjgs1r3jpwnr0l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -84178,17 +84178,17 @@
 (define-public emacs-org-static-blog
   (package
     (name "emacs-org-static-blog")
-    (version "20220508.1410")
+    (version "20221018.933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-static-blog.git")
                (commit
-                 "a6cd8f651f971eaa68be1cbfd30cc775e3a7ee93")))
+                 "bebd826a7664bd4140ad4d8b592ba1d2c5decd76")))
         (sha256
           (base32
-            "0i5r35my8sbnbic8jskzpnjlp6fjn7vglxaa9pkknjxs0dvj1x6m"))))
+            "1m2nmzslgnkdqjw3wj8w8q8jja6r7gc4633isr0wmf00m2gr504a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/org-static-blog")
@@ -89613,17 +89613,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221016.1444")
+    (version "20221018.1334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "be251cc06c7834cded410d6b1a4e81029725d86e")))
+                 "23e24ca8aacee7295a24d83bd6eabd822ac073f2")))
         (sha256
           (base32
-            "0jxwx8xbnllfk5h0vnrkkdwqyg59ihwdbg0b86bnaz8qjamdyh94"))))
+            "1v8l5a3fdrgkkyc4jl5mkkm04b2n89pf5sjv4g13zfs2843y80bv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -95078,17 +95078,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20220927.803")
+    (version "20221018.926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "1129a07aa45c71c8d6712b73f089e7addbce53db")))
+                 "382923c700224492431363fefcab2a7f5744de93")))
         (sha256
           (base32
-            "180bkdl5zbsxi5q0fxr4p6676iblky9cd1qq9cxssbyzjpj1qpgq"))))
+            "09fw6rinf7ihp6lg6w89yi981h7p5z7kjhbhv61v8p74pz8829dw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -99792,17 +99792,17 @@
 (define-public emacs-rspec-mode
   (package
     (name "emacs-rspec-mode")
-    (version "20220809.150")
+    (version "20221018.1123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pezra/rspec-mode.git")
                (commit
-                 "484f0bab468674852aaf3e0ad0c3b3d4335d4316")))
+                 "4437a243b2042585db994d77e6b7c85864a8d11a")))
         (sha256
           (base32
-            "15skhq2skmwmp0z7zq1z2lb0s67bgxaigf068c7s6giz4k4zgxal"))))
+            "1ynvrly22v4jzydr168534xl5kxxnbxg7wm15zj4bjiiq1b47b5z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("rspec-mode.el" "snippets")))
@@ -104833,17 +104833,17 @@
 (define-public emacs-sly
   (package
     (name "emacs-sly")
-    (version "20220713.1433")
+    (version "20221018.1049")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/sly.git")
                (commit
-                 "ef5211456a59d639c98b2ed42428726d32728ff8")))
+                 "ea83bbf0b3e1a20ab172fde42a196b7b8cf0812c")))
         (sha256
           (base32
-            "02wmkfysrix7a1915f1lp1v3v3jpl4xh6bnzd5c4jcl8mj3vypn9"))))
+            "081rpyvzxma5ms2am9mpkwbigbhqbgkxgrclj1fhccv5xpp163wp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
