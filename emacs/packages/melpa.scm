@@ -10107,17 +10107,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20220528.27")
+    (version "20221018.146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "fec9f746de753b85d75ff2a595b39014a8f44dbb")))
+                 "c22da7346dd2fd22afc3742895da95f4d0bc1079")))
         (sha256
           (base32
-            "0f8sl7am5rmsxi9b39x9d7m7cybf6ky5iigwx5p4hzjjaji9j7gd"))))
+            "18sva81a6ppxvin1nmw65l1sm02y2sdww4cmpnwf7mxlf0f3m6wz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -25471,17 +25471,17 @@
 (define-public emacs-earthfile-mode
   (package
     (name "emacs-earthfile-mode")
-    (version "20221005.1756")
+    (version "20221018.355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/earthly/earthly-emacs.git")
                (commit
-                 "841f88bbf56e9a9eeccf7cca55f529a4880b2389")))
+                 "0427c367768ab52c359c34941ed13dbf419d74d7")))
         (sha256
           (base32
-            "0f504vv0k8iwk399ia5ipilfsx4rm29xdz5q3ii5a4jhr0d0i5c1"))))
+            "01s1srcc1qp9x74gdjha1cmr1fjv1fbwjd2h4rk74alyrhhzhwn5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/earthly/earthly-mode")
@@ -49585,17 +49585,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221014.1559")
+    (version "20221018.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "6662f731d36fe6dd3b27618b2fbb44aa5736e168")))
+                 "0d3be5377d722f15eeaea382ee50fcb7f33b55e1")))
         (sha256
           (base32
-            "0dndjgd4bv1x3h0xframvxphd24mkjb1r70y20qaxiw6l9dwgdmk"))))
+            "1wzb0hyl4vg9rwb8h5f4l7fpx5fgaxcy5fcr63s0yzz903iwffj6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50393,17 +50393,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221011.732")
+    (version "20221018.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "428d513bf16dba317cd82a8f7b1cff09ad566b6b")))
+                 "0d3be5377d722f15eeaea382ee50fcb7f33b55e1")))
         (sha256
           (base32
-            "1chwliw2z4b72bwrvywwbslc89anizh3vwldjg6sv67h9flhdbm4"))))
+            "1wzb0hyl4vg9rwb8h5f4l7fpx5fgaxcy5fcr63s0yzz903iwffj6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -67903,17 +67903,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20220918.1430")
+    (version "20221018.211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "f64c08cdef162bfcf479655685247ef1c9a1bbc1")))
+                 "dc898979fdea64570a431e655e96d895ff3d8845")))
         (sha256
           (base32
-            "1izx8p1q5dmlbwx7j8mv3ms101bn5sf8pj9r96sirj5z2rnj8h4b"))))
+            "1jm0bkgsmhnknh8apx098mypwchmc716lz74qzfnrvgnv43jabzm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -84383,17 +84383,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20220930.948")
+    (version "20221018.315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "25ceccde36cbb3bbed55da939348c47f91670455")))
+                 "ed6c66dd80886b33872808938ea4a45c5770d262")))
         (sha256
           (base32
-            "04j8c8j0d4lgn2pd2x21q79x3gdwsnzw57l45n5r8arqpdmmjbgz"))))
+            "1cp5l86sbn78jdsli1aw9rppw9k5w930n9qpc3809y78c9l53r1q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
