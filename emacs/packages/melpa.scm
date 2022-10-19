@@ -13860,17 +13860,17 @@
 (define-public emacs-codespaces
   (package
     (name "emacs-codespaces")
-    (version "20221003.1408")
+    (version "20221018.1831")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/patrickt/codespaces.el.git")
                (commit
-                 "1f5f991aa2075d91213d5c9f9139551ffaf5cd3a")))
+                 "8e0843684ea685c2b25b8f5601cf02553bab4b08")))
         (sha256
           (base32
-            "1sr6vs59z7r58al8k2yh5wwzzj0fw2g612xi606mwyimb2jggfmn"))))
+            "1w3ay58aq3hgibmigb6frr7w1q660fvzhapr7lzgfh8w2z4lq7l9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/patrickt/codespaces.el")
@@ -29359,17 +29359,17 @@
 (define-public emacs-emacsql-sqlite-builtin
   (package
     (name "emacs-emacsql-sqlite-builtin")
-    (version "20221010.1320")
+    (version "20221013.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/emacsql.git")
                (commit
-                 "bfbd0c3a73f53d44d522995d065bd930f00c9316")))
+                 "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")))
         (sha256
           (base32
-            "0vjscxrxqfxdbka2dv5451b6jgkpazky3vp9f8zn5dvsz23pq5vy"))))
+            "0wl3zs33lk61dnk2km7qyp5vzl973iq1zlriqy7qf40pxykmzbbv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-emacsql))
     (arguments
@@ -29384,17 +29384,17 @@
 (define-public emacs-emacsql-sqlite-module
   (package
     (name "emacs-emacsql-sqlite-module")
-    (version "20221010.1320")
+    (version "20221013.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/emacsql.git")
                (commit
-                 "bfbd0c3a73f53d44d522995d065bd930f00c9316")))
+                 "ec4f3d091b8e2c60ee305a63a6f45f0ea5996ed6")))
         (sha256
           (base32
-            "0vjscxrxqfxdbka2dv5451b6jgkpazky3vp9f8zn5dvsz23pq5vy"))))
+            "0wl3zs33lk61dnk2km7qyp5vzl973iq1zlriqy7qf40pxykmzbbv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-emacsql emacs-sqlite3))
@@ -68265,17 +68265,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221013.1343")
+    (version "20221018.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "89b0e87d5ad489aaaefc643966d146ef7ac8e57b")))
+                 "287cdcbfcc7cc6968463b5f8b6d42438d6c931c3")))
         (sha256
           (base32
-            "0b1l4xvin6099dbj3wpgz3cm1gl1fmml3ikcms7db8arq9lwrw2c"))))
+            "017gja1aqqms7v1d3szymmzw8z6808x62k8g0p9qphi8wa39h1km"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69169,17 +69169,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20221018.1231")
+    (version "20221018.1945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "1c51352e6f92812b402958724ffd1d327f134510")))
+                 "47df80a46a0817747a34c0a8400f31ac0fc2a651")))
         (sha256
           (base32
-            "1karz9ap83ckkc0z9ya46idsjfvpdw4gc5cwq3mpl409n7jfd44l"))))
+            "1wcn0sqhpcyfjb4mr3x2kb86bgvcmr38g7clyndw5vf9cfq41xk0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -72836,17 +72836,17 @@
 (define-public emacs-mmm-mode
   (package
     (name "emacs-mmm-mode")
-    (version "20221011.2053")
+    (version "20221018.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/mmm-mode.git")
                (commit
-                 "fd80f3093701aad389533a5667bfa31648730117")))
+                 "ed4bcdcbe4556dae9013d9c6697e2b6a2ed6d2dc")))
         (sha256
           (base32
-            "1ny4ay6zvg0jnziz0cwk665zrz2hk4511r3ks7pj2s8r3hd5g5wi"))))
+            "0g6q1qvlphqra1ax614cjhhbm3k8y80w2xj9x7bm08vjbz88win5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/purcell/mmm-mode")
     (synopsis
@@ -88887,17 +88887,17 @@
 (define-public emacs-pcre2el
   (package
     (name "emacs-pcre2el")
-    (version "20221017.2035")
+    (version "20221018.1608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joddie/pcre2el.git")
                (commit
-                 "0a0802b7edbaa636d65d525c21f3a0a26dbd0ec6")))
+                 "38c6f80c787da547287db96b495e5b695ca0b4b8")))
         (sha256
           (base32
-            "0j2yfz0n18b78lmwa4xzyndh6iwjkl7r0nyvqxcj4z6fy198nxvc"))))
+            "1bncmn2rn7vwawwp6npvkm1vbwj2dvbq5f3sm7d8f28fviipnsxn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joddie/pcre2el")
     (synopsis "regexp syntax converter")
@@ -95646,17 +95646,17 @@
 (define-public emacs-python-pytest
   (package
     (name "emacs-python-pytest")
-    (version "20220917.1903")
+    (version "20221018.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-python-pytest.git")
                (commit
-                 "bec1483d51a97e181049fbe8ce21659c81bf855d")))
+                 "66e9aaa84aa954fbd66c8da3b61108fa9c3300fb")))
         (sha256
           (base32
-            "0sipnpkmyap3b7nj2cn3rlf9xfz6xgnvzmi3ns5nrg232j7ar4jc"))))
+            "12bd7n9vyjrkbr65dy0pbnf531iybsf4kxiv1iifln9ds05vwgl9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-projectile emacs-s))
