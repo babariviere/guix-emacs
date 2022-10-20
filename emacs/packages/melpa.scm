@@ -26645,21 +26645,20 @@
 (define-public emacs-eglot
   (package
     (name "emacs-eglot")
-    (version "20221011.1102")
+    (version "20221020.1010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/eglot.git")
                (commit
-                 "d1159172c9d436d7e649207565c606e9e572a8db")))
+                 "e501275e06952889056268dabe08ccd0dbaf23e5")))
         (sha256
           (base32
-            "030837yak24ymjawsfr1hgyfdjy3k30ld1ca0cgnrxhgxc7p8hwv"))))
+            "1a4ici02cvqyd06l6gfyz4gyhh8migdbynvj4dvldv9k7bj1q5g5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joaotavora/eglot")
-    (synopsis
-      "Client for Language Server Protocol (LSP) servers")
+    (synopsis "The Emacs Client for LSP servers")
     (description
       "Documentation at https://melpa.org/#/eglot")
     (license #f)))
@@ -48984,17 +48983,17 @@
 (define-public emacs-hammy
   (package
     (name "emacs-hammy")
-    (version "20220926.1800")
+    (version "20221020.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/hammy.el.git")
                (commit
-                 "62d3262a60d0f6f07920919bb3c47b57cb11bab2")))
+                 "e5bc0abc4b023e72f8e82195983086ab955e9bf0")))
         (sha256
           (base32
-            "0q9lz0pz501l2s5g5hcn62ii2xfma04csij1rc6k3wzv6gnx4ary"))))
+            "1fa9yaqhhfj7l9nlz8sxc1kv90lzf3dwyps0dlsyhnzswqlk3mkj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -49584,17 +49583,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221018.451")
+    (version "20221020.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "0d3be5377d722f15eeaea382ee50fcb7f33b55e1")))
+                 "eda9a8b3220b2d9ad68e0e8a890a81861aab274a")))
         (sha256
           (base32
-            "1wzb0hyl4vg9rwb8h5f4l7fpx5fgaxcy5fcr63s0yzz903iwffj6"))))
+            "12hn5m3j3870q4w7cvzifypc25ympwvqh07v5z0kjkdinqc5ryfj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -100711,17 +100710,17 @@
 (define-public emacs-sage-shell-mode
   (package
     (name "emacs-sage-shell-mode")
-    (version "20201225.1011")
+    (version "20221020.1012")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sagemath/sage-shell-mode.git")
                (commit
-                 "7fc47d5eab0efac009d5a9316e3dfa223595ab5a")))
+                 "80fbb4ee9ed8507d22214ed7a4ffd135c9e8c7c8")))
         (sha256
           (base32
-            "05r8z8wvsdwkbhsv5czrjwg5fq7232vsfcvkk7vj8arkfnhyg1yz"))))
+            "02wzr52bw63av2pjc2bb2szznjw4073d2ysh63074llvz2g3jvcz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-deferred))
     (arguments
@@ -106330,17 +106329,17 @@
 (define-public emacs-solidity-mode
   (package
     (name "emacs-solidity-mode")
-    (version "20221005.1922")
+    (version "20221020.1058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethereum/emacs-solidity.git")
                (commit
-                 "ffbeee8dd95b45d52a3abc2ca7decfa51b64ad00")))
+                 "6aa8b0aef128754b775a165e269879832d5a60e5")))
         (sha256
           (base32
-            "0j4pqpmcaazxvfd18z0bhjiphi5viacpaqvn3dl4v9z5025n62sm"))))
+            "158k3s0zv5hr5nlh17i8g2r5qfycqivvd9lnszyiz9qbm7d3ji9w"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -110560,17 +110559,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20220924.1640")
+    (version "20221020.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "d441ae6b392597f0e01bc79292845c880d468b60")))
+                 "fa300e02585cd5d818eb9b5c694db8528dcca609")))
         (sha256
           (base32
-            "123h7wz2ql6cl6s0n6n18g4ssa0p1a90svx7zh9627w45q68qlbr"))))
+            "1njjrahhvjg3rf24vafk4hb3f4xydkizk1xgi9y5a6099pw9q83y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
@@ -111737,17 +111736,17 @@
 (define-public emacs-the-matrix-theme
   (package
     (name "emacs-the-matrix-theme")
-    (version "20220622.1214")
+    (version "20221020.819")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/monkeyjunglejuice/matrix-emacs-theme.git")
                (commit
-                 "289ed872003708ef1595e5e6765b50ca53e34ac8")))
+                 "d78f7b3c3a3f560f241509110211bc7a77d78efc")))
         (sha256
           (base32
-            "128szhyyndfp2hvhyp5628z6nmn0k137y77qbhm3ga5laixdsd2z"))))
+            "0fc4fg9j1k8srhzskygpn17nv97nnhbcbcsrk5asdyajg33w3rrq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/monkeyjunglejuice/matrix-emacs-theme")
@@ -113341,17 +113340,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20221019.941")
+    (version "20221020.1019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "0a3b22f169b84ab7a51dc83856b0b6487fdf41da")))
+                 "afb7b250d4ee9669fdb82c4e40a23800f651ff96")))
         (sha256
           (base32
-            "1zxzhb8fapmsmd3zpmps58p3p24sxx2jrawjhvjd2x2176jrwljm"))))
+            "05xz23v7ybn1rb1wgh3p7fmw232qrzdfi63z5vfpsvxmdygvi8nq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
