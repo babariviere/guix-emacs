@@ -4513,17 +4513,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20221019.828")
+    (version "20221019.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "c6275c212e2ba19a1d1c8bade56ba71e7609f029")))
+                 "d5d913215c11737ea55175613e2bfd929945a4cc")))
         (sha256
           (base32
-            "1nxxypdlc3dvjqy35r3yj78mm14i2xwrsa67fqq487rm2cphakgn"))))
+            "14wsvf70f1qsiz23ydk2k6j8f5rs585zhzibmllklw953a5y2asf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -7137,17 +7137,17 @@
 (define-public emacs-better-scroll
   (package
     (name "emacs-better-scroll")
-    (version "20220704.645")
+    (version "20221020.430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/better-scroll.git")
                (commit
-                 "9ec8cb24751784cc114263728d7565fd473facd7")))
+                 "df96648ffafb033063cd61595c1fca3e9a1a8e90")))
         (sha256
           (base32
-            "1dvl99px3y1wv275ygrm224kpnwaalfdxqwwkx4qbgb8lgmbmha7"))))
+            "0xa94wvsa8zm9sh5zj6z1xwh0rwmfyp25cc7a5dg0mcd7idzlfnw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jcs-elpa/better-scroll")
@@ -16671,17 +16671,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221019.902")
+    (version "20221019.2144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "82a41d35291fe17fe3b89ccc6e2cf2b2589e8eef")))
+                 "5b258a501abfc2095c51362d957bd911ca31eb03")))
         (sha256
           (base32
-            "10bpf0rav0zbbmdd939f2gwvqz6jcj63h0qxw7070nw38yhmfixl"))))
+            "1j2547sxn89li3v0855pjgzdlkxhnah4hhv3rbdxkdcxjjh2w4kg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -24169,17 +24169,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221016.602")
+    (version "20221019.1821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "8cad5410969f7a4957cb54abe48b9a92abc1041d")))
+                 "936bfbcbbb2b1ab1e13904ee1f53fe0ea28acee1")))
         (sha256
           (base32
-            "13bnykpcq8s1x62ss499hmxy5xyxhkbmdj9ayswpbfs2ga7w63vf"))))
+            "01gjqxx3g7incsshkx6dwlklcg8vig8lpl47z73ha8pl9yaispvq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -35137,20 +35137,19 @@
 (define-public emacs-exunit
   (package
     (name "emacs-exunit")
-    (version "20211209.1012")
+    (version "20221019.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ananthakumaran/exunit.el.git")
                (commit
-                 "0715c2dc2dca0b56c61330eda0690f90cca5f98b")))
+                 "e0a8c2b81f3d53885ed753b911b3cb6ee9229bec")))
         (sha256
           (base32
-            "1x42m95gv0gxhqpyd65n5fzgwczsfdjyghp4qrhj6gi1afr7jjhh"))))
+            "1wwhb42q86730wn08iyv4538xhvjq62jpm79bxpr1dcanc9w0wab"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-s emacs-f emacs-transient))
+    (propagated-inputs (list emacs-s emacs-f))
     (home-page
       "http://github.com/ananthakumaran/exunit.el")
     (synopsis "ExUnit test runner")
@@ -43541,17 +43540,17 @@
 (define-public emacs-geiser-chez
   (package
     (name "emacs-geiser-chez")
-    (version "20221016.317")
+    (version "20221019.2027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chez.git")
                (commit
-                 "e7b2c6635f9511c8294af862daf874bc519f56bf")))
+                 "5d9baf231bb4a7289585f88fcb168a81cd6ce7e7")))
         (sha256
           (base32
-            "1iz8vdqpbpzic2qsp0fcnqcvdjcr45vsx0rhb3y0vixmwwbi22z2"))))
+            "0lk8jdha65aasqbzvz9r6j6hjrqa6v0sx3ndxfj2n09flvis34dh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -53579,17 +53578,17 @@
 (define-public emacs-helm-taskswitch
   (package
     (name "emacs-helm-taskswitch")
-    (version "20190304.1414")
+    (version "20221019.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bdc34/helm-taskswitch.git")
                (commit
-                 "59f7cb99defa6e6bf6e7d599559fa8d5786cf8a9")))
+                 "6e8b62702376c1d30ab52a419dd72cb2a40fd76e")))
         (sha256
           (base32
-            "0bx9fvw0jv1f4xdvf94lgxdzhvx2lpab4gyx71w6dg5wvd5cxzq0"))))
+            "0vpkhpqq4v16ax2cqy2j75ycwq15cc3k128b4jw31bk93225faaf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -59362,17 +59361,17 @@
 (define-public emacs-isearch-project
   (package
     (name "emacs-isearch-project")
-    (version "20220704.652")
+    (version "20221019.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/isearch-project.git")
                (commit
-                 "08b1102c1f55011952aff818261a9478175a5b92")))
+                 "73cd2bdc5655a838f7c20b45fc922ab43209a172")))
         (sha256
           (base32
-            "0fsqa970gqxdrvjkgp468f1shpb7alzh50j1r5bpvkfx9ifdx40h"))))
+            "1k6w9nz75n7pmxx5jmnsi0cb41jh15p6ch3pxqs989pnf8xinia1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -68187,17 +68186,17 @@
 (define-public emacs-lsp-latex
   (package
     (name "emacs-lsp-latex")
-    (version "20221001.1150")
+    (version "20221020.159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/lsp-latex.git")
                (commit
-                 "3c327368e51861006d08d60671010e2e77e3ac6d")))
+                 "ee4df225b59992946c19d8523e940944f76661c4")))
         (sha256
           (base32
-            "0xhqin2zn80l6q8vgnns4xf4885xzm59jpikscmp8p8xc9xskn1g"))))
+            "06xzx79b39ykr4afmcpgqhw71mkpn6rk37kf7h392ras9mf17vvc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -82737,17 +82736,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20221016.1144")
+    (version "20221020.749")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "ed9d67d00f26148019acd67b4aac0e26360a33b1")))
+                 "59b2e3c94756b4e37b2cf7b9f81028c6d4758672")))
         (sha256
           (base32
-            "1gny2p3w6ck5sarv6vap2y1lj6h9qaxbh7r7bzszb9qj8rhapk6q"))))
+            "1n5csrj560crc66iqpfsx60055cgzh817v169s6jqkqzrzdigzvy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -113792,17 +113791,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20221010.1959")
+    (version "20221019.1841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "12e0393163c290cd04667e18275f2f6368bf3286")))
+                 "76807bef3c128aca33064228a80c5e6937a67b8c")))
         (sha256
           (base32
-            "0siz31xarg1dgnhrnfc6f0nmz271ycd0pv6j28h8bsrjm7msqplx"))))
+            "06zg76ndxx5svb3i49s8y9nc8ydn5qk1a3cgcmjiqh0yb8kw5gin"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
