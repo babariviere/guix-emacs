@@ -27428,17 +27428,17 @@
 (define-public emacs-elcord
   (package
     (name "emacs-elcord")
-    (version "20220723.33")
+    (version "20221021.532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Mstrodl/elcord.git")
                (commit
-                 "7aacd702335b4ab3344d3815c0fffed319effdf9")))
+                 "a0fe08dac6417a7a0c4e48dc6f43fd65dbeb41dd")))
         (sha256
           (base32
-            "15rjghwgvnd00ql62x03smsban15g7asskqkvhn2znqfsngbxs3b"))))
+            "15l9xs11xkvfigyz2ffb6xm9rkx2h3bm25ws722cd899mp3ia6ml"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "stdpipe.ps1")))
     (home-page "https://github.com/Mstrodl/elcord")
@@ -32111,17 +32111,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20221017.1330")
+    (version "20221021.1022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "c9e19f1ca94f4225db7c1d6f0fbee7fafff7feb2")))
+                 "60e9790b35fdac1b254b66438fedaeebb8a82c91")))
         (sha256
           (base32
-            "0szyyab91jir1vdd5ywlqk1fws01plbn5cvn7icw007i86bvv8b0"))))
+            "0yac4l5g58gqphc70pp3gc21i7cigcy4bxi1vm2xxnidpp0cd0pl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43514,17 +43514,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221016.2109")
+    (version "20221021.238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "3123a38e9ea036db9d9a884e7bb414490813e93c")))
+                 "74e4e87820112ac94bac583ba154dc67bc017a42")))
         (sha256
           (base32
-            "00cgxwycr6vw74y6gl224mhwy5kg56x2y9rq0av5a67nfprv36jy"))))
+            "13q56i5pzbkh6ijjyjzdxscj59pxddfcffldalk46kfcn54cshh4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43539,17 +43539,17 @@
 (define-public emacs-geiser-chez
   (package
     (name "emacs-geiser-chez")
-    (version "20221019.2027")
+    (version "20221021.242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chez.git")
                (commit
-                 "5d9baf231bb4a7289585f88fcb168a81cd6ce7e7")))
+                 "d3e7dc792069724880356c4e0f8c1749b90ef1bb")))
         (sha256
           (base32
-            "0lk8jdha65aasqbzvz9r6j6hjrqa6v0sx3ndxfj2n09flvis34dh"))))
+            "012bzrqcxd54cqlamvqd8v3nmgix0ncyp91rk9anmqrjga4ar264"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -43667,25 +43667,24 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20220922.52")
+    (version "20221021.259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "8f0ffecb430fffc8e32bb49bdc33becfa6846647")))
+                 "d8fae2d194b1dde1a60f1f09e854a3a21047615f")))
         (sha256
           (base32
-            "0s62ldzsm8zljdfi5aiwzs015hx313pij4mmj5ids08nsa341ddc"))))
+            "0z5snksv9r1amsqs39avhrfp6gz2z5wyhx4aix111gadp2vylqrz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
       '(#:files (:defaults ("src" "src/*"))))
     (home-page
       "https://gitlab.com/emacs-geiser/guile")
-    (synopsis
-      "Guile's implementation of the geiser protocols")
+    (synopsis "Guile and Geiser talk to each other")
     (description
       "Documentation at https://melpa.org/#/geiser-guile")
     (license #f)))
@@ -73239,7 +73238,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221019.256")
+    (version "20221021.206")
     (source
       (origin
         (method url-fetch)
@@ -73249,7 +73248,7 @@
                ".tar"))
         (sha256
           (base32
-            "0f26mpmvy4k5qwdqmk5nwn43ll55cv7cb9jj6nk4aidl3dwhxr7c"))))
+            "174l5hl6ns7phj95jsf3d23cp8x38ip7ifspxr95wl97my6rr7cr"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -82505,17 +82504,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20221019.728")
+    (version "20221021.859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "41bf1978903e323b507ed491d9dc601ff7ba021e")))
+                 "0e72581a26a23b1fafd4983904f0904496395cd1")))
         (sha256
           (base32
-            "1s1a98s7n3bsjam2nfr662h13ffqmcyvgzwzpavv63vc9z4bhm23"))))
+            "1gryqglrb7m3v0ynbjl8365rh2j1x8688dyd34c2xw3c26z87d00"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -85600,17 +85599,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20221011.1136")
+    (version "20221021.1152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "f2a2db15dde9874df38b85b7c6cbbf899fb3f9f7")))
+                 "5b24ed076c9998be627c19549d403d5b219b7b28")))
         (sha256
           (base32
-            "0xsfzqafxyb5d45l07yx8dszisa01mw8096yms3msjizxlpd8b7n"))))
+            "1c0wymsrfdjsapwyhkp1a497hw96pkps7j5fkf0rd2sp9c4fln7y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -87931,17 +87930,17 @@
 (define-public emacs-paradox
   (package
     (name "emacs-paradox")
-    (version "20191011.1111")
+    (version "20191011.1119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Malabarba/paradox.git")
                (commit
-                 "339fe3518d1d102b2295670340e75caf4f01a29a")))
+                 "dec73d4ba3512e0f85983a4b992080b225d199ee")))
         (sha256
           (base32
-            "05hwwdhx980jm1y495r8qng029wm02m45mm7w4wxyjhh6385rbzf"))))
+            "0dnfyfznps3p15zn3g4ay2y1wsrnkwrplsg0ramby4pkm61a5a5m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-spinner emacs-hydra))
@@ -110788,17 +110787,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221020.2000")
+    (version "20221021.637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "e75bf96f55fb6bfe6f160f59eeb0c02b1723bab2")))
+                 "af40bf3d60ad6201f782e1d38e89702f193141b8")))
         (sha256
           (base32
-            "01mmsvfkhly0qafqasz9nwrsdbq5a2b718b01w4l2fb6ax9wcdx4"))))
+            "1jzlrh9aa331vdcyzrab7flkcxlfi3qa4vkz4s3hrwv4dhzz5vvk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -115656,17 +115655,17 @@
 (define-public emacs-units-mode
   (package
     (name "emacs-units-mode")
-    (version "20220904.1848")
+    (version "20221021.453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/units-mode.git")
                (commit
-                 "8611f09fa1d0ca898eef262ad45d8585a64344b3")))
+                 "08a0310a74e540e377d7081bc4a1ef86fc143fb9")))
         (sha256
           (base32
-            "16zcq5wcb294x57m306l0pn7h4p549g0831ancqd89ydln8iwswz"))))
+            "1psvlh74sq3kwxhv25z5k4vsy21b5sjqd7gyam6w5qws56wz87pg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Atreyagaurav/units-mode")
