@@ -12454,17 +12454,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20221019.1409")
+    (version "20221022.1434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "2e42117682988b93ab56fd92572f1f9e0c6f7d11")))
+                 "b4f0cb195528057afaa091ea77355633d68c2b3a")))
         (sha256
           (base32
-            "0fip6xvmlygcvggvydgvz1ps6i1fpfj3avmn1cqb605xd28vvpf9"))))
+            "0d2vkx2h7jf691qwgxbbvkr0h64236d7lfa47pwxq50aqndm6h6y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -25054,17 +25054,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221021.2139")
+    (version "20221022.926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "7112c4c51a46454013ea0f97980f0496e2f8d084")))
+                 "f8b567e78e293e05f5834ee66cbe064a6674aa5e")))
         (sha256
           (base32
-            "1d2iikd796a3md5kjqf8fl9nari17m46vg9ylkn26dy4a1pm5xny"))))
+            "1br5q2ahh7fcrzi5sbyjf12i8h9pyvpjpbrd83hpb3ngv2s1zgp9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -29358,7 +29358,7 @@
 (define-public emacs-emacsql-sqlite-builtin
   (package
     (name "emacs-emacsql-sqlite-builtin")
-    (version "20221021.2131")
+    (version "20221022.1107")
     (source
       (origin
         (method git-fetch)
@@ -29383,7 +29383,7 @@
 (define-public emacs-emacsql-sqlite-module
   (package
     (name "emacs-emacsql-sqlite-module")
-    (version "20221021.2131")
+    (version "20221022.1107")
     (source
       (origin
         (method git-fetch)
@@ -69166,17 +69166,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20221019.412")
+    (version "20221022.1120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "5d6c01e2934c7d6cfe85f47a68c3949164deb585")))
+                 "0ef98ef51811807952a4c3c677cbf3dfb269de2e")))
         (sha256
           (base32
-            "09qcj45jlkvia65lplvjrxqw3nb0z47hdr7bcnqri1638yxq9qc5"))))
+            "0gvkrribrxcy13717nf50c3p118i0s0sb84dzq2y7803124kb0xd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -70513,17 +70513,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20220829.225")
+    (version "20221022.735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "3f1c61b25cb0677122414e9ea14064a13e548c36")))
+                 "7030c72f878e079f12767299908265221ea4aa7d")))
         (sha256
           (base32
-            "1vkz37ngsizrncnh5dd0p5jk3il22rg4sn24vvb4mcgvc77wwvk5"))))
+            "0pi5mv92z1l2878pqs3p9w614ivnmwdbq1cclmxyy8iknckdbwkg"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -73238,7 +73238,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221022.316")
+    (version "20221022.1236")
     (source
       (origin
         (method url-fetch)
@@ -73248,7 +73248,7 @@
                ".tar"))
         (sha256
           (base32
-            "1wcml2fxr89hx4pw880smwqqd87gkj5p43yaj09lp84fgyxic0z5"))))
+            "1f78sldzyjrm7j2ikhz69bl5lzq920rfq4isa6r2jq4cp0wlnsi7"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -98603,17 +98603,17 @@
 (define-public emacs-request
   (package
     (name "emacs-request")
-    (version "20221004.1331")
+    (version "20221022.1122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tkf/emacs-request.git")
                (commit
-                 "7444e763d8bbbcf82e67d7bcc30550255b81c471")))
+                 "2c33e451879c4ea406a4a2e076636188eb4b9920")))
         (sha256
           (base32
-            "0hsrrn603hxapv9khlfka2vgf9vmb6qqf98iw25x8ay5yjmyz35w"))))
+            "0jmfjsgvbl0yc7fynppfwbxi0nf09057cr479biiw5an5pd0d8r1"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("request.el")))
     (home-page
@@ -121755,17 +121755,17 @@
 (define-public emacs-yaml-mode
   (package
     (name "emacs-yaml-mode")
-    (version "20220903.1821")
+    (version "20221022.920")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yoshiki/yaml-mode.git")
                (commit
-                 "9969207f60b69e42c573a63764faeb9caaccb2bf")))
+                 "141b85f9e01589e67955f3785a83b72b42109357")))
         (sha256
           (base32
-            "0q4fsjaji44j9p1q6hbmv3zpwig5wk42hxqzq545y9h0mdlw3lma"))))
+            "02in151g2sadxz3bf9a51ckmb1yi8vd15hsb42lgfmxn6bkgw50j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yoshiki/yaml-mode")
