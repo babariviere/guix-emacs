@@ -30467,17 +30467,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20221010.1750")
+    (version "20221021.2353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "ccc387a98895c83726f4f0e4ea0a87284c1b1e8f")))
+                 "796e9c3c2f631bb7989ce7fce56de22446634955")))
         (sha256
           (base32
-            "1qcrc133j18l3fxk040sm290wl92znyzc4jc0lyh7sr9bl8mid0y"))))
+            "04kffv8k9rpzqwdzpgsyrjr4q2pdk0k3h82cbdn71nf419m0svl7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql))
@@ -73238,7 +73238,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221021.206")
+    (version "20221022.316")
     (source
       (origin
         (method url-fetch)
@@ -73248,7 +73248,7 @@
                ".tar"))
         (sha256
           (base32
-            "174l5hl6ns7phj95jsf3d23cp8x38ip7ifspxr95wl97my6rr7cr"))))
+            "1wcml2fxr89hx4pw880smwqqd87gkj5p43yaj09lp84fgyxic0z5"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -116224,17 +116224,17 @@
 (define-public emacs-uwu-theme
   (package
     (name "emacs-uwu-theme")
-    (version "20220411.1904")
+    (version "20221022.49")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kborling/uwu-theme.git")
                (commit
-                 "feef3e73dbcb3fbba431c62a99a3333959f6158e")))
+                 "188d74cb279537f476c6f35b4e4f966d38884314")))
         (sha256
           (base32
-            "0b16d5fkrqbj5v83cbkzchzgp4fhj7qqj67lsd5ix8pgqfgbhi4y"))))
+            "16idjqc6bdqg60mv2h3bgip38j1mpfwpffckpg5vzan9ylsivxxx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kborling/uwu-theme")
