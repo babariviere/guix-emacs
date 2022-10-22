@@ -8396,17 +8396,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20221009.1905")
+    (version "20221021.2204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "68290cc58fc470e670423a1a80ff61de2f5948a4")))
+                 "1b01f170a4ec3736660de6081003e371fb76323f")))
         (sha256
           (base32
-            "155rjlg2d2y4bywpc0pikz9k6r3cwvn1yms3bxyp5s0lfgbyz4vj"))))
+            "0nhyzfs0cwipnz7h9w4v9q0nir40aq0i4pc5qas885mxmawfh9vv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -12315,17 +12315,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20221005.1820")
+    (version "20221021.1729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "24a800be6494cd0c3eac3068a43c4ffcf13d08ea")))
+                 "4a302fcc405d9747ab74df0e95a01ea489fa9bdd")))
         (sha256
           (base32
-            "04p86wpikrhbpjhinbm9awss84gipjkanjnbiqxnrcqqmabdm35s"))))
+            "1klpw6f4kprqbi6vdz6ny3gc2bbjyb0vam0bws1vzv8bmy9ndqhj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -25054,17 +25054,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221017.603")
+    (version "20221021.2139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "8d994afaa76edbb43494c36668d6920ccefa0fc8")))
+                 "7112c4c51a46454013ea0f97980f0496e2f8d084")))
         (sha256
           (base32
-            "1bhqmibh5wdkj2lmxsn8nmpxgkhrxplxj5ib340s6dixljip4dhh"))))
+            "1d2iikd796a3md5kjqf8fl9nari17m46vg9ylkn26dy4a1pm5xny"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -29358,7 +29358,7 @@
 (define-public emacs-emacsql-sqlite-builtin
   (package
     (name "emacs-emacsql-sqlite-builtin")
-    (version "20221020.1117")
+    (version "20221021.2131")
     (source
       (origin
         (method git-fetch)
@@ -29383,7 +29383,7 @@
 (define-public emacs-emacsql-sqlite-module
   (package
     (name "emacs-emacsql-sqlite-module")
-    (version "20221020.1117")
+    (version "20221021.2131")
     (source
       (origin
         (method git-fetch)
@@ -34218,17 +34218,17 @@
 (define-public emacs-evil-tex
   (package
     (name "emacs-evil-tex")
-    (version "20220415.842")
+    (version "20221021.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iyefrat/evil-tex.git")
                (commit
-                 "716c311370f3830a36e7aee67f6f3d8293d186a1")))
+                 "97616a81fb88ad558051b57d899fdaba56d8d7fa")))
         (sha256
           (base32
-            "0q0nl3p7lvks6468v3qdh20yifq22qiqj6nl48zgfjqnh8q4kmq9"))))
+            "1v80bx3gq7ld03gzafbnsj2nkzc6zd7v7lsmdcp9qdpnnz88i3ky"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-auctex))
@@ -68262,17 +68262,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221020.1618")
+    (version "20221021.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "a2ca5ae653e43ef77e22c99f177f79cc653df0a9")))
+                 "a3b3c15359405f442fc51a2db09e503ca3b39f3d")))
         (sha256
           (base32
-            "0jhl024c44xi2803zj1k0r9g9bzqhk7qk9vv9a7sg4zqbj99sm91"))))
+            "0yz7xs850a8n7xq8rvq2xgrh3jsw9i0hac3ha7lhqqy6rb4q7j00"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81114,17 +81114,17 @@
 (define-public emacs-org-bookmark-heading
   (package
     (name "emacs-org-bookmark-heading")
-    (version "20220805.2357")
+    (version "20221021.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-bookmark-heading.git")
                (commit
-                 "fac3edac3b70a00f5412e3e7e2830a5cfee84432")))
+                 "823113b535301745cf5d559e6c84dc154754dbca")))
         (sha256
           (base32
-            "1wr442hqiih6ygcwcww1k56fkw5afn5rlcd49hs4qwqg4cchvgc0"))))
+            "0z258132bhn9x10ym439b70yjligdrvnwwsc3ss7w32ghcgj4df1"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/alphapapa/org-bookmark-heading")
@@ -95643,17 +95643,17 @@
 (define-public emacs-python-pytest
   (package
     (name "emacs-python-pytest")
-    (version "20221018.1545")
+    (version "20221021.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-python-pytest.git")
                (commit
-                 "66e9aaa84aa954fbd66c8da3b61108fa9c3300fb")))
+                 "33c921adaa6c9c8f7cceba2342114c6b406e0d7c")))
         (sha256
           (base32
-            "12bd7n9vyjrkbr65dy0pbnf531iybsf4kxiv1iifln9ds05vwgl9"))))
+            "00bnqya530fsdwzqxz7d15xqnv6axip1i6ny9zb1yahkzkc8zbvi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-projectile emacs-s))
