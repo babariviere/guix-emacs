@@ -10224,17 +10224,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221019.1521")
+    (version "20221022.1804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "b98c2ea11da135d9c8982ade5328900451bd24f4")))
+                 "df9067ca3b9e80f53c31ff425561710a23e74721")))
         (sha256
           (base32
-            "1a19s5fcgacq3p9rh6wjk4svhmzr5bgx463apy4q8mv8qdw3w0vm"))))
+            "0isls22xi86m0pbjg42ml2ifhbdq7zf781zk6izqkp0vrg9irarx"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -49582,17 +49582,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221020.1512")
+    (version "20221022.2056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "eda9a8b3220b2d9ad68e0e8a890a81861aab274a")))
+                 "0211c57425bb989965419aeebb7dd52476fcb2b0")))
         (sha256
           (base32
-            "12hn5m3j3870q4w7cvzifypc25ympwvqh07v5z0kjkdinqc5ryfj"))))
+            "0qa5lbrz3r7hh5bvflqay9mdilvx8pdxk36ca7rdhvmnakwsigpn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50390,17 +50390,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221020.1530")
+    (version "20221022.2056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "eda9a8b3220b2d9ad68e0e8a890a81861aab274a")))
+                 "0211c57425bb989965419aeebb7dd52476fcb2b0")))
         (sha256
           (base32
-            "12hn5m3j3870q4w7cvzifypc25ympwvqh07v5z0kjkdinqc5ryfj"))))
+            "0qa5lbrz3r7hh5bvflqay9mdilvx8pdxk36ca7rdhvmnakwsigpn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -69166,17 +69166,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20221022.1120")
+    (version "20221022.2130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "0ef98ef51811807952a4c3c677cbf3dfb269de2e")))
+                 "ccd82ffe494b2af513ec5422137252ae3d05be7d")))
         (sha256
           (base32
-            "0gvkrribrxcy13717nf50c3p118i0s0sb84dzq2y7803124kb0xd"))))
+            "1yg4bdv6v1qjcds4h2wf5awv6nb80d45k9vvwbdbcrg1pqvw4xzv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -81114,21 +81114,21 @@
 (define-public emacs-org-bookmark-heading
   (package
     (name "emacs-org-bookmark-heading")
-    (version "20221021.1556")
+    (version "20221022.1422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-bookmark-heading.git")
                (commit
-                 "823113b535301745cf5d559e6c84dc154754dbca")))
+                 "f245c9023df28d6ee545dae4b96a1c237e6965ba")))
         (sha256
           (base32
-            "0z258132bhn9x10ym439b70yjligdrvnwwsc3ss7w32ghcgj4df1"))))
+            "0al7l30xsgp13975mxmp416s7z89v27njv8jcv3fv2czvjzllh5g"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/alphapapa/org-bookmark-heading")
-    (synopsis "Emacs bookmark support for org-mode")
+    (synopsis "Emacs bookmark support for Org mode")
     (description
       "Documentation at https://melpa.org/#/org-bookmark-heading")
     (license #f)))
@@ -89610,17 +89610,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221018.1334")
+    (version "20221022.1421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "23e24ca8aacee7295a24d83bd6eabd822ac073f2")))
+                 "b26034a7c1b6eb6e3dd4f882a7fe441b37df4a20")))
         (sha256
           (base32
-            "1v8l5a3fdrgkkyc4jl5mkkm04b2n89pf5sjv4g13zfs2843y80bv"))))
+            "1zkkv1kzw656z416lbd8nb5bw849234zpp6qnpk9qa7k1cvhjmnd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
