@@ -7396,17 +7396,17 @@
 (define-public emacs-bibtex-completion
   (package
     (name "emacs-bibtex-completion")
-    (version "20221011.1854")
+    (version "20221024.857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tmalsburg/helm-bibtex.git")
                (commit
-                 "01b7fef069198bc440f38969f0a8f28cb7b6d5a0")))
+                 "78f5931e1cc82e7ae2bcf0508cf31d0d1629a8dd")))
         (sha256
           (base32
-            "08rlbqa62fpa3pw7k7nshhzxhc43ri29442xr28pwl7nqs525900"))))
+            "1qbrkq0yidrp2x2qjpxlyx14yjcv2lir0hjabylapmkmr048v3fk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib
@@ -21202,7 +21202,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221017.1647")
+    (version "20221024.1124")
     (source
       (origin
         (method url-fetch)
@@ -21212,7 +21212,7 @@
                ".tar"))
         (sha256
           (base32
-            "1gd5nixjkdivqw76f5r5m8pbybqkgsg7l56fd3znvnzggvl7vrvn"))))
+            "1m6shqza67a9yvqldlw7pgbkrcpx5q0psr7gs139q5xk3zzmk1ww"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -68258,17 +68258,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221023.1658")
+    (version "20221024.1146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "2fdfb51b78ba61d4bceef1663dd730cca84f749a")))
+                 "af4bd151943e582a1269fd18bd4246b2d00ae55d")))
         (sha256
           (base32
-            "0873dckf2g055cxmsh77ppqxnpxmy6dv4hrlk2rmpv933b3qz72g"))))
+            "0c7a4j8d8rph0si8q2dfpqvsb0ykwaahmk51z4fxa2jlrppbx8cr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
