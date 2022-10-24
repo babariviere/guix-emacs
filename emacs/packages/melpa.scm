@@ -24165,17 +24165,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221023.500")
+    (version "20221024.357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "5c9826731096e2ec8cbeddb5b69d09997127f50b")))
+                 "b66d5e5006df4cedb1119da3d83fd6c08965b830")))
         (sha256
           (base32
-            "1qjihmhz90vm0fkmqbk9h25lbnmr9qfv6j1yrfjmmlghj219dfgf"))))
+            "09aicszxdp42fnp9c16lrj6r3l7qnmhnllzghashb1f87cfk34ps"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -34377,17 +34377,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20221014.1339")
+    (version "20221024.351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "b986367722bb853f136fa57795e556c0fd6c981f")))
+                 "087c3c3ce249515446d01f4a98d9fadc2bc41666")))
         (sha256
           (base32
-            "18nswh0kff0gdfccl228dc3lh2k5f870qkylv78f17pgp26ragd0"))))
+            "0jds213935jf84fq6ks0fcd6ilc14xzfs1rdmhr4kajalkl8127w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -43663,17 +43663,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20221023.2313")
+    (version "20221024.147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "68fb9f4724440ddb854421f51a37ee88e1044af2")))
+                 "8e4ee5ccb6dc970f75c385cff2603fa3862b9611")))
         (sha256
           (base32
-            "0wqmsxbbn7g99mqm4al6r9q5bfhygwvks9zdhqkzavx58zbkxpfs"))))
+            "049m6qjh34vdjjc72ivk9prdzfsmicrh3kiakpns8yp0q7kxwj6g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -49578,17 +49578,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221023.607")
+    (version "20221024.505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "2e33e343a1f47f7d13b03b5239850dc73ea39990")))
+                 "664baf8aa92e9845213fc8dbc37d27c62e9e19bd")))
         (sha256
           (base32
-            "1gxkl4a2wshv783sbzl0gym47dacrq1zhrzi4194rmdnfz1qk2f0"))))
+            "04h6awzb5azfb8zdjsqscikjgrcnc936qzy932c7wsa7p9f50ayx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -53977,17 +53977,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20220925.2206")
+    (version "20221024.134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "3aa08da7a151f1928bf0e3d12fc2443b6485b6ef")))
+                 "60c1cd49f72e930b8796e5644bd222e8fc466740")))
         (sha256
           (base32
-            "062ym5662b83dxga30qgdvp7krq30m41m3qpj2n64jfimbyk1f56"))))
+            "076i46567ck2l991py3vq9w1qyxf3vp16kv8sw95lfabxc4cdh05"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -66961,17 +66961,17 @@
 (define-public emacs-litex-mode
   (package
     (name "emacs-litex-mode")
-    (version "20220918.2348")
+    (version "20221023.2254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/litex-mode.git")
                (commit
-                 "966aa25af6b4268d20d35f1338753bfa93df01d4")))
+                 "8141679de6779b13d1ee50102f43f8637ce8243d")))
         (sha256
           (base32
-            "0wmiahqqrw3frf6qx74h11vk7y2pbr99wixnwp4w8lmwxhb2pxm8"))))
+            "0dyrf3bz17zj4h814wmpsppb5m2bwr4s0nrph1zqamffq35mdsga"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-units-mode))
     (home-page
@@ -73234,7 +73234,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221023.826")
+    (version "20221024.413")
     (source
       (origin
         (method url-fetch)
@@ -73244,7 +73244,7 @@
                ".tar"))
         (sha256
           (base32
-            "0s4zn3klkhwqavnz1dnnc27pjkwrv5w6zvmfza2lrafsfbrjzkvg"))))
+            "14hqx177kmwckygvk6mc5nr7vc5yzsba0b09ns31y3cmmw5r4c8c"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -84171,17 +84171,17 @@
 (define-public emacs-org-static-blog
   (package
     (name "emacs-org-static-blog")
-    (version "20221018.933")
+    (version "20221024.605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-static-blog.git")
                (commit
-                 "bebd826a7664bd4140ad4d8b592ba1d2c5decd76")))
+                 "f830e027986df120be4f199f4f36b8f2948f3247")))
         (sha256
           (base32
-            "1m2nmzslgnkdqjw3wj8w8q8jja6r7gc4633isr0wmf00m2gr504a"))))
+            "1vz9zjwk3m03yvx28p14jx0a075wc2b11xilldsaqvq8srijim16"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/org-static-blog")
@@ -106297,17 +106297,17 @@
 (define-public emacs-solidity-flycheck
   (package
     (name "emacs-solidity-flycheck")
-    (version "20220713.2146")
+    (version "20221024.220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethereum/emacs-solidity.git")
                (commit
-                 "211dbdf0dfab1139681156e6f9621a5bbe0f74a1")))
+                 "929ce58ff0d42cf1109f9fb0655c787ee58cc2da")))
         (sha256
           (base32
-            "14mpncf9mpypcinfvzhmvnjlxf5laxxwnf02qjdagiws42lgwm2f"))))
+            "0yy9bdbab8k84csskq6lq6vgrzpm3zjj8a9gxbnwxc4ksarm1npg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck
@@ -106324,17 +106324,17 @@
 (define-public emacs-solidity-mode
   (package
     (name "emacs-solidity-mode")
-    (version "20221020.1058")
+    (version "20221024.220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethereum/emacs-solidity.git")
                (commit
-                 "6aa8b0aef128754b775a165e269879832d5a60e5")))
+                 "929ce58ff0d42cf1109f9fb0655c787ee58cc2da")))
         (sha256
           (base32
-            "158k3s0zv5hr5nlh17i8g2r5qfycqivvd9lnszyiz9qbm7d3ji9w"))))
+            "0yy9bdbab8k84csskq6lq6vgrzpm3zjj8a9gxbnwxc4ksarm1npg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -113785,17 +113785,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20221019.1841")
+    (version "20221024.626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "76807bef3c128aca33064228a80c5e6937a67b8c")))
+                 "984099b6b8a19a8bb016bd8278285f77af7f79d9")))
         (sha256
           (base32
-            "06zg76ndxx5svb3i49s8y9nc8ydn5qk1a3cgcmjiqh0yb8kw5gin"))))
+            "15n3hlhhnrhc4rcpxnmwqz36dbz1asmz72cy9zvszz4fxrach4rb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -120581,17 +120581,17 @@
 (define-public emacs-writefreely
   (package
     (name "emacs-writefreely")
-    (version "20190628.1606")
+    (version "20221024.221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dangom/writefreely.el.git")
                (commit
-                 "83a487e48e0d8342c372deb74d04c0b43474268c")))
+                 "ef22839e590ea62f8ec9510bf03fba8fa3aef4c4")))
         (sha256
           (base32
-            "1qslhhb0zbg542xsa3rw4xh8wsz9k7nm61c62rhbasd4s39159yc"))))
+            "1pb8gmbqj40m1xqbhaa8k8j29zl39bfsib74m6rcwlzbn2fk5gdg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ox-gfm emacs-request))
@@ -122327,17 +122327,17 @@
 (define-public emacs-yoshi-theme
   (package
     (name "emacs-yoshi-theme")
-    (version "20220917.638")
+    (version "20221024.20")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ryuslash/yoshi-theme.git")
                (commit
-                 "ac195a65281bed6ac894a9c9e904d56d375ce05e")))
+                 "59cf53110ed73344c7f96da8136b88b039b69602")))
         (sha256
           (base32
-            "0kjf6klrb0fm029cb2jhaqhpwa64lpn5cwm226q1g9k0l7ygnyb9"))))
+            "0sgyq59hpib2q0yrih4l33pdcvg6hk17cwfv27khhayf4hf92cnn"))))
     (build-system melpa-build-system)
     (home-page
       "http://projects.ryuslash.org/yoshi-theme/")
@@ -122444,17 +122444,17 @@
 (define-public emacs-yuck-mode
   (package
     (name "emacs-yuck-mode")
-    (version "20221009.2223")
+    (version "20221024.146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mmcjimsey26/yuck-mode.git")
                (commit
-                 "cdf1bf252db7f8a1a5885f847a026f9b3a3e5497")))
+                 "fc150e9c2696c20d76693750109d122e5c10826b")))
         (sha256
           (base32
-            "0q22fxv9i7a4q1rfm87647pirdmrmdqzd5rcy00zmc4qvq75sq9v"))))
+            "1b6iwn6q2dgffsp5ks9jgj46g0cqbxpyydrdd65s6i9049c036dq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mmcjimsey26/yuck-mode")
