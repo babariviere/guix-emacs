@@ -3628,17 +3628,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20221005.2319")
+    (version "20221025.101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "aae79b7b2a1a7bc905b005ec3f43feb56918b93d")))
+                 "b4aa52da76b46c3c1be44cf8b312b55a6082c104")))
         (sha256
           (base32
-            "0xfvsh8hzx9g2xvxy9zx65i3wr8z7rcqm7w345pnywa67hxkvc9z"))))
+            "1r37sv48yx2r3pmawq6ik294aw20sy8rs9lyrpklfqqb1dlcmd65"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -66426,17 +66426,17 @@
 (define-public emacs-linum-relative
   (package
     (name "emacs-linum-relative")
-    (version "20180124.1047")
+    (version "20221025.517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/coldnew/linum-relative.git")
                (commit
-                 "c74a6981b688a5e1e6b8e0809363963ff558ce4d")))
+                 "8fbe89ad897921849665a3e8da18cee7d0721441")))
         (sha256
           (base32
-            "0svxi1l3s4rg1k1apfw25gzi127rsks56b5yfg79a48b5rf1xmkh"))))
+            "1igyxlnlqbbbivf52ahm9hxhrc29zyql2x9fi7s3rdjh3ki8y55r"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/coldnew/linum-relative")
@@ -86424,17 +86424,17 @@
 (define-public emacs-ox-html5slide
   (package
     (name "emacs-ox-html5slide")
-    (version "20131228.606")
+    (version "20221025.521")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/coldnew/org-html5slide.git")
                (commit
-                 "4703dfbd9d79161509def673d2c1e118d722a58f")))
+                 "4e0d9026c96e1dde22cca7c700669f1f863a9d07")))
         (sha256
           (base32
-            "19h3w3fcas60jv02v7hxjmh05804sb7bif70jssq3qwisj0j09xm"))))
+            "1bbnj1vbyz79pprq0fb50ngv7ial7car247pj3dk9wyq0ch7navz"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/coldnew/org-html5slide")
@@ -87857,17 +87857,17 @@
 (define-public emacs-pangu-spacing
   (package
     (name "emacs-pangu-spacing")
-    (version "20190823.401")
+    (version "20221025.522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/coldnew/pangu-spacing.git")
                (commit
-                 "f92898949ba3bf991fd229416f3bbb54e9c6c223")))
+                 "2303013e5cd7852136f1429162fea0e1c8cb0221")))
         (sha256
           (base32
-            "0c8ad30313598mggjiq4szz1alc6kcswh7i8447kdci241rlyqrf"))))
+            "15myim253yw5pipjidqcj09ayi7zyliaw9dcr4kwcyh6ymv0syaw"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/coldnew/pangu-spacing")
