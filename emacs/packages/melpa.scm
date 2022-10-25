@@ -3168,17 +3168,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20220930.1003")
+    (version "20221024.1829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "0c3342bd55c827b8e4529fd5ee2aa40053a334f6")))
+                 "479aa90fd6a4db69361339c0058190423fe839e7")))
         (sha256
           (base32
-            "0y9v37y8l1mx14lggddlimlmivzz0ll4pwhq87szf50bv23xiq7r"))))
+            "1rsb6chgcn3qyzdrajvmidax1gx13v5ngkp24fl1avrsf4kgbmjw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -9351,17 +9351,17 @@
 (define-public emacs-burly
   (package
     (name "emacs-burly")
-    (version "20220825.2211")
+    (version "20221024.2019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/burly.el.git")
                (commit
-                 "4a877f80252edac8dc7e613b1c5b3aa4e9b9137f")))
+                 "f570fa87ee72a451f535cfb038d81798a01a7e20")))
         (sha256
           (base32
-            "06abnnn2bwzvlmp0cgiyj5cmi6bkcc5scllvxc343nwlqnxp4anh"))))
+            "0ajlpgx4dpf82f3mg6292p3jfn01z6xrflk5pk4vqw6bjscnzgay"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/burly.el")
@@ -12454,17 +12454,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20221022.1434")
+    (version "20221024.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "b4f0cb195528057afaa091ea77355633d68c2b3a")))
+                 "050bb7cafc2a89379406f363f7120ac56177ede7")))
         (sha256
           (base32
-            "0d2vkx2h7jf691qwgxbbvkr0h64236d7lfa47pwxq50aqndm6h6y"))))
+            "168z6yidh2nxkmdlx9cqdzzb7achxdipnbk5pj9787m9bp1sdpkd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -15144,17 +15144,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20221023.1142")
+    (version "20221024.1644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "925b19d6621242611aa7943e28b0c7f98743bb5b")))
+                 "42cdb97d8db2221d8680160173407b797f88c13c")))
         (sha256
           (base32
-            "11k2d4719xqawxqnk7z89b5vcylmjg50941aq10i1dw7fw4lh64i"))))
+            "0bhhqvsd4sgrxq5ylgcd7s3ai5k9sw0y8cs5gasr8c92a09v35vj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -21202,7 +21202,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221024.1124")
+    (version "20221024.1452")
     (source
       (origin
         (method url-fetch)
@@ -21212,7 +21212,7 @@
                ".tar"))
         (sha256
           (base32
-            "1m6shqza67a9yvqldlw7pgbkrcpx5q0psr7gs139q5xk3zzmk1ww"))))
+            "0w3lh8lnx6dpc7zb4vgymsjb2cqr6yhal66kmamqajixyc9rvblf"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -25050,17 +25050,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221022.926")
+    (version "20221024.2044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "f8b567e78e293e05f5834ee66cbe064a6674aa5e")))
+                 "628853eb17530c61fe0f296e2c3b16152bc88270")))
         (sha256
           (base32
-            "1br5q2ahh7fcrzi5sbyjf12i8h9pyvpjpbrd83hpb3ngv2s1zgp9"))))
+            "0mq456bhj2lklx61khlcwnygvd33nwy899nx630kd76q896rlqn0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -29354,7 +29354,7 @@
 (define-public emacs-emacsql-sqlite-builtin
   (package
     (name "emacs-emacsql-sqlite-builtin")
-    (version "20221022.1107")
+    (version "20221024.1449")
     (source
       (origin
         (method git-fetch)
@@ -29379,7 +29379,7 @@
 (define-public emacs-emacsql-sqlite-module
   (package
     (name "emacs-emacsql-sqlite-module")
-    (version "20221022.1107")
+    (version "20221024.1449")
     (source
       (origin
         (method git-fetch)
@@ -32712,17 +32712,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221017.2028")
+    (version "20221024.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "a13a05f263dd54632d4509e7cfb2bb5df556d442")))
+                 "88da852e3df2fa6a4b03ea5ed7e6dc4a1aef6c15")))
         (sha256
           (base32
-            "0mb08xi2pwl5qzdr60lrjsgsg553fbx60jjl8nvmjvnp8hnhmcyw"))))
+            "0ggjml8cxrjav8razjfbwsa7qiiw513193a5himbn1ha9lgw5i2a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -48978,17 +48978,17 @@
 (define-public emacs-hammy
   (package
     (name "emacs-hammy")
-    (version "20221020.2054")
+    (version "20221024.2040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/hammy.el.git")
                (commit
-                 "03a7a0daecefc62d5cd315cb7ca4a27eaca00cd7")))
+                 "09249e36715ee33e3abd9cdda9df3bea739ff207")))
         (sha256
           (base32
-            "085k9ly3fy8yrykl5ibph0qvg9q8q2nbgasn2prw0i7l3qyn9p1f"))))
+            "0140wrgawzw30ivf374lrj1m5v6zjbpwfdpdsxy70ibz5dwhlfsc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -52382,17 +52382,17 @@
 (define-public emacs-helm-org-rifle
   (package
     (name "emacs-helm-org-rifle")
-    (version "20200512.1943")
+    (version "20221024.1943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-rifle.git")
                (commit
-                 "5e13a0e59606b40088927870dab116a8eab8e66c")))
+                 "74725b63e71b1c941f354e6c8a2cf8b5ee7ef563")))
         (sha256
           (base32
-            "0mz77gd4q38mkbcsdcl730nc5s7cr6y67iagcdxa7wk5v46h8l45"))))
+            "0qfr98i07k2irxfgw92nhwpab9q7lbzfyczkj0qlkwn9lrdj6blk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-helm emacs-s))
@@ -69162,17 +69162,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20221022.2130")
+    (version "20221024.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "ccd82ffe494b2af513ec5422137252ae3d05be7d")))
+                 "8158b484ae32d334c9db60b265759d22547ea952")))
         (sha256
           (base32
-            "1yg4bdv6v1qjcds4h2wf5awv6nb80d45k9vvwbdbcrg1pqvw4xzv"))))
+            "01r9hyakwjc49kb4ndj4bhqcq4jq2fyscgnvpxbwwqmip83xgai6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -79653,17 +79653,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20221018.941")
+    (version "20221024.2135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "687edd5a04d85261a5543da1e6e76eba6328f1ae")))
+                 "d5431f131668d7d55708f46ee9836d2b4ad35c2f")))
         (sha256
           (base32
-            "0dkc7vry9swqrf90y9qywqf01bn92vsfp7kaq0gjgs1r3jpwnr0l"))))
+            "01dhl0da5iwwr78cfjlch8sdgw02kcy9ab13m0ivybfnja829mfn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -99079,17 +99079,17 @@
 (define-public emacs-rg
   (package
     (name "emacs-rg")
-    (version "20220521.1653")
+    (version "20221024.1631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dajva/rg.el.git")
                (commit
-                 "89343e9858787fa8d3651cd03ff7b0d03309dee8")))
+                 "3880e8c734c976a2d393aeacf60d510f56d8217d")))
         (sha256
           (base32
-            "0pka31i87mf9ih40cb8yc1scvzklb5h5agscac2v7faklranih7i"))))
+            "10rbfncv2baz28zls0zcqbz5gahbvdi3ixab4cm6gfm13xbgwvf7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wgrep))
     (home-page "https://github.com/dajva/rg.el")
@@ -99945,17 +99945,17 @@
 (define-public emacs-rubocopfmt
   (package
     (name "emacs-rubocopfmt")
-    (version "20200713.1144")
+    (version "20221024.2139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jimeh/rubocopfmt.el.git")
                (commit
-                 "b84810105940aa5e0bde20c9a89359c95c9b6917")))
+                 "b180786c007e6f4c2f2a9673a13fb0651d012f76")))
         (sha256
           (base32
-            "1w922wl7zab61v6z09rh3xpjnfi97c802ijvv4g92nqds6fhnym1"))))
+            "1ns7b93abjw495y6i3k3dl5yxr7ydgiy7a499f1ww0nys8fi3i12"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jimeh/rubocopfmt.el")
@@ -117740,17 +117740,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20221012.1950")
+    (version "20221024.1544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "a95aecaba0e6a83b7083be98be636a19df20f666")))
+                 "4badda9c4c70421d1216122abf947813ed04dbcc")))
         (sha256
           (base32
-            "0ccin7lmfqsfa6kcz5fgmsp0awa6cjc32sg1fq4az28c99wmsp2z"))))
+            "18sa0k6gf7jf4lh94l1jbpigyv0f7yldvxzx244p8j8my3ggjdw2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
@@ -117762,17 +117762,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20221012.1950")
+    (version "20221024.1546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "04867f8450bdec6ebad339f006050dbbfce12d76")))
+                 "04969a80f7bb9c679080cd754f44cac40718e85b")))
         (sha256
           (base32
-            "10vmcqkgmg6xs8wg9izcq5gayajpw3zfcd1q456ip3hvcfhc3jhv"))))
+            "151l9rk6fy3632w13kyslrmd9zay89x48d2idd4wbm63y953jkjy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
