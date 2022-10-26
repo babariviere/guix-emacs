@@ -2440,17 +2440,17 @@
 (define-public emacs-all-the-icons-completion
   (package
     (name "emacs-all-the-icons-completion")
-    (version "20220409.1204")
+    (version "20221026.616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iyefrat/all-the-icons-completion.git")
                (commit
-                 "286e2c064a1298be0d8d4100dc91d7a7a554d04a")))
+                 "4d8ae544ecf5414c7ddefcf15ca6c3de4f627ef5")))
         (sha256
           (base32
-            "19q35l8ljsgk5f5pcxals2wr7mq4gs278y8bhy983gnlwm80ww43"))))
+            "1cp5i01ln4j71gng38d03p2mdrvjgfcm29k4qjn5gzq6g4713wic"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -49579,17 +49579,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221024.505")
+    (version "20221026.433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "664baf8aa92e9845213fc8dbc37d27c62e9e19bd")))
+                 "fc3225e0dc7b5be25308885eaebbbeb407293734")))
         (sha256
           (base32
-            "04h6awzb5azfb8zdjsqscikjgrcnc936qzy932c7wsa7p9f50ayx"))))
+            "1bsvr7g1r3z93fb7v7ynd11fnawq8x4rxqf3k2570awhk1jjvwnl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -84900,17 +84900,17 @@
 (define-public emacs-org-wild-notifier
   (package
     (name "emacs-org-wild-notifier")
-    (version "20221025.2028")
+    (version "20221026.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akhramov/org-wild-notifier.el.git")
                (commit
-                 "5117aa054b60a326350d2c3542d50a8bdeaa9a44")))
+                 "ba2d80e2a1ccdc0e8cb41da040282c5ec324157b")))
         (sha256
           (base32
-            "082nz7n08lhj4v5hlg15gv9m4ds7z3150ikcv3wajrg8cqaar5fw"))))
+            "10asspv32g28ysg28012z1x09zm8svrnf56k69f4hgk6p2a13pq3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-async emacs-dash))
@@ -89608,17 +89608,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221025.1403")
+    (version "20221026.717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "0b85c5b18173099f031423557e30ed2b8cefa055")))
+                 "05add40916f779a768b57ed138124915f5de4430")))
         (sha256
           (base32
-            "0v90r5xawcpqkdmzv6cs4zdw76rcv1fah0lmb8pd5p0alvjmmqcy"))))
+            "1p93lkg9kxq75idlag0y7q964dgn7aaa3sqgcrzfwmfqpwykln0s"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
