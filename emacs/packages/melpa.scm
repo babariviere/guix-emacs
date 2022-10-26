@@ -1996,17 +1996,17 @@
 (define-public emacs-agtags
   (package
     (name "emacs-agtags")
-    (version "20221006.1011")
+    (version "20221026.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vietor/agtags.git")
                (commit
-                 "cb8126dfca5d085813728442f59079ead1a7355f")))
+                 "e8e04ece2f32d65b084974597bfe8077da3ddba0")))
         (sha256
           (base32
-            "03silm35qg64w4pcp7chpdfl7jisqjnf2khbhrsz28b8xi938zp4"))))
+            "14sxysq606rq06banjhj5andny3j9r8yk3v4w8ipk0kd033qrr22"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/vietor/agtags")
     (synopsis "A frontend to GNU Global")
@@ -12031,17 +12031,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20220930.1032")
+    (version "20221026.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "92c1b6de20805a9caa556cc671ac39080e4e89cc")))
+                 "d08609feb7141b8dbece6abb958bddd4ef0129d5")))
         (sha256
           (base32
-            "0890qnjhjxjgas60csyanaqyp64jk67q3w5hs37js6i8p664pimr"))))
+            "0wayr0g3hk5n0cp26i1b165z8143fv76dcq6hx2mpg471931fw8g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -12454,17 +12454,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20221024.1619")
+    (version "20221026.1325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "050bb7cafc2a89379406f363f7120ac56177ede7")))
+                 "bce7ad69e1a1947232de7368eb18e75bd159ba65")))
         (sha256
           (base32
-            "168z6yidh2nxkmdlx9cqdzzb7achxdipnbk5pj9787m9bp1sdpkd"))))
+            "1018bg47p3f8li2yp9n13yplrwhapxjab7hqdmvgjsns7iygc975"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -31397,17 +31397,17 @@
 (define-public emacs-es-mode
   (package
     (name "emacs-es-mode")
-    (version "20220912.1442")
+    (version "20221026.1103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dakrone/es-mode.git")
                (commit
-                 "7db6bee12496c2cc70bfff05ca4d3b376d50db7a")))
+                 "e82465fd785688bb58918ea62ca4de06a2a23a1e")))
         (sha256
           (base32
-            "0mrs2ynk9gj3c5x7rcbri9lq0xhq72zd20h6xd1016ihs5dk56lm"))))
+            "0nb0nh651wnx8916j4ybhmadfk4ri6gnpfw9x58fv50nnmna9bc9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -62365,17 +62365,17 @@
 (define-public emacs-julia-repl
   (package
     (name "emacs-julia-repl")
-    (version "20220428.541")
+    (version "20221026.833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tpapp/julia-repl.git")
                (commit
-                 "ee4a33f8d0121d0092ae73e0c4c84db6a86ea55c")))
+                 "6625e95c3d0561c6966a13c2565d35d2ae6c07ca")))
         (sha256
           (base32
-            "12c2yni17dcj8c4iyzwyvph2s4s9gk35hddd6f0da9c33g9qi9wp"))))
+            "0iymb4zmgcxpyxdrpw5icqmmw711p85c2s593kqf3wxcbx8acv45"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/tpapp/julia-repl")
@@ -69004,17 +69004,17 @@
 (define-public emacs-macrostep
   (package
     (name "emacs-macrostep")
-    (version "20221025.1855")
+    (version "20221026.1347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/macrostep.git")
                (commit
-                 "400c483bb140df21a5b8ffcc84eaa7ea3c3c74a7")))
+                 "75ecd041219239f0dceab4883594ea2fe366b484")))
         (sha256
           (base32
-            "0k3kppb99jpfdzwcvdpsx589rb21z1macabn4yri2vyw5mwlz4nm"))))
+            "1mhbxjwpxs54jg04chif8s27xks92xlw9j0r24szpngg554fny3h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/macrostep")
@@ -73236,7 +73236,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221025.1644")
+    (version "20221026.1153")
     (source
       (origin
         (method url-fetch)
@@ -73246,7 +73246,7 @@
                ".tar"))
         (sha256
           (base32
-            "0sg0ccsxkyqq7xxd4pfgz0lyk53phaj5kcfbhpdcgmcviplbdr26"))))
+            "1qnck0dbjgaqhdgj82220a614b2nqysgqzk74xxqlcpiirc4sm8v"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -76992,17 +76992,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20221017.1551")
+    (version "20221025.2346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "7c35c7b8262d77d8a44a1fe1eec79a1170dd1ef0")))
+                 "8a556ddad8ff58db2d2e2fafd5a495815d23179b")))
         (sha256
           (base32
-            "0mx8rkkg8ibkkq3pvc3gb73pl71q8hx8wczx6r6xyxgbpx4i6z6q"))))
+            "0h041nzdhzkm0bp5q4z0vfqvp808x5l4q0npk29j32yjj7yd2as3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -123017,17 +123017,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20221019.747")
+    (version "20221026.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "850e3dd7e2df93ce0e07a6c2b78c9dbdefa40e89")))
+                 "db63d783d92765675cb1897fcf667c62991f10d6")))
         (sha256
           (base32
-            "17q07zkawdx0bm88vld124kzaxjr61prbfipyhlniwsbsksndfzf"))))
+            "0i2z8ll9jj4llk9dpi81xyn64w6fxzfml3arqmbnjrcxf1vgmz8i"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
