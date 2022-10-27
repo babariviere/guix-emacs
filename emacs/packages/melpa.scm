@@ -7517,17 +7517,17 @@
 (define-public emacs-bind-chord
   (package
     (name "emacs-bind-chord")
-    (version "20220807.1556")
+    (version "20221026.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "c1d8da78365886818c24c3934c4fa5ce25c08b5b")))
+                 "5c95dcb1e8690ab5f15342dc9d4bedd599f1650f")))
         (sha256
           (base32
-            "1aaimcgfmm6k848pg59ln6qn45a0h3rlmrjxapvc7b76pk9qrywr"))))
+            "16986nlca7qnmk22sq5vn05pmfdhgcww21djyxh9xx7k4hkgwn9g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-bind-key emacs-key-chord))
@@ -7543,17 +7543,17 @@
 (define-public emacs-bind-key
   (package
     (name "emacs-bind-key")
-    (version "20220910.2157")
+    (version "20221026.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "9a45a8004a9e520e0e822b960ca9d70c2528181e")))
+                 "5c95dcb1e8690ab5f15342dc9d4bedd599f1650f")))
         (sha256
           (base32
-            "1bb1c67d8mwy2hcyzadn2ffski2m5hz95wai0754hf978j637mp0"))))
+            "16986nlca7qnmk22sq5vn05pmfdhgcww21djyxh9xx7k4hkgwn9g"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("bind-key.el")))
     (home-page
@@ -9513,17 +9513,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20221016.2239")
+    (version "20221026.2006")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "001adc064170b1e5beff3bc5a50c40f6c1949bbb")))
+                 "eaa4b3ccd115a2bb25be98dc637950645d3adbae")))
         (sha256
           (base32
-            "1266pqsl67q5svwaxnvwnqhk23wmhds1sds98bas9w4yi4amff0b"))))
+            "1dc8m5w26gi698d31xvh1q8mwf4a3wa1xrnyhqqxrmfr8b71clpk"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -19745,24 +19745,23 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20221017.1959")
+    (version "20221026.1526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "3793b5f6b7b94f489bf9a0c33080918e7bc33030")))
+                 "3f367ae06c756daa3dfbf65fd195e831159d9f0a")))
         (sha256
           (base32
-            "01wrinwmizycfyhaw4jl6566k8xp6di6im9z858v9s9d2ls6m4rn"))))
+            "0ibz0lyc6h336bykgsn19nw379wzrhcl2kkipx1zjsz03qshlip3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
             emacs-f
             emacs-flycheck
             emacs-company
-            emacs-haskell-mode
             emacs-s
             emacs-lcr))
     (home-page "https://github.com/jyp/dante")
@@ -49579,17 +49578,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221026.433")
+    (version "20221026.2037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "fc3225e0dc7b5be25308885eaebbbeb407293734")))
+                 "17188bc28fbaa37a312739818de8e9978a6c652f")))
         (sha256
           (base32
-            "1bsvr7g1r3z93fb7v7ynd11fnawq8x4rxqf3k2570awhk1jjvwnl"))))
+            "15rrx7gqpv1jr13dqrzhp9329gl8w2p4786f010zvcn5958ardn5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50387,17 +50386,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221022.2056")
+    (version "20221026.1745")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "0211c57425bb989965419aeebb7dd52476fcb2b0")))
+                 "17188bc28fbaa37a312739818de8e9978a6c652f")))
         (sha256
           (base32
-            "0qa5lbrz3r7hh5bvflqay9mdilvx8pdxk36ca7rdhvmnakwsigpn"))))
+            "15rrx7gqpv1jr13dqrzhp9329gl8w2p4786f010zvcn5958ardn5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -115951,17 +115950,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20221012.1743")
+    (version "20221026.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "28531e9b94c72ed777803e10e391ea287496ffc2")))
+                 "5c95dcb1e8690ab5f15342dc9d4bedd599f1650f")))
         (sha256
           (base32
-            "0xkafiv3yi95ax1zs1rkmsx930dla00aqhnhmqya9bjzifgm6cha"))))
+            "16986nlca7qnmk22sq5vn05pmfdhgcww21djyxh9xx7k4hkgwn9g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
@@ -115983,17 +115982,17 @@
 (define-public emacs-use-package-chords
   (package
     (name "emacs-use-package-chords")
-    (version "20220807.1556")
+    (version "20221026.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "c1d8da78365886818c24c3934c4fa5ce25c08b5b")))
+                 "5c95dcb1e8690ab5f15342dc9d4bedd599f1650f")))
         (sha256
           (base32
-            "1aaimcgfmm6k848pg59ln6qn45a0h3rlmrjxapvc7b76pk9qrywr"))))
+            "16986nlca7qnmk22sq5vn05pmfdhgcww21djyxh9xx7k4hkgwn9g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-use-package
@@ -116034,17 +116033,17 @@
 (define-public emacs-use-package-ensure-system-package
   (package
     (name "emacs-use-package-ensure-system-package")
-    (version "20220807.1558")
+    (version "20221026.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "c1d8da78365886818c24c3934c4fa5ce25c08b5b")))
+                 "5c95dcb1e8690ab5f15342dc9d4bedd599f1650f")))
         (sha256
           (base32
-            "1aaimcgfmm6k848pg59ln6qn45a0h3rlmrjxapvc7b76pk9qrywr"))))
+            "16986nlca7qnmk22sq5vn05pmfdhgcww21djyxh9xx7k4hkgwn9g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-use-package emacs-system-packages))
