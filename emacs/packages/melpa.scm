@@ -6543,17 +6543,17 @@
 (define-public emacs-basic-mode
   (package
     (name "emacs-basic-mode")
-    (version "20221015.901")
+    (version "20221029.1306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/basic-mode.git")
                (commit
-                 "d270a692ed4a9c6b172d1215ee538ebaff947eab")))
+                 "fb54b023f384478ada8ee79e1b95a101082ec288")))
         (sha256
           (base32
-            "0lrmsf23yrqpl4vqihwqa8y8mkk80agzdgkv26rsdbgc2psajsig"))))
+            "14p9k45jj4ih0iz9240ycpallw01dgi6pwks625pd2vn73qx0z6x"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -16838,17 +16838,17 @@
 (define-public emacs-consult-flyspell
   (package
     (name "emacs-consult-flyspell")
-    (version "20220419.2044")
+    (version "20221029.823")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/OlMon/consult-flyspell.git")
                (commit
-                 "396def174495cc77413e2065ef79658a02490dad")))
+                 "d587961ef0d5f9992cedef3b35b87b11d610a375")))
         (sha256
           (base32
-            "1yvxzkp81yn5k3z1fdkayhb3cn2x92z7wfxcxrqxlasjz9nax5cm"))))
+            "0sz64k5fb0jpm2cmynfnnsslb1ka86zq1fdvc5ipbysiqnplfjpb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -43509,17 +43509,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221023.2345")
+    (version "20221029.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "67fae675d40833fe10471a6b237a16efef03b845")))
+                 "d90a08de80ce9d2666fc1fd477a2743c64b45de0")))
         (sha256
           (base32
-            "0l3acrcv9qh44a47cbyk6fxrnbridqmf7qxzb4i2wa1p4wwgx2va"))))
+            "13vn0xcqrckv02lalpzn9hy7k73pr9ir8s9l1lp0jcyw8p39dcdy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -67737,17 +67737,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221023.1422")
+    (version "20221029.846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "e9473da457f90f84e3e91377b3fc280ca8d21c85")))
+                 "6801e98f74afdab00cfc1a543622c3f70d0c7864")))
         (sha256
           (base32
-            "0zqkp0gifb1q3ycxcc1wk3l50mzdirfpk27lni62ba4i164dhjza"))))
+            "03qaznsbpwnpq1lj9zi3hd0yr5jzh0lwxk7v11dpzmg37j3979jq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -68483,7 +68483,7 @@
 (define-public emacs-lsp-scheme
   (package
     (name "emacs-lsp-scheme")
-    (version "20220914.2015")
+    (version "20221029.816")
     (source
       (origin
         (method url-fetch)
@@ -68493,7 +68493,7 @@
                ".tar"))
         (sha256
           (base32
-            "06z8afriahyv6gz5hng21m7ky4srm6qd33pd9a6f9va6q9qdwr9w"))))
+            "1inimssricyyvxdc7cp6c82x3snj2xm8bif5f790a7gwmpwigna8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-lsp-mode))
     (home-page
@@ -70836,7 +70836,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221015.2004")
+    (version "20221029.1039")
     (source
       (origin
         (method url-fetch)
@@ -70846,7 +70846,7 @@
                ".tar"))
         (sha256
           (base32
-            "0z3n0bvs28xn64iymc6dr2av1db1yhinvwz6scmpqqg5m3fsl8vd"))))
+            "198ax035f6cjs93fvd3mz2rvg9gnmbarn6f183kqxgmrs5n0ci9y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist))
@@ -82282,17 +82282,17 @@
 (define-public emacs-org-inline-pdf
   (package
     (name "emacs-org-inline-pdf")
-    (version "20220429.1012")
+    (version "20221029.751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/org-inline-pdf.el.git")
                (commit
-                 "b790818ecbb85cd6dee44754935eb12153a79679")))
+                 "e23e254cbe0690c8e41513ee4661d3e559faa196")))
         (sha256
           (base32
-            "0a5fk5wkzljrjwclq8x1lbg9krzfj336pc5kid5ncq947p0m04bn"))))
+            "0b1hr6v3hs2ia8p7v29yxjk47r5dn1jni1bx14r5325l50wk4xld"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/shg/org-inline-pdf.el")
@@ -89606,17 +89606,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221028.1404")
+    (version "20221029.1055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "8f55a1c911d06b7d9696400f0741e63546932c28")))
+                 "dc673a45d7d18ae3ddd4de35df3d476faa87b426")))
         (sha256
           (base32
-            "1lv2q7nk2aqg9991sp4651w7x9krb94igh48n7fniqy36613bkwm"))))
+            "10b76nz1fyf39ycqks4dx019gx704b693zpd8x8wqgzk4skr3930"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -93594,17 +93594,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20221028.738")
+    (version "20221029.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "ea3334728309933e0dfc2f657e93263bdd0211b5")))
+                 "2b21dd09062df4adb4114d167e3d27de1ef34919")))
         (sha256
           (base32
-            "152m1f2z8js9nb2j2wykqka1nbn8q6qdqskalvgqapr0ai4h1si7"))))
+            "17j8kl5grc2jm47q33llm4lwa2zzvxzkbrvay86z881ribmpqqzy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -95071,17 +95071,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20221019.44")
+    (version "20221029.805")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "5d40490623294c503315946ab34f38a759b2a82c")))
+                 "13e133deaba0701ac292b350a5316dbd616991b2")))
         (sha256
           (base32
-            "03lkbhpfy3axwsja66r11wcqdy3w8l159dc9qn83j8jvc1jqr6mx"))))
+            "0crnl6l82190y82qb3jz7mwb72mbz8y7z7ll9iv2sp67vc9gn6n1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -101529,17 +101529,17 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20220708.211")
+    (version "20221029.1137")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-scroll-on-drag.git")
-               (commit
-                 "6d4de55bb6b72aaec53b82b8f8cdccc5396d6bf5")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/scroll-on-drag-"
+               version
+               ".el"))
         (sha256
           (base32
-            "0irv4xp7zlyiw1rfpdr1skspp9m6wvvcbmyxzkldpnbn2gbiy8xi"))))
+            "0wjyjs16s9azhb2h0p6bmcc737d2yzwkk3dky9li5piizb9jb59q"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-drag")
@@ -101551,17 +101551,17 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20220708.211")
+    (version "20221029.1138")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-scroll-on-jump.git")
-               (commit
-                 "0cba79dcb28fd82abe9d1c1bbc00fd7655dcedf6")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/scroll-on-jump-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1y44f074j4aigg9h2j2fzy94ndb1xx7mashk441y4mh1ghv8nmrr"))))
+            "040h5nqncrr7synkz6mww50pmxwydzjs2rnbx2gypg2kl8lhxsn2"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-jump")
