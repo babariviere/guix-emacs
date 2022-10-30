@@ -12315,17 +12315,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20221021.1729")
+    (version "20221030.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "4a302fcc405d9747ab74df0e95a01ea489fa9bdd")))
+                 "c37a4827d019eac76a297ebd2d6af04ffce42afb")))
         (sha256
           (base32
-            "1klpw6f4kprqbi6vdz6ny3gc2bbjyb0vam0bws1vzv8bmy9ndqhj"))))
+            "1zlw1na4i4gq9b1zdh4pzyvwrn2dzrjzx1a0541211i5c1h79xd9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -34949,17 +34949,17 @@
 (define-public emacs-expand-region
   (package
     (name "emacs-expand-region")
-    (version "20220729.659")
+    (version "20221030.957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/expand-region.el.git")
                (commit
-                 "c5c4362741deebb0985a8a29f9b8b0e25160764a")))
+                 "b70feaa644310dc2d599dc277cd20a1f2b6446ac")))
         (sha256
           (base32
-            "17h58v5mnggbrwrp61cwkqx8hzazkdqyz9p6s1hl9g2hys7zkb00"))))
+            "1lzqkcc08gjnwypcwydd81bva1d4s6l0c14k3z3fsjpsa3kynv5x"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -49598,17 +49598,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221028.1131")
+    (version "20221030.1106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "47fc44296564c3be8bc7353ecfc6e949b0f60e82")))
+                 "3df94a09da41d76313e87729afb28eda76f41f1a")))
         (sha256
           (base32
-            "19y9vlgadm8hy77dhl8hcwxwdnxgj6f0xhck09p7rsdqgff1v9jn"))))
+            "0dqcnva8wyv3bw3z8l522h44bcgdcam44xn4r1bs601y3k4hgdip"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -68979,17 +68979,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20221020.1508")
+    (version "20221030.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "d1ff980233c33bda03b02462f49a9b27dde421a5")))
+                 "e4e703a8ec8310a42ae45eaf6513f04ba246c9e7")))
         (sha256
           (base32
-            "00qaj5sh0ildprb075mnyprbfsppd132mbphrl9gyj41jadrjs40"))))
+            "0qimcs8l4hf9b761f4v9hcwz927d38dsvrxzashgwj3xbv2xz1nk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -73231,7 +73231,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221028.434")
+    (version "20221030.1452")
     (source
       (origin
         (method url-fetch)
@@ -73241,7 +73241,7 @@
                ".tar"))
         (sha256
           (base32
-            "1660ppd04008r8hb6caz72wll9bvkrps0a1y7ajbs9nqq0p61b9a"))))
+            "03ik8m9dj2d2m3ysin4ilq5qgybzlx0i5lgkxvigs60jk3al89qb"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -101574,7 +101574,7 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20221029.2316")
+    (version "20221030.1149")
     (source
       (origin
         (method url-fetch)
@@ -101584,7 +101584,7 @@
                ".el"))
         (sha256
           (base32
-            "0pp0cnrayq54p0x18dysmhyzip4ra4pjsassgqvx8ip5hbzbhkaa"))))
+            "0qmbsccccimv3bwvjmarxbm56vj6r7y5xr320kglnv1sxvnyr0nj"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-drag")
@@ -106961,17 +106961,17 @@
 (define-public emacs-spatial-navigate
   (package
     (name "emacs-spatial-navigate")
-    (version "20220708.211")
+    (version "20221030.1131")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-spatial-navigate.git")
-               (commit
-                 "6840ca694d281d39de76c1af0cb2ec526b40820a")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/spatial-navigate-"
+               version
+               ".el"))
         (sha256
           (base32
-            "0mh7nmqz9wmfpvq7w4xc23k2kvmamvbbblb01xf9if7szyiyyksf"))))
+            "033r3m9glf74cbaqrm4zc4n5778196518g1zawqqf77qnl2540j3"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spatial-navigate")
@@ -110599,17 +110599,17 @@
 (define-public emacs-taskpaper-mode
   (package
     (name "emacs-taskpaper-mode")
-    (version "20221027.1215")
+    (version "20221030.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/saf-dmitry/taskpaper-mode.git")
                (commit
-                 "40b9066cfb4bf4294eef03a713fac98008fdc48a")))
+                 "9620d66e568c0bbdf033a559bac578e235e66293")))
         (sha256
           (base32
-            "08lpmx9k91svr2rvv00w0r5x58qfw6lwq0ildnybccfnv6115qcw"))))
+            "0hllchgha24xm18c0jnnbx4dg701fbg6j6lb9w4nz8mhgy9yvq52"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/saf-dmitry/taskpaper-mode")
