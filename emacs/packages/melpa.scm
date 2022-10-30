@@ -4513,17 +4513,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20221028.1502")
+    (version "20221029.2012")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "53582176490b79960c0390e1d016dbb8284ea9dd")))
+                 "bd1c0ef685f27976c9883edcab6665fa187e0c41")))
         (sha256
           (base32
-            "029iiaj3xfsp7xv98xm8h8hw69z1iyj4g2qqskkq5zri2aq9lzl1"))))
+            "00bdgkpxs2xhzlyng97jawmypv3v5hhjvc3xj405f9x48mg6rd7x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -47817,19 +47817,18 @@
 (define-public emacs-graphql
   (package
     (name "emacs-graphql")
-    (version "20180912.31")
+    (version "20221029.1808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vermiculus/graphql.el.git")
                (commit
-                 "5ca5f50b5e6f3883f1138453a356d59a1c002120")))
+                 "4575642c3213593abe5972510c418ebb11bf1d99")))
         (sha256
           (base32
-            "0wh0f49574zdv0r7zdhckv4jr3ggwzlgyxda0y0hxw8vabzvavw6"))))
+            "1apbnxbxzk6ngigdpbjkn52cli9axwxlkv2fhksyqsqvxrg8f119"))))
     (build-system melpa-build-system)
-    (arguments '(#:files ("graphql.el")))
     (home-page
       "https://github.com/vermiculus/graphql.el")
     (synopsis "GraphQL utilities")
@@ -48479,6 +48478,28 @@
       "Set the GTK theme variant (titlebar color)")
     (description
       "Documentation at https://melpa.org/#/gtk-variant")
+    (license #f)))
+
+(define-public emacs-guake
+  (package
+    (name "emacs-guake")
+    (version "20221029.1811")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/juergenhoetzel/emacs-guake.git")
+               (commit
+                 "2753ce833b95bd1f042ac0e4b7adfe34975a88ed")))
+        (sha256
+          (base32
+            "0j22rsvw5c2cm68s6r8zyydmwj8nn9v8npp7x8s8mcg1rlh00ifm"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/juergenhoetzel/emacs-guake")
+    (synopsis "Interact with Guake via DBus")
+    (description
+      "Documentation at https://melpa.org/#/guake")
     (license #f)))
 
 (define-public emacs-guess-language
@@ -58636,17 +58657,17 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20220819.28")
+    (version "20221029.2301")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-theme-inkpot.git")
-               (commit
-                 "4a488ddf2cd47949ee627af03743f66ee91177cd")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/inkpot-theme-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1byl4lrd82y7wr98c3bljfv9q1cpi44j7r7cjx37wmkfp464gq68"))))
+            "0qnrp991dmgx8ihfldpwjppcx894jxdchzkyapr5khxx0v2khri6"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-inkpot-theme")
@@ -67419,17 +67440,17 @@
 (define-public emacs-log4j-mode
   (package
     (name "emacs-log4j-mode")
-    (version "20160108.1918")
+    (version "20221029.1314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://git.code.sf.net/p/log4j-mode/code")
+               (url "https://github.com/dykstrom/log4j-mode.git")
                (commit
-                 "26171b1e723502055e085393b0ecdcb6db406010")))
+                 "30af0543adf69be646c7634f39c5617984086048")))
         (sha256
           (base32
-            "15x6368pk4bbvhbd6cqnazcxfdz0b3f70029x0884a5797janln5"))))
+            "1ahxrim4x583rxirc9xqiyqp2vmkyxhfah3nskj65s0gy7is8isg"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page "http://log4j-mode.sourceforge.net")
@@ -67895,17 +67916,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20221018.211")
+    (version "20221029.2219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "dc898979fdea64570a431e655e96d895ff3d8845")))
+                 "b99f743302a4e77b1e149bbb1b325b6f0bfc38ad")))
         (sha256
           (base32
-            "1jm0bkgsmhnknh8apx098mypwchmc716lz74qzfnrvgnv43jabzm"))))
+            "15k96yh5w94n5s879zw5kv76dj8qbz8bh5i3g4y9yd4rapmv9k40"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -68257,17 +68278,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221028.1146")
+    (version "20221029.1934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "48cf201006c9eb6077e0f4caec04a660307d6df2")))
+                 "9a3708c8410afbc48d8481ca477e1be3d3e9a6f2")))
         (sha256
           (base32
-            "05ygmpn29cc87gjqx147bnchy9905xsmx1nzwjqyvqj2hlm01fkv"))))
+            "0clxa407kr1wxsf35rq7bqkn48gxqaljyy3xqd9xp13dpvdmbnrk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71500,30 +71521,6 @@
       "memolist.el is Emacs port of memolist.vim.")
     (description
       "Documentation at https://melpa.org/#/memolist")
-    (license #f)))
-
-(define-public emacs-mentor
-  (package
-    (name "emacs-mentor")
-    (version "20221015.451")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/skangas/mentor.git")
-               (commit
-                 "ba02a36e4fa2587c35c7d6cf8ee6f89f7f5611f4")))
-        (sha256
-          (base32
-            "1g9z9z7v48y7k6s06r7kga2zwd34a71ih4c161l8yjb7cbnkj5a5"))))
-    (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-xml-rpc emacs-async))
-    (home-page "https://github.com/skangas/mentor")
-    (synopsis
-      "Frontend for the rTorrent bittorrent client")
-    (description
-      "Documentation at https://melpa.org/#/mentor")
     (license #f)))
 
 (define-public emacs-meow
@@ -75474,6 +75471,30 @@
       "Nameframe integration with perspective.el")
     (description
       "Documentation at https://melpa.org/#/nameframe-perspective")
+    (license #f)))
+
+(define-public emacs-nameframe-project
+  (package
+    (name "emacs-nameframe-project")
+    (version "20221024.209")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/john2x/nameframe.git")
+               (commit
+                 "3116b6738f74a95e144a75344355e09f72620e01")))
+        (sha256
+          (base32
+            "0ymrxcjnq6z48byypzxkqb83pslf014rxvy65bizn2xmr4ziw0qk"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-nameframe))
+    (arguments '(#:files ("nameframe-project.el")))
+    (home-page "https://github.com/john2x/nameframe")
+    (synopsis
+      "Nameframe integration with project.el")
+    (description
+      "Documentation at https://melpa.org/#/nameframe-project")
     (license #f)))
 
 (define-public emacs-nameframe-projectile
@@ -79631,7 +79652,7 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20221005.400")
+    (version "20221029.2302")
     (source
       (origin
         (method url-fetch)
@@ -79641,7 +79662,7 @@
                ".el"))
         (sha256
           (base32
-            "00pgfh5a0j6lpq52vv3ljhivq2dc1hw53a1djrwnmayg27fp8rqj"))))
+            "03fpiqdf2a5mblbgv5cw49y7l8hzh0sq2hy31y75y62a7pxdyb73"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-oblivion-theme")
@@ -86625,6 +86646,30 @@
       "Export Org documents to Leanpub book format")
     (description
       "Documentation at https://melpa.org/#/ox-leanpub")
+    (license #f)))
+
+(define-public emacs-ox-linuxmag-fr
+  (package
+    (name "emacs-ox-linuxmag-fr")
+    (version "20221026.1954")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/DamienCassou/ox-linuxmag-fr.git")
+               (commit
+                 "a8b8b9b8d2727247d7e0ef64302d2f2ad26119ec")))
+        (sha256
+          (base32
+            "0c71wlqmh0c6j6qsjll4fkq3xkjr6z8kkvmn5zd8vqn1hwvczd4l"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files (:defaults "resources")))
+    (home-page
+      "https://github.com/DamienCassou/ox-linuxmag-fr")
+    (synopsis
+      "Org-mode exporter for the French GNU/Linux Magazine")
+    (description
+      "Documentation at https://melpa.org/#/ox-linuxmag-fr")
     (license #f)))
 
 (define-public emacs-ox-mdx-deck
@@ -115949,17 +115994,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20221028.1858")
+    (version "20221029.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "4095f1bdae7989981803d25a52384383116e6db6")))
+                 "0be480ea77655304a4e6aa9d38d9d9a251b2bd32")))
         (sha256
           (base32
-            "09xqc0gag3f84qa4p72ibmjxwy4c52nhkr3pjqpqkdpj82g9grj9"))))
+            "1d82j5awma5ckb8l9465i43yvi5ypc142q3r01wqryqj7an1yzky"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
