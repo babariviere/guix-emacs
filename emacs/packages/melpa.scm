@@ -71957,17 +71957,17 @@
 (define-public emacs-metrics-tracker
   (package
     (name "emacs-metrics-tracker")
-    (version "20220713.1131")
+    (version "20221030.42")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ianxm/emacs-tracker.git")
                (commit
-                 "b524398c768227bc14fd12c833dcd4e22d66efd3")))
+                 "ace35dfb6d00749a24993f3fb8f838938826b45e")))
         (sha256
           (base32
-            "1fz3mvgmn94a3csfhlwgagqpr8838q3jxl3l89zsa9sjmbl4cyfj"))))
+            "0r0lngyf076gbx6dhzwwpn2jr3vn688sbv2qkyw5gxrmlynvy8wi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ianxm/emacs-tracker")
@@ -79357,17 +79357,17 @@
 (define-public emacs-ob-spice
   (package
     (name "emacs-ob-spice")
-    (version "20220529.404")
+    (version "20221030.217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/ob-spice.git")
                (commit
-                 "b1106ef2a74b2e88b294b05b83af22810feef4f6")))
+                 "4d3ab60c2012aba2a5bd96a4d42dfeea0be6edac")))
         (sha256
           (base32
-            "1k0ylhlaz8g2f1p1chn9vrzid78fswpyjalim73566pslc09lxsp"))))
+            "1q0ssiggaknc9hd7hyh8hi57sc0vm7k4lnj3yjxjvi0m4akv0qa5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-spice-mode))
     (home-page "https://repo.or.cz/ob-spice.git")
@@ -86651,17 +86651,17 @@
 (define-public emacs-ox-linuxmag-fr
   (package
     (name "emacs-ox-linuxmag-fr")
-    (version "20221026.1954")
+    (version "20221030.716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/ox-linuxmag-fr.git")
                (commit
-                 "a8b8b9b8d2727247d7e0ef64302d2f2ad26119ec")))
+                 "32e0bd1f19b4e6b80b88272f7ec00dc34e52c544")))
         (sha256
           (base32
-            "0c71wlqmh0c6j6qsjll4fkq3xkjr6z8kkvmn5zd8vqn1hwvczd4l"))))
+            "1l4psldwd4jkd6nbh55m78czyicssrnrqdn2gbgqpdxjfvwzw6qn"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "resources")))
     (home-page
@@ -101574,7 +101574,7 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20221029.1137")
+    (version "20221029.2316")
     (source
       (origin
         (method url-fetch)
@@ -101584,7 +101584,7 @@
                ".el"))
         (sha256
           (base32
-            "0wjyjs16s9azhb2h0p6bmcc737d2yzwkk3dky9li5piizb9jb59q"))))
+            "0pp0cnrayq54p0x18dysmhyzip4ra4pjsassgqvx8ip5hbzbhkaa"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-drag")
@@ -106984,17 +106984,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221028.157")
+    (version "20221030.159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "dc274ab5132046fcb37401adc29cdc181c116b05")))
+                 "fb9dd3b819be5244836f476bbb844142e6480a91")))
         (sha256
           (base32
-            "00dj6dz3k82mrgwrsm7jl7q20pyqjqv1yhp43hk973nwzmyyxafg"))))
+            "1swplm106hr9qbwvyvdrrvkwp5qv04ym23dfy4zskvq5x201dmx5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
