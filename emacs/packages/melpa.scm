@@ -4513,17 +4513,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20221029.2012")
+    (version "20221031.751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "bd1c0ef685f27976c9883edcab6665fa187e0c41")))
+                 "1d2c3e8713bad1223479ba066fe0141a0d9ad375")))
         (sha256
           (base32
-            "00bdgkpxs2xhzlyng97jawmypv3v5hhjvc3xj405f9x48mg6rd7x"))))
+            "09vb8r89a0b9h1df60s14gwglvkpgcjhicmicngkp27sl8g5z2md"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -20575,17 +20575,17 @@
 (define-public emacs-deadgrep
   (package
     (name "emacs-deadgrep")
-    (version "20220704.1714")
+    (version "20221031.707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/deadgrep.git")
                (commit
-                 "0c57d113aa6840bec073b3432ed62b382f20acc6")))
+                 "2db7f11c4c858fc36c5543d975397c8d2f1b2c90")))
         (sha256
           (base32
-            "1r16kvq4kpa3c0p1zh2539rb0i82kqy0jbl9avwyi96va0zm4rxp"))))
+            "0sb9mimc2gwgq1yibazf4fp49m3l83ysqbyl7fz3286v17cmlaps"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-spinner))
@@ -26263,17 +26263,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20221023.1320")
+    (version "20221031.547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "bcd377596fc0c5c315598adaa59fcd0455916f8d")))
+                 "bd1d9c37542e94e2ffa69d8e73df11e60350a0f6")))
         (sha256
           (base32
-            "0k1dnws3xz0xynplaar0f5dwpvdmsnqi0bnavjmvcm98jrczmk8y"))))
+            "1hf1yhzni3l66610zsvv6nk4nwaaiklm6whskskxa9qqzwwh6d11"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -46888,17 +46888,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221028.1102")
+    (version "20221031.838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "95804f365e3c0ceb6700a470906a4dfe6310a900")))
+                 "9b70f158c4f38cd27644a533724c983e1929faea")))
         (sha256
           (base32
-            "1yncm8z3ilvjanmcgf3730gxsg1bsa5887697a6kx2wv202p4pfg"))))
+            "0p28m4w903djy6h1zi2gagvdvbb0vrvs8qlidqzd22nc50cp508h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -55749,17 +55749,17 @@
 (define-public emacs-ht
   (package
     (name "emacs-ht")
-    (version "20220911.1544")
+    (version "20221031.705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/ht.el.git")
                (commit
-                 "cdc76669a5032c42a2b9f7cddcbc33c5deeb6beb")))
+                 "e83fdb8bc0a3cc8cd2687a947e2610b20b68b7d3")))
         (sha256
           (base32
-            "0zpfxq6f4j2pv3hipbpvvissv1shls95l908d1nayxs2rlpsyycw"))))
+            "1pwr6pfs93fzgcaaih4k1jflg24fmpcg23r1dj5vjrkamg9zvap5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
@@ -68301,17 +68301,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221030.1802")
+    (version "20221031.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "31645f9fcd4d353acc17792eeb17056d4e33b538")))
+                 "dfda673decbc82fc23079b897915f23f04c02a1c")))
         (sha256
           (base32
-            "17759ma74gnwg5j4qk5234ip0n2pmbl3mrjszziqfcs4jgs4sf67"))))
+            "0f70ph8fs8j5vncspbgmp16zxhl409wrc7p9jcjx928xzzx7p833"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74765,17 +74765,17 @@
 (define-public emacs-multi-vterm
   (package
     (name "emacs-multi-vterm")
-    (version "20210727.1050")
+    (version "20221031.610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/suonlight/multi-vterm.git")
                (commit
-                 "a3df7218c1ecadef779e2c47815201052283f9ea")))
+                 "36746d85870dac5aaee6b9af4aa1c3c0ef21a905")))
         (sha256
           (base32
-            "0z6321994c4c8f5iya240pzvhirci9idlc110wjjwsm4pzdrrppj"))))
+            "01kysm6dks2c499g8b8p9nz6pjlhspmg1dp7fcx6vq9gds52qqi7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -95681,17 +95681,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20221030.1552")
+    (version "20221031.1030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "63dfe387f50d521e7b6b20a848166a85e34d09c9")))
+                 "d0fd742a28e051b99490e48971dafd9766064553")))
         (sha256
           (base32
-            "08la71128r434h3b5nn04cn5jpj1p9kin367phc7crxfa2dksmgd"))))
+            "17jzl1njx420aram9p2kki1f1drwrnr0n6zglc8sv8azli0nxsq4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -102341,17 +102341,17 @@
 (define-public emacs-separedit
   (package
     (name "emacs-separedit")
-    (version "20220924.225")
+    (version "20221031.304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/twlz0ne/separedit.el.git")
                (commit
-                 "328d792401f8f099472c4c35a2c085fbe18fd00d")))
+                 "d40ba1ffa2f28d352c709ef6b01548cb26d206ea")))
         (sha256
           (base32
-            "1w68083gwbahi85jpac0hv3p2xzn7gfn0gh2xpss2q2b8hc6cbig"))))
+            "12zpra8dn1acm3dzk0fa8yqa3miqwbyj6699c8frql6z9j7jmx79"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-edit-indirect))
@@ -109326,17 +109326,17 @@
 (define-public emacs-sway
   (package
     (name "emacs-sway")
-    (version "20211109.1601")
+    (version "20221031.1042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/sway.el.git")
                (commit
-                 "d84adab82ca5f84847702671dd60c0377c82ccd9")))
+                 "2007416933e20d83afdc084445728153f2e573ad")))
         (sha256
           (base32
-            "1xqlflk0k1zcsblydsx583mrh5zxpjbah8h1jb1lrfzwrbx0m627"))))
+            "0x9lc5qpa9al6ialjhll9mrjb2ykxzh75j173x4myd14ij7h8zzf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/thblt/sway.el")
@@ -120902,17 +120902,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20220926.944")
+    (version "20221031.1303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "933b02832ca2e098f865d2080b9feb058afa008b")))
+                 "d28afe60398001753800ff721b6b098236b1b9bd")))
         (sha256
           (base32
-            "12bc8jzay4l7wmw177l7x3h5yaf8gg3vzisbcvbfcn0x076765ll"))))
+            "0g7m728kzrpwzldim2w4mikdg2sqchdpbs1b6351l9hxl4r7aran"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
