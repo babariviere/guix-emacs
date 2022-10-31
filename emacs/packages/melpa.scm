@@ -2201,17 +2201,17 @@
 (define-public emacs-alarm-clock
   (package
     (name "emacs-alarm-clock")
-    (version "20220924.840")
+    (version "20221031.430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wlemuel/alarm-clock.git")
                (commit
-                 "1d8cb396f4e63e9e16d82ab64b1ce599f98f09ce")))
+                 "54a5557c05c63053fe31072905ba80d8231ce2f3")))
         (sha256
           (base32
-            "0hag6bd7lc9230pn81jg55w6qirgm0rdbzib6kyh4hdhcknm4fmh"))))
+            "02gr5scf50js00xa1chvd0j7agr8bys5madzk96fwg0s4gfdmyqa"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.mp3")))
     (home-page
@@ -13054,17 +13054,17 @@
 (define-public emacs-cloak-mode
   (package
     (name "emacs-cloak-mode")
-    (version "20221016.1937")
+    (version "20221031.431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erickgnavar/cloak-mode.git")
                (commit
-                 "5afae6f8ff5c7fa20581384ad3369ad0c2a52de3")))
+                 "e182ec462f486bb84d66780c9d27051e6921f9c7")))
         (sha256
           (base32
-            "0fk5py1hlkzhciqmyxc72hx6cgqnwhb373ssxc8szk0d3sfa0swd"))))
+            "19xwhiiyjmlcwamzg562x2gd5hj7csnmdzc969d137ira03v40qa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/erickgnavar/cloak-mode")
@@ -20491,6 +20491,28 @@
     (synopsis "Control how to open buffers")
     (description
       "Documentation at https://melpa.org/#/dbc")
+    (license #f)))
+
+(define-public emacs-ddate
+  (package
+    (name "emacs-ddate")
+    (version "20221030.406")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/ddate-"
+               version
+               ".el"))
+        (sha256
+          (base32
+            "1jzqfbv431c022sj9adxpks77fd7gz23pyjybm5fcp6x7pm15kc2"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.sr.ht/~earneson/emacs-ddate")
+    (synopsis "Manage Discordian dates with ddate")
+    (description
+      "Documentation at https://melpa.org/#/ddate")
     (license #f)))
 
 (define-public emacs-ddskk
@@ -32710,17 +32732,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221024.1556")
+    (version "20221030.2239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "88da852e3df2fa6a4b03ea5ed7e6dc4a1aef6c15")))
+                 "26168f1972fdf263d964715862cb782b9b33b71d")))
         (sha256
           (base32
-            "0ggjml8cxrjav8razjfbwsa7qiiw513193a5himbn1ha9lgw5i2a"))))
+            "14p686kb4xzri380j4fhlkkxn6f392vli73ikz926pz1ck1yaair"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -67916,17 +67938,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20221029.2219")
+    (version "20221031.134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "b99f743302a4e77b1e149bbb1b325b6f0bfc38ad")))
+                 "cd2f098f11da8285da863f3beee977e1bab57bb4")))
         (sha256
           (base32
-            "15k96yh5w94n5s879zw5kv76dj8qbz8bh5i3g4y9yd4rapmv9k40"))))
+            "1r1009cmcmiir2l8ljdy6s5x0d6k114zznjgzcy0zfgxgi4v0fk3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -67934,7 +67956,8 @@
             emacs-dap-mode
             emacs-f
             emacs-dash
-            emacs-dart-mode))
+            emacs-dart-mode
+            emacs-ht))
     (home-page
       "https://emacs-lsp.github.io/lsp-dart")
     (synopsis "Dart support lsp-mode")
@@ -76703,17 +76726,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20220831.402")
+    (version "20221030.2329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "34d51e2731408b5b615f785a83faa3d6dc2a92a1")))
+                 "5efb5383aba571a35e59660f68bad02ec70fdd98")))
         (sha256
           (base32
-            "0i3j0723njp2640cf70nlv57y1vyh2lhfiz902k6v7pqbl1hvr58"))))
+            "1sgfh46p4m7n3x2pxal7fgppw1fc8q4ci0r5qq6g2va8z0lb995w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (arguments
@@ -84397,17 +84420,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20221028.104")
+    (version "20221031.326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "03998ba46321d27f195080824e86a44effccfccf")))
+                 "1c0600d10e513aebd6a991d0acde9ccea4122909")))
         (sha256
           (base32
-            "1bzqahz710hbp9x37q4pffnyjfhk5v1p0aqgxf80jih2b18wlldp"))))
+            "1gkc3d6xgaimlxcw3bw2zgyi290z379vlqm0md8lc1jzay7xzls7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -93639,17 +93662,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20221030.1534")
+    (version "20221031.506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "0eef60710a844b1bd3af0ecb4a5c548d542fd3fd")))
+                 "1622f5b81a5b67c4b082c5e89d21f2c6896e6a57")))
         (sha256
           (base32
-            "0gxyjln56p133bpnd85i1bpl51kpvsl9x4vnva6h266qb144iq93"))))
+            "1pv34glvwh0dy3h89c1ziba0w9wka6plq1708y1jls6d4ryxsnpl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -95116,17 +95139,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20221029.805")
+    (version "20221031.38")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "13e133deaba0701ac292b350a5316dbd616991b2")))
+                 "8c4f7d40c05dc06b3c96c2955e5d72ec268f2b61")))
         (sha256
           (base32
-            "0crnl6l82190y82qb3jz7mwb72mbz8y7z7ll9iv2sp67vc9gn6n1"))))
+            "1xlgr1ixr1zkxkwxlj04rjcfvh1k3ygl003c0rms33n9s7sh8bxl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -101574,7 +101597,7 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20221030.1149")
+    (version "20221030.2303")
     (source
       (origin
         (method url-fetch)
@@ -101584,7 +101607,7 @@
                ".el"))
         (sha256
           (base32
-            "0qmbsccccimv3bwvjmarxbm56vj6r7y5xr320kglnv1sxvnyr0nj"))))
+            "1vvziimwizkvr7k5wwadiahynb5vi6i9cpcaj9jvrx7cd7c209dg"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-drag")
@@ -110828,17 +110851,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221028.1940")
+    (version "20221030.2345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "8071a84a58f4a649e623f1a34a5b0aba7e9dbc45")))
+                 "10bca595140478cee9490d04224fe87a910daea5")))
         (sha256
           (base32
-            "0nksqdc65afcm7xrwfcvj7lydi98crbq13r9khji9sgln05ah22m"))))
+            "01zll4qp4ga5y9p5yvzc1nnhlilva5sdlafxdicir803wl62a91a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -110876,17 +110899,17 @@
 (define-public emacs-telephone-line
   (package
     (name "emacs-telephone-line")
-    (version "20220919.1412")
+    (version "20221030.2254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dbordak/telephone-line.git")
                (commit
-                 "ab518000fdcd9a6600bcbf97f3ff028314465ddf")))
+                 "314187790b5c5e9962c6d8eac9323b5b801e4aef")))
         (sha256
           (base32
-            "14qgjix39r8agw87yv7j3fpqv24xdys6kycab83g99xy20k4cjm3"))))
+            "1pv6hlzks02bvxkfyg8m04l36clg39h5w7nq2k6ppi5bh4d4kmc8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dbordak/telephone-line")
