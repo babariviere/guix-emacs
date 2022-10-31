@@ -12521,17 +12521,17 @@
 (define-public emacs-clang-capf
   (package
     (name "emacs-clang-capf")
-    (version "20220122.1219")
+    (version "20221030.1830")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~pkal/clang-capf")
-               (commit
-                 "b1765719288a138e125cc5ce624ef561c80015bf")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/clang-capf-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1v8h916rqylz98v1xi1bqdcakgjjl3l1f51xcvyd41wn1kfiaxnf"))))
+            "12ay9gaaxklpahhnaiswhc5qvdbmbvyjs0czy04cbk5w0skcw772"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~pkal/clang-capf")
     (synopsis
@@ -20496,17 +20496,17 @@
 (define-public emacs-ddskk
   (package
     (name "emacs-ddskk")
-    (version "20220803.1302")
+    (version "20221030.2049")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skk-dev/ddskk.git")
                (commit
-                 "3ed86d42717ab2a54ec8de6ab32d552dc0a4c3b0")))
+                 "c24a624884a3cfb0c28d6d5b9eb19e01387f0917")))
         (sha256
           (base32
-            "1jbwkgy704n5l44n414lrvl208zh2dnq54k2bdcaibkxbqh8a052"))))
+            "0ssycfhdsdhxc0c27682z5mx1flxrk5m2caw1ccrmb4nrz14p3f9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ccc emacs-cdb))
     (arguments
@@ -20518,7 +20518,7 @@
          "doc/skk.texi"
          "etc/skk.xpm"
          (:exclude "skk-xemacs.el" "skk-lookup.el"))))
-    (home-page "unspecified")
+    (home-page "https://github.com/skk-dev/ddskk")
     (synopsis
       "Simple Kana to Kanji conversion program.")
     (description
@@ -27472,17 +27472,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221027.1936")
+    (version "20221030.1922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "cc7cbb7bc41e0b1e2536ce656b4d10f6049f6729")))
+                 "3efbf8f5d5f54d6486e830c53e0e85615f9d69a3")))
         (sha256
           (base32
-            "1lgigjrgji3lya3rhn3sz17nysfzxxv330agbszm1sp8f8lhzjb4"))))
+            "1xyixrrdp1nydjs8gwqyxd9h096wwjz9jfvg93b6bv77imanay7n"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -34853,17 +34853,17 @@
 (define-public emacs-exercism
   (package
     (name "emacs-exercism")
-    (version "20221001.1037")
+    (version "20221030.2058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/anonimitoraf/exercism.el.git")
                (commit
-                 "44dca0c889ac605777257ec3db442263772bb2c6")))
+                 "22b270047541a8173467d0e929e318b9f8606c3c")))
         (sha256
           (base32
-            "1nzjfbyl0n4h9h9rrb037i65xd6j22ymvhb5irmrqvxbb2fvfs7w"))))
+            "1z0plm622dn5ybqlmagiy91wqj956qrlyys6557yw1l1rqvjc3ds"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -49598,17 +49598,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221030.1106")
+    (version "20221030.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "3df94a09da41d76313e87729afb28eda76f41f1a")))
+                 "edfd77e51dcda1fd81a0bf45685ba3f560ddc327")))
         (sha256
           (base32
-            "0dqcnva8wyv3bw3z8l522h44bcgdcam44xn4r1bs601y3k4hgdip"))))
+            "03c061hnkpisn5qrl7gbdnh3hcn21rw3a34vf8dvy35qbbs32vjr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -68278,17 +68278,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221029.1934")
+    (version "20221030.1802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9a3708c8410afbc48d8481ca477e1be3d3e9a6f2")))
+                 "31645f9fcd4d353acc17792eeb17056d4e33b538")))
         (sha256
           (base32
-            "0clxa407kr1wxsf35rq7bqkn48gxqaljyy3xqd9xp13dpvdmbnrk"))))
+            "17759ma74gnwg5j4qk5234ip0n2pmbl3mrjszziqfcs4jgs4sf67"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84919,17 +84919,17 @@
 (define-public emacs-org-wild-notifier
   (package
     (name "emacs-org-wild-notifier")
-    (version "20221026.554")
+    (version "20221030.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akhramov/org-wild-notifier.el.git")
                (commit
-                 "ba2d80e2a1ccdc0e8cb41da040282c5ec324157b")))
+                 "7bca036471a84d77117e713023e44bf867bbf683")))
         (sha256
           (base32
-            "10asspv32g28ysg28012z1x09zm8svrnf56k69f4hgk6p2a13pq3"))))
+            "1j756r2bls6yc4p8p7njbcjhwz3xhjrli1cwp6i1555vrk08qphm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-async emacs-dash))
@@ -85016,17 +85016,17 @@
 (define-public emacs-org2blog
   (package
     (name "emacs-org2blog")
-    (version "20220919.2119")
+    (version "20221030.1910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "a87e5d665838478dc03416f078e7d6f2100604ea")))
+                 "a77a549de75e1f1c8c806b30f7fd2dd0b2ea8593")))
         (sha256
           (base32
-            "1zfkny44mvwdlgh0dx0kb7wrlcazfhasbm19yp604adn0nvi9vvm"))))
+            "1c6k3czh54hn3gm8f30l2hmszmpnazph3q0n2qkdf979334h9079"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-htmlize
@@ -93639,17 +93639,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20221029.531")
+    (version "20221030.1534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "2b21dd09062df4adb4114d167e3d27de1ef34919")))
+                 "0eef60710a844b1bd3af0ecb4a5c548d542fd3fd")))
         (sha256
           (base32
-            "17j8kl5grc2jm47q33llm4lwa2zzvxzkbrvay86z881ribmpqqzy"))))
+            "0gxyjln56p133bpnd85i1bpl51kpvsl9x4vnva6h266qb144iq93"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -95658,17 +95658,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20221008.1936")
+    (version "20221030.1552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "f53fb3dda3e58e68f973e135f2d67d3701d9d192")))
+                 "63dfe387f50d521e7b6b20a848166a85e34d09c9")))
         (sha256
           (base32
-            "19idjw305w3dpjpd5hi9xjjybakdx0rg4r4hfbjzpsi03s87xsvr"))))
+            "08la71128r434h3b5nn04cn5jpj1p9kin367phc7crxfa2dksmgd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
