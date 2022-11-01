@@ -8276,17 +8276,17 @@
 (define-public emacs-boogie-friends
   (package
     (name "emacs-boogie-friends")
-    (version "20220922.1942")
+    (version "20221101.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/boogie-org/boogie-friends.git")
                (commit
-                 "8d1bafab5dffc3c63324b5306503943e67497ddc")))
+                 "56eb60374064774e7736538b18a5c2bbc80afac9")))
         (sha256
           (base32
-            "1w7j63066c5mv6l1ngahcbif9ws431k9vy53p1fw2jzaa1sd0cv8"))))
+            "1fa7g2warm1clwibvpapjq5jwnga8vmg2673yiqj0qhd054i2v7h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -25070,17 +25070,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221024.2044")
+    (version "20221101.855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "628853eb17530c61fe0f296e2c3b16152bc88270")))
+                 "8ef3bd799687eec8ad2d919c9f38d56b02b5e4cb")))
         (sha256
           (base32
-            "0mq456bhj2lklx61khlcwnygvd33nwy899nx630kd76q896rlqn0"))))
+            "1h0739qg80lma462yjnc4hxbkmv8kr6j9gwc3lm4fahvrjdkg98r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -26880,17 +26880,17 @@
 (define-public emacs-ejc-sql
   (package
     (name "emacs-ejc-sql")
-    (version "20220517.1303")
+    (version "20221101.922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/ejc-sql.git")
                (commit
-                 "5e100426be90fc193154b1219ab1058534a4fb52")))
+                 "eba4238b7d1eb1660364b3198de5b065e91e4c6f")))
         (sha256
           (base32
-            "0mxl8z86wi4kjnxl2bmk5j8p7fvlihcgpd7lkxnlsifqysnvpp86"))))
+            "19l1kdsq8yi73r5f41g5jnfrf2i6432jp307yar4lx7ly54sk4z3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clomacs
@@ -46888,17 +46888,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221101.357")
+    (version "20221101.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "54b6a0cdaa5cdae7c7e588955db39a609e42c7e0")))
+                 "c30363d0b592d933399e445b969da00ce5360c7c")))
         (sha256
           (base32
-            "0fdb3i5571ghsx311jkp0n54wwr7vhhib2wzc3lgya4vkapabljb"))))
+            "0qjrvs3538r7x83f8z7mcd48045x0ka6xlb6rizh3gcs3lwxgm12"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -63958,7 +63958,7 @@
 (define-public emacs-klere-theme
   (package
     (name "emacs-klere-theme")
-    (version "20221028.1639")
+    (version "20221101.805")
     (source
       (origin
         (method url-fetch)
@@ -63968,7 +63968,7 @@
                ".el"))
         (sha256
           (base32
-            "1cvldcl6m80aldfah4zclqr62ln7d8f1b6xx2rmgybscp5mjy1f0"))))
+            "178734kzgyn8x5q41b51c7d9swmvminifpqj7rrv1acywpni9kb5"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/WammKD/emacs-klere-theme")
@@ -93662,17 +93662,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20221031.506")
+    (version "20221101.848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "1622f5b81a5b67c4b082c5e89d21f2c6896e6a57")))
+                 "004e202a6af3f452e1ef6539420dc0775f603290")))
         (sha256
           (base32
-            "1pv34glvwh0dy3h89c1ziba0w9wka6plq1708y1jls6d4ryxsnpl"))))
+            "06aabilp7kbsg3b7jcw8xp4f9jzk9pnjcddv1akz0nk405392vj1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -109326,17 +109326,17 @@
 (define-public emacs-sway
   (package
     (name "emacs-sway")
-    (version "20221031.1042")
+    (version "20221101.913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/sway.el.git")
                (commit
-                 "2007416933e20d83afdc084445728153f2e573ad")))
+                 "1d70a847148d670f70875c421f0e7499b12c4c40")))
         (sha256
           (base32
-            "0x9lc5qpa9al6ialjhll9mrjb2ykxzh75j173x4myd14ij7h8zzf"))))
+            "0cgjl8f3vzqrvywqjdramzifai8dbvzx5ir6922qrdn3ay8wjhp3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/thblt/sway.el")
@@ -110851,17 +110851,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221030.2345")
+    (version "20221101.813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "10bca595140478cee9490d04224fe87a910daea5")))
+                 "31a695ac79607fa73b7bfc67ec47b40ead3c1fa2")))
         (sha256
           (base32
-            "01zll4qp4ga5y9p5yvzc1nnhlilva5sdlafxdicir803wl62a91a"))))
+            "1849d2aqnklx4vra20s32dm8q7h5cgzrdi4mlizzwpnrw2dg086r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -112650,17 +112650,17 @@
 (define-public emacs-todoist
   (package
     (name "emacs-todoist")
-    (version "20220517.1814")
+    (version "20221101.1418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/emacs-todoist.git")
                (commit
-                 "f9ec1e730705f1fc8888f11a2b4ef1a4907e2f0b")))
+                 "bfd496dad20bd34ffb0c2301c004a195262718c1")))
         (sha256
           (base32
-            "0kay18q6nr8skib17hx2sswcxdzgp00wf23avnnqacy90x540pv8"))))
+            "0xc7pdb347cp82kyhsm448qy6xrgl91ji9bzb19bflp3ic9fmjjl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -123083,17 +123083,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20221028.1758")
+    (version "20221101.1054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "ce09c33412f67003f9e1fb1df87963745b4a4e03")))
+                 "152d9e3ec2a42a9e65abcbd0445a2698eede9149")))
         (sha256
           (base32
-            "0c69kh8rap3pvn6lpdjn3cxfkshx72f4ws617rbxi2fdsfgjrkqy"))))
+            "1nshfs1556jy86h4a92brh874jsm2vfqjwlz7qh6dvl4ldfsw2li"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -123106,17 +123106,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20221019.747")
+    (version "20221101.1054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "850e3dd7e2df93ce0e07a6c2b78c9dbdefa40e89")))
+                 "152d9e3ec2a42a9e65abcbd0445a2698eede9149")))
         (sha256
           (base32
-            "17q07zkawdx0bm88vld124kzaxjr61prbfipyhlniwsbsksndfzf"))))
+            "1nshfs1556jy86h4a92brh874jsm2vfqjwlz7qh6dvl4ldfsw2li"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
