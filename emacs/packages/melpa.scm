@@ -4195,17 +4195,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20220921.28")
+    (version "20221101.148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "b9008a3b2df97501d9a5aedcc5666bd292fbc5d6")))
+                 "adead194f258ce8f283887318bac71dc1eaa87b1")))
         (sha256
           (base32
-            "0vld3d1pbri0xz8c4cyf21z7dfy8g37y05fzhph594xnjmrzf8wx"))))
+            "1mjkhxq7hgid70b0f9pj6x01gyxfggiqygbbm2qlnfrnmvldsjnx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -26707,17 +26707,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20220403.1815")
+    (version "20221101.44")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "da76eb69b3f86992d62302649a987f157b7b7371")))
+                 "4f3c6c18b96eae04b0e6d298475db78379e6a6f1")))
         (sha256
           (base32
-            "0m64jdv20pch1f1n41rh28bgi4cxa84vdfpq7sdxjgs8laqc928g"))))
+            "1scr9lpnxsccb5lz4wxnzcq4rdvjgahic02cyn3njl7156xk8ihk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-eglot))
     (home-page
@@ -46888,17 +46888,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221031.838")
+    (version "20221101.357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "9b70f158c4f38cd27644a533724c983e1929faea")))
+                 "54b6a0cdaa5cdae7c7e588955db39a609e42c7e0")))
         (sha256
           (base32
-            "0p28m4w903djy6h1zi2gagvdvbb0vrvs8qlidqzd22nc50cp508h"))))
+            "0fdb3i5571ghsx311jkp0n54wwr7vhhib2wzc3lgya4vkapabljb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -68301,17 +68301,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221031.1237")
+    (version "20221101.615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "dfda673decbc82fc23079b897915f23f04c02a1c")))
+                 "8091f5d13efbde5bfabc774970dd689487053333")))
         (sha256
           (base32
-            "0f70ph8fs8j5vncspbgmp16zxhl409wrc7p9jcjx928xzzx7p833"))))
+            "1fs9s8qqbas07pm07klx66ry28kql78p8nazh7lgi8frysdwn57p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69206,17 +69206,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20221025.1059")
+    (version "20221101.233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "87e68e0a8ea7803f0ffbc412b8a10f1fd2f75581")))
+                 "2653432bb51350a145f7234f2c9cb89746b26537")))
         (sha256
           (base32
-            "0kzi03vwds87biwiixxkrdl6dakd6gzpr9ph5y037pr9v3d4lfij"))))
+            "05y9ly4y6kq1l8k9bmb8vbsf0lspi8ygybfcivwicsc9wgsqjsjb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73254,7 +73254,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221030.1452")
+    (version "20221101.424")
     (source
       (origin
         (method url-fetch)
@@ -73264,7 +73264,7 @@
                ".tar"))
         (sha256
           (base32
-            "03ik8m9dj2d2m3ysin4ilq5qgybzlx0i5lgkxvigs60jk3al89qb"))))
+            "1ljwppapvvradcsf5q60vxd26mlq32853jrv5bj87l7gxwchifgm"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -83749,17 +83749,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20220929.1630")
+    (version "20221101.359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "0b0f653ab6b3f27a578eee5ab32134f5eb97a3cb")))
+                 "baad58f351deb916afc8b49738bf7c21c0ff4c7e")))
         (sha256
           (base32
-            "18307yr2807rfksv06q1y63w0d7wdcgfkyb2kv585apxsl7vd862"))))
+            "0d1d217l39ca9kaxlna7qz52yl6az83p2pcbvml8wc69ywj8a3mn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
