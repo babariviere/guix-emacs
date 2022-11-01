@@ -9160,17 +9160,17 @@
 (define-public emacs-bufler
   (package
     (name "emacs-bufler")
-    (version "20221006.126")
+    (version "20221031.1852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/bufler.el.git")
                (commit
-                 "ba0157da21096e47b6048982e265f4b0a5351782")))
+                 "bf5fdccbae6bb6dc51e31dc282805e32bb41e412")))
         (sha256
           (base32
-            "11qn2z34wagp45a07nwbgchg6k2g173vjc1hww6b6hhmjszy44fk"))))
+            "142ql507mb7w6l3mr1y4914znnikab5vh8sm2q35pfvka383k1r7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -19745,17 +19745,17 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20221026.1526")
+    (version "20221031.1841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "3f367ae06c756daa3dfbf65fd195e831159d9f0a")))
+                 "9c9927d35ca31603ab0e99d1fc529da41d7a79bf")))
         (sha256
           (base32
-            "0ibz0lyc6h336bykgsn19nw379wzrhcl2kkipx1zjsz03qshlip3"))))
+            "1g25cbhgx0blhpxx1hg6y8swlf5601xwhsc4nwmx0ngvz1v0h26x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -20496,7 +20496,7 @@
 (define-public emacs-ddate
   (package
     (name "emacs-ddate")
-    (version "20221030.406")
+    (version "20221031.1611")
     (source
       (origin
         (method url-fetch)
@@ -20506,7 +20506,7 @@
                ".el"))
         (sha256
           (base32
-            "1jzqfbv431c022sj9adxpks77fd7gz23pyjybm5fcp6x7pm15kc2"))))
+            "0y8kqinajvci4bwp7xh8l9jdrs2fisxqiyzkxp88iix8bm62wrbv"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~earneson/emacs-ddate")
@@ -27444,17 +27444,17 @@
 (define-public emacs-elcord
   (package
     (name "emacs-elcord")
-    (version "20221021.532")
+    (version "20221031.1726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Mstrodl/elcord.git")
                (commit
-                 "a0fe08dac6417a7a0c4e48dc6f43fd65dbeb41dd")))
+                 "d0c9ace493d088bc70f7422705ff27dfcf162cca")))
         (sha256
           (base32
-            "15l9xs11xkvfigyz2ffb6xm9rkx2h3bm25ws722cd899mp3ia6ml"))))
+            "0czilbq6cwwxd1hbrjh5jb7jlxz6rz8kzx2n7g26rbr16sk0mdl4"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "stdpipe.ps1")))
     (home-page "https://github.com/Mstrodl/elcord")
@@ -32929,17 +32929,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20221007.1546")
+    (version "20221031.1942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "d1dec4ef730554a2b9d5b96098abf166685aaa38")))
+                 "c3611aefc36d2236de1f085720c4c017ac0eb4cf")))
         (sha256
           (base32
-            "1dkxd2gh18k9wmcswhvmakf89sl7jz0d923gcbv9jsxbfgynzkc4"))))
+            "0hbrvvb4h34w5fh4hplg3z3if13jqzll0lbsfg8ic1l61nicky4q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -49020,17 +49020,17 @@
 (define-public emacs-hammy
   (package
     (name "emacs-hammy")
-    (version "20221028.1714")
+    (version "20221031.1933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/hammy.el.git")
                (commit
-                 "fbd3a05bc1187ccdbf28817a60bce130e2e4fb86")))
+                 "5a4d058fba11bae5559bea8405832bc8339b623f")))
         (sha256
           (base32
-            "0qnq07glv0qz4m4gwqxg6iis264m6in4gmwgvlmarxczdzqjav74"))))
+            "1n33idkjb1ab84jqrvxvb610zd364addhz7p5rj1p6708g2b5iil"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -66188,17 +66188,17 @@
 (define-public emacs-ligo-mode
   (package
     (name "emacs-ligo-mode")
-    (version "20220908.1957")
+    (version "20221031.1737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ligolang/ligo.git")
                (commit
-                 "70575ac1c92f0a29096f6f2a1f01c59cefdc4b3e")))
+                 "d3c28b3f98a12af5f68abe729d378a597b26ecd9")))
         (sha256
           (base32
-            "0fz6k2dk59vxr2a4hidk6lifrv6b09dd94xc48d5jvbc2yff39v9"))))
+            "0pf9ndf8kjam6hi0vl7ksw8n4iyy9i32s9y8spqm8pyf36fhcmci"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("tools/emacs/ligo-mode.el")))
@@ -69510,17 +69510,17 @@
 (define-public emacs-magit-lfs
   (package
     (name "emacs-magit-lfs")
-    (version "20220314.1957")
+    (version "20221031.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Ailrun/magit-lfs.git")
                (commit
-                 "8ebe246f20f4ab5c9f191c38137833c7f01a0432")))
+                 "cd9f46e1840270be27e2c2d9dcf036ff0781f66d")))
         (sha256
           (base32
-            "08ild7xc9m8pvkb23x5kxdc7ar7gz7470fng1f0zjlk4izbf1nh5"))))
+            "0psnyxrc7fy2vng81mak0ji7kw58ly01frzr5z2xpj08hxx16b3c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit emacs-dash))
     (home-page "https://github.com/ailrun/magit-lfs")
@@ -76726,17 +76726,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20221030.2329")
+    (version "20221031.1601")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "5efb5383aba571a35e59660f68bad02ec70fdd98")))
+                 "b76c8477941429aae6ebe42448f1c75d28bc842f")))
         (sha256
           (base32
-            "1sgfh46p4m7n3x2pxal7fgppw1fc8q4ci0r5qq6g2va8z0lb995w"))))
+            "0gsqclywm8vhpzx7i8la57h7yj1wpj2aq15hp8f2ap832xi2vfp3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (arguments
@@ -99743,17 +99743,17 @@
 (define-public emacs-ros
   (package
     (name "emacs-ros")
-    (version "20220604.749")
+    (version "20221031.2003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DerBeutlin/ros.el.git")
                (commit
-                 "f66d2177b00b277a36c058549c477d854148623c")))
+                 "3c4be0ec8dc14d69f2f0b5f46521edf60535b12d")))
         (sha256
           (base32
-            "07magls67fy99ckvy759lqk2q41mi4dvljx78ahclckyp7adwl21"))))
+            "1srrm2i0yff0dns6rk5wzj8s1hnnbki6ijvih6gn6pfqz3ndvpn6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/DerBeutlin/ros.el")
