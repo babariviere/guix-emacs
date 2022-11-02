@@ -4513,17 +4513,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20221031.751")
+    (version "20221101.1500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "1d2c3e8713bad1223479ba066fe0141a0d9ad375")))
+                 "eedf6a34d39d4f3a5afd73876bb7290bacab652d")))
         (sha256
           (base32
-            "09vb8r89a0b9h1df60s14gwglvkpgcjhicmicngkp27sl8g5z2md"))))
+            "08342lfrz7v4qk37ysaavr6yw8kc2iql0xs5mcfl8ffwwbzvza60"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -10523,24 +10523,23 @@
 (define-public emacs-cask
   (package
     (name "emacs-cask")
-    (version "20220715.1113")
+    (version "20221101.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cask/cask.git")
                (commit
-                 "10a3b656a6b361589c2e7be70766f6ca3589fc25")))
+                 "abd9824719052955496709d3f0b30da33fb5be8a")))
         (sha256
           (base32
-            "0xpp15yj810nww0932ic7ni3z18hkby3wh8sqrsix58hnpic6blk"))))
+            "10rbdgw60dpq0g3dijhbl4b8il76iw9xmxxgy6jmmg1n2wcjx3yn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
             emacs-f
             emacs-epl
             emacs-shut-up
-            emacs-package-build
             emacs-ansi))
     (arguments
       '(#:files ("cask.el" "cask-bootstrap.el")))
@@ -20575,17 +20574,17 @@
 (define-public emacs-deadgrep
   (package
     (name "emacs-deadgrep")
-    (version "20221031.707")
+    (version "20221101.2055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/deadgrep.git")
                (commit
-                 "2db7f11c4c858fc36c5543d975397c8d2f1b2c90")))
+                 "f687ca31f8d3bd8ebf05165b080b50ba724ce9bf")))
         (sha256
           (base32
-            "0sb9mimc2gwgq1yibazf4fp49m3l83ysqbyl7fz3286v17cmlaps"))))
+            "0xvzchpwmiznfbrjqi5v3kxz625n117j4aa6ix8r6s9fhk8bm5j0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-spinner))
@@ -21222,7 +21221,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221027.944")
+    (version "20221101.1755")
     (source
       (origin
         (method url-fetch)
@@ -21232,7 +21231,7 @@
                ".tar"))
         (sha256
           (base32
-            "0x0hiz13izck4j8jlml36kgq5ivx9pdvqkiqgznlk08mr85699ha"))))
+            "18jmqzg5qmjsdmiwvy76dhnx9xrl3j2izz8p213q6k9ip6xw4b82"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -27494,17 +27493,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221030.1922")
+    (version "20221101.2156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "3efbf8f5d5f54d6486e830c53e0e85615f9d69a3")))
+                 "dc3f73c38a31567fce8db529da238151aa44c307")))
         (sha256
           (base32
-            "1xyixrrdp1nydjs8gwqyxd9h096wwjz9jfvg93b6bv77imanay7n"))))
+            "195dbpjw9gjgphpksb3j85ljaz3w0m03i2qp2vxbbxfb8x829hvn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -32732,17 +32731,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221030.2239")
+    (version "20221101.2039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "26168f1972fdf263d964715862cb782b9b33b71d")))
+                 "f9218169f1f39225e9f631209d285bb7af50c8fd")))
         (sha256
           (base32
-            "14p686kb4xzri380j4fhlkkxn6f392vli73ikz926pz1ck1yaair"))))
+            "0xcl4flrm89k8kmrqr03xrq0cjl37kzgpp51gcjigcz18rrfg4xa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -43531,17 +43530,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221029.27")
+    (version "20221101.1622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "d90a08de80ce9d2666fc1fd477a2743c64b45de0")))
+                 "dbde6d2b446b41bc309da33aa69034c63f8294a5")))
         (sha256
           (base32
-            "13vn0xcqrckv02lalpzn9hy7k73pr9ir8s9l1lp0jcyw8p39dcdy"))))
+            "14hi7jz15n1szwcwczfvygbjbnr16s11iqfgda7i8ja82v7skgjp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43684,17 +43683,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20221024.147")
+    (version "20221101.1625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "8e4ee5ccb6dc970f75c385cff2603fa3862b9611")))
+                 "56fcdb0b73c1388b7695f4e2d3d3736ca4453e73")))
         (sha256
           (base32
-            "049m6qjh34vdjjc72ivk9prdzfsmicrh3kiakpns8yp0q7kxwj6g"))))
+            "1yiij1nvbsfb72vvsps0x7gnhh3wsvzz949sfkz5sqkb0lskq2d3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -69206,17 +69205,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20221101.233")
+    (version "20221101.2214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "2653432bb51350a145f7234f2c9cb89746b26537")))
+                 "2a5815fee1ed091751b8bbfa242f7a78d7e5e039")))
         (sha256
           (base32
-            "05y9ly4y6kq1l8k9bmb8vbsf0lspi8ygybfcivwicsc9wgsqjsjb"))))
+            "0pcmcmcgd1zwxqafbhlpnc4qcd0r8xhj138m48maw91brap97h1q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -72803,17 +72802,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20221007.58")
+    (version "20221101.1715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "398f9d3993e5f3cfb5b53b7653ed7896daa17c56")))
+                 "101821ad61222e318d924aaebac091650ec2a047")))
         (sha256
           (base32
-            "0ps4pw87hv3ih5vlhfpvjnkhr1rp44w28x2cf9avwiq2isfxlgly"))))
+            "1nh0bh8q2n02ys0jvvpgba8k188v20d4dvnnl71vfwkm2b17kpmw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -83749,17 +83748,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20221101.359")
+    (version "20221101.1828")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "baad58f351deb916afc8b49738bf7c21c0ff4c7e")))
+                 "2b6d77f7c5e043b90435c604196d7a551e62bdc3")))
         (sha256
           (base32
-            "0d1d217l39ca9kaxlna7qz52yl6az83p2pcbvml8wc69ywj8a3mn"))))
+            "0fxrd0pdbgw3d8im57s68shyag97raasfgjh3ap4nm2n3708j3gb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -90357,17 +90356,17 @@
 (define-public emacs-picpocket
   (package
     (name "emacs-picpocket")
-    (version "20210806.1135")
+    (version "20221101.2104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/johanclaesson/picpocket.git")
                (commit
-                 "7e30e96c26b1ff0d374612534c3e09d309426252")))
+                 "30942846bd8cb95a938a534ed9ed9efeff813b7c")))
         (sha256
           (base32
-            "0sx4493sxgw0fd7b48h8biygnd10k5bl69hhsd69a4yc7yq1zbnm"))))
+            "0a6jnnl74z1nr1w4qkllil4vv5k669vkjl5z6zc42b4sb5qrksw7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/johanclaesson/picpocket")
@@ -107007,17 +107006,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221030.159")
+    (version "20221101.1947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "fb9dd3b819be5244836f476bbb844142e6480a91")))
+                 "d88fa0d7c8ce438f43b5b7edd033d581a7faa13d")))
         (sha256
           (base32
-            "1swplm106hr9qbwvyvdrrvkwp5qv04ym23dfy4zskvq5x201dmx5"))))
+            "0wpjr9lvkv9i8ix2qf04mnsgx5xwxscb4gzk2bdrk4ca46z19j1l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -109326,17 +109325,17 @@
 (define-public emacs-sway
   (package
     (name "emacs-sway")
-    (version "20221101.913")
+    (version "20221101.2243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/sway.el.git")
                (commit
-                 "1d70a847148d670f70875c421f0e7499b12c4c40")))
+                 "6268291a29da9c6165432f9bbdebf6bab13c72f5")))
         (sha256
           (base32
-            "0cgjl8f3vzqrvywqjdramzifai8dbvzx5ir6922qrdn3ay8wjhp3"))))
+            "0cbk44ldrimb9aai1az5vq63m32qcpapc1hsy13lxwnwi2ixcr6w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/thblt/sway.el")
