@@ -4195,17 +4195,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20221101.148")
+    (version "20221102.500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "adead194f258ce8f283887318bac71dc1eaa87b1")))
+                 "1c850acd0e0e4c8865b687c9a70e9cba6a0222a0")))
         (sha256
           (base32
-            "1mjkhxq7hgid70b0f9pj6x01gyxfggiqygbbm2qlnfrnmvldsjnx"))))
+            "1yz41glim9ync4cmwnclr1zfrql476qsimnw597dd28hgzjx7979"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -25779,17 +25779,17 @@
 (define-public emacs-echo-bar
   (package
     (name "emacs-echo-bar")
-    (version "20221016.2230")
+    (version "20221101.2254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qaiviq/echo-bar.el.git")
                (commit
-                 "892893e4af761baa2988184a280cfb7ba7f972b2")))
+                 "d0a24635da51502bdda9f5451793966fffef92a8")))
         (sha256
           (base32
-            "09fbv1ch2s7h26ah5vb8jbhmfv6vzg2q9pwhq5226f5irbs6rsqm"))))
+            "13j9hdlx2f5fvbghibkv43i7x7hih778fn8ybi8g4y1l350kr68m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qaiviq/echo-bar.el")
@@ -27493,7 +27493,7 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221101.2156")
+    (version "20221101.2209")
     (source
       (origin
         (method git-fetch)
@@ -44645,17 +44645,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20220918.2032")
+    (version "20221101.2237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "6ad8b71731f0cb2a42cd2315650cf257112d0958")))
+                 "2a5815fee1ed091751b8bbfa242f7a78d7e5e039")))
         (sha256
           (base32
-            "1n0vdblrmqyik6i9czjgd7mhjg4cc7wdamb2vxb6s2xqgza2pxaz"))))
+            "0pcmcmcgd1zwxqafbhlpnc4qcd0r8xhj138m48maw91brap97h1q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -47043,17 +47043,17 @@
 (define-public emacs-golden-ratio-scroll-screen
   (package
     (name "emacs-golden-ratio-scroll-screen")
-    (version "20221020.1441")
+    (version "20221102.240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jixiuf/golden-ratio-scroll-screen.git")
                (commit
-                 "c7e00afc9ca81beeaca2345068c33ca784fa6a9b")))
+                 "ed82ac7e9129c7be5983b44def0b9239b54d4dcf")))
         (sha256
           (base32
-            "1gd3f7hd515wz7yg5dj0sbbkl8zj8b1255j62fqwr0rmzq6bk745"))))
+            "12w5xdpnmpqyf3phl4y822w3sz84x2a0xv2jqkhzz0paywn1abb6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jixiuf/golden-ratio-scroll-screen")
@@ -67937,17 +67937,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20221031.134")
+    (version "20221102.122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "cd2f098f11da8285da863f3beee977e1bab57bb4")))
+                 "e8f52b4fe52946b4ab7ce6cbf3abde8409c6c7b0")))
         (sha256
           (base32
-            "1r1009cmcmiir2l8ljdy6s5x0d6k114zznjgzcy0zfgxgi4v0fk3"))))
+            "1ghzfdwpkpikdd4dja4n5njnf4wsp6214df9sqm8chail3mxvgkc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
