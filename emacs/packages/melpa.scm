@@ -4513,17 +4513,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20221101.1500")
+    (version "20221102.922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "eedf6a34d39d4f3a5afd73876bb7290bacab652d")))
+                 "d63f0f8768feab161a309461e8b82a28c5897288")))
         (sha256
           (base32
-            "08342lfrz7v4qk37ysaavr6yw8kc2iql0xs5mcfl8ffwwbzvza60"))))
+            "1kvrz7nk5yrcgqmlm9phfpcs4hvm1fkbd3v558m2qn4frcqhcyg9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -16907,17 +16907,17 @@
 (define-public emacs-consult-lsp
   (package
     (name "emacs-consult-lsp")
-    (version "20221019.1321")
+    (version "20221102.844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gagbo/consult-lsp.git")
                (commit
-                 "58b541476203fa68e9e7682531f2a10e11780857")))
+                 "f6fff70edb3a27726f9c61d3d81849df85f7ccbe")))
         (sha256
           (base32
-            "16rkkvlz4fn38f14gdmdsizyhnyyd7w0gihpgfjkqm3wkihb97l5"))))
+            "0jfwnzjpbk9bhrr7yifv650cq2i4z3j4dzw5kc34j192d05b90q7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-consult emacs-f))
@@ -25069,17 +25069,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221101.855")
+    (version "20221102.923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "8ef3bd799687eec8ad2d919c9f38d56b02b5e4cb")))
+                 "bc2e9bb89c4dc244ff6795c89c8539897191a1bd")))
         (sha256
           (base32
-            "1h0739qg80lma462yjnc4hxbkmv8kr6j9gwc3lm4fahvrjdkg98r"))))
+            "1jwl9gan34gr03a2ha82d3xhq2ivv0qi475v9i3zmnjj5nnrh4hf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -25091,17 +25091,17 @@
 (define-public emacs-dyalog-mode
   (package
     (name "emacs-dyalog-mode")
-    (version "20210413.810")
+    (version "20221102.913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/harsman/dyalog-mode.git")
                (commit
-                 "697a84194766708d2607e8ba48a552e383c6523e")))
+                 "1fe61fa2e0145af434f3fa1c5077b973389d8651")))
         (sha256
           (base32
-            "1afcfqf9z1d67va9cdi2fxpr1l1nrgkksxh5g7h8ggqkml2ks8hn"))))
+            "1swvwnbzp848ih41xmgvrvzii2s9qdxd7lfkcik4pm5br0njmx2m"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "Emacs.apl")))
     (home-page
@@ -49619,17 +49619,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221030.1902")
+    (version "20221102.1230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "edfd77e51dcda1fd81a0bf45685ba3f560ddc327")))
+                 "49c43fefa59ec1127d4f0f3ad50696bc07d52985")))
         (sha256
           (base32
-            "03c061hnkpisn5qrl7gbdnh3hcn21rw3a34vf8dvy35qbbs32vjr"))))
+            "16kp1lmm0rlmlrb7zckqg5hxd1ncscs615nzkcg87n4p554qrzvw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -67779,17 +67779,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221029.846")
+    (version "20221102.1120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "6801e98f74afdab00cfc1a543622c3f70d0c7864")))
+                 "24acca1a45d987093561f7294b7b1d1f738f23af")))
         (sha256
           (base32
-            "03qaznsbpwnpq1lj9zi3hd0yr5jzh0lwxk7v11dpzmg37j3979jq"))))
+            "1j9pkdsl18wrhf6zhxz020sls5gx5y15samk7dyilag1c3kh0rfy"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -68268,17 +68268,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20221014.853")
+    (version "20221102.929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "6af70181699c5470be34940ee16b44374cec2037")))
+                 "58822229b5646bf84e32f512ca53f23eac227834")))
         (sha256
           (base32
-            "17pk416fqf0nl0rxybn6lpsrhyzvklcd1b1dlwmnp4rq855q0nc1"))))
+            "0vmknyqa2xyam5vxsax5ljwb68nhw293bzd9dl8gc8lp0gaigpy2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
@@ -78903,23 +78903,24 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20220903.554")
+    (version "20221102.756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "45ac1448467bf5960562fcab180b7ac1e89db501")))
+                 "a31e426c21e1871bd74e359c6f56afdf7d9b143c")))
         (sha256
           (base32
-            "0wyj7lkca5faaw1814sam9qbi5rk0diam4wjigh7baq24d6ac95l"))))
+            "0sx9n7911a99qrzfsyi3li0j6pyj8brjxwm2qwnsz3ficga85awl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
     (home-page
       "https://github.com/shg/ob-julia-vterm.el")
-    (synopsis "Babel Functions for Julia in VTerm")
+    (synopsis
+      "Babel functions for Julia that work with julia-vterm")
     (description
       "Documentation at https://melpa.org/#/ob-julia-vterm")
     (license #f)))
@@ -102340,17 +102341,17 @@
 (define-public emacs-separedit
   (package
     (name "emacs-separedit")
-    (version "20221031.304")
+    (version "20221102.239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/twlz0ne/separedit.el.git")
                (commit
-                 "d40ba1ffa2f28d352c709ef6b01548cb26d206ea")))
+                 "0070fd5ff002a9f34c7d86e5ec68010c0a4e847a")))
         (sha256
           (base32
-            "12zpra8dn1acm3dzk0fa8yqa3miqwbyj6699c8frql6z9j7jmx79"))))
+            "130y38iyrnwlrfij4cxdmbdrm39ryli3z7k9y4apn9mfb7glw4wp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-edit-indirect))
