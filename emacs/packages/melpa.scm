@@ -9068,7 +9068,7 @@
 (define-public emacs-buffer-sets
   (package
     (name "emacs-buffer-sets")
-    (version "20220914.2115")
+    (version "20221102.1813")
     (source
       (origin
         (method url-fetch)
@@ -9078,7 +9078,7 @@
                ".el"))
         (sha256
           (base32
-            "0vimd5pkvrjp2ayxlg6qzfvidlilxs3f4haq215kv4aws1k3bz9b"))))
+            "05yhb6w5xsw4q14jm15k2nbi82jzr2l79md11xh6hnpghwm14jrb"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~swflint/buffer-sets")
@@ -10518,36 +10518,6 @@
     (synopsis "Format based letter case converter")
     (description
       "Documentation at https://melpa.org/#/caseformat")
-    (license #f)))
-
-(define-public emacs-cask
-  (package
-    (name "emacs-cask")
-    (version "20221101.1712")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/cask/cask.git")
-               (commit
-                 "abd9824719052955496709d3f0b30da33fb5be8a")))
-        (sha256
-          (base32
-            "10rbdgw60dpq0g3dijhbl4b8il76iw9xmxxgy6jmmg1n2wcjx3yn"))))
-    (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-s
-            emacs-f
-            emacs-epl
-            emacs-shut-up
-            emacs-ansi))
-    (arguments
-      '(#:files ("cask.el" "cask-bootstrap.el")))
-    (home-page "http://github.com/cask/cask")
-    (synopsis
-      "Cask: Project management for package development")
-    (description
-      "Documentation at https://melpa.org/#/cask")
     (license #f)))
 
 (define-public emacs-cask-mode
@@ -19912,29 +19882,6 @@
       "Documentation at https://melpa.org/#/dark-souls")
     (license #f)))
 
-(define-public emacs-darkburn-theme
-  (package
-    (name "emacs-darkburn-theme")
-    (version "20170423.1652")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/gorauskas/darkburn-theme.git")
-               (commit
-                 "0af794ff7fac19778ac8a7efb92455c6f6c2158f")))
-        (sha256
-          (base32
-            "0nv917r8pbj6mfncjl8d7hq4763c69q491d4iwnff1n3wzlcp42s"))))
-    (build-system melpa-build-system)
-    (home-page
-      "http://github.com/gorauskas/darkburn-theme")
-    (synopsis
-      "A not-so-low contrast color theme for Emacs.")
-    (description
-      "Documentation at https://melpa.org/#/darkburn-theme")
-    (license #f)))
-
 (define-public emacs-darkmine-theme
   (package
     (name "emacs-darkmine-theme")
@@ -21954,17 +21901,17 @@
 (define-public emacs-dir-treeview
   (package
     (name "emacs-dir-treeview")
-    (version "20221027.150")
+    (version "20221102.2357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tilmanrassy/emacs-dir-treeview.git")
                (commit
-                 "45979225edd996ee0c26dd029ecde30ad7e7e781")))
+                 "cc36076fadd92749318db2b7fac72ac197c326b1")))
         (sha256
           (base32
-            "10lygm1inijdw37hwlcc1qlwvjd1s7an1fvglxkvvyhndq0y2brz"))))
+            "07jk6i9scr59vwg9fwldzqmksbmy38fqfyxbnhyzpa7h8g5z0x26"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treeview))
     (home-page
@@ -23240,17 +23187,17 @@
 (define-public emacs-display-wttr
   (package
     (name "emacs-display-wttr")
-    (version "20220907.1625")
+    (version "20221102.1426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/josegpt/display-wttr.git")
                (commit
-                 "d1f5b57e00ee229548005ddd1e8061e213effd32")))
+                 "7062953d034e27c297d58748cf74dad552aa2873")))
         (sha256
           (base32
-            "1hmawlnd2l89p48pviwn4khvjs0iry8x67cyqw70r10dd0ybn851"))))
+            "1yppnxpzpwp3qkxfa9g8c0vzxg2s08qq4djk635hrml57adaya8g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/josegpt/display-wttr")
@@ -24184,17 +24131,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221024.357")
+    (version "20221102.1723")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "b66d5e5006df4cedb1119da3d83fd6c08965b830")))
+                 "729c9a8eb7b8c4dd66265af0926c4c55d0152ae0")))
         (sha256
           (base32
-            "09aicszxdp42fnp9c16lrj6r3l7qnmhnllzghashb1f87cfk34ps"))))
+            "02jk7azishilbi27fa23pn79flpx8fjwhh7nh2s0yaa3ilkf2fh8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -24732,17 +24679,17 @@
 (define-public emacs-dsvn
   (package
     (name "emacs-dsvn")
-    (version "20190316.2201")
+    (version "20221102.1416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsmirror/dsvn.git")
                (commit
-                 "c37d2412ba92aad647bcf5aeb151e620e8069f8d")))
+                 "36ecd5219584e46dcf6bd252e2ea1ec517d2fc05")))
         (sha256
           (base32
-            "1bv4ivv9j5r0ax4vay1kmwv753y44qj6qprr38yh7ky0fpsml34c"))))
+            "0nn6h1blz0x3isqnwyx74xc32k8wi9z27nm5icgsyzv672hm0xdi"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Subversion interface")
@@ -26706,17 +26653,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20221101.44")
+    (version "20221102.2300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "4f3c6c18b96eae04b0e6d298475db78379e6a6f1")))
+                 "10d0b3b65adf83fbd939f973cafc5b5122536bb4")))
         (sha256
           (base32
-            "1scr9lpnxsccb5lz4wxnzcq4rdvjgahic02cyn3njl7156xk8ihk"))))
+            "0f3vclq7hhim46njd5lw78g6v60aa3f3jvvmml99vxmxmd36a7gf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-eglot))
     (home-page
@@ -33018,29 +32965,6 @@
     (synopsis "A port of vim's easymotion to emacs")
     (description
       "Documentation at https://melpa.org/#/evil-easymotion")
-    (license #f)))
-
-(define-public emacs-evil-ediff
-  (package
-    (name "emacs-evil-ediff")
-    (version "20170724.1923")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/emacs-evil/evil-ediff.git")
-               (commit
-                 "50d26cb0654fca8f8fd7227410e5cbf0b8f681cf")))
-        (sha256
-          (base32
-            "0x81ws1kaiklqnsywvjyv5pifsj5hd3wsl1wq11aqik34kjxfy2g"))))
-    (build-system melpa-build-system)
-    (propagated-inputs (list emacs-evil))
-    (home-page
-      "https://github.com/justbur/evil-ediff")
-    (synopsis "Make ediff a little evil")
-    (description
-      "Documentation at https://melpa.org/#/evil-ediff")
     (license #f)))
 
 (define-public emacs-evil-embrace
@@ -61549,29 +61473,6 @@
       "Documentation at https://melpa.org/#/jonprl-mode")
     (license #f)))
 
-(define-public emacs-journalctl-mode
-  (package
-    (name "emacs-journalctl-mode")
-    (version "20201217.1625")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/SebastianMeisel/journalctl-mode.git")
-               (commit
-                 "c5bca1a5f42d2fe2a00fdf52fe480137ace971d3")))
-        (sha256
-          (base32
-            "0m0d5kzw5cymnmnilm688dlkhh0g64d7qyv3nd6mxbgrii559v9r"))))
-    (build-system melpa-build-system)
-    (home-page
-      "https://github.com/SebastianMeisel/journalctl-mode")
-    (synopsis
-      "Sample major mode for  viewing output journalctl")
-    (description
-      "Documentation at https://melpa.org/#/journalctl-mode")
-    (license #f)))
-
 (define-public emacs-jpop
   (package
     (name "emacs-jpop")
@@ -68268,17 +68169,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20221102.929")
+    (version "20221102.1628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "58822229b5646bf84e32f512ca53f23eac227834")))
+                 "9a5c8b0e636e6796e5ce8ccea040a583856fb1f5")))
         (sha256
           (base32
-            "0vmknyqa2xyam5vxsax5ljwb68nhw293bzd9dl8gc8lp0gaigpy2"))))
+            "0lmkk6817wq4q5sinq5dw63hplairbby03k6b30d4ifqybamra25"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
@@ -68300,17 +68201,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221101.615")
+    (version "20221102.1828")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "8091f5d13efbde5bfabc774970dd689487053333")))
+                 "145ca1e409f37f71bf708d759f8918ef748bb31d")))
         (sha256
           (base32
-            "1fs9s8qqbas07pm07klx66ry28kql78p8nazh7lgi8frysdwn57p"))))
+            "09zmmwqd7mbv5xrcqf21xwr3c168yb3a8bpfvl317gaxrza5js0n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68601,17 +68502,17 @@
 (define-public emacs-lsp-tailwindcss
   (package
     (name "emacs-lsp-tailwindcss")
-    (version "20220912.1321")
+    (version "20221102.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/lsp-tailwindcss.git")
                (commit
-                 "c0ca58d090453db2ec70fe55f8203055d2358533")))
+                 "6e5addff47bac15f99d8efcff2191818dd71d7b4")))
         (sha256
           (base32
-            "1fr1hzlpbq9jpgk3lrjaqap96l0rqnmxb11vwfa3ar0aypvpcz1z"))))
+            "0y2j1rp66h2vxf1q553a74mr7a9m6a7c7hrvzwx1wv19wz7ayb1n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode emacs-f))
     (home-page
@@ -79697,17 +79598,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20221024.2135")
+    (version "20221102.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "d5431f131668d7d55708f46ee9836d2b4ad35c2f")))
+                 "7365533a5d1abbecd2e3dfb1091a83196e2d8bde")))
         (sha256
           (base32
-            "01dhl0da5iwwr78cfjlch8sdgw02kcy9ab13m0ivybfnja829mfn"))))
+            "0ny7iq6xplds1rdzm66hqs6rzglqm0d9qzgnbspiyq7z89m6lwhw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -87781,32 +87682,6 @@
       "Various deletion strategies when editing")
     (description
       "Documentation at https://melpa.org/#/palimpsest")
-    (license #f)))
-
-(define-public emacs-pallet
-  (package
-    (name "emacs-pallet")
-    (version "20150512.702")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/rdallasgray/pallet.git")
-               (commit
-                 "b8d0df1883224a371ac0a3bc9b9c1c4dc61e6ac0")))
-        (sha256
-          (base32
-            "0j87yq8rycklk8df4rlwx0bp2n94pyhaz4yv8vacbqrzchpa1bb0"))))
-    (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-dash emacs-s emacs-f emacs-cask))
-    (arguments '(#:files ("lib/*")))
-    (home-page
-      "https://github.com/rdallasgray/pallet")
-    (synopsis
-      "A package management tool for Emacs, using Cask.")
-    (description
-      "Documentation at https://melpa.org/#/pallet")
     (license #f)))
 
 (define-public emacs-pamparam
@@ -96373,17 +96248,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20220921.1525")
+    (version "20221015.1615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "0071a3c630a24eca95d115da81fd0091259ccc50")))
+                 "8077ab7783c5f17e3a3f96fdf901a74541e810c8")))
         (sha256
           (base32
-            "00jl4ybzjwkz687cyzdf7l967bpi26bgp5kqbwlrv7awpwjdbyri"))))
+            "1cp58hv04ibh7vgl2j310ih9msa75rklc5g0q83niab0pyxalhf5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -112188,7 +112063,7 @@
 (define-public emacs-time-block
   (package
     (name "emacs-time-block")
-    (version "20221005.2108")
+    (version "20221102.1811")
     (source
       (origin
         (method url-fetch)
@@ -112198,7 +112073,7 @@
                ".el"))
         (sha256
           (base32
-            "1yqzbrvwbzr5hvwp3ndzwy0iwqjfs2k26hsgwbxbfg80c1s6l8n9"))))
+            "1gvhj0mky47q1vgabzwri87a5p1fwvcdmh911x2yvlznknyy8zrl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -117921,17 +117796,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20221019.641")
+    (version "20221102.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "19c84e97a2d682a62d30b284935dca80e4299bed")))
+                 "5de2684d22d025a227b7d0d5bab89fa8fb6dbfda")))
         (sha256
           (base32
-            "1p8byka7kvhzqgpadj5xk2jrafi2pfzwk0wfddadsvrln1plfgsm"))))
+            "1an38rwg2q7iyrbn7ynfmx7jdb82m59lgm77ggwwq76ipncwvy2a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -123083,17 +122958,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20221101.1054")
+    (version "20221102.2124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "152d9e3ec2a42a9e65abcbd0445a2698eede9149")))
+                 "c514333f61dd6b6c444a92ae16e41edd57a1ab82")))
         (sha256
           (base32
-            "1nshfs1556jy86h4a92brh874jsm2vfqjwlz7qh6dvl4ldfsw2li"))))
+            "18jj17xymaqm1pg9ls6xvzq0yc07jkh6gkhis0kaxqmq3nfca29b"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -123106,17 +122981,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20221101.1054")
+    (version "20221102.2124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "152d9e3ec2a42a9e65abcbd0445a2698eede9149")))
+                 "c514333f61dd6b6c444a92ae16e41edd57a1ab82")))
         (sha256
           (base32
-            "1nshfs1556jy86h4a92brh874jsm2vfqjwlz7qh6dvl4ldfsw2li"))))
+            "18jj17xymaqm1pg9ls6xvzq0yc07jkh6gkhis0kaxqmq3nfca29b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
