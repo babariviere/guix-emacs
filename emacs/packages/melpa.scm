@@ -4306,17 +4306,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20221014.2225")
+    (version "20221103.638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "ffde304480421f497458077bf5d563504e1ba5dd")))
+                 "10cedd8ac7173e92a6822317f1782550199d2d6d")))
         (sha256
           (base32
-            "1f9642clzmdc6yvl51d3q01nq2s260awagsw8g8lwxcy3m9cvx8n"))))
+            "0pjfnza5iha7amy6wdd0zg0h02mfaj6xzimqhjrhi05hh6kakccb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -10107,17 +10107,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20221019.723")
+    (version "20221103.240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "06a4c1b37c5cd942634ad53bbd9b1e3ddc219a70")))
+                 "4a8206e0b8b8ffa073d35d132e0654068a3d425f")))
         (sha256
           (base32
-            "0bg200d9iazbmj1c8875qlkv3r05k9h96mhj4jm0m91c14x96q37"))))
+            "0gb4m3jz7sm3iy2ipa1ijvkxbp1hwd3ka6p5i7jrhbs29hf1zamv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -21901,17 +21901,17 @@
 (define-public emacs-dir-treeview
   (package
     (name "emacs-dir-treeview")
-    (version "20221102.2357")
+    (version "20221103.35")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tilmanrassy/emacs-dir-treeview.git")
                (commit
-                 "cc36076fadd92749318db2b7fac72ac197c326b1")))
+                 "bdcce576c4e8e8da7f82192cecc650e76d068958")))
         (sha256
           (base32
-            "07jk6i9scr59vwg9fwldzqmksbmy38fqfyxbnhyzpa7h8g5z0x26"))))
+            "1g1vkp3rzcicc8y6sf7r6qy5lxd8kfg7r0gkxz95fk3l4symfdsf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-treeview))
     (home-page
@@ -37231,17 +37231,17 @@
 (define-public emacs-flim
   (package
     (name "emacs-flim")
-    (version "20220720.1311")
+    (version "20221103.353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/flim.git")
                (commit
-                 "b27f4ae0bff18791bf41efa346cdc2eb35ad53e7")))
+                 "57c6b868aa314717f40a520daed7249665e8d992")))
         (sha256
           (base32
-            "1yd1f3fg64lk9isf0dvd2afkgq6fw6h5f7k0afz0nbs0vid482s1"))))
+            "1mf8r5mf3bd0719fnhifb6lfvl7n4m552crcdhkbkkif8srrl6df"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-oauth2))
@@ -57510,17 +57510,17 @@
 (define-public emacs-imake
   (package
     (name "emacs-imake")
-    (version "20220422.1611")
+    (version "20221022.2233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/imake.git")
                (commit
-                 "51aeac9f3a24f23d063f591066675d1d70dcea09")))
+                 "d9b5cb5c0a5483e663cc3c345df7659ddf08b61e")))
         (sha256
           (base32
-            "1zl2lkdflssii5mvxr2hgz6spx4qpbvixrm1jj0nrh128s23jx9m"))))
+            "0b53y83w1ksy96h10vnbn0f3is4g5nb3dxmh0v8plrchkwxb0pq3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/tarsius/imake")
@@ -116096,17 +116096,17 @@
 (define-public emacs-utop
   (package
     (name "emacs-utop")
-    (version "20220719.2111")
+    (version "20221103.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diml/utop.git")
                (commit
-                 "ebca87c7a3b2f366cfcb8885da1a6ae5fa362d6c")))
+                 "263428053b0b6297619cea4bf4165ffd29a64239")))
         (sha256
           (base32
-            "19gc6rqajpsxjcm2c8nzpch9x5bbly77gdsdi30pnn0kf06lz3dq"))))
+            "04j8k1y7r1gycrjpl9p0mhwvg4mqyjn1xdfy8jlcwivnvl7qk3xg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tuareg))
     (arguments '(#:files ("src/top/utop.el")))
