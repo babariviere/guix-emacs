@@ -40099,17 +40099,17 @@
 (define-public emacs-flymake-collection
   (package
     (name "emacs-flymake-collection")
-    (version "20220918.1326")
+    (version "20221103.1504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/flymake-collection.git")
                (commit
-                 "023472345980c251429046d6a20e85c76f9e928e")))
+                 "cdac31a3f7de0a6436e39ef7bd68d7defab98e8f")))
         (sha256
           (base32
-            "1zfysavx2w5mvy2mgi3v32205f1b7zfcrabi17rzi0v88h8j46a8"))))
+            "1jhwzs1swj5srvk5c7yvafphlq5bih26lr9n9hagq989avl4v7a4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -48943,17 +48943,17 @@
 (define-public emacs-hammy
   (package
     (name "emacs-hammy")
-    (version "20221031.1933")
+    (version "20221103.1543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/hammy.el.git")
                (commit
-                 "5a4d058fba11bae5559bea8405832bc8339b623f")))
+                 "e76cefa2d7c97bd4c3b15d0f452a755c71a88072")))
         (sha256
           (base32
-            "1n33idkjb1ab84jqrvxvb610zd364addhz7p5rj1p6708g2b5iil"))))
+            "1q1c7zm4bvxazqmzygl8qfqz5mg24sngqv3hl7csmp7c5wyixl4n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -68201,17 +68201,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221102.1828")
+    (version "20221103.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "145ca1e409f37f71bf708d759f8918ef748bb31d")))
+                 "54cdc61be837e9ab3e4673bbb73fb6627089a973")))
         (sha256
           (base32
-            "09zmmwqd7mbv5xrcqf21xwr3c168yb3a8bpfvl317gaxrza5js0n"))))
+            "1xkrh6v4pxrn0pxm3s0gpmjnzqaca1021gyn6h52pqgxf42b4cx2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -89970,17 +89970,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20221027.1651")
+    (version "20221103.1056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "c3c442a3fa8714b17f166fb1f60f3326d583a22e")))
+                 "fe8ab0903c7d552df31900fef46c011df3dbbeea")))
         (sha256
           (base32
-            "0acjxg4rgbfqwnwrbz36gm2i63xkk83ar3fz50hkfddc445c258w"))))
+            "10yx9yhfz5nk28iz4hdjmzhx3252jlbdw3v70pdbi3lrvfaxfp8i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -119366,17 +119366,17 @@
 (define-public emacs-whois
   (package
     (name "emacs-whois")
-    (version "20220826.1112")
+    (version "20221103.1110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-whois.git")
                (commit
-                 "1e4fd3a2001b5dd8f52190ef6ff6535d9aa981c4")))
+                 "ce6bbe7f106f11840443fd94cc3161f67ffc9f61")))
         (sha256
           (base32
-            "1pjx56zr4bbfgx0x1i6r4krzv22jg2kjhapy8g9i8mi32m2iqwcb"))))
+            "143xzj9mm3r8acfl71msw2n4ajw4qhkcvgn6a5x98mf53i110z6f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-whois")
@@ -120777,17 +120777,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221031.1303")
+    (version "20221103.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "d28afe60398001753800ff721b6b098236b1b9bd")))
+                 "a51b8aa4a96ed43463501b78835c670d28399ed3")))
         (sha256
           (base32
-            "0g7m728kzrpwzldim2w4mikdg2sqchdpbs1b6351l9hxl4r7aran"))))
+            "0v5z2byss2an0x2msrbsvy89wyhix8jhg7dc4hmmaw4jcj5dqqfz"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
@@ -122981,17 +122981,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20221102.2124")
+    (version "20221103.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "c514333f61dd6b6c444a92ae16e41edd57a1ab82")))
+                 "f46eb21b8864a9b724455d1fb83bcadf77c4ce9c")))
         (sha256
           (base32
-            "18jj17xymaqm1pg9ls6xvzq0yc07jkh6gkhis0kaxqmq3nfca29b"))))
+            "0h16a7ilg04md83b1wa66whxhxn7gd592rnm1ws8bf5b5r4l7ijl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
