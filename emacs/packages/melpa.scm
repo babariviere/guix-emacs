@@ -5129,17 +5129,17 @@
 (define-public emacs-auto-dark
   (package
     (name "emacs-auto-dark")
-    (version "20221019.1557")
+    (version "20221103.2344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/auto-dark-emacs.git")
                (commit
-                 "3f28652e20d6b8966a61aa151a34d3cf41f87c46")))
+                 "a4bca75874e79ce62d2cd1dc3d97542e46fe0dfe")))
         (sha256
           (base32
-            "15pc502dr3166qnbhkpd2z08j91hym061x6xygplfs3fjmh8qf4l"))))
+            "0nx0ji1pz5r9yc9djzpd5d728yrsx3m4jchjxkjbb8484annnk6r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/LionyxML/auto-dark-emacs")
@@ -24131,17 +24131,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221103.1645")
+    (version "20221104.409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "87b92894c0aad6961a923c5d278efa551129d636")))
+                 "1cd3d1c8e16d00ba0bff3cbd1b28adb0531cc500")))
         (sha256
           (base32
-            "05vx60cpl05x9zfzgzmmi5skjqibppfycs8jbz5lgblw5d7jpfzl"))))
+            "1gkpcnij9aisqy2y6vfbrhcwwjd45qc45qsw0zry4by6zlkwiip6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -37550,17 +37550,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20220928.1355")
+    (version "20221104.549")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "d72c29fec85f1da6584475d88c1265f80e1275ad")))
+                 "5f31d75af803e541684eb606fa9831106b02039c")))
         (sha256
           (base32
-            "1l39inrl26z9z13hdvbi8wk0zqnx31j4g2bs5nv80fxc8j5sxqna"))))
+            "038qp162fzdlfsdxxgm9v3r2ijbhm9cs7rkg26vn4355rs1jgajh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -43454,17 +43454,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221101.1622")
+    (version "20221104.426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "dbde6d2b446b41bc309da33aa69034c63f8294a5")))
+                 "04dbdacfeca0190856abad859360da4bb873f9dd")))
         (sha256
           (base32
-            "14hi7jz15n1szwcwczfvygbjbnr16s11iqfgda7i8ja82v7skgjp"))))
+            "0dd20cq3nz4jjysaqx2aiqqaxvkfkbj2x4zm2mz3pd4rmydckj2y"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43607,17 +43607,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20221101.1625")
+    (version "20221104.427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "56fcdb0b73c1388b7695f4e2d3d3736ca4453e73")))
+                 "f5e82dc0f5a076335f201885a7edbefaa1ad435f")))
         (sha256
           (base32
-            "1yiij1nvbsfb72vvsps0x7gnhh3wsvzz949sfkz5sqkb0lskq2d3"))))
+            "13qxg1npm0pmnml5q268k5xk1clyqldp8v200ihrqwqlc3ga7f36"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -46856,17 +46856,17 @@
 (define-public emacs-god-mode
   (package
     (name "emacs-god-mode")
-    (version "20210102.515")
+    (version "20221104.448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/god-mode.git")
                (commit
-                 "d7e933095041aa32033d29f2c87d201b5b43c3b3")))
+                 "c4aea10fb278d5ddbdd047c211444eb1b0b5da60")))
         (sha256
           (base32
-            "1sa735x8m6c9a1wsavv1w2a3arkx3z7hyp9rkzqz55p2vn0z82vg"))))
+            "1ydk1ihspmciyd0c9gk56m5qqdz2z5yzf6q6nv91qadrcm2fq0qj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/god-mode")
