@@ -4513,17 +4513,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20221102.922")
+    (version "20221103.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "d63f0f8768feab161a309461e8b82a28c5897288")))
+                 "0cd224d6d7091477c37804feee5cddfb923bec8d")))
         (sha256
           (base32
-            "1kvrz7nk5yrcgqmlm9phfpcs4hvm1fkbd3v558m2qn4frcqhcyg9"))))
+            "0sqciyydifr8z3s1jzbr8pvwlckyh9m17wyjmc70ca8kmly8cj3m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -15984,17 +15984,17 @@
 (define-public emacs-company-shell
   (package
     (name "emacs-company-shell")
-    (version "20220822.2014")
+    (version "20221103.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/company-shell.git")
                (commit
-                 "024c2172a0cc8f1b35f173e42fff5f2d938920fc")))
+                 "e55b9000192f82e96fdc0f7ca1e8a868e67762a8")))
         (sha256
           (base32
-            "06nfq2va9vwf5wiqdfrjziv3hjkj36w8p91bicfb92ggv1afg9ra"))))
+            "113h10n3yb3gb4qpmg1ji7fmzy912qcysq4c2v80gx4qqbn1qq5h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-dash))
@@ -24131,17 +24131,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221102.1723")
+    (version "20221103.1645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "729c9a8eb7b8c4dd66265af0926c4c55d0152ae0")))
+                 "87b92894c0aad6961a923c5d278efa551129d636")))
         (sha256
           (base32
-            "02jk7azishilbi27fa23pn79flpx8fjwhh7nh2s0yaa3ilkf2fh8"))))
+            "05vx60cpl05x9zfzgzmmi5skjqibppfycs8jbz5lgblw5d7jpfzl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -70780,7 +70780,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221029.1039")
+    (version "20221103.2044")
     (source
       (origin
         (method url-fetch)
@@ -70790,7 +70790,7 @@
                ".tar"))
         (sha256
           (base32
-            "198ax035f6cjs93fvd3mz2rvg9gnmbarn6f183kqxgmrs5n0ci9y"))))
+            "0zj8cb81k9sqc5gr05ybaapqmvsbvsdwsz3wy8hrsj30wzi5a3bx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist))
@@ -89970,17 +89970,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20221103.1056")
+    (version "20221103.1623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "fe8ab0903c7d552df31900fef46c011df3dbbeea")))
+                 "f5c4016bb6f8eab75133a6b306e1c57c7d8bd0af")))
         (sha256
           (base32
-            "10yx9yhfz5nk28iz4hdjmzhx3252jlbdw3v70pdbi3lrvfaxfp8i"))))
+            "0ihs6mdzg3hvwd935a3wm8mh7kzbj1ibddrd3ck8wlflc8wqvvy0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -95326,17 +95326,17 @@
 (define-public emacs-python-black
   (package
     (name "emacs-python-black")
-    (version "20211217.2037")
+    (version "20221103.1759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-python-black.git")
                (commit
-                 "cc6919e758b5845b201e1cb08a9b5d9a2598a7f1")))
+                 "cb63647905375bee9f0de422a21fb0722db0d122")))
         (sha256
           (base32
-            "1jz4kyj08s1pn7d5z0hpc8asy8kfs3mfqg3i8bps1cbrpx5aky5m"))))
+            "1vvhfviyvv7ab2v6habw009j3r15id8fyga7k3r42yiyv6fdr0kh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-reformatter))
@@ -96248,17 +96248,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20221015.1615")
+    (version "20221103.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "8077ab7783c5f17e3a3f96fdf901a74541e810c8")))
+                 "d1caf10d1358a593950d9af65222a1f6f11a5d4c")))
         (sha256
           (base32
-            "1cp58hv04ibh7vgl2j310ih9msa75rklc5g0q83niab0pyxalhf5"))))
+            "1a1qylfc5ifxbx65jxsnsqv88ml9j9y470r5ib58xb3fl6sph1ap"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -98892,17 +98892,17 @@
 (define-public emacs-reverse-im
   (package
     (name "emacs-reverse-im")
-    (version "20220922.1650")
+    (version "20221103.2351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/a13/reverse-im.el.git")
                (commit
-                 "40e841b9d5b72ac0872de4e3f08406cb80236706")))
+                 "542a3f7742d2f7878f1509bd193d137b5bba8e7b")))
         (sha256
           (base32
-            "07msas5vwhvdccxr7scnvvlbr5478d1s6h9c6xkhl8ylml61gv44"))))
+            "1j3sca85q5kd9b2h0iyy2pml1md6jx0q36c3y948svdil11hxv92"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/a13/reverse-im.el")
@@ -106747,17 +106747,17 @@
 (define-public emacs-spacemacs-theme
   (package
     (name "emacs-spacemacs-theme")
-    (version "20220817.1546")
+    (version "20221103.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nashamri/spacemacs-theme.git")
                (commit
-                 "e04d1f21107a1565861625209bb9c46a7aa43cc5")))
+                 "1ec73d68b0f120f92538d9a329a3a46e32f74510")))
         (sha256
           (base32
-            "1yz8xg9ni9290nly5b93djkzk9235q6k4lhb5ghs6snr0r39157n"))))
+            "16ip8pcifhr2k07qi935nhrdmmgwlrxhilk3bjzajxa92ajgpmw8"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -107637,17 +107637,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20221013.2327")
+    (version "20221103.2201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "021d18686419c14ef4482b4d77b32614af55413d")))
+                 "f4423cfdd7b9d1af40addd3af9aca520eb286430")))
         (sha256
           (base32
-            "1i8502j387p2gh4vhm248bajk9zgx4z4cq9qp15vgaapsml5cz1a"))))
+            "1bbfw3dlwq33mkr12hzcybih0hqnvvw9fs30h0nvz01yzk3lgy86"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -108339,27 +108339,27 @@
       "Documentation at https://melpa.org/#/strie")
     (license #f)))
 
-(define-public emacs-string-edit
+(define-public emacs-string-edit-at-point
   (package
-    (name "emacs-string-edit")
-    (version "20220604.2128")
+    (name "emacs-string-edit-at-point")
+    (version "20220913.712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/string-edit.el.git")
                (commit
-                 "d7c4b9db6c4987b5c022a9858e6302a4c53aff5f")))
+                 "a486829b2fc41bec1006cec11bd0dd327ab636af")))
         (sha256
           (base32
-            "1fr17145rk62wc8h4vr164ya8vr6ifyy0h4kzbsgwwkh6qji6aym"))))
+            "0dp2dqqy0gnh76qy644yn0xfz0iy0v67i0hs8264frax7smc49fz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
     (synopsis
       "Avoid escape nightmares by editing string in separate buffer")
     (description
-      "Documentation at https://melpa.org/#/string-edit")
+      "Documentation at https://melpa.org/#/string-edit-at-point")
     (license #f)))
 
 (define-public emacs-string-inflection
@@ -113728,17 +113728,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20221024.626")
+    (version "20221103.2102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "984099b6b8a19a8bb016bd8278285f77af7f79d9")))
+                 "3b525ea26d2554ddffb11d1f44e0d76c11a1dde9")))
         (sha256
           (base32
-            "15n3hlhhnrhc4rcpxnmwqz36dbz1asmz72cy9zvszz4fxrach4rb"))))
+            "0m9za2ydqdrrrymbk5ay7sks5b259kmkdbin8cfhigz444ra0qgp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -116096,17 +116096,17 @@
 (define-public emacs-utop
   (package
     (name "emacs-utop")
-    (version "20221103.27")
+    (version "20221103.1446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diml/utop.git")
                (commit
-                 "263428053b0b6297619cea4bf4165ffd29a64239")))
+                 "c596ac7b88ce0686bc8bf82dfa77fc055cdbfbef")))
         (sha256
           (base32
-            "04j8k1y7r1gycrjpl9p0mhwvg4mqyjn1xdfy8jlcwivnvl7qk3xg"))))
+            "1nl18rshaw0f93i67n53s7f9x9ykn49bik14432zmr00kcddmn4q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tuareg))
     (arguments '(#:files ("src/top/utop.el")))
@@ -122958,17 +122958,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20221102.2124")
+    (version "20221103.1525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "c514333f61dd6b6c444a92ae16e41edd57a1ab82")))
+                 "f46eb21b8864a9b724455d1fb83bcadf77c4ce9c")))
         (sha256
           (base32
-            "18jj17xymaqm1pg9ls6xvzq0yc07jkh6gkhis0kaxqmq3nfca29b"))))
+            "0h16a7ilg04md83b1wa66whxhxn7gd592rnm1ws8bf5b5r4l7ijl"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
