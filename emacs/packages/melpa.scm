@@ -12361,17 +12361,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20221025.2113")
+    (version "20221105.1054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "e705911a29abcfc49d4435c538e88835074e4ef4")))
+                 "69536c8776dea383951538fd197333bee766d7c7")))
         (sha256
           (base32
-            "0r2pb9kzamlcxjrk973n2h33kh376n7iiphjkfwnw64bzbxmq2z4"))))
+            "1x95hr3w8ck3dhhnpj4yfrqfrh3mmfld8lqaqpijwmgjgf2gfivh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -16949,17 +16949,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20221016.1032")
+    (version "20221105.1202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "6f64973ca132217b9689c6140e5e2b7c598f6fbb")))
+                 "b93cc856d1d2dd0719926e51c5a6309bbbf60b19")))
         (sha256
           (base32
-            "0xw2i64j3v3w3szb2vrl4i3qr7k9pi7g0ly242n0mpn95dp7cpd5"))))
+            "1k0733kymkf8f3r4xi3fja561sybbkss3p54v7kf6pcz33v6gwc6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -21168,7 +21168,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221101.1755")
+    (version "20221105.1328")
     (source
       (origin
         (method url-fetch)
@@ -21178,7 +21178,7 @@
                ".tar"))
         (sha256
           (base32
-            "18jmqzg5qmjsdmiwvy76dhnx9xrl3j2izz8p213q6k9ip6xw4b82"))))
+            "1khs0jvzhd6w4i4c7afrk83dvssk9l6b4is3fpnnjrr0dbkas7m9"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -32678,17 +32678,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221101.2039")
+    (version "20221105.18")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "f9218169f1f39225e9f631209d285bb7af50c8fd")))
+                 "c59f2c09c63de5f001c19f8513a19dfc72858e75")))
         (sha256
           (base32
-            "0xcl4flrm89k8kmrqr03xrq0cjl37kzgpp51gcjigcz18rrfg4xa"))))
+            "0pchhziifbzjfhs5zszkaqbwxmsdm8rgcv0m7nyca1zr0409wmx6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -70453,17 +70453,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20221022.735")
+    (version "20221105.236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "7030c72f878e079f12767299908265221ea4aa7d")))
+                 "c338cdff80012893e64ba62a199281f430db7021")))
         (sha256
           (base32
-            "0pi5mv92z1l2878pqs3p9w614ivnmwdbq1cclmxyy8iknckdbwkg"))))
+            "0glmrn96aji78jf3nvj5w0bkwswd0kyazfnm1jszgyy7h01am9rm"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -83796,17 +83796,17 @@
 (define-public emacs-org-roam-ui
   (package
     (name "emacs-org-roam-ui")
-    (version "20220927.1434")
+    (version "20221105.1040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-ui.git")
                (commit
-                 "6bf6a5eecc1fa7ddbb1fcda85e08fe9c393f9298")))
+                 "5ac74960231db0bf7783c2ba7a19a60f582e91ab")))
         (sha256
           (base32
-            "0y2rpk2ncl18ymvvvqzjvy1d3kxi94ack6qxb8zp2p5jdx2n0ciw"))))
+            "0yic5rgp4f1rmi979if79kva7wn3rqnky423mqgf7sdw310h8akl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -94340,17 +94340,17 @@
 (define-public emacs-pueue
   (package
     (name "emacs-pueue")
-    (version "20220915.1249")
+    (version "20221105.1230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xFA25E/pueue.git")
                (commit
-                 "28646d6b27ab0d6700aa279e9b96d2895f24fb21")))
+                 "5ad6979a0129c7cddc69f71c9084e4356f450fac")))
         (sha256
           (base32
-            "0ff9mmm2flfszik65a6vhgiyb1qsvcf2a34vag39l6c5sjvh2sp7"))))
+            "1jcy8gv7zg0hr2p1vcdx0wy2gh6wmrxp6j3g4idsa9sa1kbm6dj0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-with-editor))
     (home-page "https://github.com/xFA25E/pueue")
@@ -113657,17 +113657,17 @@
 (define-public emacs-tree-sitter-ispell
   (package
     (name "emacs-tree-sitter-ispell")
-    (version "20220704.340")
+    (version "20221105.713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erickgnavar/tree-sitter-ispell.el.git")
                (commit
-                 "2efe943dd62096a819b7c2d6b61c93a4f18aeb22")))
+                 "6d486371d641a809f44df21921e64ef381844e83")))
         (sha256
           (base32
-            "1j4ws5wbylm3glh860bcaria9mjl0iqflxrlbq4zwj9if3pa7hlj"))))
+            "1a1hgxd9f8b5n49bbyqlcswjwbyazjq7p75ng481mlkvb9hac1ic"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (home-page
