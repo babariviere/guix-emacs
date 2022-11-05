@@ -25016,17 +25016,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221102.923")
+    (version "20221104.734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "bc2e9bb89c4dc244ff6795c89c8539897191a1bd")))
+                 "37ae27f55210f35684c1c83fc5a3eda7a0c68872")))
         (sha256
           (base32
-            "1jwl9gan34gr03a2ha82d3xhq2ivv0qi475v9i3zmnjj5nnrh4hf"))))
+            "19pwrm0qzw8i4q1g9s43jb8g7915k56jihcp6ylmhs6rl39lipgk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -59554,17 +59554,17 @@
 (define-public emacs-iter2
   (package
     (name "emacs-iter2")
-    (version "20220826.1344")
+    (version "20221104.1938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/iter2.git")
                (commit
-                 "0cfd73224557d3b8282f4f5b24cbbfa4e0120184")))
+                 "5ea6ba6effc4b71e7a4aed16b3f42408f9064c01")))
         (sha256
           (base32
-            "12hq64vp5sskfar9zci1jsjyfiyp2npiflz44skgz5ngvi57x0hj"))))
+            "0vb6xrv6dnw7x8a2iak8509zz63ss4jkxwg8mbwqgamxcvf39hc8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/doublep/iter2")
     (synopsis "Reimplementation of Elisp generators")
@@ -68201,17 +68201,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221103.1550")
+    (version "20221104.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "54cdc61be837e9ab3e4673bbb73fb6627089a973")))
+                 "59eeba73a6e1064d10efefa9a8ba0de20c938591")))
         (sha256
           (base32
-            "1xkrh6v4pxrn0pxm3s0gpmjnzqaca1021gyn6h52pqgxf42b4cx2"))))
+            "1a1432324b7iiyv80z1m5ww8x775qpv56s17n699hp0zr1q3im67"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -83748,17 +83748,17 @@
 (define-public emacs-org-roam-bibtex
   (package
     (name "emacs-org-roam-bibtex")
-    (version "20221027.1058")
+    (version "20221104.2139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-bibtex.git")
                (commit
-                 "1273b74b13f260bca441081b3a7ab1fd79706925")))
+                 "3810ddcd9d69ab27a40d5ba88b553df8db1b4884")))
         (sha256
           (base32
-            "02y7yhk5irxspg7vc5vd9qzgd74ccyldhi5kc5d0rbggghji1jbm"))))
+            "0l22sdq5gg8ih9ir6djd1yfql3yy00c24g2sjyxhswsv83q6j2k8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-bibtex-completion))
@@ -83772,17 +83772,17 @@
 (define-public emacs-org-roam-timestamps
   (package
     (name "emacs-org-roam-timestamps")
-    (version "20220111.1755")
+    (version "20221104.1544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/ThomasFKJorna/org-roam-timestamps.git")
+               (url "https://github.com/tefkah/org-roam-timestamps.git")
                (commit
-                 "604fdad0feb61419751d3d6b828cc443a99f418f")))
+                 "c4ff1e2f5b0905b5caa917249aab56ddc1de1ab3")))
         (sha256
           (base32
-            "1lpqksk7n76n0xgkjnzafslhsjd05j0b3a1scmhdg7idi2c436fi"))))
+            "0z8ny8rcra6vkzazc5lsb5hgv9aj70cljpy96iafiiji7213bw2w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-roam))
     (home-page
@@ -107637,17 +107637,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20221103.2201")
+    (version "20221104.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "f4423cfdd7b9d1af40addd3af9aca520eb286430")))
+                 "110c6b968ca030d75a0e870322cde598fe345bb3")))
         (sha256
           (base32
-            "1bbfw3dlwq33mkr12hzcybih0hqnvvw9fs30h0nvz01yzk3lgy86"))))
+            "0jwspsz6w53jxzda80g1n1g82dpvw6vn8440jp7d5n1jv0vdp0dc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -120777,17 +120777,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221103.1048")
+    (version "20221104.1010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "a51b8aa4a96ed43463501b78835c670d28399ed3")))
+                 "297d12c00ccc2c4d0e9082d41d1dfa3b51f84daa")))
         (sha256
           (base32
-            "0v5z2byss2an0x2msrbsvy89wyhix8jhg7dc4hmmaw4jcj5dqqfz"))))
+            "1q7x908f5ga05ww22sn41ic72qqdj00r5j4655s1jsvs83ja5y8w"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
@@ -122958,17 +122958,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20221103.1525")
+    (version "20221104.1238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "f46eb21b8864a9b724455d1fb83bcadf77c4ce9c")))
+                 "c124656c302343366acb5a85a6fdba28cbb0dd38")))
         (sha256
           (base32
-            "0h16a7ilg04md83b1wa66whxhxn7gd592rnm1ws8bf5b5r4l7ijl"))))
+            "1jk25ylc7ascknlyn9nfaqphav7avy9fds3lfwx98yppi5mm7xgf"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
@@ -122981,22 +122981,22 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20221103.1037")
+    (version "20221104.1549")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "f46eb21b8864a9b724455d1fb83bcadf77c4ce9c")))
+                 "c124656c302343366acb5a85a6fdba28cbb0dd38")))
         (sha256
           (base32
-            "0h16a7ilg04md83b1wa66whxhxn7gd592rnm1ws8bf5b5r4l7ijl"))))
+            "1jk25ylc7ascknlyn9nfaqphav7avy9fds3lfwx98yppi5mm7xgf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
     (home-page "https://github.com/localauthor/zk")
-    (synopsis "Index and Desktop for zk")
+    (synopsis "Index for zk")
     (description
       "Documentation at https://melpa.org/#/zk-index")
     (license #f)))
