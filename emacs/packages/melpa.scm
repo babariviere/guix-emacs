@@ -67681,17 +67681,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221102.1120")
+    (version "20221106.626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "24acca1a45d987093561f7294b7b1d1f738f23af")))
+                 "0c7afe1e8aad2d66720bdddc40da3a4267af7b0c")))
         (sha256
           (base32
-            "1j9pkdsl18wrhf6zhxz020sls5gx5y15samk7dyilag1c3kh0rfy"))))
+            "1qk8da408rh668dpfhn2jvfdwjqy21h9byixk0gfcg8cffwm9nsv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -99461,17 +99461,17 @@
 (define-public emacs-robe
   (package
     (name "emacs-robe")
-    (version "20220731.2016")
+    (version "20221106.140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/robe.git")
                (commit
-                 "993ae13791ba882076b644b0c8054b6e89e22dad")))
+                 "a4085d7329d771b5cba02c8fe9bca2622ea31ed7")))
         (sha256
           (base32
-            "1a4sdhrmaswi5h5wwqabiyqfz6lfgn0iq68j6qrbn1lwdmcf71d2"))))
+            "1isd9x3xl3skkl8227q8kgj3p985hyp4bmsia1lj1jv98xlns6a9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inf-ruby))
     (arguments '(#:files ("*robe.el" "lib")))
