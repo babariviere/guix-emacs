@@ -4513,17 +4513,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20221103.1527")
+    (version "20221107.1434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "0cd224d6d7091477c37804feee5cddfb923bec8d")))
+                 "7cf39d3227d2e99bb2d627bb47fdd90c10a7675a")))
         (sha256
           (base32
-            "0sqciyydifr8z3s1jzbr8pvwlckyh9m17wyjmc70ca8kmly8cj3m"))))
+            "0b8pi351k8i7grwpj1h94ym49gq2kgi2bc50cji1f7cimwci3qim"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -46859,17 +46859,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221101.1311")
+    (version "20221107.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "c30363d0b592d933399e445b969da00ce5360c7c")))
+                 "d2299f0a926d7765ce05e0eff37bedc0e4be9239")))
         (sha256
           (base32
-            "0qjrvs3538r7x83f8z7mcd48045x0ka6xlb6rizh3gcs3lwxgm12"))))
+            "1n9fgm8p5qja2zb7a2zha36q8kyg20zprnj7hlp86i5r08ib1a3w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -67909,17 +67909,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20221102.122")
+    (version "20221107.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "e8f52b4fe52946b4ab7ce6cbf3abde8409c6c7b0")))
+                 "1cd9e746789ba3bd9a838bb52ea43026b092a103")))
         (sha256
           (base32
-            "1ghzfdwpkpikdd4dja4n5njnf4wsp6214df9sqm8chail3mxvgkc"))))
+            "0awk0k3rfcsn8k3ryg4sldsg0a29bxy6yhxdjxy3i4ly8w3psv46"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -70851,7 +70851,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221105.1621")
+    (version "20221107.1258")
     (source
       (origin
         (method url-fetch)
@@ -70861,7 +70861,7 @@
                ".tar"))
         (sha256
           (base32
-            "0s6r79g7m66g8v0wb41qb87sgkhz7qrqaa8hrrddz8mkx7w9vfa4"))))
+            "1k64abl9fgyw8xl3y677v1zxf17ar3cpvbkvf0469fqn3jiwga76"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -74529,17 +74529,17 @@
 (define-public emacs-mu4e-overview
   (package
     (name "emacs-mu4e-overview")
-    (version "20200824.1549")
+    (version "20221107.833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mkcms/mu4e-overview.git")
                (commit
-                 "7daaa35a6d78feb83167e780a9c23da719c9051b")))
+                 "21d4fbf44f67b786a61072afd20065a56b3952a1")))
         (sha256
           (base32
-            "1fv31h6f7vhnkdrjf2jij6nirnqfxmxq464cmqzp3lfyzxi8pxg0"))))
+            "1lsb080ff134ibxq0lcc99qq3ysyikiabkfiyldnjwcs41ixihha"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mkcms/mu4e-overview")
@@ -83322,6 +83322,35 @@
       "Documentation at https://melpa.org/#/org-present")
     (license #f)))
 
+(define-public emacs-org-present-remote
+  (package
+    (name "emacs-org-present-remote")
+    (version "20221107.1139")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/org-present-remote-"
+               version
+               ".el"))
+        (sha256
+          (base32
+            "0nllv7v1cnb335dghnx7b48c3630w42rcz3rqzjpdaiph9kymsda"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-org-present
+            emacs-elnode
+            emacs-fakir
+            emacs-s
+            emacs-web))
+    (home-page
+      "https://gitlab.com/duncan-bayne/org-present-remote")
+    (synopsis
+      "A web-based remote control for org-present")
+    (description
+      "Documentation at https://melpa.org/#/org-present-remote")
+    (license #f)))
+
 (define-public emacs-org-pretty-tags
   (package
     (name "emacs-org-pretty-tags")
@@ -84986,17 +85015,17 @@
 (define-public emacs-org-wild-notifier
   (package
     (name "emacs-org-wild-notifier")
-    (version "20221105.2056")
+    (version "20221107.1009")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akhramov/org-wild-notifier.el.git")
                (commit
-                 "4e170958f315f0ddbd562338f9997443869b125b")))
+                 "544df8a78090411479495494f9de724c350649ac")))
         (sha256
           (base32
-            "0k5clhxvkhwh122m4lr0ici4sz3j1mydc4wa4prfsi33m5na67la"))))
+            "1xwx3q18kl5za2qzq596v1ibhggnrmn7b3r8sd77c7kffjd8k6ib"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-async emacs-dash))
@@ -123168,17 +123197,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20221104.1549")
+    (version "20221107.1204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "c124656c302343366acb5a85a6fdba28cbb0dd38")))
+                 "8cc0ca548f8fc1930bbc14b273b8a30df0c6327c")))
         (sha256
           (base32
-            "1jk25ylc7ascknlyn9nfaqphav7avy9fds3lfwx98yppi5mm7xgf"))))
+            "0akqvgvlkfv05dl2d11gkb3ym38l1apsdp3d7l8sli7jdwqrhiaf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
