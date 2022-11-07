@@ -2201,17 +2201,17 @@
 (define-public emacs-alarm-clock
   (package
     (name "emacs-alarm-clock")
-    (version "20221031.430")
+    (version "20221106.1409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wlemuel/alarm-clock.git")
                (commit
-                 "54a5557c05c63053fe31072905ba80d8231ce2f3")))
+                 "01f43a74591c4b0de34804e126b671990c7360b4")))
         (sha256
           (base32
-            "02gr5scf50js00xa1chvd0j7agr8bys5madzk96fwg0s4gfdmyqa"))))
+            "167q6s32d78b6xywycfahpilpgp64bhcc6ydrjb07fbrbfjk96m7"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.mp3")))
     (home-page
@@ -5724,17 +5724,17 @@
 (define-public emacs-avandu
   (package
     (name "emacs-avandu")
-    (version "20170101.1903")
+    (version "20221106.834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ryuslash/avandu.git")
                (commit
-                 "f44588d8e747fa880411cb4542cc39962252b90a")))
+                 "f064cd62f878d945cc2f202cda9a1a82b39d9e22")))
         (sha256
           (base32
-            "097wls9k6qrf12nn8mpszfbqsaqc81956yqxns1sjs6dmjqi0c7z"))))
+            "029l6qjfcj8sw459rrlg80z0gliib8cb0q9qj5rl32xdsj12hzni"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Gateway to Tiny Tiny RSS")
@@ -8096,6 +8096,29 @@
       "Documentation at https://melpa.org/#/blox")
     (license #f)))
 
+(define-public emacs-bluesound
+  (package
+    (name "emacs-bluesound")
+    (version "20221104.656")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/bluesound-"
+               version
+               ".el"))
+        (sha256
+          (base32
+            "0alssx78mrjgbls0c18vd5rh614n61944xlcb64i4dz68hd33gi2"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.sr.ht/~rwv/bluesound-el/")
+    (synopsis
+      "Play, pause, resume music on a Bluesound player")
+    (description
+      "Documentation at https://melpa.org/#/bluesound")
+    (license #f)))
+
 (define-public emacs-bm
   (package
     (name "emacs-bm")
@@ -8371,17 +8394,17 @@
 (define-public emacs-boon
   (package
     (name "emacs-boon")
-    (version "20221004.1937")
+    (version "20221106.2025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/boon.git")
                (commit
-                 "520f68699e2a5a8e022c058992d3d39737c32753")))
+                 "106f842df7f68cbffbb2bb63f7f99f34fe7d3edf")))
         (sha256
           (base32
-            "1hr1ic4r6cvy61n00b8dzf7hmmyvpzammlmis5i4chq0jii4kw6l"))))
+            "0pw2ig0hn9m62yv6j7snllzb9aanyjjfx3xzaif4bl0ili2zd78c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -21922,6 +21945,30 @@
       "Documentation at https://melpa.org/#/dir-treeview")
     (license #f)))
 
+(define-public emacs-dir-treeview-themes
+  (package
+    (name "emacs-dir-treeview-themes")
+    (version "20221103.37")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tilmanrassy/emacs-dir-treeview-themes.git")
+               (commit
+                 "1d2e19c1df9f68186d7d0fe4529c92f7112136a2")))
+        (sha256
+          (base32
+            "1h8kbr1swad0d84bqblg4c4gvm2pnq72n5hrbxjwahr45j8xrp1l"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-dir-treeview))
+    (arguments '(#:files (:defaults "icons")))
+    (home-page
+      "https://github.com/tilmanrassy/emacs-dir-treeview-themes")
+    (synopsis "Themes for dir-treeview")
+    (description
+      "Documentation at https://melpa.org/#/dir-treeview-themes")
+    (license #f)))
+
 (define-public emacs-dircmp
   (package
     (name "emacs-dircmp")
@@ -26731,21 +26778,22 @@
 (define-public emacs-eide
   (package
     (name "emacs-eide")
-    (version "20220531.452")
+    (version "20221101.2045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://forge.chalec.org/hjuvi/eide.git")
+               (url "https://forge.tedomum.net/hjuvi/eide.git")
                (commit
-                 "a32b9266414d9173dfa92fa44b17064ebb39522f")))
+                 "e0a5deb627da9cf70f02229601a1ebe6d78cabc8")))
         (sha256
           (base32
-            "09v74b78vq0vw93pm2xgkdyp6f7ql0l52bzgj1pyayjr5y6y65mg"))))
+            "03yj94kw9n32bsjb7mxsq7acb8x915cgw5c11112mb56qjsz6203"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/*.el" "src/themes/*.el")))
-    (home-page "https://forge.chalec.org/hjuvi/eide")
+    (home-page
+      "https://software.hjuvi.fr.eu.org/eide/")
     (synopsis "IDE interface")
     (description
       "Documentation at https://melpa.org/#/eide")
@@ -30313,17 +30361,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20221004.1254")
+    (version "20221106.1133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "433df846529f25074955791869797ec4e929d4aa")))
+                 "d55ee22573c83ccbb55b8df6360ef3c62d1ce244")))
         (sha256
           (base32
-            "0gnz8hjbq3bl12g3lz85lryf2n0zv583k5fl7kin2yj2xsxwq0v3"))))
+            "0pr36nyyz8g9jmvv1h0qa6n51cjc69g0q6ihvxkxk0rqcvm390v5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -42739,17 +42787,17 @@
 (define-public emacs-fsharp-mode
   (package
     (name "emacs-fsharp-mode")
-    (version "20220630.1931")
+    (version "20221106.2050")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fsharp/emacs-fsharp-mode.git")
                (commit
-                 "185bfc2ca091cdd5d80ee798247d249076de2b30")))
+                 "cfd3f8827e8ec9cbf4d23653c4b05db4c01a5947")))
         (sha256
           (base32
-            "012lqc8px3qbn7qdm2w1ylaa6zxvs3l71xmpdyh5whhmgpfhc3wf"))))
+            "0nxicqypwpksq9nc1b6v25j984ssqg8nb53wdpynsc422g2sqs0h"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -48943,17 +48991,17 @@
 (define-public emacs-hammy
   (package
     (name "emacs-hammy")
-    (version "20221103.1543")
+    (version "20221106.2041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/hammy.el.git")
                (commit
-                 "e76cefa2d7c97bd4c3b15d0f452a755c71a88072")))
+                 "84c0f14e2fcbaa36dfbf2986d44e672d028fa2e6")))
         (sha256
           (base32
-            "1q1c7zm4bvxazqmzygl8qfqz5mg24sngqv3hl7csmp7c5wyixl4n"))))
+            "1jz3cfmlwf5p5hzix4phl7gz8nymmbf5h3h3qd2ni37yz01d2xch"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -49226,17 +49274,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20220917.1353")
+    (version "20221106.1352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "90503413f4cdb0ed26871e39c4e6e2552b57f7db")))
+                 "53d26263dbe2c607471048646d94788c0d232f98")))
         (sha256
           (base32
-            "19f9zqb6pfa71hpv4vk7ym8hcsy8hn0jmp3k2xk36vc38g1mr8ma"))))
+            "06q63zhms1ckbkryxg2534irrq014rbnwx1kmj92ldbinv4qr7qc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -49543,17 +49591,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221105.1927")
+    (version "20221106.2010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "1327e97f14449ad980fe4345d21ba1adf07af39d")))
+                 "ce00578ea1aa11692c1e05d1f5005dbdc856db87")))
         (sha256
           (base32
-            "0mj5wrd8y5mn9qv8cp7vcrr6prraxc67jdjzr1rmcgw5g6scqgrr"))))
+            "04nlw65s04y198v0phzinvnspklkx8cyc566dgq0aml8xhcmh0hz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50351,17 +50399,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221103.1523")
+    (version "20221106.1821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "1327e97f14449ad980fe4345d21ba1adf07af39d")))
+                 "ce00578ea1aa11692c1e05d1f5005dbdc856db87")))
         (sha256
           (base32
-            "0mj5wrd8y5mn9qv8cp7vcrr6prraxc67jdjzr1rmcgw5g6scqgrr"))))
+            "04nlw65s04y198v0phzinvnspklkx8cyc566dgq0aml8xhcmh0hz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -58686,6 +58734,28 @@
       "Documentation at https://melpa.org/#/inlineR")
     (license #f)))
 
+(define-public emacs-insecure-lock
+  (package
+    (name "emacs-insecure-lock")
+    (version "20221104.143")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/BlueFlo0d/insecure-lock.git")
+               (commit
+                 "808b211244886a5c94b22adbb9b3d0fc397c5b7c")))
+        (sha256
+          (base32
+            "1a77n9f0iwvb6dlq3541065rayipyw1fnvrsv6xfvplmjbpbfzgr"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/BlueFlo0d/insecure-lock")
+    (synopsis "Extensible screen lock framework")
+    (description
+      "Documentation at https://melpa.org/#/insecure-lock")
+    (license #f)))
+
 (define-public emacs-insert-char-preview
   (package
     (name "emacs-insert-char-preview")
@@ -66554,17 +66624,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20221028.1725")
+    (version "20221106.1304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "ef24a969e11acb0faf0a59eae0e9a6d280e73d29")))
+                 "1a1abcc233b7434bd615221fbcd27f7694bc5391")))
         (sha256
           (base32
-            "04sqf8xpq737ybpsfkkhqpfhxbk3ss82d8lpr1smvqwrgfsi9r65"))))
+            "1kghf5yxmdfz9fikva4a1wxm7yk2mv17y85mfskzganb758l3rfq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -67681,17 +67751,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221106.626")
+    (version "20221106.941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "0c7afe1e8aad2d66720bdddc40da3a4267af7b0c")))
+                 "c78c95f6f9624f45839d6528a76bb3fe753e2c7b")))
         (sha256
           (base32
-            "1qk8da408rh668dpfhn2jvfdwjqy21h9byixk0gfcg8cffwm9nsv"))))
+            "0fdvaivy66089bminxw6yb4fy4sya9fjrlv5g4w9261ch10zg8ja"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -67792,17 +67862,17 @@
 (define-public emacs-lpy
   (package
     (name "emacs-lpy")
-    (version "20220818.1613")
+    (version "20221106.1310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lpy.git")
                (commit
-                 "ce78a4613458790cc785c1687af7eed8f0d8d66c")))
+                 "fa95b11e1023704510cc7dd2897bf8bcc3027cbb")))
         (sha256
           (base32
-            "1vxrjy6k030hcbclblgcaaw7h6k17kl3n9zla08527525c0gma01"))))
+            "18kx2mfmxy8s8csnp0iaiirl2z9baicq9f2w7rxlgkxww5511v7d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lispy))
     (home-page "https://github.com/abo-abo/lpy")
@@ -71446,6 +71516,30 @@
       "memolist.el is Emacs port of memolist.vim.")
     (description
       "Documentation at https://melpa.org/#/memolist")
+    (license #f)))
+
+(define-public emacs-mentor
+  (package
+    (name "emacs-mentor")
+    (version "20221030.1607")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/skangas/mentor.git")
+               (commit
+                 "88ef7deabd84591de28b463eb39cf8b520b21c9a")))
+        (sha256
+          (base32
+            "0dm45p5jb1f5y526ypxkllpzk8wv4fkw9yps71jxz31yfaybqfrc"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-xml-rpc emacs-async emacs-url-scgi))
+    (home-page "https://github.com/skangas/mentor")
+    (synopsis
+      "Frontend for the rTorrent bittorrent client")
+    (description
+      "Documentation at https://melpa.org/#/mentor")
     (license #f)))
 
 (define-public emacs-meow
@@ -80419,6 +80513,29 @@
     (synopsis "OPAM tools")
     (description
       "Documentation at https://melpa.org/#/opam")
+    (license #f)))
+
+(define-public emacs-opam-switch-mode
+  (package
+    (name "emacs-opam-switch-mode")
+    (version "20221101.1944")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ProofGeneral/opam-switch-mode.git")
+               (commit
+                 "5f3d2102ae6e38a4220e7c7c2d15acc795b94866")))
+        (sha256
+          (base32
+            "1y4l56c5swrng5ig4kz31p88xm44ag3lycd06c9x10zdv5acrzqk"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/ProofGeneral/opam-switch-mode")
+    (synopsis
+      "Select OCaml opam switches via a menu")
+    (description
+      "Documentation at https://melpa.org/#/opam-switch-mode")
     (license #f)))
 
 (define-public emacs-open-in-msvs
@@ -98238,6 +98355,28 @@
       "Switch back and forth between similarly named buffers.")
     (description
       "Documentation at https://melpa.org/#/related")
+    (license #f)))
+
+(define-public emacs-related-files
+  (package
+    (name "emacs-related-files")
+    (version "20221101.1909")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/DamienCassou/related-files.git")
+               (commit
+                 "4085ed9c235983e530da24cb1fbe33a5b7928ab3")))
+        (sha256
+          (base32
+            "1nnhggbxgvl9h5k796kq3ni2jvv61kki68f3yk54s6yc9h2sgn6p"))))
+    (build-system melpa-build-system)
+    (home-page "https://www.gnu.org/software/emacs/")
+    (synopsis
+      "Easily find files related to the current one")
+    (description
+      "Documentation at https://melpa.org/#/related-files")
     (license #f)))
 
 (define-public emacs-remark-mode
@@ -122341,6 +122480,28 @@
       "Youdao Dictionary interface for Emacs")
     (description
       "Documentation at https://melpa.org/#/youdao-dictionary")
+    (license #f)))
+
+(define-public emacs-youtube-sub-extractor
+  (package
+    (name "emacs-youtube-sub-extractor")
+    (version "20221104.239")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/agzam/youtube-sub-extractor.el.git")
+               (commit
+                 "ff9efa80674a6cadd8fd12f41b8223a8ceea0a61")))
+        (sha256
+          (base32
+            "0wdzsp10ib6j1bi93mbihhlpr5grp8wvg6f7wka5digsdns86k17"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/agzam/youtube-sub-extractor.el")
+    (synopsis "Extract YouTube video subtitles")
+    (description
+      "Documentation at https://melpa.org/#/youtube-sub-extractor")
     (license #f)))
 
 (define-public emacs-ytdious
