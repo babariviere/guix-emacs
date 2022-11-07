@@ -8419,17 +8419,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20221105.2231")
+    (version "20221106.2238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "1a38ea7ed373d251a57de6e989afc22640aaa895")))
+                 "032ddf33799dd0a2c89d1a3e9e04dc3cdc13320c")))
         (sha256
           (base32
-            "1lvs7w17b6hvg4i76mabiw6hdn1xs7xn5pmp1hvnyiggncfxmbp1"))))
+            "19y7sc7d9qb926b5jv2l2jwhsgl3wm6php30w2r9jh5gspmh0ck7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -21948,7 +21948,7 @@
 (define-public emacs-dir-treeview-themes
   (package
     (name "emacs-dir-treeview-themes")
-    (version "20221103.37")
+    (version "20221106.2133")
     (source
       (origin
         (method git-fetch)
@@ -24178,17 +24178,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221104.409")
+    (version "20221107.225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "1cd3d1c8e16d00ba0bff3cbd1b28adb0531cc500")))
+                 "4729f2babbbd6a7ab02ee8f21290ae2625cb9b72")))
         (sha256
           (base32
-            "1gkpcnij9aisqy2y6vfbrhcwwjd45qc45qsw0zry4by6zlkwiip6"))))
+            "08ha06irkzlby6ds5pvbclffh9zk93nsvb24w1gijdq679m5whgr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -26256,17 +26256,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20221031.547")
+    (version "20221107.300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "bd1d9c37542e94e2ffa69d8e73df11e60350a0f6")))
+                 "3352e487809dda4a0366314e30c9efa431b61f79")))
         (sha256
           (base32
-            "1hf1yhzni3l66610zsvv6nk4nwaaiklm6whskskxa9qqzwwh6d11"))))
+            "1v8x649r9b0ihnhddkkfb8ck21z2hr3swgczwgzwdk0ys6pl89my"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -73297,17 +73297,17 @@
 (define-public emacs-moe-theme
   (package
     (name "emacs-moe-theme")
-    (version "20220707.1110")
+    (version "20221107.255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kuanyui/moe-theme.el.git")
                (commit
-                 "786c5f9aefa38b36f6bee0aa56aaa8da00fa0924")))
+                 "b7960f079e6f2b82468b4ca2afd4edf8bbdb6fdb")))
         (sha256
           (base32
-            "14yhw72d7x5q8si3m8lc0ycfi1l8zmdi1vrllq8ikx0bcnq2i9wm"))))
+            "1g8n3k5dsaib17jksbbbyg7sm82fskxgb6zv8jysrj4zv3yll7h3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kuanyui/moe-theme.el")
@@ -95157,17 +95157,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20221105.2146")
+    (version "20221107.41")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "e33d6c4829e43a8b88a4d41f2140aa232100b6c5")))
+                 "16f7c3cf0736a65d8af0c8ba8396343dbd17e368")))
         (sha256
           (base32
-            "0v8w4rrz4m79v65fxq52656j6r8cjidff6w2dy0ghw86fywrw3kj"))))
+            "06nmy5z13pwnxx0nm1xh6573s5i33xqydldpy8ky5ny360g3n5nr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
