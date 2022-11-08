@@ -16386,17 +16386,17 @@
 (define-public emacs-compiler-explorer
   (package
     (name "emacs-compiler-explorer")
-    (version "20220807.1136")
+    (version "20221108.825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mkcms/compiler-explorer.el.git")
                (commit
-                 "04da0fd822d7e9eca82c993c99f6318df824b652")))
+                 "36a2cbf0863d4563096546c38ff26db3d7a3e18c")))
         (sha256
           (base32
-            "0f9lmwjh644cnifk8wmsv36rwi3zvc8x1g9sm0rqh0mq4fxbgcka"))))
+            "0529mwqp5p0lca010dxvjs1ka9fjbywpl0yii71wqc6rbc1kblvi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -57306,17 +57306,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20220609.1232")
+    (version "20221108.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "9bc7697406f719258d93835df3c1761efbfecaa7")))
+                 "8933ab84f9713b2b7b49c953cb0c23e3918b6c89")))
         (sha256
           (base32
-            "1d1f7kx0fw632js7qd1sra5wbpwyamcqs5wpzhyynmr5ybb0vyl7"))))
+            "0xj6vq1n4galv9q0p61klvk0jz0wwy73vghrbsznnar6fh749842"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -67908,17 +67908,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20221107.1539")
+    (version "20221108.1242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "1cd9e746789ba3bd9a838bb52ea43026b092a103")))
+                 "cc6c51b1e7887736c08260dbbcd28215c019a67a")))
         (sha256
           (base32
-            "0awk0k3rfcsn8k3ryg4sldsg0a29bxy6yhxdjxy3i4ly8w3psv46"))))
+            "1cq730i2nnj1xyxr2f9kc0y2w7abmnhn6ga05f57wzy2bnx5vhi5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -82562,17 +82562,17 @@
 (define-public emacs-org-latex-impatient
   (package
     (name "emacs-org-latex-impatient")
-    (version "20210409.2251")
+    (version "20221108.752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yangsheng6810/org-latex-impatient.git")
                (commit
-                 "39f22dc98cb8268af67c6df71778ec5784d2b683")))
+                 "2074d32ea0be80ac90ead79c3178692da67ef181")))
         (sha256
           (base32
-            "14rjgdl941kja3hndc55q3c65fi7plviirxihffkw498h0vkbyhs"))))
+            "1dc31g0bka7g8pnkh3ix8rdw8s0rr9ghjzfvzzjz2jw1pfid1xr5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-posframe emacs-dash))
