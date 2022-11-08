@@ -36301,20 +36301,19 @@
 (define-public emacs-filetree
   (package
     (name "emacs-filetree")
-    (version "20220312.1650")
+    (version "20221108.236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knpatel401/filetree.git")
                (commit
-                 "9125e5b7ebbb99b8c007018fcfd5034e7ac6630d")))
+                 "1c48ef63a639bfe1ae4d5095725ef88a3f2c590d")))
         (sha256
           (base32
-            "1gwx52498q6yg8vyfdw4mrxjj49cbcaf9r95rl2dcms9rb9s5rqv"))))
+            "1y20zz6n72g4bqlfxfjlc7zgpf2qpd7q6qn13bvrn47104v9qjli"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-dash emacs-helm emacs-transient))
+    (propagated-inputs (list emacs-dash emacs-helm))
     (home-page
       "https://github.com/knpatel401/filetree")
     (synopsis
@@ -44617,17 +44616,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20221101.2237")
+    (version "20221106.1128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "2a5815fee1ed091751b8bbfa242f7a78d7e5e039")))
+                 "161ab485209ecd0f304e16ca95f8a145327e7ffe")))
         (sha256
           (base32
-            "0pcmcmcgd1zwxqafbhlpnc4qcd0r8xhj138m48maw91brap97h1q"))))
+            "0dm68s284ybcqr626d2fhfc6icyb1c0yrbmmdbwr0vdlc0zv1iha"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -66973,17 +66972,17 @@
 (define-public emacs-litex-mode
   (package
     (name "emacs-litex-mode")
-    (version "20221023.2254")
+    (version "20221108.300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Atreyagaurav/litex-mode.git")
                (commit
-                 "8141679de6779b13d1ee50102f43f8637ce8243d")))
+                 "72e20233db66cb37306bdc066c68e6d7086ab3c4")))
         (sha256
           (base32
-            "0dyrf3bz17zj4h814wmpsppb5m2bwr4s0nrph1zqamffq35mdsga"))))
+            "017lqavwks3f0q71aw0mw45k79d0ydjfdn2l9i66bmvdms5bjih5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-units-mode))
     (home-page
@@ -96420,17 +96419,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20221107.1233")
+    (version "20221107.1846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "3b92a5bfcb42334b53a591d87967cb600e5b8a33")))
+                 "74999273195dfeed98bfbe63114df1002e53eee6")))
         (sha256
           (base32
-            "1f7k8i10mvk9r7rgp9kv62ps9rjiffapy8235nyq9q8dx0q66gwg"))))
+            "0rsnyg8y5zzhmfpl4qk47jvcrddzxhg0s43d2jhf8x60fjzz17l7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -99629,17 +99628,17 @@
 (define-public emacs-robe
   (package
     (name "emacs-robe")
-    (version "20221106.140")
+    (version "20221108.40")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/robe.git")
                (commit
-                 "a4085d7329d771b5cba02c8fe9bca2622ea31ed7")))
+                 "9211e329c717a7c63ef1347e583274c1fd1e019a")))
         (sha256
           (base32
-            "1isd9x3xl3skkl8227q8kgj3p985hyp4bmsia1lj1jv98xlns6a9"))))
+            "1d3psvi6x9pizchx39hfnfma9033blns6j06b32109798mqddk8n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inf-ruby))
     (arguments '(#:files ("*robe.el" "lib")))
@@ -110668,17 +110667,17 @@
 (define-public emacs-tao-theme
   (package
     (name "emacs-tao-theme")
-    (version "20220414.354")
+    (version "20221108.9")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/11111000000/tao-theme-emacs.git")
                (commit
-                 "d6fe980783e22df310df1ae51ac249c28c83ac53")))
+                 "632e735c70b16828b3f50bd415b5e218e9780ead")))
         (sha256
           (base32
-            "0pi1rbz6fdqy7l39ymqa509n8f16lfgwv9b9995g29xp0sil35hm"))))
+            "1h1lskg0nysp3xpzpqn90p05fzvix1dpws5fmrklfbd7m7nzbn2a"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/11111000000/tao-theme-emacs")
@@ -118261,7 +118260,7 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20221107.2347")
+    (version "20221108.22")
     (source
       (origin
         (method git-fetch)
