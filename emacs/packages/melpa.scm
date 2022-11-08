@@ -16504,17 +16504,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20220830.1547")
+    (version "20221107.1742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "cb9544e8f7d6c642b7fd8c1ecc2cf4fc7370c352")))
+                 "2af92fead0e24b9cae7d0c5b446177694fc8a77e")))
         (sha256
           (base32
-            "0cix7xlpz1jq5xpih5v706b2c4mf2769bpkix8fr9pxyc6kf8ra4"))))
+            "1khb36k2pqd9ych73lxwbg6r7r1h7krcybb6gx0m8h6lj1wzmkrz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -21191,7 +21191,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221105.1328")
+    (version "20221107.1803")
     (source
       (origin
         (method url-fetch)
@@ -21201,7 +21201,7 @@
                ".tar"))
         (sha256
           (base32
-            "1khs0jvzhd6w4i4c7afrk83dvssk9l6b4is3fpnnjrr0dbkas7m9"))))
+            "11yf8j5aylgpkn13dm86nq2kpjr0jb53nyj6lpr0ajbh7k8cb5gc"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -25685,17 +25685,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20221014.815")
+    (version "20221107.2019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "dd055e0657ddee2ea9e5f00b72334faaa8b0c829")))
+                 "6c09bc39b4a7ae70de5c1ce912d693e8b6f5f8d1")))
         (sha256
           (base32
-            "1184i9xhx58y06c5gx9qjsn5qch7vvib1rwnn0j4163mlji6fsfm"))))
+            "1rd7jjr9wlj7b0d2386zvrlgz96316bg7h9zhk81xal5zvjksdmm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -46859,7 +46859,7 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221107.1456")
+    (version "20221107.1605")
     (source
       (origin
         (method git-fetch)
@@ -49591,17 +49591,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221106.2010")
+    (version "20221107.1658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "ce00578ea1aa11692c1e05d1f5005dbdc856db87")))
+                 "8ed0ab7762ad76da02d8832aa18d03e1288ea6d5")))
         (sha256
           (base32
-            "04nlw65s04y198v0phzinvnspklkx8cyc566dgq0aml8xhcmh0hz"))))
+            "0vhmh2iyv079sj84m17rhj8v498kqiywszds3z3n3hyzgd6cqpx4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -62639,17 +62639,17 @@
 (define-public emacs-just-mode
   (package
     (name "emacs-just-mode")
-    (version "20220401.1814")
+    (version "20221107.1633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leon-barrett/just-mode.el.git")
                (commit
-                 "35f1bd4748cd3e960e6930b34310e5506212b304")))
+                 "45a221063093f3461816913acdaba898e62b42ce")))
         (sha256
           (base32
-            "19piyjnkvy8g87s7gyn07wh67kdygxksv3k7xiq49wb3rpqdrr0g"))))
+            "08n2z3822g5gq2zdbj2nzmd5y4xwa8w4bpgcgdjffnc9casnjdwm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/leon-barrett/just-mode.el")
@@ -68272,17 +68272,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221104.1904")
+    (version "20221107.1917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "59eeba73a6e1064d10efefa9a8ba0de20c938591")))
+                 "1c92e7fef392c9e824ba03cc447739233f2280a0")))
         (sha256
           (base32
-            "1a1432324b7iiyv80z1m5ww8x775qpv56s17n699hp0zr1q3im67"))))
+            "08s4ri9vy4l0mab6gkfs670cxzfk3fsp44qxsacs53yprcb6i3xn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -90142,17 +90142,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20221105.2335")
+    (version "20221107.1615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "2bc4db007c4e6ccbc2d2e6e74fb54a1af0ead054")))
+                 "bbed922fa9b9ab36aeffcbdb85c434c4a6c41450")))
         (sha256
           (base32
-            "00l11mgaj14q3k07w2d6j7wwqc4pzp24qpw2jc1kdj0d1czgvh1z"))))
+            "195jfmv47hghg5dmzg0csssaiw829z2wcx2awnb3mvy6wiwbv01v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -96420,17 +96420,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20221103.1411")
+    (version "20221107.1233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "d1caf10d1358a593950d9af65222a1f6f11a5d4c")))
+                 "3b92a5bfcb42334b53a591d87967cb600e5b8a33")))
         (sha256
           (base32
-            "1a1qylfc5ifxbx65jxsnsqv88ml9j9y470r5ib58xb3fl6sph1ap"))))
+            "1f7k8i10mvk9r7rgp9kv62ps9rjiffapy8235nyq9q8dx0q66gwg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -108111,17 +108111,17 @@
 (define-public emacs-starlit-theme
   (package
     (name "emacs-starlit-theme")
-    (version "20221026.2317")
+    (version "20221107.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SFTtech/starlit-emacs.git")
                (commit
-                 "e9d91d91627f67121a2650b407e0d2ebdcb1a111")))
+                 "5f0e9deecfa95e241e4b3957e976b2471ba219f1")))
         (sha256
           (base32
-            "12hyvz72c78x2wa9ch47jwlx1xyrnysmnii77jqdgxkwsr3ac7d9"))))
+            "1ly7c72yhacbcapvfilm7vrfdm6sxkfyf73cxnzixd7jyjymfzv1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/SFTtech/starlit-emacs")
@@ -113922,17 +113922,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20221103.2102")
+    (version "20221107.2105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "3b525ea26d2554ddffb11d1f44e0d76c11a1dde9")))
+                 "b19060f25e55514f3d798d9f5af2dcd5b94a6026")))
         (sha256
           (base32
-            "0m9za2ydqdrrrymbk5ay7sks5b259kmkdbin8cfhigz444ra0qgp"))))
+            "12qq84hnilpgw5rvvbcabi7cj42n73abk07iqaf89b78qkl15vr3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -118261,17 +118261,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20220902.545")
+    (version "20221107.2347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "8fcf1e4e331180fe964699e2a6a3158e1ec562d2")))
+                 "1ee184aab337b662f9725378bd49bf3a29dd984c")))
         (sha256
           (base32
-            "1688cczdinxyg71150a6zqrx8m7ak42i48bdzf88y7zy6xbxby2d"))))
+            "017fxa7agwvf0r29mm479f7pppb0rmfix3ynbrja6sr2gjp1mfaz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
