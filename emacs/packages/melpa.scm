@@ -1857,17 +1857,17 @@
 (define-public emacs-affe
   (package
     (name "emacs-affe")
-    (version "20221011.1135")
+    (version "20221109.841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/affe.git")
                (commit
-                 "56aa6b3dc866872f0f3544cc2b4d616e28e6eda8")))
+                 "ff75fbe6f6b280815c33ed2d6694bf0ee74dd1fe")))
         (sha256
           (base32
-            "08a9sm2n8iw80bgk82gdr39lzsrn346f87qpqyamm1z33rp6f57b"))))
+            "01cza8ffx6djh1mign5bzkdvmcjrd69g3hwc3s0grpcidbqi0qic"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page "https://github.com/minad/affe")
@@ -10247,17 +10247,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221022.1804")
+    (version "20221109.839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "df9067ca3b9e80f53c31ff425561710a23e74721")))
+                 "4b32036a6c667b445dcc001fd70a01eee8baa924")))
         (sha256
           (base32
-            "0isls22xi86m0pbjg42ml2ifhbdq7zf781zk6izqkp0vrg9irarx"))))
+            "0kcnyzksj8yglk67g1130wxzscgipm7cz2hs8mvdqpcbz4i38jny"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -16663,17 +16663,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221020.2154")
+    (version "20221109.836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "3226c1a01e0a2a4352b2c885b8f4eb22610d99af")))
+                 "6d1342002bd82debe46ea88e9f49d15aa9a0bb49")))
         (sha256
           (base32
-            "0cx03ia2wvfhacj7lq8gsqv8axjs936gd2gjndw1ilwyzmrq0lnd"))))
+            "0bf3klk1cva3kii8fl15fi8rdskh36an26fg2z2n5hhzldznyp4q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16806,17 +16806,17 @@
 (define-public emacs-consult-flycheck
   (package
     (name "emacs-consult-flycheck")
-    (version "20221002.1838")
+    (version "20221109.842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult-flycheck.git")
                (commit
-                 "1d43437c1f8305051954b972aa9dd18413b3379b")))
+                 "7a10be316d728d3384fa25574a30857c53fb3655")))
         (sha256
           (base32
-            "0kq5sh2dxavsxhgahdlz3fd4wb05z9swgz1f1p7c8zrsvd5jf2kn"))))
+            "1xg46wynfabk4pd7z7lk7d8x8rwlqk8dxjg4aki5dv6il1swg4cs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-flycheck))
@@ -32726,17 +32726,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221105.18")
+    (version "20221109.1218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "c59f2c09c63de5f001c19f8513a19dfc72858e75")))
+                 "a9a0e002053864df4cde0d49e7d277ab52853d5d")))
         (sha256
           (base32
-            "0pchhziifbzjfhs5zszkaqbwxmsdm8rgcv0m7nyca1zr0409wmx6"))))
+            "0lz19byvjpfi39bdmb8q8fv7c5yakiy71h1xg5rmwr34d723zjdd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -68271,17 +68271,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221109.531")
+    (version "20221109.1221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "48e43d0d7ff99bd2adf0b58eb2e1e903cc337ed8")))
+                 "31d6fbc3da93e1fe4542a96001b2eca2c669e7f7")))
         (sha256
           (base32
-            "15kzmygvkx8l4mq1k98fg3bai4zxngxlfg9n9bxxl7j022xanzyr"))))
+            "0j6avqkjkvfkmxgjhbxbdi9w2lciqjpbwlr0pvx3p626j21gqsi6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -112606,17 +112606,17 @@
 (define-public emacs-tldr
   (package
     (name "emacs-tldr")
-    (version "20221109.419")
+    (version "20221109.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kuanyui/tldr.el.git")
                (commit
-                 "89a891f312da422918796996b31200410c4a9b92")))
+                 "2b5d53571bd30b75d4f5a642aa129055803a6bfb")))
         (sha256
           (base32
-            "15lqryha9ilrbydnawl907i638fjy15322qzzbsky8yk4rs36isc"))))
+            "0i58abjzxi6qkfclwhphp7ljdc4sx80cj7izcq76glkpkif6sysn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/kuanyui/tldr.el")
     (synopsis "tldr client for Emacs")
@@ -112901,19 +112901,20 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20220928.1823")
+    (version "20221003.1909")
     (source
       (origin
-        (method url-fetch)
-        (uri (string-append
-               "https://melpa.org/packages/tok-theme-"
-               version
-               ".el"))
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/topikettunen/tok-theme.git")
+               (commit
+                 "8c618b7c75b4c257f91b43d0d057272f57bed69d")))
         (sha256
           (base32
-            "145cwza4awczl24s73l3ihk6xr33l6qli1cplf4iwrvjp0v5abqi"))))
+            "16qjkqlx746p1vm7va02mid055x9vav98dpp9x1ffdyxlcc97mys"))))
     (build-system melpa-build-system)
-    (home-page "https://git.sr.ht/~tok/tok-theme")
+    (home-page
+      "https://github.com/topikettunen/tok-theme")
     (synopsis "Comfy dark monochromatic theme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
