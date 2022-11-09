@@ -16924,17 +16924,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221105.2242")
+    (version "20221108.1835")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "b2d6479715c89967d904d2577022ed6089aabd66")))
+                 "92f54a5fe345d390a11acf9008661fe73ae28539")))
         (sha256
           (base32
-            "14sbbisgwcmb5zr5z6k53kc057zl45hcynj4j60il4ddimgzky24"))))
+            "0rc5cj6x4basnlvrndnwph0bk6drk07mh8chhrrh4pqlw9nv089f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -21191,7 +21191,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221107.1803")
+    (version "20221108.1827")
     (source
       (origin
         (method url-fetch)
@@ -21201,7 +21201,7 @@
                ".tar"))
         (sha256
           (base32
-            "11yf8j5aylgpkn13dm86nq2kpjr0jb53nyj6lpr0ajbh7k8cb5gc"))))
+            "0qffvwv0i7xlgrj07d858im6q81jbk5jd7a0s01knhkq63d632bc"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -24178,17 +24178,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221107.225")
+    (version "20221108.1426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "4729f2babbbd6a7ab02ee8f21290ae2625cb9b72")))
+                 "28e6a3698569b3e78c2515873550f97f0bc93aef")))
         (sha256
           (base32
-            "08ha06irkzlby6ds5pvbclffh9zk93nsvb24w1gijdq679m5whgr"))))
+            "1r3mqkz1lwp5kc8gmjj1ldbdsqyyqqjnzx3mz419z5g1gsyg9vfc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -27488,17 +27488,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221101.2209")
+    (version "20221108.2153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "dc3f73c38a31567fce8db529da238151aa44c307")))
+                 "5d7986c65b57b83c57b4839e990444a1a5abebef")))
         (sha256
           (base32
-            "195dbpjw9gjgphpksb3j85ljaz3w0m03i2qp2vxbbxfb8x829hvn"))))
+            "1sz83fsm6dya5icfzqddw3kqsblkjkivgndyy4jv94hm8jxp8882"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29536,17 +29536,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20221023.1837")
+    (version "20221108.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "9796324be854889d32b6c7e301c9274e9dd50146")))
+                 "09a7d69b01816f5b3a190d50d6091425863ab167")))
         (sha256
           (base32
-            "1q0hs9i4vnhryar8cqg7pjgsa7msqn7fgny5s7lszm45rq3m2fhj"))))
+            "02nlqadgdkmaphjq92k719ykdwziqh4yykkgq416073n15y7p0ip"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -32121,17 +32121,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20221105.1918")
+    (version "20221108.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "97911d3d645da5989ce9bd33610194c2141921b6")))
+                 "7ec23bf341c23445c98f5e1faf6a1369b92f2e9f")))
         (sha256
           (base32
-            "1b1shh56jv3wzwhyqzshlg9wlhxs0vzi40h5gpn8lvv12qbp1hzw"))))
+            "0g0gp2f5a1p4vh60yispyq4ilq744j5qa3bds362f9cwcf32q7cw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42841,17 +42841,17 @@
 (define-public emacs-fuel
   (package
     (name "emacs-fuel")
-    (version "20211221.2127")
+    (version "20221108.1757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/factor/factor.git")
                (commit
-                 "f93602c02915dc97014f77ffbdef778376002996")))
+                 "8c9bb02fe3c958d657857117825a83548cdfe2f0")))
         (sha256
           (base32
-            "0c8315a1hdvlbmz268hr2sdmswj34yha7y23ashv4l6n11dan5xs"))))
+            "1gjbz95nzv348qnj76pxgmc3515sv4zw59axkhbp841cfjkd091g"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("misc/fuel/*.el")))
     (home-page "unspecified")
@@ -53989,17 +53989,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20221024.134")
+    (version "20221108.2042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "60c1cd49f72e930b8796e5644bd222e8fc466740")))
+                 "dc4e356b55212f67c7022f3aec4f5986a23d5d5e")))
         (sha256
           (base32
-            "076i46567ck2l991py3vq9w1qyxf3vp16kv8sw95lfabxc4cdh05"))))
+            "18dy3nxdnxz3wyr4hza9jcv4agsyyqf82jp6jdqcj13kncfl9gn5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67750,17 +67750,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221106.941")
+    (version "20221108.1534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "c78c95f6f9624f45839d6528a76bb3fe753e2c7b")))
+                 "581999e0a6895d5bc767693be660fdb140eecece")))
         (sha256
           (base32
-            "0fdvaivy66089bminxw6yb4fy4sya9fjrlv5g4w9261ch10zg8ja"))))
+            "1lqjwf4sramn8mqaa61psn34l84a8np5b8niailkq230lzac4srs"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
