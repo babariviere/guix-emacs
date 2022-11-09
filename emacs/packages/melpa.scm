@@ -46858,17 +46858,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221107.1605")
+    (version "20221109.620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "d2299f0a926d7765ce05e0eff37bedc0e4be9239")))
+                 "ff9a7352654b434169ad829d086e2968f96a5ed4")))
         (sha256
           (base32
-            "1n9fgm8p5qja2zb7a2zha36q8kyg20zprnj7hlp86i5r08ib1a3w"))))
+            "0bdmjdnyrfdf82g81w68lqivvavdvzyaama6npp7kvnzv2zj7ha0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -46903,17 +46903,17 @@
 (define-public emacs-god-mode
   (package
     (name "emacs-god-mode")
-    (version "20221104.448")
+    (version "20221109.707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/god-mode.git")
                (commit
-                 "c4aea10fb278d5ddbdd047c211444eb1b0b5da60")))
+                 "49c1a1753188e5b2788b8c1f1f9fbd1264460bab")))
         (sha256
           (base32
-            "1ydk1ihspmciyd0c9gk56m5qqdz2z5yzf6q6nv91qadrcm2fq0qj"))))
+            "0h1kfvr4zahk8ihvri1r16b2nkg3dg3524ic64c6w0jing2gr37c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/god-mode")
@@ -49590,17 +49590,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221107.1658")
+    (version "20221109.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "8ed0ab7762ad76da02d8832aa18d03e1288ea6d5")))
+                 "a41d4ae4b6ebe91a3b707ae0defe6dbed73ef2e6")))
         (sha256
           (base32
-            "0vhmh2iyv079sj84m17rhj8v498kqiywszds3z3n3hyzgd6cqpx4"))))
+            "0rbmlp3hjv7skm44216r6vl7sjibn3xw05wlwnqxkz4626hzq4jn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50398,17 +50398,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221106.1821")
+    (version "20221109.602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "ce00578ea1aa11692c1e05d1f5005dbdc856db87")))
+                 "a41d4ae4b6ebe91a3b707ae0defe6dbed73ef2e6")))
         (sha256
           (base32
-            "04nlw65s04y198v0phzinvnspklkx8cyc566dgq0aml8xhcmh0hz"))))
+            "0rbmlp3hjv7skm44216r6vl7sjibn3xw05wlwnqxkz4626hzq4jn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -68271,17 +68271,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221107.1917")
+    (version "20221109.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "1c92e7fef392c9e824ba03cc447739233f2280a0")))
+                 "48e43d0d7ff99bd2adf0b58eb2e1e903cc337ed8")))
         (sha256
           (base32
-            "08s4ri9vy4l0mab6gkfs670cxzfk3fsp44qxsacs53yprcb6i3xn"))))
+            "15kzmygvkx8l4mq1k98fg3bai4zxngxlfg9n9bxxl7j022xanzyr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -76745,17 +76745,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20221031.1601")
+    (version "20221109.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "b76c8477941429aae6ebe42448f1c75d28bc842f")))
+                 "127d76202f10973e5af760fdb7804cc55cf51152")))
         (sha256
           (base32
-            "0gsqclywm8vhpzx7i8la57h7yj1wpj2aq15hp8f2ap832xi2vfp3"))))
+            "1vaw5mc551ikgfqrww2v4njh16nxka9jacymga3v1mhzfw5gmqjk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (arguments
@@ -104962,17 +104962,17 @@
 (define-public emacs-sly
   (package
     (name "emacs-sly")
-    (version "20221018.1049")
+    (version "20221108.2234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joaotavora/sly.git")
                (commit
-                 "ea83bbf0b3e1a20ab172fde42a196b7b8cf0812c")))
+                 "992e3f3c1a599a8a10af12323d547b35ce70362c")))
         (sha256
           (base32
-            "081rpyvzxma5ms2am9mpkwbigbhqbgkxgrclj1fhccv5xpp163wp"))))
+            "0krbfrb304b1v3ps2kiy60bb5d7iw9xx2k1qdxc7x4m6smimbrhi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -112606,17 +112606,17 @@
 (define-public emacs-tldr
   (package
     (name "emacs-tldr")
-    (version "20210921.1715")
+    (version "20221109.419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kuanyui/tldr.el.git")
                (commit
-                 "d3fd2a809a266c005915026799121c78e8b358f0")))
+                 "89a891f312da422918796996b31200410c4a9b92")))
         (sha256
           (base32
-            "0jbyz1anxq2ql8351v97dw9l70akys7mvh5m8q35nska2sgbzkax"))))
+            "15lqryha9ilrbydnawl907i638fjy15322qzzbsky8yk4rs36isc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/kuanyui/tldr.el")
     (synopsis "tldr client for Emacs")
