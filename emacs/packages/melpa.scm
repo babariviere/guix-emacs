@@ -4195,17 +4195,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20221102.500")
+    (version "20221110.25")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "1c850acd0e0e4c8865b687c9a70e9cba6a0222a0")))
+                 "4d4320fd80946c3e810e4ad5ca02ffa4d2089f15")))
         (sha256
           (base32
-            "1yz41glim9ync4cmwnclr1zfrql476qsimnw597dd28hgzjx7979"))))
+            "1r312hrrb7rrxf85ijj16p8dsml55054v1p320srqwg69imyr728"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -5627,30 +5627,6 @@
       "Automatically disassemble LLVM bitcode")
     (description
       "Documentation at https://melpa.org/#/autodisass-llvm-bitcode")
-    (license #f)))
-
-(define-public emacs-autotest
-  (package
-    (name "emacs-autotest")
-    (version "20190331.2230")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/zenspider/elisp.git")
-               (commit
-                 "842ae4df222bbd6596068814ac1b1e505c2a6b7a")))
-        (sha256
-          (base32
-            "19j76bgv5hca8i9385f1s66zj31y70fgppmvxdqrws4265zqc11d"))))
-    (build-system melpa-build-system)
-    (arguments '(#:files ("autotest.el")))
-    (home-page
-      "https://github.com/zenspider/elisp/blob/master/autotest.el")
-    (synopsis
-      "ZenTest's autotest integration with emacs.")
-    (description
-      "Documentation at https://melpa.org/#/autotest")
     (license #f)))
 
 (define-public emacs-autotetris-mode
@@ -12023,17 +11999,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221028.1025")
+    (version "20221109.2212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "e9324acf81391f089932c657b70031ae3c3d0824")))
+                 "5064287ba71c4c8ede169b0f561d707f4a365c55")))
         (sha256
           (base32
-            "1k05wzi2x9s36pw7hjhj6v5xjsdirsi9mz632ra1rgh6qqj41nzg"))))
+            "01r53aclh5wf70l6kpzmnx64jm6ixx6x9c390hbdvjbif6mp8xbv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -32726,17 +32702,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221109.1218")
+    (version "20221109.2247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "a9a0e002053864df4cde0d49e7d277ab52853d5d")))
+                 "7c3343cef739ae223eb3ca991897d97f2d017462")))
         (sha256
           (base32
-            "0lz19byvjpfi39bdmb8q8fv7c5yakiy71h1xg5rmwr34d723zjdd"))))
+            "1wcm5v6rfvql04jkwyc1r87kj0pf683yj10cb5kbg8ijwzyqca4j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -45019,7 +44995,7 @@
 (define-public emacs-git-timemachine
   (package
     (name "emacs-git-timemachine")
-    (version "20220920.828")
+    (version "20221109.2051")
     (source
       (origin
         (method url-fetch)
@@ -45029,7 +45005,7 @@
                ".el"))
         (sha256
           (base32
-            "1bgkvrmzrrsfrqwhwq8v9ycycakbv48cam25q5drp1b8b4zx3grg"))))
+            "0rw6dpgs8zwa0ngss9zq6r5l0lpl844sbk6p9yr0pn6ykwfxiw4a"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/pidu/git-timemachine")
@@ -80517,17 +80493,17 @@
 (define-public emacs-opam-switch-mode
   (package
     (name "emacs-opam-switch-mode")
-    (version "20221101.1944")
+    (version "20221109.2306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/opam-switch-mode.git")
                (commit
-                 "5f3d2102ae6e38a4220e7c7c2d15acc795b94866")))
+                 "dea35145a39b80b7d1df217395928d76abab0b13")))
         (sha256
           (base32
-            "1y4l56c5swrng5ig4kz31p88xm44ag3lycd06c9x10zdv5acrzqk"))))
+            "196x7nk7669xpcadl7dcs2mjqc9b5sml2kpqsb3dqw5b5rww82ih"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ProofGeneral/opam-switch-mode")
@@ -99675,17 +99651,17 @@
 (define-public emacs-robot-mode
   (package
     (name "emacs-robot-mode")
-    (version "20210425.1925")
+    (version "20221109.1630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kopoli/robot-mode.git")
                (commit
-                 "e7e9c4d4750d048ad771fa735621ad813fa9c128")))
+                 "fb9be47a1d4e57a80ae2c0d4dff3eba2fe29ebdc")))
         (sha256
           (base32
-            "127lydk66n90ih39q8gxzb44rss2xllb7bn3ygxrf5m5vvl9w5rj"))))
+            "10i4lwjf60ms3dj8s7k9c0vb24rhszskhciz9lijphcdh8k622hz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kopoli/robot-mode")
@@ -110460,17 +110436,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20220924.1805")
+    (version "20221110.133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "150c9dd740a2482c66b1e2687f19f6c46504efd2")))
+                 "0f9726ae80384eb51d506cd5bee4c40430bd0439")))
         (sha256
           (base32
-            "0y59jm4ji6j1d4rrjjr8ajhym1xmlc7pb93fpmdfwqr06p11zndv"))))
+            "01vfqkdb4y8gn0xcfic29asx4jzifq8dkgybg51sh53vrwkndhxp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -112806,29 +112782,6 @@
       "Documentation at https://melpa.org/#/togetherly")
     (license #f)))
 
-(define-public emacs-toggle
-  (package
-    (name "emacs-toggle")
-    (version "20180316.3")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/zenspider/elisp.git")
-               (commit
-                 "842ae4df222bbd6596068814ac1b1e505c2a6b7a")))
-        (sha256
-          (base32
-            "19j76bgv5hca8i9385f1s66zj31y70fgppmvxdqrws4265zqc11d"))))
-    (build-system melpa-build-system)
-    (arguments '(#:files ("toggle.el")))
-    (home-page "unspecified")
-    (synopsis
-      "quickly open corresponding file (eg test vs impl).")
-    (description
-      "Documentation at https://melpa.org/#/toggle")
-    (license #f)))
-
 (define-public emacs-toggle-quotes
   (package
     (name "emacs-toggle-quotes")
@@ -113584,17 +113537,17 @@
 (define-public emacs-transpose-frame
   (package
     (name "emacs-transpose-frame")
-    (version "20220913.1749")
+    (version "20221109.2053")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/transpose-frame.git")
                (commit
-                 "7b7f8a1582436749a57ebbba6ead716b5a0edddc")))
+                 "94c87794d53883a2358d13da264ad8dab9a52daa")))
         (sha256
           (base32
-            "0m9jmfwwhgkwxbq3y000ymx7parbgqr7gq3yjm2wh1ll747gv51y"))))
+            "106rxnzyd7rqfw885wx385wx0c2jqrfbh99rf16b7acxbwnskbvy"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -120512,7 +120465,7 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20220909.1548")
+    (version "20221109.1339")
     (source
       (origin
         (method url-fetch)
@@ -120522,7 +120475,7 @@
                ".el"))
         (sha256
           (base32
-            "1wdfmkxcvrgn6smzm2mn8lm1n12vbjaw2mwki3xhnw6338r6pp4g"))))
+            "1j72figylal4f208rh8hcjhza0pgvn47wz7x9sr8xmvyqb3gm47h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
