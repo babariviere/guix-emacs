@@ -21167,7 +21167,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221108.1827")
+    (version "20221110.1537")
     (source
       (origin
         (method url-fetch)
@@ -21177,7 +21177,7 @@
                ".tar"))
         (sha256
           (base32
-            "0qffvwv0i7xlgrj07d858im6q81jbk5jd7a0s01knhkq63d632bc"))))
+            "1qn51rak1d9n0crk6a1f7p5lpiqc0j652zzp1c6b6wgmiiysq77p"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -37573,17 +37573,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20221104.549")
+    (version "20221110.824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "5f31d75af803e541684eb606fa9831106b02039c")))
+                 "15559e8243b81d63c63f62a42d251f2db9e4995d")))
         (sha256
           (base32
-            "038qp162fzdlfsdxxgm9v3r2ijbhm9cs7rkg26vn4355rs1jgajh"))))
+            "1pn5mqjd76898n9d60ym1jklswnmficz9d1h5zcfjzs9hnq3np3x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -46834,17 +46834,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221109.620")
+    (version "20221110.812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "ff9a7352654b434169ad829d086e2968f96a5ed4")))
+                 "64eb2614c73e1b7dc24c17add536e46baa9a442b")))
         (sha256
           (base32
-            "0bdmjdnyrfdf82g81w68lqivvavdvzyaama6npp7kvnzv2zj7ha0"))))
+            "1316b368cd7z9c563lrfli48h1vdylg9yfn98pvcww0brw8njcyp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -47611,17 +47611,17 @@
 (define-public emacs-grails
   (package
     (name "emacs-grails")
-    (version "20220407.1847")
+    (version "20221110.929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lifeisfoo/emacs-grails.git")
                (commit
-                 "350869ecc4f429fc4e26f826d6050d068e724c5d")))
+                 "3019f86e555ee94388795a0475cfa213e3897bbb")))
         (sha256
           (base32
-            "1zw8hh97jlxjdgi5spsfd40qgahwbcca2cg2wbqyn1pgq4rjdx0i"))))
+            "17kl8fc1s72in3bq10mv25xrkvz3rx065fz0xq94q00wjwkmm5ry"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lifeisfoo/emacs-grails")
@@ -49566,17 +49566,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221109.554")
+    (version "20221109.1918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a41d4ae4b6ebe91a3b707ae0defe6dbed73ef2e6")))
+                 "720df76514104202f803c37d8935ea49fa2529e5")))
         (sha256
           (base32
-            "0rbmlp3hjv7skm44216r6vl7sjibn3xw05wlwnqxkz4626hzq4jn"))))
+            "0axp69fmfmn7dhjrf1y5z6a37fi5hbmmdsnc7wfg02f86p70jzp5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -107687,17 +107687,17 @@
 (define-public emacs-sqlite3
   (package
     (name "emacs-sqlite3")
-    (version "20220529.1106")
+    (version "20221110.1050")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pekingduck/emacs-sqlite3-api.git")
                (commit
-                 "2f6095201b1d943d92cc017e100eec571a8d2aab")))
+                 "108521be0242bedf232775a28728588da9699336")))
         (sha256
           (base32
-            "00kxjvfgw3qcy49l5qkkxar32m7kk25knc9kij7xr8fz8pqhr633"))))
+            "0xcybd9470lvlw3nwlnpz0s8nx1h2r1qfwcd1sqk65p8p3gi60q9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
