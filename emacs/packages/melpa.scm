@@ -2764,18 +2764,19 @@
 (define-public emacs-amread-mode
   (package
     (name "emacs-amread-mode")
-    (version "20221111.517")
+    (version "20221111.845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/amread-mode.git")
                (commit
-                 "1ca26183e69efb79c1af86c0d196dd5ede04090c")))
+                 "3ff235a6204e224d47cb0c99368e6a0f21bf8dce")))
         (sha256
           (base32
-            "08v1ps7nxa32i4w9fgbsww2azih669q4z76bf3gv8ycv1ab5b1gl"))))
+            "03q5rndj0ywkg3gq91rhmzwb71y2qd4yc4x5x6vsi8kfxmbv73bs"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-pyim))
     (home-page "https://repo.or.cz/amread-mode.git")
     (synopsis
       "A minor mode helper user speed-reading")
@@ -12422,17 +12423,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20221026.1325")
+    (version "20221111.1230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "bce7ad69e1a1947232de7368eb18e75bd159ba65")))
+                 "244501472ddf31c91cc374231849a05c86dfb1fb")))
         (sha256
           (base32
-            "1018bg47p3f8li2yp9n13yplrwhapxjab7hqdmvgjsns7iygc975"))))
+            "1051lqy1wbcmzdwmyqx0320mqrq64wrafk70dymyki2q9y291782"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -13724,17 +13725,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20220629.1215")
+    (version "20221111.1212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "95b36ec8e7935f96b2f3c6c9086d49cf4a72cbff")))
+                 "182c1cc6ebced5c161aa37d01142dfab7eb8e7b3")))
         (sha256
           (base32
-            "1mplrc84a5qd6cqv0kcqm13zdmvn71g5pmilhjdagn36dsb1vn16"))))
+            "0yi6i1ayfax5c1qmxx9xx318wg2ajp98k6r2rb8fwr8183flc993"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -21167,7 +21168,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221110.1537")
+    (version "20221111.1152")
     (source
       (origin
         (method url-fetch)
@@ -21177,7 +21178,7 @@
                ".tar"))
         (sha256
           (base32
-            "1qn51rak1d9n0crk6a1f7p5lpiqc0j652zzp1c6b6wgmiiysq77p"))))
+            "0xypvdrmyzpzv0sm45vg1dgi1qshs5d1qr7nn6psdrpaqx3mc7vy"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -24154,17 +24155,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221108.1426")
+    (version "20221111.711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "28e6a3698569b3e78c2515873550f97f0bc93aef")))
+                 "440fd160b4dff530465938bed40094a0d413fc11")))
         (sha256
           (base32
-            "1r3mqkz1lwp5kc8gmjj1ldbdsqyyqqjnzx3mz419z5g1gsyg9vfc"))))
+            "0ablv6fyqb6mzzk7iyx24nj5xmmmhw7kqmi2xldjv0a7aplmxbqr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -45978,17 +45979,17 @@
 (define-public emacs-gnuplot
   (package
     (name "emacs-gnuplot")
-    (version "20220913.1152")
+    (version "20221111.821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-gnuplot/gnuplot.git")
                (commit
-                 "f4202190d443fc0e70fee4640f78e5a62db9ed41")))
+                 "72e70e309978f48cf4724cd99e78d09331f7acee")))
         (sha256
           (base32
-            "0z8yrpprk2rj790q0238b23rwdfy4j1sw38xwmksyf60pl7aa0f7"))))
+            "0ms993dhrdnj1c4y3c02ls21myms43ndyrq3g2abzlr7n6jd60sn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -46834,17 +46835,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221110.1618")
+    (version "20221111.801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "92cdb7c878eec96531b900f01075f67b885e50e3")))
+                 "405cda34589ad76f006fe320478f0134cfcfbbb0")))
         (sha256
           (base32
-            "01dmc130hnfprdzw5clwhj3z8dagn3b5qjc6q15mlyxfay3n00lj"))))
+            "14p65srnd7wa9xcn85v8i552425dw983h54kzkl7nd26jjpidwa5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -57282,17 +57283,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221108.1159")
+    (version "20221111.1219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "8933ab84f9713b2b7b49c953cb0c23e3918b6c89")))
+                 "1dc558ad2423ba639fa0b0ee4aa88e208f26046b")))
         (sha256
           (base32
-            "0xj6vq1n4galv9q0p61klvk0jz0wwy73vghrbsznnar6fh749842"))))
+            "0zy113fwb849d7w8amxh4b9lkalwkhmvs1ld06w7sy60n75pi0xw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -75146,17 +75147,17 @@
 (define-public emacs-my-repo-pins
   (package
     (name "emacs-my-repo-pins")
-    (version "20220726.813")
+    (version "20221111.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/ninjatrappeur/my-repo-pins.git")
+               (url "https://github.com/NinjaTrappeur/my-repo-pins.git")
                (commit
-                 "f460f17c524db2c815966a0b1ffe86ac450d4908")))
+                 "98500ddde2d9c1e19ec319a7bab28bd2eb0dbcab")))
         (sha256
           (base32
-            "1ma1fgnka7v03jf0vn0fxn137k0gj4i9c58a34d7gqf6i2j7wajn"))))
+            "0gnqb1n1cxrbr3cfgnnjrzkq9pmrnn2zbrpig63p9vgffs3xr2hd"))))
     (build-system melpa-build-system)
     (home-page
       "https://alternativebit.fr/projects/my-repo-pins/")
@@ -89696,17 +89697,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221029.1055")
+    (version "20221111.756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "dc673a45d7d18ae3ddd4de35df3d476faa87b426")))
+                 "3e79c965063bc15d1e2ed9a1c152ba603b84e68a")))
         (sha256
           (base32
-            "10b76nz1fyf39ycqks4dx019gx704b693zpd8x8wqgzk4skr3930"))))
+            "1g3qh1xvdri2vp652jzihzvfnn39wbpy79sscaav09lkbc4phgb5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -101162,21 +101163,20 @@
 (define-public emacs-scad-mode
   (package
     (name "emacs-scad-mode")
-    (version "20200830.301")
+    (version "20221111.1325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/openscad/openscad.git")
+               (url "https://github.com/openscad/emacs-scad-mode.git")
                (commit
-                 "04aa887cd3e842fa7e117817c727c53ff3876d72")))
+                 "900ca6fc257ae522a991e71649d83166a98e9b27")))
         (sha256
           (base32
-            "0sz2ffahdiy8kym4hf4jk6zjhs3jrfj8y9x88g0nsq57sll3c3y4"))))
+            "07vqrl00lcy1fi0kms97yjf3h95k1839dafcpm1x0sgd6gd5k4ny"))))
     (build-system melpa-build-system)
-    (arguments '(#:files ("contrib/scad-mode.el")))
     (home-page
-      "https://raw.github.com/openscad/openscad/master/contrib/scad-mode.el")
+      "https://github.com/openscad/emacs-scad-mode")
     (synopsis
       "A major mode for editing OpenSCAD code")
     (description
@@ -120327,17 +120327,17 @@
 (define-public emacs-wolfram
   (package
     (name "emacs-wolfram")
-    (version "20220621.1228")
+    (version "20221111.816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hsjunnesson/wolfram.el.git")
                (commit
-                 "b1d9905666eb075fb2f40d09beec272200f6eb3b")))
+                 "d2e317214bf669dda82fd3202090715e59d29dcf")))
         (sha256
           (base32
-            "05682cbflka1nvqr1jm1bpf92ia7zr7ad1cwndpgsxggidnsns3q"))))
+            "08zjb2i100ibgy783ybasmak61m4gkipasyzmarznf3lgbkdj8vb"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Wolfram Alpha Integration")
