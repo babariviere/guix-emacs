@@ -2324,17 +2324,17 @@
 (define-public emacs-alert
   (package
     (name "emacs-alert")
-    (version "20220914.2051")
+    (version "20221110.1614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/alert.git")
                (commit
-                 "2c11cf9374f88bfc657764afe39ec7f6bad1779d")))
+                 "730184b7923a65241fdff695485a3ad432caf201")))
         (sha256
           (base32
-            "12iliic7ivcx4wjw0ibxw2wywjv3ywpizk7kc74akwx3r3k44sp5"))))
+            "0xvb7rbfpwpkdqrbnnv0dy4q1gpy25lm849rf2gqqlrgdmywxafk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-gntp emacs-log4e))
     (home-page "https://github.com/jwiegley/alert")
@@ -8951,17 +8951,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20220811.1159")
+    (version "20221110.2137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "9ccfbd07c4b2e2af38fe315ce7e3d905298d2fdd")))
+                 "b6fa7d28bc0881ef08e9a8af2c43092f22890bde")))
         (sha256
           (base32
-            "1hsf5r96pd3j4s90xym3dkrsnxqg8pwlmrj93p0xvdr493gms2a4"))))
+            "1q0681y3cp3kay4vxprxxib7f984450l57c4izbjjxai4zb89y2l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -46834,17 +46834,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221110.812")
+    (version "20221110.1618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "64eb2614c73e1b7dc24c17add536e46baa9a442b")))
+                 "92cdb7c878eec96531b900f01075f67b885e50e3")))
         (sha256
           (base32
-            "1316b368cd7z9c563lrfli48h1vdylg9yfn98pvcww0brw8njcyp"))))
+            "01dmc130hnfprdzw5clwhj3z8dagn3b5qjc6q15mlyxfay3n00lj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -67726,17 +67726,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221108.1534")
+    (version "20221110.1449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "581999e0a6895d5bc767693be660fdb140eecece")))
+                 "5fdb2bf6fe04d8e121643638cfccfbe77761cace")))
         (sha256
           (base32
-            "1lqjwf4sramn8mqaa61psn34l84a8np5b8niailkq230lzac4srs"))))
+            "1mi15wwpq3v3j6yr6viy1f4x36p73k439qigxrm6039fpbfqsv3y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -70826,7 +70826,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221107.1258")
+    (version "20221110.1948")
     (source
       (origin
         (method url-fetch)
@@ -70836,7 +70836,7 @@
                ".tar"))
         (sha256
           (base32
-            "1k64abl9fgyw8xl3y677v1zxf17ar3cpvbkvf0469fqn3jiwga76"))))
+            "0ipqcwa829l8gxpq1qrsbkh6zrcwwxhdn0gp8g3h5bxhc9s0kjzq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -79693,17 +79693,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20221102.1643")
+    (version "20221110.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "7365533a5d1abbecd2e3dfb1091a83196e2d8bde")))
+                 "05a775b12e148b28c9af73d921ac1c8d5ee8f446")))
         (sha256
           (base32
-            "0ny7iq6xplds1rdzm66hqs6rzglqm0d9qzgnbspiyq7z89m6lwhw"))))
+            "17ifdhxgbn3iicpagspqj21x0ch5kkzc1xjqbhsxp8hcqwzf3dv7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -92612,17 +92612,17 @@
 (define-public emacs-powerline
   (package
     (name "emacs-powerline")
-    (version "20220122.1904")
+    (version "20221110.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/milkypostman/powerline.git")
                (commit
-                 "566c77844f053cb39fa7acdfbc143a855450f0b5")))
+                 "c35c35bdf5ce2d992882c1f06f0f078058870d4a")))
         (sha256
           (base32
-            "0nhh2bq35s8rgz6g38i97759d92d6z5yak66687lnk481wca3x4l"))))
+            "0k1n5pg8v3ybkqxcipw80jqv94ka0dp63qxl0hvjwlxk16gxp8kb"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/milkypostman/powerline/")
@@ -107806,17 +107806,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20221106.0")
+    (version "20221110.2251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "8aac9d38e75f1fceba06f1070a869571b905318b")))
+                 "d8b801b192debb72c22506e8391bc35ccca822ff")))
         (sha256
           (base32
-            "0iik2mdzjh3zk8w0bihys596x158fxb4hcrk73j6hv4yjh9dypgg"))))
+            "09p9n0nr9464g5xw4kzwvvbyvw5m4pils34i295ca1vnw36r9y8x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -118309,17 +118309,17 @@
 (define-public emacs-wakatime-mode
   (package
     (name "emacs-wakatime-mode")
-    (version "20220621.616")
+    (version "20221110.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wakatime/wakatime-mode.git")
                (commit
-                 "a9c7ab37dbaeadb36b90bcd38b31e4447706b251")))
+                 "ef923829912c3854d230834f81083814b7c9d992")))
         (sha256
           (base32
-            "0qp4rpg0kkxqvzhs4avjp03ys6ilcd2am05dmqp7d52yi6g59gr4"))))
+            "0m29817s2din4n42pflvzg2538i91s0n06y78pf8q94qf0mfspcl"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
