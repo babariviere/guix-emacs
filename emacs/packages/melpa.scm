@@ -2764,17 +2764,17 @@
 (define-public emacs-amread-mode
   (package
     (name "emacs-amread-mode")
-    (version "20220519.45")
+    (version "20221111.517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/amread-mode.git")
                (commit
-                 "21f3cf796c08625cf70d534a990f4ae2273a5d4f")))
+                 "1ca26183e69efb79c1af86c0d196dd5ede04090c")))
         (sha256
           (base32
-            "1rs5ybxh779fzb2xr0y8rhh4qzdpgrfgir4r81rpfxyhksls88xx"))))
+            "08v1ps7nxa32i4w9fgbsww2azih669q4z76bf3gv8ycv1ab5b1gl"))))
     (build-system melpa-build-system)
     (home-page "https://repo.or.cz/amread-mode.git")
     (synopsis
@@ -29512,17 +29512,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20221108.1906")
+    (version "20221111.143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "09a7d69b01816f5b3a190d50d6091425863ab167")))
+                 "2aba953bf11f01b8ac9b2f44d151335eaf09802f")))
         (sha256
           (base32
-            "02nlqadgdkmaphjq92k719ykdwziqh4yykkgq416073n15y7p0ip"))))
+            "0fd3x4f5dbm4bhqq3g2z03w6fb2zrrlvw6zxl39ldmq5gmparfbn"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("embark.el" "embark.texi")))
@@ -29675,17 +29675,17 @@
 (define-public emacs-emmet-mode
   (package
     (name "emacs-emmet-mode")
-    (version "20210820.1124")
+    (version "20221111.329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/smihica/emmet-mode.git")
                (commit
-                 "6b2e554f7fd27f732810f4b14ea01e3c54b7b3da")))
+                 "63b6932603184956b5ea8919036d2b307b48d7fd")))
         (sha256
           (base32
-            "0ymd865b73m402cd4nc64n2wy0qn17aal69rc8vnc7cxyilc9v1c"))))
+            "1g0fvp98w23dsyi75idyv4jf90635z80hchd1k13pychla6bw76j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/smihica/emmet-mode")
@@ -38630,17 +38630,17 @@
 (define-public emacs-flycheck-haskell
   (package
     (name "emacs-flycheck-haskell")
-    (version "20220426.2358")
+    (version "20221111.59")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck-haskell.git")
                (commit
-                 "d92dea78fb8638f7c27a3eb925d84c669fb257dd")))
+                 "50425a8b96fea84ea15940a4a07b184e43bb8e7a")))
         (sha256
           (base32
-            "0sv8k40h4qxlfwz2g8qzrri5vwwan5aadk9snaif10ix84zyfzbn"))))
+            "088w5f8zw01lr4h6dzdnl36hg5ijln9mknwp7ydvl1scw6v4clf0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck
@@ -82538,17 +82538,17 @@
 (define-public emacs-org-latex-impatient
   (package
     (name "emacs-org-latex-impatient")
-    (version "20221108.752")
+    (version "20221111.623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yangsheng6810/org-latex-impatient.git")
                (commit
-                 "2074d32ea0be80ac90ead79c3178692da67ef181")))
+                 "031025a8be9bf7255aa047388d027642cd2d6183")))
         (sha256
           (base32
-            "1dc31g0bka7g8pnkh3ix8rdw8s0rr9ghjzfvzzjz2jw1pfid1xr5"))))
+            "1hr4xk89zphahaa8n1fjwf6y7bfvnn30ck8pysjlfwa5510fpw0w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-posframe emacs-dash))
@@ -84872,17 +84872,17 @@
 (define-public emacs-org-vcard
   (package
     (name "emacs-org-vcard")
-    (version "20220206.1209")
+    (version "20221111.328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/org-vcard.git")
                (commit
-                 "bdaebcb4ef44c155a92d9c89a21a1d29019ee026")))
+                 "92345fa9f1e1f928278a654ac5ad57d22d74dbef")))
         (sha256
           (base32
-            "1djpjs0v0w6drqpi39y58hs563rqszcfwmldnwcmyp3f3cgqd8k3"))))
+            "1yd5ff89lss0dcnqkgmcb30bb719lixcad4pfkggpssnnix998rv"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-vcard.el" "styles")))
     (home-page
@@ -107051,17 +107051,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221101.1947")
+    (version "20221111.143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "d88fa0d7c8ce438f43b5b7edd033d581a7faa13d")))
+                 "7119e66ae16c68685e29a02cb2780425b82db781")))
         (sha256
           (base32
-            "0wpjr9lvkv9i8ix2qf04mnsgx5xwxscb4gzk2bdrk4ca46z19j1l"))))
+            "02z4byslwx0rfz66jrw6r43il005chdbxvyaikvf9q5ind4vlw7c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
