@@ -3629,17 +3629,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20221025.101")
+    (version "20221112.350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "b4aa52da76b46c3c1be44cf8b312b55a6082c104")))
+                 "33d4542b58476d50f01464576664de1acea1f62f")))
         (sha256
           (base32
-            "1r37sv48yx2r3pmawq6ik294aw20sy8rs9lyrpklfqqb1dlcmd65"))))
+            "1gcsw3sfm4ixasfcmq2gjd878ap94sigkhis41l62y6kwzp9z63b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -4196,17 +4196,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20221110.25")
+    (version "20221112.48")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "4d4320fd80946c3e810e4ad5ca02ffa4d2089f15")))
+                 "374d9703afd2976736abe6a73c4d4561a3238211")))
         (sha256
           (base32
-            "1r312hrrb7rrxf85ijj16p8dsml55054v1p320srqwg69imyr728"))))
+            "1lgy0yrvf5cx9cw95kg8w3xdy3fniagny9pv7an1lydhbfh8nn9w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -11106,20 +11106,18 @@
 (define-public emacs-cfengine-code-style
   (package
     (name "emacs-cfengine-code-style")
-    (version "20171115.2108")
+    (version "20171111.1027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/cfengine/core.git")
+               (url "https://github.com/cfengine/cfengine-code-style.git")
                (commit
-                 "d08ae9eff170a568b779c860e40715ef804f6341")))
+                 "92a25872a6d1de00c5bfc2b9455ccb0082bf6569")))
         (sha256
           (base32
-            "193kg68p9ghpd2pf49hhsv1k0ysq1fyinqma5j7379p4y7wxx2g1"))))
+            "19nv6czxbl6kpcx54bq57xr2df2dyjwjg11vwal19hy6w7yd1av1"))))
     (build-system melpa-build-system)
-    (arguments
-      '(#:files ("contrib/cfengine-code-style.el")))
     (home-page "https://github.com/cfengine/core")
     (synopsis "C code style for CFEngine project.")
     (description
@@ -15787,17 +15785,17 @@
 (define-public emacs-company-prescient
   (package
     (name "emacs-company-prescient")
-    (version "20220911.138")
+    (version "20221112.344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "928cc72ec3dca8e9a60d356b9b8ce896ec5ff621")))
+                 "c28bca2213efd2666b0328c29f2c26e9b603cc9a")))
         (sha256
           (base32
-            "1hyn000z6xy5cb2k7h8xairxvhlhk2pcc1rqabwg76jlh8qbr24w"))))
+            "0156sbs4b535mcwm44qjr8lx48svmjvdqh8c8hr6d0l709f27yq3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-company))
@@ -16408,17 +16406,17 @@
 (define-public emacs-composer
   (package
     (name "emacs-composer")
-    (version "20200616.1717")
+    (version "20221111.1808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/composer.el.git")
                (commit
-                 "7c7f89df226cac69664d7eca5e913b544dc475c5")))
+                 "6a6e3eb46b4ae380f9f56362d6525d6725fc1b0a")))
         (sha256
           (base32
-            "0iyajdlp95mii462xqy6fqbv5q7vai3ya4jip8433zwwr2pkdbsr"))))
+            "0qf73cgy7jmchk8hvabg7v07wq0scfdm06vsbf1m2ds5zq8lcbnb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-f emacs-php-runtime))
@@ -18945,17 +18943,17 @@
 (define-public emacs-ctrlf
   (package
     (name "emacs-ctrlf")
-    (version "20220911.6")
+    (version "20221112.340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/ctrlf.git")
                (commit
-                 "e4bd61ef59f10b3c6bd480041396c21bf62174ec")))
+                 "9b4cf6c79a961f2bfbb949805aa300fcf1eb40a6")))
         (sha256
           (base32
-            "1lkl4b24bdnmv66kk3zgl7c9y47r827rj4dsyk7vzi836sa32qci"))))
+            "061id540spjycgy2xshj8kwgdngkjinznhx2qp5pmqzzx7z7rpfb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/radian-software/ctrlf")
@@ -19714,17 +19712,17 @@
 (define-public emacs-dante
   (package
     (name "emacs-dante")
-    (version "20221031.1841")
+    (version "20221111.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/dante.git")
                (commit
-                 "9c9927d35ca31603ab0e99d1fc529da41d7a79bf")))
+                 "cceb89bb218fb69371c41838c94a5c3270bf7448")))
         (sha256
           (base32
-            "1g25cbhgx0blhpxx1hg6y8swlf5601xwhsc4nwmx0ngvz1v0h26x"))))
+            "1jpi0bjh4pplpq3xfmwa61xvcs4km7n6mx9qb7syfd4hr3s5zqvh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -27465,17 +27463,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221108.2153")
+    (version "20221111.1951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "5d7986c65b57b83c57b4839e990444a1a5abebef")))
+                 "00b29384e96c49375112613939e333d46565b310")))
         (sha256
           (base32
-            "1sz83fsm6dya5icfzqddw3kqsblkjkivgndyy4jv94hm8jxp8882"))))
+            "14d9a617qj6yrwfi5gg1prcd9ibmns21m08n78rsv61xg9c2f1iz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -40123,17 +40121,17 @@
 (define-public emacs-flymake-collection
   (package
     (name "emacs-flymake-collection")
-    (version "20221103.1504")
+    (version "20221111.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/flymake-collection.git")
                (commit
-                 "cdac31a3f7de0a6436e39ef7bd68d7defab98e8f")))
+                 "976ac70153a0a18da22e068c740c3394bec28545")))
         (sha256
           (base32
-            "1jhwzs1swj5srvk5c7yvafphlq5bih26lr9n9hagq989avl4v7a4"))))
+            "1zxbks772vq4pj289n11fm79f7xk4iy69z99wvvmy4mv9mim5hrv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -46835,17 +46833,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221111.801")
+    (version "20221112.616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "405cda34589ad76f006fe320478f0134cfcfbbb0")))
+                 "6fd5c0a32cfc90df950f6b6921e5de77eb1f0016")))
         (sha256
           (base32
-            "14p65srnd7wa9xcn85v8i552425dw983h54kzkl7nd26jjpidwa5"))))
+            "1yhdw0qxg01gyw575flm23yhi3r9ixvsc0s32dz3nbggfxzhf0fb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -49567,17 +49565,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221109.1918")
+    (version "20221111.1942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "720df76514104202f803c37d8935ea49fa2529e5")))
+                 "dd72b3281afb38eaedd1e0015ab3c92d8ab7ef8f")))
         (sha256
           (base32
-            "0axp69fmfmn7dhjrf1y5z6a37fi5hbmmdsnc7wfg02f86p70jzp5"))))
+            "1gk4bq6ilbra85nlvr9hsj0h23bbrks6aryx5wsh8xkgaygw1plr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50375,17 +50373,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221109.602")
+    (version "20221111.1942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a41d4ae4b6ebe91a3b707ae0defe6dbed73ef2e6")))
+                 "dd72b3281afb38eaedd1e0015ab3c92d8ab7ef8f")))
         (sha256
           (base32
-            "0rbmlp3hjv7skm44216r6vl7sjibn3xw05wlwnqxkz4626hzq4jn"))))
+            "1gk4bq6ilbra85nlvr9hsj0h23bbrks6aryx5wsh8xkgaygw1plr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -58713,17 +58711,17 @@
 (define-public emacs-insecure-lock
   (package
     (name "emacs-insecure-lock")
-    (version "20221104.143")
+    (version "20221111.2002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/BlueFlo0d/insecure-lock.git")
                (commit
-                 "808b211244886a5c94b22adbb9b3d0fc397c5b7c")))
+                 "2750190c70ebf564fe142ab5ee7e44675609b06a")))
         (sha256
           (base32
-            "1a77n9f0iwvb6dlq3541065rayipyw1fnvrsv6xfvplmjbpbfzgr"))))
+            "0929nkdz3xdkk2mvprxkzjyi6wnljwvlp7wg2fl014w46izs4kkg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/BlueFlo0d/insecure-lock")
@@ -60228,17 +60226,17 @@
 (define-public emacs-ivy-prescient
   (package
     (name "emacs-ivy-prescient")
-    (version "20220601.1652")
+    (version "20221112.344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "07d61b7779c4cca3009390383e7f98a55de7e17e")))
+                 "c28bca2213efd2666b0328c29f2c26e9b603cc9a")))
         (sha256
           (base32
-            "0z97d7nnl1hgxj4fsvgw3hb3j4dc9wkdq2vq3dw607f29lwqiadk"))))
+            "0156sbs4b535mcwm44qjr8lx48svmjvdqh8c8hr6d0l709f27yq3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-ivy))
@@ -64218,17 +64216,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20220909.2022")
+    (version "20221112.240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "4bd0c627f198cd2ec72e4f74f7d89778f514443f")))
+                 "ca6c3f84cefaf1287e432f2f3b4bdf630edd3bac")))
         (sha256
           (base32
-            "162wcjf6p1ajp7n5w73923v0xbh2pwcmb8znfsr576dzwrbczl5w"))))
+            "0y3f1c4fbzy0yb5n986bzmgkkaxhgw06wxjvla4mkln6hccnxdia"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -92875,17 +92873,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20221001.127")
+    (version "20221112.344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "a86b71431002f7c7be6ea86f6f2694d206564b13")))
+                 "c28bca2213efd2666b0328c29f2c26e9b603cc9a")))
         (sha256
           (base32
-            "1hxfilsd8bia4zn2gzsfzpll39bb980z4j76wqh4ry69nx84w2gf"))))
+            "0156sbs4b535mcwm44qjr8lx48svmjvdqh8c8hr6d0l709f27yq3"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -95352,19 +95350,19 @@
 (define-public emacs-pylint
   (package
     (name "emacs-pylint")
-    (version "20210411.1931")
+    (version "20221111.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/PyCQA/pylint.git")
+               (url "https://github.com/emacsorphanage/pylint.git")
                (commit
-                 "7d2584251552283bf95893019e74dad0390dc65c")))
+                 "8958821959b7380ba762a29f607cfcacf3a5ca1f")))
         (sha256
           (base32
-            "05fsbw1zs2fh296vkaymrab6kqf9ji4vsbk7yihy3ds5jh00r8z9"))))
+            "0zl84fmvk7rm32ljcca70zcn3k2mq1mfl158lf6ypypb33sa4zbv"))))
     (build-system melpa-build-system)
-    (arguments '(#:files ("elisp/pylint.el")))
+    (arguments '(#:files (:defaults "epylint.py")))
     (home-page "unspecified")
     (synopsis "minor mode for running `pylint'")
     (description
@@ -101163,17 +101161,17 @@
 (define-public emacs-scad-mode
   (package
     (name "emacs-scad-mode")
-    (version "20221111.1325")
+    (version "20221111.1803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/openscad/emacs-scad-mode.git")
                (commit
-                 "900ca6fc257ae522a991e71649d83166a98e9b27")))
+                 "efc5f1cf1485b28ce77c9d83506d98bdca932659")))
         (sha256
           (base32
-            "07vqrl00lcy1fi0kms97yjf3h95k1839dafcpm1x0sgd6gd5k4ny"))))
+            "1bg1d42v0id406yqkggylmwfynsj0r0f5fh0f1w28qjiqx8mi0k6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/openscad/emacs-scad-mode")
@@ -102144,17 +102142,17 @@
 (define-public emacs-selectrum-prescient
   (package
     (name "emacs-selectrum-prescient")
-    (version "20220911.138")
+    (version "20221112.344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "928cc72ec3dca8e9a60d356b9b8ce896ec5ff621")))
+                 "c28bca2213efd2666b0328c29f2c26e9b603cc9a")))
         (sha256
           (base32
-            "1hyn000z6xy5cb2k7h8xairxvhlhk2pcc1rqabwg76jlh8qbr24w"))))
+            "0156sbs4b535mcwm44qjr8lx48svmjvdqh8c8hr6d0l709f27yq3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-selectrum))
@@ -104080,17 +104078,17 @@
 (define-public emacs-simple-indentation
   (package
     (name "emacs-simple-indentation")
-    (version "20220907.1733")
+    (version "20221111.1848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/simple-indentation.el.git")
                (commit
-                 "f5a8e9ae755e1cc1e7a3b5e3cc37e2ebf40cce2e")))
+                 "06c3d16849f011ae492d190b5ddb0d7484967286")))
         (sha256
           (base32
-            "01pbbn2mizzgp2kql4vfx2mdqsbpsaf1p2lswhaf91njr75bdp37"))))
+            "1i93v5aq92q81a49rygw1s3vi9vl1f8s2z2ajkq1pc11plknplwk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -107051,17 +107049,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221111.143")
+    (version "20221112.139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "7119e66ae16c68685e29a02cb2780425b82db781")))
+                 "73e7279bb95b2e9640b9dfbe3f6ffea366da90d1")))
         (sha256
           (base32
-            "02z4byslwx0rfz66jrw6r43il005chdbxvyaikvf9q5ind4vlw7c"))))
+            "0w1q2bixa061ddgh7a7mlaai4hcazi02avs6blcanckcl4jy3xvc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -109817,17 +109815,17 @@
 (define-public emacs-symex
   (package
     (name "emacs-symex")
-    (version "20221008.1605")
+    (version "20221111.2236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/countvajhula/symex.el.git")
                (commit
-                 "b999c02284f6e72ff2061a98cbaa084954c44879")))
+                 "32f4d28fd115c0ba417f48afafef62a6cc0c264c")))
         (sha256
           (base32
-            "1m7m0zmzib8kz765ny1miy9ydp512jgxix7bhdbxg1gfidqndp32"))))
+            "0ppcadpl7mrrv84n8vqym6g8b9srg9nhclbzlcjx0mqksa6p6mlr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lispy
