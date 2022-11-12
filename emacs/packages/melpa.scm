@@ -46833,17 +46833,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221112.616")
+    (version "20221112.1350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "6fd5c0a32cfc90df950f6b6921e5de77eb1f0016")))
+                 "e52bdccfe4dba1c7bce8e509aa48abac4ec6fcfd")))
         (sha256
           (base32
-            "1yhdw0qxg01gyw575flm23yhi3r9ixvsc0s32dz3nbggfxzhf0fb"))))
+            "0lq1w15w3zv875jlv74w8j2h55sax6h13irs4lx2acadmv4ww71p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -49565,17 +49565,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221111.1942")
+    (version "20221112.1259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "dd72b3281afb38eaedd1e0015ab3c92d8ab7ef8f")))
+                 "371df21b1e73be03b90028e2f5d8554f70a989b7")))
         (sha256
           (base32
-            "1gk4bq6ilbra85nlvr9hsj0h23bbrks6aryx5wsh8xkgaygw1plr"))))
+            "1i253ani2bl665biha0f071pncr2jh7x5yxp8rg2013sdf4nr74c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50373,17 +50373,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221111.1942")
+    (version "20221112.1259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "dd72b3281afb38eaedd1e0015ab3c92d8ab7ef8f")))
+                 "371df21b1e73be03b90028e2f5d8554f70a989b7")))
         (sha256
           (base32
-            "1gk4bq6ilbra85nlvr9hsj0h23bbrks6aryx5wsh8xkgaygw1plr"))))
+            "1i253ani2bl665biha0f071pncr2jh7x5yxp8rg2013sdf4nr74c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -77028,17 +77028,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20221025.2346")
+    (version "20221027.346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "8a556ddad8ff58db2d2e2fafd5a495815d23179b")))
+                 "cb277b8a84ca5857b607b3ff6132ee3663a57953")))
         (sha256
           (base32
-            "0h041nzdhzkm0bp5q4z0vfqvp808x5l4q0npk29j32yjj7yd2as3"))))
+            "1x6jcsndmlxvj9ncrg2nam5zqvcs0a5jjjm7ij3q929rdn5fl3kc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -78710,17 +78710,17 @@
 (define-public emacs-ob-fsharp
   (package
     (name "emacs-ob-fsharp")
-    (version "20170618.1429")
+    (version "20221112.1135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juergenhoetzel/ob-fsharp.git")
                (commit
-                 "0b2fdd9bb4f38af8b5cf4914627af52f5b43d9f7")))
+                 "fee0042f14edc32c33fb8bfc9599bb7b5c529c29")))
         (sha256
           (base32
-            "1z1m2dqnvyyv9ff289p8x1hajnz9n0mmfkrkyl1zvipaqd9mgljw"))))
+            "1bv424y22lssmhv8l6zbibv1zcnasncyjkbhd3mg6x6znkq0c680"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fsharp-mode))
     (home-page
@@ -93683,17 +93683,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20221105.1641")
+    (version "20221112.914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "3de6bdc2ae6c5ce08bce3726cec936e4da5d9bad")))
+                 "1ca2303eaa60abc3fda94bd54572a2a5f1ce7c16")))
         (sha256
           (base32
-            "0in0v8190srd8xd4vdh9qd4c9d69n5nlmkmrwpwiqfl65a9d45dm"))))
+            "0s1biz7wvb3rhfjkm87ga70fly4j7kp0q4n9mqpmmjnq1wnsjkfy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -99392,17 +99392,17 @@
 (define-public emacs-rime
   (package
     (name "emacs-rime")
-    (version "20220620.951")
+    (version "20221112.1341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DogLooksGood/emacs-rime.git")
                (commit
-                 "3eeef9c445fa056a4b32137f9ef72c27ced2d4ab")))
+                 "74f3dff40e66c65388a9471eecbc1d9aca5612f7")))
         (sha256
           (base32
-            "1sk09z05xvg94pkf4181hvlg9q0m71kinzxv8223ls8df6ymc43k"))))
+            "1bqhn6pvsgs1x882q7y5p372aify2jmyfmgmx99nzakxbfkb0yqp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-popup emacs-posframe))
@@ -120922,17 +120922,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221104.1010")
+    (version "20221112.1520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "297d12c00ccc2c4d0e9082d41d1dfa3b51f84daa")))
+                 "1b7fc08ef3e513ef528b47acb0da412c3f097217")))
         (sha256
           (base32
-            "1q7x908f5ga05ww22sn41ic72qqdj00r5j4655s1jsvs83ja5y8w"))))
+            "1k2lfchvyzziylg2jpxxnjibfn854p7g88fr9mw7a852svq8vjm7"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
