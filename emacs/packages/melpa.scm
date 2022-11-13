@@ -21166,7 +21166,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221111.1152")
+    (version "20221113.1307")
     (source
       (origin
         (method url-fetch)
@@ -21176,7 +21176,7 @@
                ".tar"))
         (sha256
           (base32
-            "0xypvdrmyzpzv0sm45vg1dgi1qshs5d1qr7nn6psdrpaqx3mc7vy"))))
+            "046hxbymh020klhy95pbjdr7kpcdx0almqx46jw78cg82lf806x4"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -25038,17 +25038,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221104.734")
+    (version "20221113.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "37ae27f55210f35684c1c83fc5a3eda7a0c68872")))
+                 "b98f45c7901446cf1ab60be2ab648c623e774427")))
         (sha256
           (base32
-            "19pwrm0qzw8i4q1g9s43jb8g7915k56jihcp6ylmhs6rl39lipgk"))))
+            "1fd57xs8im4z1n2fz7fjd75d3f5dlk55y10njfv5bkayxwj3g5zl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -25660,17 +25660,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20221107.2019")
+    (version "20221113.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "6c09bc39b4a7ae70de5c1ce912d693e8b6f5f8d1")))
+                 "374400c99f600cfda703da4fb8d16898be48cb74")))
         (sha256
           (base32
-            "1rd7jjr9wlj7b0d2386zvrlgz96316bg7h9zhk81xal5zvjksdmm"))))
+            "1azgsjf5j8k6llq74brykidcb2mnq6fghk8jyq7qad5afh7n0mrc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -35053,17 +35053,17 @@
 (define-public emacs-external-dict
   (package
     (name "emacs-external-dict")
-    (version "20220816.2136")
+    (version "20221113.1021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/external-dict.el.git")
                (commit
-                 "680c37f01e5205805dffeef05be00e2196886a8c")))
+                 "c790489635a497cdb8f4277a982677c95479ffb0")))
         (sha256
           (base32
-            "01rq6xw86q03br55njh51myzl2v1wfb2z6xpapwfs77rcismx616"))))
+            "08sh4j4hd09r9ahrr19g1lky14s7sqqpyjhjwn3lv0mbs971zhgn"))))
     (build-system melpa-build-system)
     (home-page
       "https://repo.or.cz/external-dict.el.git")
@@ -42629,17 +42629,17 @@
 (define-public emacs-frimacs
   (package
     (name "emacs-frimacs")
-    (version "20220723.1902")
+    (version "20221113.1231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pdo/frimacs.git")
                (commit
-                 "b35fdefb60ead4d7559131601c43761973762a9a")))
+                 "ae3870ebced2fb92f7fac1aa0051f7e46b30d55b")))
         (sha256
           (base32
-            "034x3b471xfn1ih95az59h34ad2qvb9qpav29ng5z0ry2hqcq0za"))))
+            "0r18cgi4hycif9r53vn1cakajkbrqpaziz240bq5yw2wnyvmkgfx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -49292,17 +49292,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20221106.1352")
+    (version "20221113.1425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "53d26263dbe2c607471048646d94788c0d232f98")))
+                 "a34ccdc54be15043ff0d253c3c20087524255491")))
         (sha256
           (base32
-            "06q63zhms1ckbkryxg2534irrq014rbnwx1kmj92ldbinv4qr7qc"))))
+            "1z2jcgdm5bc13zwl4y7fn5rxqqzs3i54qw32wb2hwpa42izwq159"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -53795,17 +53795,17 @@
 (define-public emacs-helm-wikipedia
   (package
     (name "emacs-helm-wikipedia")
-    (version "20210525.717")
+    (version "20221113.824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-wikipedia.git")
                (commit
-                 "c242c74efaeda2ffbafd281ee6bceae1a42507bb")))
+                 "ab040154f2efab9b5eea36b3bd368a66f62efbfb")))
         (sha256
           (base32
-            "17210p61q6g1rx8a3gacbrv69c4n92h5ajh28yw5ya23c275dnkb"))))
+            "091xsyvdsxkvg6rszgqymd8y7yp6v37x1k1022qbf9j66m46y9pj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -67769,17 +67769,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221110.1449")
+    (version "20221111.1517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "5fdb2bf6fe04d8e121643638cfccfbe77761cace")))
+                 "d52e1787ffcbaa52e3308024452702b2cf9a5ce4")))
         (sha256
           (base32
-            "1mi15wwpq3v3j6yr6viy1f4x36p73k439qigxrm6039fpbfqsv3y"))))
+            "0xylwhs0hi0ggs0h7xdy54cr436wi5k7j2wak9lifa3sgnig252x"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -69014,17 +69014,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20221030.1214")
+    (version "20221113.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "e4e703a8ec8310a42ae45eaf6513f04ba246c9e7")))
+                 "78898be20e3fffef67b3f1eb812347df89cd151f")))
         (sha256
           (base32
-            "0qimcs8l4hf9b761f4v9hcwz927d38dsvrxzashgwj3xbv2xz1nk"))))
+            "1312gd7f02frc26c899cpdbdsxafqgw459i1lwxnnssck48m30vz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -70892,7 +70892,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221110.1948")
+    (version "20221113.1523")
     (source
       (origin
         (method url-fetch)
@@ -70902,7 +70902,7 @@
                ".tar"))
         (sha256
           (base32
-            "0ipqcwa829l8gxpq1qrsbkh6zrcwwxhdn0gp8g3h5bxhc9s0kjzq"))))
+            "1nbxs5fada7bha5lh2cqi1fllzkyfb1fz0rqgn0nxg2y5abapqzz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -100723,17 +100723,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221112.1735")
+    (version "20221113.1000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "79615c1556a423f83956f79f1c3bb56de22efed1")))
+                 "1b4c99d86f7e6bd4491ba31bbc402c5639b3fe1f")))
         (sha256
           (base32
-            "11qy84d3m3ddk1m0yzli6pv2lx17fw2jvxx7sj0848i1rb96jrh3"))))
+            "0a7mq8x7cimxkwhqlr2zfh0l4qg9xrgbbflmjqaf20q18nxw5nsm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
