@@ -6520,17 +6520,17 @@
 (define-public emacs-basic-mode
   (package
     (name "emacs-basic-mode")
-    (version "20221105.1616")
+    (version "20221112.1533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/basic-mode.git")
                (commit
-                 "3c4104b9789b62a505717e63b61bd0abee012f15")))
+                 "1d6cd9a3c400a3609ea2464103bb814b51d3d560")))
         (sha256
           (base32
-            "1dqds5k05afs7ai6bk9zjcf0hp2ja5a417j4z35fbk62m7wb07mn"))))
+            "177z5rmh4306zkadnpp0as3w51n972hnzsb15sxc4iccfb3zjap9"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -37572,17 +37572,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20221110.824")
+    (version "20221112.1552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "15559e8243b81d63c63f62a42d251f2db9e4995d")))
+                 "ab93e2db1dd8333e86f8aeeafbf1e2a0e5f0be38")))
         (sha256
           (base32
-            "1pn5mqjd76898n9d60ym1jklswnmficz9d1h5zcfjzs9hnq3np3x"))))
+            "10q5jlkbg0hvm96n2xr8k16ykwdvchb04h79bzhhm4x3zd99q4p7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -40235,6 +40235,29 @@
       "Helpers for easily building flymake checkers")
     (description
       "Documentation at https://melpa.org/#/flymake-easy")
+    (license #f)))
+
+(define-public emacs-flymake-elisp-config
+  (package
+    (name "emacs-flymake-elisp-config")
+    (version "20221110.1626")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ROCKTAKEY/flymake-elisp-config.git")
+               (commit
+                 "e946d9a761a8427dfdd0ae634bcfce4d56111947")))
+        (sha256
+          (base32
+            "1caclvx5k4x7pdd3pzm2kr1vkncwjgq9w15hbhr16y3sr2g8lh7k"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/ROCKTAKEY/flymake-elisp-config")
+    (synopsis
+      "Setup load-path for flymake on Emacs Lisp mode")
+    (description
+      "Documentation at https://melpa.org/#/flymake-elisp-config")
     (license #f)))
 
 (define-public emacs-flymake-elixir
@@ -45725,6 +45748,27 @@
       "Documentation at https://melpa.org/#/glsl-mode")
     (license #f)))
 
+(define-public emacs-glue
+  (package
+    (name "emacs-glue")
+    (version "20221108.1648")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/glue-"
+               version
+               ".el"))
+        (sha256
+          (base32
+            "0w4r9gk2qx9zszx86xqsl84c2yizpx60gkc4j40d02f4xlv5w5wd"))))
+    (build-system melpa-build-system)
+    (home-page "https://git.sr.ht/~hajovonta/glue/")
+    (synopsis "Emacs - Common Lisp interop")
+    (description
+      "Documentation at https://melpa.org/#/glue")
+    (license #f)))
+
 (define-public emacs-gmail-message-mode
   (package
     (name "emacs-gmail-message-mode")
@@ -45977,17 +46021,17 @@
 (define-public emacs-gnuplot
   (package
     (name "emacs-gnuplot")
-    (version "20221111.821")
+    (version "20221112.2049")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-gnuplot/gnuplot.git")
                (commit
-                 "72e70e309978f48cf4724cd99e78d09331f7acee")))
+                 "fe7ce76d797b34214178ac8e470f2fa9a63b2520")))
         (sha256
           (base32
-            "0ms993dhrdnj1c4y3c02ls21myms43ndyrq3g2abzlr7n6jd60sn"))))
+            "06avd1bpk6n8d3yc2427f6z24f3d6dlbfhw6gg39mja06n4a2jh3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -67406,17 +67450,17 @@
 (define-public emacs-log4j-mode
   (package
     (name "emacs-log4j-mode")
-    (version "20221105.1624")
+    (version "20221112.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/log4j-mode.git")
                (commit
-                 "c388b555dfea3c837075be769d771bd38656384a")))
+                 "a878589fbbd291d0aa27f56c582ab900a03ca063")))
         (sha256
           (base32
-            "1x43f5qlzbsxv3bwsfk3s5j8b87yk0zzlsg3i73x7cxz47wq454g"))))
+            "04jw2zfbzw8qblkmxg5c4dm31i5kk8d9r3l1bqa1bld8s7pdxnp4"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -68667,6 +68711,29 @@
     (synopsis "luarocks tools")
     (description
       "Documentation at https://melpa.org/#/luarocks")
+    (license #f)))
+
+(define-public emacs-lurk-mode
+  (package
+    (name "emacs-lurk-mode")
+    (version "20221107.1338")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/lurk-lang/lurk-emacs.git")
+               (commit
+                 "b341ffbf5959bbbc7dd33b35e207ce8b7bfbf565")))
+        (sha256
+          (base32
+            "1hs4msdqi1m74ypgqrzag49x868i2vxf6wybb6kcc26kb9f36pwp"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files ("lurk-mode.el")))
+    (home-page
+      "http://github.com/lurk-lang/lurk-emacs")
+    (synopsis "A major mode for editing lurk files")
+    (description
+      "Documentation at https://melpa.org/#/lurk-mode")
     (license #f)))
 
 (define-public emacs-lush-theme
@@ -78988,6 +79055,31 @@
       "Documentation at https://melpa.org/#/ob-lfe")
     (license #f)))
 
+(define-public emacs-ob-lurk
+  (package
+    (name "emacs-ob-lurk")
+    (version "20221107.1338")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/lurk-lang/lurk-emacs.git")
+               (commit
+                 "b341ffbf5959bbbc7dd33b35e207ce8b7bfbf565")))
+        (sha256
+          (base32
+            "1hs4msdqi1m74ypgqrzag49x868i2vxf6wybb6kcc26kb9f36pwp"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-lurk-mode))
+    (arguments '(#:files ("ob-lurk.el")))
+    (home-page
+      "http://github.com/lurk-lang/lurk-emacs")
+    (synopsis
+      "Evaluate lurk code blocks in org mode")
+    (description
+      "Documentation at https://melpa.org/#/ob-lurk")
+    (license #f)))
+
 (define-public emacs-ob-mermaid
   (package
     (name "emacs-ob-mermaid")
@@ -83499,6 +83591,28 @@
     (synopsis "Radiobutton for org-mode lists.")
     (description
       "Documentation at https://melpa.org/#/org-radiobutton")
+    (license #f)))
+
+(define-public emacs-org-rainbow-tags
+  (package
+    (name "emacs-org-rainbow-tags")
+    (version "20221107.1009")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/KaratasFurkan/org-rainbow-tags.git")
+               (commit
+                 "9aecc819c14f65d5f7819a431be626e496e3db86")))
+        (sha256
+          (base32
+            "1vf5vavi4r5qwiilbxjvj1123aq2331qiyjsbp53v8xz55psajpx"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/KaratasFurkan/org-rainbow-tags")
+    (synopsis "Colorize org tags automatically")
+    (description
+      "Documentation at https://melpa.org/#/org-rainbow-tags")
     (license #f)))
 
 (define-public emacs-org-random-todo
@@ -90116,17 +90230,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20221107.1615")
+    (version "20221112.1616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "bbed922fa9b9ab36aeffcbdb85c434c4a6c41450")))
+                 "d01cfc9cd51706e076bf7e5cbf0cfa7ee885efb4")))
         (sha256
           (base32
-            "195jfmv47hghg5dmzg0csssaiw829z2wcx2awnb3mvy6wiwbv01v"))))
+            "13lkzvamr86409whr8as4721gx9xrlfkmxvv941775mryliqk6j6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -92873,17 +92987,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20221112.344")
+    (version "20221112.1813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "c28bca2213efd2666b0328c29f2c26e9b603cc9a")))
+                 "50b7b85d866106ff624a2a5f9c2d129d02480781")))
         (sha256
           (base32
-            "0156sbs4b535mcwm44qjr8lx48svmjvdqh8c8hr6d0l709f27yq3"))))
+            "12iavdba4mm8wkvb8ky80az0x8w7fwh83p3lj56rp3xqv1balfv7"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -100609,17 +100723,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221025.1131")
+    (version "20221112.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "4879922524faff116535c9061af6e8a902609f65")))
+                 "79615c1556a423f83956f79f1c3bb56de22efed1")))
         (sha256
           (base32
-            "14gdgmxzxv31g0bgidqk7jdl1i38h0ybkndp04s8rvja92jzfpsi"))))
+            "11qy84d3m3ddk1m0yzli6pv2lx17fw2jvxx7sj0848i1rb96jrh3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -101161,17 +101275,17 @@
 (define-public emacs-scad-mode
   (package
     (name "emacs-scad-mode")
-    (version "20221111.1803")
+    (version "20221112.2020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/openscad/emacs-scad-mode.git")
                (commit
-                 "efc5f1cf1485b28ce77c9d83506d98bdca932659")))
+                 "7c8aed90c03ef384ee9e8729bc5bfa39973e91ec")))
         (sha256
           (base32
-            "1bg1d42v0id406yqkggylmwfynsj0r0f5fh0f1w28qjiqx8mi0k6"))))
+            "0bl05yxwzz4aflgbh9l0jscq4kgkmlhcvrrwvg9ps3hwl32jvz65"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/openscad/emacs-scad-mode")
@@ -102142,17 +102256,17 @@
 (define-public emacs-selectrum-prescient
   (package
     (name "emacs-selectrum-prescient")
-    (version "20221112.344")
+    (version "20221112.1813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "c28bca2213efd2666b0328c29f2c26e9b603cc9a")))
+                 "50b7b85d866106ff624a2a5f9c2d129d02480781")))
         (sha256
           (base32
-            "0156sbs4b535mcwm44qjr8lx48svmjvdqh8c8hr6d0l709f27yq3"))))
+            "12iavdba4mm8wkvb8ky80az0x8w7fwh83p3lj56rp3xqv1balfv7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-selectrum))
@@ -104078,17 +104192,17 @@
 (define-public emacs-simple-indentation
   (package
     (name "emacs-simple-indentation")
-    (version "20221111.1848")
+    (version "20221112.1616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/simple-indentation.el.git")
                (commit
-                 "06c3d16849f011ae492d190b5ddb0d7484967286")))
+                 "fa71b558285b9b514f8b3d662cb4436c6fd44bc4")))
         (sha256
           (base32
-            "1i93v5aq92q81a49rygw1s3vi9vl1f8s2z2ajkq1pc11plknplwk"))))
+            "17r19nzcrqaybqvync3yddlnvizzyiczxay7cpk1nd5lfjw5q05y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
