@@ -4196,17 +4196,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20221112.48")
+    (version "20221112.2256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "374d9703afd2976736abe6a73c4d4561a3238211")))
+                 "0234a9fe3e4bea7717e857f516209fcc00cf85c0")))
         (sha256
           (base32
-            "1lgy0yrvf5cx9cw95kg8w3xdy3fniagny9pv7an1lydhbfh8nn9w"))))
+            "184v0773cxggidk06wnsziib3kxkdhfr1j8hizmi75hnsrn1g2ya"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -24202,17 +24202,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20220916.1056")
+    (version "20221112.2247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "535800fd6ca7f5af56f7aa3d0e8f46fef8b7999b")))
+                 "b5ff201f4bea4286e9ed015a2043cf2394182232")))
         (sha256
           (base32
-            "1pqp46dk423j4iiiqx5ddijvinlyp1014amg2s7b57sqya1r19x9"))))
+            "04xq0v50rhikwfkzhwx2rzismipb2b57niks7s1svfp4jl1sg5fm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -40121,17 +40121,17 @@
 (define-public emacs-flymake-collection
   (package
     (name "emacs-flymake-collection")
-    (version "20221111.1815")
+    (version "20221113.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/flymake-collection.git")
                (commit
-                 "976ac70153a0a18da22e068c740c3394bec28545")))
+                 "274e5ec3e614e73fd0d7c3e1ffc652461bf5b5f3")))
         (sha256
           (base32
-            "1zxbks772vq4pj289n11fm79f7xk4iy69z99wvvmy4mv9mim5hrv"))))
+            "18mwz6i84y1wdw8zq13rmx8jsax6fkiqvlbngix7sp2vy8mqgv5c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -46877,17 +46877,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221112.1350")
+    (version "20221113.428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "e52bdccfe4dba1c7bce8e509aa48abac4ec6fcfd")))
+                 "7523b98111c188daca98fb21686b1b759c7ff7da")))
         (sha256
           (base32
-            "0lq1w15w3zv875jlv74w8j2h55sax6h13irs4lx2acadmv4ww71p"))))
+            "1wxbf6bz0w5q2fwhjyj85ajfv4lk97wzvvdis00ryxldlxhbf5l4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -68716,17 +68716,17 @@
 (define-public emacs-lurk-mode
   (package
     (name "emacs-lurk-mode")
-    (version "20221107.1338")
+    (version "20221113.219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lurk-lang/lurk-emacs.git")
                (commit
-                 "b341ffbf5959bbbc7dd33b35e207ce8b7bfbf565")))
+                 "0eb856f771aa18e55db6b027c75b944a92c15464")))
         (sha256
           (base32
-            "1hs4msdqi1m74ypgqrzag49x868i2vxf6wybb6kcc26kb9f36pwp"))))
+            "0z4g8lvcdhl2bk3r7yrfw903bnwpii2s71alqpilh9anm6yqsjnv"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("lurk-mode.el")))
     (home-page
