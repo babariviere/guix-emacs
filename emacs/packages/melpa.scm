@@ -5130,17 +5130,17 @@
 (define-public emacs-auto-dark
   (package
     (name "emacs-auto-dark")
-    (version "20221103.2344")
+    (version "20221114.343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/auto-dark-emacs.git")
                (commit
-                 "a4bca75874e79ce62d2cd1dc3d97542e46fe0dfe")))
+                 "10a42b015e35e8c6a99a3fb5ceeb1db0f5893cee")))
         (sha256
           (base32
-            "0nx0ji1pz5r9yc9djzpd5d728yrsx3m4jchjxkjbb8484annnk6r"))))
+            "0gdmjmdzb1p21mrrsl6kv3fvzwmvmbkx9yydn7rylv19zfgj4iwh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/LionyxML/auto-dark-emacs")
@@ -6865,6 +6865,28 @@
       "Highlight the cursor whenever the window scrolls")
     (description
       "Documentation at https://melpa.org/#/beacon")
+    (license #f)))
+
+(define-public emacs-beans
+  (package
+    (name "emacs-beans")
+    (version "20221113.1906")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/TheBlackBeans/emacs-beans.git")
+               (commit
+                 "2e21b4d40fcc89024e44884a601b95787aef2152")))
+        (sha256
+          (base32
+            "0h0jibjwh55krfh4x846dd43ih8q6qx40cf23427bynwzhbbfprv"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/TheBlackBeans/emacs-beans")
+    (synopsis "Major mode for Beans grammar")
+    (description
+      "Documentation at https://melpa.org/#/beans")
     (license #f)))
 
 (define-public emacs-bech32
@@ -42725,17 +42747,17 @@
 (define-public emacs-frog-jump-buffer
   (package
     (name "emacs-frog-jump-buffer")
-    (version "20220414.1935")
+    (version "20221114.141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/frog-jump-buffer.git")
                (commit
-                 "ff0cfe9cb4a60d855f0754b741a9417ee413dee0")))
+                 "ab830cb7a5af9429866ba88fb37589a0366d8bf2")))
         (sha256
           (base32
-            "0pp0z6zk6lni6pgkrh8is4c99v6npddaarsykwdxai0qxim9q4f3"))))
+            "0996896n7135xzxxhh50phhb1y06rcycj2gxx7p26p7aa72ambc3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-avy emacs-dash emacs-frog-menu))
@@ -62258,17 +62280,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20220708.1813")
+    (version "20221114.251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "7ad6d73aff49b346dc9f577ba8a450ac0a8d2aa5")))
+                 "a324bc66b00752607b6d2db00d798c81aff541f0")))
         (sha256
           (base32
-            "03q7d5mc0jlgmwxm0lmlrc5pcbpvdxmmbi8qm5wsk9xazdynn7fk"))))
+            "0y4papvkbpyikfn5s95yy9miaz7kmy18fw383niwg46258f4104j"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -68337,17 +68359,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221109.1221")
+    (version "20221114.349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "31d6fbc3da93e1fe4542a96001b2eca2c669e7f7")))
+                 "e870ce21d33ce84e1e7e29d72ed7e7451ea11dae")))
         (sha256
           (base32
-            "0j6avqkjkvfkmxgjhbxbdi9w2lciqjpbwlr0pvx3p626j21gqsi6"))))
+            "1y3labpggykxq50ygfprkjy0kmh64q6nddzyk7j41c2c3aymx49s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -94620,6 +94642,28 @@
       "Documentation at https://melpa.org/#/ptemplate-templates")
     (license #f)))
 
+(define-public emacs-ptree
+  (package
+    (name "emacs-ptree")
+    (version "20221106.1649")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/alpha-catharsis/ptree.git")
+               (commit
+                 "23cb9093f99b9869606f8d54fa5c45ea35fcc789")))
+        (sha256
+          (base32
+            "0vxji487f1yfffjs8vgi8f4l2ssj3n26lr2sx5xzdj70x2w5rz04"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/alpha-catharsis/ptree")
+    (synopsis "Property tree data structure")
+    (description
+      "Documentation at https://melpa.org/#/ptree")
+    (license #f)))
+
 (define-public emacs-pubmed
   (package
     (name "emacs-pubmed")
@@ -101322,17 +101366,17 @@
 (define-public emacs-scad-mode
   (package
     (name "emacs-scad-mode")
-    (version "20221113.1728")
+    (version "20221114.559")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/openscad/emacs-scad-mode.git")
                (commit
-                 "d862a9ad8a570703709d096478494b6705d33ad0")))
+                 "188c9708e06f59c580866e4b9ead81513dc92df0")))
         (sha256
           (base32
-            "19xim5b9vab0vsvjji1rgf97w2brc4bsqby1ihzdzzyx7zvngd52"))))
+            "08l9kxxzzm3apfrrwvkqsxyscal8357b7w87c3aagbbwvmxc3zfw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/openscad/emacs-scad-mode")
