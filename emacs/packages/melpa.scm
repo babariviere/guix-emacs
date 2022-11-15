@@ -15782,17 +15782,17 @@
 (define-public emacs-company-posframe
   (package
     (name "emacs-company-posframe")
-    (version "20220906.933")
+    (version "20221115.646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/company-posframe.git")
                (commit
-                 "b67ec1fa83229187fdf1d3dc5576f81a37a2b369")))
+                 "eefcc72179602f8e0d454405899b0cfa0e7788ec")))
         (sha256
           (base32
-            "0ncvrj57w1wa4q6rjkzsd46wjixnqxmcfbm0vi78fcq8avqjry7y"))))
+            "0znwrcq8mm9zl14b1c7yk738vig0g3fsfpzpdxxh0kdapbmw3f2w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-posframe))
@@ -68809,17 +68809,17 @@
 (define-public emacs-lurk-mode
   (package
     (name "emacs-lurk-mode")
-    (version "20221113.219")
+    (version "20221114.2218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lurk-lang/lurk-emacs.git")
                (commit
-                 "0eb856f771aa18e55db6b027c75b944a92c15464")))
+                 "568fdce7b80a3d71d09369318b18f86de2372105")))
         (sha256
           (base32
-            "0z4g8lvcdhl2bk3r7yrfw903bnwpii2s71alqpilh9anm6yqsjnv"))))
+            "03d2xlyw9bqd9wpxxim63c43jpdnjnxi2xyp16359zhxs2np9src"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("lurk-mode.el")))
     (home-page
@@ -99832,17 +99832,17 @@
 (define-public emacs-robe
   (package
     (name "emacs-robe")
-    (version "20221108.40")
+    (version "20221115.149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/robe.git")
                (commit
-                 "9211e329c717a7c63ef1347e583274c1fd1e019a")))
+                 "c29b47f588715b911da4588a59f3a5245f844138")))
         (sha256
           (base32
-            "1d3psvi6x9pizchx39hfnfma9033blns6j06b32109798mqddk8n"))))
+            "05b60l9pn4hh3fdxlk0q98qi2w283a62x7jw02v958y33p030bqd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inf-ruby))
     (arguments '(#:files ("*robe.el" "lib")))
