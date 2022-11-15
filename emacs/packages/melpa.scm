@@ -8298,17 +8298,17 @@
 (define-public emacs-boogie-friends
   (package
     (name "emacs-boogie-friends")
-    (version "20221101.650")
+    (version "20221115.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/boogie-org/boogie-friends.git")
                (commit
-                 "56eb60374064774e7736538b18a5c2bbc80afac9")))
+                 "5b32e4859823ed7f5e70fd5d2eac5d813a8e3e51")))
         (sha256
           (base32
-            "1fa7g2warm1clwibvpapjq5jwnga8vmg2673yiqj0qhd054i2v7h"))))
+            "1gihjkxnq4mqlcgjhmfbf4i7v7zyqy01ls2ac10pa5k1db2g1nbc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -21213,7 +21213,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221114.2038")
+    (version "20221115.1340")
     (source
       (origin
         (method url-fetch)
@@ -21223,7 +21223,7 @@
                ".tar"))
         (sha256
           (base32
-            "0qp7ca16jkqf5kk9dv9rx2gfz4jh61wk1mh4649xm068q5lvw3jn"))))
+            "05c5vjj1sw8myizx4wy37jpy7ys0n5q4fdqfah0wing85rz3g7ca"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -32748,17 +32748,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221109.2247")
+    (version "20221115.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "7c3343cef739ae223eb3ca991897d97f2d017462")))
+                 "5ce46a1fc175a8f13507ce2b6ec4c3618923f093")))
         (sha256
           (base32
-            "1wcm5v6rfvql04jkwyc1r87kj0pf683yj10cb5kbg8ijwzyqca4j"))))
+            "19mkwjnsq04mldc70mimkl7bc9mqigc619rpzc9dl7z65z7fgk8c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -70985,7 +70985,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221114.1032")
+    (version "20221115.1404")
     (source
       (origin
         (method url-fetch)
@@ -70995,7 +70995,7 @@
                ".tar"))
         (sha256
           (base32
-            "0fjwqz2b5wlw6xaqd4211i15h1pm697al7w8b0npbskl3xxrynk3"))))
+            "0iiic6vg87bbdicfsvip93g0xg95hc65bpj5iq5gvy3s2rvf7482"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -77577,17 +77577,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20221105.1730")
+    (version "20221115.1134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "82aa1acc0c6a66eb3b771357e513eb4d16f9f276")))
+                 "5ba7684445b9338ab289d502d4688d9aff3d8803")))
         (sha256
           (base32
-            "0q0zs4yqb6rdhzp7r8xz1291mwcxl36fvlcyg8x13b1mk43p2bbp"))))
+            "15f6f4wm0k99ipzd7q3iv4w1ch534wyrnm0vhqa25k0sz2skzssr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -79877,17 +79877,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20221110.1824")
+    (version "20221115.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "05a775b12e148b28c9af73d921ac1c8d5ee8f446")))
+                 "95bf7624e26adb29925e4609dd0aeacdb29c5bc5")))
         (sha256
           (base32
-            "17ifdhxgbn3iicpagspqj21x0ch5kkzc1xjqbhsxp8hcqwzf3dv7"))))
+            "17ymp9z735cisb7bjdcmqmhv88n2vhzg3l7708jcj6a588i3sbf3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -121176,17 +121176,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221114.1842")
+    (version "20221115.1401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "b87e771348af1516fb0491033195333449e0fa65")))
+                 "814114b3dfe44ac477831c8ca5da0050a9d0fdf1")))
         (sha256
           (base32
-            "109i208ylkhhgixm7rp3wm7y0480ss0bv1q4vqa720a5mllr826h"))))
+            "0p0l8q1m3mj9lfss2sjbglpcp4dxzf46zjl9c2vzqf2v7hxlps2a"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
