@@ -7516,17 +7516,17 @@
 (define-public emacs-bind-chord
   (package
     (name "emacs-bind-chord")
-    (version "20221115.1728")
+    (version "20221115.2328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "149ecf4a5d55a459a570011444e72cea0a002eec")))
+                 "696f068676c7abf6c7a4cf7b56fba1d1066e1904")))
         (sha256
           (base32
-            "1bavzvi4458jh3d6xszvmmiflbbakyi0aw9g47dv40j9m1af5jmb"))))
+            "0idv6kmnvaa7smydgyjr4ay8nvw2y37v4a6cwky08p3px2m2mrj5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-bind-key emacs-key-chord))
@@ -7542,17 +7542,17 @@
 (define-public emacs-bind-key
   (package
     (name "emacs-bind-key")
-    (version "20221115.1728")
+    (version "20221115.2328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "149ecf4a5d55a459a570011444e72cea0a002eec")))
+                 "696f068676c7abf6c7a4cf7b56fba1d1066e1904")))
         (sha256
           (base32
-            "1bavzvi4458jh3d6xszvmmiflbbakyi0aw9g47dv40j9m1af5jmb"))))
+            "0idv6kmnvaa7smydgyjr4ay8nvw2y37v4a6cwky08p3px2m2mrj5"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("bind-key.el")))
     (home-page
@@ -25085,17 +25085,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221114.828")
+    (version "20221115.2354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "6134c01994acceaa0978eece36de07fec76c2d4b")))
+                 "c6a84a93c687b6ada6ea297135125cff232520d9")))
         (sha256
           (base32
-            "1w318z1c99hbnw8da9h9jkwph3vqzd5yqjdr672sqnhwca6p8w1k"))))
+            "1krm1pn73wk1s3gvif4vk7q281nx0syh5dfai3lmkd6jwphwhzxj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -40748,17 +40748,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20220922.1914")
+    (version "20221115.2305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "f30d3ddb5b27bd700d3965709125940df32217af")))
+                 "5f7bc69f6462ff12b57ec8fa687fef812403d8ff")))
         (sha256
           (base32
-            "1xq4lsqvfwdhszgs7dzvm8rcdp0xpahk0ppjmx46xng3lqq885rv"))))
+            "1s6nwfs3wq4rwjjma76wfx41kbvb813gmklllml56ad0c8av8piy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -43546,17 +43546,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221104.426")
+    (version "20221115.2228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "04dbdacfeca0190856abad859360da4bb873f9dd")))
+                 "15dfe0fceea4d3508cd22a05fee18b617f84df2f")))
         (sha256
           (base32
-            "0dd20cq3nz4jjysaqx2aiqqaxvkfkbj2x4zm2mz3pd4rmydckj2y"))))
+            "10f048rkcw0rnn03dq9v5bgg61zclznnsl6hl9sqjanb16vhs5lp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43699,17 +43699,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20221104.427")
+    (version "20221115.2230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "f5e82dc0f5a076335f201885a7edbefaa1ad435f")))
+                 "961c9630f90733f517a9124750e72da55b569f10")))
         (sha256
           (base32
-            "13qxg1npm0pmnml5q268k5xk1clyqldp8v200ihrqwqlc3ga7f36"))))
+            "1hhn4nrhwnkrks1kij27dza0zlj0z6jpw9k9nqqswb3h9qll3nvz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -55416,17 +55416,17 @@
 (define-public emacs-hnreader
   (package
     (name "emacs-hnreader")
-    (version "20220928.423")
+    (version "20221116.433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-hnreader.git")
                (commit
-                 "8481681c9b2f3bd1ddab12a657f5f3827e288ad7")))
+                 "38ee74091ec65a46bb5c3dfa5b0cacc874bca676")))
         (sha256
           (base32
-            "0ls4q79s361bwa89g1iq3mk6a9d5q3f5sldip8ww42dafmd9smbi"))))
+            "1a9ibsq8byiwsmlzxvh3dia0mlgpyqvfcfksig8sn8pcw86i0wma"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-promise emacs-request))
@@ -107278,17 +107278,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221112.139")
+    (version "20221116.128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "73e7279bb95b2e9640b9dfbe3f6ffea366da90d1")))
+                 "15253511b12375766644ecdfba31ba9449da0c91")))
         (sha256
           (base32
-            "0w1q2bixa061ddgh7a7mlaai4hcazi02avs6blcanckcl4jy3xvc"))))
+            "08p84aqz2q92l8qzxdabc0hqcnbm4ah3hik9lpfd54mcr69665rr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -108033,17 +108033,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20221110.2251")
+    (version "20221116.52")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "d8b801b192debb72c22506e8391bc35ccca822ff")))
+                 "689d27ed94254e3a3ce5a104057acc525e68a2ff")))
         (sha256
           (base32
-            "09p9n0nr9464g5xw4kzwvvbyvw5m4pils34i295ca1vnw36r9y8x"))))
+            "0d14p5ijhs3aii7bzlbkaj7wwsbky2ar8mw55qqvz247b0zr4061"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -116266,17 +116266,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20221115.1728")
+    (version "20221115.2328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "149ecf4a5d55a459a570011444e72cea0a002eec")))
+                 "696f068676c7abf6c7a4cf7b56fba1d1066e1904")))
         (sha256
           (base32
-            "1bavzvi4458jh3d6xszvmmiflbbakyi0aw9g47dv40j9m1af5jmb"))))
+            "0idv6kmnvaa7smydgyjr4ay8nvw2y37v4a6cwky08p3px2m2mrj5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
