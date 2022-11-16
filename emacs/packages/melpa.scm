@@ -7516,17 +7516,17 @@
 (define-public emacs-bind-chord
   (package
     (name "emacs-bind-chord")
-    (version "20221026.1834")
+    (version "20221115.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "5c95dcb1e8690ab5f15342dc9d4bedd599f1650f")))
+                 "149ecf4a5d55a459a570011444e72cea0a002eec")))
         (sha256
           (base32
-            "16986nlca7qnmk22sq5vn05pmfdhgcww21djyxh9xx7k4hkgwn9g"))))
+            "1bavzvi4458jh3d6xszvmmiflbbakyi0aw9g47dv40j9m1af5jmb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-bind-key emacs-key-chord))
@@ -7542,17 +7542,17 @@
 (define-public emacs-bind-key
   (package
     (name "emacs-bind-key")
-    (version "20221114.2007")
+    (version "20221115.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "87c03dffc79e7980468231a797c412d88aed9bc7")))
+                 "149ecf4a5d55a459a570011444e72cea0a002eec")))
         (sha256
           (base32
-            "1lw2wrbxdc97bwdxk8nrb106wrdcflg7bf8wh7ydn9rx0hmgyzak"))))
+            "1bavzvi4458jh3d6xszvmmiflbbakyi0aw9g47dv40j9m1af5jmb"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("bind-key.el")))
     (home-page
@@ -21213,7 +21213,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221115.1340")
+    (version "20221115.1440")
     (source
       (origin
         (method url-fetch)
@@ -21223,7 +21223,7 @@
                ".tar"))
         (sha256
           (base32
-            "05c5vjj1sw8myizx4wy37jpy7ys0n5q4fdqfah0wing85rz3g7ca"))))
+            "1maswjzv1v6c73h8gp4nlx3zhfb8yn1d34gdnkqr9337qbjjbih4"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -68383,17 +68383,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221114.349")
+    (version "20221115.1951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "e870ce21d33ce84e1e7e29d72ed7e7451ea11dae")))
+                 "f5d521d56cfef54d0f102680e956a856347d2c96")))
         (sha256
           (base32
-            "1y3labpggykxq50ygfprkjy0kmh64q6nddzyk7j41c2c3aymx49s"))))
+            "0y5q6f20xb3jxsnmz5rf9nj26158kn3sx7bbnbhxnhf6cfmax4ia"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75305,17 +75305,17 @@
 (define-public emacs-my-repo-pins
   (package
     (name "emacs-my-repo-pins")
-    (version "20221111.1020")
+    (version "20221115.1729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NinjaTrappeur/my-repo-pins.git")
                (commit
-                 "98500ddde2d9c1e19ec319a7bab28bd2eb0dbcab")))
+                 "e6d7d6c21c53d9120e54d5f68a6277f49acbe3bc")))
         (sha256
           (base32
-            "0gnqb1n1cxrbr3cfgnnjrzkq9pmrnn2zbrpig63p9vgffs3xr2hd"))))
+            "0a1d5z8ma5b8mjkaiibblcf1x2rnlbr5zc0nxjnhv2lw569iv3ql"))))
     (build-system melpa-build-system)
     (home-page
       "https://alternativebit.fr/projects/my-repo-pins/")
@@ -98939,17 +98939,17 @@
 (define-public emacs-request
   (package
     (name "emacs-request")
-    (version "20221022.1122")
+    (version "20221115.1450")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tkf/emacs-request.git")
                (commit
-                 "2c33e451879c4ea406a4a2e076636188eb4b9920")))
+                 "fe567ec0222a1ba658866697a9e7fb6b63d71ff7")))
         (sha256
           (base32
-            "0jmfjsgvbl0yc7fynppfwbxi0nf09057cr479biiw5an5pd0d8r1"))))
+            "0k0pzyi5fj06fcv7zy35fz5fnixa8m4zb4v1a6ky3njwrmsjmq57"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("request.el")))
     (home-page
@@ -110480,17 +110480,17 @@
 (define-public emacs-tab-bar-echo-area
   (package
     (name "emacs-tab-bar-echo-area")
-    (version "20211013.1942")
+    (version "20221115.1953")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/tab-bar-echo-area.git")
                (commit
-                 "d0d51ecbc5929eb7752b387c5bdfe4d879e78224")))
+                 "3ab62ca7db3c1d83f96b7971ea4b3b0101b51ae9")))
         (sha256
           (base32
-            "1p3ikc776mr18r5py0sw098ahsj9w45ikqns4wbgr2fsjmgcgksr"))))
+            "0grapqwfqjbi9yzcirgd8gmkg4zkplagwvdyal4jd4aajnnx6sh8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/tab-bar-echo-area")
@@ -116266,17 +116266,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20221114.2007")
+    (version "20221115.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "87c03dffc79e7980468231a797c412d88aed9bc7")))
+                 "149ecf4a5d55a459a570011444e72cea0a002eec")))
         (sha256
           (base32
-            "1lw2wrbxdc97bwdxk8nrb106wrdcflg7bf8wh7ydn9rx0hmgyzak"))))
+            "1bavzvi4458jh3d6xszvmmiflbbakyi0aw9g47dv40j9m1af5jmb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
