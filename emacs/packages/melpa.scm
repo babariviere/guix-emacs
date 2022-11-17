@@ -16660,17 +16660,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221114.2110")
+    (version "20221117.807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "0dbae1059c6bc0e4291730b32d84eb04a6ead148")))
+                 "d1463da28e9954308b3eb167300f851a8b1e9547")))
         (sha256
           (base32
-            "14z8r6ayzp3yvicnkk5a68vz46fxkajfbrz0yy6n39rxqxwbsdjx"))))
+            "1bym9ks8gjhakgpmhzasq6anrr5x71k3ybxxyw7r9vnqvxl9086v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -19787,17 +19787,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20221014.1942")
+    (version "20221117.741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "2879578abf72bf734675ce70e8dc977e1f43eca5")))
+                 "00c8b9c56f6229670aec2e1d0e2b59df332dd83c")))
         (sha256
           (base32
-            "0ixnzx2hkg129lxz6dgy6j97blj19zr24604449prwdw29100ha1"))))
+            "0ly3998zcdn4j04z73168hfs1n1hrwq9608f368sxm7jz5mkk4m3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -28032,17 +28032,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20220906.822")
+    (version "20221117.841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "5006ef64325911785225dc37004f50d4ff51abb4")))
+                 "125e0f059d9f186efa2a04e317b59245963d6f11")))
         (sha256
           (base32
-            "0z485gf21qvk5k2xd056ja3fm96z8jazy4zf8hzp2hzwhi338vww"))))
+            "1lrzrf759qqa329yi7hx81b12lli530ih10p2jghxbhqgzqndssz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -46947,17 +46947,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221113.428")
+    (version "20221117.1309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "7523b98111c188daca98fb21686b1b759c7ff7da")))
+                 "dbdbafc3fe9ab4f0c5023212b6e8dcfbde6a4cf9")))
         (sha256
           (base32
-            "1wxbf6bz0w5q2fwhjyj85ajfv4lk97wzvvdis00ryxldlxhbf5l4"))))
+            "1xwbp7f8m7vwwvyxradi0cr29053r70lnk6z69yciq3rff700vkg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -70984,7 +70984,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221115.1404")
+    (version "20221117.1357")
     (source
       (origin
         (method url-fetch)
@@ -70994,7 +70994,7 @@
                ".tar"))
         (sha256
           (base32
-            "0iiic6vg87bbdicfsvip93g0xg95hc65bpj5iq5gvy3s2rvf7482"))))
+            "1mib525pm7954vzlgc44wppysis8n1zqk406zp3fpkpli4x9vwsv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -72154,17 +72154,17 @@
 (define-public emacs-mew
   (package
     (name "emacs-mew")
-    (version "20221117.122")
+    (version "20221117.1310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kazu-yamamoto/Mew.git")
                (commit
-                 "6b69ec4d075023cb0d6c7f60b16403e36c2c68ee")))
+                 "7e4dd83a1896f44e1b6c820263c850e3b33eec50")))
         (sha256
           (base32
-            "0nqws4ysfr64aj6alhwvjnpa51z4al10b20w735m23lldkhzdxa7"))))
+            "0zjnqnrz4gy1rikrgg8smg62wy3m50w0gpsq644606s24hvf7kwc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("*.el" "etc" "info/*.info*")))
@@ -73407,7 +73407,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221101.424")
+    (version "20221117.1155")
     (source
       (origin
         (method url-fetch)
@@ -73417,7 +73417,7 @@
                ".tar"))
         (sha256
           (base32
-            "1ljwppapvvradcsf5q60vxd26mlq32853jrv5bj87l7gxwchifgm"))))
+            "06iqaf1cnipx6j530jm4nk7fpr6ahx9g4ds543s1zxh46jv8x4bg"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -82746,17 +82746,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20221116.1016")
+    (version "20221117.1124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "c2dfe1b319ad1a3f94d5d2c59fea0b85f77e2ab0")))
+                 "f4d9c343c75dc0bbda5375d5315cdee8c819a61e")))
         (sha256
           (base32
-            "1iki653bmvg11bazxj525r6hrq7z98jwcj067cq27294h98i3dn3"))))
+            "0vxw5f8fcx6n6gkmzxh0vd0gmpzjaczsa3a9ig1hxz6zw46q1vzi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -95578,17 +95578,17 @@
 (define-public emacs-pylint
   (package
     (name "emacs-pylint")
-    (version "20221111.2150")
+    (version "20221117.1303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/pylint.git")
                (commit
-                 "8958821959b7380ba762a29f607cfcacf3a5ca1f")))
+                 "bddb91610b6b6aa1e7fee96b6be3be69dfe3695e")))
         (sha256
           (base32
-            "0zl84fmvk7rm32ljcca70zcn3k2mq1mfl158lf6ypypb33sa4zbv"))))
+            "0n7d70l9bjz210dazvn13mr7s0klinnqr36n59fzsrij6xp46kaq"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "epylint.py")))
     (home-page "unspecified")
@@ -118194,17 +118194,17 @@
 (define-public emacs-vterm
   (package
     (name "emacs-vterm")
-    (version "20221102.1407")
+    (version "20221117.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akermu/emacs-libvterm.git")
                (commit
-                 "5de2684d22d025a227b7d0d5bab89fa8fb6dbfda")))
+                 "fd2a0255b1d8c0f112b3e2a5e01ff2e510d05def")))
         (sha256
           (base32
-            "1an38rwg2q7iyrbn7ynfmx7jdb82m59lgm77ggwwq76ipncwvy2a"))))
+            "1wb8yqw9vv1xglrp1c9f4r12wz3vcpna3ib7l3jziy251a9jjn6b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -118762,17 +118762,17 @@
 (define-public emacs-wanderlust
   (package
     (name "emacs-wanderlust")
-    (version "20220904.1506")
+    (version "20221117.1230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/wanderlust.git")
                (commit
-                 "d99ffe08649aa2f7e781e701b39d7aba2bcdc183")))
+                 "f5cb2f0cf5e2c893acf2e669fd549836828dfdfc")))
         (sha256
           (base32
-            "0141618ncs203d9009cdky5prnjm86nv9chkhiw8wycyc9dipvdv"))))
+            "1ijs57wv1vrh33vn311hgkp42vlmjyi998nc4qdrqi7yy9j8hl1h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-flim emacs-semi))
