@@ -55415,17 +55415,17 @@
 (define-public emacs-hnreader
   (package
     (name "emacs-hnreader")
-    (version "20221116.433")
+    (version "20221117.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thanhvg/emacs-hnreader.git")
                (commit
-                 "38ee74091ec65a46bb5c3dfa5b0cacc874bca676")))
+                 "8444e177035e236e991f9ea73074c053a45426ad")))
         (sha256
           (base32
-            "1a9ibsq8byiwsmlzxvh3dia0mlgpyqvfcfksig8sn8pcw86i0wma"))))
+            "0v49fvc3phvff2scwlvjdy98y91dmkywij9dl8j95i5iahksq2fp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-promise emacs-request))
@@ -72154,17 +72154,17 @@
 (define-public emacs-mew
   (package
     (name "emacs-mew")
-    (version "20210625.240")
+    (version "20221117.122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kazu-yamamoto/Mew.git")
                (commit
-                 "fc4bca6d95d8b8d5e169ecf1433d968c2eec299d")))
+                 "6b69ec4d075023cb0d6c7f60b16403e36c2c68ee")))
         (sha256
           (base32
-            "0lcy73df204ww4kmbkfz5cbpmdwbsn7z47j5by89izn14dczllvq"))))
+            "0nqws4ysfr64aj6alhwvjnpa51z4al10b20w735m23lldkhzdxa7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("*.el" "etc" "info/*.info*")))
@@ -102611,17 +102611,17 @@
 (define-public emacs-separedit
   (package
     (name "emacs-separedit")
-    (version "20221114.1213")
+    (version "20221117.642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/twlz0ne/separedit.el.git")
                (commit
-                 "36ccd91c211f0a1a6acc253c9537d4ffd0d73931")))
+                 "91a41ff8044e7cbeb82159f6c595393606e5e744")))
         (sha256
           (base32
-            "0bbj6sp2pps1zy2603bb94989g6j9nixal59jqiczlaicng078n1"))))
+            "0bl6wvw1z5bax4msmdahxi0y4cp85nb4s90j32r8vzn41s3pyabz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-edit-indirect))
@@ -107277,17 +107277,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221116.128")
+    (version "20221117.127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "15253511b12375766644ecdfba31ba9449da0c91")))
+                 "9364053159df98809996f3dce622b192638e40ee")))
         (sha256
           (base32
-            "08p84aqz2q92l8qzxdabc0hqcnbm4ah3hik9lpfd54mcr69665rr"))))
+            "046vfbz6capsymqniclbsyhx6zc1l25z6391709kchyl4as2qlp7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -111704,17 +111704,17 @@
 (define-public emacs-terraform-mode
   (package
     (name "emacs-terraform-mode")
-    (version "20210621.1953")
+    (version "20221117.409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/terraform-mode.git")
                (commit
-                 "e560caaa9d9a11b0868adf6d9dcae5ebb5055730")))
+                 "80f0433358b79ed4ba88c51829c7359baa1af8b1")))
         (sha256
           (base32
-            "0r4zw6jwn5v1xzzbc1195jblhcg3ikbmz3wiwy462qzib56bj8d3"))))
+            "0gcxsd9zv47hzq1d5xqblyzgcf7vk215743s7x7ciiiwlg5xndnw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-hcl-mode emacs-dash))
@@ -118465,7 +118465,7 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20221116.620")
+    (version "20221116.2331")
     (source
       (origin
         (method git-fetch)
