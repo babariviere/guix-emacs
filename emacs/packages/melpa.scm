@@ -17389,24 +17389,24 @@
 (define-public emacs-corfu-prescient
   (package
     (name "emacs-corfu-prescient")
-    (version "20221112.1827")
+    (version "20221118.307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "50b7b85d866106ff624a2a5f9c2d129d02480781")))
+                 "a000de747515aa7e7ad1ea0eab711864a4be0ab5")))
         (sha256
           (base32
-            "12iavdba4mm8wkvb8ky80az0x8w7fwh83p3lj56rp3xqv1balfv7"))))
+            "1d1d4msmkc0cvd6vva0pfq72i07p0my9wj2s8zvj60pvah620yl0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-corfu))
     (arguments '(#:files ("corfu-prescient.el")))
     (home-page
       "https://github.com/radian-software/prescient.el")
-    (synopsis "Corfu integration")
+    (synopsis "prescient.el + Corfu")
     (description
       "Documentation at https://melpa.org/#/corfu-prescient")
     (license #f)))
@@ -20156,17 +20156,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20221116.1155")
+    (version "20221117.2350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "edb73d24b4e5a4f9f31e21cc0da9bab994a2e045")))
+                 "9359285ccfad1d26b031a8892673225d813ca96f")))
         (sha256
           (base32
-            "16i5wvrrldp3ia3s5jbvbdn7ldc7ai3fvhyb44yyf73hpmkpk5li"))))
+            "0pl99s80jq7p96gxy0jlp0pvx8jclwf3xghsc49xnhb8qnlbrb6b"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -21213,7 +21213,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221115.1440")
+    (version "20221117.2210")
     (source
       (origin
         (method url-fetch)
@@ -21223,7 +21223,7 @@
                ".tar"))
         (sha256
           (base32
-            "1maswjzv1v6c73h8gp4nlx3zhfb8yn1d34gdnkqr9337qbjjbih4"))))
+            "0lgvr08aj8f9sg33mr28piyxd4jn8dcgxzs8sk04j6kshl375iwm"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -27536,17 +27536,17 @@
 (define-public emacs-eldoc-box
   (package
     (name "emacs-eldoc-box")
-    (version "20221008.2315")
+    (version "20221117.2216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/casouri/eldoc-box.git")
                (commit
-                 "5b893437c8594028653d676015bb580574d9f0e1")))
+                 "3021dcd85764b6a918e1689bf649c16918c339da")))
         (sha256
           (base32
-            "0byzzbjg4lkma2yn22z2b5267irr4780k53hbhrk970gikxh8fll"))))
+            "14blf7as7j6k7g8ry8a45c5zpgjca79axwr4b3yk3hcp9q9rvzfk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/casouri/eldoc-box")
@@ -49679,17 +49679,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221114.1839")
+    (version "20221117.1800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "43bbf97ee4a3e76ce32d582223a1dd4ae7ca6685")))
+                 "8de5444df2bafd1b3a91acd0e00cf1e0ee81682b")))
         (sha256
           (base32
-            "1ya9021xnc3x2ac7b4axhvqr055wps9r982l0w5pam3hmihmhzpb"))))
+            "09dk0dz8fkigi3zbinq76310nnnw29z4pca0ypsn2z6l0l3hg7zb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -52041,17 +52041,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20221007.1113")
+    (version "20221118.503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "dbee5c668c49e5b77907f1d9887e2a44f7b196a3")))
+                 "c5893f0cd92b20dcdcd5dc89d9ba6200a95c3f80")))
         (sha256
           (base32
-            "06bghgrprbxk2svvh20lbi0lb29x8rc7zgm1j8s48zn9w1aqp4hh"))))
+            "0lh7xm295z6fahymxa16jb49pnb8d4fklilbvza8ckbnh422ga31"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -67154,17 +67154,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20220518.204")
+    (version "20221118.341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "e509c806138cbe164c0d655cc7d662f94c386c9b")))
+                 "c4baefed8e62c2d58bc675624f8094d81361f9c3")))
         (sha256
           (base32
-            "1hc4zggmvizhbim37l61jk5xmnm0r3vn8d2vzmvzw70kiwiwss53"))))
+            "01w421q8dkvw44zwxmp5kx47194l6qw6zsg9bgpxs21355py2nxz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -72085,17 +72085,17 @@
 (define-public emacs-metaweblog
   (package
     (name "emacs-metaweblog")
-    (version "20220919.2119")
+    (version "20221118.536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "a87e5d665838478dc03416f078e7d6f2100604ea")))
+                 "b99853bdfc5059ecfa13f953de843a38418d5bbb")))
         (sha256
           (base32
-            "1zfkny44mvwdlgh0dx0kb7wrlcazfhasbm19yp604adn0nvi9vvm"))))
+            "1dsrk0v1qas1qiwnjpwp6lniz4j2bg8grbyhgcr0snyqwk3j4v4a"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("metaweblog.el")))
     (home-page
@@ -85292,17 +85292,17 @@
 (define-public emacs-org2blog
   (package
     (name "emacs-org2blog")
-    (version "20221030.1910")
+    (version "20221118.536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "a77a549de75e1f1c8c806b30f7fd2dd0b2ea8593")))
+                 "b99853bdfc5059ecfa13f953de843a38418d5bbb")))
         (sha256
           (base32
-            "1c6k3czh54hn3gm8f30l2hmszmpnazph3q0n2qkdf979334h9079"))))
+            "1dsrk0v1qas1qiwnjpwp6lniz4j2bg8grbyhgcr0snyqwk3j4v4a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-htmlize
@@ -92685,17 +92685,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20221015.727")
+    (version "20221118.614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "3084cb6eb366d26b0f5a4aa9baffb297178be3b8")))
+                 "48b7130ca3b5c98bdb21bf99b64a3536acf2b0eb")))
         (sha256
           (base32
-            "0y8mm8wpylvnmpfvk56hfs550cd181fwwxpbqip7px1wc0wqfmhl"))))
+            "1v8jkrgfkj2a08m82dz7vrlyjw3wrk3nd33wi4c166agssznlmih"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
@@ -93079,17 +93079,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20221112.1813")
+    (version "20221118.307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "50b7b85d866106ff624a2a5f9c2d129d02480781")))
+                 "a000de747515aa7e7ad1ea0eab711864a4be0ab5")))
         (sha256
           (base32
-            "12iavdba4mm8wkvb8ky80az0x8w7fwh83p3lj56rp3xqv1balfv7"))))
+            "1d1d4msmkc0cvd6vva0pfq72i07p0my9wj2s8zvj60pvah620yl0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -102370,24 +102370,24 @@
 (define-public emacs-selectrum-prescient
   (package
     (name "emacs-selectrum-prescient")
-    (version "20221112.1813")
+    (version "20221118.307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "50b7b85d866106ff624a2a5f9c2d129d02480781")))
+                 "a000de747515aa7e7ad1ea0eab711864a4be0ab5")))
         (sha256
           (base32
-            "12iavdba4mm8wkvb8ky80az0x8w7fwh83p3lj56rp3xqv1balfv7"))))
+            "1d1d4msmkc0cvd6vva0pfq72i07p0my9wj2s8zvj60pvah620yl0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-selectrum))
     (arguments '(#:files ("selectrum-prescient.el")))
     (home-page
       "https://github.com/raxod502/prescient.el")
-    (synopsis "Selectrum integration")
+    (synopsis "prescient.el + Selectrum")
     (description
       "Documentation at https://melpa.org/#/selectrum-prescient")
     (license #f)))
@@ -117437,24 +117437,24 @@
 (define-public emacs-vertico-prescient
   (package
     (name "emacs-vertico-prescient")
-    (version "20221112.1827")
+    (version "20221118.307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "50b7b85d866106ff624a2a5f9c2d129d02480781")))
+                 "a000de747515aa7e7ad1ea0eab711864a4be0ab5")))
         (sha256
           (base32
-            "12iavdba4mm8wkvb8ky80az0x8w7fwh83p3lj56rp3xqv1balfv7"))))
+            "1d1d4msmkc0cvd6vva0pfq72i07p0my9wj2s8zvj60pvah620yl0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-vertico))
     (arguments '(#:files ("vertico-prescient.el")))
     (home-page
       "https://github.com/radian-software/prescient.el")
-    (synopsis "Vertico integration")
+    (synopsis "prescient.el + Vertico")
     (description
       "Documentation at https://melpa.org/#/vertico-prescient")
     (license #f)))
