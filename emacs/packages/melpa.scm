@@ -7516,17 +7516,17 @@
 (define-public emacs-bind-chord
   (package
     (name "emacs-bind-chord")
-    (version "20221116.1928")
+    (version "20221117.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "f23d1d9a5a11626e2a90c221abf099b57df4b05b")))
+                 "9090080b15486c3e337be254226efe7e5fde4c99")))
         (sha256
           (base32
-            "0nk6z8x2v0syc98dp7syblcqphf76shyich4dqblx2dx2hmzv8w6"))))
+            "03mqkv63ink2ysy86slac8ac7a5g22bi0pwvxyncfasm43q9d0sx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-bind-key emacs-key-chord))
@@ -7542,17 +7542,17 @@
 (define-public emacs-bind-key
   (package
     (name "emacs-bind-key")
-    (version "20221116.1929")
+    (version "20221117.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "f23d1d9a5a11626e2a90c221abf099b57df4b05b")))
+                 "9090080b15486c3e337be254226efe7e5fde4c99")))
         (sha256
           (base32
-            "0nk6z8x2v0syc98dp7syblcqphf76shyich4dqblx2dx2hmzv8w6"))))
+            "03mqkv63ink2ysy86slac8ac7a5g22bi0pwvxyncfasm43q9d0sx"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("bind-key.el")))
     (home-page
@@ -27510,17 +27510,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221116.2124")
+    (version "20221117.2048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "dc46059484cdd19274e70b73ca3962c26be2582e")))
+                 "2ddf8cbe9bb4f973ecfa6012870af23b030ad6f6")))
         (sha256
           (base32
-            "05gxdbpc7zrkr1ayn90jmzi0xpw7ls3p0hcw1p5y5lh8lccj5a3l"))))
+            "1f649vm59kkwiwc3pwzvw6phnc9id8vm6jfyg05j716k2pa4q0n4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -35766,17 +35766,17 @@
 (define-public emacs-fanyi
   (package
     (name "emacs-fanyi")
-    (version "20220805.216")
+    (version "20221117.1821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/fanyi.el.git")
                (commit
-                 "031c7ab7a16113bdca2b351781dc95aff9658c9a")))
+                 "d153e25be9fd636bc2e1572e5f70069080c22639")))
         (sha256
           (base32
-            "0d9v93ll884srr8f6di1iyp396wr0bklip6cv0xydw3mimv2rv3x"))))
+            "1mbv6qnn7xhh0q2k26g6gjq3np82rzi4zqq807jzrl22wfl52hkc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -46947,7 +46947,7 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221117.1309")
+    (version "20221117.1521")
     (source
       (origin
         (method git-fetch)
@@ -116265,17 +116265,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20221116.1929")
+    (version "20221117.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "f23d1d9a5a11626e2a90c221abf099b57df4b05b")))
+                 "9090080b15486c3e337be254226efe7e5fde4c99")))
         (sha256
           (base32
-            "0nk6z8x2v0syc98dp7syblcqphf76shyich4dqblx2dx2hmzv8w6"))))
+            "03mqkv63ink2ysy86slac8ac7a5g22bi0pwvxyncfasm43q9d0sx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
