@@ -16969,17 +16969,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20221105.1202")
+    (version "20221119.811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "b93cc856d1d2dd0719926e51c5a6309bbbf60b19")))
+                 "4f5e77d36fb8256818df9042ee699954566d81d5")))
         (sha256
           (base32
-            "1k0733kymkf8f3r4xi3fja561sybbkss3p54v7kf6pcz33v6gwc6"))))
+            "06xd014f03z8mzg2a7gln2bhv260rgq4zpcwxmkwn6kg5kcn5x0l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -36594,17 +36594,17 @@
 (define-public emacs-find-temp-file
   (package
     (name "emacs-find-temp-file")
-    (version "20200117.2254")
+    (version "20221119.1350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisirs/find-temp-file.git")
                (commit
-                 "2bfcdba0d6a8a0e6faa080cb04ff0f7ed06491ba")))
+                 "601e39b052c66df4cd928cf7e308dd6a54769a99")))
         (sha256
           (base32
-            "1fr48mkrwxmpjk5lrznrr6nhnj8h6d3v984261nm44c0rzziq7vj"))))
+            "0mlzrwiv9m8404lx576gkig8icmp7v2fk36x7z1zw2r4vi6r0qc1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thisirs/find-temp-file.git")
@@ -61633,17 +61633,17 @@
 (define-public emacs-journalctl-mode
   (package
     (name "emacs-journalctl-mode")
-    (version "20201217.1625")
+    (version "20221119.901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SebastianMeisel/journalctl-mode.git")
                (commit
-                 "d5fba08dc6193db98d065e736b8f7a4816da82aa")))
+                 "c902ad94c2d043f620a44e4c9b1bd7f4d6f22229")))
         (sha256
           (base32
-            "0sicvsizkac3vagrg5vjcxjwramfnfy4gzwymgp3fwnnrmqxp5vq"))))
+            "0xp149ibvjxr04pnlfl75gfcjwa91wxvk59dr6fa6761j6phc98j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/SebastianMeisel/journalctl-mode")
@@ -62303,17 +62303,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20221114.251")
+    (version "20221119.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "a324bc66b00752607b6d2db00d798c81aff541f0")))
+                 "1e8103c281bf7781bf3246d2049165d8966710c6")))
         (sha256
           (base32
-            "0y4papvkbpyikfn5s95yy9miaz7kmy18fw383niwg46258f4104j"))))
+            "0xv5lsl21h0jg5iryg89j6qf4c97v2rw7rh5ja8bbch3s21bv69c"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -84004,17 +84004,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20221118.1033")
+    (version "20221119.1134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "a8ac1bc977efe6ee4c8d0d2ea6e2a6df8ba48fe1")))
+                 "b6d6b7179019e87b13dfdfeef28037821ed4d01f")))
         (sha256
           (base32
-            "1856c7s8xl7wdjjybihka8qfkv4qpv9ps2g9jcilmv6kq569ga16"))))
+            "0yibkc1mh8z15lpjws92d71d8vxr6svcbdnlxi9rpr1c108vqqkg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -89903,17 +89903,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221111.756")
+    (version "20221119.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "3e79c965063bc15d1e2ed9a1c152ba603b84e68a")))
+                 "dbdae7d109c16ca4b2a6f6a5fe904c66697045cc")))
         (sha256
           (base32
-            "1g3qh1xvdri2vp652jzihzvfnn39wbpy79sscaav09lkbc4phgb5"))))
+            "13fkkpimhxh91hmsp551wzrdcic5ws7wj7vjwnh8l83hsrxmxz0y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -100839,17 +100839,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221113.1000")
+    (version "20221119.1151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "1b4c99d86f7e6bd4491ba31bbc402c5639b3fe1f")))
+                 "1dfa9b5dfbab261bda7555e675ab2b6db13d0be2")))
         (sha256
           (base32
-            "0a7mq8x7cimxkwhqlr2zfh0l4qg9xrgbbflmjqaf20q18nxw5nsm"))))
+            "1lara2q3m2mxfxk8bjhal58gqwkaj1rmh9v2racydzp32hjwk6xg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -109697,17 +109697,17 @@
 (define-public emacs-swift-mode
   (package
     (name "emacs-swift-mode")
-    (version "20220924.648")
+    (version "20221119.910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/swift-emacs/swift-mode.git")
                (commit
-                 "f4529efa453f2f3051e2c8f772cd9da80147b93d")))
+                 "6d7093fb4a0b81686ffeff7e39f76027d83b7eb2")))
         (sha256
           (base32
-            "01dw8azlwfs6x9arl4kd28s03pqvza79g7dhw54v2rg42g3hpdx5"))))
+            "0x27wj5kc77qwnvzm905np37w8rn96i1d104pa882z6pd4bx46ps"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/swift-emacs/swift-mode")
