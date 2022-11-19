@@ -30499,17 +30499,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20221114.1847")
+    (version "20221118.2249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "0349dfbccd9a99cff8984ede49dca4e776459ae1")))
+                 "40bb1f5e0c4fe155d34dc6f7b002fd2560c51013")))
         (sha256
           (base32
-            "1x3w69hwr7wv72dpj5w2rvbgh7r3pvjs5nn5a0ai2c98wyx22fd5"))))
+            "1lrpg2xwk8rs8zk125fs78w5nfs210r1qq1gbmi0zvyy2xz4jfrv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql))
@@ -46947,17 +46947,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221118.1234")
+    (version "20221119.627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "460f2639ea6f509311b08d3e596f599bbf1f4f77")))
+                 "8746d229474958dc4456ef9ba4b0a258acff8e56")))
         (sha256
           (base32
-            "0pyg7gfsarjvcnk2vlr6q4gxhwns2nvkpma0in1nnxvy541mcsji"))))
+            "1znqj87xgb880aqqd10mxq5r3walhasvldmm3mvmvnywg91rrdyj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -61587,17 +61587,17 @@
 (define-public emacs-jmt-mode
   (package
     (name "emacs-jmt-mode")
-    (version "20220825.1612")
+    (version "20221117.1441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Michael-Allan/Java_Mode_Tamed.git")
                (commit
-                 "ed80b7d736b2f0909dfa9a40be2bba80ea513d7b")))
+                 "be47c70024dff044322b281ebbcea38de6d5b50b")))
         (sha256
           (base32
-            "1h4ciihwclvgmgw9z79a9rfxkqyp0p2jh58h6ddpynn4768b7lsk"))))
+            "0n1hhq7vmj9a7lww8vfwq96lmsdsj5hngb18gid2qav7kf32dlw3"))))
     (build-system melpa-build-system)
     (home-page "http://reluk.ca/project/Java/Emacs/")
     (synopsis "Java Mode Tamed")
@@ -82279,23 +82279,25 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20220809.1955")
+    (version "20221119.0")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "40291bec0cd0bf8a2f5db656e4d3077b256092ae")))
+                 "86faad251d3109a900661d40001f214cf51bc635")))
         (sha256
           (base32
-            "00ais9k2qc9ib7ihh38hwz3gmkn9zcb2x5n7x8cllhdq8zmy00a6"))))
+            "1ygl4c6x7h1wlwhh92b75wiqf5hkmi3q5j4q9klvicn2hb1hfgaa"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-request
-            emacs-request-deferred
+      (list emacs-aio
             emacs-alert
-            emacs-persist))
+            emacs-elnode
+            emacs-persist
+            emacs-request
+            emacs-request-deferred))
     (home-page "https://github.com/kidd/org-gcal.el")
     (synopsis "Org sync with Google Calendar")
     (description
