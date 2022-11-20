@@ -16969,17 +16969,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20221119.811")
+    (version "20221119.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "4f5e77d36fb8256818df9042ee699954566d81d5")))
+                 "5d1e4a73e8052977a2b4e9584d7016b8c3701b64")))
         (sha256
           (base32
-            "06xd014f03z8mzg2a7gln2bhv260rgq4zpcwxmkwn6kg5kcn5x0l"))))
+            "1j93y1ha47500zlgg85p5wj98rydp298g5cv8hzn6cq3cr4s55vw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -38987,17 +38987,17 @@
 (define-public emacs-flycheck-languagetool
   (package
     (name "emacs-flycheck-languagetool")
-    (version "20220731.2301")
+    (version "20221119.1624")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flycheck-languagetool.git")
                (commit
-                 "53b3e46d47a0e70fd2e5c49fea9134ee9aa41793")))
+                 "c97aaef7e6796abf85b56af655a8e4883832d6d5")))
         (sha256
           (base32
-            "1di51jp20ymqkp777rsvwkqzr9vpnpi90b8bd4db5v2ji46xrkjf"))))
+            "0s9wy157x6sivfc81l114p3h3wcpi5z4h5y067jvx5m5n4v8s1h3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -61633,17 +61633,17 @@
 (define-public emacs-journalctl-mode
   (package
     (name "emacs-journalctl-mode")
-    (version "20221119.901")
+    (version "20221119.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SebastianMeisel/journalctl-mode.git")
                (commit
-                 "c902ad94c2d043f620a44e4c9b1bd7f4d6f22229")))
+                 "baaffdfd22a19afb1997ec3715d063186b80d3f5")))
         (sha256
           (base32
-            "0xp149ibvjxr04pnlfl75gfcjwa91wxvk59dr6fa6761j6phc98j"))))
+            "0kjzgz8kzvyh7kqjcd9r2cfrhldv90v3yjkpd41vnzbb29b46d4h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/SebastianMeisel/journalctl-mode")
@@ -99399,17 +99399,17 @@
 (define-public emacs-rfc-mode
   (package
     (name "emacs-rfc-mode")
-    (version "20221013.1342")
+    (version "20221117.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galdor/rfc-mode.git")
                (commit
-                 "93208d44516e1f4c6e181ee5d374f2dbd7199d0c")))
+                 "73bb2a18bb34136c9eeddef5f138840872ece752")))
         (sha256
           (base32
-            "0rxsmxk3kdlywmyaw2nrq26hqb84l46cj56l1f15b98c3m0pzxzg"))))
+            "1b4wd9ny6rmlw0cr2kvhs0kn33gx0zq4hv6vgr91a9wwj5y33lav"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/galdor/rfc-mode")
     (synopsis "RFC document browser and viewer")
@@ -104100,17 +104100,17 @@
 (define-public emacs-sideline-flymake
   (package
     (name "emacs-sideline-flymake")
-    (version "20221009.1555")
+    (version "20221119.2034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-sideline/sideline-flymake.git")
                (commit
-                 "69b987ef055fe02f5cf03e42863c4213ff450cc5")))
+                 "65260cdc8977eef5fcab2745b596244966851e67")))
         (sha256
           (base32
-            "1avnw749xvwrbp1i65in8ffdddwinahcx2q97mvxwl79fapiwphk"))))
+            "1fqryxbq0wbaw3czfxcf5rqmfv1h9jirkixc5v85kh37z75qyadr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-sideline))
     (home-page
@@ -105195,17 +105195,17 @@
 (define-public emacs-sly-asdf
   (package
     (name "emacs-sly-asdf")
-    (version "20220707.5")
+    (version "20221119.2235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mmgeorge/sly-asdf.git")
                (commit
-                 "3180921efdc19a2195960e1d601b2a6f31a6feea")))
+                 "6f9d751469bb82530db1673c22e7437ca6c95f45")))
         (sha256
           (base32
-            "0gncp8xv33s4wx594bgd35vr1455bcggv1bg28qv75mhv41nzw97"))))
+            "0bxan0h12xqdsfr3bpk7n8zj7d5xvp4v3wg4fbcf2xw63j02m810"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-sly emacs-popup))
     (arguments
@@ -106664,17 +106664,17 @@
 (define-public emacs-solidity-mode
   (package
     (name "emacs-solidity-mode")
-    (version "20221024.220")
+    (version "20221119.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethereum/emacs-solidity.git")
                (commit
-                 "929ce58ff0d42cf1109f9fb0655c787ee58cc2da")))
+                 "ddb4a901c33bd29ba2eefff3b7f7461849c6e833")))
         (sha256
           (base32
-            "0yy9bdbab8k84csskq6lq6vgrzpm3zjj8a9gxbnwxc4ksarm1npg"))))
+            "1hppvvh9mq7yg129490b66bmdnnx6c03acbml03ipbcrfc6950y0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -110664,17 +110664,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20221114.1744")
+    (version "20221119.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "f25bb670c0f7b3f7555634d19fcdd3eb979ac7c0")))
+                 "cf48657fbdb322bb059051737a2515e6f648b12c")))
         (sha256
           (base32
-            "0y32r7p4mh56zjhmd5pfkgic3gx0xlwabay690pxzl9sqjpnai4p"))))
+            "1qhsjj4cqr4qs0v5hvj3vvkpw0qbc51g0bna9ylkk9f6g4nl8rkj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -113653,17 +113653,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20221118.1443")
+    (version "20221119.1503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "804c27f1f585c05a777c288fbcfa1c16a3c0cd45")))
+                 "79d1426de173312bd6a3091731675bb010d804ec")))
         (sha256
           (base32
-            "1krw6rhgc6qvldb83zg021n13gg22l5afddnzpas5z7c0p154dm9"))))
+            "1kar2a30qwsv2rb79ng807chixiqvlx99sdwk33cy8kxl03vsp74"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
