@@ -10246,17 +10246,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221109.839")
+    (version "20221120.341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "4b32036a6c667b445dcc001fd70a01eee8baa924")))
+                 "fe068552e5f85a8e2476ff32555a13fa643d7b71")))
         (sha256
           (base32
-            "0kcnyzksj8yglk67g1130wxzscgipm7cz2hs8mvdqpcbz4i38jny"))))
+            "0qi0mby1l19880npxiiqa8y7p301y2fdqzpcpprrymb0i4calish"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -16428,20 +16428,19 @@
 (define-public emacs-composer
   (package
     (name "emacs-composer")
-    (version "20221111.1808")
+    (version "20221120.202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/composer.el.git")
                (commit
-                 "6a6e3eb46b4ae380f9f56362d6525d6725fc1b0a")))
+                 "5af1707fefbd9d7db1102afdaeb8f2da893fea37")))
         (sha256
           (base32
-            "0qf73cgy7jmchk8hvabg7v07wq0scfdm06vsbf1m2ds5zq8lcbnb"))))
+            "0m67sidj9rqbxfm3lfxsi8ljf8160060979kcdmw0bsvfzz1ns4r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-s emacs-f emacs-php-runtime))
+    (propagated-inputs (list emacs-php-runtime))
     (home-page
       "https://github.com/zonuexe/composer.el")
     (synopsis "Interface to PHP Composer")
@@ -23795,17 +23794,17 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20220731.2330")
+    (version "20221120.355")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-doc-show-inline.git")
-               (commit
-                 "02f2187d815b480e316238e2b8568bccc5e38fdd")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/doc-show-inline-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1i4lzq60d5i3yiibgf8nx97xfr477gkp4pyd5r2q1sykv9hjlr51"))))
+            "1gd67rinsk3lzd5daccfkb8ifc6c848z0ins3nsxk6ywcvhbwbi0"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-doc-show-inline")
@@ -73407,7 +73406,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221117.1155")
+    (version "20221120.524")
     (source
       (origin
         (method url-fetch)
@@ -73417,7 +73416,7 @@
                ".tar"))
         (sha256
           (base32
-            "06iqaf1cnipx6j530jm4nk7fpr6ahx9g4ds543s1zxh46jv8x4bg"))))
+            "0wnz51a6gsc25xi45cfm5cig76d1fg8ap6n783dc0z0ircnypycg"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
