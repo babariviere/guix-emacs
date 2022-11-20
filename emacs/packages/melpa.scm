@@ -16968,17 +16968,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20221119.1735")
+    (version "20221120.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "5d1e4a73e8052977a2b4e9584d7016b8c3701b64")))
+                 "96c95e5a14378cc6fc9c22981f5bfd9e18c419f6")))
         (sha256
           (base32
-            "1j93y1ha47500zlgg85p5wj98rydp298g5cv8hzn6cq3cr4s55vw"))))
+            "1mjz73sv2hkirlsr3hmjfivknwydb4yjf90kk5a4zwmhcs3vlh8q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -69309,17 +69309,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20221113.2221")
+    (version "20221120.1355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "05b0d99d714350d51676b86da9f5daa2f6b7fa3e")))
+                 "744818a3be01034a8577063e061e9b9e53ccf890")))
         (sha256
           (base32
-            "043y2fzvm7b9626qyaljab5zcgwflalw5vi9sln72q3pyx8zk8rw"))))
+            "1l0wnk4xl1jggmp64qrm7zx6yqnz4gbcwk69zr070jjf25qc2zdg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -87796,20 +87796,19 @@
 (define-public emacs-packed
   (package
     (name "emacs-packed")
-    (version "20220422.1626")
+    (version "20221120.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/packed.git")
                (commit
-                 "3489c97340434096f24c64a33feea22e19c18a2c")))
+                 "c0d075fa02424b39bd5a3492167f914b8522f686")))
         (sha256
           (base32
-            "04nz6gl7r9sv51n3yaids524v8ccq5wbblxci1vckzsipbc8ys2i"))))
+            "0i2j5yk6xhv4rh3317f241y9llwf4wk18a6a4lkqrvbjpvi9yvn0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
-    (arguments '(#:files ("packed.el")))
     (home-page
       "https://github.com/emacscollective/packed")
     (synopsis
@@ -104099,17 +104098,17 @@
 (define-public emacs-sideline-flymake
   (package
     (name "emacs-sideline-flymake")
-    (version "20221119.2034")
+    (version "20221120.743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-sideline/sideline-flymake.git")
                (commit
-                 "65260cdc8977eef5fcab2745b596244966851e67")))
+                 "6ab3557fadfe832bd9ea3e4818012d3ea5c4759b")))
         (sha256
           (base32
-            "1fqryxbq0wbaw3czfxcf5rqmfv1h9jirkixc5v85kh37z75qyadr"))))
+            "06sp20zc5ckp00fj5kqhnz10zsz8r3q0h1dsb6idf6g6xk46v3ij"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-sideline))
     (home-page
@@ -116902,17 +116901,17 @@
 (define-public emacs-vc-fossil
   (package
     (name "emacs-vc-fossil")
-    (version "20220607.617")
+    (version "20221120.908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/venks1/emacs-fossil.git")
                (commit
-                 "8ce6113aa272583130e5f929fefd67115c8f572a")))
+                 "e059ca466cc8914757c6bdb26fa9cc6b0820a9c1")))
         (sha256
           (base32
-            "087na2g22dnyw52cwaxkzdgbl13p2ldvby7lmqg05bm02cmsv9c2"))))
+            "0bsb1wv581cwkl46vqm6r726fikv701rvzgx2nqr2ws07p9y4v99"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -120834,7 +120833,7 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20221114.350")
+    (version "20221120.1211")
     (source
       (origin
         (method url-fetch)
@@ -120844,7 +120843,7 @@
                ".tar"))
         (sha256
           (base32
-            "1ga9n2lzxicvg240w3ig8i8silyi2kncrcww3qhfafyy5fa304ls"))))
+            "1l8m80xn7na421dz2kj3hlw7pi4xr3qbjdw29xxahqbddjk3y54i"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-workroom")
