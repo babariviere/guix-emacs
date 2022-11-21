@@ -16870,6 +16870,54 @@
       "Documentation at https://melpa.org/#/consult-ghq")
     (license #f)))
 
+(define-public emacs-consult-git-log-grep
+  (package
+    (name "emacs-consult-git-log-grep")
+    (version "20221117.1938")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ghosty141/consult-git-log-grep.git")
+               (commit
+                 "1d58fd3d6b1d7baeacbb0d1a09cee440397f5552")))
+        (sha256
+          (base32
+            "10ppf1lzqbgcvncy4hjd9k0kbpl35xg7vykiyqrvii8j2hld0znd"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-consult))
+    (home-page
+      "https://github.com/Ghosty141/consult-git-log-grep")
+    (synopsis "Consult integration for git log grep")
+    (description
+      "Documentation at https://melpa.org/#/consult-git-log-grep")
+    (license #f)))
+
+(define-public emacs-consult-hatena-bookmark
+  (package
+    (name "emacs-consult-hatena-bookmark")
+    (version "20221120.2352")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Nyoho/consult-hatena-bookmark.git")
+               (commit
+                 "c36bf73f242f42261a463d913f2b8d56d22754e3")))
+        (sha256
+          (base32
+            "0gz3mk4gafywkbd6r1bclb6i0yizjyhmaci5dic8f9p9fdi1g2r8"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-consult emacs-async-await))
+    (home-page
+      "https://github.com/Nyoho/consult-hatena-bookmark")
+    (synopsis
+      "Consult commands for the Hatena Bookmark")
+    (description
+      "Documentation at https://melpa.org/#/consult-hatena-bookmark")
+    (license #f)))
+
 (define-public emacs-consult-ls-git
   (package
     (name "emacs-consult-ls-git")
@@ -19737,17 +19785,17 @@
 (define-public emacs-danneskjold-theme
   (package
     (name "emacs-danneskjold-theme")
-    (version "20220316.1101")
+    (version "20221121.634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rails-to-cosmos/danneskjold-theme.git")
                (commit
-                 "054c0b9bc9cefb53a4065096e66707d20885c461")))
+                 "39ff00f8a40bcab96afd9450195124b57becd625")))
         (sha256
           (base32
-            "1bw9ng01d0y6ri67w42z8ql37kxxra59v4cnra94s00abc212lja"))))
+            "0iqljbvl4rliaj2lkmwl7ls94kx5ig6gi9c8gddk8l61b7chrqyl"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rails-to-cosmos/")
     (synopsis "Beautiful high-contrast Emacs theme.")
@@ -30244,17 +30292,17 @@
 (define-public emacs-engine-mode
   (package
     (name "emacs-engine-mode")
-    (version "20220519.1916")
+    (version "20221120.2327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hrs/engine-mode.git")
                (commit
-                 "d99f9b4ab266b2b777f3f323f766687970456fa9")))
+                 "b6fafabc688084c142fbc7df19a7be15f55f32f3")))
         (sha256
           (base32
-            "1rmfdjg35an5s1grhja7vms10ngk3b980s4zhiszkayvyy61kpx0"))))
+            "0wzpq97za7sq9ncbvxd5js802vzryw9haa9n824lc42mzgmfi2bb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/hrs/engine-mode")
     (synopsis
@@ -47648,6 +47696,30 @@
     (synopsis "Integrates GPaste with the kill-ring")
     (description
       "Documentation at https://melpa.org/#/gpastel")
+    (license #f)))
+
+(define-public emacs-gpt
+  (package
+    (name "emacs-gpt")
+    (version "20221113.1941")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/stuhlmueller/gpt.el.git")
+               (commit
+                 "e974bb8d203c7d624f7f82289201ab84913d7d6b")))
+        (sha256
+          (base32
+            "0g5h9frq6jkac2ncx3bgca9hidckpj1df7x2xp9crbwrbyz0x862"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files (:defaults "gpt.py")))
+    (home-page
+      "https://github.com/stuhlmueller/gpt.el")
+    (synopsis
+      "Run instruction-following language models")
+    (description
+      "Documentation at https://melpa.org/#/gpt")
     (license #f)))
 
 (define-public emacs-grab-mac-link
@@ -73406,7 +73478,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221120.524")
+    (version "20221121.301")
     (source
       (origin
         (method url-fetch)
@@ -73416,7 +73488,7 @@
                ".tar"))
         (sha256
           (base32
-            "0wnz51a6gsc25xi45cfm5cig76d1fg8ap6n783dc0z0ircnypycg"))))
+            "1b3xnl8iihl14qqkx32zl8z02s9iv3dhfz45y06x8h9dic6m9bgj"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -82278,17 +82350,17 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20221119.0")
+    (version "20221120.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "86faad251d3109a900661d40001f214cf51bc635")))
+                 "556766279430e898c443921340c3afb61e8dafa3")))
         (sha256
           (base32
-            "1ygl4c6x7h1wlwhh92b75wiqf5hkmi3q5j4q9klvicn2hb1hfgaa"))))
+            "04qkyn43jc8nkrcw688bcjz0g9ys5vag785lvxq1if8r1pbv9k2n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -106733,6 +106805,28 @@
       "Documentation at https://melpa.org/#/somafm")
     (license #f)))
 
+(define-public emacs-soong-mode
+  (package
+    (name "emacs-soong-mode")
+    (version "20221119.1417")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/bobrofon/soong-mode.git")
+               (commit
+                 "685a18878b914b71b67269ddc13d6d164a224c11")))
+        (sha256
+          (base32
+            "0fxmnd95rp4hrh3clxmp6n77d36b8gkx6xqs79zfxnl92gn72l2n"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/bobrofon/soong-mode")
+    (synopsis "Support for the Soong build system")
+    (description
+      "Documentation at https://melpa.org/#/soong-mode")
+    (license #f)))
+
 (define-public emacs-soothe-theme
   (package
     (name "emacs-soothe-theme")
@@ -108032,17 +108126,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20221116.52")
+    (version "20221120.2333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "689d27ed94254e3a3ce5a104057acc525e68a2ff")))
+                 "708cf6434dc1af42cd756d3daceaa569553862ab")))
         (sha256
           (base32
-            "0d14p5ijhs3aii7bzlbkaj7wwsbky2ar8mw55qqvz247b0zr4061"))))
+            "1hrx5qn4gh79sl4gikfkcqma95pbiy9ax22ij0dj9yj9nry20n2s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -118465,17 +118559,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20221116.2331")
+    (version "20221120.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "b1642c87fe83700a929aebb774c89071e23c84e0")))
+                 "9c9611ee8623a94602bb1540b507c3aa148cc4cd")))
         (sha256
           (base32
-            "1qblbxv4zbyv2ax1m42wfh1nx6bpl7snixx0whg8jiiqmk9sy6rb"))))
+            "1fs3ll1bdyjapd1sq8l6cpyg47z2qb8c0papskwxamsnjjlfy7gj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
