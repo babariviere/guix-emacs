@@ -5130,17 +5130,17 @@
 (define-public emacs-auto-dark
   (package
     (name "emacs-auto-dark")
-    (version "20221114.343")
+    (version "20221121.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/auto-dark-emacs.git")
                (commit
-                 "10a42b015e35e8c6a99a3fb5ceeb1db0f5893cee")))
+                 "29808f3fd73cb795e68703ebc56108c377554aaf")))
         (sha256
           (base32
-            "0gdmjmdzb1p21mrrsl6kv3fvzwmvmbkx9yydn7rylv19zfgj4iwh"))))
+            "0xvw7d4jzyj15jlv68fqs0lmcjigxk7326211ccw7nrih23b72mn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/LionyxML/auto-dark-emacs")
@@ -18645,17 +18645,17 @@
 (define-public emacs-crux
   (package
     (name "emacs-crux")
-    (version "20210811.436")
+    (version "20221121.859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/crux.git")
                (commit
-                 "6bfd212a7f7ae32e455802fde1f9e3f4fba932a0")))
+                 "f8789f67a9d2e1eb31a0e4531aec9bb6d6ec1282")))
         (sha256
           (base32
-            "01727k1fxiq1v2q6slp23gc98yqhflp6dcy3yr0yn9ibqx3pi93q"))))
+            "0bsyrp0xmsi1vdpgpx6n3vfrmh75bpp8ncync8srzx6clbl71ch4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bbatsov/crux")
     (synopsis
@@ -62374,17 +62374,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20221119.518")
+    (version "20221121.522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "1e8103c281bf7781bf3246d2049165d8966710c6")))
+                 "1d226db4da79d48427b623c2825e499030a6d50f")))
         (sha256
           (base32
-            "0xv5lsl21h0jg5iryg89j6qf4c97v2rw7rh5ja8bbch3s21bv69c"))))
+            "19wzjdqdykr8q75k2q42h78smnh5bhf5k19xzadslkn09208dphk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -67932,17 +67932,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221111.1517")
+    (version "20221121.1448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "d52e1787ffcbaa52e3308024452702b2cf9a5ce4")))
+                 "61f7bc8bc670a1d07b0548d1287ae3c40b88e3f9")))
         (sha256
           (base32
-            "0xylwhs0hi0ggs0h7xdy54cr436wi5k7j2wak9lifa3sgnig252x"))))
+            "0ywjfdsskw7ihgbsla61xk5cbpplnzg083cwa82408g39g7ir3nv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -68453,17 +68453,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221118.815")
+    (version "20221121.1412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "b4e8aac32d28dfe0f73e0981387c5b20249f385c")))
+                 "486365d9c7a011aedf1ffcd0843a3ca6137d6104")))
         (sha256
           (base32
-            "0pim03m7czfy6jphzmw9y38jxhagmffy02d0q95glwxxiz7m6h6r"))))
+            "0ds07cfq8kypdbzdgrni6c8jq71saw021ljyhrh1lj24520cznw9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71055,7 +71055,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221117.1357")
+    (version "20221121.1519")
     (source
       (origin
         (method url-fetch)
@@ -71065,7 +71065,7 @@
                ".tar"))
         (sha256
           (base32
-            "1mib525pm7954vzlgc44wppysis8n1zqk406zp3fpkpli4x9vwsv"))))
+            "0hfpgxfpna2dga5x2hvdsh0s3yjris0qhs7sja90icdz8xlz2a9z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -80229,17 +80229,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20221120.1901")
+    (version "20221121.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "63d9fd734b4f8c5df4de5af0fa47c4ba079acad5")))
+                 "561f16f6c730ee7206d29e69decf8640fd7dda01")))
         (sha256
           (base32
-            "14sr6m82il9lq2gj7gq8csz00ywrk6c8sdxnjm8y0z3v14p108r5"))))
+            "0644kkzmlvspic0qikqb0p7x8gryjx2nlhbhjrkfn75fwrv5lqk5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -84075,17 +84075,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20221119.1134")
+    (version "20221121.626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "b6d6b7179019e87b13dfdfeef28037821ed4d01f")))
+                 "127b168960296861f73f8e38247438ebdc575d1e")))
         (sha256
           (base32
-            "0yibkc1mh8z15lpjws92d71d8vxr6svcbdnlxi9rpr1c108vqqkg"))))
+            "0k2z7fz17zamb24fdl5zfr8s3r7bkzhfw8dv4lrrnkhhvjz8l3c6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -100909,17 +100909,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221119.1151")
+    (version "20221121.1224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "1dfa9b5dfbab261bda7555e675ab2b6db13d0be2")))
+                 "0e61e5986da291b0755b65f701c595efb924cba6")))
         (sha256
           (base32
-            "1lara2q3m2mxfxk8bjhal58gqwkaj1rmh9v2racydzp32hjwk6xg"))))
+            "05rnihy63jx73k8jdvgnfi7xjzmdwz6r7b61i67mndzfl7ashf2d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -118444,17 +118444,17 @@
 (define-public emacs-vulpea
   (package
     (name "emacs-vulpea")
-    (version "20220714.1856")
+    (version "20221121.1129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/vulpea.git")
                (commit
-                 "8070a599583f0126a089f386e35df62451e51a91")))
+                 "59eec31a8d2173d9247bba5132e84cf1e43e1c7e")))
         (sha256
           (base32
-            "1zwgsg8p1xghzzim1kpzijin098p707skhwm38cgv258hp4sgw22"))))
+            "0c0kxr6k89qsrvkkjflxyqw7a7skh6rf58ysyiy6kpcq578y8jj7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-s emacs-dash))
@@ -123519,17 +123519,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20221107.1204")
+    (version "20221121.1227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "8cc0ca548f8fc1930bbc14b273b8a30df0c6327c")))
+                 "afddac4018c8cf8d8088b4ca128adb01a872e741")))
         (sha256
           (base32
-            "0akqvgvlkfv05dl2d11gkb3ym38l1apsdp3d7l8sli7jdwqrhiaf"))))
+            "0xmxfkrkijh0n73g0gpynb9rmrxf4mhmk0pwmf2q53wmvpvyn6bm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
