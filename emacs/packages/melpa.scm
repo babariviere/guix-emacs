@@ -4812,17 +4812,17 @@
 (define-public emacs-auto-compile
   (package
     (name "emacs-auto-compile")
-    (version "20220517.1501")
+    (version "20221120.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/auto-compile.git")
                (commit
-                 "b204e2f85aaa4d41af4eb1819633c9613f5172bf")))
+                 "f9b7fbd45077780ed0573a13ac96164f0fbdd9d1")))
         (sha256
           (base32
-            "0wqiypznwg7pcqb1qvf4ba2kx4f8x01ms8zxbxy134j9idm4g39f"))))
+            "0l8pqyrj5lv2lhcdlmjjjcsp3y5jvy05mr1m2dhmv9q3fdv03k0d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-packed))
@@ -8418,17 +8418,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20221106.2238")
+    (version "20221120.1405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "032ddf33799dd0a2c89d1a3e9e04dc3cdc13320c")))
+                 "b8fc9957e21f437035dd13d3384977dc4c382eb3")))
         (sha256
           (base32
-            "19y7sc7d9qb926b5jv2l2jwhsgl3wm6php30w2r9jh5gspmh0ck7"))))
+            "1siir6cadc6aabsvkv850xyzdjrdlai6v6j1d8jdp3b120ibk648"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -46946,17 +46946,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221119.627")
+    (version "20221120.1436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "8746d229474958dc4456ef9ba4b0a258acff8e56")))
+                 "923d117ab399a0598a496d3fab84188c6f460dae")))
         (sha256
           (base32
-            "1znqj87xgb880aqqd10mxq5r3walhasvldmm3mvmvnywg91rrdyj"))))
+            "1bhfd41x3i2gabvf50pdpmnvcdqg69ygslyjcg7jvf486b44gvfk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -58302,17 +58302,17 @@
 (define-public emacs-inf-elixir
   (package
     (name "emacs-inf-elixir")
-    (version "20221013.2100")
+    (version "20221120.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/J3RN/inf-elixir.git")
                (commit
-                 "0eaea59f20889b3d0048719377e5a05a2e7fea1a")))
+                 "6fbb0867b586ad1bf8adc09cc55f33dfa72db833")))
         (sha256
           (base32
-            "1swiw3yih4xbgrh4dx7sqxrz4d7jjkhnjfirjdcds0c6mjg0cvzp"))))
+            "0gwg2hjz0s6gkyifvni3mghrp7174prwrl46sbxx5pi9s435djpm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/J3RN/inf-elixir")
     (synopsis "Run an interactive Elixir shell")
@@ -77186,17 +77186,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20221027.346")
+    (version "20221115.1628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "cb277b8a84ca5857b607b3ff6132ee3663a57953")))
+                 "e2d6ac4522981f4d5e49b405aa7623884c217197")))
         (sha256
           (base32
-            "1x6jcsndmlxvj9ncrg2nam5zqvcs0a5jjjm7ij3q929rdn5fl3kc"))))
+            "0jd1bx5hm84b9am321wikmxv5f2w74yw4838jwzch8g87r1ksnld"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -80157,17 +80157,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20221005.1718")
+    (version "20221120.1901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "a5a292c5a5f3757e01bdd13bbd57bbf7b55bda0b")))
+                 "63d9fd734b4f8c5df4de5af0fa47c4ba079acad5")))
         (sha256
           (base32
-            "1b3anr0mm9ikk0sjckhm77ih5ahf40wpgjf3n7zax632a70aaq0k"))))
+            "14sr6m82il9lq2gj7gq8csz00ywrk6c8sdxnjm8y0z3v14p108r5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -96298,17 +96298,17 @@
 (define-public emacs-quelpa
   (package
     (name "emacs-quelpa")
-    (version "20220928.919")
+    (version "20221120.2019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/quelpa/quelpa.git")
                (commit
-                 "37962e3b264795b7a3593109c7f14dbf57d9b77e")))
+                 "e3826145d6aacc63ba3ab9b280f4675e86361b29")))
         (sha256
           (base32
-            "1xdqr73y8lpxhmgp1yrap3bw5pf8lhaw2v3jib1pka6aj40vi2di"))))
+            "12z3s8v46gasrhf72l90lnqxfvbbvb50s0h6gz1fy4rf1qnvbkxv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/quelpa/quelpa")
     (synopsis
@@ -99418,17 +99418,17 @@
 (define-public emacs-rg
   (package
     (name "emacs-rg")
-    (version "20221024.1631")
+    (version "20221117.1908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dajva/rg.el.git")
                (commit
-                 "3880e8c734c976a2d393aeacf60d510f56d8217d")))
+                 "14d4c6a754d127c5cacd58fb66bb0992faff68e4")))
         (sha256
           (base32
-            "10rbfncv2baz28zls0zcqbz5gahbvdi3ixab4cm6gfm13xbgwvf7"))))
+            "0s92az5n9a9qf9asmbgs0h57cwqhw64ps7f4kn94s5crpicjyjn4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wgrep))
     (home-page "https://github.com/dajva/rg.el")
@@ -120833,7 +120833,7 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20221120.1211")
+    (version "20221120.1533")
     (source
       (origin
         (method url-fetch)
@@ -120843,7 +120843,7 @@
                ".tar"))
         (sha256
           (base32
-            "1l8m80xn7na421dz2kj3hlw7pi4xr3qbjdw29xxahqbddjk3y54i"))))
+            "0i0g7z2s9c2h9b1c6fih3r6wmdq76nyqw6929wmvdcr9afck6h6c"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-workroom")
