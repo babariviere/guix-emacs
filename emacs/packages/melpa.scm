@@ -8418,17 +8418,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20221120.1405")
+    (version "20221121.2120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "b8fc9957e21f437035dd13d3384977dc4c382eb3")))
+                 "c83238b4188f02e9a974ac866aa0230fde964075")))
         (sha256
           (base32
-            "1siir6cadc6aabsvkv850xyzdjrdlai6v6j1d8jdp3b120ibk648"))))
+            "1c2phfpfnvwhcic6gq9g4bcg5frpxhn11glfnkx3h2ffmk3wrg5d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -10246,17 +10246,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221120.341")
+    (version "20221121.2106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "fe068552e5f85a8e2476ff32555a13fa643d7b71")))
+                 "8962e15381682544b268afd032661101692a3cd2")))
         (sha256
           (base32
-            "0qi0mby1l19880npxiiqa8y7p301y2fdqzpcpprrymb0i4calish"))))
+            "0z6ixw7gsx1g7x2xpj5ilslrjrlp6x2ynzh731hs3yf3n281715b"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -20203,17 +20203,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20221118.1318")
+    (version "20221121.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "92106c5a39e703bf18efa67a9c7dc92260845788")))
+                 "bda7e33cace662b2bf5db13a265e9902b048baa3")))
         (sha256
           (base32
-            "0vfkm1x8x0azifyafnj7pg6lalvhrhhsizwm9vjb500fkjjhkazr"))))
+            "0am4613b1zykmc5mdqswcp0b1n2dcm6dnab21pcpls7f7d3rdmbj"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -21260,7 +21260,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221118.1226")
+    (version "20221121.1551")
     (source
       (origin
         (method url-fetch)
@@ -21270,7 +21270,7 @@
                ".tar"))
         (sha256
           (base32
-            "1nwc8x49mv1ankldml6cf554gzxlnklhq95ly1fkix78sgbj81az"))))
+            "13ksz250xyw5pd0bzrkankfrhygxlf8lx7wcswnjcxxz0jf4r1c9"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -27557,17 +27557,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221117.2048")
+    (version "20221121.2223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "2ddf8cbe9bb4f973ecfa6012870af23b030ad6f6")))
+                 "d73221074fc9572cd01adbff49117c79d3e71654")))
         (sha256
           (base32
-            "1f649vm59kkwiwc3pwzvw6phnc9id8vm6jfyg05j716k2pa4q0n4"))))
+            "05zji861fhkpjz513f7hnd4njzk8icby074053f02d2gkv29v98g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -32190,17 +32190,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20221108.1714")
+    (version "20221121.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "7ec23bf341c23445c98f5e1faf6a1369b92f2e9f")))
+                 "66c07672308b30c1379af3510b5a6af793d5e8fa")))
         (sha256
           (base32
-            "0g0gp2f5a1p4vh60yispyq4ilq744j5qa3bds362f9cwcf32q7cw"))))
+            "18ic5l4nqhmq9kj5x3w8cn3b8a2w3pwkrnkdrqi9hh4q99php4gi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -35466,28 +35466,6 @@
       "a smarter context-sensitive query-replace that can be reapplied")
     (description
       "Documentation at https://melpa.org/#/ez-query-replace")
-    (license #f)))
-
-(define-public emacs-eziam-theme
-  (package
-    (name "emacs-eziam-theme")
-    (version "20221003.1256")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/thblt/eziam-theme-emacs.git")
-               (commit
-                 "5bec687a692331f7d8e1fe012817d66c40234bad")))
-        (sha256
-          (base32
-            "1br74wkzvq51wqhimsf0c7pzvfpcb80hb47dqjahh938y7x0fkdc"))))
-    (build-system melpa-build-system)
-    (home-page "unspecified")
-    (synopsis
-      "A mostly monochrome theme, inspired by Tao and Leuven, with dark and light versions.")
-    (description
-      "Documentation at https://melpa.org/#/eziam-theme")
     (license #f)))
 
 (define-public emacs-f
@@ -49750,17 +49728,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221117.1800")
+    (version "20221118.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "8de5444df2bafd1b3a91acd0e00cf1e0ee81682b")))
+                 "67056a93d7a1f8ee6395bf6d8489821fa3f7d976")))
         (sha256
           (base32
-            "09dk0dz8fkigi3zbinq76310nnnw29z4pca0ypsn2z6l0l3hg7zb"))))
+            "1ic9l8ls6n7pzplrqamx4z3wbsmk8z805pkcs17frsa4fi88mb94"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50558,17 +50536,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221113.1706")
+    (version "20221120.1949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cbec5974ad9f4e5bfc51a2c741560b96b1ce5fca")))
+                 "67056a93d7a1f8ee6395bf6d8489821fa3f7d976")))
         (sha256
           (base32
-            "1r3a9mrkc6ibjs4n32pidk6vwalifp6dvybxi341d5vamv9dv6i2"))))
+            "1ic9l8ls6n7pzplrqamx4z3wbsmk8z805pkcs17frsa4fi88mb94"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -59669,17 +59647,17 @@
 (define-public emacs-isortify
   (package
     (name "emacs-isortify")
-    (version "20190315.2004")
+    (version "20221121.1816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pythonic-emacs/isortify.git")
                (commit
-                 "ae7fb7163ce075209543f72953c9f431d103f6a3")))
+                 "2751fb23eea4a40437e7d9bca77cbc9c06b44f3d")))
         (sha256
           (base32
-            "0gslib1r9d9dqd9r89dfg8npkybjw2bjdrbs0z2qcnfa82x4fq4z"))))
+            "09j042cl7mvhbp1r1fzxl17qc9z5ba0s6h5nwjx1yph7x1f7gmcf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pythonic))
     (home-page
@@ -68453,17 +68431,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221121.1412")
+    (version "20221121.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "486365d9c7a011aedf1ffcd0843a3ca6137d6104")))
+                 "7bd9d425cdba759a9fc97fe8be899b38f7c1832e")))
         (sha256
           (base32
-            "0ds07cfq8kypdbzdgrni6c8jq71saw021ljyhrh1lj24520cznw9"))))
+            "0yk54zd6hymyc4cr5sdaqhy0ldf47c3lgp8kvfycmbnhvima5rn2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -94918,25 +94896,26 @@
       "Documentation at https://melpa.org/#/puni")
     (license #f)))
 
-(define-public emacs-punpun-theme
+(define-public emacs-punpun-themes
   (package
-    (name "emacs-punpun-theme")
-    (version "20210508.1635")
+    (name "emacs-punpun-themes")
+    (version "20221121.1018")
     (source
       (origin
         (method url-fetch)
         (uri (string-append
-               "https://melpa.org/packages/punpun-theme-"
+               "https://melpa.org/packages/punpun-themes-"
                version
                ".tar"))
         (sha256
           (base32
-            "1phr7gb8dc3a0w3m2gkmadqc6iprbl2h3z16k7xxnqbsi0ladbja"))))
+            "0wl7avcfslpndy07dnasbzh4kv3xgiiw196bg1i0ss2s380clwqn"))))
     (build-system melpa-build-system)
-    (home-page "unspecified")
-    (synopsis "A bleak theme")
+    (home-page
+      "https://depp.brause.cc/punpun-themes")
+    (synopsis "A set of bleak themes")
     (description
-      "Documentation at https://melpa.org/#/punpun-theme")
+      "Documentation at https://melpa.org/#/punpun-themes")
     (license #f)))
 
 (define-public emacs-puppet-mode
@@ -106808,21 +106787,22 @@
 (define-public emacs-soong-mode
   (package
     (name "emacs-soong-mode")
-    (version "20221119.1417")
+    (version "20221121.1930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bobrofon/soong-mode.git")
                (commit
-                 "685a18878b914b71b67269ddc13d6d164a224c11")))
+                 "366b7d58ec533b392f9311724d8e88d772ae8bcd")))
         (sha256
           (base32
-            "0fxmnd95rp4hrh3clxmp6n77d36b8gkx6xqs79zfxnl92gn72l2n"))))
+            "05cazbhc3n77g7j7jx00xk5z7icxdyrvqymw9cry9iby6s9pk9zs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bobrofon/soong-mode")
-    (synopsis "Support for the Soong build system")
+    (synopsis
+      "Major mode for editing Soong build files")
     (description
       "Documentation at https://melpa.org/#/soong-mode")
     (license #f)))
@@ -109690,17 +109670,17 @@
 (define-public emacs-sway
   (package
     (name "emacs-sway")
-    (version "20221101.2243")
+    (version "20221121.2016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/sway.el.git")
                (commit
-                 "6268291a29da9c6165432f9bbdebf6bab13c72f5")))
+                 "553a9da97a95ccc53991bb7768f058d6eb4c9745")))
         (sha256
           (base32
-            "0cbk44ldrimb9aai1az5vq63m32qcpapc1hsy13lxwnwi2ixcr6w"))))
+            "021h1zm30pd905sz60h9mwvnpgn715d5vsdsp4vf88famblan765"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/thblt/sway.el")
@@ -118175,17 +118155,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20221024.1544")
+    (version "20221121.1655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "4badda9c4c70421d1216122abf947813ed04dbcc")))
+                 "ebf3c7107a44b3b6ed18f013d07a818dde76b23e")))
         (sha256
           (base32
-            "18sa0k6gf7jf4lh94l1jbpigyv0f7yldvxzx244p8j8my3ggjdw2"))))
+            "01hv48xs6hamvxya7cywvvk20nrvhjwanmv6bwd6g9xh3b9fn5ng"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
@@ -118197,17 +118177,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20221024.1546")
+    (version "20221121.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "04969a80f7bb9c679080cd754f44cac40718e85b")))
+                 "d043eca30bd4ae3b7edff9a181bbd144d8390d06")))
         (sha256
           (base32
-            "151l9rk6fy3632w13kyslrmd9zay89x48d2idd4wbm63y953jkjy"))))
+            "1wywlr60zaz2m53p3khr3zj4h4ffvwxdkwap7aj71bvr4xd72f4s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
@@ -118241,17 +118221,17 @@
 (define-public emacs-vscode-dark-plus-theme
   (package
     (name "emacs-vscode-dark-plus-theme")
-    (version "20220320.530")
+    (version "20221121.1846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ianyepan/vscode-dark-plus-emacs-theme.git")
                (commit
-                 "cec18a9d816fef372a4e70f6ad1e16a42aa93b06")))
+                 "f33e1f92f6b34bbd7ecc81cb4c6d48f9cab393d9")))
         (sha256
           (base32
-            "1byssa2rv2j9s3m10v7ihi1avqkjc5wqj62393wkp85k73z9v3dq"))))
+            "1s2jp3s6vnhdhdv53sp4qkpg19pxfjgwgpch9xc5nqb7ljk22fqx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ianpan870102/vscode-dark-plus-emacs-theme")
@@ -120810,7 +120790,7 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20221114.1300")
+    (version "20221121.1318")
     (source
       (origin
         (method url-fetch)
@@ -120820,7 +120800,7 @@
                ".el"))
         (sha256
           (base32
-            "0pxznvsm6k1lkslcsqcql5c9whlzz8c93jcmwkanfqca71kbpmx1"))))
+            "1sjg3kfccgn1wkqg85vhddxpf9k0siqvb2c2ggr8ijhib656rqw3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -120927,7 +120907,7 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20221120.1533")
+    (version "20221121.1705")
     (source
       (origin
         (method url-fetch)
@@ -120937,7 +120917,7 @@
                ".tar"))
         (sha256
           (base32
-            "0i0g7z2s9c2h9b1c6fih3r6wmdq76nyqw6929wmvdcr9afck6h6c"))))
+            "0cy7v04x037ds63hb04x9z83rwvgbkg6iwq254ba2fhshankzlf5"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-workroom")
@@ -123294,17 +123274,17 @@
 (define-public emacs-zetteldesk-kb
   (package
     (name "emacs-zetteldesk-kb")
-    (version "20221009.2122")
+    (version "20221121.1811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Vidianos-Giannitsis/zetteldesk.el.git")
                (commit
-                 "7d99ea13b8187cea1cc6c44fc70100a2fdd8ed15")))
+                 "38071117de42e59b20b5a29ab353365530495ff5")))
         (sha256
           (base32
-            "178dvb1ais0p87xf7lqnvax9fs066zdlxw0hsaplyrfwlb6p3k4a"))))
+            "006mw2bpajjzn87cyyx26d17nxn2k67mhhl1gn073a88f834gx27"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zetteldesk
@@ -123472,17 +123452,17 @@
 (define-public emacs-zk
   (package
     (name "emacs-zk")
-    (version "20221104.1238")
+    (version "20221121.1252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "c124656c302343366acb5a85a6fdba28cbb0dd38")))
+                 "afddac4018c8cf8d8088b4ca128adb01a872e741")))
         (sha256
           (base32
-            "1jk25ylc7ascknlyn9nfaqphav7avy9fds3lfwx98yppi5mm7xgf"))))
+            "0xmxfkrkijh0n73g0gpynb9rmrxf4mhmk0pwmf2q53wmvpvyn6bm"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("zk.el")))
     (home-page "https://github.com/localauthor/zk")
