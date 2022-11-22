@@ -25797,17 +25797,17 @@
 (define-public emacs-ebuku
   (package
     (name "emacs-ebuku")
-    (version "20220725.832")
+    (version "20221122.427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/ebuku.git")
                (commit
-                 "5b8bf34b8ea5d05f0b8dfc12bfea825f9cffbeda")))
+                 "0c6cf404a49bd68800221446df186fffa0139325")))
         (sha256
           (base32
-            "04733lqa6z3kmdjcgdi58q3wrqan2qib43rvjw51qc739fwmwb5y"))))
+            "09fkzmcvzdbdjaa167wiybj0kir7y12pcq2varjywshvq2l7niz4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/flexibeast/ebuku")
     (synopsis
@@ -66317,17 +66317,17 @@
 (define-public emacs-ligo-mode
   (package
     (name "emacs-ligo-mode")
-    (version "20221031.1737")
+    (version "20221122.440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ligolang/ligo.git")
                (commit
-                 "d3c28b3f98a12af5f68abe729d378a597b26ecd9")))
+                 "5137f4a79fa51b1d7d62a581197b0d4b257a05b1")))
         (sha256
           (base32
-            "0pf9ndf8kjam6hi0vl7ksw8n4iyy9i32s9y8spqm8pyf36fhcmci"))))
+            "0s2jfpmnx4b2fnr293119s3cfsj71vqnm80sd0h3bbwvf2jzqv9a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("tools/emacs/ligo-mode.el")))
@@ -94809,17 +94809,17 @@
 (define-public emacs-pulseaudio-control
   (package
     (name "emacs-pulseaudio-control")
-    (version "20220418.742")
+    (version "20221122.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/pulseaudio-control.git")
                (commit
-                 "22f54ae7282b37eaec0231a21e60213a5dbc7172")))
+                 "76ec74ce2e72d4995e76ac15b61efd1820be256e")))
         (sha256
           (base32
-            "0y87i8qpf1fvz37zly9srss1y9hpn4jjj8gsikc72c4qs9n0ljv0"))))
+            "0xna5381f7gxi3ayw5fmjrsch1w0zw467h9idv9qwkfpwyj65mx9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/flexibeast/pulseaudio-control")
@@ -107351,17 +107351,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221117.127")
+    (version "20221122.138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "9364053159df98809996f3dce622b192638e40ee")))
+                 "0ad354dd6d113cab4943dcad6c18e3c73bff9e64")))
         (sha256
           (base32
-            "046vfbz6capsymqniclbsyhx6zc1l25z6391709kchyl4as2qlp7"))))
+            "1irikwdsbyxhc49ak8pryhslznsy57b5ffqavicp44k3qzj1rkbn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
