@@ -21260,7 +21260,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221121.1551")
+    (version "20221122.1100")
     (source
       (origin
         (method url-fetch)
@@ -21270,7 +21270,7 @@
                ".tar"))
         (sha256
           (base32
-            "13ksz250xyw5pd0bzrkankfrhygxlf8lx7wcswnjcxxz0jf4r1c9"))))
+            "1ygjbk994jb6crhvfbarzh7ki4l6y6nggak5av3321r4fhdaqhvl"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -48380,17 +48380,17 @@
 (define-public emacs-gruber-darker-theme
   (package
     (name "emacs-gruber-darker-theme")
-    (version "20220107.1815")
+    (version "20221122.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rexim/gruber-darker-theme.git")
                (commit
-                 "72278089c440d45c00fb8afcd53af82fd30f451b")))
+                 "6de7a37d7b18cf3f0ec51db799f4f2aa6e3e89ff")))
         (sha256
           (base32
-            "15akxpc1zgdbhzcjc1cs8w1wm4yjgnxicgmqjrcgcqc8g0zhagcf"))))
+            "1bqjn67s0kcnf86qjxz0ayaash4rbwfwqsppqyy7p9qfc00cjix2"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/rexim/gruber-darker-theme")
@@ -57443,17 +57443,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221118.1026")
+    (version "20221122.920")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "67e06eccbd063078df9671169c60ed5bb941d9cf")))
+                 "cc85f0e138db34cdc04af19c0ad7c1042f690204")))
         (sha256
           (base32
-            "1hc6f24l8z8nz0sg5dz14wrxsi40x5dzx9a4plldcfdh743lsvp6"))))
+            "0dcr0xdsc9ab71fi4a27n3nmh66py7j683k5crb04v89d44css2s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -68431,17 +68431,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221121.2021")
+    (version "20221122.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "7bd9d425cdba759a9fc97fe8be899b38f7c1832e")))
+                 "459b51f9f902a8a0f633e4987d4362ca60111e31")))
         (sha256
           (base32
-            "0yk54zd6hymyc4cr5sdaqhy0ldf47c3lgp8kvfycmbnhvima5rn2"))))
+            "0sxwx987yzn6navbgniq61w9i6d6vc1mkd70x03yi65pmm2jk5zn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71033,7 +71033,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221121.1519")
+    (version "20221122.909")
     (source
       (origin
         (method url-fetch)
@@ -71043,7 +71043,7 @@
                ".tar"))
         (sha256
           (base32
-            "0hfpgxfpna2dga5x2hvdsh0s3yjris0qhs7sja90icdz8xlz2a9z"))))
+            "1y17q6bbcmv1i81kmvhzpr70a2nk291j0dw62dpcnlpn35qgc92y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -100175,17 +100175,17 @@
 (define-public emacs-rspec-mode
   (package
     (name "emacs-rspec-mode")
-    (version "20221018.1123")
+    (version "20221122.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pezra/rspec-mode.git")
                (commit
-                 "4437a243b2042585db994d77e6b7c85864a8d11a")))
+                 "cd845c4bf9e991c97cdfe7bd3f4e51bc81ceac15")))
         (sha256
           (base32
-            "1ynvrly22v4jzydr168534xl5kxxnbxg7wm15zj4bjiiq1b47b5z"))))
+            "0h3vzg7anq2idn5nh7bmrzknxng612j20nq8fpzrsy56l6fr41bm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("rspec-mode.el" "snippets")))
@@ -113154,17 +113154,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20221003.1909")
+    (version "20221122.852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "8c618b7c75b4c257f91b43d0d057272f57bed69d")))
+                 "cb68e94c1493729ef4f083fb9e3f54626b5a9913")))
         (sha256
           (base32
-            "16qjkqlx746p1vm7va02mid055x9vav98dpp9x1ffdyxlcc97mys"))))
+            "1ri7x9c6vmmi6imih39hb1zajp0c1m75a2m1q01k9w9nb43y3kgj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -114127,17 +114127,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20221114.1054")
+    (version "20221122.645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "df7d7d1a46b5145d4101f6b313d22e815e4f42b4")))
+                 "8a33fd0ae8c4f9ee15fb5062c0d1199ebc1def09")))
         (sha256
           (base32
-            "0a34032r6vdnyg4akvil559q1jx091sbmzaq5l59a20pz8jxw349"))))
+            "1qqf5naf4a9zm0am1rn9yn2b2s6q3h9fapsl5d546vbsyvak5q40"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
