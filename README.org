@@ -1,6 +1,6 @@
 * Emacs channel
 ** Disclaimer
-This repo is meant to mirror packages from melpa (primarly). Packages without any external dependencies (non-emacs packages) will work perfectly fine (but you may not have ~info~ documentation from emacs).
+This repo is meant to mirror packages from melpa (primarily). Packages without any external dependencies (non-emacs packages) will work perfectly fine (but you may not have ~info~ documentation from emacs).
 For packages with external dependencies, there are a few that are patched in [[file:emacs/packages/melpa-overrides]].
 
 I do not plan to patch them since there is a lot of them. But you can always open a merge request to patch your package and/or include it in your code with a simple package redefinition.
@@ -83,4 +83,4 @@ What this can look like:
 One issue with this: some packages will fail to build since they expect files to be at a certain place. So it may cause more issue than just plain elisp files.
 
 ** Internals
-There is a small documentation to explain how the updating is done: [[file:doc/how_it_works.org]]
+There is a small documentation to explain how the updating is done: [[file:docs/how_it_works.org]]
