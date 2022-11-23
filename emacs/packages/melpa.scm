@@ -3169,17 +3169,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20221024.1829")
+    (version "20221122.1722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "479aa90fd6a4db69361339c0058190423fe839e7")))
+                 "a92294e993a01d05d3f16d18a8b9759becf3e673")))
         (sha256
           (base32
-            "1rsb6chgcn3qyzdrajvmidax1gx13v5ngkp24fl1avrsf4kgbmjw"))))
+            "0csq3w2a0w4lgnadhpwbkqzijrl5ikbqi4a3jh0dfig2lkw2sg39"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -21260,7 +21260,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221122.1100")
+    (version "20221122.2023")
     (source
       (origin
         (method url-fetch)
@@ -21270,7 +21270,7 @@
                ".tar"))
         (sha256
           (base32
-            "1ygjbk994jb6crhvfbarzh7ki4l6y6nggak5av3321r4fhdaqhvl"))))
+            "0z4ibl3x0d48ndzyxc649mqfkn8qj2xc514slin6vrc3ip83fbj7"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -32795,17 +32795,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221115.1255")
+    (version "20221122.1450")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "5ce46a1fc175a8f13507ce2b6ec4c3618923f093")))
+                 "2e8576188b1d0768fbf92c6bea2fb3fbed9f019f")))
         (sha256
           (base32
-            "19mkwjnsq04mldc70mimkl7bc9mqigc619rpzc9dl7z65z7fgk8c"))))
+            "0zyqf6v5zk0mfclp5igsqxndsh93bf80xmxjw4gl0fj3fvpilx3w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -34274,17 +34274,17 @@
 (define-public emacs-evil-tex
   (package
     (name "emacs-evil-tex")
-    (version "20221021.1344")
+    (version "20221122.2034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iyefrat/evil-tex.git")
                (commit
-                 "97616a81fb88ad558051b57d899fdaba56d8d7fa")))
+                 "fd7a2b4b1953bc46276324d308d764bba280d6bf")))
         (sha256
           (base32
-            "1v80bx3gq7ld03gzafbnsj2nkzc6zd7v7lsmdcp9qdpnnz88i3ky"))))
+            "12yjfvj85nlqi5630rj9xknw3jgr0p4sc0hsyz9yhzcbwsldd6x0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-auctex))
@@ -35466,6 +35466,29 @@
       "a smarter context-sensitive query-replace that can be reapplied")
     (description
       "Documentation at https://melpa.org/#/ez-query-replace")
+    (license #f)))
+
+(define-public emacs-eziam-themes
+  (package
+    (name "emacs-eziam-themes")
+    (version "20221121.1609")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/thblt/eziam-theme-emacs.git")
+               (commit
+                 "7fba717293072d0afdbd1c45351ddf47b26b3064")))
+        (sha256
+          (base32
+            "14v23aqyl971yaw00xmqymlmw6abkx1biflqy1q0908q6fzg170n"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/thblt/eziam-theme-emacs")
+    (synopsis
+      "The mostly monochrome Eziam theme family.")
+    (description
+      "Documentation at https://melpa.org/#/eziam-themes")
     (license #f)))
 
 (define-public emacs-f
@@ -68431,17 +68454,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221122.1232")
+    (version "20221122.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "459b51f9f902a8a0f633e4987d4362ca60111e31")))
+                 "bc8889c2181361587f1310b29ce6c066d2adb859")))
         (sha256
           (base32
-            "0sxwx987yzn6navbgniq61w9i6d6vc1mkd70x03yi65pmm2jk5zn"))))
+            "04dgrsqn07hw0gzf3ff98dfjwmdsj3md8f6rv2kpw0z65ca6d660"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68857,17 +68880,17 @@
 (define-public emacs-lurk-mode
   (package
     (name "emacs-lurk-mode")
-    (version "20221114.2218")
+    (version "20221122.2058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lurk-lang/lurk-emacs.git")
                (commit
-                 "568fdce7b80a3d71d09369318b18f86de2372105")))
+                 "bd7cf661ccb31bfbfab542018c361bd79064d4f4")))
         (sha256
           (base32
-            "03d2xlyw9bqd9wpxxim63c43jpdnjnxi2xyp16359zhxs2np9src"))))
+            "0nrh517q7czfdr637qkv2j5mifd7wrdj0fzkfvbn8pz6s8fj0av1"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("lurk-mode.el")))
     (home-page
@@ -79199,17 +79222,17 @@
 (define-public emacs-ob-lurk
   (package
     (name "emacs-ob-lurk")
-    (version "20221107.1338")
+    (version "20221122.2058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lurk-lang/lurk-emacs.git")
                (commit
-                 "b341ffbf5959bbbc7dd33b35e207ce8b7bfbf565")))
+                 "bd7cf661ccb31bfbfab542018c361bd79064d4f4")))
         (sha256
           (base32
-            "1hs4msdqi1m74ypgqrzag49x868i2vxf6wybb6kcc26kb9f36pwp"))))
+            "0nrh517q7czfdr637qkv2j5mifd7wrdj0fzkfvbn8pz6s8fj0av1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lurk-mode))
     (arguments '(#:files ("ob-lurk.el")))
@@ -83027,17 +83050,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20221020.749")
+    (version "20221122.1836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "59b2e3c94756b4e37b2cf7b9f81028c6d4758672")))
+                 "e87ca8a9ec45fcfa2556028aa9feffb7bc3aecee")))
         (sha256
           (base32
-            "1n5csrj560crc66iqpfsx60055cgzh817v169s6jqkqzrzdigzvy"))))
+            "03zpwb475rpbhq1s6101clj0j9mcxdg033clvvybp0p7hm4inwaz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -93939,17 +93962,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20221118.1035")
+    (version "20221122.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "5703797bb2a400e962479e670086aca4241a77b7")))
+                 "b44ce799995be4adb20e3cd2b0e2294319bf0444")))
         (sha256
           (base32
-            "0xm6792q1z90mjmxrp54vw2yh34hzxisdxz5dl5df78ckkgbxsww"))))
+            "1qi3nc69k4nhkqkn5r6k6a9hjh81am7w3pp5vyqkbpc1ap0yrfjy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -108106,17 +108129,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20221120.2333")
+    (version "20221122.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "708cf6434dc1af42cd756d3daceaa569553862ab")))
+                 "7123b49b83aa76a8e3f14afbd04184f92e2ebaba")))
         (sha256
           (base32
-            "1hrx5qn4gh79sl4gikfkcqma95pbiy9ax22ij0dj9yj9nry20n2s"))))
+            "0i2ss5y8aaym2khdww2jw6glz8ncsmvnpjm34d2xsixbik39gs4j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -120907,7 +120930,7 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20221121.1705")
+    (version "20221122.1938")
     (source
       (origin
         (method url-fetch)
@@ -120917,8 +120940,9 @@
                ".tar"))
         (sha256
           (base32
-            "0cy7v04x037ds63hb04x9z83rwvgbkg6iwq254ba2fhshankzlf5"))))
+            "0prdj7s3ch755j59ip3pcnx81rlzmgczq5mavf3xkkjp3lrc1m1p"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page
       "https://codeberg.org/akib/emacs-workroom")
     (synopsis
