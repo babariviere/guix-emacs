@@ -12443,17 +12443,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20221111.1230")
+    (version "20221123.308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "244501472ddf31c91cc374231849a05c86dfb1fb")))
+                 "448e35ef900c23699a04609a9e314c3a2a5ccf6a")))
         (sha256
           (base32
-            "1051lqy1wbcmzdwmyqx0320mqrq64wrafk70dymyki2q9y291782"))))
+            "0cnkwb3gnn8m44ddc7spyn72p3ff3fsfk4s8sys00iyqfd65jlbc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -27017,17 +27017,17 @@
 (define-public emacs-el-fetch
   (package
     (name "emacs-el-fetch")
-    (version "20220622.2008")
+    (version "20221122.2207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-el-fetch.git")
                (commit
-                 "15f6af6035ad1f159ac931268ec3431ce4cdf2ec")))
+                 "5cf7e32df03463853d41e0570d1c28e709fc8cf9")))
         (sha256
           (base32
-            "0zdjlcfpq8xb871r2m2i8ah08mqpwnm375s42z3qgbccz63v8hy8"))))
+            "0gpifq4yjr94nz25gliny8wgmp4vzwg15rxdky40kg04cbp5kb47"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/el-fetch/*")))
     (home-page
@@ -27557,17 +27557,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221121.2223")
+    (version "20221122.2207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "d73221074fc9572cd01adbff49117c79d3e71654")))
+                 "621273bb7cc986bd929f97bde89428f55372567a")))
         (sha256
           (base32
-            "05zji861fhkpjz513f7hnd4njzk8icby074053f02d2gkv29v98g"))))
+            "0m6k35n7frgbik2chl31658jpwbm425zk0c8bdbfa9d1dqrn6y4g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -64424,17 +64424,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20221112.240")
+    (version "20221123.241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "ca6c3f84cefaf1287e432f2f3b4bdf630edd3bac")))
+                 "aa6040d2aff9b8b99eb6692a0227357258622ddb")))
         (sha256
           (base32
-            "0y3f1c4fbzy0yb5n986bzmgkkaxhgw06wxjvla4mkln6hccnxdia"))))
+            "1sabfz0h9vpskfw44a9g2qny1mrh1cvrrlhkxv5814hx35fxk61g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -111218,17 +111218,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221105.1528")
+    (version "20221122.2247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "870fe3201c14f828cfec0529aa78c110958e9aae")))
+                 "3c62b3fb6992e67e7812c63a6b83763cdd1394ba")))
         (sha256
           (base32
-            "1xrcgkrz8x24wb6k9f5jss6dixdzng1lsyw3jby5r19xsi742fc6"))))
+            "0mgm35dyrm1h6qbnclgv29ansja2pmzmpqbphz8ffa5dl5b58scv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
