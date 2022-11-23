@@ -21260,7 +21260,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221122.2023")
+    (version "20221123.951")
     (source
       (origin
         (method url-fetch)
@@ -21270,7 +21270,7 @@
                ".tar"))
         (sha256
           (base32
-            "0z4ibl3x0d48ndzyxc649mqfkn8qj2xc514slin6vrc3ip83fbj7"))))
+            "0lis9l8g4cagf4mnn2pyjgmfv857r4pg2vfrxbr7m931q3sbzvna"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -57466,17 +57466,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221122.920")
+    (version "20221123.1112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "cc85f0e138db34cdc04af19c0ad7c1042f690204")))
+                 "993c862b7fcc97cca1b825d0acf424c70d72ce36")))
         (sha256
           (base32
-            "0dcr0xdsc9ab71fi4a27n3nmh66py7j683k5crb04v89d44css2s"))))
+            "0p6hxszw4syfx3ah0wb0z3lwvi8wb4dc787bsd9fnafz9mkf20wg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -68121,17 +68121,17 @@
 (define-public emacs-lsp-docker
   (package
     (name "emacs-lsp-docker")
-    (version "20221025.1659")
+    (version "20221123.1334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-docker.git")
                (commit
-                 "3ffd7729cdd748586734135e36713517e14a1578")))
+                 "1d08ab56b4064f0e4b56493d723ff947d0e3c3c1")))
         (sha256
           (base32
-            "0jvflkqgrvy5nadw0vdygcdfss1hnl11j4fi47wk0hnhlanvlj67"))))
+            "1lnbyzk8w6rmcpxlrwjcjlmkfsb4i8z1wgfr3rm2ark66hrrqayk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71772,17 +71772,17 @@
 (define-public emacs-merlin
   (package
     (name "emacs-merlin")
-    (version "20220630.1249")
+    (version "20221123.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "be753d9412387aedcf32aba88a1be9bcd33d97ba")))
+                 "dff6628d4f70698d9ea057b8c2a62be7c575ab18")))
         (sha256
           (base32
-            "1cpa9x45w54l4mqqmc8z3s5gscggw37gb6z9i7wwss86fj1wgclh"))))
+            "071mb5qyaazqgd9p9i38wf6bjh6k8idz3vc217f37wnzpq70fdsi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -71801,24 +71801,23 @@
 (define-public emacs-merlin-ac
   (package
     (name "emacs-merlin-ac")
-    (version "20210615.1208")
+    (version "20221123.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "f1d1cfc6bdc76146a08ec89a926de42a57589704")))
+                 "dff6628d4f70698d9ea057b8c2a62be7c575ab18")))
         (sha256
           (base32
-            "0l2dp2qdgslg0v3gp9529631z84x3h44yhya28id9ankhkh7g01m"))))
+            "071mb5qyaazqgd9p9i38wf6bjh6k8idz3vc217f37wnzpq70fdsi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-merlin emacs-auto-complete))
     (arguments '(#:files ("emacs/merlin-ac.el")))
     (home-page "http://github.com/ocaml/merlin")
-    (synopsis
-      "Merlin and auto-complete integration.")
+    (synopsis "Merlin and auto-complete integration")
     (description
       "Documentation at https://melpa.org/#/merlin-ac")
     (license #f)))
@@ -71826,24 +71825,24 @@
 (define-public emacs-merlin-company
   (package
     (name "emacs-merlin-company")
-    (version "20210615.1208")
+    (version "20221123.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "ab77e5bdc6bad11f94e7f04fbba21e9c489c76d4")))
+                 "dff6628d4f70698d9ea057b8c2a62be7c575ab18")))
         (sha256
           (base32
-            "0y0mjx8w21nc4v5f5vym7cgwjwai10ab5j80wlq4vjiyhmcaw89z"))))
+            "071mb5qyaazqgd9p9i38wf6bjh6k8idz3vc217f37wnzpq70fdsi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-merlin emacs-company))
     (arguments
       '(#:files ("emacs/merlin-company.el")))
     (home-page "http://github.com/ocaml/merlin")
-    (synopsis "Merlin and company mode integration.")
+    (synopsis "Merlin and company mode integration")
     (description
       "Documentation at https://melpa.org/#/merlin-company")
     (license #f)))
@@ -71874,23 +71873,23 @@
 (define-public emacs-merlin-iedit
   (package
     (name "emacs-merlin-iedit")
-    (version "20220330.1736")
+    (version "20221123.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "5d59c7065938ea9c9b52f368b97a50bc8bf6d65b")))
+                 "dff6628d4f70698d9ea057b8c2a62be7c575ab18")))
         (sha256
           (base32
-            "1lwv8gj7hfcdnr0pqfw0yxbh9v0kxvkpbcbc5hw24268rgy33kpf"))))
+            "071mb5qyaazqgd9p9i38wf6bjh6k8idz3vc217f37wnzpq70fdsi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-merlin emacs-iedit))
     (arguments '(#:files ("emacs/merlin-iedit.el")))
     (home-page "http://github.com/ocaml/merlin")
-    (synopsis "Merlin and iedit integration.")
+    (synopsis "Merlin and iedit integration")
     (description
       "Documentation at https://melpa.org/#/merlin-iedit")
     (license #f)))
@@ -74665,17 +74664,17 @@
 (define-public emacs-mu4e-jump-to-list
   (package
     (name "emacs-mu4e-jump-to-list")
-    (version "20211030.2307")
+    (version "20221123.1014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/mu4e-jump-to-list.el.git")
                (commit
-                 "4d362a668be4ae624ee96bf7806b25505b4bdf5c")))
+                 "844996eeda3b2c089fde296d9dae6eb1151e0f4e")))
         (sha256
           (base32
-            "0jqnmzaa2vf4gxy9yzrvhijm3s4zaip4qxgxjlb240fr9ray6rgf"))))
+            "0hxy0ylryi1i5v0a952ix0nz4blj0bv6wnzp5524rvwwbw0lnw0p"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/wavexx/mu4e-jump-to-list.el")
@@ -77259,17 +77258,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20221115.1628")
+    (version "20221123.1316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "e2d6ac4522981f4d5e49b405aa7623884c217197")))
+                 "fea487d7cb0e9a09fcf0b522c91fbc89d57ef1bb")))
         (sha256
           (base32
-            "0jd1bx5hm84b9am321wikmxv5f2w74yw4838jwzch8g87r1ksnld"))))
+            "0z7rfvqy1gn7sw8p6mgdx698nyqspczpq07xxnl9yhdmbigal3g0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -118447,17 +118446,17 @@
 (define-public emacs-vulpea
   (package
     (name "emacs-vulpea")
-    (version "20221121.1129")
+    (version "20221123.646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/vulpea.git")
                (commit
-                 "59eec31a8d2173d9247bba5132e84cf1e43e1c7e")))
+                 "846fe12effccb7a08cb68b85d6b1805d0d872f39")))
         (sha256
           (base32
-            "0c0kxr6k89qsrvkkjflxyqw7a7skh6rf58ysyiy6kpcq578y8jj7"))))
+            "1hcn7szqyrjmif5mpz91cc2hyzw2bk5ifqjnd0k0xbw0x8byvpli"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-s emacs-dash))
