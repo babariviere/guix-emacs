@@ -16968,17 +16968,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221108.1835")
+    (version "20221124.114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "92f54a5fe345d390a11acf9008661fe73ae28539")))
+                 "3c73e4f6056ce938f9b9f554970f990c0b256538")))
         (sha256
           (base32
-            "0rc5cj6x4basnlvrndnwph0bk6drk07mh8chhrrh4pqlw9nv089f"))))
+            "1h99z6mhyq8q4xnc72jwadwbw5x9b07q6xrhraww9r30wng8aiqg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -61379,17 +61379,17 @@
 (define-public emacs-jenkinsfile-mode
   (package
     (name "emacs-jenkinsfile-mode")
-    (version "20220428.1113")
+    (version "20221124.30")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/john2x/jenkinsfile-mode.git")
                (commit
-                 "fa5545be1329df3067dcfd81749bbd99df070d6b")))
+                 "1d90c1ff8edc7ea88844af92a206e7c5f083b568")))
         (sha256
           (base32
-            "1cg1k3c4k21im499i09yajqhh20igmd2riyia8y65swvvksnzyrc"))))
+            "0l51r96vyk8wq8d6jmbchna2ckv47qzm290k4mpybxp85phvajzj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-groovy-mode))
     (home-page
@@ -107373,17 +107373,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221122.138")
+    (version "20221124.125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "0ad354dd6d113cab4943dcad6c18e3c73bff9e64")))
+                 "0ea967f546b807db0b38bf50c5175efe4c519017")))
         (sha256
           (base32
-            "1irikwdsbyxhc49ak8pryhslznsy57b5ffqavicp44k3qzj1rkbn"))))
+            "098lv8cn7wrwd6cl98zq01fy14k22wpp6gj7zis2px7fxyi9x156"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
