@@ -32190,17 +32190,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20221121.1627")
+    (version "20221124.756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "66c07672308b30c1379af3510b5a6af793d5e8fa")))
+                 "01e7f5b482b8a3331f1341483dedf2bd30403423")))
         (sha256
           (base32
-            "18ic5l4nqhmq9kj5x3w8cn3b8a2w3pwkrnkdrqi9hh4q99php4gi"))))
+            "1b40rbbqzgfxj88357aixq646g3v3f88k9kwhgmyyjy9lb2dljkb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -45868,7 +45868,7 @@
 (define-public emacs-glue
   (package
     (name "emacs-glue")
-    (version "20221114.1120")
+    (version "20221124.802")
     (source
       (origin
         (method url-fetch)
@@ -45878,7 +45878,7 @@
                ".el"))
         (sha256
           (base32
-            "0x4lcflg40rnmrdcy15wxbhzlmdrdsq5c9586a3brxvw61wdnjnf"))))
+            "1nsbja4943n3sllzs483mhj2p4w82lsnbxcrln387387m49z1yf0"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~hajovonta/glue/")
     (synopsis
@@ -74664,17 +74664,17 @@
 (define-public emacs-mu4e-jump-to-list
   (package
     (name "emacs-mu4e-jump-to-list")
-    (version "20221123.1014")
+    (version "20221124.1043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/mu4e-jump-to-list.el.git")
                (commit
-                 "844996eeda3b2c089fde296d9dae6eb1151e0f4e")))
+                 "e3c5e1b5374ffcbe7f0f5f5de868411c13b9d2dc")))
         (sha256
           (base32
-            "0hxy0ylryi1i5v0a952ix0nz4blj0bv6wnzp5524rvwwbw0lnw0p"))))
+            "1ax5kwc0jvs7r9qf1cwsc48wg9m0glm50x33v2x15049bjkas2vl"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/wavexx/mu4e-jump-to-list.el")
@@ -94831,17 +94831,17 @@
 (define-public emacs-pulseaudio-control
   (package
     (name "emacs-pulseaudio-control")
-    (version "20221122.459")
+    (version "20221124.858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/pulseaudio-control.git")
                (commit
-                 "76ec74ce2e72d4995e76ac15b61efd1820be256e")))
+                 "d5f6073a1e6e2cace8dfe99aaeda2b5637db5258")))
         (sha256
           (base32
-            "0xna5381f7gxi3ayw5fmjrsch1w0zw467h9idv9qwkfpwyj65mx9"))))
+            "024y6950kf7ny5hhnkym3wd9l0mcz8l5zkng32xw7y2js11bzbiz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/flexibeast/pulseaudio-control")
