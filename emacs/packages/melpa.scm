@@ -16659,17 +16659,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221117.807")
+    (version "20221123.1845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "d1463da28e9954308b3eb167300f851a8b1e9547")))
+                 "a3937825b5e5e27c7d6f82c204f28d41a2cd8053")))
         (sha256
           (base32
-            "1bym9ks8gjhakgpmhzasq6anrr5x71k3ybxxyw7r9vnqvxl9086v"))))
+            "04c0igih6wj1aps96nbq9y0iskwl3igjpcc7vsr3kfsm5vy9s21i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -21260,7 +21260,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221123.951")
+    (version "20221123.1722")
     (source
       (origin
         (method url-fetch)
@@ -21270,7 +21270,7 @@
                ".tar"))
         (sha256
           (base32
-            "0lis9l8g4cagf4mnn2pyjgmfv857r4pg2vfrxbr7m931q3sbzvna"))))
+            "1xa1cvwl24i966nk6m5fskj54wa9rf7cvycrpj1c21q1hb3bz59p"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -98686,17 +98686,17 @@
 (define-public emacs-remark-mode
   (package
     (name "emacs-remark-mode")
-    (version "20210504.1238")
+    (version "20221123.2127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/torgeir/remark-mode.el.git")
                (commit
-                 "9f15285445fdb53e720ffe72f5cf05231d340906")))
+                 "5a2a702d2af8fd007ae02237d5824356d0c1acc6")))
         (sha256
           (base32
-            "0mgkcdagj4n47nahsxnk7l1b4v15cbwqaac4fr8809jvis1rfx5g"))))
+            "0b6gk1r90m4wrmn0aimlz4xmpk7jnfm38ri80vpikm3alds5wp7d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (arguments
@@ -99470,17 +99470,17 @@
 (define-public emacs-rfc-mode
   (package
     (name "emacs-rfc-mode")
-    (version "20221117.1200")
+    (version "20221123.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galdor/rfc-mode.git")
                (commit
-                 "73bb2a18bb34136c9eeddef5f138840872ece752")))
+                 "53ec006aa6aa4fae9c6c64004692aa3d01b38275")))
         (sha256
           (base32
-            "1b4wd9ny6rmlw0cr2kvhs0kn33gx0zq4hv6vgr91a9wwj5y33lav"))))
+            "0qfl774796wpplzsv8ns31472615sb6hh6r7z2mvqhm3i0a5d35z"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/galdor/rfc-mode")
     (synopsis "RFC document browser and viewer")
