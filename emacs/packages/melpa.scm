@@ -12304,17 +12304,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20221030.1200")
+    (version "20221124.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "c37a4827d019eac76a297ebd2d6af04ffce42afb")))
+                 "ed7da18bfc057b1a3049f2bc0f984383cf08e0cd")))
         (sha256
           (base32
-            "1zlw1na4i4gq9b1zdh4pzyvwrn2dzrjzx1a0541211i5c1h79xd9"))))
+            "13zm6fpws7gqjsy8vxv05wg0cdrxl5ffrhgjq19cmlw8qlq36h2j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -18759,17 +18759,17 @@
 (define-public emacs-csharp-mode
   (package
     (name "emacs-csharp-mode")
-    (version "20220819.1351")
+    (version "20221124.2217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-csharp/csharp-mode.git")
                (commit
-                 "6e9d1f6b9900d3b8aa4106abf84a89311dfed85f")))
+                 "e2b2e33557754524fd64cf64b39cbce0bc6aa674")))
         (sha256
           (base32
-            "1shyv3lkilbglqlg0mzaz9aslx3xg9gjp63phdvhsgafvwzpi254"))))
+            "0jgfp9bykh3z9if8kil4vcp5m26rmml2535zbbzps63bii8my133"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-csharp/csharp-mode")
@@ -68454,17 +68454,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221122.1937")
+    (version "20221124.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "bc8889c2181361587f1310b29ce6c066d2adb859")))
+                 "e5a6274fac076f0d74a6ca892467be66a90a9649")))
         (sha256
           (base32
-            "04dgrsqn07hw0gzf3ff98dfjwmdsj3md8f6rv2kpw0z65ca6d660"))))
+            "1cx120zvj2nvpgdj44h89ca1z1xlr3dvs49zn8kaxl2vr2nlspdp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73027,17 +73027,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20221101.1715")
+    (version "20221123.1730")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "101821ad61222e318d924aaebac091650ec2a047")))
+                 "a453a54757ed720a3c5118d05c184cbce142303f")))
         (sha256
           (base32
-            "1nh0bh8q2n02ys0jvvpgba8k188v20d4dvnnl71vfwkm2b17kpmw"))))
+            "1vyaz6iw15z8dxqyjycbcyvyqqqiszxg3lmqcagv787rsp72m46k"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -88341,7 +88341,7 @@
 (define-public emacs-paredit
   (package
     (name "emacs-paredit")
-    (version "20220709.916")
+    (version "20221124.1905")
     (source
       (origin
         (method url-fetch)
@@ -88351,7 +88351,7 @@
                ".el"))
         (sha256
           (base32
-            "0vq90zbn02px4jysgby292fb7lqzl9102n30hxqhdgfk1yjmmjay"))))
+            "1lap28m3b16jf2yskfh4sjnmlnpp512y2rhw523wlz0qm3mrcjgl"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "minor mode for editing parentheses")
