@@ -8418,17 +8418,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20221121.2120")
+    (version "20221124.2315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "c83238b4188f02e9a974ac866aa0230fde964075")))
+                 "e27463e68ac813fa2f5a98270dec0ae98de375d3")))
         (sha256
           (base32
-            "1c2phfpfnvwhcic6gq9g4bcg5frpxhn11glfnkx3h2ffmk3wrg5d"))))
+            "0m97bpmig9wxb5lcsngi9ys9dsa1qbcqf25izfcxwzmy1spkd22d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -68454,17 +68454,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221124.2021")
+    (version "20221125.209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "e5a6274fac076f0d74a6ca892467be66a90a9649")))
+                 "fad33b5f5ff1664a8d5b524fe2c2fa895d06b12d")))
         (sha256
           (base32
-            "1cx120zvj2nvpgdj44h89ca1z1xlr3dvs49zn8kaxl2vr2nlspdp"))))
+            "1rnb3sxd20l69qh47ms0n0xp1mlbh6rbm5c5l44paij8011fh494"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69382,17 +69382,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20221120.1355")
+    (version "20221125.21")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "744818a3be01034a8577063e061e9b9e53ccf890")))
+                 "28d086270ceac61c10548dfb50321222152f5c80")))
         (sha256
           (base32
-            "1l0wnk4xl1jggmp64qrm7zx6yqnz4gbcwk69zr070jjf25qc2zdg"))))
+            "0rskrc3103xrlxcan62sx6frbxjxq4hq4hbw1ryc4ld6ajyfg6fi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73027,17 +73027,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20221123.1730")
+    (version "20221125.51")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "a453a54757ed720a3c5118d05c184cbce142303f")))
+                 "06f217b10815e33b84e82c12c57871d336329a8b")))
         (sha256
           (base32
-            "1vyaz6iw15z8dxqyjycbcyvyqqqiszxg3lmqcagv787rsp72m46k"))))
+            "0i70nsa9fjlg9ays2967cjhmznbnb36w68iipik4b3b7fbzfg0wg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -81660,17 +81660,17 @@
 (define-public emacs-org-clock-convenience
   (package
     (name "emacs-org-clock-convenience")
-    (version "20220515.849")
+    (version "20221124.2304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dfeich/org-clock-convenience.git")
                (commit
-                 "9201db80862d144459f1316d571842f5389a47eb")))
+                 "9d21d3a5ba2f8656aa23b8cb557017440f1b74e8")))
         (sha256
           (base32
-            "010wl014dh8sipfqnyasxy1rq5q726bgxm50v4fyqlqkpc6r07d2"))))
+            "187mccgv555phchmbn8622l0why6qf7h0scwvncdzc37g8jkpdi2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dfeich/org-clock-convenience")
@@ -88341,7 +88341,7 @@
 (define-public emacs-paredit
   (package
     (name "emacs-paredit")
-    (version "20221124.1905")
+    (version "20221124.2249")
     (source
       (origin
         (method url-fetch)
@@ -88351,7 +88351,7 @@
                ".el"))
         (sha256
           (base32
-            "1lap28m3b16jf2yskfh4sjnmlnpp512y2rhw523wlz0qm3mrcjgl"))))
+            "0b3hqivdfvl44gg81p00kxzql8gwhnr5638lh024hn85q8dbwad4"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "minor mode for editing parentheses")
@@ -94831,17 +94831,17 @@
 (define-public emacs-pulseaudio-control
   (package
     (name "emacs-pulseaudio-control")
-    (version "20221124.858")
+    (version "20221125.138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/pulseaudio-control.git")
                (commit
-                 "d5f6073a1e6e2cace8dfe99aaeda2b5637db5258")))
+                 "2c939a0789b9a0f5e3691704afde512ada9c73f4")))
         (sha256
           (base32
-            "024y6950kf7ny5hhnkym3wd9l0mcz8l5zkng32xw7y2js11bzbiz"))))
+            "18avxnpsriil91abx553201mignj9flqik73i5wmvhhi3z4jycff"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/flexibeast/pulseaudio-control")
@@ -113747,17 +113747,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20221119.1503")
+    (version "20221124.2341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "79d1426de173312bd6a3091731675bb010d804ec")))
+                 "ec20c0b65dcc3b274c124c15b0dcca01cf91ce4c")))
         (sha256
           (base32
-            "1kar2a30qwsv2rb79ng807chixiqvlx99sdwk33cy8kxl03vsp74"))))
+            "0cq40pn8wfzg4skl096ss9ldi0d8yvhhfdi039z63syi4mcsbysg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
