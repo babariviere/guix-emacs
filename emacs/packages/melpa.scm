@@ -21260,7 +21260,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221123.1722")
+    (version "20221125.1010")
     (source
       (origin
         (method url-fetch)
@@ -21270,7 +21270,7 @@
                ".tar"))
         (sha256
           (base32
-            "1xa1cvwl24i966nk6m5fskj54wa9rf7cvycrpj1c21q1hb3bz59p"))))
+            "1s9lll2x4yzj805y7lgp1csjbhwsvf5pmyfr9hwvl9kxxncgl52x"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
