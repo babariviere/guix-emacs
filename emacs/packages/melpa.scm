@@ -67975,17 +67975,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20221125.2001")
+    (version "20221126.457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "771c1d1edd4dfec96b576b1d2b551e4aae066dc9")))
+                 "00645b461d2329cc875586a00d808ace5c660c64")))
         (sha256
           (base32
-            "1z1bi1ms5508iv5w1jmmlml2fay21dhgl2lzbv2is5mnkkv0s6di"))))
+            "0bzf9vbx3rx1rzbc29ypxj9navkbr7i8ag4lcjjjpgfp9q48hr04"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "loopy-dash.el"))))
@@ -78735,7 +78735,7 @@
 (define-public emacs-ob-dart
   (package
     (name "emacs-ob-dart")
-    (version "20221125.2033")
+    (version "20221125.2354")
     (source
       (origin
         (method git-fetch)
@@ -88362,7 +88362,7 @@
 (define-public emacs-paredit
   (package
     (name "emacs-paredit")
-    (version "20221124.2249")
+    (version "20221126.146")
     (source
       (origin
         (method url-fetch)
@@ -88372,7 +88372,7 @@
                ".el"))
         (sha256
           (base32
-            "0b3hqivdfvl44gg81p00kxzql8gwhnr5638lh024hn85q8dbwad4"))))
+            "02j9b0lcvs8f67ph2152gb0p7kg08j21mlinx26jrf32n530v7qc"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "minor mode for editing parentheses")
@@ -114193,17 +114193,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20221122.645")
+    (version "20221126.446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "8a33fd0ae8c4f9ee15fb5062c0d1199ebc1def09")))
+                 "bf125472c185f098136b26b30d5e74332b4ee46b")))
         (sha256
           (base32
-            "1qqf5naf4a9zm0am1rn9yn2b2s6q3h9fapsl5d546vbsyvak5q40"))))
+            "0kh11nhg223i95icjng1pv4xg76n4pyg5ynh0bbqprhwh1awshva"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
