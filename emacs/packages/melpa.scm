@@ -7091,17 +7091,17 @@
 (define-public emacs-better-defaults
   (package
     (name "emacs-better-defaults")
-    (version "20220116.2220")
+    (version "20221125.1725")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~technomancy/better-defaults")
-               (commit
-                 "db2d945c44e26f32a658e9e743dd4b7a0d84b2fd")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/better-defaults-"
+               version
+               ".el"))
         (sha256
           (base32
-            "0mlga8kk09ir66lqs5xx0bkr51vcc89hxq3ax2vaq1zsvlddl5h2"))))
+            "11xpx32wa14blhdirgbn456r830ynkrjv947b4cln747d9kaja2w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/technomancy/better-defaults")
@@ -12235,17 +12235,17 @@
 (define-public emacs-circe
   (package
     (name "emacs-circe")
-    (version "20221022.2222")
+    (version "20221125.2054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-circe/circe.git")
                (commit
-                 "d0bd8113c23affe4f7bd9e19c498cee99e436f0a")))
+                 "d089a6d4abff1df87b9df7250fb8fbc0a0b061ab")))
         (sha256
           (base32
-            "11hy7izabnngmbly279lhylznrjw1fmpkxrxbrr6lx53ybck0knr"))))
+            "1pshlsagbbcmmggph3j082ji4bwxr0r9zzmkaq1d6mz4xpxl24i8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-circe/circe")
@@ -16968,17 +16968,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221124.114")
+    (version "20221125.2035")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "3c73e4f6056ce938f9b9f554970f990c0b256538")))
+                 "bc8a755966085b3d9728c2bdc595f61ed56f5b78")))
         (sha256
           (base32
-            "1h99z6mhyq8q4xnc72jwadwbw5x9b07q6xrhraww9r30wng8aiqg"))))
+            "047yqfa0rkijlc4l28fz8xnv0w20kgam6fkhjq6gvj0raqprba67"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -60769,6 +60769,27 @@
       "Documentation at https://melpa.org/#/jabber")
     (license #f)))
 
+(define-public emacs-jack
+  (package
+    (name "emacs-jack")
+    (version "20221122.632")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tonyaldon/jack.git")
+               (commit
+                 "3b4ea97fcc107d0ffd201ea695129af52f390113")))
+        (sha256
+          (base32
+            "1cizszj62ic41zc97glf2mdvm1kd95vdfg2dip3n2p2g0nlk2hjf"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/tonyaldon/jack")
+    (synopsis "HTML generator library")
+    (description
+      "Documentation at https://melpa.org/#/jack")
+    (license #f)))
+
 (define-public emacs-jack-connect
   (package
     (name "emacs-jack-connect")
@@ -67954,17 +67975,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20220821.1746")
+    (version "20221125.2001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "bb817524a6cc623e1496fb53c044b738c7dc69ab")))
+                 "771c1d1edd4dfec96b576b1d2b551e4aae066dc9")))
         (sha256
           (base32
-            "143grcv2md8fcj8hdg0w2br76wafzxc7xp10jscs8p83q1wij9xn"))))
+            "1z1bi1ms5508iv5w1jmmlml2fay21dhgl2lzbv2is5mnkkv0s6di"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "loopy-dash.el"))))
@@ -67977,17 +67998,17 @@
 (define-public emacs-loopy-dash
   (package
     (name "emacs-loopy-dash")
-    (version "20220330.127")
+    (version "20221125.2001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "cd49433244ef450a1dd10a65a7839076d61bdcf1")))
+                 "771c1d1edd4dfec96b576b1d2b551e4aae066dc9")))
         (sha256
           (base32
-            "0mdr09vqy4xrqb2l4g3j8n99zvqajw1jxxvvm9zv03zkwvcink1c"))))
+            "1z1bi1ms5508iv5w1jmmlml2fay21dhgl2lzbv2is5mnkkv0s6di"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-loopy emacs-dash))
     (arguments '(#:files ("loopy-dash.el")))
@@ -78714,21 +78735,21 @@
 (define-public emacs-ob-dart
   (package
     (name "emacs-ob-dart")
-    (version "20170106.1624")
+    (version "20221125.2033")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mzimmerm/ob-dart.git")
                (commit
-                 "04d63b922a5469506560ca0c00678e57131e0269")))
+                 "ec580fc99f58dbb6962f0fb19068be2c7224dd95")))
         (sha256
           (base32
-            "1r0r0dqsr44kcbj2w96rbx8alvkkfzc98ac35zb4ncy1bf71jhfb"))))
+            "0d6lpfbjpq50r8ww3il1rmm23w2m3q5rym15hg5fzb2jc26azacg"))))
     (build-system melpa-build-system)
     (home-page "http://github.org/mzimmerm/ob-dart")
     (synopsis
-      "org-babel functions for Dart evaluation")
+      "Evaluate Dart source blocks in org-mode")
     (description
       "Documentation at https://melpa.org/#/ob-dart")
     (license #f)))
@@ -87164,17 +87185,17 @@
 (define-public emacs-ox-qmd
   (package
     (name "emacs-ox-qmd")
-    (version "20210826.1425")
+    (version "20221125.1557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/ox-qmd.git")
                (commit
-                 "ccabf6bd79ed87dd3bd57993321ee6d93c1818be")))
+                 "0502c024afa27c261cb21b7728f43fa87664f18c")))
         (sha256
           (base32
-            "0hww5b2d0yc8g9hhk4sqsnr091nbrmpna1v5yc6pn1g24rngh3dk"))))
+            "0qrknjvz59aapxd66p783f9s3m9s8kwx2syqklq34icypf5m706m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/ox-qmd")
     (synopsis
@@ -95981,17 +96002,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20221003.1451")
+    (version "20221125.1705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "27829d7c1cb09018148b956b06e3ead66ffd88d6")))
+                 "55f198493b028153af04d2c6e56b40a42f76da78")))
         (sha256
           (base32
-            "1ysdiw3rwg2ngdja15phllkj9bvwfd4lga4djk07qma8fj916sha"))))
+            "0b9fnh57ffk5mfv88bb0fzz96fvvmh1l67kmzpvp7s3rr509vqjn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/python-mls")
@@ -98664,17 +98685,17 @@
 (define-public emacs-related-files
   (package
     (name "emacs-related-files")
-    (version "20221101.1909")
+    (version "20221125.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/related-files.git")
                (commit
-                 "4085ed9c235983e530da24cb1fbe33a5b7928ab3")))
+                 "0c2e38d0bb0db45a50a082d3e8362c07fc60a1f2")))
         (sha256
           (base32
-            "1nnhggbxgvl9h5k796kq3ni2jvv61kki68f3yk54s6yc9h2sgn6p"))))
+            "0n87x3ilnn7kc607pa5zffrkpbnkv4xa9hlzyx8ga8xj756zk558"))))
     (build-system melpa-build-system)
     (home-page "https://www.gnu.org/software/emacs/")
     (synopsis
@@ -101715,17 +101736,17 @@
 (define-public emacs-scpaste
   (package
     (name "emacs-scpaste")
-    (version "20210223.1902")
+    (version "20221125.1731")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~technomancy/scpaste")
-               (commit
-                 "4ec352fb9fe261ffb8b78449dea986dc34d337b3")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/scpaste-"
+               version
+               ".el"))
         (sha256
           (base32
-            "0219jzj3rwcx4k6f4grzrarq0v05jgmmracis3jb25rv0cln3i9r"))))
+            "0r6pi9p8rmmb35g4kjcm32lr3s8bg1g2wjw92aka8vp90sp97dd9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -104379,17 +104400,17 @@
 (define-public emacs-simple-indentation
   (package
     (name "emacs-simple-indentation")
-    (version "20221113.1645")
+    (version "20221125.1839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/simple-indentation.el.git")
                (commit
-                 "77685b3dd802dade7d60817fc0e24e60c101776b")))
+                 "0b1c7c1ab2cceb644137f43440b542eab2af5f2e")))
         (sha256
           (base32
-            "0dsrqip19pjdbdg039pq56wqynx271h5f25wx13k0y08smgpylnm"))))
+            "0gz7d2nz7bd2k27sajhjb51yhn4kjqr0wmcavkm05qs2cxzkr5sh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -112695,6 +112716,29 @@
     (synopsis "Manage Kubernetes Applications")
     (description
       "Documentation at https://melpa.org/#/timonier")
+    (license #f)))
+
+(define-public emacs-timu-caribbean-theme
+  (package
+    (name "emacs-timu-caribbean-theme")
+    (version "20221120.2213")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/aimebertrand/timu-caribbean-theme.git")
+               (commit
+                 "6bbf68dde5780707ceb5a43d81cb690355f6ad59")))
+        (sha256
+          (base32
+            "1i4hgjysfsfjayjbgwr18c6sj9mbwd9cd751wic08q6hdilwi2l4"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/aimebertrand/timu-caribbean-theme")
+    (synopsis
+      "Color theme with cyan as a dominant color")
+    (description
+      "Documentation at https://melpa.org/#/timu-caribbean-theme")
     (license #f)))
 
 (define-public emacs-timu-rouge-theme
