@@ -10246,17 +10246,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221121.2106")
+    (version "20221126.755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "8962e15381682544b268afd032661101692a3cd2")))
+                 "7d755a9571783d2ffb07f2b1cbfe4369f1418040")))
         (sha256
           (base32
-            "0z6ixw7gsx1g7x2xpj5ilslrjrlp6x2ynzh731hs3yf3n281715b"))))
+            "017vvm4cd0z9qqp7qp7mw0gcp7a13i8k2p55dlx6ss47cf01bkfh"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -12235,17 +12235,17 @@
 (define-public emacs-circe
   (package
     (name "emacs-circe")
-    (version "20221125.2054")
+    (version "20221126.1508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-circe/circe.git")
                (commit
-                 "d089a6d4abff1df87b9df7250fb8fbc0a0b061ab")))
+                 "57fe189d7c0b98b9b1b5a59767cea1c7e2c22b13")))
         (sha256
           (base32
-            "1pshlsagbbcmmggph3j082ji4bwxr0r9zzmkaq1d6mz4xpxl24i8"))))
+            "1hnfbzf4inx541mw1gnb5hxv6igdcwnlhpm8qs6z630appf3yxnc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-circe/circe")
@@ -17414,17 +17414,17 @@
 (define-public emacs-corfu-doc
   (package
     (name "emacs-corfu-doc")
-    (version "20220621.1554")
+    (version "20221126.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galeo/corfu-doc.git")
                (commit
-                 "da931367802d01e87e1e496ba5b51aa9126a705d")))
+                 "09b224e1b9ccdf57e6264dcaa62fe5d422766a4a")))
         (sha256
           (base32
-            "08ql4fi06w1v4f2xx24ajym513pi8pzxhd7y5zwrnk0kq2p8dr4p"))))
+            "05qcs0krwm0zxg6nc405w8c5vpp643f6g92hdlm29qwbkcs4331i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-corfu))
     (home-page "https://github.com/galeo/corfu-doc")
@@ -24247,17 +24247,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221111.711")
+    (version "20221126.623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "440fd160b4dff530465938bed40094a0d413fc11")))
+                 "986e9e0ab14aaab2e3f3dc82d4c76f2def6c099f")))
         (sha256
           (base32
-            "0ablv6fyqb6mzzk7iyx24nj5xmmmhw7kqmi2xldjv0a7aplmxbqr"))))
+            "1bcxflixd7rdbplmvgizq06w8hdxcdi6vmnxvh6yqmz1w6xqmsbv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -46117,17 +46117,17 @@
 (define-public emacs-gnu-indent
   (package
     (name "emacs-gnu-indent")
-    (version "20220515.1719")
+    (version "20221126.614")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/akib/emacs-gnu-indent.git")
-               (commit
-                 "ff3e10edbdf9b919747ec2ba3434d5858f5cc9fa")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/gnu-indent-"
+               version
+               ".el"))
         (sha256
           (base32
-            "040vlkzhgi7mhp6m4nrqz2srh8fr8xgpgbiqm8mbcs7py41smkg0"))))
+            "03k5s1x42b3q4yflbrxdwq4kkvhbc4y3illxnyh0vhn8iji8z6qs"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-gnu-indent")
@@ -71077,7 +71077,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221122.909")
+    (version "20221126.1052")
     (source
       (origin
         (method url-fetch)
@@ -71087,7 +71087,7 @@
                ".tar"))
         (sha256
           (base32
-            "1y17q6bbcmv1i81kmvhzpr70a2nk291j0dw62dpcnlpn35qgc92y"))))
+            "0alb6zca8d8npjjyv1rz05nc250vfdcfnjff9d4kn90y593kryyl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -75101,17 +75101,17 @@
 (define-public emacs-multiple-cursors
   (package
     (name "emacs-multiple-cursors")
-    (version "20220821.932")
+    (version "20221126.743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/multiple-cursors.el.git")
                (commit
-                 "1e4842d1297241a5277bfd5c7bfab9e8711da60a")))
+                 "fe0d5167459b792a699af782685582a195852cb9")))
         (sha256
           (base32
-            "0qrkgbihbax422x0y0hhdx9aflplp4cbc089ry3dbzyl09s7mwfl"))))
+            "094lvhg7acjlf8sa1jrw35vcxhmfddjc8z57bfvh95vckgrrzw8d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/magnars/multiple-cursors.el")
@@ -119950,7 +119950,7 @@
 (define-public emacs-why-this
   (package
     (name "emacs-why-this")
-    (version "20221014.1653")
+    (version "20221126.1234")
     (source
       (origin
         (method url-fetch)
@@ -119960,7 +119960,7 @@
                ".el"))
         (sha256
           (base32
-            "0y8lld4ds930dfd2c4vn5kmp8a69pd7wx0hyr67vskxwj2zzxz2r"))))
+            "1w00ca1l7a3nx0jl9da563z54m7r1ri453k0sfdpf058gsmfhyva"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-why-this")
