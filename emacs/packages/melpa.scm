@@ -22086,17 +22086,17 @@
 (define-public emacs-dired-avfs
   (package
     (name "emacs-dired-avfs")
-    (version "20161012.1104")
+    (version "20221127.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "7c0ef09d57a80068a11edc74c3568e5ead5cc15a")))
+                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
         (sha256
           (base32
-            "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
+            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-dired-hacks-utils))
@@ -22110,17 +22110,17 @@
 (define-public emacs-dired-collapse
   (package
     (name "emacs-dired-collapse")
-    (version "20210403.1230")
+    (version "20221127.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "7c0ef09d57a80068a11edc74c3568e5ead5cc15a")))
+                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
         (sha256
           (base32
-            "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
+            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-dired-hacks-utils))
@@ -22272,17 +22272,17 @@
 (define-public emacs-dired-filter
   (package
     (name "emacs-dired-filter")
-    (version "20191105.1404")
+    (version "20221127.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "7c0ef09d57a80068a11edc74c3568e5ead5cc15a")))
+                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
         (sha256
           (base32
-            "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
+            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-dired-hacks-utils emacs-f))
@@ -22323,17 +22323,17 @@
 (define-public emacs-dired-hacks-utils
   (package
     (name "emacs-dired-hacks-utils")
-    (version "20201005.2318")
+    (version "20221127.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "7c0ef09d57a80068a11edc74c3568e5ead5cc15a")))
+                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
         (sha256
           (base32
-            "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
+            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("dired-hacks-utils.el")))
@@ -22488,17 +22488,17 @@
 (define-public emacs-dired-narrow
   (package
     (name "emacs-dired-narrow")
-    (version "20181114.1723")
+    (version "20221127.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "7c0ef09d57a80068a11edc74c3568e5ead5cc15a")))
+                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
         (sha256
           (base32
-            "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
+            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-dired-hacks-utils))
@@ -22513,17 +22513,17 @@
 (define-public emacs-dired-open
   (package
     (name "emacs-dired-open")
-    (version "20180922.1113")
+    (version "20221127.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "7c0ef09d57a80068a11edc74c3568e5ead5cc15a")))
+                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
         (sha256
           (base32
-            "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
+            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-dired-hacks-utils))
@@ -22585,17 +22585,17 @@
 (define-public emacs-dired-rainbow
   (package
     (name "emacs-dired-rainbow")
-    (version "20190722.1109")
+    (version "20221127.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "7c0ef09d57a80068a11edc74c3568e5ead5cc15a")))
+                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
         (sha256
           (base32
-            "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
+            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-dired-hacks-utils))
@@ -22610,17 +22610,17 @@
 (define-public emacs-dired-ranger
   (package
     (name "emacs-dired-ranger")
-    (version "20180401.2206")
+    (version "20221127.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "7c0ef09d57a80068a11edc74c3568e5ead5cc15a")))
+                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
         (sha256
           (base32
-            "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
+            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-dired-hacks-utils))
@@ -22771,17 +22771,17 @@
 (define-public emacs-dired-subtree
   (package
     (name "emacs-dired-subtree")
-    (version "20210105.1127")
+    (version "20221127.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "7c0ef09d57a80068a11edc74c3568e5ead5cc15a")))
+                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
         (sha256
           (base32
-            "0qqj16r7p6pidlyj7fi0s3xhi13065642j20hlnply8nrq782vpj"))))
+            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-dired-hacks-utils))
@@ -42724,17 +42724,17 @@
 (define-public emacs-frimacs
   (package
     (name "emacs-frimacs")
-    (version "20221113.1231")
+    (version "20221127.910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pdo/frimacs.git")
                (commit
-                 "ae3870ebced2fb92f7fac1aa0051f7e46b30d55b")))
+                 "2aa343d743e70fa90ae06927fa2c7dabeca04fa2")))
         (sha256
           (base32
-            "0r18cgi4hycif9r53vn1cakajkbrqpaziz240bq5yw2wnyvmkgfx"))))
+            "1rvhxyzljpdv4h1mwi767jyz4ql61806vq6q9681ixvm9jzxs8p4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -46235,17 +46235,17 @@
 (define-public emacs-gnus-notes
   (package
     (name "emacs-gnus-notes")
-    (version "20210207.1010")
+    (version "20221127.1316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/deusmax/gnus-notes.git")
                (commit
-                 "1457bba34b40d5197aa14dbf0856925f83025ae1")))
+                 "b21907ca67dedaac730f4d5dcba8fb778283b23d")))
         (sha256
           (base32
-            "01jm2maa8q0zjpqa95c84k9b9jx5rgwvvhaqbwvw8ccz883mcdjm"))))
+            "1wl3gjklj9i552bal6h5nwif5dm4csy5pzwq3kl005x58bfbyfic"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-bbdb
@@ -46798,17 +46798,17 @@
 (define-public emacs-go-playground
   (package
     (name "emacs-go-playground")
-    (version "20221126.2020")
+    (version "20221127.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/grafov/go-playground.git")
                (commit
-                 "41a05ad391d7cba2170335d221d09bf4e06d3f2a")))
+                 "e70aeb111fbb4487b464a813feb8ecad1542dc1c")))
         (sha256
           (base32
-            "05s067b6wvnph67kdzk33h7il68ngnvkhkqjg23xlk5im7hj1wyz"))))
+            "0r7rds41m899ikc6lnjhlkkrhljmazsddk8f050nzngdfb60p3sa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-go-mode emacs-gotest))
@@ -68475,17 +68475,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221125.209")
+    (version "20221127.1004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "fad33b5f5ff1664a8d5b524fe2c2fa895d06b12d")))
+                 "4b176e21483eb5c324618f8f6018da3702120517")))
         (sha256
           (base32
-            "1rnb3sxd20l69qh47ms0n0xp1mlbh6rbm5c5l44paij8011fh494"))))
+            "163isss4psxlg5wcbfkm3k2i64gx3f311fy1dsndvb6490wpksil"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71077,7 +71077,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221126.1720")
+    (version "20221127.1243")
     (source
       (origin
         (method url-fetch)
@@ -71087,7 +71087,7 @@
                ".tar"))
         (sha256
           (base32
-            "195kyn104w3v3w2bxd51wdgmqwql06r72gm7wr383vlryvwyqsi3"))))
+            "1viayma9nrd5vfrq4x1z7h85fc05x12hcfvvis76s1xfzdv5bj10"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -75396,17 +75396,17 @@
 (define-public emacs-my-repo-pins
   (package
     (name "emacs-my-repo-pins")
-    (version "20221115.1729")
+    (version "20221127.1249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NinjaTrappeur/my-repo-pins.git")
                (commit
-                 "e6d7d6c21c53d9120e54d5f68a6277f49acbe3bc")))
+                 "6ed7d45cecc3434c4e032f1bdd23e49577f621c7")))
         (sha256
           (base32
-            "0a1d5z8ma5b8mjkaiibblcf1x2rnlbr5zc0nxjnhv2lw569iv3ql"))))
+            "0rvmv3y12l7fpjwzfgwbvhzrmp6n2fxs3zjjx9cr1mxm7gkhw0y5"))))
     (build-system melpa-build-system)
     (home-page
       "https://alternativebit.fr/projects/my-repo-pins/")
@@ -87231,17 +87231,17 @@
 (define-public emacs-ox-reveal
   (package
     (name "emacs-ox-reveal")
-    (version "20221127.702")
+    (version "20221127.814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yjwen/org-reveal.git")
                (commit
-                 "2d5a04ddecd2c39efe6b46bfab26f7661e7750b4")))
+                 "f55c851bf6aeb1bb2a7f6cf0f2b7bd0e79c4a5a0")))
         (sha256
           (base32
-            "0ykaym4qljlwbbhl03d0g3p7s49a1my49vzb2s6v1pjbza7rls9z"))))
+            "1ck8v9qwk434w4ib9bmlmpqmiv8k1is5bcr5h7pnswgmgma68dka"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -88362,7 +88362,7 @@
 (define-public emacs-paredit
   (package
     (name "emacs-paredit")
-    (version "20221127.12")
+    (version "20221127.1431")
     (source
       (origin
         (method url-fetch)
@@ -88372,7 +88372,7 @@
                ".el"))
         (sha256
           (base32
-            "10j4bva6q58z8wpi3w8qmmkafx1zlc84lpxy76hbavb2bz1lnvzf"))))
+            "0lgml0r84j88mkx5akaz0hkmckdc0q6vpzxryw323mhxpskd0lln"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "minor mode for editing parentheses")
@@ -104400,17 +104400,17 @@
 (define-public emacs-simple-indentation
   (package
     (name "emacs-simple-indentation")
-    (version "20221125.1839")
+    (version "20221127.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/simple-indentation.el.git")
                (commit
-                 "0b1c7c1ab2cceb644137f43440b542eab2af5f2e")))
+                 "74efe02aa6c1612ae9b32b88f97b7d6d309726b2")))
         (sha256
           (base32
-            "0gz7d2nz7bd2k27sajhjb51yhn4kjqr0wmcavkm05qs2cxzkr5sh"))))
+            "03dmq63cqymj37mnqxgm4qxmvv6vcxbj5kanr0qwdv1nzkh16dgw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -105888,17 +105888,17 @@
 (define-public emacs-smartparens
   (package
     (name "emacs-smartparens")
-    (version "20220623.1523")
+    (version "20221127.1250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/smartparens.git")
                (commit
-                 "8b6a3c3b31afd5b3f846e09859b5fc62eb06e7c1")))
+                 "0a23136dd6b1f326419c5828f4197ecfd820b204")))
         (sha256
           (base32
-            "1bifalcx0v9h28q9mdnbad4mrxzr58f4l0wfnw1jhg5khgx4kgl2"))))
+            "0l8q352mklagvjgipf1dfycnmxr5s6ichqczfkz51kr0dwsgh8fw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -111238,17 +111238,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221122.2247")
+    (version "20221127.951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "3c62b3fb6992e67e7812c63a6b83763cdd1394ba")))
+                 "6ed76f35810bd89cb1787dadf76ba0201d9d9dcb")))
         (sha256
           (base32
-            "0mgm35dyrm1h6qbnclgv29ansja2pmzmpqbphz8ffa5dl5b58scv"))))
+            "1s21pmh9r972y1d18mg320ysqid5khvv0npw3z7nplvgyhcin8gf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -123444,17 +123444,17 @@
 (define-public emacs-zig-mode
   (package
     (name "emacs-zig-mode")
-    (version "20220521.1148")
+    (version "20221127.856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ziglang/zig-mode.git")
                (commit
-                 "dbc648f5bca8f3b9ca2cc7827f326f5530115144")))
+                 "a4e1ce7296c11e668487ed9962be358755b9a6fc")))
         (sha256
           (base32
-            "0hwkkwhc5b2pzyqa2h0xw8wxijsrp1fk70fhyv8hx19shzlc4la3"))))
+            "1ggjjhx70a4indvd50jvw15h66l8wc29vajyvhrfr878zcnkccc7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/zig-lang/zig-mode")
