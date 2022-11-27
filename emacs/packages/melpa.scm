@@ -18759,17 +18759,17 @@
 (define-public emacs-csharp-mode
   (package
     (name "emacs-csharp-mode")
-    (version "20221124.2217")
+    (version "20221126.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-csharp/csharp-mode.git")
                (commit
-                 "e2b2e33557754524fd64cf64b39cbce0bc6aa674")))
+                 "d8b058c9e9d0429ea7e81d121ce19b064bd7e0f5")))
         (sha256
           (base32
-            "0jgfp9bykh3z9if8kil4vcp5m26rmml2535zbbzps63bii8my133"))))
+            "1d0pf236xi4c7fazv67a53yrac24lilnkzp9pb55xm88gig7rfmz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-csharp/csharp-mode")
@@ -42139,17 +42139,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20221008.1655")
+    (version "20221126.2030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "c237c4cdf70a93c2d975b418314af33a210a5740")))
+                 "1535577641e8bdd00636037c65a954386b87d500")))
         (sha256
           (base32
-            "17y2paxygi4akwndjmnzj7ngg814nq0ylxsrihkni0grxv5b76ww"))))
+            "1hg5kym1jbp888ii8h3vwria0p0x52vp7winx2mc60p94wkhwxvp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -43480,17 +43480,17 @@
 (define-public emacs-gcode-mode
   (package
     (name "emacs-gcode-mode")
-    (version "20210522.1025")
+    (version "20221126.2249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/gcode-mode.el.git")
                (commit
-                 "1f83845af4102efc5e5856b55bd5ad165b2f0cdd")))
+                 "94d2baf2ccbe24ef173e1b203aadb02b43ef2aa2")))
         (sha256
           (base32
-            "0lrsnl08npknif66chs3spy6pnblx3mbxxw1dii8a7zcj2s0ripv"))))
+            "1bn1kzg14hbhnd0g630klardzljd402yi7vphdim3yin9fjjs4zn"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/wavexx/gcode-mode.el")
@@ -46798,17 +46798,17 @@
 (define-public emacs-go-playground
   (package
     (name "emacs-go-playground")
-    (version "20220106.1618")
+    (version "20221126.2020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/grafov/go-playground.git")
                (commit
-                 "9ee7dcc7f78be67cc391f13efa6570c2baac0204")))
+                 "41a05ad391d7cba2170335d221d09bf4e06d3f2a")))
         (sha256
           (base32
-            "0xjdgk7w8b1c8mx568whfrlkj20qqw7mzgva7blr92l5zx86ni3g"))))
+            "05s067b6wvnph67kdzk33h7il68ngnvkhkqjg23xlk5im7hj1wyz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-go-mode emacs-gotest))
@@ -49527,17 +49527,17 @@
 (define-public emacs-hass
   (package
     (name "emacs-hass")
-    (version "20220813.1717")
+    (version "20221126.2152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purplg/hass.git")
                (commit
-                 "c6d9bd2e29fc2c4f37c0c72f3d136e43f34addbc")))
+                 "2e65663d8e216b641e216d4b23b19c028bbc2298")))
         (sha256
           (base32
-            "0km3gcsd9vn4w9700rzfyfw4vj47sbd39xxn42lgqjw0h1bywdkw"))))
+            "182jphkga8ca9smyqd14d5ir1zpm0skp713q70clf456f3b321w2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page "https://github.com/purplg/hass")
@@ -54911,17 +54911,17 @@
 (define-public emacs-highlight-thing
   (package
     (name "emacs-highlight-thing")
-    (version "20220726.2237")
+    (version "20221126.2305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fgeller/highlight-thing.el.git")
                (commit
-                 "cdf429c41c13c22d25fe43493cc5d85cc480dba6")))
+                 "b9bb6e49fc20d2e1f688c2645f6f6653208145de")))
         (sha256
           (base32
-            "1p3q0s96f2pgmf327zzwx11sdy24im3dy9qv53bk2nb5zysvklzm"))))
+            "1fmw5f40y4iyp4yh0cb6f6jhg2hbx22ij039nmja3knir2zanqch"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fgeller/highlight-thing.el")
@@ -57717,17 +57717,17 @@
 (define-public emacs-imake
   (package
     (name "emacs-imake")
-    (version "20221022.2233")
+    (version "20221126.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/imake.git")
                (commit
-                 "d9b5cb5c0a5483e663cc3c345df7659ddf08b61e")))
+                 "2beb3588a523d9ea1db5be3babd4d249702911f0")))
         (sha256
           (base32
-            "0b53y83w1ksy96h10vnbn0f3is4g5nb3dxmh0v8plrchkwxb0pq3"))))
+            "0r4l0i82inbid17k1g8vn8rx3rc6gbdm5cjw1dplrn08cm2pm527"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/tarsius/imake")
@@ -67387,20 +67387,20 @@
 (define-public emacs-llama
   (package
     (name "emacs-llama")
-    (version "20220428.1405")
+    (version "20221126.1541")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~tarsius/llama")
-               (commit
-                 "adc5d169fad53d6d11000a72dc95f8489a8c7534")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/llama-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1c1yvndzs7lry8nw1bhks4vjlvbjg1fikcpf3xdlfahahp3w1dh9"))))
+            "1wdwyw70n8k2n448xkzifsppmv0vja535vals35wvzzcvhj0yrpn"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~tarsius/llama")
-    (synopsis "Anonymous function literals")
+    (synopsis "Compact syntax for short lambda")
     (description
       "Documentation at https://melpa.org/#/llama")
     (license #f)))
@@ -67954,17 +67954,17 @@
 (define-public emacs-loophole
   (package
     (name "emacs-loophole")
-    (version "20221121.1448")
+    (version "20221126.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/loophole.git")
                (commit
-                 "61f7bc8bc670a1d07b0548d1287ae3c40b88e3f9")))
+                 "dadc3fadc68b13501c4dbe89109f30deb0d3441a")))
         (sha256
           (base32
-            "0ywjfdsskw7ihgbsla61xk5cbpplnzg083cwa82408g39g7ir3nv"))))
+            "1qjifn3rzqs0k7j2mfc98vkni7mzszc4pqd0i5zz9xald61di1dc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/loophole")
     (synopsis "Manage temporary key bindings")
@@ -71077,7 +71077,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221126.1052")
+    (version "20221126.1720")
     (source
       (origin
         (method url-fetch)
@@ -71087,7 +71087,7 @@
                ".tar"))
         (sha256
           (base32
-            "0alb6zca8d8npjjyv1rz05nc250vfdcfnjff9d4kn90y593kryyl"))))
+            "195kyn104w3v3w2bxd51wdgmqwql06r72gm7wr383vlryvwyqsi3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -77787,7 +77787,7 @@
 (define-public emacs-notmuch-transient
   (package
     (name "emacs-notmuch-transient")
-    (version "20221028.1344")
+    (version "20221126.1407")
     (source
       (origin
         (method url-fetch)
@@ -77797,7 +77797,7 @@
                ".el"))
         (sha256
           (base32
-            "1mq5lidmpl7shh4mqjak1pbqrnq3b7ywl54ajv3aniy6qbglvp3n"))))
+            "05wjw3m072fw0cvg1vz1hf7rbhbck2p8glqs6ifjq9khiv30pcj3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-notmuch))
@@ -88362,7 +88362,7 @@
 (define-public emacs-paredit
   (package
     (name "emacs-paredit")
-    (version "20221126.146")
+    (version "20221127.12")
     (source
       (origin
         (method url-fetch)
@@ -88372,7 +88372,7 @@
                ".el"))
         (sha256
           (base32
-            "02j9b0lcvs8f67ph2152gb0p7kg08j21mlinx26jrf32n530v7qc"))))
+            "10j4bva6q58z8wpi3w8qmmkafx1zlc84lpxy76hbavb2bz1lnvzf"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "minor mode for editing parentheses")
@@ -88452,17 +88452,17 @@
 (define-public emacs-paren-face
   (package
     (name "emacs-paren-face")
-    (version "20220422.1627")
+    (version "20221126.2342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/paren-face.git")
                (commit
-                 "5dc2c2e06152dc51f7395073569f448a8f94d296")))
+                 "bf741a6038a2554abf98d31e658421c33f8bf7a4")))
         (sha256
           (base32
-            "0plw57g866z6nafgh8czb2hh87z1l2rihv9cvda3gs4fkh8hvimx"))))
+            "01vr3bk7ffhwihz02g7dvh9n2c22x1nn2mdk84k0nhlrbb91lgy0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -112721,17 +112721,17 @@
 (define-public emacs-timu-caribbean-theme
   (package
     (name "emacs-timu-caribbean-theme")
-    (version "20221120.2213")
+    (version "20221126.1859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-caribbean-theme.git")
                (commit
-                 "6bbf68dde5780707ceb5a43d81cb690355f6ad59")))
+                 "fd8217827fce474a9f5c8990eef100f04f2a2309")))
         (sha256
           (base32
-            "1i4hgjysfsfjayjbgwr18c6sj9mbwd9cd751wic08q6hdilwi2l4"))))
+            "1r9hvx8w79amh2hgzrv00zl905nyb64gcw6jspzgs7cnfqn23w7a"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-caribbean-theme")
@@ -119950,7 +119950,7 @@
 (define-public emacs-why-this
   (package
     (name "emacs-why-this")
-    (version "20221126.1234")
+    (version "20221126.1521")
     (source
       (origin
         (method url-fetch)
@@ -119960,7 +119960,7 @@
                ".el"))
         (sha256
           (base32
-            "1w00ca1l7a3nx0jl9da563z54m7r1ri453k0sfdpf058gsmfhyva"))))
+            "0ifs8428d2y1ljgcx865h9ns7br1kbngv3w555sa72fpf3cx9n4q"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-why-this")
