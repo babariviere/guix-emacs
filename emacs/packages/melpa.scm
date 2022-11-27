@@ -3629,17 +3629,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20221112.350")
+    (version "20221127.217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "33d4542b58476d50f01464576664de1acea1f62f")))
+                 "049b724858c5c6f43a7a0831ddc2d85920dcd0c3")))
         (sha256
           (base32
-            "1gcsw3sfm4ixasfcmq2gjd878ap94sigkhis41l62y6kwzp9z63b"))))
+            "1y8cqmk4p2igvrpc74gjr07l7x86vsaj94axwcvxxls821gh5xr6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -16659,17 +16659,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221123.1845")
+    (version "20221127.533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "a3937825b5e5e27c7d6f82c204f28d41a2cd8053")))
+                 "db16709e0d22f290eadfc48980f282ce7ae6d468")))
         (sha256
           (base32
-            "04c0igih6wj1aps96nbq9y0iskwl3igjpcc7vsr3kfsm5vy9s21i"))))
+            "145ycl58xhan4mq9gk24vqqfa30bizc8a1qi934imn29s65mg3lm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -34437,17 +34437,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20221024.351")
+    (version "20221127.348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "087c3c3ce249515446d01f4a98d9fadc2bc41666")))
+                 "9ce59bbb99bdc83d88fe0d595de11c94c2e6adbe")))
         (sha256
           (base32
-            "0jds213935jf84fq6ks0fcd6ilc14xzfs1rdmhr4kajalkl8127w"))))
+            "0rh772nllkwvd07jbbn40yj1vp0i2limnm5r40l8hv0sp1zbidvw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -43594,17 +43594,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221115.2228")
+    (version "20221127.507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "15dfe0fceea4d3508cd22a05fee18b617f84df2f")))
+                 "a29ad0533090e804f84b72c064a595b35c077977")))
         (sha256
           (base32
-            "10f048rkcw0rnn03dq9v5bgg61zclznnsl6hl9sqjanb16vhs5lp"))))
+            "111as99278vbv6pwj8rpl308g327f8iznnrz71mngl6d5mr0xpa1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43747,17 +43747,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20221115.2230")
+    (version "20221127.509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "961c9630f90733f517a9124750e72da55b569f10")))
+                 "f57bfd5039ce158de95d2ef2933e64fb16def4f6")))
         (sha256
           (base32
-            "1hhn4nrhwnkrks1kij27dza0zlj0z6jpw9k9nqqswb3h9qll3nvz"))))
+            "0gp8xbfm7y2gabjyys8jylfy1pkkglqas32xxrbqxfh1hv0cfh2f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -73048,17 +73048,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20221125.51")
+    (version "20221127.259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "06f217b10815e33b84e82c12c57871d336329a8b")))
+                 "7905ac8c5e4d7e1562396f204dad86e87674f4ee")))
         (sha256
           (base32
-            "0i70nsa9fjlg9ays2967cjhmznbnb36w68iipik4b3b7fbzfg0wg"))))
+            "1zcggprl6g2jwnhhghby27h2h0522r48pciqp2bvh5lamdiz85gs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -87185,17 +87185,17 @@
 (define-public emacs-ox-qmd
   (package
     (name "emacs-ox-qmd")
-    (version "20221125.1557")
+    (version "20221127.702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/0x60df/ox-qmd.git")
                (commit
-                 "0502c024afa27c261cb21b7728f43fa87664f18c")))
+                 "026e4bd227589b3500294a56c2eca43b3405f992")))
         (sha256
           (base32
-            "0qrknjvz59aapxd66p783f9s3m9s8kwx2syqklq34icypf5m706m"))))
+            "0s0wnssc2ky4w7hjp3s4c8acw8c1g6rx356ddzx8ih8f8khl868q"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/0x60df/ox-qmd")
     (synopsis
@@ -87231,17 +87231,17 @@
 (define-public emacs-ox-reveal
   (package
     (name "emacs-ox-reveal")
-    (version "20220627.1539")
+    (version "20221127.702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yjwen/org-reveal.git")
                (commit
-                 "8567d2b1118bde343980b878af9a38f14d85ffcd")))
+                 "2d5a04ddecd2c39efe6b46bfab26f7661e7750b4")))
         (sha256
           (base32
-            "0prxa7rijhxha3z4y1vyy7y0pr8wzavj7gq1aqaw42rvlpnbdv84"))))
+            "0ykaym4qljlwbbhl03d0g3p7s49a1my49vzb2s6v1pjbza7rls9z"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -111354,17 +111354,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20221016.1017")
+    (version "20221127.454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "7d7adf155760d33b8c391fbf1e99c5be85bab85a")))
+                 "1203094cad705b4b9c861eee120e57a5a26e6ef1")))
         (sha256
           (base32
-            "1za73zszj373r8pxf89cwwfrwsf8dy6nxciw11adcccrm92xwdsz"))))
+            "01ap4jg0yjnrpqxn5r6mp6pq5h776alcl4a7zhfivrkk50a3zj4j"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
