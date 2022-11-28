@@ -17414,17 +17414,17 @@
 (define-public emacs-corfu-doc
   (package
     (name "emacs-corfu-doc")
-    (version "20221126.600")
+    (version "20221128.1533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/galeo/corfu-doc.git")
                (commit
-                 "09b224e1b9ccdf57e6264dcaa62fe5d422766a4a")))
+                 "0e6125cd042506a048feb7b6446a5653eccfcff5")))
         (sha256
           (base32
-            "05qcs0krwm0zxg6nc405w8c5vpp643f6g92hdlm29qwbkcs4331i"))))
+            "1cpx9flv6m10h1rganjmbccc289c4hzss9kd9mw6krsxiik65xl7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-corfu))
     (home-page "https://github.com/galeo/corfu-doc")
@@ -21260,7 +21260,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221125.1010")
+    (version "20221128.927")
     (source
       (origin
         (method url-fetch)
@@ -21270,7 +21270,7 @@
                ".tar"))
         (sha256
           (base32
-            "1s9lll2x4yzj805y7lgp1csjbhwsvf5pmyfr9hwvl9kxxncgl52x"))))
+            "18f1r2gqmc48qlv65f8ysczjwgp2zik1hlq68d59kf4j8183231x"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -40797,17 +40797,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20221116.1917")
+    (version "20221128.1536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "b4b4d9f041dbc887f3adfb61600e9df4e51f9917")))
+                 "3451ea5f5937bc1dbe3abacfd09c8998bb13af7c")))
         (sha256
           (base32
-            "0vyqh5h5rc12hk8w801wqi1nrcq5m6r5swak9vca7fh0rihjimz6"))))
+            "1anmzq1wjj64phmyddmy2kd6pnr6r4c4h7xr03yxw0nhr07yvix8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -47971,17 +47971,17 @@
 (define-public emacs-graphql
   (package
     (name "emacs-graphql")
-    (version "20221029.1808")
+    (version "20221128.1106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vermiculus/graphql.el.git")
                (commit
-                 "4575642c3213593abe5972510c418ebb11bf1d99")))
+                 "b57b5ca5d2d0837e1fb4a4f30c051d5f3e643f0f")))
         (sha256
           (base32
-            "1apbnxbxzk6ngigdpbjkn52cli9axwxlkv2fhksyqsqvxrg8f119"))))
+            "18k2c2b7y5qgc7qpkqjmz1nv61w470ja3vwprmy5dlkzficzqsvf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/vermiculus/graphql.el")
@@ -48040,17 +48040,17 @@
 (define-public emacs-graphviz-dot-mode
   (package
     (name "emacs-graphviz-dot-mode")
-    (version "20220309.1336")
+    (version "20221128.519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ppareit/graphviz-dot-mode.git")
                (commit
-                 "6e96a89762760935a7dff6b18393396f6498f976")))
+                 "46afe4825b4a3a5d1a1ac65ec7f585051f756b78")))
         (sha256
           (base32
-            "04p8x4lwbp2qwlsr5xlzjn3a25bg0rsnk3nqfvvz66zv0srz62mn"))))
+            "1902ciyypy2sr91d31znkwwkpxg5yr9a55cv89k7iai7r0fw0h36"))))
     (build-system melpa-build-system)
     (home-page
       "https://ppareit.github.io/graphviz-dot-mode/")
@@ -66150,17 +66150,17 @@
 (define-public emacs-liberime
   (package
     (name "emacs-liberime")
-    (version "20220928.845")
+    (version "20221128.514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/liberime.git")
                (commit
-                 "2217883b0ca3b308de4e2c670a0ac8c767fd633e")))
+                 "95b61f311cf266a8ffbfd5c71f0a1c3c70145cdb")))
         (sha256
           (base32
-            "0s0fsjs52x4v1h04j711fd2w7dmx55dc1chfd0s3czf1r5vr7hc3"))))
+            "0ni3jzkvivdwr7q4mb7q45spdni11jkvwjlkn9myx39qxjrsvq9c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -94395,17 +94395,17 @@
 (define-public emacs-proof-general
   (package
     (name "emacs-proof-general")
-    (version "20220930.1309")
+    (version "20221128.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/PG.git")
                (commit
-                 "ef18ee4d6ffa160fe563307561f2cad12e9478b5")))
+                 "8e688a67703e4a132cc09bece1b746289868f6ab")))
         (sha256
           (base32
-            "12sy38s3ys1jyvbfrbq9xwhdvvdmhcj3bymnqfvgqlhi7p3frrp8"))))
+            "06490ndkzn171hv8ysycxkazm4g05y6y3zpr03pinq7xi8mn3frl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -107580,7 +107580,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20221015.431")
+    (version "20221128.717")
     (source
       (origin
         (method url-fetch)
@@ -107590,7 +107590,7 @@
                ".el"))
         (sha256
           (base32
-            "09wf1hlc526f3jhyvsyfn85v6r1nnd8lnn8ripy44s9z96vflkh1"))))
+            "1b2d6m1cl7hbhw3wx0dqx63npwy2s022a5ppmbiq48wa3qhgk45a"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -118536,17 +118536,17 @@
 (define-public emacs-vulpea
   (package
     (name "emacs-vulpea")
-    (version "20221123.646")
+    (version "20221128.633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/vulpea.git")
                (commit
-                 "846fe12effccb7a08cb68b85d6b1805d0d872f39")))
+                 "30a924822ea6b628857b1bd766a6f0a7301e67c3")))
         (sha256
           (base32
-            "1hcn7szqyrjmif5mpz91cc2hyzw2bk5ifqjnd0k0xbw0x8byvpli"))))
+            "1ha5gv5ida3jfipcp59cmy8139xh8cysdp0h4xbyjl2q5jcg5bw9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-s emacs-dash))
