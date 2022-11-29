@@ -14857,17 +14857,17 @@
 (define-public emacs-company-coq
   (package
     (name "emacs-company-coq")
-    (version "20220314.526")
+    (version "20221129.842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cpitclaudel/company-coq.git")
                (commit
-                 "a6e349e0131f676a885bd14c908fd26054b2df42")))
+                 "6b1ca00b151c0b30b7492e43efc982a95e938ad1")))
         (sha256
           (base32
-            "1qws0a0ia039d6bv2sbjsdl1ry28y9jrv98qnp5jcm7jfb2jmvsp"))))
+            "0lwvqq0qzldnmrvzbqwlm5vr97k96010az0chzfz2pjbz001wl0p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -49775,17 +49775,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221118.600")
+    (version "20221126.2056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "67056a93d7a1f8ee6395bf6d8489821fa3f7d976")))
+                 "115847b8d5f4175d7469f873d50a7e41710db5aa")))
         (sha256
           (base32
-            "1ic9l8ls6n7pzplrqamx4z3wbsmk8z805pkcs17frsa4fi88mb94"))))
+            "0ysayrp9kjkx8lfy1kb1pjp6qvh40mmwbq2a02q9ycgss9wij3wh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50583,17 +50583,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221120.1949")
+    (version "20221129.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "67056a93d7a1f8ee6395bf6d8489821fa3f7d976")))
+                 "115847b8d5f4175d7469f873d50a7e41710db5aa")))
         (sha256
           (base32
-            "1ic9l8ls6n7pzplrqamx4z3wbsmk8z805pkcs17frsa4fi88mb94"))))
+            "0ysayrp9kjkx8lfy1kb1pjp6qvh40mmwbq2a02q9ycgss9wij3wh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -71942,17 +71942,17 @@
 (define-public emacs-mermaid-mode
   (package
     (name "emacs-mermaid-mode")
-    (version "20221128.2131")
+    (version "20221129.1253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/mermaid-mode.git")
                (commit
-                 "908116a6fba163b724a0be9d14d2df0f23b03e4c")))
+                 "75eed2cecc3b2be0f310c07a8b68fce1173aaa50")))
         (sha256
           (base32
-            "0wdhvrgrbd7yasx3amyiflyxrqng3688x7pf2r2xs819219bzcz4"))))
+            "0xac6wk0kjvv2vmzcvl9mpnndfhkqn6mlmnlkl0a3pa4yc225n9q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -101507,17 +101507,17 @@
 (define-public emacs-scad-mode
   (package
     (name "emacs-scad-mode")
-    (version "20221114.559")
+    (version "20221129.918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/openscad/emacs-scad-mode.git")
                (commit
-                 "188c9708e06f59c580866e4b9ead81513dc92df0")))
+                 "acf2bdb5d1fa5e8fd108e620f18e6291b5eb6a9e")))
         (sha256
           (base32
-            "08l9kxxzzm3apfrrwvkqsxyscal8357b7w87c3aagbbwvmxc3zfw"))))
+            "159270v3v3q4mfzsfnjnadpzc33dd8r587fwvkhc8nh5mg05na58"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/openscad/emacs-scad-mode")
@@ -119996,7 +119996,7 @@
 (define-public emacs-why-this
   (package
     (name "emacs-why-this")
-    (version "20221127.1853")
+    (version "20221129.817")
     (source
       (origin
         (method url-fetch)
@@ -120006,7 +120006,7 @@
                ".el"))
         (sha256
           (base32
-            "1xsd03767axjnigmgmq6vqzfvq0gjbzm7lz8712z3xghic432ck8"))))
+            "1vlvz659x1485sbzfz2m47qs55byj01sn3xqzzx94nqfy8nq3q0c"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/akib/emacs-why-this")
@@ -121362,17 +121362,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221115.1401")
+    (version "20221129.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "814114b3dfe44ac477831c8ca5da0050a9d0fdf1")))
+                 "c025535316cd2b41d3dafc00ea5c127bf9813a1d")))
         (sha256
           (base32
-            "0p0l8q1m3mj9lfss2sjbglpcp4dxzf46zjl9c2vzqf2v7hxlps2a"))))
+            "0n6y8il6mfvmqjxbaf9grg23qdrlhbv8ylb0avbmnxxws7l3lp14"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
