@@ -7839,17 +7839,17 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20220531.1900")
+    (version "20221129.1644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "b86822f460a54c60fdfede62d4a86bd4991baa21")))
+                 "4e0eb1a835c92ee40edac0fdd4c39a53729004d9")))
         (sha256
           (base32
-            "1vqfqzjgip1a3mcbd22dgkp1wc2x4r375npbwjs99jn7br1d73ny"))))
+            "0zznnydqh8nc42i5njcb6x54nhrfrhfs8146w3nyjhqbld8byp15"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-posframe))
     (home-page
@@ -15133,17 +15133,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20221025.1115")
+    (version "20221129.1534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "f75326af3881aca45388e525d17aa9e88ee59687")))
+                 "a238ef9ee0f96940faeb467dce672f27f7f8899c")))
         (sha256
           (base32
-            "1saw5vk2ckm7aa0vin2frxhn08lx2z992384dyivh0hl06nipx78"))))
+            "043vrgp1hx93ihfbk40n5x05qqx9nmp52hv27rh2jp6ii2cv9gvc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -21260,7 +21260,7 @@
 (define-public emacs-detached
   (package
     (name "emacs-detached")
-    (version "20221128.927")
+    (version "20221129.1430")
     (source
       (origin
         (method url-fetch)
@@ -21270,7 +21270,7 @@
                ".tar"))
         (sha256
           (base32
-            "18f1r2gqmc48qlv65f8ysczjwgp2zik1hlq68d59kf4j8183231x"))))
+            "19cs05g344y1rb0gzwzvx7vz74pny5ah2bhkf6qk1iqqr24k25s6"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~niklaseklund/detached.el/")
@@ -57490,17 +57490,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221123.1112")
+    (version "20221129.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "993c862b7fcc97cca1b825d0acf424c70d72ce36")))
+                 "fdbd019cb284455f0e2e887a833f64c67b89c80f")))
         (sha256
           (base32
-            "0p6hxszw4syfx3ah0wb0z3lwvi8wb4dc787bsd9fnafz9mkf20wg"))))
+            "05wna8mx99m3ls9kv6gqbqdnyrsnciyppjb0szildscfbfkbc7dd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -70661,17 +70661,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20221016.1017")
+    (version "20221129.2007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "cc7a086cd7816ad41ff004c61c41bdd26ec3ea0b")))
+                 "c68164c56485e1ef855c2d12e4393f5f55ca2b12")))
         (sha256
           (base32
-            "0ncdyczalvl677nim0iha003xway7rwxw8y35vcvkgsdk4vzv848"))))
+            "07js4a346qaffj1kw9yprqjpxbbp2an0nbbj7iqms05c36740j70"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -71101,7 +71101,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221128.2155")
+    (version "20221129.919")
     (source
       (origin
         (method url-fetch)
@@ -71111,7 +71111,7 @@
                ".tar"))
         (sha256
           (base32
-            "1pnw5xni79i4icdjlgswg804i6yg764xr481hz2q4w9swv49dci1"))))
+            "153khx24xk47srafhllf8xgaaiw8dawvh0l9cf6x7mznzcr8vhl9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -82395,17 +82395,17 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20221120.2150")
+    (version "20221129.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "556766279430e898c443921340c3afb61e8dafa3")))
+                 "3cc48a989ac859a97d25964c28874317a6e1672a")))
         (sha256
           (base32
-            "04qkyn43jc8nkrcw688bcjz0g9ys5vag785lvxq1if8r1pbv9k2n"))))
+            "11whjprc6h7knapjg29wz85mw338mvmyjwcmdai65m25pplxr25i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -84034,17 +84034,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20221015.1308")
+    (version "20221129.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "7f46abf8c520af4503fe454c79ab121fd3efb9f3")))
+                 "26735e914f09559c7b9753462a596e62595b135e")))
         (sha256
           (base32
-            "13ndglfcj2fsv3fm9j3rzj6cp4y42fmsbw74xik5ym7i4s6vj6jp"))))
+            "07y3qhpj84w4q7s4bi20vfahh7269mzihqmja9v8xgpar6vzi8xz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
