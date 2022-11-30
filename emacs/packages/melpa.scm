@@ -14857,17 +14857,17 @@
 (define-public emacs-company-coq
   (package
     (name "emacs-company-coq")
-    (version "20221129.842")
+    (version "20221130.536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cpitclaudel/company-coq.git")
                (commit
-                 "6b1ca00b151c0b30b7492e43efc982a95e938ad1")))
+                 "5affe7a96a25df9101f9e44bac8a828d8292c2fa")))
         (sha256
           (base32
-            "0lwvqq0qzldnmrvzbqwlm5vr97k96010az0chzfz2pjbz001wl0p"))))
+            "1i18w7byz0x9l7cka6cs7bk0d3wcy7r0gw34zz45np4r84arwsjd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -16659,17 +16659,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221127.533")
+    (version "20221130.736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "db16709e0d22f290eadfc48980f282ce7ae6d468")))
+                 "24310db92e41f19827f9198a54ee718257ebeee1")))
         (sha256
           (base32
-            "145ycl58xhan4mq9gk24vqqfa30bizc8a1qi934imn29s65mg3lm"))))
+            "0mcszmzqlxwclhm75dy585iashzg7fmz1firsid5jv4gm9nbzc49"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -24247,17 +24247,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221126.623")
+    (version "20221130.311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "986e9e0ab14aaab2e3f3dc82d4c76f2def6c099f")))
+                 "9f6ca7d61d89feb9b5a928f0eed899009740f7e9")))
         (sha256
           (base32
-            "1bcxflixd7rdbplmvgizq06w8hdxcdi6vmnxvh6yqmz1w6xqmsbv"))))
+            "1a81nlis2k5n9fs14m5iki6v54jdvsvglxvwna6dwnmwykpmnm39"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -40797,17 +40797,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20221128.1536")
+    (version "20221129.2359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "3451ea5f5937bc1dbe3abacfd09c8998bb13af7c")))
+                 "4a3ab89a0f85caa88f058db20eab24a85b359c76")))
         (sha256
           (base32
-            "1anmzq1wjj64phmyddmy2kd6pnr6r4c4h7xr03yxw0nhr07yvix8"))))
+            "0c70vdvwclxvg4db55l804lp3sdvbjki4sf56lgdr2rvkvrv3d38"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -67271,17 +67271,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20221125.1853")
+    (version "20221130.148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "ecd357fb4e1e667bfbe46747e2f0d8330fcb2837")))
+                 "9c4df63230479ddc39f956b012ee945ee57183ef")))
         (sha256
           (base32
-            "1x89hszly1df0vlzzmgm9a2gwgfsp7clq93fk3ljw79f97jw3vqk"))))
+            "1c2l28bsczpdcijrsvmrhx7d6fcyhplwgx680n13r450piw15rga"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -78759,17 +78759,17 @@
 (define-public emacs-ob-dart
   (package
     (name "emacs-ob-dart")
-    (version "20221125.2354")
+    (version "20221130.422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mzimmerm/ob-dart.git")
                (commit
-                 "ec580fc99f58dbb6962f0fb19068be2c7224dd95")))
+                 "5bf2d175aae90bb2844ef8a5c2708b7938eccad4")))
         (sha256
           (base32
-            "0d6lpfbjpq50r8ww3il1rmm23w2m3q5rym15hg5fzb2jc26azacg"))))
+            "1xavscddijgcram7c2ksfap7r8fdhhvnnnbv0fjklnxsm0qm3yaj"))))
     (build-system melpa-build-system)
     (home-page "http://github.org/mzimmerm/ob-dart")
     (synopsis
@@ -113928,17 +113928,17 @@
 (define-public emacs-transmission
   (package
     (name "emacs-transmission")
-    (version "20210705.2152")
+    (version "20221130.212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/holomorph/transmission.git")
                (commit
-                 "a03a6f5c7b133e0a37896b6d993dd6d6d4532cc2")))
+                 "243d5dc15917df2611fd0c9f288faea17a00a396")))
         (sha256
           (base32
-            "1znpl4ps0ah6lmrlyha6wbkbvnx90qkvksp5xp87apfb61zqzqwz"))))
+            "1dp1ypz0vwcggp09rwr1d7dh34d05vlxz0mvry9p44g58dc99cz0"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Interface to a Transmission session")
@@ -116722,17 +116722,17 @@
 (define-public emacs-uwu-theme
   (package
     (name "emacs-uwu-theme")
-    (version "20221022.49")
+    (version "20221130.127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kborling/uwu-theme.git")
                (commit
-                 "188d74cb279537f476c6f35b4e4f966d38884314")))
+                 "7c1e7eb0a004b5afd2c3241ccd07df08212c53f1")))
         (sha256
           (base32
-            "16idjqc6bdqg60mv2h3bgip38j1mpfwpffckpg5vzan9ylsivxxx"))))
+            "0l7n2pxdr4kdznn0fic8nqhfjrkikg682ag2jf68639lni802lnc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kborling/uwu-theme")
