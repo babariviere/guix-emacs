@@ -21708,17 +21708,17 @@
 (define-public emacs-digistar-mode
   (package
     (name "emacs-digistar-mode")
-    (version "20221129.325")
+    (version "20221130.2146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/retroj/digistar-mode.git")
                (commit
-                 "4572991b6f93d5b3bca6517d301a0452f1041b42")))
+                 "755a61c09be258f4ec419e30fe97fde0151625ef")))
         (sha256
           (base32
-            "00cw93fzdllwsf2sqwwkf7l6qriysjsl94jcx7fp2in1ls91hz7z"))))
+            "0h4ihrjxgmkh0z882mcv1y2w58l44hpw0jam0g562ccnzdp474fr"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "major mode for Digistar scripts")
@@ -29225,17 +29225,17 @@
 (define-public emacs-elx
   (package
     (name "emacs-elx")
-    (version "20221130.1254")
+    (version "20221130.2213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/elx.git")
                (commit
-                 "04839dd5a0fe5804a04d7f893bc460629bb2fcfd")))
+                 "918f8ee3c932b1c987b59daee3398f328bb5456b")))
         (sha256
           (base32
-            "1p0m93h7xix92vqc2f3mcb9z75qik203q67cff2sl8mg8f82ayyl"))))
+            "15wkm5v601h163rii41xlpzs6nakzqakpjldmgm8shn7if5p76l2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-llama))
@@ -34017,17 +34017,17 @@
 (define-public emacs-evil-ruby-text-objects
   (package
     (name "emacs-evil-ruby-text-objects")
-    (version "20200323.1552")
+    (version "20221130.1832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/porras/evil-ruby-text-objects.git")
                (commit
-                 "32983d91be83ed903b6ef9655e00f69beed2572c")))
+                 "41c8b3eddb610206626a8a03e69857f903209e86")))
         (sha256
           (base32
-            "0qha7xxqxh7c6n6r26r49y85inxcbr4nvxlv2zzj0qkifw7f9ana"))))
+            "1gakixp64ds35vfykp0niy9gdxymr1rlx2hphlbic1952dinvx9c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -54289,17 +54289,17 @@
 (define-public emacs-hexo
   (package
     (name "emacs-hexo")
-    (version "20200416.1410")
+    (version "20221130.1642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kuanyui/hexo.el.git")
                (commit
-                 "d600b6c2d51959f1331c8abf3953365544322afa")))
+                 "77b15d224c4a7632c2f52bd7444516746a4c2315")))
         (sha256
           (base32
-            "07w6jlq3z5y019n5kplqn38gw60ffk2yx4vchp6qgif98lhcjiyr"))))
+            "19wlndadx8s6g8nq7ckq4k1b4m49cy7bscgfr2h4axdkgs5pgqy9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/kuanyui/hexo.el")
     (synopsis "Major mode & tools for Hexo")
@@ -55969,7 +55969,7 @@
 (define-public emacs-html-to-hiccup
   (package
     (name "emacs-html-to-hiccup")
-    (version "20221130.1159")
+    (version "20221130.1551")
     (source
       (origin
         (method git-fetch)
@@ -68498,17 +68498,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221128.2100")
+    (version "20221130.2254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "e91329958c387394936943ae350cb0b089afa1fb")))
+                 "2dd33404eb8f7133683b94e18c937de4707d4c33")))
         (sha256
           (base32
-            "0fxqw9bzyv2ab39w9pl4npjjx9xnyr04jkzc4iqkslascxycgfgg"))))
+            "1r96nrmsq9564c7skaarn6qsp80hc9hyi5ikipjxvgg1bp3j37w9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73071,17 +73071,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20221128.1954")
+    (version "20221130.2019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "7e248f7dfbbc171b140bef09831b8ace6f7865af")))
+                 "d834f37c58749151c83e3eeab0243db1f8d57321")))
         (sha256
           (base32
-            "1m4q9n3q3rn2q2gmql26453a7rbbqbrfswp3phyikvihkljplf0c"))))
+            "03q8bghg639dn1wnvdsh6mjadr121c9r6gzklzbiz8l8gkl0l25z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -83093,17 +83093,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20221122.1836")
+    (version "20221130.2209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "e87ca8a9ec45fcfa2556028aa9feffb7bc3aecee")))
+                 "332db218b7acf57694cf8514c0731812e2d6fb46")))
         (sha256
           (base32
-            "03zpwb475rpbhq1s6101clj0j9mcxdg033clvvybp0p7hm4inwaz"))))
+            "11736spwf45yb7ggha7a4vw8cm19kgnyf5wrdvmmm2xi285v6ias"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -87912,23 +87912,23 @@
 (define-public emacs-packed
   (package
     (name "emacs-packed")
-    (version "20221120.1407")
+    (version "20221130.2228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/emacscollective/packed.git")
+               (url "https://github.com/emacsorphanage/packed.git")
                (commit
-                 "c0d075fa02424b39bd5a3492167f914b8522f686")))
+                 "169064f7acfe198cc7dd43d02518b773691e1314")))
         (sha256
           (base32
-            "0i2j5yk6xhv4rh3317f241y9llwf4wk18a6a4lkqrvbjpvi9yvn0"))))
+            "1y3dbyaxr5smw9zxvy0cgfcg1i3ciq7r40njf8dkra4080ibxdnx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
       "https://github.com/emacscollective/packed")
     (synopsis
-      "Package manager agnostic Emacs Lisp package utilities")
+      "[DEPRECATED] Package manager agnostic Emacs Lisp package utilities")
     (description
       "Documentation at https://melpa.org/#/packed")
     (license #f)))
@@ -96739,17 +96739,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20221118.1721")
+    (version "20221130.1756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "28d19dee861354d92108692dd80d9f18b2db0c46")))
+                 "23059488748101dcfddec723da216826d62df075")))
         (sha256
           (base32
-            "08blxg2ibf9nr2m1hhrw9l232a1zly44sw8xrzbznipv6s9388w1"))))
+            "1gxi4kbf85hf6c4mmv0bjs48v560960fdjsbks0s7ay504z4x2wl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -113836,17 +113836,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20221127.2242")
+    (version "20221130.1900")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "23b8670bfda65436fc03eb03adc8191a3e4e5a0d")))
+                 "72d30284ab75c1497e23be310dcc53a4ecefa401")))
         (sha256
           (base32
-            "1ab425qwbnwdq0r7agw5jnx8y4vi0f9ldr2mq60xda98s66wfi3b"))))
+            "0qilxy1kmsfr0j177ic7nhyh4lq7s88455bs9iv9j48qrjf7wwcl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
