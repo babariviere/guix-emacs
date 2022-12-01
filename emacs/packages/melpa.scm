@@ -12442,17 +12442,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20221123.308")
+    (version "20221201.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "448e35ef900c23699a04609a9e314c3a2a5ccf6a")))
+                 "0d6252ff912f629fec100187921cb5ec00436682")))
         (sha256
           (base32
-            "0cnkwb3gnn8m44ddc7spyn72p3ff3fsfk4s8sys00iyqfd65jlbc"))))
+            "07f2gqgy0f8llh845bqhqc0chq2vsarhr1rq0sfz9s5pyrqrpdjw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -16658,17 +16658,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221130.1003")
+    (version "20221201.744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "e4e2af1a2d06d40461d975b74ea3cc863cd18085")))
+                 "36a792500e1281db87cbe321ab705a0d774cec82")))
         (sha256
           (base32
-            "0x1w57b6jb0qaz90x8giii243k51zdh8fhhkds2r60jhbqlvw633"))))
+            "0pywfm8lf0m6q2f3ssxlr9mwbq85211l3f3vssg2sc64fbap051b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -28809,17 +28809,17 @@
 (define-public emacs-elpa-clone
   (package
     (name "emacs-elpa-clone")
-    (version "20211205.1237")
+    (version "20221201.1227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dochang/elpa-clone.git")
                (commit
-                 "03d8e2af55dfb34ab9da1f9385079a995383b2ea")))
+                 "1d130c251690f24c23b77a4e4570157fca881d8f")))
         (sha256
           (base32
-            "19rlqr4w9hkxxwwyfz02vvs96dx92c1gxy5cn1m1v2a5sdfdz1yq"))))
+            "0swcpvlh08mrw27yv7a5wbsvlxv72yr5gbzzap9x2bjd839d3ndf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dochang/elpa-clone")
@@ -32913,17 +32913,17 @@
 (define-public emacs-evil-cleverparens
   (package
     (name "emacs-evil-cleverparens")
-    (version "20221130.1034")
+    (version "20221201.1242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/luxbock/evil-cleverparens.git")
+               (url "https://github.com/emacs-evil/evil-cleverparens.git")
                (commit
-                 "08510fe45fcbbce0eca222e11e611f8554ba1c1e")))
+                 "7b8ca80a64c80bb9fda09f82c2e2a83fb91baad8")))
         (sha256
           (base32
-            "0hfip5rfivgl5rdg33bn8hmrjq0cwyv1m3q4bydrc0jhmrzcnk4s"))))
+            "05r9ixkrz5cbq55bid918hp4qa7ax6vzmbj7sjy57zf7n6j0p4kj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil
@@ -42139,17 +42139,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20221127.2215")
+    (version "20221201.806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "12948e3fb43fc516bd5bd78b84e7245598471f96")))
+                 "c0cc80ee1a26f51d69b33cfbdb229a8582727cf5")))
         (sha256
           (base32
-            "0333ba0na43z9havjr32fvn01nwyqy4i6sga3ab9j5w7cki7shjg"))))
+            "1pngafydpm4id2137nq281m5szqf3nlrmq7glnmmzx9xvz9263z6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -57489,17 +57489,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221129.1619")
+    (version "20221201.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "fdbd019cb284455f0e2e887a833f64c67b89c80f")))
+                 "d08fd3ec78a09bc0e6c5b1effdef563de08bdaf6")))
         (sha256
           (base32
-            "05wna8mx99m3ls9kv6gqbqdnyrsnciyppjb0szildscfbfkbc7dd"))))
+            "1h29sdr71miwfdipw1y6xxrwiqplbi29v96s49b20qwa1la7h06i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -61932,17 +61932,17 @@
 (define-public emacs-js-comint
   (package
     (name "emacs-js-comint")
-    (version "20200117.615")
+    (version "20221201.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/js-comint.git")
                (commit
-                 "7920252e88eb610add7c9760f7016bb9b884307a")))
+                 "30e521ada5806ab780f68e09529715acb88f32cd")))
         (sha256
           (base32
-            "0bnwk8p8yyf76yzihv3g1ns15la6a661c31qxfbydz1ccjs313gy"))))
+            "1khxry9rvmcwh1mzqlxa5alfcwh2cqi2afz8b6yya3ahxfal5i5q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/redguardtoo/js-comint")
@@ -71079,7 +71079,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221130.956")
+    (version "20221201.916")
     (source
       (origin
         (method url-fetch)
@@ -71089,7 +71089,7 @@
                ".tar"))
         (sha256
           (base32
-            "1d2670x7zk439y2ysn7sg475j1q7cbgh0x0lapbc6dsrmnz8x35i"))))
+            "0vgmgrfjhbawwpnzvvkchzqzpklsg3iy6hpcc8d879vnx8n13j5y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -76860,17 +76860,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20221003.1934")
+    (version "20221201.1019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "3afc9b9d5288f4125f19176888f7639c3ae64500")))
+                 "0dd87fefeb6f8c866f1d652c62aac95798b44e88")))
         (sha256
           (base32
-            "0fbv3dpm3a50vaprs15zz92x4wygds2q52x8c11xssmnmsydnzy9"))))
+            "13xlzss3xaa810i4wyzdnm4inixikcnc4a48xb0abv05zwhja5mk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
@@ -83072,17 +83072,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20221130.2209")
+    (version "20221201.653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "332db218b7acf57694cf8514c0731812e2d6fb46")))
+                 "14a5e0b1c9f60f1986fce85501401320ae4379e7")))
         (sha256
           (base32
-            "11736spwf45yb7ggha7a4vw8cm19kgnyf5wrdvmmm2xi285v6ias"))))
+            "11i6wcvrv2iikbqvj03md5z56bcql6fgllgzqsdnw9pcd6g3r9x2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -116588,17 +116588,17 @@
 (define-public emacs-use-ttf
   (package
     (name "emacs-use-ttf")
-    (version "20220930.1951")
+    (version "20221201.751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/use-ttf.git")
                (commit
-                 "105577c6290934119978e23b168f0b97c9d586ba")))
+                 "eb617fc39767326816e6f1ff59298203ee15f762")))
         (sha256
           (base32
-            "143iy63rlibxlyrzxj2qfh3vjwsdgzypimazs7vd6x7l4p45xzrj"))))
+            "03q5sd28vf019n5dpxad4xqbrxir7xd4xgbqppxbjq9kqpbs3bdg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/jcs-elpa/use-ttf")
     (synopsis
@@ -122595,7 +122595,7 @@
 (define-public emacs-yatex
   (package
     (name "emacs-yatex")
-    (version "20221201.542")
+    (version "20221201.956")
     (source
       (origin
         (method url-fetch)
@@ -122605,7 +122605,7 @@
                ".tar"))
         (sha256
           (base32
-            "0mfy5aqj36lkhxgdc7qxp019vajhhy2s3i2pyz0gm1wgn7sy9gl5"))))
+            "17mcs0djhaswj8ia5wm00cn5brrpkhy53q1hagi1fz8sx51j90fq"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
