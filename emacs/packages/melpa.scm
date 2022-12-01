@@ -2440,17 +2440,17 @@
 (define-public emacs-all-the-icons-completion
   (package
     (name "emacs-all-the-icons-completion")
-    (version "20221026.616")
+    (version "20221130.2354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iyefrat/all-the-icons-completion.git")
                (commit
-                 "4d8ae544ecf5414c7ddefcf15ca6c3de4f627ef5")))
+                 "4da28584a1b36b222e0e78d46fd8d46bbd9116c7")))
         (sha256
           (base32
-            "1cp5i01ln4j71gng38d03p2mdrvjgfcm29k4qjn5gzq6g4713wic"))))
+            "0b5m1djwhfbjakfda72ybqrw3rzmrq154yfpv4p8wgxknc5xjxfr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -16967,17 +16967,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221128.2203")
+    (version "20221201.434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "bfcc6b8e077cb0056b0cbd5cd602e61e4c0dad10")))
+                 "6e8299d4e53b758985a228c296aeb851440fa01a")))
         (sha256
           (base32
-            "10jr05334p1xjgxciggb7fx25bgzpg0b1avp56njcxfng2yxiska"))))
+            "0p1nqifxsi7l71dvfhkjxbzhhg9dw2kyfbsm93xfjk933yrazsq6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -30546,17 +30546,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20221118.2249")
+    (version "20221130.2318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "40bb1f5e0c4fe155d34dc6f7b002fd2560c51013")))
+                 "1161cb95eddd4f70e25531f1a9ca8a738570d3d2")))
         (sha256
           (base32
-            "1lrpg2xwk8rs8zk125fs78w5nfs210r1qq1gbmi0zvyy2xz4jfrv"))))
+            "1rm64fwvgnjc8m223lwpqs51fm7xannl2nb7zmgdnwrmx8rba6d3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql))
@@ -64709,27 +64709,6 @@
       "Documentation at https://melpa.org/#/kwin")
     (license #f)))
 
-(define-public emacs-l
-  (package
-    (name "emacs-l")
-    (version "20220422.1612")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~tarsius/l")
-               (commit
-                 "e7c4cbd930fed4a4a183e473ad2598610de00e21")))
-        (sha256
-          (base32
-            "0m0ck78d8pkm5hd9gicc33x3gcqjcnvlafny6cncl38kc33gv47a"))))
-    (build-system melpa-build-system)
-    (home-page "https://git.sr.ht/~tarsius/l")
-    (synopsis "Compact syntax for short lambda")
-    (description
-      "Documentation at https://melpa.org/#/l")
-    (license #f)))
-
 (define-public emacs-laas
   (package
     (name "emacs-laas")
@@ -65825,20 +65804,20 @@
 (define-public emacs-lentic
   (package
     (name "emacs-lentic")
-    (version "20210727.1247")
+    (version "20221201.47")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/phillord/lentic.git")
                (commit
-                 "36861bdf9c1d88492648da553f66529e3a879880")))
+                 "6af878392e127e75409ae0f4bc08837a8f591d88")))
         (sha256
           (base32
-            "0cj19czxmrxw1id1ym1ai3k7sv9shl3lz4fqj8qyg73j4kj1gbn0"))))
+            "134rk1kcfkqnzhn51c0vvkj4839d5lbn0g61bqfpkgsvfpn05wh4"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-m-buffer emacs-dash emacs-f emacs-s))
+      (list emacs-m-buffer emacs-dash))
     (arguments
       '(#:files
         (:defaults
@@ -78758,17 +78737,17 @@
 (define-public emacs-ob-dart
   (package
     (name "emacs-ob-dart")
-    (version "20221130.422")
+    (version "20221201.633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mzimmerm/ob-dart.git")
                (commit
-                 "5bf2d175aae90bb2844ef8a5c2708b7938eccad4")))
+                 "f6d5664d5cc8b15e002f6899f8adedcb10ced5f1")))
         (sha256
           (base32
-            "1xavscddijgcram7c2ksfap7r8fdhhvnnnbv0fjklnxsm0qm3yaj"))))
+            "0zlr12sk2821fsjblhxgj6l5wwrb75w7asdqvc0d92jcjjhjl7r6"))))
     (build-system melpa-build-system)
     (home-page "http://github.org/mzimmerm/ob-dart")
     (synopsis
@@ -107439,17 +107418,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221124.125")
+    (version "20221201.137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "0ea967f546b807db0b38bf50c5175efe4c519017")))
+                 "55597ce8bc515ec41a28a3377111a24946fa5a30")))
         (sha256
           (base32
-            "098lv8cn7wrwd6cl98zq01fy14k22wpp6gj7zis2px7fxyi9x156"))))
+            "11m7di7r6pa3zis77vr6xlqbjdxf511ayg59m1gdpklnn10h9f26"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -122616,7 +122595,7 @@
 (define-public emacs-yatex
   (package
     (name "emacs-yatex")
-    (version "20220929.123")
+    (version "20221201.542")
     (source
       (origin
         (method url-fetch)
@@ -122626,7 +122605,7 @@
                ".tar"))
         (sha256
           (base32
-            "1qrz4r14h09jvfzsmpvg92fxal7haq8mf2nn63291qr3mcr4135x"))))
+            "0mfy5aqj36lkhxgdc7qxp019vajhhy2s3i2pyz0gm1wgn7sy9gl5"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
