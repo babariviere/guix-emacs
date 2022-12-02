@@ -12442,17 +12442,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20221201.1131")
+    (version "20221202.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "0d6252ff912f629fec100187921cb5ec00436682")))
+                 "03f7c3eeb0526c49ea2e659b4262ec070aa6413a")))
         (sha256
           (base32
-            "07f2gqgy0f8llh845bqhqc0chq2vsarhr1rq0sfz9s5pyrqrpdjw"))))
+            "124vdkn9v67d91s6b4fbqjsqsbi3q2zayghkc0h8cvdipa4yi1g3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -16658,17 +16658,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221201.2210")
+    (version "20221202.517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "d948041c160bf30703c2e09cc9db415495b2206a")))
+                 "b96eb9944b433300c7e9ac5a856293821d93c549")))
         (sha256
           (base32
-            "05r4qivjpyarqr35zk42klcyiqam9sjca2ka60cvpxhqfpi1r2vw"))))
+            "1c33wk544jcgmq7q7lwf4a6mwkvi720c4dw05dvdr644jvrk1ljz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -57489,17 +57489,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221201.1301")
+    (version "20221201.2210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "d08fd3ec78a09bc0e6c5b1effdef563de08bdaf6")))
+                 "0cae4b8086aaba21a9279bc9e15471efe119d688")))
         (sha256
           (base32
-            "1h29sdr71miwfdipw1y6xxrwiqplbi29v96s49b20qwa1la7h06i"))))
+            "14ih16z0i3bpg136gby403q3k6nn38694m9b7gznfszxrv9j4l3p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -76973,17 +76973,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20221109.17")
+    (version "20221202.228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "127d76202f10973e5af760fdb7804cc55cf51152")))
+                 "54e5626829168e22126b233e079f04dff3c71b90")))
         (sha256
           (base32
-            "1vaw5mc551ikgfqrww2v4njh16nxka9jacymga3v1mhzfw5gmqjk"))))
+            "1xvrnpk7cnjm55ja6j7bdnszkzj914gmyzb12r89jh0z25r09crq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (arguments
@@ -84167,17 +84167,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20220908.1625")
+    (version "20221202.757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "d95d25615e69e7cc847641800c1886366336c97e")))
+                 "c2e852e10263ee652651598708323ab5ccef2ebe")))
         (sha256
           (base32
-            "0k9wfmjpkzbzsqd4npn8vxs0xch42glnmmh28a55rzkyc2bh8n1r"))))
+            "0xgzsb1s991s1bb8pzmgwrvb1pmiapaidqwhaqbq3f1562jl3ixa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -96718,17 +96718,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20221130.1756")
+    (version "20221201.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "23059488748101dcfddec723da216826d62df075")))
+                 "3847c5e8e3c0677da8002791e227ccf2320f703a")))
         (sha256
           (base32
-            "1gxi4kbf85hf6c4mmv0bjs48v560960fdjsbks0s7ay504z4x2wl"))))
+            "0lx3jwwzr31m7v293k7nsixdsj9g288ranw1kkc073was7ikxsln"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -122595,7 +122595,7 @@
 (define-public emacs-yatex
   (package
     (name "emacs-yatex")
-    (version "20221201.956")
+    (version "20221201.2342")
     (source
       (origin
         (method url-fetch)
@@ -122605,7 +122605,7 @@
                ".tar"))
         (sha256
           (base32
-            "17mcs0djhaswj8ia5wm00cn5brrpkhy53q1hagi1fz8sx51j90fq"))))
+            "10x0ajwsv7sjncyh8rgc99x228zcavi8yayqnc0pnc3fc3y6q39r"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
