@@ -16658,17 +16658,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221201.744")
+    (version "20221201.2210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "36a792500e1281db87cbe321ab705a0d774cec82")))
+                 "d948041c160bf30703c2e09cc9db415495b2206a")))
         (sha256
           (base32
-            "0pywfm8lf0m6q2f3ssxlr9mwbq85211l3f3vssg2sc64fbap051b"))))
+            "05r4qivjpyarqr35zk42klcyiqam9sjca2ka60cvpxhqfpi1r2vw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -21708,17 +21708,17 @@
 (define-public emacs-digistar-mode
   (package
     (name "emacs-digistar-mode")
-    (version "20221130.2146")
+    (version "20221201.2332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/retroj/digistar-mode.git")
                (commit
-                 "755a61c09be258f4ec419e30fe97fde0151625ef")))
+                 "06795403c30f3b3c7b72d7cb5ca33c32d0aaee49")))
         (sha256
           (base32
-            "0h4ihrjxgmkh0z882mcv1y2w58l44hpw0jam0g562ccnzdp474fr"))))
+            "13zri0mf1gn97nn8h79j82i7975dnzyvpbvw5kj69wn4mw2jf1y8"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "major mode for Digistar scripts")
@@ -26461,17 +26461,17 @@
 (define-public emacs-ednc
   (package
     (name "emacs-ednc")
-    (version "20221127.1643")
+    (version "20221201.1624")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sinic/ednc.git")
                (commit
-                 "eafa35f5a3a016a6d3d11e23268d08e6b5bda2a7")))
+                 "bf17d22fa9bd1711709d84bb75ad49f746bfc9b7")))
         (sha256
           (base32
-            "1rlhr5d0ndlxbzmkj0fbkv3w31x7dwbnxj8v48mvsxgqp8nrq2d3"))))
+            "1gwffd5c25vh1h7fjj79gpmqvlb3b664zh8pwp530hprk9sb89hr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/sinic/ednc")
     (synopsis "Emacs Desktop Notification Center")
@@ -29604,17 +29604,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20221128.2353")
+    (version "20221201.2022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "09da327d43793f0b30114ee80d82ef587124462a")))
+                 "bdabc5396a935edb8bfd2104b67703b110fad6ef")))
         (sha256
           (base32
-            "0drzsa9rzjy0548pa161cf1d71lnyjri31rkwyjray9gy2adbnhv"))))
+            "0rqv0rghaxyx7fcrix9f0dkjlmvf4xgnryjwrhzaqdknrxk62yzc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -32913,17 +32913,17 @@
 (define-public emacs-evil-cleverparens
   (package
     (name "emacs-evil-cleverparens")
-    (version "20221201.1242")
+    (version "20221201.1638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-cleverparens.git")
                (commit
-                 "7b8ca80a64c80bb9fda09f82c2e2a83fb91baad8")))
+                 "949e64a1aeac213fa61bb7e83c3b746038602bbb")))
         (sha256
           (base32
-            "05r9ixkrz5cbq55bid918hp4qa7ax6vzmbj7sjy57zf7n6j0p4kj"))))
+            "05m97l969cmz98kvv0512p792sgls15fdli3jp3i02ri1n324wb5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil
@@ -44363,17 +44363,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20221127.2150")
+    (version "20221201.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "141987e62dc908f54a6ef0b7847ae5296591956b")))
+                 "142b0dbe2b8e94db9489061813b703481566dfa1")))
         (sha256
           (base32
-            "1ddbnfbgr4qilvdm0ircjhqcnx6yqyivcf44fgxk2y59q6wgr118"))))
+            "1jzz6b56jg98c9fk858wp4wvgr9v6qiq30lgczq4w0s5j8pad16w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-treepy))
@@ -54173,17 +54173,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20221108.2042")
+    (version "20221201.1718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "dc4e356b55212f67c7022f3aec4f5986a23d5d5e")))
+                 "4a8d5765c97bdd3103cc921d740b93bf3fc1c162")))
         (sha256
           (base32
-            "18dy3nxdnxz3wyr4hza9jcv4agsyyqf82jp6jdqcj13kncfl9gn5"))))
+            "0mcgi2agj8rvyr0nx7jkpjvx5ficc2gjl22i8ma0rra6i3zqxpvq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68630,17 +68630,17 @@
 (define-public emacs-lsp-pyright
   (package
     (name "emacs-lsp-pyright")
-    (version "20220614.1545")
+    (version "20221201.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-pyright.git")
                (commit
-                 "c745228f39fdb35372b29b909f25fa6c98dc7c88")))
+                 "4cd2adbb32287278d9d9da59a3212a53ecdf8036")))
         (sha256
           (base32
-            "0rwy6c4id2hihvdgkmvbw4n51kv3pqwk2wnhyhsarnlmk7v8drdm"))))
+            "0ys76xd1bg9r0hkgq1h3aq6wxsjxqplxmk7cfwazzh9nwmgp9s22"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-dash emacs-ht))
@@ -71354,17 +71354,17 @@
 (define-public emacs-mb-url
   (package
     (name "emacs-mb-url")
-    (version "20220921.1904")
+    (version "20221201.1855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dochang/mb-url.git")
                (commit
-                 "74fd873981b0fdc35518e4cfdd52527b6f95cdf5")))
+                 "a6e5209a3569857836c5f6e58eb33ec98a9f6700")))
         (sha256
           (base32
-            "1ha890bvbcc2b4nvx35idsi3q244d30jg8vkzvwcw26ic5sjr03r"))))
+            "0rypc37pr2v57fqkr50aaqrp2159lxw8llmvflkxl9zk3fwnrm80"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dochang/mb-url")
     (synopsis
