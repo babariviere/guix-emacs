@@ -2558,17 +2558,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20220914.934")
+    (version "20221202.1336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "f5d27ebd729837daec1311e353dcfc850202a945")))
+                 "c5839098664104ade4dfcefa0ba716215c4f7812")))
         (sha256
           (base32
-            "144jjv75f82r4rnmpc93k0inv48qh184b1knn30k80czanak8bjk"))))
+            "08hvpa1sw6id43wv33wd6m7dzxg9ah7s7dby3r2fd752ddlda4qg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -16658,17 +16658,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221202.517")
+    (version "20221202.1047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "b96eb9944b433300c7e9ac5a856293821d93c549")))
+                 "68ed535cc5d9943d29d9e45d1cbbb102ce7e2e74")))
         (sha256
           (base32
-            "1c33wk544jcgmq7q7lwf4a6mwkvi720c4dw05dvdr644jvrk1ljz"))))
+            "1612qvwrq3zzlg0z16h8c2hyxvc39k1wivsm1zw3mvr8inpliy00"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -29629,17 +29629,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20221023.1636")
+    (version "20221202.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "9796324be854889d32b6c7e301c9274e9dd50146")))
+                 "5fd7b2c1ed78a60bf55819e0917fe1deccf23fb0")))
         (sha256
           (base32
-            "1q0hs9i4vnhryar8cqg7pjgsa7msqn7fgny5s7lszm45rq3m2fhj"))))
+            "15qkqgx8ma17ipjmnm9ksv3hk25cpd12dhgyx4pxkjmk0hshkrjn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -71079,7 +71079,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221201.916")
+    (version "20221202.1058")
     (source
       (origin
         (method url-fetch)
@@ -71089,7 +71089,7 @@
                ".tar"))
         (sha256
           (base32
-            "0vgmgrfjhbawwpnzvvkchzqzpklsg3iy6hpcc8d879vnx8n13j5y"))))
+            "1rnch4yfv4iy2bhh7dgjx8h42z7gzimjwqfgr0h3gz6yz98qv8ll"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -74687,17 +74687,17 @@
 (define-public emacs-mu4e-jump-to-list
   (package
     (name "emacs-mu4e-jump-to-list")
-    (version "20221124.1043")
+    (version "20221202.1023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/mu4e-jump-to-list.el.git")
                (commit
-                 "e3c5e1b5374ffcbe7f0f5f5de868411c13b9d2dc")))
+                 "cf19684d2333cb0cda7f6b62c7607144baa49310")))
         (sha256
           (base32
-            "1ax5kwc0jvs7r9qf1cwsc48wg9m0glm50x33v2x15049bjkas2vl"))))
+            "02kyqd4ihliahkhirqqy7a8fi7s8haf9csaq95xi2hc9zkbd2nx5"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/wavexx/mu4e-jump-to-list.el")
@@ -84167,17 +84167,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20221202.757")
+    (version "20221202.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "c2e852e10263ee652651598708323ab5ccef2ebe")))
+                 "3add6748aed069e62e307f15dabe97d86ca3c56a")))
         (sha256
           (base32
-            "0xgzsb1s991s1bb8pzmgwrvb1pmiapaidqwhaqbq3f1562jl3ixa"))))
+            "0b8nkrv811cgqsn5z7ldi2k9j80x1s8ncl5hygcnlxs6lrbf2hxc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -85291,17 +85291,17 @@
 (define-public emacs-org-wild-notifier
   (package
     (name "emacs-org-wild-notifier")
-    (version "20221107.1009")
+    (version "20221202.932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akhramov/org-wild-notifier.el.git")
                (commit
-                 "544df8a78090411479495494f9de724c350649ac")))
+                 "9a503675a0b33decadca4eb2e52ac5b6bc8d3efb")))
         (sha256
           (base32
-            "1xwx3q18kl5za2qzq596v1ibhggnrmn7b3r8sd77c7kffjd8k6ib"))))
+            "186vn0y2f2vhqkz3x1785ixyznkqhdlf9axd2ad4kdr34ri4j4na"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-async emacs-dash))
@@ -89360,17 +89360,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20221129.613")
+    (version "20221202.1104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "1885cefc24883c220cdd4acafdf1d14f290a6979")))
+                 "b8079e4ebc2936f9772657332d50936350a65825")))
         (sha256
           (base32
-            "1idazz46zx2q84di4p73770l4bcnai2a03q95psg827ykdnmjwij"))))
+            "1w6k028mzcs1cfn2rr85pycy2026kxvl18qkwn2l85k9d7hmvqlp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -94854,17 +94854,17 @@
 (define-public emacs-pulseaudio-control
   (package
     (name "emacs-pulseaudio-control")
-    (version "20221125.138")
+    (version "20221202.1003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/pulseaudio-control.git")
                (commit
-                 "2c939a0789b9a0f5e3691704afde512ada9c73f4")))
+                 "d05575ad904e7e3548b009762b8449e800195499")))
         (sha256
           (base32
-            "18avxnpsriil91abx553201mignj9flqik73i5wmvhhi3z4jycff"))))
+            "1ic82n2ja8y191m0qijp39p039z6jlw3k96cb87cwafnwh5ricz6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/flexibeast/pulseaudio-control")
