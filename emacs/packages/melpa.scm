@@ -10245,17 +10245,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221126.755")
+    (version "20221202.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "7d755a9571783d2ffb07f2b1cbfe4369f1418040")))
+                 "84680339ca5c195c4c1574392e71e35dc549f3d2")))
         (sha256
           (base32
-            "017vvm4cd0z9qqp7qp7mw0gcp7a13i8k2p55dlx6ss47cf01bkfh"))))
+            "0p1cfwnfs1wvmx0fr5j5kd7slcc10rgvdq45agbgs1ksaqvmw8sq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -10754,17 +10754,17 @@
 (define-public emacs-ccls
   (package
     (name "emacs-ccls")
-    (version "20200820.308")
+    (version "20221202.1520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/emacs-ccls.git")
                (commit
-                 "675a5704c14a27931e835a431beea3631d92e8e6")))
+                 "ec101b92983066b652921ab0702e1b76619aa201")))
         (sha256
           (base32
-            "0l4bhyr9d8ljz1f0cfg1s2cjcmh6fiwbk5mdlvc7rrwz5hxc21is"))))
+            "1xzkyqx9alc5y8523wzj46zrjnbyd13q7jr8sl74n0z93q1kyyp2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-dash))
@@ -32913,17 +32913,17 @@
 (define-public emacs-evil-cleverparens
   (package
     (name "emacs-evil-cleverparens")
-    (version "20221201.1638")
+    (version "20221202.1738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-cleverparens.git")
                (commit
-                 "949e64a1aeac213fa61bb7e83c3b746038602bbb")))
+                 "ec996c5209d31ab8035c548e1778d4203aed5c90")))
         (sha256
           (base32
-            "05m97l969cmz98kvv0512p792sgls15fdli3jp3i02ri1n324wb5"))))
+            "0z8kwzmm315msid6y3gqjky9j69b7vyzbz4hdfaanih98i9b1hxb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil
@@ -112768,17 +112768,17 @@
 (define-public emacs-timu-rouge-theme
   (package
     (name "emacs-timu-rouge-theme")
-    (version "20220717.2158")
+    (version "20221202.2140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-rouge-theme.git")
                (commit
-                 "bbfc8bbba01e5caa9d11628f0bc2276605c75901")))
+                 "6ec95d29ecfe0e3ed827de697347c5fd046774e3")))
         (sha256
           (base32
-            "0r2647yll9yx9i5i1j2gqr8ammxll5pc367prs9jz8il6nd4irpa"))))
+            "0hcv2aq17adcr1z5rsswqsnnfrkpb6ffd8rvj47p5zb4b3f9qz1z"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-rouge-theme")
@@ -113815,17 +113815,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20221130.1900")
+    (version "20221202.1727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "72d30284ab75c1497e23be310dcc53a4ecefa401")))
+                 "c6cf2f2705ab56cd89d807e723ce45b9fcdfb9e1")))
         (sha256
           (base32
-            "0qilxy1kmsfr0j177ic7nhyh4lq7s88455bs9iv9j48qrjf7wwcl"))))
+            "1x0c5sv52ff2lb60pa3b234hh95117v2jypf7srb8gfwvwniqpxa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
