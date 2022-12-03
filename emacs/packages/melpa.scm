@@ -45868,7 +45868,7 @@
 (define-public emacs-glue
   (package
     (name "emacs-glue")
-    (version "20221124.802")
+    (version "20221202.2330")
     (source
       (origin
         (method url-fetch)
@@ -45878,7 +45878,7 @@
                ".el"))
         (sha256
           (base32
-            "1nsbja4943n3sllzs483mhj2p4w82lsnbxcrln387387m49z1yf0"))))
+            "0l822p33877z65zgkl13dlainrlydjw2nrflgq3wijiwhcv9kz9s"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~hajovonta/glue/")
     (synopsis
@@ -47702,17 +47702,17 @@
 (define-public emacs-gpt
   (package
     (name "emacs-gpt")
-    (version "20221113.1941")
+    (version "20221202.2343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stuhlmueller/gpt.el.git")
                (commit
-                 "e974bb8d203c7d624f7f82289201ab84913d7d6b")))
+                 "6eff71e3c6a41d6ed50a0ae2fd638e9afedffe7d")))
         (sha256
           (base32
-            "0g5h9frq6jkac2ncx3bgca9hidckpj1df7x2xp9crbwrbyz0x862"))))
+            "16dn1g2dfyac1bp4qr8qdm2iy8iyv6h9fmibpyxmb811jyw275d2"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "gpt.py")))
     (home-page
@@ -67249,17 +67249,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20221130.148")
+    (version "20221203.38")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "9c4df63230479ddc39f956b012ee945ee57183ef")))
+                 "c02c7a5002d817d6e9cd4d7a1551c0ee412a65f1")))
         (sha256
           (base32
-            "1c2l28bsczpdcijrsvmrhx7d6fcyhplwgx680n13r450piw15rga"))))
+            "0m5v46s4n4wq730pdzhmf26r4lxj23sg24l7yzf40dhsa7pfgh4p"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -84098,17 +84098,17 @@
 (define-public emacs-org-reverse-datetree
   (package
     (name "emacs-org-reverse-datetree")
-    (version "20221121.626")
+    (version "20221203.259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akirak/org-reverse-datetree.git")
                (commit
-                 "127b168960296861f73f8e38247438ebdc575d1e")))
+                 "fca95cd22ed29653f3217034c71ec0ab0a7c7734")))
         (sha256
           (base32
-            "0k2z7fz17zamb24fdl5zfr8s3r7bkzhfw8dv4lrrnkhhvjz8l3c6"))))
+            "15jymjfdsmbcr5l03c605kbi68afcnwandhpgkcn912add9iqczr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -100933,17 +100933,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221121.1224")
+    (version "20221203.328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "0e61e5986da291b0755b65f701c595efb924cba6")))
+                 "ab685bfcac7e549748bca22f3e87dd4779c06278")))
         (sha256
           (base32
-            "05rnihy63jx73k8jdvgnfi7xjzmdwz6r7b61i67mndzfl7ashf2d"))))
+            "1kzjkvqj5h9fvzbh8wn4s1i6vd4ihwqqg1apxllfg23vy2jw2p9y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -111010,17 +111010,17 @@
 (define-public emacs-tao-theme
   (package
     (name "emacs-tao-theme")
-    (version "20221108.9")
+    (version "20221203.429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/11111000000/tao-theme-emacs.git")
                (commit
-                 "632e735c70b16828b3f50bd415b5e218e9780ead")))
+                 "17ed50416d6f90d0f4a16f30bc0cf5425aed2a9a")))
         (sha256
           (base32
-            "1h1lskg0nysp3xpzpqn90p05fzvix1dpws5fmrklfbd7m7nzbn2a"))))
+            "0gwscag4wldnalv5w41fln8b2g1jacnsl4df6fgajsjghwcj090q"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/11111000000/tao-theme-emacs")
@@ -112791,17 +112791,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20221007.1029")
+    (version "20221203.53")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "278ff2d30f3c2f657c0a828d177ecb37837386d5")))
+                 "2848825221964bdd0b0a2e4265a0ab3b4a208cb9")))
         (sha256
           (base32
-            "0c879srhnn6fqmsnh9mjfdbrilwrymh8x2wn0w3jw0pp7x3brp65"))))
+            "09q4kp84via55h08a2bhd4s7q71xjdnfcbzkvpgxh113614l48b4"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
