@@ -12019,17 +12019,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221109.2212")
+    (version "20221203.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "5064287ba71c4c8ede169b0f561d707f4a365c55")))
+                 "43318f39c1fb7095bb1997059134fcbe7119ff2b")))
         (sha256
           (base32
-            "01r53aclh5wf70l6kpzmnx64jm6ixx6x9c390hbdvjbif6mp8xbv"))))
+            "1wqnll01p7cm2fzgic55ajbild0pjhws1gsl6sd8yyh0gqvmfwld"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -16658,17 +16658,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221202.1047")
+    (version "20221203.545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "68ed535cc5d9943d29d9e45d1cbbb102ce7e2e74")))
+                 "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8")))
         (sha256
           (base32
-            "1612qvwrq3zzlg0z16h8c2hyxvc39k1wivsm1zw3mvr8inpliy00"))))
+            "11wk1511hj8m9rmccgq4fb8x7vlr9pi00a9h285lxwj1bdmy9dlz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -45868,7 +45868,7 @@
 (define-public emacs-glue
   (package
     (name "emacs-glue")
-    (version "20221202.2330")
+    (version "20221203.914")
     (source
       (origin
         (method url-fetch)
@@ -45878,7 +45878,7 @@
                ".el"))
         (sha256
           (base32
-            "0l822p33877z65zgkl13dlainrlydjw2nrflgq3wijiwhcv9kz9s"))))
+            "08a494lmilvzbmyx76xrfb7i8smx8hxcrnjvkhfzj4nq87visynb"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~hajovonta/glue/")
     (synopsis
@@ -83072,17 +83072,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20221201.653")
+    (version "20221203.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "14a5e0b1c9f60f1986fce85501401320ae4379e7")))
+                 "7d037569bc4a05f40262ea110c4cda05c69b5c52")))
         (sha256
           (base32
-            "11i6wcvrv2iikbqvj03md5z56bcql6fgllgzqsdnw9pcd6g3r9x2"))))
+            "0zh6lz5lig318fq2nw2wyb0aka2h2f8kr63ja953qyjjzkgkbkbc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -94923,17 +94923,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20221016.427")
+    (version "20221203.942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "af8dfe1f5a3e5c4ba650fd15716ae707f29b33f8")))
+                 "a559c4fc1b2504c46406f88179a72f153dd216cd")))
         (sha256
           (base32
-            "1pdghwwcx28f056w0v26d21da6l3nwh8nsmw7lf8zrn43b259yas"))))
+            "1ya4346s2ams6ijnyahsaf247vq9f97w2hs7762gmc7fs4kap1xf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -112745,17 +112745,17 @@
 (define-public emacs-timu-caribbean-theme
   (package
     (name "emacs-timu-caribbean-theme")
-    (version "20221127.1912")
+    (version "20221203.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-caribbean-theme.git")
                (commit
-                 "26e345a46958b65de3b4e792d4bfc430405398a4")))
+                 "9ec69150ede7f0e9dd8083cb4093caae913f9b5c")))
         (sha256
           (base32
-            "0wp9v324hbfxw97dbdsj3xhgywdz38gahkl4xcfsx0qhma889c6p"))))
+            "1720gknqfschzj6g36mm1vswbaxn9c0zzb42sxgr7chsyzasckqd"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-caribbean-theme")
