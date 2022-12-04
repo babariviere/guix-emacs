@@ -20201,17 +20201,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20221203.1936")
+    (version "20221204.415")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "753db383e57458203fbda813a6bfe9bf99ca1c6c")))
+                 "87778851160a07c831197df83e4d399f671ea3c6")))
         (sha256
           (base32
-            "1sfia646fvriilg7k7vxv3hz03vqsx7bnz9j6chg5q244i1yja66"))))
+            "1msaq69bscivmbvrqddf75spk0j58v9525ch6g0fw9a0j5aqcj3r"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -55327,7 +55327,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20221129.355")
+    (version "20221204.449")
     (source
       (origin
         (method url-fetch)
@@ -55337,7 +55337,7 @@
                ".tar"))
         (sha256
           (base32
-            "0x5j5iznpk8mrcsl4k8j9qmb9c7c97yyaf3zwmanrf8zdxpfhf3n"))))
+            "05xjkb2whk7vnvn5yi7y87lh7md6q999ybr9kiy4d5sn965wjhn9"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
