@@ -4514,17 +4514,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20221107.1434")
+    (version "20221204.803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "7cf39d3227d2e99bb2d627bb47fdd90c10a7675a")))
+                 "c00f4cc9409dc2fa8c0924f425b2840534b09221")))
         (sha256
           (base32
-            "0b8pi351k8i7grwpj1h94ym49gq2kgi2bc50cji1f7cimwci3qim"))))
+            "041f1gdh972y514zdcrlprnpq26kvip81q94768d3ydwlidymky5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -8164,17 +8164,17 @@
 (define-public emacs-bnf-mode
   (package
     (name "emacs-bnf-mode")
-    (version "20200323.1348")
+    (version "20221204.1241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sergeyklay/bnf-mode.git")
                (commit
-                 "2d1ee12f3ba6e75841066bf429d7bf836d4b89d7")))
+                 "31b5fa2fd62cf74d8d085c10f2c3a1c5f1515ddb")))
         (sha256
           (base32
-            "1vyardwvn5f7lscrhnbdzlkc7gjbgzkq07w5qhhp1lpxxkx8p3rz"))))
+            "1gxrhpndi6vm4ah6j9j2l5ksyggvrbdjqa05nh42y0mdvqgmwdn9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/sergeyklay/bnf-mode")
@@ -10642,17 +10642,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20221127.2107")
+    (version "20221204.1000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "c4fc122b75b4a5d1d051c2a0e19a0eb0aa51501b")))
+                 "116cdbb6105286c59dcdccb31333935cadd982f5")))
         (sha256
           (base32
-            "0zkrkqvwfgb30x0pfbcrpyqn7i2xqcyayllkl70fbmzp3vw534lb"))))
+            "1nwb5fz470yw3837fdkjj39h1kvpdkk548ipk15i28dhmvrnh58c"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis "Catppuccin Theme")
@@ -16895,17 +16895,17 @@
 (define-public emacs-consult-hatena-bookmark
   (package
     (name "emacs-consult-hatena-bookmark")
-    (version "20221120.2352")
+    (version "20221125.109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Nyoho/consult-hatena-bookmark.git")
                (commit
-                 "c36bf73f242f42261a463d913f2b8d56d22754e3")))
+                 "b85484b11705ebd896878d3ac7fdb12bc8c9637a")))
         (sha256
           (base32
-            "0gz3mk4gafywkbd6r1bclb6i0yizjyhmaci5dic8f9p9fdi1g2r8"))))
+            "1xvi28wvagcabk1q6ckw4f97knm59rl86jd3pndz2ljv842rzbix"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-async-await))
@@ -32190,17 +32190,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20221124.756")
+    (version "20221204.1348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "01e7f5b482b8a3331f1341483dedf2bd30403423")))
+                 "b6aefb9ca231c3cbb1a6532b8afa4022c2678f81")))
         (sha256
           (base32
-            "1b40rbbqzgfxj88357aixq646g3v3f88k9kwhgmyyjy9lb2dljkb"))))
+            "0xjj842cxqg6lka9h4a0qamdjc0iifnhcddpdafarbssh2qaxiys"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -37162,17 +37162,17 @@
 (define-public emacs-flatfluc-theme
   (package
     (name "emacs-flatfluc-theme")
-    (version "20220522.1657")
+    (version "20221204.939")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seblemaguer/flatfluc-theme.git")
                (commit
-                 "1679983d22a3b213262e09b3b25db75818a9d37a")))
+                 "553167d27725d078f5c66ed7a31ca8ec9376dfd0")))
         (sha256
           (base32
-            "1ikkr45bdkajg1s3slq00wwrk06iyly2rnrigzm5vnbw6b5ildn4"))))
+            "1d7ffaa90r9n89xx79f0mkmg40p96f415n1lg603vfy6dls1dfmb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/seblemaguer/flatfluc-theme")
@@ -96026,17 +96026,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20221130.853")
+    (version "20221204.1348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "6fd93296fdf6244c3a59bfea36601144dad94c51")))
+                 "d8f4dbf726c752f558a81036cf6f4d12d4e90ce1")))
         (sha256
           (base32
-            "02lc3jlx1s0vjydsgv408rvqc0kyzvfss9iq21r1nckw4mhcsy4j"))))
+            "173vmwdj1wb3gfl0g4ny0g48394wxi0mqfyd6rbpvzmkjvw2w7g4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
