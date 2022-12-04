@@ -13189,17 +13189,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20220928.557")
+    (version "20221203.2256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "414157c3e523e80cc44dca8f86f1853122ee5f6b")))
+                 "3717e449dded7c8d9f50369bd34a19c077c2c538")))
         (sha256
           (base32
-            "1ldzbc7zrkqnkf3gm69q94ys4my984zps1gymw5sdx6gn9qc96iv"))))
+            "12fcw0a0jlmwybh55dqyywg5yq50lg7vxlyrjl7z8nbyq0ygnhjm"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -20201,17 +20201,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20221121.1809")
+    (version "20221203.1936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "bda7e33cace662b2bf5db13a265e9902b048baa3")))
+                 "753db383e57458203fbda813a6bfe9bf99ca1c6c")))
         (sha256
           (base32
-            "0am4613b1zykmc5mdqswcp0b1n2dcm6dnab21pcpls7f7d3rdmbj"))))
+            "1sfia646fvriilg7k7vxv3hz03vqsx7bnz9j6chg5q244i1yja66"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -25130,17 +25130,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221115.2354")
+    (version "20221203.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "c6a84a93c687b6ada6ea297135125cff232520d9")))
+                 "da71ed398c143105dedba794a3996c181d44ae54")))
         (sha256
           (base32
-            "1krm1pn73wk1s3gvif4vk7q281nx0syh5dfai3lmkd6jwphwhzxj"))))
+            "1svzdwk562jqzdldi308vligci7rh8129ysw34sy2g3pd5ih1rmc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -32992,17 +32992,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20221129.442")
+    (version "20221203.1805")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "23425ca8dc498d3754b7b9151d1793f3787323e1")))
+                 "9149caf4a92bade1cf944d219487b1c516176cdb")))
         (sha256
           (base32
-            "0pkw4frmr6j54w25528wfcwp12m5xdgsa9sx537b53f0zpqipaqf"))))
+            "05j26khqbb1y9mxiay58qg0gw577mjcmaziqqwbvkkyq0csa2qzb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -50582,17 +50582,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221129.1130")
+    (version "20221203.1108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "115847b8d5f4175d7469f873d50a7e41710db5aa")))
+                 "75c85ae15286c108d1f32f7ff92f6eaa89a553ef")))
         (sha256
           (base32
-            "0ysayrp9kjkx8lfy1kb1pjp6qvh40mmwbq2a02q9ycgss9wij3wh"))))
+            "19x98gkhxl8mq4cih1ldjj4j46jd42qs5p735i7ch1imxrphc034"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -56127,17 +56127,17 @@
 (define-public emacs-http-twiddle
   (package
     (name "emacs-http-twiddle")
-    (version "20160801.1911")
+    (version "20221203.1351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hassy/http-twiddle.git")
                (commit
-                 "4d0c73b7dcbde8b483d4f3a75c49c74d2fe3ca45")))
+                 "c07e8620183ec710623db35e26dd839b84c56007")))
         (sha256
           (base32
-            "0fxmk5b4ggi92n5gi2nim08a2gx1yg7jlp4hj4m0qazxqdcy38i1"))))
+            "1r8lb9qzrvpkh8qjba7pjmq4jw2na6grjckydm3s2m65lq618vjg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/hassy/http-twiddle/blob/master/http-twiddle.el")
@@ -73050,17 +73050,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20221130.2019")
+    (version "20221203.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "d834f37c58749151c83e3eeab0243db1f8d57321")))
+                 "aca5dc9b1be2e38d051c098cf5bc3412cec1ccee")))
         (sha256
           (base32
-            "03q8bghg639dn1wnvdsh6mjadr121c9r6gzklzbiz8l8gkl0l25z"))))
+            "0k8v6wnscwm5bn6ksr0sbd9cj559ddcbqj7vhh0w67sfy9lgvriz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -84167,17 +84167,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20221202.817")
+    (version "20221203.1750")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "3add6748aed069e62e307f15dabe97d86ca3c56a")))
+                 "25c476791edb93b56eba3a3f9a5b1cf395811f37")))
         (sha256
           (base32
-            "0b8nkrv811cgqsn5z7ldi2k9j80x1s8ncl5hygcnlxs6lrbf2hxc"))))
+            "0v93b1vqhfhiw94fj0hsj1h3jldf9q71bw5g8c1y1hzbvh8f2ikf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -94923,7 +94923,7 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20221203.942")
+    (version "20221203.1548")
     (source
       (origin
         (method git-fetch)
@@ -99198,17 +99198,17 @@
 (define-public emacs-restclient
   (package
     (name "emacs-restclient")
-    (version "20220909.1233")
+    (version "20221203.1808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pashky/restclient.el.git")
                (commit
-                 "1fb570643b08ba66eb70831b6f874f52546917f1")))
+                 "0ba72816f92f3d5906cdf76f418fd0a3ee72809b")))
         (sha256
           (base32
-            "0npij1p1yw4p1f1yrx6bl8q18nav5p2xvbp7qhzhn7lb2fdn5jqv"))))
+            "16npyzj4d9qaby1nw8dhs5llqkl2jdy1gmxjayjvn0chkjlidq9x"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("restclient.el")))
     (home-page "unspecified")
@@ -112791,17 +112791,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20221203.53")
+    (version "20221203.1855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "2848825221964bdd0b0a2e4265a0ab3b4a208cb9")))
+                 "96bfec8278708c2e550add7ebd13d747b18dc5d2")))
         (sha256
           (base32
-            "09q4kp84via55h08a2bhd4s7q71xjdnfcbzkvpgxh113614l48b4"))))
+            "0qhn5clzxwwb73pqfg32yjyw5a3sgj78w6h955dvvybxcrx1777g"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
