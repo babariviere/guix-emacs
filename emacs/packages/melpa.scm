@@ -10245,17 +10245,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221202.1457")
+    (version "20221204.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "84680339ca5c195c4c1574392e71e35dc549f3d2")))
+                 "2e4e97868dad4385056c233d7832352678cd8d4f")))
         (sha256
           (base32
-            "0p1cfwnfs1wvmx0fr5j5kd7slcc10rgvdq45agbgs1ksaqvmw8sq"))))
+            "0apn9fl8rz9q1wbhdhd1fgc37c2yn40svlq3q5yyq5qcaxjyh2bv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -11997,17 +11997,17 @@
 (define-public emacs-chyla-theme
   (package
     (name "emacs-chyla-theme")
-    (version "20180302.1658")
+    (version "20221204.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chyla/ChylaThemeForEmacs.git")
                (commit
-                 "ae5e7ecace2ab474151eb0ac5ef07fba2dc32f8a")))
+                 "6a442a02fdb2ff4c24841ecbd92e4bd5fac3d9ee")))
         (sha256
           (base32
-            "1gqzwwr3fnhd9iqn7zmqpxgxvmrhq7g849ndjwizksk0bfj3b596"))))
+            "1n2malwwngncka4kah6iwxccx8a1afpdl5a6np9gr8717rg5d7sn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/chyla/ChylaThemeForEmacs")
@@ -26845,17 +26845,17 @@
 (define-public emacs-eide
   (package
     (name "emacs-eide")
-    (version "20221101.2045")
+    (version "20221204.2104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://forge.tedomum.net/hjuvi/eide.git")
                (commit
-                 "e0a5deb627da9cf70f02229601a1ebe6d78cabc8")))
+                 "ccddbb7b893c9b2439c19832aeb2c4d7dd8f5d90")))
         (sha256
           (base32
-            "03yj94kw9n32bsjb7mxsq7acb8x915cgw5c11112mb56qjsz6203"))))
+            "1wgdjrzz53y8gchp9vayb177y42w1ih8abq2rk1l9injhj8y0q4j"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/*.el" "src/themes/*.el")))
@@ -27015,17 +27015,17 @@
 (define-public emacs-el-fetch
   (package
     (name "emacs-el-fetch")
-    (version "20221122.2207")
+    (version "20221204.1846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-el-fetch.git")
                (commit
-                 "5cf7e32df03463853d41e0570d1c28e709fc8cf9")))
+                 "1969852ffd44c0f089c939e0f598d931a4d38928")))
         (sha256
           (base32
-            "0gpifq4yjr94nz25gliny8wgmp4vzwg15rxdky40kg04cbp5kb47"))))
+            "0am0j1gnlz8xzn4dhi5akw48nj89i9x657d54js8ydgdg10azls2"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/el-fetch/*")))
     (home-page
@@ -44183,17 +44183,17 @@
 (define-public emacs-gh
   (package
     (name "emacs-gh")
-    (version "20220302.549")
+    (version "20221204.1817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sigma/gh.el.git")
                (commit
-                 "27ccc892e94f7e747e5b879eec71119965d9ed6e")))
+                 "e1423a54fc97924e75d1fde27911c3c678a7d6c3")))
         (sha256
           (base32
-            "0biljpqw14kjv0njyrahfdgglaphghva0kpfjhiprfwbd0rmmi1k"))))
+            "1fr4pikcjasqy41g86pjwhz3alky42m2z7ziag051xhcd8nlm51s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pcache emacs-logito emacs-marshal))
@@ -66338,6 +66338,29 @@
       "Documentation at https://melpa.org/#/ligature")
     (license #f)))
 
+(define-public emacs-ligature-pragmatapro
+  (package
+    (name "emacs-ligature-pragmatapro")
+    (version "20221127.2252")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/wavexx/ligature-pragmatapro.el.git")
+               (commit
+                 "85f7b15a5cf5f2ee843bc0469e03602a0251c275")))
+        (sha256
+          (base32
+            "1818lwncgx6iayvxpdmlwv1irbj1vdcmwipf464pvz7dmgfnz8hh"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-ligature))
+    (home-page
+      "https://gitlab.com/wavexx/ligature-pragmatapro.el")
+    (synopsis "PragmataPro support for ligature.el")
+    (description
+      "Documentation at https://melpa.org/#/ligature-pragmatapro")
+    (license #f)))
+
 (define-public emacs-light-soap-theme
   (package
     (name "emacs-light-soap-theme")
@@ -67798,17 +67821,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20220916.2058")
+    (version "20221204.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "a185254605d212881648ceaf6d1504d34413ef8c")))
+                 "8ff518328fd064b15a67c6d92bbb17b89fa1419e")))
         (sha256
           (base32
-            "1cn9nzihrnpzrmcv42aql6rrfc3ilfg2b04hh04rh58gx5g2sl1k"))))
+            "0z9icrrxnn8kkbv0ycj4fxhbajmibfk1b44j5l2q6qkvwn5asr4f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -68144,22 +68167,23 @@
 (define-public emacs-lsp-docker
   (package
     (name "emacs-lsp-docker")
-    (version "20221123.1334")
+    (version "20221204.2022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-docker.git")
                (commit
-                 "1d08ab56b4064f0e4b56493d723ff947d0e3c3c1")))
+                 "7c8cff5103595e1341f4aaa512c833dbc58d6886")))
         (sha256
           (base32
-            "1lnbyzk8w6rmcpxlrwjcjlmkfsb4i8z1wgfr3rm2ark66hrrqayk"))))
+            "09q11i0r1hnyznmr09zxn9r28rq4hkm7xj49nqnvh1r5nklsgyfr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
             emacs-lsp-mode
             emacs-f
+            emacs-s
             emacs-yaml
             emacs-ht))
     (home-page
@@ -73050,17 +73074,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20221203.1427")
+    (version "20221204.1608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "aca5dc9b1be2e38d051c098cf5bc3412cec1ccee")))
+                 "de9f84531ca4db6e54a2ca7201638decc0ccadd4")))
         (sha256
           (base32
-            "0k8v6wnscwm5bn6ksr0sbd9cj559ddcbqj7vhh0w67sfy9lgvriz"))))
+            "04gqvlqb00jmkxj4wv4yr3hyvyal4vp2i2x0r338144bhwcxmi71"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -74049,17 +74073,17 @@
 (define-public emacs-mos-mode
   (package
     (name "emacs-mos-mode")
-    (version "20221007.1641")
+    (version "20221204.1932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/themkat/mos-mode.git")
                (commit
-                 "396abaa4afbca895fe27bc0570491fb005fc7693")))
+                 "e6e3df3e1ea0a94848d09aa72eb214e5dc3b77ef")))
         (sha256
           (base32
-            "02br0xi6cqpj196f581c3gsl1j81wf7gqb2ras7v5f4c1jh3icw0"))))
+            "0b4bh2virhw99x3fr170kf6r3fymrafn7b9a16zl2jvrnyqh5s6b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -81588,6 +81612,29 @@
       "Documentation at https://melpa.org/#/org-caldav")
     (license #f)))
 
+(define-public emacs-org-calibre-notes
+  (package
+    (name "emacs-org-calibre-notes")
+    (version "20221202.1657")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/bpanthi977/org-calibre-notes.git")
+               (commit
+                 "3120797ecbcb58827b91e3610e65579593d9a402")))
+        (sha256
+          (base32
+            "0kamfmh2zkamzg72kw51p4cvj7p1bx3k8vk1dssv62r2kq7j349k"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/bpanthi977/org-calibre-notes")
+    (synopsis
+      "Extract highlights and notes from Calibre EPUB reader")
+    (description
+      "Documentation at https://melpa.org/#/org-calibre-notes")
+    (license #f)))
+
 (define-public emacs-org-capture-pop-frame
   (package
     (name "emacs-org-capture-pop-frame")
@@ -88727,23 +88774,22 @@
 (define-public emacs-passmm
   (package
     (name "emacs-passmm")
-    (version "20210109.8")
+    (version "20221204.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pjones/passmm.git")
                (commit
-                 "d78d1bf4f397180d2256248df589f33aafb4c8b4")))
+                 "66691e301dff476eaff7c6e817ed9df96d4404c8")))
         (sha256
           (base32
-            "0r2nj2p6kx40lhmsv06xsyylj5b9lqji32rc4ipr1biaai52w2b6"))))
+            "1rk0yrjdkhvqms137rlfryfmlyzkavs2m5qmdx644l7w4v86jd2n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-password-store))
-    (arguments '(#:files ("lisp/*.el")))
     (home-page "https://github.com/pjones/passmm")
     (synopsis
-      "A minor mode for pass (Password Store).")
+      "A minor mode for pass (Password Store)")
     (description
       "Documentation at https://melpa.org/#/passmm")
     (license #f)))
@@ -100749,17 +100795,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20221023.1807")
+    (version "20221204.1907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "ca44efc45b906bd377871b876171476f977e9fc1")))
+                 "02dd25fc7abdfd719bc36f383651c837ff5e8314")))
         (sha256
           (base32
-            "10i801x33ld4x7gyfc6fvmhc292hd9dn20qqvyjf1wiqijb1nddc"))))
+            "1q1y3sxl37fmsbbr0y0a6xl825fmvl6j11cczgrdg8sph2n3ilpv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
@@ -111397,6 +111443,30 @@
       "Documentation at https://melpa.org/#/tempel")
     (license #f)))
 
+(define-public emacs-tempel-collection
+  (package
+    (name "emacs-tempel-collection")
+    (version "20221128.2256")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Crandel/tempel-collection.git")
+               (commit
+                 "dda5210d31fa4859d2f539c640b4795007c35254")))
+        (sha256
+          (base32
+            "06q7ix5ycpxa7cgzxbq219lqma90pck2sj78wbidx4z4wl076prd"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-tempel))
+    (arguments '(#:files (:defaults "templates")))
+    (home-page
+      "https://github.com/Crandel/tempel-collection")
+    (synopsis "Collection of templates for Tempel")
+    (description
+      "Documentation at https://melpa.org/#/tempel-collection")
+    (license #f)))
+
 (define-public emacs-template-overlays
   (package
     (name "emacs-template-overlays")
@@ -119722,6 +119792,29 @@
       "Writable pt buffer and apply the changes to files")
     (description
       "Documentation at https://melpa.org/#/wgrep-pt")
+    (license #f)))
+
+(define-public emacs-wgsl-mode
+  (package
+    (name "emacs-wgsl-mode")
+    (version "20221127.2129")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/acowley/wgsl-mode.git")
+               (commit
+                 "e7856d6755d93e40ed74598a68ef5f607322618b")))
+        (sha256
+          (base32
+            "0344db2kx1hw1gr971iqxhwy7qzn2vfkjgg8ccla9zsf22nlqxk3"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/acowley/wgsl-mode")
+    (synopsis
+      "Syntax highlighting for the WebGPU Shading Language")
+    (description
+      "Documentation at https://melpa.org/#/wgsl-mode")
     (license #f)))
 
 (define-public emacs-what-the-commit
