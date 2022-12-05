@@ -8164,17 +8164,17 @@
 (define-public emacs-bnf-mode
   (package
     (name "emacs-bnf-mode")
-    (version "20221205.151")
+    (version "20221205.1451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sergeyklay/bnf-mode.git")
                (commit
-                 "5aec265406614582ba4ee1bc18671502f0621b2e")))
+                 "1a7e177c282b8e07a2c33bd89232464b347dfc17")))
         (sha256
           (base32
-            "138i9801ylhvxq3ga7l8x2nahz95h6dzq95c5amdbsl8nyh94pmi"))))
+            "1r23hrl258v7r0y785p2jrjz0y0bpd4lpl9ji91pqzrm6amvbkn4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/sergeyklay/bnf-mode")
@@ -12019,17 +12019,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221203.1148")
+    (version "20221205.1314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "43318f39c1fb7095bb1997059134fcbe7119ff2b")))
+                 "c1329514842e30ca9eb30adf7e767de0539fe2c5")))
         (sha256
           (base32
-            "1wqnll01p7cm2fzgic55ajbild0pjhws1gsl6sd8yyh0gqvmfwld"))))
+            "0kgya7lry0aqgdjv0wgyap0vi6yf7x99d0d6wzs3a793bsl2fjq0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -12442,17 +12442,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20221202.531")
+    (version "20221205.938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "03f7c3eeb0526c49ea2e659b4262ec070aa6413a")))
+                 "86c346b357a4486d38d15a41fa31d86f7dd0bc57")))
         (sha256
           (base32
-            "124vdkn9v67d91s6b4fbqjsqsbi3q2zayghkc0h8cvdipa4yi1g3"))))
+            "02lssgq6spj8gk6q70mq2amlxh774wqssq76wmch0prcc11i7wb4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -13744,17 +13744,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20221111.1212")
+    (version "20221205.1335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "182c1cc6ebced5c161aa37d01142dfab7eb8e7b3")))
+                 "29055ed68fb81fb6d63df2d94562947b886afcc3")))
         (sha256
           (base32
-            "0yi6i1ayfax5c1qmxx9xx318wg2ajp98k6r2rb8fwr8183flc993"))))
+            "0wn05xwjh5cvr45rjxj5p6di7vh6zm6024j07aq03xzmrl7phmah"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -22700,17 +22700,17 @@
 (define-public emacs-dired-rsync
   (package
     (name "emacs-dired-rsync")
-    (version "20220729.1031")
+    (version "20221205.1242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stsquad/dired-rsync.git")
                (commit
-                 "7bdc1dd7c9e1217a20a4e1f26c3d1a3ed35f4a14")))
+                 "e2c5a0a8f19a17040b348a1a56b8facce58c9fcd")))
         (sha256
           (base32
-            "1qwdc92rzqdzv96rz4q9davzs0myirmf1cyr0cly2wqxg4zmms18"))))
+            "02whs01kvyd1qwz4a2sn8jsg7l8daw4l5jq2cz0y5wsx0c62bhj6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -25152,17 +25152,17 @@
 (define-public emacs-dyalog-mode
   (package
     (name "emacs-dyalog-mode")
-    (version "20221102.913")
+    (version "20221205.814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/harsman/dyalog-mode.git")
                (commit
-                 "1fe61fa2e0145af434f3fa1c5077b973389d8651")))
+                 "245985f334f697f86e6791ab1b8bbe27b3653bd7")))
         (sha256
           (base32
-            "1swvwnbzp848ih41xmgvrvzii2s9qdxd7lfkcik4pm5br0njmx2m"))))
+            "1zhzdq0sr3k8lkpdckkw6axqj3f2arp3mk77cldkarcqn4myknjy"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "Emacs.apl")))
     (home-page
@@ -32913,17 +32913,17 @@
 (define-public emacs-evil-cleverparens
   (package
     (name "emacs-evil-cleverparens")
-    (version "20221202.1738")
+    (version "20221205.1355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-cleverparens.git")
                (commit
-                 "ec996c5209d31ab8035c548e1778d4203aed5c90")))
+                 "22aa03d0f50aa70ae08fbe8765a88f5020afa635")))
         (sha256
           (base32
-            "0z8kwzmm315msid6y3gqjky9j69b7vyzbz4hdfaanih98i9b1hxb"))))
+            "1lgdygkn50fn4gfyzvfvs1vcrib4icsqh733jsq23w1qypz0fg5k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil
@@ -41970,17 +41970,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20221017.634")
+    (version "20221205.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "7b5d13eae258c5299a6525cb32a3bb69fb7f652c")))
+                 "6fcd8ef4e9d6d22d67c833e760078e0cea5a9d58")))
         (sha256
           (base32
-            "1ax6wpawa6zlizbdcvgklyq7nz6jiwdmlz7ln9aq81m4qzap44ql"))))
+            "045p83anqhzffaf3kc2ick4pqvapsa88mldfipca6fjmyfkqfz4n"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -44549,17 +44549,17 @@
 (define-public emacs-git-assembler-mode
   (package
     (name "emacs-git-assembler-mode")
-    (version "20221205.134")
+    (version "20221205.1014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/git-assembler-mode.el.git")
                (commit
-                 "3140ae3130174ed07427b51ce6ee6fb6e1e893f3")))
+                 "e88d69d1fd93f166d8b31e02790a1d241fea44aa")))
         (sha256
           (base32
-            "0yk5iq22npm02gvd25m68rihqj5lsvn6m35aj2swf4dmn09xai9l"))))
+            "1lvhgs57848jiqsv4nhr3y65jh2zx8fwjh301v7cc162l66bny56"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/wavexx/git-assembler-mode.el")
@@ -63611,17 +63611,17 @@
 (define-public emacs-keycast
   (package
     (name "emacs-keycast")
-    (version "20221127.2152")
+    (version "20221205.1138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/keycast.git")
                (commit
-                 "92a14313fe65c6a57aca33e5dcc1c9421862ce32")))
+                 "53514c3dc3dfb7d4c3a65898b0b3edb69b6536c2")))
         (sha256
           (base32
-            "0vwh96408l9b4vahgn1jmwvyh43mr5mw0v0qy3112v0qx21vcsx0"))))
+            "0n8mldq1i18ipwrq5jnk3mihv5df7651glksz1gpja87dpc1b2s2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/tarsius/keycast")
@@ -65209,6 +65209,29 @@
       "Makes LaTeX editing less painful by providing a updatable preview pane")
     (description
       "Documentation at https://melpa.org/#/latex-preview-pane")
+    (license #f)))
+
+(define-public emacs-latex-table-wizard
+  (package
+    (name "emacs-latex-table-wizard")
+    (version "20221205.1420")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/enricoflor/latex-table-wizard.git")
+               (commit
+                 "7ac03c0a511c6c094be825c5d4a34200e225ac73")))
+        (sha256
+          (base32
+            "169r95n530hcsxgvcvcrlg1fgwkq0wcpcd95d4wwi28m8chjc6sx"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-auctex))
+    (home-page
+      "https://github.com/enricoflor/latex-table-wizard")
+    (synopsis "Magic editing of LaTeX tables")
+    (description
+      "Documentation at https://melpa.org/#/latex-table-wizard")
     (license #f)))
 
 (define-public emacs-latex-unicode-math-mode
@@ -82889,17 +82912,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20221117.1124")
+    (version "20221205.1041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "f4d9c343c75dc0bbda5375d5315cdee8c819a61e")))
+                 "581ef299b732e00b6b9c13e797a55e0be18859e1")))
         (sha256
           (base32
-            "0vxw5f8fcx6n6gkmzxh0vd0gmpzjaczsa3a9ig1hxz6zw46q1vzi"))))
+            "0vv2f4xc265k74jwggvpi6faabv85q9203ffj9j93v85daah382d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -94900,17 +94923,17 @@
 (define-public emacs-pulseaudio-control
   (package
     (name "emacs-pulseaudio-control")
-    (version "20221202.1003")
+    (version "20221205.747")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/flexibeast/pulseaudio-control.git")
-               (commit
-                 "d05575ad904e7e3548b009762b8449e800195499")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/pulseaudio-control-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1ic82n2ja8y191m0qijp39p039z6jlw3k96cb87cwafnwh5ricz6"))))
+            "0zdq00pym453h5n3m2lidgqmc915i6dvgir8c57q9bn082wg2g29"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/flexibeast/pulseaudio-control")
