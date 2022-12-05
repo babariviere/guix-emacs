@@ -8164,17 +8164,17 @@
 (define-public emacs-bnf-mode
   (package
     (name "emacs-bnf-mode")
-    (version "20221204.1241")
+    (version "20221205.151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sergeyklay/bnf-mode.git")
                (commit
-                 "31b5fa2fd62cf74d8d085c10f2c3a1c5f1515ddb")))
+                 "5aec265406614582ba4ee1bc18671502f0621b2e")))
         (sha256
           (base32
-            "1gxrhpndi6vm4ah6j9j2l5ksyggvrbdjqa05nh42y0mdvqgmwdn9"))))
+            "138i9801ylhvxq3ga7l8x2nahz95h6dzq95c5amdbsl8nyh94pmi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/sergeyklay/bnf-mode")
@@ -9534,17 +9534,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20221026.2006")
+    (version "20221204.2303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "eaa4b3ccd115a2bb25be98dc637950645d3adbae")))
+                 "6372fd46b20cc807157071cb08ad263132ce7339")))
         (sha256
           (base32
-            "1dc8m5w26gi698d31xvh1q8mwf4a3wa1xrnyhqqxrmfr8b71clpk"))))
+            "0wbmd3wi6az9jhfxgsmpjm1dxhqfp7g91ds0jyfzq79zqaakml1a"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -10245,17 +10245,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221204.1358")
+    (version "20221205.734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "2e4e97868dad4385056c233d7832352678cd8d4f")))
+                 "6d7303e300dceb717c69b29f702fc636f9cac4e8")))
         (sha256
           (base32
-            "0apn9fl8rz9q1wbhdhd1fgc37c2yn40svlq3q5yyq5qcaxjyh2bv"))))
+            "0gz74h0fligx7ywpnrxv82za5x2i2sjm9vr0aarx81vkbkxskvk1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -27581,17 +27581,17 @@
 (define-public emacs-eldoc-box
   (package
     (name "emacs-eldoc-box")
-    (version "20221117.2216")
+    (version "20221205.638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/casouri/eldoc-box.git")
                (commit
-                 "3021dcd85764b6a918e1689bf649c16918c339da")))
+                 "5c067f5c195198ffd16df2f455da95e46cc8ce02")))
         (sha256
           (base32
-            "14blf7as7j6k7g8ry8a45c5zpgjca79axwr4b3yk3hcp9q9rvzfk"))))
+            "12vl8a5xqz1cbi9bg3i7h7rjb1kgwdbfin6pn7zvzajfmg0pi2qf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/casouri/eldoc-box")
@@ -43480,17 +43480,17 @@
 (define-public emacs-gcode-mode
   (package
     (name "emacs-gcode-mode")
-    (version "20221126.2249")
+    (version "20221205.116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/gcode-mode.el.git")
                (commit
-                 "94d2baf2ccbe24ef173e1b203aadb02b43ef2aa2")))
+                 "3b17b5ba85e5a05dac79b15b5231ad41f0a0fce5")))
         (sha256
           (base32
-            "1bn1kzg14hbhnd0g630klardzljd402yi7vphdim3yin9fjjs4zn"))))
+            "1i515clygcknp3f1rcf5kl63cx29vmqqkmfg4gk78s1pdika06qi"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/wavexx/gcode-mode.el")
@@ -44549,17 +44549,17 @@
 (define-public emacs-git-assembler-mode
   (package
     (name "emacs-git-assembler-mode")
-    (version "20210207.1545")
+    (version "20221205.134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/git-assembler-mode.el.git")
                (commit
-                 "1243bdc1a9cdc79802ece05c90731ee14e4f92c9")))
+                 "3140ae3130174ed07427b51ce6ee6fb6e1e893f3")))
         (sha256
           (base32
-            "1rc8z2r8lxzx836j7nk61snps8r0szzifg0inzfv3nb2z8bsiw0b"))))
+            "0yk5iq22npm02gvd25m68rihqj5lsvn6m35aj2swf4dmn09xai9l"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/wavexx/git-assembler-mode.el")
@@ -84214,17 +84214,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20221203.1750")
+    (version "20221205.355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "25c476791edb93b56eba3a3f9a5b1cf395811f37")))
+                 "f9228ce31969cab9ca46ad4890e82e2ea7de3738")))
         (sha256
           (base32
-            "0v93b1vqhfhiw94fj0hsj1h3jldf9q71bw5g8c1y1hzbvh8f2ikf"))))
+            "01843hsvlmkgg2wrwvx1xqwmhscvzwdgr5al37glwazf8f8dad0a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
