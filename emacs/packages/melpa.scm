@@ -20201,17 +20201,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20221205.1840")
+    (version "20221206.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "0b1985a4934e1b3a42940429d99a6703cc9dc300")))
+                 "f4efda4d169cc2eb43c409a3669df5d78dd17ec6")))
         (sha256
           (base32
-            "106lm0b802n3ijbsaxj0dbmv6rqm85niq7vl2srdd31ippkh6imc"))))
+            "1qq4p6pm3jslkk180jaf3yglrmd6xrghqfq7bmiyn3jqs2lnvhbz"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -22700,17 +22700,17 @@
 (define-public emacs-dired-rsync
   (package
     (name "emacs-dired-rsync")
-    (version "20221205.1242")
+    (version "20221206.246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stsquad/dired-rsync.git")
                (commit
-                 "e2c5a0a8f19a17040b348a1a56b8facce58c9fcd")))
+                 "93cf414ad35deb93c472d51b348be3fd375d6a4f")))
         (sha256
           (base32
-            "02whs01kvyd1qwz4a2sn8jsg7l8daw4l5jq2cz0y5wsx0c62bhj6"))))
+            "0v5gbcyc89biip5633fqqdkglafvr9md7ar3bsx55gmpnv6hv10c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -30546,17 +30546,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20221130.2318")
+    (version "20221205.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "1161cb95eddd4f70e25531f1a9ca8a738570d3d2")))
+                 "0bcd76c4afbb140c80781efa229bb924a286020b")))
         (sha256
           (base32
-            "1rm64fwvgnjc8m223lwpqs51fm7xannl2nb7zmgdnwrmx8rba6d3"))))
+            "1pmj0f1k4sjdxjdcpblsbzyfjn11p800vgcma5wlab9z7h3g3xa4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql))
@@ -34437,17 +34437,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20221128.341")
+    (version "20221206.751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "ef4e57f2a9c29a4345f5ade015524d0736c61292")))
+                 "13d913ae952aa139cd82fe2a0b6fd3647dfbd812")))
         (sha256
           (base32
-            "1a3pmyd1bm2lhgv9g7p5441y8mgjpmfvsh380i1fq192p7f3525c"))))
+            "01nrqiv7xapxvbwqi3fk63dvl9z9hpm1x8qhh2f9jz3p5bzw3qig"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -57489,17 +57489,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221201.2210")
+    (version "20221206.1014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "0cae4b8086aaba21a9279bc9e15471efe119d688")))
+                 "4a36953e767d627783aaaf3c705bed349cc84ab8")))
         (sha256
           (base32
-            "14ih16z0i3bpg136gby403q3k6nn38694m9b7gznfszxrv9j4l3p"))))
+            "17frhzsksmjlhdlv19ckm95chh66vbf9hd3sx76iqmqrw04z91qx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -75489,18 +75489,19 @@
 (define-public emacs-mybigword
   (package
     (name "emacs-mybigword")
-    (version "20220715.615")
+    (version "20221206.1257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/mybigword.git")
                (commit
-                 "6c35dd44369930b039a37f6174617bb6ab93be27")))
+                 "c5a7f43b38e2865333dd2603c14a2874cd25d2d0")))
         (sha256
           (base32
-            "04kljxzzja1hb2lr45vik8x7v3l32xmbyl5vq85s0p74qmm5pcxi"))))
+            "0dz7lh2qx5bj8sj7g47zkhciqskxxk4ivdya5hzf7mqfl4af743k"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-avy))
     (arguments
       '(#:files ("mybigword.el" "eng.zipf")))
     (home-page
@@ -87414,17 +87415,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221206.333")
+    (version "20221206.1203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "da9f8cb86e79cf6fdde80e059dfc245454fa11d6")))
+                 "84999eb88ae1a1855a03b4d24d8fa72e22ad82a3")))
         (sha256
           (base32
-            "1ihz3q0wqli8sh6gcan43qb0rhh10ghmq16i5bjfn06zwb9x0mnf"))))
+            "1x9qdflk9bq1bg22nv0v1mldfdhfzh8gn7p49nqx7w4mbjqlnc3m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
