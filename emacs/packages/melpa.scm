@@ -16658,17 +16658,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221203.545")
+    (version "20221205.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8")))
+                 "df877109c836b3d1d6e57f68069348040fb0ebd4")))
         (sha256
           (base32
-            "11wk1511hj8m9rmccgq4fb8x7vlr9pi00a9h285lxwj1bdmy9dlz"))))
+            "0ck5dn20yzgv1nmfhgvgi6b29srngpwg0z3dv1w0lk0iz0cc503d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -20201,17 +20201,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20221204.415")
+    (version "20221205.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "87778851160a07c831197df83e4d399f671ea3c6")))
+                 "0b1985a4934e1b3a42940429d99a6703cc9dc300")))
         (sha256
           (base32
-            "1msaq69bscivmbvrqddf75spk0j58v9525ch6g0fw9a0j5aqcj3r"))))
+            "106lm0b802n3ijbsaxj0dbmv6rqm85niq7vl2srdd31ippkh6imc"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -42139,17 +42139,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20221201.806")
+    (version "20221205.1922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "c0cc80ee1a26f51d69b33cfbdb229a8582727cf5")))
+                 "1f6b52a8cc253bc2df9c5f11a40571fe2b535b59")))
         (sha256
           (base32
-            "1pngafydpm4id2137nq281m5szqf3nlrmq7glnmmzx9xvz9263z6"))))
+            "0xmhvflwbv8hhw1m7wxrb9bz0ms8lqjax1f3sidgsa3c3m1nw49k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -43594,17 +43594,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221130.1333")
+    (version "20221205.1417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "47bb86d6829ffa81ec021ee6217379b216d95bfc")))
+                 "a60efa80cdb8c72dacb1e16729a801206a4e80bf")))
         (sha256
           (base32
-            "0cmirrid5dkzrwx3ppigf4j9y5prj1g4sj55dx64vsbsiq8vd9bv"))))
+            "0hm4f13kxh6lj1dszac5xymnvpahlj7994d86g301w6zbj3bmrj9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43747,17 +43747,17 @@
 (define-public emacs-geiser-guile
   (package
     (name "emacs-geiser-guile")
-    (version "20221127.509")
+    (version "20221205.1425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/guile.git")
                (commit
-                 "f57bfd5039ce158de95d2ef2933e64fb16def4f6")))
+                 "24ce15de235c105daf5ecfb818200dae1c9815ee")))
         (sha256
           (base32
-            "0gp8xbfm7y2gabjyys8jylfy1pkkglqas32xxrbqxfh1hv0cfh2f"))))
+            "178anfklxk7wnbwnbjnc1nhg54b2s07z66g6gybd4imacn09f1az"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -49774,17 +49774,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221126.2056")
+    (version "20221204.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "115847b8d5f4175d7469f873d50a7e41710db5aa")))
+                 "08c5e3367049b17f1c9e68928d72f253a8eb528b")))
         (sha256
           (base32
-            "0ysayrp9kjkx8lfy1kb1pjp6qvh40mmwbq2a02q9ycgss9wij3wh"))))
+            "1c815d02pz6qiiis725jibmwaz8326rwx3sq2h2q2p4bx12n0zqs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50582,17 +50582,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221203.1108")
+    (version "20221204.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "75c85ae15286c108d1f32f7ff92f6eaa89a553ef")))
+                 "08c5e3367049b17f1c9e68928d72f253a8eb528b")))
         (sha256
           (base32
-            "19x98gkhxl8mq4cih1ldjj4j46jd42qs5p735i7ch1imxrphc034"))))
+            "1c815d02pz6qiiis725jibmwaz8326rwx3sq2h2q2p4bx12n0zqs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -67844,17 +67844,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20221204.1956")
+    (version "20221205.1855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "8ff518328fd064b15a67c6d92bbb17b89fa1419e")))
+                 "e19ddc55eedf288b76962f28003906632dc8a462")))
         (sha256
           (base32
-            "0z9icrrxnn8kkbv0ycj4fxhbajmibfk1b44j5l2q6qkvwn5asr4f"))))
+            "0dprkma9wfjnd9zzbzbx79fww6z5mi66kssyqm6g65ma5xibcal0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -94526,17 +94526,17 @@
 (define-public emacs-proportional
   (package
     (name "emacs-proportional")
-    (version "20200309.1556")
+    (version "20221205.1417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ksjogo/proportional.git")
                (commit
-                 "0e4537af7ba2bc9dbb449c38350bce012b382f51")))
+                 "6b675694292a5dbebb52b6196e8ccee6e3a73042")))
         (sha256
           (base32
-            "0k4kwmyja5nb6rmbbq71vzxw7nnxr0w8f9vzws14an28niwr4s8p"))))
+            "098252kjmq2cadz2rnjla9f8636ak8n6qj0axp4l7h4wvf618pzi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ksjogo/proportional")
@@ -96787,17 +96787,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20221201.1529")
+    (version "20221205.1518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "3847c5e8e3c0677da8002791e227ccf2320f703a")))
+                 "68d14352f9973b7b8b3f505da82d082f96270935")))
         (sha256
           (base32
-            "0lx3jwwzr31m7v293k7nsixdsj9g288ranw1kkc073was7ikxsln"))))
+            "1h4pjmxgagcjqap7bmwa4yax19idglywh60ljndqyv4k2v8afgib"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -103299,17 +103299,17 @@
 (define-public emacs-shanty-themes
   (package
     (name "emacs-shanty-themes")
-    (version "20220816.1830")
+    (version "20221205.1608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qhga/shanty-themes.git")
                (commit
-                 "9ddd8ccd94b51ad5b19ee7097dcfccb3588b5eef")))
+                 "682bb45afc47d8a4fe4a35e812da706105ffb6d2")))
         (sha256
           (base32
-            "0j0vf6v4cw9v661zk1hcm3cnxl0lgfk5bpd7xwdah8v38mb02k8w"))))
+            "1pravcfg0a3rjpna0v215p90q7nbl9fffjkv0z668fk4yidwx5i7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qhga/shanty-themes")
@@ -108242,17 +108242,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20221122.2057")
+    (version "20221205.2356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "7123b49b83aa76a8e3f14afbd04184f92e2ebaba")))
+                 "dbbdb649f7d99b02b9919f9bd3d13b2ba516cfa2")))
         (sha256
           (base32
-            "0i2ss5y8aaym2khdww2jw6glz8ncsmvnpjm34d2xsixbik39gs4j"))))
+            "171vvi1b0xh4z2schxra59lb74fl8mksnhyg1mq4njhmblll4pxg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -114606,17 +114606,17 @@
 (define-public emacs-treepy
   (package
     (name "emacs-treepy")
-    (version "20220919.759")
+    (version "20221205.2224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/volrath/treepy.el.git")
                (commit
-                 "de1a2ddc3fd7152d0bfbd9e14312ff8a4864ab2b")))
+                 "7c4a0d21322506a4d4b2301b4274ec955b429b47")))
         (sha256
           (base32
-            "15dm6ccwr4k8dir384417hn7cg3alczrpx7xqf1sfady7q85xcv4"))))
+            "1q5wcnr3lnbk6rcwbjxnvhi11d57g4497pkm059714ca5pflvmlr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/volrath/treepy.el")
