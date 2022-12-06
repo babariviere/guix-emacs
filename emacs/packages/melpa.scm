@@ -10245,17 +10245,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221205.734")
+    (version "20221206.25")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "6d7303e300dceb717c69b29f702fc636f9cac4e8")))
+                 "185970a11c4871a1ceb38c8e10cb5fd6ccf1628b")))
         (sha256
           (base32
-            "0gz74h0fligx7ywpnrxv82za5x2i2sjm9vr0aarx81vkbkxskvk1"))))
+            "1r19appqgf8wmnw7lal3lchxa7yb7lc9d3sscgm8qvfh965x9y59"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -13744,17 +13744,17 @@
 (define-public emacs-code-review
   (package
     (name "emacs-code-review")
-    (version "20221205.1335")
+    (version "20221206.113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wandersoncferreira/code-review.git")
                (commit
-                 "29055ed68fb81fb6d63df2d94562947b886afcc3")))
+                 "a8bb63b53f2a1fd31302c110e668ad7b5c871b34")))
         (sha256
           (base32
-            "0wn05xwjh5cvr45rjxj5p6di7vh6zm6024j07aq03xzmrl7phmah"))))
+            "1ks1s3vq8rwc14863dk929r42x52p9dqcd3qyjbkc9km2nkc1z5n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-closql
@@ -14607,17 +14607,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20221130.1326")
+    (version "20221206.235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "00a739f9684c68c8445b04f33fb8536a07ae34bd")))
+                 "48f8119db51bed6f50739dbf2cda01b65b354579")))
         (sha256
           (base32
-            "0vkv9fp8965lp9yn0c703znwy409znbxic3c396k7rly3mw6qiw2"))))
+            "1009qsj25bv1amidlkjq023a1mlfjidhfxznc0xvn11azx9ksv2h"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -70686,17 +70686,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20221129.2007")
+    (version "20221206.147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "c68164c56485e1ef855c2d12e4393f5f55ca2b12")))
+                 "58ce23c92072a1274633f7567caa1aeca4c1b550")))
         (sha256
           (base32
-            "07js4a346qaffj1kw9yprqjpxbbp2an0nbbj7iqms05c36740j70"))))
+            "0x8a5q4x34r18qm8xj34n49wjz2gwhaycj4q6a1fi6b3dmnikf76"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -71820,17 +71820,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20221027.28")
+    (version "20221206.156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "4ad1a11d14c8bc0ba4137900c7833fbdacf7bdb3")))
+                 "2eb74b0921d246f952c2cb549eeed8fde574a900")))
         (sha256
           (base32
-            "0dnz5kd2swk7jn661nchj2sjhl7ydf4zks2vfxcyr7npgkxw78cf"))))
+            "0gi3p4bcah20sbgd7jrz284qpf73ln597b7vihwcdj2486a9pzkp"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -86058,17 +86058,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20221021.1152")
+    (version "20221206.140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "5b24ed076c9998be627c19549d403d5b219b7b28")))
+                 "9f717ca40efc3f05ed9cafd4589baa887559edb5")))
         (sha256
           (base32
-            "1c0wymsrfdjsapwyhkp1a497hw96pkps7j5fkf0rd2sp9c4fln7y"))))
+            "1g0k88cfbnz393b0924mwjyiwjk5mgy7bsvighm4757plasl586m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -87414,21 +87414,22 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20181211.953")
+    (version "20221206.333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "9d3ec9a6326289074d8620e97d65e3105307ff51")))
+                 "da9f8cb86e79cf6fdde80e059dfc245454fa11d6")))
         (sha256
           (base32
-            "1gm8wwpsq10cfppzl104g3x2g9bha1209p2n8mj9azv71b9mszqx"))))
+            "1ihz3q0wqli8sh6gcan43qb0rhh10ghmq16i5bjfn06zwb9x0mnf"))))
     (build-system melpa-build-system)
-    (home-page "unspecified")
+    (home-page
+      "https://github.com/lorniu/ox-spectacle")
     (synopsis
-      "spectacle.js Presentation Back-End for Org Export Engine")
+      "Spectacle.js Presentation Back-End for Org Export Engine")
     (description
       "Documentation at https://melpa.org/#/ox-spectacle")
     (license #f)))
@@ -105084,17 +105085,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20221127.2251")
+    (version "20221206.26")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "ba29269074534bd66758bd0a67082378e2587abe")))
+                 "4d540c8fc963515662b14197a9835573c1d28687")))
         (sha256
           (base32
-            "1qkpv7y6l7lby5q0s34wr89w56v6whishv1rdygwhpl6yfg3x64y"))))
+            "0dpassip4ji3s7v9jn6p9bb8pg02rkf6qf9xnjl6h71lb2f2w26s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
