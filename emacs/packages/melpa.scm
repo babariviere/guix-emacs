@@ -8417,17 +8417,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20221130.1242")
+    (version "20221206.2238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "14c140d8259c0f25062d74270e14fb773d1d7681")))
+                 "2f41ec4bd62477911e2e192e9f926e210c081d1d")))
         (sha256
           (base32
-            "16y8f78driaybjfz2zkqav41lwm01dpap6h17dkmfqmjnw93v93y"))))
+            "1a0as5sad8p9358n2z812xm68pwg0f0n9m13arrk1jvanr3ddhry"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -10245,17 +10245,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221206.25")
+    (version "20221206.2139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "185970a11c4871a1ceb38c8e10cb5fd6ccf1628b")))
+                 "351d7a65fc8ac76d7d5c737354ed7b2d7750b261")))
         (sha256
           (base32
-            "1r19appqgf8wmnw7lal3lchxa7yb7lc9d3sscgm8qvfh965x9y59"))))
+            "1xc3rjn1fd99188vjbzf229lp3rn6sbmxkrif52xj2cwx485wsm1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -12019,17 +12019,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221205.1314")
+    (version "20221206.1536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "c1329514842e30ca9eb30adf7e767de0539fe2c5")))
+                 "fc7b92918ef3d46ad5bafa7418f0f1b0dfa69040")))
         (sha256
           (base32
-            "0kgya7lry0aqgdjv0wgyap0vi6yf7x99d0d6wzs3a793bsl2fjq0"))))
+            "1ild6zfi3pm34abpnplkpq9lk0sgf9fgrnv97438n1wl01cjbd6w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -14607,17 +14607,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20221206.235")
+    (version "20221206.2122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "48f8119db51bed6f50739dbf2cda01b65b354579")))
+                 "6884e3ad717419b4a64a5fab08c8cb9bd20a0b27")))
         (sha256
           (base32
-            "1009qsj25bv1amidlkjq023a1mlfjidhfxznc0xvn11azx9ksv2h"))))
+            "1g3l6l1dzgq8v12fz9wczaz7izqd414fmdag481qi0ifcldyhi57"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -15456,17 +15456,17 @@
 (define-public emacs-company-math
   (package
     (name "emacs-company-math")
-    (version "20210731.2019")
+    (version "20221206.2137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vspinu/company-math.git")
                (commit
-                 "45778f5731c97a21a83e3b965cbde42018709afd")))
+                 "3e1bd33f5a5a3fe4afc834919a4ad36c34f5ce98")))
         (sha256
           (base32
-            "0s3jnslsd2licgav26s0nawwhhs4yrmz9chl0ghkngplichnp9mk"))))
+            "010p3rhb7win6ndx3ilz2lcg69d2qyxfvpi0hcid2srzxffpwn3i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-math-symbol-lists))
@@ -26546,19 +26546,19 @@
 (define-public emacs-edwina
   (package
     (name "emacs-edwina")
-    (version "20200113.1714")
+    (version "20221206.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ajgrf/edwina.git")
                (commit
-                 "c5368716a504c93407fd8cb4ef925a8d8eb62698")))
+                 "f95c31b1de95df7e83338a5d4daf3363df325862")))
         (sha256
           (base32
-            "0rsi1v9rr76crbgb7f13g31rfq5bjk0hchqr356h97xlqr39168y"))))
+            "196lsw2kygxb5bli9f87mc5hghv45kcqlv6y686lq9ryvnb5ksbr"))))
     (build-system melpa-build-system)
-    (home-page "https://github.com/ajgrf/edwina")
+    (home-page "https://gitlab.com/ajgrf/edwina")
     (synopsis "Dynamic window manager")
     (description
       "Documentation at https://melpa.org/#/edwina")
@@ -32992,17 +32992,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20221203.1805")
+    (version "20221206.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "9149caf4a92bade1cf944d219487b1c516176cdb")))
+                 "37ac0701d8de7677d4a54a4bcc69389044263701")))
         (sha256
           (base32
-            "05j26khqbb1y9mxiay58qg0gw577mjcmaziqqwbvkkyq0csa2qzb"))))
+            "0cw1rq3siw0qdag2m9sv1lz78x66gqk4xm2fd9wy09i3r1nwgkpq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -64336,17 +64336,17 @@
 (define-public emacs-kotlin-mode
   (package
     (name "emacs-kotlin-mode")
-    (version "20220527.1646")
+    (version "20221206.1910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode.git")
                (commit
-                 "99499e1500034b5fd5fdce9bfef367d90c61b5ce")))
+                 "55eed95033a59d7448a4b2bc11879e62c05e361b")))
         (sha256
           (base32
-            "067m5idlnfz01aiynmnxh3x3vv4c2nkkldskv7g1cssxqaxagnxj"))))
+            "0cbgvfvk56pqh24r3mpi9l7fdq2806zs6nwgzq4mg17j22zr1c8l"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Major mode for kotlin")
@@ -67844,17 +67844,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20221205.1855")
+    (version "20221206.1843")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "e19ddc55eedf288b76962f28003906632dc8a462")))
+                 "7243579358aa1d93ea8c396916c1859e23c6ae33")))
         (sha256
           (base32
-            "0dprkma9wfjnd9zzbzbx79fww6z5mi66kssyqm6g65ma5xibcal0"))))
+            "0c1lgjxvz3mzz8bqb69mf36b66xrv0hylwd474xz1iz165ygk8sz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -87415,7 +87415,7 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221206.1203")
+    (version "20221206.1604")
     (source
       (origin
         (method git-fetch)
@@ -88413,20 +88413,20 @@
 (define-public emacs-parchment-theme
   (package
     (name "emacs-parchment-theme")
-    (version "20200910.2310")
+    (version "20221206.1541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ajgrf/parchment.git")
                (commit
-                 "95e8248edbdb01fedc7db4472bcce90d2d872106")))
+                 "07c9887be6e7d94a8546db625c7d62c54d2e5923")))
         (sha256
           (base32
-            "13rcajw03sbddks5wgzznvrz7ibd7m0jx8mcw1amfk97ghs57h7s"))))
+            "0hr2dmxz7iv2vd7x17ndx4j7hzl52j46x6gnx8m2mnwviipgriq1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
-    (home-page "https://github.com/ajgrf/parchment")
+    (home-page "https://gitlab.com/ajgrf/parchment")
     (synopsis
       "Light theme inspired by Acme and Leuven")
     (description
