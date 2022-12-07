@@ -4812,17 +4812,17 @@
 (define-public emacs-auto-compile
   (package
     (name "emacs-auto-compile")
-    (version "20221130.1258")
+    (version "20221207.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/auto-compile.git")
                (commit
-                 "7c6a942bcb0ed30177841bd8d2f4184e419eb59d")))
+                 "a80a8742bc322c67c32f32f9e7833817d1a126d2")))
         (sha256
           (base32
-            "01ad0kna7k31wc0j19d677m1b6nsxsf53vzpgshm7lbldg9s1zkq"))))
+            "00949fxd9r6x8vk9m9060zkaa6npprnwacs78c7p8fiprx0gzypi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -10642,17 +10642,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20221207.114")
+    (version "20221207.928")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "5da39a2ae403d66938058ce88662e4f976b64bd5")))
+                 "9d9339b649ea63888bc074605b03276f538ca074")))
         (sha256
           (base32
-            "1as9kyqbmsvhyyxcvdcfc2cy8jbdpnrxkq0cfcwkvmrfj6x78fir"))))
+            "0dvgjy98yym5i7xls631gzq1h5sz1mq95vz6j41sl33vk3winw2f"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis "Catppuccin Theme")
@@ -29225,17 +29225,17 @@
 (define-public emacs-elx
   (package
     (name "emacs-elx")
-    (version "20221130.2213")
+    (version "20221207.1328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/elx.git")
                (commit
-                 "918f8ee3c932b1c987b59daee3398f328bb5456b")))
+                 "0524c5cf08534ffb34b284f0c1cbc1c86dd149b4")))
         (sha256
           (base32
-            "15wkm5v601h163rii41xlpzs6nakzqakpjldmgm8shn7if5p76l2"))))
+            "1wj5z0as3m11vp88clshqx3zwdm0fwzj0f5siq83l6lld4khsgbi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-llama))
@@ -33681,17 +33681,17 @@
 (define-public emacs-evil-nerd-commenter
   (package
     (name "emacs-evil-nerd-commenter")
-    (version "20221015.245")
+    (version "20221207.1245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-nerd-commenter.git")
                (commit
-                 "9609fb170da00aeca1716b022d93e1cb68464a34")))
+                 "8c0f23d46a3927b9f83c1c2c4590be53d0b740db")))
         (sha256
           (base32
-            "0xrbmz9mx4aclqgjyjaq7vj9xf4291rw4nxaz2nvqblv8yylqbr0"))))
+            "1v2iwci0yc1sld1sidrwdnqriyhs78ba3gp4d9az0af48grl7x1w"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-nerd-commenter")
@@ -49774,17 +49774,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221204.658")
+    (version "20221207.827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "08c5e3367049b17f1c9e68928d72f253a8eb528b")))
+                 "e991814db477dfadeb8fcdd7da9a1770e6b57b7e")))
         (sha256
           (base32
-            "1c815d02pz6qiiis725jibmwaz8326rwx3sq2h2q2p4bx12n0zqs"))))
+            "053gm6ic6dk6xwy5i2382v35xxwrqlpg4jjzawm2w9rclcwx3sl8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -68524,17 +68524,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221130.2254")
+    (version "20221207.1013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "2dd33404eb8f7133683b94e18c937de4707d4c33")))
+                 "64eaba451f50aa8990099c33806b2ce067652a9c")))
         (sha256
           (base32
-            "1r96nrmsq9564c7skaarn6qsp80hc9hyi5ikipjxvgg1bp3j37w9"))))
+            "1mznzv570232d4dvpkisd35k8hnwvcxs6kb7k1d42k73h6pbi6aw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75490,17 +75490,17 @@
 (define-public emacs-mybigword
   (package
     (name "emacs-mybigword")
-    (version "20221206.1257")
+    (version "20221207.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/mybigword.git")
                (commit
-                 "c5a7f43b38e2865333dd2603c14a2874cd25d2d0")))
+                 "152eaf9b1f661677bd120f6f6ad0a20064c6150c")))
         (sha256
           (base32
-            "0dz7lh2qx5bj8sj7g47zkhciqskxxk4ivdya5hzf7mqfl4af743k"))))
+            "03dqmybk0pg6il8fibgdj03vqhxd2plz0h72qh05daazq6jh1d67"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (arguments
@@ -87416,17 +87416,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221207.401")
+    (version "20221207.1253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "502d1ac7e33acd42d45f776614a77b33c76d09cb")))
+                 "f729722e5dcc3a607a39a5a098744cbfec5cc239")))
         (sha256
           (base32
-            "13q0skjwxvxk3cdgrgzpbvwj4xm4zf84bkyc1bk60qaa146s5jvq"))))
+            "01hfrcr9rahc8821p11vmn9fd62dlan803pihhz69h4lr1mk4mz4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -107561,17 +107561,17 @@
 (define-public emacs-speed-type
   (package
     (name "emacs-speed-type")
-    (version "20220815.1458")
+    (version "20221207.1151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dakra/speed-type.git")
                (commit
-                 "304cb8cd6c30d07577d7d864fd32858a29a73dba")))
+                 "11a8bd33711711fb5e22d93ac2ed950e4a2e76fc")))
         (sha256
           (base32
-            "0n7rcb0bfw5d22fmy0kb14i4z88z0p4k23zxq5i23srcskihbkl8"))))
+            "0067mz1inp00q2q9vsnshdm6yjakgz9ll58slfg0qvd2yrqgm8k5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dakra/speed-type")
     (synopsis "Practice touch and speed typing")
@@ -111334,17 +111334,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221130.807")
+    (version "20221207.1013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "bf6c560c4601abd0fa06a2aac8b5b812f7ed517d")))
+                 "b778a404cef3159a16037ea2bc76cefa31015977")))
         (sha256
           (base32
-            "05hp5hwzwpg1sv3xv7g013ygyy8ilx72w3iz73h5q5vx37bddqly"))))
+            "14z7zcs30nf75a4v0pf6i18x5lv24wpb60s90qdsc35gfi4s96qq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -121459,17 +121459,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221129.1137")
+    (version "20221207.820")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "c025535316cd2b41d3dafc00ea5c127bf9813a1d")))
+                 "e7b054d3be67e307eaf2ae6679f0b6962ee35724")))
         (sha256
           (base32
-            "0n6y8il6mfvmqjxbaf9grg23qdrlhbv8ylb0avbmnxxws7l3lp14"))))
+            "02k00j058rir91g3wmi6740rxx9yr7546xp5gblwvcivv98a2319"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
