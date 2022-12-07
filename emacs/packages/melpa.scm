@@ -10642,17 +10642,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20221204.1000")
+    (version "20221207.114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "116cdbb6105286c59dcdccb31333935cadd982f5")))
+                 "5da39a2ae403d66938058ce88662e4f976b64bd5")))
         (sha256
           (base32
-            "1nwb5fz470yw3837fdkjj39h1kvpdkk548ipk15i28dhmvrnh58c"))))
+            "1as9kyqbmsvhyyxcvdcfc2cy8jbdpnrxkq0cfcwkvmrfj6x78fir"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis "Catppuccin Theme")
@@ -28721,17 +28721,17 @@
 (define-public emacs-elog
   (package
     (name "emacs-elog")
-    (version "20160724.2255")
+    (version "20221207.643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lujun9972/elog.git")
                (commit
-                 "a67237d9813c7591614d95e2ef31cc5e5ed3f31b")))
+                 "e171d0ff0a21011124204d77111e5992b50b7007")))
         (sha256
           (base32
-            "0alg5nbmq56zsc032pvah92h5fw155fbfjc275k9vbh915hs6y0w"))))
+            "0ikaf8cak6m9rm78hnfd4bh3hx6vrm1307dggxxsz3862kcwj5aw"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "logging library extended from logito")
@@ -72340,17 +72340,17 @@
 (define-public emacs-meyvn
   (package
     (name "emacs-meyvn")
-    (version "20220821.2242")
+    (version "20221206.2219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielsz/meyvn-el.git")
                (commit
-                 "43b2061f907dda533abd3136dccdb1ce467ec6c0")))
+                 "493e652b8fffcbed226f69a2ea82e6f9fc51ab08")))
         (sha256
           (base32
-            "0jrqxk0sf6360sm7b78cbmdkhi4ihgdjsyxgw5qn8xl81n41xas1"))))
+            "1k5r4k2l31vxn7cmfl2ijzlay4klyr66ljzp3c779mz967f0sf5h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-cider
@@ -72358,6 +72358,7 @@
             emacs-s
             emacs-dash
             emacs-parseedn
+            emacs-parseclj
             emacs-geiser))
     (home-page
       "https://github.com/danielsz/meyvn-el")
@@ -76908,21 +76909,21 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20221201.1019")
+    (version "20221206.2121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "0dd87fefeb6f8c866f1d652c62aac95798b44e88")))
+                 "178557148f2e132c79be25429d04c5b89f6535dd")))
         (sha256
           (base32
-            "13xlzss3xaa810i4wyzdnm4inixikcnc4a48xb0abv05zwhja5mk"))))
+            "09lcyxd4nds79m8bpk5pq5p5brb8c6czzvniarn8njzj13lcy2g6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
-    (synopsis "An awesome dark theme")
+    (synopsis "Nimbus dark theme")
     (description
       "Documentation at https://melpa.org/#/nimbus-theme")
     (license #f)))
@@ -87415,17 +87416,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221206.1604")
+    (version "20221207.401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "84999eb88ae1a1855a03b4d24d8fa72e22ad82a3")))
+                 "502d1ac7e33acd42d45f776614a77b33c76d09cb")))
         (sha256
           (base32
-            "1x9qdflk9bq1bg22nv0v1mldfdhfzh8gn7p49nqx7w4mbjqlnc3m"))))
+            "13q0skjwxvxk3cdgrgzpbvwj4xm4zf84bkyc1bk60qaa146s5jvq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -99998,17 +99999,17 @@
 (define-public emacs-robe
   (package
     (name "emacs-robe")
-    (version "20221115.149")
+    (version "20221207.225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/robe.git")
                (commit
-                 "c29b47f588715b911da4588a59f3a5245f844138")))
+                 "4ddcc847542ffbba41339e83e462c7d9aaaac860")))
         (sha256
           (base32
-            "05b60l9pn4hh3fdxlk0q98qi2w283a62x7jw02v958y33p030bqd"))))
+            "1srd3rlvm0bg0i592zw41nbf73w4c92mcsv0isih62686237gnzi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inf-ruby))
     (arguments '(#:files ("*robe.el" "lib")))
@@ -107489,17 +107490,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221201.137")
+    (version "20221207.117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "55597ce8bc515ec41a28a3377111a24946fa5a30")))
+                 "67a25c09d5783f077cea894693e61fd0d37e8492")))
         (sha256
           (base32
-            "11m7di7r6pa3zis77vr6xlqbjdxf511ayg59m1gdpklnn10h9f26"))))
+            "19bfsvi241rcwd2fxzgnlj9i92m1zi2lf0yxk6hrhla6kzmz762p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -118724,17 +118725,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20221120.2311")
+    (version "20221206.2328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "9c9611ee8623a94602bb1540b507c3aa148cc4cd")))
+                 "4f278108c0d88fc8d7bc93beb5e283b98fff6efe")))
         (sha256
           (base32
-            "1fs3ll1bdyjapd1sq8l6cpyg47z2qb8c0papskwxamsnjjlfy7gj"))))
+            "16vxx8jwgb1ln22110qscpa98hpzz37v25sv9q3s9npz5ihl9k5z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
