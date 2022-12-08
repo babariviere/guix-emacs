@@ -30430,17 +30430,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20221118.1647")
+    (version "20221208.932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "c54bf9e6972c563d345e20571ffd44d7bfb56974")))
+                 "417285c4e259abab8ae43e2d72b0e1110563efbc")))
         (sha256
           (base32
-            "0nfk85qai1nfr7ls2vhrwnvqfrvf69gsfj4py2rk503wgxabchbx"))))
+            "1dh9iaqdvp1v07pmsfbziqck79s8d8libs5ncnjqrcb3vyy3s9ra"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -57489,17 +57489,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221206.1014")
+    (version "20221208.1221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "4a36953e767d627783aaaf3c705bed349cc84ab8")))
+                 "1c62469a2e6e4809f8d34549426ba989e4c0032b")))
         (sha256
           (base32
-            "17frhzsksmjlhdlv19ckm95chh66vbf9hd3sx76iqmqrw04z91qx"))))
+            "0q7g7yiaiawzmr022nw5r2qsmsw3cf240dxzlaqk6jz56y6yf9n8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -75490,17 +75490,17 @@
 (define-public emacs-mybigword
   (package
     (name "emacs-mybigword")
-    (version "20221207.1324")
+    (version "20221208.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/mybigword.git")
                (commit
-                 "152eaf9b1f661677bd120f6f6ad0a20064c6150c")))
+                 "a7d6f5f91d87e89b8fb6c788077abcdbb552d26b")))
         (sha256
           (base32
-            "03dqmybk0pg6il8fibgdj03vqhxd2plz0h72qh05daazq6jh1d67"))))
+            "0lcav4yx2vn58jzhdm5h8dj7wmfp7sggjvbf6zlq5b140jsf2qw4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (arguments
@@ -87416,17 +87416,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221208.208")
+    (version "20221208.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "a3a85e4d5cefcde8bb396a8346d97330fd1ea630")))
+                 "7bf9ed72a7b08b20107b86abd614b0fe9cbf01ed")))
         (sha256
           (base32
-            "0bpv4llbl4gg0zis8wyz718x7mxzfm9bahysas87zf4606x59mi2"))))
+            "0acr8a6pzsz0czrblmyz0r390ssp5pgf78bp82v2aqz9pa4i91g1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
