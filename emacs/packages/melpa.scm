@@ -85269,17 +85269,17 @@
 (define-public emacs-org-view-mode
   (package
     (name "emacs-org-view-mode")
-    (version "20220218.2106")
+    (version "20221208.327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amno1/org-view-mode.git")
                (commit
-                 "927d7099dcb28bee54edef0623a12340c77c4ae7")))
+                 "014f96acb7093ffae93c62aabff750e63c3babc5")))
         (sha256
           (base32
-            "041gccxi8kndgpjci1aff6ppnlq2mlz78xlji304qdsqw3cpjjsa"))))
+            "1m9jv6nssf2nqkav8nx1748wwc8i5338bc2brxlqajcy4dcz3fbg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amno1/org-view-mode")
@@ -87416,17 +87416,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221207.1253")
+    (version "20221208.208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "f729722e5dcc3a607a39a5a098744cbfec5cc239")))
+                 "a3a85e4d5cefcde8bb396a8346d97330fd1ea630")))
         (sha256
           (base32
-            "01hfrcr9rahc8821p11vmn9fd62dlan803pihhz69h4lr1mk4mz4"))))
+            "0bpv4llbl4gg0zis8wyz718x7mxzfm9bahysas87zf4606x59mi2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -104173,7 +104173,7 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20221207.2238")
+    (version "20221207.2326")
     (source
       (origin
         (method url-fetch)
@@ -104183,7 +104183,7 @@
                ".el"))
         (sha256
           (base32
-            "13sm9gg83skh5c7isk9d3lx58ic0mjyi32w2fqi8iz72hca8kyjq"))))
+            "1g3v1fq1s34zys3zvcrqzx9z327a6y8dib3i2nkd6mx7r2h99x4i"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-sidecar-locals")
