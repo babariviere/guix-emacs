@@ -10642,17 +10642,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20221207.928")
+    (version "20221207.1745")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "9d9339b649ea63888bc074605b03276f538ca074")))
+                 "1ebbed4621b882ae27f1a53d4f1e17d742d6a35e")))
         (sha256
           (base32
-            "0dvgjy98yym5i7xls631gzq1h5sz1mq95vz6j41sl33vk3winw2f"))))
+            "1as9kyqbmsvhyyxcvdcfc2cy8jbdpnrxkq0cfcwkvmrfj6x78fir"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis "Catppuccin Theme")
@@ -30546,17 +30546,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20221205.2051")
+    (version "20221207.1555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "0bcd76c4afbb140c80781efa229bb924a286020b")))
+                 "b2e721bdcc9dbf25c8d2edfa36e90fc8d837ce9e")))
         (sha256
           (base32
-            "1pmj0f1k4sjdxjdcpblsbzyfjn11p800vgcma5wlab9z7h3g3xa4"))))
+            "03xypgjmmksca03wnvf5sm0k6n4hddxyy31dy86glnczr0brsm6a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql))
@@ -65214,17 +65214,17 @@
 (define-public emacs-latex-table-wizard
   (package
     (name "emacs-latex-table-wizard")
-    (version "20221205.1420")
+    (version "20221207.2201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/latex-table-wizard.git")
                (commit
-                 "7ac03c0a511c6c094be825c5d4a34200e225ac73")))
+                 "c3b1802c1ec27bb9ca182ed416a45293b2fbbe64")))
         (sha256
           (base32
-            "169r95n530hcsxgvcvcrlg1fgwkq0wcpcd95d4wwi28m8chjc6sx"))))
+            "123vwsx9075mrcqs84kibhibfmw6kh308as13xbl55fpj3jpq8kg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -68524,17 +68524,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221207.1013")
+    (version "20221207.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "64eaba451f50aa8990099c33806b2ce067652a9c")))
+                 "e56da7199c09e44f4b5feaf07691d467c01da376")))
         (sha256
           (base32
-            "1mznzv570232d4dvpkisd35k8hnwvcxs6kb7k1d42k73h6pbi6aw"))))
+            "15s0i14kjvqfgqryj0ylz1043f2zp9rbf841886pps6cnjljxv6q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -104173,7 +104173,7 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20221129.406")
+    (version "20221207.2238")
     (source
       (origin
         (method url-fetch)
@@ -104183,7 +104183,7 @@
                ".el"))
         (sha256
           (base32
-            "1b2w2gapwqq0l2fgqs0a5vyl76bbjxxlvl3lqix5nkqwlh9gdqis"))))
+            "13sm9gg83skh5c7isk9d3lx58ic0mjyi32w2fqi8iz72hca8kyjq"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-sidecar-locals")
