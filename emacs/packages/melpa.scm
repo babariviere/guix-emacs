@@ -10128,7 +10128,7 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20221209.618")
+    (version "20221209.712")
     (source
       (origin
         (method git-fetch)
@@ -13586,17 +13586,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20221019.159")
+    (version "20221209.1227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "102f808e500715e0cfb80905110d1f42aa7b6069")))
+                 "68340c63360105b763e293595ccd70681559c05e")))
         (sha256
           (base32
-            "1vim429ikgsh7zvh521af39xgmm6qb3fc3pwb51458fj010gf8pj"))))
+            "0bw8dgnjv3fj2xhxh7n41xkib209w2m0wyamrh7i4ncfdz58fm6a"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/cnfonts")
     (synopsis "A simple Chinese fonts config tool")
@@ -57486,17 +57486,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221208.1221")
+    (version "20221209.1025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "1c62469a2e6e4809f8d34549426ba989e4c0032b")))
+                 "ef6768244bafda0bd5be4924a141f3c8453bfd52")))
         (sha256
           (base32
-            "0q7g7yiaiawzmr022nw5r2qsmsw3cf240dxzlaqk6jz56y6yf9n8"))))
+            "0ns4vmm93cbklzs9xza33p1nraz2bsvgznd4lbnay93h3klfm57f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -74094,17 +74094,17 @@
 (define-public emacs-mos-mode
   (package
     (name "emacs-mos-mode")
-    (version "20221204.1932")
+    (version "20221209.1353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/themkat/mos-mode.git")
                (commit
-                 "e6e3df3e1ea0a94848d09aa72eb214e5dc3b77ef")))
+                 "770f49417e8ad7dbf382c8691f6f689d793b9314")))
         (sha256
           (base32
-            "0b4bh2virhw99x3fr170kf6r3fymrafn7b9a16zl2jvrnyqh5s6b"))))
+            "0g3hk4s3wirrdr2j0hivyqkw0hzbibp62abbwy2q04svr9yyw6dj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -75487,17 +75487,17 @@
 (define-public emacs-mybigword
   (package
     (name "emacs-mybigword")
-    (version "20221208.1243")
+    (version "20221209.1001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/mybigword.git")
                (commit
-                 "a7d6f5f91d87e89b8fb6c788077abcdbb552d26b")))
+                 "b52a0e91f0fb7fc409c93d7fe40e3515dc013b4a")))
         (sha256
           (base32
-            "0lcav4yx2vn58jzhdm5h8dj7wmfp7sggjvbf6zlq5b140jsf2qw4"))))
+            "0w88vm14vvwqvw4qz7x5hn3n59nb3brrw1hwdy1jlb2rc001qsy8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (arguments
@@ -121456,17 +121456,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221207.820")
+    (version "20221209.1053")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "e7b054d3be67e307eaf2ae6679f0b6962ee35724")))
+                 "916c2a542dc25ce70896e2cd665b0e837a9f10d0")))
         (sha256
           (base32
-            "02k00j058rir91g3wmi6740rxx9yr7546xp5gblwvcivv98a2319"))))
+            "1ks45xhsq4q9856z9dsn5n72gfghjbid2vyny3h89xxvih1mjjvf"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
@@ -123706,17 +123706,17 @@
 (define-public emacs-zk-index
   (package
     (name "emacs-zk-index")
-    (version "20221121.1227")
+    (version "20221209.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk.git")
                (commit
-                 "afddac4018c8cf8d8088b4ca128adb01a872e741")))
+                 "34fb7d2efffe3f0a9318da3fd3a055e805518b3d")))
         (sha256
           (base32
-            "0xmxfkrkijh0n73g0gpynb9rmrxf4mhmk0pwmf2q53wmvpvyn6bm"))))
+            "1sq1mvnnh0ynq7yn9q35dw188mlg5kzb0afd2fc10mirwryimwqi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-zk))
     (arguments '(#:files ("zk-index.el")))
@@ -123729,17 +123729,17 @@
 (define-public emacs-zk-luhmann
   (package
     (name "emacs-zk-luhmann")
-    (version "20220820.1643")
+    (version "20221209.1333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk-luhmann.git")
                (commit
-                 "304536486ccae8129dd681265d199062f2026891")))
+                 "ab17cf5208fe569d0b6879a10f0b013295375382")))
         (sha256
           (base32
-            "1b4nmf7dicp11hn7sp0p1j5wg5fix9fg32wky29wgr8p3qsnr9wl"))))
+            "14a5bzh2dkvas6g2khbnqgmx099jvxl7y8gc4j8v6cxpspc47587"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zk emacs-zk-index))
