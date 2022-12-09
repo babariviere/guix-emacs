@@ -8417,17 +8417,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20221206.2238")
+    (version "20221208.2129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "2f41ec4bd62477911e2e192e9f926e210c081d1d")))
+                 "adda3c1e4cb22a7754b46428ad0e7197ee60db1f")))
         (sha256
           (base32
-            "1a0as5sad8p9358n2z812xm68pwg0f0n9m13arrk1jvanr3ddhry"))))
+            "0xmfafgj9hjaj2nxx504bd3ph4jjhig970hx2xxfknc6c1ckqkm2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -12019,17 +12019,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221206.1536")
+    (version "20221208.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "fc7b92918ef3d46ad5bafa7418f0f1b0dfa69040")))
+                 "3491cb9093fb3838ea45a74974d50f31c2b972e6")))
         (sha256
           (base32
-            "1ild6zfi3pm34abpnplkpq9lk0sgf9fgrnv97438n1wl01cjbd6w"))))
+            "12i80cmr366fsfygbcib70i4fwwj7z73cij5zrrh785zpia5bs5j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -16967,17 +16967,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221201.434")
+    (version "20221208.1448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "6e8299d4e53b758985a228c296aeb851440fa01a")))
+                 "da0cd4105fcba365375cba45aa80d293969231fa")))
         (sha256
           (base32
-            "0p1nqifxsi7l71dvfhkjxbzhhg9dw2kyfbsm93xfjk933yrazsq6"))))
+            "0cql9vj72p4pvvwdhkj9dnbis4m01kwza02q88zvwlzg800s5mwp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -26941,23 +26941,20 @@
 (define-public emacs-ejc-sql
   (package
     (name "emacs-ejc-sql")
-    (version "20221101.922")
+    (version "20221208.2116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/ejc-sql.git")
                (commit
-                 "eba4238b7d1eb1660364b3198de5b065e91e4c6f")))
+                 "c236f79b48c0f4691500723841a9d356203a4b13")))
         (sha256
           (base32
-            "19l1kdsq8yi73r5f41g5jnfrf2i6432jp307yar4lx7ly54sk4z3"))))
+            "083qiywyms1ji1rgjz281gaicrwjr5qni1dyh928zlppd5w95mgg"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-clomacs
-            emacs-dash
-            emacs-spinner
-            emacs-direx))
+      (list emacs-clomacs emacs-dash emacs-spinner))
     (arguments
       '(#:files
         (:defaults "project.clj" "src" "snippets")))
@@ -29225,17 +29222,17 @@
 (define-public emacs-elx
   (package
     (name "emacs-elx")
-    (version "20221207.1328")
+    (version "20221208.2336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/elx.git")
                (commit
-                 "0524c5cf08534ffb34b284f0c1cbc1c86dd149b4")))
+                 "27846ebfec114552b6737dd4be37898e594c0f4c")))
         (sha256
           (base32
-            "1wj5z0as3m11vp88clshqx3zwdm0fwzj0f5siq83l6lld4khsgbi"))))
+            "0fwx60l67jiq025dz5lmw4y3kk760y6jrxapi3m66avjna2ax2mj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-llama))
@@ -29604,17 +29601,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20221201.2022")
+    (version "20221208.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "bdabc5396a935edb8bfd2104b67703b110fad6ef")))
+                 "f12955c7ac8bebe762cee30f89c64be20b672ce2")))
         (sha256
           (base32
-            "0rqv0rghaxyx7fcrix9f0dkjlmvf4xgnryjwrhzaqdknrxk62yzc"))))
+            "1iszl93wx225bdbdds0hn85nahi204is214bvfzpr7s7whxscbs2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -42087,17 +42084,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20221127.2149")
+    (version "20221208.2159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "9fc07458edf446aed1d30a5360b780ba3b42c3c0")))
+                 "3ab86bb44073e48ff7e6e432b6b4d2af12e45295")))
         (sha256
           (base32
-            "1hidfp32x288jxcbrq8q5p01xppgbsdy84rnd2xx9gx1ib4b17fv"))))
+            "0zkypjv21b94ijbq1gjdsy7bpczvb7fjvvs37hylg7zzjidrxk1r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -64760,17 +64757,17 @@
 (define-public emacs-labburn-theme
   (package
     (name "emacs-labburn-theme")
-    (version "20200822.2153")
+    (version "20221208.1611")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ksjogo/labburn-theme.git")
                (commit
-                 "4ef2892f56c973907361bc91495d14204744f678")))
+                 "bd0de2fdcf285d981f32e3e5ebc56fe3c9b589a5")))
         (sha256
           (base32
-            "1kpin7r1a1la9s4khrn6rwhgkbib9j7lgyqk9b48fzjhp1h25mgq"))))
+            "0nj61wqszm6wi4hvvc640iy1b65k8cwfggcys49p30f6f6jk6hlm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ksjogo/labburn-theme")
@@ -113340,21 +113337,21 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20221122.852")
+    (version "20221208.1538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "cb68e94c1493729ef4f083fb9e3f54626b5a9913")))
+                 "691ddd831795c2cfa2be9a541e6b04eb66d88d34")))
         (sha256
           (base32
-            "1ri7x9c6vmmi6imih39hb1zajp0c1m75a2m1q01k9w9nb43y3kgj"))))
+            "1r22lb6ayfyd68ayr4l5xx53ngl10w0xm6lljb82il0arwrq6ssz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
-    (synopsis "Comfy dark monochromatic theme")
+    (synopsis "Comfy light monochromatic theme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
@@ -121986,17 +121983,17 @@
 (define-public emacs-xresources-theme
   (package
     (name "emacs-xresources-theme")
-    (version "20190108.1851")
+    (version "20221208.2015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/martenlienen/xresources-theme.git")
                (commit
-                 "5239acb51aa2dfa89a207e57012108d8fcf60562")))
+                 "76532fc4330e9e31accc580708514b83b15d70a7")))
         (sha256
           (base32
-            "13pls0f85n5rpbrbqcmrmcznv9hxiaglrnwpzivrli33cba92fpm"))))
+            "1ilvjdz7j2s1flq4ivn7lcq47d4lshn24sn9qmzj7nln2qz63r7n"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
