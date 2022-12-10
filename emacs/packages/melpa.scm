@@ -3169,17 +3169,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20221122.1722")
+    (version "20221210.1513")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "a92294e993a01d05d3f16d18a8b9759becf3e673")))
+                 "7c39ccf838b87ba1ef7e7f775ad4e4423e323ce5")))
         (sha256
           (base32
-            "0csq3w2a0w4lgnadhpwbkqzijrl5ikbqi4a3jh0dfig2lkw2sg39"))))
+            "01nw7cywz7hpw7r9sc4rzf40d6ylh0kz5fnz2cl4c664vz9aq782"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -6891,17 +6891,17 @@
 (define-public emacs-bech32
   (package
     (name "emacs-bech32")
-    (version "20220810.1529")
+    (version "20221210.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "5e1bf8b8ffa4c75bece7a93feab9858f0e7d676e")))
+                 "21006c5445041797428db492545d288104dd9d69")))
         (sha256
           (base32
-            "0n2zf8pqaylrjy9w2qdir9hch7zhmrkcxnajnrbjswn1cwk8l2mm"))))
+            "1yx3xmwqpydqcnc32i2d6mrblfhvprzvqrmsj9szy3g8wqgalb4z"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("bech32.el")))
     (home-page
@@ -10336,17 +10336,17 @@
 (define-public emacs-cardano-tx
   (package
     (name "emacs-cardano-tx")
-    (version "20221002.1553")
+    (version "20221210.1155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "5654cd04cf0ab482a7f92a206abf43762ef653f3")))
+                 "21006c5445041797428db492545d288104dd9d69")))
         (sha256
           (base32
-            "1pw73csxkfr71piq5mjy54njd1s3vk5j9a1bfwvna33kqwcqjcic"))))
+            "1yx3xmwqpydqcnc32i2d6mrblfhvprzvqrmsj9szy3g8wqgalb4z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -10379,17 +10379,17 @@
 (define-public emacs-cardano-wallet
   (package
     (name "emacs-cardano-wallet")
-    (version "20220718.1434")
+    (version "20221210.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "2c1ad565ff39fd03d137ba115b1fb77841914c6d")))
+                 "21006c5445041797428db492545d288104dd9d69")))
         (sha256
           (base32
-            "1mnv42f2grlas39r5r7ajgm5f8wad8w1lqnsnl81i1hbhz3mm4aw"))))
+            "1yx3xmwqpydqcnc32i2d6mrblfhvprzvqrmsj9szy3g8wqgalb4z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yaml
@@ -10684,17 +10684,17 @@
 (define-public emacs-cbor
   (package
     (name "emacs-cbor")
-    (version "20220810.1600")
+    (version "20221210.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "5e1bf8b8ffa4c75bece7a93feab9858f0e7d676e")))
+                 "21006c5445041797428db492545d288104dd9d69")))
         (sha256
           (base32
-            "0n2zf8pqaylrjy9w2qdir9hch7zhmrkcxnajnrbjswn1cwk8l2mm"))))
+            "1yx3xmwqpydqcnc32i2d6mrblfhvprzvqrmsj9szy3g8wqgalb4z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("cbor.el")))
@@ -28074,17 +28074,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20221209.1717")
+    (version "20221210.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "121a3df8682c7b7f97ca2c0d5938a62b04bc428d")))
+                 "ccbaf85d9ea442203027e784a42b21686f3a87d8")))
         (sha256
           (base32
-            "0yia6vq3jqql5b1bx2vjgsh77d7vvk17jh1cailrd42njwqbsbdw"))))
+            "124cadn3b0l5lyc0vv3wz581nhad0pa0fn82wcnjvihx5p7fg7j1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -42283,21 +42283,19 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20211223.405")
+    (version "20221210.509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "0aab300c0a6225d93087ae112f123eb89048ce1d")))
+                 "67e886a698d2b574faf9f7366be77ef737a4090f")))
         (sha256
           (base32
-            "102g7n43ji47ssj7rdyx34frbgl84lgmppww4f3x6wbkvfwa2p6f"))))
+            "0a48bvx7v7c8k2z4psk5a5r6yikjyaby9f6w3g8nnd3myqg7ydf7"))))
     (build-system melpa-build-system)
-    (arguments
-      '(#:files
-        (:defaults "docs/fountain-mode.texi" "contrib/*")))
+    (arguments '(#:files (:defaults "contrib/*")))
     (home-page
       "https://github.com/rnkn/fountain-mode")
     (synopsis
@@ -55854,17 +55852,17 @@
 (define-public emacs-howm
   (package
     (name "emacs-howm")
-    (version "20220815.1125")
+    (version "20221210.1121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://scm.osdn.net/gitroot/howm/howm.git")
                (commit
-                 "9982e74e212014bc8ed67bbe780eb6ca55dc5298")))
+                 "60be930a84aaf1209bafd2a7edd1aa0d17903825")))
         (sha256
           (base32
-            "05dfd8sqvv51miwkr82hym5z7byiiv38zsx47b7sqr8kkqj9jcf5"))))
+            "02vrm4f44vq2lsfd0v7gdvcgy162mr6ibaj961mvsfa1imcmnfxi"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "*.el.in"))))
@@ -86336,17 +86334,17 @@
 (define-public emacs-ouroboros
   (package
     (name "emacs-ouroboros")
-    (version "20220810.1617")
+    (version "20221210.1155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "5e1bf8b8ffa4c75bece7a93feab9858f0e7d676e")))
+                 "21006c5445041797428db492545d288104dd9d69")))
         (sha256
           (base32
-            "0n2zf8pqaylrjy9w2qdir9hch7zhmrkcxnajnrbjswn1cwk8l2mm"))))
+            "1yx3xmwqpydqcnc32i2d6mrblfhvprzvqrmsj9szy3g8wqgalb4z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-cbor emacs-bech32))
@@ -87413,17 +87411,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221210.248")
+    (version "20221210.1016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "37560751a54284a4af24c4b16b839ad71e103aa3")))
+                 "d307a7f1e84d0511d363e0819bcec77e0cfba810")))
         (sha256
           (base32
-            "1d4dsfn7wdg1lsml7myy60j109lc4zsjx3lzrckj9hj66j7znfzw"))))
+            "0km2nv8ri0505nlwb2mpwf7fam7k7mqhj5mlprbyjvdcm4201k7r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -90065,17 +90063,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20221119.1501")
+    (version "20221210.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "dbdae7d109c16ca4b2a6f6a5fe904c66697045cc")))
+                 "f91d546a35ed3479cdb656b17525285e11565892")))
         (sha256
           (base32
-            "13fkkpimhxh91hmsp551wzrdcic5ws7wj7vjwnh8l83hsrxmxz0y"))))
+            "0a38rvl5rwfb77p4xxmjhrs6s67pfkzjfm0pdxvf0b6xh7h404kh"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -123729,17 +123727,17 @@
 (define-public emacs-zk-luhmann
   (package
     (name "emacs-zk-luhmann")
-    (version "20221209.1333")
+    (version "20221210.1227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/zk-luhmann.git")
                (commit
-                 "ab17cf5208fe569d0b6879a10f0b013295375382")))
+                 "d797ce0a143e3bf40d767fa47dee914dd3a2645a")))
         (sha256
           (base32
-            "14a5bzh2dkvas6g2khbnqgmx099jvxl7y8gc4j8v6cxpspc47587"))))
+            "1kqc6v3c3wkisz8b95727r1qj6gh9yqc9s45gfqc0n4nlh63lz15"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zk emacs-zk-index))
