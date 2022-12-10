@@ -7541,17 +7541,17 @@
 (define-public emacs-bind-key
   (package
     (name "emacs-bind-key")
-    (version "20221117.1610")
+    (version "20221209.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "9090080b15486c3e337be254226efe7e5fde4c99")))
+                 "bcf0984cf55b70fe6896c6a15f61df92b24f8ffd")))
         (sha256
           (base32
-            "03mqkv63ink2ysy86slac8ac7a5g22bi0pwvxyncfasm43q9d0sx"))))
+            "0pmz5x7ghwsjyr4lhaqa53c7190bjqxaczljpsr62s60bn55fdsi"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("bind-key.el")))
     (home-page
@@ -16658,17 +16658,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221205.1709")
+    (version "20221209.1945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "df877109c836b3d1d6e57f68069348040fb0ebd4")))
+                 "6161f60ecd53b1ad270eac6d787cb259f968a1e7")))
         (sha256
           (base32
-            "0ck5dn20yzgv1nmfhgvgi6b29srngpwg0z3dv1w0lk0iz0cc503d"))))
+            "1cfpb9wh31ndc2ya5gz4v5asss7pvmbac7hvlpvln3k1rqh25sqj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -20249,17 +20249,17 @@
 (define-public emacs-dashboard-ls
   (package
     (name "emacs-dashboard-ls")
-    (version "20220704.633")
+    (version "20221209.1940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/dashboard-ls.git")
                (commit
-                 "62cc1aa84c9f5a6657fcd5032574a7670eac5aa0")))
+                 "dfae29a77ad4e8eaabc0b41a0138d1c084f91cf4")))
         (sha256
           (base32
-            "06mc82ibz0rgplhh93g7zjagrwfbn3alrbpy1qw89rphhc4v13n0"))))
+            "1i1ylh7qlipdcmqsfdw02pccca7mi0pjsxx9bl1h84j4zibxlpf1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dashboard))
     (home-page
@@ -25752,17 +25752,17 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20221113.1408")
+    (version "20221209.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "374400c99f600cfda703da4fb8d16898be48cb74")))
+                 "56c2d15d9eb796108b3105e17904c0e730f6247b")))
         (sha256
           (base32
-            "1azgsjf5j8k6llq74brykidcb2mnq6fghk8jyq7qad5afh7n0mrc"))))
+            "1m5xia678z2sdazvk45m8j2rf6h582m28ldjnqj88whagqyr7h68"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parsebib))
     (home-page "http://joostkremers.github.io/ebib/")
@@ -28074,17 +28074,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20221117.841")
+    (version "20221209.1717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "125e0f059d9f186efa2a04e317b59245963d6f11")))
+                 "121a3df8682c7b7f97ca2c0d5938a62b04bc428d")))
         (sha256
           (base32
-            "1lrzrf759qqa329yi7hx81b12lli530ih10p2jghxbhqgzqndssz"))))
+            "0yia6vq3jqql5b1bx2vjgsh77d7vvk17jh1cailrd42njwqbsbdw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -35144,17 +35144,17 @@
 (define-public emacs-external-dict
   (package
     (name "emacs-external-dict")
-    (version "20221113.1021")
+    (version "20221209.1504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/external-dict.el.git")
                (commit
-                 "c790489635a497cdb8f4277a982677c95479ffb0")))
+                 "0bd2029ea02496448a1f180d4857617926238b42")))
         (sha256
           (base32
-            "08sh4j4hd09r9ahrr19g1lky14s7sqqpyjhjwn3lv0mbs971zhgn"))))
+            "0b6az6iybb0i8n61bpy3wi10djiar4rh5qghh5hafyhkalriz3f3"))))
     (build-system melpa-build-system)
     (home-page
       "https://repo.or.cz/external-dict.el.git")
@@ -54170,17 +54170,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20221201.1718")
+    (version "20221209.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "4a8d5765c97bdd3103cc921d740b93bf3fc1c162")))
+                 "94c25337b2de2f9da60914a7c0c6cca9584c0231")))
         (sha256
           (base32
-            "0mcgi2agj8rvyr0nx7jkpjvx5ficc2gjl22i8ma0rra6i3zqxpvq"))))
+            "09da3d3kx4c8im58kwfv59zpwda70yvwnjk01w7r6lra1ww8d3yx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82772,17 +82772,17 @@
 (define-public emacs-org-journal
   (package
     (name "emacs-org-journal")
-    (version "20220920.1514")
+    (version "20221209.2122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-journal.git")
                (commit
-                 "1ea9e3b672ed384922ede6af96598446f3691873")))
+                 "dd558c3310905477af6de24b7ce1752ef943ff51")))
         (sha256
           (base32
-            "0qkdy6vf9pallr21hz9blj1ac08i5q832rz9fr0gajizadf4g3b1"))))
+            "16m2wcrm6mdbrw5x85jfbmhq9q2yp0s0vy2c1lr5h2gn7f1zlxzd"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bastibe/org-journal")
@@ -83141,17 +83141,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20221203.1138")
+    (version "20221209.1941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "7d037569bc4a05f40262ea110c4cda05c69b5c52")))
+                 "067f9319d67b1170d46a394e039537bb9cb413e3")))
         (sha256
           (base32
-            "0zh6lz5lig318fq2nw2wyb0aka2h2f8kr63ja953qyjjzkgkbkbc"))))
+            "0gpnnm8kxxvznpn6ivkjpjvlm7b789b4idiw7d48414mfhphksiz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -87413,17 +87413,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221209.318")
+    (version "20221209.1725")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "d4b0cd0337651100420cabfd3c5a6d3b67cd2308")))
+                 "947ec2e9bdeee3c97a0193a8fdaf32d6a9030fb1")))
         (sha256
           (base32
-            "0q3c946q6csdqzsjnjaihvc62hy9gzng7j014r3aq0czxhn3998l"))))
+            "1x85rcjgb5ki45f4vp8skmljd26sa36kfcv94rssqgbvczwfbfni"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -88569,17 +88569,17 @@
 (define-public emacs-parinfer-rust-mode
   (package
     (name "emacs-parinfer-rust-mode")
-    (version "20210413.2")
+    (version "20221209.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justinbarclay/parinfer-rust-mode.git")
                (commit
-                 "c2c1bbec6cc7dad4f546868aa07609b8d58a78f8")))
+                 "398f3dc4d17c277a4bf9b883cc534f13f2611828")))
         (sha256
           (base32
-            "0az4qp118vsqzgsl87wgszzq91qzqkpabifd8qrr2li3sizsn049"))))
+            "1dd9n9qy1crbza55gjc63mpakrq2a734q23imyr5im4nqnzn5z5p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/justinbarclay/parinfer-rust-mode")
@@ -116522,17 +116522,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20221127.2217")
+    (version "20221209.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "90787092a06e71a8b6aee23e06c662d15ebc05d0")))
+                 "bcf0984cf55b70fe6896c6a15f61df92b24f8ffd")))
         (sha256
           (base32
-            "0sjb8sl6hdqyhy37pqf4yp1qpafnvc6zf6jnli6l4hjqcs2kpjjb"))))
+            "0pmz5x7ghwsjyr4lhaqa53c7190bjqxaczljpsr62s60bn55fdsi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
@@ -116605,17 +116605,17 @@
 (define-public emacs-use-package-ensure-system-package
   (package
     (name "emacs-use-package-ensure-system-package")
-    (version "20221116.1928")
+    (version "20221209.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "f23d1d9a5a11626e2a90c221abf099b57df4b05b")))
+                 "bcf0984cf55b70fe6896c6a15f61df92b24f8ffd")))
         (sha256
           (base32
-            "0nk6z8x2v0syc98dp7syblcqphf76shyich4dqblx2dx2hmzv8w6"))))
+            "0pmz5x7ghwsjyr4lhaqa53c7190bjqxaczljpsr62s60bn55fdsi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-use-package emacs-system-packages))
