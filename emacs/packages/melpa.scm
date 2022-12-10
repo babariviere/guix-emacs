@@ -3629,17 +3629,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20221127.217")
+    (version "20221210.207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "049b724858c5c6f43a7a0831ddc2d85920dcd0c3")))
+                 "deab8fb972f0cbc03c6a5409564435121b5db9c2")))
         (sha256
           (base32
-            "1y8cqmk4p2igvrpc74gjr07l7x86vsaj94axwcvxxls821gh5xr6"))))
+            "0vpg5m5cg4y0gw11azdzfzimsdvk7mka77w1y3c4q83qsxq3jidz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -12380,17 +12380,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20221105.1054")
+    (version "20221209.2350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "69536c8776dea383951538fd197333bee766d7c7")))
+                 "32e61f5922e269e981d0daeb59e476682f148aa8")))
         (sha256
           (base32
-            "1x95hr3w8ck3dhhnpj4yfrqfrh3mmfld8lqaqpijwmgjgf2gfivh"))))
+            "1llvz45rjkxpfjc7rr7z0p7bc3l9vslv2fjaljgaz2nz91hxwab6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -35144,17 +35144,17 @@
 (define-public emacs-external-dict
   (package
     (name "emacs-external-dict")
-    (version "20221209.1504")
+    (version "20221210.407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/external-dict.el.git")
                (commit
-                 "0bd2029ea02496448a1f180d4857617926238b42")))
+                 "a9ceb6c2e12df460ce1686d47cafd88f212d0291")))
         (sha256
           (base32
-            "0b6az6iybb0i8n61bpy3wi10djiar4rh5qghh5hafyhkalriz3f3"))))
+            "1sdnzdph6gck2ghmafad10xc99avj7i01ad2r9r6iixhpa5qbpb9"))))
     (build-system melpa-build-system)
     (home-page
       "https://repo.or.cz/external-dict.el.git")
@@ -70796,17 +70796,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20221105.236")
+    (version "20221210.348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "c338cdff80012893e64ba62a199281f430db7021")))
+                 "d95107f5b77d6c010e89259e05adfcd79a21f26a")))
         (sha256
           (base32
-            "0glmrn96aji78jf3nvj5w0bkwswd0kyazfnm1jszgyy7h01am9rm"))))
+            "17xmsn66fc1npjk3wkzl2b0jv5mvwqmramz4zb43smg2jgiap260"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -83798,17 +83798,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20221209.322")
+    (version "20221210.233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "6e3a5eebe718b3e5e5f035f5e21cbf5504c0cbd4")))
+                 "d253b123cf5bf869857ef978e40e2d42c2d301f4")))
         (sha256
           (base32
-            "0s4c1phlsv3b45rkrnknkylfn5gg4i2s394lzzb6ja8naz7jkd4v"))))
+            "1nh5hn58i1ypbnkkfki61bgw82zb26v3gqszw1jvh0ab133drzqp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -87413,17 +87413,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221209.1725")
+    (version "20221210.248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "947ec2e9bdeee3c97a0193a8fdaf32d6a9030fb1")))
+                 "37560751a54284a4af24c4b16b839ad71e103aa3")))
         (sha256
           (base32
-            "1x85rcjgb5ki45f4vp8skmljd26sa36kfcv94rssqgbvczwfbfni"))))
+            "1d4dsfn7wdg1lsml7myy60j109lc4zsjx3lzrckj9hj66j7znfzw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
