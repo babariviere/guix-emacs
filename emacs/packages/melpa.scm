@@ -12380,17 +12380,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20221209.2350")
+    (version "20221211.855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "32e61f5922e269e981d0daeb59e476682f148aa8")))
+                 "20aec822983ff87524eff30edcb9a706f4338511")))
         (sha256
           (base32
-            "1llvz45rjkxpfjc7rr7z0p7bc3l9vslv2fjaljgaz2nz91hxwab6"))))
+            "0p9gch5iijia5pm9rzlv50xcad2g9mis9mc90nvh31in9xjcccpz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -16658,17 +16658,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221209.1945")
+    (version "20221211.1019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "6161f60ecd53b1ad270eac6d787cb259f968a1e7")))
+                 "b404039f567ce296823425b641b2348482a1750e")))
         (sha256
           (base32
-            "1cfpb9wh31ndc2ya5gz4v5asss7pvmbac7hvlpvln3k1rqh25sqj"))))
+            "15k9ag2qf19bnxid2f0hk8w2fqa11zy4k7s6mh7nbibwm5d4vjk9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -20816,17 +20816,17 @@
 (define-public emacs-default-font-presets
   (package
     (name "emacs-default-font-presets")
-    (version "20220731.2219")
+    (version "20221211.716")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-default-font-presets.git")
-               (commit
-                 "80380aa053c78b7126275e269e80d8988ba3f1e3")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/default-font-presets-"
+               version
+               ".el"))
         (sha256
           (base32
-            "07bvlb7n8gryjc205bfpx7k0liibx4cakv9aisc5nfifxqygmv1n"))))
+            "14j56pbydf7sr43lcycgq1nvs809482gglhdv0g0n0pzbklc28sw"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-default-font-presets")
@@ -21528,17 +21528,17 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20220731.2329")
+    (version "20221211.718")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-diff-ansi.git")
-               (commit
-                 "c4f350da4302cd7d33343d83d5faaeae6795768f")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/diff-ansi-"
+               version
+               ".el"))
         (sha256
           (base32
-            "06k3ppgwng3b0234qpvpq7cvfcdc3fkwm813qpmddcwbg9b8m7fn"))))
+            "1hjimm58rc84bzhxa28hq12pw4d8z0wrkh6icrpyz7cp1gwp3n7g"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-diff-ansi")
@@ -41967,17 +41967,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20221205.1247")
+    (version "20221211.929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "6fcd8ef4e9d6d22d67c833e760078e0cea5a9d58")))
+                 "dadbb79c10fafaf988a523b89ee34f92de36c839")))
         (sha256
           (base32
-            "045p83anqhzffaf3kc2ick4pqvapsa88mldfipca6fjmyfkqfz4n"))))
+            "0h7lgjzbxdhjf4c6sb949y8iwncv467215i1jrszv992pmbiapmj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -42283,17 +42283,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20221210.509")
+    (version "20221211.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "67e886a698d2b574faf9f7366be77ef737a4090f")))
+                 "0faecdd40f362b040b287174c546ffba7c0cf102")))
         (sha256
           (base32
-            "0a48bvx7v7c8k2z4psk5a5r6yikjyaby9f6w3g8nnd3myqg7ydf7"))))
+            "08fkamg8qdky90zmcsgm05jcc7r6rp5gid3mn6rwxfbqyaq6ksq5"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page
@@ -46990,17 +46990,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221120.1436")
+    (version "20221211.1327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "923d117ab399a0598a496d3fab84188c6f460dae")))
+                 "65d5139f202320b71e6b8b03d752d02b7c0b8c6f")))
         (sha256
           (base32
-            "1bhfd41x3i2gabvf50pdpmnvcdqg69ygslyjcg7jvf486b44gvfk"))))
+            "0hpdfmb3j3pr5b1bz5ix5ykzgdvii4h4an663flzxwlap21j7h8p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -55322,7 +55322,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20221204.449")
+    (version "20221211.709")
     (source
       (origin
         (method url-fetch)
@@ -55332,7 +55332,7 @@
                ".tar"))
         (sha256
           (base32
-            "05xjkb2whk7vnvn5yi7y87lh7md6q999ybr9kiy4d5sn965wjhn9"))))
+            "1pnhajhxj8l142scncss116m6rm7vn68r12ssannjd0hqq60bblp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
@@ -84836,17 +84836,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20221031.326")
+    (version "20221211.941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "1c0600d10e513aebd6a991d0acde9ccea4122909")))
+                 "5eb75d86c143c1801c71b54fe0da832affc3adc3")))
         (sha256
           (base32
-            "1gkc3d6xgaimlxcw3bw2zgyi290z379vlqm0md8lc1jzay7xzls7"))))
+            "17hq54v6f1b4cbjf9dsxq7f72ls5bal8lmhfjd27kkbhj2h5ky1w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-pretty-tags emacs-all-the-icons))
@@ -87411,17 +87411,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221211.336")
+    (version "20221211.1213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "fa3bb3461cfb08c2ec955b82e4c6473e65d5566b")))
+                 "65981377ff503073f86cc6c94efbe7cc2cee8373")))
         (sha256
           (base32
-            "0aisdqqcg2dxwd93yhgp4lmz6s7kpkf1diqji0vip6iv3p2470wf"))))
+            "0m661kwmr4yh1g7bs59nzjvh26c3n0ki3cm9kwmr02gnszr6nvca"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -103615,17 +103615,17 @@
 (define-public emacs-shen-elisp
   (package
     (name "emacs-shen-elisp")
-    (version "20210530.349")
+    (version "20221211.1313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/deech/shen-elisp.git")
                (commit
-                 "dabb829d0d86f454ceb3b0846cdfc11af1f91cc7")))
+                 "957ab44654fc7a7cc1b78181d244fa25166f9b09")))
         (sha256
           (base32
-            "1h7v3bbljkw7lsxz4ijvw47c6fj070j0p268v4il2xh2mzw1nhjm"))))
+            "0xfs48fryqjaiy9w7rwxsi9g950gbjq6haacah1lf8h59pa9ff2w"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shen*.el")))
     (home-page "https://github.com/deech/shen-elisp")
@@ -109804,17 +109804,17 @@
 (define-public emacs-sway
   (package
     (name "emacs-sway")
-    (version "20221121.2016")
+    (version "20221211.1439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/sway.el.git")
                (commit
-                 "553a9da97a95ccc53991bb7768f058d6eb4c9745")))
+                 "117eb40691e7a4d2dcd6b5a7fd9f803c7d42c32c")))
         (sha256
           (base32
-            "021h1zm30pd905sz60h9mwvnpgn715d5vsdsp4vf88famblan765"))))
+            "08jjwh2d1hjbbv493qgaznxjhjhm7ama27wcnaag6mics7ivn59n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/thblt/sway.el")
