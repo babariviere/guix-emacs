@@ -68519,7 +68519,7 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221210.2051")
+    (version "20221211.6")
     (source
       (origin
         (method git-fetch)
@@ -87411,17 +87411,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221210.1741")
+    (version "20221211.336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "9f15479896a5a2a91d0c84f2d43f461e10e5e07f")))
+                 "fa3bb3461cfb08c2ec955b82e4c6473e65d5566b")))
         (sha256
           (base32
-            "0qakkbh24vp9v41f3m806rswz4dicmja4hp3nbxsg7b6k8h35az6"))))
+            "0aisdqqcg2dxwd93yhgp4lmz6s7kpkf1diqji0vip6iv3p2470wf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -95214,7 +95214,7 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20221129.411")
+    (version "20221211.715")
     (source
       (origin
         (method url-fetch)
@@ -95224,7 +95224,7 @@
                ".el"))
         (sha256
           (base32
-            "0ngn8rf678d7k18jc4kgsm9mzbn5fszrjl1xnyciqybgbndvl1h0"))))
+            "0h6gywvq1k262rim1i6s82h7lx4v30h9dx6ic86xzf8r1rrycr3h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ideasman42/emacs-py-autopep8")
@@ -104168,7 +104168,7 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20221208.2309")
+    (version "20221211.730")
     (source
       (origin
         (method url-fetch)
@@ -104178,7 +104178,7 @@
                ".el"))
         (sha256
           (base32
-            "09n0c9f4lj2ha06429ljglj23hni9j1jy5c270p23fphrgf0yjhb"))))
+            "0w47w3czv15vms4gsqv06gl1dzz2n6l8a767n4wlh3fj4nhlcl23"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-sidecar-locals")
@@ -107625,7 +107625,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20221129.407")
+    (version "20221211.711")
     (source
       (origin
         (method url-fetch)
@@ -107635,7 +107635,7 @@
                ".el"))
         (sha256
           (base32
-            "1ky3wazw4cjk12qg3y84w9svla7zpa6m5yiqqmhq6zqf5vvcaivb"))))
+            "008zk8qaz5jq2q8yr9iifjw70ipa6nkqjx3kamlprc7gy8wp0fyq"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -108240,17 +108240,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20221205.2356")
+    (version "20221211.252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "dbbdb649f7d99b02b9919f9bd3d13b2ba516cfa2")))
+                 "84ae13c57d1b26337d760e10cf3b14fe8adaa81c")))
         (sha256
           (base32
-            "171vvi1b0xh4z2schxra59lb74fl8mksnhyg1mq4njhmblll4pxg"))))
+            "19jkmxzys7zg4lz6i3j18lv9h6rmq5zk4jrjby22qz8xlypzz1yz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -115750,17 +115750,17 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20220731.2356")
+    (version "20221211.713")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-undo-fu-session.git")
-               (commit
-                 "48544cb102fd3d761acf92598076b20bbb4075f9")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/undo-fu-session-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1qyb9ssglg0wnrrpkaqdkrc01f88i976c9fg7hyd7pknfjg7glrf"))))
+            "1wx7m6xkmfrv9w341rj8c9ydjizibajds4jj5pkmwyw277znxb8f"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-undo-fu-session")
