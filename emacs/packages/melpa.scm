@@ -19832,17 +19832,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20221118.1707")
+    (version "20221210.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "461f15f920c37ed06a53c1082287c5801a317b52")))
+                 "4444bbd96908c2b381f7b9946133827680c9fa2f")))
         (sha256
           (base32
-            "1ny1agamc5iyh340gwrf59qyl9sp58nn62p6y8z6jsrxl08z4ipy"))))
+            "0irqqxwmylaqllf484lnq47cswsild5pz5k45s6f76h27zdhchxv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -42136,17 +42136,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20221205.1922")
+    (version "20221210.1608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "1f6b52a8cc253bc2df9c5f11a40571fe2b535b59")))
+                 "c156ffe5f3c979ab89fd941658e840801078d091")))
         (sha256
           (base32
-            "0xmhvflwbv8hhw1m7wxrb9bz0ms8lqjax1f3sidgsa3c3m1nw49k"))))
+            "0h6sv36psl9rp1xvg5xzz4w2c7xlrz5iykivf7cfnq5g48aqsihs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -68519,17 +68519,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221207.1707")
+    (version "20221210.2051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "e56da7199c09e44f4b5feaf07691d467c01da376")))
+                 "1ecfc50b15b0b9e44f2b4db173f66b158af2e6ef")))
         (sha256
           (base32
-            "15s0i14kjvqfgqryj0ylz1043f2zp9rbf841886pps6cnjljxv6q"))))
+            "0kkajja3pwgrx717qfziwajhifncvvzcgnmghdd3grmpjbx7032x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71241,17 +71241,17 @@
 (define-public emacs-math-tex-convert
   (package
     (name "emacs-math-tex-convert")
-    (version "20220918.1850")
+    (version "20221210.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/math-tex-convert.git")
                (commit
-                 "91a9588f0d2d145f1695a531cc8bba8ec0adee3b")))
+                 "8b174d05e8e5269322a1ee90f94cf1ed018d4976")))
         (sha256
           (base32
-            "1n6pizx5rnjrmr3xm98mwsq95xa50xagpg8k01k7vqwi472g7f3h"))))
+            "0y8mk22jklj0bappvfjmkz8cf9j9ppsbgp770fvc6m62xf544jlx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-math-symbol-lists emacs-auctex))
@@ -76904,17 +76904,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20221206.2121")
+    (version "20221210.2257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "178557148f2e132c79be25429d04c5b89f6535dd")))
+                 "5caf48fec49adc5578cdf55b621994787d1982a9")))
         (sha256
           (base32
-            "09lcyxd4nds79m8bpk5pq5p5brb8c6czzvniarn8njzj13lcy2g6"))))
+            "1gi8rnjhss65qvfh832966rd96cvhkr392wwbqysvvyvwaq9zd09"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
@@ -87411,17 +87411,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221210.1016")
+    (version "20221210.1741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "d307a7f1e84d0511d363e0819bcec77e0cfba810")))
+                 "9f15479896a5a2a91d0c84f2d43f461e10e5e07f")))
         (sha256
           (base32
-            "0km2nv8ri0505nlwb2mpwf7fam7k7mqhj5mlprbyjvdcm4201k7r"))))
+            "0qakkbh24vp9v41f3m806rswz4dicmja4hp3nbxsg7b6k8h35az6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -96785,17 +96785,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20221205.1518")
+    (version "20221210.1639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "68d14352f9973b7b8b3f505da82d082f96270935")))
+                 "9905d8d0e87747749566d98068ce9b2996305fc1")))
         (sha256
           (base32
-            "1h4pjmxgagcjqap7bmwa4yax19idglywh60ljndqyv4k2v8afgib"))))
+            "06d8yh4p4j6gahlmmpq0yava3nilxvg5zadvs8q0phs3k5156jc6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
