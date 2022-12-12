@@ -8485,6 +8485,28 @@
       "Documentation at https://melpa.org/#/boron-theme")
     (license #f)))
 
+(define-public emacs-boxes
+  (package
+    (name "emacs-boxes")
+    (version "20221208.1313")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ascii-boxes/boxes.git")
+               (commit
+                 "d62637e6fa0e0b3450aa9c68a1d76d44ea9d6d8f")))
+        (sha256
+          (base32
+            "02yzp2c4lh60bd1vhy22g0n50dk7qsb7zrcykbag4rajqs85aqk5"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files ("doc/*.el")))
+    (home-page "https://boxes.thomasjensen.com")
+    (synopsis "ASCII boxes unlimited!")
+    (description
+      "Documentation at https://melpa.org/#/boxes")
+    (license #f)))
+
 (define-public emacs-boxquote
   (package
     (name "emacs-boxquote")
@@ -17575,17 +17597,17 @@
 (define-public emacs-counsel-at-point
   (package
     (name "emacs-counsel-at-point")
-    (version "20220731.2354")
+    (version "20221211.2312")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-counsel-at-point.git")
-               (commit
-                 "65a7244ad6342ac79c612fbc6e5ca54759ebaf03")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/counsel-at-point-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1vwn977gjjvk1jhcyzncv2ycr6dbyh64if0f2f87bwl1yf7hsf41"))))
+            "0542nsppigwmdcm73644s8s6x6mcwpsq8305wcb9l9jn8a0wbcwv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -17742,17 +17764,17 @@
 (define-public emacs-counsel-etags
   (package
     (name "emacs-counsel-etags")
-    (version "20220825.259")
+    (version "20221211.2237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/counsel-etags.git")
                (commit
-                 "e38b12771183fd43fb94c9fa562b20b5efeefc1b")))
+                 "b7fbab5aad0d8575087d1b66fd9a572272890a07")))
         (sha256
           (base32
-            "0r4mq4kxbj2kfg3nwni0canp1nvzl7j9jvpi523bj0apfrab1p9v"))))
+            "1ms2h6cx4n47q693v7a396vhykz4s01pdb5lnff9brqw5g3dx0mq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -21528,7 +21550,7 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20221211.718")
+    (version "20221211.2307")
     (source
       (origin
         (method url-fetch)
@@ -21538,7 +21560,7 @@
                ".el"))
         (sha256
           (base32
-            "1hjimm58rc84bzhxa28hq12pw4d8z0wrkh6icrpyz7cp1gwp3n7g"))))
+            "0gqgd0022cr27iy0xmic5ni6r5mx1smvi5lnlk25vz4phrih8yi2"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-diff-ansi")
@@ -21551,7 +21573,7 @@
 (define-public emacs-diff-at-point
   (package
     (name "emacs-diff-at-point")
-    (version "20221129.404")
+    (version "20220708.211")
     (source
       (origin
         (method url-fetch)
@@ -21561,7 +21583,7 @@
                ".el"))
         (sha256
           (base32
-            "1r31c6cgk0kzvkcihdam1v7qncw4fnsww16sa36v31bdhyj40mwv"))))
+            "0n9bz93vgzf9vrvkyvnv5j82rwfhg6d3r6nrmb43nc7ciww7pp7b"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-diff-at-point")
@@ -23840,7 +23862,7 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20221129.400")
+    (version "20221211.2310")
     (source
       (origin
         (method url-fetch)
@@ -23850,7 +23872,7 @@
                ".el"))
         (sha256
           (base32
-            "07brkv2xd3i6mxzf6awzc7rjjnfzc86s7hzy278bcpdqk37h7jp5"))))
+            "0kanhm7k0z81f5v8mwm3wx2cdk0zibsw2bx20ggs7xg9mx5ljq0k"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-doc-show-inline")
@@ -55344,7 +55366,7 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20221129.410")
+    (version "20221211.2225")
     (source
       (origin
         (method url-fetch)
@@ -55354,7 +55376,7 @@
                ".tar"))
         (sha256
           (base32
-            "1wl3gx552nhdyvwp177g10s35a0qmpv10jczpvzdm73r0417gn21"))))
+            "1agcihd5a2qs67s4axmc15xwil3k3ih2a4mzj0bjva3q5wvklwhq"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
@@ -61654,7 +61676,7 @@
 (define-public emacs-jit-lock-stealth-progress
   (package
     (name "emacs-jit-lock-stealth-progress")
-    (version "20221129.357")
+    (version "20221211.2306")
     (source
       (origin
         (method url-fetch)
@@ -61664,7 +61686,7 @@
                ".el"))
         (sha256
           (base32
-            "15bs67zabv71877mvadl5nk8mr36rifr650676zf15wkjw4x5h96"))))
+            "1kd156jn0izq3lpf21j0a3a822q5iaz11ffs0gnjiyvrm6fd4pg6"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-jit-lock-stealth-progress")
@@ -65209,17 +65231,17 @@
 (define-public emacs-latex-table-wizard
   (package
     (name "emacs-latex-table-wizard")
-    (version "20221207.2201")
+    (version "20221212.318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/latex-table-wizard.git")
                (commit
-                 "c3b1802c1ec27bb9ca182ed416a45293b2fbbe64")))
+                 "9ce3165694f84be20e6ea58cf3f62fea8f7f3643")))
         (sha256
           (base32
-            "123vwsx9075mrcqs84kibhibfmw6kh308as13xbl55fpj3jpq8kg"))))
+            "02w3md5brpvwqdbws26d0kyqh4rxg78awccqsy42i41f17790mw5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -68064,20 +68086,21 @@
 (define-public emacs-lorem-ipsum
   (package
     (name "emacs-lorem-ipsum")
-    (version "20190819.2042")
+    (version "20221211.2246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jschaf/emacs-lorem-ipsum.git")
                (commit
-                 "da75c155da327c7a7aedb80f5cfe409984787049")))
+                 "63e5e5f21c2ed41bfa7c921ee3a0aff159dd5a3c")))
         (sha256
           (base32
-            "04h97vnd758gsdfg30wkrhnh4hz7k63xbrw178dxfcwsylq32wi0"))))
+            "0brppjn4q1b6w7a0rc50zfgmhdqilbv24x1vc7c85k7bg4yf1286"))))
     (build-system melpa-build-system)
-    (home-page "unspecified")
-    (synopsis "Insert dummy pseudo Latin text.")
+    (home-page
+      "https://github.com/jschaf/emacs-lorem-ipsum")
+    (synopsis "Insert dummy pseudo Latin text")
     (description
       "Documentation at https://melpa.org/#/lorem-ipsum")
     (license #f)))
@@ -74225,6 +74248,28 @@
       "Eclipse-like moving and duplicating lines or rectangles")
     (description
       "Documentation at https://melpa.org/#/move-dup")
+    (license #f)))
+
+(define-public emacs-move-mode
+  (package
+    (name "emacs-move-mode")
+    (version "20221205.1433")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/amnn/move-mode.git")
+               (commit
+                 "fa34fbe977d62c8297abc3547b9cfb25802e033c")))
+        (sha256
+          (base32
+            "1qxnkdvn0d2ybrkwm57wn0k5y1nr6sc82i9n3s2306anyflvn868"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/amnn/move-mode")
+    (synopsis
+      "A major-mode for editing Move language")
+    (description
+      "Documentation at https://melpa.org/#/move-mode")
     (license #f)))
 
 (define-public emacs-move-text
@@ -83180,6 +83225,30 @@
       "Documentation at https://melpa.org/#/org-movies")
     (license #f)))
 
+(define-public emacs-org-mpv-notes
+  (package
+    (name "emacs-org-mpv-notes")
+    (version "20221202.1657")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/bpanthi977/org-mpv-notes.git")
+               (commit
+                 "8c123996044cfb87101da6c5f16634188f019cca")))
+        (sha256
+          (base32
+            "1nr4n74c5l2azgyv3w828g6n8p3bjfrs8s6b37j87v9vscc24mic"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-mpv))
+    (home-page
+      "https://github.com/bpanthi977/org-mpv-notes")
+    (synopsis
+      "Take notes in org mode while watching videos in mpv")
+    (description
+      "Documentation at https://melpa.org/#/org-mpv-notes")
+    (license #f)))
+
 (define-public emacs-org-mru-clock
   (package
     (name "emacs-org-mru-clock")
@@ -87411,17 +87480,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221211.1213")
+    (version "20221212.406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "65981377ff503073f86cc6c94efbe7cc2cee8373")))
+                 "846b0dadcba77a68bc6381e479a9874e7842eec9")))
         (sha256
           (base32
-            "0m661kwmr4yh1g7bs59nzjvh26c3n0ki3cm9kwmr02gnszr6nvca"))))
+            "1c1729399icvpgafncvykh3yi6pqzbngvaq8abrpviqilxw8ck38"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -98148,7 +98217,7 @@
 (define-public emacs-recomplete
   (package
     (name "emacs-recomplete")
-    (version "20221017.37")
+    (version "20221211.2305")
     (source
       (origin
         (method url-fetch)
@@ -98158,7 +98227,7 @@
                ".el"))
         (sha256
           (base32
-            "1kcg2wxyqykw95j5ipa0bd3gdjsj9gyg0h24myq4qmc4p7f11d4l"))))
+            "0hm6sn66gyhq4wrzfhcfq7lgcq9vhi8p8khjqpvvi695s1fi3ic1"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-recomplete")
@@ -107625,7 +107694,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20221211.711")
+    (version "20221211.2318")
     (source
       (origin
         (method url-fetch)
@@ -107635,7 +107704,7 @@
                ".el"))
         (sha256
           (base32
-            "008zk8qaz5jq2q8yr9iifjw70ipa6nkqjx3kamlprc7gy8wp0fyq"))))
+            "00r65zilqgpcgwbx1a9lamqkjih8m1s2vvk9mdlm0s3dns2g80v5"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -115728,7 +115797,7 @@
 (define-public emacs-undo-fu
   (package
     (name "emacs-undo-fu")
-    (version "20221015.433")
+    (version "20221211.2306")
     (source
       (origin
         (method url-fetch)
@@ -115738,7 +115807,7 @@
                ".el"))
         (sha256
           (base32
-            "1p2jdmx1i6hww6fnf2f8sgvqxzbkq9f0nyvcs8kcfcv5f1i4q46f"))))
+            "08yqcia5d9mxb7zg55fpcrwr36714h7rkz0p578rz334jc5yykdf"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-undo-fu")
