@@ -71121,7 +71121,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221202.1058")
+    (version "20221211.2130")
     (source
       (origin
         (method url-fetch)
@@ -71131,7 +71131,7 @@
                ".tar"))
         (sha256
           (base32
-            "1rnch4yfv4iy2bhh7dgjx8h42z7gzimjwqfgr0h3gz6yz98qv8ll"))))
+            "0ab3bfi4mcmbbphybf9m2pfpfd2j5r68wzw0fn48a4a4dpccclpg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -121959,17 +121959,17 @@
 (define-public emacs-xref-rst
   (package
     (name "emacs-xref-rst")
-    (version "20220710.1033")
+    (version "20221211.2226")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/ideasman42/emacs-xref-rst.git")
-               (commit
-                 "e1dd4439e535185a0cd195bb392f70982cf5aadc")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/xref-rst-"
+               version
+               ".el"))
         (sha256
           (base32
-            "0snl51bnm69zwb8wm8yr0xr263m2sr6f2b1d30p1yp0p0jv40i33"))))
+            "03w9nh8ia2b7dz4qgbynhs4ham7sfzragbpd16yfv8fllwmijmdl"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-xref-rst")
