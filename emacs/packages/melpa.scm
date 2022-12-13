@@ -12019,17 +12019,17 @@
 (define-public emacs-chyla-theme
   (package
     (name "emacs-chyla-theme")
-    (version "20221204.1527")
+    (version "20221213.1012")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chyla/ChylaThemeForEmacs.git")
                (commit
-                 "6a442a02fdb2ff4c24841ecbd92e4bd5fac3d9ee")))
+                 "b24d0379516857ccf75caff9ae1d00b820c9a6f6")))
         (sha256
           (base32
-            "1n2malwwngncka4kah6iwxccx8a1afpdl5a6np9gr8717rg5d7sn"))))
+            "1rr33vxl3rihcygmd76ga4cg22kwfdld50firg0j5fgyg3kscj4f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/chyla/ChylaThemeForEmacs")
@@ -19693,17 +19693,17 @@
 (define-public emacs-d2-mode
   (package
     (name "emacs-d2-mode")
-    (version "20221205.421")
+    (version "20221213.1252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andorsk/d2-mode.git")
                (commit
-                 "ec3faea2deff52c2265e41a8a0674bffe2b7ab46")))
+                 "d57d5405645192ae3291dad9c64197c5b72ee852")))
         (sha256
           (base32
-            "0b551lji4mky1jgczg7mq8g12yy1d1r400p7m5nz4z8kwq7g0mhb"))))
+            "0qdia2kfhm0ysmzf7lzf39l390cwiqz13mhk6sl1y4c4vhd41vjp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/andorsk/d2-mode")
     (synopsis
@@ -57528,17 +57528,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221209.1025")
+    (version "20221213.1032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "ef6768244bafda0bd5be4924a141f3c8453bfd52")))
+                 "e1d950e4fc8b7e532dcda4cc3b1c8048f92c3496")))
         (sha256
           (base32
-            "0ns4vmm93cbklzs9xza33p1nraz2bsvgznd4lbnay93h3klfm57f"))))
+            "0dfcchhdm6apvxyb20vxma1jk8k27pb3n9p2cqyfhy2i1bc92w0k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -68586,17 +68586,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221212.2303")
+    (version "20221213.924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ea92d02d4b222753aaa6f901712fdd06c58b3159")))
+                 "5b25727f6939493509374704e7545887c83b9bc6")))
         (sha256
           (base32
-            "1bc7d8x8f8v4pdf3wglpacxmzbgwxzmnxsbpl5vs8hyxckqjwkka"))))
+            "0vkj50n06mqdv6yfjkwlryqniddjm10jcyifhx43vvz5xc9yfwfd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84149,17 +84149,17 @@
 (define-public emacs-org-recur
   (package
     (name "emacs-org-recur")
-    (version "20211007.238")
+    (version "20221213.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/org-recur.git")
                (commit
-                 "5662cc897ab1533b39e3e93b2150dacbe699d591")))
+                 "ca343791d91a20b0970a579285c6cc271057ce38")))
         (sha256
           (base32
-            "0fq8ns5f0k9mg9dz1w778jp0icpjkx62fa3a51yrsqisycl3cl6y"))))
+            "0y7bz2n3qwcy1yzgzwiw18halk28nv03xys9kmcc71g6mk45blfg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/m-cat/org-recur")
     (synopsis "Recurring org-mode tasks")
@@ -87524,17 +87524,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221213.324")
+    (version "20221213.1454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "884d1f38961b4f469cce82a59866c5285375f300")))
+                 "15fca34fa5ddf6bcd5c9549e7ae7c6711c0d74b8")))
         (sha256
           (base32
-            "1pmrln0m4alrsszpksira2b02ya0n15mcjdwxfym9spbl6xcavy4"))))
+            "152qrqlhp1k83359hapy410w1an35paycajhw2y1d8ms2x76j4l8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -92960,17 +92960,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20221213.405")
+    (version "20221213.842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "c247f24bb182cee46df2fbb92c140fe2152e1989")))
+                 "219dc8f35b7a2cd8f313777a349e0abdbd2e1dff")))
         (sha256
           (base32
-            "18gkygwh8kr4aj2asn49x8krxgzjvvs68naqdsin3c1m76qhbyzi"))))
+            "0bvgrk52801l0v9ca5jhxvbgx2q31m1h17gas25cr7p4lkrg6hdp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
