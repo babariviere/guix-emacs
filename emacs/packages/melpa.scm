@@ -21572,7 +21572,7 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20221212.1123")
+    (version "20221212.2249")
     (source
       (origin
         (method url-fetch)
@@ -21582,7 +21582,7 @@
                ".el"))
         (sha256
           (base32
-            "0l8j7xfaii5axlcs328gj3mwg59x6aqfgmd5z9sjv1nyzxi3s5qw"))))
+            "0sv67px7jyz35rkavg5qwp9ky8wmy55374q84fz9hwrizd00xsqp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-diff-ansi")
@@ -23884,7 +23884,7 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20221212.1123")
+    (version "20221212.2306")
     (source
       (origin
         (method url-fetch)
@@ -23894,7 +23894,7 @@
                ".el"))
         (sha256
           (base32
-            "0niz63lkprqgic2l2nlnm99wnwzjkjld0m5jml8bxsrsrk7m5i18"))))
+            "0kaifagpnis7vhrqi10ih3h655ww4rm8lqp2kbh6fwdsf1xqk4hk"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-doc-show-inline")
@@ -35763,7 +35763,7 @@
 (define-public emacs-fancy-compilation
   (package
     (name "emacs-fancy-compilation")
-    (version "20221212.1123")
+    (version "20221212.2307")
     (source
       (origin
         (method url-fetch)
@@ -35773,7 +35773,7 @@
                ".el"))
         (sha256
           (base32
-            "1b1adkv0ind2sw1mhjrds94ps44hn4lvxd9sldq8sa2x8camrl5i"))))
+            "0n82ka2lp35z8fqfg76fss79fzh3l3hilxgzza7chb95yl89aq68"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-fancy-compilation")
@@ -38694,7 +38694,7 @@
 (define-public emacs-flycheck-grammalecte
   (package
     (name "emacs-flycheck-grammalecte")
-    (version "20220822.2307")
+    (version "20221212.1508")
     (source
       (origin
         (method url-fetch)
@@ -38704,7 +38704,7 @@
                ".tar"))
         (sha256
           (base32
-            "1bqx4an7yjggczqaqazsg5hi9q2qsxlk6j6sai2daazi24ghpg43"))))
+            "1phfjpmhzlcz9d1glyi0bbhwj7c04pqhnfi1bmfksb3x0g3l66xj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -48510,17 +48510,17 @@
 (define-public emacs-gruvbox-theme
   (package
     (name "emacs-gruvbox-theme")
-    (version "20220909.241")
+    (version "20221212.1546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greduan/emacs-theme-gruvbox.git")
                (commit
-                 "3177b458dcbd5db6135a8d57fd5b765131e4da6a")))
+                 "8afb82da23b998c17868d1d84c149b1ff4563373")))
         (sha256
           (base32
-            "0dgjf86i8179l1nsjyc20chysqmy8yhphpd5lzv2ypx79l4z3jka"))))
+            "1xxj2amf7l26smp2s4vbdmvfifs3px63gk64pa834mnwl9dhalmd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -49813,17 +49813,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221207.827")
+    (version "20221212.628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "e991814db477dfadeb8fcdd7da9a1770e6b57b7e")))
+                 "e81fbbc687705595ab65ae5cd3bdf93c17a90743")))
         (sha256
           (base32
-            "053gm6ic6dk6xwy5i2382v35xxwrqlpg4jjzawm2w9rclcwx3sl8"))))
+            "16qicqm9a88mw6nanf0sb09z0lq86hl1sl92swwgdnd6yxi88xc8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50621,17 +50621,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221204.658")
+    (version "20221210.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "08c5e3367049b17f1c9e68928d72f253a8eb528b")))
+                 "e81fbbc687705595ab65ae5cd3bdf93c17a90743")))
         (sha256
           (base32
-            "1c815d02pz6qiiis725jibmwaz8326rwx3sq2h2q2p4bx12n0zqs"))))
+            "16qicqm9a88mw6nanf0sb09z0lq86hl1sl92swwgdnd6yxi88xc8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -55366,7 +55366,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20221212.1123")
+    (version "20221212.2246")
     (source
       (origin
         (method url-fetch)
@@ -55376,7 +55376,7 @@
                ".tar"))
         (sha256
           (base32
-            "00g0y2fvzf0sz6fnpc9am850s07x5qjjc6nyngp9hf2klxzmjh11"))))
+            "1s34sr0rwcasw9gsrnn5jf1jscdjc3q52phsjrc1a54c8fbk4g4k"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
@@ -68586,17 +68586,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221211.6")
+    (version "20221212.2303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "1ecfc50b15b0b9e44f2b4db173f66b158af2e6ef")))
+                 "ea92d02d4b222753aaa6f901712fdd06c58b3159")))
         (sha256
           (base32
-            "0kkajja3pwgrx717qfziwajhifncvvzcgnmghdd3grmpjbx7032x"))))
+            "1bc7d8x8f8v4pdf3wglpacxmzbgwxzmnxsbpl5vs8hyxckqjwkka"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82529,17 +82529,17 @@
 (define-public emacs-org-gcal
   (package
     (name "emacs-org-gcal")
-    (version "20221129.1844")
+    (version "20221212.1817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kidd/org-gcal.el.git")
                (commit
-                 "3cc48a989ac859a97d25964c28874317a6e1672a")))
+                 "9bb3720525ad1c45823abab8ce910dd1225e7dcd")))
         (sha256
           (base32
-            "11whjprc6h7knapjg29wz85mw338mvmyjwcmdai65m25pplxr25i"))))
+            "0b7i1xc21vsjcvbkakkgzhidnypc5anmb9mdkh9mab09d7kxkbc7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio
@@ -87524,7 +87524,7 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221212.1248")
+    (version "20221212.1602")
     (source
       (origin
         (method git-fetch)
@@ -92960,17 +92960,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20221118.614")
+    (version "20221212.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "48b7130ca3b5c98bdb21bf99b64a3536acf2b0eb")))
+                 "94719253d6a943ab5b42c62d6c8db6d3bc15e808")))
         (sha256
           (base32
-            "1v8jkrgfkj2a08m82dz7vrlyjw3wrk3nd33wi4c166agssznlmih"))))
+            "1rvfqv5ff8gs6s3qg3hw68wdyj7wn8cgcvfdmafr0gh1jp180pz8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
