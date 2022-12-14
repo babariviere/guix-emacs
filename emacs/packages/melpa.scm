@@ -68130,17 +68130,17 @@
 (define-public emacs-lorem-ipsum
   (package
     (name "emacs-lorem-ipsum")
-    (version "20221211.2246")
+    (version "20221214.43")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jschaf/emacs-lorem-ipsum.git")
                (commit
-                 "63e5e5f21c2ed41bfa7c921ee3a0aff159dd5a3c")))
+                 "d6001229496a88a768d7dcb6f7979b22ff1d53e5")))
         (sha256
           (base32
-            "0brppjn4q1b6w7a0rc50zfgmhdqilbv24x1vc7c85k7bg4yf1286"))))
+            "1i0xhswr24apdik0rzl52fqkwm8rsnmbg528k5hyzv975w4rmkbf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jschaf/emacs-lorem-ipsum")
@@ -92960,17 +92960,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20221213.842")
+    (version "20221214.302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "219dc8f35b7a2cd8f313777a349e0abdbd2e1dff")))
+                 "c9d9fce3f5e390eccf5a20ad45282c80552cb4fd")))
         (sha256
           (base32
-            "0bvgrk52801l0v9ca5jhxvbgx2q31m1h17gas25cr7p4lkrg6hdp"))))
+            "01jaad92hnkc8qk2mmypd3s3q2s728akb19fxh6lfyf1dzksnpri"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
@@ -119648,17 +119648,17 @@
 (define-public emacs-websearch
   (package
     (name "emacs-websearch")
-    (version "20220823.42")
+    (version "20221214.551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-websearch.git")
                (commit
-                 "9336601462ce29822e6aa14db01d923a4bd1c6ef")))
+                 "594d681fede3f2d168779888d7d3d9bb8252676c")))
         (sha256
           (base32
-            "0vwsi1ibmw4947bm7c1yz6jvgphilh7039akckfknc6dpacic2r6"))))
+            "1vn9z5qlp3svpkhps6x8hya0vnk6clpr68b2hlg8bkhk7h1pi2pg"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/xgqt/emacs-websearch/")
