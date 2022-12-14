@@ -2324,17 +2324,17 @@
 (define-public emacs-alert
   (package
     (name "emacs-alert")
-    (version "20221110.1614")
+    (version "20221213.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/alert.git")
                (commit
-                 "730184b7923a65241fdff695485a3ad432caf201")))
+                 "c762380ff71c429faf47552a83605b2578656380")))
         (sha256
           (base32
-            "0xvb7rbfpwpkdqrbnnv0dy4q1gpy25lm849rf2gqqlrgdmywxafk"))))
+            "0c3x54svfal236jwmz2a2jl933av2p1wm83g2vapmqzifz2c0ziw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-gntp emacs-log4e))
     (home-page "https://github.com/jwiegley/alert")
@@ -8488,17 +8488,17 @@
 (define-public emacs-boxes
   (package
     (name "emacs-boxes")
-    (version "20221208.1313")
+    (version "20221213.2047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ascii-boxes/boxes.git")
                (commit
-                 "d62637e6fa0e0b3450aa9c68a1d76d44ea9d6d8f")))
+                 "380e7814acb7de490a3b5729c3b943f875bc6a73")))
         (sha256
           (base32
-            "02yzp2c4lh60bd1vhy22g0n50dk7qsb7zrcykbag4rajqs85aqk5"))))
+            "14mxgvh8d513kxi6plkb3sckdfh96dxgmp2xwh3s24mzq625v17m"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("doc/*.el")))
     (home-page "https://boxes.thomasjensen.com")
@@ -29670,17 +29670,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20221202.1342")
+    (version "20221213.1920")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "5fd7b2c1ed78a60bf55819e0917fe1deccf23fb0")))
+                 "34272d51c519d99e0e1be989382aca33ae7bc662")))
         (sha256
           (base32
-            "15qkqgx8ma17ipjmnm9ksv3hk25cpd12dhgyx4pxkjmk0hshkrjn"))))
+            "1pk65xiy1q0i7w6xmzbcw6wa8yd5yblxwxahcyis21a4cja7bx23"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -74774,17 +74774,17 @@
 (define-public emacs-mu4e-column-faces
   (package
     (name "emacs-mu4e-column-faces")
-    (version "20220704.1920")
+    (version "20221213.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/mu4e-column-faces.git")
                (commit
-                 "c5938a4f4ed23cf543f73d24e0a6f53272bdcd4a")))
+                 "1bbb646ea07deb1bd2daa4c6eb36e0f65aac40b0")))
         (sha256
           (base32
-            "1lzmrryyqmvshcbnf2i3jji97bvp5faxh7kybdv8ks2v2lgnjgl2"))))
+            "12cb37lj8j1fd5kp3gbnzgknb57j5l8xgrnhb60ysff66m1mbrr7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Alexander-Miller/mu4e-column-faces")
