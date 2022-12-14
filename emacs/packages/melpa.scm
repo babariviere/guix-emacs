@@ -13211,17 +13211,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20221203.2256")
+    (version "20221214.915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "3717e449dded7c8d9f50369bd34a19c077c2c538")))
+                 "3453cd229b412227aaffd1dc2870fa8fa213c5b1")))
         (sha256
           (base32
-            "12fcw0a0jlmwybh55dqyywg5yq50lg7vxlyrjl7z8nbyq0ygnhjm"))))
+            "0s09b9gbmjmk56jm9hcbk06zfa96kqhgx58d98w13yy01yx0pych"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -22744,17 +22744,17 @@
 (define-public emacs-dired-rsync
   (package
     (name "emacs-dired-rsync")
-    (version "20221206.246")
+    (version "20221214.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stsquad/dired-rsync.git")
                (commit
-                 "93cf414ad35deb93c472d51b348be3fd375d6a4f")))
+                 "c0e2168b80df00116ab9071bb214cf05ed943d73")))
         (sha256
           (base32
-            "0v5gbcyc89biip5633fqqdkglafvr9md7ar3bsx55gmpnv6hv10c"))))
+            "1bkq5n7ivvfjcry7iaq9gv9fjx62brq6bs73j989b6jm32l6w3ns"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -26367,17 +26367,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20221107.300")
+    (version "20221214.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "3352e487809dda4a0366314e30c9efa431b61f79")))
+                 "b758e70fc73b6f8af4089417c19ef14b57b7be68")))
         (sha256
           (base32
-            "1v8x649r9b0ihnhddkkfb8ck21z2hr3swgczwgzwdk0ys6pl89my"))))
+            "0vq4b38lpx21wnsr5kidf7afi5bgpsf4is2v0lblay4abv5a8kl7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -42943,17 +42943,17 @@
 (define-public emacs-fstar-mode
   (package
     (name "emacs-fstar-mode")
-    (version "20220725.2139")
+    (version "20221214.1220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/FStarLang/fstar-mode.el.git")
                (commit
-                 "60489e75c6f26417068bf861b6db2935e72c38fe")))
+                 "ab0697b9474f36942a12a4b2a75251c247c18e9e")))
         (sha256
           (base32
-            "17j66xilzv0dv91jzk7v224hwpm0mlyxcsz7qf0ip8379ax1jb8g"))))
+            "02cyd5jl3xgzyiq4bbppnx8vhvw9h7i51776p3ld7m4shck7qyhz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -92960,17 +92960,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20221214.302")
+    (version "20221214.816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "c9d9fce3f5e390eccf5a20ad45282c80552cb4fd")))
+                 "0567d06aae1d8d324a679455edbe06afcc7e1088")))
         (sha256
           (base32
-            "01jaad92hnkc8qk2mmypd3s3q2s728akb19fxh6lfyf1dzksnpri"))))
+            "1xhmbchpzf0zm1l2pvns9f19ls844vwhw5rxs0xjal9fyz8nf11l"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
