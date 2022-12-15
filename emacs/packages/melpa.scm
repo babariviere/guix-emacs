@@ -47079,17 +47079,17 @@
 (define-public emacs-god-mode
   (package
     (name "emacs-god-mode")
-    (version "20221109.707")
+    (version "20221214.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/god-mode.git")
                (commit
-                 "49c1a1753188e5b2788b8c1f1f9fbd1264460bab")))
+                 "c2d655e0baeb7e90eadb0a9ffe09b2a87c1fe34d")))
         (sha256
           (base32
-            "0h1kfvr4zahk8ihvri1r16b2nkg3dg3524ic64c6w0jing2gr37c"))))
+            "14wjjdcvilix6ddaq6a1f3d27hh6w492qmpvyvgvw24d7xw935fh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/god-mode")
@@ -52879,17 +52879,17 @@
 (define-public emacs-helm-projectile
   (package
     (name "emacs-helm-projectile")
-    (version "20220820.826")
+    (version "20221215.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/helm-projectile.git")
                (commit
-                 "5813f7286533990783546c9c39c184faa034d1f1")))
+                 "35a2111d00c0c0c9d8743280d3f1243bb217118a")))
         (sha256
           (base32
-            "1qrdms3lmr7wspqhd0ygqmyznlc6spy2lnn1n8p4v495nzdygzdh"))))
+            "0gd170h3v5i1886f7pvb5h5licy797djhjrigwfj2wa7i5q1avxv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm emacs-projectile))
@@ -65275,17 +65275,17 @@
 (define-public emacs-latex-table-wizard
   (package
     (name "emacs-latex-table-wizard")
-    (version "20221212.524")
+    (version "20221215.331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/latex-table-wizard.git")
                (commit
-                 "9ce3165694f84be20e6ea58cf3f62fea8f7f3643")))
+                 "5d8a8f1ef1d65b3dcf59dd74d9b4bb091c0439b8")))
         (sha256
           (base32
-            "02w3md5brpvwqdbws26d0kyqh4rxg78awccqsy42i41f17790mw5"))))
+            "065kihfnn65kyl4ffwbzb972xxb5zmxslrhfjyl43nzwq7cmqhlx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -107598,17 +107598,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221209.116")
+    (version "20221215.116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "d7ea306ad91e2fb767b2c48d5ce96675bc76bc6f")))
+                 "39f095a731ba5552ce4593112294642f64f2a7ec")))
         (sha256
           (base32
-            "1plxj6zd56lbg72mdvfl9ma7gf4kf5l1xrvfsx1ix9351n38c0sk"))))
+            "09xachw3iz00ddvr7lsz3v7gqp1s98n790drcnifzj7a0nspscay"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
