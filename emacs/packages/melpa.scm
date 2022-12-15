@@ -12041,17 +12041,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221208.1801")
+    (version "20221215.1332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "3491cb9093fb3838ea45a74974d50f31c2b972e6")))
+                 "5631d60295a623cbb161c76b70dac1305b1c0987")))
         (sha256
           (base32
-            "12i80cmr366fsfygbcib70i4fwwj7z73cij5zrrh785zpia5bs5j"))))
+            "1fidbw3dxpldjicnl0bp3147qvzslwgm30fdyzf38ajny62qach8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -13183,17 +13183,17 @@
 (define-public emacs-clojure-essential-ref
   (package
     (name "emacs-clojure-essential-ref")
-    (version "20200619.1653")
+    (version "20221215.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/p3r7/clojure-essential-ref.git")
                (commit
-                 "13ac560c25f7355fba00d9ca8c9f4ca03e7fd189")))
+                 "6741bf65cf9b9bc896ab1cc3c384573e8ffe5f96")))
         (sha256
           (base32
-            "0h48jwx1wljh3jlnhx123i2w6hacgysh9dh7ppsrkzsg0hwhhn88"))))
+            "0dib6krb49gi253vs3zqh83r9s3wdmlvbqwcq7gq28dbjsbpljcn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-cider))
     (arguments
@@ -65275,17 +65275,17 @@
 (define-public emacs-latex-table-wizard
   (package
     (name "emacs-latex-table-wizard")
-    (version "20221215.331")
+    (version "20221215.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/latex-table-wizard.git")
                (commit
-                 "5d8a8f1ef1d65b3dcf59dd74d9b4bb091c0439b8")))
+                 "7568cbbe112db8e61e38d69308f9e51610734bf6")))
         (sha256
           (base32
-            "065kihfnn65kyl4ffwbzb972xxb5zmxslrhfjyl43nzwq7cmqhlx"))))
+            "0w82ln3d31pg2567ldprawnf5sar1qjkxdiqc74vka89x03yn3d8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -68586,17 +68586,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221214.1611")
+    (version "20221215.1257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "5d14123e321213ebf62fb0fce6aaec31ef90860e")))
+                 "3939ff59227186c6574d1f0b1b8153dae3299d51")))
         (sha256
           (base32
-            "0aww2gfjh1igv34r6981ff8zcdcxgbswh3hmih5xp9fapacrc35r"))))
+            "0vpqqlwsl2g911cnla1fg3wqs1ddh1arif4nk3vb4vsj8d7xc2pa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -87524,17 +87524,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221213.1454")
+    (version "20221215.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "15fca34fa5ddf6bcd5c9549e7ae7c6711c0d74b8")))
+                 "ee438c9e423b53fa72352394359a29f7d993fa2e")))
         (sha256
           (base32
-            "152qrqlhp1k83359hapy410w1an35paycajhw2y1d8ms2x76j4l8"))))
+            "1c09gsbw69k78psv59qafi9jvrq94i11ki50wa9n6gwyzla63m4s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -96755,17 +96755,17 @@
 (define-public emacs-quickrun
   (package
     (name "emacs-quickrun")
-    (version "20221214.1547")
+    (version "20221215.828")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/quickrun.git")
                (commit
-                 "3d1d9d03ca47c3c64de25fd3024b4c8e5ab70c17")))
+                 "7a89313c07a21eae9cd69a1a98e2a134d559e04f")))
         (sha256
           (base32
-            "0s5s31m86qy2qyxydj4by3wdsryqd4c4pmmr6hbf460fyb403dn0"))))
+            "15z8ix2wi452zkh5qz1qlsvq8bnwjw8014k51i6rvw8aczm344lr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ht))
     (home-page
@@ -113448,17 +113448,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20221214.1514")
+    (version "20221215.1043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "879d48903ed56e0b5e7e113e122a5391850bf794")))
+                 "c8b781a34b1e6e342804f40c5141ebdb04e8390b")))
         (sha256
           (base32
-            "0whzb88ay16xicyk6sq2n3dmnfa478wafc95zf1iri57gqxwdiz8"))))
+            "1wr1z7zpxkp16giaq5clwgjhja4y6js9jdx891f687x3slk61p1v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -121567,17 +121567,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221209.1053")
+    (version "20221215.811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "916c2a542dc25ce70896e2cd665b0e837a9f10d0")))
+                 "1112186d848c7a673e3e634c4fceec3f7100fb8b")))
         (sha256
           (base32
-            "1ks45xhsq4q9856z9dsn5n72gfghjbid2vyny3h89xxvih1mjjvf"))))
+            "1nfnjicnwdp9536zbx35ig9a0f8fcws0ihqjk9qry91gkb063xbi"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
