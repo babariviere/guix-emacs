@@ -16989,17 +16989,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221208.1448")
+    (version "20221214.2052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "da0cd4105fcba365375cba45aa80d293969231fa")))
+                 "7b55fc7d4cfa2502799ce937844a25d97459e999")))
         (sha256
           (base32
-            "0cql9vj72p4pvvwdhkj9dnbis4m01kwza02q88zvwlzg800s5mwp"))))
+            "0z9zaw5b5zijlzbwr3am226qm40yaj27c913rvvrif5cni5zi12p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -37389,17 +37389,17 @@
 (define-public emacs-flim
   (package
     (name "emacs-flim")
-    (version "20221103.353")
+    (version "20221214.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/flim.git")
                (commit
-                 "57c6b868aa314717f40a520daed7249665e8d992")))
+                 "3a931b566494e7dc210a5109b60c8cbd5b655108")))
         (sha256
           (base32
-            "1mf8r5mf3bd0719fnhifb6lfvl7n4m552crcdhkbkkif8srrl6df"))))
+            "0hva2nm0k37ssx42s0h9d9y6nawmp1g4qz1s8bvmp3s1897pvssz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-oauth2))
@@ -56842,17 +56842,17 @@
 (define-public emacs-ibuffer-vc
   (package
     (name "emacs-ibuffer-vc")
-    (version "20221025.1411")
+    (version "20221214.1454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/ibuffer-vc.git")
                (commit
-                 "813d2dec32bd7ecbb1ecd781c2a63046f71d0dd3")))
+                 "13cb2721be7ebcb5447a768f13d370674dfb7f29")))
         (sha256
           (base32
-            "04h6p5vfxm3pgkjc29wvb58csg7wh31gj9wp4x8i8hpma5gkm07l"))))
+            "1k6kyvhaylywmmmjazv8qvbkl3586fm3xgp81y20gd88inx6shrq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/ibuffer-vc")
@@ -68130,17 +68130,17 @@
 (define-public emacs-lorem-ipsum
   (package
     (name "emacs-lorem-ipsum")
-    (version "20221214.43")
+    (version "20221214.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jschaf/emacs-lorem-ipsum.git")
                (commit
-                 "d6001229496a88a768d7dcb6f7979b22ff1d53e5")))
+                 "4e87a899868e908a7a9e1812831d76c8d072f885")))
         (sha256
           (base32
-            "1i0xhswr24apdik0rzl52fqkwm8rsnmbg528k5hyzv975w4rmkbf"))))
+            "10l0dmnp1kjyca5jqbf4j98xchcbf9grlv0nv3ygf167vps40il6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jschaf/emacs-lorem-ipsum")
@@ -68586,17 +68586,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221213.924")
+    (version "20221214.1611")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "5b25727f6939493509374704e7545887c83b9bc6")))
+                 "5d14123e321213ebf62fb0fce6aaec31ef90860e")))
         (sha256
           (base32
-            "0vkj50n06mqdv6yfjkwlryqniddjm10jcyifhx43vvz5xc9yfwfd"))))
+            "0aww2gfjh1igv34r6981ff8zcdcxgbswh3hmih5xp9fapacrc35r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74363,17 +74363,17 @@
 (define-public emacs-mozc
   (package
     (name "emacs-mozc")
-    (version "20210306.1053")
+    (version "20221214.1435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/google/mozc.git")
                (commit
-                 "3735608fd00111b767a121d9c78999e3c41aab2f")))
+                 "db37db71b53c9accc9ad66d12ad8196b25c771b3")))
         (sha256
           (base32
-            "1m6mg0fga1z639hrz0i5ri2wv40ggw3l1isa83hb12x3ykih3idp"))))
+            "1v67z1md9djl2p2dyh70a950n455za8fry8ixxzq0a2gsxjx0xxz"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/unix/emacs/mozc.el")))
     (home-page "unspecified")
@@ -83228,17 +83228,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20221209.1941")
+    (version "20221214.1713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "067f9319d67b1170d46a394e039537bb9cb413e3")))
+                 "010eade723881ca234a12bd94b791e2000cd2a15")))
         (sha256
           (base32
-            "0gpnnm8kxxvznpn6ivkjpjvlm7b789b4idiw7d48414mfhphksiz"))))
+            "1xg5bs4fswsfanb53h5zl6q0qhvmm0wsikrh8cg1g4whb2bi7m0h"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -96755,17 +96755,17 @@
 (define-public emacs-quickrun
   (package
     (name "emacs-quickrun")
-    (version "20221015.1114")
+    (version "20221214.1547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/quickrun.git")
                (commit
-                 "548b64c3679ff058d80d0080c06d736e25611563")))
+                 "3d1d9d03ca47c3c64de25fd3024b4c8e5ab70c17")))
         (sha256
           (base32
-            "1nbvp4vwiz3hd962db1gh4c19r4xj0p0rr6jbm34mbnm3bm0lgyz"))))
+            "0s5s31m86qy2qyxydj4by3wdsryqd4c4pmmr6hbf460fyb403dn0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ht))
     (home-page
@@ -103410,17 +103410,17 @@
 (define-public emacs-shanty-themes
   (package
     (name "emacs-shanty-themes")
-    (version "20221205.1608")
+    (version "20221214.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qhga/shanty-themes.git")
                (commit
-                 "682bb45afc47d8a4fe4a35e812da706105ffb6d2")))
+                 "376bcef0694ec6e2439151bf1587c768885d58dc")))
         (sha256
           (base32
-            "1pravcfg0a3rjpna0v215p90q7nbl9fffjkv0z668fk4yidwx5i7"))))
+            "1dm9svqvmms48xqzachq5va0vlr4x0xr6hmzl8psnaxcgzicz1gi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qhga/shanty-themes")
@@ -113448,17 +113448,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20221212.909")
+    (version "20221214.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "9726cf6616217fd92972bf3b754799e4380a54ee")))
+                 "879d48903ed56e0b5e7e113e122a5391850bf794")))
         (sha256
           (base32
-            "1wndhj9w4hhy2z6kpmr6q10y1vd6ycjw7wsz5vwi7af00jd84l5k"))))
+            "0whzb88ay16xicyk6sq2n3dmnfa478wafc95zf1iri57gqxwdiz8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
