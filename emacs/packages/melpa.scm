@@ -15828,17 +15828,17 @@
 (define-public emacs-company-prescient
   (package
     (name "emacs-company-prescient")
-    (version "20221112.344")
+    (version "20221216.112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "c28bca2213efd2666b0328c29f2c26e9b603cc9a")))
+                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
         (sha256
           (base32
-            "0156sbs4b535mcwm44qjr8lx48svmjvdqh8c8hr6d0l709f27yq3"))))
+            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-company))
@@ -17271,19 +17271,18 @@
 (define-public emacs-conventional-changelog
   (package
     (name "emacs-conventional-changelog")
-    (version "20211212.1158")
+    (version "20221216.33")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/emacs-conventional-changelog.git")
                (commit
-                 "40c2ee58364422b776e81dc153918205bfbeda86")))
+                 "0102573ee7fe6da86176fe15c0f18dfdbb02594c")))
         (sha256
           (base32
-            "1zxs0sgrdhzlfixahss4m3a7jx2qdkaccqkg9jbyf4vsdm17im48"))))
+            "07hwd859ij5k28d0k5szdmccykhrzh305az4shkklib9cir5cxds"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-transient))
     (home-page
       "https://github.com/liuyinz/emacs-conventional-changelog")
     (synopsis "Conventional Changelog Generator")
@@ -17457,17 +17456,17 @@
 (define-public emacs-corfu-prescient
   (package
     (name "emacs-corfu-prescient")
-    (version "20221118.1427")
+    (version "20221216.112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "680fefa4601586dd87d549d33f5ae6fda3212c35")))
+                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
         (sha256
           (base32
-            "16k34jp07snzknyp2lg0g6vsb7pk96s0fplb9hdjq8w3n4kyirb1"))))
+            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-corfu))
@@ -60473,17 +60472,17 @@
 (define-public emacs-ivy-prescient
   (package
     (name "emacs-ivy-prescient")
-    (version "20221112.344")
+    (version "20221216.112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "c28bca2213efd2666b0328c29f2c26e9b603cc9a")))
+                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
         (sha256
           (base32
-            "0156sbs4b535mcwm44qjr8lx48svmjvdqh8c8hr6d0l709f27yq3"))))
+            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-ivy))
@@ -71882,17 +71881,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20221206.156")
+    (version "20221216.42")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "2eb74b0921d246f952c2cb549eeed8fde574a900")))
+                 "46cf7cc9e8447fe9219675903fbd1a547bb21ce4")))
         (sha256
           (base32
-            "0gi3p4bcah20sbgd7jrz284qpf73ln597b7vihwcdj2486a9pzkp"))))
+            "0mqc93741p2djjdrdn9rr4qcf5ih28g3aiv6g4nnk8vi2sm8ysc5"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -75574,17 +75573,17 @@
 (define-public emacs-mybigword
   (package
     (name "emacs-mybigword")
-    (version "20221213.139")
+    (version "20221216.124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/mybigword.git")
                (commit
-                 "d2d806027ee8dc6ccac26d21c8c37e661dc71392")))
+                 "a6bfc8bf5cb264e8edd8cd6f913f6ccb036ca742")))
         (sha256
           (base32
-            "0l49a9wnpr1lp0k7ddyz2y14vc80dprrm5ggxjw83yjd3kzvxl3f"))))
+            "0s7jx21i74hzndrwy72lnznk58z0jjnkif519q94d0mxawzb336h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (arguments
@@ -85912,17 +85911,17 @@
 (define-public emacs-orgstrap
   (package
     (name "emacs-orgstrap")
-    (version "20220715.16")
+    (version "20221216.131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tgbugs/orgstrap.git")
                (commit
-                 "f4df67e94926f9d389f4a456a9cbf721c9b22b89")))
+                 "fff0ab9167a7fd4cdc094c27dd9312f194b38500")))
         (sha256
           (base32
-            "1jcqkk3rpw128a0x5cwwwkpfj9q2ypzjg1ck49lhadlf09y4bqm8"))))
+            "12xhmwdigplsny2x1l413h6z79ph1jfgq85v863salk2109sdb7p"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("orgstrap.el")))
     (home-page "https://github.com/tgbugs/orgstrap")
@@ -87524,17 +87523,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221215.1406")
+    (version "20221216.224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "ee438c9e423b53fa72352394359a29f7d993fa2e")))
+                 "61105e8ddfa3deb511002c8c15bee7b71dc30559")))
         (sha256
           (base32
-            "1c09gsbw69k78psv59qafi9jvrq94i11ki50wa9n6gwyzla63m4s"))))
+            "14xag1h7kxs85b6ih9mkjjbbyyck4yglian3rl7885zz60flzbwq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -92960,17 +92959,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20221214.816")
+    (version "20221216.313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "0567d06aae1d8d324a679455edbe06afcc7e1088")))
+                 "030a63bc8d8023386998ea9a1ee0eb041330a80d")))
         (sha256
           (base32
-            "1xhmbchpzf0zm1l2pvns9f19ls844vwhw5rxs0xjal9fyz8nf11l"))))
+            "0w1mi4xgmd0hyxrrg8y57vkgvrqawmvxf8jq4f7ldr77j3sx263s"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
@@ -93354,17 +93353,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20221118.307")
+    (version "20221216.112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "a000de747515aa7e7ad1ea0eab711864a4be0ab5")))
+                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
         (sha256
           (base32
-            "1d1d4msmkc0cvd6vva0pfq72i07p0my9wj2s8zvj60pvah620yl0"))))
+            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -102646,17 +102645,17 @@
 (define-public emacs-selectrum-prescient
   (package
     (name "emacs-selectrum-prescient")
-    (version "20221118.307")
+    (version "20221216.112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "a000de747515aa7e7ad1ea0eab711864a4be0ab5")))
+                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
         (sha256
           (base32
-            "1d1d4msmkc0cvd6vva0pfq72i07p0my9wj2s8zvj60pvah620yl0"))))
+            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-selectrum))
@@ -107598,17 +107597,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221215.116")
+    (version "20221216.114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "39f095a731ba5552ce4593112294642f64f2a7ec")))
+                 "878130a23379665534f89d3ab028bba9a545404e")))
         (sha256
           (base32
-            "09xachw3iz00ddvr7lsz3v7gqp1s98n790drcnifzj7a0nspscay"))))
+            "09pa0r0130xdm5ckakf1w085ka8pp79m25mkd37kj82j3m6whx4d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -117805,17 +117804,17 @@
 (define-public emacs-vertico-prescient
   (package
     (name "emacs-vertico-prescient")
-    (version "20221118.1427")
+    (version "20221216.112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "680fefa4601586dd87d549d33f5ae6fda3212c35")))
+                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
         (sha256
           (base32
-            "16k34jp07snzknyp2lg0g6vsb7pk96s0fplb9hdjq8w3n4kyirb1"))))
+            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-vertico))
