@@ -12041,17 +12041,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221215.1332")
+    (version "20221216.1009")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "5631d60295a623cbb161c76b70dac1305b1c0987")))
+                 "b3a9b32ee0a7cb8b11685de12d857ef7d897380a")))
         (sha256
           (base32
-            "1fidbw3dxpldjicnl0bp3147qvzslwgm30fdyzf38ajny62qach8"))))
+            "1nsg7r1vhr0qzi629ikgyrjs811903b5k3ysmfv4xnicfx69w6ll"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -12402,17 +12402,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20221211.855")
+    (version "20221216.1238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "20aec822983ff87524eff30edcb9a706f4338511")))
+                 "3cb83db147bdda208520246e82dbf9878fa3cbd0")))
         (sha256
           (base32
-            "0p9gch5iijia5pm9rzlv50xcad2g9mis9mc90nvh31in9xjcccpz"))))
+            "1qj7j1av7gm46d3zqjh0s85q6pjmccbnxbbajjl13bvih06x0gkw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -65274,17 +65274,17 @@
 (define-public emacs-latex-table-wizard
   (package
     (name "emacs-latex-table-wizard")
-    (version "20221215.2210")
+    (version "20221216.1418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/latex-table-wizard.git")
                (commit
-                 "9d779a2d9b360e476c824bdbb8b8a4424be690f4")))
+                 "f290f87949efa145523fcbd2faca255f877165e8")))
         (sha256
           (base32
-            "1nw67d8ifgpbbykignyhqd21jsgbr58rw52gbbqsp6lzl38n8j4w"))))
+            "1yba99m3pcq73qa4jiq6ka8xjdkr4c6plqvq64jbzhww2cg5cw4n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -68585,17 +68585,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221215.1257")
+    (version "20221216.1059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "3939ff59227186c6574d1f0b1b8153dae3299d51")))
+                 "e2a1b5f682ae00206491a80b4d28e8d932c2960f")))
         (sha256
           (base32
-            "0vpqqlwsl2g911cnla1fg3wqs1ddh1arif4nk3vb4vsj8d7xc2pa"))))
+            "093wn9pd7crrz6f3kyk9lb0l9165yigwfy1a3wigms93k7vc7a3q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -96897,17 +96897,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20221210.1639")
+    (version "20221216.1412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "9905d8d0e87747749566d98068ce9b2996305fc1")))
+                 "6fde181e86882427336ff8c46d1aca7b59f824bb")))
         (sha256
           (base32
-            "06d8yh4p4j6gahlmmpq0yava3nilxvg5zadvs8q0phs3k5156jc6"))))
+            "1blwn71qnv0sm94nyxpb657mi5hg9f5lb6i4as1a3ijdwcih77lc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -104303,17 +104303,17 @@
 (define-public emacs-sideline
   (package
     (name "emacs-sideline")
-    (version "20220922.508")
+    (version "20221216.749")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-sideline/sideline.git")
                (commit
-                 "0bfdb6274cda0c19424c78804086ed93df96b4bb")))
+                 "6878148940573068f996fc0f6dbecafb22e945f0")))
         (sha256
           (base32
-            "0qmva8bhanlrm3s46kmamx4zcais1hxm26gjq4d3q2z598bq46a5"))))
+            "12xsqniywsjsk0a761zxj6nd9almr69jqwnllxnrcliqglhm5vgr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-sideline/sideline")
@@ -106728,17 +106728,17 @@
 (define-public emacs-snow
   (package
     (name "emacs-snow")
-    (version "20221215.1800")
+    (version "20221216.942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/snow.el.git")
                (commit
-                 "86dec51b102f6c30effda3936034a7e82135aae6")))
+                 "f415e8af3d7a4016c1f84964669d84d58d4b4d15")))
         (sha256
           (base32
-            "0zr05hdkwcl5al71kpynq3in2gqfa222c3zzjm1a81czbgx8jhz7"))))
+            "0q9sg2cxhp5clyj6qzymfl6w7x1fw89dvsazc6qf7rnvnhmqq552"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/snow.el")
@@ -113447,17 +113447,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20221215.1559")
+    (version "20221216.843")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "c8b781a34b1e6e342804f40c5141ebdb04e8390b")))
+                 "f72f3f643bb9e624ad76c6e6552cb6c3116016e4")))
         (sha256
           (base32
-            "1wr1z7zpxkp16giaq5clwgjhja4y6js9jdx891f687x3slk61p1v"))))
+            "023prcbspyskqy2aksnzvf31k0zhbr9nhrfgagy0p5g5f6j9l2rz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -122821,7 +122821,7 @@
 (define-public emacs-yatex
   (package
     (name "emacs-yatex")
-    (version "20221201.2342")
+    (version "20221216.904")
     (source
       (origin
         (method url-fetch)
@@ -122831,7 +122831,7 @@
                ".tar"))
         (sha256
           (base32
-            "10x0ajwsv7sjncyh8rgc99x228zcavi8yayqnc0pnc3fc3y6q39r"))))
+            "094ks7wh89ygaccidl1z7grp6sz395b373f9ly5fx0pb9xhf1p0j"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
