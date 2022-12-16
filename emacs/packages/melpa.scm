@@ -56842,17 +56842,17 @@
 (define-public emacs-ibuffer-vc
   (package
     (name "emacs-ibuffer-vc")
-    (version "20221214.1454")
+    (version "20221215.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/ibuffer-vc.git")
                (commit
-                 "13cb2721be7ebcb5447a768f13d370674dfb7f29")))
+                 "9204001d1c5ca39409485c1574fd315b0e137a92")))
         (sha256
           (base32
-            "1k6kyvhaylywmmmjazv8qvbkl3586fm3xgp81y20gd88inx6shrq"))))
+            "1xf9brpimdpalrwfd8h9233ssw6b2s6wszissw1836f6x76cx5lj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/ibuffer-vc")
@@ -65275,17 +65275,17 @@
 (define-public emacs-latex-table-wizard
   (package
     (name "emacs-latex-table-wizard")
-    (version "20221215.1519")
+    (version "20221215.2210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/latex-table-wizard.git")
                (commit
-                 "7568cbbe112db8e61e38d69308f9e51610734bf6")))
+                 "9d779a2d9b360e476c824bdbb8b8a4424be690f4")))
         (sha256
           (base32
-            "0w82ln3d31pg2567ldprawnf5sar1qjkxdiqc74vka89x03yn3d8"))))
+            "1nw67d8ifgpbbykignyhqd21jsgbr58rw52gbbqsp6lzl38n8j4w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -68531,17 +68531,17 @@
 (define-public emacs-lsp-ltex
   (package
     (name "emacs-lsp-ltex")
-    (version "20220916.442")
+    (version "20221215.1744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/lsp-ltex.git")
                (commit
-                 "ab485b8dca64922c024cb1a7ee95231d68883bca")))
+                 "af06a2537e01e539b44bc5faede671c2066c1eec")))
         (sha256
           (base32
-            "1b9z01snd1avpvn3zff4bmca96yhs6xgsqrz0jjdmkh64xvnr4l0"))))
+            "1mnwr40lfqpmrb4dyg4zx1ybj8zwgj4rkgm1x2xkndvg5ybhzpd7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -69492,17 +69492,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20220926.1228")
+    (version "20221215.2232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "0ae427be02275054ec08cd6fc5259f38473120b3")))
+                 "05290e30f57379adc73cfd932b728d792039a42f")))
         (sha256
           (base32
-            "068wylr06qq2mgpn786lb2jb4cfp28h8aqiqzdhnq1sdcrqmxb1c"))))
+            "0lym5wgb3jbs3bzc77y4i2d6577kyw10973l2h3apbhfnj69gpfj"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -106729,17 +106729,17 @@
 (define-public emacs-snow
   (package
     (name "emacs-snow")
-    (version "20210813.1902")
+    (version "20221215.1800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/snow.el.git")
                (commit
-                 "4cd41a703b730a6b59827853f06b98d91405df5a")))
+                 "86dec51b102f6c30effda3936034a7e82135aae6")))
         (sha256
           (base32
-            "0c770mgxav92j562knmzxdjlabvyhvhqjrgnk3pa13c5rs08800h"))))
+            "0zr05hdkwcl5al71kpynq3in2gqfa222c3zzjm1a81czbgx8jhz7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/snow.el")
@@ -110295,17 +110295,17 @@
 (define-public emacs-symbol-overlay
   (package
     (name "emacs-symbol-overlay")
-    (version "20220304.917")
+    (version "20221215.1741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wolray/symbol-overlay.git")
                (commit
-                 "c439b73a5f9713bb3dce98986b589bb901e22130")))
+                 "f18493673d1c9870f6b44e2dbdbe8b0b739d1526")))
         (sha256
           (base32
-            "0n2yknbhwbgbrvmgxk2j2hm5gkdh6m9p5y8vpq758bxf5xk6npzm"))))
+            "1hllnywgcjc6rczavfjbzvddrix39ymdhp1mjic80v8z5cz8wsxh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/wolray/symbol-overlay/")
@@ -113448,7 +113448,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20221215.1043")
+    (version "20221215.1559")
     (source
       (origin
         (method git-fetch)
