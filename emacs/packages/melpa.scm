@@ -6421,17 +6421,17 @@
 (define-public emacs-base16-theme
   (package
     (name "emacs-base16-theme")
-    (version "20221014.2302")
+    (version "20221216.1835")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/base16-project/base16-emacs.git")
+               (url "https://github.com/tinted-theming/base16-emacs.git")
                (commit
-                 "29c469afa822ef24b38e4a4de33b1a638c5bcb5f")))
+                 "a3ec04b034c3d2158d3862b3672e36655850eb03")))
         (sha256
           (base32
-            "1yja2j22z87nrb35k2d3hq32czwm93wm1vdklxjhv32w4qsvcghw"))))
+            "0dfskg5x4ikmdia96ph5nhdmrniadm11pfxjlz8rlh0d435jfsng"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "build/*.el")))
     (home-page
@@ -8417,17 +8417,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20221208.2129")
+    (version "20221216.1205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "adda3c1e4cb22a7754b46428ad0e7197ee60db1f")))
+                 "fdce5ecc122afb7f4a4b56d11778d2d2e0de78a7")))
         (sha256
           (base32
-            "0xmfafgj9hjaj2nxx504bd3ph4jjhig970hx2xxfknc6c1ckqkm2"))))
+            "0xp41c8f52s9diqd5x04fi5wc78w9xmlcjclfqpmykgpz5f1d9nm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -16989,17 +16989,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221214.2052")
+    (version "20221216.2126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "7b55fc7d4cfa2502799ce937844a25d97459e999")))
+                 "5cb24d8202795fc380fe173ecad31f7c969320fd")))
         (sha256
           (base32
-            "0z9zaw5b5zijlzbwr3am226qm40yaj27c913rvvrif5cni5zi12p"))))
+            "0m4kvf6cv0gmdrpy1rqvy2zw4j8w49ci84yviaxhbm27bdfgy1vn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -17013,7 +17013,7 @@
 (define-public emacs-consult-notmuch
   (package
     (name "emacs-consult-notmuch")
-    (version "20220929.2111")
+    (version "20221216.1701")
     (source
       (origin
         (method url-fetch)
@@ -17023,7 +17023,7 @@
                ".el"))
         (sha256
           (base32
-            "0v2mb1hayjh71jdbwljq4gikc3yx00lillb8yy59rlnbf0fzvs7l"))))
+            "0n7jwmr3wlxx658jv3yxs4w2400ybyjkjfk9p1wx0fgqk1smdg0l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-notmuch))
@@ -38693,7 +38693,7 @@
 (define-public emacs-flycheck-grammalecte
   (package
     (name "emacs-flycheck-grammalecte")
-    (version "20221212.1508")
+    (version "20221216.1904")
     (source
       (origin
         (method url-fetch)
@@ -38703,7 +38703,7 @@
                ".tar"))
         (sha256
           (base32
-            "1phfjpmhzlcz9d1glyi0bbhwj7c04pqhnfi1bmfksb3x0g3l66xj"))))
+            "01bh6zkwhzws0hs4clh90cakpqja8jzbv5jabw0ngypzdz9zvfn0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -47666,17 +47666,17 @@
 (define-public emacs-govc
   (package
     (name "emacs-govc")
-    (version "20220509.1455")
+    (version "20221216.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vmware/govmomi.git")
                (commit
-                 "72c2000c01b73c884f1f94df52765762e187b1de")))
+                 "68d1994e444f822644315919dab87553d63b46f8")))
         (sha256
           (base32
-            "1jbgqwjncw4xwdjjsn738j4mmmccfb32g6iznlm97qgpyjl0sg81"))))
+            "1wwnvb55ahdk6v0v231vvfasq0kihfz7hwhgv7a86bsg5mafklcf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -47685,7 +47685,7 @@
             emacs-json-mode))
     (arguments '(#:files ("govc/emacs/*.el")))
     (home-page
-      "https://github.com/vmware/govmomi/tree/master/govc/emacs")
+      "https://github.com/vmware/govmomi/tree/main/govc/emacs")
     (synopsis
       "Interface to govc for managing VMware ESXi and vCenter")
     (description
@@ -65274,17 +65274,17 @@
 (define-public emacs-latex-table-wizard
   (package
     (name "emacs-latex-table-wizard")
-    (version "20221216.1418")
+    (version "20221216.2111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/latex-table-wizard.git")
                (commit
-                 "f290f87949efa145523fcbd2faca255f877165e8")))
+                 "3bafcbefebd961ce9ebb479b60cdb1461cae8aa0")))
         (sha256
           (base32
-            "1yba99m3pcq73qa4jiq6ka8xjdkr4c6plqvq64jbzhww2cg5cw4n"))))
+            "0r4vsg4dcy25yw883pfif86ikylxnya0pq1cpqc4m57b6qbw5qrz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -68585,17 +68585,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221216.1059")
+    (version "20221216.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "e2a1b5f682ae00206491a80b4d28e8d932c2960f")))
+                 "c4a6f24a439d552995e3db1120eb5a99433683f0")))
         (sha256
           (base32
-            "093wn9pd7crrz6f3kyk9lb0l9165yigwfy1a3wigms93k7vc7a3q"))))
+            "1drf24nlrixb54prirrbhq3xarfqivclxris4abldqb3qykschx5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81700,17 +81700,17 @@
 (define-public emacs-org-caldav
   (package
     (name "emacs-org-caldav")
-    (version "20200510.2030")
+    (version "20221216.1507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dengste/org-caldav.git")
                (commit
-                 "8569941a0a5a9393ba51afc8923fd7b77b73fa7a")))
+                 "afb5d1ed7ed7a649d90ebed412c746d1171dbc77")))
         (sha256
           (base32
-            "05lgxqaffnqaqnzl24frafdkskran88hl2ml05qvyjhs4jjbgw9g"))))
+            "1dq1lzk551l01r5393ihgkpczf25a4xzjvmn5r7fb4f5h6v5nw1q"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-caldav.el")))
     (home-page "unspecified")
@@ -96573,17 +96573,17 @@
 (define-public emacs-quelpa
   (package
     (name "emacs-quelpa")
-    (version "20221120.2019")
+    (version "20221216.1900")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/quelpa/quelpa.git")
                (commit
-                 "e3826145d6aacc63ba3ab9b280f4675e86361b29")))
+                 "2679416acb15471cf92fa4d3f536d1b5a3450f90")))
         (sha256
           (base32
-            "12z3s8v46gasrhf72l90lnqxfvbbvb50s0h6gz1fy4rf1qnvbkxv"))))
+            "15cr454hc7n5ig2mqr63g6qkwanj4whvmkn0j1xfs1s1pgm0iil6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/quelpa/quelpa")
     (synopsis
@@ -96897,17 +96897,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20221216.1412")
+    (version "20221216.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "6fde181e86882427336ff8c46d1aca7b59f824bb")))
+                 "b2fdf248682364d2a9b8f7e97dd98ed02454d7bb")))
         (sha256
           (base32
-            "1blwn71qnv0sm94nyxpb657mi5hg9f5lb6i4as1a3ijdwcih77lc"))))
+            "023vca1q9ijdzl498p30j00ym4d780p6cav1ng8q8dcqy721afgw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -123694,17 +123694,17 @@
 (define-public emacs-zig-mode
   (package
     (name "emacs-zig-mode")
-    (version "20221127.856")
+    (version "20221216.2154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ziglang/zig-mode.git")
                (commit
-                 "a4e1ce7296c11e668487ed9962be358755b9a6fc")))
+                 "9cff802457e8d4d5c9f480fb18238fcd472ec009")))
         (sha256
           (base32
-            "1ggjjhx70a4indvd50jvw15h66l8wc29vajyvhrfr878zcnkccc7"))))
+            "0nlbdidmfxyvw9jnxvf9k0xp9c8vlk6dwj1g4lf33zasq1xdrl98"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/zig-lang/zig-mode")
