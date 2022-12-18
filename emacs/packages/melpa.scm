@@ -25173,17 +25173,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221218.46")
+    (version "20221218.1146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "18b1af3635f68a941e2d451b249808322b1a69a4")))
+                 "39ce590191cb63e1f6b77b4419c6a6846c39a67e")))
         (sha256
           (base32
-            "1d9pawz4irj4m0a29iqabjni8497yy7ma26c1inxqai4rl6i01l1"))))
+            "0frkfv2sgwxp0ygkc7mrwj9awmqkv0rqm66qcwrbjfg65rvp957f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -42010,17 +42010,17 @@
 (define-public emacs-for
   (package
     (name "emacs-for")
-    (version "20221211.929")
+    (version "20221218.1023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/usaoc/elisp-for.git")
                (commit
-                 "dadbb79c10fafaf988a523b89ee34f92de36c839")))
+                 "187a7e502827d977eb418fb186b8e8b09a0c4517")))
         (sha256
           (base32
-            "0h7lgjzbxdhjf4c6sb949y8iwncv467215i1jrszv992pmbiapmj"))))
+            "0pzhpcn15sqp4sk662f2r9mdqyj3jbfba30g2p0r8wxg8s879hvd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/usaoc/elisp-for")
     (synopsis "Iteration and sequence")
@@ -43148,17 +43148,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20221217.2342")
+    (version "20221218.918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "b9b2fa9c99b17bd6e662f1379fdb6ef2b4e0042d")))
+                 "534f4a76c96f0a67539a78ac6b7f9d761301d760")))
         (sha256
           (base32
-            "1zq4iyc7p27cd1qzs1wkl2q6z3skm083xqbgclzg6gfjwpgi1l53"))))
+            "0cqssc2md77bn0bpyxnfdm3lab1lzc4nh31bphgpm5dzl3a3yls4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -68963,17 +68963,17 @@
 (define-public emacs-lua-mode
   (package
     (name "emacs-lua-mode")
-    (version "20220801.503")
+    (version "20221218.605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/immerrr/lua-mode.git")
                (commit
-                 "d17a00ca50aee197cd017d573b83367eb241cc44")))
+                 "ad639c62e38a110d8d822c4f914af3e20b40ccc4")))
         (sha256
           (base32
-            "1ycaz2jqms9pkfb052g64hdjd59zwshrww59rap0mqsmn5j3kfpw"))))
+            "1hwczx31bd2wjky45mqqr85x9l58833g69s0n9pa1lwwfx0c6z62"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "init-tryout.el"))))
@@ -72903,17 +72903,17 @@
 (define-public emacs-minions
   (package
     (name "emacs-minions")
-    (version "20220422.1615")
+    (version "20221218.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/minions.git")
                (commit
-                 "b0427eea174adb494efc9fa212c22021861d3f76")))
+                 "f7c4767f259bcee0ed39a1846de1818913b274d7")))
         (sha256
           (base32
-            "0jzmyf9x9nq4jw8a0b5lisam0wz6vy3f8sxn4dj3anawjivn6ml0"))))
+            "1idk98dc69w9i0zq54rpfsy9s9zw2kfdk7k9r7hjagp9i01adqpb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/tarsius/minions")
