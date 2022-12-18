@@ -4152,17 +4152,17 @@
 (define-public emacs-ascii-table
   (package
     (name "emacs-ascii-table")
-    (version "20201019.700")
+    (version "20221217.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-ascii-table.git")
                (commit
-                 "4f68ad0b36c365c0652756691ab1703d0d46b4b4")))
+                 "3c41379869ef5e44b3596a5a8235fe9672d4e608")))
         (sha256
           (base32
-            "0f0ghwglxv2yil2cbzbhrvgk1p37jldfb974kpfwy6dg8m933rjf"))))
+            "0as9f8sfvwvh5dqbq6v9gqcq2s5lrzimpx4xz8rplzwn7cn4irhb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-ascii-table")
@@ -6519,17 +6519,17 @@
 (define-public emacs-basic-mode
   (package
     (name "emacs-basic-mode")
-    (version "20221112.1533")
+    (version "20221217.1847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/basic-mode.git")
                (commit
-                 "1d6cd9a3c400a3609ea2464103bb814b51d3d560")))
+                 "b719ab1e9e2052c319ebb2f46f234c0a4b2075e0")))
         (sha256
           (base32
-            "177z5rmh4306zkadnpp0as3w51n972hnzsb15sxc4iccfb3zjap9"))))
+            "03vb7qs8yk6j9r0ik5zbhvcyp38zhixi2y86vbi6l8s3mxamfvp9"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -25173,17 +25173,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221203.1801")
+    (version "20221217.2326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "da71ed398c143105dedba794a3996c181d44ae54")))
+                 "9f7d1ef29fd9422db6cf11789381217e3a56c80f")))
         (sha256
           (base32
-            "1svzdwk562jqzdldi308vligci7rh8129ysw34sy2g3pd5ih1rmc"))))
+            "0mcks168xn8s8aayifs2j0ifk5b5bjb9gsg3baaqhqgm2lpzwmr8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -52379,17 +52379,17 @@
 (define-public emacs-helm-mu
   (package
     (name "emacs-helm-mu")
-    (version "20220920.1200")
+    (version "20221217.1642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-mu.git")
                (commit
-                 "b9865a3a8ba8af572fcf12d975ea04dc9437c1a2")))
+                 "0dfa91f1f058fb2b92f88172de2735c547427f82")))
         (sha256
           (base32
-            "1x9z790chc4ia5ipb30fza5bjybp6xp1194z5wbb1fn7hnyxa5z4"))))
+            "17z5x4jmc1apy43d2fd2ydpjnp8m1d6yc94l4pbgm33c3zn4ikn2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -68218,17 +68218,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20221108.1242")
+    (version "20221217.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "cc6c51b1e7887736c08260dbbcd28215c019a67a")))
+                 "d8c748ae0807b8060336baf20e8ff1be1fd3b106")))
         (sha256
           (base32
-            "1cq730i2nnj1xyxr2f9kc0y2w7abmnhn6ga05f57wzy2bnx5vhi5"))))
+            "0398rvadirq5v1m842hypazrljaabyk9fp6021v89icqi3izpd2x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -68582,17 +68582,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221216.1619")
+    (version "20221217.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "c4a6f24a439d552995e3db1120eb5a99433683f0")))
+                 "4688de7f33acde41adb9b79bc9a631599ff6a92b")))
         (sha256
           (base32
-            "1drf24nlrixb54prirrbhq3xarfqivclxris4abldqb3qykschx5"))))
+            "0n81nav9prcvvn097x9ksnrnm3awnwvx0gls63x0zan8a2qx2qms"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -100925,17 +100925,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20221204.1907")
+    (version "20221217.2001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "02dd25fc7abdfd719bc36f383651c837ff5e8314")))
+                 "fc37510ddb44cff7a832f6b90e3cd4e54a29cc93")))
         (sha256
           (base32
-            "1q1y3sxl37fmsbbr0y0a6xl825fmvl6j11cczgrdg8sph2n3ilpv"))))
+            "1wizbx6ww0wywxwiy4qzih25jgs6zp8yi7bsvmhscn3w2yl69jr5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
