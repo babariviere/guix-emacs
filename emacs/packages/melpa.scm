@@ -6421,17 +6421,17 @@
 (define-public emacs-base16-theme
   (package
     (name "emacs-base16-theme")
-    (version "20221216.2146")
+    (version "20221218.105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tinted-theming/base16-emacs.git")
                (commit
-                 "a3ec04b034c3d2158d3862b3672e36655850eb03")))
+                 "d113012e4b76bb3ced331480bce33d03241e56bc")))
         (sha256
           (base32
-            "0dfskg5x4ikmdia96ph5nhdmrniadm11pfxjlz8rlh0d435jfsng"))))
+            "17vhmz5gy2m8m57mvpb9h2mgbci7iqyf2x8yvhxgb5sr4qfmcmbf"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "build/*.el")))
     (home-page
@@ -19875,17 +19875,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20221210.1958")
+    (version "20221218.710")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "4444bbd96908c2b381f7b9946133827680c9fa2f")))
+                 "512b70bb71b5727bfb155f08f7e9a32f0496f1a6")))
         (sha256
           (base32
-            "0irqqxwmylaqllf484lnq47cswsild5pz5k45s6f76h27zdhchxv"))))
+            "0386izskd90phb1x2hxxq9866x1kq3xx6a7f057srp44qc12gq7f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -25173,17 +25173,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221217.2326")
+    (version "20221218.46")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "9f7d1ef29fd9422db6cf11789381217e3a56c80f")))
+                 "18b1af3635f68a941e2d451b249808322b1a69a4")))
         (sha256
           (base32
-            "0mcks168xn8s8aayifs2j0ifk5b5bjb9gsg3baaqhqgm2lpzwmr8"))))
+            "1d9pawz4irj4m0a29iqabjni8497yy7ma26c1inxqai4rl6i01l1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -30332,21 +30332,21 @@
 (define-public emacs-engine-mode
   (package
     (name "emacs-engine-mode")
-    (version "20221120.2327")
+    (version "20221217.2101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hrs/engine-mode.git")
                (commit
-                 "b6fafabc688084c142fbc7df19a7be15f55f32f3")))
+                 "30a361b27f203a0ecc59c45e45bc8a6c6e79faae")))
         (sha256
           (base32
-            "0wzpq97za7sq9ncbvxd5js802vzryw9haa9n824lc42mzgmfi2bb"))))
+            "1krl33pq3isqay3lzpx68zmcyn2bfqrjn24qpssr7lqmgy1zamc0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/hrs/engine-mode")
     (synopsis
-      "Define and query search engines from within Emacs.")
+      "Define and query search engines from within Emacs")
     (description
       "Documentation at https://melpa.org/#/engine-mode")
     (license #f)))
@@ -42127,17 +42127,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20221208.2159")
+    (version "20221217.2216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "3ab86bb44073e48ff7e6e432b6b4d2af12e45295")))
+                 "6ff776a651706212dc88f6d1d39a2b57df9d9571")))
         (sha256
           (base32
-            "0zkypjv21b94ijbq1gjdsy7bpczvb7fjvvs37hylg7zzjidrxk1r"))))
+            "1dp5vicf5hf5alzfkjahvpdg2wh9x35k2af59l7cqdhzdqamiwr8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -43148,17 +43148,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20221025.843")
+    (version "20221217.2342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "6d89758828c6ebdce0d28c334c618bfd1d45e8d1")))
+                 "b9b2fa9c99b17bd6e662f1379fdb6ef2b4e0042d")))
         (sha256
           (base32
-            "0r91yw867h1z592rcw744616sfzqak7mrgpkc1p7qzb77d3fxqf4"))))
+            "1zq4iyc7p27cd1qzs1wkl2q6z3skm083xqbgclzg6gfjwpgi1l53"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -49809,17 +49809,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221212.628")
+    (version "20221218.735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "e81fbbc687705595ab65ae5cd3bdf93c17a90743")))
+                 "941da0db9ef54d5e895c53d9265f2dd4a6c93db2")))
         (sha256
           (base32
-            "16qicqm9a88mw6nanf0sb09z0lq86hl1sl92swwgdnd6yxi88xc8"))))
+            "16ncvkcvqiigpnyf0p8vnggibmk74s0vl5dqly1qqgwp7fpmwqpv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -119666,17 +119666,17 @@
 (define-public emacs-websocket
   (package
     (name "emacs-websocket")
-    (version "20210110.17")
+    (version "20221218.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahyatt/emacs-websocket.git")
                (commit
-                 "fda4455333309545c0787a79d73c19ddbeb57980")))
+                 "8604982b1207fafdef7ecdc4ba54541c1ea87212")))
         (sha256
           (base32
-            "1ga4m9xgiczb6sv7dhmy4841rd9wxsirrvi8va34srpzlq51iq65"))))
+            "0plg1x9znaz4b5xgrpkmwrlv95zkpdwq0hvpz464zv1wxcwxnn36"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ahyatt/emacs-websocket")
