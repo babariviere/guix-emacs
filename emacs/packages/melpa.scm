@@ -26810,17 +26810,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20221102.2300")
+    (version "20221218.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "10d0b3b65adf83fbd939f973cafc5b5122536bb4")))
+                 "e6a9d5cc63f679833c19df8120533c8f42498a51")))
         (sha256
           (base32
-            "0f3vclq7hhim46njd5lw78g6v60aa3f3jvvmml99vxmxmd36a7gf"))))
+            "0ccla8a74cxsj6hd2hkf9knz71iggmc719wa33sq650az56p07gw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-eglot))
     (home-page
@@ -27595,17 +27595,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221122.2207")
+    (version "20221218.2216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "621273bb7cc986bd929f97bde89428f55372567a")))
+                 "cf4479dafa1a192110fddcf68972b5c0b3c50661")))
         (sha256
           (base32
-            "0m6k35n7frgbik2chl31658jpwbm425zk0c8bdbfa9d1dqrn6y4g"))))
+            "0ij55nmgy41jjyj43qs0v40khg3xnz5mdrwfgwk40ydmr27918l3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -101063,17 +101063,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20220919.1051")
+    (version "20221218.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "1d24ca2e6c18cd036f00e930cca64f44db04fb67")))
+                 "839bf7b1e1e335c8ba8f04b247eb84076be0c50a")))
         (sha256
           (base32
-            "0wmsrmrbqkd8wfysqkxxks613v9ar31vqkk5zsjdjyc7a6j1xw3s"))))
+            "17vh9vbriyry08fcdrdmyhg7n1zk8wd0cs3046xhg2x36lafqlqj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -113444,17 +113444,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20221216.843")
+    (version "20221218.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "f72f3f643bb9e624ad76c6e6552cb6c3116016e4")))
+                 "5599a0a2dfe0b8a19cfd6a5b7eb546e21c770d22")))
         (sha256
           (base32
-            "023prcbspyskqy2aksnzvf31k0zhbr9nhrfgagy0p5g5f6j9l2rz"))))
+            "19fk50qwd8yz5pljmfiz6ncrbas21lnyl7zp7fjyj4f13ndd8agy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
