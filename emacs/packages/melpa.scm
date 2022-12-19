@@ -65271,17 +65271,17 @@
 (define-public emacs-latex-table-wizard
   (package
     (name "emacs-latex-table-wizard")
-    (version "20221216.2324")
+    (version "20221219.253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/latex-table-wizard.git")
                (commit
-                 "3bafcbefebd961ce9ebb479b60cdb1461cae8aa0")))
+                 "ff8c832ad0ab9b12d5113f1b6eb5d636d9e34f6c")))
         (sha256
           (base32
-            "0r4vsg4dcy25yw883pfif86ikylxnya0pq1cpqc4m57b6qbw5qrz"))))
+            "106gy3hjq1vcf5kz3i463llr6mg8nq3kmn2jazq76cff6qvsaakx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -68582,17 +68582,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221217.1815")
+    (version "20221219.306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "4688de7f33acde41adb9b79bc9a631599ff6a92b")))
+                 "a2353d0bee8465ce87f7cef1b2ee9b285cb865e2")))
         (sha256
           (base32
-            "0n81nav9prcvvn097x9ksnrnm3awnwvx0gls63x0zan8a2qx2qms"))))
+            "1by7bf9lyfa67mm7ddqbabxa2y6zqvagg0sn1lm9xrgflm0zyy62"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
