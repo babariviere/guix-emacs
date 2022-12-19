@@ -34955,17 +34955,17 @@
 (define-public emacs-exercism
   (package
     (name "emacs-exercism")
-    (version "20221030.2058")
+    (version "20221219.713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/anonimitoraf/exercism.el.git")
                (commit
-                 "22b270047541a8173467d0e929e318b9f8606c3c")))
+                 "bfa546a1da7005b3df8ebd99851db4b306d56d6c")))
         (sha256
           (base32
-            "1z0plm622dn5ybqlmagiy91wqj956qrlyys6557yw1l1rqvjc3ds"))))
+            "1l0p89hjkvaxybnvjr7n0zrb3d1nvl6hdgj0knsbjgzz2d00iz0y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -42326,17 +42326,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20221213.58")
+    (version "20221219.829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "e167126abe3fed0fe77b77cf00bd9dbaf4ff444d")))
+                 "5a6cdbb3ac48c4aad9912adf671ac36601ed9ea6")))
         (sha256
           (base32
-            "1k9l0rsbf095kagy3m5i2pmw5d8gsj9rjkgdlb4k4iv3jp96fsj7"))))
+            "05zv1i24livpzbwi74nyglvc9hi4n8qff3yjny6im4vgai0h926p"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page
@@ -50546,17 +50546,17 @@
 (define-public emacs-helm-codesearch
   (package
     (name "emacs-helm-codesearch")
-    (version "20190412.1153")
+    (version "20221219.1219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/youngker/helm-codesearch.el.git")
                (commit
-                 "72f1d1de746115ab7e861178b49fa3c0b6b58d90")))
+                 "bd5a7e3ece98f2940cb09be56d3e56da97d4c865")))
         (sha256
           (base32
-            "1qxpx8jmkvg59k4rx99bn9asnh4nl5rwkjvbhprdlqaicglm153q"))))
+            "12lay84wys9hwry68nyxfa0visjv6bhndc3nyhggwd44i30wvx8c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-helm))
@@ -68582,17 +68582,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221219.306")
+    (version "20221219.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "a2353d0bee8465ce87f7cef1b2ee9b285cb865e2")))
+                 "70dcd8669560e5ea2772d9366d15f4e71ab52905")))
         (sha256
           (base32
-            "1by7bf9lyfa67mm7ddqbabxa2y6zqvagg0sn1lm9xrgflm0zyy62"))))
+            "1p0yhidwpzjb1qbr1j078d16jp67yhasyj9402zi9ymxg1jkg0f3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75570,17 +75570,17 @@
 (define-public emacs-mybigword
   (package
     (name "emacs-mybigword")
-    (version "20221216.124")
+    (version "20221219.1033")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/mybigword.git")
                (commit
-                 "a6bfc8bf5cb264e8edd8cd6f913f6ccb036ca742")))
+                 "b070c907455e4edd129d3471f338172a5868cc04")))
         (sha256
           (base32
-            "0s7jx21i74hzndrwy72lnznk58z0jjnkif519q94d0mxawzb336h"))))
+            "1l9km7rgidz1ppqrkrnxqzm1c4gjhdp9sxphxv45rqlz9xxllk53"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (arguments
@@ -112633,17 +112633,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20221211.1945")
+    (version "20221219.537")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "82a8c9c1f24369bfb0b7f62585d1ef71f7987acb")))
+                 "fab6ed53fe33b0a4d8cd1744be3fe2b57625dad6")))
         (sha256
           (base32
-            "0zj44ismd985yzb66gdw934p64xfdn06ymhnlvmm85h8ml5q9z8b"))))
+            "078wwrs47df46hv8s6485fg7vr4dldnpl1i0yzcrrrw97m9b7his"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -121563,17 +121563,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221215.811")
+    (version "20221219.703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "1112186d848c7a673e3e634c4fceec3f7100fb8b")))
+                 "02fa7bbe57a313e22abf2e0cc037f445ecef0684")))
         (sha256
           (base32
-            "1nfnjicnwdp9536zbx35ig9a0f8fcws0ihqjk9qry91gkb063xbi"))))
+            "04s0p1rxj3liycmv36zw9r6fksmk6mfxrwxbqfyfjdazxpq9wzsj"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
