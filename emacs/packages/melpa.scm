@@ -1832,6 +1832,29 @@
       "Documentation at https://melpa.org/#/adoc-mode")
     (license #f)))
 
+(define-public emacs-adwaita-dark-theme
+  (package
+    (name "emacs-adwaita-dark-theme")
+    (version "20221220.435")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/jessieh/adwaita-dark-theme.git")
+               (commit
+                 "6e67436051bceb2b1913d34b241b16ec5f93fe9e")))
+        (sha256
+          (base32
+            "0bl7a6mmg918hf1mbashhixbs02q0l4ijbzblx9k300c0pvn9vcx"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/jessieh/adwaita-dark-theme")
+    (synopsis
+      "A dark color scheme inspired by Adwaita")
+    (description
+      "Documentation at https://melpa.org/#/adwaita-dark-theme")
+    (license #f)))
+
 (define-public emacs-aes
   (package
     (name "emacs-aes")
@@ -3169,17 +3192,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20221210.1513")
+    (version "20221219.1831")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "7c39ccf838b87ba1ef7e7f775ad4e4423e323ce5")))
+                 "d3988a476b410e0135d7345390fc88224c51fc6d")))
         (sha256
           (base32
-            "01nw7cywz7hpw7r9sc4rzf40d6ylh0kz5fnz2cl4c664vz9aq782"))))
+            "171c57cldc49a4rscanmlycdw40pa8dwr3r2k6maqnxw9ll3bs9f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -7630,6 +7653,28 @@
       "Documentation at https://melpa.org/#/bing-dict")
     (license #f)))
 
+(define-public emacs-binky-mode
+  (package
+    (name "emacs-binky-mode")
+    (version "20221219.1545")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/liuyinz/binky-mode.git")
+               (commit
+                 "ee6d482e9a27ce1721ef3b716aa76de714b7c665")))
+        (sha256
+          (base32
+            "0pf82li0gzvbrxxk8k5smckxfgpxz89dhp6rbvihsq2zgwvxsih2"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/liuyinz/binky-mode")
+    (synopsis "Jump between points like a rabbit")
+    (description
+      "Documentation at https://melpa.org/#/binky-mode")
+    (license #f)))
+
 (define-public emacs-birds-of-paradise-plus-theme
   (package
     (name "emacs-birds-of-paradise-plus-theme")
@@ -11861,26 +11906,19 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20220604.344")
+    (version "20221220.314")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://codeberg.org/contrapunctus/chronometrist.git")
-               (commit
-                 "b80d6ac5b661a90e84ab84bad9badb596c1d1965")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/chronometrist-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "01sdf2w73zapjv1x1dcasy16qs2nsnya3xz5q5avpi5gvmrarb36"))))
+            "0q9vpqrbk8d6n127f912g51ds3phyidqrqqajif650qvdxi51djg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
-    (arguments
-      '(#:files
-        (:defaults
-          "elisp/*.el"
-          "elisp/*.org"
-          (:exclude "elisp/chronometrist-key-values*")
-          (:exclude "elisp/chronometrist-goal*"))))
     (home-page
       "https://tildegit.org/contrapunctus/chronometrist")
     (synopsis
@@ -12348,6 +12386,31 @@
       "Citation-related commands for org, latex, markdown")
     (description
       "Documentation at https://melpa.org/#/citar")
+    (license #f)))
+
+(define-public emacs-citar-denote
+  (package
+    (name "emacs-citar-denote")
+    (version "20221219.2218")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/pprevos/citar-denote.git")
+               (commit
+                 "5e1377d8fea042c95c0f7c47f87873fc373164f7")))
+        (sha256
+          (base32
+            "09pxabl4lcmc62397xp4pmgghdlwd3nrxi08c4ivma5xl5xvp1qn"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-citar emacs-denote))
+    (home-page
+      "https://github.com/pprevos/citar-denote")
+    (synopsis
+      "Minor mode to integrate Citar and Denote")
+    (description
+      "Documentation at https://melpa.org/#/citar-denote")
     (license #f)))
 
 (define-public emacs-citar-embark
@@ -16680,17 +16743,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221211.1019")
+    (version "20221219.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "b404039f567ce296823425b641b2348482a1750e")))
+                 "9481fe9a249b4b35ca861b4f89d68fecafd46b25")))
         (sha256
           (base32
-            "15k9ag2qf19bnxid2f0hk8w2fqa11zy4k7s6mh7nbibwm5d4vjk9"))))
+            "1pyp5idygvqggbgg59ixpalnf7h90n8cz51c6ca7xb1mv3xdvfmk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22743,6 +22806,30 @@
 (define-public emacs-dired-rsync
   (package
     (name "emacs-dired-rsync")
+    (version "20221219.2331")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/stsquad/dired-rsync.git")
+               (commit
+                 "0144f503fb07c1f162eac16bb29a0d5cdd684fbc")))
+        (sha256
+          (base32
+            "0s8lxfc0vh2b80n18mcri9baa2bxx16rfwsfdhni0mivkhg601ld"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-s emacs-dash))
+    (arguments '(#:files ("dired-rsync.el")))
+    (home-page
+      "https://github.com/stsquad/dired-rsync")
+    (synopsis "Allow rsync from dired buffers")
+    (description
+      "Documentation at https://melpa.org/#/dired-rsync")
+    (license #f)))
+
+(define-public emacs-dired-rsync-transient
+  (package
+    (name "emacs-dired-rsync-transient")
     (version "20221214.1215")
     (source
       (origin
@@ -22750,17 +22837,19 @@
         (uri (git-reference
                (url "https://github.com/stsquad/dired-rsync.git")
                (commit
-                 "c0e2168b80df00116ab9071bb214cf05ed943d73")))
+                 "0144f503fb07c1f162eac16bb29a0d5cdd684fbc")))
         (sha256
           (base32
-            "1bkq5n7ivvfjcry7iaq9gv9fjx62brq6bs73j989b6jm32l6w3ns"))))
+            "0s8lxfc0vh2b80n18mcri9baa2bxx16rfwsfdhni0mivkhg601ld"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s emacs-dash))
+    (propagated-inputs (list emacs-dired-rsync))
+    (arguments
+      '(#:files ("dired-rsync-transient.el")))
     (home-page
       "https://github.com/stsquad/dired-rsync")
-    (synopsis "Allow rsync from dired buffers")
+    (synopsis "Transient command for dired-rsync")
     (description
-      "Documentation at https://melpa.org/#/dired-rsync")
+      "Documentation at https://melpa.org/#/dired-rsync-transient")
     (license #f)))
 
 (define-public emacs-dired-sidebar
@@ -27595,17 +27684,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221218.2216")
+    (version "20221219.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "cf4479dafa1a192110fddcf68972b5c0b3c50661")))
+                 "e1c64d49f2df0e09a33979e39a080b8834d0170d")))
         (sha256
           (base32
-            "0ij55nmgy41jjyj43qs0v40khg3xnz5mdrwfgwk40ydmr27918l3"))))
+            "0a3bsqsa1fzjlbhlkvsx5b1akfw2k4rzfhvwc9zxrv7k68g10ycv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -34477,17 +34566,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20221206.751")
+    (version "20221219.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "13d913ae952aa139cd82fe2a0b6fd3647dfbd812")))
+                 "b7ebbba4c406bab628ca694da136478759133fb1")))
         (sha256
           (base32
-            "01nrqiv7xapxvbwqi3fk63dvl9z9hpm1x8qhh2f9jz3p5bzw3qig"))))
+            "17ra5h2p79va06yril7rny8ccqgr0fs4ibrjvnc181sb07xwx9qz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -40256,17 +40345,17 @@
 (define-public emacs-flymake-collection
   (package
     (name "emacs-flymake-collection")
-    (version "20221113.1")
+    (version "20221219.1854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/flymake-collection.git")
                (commit
-                 "274e5ec3e614e73fd0d7c3e1ffc652461bf5b5f3")))
+                 "74e2f3fb4b9b4944f1c90377d7d2f16e57d6d5cd")))
         (sha256
           (base32
-            "18mwz6i84y1wdw8zq13rmx8jsax6fkiqvlbngix7sp2vy8mqgv5c"))))
+            "1i6gmvvq7kk1ka0x3gbn5p9bf0xg5p35z704gxri9758wig7h3ab"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -63979,6 +64068,31 @@
       "Documentation at https://melpa.org/#/khardel")
     (license #f)))
 
+(define-public emacs-khoj
+  (package
+    (name "emacs-khoj")
+    (version "20221219.2102")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/debanjum/khoj.git")
+               (commit
+                 "23ca5a2d43a4e31d4384cba084d794e5daa5f869")))
+        (sha256
+          (base32
+            "1am1vn2zc0c8p5kwhl1iji0hgagynp5cx0s1d55y67fm9wzl1gsa"))))
+    (build-system melpa-build-system)
+    (arguments
+      '(#:files ("src/interface/emacs/*.el")))
+    (home-page
+      "https://github.com/debanjum/khoj/tree/master/src/interface/emacs")
+    (synopsis
+      "Natural, Incremental Search for your Second Brain")
+    (description
+      "Documentation at https://melpa.org/#/khoj")
+    (license #f)))
+
 (define-public emacs-kibit-helper
   (package
     (name "emacs-kibit-helper")
@@ -73969,22 +74083,22 @@
 (define-public emacs-mood-one-theme
   (package
     (name "emacs-mood-one-theme")
-    (version "20220613.114")
+    (version "20221220.427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-one-theme.git")
                (commit
-                 "033910aaf1bb41f384d1b5b96d55975d1378a34b")))
+                 "1a6bbe3c9344979f216d411472bf953cff825394")))
         (sha256
           (base32
-            "0ban8p3nnxnds3yscdi4h9v3ni9l0diwd4y9cy52xp0kkl4jxayg"))))
+            "1ckl84kx7zdf5zdahn9cqwxsjng38s6hsk1sml887gqqy16f3yw3"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-one-theme")
     (synopsis
-      "A dark color scheme inspired by the Doom One theme.")
+      "A dark color scheme inspired by the Doom One theme")
     (description
       "Documentation at https://melpa.org/#/mood-one-theme")
     (license #f)))
@@ -82727,6 +82841,31 @@
       "Documentation at https://melpa.org/#/org-if")
     (license #f)))
 
+(define-public emacs-org-incoming
+  (package
+    (name "emacs-org-incoming")
+    (version "20221212.1952")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tinloaf/org-incoming.git")
+               (commit
+                 "cf2596ecde20f48616f4aa14429e9d8c5bea6b8a")))
+        (sha256
+          (base32
+            "1np7b2gjgm90mszbrlfk8gavbk09nb0rbmw2sgxkxna9ssc0mcj6"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-dash emacs-datetime emacs-s))
+    (home-page
+      "https://github.com/tinloaf/org-incoming")
+    (synopsis
+      "Sort incoming PDFs into your org files")
+    (description
+      "Documentation at https://melpa.org/#/org-incoming")
+    (license #f)))
+
 (define-public emacs-org-index
   (package
     (name "emacs-org-index")
@@ -87520,17 +87659,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221217.1000")
+    (version "20221220.418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "2f34f9c775a436b9554d0354c3e9c3ca915fcddd")))
+                 "d1ceeeaa31e6fc030647ecdedc8268729c70c58c")))
         (sha256
           (base32
-            "0kr0mq9d02bmp3f8slpbk0lc3d47kpn8ipr6w9br27rd8w6m1hzk"))))
+            "0czavwy09ywpvx7mnzcff95a6psf01idrxg8ccd1vq01x4fv2b3z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -101109,17 +101248,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221203.328")
+    (version "20221220.435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "ab685bfcac7e549748bca22f3e87dd4779c06278")))
+                 "7dbd87d03939d7cf33bbec0b34b526e93ccf67d2")))
         (sha256
           (base32
-            "1kzjkvqj5h9fvzbh8wn4s1i6vd4ihwqqg1apxllfg23vy2jw2p9y"))))
+            "0g8b74cf7ax4zk16bj56dmx7ipi73iayw6jpgzydwfiyf2hqkg8f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -104737,6 +104876,28 @@
       "Documentation at https://melpa.org/#/simpleclip")
     (license #f)))
 
+(define-public emacs-simplecov
+  (package
+    (name "emacs-simplecov")
+    (version "20221206.350")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/zenspider/simplecov.el.git")
+               (commit
+                 "215f2bdc5d2ef9b4439779ba4d3129210c9f34ab")))
+        (sha256
+          (base32
+            "1rr4w0wvx07w62md3y1qj0cp7grn8z7116babvr76iigdcc0mzkz"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-dash))
+    (home-page "https://github.org/zenspider/elisp")
+    (synopsis "Colorize untested ruby code")
+    (description
+      "Documentation at https://melpa.org/#/simplecov")
+    (license #f)))
+
 (define-public emacs-simplenote
   (package
     (name "emacs-simplenote")
@@ -106582,6 +106743,28 @@
       "Major mode for editing Snakemake files")
     (description
       "Documentation at https://melpa.org/#/snakemake-mode")
+    (license #f)))
+
+(define-public emacs-snap-indent
+  (package
+    (name "emacs-snap-indent")
+    (version "20221213.2320")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jeffvalk/snap-indent.git")
+               (commit
+                 "2bf8634e2ee795c06dae09881ae1bdc39ed4112a")))
+        (sha256
+          (base32
+            "0ldwk0rzqlmcl3wkv992rk1anbiq0s100ik0lby2izxj21pcsl7j"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/jeffvalk/snap-indent")
+    (synopsis "Simple automatic indentation")
+    (description
+      "Documentation at https://melpa.org/#/snap-indent")
     (license #f)))
 
 (define-public emacs-snapshot-timemachine
@@ -112945,17 +113128,17 @@
 (define-public emacs-timu-caribbean-theme
   (package
     (name "emacs-timu-caribbean-theme")
-    (version "20221203.1256")
+    (version "20221219.1713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-caribbean-theme.git")
                (commit
-                 "9ec69150ede7f0e9dd8083cb4093caae913f9b5c")))
+                 "60e08b991fdc236f5c493ba8527e216174e32c20")))
         (sha256
           (base32
-            "1720gknqfschzj6g36mm1vswbaxn9c0zzb42sxgr7chsyzasckqd"))))
+            "16fnsskxhkidz5i63adfjxvhi05fxiqq5mdg2qfrn87zsw2gc2sk"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-caribbean-theme")
@@ -112968,17 +113151,17 @@
 (define-public emacs-timu-rouge-theme
   (package
     (name "emacs-timu-rouge-theme")
-    (version "20221202.2140")
+    (version "20221219.1845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-rouge-theme.git")
                (commit
-                 "6ec95d29ecfe0e3ed827de697347c5fd046774e3")))
+                 "b0671163c4678b60e1894242ba7412da4729f2de")))
         (sha256
           (base32
-            "0hcv2aq17adcr1z5rsswqsnnfrkpb6ffd8rvj47p5zb4b3f9qz1z"))))
+            "0rw9dn83kilvjndryjs86jqmxvmf6c2qq7207046zv48xacz1bpb"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-rouge-theme")
@@ -112991,17 +113174,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20221203.1855")
+    (version "20221219.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "96bfec8278708c2e550add7ebd13d747b18dc5d2")))
+                 "3111d2e6ed769408d529f1743c1adead34b46b60")))
         (sha256
           (base32
-            "0qhn5clzxwwb73pqfg32yjyw5a3sgj78w6h955dvvybxcrx1777g"))))
+            "1qkik10vfnvrb3lfgppjamjqr6bwg3xvw2h20kgfv55bgzmyc8xs"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
