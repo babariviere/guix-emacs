@@ -15217,20 +15217,23 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20221129.1534")
+    (version "20221220.935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "a238ef9ee0f96940faeb467dce672f27f7f8899c")))
+                 "242043064a88c9f58e222a4c934053454e6353e6")))
         (sha256
           (base32
-            "043vrgp1hx93ihfbk40n5x05qqx9nmp52hv27rh2jp6ii2cv9gvc"))))
+            "1bb3sm51ragm1yqd9c53aj4diwivy267wwr283h65zv1qllykfrc"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-company emacs-s emacs-ht))
+      (list emacs-company
+            emacs-s
+            emacs-ht
+            emacs-list-utils))
     (home-page
       "https://github.com/jcs-elpa/company-fuzzy")
     (synopsis "Fuzzy matching for `company-mode'")
@@ -22806,17 +22809,17 @@
 (define-public emacs-dired-rsync
   (package
     (name "emacs-dired-rsync")
-    (version "20221219.2331")
+    (version "20221220.1024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stsquad/dired-rsync.git")
                (commit
-                 "0144f503fb07c1f162eac16bb29a0d5cdd684fbc")))
+                 "fa7cbb69930fe7fb07367a9f2c75812cbddfa628")))
         (sha256
           (base32
-            "0s8lxfc0vh2b80n18mcri9baa2bxx16rfwsfdhni0mivkhg601ld"))))
+            "0c9mi3jk8gnnnfr6ssz9isjd0vfz5jj5nh6rmz1i5477qdzs46im"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("dired-rsync.el")))
@@ -42415,17 +42418,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20221219.829")
+    (version "20221220.1139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "5a6cdbb3ac48c4aad9912adf671ac36601ed9ea6")))
+                 "027bb830c2af38bf2cfc95cc247b08caf7d5edfd")))
         (sha256
           (base32
-            "05zv1i24livpzbwi74nyglvc9hi4n8qff3yjny6im4vgai0h926p"))))
+            "1jk9l7nnfa9i923bqigjzsi67mghw992gia18k8i7x8qnfvz29d6"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page
@@ -57613,17 +57616,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221213.1032")
+    (version "20221220.1018")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "e1d950e4fc8b7e532dcda4cc3b1c8048f92c3496")))
+                 "a47903d2e12532ede66e7cd939e03d0fa2a1b549")))
         (sha256
           (base32
-            "0dfcchhdm6apvxyb20vxma1jk8k27pb3n9p2cqyfhy2i1bc92w0k"))))
+            "1vhikkwsv2bhahx9nqpmwmi229wbzi8ppxvv7w34pn89hsnrbmwj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -68696,17 +68699,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221219.1150")
+    (version "20221220.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "70dcd8669560e5ea2772d9366d15f4e71ab52905")))
+                 "4cd7b9d4d7da45b544ab35a701bcd785dd20c2ed")))
         (sha256
           (base32
-            "1p0yhidwpzjb1qbr1j078d16jp67yhasyj9402zi9ymxg1jkg0f3"))))
+            "1w87vw3bv056s53sw500jxlwl56m0yybwmsnyj097v0m5xddh6f7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74060,17 +74063,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20211003.2113")
+    (version "20221220.439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "ef1c752679a8f92faa7b4828adbbb300b6942f22")))
+                 "65ae1099e23f762b45fecd60bd43682dbd3965f4")))
         (sha256
           (base32
-            "0z6s80j259xf8nxjxcsmp7wyvpcg5wyx58brlrbwg1aa9hl3fxga"))))
+            "0bccmkmvs1qr5b7jlvchdx6j4nq5hrpxyb2vdj8mhhkysabg4ynv"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
@@ -87659,17 +87662,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221220.418")
+    (version "20221220.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "d1ceeeaa31e6fc030647ecdedc8268729c70c58c")))
+                 "aad65c5f681608760e30d4021d3a0f642cc91d36")))
         (sha256
           (base32
-            "0czavwy09ywpvx7mnzcff95a6psf01idrxg8ccd1vq01x4fv2b3z"))))
+            "1b1q443qnmv61qh4hpp0m5422nkc9fdfgqj601vbvzmsra8pmqsy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -93095,17 +93098,17 @@
 (define-public emacs-posframe
   (package
     (name "emacs-posframe")
-    (version "20221216.313")
+    (version "20221220.544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/posframe.git")
                (commit
-                 "030a63bc8d8023386998ea9a1ee0eb041330a80d")))
+                 "aa88860a16e28a311f81e18f1d9ed2e7d9e33991")))
         (sha256
           (base32
-            "0w1mi4xgmd0hyxrrg8y57vkgvrqawmvxf8jq4f7ldr77j3sx263s"))))
+            "1fqag08zcvm6jsh9zkhsv8ii8wshgvy9ndwjhqfvaxgjxnzgr9kg"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/posframe")
     (synopsis
@@ -96709,17 +96712,17 @@
 (define-public emacs-quelpa
   (package
     (name "emacs-quelpa")
-    (version "20221217.624")
+    (version "20221220.1136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/quelpa/quelpa.git")
                (commit
-                 "40da9a7c0eae6bf06b3e16050d07128ba15a1363")))
+                 "79651cd0de497a8db18d79e7598eb01a4eec4f09")))
         (sha256
           (base32
-            "0qmyxshx461j8ay0wvvxs8w96bwv0g12m4p6pac4mdbdxwzwb7dr"))))
+            "1d5w4yq9ps65i82767h0jqybgpj2m9p3zryb0816d32h0bqyhxk6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/quelpa/quelpa")
     (synopsis
@@ -96779,17 +96782,17 @@
 (define-public emacs-quick-buffer-switch
   (package
     (name "emacs-quick-buffer-switch")
-    (version "20201027.2307")
+    (version "20221220.1142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/renard/quick-buffer-switch.git")
                (commit
-                 "da82555f286588f171eed1de151325bbdd8cbd91")))
+                 "280f67f1a5e02533573b45d585c222c937f11f81")))
         (sha256
           (base32
-            "1d84zk9a42lcxv95z6izvx30vrniccc88fbd5nmjcp58mq5xh2fn"))))
+            "122wsgx0wrhk3c5jf2pwns11i686l6c1bcqaqb9qixg0d7l1cg2f"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Quick switch to file or dir buffers.")
@@ -111621,17 +111624,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20221207.1013")
+    (version "20221220.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "b778a404cef3159a16037ea2bc76cefa31015977")))
+                 "59464c3bdbe43715449de96a4f13dbc1b539e8f5")))
         (sha256
           (base32
-            "14z7zcs30nf75a4v0pf6i18x5lv24wpb60s90qdsc35gfi4s96qq"))))
+            "0g34qj2dfwmg7hs2dvw9jkrly4nihbjzibcf7l3cfwwn90j387fl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -111759,17 +111762,17 @@
 (define-public emacs-tempel-collection
   (package
     (name "emacs-tempel-collection")
-    (version "20221128.2256")
+    (version "20221220.637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Crandel/tempel-collection.git")
                (commit
-                 "dda5210d31fa4859d2f539c640b4795007c35254")))
+                 "cd9529b2a2fdfd49010117d2a1fc49adf9725051")))
         (sha256
           (base32
-            "06q7ix5ycpxa7cgzxbq219lqma90pck2sj78wbidx4z4wl076prd"))))
+            "02x6jq5k7fa46ni64qf8wrmkay6zfbmkildb727zs6wchmyg2znn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tempel))
     (arguments '(#:files (:defaults "templates")))
