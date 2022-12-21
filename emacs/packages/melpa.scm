@@ -1835,17 +1835,17 @@
 (define-public emacs-adwaita-dark-theme
   (package
     (name "emacs-adwaita-dark-theme")
-    (version "20221220.435")
+    (version "20221220.2331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/adwaita-dark-theme.git")
                (commit
-                 "6e67436051bceb2b1913d34b241b16ec5f93fe9e")))
+                 "d83415d62d01469df57c4d6f8ec6d61f9672c417")))
         (sha256
           (base32
-            "0bl7a6mmg918hf1mbashhixbs02q0l4ijbzblx9k300c0pvn9vcx"))))
+            "1vhfx7r4n870g6nygj8hp5rzfb3y5s3p02981bc3q9297ydxdwbm"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/adwaita-dark-theme")
@@ -5590,7 +5590,7 @@
 (define-public emacs-autocrypt
   (package
     (name "emacs-autocrypt")
-    (version "20221220.1654")
+    (version "20221220.2359")
     (source
       (origin
         (method url-fetch)
@@ -5600,7 +5600,7 @@
                ".tar"))
         (sha256
           (base32
-            "1d7094m0l3p10bx97xdf1897zd1ilzp17vsnfynqhrlw4swpv31w"))))
+            "047x9w43c6xnc856jfbnnjiwlxaaapsrdvlqjvjjw5c0mkvjma03"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~pkal/autocrypt")
     (synopsis "Autocrypt implementation")
@@ -17079,17 +17079,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221216.2126")
+    (version "20221221.440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "5cb24d8202795fc380fe173ecad31f7c969320fd")))
+                 "828fab775277f25811f2a92ce1587aba232300e5")))
         (sha256
           (base32
-            "0m4kvf6cv0gmdrpy1rqvy2zw4j8w49ci84yviaxhbm27bdfgy1vn"))))
+            "08fxbjx6y0hvs7gdnqnsflxv4s4biir617cfkicgah92qs0zkd5c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -27925,17 +27925,17 @@
 (define-public emacs-electric-cursor
   (package
     (name "emacs-electric-cursor")
-    (version "20220108.2052")
+    (version "20221221.438")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/duckwork/electric-cursor.git")
-               (commit
-                 "92f77b05fec80c5440a8b800b33345dabca13872")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/electric-cursor-"
+               version
+               ".el"))
         (sha256
           (base32
-            "1f1z672z21yd2zwldrb95v739kgsgiq5ckh2ffskqcrh1k5dya8j"))))
+            "0lv348ayjjlizfqk9a1v0nwhi1g13mgcp0apf8mkk45irf193kjd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/duckwork/electric-cursor")
@@ -42465,17 +42465,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20221220.1139")
+    (version "20221221.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "027bb830c2af38bf2cfc95cc247b08caf7d5edfd")))
+                 "a3705892a998062beb039577bf88f514b72cffc7")))
         (sha256
           (base32
-            "1jk9l7nnfa9i923bqigjzsi67mghw992gia18k8i7x8qnfvz29d6"))))
+            "17lx15kc7xx1b51d65lygza5bambcdz23j8cqhb03fhrc217h8yy"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page
@@ -49724,19 +49724,20 @@
 (define-public emacs-hass
   (package
     (name "emacs-hass")
-    (version "20221213.306")
+    (version "20221220.2340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purplg/hass.git")
                (commit
-                 "65dc52effab92fea5b0a8896821b78fd00da66f0")))
+                 "cbe701e2765588594c89c24192a86f96e079d827")))
         (sha256
           (base32
-            "0li2kdjj7c71z1cyshzxaccr8kfni5qsrkap75ka4ra7dkaymqhr"))))
+            "0dak2isvpqzfy90c63q83k98fcam1s9mqzhcp3dxhhzgw4q2ldbg"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-request))
+    (propagated-inputs
+      (list emacs-request emacs-websocket))
     (home-page "https://github.com/purplg/hass")
     (synopsis "Interact with Home Assistant")
     (description
@@ -65435,17 +65436,17 @@
 (define-public emacs-latex-table-wizard
   (package
     (name "emacs-latex-table-wizard")
-    (version "20221219.253")
+    (version "20221220.2344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/enricoflor/latex-table-wizard.git")
                (commit
-                 "ff8c832ad0ab9b12d5113f1b6eb5d636d9e34f6c")))
+                 "63dc920fb57706855c21b7efc1dd1029bb310506")))
         (sha256
           (base32
-            "106gy3hjq1vcf5kz3i463llr6mg8nq3kmn2jazq76cff6qvsaakx"))))
+            "0k78nf0zsfm9ya8gqli7jfb5ca1yhrysyjl8sc36fshzka73kdb5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -82140,17 +82141,17 @@
 (define-public emacs-org-contacts
   (package
     (name "emacs-org-contacts")
-    (version "20220910.436")
+    (version "20221221.431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-contacts.git")
                (commit
-                 "217ba04c9d638067a6ccb0829cf1885f54c1d568")))
+                 "bb4032eb12c20d34555a4e670f28696cf31a7b54")))
         (sha256
           (base32
-            "0f0vjdvx0hffj2xvyrya8yfl77djmzmpxdxsx58ym4lmdvwyb6x3"))))
+            "149s34d4j68f8crp66xmscd22svwkar1a6zifznxlyhvszg0zl27"))))
     (build-system melpa-build-system)
     (home-page "https://repo.or.cz/org-contacts.git")
     (synopsis
@@ -101322,17 +101323,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221220.435")
+    (version "20221221.435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "7dbd87d03939d7cf33bbec0b34b526e93ccf67d2")))
+                 "ca5bd11ce701843eda9ea0bd6343af9bd5dc2f25")))
         (sha256
           (base32
-            "0g8b74cf7ax4zk16bj56dmx7ipi73iayw6jpgzydwfiyf2hqkg8f"))))
+            "0ad5mfajcv88qllx25a44jlsac1kqycaf8d8gl9hg563hn80383a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
