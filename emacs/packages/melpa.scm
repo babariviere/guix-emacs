@@ -4219,17 +4219,17 @@
 (define-public emacs-asm-blox
   (package
     (name "emacs-asm-blox")
-    (version "20221112.2256")
+    (version "20221220.1716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/asm-blox.git")
                (commit
-                 "0234a9fe3e4bea7717e857f516209fcc00cf85c0")))
+                 "5517efb1e186139197a2d348b7339a72dd379af8")))
         (sha256
           (base32
-            "184v0773cxggidk06wnsziib3kxkdhfr1j8hizmi75hnsrn1g2ya"))))
+            "0f4nymkxk2x3jvkxfbgp5v8ap38j9sz1g6vnw6lrpvbgrdzazx6g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/asm-blox")
@@ -5590,7 +5590,7 @@
 (define-public emacs-autocrypt
   (package
     (name "emacs-autocrypt")
-    (version "20220827.1746")
+    (version "20221220.1654")
     (source
       (origin
         (method url-fetch)
@@ -5600,7 +5600,7 @@
                ".tar"))
         (sha256
           (base32
-            "0asx0m1fn08rpx547znncmd8j4gx3xj0269zqzmdl6nrkr65i10s"))))
+            "1d7094m0l3p10bx97xdf1897zd1ilzp17vsnfynqhrlw4swpv31w"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~pkal/autocrypt")
     (synopsis "Autocrypt implementation")
@@ -12079,17 +12079,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221216.1009")
+    (version "20221220.1507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "b3a9b32ee0a7cb8b11685de12d857ef7d897380a")))
+                 "3c738864525d25f126f637d1ceaace41871a8b1d")))
         (sha256
           (base32
-            "1nsg7r1vhr0qzi629ikgyrjs811903b5k3ysmfv4xnicfx69w6ll"))))
+            "0gyjhp24666lwk1dmlkvri5m5rbjv6l3di2qcwfhgcrfi6gjjylr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -16746,17 +16746,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221219.1929")
+    (version "20221220.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "9481fe9a249b4b35ca861b4f89d68fecafd46b25")))
+                 "4ff45b378210ce4bc942eb366011ee647f575506")))
         (sha256
           (base32
-            "1pyp5idygvqggbgg59ixpalnf7h90n8cz51c6ca7xb1mv3xdvfmk"))))
+            "08zj0szdjnh5kw1jslw09icj8bmk4l3nzj5baq60k4aran9zby4i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16787,6 +16787,30 @@
       "The silver searcher integration using Consult")
     (description
       "Documentation at https://melpa.org/#/consult-ag")
+    (license #f)))
+
+(define-public emacs-consult-codesearch
+  (package
+    (name "emacs-consult-codesearch")
+    (version "20221220.1153")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/youngker/consult-codesearch.el.git")
+               (commit
+                 "5dd9de752c77bc9a07c960bcecb83e9d05855ce9")))
+        (sha256
+          (base32
+            "1l4kdrd4qgknkam076hf820wyp5zylqwfxx6fb63q55a8s2y4bh6"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-codesearch emacs-consult))
+    (home-page
+      "https://github.com/youngker/consult-codesearch")
+    (synopsis "Consult interface for codesearch")
+    (description
+      "Documentation at https://melpa.org/#/consult-codesearch")
     (license #f)))
 
 (define-public emacs-consult-company
@@ -21020,6 +21044,29 @@
     (synopsis "Define, translate, wiki the word")
     (description
       "Documentation at https://melpa.org/#/define-it")
+    (license #f)))
+
+(define-public emacs-define-scratch
+  (package
+    (name "emacs-define-scratch")
+    (version "20221220.946")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/lassik/emacs-define-scratch.git")
+               (commit
+                 "26cf11f801c2b5df0fbd56d2c4f7ac41b3ccd1c6")))
+        (sha256
+          (base32
+            "1lanr3q1fbw1ivsssnykskviwnnpah2lpj9q32brgf1vqmm1z7g8"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/lassik/emacs-define-scratch")
+    (synopsis
+      "Define new commands to make scratch buffers")
+    (description
+      "Documentation at https://melpa.org/#/define-scratch")
     (license #f)))
 
 (define-public emacs-define-word
@@ -35047,17 +35094,17 @@
 (define-public emacs-exercism
   (package
     (name "emacs-exercism")
-    (version "20221219.713")
+    (version "20221220.2047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/anonimitoraf/exercism.el.git")
                (commit
-                 "bfa546a1da7005b3df8ebd99851db4b306d56d6c")))
+                 "a8248e1afdae9155992227611cf134ec49fdd489")))
         (sha256
           (base32
-            "1l0p89hjkvaxybnvjr7n0zrb3d1nvl6hdgj0knsbjgzz2d00iz0y"))))
+            "1zh00fk9s9xbrm6h6d3jz3qj0vccyhibghibb4lxv56c0mvav0bj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -43240,17 +43287,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20221218.918")
+    (version "20221220.2014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "534f4a76c96f0a67539a78ac6b7f9d761301d760")))
+                 "5b3b44eb51626df6e81d8cde77096bb190d5b17d")))
         (sha256
           (base32
-            "0cqssc2md77bn0bpyxnfdm3lab1lzc4nh31bphgpm5dzl3a3yls4"))))
+            "1m3z3bjpayc7g3j52dh4llzkc0grrkj3vv8li7r50ypkyy2hw49c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -67329,17 +67376,17 @@
 (define-public emacs-literate-calc-mode
   (package
     (name "emacs-literate-calc-mode")
-    (version "20220215.1814")
+    (version "20221220.2151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sulami/literate-calc-mode.el.git")
                (commit
-                 "f5133e65d8ffdab918cdfc269ac0c067a0de5e9b")))
+                 "db6a73f22d8a4f6561c87619ad7437e7a77f34d5")))
         (sha256
           (base32
-            "0gvha2fl5macpwsp4fpa9nv14sg0yqr90s3v92f6imx89ll0rcya"))))
+            "0ijg8vdf7a188aw9r6cmmyjgkarsmfnpisd9hh32iclswjwzxz50"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -74063,17 +74110,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20221220.439")
+    (version "20221220.2135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "65ae1099e23f762b45fecd60bd43682dbd3965f4")))
+                 "62bd73f3205eafc037eefd09491308355d06208c")))
         (sha256
           (base32
-            "0bccmkmvs1qr5b7jlvchdx6j4nq5hrpxyb2vdj8mhhkysabg4ynv"))))
+            "0sggxwx01d0nvz57sys5va1r345yj5j1v72g399pkjh9k9h1dpbd"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
@@ -95669,6 +95716,30 @@
       "Documentation at https://melpa.org/#/pycarddavel")
     (license #f)))
 
+(define-public emacs-pyconf
+  (package
+    (name "emacs-pyconf")
+    (version "20221112.1827")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/andcarnivorous/pyconf.git")
+               (commit
+                 "c49dbd71e69a3840344f644030f087688e73e31e")))
+        (sha256
+          (base32
+            "0jp1pvalwknjhkkcb2g8abrpiyz1vmr9ja9glvvqqmkm9a1gi5a6"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-pyvenv))
+    (home-page
+      "https://github.com/andcarnivorous/pyconf")
+    (synopsis
+      "Set up python execution configurations like dap-mode ones")
+    (description
+      "Documentation at https://melpa.org/#/pyconf")
+    (license #f)))
+
 (define-public emacs-pycoverage
   (package
     (name "emacs-pycoverage")
@@ -101205,17 +101276,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20221218.1704")
+    (version "20221220.1926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "839bf7b1e1e335c8ba8f04b247eb84076be0c50a")))
+                 "384051e23f0f2e2950e6ce2efd1a2e8ac0c53613")))
         (sha256
           (base32
-            "17vh9vbriyry08fcdrdmyhg7n1zk8wd0cs3046xhg2x36lafqlqj"))))
+            "11vwl7qxcphwq3dignicvw2bswh1pfbj8dbfaadfqjm0aq7ild3m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -106751,17 +106822,17 @@
 (define-public emacs-snap-indent
   (package
     (name "emacs-snap-indent")
-    (version "20221213.2320")
+    (version "20221220.1908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jeffvalk/snap-indent.git")
                (commit
-                 "2bf8634e2ee795c06dae09881ae1bdc39ed4112a")))
+                 "a19c1a3d32f01852ee043230d8d06afed60d212e")))
         (sha256
           (base32
-            "0ldwk0rzqlmcl3wkv992rk1anbiq0s100ik0lby2izxj21pcsl7j"))))
+            "0z61w3jy6qf5xdzrjny1xc6b4r1gz0a8b9j3dm06sa9880jgrb3l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jeffvalk/snap-indent")
