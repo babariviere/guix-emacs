@@ -12079,17 +12079,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221220.1507")
+    (version "20221221.927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "3c738864525d25f126f637d1ceaace41871a8b1d")))
+                 "b029f5034d001ae2f1bbfd98e67cd5c89ef41847")))
         (sha256
           (base32
-            "0gyjhp24666lwk1dmlkvri5m5rbjv6l3di2qcwfhgcrfi6gjjylr"))))
+            "1ys7dka4if13b9mvkzflxypz39s47mwx9gbwxxpwh8hpk64jcxhh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -57664,17 +57664,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221220.1018")
+    (version "20221221.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "a47903d2e12532ede66e7cd939e03d0fa2a1b549")))
+                 "b7c50dd60facd2a20279653d0186402649ade33b")))
         (sha256
           (base32
-            "1vhikkwsv2bhahx9nqpmwmi229wbzi8ppxvv7w34pn89hsnrbmwj"))))
+            "0gl91fbxzkvj0774x022fd7jvimxmv7ij098l5jcvv82rpfr09ph"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -87710,17 +87710,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221220.1320")
+    (version "20221221.1300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "aad65c5f681608760e30d4021d3a0f642cc91d36")))
+                 "6421db007258c7dd42a7295424a4ac314635e6af")))
         (sha256
           (base32
-            "1b1q443qnmv61qh4hpp0m5422nkc9fdfgqj601vbvzmsra8pmqsy"))))
+            "0x2271pjwviv47bjsaaxwda1zwj2ak6jall8j2xcp638vq4d6w8v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -101397,17 +101397,17 @@
 (define-public emacs-ryo-modal
   (package
     (name "emacs-ryo-modal")
-    (version "20220103.940")
+    (version "20221221.1355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Kungsgeten/ryo-modal.git")
                (commit
-                 "0a61eed4d2917422d6401b6abe2037c26dab658a")))
+                 "b9e6a0f33b9e2aeb6088accd23ed312083d8f707")))
         (sha256
           (base32
-            "1w47wr1hkq6ghw3h9vxw74amnlzpji35ji5250l8gk9k7nr366ss"))))
+            "1kk3szdiqk3860wfjdfzv8l0fc303gr8gqnj2ynplpq0jp16lviw"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/Kungsgeten/ryo-modal")
@@ -114723,17 +114723,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20221107.2105")
+    (version "20221221.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "b19060f25e55514f3d798d9f5af2dcd5b94a6026")))
+                 "71e5df66b99ffe16de65fb4783e7484b05aae6cb")))
         (sha256
           (base32
-            "12qq84hnilpgw5rvvbcabi7cj42n73abk07iqaf89b78qkl15vr3"))))
+            "17vn4yn1w9a8mn9g2nfhjs1nqx34k07x7j1nz5267acd6si02qjm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
