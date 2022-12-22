@@ -1835,17 +1835,17 @@
 (define-public emacs-adwaita-dark-theme
   (package
     (name "emacs-adwaita-dark-theme")
-    (version "20221220.2331")
+    (version "20221222.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/adwaita-dark-theme.git")
                (commit
-                 "d83415d62d01469df57c4d6f8ec6d61f9672c417")))
+                 "40a375c8b86b58dddcd95e8dc654f127a6a3b910")))
         (sha256
           (base32
-            "1vhfx7r4n870g6nygj8hp5rzfb3y5s3p02981bc3q9297ydxdwbm"))))
+            "1gasg7dqz7vg544bnfnfzdfq50xq7jqwcigkmg2a6n8cm9wrjlh0"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/adwaita-dark-theme")
@@ -20333,17 +20333,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20221206.1228")
+    (version "20221222.931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "f4efda4d169cc2eb43c409a3669df5d78dd17ec6")))
+                 "a69cc103aebd957f967e431399681b6d9d6b52fc")))
         (sha256
           (base32
-            "1qq4p6pm3jslkk180jaf3yglrmd6xrghqfq7bmiyn3jqs2lnvhbz"))))
+            "1c6snnpc9rp6zhhdz411wyh2wn56yq2cdmxxqsp1ibvac8cbb1pq"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -66372,17 +66372,17 @@
 (define-public emacs-liberime
   (package
     (name "emacs-liberime")
-    (version "20221129.616")
+    (version "20221222.1141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/liberime.git")
                (commit
-                 "bbd032c6aa438c240deaf5cefab51c8591029098")))
+                 "70ad2e6e1f0ff74fc8b9b5177b9aba645a18e546")))
         (sha256
           (base32
-            "0yysvlaj5b7s20w00f36j5iqdq9vih72ppm64wqx7wb164nj3b1f"))))
+            "1y9a1khfyz262yarn7rd0hg5vxaz8j80mhad7mh01m6685nfw39b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -69470,17 +69470,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20221217.707")
+    (version "20221222.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "7f78db2751b10b89299e5acac42e51788f386737")))
+                 "3ce114482712ac61bc3b727d8456622b25eb4df9")))
         (sha256
           (base32
-            "0rqf8nx9drscnsjlllqva5qv7wasw8xwksmi8g1y4sfpqlgjmdyf"))))
+            "1bw17yj2w6d09dc8jxnaxq4w2sk9683vivcqdahbj6yj2c15hml7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -70908,17 +70908,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20221206.147")
+    (version "20221222.1434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "58ce23c92072a1274633f7567caa1aeca4c1b550")))
+                 "4c8f6b8848cc47d70431adb74864967cc5986895")))
         (sha256
           (base32
-            "0x8a5q4x34r18qm8xj34n49wjz2gwhaycj4q6a1fi6b3dmnikf76"))))
+            "1rf4xgb82j1g6ybrzz7ak9hlk86d4r0hcprbqz05hvjnb8nyfa4c"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -72064,17 +72064,17 @@
 (define-public emacs-merlin
   (package
     (name "emacs-merlin")
-    (version "20221123.1408")
+    (version "20221222.1239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "dff6628d4f70698d9ea057b8c2a62be7c575ab18")))
+                 "478d99ba381c91a24d7b66b3483520bb50bd030b")))
         (sha256
           (base32
-            "071mb5qyaazqgd9p9i38wf6bjh6k8idz3vc217f37wnzpq70fdsi"))))
+            "09glp5954ig6z981i44921jqx2pav9rari4n29x81cy5s0mlwsi8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -74110,22 +74110,22 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20221220.2135")
+    (version "20221222.1122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "62bd73f3205eafc037eefd09491308355d06208c")))
+                 "1943158fc9fe5838f02e619039fa7b05cf118f8c")))
         (sha256
           (base32
-            "0sggxwx01d0nvz57sys5va1r345yj5j1v72g399pkjh9k9h1dpbd"))))
+            "0n7myh23kpz4vhbdn1dd6awlf0plypb7qmk07wd118bbnr18rd9q"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
     (synopsis
-      "A minimal mode-line inspired by doom-modeline")
+      "A minimal mode line inspired by doom-modeline")
     (description
       "Documentation at https://melpa.org/#/mood-line")
     (license #f)))
@@ -74133,17 +74133,17 @@
 (define-public emacs-mood-one-theme
   (package
     (name "emacs-mood-one-theme")
-    (version "20221220.427")
+    (version "20221222.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-one-theme.git")
                (commit
-                 "1a6bbe3c9344979f216d411472bf953cff825394")))
+                 "dfbc81900737d3382a340feeed24d2bcd9bdedb0")))
         (sha256
           (base32
-            "1ckl84kx7zdf5zdahn9cqwxsjng38s6hsk1sml887gqqy16f3yw3"))))
+            "0scraadlync08zsn84f66jb1s6jch3pr6asgvfm9cms8fsnfmrbs"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-one-theme")
@@ -87709,17 +87709,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221221.1300")
+    (version "20221222.646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "6421db007258c7dd42a7295424a4ac314635e6af")))
+                 "42e2c258e62a1b411ebc2cce479cb9435b6969dd")))
         (sha256
           (base32
-            "0x2271pjwviv47bjsaaxwda1zwj2ak6jall8j2xcp638vq4d6w8v"))))
+            "1dlwqbsilx0470m6jxq4qqqxa9qm0p56ksnl754m1ifsszad8y9w"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
