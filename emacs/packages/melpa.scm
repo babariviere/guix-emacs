@@ -4835,19 +4835,18 @@
 (define-public emacs-auto-compile
   (package
     (name "emacs-auto-compile")
-    (version "20221207.1301")
+    (version "20221221.2246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/auto-compile.git")
                (commit
-                 "a80a8742bc322c67c32f32f9e7833817d1a126d2")))
+                 "f0690b770c71d0a25957b48b8952190eb3fe4111")))
         (sha256
           (base32
-            "00949fxd9r6x8vk9m9060zkaa6npprnwacs78c7p8fiprx0gzypi"))))
+            "0d609gwqs7w1bddmfzcrcx8naka0m1gmr006n8n0vcbyv4akb2kf"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-compat))
     (home-page
       "https://github.com/emacscollective/auto-compile")
     (synopsis
@@ -7656,17 +7655,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20221219.1545")
+    (version "20221222.725")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "ee6d482e9a27ce1721ef3b716aa76de714b7c665")))
+                 "b430ad8b6bcc03830cd910d0540e149f68780cf8")))
         (sha256
           (base32
-            "0pf82li0gzvbrxxk8k5smckxfgpxz89dhp6rbvihsq2zgwvxsih2"))))
+            "1pgcjv7nap8mynb9h418qjsxagvh6bxaq0lw67qilh0h0f1xm2bn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -17079,17 +17078,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221221.440")
+    (version "20221222.334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "828fab775277f25811f2a92ce1587aba232300e5")))
+                 "5b7605a4d3fdc4bf67ae0f873438439de3e4b8f8")))
         (sha256
           (base32
-            "08fxbjx6y0hvs7gdnqnsflxv4s4biir617cfkicgah92qs0zkd5c"))))
+            "1gx0mh0s1p0hh12m1sw9sk8j1xhfiqvzg8djci36d8vbxh72qmhv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -20744,17 +20743,17 @@
 (define-public emacs-deadgrep
   (package
     (name "emacs-deadgrep")
-    (version "20221101.2055")
+    (version "20221222.608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/deadgrep.git")
                (commit
-                 "f687ca31f8d3bd8ebf05165b080b50ba724ce9bf")))
+                 "9da7183e60c75bacefd44025fc5e5335b7c5862a")))
         (sha256
           (base32
-            "0xvzchpwmiznfbrjqi5v3kxz625n117j4aa6ix8r6s9fhk8bm5j0"))))
+            "0wgj6k7cgg46lm4ajif814kbn4ljf1ry3q03bx6pgaizpmr2wwbx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-spinner))
@@ -47217,17 +47216,17 @@
 (define-public emacs-god-mode
   (package
     (name "emacs-god-mode")
-    (version "20221214.2057")
+    (version "20221222.7")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/god-mode.git")
                (commit
-                 "c2d655e0baeb7e90eadb0a9ffe09b2a87c1fe34d")))
+                 "c7754eaadaeabae2df94e23317b4a04d19b3f9e0")))
         (sha256
           (base32
-            "14wjjdcvilix6ddaq6a1f3d27hh6w492qmpvyvgvw24d7xw935fh"))))
+            "1njln47w25ix9w0xjv02110ngr8d8ma3w7db0x4xcxhihbl65zly"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/god-mode")
@@ -81862,17 +81861,17 @@
 (define-public emacs-org-caldav
   (package
     (name "emacs-org-caldav")
-    (version "20221221.1700")
+    (version "20221222.37")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dengste/org-caldav.git")
                (commit
-                 "45308f8d695828addfdc1ae9d79ee1eca40fd2f4")))
+                 "843d3668207c0932320dde22bf83b81662ce0c4c")))
         (sha256
           (base32
-            "1kfpwcrpk68b9cfb5pzy9nf7hibwpqxijzlb8v7kgbk41v5p4nwg"))))
+            "1yrxf5mxzrclggkjzc7p72vkry827pk0jjs8cj450d3g3vl58hv0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-caldav.el")))
     (home-page "unspecified")
@@ -122760,17 +122759,17 @@
 (define-public emacs-yaml-pro
   (package
     (name "emacs-yaml-pro")
-    (version "20220919.1312")
+    (version "20221222.151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml-pro.git")
                (commit
-                 "36d340b27a008478466e0158c8ef4098230bfe49")))
+                 "391e67b6ebebd804fdc0497cba0ae31ffac0b891")))
         (sha256
           (base32
-            "1m8vkhr4yqwkgmd0inlmmc6bv9x065q9anv0gy2vl15lss1cyljk"))))
+            "09p0ggry5gs81hx2nr1q7plsx16fh36mm0vrjv0d301qsksi048s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/yaml-pro")
