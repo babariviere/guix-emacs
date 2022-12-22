@@ -29783,17 +29783,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20221208.1524")
+    (version "20221221.2103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "f12955c7ac8bebe762cee30f89c64be20b672ce2")))
+                 "e7a921060c867c2e61cea42ff10fde92a36be445")))
         (sha256
           (base32
-            "1iszl93wx225bdbdds0hn85nahi204is214bvfzpr7s7whxscbs2"))))
+            "0hwla2kg6zdadwl6bj2c5bikbjbf7yv79fadbb22150aalr54z68"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29808,17 +29808,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20221213.1920")
+    (version "20221221.2103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "34272d51c519d99e0e1be989382aca33ae7bc662")))
+                 "e7a921060c867c2e61cea42ff10fde92a36be445")))
         (sha256
           (base32
-            "1pk65xiy1q0i7w6xmzbcw6wa8yd5yblxwxahcyis21a4cja7bx23"))))
+            "0hwla2kg6zdadwl6bj2c5bikbjbf7yv79fadbb22150aalr54z68"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -81862,17 +81862,17 @@
 (define-public emacs-org-caldav
   (package
     (name "emacs-org-caldav")
-    (version "20221216.1507")
+    (version "20221221.1700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dengste/org-caldav.git")
                (commit
-                 "afb5d1ed7ed7a649d90ebed412c746d1171dbc77")))
+                 "45308f8d695828addfdc1ae9d79ee1eca40fd2f4")))
         (sha256
           (base32
-            "1dq1lzk551l01r5393ihgkpczf25a4xzjvmn5r7fb4f5h6v5nw1q"))))
+            "1kfpwcrpk68b9cfb5pzy9nf7hibwpqxijzlb8v7kgbk41v5p4nwg"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-caldav.el")))
     (home-page "unspecified")
@@ -111812,17 +111812,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20221127.454")
+    (version "20221221.1954")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "1203094cad705b4b9c861eee120e57a5a26e6ef1")))
+                 "eafb06e9d2be347f22b356388a8fa05b3cf24599")))
         (sha256
           (base32
-            "01ap4jg0yjnrpqxn5r6mp6pq5h776alcl4a7zhfivrkk50a3zj4j"))))
+            "0hidnwbjv0iy3p4dzha6z2p16x1p7li6i2r7553fgfczwlcjyymf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/tempel")
     (synopsis
@@ -121568,17 +121568,17 @@
 (define-public emacs-writefreely
   (package
     (name "emacs-writefreely")
-    (version "20221024.221")
+    (version "20221221.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dangom/writefreely.el.git")
                (commit
-                 "ef22839e590ea62f8ec9510bf03fba8fa3aef4c4")))
+                 "db70444eb5fbe0820754574d70b1ae44967607dc")))
         (sha256
           (base32
-            "1pb8gmbqj40m1xqbhaa8k8j29zl39bfsib74m6rcwlzbn2fk5gdg"))))
+            "1570vi25pwsws8dskmgclnxc6hjwma44wwvddnnmp8jy8a4fsa3l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ox-gfm emacs-request))
