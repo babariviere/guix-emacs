@@ -16745,17 +16745,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221220.2150")
+    (version "20221223.1212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "4ff45b378210ce4bc942eb366011ee647f575506")))
+                 "913d2cbef55e9010ee1304f4998a45a5573e9930")))
         (sha256
           (base32
-            "08zj0szdjnh5kw1jslw09icj8bmk4l3nzj5baq60k4aran9zby4i"))))
+            "1dcr0wfy0hlky78aqk79y7vpa523gpyd0jdp4w78jbasigw1a4lq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -87709,17 +87709,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221223.650")
+    (version "20221223.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "2289b842777cc665ed43099fe7cf49124b7745fc")))
+                 "ceb41ea7d04fd239de28288652803d5d6b29d5b8")))
         (sha256
           (base32
-            "1qhkxvf0zza46nj6wc4nhha0qa8s5mfp74j75fwwxq7x0mk78h6i"))))
+            "1pr5f39mn4yiqcnylvkwr0ibb902n7sl9ava9jdvjbj40vnas6l2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
