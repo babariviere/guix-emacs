@@ -3373,17 +3373,17 @@
 (define-public emacs-ansilove
   (package
     (name "emacs-ansilove")
-    (version "20220629.2339")
+    (version "20221222.1932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-ansilove.git")
                (commit
-                 "3e3f6e8baa2135b072855567e4a1fc599a2fc800")))
+                 "6d92fbb70f5a1bd08833bac0a722814872658375")))
         (sha256
           (base32
-            "18p448arf6b6hbqvcxfvw6p45zijfzi2rg91dh26xbzaa398p9bj"))))
+            "13qxzsfmigsyz6rp4k72vflbj0324qq1csispn1sgnjfb4lrd6pc"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*")))
     (home-page
@@ -10311,17 +10311,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221206.2139")
+    (version "20221222.2224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "351d7a65fc8ac76d7d5c737354ed7b2d7750b261")))
+                 "80d051389e3cc49367435f7b5d292d45c529ab49")))
         (sha256
           (base32
-            "1xc3rjn1fd99188vjbzf229lp3rn6sbmxkrif52xj2cwx485wsm1"))))
+            "0ckf4s1daigyjz4nifc2y6fz6z0841h9l9a9n8vks4b3dyx0jwd8"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -17078,17 +17078,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221222.334")
+    (version "20221222.2153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "5b7605a4d3fdc4bf67ae0f873438439de3e4b8f8")))
+                 "6aef8b5239b2cdd09badac757a345fd6edfeadbf")))
         (sha256
           (base32
-            "1gx0mh0s1p0hh12m1sw9sk8j1xhfiqvzg8djci36d8vbxh72qmhv"))))
+            "1jgrcsrpdj9yqvp6x21r6c0wq3k7sii4djm4mbmiyw9prl67qawh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -27193,17 +27193,17 @@
 (define-public emacs-el-fetch
   (package
     (name "emacs-el-fetch")
-    (version "20221204.1846")
+    (version "20221222.1930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-el-fetch.git")
                (commit
-                 "1969852ffd44c0f089c939e0f598d931a4d38928")))
+                 "f499d4ae6b3e0abdeee97ca234bafa5a2873806d")))
         (sha256
           (base32
-            "0am0j1gnlz8xzn4dhi5akw48nj89i9x657d54js8ydgdg10azls2"))))
+            "0ggwhlgy5mqid7hhgq59fmsmssj3y00bmwpmzqgkqa9mx01b4924"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/el-fetch/*")))
     (home-page
@@ -63061,17 +63061,17 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20220903.901")
+    (version "20221222.1650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "c1995b1a2ea09d7a2af69edcc2a47f5b6d217d5f")))
+                 "141daaa4b0dc07fe25423609dcd14441a9f2613e")))
         (sha256
           (base32
-            "0qa8q5asnjwl4b3ljgpl3ckahfrr1vbmbqha4paq5b63aiblgm2g"))))
+            "01z86a5bfpgsczy4xbzl6wwg5wwcjnjb7za7xsdv8lvam1s4868n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-f))
     (home-page "https://github.com/psibi/justl.el")
@@ -86097,17 +86097,17 @@
 (define-public emacs-orgstrap
   (package
     (name "emacs-orgstrap")
-    (version "20221216.131")
+    (version "20221222.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tgbugs/orgstrap.git")
                (commit
-                 "fff0ab9167a7fd4cdc094c27dd9312f194b38500")))
+                 "013140099253637615bdd63c475bbc348ef727d0")))
         (sha256
           (base32
-            "12xhmwdigplsny2x1l413h6z79ph1jfgq85v863salk2109sdb7p"))))
+            "1siy23lnrki4gvfgzx1zqxhq5zr4b8q921azcjji7f8nfx6f37vn"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("orgstrap.el")))
     (home-page "https://github.com/tgbugs/orgstrap")
@@ -87709,17 +87709,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221222.646")
+    (version "20221222.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "42e2c258e62a1b411ebc2cce479cb9435b6969dd")))
+                 "21e469385a88295cd4870906993b8bff779877de")))
         (sha256
           (base32
-            "1dlwqbsilx0470m6jxq4qqqxa9qm0p56ksnl754m1ifsszad8y9w"))))
+            "0mqix2m7rlvfyfps0l56rzqyj36d92dz79k2mdzzbfznzf955d8y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -95772,17 +95772,17 @@
 (define-public emacs-pydoc
   (package
     (name "emacs-pydoc")
-    (version "20220531.1457")
+    (version "20221222.1426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/statmobile/pydoc.git")
                (commit
-                 "c8b667e17bfe3e63221f822c5c4d58c8fb4fea90")))
+                 "c9d8b5249c1b3814da062ed9976e4137d6e8d869")))
         (sha256
           (base32
-            "082ar5w28dknaa63mf587vdzr78xlnvh8lbxqq3hk6qa2c72akam"))))
+            "1ifyhdcvj25rnrvq78qjma3dg826hpj3x5ic1sydrvj0yb13jhim"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/statmobile/pydoc")
     (synopsis
@@ -101322,17 +101322,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221221.435")
+    (version "20221222.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "ca5bd11ce701843eda9ea0bd6343af9bd5dc2f25")))
+                 "cd0cae47231c59b1e37ceb24c57b00b8fc672378")))
         (sha256
           (base32
-            "0ad5mfajcv88qllx25a44jlsac1kqycaf8d8gl9hg563hn80383a"))))
+            "0cncrpnsp3laqi5rvlp8sdcis35cmrl5lypa5kvilpjkm09qms0g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -102239,17 +102239,17 @@
 (define-public emacs-scratch-message
   (package
     (name "emacs-scratch-message")
-    (version "20211221.1527")
+    (version "20220209.2207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisirs/scratch-message.git")
                (commit
-                 "efb2db33e52e5d4a4f1bafbd8b459a3b91c3c87a")))
+                 "0d4198f6effd8f118bf03ee4979f566041ef6a9b")))
         (sha256
           (base32
-            "117a3v3s94jra3dlsaafgg6594gw6gbdmh1ay5zar5yjy7q6pi2f"))))
+            "0xh67x7pkmppbiacpw3wqipji3na0plnlswvnd355kz2gjab3hhp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thisirs/scratch-message.git")
