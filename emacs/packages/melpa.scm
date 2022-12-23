@@ -12271,17 +12271,17 @@
 (define-public emacs-circadian
   (package
     (name "emacs-circadian")
-    (version "20181024.1256")
+    (version "20221222.2357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/guidoschmidt/circadian.el.git")
                (commit
-                 "925451a00e6defd4f5ac1a7fd76ffefefdbce3ef")))
+                 "aca6c11412f568be1f46ae3116a8a829f104e5f5")))
         (sha256
           (base32
-            "0bmjrfijaicwa5vvlfr47xmjcgj2npmqfcj63nczxc316kka4q9q"))))
+            "1xz2baspsk54wafgb3jcv542y9bbfpvbj2ji738la6wmm95vhwiy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/GuidoSchmidt/circadian")
@@ -26504,17 +26504,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20221214.1137")
+    (version "20221223.124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "b758e70fc73b6f8af4089417c19ef14b57b7be68")))
+                 "ffd331da5f760723c09e8bc9dd45602a1f5ec488")))
         (sha256
           (base32
-            "0vq4b38lpx21wnsr5kidf7afi5bgpsf4is2v0lblay4abv5a8kl7"))))
+            "1hndz49jvfl91d470zppv3zc3ziqj89sjm8wqbac89nf1r3k9inh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -71348,7 +71348,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221211.2130")
+    (version "20221222.2357")
     (source
       (origin
         (method url-fetch)
@@ -71358,7 +71358,7 @@
                ".tar"))
         (sha256
           (base32
-            "0ab3bfi4mcmbbphybf9m2pfpfd2j5r68wzw0fn48a4a4dpccclpg"))))
+            "0gzx3iymipk87ccm5vcpasc67mwd7wy0ljdp00q9nb48fwjrfs2d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -87709,17 +87709,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221222.1712")
+    (version "20221223.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "21e469385a88295cd4870906993b8bff779877de")))
+                 "2289b842777cc665ed43099fe7cf49124b7745fc")))
         (sha256
           (base32
-            "0mqix2m7rlvfyfps0l56rzqyj36d92dz79k2mdzzbfznzf955d8y"))))
+            "1qhkxvf0zza46nj6wc4nhha0qa8s5mfp74j75fwwxq7x0mk78h6i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -104380,17 +104380,17 @@
 (define-public emacs-shx
   (package
     (name "emacs-shx")
-    (version "20220424.2124")
+    (version "20221222.2026")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/riscy/shx-for-emacs.git")
                (commit
-                 "15bbc0f89a4927792e2e791378de827ab698ed69")))
+                 "d24aa4d45e2071cdd700e27f208c753f4de3f4a3")))
         (sha256
           (base32
-            "1llsf65yz2rzj0dyvqjirb5z3cxdr7251iaffbx9sl761nsg2nk9"))))
+            "0hfcyip9pm76iimzgamdxmwh8dbhndk2z0fck244vs91msfm0iib"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/riscy/shx-for-emacs")
@@ -107851,17 +107851,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221216.114")
+    (version "20221223.110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "878130a23379665534f89d3ab028bba9a545404e")))
+                 "89158d866c2582e133720f2d743a29a7f1d988ed")))
         (sha256
           (base32
-            "09pa0r0130xdm5ckakf1w085ka8pp79m25mkd37kj82j3m6whx4d"))))
+            "059apfa0lhv3siacq8c82g86dizx5dvl5439h01w7z4s6wqzh9qf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
