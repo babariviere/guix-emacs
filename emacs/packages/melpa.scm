@@ -7610,17 +7610,17 @@
 (define-public emacs-binder
   (package
     (name "emacs-binder")
-    (version "20220429.2055")
+    (version "20221224.1132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/binder.git")
                (commit
-                 "127463a7cb8cc2fa9904d3feb3fca95d2244ddcc")))
+                 "828f2fd079769e5a2c50f8998e84d63a9a95e797")))
         (sha256
           (base32
-            "00nizafvpbhzkc5vnwdgrg5f208gwap79av2ayj8zp76fi718yfk"))))
+            "1pa63y6ldm8gbzpx365i3hd147qglkyi10vlj52rcd3p8qvrg9gq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rnkn/binder")
     (synopsis
@@ -75395,17 +75395,17 @@
 (define-public emacs-multiple-cursors
   (package
     (name "emacs-multiple-cursors")
-    (version "20221223.1522")
+    (version "20221224.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/multiple-cursors.el.git")
                (commit
-                 "558198239e7c97856e1aa6eb9ca4be7de084ef41")))
+                 "7f255ce69603de084d25f615b8556c093cce906b")))
         (sha256
           (base32
-            "1l4lz6kzjl3g4gigb28f00an6p0bi06r6a83p4da3j9rjmi4r0y8"))))
+            "1kj3i1crfx5h8nkmbdncvz0b00bldsk35kr6spxf7id8vj0z1knl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/magnars/multiple-cursors.el")
@@ -85729,17 +85729,17 @@
 (define-public emacs-org-zettelkasten
   (package
     (name "emacs-org-zettelkasten")
-    (version "20220819.2335")
+    (version "20221224.1144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymherklotz/emacs-zettelkasten.git")
                (commit
-                 "505fd41dea012e743962c3a376c1e63e7a1e127e")))
+                 "d1309fe7f770a865441b91c1c8327036c307ef54")))
         (sha256
           (base32
-            "13pf2ygyizqk3axfl7s246an9w1ih38jq1knzy5f4qn2pf5k2zjs"))))
+            "009i1qkvk59ccq0sbp65n9fjl08gf6wbhfdnlcmvv88ixl3l3h0p"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-zettelkasten.el")))
     (home-page
@@ -87709,17 +87709,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221223.1228")
+    (version "20221224.1459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "ceb41ea7d04fd239de28288652803d5d6b29d5b8")))
+                 "aecba3dcc6e2951c0006359667458f07f2b2825f")))
         (sha256
           (base32
-            "1pr5f39mn4yiqcnylvkwr0ibb902n7sl9ava9jdvjbj40vnas6l2"))))
+            "1lqzalig86ziy2vn5h0af26yy4iia6ps7vbg262wiy0lcszl9blh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -101322,17 +101322,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221222.1254")
+    (version "20221224.1537")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "cd0cae47231c59b1e37ceb24c57b00b8fc672378")))
+                 "f4efdd84b5de96194f294f0ee5689e9538eb11ea")))
         (sha256
           (base32
-            "0cncrpnsp3laqi5rvlp8sdcis35cmrl5lypa5kvilpjkm09qms0g"))))
+            "07gmfca6pixk42x5h3xfygmxv70pqdm8zwyzcddpgff8l88jn1c9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
