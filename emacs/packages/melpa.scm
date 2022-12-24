@@ -10194,17 +10194,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20221212.932")
+    (version "20221224.421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "fe765d16e3795cb2960dc1770f7e51ce0956927a")))
+                 "7da5a73c26c31f9d5102d42cd1bf61ce5d9cf31c")))
         (sha256
           (base32
-            "0kya47z2yvy0qj1z0bd3fsq0g905wimif05fxyz3dijm4gvnric9"))))
+            "02d1a3z1lczfl8cm5gv85w3afchz1m79l9s30hjwx38k2jqqhrr4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -29782,17 +29782,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20221221.2103")
+    (version "20221223.2226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "e7a921060c867c2e61cea42ff10fde92a36be445")))
+                 "589b057d0003af99d376462531d2d4453439da52")))
         (sha256
           (base32
-            "0hwla2kg6zdadwl6bj2c5bikbjbf7yv79fadbb22150aalr54z68"))))
+            "1psljgi4vc1allgc0avldz4y2ifa91ibr9j1i6nny7hla3gfwx7j"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29807,17 +29807,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20221221.2103")
+    (version "20221223.2215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "e7a921060c867c2e61cea42ff10fde92a36be445")))
+                 "589b057d0003af99d376462531d2d4453439da52")))
         (sha256
           (base32
-            "0hwla2kg6zdadwl6bj2c5bikbjbf7yv79fadbb22150aalr54z68"))))
+            "1psljgi4vc1allgc0avldz4y2ifa91ibr9j1i6nny7hla3gfwx7j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -62593,17 +62593,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20221121.522")
+    (version "20221224.12")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "1d226db4da79d48427b623c2825e499030a6d50f")))
+                 "d2665a8ed9335ca980b3f382e1d1af978f4ded3f")))
         (sha256
           (base32
-            "19wzjdqdykr8q75k2q42h78smnh5bhf5k19xzadslkn09208dphk"))))
+            "0rj8dfxn1rgcmrxzbgnpfh0cqi18d25g4p8g39yg78frla766k4q"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -64121,17 +64121,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20221219.2102")
+    (version "20221223.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/debanjum/khoj.git")
                (commit
-                 "23ca5a2d43a4e31d4384cba084d794e5daa5f869")))
+                 "08dc5e3324997196ac1f2f87f99d81d81b3323c6")))
         (sha256
           (base32
-            "1am1vn2zc0c8p5kwhl1iji0hgagynp5cx0s1d55y67fm9wzl1gsa"))))
+            "123w0nssn7nzn6kbppri4va1pabrlhs3nqvnal5km9fs9b1xrlw5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/interface/emacs/*.el")))
@@ -71348,7 +71348,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221222.2357")
+    (version "20221223.2329")
     (source
       (origin
         (method url-fetch)
@@ -71358,7 +71358,7 @@
                ".tar"))
         (sha256
           (base32
-            "0gzx3iymipk87ccm5vcpasc67mwd7wy0ljdp00q9nb48fwjrfs2d"))))
+            "0q2p5c6kwhajw8qr55lbf2zwh8f8iri9wcsff6pvr6dkknzpr5zy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -81366,17 +81366,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20221128.2330")
+    (version "20221223.2211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "004cee6b8e01f8eb0cb1c683d0a637b14890600f")))
+                 "e3062280f924933e9c6f5dd1a71729ed98c8493a")))
         (sha256
           (base32
-            "115bwqi2yc44bgvcl7lha8p2s6jgh5hksn4wa9s0kpfxhi14jwmy"))))
+            "13dcj8nda4v3cc1xd90hpwp2bgn9hblfk6rlizb1gci9ncn256sl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -107851,17 +107851,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221223.110")
+    (version "20221224.105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "89158d866c2582e133720f2d743a29a7f1d988ed")))
+                 "d4656b822ebd8446c6a12bcfc4e7849dbeaac68f")))
         (sha256
           (base32
-            "059apfa0lhv3siacq8c82g86dizx5dvl5439h01w7z4s6wqzh9qf"))))
+            "0cfizdc00k6qwvgv8w3d6yb079w6nvn2gma9giccjjvs193bn5p7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
