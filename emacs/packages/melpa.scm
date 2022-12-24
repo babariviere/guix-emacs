@@ -10311,17 +10311,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221222.2224")
+    (version "20221223.1838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "80d051389e3cc49367435f7b5d292d45c529ab49")))
+                 "9b97dbbc7624415ee25f79de9ea357feb1e2e547")))
         (sha256
           (base32
-            "0ckf4s1daigyjz4nifc2y6fz6z0841h9l9a9n8vks4b3dyx0jwd8"))))
+            "19nzf01sfmfwgckvvbhn3xpdn39vz55vcgsin0pnj5nsckmm78sx"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -12271,17 +12271,17 @@
 (define-public emacs-circadian
   (package
     (name "emacs-circadian")
-    (version "20221222.2357")
+    (version "20221223.1734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/guidoschmidt/circadian.el.git")
                (commit
-                 "aca6c11412f568be1f46ae3116a8a829f104e5f5")))
+                 "9959e4b9d2ed9920b668fc229aab1f5fa5bd8584")))
         (sha256
           (base32
-            "1xz2baspsk54wafgb3jcv542y9bbfpvbj2ji738la6wmm95vhwiy"))))
+            "1hydxhmcchaprfmp08xr6nlksz6y97jbf4mswj69bgdfjfbf22km"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/GuidoSchmidt/circadian")
@@ -43286,17 +43286,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20221220.2014")
+    (version "20221223.1440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "5b3b44eb51626df6e81d8cde77096bb190d5b17d")))
+                 "942450534547e2081a3ce6c13b6ccfbb4d6c05f4")))
         (sha256
           (base32
-            "1m3z3bjpayc7g3j52dh4llzkc0grrkj3vv8li7r50ypkyy2hw49c"))))
+            "01jnr1i2bj70jrhvyis2k0fljb1lwf1wns6xgs1ad3ndvgyi3c42"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/diku-dk/futhark-mode")
@@ -68746,17 +68746,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221220.1130")
+    (version "20221223.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "4cd7b9d4d7da45b544ab35a701bcd785dd20c2ed")))
+                 "7dee0d63fa1b6628be4aaea86b2298244eb3d84e")))
         (sha256
           (base32
-            "1w87vw3bv056s53sw500jxlwl56m0yybwmsnyj097v0m5xddh6f7"))))
+            "1b60i715p7a4anz7j5k22zrvr7fsixpxh86hzkzl3xigcfim92k0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75395,17 +75395,17 @@
 (define-public emacs-multiple-cursors
   (package
     (name "emacs-multiple-cursors")
-    (version "20221126.743")
+    (version "20221223.1522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/multiple-cursors.el.git")
                (commit
-                 "fe0d5167459b792a699af782685582a195852cb9")))
+                 "558198239e7c97856e1aa6eb9ca4be7de084ef41")))
         (sha256
           (base32
-            "094lvhg7acjlf8sa1jrw35vcxhmfddjc8z57bfvh95vckgrrzw8d"))))
+            "1l4lz6kzjl3g4gigb28f00an6p0bi06r6a83p4da3j9rjmi4r0y8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/magnars/multiple-cursors.el")
@@ -106982,17 +106982,17 @@
 (define-public emacs-snow
   (package
     (name "emacs-snow")
-    (version "20221216.942")
+    (version "20221223.1851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/snow.el.git")
                (commit
-                 "f415e8af3d7a4016c1f84964669d84d58d4b4d15")))
+                 "59a82054cfd8df9db632ca4c9e2fccc9e97368a5")))
         (sha256
           (base32
-            "0q9sg2cxhp5clyj6qzymfl6w7x1fw89dvsazc6qf7rnvnhmqq552"))))
+            "14vf6vzz374flqlb8n4xzhvb352jkap83kqbgsgcpy1w90fh6dn6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/snow.el")
@@ -112957,17 +112957,17 @@
 (define-public emacs-tidal
   (package
     (name "emacs-tidal")
-    (version "20221001.2224")
+    (version "20221223.1759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tidalcycles/Tidal.git")
                (commit
-                 "aa5f3a976567552de57090e1b67b537cd08b4367")))
+                 "14064165cd5b6719af4605087d6e81332920ad60")))
         (sha256
           (base32
-            "0rjpg4ig1wjc6k9dicb2nyc2bvxhwlrj4mb0agpy434j1f1xdm2z"))))
+            "11siqw72q7bjhnyd92k35v7ssaxa845v5ax8nlnc3li7bi2vv0gq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-haskell-mode))
     (home-page
@@ -119669,17 +119669,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20221012.800")
+    (version "20221223.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "4b8a695825fda366927894e498421f35fce1cbb9")))
+                 "25855a1f2868a2e10b941a41656fa8c00bdc0c62")))
         (sha256
           (base32
-            "0m8fhy3vgczgl051l05lycydpybki2b5gi63i134h2xmgm2m5rvq"))))
+            "12kz8cgs23n7xlvhh3sk6pi9zi89yw48p9m8agj9dmyma3kmfc0h"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
