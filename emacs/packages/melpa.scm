@@ -3652,17 +3652,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20221210.207")
+    (version "20221224.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "deab8fb972f0cbc03c6a5409564435121b5db9c2")))
+                 "5ebd6bf5819fbf2adfa18162f270825e6ca4379c")))
         (sha256
           (base32
-            "0vpg5m5cg4y0gw11azdzfzimsdvk7mka77w1y3c4q83qsxq3jidz"))))
+            "1shm5q1awpzf78mymf045qghy4z6hhdhklrs96rr4x27hypb7b79"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -10708,17 +10708,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20221207.1745")
+    (version "20221224.1835")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "1ebbed4621b882ae27f1a53d4f1e17d742d6a35e")))
+                 "86b16248ef2ce450def4a00a0ca5170c102da623")))
         (sha256
           (base32
-            "1as9kyqbmsvhyyxcvdcfc2cy8jbdpnrxkq0cfcwkvmrfj6x78fir"))))
+            "13xfqazhww4lr7gic8lykv1q3qda4w0r8vykddjc8z95sk67kr68"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis "Catppuccin Theme")
@@ -16745,17 +16745,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221223.1212")
+    (version "20221224.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "913d2cbef55e9010ee1304f4998a45a5573e9930")))
+                 "84bacb5b454c046d8f388f1386ffa39d52ddfd45")))
         (sha256
           (base32
-            "1dcr0wfy0hlky78aqk79y7vpa523gpyd0jdp4w78jbasigw1a4lq"))))
+            "0p19rs5xrb9d12n6czn479xzq3srxg0v0kp5kglb7arsngxln9gc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -29782,17 +29782,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20221223.2226")
+    (version "20221224.1741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "589b057d0003af99d376462531d2d4453439da52")))
+                 "ee014d5f3c86eafae673a947b492fa03ffbacb4e")))
         (sha256
           (base32
-            "1psljgi4vc1allgc0avldz4y2ifa91ibr9j1i6nny7hla3gfwx7j"))))
+            "014iki23i9922jg3dvg4g8lchafzg6dgh44wj44aiygvwg1nkfsa"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29807,17 +29807,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20221223.2215")
+    (version "20221224.1741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "589b057d0003af99d376462531d2d4453439da52")))
+                 "ee014d5f3c86eafae673a947b492fa03ffbacb4e")))
         (sha256
           (base32
-            "1psljgi4vc1allgc0avldz4y2ifa91ibr9j1i6nny7hla3gfwx7j"))))
+            "014iki23i9922jg3dvg4g8lchafzg6dgh44wj44aiygvwg1nkfsa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -70908,17 +70908,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20221222.1434")
+    (version "20221224.1657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "4c8f6b8848cc47d70431adb74864967cc5986895")))
+                 "c1365bf0c7b5d32e7531fa8f1a9a3b64a155cec0")))
         (sha256
           (base32
-            "1rf4xgb82j1g6ybrzz7ak9hlk86d4r0hcprbqz05hvjnb8nyfa4c"))))
+            "053zczsi1giyg5mkvnkwwcm7wxq9lzg4f31dfw45vm2w6x05yrlv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/marginalia")
     (synopsis
@@ -84532,17 +84532,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20221205.355")
+    (version "20221224.1850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "f9228ce31969cab9ca46ad4890e82e2ea7de3738")))
+                 "256fe73e7ad57f820b7fa1006b8020ab290911fa")))
         (sha256
           (base32
-            "01843hsvlmkgg2wrwvx1xqwmhscvzwdgr5al37glwazf8f8dad0a"))))
+            "087aqz1mb5hk10a1ag914pnbc47rbk5dchhjvcf13rgg140imjhv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -96603,17 +96603,17 @@
 (define-public emacs-q-mode
   (package
     (name "emacs-q-mode")
-    (version "20220306.1629")
+    (version "20221224.2024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psaris/q-mode.git")
                (commit
-                 "3eac36d23131088e32057716a3241407fa8dc041")))
+                 "e18a7b40e876a5502d9d2d6d16a356295c555fab")))
         (sha256
           (base32
-            "1wlgkyh8ci03448n5fm0p4z7jkhbrvrd3s8rbxvbdbl6ll1d9x15"))))
+            "0p5m2hxmf7r9hr00kjhjgpvl2ddk4hwaw9s0m6rlpg9x24bmnzqs"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/psaris/q-mode")
     (synopsis "A q editing mode")
@@ -104380,17 +104380,17 @@
 (define-public emacs-shx
   (package
     (name "emacs-shx")
-    (version "20221222.2026")
+    (version "20221224.2230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/riscy/shx-for-emacs.git")
                (commit
-                 "d24aa4d45e2071cdd700e27f208c753f4de3f4a3")))
+                 "b99d16f36bc278d668d8428c4bc9af77064c336a")))
         (sha256
           (base32
-            "0hfcyip9pm76iimzgamdxmwh8dbhndk2z0fck244vs91msfm0iib"))))
+            "1wkqnc5n8if8fsh7f3bdr5nzn6dbj1nzdxlmnz8nflmx4g32fp6v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/riscy/shx-for-emacs")
@@ -107851,17 +107851,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221224.105")
+    (version "20221225.114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "d4656b822ebd8446c6a12bcfc4e7849dbeaac68f")))
+                 "9515f5e4b0473d61b86bbc7fcebe74aae5b03554")))
         (sha256
           (base32
-            "0cfizdc00k6qwvgv8w3d6yb079w6nvn2gma9giccjjvs193bn5p7"))))
+            "1lsbi075wxq8myrpqmm4zr0qpn2alq216rbxrkxh15wx5f0w57a9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -119669,17 +119669,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20221223.2114")
+    (version "20221224.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "25855a1f2868a2e10b941a41656fa8c00bdc0c62")))
+                 "18e4ef2061e12fc4cc96fdc2caf2760a85dec248")))
         (sha256
           (base32
-            "12kz8cgs23n7xlvhh3sk6pi9zi89yw48p9m8agj9dmyma3kmfc0h"))))
+            "0fmd2yvm9gm9713ri6n7q4r3gks58l34ynih69wn1albcc814pds"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
