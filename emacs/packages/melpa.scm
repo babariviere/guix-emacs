@@ -71348,7 +71348,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221223.2329")
+    (version "20221226.531")
     (source
       (origin
         (method url-fetch)
@@ -71358,7 +71358,7 @@
                ".tar"))
         (sha256
           (base32
-            "0q2p5c6kwhajw8qr55lbf2zwh8f8iri9wcsff6pvr6dkknzpr5zy"))))
+            "0inm754xc08gyw5inngv6mk2912n27s4xdcky5i6cv8j76m67bgz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -84094,7 +84094,7 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20221225.1809")
+    (version "20221225.2351")
     (source
       (origin
         (method git-fetch)
@@ -87709,17 +87709,17 @@
 (define-public emacs-ox-spectacle
   (package
     (name "emacs-ox-spectacle")
-    (version "20221224.1459")
+    (version "20221226.53")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/ox-spectacle.git")
                (commit
-                 "aecba3dcc6e2951c0006359667458f07f2b2825f")))
+                 "cc05d608ab4ae805b793c4764ed0bb17a765729b")))
         (sha256
           (base32
-            "1lqzalig86ziy2vn5h0af26yy4iia6ps7vbg262wiy0lcszl9blh"))))
+            "09q93y27vnnn8mxa9nsf349fr5h8phn24y550d70kwmw9lf706v2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/ox-spectacle")
@@ -101276,17 +101276,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20221220.1926")
+    (version "20221225.2240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "384051e23f0f2e2950e6ce2efd1a2e8ac0c53613")))
+                 "0431b10d2520918f3f250fdf4dc96e8d2eb7ea76")))
         (sha256
           (base32
-            "11vwl7qxcphwq3dignicvw2bswh1pfbj8dbfaadfqjm0aq7ild3m"))))
+            "0fvcxcandj9fxdiyknrh7ckprckapqmmy3qyj8r0psgmhdf9iym0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -106982,7 +106982,7 @@
 (define-public emacs-snow
   (package
     (name "emacs-snow")
-    (version "20221225.2027")
+    (version "20221225.2110")
     (source
       (origin
         (method git-fetch)
@@ -107991,7 +107991,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20221213.158")
+    (version "20221226.400")
     (source
       (origin
         (method url-fetch)
@@ -108001,7 +108001,7 @@
                ".el"))
         (sha256
           (base32
-            "0mbddzdgzkivv8bnlkhll2zh43wy2rmchrd78y072v6x8038r708"))))
+            "1mwjqf1ncvga7dmv7dfp8xzc6zy5jg0gxyi6r7dw559j0hwx2mja"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -112890,17 +112890,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20221219.537")
+    (version "20221225.900")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "fab6ed53fe33b0a4d8cd1744be3fe2b57625dad6")))
+                 "b7c4ecdd9179c6786c6da04cf93eb6eee0819bf7")))
         (sha256
           (base32
-            "078wwrs47df46hv8s6485fg7vr4dldnpl1i0yzcrrrw97m9b7his"))))
+            "1ng741hg7rm34zma72f0jbhw18la6dlzdqdi8aapy35j1fphzhr1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -119669,7 +119669,7 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20221225.1809")
+    (version "20221225.2142")
     (source
       (origin
         (method git-fetch)
