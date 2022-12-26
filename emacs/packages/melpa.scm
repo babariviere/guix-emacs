@@ -16745,17 +16745,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221224.1643")
+    (version "20221225.1409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "84bacb5b454c046d8f388f1386ffa39d52ddfd45")))
+                 "7c514c0a2414347c4cd0482a691371625a8a1c53")))
         (sha256
           (base32
-            "0p19rs5xrb9d12n6czn479xzq3srxg0v0kp5kglb7arsngxln9gc"))))
+            "1adj6f36nj3mylqjg2hmhyqw2c9fbmrknwkzdz1fx9ap12lhk04l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -27122,17 +27122,17 @@
 (define-public emacs-ejc-sql
   (package
     (name "emacs-ejc-sql")
-    (version "20221208.2116")
+    (version "20221225.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/ejc-sql.git")
                (commit
-                 "c236f79b48c0f4691500723841a9d356203a4b13")))
+                 "c02e5c6c5bf98b62af456ddbc9f14bfd39f04333")))
         (sha256
           (base32
-            "083qiywyms1ji1rgjz281gaicrwjr5qni1dyh928zlppd5w95mgg"))))
+            "0b72f8cfq0jzsh3lxwwx4clnhzd13gh1l9p02xgqh061h9mkxxxv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clomacs emacs-dash emacs-spinner))
@@ -36370,7 +36370,7 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20221025.1830")
+    (version "20221225.718")
     (source
       (origin
         (method url-fetch)
@@ -36380,7 +36380,7 @@
                ".tar"))
         (sha256
           (base32
-            "1v2hf5m490pjkg6g4gq6cjkzdvrlryb1nyn0vg8v1zcx0pd27zrg"))))
+            "0nmx2srjrmnndda6jz4wcz04zyri37im0gpiv1v6d4g1q5y5wxmm"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -37724,17 +37724,17 @@
 (define-public emacs-flutter
   (package
     (name "emacs-flutter")
-    (version "20220526.1214")
+    (version "20221225.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/flutter.el.git")
                (commit
-                 "b4148db1e6e6822a6a0da1eda3c58affe562d1dc")))
+                 "edd3f5eb3f4603142f45c5890ee70b0dfb10772b")))
         (sha256
           (base32
-            "0ga6jw948w0zwab4jixcrlmv6f9ck0vf7v40g3z4l6ddi2ibsy15"))))
+            "060dfhvg0j0kvlw1qhcqz8rlvxscvgfnpp27cr7knrh4pws3pxmg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -40062,17 +40062,17 @@
 (define-public emacs-flycheck-swift3
   (package
     (name "emacs-flycheck-swift3")
-    (version "20210910.1244")
+    (version "20221225.901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/GyazSquare/flycheck-swift3.git")
                (commit
-                 "54193175c87a4c0bbf7ed16a3e76d6daff35c76f")))
+                 "0e6f73e7272c1444de5872799f5153482563a054")))
         (sha256
           (base32
-            "000fp4qzmc4kbjji03lxwafyvv32r4i7adf29j9s7v7dmdljpndl"))))
+            "0g0v86ihjlkaxf70sq10n5bagg8r41m4bla59hs5907mg4hhdbqc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -43770,17 +43770,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20221205.1417")
+    (version "20221225.2214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "a60efa80cdb8c72dacb1e16729a801206a4e80bf")))
+                 "bfc9cce54b7ac1cb036911965198b5cbe2f43f4c")))
         (sha256
           (base32
-            "0hm4f13kxh6lj1dszac5xymnvpahlj7994d86g301w6zbj3bmrj9"))))
+            "01sif1pw3shhdzcg9vidc2j5cqmrgjh5kynicf5mh3kmlvvsg9k6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -67096,17 +67096,17 @@
 (define-public emacs-lispy
   (package
     (name "emacs-lispy")
-    (version "20221114.2013")
+    (version "20221225.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lispy.git")
                (commit
-                 "f35eadf8c1be43a395e196463314b17ea3b4e16f")))
+                 "097dd66e662c3eee90d112d88bac5345d26e508f")))
         (sha256
           (base32
-            "01k73h33njx01v0rylrrgxw5q4dzkiiygn68gilx1lkndcg17kyx"))))
+            "1cf0nk0c9k78y3gbz6y4bqqdjscs46kb56xkd0lp641gawsa0kls"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ace-window
@@ -84094,17 +84094,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20221210.233")
+    (version "20221225.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "d253b123cf5bf869857ef978e40e2d42c2d301f4")))
+                 "29533525c39e0e243912bb3c807412e4bc3e804e")))
         (sha256
           (base32
-            "1nh5hn58i1ypbnkkfki61bgw82zb26v3gqszw1jvh0ab133drzqp"))))
+            "01zc2mrlr197r0h2xjgzg88fy74lqbw0hv60jw08ihs0yw7n56y7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84532,17 +84532,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20221224.1850")
+    (version "20221225.1839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "256fe73e7ad57f820b7fa1006b8020ab290911fa")))
+                 "45a6863e074f049489a2b9fa94f14635bcce4788")))
         (sha256
           (base32
-            "087aqz1mb5hk10a1ag914pnbc47rbk5dchhjvcf13rgg140imjhv"))))
+            "0qkr3ispn6d4kl07c600bg35ddg6qsh2qq652mfxx05sqy3f54h6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -106982,17 +106982,17 @@
 (define-public emacs-snow
   (package
     (name "emacs-snow")
-    (version "20221223.1851")
+    (version "20221225.2027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/snow.el.git")
                (commit
-                 "59a82054cfd8df9db632ca4c9e2fccc9e97368a5")))
+                 "35ea06f19047ac99eaff9663cb035491c4a13e07")))
         (sha256
           (base32
-            "14vf6vzz374flqlb8n4xzhvb352jkap83kqbgsgcpy1w90fh6dn6"))))
+            "1pcqvg70r1k73k3jxgz5qzwqsvwjnwvpfrbjf4b54smglz2nvz19"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/snow.el")
@@ -114294,17 +114294,17 @@
 (define-public emacs-transient-dwim
   (package
     (name "emacs-transient-dwim")
-    (version "20220425.1331")
+    (version "20221225.1630")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/conao3/transient-dwim.el.git")
                (commit
-                 "7b6e70fb49b9d18106748202011863ebc39b864a")))
+                 "cb5e0d35729fc6448553b7a17fc5c843f00e8c1d")))
         (sha256
           (base32
-            "1qph3ffpvrx02a423hpmdfp15g9yqdd38bnmsa735cnnhqm3yshd"))))
+            "03mk0rvi3mn2wbx817swqd5y784k446yh8l4vv892rjb81fchl2g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/conao3/transient-dwim.el")
@@ -119669,17 +119669,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20221224.1731")
+    (version "20221225.1809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "18e4ef2061e12fc4cc96fdc2caf2760a85dec248")))
+                 "53bed1e6a8554da877c27ffad6bd65113dc758e3")))
         (sha256
           (base32
-            "0fmd2yvm9gm9713ri6n7q4r3gks58l34ynih69wn1albcc814pds"))))
+            "1ydm4m7g8pgqfh0h9p7fz8ns5f2f3fnk6rc5jkp6ds116i7x1gaf"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
