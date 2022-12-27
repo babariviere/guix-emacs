@@ -9600,17 +9600,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20221204.2303")
+    (version "20221227.10")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "6372fd46b20cc807157071cb08ad263132ce7339")))
+                 "ce2d86ad84610499063854e7d471903c05fea1bf")))
         (sha256
           (base32
-            "0wbmd3wi6az9jhfxgsmpjm1dxhqfp7g91ds0jyfzq79zqaakml1a"))))
+            "0lqw1m7i90d9dmqq0qx2wbi8bn0yk76pbxwgy0axfh6i52cgryis"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -12390,17 +12390,17 @@
 (define-public emacs-citar-denote
   (package
     (name "emacs-citar-denote")
-    (version "20221219.2218")
+    (version "20221227.239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pprevos/citar-denote.git")
                (commit
-                 "5e1377d8fea042c95c0f7c47f87873fc373164f7")))
+                 "4928ff861d96e597e420588078d0f44ea19d9a0a")))
         (sha256
           (base32
-            "09pxabl4lcmc62397xp4pmgghdlwd3nrxi08c4ivma5xl5xvp1qn"))))
+            "0ymh9slsnm4qgar7fgqcmp8pr7pzplnz517d0ffn4njad87qrphz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-citar emacs-denote))
@@ -17078,17 +17078,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221222.2153")
+    (version "20221227.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "6aef8b5239b2cdd09badac757a345fd6edfeadbf")))
+                 "cacd586e730930d0f90adc2f05fc66a9f276328f")))
         (sha256
           (base32
-            "1jgrcsrpdj9yqvp6x21r6c0wq3k7sii4djm4mbmiyw9prl67qawh"))))
+            "0ijwg7l9rnxvwm6m9a4yc597l4pf078m6kwsnzidrr7s2pdlah80"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -38459,6 +38459,29 @@
       "Documentation at https://melpa.org/#/flycheck-dedukti")
     (license #f)))
 
+(define-public emacs-flycheck-deno
+  (package
+    (name "emacs-flycheck-deno")
+    (version "20221222.1646")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jcs-elpa/flycheck-deno.git")
+               (commit
+                 "600959e21c564bf6477603c5c0473fd701553b8a")))
+        (sha256
+          (base32
+            "0hxfk54z2a3cdj3wjdrzf6009igmxqmklvr5m4szg5nql6xmjr4f"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-flycheck))
+    (home-page
+      "https://github.com/jcs-elpa/flycheck-deno")
+    (synopsis "Flycheck for deno-lint")
+    (description
+      "Documentation at https://melpa.org/#/flycheck-deno")
+    (license #f)))
+
 (define-public emacs-flycheck-dialyxir
   (package
     (name "emacs-flycheck-dialyxir")
@@ -44909,17 +44932,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20221127.2227")
+    (version "20221226.2207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "3cf308c1c4cdb9404e3d3c6f9935ad9f628311d9")))
+                 "8fd16d34068c54c1a0a6edcdccf60be1075a6915")))
         (sha256
           (base32
-            "1pnk7p165da96hxmh0gxayw9jf6sbnsa7w99nqcibv6b8vwaw8kh"))))
+            "0ysslwycbyys7ysvk8bbgs4lq1jpn2ayl1b4wjaazw2aqj7rc5qk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -64665,6 +64688,28 @@
       "Documentation at https://melpa.org/#/ksp-cfg-mode")
     (license #f)))
 
+(define-public emacs-ksp-mode
+  (package
+    (name "emacs-ksp-mode")
+    (version "20221220.1136")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/youngker/ksp-mode.el.git")
+               (commit
+                 "89b91b8ed6753867e30aa494e5d80325dfe25569")))
+        (sha256
+          (base32
+            "1pw40a7acs0xxabmyfn359b2zcgmb5c1fv98q1x0276ws0hh0jzw"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/youngker/ksp-mode.el")
+    (synopsis "Major mode for editing ksp files")
+    (description
+      "Documentation at https://melpa.org/#/ksp-mode")
+    (license #f)))
+
 (define-public emacs-kubectx-mode
   (package
     (name "emacs-kubectx-mode")
@@ -71372,7 +71417,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221226.531")
+    (version "20221227.47")
     (source
       (origin
         (method url-fetch)
@@ -71382,7 +71427,7 @@
                ".tar"))
         (sha256
           (base32
-            "0inm754xc08gyw5inngv6mk2912n27s4xdcky5i6cv8j76m67bgz"))))
+            "1q22rv1gd1r6wvfg8wvgli9ga9bmkc59ybdydgwqcksabi7x2z7n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -77177,17 +77222,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20221210.2257")
+    (version "20221226.2344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/m-cat/nimbus-theme.git")
                (commit
-                 "5caf48fec49adc5578cdf55b621994787d1982a9")))
+                 "f1a0acae5e99ac0784007460bfcd2fd4a2b8b672")))
         (sha256
           (base32
-            "1gi8rnjhss65qvfh832966rd96cvhkr392wwbqysvvyvwaq9zd09"))))
+            "08000ad81rpjc2kx1wk14mgwdcqr75y72h8vrrkcq8qrkba3ms53"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/m-cat/nimbus-theme")
@@ -79692,6 +79737,27 @@
     (synopsis "Babel Functions for nim")
     (description
       "Documentation at https://melpa.org/#/ob-nim")
+    (license #f)))
+
+(define-public emacs-ob-nix
+  (package
+    (name "emacs-ob-nix")
+    (version "20221224.334")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/ob-nix-"
+               version
+               ".el"))
+        (sha256
+          (base32
+            "18yg5agfz0l151wpyvvabk97klwsdgcsjcxinggqjkll5r9ksmzj"))))
+    (build-system melpa-build-system)
+    (home-page "https://codeberg.org/theesm/ob-nix")
+    (synopsis "Simple org-babel support for nix")
+    (description
+      "Documentation at https://melpa.org/#/ob-nix")
     (license #f)))
 
 (define-public emacs-ob-php
@@ -84556,17 +84622,17 @@
 (define-public emacs-org-roam
   (package
     (name "emacs-org-roam")
-    (version "20221225.1839")
+    (version "20221227.219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam.git")
                (commit
-                 "45a6863e074f049489a2b9fa94f14635bcce4788")))
+                 "938c602faa4a07917654df71e7db8bd178db567d")))
         (sha256
           (base32
-            "0qkr3ispn6d4kl07c600bg35ddg6qsh2qq652mfxx05sqy3f54h6"))))
+            "0qsyqvbgbwb06gb5i37gf0r9x6qxb69rbyj6pdpv58kx6swp55zl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -100201,6 +100267,29 @@
       "Documentation at https://melpa.org/#/rinari")
     (license #f)))
 
+(define-public emacs-ring-mode
+  (package
+    (name "emacs-ring-mode")
+    (version "20221226.1159")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/thechampagne/ring-mode.git")
+               (commit
+                 "4e38dd5ca374d7d40fd1eeed1e83ef935efd387a")))
+        (sha256
+          (base32
+            "0972ngw1qybxh3vs2vfbpy1wq8bircvgxqfg6pyg3ynhfnjzmfvj"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/thechampagne/ring-mode")
+    (synopsis
+      "A major mode for the Ring programming language")
+    (description
+      "Documentation at https://melpa.org/#/ring-mode")
+    (license #f)))
+
 (define-public emacs-rings
   (package
     (name "emacs-rings")
@@ -107006,17 +107095,17 @@
 (define-public emacs-snow
   (package
     (name "emacs-snow")
-    (version "20221225.2110")
+    (version "20221226.2238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/snow.el.git")
                (commit
-                 "35ea06f19047ac99eaff9663cb035491c4a13e07")))
+                 "be17977677fa29709a726715a1a1cba1bd299f68")))
         (sha256
           (base32
-            "1pcqvg70r1k73k3jxgz5qzwqsvwjnwvpfrbjf4b54smglz2nvz19"))))
+            "0fh1hmwpszm9frvnqr2b8rlfx33dy9jm5r82hldgxdbhlv8dq4d0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alphapapa/snow.el")
