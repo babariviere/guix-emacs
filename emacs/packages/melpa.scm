@@ -16745,17 +16745,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221225.1409")
+    (version "20221226.1725")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "7c514c0a2414347c4cd0482a691371625a8a1c53")))
+                 "794e000e02d5efb19362f5e89e7171e9fdd1fb7e")))
         (sha256
           (base32
-            "1adj6f36nj3mylqjg2hmhyqw2c9fbmrknwkzdz1fx9ap12lhk04l"))))
+            "00nhm383g7fh0gx9sm5knp1696ag9wlsm3zqf4hvw98b37029n2x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -31440,6 +31440,30 @@
     (synopsis "Enhanced relative indentation (eri)")
     (description
       "Documentation at https://melpa.org/#/eri")
+    (license #f)))
+
+(define-public emacs-erk
+  (package
+    (name "emacs-erk")
+    (version "20221225.2242")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/positron-solutions/elisp-repo-kit.git")
+               (commit
+                 "c55312b6f43c1107755ac8790bba69f8faadaf33")))
+        (sha256
+          (base32
+            "1dvvjd5c0dx18ffhcp5r5wfx455zks08w03jmcx38yrp02sqv1zl"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-auto-compile emacs-dash))
+    (home-page
+      "http://github.com/positron-solutions/elisp-repo-kit")
+    (synopsis "Elisp (GitHub) Repository Kit")
+    (description
+      "Documentation at https://melpa.org/#/erk")
     (license #f)))
 
 (define-public emacs-erlang
@@ -68382,17 +68406,17 @@
 (define-public emacs-lsp-dart
   (package
     (name "emacs-lsp-dart")
-    (version "20221217.1514")
+    (version "20221226.1829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-dart.git")
                (commit
-                 "d8c748ae0807b8060336baf20e8ff1be1fd3b106")))
+                 "3db9f93c83052d6a8976c92d67d2b24473930760")))
         (sha256
           (base32
-            "0398rvadirq5v1m842hypazrljaabyk9fp6021v89icqi3izpd2x"))))
+            "0sfcdmzsnasgickp9ikmkzvi3czads3ik7msyaldyj0al2cf2mqg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-treemacs
@@ -81366,17 +81390,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20221223.2211")
+    (version "20221225.1428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "e3062280f924933e9c6f5dd1a71729ed98c8493a")))
+                 "847694e78c12d903d5e3f6cb365a5d3b984db537")))
         (sha256
           (base32
-            "13dcj8nda4v3cc1xd90hpwp2bgn9hblfk6rlizb1gci9ncn256sl"))))
+            "1jmwyici90v82gqjq44n0scrwhmg05pi9yplkn4bpss80c83dxp4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -89161,17 +89185,17 @@
 (define-public emacs-password-store
   (package
     (name "emacs-password-store")
-    (version "20220906.1855")
+    (version "20221226.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zx2c4/password-store.git")
                (commit
-                 "47f8d950c58949733862813f29856480a9e232c7")))
+                 "26d2dae04bb76a87be6960861c10432820cd5d55")))
         (sha256
           (base32
-            "01267lb9ixrb3255n536k6klkp2d7gj08n9vzcdczbz5b69ybv18"))))
+            "1pkx6pgkkpddxrshzq3x8ilfwqjw9gawnbbskcbssxc88wrpbcjb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-with-editor))
@@ -113202,17 +113226,17 @@
 (define-public emacs-timu-caribbean-theme
   (package
     (name "emacs-timu-caribbean-theme")
-    (version "20221219.1713")
+    (version "20221226.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-caribbean-theme.git")
                (commit
-                 "60e08b991fdc236f5c493ba8527e216174e32c20")))
+                 "af60151fe35bd1c780b7c4a37032699989ee6162")))
         (sha256
           (base32
-            "16fnsskxhkidz5i63adfjxvhi05fxiqq5mdg2qfrn87zsw2gc2sk"))))
+            "0x74vnxkwl1jvkl2fizdkg0v73qjmx2dk68cs49k0b8z0n61w8l7"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-caribbean-theme")
@@ -113225,17 +113249,17 @@
 (define-public emacs-timu-rouge-theme
   (package
     (name "emacs-timu-rouge-theme")
-    (version "20221219.1845")
+    (version "20221226.1551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-rouge-theme.git")
                (commit
-                 "b0671163c4678b60e1894242ba7412da4729f2de")))
+                 "7b0a5ee05fbe0ea11e46094b2126bdba0c02f456")))
         (sha256
           (base32
-            "0rw9dn83kilvjndryjs86jqmxvmf6c2qq7207046zv48xacz1bpb"))))
+            "0204xzqm8wzpqp34liyz7ihl3f3xygvq75lcvbs9ciy9vcnw5990"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-rouge-theme")
@@ -113248,7 +113272,7 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20221226.1517")
+    (version "20221226.1540")
     (source
       (origin
         (method git-fetch)
