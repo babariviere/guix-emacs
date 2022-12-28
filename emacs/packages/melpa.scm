@@ -4330,17 +4330,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20221217.649")
+    (version "20221228.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "c4772bec684776e93f1b8d845b452dc850ee2315")))
+                 "270c3d0bd99386dd9a8538990401993a6a3cb1bc")))
         (sha256
           (base32
-            "1npwgk0x5qm48cqw6agqx6h7wgggnpxc44va4dfxjd6wf1jkz81f"))))
+            "1ylzi5wadpfkr1iag0g05cwsww164pdvnmg22pfxqy7481jiyhyb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -18183,17 +18183,17 @@
 (define-public emacs-counsel-tramp
   (package
     (name "emacs-counsel-tramp")
-    (version "20210518.1153")
+    (version "20221228.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/masasam/emacs-counsel-tramp.git")
                (commit
-                 "76719eebb791920272c69e75e234f05a815bb5c2")))
+                 "5b13055c9e010ab780ef0870a68d0ca13ebb71d9")))
         (sha256
           (base32
-            "0pcymxi54b2jmr2k2cibak0nmcnr42spjwsavwr8598kgvkfk488"))))
+            "15s9fq05jcjg7pjrx2i2mz3ihail86xn77vbr7s2a89kryb0sp7g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-counsel))
     (home-page
@@ -19964,17 +19964,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20221227.1047")
+    (version "20221228.951")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "e2372a45ba43ab01794f9639a2884b34138f7ac0")))
+                 "1af716b25396595e8bf44752fb71bb5fe07bdeaa")))
         (sha256
           (base32
-            "0kc2gx9hzs55ck86dziwddi4pgg53mqi9yqg8sbnns247fsvkxyz"))))
+            "0pwsy5x2lkmh3xvkgwjfji39w2n77njqf7ywybdpiyj8j75z6qr9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -28427,7 +28427,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20221228.438")
+    (version "20221228.1255")
     (source
       (origin
         (method url-fetch)
@@ -28437,7 +28437,7 @@
                ".tar"))
         (sha256
           (base32
-            "0qspghammsb6466br82j9lvpx8j4079gj78cqlr458d64wvlp181"))))
+            "0g88j5qzr23gg09drqv05rv9kqh5l9d4wgn3ccfyxbm5k1hb84cf"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -50017,17 +50017,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221218.735")
+    (version "20221222.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "941da0db9ef54d5e895c53d9265f2dd4a6c93db2")))
+                 "796b84970d2bfcd1d341cada5398bb9368b82da4")))
         (sha256
           (base32
-            "16ncvkcvqiigpnyf0p8vnggibmk74s0vl5dqly1qqgwp7fpmwqpv"))))
+            "0mk67hs37v1lv7wfyi0hrffas4j3lcfhxv96jrcgrpck9c6yhgz5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50825,17 +50825,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221210.1324")
+    (version "20221228.813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "e81fbbc687705595ab65ae5cd3bdf93c17a90743")))
+                 "796b84970d2bfcd1d341cada5398bb9368b82da4")))
         (sha256
           (base32
-            "16qicqm9a88mw6nanf0sb09z0lq86hl1sl92swwgdnd6yxi88xc8"))))
+            "0mk67hs37v1lv7wfyi0hrffas4j3lcfhxv96jrcgrpck9c6yhgz5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -54059,17 +54059,17 @@
 (define-public emacs-helm-tramp
   (package
     (name "emacs-helm-tramp")
-    (version "20190616.125")
+    (version "20221228.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/masasam/emacs-helm-tramp.git")
                (commit
-                 "55e56975fe1456591a293bf60c183c3dda9f788f")))
+                 "10711393c05272112e1585dca87ebeb0ea5b114d")))
         (sha256
           (base32
-            "0py1k0r15frj67mazfjkdwi8sx5a51ykrrbzvfb73kakq2f55jap"))))
+            "0rijcx9qsj76yf5lwmjicq94r6knaqh9v0xiq2i4gr48gf3j7irv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
@@ -71439,7 +71439,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221228.457")
+    (version "20221228.806")
     (source
       (origin
         (method url-fetch)
@@ -71449,7 +71449,7 @@
                ".tar"))
         (sha256
           (base32
-            "0zabk75dj28w5yvdfzvmjf77fbgmxcnm12rd5v5i9b32vhc0v55w"))))
+            "1pnk5j9jl3b25743k1mhpzg0yh6i6ngjdrfkb25ccprj9261sjrk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -80375,17 +80375,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20221115.1143")
+    (version "20221228.1142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "95bf7624e26adb29925e4609dd0aeacdb29c5bc5")))
+                 "171e7cfe9652185df7ea0919705bc6b40429b548")))
         (sha256
           (base32
-            "17ymp9z735cisb7bjdcmqmhv88n2vhzg3l7708jcj6a588i3sbf3"))))
+            "0bbfipkw9pzmn3qli6zgilys92lsfg66xwz7bs0h3k6whqlsi14m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -96552,17 +96552,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20221204.1348")
+    (version "20221228.1405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "d8f4dbf726c752f558a81036cf6f4d12d4e90ce1")))
+                 "8f7ba42218e4851bb0f62f99d3a151813426b5e6")))
         (sha256
           (base32
-            "173vmwdj1wb3gfl0g4ny0g48394wxi0mqfyd6rbpvzmkjvw2w7g4"))))
+            "1r4qn7bib9ic6fak2432kgaj6ziprbmz81zabsmlh9jmk9ci42j1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -101482,17 +101482,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221224.1537")
+    (version "20221228.1123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "f4efdd84b5de96194f294f0ee5689e9538eb11ea")))
+                 "a8f41bd36affa508986880d63e934e3396d7003a")))
         (sha256
           (base32
-            "07gmfca6pixk42x5h3xfygmxv70pqdm8zwyzcddpgff8l88jn1c9"))))
+            "0vn1mfqz7hlirwc1r8sa3r1idiykis9cbn3b40x5ax2fzad217ys"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -111993,17 +111993,17 @@
 (define-public emacs-tempel-collection
   (package
     (name "emacs-tempel-collection")
-    (version "20221220.637")
+    (version "20221228.1347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Crandel/tempel-collection.git")
                (commit
-                 "cd9529b2a2fdfd49010117d2a1fc49adf9725051")))
+                 "4a49cebd0be30115f132a217b00bd0d55d58daa6")))
         (sha256
           (base32
-            "02x6jq5k7fa46ni64qf8wrmkay6zfbmkildb727zs6wchmyg2znn"))))
+            "0z4sxy44x92v3js63llg65nl85njif7l21cjr89h13blnqp70qmm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tempel))
     (arguments '(#:files (:defaults "templates")))
@@ -117227,7 +117227,7 @@
 (define-public emacs-utimeclock
   (package
     (name "emacs-utimeclock")
-    (version "20221227.2351")
+    (version "20221228.438")
     (source
       (origin
         (method url-fetch)
@@ -117237,7 +117237,7 @@
                ".el"))
         (sha256
           (base32
-            "03ylchr0yw1xhhzibgdfi76ycrkclm8cn5vxnrqily4rcadx2gzl"))))
+            "1hv3bw7402pky40xz3zhndghw4rbkxn1kbb62gpb41jsvn01wv76"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-utimeclock")
@@ -122485,7 +122485,7 @@
 (define-public emacs-xref-rst
   (package
     (name "emacs-xref-rst")
-    (version "20221228.431")
+    (version "20221228.438")
     (source
       (origin
         (method url-fetch)
@@ -122495,7 +122495,7 @@
                ".el"))
         (sha256
           (base32
-            "0gkccppk133zbl3hhfmk56s6qlx1333lfrhr3fzpfq9ybpp7r348"))))
+            "0nhc8bprl9n72gkc63pflfxh1bw1lhr2mc615rp09w2n4j7mxkmm"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-xref-rst")
