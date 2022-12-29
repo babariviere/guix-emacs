@@ -1835,17 +1835,17 @@
 (define-public emacs-adwaita-dark-theme
   (package
     (name "emacs-adwaita-dark-theme")
-    (version "20221222.1215")
+    (version "20221229.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/adwaita-dark-theme.git")
                (commit
-                 "40a375c8b86b58dddcd95e8dc654f127a6a3b910")))
+                 "d63e6665567b39d33ef11b6d8b89e59f72e074e2")))
         (sha256
           (base32
-            "1gasg7dqz7vg544bnfnfzdfq50xq7jqwcigkmg2a6n8cm9wrjlh0"))))
+            "1m8gyh8dzqblf4lrpr4fzplmf7jb0ac7kh72zf86z9w18ksnxv4y"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/adwaita-dark-theme")
@@ -28427,7 +28427,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20221228.1255")
+    (version "20221229.1127")
     (source
       (origin
         (method url-fetch)
@@ -28437,7 +28437,7 @@
                ".tar"))
         (sha256
           (base32
-            "0g88j5qzr23gg09drqv05rv9kqh5l9d4wgn3ccfyxbm5k1hb84cf"))))
+            "0996q24j9qlb9zpd382gvm94ljp2j9cljdd97466ps3qimhmp0fx"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -66538,17 +66538,17 @@
 (define-public emacs-libmpdel
   (package
     (name "emacs-libmpdel")
-    (version "20220706.1952")
+    (version "20221229.916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpdel/libmpdel.git")
                (commit
-                 "c27c08949a742a888eb9921a8528882b2aec6137")))
+                 "e7d35ba9254ead1516133f182a01f6161ae26388")))
         (sha256
           (base32
-            "1lp3ld38x0s982zvpgj1hfky3wsdfwjii1yp5j7rq5n6si97aw7i"))))
+            "03bavca89cf7dsjmg7hb48qnvca41ndiij33iw5yjjhbq1zyj8r4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mpdel/libmpdel")
     (synopsis "Communication with an MPD server")
@@ -73862,7 +73862,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221228.2239")
+    (version "20221229.1247")
     (source
       (origin
         (method url-fetch)
@@ -73872,7 +73872,7 @@
                ".tar"))
         (sha256
           (base32
-            "1qg60jh2ii1bgg30djg0lgw20l3xzsppfbiz8w7am5nldlhsvf70"))))
+            "0g86ips9xxm4i7xkn08122xkmy0n4vp6823bqikpa7bh7dc526l8"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -74201,17 +74201,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20221222.1122")
+    (version "20221229.807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "1943158fc9fe5838f02e619039fa7b05cf118f8c")))
+                 "c30d6e79c56ab07e58d7a82528864638c6e936dd")))
         (sha256
           (base32
-            "0n7myh23kpz4vhbdn1dd6awlf0plypb7qmk07wd118bbnr18rd9q"))))
+            "1j2fjsqbv2f7m1hrrb18gl4cj4kn749xkvpm2p82d7rh4a37q2pr"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
@@ -80657,17 +80657,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20221228.1651")
+    (version "20221229.727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "9094638d2d3dd3548bd111e6f47157f775160748")))
+                 "a2dde292e464bfb9b4d8ab470bb9a6a37b5cb6b9")))
         (sha256
           (base32
-            "0jphq8a4vvlpbj9i1145xzqgz9pgs8j8b52x8fjrf2xi5a7qb6jh"))))
+            "0nr63m4wka7q48hll0fhq8ijw7dw6g7m80r81xn62yfd7j7mfwk4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -84470,17 +84470,17 @@
 (define-public emacs-org-recur
   (package
     (name "emacs-org-recur")
-    (version "20221227.1042")
+    (version "20221229.1101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/m-cat/org-recur.git")
+               (url "https://github.com/mrcnski/org-recur.git")
                (commit
-                 "9ad0ea553713f9da3db790afe28f50cfc4a06be6")))
+                 "fa2a37d50229346929fa70b56c9d7cc34bc628ae")))
         (sha256
           (base32
-            "0748wwsisfswiiv6kkvp73aphmqwnx12hmm0dwcii9dk5s00z37z"))))
+            "1az53kmrhizmbnli0smpxla38f8qwya535zjvm9l08s58clcn6m5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mrcnski/org-recur")
@@ -101482,17 +101482,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221228.1123")
+    (version "20221229.950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "a8f41bd36affa508986880d63e934e3396d7003a")))
+                 "492372435444ebe358c6157bd42d7eb792d4c66d")))
         (sha256
           (base32
-            "0vn1mfqz7hlirwc1r8sa3r1idiykis9cbn3b40x5ax2fzad217ys"))))
+            "07bixdk6a9hdis038mccr40dcbc7813s901s258qq107ick3qgqj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
