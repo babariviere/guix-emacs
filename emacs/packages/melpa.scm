@@ -16745,17 +16745,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20221226.1725")
+    (version "20221228.1633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "794e000e02d5efb19362f5e89e7171e9fdd1fb7e")))
+                 "16b2dc5e34c8a500adbee394b42c0e0d7fd24ad8")))
         (sha256
           (base32
-            "00nhm383g7fh0gx9sm5knp1696ag9wlsm3zqf4hvw98b37029n2x"))))
+            "1k9z78x9cm9xznp1v1dqqhanhj766c0rwyvpihqrbl7dwx6564l4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -26504,17 +26504,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20221223.124")
+    (version "20221228.2146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "ffd331da5f760723c09e8bc9dd45602a1f5ec488")))
+                 "b8043702f3d977db0e030c6c64ee4a810cad5f45")))
         (sha256
           (base32
-            "1hndz49jvfl91d470zppv3zc3ziqj89sjm8wqbac89nf1r3k9inh"))))
+            "07y1qim4j3mv8lgk25bp51npx6m15b3wf0pn9y6qiq9n72zxs202"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -35718,17 +35718,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20220911.711")
+    (version "20221228.1816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "d50dca48929575642912bb5bbb2585709ba38f82")))
+                 "3bb497d698d5122a1aedb6ed08c729c0248a37d8")))
         (sha256
           (base32
-            "0mr0i823m9fs8n0qf1cj7lvlbyjspk8kblhk9br2hk7hnxk470xz"))))
+            "1lyi91gmysyvyc7s2cwf2bpg40vnc0rz5z5v6lbjcijagpdnfwqx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -46997,17 +46997,17 @@
 (define-public emacs-go-mode
   (package
     (name "emacs-go-mode")
-    (version "20221227.2320")
+    (version "20221228.1706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dominikh/go-mode.el.git")
                (commit
-                 "f03998154bbed359f1912284a49b598fef074406")))
+                 "166dfb1e090233c4609a50c2ec9f57f113c1da72")))
         (sha256
           (base32
-            "10ig538yygj752fkd8ss187p7mln4z77xf29vmnwpd1dkiifg76m"))))
+            "0vahf3gbdw8b7k28zicm1xi686b2lrzdx8nkzhwk9z25brw86jj8"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("go-mode.el")))
     (home-page
@@ -65139,17 +65139,17 @@
 (define-public emacs-lambdapi-mode
   (package
     (name "emacs-lambdapi-mode")
-    (version "20220909.1444")
+    (version "20221228.1622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Deducteam/lambdapi.git")
                (commit
-                 "8752043f903acc7f4c54bc9ea18b9cec83beee70")))
+                 "1f4e1a024bb0b0f3a0fdd8b5428e737adf1a68d7")))
         (sha256
           (base32
-            "1y28dbw1n4mw0abdb628111h1z7mz2jc2jnyskpw9hv4mbnaq5b9"))))
+            "086mqschzr420kad5x7ibjwz3b7ckfkkqv7486pn5pmbkqrb2iwg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot
@@ -66279,17 +66279,17 @@
 (define-public emacs-leuven-theme
   (package
     (name "emacs-leuven-theme")
-    (version "20220922.1545")
+    (version "20221228.2143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fniessen/emacs-leuven-theme.git")
                (commit
-                 "1dbd4bda6045080d5a293d56e686af5b4f7fdd9d")))
+                 "2bbffb0555f49fd67a92a48415caca894109cbb6")))
         (sha256
           (base32
-            "112vd01kd8gr2ybw9x83qcaf283z05cdazz3b7k20jlck633qxi8"))))
+            "086q97268s2j9cc98v0i44vl08iskqkav7hywz26girf5ca9dfsr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fniessen/emacs-leuven-theme")
@@ -68837,17 +68837,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221223.1809")
+    (version "20221228.2109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "7dee0d63fa1b6628be4aaea86b2298244eb3d84e")))
+                 "3c488079a1539b6904d43f22b15c9800db35456d")))
         (sha256
           (base32
-            "1b60i715p7a4anz7j5k22zrvr7fsixpxh86hzkzl3xigcfim92k0"))))
+            "1856bj4bpfk12lyjcy1shzr0jw6zchllhncan1yswd1w65cc0885"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73457,17 +73457,17 @@
 (define-public emacs-mmm-mode
   (package
     (name "emacs-mmm-mode")
-    (version "20221102.2236")
+    (version "20221228.1931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/mmm-mode.git")
                (commit
-                 "8725cfc12bded653d52a6a223c4d34bec2b1d538")))
+                 "171bf6395b8a95a2d08d41fa38cc1799025d3916")))
         (sha256
           (base32
-            "12dn3zp17kw1cj3a883mn1g3dgdai5qy9p799zg752ishp3dqan8"))))
+            "1m6nqkjy04s5c4v3a952gx79dnc3ihc5w5vj6lg26ps9syzk3b0b"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/purcell/mmm-mode")
     (synopsis
@@ -73862,7 +73862,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221129.211")
+    (version "20221228.2223")
     (source
       (origin
         (method url-fetch)
@@ -73872,7 +73872,7 @@
                ".tar"))
         (sha256
           (base32
-            "0rgdazh01v2dyqvn4k8hhzxkbspvddqbrs2mc7i9kna2vdhfy5md"))))
+            "1llg1zs7q8g5g9gmivh5xkd650ks449j8cfnwi3igzinahq6ki84"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -80657,17 +80657,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20221121.1358")
+    (version "20221228.1651")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "561f16f6c730ee7206d29e69decf8640fd7dda01")))
+                 "9094638d2d3dd3548bd111e6f47157f775160748")))
         (sha256
           (base32
-            "0644kkzmlvspic0qikqb0p7x8gryjx2nlhbhjrkfn75fwrv5lqk5"))))
+            "0jphq8a4vvlpbj9i1145xzqgz9pgs8j8b52x8fjrf2xi5a7qb6jh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -84356,17 +84356,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20221007.1714")
+    (version "20221228.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "941aa4b94f4eb13cea23013126e84f335059dead")))
+                 "91cdd82c47b86990b5eb41fe34446a042194cc83")))
         (sha256
           (base32
-            "1jzr7xlzinhfb0197anbkrr5zrs13f7kyznr5q3zyxdndhg6a53n"))))
+            "1bp3kz2awy2mizs59qsa2yl7wfa0197fklnramzifz6z2zv5kbrx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
