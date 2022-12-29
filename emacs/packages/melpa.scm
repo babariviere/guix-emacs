@@ -71439,7 +71439,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221228.806")
+    (version "20221229.447")
     (source
       (origin
         (method url-fetch)
@@ -71449,7 +71449,7 @@
                ".tar"))
         (sha256
           (base32
-            "1pnk5j9jl3b25743k1mhpzg0yh6i6ngjdrfkb25ccprj9261sjrk"))))
+            "0z4p8pf0dpiy9gfl4rww286cqyxjlyv2vl2897hk74wdhi5n2wc7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -73862,7 +73862,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221228.2223")
+    (version "20221228.2239")
     (source
       (origin
         (method url-fetch)
@@ -73872,7 +73872,7 @@
                ".tar"))
         (sha256
           (base32
-            "1llg1zs7q8g5g9gmivh5xkd650ks449j8cfnwi3igzinahq6ki84"))))
+            "1qg60jh2ii1bgg30djg0lgw20l3xzsppfbiz8w7am5nldlhsvf70"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -96010,17 +96010,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20221107.41")
+    (version "20221229.241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "16f7c3cf0736a65d8af0c8ba8396343dbd17e368")))
+                 "65af410a6671725727593e2ea2767a97bdeb79b0")))
         (sha256
           (base32
-            "06nmy5z13pwnxx0nm1xh6573s5i33xqydldpy8ky5ny360g3n5nr"))))
+            "18qs826q68vrx8hpn8pvknbqmpvxzmx4gvhf5h9s6phlpjn858kr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -122306,17 +122306,17 @@
 (define-public emacs-xml-rpc
   (package
     (name "emacs-xml-rpc")
-    (version "20221027.1812")
+    (version "20221228.2346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xml-rpc-el/xml-rpc-el.git")
                (commit
-                 "85a9fc06c53b9f5c177b7cf3d1b509f167d328e2")))
+                 "8272789df8a4deab4de7d50e63b73b7d0543bc7f")))
         (sha256
           (base32
-            "1lsvlys1qy7ghyfy68dkk1gq3ipxs9zfgh1krfrg6fd91wkwxa7w"))))
+            "1l57q1gskkdjfhnl3jil1gblj2jz6j1l0njwnz5bs76dajhlmjpj"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/xml-rpc-el/xml-rpc-el")
