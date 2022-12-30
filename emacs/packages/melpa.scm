@@ -1835,17 +1835,17 @@
 (define-public emacs-adwaita-dark-theme
   (package
     (name "emacs-adwaita-dark-theme")
-    (version "20221229.632")
+    (version "20221230.557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/adwaita-dark-theme.git")
                (commit
-                 "d63e6665567b39d33ef11b6d8b89e59f72e074e2")))
+                 "a1faa94ddc6c01fb04bd63a6095c38d1c1c34753")))
         (sha256
           (base32
-            "1m8gyh8dzqblf4lrpr4fzplmf7jb0ac7kh72zf86z9w18ksnxv4y"))))
+            "1ydhqyl8wqfw27dzf75dx7zpvy8zycz5rs78zmzb4rr06ck9d8vh"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/adwaita-dark-theme")
@@ -28427,7 +28427,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20221229.2053")
+    (version "20221230.413")
     (source
       (origin
         (method url-fetch)
@@ -28437,7 +28437,7 @@
                ".tar"))
         (sha256
           (base32
-            "1m3jixwhws569mp2lrc7m6rfylfn62mdbpqvclsa900afc1fslmq"))))
+            "1xjjzxvb2i2q14n1ynwgqjny1dk7d8am4kljs8wj6r22wdgwf8rp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -47285,17 +47285,17 @@
 (define-public emacs-god-mode
   (package
     (name "emacs-god-mode")
-    (version "20221227.2058")
+    (version "20221230.708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/god-mode.git")
                (commit
-                 "23bb1e2224e21c3c4cf1fba9795be95572902d8c")))
+                 "607aff10a7b27a8aa0c1a15c2c39337ab17cfda7")))
         (sha256
           (base32
-            "1gmfb4ffhshwslcqgic2x1969yc4b6rnnra9a4fxn1mdycax12z1"))))
+            "032c82cgf8dafc3w951f2n2a1327rxz9126ri8vz9n3fblwdizj5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsorphanage/god-mode")
@@ -71439,7 +71439,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221229.447")
+    (version "20221229.2323")
     (source
       (origin
         (method url-fetch)
@@ -71449,7 +71449,7 @@
                ".tar"))
         (sha256
           (base32
-            "0z4p8pf0dpiy9gfl4rww286cqyxjlyv2vl2897hk74wdhi5n2wc7"))))
+            "130zhzxsvpbiwgjqkjgynap20i5zpqm91ka5z9wbhfccxq6172cr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -73862,7 +73862,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221229.1247")
+    (version "20221230.523")
     (source
       (origin
         (method url-fetch)
@@ -73872,7 +73872,7 @@
                ".tar"))
         (sha256
           (base32
-            "0g86ips9xxm4i7xkn08122xkmy0n4vp6823bqikpa7bh7dc526l8"))))
+            "19bn7yw1pgmwmidchrswn0ffbxr7kvycgf8hnn4v74ml9khs3kf9"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -74201,17 +74201,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20221229.807")
+    (version "20221230.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "c30d6e79c56ab07e58d7a82528864638c6e936dd")))
+                 "e42ee24e236d470c930179b6af5f15d6a0aab9f8")))
         (sha256
           (base32
-            "1j2fjsqbv2f7m1hrrb18gl4cj4kn749xkvpm2p82d7rh4a37q2pr"))))
+            "1swfk6xs3saql612zxgbsm1fb76dzxvm2fyl810i6m4wpijirkys"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
@@ -95649,7 +95649,7 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20221228.522")
+    (version "20221230.415")
     (source
       (origin
         (method url-fetch)
@@ -95659,7 +95659,7 @@
                ".el"))
         (sha256
           (base32
-            "1m7kf4292dkbdfv7d91b3v0wczalywg7d2d1na8h7bsv19a322xa"))))
+            "0v91f5ljhq2b0c5ifxnx117qsk42kph91fp4y3x4z58rg2nyqxic"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-py-autopep8")
@@ -101326,7 +101326,7 @@
 (define-public emacs-run-stuff
   (package
     (name "emacs-run-stuff")
-    (version "20221228.438")
+    (version "20221230.417")
     (source
       (origin
         (method url-fetch)
@@ -101336,7 +101336,7 @@
                ".el"))
         (sha256
           (base32
-            "1q5q48p85zs0h9ivnxdzby1f96ii2gjkm63gqbic7m3rsb5197bz"))))
+            "0j8isqvy8mrw1p8zc170nvj9md1xpm2anv1scb6xlkwrnqy399xa"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-run-stuff")
