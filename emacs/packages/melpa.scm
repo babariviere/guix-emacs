@@ -18890,17 +18890,17 @@
 (define-public emacs-csound-mode
   (package
     (name "emacs-csound-mode")
-    (version "20221002.1512")
+    (version "20221229.2346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hlolli/csound-mode.git")
                (commit
-                 "ceb29955f36e01b02effc66a5b13a23224e41b67")))
+                 "b68ab01fd95c84a19c0a23d7e326d1031c418025")))
         (sha256
           (base32
-            "0q7vmnw1liv2jcmjynvwm54j2wsmvsv7fak1bxib13l8jhvwn88z"))))
+            "1qiiiz5g1yvn5k872xn8fdawwbbywv88clmwzbj0gqh3w0pviz58"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shut-up
@@ -27733,17 +27733,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20221219.2107")
+    (version "20221229.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "e1c64d49f2df0e09a33979e39a080b8834d0170d")))
+                 "4b0f791f915616949776667a685b647f11e831af")))
         (sha256
           (base32
-            "0a3bsqsa1fzjlbhlkvsx5b1akfw2k4rzfhvwc9zxrv7k68g10ycv"))))
+            "0xg5azz49ypvrh2qpz9m5dchhnkxj9xjcwx6ak0rl6y7yvd61p7h"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28427,7 +28427,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20221229.1127")
+    (version "20221229.2053")
     (source
       (origin
         (method url-fetch)
@@ -28437,7 +28437,7 @@
                ".tar"))
         (sha256
           (base32
-            "0996q24j9qlb9zpd382gvm94ljp2j9cljdd97466ps3qimhmp0fx"))))
+            "1m3jixwhws569mp2lrc7m6rfylfn62mdbpqvclsa900afc1fslmq"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -32116,17 +32116,17 @@
 (define-public emacs-eshell-vterm
   (package
     (name "emacs-eshell-vterm")
-    (version "20220506.1212")
+    (version "20221229.1328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iostapyshyn/eshell-vterm.git")
                (commit
-                 "4e8589fcaf6243011a76b4816e7689d913927aab")))
+                 "e96c30ad5e7d63b778fc3232e81b090b63b13277")))
         (sha256
           (base32
-            "0hsby6ardi9g37agh181sgvsdvjmvi1n6jsqp34mwslwx7xxjvbv"))))
+            "0zgf2yv85awlxc44cqbnyrzbkygxqp6hdqfskyg8qqjbm56cycvy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -33019,17 +33019,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221122.1450")
+    (version "20221229.1739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "2e8576188b1d0768fbf92c6bea2fb3fbed9f019f")))
+                 "13f01f6245629a8a5c402ca51a4738c96e4b2315")))
         (sha256
           (base32
-            "0zyqf6v5zk0mfclp5igsqxndsh93bf80xmxjw4gl0fj3fvpilx3w"))))
+            "05algym1fyda8iy9b39m28899y4r2mxn7bdvbf0mjamyqymljsyi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -34382,17 +34382,17 @@
 (define-public emacs-evil-surround
   (package
     (name "emacs-evil-surround")
-    (version "20220504.802")
+    (version "20221229.1650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-surround.git")
                (commit
-                 "c9e1449bf3f740b5e9b99e7820df4eca7fc7cf02")))
+                 "f273821f575ace519066fb106ee45a5b8577475f")))
         (sha256
           (base32
-            "1ghc10rsrfvmd7m5qf7695gz241v9m5c2fg2mflwy8pw0h2l9nki"))))
+            "10d6q25m5wly4iysyybkha9y8mlfikqb2smra1zy6xvkxyx5mclr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page "unspecified")
@@ -35718,17 +35718,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20221228.1816")
+    (version "20221229.1838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "3bb497d698d5122a1aedb6ed08c729c0248a37d8")))
+                 "457cbc78f8cc8345edcf25951d9b36bbf72ca080")))
         (sha256
           (base32
-            "1lyi91gmysyvyc7s2cwf2bpg40vnc0rz5z5v6lbjcijagpdnfwqx"))))
+            "1birdxfj1qizxz12vy3wyixxb553k5vicy3991zb8dhzh32a6h9x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -50017,17 +50017,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221222.1719")
+    (version "20221229.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "796b84970d2bfcd1d341cada5398bb9368b82da4")))
+                 "57332b4bdad1d771f7d103157c45d77f6007e02b")))
         (sha256
           (base32
-            "0mk67hs37v1lv7wfyi0hrffas4j3lcfhxv96jrcgrpck9c6yhgz5"))))
+            "10zjmyway9h3kw03xybzdra2d07wvadm8fymfcwx12x2j92cgmbx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50825,17 +50825,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221228.813")
+    (version "20221229.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "796b84970d2bfcd1d341cada5398bb9368b82da4")))
+                 "57332b4bdad1d771f7d103157c45d77f6007e02b")))
         (sha256
           (base32
-            "0mk67hs37v1lv7wfyi0hrffas4j3lcfhxv96jrcgrpck9c6yhgz5"))))
+            "10zjmyway9h3kw03xybzdra2d07wvadm8fymfcwx12x2j92cgmbx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -64626,17 +64626,17 @@
 (define-public emacs-kotlin-mode
   (package
     (name "emacs-kotlin-mode")
-    (version "20221206.1910")
+    (version "20221229.1905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode.git")
                (commit
-                 "55eed95033a59d7448a4b2bc11879e62c05e361b")))
+                 "ff4637c4eaaa6874cebb7de3e2cf5d674fa9c33c")))
         (sha256
           (base32
-            "0cbgvfvk56pqh24r3mpi9l7fdq2806zs6nwgzq4mg17j22zr1c8l"))))
+            "0kdgn7gfnmfi24bi17hb18h4r3fqa7cmdxky34f0n8vkm95phmng"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Major mode for kotlin")
@@ -64830,17 +64830,17 @@
 (define-public emacs-kubernetes
   (package
     (name "emacs-kubernetes")
-    (version "20220715.1717")
+    (version "20221229.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kubernetes-el/kubernetes-el.git")
                (commit
-                 "8163fd38015cbde0485f6eaab41450132bf6e19d")))
+                 "099004511670c7fd52a619c5758047bb3172ba36")))
         (sha256
           (base32
-            "06p5qz4h5ar86vv4nzpw08x18fjvs2zg5brx55h80hjdgr89b771"))))
+            "113c490gp69pkq9rnw5s7vfkr8pw14q7lv205gwx8awg129frnpn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -68837,17 +68837,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221228.2109")
+    (version "20221229.1817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "3c488079a1539b6904d43f22b15c9800db35456d")))
+                 "5979f6e0b5872b621307430dca3023cce9a11f4c")))
         (sha256
           (base32
-            "1856bj4bpfk12lyjcy1shzr0jw6zchllhncan1yswd1w65cc0885"))))
+            "0z5bs7n8x5s6mdm2mjqadrd21f66qpazqv54dzm7mvy1p03cb1ar"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -101482,7 +101482,7 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221229.950")
+    (version "20221229.1543")
     (source
       (origin
         (method git-fetch)
