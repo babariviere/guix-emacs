@@ -28427,7 +28427,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20221230.413")
+    (version "20221231.322")
     (source
       (origin
         (method url-fetch)
@@ -28437,7 +28437,7 @@
                ".tar"))
         (sha256
           (base32
-            "1xjjzxvb2i2q14n1ynwgqjny1dk7d8am4kljs8wj6r22wdgwf8rp"))))
+            "1sw8wyaqabr4jpbihkiq6ncs76x3k79anj6c0jpm6mm21q7mqyxw"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -68837,17 +68837,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221229.1817")
+    (version "20221231.447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "5979f6e0b5872b621307430dca3023cce9a11f4c")))
+                 "1e14a3fdb195a557cba5a7b7e3372dc850a5ce95")))
         (sha256
           (base32
-            "0z5bs7n8x5s6mdm2mjqadrd21f66qpazqv54dzm7mvy1p03cb1ar"))))
+            "1p0jy1fb7810mn36iviwb1ixb0r0cvpar2kh118s2hmq9y4167dm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -90429,17 +90429,17 @@
 (define-public emacs-pest-mode
   (package
     (name "emacs-pest-mode")
-    (version "20221230.1443")
+    (version "20221231.15")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ksqsf/pest-mode.git")
                (commit
-                 "4a367a0fb9f9ac9cff8b1798335f6248d4cb3467")))
+                 "8023a92ce59c34dcd1587cbd85ed144f206ddb89")))
         (sha256
           (base32
-            "1pq4dy8fnwcckikxv6z15ffxgks7j8qfkw1bf4dbjyqkkbghv0sv"))))
+            "0hbbwnamhbg295iva3ffp1al7cyjmc7nb2ilh1zqb4kvz6zyqhxj"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("pest-mode.el")))
     (home-page "https://github.com/ksqsf/pest-mode")
@@ -101411,6 +101411,29 @@
       "Documentation at https://melpa.org/#/russian-holidays")
     (license #f)))
 
+(define-public emacs-russian-techwriter
+  (package
+    (name "emacs-russian-techwriter")
+    (version "20221229.822")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/dunmaksim/emacs-russian-techwriter-input-method.git")
+               (commit
+                 "1d86134d04ecf2305969c7546ead7ad425cd7243")))
+        (sha256
+          (base32
+            "1d170cjlrpabivqy5xdlq9hykhr6gxmghvhacp1sj8288jv63jjs"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/dunmaksim/emacs-russian-techwriter-input-method")
+    (synopsis
+      "Input methods for Russian technical writers")
+    (description
+      "Documentation at https://melpa.org/#/russian-techwriter")
+    (license #f)))
+
 (define-public emacs-rust-auto-use
   (package
     (name "emacs-rust-auto-use")
@@ -105586,17 +105609,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20221206.26")
+    (version "20221231.251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "4d540c8fc963515662b14197a9835573c1d28687")))
+                 "8a85af1f77d61dbde94399e85a411f0cb4d61cb1")))
         (sha256
           (base32
-            "0dpassip4ji3s7v9jn6p9bb8pg02rkf6qf9xnjl6h71lb2f2w26s"))))
+            "07h9845dg3f9h421aq9gj38dqf5mabb2lwfv0zpmjdg0p6gh0b29"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -108011,17 +108034,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221228.110")
+    (version "20221231.110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "0bdd7e0501d9e432f3ae50d7ae1290a835503fda")))
+                 "617c66a5880e6afa655c4ee162fdf48f95e82376")))
         (sha256
           (base32
-            "1d65qs09b4v43nwsx8cmmazlv5pa5gg5amyiphqp9qkg0k13vlab"))))
+            "18767q0j3bdixqqf615y0f8xwz2q8c3rawxfy8rb5kwgh71skany"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
