@@ -14869,17 +14869,17 @@
 (define-public emacs-company-box
   (package
     (name "emacs-company-box")
-    (version "20220910.1354")
+    (version "20221230.1603")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sebastiencs/company-box.git")
                (commit
-                 "79abd77f3357279c2726b74f8b20df27b71aa867")))
+                 "766546b2668b5ef4eb4abbde632c9acd370c7788")))
         (sha256
           (base32
-            "0p60h0l62b1pdnc444j9nzya6c61dxwf8d6i76qh7h9bzzn6ikf4"))))
+            "1ypk5lxgcmk4v0y2ch23267zg3acnafw7441a4zg26zvg68x7mx9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-company emacs-frame-local))
@@ -73862,7 +73862,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221230.1326")
+    (version "20221230.1759")
     (source
       (origin
         (method url-fetch)
@@ -73872,7 +73872,7 @@
                ".tar"))
         (sha256
           (base32
-            "0yp2iffbaap44h08g0hy9jp2pczxdy3b63gff3xfky964rhapbl3"))))
+            "00a16vrrn6vxw1znsjd6fs02wrg2adzkyhsrx02d3cqwkdvss1aq"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -74201,17 +74201,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20221230.600")
+    (version "20221230.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "e42ee24e236d470c930179b6af5f15d6a0aab9f8")))
+                 "2f9f5f37f5ccdd20cacdc99429945af7403e0055")))
         (sha256
           (base32
-            "1swfk6xs3saql612zxgbsm1fb76dzxvm2fyl810i6m4wpijirkys"))))
+            "177gbwy0bgwm7l96ggznhpplihcpdqx0mspwpv9sgg2597n0gc9y"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
@@ -96552,17 +96552,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20221228.1405")
+    (version "20221230.1842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "8f7ba42218e4851bb0f62f99d3a151813426b5e6")))
+                 "ddda95533392025348e708a56cc70c20af0b20a2")))
         (sha256
           (base32
-            "1r4qn7bib9ic6fak2432kgaj6ziprbmz81zabsmlh9jmk9ci42j1"))))
+            "0jhkb8lyixcaxpkqhq12bkf70ymfhdsbq2mqz93rsv5ncn5ljhrm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
