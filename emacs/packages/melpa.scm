@@ -10311,17 +10311,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20221223.1838")
+    (version "20221231.932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "9b97dbbc7624415ee25f79de9ea357feb1e2e547")))
+                 "0bbe3620d6b04f07124b6cde3d979252bdc5782d")))
         (sha256
           (base32
-            "19nzf01sfmfwgckvvbhn3xpdn39vz55vcgsin0pnj5nsckmm78sx"))))
+            "1855wi6ghi42ngjq3qyjr3p1nc57s257v9c98wqmb2n6vca5p2lp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -15119,17 +15119,17 @@
 (define-public emacs-company-emojify
   (package
     (name "emacs-company-emojify")
-    (version "20221006.557")
+    (version "20221231.858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-emojify.git")
                (commit
-                 "6856bdb187bf6f8c31965058e4408827f6ae178f")))
+                 "f4b71999cc07678f0bf80778760fa52bdfb5b23c")))
         (sha256
           (base32
-            "0751hs1gdmn5f2nv607lh7pn01xnpczkkvivqn1nl5n2l45s0i8i"))))
+            "0z3gnri6dh9aj9p30b598wzf11qz2nrrwlz6p9nsbi8105gmbypy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-emojify emacs-ht))
@@ -28427,7 +28427,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20221231.322")
+    (version "20221231.601")
     (source
       (origin
         (method url-fetch)
@@ -28437,7 +28437,7 @@
                ".tar"))
         (sha256
           (base32
-            "1sw8wyaqabr4jpbihkiq6ncs76x3k79anj6c0jpm6mm21q7mqyxw"))))
+            "1kpl68hj310dqrfrc907ghrkjdysky6m6f0kqwz9qq24347kw397"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -40463,17 +40463,17 @@
 (define-public emacs-flymake-collection
   (package
     (name "emacs-flymake-collection")
-    (version "20221219.1854")
+    (version "20221231.1240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/flymake-collection.git")
                (commit
-                 "74e2f3fb4b9b4944f1c90377d7d2f16e57d6d5cd")))
+                 "a030c282e95d709bbb67a7fc115dde1f0d500ae9")))
         (sha256
           (base32
-            "1i6gmvvq7kk1ka0x3gbn5p9bf0xg5p35z704gxri9758wig7h3ab"))))
+            "0pin1z7g2yw45lwp77nn3vns8xrcqyqn1hxik4spg0rxfhan7afs"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -68837,7 +68837,7 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221231.447")
+    (version "20221231.746")
     (source
       (origin
         (method git-fetch)
@@ -73862,7 +73862,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221230.1759")
+    (version "20221231.1304")
     (source
       (origin
         (method url-fetch)
@@ -73872,7 +73872,7 @@
                ".tar"))
         (sha256
           (base32
-            "00a16vrrn6vxw1znsjd6fs02wrg2adzkyhsrx02d3cqwkdvss1aq"))))
+            "19p5pbk5cpss9a66j7lc91bpbrxi2x0rdvxjpkr383z10b4qiv76"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -83549,17 +83549,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20221214.1713")
+    (version "20221231.934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "010eade723881ca234a12bd94b791e2000cd2a15")))
+                 "c9c0c5135a66382f55681bc84f3a2658a7c8ac76")))
         (sha256
           (base32
-            "1xg5bs4fswsfanb53h5zl6q0qhvmm0wsikrh8cg1g4whb2bi7m0h"))))
+            "0bqps8dpvqd2dfw3bamnnf1ikvd48vn8hgb08975f0wski54xh5n"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -86490,17 +86490,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20221206.140")
+    (version "20221231.940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "9f717ca40efc3f05ed9cafd4589baa887559edb5")))
+                 "7a7be6ce999a9abd5d2e6a90f21d9626c73880c5")))
         (sha256
           (base32
-            "1g0k88cfbnz393b0924mwjyiwjk5mgy7bsvighm4757plasl586m"))))
+            "0iacf3mqjq8vfhd0nyzry0spishyvn92zgd55ivqxb9xfdr3lx9x"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -122003,17 +122003,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221219.703")
+    (version "20221231.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "02fa7bbe57a313e22abf2e0cc037f445ecef0684")))
+                 "665dd0348c45215312e4cd79df79916fbe21c132")))
         (sha256
           (base32
-            "04s0p1rxj3liycmv36zw9r6fksmk6mfxrwxbqfyfjdazxpq9wzsj"))))
+            "08pny08jqm8pna8xmwafjp3bafw4mbnd1kvdnyvq7wk26pn1bkmg"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
