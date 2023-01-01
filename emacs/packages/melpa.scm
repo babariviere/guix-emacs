@@ -28426,7 +28426,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20221231.601")
+    (version "20230101.539")
     (source
       (origin
         (method url-fetch)
@@ -28436,7 +28436,7 @@
                ".tar"))
         (sha256
           (base32
-            "1kpl68hj310dqrfrc907ghrkjdysky6m6f0kqwz9qq24347kw397"))))
+            "1x5mw059zndvp7dnq7bfhypfhq7ww0b6x79yp5vhb96skq65l5wp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -42532,17 +42532,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20221221.115")
+    (version "20221225.1016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "a3705892a998062beb039577bf88f514b72cffc7")))
+                 "191fff1abbac6684b207fbcaf3d1a6d81f67f5a1")))
         (sha256
           (base32
-            "17lx15kc7xx1b51d65lygza5bambcdz23j8cqhb03fhrc217h8yy"))))
+            "0d6n29q6dr4c3s0fl56fzx2yibzqgspirx2i2b2jaa9idhbzl9bs"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page
@@ -71437,7 +71437,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221229.2323")
+    (version "20221231.2351")
     (source
       (origin
         (method url-fetch)
@@ -71447,7 +71447,7 @@
                ".tar"))
         (sha256
           (base32
-            "130zhzxsvpbiwgjqkjgynap20i5zpqm91ka5z9wbhfccxq6172cr"))))
+            "0gq6lrli33aawwn7qnkkc6b2ib2w9cvh2whcchygm6wsbv2brpan"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -73860,7 +73860,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20221231.1304")
+    (version "20230101.333")
     (source
       (origin
         (method url-fetch)
@@ -73870,7 +73870,7 @@
                ".tar"))
         (sha256
           (base32
-            "19p5pbk5cpss9a66j7lc91bpbrxi2x0rdvxjpkr383z10b4qiv76"))))
+            "1m38q09zh6ai99rm4gmyc49a3f0hx79c9wcg2g35cvdg5gs2nw32"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -86488,7 +86488,7 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20221231.2056")
+    (version "20221231.2156")
     (source
       (origin
         (method git-fetch)
