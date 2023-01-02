@@ -1880,17 +1880,17 @@
 (define-public emacs-affe
   (package
     (name "emacs-affe")
-    (version "20221109.841")
+    (version "20230101.1649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/affe.git")
                (commit
-                 "ff75fbe6f6b280815c33ed2d6694bf0ee74dd1fe")))
+                 "e4a46e48d298911c34e79852c43c7118d2f4d5ad")))
         (sha256
           (base32
-            "01cza8ffx6djh1mign5bzkdvmcjrd69g3hwc3s0grpcidbqi0qic"))))
+            "1pj89zhqfhqf387skjqxlznwlmvf65nml9v5i99s895ya1irsafq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page "https://github.com/minad/affe")
@@ -3373,17 +3373,17 @@
 (define-public emacs-ansilove
   (package
     (name "emacs-ansilove")
-    (version "20221222.1932")
+    (version "20230101.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-ansilove.git")
                (commit
-                 "6d92fbb70f5a1bd08833bac0a722814872658375")))
+                 "bd3b2491c6cce1868aa6f58b19812ab47ff8bf8d")))
         (sha256
           (base32
-            "13qxzsfmigsyz6rp4k72vflbj0324qq1csispn1sgnjfb4lrd6pc"))))
+            "0v91iwa7x32135kqpax5ri7ifrpqxfwq8x7brxkqqxd48lvcbgr0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*")))
     (home-page
@@ -7655,17 +7655,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20221222.725")
+    (version "20230101.1628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "b430ad8b6bcc03830cd910d0540e149f68780cf8")))
+                 "b1f12ead26ec4886354c5ee498e598305901dce8")))
         (sha256
           (base32
-            "1pgcjv7nap8mynb9h418qjsxagvh6bxaq0lw67qilh0h0f1xm2bn"))))
+            "0qkim30in85ylif5qnqz0qkqplbsbb939f4x9ikw115gbq7vkv15"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -12362,17 +12362,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20221124.1514")
+    (version "20230101.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "ed7da18bfc057b1a3049f2bc0f984383cf08e0cd")))
+                 "37f6b6b1b82597f8dc17b58dbd21855d73074c31")))
         (sha256
           (base32
-            "13zm6fpws7gqjsy8vxv05wg0cdrxl5ffrhgjq19cmlw8qlq36h2j"))))
+            "1whg4pccwbpilgfcvfpjl1djdfwlavw0h66fjdmr1xpzi1sxq8r3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -17360,17 +17360,17 @@
 (define-public emacs-conventional-changelog
   (package
     (name "emacs-conventional-changelog")
-    (version "20221216.33")
+    (version "20230101.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/emacs-conventional-changelog.git")
                (commit
-                 "0102573ee7fe6da86176fe15c0f18dfdbb02594c")))
+                 "56f0e134f0edc1964965575dea259b186d34155a")))
         (sha256
           (base32
-            "07hwd859ij5k28d0k5szdmccykhrzh305az4shkklib9cir5cxds"))))
+            "0jhn41p0fxg14c6jhi4kcfv3ws1pv1kkjx1glq26w854gzmf7z1q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/emacs-conventional-changelog")
@@ -27192,17 +27192,17 @@
 (define-public emacs-el-fetch
   (package
     (name "emacs-el-fetch")
-    (version "20221222.1930")
+    (version "20230101.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-el-fetch.git")
                (commit
-                 "f499d4ae6b3e0abdeee97ca234bafa5a2873806d")))
+                 "65186b28cba1a8f95c655856073894724b806e2e")))
         (sha256
           (base32
-            "0ggwhlgy5mqid7hhgq59fmsmssj3y00bmwpmzqgkqa9mx01b4924"))))
+            "1s0zg9269mrz6a71xfmwfxjgcs1wv1ihl2w0a6n5p6s253j92907"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/el-fetch/*")))
     (home-page
@@ -28426,7 +28426,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230101.1229")
+    (version "20230101.1936")
     (source
       (origin
         (method url-fetch)
@@ -28436,7 +28436,7 @@
                ".tar"))
         (sha256
           (base32
-            "0f5dxxr9yy8b6cl18dhy2q9xmmfcaasrydxwn8zwi5j4scycyzc4"))))
+            "0w02kamx5d0pgk243mb9lqay37jdd4va8xljkqv8zwsvaqy2691d"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -50015,17 +50015,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20221229.1256")
+    (version "20230101.1922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "57332b4bdad1d771f7d103157c45d77f6007e02b")))
+                 "431e34dcc9d38c10eb8b9f22c3b5a10a0bf250f7")))
         (sha256
           (base32
-            "10zjmyway9h3kw03xybzdra2d07wvadm8fymfcwx12x2j92cgmbx"))))
+            "1ybi6d3d24jbjwa1svldm78pazsr8k5bpx8ka9zl7s2wh439rj0d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -50823,17 +50823,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20221229.1256")
+    (version "20230101.1922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "57332b4bdad1d771f7d103157c45d77f6007e02b")))
+                 "431e34dcc9d38c10eb8b9f22c3b5a10a0bf250f7")))
         (sha256
           (base32
-            "10zjmyway9h3kw03xybzdra2d07wvadm8fymfcwx12x2j92cgmbx"))))
+            "1ybi6d3d24jbjwa1svldm78pazsr8k5bpx8ka9zl7s2wh439rj0d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -86488,7 +86488,7 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20230101.1110")
+    (version "20230101.1602")
     (source
       (origin
         (method git-fetch)
@@ -90917,17 +90917,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20221112.1616")
+    (version "20230101.1753")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "d01cfc9cd51706e076bf7e5cbf0cfa7ee885efb4")))
+                 "59f0ed3b33de37b7f1c9b39e82497d77fd6be536")))
         (sha256
           (base32
-            "13lkzvamr86409whr8as4721gx9xrlfkmxvv941775mryliqk6j6"))))
+            "1yy6cr8i12njpp817g7578zp2584ayn0fr114jmm09gai6bhl5ig"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -108172,7 +108172,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20221230.1036")
+    (version "20230101.2010")
     (source
       (origin
         (method url-fetch)
@@ -108182,7 +108182,7 @@
                ".el"))
         (sha256
           (base32
-            "0kfp410sja7c7vlvs1n6jfm6nhh6w7nnwvqmaaka2zzw26v54kfy"))))
+            "0nmqirlzrndfbg46h6yldcp56qbhqcnx96d0lrw0g9wys1mc7b00"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -114174,17 +114174,17 @@
 (define-public emacs-totp
   (package
     (name "emacs-totp")
-    (version "20211018.1743")
+    (version "20230101.1617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juergenhoetzel/emacs-totp.git")
                (commit
-                 "680b2c969823b91e0b35afbe2a35a610cb2fa26a")))
+                 "67c74af6e3a78c865dad3eebdda0d04582ff6c23")))
         (sha256
           (base32
-            "17ylcrz7gw1hyq9ls5anz7ycd5y6f3j06jxr6i80hj5ccylzy82c"))))
+            "1xgnjygzw1k1rp7jdlk2b5zx7803fl0h3d7kkh4yy3sxmwjja9gl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/juergenhoetzel/emacs-totp")
@@ -120082,17 +120082,17 @@
 (define-public emacs-websearch
   (package
     (name "emacs-websearch")
-    (version "20221214.551")
+    (version "20230101.1905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-websearch.git")
                (commit
-                 "594d681fede3f2d168779888d7d3d9bb8252676c")))
+                 "42272b29022cb2fc669ee4487b307dd16eb14e73")))
         (sha256
           (base32
-            "1vn9z5qlp3svpkhps6x8hya0vnk6clpr68b2hlg8bkhk7h1pi2pg"))))
+            "06ffh2fqlnf4q0n2ssbrsgyidav7b1sr2s6iw0iyxzsri8rx6qwk"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/xgqt/emacs-websearch/")
@@ -122001,17 +122001,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20221231.1329")
+    (version "20230101.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "665dd0348c45215312e4cd79df79916fbe21c132")))
+                 "0f22a0888a8fefc84647a5bcf513afff016fe354")))
         (sha256
           (base32
-            "08pny08jqm8pna8xmwafjp3bafw4mbnd1kvdnyvq7wk26pn1bkmg"))))
+            "1kjkwd4qlk9apchgcn0cvzay51gb3s7d8vblf5f1kdh4a23dys57"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
