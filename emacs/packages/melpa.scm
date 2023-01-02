@@ -7655,17 +7655,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20230101.1628")
+    (version "20230102.705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "b1f12ead26ec4886354c5ee498e598305901dce8")))
+                 "4d95addda3eaa7e32030ed7b9077378e3b917dea")))
         (sha256
           (base32
-            "0qkim30in85ylif5qnqz0qkqplbsbb939f4x9ikw115gbq7vkv15"))))
+            "0kw9330972hsk79wwdqhb7gnz0ni5s71qnr7wap2l0f6zh7f5vhv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -16745,17 +16745,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230101.1107")
+    (version "20230102.1232")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "93091590b2a2029bcecce3fa355f8857a8775836")))
+                 "e864602fd1982668dd64dfc00eb03d804ac104fa")))
         (sha256
           (base32
-            "1ny1vfvn67izlgska57pzblndrw9qm9vl87734x25jv6z4gbp9cj"))))
+            "15i62spsr1w506i2amangi8z0xp16w5s5qlk9mxlv216nn90x622"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -28426,7 +28426,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230102.215")
+    (version "20230102.937")
     (source
       (origin
         (method url-fetch)
@@ -28436,7 +28436,7 @@
                ".tar"))
         (sha256
           (base32
-            "0iaq69yf7pqcnfsmz0xb8y1h2w1zl80ssl3mpvcly5r3x0k8jqcm"))))
+            "1a16z0gk2sd5i154i9whdhalnm448bw59kzl98hkdxwpwb3ap7h3"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -52585,23 +52585,23 @@
 (define-public emacs-helm-mu
   (package
     (name "emacs-helm-mu")
-    (version "20221217.1642")
+    (version "20230102.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-mu.git")
                (commit
-                 "0dfa91f1f058fb2b92f88172de2735c547427f82")))
+                 "2422f57ed40d998ac6f085f93b24223c91cefaf7")))
         (sha256
           (base32
-            "17z5x4jmc1apy43d2fd2ydpjnp8m1d6yc94l4pbgm33c3zn4ikn2"))))
+            "1j6avadq1jn5bib1nr8sj08qn4f67psb39jdcn314n6r84xf4gam"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page
       "https://github.com/emacs-helm/helm-mu")
     (synopsis
-      "Helm sources for searching emails and contacts.")
+      "Helm search for e-mails and contacts in mu4e")
     (description
       "Documentation at https://melpa.org/#/helm-mu")
     (license #f)))
@@ -69559,17 +69559,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20221227.910")
+    (version "20230102.841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "9fc515dfd84d8c173bfb29da88eefd0fbdf8b820")))
+                 "6861b2f4cb1154c56422feb7b928a12e5e17ad63")))
         (sha256
           (base32
-            "02i7j60aa00a7pd07642y4wkcjxbvzr5x4py47806f873kw77yd8"))))
+            "0xszxrpwrjyqyi5n6gdmbv0z96sl9npm1ih0xwwfl58qiv63g882"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -75779,17 +75779,17 @@
 (define-public emacs-my-repo-pins
   (package
     (name "emacs-my-repo-pins")
-    (version "20221127.1249")
+    (version "20230102.1308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NinjaTrappeur/my-repo-pins.git")
                (commit
-                 "6ed7d45cecc3434c4e032f1bdd23e49577f621c7")))
+                 "765629e4c6f846e20bd0fa7ff4580e25f35f2835")))
         (sha256
           (base32
-            "0rvmv3y12l7fpjwzfgwbvhzrmp6n2fxs3zjjx9cr1mxm7gkhw0y5"))))
+            "05kv8kdlxc8yzck6sf88sipbcijq9ikp562n7b7mqr1w34hcxr3p"))))
     (build-system melpa-build-system)
     (home-page
       "https://alternativebit.fr/projects/my-repo-pins/")
@@ -110058,17 +110058,17 @@
 (define-public emacs-suomalainen-kalenteri
   (package
     (name "emacs-suomalainen-kalenteri")
-    (version "20220804.657")
+    (version "20230102.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tlikonen/suomalainen-kalenteri.git")
                (commit
-                 "8a41d16371ffaface70739ec861709f674b4a94a")))
+                 "95d8b7f9b404c749831d7b4e0e396c76bd822015")))
         (sha256
           (base32
-            "0rpkwns05aa4d5ix0ffkh2gzag75dvqb78gqhihq560jb83qhc5z"))))
+            "107fzsz7c1cl92ryl6dg198bi5jpkl99rlgw544my2yw728bwnfk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tlikonen/suomalainen-kalenteri")
@@ -110729,17 +110729,17 @@
 (define-public emacs-symbol-overlay
   (package
     (name "emacs-symbol-overlay")
-    (version "20221215.1741")
+    (version "20230102.952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wolray/symbol-overlay.git")
                (commit
-                 "f18493673d1c9870f6b44e2dbdbe8b0b739d1526")))
+                 "37de0a1c81c79d5a4bba417b545516122024ca12")))
         (sha256
           (base32
-            "1hllnywgcjc6rczavfjbzvddrix39ymdhp1mjic80v8z5cz8wsxh"))))
+            "0w6y5kbydwvxc7ajlrrxkbjr5x8lrsfkbrgbv1bsbwc8gab732cd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/wolray/symbol-overlay/")
@@ -113071,17 +113071,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20221225.900")
+    (version "20230102.101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "b7c4ecdd9179c6786c6da04cf93eb6eee0819bf7")))
+                 "4dcf848fdeee67bd5f177430253c308587b18dfa")))
         (sha256
           (base32
-            "1ng741hg7rm34zma72f0jbhw18la6dlzdqdi8aapy35j1fphzhr1"))))
+            "14xil5s3782l5dans7q9vhxbljks9slix4kwkc5jj97dk32mnxhr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
