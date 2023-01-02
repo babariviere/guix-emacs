@@ -28426,7 +28426,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230101.1936")
+    (version "20230102.215")
     (source
       (origin
         (method url-fetch)
@@ -28436,7 +28436,7 @@
                ".tar"))
         (sha256
           (base32
-            "0w02kamx5d0pgk243mb9lqay37jdd4va8xljkqv8zwsvaqy2691d"))))
+            "0iaq69yf7pqcnfsmz0xb8y1h2w1zl80ssl3mpvcly5r3x0k8jqcm"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -71110,17 +71110,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20221210.348")
+    (version "20230102.9")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "d95107f5b77d6c010e89259e05adfcd79a21f26a")))
+                 "6024f2d78e1c3e8e4fb4a9cb375291baa44c7cf2")))
         (sha256
           (base32
-            "17xmsn66fc1npjk3wkzl2b0jv5mvwqmramz4zb43smg2jgiap260"))))
+            "0w3ss07dgpsp1drxahhb0mrcy044j4ch2z06zkvs9amlvlkxhl04"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -108032,17 +108032,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20221231.110")
+    (version "20230102.111")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "617c66a5880e6afa655c4ee162fdf48f95e82376")))
+                 "fd637b38d118f57fb1037cfc6b5449beb462a81d")))
         (sha256
           (base32
-            "18767q0j3bdixqqf615y0f8xwz2q8c3rawxfy8rb5kwgh71skany"))))
+            "1nwjcaj8l23q0f8ps17yl4gigqb01jcwmv48gs8zvfcg6r8fjp6d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -113429,17 +113429,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20221226.1540")
+    (version "20230102.59")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "5ee021f45bb042aad6d97f6c8118452093ffba64")))
+                 "58089cd4eb6541fd4e818baf7ccfe58fc39d1327")))
         (sha256
           (base32
-            "0krd2jm6f2cl7qd4fjqax7gxqvpcj91qp7kwsf2hri7adhiblfcd"))))
+            "0j4p7qckrywpph63m140l4d713c9kx91didyflfpnr1wgy6pzq3v"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
