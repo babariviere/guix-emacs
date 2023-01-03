@@ -2581,7 +2581,7 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20230103.329")
+    (version "20230103.752")
     (source
       (origin
         (method git-fetch)
@@ -7655,17 +7655,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20230102.705")
+    (version "20230103.1123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "4d95addda3eaa7e32030ed7b9077378e3b917dea")))
+                 "a4f01e1203b73ad2b9192736ea3138cd2a4dc1f6")))
         (sha256
           (base32
-            "0kw9330972hsk79wwdqhb7gnz0ni5s71qnr7wap2l0f6zh7f5vhv"))))
+            "17w19w47qlzalxab8qgiymp1kfybppgpwr5fl0p5562hwdmkkayc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -26503,17 +26503,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20221228.2146")
+    (version "20230103.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "b8043702f3d977db0e030c6c64ee4a810cad5f45")))
+                 "5a80a5a11edf891f29354bcde090918527a80ba2")))
         (sha256
           (base32
-            "07y1qim4j3mv8lgk25bp51npx6m15b3wf0pn9y6qiq9n72zxs202"))))
+            "1425k5jgg211p2gs1hfpvk9j240dd30wmjw6s9ax7i1nmlnsg3h2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -28426,7 +28426,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230103.422")
+    (version "20230103.507")
     (source
       (origin
         (method url-fetch)
@@ -28436,7 +28436,7 @@
                ".tar"))
         (sha256
           (base32
-            "0j5437l14ypgp1n1phrlrfrn9d8cnxhvbdx6dl50jzirbplynsmx"))))
+            "0f28bkwq68gdnqjrc3c9dwlk46daj6v77xzaphz4fbkwc0fv6bjj"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -43178,17 +43178,17 @@
 (define-public emacs-fuel
   (package
     (name "emacs-fuel")
-    (version "20221108.1757")
+    (version "20230103.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/factor/factor.git")
                (commit
-                 "8c9bb02fe3c958d657857117825a83548cdfe2f0")))
+                 "a68a784a8070e252aa9ff547d997ee56fee5549a")))
         (sha256
           (base32
-            "1gjbz95nzv348qnj76pxgmc3515sv4zw59axkhbp841cfjkd091g"))))
+            "007s71nkahv2589x7jmk85l5zr7fc3b7g4fphi5skc823sqgx31g"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("misc/fuel/*.el")))
     (home-page "unspecified")
@@ -66389,17 +66389,17 @@
 (define-public emacs-lfe-mode
   (package
     (name "emacs-lfe-mode")
-    (version "20230102.1421")
+    (version "20220822.911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rvirding/lfe.git")
                (commit
-                 "9d36ffb54e425c8ca77bab4055bb05b085c68a4b")))
+                 "98ad0008eea233a48e6555343e63322b5bfb8c6a")))
         (sha256
           (base32
-            "10zi3rcc0bqxv6rfaqn2c7ljb8afc98k14j5qxzybp5q95s02366"))))
+            "14bffvmyq6czfhvmcw332a7y4cyr27f75kzk46qlhlqs6l3rahqx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -69742,17 +69742,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20221215.2232")
+    (version "20230103.1503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "05290e30f57379adc73cfd932b728d792039a42f")))
+                 "a2ddc7cad487e6165c2e2ac26acec62b1f7bbeca")))
         (sha256
           (base32
-            "0lym5wgb3jbs3bzc77y4i2d6577kyw10973l2h3apbhfnj69gpfj"))))
+            "007lprnl9ylzk0246yh885nikhbwxxrghismsqrwiiair758hrv6"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -72108,17 +72108,17 @@
 (define-public emacs-mentor
   (package
     (name "emacs-mentor")
-    (version "20221030.1607")
+    (version "20230103.1146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skangas/mentor.git")
                (commit
-                 "88ef7deabd84591de28b463eb39cf8b520b21c9a")))
+                 "f51dd4f3f87c54b7cc92189924b9d873a53f5a75")))
         (sha256
           (base32
-            "0dm45p5jb1f5y526ypxkllpzk8wv4fkw9yps71jxz31yfaybqfrc"))))
+            "1jmgq8n6lf2gkxx1f2nv56dvs335zhcq4kgvmsrdiaay4v4j9pgi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-xml-rpc emacs-async emacs-url-scgi))
@@ -73861,7 +73861,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230103.133")
+    (version "20230103.1043")
     (source
       (origin
         (method url-fetch)
@@ -73871,7 +73871,7 @@
                ".tar"))
         (sha256
           (base32
-            "0bk73shmam6g0mwrdsyyapgk4gan2fbvbks5kihvrc2qkdp32ah3"))))
+            "19rf3smb3g1840bkibjdxi1yn8810ifkr2qzsfmr5a7n7zfbkc2j"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -79784,17 +79784,17 @@
 (define-public emacs-ob-p5js
   (package
     (name "emacs-ob-p5js")
-    (version "20230101.1407")
+    (version "20230103.1356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alejandrogallo/ob-p5js.git")
                (commit
-                 "f4456b6533bcf2d41caffb267721ef00a0ef16c2")))
+                 "c9f89c8b588cdb0c021a875b8f9fc91be7e39de8")))
         (sha256
           (base32
-            "12ckm33qca785la5l8pn4rbdls5akycbj1fpa8rdv42grnlhhbm4"))))
+            "0rs8c4dlxawm4sclgrc2bi6z43dhalbac91hgxa7kw6vssfgibbp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alejandrogallo/p5js")
@@ -90940,17 +90940,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20230101.1753")
+    (version "20230103.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "59f0ed3b33de37b7f1c9b39e82497d77fd6be536")))
+                 "cf9481ccb7fbd50847e5a8c1da37f68771c2532e")))
         (sha256
           (base32
-            "1yy6cr8i12njpp817g7578zp2584ayn0fr114jmm09gai6bhl5ig"))))
+            "1d19qcn5jlxnnzqfw2lxh0s4ic6smp60plc59zh72nyrm4fvh4m7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -115264,17 +115264,17 @@
 (define-public emacs-tron-legacy-theme
   (package
     (name "emacs-tron-legacy-theme")
-    (version "20220610.1746")
+    (version "20230103.617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ianyepan/tron-legacy-emacs-theme.git")
                (commit
-                 "72655ce5ea0580cc23966821d2813e4d5e961f93")))
+                 "710c5ef80835cc2f6fb40e51f782ab531048f86e")))
         (sha256
           (base32
-            "1ba7abw53qmn0d1swxcvgdx6xgrx79ql0mri5mm7nxf7abifskxp"))))
+            "10y4wp5c7ycj1sr938gw1zyqyzd307lzn5wv5qmv6z8r6xbh6vcs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ianpan870102/tron-legacy-emacs-theme")
