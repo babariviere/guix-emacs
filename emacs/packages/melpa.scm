@@ -2581,17 +2581,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20221202.1336")
+    (version "20230103.329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "c5839098664104ade4dfcefa0ba716215c4f7812")))
+                 "696ac9a49623b4c11fdead5df80f1374878ecff2")))
         (sha256
           (base32
-            "08hvpa1sw6id43wv33wd6m7dzxg9ah7s7dby3r2fd752ddlda4qg"))))
+            "1xicm8vlnffs7z45a89dqvnq6cljdfmnb47mbzhy7mf4akgiks1f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -20333,17 +20333,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20230102.1749")
+    (version "20230103.501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "594f2d96d5adb68313210611d0d729d161e85f19")))
+                 "803e44d5ae120310c4286655d010976fe591d7fe")))
         (sha256
           (base32
-            "0iml8b4lrwxy4xdff8jsvhz12p95cdi4jq5g81d5246xyjcbzfg9"))))
+            "0ndmph8haxxxq129aw22wm2n5mxp8y664psqynp4m5q7icn3pg88"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -24425,17 +24425,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20221217.1212")
+    (version "20230103.643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "fe9ee5a2a950f9ded10261a05a12adc577ae9e36")))
+                 "90f79647260e1f81d334ab2d276cf7444e6e320c")))
         (sha256
           (base32
-            "0zl98zyy87hll3h5z7hpd5fyb82vxb6svrnkr4k65027p0fggm91"))))
+            "01r2lf8zr04lbndgq7pzjchznhw3q8i3q76rg9x1fj5lgm7ql207"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -28426,7 +28426,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230102.937")
+    (version "20230103.422")
     (source
       (origin
         (method url-fetch)
@@ -28436,7 +28436,7 @@
                ".tar"))
         (sha256
           (base32
-            "1a16z0gk2sd5i154i9whdhalnm448bw59kzl98hkdxwpwb3ap7h3"))))
+            "0j5437l14ypgp1n1phrlrfrn9d8cnxhvbdx6dl50jzirbplynsmx"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -73861,7 +73861,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230101.1201")
+    (version "20230103.133")
     (source
       (origin
         (method url-fetch)
@@ -73871,7 +73871,7 @@
                ".tar"))
         (sha256
           (base32
-            "1wby2gywwkszfan6kycmw3l2rd36c0gvac17fas2lbkjax44dx8a"))))
+            "0bk73shmam6g0mwrdsyyapgk4gan2fbvbks5kihvrc2qkdp32ah3"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -108055,17 +108055,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230102.111")
+    (version "20230103.110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "fd637b38d118f57fb1037cfc6b5449beb462a81d")))
+                 "5a4947690ee9060db5a9fd5f8c9a530ce383d907")))
         (sha256
           (base32
-            "1nwjcaj8l23q0f8ps17yl4gigqb01jcwmv48gs8zvfcg6r8fjp6d"))))
+            "02v5cxbmz41mrbyyxczhb13bqjp5hnva3nfnmm1d287vwhxv229g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
