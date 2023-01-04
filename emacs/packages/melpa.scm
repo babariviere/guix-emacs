@@ -7655,17 +7655,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20230103.1123")
+    (version "20230104.1305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "a4f01e1203b73ad2b9192736ea3138cd2a4dc1f6")))
+                 "b30a05f67a3c725f4257378de081b5d6fafde999")))
         (sha256
           (base32
-            "17w19w47qlzalxab8qgiymp1kfybppgpwr5fl0p5562hwdmkkayc"))))
+            "0hhlw8fqfc1bpidqc1qmcspi2b6110pym00b5cvw1ka879kbmz03"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -8780,17 +8780,17 @@
 (define-public emacs-browse-at-remote
   (package
     (name "emacs-browse-at-remote")
-    (version "20220908.1736")
+    (version "20230104.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rmuslimov/browse-at-remote.git")
                (commit
-                 "010639fc6bd6c710b56e0f095352da60c92473a3")))
+                 "d81643c975e77d506fe2eb931229739c162adb5d")))
         (sha256
           (base32
-            "0ihbapxi99drdn191g7brx4pa5f1w0mskhb3yz7w3qsf0g9y9kn8"))))
+            "1qwdid6bb66g1zri38mxr89shi4bmck6811gfakxczs88zrbb3wg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page
@@ -10820,17 +10820,17 @@
 (define-public emacs-ccls
   (package
     (name "emacs-ccls")
-    (version "20221202.1520")
+    (version "20230104.735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/emacs-ccls.git")
                (commit
-                 "ec101b92983066b652921ab0702e1b76619aa201")))
+                 "e4d1aad88365ee8ca3d57b15e31c94abc04bac55")))
         (sha256
           (base32
-            "1xzkyqx9alc5y8523wzj46zrjnbyd13q7jr8sl74n0z93q1kyyp2"))))
+            "0s5bi1c0gkxyb8yzk9nxadyp2p00cp52w3r719hjwf4b6svxb77y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-dash))
@@ -12078,17 +12078,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20221221.927")
+    (version "20230104.1300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "b029f5034d001ae2f1bbfd98e67cd5c89ef41847")))
+                 "ae2c39f99ac7a84e3869bc35d1b96074e13d0ab3")))
         (sha256
           (base32
-            "1ys7dka4if13b9mvkzflxypz39s47mwx9gbwxxpwh8hpk64jcxhh"))))
+            "0k9dwdxwl3vnnadsky3fk9iawp9f75v0z8f6s1rymv7qak8qnswn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -15868,17 +15868,17 @@
 (define-public emacs-company-posframe
   (package
     (name "emacs-company-posframe")
-    (version "20221118.824")
+    (version "20230104.1229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/company-posframe.git")
                (commit
-                 "ab58972c2cebc5ecf68c4cdd140c3aed2c68f42b")))
+                 "18d6641bba72cba3c00018cee737ea8b454f64a8")))
         (sha256
           (base32
-            "0nqcqs3ngxmb946mg11b2im9sycwdykghzbv3sp4aans8q62ig6k"))))
+            "03kj8yxd4y9aw86b6y6z5l9y76q5gjyiyhi5120nx1a8cwbd9g4a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-posframe))
@@ -62660,17 +62660,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20221224.12")
+    (version "20230104.931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "d2665a8ed9335ca980b3f382e1d1af978f4ded3f")))
+                 "6670e80dab2b126038b670a0d4e5c8ad8f76202b")))
         (sha256
           (base32
-            "0rj8dfxn1rgcmrxzbgnpfh0cqi18d25g4p8g39yg78frla766k4q"))))
+            "1l8jck87nsz7j85r3p3n6431sv1b4ans4n1r4i2x86x04ha866v1"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -66744,17 +66744,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20230101.1048")
+    (version "20230104.1211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "2166378349e2b84722d246da91867d58b4ea6e83")))
+                 "ab0f71d7bf550539064291783ea62e34852d0a1b")))
         (sha256
           (base32
-            "14z5c055krnhwfyranpgfl9gnkln8hc449wb07dzj2n36ii7mss4"))))
+            "07wcnlygz7mwzwsl25fn980730bwzyp0nkqfbcq9dn4jm7fvvyv2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-indicators
@@ -73861,7 +73861,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230103.1605")
+    (version "20230104.1028")
     (source
       (origin
         (method url-fetch)
@@ -73871,7 +73871,7 @@
                ".tar"))
         (sha256
           (base32
-            "0irpd8zhi6zmw8xiccbj0gczyj9x6nl3bllwi1rmzilvw8mjq2fp"))))
+            "1p0fiza2wkq7x1bz8wk39sbzm1lzdlsw3svpxxaxkq6sxxxxs8jc"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -108010,17 +108010,17 @@
 (define-public emacs-sparql-mode
   (package
     (name "emacs-sparql-mode")
-    (version "20220824.1323")
+    (version "20230104.1113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ljos/sparql-mode.git")
                (commit
-                 "15960092e8ce8ebe6a6afd82202ccf47cb306e76")))
+                 "1f6196094ec6626722c6e03a13f6844c68f62703")))
         (sha256
           (base32
-            "1wlwn2f6r00fj7wk1pymrha2rpfrd3b2ggmcjsz74f7ixc0y4c2k"))))
+            "031n56bsicrw99ls49rwg4padgbh5adb97lb9gxg852x57hilivr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ljos/sparql-mode")
     (synopsis
@@ -110988,17 +110988,17 @@
 (define-public emacs-syntactic-close
   (package
     (name "emacs-syntactic-close")
-    (version "20220618.817")
+    (version "20230104.1438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-berlin/syntactic-close.git")
                (commit
-                 "28410740e42ad9bb84416164406269b177fb49fa")))
+                 "e497a9438e19aa9490218323f15ead45e40c80b8")))
         (sha256
           (base32
-            "0mxnnrrqkpyjqps6fs7bwy6n4jvl0glwkmzk1fbcy1cmkl1pxm80"))))
+            "02w03zkb8nxalcadnl3akdr57vjppzhmh84zlkrb1da928hbdgvm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-berlin/syntactic-close")
@@ -114926,17 +114926,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20221230.1344")
+    (version "20230104.1319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "840883de053c42b2590dd653548de751391688ac")))
+                 "9986d6cd3d2822db7ae0e6d8a275db7057f3e828")))
         (sha256
           (base32
-            "0131hpwwv24dapxapsya20a66h57h20p1l4wa0nc01az6asbzzzm"))))
+            "0s9i5amc4bx223d3abikyr8cdkzpzbirfb3x6m26l6i430j8zsal"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
