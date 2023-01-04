@@ -5151,17 +5151,17 @@
 (define-public emacs-auto-dark
   (package
     (name "emacs-auto-dark")
-    (version "20221231.1914")
+    (version "20230104.29")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/auto-dark-emacs.git")
                (commit
-                 "19040dfd1e0ad2e89a12bbdd045559711bf3193e")))
+                 "88f4eb448525c8e11d00daa77ec8595b0863fd92")))
         (sha256
           (base32
-            "0w78rq12wz2wvjwf2b6fh6nj737hzmlil4hav1sal8bpmlpwqnx3"))))
+            "1l17dipndpppr92y30pwam2ms33ihgml3ka0iyrjajb0cj08hi0b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/LionyxML/auto-dark-emacs")
@@ -28426,7 +28426,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230103.2256")
+    (version "20230104.33")
     (source
       (origin
         (method url-fetch)
@@ -28436,7 +28436,7 @@
                ".tar"))
         (sha256
           (base32
-            "04zbil7i2l7dgjisqz50bhfnnlwfsak79w7cv4yrw177va5kzckz"))))
+            "17b3zxf41640abq98rndqhm4rqdsk4hghmxsixhmncrw52czp2d6"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -43541,17 +43541,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20220726.2216")
+    (version "20230104.440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "21912ebc7e1084aa88c9d8b7715e782a3978ed23")))
+                 "286e8ee8f4e41ae807a3cbc9218d5945413394ef")))
         (sha256
           (base32
-            "0gdqjh8996hb06bnnyhi94k69mjfrzyfgq00a9s4wwagv28sqmkj"))))
+            "0dmywximfc3f08pb7daampi2l8wfk6h7vvs14gaj5k0r7ak8798f"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -124152,17 +124152,17 @@
 (define-public emacs-zig-mode
   (package
     (name "emacs-zig-mode")
-    (version "20230101.835")
+    (version "20230104.538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ziglang/zig-mode.git")
                (commit
-                 "4356724434037504d9b823220070a98d921bad3e")))
+                 "1a4446af7777d04ca2d243681ac63b8c8b7f677b")))
         (sha256
           (base32
-            "1x95shji61djpnbhk1c3863kb337580z8qbxcm96k9is4swzkjwa"))))
+            "18jdinxjdacksyjwi1w96bbzinwyf490sq5m2ix04cbv9djzxf8y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
