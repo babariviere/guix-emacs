@@ -8370,7 +8370,7 @@
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
-    (version "20221230.1055")
+    (version "20230105.1129")
     (source
       (origin
         (method url-fetch)
@@ -8380,7 +8380,7 @@
                ".el"))
         (sha256
           (base32
-            "19jr0l1z3x7ic9k7wgjcag1mh9valsiddficrhx0fm52k1ciidk8"))))
+            "079kgjpcrzw7p8phskh55816pfjdd1yi0gdcpbswj9a3wvfsll0b"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-bookmark-in-project")
@@ -10194,17 +10194,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20221224.421")
+    (version "20230105.502")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "7da5a73c26c31f9d5102d42cd1bf61ce5d9cf31c")))
+                 "1be7e1f259eb856f0aa0ea3b86f89e8d2f7a416a")))
         (sha256
           (base32
-            "02d1a3z1lczfl8cm5gv85w3afchz1m79l9s30hjwx38k2jqqhrr4"))))
+            "1b15sj9vk4fjgpqhi3z1zfpbmzf0n8gpm0345kb4vjd9bkg9bi4d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -12078,17 +12078,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230104.1428")
+    (version "20230105.1231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "ae2c39f99ac7a84e3869bc35d1b96074e13d0ab3")))
+                 "a01d0e40581ff2b6e5bbadfbfe994f365901faf6")))
         (sha256
           (base32
-            "0k9dwdxwl3vnnadsky3fk9iawp9f75v0z8f6s1rymv7qak8qnswn"))))
+            "1mfxp9m4s4swlnp0q86hlldz7ym9j54yjhcip4kv2ffkffhsdmgs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -17126,17 +17126,17 @@
 (define-public emacs-consult-org-roam
   (package
     (name "emacs-consult-org-roam")
-    (version "20221120.718")
+    (version "20230105.748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jgru/consult-org-roam.git")
                (commit
-                 "96c95e5a14378cc6fc9c22981f5bfd9e18c419f6")))
+                 "0cca2a8d110252bf5deee3f071c47ea3c35b8643")))
         (sha256
           (base32
-            "1mjz73sv2hkirlsr3hmjfivknwydb4yjf90kk5a4zwmhcs3vlh8q"))))
+            "091w4mqxbqg15fzf9va2vhmhmvl3zh9jw9zbc7r8cgqng4anl43y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-consult))
@@ -19601,7 +19601,7 @@
 (define-public emacs-cycle-at-point
   (package
     (name "emacs-cycle-at-point")
-    (version "20221230.1040")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -19611,7 +19611,7 @@
                ".tar"))
         (sha256
           (base32
-            "11k7p2a4mhz2xsjh0fbqz4rx714pznbpyx5jzaam9f64gpx2mb5b"))))
+            "05ck7v09hzja1xkb04c8cp0grczn8cb3k440jbh493nmzh0g9mn6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-recomplete))
     (home-page
@@ -21682,7 +21682,7 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20221230.1033")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -21692,7 +21692,7 @@
                ".el"))
         (sha256
           (base32
-            "0z4y5rlq36df3gyp3yi4x0ld97ffyaq6ps3jbzngl6xdsf202m2p"))))
+            "1myrs77knbc9yzp263sq45i4d74cy0azdp2djj1mcf9jdxib3n3z"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-diff-ansi")
@@ -24020,7 +24020,7 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20221230.1031")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -24030,7 +24030,7 @@
                ".el"))
         (sha256
           (base32
-            "1nhpxkr37siiias9pxmb1klh1j855f3czxr1knlk3bjxm3c4ss65"))))
+            "0z12hk9wq92g7w6qdgl76qgqyvf2bln29jb8gynh3dqc6k3jwmxx"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-doc-show-inline")
@@ -28426,7 +28426,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230104.2330")
+    (version "20230105.1121")
     (source
       (origin
         (method url-fetch)
@@ -28436,7 +28436,7 @@
                ".tar"))
         (sha256
           (base32
-            "1jp9shyxn5v9wbig0ybq016v5v1zy393djlxk1amfyxgj0rzzni6"))))
+            "0ajk821ryxgy6zh7y8df879ai2mmsgkqi9294ix9zb0agrgb8ggh"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -32996,17 +32996,17 @@
 (define-public emacs-everlasting-scratch
   (package
     (name "emacs-everlasting-scratch")
-    (version "20220412.921")
+    (version "20230105.507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/everlasting-scratch.git")
                (commit
-                 "b3f8339f9564a1926bd8b71c163fa7660cc3b1f4")))
+                 "1b7dac779501dcd988552aa6455a5be89e8b0562")))
         (sha256
           (base32
-            "17lbrcgddrxw111a8al3i5cgnksmkv1qi0wzqzmvvggq073mvmqr"))))
+            "0hpv7a7jjs0shs7cda8q1bigwjb31miqbf8f4wr2swmjhh15w7h8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/beacoder/everlasting-scratch")
@@ -55501,7 +55501,7 @@
 (define-public emacs-hl-block-mode
   (package
     (name "emacs-hl-block-mode")
-    (version "20221230.1044")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -55511,7 +55511,7 @@
                ".el"))
         (sha256
           (base32
-            "146wm22gvvf3bs4aff4d75vfz6b0jcry8ldlvyzarir6x7zy1q5d"))))
+            "0pl1kmspw7vfxvdar7qjh8xdzi155shp31fsm6gzs5l43w3fj80m"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-block-mode")
@@ -55568,7 +55568,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20221230.1045")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -55578,7 +55578,7 @@
                ".tar"))
         (sha256
           (base32
-            "07zmpc7vhrbfc0j9v508syjl0r7sq54ps0ac3ijhv9lzs47a0qig"))))
+            "0gp67l92a3za968dcp8nl088lrbi4s2rqj2q0y2dh9kg052k211x"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
@@ -55590,7 +55590,7 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20221230.1046")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -55600,7 +55600,7 @@
                ".tar"))
         (sha256
           (base32
-            "1w99vn0wn2fygx52f54fkbrzrw3nmvf0gz9ynzrsa1wmy56rgvdv"))))
+            "078g7nm545wdqva43n0mapx81p7wbax8yzlpcpi9gbiig3iyy8qs"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
@@ -57248,7 +57248,7 @@
 (define-public emacs-idle-highlight-mode
   (package
     (name "emacs-idle-highlight-mode")
-    (version "20221228.438")
+    (version "20230105.1130")
     (source
       (origin
         (method url-fetch)
@@ -57258,7 +57258,7 @@
                ".el"))
         (sha256
           (base32
-            "0lqksb55m9c25vkpksj9pa2jkhdxg4my7chlzhgiijndhnmg0hkn"))))
+            "09jxh45l688j1qn9cwb9k5k2vidi682fi05qh16xi6xsskid6krm"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-idle-highlight-mode")
@@ -57730,17 +57730,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20221221.1020")
+    (version "20230105.955")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "b7c50dd60facd2a20279653d0186402649ade33b")))
+                 "a060688b5c3518f515a1e5e7da0621c15fb009d1")))
         (sha256
           (base32
-            "0gl91fbxzkvj0774x022fd7jvimxmv7ij098l5jcvv82rpfr09ph"))))
+            "1y5h1hzv20ym48bclqsjj8pvcvvhc6gxz4g4s14vc5yj9fq0npms"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -61900,7 +61900,7 @@
 (define-public emacs-jit-lock-stealth-progress
   (package
     (name "emacs-jit-lock-stealth-progress")
-    (version "20221230.1037")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -61910,7 +61910,7 @@
                ".el"))
         (sha256
           (base32
-            "0q0vfrsjk4kbg10ds23f6i6giibivfljh1mgkqpvq67j5vl62jav"))))
+            "05fmbxwfy5xq0dxk3rwqd8y2rc1qfh207pha4b1w1ih5b8b23x89"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-jit-lock-stealth-progress")
@@ -69853,7 +69853,7 @@
 (define-public emacs-magit-commit-mark
   (package
     (name "emacs-magit-commit-mark")
-    (version "20221230.1048")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -69863,7 +69863,7 @@
                ".el"))
         (sha256
           (base32
-            "0qf5vv25f1a79dbi3n1jhvfzma828mh2zpdrdy1h4dpwcww95dff"))))
+            "0v15ay3y8iqjniy42adv9hhbv2a8y27ipwcp2572qpv4qnwj9dj9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -95670,7 +95670,7 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20221230.1050")
+    (version "20230105.1122")
     (source
       (origin
         (method url-fetch)
@@ -95680,7 +95680,7 @@
                ".el"))
         (sha256
           (base32
-            "0q5bnr3bf643nx9v1shf4w30i7xwb99ws1f369m50ng8w8m04dj0"))))
+            "1diinfzwpsqzn592ys4j4wzbzd30gipp9qrzgvldsg8p8cvh0m5x"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-py-autopep8")
@@ -98628,7 +98628,7 @@
 (define-public emacs-recomplete
   (package
     (name "emacs-recomplete")
-    (version "20221230.1050")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -98638,7 +98638,7 @@
                ".el"))
         (sha256
           (base32
-            "0i076savx33l3z390hgr9bcfqw38axaazv8dm77wgxvz874m0sf5"))))
+            "1wz1nra9p4mhs7dsvhxmz32l83z6bv0s12xhwvgxw5f23x3nq2rf"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-recomplete")
@@ -102556,7 +102556,7 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20221230.1033")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -102566,7 +102566,7 @@
                ".el"))
         (sha256
           (base32
-            "08nmgrav685hm2r3n5x95d25lfa029igfrzf16nq2g1d4rnxmgm2"))))
+            "1bxpl5z1la3w9k960q5vmi5j8d30csmf7ilxcxj6mkjyf07a15rz"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-drag")
@@ -102578,7 +102578,7 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20221230.1056")
+    (version "20230105.1124")
     (source
       (origin
         (method url-fetch)
@@ -102588,7 +102588,7 @@
                ".el"))
         (sha256
           (base32
-            "19b82c9hbmkagrc0v8qnfd3vnq90cj3995vzs5q0719p8gvnpi3f"))))
+            "00nr2m6hz496m4mfy6c24mcigwivl7qrsb4pv9y4xrr8x08xd9xf"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-jump")
@@ -104694,7 +104694,7 @@
 (define-public emacs-sidecar-locals
   (package
     (name "emacs-sidecar-locals")
-    (version "20221230.1052")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -104704,7 +104704,7 @@
                ".el"))
         (sha256
           (base32
-            "0xhm1yb7zb6wd88rygcv2qzwsv3x7pvgycsnfsv37vz4x6gpnk2j"))))
+            "06l326yz0l7gl9jpjij6nkp9b58l16y9mk8lmc6njdqi0dgilyv1"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-sidecar-locals")
@@ -108032,7 +108032,7 @@
 (define-public emacs-spatial-navigate
   (package
     (name "emacs-spatial-navigate")
-    (version "20221230.1053")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -108042,7 +108042,7 @@
                ".el"))
         (sha256
           (base32
-            "0c8f0vp62wvjmk1kbm9p2hhmjmpddx7lnxpq6ijmks988dwfcxp6"))))
+            "18jfpbvbrlixxjj6nxps2csb5y3djwsfh3rcsr3gir11kxp57mnp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spatial-navigate")
@@ -108195,7 +108195,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20230101.2010")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -108205,7 +108205,7 @@
                ".el"))
         (sha256
           (base32
-            "0nmqirlzrndfbg46h6yldcp56qbhqcnx96d0lrw0g9wys1mc7b00"))))
+            "1di2559zqz6bllc4rzxv8sfiv7c5pzm5kzallj4phywzmnyis4b7"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -117271,7 +117271,7 @@
 (define-public emacs-utimeclock
   (package
     (name "emacs-utimeclock")
-    (version "20221230.1054")
+    (version "20230105.1127")
     (source
       (origin
         (method url-fetch)
@@ -117281,7 +117281,7 @@
                ".el"))
         (sha256
           (base32
-            "0qfw49s1vm65nalmwpdm3hcn7w4wq9sr31x0s69hcvyhckbja18n"))))
+            "1x9xvib7wx52z8drrb20ydajjlznpdpnhq4dxycdgarjmf0w57ib"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-utimeclock")
@@ -122529,7 +122529,7 @@
 (define-public emacs-xref-rst
   (package
     (name "emacs-xref-rst")
-    (version "20221230.1054")
+    (version "20230105.932")
     (source
       (origin
         (method url-fetch)
@@ -122539,7 +122539,7 @@
                ".el"))
         (sha256
           (base32
-            "1v98g8mwfq7jifkilb73dz08zzbjfqlqbdzbdqkpkd29rhvbm1xi"))))
+            "1r8mbfm04swr3ixhwmnpsw46dkvv738sfbxycaw6d9xa8k6265xj"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-xref-rst")
