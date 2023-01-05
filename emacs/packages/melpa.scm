@@ -7655,17 +7655,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20230104.1604")
+    (version "20230105.243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "b30a05f67a3c725f4257378de081b5d6fafde999")))
+                 "a289a5894484b14247cfea3bc3d16cc2380cccd7")))
         (sha256
           (base32
-            "0hhlw8fqfc1bpidqc1qmcspi2b6110pym00b5cvw1ka879kbmz03"))))
+            "1hcm7pfc2b564j3z3ssz183jhz4jnlx9fn63bb4q0wh5z9fzfqz8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -21727,17 +21727,17 @@
 (define-public emacs-diff-hl
   (package
     (name "emacs-diff-hl")
-    (version "20221007.2147")
+    (version "20230104.2203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/diff-hl.git")
                (commit
-                 "68fb280b300c5d8460cc7b9183e29fb3ec604136")))
+                 "8f2e4eb345f0639c8fc41e3f7576f77ba6987655")))
         (sha256
           (base32
-            "1948r26zwk0aaw5n8rvl7frj3cjncwcbw64scfggb5s91m4isd7j"))))
+            "1c265083zyqi33sf3mpkk1n7pyfkrzxg4dacx0b787ypbj1sls16"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dgutov/diff-hl")
     (synopsis
@@ -28426,7 +28426,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230104.33")
+    (version "20230104.2330")
     (source
       (origin
         (method url-fetch)
@@ -28436,7 +28436,7 @@
                ".tar"))
         (sha256
           (base32
-            "17b3zxf41640abq98rndqhm4rqdsk4hghmxsixhmncrw52czp2d6"))))
+            "1jp9shyxn5v9wbig0ybq016v5v1zy393djlxk1amfyxgj0rzzni6"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -30629,17 +30629,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20221208.932")
+    (version "20230105.719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "417285c4e259abab8ae43e2d72b0e1110563efbc")))
+                 "1954e8c0b5c8440ea9852eeb7c046a677fa544f6")))
         (sha256
           (base32
-            "1dh9iaqdvp1v07pmsfbziqck79s8d8libs5ncnjqrcb3vyy3s9ra"))))
+            "0vjk8k5k9xsngk50nf611c4j0bikqn9l1y3m35s8y3knwqw22ii0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -43541,17 +43541,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20230104.440")
+    (version "20230104.2355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "286e8ee8f4e41ae807a3cbc9218d5945413394ef")))
+                 "5e3da8ca9d761f385592c6dfe22c412167a61625")))
         (sha256
           (base32
-            "0dmywximfc3f08pb7daampi2l8wfk6h7vvs14gaj5k0r7ak8798f"))))
+            "1j0fyq0sc74dkhdffsqn6x4l61cgc2kgqhk6lnax8lhhms433gmi"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -64188,17 +64188,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20221223.2208")
+    (version "20230104.2347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/debanjum/khoj.git")
                (commit
-                 "08dc5e3324997196ac1f2f87f99d81d81b3323c6")))
+                 "3d1199540c507e3c318f3b825bc08421e4619726")))
         (sha256
           (base32
-            "123w0nssn7nzn6kbppri4va1pabrlhs3nqvnal5km9fs9b1xrlw5"))))
+            "0cghxpjwdwlb50afsdd7x1z9cn1q665x41qsirfd4axc7h1jvcrv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/interface/emacs/*.el")))
@@ -69764,17 +69764,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230103.2224")
+    (version "20230105.214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "f47b68929f01a1b8299f3160b0ab02d69d59fcb7")))
+                 "692b2db78a5e92dd8fac7c67033598da21b29ed4")))
         (sha256
           (base32
-            "1ppw9lj2ykprr5dg8il75k5sfyg1ss8mxh970j2irs9ifia9075l"))))
+            "055mp8kyyay7d3qbgk5mnsqnz88a2w5ljph3ygzjj9ff3jx05msa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73861,7 +73861,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230104.1028")
+    (version "20230105.309")
     (source
       (origin
         (method url-fetch)
@@ -73871,7 +73871,7 @@
                ".tar"))
         (sha256
           (base32
-            "1p0fiza2wkq7x1bz8wk39sbzm1lzdlsw3svpxxaxkq6sxxxxs8jc"))))
+            "1kabamhk06b0knr3qjbzrcwhvkfqjqa7lzwq7f1f9lc9qfrlfavc"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -83151,17 +83151,17 @@
 (define-public emacs-org-ivy-search
   (package
     (name "emacs-org-ivy-search")
-    (version "20221228.108")
+    (version "20230105.503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/org-ivy-search.git")
                (commit
-                 "15da7db0d73bd805a458568ed3aeb4ca56e2e0aa")))
+                 "6d8db839ba9423613e551c74d7594d77ad51bcca")))
         (sha256
           (base32
-            "0pnd5nz7isdakrnxng4z594xw3d6fc7jz9z0yhpw1mhdyk5nfxkl"))))
+            "07a90vamp0zwn64dvzqlhvlax4hz13dgxq1i9cqglrblj7vjxyra"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (home-page
@@ -86511,17 +86511,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20230102.1531")
+    (version "20230104.2241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "8bd0049a5be4d373733dbfd87c8cb0901fb02d0e")))
+                 "e6caf266192554d8d4d5ca01ad91f736d02f3062")))
         (sha256
           (base32
-            "1yx9h0h9zf7jks3b35fv2aalq5aykkkcqwgb11gks813p42yqv6s"))))
+            "0krdvyj5ncncwqd7rfb9wk1xfh1c4i8r58wav08gk3hmw1x1zzq5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
@@ -109404,17 +109404,17 @@
 (define-public emacs-stock-tracker
   (package
     (name "emacs-stock-tracker")
-    (version "20221230.650")
+    (version "20230105.503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/stock-tracker.git")
                (commit
-                 "4228b8515093255ab24938482d04497353ce825e")))
+                 "c28046a1297d75aac5e51af688aaf91e6b8a4c48")))
         (sha256
           (base32
-            "1lnla06qcbkpki1nfpzr1q30pc51l55g4c9nz06hh70hjn6b3y6n"))))
+            "0z15rp0p5ihi703ing532wa5m5sfdccxspjryn6hs20z4czmz7hv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-async))
     (home-page
@@ -113905,21 +113905,21 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20221218.1704")
+    (version "20230105.535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "5599a0a2dfe0b8a19cfd6a5b7eb546e21c770d22")))
+                 "cd2e5ec69a777d0c77a69af7ea814098c261b60f")))
         (sha256
           (base32
-            "19fk50qwd8yz5pljmfiz6ncrbas21lnyl7zp7fjyj4f13ndd8agy"))))
+            "0b7rqmf997m9rqgmlagcd0czm2pxlpi2pbisyzblqqs0s8yrm8jk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
-    (synopsis "Comfy minimal theme")
+    (synopsis "Calm theme with saffron color scheme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
