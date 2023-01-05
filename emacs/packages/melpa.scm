@@ -7655,7 +7655,7 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20230104.1305")
+    (version "20230104.1604")
     (source
       (origin
         (method git-fetch)
@@ -12078,7 +12078,7 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230104.1300")
+    (version "20230104.1428")
     (source
       (origin
         (method git-fetch)
@@ -14691,17 +14691,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20221206.2122")
+    (version "20230104.1704")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "6884e3ad717419b4a64a5fab08c8cb9bd20a0b27")))
+                 "a1c66c5bc57728a3597015ebe5e169146f8620d1")))
         (sha256
           (base32
-            "1g3l6l1dzgq8v12fz9wczaz7izqd414fmdag481qi0ifcldyhi57"))))
+            "14lhrqcfy9sfzgr894jm9jff7m7i2pv9qfbrb3isq1s2z65j9qlf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -16586,17 +16586,17 @@
 (define-public emacs-conda
   (package
     (name "emacs-conda")
-    (version "20221107.1742")
+    (version "20230104.2059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/necaris/conda.el.git")
                (commit
-                 "2af92fead0e24b9cae7d0c5b446177694fc8a77e")))
+                 "667968184e40afa8514ece090893a160ae16b258")))
         (sha256
           (base32
-            "1khb36k2pqd9ych73lxwbg6r7r1h7krcybb6gx0m8h6lj1wzmkrz"))))
+            "1f0avca4gglrrh7qphfqnb35l41qxr4s0v46dh51y774mbm5xfm8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -46508,17 +46508,17 @@
 (define-public emacs-gnus-recent
   (package
     (name "emacs-gnus-recent")
-    (version "20220902.658")
+    (version "20230104.1924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/gnus-recent.git")
                (commit
-                 "ebaa2389d20bc5fe1796f895f1faedcfc99026d0")))
+                 "5a4a28710dedef939dd8f1a743c5626e40271842")))
         (sha256
           (base32
-            "06qxc9hhbpc4k1disashc347x589f2hhjs85vrsvr73kphv05b7k"))))
+            "1a0baimrynhng3d2ywdb66vzyvrrpv4fb30b9qibwp0gn2ds6g2q"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("gnus-recent.el")))
     (home-page
@@ -68582,17 +68582,17 @@
 (define-public emacs-lsp-haskell
   (package
     (name "emacs-lsp-haskell")
-    (version "20230102.1912")
+    (version "20230104.1508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-haskell.git")
                (commit
-                 "c5d3bc2223f16b59eb39906affefeb08f13b918f")))
+                 "3249cde75fb411f95fe173c222b848182fd0b752")))
         (sha256
           (base32
-            "04i10y1sqr8am75ys7g9vx5dffqy1r3499n3kpawzjlj0yxz67q4"))))
+            "06n16v278wzzh1iq4lp0k508dnynrz5c0qbv86hksm7sa4a4w4s7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-haskell-mode))
@@ -83638,17 +83638,17 @@
 (define-public emacs-org-mru-clock
   (package
     (name "emacs-org-mru-clock")
-    (version "20220902.654")
+    (version "20230104.1922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/org-mru-clock.git")
                (commit
-                 "2d3374a1b758a04f08f75b2a5fe05e99989077c1")))
+                 "be90bc9084b384d8a728d68f69da09171ca26d3c")))
         (sha256
           (base32
-            "0kcbfs334rkr337kqdds5wpjzs7g1jl36avw6mf4q5iajc8z0pvm"))))
+            "0ssbfq12g85i41p5wp84ii6wd10sjhf96fcvdn16g3vvi2nj8f2h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/unhammer/org-mru-clock")
@@ -99581,17 +99581,17 @@
 (define-public emacs-request
   (package
     (name "emacs-request")
-    (version "20221115.1450")
+    (version "20230104.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tkf/emacs-request.git")
                (commit
-                 "fe567ec0222a1ba658866697a9e7fb6b63d71ff7")))
+                 "6ddb4fc4d8a0746ee2dfd8473af315ebe8f6215b")))
         (sha256
           (base32
-            "0k0pzyi5fj06fcv7zy35fz5fnixa8m4zb4v1a6ky3njwrmsjmq57"))))
+            "16f1zsd1v99my7n1jbghv672f6r1x8fa2lhr4mlahwn2y8l4qngb"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("request.el")))
     (home-page
@@ -103133,17 +103133,17 @@
 (define-public emacs-semi
   (package
     (name "emacs-semi")
-    (version "20220720.1346")
+    (version "20230104.1321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/semi.git")
                (commit
-                 "ac3e726ca94ed245c25881ec8d7177d0d834ea6a")))
+                 "7d8df0ef2f483e2dc063a72099295f467e6bc2c8")))
         (sha256
           (base32
-            "1bg07y6svvg1mmlr455x3j1anjp3wbv27s6b2inp294rbwprm41n"))))
+            "01dn91xjcl7p5rnbgyh5l4kdlqx31s0gw5vh7hhcapbiq8rihmjd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-apel emacs-flim))
     (home-page "unspecified")
