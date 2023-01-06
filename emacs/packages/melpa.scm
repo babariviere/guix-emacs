@@ -14691,17 +14691,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20230104.1704")
+    (version "20230106.54")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "a1c66c5bc57728a3597015ebe5e169146f8620d1")))
+                 "93b0284e5a6be8506d194aab00fb613be0f364fd")))
         (sha256
           (base32
-            "14lhrqcfy9sfzgr894jm9jff7m7i2pv9qfbrb3isq1s2z65j9qlf"))))
+            "002wp7q1fcjdavysbmil1d46v34rnkkgyhkm0wig8r1c9bk8qksp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -16745,17 +16745,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230105.1732")
+    (version "20230106.107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "9078c245a1794850ba5fd8758f2adc51738e073b")))
+                 "3db44f473c093aaed7606663173a219cccfef22a")))
         (sha256
           (base32
-            "0wqwrx0xnrrw7l5l4mlbr0yc64ji7dpjs4d6nr0m9xpmlpg1xpia"))))
+            "1fj133kplm4y97z6lfqwlanmjdbr7bj8072a0hpsb7ddk5fq4dgx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -24425,17 +24425,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230103.643")
+    (version "20230106.254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "90f79647260e1f81d334ab2d276cf7444e6e320c")))
+                 "59bcea684577b8248522f383ab7718d4dfa19e89")))
         (sha256
           (base32
-            "01r2lf8zr04lbndgq7pzjchznhw3q8i3q76rg9x1fj5lgm7ql207"))))
+            "1l9337np2yawkcrvf5qnw0q6qn6brkv5iwix5bn22vp2vz1vqrdf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -47942,17 +47942,17 @@
 (define-public emacs-gpt
   (package
     (name "emacs-gpt")
-    (version "20221227.559")
+    (version "20230106.201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stuhlmueller/gpt.el.git")
                (commit
-                 "a6c88faea5d754ade16b0d6250996ae6eb798d20")))
+                 "b5e555f702b1ebe877cbeef27757618963fa41da")))
         (sha256
           (base32
-            "05v8zkgbldmwvxm1rmsmr9azbzwrm9qmjdiswigiyrnr9g9vggcq"))))
+            "1jyfd78k5xz31jryp997wm39mj6032c6qrbnfrf57rw17rc6mz90"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "gpt.py")))
     (home-page
@@ -50823,17 +50823,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230101.1922")
+    (version "20230106.527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "431e34dcc9d38c10eb8b9f22c3b5a10a0bf250f7")))
+                 "4e39df9ee024f82548028f0edde9c71afbcd3635")))
         (sha256
           (base32
-            "1ybi6d3d24jbjwa1svldm78pazsr8k5bpx8ka9zl7s2wh439rj0d"))))
+            "0m27x7fhk097cvnf1125cxxs8bgyd445sp0c7yrlb1laj5j1m0qp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -82922,23 +82922,22 @@
 (define-public emacs-org-gtd
   (package
     (name "emacs-org-gtd")
-    (version "20220213.41")
+    (version "20230106.129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Trevoke/org-gtd.el.git")
                (commit
-                 "4e0fcf9a440e463d395f8f37efe8f1e691ed07dc")))
+                 "9b70691cb28196611d75601b36102f9762fb47a7")))
         (sha256
           (base32
-            "0672pcklp743k8fz39hwf1zxb7f1sywdjsm8d8ha8r6h2rjbyl6k"))))
+            "1rw8kp54ziplhzm51rf354h23aygf96kmcx5hmwhs4ybsw7a3f7p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-edna
             emacs-f
-            emacs-org-agenda-property
-            emacs-transient))
+            emacs-org-agenda-property))
     (home-page
       "https://github.com/Trevoke/org-gtd.el")
     (synopsis "An implementation of GTD.")
@@ -86067,17 +86066,17 @@
 (define-public emacs-organic-green-theme
   (package
     (name "emacs-organic-green-theme")
-    (version "20201216.2240")
+    (version "20230106.43")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/organic-green-theme.git")
                (commit
-                 "0ed99a9c0cf14be0a1f491518821f0e9b7e88b88")))
+                 "199a72b1bb55521ca47c52a69f154d351522102a")))
         (sha256
           (base32
-            "1l70vvyv8walqjk96jgr8047fi0yiqz0lm3r0vh6xrh6phna5mcd"))))
+            "10i6p85cnxkgfjjc8ir0vdyyl6ngzzhykdwlgl73308vlgrcsq12"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Low-contrast green color theme.")
@@ -90403,7 +90402,7 @@
 (define-public emacs-perspective-exwm
   (package
     (name "emacs-perspective-exwm")
-    (version "20230105.2028")
+    (version "20230105.2046")
     (source
       (origin
         (method git-fetch)
@@ -95670,7 +95669,7 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20230105.1122")
+    (version "20230105.2258")
     (source
       (origin
         (method url-fetch)
@@ -95680,7 +95679,7 @@
                ".el"))
         (sha256
           (base32
-            "1diinfzwpsqzn592ys4j4wzbzd30gipp9qrzgvldsg8p8cvh0m5x"))))
+            "1s1ahq562v72qpg9m4648shs3aka3smzs4sg44f9zcsjl6bv8wsz"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-py-autopep8")
@@ -96738,17 +96737,17 @@
 (define-public emacs-pyvenv-auto
   (package
     (name "emacs-pyvenv-auto")
-    (version "20220315.1606")
+    (version "20230106.415")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nryotaro/pyvenv-auto.git")
                (commit
-                 "59ece8554bf249f30984c81c103a5704d2fb27bf")))
+                 "b4365e60e3ba747a5fec8ca909f64fe8c73d8db2")))
         (sha256
           (base32
-            "1f599q5bd89k68s0m9mq08a2f3465j00hklnmbyv0cm3j0majwzm"))))
+            "11js0zkf35vxbbvrxghv4c0i1j4ma6agdfl24qcvchd2wsnmf7mn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pyvenv))
     (home-page
@@ -98628,7 +98627,7 @@
 (define-public emacs-recomplete
   (package
     (name "emacs-recomplete")
-    (version "20230105.932")
+    (version "20230105.2301")
     (source
       (origin
         (method url-fetch)
@@ -98638,7 +98637,7 @@
                ".el"))
         (sha256
           (base32
-            "1wz1nra9p4mhs7dsvhxmz32l83z6bv0s12xhwvgxw5f23x3nq2rf"))))
+            "1cswi0dy3kzmlvnga645sfdy1l29hjm69vx67mii5c6jfvmqjg8k"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-recomplete")
@@ -101347,7 +101346,7 @@
 (define-public emacs-run-stuff
   (package
     (name "emacs-run-stuff")
-    (version "20221230.1023")
+    (version "20230105.2313")
     (source
       (origin
         (method url-fetch)
@@ -101357,7 +101356,7 @@
                ".el"))
         (sha256
           (base32
-            "04jari0z862asrhp2mvxjmy56af7hb5mpq6bib1hm86s6l957ky9"))))
+            "01kj2yl5kld5sq3hpjcgqnn7pc2341m4g2g9njp5ihm579alr2az"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-run-stuff")
@@ -102556,7 +102555,7 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20230105.932")
+    (version "20230105.2309")
     (source
       (origin
         (method url-fetch)
@@ -102566,7 +102565,7 @@
                ".el"))
         (sha256
           (base32
-            "1bxpl5z1la3w9k960q5vmi5j8d30csmf7ilxcxj6mkjyf07a15rz"))))
+            "0a10s1lim5ls09vpvl84npaxqf9bdyp4iwyzj7vjick7j1yq402g"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-drag")
@@ -102578,7 +102577,7 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20230105.1124")
+    (version "20230105.2219")
     (source
       (origin
         (method url-fetch)
@@ -102588,7 +102587,7 @@
                ".el"))
         (sha256
           (base32
-            "00nr2m6hz496m4mfy6c24mcigwivl7qrsb4pv9y4xrr8x08xd9xf"))))
+            "0lxffmvg3c2fvq7w57lfy470izqlazcgwvz6n363d45njc4xs42k"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-jump")
@@ -108032,7 +108031,7 @@
 (define-public emacs-spatial-navigate
   (package
     (name "emacs-spatial-navigate")
-    (version "20230105.932")
+    (version "20230105.2314")
     (source
       (origin
         (method url-fetch)
@@ -108042,7 +108041,7 @@
                ".el"))
         (sha256
           (base32
-            "18jfpbvbrlixxjj6nxps2csb5y3djwsfh3rcsr3gir11kxp57mnp"))))
+            "0kb5yaqwvvyy1rnc10dhqi8dyxa84sqw4zrvln9350cjc34yayny"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spatial-navigate")
@@ -108055,17 +108054,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230103.110")
+    (version "20230106.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "5a4947690ee9060db5a9fd5f8c9a530ce383d907")))
+                 "151f49fa95a6c593aa694c6bd7ded6d3a04479b1")))
         (sha256
           (base32
-            "02v5cxbmz41mrbyyxczhb13bqjp5hnva3nfnmm1d287vwhxv229g"))))
+            "0py00b82j3f0amhh5mvzx8is6amm2qsa98k4gk970y493m6c4xmi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -108195,7 +108194,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20230105.932")
+    (version "20230105.2255")
     (source
       (origin
         (method url-fetch)
@@ -108205,7 +108204,7 @@
                ".el"))
         (sha256
           (base32
-            "1di2559zqz6bllc4rzxv8sfiv7c5pzm5kzallj4phywzmnyis4b7"))))
+            "15yczpb2gd8754gai0vpc26rg8g5d1i2r71icv6n7wp18byapzf1"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -116320,7 +116319,7 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20221230.1054")
+    (version "20230105.2316")
     (source
       (origin
         (method url-fetch)
@@ -116330,7 +116329,7 @@
                ".el"))
         (sha256
           (base32
-            "0jfqb8d6q0y1wvfr0iizakk9jw3i1mg13w943y9jfirg1izzganc"))))
+            "1yvsmgrwz84lgxgqclfaprqq2kj757v0fb7l3pq4bcdzx34ipswp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-undo-fu-session")
