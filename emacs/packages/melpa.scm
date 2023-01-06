@@ -24425,17 +24425,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230106.254")
+    (version "20230106.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "59bcea684577b8248522f383ab7718d4dfa19e89")))
+                 "4224fcee7a6356e312169ccdbb156f380298a843")))
         (sha256
           (base32
-            "1l9337np2yawkcrvf5qnw0q6qn6brkv5iwix5bn22vp2vz1vqrdf"))))
+            "04223drzq0qpd9rrj9glw03imp1irwximvmrvnpajplq129szw1c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-shrink-path))
@@ -26971,17 +26971,17 @@
 (define-public emacs-eglot-jl
   (package
     (name "emacs-eglot-jl")
-    (version "20221128.1655")
+    (version "20230106.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/non-Jedi/eglot-jl.git")
                (commit
-                 "07edf37eab5302c4ecca4edd1368855e9b5d0f73")))
+                 "b18dcd670ec19df0dd4001646363e549b5ed7342")))
         (sha256
           (base32
-            "037aphw5cqzg6d5zaqjb6pi8dwa7glbn60nrm5pkn6c8xzfq9b9g"))))
+            "003nzkdxmb4qpha2ibda33aaifm8vbpqy86i0ngvdx08l1jplv4r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-julia-mode))
@@ -57730,17 +57730,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20230105.955")
+    (version "20230106.1021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "a060688b5c3518f515a1e5e7da0621c15fb009d1")))
+                 "253e2ad90985c83c5cb06bae0b1cb931c88a6c89")))
         (sha256
           (base32
-            "1y5h1hzv20ym48bclqsjj8pvcvvhc6gxz4g4s14vc5yj9fq0npms"))))
+            "05xbyx2ljbjls10w7nzkvmwdf545d63i4826gk7v9dbi5arfhsim"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -108194,7 +108194,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20230105.2255")
+    (version "20230106.1128")
     (source
       (origin
         (method url-fetch)
@@ -108204,7 +108204,7 @@
                ".el"))
         (sha256
           (base32
-            "15yczpb2gd8754gai0vpc26rg8g5d1i2r71icv6n7wp18byapzf1"))))
+            "1x12fzvrsrjqlpgmzpaghmbz9c89ah56km9w7wrhmmnw0nvksj73"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
