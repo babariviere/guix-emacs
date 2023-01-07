@@ -11696,17 +11696,17 @@
 (define-public emacs-chezmoi
   (package
     (name "emacs-chezmoi")
-    (version "20220310.2014")
+    (version "20230106.1716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tuh8888/chezmoi.el.git")
                (commit
-                 "781783c483bc8fcdba3a230bb774c3a8a5ebe396")))
+                 "be8852c859877706cdefd7a3230b4229d42e1133")))
         (sha256
           (base32
-            "0il36mnf4c13336sa4hpbfypdc983va5fcd5shcsp7slb9zwm69m"))))
+            "09qjp6030xfj27aswpi224czjq28ac32267k1y4gfp16gg4iimdd"))))
     (build-system melpa-build-system)
     (home-page
       "http://www.github.com/tuh8888/chezmoi.el")
@@ -12078,17 +12078,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230105.1231")
+    (version "20230106.1947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "a01d0e40581ff2b6e5bbadfbfe994f365901faf6")))
+                 "485e69cf7e05fb79b240c4c533bb0254429e4971")))
         (sha256
           (base32
-            "1mfxp9m4s4swlnp0q86hlldz7ym9j54yjhcip4kv2ffkffhsdmgs"))))
+            "0y63vj97p8f9hm6wimfxg9wykpnhvbcfca46sb8wnp14qyk26cg7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -16090,17 +16090,17 @@
 (define-public emacs-company-shell
   (package
     (name "emacs-company-shell")
-    (version "20221103.2107")
+    (version "20230106.1532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/company-shell.git")
                (commit
-                 "e55b9000192f82e96fdc0f7ca1e8a868e67762a8")))
+                 "5f959a63a6e66eb0cbdac3168cad523a62cc2ccd")))
         (sha256
           (base32
-            "113h10n3yb3gb4qpmg1ji7fmzy912qcysq4c2v80gx4qqbn1qq5h"))))
+            "0lrkvfg0z9gwfcj90yihanysg8icxpbqq3wqyb734bi5fpmgmzr4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-dash))
@@ -16745,17 +16745,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230106.107")
+    (version "20230106.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "3db44f473c093aaed7606663173a219cccfef22a")))
+                 "17de436c58df1f0e2036b7cc590b74dcbdefd393")))
         (sha256
           (base32
-            "1fj133kplm4y97z6lfqwlanmjdbr7bj8072a0hpsb7ddk5fq4dgx"))))
+            "1fijz6v26sh0zxm4ixds7sxxdmmv85wihyy4rs4czjwd33snvahg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -26971,7 +26971,7 @@
 (define-public emacs-eglot-jl
   (package
     (name "emacs-eglot-jl")
-    (version "20230106.1453")
+    (version "20230106.1517")
     (source
       (origin
         (method git-fetch)
@@ -26983,8 +26983,7 @@
           (base32
             "003nzkdxmb4qpha2ibda33aaifm8vbpqy86i0ngvdx08l1jplv4r"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-eglot emacs-julia-mode))
+    (propagated-inputs (list emacs-eglot))
     (arguments
       '(#:files (:defaults "*.jl" "*.toml")))
     (home-page
@@ -33018,17 +33017,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20221229.1739")
+    (version "20230106.2212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "13f01f6245629a8a5c402ca51a4738c96e4b2315")))
+                 "b73094a82ee31fc4a9aa7453bbbe51e37be3447f")))
         (sha256
           (base32
-            "05algym1fyda8iy9b39m28899y4r2mxn7bdvbf0mjamyqymljsyi"))))
+            "0swrdvsclg51anjxpyi5rmi7adaji9bj1zbv419mhrbxv19lljgi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -38271,20 +38270,19 @@
 (define-public emacs-flycheck-color-mode-line
   (package
     (name "emacs-flycheck-color-mode-line")
-    (version "20200528.416")
+    (version "20230106.1829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck-color-mode-line.git")
                (commit
-                 "575b604cfe21f65fb07c134392c382c163c87739")))
+                 "df9be4c5bf26c4dc5ddaeed8179c4d66bdaa91f5")))
         (sha256
           (base32
-            "04wc61my2p6zbq22nh6yvap5aww9lfr5zgd7mf0l1chbvi9scdn0"))))
+            "0hrpljkq5djgpz9llk7hmqfym9svq3l8nhlbd27bhpv95bdp58w9"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-flycheck emacs-dash))
+    (propagated-inputs (list emacs-flycheck))
     (home-page
       "https://github.com/flycheck/flycheck-color-mode-line")
     (synopsis
@@ -39259,17 +39257,17 @@
 (define-public emacs-flycheck-kotlin
   (package
     (name "emacs-flycheck-kotlin")
-    (version "20210406.1148")
+    (version "20230106.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/whirm/flycheck-kotlin.git")
                (commit
-                 "bf1b398bdde128806a0a7479ebbe369bbaa40dae")))
+                 "bff0ec863dc00ffcf8a4220473ee3d9898de6ca0")))
         (sha256
           (base32
-            "1dr2y8imd6blxkpwbpds7mzn5abqpfzl8nh5zrxykrkalq2px7f2"))))
+            "1ygiyddk5m2ssl1bw76zxgxiwhsgmnb2gprrj7ykqriidb9r0wzj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page "unspecified")
@@ -63469,17 +63467,17 @@
 (define-public emacs-kaolin-themes
   (package
     (name "emacs-kaolin-themes")
-    (version "20221025.812")
+    (version "20230106.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
                (commit
-                 "c24665044f1bced33b6df4e36e55495f05050c78")))
+                 "05d587db67ba4d86ea409b4ac3fcbb9b9163002d")))
         (sha256
           (base32
-            "0qryc82d5s314bm1ijxn7hk5fpm1qclr2hc630sh3ppkgayrlp48"))))
+            "1zgcv7dwk7kpbihdbpcy0d8piqgvc5ixkh0081pdyr32jbzv0c8h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (arguments '(#:files (:defaults "themes/*.el")))
@@ -66018,20 +66016,19 @@
 (define-public emacs-ledger-mode
   (package
     (name "emacs-ledger-mode")
-    (version "20220623.1125")
+    (version "20230106.1610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ledger/ledger-mode.git")
                (commit
-                 "8bad528d43007e0310b5e72e6e021b502b30495c")))
+                 "4b32f701736b37f99048be79583b0bde7cc14c85")))
         (sha256
           (base32
-            "11s33ajzjhqjqxilwn06v79vndl3x61z35c0cr5s641h5lxlj442"))))
+            "17653pz69nmzg7452zq7pcj31dk86vssj94i9al28lgfv02h07l2"))))
     (build-system melpa-build-system)
-    (arguments
-      '(#:files (:defaults "ledger-test.el")))
+    (arguments '(#:files ("ledger*.el")))
     (home-page "unspecified")
     (synopsis
       "Helper code for use with the \"ledger\" command-line tool")
@@ -68836,17 +68833,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20221231.746")
+    (version "20230106.1721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "1e14a3fdb195a557cba5a7b7e3372dc850a5ce95")))
+                 "09c2efd2ae2d65c3468213fc9f82062f30fc76b2")))
         (sha256
           (base32
-            "1p0jy1fb7810mn36iviwb1ixb0r0cvpar2kh118s2hmq9y4167dm"))))
+            "07zp5ryr9895zq5fhgmxvasl51f98cwcabqlaxjyajmd38ak6y0w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69764,17 +69761,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230105.1859")
+    (version "20230106.1930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "b281f05d22f0c9f0deec5e1714b3b554918853c3")))
+                 "a103d11a8a8b4361cf7d5f45f1ac0156c7870b43")))
         (sha256
           (base32
-            "1bfnkj0ccivkbkvg2lsns4isnlfp40s3nyc73k5r17mskx57i8h9"))))
+            "1grd8lr4ipbcqpf39h2db897yjljvj4gcnrjl0n04ilh7ji8rfyj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -70233,17 +70230,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20230105.1714")
+    (version "20230106.1659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "b281f05d22f0c9f0deec5e1714b3b554918853c3")))
+                 "a103d11a8a8b4361cf7d5f45f1ac0156c7870b43")))
         (sha256
           (base32
-            "1bfnkj0ccivkbkvg2lsns4isnlfp40s3nyc73k5r17mskx57i8h9"))))
+            "1grd8lr4ipbcqpf39h2db897yjljvj4gcnrjl0n04ilh7ji8rfyj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -71438,7 +71435,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20221231.2351")
+    (version "20230106.2244")
     (source
       (origin
         (method url-fetch)
@@ -71448,7 +71445,7 @@
                ".tar"))
         (sha256
           (base32
-            "0gq6lrli33aawwn7qnkkc6b2ib2w9cvh2whcchygm6wsbv2brpan"))))
+            "01xzryncspi02sqvlry5xiv5hraxijgjk2mdqg1wi2lrnvb4z2yz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
