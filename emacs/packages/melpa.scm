@@ -8461,17 +8461,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20221216.1205")
+    (version "20230107.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "fdce5ecc122afb7f4a4b56d11778d2d2e0de78a7")))
+                 "f045472987024fd514b7fd72834272454e05dca4")))
         (sha256
           (base32
-            "0xp41c8f52s9diqd5x04fi5wc78w9xmlcjclfqpmykgpz5f1d9nm"))))
+            "1l7k04qbl91g7shpvi4fdl5q24mwby5fkfxd5ab2p20ra0wbx1z4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -29988,17 +29988,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20221209.31")
+    (version "20230107.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "6910be1656283d0d8325c97bb9f00e7b37930737")))
+                 "7bf67ea70ec5e3162dd7e4597dba70f3a238eef1")))
         (sha256
           (base32
-            "16f5jfkp4zs497zxxsk0pfyya7l86za3gn93xv9l4a21vipavvvi"))))
+            "0sq9axrhydd5082m2c68sib3j5300pxav5qp78n5g6v625882ky8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -33017,17 +33017,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230106.2212")
+    (version "20230107.1007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "b73094a82ee31fc4a9aa7453bbbe51e37be3447f")))
+                 "cc59e446ea52dec04f9006aa22edb21a2ca27474")))
         (sha256
           (base32
-            "0swrdvsclg51anjxpyi5rmi7adaji9bj1zbv419mhrbxv19lljgi"))))
+            "1cz0gsq71d4ymzqlqv9fjxcf0pbwkk2pbipy5gzww63dh636lsb7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -40414,17 +40414,17 @@
 (define-public emacs-flymake-aspell
   (package
     (name "emacs-flymake-aspell")
-    (version "20221025.1844")
+    (version "20230107.748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/leotaku/flycheck-aspell.git")
                (commit
-                 "6efe0ae2d82ba83c563e117b290cb22ae91d2f58")))
+                 "1c7fb66f6cb325ee1123094263a8def9bc071768")))
         (sha256
           (base32
-            "1y0skf7vnym6qn3q9gkzb0pzalpcsqzaa6vprr6alr73yh59vz2n"))))
+            "0wh2n3bb4l13qqbrdihrwrwlcil80kv0nkpripj1jw89gnvgrnfz"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("flymake-aspell.el")))
     (home-page
@@ -73858,7 +73858,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230107.527")
+    (version "20230107.1439")
     (source
       (origin
         (method url-fetch)
@@ -73868,7 +73868,7 @@
                ".tar"))
         (sha256
           (base32
-            "0xhfx36nasi9fq2b8q0wgcpx9x0x94v6krvrjlf5qrk9pdzllp0n"))))
+            "13qg7kdi76mwxl8br8p2r5v04gwj9vwn242iv2018bn46xg4dnjr"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -96569,17 +96569,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20221230.1842")
+    (version "20230107.946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "ddda95533392025348e708a56cc70c20af0b20a2")))
+                 "b8e3f66480a0b2acd015f4594dbe3373fbee51e4")))
         (sha256
           (base32
-            "0jhkb8lyixcaxpkqhq12bkf70ymfhdsbq2mqz93rsv5ncn5ljhrm"))))
+            "1xznzkv43kcnfkm6g9sd6c3mxv79gf7wgn35n123napxrm333ki0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -100653,17 +100653,17 @@
 (define-public emacs-ropgadget
   (package
     (name "emacs-ropgadget")
-    (version "20221006.1105")
+    (version "20230107.1225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Dragoncraft89/ropgadget-el.git")
                (commit
-                 "03305f2d73d7092adab495c45b15c8f16f292c8f")))
+                 "10e9d6f66de1ee805d871c59f4acc078b66747a3")))
         (sha256
           (base32
-            "0h141q39ij5bggvs4nq8532vdji29pxaaxszahlhabz5rz44wrf6"))))
+            "1dxslv3akgv60i45d6i4s4140v6n2jxbn4yhsqf59z0dxdpskkgc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Dragoncraft89/ropgadget-el")
@@ -108191,7 +108191,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20230106.1128")
+    (version "20230107.1144")
     (source
       (origin
         (method url-fetch)
@@ -108201,7 +108201,7 @@
                ".el"))
         (sha256
           (base32
-            "1x12fzvrsrjqlpgmzpaghmbz9c89ah56km9w7wrhmmnw0nvksj73"))))
+            "1rnlhia24v4qjcbqnlnf3zgv61jmi8g81zzv52pl4iqqi7mmbs8y"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
