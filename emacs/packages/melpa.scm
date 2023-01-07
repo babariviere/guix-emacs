@@ -19601,7 +19601,7 @@
 (define-public emacs-cycle-at-point
   (package
     (name "emacs-cycle-at-point")
-    (version "20230105.2302")
+    (version "20230107.422")
     (source
       (origin
         (method url-fetch)
@@ -19611,7 +19611,7 @@
                ".tar"))
         (sha256
           (base32
-            "0sislpfdydhnlwnlz2w0y1yzz674mndhj38jmacaz7dqnfb54ah3"))))
+            "0znhh92y3m1n8xqfm458jal3pws2511kj4ajpynykm9czvb2qy5i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-recomplete))
     (home-page
@@ -43539,17 +43539,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20230104.2355")
+    (version "20230106.2320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "5e3da8ca9d761f385592c6dfe22c412167a61625")))
+                 "29c715bd611e0f050604940377d73cbeb2f093d3")))
         (sha256
           (base32
-            "1j0fyq0sc74dkhdffsqn6x4l61cgc2kgqhk6lnax8lhhms433gmi"))))
+            "0bzv4vdjn0gr7cj1kr4f0swj3528w509gbz1hp4mprgjp1p4yf8h"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -55566,7 +55566,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20230105.932")
+    (version "20230107.357")
     (source
       (origin
         (method url-fetch)
@@ -55576,7 +55576,7 @@
                ".tar"))
         (sha256
           (base32
-            "0gp67l92a3za968dcp8nl088lrbi4s2rqj2q0y2dh9kg052k211x"))))
+            "0fc3d3ay4n9q47k8r7xwr36414mffn6hdgi4hz1n8in6rrqkmr6j"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
@@ -73858,7 +73858,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230105.309")
+    (version "20230107.527")
     (source
       (origin
         (method url-fetch)
@@ -73868,7 +73868,7 @@
                ".tar"))
         (sha256
           (base32
-            "1kabamhk06b0knr3qjbzrcwhvkfqjqa7lzwq7f1f9lc9qfrlfavc"))))
+            "0xhfx36nasi9fq2b8q0wgcpx9x0x94v6krvrjlf5qrk9pdzllp0n"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -86063,17 +86063,17 @@
 (define-public emacs-organic-green-theme
   (package
     (name "emacs-organic-green-theme")
-    (version "20230106.43")
+    (version "20230106.2340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/organic-green-theme.git")
                (commit
-                 "199a72b1bb55521ca47c52a69f154d351522102a")))
+                 "bb0472993b8ffa6edcc8d787c18046b6fd3bac88")))
         (sha256
           (base32
-            "10i6p85cnxkgfjjc8ir0vdyyl6ngzzhykdwlgl73308vlgrcsq12"))))
+            "0091li5964c014gm0gawfy9xsh9df99s5f1s301jvc457bsnfby0"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Low-contrast green color theme.")
@@ -98624,7 +98624,7 @@
 (define-public emacs-recomplete
   (package
     (name "emacs-recomplete")
-    (version "20230105.2301")
+    (version "20230107.420")
     (source
       (origin
         (method url-fetch)
@@ -98634,7 +98634,7 @@
                ".el"))
         (sha256
           (base32
-            "1cswi0dy3kzmlvnga645sfdy1l29hjm69vx67mii5c6jfvmqjg8k"))))
+            "15fx3zg9im54llm3rqzyymy2c7pg6ngz22cgfj9qm32pbn4wc2vz"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-recomplete")
@@ -111895,17 +111895,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230105.1403")
+    (version "20230107.258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "f059375b7782e8d995d1342954d45cd92960ac74")))
+                 "01e8f9e397bb18522b76d3bcdb74f5798e7c4999")))
         (sha256
           (base32
-            "03hpm3ndnx1cc3d9lj52mjsp9c4b7j1cizjacai6z694m1ncq59c"))))
+            "0fv0czx61rsvgf9jnn8nvng7flnihnjhym73hli5fzfgdx15lam7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -116316,7 +116316,7 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20230105.2316")
+    (version "20230107.354")
     (source
       (origin
         (method url-fetch)
@@ -116326,7 +116326,7 @@
                ".el"))
         (sha256
           (base32
-            "1yvsmgrwz84lgxgqclfaprqq2kj757v0fb7l3pq4bcdzx34ipswp"))))
+            "0607khca4cxb89n6piyxgd4x3mfypc6q9kjg8djxpbhj8x9hpvj5"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-undo-fu-session")
@@ -117357,17 +117357,17 @@
 (define-public emacs-uwu-theme
   (package
     (name "emacs-uwu-theme")
-    (version "20221130.127")
+    (version "20230107.228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kborling/uwu-theme.git")
                (commit
-                 "7c1e7eb0a004b5afd2c3241ccd07df08212c53f1")))
+                 "095f0d4bca65ba367a19968f10b0c1c7eff47460")))
         (sha256
           (base32
-            "0l7n2pxdr4kdznn0fic8nqhfjrkikg682ag2jf68639lni802lnc"))))
+            "1zy8w0kg0mxvc2gc28i1d2d2bnm7sphg51cy757bayz9vf27h50p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kborling/uwu-theme")
