@@ -11008,17 +11008,17 @@
 (define-public emacs-centaur-tabs
   (package
     (name "emacs-centaur-tabs")
-    (version "20220926.1247")
+    (version "20230108.320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ema2159/centaur-tabs.git")
                (commit
-                 "7d9fad0daa44ffb2acecf6525759e46e08e35f2c")))
+                 "418aed1cd28fe430023ee1aa4a40b8c73a72fa2e")))
         (sha256
           (base32
-            "0la8fmwirspg7m453qhfb64sqryl59dxc1lfmjkh6mzf85nqbl1i"))))
+            "1q1b3rqk0pw3q3mm8q5jgd8m1cniypvqjx14hmyi3125g9jca4fb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-powerline))
     (home-page
@@ -16745,17 +16745,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230106.1927")
+    (version "20230107.2138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "17de436c58df1f0e2036b7cc590b74dcbdefd393")))
+                 "98693ed79a270ff52b541ca1e11b2dd856b4bff7")))
         (sha256
           (base32
-            "1fijz6v26sh0zxm4ixds7sxxdmmv85wihyy4rs4czjwd33snvahg"))))
+            "0rcymzr3r6sqh7lic2hp5q6knaw5qx9jda6qzgx3pxzq1hrfl54c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -21749,7 +21749,7 @@
 (define-public emacs-diffed
   (package
     (name "emacs-diffed")
-    (version "20230105.1629")
+    (version "20230107.2309")
     (source
       (origin
         (method git-fetch)
@@ -30744,17 +30744,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20230105.1926")
+    (version "20230107.2147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "5bff5be316d4edd406aa1c38e8f5695f2f8c606c")))
+                 "9d079e9490dc3040f0528f1673f3796cc8be5189")))
         (sha256
           (base32
-            "03c99mrn1d5nhj54z4qjp7r32v69nifzqikwy64ag10lx62srgzn"))))
+            "1pj7ksm5sc823hfb89msjxajnvgcqzn3cmlzyflyfw03l8d3vq9s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql emacs-llama))
@@ -73858,7 +73858,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230107.1653")
+    (version "20230108.252")
     (source
       (origin
         (method url-fetch)
@@ -73868,7 +73868,7 @@
                ".tar"))
         (sha256
           (base32
-            "16sjs3qhhjwna6vb9zxr1w49c7j50ygd0a1fxqawkp2a3c2lw9w8"))))
+            "087vw9g93dcc6s986jqvbqrdy41r91lp60c6gkf4fdrb41fa4v9b"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -74764,6 +74764,30 @@
     (synopsis "Play and control your MPD music")
     (description
       "Documentation at https://melpa.org/#/mpdel")
+    (license #f)))
+
+(define-public emacs-mpdel-embark
+  (package
+    (name "emacs-mpdel-embark")
+    (version "20230103.2021")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/mpdel/mpdel-embark.git")
+               (commit
+                 "31d91a62b680fb4472ec34c04ac6af80bb3cf4b8")))
+        (sha256
+          (base32
+            "129ay53zrq4gzqf2vh41q3yp613vzi9b57jlzyl8jnbn0wfbjx65"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-mpdel emacs-libmpdel emacs-embark))
+    (home-page
+      "https://github.com/mpdel/mpdel-embark")
+    (synopsis "Integrate MPDel with Embark")
+    (description
+      "Documentation at https://melpa.org/#/mpdel-embark")
     (license #f)))
 
 (define-public emacs-mpdmacs
@@ -82919,17 +82943,17 @@
 (define-public emacs-org-gtd
   (package
     (name "emacs-org-gtd")
-    (version "20230106.129")
+    (version "20230108.347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Trevoke/org-gtd.el.git")
                (commit
-                 "9b70691cb28196611d75601b36102f9762fb47a7")))
+                 "8120d5e3b0df02b9128a26ab7de9c1d573c70065")))
         (sha256
           (base32
-            "1rw8kp54ziplhzm51rf354h23aygf96kmcx5hmwhs4ybsw7a3f7p"))))
+            "1qnnjqcgr296pmmmn53xx8jv6y1wp0a8fl5qa15c5by3013smn4q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-edna
@@ -93047,17 +93071,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20220711.836")
+    (version "20230107.2344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "d7560f18350faaee8362aee16481268de3cc6457")))
+                 "50568b8af2ee4c43d4a5b55241fac7ef11e2f9db")))
         (sha256
           (base32
-            "12br7pnn01k7hwbcrx9c0dppp2jly7xhif3jrkg1v7mh8cj6sccs"))))
+            "1xb6b870fnfm2cnnzplvqbnqqzh5l3m98bn8dq1l09x1nhngp19f"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -98624,7 +98648,7 @@
 (define-public emacs-recomplete
   (package
     (name "emacs-recomplete")
-    (version "20230107.420")
+    (version "20230108.20")
     (source
       (origin
         (method url-fetch)
@@ -98634,7 +98658,7 @@
                ".el"))
         (sha256
           (base32
-            "15fx3zg9im54llm3rqzyymy2c7pg6ngz22cgfj9qm32pbn4wc2vz"))))
+            "0sn911508frvpdlryivjk8m9i15fiq67q0046q3insla5yi4vk52"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-recomplete")
@@ -102552,7 +102576,7 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20230105.2309")
+    (version "20230108.7")
     (source
       (origin
         (method url-fetch)
@@ -102562,7 +102586,7 @@
                ".el"))
         (sha256
           (base32
-            "0a10s1lim5ls09vpvl84npaxqf9bdyp4iwyzj7vjick7j1yq402g"))))
+            "0pf2ngpf81c66jka8c8ybchavyjywxf5z6iix77wpb53rbg498pa"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-drag")
@@ -102574,7 +102598,7 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20230105.2219")
+    (version "20230108.12")
     (source
       (origin
         (method url-fetch)
@@ -102584,10 +102608,10 @@
                ".el"))
         (sha256
           (base32
-            "0lxffmvg3c2fvq7w57lfy470izqlazcgwvz6n363d45njc4xs42k"))))
+            "0zm1zrj9yjcqdfiiwjq93gs9c1fcz1cv188qx2v1ayakwlbppvqg"))))
     (build-system melpa-build-system)
     (home-page
-      "https://codeberg.org/ideasman42/emacs-scroll-on-jump")
+      "https://codeberg.com/ideasman42/emacs-scroll-on-jump")
     (synopsis "Scroll when jumping to a new point")
     (description
       "Documentation at https://melpa.org/#/scroll-on-jump")
@@ -116316,7 +116340,7 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20230107.354")
+    (version "20230108.2")
     (source
       (origin
         (method url-fetch)
@@ -116326,10 +116350,10 @@
                ".el"))
         (sha256
           (base32
-            "0607khca4cxb89n6piyxgd4x3mfypc6q9kjg8djxpbhj8x9hpvj5"))))
+            "0ylybj2l7pw19dq3n62kb5w8a507hnpnlwdgkh9mq7xgssx65jaw"))))
     (build-system melpa-build-system)
     (home-page
-      "https://codeberg.org/ideasman42/emacs-undo-fu-session")
+      "https://codeberg.com/ideasman42/emacs-undo-fu-session")
     (synopsis
       "Persistent undo, available between sessions")
     (description
