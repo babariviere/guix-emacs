@@ -1969,6 +1969,28 @@
       "Documentation at https://melpa.org/#/agda-editor-tactics")
     (license #f)))
 
+(define-public emacs-age
+  (package
+    (name "emacs-age")
+    (version "20230102.2227")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/anticomputer/age.el.git")
+               (commit
+                 "903f67b458984cf960c4a58c2a7306c612bfc1b7")))
+        (sha256
+          (base32
+            "02f3kjl4xj0wldiy6pfnfcwym4m624znwlg1g3zdx4a217657046"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/anticomputer/age.el")
+    (synopsis "The Age Encryption Library")
+    (description
+      "Documentation at https://melpa.org/#/age")
+    (license #f)))
+
 (define-public emacs-aggressive-fill-paragraph
   (package
     (name "emacs-aggressive-fill-paragraph")
@@ -16745,17 +16767,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230107.2138")
+    (version "20230108.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "98693ed79a270ff52b541ca1e11b2dd856b4bff7")))
+                 "24cd25581ec269d26b664f278203a9c067023b4d")))
         (sha256
           (base32
-            "0rcymzr3r6sqh7lic2hp5q6knaw5qx9jda6qzgx3pxzq1hrfl54c"))))
+            "0cd35rbvhnzpc0kv028xk1yxnb423qr87a27g6a3bjj52v3glrrw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -21479,17 +21501,17 @@
 (define-public emacs-devdocs-browser
   (package
     (name "emacs-devdocs-browser")
-    (version "20220917.1403")
+    (version "20230108.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-devdocs-browser.git")
                (commit
-                 "badbb9cb57522cc0e002a32fe385f7ad1e929665")))
+                 "6f090ec15f19b4868da1be0a4ea5c8a3f012f873")))
         (sha256
           (base32
-            "0ny46r6cjq2ps2b67cmdbpxa4v762kajjnimq7ql9lhm58rqj6d5"))))
+            "17v7rwzfazfcbvabkr299dia9sclic3d92imgmzaj8qw297bqkcn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/blahgeek/emacs-devdocs-browser")
@@ -24287,17 +24309,17 @@
 (define-public emacs-doct
   (package
     (name "emacs-doct")
-    (version "20220812.443")
+    (version "20230108.1507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/doct.git")
                (commit
-                 "506c22f365b75f5423810c4933856802554df464")))
+                 "69bfe30317c7fa7a5a51f2763515dfe9c989ebf1")))
         (sha256
           (base32
-            "03a8z9cwfg87144b0g4ggilr925l561hgmgra9wchxwydixrlnml"))))
+            "11a9lyhnwhza3my9hg5x7116y2v5s3d1z6207b7hhwky1b7m4pfj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/progfolio/doct")
     (synopsis
@@ -29988,17 +30010,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20230107.1357")
+    (version "20230108.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "7bf67ea70ec5e3162dd7e4597dba70f3a238eef1")))
+                 "0e34fefe44a8fca45bf9364a19768809a2ed7614")))
         (sha256
           (base32
-            "0sq9axrhydd5082m2c68sib3j5300pxav5qp78n5g6v625882ky8"))))
+            "1wr4ygq3w8905qnamgil1yy51sk7wvdy25dwhapr2qfhk3zh7vlg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43539,17 +43561,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20230106.2320")
+    (version "20230108.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "29c715bd611e0f050604940377d73cbeb2f093d3")))
+                 "45b222f604703f88b4f316b3194cd3061008f1c9")))
         (sha256
           (base32
-            "0bzv4vdjn0gr7cj1kr4f0swj3528w509gbz1hp4mprgjp1p4yf8h"))))
+            "05lgflj9x86d179xizkdhs036psia3565hl38ryd12qzg1874rz6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -68833,17 +68855,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230107.2052")
+    (version "20230108.1415")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "0b1b36fe99741c127f498003381d772c43615c13")))
+                 "a78f04ea4b6720609fb499e89f7cf089a6e19d7e")))
         (sha256
           (base32
-            "1r8cv4krclanaz3cx7jpd44w4p515m89arawn2pah0lzw765yhjc"))))
+            "06k0rdp0d0klslkzflrrdl7w7y5d1l8w83hzqac1qdknzad4jynn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -85907,23 +85929,21 @@
 (define-public emacs-org-zettelkasten
   (package
     (name "emacs-org-zettelkasten")
-    (version "20221224.1144")
+    (version "20230108.1711")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/ymherklotz/emacs-zettelkasten.git")
-               (commit
-                 "d1309fe7f770a865441b91c1c8327036c307ef54")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/org-zettelkasten-"
+               version
+               ".el"))
         (sha256
           (base32
-            "009i1qkvk59ccq0sbp65n9fjl08gf6wbhfdnlcmvv88ixl3l3h0p"))))
+            "1jqw6087nmlvm40fd08b3hfzxr7j44dfwwvc08ryjxi3iawkj764"))))
     (build-system melpa-build-system)
-    (arguments '(#:files ("org-zettelkasten.el")))
     (home-page
-      "https://github.com/ymherklotz/emacs-zettelkasten")
-    (synopsis
-      "Helper functions to use Zettelkasten in org-mode")
+      "https://sr.ht/~ymherklotz/org-zettelkasten")
+    (synopsis "A Zettelkasten mode leveraging Org")
     (description
       "Documentation at https://melpa.org/#/org-zettelkasten")
     (license #f)))
@@ -95190,17 +95210,17 @@
 (define-public emacs-psession
   (package
     (name "emacs-psession")
-    (version "20220318.1129")
+    (version "20230105.503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thierryvolpiatto/psession.git")
                (commit
-                 "328c64804c4c9e15b373c7ba3bc82bfdfb27971a")))
+                 "ca5bed69f803aab71851c46b0118b66f58455b8a")))
         (sha256
           (base32
-            "1mmn5qmjn77jh0zjfgl6w87yxxq116cb7rj3an0svmaabqsmwpjj"))))
+            "0j2bgcy803qnwbrxqr9f26g593vwzjznnwbsy4r2s7nilgcy3anq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -113925,21 +113945,22 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230105.535")
+    (version "20230108.1817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "cd2e5ec69a777d0c77a69af7ea814098c261b60f")))
+                 "63b862f6029536791a0e0f9ecb5688acef7801fe")))
         (sha256
           (base32
-            "0b7rqmf997m9rqgmlagcd0czm2pxlpi2pbisyzblqqs0s8yrm8jk"))))
+            "1sdq9rmm6a5pbi26ry6sgslx5z4rxzqwjxj1zc7d5874nnm6fhq5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
-    (synopsis "Calm theme with saffron color scheme")
+    (synopsis
+      "Minimal and calm theme with saffron color scheme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
@@ -124122,17 +124143,17 @@
 (define-public emacs-zettelkasten
   (package
     (name "emacs-zettelkasten")
-    (version "20220819.2351")
+    (version "20230108.1724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ymherklotz/emacs-zettelkasten.git")
                (commit
-                 "505fd41dea012e743962c3a376c1e63e7a1e127e")))
+                 "cc4d69c302a46b8f802a1871aae091df1f3398ba")))
         (sha256
           (base32
-            "13pf2ygyizqk3axfl7s246an9w1ih38jq1knzy5f4qn2pf5k2zjs"))))
+            "16an3pym99r0w6810zw1m1jydb7zvk01mw55zxl64kjc37zdlckr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (arguments '(#:files ("zettelkasten.el")))
