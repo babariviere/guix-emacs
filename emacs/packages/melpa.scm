@@ -29848,17 +29848,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230103.1924")
+    (version "20230110.329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "0908eea9c6708605fe3a9718c8274a6711b6acb0")))
+                 "8960e450ac3b1bb085d85c41fc5ae1080ad8f7bb")))
         (sha256
           (base32
-            "05c8p7rqv9p8p3nhgcjfr66hpsqazhnhwsnfdapxd9z7wrybqbg5"))))
+            "1pijdvv75rvwk1yzpv2va07g4rr2v84ipbsa7x5p1011jvbvjqrh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -31433,17 +31433,17 @@
 (define-public emacs-ergoemacs-mode
   (package
     (name "emacs-ergoemacs-mode")
-    (version "20220411.338")
+    (version "20230110.522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ergoemacs/ergoemacs-mode.git")
                (commit
-                 "9cd89eef490f6c9f4af273bb3dd2c68d5ed2de61")))
+                 "3ee58fd4471f79fc4c06ff1a35793173fe45661c")))
         (sha256
           (base32
-            "10p8pi5hlaka2pbrrzfcxjsrv142394k17z8hdx1fq0gvjcycrpl"))))
+            "02xxpyyl063bsak6p010b4pvgb64qccwrcfbf5insxsb3v04k5ll"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -43585,17 +43585,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20230109.326")
+    (version "20230110.113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "66e04148d991d161548fa611c72d5dcfaafb6060")))
+                 "35cfdb7bfe57f2b9a7d9f2af6f71eaf0121ba514")))
         (sha256
           (base32
-            "0vxglpffym99bhj3gk5aw5qjm4rh0in30xg0pfv0gb839nn2z8fi"))))
+            "1r14frkp7l3xv93i8hhcpmyry5yvb4cy9frs87j9ravb32ym14g5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -55568,7 +55568,7 @@
 (define-public emacs-hl-block-mode
   (package
     (name "emacs-hl-block-mode")
-    (version "20230109.536")
+    (version "20230110.439")
     (source
       (origin
         (method url-fetch)
@@ -55578,7 +55578,7 @@
                ".el"))
         (sha256
           (base32
-            "0dphdpn7gxiwxxrd71pqnpi9ykqqgd9k4hqil5qc1b98s7kqd8qc"))))
+            "1wwz81b1py0rr1hqxjysl1kjq7jghwfpg9kvc2bswfgb3ndi0m6a"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-block-mode")
@@ -55657,7 +55657,7 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20230109.536")
+    (version "20230110.445")
     (source
       (origin
         (method url-fetch)
@@ -55667,7 +55667,7 @@
                ".tar"))
         (sha256
           (base32
-            "024c0b39x6y37s6hh4jwi5rn8dxycl1h8zyjnb4mqc0bqlx70krm"))))
+            "1j20k9h5nnh36amhqdplyy3rvlkx7bbssp2h2jb4jzsdwq4vzki7"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
@@ -57315,7 +57315,7 @@
 (define-public emacs-idle-highlight-mode
   (package
     (name "emacs-idle-highlight-mode")
-    (version "20230109.2313")
+    (version "20230110.332")
     (source
       (origin
         (method url-fetch)
@@ -57325,7 +57325,7 @@
                ".el"))
         (sha256
           (base32
-            "135wr0110fvv1nlwkqqd575529q1zq2c32m655i4vcrb61y7rz2q"))))
+            "1jg3ghjlsqsab6dx5rhaayzwzday1p076hg4a5rsjk2vwrfwsjff"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-idle-highlight-mode")
@@ -63742,17 +63742,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230109.2211")
+    (version "20230110.48")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "60bc38389aca7821d5bd97e3923f7f1858926d92")))
+                 "0f7086e935f8b770a667e224050efe2d14a2c624")))
         (sha256
           (base32
-            "0g2sxgiqgifz89iiihn3fmmm01n003mx1717s8vw3198gv61mpn0"))))
+            "1074p0c0gfk5p3wcpd8fl9nnclmlv9lvk40wl0wazf612k7jkdn1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -71534,7 +71534,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230109.506")
+    (version "20230110.109")
     (source
       (origin
         (method url-fetch)
@@ -71544,7 +71544,7 @@
                ".tar"))
         (sha256
           (base32
-            "1f8y2nmjp7fwvbhj8rdrgm2dg8hym6757dw3yp6fnqx38j7081mp"))))
+            "0fmx1w51qwdzhaa3v6l6q3gaglah5igvjw4g4c8alsnjmhsbqpif"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -73957,7 +73957,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230109.43")
+    (version "20230110.415")
     (source
       (origin
         (method url-fetch)
@@ -73967,7 +73967,7 @@
                ".tar"))
         (sha256
           (base32
-            "0c50vym7hhy8iqy4fbb9fgij9y26qg6pifqkhmm8iqn7vc9g9phd"))))
+            "09mwn0pxmzx79ih1av711y97sbgybmmnx20j8q7r87095l8m72jm"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -73980,17 +73980,17 @@
 (define-public emacs-moe-theme
   (package
     (name "emacs-moe-theme")
-    (version "20221230.1039")
+    (version "20230110.422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kuanyui/moe-theme.el.git")
                (commit
-                 "ac6625ed5c99085f9d3ad3fef00353f778e8c1ae")))
+                 "171d76b0c69e42a9d7b62c5c472944951cb2be6c")))
         (sha256
           (base32
-            "12waycyrqfvzfjrvm1bdhp412v7kzap8avff01la1ry56smp5zqf"))))
+            "0g4dci8r0p69vmhbp5djrjvqv7z90xw7pznzapgxy8dqmbvc14k0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kuanyui/moe-theme.el")
@@ -117479,17 +117479,17 @@
 (define-public emacs-uwu-theme
   (package
     (name "emacs-uwu-theme")
-    (version "20230107.228")
+    (version "20230110.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kborling/uwu-theme.git")
                (commit
-                 "095f0d4bca65ba367a19968f10b0c1c7eff47460")))
+                 "6b66376b9d7053eb9c23449a601d24511a0b44e6")))
         (sha256
           (base32
-            "1zy8w0kg0mxvc2gc28i1d2d2bnm7sphg51cy757bayz9vf27h50p"))))
+            "1rkxsnxzgcqmhvll156ipncpcc252j2y1m2jbh7yq8h5m1sz1az9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kborling/uwu-theme")
