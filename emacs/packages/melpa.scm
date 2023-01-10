@@ -10189,17 +10189,17 @@
 (define-public emacs-calibredb
   (package
     (name "emacs-calibredb")
-    (version "20220612.1131")
+    (version "20230110.1024")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chenyanming/calibredb.el.git")
                (commit
-                 "2f2cfc38f2d1c705134b692127c3008ac1382482")))
+                 "3e3b4c0de3a9f4370aca9e5a1f82310bcfbfc9f4")))
         (sha256
           (base32
-            "11y8hiihs1jdf44pdxmylriqngwsxwsny29l6y3jp4mmhrrgz1m7"))))
+            "1w0py37wshhwlnynyhizpmwpbx6vw37dapmrg3bs7a8shy40j496"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -33063,17 +33063,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230109.1639")
+    (version "20230110.1423")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "a5ab49a49068b419f92de39ec046aa49aa80d3f1")))
+                 "24c9c4255a27f9d87b880d2ba4fd1d7df4502075")))
         (sha256
           (base32
-            "1jwzkig0qbs0mig4dmp3dz89nx17xjzxl98gaf2jqrgb3rm9h92m"))))
+            "1p0hv48v17h1hgiqxbdxplvvh24ddgnnp694h79889q8rm9aamj6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -35762,17 +35762,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20221229.1838")
+    (version "20230110.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "457cbc78f8cc8345edcf25951d9b36bbf72ca080")))
+                 "eccb51da6825b5d87bd9222d8d1dd616d22fb5f7")))
         (sha256
           (base32
-            "1birdxfj1qizxz12vy3wyixxb553k5vicy3991zb8dhzh32a6h9x"))))
+            "0zfnfcqfsxw1ddsmqihbila8s5habr9dggpgyvd238ir40vmwn7w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -55657,7 +55657,7 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20230110.445")
+    (version "20230110.937")
     (source
       (origin
         (method url-fetch)
@@ -55667,7 +55667,7 @@
                ".tar"))
         (sha256
           (base32
-            "1j20k9h5nnh36amhqdplyy3rvlkx7bbssp2h2jb4jzsdwq4vzki7"))))
+            "1sr4lv0d7dphd5a51srgn0c966zfbf5l76n5861xggqx0glmrihc"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
@@ -59140,7 +59140,7 @@
 (define-public emacs-inkpot-theme
   (package
     (name "emacs-inkpot-theme")
-    (version "20230109.536")
+    (version "20230110.950")
     (source
       (origin
         (method url-fetch)
@@ -59150,7 +59150,7 @@
                ".el"))
         (sha256
           (base32
-            "0k93zl2pkxh6fxhygknm3s7ng6nn0jpi2lkr4rnbsjmihjgi2p33"))))
+            "01b695jpv5ndvcw2kmghlcsscfvp4aan2gw5wnz6bw5c39m0z0s5"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-inkpot-theme")
@@ -63742,17 +63742,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230110.48")
+    (version "20230110.1308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "0f7086e935f8b770a667e224050efe2d14a2c624")))
+                 "d1de3dca290ade6b14a8f864148b53c058e75834")))
         (sha256
           (base32
-            "1074p0c0gfk5p3wcpd8fl9nnclmlv9lvk40wl0wazf612k7jkdn1"))))
+            "11ilwqg288zpbrrzn2wc7rs95i7319x354hnwnzrl2xh21r36bw8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -71534,7 +71534,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230110.109")
+    (version "20230110.1336")
     (source
       (origin
         (method url-fetch)
@@ -71544,7 +71544,7 @@
                ".tar"))
         (sha256
           (base32
-            "0fmx1w51qwdzhaa3v6l6q3gaglah5igvjw4g4c8alsnjmhsbqpif"))))
+            "0pjf4n3qzg51lzwxxayxskj4pgnffrjqmkilizq9n6l33k03zl98"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -80494,7 +80494,7 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20230109.536")
+    (version "20230110.953")
     (source
       (origin
         (method url-fetch)
@@ -80504,7 +80504,7 @@
                ".el"))
         (sha256
           (base32
-            "1lm9p4wy9nbgx43r5dgqjsygmbka239n2vwkf7bhc33v9vbc991q"))))
+            "1413ii9d159alkxh56522zyzh6qhrn9cc7nanrkbgmwna682fwx3"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-oblivion-theme")
@@ -83042,17 +83042,17 @@
 (define-public emacs-org-gtd
   (package
     (name "emacs-org-gtd")
-    (version "20230109.508")
+    (version "20230110.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Trevoke/org-gtd.el.git")
                (commit
-                 "a450f9b6acf817fdc11452f2fe7258dddd459299")))
+                 "ed8528d70c17471f24f6acb9ffc466fff5bee1d4")))
         (sha256
           (base32
-            "0dqvxydbzi0lg9dblfq9hl4bnpawgy1zdmfvbzpk4cpl0dw3yxmk"))))
+            "0d9r7ywr0k03s12yj6nmi4n565klmm8l9k2s0rb0p98l3yn9r34x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-edna
@@ -90402,17 +90402,17 @@
 (define-public emacs-persp-mode
   (package
     (name "emacs-persp-mode")
-    (version "20220909.836")
+    (version "20230110.1045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Bad-ptr/persp-mode.el.git")
                (commit
-                 "67be9feeb02613ea97f0de9eb5b792b193f073bc")))
+                 "df95ea710e2a72f7a88293b72137acb0ca024d90")))
         (sha256
           (base32
-            "1wwcck650wxmgmc8kxpixfhiqzxk6qkkb1rpz77prbl068d3sl3v"))))
+            "0jf4wsq13bjdr0wdm9jv702xxyhadfglxhvf9f7ahh3g4izjfqyr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Bad-ptr/persp-mode.el")
@@ -114022,17 +114022,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230108.1817")
+    (version "20230110.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "63b862f6029536791a0e0f9ecb5688acef7801fe")))
+                 "3974a3a87577de2d8c222b55faef13ea7fcdad69")))
         (sha256
           (base32
-            "1sdq9rmm6a5pbi26ry6sgslx5z4rxzqwjxj1zc7d5874nnm6fhq5"))))
+            "0syqdyqjl96krh66crnap33phnjw78pr895r8gy5yn6sxiq9hsky"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
