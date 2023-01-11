@@ -14093,17 +14093,17 @@
 (define-public emacs-color-identifiers-mode
   (package
     (name "emacs-color-identifiers-mode")
-    (version "20230109.1943")
+    (version "20230110.2257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ankurdave/color-identifiers-mode.git")
                (commit
-                 "5c2ea475023ee654cf207d2932f70cb7ee8c7724")))
+                 "c088af28484f84a6b728c561fce82a3359bd0fbe")))
         (sha256
           (base32
-            "1bkwgi5pkx7chw3yv16hqbx5xfpq1s5vxd331x2ahm8wxb71gi55"))))
+            "10hv25qrmfixkibw2d89b548pn1sji29fbnasscrxj5qa5hgm525"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -83270,17 +83270,17 @@
 (define-public emacs-org-ivy-search
   (package
     (name "emacs-org-ivy-search")
-    (version "20230105.503")
+    (version "20230111.334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/org-ivy-search.git")
                (commit
-                 "6d8db839ba9423613e551c74d7594d77ad51bcca")))
+                 "47eaa5c91a107c4867af8cba17cb1195353a39cb")))
         (sha256
           (base32
-            "07a90vamp0zwn64dvzqlhvlax4hz13dgxq1i9cqglrblj7vjxyra"))))
+            "1zxn8gsyb2k5rm6izw4fibnavkymv460iiyd42cp7hwmqs73kasl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (home-page
