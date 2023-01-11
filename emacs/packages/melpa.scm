@@ -43585,17 +43585,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20230110.2039")
+    (version "20230111.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "d4c77f055835ede2dde4f0cfe918dd562344edec")))
+                 "909768f3b990913372407106cb9a94f81f85c6ff")))
         (sha256
           (base32
-            "0igf13xjc7n0zb82s8xvvxq226xjc58h01ynqpgiik7ajknwgb9w"))))
+            "0590yylbnf111rnll1gaqpjwmqczplwymh8xrjg102hs55h8dkpr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -47259,17 +47259,17 @@
 (define-public emacs-go-tag
   (package
     (name "emacs-go-tag")
-    (version "20180227.411")
+    (version "20230111.651")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brantou/emacs-go-tag.git")
                (commit
-                 "59b243f2fa079d9de9d56f6e2d94397e9560310a")))
+                 "33f2059551d5298ca228d90f525b99d1a8d70364")))
         (sha256
           (base32
-            "0r72qk79q8yyidpxgq4r0295fm73id946p1r4s65bwyzii76rjyi"))))
+            "1nmxw99xqhr9sg5lafqjs7x033br8xz9106zc96gxf07v6zgbxy2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-go-mode))
     (home-page
@@ -47282,17 +47282,17 @@
 (define-public emacs-go-translate
   (package
     (name "emacs-go-translate")
-    (version "20221211.1327")
+    (version "20230111.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lorniu/go-translate.git")
                (commit
-                 "65d5139f202320b71e6b8b03d752d02b7c0b8c6f")))
+                 "ff0d5a98d5935f34f36053b96d3fd128d71b8b1e")))
         (sha256
           (base32
-            "0hpdfmb3j3pr5b1bz5ix5ykzgdvii4h4an663flzxwlap21j7h8p"))))
+            "1w83hd7r1hsp030m7h9044vxhhxbw2ia17xm4v6cy3jk1jm327k7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lorniu/go-translate")
@@ -57797,17 +57797,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20230106.1021")
+    (version "20230111.1059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "253e2ad90985c83c5cb06bae0b1cb931c88a6c89")))
+                 "bb26a215664473cb68906c3febe0e8a6ab346796")))
         (sha256
           (base32
-            "05xbyx2ljbjls10w7nzkvmwdf545d63i4826gk7v9dbi5arfhsim"))))
+            "0vkijkn036p9vbvqrjllplwfx4cv7bppr8drp1jchzsgqnf0di5v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -83270,17 +83270,17 @@
 (define-public emacs-org-ivy-search
   (package
     (name "emacs-org-ivy-search")
-    (version "20230111.334")
+    (version "20230111.1016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/org-ivy-search.git")
                (commit
-                 "47eaa5c91a107c4867af8cba17cb1195353a39cb")))
+                 "79e70a36d9eb9acd77f0d3ca4b3a8c3c6ded2b31")))
         (sha256
           (base32
-            "1zxn8gsyb2k5rm6izw4fibnavkymv460iiyd42cp7hwmqs73kasl"))))
+            "1caq6zqqaykx41a6fpv6z79jx5cj97cqjddghcid6rw68rqqpply"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (home-page
