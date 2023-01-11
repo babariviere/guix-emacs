@@ -8483,17 +8483,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20230107.1157")
+    (version "20230107.1847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "f045472987024fd514b7fd72834272454e05dca4")))
+                 "a33760328424af1a2137e596a0076f08cba4d639")))
         (sha256
           (base32
-            "1l7k04qbl91g7shpvi4fdl5q24mwby5fkfxd5ab2p20ra0wbx1z4"))))
+            "0wzracdd680hjz5h954kilb79hw0c1bs216fbzgl9pzw0smbiib3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -30034,17 +30034,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20230108.1909")
+    (version "20230110.1531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "0e34fefe44a8fca45bf9364a19768809a2ed7614")))
+                 "f10637837ccf20285201a1617bef465f22dd5aa4")))
         (sha256
           (base32
-            "1wr4ygq3w8905qnamgil1yy51sk7wvdy25dwhapr2qfhk3zh7vlg"))))
+            "1gw6vg09gypqgfpwmqypkchb9pjxxwdcpyi6663ym0q6jhdja9jl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -31433,17 +31433,17 @@
 (define-public emacs-ergoemacs-mode
   (package
     (name "emacs-ergoemacs-mode")
-    (version "20230110.522")
+    (version "20230110.1544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ergoemacs/ergoemacs-mode.git")
                (commit
-                 "3ee58fd4471f79fc4c06ff1a35793173fe45661c")))
+                 "892dbe31ebf1405eda5bcc41db4e5703a31464f1")))
         (sha256
           (base32
-            "02xxpyyl063bsak6p010b4pvgb64qccwrcfbf5insxsb3v04k5ll"))))
+            "0fh1ni0als651i0wgdlcizlvj07xkhncx0nd8r61s3fa5sixsyxr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -33063,17 +33063,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230110.1423")
+    (version "20230110.2025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "24c9c4255a27f9d87b880d2ba4fd1d7df4502075")))
+                 "f003ca28a9691d24a17866e5dce3e7866c9bb257")))
         (sha256
           (base32
-            "1p0hv48v17h1hgiqxbdxplvvh24ddgnnp694h79889q8rm9aamj6"))))
+            "0a4zjz42savajwyky67aij9b21jm2jyqgznsnwap1p4cphbjbp1v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -43585,17 +43585,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20230110.113")
+    (version "20230110.2039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "35cfdb7bfe57f2b9a7d9f2af6f71eaf0121ba514")))
+                 "d4c77f055835ede2dde4f0cfe918dd562344edec")))
         (sha256
           (base32
-            "1r14frkp7l3xv93i8hhcpmyry5yvb4cy9frs87j9ravb32ym14g5"))))
+            "0igf13xjc7n0zb82s8xvvxq226xjc58h01ynqpgiik7ajknwgb9w"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -83042,17 +83042,17 @@
 (define-public emacs-org-gtd
   (package
     (name "emacs-org-gtd")
-    (version "20230110.1406")
+    (version "20230110.2022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Trevoke/org-gtd.el.git")
                (commit
-                 "ed8528d70c17471f24f6acb9ffc466fff5bee1d4")))
+                 "fe7c502be41e4bc82cdebc28a01c151684168226")))
         (sha256
           (base32
-            "0d9r7ywr0k03s12yj6nmi4n565klmm8l9k2s0rb0p98l3yn9r34x"))))
+            "0lpxka4w0qzac36y1sbywjik2ga6rl0ghhaz0prmywpjp4blwvmc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-edna
@@ -110354,17 +110354,17 @@
 (define-public emacs-svg-tag-mode
   (package
     (name "emacs-svg-tag-mode")
-    (version "20230109.901")
+    (version "20230110.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rougier/svg-tag-mode.git")
                (commit
-                 "3630fb0f291950cfd05c780f6126ae2c0a145294")))
+                 "9f5c2cb862fcba96f247b85fdd1b7dffff7af93a")))
         (sha256
           (base32
-            "1gidhm9sxbcrqz6mbrgs45pvlfq80y2dl25bfgrnf27cbavfbf2d"))))
+            "10gy0pa0147phgx75hh21kgpg4j78v5dcl7alfq6apsximjz8w9f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-svg-lib))
     (home-page
@@ -114022,17 +114022,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230110.1339")
+    (version "20230110.1638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "3974a3a87577de2d8c222b55faef13ea7fcdad69")))
+                 "4a92602354324119f0748e9ae3ae08caeb66c32a")))
         (sha256
           (base32
-            "0syqdyqjl96krh66crnap33phnjw78pr895r8gy5yn6sxiq9hsky"))))
+            "0fsfbmy8bk2qz3f5awmcpzbw6jhgxb1s89qpvs6z2731wpmvpq9d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
