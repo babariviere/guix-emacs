@@ -2018,17 +2018,17 @@
 (define-public emacs-aggressive-indent
   (package
     (name "emacs-aggressive-indent")
-    (version "20221009.1158")
+    (version "20230112.1300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Malabarba/aggressive-indent-mode.git")
                (commit
-                 "f376cdc25de5c0f8c330f1e053557d95ca47a540")))
+                 "a437a45868f94b77362c6b913c5ee8e67b273c42")))
         (sha256
           (base32
-            "1j2hgg7k1nhcwf5mrncmyc6babrlhks2wkcdhz8d1q8rpymiqq38"))))
+            "0kaxwwnwj47j69zdiamxwlinvnbzw1ya62j91zg26ig2lj8082l7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Malabarba/aggressive-indent-mode")
@@ -10333,17 +10333,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230102.1816")
+    (version "20230112.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "da2bf90d23f07c982e5e9dc6f87a059ae2ee52a2")))
+                 "8841d1d21c64061d34fe35c46c05b661421cdab1")))
         (sha256
           (base32
-            "1kghxbkjl1ncl18dj84rgimxcxi8ki10npx4fc6fy0zqijml86s6"))))
+            "1g32lzqya36mas188a3wy91w99r34l6p163y9kvbjy0v69f7gdyv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/cape")
     (synopsis "Completion At Point Extensions")
@@ -10730,17 +10730,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20230111.1339")
+    (version "20230112.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "f450cbcbc732809832840c921e63e2ed9488f08d")))
+                 "4c871a07d4ddc76eb89fdb0518fe671c3c08feba")))
         (sha256
           (base32
-            "1i9pl9dqq33bd27jyilk69a9smljh9fm2k54ivlv0kdl1bcdcwm7"))))
+            "0x8g59hzsvf6kr8fb8ynqrk1pi2m4anc7mw7jdgl3iw4yhq00bx5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis
@@ -21502,17 +21502,17 @@
 (define-public emacs-devdocs-browser
   (package
     (name "emacs-devdocs-browser")
-    (version "20230108.1456")
+    (version "20230112.1554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-devdocs-browser.git")
                (commit
-                 "6f090ec15f19b4868da1be0a4ea5c8a3f012f873")))
+                 "c316c93306527fcb4069adde94402a48605d42d5")))
         (sha256
           (base32
-            "17v7rwzfazfcbvabkr299dia9sclic3d92imgmzaj8qw297bqkcn"))))
+            "0532pg1kz373n8g06bhlwwp7j9vkfyr26qcfk0bqf4cpa01vg3hf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/blahgeek/emacs-devdocs-browser")
@@ -28448,7 +28448,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230109.855")
+    (version "20230112.705")
     (source
       (origin
         (method url-fetch)
@@ -28458,7 +28458,7 @@
                ".tar"))
         (sha256
           (base32
-            "1xlqnrw8ilrpirw5i3jzi966vc9l9g8l6si5z3lkj43sazvyiqzk"))))
+            "121fpqhq29xk09isx8s43sjxc3f6k3rls93s8fg592jby8b62a4i"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -33064,17 +33064,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230110.2025")
+    (version "20230112.1056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "f003ca28a9691d24a17866e5dce3e7866c9bb257")))
+                 "30e819dcf47294a758a47a362d2f61fc19aefcf0")))
         (sha256
           (base32
-            "0a4zjz42savajwyky67aij9b21jm2jyqgznsnwap1p4cphbjbp1v"))))
+            "1bjgg6bynb9ka3p8rjn1fpg0kspm1dyz5ksd4xzp8bv8d6r0dkn4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -35763,17 +35763,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20230110.1159")
+    (version "20230112.1240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "eccb51da6825b5d87bd9222d8d1dd616d22fb5f7")))
+                 "0fe83aa3df2d1d194f295a06673f8d5841c8752b")))
         (sha256
           (base32
-            "0zfnfcqfsxw1ddsmqihbila8s5habr9dggpgyvd238ir40vmwn7w"))))
+            "05qp2wf4w8fswwljqy64ldwm4g4qvi7pz9xribmj5c0xw37aq2j3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -61968,7 +61968,7 @@
 (define-public emacs-jit-lock-stealth-progress
   (package
     (name "emacs-jit-lock-stealth-progress")
-    (version "20230109.859")
+    (version "20230112.637")
     (source
       (origin
         (method url-fetch)
@@ -61978,7 +61978,7 @@
                ".el"))
         (sha256
           (base32
-            "14g01z2ffs6gghx6bmhdabfn3x38lak5bin94cz5jfrkv5khv239"))))
+            "0vfnkn51q67sq4qpvcf6dildy032m7vwchwxsa8qq6xwn7lh7dga"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-jit-lock-stealth-progress")
@@ -68933,17 +68933,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230108.1415")
+    (version "20230112.738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "a78f04ea4b6720609fb499e89f7cf089a6e19d7e")))
+                 "c53a2ced61cfffc05552f324669eeddbfa870373")))
         (sha256
           (base32
-            "06k0rdp0d0klslkzflrrdl7w7y5d1l8w83hzqac1qdknzad4jynn"))))
+            "02cib5v1ldjpgvs3zarcbza01lcybvaln6vpf1x3lwgmvazav3ia"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73958,7 +73958,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230112.503")
+    (version "20230112.1108")
     (source
       (origin
         (method url-fetch)
@@ -73968,7 +73968,7 @@
                ".tar"))
         (sha256
           (base32
-            "14r8z2is1nyvzgmsjr3xi1sjvjxilv2mg6dimd01c2l4lp1377x1"))))
+            "1dmy752p0xvg1acm6ni6p0h2yxzjzmlzfyzqyxxv02ibk27qf81c"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -80495,7 +80495,7 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20230110.953")
+    (version "20230112.636")
     (source
       (origin
         (method url-fetch)
@@ -80505,7 +80505,7 @@
                ".el"))
         (sha256
           (base32
-            "1413ii9d159alkxh56522zyzh6qhrn9cc7nanrkbgmwna682fwx3"))))
+            "1947wcbak28may753zd3373iyyanjad8fim8xbv35c417nd1wa50"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-oblivion-theme")
@@ -112830,17 +112830,17 @@
 (define-public emacs-textile-mode
   (package
     (name "emacs-textile-mode")
-    (version "20210912.906")
+    (version "20230112.1030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juba/textile-mode.git")
                (commit
-                 "a49d9bf42166584cca395a92311e9d0a199efc46")))
+                 "8f8c09ef097a95a713307fdb5c92b9778dfbc1fc")))
         (sha256
           (base32
-            "0b7vbqy2ryp5c0jz7gb5ddpa3mlqmkd7jlf94hdb0d0ffapspqsv"))))
+            "0x8ib6cm7rp6hf44348nnc937w98v5q0fv9r650jjvkfl9rkbm7b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/juba/textile-mode")
@@ -117389,7 +117389,7 @@
 (define-public emacs-utimeclock
   (package
     (name "emacs-utimeclock")
-    (version "20230109.536")
+    (version "20230112.748")
     (source
       (origin
         (method url-fetch)
@@ -117399,7 +117399,7 @@
                ".el"))
         (sha256
           (base32
-            "0kdzk2rm257wgli32cxrfw1kdqvr85zalbdvyqd4z3h41mz7nh96"))))
+            "1xkm1lim3q3rpi700vn386bjcfpik2l9nd37a7cb8agqi72i1vlk"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-utimeclock")
