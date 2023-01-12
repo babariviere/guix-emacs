@@ -10216,17 +10216,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20230111.1541")
+    (version "20230112.133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "4900350ce1918b404996b65bcba987b337af93af")))
+                 "278d34cdd7035a81b92c797a6ff3cb0783cc07e2")))
         (sha256
           (base32
-            "0cgb1cgli8m4myh3kh26jbacsjnayazwzsiy5a4nfwkxbk3a62zz"))))
+            "0i34ka7z0hlfgkq59n6ax8r6lvfm0ppskbkk2i1f1k545bd9514n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -17101,17 +17101,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20221231.2105")
+    (version "20230112.312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "695840425ca8a9cfb8a40503fd93c2f112b2994a")))
+                 "4d92996f676cecfebea6519dadf8cf185621a18a")))
         (sha256
           (base32
-            "1mrh6f1r60z766qr4lxxj3nd8mlcbnkr7mjpc4wdyg7rnwq2i5wz"))))
+            "0jkvv975ydcrr9k390zllrnbwzb6g0mnkjzvcajzwkhpayi8i0ka"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -22192,17 +22192,17 @@
 (define-public emacs-dir-treeview-themes
   (package
     (name "emacs-dir-treeview-themes")
-    (version "20221106.2133")
+    (version "20230112.134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tilmanrassy/emacs-dir-treeview-themes.git")
                (commit
-                 "1d2e19c1df9f68186d7d0fe4529c92f7112136a2")))
+                 "8e28c2501a978e6ff733fc9cf43a826fd8e7b87e")))
         (sha256
           (base32
-            "1h8kbr1swad0d84bqblg4c4gvm2pnq72n5hrbxjwahr45j8xrp1l"))))
+            "16hmp0wp8a1ahhsqy2s7wkbz9fkjfdi5wa0hjrwc2rfg3xprf449"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dir-treeview))
     (arguments '(#:files (:defaults "icons")))
@@ -33182,7 +33182,7 @@
 (define-public emacs-evil-cleverparens
   (package
     (name "emacs-evil-cleverparens")
-    (version "20230111.1651")
+    (version "20230111.2108")
     (source
       (origin
         (method git-fetch)
@@ -43586,17 +43586,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20230111.1317")
+    (version "20230111.2323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "909768f3b990913372407106cb9a94f81f85c6ff")))
+                 "10a46791dfd2df10ce58bf2fedaa6cbb847b72ed")))
         (sha256
           (base32
-            "0590yylbnf111rnll1gaqpjwmqczplwymh8xrjg102hs55h8dkpr"))))
+            "17q527saymh4aanjyrd6qck6fr1p000bmhhdnpmlwy6yq7zhw1dk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -58751,17 +58751,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20221016.2238")
+    (version "20230111.2346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "c6192178941b46754fdb50405f344481c8ef2fd1")))
+                 "997b3c5f9d9d7ff72b1a1cbdb55b1f575748a9ca")))
         (sha256
           (base32
-            "1rmhqwhyp7756z0zl313clv4wkv1zxvyhlznqjpjwqajcjbz1ib4"))))
+            "0z37jsa0p7l92j495wj3z54n10jf5br1qmk2rvl6mmdyzvq5ls7k"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -63743,17 +63743,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230110.1308")
+    (version "20230112.304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "d1de3dca290ade6b14a8f864148b53c058e75834")))
+                 "9355b1f0ad21317aa27b8be28ad2c6c4d90d6172")))
         (sha256
           (base32
-            "11ilwqg288zpbrrzn2wc7rs95i7319x354hnwnzrl2xh21r36bw8"))))
+            "0wkxi24v13qnp9k18n1i9gpwmk81xc0vy1nzr67p11r1wiqxmw0b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -73958,7 +73958,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230110.415")
+    (version "20230112.503")
     (source
       (origin
         (method url-fetch)
@@ -73968,7 +73968,7 @@
                ".tar"))
         (sha256
           (base32
-            "09mwn0pxmzx79ih1av711y97sbgybmmnx20j8q7r87095l8m72jm"))))
+            "14r8z2is1nyvzgmsjr3xi1sjvjxilv2mg6dimd01c2l4lp1377x1"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -83271,17 +83271,17 @@
 (define-public emacs-org-ivy-search
   (package
     (name "emacs-org-ivy-search")
-    (version "20230111.1541")
+    (version "20230112.132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/org-ivy-search.git")
                (commit
-                 "79e70a36d9eb9acd77f0d3ca4b3a8c3c6ded2b31")))
+                 "b514a1dd3bdc5917825abcd19f9dc77b2bf39c6c")))
         (sha256
           (base32
-            "1caq6zqqaykx41a6fpv6z79jx5cj97cqjddghcid6rw68rqqpply"))))
+            "0rcjn6y4c60vnsj86xsjj7b96r1c1mqcwvksbbagkkgv3q20a208"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (home-page
@@ -101598,17 +101598,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20230109.35")
+    (version "20230112.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "26f4582293e0c11aaf5643c5064cd2c98444642c")))
+                 "c12348e40531fc7e7325368621a0e5f8031d99b2")))
         (sha256
           (base32
-            "0skf1a50ji0vg7jjd6s93386avk50gsbflg1g4fac0whyy02imjj"))))
+            "0sy7v0j81qd1mdq862zm0a4nf3g3wyyjjy3kjlmd9kb3l3f5rh0q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
