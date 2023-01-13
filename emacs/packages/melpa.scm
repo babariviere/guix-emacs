@@ -33995,17 +33995,17 @@
 (define-public emacs-evil-numbers
   (package
     (name "emacs-evil-numbers")
-    (version "20220731.2346")
+    (version "20230113.150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juliapath/evil-numbers.git")
                (commit
-                 "7bd9bb0bce2ed61fa256952fbf37fc5259928925")))
+                 "743e60549c1efea562e3fc8d6cd713e2ce7653b3")))
         (sha256
           (base32
-            "0z8rma0h615lybvbx67apcddy7jfm4lbrg6hr5k4hmll3q7b594r"))))
+            "162cj65qg5jb4bq0ypfi6rbx6f79jjf1pfavl24y09wmcvkhxaii"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -43586,17 +43586,17 @@
 (define-public emacs-fzf
   (package
     (name "emacs-fzf")
-    (version "20230112.2328")
+    (version "20230113.56")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bling/fzf.el.git")
                (commit
-                 "8f0a5092f78b0ea413fbd8430749705f061b1e14")))
+                 "048bc51d382d4899afb4153a69bb393bd69bee0b")))
         (sha256
           (base32
-            "1w2rhcgvhrl69r3m49ihv3rbkdp4pyxlf716vwmjzqjrasixr8iq"))))
+            "0p7899iws337y4zpr0m0qg8m28hpyq109qm8dhpxddk06r6ixhnf"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/bling/fzf.el")
     (synopsis "A front-end for fzf.")
@@ -66558,17 +66558,17 @@
 (define-public emacs-liberime
   (package
     (name "emacs-liberime")
-    (version "20221222.1141")
+    (version "20230113.556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/liberime.git")
                (commit
-                 "70ad2e6e1f0ff74fc8b9b5177b9aba645a18e546")))
+                 "cc9eb9812fd6f68e78ed6a0c0a85da7a18765753")))
         (sha256
           (base32
-            "1y9a1khfyz262yarn7rd0hg5vxaz8j80mhad7mh01m6685nfw39b"))))
+            "11c2wj00wwbdxqkzl60sd77cp43rja5v8hrvhrvhg75v62kawva2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -69657,17 +69657,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20230112.2355")
+    (version "20230113.112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "0a978934c0aad983d8c41b2030bf76410ed59715")))
+                 "ff4dfcb0cb16cb4a9d59fd2858939fd8719b655a")))
         (sha256
           (base32
-            "1y6imxl9b1yhh70xljgks6v3v7jw6m6ybi0r7580w18cpcv33sz9"))))
+            "1d3yxcpfglm5mi2sxd660c2a3a3iz3cpk9alf894c5kbasyycrgy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -86029,17 +86029,17 @@
 (define-public emacs-org2blog
   (package
     (name "emacs-org2blog")
-    (version "20221118.536")
+    (version "20230113.309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org2blog/org2blog.git")
                (commit
-                 "b99853bdfc5059ecfa13f953de843a38418d5bbb")))
+                 "1b2c10d1332390750e76a140b8c55f884ae1b3c4")))
         (sha256
           (base32
-            "1dsrk0v1qas1qiwnjpwp6lniz4j2bg8grbyhgcr0snyqwk3j4v4a"))))
+            "1yn7kvl5y2ykydkwblp23r50qzwcmkppzkfj2sf2zajdyrrw6qx0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-htmlize
@@ -90331,17 +90331,17 @@
 (define-public emacs-persistent-scratch
   (package
     (name "emacs-persistent-scratch")
-    (version "20220620.408")
+    (version "20230113.318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fanael/persistent-scratch.git")
                (commit
-                 "92f540e7d310ec2e0b636eff1033cf78f0d9eb40")))
+                 "f9c1361ad69073af8133174f9e37b594df9be361")))
         (sha256
           (base32
-            "1hl4xac1zsvpbibahp54phf1b1srhnm2nh30vzmh96aynnf38vqd"))))
+            "1bgz6hdxwwi96pgxlxabzq6v7a63xznzd7ifmcdx9571vlbg48cc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Fanael/persistent-scratch")
@@ -114022,17 +114022,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230110.1638")
+    (version "20230112.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "4a92602354324119f0748e9ae3ae08caeb66c32a")))
+                 "6cbde5602ba78c8ac4ae56f621f6397932a71e1b")))
         (sha256
           (base32
-            "0fsfbmy8bk2qz3f5awmcpzbw6jhgxb1s89qpvs6z2731wpmvpq9d"))))
+            "0gh9khlznfnir7w7b3n4z4s4f1whwwd096mvfr07x0byjccpiwir"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
