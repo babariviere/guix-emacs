@@ -12488,17 +12488,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20221216.1238")
+    (version "20230114.811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "3cb83db147bdda208520246e82dbf9878fa3cbd0")))
+                 "932840891f7ebdf9a6a76eacb3b1e14d2d909a28")))
         (sha256
           (base32
-            "1qj7j1av7gm46d3zqjh0s85q6pjmccbnxbbajjl13bvih06x0gkw"))))
+            "1v06dcwmw2rsg4ka83gm667yg3wgxp0ijj29ibfc4hjz051gglq8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -30792,17 +30792,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20230107.2147")
+    (version "20230114.1258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "9d079e9490dc3040f0528f1673f3796cc8be5189")))
+                 "88f377e63c5e858c8cdacc75f413fd2899259d4f")))
         (sha256
           (base32
-            "1pj7ksm5sc823hfb89msjxajnvgcqzn3cmlzyflyfw03l8d3vq9s"))))
+            "1m0ygwjrckdnccqmwp71q3nh3vq5kw5jivdscvb0pm8nvdiy02zs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql emacs-llama))
@@ -63744,17 +63744,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230114.610")
+    (version "20230114.1306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "41466e9374e3b50d63eb9f47ab0e20d2aeae4ad9")))
+                 "d96b8948ee4e721a2eeaa277a6e067f2e6988c0e")))
         (sha256
           (base32
-            "1b2sbdmwly3g63ly23a6r1bybr67kdfa9yz92666w72khczm6296"))))
+            "1hn2gp9r1j0whsfx1vf3lb1f0yj9iidfmri3mzkwsracmk4m305l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -71096,18 +71096,19 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230101.1109")
+    (version "20230114.952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "077fcfb548eaa076c08431b0d712ea947d42c66c")))
+                 "1afd567e506016eb29fdd941ac47f87025cf8c4e")))
         (sha256
           (base32
-            "05siz2b9js1qqwx026gdbjampxnf5skz5xvxhy3x3md5nqc9jd7k"))))
+            "1b3qkih14wz7slax6jx3nfdfx3m1mqg3b301hhwwamamrf2yvn6n"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
     (synopsis
       "Enrich existing commands with completion annotations")
@@ -71536,7 +71537,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230113.831")
+    (version "20230114.1343")
     (source
       (origin
         (method url-fetch)
@@ -71546,7 +71547,7 @@
                ".tar"))
         (sha256
           (base32
-            "1x2p2fi8i5yiyzlqjhw9ivaivgw0wxck331p91rn3ql7pb14wfi7"))))
+            "035lyv9yfk6xlya2m1pfwy4lif7asa9khlq27267cga89l90fgm9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -86186,17 +86187,17 @@
 (define-public emacs-organic-green-theme
   (package
     (name "emacs-organic-green-theme")
-    (version "20230106.2340")
+    (version "20230114.1204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/organic-green-theme.git")
                (commit
-                 "bb0472993b8ffa6edcc8d787c18046b6fd3bac88")))
+                 "8212471fdce8fe330ca6f8471e0b545c2f0fb519")))
         (sha256
           (base32
-            "0091li5964c014gm0gawfy9xsh9df99s5f1s301jvc457bsnfby0"))))
+            "060cmmq7swvmg35sqykf328fcyzg0h11a3a2w67xp2jjzw1p9nkv"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Low-contrast green color theme.")
@@ -86630,18 +86631,19 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20230112.1837")
+    (version "20230114.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "3e9e839df03e14ea8789ce1ef868155e994f5f0f")))
+                 "a786ea940b3d7befc3e8cc26c3550660b0e86811")))
         (sha256
           (base32
-            "0jf9lm451c048f3w8i7xjx5kppwi3dn5l04g9gywbjakfys2nq02"))))
+            "0b9p11qzvybl362cai50vzmyvswzmwbahiskkjcvaml3wih7vyga"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
     (synopsis "OpenStreetMap viewer")
     (description
@@ -96387,17 +96389,17 @@
 (define-public emacs-pyramid
   (package
     (name "emacs-pyramid")
-    (version "20210427.1032")
+    (version "20230114.1049")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dakra/pyramid.el.git")
                (commit
-                 "66f54f4a9cc9fa81edf768ab433d5b3c5517363c")))
+                 "c8a8b36725d85664e74f59600fe5d18d06ea907d")))
         (sha256
           (base32
-            "0sijy6nk46yw21j49x5n93za2zjzqqrfmjm7dz3z3gj7jknk27i9"))))
+            "05q9bqxnv2b1d9g7j86pc36mfn8d7x5piz95lc38cqwv492ivrbx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-tablist))
@@ -112135,18 +112137,19 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20230101.1111")
+    (version "20230114.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "579f3c5a5845d02a3b9997cafa1cdee789a87b99")))
+                 "eaaa2ca90d98af770d8246fae351b81bdf8a4adf")))
         (sha256
           (base32
-            "13aribmq988b9pzlz4qkaf428w02y27ldnjvdjmmc2ngjqln3nfq"))))
+            "1g717v1ycldxb5b4jj3zya03nmm20n0hwng7kphnz1h2smswgyfc"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/tempel")
     (synopsis
       "Tempo templates/snippets with in-buffer field editing")
@@ -114025,22 +114028,22 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230112.2118")
+    (version "20230114.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "6cbde5602ba78c8ac4ae56f621f6397932a71e1b")))
+                 "548cba98d527a3cc11c5001e582126e0af27e881")))
         (sha256
           (base32
-            "0gh9khlznfnir7w7b3n4z4s4f1whwwd096mvfr07x0byjccpiwir"))))
+            "09hjxra1d8r815r4xnr4h8lvnrrkr2wm8b3wblw5x3f73r79kh4g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
     (synopsis
-      "Minimal and calm theme with saffron color scheme")
+      "Minimal and calm theme with dark and saffron color scheme")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
@@ -121685,7 +121688,7 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20221121.1318")
+    (version "20230114.1021")
     (source
       (origin
         (method url-fetch)
@@ -121695,7 +121698,7 @@
                ".el"))
         (sha256
           (base32
-            "1sjg3kfccgn1wkqg85vhddxpf9k0siqvb2c2ggr8ijhib656rqw3"))))
+            "1kzcfgqq2y4kyz0wqx0ssmiadhy7ry34gbnxagvzz92vbmp98g6a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
