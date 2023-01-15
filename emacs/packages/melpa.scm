@@ -71096,17 +71096,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230114.1758")
+    (version "20230115.428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "5259a563e391dbf11521aaf68bde643a3d65c067")))
+                 "7743594d00c118b027f9f9136fe4178671da5b4e")))
         (sha256
           (base32
-            "1qsm3dyykq9ncp8z90dhv9zbp67crf5zakwqcg2hxpdbx2fdpmfn"))))
+            "1hr85bh1ilrzz54wdvfi2ksdjzhmbd4i436c5r6v3vfcqjrd25q0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -73960,7 +73960,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230112.1108")
+    (version "20230115.345")
     (source
       (origin
         (method url-fetch)
@@ -73970,7 +73970,7 @@
                ".tar"))
         (sha256
           (base32
-            "1dmy752p0xvg1acm6ni6p0h2yxzjzmlzfyzqyxxv02ibk27qf81c"))))
+            "0dhd6b5fnswm73hkqcqpn0xfbryhyj1v9b080qzfdjyyb83zlil5"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -81766,7 +81766,7 @@
 (define-public emacs-org-anki
   (package
     (name "emacs-org-anki")
-    (version "20230114.1654")
+    (version "20230114.2155")
     (source
       (origin
         (method git-fetch)
@@ -86631,17 +86631,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20230114.1331")
+    (version "20230115.429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "a786ea940b3d7befc3e8cc26c3550660b0e86811")))
+                 "16d67f0521b2478e36880868c73dc6628ab2d8b2")))
         (sha256
           (base32
-            "0b9p11qzvybl362cai50vzmyvswzmwbahiskkjcvaml3wih7vyga"))))
+            "0kc4jjgcwx2m5an5zvyz9a3fnh5cy8lv0f04wwfkyrl7g256xaf1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -96152,17 +96152,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20230114.619")
+    (version "20230115.448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "1268f095c38121654d42ea20f82b1d15d23347e9")))
+                 "958649f50f881d238d6d324e3cf90c5149e7de34")))
         (sha256
           (base32
-            "0rk5c09psjv34vqs6ajwnibr13s93wkpahdc239mrjiz14gvzz4h"))))
+            "0sa0nsn9y1gyicd001rcxg2ybg7a644550957a31p35rw818k618"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -112137,17 +112137,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20230114.1311")
+    (version "20230115.429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "eaaa2ca90d98af770d8246fae351b81bdf8a4adf")))
+                 "44e514142800d70c303356dd8c0a04b773dee20e")))
         (sha256
           (base32
-            "1g717v1ycldxb5b4jj3zya03nmm20n0hwng7kphnz1h2smswgyfc"))))
+            "0zrs9gwgm0gz9dz7664rmwgsyx9yyjx0xvb3s7xq3asn8yjx4mcy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/tempel")
@@ -123087,17 +123087,17 @@
 (define-public emacs-yaml-pro
   (package
     (name "emacs-yaml-pro")
-    (version "20221222.151")
+    (version "20230115.427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml-pro.git")
                (commit
-                 "391e67b6ebebd804fdc0497cba0ae31ffac0b891")))
+                 "5b8c236e1a45b4f6e2d32e10b69868634c8152bf")))
         (sha256
           (base32
-            "09p0ggry5gs81hx2nr1q7plsx16fh36mm0vrjv0d301qsksi048s"))))
+            "0644ibfymf6favv0bx2g542vp4al6276lsi236d7353v3f22f94d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yaml))
     (home-page "https://github.com/zkry/yaml-pro")
