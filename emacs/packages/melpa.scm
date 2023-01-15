@@ -6563,17 +6563,17 @@
 (define-public emacs-basic-mode
   (package
     (name "emacs-basic-mode")
-    (version "20230107.1513")
+    (version "20230114.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/basic-mode.git")
                (commit
-                 "61b7e31b4489668b21f3fc94b98295fd9eb94652")))
+                 "8b987cfa5b4ccf4822afa4eb2036f9f603fa5b1b")))
         (sha256
           (base32
-            "09n4zmalq2gx1s41crxczxdwrqrwnq3va4bwm0696qq1v9v6r3gw"))))
+            "1j5ymz97kdzzhbz0zldvl59qyr0bl7v7b822f5wbpgjghydmdw7g"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -16769,17 +16769,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230113.1310")
+    (version "20230114.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "5b2b7d39534314c53e95958c3d9daeee40329c28")))
+                 "19055a962346d3d2293ab1a1c134f3f73b1813cb")))
         (sha256
           (base32
-            "0c8v884d4c65zcadxy9954idiim39g2fhzk99ikph59yk6igyc49"))))
+            "07qkls3jgjvanj2pxlhz523nfsb6mhjfj2l0qi931l1fpkxrdgmq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -30699,17 +30699,17 @@
 (define-public emacs-eopengrok
   (package
     (name "emacs-eopengrok")
-    (version "20200205.624")
+    (version "20230114.1413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/youngker/eopengrok.el.git")
                (commit
-                 "6fa16c4ccaaebaef64dca0d3d29904c45fd6597d")))
+                 "83b1695774f8bdc322e528ade9dffe9b2e93f32a")))
         (sha256
           (base32
-            "1y6n5b9pk4c3badzhwm7qv1jw60p34z55ljwhaaqlnmv7nq1qnj3"))))
+            "16q6la89xmd084h520nf9f7306x28n60yfsngcb6pg6nz62qwvfk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-magit))
@@ -33065,17 +33065,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230112.1056")
+    (version "20230114.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "30e819dcf47294a758a47a362d2f61fc19aefcf0")))
+                 "29a5d464e973b66abae20e6c4b402a366547c7a5")))
         (sha256
           (base32
-            "1bjgg6bynb9ka3p8rjn1fpg0kspm1dyz5ksd4xzp8bv8d6r0dkn4"))))
+            "0sy9jxsvn6bhijg8jyxcvx7wm0d8681wf9nfdswb47sz20996rch"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -63744,17 +63744,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230114.1306")
+    (version "20230114.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "d96b8948ee4e721a2eeaa277a6e067f2e6988c0e")))
+                 "0261c09bdef5cb1f4788bce7e787b7c1a44a82cb")))
         (sha256
           (base32
-            "1hn2gp9r1j0whsfx1vf3lb1f0yj9iidfmri3mzkwsracmk4m305l"))))
+            "0lfvkmbqkxikzkydwwm4v7pyhps6kal7snx283c7zqwk6gf09b0s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -69862,17 +69862,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230107.2134")
+    (version "20230114.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "b908c79b44f5c282eec44f19fc1d9967f041dd5c")))
+                 "2286a6397485f815de70e8105eda90fd0caed4e7")))
         (sha256
           (base32
-            "1wybli5xrxkn8b7d7nm7h44avip9pjc24ig73hh15xg2wjm90zzc"))))
+            "1ginxcwrjf92klds6r65frkwcs277hyckx6ywr1iz7k5pc5fc11h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -71096,17 +71096,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230114.952")
+    (version "20230114.1758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "1afd567e506016eb29fdd941ac47f87025cf8c4e")))
+                 "5259a563e391dbf11521aaf68bde643a3d65c067")))
         (sha256
           (base32
-            "1b3qkih14wz7slax6jx3nfdfx3m1mqg3b301hhwwamamrf2yvn6n"))))
+            "1qsm3dyykq9ncp8z90dhv9zbp67crf5zakwqcg2hxpdbx2fdpmfn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -81766,17 +81766,17 @@
 (define-public emacs-org-anki
   (package
     (name "emacs-org-anki")
-    (version "20220817.655")
+    (version "20230114.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/eyeinsky/org-anki.git")
                (commit
-                 "4ed63cbebb35d7427d92652df209b0450655e5ac")))
+                 "f7bce24ad831380e0ced98513748cf54bec370b1")))
         (sha256
           (base32
-            "0zsrvkp4cp65yzqhhx5bzj6bskrjwzvgnsf9nxpf0m0wdcpqxvv6"))))
+            "01bgg8gfsggzkkv4bll4jzqmqq17mb68700qchdaq6zriqx6gjdz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-promise))
@@ -101440,17 +101440,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20230102.2031")
+    (version "20230114.1701")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "6395c773ac798eaac0cb2941d5c4057a5070b1d7")))
+                 "e2d5893db15373b52ffd1e9d69caf5a89a13d548")))
         (sha256
           (base32
-            "16igrw44dgmlxmd7dzdgbl9kqxik5cjrk7i0gm3p3x8gpy2ryb3a"))))
+            "1ha8f1hy2703lamg3jx6489pvvx33flmkn6cm7v88dzdvijgw4vl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
@@ -114028,7 +114028,7 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230114.1407")
+    (version "20230114.1538")
     (source
       (origin
         (method git-fetch)
@@ -115002,17 +115002,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20230114.437")
+    (version "20230114.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "ff643124f24d45d0fff3c9f66ba2bf3a7c6e900f")))
+                 "290190189c7a5afcbf23204e1a999fbc207ba8b9")))
         (sha256
           (base32
-            "0g3p13c8x7i7n7bi7mmwrxfq1am94h6msr31mvp0xlx2k08mns4m"))))
+            "1ipwr7qa39icjmb7fk2hyn96mkm8s1xd24nmfyrc80fwyxmix0cy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
