@@ -2603,17 +2603,17 @@
 (define-public emacs-all-the-icons-ivy-rich
   (package
     (name "emacs-all-the-icons-ivy-rich")
-    (version "20230109.1028")
+    (version "20230117.500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/all-the-icons-ivy-rich.git")
                (commit
-                 "8d45142334728d53274ee7f0a214aa84732ad5b2")))
+                 "709e0b5e136449aad1423878e9968b8b90a58b15")))
         (sha256
           (base32
-            "02iqacfk65b8x21ny82x3ilqd36071cfpg9vzbfpp8qnpjmvxxda"))))
+            "0nzpxbvgf8svswqygnvw3k0wwjk900107zziczz74bhcsads8mpf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-all-the-icons))
@@ -24065,7 +24065,7 @@
 (define-public emacs-doc-show-inline
   (package
     (name "emacs-doc-show-inline")
-    (version "20230116.951")
+    (version "20230116.2310")
     (source
       (origin
         (method url-fetch)
@@ -24075,7 +24075,7 @@
                ".el"))
         (sha256
           (base32
-            "0cr90nx8jzac3919d5lacz3vxayxxrzr727hbcr3rf4g0y70gj68"))))
+            "19zm0pwabirm1nhnwfxsymvlz0nxfpic83pkw35g945m849yyh3m"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-doc-show-inline")
@@ -26065,17 +26065,17 @@
 (define-public emacs-echo-bar
   (package
     (name "emacs-echo-bar")
-    (version "20221101.2254")
+    (version "20230117.306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qaiviq/echo-bar.el.git")
                (commit
-                 "d0a24635da51502bdda9f5451793966fffef92a8")))
+                 "171b68149c325ddec4e981c7da502da2744ab697")))
         (sha256
           (base32
-            "13j9hdlx2f5fvbghibkv43i7x7hih778fn8ybi8g4y1l350kr68m"))))
+            "1n6ym4r3f70ccjw1jhb4a3gw0pwlvdlfz40zf2k5lczjr4gi595m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qaiviq/echo-bar.el")
@@ -28470,7 +28470,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230116.1305")
+    (version "20230117.134")
     (source
       (origin
         (method url-fetch)
@@ -28480,7 +28480,7 @@
                ".tar"))
         (sha256
           (base32
-            "0yyp6mhyigf6pj35s5dsqx9hrqzr21g1kq5awbxwxi38snf2rrvy"))))
+            "0asbrv46qydzv4951yfpc7nxahkym6xiqbjjkyr576qjir5a7vj6"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -29121,17 +29121,17 @@
 (define-public emacs-elpa-mirror
   (package
     (name "emacs-elpa-mirror")
-    (version "20230116.942")
+    (version "20230117.24")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/elpa-mirror.git")
                (commit
-                 "f451c60149f3c2d4a5f6b7937120d5e23ef31db6")))
+                 "4ef6cc917025ae7690ab734751e54d879407c6dd")))
         (sha256
           (base32
-            "0qq8lngp43aqxxmdb2f2svv32w0ld4l4g7yyl4icmm8kfjv2qjg6"))))
+            "1i2i4virs22rz0j0w32s2q3bly7wy9863zgwh7va83pffcggs446"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/elpa-mirror")
@@ -34020,17 +34020,17 @@
 (define-public emacs-evil-numbers
   (package
     (name "emacs-evil-numbers")
-    (version "20230116.948")
+    (version "20230117.53")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/juliapath/evil-numbers.git")
                (commit
-                 "ee2c0279ea3eaa84cf92cdd0c9527de4a5113b04")))
+                 "8724645c84dc310f6155eec452913bb79c0c44b3")))
         (sha256
           (base32
-            "071hh9bangian3ndqdb0hw2qkmcmxfsbkba31zx2q1534lsip7ax"))))
+            "0dxw2d85zxnh7rgfq1vn9b71nrn48j5c7fwbzb02m74qddcjnjg0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -44541,17 +44541,17 @@
 (define-public emacs-gh-notify
   (package
     (name "emacs-gh-notify")
-    (version "20211126.638")
+    (version "20230117.317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/anticomputer/gh-notify.git")
                (commit
-                 "aa4d8bc0c56366d437e7c126e7eedc5938109342")))
+                 "e1afdd49deb8ddf1a988e8d3fa699b06dfa92f5f")))
         (sha256
           (base32
-            "1sva7322x9cmz1z45ipsgcp3cx8ih999w911q6x23ba50ckyg569"))))
+            "0vx77b54hyx1f6qq1n57x7sn2080fdb67678jiw3c152jai99kx3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-forge))
@@ -61993,7 +61993,7 @@
 (define-public emacs-jit-lock-stealth-progress
   (package
     (name "emacs-jit-lock-stealth-progress")
-    (version "20230116.2310")
+    (version "20230117.117")
     (source
       (origin
         (method url-fetch)
@@ -62003,7 +62003,7 @@
                ".el"))
         (sha256
           (base32
-            "0lm3blafynsd6pzg86pxfpza5xvnfhr3jfblyackjvrrkkmk3l3c"))))
+            "153p538id24mx8nscydcdzqhb0vkfgm5567xgjyxhx1vq170nvra"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-jit-lock-stealth-progress")
@@ -73985,7 +73985,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230115.515")
+    (version "20230117.531")
     (source
       (origin
         (method url-fetch)
@@ -73995,7 +73995,7 @@
                ".tar"))
         (sha256
           (base32
-            "0k45pd830psjdy0zx0rrfby90sa34n05141gmhnp3gn23jjy2559"))))
+            "07j2nz58z4pbwbq19isfgj4ky7sas0j7v7rczy2f5673pcv5sy7x"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -90052,17 +90052,17 @@
 (define-public emacs-pdf-tools
   (package
     (name "emacs-pdf-tools")
-    (version "20230116.1833")
+    (version "20230117.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vedang/pdf-tools.git")
                (commit
-                 "f42795274c4a34f9e90acec5a9410cee283dc35d")))
+                 "bc2ba117e8c3196ff9adf0da4fa1e63a8da3d7c8")))
         (sha256
           (base32
-            "0gfqf8c2m6x9f3ijx4cr5j8x2jkqfj47kf8kyfmlh28m6w1d425f"))))
+            "1v732z5zrvh4k21m6g35xalfx09ixnnvyk88418nrizc72lx1pvr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tablist))
     (arguments
@@ -96178,17 +96178,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20230116.1237")
+    (version "20230117.220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "0d17895ef2e1d091080dacc3a72ecbb3bd7580ff")))
+                 "0b5910156f724868c639666b126d9be6b04aa7f6")))
         (sha256
           (base32
-            "151fsj5aanbf7xh84avggbfjxbm2qc3m9mgyq3ysns4cpm5zv85m"))))
+            "0wgbjy4x6rnh8sy413372a7xxvnqzkqbvy2i0s12whya087birmv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -101673,17 +101673,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20221229.1543")
+    (version "20230117.334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "492372435444ebe358c6157bd42d7eb792d4c66d")))
+                 "87231e24cdb581998a149c9b2394f39b0822f102")))
         (sha256
           (base32
-            "07bixdk6a9hdis038mccr40dcbc7813s901s258qq107ick3qgqj"))))
+            "127a1727m7fvbr1zqn0cjzzi73dwwpc7h315akpiwiiyk8rqf67s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -108957,17 +108957,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20221211.252")
+    (version "20230117.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "84ae13c57d1b26337d760e10cf3b14fe8adaa81c")))
+                 "573a860d28c3995c52758d1b186d488b1bc14410")))
         (sha256
           (base32
-            "19jkmxzys7zg4lz6i3j18lv9h6rmq5zk4jrjby22qz8xlypzz1yz"))))
+            "1sqizf3h5msi7xi31bihjiklb53qr21hdjaawa6p4x5ng713fz7b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
