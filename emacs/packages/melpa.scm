@@ -3830,17 +3830,17 @@
 (define-public emacs-apropospriate-theme
   (package
     (name "emacs-apropospriate-theme")
-    (version "20221016.2248")
+    (version "20230117.2123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/apropospriate-theme.git")
                (commit
-                 "b7f0cfc44f53f61ff6494dfad84d685aac995ac6")))
+                 "1257880637e03efb885893afbcb88b7a8b20965a")))
         (sha256
           (base32
-            "0qj06f4wngqnw08idx74l1wk1rr0lndwx2xzpr6411qf3rblriy9"))))
+            "0z8gigwpz3ijqhqiclpaw8gmljbk01myay74c9afws2087s743fy"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/waymondo/apropospriate-theme")
@@ -8823,17 +8823,17 @@
 (define-public emacs-browse-at-remote
   (package
     (name "emacs-browse-at-remote")
-    (version "20230104.658")
+    (version "20230118.407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rmuslimov/browse-at-remote.git")
                (commit
-                 "d81643c975e77d506fe2eb931229739c162adb5d")))
+                 "c020975a891438e278ad1855213d4f3d62c9fccb")))
         (sha256
           (base32
-            "1qwdid6bb66g1zri38mxr89shi4bmck6811gfakxczs88zrbb3wg"))))
+            "0g78l8jkwxmnpiwjk3yjbd7528mywwh26i3zzgy9a3904fv37rcw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page
@@ -26065,17 +26065,17 @@
 (define-public emacs-echo-bar
   (package
     (name "emacs-echo-bar")
-    (version "20230117.306")
+    (version "20230117.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/qaiviq/echo-bar.el.git")
                (commit
-                 "171b68149c325ddec4e981c7da502da2744ab697")))
+                 "626d01a336f59acf58d56960627bb6dfd27be267")))
         (sha256
           (base32
-            "1n6ym4r3f70ccjw1jhb4a3gw0pwlvdlfz40zf2k5lczjr4gi595m"))))
+            "08mg7m081z4a750gmq3yn56kzrsl53hny9s17gifnpd4s0wiflcb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qaiviq/echo-bar.el")
@@ -62753,17 +62753,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20230104.931")
+    (version "20230117.2212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "6670e80dab2b126038b670a0d4e5c8ad8f76202b")))
+                 "d0583a890a8e43845935c31de9f069192011451e")))
         (sha256
           (base32
-            "1l8jck87nsz7j85r3p3n6431sv1b4ans4n1r4i2x86x04ha866v1"))))
+            "1ccp7fm9cdq51p00b70plyxwfqp0j4241airxa0hd868m4vi08pz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -96180,17 +96180,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20230117.220")
+    (version "20230118.439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "0b5910156f724868c639666b126d9be6b04aa7f6")))
+                 "ad22e23d3b7856291821293f685a29af4a53e07c")))
         (sha256
           (base32
-            "0wgbjy4x6rnh8sy413372a7xxvnqzkqbvy2i0s12whya087birmv"))))
+            "1pg3qi3kjx47pd2g6g7bvz3b51bkrrcd5c0alc7ah9hab6cdxyfy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -99499,17 +99499,17 @@
 (define-public emacs-repeat-help
   (package
     (name "emacs-repeat-help")
-    (version "20220718.1742")
+    (version "20230118.24")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/repeat-help.git")
                (commit
-                 "bdc21d9a8846b4adf63dd9317860666da5ade478")))
+                 "41dea6fba2edd6ac748d0ca7a6da4058290feede")))
         (sha256
           (base32
-            "1bvgq9amnawyv3k1vbalvlfw2r2z1yqilwllcsanlrdcz95awcv2"))))
+            "1lnwb2z8y9cjah545n27j62a5pdksid0rah2bzws9xi8c7dgavkm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/karthink/repeat-help")
@@ -101675,17 +101675,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20230117.334")
+    (version "20230118.458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "87231e24cdb581998a149c9b2394f39b0822f102")))
+                 "464496f8484db16336f33d966cdc6926bee6daf6")))
         (sha256
           (base32
-            "127a1727m7fvbr1zqn0cjzzi73dwwpc7h315akpiwiiyk8rqf67s"))))
+            "1f6m9s1cinz5jkgnrvdn55f0rqfnjxdmw2ahn558yak1jiqrl6gm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
