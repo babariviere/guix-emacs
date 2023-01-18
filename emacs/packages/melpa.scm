@@ -6556,17 +6556,17 @@
 (define-public emacs-basic-ide
   (package
     (name "emacs-basic-ide")
-    (version "20200429.1104")
+    (version "20230118.1040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sasanidas/emacs-c64-basic-ide.git")
                (commit
-                 "1d026b6ae70db9cde36596dcf46b101058a2e004")))
+                 "e33036f838e61b647927165e81be5d5b855e0518")))
         (sha256
           (base32
-            "0mb85g7bydd0nv3hjzvqb3d01cs4hg5846ibcznaqhsqk93pgm2h"))))
+            "1mfdkxwsj2mmpsxz0q68z7rs56qpd3dkvl2dkx1dp8n42zvifcxw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-basic-mode
@@ -10210,17 +10210,17 @@
 (define-public emacs-calibredb
   (package
     (name "emacs-calibredb")
-    (version "20230116.938")
+    (version "20230118.954")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chenyanming/calibredb.el.git")
                (commit
-                 "105ba9afd91c92b285587a74eb9a26b29c610752")))
+                 "0ea8ccc41bbf4c6d105d9d2eddffa25d040f0e8d")))
         (sha256
           (base32
-            "13wpzsb5833c4wf1690mavk22wp6x9nspp42kfkk50lq5qgyb6fk"))))
+            "1dha52nv0gscy4bp1z5z40l15nzqbpl0frgjx08i7mbzf55a3nlv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -21389,17 +21389,17 @@
 (define-public emacs-desktop-environment
   (package
     (name "emacs-desktop-environment")
-    (version "20220425.1834")
+    (version "20230118.820")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/desktop-environment.git")
                (commit
-                 "2863dc3d66aed9052c8af39cc8c8c264be300560")))
+                 "3b1fe3816ffaef16d210939dc74bd19e0024ff64")))
         (sha256
           (base32
-            "1cn17igd9dwbqrds7k3p8lkfg4gq5vh6rqkmmjyagnaklj793van"))))
+            "06zkgm638gy3cpp5b40cjvws09lkyqdsqxjpj2yscdrmw45r623h"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.petton.fr/DamienCassou/desktop-environment")
@@ -24790,17 +24790,17 @@
 (define-public emacs-dracula-theme
   (package
     (name "emacs-dracula-theme")
-    (version "20220821.1717")
+    (version "20230118.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dracula/emacs.git")
                (commit
-                 "fdf057f5e80037814098dc8bb67888886c89a761")))
+                 "be1dd97ef3968bef25b9de89e7dc1251f5aaee10")))
         (sha256
           (base32
-            "1v9p120aaa71x30xixxwglvgfwp7pf5y4503zd6rlj98rmidj96w"))))
+            "0y8qr8rcsqmlr48z3qn50im1vr6qnpqxa6yxdc349gq552mja2l0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dracula/emacs")
     (synopsis "Dracula Theme")
@@ -28470,7 +28470,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230117.134")
+    (version "20230118.1204")
     (source
       (origin
         (method url-fetch)
@@ -28480,7 +28480,7 @@
                ".tar"))
         (sha256
           (base32
-            "0asbrv46qydzv4951yfpc7nxahkym6xiqbjjkyr576qjir5a7vj6"))))
+            "1j29fsf315nxp1yrla2d5ay5a21dq4ija4hl7rcqzhlsv63nr81p"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -57823,17 +57823,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20230117.1109")
+    (version "20230118.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "e39bb892f8d0ccb9b2e8cbec50817f52eff13043")))
+                 "7a7a4680004bed6ba87b8e56fafd55b408aac8d1")))
         (sha256
           (base32
-            "1p4jpgq7qlylclmsjv23g8lq5mvsh4yh0i600nxganwps41za2n3"))))
+            "1h7879dzghg4l3mw93aihzl1avhgdyfmcfi0pw8rbjk64rqjl0h0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -96180,17 +96180,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20230118.439")
+    (version "20230118.849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "ad22e23d3b7856291821293f685a29af4a53e07c")))
+                 "7a1fe3381ba301755ac6ed989954de47a6a1eb7f")))
         (sha256
           (base32
-            "1pg3qi3kjx47pd2g6g7bvz3b51bkrrcd5c0alc7ah9hab6cdxyfy"))))
+            "0p5f7k16nk8a65zw6afpz19b2dsinbhk4bc3d05df12608aqh809"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -106676,17 +106676,17 @@
 (define-public emacs-smartparens
   (package
     (name "emacs-smartparens")
-    (version "20221127.1250")
+    (version "20230118.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/smartparens.git")
                (commit
-                 "0a23136dd6b1f326419c5828f4197ecfd820b204")))
+                 "1cb21a99462ddd8e6501ba8e832b7f77b80fb6a7")))
         (sha256
           (base32
-            "0l8q352mklagvjgipf1dfycnmxr5s6ichqczfkz51kr0dwsgh8fw"))))
+            "06qgmacxa9yfnnqwjyg68yksql2d2mhgn2mk1gksn0srl446fj1x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
