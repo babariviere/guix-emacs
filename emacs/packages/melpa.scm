@@ -12930,17 +12930,17 @@
 (define-public emacs-clippy
   (package
     (name "emacs-clippy")
-    (version "20161028.1954")
+    (version "20230118.1924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/clippy.el.git")
                (commit
-                 "e77f6b63e54d74e243be98accad474e38f7e2a86")))
+                 "85aec3129ff17f71ea4541cfadbb7b56b31a7474")))
         (sha256
           (base32
-            "052xqscb63kjj6z9m0kk5jlfsy84g848lnpcn5yhz3km2r6nigqm"))))
+            "0zx45rlsj184v4gshnzpqzdmyl9g541z70jhhw0rj8im62pnnrbi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pos-tip))
     (home-page "https://github.com/Fuco1/clippy.el")
@@ -14116,17 +14116,17 @@
 (define-public emacs-color-identifiers-mode
   (package
     (name "emacs-color-identifiers-mode")
-    (version "20230115.615")
+    (version "20230118.1527")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ankurdave/color-identifiers-mode.git")
                (commit
-                 "fec29e3fe147c739c90f5149cd7a93389f8e798e")))
+                 "2410db5f82d91546c0c1897d39fe20ac58961cb9")))
         (sha256
           (base32
-            "1a1by9xrwxapb5ixixq3l6v6sgac16bw7g0hwpr9sp72pl4ym3n0"))))
+            "15avzqlxhrf6r1la3ilxilgwfn4iy1say0c038rx2zbki68dqf4j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -22807,20 +22807,19 @@
 (define-public emacs-dired-ranger
   (package
     (name "emacs-dired-ranger")
-    (version "20221127.1247")
+    (version "20230118.1948")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
+                 "1382acb219c5e3b179662bcacd9c57463802718a")))
         (sha256
           (base32
-            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
+            "0zpb8hj9qmsh09kkqx90fan2qqsnqzk9wdy6ryl76pycjghb0bn2"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-dash emacs-dired-hacks-utils))
+    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("dired-ranger.el")))
     (home-page "unspecified")
     (synopsis
@@ -22994,17 +22993,17 @@
 (define-public emacs-dired-subtree
   (package
     (name "emacs-dired-subtree")
-    (version "20221127.1247")
+    (version "20230118.1953")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/dired-hacks.git")
                (commit
-                 "41d3eb42195d9f0894c20d18cc8e722b099aa1c1")))
+                 "1382acb219c5e3b179662bcacd9c57463802718a")))
         (sha256
           (base32
-            "0r08nxx5gw0sz9xhby77nw6rxd19wzvi9zkjkqwgixpxhbz6akvv"))))
+            "0zpb8hj9qmsh09kkqx90fan2qqsnqzk9wdy6ryl76pycjghb0bn2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-dired-hacks-utils))
@@ -29584,17 +29583,17 @@
 (define-public emacs-emacsql
   (package
     (name "emacs-emacsql")
-    (version "20221127.2146")
+    (version "20230118.2020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/emacsql.git")
                (commit
-                 "6b2e65bdf785364cf7c34c31fea5812e1e58c657")))
+                 "2e6056df110e76da4eabb413f8781c4f1edddf20")))
         (sha256
           (base32
-            "0b8iiyrgqp8lhy5y62mbwh57a0jhif1vfs3n8vw7dyl6zg0k4km8"))))
+            "1a0qh0hjfdarjlrk2n8cjl17501rypkacxifc54hnxn4wbiv334p"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29679,17 +29678,17 @@
 (define-public emacs-emacsql-sqlite
   (package
     (name "emacs-emacsql-sqlite")
-    (version "20230117.1648")
+    (version "20230118.2015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/emacsql.git")
                (commit
-                 "3cec7dcb201568a09ee9cebf0ea1e43cba9d334a")))
+                 "2e6056df110e76da4eabb413f8781c4f1edddf20")))
         (sha256
           (base32
-            "15v0xm9gdm2vd92344xnnqircfrzbwsz5m7zn6qa7qx4lmmki38h"))))
+            "1a0qh0hjfdarjlrk2n8cjl17501rypkacxifc54hnxn4wbiv334p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-emacsql))
     (arguments
@@ -36486,7 +36485,7 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20230114.516")
+    (version "20230118.1643")
     (source
       (origin
         (method url-fetch)
@@ -36496,7 +36495,7 @@
                ".tar"))
         (sha256
           (base32
-            "0wsg3x43hzdnm0ifszvdgb8nasphzvq16rdg1yhvb9xyyj2wp1z4"))))
+            "1j3v9yx4ynmr1wzczx9pcslw7q701agch6k5q3sml5fjc2dyh1ck"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -106676,17 +106675,17 @@
 (define-public emacs-smartparens
   (package
     (name "emacs-smartparens")
-    (version "20230118.1307")
+    (version "20230118.2010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/smartparens.git")
                (commit
-                 "1cb21a99462ddd8e6501ba8e832b7f77b80fb6a7")))
+                 "7afd647395018a26633673ed92ce7a9cb3ccb8f2")))
         (sha256
           (base32
-            "06qgmacxa9yfnnqwjyg68yksql2d2mhgn2mk1gksn0srl446fj1x"))))
+            "0ihvz1w2ggjplk604cdd5alxcq2iy3nm95m7wb6vncrbyb6v0ad2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -121399,17 +121398,17 @@
 (define-public emacs-with-editor
   (package
     (name "emacs-with-editor")
-    (version "20230108.1307")
+    (version "20230118.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "84ba06ed513e97223630905f4788370e18116f40")))
+                 "391e76a256aeec6b9e4cbd733088f30c677d965b")))
         (sha256
           (base32
-            "068bqnl8vrv8nq1nvlpj48zhbfn8hcwi1hq46x61jv40zfsfiapb"))))
+            "1ah3i3z6zbd9c2zvj0gc1klmzjgmsxfmy68643hkwpcmndisf1lr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
