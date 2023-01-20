@@ -9643,17 +9643,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20221227.1857")
+    (version "20230119.2337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "21ded874f7af380b593776eac06a87cf7f7ae439")))
+                 "07a52c99695845a0089e828d43da154c0ba0c178")))
         (sha256
           (base32
-            "0ijj2k46q2w4s9n7a2k9c24194mck07yasyf2ahrggj4p8gbcbkd"))))
+            "0xq92f5han0830h2fpqh49qxp2x7rqmq7743d2nfw49rhrns542i"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -31535,17 +31535,17 @@
 (define-public emacs-erk
   (package
     (name "emacs-erk")
-    (version "20221225.2242")
+    (version "20230120.622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/positron-solutions/elisp-repo-kit.git")
                (commit
-                 "c55312b6f43c1107755ac8790bba69f8faadaf33")))
+                 "6ca1aabc6c60c8722bc5dca4aedbc033b1d9fff5")))
         (sha256
           (base32
-            "1dvvjd5c0dx18ffhcp5r5wfx455zks08w03jmcx38yrp02sqv1zl"))))
+            "1rmynn992wd1138zy9dd5m4qi69hz1k7k27lgv19nawjyrf4ny2l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-auto-compile emacs-dash))
@@ -31584,17 +31584,17 @@
 (define-public emacs-erlstack-mode
   (package
     (name "emacs-erlstack-mode")
-    (version "20220617.2049")
+    (version "20230120.138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/k32/erlstack-mode.git")
                (commit
-                 "a4a30f74e48894ccfdefc073a9e1b005ee632017")))
+                 "15ff3797d817361da3c2e65ba7014cceed50c7a3")))
         (sha256
           (base32
-            "132w9xbdc6r7sa03wpyd0vpn0z12pgawv4r21ihpgqpqmk4srrj3"))))
+            "0pgnmkrn83c2dxffgng9w7gm6nfaallf04jqm58bq5rrncmgd1mp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -63766,17 +63766,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230117.1228")
+    (version "20230119.2340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "561345416e21c76fac282c19aa3bab547e8a6ab2")))
+                 "11fbe8b210b490afe45810b601a941a8f6a3de1b")))
         (sha256
           (base32
-            "14pfwhyy7ms1nhkynh4ganbnbq1ir3iqgf5q1r072hqpn5lyngzm"))))
+            "1kcnvqjg1dvsjiiwdfi1vgcj9zw251xzaz56h1vyd42lrh7wwdwk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -64310,17 +64310,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230119.611")
+    (version "20230119.2321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/debanjum/khoj.git")
                (commit
-                 "b58dd82141d6ae2d452cde6aeb6d66e4bc1d9754")))
+                 "7516435a0ba5229968582869dd5da59b4900413c")))
         (sha256
           (base32
-            "16iz7lhdcfldvyza981phs328pgbba5i85i6bmc7j3j5k6x87qiy"))))
+            "0zwqy721p21jwkip5dwg4wsrypb55fmcryxvqf4416rjlc1mn56l"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/interface/emacs/*.el")))
@@ -84985,17 +84985,17 @@
 (define-public emacs-org-runbook
   (package
     (name "emacs-org-runbook")
-    (version "20220512.1934")
+    (version "20230120.140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tyler-dodge/org-runbook.git")
                (commit
-                 "ec8b933c1269804546c356fe379169d1f0fce9ea")))
+                 "be8218d66493c122a60049ff5e6bd41abfaabbd8")))
         (sha256
           (base32
-            "09lg1ycfb3qkzqnhk088ija62kvv0z5jgg4apcbr2y4plb0bgc6h"))))
+            "0m0myd3akf61lng518s6i9mgy01g2xrw0lmmina40l2fc8nwzwd6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tyler-dodge/org-runbook")
@@ -95593,17 +95593,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20221203.1548")
+    (version "20230120.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "a559c4fc1b2504c46406f88179a72f153dd216cd")))
+                 "7838df19b940bf8a4ff5a2b6dfb38895c06b062e")))
         (sha256
           (base32
-            "1ya4346s2ams6ijnyahsaf247vq9f97w2hs7762gmc7fs4kap1xf"))))
+            "06iadyr8m13pm8cbd3ramsag7hkpcn3dsl104900y1qjybdxh05x"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -101673,17 +101673,17 @@
 (define-public emacs-rustic
   (package
     (name "emacs-rustic")
-    (version "20230118.458")
+    (version "20230120.652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brotzeit/rustic.git")
                (commit
-                 "464496f8484db16336f33d966cdc6926bee6daf6")))
+                 "7035fe33838334dbbd27b7b724177032200bc577")))
         (sha256
           (base32
-            "1f6m9s1cinz5jkgnrvdn55f0rqfnjxdmw2ahn558yak1jiqrl6gm"))))
+            "0l5pzxa6cca0jv854xvhh6dx562023h1x2q9cxl4ixbkzjyz6796"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-rust-mode
@@ -114054,17 +114054,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230116.1001")
+    (version "20230120.515")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "b31743c9f7f3c1589be646c3972cc163b072c007")))
+                 "36c35e4dbd6a5e9f4b3cc5c2bddf22cfac715099")))
         (sha256
           (base32
-            "1m6q3fcr8v21m5zx5z1gm01ixvd9kd13brv9spni94b3hspa2dxw"))))
+            "0df2kwyv1c57kyjcqdybbz4vzlq94fj01r98gvajjlqcc3chwq9f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -115028,17 +115028,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20230114.1524")
+    (version "20230116.538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "290190189c7a5afcbf23204e1a999fbc207ba8b9")))
+                 "979b62431fbbef2062db7e6b76a739affaa523a5")))
         (sha256
           (base32
-            "1ipwr7qa39icjmb7fk2hyn96mkm8s1xd24nmfyrc80fwyxmix0cy"))))
+            "1hg91d92d5543azbvbfvswi5bj00zvknrlywmp1vrrgkc9n8mccq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
