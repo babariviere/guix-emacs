@@ -56301,17 +56301,17 @@
 (define-public emacs-html-to-hiccup
   (package
     (name "emacs-html-to-hiccup")
-    (version "20221130.1551")
+    (version "20230120.1416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plexus/html-to-hiccup.git")
                (commit
-                 "0ba3e7c0d5d7f4c289589e56c5a31ca2a253b59f")))
+                 "12f12fe3165eebbcf17e6209693c8e7251ffa04c")))
         (sha256
           (base32
-            "14k3bcdm0qk9wbsmq1nm4y9i7csgr7j37aga60ik3bkjnm6sl9j5"))))
+            "0k25rd75j37dl19h1w03i1sbjdhwczpw5bb9ynarr6xxfk73iaaj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -63766,17 +63766,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230119.2340")
+    (version "20230120.1426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "11fbe8b210b490afe45810b601a941a8f6a3de1b")))
+                 "7f48242feb21467fc6655794c2a49ccb1abbd10f")))
         (sha256
           (base32
-            "1kcnvqjg1dvsjiiwdfi1vgcj9zw251xzaz56h1vyd42lrh7wwdwk"))))
+            "0b75bgi7i9gjap400s673hybgpack6p1sbbv61dhsi6zf42qpp3s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -63784,7 +63784,7 @@
             emacs-f
             emacs-ht
             emacs-plz
-            emacs-request
+            emacs-s
             emacs-yaml))
     (home-page
       "https://github.com/jinnovation/kele.el")
@@ -73984,7 +73984,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230117.531")
+    (version "20230120.926")
     (source
       (origin
         (method url-fetch)
@@ -73994,7 +73994,7 @@
                ".tar"))
         (sha256
           (base32
-            "07j2nz58z4pbwbq19isfgj4ky7sas0j7v7rczy2f5673pcv5sy7x"))))
+            "17vxgjd0ky9ak1srjbyzw76iqw6s8n0g7ydmczd8yg01vkd3jlc5"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -75927,17 +75927,17 @@
 (define-public emacs-my-repo-pins
   (package
     (name "emacs-my-repo-pins")
-    (version "20230115.1103")
+    (version "20230120.1105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NinjaTrappeur/my-repo-pins.git")
                (commit
-                 "fe7c50f5a1d8b3c7c796868a4fa82bffc00ff9ed")))
+                 "e6fe3864e244e6db74b668d24857c04472b2d475")))
         (sha256
           (base32
-            "0ml55yxnaz4f8lq2h215a8b0mhs8nc09qllqd4rm51qm8w1vq5a4"))))
+            "1r9mw4jbpi4i7lvd0gg5li0ia16s9pcfxl71c8l9qvqp73hvr51b"))))
     (build-system melpa-build-system)
     (home-page
       "https://alternativebit.fr/projects/my-repo-pins/")
@@ -76864,17 +76864,17 @@
 (define-public emacs-neil
   (package
     (name "emacs-neil")
-    (version "20221019.1718")
+    (version "20230120.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/babashka/neil.git")
                (commit
-                 "54c023d5a8a2096a9e8daac675166ffce09da7d4")))
+                 "a28b7b4fbb167445a8fd0cf02f5f017d30a024ad")))
         (sha256
           (base32
-            "0kqrlyyv65xcm0as6l0hbiddajzb7l5ipszcs5b48y5vi3ki807z"))))
+            "0jh153rp7f4gdilhynwrkyxxq1m13gabkl7p44xlj2l6nizygvzr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/babashka/neil")
     (synopsis "companion for Babashka Neil")
@@ -93198,17 +93198,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20230107.2344")
+    (version "20230120.751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "50568b8af2ee4c43d4a5b55241fac7ef11e2f9db")))
+                 "da70c8296a3b3b69626b11f2d202a38075f00c7b")))
         (sha256
           (base32
-            "1xb6b870fnfm2cnnzplvqbnqqzh5l3m98bn8dq1l09x1nhngp19f"))))
+            "02lls6fh0fyxq3hwnwb5kih26q29fgl9g4isq1qk6j7bvv53gb04"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -114626,17 +114626,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20230107.1528")
+    (version "20230120.1500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "239be53b01e003c5206087d850d9672a42dc4b32")))
+                 "d800ce01e62c896f4aef8ad14a03f49f781c5b38")))
         (sha256
           (base32
-            "00n8dbam2cr88wjsbrcclbmdpjm204bcfkak8zkqj64a030y5dpi"))))
+            "03avd5zlnnvgdxvx1lz6b7hsixdspl0bdw4628mxzgy4qlvi013a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -119737,17 +119737,17 @@
 (define-public emacs-wanderlust
   (package
     (name "emacs-wanderlust")
-    (version "20221117.1230")
+    (version "20230120.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/wanderlust.git")
                (commit
-                 "f5cb2f0cf5e2c893acf2e669fd549836828dfdfc")))
+                 "77662986fd91cff991f502b19262227227740d52")))
         (sha256
           (base32
-            "1ijs57wv1vrh33vn311hgkp42vlmjyi998nc4qdrqi7yy9j8hl1h"))))
+            "19iwyzvlidkxldyalppscfhpxj5cqgcn15gp8105xh9bwpwshfkz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-flim emacs-semi))
