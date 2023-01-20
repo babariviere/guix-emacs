@@ -10446,17 +10446,17 @@
 (define-public emacs-cardano-tx
   (package
     (name "emacs-cardano-tx")
-    (version "20221210.1155")
+    (version "20230105.11")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "21006c5445041797428db492545d288104dd9d69")))
+                 "b1540ba481a373bc5a73474a1603289a0b615e52")))
         (sha256
           (base32
-            "1yx3xmwqpydqcnc32i2d6mrblfhvprzvqrmsj9szy3g8wqgalb4z"))))
+            "1rsw5ll7aspxsxkgiijliaklv1dnrz416scwgb0p38nccw2kfdin"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -10468,7 +10468,7 @@
             emacs-bech32
             emacs-readable-numbers
             emacs-emacsql
-            emacs-emacsql-sqlite3))
+            emacs-emacsql-sqlite))
     (arguments
       '(#:files
         (:defaults
@@ -10489,17 +10489,17 @@
 (define-public emacs-cardano-wallet
   (package
     (name "emacs-cardano-wallet")
-    (version "20221210.1131")
+    (version "20230105.11")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "21006c5445041797428db492545d288104dd9d69")))
+                 "b1540ba481a373bc5a73474a1603289a0b615e52")))
         (sha256
           (base32
-            "1yx3xmwqpydqcnc32i2d6mrblfhvprzvqrmsj9szy3g8wqgalb4z"))))
+            "1rsw5ll7aspxsxkgiijliaklv1dnrz416scwgb0p38nccw2kfdin"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yaml
@@ -10795,19 +10795,18 @@
 (define-public emacs-cbor
   (package
     (name "emacs-cbor")
-    (version "20221210.1131")
+    (version "20221225.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "21006c5445041797428db492545d288104dd9d69")))
+                 "b1540ba481a373bc5a73474a1603289a0b615e52")))
         (sha256
           (base32
-            "1yx3xmwqpydqcnc32i2d6mrblfhvprzvqrmsj9szy3g8wqgalb4z"))))
+            "1rsw5ll7aspxsxkgiijliaklv1dnrz416scwgb0p38nccw2kfdin"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-dash))
     (arguments '(#:files ("cbor.el")))
     (home-page
       "https://github.com/Titan-C/cardano.el")
@@ -13625,17 +13624,17 @@
 (define-public emacs-cmake-mode
   (package
     (name "emacs-cmake-mode")
-    (version "20221130.1357")
+    (version "20230119.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.kitware.com/cmake/cmake.git")
                (commit
-                 "02599da236fd22db0dcfb6503194e5bad086aea9")))
+                 "5031934fb05181eb925b81f6747feaa8ffa27787")))
         (sha256
           (base32
-            "0lwhjnghd1g55mwyqiz2ms98mzk1lczdxsh7zpgr53lrxpdxsv2c"))))
+            "0k3888pq545m8s6hg6z9nfhg21iyxr5skv7fm81k32yk7pzk3h0g"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("Auxiliary/*.el")))
     (home-page "unspecified")
@@ -28469,7 +28468,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230119.854")
+    (version "20230119.2242")
     (source
       (origin
         (method url-fetch)
@@ -28479,7 +28478,7 @@
                ".tar"))
         (sha256
           (base32
-            "0k5n5sdhlnh503z8xhy7pk2g8vya92f407c6m0cp8barykk4smvy"))))
+            "18vspnvwj0kfawj302c7g3c0wsssdv1q7qam0y3hv6bx75cn5smf"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -39733,17 +39732,17 @@
 (define-public emacs-flycheck-pkg-config
   (package
     (name "emacs-flycheck-pkg-config")
-    (version "20200409.501")
+    (version "20230119.1721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/flycheck-pkg-config.git")
                (commit
-                 "b76b24ea1f4800f5fb96ce9c6c4788e0e63133d3")))
+                 "c4e4028f6621187365b7362566ac2786206765a1")))
         (sha256
           (base32
-            "01wzzrpfgh3z28qsynxvkfm92xy98vyvkkv31qh53kxxdicnzlh0"))))
+            "1i0pk4nzw5jl3d67k71h6iwiw5xmqa6qns3q2x0mwdk5kylb91n9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-flycheck))
@@ -62912,17 +62911,17 @@
 (define-public emacs-julia-mode
   (package
     (name "emacs-julia-mode")
-    (version "20220418.809")
+    (version "20230119.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/JuliaEditorSupport/julia-emacs.git")
                (commit
-                 "adf4029be778c5983c436873b8a78bc72a6b09f8")))
+                 "7aafa8e77df64a47fa4729a0c1ea572b5bc8e30e")))
         (sha256
           (base32
-            "0z6vx541vskgzb1dmlcijbch4z84lrz5fm2ay0n15sypvxfp2yks"))))
+            "1agk2jf76ardqxm28nw341jb92sl6ylkr8yfibsp5vaid9dlq6bp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/JuliaEditorSupport/julia-emacs")
@@ -77504,17 +77503,17 @@
 (define-public emacs-nix-mode
   (package
     (name "emacs-nix-mode")
-    (version "20230117.2044")
+    (version "20230119.1649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NixOS/nix-mode.git")
                (commit
-                 "9796493a291325697f9a481755b51e2fed0c5fd9")))
+                 "9fc77498563771a23207b14714140c77b36d51df")))
         (sha256
           (base32
-            "1w3n6yr6xajwjsfnp58drharsi4hrdr22i2a3vwxz3cj89wm1j72"))))
+            "1d3yhihghl9f1i8nbqn8mm09vrb2ixkcl53jl70sgg3w8k5ry4gh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-reformatter))
@@ -84793,17 +84792,17 @@
 (define-public emacs-org-review
   (package
     (name "emacs-org-review")
-    (version "20220411.1205")
+    (version "20230119.1706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brabalan/org-review.git")
                (commit
-                 "466f7d8f183f226f1e665cf806cb094471903d9c")))
+                 "77211e40db8a9558b866f5660c7127922b459e6c")))
         (sha256
           (base32
-            "122l2n1qz5qps3jphimp1dd743ckbqcvnjdwc5zcdzp9x70yy3nh"))))
+            "1izm9aj8cqni8sjsxmlk5bbl4nn90476pa339jfxh812v5will1y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/brabalan/org-review")
@@ -86960,17 +86959,17 @@
 (define-public emacs-ouroboros
   (package
     (name "emacs-ouroboros")
-    (version "20221210.1155")
+    (version "20221229.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Titan-C/cardano.el.git")
                (commit
-                 "21006c5445041797428db492545d288104dd9d69")))
+                 "b1540ba481a373bc5a73474a1603289a0b615e52")))
         (sha256
           (base32
-            "1yx3xmwqpydqcnc32i2d6mrblfhvprzvqrmsj9szy3g8wqgalb4z"))))
+            "1rsw5ll7aspxsxkgiijliaklv1dnrz416scwgb0p38nccw2kfdin"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-cbor emacs-bech32))
@@ -110969,17 +110968,17 @@
 (define-public emacs-symex
   (package
     (name "emacs-symex")
-    (version "20230119.526")
+    (version "20230119.1943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/drym-org/symex.el.git")
                (commit
-                 "e8a7caca8c47c055b5f09f27e87d0d5f4154b602")))
+                 "475d5b6a8b2b1cbf28a9528826b860e143e1550c")))
         (sha256
           (base32
-            "1pz8riiwwispl4x4nb0jx03xscwz6p50174zyqf7gnb3fpsa70wn"))))
+            "086mrjhk6kkrcrqzhx970rnmnxhd9qfaldm2rvv58vkg4fp0spjf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tsc
@@ -116174,17 +116173,17 @@
 (define-public emacs-ucs-utils
   (package
     (name "emacs-ucs-utils")
-    (version "20150826.1414")
+    (version "20230119.2237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rolandwalker/ucs-utils.git")
                (commit
-                 "cbfd42f822bf5717934fa2d92060e6e24a813433")))
+                 "91b9e0207fff5883383fd39c45ad5522e9b90e65")))
         (sha256
           (base32
-            "0qw9vwl1p0pjw1xmshxar1a8kn6gmin5rdvvnnly8b5z9hpkjf3m"))))
+            "18yqzy8w4icp60z25ckbrx6wradm3m26vic35kmzr88msc0qdsva"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-persistent-soft
