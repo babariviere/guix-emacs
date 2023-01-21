@@ -3674,17 +3674,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20221224.1704")
+    (version "20230121.334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "5ebd6bf5819fbf2adfa18162f270825e6ca4379c")))
+                 "93d2b30dd08c43edde6bdbbd36f42da751bc0975")))
         (sha256
           (base32
-            "1shm5q1awpzf78mymf045qghy4z6hhdhklrs96rr4x27hypb7b79"))))
+            "1jz25x9d6h2zgs6baw0h2yj1wl0alacy7clnanj215v7mn5hcqs5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -29007,17 +29007,17 @@
 (define-public emacs-elogcat
   (package
     (name "emacs-elogcat")
-    (version "20151121.41")
+    (version "20230121.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/youngker/elogcat.el.git")
                (commit
-                 "4f311b7a07565b0d060334bc68edb36f2bff703f")))
+                 "f2f19d7ab6b77b8fec55cb67524df629fe967891")))
         (sha256
           (base32
-            "1jcr8bxffvnfs0ym6zkgs79hd6a0m81r4x4jr3v5l9zwxw04sy15"))))
+            "0fwl14xqnxq5d4a9wk0p1xvfkmff5inwmz2v1s8n7w1sy29zslrn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "unspecified")
@@ -41110,17 +41110,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20221231.1658")
+    (version "20230121.314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "d995f90aac2d10baa617f4de5c6e40bc37e63f76")))
+                 "718b71ad1beabd7318df7b325f7316a24a821ef9")))
         (sha256
           (base32
-            "1ysy0w9j2cl1apms5faq2h482razi643zamlmq2awgqq6iynqha4"))))
+            "1rcb5zfi6lba0glq2al99jz6ll68m0wwfc8qcazrr1vvrsx3a1jc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -63766,17 +63766,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230120.1426")
+    (version "20230121.414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "7f48242feb21467fc6655794c2a49ccb1abbd10f")))
+                 "3191f160448e415827d06235d47d1280206b9516")))
         (sha256
           (base32
-            "0b75bgi7i9gjap400s673hybgpack6p1sbbv61dhsi6zf42qpp3s"))))
+            "1r58mw7a937hwa6iz3rwnrnfc2sns8xfaxxq5nmi47xb955mhd1z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -64310,17 +64310,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230119.2321")
+    (version "20230121.144")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/debanjum/khoj.git")
                (commit
-                 "7516435a0ba5229968582869dd5da59b4900413c")))
+                 "655ef116535f7e54728945f3f7c3caf31e1f2b10")))
         (sha256
           (base32
-            "0zwqy721p21jwkip5dwg4wsrypb55fmcryxvqf4416rjlc1mn56l"))))
+            "06v8prwkdfd56ihbwkxbvkcxgwvv65ing9c8f0rlb4d2srvxbj3d"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/interface/emacs/*.el")))
@@ -69384,17 +69384,17 @@
 (define-public emacs-lurk-mode
   (package
     (name "emacs-lurk-mode")
-    (version "20221122.2058")
+    (version "20230120.2226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lurk-lang/lurk-emacs.git")
                (commit
-                 "bd7cf661ccb31bfbfab542018c361bd79064d4f4")))
+                 "59a3f956944a5ddd43cfd57deeff6b647fc46554")))
         (sha256
           (base32
-            "0nrh517q7czfdr637qkv2j5mifd7wrdj0fzkfvbn8pz6s8fj0av1"))))
+            "1g64jc7fy5229jv8x25rj4fj344kfbrnrvc9wxgsxv7lfvb770kv"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("lurk-mode.el")))
     (home-page
