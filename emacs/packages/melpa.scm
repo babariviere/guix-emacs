@@ -48010,17 +48010,17 @@
 (define-public emacs-gpt
   (package
     (name "emacs-gpt")
-    (version "20230106.201")
+    (version "20230122.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stuhlmueller/gpt.el.git")
                (commit
-                 "b5e555f702b1ebe877cbeef27757618963fa41da")))
+                 "9c0d5d89b53a825fd20543f7d640e9da69a0e547")))
         (sha256
           (base32
-            "1jyfd78k5xz31jryp997wm39mj6032c6qrbnfrf57rw17rc6mz90"))))
+            "0prfaqrs17589ghz96ia6hwilxwrhv8x00fx1bl3hbhl1bxdp6vr"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "gpt.py")))
     (home-page
@@ -58774,17 +58774,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20230111.2346")
+    (version "20230122.246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "997b3c5f9d9d7ff72b1a1cbdb55b1f575748a9ca")))
+                 "0ce7f4049edcae188b4643b3163e5301f9ef09cc")))
         (sha256
           (base32
-            "0z37jsa0p7l92j495wj3z54n10jf5br1qmk2rvl6mmdyzvq5ls7k"))))
+            "0ygm4y0iwvh1mz883x9727jlw0pnf0xgl4b1xysbvsyg6gplf0xv"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -63818,17 +63818,17 @@
 (define-public emacs-key-assist
   (package
     (name "emacs-key-assist")
-    (version "20210722.758")
+    (version "20230122.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Boruch-Baum/emacs-key-assist.git")
                (commit
-                 "8e5cd089e0b2fedec57c55eeff74cdb6121441aa")))
+                 "41a958ca6b038586bfdcf01045bb8b9d379248fe")))
         (sha256
           (base32
-            "0lg8v6lsa62zhnlrz47hlda65ra6yfqijgz4jcl5vxcx2hgks8g8"))))
+            "099g9y3ky8hmgrq68idcjwa3452jdkggblgz397824kj13d7z02b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Boruch-Baum/emacs-key-assist")
@@ -65455,19 +65455,18 @@
 (define-public emacs-languagetool
   (package
     (name "emacs-languagetool")
-    (version "20220514.309")
+    (version "20230122.121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/PillFall/languagetool.el.git")
                (commit
-                 "503d18bd3c074fe8f495cfa6a34ccca1ef6961ce")))
+                 "57af28a0c370866945988461a259b6551a1c4074")))
         (sha256
           (base32
-            "0zid9ip540qknnj9sdky2jrxp5l5kym76dr3wgff3ika6g7y75p6"))))
+            "094ndmybj0g2v75zc21644q0b4kpkff8lhj2bw0rg8q8lg5ha5kp"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-request))
     (home-page
       "https://github.com/PillFall/Emacs-LanguageTool.el")
     (synopsis
@@ -73865,6 +73864,30 @@
       "Documentation at https://melpa.org/#/mode-line-idle")
     (license #f)))
 
+(define-public emacs-modelica-mode
+  (package
+    (name "emacs-modelica-mode")
+    (version "20230109.1000")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/modelica-tools/modelica-mode.git")
+               (commit
+                 "291f1bb8147693e21054722757f1e2cef4b27d12")))
+        (sha256
+          (base32
+            "1dswgjsza688v17cmcyw5w58dywz346bq4v0msvyrm3rhv2xbwrz"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files ("modelica-mode.el")))
+    (home-page
+      "https://github.com/modelica-tools/modelica-mode")
+    (synopsis
+      "Major mode for editing Modelica files")
+    (description
+      "Documentation at https://melpa.org/#/modelica-mode")
+    (license #f)))
+
 (define-public emacs-modern-cpp-font-lock
   (package
     (name "emacs-modern-cpp-font-lock")
@@ -75349,6 +75372,34 @@
       "View emails in mu4e using xwidget-webkit")
     (description
       "Documentation at https://melpa.org/#/mu4e-views")
+    (license #f)))
+
+(define-public emacs-mu4easy
+  (package
+    (name "emacs-mu4easy")
+    (version "20230122.708")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/danielfleischer/mu4easy.git")
+               (commit
+                 "0f220ade6989667da3656f187c1d1bd593114c5f")))
+        (sha256
+          (base32
+            "1if4bfgy0y3dsyvb9cxvz5w6scslk07d1pmnn9arzz73x46rs5nx"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-mu4e-column-faces
+            emacs-mu4e-alert
+            emacs-helm-mu
+            emacs-org-msg))
+    (home-page
+      "https://github.com/danielfleischer/mu4easy")
+    (synopsis
+      "Packages + configs for using mu4e with multiple accounts")
+    (description
+      "Documentation at https://melpa.org/#/mu4easy")
     (license #f)))
 
 (define-public emacs-muban
@@ -86492,20 +86543,22 @@
 (define-public emacs-orgtbl-join
   (package
     (name "emacs-orgtbl-join")
-    (version "20220928.1946")
+    (version "20230122.731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgtbljoin.git")
                (commit
-                 "8ce207b7100dc9cde071099b56cebb87924aaafd")))
+                 "5b59f69c285a3097262126add3d1ae9b1bbb5169")))
         (sha256
           (base32
-            "07mp1kgp9jkajs1lwwzl051gaygi8wqmnkp52pddw4xfcni9i6va"))))
+            "0qgc2qsfhwj384ss9zk6n8dxbszccnzjx75dvz0fi78kwxy0qn2w"))))
     (build-system melpa-build-system)
-    (home-page "unspecified")
-    (synopsis "join columns from another table")
+    (home-page
+      "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
+    (synopsis
+      "Join columns from another Org Mode table")
     (description
       "Documentation at https://melpa.org/#/orgtbl-join")
     (license #f)))
@@ -102727,7 +102780,7 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20230109.855")
+    (version "20230122.748")
     (source
       (origin
         (method url-fetch)
@@ -102737,7 +102790,7 @@
                ".el"))
         (sha256
           (base32
-            "1r3m7vr0l008mdq190sw74zj333kz0y16k85ljc9rnxfw8ai0xig"))))
+            "0qbq416y6ihbyc99l3pmz87jgjvd08avdxyhjmfr92z56kw7gxm7"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.com/ideasman42/emacs-scroll-on-jump")
