@@ -27774,17 +27774,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230117.2135")
+    (version "20230121.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "f6895d8768314b7a4691c984468c2ec6a0e08b32")))
+                 "a1ea1a3df7602ffab30c15348365d2e6a75063b7")))
         (sha256
           (base32
-            "0qaz6nlmc7cnvj7nsmgnji8z66kbwliiicsvnv3bihy183ab1fvy"))))
+            "0l5i1wylprwag087c21m51k0xwjna8y4hv7dwc9i3cy3f541jmp8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -33284,17 +33284,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20221217.106")
+    (version "20230121.1523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "b7a75062a600b1b1d2ba51a1e3ac1ec331d19fff")))
+                 "5047285052d7fbb85df2ab750815e899aa67bd88")))
         (sha256
           (base32
-            "12f5ibidrznm28zrg1qm2agmhpkpvcm2dlabn5xhnfjh3s6ylv2s"))))
+            "1b7c43j69grlpv648qjcjfk40cfs4hgwzzbzksm6f0gld9kvij6w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -48734,17 +48734,17 @@
 (define-public emacs-grugru
   (package
     (name "emacs-grugru")
-    (version "20221001.1525")
+    (version "20230121.1825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/grugru.git")
                (commit
-                 "d03ccd6314d474f3e6beadc69c0b6ce32af62f07")))
+                 "088f26330be161cfad4835e155595ec60dcb335a")))
         (sha256
           (base32
-            "1s5xig6pbkbnb0xn7rp3a02ig0pzdwxqj54f3bjda0c37ch0l1cj"))))
+            "094kwvm136nw3p1l2bxkbp97qnsg46g0b3mgskm323bcdggj1g12"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ROCKTAKEY/grugru")
     (synopsis "Rotate text at point")
@@ -60625,17 +60625,17 @@
 (define-public emacs-ivy-migemo
   (package
     (name "emacs-ivy-migemo")
-    (version "20220309.605")
+    (version "20230121.1934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/ivy-migemo.git")
                (commit
-                 "f31a2b314b81e328ce0222d8796b808230ddaa0e")))
+                 "6022b24e72f073a7b5599f2dea611da3a1282378")))
         (sha256
           (base32
-            "07l6x4aysxzrwlva7df5mdmb8kir1w9jpk7jqc5823zd00dmd6hf"))))
+            "1qg60wgykxzhngzg7lw1fdmji8qrdigak9w40qrhsh70vlyssha5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-migemo))
     (home-page
@@ -63766,17 +63766,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230121.414")
+    (version "20230121.1921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "3191f160448e415827d06235d47d1280206b9516")))
+                 "06e754e9a4dace67129948f8df3ad42a4f57e571")))
         (sha256
           (base32
-            "1r58mw7a937hwa6iz3rwnrnfc2sns8xfaxxq5nmi47xb955mhd1z"))))
+            "0rn0m9ygnz75795rmbl7hybykw0h9gyaw8w2av256wwcnxslxckr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -68880,17 +68880,17 @@
 (define-public emacs-lsp-latex
   (package
     (name "emacs-lsp-latex")
-    (version "20221020.159")
+    (version "20230121.1846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/lsp-latex.git")
                (commit
-                 "ee4df225b59992946c19d8523e940944f76661c4")))
+                 "de080d83f5759ead46dd7a26bb73b7c3a940ef40")))
         (sha256
           (base32
-            "06xzx79b39ykr4afmcpgqhw71mkpn6rk37kf7h392ras9mf17vvc"))))
+            "18k93vwq95zyhfp8jj6ppsks95rcqs39p3lhwshgwq9k2i33v1zi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -86213,17 +86213,17 @@
 (define-public emacs-organic-green-theme
   (package
     (name "emacs-organic-green-theme")
-    (version "20230114.1204")
+    (version "20230121.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/organic-green-theme.git")
                (commit
-                 "8212471fdce8fe330ca6f8471e0b545c2f0fb519")))
+                 "7ca93a1c42bba1bcced181bd8cc34cb57be39537")))
         (sha256
           (base32
-            "060cmmq7swvmg35sqykf328fcyzg0h11a3a2w67xp2jjzw1p9nkv"))))
+            "1fa27522nb3jqswbii9qsi1csjqw5p6a7lsrylhw2vll8w9v4mma"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Low-contrast green color theme.")
@@ -98865,17 +98865,17 @@
 (define-public emacs-recur
   (package
     (name "emacs-recur")
-    (version "20211108.219")
+    (version "20230121.1836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/recur.git")
                (commit
-                 "627d88f2695336245527fcc77f5728575ecf742b")))
+                 "043b3267125cb9fa273d0f0afee0dda1fc60c507")))
         (sha256
           (base32
-            "1di685jq65g7f8s8j6lflqj6mkp05hpi10y1vfnqh1xln2pijapc"))))
+            "1wn4ayb1f186k1h0c4p893gpc3ldlslrj5wh1jqrv1ffqlnn4lw9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ROCKTAKEY/recur")
     (synopsis "Tail call optimization")
@@ -101468,17 +101468,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20230114.1701")
+    (version "20230121.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "e2d5893db15373b52ffd1e9d69caf5a89a13d548")))
+                 "ad9bd01b9c55a295be39e5334110900690ff21f6")))
         (sha256
           (base32
-            "1ha8f1hy2703lamg3jx6489pvvx33flmkn6cm7v88dzdvijgw4vl"))))
+            "0lydqyqr7v0jjcn544mpfrdh6nyzwf1hlhybrxmwizz6kv610qyz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
