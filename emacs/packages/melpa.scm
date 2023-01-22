@@ -10354,17 +10354,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230121.858")
+    (version "20230122.1117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "6e3fa266e024e4514e7dc6b2eaab6841b3f7948c")))
+                 "f1b359eb81d9ac6756c20d09167b08bfe13807c9")))
         (sha256
           (base32
-            "0n3mq1n65xarvjr2nx3j5a05p9yccxg86ngzm3736729xwdwzszj"))))
+            "15d7ysgbikjcd1nxwp4f5zkf37r5sq35r6yx84x7a3hy9q1pyrvf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -16789,17 +16789,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230121.1135")
+    (version "20230122.1116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "4a7167c331d3c0c0d60b1d2d54c840f33e446683")))
+                 "13d16a700238f5ee80c2d74c50b54dd9270dc583")))
         (sha256
           (base32
-            "178mi8ln4sdvfgxab8x707454yi96wjw1vhyg0a7ysx8bwrzvz9n"))))
+            "0dqc69cfwsidjp6iwc1qvfiq7vcakv0788j7hzf9j2isd15zyh67"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -63766,17 +63766,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230121.1921")
+    (version "20230122.804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "06e754e9a4dace67129948f8df3ad42a4f57e571")))
+                 "82207febbc58539e605cdafe155d275504adbc86")))
         (sha256
           (base32
-            "0rn0m9ygnz75795rmbl7hybykw0h9gyaw8w2av256wwcnxslxckr"))))
+            "1xjcpngmm90apkldq18x20r6ab0jk9xlvbv411bpn5cimn0s5k9b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -64265,17 +64265,17 @@
 (define-public emacs-khalel
   (package
     (name "emacs-khalel")
-    (version "20221008.1456")
+    (version "20230122.1139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/hperrey/khalel.git")
                (commit
-                 "c5f6e57134d7109feacf057a5e82161b6f4fb46d")))
+                 "fbd4b4d6ae8f152140674e843ed7d82d223d52fe")))
         (sha256
           (base32
-            "1w951a7czw5f62d9336lvrrsw57pym27vscfby1pz6n6ld44ybsl"))))
+            "025c12im3yvxb37a5y5x7zwdwll50lzx5nzsh54ipacrzhc0fyn5"))))
     (build-system melpa-build-system)
     (home-page "https://gitlab.com/hperrey/khalel")
     (synopsis
@@ -71119,17 +71119,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230121.858")
+    (version "20230122.1118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "2758f88db6baa6a2410ec4abb193d4dd5ba61773")))
+                 "18b3fcfba0c4af8b7bcff99ebf5891e8c0037bca")))
         (sha256
           (base32
-            "1n7mxklwis4qvs9zv5spp1jcz4k7xacgsx5lsnnibgi9hv2nh6zi"))))
+            "0dsf15g1dwi80bwd510axg5kaxqk42vlmf5w1q10xng00gs0jgvx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -86475,17 +86475,17 @@
 (define-public emacs-orgtbl-aggregate
   (package
     (name "emacs-orgtbl-aggregate")
-    (version "20230121.955")
+    (version "20230122.802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgaggregate.git")
                (commit
-                 "0620da55379ff2ee9fa7a90b2c4e4a933b779619")))
+                 "9b83a074418c1e6463abf9bd6273d74fad4ef4fa")))
         (sha256
           (base32
-            "1bswcz3r8gpfmx0kic32izxg1x1fs9mcghpw41kibxsf8d5jk87c"))))
+            "0lhjhbnzws149818lb20rblh1pf7gjj9djasni4pmb5cx7glzlj7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tbanel/orgaggregate/blob/master/README.org")
@@ -86498,17 +86498,17 @@
 (define-public emacs-orgtbl-ascii-plot
   (package
     (name "emacs-orgtbl-ascii-plot")
-    (version "20200411.711")
+    (version "20230122.816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgtblasciiplot.git")
                (commit
-                 "59618630205fc8c0fcc74fb34c4581d9712a5181")))
+                 "4160128045b271bc1aef3d14dbf0c5b53ae58bd2")))
         (sha256
           (base32
-            "1qx6la70cdxr556d2kna4ra76kdliaqkwm97jahd20nhs2izvpl1"))))
+            "1zhhppk05av94i77s16mrjbbc55gvcsm8sk6l7rdfrsfaislabmw"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -86543,7 +86543,7 @@
 (define-public emacs-orgtbl-join
   (package
     (name "emacs-orgtbl-join")
-    (version "20230122.731")
+    (version "20230122.757")
     (source
       (origin
         (method git-fetch)
@@ -86734,17 +86734,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20230121.857")
+    (version "20230122.1118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "f68f3060b66559996fdaa565c201a4f3c880b9d0")))
+                 "4e83414299ebaf1966a0a61a188bbc58fd2760f2")))
         (sha256
           (base32
-            "1x4yxmrk4m480v32d3fb66kqc423fd5q0wi65nxar0qx8c6hr27n"))))
+            "1mvzg0badri1dxa1mm9wv86k7yqvhjh7zav7zqbcb13a22h0nazz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -102758,7 +102758,7 @@
 (define-public emacs-scroll-on-drag
   (package
     (name "emacs-scroll-on-drag")
-    (version "20230116.951")
+    (version "20230122.800")
     (source
       (origin
         (method url-fetch)
@@ -102768,7 +102768,7 @@
                ".el"))
         (sha256
           (base32
-            "1ms1x7kg7rzd0hdrkqxvg2gj837bxahv50xi2iimldd9bibbh1as"))))
+            "07414cyzsgc15hp1akdv664i04n2sd9vsy2dzy86hjw3j7g1iyhd"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-scroll-on-drag")
@@ -112218,17 +112218,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20230121.857")
+    (version "20230122.1117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "87f996bca91e533c8a95943ca3462c3090cba386")))
+                 "fd77dc7ad6359d3f2b01cd7e4e7743b7180e54b8")))
         (sha256
           (base32
-            "1sj6ymzzwjjjvk80yfi41a6x2xz8syg3r6z3i924jxla07qypms2"))))
+            "1phfgz63nj65250l7q9ybvqfw0laxzqbqsqhakawsq1daxksl1zh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/tempel")
@@ -121886,7 +121886,7 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20221212.1037")
+    (version "20230122.1115")
     (source
       (origin
         (method url-fetch)
@@ -121896,7 +121896,7 @@
                ".tar"))
         (sha256
           (base32
-            "02r5hvgl0kvw19y20s85iygh0i937bklvnmr2jx0c8q0vnb87lj7"))))
+            "11j9h8kqqq4jg4mdhgdyvj25h0x5mjv8asbvs62kvy9v93qilwzm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
