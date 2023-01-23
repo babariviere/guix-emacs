@@ -8504,17 +8504,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20230117.1759")
+    (version "20230122.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "765dca9f3568c78e335369fd5eb65e7be1a661ea")))
+                 "79850a9007fe156bac36bc2e5e05bc7be8276135")))
         (sha256
           (base32
-            "0jxi0axcxjcnx43fp0b9k5alp45wwiwk8mgy9l9ax3ihk0llqz9w"))))
+            "14n82f2zlxwjs9p0mz24p93929qk8bdr8b2g4daxln2d9y3wmhsa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -16789,7 +16789,7 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230122.1116")
+    (version "20230122.1552")
     (source
       (origin
         (method git-fetch)
@@ -30811,17 +30811,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20230114.1258")
+    (version "20230122.1904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "88f377e63c5e858c8cdacc75f413fd2899259d4f")))
+                 "361c2545443e9b8e89090b2d3ad8558d41f3ed70")))
         (sha256
           (base32
-            "1m0ygwjrckdnccqmwp71q3nh3vq5kw5jivdscvb0pm8nvdiy02zs"))))
+            "086x6kl1479db813kb1nihlcfp1sl4qqc302dwvcn17p6sml2dc2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-closql emacs-llama))
@@ -41110,19 +41110,18 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20230121.314")
+    (version "20230122.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "718b71ad1beabd7318df7b325f7316a24a821ef9")))
+                 "ad8c724147d5a3a9f6ee59e0c7581e68fba4a2f8")))
         (sha256
           (base32
-            "1rcb5zfi6lba0glq2al99jz6ll68m0wwfc8qcazrr1vvrsx3a1jc"))))
+            "1h1c0anbch18i66qr6vjb0lf1ygx7y06inqy9r6wss51261l2cly"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s))
     (home-page
       "https://github.com/emacs-languagetool/flymake-languagetool")
     (synopsis "Flymake support for LanguageTool")
@@ -64310,17 +64309,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230121.144")
+    (version "20230122.2145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/debanjum/khoj.git")
                (commit
-                 "655ef116535f7e54728945f3f7c3caf31e1f2b10")))
+                 "013c7c10a4de41cc08373d18b40ab53ab511adc6")))
         (sha256
           (base32
-            "06v8prwkdfd56ihbwkxbvkcxgwvv65ing9c8f0rlb4d2srvxbj3d"))))
+            "1hf8n4k0ya7pgiaa0hhbz6nanzaq6ky15i31wdzj7yf332ac48k7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("src/interface/emacs/*.el")))
@@ -68957,17 +68956,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230119.1245")
+    (version "20230122.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "40f412d4c15d06770b307603da534cb2f735b5bf")))
+                 "dc0b2e6b15492bab27aa9fa08f9112e7686d0839")))
         (sha256
           (base32
-            "1305h6hdpqlp21g9wlg0yh0nyn6rhxc9579nznnsblhpl8q0hqry"))))
+            "0b25pn4qijjipiya11c2bb7vj5a6f8xmkx7vlnpjz6gzc80772py"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -88043,6 +88042,29 @@
       "Documentation at https://melpa.org/#/ox-rfc")
     (license #f)))
 
+(define-public emacs-ox-rss
+  (package
+    (name "emacs-ox-rss")
+    (version "20230116.2203")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/benedicthw/ox-rss.git")
+               (commit
+                 "09fb4c92d99e0ce077dfe26beac0754f70f0fc64")))
+        (sha256
+          (base32
+            "1ncs6vmc1ks6di11bgfgpqfs6f894p7ajslgm67s2cplcaynn6np"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/benedicthw/ox-rss.git")
+    (synopsis
+      "RSS 2.0 Back-End for Org Export Engine")
+    (description
+      "Documentation at https://melpa.org/#/ox-rss")
+    (license #f)))
+
 (define-public emacs-ox-rst
   (package
     (name "emacs-ox-rst")
@@ -95648,17 +95670,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20230120.451")
+    (version "20230122.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "7838df19b940bf8a4ff5a2b6dfb38895c06b062e")))
+                 "93a25f73112752eff17d52fd99485199d8babee6")))
         (sha256
           (base32
-            "06iadyr8m13pm8cbd3ramsag7hkpcn3dsl104900y1qjybdxh05x"))))
+            "0vmvasmy6dvhnr57zaqd9wzvrc5jjmrlr2f8wzb1gyarp0vhfxsd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -98939,18 +98961,19 @@
 (define-public emacs-recursion-indicator
   (package
     (name "emacs-recursion-indicator")
-    (version "20230121.901")
+    (version "20230122.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/recursion-indicator.git")
                (commit
-                 "86cc7bc8ca15bfaa2b767ff332c1f72d1b4975cf")))
+                 "98afcefafb084e8df6567231e6878ef493faa70c")))
         (sha256
           (base32
-            "10hfik4cvagsn5pl8d2hnzvfiszpxbyn4cnqnlvrg3yj4z2qix3h"))))
+            "10igv07m54vdicvrgxmikjaa2q4i7x1h02yjxvzqks2pc6ryxdj6"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page
       "https://github.com/minad/recursion-indicator")
     (synopsis "Recursion indicator")
@@ -111191,17 +111214,17 @@
 (define-public emacs-syntactic-close
   (package
     (name "emacs-syntactic-close")
-    (version "20230104.1438")
+    (version "20230122.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-berlin/syntactic-close.git")
                (commit
-                 "e497a9438e19aa9490218323f15ead45e40c80b8")))
+                 "9686e48edd6223a64ee7cc70ca2adb636992297e")))
         (sha256
           (base32
-            "02w03zkb8nxalcadnl3akdr57vjppzhmh84zlkrb1da928hbdgvm"))))
+            "1xqyqjs8krh24b624h3dhzclminnk22kxk5a61z4y81fbk7mvv5d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-berlin/syntactic-close")
@@ -112218,17 +112241,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20230122.1117")
+    (version "20230122.1702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "fd77dc7ad6359d3f2b01cd7e4e7743b7180e54b8")))
+                 "adb99a74abdb327d579f064b4326ec4b6f8607dc")))
         (sha256
           (base32
-            "1phfgz63nj65250l7q9ybvqfw0laxzqbqsqhakawsq1daxksl1zh"))))
+            "1895158szqj8d53c0djc3d6id9x8b4dyyrnwxmzmv830b8y0v0sc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/tempel")
@@ -121886,7 +121909,7 @@
 (define-public emacs-workroom
   (package
     (name "emacs-workroom")
-    (version "20230122.1115")
+    (version "20230122.1645")
     (source
       (origin
         (method url-fetch)
@@ -121896,7 +121919,7 @@
                ".tar"))
         (sha256
           (base32
-            "11j9h8kqqq4jg4mdhgdyvj25h0x5mjv8asbvs62kvy9v93qilwzm"))))
+            "0gav1x6x8ik68a2r5hc2x7k8qc5flfg3a7m7wfnk5hw68mrb77im"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
