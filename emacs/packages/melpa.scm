@@ -3674,17 +3674,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20230121.334")
+    (version "20230127.314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "93d2b30dd08c43edde6bdbbd36f42da751bc0975")))
+                 "2520f14e1fadb9174e506db157df3adaedc63ed4")))
         (sha256
           (base32
-            "1jz25x9d6h2zgs6baw0h2yj1wl0alacy7clnanj215v7mn5hcqs5"))))
+            "1sby66jjrqg1dhw1z4ydcl2s10n0nrjkr4qlc23gzpz1j05q9s24"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -16811,17 +16811,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230126.2147")
+    (version "20230127.444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "53673a2985e84cc35d0d4603caa53f4c4dc71a30")))
+                 "c407a73b1377ebc76ef6e1104428868abb0e5926")))
         (sha256
           (base32
-            "0qnll240jdrmpafl5w0lqxmk81lv34ai3f2d9k5yxs3kx1gk4x78"))))
+            "0zy0qg7g0py2asnb0kjscxr8kap9mi75mh8nxbfk2xcn2cs1h4ci"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -67654,17 +67654,17 @@
 (define-public emacs-literate-calc-mode
   (package
     (name "emacs-literate-calc-mode")
-    (version "20221220.2151")
+    (version "20230127.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sulami/literate-calc-mode.el.git")
                (commit
-                 "db6a73f22d8a4f6561c87619ad7437e7a77f34d5")))
+                 "900bdd12c0a6e6874f60b0df99a72fd329873ea1")))
         (sha256
           (base32
-            "0ijg8vdf7a188aw9r6cmmyjgkarsmfnpisd9hh32iclswjwzxz50"))))
+            "1kbx1i977pyv5ckg6d5c5p806nlrl6y06jmcjwi90yri8l0bia5y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -71187,17 +71187,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230122.1118")
+    (version "20230127.444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "18b3fcfba0c4af8b7bcff99ebf5891e8c0037bca")))
+                 "0fab7561ff00c7f7d6f9f2d50890caa7d075a599")))
         (sha256
           (base32
-            "0dsf15g1dwi80bwd510axg5kaxqk42vlmf5w1q10xng00gs0jgvx"))))
+            "1kjnp3d0yszyk00v4k8f9jf4l2qik6px6p7s4ip66wpxj2lvr4k8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -74075,7 +74075,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230123.1808")
+    (version "20230127.657")
     (source
       (origin
         (method url-fetch)
@@ -74085,7 +74085,7 @@
                ".tar"))
         (sha256
           (base32
-            "1qlan0cv9az88mbn95v2rvvpv25smp5yqd5w6x5w6laipvvx6y73"))))
+            "1l9ykzgvygsgy6pps1plbpv8lganz2ab67wj5y92zx93z86wchs3"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -83837,17 +83837,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20230126.2018")
+    (version "20230127.636")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "ab63700994b5634a491f8e710d6053e0d6352673")))
+                 "32ec0e95fa480d2f025474af77e3d584217c0752")))
         (sha256
           (base32
-            "1zrl2g4bcay1s5j065bg5vllncjd81fgx5p4cg1mr9n024zbwwzr"))))
+            "108s0gs9jgz0y498hyhfs0f0blk8m1a55h7lvj83f9h8ly32ab49"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -83928,17 +83928,17 @@
 (define-public emacs-org-msg
   (package
     (name "emacs-org-msg")
-    (version "20220809.1736")
+    (version "20230127.520")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jeremy-compostella/org-msg.git")
                (commit
-                 "e0174324ac37a63ed36869c7632dd7139f1b2419")))
+                 "7b1dfb96d558f6e5626e96d4f4a5150d55cb7eb2")))
         (sha256
           (base32
-            "1ks5hcadgzaa81ii71flnna8kbchk8x3kf7dz3h31yk95hx3jjf8"))))
+            "0dvq8dg8ga6bx9kd4bk5im87nmwkac6h0pcxyvcm2pk60id8xar7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -99899,17 +99899,17 @@
 (define-public emacs-request
   (package
     (name "emacs-request")
-    (version "20230126.17")
+    (version "20230127.417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tkf/emacs-request.git")
                (commit
-                 "f26ea54c44f6d801d5f03c478668dbd22874b0c0")))
+                 "01e338c335c07e4407239619e57361944a82cb8a")))
         (sha256
           (base32
-            "1xln3iqa3w7l632yjlcvaja24c0vr0wqc90igzkmd0dp8i6l1qpn"))))
+            "1arhjsybb1nhq14p06jzbvp25pyp1pddq1ldyq25vj1qrsh81rjq"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("request.el")))
     (home-page
@@ -104573,17 +104573,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20230119.418")
+    (version "20230127.612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "d7f99ea4561004f7f15e8d17f5f7a084d04f3925")))
+                 "e556f82247918bdc33acf01b29917314b8b9e22b")))
         (sha256
           (base32
-            "15dpxppfpwrkpfrvjpq6cwkkkkmywvv3rf3pn8psykc48qg1ri95"))))
+            "100qw0wfqy0ff7c2k4lbwcanvqg42ai7q0h0c8y4xx2snidfm4zv"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
@@ -108373,17 +108373,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230106.115")
+    (version "20230127.116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "151f49fa95a6c593aa694c6bd7ded6d3a04479b1")))
+                 "0b4a7d8b761c553c4380e9a881e69276213172fc")))
         (sha256
           (base32
-            "0py00b82j3f0amhh5mvzx8is6amm2qsa98k4gk970y493m6c4xmi"))))
+            "0b2q9xkir41aisvaks8xsdzh6g0mkl0ws6qnq4in2v7g1j9yvp4v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
