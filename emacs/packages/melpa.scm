@@ -10354,17 +10354,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230122.1117")
+    (version "20230127.806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "f1b359eb81d9ac6756c20d09167b08bfe13807c9")))
+                 "70d9db4bd71fbf979ab3fbb8f2a4db9f75b35817")))
         (sha256
           (base32
-            "15d7ysgbikjcd1nxwp4f5zkf37r5sq35r6yx84x7a3hy9q1pyrvf"))))
+            "01gc4hxfd6df7hhp3dbvgbbh8ibxn84fijkn7kvqvkci1bqrkr50"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -16811,17 +16811,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230127.444")
+    (version "20230127.1312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "c407a73b1377ebc76ef6e1104428868abb0e5926")))
+                 "324450e795931d874fc8be1f47e3885ed662b1db")))
         (sha256
           (base32
-            "0zy0qg7g0py2asnb0kjscxr8kap9mi75mh8nxbfk2xcn2cs1h4ci"))))
+            "1qkynar8ax7xl7vwf5pbc0nbdfnvqxpz3nckyswf8szmhx9h43jd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -48392,17 +48392,17 @@
 (define-public emacs-graphviz-dot-mode
   (package
     (name "emacs-graphviz-dot-mode")
-    (version "20221128.519")
+    (version "20230127.1001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ppareit/graphviz-dot-mode.git")
                (commit
-                 "46afe4825b4a3a5d1a1ac65ec7f585051f756b78")))
+                 "a26d671584c11f35caa4d47df15c8526064c9f01")))
         (sha256
           (base32
-            "1902ciyypy2sr91d31znkwwkpxg5yr9a55cv89k7iai7r0fw0h36"))))
+            "1kc5qzv8hxj31p7fiqsp6sc864j1w79ymvsr6iakl2rck67c4p9r"))))
     (build-system melpa-build-system)
     (home-page
       "https://ppareit.github.io/graphviz-dot-mode/")
@@ -65428,17 +65428,17 @@
 (define-public emacs-langtool
   (package
     (name "emacs-langtool")
-    (version "20230125.433")
+    (version "20230127.839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-langtool.git")
                (commit
-                 "24d5a330e30ecfb76efa3471351cfcbd3e1b67ee")))
+                 "69dc4f71dd06fe36f8335deb6d5caf980cda2d45")))
         (sha256
           (base32
-            "0w18dh9ymjgmzmk1qb8qq1xgzw5pm3ywsr5izqnz14l9ybd9gf92"))))
+            "0wv248pwd2nx2519nw9s9p5xc88m841xim5q3rngza5d0f7f7hhf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mhayashi1120/Emacs-langtool")
@@ -83837,17 +83837,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20230127.636")
+    (version "20230127.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "32ec0e95fa480d2f025474af77e3d584217c0752")))
+                 "5077e3c1eb8f12d7ccd2e5111909c6f4ccaa7203")))
         (sha256
           (base32
-            "108s0gs9jgz0y498hyhfs0f0blk8m1a55h7lvj83f9h8ly32ab49"))))
+            "1a5ma613b3gx1mz5a99n6zmhvjdlyny66rn74bs0smx23c909i3q"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/minad/org-modern")
     (synopsis "Modern looks for Org")
@@ -105948,17 +105948,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20230126.1226")
+    (version "20230127.1158")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "a4f3471487db48f7289dc0ea019611d093e5ee7f")))
+                 "173aad693d7fd624aa522efe7e5ef3093480a221")))
         (sha256
           (base32
-            "1acmm4w1mv1qzpnkgc4wyiilbx8l0dk16sx8wv815ri5ks289rll"))))
+            "05haz8iaaxz1bmqqrbc81ifq5fdkzqzvynks65rb1xa4ka1pb112"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
