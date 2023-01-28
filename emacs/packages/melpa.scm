@@ -16811,17 +16811,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230128.4")
+    (version "20230128.936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "051f51811d90fcab49e1eac7c78bee86e440ea01")))
+                 "4aab49c7454c5436298ba60e0ea39d5c9c4acb51")))
         (sha256
           (base32
-            "1mw4ah7nwzv5dy0v3apdllwabms956hnfkka4ms55fridhlz7i17"))))
+            "0pji61l4w87n44dc2j8ak5kjvkwz4ckraizxmszhcygqybsinn2k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -33306,7 +33306,7 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20230128.403")
+    (version "20230128.650")
     (source
       (origin
         (method git-fetch)
@@ -50957,17 +50957,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230116.1031")
+    (version "20230117.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "6faca20c0ca0d202ad9a120e8609d07a0aa566ce")))
+                 "aca996be0171c64b4fbd6f5c0f9152895a1cb304")))
         (sha256
           (base32
-            "04li1vdrcm5wr4bzy055ib4xbsa60pzkj415762y941vf1agj1fn"))))
+            "11s8pd4sswbsigj1hm6k9n1jkw80hm2w77r5rcgzij7m1qlkkav1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -65498,17 +65498,17 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20221025.541")
+    (version "20230128.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-language-id.git")
                (commit
-                 "40ceb1f23d4419e8fdb2808c2c71dd46e541c4c4")))
+                 "c1fd0fa31e196cf02f5352f026a83cfd7913f652")))
         (sha256
           (base32
-            "15719hkfnkn15bal2ppcxqaddhqhxg3wb9i8kzac5g81mfs79agb"))))
+            "08k1v6m34hxsglxx1fnbf04vw436nyypirzzcfd3nqw1n5zd72f2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-language-id")
@@ -71185,17 +71185,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230127.444")
+    (version "20230128.1237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "0fab7561ff00c7f7d6f9f2d50890caa7d075a599")))
+                 "43e8f07a84fb4ecd6afa17456c1d5b8dcd16228e")))
         (sha256
           (base32
-            "1kjnp3d0yszyk00v4k8f9jf4l2qik6px6p7s4ip66wpxj2lvr4k8"))))
+            "05z1inlickfg91v3s5avdzlykkhnxnfgnzjdh6anwvg8j5zm9xd7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -71299,17 +71299,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20230125.518")
+    (version "20230128.1027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "b094ae0ac9f670862803c09b859ce63e14138c61")))
+                 "0f7eae811308f92b8681b5411f7a5035d1fcd5a7")))
         (sha256
           (base32
-            "0f69j7miv3sdgi7a1br76x1q02zp4iikn5684hqv9ab57yavb9lc"))))
+            "04q9w7vpg6yzb0way4vab30fbdlirw55nbi70hql44wpy20y193v"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -71626,7 +71626,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230127.2202")
+    (version "20230128.1300")
     (source
       (origin
         (method url-fetch)
@@ -71636,7 +71636,7 @@
                ".tar"))
         (sha256
           (base32
-            "0s62mmswanmywg0492wr4va7v1m5l57w3sqb8gj9gdbl40pd5l1v"))))
+            "0f3hfphrkghydrpjdnlmwcxvby61rpq0545gld8cjxnsl1kzknrr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -86610,17 +86610,17 @@
 (define-public emacs-orgtbl-join
   (package
     (name "emacs-orgtbl-join")
-    (version "20230124.1107")
+    (version "20230127.2133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgtbljoin.git")
                (commit
-                 "30cda68f5af7fce90497dc42d27d6766432c005d")))
+                 "afcb4a829462db9925288911dd564d5993ef38e9")))
         (sha256
           (base32
-            "0q63iscrwqf3vc4kbzyggy8z0zv1v07ipxx15xq0s74k2k9l8ia7"))))
+            "1blybdfk9dp42scdy6mswdmyc8dkyfqhs5gmci7bpiksglnm8qan"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
@@ -87955,17 +87955,17 @@
 (define-public emacs-ox-pandoc
   (package
     (name "emacs-ox-pandoc")
-    (version "20230124.1831")
+    (version "20230128.1219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/ox-pandoc.git")
                (commit
-                 "2be8a74d71c12860a073e7a2e2c423c5415285e8")))
+                 "66c32cca4f6047dd7e0f77f10bd565a2d83d4729")))
         (sha256
           (base32
-            "0x3cprsq95sig4f355rb4wgkfp1wp38jjdb8p1j5q63zj5z5slx8"))))
+            "0ciihyhmn32kl2iicr90xrzx5nrlcqniq38qpxq0vj6kxwm2gxg3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page "https://github.com/a-fent/ox-pandoc")
