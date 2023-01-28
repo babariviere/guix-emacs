@@ -16811,17 +16811,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230127.1312")
+    (version "20230127.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "324450e795931d874fc8be1f47e3885ed662b1db")))
+                 "051f51811d90fcab49e1eac7c78bee86e440ea01")))
         (sha256
           (base32
-            "1qkynar8ax7xl7vwf5pbc0nbdfnvqxpz3nckyswf8szmhx9h43jd"))))
+            "1mw4ah7nwzv5dy0v3apdllwabms956hnfkka4ms55fridhlz7i17"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -29891,17 +29891,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230110.329")
+    (version "20230127.2054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "8960e450ac3b1bb085d85c41fc5ae1080ad8f7bb")))
+                 "213ced2c5d30848ec03bb8599590b111b27c7839")))
         (sha256
           (base32
-            "1pijdvv75rvwk1yzpv2va07g4rr2v84ipbsa7x5p1011jvbvjqrh"))))
+            "1safw3bad2w6gjzr85iygy52cz784xr23m3zaib1df3wjqg7cxrg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29916,17 +29916,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20230126.1728")
+    (version "20230127.1713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "ba30b46502a90baec42e51f0e8017e7a4997c4f4")))
+                 "213ced2c5d30848ec03bb8599590b111b27c7839")))
         (sha256
           (base32
-            "1f5cvax4nnh5qrld99vj1lnc20c4m1z7890xcg7vk3m6dn85zrll"))))
+            "1safw3bad2w6gjzr85iygy52cz784xr23m3zaib1df3wjqg7cxrg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-consult))
@@ -46966,21 +46966,19 @@
 (define-public emacs-go-gen-test
   (package
     (name "emacs-go-gen-test")
-    (version "20210816.1215")
+    (version "20230127.1422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/s-kostyaev/go-gen-test.git")
                (commit
-                 "35df36dcd555233ee1a618c0f6a58ce6db4154d9")))
+                 "f84f4177af7fcbe10ce2116d5417ad5f0485034b")))
         (sha256
           (base32
-            "1r0cdpfrrz3lgkd7xzkw77c48w11l9maydm32rz27zpjgzgpakdp"))))
+            "1bxa3870vr2hyaj4isvhzfhhs56qyrp9lngapsggxhdq1r9vwqra"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s))
-    (arguments
-      '(#:files (:defaults "go-gen-test.el")))
+    (arguments '(#:files ("go-gen-test.el")))
     (home-page
       "https://github.com/s-kostyaev/go-gen-test")
     (synopsis
@@ -71628,7 +71626,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230125.1649")
+    (version "20230127.2202")
     (source
       (origin
         (method url-fetch)
@@ -71638,7 +71636,7 @@
                ".tar"))
         (sha256
           (base32
-            "1fp6jpj33pswmc2xwdrjzjr485lix0y3h5kbnwcigbkag901hakc"))))
+            "0s62mmswanmywg0492wr4va7v1m5l57w3sqb8gj9gdbl40pd5l1v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -96194,19 +96192,20 @@
 (define-public emacs-pyconf
   (package
     (name "emacs-pyconf")
-    (version "20221112.1827")
+    (version "20230127.2046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andcarnivorous/pyconf.git")
                (commit
-                 "c49dbd71e69a3840344f644030f087688e73e31e")))
+                 "f78e7f269210c7d7e06001752d87c8fbfd8b9084")))
         (sha256
           (base32
-            "0jp1pvalwknjhkkcb2g8abrpiyz1vmr9ja9glvvqqmkm9a1gi5a6"))))
+            "019c1hcdfr9cnpcag2qyg2lkf1scg1m6aw0nllwn31cwa8mvyyga"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-pyvenv))
+    (propagated-inputs
+      (list emacs-pyvenv emacs-pyenv-mode))
     (home-page
       "https://github.com/andcarnivorous/pyconf")
     (synopsis
