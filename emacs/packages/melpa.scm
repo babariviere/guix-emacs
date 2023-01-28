@@ -16811,7 +16811,7 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230127.2032")
+    (version "20230128.4")
     (source
       (origin
         (method git-fetch)
@@ -33306,17 +33306,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20230121.1523")
+    (version "20230128.403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "5047285052d7fbb85df2ab750815e899aa67bd88")))
+                 "85743099972bfcc4d7788db70dfe33e864eba090")))
         (sha256
           (base32
-            "1b7c43j69grlpv648qjcjfk40cfs4hgwzzbzksm6f0gld9kvij6w"))))
+            "1zfza2ac91wbd8yh0r71l2v45g05qc8b057rx98062ci4n0aa15a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -36530,7 +36530,7 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20230118.1643")
+    (version "20230123.432")
     (source
       (origin
         (method url-fetch)
@@ -36540,7 +36540,7 @@
                ".tar"))
         (sha256
           (base32
-            "1j3v9yx4ynmr1wzczx9pcslw7q701agch6k5q3sml5fjc2dyh1ck"))))
+            "0dr79c8s97a1m0y7yzn34ibn6nszkamn3whzdx2czd4b5kdddggi"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -72467,17 +72467,17 @@
 (define-public emacs-mermaid-mode
   (package
     (name "emacs-mermaid-mode")
-    (version "20221129.1253")
+    (version "20230128.110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/mermaid-mode.git")
                (commit
-                 "75eed2cecc3b2be0f310c07a8b68fce1173aaa50")))
+                 "57f584de3ff0ad9b12412c5be10a7e50bd024bce")))
         (sha256
           (base32
-            "0xac6wk0kjvv2vmzcvl9mpnndfhkqn6mlmnlkl0a3pa4yc225n9q"))))
+            "0yf8n68ds075990dqwbvjibfg32iawmqlkdn9k5231hd3wgwjpcs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -74073,7 +74073,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230127.657")
+    (version "20230128.505")
     (source
       (origin
         (method url-fetch)
@@ -74083,7 +74083,7 @@
                ".tar"))
         (sha256
           (base32
-            "1l9ykzgvygsgy6pps1plbpv8lganz2ab67wj5y92zx93z86wchs3"))))
+            "0zmmnp8lsqbl4vqr4bvkdww6zmyaxv8zsmdlzsqxymkbjwg4sil8"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -96347,17 +96347,17 @@
 (define-public emacs-pyim
   (package
     (name "emacs-pyim")
-    (version "20230119.153")
+    (version "20230128.101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/pyim.git")
                (commit
-                 "571b0b57d063da795bdd574c47cef67e89a57adb")))
+                 "88ad4d9d06eded71a80db4485d0ddfcb20b40a4c")))
         (sha256
           (base32
-            "0z347d02r8abjjgddkgynyjnsbyr08ww7p6p3cwiigq2ydn6cc0p"))))
+            "1zwacq2zvwzml64mwl16dzsal5qymkiafqalriw9pnd87lvw9a92"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async emacs-xr))
     (home-page "https://github.com/tumashu/pyim")
@@ -113527,23 +113527,20 @@
 (define-public emacs-tide
   (package
     (name "emacs-tide")
-    (version "20220514.614")
+    (version "20230128.406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ananthakumaran/tide.git")
                (commit
-                 "96bfc5da11a9b83b32368c38e933a405270652de")))
+                 "52924d0b591238994457b36c79f1ce906653feda")))
         (sha256
           (base32
-            "1py0z8nrkgh3lzsmgxq62bi2nbdx3c97194frjyb5wl81kh4pbbp"))))
+            "0m93k6xrypf40342vdvyisq78d0zav8k7f6ffihnnqy4zx4vpq7w"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-dash
-            emacs-s
-            emacs-flycheck
-            emacs-typescript-mode))
+      (list emacs-dash emacs-s emacs-flycheck))
     (arguments '(#:files (:defaults "tsserver")))
     (home-page
       "http://github.com/ananthakumaran/tide")
@@ -115221,17 +115218,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20230116.538")
+    (version "20230128.336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "979b62431fbbef2062db7e6b76a739affaa523a5")))
+                 "f23009a7912d3c7537282e5e7468acb12b8c460d")))
         (sha256
           (base32
-            "1hg91d92d5543azbvbfvswi5bj00zvknrlywmp1vrrgkc9n8mccq"))))
+            "05f62f0xnjf2gx6bj36xdawjzjh63fxsbrrx89vfyxyr890c6i68"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
