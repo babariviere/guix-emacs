@@ -10308,17 +10308,17 @@
 (define-public emacs-caml
   (package
     (name "emacs-caml")
-    (version "20220928.835")
+    (version "20230129.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/caml-mode.git")
                (commit
-                 "a970f303065fe176a920db0466dacf3e2a20b56b")))
+                 "959a5a27bfdbaa43a9ff99be136d62e0798f5e01")))
         (sha256
           (base32
-            "1bd21fhcjgz7iadbz66yyzb7d88mlan7mkxm8zm0jnlkhdmixc9v"))))
+            "145y73lrrwwcl7xg12aq42a1zc1cwgvm7kg3gk18j5k40cy9x696"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ocaml/caml-mode")
     (synopsis "Caml mode for GNU Emacs")
@@ -12122,17 +12122,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230117.932")
+    (version "20230129.906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "14923cb8c3be94a40fe7ca213948d1137b1cb3dc")))
+                 "d7a5200b9e79024b1d9dc35d7e754f64a0b9b030")))
         (sha256
           (base32
-            "0f1f8xbaxdmv8csbydxg91gxpn0d0cjz8j3dg4kib97lw1bfw666"))))
+            "1wqf8zm3y1skxfr84n5z6hflm4lhmyymxlcd0vawvkjnyv4y3236"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -25375,17 +25375,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20221218.1146")
+    (version "20230129.1205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "39ce590191cb63e1f6b77b4419c6a6846c39a67e")))
+                 "81a8167fffd1db32e72bdaa9dda197e335fdfab7")))
         (sha256
           (base32
-            "0frkfv2sgwxp0ygkc7mrwj9awmqkv0rqm66qcwrbjfg65rvp957f"))))
+            "17ylk42z9hiwslsxv48959bzlimzjjfxvsdgawyk67l747jqskwv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -50149,17 +50149,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230117.1512")
+    (version "20230129.1448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "6faca20c0ca0d202ad9a120e8609d07a0aa566ce")))
+                 "3ecf8aaf84afd36753c6f75fd706f99435f433c4")))
         (sha256
           (base32
-            "04li1vdrcm5wr4bzy055ib4xbsa60pzkj415762y941vf1agj1fn"))))
+            "1mmzmkjkjzgw60nj08c0sa9i9m0k77fgrlwq8il8jskngk39nla2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -56232,17 +56232,17 @@
 (define-public emacs-howm
   (package
     (name "emacs-howm")
-    (version "20221227.1136")
+    (version "20230129.1012")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://scm.osdn.net/gitroot/howm/howm.git")
                (commit
-                 "a06238160809189d69e19be8e01089cb0cbcdb52")))
+                 "f4b2c9ec980062d6c1eb57d8633fa0a1b7204b7c")))
         (sha256
           (base32
-            "0izbgllm0k5vjzhf26wr7j64pq9wsyyi9n3y7rx1gv9g84580jmv"))))
+            "0yhfg6yglv1d6lnfhf6hg8zmrvnvrgbx2r1kv98pl161k0rz5zyf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "*.el.in"))))
@@ -66625,17 +66625,17 @@
 (define-public emacs-libelcouch
   (package
     (name "emacs-libelcouch")
-    (version "20200923.1836")
+    (version "20230129.1000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/libelcouch.git")
                (commit
-                 "5ae35266c9a2eb33f0c708bc8c0687339cee9133")))
+                 "595697f4199519dd018fe489e885f237c54b0675")))
         (sha256
           (base32
-            "0vk7m8napg3ss4d9cgsrhkycb5k07q440lspxihy047556l6q3cm"))))
+            "0a3mykx9xmbl8scpz08349lyxi0ism8bv01a4aw770649vnqz86j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -76982,17 +76982,17 @@
 (define-public emacs-neil
   (package
     (name "emacs-neil")
-    (version "20230120.1237")
+    (version "20230129.1352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/babashka/neil.git")
                (commit
-                 "a28b7b4fbb167445a8fd0cf02f5f017d30a024ad")))
+                 "4d8a2884ab147ab5fa7d142e419f673c5ca7bdbc")))
         (sha256
           (base32
-            "0jh153rp7f4gdilhynwrkyxxq1m13gabkl7p44xlj2l6nizygvzr"))))
+            "1rq9qnw0yc62avr4n9ggi097bli8yi3by8x6w47hinhnyjssgrn5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/babashka/neil")
     (synopsis "companion for Babashka Neil")
@@ -102896,7 +102896,7 @@
 (define-public emacs-scroll-on-jump
   (package
     (name "emacs-scroll-on-jump")
-    (version "20230124.220")
+    (version "20230129.1209")
     (source
       (origin
         (method url-fetch)
@@ -102906,7 +102906,7 @@
                ".el"))
         (sha256
           (base32
-            "17q2xqdybms4fq23z9bqs6p7hg11158li3w5daqpdf2x9rm9jra8"))))
+            "0wy3a28z7qc9g1p4k9d1yf913v40xb1yfqnd5d14lgd56cligdmg"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.com/ideasman42/emacs-scroll-on-jump")
@@ -109261,17 +109261,17 @@
 (define-public emacs-ssh-deploy
   (package
     (name "emacs-ssh-deploy")
-    (version "20220126.658")
+    (version "20230129.903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cjohansson/emacs-ssh-deploy.git")
                (commit
-                 "9311f9b4f8d25ce54fb7da9bf59d955fed366a4d")))
+                 "94b56c0428fa0c788578161edc9e7992b13cd400")))
         (sha256
           (base32
-            "1wgm4q46nja71grwbdnacnlazj3cgfr6r1glpkyx8y3dn9amdhip"))))
+            "1rg1hzhv8q1gfgfhd4pm22vx6mk5zkkkdq3zyg0dqb49r5skrbss"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/cjohansson/emacs-ssh-deploy")
@@ -113528,17 +113528,17 @@
 (define-public emacs-tide
   (package
     (name "emacs-tide")
-    (version "20230128.406")
+    (version "20230129.1346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ananthakumaran/tide.git")
                (commit
-                 "52924d0b591238994457b36c79f1ce906653feda")))
+                 "29475d9eee26f4101322209e9b6b199df5386094")))
         (sha256
           (base32
-            "0m93k6xrypf40342vdvyisq78d0zav8k7f6ffihnnqy4zx4vpq7w"))))
+            "05pp0sijyw1q2vfgpir76vmm102k3lhpz6gynqz3ha98xir5j7yj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-flycheck))
@@ -114817,17 +114817,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20230124.2013")
+    (version "20230129.923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "4a823dbf7f57f97877a519d12b949b5b202d517c")))
+                 "31c8211819b47ae89a213cde65183049ad5580d6")))
         (sha256
           (base32
-            "1sar4wbgac397hpqis0bm2w5n52ycisczarmdnd5ni45zn1yzdgn"))))
+            "11rvd3npyrn1qaqbbgaq21s0z4w6222k30yfv9368vkir0zjj307"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -120122,17 +120122,17 @@
 (define-public emacs-weather-metno
   (package
     (name "emacs-weather-metno")
-    (version "20150901.107")
+    (version "20230129.1540")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ruediger/weather-metno-el.git")
                (commit
-                 "bfc7137095e0ee71aad70ac46f2af677f3c051b6")))
+                 "cb50e5a975e5831ead9486a83df9dcb4a06d9f3d")))
         (sha256
           (base32
-            "05gfc67724b0mwg8kvk3dsazx3dld50b9xjq8h1nc6jvdz3zxb9z"))))
+            "0dvg6w60v8vsjl0h0x7n70nlijizvyxclfbf4kirk0zifhc14g76"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ruediger/weather-metno-el")
