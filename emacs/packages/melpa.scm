@@ -16811,17 +16811,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230128.936")
+    (version "20230128.1624")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "4aab49c7454c5436298ba60e0ea39d5c9c4acb51")))
+                 "778074acfbacb1f39b497dc5b2a212b83d0f3497")))
         (sha256
           (base32
-            "0pji61l4w87n44dc2j8ak5kjvkwz4ckraizxmszhcygqybsinn2k"))))
+            "1y29vawsx83v9dxsdlw1z723l3ivw0c6k4xlk6xc508nk9444037"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -29891,17 +29891,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230127.2054")
+    (version "20230128.2006")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "213ced2c5d30848ec03bb8599590b111b27c7839")))
+                 "3978c66c055632430d8351a32f84e72c9c3d9357")))
         (sha256
           (base32
-            "1safw3bad2w6gjzr85iygy52cz784xr23m3zaib1df3wjqg7cxrg"))))
+            "1kx9lz07f361dig4iyslnpqv6yv8xigdqvs1zbrckg1ih2qqbcyb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -30077,17 +30077,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20230125.2015")
+    (version "20230128.2102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "05fe0a83c9ccfd0cf06104815477c70da2a160be")))
+                 "f008e996d41c8052fd23d34cc81bf6ddd26e76ff")))
         (sha256
           (base32
-            "0w83nfmmi2bpmrb6scf0g6q1r1b7wchbj6ijp23bca91dxk37q26"))))
+            "1d0dj94zlbvf2j9pilhfc9ykdzbfw0c15rz5jbw7fmzpvsgb1b74"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -33109,17 +33109,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230120.2022")
+    (version "20230128.2153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "9f25e190c360dc65dbcdfaef3d6408eedd5921d9")))
+                 "81b813e7ac229b0eb82d0a9adcf6e3950773b558")))
         (sha256
           (base32
-            "0nwnrprl8z3vaxdrnk44m7y9zy2crs3sb1glz0a43c3apsif6hi7"))))
+            "0yva28rqnaqmwkgq32qhnpyg1lmp4g3gcvjbbsyvdkw0n3wzqn3g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -55380,17 +55380,17 @@
 (define-public emacs-himalaya
   (package
     (name "emacs-himalaya")
-    (version "20230109.2241")
+    (version "20230128.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dantecatalfamo/himalaya-emacs.git")
                (commit
-                 "dd90eed0780675baa0dd8f9e35fa0618561ba783")))
+                 "1e4b77833a3fcb67fd4c3a85ff290a8fb7724452")))
         (sha256
           (base32
-            "1c7mcy11l4v1f7l0hf7w63z9q7nv67j1819nps5c1kb0ql026gb3"))))
+            "0mj1xcza8mz18xlnxk0wxqqcbd47hwa2rp21g79jz31am3ndvxli"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dantecatalfamo/himalaya-emacs")
@@ -63833,17 +63833,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230126.2217")
+    (version "20230128.2006")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "c68112fdd933db6c0aecf25b114bb8f959ed5d2f")))
+                 "e4268bcf935d654f0347422505ab621b4f1bff23")))
         (sha256
           (base32
-            "1714fqh9mqcsd36yx7jx3jsja3p8zr5sk5vyr7dvlh9sw2jkr4b2"))))
+            "0yi529bnzjdp8gj17f573zdxsxzxh7xjbpnivqsjl44jwjp2bp85"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -71626,7 +71626,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230128.1300")
+    (version "20230128.1527")
     (source
       (origin
         (method url-fetch)
@@ -71636,7 +71636,7 @@
                ".tar"))
         (sha256
           (base32
-            "0f3hfphrkghydrpjdnlmwcxvby61rpq0545gld8cjxnsl1kzknrr"))))
+            "090k1w3p24iisx8z20hnkwi0qdm0c8p69qb6v7a7fcc3dydzaifr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -101636,17 +101636,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20230121.1539")
+    (version "20230128.1751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "ad9bd01b9c55a295be39e5334110900690ff21f6")))
+                 "15989890ed09703eed2272e2ad4707d4d67f8c81")))
         (sha256
           (base32
-            "0lydqyqr7v0jjcn544mpfrdh6nyzwf1hlhybrxmwizz6kv610qyz"))))
+            "0vmndjndk4fw8px5h1cq2zwb8m6ck1vpjnymk36y0hs2zmfnmjrd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
@@ -115218,17 +115218,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20230128.336")
+    (version "20230128.1459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "f23009a7912d3c7537282e5e7468acb12b8c460d")))
+                 "1076cf2366be8ef1bd6fd7239f92f16cc0890fce")))
         (sha256
           (base32
-            "05f62f0xnjf2gx6bj36xdawjzjh63fxsbrrx89vfyxyr890c6i68"))))
+            "1ywvsbqwd7v9x9gq8ygc4qkkfnjfdnm51r3vbq5f9sr5xynn1c2h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
