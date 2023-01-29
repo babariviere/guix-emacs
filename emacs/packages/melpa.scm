@@ -16811,17 +16811,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230128.1624")
+    (version "20230129.112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "778074acfbacb1f39b497dc5b2a212b83d0f3497")))
+                 "835921c022cc14eecad10060e3aa89936e5ee85c")))
         (sha256
           (base32
-            "1y29vawsx83v9dxsdlw1z723l3ivw0c6k4xlk6xc508nk9444037"))))
+            "00w6anlyhap9242l92am75pi4nm2zj1jw04acm9byy33lh3vva4h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16857,17 +16857,17 @@
 (define-public emacs-consult-codesearch
   (package
     (name "emacs-consult-codesearch")
-    (version "20221220.1153")
+    (version "20230129.415")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/youngker/consult-codesearch.el.git")
                (commit
-                 "5dd9de752c77bc9a07c960bcecb83e9d05855ce9")))
+                 "7b666ab50d120b25272183d921d581e01e77789a")))
         (sha256
           (base32
-            "1l4kdrd4qgknkam076hf820wyp5zylqwfxx6fb63q55a8s2y4bh6"))))
+            "08qrq565xpbwx4gc1ny2i6fw4i0pjzmfhr3fvaidcq9vsw8vwsc1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-codesearch emacs-consult))
@@ -45331,17 +45331,17 @@
 (define-public emacs-git-link
   (package
     (name "emacs-git-link")
-    (version "20230115.529")
+    (version "20230129.647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sshaw/git-link.git")
                (commit
-                 "ab55572b485e5daa4873d806463b9318f9bd605a")))
+                 "2fdc6fde9db78df3719743f073a37be6e779a5f2")))
         (sha256
           (base32
-            "0dwxndxac2lbazbr0limmgkfs3mjpzkla1zwp66xqjrmz4769ai1"))))
+            "0j4nvlbsylrms7xv5ipp0chqxi8ia870i53msqnns5p5a732amp2"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/sshaw/git-link")
     (synopsis
@@ -63833,17 +63833,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230128.2006")
+    (version "20230129.455")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "e4268bcf935d654f0347422505ab621b4f1bff23")))
+                 "cf4d8f0c77b40a5d2d94d890e87ba64729c54f82")))
         (sha256
           (base32
-            "0yi529bnzjdp8gj17f573zdxsxzxh7xjbpnivqsjl44jwjp2bp85"))))
+            "0sns975bihjy9gdvr54lwjbmi6g5iz9sj7hl1hhd5bbdprzr12nh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -65426,17 +65426,17 @@
 (define-public emacs-langtool
   (package
     (name "emacs-langtool")
-    (version "20230127.839")
+    (version "20230129.304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-langtool.git")
                (commit
-                 "69dc4f71dd06fe36f8335deb6d5caf980cda2d45")))
+                 "c4643526a81e35e7f5ef85f03d460b413505739f")))
         (sha256
           (base32
-            "0wv248pwd2nx2519nw9s9p5xc88m841xim5q3rngza5d0f7f7hhf"))))
+            "0j8bax410lq5yxxpcmqmds7wgqsxbpf1g8g8ayira75zx5lpwlkh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mhayashi1120/Emacs-langtool")
@@ -68520,18 +68520,19 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20230123.346")
+    (version "20230129.151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "d07baee1aaa89a3786b0b7202e5d12dda77618f9")))
+                 "85b817f000d922c8e98865bb621b7432dfc0e938")))
         (sha256
           (base32
-            "1gir5h3jm0qqb2fn5ky1qi7k9m3qslq07r6mdax1g51vkzrl1fmy"))))
+            "05vg4w5j9zs4g2z0i0884p8grnh9pahhicp8dva28cg3jmxny625"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (arguments
       '(#:files (:defaults (:exclude "loopy-dash.el"))))
     (home-page "https://github.com/okamsn/loopy")
@@ -69951,17 +69952,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230125.1440")
+    (version "20230129.555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "c883fabe28a74d59d996cbef3f742874f3459bc0")))
+                 "76fe394953281fd9a9b68b2cfd0873bfa20ff269")))
         (sha256
           (base32
-            "0cq2bgny5jac1n9h7hp0pkipil41sf079h2qh5rh7bj0085dc7wv"))))
+            "0d28iqhi2dbl0w45vww7h8wnzggqg12ivnrxq8dkafq1gj22pw55"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -87837,17 +87838,17 @@
 (define-public emacs-ox-linuxmag-fr
   (package
     (name "emacs-ox-linuxmag-fr")
-    (version "20230101.1040")
+    (version "20230129.800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/ox-linuxmag-fr.git")
                (commit
-                 "9deedb17b3a2d9bc7dd857a639da382f04c5514c")))
+                 "c3d7c234ff94a47d732c1735832320ef669fa0fe")))
         (sha256
           (base32
-            "1mavj3kpfz75iipw6fqcwd9kvq1prpjiz9ai25f13fpxds1gr7ic"))))
+            "1lkks6874qxycl7dki79xwz847r92j79fqaybklsplwdz0aky0gf"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "resources")))
     (home-page
@@ -115195,17 +115196,17 @@
 (define-public emacs-tree-sitter-ispell
   (package
     (name "emacs-tree-sitter-ispell")
-    (version "20221105.713")
+    (version "20230129.327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erickgnavar/tree-sitter-ispell.el.git")
                (commit
-                 "6d486371d641a809f44df21921e64ef381844e83")))
+                 "0f2fd722df3e5480694ebce56109432c8b73333f")))
         (sha256
           (base32
-            "1a1hgxd9f8b5n49bbyqlcswjwbyazjq7p75ng481mlkvb9hac1ic"))))
+            "15dyzs3dmyvn7cvz00gw33klivkgdms9h5kv040w5j44gz0hmps7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (home-page
