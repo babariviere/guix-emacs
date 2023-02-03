@@ -48482,17 +48482,17 @@
 (define-public emacs-graphviz-dot-mode
   (package
     (name "emacs-graphviz-dot-mode")
-    (version "20230201.1633")
+    (version "20230203.1304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ppareit/graphviz-dot-mode.git")
                (commit
-                 "931086830c02056ae108648c65537980650c8383")))
+                 "735602c93b3e0587123788f6828eebd019018dc7")))
         (sha256
           (base32
-            "131zjgzmhfg7qm2mikzl685qz5riwg2d0m3hs7i3a469qs530n19"))))
+            "00vqq08rn91mb7a6cqqvb9mdbvf0qqjjh0ilv7c88hshb0c7qfb6"))))
     (build-system melpa-build-system)
     (home-page
       "https://ppareit.github.io/graphviz-dot-mode/")
@@ -69138,17 +69138,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230202.2016")
+    (version "20230203.924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "3ac10bfb712a3c567ddac467510cff988d6b0163")))
+                 "6b01d49757994c09c90623bf67f072d02f00f8e9")))
         (sha256
           (base32
-            "1jn75xnmhhz9101j9szy3v6qnc9dagifi14x11hwni16klzviilj"))))
+            "06xrhh71vq3a93rcqqlis2kpkgf6jyx3zzh7gvhjzigx6x7gnxcg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74210,7 +74210,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230131.1319")
+    (version "20230203.705")
     (source
       (origin
         (method url-fetch)
@@ -74220,7 +74220,7 @@
                ".tar"))
         (sha256
           (base32
-            "1y6cnm89dkkfkkacnkpqbn2cciapra6f492nikfl4s0lmykgcrm0"))))
+            "1hwnwiwaz5jdy4b3dycn9b7i9s7p0l6q2hcdnf891d37rbby257l"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -120817,23 +120817,22 @@
 (define-public emacs-wgrep
   (package
     (name "emacs-wgrep")
-    (version "20230201.941")
+    (version "20230203.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-wgrep.git")
                (commit
-                 "712cfff5484d64171bd9a58c5431eeba4ac123fa")))
+                 "b4d69280d8a6a5ded1597e02afbaa811a160383b")))
         (sha256
           (base32
-            "13iz2xinmi158ri784y8rk1nsdszdp5c82c4zphfvjkv0rp6p1d0"))))
+            "16qg5dpg7hms5dmh92ksnjahf6010pw97ggi7sb0mfafd6iwps0a"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wgrep.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep.el")
-    (synopsis
-      "Writable grep buffer and apply the changes to files")
+    (synopsis "Writable grep buffer")
     (description
       "Documentation at https://melpa.org/#/wgrep")
     (license #f)))
@@ -120841,24 +120840,23 @@
 (define-public emacs-wgrep-ack
   (package
     (name "emacs-wgrep-ack")
-    (version "20200203.830")
+    (version "20230203.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-wgrep.git")
                (commit
-                 "f9687c28bbc2e84f87a479b6ce04407bb97cfb23")))
+                 "b4d69280d8a6a5ded1597e02afbaa811a160383b")))
         (sha256
           (base32
-            "090k2kznhdmzzd4hrs834mbr8kwady2ks1684kgzqjzvwhv36v6i"))))
+            "16qg5dpg7hms5dmh92ksnjahf6010pw97ggi7sb0mfafd6iwps0a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wgrep))
     (arguments '(#:files ("wgrep-ack.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-ack.el")
-    (synopsis
-      "Writable ack-and-a-half buffer and apply the changes to files")
+    (synopsis "Writable ack-and-a-half buffer")
     (description
       "Documentation at https://melpa.org/#/wgrep-ack")
     (license #f)))
@@ -120866,24 +120864,23 @@
 (define-public emacs-wgrep-ag
   (package
     (name "emacs-wgrep-ag")
-    (version "20230201.941")
+    (version "20230203.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-wgrep.git")
                (commit
-                 "712cfff5484d64171bd9a58c5431eeba4ac123fa")))
+                 "b4d69280d8a6a5ded1597e02afbaa811a160383b")))
         (sha256
           (base32
-            "13iz2xinmi158ri784y8rk1nsdszdp5c82c4zphfvjkv0rp6p1d0"))))
+            "16qg5dpg7hms5dmh92ksnjahf6010pw97ggi7sb0mfafd6iwps0a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wgrep))
     (arguments '(#:files ("wgrep-ag.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-ag.el")
-    (synopsis
-      "Writable ag buffer and apply the changes to files")
+    (synopsis "Writable ag buffer")
     (description
       "Documentation at https://melpa.org/#/wgrep-ag")
     (license #f)))
@@ -120891,24 +120888,23 @@
 (define-public emacs-wgrep-helm
   (package
     (name "emacs-wgrep-helm")
-    (version "20210322.2148")
+    (version "20230203.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-wgrep.git")
                (commit
-                 "f9687c28bbc2e84f87a479b6ce04407bb97cfb23")))
+                 "b4d69280d8a6a5ded1597e02afbaa811a160383b")))
         (sha256
           (base32
-            "090k2kznhdmzzd4hrs834mbr8kwady2ks1684kgzqjzvwhv36v6i"))))
+            "16qg5dpg7hms5dmh92ksnjahf6010pw97ggi7sb0mfafd6iwps0a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wgrep))
     (arguments '(#:files ("wgrep-helm.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-helm.el")
-    (synopsis
-      "Writable helm-grep-mode buffer and apply the changes to files")
+    (synopsis "Writable helm-grep-mode buffer")
     (description
       "Documentation at https://melpa.org/#/wgrep-helm")
     (license #f)))
@@ -120916,24 +120912,23 @@
 (define-public emacs-wgrep-pt
   (package
     (name "emacs-wgrep-pt")
-    (version "20200203.830")
+    (version "20230203.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-wgrep.git")
                (commit
-                 "f9687c28bbc2e84f87a479b6ce04407bb97cfb23")))
+                 "b4d69280d8a6a5ded1597e02afbaa811a160383b")))
         (sha256
           (base32
-            "090k2kznhdmzzd4hrs834mbr8kwady2ks1684kgzqjzvwhv36v6i"))))
+            "16qg5dpg7hms5dmh92ksnjahf6010pw97ggi7sb0mfafd6iwps0a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wgrep))
     (arguments '(#:files ("wgrep-pt.el")))
     (home-page
       "http://github.com/mhayashi1120/Emacs-wgrep/raw/master/wgrep-pt.el")
-    (synopsis
-      "Writable pt buffer and apply the changes to files")
+    (synopsis "Writable pt buffer")
     (description
       "Documentation at https://melpa.org/#/wgrep-pt")
     (license #f)))
