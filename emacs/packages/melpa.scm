@@ -1835,17 +1835,17 @@
 (define-public emacs-adwaita-dark-theme
   (package
     (name "emacs-adwaita-dark-theme")
-    (version "20230126.1050")
+    (version "20230203.143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/adwaita-dark-theme.git")
                (commit
-                 "d137551c5a9e13d311eda625a09f94543ec7bbb6")))
+                 "35d35f51723f820eaa3d5262bb0f7c02b502943d")))
         (sha256
           (base32
-            "0sb9jsm50186k6ljq9n1cvnw2k3y5qf9bv1wrccjdrv070av762q"))))
+            "0gmv758zj6fdyzzpv21j5dhhjdvkxv2w3j9j3xj6cihh6hsp8dhk"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/adwaita-dark-theme")
@@ -10237,17 +10237,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20230117.926")
+    (version "20230203.314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "f2849d394427d5753fc1ded1533922f84a5da73f")))
+                 "744882259c42c628630a064523cf2cde59dc34fe")))
         (sha256
           (base32
-            "1vvrld37vih0affzf6ldm3l7yd07bzf7hajbb52wf5y8cz6mhhmp"))))
+            "0pnvarxd2m65hgkr8db6pvyf2w3cdr5604r13sjr3fdpvpsyjccx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -11949,7 +11949,7 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20221220.314")
+    (version "20230203.557")
     (source
       (origin
         (method url-fetch)
@@ -11959,7 +11959,7 @@
                ".tar"))
         (sha256
           (base32
-            "0q9vpqrbk8d6n127f912g51ds3phyidqrqqajif650qvdxi51djg"))))
+            "01xv1v8a41d89mjbhrvwj0xcs7j1iys9zg6kg34pz0zfffng9jsg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (home-page
@@ -27746,17 +27746,17 @@
 (define-public emacs-elcord
   (package
     (name "emacs-elcord")
-    (version "20221031.1726")
+    (version "20230203.101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Mstrodl/elcord.git")
                (commit
-                 "d0c9ace493d088bc70f7422705ff27dfcf162cca")))
+                 "43ae6c375811754e640b0bae4678bf33e72988e9")))
         (sha256
           (base32
-            "0czilbq6cwwxd1hbrjh5jb7jlxz6rz8kzx2n7g26rbr16sk0mdl4"))))
+            "03ljcpy7bf08l0zdrq27h2h2mf92rwc8yv26w8bl4gam83ypkk1c"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "stdpipe.ps1")))
     (home-page "https://github.com/Mstrodl/elcord")
@@ -28490,7 +28490,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230201.127")
+    (version "20230203.3")
     (source
       (origin
         (method url-fetch)
@@ -28500,7 +28500,7 @@
                ".tar"))
         (sha256
           (base32
-            "1wzb66nd8xynvcsix23lwvx084d96b55mmzq4kkk6cyfv3dhli6d"))))
+            "1ysqfh0jym76yd21g9h8fwx5rmn580x7y61jif8bdx6ff641byd8"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -29891,7 +29891,7 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230202.1737")
+    (version "20230202.2322")
     (source
       (origin
         (method git-fetch)
@@ -63947,17 +63947,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230202.433")
+    (version "20230203.510")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "620ea55f1bc29f3cf1e27cacc38eb1fc2a9e2280")))
+                 "ca8f6b45cc2f54494134197876c97ff6c623bf55")))
         (sha256
           (base32
-            "1jxfn1gm7nq9kkmqqzk8ljcqgml9q1rfxfmw2swj1pkw01b9rrmp"))))
+            "15bs5xl8l2p4gakmkrfdc066axq38xzijjz5rrmblv7c2zcrfwxa"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -72910,17 +72910,17 @@
 (define-public emacs-mew
   (package
     (name "emacs-mew")
-    (version "20221129.556")
+    (version "20230203.100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kazu-yamamoto/Mew.git")
                (commit
-                 "7ab02416029d0f15580efa3c4c3ff39f32d7c0ad")))
+                 "f96266240586898ea44256f6b24743a50e1113cb")))
         (sha256
           (base32
-            "1pglc9qj23d6k7rbzal29il7yv4xlza7hrpryjif7lf6897vibvy"))))
+            "02wjy66i3wnxvc4ps27cymj23y0g3w1rs6yxbl8ddn3srygw5pwa"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("*.el" "etc" "info/*.info*")))
@@ -83553,17 +83553,17 @@
 (define-public emacs-org-ivy-search
   (package
     (name "emacs-org-ivy-search")
-    (version "20230131.552")
+    (version "20230203.301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/org-ivy-search.git")
                (commit
-                 "27308329b71a7fcc7a1067e28c1bd4e48af3109d")))
+                 "278e98a4f2103919ede49a77d9b7c5e4ade945a7")))
         (sha256
           (base32
-            "01x6fb586xx4z715y21zwgcmkqlra7jhgkhfx1r8y6d5g1d1m6pf"))))
+            "09pvyrggmscpa25vdyszfyf1zi8a4lilizkng5ci66j9pvla36ir"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (home-page
@@ -109817,17 +109817,17 @@
 (define-public emacs-sticky-shell
   (package
     (name "emacs-sticky-shell")
-    (version "20230125.1441")
+    (version "20230203.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andyjda/sticky-shell.git")
                (commit
-                 "8abe99255cf8a4bf86a5d459ee501fb66de31ad7")))
+                 "60fa3cbf17572426eca4bc970f597fc31e5369c3")))
         (sha256
           (base32
-            "1c1akf0zlnvcgkgq9jkbday6b2055k8k949ihhaqq8cs9hbqs721"))))
+            "1z6vh2rn20xqx3hmrzinw7j3sj8idrv88nb40a1bcycyzyla3gin"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/andyjda/sticky-shell")
