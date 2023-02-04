@@ -3214,17 +3214,17 @@
 (define-public emacs-annotate
   (package
     (name "emacs-annotate")
-    (version "20221219.1831")
+    (version "20230203.1756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/annotate.el.git")
                (commit
-                 "d3988a476b410e0135d7345390fc88224c51fc6d")))
+                 "e433ec6803d773ad2fd92f88b1ffce41ee999c65")))
         (sha256
           (base32
-            "171c57cldc49a4rscanmlycdw40pa8dwr3r2k6maqnxw9ll3bs9f"))))
+            "0dr0y1arv0wjhv0rvyln7v9r0bnqb2m1mz8qqi83fgj4ald67a9n"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/annotate.el")
@@ -7606,17 +7606,17 @@
 (define-public emacs-bind-key
   (package
     (name "emacs-bind-key")
-    (version "20221209.2013")
+    (version "20230203.2004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "bcf0984cf55b70fe6896c6a15f61df92b24f8ffd")))
+                 "77945e002f11440eae72d8730d3de218163d551e")))
         (sha256
           (base32
-            "0pmz5x7ghwsjyr4lhaqa53c7190bjqxaczljpsr62s60bn55fdsi"))))
+            "1irr8a8r28n8c0c2x5w1flgv1f3z5jy2i5r5dknddiqa93b3rm84"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("bind-key.el")))
     (home-page
@@ -33131,17 +33131,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230128.2153")
+    (version "20230203.1940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "81b813e7ac229b0eb82d0a9adcf6e3950773b558")))
+                 "e981c2d0a7c40e33d3de46306c13c469f845c290")))
         (sha256
           (base32
-            "0yva28rqnaqmwkgq32qhnpyg1lmp4g3gcvjbbsyvdkw0n3wzqn3g"))))
+            "1m2nz7vgfbclcnaibljjxz1cfrrwrp9wnnicbpm4x3vx8zm92swp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -65612,17 +65612,17 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20230128.1100")
+    (version "20230203.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-language-id.git")
                (commit
-                 "c1fd0fa31e196cf02f5352f026a83cfd7913f652")))
+                 "11f75c047f323948dd2c07ba41e5f2264dd8785a")))
         (sha256
           (base32
-            "08k1v6m34hxsglxx1fnbf04vw436nyypirzzcfd3nqw1n5zd72f2"))))
+            "016r4cj2180kjqij3yjzd9mhqixk03arr2ld4bl2zjzc06whaq4d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-language-id")
@@ -70066,17 +70066,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230131.1151")
+    (version "20230203.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "679ded808d78358a6adccd9d6d78ebf173ee1c47")))
+                 "48d38df20c8c821272921e7f290e6162c57fdb3d")))
         (sha256
           (base32
-            "0z3fi1srvf1sck65ak2ri0zzaj5gishphyarxm3d6w0xbp3yzv57"))))
+            "1dx48x0i344sn9mxf56nh4j7d7nxx5mmmx38bj0ai7dc7zi26b1w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -114408,17 +114408,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230202.1604")
+    (version "20230203.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "13b38e1c0a2854112ebdcdef63d97f1663b3cc9c")))
+                 "b096aa66a704e5c851b9285315fe931e2a8b605c")))
         (sha256
           (base32
-            "140dx44as6anrgn080v5rpkj9fphlpi6x48d48pizwhv6yiqlbb0"))))
+            "1kd4dbl4jcaqkiiwiqs6lrkx36db8h9mfyb0hkhfvaspal0asnh3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -117617,17 +117617,17 @@
 (define-public emacs-use-package
   (package
     (name "emacs-use-package")
-    (version "20221209.2013")
+    (version "20230203.2004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/use-package.git")
                (commit
-                 "bcf0984cf55b70fe6896c6a15f61df92b24f8ffd")))
+                 "77945e002f11440eae72d8730d3de218163d551e")))
         (sha256
           (base32
-            "0pmz5x7ghwsjyr4lhaqa53c7190bjqxaczljpsr62s60bn55fdsi"))))
+            "1irr8a8r28n8c0c2x5w1flgv1f3z5jy2i5r5dknddiqa93b3rm84"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-bind-key))
     (arguments
