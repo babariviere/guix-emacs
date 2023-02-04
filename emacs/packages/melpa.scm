@@ -3674,17 +3674,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20230127.314")
+    (version "20230204.7")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "2520f14e1fadb9174e506db157df3adaedc63ed4")))
+                 "a74cd991a6c97b6cde13be640ed84b7918476b5e")))
         (sha256
           (base32
-            "1sby66jjrqg1dhw1z4ydcl2s10n0nrjkr4qlc23gzpz1j05q9s24"))))
+            "1g1xkkvzvh3abbpxa7y8f998q10jc31rxw25pjn6pqx1360q990a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -5194,17 +5194,17 @@
 (define-public emacs-auto-dark
   (package
     (name "emacs-auto-dark")
-    (version "20230104.29")
+    (version "20230204.129")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/auto-dark-emacs.git")
                (commit
-                 "88f4eb448525c8e11d00daa77ec8595b0863fd92")))
+                 "ca90fc638cfaf70d5e0b82657d3d26cd0b289059")))
         (sha256
           (base32
-            "1l17dipndpppr92y30pwam2ms33ihgml3ka0iyrjajb0cj08hi0b"))))
+            "1shjl1pck2m7ncpwjfz77ibddx3pz68gma1icccad7piz2c67zrj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/LionyxML/auto-dark-emacs")
@@ -30483,17 +30483,17 @@
 (define-public emacs-empv
   (package
     (name "emacs-empv")
-    (version "20230123.1635")
+    (version "20230203.2159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/empv.el.git")
                (commit
-                 "b4b6270f517eba0a38ade79709e9710e306a3ea3")))
+                 "a45a2a01a7e629c9126b444d952fe71bcc9a262f")))
         (sha256
           (base32
-            "0jky2y83j0w4fn5qqwa7kni2fvhxafzc0jjj4iix6xgd4r0c6p53"))))
+            "04hndxiq5k3zgh0wq8xcn8dzf65fg9zjqb9gav9w53dq3l236h81"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/isamert/empv.el")
     (synopsis "An interface for MPV")
@@ -36684,17 +36684,17 @@
 (define-public emacs-file-info
   (package
     (name "emacs-file-info")
-    (version "20230130.2024")
+    (version "20230203.2204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/file-info.el.git")
                (commit
-                 "d598b5cf6d9cb14e83c3a406eb48d262e12b6c0d")))
+                 "b62a4ad6c6cd90d0e53e8a461db93b7a87a166ba")))
         (sha256
           (base32
-            "0hlap2an8s6qiy504vy4bgksf1dc2g9q1z6mq05349yya5kni46f"))))
+            "0alnc4w21j473906lh8719vvsz4s2gfzzwf9pgpbid6h6h5pmc85"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-hydra emacs-browse-at-remote))
@@ -48145,17 +48145,17 @@
 (define-public emacs-gpt
   (package
     (name "emacs-gpt")
-    (version "20230122.518")
+    (version "20230204.433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stuhlmueller/gpt.el.git")
                (commit
-                 "9c0d5d89b53a825fd20543f7d640e9da69a0e547")))
+                 "a5eb9ce9cced47c26ecac5fa6bee044054ef948e")))
         (sha256
           (base32
-            "0prfaqrs17589ghz96ia6hwilxwrhv8x00fx1bl3hbhl1bxdp6vr"))))
+            "1vg4sc6j0i03riwzvj8pg333fihj4g2nwd3pgahjfkxps7fbmlqv"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "gpt.py")))
     (home-page
@@ -63349,17 +63349,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20220419.1852")
+    (version "20230204.212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-jupyter.git")
                (commit
-                 "7d20c0aee2f9c896215f35232905b23532ef04c5")))
+                 "14899664b601f39e59f62bdf9a180feb0f8ebff6")))
         (sha256
           (base32
-            "0lrg43xas5dx1qlhzk7irq5hwgpfpxkv27zgcrcy0sbhd9y8dad6"))))
+            "00g6qgl84v1id9mjfpfwqcyxrrahlzaw6vp0wdfybl46dmnhql40"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -72273,17 +72273,17 @@
 (define-public emacs-melancholy-theme
   (package
     (name "emacs-melancholy-theme")
-    (version "20230130.217")
+    (version "20230204.212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/baaash/melancholy-theme.git")
                (commit
-                 "6ae2fbc36b46b8c3addb08ed48efeb56627e534d")))
+                 "c29f9c70787f75749a8f5af4b1a650eec5bbf689")))
         (sha256
           (base32
-            "1f9sx9iawsrwil5pwn4mzkx2qp000411kwvh9wgbsycba6b4hs46"))))
+            "06hag53si17sjbqj0679jcg302nl2shivxb5wrdbiqv1f5j83sr5"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/baaash/melancholy-theme")
