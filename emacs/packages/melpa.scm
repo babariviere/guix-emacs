@@ -4037,17 +4037,17 @@
 (define-public emacs-aria2
   (package
     (name "emacs-aria2")
-    (version "20190816.25")
+    (version "20230204.1432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://gitlab.com/ukaszg/aria2.git")
+               (url "https://github.com/ukaszg/aria2.git")
                (commit
-                 "32e08d5a8ad2f305578e0f783e087c1d312238c7")))
+                 "f8fa515eb3e195760b022b5f635b413221451f9a")))
         (sha256
           (base32
-            "00135gq4xfblv50dwxq02dd1y18xv29lrl7iir3caq4pr3nhrshg"))))
+            "1f123izgr0sy67rs85qzba6iwywslqkih7aysndcfxz60452r2q5"))))
     (build-system melpa-build-system)
     (home-page
       "https://bitbucket.org/ukaszg/aria2-mode")
@@ -6510,17 +6510,17 @@
 (define-public emacs-bash-completion
   (package
     (name "emacs-bash-completion")
-    (version "20230202.837")
+    (version "20230204.1434")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/szermatt/emacs-bash-completion.git")
                (commit
-                 "584a3b3aa3b7d0f680e174c601ffa59ddbb7168d")))
+                 "4478da4ce19b805607ca702e4016befea1356da7")))
         (sha256
           (base32
-            "1g3bsw63by6gj6hw63j4a7l6cnyaa3d39bl0gqalx53xcsvv8wjy"))))
+            "12mczkm67cj4wbm6hbhf7ddhyqqri03y9bm3dkiwds45zrmap6m4"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/szermatt/emacs-bash-completion")
@@ -16811,17 +16811,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230204.1129")
+    (version "20230204.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "07b6a91f1a43e64e68b02dface961b839b6abcba")))
+                 "982ec0b0c15c5b01bb7bef7c45f142fcc32ab550")))
         (sha256
           (base32
-            "1chg8yrqz2i0s7xnlsm2jryw46ga8fndyk6li756191rc20jb8ph"))))
+            "0wcqzlm2lsalms0pff3kqdx1qn46j1w3ayi7bj2vkkwci45zyg1m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16953,17 +16953,17 @@
 (define-public emacs-consult-eglot
   (package
     (name "emacs-consult-eglot")
-    (version "20220409.1238")
+    (version "20230204.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/consult-eglot.git")
                (commit
-                 "0da8801dd8435160ce1f62ad8066bd52e38f5cbd")))
+                 "a577cac39800ec3d5d3461f405eebe6913ec38d6")))
         (sha256
           (base32
-            "1qxk1npxbf8m3g9spikgdxcf6mzjx6cwy3f5vn6zz5ksh14xw3sd"))))
+            "0zw55nji6zs4vckwsnyfy0zfbmdizqwa3zc6nrmif7ij683hqfqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-consult))
@@ -17049,17 +17049,17 @@
 (define-public emacs-consult-git-log-grep
   (package
     (name "emacs-consult-git-log-grep")
-    (version "20221117.1938")
+    (version "20230204.1753")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ghosty141/consult-git-log-grep.git")
                (commit
-                 "1d58fd3d6b1d7baeacbb0d1a09cee440397f5552")))
+                 "30dfcad5745a6b9882d94fec75d38c345a1eff89")))
         (sha256
           (base32
-            "10ppf1lzqbgcvncy4hjd9k0kbpl35xg7vykiyqrvii8j2hld0znd"))))
+            "144sz49k1jqbfmyg76pmmi9j5c77pfzn6mxamkl5vkvxqcs8z3ai"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -48482,17 +48482,17 @@
 (define-public emacs-graphviz-dot-mode
   (package
     (name "emacs-graphviz-dot-mode")
-    (version "20230203.1304")
+    (version "20230204.1617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ppareit/graphviz-dot-mode.git")
                (commit
-                 "735602c93b3e0587123788f6828eebd019018dc7")))
+                 "71beaf8bc23d9a139928c9b378e4be9d4fd0a683")))
         (sha256
           (base32
-            "00vqq08rn91mb7a6cqqvb9mdbvf0qqjjh0ilv7c88hshb0c7qfb6"))))
+            "0kgcn82zxy9a9cixp35y6saljhqc3rrpgh7246qzzylzq37hvzpv"))))
     (build-system melpa-build-system)
     (home-page
       "https://ppareit.github.io/graphviz-dot-mode/")
@@ -63947,17 +63947,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230203.510")
+    (version "20230204.1849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "ca8f6b45cc2f54494134197876c97ff6c623bf55")))
+                 "40acb049ab0e2e2f0f062b6e5eff4b0bf62ff16f")))
         (sha256
           (base32
-            "15bs5xl8l2p4gakmkrfdc066axq38xzijjz5rrmblv7c2zcrfwxa"))))
+            "074mjfxzfq3ainhy7vbgl7b5kznppi15zjapsgg5v50cp7v9l0km"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -67632,17 +67632,17 @@
 (define-public emacs-lister
   (package
     (name "emacs-lister")
-    (version "20220802.2128")
+    (version "20230204.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/publicimageltd/lister.git")
                (commit
-                 "f3e9748b3417184c36e301a381ec20ef4a88e511")))
+                 "b256c254f670ebaf50134655fbe430025fff41ab")))
         (sha256
           (base32
-            "04y51ifjdnkczsvmv70py15p41gc8mhg6f568k3xwdg1791qhwr5"))))
+            "151wn6g49w15bjnqbnq12ig7f9zdi5d1j21yadp0jvb9jjzk6jg1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/publicimageltd/lister")
@@ -70066,7 +70066,7 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230204.1138")
+    (version "20230204.1411")
     (source
       (origin
         (method git-fetch)
@@ -77118,17 +77118,17 @@
 (define-public emacs-neil
   (package
     (name "emacs-neil")
-    (version "20230131.1220")
+    (version "20230204.1728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/babashka/neil.git")
                (commit
-                 "832f3a9eee64f2ce72d787662bb3ea29b3d388c2")))
+                 "1f90624c2e2b75afd37f9195820470478af3a177")))
         (sha256
           (base32
-            "0cpi3dd4gljpjascwcdxj4x0d6a7igbkmwnija4ch7c914p97jsh"))))
+            "1i9ckcvsh6j1j4hzh6znzwbj653rin20m12pw70randjchf77kn9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/babashka/neil")
     (synopsis "companion for Babashka Neil")
@@ -89268,17 +89268,17 @@
 (define-public emacs-paperless
   (package
     (name "emacs-paperless")
-    (version "20220819.226")
+    (version "20230204.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/atgreen/paperless.git")
                (commit
-                 "f230acbc01588bb2ec99426832099b7fb7bad6c0")))
+                 "e524e31350d74f13319968d24b7326a4a412e105")))
         (sha256
           (base32
-            "1glxxmm28w7yklr86m743mg068k24hbnvfx6xyb48d3fq568r2d0"))))
+            "1dba7n6ws6f8y5j6qvy8ildjrlz5ahzzpfqcjnvynpycxj54vjs1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-s))
     (home-page "http://github.com/atgreen/paperless")
@@ -89474,17 +89474,17 @@
 (define-public emacs-parinfer-rust-mode
   (package
     (name "emacs-parinfer-rust-mode")
-    (version "20221209.1619")
+    (version "20230204.1915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/justinbarclay/parinfer-rust-mode.git")
                (commit
-                 "398f3dc4d17c277a4bf9b883cc534f13f2611828")))
+                 "332c7f47426f0519dc5c24dda82afdb1aa8b61ee")))
         (sha256
           (base32
-            "1dd9n9qy1crbza55gjc63mpakrq2a734q23imyr5im4nqnzn5z5p"))))
+            "12rx37js82lxq80bq2rpzgw8miw7ni0hx9xhxa775c67idyppjzv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/justinbarclay/parinfer-rust-mode")
