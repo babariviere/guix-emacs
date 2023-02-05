@@ -4037,17 +4037,17 @@
 (define-public emacs-aria2
   (package
     (name "emacs-aria2")
-    (version "20230204.1432")
+    (version "20230205.1008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ukaszg/aria2.git")
                (commit
-                 "f8fa515eb3e195760b022b5f635b413221451f9a")))
+                 "cc1661525bdf5c908c94a9d891a62d9b2e313670")))
         (sha256
           (base32
-            "1f123izgr0sy67rs85qzba6iwywslqkih7aysndcfxz60452r2q5"))))
+            "1sz6ixhw4x6cqs43nfld0156gwx4xjyh2pzbhg3ai1mc2nnmlkif"))))
     (build-system melpa-build-system)
     (home-page
       "https://bitbucket.org/ukaszg/aria2-mode")
@@ -14137,17 +14137,17 @@
 (define-public emacs-color-identifiers-mode
   (package
     (name "emacs-color-identifiers-mode")
-    (version "20230205.208")
+    (version "20230205.1208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ankurdave/color-identifiers-mode.git")
                (commit
-                 "d8a54e627c3bce638c5a23ed8f49c0b8af78e259")))
+                 "65e5c8f6fcf13f32607054e54b412f137da67f5e")))
         (sha256
           (base32
-            "1ahm3icxy8wwqx4l6zqf6iy2dq7ib5q9j1chw19pf5bi0gc0s3dk"))))
+            "0dkvn9sviia4lrl9zjsf4hdwb8ys8jdjgxwfvkq7y8j2hknv3h09"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -28482,7 +28482,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230205.334")
+    (version "20230205.435")
     (source
       (origin
         (method url-fetch)
@@ -28492,7 +28492,7 @@
                ".tar"))
         (sha256
           (base32
-            "02kjkagy1c0akigyr2k3r133minhvsphppl9hd7520b1myxy0vb9"))))
+            "19b9xih9kn0j7n0jadmgbxnv887pmk33dw03dpalh0nssghzlgmk"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -37725,17 +37725,17 @@
 (define-public emacs-flim
   (package
     (name "emacs-flim")
-    (version "20221214.1046")
+    (version "20230205.1423")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/flim.git")
                (commit
-                 "3a931b566494e7dc210a5109b60c8cbd5b655108")))
+                 "2cf5a7891090faca8de725b1d3743dcedf233ea2")))
         (sha256
           (base32
-            "0hva2nm0k37ssx42s0h9d9y6nawmp1g4qz1s8bvmp3s1897pvssz"))))
+            "1wsnipyl3blldcl8ynmpj1mxfvl7kjmxd8gapl83vqd3r0l9cr6q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-oauth2))
@@ -63939,7 +63939,7 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230205.407")
+    (version "20230205.547")
     (source
       (origin
         (method git-fetch)
@@ -74225,7 +74225,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230204.1253")
+    (version "20230205.723")
     (source
       (origin
         (method url-fetch)
@@ -74235,7 +74235,7 @@
                ".tar"))
         (sha256
           (base32
-            "1sq9khagb4r4jsd5rh0bk3p3g58rpz820h8iigd6lg5xnpp4df9w"))))
+            "19wfs1rb3x40mpgjak81hdxqp0y46f9mnaif5alscvbkxv3h3mp4"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -86694,17 +86694,17 @@
 (define-public emacs-orgtbl-aggregate
   (package
     (name "emacs-orgtbl-aggregate")
-    (version "20230204.1110")
+    (version "20230205.836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/orgaggregate.git")
                (commit
-                 "5bec08af7240d188ea4c8ce47d25eb2f8809dc79")))
+                 "4f9fcb4f7380b247d628b899135df23c8fc8b6f1")))
         (sha256
           (base32
-            "0x583z41900mdwchx6abjr6x8a5lrspvf2xhsr5fx22h2l178yiv"))))
+            "1b17c8g3x5k94yn76cl1h40hf9hka3w3cfjyybmcnrm92mg8g1cw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tbanel/orgaggregate/blob/master/README.org")
@@ -115373,17 +115373,17 @@
 (define-public emacs-tree-sitter-ispell
   (package
     (name "emacs-tree-sitter-ispell")
-    (version "20230129.1727")
+    (version "20230205.533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erickgnavar/tree-sitter-ispell.el.git")
                (commit
-                 "c37b612757d798cab6ac3e5f553cc45d3b48a4a2")))
+                 "d8c33c05f689c2cab36b8a9856811f18a4ab7c59")))
         (sha256
           (base32
-            "191pxlfrsrl2ypk04y57qn27cdh3airzg72kwfvcpp3vpv9h5y94"))))
+            "19i2hv6zy9797dz4b6xrwlkci5fdq4v2mxd55li2bpd6sgga28ns"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (home-page
