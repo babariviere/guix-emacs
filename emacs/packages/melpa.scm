@@ -12122,17 +12122,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230131.1937")
+    (version "20230205.643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "9bd1debdb9b4d586cdeaee66d912ad62b208efeb")))
+                 "ec31a4614bf612b228c79d59cc7554c4e9605db4")))
         (sha256
           (base32
-            "1awkcpl587zgd13d4dx60hjji53500jkr0arph9yv3csczpkb2wx"))))
+            "0b93p828ki8gbr9pfjq213j2228ibkiciyi1cknq8v6lyx7qky1x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -14137,17 +14137,17 @@
 (define-public emacs-color-identifiers-mode
   (package
     (name "emacs-color-identifiers-mode")
-    (version "20230126.1613")
+    (version "20230205.208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ankurdave/color-identifiers-mode.git")
                (commit
-                 "3cf87b6a231f231fa66ce4890dfe4a74142a8660")))
+                 "d8a54e627c3bce638c5a23ed8f49c0b8af78e259")))
         (sha256
           (base32
-            "1vyy1vj3m0impi2lkc6s5wxabiyxb5wam8r5194adg6j61ldcx6h"))))
+            "1ahm3icxy8wwqx4l6zqf6iy2dq7ib5q9j1chw19pf5bi0gc0s3dk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -27423,26 +27423,20 @@
 (define-public emacs-el-secretario
   (package
     (name "emacs-el-secretario")
-    (version "20220422.2005")
+    (version "20220426.1905")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~zetagon/el-secretario")
-               (commit
-                 "78a811f02c7104a39b908f9e4c8436abde4b9620")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/el-secretario-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "0hj7ly33jahpvhlwq1cwc262ymsqf70jf1vq9zaqmsz9wn04nryi"))))
+            "143mw7xhg0ndw6kw21njas9adi2xhsv598m40ha4f2i2wddawkcx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-ql emacs-hercules))
-    (arguments
-      '(#:files
-        ("el-secretario.el"
-         "el-secretario-source.el"
-         "el-secretario-message.el"
-         "el-secretario-function.el")))
     (home-page
       "https://git.sr.ht/~zetagon/el-secretario")
     (synopsis
@@ -27506,22 +27500,20 @@
 (define-public emacs-el-secretario-notmuch
   (package
     (name "emacs-el-secretario-notmuch")
-    (version "20220426.1905")
+    (version "20220428.1058")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~zetagon/el-secretario")
-               (commit
-                 "c28a4f42829ed1f96a17abb63a8616216db913a5")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/el-secretario-notmuch-"
+               version
+               ".el"))
         (sha256
           (base32
-            "0s4smf6ldwivardvwnilg0p109dh51s04hqn6dna5qr9gal3ff26"))))
+            "0npm8naf7m1ah0584hi5spafawxmfk0pvfmna62vz7i3a5b3b5id"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-el-secretario emacs-notmuch))
-    (arguments
-      '(#:files ("el-secretario-notmuch.el")))
     (home-page
       "https://git.sr.ht/~zetagon/el-secretario")
     (synopsis "Add notmuch inboxes to el-secretario")
@@ -28490,7 +28482,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230204.1214")
+    (version "20230205.334")
     (source
       (origin
         (method url-fetch)
@@ -28500,7 +28492,7 @@
                ".tar"))
         (sha256
           (base32
-            "1lirqkbb8sm3lrfzxajv46dqp0m99ibpmciwyyz7kscsyy61s2jb"))))
+            "02kjkagy1c0akigyr2k3r133minhvsphppl9hd7520b1myxy0vb9"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -33902,17 +33894,17 @@
 (define-public emacs-evil-matchit
   (package
     (name "emacs-evil-matchit")
-    (version "20220927.220")
+    (version "20230205.420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/evil-matchit.git")
                (commit
-                 "ec3dd819983b2d824142efddd46ef29b46a7c454")))
+                 "2218356f05ad19efc9476d0bd10051843d2306da")))
         (sha256
           (base32
-            "00yclv8fky3czwnp3qfvcbbadqagqzyf6cxq50vyhmvjhnf9xspi"))))
+            "06vwfb7qn488i7mai30g5x9wa5yjwi7725i6ngnz5i7j9xn4hx93"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/redguardtoo/evil-matchit")
@@ -63349,17 +63341,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20230204.212")
+    (version "20230205.224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-jupyter.git")
                (commit
-                 "14899664b601f39e59f62bdf9a180feb0f8ebff6")))
+                 "bc3b78be4333bb7a51e262018f7e6dcded621c41")))
         (sha256
           (base32
-            "00g6qgl84v1id9mjfpfwqcyxrrahlzaw6vp0wdfybl46dmnhql40"))))
+            "0yfqb2x4jg0qsqvfy7kxpirc1dwkppjm9zff1hbppmy4hf21wmmm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -63947,17 +63939,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230204.1849")
+    (version "20230205.407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "40acb049ab0e2e2f0f062b6e5eff4b0bf62ff16f")))
+                 "81c0d14b5d3bc29f44caa6d130e655df5c1ac2ff")))
         (sha256
           (base32
-            "074mjfxzfq3ainhy7vbgl7b5kznppi15zjapsgg5v50cp7v9l0km"))))
+            "1n71ky7x1jj3cn533xgg2zp6j9263v6xmjy23bbf6q6d60k13rw1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -64944,6 +64936,29 @@
     (synopsis "Major mode for kotlin")
     (description
       "Documentation at https://melpa.org/#/kotlin-mode")
+    (license #f)))
+
+(define-public emacs-kotlin-ts-mode
+  (package
+    (name "emacs-kotlin-ts-mode")
+    (version "20230119.1153")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
+               (commit
+                 "28eb29a99a5f334e7e7c0e2f2ada23159f114bc5")))
+        (sha256
+          (base32
+            "19q4gvrccc1yfwg46wb82fs5qj6ml9qkgjf8sb00nwbnb0jb48k7"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
+    (synopsis
+      "A mode for editing Kotlin files based on tree-sitter")
+    (description
+      "Documentation at https://melpa.org/#/kotlin-ts-mode")
     (license #f)))
 
 (define-public emacs-kpm-list
@@ -101474,17 +101489,17 @@
 (define-public emacs-ruby-end
   (package
     (name "emacs-ruby-end")
-    (version "20230126.1627")
+    (version "20230205.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/ruby-end.el.git")
                (commit
-                 "fe39d34ba7a43d522c7bdc47406935611e782ca3")))
+                 "ba7d7230f9e3ed75c9982d32bb9fdff1dc10935d")))
         (sha256
           (base32
-            "0rbv2zanm9lfsqz4n9c2x1sws680z79m9mzmkxx84716fk693h0k"))))
+            "1jz6hhrxxcffs8hsghmzcak0yy1y8h12kgixxvb482cfh2jc0d4g"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/rejeep/ruby-end")
     (synopsis
@@ -106083,17 +106098,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20230131.1950")
+    (version "20230204.2211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "3b91ecec8355e04c05bdec9bc4de247745cd9b0b")))
+                 "2d52732fc093c3042ec3809b7b687dd200a90577")))
         (sha256
           (base32
-            "0dfg336cdd4zhi3vs8kbyf31kpannx7jfprhgirg2risff2l0j5p"))))
+            "01vc122w1k5z67vwdc8qp4g9l6nmikil6pgb2x253ckk85pcf27i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -108675,7 +108690,7 @@
 (define-public emacs-spell-fu
   (package
     (name "emacs-spell-fu")
-    (version "20230116.2310")
+    (version "20230205.309")
     (source
       (origin
         (method url-fetch)
@@ -108685,7 +108700,7 @@
                ".el"))
         (sha256
           (base32
-            "0imf7a7vxifcnhqa5b73pk21by6d49dy33wna50bvzy375k8mki6"))))
+            "168yw7a4shiqp46z5brzlfqfk7z2qajvm0mb3kfnz2kryp7z42wr"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-spell-fu")
@@ -116846,7 +116861,7 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20230201.132")
+    (version "20230205.310")
     (source
       (origin
         (method url-fetch)
@@ -116856,7 +116871,7 @@
                ".el"))
         (sha256
           (base32
-            "1zcys42b0lsmqy2rck0v2n2yr1p2c311xd0slmkjyzv7hd8xmvsa"))))
+            "00hkpvb6hk44cf4a09vyfnfxq3va7h9vilx6qhjk2y5dwyxv4qlc"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.com/ideasman42/emacs-undo-fu-session")
