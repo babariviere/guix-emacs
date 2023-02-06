@@ -33123,17 +33123,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230203.1940")
+    (version "20230206.1124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "e981c2d0a7c40e33d3de46306c13c469f845c290")))
+                 "3641c6e619fd3caef15c9e9a9e4420a57e079f2c")))
         (sha256
           (base32
-            "1m2nz7vgfbclcnaibljjxz1cfrrwrp9wnnicbpm4x3vx8zm92swp"))))
+            "09fv8c47mrniy4ilsj5mmc92bjvv9l1j6idsnanr3mzaa7fdzbz5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -65457,17 +65457,17 @@
 (define-public emacs-lacquer
   (package
     (name "emacs-lacquer")
-    (version "20230119.253")
+    (version "20230206.756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zakudriver/lacquer.git")
                (commit
-                 "ebdb531f5b7cb691751e468942e28921a9dcc98f")))
+                 "4ae73bd3bd5f26ba7816905fe88a948a59973907")))
         (sha256
           (base32
-            "1xfvf21g2p2zh5g5wih37nrk6z8fpxsy4hw8sfsmrk2fx2cw5sj2"))))
+            "1ybl0zkv56j938c9v25yxm7aw01dm34gz4b80680r96ni9rc3nii"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/zakudriver/lacquer")
@@ -65601,18 +65601,19 @@
 (define-public emacs-langtool
   (package
     (name "emacs-langtool")
-    (version "20230129.304")
+    (version "20230131.312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-langtool.git")
                (commit
-                 "c4643526a81e35e7f5ef85f03d460b413505739f")))
+                 "e0666f000c11571f96582f0a1dd75d6e29e74703")))
         (sha256
           (base32
-            "0j8bax410lq5yxxpcmqmds7wgqsxbpf1g8g8ayira75zx5lpwlkh"))))
+            "1jjiq22wn7npgzmszy3hpi8a1wqij4s74p73vqav7c15w1a8pfrm"))))
     (build-system melpa-build-system)
+    (arguments '(#:files ("langtool.el")))
     (home-page
       "https://github.com/mhayashi1120/Emacs-langtool")
     (synopsis
@@ -65650,19 +65651,20 @@
 (define-public emacs-langtool-popup
   (package
     (name "emacs-langtool-popup")
-    (version "20230129.304")
+    (version "20230206.859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-langtool.git")
                (commit
-                 "c4643526a81e35e7f5ef85f03d460b413505739f")))
+                 "e0666f000c11571f96582f0a1dd75d6e29e74703")))
         (sha256
           (base32
-            "0j8bax410lq5yxxpcmqmds7wgqsxbpf1g8g8ayira75zx5lpwlkh"))))
+            "1jjiq22wn7npgzmszy3hpi8a1wqij4s74p73vqav7c15w1a8pfrm"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-popup))
+    (propagated-inputs
+      (list emacs-popup emacs-langtool))
     (arguments '(#:files ("langtool-popup.el")))
     (home-page
       "https://github.com/mhayashi1120/Emacs-langtool")
@@ -69224,17 +69226,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230203.924")
+    (version "20230206.731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "6b01d49757994c09c90623bf67f072d02f00f8e9")))
+                 "06c28ca780dedea32e150462f1b9aa9c910c2952")))
         (sha256
           (base32
-            "06xrhh71vq3a93rcqqlis2kpkgf6jyx3zzh7gvhjzigx6x7gnxcg"))))
+            "1xhfh6rxbl3appry0m5zqapv4dsrlxavkz9kviqh7xr435crz1m0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70152,17 +70154,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230204.1411")
+    (version "20230206.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "678a41eb8b162d6f86d8dc6773d4ac271a1afbfc")))
+                 "5f13aba7c98205dba8381705e5b825610c526108")))
         (sha256
           (base32
-            "0fq13kzk9424xswbqrhp7gn864wmjzbnv15k7lm2q2ky58sz376i"))))
+            "1blz94jdgyiddr498pzim4awpiifm81skbcs5nrsn07j9c4jwpmh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -70621,17 +70623,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20230204.1138")
+    (version "20230206.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "678a41eb8b162d6f86d8dc6773d4ac271a1afbfc")))
+                 "5f13aba7c98205dba8381705e5b825610c526108")))
         (sha256
           (base32
-            "0fq13kzk9424xswbqrhp7gn864wmjzbnv15k7lm2q2ky58sz376i"))))
+            "1blz94jdgyiddr498pzim4awpiifm81skbcs5nrsn07j9c4jwpmh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -74296,7 +74298,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230205.1540")
+    (version "20230206.1132")
     (source
       (origin
         (method url-fetch)
@@ -74306,7 +74308,7 @@
                ".tar"))
         (sha256
           (base32
-            "0xsv0d85ixwgbj9ypn8ly8iqw5xl4sc21cxi8bx33l3w4ab5c0q5"))))
+            "08za00gakqvg3f0b2zh4khks5a8qk9ij60silg0q7zpsx8a9naqd"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -87024,17 +87026,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20230129.1634")
+    (version "20230206.1309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "6f76ba1405c8ce3dd0d06ddcf330fd96569ae080")))
+                 "9b416ff84d3f336557961be918e14f3840f39f84")))
         (sha256
           (base32
-            "19ylgp3c9rydh3grd1m3aphh08c70zjbg1kvqga0nsc739syhbwl"))))
+            "0k2jmc88laamvfhgn5j8905k9kqx3qj6smh865klz6jndv4r9ydk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -108715,18 +108717,19 @@
 (define-public emacs-speed-type
   (package
     (name "emacs-speed-type")
-    (version "20221207.1151")
+    (version "20230206.1330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dakra/speed-type.git")
                (commit
-                 "11a8bd33711711fb5e22d93ac2ed950e4a2e76fc")))
+                 "4f8553632d71e827b4da6e091143779d2ad970a8")))
         (sha256
           (base32
-            "0067mz1inp00q2q9vsnshdm6yjakgz9ll58slfg0qvd2yrqgm8k5"))))
+            "1qf68jqkc4v8i0rbia2hyy9srn5paymz5bbv5s222rbjzc66n5hv"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/dakra/speed-type")
     (synopsis "Practice touch and speed typing")
     (description
@@ -113708,17 +113711,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20230129.1917")
+    (version "20230204.2115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "eb3d9f4fe9bb24ced287d141cf9b3c77ceea8fc3")))
+                 "a2ec4858173af5dce41ec555f6db0ba6515c7647")))
         (sha256
           (base32
-            "01p8ah0xgclj3yfi82bk7pcq6kqga7j91l7rlvgzrnr8bc298naq"))))
+            "0bwffibc9zqw7d8bkdxwyjgx9xwc9rg0hisvk9fz3mpfk93kr42m"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -123931,17 +123934,17 @@
 (define-public emacs-yasnippet-snippets
   (package
     (name "emacs-yasnippet-snippets")
-    (version "20220713.1234")
+    (version "20230206.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AndreaCrotti/yasnippet-snippets.git")
                (commit
-                 "cd665c9cba4bab646f6d50ac098bee63573a4ca5")))
+                 "df524e4c8688f458dea49199c01c2e7f1190bdd5")))
         (sha256
           (base32
-            "113yn1imk8pffn3vyqbjmg7j64x0y0dgqx56jss8wbf17nzck17w"))))
+            "10kwrw0dy716azlynaa3926r840xdfqzjcsravfjd4dxix60rakc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (arguments
