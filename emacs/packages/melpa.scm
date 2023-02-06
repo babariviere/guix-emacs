@@ -6510,17 +6510,17 @@
 (define-public emacs-bash-completion
   (package
     (name "emacs-bash-completion")
-    (version "20230204.1434")
+    (version "20230205.2239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/szermatt/emacs-bash-completion.git")
                (commit
-                 "4478da4ce19b805607ca702e4016befea1356da7")))
+                 "792eeed8c6dced575f460d8756ce8726a7004c17")))
         (sha256
           (base32
-            "12mczkm67cj4wbm6hbhf7ddhyqqri03y9bm3dkiwds45zrmap6m4"))))
+            "0k3q66i3012n90p7fa515hhbi760vmmmq3lrq1jv9s426066qw7k"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/szermatt/emacs-bash-completion")
@@ -14137,17 +14137,17 @@
 (define-public emacs-color-identifiers-mode
   (package
     (name "emacs-color-identifiers-mode")
-    (version "20230205.1208")
+    (version "20230205.2210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ankurdave/color-identifiers-mode.git")
                (commit
-                 "65e5c8f6fcf13f32607054e54b412f137da67f5e")))
+                 "a4aa1ca50ea59f342be33ac7f14eca5b59845603")))
         (sha256
           (base32
-            "0dkvn9sviia4lrl9zjsf4hdwb8ys8jdjgxwfvkq7y8j2hknv3h09"))))
+            "09775p526lh4n4xwz2mg37d29rq9hdxnzg9mnyp1dmrc79zqahnr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -38794,6 +38794,30 @@
       "Documentation at https://melpa.org/#/flycheck-dtrace")
     (license #f)))
 
+(define-public emacs-flycheck-eglot
+  (package
+    (name "emacs-flycheck-eglot")
+    (version "20230202.1844")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/intramurz/flycheck-eglot.git")
+               (commit
+                 "31905ad676d67fb2967a3b6d907312380696615f")))
+        (sha256
+          (base32
+            "1zkwb0w5rp0b53r4plvckwild717crv51ymfmhcdqdrjlv9qpzca"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-eglot emacs-flycheck))
+    (home-page
+      "https://github.com/intramurz/flycheck-eglot")
+    (synopsis "Flycheck support for eglot")
+    (description
+      "Documentation at https://melpa.org/#/flycheck-eglot")
+    (license #f)))
+
 (define-public emacs-flycheck-eldev
   (package
     (name "emacs-flycheck-eldev")
@@ -61976,6 +62000,28 @@
       "Documentation at https://melpa.org/#/jest-test-mode")
     (license #f)))
 
+(define-public emacs-jet
+  (package
+    (name "emacs-jet")
+    (version "20230130.39")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ericdallo/jet.el.git")
+               (commit
+                 "156c9be37804c14a3560175549ccbb77443dd741")))
+        (sha256
+          (base32
+            "04l5i9ggvp4p314pcdbjgk0kfxp9343ily2b0lmgxbgbd392mmci"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/ericdallo/jet.el")
+    (synopsis
+      "Emacs integration for jet Clojure tool")
+    (description
+      "Documentation at https://melpa.org/#/jet")
+    (license #f)))
+
 (define-public emacs-jetbrains
   (package
     (name "emacs-jetbrains")
@@ -63939,17 +63985,17 @@
 (define-public emacs-kele
   (package
     (name "emacs-kele")
-    (version "20230205.547")
+    (version "20230205.1814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jinnovation/kele.el.git")
                (commit
-                 "81c0d14b5d3bc29f44caa6d130e655df5c1ac2ff")))
+                 "8faeb28bcef6d4a3d314364f1b7252e7e6f916a8")))
         (sha256
           (base32
-            "1n71ky7x1jj3cn533xgg2zp6j9263v6xmjy23bbf6q6d60k13rw1"))))
+            "03an3n9hnaz8sz34gmdyl5hav1cms3i73ywzsn1y9idybbmdy3k9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -65599,6 +65645,31 @@
       "Force langtool to ignore certain fonts")
     (description
       "Documentation at https://melpa.org/#/langtool-ignore-fonts")
+    (license #f)))
+
+(define-public emacs-langtool-popup
+  (package
+    (name "emacs-langtool-popup")
+    (version "20230129.304")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/mhayashi1120/Emacs-langtool.git")
+               (commit
+                 "c4643526a81e35e7f5ef85f03d460b413505739f")))
+        (sha256
+          (base32
+            "0j8bax410lq5yxxpcmqmds7wgqsxbpf1g8g8ayira75zx5lpwlkh"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-popup))
+    (arguments '(#:files ("langtool-popup.el")))
+    (home-page
+      "https://github.com/mhayashi1120/Emacs-langtool")
+    (synopsis
+      "Popup message extension for langtool.el")
+    (description
+      "Documentation at https://melpa.org/#/langtool-popup")
     (license #f)))
 
 (define-public emacs-language-detection
@@ -74225,7 +74296,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230205.723")
+    (version "20230205.1540")
     (source
       (origin
         (method url-fetch)
@@ -74235,7 +74306,7 @@
                ".tar"))
         (sha256
           (base32
-            "19wfs1rb3x40mpgjak81hdxqp0y46f9mnaif5alscvbkxv3h3mp4"))))
+            "0xsv0d85ixwgbj9ypn8ly8iqw5xl4sc21cxi8bx33l3w4ab5c0q5"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -77133,17 +77204,17 @@
 (define-public emacs-neil
   (package
     (name "emacs-neil")
-    (version "20230204.1728")
+    (version "20230205.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/babashka/neil.git")
                (commit
-                 "1f90624c2e2b75afd37f9195820470478af3a177")))
+                 "1dbac785cee4af8ad499839adbb83a8a297e7c70")))
         (sha256
           (base32
-            "1i9ckcvsh6j1j4hzh6znzwbj653rin20m12pw70randjchf77kn9"))))
+            "1m96mzkl9rq4v9lb2db1m4xfxxjs3is06vvl059y8rb1fv8rskzv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/babashka/neil")
     (synopsis "companion for Babashka Neil")
@@ -82411,17 +82482,17 @@
 (define-public emacs-org-caldav
   (package
     (name "emacs-org-caldav")
-    (version "20230120.2149")
+    (version "20230205.2235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dengste/org-caldav.git")
                (commit
-                 "754989ae500b3f576bdb94fe2ef3059f12eaf7d7")))
+                 "cc1b820773ccab9e3d8f584e96c14cdbb22cdb16")))
         (sha256
           (base32
-            "0vx465di6imfxmxxkhd8lsdgywyz3gnindg0fyvb2zshg3zz80bg"))))
+            "0ffpnpn4x8g41k3clc5i5jfdxpxr8nyq44pzq5xqwpc8472h0jk8"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("org-caldav.el")))
     (home-page
@@ -97018,17 +97089,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20221125.1705")
+    (version "20230205.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "55f198493b028153af04d2c6e56b40a42f76da78")))
+                 "43892b9a9f245491aacc54c031aabe0944a9502d")))
         (sha256
           (base32
-            "0b9fnh57ffk5mfv88bb0fzz96fvvmh1l67kmzpvp7s3rr509vqjn"))))
+            "1a624zkan8k6hm3qp2m97yszg2dr9dx0n4mm706fri3z57w8cm52"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/python-mls")
@@ -97040,17 +97111,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20230108.1050")
+    (version "20230205.2011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "e959078397d26c161a94e5d514d749477afa60b1")))
+                 "3deb906f73f81eaa9c01b86a747dcbaab9b80692")))
         (sha256
           (base32
-            "0f3z20sh7c51b6la5pdm1wjq295c02xj0a5p4rjgrxs4r0qxdqnx"))))
+            "02z00xsv70rsfbl53ib0h3m0hd4kfnh6kz5avalfzbgmqw9dri83"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -102341,6 +102412,29 @@
       "Documentation at https://melpa.org/#/samskritam")
     (license #f)))
 
+(define-public emacs-sas-py
+  (package
+    (name "emacs-sas-py")
+    (version "20230131.523")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ShuguangSun/sas-py.git")
+               (commit
+                 "76a2226eb49ec37f211904c6395ee066bd440560")))
+        (sha256
+          (base32
+            "0fgb5pd9zmc5n9x3aqkylpv57bdv6ck8bcrw7sj0xyzz2333pvc5"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-ess))
+    (home-page
+      "https://github.com/ShuguangSun/sas-py")
+    (synopsis "SAS with SASPy")
+    (description
+      "Documentation at https://melpa.org/#/sas-py")
+    (license #f)))
+
 (define-public emacs-sass-mode
   (package
     (name "emacs-sass-mode")
@@ -106098,17 +106192,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20230204.2211")
+    (version "20230205.1346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "2d52732fc093c3042ec3809b7b687dd200a90577")))
+                 "7d39285af4d529c38832ebe6dc7185c7d3a95015")))
         (sha256
           (base32
-            "01vc122w1k5z67vwdc8qp4g9l6nmikil6pgb2x253ckk85pcf27i"))))
+            "0cbxfi31bz9xwjmiabg73dr360dngvbvmr1xkakiidfm89kk3dx7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -109305,17 +109399,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20230123.2301")
+    (version "20230205.2247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "204cdac0ad51a50d96bbe1a19ed2341b3b543943")))
+                 "7e92ae3b4c4a7f3386bf1d7d620e5cd29e6e3b37")))
         (sha256
           (base32
-            "006z6sa0mjyj0wxzx18maxzxp4y01dp7307g73r62kajhgpi3c01"))))
+            "0apccq1hj4sydkd7sa5iziavpi6swzaj6w7gckp5n8pjzibnqlx8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -113943,6 +114037,28 @@
       "Documentation at https://melpa.org/#/timu-caribbean-theme")
     (license #f)))
 
+(define-public emacs-timu-macos-theme
+  (package
+    (name "emacs-timu-macos-theme")
+    (version "20230201.2203")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://gitlab.com/aimebertrand/timu-macos-theme.git")
+               (commit
+                 "665c6e409c7d6a37575b3e64961b17ae3db18cb8")))
+        (sha256
+          (base32
+            "17rr28amksxsz2djz0gwdmr3xki7229pcgm841k5dp109l6n9bip"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://gitlab.com/aimebertrand/timu-macos-theme")
+    (synopsis "Color theme inspired by the macOS UI")
+    (description
+      "Documentation at https://melpa.org/#/timu-macos-theme")
+    (license #f)))
+
 (define-public emacs-timu-rouge-theme
   (package
     (name "emacs-timu-rouge-theme")
@@ -114422,22 +114538,21 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230203.1654")
+    (version "20230205.2022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "b096aa66a704e5c851b9285315fe931e2a8b605c")))
+                 "96562e2b1f502c3a5fc6f69737e0a9c6b9ed2a77")))
         (sha256
           (base32
-            "1kd4dbl4jcaqkiiwiqs6lrkx36db8h9mfyb0hkhfvaspal0asnh3"))))
+            "1dkyw3wj3lhqrcg00cgddbfmhyh3bjq6m6s1a96zc866hqgc4cpz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
-    (synopsis
-      "Minimal, calm and dark theme for Emacs")
+    (synopsis "Dark and vibrant theme for Emacs")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
@@ -115396,17 +115511,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20230128.1459")
+    (version "20230205.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "1076cf2366be8ef1bd6fd7239f92f16cc0890fce")))
+                 "bbb394a0bdb1dab095b8552eaaa93f22340ae49e")))
         (sha256
           (base32
-            "1ywvsbqwd7v9x9gq8ygc4qkkfnjfdnm51r3vbq5f9sr5xynn1c2h"))))
+            "029vpc16krr3bplqz2x38lh7ksx4x8k9hk6qwkc1g54bk9zg7abz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
