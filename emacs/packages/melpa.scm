@@ -33241,17 +33241,17 @@
 (define-public emacs-evil-cleverparens
   (package
     (name "emacs-evil-cleverparens")
-    (version "20230202.2102")
+    (version "20230205.2330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-cleverparens.git")
                (commit
-                 "9c662e10d27a55c9e853c1e83e16c6764f617ae8")))
+                 "dc8b0856bbdc12c7dfe4ee1d14dc8fede06b6d5f")))
         (sha256
           (base32
-            "0mxq4pg67v5jphb0rkglqs1vfj7fl5hdzg89jdkpiqaa2ymzdjfj"))))
+            "0ns80v55hf43mb4cxkk550s46c4d3n00wl691ndc08bj2gg7w3vc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil
@@ -48772,17 +48772,17 @@
 (define-public emacs-grip-mode
   (package
     (name "emacs-grip-mode")
-    (version "20221003.1518")
+    (version "20230206.323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/grip-mode.git")
                (commit
-                 "e1e8ee952f75cdca93327b6e7dcd79244ca66bc0")))
+                 "5809fb62f6dd7b4bfa7685203aaa1474fca70f4e")))
         (sha256
           (base32
-            "008iyd67l69zk4zdzzkjjjja54z81w88l71rsbp054ggsvy6qq0a"))))
+            "0xs48g2xk7dvi0ywsqdy9y6hriizyy2qhpdy1hmbkcn8midlzmkm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/seagle0128/grip-mode")
@@ -73320,17 +73320,17 @@
 (define-public emacs-mingus
   (package
     (name "emacs-mingus")
-    (version "20230123.1405")
+    (version "20230206.618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pft/mingus.git")
                (commit
-                 "9c91be8e66fd22f5f1be5a5aa9007d1c71ca8b9c")))
+                 "f4d1df06f537ae88830a040eea5e23768a0ebd5b")))
         (sha256
           (base32
-            "10f4xh2axmwg6nckylx26f3fwxa8qhbf9nnq5d4gi094zpm30ils"))))
+            "1gpiyh694qnipg33w90riwmf6717lkbabdqm6ybjbcn6d7k60b6y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-libmpdee))
     (home-page "https://github.com/pft/mingus")
@@ -97089,17 +97089,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20230205.2118")
+    (version "20230206.255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "43892b9a9f245491aacc54c031aabe0944a9502d")))
+                 "8b649407d878e76b92f06291198de88e6a793c63")))
         (sha256
           (base32
-            "1a624zkan8k6hm3qp2m97yszg2dr9dx0n4mm706fri3z57w8cm52"))))
+            "0jkylw23zzhyw5mk4lnvjb1giihws175hklwdldll7x94m3h8rvn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/python-mls")
@@ -125043,17 +125043,17 @@
 (define-public emacs-zmq
   (package
     (name "emacs-zmq")
-    (version "20230201.222")
+    (version "20230206.339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-zmq.git")
                (commit
-                 "5477aa9f7a1c471f00c8f4cb915c13e7405e32a2")))
+                 "00dea2f9f88cd3e723d3b909aea26313dd33f9c6")))
         (sha256
           (base32
-            "1myxfcab2zrw4dsxg0l0jcwgswh6b6viwbb8m0flrv1k9gy34gh0"))))
+            "0aw8zaswsr2h7vclkl06b6vkx5q7pxnsz7rm6jr5gmqzk34bk377"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "Makefile" "src")))
