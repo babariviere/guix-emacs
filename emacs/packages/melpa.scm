@@ -1880,17 +1880,17 @@
 (define-public emacs-affe
   (package
     (name "emacs-affe")
-    (version "20230125.1816")
+    (version "20230206.1719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/affe.git")
                (commit
-                 "62d58fdd87a90217ce5bdb61376252c854ee6f79")))
+                 "8a24f1b01f95583de2efa56c33ca49bfe04dfe3e")))
         (sha256
           (base32
-            "015l6453xs06cw3ww6wqkwm12915gnaqfgh0h45kjh0dn5c31n61"))))
+            "1kbwkaib3172zma2ihid172rp2gf3d7vsi1fz7fh5mmngznk0lmh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page "https://github.com/minad/affe")
@@ -10354,17 +10354,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230127.806")
+    (version "20230206.1715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "70d9db4bd71fbf979ab3fbb8f2a4db9f75b35817")))
+                 "56601bbccb1371ec6ab3788140a9f0440dccc914")))
         (sha256
           (base32
-            "01gc4hxfd6df7hhp3dbvgbbh8ibxn84fijkn7kvqvkci1bqrkr50"))))
+            "0slihp9wsy8gqzq3hcrl4xghz5nvw2cyc7kkc1gqg70h90wwlr6i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -16811,17 +16811,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230204.1834")
+    (version "20230206.2007")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "982ec0b0c15c5b01bb7bef7c45f142fcc32ab550")))
+                 "639c0d060e31ef9c0906804893e0413d13dbc373")))
         (sha256
           (base32
-            "0wcqzlm2lsalms0pff3kqdx1qn46j1w3ayi7bj2vkkwci45zyg1m"))))
+            "0lp4h0i3m95zcj08vml9qdvxcqgn7nipanvq7yrniwzi5v52bd9q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -16978,17 +16978,17 @@
 (define-public emacs-consult-flycheck
   (package
     (name "emacs-consult-flycheck")
-    (version "20221109.842")
+    (version "20230206.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult-flycheck.git")
                (commit
-                 "7a10be316d728d3384fa25574a30857c53fb3655")))
+                 "51b1b48e8dad314f9c9d963376f2ea8de94b97f2")))
         (sha256
           (base32
-            "1xg46wynfabk4pd7z7lk7d8x8rwlqk8dxjg4aki5dv6il1swg4cs"))))
+            "1cgaq5dnhzajgln1g6w1np5i3ii6456g70c5s18n7gwaiaf8j3zi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-flycheck))
@@ -45173,17 +45173,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20230204.1138")
+    (version "20230206.2135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "678a41eb8b162d6f86d8dc6773d4ac271a1afbfc")))
+                 "6d325d90ba1374d48c4c7088f96864b678155f48")))
         (sha256
           (base32
-            "0fq13kzk9424xswbqrhp7gn864wmjzbnv15k7lm2q2ky58sz376i"))))
+            "0bk293k5qzkiyyx8z44n3438byag56s89b9dkrq9lw3x6j7f9qi1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -48498,17 +48498,17 @@
 (define-public emacs-graphviz-dot-mode
   (package
     (name "emacs-graphviz-dot-mode")
-    (version "20230204.1617")
+    (version "20230206.1942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ppareit/graphviz-dot-mode.git")
                (commit
-                 "71beaf8bc23d9a139928c9b378e4be9d4fd0a683")))
+                 "72e72a9d3dc074296daf4122043c7a0f00bbbcb5")))
         (sha256
           (base32
-            "0kgcn82zxy9a9cixp35y6saljhqc3rrpgh7246qzzylzq37hvzpv"))))
+            "1q21r67nzlcnljs2mdwjmwqsafc2jz70182qclfaj7rbpb3m4xv5"))))
     (build-system melpa-build-system)
     (home-page
       "https://ppareit.github.io/graphviz-dot-mode/")
@@ -63608,17 +63608,17 @@
 (define-public emacs-kakoune
   (package
     (name "emacs-kakoune")
-    (version "20210220.1858")
+    (version "20230206.2037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jmorag/kakoune.el.git")
                (commit
-                 "d81bd00323ba10343a28bc855ee5ddbd09b7d2a5")))
+                 "b39c5605e896c55ea246f755c46171bd6d0768a8")))
         (sha256
           (base32
-            "187dnrjp9khs1l17afwiw8dhk3znvirwzpllpv63fvzvc6gsi2hg"))))
+            "00581hhj6rw2p4d3kjfifd1xylacjsgjcg29f2svd412xlmhkm2j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ryo-modal
@@ -63709,7 +63709,7 @@
 (define-public emacs-kanban
   (package
     (name "emacs-kanban")
-    (version "20170418.810")
+    (version "20230206.2131")
     (source
       (origin
         (method url-fetch)
@@ -63719,7 +63719,7 @@
                ".el"))
         (sha256
           (base32
-            "0bif6xvxcsz320w1zxj28ahy4mjlqzd0bi5mvv9n2pk3s68isx92"))))
+            "1jzinkbs20rhr2w6bwf3r8bgh8qkqzz2pkxbfrza4xrhc6319cbq"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -69226,17 +69226,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230206.731")
+    (version "20230206.1806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "06c28ca780dedea32e150462f1b9aa9c910c2952")))
+                 "781889628b9e0504fde279371548149deae4849d")))
         (sha256
           (base32
-            "1xhfh6rxbl3appry0m5zqapv4dsrlxavkz9kviqh7xr435crz1m0"))))
+            "09ydxnaa2hyqn12ddcv25gsnqhlrq14wsf81gd33c3v6nzjjqamv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71388,17 +71388,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230128.1237")
+    (version "20230206.2022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "43e8f07a84fb4ecd6afa17456c1d5b8dcd16228e")))
+                 "46cd60a1e010eda57c05a585e8707f9d146f96fb")))
         (sha256
           (base32
-            "05z1inlickfg91v3s5avdzlykkhnxnfgnzjdh6anwvg8j5zm9xd7"))))
+            "14q28khc6dbag4yq2jw29lnrv5dwr5hk2ngyxql6yxmb3r33jx37"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -88062,17 +88062,17 @@
 (define-public emacs-ox-linuxmag-fr
   (package
     (name "emacs-ox-linuxmag-fr")
-    (version "20230129.1536")
+    (version "20230206.2037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/ox-linuxmag-fr.git")
                (commit
-                 "b879b80dd5b4d8b17e796e1e12cca5cca945d66b")))
+                 "de0768f44a7401c05535e6b7bc68aef98e547ce3")))
         (sha256
           (base32
-            "0kkvhqhx8nndcp7q8bjczxr5flyzaazzs0saa8cp5x004c0ha0cd"))))
+            "1xmvn8c144520pz4q8ikk1qdsgbqaiwsss9q4b7mnyby6a0fz5h3"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "resources")))
     (home-page
@@ -88788,17 +88788,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20230117.1841")
+    (version "20230206.1931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "3a038c8628c2be6c33d4d23253b60decdad046cc")))
+                 "10e8518f14e343e63251b4385206037ab6e1bf87")))
         (sha256
           (base32
-            "1hxakiyxq9hm7d95x4h1506bj4vjwrd3acn5r2qggh2cn5ahba45"))))
+            "1zd88x8xjnvz0rlrrgiczj7nd9h7p7g6b92xazjyc1aadhwwzv1r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -110244,20 +110244,19 @@
 (define-public emacs-stumpwm-mode
   (package
     (name "emacs-stumpwm-mode")
-    (version "20140222.1929")
+    (version "20171027.214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://git.savannah.nongnu.org/git/stumpwm.git")
+               (url "https://github.com/stumpwm/stumpwm-contrib.git")
                (commit
-                 "61a7cf27e49e0779a53c018b2342f5f1c5cc70b4")))
+                 "4613a956add7a17986a3b26c341229466cd13f1d")))
         (sha256
           (base32
-            "03is0690p7aw77c30j4r2b5gi5rv5f70wvpixy5qhcchlaxhaw82"))))
+            "1g8h2vd5qsmaiz6ixlx9ykrv6a08izmkf0js18fvljvznpyhsznz"))))
     (build-system melpa-build-system)
-    (arguments
-      '(#:files ("contrib/stumpwm-mode.el")))
+    (arguments '(#:files ("util/swm-emacs/*.el")))
     (home-page "unspecified")
     (synopsis
       "special lisp mode for evaluating code into running stumpwm")
@@ -115832,17 +115831,17 @@
 (define-public emacs-treesit-auto
   (package
     (name "emacs-treesit-auto")
-    (version "20230202.2346")
+    (version "20230206.2148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/renzmann/treesit-auto.git")
                (commit
-                 "cdf2984e3739401b632d99c5d35e35da78cac090")))
+                 "9d01a05d5d65790283360b39679ec01bdbdc43cd")))
         (sha256
           (base32
-            "0z39lb92xzdrki8d6d8z7lp5l9fqc5r5xh3wpisq793w7czi3j5z"))))
+            "12k72r8p12zs4l7v8pjb1s6b699y6202sk1q4zqr6a6dhmzjyx6l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/renzmann/treesit-auto.git")
@@ -120536,17 +120535,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20221225.2142")
+    (version "20230206.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "53bed1e6a8554da877c27ffad6bd65113dc758e3")))
+                 "df97ab62c94826a84adbde060a4111ca91deda8e")))
         (sha256
           (base32
-            "1ydm4m7g8pgqfh0h9p7fz8ns5f2f3fnk6rc5jkp6ds116i7x1gaf"))))
+            "1nvw1wrvh97gjrk72skp00r4dbdz0a1jsaxgxia3jgbmm6aa5l6l"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
