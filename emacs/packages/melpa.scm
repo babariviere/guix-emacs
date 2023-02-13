@@ -10541,17 +10541,17 @@
 (define-public emacs-cargo-mode
   (package
     (name "emacs-cargo-mode")
-    (version "20230211.456")
+    (version "20230213.401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ayrat555/cargo-mode.git")
                (commit
-                 "431e0bef23dc21825b68f6a1f51d6be5a9f41302")))
+                 "6e128f08692aae5723122e039e8871a57141e868")))
         (sha256
           (base32
-            "1fa35lyijrj9jkzf5yr5miws1s404a48w7j1vdij68y9wb41blgw"))))
+            "044bc09bmkzzrrd24niwsz5cr52kg3wbhs7qfmxmypyqzzdj3kcd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ayrat555/cargo-mode")
@@ -27012,17 +27012,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20230211.2128")
+    (version "20230213.218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "154861e41043747edf2a7b22d3fc42075738a5fe")))
+                 "ff0f9515d78f94b8dfe158bf9a2c4f52216504c0")))
         (sha256
           (base32
-            "04bq0dzxgny89g6qmhwmqjfz2x0z0z205lnp1wdga593bl2q0c6x"))))
+            "1m64ddix0h4s22mfbagwkn0q69ck12hvzzpmdr134k7k8ryals6c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-eglot))
     (home-page
@@ -36605,6 +36605,28 @@
     (synopsis "Play video using ffmpeg")
     (description
       "Documentation at https://melpa.org/#/ffmpeg-player")
+    (license #f)))
+
+(define-public emacs-ffmpeg-utils
+  (package
+    (name "emacs-ffmpeg-utils")
+    (version "20230212.55")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://repo.or.cz/ffmpeg-utils.git")
+               (commit
+                 "7ae311d235514b7b5bf12dc2c214856856c2c411")))
+        (sha256
+          (base32
+            "002f7s6dncmlzv40v2ngp7165fkxyb1rc5malfx57jf4y5cs9vp6"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-alert))
+    (home-page "https://repo.or.cz/ffmpeg-utils.git")
+    (synopsis "FFmpeg command utilities wrappers")
+    (description
+      "Documentation at https://melpa.org/#/ffmpeg-utils")
     (license #f)))
 
 (define-public emacs-fic-mode
@@ -72520,17 +72542,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20230207.234")
+    (version "20230213.200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "1994d6b614e31dc226a24ec872e9c8d982cb7418")))
+                 "1e69067c1647ea634c87c021c5acf4a81152f4b2")))
         (sha256
           (base32
-            "1gkbgv555yk97i42lyncyx0n1i16gxd90b4lpyxh1s11n85jx8zs"))))
+            "125g3ya4n7whj88ja80gl8pfg3zwnkbmizkxyvs1hfwla1xr559p"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -72620,17 +72642,17 @@
 (define-public emacs-merlin-eldoc
   (package
     (name "emacs-merlin-eldoc")
-    (version "20190830.517")
+    (version "20230213.555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Khady/merlin-eldoc.git")
                (commit
-                 "db7fab1eddfe34781b7e79694f8923b285698032")))
+                 "bf8edc63d85b35e4def352fa7ce4ea39f43e1fd8")))
         (sha256
           (base32
-            "1c13cgmi8z69b5imd9zlagfgrsdl3qv73n24wgc4ih99w1c7sc08"))))
+            "01k9hnhv9wbshwkrhzmy1d6dw1dps0amjpdcjhzyzz3d97kwnjws"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-merlin))
     (home-page
@@ -108686,17 +108708,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230211.110")
+    (version "20230213.117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "eaad16c192ec22e36daa5c8e34f888d5a6ecf4b1")))
+                 "d0987bbd3566b31d4c750da3ee5b30b376561780")))
         (sha256
           (base32
-            "1bi72p3vry9zrssd85sbax2szx5snffx61nv8sb7a188m2nhsavr"))))
+            "18jlbvqc4pn43nlfm785z5alz66ab6y6zkzjxlmnydpbjxmlkrvy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
