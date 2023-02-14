@@ -13736,17 +13736,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20221209.1227")
+    (version "20230214.705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "68340c63360105b763e293595ccd70681559c05e")))
+                 "4244c9e8a306b459777f950dd70f659e6f629355")))
         (sha256
           (base32
-            "0bw8dgnjv3fj2xhxh7n41xkib209w2m0wyamrh7i4ncfdz58fm6a"))))
+            "0dafgkpffkc2ad2mlnv8x32pwfm605z5cj2yj98m30drjkvki8l5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/cnfonts")
     (synopsis "A simple Chinese fonts config tool")
@@ -34765,17 +34765,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20221219.1411")
+    (version "20230214.324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "b7ebbba4c406bab628ca694da136478759133fb1")))
+                 "01941c49e2dbb19a6c25cb326af8b904fa572f95")))
         (sha256
           (base32
-            "17ra5h2p79va06yril7rny8ccqgr0fs4ibrjvnc181sb07xwx9qz"))))
+            "11szz7iv1v0y4gdq5pjqzi6vgy114f0qd9zaib3xqh3va9z7c4wr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -63410,17 +63410,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20230205.224")
+    (version "20230214.215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-jupyter.git")
                (commit
-                 "bc3b78be4333bb7a51e262018f7e6dcded621c41")))
+                 "eebeef1293287075f65d27f5442bb151bf27d92a")))
         (sha256
           (base32
-            "0yfqb2x4jg0qsqvfy7kxpirc1dwkppjm9zff1hbppmy4hf21wmmm"))))
+            "188xkmvl8qz2bkvgy57w8xpnfbif7adrnj0jyqhgl5xhxv40l0gz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -64803,7 +64803,7 @@
 (define-public emacs-klere-theme
   (package
     (name "emacs-klere-theme")
-    (version "20221101.805")
+    (version "20230214.213")
     (source
       (origin
         (method url-fetch)
@@ -64813,7 +64813,7 @@
                ".el"))
         (sha256
           (base32
-            "178734kzgyn8x5q41b51c7d9swmvminifpqj7rrv1acywpni9kb5"))))
+            "08765bbimq657qcb15xgas153d00qmp8pxf4x0frkwf3ijqisd5n"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/WammKD/emacs-klere-theme")
@@ -65720,17 +65720,17 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20230203.1656")
+    (version "20230214.710")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-language-id.git")
                (commit
-                 "11f75c047f323948dd2c07ba41e5f2264dd8785a")))
+                 "302533245972d9bc7722328742247d2b2b225e01")))
         (sha256
           (base32
-            "016r4cj2180kjqij3yjzd9mhqixk03arr2ld4bl2zjzc06whaq4d"))))
+            "0c38d7vvm3gx2fdi1qm6kzl3x58fksfk2qnzf32np5vy2vwi8ira"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-language-id")
@@ -69246,17 +69246,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230212.939")
+    (version "20230214.740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "03e1818acae6de9a6ed89c54573f8050e4d4e463")))
+                 "0e9f57b5932a46114b8d2a59a907362abba03e2e")))
         (sha256
           (base32
-            "1nlvc3rj7fkw9i2l2dcdpa632k5411km2vc923q3frwql49j3pib"))))
+            "0pczna8kaxdc3x8cga108w1c6ka2yvpqjc2926k5d84sb1ksx2fi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -108709,17 +108709,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230213.117")
+    (version "20230214.118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "d0987bbd3566b31d4c750da3ee5b30b376561780")))
+                 "e3ff5d9c6431149cebeefa1071ccd4fc1c079595")))
         (sha256
           (base32
-            "18jlbvqc4pn43nlfm785z5alz66ab6y6zkzjxlmnydpbjxmlkrvy"))))
+            "0z8l8pwgy0jyx7wldy4w1546swskljj7as045dfh43waqagr5w68"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -125132,17 +125132,17 @@
 (define-public emacs-zmq
   (package
     (name "emacs-zmq")
-    (version "20230206.339")
+    (version "20230214.36")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nnicandro/emacs-zmq.git")
                (commit
-                 "00dea2f9f88cd3e723d3b909aea26313dd33f9c6")))
+                 "92236b2cbd57741f840dc9f0582461cb8d82f78c")))
         (sha256
           (base32
-            "0aw8zaswsr2h7vclkl06b6vkx5q7pxnsz7rm6jr5gmqzk34bk377"))))
+            "161bw8jsi4vp6dnf5xzf3pyjyak657lmk9d4qnaagx0cqi6669ag"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "Makefile" "src")))
