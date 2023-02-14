@@ -6584,17 +6584,17 @@
 (define-public emacs-basic-mode
   (package
     (name "emacs-basic-mode")
-    (version "20230211.1647")
+    (version "20230213.1822")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/basic-mode.git")
                (commit
-                 "3acc68adbbce91b480926181a5f9bbacfad23e1d")))
+                 "361dc1ea54bca3ab7a9ff36b64874dbe5c383382")))
         (sha256
           (base32
-            "1nrsw8wqrcz8xy8p530hj8xl6gmcd24phifp1g0mjz9021z1skaa"))))
+            "0lnj6vfg07yvlac7i4v6w7q86zbgqn10dblq992lhfidf6q909jd"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -10752,17 +10752,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20230210.1643")
+    (version "20230213.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "2d19aa43c104176296df62e66a48c81118aa0ad1")))
+                 "c80c0b83d6d1571b201212a2630c4d3da7f060d0")))
         (sha256
           (base32
-            "0likqqwkxkj4hhs3fwbjg7xiqvr7gz37p0lr7d51ihbwz00jb7qq"))))
+            "00p7dg9i8irjfqvc2cdairmz08q4ivk96njymyqzwaqf9xmynm9q"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis
@@ -16953,17 +16953,17 @@
 (define-public emacs-consult-eglot
   (package
     (name "emacs-consult-eglot")
-    (version "20230204.1550")
+    (version "20230213.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/consult-eglot.git")
                (commit
-                 "a577cac39800ec3d5d3461f405eebe6913ec38d6")))
+                 "6504ccd2b7555452c61cc24a45965f7e2a37c44d")))
         (sha256
           (base32
-            "0zw55nji6zs4vckwsnyfy0zfbmdizqwa3zc6nrmif7ij683hqfqh"))))
+            "1ynx1hvlkp1npi5pbbh38dpj77i95nxhlll35hhqw1jbf9w4kygq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-consult))
@@ -25259,17 +25259,17 @@
 (define-public emacs-dune
   (package
     (name "emacs-dune")
-    (version "20220805.1652")
+    (version "20230213.1556")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/dune.git")
                (commit
-                 "3df932f7f91ea68c3fee789f133b4aa8f9bea807")))
+                 "f5d7b12d8084b7203d7ef5e5cd0c7c2376506b88")))
         (sha256
           (base32
-            "19b71sg9q9yj00dkqdkq2q0j3ibvvgvf53qyjr8f3j60c5mc6hcv"))))
+            "1pgay1i127809xx8w8x9378mv9whj19vsn9k382hmp228wwd1m5n"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("editor-integration/emacs/*.el")))
@@ -28760,17 +28760,17 @@
 (define-public emacs-elixir-ts-mode
   (package
     (name "emacs-elixir-ts-mode")
-    (version "20230210.1231")
+    (version "20230213.1240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wkirschbaum/elixir-ts-mode.git")
                (commit
-                 "ab0d896dca6362f49210f12e26b3750e9735334c")))
+                 "55d2a73fc5aeb550fcc82deedd40c91f0416e9e5")))
         (sha256
           (base32
-            "0b90kc905l40cmqxprrqdnbqqwlmzj2k3sk9xyis339ilqqkyjhd"))))
+            "1dmcp38x1571463s2z32bj048b4blpmqd2cfxs9i2pxbmkb07b99"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-heex-ts-mode))
     (home-page
@@ -29274,17 +29274,17 @@
 (define-public emacs-elsa
   (package
     (name "emacs-elsa")
-    (version "20230213.1301")
+    (version "20230213.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-elsa/Elsa.git")
                (commit
-                 "c126baf406b68ae6a2ac06795a56f0147d07bc18")))
+                 "df6629b4ce6be966a649273ca5644f0501bef9cf")))
         (sha256
           (base32
-            "03ilgqnlzaxjdzqn992bz8hzhi5zj43gwgi4i1pn7bzlcl7z9lrm"))))
+            "1dzvrcf3d30hahvmx6nyajqfa4mwf5jl6aa9x5nzinb88b55br8y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-trinary emacs-f emacs-dash))
@@ -33320,17 +33320,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20230128.650")
+    (version "20230213.1718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "85743099972bfcc4d7788db70dfe33e864eba090")))
+                 "b194fa2e3815891d5ff9a1bcbf40d6c039ba7392")))
         (sha256
           (base32
-            "1zfza2ac91wbd8yh0r71l2v45g05qc8b057rx98062ci4n0aa15a"))))
+            "0zmvspkbrvpq6d2inp116sfyiyka9x2xmxvzizc4r9mk0fvpgxwm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -48521,17 +48521,17 @@
 (define-public emacs-graphviz-dot-mode
   (package
     (name "emacs-graphviz-dot-mode")
-    (version "20230211.1551")
+    (version "20230213.1945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ppareit/graphviz-dot-mode.git")
                (commit
-                 "19d08c6d2af26bbdf479eb068150ee16b06bbeec")))
+                 "a3cbfa969051dd638a993e1962e2b965067896f6")))
         (sha256
           (base32
-            "0lflyh7flwilmgkz58svb9w10ayf1vmqjrym4dxg78kygnq16bvs"))))
+            "01f0p4gkbr2n57qkr4hxgwqm7rsflqp3y806ab4l66g42xn1lp5j"))))
     (build-system melpa-build-system)
     (home-page
       "https://ppareit.github.io/graphviz-dot-mode/")
@@ -62026,17 +62026,17 @@
 (define-public emacs-jet
   (package
     (name "emacs-jet")
-    (version "20230130.39")
+    (version "20230213.1615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ericdallo/jet.el.git")
                (commit
-                 "156c9be37804c14a3560175549ccbb77443dd741")))
+                 "90fcdec479d2b1755a1410ae65d53d421f7683c9")))
         (sha256
           (base32
-            "04l5i9ggvp4p314pcdbjgk0kfxp9343ily2b0lmgxbgbd392mmci"))))
+            "05xc3pxr0wa3asrlkga7kdw8k81lgd7l42pqd222692apvd2j33g"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ericdallo/jet.el")
     (synopsis
@@ -70174,7 +70174,7 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230212.2216")
+    (version "20230213.1427")
     (source
       (origin
         (method git-fetch)
@@ -70643,7 +70643,7 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20230212.2216")
+    (version "20230213.1424")
     (source
       (origin
         (method git-fetch)
@@ -71849,7 +71849,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230128.1527")
+    (version "20230213.1458")
     (source
       (origin
         (method url-fetch)
@@ -71859,7 +71859,7 @@
                ".tar"))
         (sha256
           (base32
-            "090k1w3p24iisx8z20hnkwi0qdm0c8p69qb6v7a7fcc3dydzaifr"))))
+            "1rc0yx365mlmqzhwrc93nczjnrzsdq2bhpmk3ln45zrcnrqpzniz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -115918,17 +115918,17 @@
 (define-public emacs-treesit-auto
   (package
     (name "emacs-treesit-auto")
-    (version "20230209.2222")
+    (version "20230213.1504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/renzmann/treesit-auto.git")
                (commit
-                 "70bc85b7b907e2b5d4d692d263c3153068a1065e")))
+                 "45f5d7d505745a32d8c628af49db202d56f168ba")))
         (sha256
           (base32
-            "1xxxzpdfaa6xxy4h7fkfb5jfah53gb4ff00jy7zz0f9v2nlp3y78"))))
+            "0b74cl14ccdmrddlprzd4zavfq4wiqq6rq2j0f1qxfip6jyw7qa6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/renzmann/treesit-auto.git")
