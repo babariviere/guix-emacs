@@ -13736,17 +13736,17 @@
 (define-public emacs-cnfonts
   (package
     (name "emacs-cnfonts")
-    (version "20230214.705")
+    (version "20230214.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/cnfonts.git")
                (commit
-                 "4244c9e8a306b459777f950dd70f659e6f629355")))
+                 "bc2c94a712b904f26d090d18dbaccc412f30ef3a")))
         (sha256
           (base32
-            "0dafgkpffkc2ad2mlnv8x32pwfm605z5cj2yj98m30drjkvki8l5"))))
+            "06fsyvn8mapzdiyq97fdy1k6l5cnaxfrg4kpvfgl2sqpmrlh74rk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/tumashu/cnfonts")
     (synopsis "A simple Chinese fonts config tool")
@@ -25397,17 +25397,17 @@
 (define-public emacs-dyalog-mode
   (package
     (name "emacs-dyalog-mode")
-    (version "20221205.814")
+    (version "20230214.1027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/harsman/dyalog-mode.git")
                (commit
-                 "245985f334f697f86e6791ab1b8bbe27b3653bd7")))
+                 "13c0d391aa878a1609259a89fe3e6db8d21935e8")))
         (sha256
           (base32
-            "1zhzdq0sr3k8lkpdckkw6axqj3f2arp3mk77cldkarcqn4myknjy"))))
+            "04dpr4ayz5kcjfg9rfi4kwrw3qdkx422bwxwlxyfp60amf4ilib6"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "Emacs.apl")))
     (home-page
@@ -33123,17 +33123,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230207.1932")
+    (version "20230214.956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "880613823a572d9294001b63468d8c39face5acf")))
+                 "2ce03d412c4e93b0b89eb43d796c991806415b8a")))
         (sha256
           (base32
-            "06j0daqf711aj6w41g2hvxsl8sb372l8aqax75awahycl2gz9m7y"))))
+            "1bxlsrslx18g4i1rnjxlqmcs49mljypnza9mjjakfzfm44z90c74"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -34765,17 +34765,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20230214.324")
+    (version "20230214.1218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "01941c49e2dbb19a6c25cb326af8b904fa572f95")))
+                 "841c51cfdc6346f0bc36f299ca064731a9636b4f")))
         (sha256
           (base32
-            "11szz7iv1v0y4gdq5pjqzi6vgy114f0qd9zaib3xqh3va9z7c4wr"))))
+            "08qii5hz0i3wsh0gwr9z0jk6gwjvvgamny7j7nbpfxrk5l7scj00"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
@@ -43853,17 +43853,17 @@
 (define-public emacs-gams-mode
   (package
     (name "emacs-gams-mode")
-    (version "20220512.222")
+    (version "20230214.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShiroTakeda/gams-mode.git")
                (commit
-                 "d7f5bb688e569c7c517e4c3af32a5319c492362b")))
+                 "a50a290e5559e9f099e2bbbcecacac9e484ef4d9")))
         (sha256
           (base32
-            "19p84xr9xs0224wmy4r7r0167vwd99qx4804hnrxw0y1855qih3g"))))
+            "0k1icyhyqa71d651vdb8mb9vg37nx50l3xs13whv3mq1kcbp0hxp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("gams-mode.el" "gams-logo.xpm")))
@@ -68243,17 +68243,17 @@
 (define-public emacs-load-relative
   (package
     (name "emacs-load-relative")
-    (version "20201130.2202")
+    (version "20230214.1032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rocky/emacs-load-relative.git")
                (commit
-                 "ff2a827144353d29d70392fd95c14c15df207011")))
+                 "b7987c265a64435299d6b02f960ed2c894c4a145")))
         (sha256
           (base32
-            "1g8awvbn4f3g611svi58n9sk188skkn7a9jng6nbxbi9diiy3vvz"))))
+            "1jmi1j8fkvwfawd9q8b6yhqbg8frckjxsgf9jwgiqw9cvakz6wbf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rocky/emacs-load-relative")
@@ -68291,17 +68291,17 @@
 (define-public emacs-loc-changes
   (package
     (name "emacs-loc-changes")
-    (version "20200722.1111")
+    (version "20230214.1036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rocky/emacs-loc-changes.git")
                (commit
-                 "0a55bcba684f78417e831eef2cc32da24a207f29")))
+                 "622371e432f50626aaac82f8ee2841f71685b0fb")))
         (sha256
           (base32
-            "1fywhx8jk25mxrv0i446r519x4vjdsgvm1rzwdd0mcnjbwpv90b4"))))
+            "1kfgmpnj26h8y063rqs39k4c98yy840mkj2pblm7vm0s1fhddj1f"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("loc-changes.el")))
     (home-page
@@ -69246,17 +69246,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230214.740")
+    (version "20230214.1155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "0e9f57b5932a46114b8d2a59a907362abba03e2e")))
+                 "a655f3600e040f872408da0e9c1b9fe65ca0aad9")))
         (sha256
           (base32
-            "0pczna8kaxdc3x8cga108w1c6ka2yvpqjc2926k5d84sb1ksx2fi"))))
+            "0wl4fdvgsmiy7fij7x8bfg3zn3vrfligqjrzyjczg1xrxnrv79m0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -82712,17 +82712,17 @@
 (define-public emacs-org-clock-reminder
   (package
     (name "emacs-org-clock-reminder")
-    (version "20211010.2139")
+    (version "20230214.1422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/inickey/org-clock-reminder.git")
                (commit
-                 "9f9b88348ffbc6628f2286dcb4c064b520d0a638")))
+                 "5fac482608926a4e2ebc69e269ac555a7d63db47")))
         (sha256
           (base32
-            "1dm1q2adgbdb3q0aqacd9nmqxb1dzsrc5gmz7ap2lf0g02b8nwqa"))))
+            "0hry03wr1qar6abvy1z0q2c6v7nksac875amag6klp08syks58vf"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons/*.png")))
     (home-page
@@ -96049,17 +96049,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20230122.1643")
+    (version "20230214.1156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "93a25f73112752eff17d52fd99485199d8babee6")))
+                 "a39a4ecac7279bed1a150a895bbc80baa7272888")))
         (sha256
           (base32
-            "0vmvasmy6dvhnr57zaqd9wzvrc5jjmrlr2f8wzb1gyarp0vhfxsd"))))
+            "0z10k70rh1lscrmwvrirngl841sf785r0by6166jx3bbsahw72n4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -106344,17 +106344,17 @@
 (define-public emacs-slime-repl-ansi-color
   (package
     (name "emacs-slime-repl-ansi-color")
-    (version "20200712.1226")
+    (version "20230214.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/augfab/slime-repl-ansi-color.git")
                (commit
-                 "e38c7958d9657e41c426b4e96938b3f604238795")))
+                 "9e8af90490332217e45d7568f1690df3f4e25d4b")))
         (sha256
           (base32
-            "0rbg6ndi59ycw54s2c21a3c2cr0wlymrpp4qr33yxv1ik00n5n5p"))))
+            "0jsanbz7n8ss6hpgh5wid5lrvq7s2x4yphrgna9zpmgf4b0c3xss"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-slime))
     (home-page
