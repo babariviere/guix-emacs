@@ -27185,17 +27185,17 @@
 (define-public emacs-ejc-sql
   (package
     (name "emacs-ejc-sql")
-    (version "20230209.1734")
+    (version "20230215.40")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/ejc-sql.git")
                (commit
-                 "9d2e03ac5ca0d81f7fb9a907e06a13a3a07b7edf")))
+                 "76fc36410c1f242b7aebdf63b9b54d11431ce127")))
         (sha256
           (base32
-            "12cy2dn9vgynbv3v47b99iq1rgnkzfnc95q0f6si5jnasg0k82bp"))))
+            "19cgpyqa41p4135b0igy3dgsvymx9x96x64z5r39s5cnmjy6pdgb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clomacs emacs-dash emacs-spinner))
@@ -69970,17 +69970,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20230131.2344")
+    (version "20230215.142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "f8c4c2902eecce6d1d2cb87217db233cb2d35d91")))
+                 "e7b16e8b78db6d7fcc17eb05fa3a2a4ed439f2f2")))
         (sha256
           (base32
-            "08j6nnyzlx1gblfgjxd5qs252l44yya94klwprhwdxy9gnhc7yz5"))))
+            "1kzxq9qcsn63lqx22d21zd4c8wm80d4nhqfsvh5m3p88as9ff29q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -97155,17 +97155,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20230211.1525")
+    (version "20230215.141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "88024d9691029660934eb066400d27d110ae348c")))
+                 "6d52e3fa7eed757045692edd97454a8dfc7a26b4")))
         (sha256
           (base32
-            "1kpaircja4wffbh9r260bglcsj5bb96w6hkxv4yy0mnpdi2avy0p"))))
+            "1ca1bzzlc821cl59whkkhsi8gypk2ihvabxsvv21pyq4saagvhwj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/python-mls")
@@ -108709,17 +108709,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230214.118")
+    (version "20230215.118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "e3ff5d9c6431149cebeefa1071ccd4fc1c079595")))
+                 "73f5e836b9863288f76c59db3144378a9213fdc5")))
         (sha256
           (base32
-            "0z8l8pwgy0jyx7wldy4w1546swskljj7as045dfh43waqagr5w68"))))
+            "0686408fwc262zyqwqlsgzq985pxdvphkf03j05fwk2m0jig2scb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -122330,7 +122330,7 @@
 (define-public emacs-wordreference
   (package
     (name "emacs-wordreference")
-    (version "20230114.1021")
+    (version "20230214.1735")
     (source
       (origin
         (method url-fetch)
@@ -122340,7 +122340,7 @@
                ".el"))
         (sha256
           (base32
-            "1kzcfgqq2y4kyz0wqx0ssmiadhy7ry34gbnxagvzz92vbmp98g6a"))))
+            "0fm5h61b71ngpv8g6v86wpa8w6kggqw5fk0bgc5kz8xgz5wd90m7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
