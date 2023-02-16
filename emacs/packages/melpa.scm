@@ -1835,17 +1835,17 @@
 (define-public emacs-adwaita-dark-theme
   (package
     (name "emacs-adwaita-dark-theme")
-    (version "20230212.2200")
+    (version "20230215.2027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/adwaita-dark-theme.git")
                (commit
-                 "97f50abd20e636001863f290bedbb9ba63e00660")))
+                 "4792fed63a44a2337832644db909c1663100605e")))
         (sha256
           (base32
-            "0fvf5sxsjq00xacp67s71rhs6fjf96a7hhgwbzn6cwj25bqb6asq"))))
+            "0nrvdx3lzkdaiy99mq9ramp4zd7fp4bhksbjb1mk3al6f9026kvg"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/adwaita-dark-theme")
@@ -12122,17 +12122,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230208.2108")
+    (version "20230215.2224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "f695986d97d3df5cbaa2ee45e49a58d9e8de9212")))
+                 "d292d8d7eea5d3a12c138687133761a7256b1705")))
         (sha256
           (base32
-            "1y1lfld2hqn5ydnfyhckr4gy2nxc716s62591w0ij3xqi8y7mn7g"))))
+            "19fbkdl85qnhpfki7rcwj2qfxbrfvcz4qs6anrxfm9ffmzwq8196"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -27185,17 +27185,17 @@
 (define-public emacs-ejc-sql
   (package
     (name "emacs-ejc-sql")
-    (version "20230215.40")
+    (version "20230209.1734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/ejc-sql.git")
                (commit
-                 "76fc36410c1f242b7aebdf63b9b54d11431ce127")))
+                 "040d2d937723370347ce444f50a7256d3191c67e")))
         (sha256
           (base32
-            "19cgpyqa41p4135b0igy3dgsvymx9x96x64z5r39s5cnmjy6pdgb"))))
+            "0mmdrmr7ycv8l2i0z70vkxd8ywawsx9p5z2djf4qz6g2lrvzw13l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clomacs emacs-dash emacs-spinner))
@@ -36544,7 +36544,7 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20230123.432")
+    (version "20230215.1641")
     (source
       (origin
         (method url-fetch)
@@ -36554,7 +36554,7 @@
                ".tar"))
         (sha256
           (base32
-            "0dr79c8s97a1m0y7yzn34ibn6nszkamn3whzdx2czd4b5kdddggi"))))
+            "1qqh7kq3ks611z27g5ava8dwpbyvh9lrb9k9gyf5x8fiv6pj25dp"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -69547,17 +69547,17 @@
 (define-public emacs-lsp-tailwindcss
   (package
     (name "emacs-lsp-tailwindcss")
-    (version "20230130.1152")
+    (version "20230215.1425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/merrickluo/lsp-tailwindcss.git")
                (commit
-                 "9cdcd64cdbbfc61a3075d967662f4911d902d9e4")))
+                 "563c1dddb26c82b82dcac0b436594b17375a1480")))
         (sha256
           (base32
-            "0rbqga0jwwvvfcx050vs4qdpxbi7w1pvdzy7vfvcbhh6pfzxinvi"))))
+            "137fd4xrzr2ggh872qv9rm4lbi4gs0g1nhxw7fr4gd2gfbbkljcl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode emacs-f))
     (home-page
@@ -71408,17 +71408,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230212.55")
+    (version "20230215.1913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "3264eb905efda1a66cbd43a6faf07cc3f2241fdc")))
+                 "0554ade246da93da033da5f4ac937d8498ff2709")))
         (sha256
           (base32
-            "0awhwfzsskxgjgsh3h0hsfb51g49v431i50qgi98fdmxmxflm2sd"))))
+            "1nhw65qs3hzrp405sv4advfa6kwjrirbmwk4n5b9m7n2yq7mr22b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -71849,7 +71849,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230213.1458")
+    (version "20230215.1311")
     (source
       (origin
         (method url-fetch)
@@ -71859,7 +71859,7 @@
                ".tar"))
         (sha256
           (base32
-            "1rc0yx365mlmqzhwrc93nczjnrzsdq2bhpmk3ln45zrcnrqpzniz"))))
+            "1fd4lhb3b6j1wb8dgjapqzd1cxs5n4gbzkrxfk5i1dq0bd9cq97p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -83455,17 +83455,17 @@
 (define-public emacs-org-gtd
   (package
     (name "emacs-org-gtd")
-    (version "20230210.2110")
+    (version "20230215.1914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Trevoke/org-gtd.el.git")
                (commit
-                 "56f112844758aa3103e588fee270a951f7f65960")))
+                 "09601daa6eb872a67b22157a5c2b62917dea75b9")))
         (sha256
           (base32
-            "0b3xjmz991y0szinqm9fsm4a6qfygp9hkx1phgpy8d2msq8zsmhp"))))
+            "08bl8v849rkycfypgdmpx6zw2ic1h7g9jcqidn8r4ikvygqpchi9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-edna
@@ -88126,17 +88126,17 @@
 (define-public emacs-ox-linuxmag-fr
   (package
     (name "emacs-ox-linuxmag-fr")
-    (version "20230211.1106")
+    (version "20230215.2020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/ox-linuxmag-fr.git")
                (commit
-                 "335db57fc992b8dff57881b05b667df3d19447c8")))
+                 "2c06d5441e9e67c3ce419bc84b1d4612f64ff40b")))
         (sha256
           (base32
-            "0hqi123bjbh07kg3b3wlrf4k33ad6c0b2qh7p1f3r4bzxjh4qkvr"))))
+            "0azg5c7q3dl8v8162x9nmanh55f9drfkclmrhawmnjbk0m2sj8la"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "resources")))
     (home-page
@@ -106257,17 +106257,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20230205.1346")
+    (version "20230215.2125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "7d39285af4d529c38832ebe6dc7185c7d3a95015")))
+                 "5e8fc7cad5ae7dc19b434c559ebaee3185d80b98")))
         (sha256
           (base32
-            "0cbxfi31bz9xwjmiabg73dr360dngvbvmr1xkakiidfm89kk3dx7"))))
+            "0shk16938dim3m8plf47k6nccmz7hsh5njq9871yfadh1ga8w6za"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
