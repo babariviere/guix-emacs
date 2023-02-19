@@ -3674,17 +3674,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20230216.301")
+    (version "20230219.100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "4f2e4cd925d479904ab18c73613893ebac1b58b9")))
+                 "972b9906bf6d23f5a8e92129a4572a906bdfe45e")))
         (sha256
           (base32
-            "10mq4d1ydrk1bzzi2lhm6zq8qxdafka3f2kxbb129ym90d6xsv9p"))))
+            "1zjnhgkjhgg58c486k6a0p3kns9kap0lfk538059r65nrv4mkbzp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -21790,17 +21790,17 @@
 (define-public emacs-diff-hl
   (package
     (name "emacs-diff-hl")
-    (version "20230104.2203")
+    (version "20230218.2323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/diff-hl.git")
                (commit
-                 "8f2e4eb345f0639c8fc41e3f7576f77ba6987655")))
+                 "d20f16bf5eadd66e775f215e800f25caddae8cb5")))
         (sha256
           (base32
-            "1c265083zyqi33sf3mpkk1n7pyfkrzxg4dacx0b787ypbj1sls16"))))
+            "0nh3rrvjjddyng5j7wjrk4ls7l6cjx3fpf8ksg4kjq7wzw4abf1s"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dgutov/diff-hl")
     (synopsis
@@ -26150,17 +26150,17 @@
 (define-public emacs-ecukes
   (package
     (name "emacs-ecukes")
-    (version "20220802.1502")
+    (version "20230219.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ecukes/ecukes.git")
                (commit
-                 "3fff6edbf4acfab5b9e042c307bc5bbfac1c550f")))
+                 "ec938ec2fd0637feef2fcdaeafa70c2145711866")))
         (sha256
           (base32
-            "0y953fxhxgbkjvh87wq3vkmkhs5pbafwhyflcq2d6krbb1w6jcwh"))))
+            "0d8zchirsrh4a4gaaa22y4izdq900si8vq4p3xp6zjpjg5yvpi25"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-commander
@@ -26173,7 +26173,7 @@
       '(#:files
         ("ecukes*" "templates" "bin" "reporters")))
     (home-page "unspecified")
-    (synopsis "Cucumber for Emacs.")
+    (synopsis "Cucumber for Emacs")
     (description
       "Documentation at https://melpa.org/#/ecukes")
     (license #f)))
@@ -27178,17 +27178,17 @@
 (define-public emacs-ejc-sql
   (package
     (name "emacs-ejc-sql")
-    (version "20230209.1734")
+    (version "20230219.605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/ejc-sql.git")
                (commit
-                 "040d2d937723370347ce444f50a7256d3191c67e")))
+                 "c9a602efd4b3a1b607c630e55e3124d4a63048fb")))
         (sha256
           (base32
-            "0mmdrmr7ycv8l2i0z70vkxd8ywawsx9p5z2djf4qz6g2lrvzw13l"))))
+            "0pnkg8m4ba8nmxc77lcb316hnjhl205jsdfr29gls8qidlfhxwwn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clomacs emacs-dash emacs-spinner))
@@ -27394,17 +27394,17 @@
 (define-public emacs-el-patch
   (package
     (name "emacs-el-patch")
-    (version "20220509.2253")
+    (version "20230219.214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/raxod502/el-patch.git")
+               (url "https://github.com/radian-software/el-patch.git")
                (commit
-                 "156c61b72c1c9c61bd886b5931b8a382153f52fa")))
+                 "ad8b18578d224cf8ebb1cce9a3b1b5a3d93a0e69")))
         (sha256
           (base32
-            "043m4lpm7m7mbprnb5igx0rz2r6c425vl33m7is5j47pm1ysvp31"))))
+            "0w97dqmn5imqpnwrsp442k23bssx07s5r29xspp00rwp4kjdggwa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/radian-software/el-patch")
@@ -29879,7 +29879,7 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230218.2115")
+    (version "20230218.2214")
     (source
       (origin
         (method git-fetch)
@@ -34761,17 +34761,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20230214.1218")
+    (version "20230219.400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "841c51cfdc6346f0bc36f299ca064731a9636b4f")))
+                 "02f8253034042d8f171bc0ef93e3538b71a29153")))
         (sha256
           (base32
-            "08qii5hz0i3wsh0gwr9z0jk6gwjvvgamny7j7nbpfxrk5l7scj00"))))
+            "0r2wfs1762jnh1svypyzgc00f8la4vjlaxz1bifbds11ac6g4726"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-tree-sitter))
