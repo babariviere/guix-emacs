@@ -65903,17 +65903,17 @@
 (define-public emacs-latex-change-env
   (package
     (name "emacs-latex-change-env")
-    (version "20230219.1800")
+    (version "20230220.637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/slotThe/change-env.git")
                (commit
-                 "19d422cbe5944b13dccb7606f86b8520ed709e8f")))
+                 "748cdbb4bbf29a2e5053cf3d965e95cc7db67fac")))
         (sha256
           (base32
-            "1y272zkac4kkrqz70pg2j9y13sf60did4l94yfjwmx44qpn48yd1"))))
+            "1kca90skv4pp7j08jgbhhkmvr5aiwp88gpdx869g53nqy8ssishh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-auctex))
     (home-page
@@ -78260,17 +78260,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20230212.2015")
+    (version "20230220.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "97bcfebd43965751ec5d3a68f9204a654c791870")))
+                 "b1ba75ab9296ada356219ff8ae26333a79871c61")))
         (sha256
           (base32
-            "1ni5y086ys4yn09n5i5b5c1byi28jnd64qql5rvbw1dfjc4azxdm"))))
+            "0v1p6zwxkjfbk52l927wnlflnj0r25z7jyf2pjc1c39p9yg6gwl5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -78649,17 +78649,17 @@
 (define-public emacs-notmuch
   (package
     (name "emacs-notmuch")
-    (version "20221115.1134")
+    (version "20230220.1258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.notmuchmail.org/git/notmuch")
                (commit
-                 "5ba7684445b9338ab289d502d4688d9aff3d8803")))
+                 "09f2ad8e853375930c63bca847f623bc722b9cc0")))
         (sha256
           (base32
-            "15f6f4wm0k99ipzd7q3iv4w1ch534wyrnm0vhqa25k0sz2skzssr"))))
+            "0w60ncc0z5vykfr0v8dw01hv2lsxyfj0balf80szjl0784zx4vnq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("emacs/*.el" "emacs/*.svg")))
@@ -83792,17 +83792,17 @@
 (define-public emacs-org-ivy-search
   (package
     (name "emacs-org-ivy-search")
-    (version "20230203.301")
+    (version "20230220.812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/org-ivy-search.git")
                (commit
-                 "278e98a4f2103919ede49a77d9b7c5e4ade945a7")))
+                 "e7170ff613734f24edace3309d69e23ef73f4b0f")))
         (sha256
           (base32
-            "09pvyrggmscpa25vdyszfyf1zi8a4lilizkng5ci66j9pvla36ir"))))
+            "0sp6qpzj69n1hir9widxdbhz3781ld5hg1h98s23v1lqqxa6ddk9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (home-page
@@ -85018,17 +85018,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20221228.1641")
+    (version "20230220.848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "91cdd82c47b86990b5eb41fe34446a042194cc83")))
+                 "611d6bd1f66eedf5ee2590426990efd4ca990076")))
         (sha256
           (base32
-            "1bp3kz2awy2mizs59qsa2yl7wfa0197fklnramzifz6z2zv5kbrx"))))
+            "1l8qjzijgbjzy4skhy9n0z05bczqlyh9lxwsd98f83mv956ghbkd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -113861,17 +113861,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20230212.2005")
+    (version "20230220.336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "399e2f7bdc7fb68cccaa45a4c94b50bc1d15f198")))
+                 "1d01d76ff25b7d5c5d36a08f111834082277f8e7")))
         (sha256
           (base32
-            "0y0vkni9n8kvlk11pxv5kl1hnjgpb41skigm0l5kzjn6479bwwxp"))))
+            "0f1cq9psqqnrxca1sh97dg4kjcqdpdjib9kwx80gg4mr5wjpcw9j"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
