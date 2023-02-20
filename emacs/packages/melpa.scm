@@ -10281,17 +10281,17 @@
 (define-public emacs-call-graph
   (package
     (name "emacs-call-graph")
-    (version "20230203.314")
+    (version "20230220.226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/beacoder/call-graph.git")
                (commit
-                 "744882259c42c628630a064523cf2cde59dc34fe")))
+                 "18a96dbabbedcd9e55817af7b6a0f303aea09faa")))
         (sha256
           (base32
-            "0pnvarxd2m65hgkr8db6pvyf2w3cdr5604r13sjr3fdpvpsyjccx"))))
+            "1xdb2fiyavhxn7m5gg5b7vr8fydlzdriz0ckhsr95v19vjylkwg4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-mode emacs-ivy))
@@ -20440,17 +20440,17 @@
 (define-public emacs-dashboard
   (package
     (name "emacs-dashboard")
-    (version "20230216.2155")
+    (version "20230219.2200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-dashboard/emacs-dashboard.git")
                (commit
-                 "c0479e2de39dc8a7121e652d6510d3231210fd8d")))
+                 "482595b0eaf2498246197754713fab282bd0cae9")))
         (sha256
           (base32
-            "01mnzhyhvnk8v00ahlbzhs9lijd2gl5r4zb9530n40xlc66m7nj9"))))
+            "1rprwvpkpqjbid49gi1y83xf47ap7iajnv0xlb5n38wfak76z7ga"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "banners")))
     (home-page
@@ -26216,17 +26216,17 @@
 (define-public emacs-ecukes
   (package
     (name "emacs-ecukes")
-    (version "20230219.558")
+    (version "20230220.456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ecukes/ecukes.git")
                (commit
-                 "ec938ec2fd0637feef2fcdaeafa70c2145711866")))
+                 "6bc1feb33d44bda7a7ccf06f8748050ffa1dc23c")))
         (sha256
           (base32
-            "0d8zchirsrh4a4gaaa22y4izdq900si8vq4p3xp6zjpjg5yvpi25"))))
+            "0wcc2rygz6l496fbh6azlbphdk3qn9hfdmcnq7wrcjy35b5f0cbw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-commander
@@ -38993,6 +38993,30 @@
     (synopsis "Flycheck for Elsa")
     (description
       "Documentation at https://melpa.org/#/flycheck-elsa")
+    (license #f)))
+
+(define-public emacs-flycheck-falco-rules
+  (package
+    (name "emacs-flycheck-falco-rules")
+    (version "20230213.1603")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/falcosecurity/flycheck-falco-rules.git")
+               (commit
+                 "ba359f2d5968df47a100e78758f280fe0c965f07")))
+        (sha256
+          (base32
+            "03w6alsvp7bcb2qpgva9w67c1xdbcgfgan6kfzmf6shrni93gldk"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-flycheck))
+    (home-page
+      "https://github.com/falcosecurity/flycheck-falco-rules")
+    (synopsis
+      "On-the-fly syntax checking for falco rules files")
+    (description
+      "Documentation at https://melpa.org/#/flycheck-falco-rules")
     (license #f)))
 
 (define-public emacs-flycheck-flawfinder
@@ -62316,17 +62340,17 @@
 (define-public emacs-jmt-mode
   (package
     (name "emacs-jmt-mode")
-    (version "20230217.117")
+    (version "20230220.341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Michael-Allan/Java_Mode_Tamed.git")
                (commit
-                 "6e7f58567ab6ec44632de364ed3b36a687337a7f")))
+                 "4f14058229855c0a92bab19d76a295dfdcb35f10")))
         (sha256
           (base32
-            "1mzs45nplfb8qi7mkhziffggsdmxyf96gww0ppbp1h99i98m56fw"))))
+            "08fgd6l5k6fh3pjc2vgbj919g6d3cvvbsblxki5mix94g0g1bvyh"))))
     (build-system melpa-build-system)
     (home-page "http://reluk.ca/project/Java/Emacs/")
     (synopsis "Java Mode Tamed")
@@ -69309,17 +69333,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230219.730")
+    (version "20230220.326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "e1bdae23e98fd6a89e374f289c24306bbc8b149d")))
+                 "771342f03986fe8d77696ae9b08e72741006843e")))
         (sha256
           (base32
-            "1ahcfkpb8wrw9fv3snhzrvpsny09hmpdxsid44r9g8zl4v40a7ml"))))
+            "1hm4h7gf7fxz5axvfb6p26pad2fsskfblhhx23is5kahg73skf18"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -108773,17 +108797,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230218.115")
+    (version "20230220.118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "d423c06d5762629cb0b40fc1e8634976a1df5cf2")))
+                 "7ae6710a95a02c90b0f13486e8f20be3a746bee2")))
         (sha256
           (base32
-            "15120isfrvrllsdl0kkv4bznyvc7k9yv9vax2vwqacx2i3zq1l35"))))
+            "159hxs3pa9pmjbhm9i3c2271zllvajw68g8sdcggx6lf3mp5w402"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
