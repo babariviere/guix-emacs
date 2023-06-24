@@ -123412,17 +123412,17 @@
 (define-public emacs-websearch
   (package
     (name "emacs-websearch")
-    (version "20230210.1321")
+    (version "20230624.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-websearch.git")
                (commit
-                 "aa0d7899e032e330e2980aa4be34ed872395883b")))
+                 "a335f486d85a334bc088d3deb5f6863bfdfd2ca4")))
         (sha256
           (base32
-            "1z4y9clvpmgflfq13jmb1j4gy8ly93sfcjwmyf3sn25gld6dmnpi"))))
+            "1rwnpqdx7v76zjvq2v3jnp8ypg6mrill5an2fw1w09bkfhnp2hpc"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/xgqt/emacs-websearch/")
