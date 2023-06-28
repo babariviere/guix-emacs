@@ -17362,17 +17362,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230626.1154")
+    (version "20230627.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "9ba8a9e287a9b6381338218077ec07cb77819684")))
+                 "e154571fe329d5c12576f5299a79a932be35bcad")))
         (sha256
           (base32
-            "107z54c5x8i87jynvm5n4is2lx8v3xfbzqrcr4p1wgcipvlf7wrp"))))
+            "0fn4p01jpq58fvnffbcpl0csi8iz98r1i2vdkyhw8qg469rdi2sz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -28525,17 +28525,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230620.1909")
+    (version "20230627.1916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "3cdb3954a992352c2f2ffaa94315de517c9f5483")))
+                 "bab3c98566b8211b21618f796179002d834dbdb1")))
         (sha256
           (base32
-            "0mabqgzz0pmh0xwwvhx92cg9mkcxa7fy4mavqf1nihnipdjxsl13"))))
+            "0bdk22qf0f9jjmggz9j2lpzr0sxnpx4w6vysvw7ymz9bii871ykp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29093,17 +29093,17 @@
 (define-public emacs-elfeed-tube
   (package
     (name "emacs-elfeed-tube")
-    (version "20230430.546")
+    (version "20230627.1930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/elfeed-tube.git")
                (commit
-                 "6d5a24cfd0655068afd364cded5521a4550a8adb")))
+                 "3f801e340ee92e4850486fea5f08bcbdbc89254c")))
         (sha256
           (base32
-            "0si3i8k23q7sbd0407n0yxvb848b4cjndpfgmvgqvcmlhi9cpb9q"))))
+            "1zm35xc3vswr5jkf4yj6dshc7axk2dgxsq02v0hk9i149ga4ygsn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed emacs-aio))
     (arguments
@@ -35298,17 +35298,17 @@
 (define-public emacs-evil-surround
   (package
     (name "emacs-evil-surround")
-    (version "20221229.1650")
+    (version "20230627.2052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-surround.git")
                (commit
-                 "f273821f575ace519066fb106ee45a5b8577475f")))
+                 "4a21d756b76a50e0c0619555836c9aa98f103d3d")))
         (sha256
           (base32
-            "10d6q25m5wly4iysyybkha9y8mlfikqb2smra1zy6xvkxyx5mclr"))))
+            "1ja7fylbd6zmgdffkf5nvj7f5xyd11a9359q5wfqppd4jyd8c024"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page "unspecified")
@@ -57917,7 +57917,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230627.244")
+    (version "20230627.2112")
     (source
       (origin
         (method url-fetch)
@@ -57927,7 +57927,7 @@
                ".tar"))
         (sha256
           (base32
-            "15i7ig3iivr2pby44ydg2vasfrw5b57191s0pzpygnj5qn6i810p"))))
+            "08nf26b27qfg6qqjsgjp8kr8ybiyzxa8gn65ghvkp9nj2ph4d6bx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -64486,17 +64486,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20230608.1504")
+    (version "20230627.2030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-jupyter/jupyter.git")
                (commit
-                 "bba9d16e9d3f34f43496a85c9174dbba1785be0c")))
+                 "2f14f2e2531fc4ebfde5c3b5ae60c1d9c7a2b26b")))
         (sha256
           (base32
-            "1mqfc3k6rp2vdgar602nahbfs8a3a93bhnrxyv3cikyriqi6anbv"))))
+            "0sy434xf3gghg2rnwp6rg4q84w513pwba6pm67d5x36zyjjjfa8s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -70216,17 +70216,17 @@
 (define-public emacs-lsp-docker
   (package
     (name "emacs-lsp-docker")
-    (version "20230508.2051")
+    (version "20230627.1601")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-docker.git")
                (commit
-                 "1fa2fec2cc6c081b81fbb74bd10d10c1d19693ca")))
+                 "175b587e0def23d4560abdb06b12e05ea469aaea")))
         (sha256
           (base32
-            "1sbb5c17qvjpxvbyzcpam3sc2p5xckmq4hxn3j76b70qjiz6pjiw"))))
+            "16rzvz159zc963via5bajrs2xhhl0d73ycw3i7calqsp31x4747q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -105275,17 +105275,17 @@
 (define-public emacs-scpaste
   (package
     (name "emacs-scpaste")
-    (version "20221125.1731")
+    (version "20230627.1800")
     (source
       (origin
         (method url-fetch)
         (uri (string-append
                "https://melpa.org/packages/scpaste-"
                version
-               ".el"))
+               ".tar"))
         (sha256
           (base32
-            "0r6pi9p8rmmb35g4kjcm32lr3s8bg1g2wjw92aka8vp90sp97dd9"))))
+            "1yxrhrmbf3vy6z3ziqvcaxiras7as2wbblhr4ifhj4ilaixgv99y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -105634,17 +105634,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20230605.957")
+    (version "20230627.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/precompute/sculpture-themes.git")
                (commit
-                 "9ff7c01fa089e98015c4d2d5492391ec12a53c4a")))
+                 "bd2cb01bf219c64c422a89769074eab674ad6996")))
         (sha256
           (base32
-            "021ifzac1783mjvv69lvwyqnxlkqsfq9q83sb2gqlk5vvs63pxqh"))))
+            "0will1nig82w4rzbajrlh8z2zbg29zrdna5igm9jvayc64bh0ddw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
@@ -121543,17 +121543,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20230620.1641")
+    (version "20230627.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "59fdd4fed6cd2fd67d6d9b2ab1e3df889c3ef4b5")))
+                 "308c95d187e236972cad405d5251462c6a825809")))
         (sha256
           (base32
-            "0bij0w61ha7cjayf2x32acy09pc6vky0q1wniknpccc2z2w5ifwa"))))
+            "05pxf8bw6vs87rx891ndaajhysqmvvl55x27222h64h2cg9xhg0x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot
