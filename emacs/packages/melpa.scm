@@ -57917,7 +57917,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230627.2112")
+    (version "20230628.306")
     (source
       (origin
         (method url-fetch)
@@ -57927,7 +57927,7 @@
                ".tar"))
         (sha256
           (base32
-            "08nf26b27qfg6qqjsgjp8kr8ybiyzxa8gn65ghvkp9nj2ph4d6bx"))))
+            "1qi2dm2jw9g1by24vaqncav35l7y696pxl926fjk518cylmpd00y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -63699,17 +63699,17 @@
 (define-public emacs-js2-mode
   (package
     (name "emacs-js2-mode")
-    (version "20230509.2244")
+    (version "20230628.238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooz/js2-mode.git")
                (commit
-                 "dd7abb28844f745f7520db87695b7aa579cbe683")))
+                 "79bc78d77db0d2e8e43dc0f9e0504ad90bcbc26d")))
         (sha256
           (base32
-            "1x7xaw8snbzqv5v1cqsv1g1xhklllshl8li2wl8cg5m39l3ggnc8"))))
+            "1mgqxpsaa5ks9nrsljybw97kcb5rgh1a5si3h98h1firns1vapwp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mooz/js2-mode/")
     (synopsis "Improved JavaScript editing mode")
@@ -86268,17 +86268,17 @@
 (define-public emacs-org-noter
   (package
     (name "emacs-org-noter")
-    (version "20230605.323")
+    (version "20230628.159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-noter/org-noter.git")
                (commit
-                 "1fbf59833e4792e88645bffdcab387b77fda719f")))
+                 "f9710c976823c180070cee4e958e0dc4531ba0de")))
         (sha256
           (base32
-            "1bqqpz5zj86f0j0lc41ypyyyp14w57fxkx0lvpn1j3qhy9hym4hx"))))
+            "1impy2m4vvja3ji632z66h20c3vb7220px24aqv3pww0hkrg3mri"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -105891,17 +105891,17 @@
 (define-public emacs-selcand
   (package
     (name "emacs-selcand")
-    (version "20230604.2132")
+    (version "20230628.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erjoalgo/selcand.git")
                (commit
-                 "c41b4c8a4ee01f8c069b219e2fea16a084c79f19")))
+                 "b6fc231a784df570df0f817d34f926f141a65126")))
         (sha256
           (base32
-            "0nm5104n2i7a80qncmfqsl7nlclzgs0ixy33r0wzbf28qawj4vk8"))))
+            "1hh0y9qy19kvq29z5zrjpk2lll2iydl16dhl88kapfprmv9mrli2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/erjoalgo/selcand")
     (synopsis
