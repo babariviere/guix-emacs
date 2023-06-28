@@ -5657,17 +5657,17 @@
 (define-public emacs-autobuild
   (package
     (name "emacs-autobuild")
-    (version "20230518.438")
+    (version "20230628.759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erjoalgo/autobuild.git")
                (commit
-                 "c75066dd70ab23b5db355d64f0d2a1b6352a0ec3")))
+                 "23a12f088bc61d51f74cc82dac6cd1e768ce9b60")))
         (sha256
           (base32
-            "1rsrvrdm5izgcarbyxj0r5m21fpzwd67qw56mk9792smiqdw18a2"))))
+            "0swkn1gkg33lmlv4gczk8qzsm6vb0gdb5prwdcjhsqrjw6lqsqgh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-selcand))
     (home-page
@@ -10032,17 +10032,17 @@
 (define-public emacs-buttons
   (package
     (name "emacs-buttons")
-    (version "20201123.2333")
+    (version "20230628.752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erjoalgo/emacs-buttons.git")
                (commit
-                 "de41b48244574a13000c4289fdb4216a2b0490ff")))
+                 "1c18e6565cbfd8f0e944a681ac7f67d5a70afd51")))
         (sha256
           (base32
-            "1kxcxzzhvrkw8sk699gadf83sw9vv1sms6jf8w08vzblbd5na567"))))
+            "1xrvknwa2r4s4a3l1kg1n01xgx1wrdrxqz8fg4vqrn8gs9c488id"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/erjoalgo/emacs-buttons")
@@ -25994,17 +25994,17 @@
 (define-public emacs-dune
   (package
     (name "emacs-dune")
-    (version "20230402.1815")
+    (version "20230628.1216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/dune.git")
                (commit
-                 "3e4e50b3b285e89f2ac14d40b24e15321a3c75c8")))
+                 "eecbe7e0877be3741cffd5633b558c800471f00b")))
         (sha256
           (base32
-            "0vmifv1r5yvk9zbi5xk1ic0ch3kpkc8r8gf78jdfm93ndhnjr828"))))
+            "17i8fbli93fnqr7a7n2jahxlw23dzzj11f99xkqhmm4vck364han"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("editor-integration/emacs/*.el")))
