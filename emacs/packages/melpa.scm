@@ -5657,17 +5657,17 @@
 (define-public emacs-autobuild
   (package
     (name "emacs-autobuild")
-    (version "20230628.759")
+    (version "20230628.2343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erjoalgo/autobuild.git")
                (commit
-                 "23a12f088bc61d51f74cc82dac6cd1e768ce9b60")))
+                 "6f4673c72b8495275a0b59b9a4985a4d26b14a0f")))
         (sha256
           (base32
-            "0swkn1gkg33lmlv4gczk8qzsm6vb0gdb5prwdcjhsqrjw6lqsqgh"))))
+            "0nl4rxcbw3g1y418kqc2vqm21kjx0qcz2kw60ygkbm957zawhzrx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-selcand))
     (home-page
@@ -10032,17 +10032,17 @@
 (define-public emacs-buttons
   (package
     (name "emacs-buttons")
-    (version "20230628.752")
+    (version "20230628.2340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erjoalgo/emacs-buttons.git")
                (commit
-                 "1c18e6565cbfd8f0e944a681ac7f67d5a70afd51")))
+                 "ae97996cc52bf0523f5b6626db14987c3b56b3e2")))
         (sha256
           (base32
-            "1xrvknwa2r4s4a3l1kg1n01xgx1wrdrxqz8fg4vqrn8gs9c488id"))))
+            "08zn2y3rcrjhbha9kr3acv90waqmnhvq0qbl0fl5lyykj71dq17m"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/erjoalgo/emacs-buttons")
@@ -51299,17 +51299,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230625.556")
+    (version "20230629.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "4c3abcd8eaa4a3f7a636a2dc6cf842585ecf1553")))
+                 "d6bdd4c27797881bf6933b4a28277eea802ca746")))
         (sha256
           (base32
-            "0g7gw4mcb1x471258z45sjybwwnixm9df5za4xxvp7fw35vhkn93"))))
+            "1yviidpqww2ig7kjxrlknrhhw2qcxnw9i3dnizh9y0xlxn9azfa2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -52060,17 +52060,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230625.556")
+    (version "20230629.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "4c3abcd8eaa4a3f7a636a2dc6cf842585ecf1553")))
+                 "d6bdd4c27797881bf6933b4a28277eea802ca746")))
         (sha256
           (base32
-            "0g7gw4mcb1x471258z45sjybwwnixm9df5za4xxvp7fw35vhkn93"))))
+            "1yviidpqww2ig7kjxrlknrhhw2qcxnw9i3dnizh9y0xlxn9azfa2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -127076,17 +127076,17 @@
 (define-public emacs-yoshi-theme
   (package
     (name "emacs-yoshi-theme")
-    (version "20230225.740")
+    (version "20230629.647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ryuslash/yoshi-theme.git")
                (commit
-                 "ba9427329ac49fa2e060da2c16507feed62ad890")))
+                 "69681fffe9350ebfab6263af97b539f24afb3521")))
         (sha256
           (base32
-            "0f57qz8fxn4bncmd8ak9n0s8h4b0kba7nfmkb475djlhn2n2xxl9"))))
+            "0kbnp565b12ilmwk0chwzj4r9jv79pkdcasmfz63f10bglffqk45"))))
     (build-system melpa-build-system)
     (home-page
       "http://projects.ryuslash.org/yoshi-theme/")
