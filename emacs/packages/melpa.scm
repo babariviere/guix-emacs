@@ -12381,7 +12381,7 @@
 (define-public emacs-chronometrist
   (package
     (name "emacs-chronometrist")
-    (version "20230302.700")
+    (version "20230629.1039")
     (source
       (origin
         (method url-fetch)
@@ -12391,7 +12391,7 @@
                ".tar"))
         (sha256
           (base32
-            "0yp9v4rljnd86zxmlmjl4faayl3jkxmfarq66i4r2j23cyc13nbb"))))
+            "1f25511mdxs51wq9z6sf311zlnwbdvchls4a0mc4n5p4b4sa1n0n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ts))
     (home-page
@@ -12430,26 +12430,19 @@
 (define-public emacs-chronometrist-key-values
   (package
     (name "emacs-chronometrist-key-values")
-    (version "20220414.726")
+    (version "20230629.1039")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://tildegit.org/contrapunctus/chronometrist.git")
-               (commit
-                 "88aa54c08224bb8b8987dd2024052a25b275dab8")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/chronometrist-key-values-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "1jjjisz64qnnzs3jdkdv3794mhybr056i6mjcyihn5g0ix5kg4g5"))))
+            "0599gq194ppspcrp56zfg5ndyfb36qxzj4slm0iskyylmp3kn8c9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chronometrist))
-    (arguments
-      '(#:files
-        (:defaults
-          "elisp/*.el"
-          "elisp/*.org"
-          (:exclude "elisp/chronometrist.*")
-          (:exclude "elisp/chronometrist-goal*"))))
     (home-page
       "https://tildegit.org/contrapunctus/chronometrist")
     (synopsis "add key-values to Chronometrist data")
@@ -12460,24 +12453,20 @@
 (define-public emacs-chronometrist-spark
   (package
     (name "emacs-chronometrist-spark")
-    (version "20220321.349")
+    (version "20230629.1039")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://tildegit.org/contrapunctus/chronometrist.git")
-               (commit
-                 "3f52469f31f0bc23dd63d0b3c29bc2040dfcd98a")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/chronometrist-spark-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "1mjvn02dwhnwq6x1llnlpxzvpfkl753mbs68dahd520fvyjglnrq"))))
+            "0112qnsz9qdpjxygr2fghn7hd9xg0bk1grn8963d1sw5p6scv3cf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-chronometrist emacs-spark))
-    (arguments
-      '(#:files
-        ("elisp/chronometrist-spark.el"
-         "elisp/chronometrist-spark.org")))
     (home-page
       "https://tildegit.org/contrapunctus/chronometrist")
     (synopsis
@@ -25859,17 +25848,17 @@
 (define-public emacs-dtrt-indent
   (package
     (name "emacs-dtrt-indent")
-    (version "20230627.1001")
+    (version "20230629.1342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/dtrt-indent.git")
                (commit
-                 "84227faa9a29bc2f7ee8ab0f073e879d20b873bc")))
+                 "55b6ff098512d7dbc2512564bbea8a6d8084104b")))
         (sha256
           (base32
-            "17iprjm77x9dq0hgxf943gm7g3hfinrh9y9xqiqz167mbsdxa98f"))))
+            "06r38lqadyaqasiarlaw6jwqpcdfv2l2c4jnsp3p5js85iclpj9j"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Adapt to foreign indentation offsets")
@@ -32386,17 +32375,17 @@
 (define-public emacs-erlang
   (package
     (name "emacs-erlang")
-    (version "20230608.533")
+    (version "20230628.1002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erlang/otp.git")
                (commit
-                 "0e823241cdece4f9af42845a40802606e7796121")))
+                 "21d726761343dc81edb40b890c0a37251eba35c6")))
         (sha256
           (base32
-            "1apxzx5s28wa06m5haxcqlg1icsa5xwxvmssd03zb3mi60vkjb2k"))))
+            "1yj49r63djkrx2dcbl6zkzfraafwwa9hqlw5mlli17i8k8hb461m"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -35706,17 +35695,17 @@
 (define-public emacs-evil-tutor-sc
   (package
     (name "emacs-evil-tutor-sc")
-    (version "20230625.2254")
+    (version "20230629.1231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clsty/evil-tutor-sc.git")
                (commit
-                 "ebb43f1f63dafdc094862f4b75726b17e25994d1")))
+                 "14fec14e30225c0d4b3e037d0638f1f288b42976")))
         (sha256
           (base32
-            "0rgl08w651c66d14cm0bnbmvlw05jc9ja6400080761lr0g0gpz4"))))
+            "1y4nbki3jv9ip17vqc4dv3ps5zdak81j5irrsw6v564ai3f4ffq7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-evil-tutor))
@@ -51299,17 +51288,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230629.546")
+    (version "20230629.1244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "d6bdd4c27797881bf6933b4a28277eea802ca746")))
+                 "87059794e903755da51c3c526f97b8a654a220f6")))
         (sha256
           (base32
-            "1yviidpqww2ig7kjxrlknrhhw2qcxnw9i3dnizh9y0xlxn9azfa2"))))
+            "0791cgzgh7xrsbvpx8y3mw782m2pnipq7isbz037chvpr0xadvlh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -52060,17 +52049,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230629.546")
+    (version "20230629.1244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "d6bdd4c27797881bf6933b4a28277eea802ca746")))
+                 "87059794e903755da51c3c526f97b8a654a220f6")))
         (sha256
           (base32
-            "1yviidpqww2ig7kjxrlknrhhw2qcxnw9i3dnizh9y0xlxn9azfa2"))))
+            "0791cgzgh7xrsbvpx8y3mw782m2pnipq7isbz037chvpr0xadvlh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -56480,17 +56469,17 @@
 (define-public emacs-himalaya
   (package
     (name "emacs-himalaya")
-    (version "20230531.1417")
+    (version "20230629.953")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dantecatalfamo/himalaya-emacs.git")
                (commit
-                 "1347ac90e9db7e429a4fc7949d7815f3a2653144")))
+                 "888ab8131c735fb78c30c08e876b2fa538d964a6")))
         (sha256
           (base32
-            "06kpsyp6k7xw4850d649chpkvl7gqiykwywsb6ijdz6nxpgy165x"))))
+            "04v4mrlmjx0dzfz2x69acl7iaysddxcrqpzdrp803vhq0rwlmmwn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dantecatalfamo/himalaya-emacs")
@@ -115213,17 +115202,17 @@
 (define-public emacs-tempel-collection
   (package
     (name "emacs-tempel-collection")
-    (version "20230615.1406")
+    (version "20230629.1027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Crandel/tempel-collection.git")
                (commit
-                 "7d9f77090a0d2fa30a95953e5414bb9f33538f6a")))
+                 "ee25399be95661488751a40591c570e050166d25")))
         (sha256
           (base32
-            "0jar14bh98i0cfwj7wb2ylawkkvg4h08q7s86a9h3mamlr3rjvgk"))))
+            "1fj61dnk3rckn1n29mah2y674padq38bd8jvd8yxacff8i48m5vw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tempel))
     (arguments '(#:files (:defaults "templates")))
