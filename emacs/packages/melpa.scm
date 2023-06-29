@@ -26133,17 +26133,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20230527.1441")
+    (version "20230628.1856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "1274647e557d3ab882e385c81161057ff9d7bc6b")))
+                 "d261468583c8bc606e548293e35cc5578454cac3")))
         (sha256
           (base32
-            "002amda4lhmbkbh3qh4cikxwpc6yw7wcn6jfzmbc1fsi7n1wic4j"))))
+            "1jki7vf3i1hghxzv8wjml7n15r8r7sbj97f9ba8hdwbxaf2mrva0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -28525,17 +28525,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230627.1916")
+    (version "20230628.2108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "bab3c98566b8211b21618f796179002d834dbdb1")))
+                 "53f1d14221d24a2ba116a10a694c3f0b8dd3cda3")))
         (sha256
           (base32
-            "0bdk22qf0f9jjmggz9j2lpzr0sxnpx4w6vysvw7ymz9bii871ykp"))))
+            "16gki3jpyyjh4j0fz5s8j73y7c9z1p5aljmkhc9gi21cdxm8ry4p"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29981,17 +29981,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20230402.1946")
+    (version "20230628.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "840713f23af99b83d04034c3703f7e73c3baa7dc")))
+                 "c1354a62918c6a15aa45613c422921f17bd4e19b")))
         (sha256
           (base32
-            "1crkqy3dyvmqbyzyzl4sknhv34jckvw5lrgr9ryyxicbbhxm20nz"))))
+            "08bwx4vmxicmmchx4f9qvkgpz7z4gbc2wyzlkfwckfvckgxb1s83"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company
@@ -56891,17 +56891,17 @@
 (define-public emacs-hledger-mode
   (package
     (name "emacs-hledger-mode")
-    (version "20230624.1647")
+    (version "20230628.1849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/narendraj9/hledger-mode.git")
                (commit
-                 "7a15d5404421da940afd4ff2873dbd41ada31dbd")))
+                 "26fbfa59d9b96dc49740e074efac32e82cd9dffb")))
         (sha256
           (base32
-            "11m0ivqa0iv80wrvv937j2jliyyzfl5vsw3az4q9d5palmswbmjk"))))
+            "0v8vxbva7n8rlj3m5zy3lghk8zw02abkkzdwz7pl9qrzdzrwrdp4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-popup emacs-async emacs-htmlize))
@@ -70552,17 +70552,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230625.39")
+    (version "20230628.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ba50b9d3f608a518cd1c7207bc245c0b9a730b53")))
+                 "05c88ea1bd1ac56bf2a386541047a96240676047")))
         (sha256
           (base32
-            "0nj9krjcrq9vsqqr012gcmq9zi86hackibsm72w5v75yfbl243qs"))))
+            "1nks42pbxxbzdgkfz9qm18ys3qd4bf5fhny29ax81v71xcqvmbf1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -87237,17 +87237,17 @@
 (define-public emacs-org-roam-bibtex
   (package
     (name "emacs-org-roam-bibtex")
-    (version "20230201.1834")
+    (version "20230628.2036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-roam/org-roam-bibtex.git")
                (commit
-                 "c87acc2d5685ba2608e2bd1f128e723f1de9d837")))
+                 "f90ac12b7ae5ba7bcdebfe53796fd0417946e5e1")))
         (sha256
           (base32
-            "15a9b8b7xqrjyqbddqb05b1fqf2xcwxqfj9hfjvkqzk9rwgz3sir"))))
+            "0magzl7bffwvjmri7r4smp6wdjcn8wgfgrd9sk5z0kcydd0r4aab"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-bibtex-completion))
@@ -110409,17 +110409,17 @@
 (define-public emacs-solidity-mode
   (package
     (name "emacs-solidity-mode")
-    (version "20221119.1735")
+    (version "20230628.1637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethereum/emacs-solidity.git")
                (commit
-                 "ddb4a901c33bd29ba2eefff3b7f7461849c6e833")))
+                 "8ba549e429e86778a0e079648f3bc3463fcb15f6")))
         (sha256
           (base32
-            "1hppvvh9mq7yg129490b66bmdnnx6c03acbml03ipbcrfc6950y0"))))
+            "02lh72d7s2r0s4wmmxd84rs1wpvmid2l2nz4rpzipldkwrdbn95f"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -110772,17 +110772,17 @@
 (define-public emacs-sourcepawn-mode
   (package
     (name "emacs-sourcepawn-mode")
-    (version "20230613.2043")
+    (version "20230628.1821")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/agrif/sourcepawn-mode.git")
                (commit
-                 "41b3c5a263cb8d02d82a9146ccf8b2e1e443407a")))
+                 "1f100431f34b51c5374ea0dd71146c870555ea82")))
         (sha256
           (base32
-            "0ww3c9b0s2vxnz7zsp7vr1yr4rhxm7z6kyv36m3wphj27jrq2z2d"))))
+            "1iky6hz6la4lbl7v6d9999i4mp0g2kr0w5ccbs8kc44s82j2axcf"))))
     (build-system melpa-build-system)
     (home-page
       "http://gammalevel.com/teamfortress2/sourcepawn-mode")
