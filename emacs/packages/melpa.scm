@@ -28514,17 +28514,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230628.2108")
+    (version "20230629.2027")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "53f1d14221d24a2ba116a10a694c3f0b8dd3cda3")))
+                 "b9fdf60a1a120fb7b88b94d5e4f27b94f6417a41")))
         (sha256
           (base32
-            "16gki3jpyyjh4j0fz5s8j73y7c9z1p5aljmkhc9gi21cdxm8ry4p"))))
+            "0pizz4kha9h7cf0p22ki43kl6v1jlk3jzhd95iwfz2pdgjdbxk1j"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -30657,17 +30657,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230625.1937")
+    (version "20230629.2214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "281ee5004ec583f7556fde41af7268b7d8cef0da")))
+                 "f2dcfe4d797a3ab66bb603d5cf441ae1172a672d")))
         (sha256
           (base32
-            "0jxrl23d23b961sv6ysb53id4xd21ws449clamklryl8990v5iwd"))))
+            "1vpp4pzi3mjxdszyzjy8zg5nhf2l39ay5lim0d5kynv3r7jw24vm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -43546,17 +43546,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20230619.1541")
+    (version "20230629.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "49c130e1cea527ecb310d87026889652d5ef7664")))
+                 "749133ce664fe1b3e823216d4a48b77d94d01223")))
         (sha256
           (base32
-            "0gwmgjgxdnpv7qzkbvqn1sfa1ax1367728h1br8igbhyj388swv3"))))
+            "0h7ksbn1hsfxj6kirip1gisihb25v6lg7fsp3m7lxjjqyxvsxrjp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -65663,17 +65663,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230621.857")
+    (version "20230629.1921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/debanjum/khoj.git")
+               (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "946af0889d195d483ca044698e0f6ac856ceb983")))
+                 "6c10d68262c5a1eafc8b96d962e5b36040731b94")))
         (sha256
           (base32
-            "0zz52366znwavvpq1zs3w2dqgkx3bq9mi26lidjz524i1jj509vi"))))
+            "12dspmx0hhmnhnydqcd1ha71nvffbfi9y1wz6smm5gvwkvd7x6i8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -77140,17 +77140,17 @@
 (define-public emacs-mu4easy
   (package
     (name "emacs-mu4easy")
-    (version "20230207.2042")
+    (version "20230629.1721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielfleischer/mu4easy.git")
                (commit
-                 "34565ddb9fc74675b28ce19694485cf2e91eba20")))
+                 "bb9f5df374723932c848f8864c86d7b0ceacc82c")))
         (sha256
           (base32
-            "134w5sgzicbn1ycf0dq1v4g4ph6jygzqvvgniygy6rgw1gs1gmx7"))))
+            "0ilmrwg17pfan2v999gla180p3krbfq01r4n6df4wg1h8k8d6kr7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-mu4e-column-faces
@@ -111081,17 +111081,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230622.118")
+    (version "20230629.1531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "7181521e7a6e725d8816a993f8364f8e0fd7d6f4")))
+                 "bd68c0bb6958b647f955600c490d395179713cb3")))
         (sha256
           (base32
-            "0cqy7gi86wk086sn10dbx24h5rjb1ynvjc7ladnsgnwgj525di19"))))
+            "0vq2ii7s4c0m0s5x0xbwc6c5lz904r459kdzz53jiw30dvvhq566"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
