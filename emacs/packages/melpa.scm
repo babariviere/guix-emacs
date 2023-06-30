@@ -34457,17 +34457,17 @@
 (define-public emacs-evil-goggles
   (package
     (name "emacs-evil-goggles")
-    (version "20220112.1302")
+    (version "20230630.754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/edkolev/evil-goggles.git")
                (commit
-                 "1b66053ea5f06b08a52bebdd42bffd8eff82032b")))
+                 "0070c9d8447e1696f8713d0c13ff64ef0979d580")))
         (sha256
           (base32
-            "1z0qdgvrjajf027zibvwwaa2ia1zczbw68mc67ihhdc2zdsmz5ik"))))
+            "1pc6impc9x0m5j1b5bib98d62bnkn034lyhfx45rcwgnixaz7vlq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -46542,7 +46542,7 @@
 (define-public emacs-git-timemachine
   (package
     (name "emacs-git-timemachine")
-    (version "20230621.921")
+    (version "20230630.1214")
     (source
       (origin
         (method url-fetch)
@@ -46552,7 +46552,7 @@
                ".tar"))
         (sha256
           (base32
-            "063fdb9cgq3mg3c6lykb4b6b23hb42zbsfgjd5ns4nc4khx9rzf9"))))
+            "0aryiy1gbzv0wyhvhi848v7y62qkrra2p2agfpjdc0dwm4i1y7n2"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/pidu/git-timemachine")
@@ -57906,7 +57906,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230630.502")
+    (version "20230630.830")
     (source
       (origin
         (method url-fetch)
@@ -57916,7 +57916,7 @@
                ".tar"))
         (sha256
           (base32
-            "14ygqjfmk1vadzyxhj02fmsp97gk9s842i22q3p3j9msnkrz07mm"))))
+            "0vkf6y6qmb96vq2li2ghv761a6xg2jd1nqk3vz0hzwzvk1613kxi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -70865,17 +70865,17 @@
 (define-public emacs-lsp-treemacs
   (package
     (name "emacs-lsp-treemacs")
-    (version "20230620.1844")
+    (version "20230630.1039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-treemacs.git")
                (commit
-                 "323b4c9790f8f48c6dbce65d31dd969d1f55df49")))
+                 "7011f3cae30d311a7d123ecd338e7abff2550fa6")))
         (sha256
           (base32
-            "0pd94lv0nfhwrmz6agfygj3jjgqnd428z6f6f3r2pwbd64rah0bn"))))
+            "0x5b213fszzsrwpfhcr8kczmy84kbn4bgpw544k5g01dx5k4lvap"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73953,17 +73953,17 @@
 (define-public emacs-merlin
   (package
     (name "emacs-merlin")
-    (version "20230619.924")
+    (version "20230630.1208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "106156f39f99aad79dcc212196a8892a61e6265e")))
+                 "5fa30ebeb90fabcee5dd13b0153b928f6f576b40")))
         (sha256
           (base32
-            "0h7ckmc55xwk5sgl8z92bivxb6z3qq6rjbjlq5p8qj8j3xhw8mz3"))))
+            "026kia3nvgn7prqlbjvcjpc2wdkxw4a9kq24vhhyf3dzd9dlvpnx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -75702,7 +75702,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230625.1327")
+    (version "20230630.1315")
     (source
       (origin
         (method url-fetch)
@@ -75712,7 +75712,7 @@
                ".tar"))
         (sha256
           (base32
-            "03rng8wwisn5pg53m0mr1d7lr8cfhpnd3zmac0f7hqdz3f89nvab"))))
+            "0aczsim6zmiszi2zdqksq2x7z8xc572nd9x931jip54g34fv9qdl"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -105623,17 +105623,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20230627.1755")
+    (version "20230630.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/precompute/sculpture-themes.git")
                (commit
-                 "bd2cb01bf219c64c422a89769074eab674ad6996")))
+                 "155de16e00d41129985e13b38cb17a9a722beb64")))
         (sha256
           (base32
-            "0will1nig82w4rzbajrlh8z2zbg29zrdna5igm9jvayc64bh0ddw"))))
+            "0l0siy221iq4hzz34y97knzbcdi83l98gqnj3zr0b7f4kghvgsdf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
