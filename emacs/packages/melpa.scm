@@ -57906,7 +57906,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230628.306")
+    (version "20230630.502")
     (source
       (origin
         (method url-fetch)
@@ -57916,7 +57916,7 @@
                ".tar"))
         (sha256
           (base32
-            "1qi2dm2jw9g1by24vaqncav35l7y696pxl926fjk518cylmpd00y"))))
+            "14ygqjfmk1vadzyxhj02fmsp97gk9s842i22q3p3j9msnkrz07mm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -107210,17 +107210,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20230324.125")
+    (version "20230630.124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "f8819bca0c97970662cd4214f8f3104ab4a376c1")))
+                 "ea60411ff2170872f6fb1fe858ffad41580009e6")))
         (sha256
           (base32
-            "1yk41h28cbi5qfh4jx173f83f73anf3imwfqary58yq159n47im8"))))
+            "0ciicnhrh486il7wl9qn9yl3rafq89vsjyq3bq76qf64rpdmy246"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
@@ -124299,17 +124299,17 @@
 (define-public emacs-wikinforg
   (package
     (name "emacs-wikinforg")
-    (version "20230317.2050")
+    (version "20230630.116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/wikinforg.git")
                (commit
-                 "fe16cbecc73a41110f2bad95c1f63a97a9da88ca")))
+                 "525ab7d72ffbfbb57868f430a67cad010904ccf5")))
         (sha256
           (base32
-            "1hdn5dwzx9d9dj7k5la75j8k3nyq30ppxcjajg6jbylh3791sb06"))))
+            "0igzg5adbqcb2zz336d5fvn71l8jnjjsl0g4zzj12dh0sacc33py"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wikinfo))
     (home-page
