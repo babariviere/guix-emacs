@@ -15254,17 +15254,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20230416.2034")
+    (version "20230701.32")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "8a78f320019574bc35b5727f95b052b27918da20")))
+                 "23f44eba28ec4736b95117a5f0c07265659245d9")))
         (sha256
           (base32
-            "1rmxcv5nfvp6j26zcv5fb563mzwf205s5417yqmfyc44v8j905i7"))))
+            "18rwdqpsv3hzng51lx1cy5aynpfmnjfy7gh3k8n7gvzk5kw149zd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -57906,7 +57906,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230630.2044")
+    (version "20230701.108")
     (source
       (origin
         (method url-fetch)
@@ -57916,7 +57916,7 @@
                ".tar"))
         (sha256
           (base32
-            "160qjai54hcd90mwyb8mrvkhzd813k3cwpq7v3bibnz0as6cpqv7"))))
+            "1566kvm0qwfxdfw8iz3wdp7z0fmvwyhmwkzwl3ar4psa2wlag910"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
