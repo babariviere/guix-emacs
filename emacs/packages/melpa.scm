@@ -6174,17 +6174,17 @@
 (define-public emacs-babashka
   (package
     (name "emacs-babashka")
-    (version "20230625.2028")
+    (version "20230701.1059")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/babashka.el.git")
                (commit
-                 "57176642f4e89356791112908e1985316328b00b")))
+                 "0cf130ce8427e17389d5741ef7952c4c8334d928")))
         (sha256
           (base32
-            "0gniq7njl4nb3w1dzjmfn95gimcs4757f8fdxkz3cw1npwd07xcr"))))
+            "08ryg66kmj3l9yc3527sjyln5irs49x9ccsf1y64h2adgkbn58qr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parseedn))
     (home-page
@@ -28514,17 +28514,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230629.2027")
+    (version "20230701.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "b9fdf60a1a120fb7b88b94d5e4f27b94f6417a41")))
+                 "4bc2acfe35c2b8f8a5140337662ba473eabe5e4f")))
         (sha256
           (base32
-            "0pizz4kha9h7cf0p22ki43kl6v1jlk3jzhd95iwfz2pdgjdbxk1j"))))
+            "148xz8lqzyr2ip4fgn94pknrj9x3aq2mp15djghnac8mjy3plmlx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -35695,17 +35695,17 @@
 (define-public emacs-evil-tutor-sc
   (package
     (name "emacs-evil-tutor-sc")
-    (version "20230630.1541")
+    (version "20230701.908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clsty/evil-tutor-sc.git")
                (commit
-                 "1cbf9f654c83a387bb562e9ba4a942d7e49d2d3a")))
+                 "051f85ea2c7998b49c8b95f6c5dea89b93889ce9")))
         (sha256
           (base32
-            "07m4jjrjay4ddbqcv6ygjx2r60f5v51cxq0afdm7796246ccrj5d"))))
+            "13z1n4m38dy8vw2yj33l0ksnx84mh51wifgjkg4dlgd4qfch7b1i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-evil-tutor))
@@ -65663,17 +65663,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230629.1921")
+    (version "20230701.1244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "6c10d68262c5a1eafc8b96d962e5b36040731b94")))
+                 "2fbc60923333f776c65008443c9be5c964442d8b")))
         (sha256
           (base32
-            "12dspmx0hhmnhnydqcd1ha71nvffbfi9y1wz6smm5gvwkvd7x6i8"))))
+            "06yv0acsi7vfa6mnnbnf4igxrg48rn36630kyrp9my02g4h2qdf9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -73621,17 +73621,17 @@
 (define-public emacs-media-progress
   (package
     (name "emacs-media-progress")
-    (version "20230527.2209")
+    (version "20230701.911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jumper047/media-progress.git")
                (commit
-                 "ca492e4a58d3cecf56cfa2e1ee0207c1cb7bbaf9")))
+                 "9f5e5bfa2c187680bb737c2b069650407ab6230d")))
         (sha256
           (base32
-            "1i4p9kwd3ifqjbpvz7lq1m7ygllk9mgcklxgnmzl258ii93ksdha"))))
+            "0k59rjgdchi98vhkbcwy3ymcx5279w1hnimp9gphg7x6lkxsv6ph"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("media-progress.el")))
     (home-page
@@ -105623,17 +105623,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20230630.1431")
+    (version "20230701.1244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/precompute/sculpture-themes.git")
                (commit
-                 "155de16e00d41129985e13b38cb17a9a722beb64")))
+                 "39e815f2379d75c4f51f509a5e4466e93af6287b")))
         (sha256
           (base32
-            "0l0siy221iq4hzz34y97knzbcdi83l98gqnj3zr0b7f4kghvgsdf"))))
+            "00i5ahsgjbifa5dqnbjpmqg2i4m1isxacygdk7a1si7bcnl30wfc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
@@ -111993,17 +111993,17 @@
 (define-public emacs-ssh-deploy
   (package
     (name "emacs-ssh-deploy")
-    (version "20230129.903")
+    (version "20230701.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cjohansson/emacs-ssh-deploy.git")
                (commit
-                 "94b56c0428fa0c788578161edc9e7992b13cd400")))
+                 "5496715b52810b81e8e08612ba5a2b5f71d43b30")))
         (sha256
           (base32
-            "1rg1hzhv8q1gfgfhd4pm22vx6mk5zkkkdq3zyg0dqb49r5skrbss"))))
+            "113m75gpvx0v4nv9vkmn5dfm69wls2nhy49kcn4bkmvsl2gdqlmm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/cjohansson/emacs-ssh-deploy")
@@ -118223,17 +118223,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20230615.1714")
+    (version "20230701.1028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "58ed4538a7e5e3481571566101748a2bee29bc1d")))
+                 "cb56fb908e612e008608a910a0606ec84d9f63ac")))
         (sha256
           (base32
-            "0166y4pw1njv2dkjkh54f9s16b8n2zihs4r7dxwllcm890rsa067"))))
+            "1cx3hhdx26x8wbw5a6la2826m6kil1aaxfrqxvmq3y2ms10d4rx0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
