@@ -12991,17 +12991,17 @@
 (define-public emacs-citre
   (package
     (name "emacs-citre")
-    (version "20230217.1202")
+    (version "20230630.1536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/universal-ctags/citre.git")
                (commit
-                 "4626ada80fabea6b62935567acc1cb8dad607016")))
+                 "c617acef3dc2a88aaffa42a515ce7dbaba98228a")))
         (sha256
           (base32
-            "1bs66lk094g1bgk09zamv184j1nl64z8hvwjvf4w28kbjpvnxvsn"))))
+            "10lj6w67vsdxdzg0y69qzpccai4054xg8kl9jpavnwn5i12nlp7l"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/universal-ctags/citre")
@@ -31227,17 +31227,17 @@
 (define-public emacs-empv
   (package
     (name "emacs-empv")
-    (version "20230625.1316")
+    (version "20230630.2143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/empv.el.git")
                (commit
-                 "f71bce1ea481b0578e62394d620ad7982c088dea")))
+                 "29dd313fea4083237b47162bad31202d132d5e40")))
         (sha256
           (base32
-            "16cayz4rxggap3l1q06prvw6r38xbdfszgj5b0ghhkz1625lk9r3"))))
+            "0g3srp183z9qyhjv4zh82zyhijxklkqvmag4mvx4khn5x6c45r58"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/isamert/empv.el")
@@ -35695,17 +35695,17 @@
 (define-public emacs-evil-tutor-sc
   (package
     (name "emacs-evil-tutor-sc")
-    (version "20230629.1231")
+    (version "20230630.1541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clsty/evil-tutor-sc.git")
                (commit
-                 "14fec14e30225c0d4b3e037d0638f1f288b42976")))
+                 "1cbf9f654c83a387bb562e9ba4a942d7e49d2d3a")))
         (sha256
           (base32
-            "1y4nbki3jv9ip17vqc4dv3ps5zdak81j5irrsw6v564ai3f4ffq7"))))
+            "07m4jjrjay4ddbqcv6ygjx2r60f5v51cxq0afdm7796246ccrj5d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-evil-tutor))
@@ -39712,17 +39712,17 @@
 (define-public emacs-flycheck-eglot
   (package
     (name "emacs-flycheck-eglot")
-    (version "20230202.1844")
+    (version "20230630.1803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/intramurz/flycheck-eglot.git")
                (commit
-                 "31905ad676d67fb2967a3b6d907312380696615f")))
+                 "9ff8d0068be59b1450964b390349d75a68af21ed")))
         (sha256
           (base32
-            "1zkwb0w5rp0b53r4plvckwild717crv51ymfmhcdqdrjlv9qpzca"))))
+            "1ab4vp8qyhmg0ckr2h0bw1nm3lwh8zwckgjvzmr3lwcv6drcq67h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot emacs-flycheck))
@@ -57906,7 +57906,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230630.830")
+    (version "20230630.2044")
     (source
       (origin
         (method url-fetch)
@@ -57916,7 +57916,7 @@
                ".tar"))
         (sha256
           (base32
-            "0vkf6y6qmb96vq2li2ghv761a6xg2jd1nqk3vz0hzwzvk1613kxi"))))
+            "160qjai54hcd90mwyb8mrvkhzd813k3cwpq7v3bibnz0as6cpqv7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -66590,17 +66590,17 @@
 (define-public emacs-lab
   (package
     (name "emacs-lab")
-    (version "20230617.1339")
+    (version "20230630.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/lab.el.git")
                (commit
-                 "e4973c99af5837260122de0b8e234a4d87af2356")))
+                 "771a98c48c657f7a883b664617f2bc0370575f99")))
         (sha256
           (base32
-            "05va6l7g96qaiplsdxnbnc7s4hvk2dsrs64qs3zbk7gf1ad85vj6"))))
+            "1cg118ifbjmx6imdvdqqk6gjg25j1ypgcqnznpbr7dxw84crdv81"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-memoize emacs-request emacs-s))
@@ -79229,17 +79229,17 @@
 (define-public emacs-nickel-mode
   (package
     (name "emacs-nickel-mode")
-    (version "20230502.841")
+    (version "20230630.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nickel-lang/nickel-mode.git")
                (commit
-                 "4b92668564025b18a3d4da47db51d6360cf9da44")))
+                 "99010b65f54cf3a9d00e797d25bf51947a6dabf6")))
         (sha256
           (base32
-            "01mlw1yjypffq8fpvsc9inw6gwrjmb2d944qw5mg51cdldddscc4"))))
+            "048pcvvd852375xy7dzkvfp4wwnk8y6xkbr7sdda34irhkpsa3x8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nickel-lang/nickel-mode")
