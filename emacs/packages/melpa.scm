@@ -17545,17 +17545,17 @@
 (define-public emacs-consult-flycheck
   (package
     (name "emacs-consult-flycheck")
-    (version "20230411.445")
+    (version "20230701.1510")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult-flycheck.git")
                (commit
-                 "fda630411ad9219f45136310f671b44eaefafcab")))
+                 "b73fc4bcce9c68d01ba9f4100f1c518ee3f3d28b")))
         (sha256
           (base32
-            "0wq8qsdiq6m83pfa0jzxxb0rp81y867w0yjh6nxyjlhs56qv4206"))))
+            "1259ymsrkdw8mly2jrc50v98h42kyfnjah2f73lfx403b8fi0qmf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-flycheck))
@@ -21365,17 +21365,17 @@
 (define-public emacs-ddskk
   (package
     (name "emacs-ddskk")
-    (version "20230328.1058")
+    (version "20230701.2340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skk-dev/ddskk.git")
                (commit
-                 "98c103ed697e461439401f731c13b3bda02e5128")))
+                 "8c47f46e38a29a0f3eabcd524268d20573102467")))
         (sha256
           (base32
-            "0p3f70ckpa1zpab15al6znwhlf1pp5dmc2amjrq5nrp2bq389hk3"))))
+            "0vfdbab3ncns8wwrna8h6y2w0grkphzr9s65sgxq98lpqmxbbr72"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ccc emacs-cdb))
     (arguments
@@ -31227,17 +31227,17 @@
 (define-public emacs-empv
   (package
     (name "emacs-empv")
-    (version "20230630.2143")
+    (version "20230701.2223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/empv.el.git")
                (commit
-                 "29dd313fea4083237b47162bad31202d132d5e40")))
+                 "eb9cec646e2f233fc46001ca10b6c9ddceae3c9d")))
         (sha256
           (base32
-            "0g3srp183z9qyhjv4zh82zyhijxklkqvmag4mvx4khn5x6c45r58"))))
+            "03pq6yimj4xkz8d4m3sh8ibkfgp6fnis3mvasaxr8far2r8mxiqr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/isamert/empv.el")
@@ -35695,24 +35695,24 @@
 (define-public emacs-evil-tutor-sc
   (package
     (name "emacs-evil-tutor-sc")
-    (version "20230701.908")
+    (version "20230701.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clsty/evil-tutor-sc.git")
                (commit
-                 "051f85ea2c7998b49c8b95f6c5dea89b93889ce9")))
+                 "5985404edd15c5797a2d4974b586b68343b063af")))
         (sha256
           (base32
-            "13z1n4m38dy8vw2yj33l0ksnx84mh51wifgjkg4dlgd4qfch7b1i"))))
+            "17ilqz51rbdm3468jj31pnwgynhcckr9yjbqmdyl9z4kzkf7jns3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-evil-tutor))
     (arguments '(#:files (:defaults "tutor-sc.txt")))
     (home-page
       "https://github.com/clsty/evil-tutor-sc")
-    (synopsis "Simplified Chinese Evil-tutor")
+    (synopsis "Simplified Chinese tutor for Evil")
     (description
       "Documentation at https://melpa.org/#/evil-tutor-sc")
     (license #f)))
@@ -57906,7 +57906,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230701.108")
+    (version "20230701.1859")
     (source
       (origin
         (method url-fetch)
@@ -57916,7 +57916,7 @@
                ".tar"))
         (sha256
           (base32
-            "1566kvm0qwfxdfw8iz3wdp7z0fmvwyhmwkzwl3ar4psa2wlag910"))))
+            "1dhzrir2vm31w38l75vjkz6irb8f1c8vzh4mdv7ndsalq3kk0ll2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -64294,17 +64294,17 @@
 (define-public emacs-julia-ts-mode
   (package
     (name "emacs-julia-ts-mode")
-    (version "20230505.1846")
+    (version "20230701.1938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ronisbr/julia-ts-mode.git")
                (commit
-                 "a1592dee00c979c238ac3465050a305579657d86")))
+                 "7799e30701c28d9aa27a889c11618d213aab6ff2")))
         (sha256
           (base32
-            "0jiy693r0v7adxhdaq1crnzzh2drbvmr8wcja23vns56liqaqvvn"))))
+            "1nz5wzydy1n761h58h3ikcflx8pj15vb7ysq9byl32n7r166dfcm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-julia-mode))
     (home-page
@@ -70150,17 +70150,17 @@
 (define-public emacs-lsp-cfn
   (package
     (name "emacs-lsp-cfn")
-    (version "20220822.1545")
+    (version "20230701.1533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/lsp-cfn.el.git")
                (commit
-                 "55203d41d767c091511599fca236c1f9c39cd58a")))
+                 "afef283ae27dc7dfbec997982ba5dc0e062f0a03")))
         (sha256
           (base32
-            "0xmv3aqlfp4qk9vmahzmn58m8m0i7929x1mwy2rh33jx08v67xv3"))))
+            "1nfq1x6xi345hyk92gac3kpp1jkn1gfml810di3m2pp54j75wiv7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-yaml-mode))
