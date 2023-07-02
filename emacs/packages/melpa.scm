@@ -5242,17 +5242,17 @@
 (define-public emacs-auto-dark
   (package
     (name "emacs-auto-dark")
-    (version "20230307.17")
+    (version "20230702.319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/auto-dark-emacs.git")
                (commit
-                 "a8cef72b679828eceebe00ab82b879c5d2df54fe")))
+                 "af19a779c6df1e371d26e4092e6a2113ad1f44cd")))
         (sha256
           (base32
-            "0pmidfw0sxc5mi2q60gq7b6hfwpqc2891sps02f5cinagf5hs3c5"))))
+            "0h1d0i8p4v89l4xq76q89fnfifq2bk1xf92df2j91zwn7clj7z3c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/LionyxML/auto-dark-emacs")
@@ -8134,17 +8134,17 @@
 (define-public emacs-blackjack
   (package
     (name "emacs-blackjack")
-    (version "20230619.5")
+    (version "20230702.32")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gdonald/blackjack-el.git")
                (commit
-                 "28e4e895714699f6376920b10dd236819d4563f6")))
+                 "2f854832de5e30092cbd3a43481047058b28b199")))
         (sha256
           (base32
-            "10yjcx4rc210qcadj4mdaishw1vnwsbj8b41sq08bwcsrvl07j0v"))))
+            "06m3ihi821pq1n95g8shqsik8afd6jfgbh6b0j5v02ajfhdxy58b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gdonald/blackjack-el")
@@ -35695,17 +35695,17 @@
 (define-public emacs-evil-tutor-sc
   (package
     (name "emacs-evil-tutor-sc")
-    (version "20230701.2311")
+    (version "20230702.40")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clsty/evil-tutor-sc.git")
                (commit
-                 "5985404edd15c5797a2d4974b586b68343b063af")))
+                 "89cb553e4519033a74dcec8f8da474f89ee80ca3")))
         (sha256
           (base32
-            "17ilqz51rbdm3468jj31pnwgynhcckr9yjbqmdyl9z4kzkf7jns3"))))
+            "1s1nsw7gwgb4qrh9hpnw43kgprkwrswgmycahf669pyw79g466dm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-evil-tutor))
@@ -50664,17 +50664,17 @@
 (define-public emacs-hammy
   (package
     (name "emacs-hammy")
-    (version "20230516.505")
+    (version "20230702.342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/hammy.el.git")
                (commit
-                 "5469d2d6f6f7ccb521ea0e3ada9b6531ac2e1a70")))
+                 "471958b7269a7901804e3e7be20e14d69fc7b11d")))
         (sha256
           (base32
-            "0sqmvd177jvrj4js1jvccb1i3nvbcdiwfdkpd40gshqb6y6nj0fy"))))
+            "08r0m6ldcmvc9j9jd30czkabhvkwx6xp56zyhzg2bfxna3c61yfi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts))
     (home-page
@@ -57906,7 +57906,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230701.1859")
+    (version "20230702.552")
     (source
       (origin
         (method url-fetch)
@@ -57916,7 +57916,7 @@
                ".tar"))
         (sha256
           (base32
-            "1dhzrir2vm31w38l75vjkz6irb8f1c8vzh4mdv7ndsalq3kk0ll2"))))
+            "0jl8247w7r22qbfcmxk05jyzd97j0da3214223bkyd7y922sj7xj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -65663,17 +65663,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230701.1244")
+    (version "20230702.437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "2fbc60923333f776c65008443c9be5c964442d8b")))
+                 "4915b7214d82f09bd7dd5bc507ff8f269db898e1")))
         (sha256
           (base32
-            "06yv0acsi7vfa6mnnbnf4igxrg48rn36630kyrp9my02g4h2qdf9"))))
+            "1z014r63d6y4fp1pcqy7xbaxx6mv3lgkrri0kz2vcdzlghz0vhz4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -99356,17 +99356,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20230621.638")
+    (version "20230702.625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "b15554452f59fb3aeb73afbb4f442417a85a7069")))
+                 "c60a675aac83505f1f664410dce3b4e64eef37a8")))
         (sha256
           (base32
-            "00lcc76f38p49bzj1iyaf4kysbxy4jxb9gp2lgfhqcx5pmlwp3gw"))))
+            "1dbb1rg3r30yfllxvpnximy1rqgbyb6m4saf8gql9s7hyidbri6q"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
