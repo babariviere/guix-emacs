@@ -33681,17 +33681,17 @@
 (define-public emacs-etd
   (package
     (name "emacs-etd")
-    (version "20230702.1527")
+    (version "20230703.526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/etd.git")
                (commit
-                 "18d8ba0400b35754c94c715bbaf44ad3053216b5")))
+                 "257068befa68f0fac89df19d14ac3f2a912a7970")))
         (sha256
           (base32
-            "1cd4anp5blk2p13745s77sz2fp9g1cjccgpm9778228qwnwxaw0h"))))
+            "1pw8cdxjhw44xx8bjq8m3pji44w3w8h2cynd7j5ivhfcj25j0nly"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsfodder/kurecolor")
@@ -35764,17 +35764,17 @@
 (define-public emacs-evil-tutor-sc
   (package
     (name "emacs-evil-tutor-sc")
-    (version "20230702.40")
+    (version "20230703.519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clsty/evil-tutor-sc.git")
                (commit
-                 "89cb553e4519033a74dcec8f8da474f89ee80ca3")))
+                 "0caa31279c65d66134f2d7e8d1ed936ae8c090ec")))
         (sha256
           (base32
-            "1s1nsw7gwgb4qrh9hpnw43kgprkwrswgmycahf669pyw79g466dm"))))
+            "13d0f0dfz9rs01yv5c5hjxr97vvrnr2l2cqbl7hk09am0fl5c1ar"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-evil-tutor))
@@ -58019,7 +58019,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230702.2129")
+    (version "20230703.136")
     (source
       (origin
         (method url-fetch)
@@ -58029,7 +58029,7 @@
                ".tar"))
         (sha256
           (base32
-            "1kyg7ia3mczcy2vwhjbqq683cxcqdkiikzzdlighhjrwbsblkdn5"))))
+            "00pijnx5wya5rj205jvc80970qid71apca70ykzja0rwhhzyv7yq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -62408,7 +62408,7 @@
 (define-public emacs-jabber
   (package
     (name "emacs-jabber")
-    (version "20230625.254")
+    (version "20230702.2250")
     (source
       (origin
         (method url-fetch)
@@ -62418,7 +62418,7 @@
                ".tar"))
         (sha256
           (base32
-            "14pjwqd4imd1pq4vd2lpc2s9swaz974vvhiib4nlnhfarxz9w588"))))
+            "0fll14x5j59hw6n8yll9is0pcj3jzhfwlbs60drkpdy4i5zjjj7c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fsm emacs-srv))
     (home-page
@@ -65776,17 +65776,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230702.437")
+    (version "20230703.48")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "4915b7214d82f09bd7dd5bc507ff8f269db898e1")))
+                 "61403138d5183503ceafee4a5827516df94f0a12")))
         (sha256
           (base32
-            "1z014r63d6y4fp1pcqy7xbaxx6mv3lgkrri0kz2vcdzlghz0vhz4"))))
+            "1nl8si72kzfzv3fqmdkjfhv8xcqcfhwk8ccn9f4zvx2wcblpmlbs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -111263,17 +111263,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230629.1531")
+    (version "20230703.128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "bd68c0bb6958b647f955600c490d395179713cb3")))
+                 "54d2fb035d55adff35231bc3518d9a401a678dec")))
         (sha256
           (base32
-            "0vq2ii7s4c0m0s5x0xbwc6c5lz904r459kdzz53jiw30dvvhq566"))))
+            "0m9h0457css49ina4q6gg6bx8pfb971sik32dd6w2gxf5yxc8v77"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -122613,17 +122613,17 @@
 (define-public emacs-vscode-dark-plus-theme
   (package
     (name "emacs-vscode-dark-plus-theme")
-    (version "20230527.2110")
+    (version "20230703.307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ianyepan/vscode-dark-plus-emacs-theme.git")
                (commit
-                 "262bb1befd0764eba3dac8f19f0d998add975ad9")))
+                 "76e0c0859c4ee9d4d6a267cc5ce2f79ba562eddf")))
         (sha256
           (base32
-            "1k6541chbjwq3j5nch6czpw87s69105krkvn5b2zfgagsb445bsq"))))
+            "01kkqi4v6gj1a6gik59hskyj18av2bn484j5wd2rcfw6gwv09jd5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ianpan870102/vscode-dark-plus-emacs-theme")
