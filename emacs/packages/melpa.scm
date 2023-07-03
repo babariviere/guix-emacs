@@ -11115,17 +11115,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20230623.2015")
+    (version "20230703.1140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "afce713460798a57214f600eda764f345f468615")))
+                 "013bf2554e9373bded3a41af8d11571abf617799")))
         (sha256
           (base32
-            "08vnb34gsh4bs7xgsy7mznb089v0fnkrq2wbvdvfz0xx9l1ky75g"))))
+            "1nwphbbipbjvg86864c61mncjv79r407bb87j6rb8fn6fsa1n52b"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis
@@ -33681,7 +33681,7 @@
 (define-public emacs-etd
   (package
     (name "emacs-etd")
-    (version "20230703.526")
+    (version "20230703.548")
     (source
       (origin
         (method git-fetch)
@@ -35764,7 +35764,7 @@
 (define-public emacs-evil-tutor-sc
   (package
     (name "emacs-evil-tutor-sc")
-    (version "20230703.519")
+    (version "20230703.638")
     (source
       (origin
         (method git-fetch)
@@ -42088,17 +42088,17 @@
 (define-public emacs-flymake-hledger
   (package
     (name "emacs-flymake-hledger")
-    (version "20230626.1926")
+    (version "20230703.751")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/flymake-hledger.git")
                (commit
-                 "ed2470610f492f6f6b75dac1c38aa3885fefdc77")))
+                 "fb8a3569b0b9d89c67aab619ced5855dc8e1c9ea")))
         (sha256
           (base32
-            "11f50x4m7qcfazin5acnmkp6bvd113a4n885mngac0rarnl5zanh"))))
+            "16wxc0142d4rdi2gy8y3zs33p6c16b7vx76rkz0n1ni4bf9jj3k8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/DamienCassou/flymake-hledger")
@@ -45373,17 +45373,17 @@
 (define-public emacs-geiser-stklos
   (package
     (name "emacs-geiser-stklos")
-    (version "20230702.1323")
+    (version "20230703.1250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/stklos.git")
                (commit
-                 "0e5dc47f079d0652381441aee4e84d3c48da96f2")))
+                 "6ef410bd7bd0d5c3f2498cb884227063795d48e0")))
         (sha256
           (base32
-            "0s69drnygymxw2y3asavchamvgs9ql2mh9p8wvz84c57ry5k6p3s"))))
+            "0fpild832h2bx0gkxxjyvg22y7lklrckkfnqgj0wfjqyzj9dna5p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (home-page
@@ -50621,20 +50621,21 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20230702.1709")
+    (version "20230703.656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "7499124df763ff348643b1f9210fb517993ec611")))
+                 "faf9e742d4105eac8714236b7e4685ca529c66ca")))
         (sha256
           (base32
-            "1k007fya31pkkwhc2b8wadlh2i2lcn5sn8mrak1lzwdy5mchhn92"))))
+            "1yfqg4p3zs50kx28w2q6cjcxh8bi1g20xdblnc230f54snsygwim"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
-    (synopsis "")
+    (synopsis
+      "An elegant, high-contrast dark theme in modern sense")
     (description
       "Documentation at https://melpa.org/#/haki-theme")
     (license #f)))
@@ -56582,17 +56583,17 @@
 (define-public emacs-himalaya
   (package
     (name "emacs-himalaya")
-    (version "20230629.953")
+    (version "20230703.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dantecatalfamo/himalaya-emacs.git")
                (commit
-                 "888ab8131c735fb78c30c08e876b2fa538d964a6")))
+                 "039fe21558b92111562edbd9576d27cbf7139e3d")))
         (sha256
           (base32
-            "04v4mrlmjx0dzfz2x69acl7iaysddxcrqpzdrp803vhq0rwlmmwn"))))
+            "0rlkjilb3x7pqyr2860dbdqajprnsw8h1rf2p0z7bhqr9sr76bdd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dantecatalfamo/himalaya-emacs")
@@ -57477,17 +57478,17 @@
 (define-public emacs-ht
   (package
     (name "emacs-ht")
-    (version "20230214.1632")
+    (version "20230703.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/ht.el.git")
                (commit
-                 "3c1677f1bf2ded2ab07edffb7d17def5d2b5b6f6")))
+                 "1c49aad1c820c86f7ee35bf9fff8429502f60fef")))
         (sha256
           (base32
-            "0nbmdh0ba89hr617kk0ak78blj7birrxi8rpn9ps38a5x41l46a4"))))
+            "1vyk81xav1ghdb39fqi99yf6yvzsh6p007v7yhzk1bbqqffkvqdj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "unspecified")
@@ -58019,7 +58020,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230703.136")
+    (version "20230703.725")
     (source
       (origin
         (method url-fetch)
@@ -58029,7 +58030,7 @@
                ".tar"))
         (sha256
           (base32
-            "00pijnx5wya5rj205jvc80970qid71apca70ykzja0rwhhzyv7yq"))))
+            "190jiwfzfvywfxrwipg2kcfkj11g70ar1z3620x6naa1sy3ywwxp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -58267,7 +58268,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230702.2040")
+    (version "20230703.1500")
     (source
       (origin
         (method url-fetch)
@@ -58277,7 +58278,7 @@
                ".tar"))
         (sha256
           (base32
-            "1crlf7qnsa6gg6pri680933wd5j9i8pa03amqd03hmrfglzib51a"))))
+            "01grf593am7apkhzbx605yczn491w4q1g5995lcidqgld0aj51pl"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
@@ -70978,17 +70979,17 @@
 (define-public emacs-lsp-treemacs
   (package
     (name "emacs-lsp-treemacs")
-    (version "20230630.1039")
+    (version "20230703.629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-treemacs.git")
                (commit
-                 "7011f3cae30d311a7d123ecd338e7abff2550fa6")))
+                 "7be7f30c2ddc6d392a1ff0304d439d0cf14b2771")))
         (sha256
           (base32
-            "0x5b213fszzsrwpfhcr8kczmy84kbn4bgpw544k5g01dx5k4lvap"))))
+            "1g5sp5bcv1cks48rvvw0j8cczhnlnpx7lx05pvalaxxhlnyvx9zj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -88346,17 +88347,17 @@
 (define-public emacs-org-upcoming-modeline
   (package
     (name "emacs-org-upcoming-modeline")
-    (version "20230626.708")
+    (version "20230703.1115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/org-upcoming-modeline.git")
                (commit
-                 "4c02f9f3af872b81968ca6dd833c94874ddc4f24")))
+                 "4dd102eddb2f6da7de5423f2183302c1d19ee425")))
         (sha256
           (base32
-            "12rqbbfjbfb9wqv4vsxpdmy3s2ad9zbff2l3v3q7sp267r1akq4f"))))
+            "0a8y5xdaqvchiccx3gkgvy6gkhz8f3hm67b4hsj3xi5lq5gx823n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts emacs-org-ql))
     (home-page
@@ -116441,17 +116442,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20230625.1900")
+    (version "20230702.2201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "b9df7accbd2a90b3245606053180befe313619e7")))
+                 "daa03f9e72bc867a4a4f40994ff470f50cd7e4c4")))
         (sha256
           (base32
-            "0iya173zny0g4yfczfpibkf4jzw7c01bf9kv47lgypgi994nbzf9"))))
+            "0zx3bgwv8kfwvwgfh6h7aswnki2ldmni4d3cycrr5sm8k6njj5r7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
