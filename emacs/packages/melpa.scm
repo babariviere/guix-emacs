@@ -26143,17 +26143,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230702.1321")
+    (version "20230704.316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "e7c2022229ff8e698fe8ee41d031403e2d3d3238")))
+                 "26b3bb427e6e8be4b84cf7988b4f05895ec025cd")))
         (sha256
           (base32
-            "1pd8xq7bl33bdy4x61g2mpbfl5fnwzmqidf71yzbqxsrpyj3zflw"))))
+            "0iiggf3q8zhmdnfvgdfajnr5ng5vrv9c7crx1r0cz96xkpkag5ms"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -58020,7 +58020,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230703.2202")
+    (version "20230704.225")
     (source
       (origin
         (method url-fetch)
@@ -58030,7 +58030,7 @@
                ".tar"))
         (sha256
           (base32
-            "1f5kibcxvy639cy9gpjzqg2r734g378cbm6riaglxilkhl2f00ql"))))
+            "031g3zkljx2ak4y8gn91l00w1a1c86hf27a6k3qq1fp7bapwxljs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -75678,17 +75678,17 @@
 (define-public emacs-mode-line-idle
   (package
     (name "emacs-mode-line-idle")
-    (version "20230116.951")
+    (version "20230704.12")
     (source
       (origin
         (method url-fetch)
         (uri (string-append
                "https://melpa.org/packages/mode-line-idle-"
                version
-               ".el"))
+               ".tar"))
         (sha256
           (base32
-            "1647ykkpznsyw4ziyim8773psqzkwrq5h4sqyvsiqgyvdxqj8ycr"))))
+            "14xhnx3cz6llvrn5wdmzvlim9j6gxzaglmmsj8p5ncjl9j60fbnp"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-mode-line-idle")
@@ -119872,7 +119872,7 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20230521.2351")
+    (version "20230703.2353")
     (source
       (origin
         (method url-fetch)
@@ -119882,7 +119882,7 @@
                ".tar"))
         (sha256
           (base32
-            "19csxy76m4pffm61iqhgqgh78liw9ijr8bw3i9c60w0704afnwgd"))))
+            "1p6x2dbghx6xz26ch9jlcifi62v3zkrhhyaqynsrd0fg7q2y5vyl"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.com/ideasman42/emacs-undo-fu-session")
