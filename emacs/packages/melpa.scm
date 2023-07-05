@@ -34017,17 +34017,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230702.918")
+    (version "20230705.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "2a0f8d8a83a57311c62e0597ace6992aa5992f12")))
+                 "be4815e7e779c2cc8898d3ebd17a950d22d04723")))
         (sha256
           (base32
-            "06famlp4cn6g79fxk4jz1z9v3rzjbb7bhc27s419h2psaf9qn7p3"))))
+            "02s1v1jcawi5dqrk7rgxrnbcfdffjdgn6ifaifcbvm241ykjnjwk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -35788,17 +35788,17 @@
 (define-public emacs-evil-tutor-sc
   (package
     (name "emacs-evil-tutor-sc")
-    (version "20230704.1425")
+    (version "20230705.656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clsty/evil-tutor-sc.git")
                (commit
-                 "a96f1229edf7893780a47f50bb320ad40fa62c80")))
+                 "1a1bc93eeb432159591b6dbe6684068311c89a46")))
         (sha256
           (base32
-            "0l9sdhwfq3470g8sywczi70dp805jqil16qmx92840mrrxfpi2kl"))))
+            "1l0lcxjf5fn3r9xwcjnql95fbqx23a4d6a3wnyrw3jzm3hiyckgk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-evil-tutor))
@@ -58339,7 +58339,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230704.2127")
+    (version "20230705.736")
     (source
       (origin
         (method url-fetch)
@@ -58349,7 +58349,7 @@
                ".tar"))
         (sha256
           (base32
-            "0h40ascr76ngxsglagiyyavlk3h52am9ki43185ka0ciwz5lydkh"))))
+            "185zgj2mvbm3d3i1831xn4dqdpvqk1q8jmi633cj01nnm4gcwy3p"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
