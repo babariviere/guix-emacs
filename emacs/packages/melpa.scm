@@ -10717,7 +10717,7 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230705.1111")
+    (version "20230705.1626")
     (source
       (origin
         (method git-fetch)
@@ -51450,17 +51450,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230704.1018")
+    (version "20230705.559")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "3de4f8bbd798b26e2f3182ab4b02611d11b2b65e")))
+                 "c46c04cd55287e1e9fb790bbcf1240185f07d230")))
         (sha256
           (base32
-            "10ya4wq3x3s3pq3n88d5z47kxgzm5wygcqwvcw4w3wxmsnnz83gm"))))
+            "0ajkp09dwfniaik8gd4kcanb4whij88f6vsn4daav2bwi6841w81"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -58340,7 +58340,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230705.1526")
+    (version "20230705.2141")
     (source
       (origin
         (method url-fetch)
@@ -58350,7 +58350,7 @@
                ".tar"))
         (sha256
           (base32
-            "1v33kim7plf0zp3gr2j12imjd203d1k8g4xhizlyw42y0pjamid9"))))
+            "0i2qlapigai8q98xgivfxhx742clcfbq6rdd82fds7h426lwbsdw"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
@@ -79871,17 +79871,17 @@
 (define-public emacs-nnhackernews
   (package
     (name "emacs-nnhackernews")
-    (version "20230222.1441")
+    (version "20230705.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dickmao/nnhackernews.git")
                (commit
-                 "bf0ff5d4a079004f937e7440ba282c156f24dced")))
+                 "4c13d261bf660901d5ff63a7ee170097ebe464ed")))
         (sha256
           (base32
-            "129kp12rbggq3hy6w14264svf4a2lf3l5j9mnlf47f35w9zvwxd6"))))
+            "08z81m25lh1basmq5w8w1sg284dfck3nzlcnv1cbj4fr2qqncvyn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-anaphora))
@@ -81125,19 +81125,18 @@
 (define-public emacs-oauth
   (package
     (name "emacs-oauth")
-    (version "20230522.1900")
+    (version "20230705.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/fvdbeek/emacs-oauth.git")
                (commit
-                 "78f4f8539c72eda6cb2187c1efbb9e857e013be5")))
+                 "4b8e9c6e5890cf4eda1268b60a2e47d1a8e6084a")))
         (sha256
           (base32
-            "1zcl7pz1mwq7n9ky7qvhbgr2ql5z8fsg092507wq2p60f60c6h5h"))))
+            "1h1r62m8pdfldyxp5c2a0g09jyj056apv9p8npvrinfk7865s0b6"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-hmac))
     (home-page
       "https://github.com/fvdbeek/emacs-oauth")
     (synopsis "OAuth 1.0 client library")
@@ -88419,17 +88418,17 @@
 (define-public emacs-org-upcoming-modeline
   (package
     (name "emacs-org-upcoming-modeline")
-    (version "20230705.1152")
+    (version "20230705.2110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/org-upcoming-modeline.git")
                (commit
-                 "bf7760cad5f1894275a8daa59369306f8d14ba39")))
+                 "ae961925ab53ee9f75f1d9583297c593f4ca0b1c")))
         (sha256
           (base32
-            "1c1nr4pp466b5r5hli9apsylfa2dld0iswk28dpzfyq73q9n50gw"))))
+            "1py5796m6br6bwz0yaf2h7rf2xvqn62lsd742qhv9j7ld5v066nd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts emacs-org-ql))
     (home-page
@@ -93406,17 +93405,17 @@
 (define-public emacs-pet
   (package
     (name "emacs-pet")
-    (version "20230621.814")
+    (version "20230705.2132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wyuenho/emacs-pet.git")
                (commit
-                 "6e2621fff65623e679ba901ee4b74a32d59986ae")))
+                 "4f5ca245531053f10ea234bc5e95fc7efcabe251")))
         (sha256
           (base32
-            "0hb2vlqwsg0m9yj126la3yfjjws59rggagxm6f15n4h30p4qaplq"))))
+            "1ypnqqdxxgm0kad37lqfi2q9a6263rx0li3v8dya5f7915sjsccj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -123846,17 +123845,17 @@
 (define-public emacs-websearch
   (package
     (name "emacs-websearch")
-    (version "20230624.1317")
+    (version "20230705.1639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/xgqt/emacs-websearch.git")
                (commit
-                 "a335f486d85a334bc088d3deb5f6863bfdfd2ca4")))
+                 "5120cec3c36ddcdaceb5235c0b52eecbc3b37fcb")))
         (sha256
           (base32
-            "1rwnpqdx7v76zjvq2v3jnp8ypg6mrill5an2fw1w09bkfhnp2hpc"))))
+            "0q6y2347w4mfshnxjvkk4vm0bmi24zpz7kc0irk0cl7hxa20025d"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/xgqt/emacs-websearch/")
