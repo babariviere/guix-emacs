@@ -12588,25 +12588,24 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230705.1254")
+    (version "20230706.1009")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "ca6893d182536b6b2df182956e24f8752580b902")))
+                 "5920aa7d95f5ee478cbb0590f693af173c1b3209")))
         (sha256
           (base32
-            "0h571np0dw1xl5chf0j0cqnhppb2k6ir65xqd5whfwgrx2qn5kh9"))))
+            "1vabaw6m314lcxc8zgizig3aa61yfm3h8ckcg1ghj020ng7mlfip"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
             emacs-parseedn
             emacs-queue
             emacs-spinner
-            emacs-sesman
-            emacs-logview))
+            emacs-sesman))
     (arguments
       '(#:files ("*.el" (:exclude ".dir-locals.el"))))
     (home-page
@@ -13534,17 +13533,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20230704.1541")
+    (version "20230706.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "c63dfa94f68f9a24bb3a1d989e1f439242de6818")))
+                 "30c9ad11b53ddf1e4c88c9cf9b714f38ce604ad3")))
         (sha256
           (base32
-            "0nwc4c8cn9mj9x7fsjx1m34rma5qq87d611j7w02kfa7yhbj0vwk"))))
+            "047dmr5wqiarzrk13v1fvssq6brd8gfa8ngwdajr7nvrld4lbzd5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -18202,17 +18201,17 @@
 (define-public emacs-corfu-candidate-overlay
   (package
     (name "emacs-corfu-candidate-overlay")
-    (version "20230704.1404")
+    (version "20230706.635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://code.bsdgeek.org/adam/corfu-candidate-overlay")
                (commit
-                 "d3a2f729c90661f64e7eb45e93e7c498bcce328e")))
+                 "b1f83e3e7598d199c4691d56c768125c8cd2d157")))
         (sha256
           (base32
-            "185kanc0bwiv52lbc4mjzn7ihn3xg5scwc2fprs4psfk7kmw665s"))))
+            "00wrqdx2khl86h8n1ahqllk5p17ybc0b4w980yg6qdshpww86an1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-corfu))
     (home-page
@@ -25918,17 +25917,17 @@
 (define-public emacs-dtrt-indent
   (package
     (name "emacs-dtrt-indent")
-    (version "20230629.1342")
+    (version "20230706.1119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/dtrt-indent.git")
                (commit
-                 "55b6ff098512d7dbc2512564bbea8a6d8084104b")))
+                 "cfb763f748652a695b290137016a07ab230e334c")))
         (sha256
           (base32
-            "06r38lqadyaqasiarlaw6jwqpcdfv2l2c4jnsp3p5js85iclpj9j"))))
+            "11g5nq5y70ddzvclgpk2pvlysrp9cqckh0k9nb2yijvhrgxspz8f"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Adapt to foreign indentation offsets")
@@ -26053,17 +26052,17 @@
 (define-public emacs-dune
   (package
     (name "emacs-dune")
-    (version "20230628.1216")
+    (version "20230402.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/dune.git")
                (commit
-                 "eecbe7e0877be3741cffd5633b558c800471f00b")))
+                 "1dad6604d1d363e476fb60128e26037d71db5bfc")))
         (sha256
           (base32
-            "17i8fbli93fnqr7a7n2jahxlw23dzzj11f99xkqhmm4vck364han"))))
+            "0i18yyyqhmf26fsav6vmyr1547xh5mvwf6la8gsymydixln5qj2i"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("editor-integration/emacs/*.el")))
@@ -30424,17 +30423,17 @@
 (define-public emacs-emacs-everywhere
   (package
     (name "emacs-everywhere")
-    (version "20220831.1636")
+    (version "20230706.1152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tecosaur/emacs-everywhere.git")
                (commit
-                 "e1b701894196b0e0aaf18ab88c778877ec87d0c9")))
+                 "44775589ad050134adf433885be0a94398055630")))
         (sha256
           (base32
-            "1ycq3l757qs4scwi9cn1sjmr8s5hr8dalqdm297ri1dpr6lba063"))))
+            "08r91hq82j44lksv23bdm0gxmb5xq4j70dr8z0lzbzvwwfgph8hy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tecosaur/emacs-everywhere")
@@ -40182,17 +40181,17 @@
 (define-public emacs-flycheck-haskell
   (package
     (name "emacs-flycheck-haskell")
-    (version "20221111.59")
+    (version "20230706.1439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck-haskell.git")
                (commit
-                 "50425a8b96fea84ea15940a4a07b184e43bb8e7a")))
+                 "b7c4861aa754220b7d0cfc05aa0895bb35665683")))
         (sha256
           (base32
-            "088w5f8zw01lr4h6dzdnl36hg5ijln9mknwp7ydvl1scw6v4clf0"))))
+            "0fmmzwnrrki8bw6nsspcsgzkcxmsrgfkm2200nqgk27fqppjgpgw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-flycheck
@@ -50670,17 +50669,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20230703.656")
+    (version "20230706.1257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "faf9e742d4105eac8714236b7e4685ca529c66ca")))
+                 "b08cb7b40e2897ba865133b810ae3277c204756a")))
         (sha256
           (base32
-            "1yfqg4p3zs50kx28w2q6cjcxh8bi1g20xdblnc230f54snsygwim"))))
+            "12ycab77hzg5pydjswhrsasx2n05msz8p8szcfjwd03z6b82cxl7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -58341,7 +58340,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230706.10")
+    (version "20230706.1315")
     (source
       (origin
         (method url-fetch)
@@ -58351,7 +58350,7 @@
                ".tar"))
         (sha256
           (base32
-            "01h3y3nr69391xi54aj1xjx74f3bi9pm7i74kjnw1jna1jvcia24"))))
+            "0c17azb9d2wj29q15a5lkly9279jnyhq5jzi8n57nvhkza4a86zb"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
@@ -70728,17 +70727,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230628.1609")
+    (version "20230706.655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "05c88ea1bd1ac56bf2a386541047a96240676047")))
+                 "eb224a455c3f2d2feeea27aeb87dc3d4541a47a6")))
         (sha256
           (base32
-            "1nks42pbxxbzdgkfz9qm18ys3qd4bf5fhny29ax81v71xcqvmbf1"))))
+            "17016dbrn78nprgqrbikxzh1dj920fk7gd7bh64w900lifyaj8b5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -115318,17 +115317,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230620.627")
+    (version "20230706.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "ded6cc3c58b5e2d59f8f16ff75d518ffb13b657e")))
+                 "cf61238e311d8b5931a029de248f8b5e066fbee1")))
         (sha256
           (base32
-            "1b08cxjjc45q81gggx1kr1drf5mli31hfmkfdvd1sxly2p6adcd6"))))
+            "1ps3y8v1vbbj9m506ng7sdp484vx32g7hkvsajvndhvqky3wl3fw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -122893,17 +122892,17 @@
 (define-public emacs-vulpea
   (package
     (name "emacs-vulpea")
-    (version "20221128.633")
+    (version "20230706.1130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/vulpea.git")
                (commit
-                 "30a924822ea6b628857b1bd766a6f0a7301e67c3")))
+                 "de199a16e294056e2368a2e031b19008cf9f9e52")))
         (sha256
           (base32
-            "1ha5gv5ida3jfipcp59cmy8139xh8cysdp0h4xbyjl2q5jcg5bw9"))))
+            "0wxnp7hiqa58n5q2ff863w0nzp5ii5fmzh8z4674s5mgjcaj7149"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-s emacs-dash))
