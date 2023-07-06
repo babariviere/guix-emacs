@@ -9632,19 +9632,20 @@
 (define-public emacs-bufferbin
   (package
     (name "emacs-bufferbin")
-    (version "20230702.1903")
+    (version "20230706.110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blueridge-data/bufferbin.git")
                (commit
-                 "8d028d82bc3c00101a95e7f5872c14dac0e0e0c5")))
+                 "ee4bf49cc69573f690e2e9f36f03c20b322c1730")))
         (sha256
           (base32
-            "11l0l22hkia5lryhjxc3zjmyq7zhab88gdn3dcw3f9zhik667fr1"))))
+            "0qqajbr3pfpxjjw7bimyqxj7gvmd09313ai581ld4ik9n48izhv1"))))
     (build-system melpa-build-system)
-    (home-page "https://github.com/blueridge-data")
+    (home-page
+      "https://github.com/blueridge-data/bufferbin")
     (synopsis "Quick mouse access to buffers")
     (description
       "Documentation at https://melpa.org/#/bufferbin")
@@ -58340,7 +58341,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230705.2141")
+    (version "20230706.10")
     (source
       (origin
         (method url-fetch)
@@ -58350,7 +58351,7 @@
                ".tar"))
         (sha256
           (base32
-            "0i2qlapigai8q98xgivfxhx742clcfbq6rdd82fds7h426lwbsdw"))))
+            "01h3y3nr69391xi54aj1xjx74f3bi9pm7i74kjnw1jna1jvcia24"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
@@ -64661,17 +64662,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20230627.2030")
+    (version "20230706.139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-jupyter/jupyter.git")
                (commit
-                 "2f14f2e2531fc4ebfde5c3b5ae60c1d9c7a2b26b")))
+                 "1baabc8f2d0631f8f4308400f9a53f1aadd58d14")))
         (sha256
           (base32
-            "0sy434xf3gghg2rnwp6rg4q84w513pwba6pm67d5x36zyjjjfa8s"))))
+            "0kki4rs1hc3vpxf6i3lmwjz2slp9wpq6x7p6s2716hvrdbhaw8h1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
