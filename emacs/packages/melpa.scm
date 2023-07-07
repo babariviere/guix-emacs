@@ -4608,17 +4608,17 @@
 (define-public emacs-attrap
   (package
     (name "emacs-attrap")
-    (version "20230703.1926")
+    (version "20230707.1457")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/attrap.git")
                (commit
-                 "1a0af0d210d5276f4d6c47ea53661c44437f9b12")))
+                 "1019b86f5398dadef61efc76fefe8fa8be1193a8")))
         (sha256
           (base32
-            "15v5rr0kniwbdk040si314yf10bbrflrld3zyv2vx9bv2jnl35l2"))))
+            "0g1zfmv9v8nfkz3y3hfspvrwh64mk6v73dsclmvpaq4lhjcdva0j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-s))
@@ -45138,17 +45138,17 @@
 (define-public emacs-geiser-chez
   (package
     (name "emacs-geiser-chez")
-    (version "20230228.2253")
+    (version "20230707.1334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/chez.git")
                (commit
-                 "04ab4387fed68659f21377dbe74513edac2fd134")))
+                 "605a81ff7b2d2b275a3ec68e3ce7e5b50f85014d")))
         (sha256
           (base32
-            "19yv5brhzf10hsazmm8s1b058d434hv60a52s08m3kxyrkwr5sca"))))
+            "0rny2wj90fdq5mar8cf3pcw1spld9s8nzlqrl3g0ivfrpgw6ar49"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
     (arguments
@@ -51426,17 +51426,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230705.559")
+    (version "20230707.627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "c46c04cd55287e1e9fb790bbcf1240185f07d230")))
+                 "25461b0463845efa7f0eb710879f26543c4a4dae")))
         (sha256
           (base32
-            "0ajkp09dwfniaik8gd4kcanb4whij88f6vsn4daav2bwi6841w81"))))
+            "0slsxgzyidn7g2ps79dpflv47agfqg3zjj16wnlcksp8l544kh7a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-popup))
@@ -65206,17 +65206,17 @@
 (define-public emacs-keg
   (package
     (name "emacs-keg")
-    (version "20220923.958")
+    (version "20230707.1533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/conao3/keg.el.git")
                (commit
-                 "7fbfd987d35e29eaab2ebad4f0ed6ee2e2adfe28")))
+                 "930b3ab881440a026ec38c1674b3531aa2166e3f")))
         (sha256
           (base32
-            "1d5clcjqp48m5282my3akp47h996xn9jxr8kxs7pkz18wixy48aw"))))
+            "00i02nlamh4g6hr6fmc94qlabn7p6k1p6fifkxkgmnl55vx4zkrx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -73014,17 +73014,17 @@
 (define-public emacs-markdown-preview-mode
   (package
     (name "emacs-markdown-preview-mode")
-    (version "20221006.1601")
+    (version "20230707.803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ancane/markdown-preview-mode.git")
                (commit
-                 "85fbfec507a222326695a3b91ff7306d0c4f94c6")))
+                 "68242b3907dc065aa35412bfd928b43d8052d321")))
         (sha256
           (base32
-            "1rsglacdj38xvrn2p5m0w26pmq5xl9hn8zi7pflgqhlx9fdjpn8s"))))
+            "1fxlipd2q0qbyzmjqrxvg2jfb6rbpsngxvsz66j26nx5k0p98168"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -75861,7 +75861,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230704.1910")
+    (version "20230707.652")
     (source
       (origin
         (method url-fetch)
@@ -75871,7 +75871,7 @@
                ".tar"))
         (sha256
           (base32
-            "1z6dm72jnbrzj6s7qfnn8m68lhrzpkvxngllx74sm5g36kif2m2s"))))
+            "1w2yz43s3dxi3v9msbj86xi7bqjjcymk6gmxazid40px5dd5vs6s"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -79388,17 +79388,17 @@
 (define-public emacs-nickel-mode
   (package
     (name "emacs-nickel-mode")
-    (version "20230630.1711")
+    (version "20230707.1228")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nickel-lang/nickel-mode.git")
                (commit
-                 "99010b65f54cf3a9d00e797d25bf51947a6dabf6")))
+                 "8b7828892341bbca789723d487546905ca443dc3")))
         (sha256
           (base32
-            "048pcvvd852375xy7dzkvfp4wwnk8y6xkbr7sdda34irhkpsa3x8"))))
+            "06327va6dybljw4qvz7p30qndnwl18nblai04y689p8x4a69kgxq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nickel-lang/nickel-mode")
@@ -80307,17 +80307,17 @@
 (define-public emacs-norns
   (package
     (name "emacs-norns")
-    (version "20230702.2108")
+    (version "20230707.857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/p3r7/norns.el.git")
                (commit
-                 "b82aa3dbaef1216edcf06fd6db66abb17cd91a4a")))
+                 "88a4a0e13eddbfe00885459600b74fdbd54dbd5d")))
         (sha256
           (base32
-            "1afpqa3wnafr35lsq8vgpgwi3yycljwsaxgfs1jk345qlxn8j3dz"))))
+            "1fw0hpkg7fzn3z23kkc6slrg2x8ll3qwhfzq9yjbiz058klvnwna"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -88367,17 +88367,17 @@
 (define-public emacs-org-upcoming-modeline
   (package
     (name "emacs-org-upcoming-modeline")
-    (version "20230705.2110")
+    (version "20230707.847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/org-upcoming-modeline.git")
                (commit
-                 "ae961925ab53ee9f75f1d9583297c593f4ca0b1c")))
+                 "c3e4705ff2ade869e229f33090c92ac671362623")))
         (sha256
           (base32
-            "1py5796m6br6bwz0yaf2h7rf2xvqn62lsd742qhv9j7ld5v066nd"))))
+            "1kib6c9426qkfrmhnhqw47r5y9z082xjw1qvbhqwrip69mi06yd7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts emacs-org-ql))
     (home-page
@@ -120890,17 +120890,17 @@
 (define-public emacs-utop
   (package
     (name "emacs-utop")
-    (version "20230703.1403")
+    (version "20230707.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diml/utop.git")
                (commit
-                 "8da707283f2327f4d352ee533e3102b617bdce71")))
+                 "5b98d2845bf8e46a253593578cf0371d773f6da0")))
         (sha256
           (base32
-            "1vjfrz6b4914hra1cmxqffpjwj8p2dmihafm4d400q61x61jfgqf"))))
+            "14z9asqx7z3i2j6vy0la699nxj2cxhggjc77jnsg9761kv159wym"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tuareg))
     (arguments '(#:files ("src/top/utop.el")))
@@ -120979,17 +120979,17 @@
 (define-public emacs-uxntal-mode
   (package
     (name "emacs-uxntal-mode")
-    (version "20230131.235")
+    (version "20230707.1623")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/non/uxntal-mode.git")
                (commit
-                 "aaaa7a7ac24eb142c68f691185166327ec1e4520")))
+                 "0f0bb416d43a940ee7a057db075bf5804708dc5c")))
         (sha256
           (base32
-            "1bba89vw937rzcm1lr2ym9kkyd56wkgpzhc7dxz73nh74wwh4mf5"))))
+            "0p1ig2wmldpiymz59gnz9yrrla58x8zyfpklj6rwdf37n6q64ykx"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/non/uxntal-mode")
     (synopsis "Major mode for Uxntal assembly")
