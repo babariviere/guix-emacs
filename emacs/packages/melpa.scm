@@ -17756,17 +17756,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20230616.1519")
+    (version "20230706.2018")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "3eb27b5d92025fed127732a65141177113763915")))
+                 "4d905df3b74a5a46ebf27ce601846e3adc6b8144")))
         (sha256
           (base32
-            "1250pk2fg8xd1hyyc9z2rzily0765fpn9271jcsr0hmrjykw034n"))))
+            "17lz4bsp8vv9ksfg4a8d3kz2lz7qdpi81gfc0y4jvd9zllcafhnb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -26168,17 +26168,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230704.316")
+    (version "20230705.651")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "26b3bb427e6e8be4b84cf7988b4f05895ec025cd")))
+                 "b8a0f10f0d2bba50da7795ce7c9b50cd55dc6dfb")))
         (sha256
           (base32
-            "0iiggf3q8zhmdnfvgdfajnr5ng5vrv9c7crx1r0cz96xkpkag5ms"))))
+            "0f113irxaxrz2a1nhn13pq7k0060hzzpg01pl2dq796fycgd49dr"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -40255,31 +40255,6 @@
       "Documentation at https://melpa.org/#/flycheck-hledger")
     (license #f)))
 
-(define-public emacs-flycheck-indent
-  (package
-    (name "emacs-flycheck-indent")
-    (version "20200129.2046")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/conao3/indent-lint.el.git")
-               (commit
-                 "c55f4ded11e8e50a96f43675a071354a8fb501c3")))
-        (sha256
-          (base32
-            "0d7vkgzsx6ka4zliscsg6drqhg2bj16i911ryzmsp4v6hj294jrc"))))
-    (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-indent-lint emacs-flycheck))
-    (arguments '(#:files ("flycheck-indent.el")))
-    (home-page
-      "https://github.com/conao3/indent-lint.el")
-    (synopsis "Indent-lint frontend for flycheck")
-    (description
-      "Documentation at https://melpa.org/#/flycheck-indent")
-    (license #f)))
-
 (define-public emacs-flycheck-indicator
   (package
     (name "emacs-flycheck-indicator")
@@ -49314,22 +49289,22 @@
 (define-public emacs-gpt-commit
   (package
     (name "emacs-gpt-commit")
-    (version "20230703.1609")
+    (version "20230706.2325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ywkim/gpt-commit.git")
                (commit
-                 "3d3ce27a9ac7e454693738ab50ef99e1f1124809")))
+                 "e3bdc836c7f423622e5c7984735a7dab2c2f342b")))
         (sha256
           (base32
-            "1z8g6415qfgklgr01ds1xsm5k25qwgz9fk96ml4qw67swidd2sx3"))))
+            "1rd5crbmcp5dg3jyka7i3cs60752jaar31dp7d3ridsgywmbiqmv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-request))
     (home-page "https://github.com/ywkim/gpt-commit")
-    (synopsis "GPT Conventional Commit Title")
+    (synopsis "Commit messages with GPT in Emacs")
     (description
       "Documentation at https://melpa.org/#/gpt-commit")
     (license #f)))
@@ -58092,7 +58067,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230704.225")
+    (version "20230706.1621")
     (source
       (origin
         (method url-fetch)
@@ -58102,7 +58077,7 @@
                ".tar"))
         (sha256
           (base32
-            "031g3zkljx2ak4y8gn91l00w1a1c86hf27a6k3qq1fp7bapwxljs"))))
+            "1a1v82235xkbnq2p1n2djcyvaz9mfgggv0bnjzd4iaj90k92asaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -59890,33 +59865,6 @@
       "Show indentation information in status bar")
     (description
       "Documentation at https://melpa.org/#/indent-info")
-    (license #f)))
-
-(define-public emacs-indent-lint
-  (package
-    (name "emacs-indent-lint")
-    (version "20200812.949")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/conao3/indent-lint.el.git")
-               (commit
-                 "c55f4ded11e8e50a96f43675a071354a8fb501c3")))
-        (sha256
-          (base32
-            "0d7vkgzsx6ka4zliscsg6drqhg2bj16i911ryzmsp4v6hj294jrc"))))
-    (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-async-await emacs-async))
-    (arguments
-      '(#:files
-        (:defaults (:exclude "flycheck-indent.el"))))
-    (home-page
-      "https://github.com/conao3/indent-lint.el")
-    (synopsis "Async indentation checker")
-    (description
-      "Documentation at https://melpa.org/#/indent-lint")
     (license #f)))
 
 (define-public emacs-indent-tools
@@ -68584,17 +68532,17 @@
 (define-public emacs-ligo-mode
   (package
     (name "emacs-ligo-mode")
-    (version "20230302.1616")
+    (version "20230706.1035")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ligolang/ligo.git")
                (commit
-                 "78eff9b52efb06d738c7f462d3e3ec97b127af99")))
+                 "2eedec729a874fa38ac58751031fae09ec796a5d")))
         (sha256
           (base32
-            "1ngjnbbflxlf1pm51j2952fppklkdnjfvf7nxqjqv96di8yhyimb"))))
+            "06sd5lpps9wdgprfgzp5lj2mvqhlzkn88viijb100d2d9y80gvs1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("tools/emacs/ligo-mode.el")))
@@ -81125,17 +81073,17 @@
 (define-public emacs-oauth
   (package
     (name "emacs-oauth")
-    (version "20230705.2118")
+    (version "20230706.2026")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/fvdbeek/emacs-oauth.git")
                (commit
-                 "4b8e9c6e5890cf4eda1268b60a2e47d1a8e6084a")))
+                 "737f4058b3239261cf7c95043034b95f1ce3b282")))
         (sha256
           (base32
-            "1h1r62m8pdfldyxp5c2a0g09jyj056apv9p8npvrinfk7865s0b6"))))
+            "05xfpgk4swss89n3wrk0cg87ngsv06szpam7svncf4c2gjs9gkxa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fvdbeek/emacs-oauth")
@@ -105855,17 +105803,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20230701.1244")
+    (version "20230706.1633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/precompute/sculpture-themes.git")
                (commit
-                 "39e815f2379d75c4f51f509a5e4466e93af6287b")))
+                 "fc394accc94884a5aa845ef0e9c1f3f7248d4548")))
         (sha256
           (base32
-            "00i5ahsgjbifa5dqnbjpmqg2i4m1isxacygdk7a1si7bcnl30wfc"))))
+            "1bx2db3ffnxld4p9sp6fg777lwf8sakdjjkzqf00gn0vd7a07v1a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
