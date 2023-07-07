@@ -12588,17 +12588,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230706.1009")
+    (version "20230707.640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "5920aa7d95f5ee478cbb0590f693af173c1b3209")))
+                 "bc8903b0c85cf0891f106337eabfc6f747d262a1")))
         (sha256
           (base32
-            "1vabaw6m314lcxc8zgizig3aa61yfm3h8ckcg1ghj020ng7mlfip"))))
+            "1072r28mf1n9ll0nj55haqxk3j174d47xxpm806mlyf8xndzq2n0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -45373,19 +45373,20 @@
 (define-public emacs-geiser-stklos
   (package
     (name "emacs-geiser-stklos")
-    (version "20230703.1250")
+    (version "20230707.237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/stklos.git")
                (commit
-                 "6ef410bd7bd0d5c3f2498cb884227063795d48e0")))
+                 "3358d0cc01436bd8f71a500175db2716e75b2eed")))
         (sha256
           (base32
-            "0fpild832h2bx0gkxxjyvg22y7lklrckkfnqgj0wfjqyzj9dna5p"))))
+            "1zwaw482d3yhlsd7zi0whvaj5a11r1mfir9k54xr504ihxzqlcyi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-geiser))
+    (arguments '(#:files (:defaults "geiser.stk")))
     (home-page
       "https://gitlab.com/emacs-geiser/stklos")
     (synopsis
