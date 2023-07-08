@@ -65798,17 +65798,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230703.1926")
+    (version "20230707.1934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "b1940519c320690aee98cbddc296b392c6def2f1")))
+                 "c9fc4d129612aa7faa0e6f079228bf547316c417")))
         (sha256
           (base32
-            "0lx1g0fs84q96m283nnk8g8ld0qa3v3x7wdzv0l5wm9v0ah57hzy"))))
+            "0anyjq31rb4s26z8dxw44vhvarfs5nnw4wpwnfkzdryglk8m6gmk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -81304,17 +81304,17 @@
 (define-public emacs-ob-chatgpt-shell
   (package
     (name "emacs-ob-chatgpt-shell")
-    (version "20230702.1359")
+    (version "20230707.2101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "4319a5bedf2a21412adad4939e5971313f709114")))
+                 "8691bae4dfd38271ccd2649a7548b0d130fcd858")))
         (sha256
           (base32
-            "0zn102vvirqlvy9r2kgvxlqswybhhqjy3j70ljpa21b28m5il7a2"))))
+            "0yphhgqb4s59f4a1nvws3ygj8d0h4djdi0baqjcnvahjh0x8zgvn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chatgpt-shell))
     (arguments '(#:files ("ob-chatgpt-shell.el")))
@@ -108788,17 +108788,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20230625.1056")
+    (version "20230707.1938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "5cb01098e9a844723fbc97b2fda9cda49394ab87")))
+                 "ba3d0794e7b2eb7b539fedd8109904b1fb4512a8")))
         (sha256
           (base32
-            "0fwbd5zbd02qj9nii767y9khm731yz810xlfdvqsgbibj9fqj0fb"))))
+            "05xfap184d623xkv5k5nqvfg17cljc9r6hqw63agrsapzc0wdnnp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -115405,17 +115405,17 @@
 (define-public emacs-tempel-collection
   (package
     (name "emacs-tempel-collection")
-    (version "20230629.1027")
+    (version "20230707.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Crandel/tempel-collection.git")
                (commit
-                 "ee25399be95661488751a40591c570e050166d25")))
+                 "1f7e2a59d73269bd61612dbd91de2a031ccf7574")))
         (sha256
           (base32
-            "1fj61dnk3rckn1n29mah2y674padq38bd8jvd8yxacff8i48m5vw"))))
+            "1gnxrwrvw05af9kb2s80zv07ks1jbfmhq3qcs1aah70lydixipdn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tempel))
     (arguments '(#:files (:defaults "templates")))
