@@ -49360,17 +49360,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20230713.2231")
+    (version "20230720.341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "4356f6fbece2a697b9e0f53ac1d03381f8148ee3")))
+                 "cc6c5e7321db3e66581e42ac5a4a8df54aa618a0")))
         (sha256
           (base32
-            "0abwgpvx43isym326gb814bbpqx7hvbskn1c8xa8am83x903nygv"))))
+            "1x214dbmrwgy2lskj5fpi9rw8xk4dykb3gm88flpvmn5d0drvbmr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple ChatGPT client")
@@ -58094,7 +58094,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230719.2300")
+    (version "20230720.11")
     (source
       (origin
         (method url-fetch)
@@ -58104,7 +58104,7 @@
                ".tar"))
         (sha256
           (base32
-            "0wx8is7g4az6a2vp62rpxwykycgzmgg16m30zl2ys96id4icl9dp"))))
+            "1425qxfzxdgv56yx7xih1lmvm7sb64i4jgl1nj64c3wfhczwwb3g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -58342,7 +58342,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230719.1515")
+    (version "20230720.715")
     (source
       (origin
         (method url-fetch)
@@ -58352,7 +58352,7 @@
                ".tar"))
         (sha256
           (base32
-            "00k1mxrjzw4c0ryd1n8775wbmk9bq78d2jv3gqf7p1sz3j7d6qvc"))))
+            "12305fdcyw46n07sdf3lgkgyin31gr70n6jfiy407z874wcisyvj"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
@@ -96605,17 +96605,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20221216.112")
+    (version "20230720.123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
+                 "d7cc55dad453c465af9ececbab94426202b5b32b")))
         (sha256
           (base32
-            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
+            "075a9f7kimlsfzv8r15kqn2afjnqyryrrkz5wwwpkh7rjjqcbcpq"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
