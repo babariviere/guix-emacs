@@ -12872,17 +12872,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20230715.1232")
+    (version "20230719.2244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "8056e63e6c69e10fc266e11e639bc52bf4ac7592")))
+                 "2e76f13e7aa294e23283209f506bef6b3ca2a410")))
         (sha256
           (base32
-            "01qn4pf23z97wc7amb12xksv3gl4jx5gyk7kfs9m21jm8rj8sdqy"))))
+            "0hsxp2lz86qx578n0ss47z5pd1a6mskg1vbpkjfmd101ic7zcw0h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -19503,17 +19503,17 @@
 (define-public emacs-crystal-mode
   (package
     (name "emacs-crystal-mode")
-    (version "20230223.2257")
+    (version "20230719.2215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crystal-lang-tools/emacs-crystal-mode.git")
                (commit
-                 "891ccbff1dc3186e2835e77df3e66ed3c6ee7136")))
+                 "75637091db7edf22067e76ffe859b3121b85799e")))
         (sha256
           (base32
-            "1lxa3ladrww0ximsi69bshgzbhb00ksyq10qlspis8l9y76kjg1a"))))
+            "0q3gp2r5x3fg06ffdx7fclgah395b6kjikshcmbbpijanmq4dzcc"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("crystal-mode.el")))
     (home-page
@@ -28634,17 +28634,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230718.1723")
+    (version "20230719.1948")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "0b2a00124372f2b3960926bb83d2a92bcefc19f1")))
+                 "da0d20f9ff79bfa5231c0b7b736dd6bb417812b2")))
         (sha256
           (base32
-            "0p9yzwakm5zzk7dpgbikxxv8i9b3s0fi6jqh8l1isq0hg0l5v4n4"))))
+            "1ijs2iikilxv6sgg1hj2c9abnq5p1hh75wqkm20gyziixpzd4ffw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28872,7 +28872,7 @@
 (define-public emacs-electric-ospl
   (package
     (name "emacs-electric-ospl")
-    (version "20230325.1518")
+    (version "20230719.1531")
     (source
       (origin
         (method url-fetch)
@@ -28882,7 +28882,7 @@
                ".tar"))
         (sha256
           (base32
-            "1q3ka08fl77n8i407ii64spwdvynnhfy48xi0rzlb9ba9m86j8ga"))))
+            "1l727dcf1wgp4iqzij3kki0161d9g7rsnlhl805f5rdcrrzzsh82"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~swflint/electric-ospl-mode")
@@ -30090,17 +30090,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20230628.1524")
+    (version "20230719.1452")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "c1354a62918c6a15aa45613c422921f17bd4e19b")))
+                 "2cef7e348badc2be43a5df6a71a50bea5b0464b5")))
         (sha256
           (base32
-            "08bwx4vmxicmmchx4f9qvkgpz7z4gbc2wyzlkfwckfvckgxb1s83"))))
+            "0zp8i1n3y9nxka7laj5r80q8047gw5as2ki6kp2lrg5vnf73z66b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company
@@ -45139,17 +45139,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20230714.38")
+    (version "20230719.2251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "dc25a8868f39c9f572b051e9a7ea2b68f65aa2b2")))
+                 "761c65be5763a0cac161f2d9ea9dec510f58b83d")))
         (sha256
           (base32
-            "0j4fmqy28q38xi5hp1n0471q9m8krhp8j1h6rhsiw43k365pi3j8"))))
+            "1xzh5wfdgjq5ajd3siq07byy1a0hp7vmlv3qy06f87jk6k97plww"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -51452,7 +51452,7 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230718.638")
+    (version "20230719.1306")
     (source
       (origin
         (method git-fetch)
@@ -58094,7 +58094,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230719.744")
+    (version "20230719.2300")
     (source
       (origin
         (method url-fetch)
@@ -58104,7 +58104,7 @@
                ".tar"))
         (sha256
           (base32
-            "153ihbii3acbnl855dv8bcgxn8nvd85z4ls9v80xyaxmw78a12pj"))))
+            "0wx8is7g4az6a2vp62rpxwykycgzmgg16m30zl2ys96id4icl9dp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -58342,7 +58342,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230719.1358")
+    (version "20230719.1515")
     (source
       (origin
         (method url-fetch)
@@ -58352,7 +58352,7 @@
                ".tar"))
         (sha256
           (base32
-            "03b1da9hcwdlj03yq9f2912df8dc89y7p9xpnjc607pcsgazsiva"))))
+            "00k1mxrjzw4c0ryd1n8775wbmk9bq78d2jv3gqf7p1sz3j7d6qvc"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
@@ -118567,17 +118567,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20230712.2031")
+    (version "20230719.2015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "6531ac0a9084ce2f45e9105bc20b685bf277b9a6")))
+                 "aa0944a29eee48302fd76b6c3a59c5aece114fa6")))
         (sha256
           (base32
-            "0r29b6haxyhwds6jzfnx9cbii26rihhiid93iq2vl9rvflzdw5c1"))))
+            "09finy1y3jc72f5ar891bi2xsynd31g7pl8f27m2zbpc7r4la8mi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
