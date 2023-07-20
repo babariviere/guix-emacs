@@ -8755,17 +8755,17 @@
 (define-public emacs-boon
   (package
     (name "emacs-boon")
-    (version "20230625.2015")
+    (version "20230720.1235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jyp/boon.git")
                (commit
-                 "153862e90f0214a0033cb8f703e588ff5b409e25")))
+                 "75b30ef8703efb9ffba12e92685ad82e3ab55962")))
         (sha256
           (base32
-            "04m8cf8vyhdrd9dxdcmdryf73sw6rqxmlwk3nlvslpwcsaimicwd"))))
+            "1866m1zy3hm8rcmc74zxmd6xcb4jwwl9znklgs3xxdb87si86hls"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -25943,17 +25943,17 @@
 (define-public emacs-dtrt-indent
   (package
     (name "emacs-dtrt-indent")
-    (version "20230706.1119")
+    (version "20230720.921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jscheid/dtrt-indent.git")
                (commit
-                 "cfb763f748652a695b290137016a07ab230e334c")))
+                 "c501e0b5857a6786b82791e485d10d28aa9c3478")))
         (sha256
           (base32
-            "11g5nq5y70ddzvclgpk2pvlysrp9cqckh0k9nb2yijvhrgxspz8f"))))
+            "0n640cx266r2421ydlpa48gm9ki1mq1ijdl2758675012vmw43n5"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Adapt to foreign indentation offsets")
@@ -26194,17 +26194,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230719.1251")
+    (version "20230720.1116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "0c24413d6bb70c60c13d302693e141e8dd3c1c3c")))
+                 "09de983ce39e0b84aaa8e698604b801c346b7a12")))
         (sha256
           (base32
-            "17zm60jl2m51v7i8qy2mh83y1l0fv1n932cn2l4vj22z4mczvqvy"))))
+            "1x3bkhn0x6jy1vqm7f3qd5drmyxkfs6nvmy037h782dc3sh8mcyk"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -96190,17 +96190,17 @@
 (define-public emacs-pos-tip
   (package
     (name "emacs-pos-tip")
-    (version "20220715.1020")
+    (version "20230720.1341")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pitkali/pos-tip.git")
                (commit
-                 "bfe74204d1201a33ace81898e7c485382817510a")))
+                 "7aed352320704b69d7e665ce36ea587d642ae40f")))
         (sha256
           (base32
-            "1vmmnajdmfaq9psrgv0fd0qf739201qaihhwg5qbqvbm86v2ns1f"))))
+            "02nxnnca4avydp59813ba486y04ridai16n9fjs0fbiiqwyjsgyr"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Show tooltip at point")
@@ -105871,17 +105871,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20230711.1935")
+    (version "20230720.1211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/precompute/sculpture-themes.git")
                (commit
-                 "7e5804bd78b2d104571f0019fbf16a6985f458ad")))
+                 "7975bc12f76cd06ac588e6b36493cdf7e63d24ac")))
         (sha256
           (base32
-            "03xqycy7y2q62ijkp4lv39vjmca6jqx4ksvl4y36zid1n3r7qw33"))))
+            "14i98kma9ki3krzzvdj68s80fn33v3avsdvwqxzhr9has5ar497x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
@@ -124690,17 +124690,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230719.845")
+    (version "20230720.1306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "3cdfde35dd5dc19f0d58439eb29900cc8147730d")))
+                 "876b5ff3b19f765e4e51a04a7714b5ad4d8f0140")))
         (sha256
           (base32
-            "1vwljhl5sh738c2i2bff7sb8hhd7b5vk2bajari8jmsab48qn9ki"))))
+            "1mnrc90cf8is52jigjp04x1ijflp6awy3fllskl8ddjrwaq1v54d"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -124715,17 +124715,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230719.845")
+    (version "20230720.1306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "3cdfde35dd5dc19f0d58439eb29900cc8147730d")))
+                 "876b5ff3b19f765e4e51a04a7714b5ad4d8f0140")))
         (sha256
           (base32
-            "1vwljhl5sh738c2i2bff7sb8hhd7b5vk2bajari8jmsab48qn9ki"))))
+            "1mnrc90cf8is52jigjp04x1ijflp6awy3fllskl8ddjrwaq1v54d"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -127366,7 +127366,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230719.911")
+    (version "20230720.1218")
     (source
       (origin
         (method url-fetch)
@@ -127376,7 +127376,7 @@
                ".tar"))
         (sha256
           (base32
-            "12h2klxkixig05ygpclsw3hf4frs4gxw33x0l1jygycqrdrpxvzs"))))
+            "0yzzs64l8m92vjx5ps4cl7r51sjzil13v5xcxmywmr7saai83mwn"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
