@@ -19503,17 +19503,17 @@
 (define-public emacs-crystal-mode
   (package
     (name "emacs-crystal-mode")
-    (version "20230719.2215")
+    (version "20230720.2043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crystal-lang-tools/emacs-crystal-mode.git")
                (commit
-                 "75637091db7edf22067e76ffe859b3121b85799e")))
+                 "e5b54c3ad728d791772ceccca607d0434ddaf985")))
         (sha256
           (base32
-            "0q3gp2r5x3fg06ffdx7fclgah395b6kjikshcmbbpijanmq4dzcc"))))
+            "0jzhr92fbf01z5gr79h5ck696apy5rr7bjblxda1r1anpjayahm4"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("crystal-mode.el")))
     (home-page
@@ -26194,17 +26194,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230720.1116")
+    (version "20230720.1802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "09de983ce39e0b84aaa8e698604b801c346b7a12")))
+                 "49afeb36f9781cb0e43da7267b6c4789d8dde91b")))
         (sha256
           (base32
-            "1x3bkhn0x6jy1vqm7f3qd5drmyxkfs6nvmy037h782dc3sh8mcyk"))))
+            "1i3bkfjy7ljbya13qs028r1pmb8h6s2vkzhw6hkjq3nql56yg98s"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -28634,17 +28634,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230719.1948")
+    (version "20230720.1715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "da0d20f9ff79bfa5231c0b7b736dd6bb417812b2")))
+                 "25ea8bb4748a75a7de222530fb45b581615c6dee")))
         (sha256
           (base32
-            "1ijs2iikilxv6sgg1hj2c9abnq5p1hh75wqkm20gyziixpzd4ffw"))))
+            "1kpanj2a4xchpx3l22cyvjkddqxf62hmn398h30m7rkx5y1b9xky"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -49360,17 +49360,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20230720.341")
+    (version "20230720.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "cc6c5e7321db3e66581e42ac5a4a8df54aa618a0")))
+                 "b92fc389d7fe582a447c6b42bdd32775f83f8342")))
         (sha256
           (base32
-            "1x214dbmrwgy2lskj5fpi9rw8xk4dykb3gm88flpvmn5d0drvbmr"))))
+            "1hrcng5bfahyqsnnknb8crl1sr5r0w5cgvv2901kwzyaam1nkq51"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple ChatGPT client")
@@ -51452,17 +51452,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230719.1306")
+    (version "20230720.849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "c0378b85742281a27649dd4f891f36d67c415225")))
+                 "73b5ae25b2c007ebf15298093db82ce9269d738a")))
         (sha256
           (base32
-            "013p27ahl4nzrrapgsg5376ysb6nm6pks5dcrsbx68jlc87wdqj5"))))
+            "0iszcxcgdsiqi2iy00xl20s57iz07pvy11549h3xgmnkqha13j7h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -64424,17 +64424,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20230621.1809")
+    (version "20230720.1934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "8ea516a06dd1a6a0c90b5cbec5067285bdb61a22")))
+                 "18b891b4569096d541e996cf7e24da01efdf2e03")))
         (sha256
           (base32
-            "1rqlgbgw0njb26r86qcgjyyvr5gadkm4m8bp5rvy4br7k4d6crih"))))
+            "0izsvnhadcmz67jmb14anwzs6jghm266vl1frbyzl2z8i4wlg0sn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71609,17 +71609,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20230623.1236")
+    (version "20230720.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "d59e9212e44f62b40c4323ca8bbe53ea09cd00d0")))
+                 "e47710ea69a85b27e4c95d3fee5c30a6c157a7be")))
         (sha256
           (base32
-            "0rkmy3iwbawcmj7m0p7yc9pjqwb1r1rqfxynnlq6vjnb2vp3zfpz"))))
+            "1a2yl0s0slwgfbxrsm9sfsdq1r6788axim11a871yg73fjx5cs47"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/roadrunner1776/magik")
@@ -78809,17 +78809,17 @@
 (define-public emacs-naysayer-theme
   (package
     (name "emacs-naysayer-theme")
-    (version "20200405.123")
+    (version "20230720.2056")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nickav/naysayer-theme.el.git")
                (commit
-                 "9d0bef898f31368cd30e063d53d443dee29683b0")))
+                 "eafbc760e32728d2fe2b347621da222537372500")))
         (sha256
           (base32
-            "1jbp8p58bjc0wxs548niv02q9889blnwwfs64h5sm96nzhyzrkn0"))))
+            "0a2gznz4054ibwlmis3zb5z63nl663azdn4dml6xks77i6ys73dn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nickav/naysayer-theme.el")
@@ -96190,7 +96190,7 @@
 (define-public emacs-pos-tip
   (package
     (name "emacs-pos-tip")
-    (version "20230720.1341")
+    (version "20230720.1609")
     (source
       (origin
         (method git-fetch)
