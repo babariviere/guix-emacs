@@ -13533,17 +13533,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20230715.1114")
+    (version "20230721.615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "af97aca1acc607dffcae9e932d926dc6482426bb")))
+                 "740747dc175f578b255dae6ed87bf8a438431096")))
         (sha256
           (base32
-            "16mbfih6f23lm595rg6fprl4gzpvpdr8kb1agrpdjd2lkramr1z8"))))
+            "18jbmgy62z32x0v2m6y27vmvsjpwi6pdir4cn3b29gckk7zx5lws"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -23973,17 +23973,17 @@
 (define-public emacs-direnv
   (package
     (name "emacs-direnv")
-    (version "20220812.956")
+    (version "20230721.714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wbolster/emacs-direnv.git")
                (commit
-                 "268536f564b7eba99264a89a9149268eb4bc67ac")))
+                 "14f74269af34f8c30ab4a521eff290b74460daed")))
         (sha256
           (base32
-            "1rfr6cby7syshs3fbk83hhb3s4mjp0pfxb4dkznm5sdp259s4rqs"))))
+            "0q5n499vc7d57fyr98alyrfycdvwgykf2fia3jq090h6xn5jbjl3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -26194,17 +26194,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230720.1802")
+    (version "20230721.706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "49afeb36f9781cb0e43da7267b6c4789d8dde91b")))
+                 "62a101b5477b544441eed57ee4aca6c52b1c8273")))
         (sha256
           (base32
-            "1i3bkfjy7ljbya13qs028r1pmb8h6s2vkzhw6hkjq3nql56yg98s"))))
+            "17259s35z9s3jx9pgy2yyvr8xi40cq1nd3b2d3swb14ydcv750w9"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -49360,17 +49360,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20230720.2114")
+    (version "20230721.433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "b92fc389d7fe582a447c6b42bdd32775f83f8342")))
+                 "a660e13a8bdea101d56cdbab0cb10731b8b8f1fa")))
         (sha256
           (base32
-            "1hrcng5bfahyqsnnknb8crl1sr5r0w5cgvv2901kwzyaam1nkq51"))))
+            "11dfs975f5hsvs1j8gwd60fx8b0xsy3sw6wng9pycl9q30rn6sa7"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple ChatGPT client")
@@ -58094,7 +58094,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230720.11")
+    (version "20230721.221")
     (source
       (origin
         (method url-fetch)
@@ -58104,7 +58104,7 @@
                ".tar"))
         (sha256
           (base32
-            "1425qxfzxdgv56yx7xih1lmvm7sb64i4jgl1nj64c3wfhczwwb3g"))))
+            "1vmgyi2l15c6g853zm3friqm4zgrh4zdxvj5027kzf1wiws9mvgn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -72996,17 +72996,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20230716.1308")
+    (version "20230721.136")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "0a7404a1c7b1916ca6e8408a6c8bad9125c846d2")))
+                 "2e2108c34cdcc8e58e00ceb3d8305a3813dac04c")))
         (sha256
           (base32
-            "06l79v8fq3b44fvg0sqzlfmq5ylzwhjaxlrm9kdmw39qpafrawhs"))))
+            "0k7lfwbw1nravpnawg3xl61bjyg9w57cxgxz59ribc7rd014aikk"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -79088,17 +79088,17 @@
 (define-public emacs-nerd-icons-ivy-rich
   (package
     (name "emacs-nerd-icons-ivy-rich")
-    (version "20230510.243")
+    (version "20230721.357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/nerd-icons-ivy-rich.git")
                (commit
-                 "664f4cd0bfd9845ef429cb341a713d1a9ded76d6")))
+                 "b3b605efa03d464d6138454ac3f60dcae50e7acb")))
         (sha256
           (base32
-            "193psg005a4q1xcna5j8km64j3mfi92a369mnssh02h17jlwpkid"))))
+            "10xilnlp9nb1j8h5m413qsf52zi3rvz5ca7wj4zar8j2wmsszdkv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ivy-rich emacs-nerd-icons))
@@ -84929,17 +84929,17 @@
 (define-public emacs-org-contacts
   (package
     (name "emacs-org-contacts")
-    (version "20230710.1148")
+    (version "20230721.151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-contacts.git")
                (commit
-                 "2b3a3866aa6f8488520bd1e4608e58bf8597fa08")))
+                 "7f03eafaad2e5746949c0bebb98353e939c51ade")))
         (sha256
           (base32
-            "0vsh99h0h9cy47dccrfh21vysbchd4i9ma3xh706gfzggi4vcfd0"))))
+            "1s29h8chfskls13jb13j56cvzfyc4xgg4ckv97a6wy902lw83z8b"))))
     (build-system melpa-build-system)
     (home-page "https://repo.or.cz/org-contacts.git")
     (synopsis
@@ -87695,17 +87695,17 @@
 (define-public emacs-org-special-block-extras
   (package
     (name "emacs-org-special-block-extras")
-    (version "20230718.132")
+    (version "20230721.43")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alhassy/org-special-block-extras.git")
                (commit
-                 "58d4de9ecba7f79a470516903d07fd1e6a904d2c")))
+                 "18d754d8491aa41104a309c3161576bee15e42f6")))
         (sha256
           (base32
-            "1k8k8ja6rxhxgps3x9qs3jzj2hv415sll43bll5nli9bi0hxmy0r"))))
+            "0af4bairg7cb3m5iy2yxspmcakb4x6pzdhxps0i3i3mxlw65ybrl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -88010,17 +88010,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20230718.1438")
+    (version "20230721.203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "f740ec25cd0ad8a732c083c99c2e34f8cc2ba398")))
+                 "4805dd105eca312c8ef6033bd57d356b37063ace")))
         (sha256
           (base32
-            "11jwbsgdr222pvrj3zdzsp99hzzghz4lkx2kanh6v9xl1yqrfrnw"))))
+            "1acjsnvj47gf1rnm5xzck7h817p9zipi0xqywcr10v15mqwk6p8b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-nerd-icons))
     (home-page
@@ -124690,17 +124690,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230720.1306")
+    (version "20230721.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "876b5ff3b19f765e4e51a04a7714b5ad4d8f0140")))
+                 "3a9f520910d4097869cfcead4c2add1120bd3e9a")))
         (sha256
           (base32
-            "1mnrc90cf8is52jigjp04x1ijflp6awy3fllskl8ddjrwaq1v54d"))))
+            "0zv42qkcj10ry1s41l5y17qxd5ibzk9j33la44zbna4zrl7fz2d7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -124715,17 +124715,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230720.1306")
+    (version "20230721.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "876b5ff3b19f765e4e51a04a7714b5ad4d8f0140")))
+                 "3a9f520910d4097869cfcead4c2add1120bd3e9a")))
         (sha256
           (base32
-            "1mnrc90cf8is52jigjp04x1ijflp6awy3fllskl8ddjrwaq1v54d"))))
+            "0zv42qkcj10ry1s41l5y17qxd5ibzk9j33la44zbna4zrl7fz2d7"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
