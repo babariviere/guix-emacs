@@ -12588,17 +12588,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230707.640")
+    (version "20230721.1016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "bc8903b0c85cf0891f106337eabfc6f747d262a1")))
+                 "74be055295c92252a62f1d6647f75352d69c166c")))
         (sha256
           (base32
-            "1072r28mf1n9ll0nj55haqxk3j174d47xxpm806mlyf8xndzq2n0"))))
+            "1bzpilj4jgbz32mxn4flb2fmm69jis0rnwhyhn0hhz0d5as7z1gn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -26194,17 +26194,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230721.706")
+    (version "20230721.825")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "62a101b5477b544441eed57ee4aca6c52b1c8273")))
+                 "423ef029c5b4dc95fdae916068803d7ffa0c30aa")))
         (sha256
           (base32
-            "17259s35z9s3jx9pgy2yyvr8xi40cq1nd3b2d3swb14ydcv750w9"))))
+            "1mrwxwmbw8c8pskljvyvbxl0hjiyarj76afkn2a0vpxqk5pxq8a1"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -38552,17 +38552,17 @@
 (define-public emacs-flatfluc-theme
   (package
     (name "emacs-flatfluc-theme")
-    (version "20221204.939")
+    (version "20230721.538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seblemaguer/flatfluc-theme.git")
                (commit
-                 "553167d27725d078f5c66ed7a31ca8ec9376dfd0")))
+                 "9c9ae6f34aa8fca537cdd8a899b337ba8302fb9d")))
         (sha256
           (base32
-            "1d7ffaa90r9n89xx79f0mkmg40p96f415n1lg603vfy6dls1dfmb"))))
+            "0nbb1dal3m1s3ryizkwvk3ck0axq62ngcwvrkjp3zx8nk3486jm5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/seblemaguer/flatfluc-theme")
@@ -44912,17 +44912,17 @@
 (define-public emacs-gams-mode
   (package
     (name "emacs-gams-mode")
-    (version "20230413.1331")
+    (version "20230721.656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShiroTakeda/gams-mode.git")
                (commit
-                 "246c0bea5764e5d9d5607a1f76b4602109e66ba9")))
+                 "ac2d1ef9695e395b4410ef342bbfb75d7852c798")))
         (sha256
           (base32
-            "0lmvblx5lwxlsxp6nnp7b64wsdlzf83pv49dx8316wakaid1f5yl"))))
+            "0wmmbz7scd0r1bahlvh9av3lwykni32sgyhcqyzd1w867hc77sv5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("gams-mode.el" "gams-logo.xpm")))
@@ -70703,17 +70703,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230718.832")
+    (version "20230721.723")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "0858544b4d7099c5873572d0bdb9c3ebde376d42")))
+                 "3fbf0440522eb7bf92c4e3b0d92f42bea086eefc")))
         (sha256
           (base32
-            "1750m220fz0nrkgn22i167dbvm9k1nfp0f5yiasapinb4r2xvnl5"))))
+            "0g1bzvas2vxw34par347lix9bzkqnjsajswj8syzaz2cfs7s1b3p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -96190,17 +96190,17 @@
 (define-public emacs-pos-tip
   (package
     (name "emacs-pos-tip")
-    (version "20230720.1609")
+    (version "20230721.834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pitkali/pos-tip.git")
                (commit
-                 "7aed352320704b69d7e665ce36ea587d642ae40f")))
+                 "90a9babc829b298af36be695009894fc00a97935")))
         (sha256
           (base32
-            "02nxnnca4avydp59813ba486y04ridai16n9fjs0fbiiqwyjsgyr"))))
+            "1k6r59jhbyiknhsl7df0zafyc4d9r3vk953x6sdxgz92kx6hxpfy"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Show tooltip at point")
@@ -118094,17 +118094,17 @@
 (define-public emacs-transient-extras
   (package
     (name "emacs-transient-extras")
-    (version "20230602.814")
+    (version "20230721.839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haji-ali/transient-extras.git")
                (commit
-                 "72eb0e66714d3144de55b983a23eca5c0b664fcc")))
+                 "ca0d5c597382615f0ee8300ff8718f54f8214359")))
         (sha256
           (base32
-            "1dmgmqqgw30lpz973j0g49sgr4m1rjiv3446576gl7i9fa4r1mv3"))))
+            "1g92pjrrwx2hzijn4wbm3xfmarirgjs7sq4k025vj4vdjdxvddq9"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("transient-extras.el")))
     (home-page
@@ -124690,17 +124690,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230721.546")
+    (version "20230721.946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "3a9f520910d4097869cfcead4c2add1120bd3e9a")))
+                 "1e04ab7aab15f1f50a752d2e846b707845e1f725")))
         (sha256
           (base32
-            "0zv42qkcj10ry1s41l5y17qxd5ibzk9j33la44zbna4zrl7fz2d7"))))
+            "16nxppsc4hqpd8z45rb5jqzqcc4474x1n4r3y6d6yvbbpxfxv1s1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -124715,17 +124715,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230721.546")
+    (version "20230721.946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "3a9f520910d4097869cfcead4c2add1120bd3e9a")))
+                 "1e04ab7aab15f1f50a752d2e846b707845e1f725")))
         (sha256
           (base32
-            "0zv42qkcj10ry1s41l5y17qxd5ibzk9j33la44zbna4zrl7fz2d7"))))
+            "16nxppsc4hqpd8z45rb5jqzqcc4474x1n4r3y6d6yvbbpxfxv1s1"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
