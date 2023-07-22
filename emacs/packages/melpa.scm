@@ -7931,17 +7931,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20230719.900")
+    (version "20230721.1448")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "708bf851de24f5d914ec36a2e806260f3a19e184")))
+                 "2a375d6c71426a8bc749d90f35b55336b638cd27")))
         (sha256
           (base32
-            "01hakw6hm91gz5nfssb53pgly6gs79gyv54q4yhfi0rd5nf90diz"))))
+            "0vlkxcxb60xvphq1f7qbliav1r018f86sb3861455fx8jrr7kzww"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -12588,17 +12588,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230721.1016")
+    (version "20230721.2048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "74be055295c92252a62f1d6647f75352d69c166c")))
+                 "b89275879c9639b7336dd6d6caca5290d3a52c13")))
         (sha256
           (base32
-            "1bzpilj4jgbz32mxn4flb2fmm69jis0rnwhyhn0hhz0d5as7z1gn"))))
+            "0gqbr8cpz8781ba1s87bdq32szv1blm1zc919kwrpjwlai55nqlv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -38713,17 +38713,17 @@
 (define-public emacs-flex-compile
   (package
     (name "emacs-flex-compile")
-    (version "20230625.1811")
+    (version "20230721.2034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/flex-compile.git")
                (commit
-                 "50e1817d25c7547d0490f3060888dd9948358628")))
+                 "e308d3d9400bc3e0e69eb53e133f1f2e7163d4d4")))
         (sha256
           (base32
-            "15pwabn54aj4adnnp3aliv2qf1d6c5sjx69m0477gwblfjgfxf7k"))))
+            "1hdc7dvbrxv65qn7kwkam7dbsf6xmrirvsy6rbxg6xj0xmrg3vg1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-buffer-manage))
@@ -57068,17 +57068,17 @@
 (define-public emacs-hledger-mode
   (package
     (name "emacs-hledger-mode")
-    (version "20230710.1905")
+    (version "20230721.1812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/narendraj9/hledger-mode.git")
                (commit
-                 "7398ae35aedf96abd428eaa5e3ab05c8f96955ec")))
+                 "ae551c0601dc39e0f751fe52a97fab01f4844e0a")))
         (sha256
           (base32
-            "0a16iciya9qh803nks1prrazn8vhbvadm9yk6zhdc9skqv5vk0n6"))))
+            "0v8pm91fvnnpx72ihg33dakiw1jwy4w45p7qabxzj7vwjdp7w6yq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-popup emacs-async emacs-htmlize))
@@ -70670,17 +70670,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20230406.755")
+    (version "20230721.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "a7e7b408396e8e77ba695f4739ae4ed7d0cffa42")))
+                 "926e680add8a9648b20962bc97336343456236a1")))
         (sha256
           (base32
-            "0ipvmx72vzrjr3fjpzadkibslhimdxmlc30iybd7xxyr1by0rd7j"))))
+            "1hz1hxqrkmr9xkpdbvl0ngjmm6r762s0yfc4sxkbxxiacb11g5ix"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
@@ -70703,17 +70703,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230721.723")
+    (version "20230721.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "3fbf0440522eb7bf92c4e3b0d92f42bea086eefc")))
+                 "db0b3789b1d6a4b788e8cc37f8dbd45e2c592ad7")))
         (sha256
           (base32
-            "0g1bzvas2vxw34par347lix9bzkqnjsajswj8syzaz2cfs7s1b3p"))))
+            "1jv4p8wl23axsshwv9ckfs94qff87bhk45cxghyr624mpq0a6pz7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -77469,17 +77469,17 @@
 (define-public emacs-multi-line
   (package
     (name "emacs-multi-line")
-    (version "20230712.720")
+    (version "20230721.1814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/IvanMalison/multi-line.git")
                (commit
-                 "60494571db015122be3ef792be58e0dc65cc030e")))
+                 "06ea7294c4e4ace0c3253b7952a6d937a169eb55")))
         (sha256
           (base32
-            "138dlrppf6irn65pnrq7q5ggw9sziqcyrgph41p747b5rz6nndc9"))))
+            "0iby3h9ypmnd35f9mvs53cghlpl9jjj97z5p191y99k3w4dzp4z1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-shut-up))
@@ -105871,17 +105871,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20230720.1211")
+    (version "20230721.2148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/precompute/sculpture-themes.git")
                (commit
-                 "7975bc12f76cd06ac588e6b36493cdf7e63d24ac")))
+                 "77dc23b04636919f21d39b938fc969c615f38d20")))
         (sha256
           (base32
-            "14i98kma9ki3krzzvdj68s80fn33v3avsdvwqxzhr9has5ar497x"))))
+            "0hy4nqkfz9adaq9lhvqsyggbiyhbkq7jrc2awqgpw2wq16vzkxqw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
