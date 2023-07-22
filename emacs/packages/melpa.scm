@@ -12588,17 +12588,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230721.2048")
+    (version "20230722.511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "b89275879c9639b7336dd6d6caca5290d3a52c13")))
+                 "b22daccde32aa0051f0cdbf25af5f531cc399c9b")))
         (sha256
           (base32
-            "0gqbr8cpz8781ba1s87bdq32szv1blm1zc919kwrpjwlai55nqlv"))))
+            "0ycnwqw97gv6ai3l3f75zj9i0v7pn7c5dxzqmwxyk195lp1r6mvx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -51452,17 +51452,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230720.849")
+    (version "20230721.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "73b5ae25b2c007ebf15298093db82ce9269d738a")))
+                 "71d46f2d229ae56f34c11e0e54fb02d97b69381b")))
         (sha256
           (base32
-            "0iszcxcgdsiqi2iy00xl20s57iz07pvy11549h3xgmnkqha13j7h"))))
+            "0qhk52cj91502zl6z9iinj13akm40jra7kdlgjqg0lvfj88sf0fw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -58094,7 +58094,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230721.221")
+    (version "20230722.509")
     (source
       (origin
         (method url-fetch)
@@ -58104,7 +58104,7 @@
                ".tar"))
         (sha256
           (base32
-            "1vmgyi2l15c6g853zm3friqm4zgrh4zdxvj5027kzf1wiws9mvgn"))))
+            "0ngsqwans60dc5yrvh1jirfqispl5whkqzb7zks4pphscbrsansn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
