@@ -7931,17 +7931,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20230721.1448")
+    (version "20230722.855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "2a375d6c71426a8bc749d90f35b55336b638cd27")))
+                 "466699c923e9b7035ed8d5b45e2abec96838ae8f")))
         (sha256
           (base32
-            "0vlkxcxb60xvphq1f7qbliav1r018f86sb3861455fx8jrr7kzww"))))
+            "0l8zppilkwin4ww73d66nw6a2hchj05cnv2q0vczw49b7zqikyh9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -43664,17 +43664,17 @@
 (define-public emacs-format-all
   (package
     (name "emacs-format-all")
-    (version "20230719.901")
+    (version "20230722.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-format-all-the-code.git")
                (commit
-                 "f83e1c84e947a3e6adaea318776c1af1e8da4045")))
+                 "2c780df8cf1bb4d464d94f9afe085b5b19036236")))
         (sha256
           (base32
-            "0lnspx2v51pv6a6mbncf40nf87sny6m50kv63sir6icws196v5xp"))))
+            "082acmnkgqrd9x9j3kw2z9cmqrm1s35w7hn8hkbk3f239lc1x8xl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-inheritenv emacs-language-id))
@@ -51452,17 +51452,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230721.451")
+    (version "20230722.1410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "71d46f2d229ae56f34c11e0e54fb02d97b69381b")))
+                 "55991a470530b72789290a5b5827d904b3616558")))
         (sha256
           (base32
-            "0qhk52cj91502zl6z9iinj13akm40jra7kdlgjqg0lvfj88sf0fw"))))
+            "18isvjvznyzhphmdwwdzx0y8qm8w00vszpfwjv509pqvasimfq9i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -62843,17 +62843,17 @@
 (define-public emacs-jazz-theme
   (package
     (name "emacs-jazz-theme")
-    (version "20230716.1302")
+    (version "20230722.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donderom/jazz-theme.git")
                (commit
-                 "aa9a66d431df89b23e9f098ae3b86e65e75eee7b")))
+                 "1905841af1df7b7075dcc8e1e3df4a9b5022f4a8")))
         (sha256
           (base32
-            "1mfawyw31abhaxxwxw7bpxg6pgagdiq8v81w7w59cj7q0swcd0lb"))))
+            "08c9yhk00dwiyp73pgjdbyjngsmj8gpfkzb2x2sigsnwzv0hg8zn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/donderom/jazz-theme")
@@ -65824,17 +65824,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230719.259")
+    (version "20230722.729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "3e59be7f1db946719a72fe47ffbb6020a5ec3e8e")))
+                 "5bb42e56a82cef890b95f933917826cf29d77a7e")))
         (sha256
           (base32
-            "1a2jfmj7swzdyj4g6q4xcpwp57644yzm7az9ddjzssf49wddg0b4"))))
+            "1xw44vyir9ppf5wfacx1vbivngvi5bb010xj81f85hh70gbj7dax"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -67061,17 +67061,17 @@
 (define-public emacs-language-id
   (package
     (name "emacs-language-id")
-    (version "20230527.1312")
+    (version "20230722.1141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-language-id.git")
                (commit
-                 "06f960f733e5958c4fe0e52db666ce6f6710f508")))
+                 "ff09e3ef89a90d0707a77d6b7f4d2d7d67f4c03a")))
         (sha256
           (base32
-            "0b1571kvfg3xq8fxxgklz01lfrhykd65rrz4aav26rfq7kd38lji"))))
+            "1q3fblbg4qj5zjzgjqs55ywm504sghg7r9n5v9nhsa5k6gx6msw2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-language-id")
@@ -82909,17 +82909,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20230716.507")
+    (version "20230722.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "19707b76edfd36348aa386ca62f5a5c9fcea07e5")))
+                 "907e38cfe1f4c781b66d156862ac26cdb9c1cff0")))
         (sha256
           (base32
-            "0h61z9zjmv6mp84ca5dm2854pz58qz8jmgynqg5rpn52p1m2g6ly"))))
+            "1xkc7ax2v6m5xr1912k0xb2fv7xy119nzhl570l8nlrz5ggqv5xd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -105871,17 +105871,17 @@
 (define-public emacs-sculpture-themes
   (package
     (name "emacs-sculpture-themes")
-    (version "20230721.2148")
+    (version "20230722.1122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/precompute/sculpture-themes.git")
                (commit
-                 "77dc23b04636919f21d39b938fc969c615f38d20")))
+                 "e4d936bf48a3aa771782c418f41cb8732e91fad2")))
         (sha256
           (base32
-            "0hy4nqkfz9adaq9lhvqsyggbiyhbkq7jrc2awqgpw2wq16vzkxqw"))))
+            "1mznkykwh5dbgvhzx5hfig92ww8qg2ys3kfccvrd97579bi9k6ys"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/t-e-r-m/sculpture-theme")
