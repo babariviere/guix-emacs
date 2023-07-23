@@ -58094,7 +58094,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230722.509")
+    (version "20230722.2244")
     (source
       (origin
         (method url-fetch)
@@ -58104,7 +58104,7 @@
                ".tar"))
         (sha256
           (base32
-            "0ngsqwans60dc5yrvh1jirfqispl5whkqzb7zks4pphscbrsansn"))))
+            "08cw1mg9icpr26qqqljwkn0h12aysszr5qkmvs00q9dnc0092pwy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -76340,17 +76340,17 @@
 (define-public emacs-moom
   (package
     (name "emacs-moom")
-    (version "20230401.1025")
+    (version "20230722.2037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/moom.git")
                (commit
-                 "b00832b2bcffe6e88395ffa2cd5557069576cdcb")))
+                 "54750aa2e3e9476375a32ef94714e22ece6e4039")))
         (sha256
           (base32
-            "1r8ccpfmps4rcqqaq623ndp1sv5vnzrxq8fnxr9f696k8hs4w6dw"))))
+            "119jzkf3ccqrxrjxx5x32rgpl7nip9c333ypmssy4pmylpcqls73"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/takaxp/Moom")
     (synopsis
@@ -77141,17 +77141,17 @@
 (define-public emacs-mu4e-alert
   (package
     (name "emacs-mu4e-alert")
-    (version "20220615.1948")
+    (version "20230722.1746")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xzz53/mu4e-alert.git")
                (commit
-                 "3c9af8c7994df0a1a4f0703552ea3beffb485ace")))
+                 "6beda20fc69771f2778f507c4a9e069dbaf1b628")))
         (sha256
           (base32
-            "13li5pqqkzj7dwgpnngnk1ff46i100qw9xknlimpy2vf2k5yqv3y"))))
+            "19z6539nj7rkrhljvzg468pp7gy5vgpj3hsxhfqp0djjm34gppnc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-s emacs-ht))
@@ -128137,17 +128137,17 @@
 (define-public emacs-zig-mode
   (package
     (name "emacs-zig-mode")
-    (version "20230307.1215")
+    (version "20230722.2023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ziglang/zig-mode.git")
                (commit
-                 "2013d39ee9a62449263939bc8c33a128fe1e90f0")))
+                 "0ced3ffb6d76c906c62d7f8f97272aa577fb0c3a")))
         (sha256
           (base32
-            "1mmrl2vjkqmhagv4fkjb11m4pba2imzgxjgk7zlg0hmxw27d37i1"))))
+            "0sqh4a1yzvqfjs72blcshaqlqs2qxmk1yx25h9xl3iqaajns883z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
