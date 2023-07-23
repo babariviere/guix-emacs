@@ -26194,17 +26194,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230721.825")
+    (version "20230723.724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "423ef029c5b4dc95fdae916068803d7ffa0c30aa")))
+                 "4a861c0d2e287ab9ef58909e09920a3410bcb91c")))
         (sha256
           (base32
-            "1mrwxwmbw8c8pskljvyvbxl0hjiyarj76afkn2a0vpxqk5pxq8a1"))))
+            "0bj7agrlrlpzdd06rwxfnhffzn693gywjc74caizg9w2vk0acigb"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -43612,17 +43612,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20230711.1157")
+    (version "20230723.47")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "32cbf6646132a982219bd7bca9091a25d4b97963")))
+                 "ecbcce94a5581077f8e1cda3e3f2a66c6dd52766")))
         (sha256
           (base32
-            "1dzk9grmxsjyyvc8clv4j207zamxw33z71c254g6x9aq46743csc"))))
+            "1nq6xiq1hsrl0y7md16ddnkr2ycrsdbf2jjqjyaj3ldvdx9zbs6d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -58094,7 +58094,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230722.2244")
+    (version "20230723.517")
     (source
       (origin
         (method url-fetch)
@@ -58104,7 +58104,7 @@
                ".tar"))
         (sha256
           (base32
-            "08cw1mg9icpr26qqqljwkn0h12aysszr5qkmvs00q9dnc0092pwy"))))
+            "1fawgc7v7zimw8pa8czbxlngg6rc6j5aym865zn49ssxpyry202j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -71631,17 +71631,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230718.2010")
+    (version "20230723.112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "2126eab6a944e095a65ef00de7cda3bbd0023197")))
+                 "eba1e855f3d3cc41f6152a4e3997cbccf2453cae")))
         (sha256
           (base32
-            "1r2yibqscybn2rd98ky0i4v7w1k1hrx8lslb2jgywx391yf3ah9d"))))
+            "1gllwzr34ppk0rsabrmyf1rbld8hd8n0bx9md9z0v6mh80fz820a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -96507,17 +96507,17 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20230627.1404")
+    (version "20230723.220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-pr-review.git")
                (commit
-                 "16a3c3557a870628fb32d39cbd4f86c340a4268b")))
+                 "1296c81681509044865643ed92474a7d31ead9f3")))
         (sha256
           (base32
-            "14nw91j2pn0ipzn9fk4k7j6ps7wy2xvkwjl4dswficf6hdlc4hl6"))))
+            "07hw222gk0kklv84q6hnzcmbh2gds3098mqrjh1f5nmrqvxg6d68"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section
