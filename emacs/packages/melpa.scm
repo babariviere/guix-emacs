@@ -28634,17 +28634,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230720.1715")
+    (version "20230723.1318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "25ea8bb4748a75a7de222530fb45b581615c6dee")))
+                 "d7022905c9026ec67ccbb4336f8f71a416e83280")))
         (sha256
           (base32
-            "1kpanj2a4xchpx3l22cyvjkddqxf62hmn398h30m7rkx5y1b9xky"))))
+            "0hzdyi6hnddkvk1q89kvxw4wg09s9fbyw0skx7fwmgag1nyf97d3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -58094,7 +58094,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230723.517")
+    (version "20230723.709")
     (source
       (origin
         (method url-fetch)
@@ -58104,7 +58104,7 @@
                ".tar"))
         (sha256
           (base32
-            "1fawgc7v7zimw8pa8czbxlngg6rc6j5aym865zn49ssxpyry202j"))))
+            "1xljkqr3qnjjsf6myka6d8jvhnvj0mnyjy2fbwww1izghpwqj5cd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -67814,17 +67814,17 @@
 (define-public emacs-ledger-mode
   (package
     (name "emacs-ledger-mode")
-    (version "20230605.1126")
+    (version "20230723.734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ledger/ledger-mode.git")
                (commit
-                 "ca59ac2504fa5616cf0bfc1c95c5cea2a828ade4")))
+                 "d102ba5ec7b5f19970bb3627d400473b525b7a4b")))
         (sha256
           (base32
-            "19ylznb2da5xcc36sv9p9w4l4lswh7arh24gv430fswg8np4g9s7"))))
+            "0jv3d3mf70qmnfbg8d341dfnvl29h8vs26gmmyazk7nc5qz8idqj"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("ledger*.el")))
     (home-page "unspecified")
@@ -71631,17 +71631,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230723.112")
+    (version "20230723.1231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "eba1e855f3d3cc41f6152a4e3997cbccf2453cae")))
+                 "2c2b34d7ac8a595be68702e53ff6f77755bfcd52")))
         (sha256
           (base32
-            "1gllwzr34ppk0rsabrmyf1rbld8hd8n0bx9md9z0v6mh80fz820a"))))
+            "1wlmms05vg82xy9nxi9qk0v43ij1dl978q6jg4mn64flybq9yv75"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -72996,17 +72996,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20230721.136")
+    (version "20230723.1139")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "2e2108c34cdcc8e58e00ceb3d8305a3813dac04c")))
+                 "a4305f496efb64787d820e34d6418bfcbcbbed92")))
         (sha256
           (base32
-            "0k7lfwbw1nravpnawg3xl61bjyg9w57cxgxz59ribc7rd014aikk"))))
+            "118ydzhwqk0mrsvq5xkm4jlzi65vpnai7fvb6sm4pqh1z3hx4hln"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -80016,17 +80016,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20230711.1135")
+    (version "20230723.1340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "1773beeb23c43ce52428957814a2be62532870f8")))
+                 "73e2e7e950272c295436e4d862822526b90cde59")))
         (sha256
           (base32
-            "14f07irjbk3akc07a0y5awyflmhsxvj8gg67y81zp90danjkgvvr"))))
+            "18jx5d3sh7imq4p70724v3z28dm4pcyqyxm61wj58z6b6d2n14qd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -118050,17 +118050,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20230602.2121")
+    (version "20230723.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "a1575e58331b1ff85ac97667df0130ae822ccf5f")))
+                 "323d6b6c84e6ae55e578efa1efb6bb4d42a69cac")))
         (sha256
           (base32
-            "1aq4bb83pdkbkbqh6ba0r7sadaq45qqg2q5jlqyvsn8akcsq65iq"))))
+            "1l5pjq3iq6hmlc2zc30zhcvdf5l07778fvkg4b6qw8q0rl3a6mi5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -124715,17 +124715,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230721.946")
+    (version "20230723.1233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "1e04ab7aab15f1f50a752d2e846b707845e1f725")))
+                 "3e824e12c03d9e4019dd99b238160dc6a74771ae")))
         (sha256
           (base32
-            "16nxppsc4hqpd8z45rb5jqzqcc4474x1n4r3y6d6yvbbpxfxv1s1"))))
+            "1vypisg01wwzn0zpwdkcmvkymllkbmsmfz5mbs9rr760wvdl3k4a"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
