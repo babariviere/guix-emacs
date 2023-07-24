@@ -11946,17 +11946,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20230715.1529")
+    (version "20230723.2125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "a4efa0990a1423bbd61880e298d981f71d516a6c")))
+                 "314fb7791a5c4995a106b82124f7bf4abcda44eb")))
         (sha256
           (base32
-            "1qxrn0c8fcs5zr702hz2i8584268q2dlhwzizyykrl2ikrfx6afs"))))
+            "117xp6a64dnl996lc0l1nzqvqphd73iz94b7bfrp6azlrhjsgyg3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -12380,6 +12380,30 @@
       "Documentation at https://melpa.org/#/choice-program")
     (license #f)))
 
+(define-public emacs-chordpro-mode
+  (package
+    (name "emacs-chordpro-mode")
+    (version "20230718.345")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/chordpro-mode-"
+               version
+               ".tar"))
+        (sha256
+          (base32
+            "1l5rbcx74cq5hqghglijigvs3yqw5wn61m6khaniqs1ljdzxyfm6"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
+    (home-page
+      "https://git.sr.ht/~breatheoutbreathein/chordpro-mode.el/")
+    (synopsis
+      "Major mode for ChordPro lead sheet file format")
+    (description
+      "Documentation at https://melpa.org/#/chordpro-mode")
+    (license #f)))
+
 (define-public emacs-chroma
   (package
     (name "emacs-chroma")
@@ -12523,21 +12547,23 @@
 (define-public emacs-chronos
   (package
     (name "emacs-chronos")
-    (version "20150602.1529")
+    (version "20230718.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/dxknight/chronos.git")
+               (url "https://github.com/DarkBuffalo/chronos.git")
                (commit
-                 "b360d9dae57aa553cf2a14ffa0756a51ad71de09")))
+                 "9ca0d59cca7af98b44924646ae83fe0deb253c3b")))
         (sha256
           (base32
-            "1mqdz3rvx0jm80fgzw3s3lqn448kqrlrifdwcg36cqq4qmkpalq4"))))
+            "16gq3v81diydsxq3zfpcvxj4mxsk8cllmcb68l87h27vhkhya9x1"))))
     (build-system melpa-build-system)
-    (home-page "http://github.com/dxknight/chronos")
+    (propagated-inputs (list emacs-consult))
+    (home-page
+      "http://github.com/DarkBuffalo/chronos")
     (synopsis
-      "multiple simultaneous countdown / countup timers")
+      "Multiple simultaneous countdown / countup timers")
     (description
       "Documentation at https://melpa.org/#/chronos")
     (license #f)))
@@ -25307,17 +25333,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230624.1524")
+    (version "20230723.1639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "41dff2c9d9f6968f15afe7d710111b4340bc9b0d")))
+                 "6ea0051a3b25b0fb9fc67d826f37d82884e5ffb9")))
         (sha256
           (base32
-            "1ba0wky4vazir3idfbhrqn4ccdby6fywvgsn32apmiwsyvj51c7k"))))
+            "17iyvz14zd0812nzw82cwaxadfnavpbw6bqda7is1zs8ddsmj7x8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -26194,17 +26220,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230723.724")
+    (version "20230723.1618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "4a861c0d2e287ab9ef58909e09920a3410bcb91c")))
+                 "add6f57bec203388ad2cbb8cfda4a554df405c2b")))
         (sha256
           (base32
-            "0bj7agrlrlpzdd06rwxfnhffzn693gywjc74caizg9w2vk0acigb"))))
+            "1iiyf8ny8adkc8y6vc5pl257qc0mxwwm367k6xh1x3n0dgh44qc0"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -38099,17 +38125,17 @@
 (define-public emacs-finito
   (package
     (name "emacs-finito")
-    (version "20230225.1326")
+    (version "20230723.2023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/finito.el.git")
                (commit
-                 "c8143ff6d32d13f809688800e761250b113d1b0f")))
+                 "0da8032190b9bc20730d513bde63bba660878faa")))
         (sha256
           (base32
-            "05gwxb8w1d2kwp9yd7pcr7pqzmbal0yhkiwxqqf28m9j2vrcyn3n"))))
+            "139f0i08vhda0xj88mj7cxx0cmwkf6dn29yhffd08wr86gagdlsy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -39215,6 +39241,30 @@
     (synopsis "Integrate bashate with flycheck")
     (description
       "Documentation at https://melpa.org/#/flycheck-bashate")
+    (license #f)))
+
+(define-public emacs-flycheck-buf-lint
+  (package
+    (name "emacs-flycheck-buf-lint")
+    (version "20230719.1350")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/shuxiao9058/flycheck-buf-lint.git")
+               (commit
+                 "86a4f544af9b34f603000840a9bb6c5fbb42be48")))
+        (sha256
+          (base32
+            "1x0989462irj0xmzi03kk7z56hp1sppzsg73q3l1nr0g7zw73v8r"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-flycheck emacs-s))
+    (home-page
+      "https://github.com/shuxiao9058/flycheck-buf-lint")
+    (synopsis
+      "Flycheck checker for protobuf with buf.build")
+    (description
+      "Documentation at https://melpa.org/#/flycheck-buf-lint")
     (license #f)))
 
 (define-public emacs-flycheck-cask
@@ -71631,17 +71681,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230723.1231")
+    (version "20230723.1601")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "2c2b34d7ac8a595be68702e53ff6f77755bfcd52")))
+                 "f6f4b96b641a5af75e90b5431a32369ab0f664a7")))
         (sha256
           (base32
-            "1wlmms05vg82xy9nxi9qk0v43ij1dl978q6jg4mn64flybq9yv75"))))
+            "0g28q58z3a9p6vfd1fbh1rk538wac5xy2f9knsfd3bphzbisc2z5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -80016,17 +80066,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20230723.1340")
+    (version "20230723.1715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "73e2e7e950272c295436e4d862822526b90cde59")))
+                 "b8ed106a981a4460a378eaf8f131df72916af94d")))
         (sha256
           (base32
-            "18jx5d3sh7imq4p70724v3z28dm4pcyqyxm61wj58z6b6d2n14qd"))))
+            "0x7nr5zlff5qijaarz6zd0bc7y0zcrqd3pqdwvqydmz4cayyg2jl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -93867,17 +93917,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20230616.1919")
+    (version "20230723.1907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "73d2dedb81cb210d8ba79d60af7918d52cc37bf7")))
+                 "ffd1a72fb487d08a58f73a4358bf927c312fce33")))
         (sha256
           (base32
-            "1xc4v637gjr8zh4ldgiph4ap0yn4yjsqvcx4mpb1qwwdpyxa66m8"))))
+            "1sckhfi63d31d18a559bs9zwsrqz2p99fm78m100qgam42gfivpn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -114901,6 +114951,35 @@
       "Documentation at https://melpa.org/#/tablist")
     (license #f)))
 
+(define-public emacs-tabnine
+  (package
+    (name "emacs-tabnine")
+    (version "20230723.1913")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/shuxiao9058/tabnine.git")
+               (commit
+                 "c796978e62207987ff9d5359c25bef504c5be6c7")))
+        (sha256
+          (base32
+            "0m7sgnzqrj7ii8w8lcksj82vmp2wzc5fs63igpz0iw989l5chsdx"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-dash
+            emacs-s
+            emacs-editorconfig
+            emacs-vterm
+            emacs-language-id))
+    (home-page
+      "https://github.com/shuxiao9058/tabnine/")
+    (synopsis
+      "An unofficial TabNine package with TabNine Chat supported")
+    (description
+      "Documentation at https://melpa.org/#/tabnine")
+    (license #f)))
+
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
@@ -115450,6 +115529,29 @@
     (synopsis "Rewrite of Powerline")
     (description
       "Documentation at https://melpa.org/#/telephone-line")
+    (license #f)))
+
+(define-public emacs-teleport
+  (package
+    (name "emacs-teleport")
+    (version "20230723.2009")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/caramelhooves/teleport.el.git")
+               (commit
+                 "dc3dba6baa2ab6ca4ad172f532129df3f01cdfed")))
+        (sha256
+          (base32
+            "0x52vnrg7jwpch8mg2yxx1ngglfl4dmkp5y1ihfxmkq1zl0v703z"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-dash))
+    (home-page
+      "https://github.com/caramelhooves/teleport.el")
+    (synopsis "Integration for tsh (goteleport.com)")
+    (description
+      "Documentation at https://melpa.org/#/teleport")
     (license #f)))
 
 (define-public emacs-teletext
