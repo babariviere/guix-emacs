@@ -22302,17 +22302,17 @@
 (define-public emacs-devil
   (package
     (name "emacs-devil")
-    (version "20230726.1628")
+    (version "20230730.832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/susam/devil.git")
                (commit
-                 "a955bcbf1b193cb2e3449ed54c493a31126a3b74")))
+                 "1985300ce84abd712be93b271b27c3bdb164231d")))
         (sha256
           (base32
-            "1rk2mva6x7xzxr2j3mhyw0nnfx0y8cjjz5b9rskpa30j928iwm97"))))
+            "1pr9yf6f37sz5qy1snn8ag5bvg6lza7q635jh8jhaqqfp37jvv1y"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/susam/devil")
     (synopsis
@@ -26243,17 +26243,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20230709.2129")
+    (version "20230730.1153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "67da65f97d7f5477e19407d25887c23fab31517d")))
+                 "e91cd45b1bd0173e6d6a90079a86f13f2bfd79b7")))
         (sha256
           (base32
-            "1jrg3xkk6z78k1d9ilygzl9d6m0lx19h16p3w3jcif7qz30ffmag"))))
+            "0w2z4yss5918gj2vwzfv557190jlc33r5fdk9j2339s757mvmgbn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -31373,17 +31373,17 @@
 (define-public emacs-empv
   (package
     (name "emacs-empv")
-    (version "20230710.1828")
+    (version "20230730.932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/empv.el.git")
                (commit
-                 "13efdc5bc3fcd71dea14ce2bea15727cec66063e")))
+                 "7a57fa24e618b05dbc73f96d3a4679d3211a9f09")))
         (sha256
           (base32
-            "1zg9gknlfl3zs06dnh2qh9wv4c807h9y4rx61g4pk12081gnchz7"))))
+            "1bl1y3gpnb2mjqw6salm7i4r4n15b3cyg82pqf1r4havdndqymar"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/isamert/empv.el")
@@ -38125,17 +38125,17 @@
 (define-public emacs-finito
   (package
     (name "emacs-finito")
-    (version "20230723.2023")
+    (version "20230730.834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/finito.el.git")
                (commit
-                 "0da8032190b9bc20730d513bde63bba660878faa")))
+                 "b19bc85657c3d0d12a7f828b668cda23f1524fdb")))
         (sha256
           (base32
-            "139f0i08vhda0xj88mj7cxx0cmwkf6dn29yhffd08wr86gagdlsy"))))
+            "18rlb9wi1q0df89pvpl1xqzlgl8y0i13jjiamd83b27yz0f4zf8z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -51161,7 +51161,7 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20230730.702")
+    (version "20230730.716")
     (source
       (origin
         (method git-fetch)
@@ -63344,17 +63344,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20230728.1537")
+    (version "20230730.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "fe82400abbd324ceb6e3c4c2df1a619588021e8e")))
+                 "416b76abd9c3155797329c2204cf50e535ad566c")))
         (sha256
           (base32
-            "0chqgly24c6pz78573vncqryx5xz5xsvdf0jdw06lzrp1c7mnx7c"))))
+            "0j49mhy9xhm79b5pi64fl1gzlqcf0vw48kjww0d7xf7g76zq5a3c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -80041,17 +80041,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20230723.1715")
+    (version "20230730.1156")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "b8ed106a981a4460a378eaf8f131df72916af94d")))
+                 "b448e73689bdb8ca2cfd58a843c68213247d5803")))
         (sha256
           (base32
-            "0x7nr5zlff5qijaarz6zd0bc7y0zcrqd3pqdwvqydmz4cayyg2jl"))))
+            "19rnf7d126lbkxhycgmc9c49wcgl4drdmf520k6szicdv5pl8q3h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -91157,17 +91157,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20230714.545")
+    (version "20230730.1249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "b964062b47f614598ae8da664cfc33c0a5a19f2c")))
+                 "66f254f62c6f1ea3dd4016ed25da0b72c9c2f2c0")))
         (sha256
           (base32
-            "1khdpw1a051n33rpbg443g4vqk3l0v3j4l420jxx7hb21swc95h6"))))
+            "1m53v322037z5w5rdhkz6fi74rfmfglziln2lzh6nk0dxc0q7aj7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
