@@ -5680,17 +5680,17 @@
 (define-public emacs-autobuild
   (package
     (name "emacs-autobuild")
-    (version "20230628.2343")
+    (version "20230729.2356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/erjoalgo/autobuild.git")
                (commit
-                 "6f4673c72b8495275a0b59b9a4985a4d26b14a0f")))
+                 "dfe6cfd4566294b451d4a8caff65fe665729fc55")))
         (sha256
           (base32
-            "0nl4rxcbw3g1y418kqc2vqm21kjx0qcz2kw60ygkbm957zawhzrx"))))
+            "1akafsrgr628mzxbrw2aqcy8wkp5ipn963wh06sqbz91xrq6mgxz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-selcand))
     (home-page
@@ -17422,17 +17422,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20230702.819")
+    (version "20230729.2329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "fe49dedd71802ff97be7b89f1ec4bd61b98c2b13")))
+                 "be4fdb6246fb2cada13459fbabae5dd0553e1fd9")))
         (sha256
           (base32
-            "0a20rfqv2yfwqal1vx6zzg92qgr32p3rp7n6awnyb010jnykqszw"))))
+            "0h2rqpahfay4kk9gkq5agxmx4a8na2qm6ixkls6bnbrw411yykp8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -26220,17 +26220,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230728.1353")
+    (version "20230730.404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "da7b9b4223fa763f892dbbeb27d2709a9278817d")))
+                 "39a1b8d35480aec2b05a6804d2fba9fd71f13cfe")))
         (sha256
           (base32
-            "17rgw86xa2y40d41jc9if9z3zwpnwslf08zhy7m452p6246jjllc"))))
+            "016rsc3d4nm4p07h6b7ncbhwi7bbw4ln03knikj8j9y5c30k6hl7"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -36491,17 +36491,17 @@
 (define-public emacs-exunit
   (package
     (name "emacs-exunit")
-    (version "20221019.1320")
+    (version "20230730.445")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ananthakumaran/exunit.el.git")
                (commit
-                 "e0a8c2b81f3d53885ed753b911b3cb6ee9229bec")))
+                 "e008c89e01e5680473278c7e7bab42842e294e4d")))
         (sha256
           (base32
-            "1wwhb42q86730wn08iyv4538xhvjq62jpm79bxpr1dcanc9w0wab"))))
+            "17r5r01br7k3nxy7vchhk94dz0zyrdlg66ip5wlj1kh89xwprvsq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-f))
     (home-page
@@ -51161,17 +51161,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20230713.625")
+    (version "20230730.702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "6f0bad7c730b99f4702267355656655b8b10049d")))
+                 "7ef6080c69133b5f2141da356c553b04660a52bd")))
         (sha256
           (base32
-            "00y3pcbicnvdlpra9f64qgxhh2566c5m34j1xhmdq30c6ncfcbyb"))))
+            "0aqwa786z1my666xkqarl3k1j439cfjvqgwzmybfdcm20kzcb1ch"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -57557,21 +57557,21 @@
 (define-public emacs-howm
   (package
     (name "emacs-howm")
-    (version "20230715.848")
+    (version "20230730.534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaorahi/howm.git")
                (commit
-                 "5458e7d37a8db6de78a17adea81a2be6a8820cbe")))
+                 "a1effcaea96365ed97428d93624d1e0d987dea00")))
         (sha256
           (base32
-            "0w1bylq82i82ghlnfscsk2s8r8f31mwhxk20ll0aiw35jd831klr"))))
+            "1dsar6c1aql8rkyswvz5g5yysdlvhd0a2djiq45b047xiizcbmxc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "*.el.in"))))
-    (home-page "https://howm.osdn.jp")
+    (home-page "https://kaorahi.github.io/howm/")
     (synopsis "Wiki-like note-taking tool")
     (description
       "Documentation at https://melpa.org/#/howm")
@@ -114929,17 +114929,17 @@
 (define-public emacs-tabnine
   (package
     (name "emacs-tabnine")
-    (version "20230728.1332")
+    (version "20230730.321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shuxiao9058/tabnine.git")
                (commit
-                 "a0030ca330621ba128243efa2a375fdaa48c48a2")))
+                 "7e88eb1102695e1e495ccede6cad641e34927bf3")))
         (sha256
           (base32
-            "074prccpqq2k3237qklzp2ll06wb0k156hy05h9zcl8zfi7azv98"))))
+            "0qbkfxgxs2sgrx6mbmph7py2mmxqpwd8bq7finkapyb84iv7z74h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -124034,17 +124034,17 @@
 (define-public emacs-websocket
   (package
     (name "emacs-websocket")
-    (version "20230305.410")
+    (version "20230730.517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahyatt/emacs-websocket.git")
                (commit
-                 "1a08093b122d8cf20366a1cba5faddf7a53d08ed")))
+                 "a39ea953f27f6ae105ac5b1343852ddf13438048")))
         (sha256
           (base32
-            "0ji89vldf9axb34p0lwpwqb7x8qjgnk8c47k1gs71if8r1a76rph"))))
+            "03g472k7nv0w10ap1z0vvjiwwfmxzkl8nfh6jpcsbvr2c0n8bb7h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ahyatt/emacs-websocket")
