@@ -35760,17 +35760,17 @@
 (define-public emacs-evil-traces
   (package
     (name "emacs-evil-traces")
-    (version "20191214.558")
+    (version "20230731.212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mamapanda/evil-traces.git")
                (commit
-                 "290b5323542c46af364ec485c8ec9000040acf90")))
+                 "d4c53bd6addbe1bce7c77fdc10314f24451a2ecf")))
         (sha256
           (base32
-            "0dr4dc9gbavbfmij399ac09mb109fwpf1xkfk8g4xzmphh4chcnz"))))
+            "1aih7rb2cs1cdqvmncchv0hg1rv1q5y685a1hb0pv9acs5kcdjxm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
