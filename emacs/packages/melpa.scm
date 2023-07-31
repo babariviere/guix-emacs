@@ -15164,17 +15164,17 @@
 (define-public emacs-comment-dwim-2
   (package
     (name "emacs-comment-dwim-2")
-    (version "20210101.1820")
+    (version "20230730.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/remyferre/comment-dwim-2.git")
                (commit
-                 "7cdafd6d98234a7402865b8abdae54a2f2551c94")))
+                 "69415caa1a381063d3e794912dfe88f672854ab0")))
         (sha256
           (base32
-            "0f9gzgn4d2ir79nvv5vqhn4s4131dphzpfzfcb0iy4fx6mhmca5b"))))
+            "05ypgsdrgqj8105bvd17jn7w633y3ysbr5sgz33m7kj1ca7sl9ga"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/remyferre/comment-dwim-2")
@@ -16793,6 +16793,29 @@
       "company-mode completion backend for SourceKit")
     (description
       "Documentation at https://melpa.org/#/company-sourcekit")
+    (license #f)))
+
+(define-public emacs-company-spell
+  (package
+    (name "emacs-company-spell")
+    (version "20230723.2249")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/enzuru/company-spell.git")
+               (commit
+                 "455b54f95182ffbad229e25bbb0152a581e5cabd")))
+        (sha256
+          (base32
+            "1h4xbz4ycplpf4jgfh865wikkb1pn6ny7wz79342sasrjsbw8wms"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-company))
+    (home-page
+      "https://github.com/enzuru/company-spell")
+    (synopsis "Autocompleting spelling for Company")
+    (description
+      "Documentation at https://melpa.org/#/company-spell")
     (license #f)))
 
 (define-public emacs-company-stan
@@ -31770,17 +31793,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20230714.33")
+    (version "20230730.2121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "5acd45411b012b15ec1a042418c9024b091c3ad7")))
+                 "dfb66853b1dabdbcda1c4565db418a644968da7d")))
         (sha256
           (base32
-            "0h518056jgc61s3an0s829hdnjnfsfawq9ajhcj8yv2lsxx9idy1"))))
+            "0hs1zlknm9qv29dp2a5dmsygq7l531zbd91axn4f3wl2sb1bmx5c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -51502,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230729.510")
+    (version "20230730.1830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "4cfa25d930cf4084d46e58dc403c5a5b67782a23")))
+                 "255012f3d5702936117b2f9ef7e4568cedb31b3a")))
         (sha256
           (base32
-            "0h0k6zwg1gzybrjh7w7shzqilrda77p2ib1a653jlhhir3j3xdw0"))))
+            "0xcq9hrxindwyqw3sl1r4giylmkww9xxp56aa7r6gxz93s14yld0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -52263,17 +52286,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230725.527")
+    (version "20230730.1102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "4cfa25d930cf4084d46e58dc403c5a5b67782a23")))
+                 "255012f3d5702936117b2f9ef7e4568cedb31b3a")))
         (sha256
           (base32
-            "0h0k6zwg1gzybrjh7w7shzqilrda77p2ib1a653jlhhir3j3xdw0"))))
+            "0xcq9hrxindwyqw3sl1r4giylmkww9xxp56aa7r6gxz93s14yld0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -55830,17 +55853,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20230504.1546")
+    (version "20230730.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "32cb28b50b3366ad35e2cb936367268ddeec745f")))
+                 "6f8991a72c83d904725a9d6c00de2cabbef32de9")))
         (sha256
           (base32
-            "0lzja7piryk4lh51nv50fmiw9axzp2wp4k9b3ajygcmsrqqwqp32"))))
+            "14f1bdcpd8jq912d0rsyj9ajxf8p98rgyc7msx1c24wrknaspjh0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -59346,6 +59369,29 @@
       "Interactively flip between recently visited buffers")
     (description
       "Documentation at https://melpa.org/#/iflipb")
+    (license #f)))
+
+(define-public emacs-igist
+  (package
+    (name "emacs-igist")
+    (version "20230421.1033")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/KarimAziev/igist.git")
+               (commit
+                 "a4524c8de4f7f766b7f874233711ea6819f8b989")))
+        (sha256
+          (base32
+            "16nijjnqnchz135yfxiyr64v52mfzdd4ikxk8mi2h7px56hsljvx"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-ghub))
+    (home-page "https://github.com/KarimAziev/igist")
+    (synopsis
+      "List, create, update and delete GitHub gists")
+    (description
+      "Documentation at https://melpa.org/#/igist")
     (license #f)))
 
 (define-public emacs-ignoramus
@@ -70043,17 +70089,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20230712.1857")
+    (version "20230730.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "ff1e9bd19480aa664fed9375783a9792c8961dbc")))
+                 "32d833559100da489896e8791c9c6284ccb32ea5")))
         (sha256
           (base32
-            "07yvllpdckxbhhp17z937w5iizmg88523jcdmx2k6b6n84qyc8iv"))))
+            "021363pgvapvmb08dy0x6m4lb8bvd6nvwix075hm7hxg03a9kvkb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -79388,6 +79434,28 @@
       "REST Client for Nexus Maven Repository servers")
     (description
       "Documentation at https://melpa.org/#/nexus")
+    (license #f)))
+
+(define-public emacs-nezburn-theme
+  (package
+    (name "emacs-nezburn-theme")
+    (version "20230726.600")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/lanjoni/nezburn.git")
+               (commit
+                 "696fdcb47139fd54329638c6358f198b5e421228")))
+        (sha256
+          (base32
+            "1hw8w38rkrrz0snkj2vsyad54l2gl7p4lrkv57crfryxwrnvvv1b"))))
+    (build-system melpa-build-system)
+    (home-page "http://github.com/lanjoni/nezburn")
+    (synopsis
+      "A low contrast color theme for Emacs (inspired by zenburn).")
+    (description
+      "Documentation at https://melpa.org/#/nezburn-theme")
     (license #f)))
 
 (define-public emacs-ng2-mode
@@ -93892,17 +93960,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20230723.1907")
+    (version "20230730.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "ffd1a72fb487d08a58f73a4358bf927c312fce33")))
+                 "38fd6ec205a02ccad6b3006afef0988e380adfa6")))
         (sha256
           (base32
-            "1sckhfi63d31d18a559bs9zwsrqz2p99fm78m100qgam42gfivpn"))))
+            "11i9mr2bmqqd5wryg24im86f287g94yva359rg0szm1fmxgrxw8z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -108903,17 +108971,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20230707.1938")
+    (version "20230730.1734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "ba3d0794e7b2eb7b539fedd8109904b1fb4512a8")))
+                 "1e4b7417a1ade842ba4938f66445af68a93176b9")))
         (sha256
           (base32
-            "05xfap184d623xkv5k5nqvfg17cljc9r6hqw63agrsapzc0wdnnp"))))
+            "17fs4wjplcxwbgsqzawwnw45xw6rdyyqk3f7dqck7pfazpzziizp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -115858,6 +115926,30 @@
       "Documentation at https://melpa.org/#/term-manager")
     (license #f)))
 
+(define-public emacs-term-project
+  (package
+    (name "emacs-term-project")
+    (version "20230724.1651")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/IvanMalison/term-manager.git")
+               (commit
+                 "31a3d16ba5a4f9e6f4bc52275eaedf55a96154a8")))
+        (sha256
+          (base32
+            "1c2fxsqfvyh0g77vsjc7qmpfc8d5vnwlxkb1gah57i6sri5c8hj0"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-term-manager))
+    (arguments '(#:files ("term-project.el")))
+    (home-page
+      "https://www.github.com/IvanMalison/term-manager")
+    (synopsis "Terminal management for project.el")
+    (description
+      "Documentation at https://melpa.org/#/term-project")
+    (license #f)))
+
 (define-public emacs-term-projectile
   (package
     (name "emacs-term-projectile")
@@ -117556,22 +117648,22 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230422.1801")
+    (version "20230730.1922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "2fcf494fe5f3f292bb5dab180fe2dbfdcc75249e")))
+                 "b926f4a5891be2428489601b0de7e475dd1b697d")))
         (sha256
           (base32
-            "0msxvxy8vhv2i596k6g3y965f371s7p03hm02k457kv32xnxi335"))))
+            "0cyy5jnm767c5vavsjhds4ar2zfs8h8gvf3kkjmg4ip64qlmygw2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
     (synopsis
-      "Minimal light monochromatic theme for Emacs in the spirit of Zmacs and Smalltalk-80")
+      "Minimal light monochromatic theme for Emacs in the spirit of Zmacs and Smalltalk-80.")
     (description
       "Documentation at https://melpa.org/#/tok-theme")
     (license #f)))
