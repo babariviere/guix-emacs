@@ -46329,17 +46329,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20230521.2344")
+    (version "20230731.908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "24f64fd4f8ed4a4a302fd9227febad63507d7287")))
+                 "6d300bfe3606350da804c1a2c11b3f0ab7a7f4af")))
         (sha256
           (base32
-            "0fq2889954yxrf7lbjjijqll6m39sa73q2kw8vzgm908fpz8114j"))))
+            "0qsq13kjsksscdhzhc8m1r79klijdbfcvvz1bk9411w4p0m1pwh8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -70774,17 +70774,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230731.1359")
+    (version "20230731.1744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "55106f014c2cec4a8dec0ea1c37d2eb48d1a8ab7")))
+                 "7d6e3af6b7562664cfee6bbafb2bdd9643fc88c4")))
         (sha256
           (base32
-            "0pdhdsfpc0bb6g0l399nw8sdvkch4gjhrq4ipp76ig1gwlxzmfx0"))))
+            "1vwyb7vf9v07kz3rgpkn6bf7n7gn7ya4pkjczpfq6fh6khbirlv0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -70951,17 +70951,17 @@
 (define-public emacs-lsp-python-ms
   (package
     (name "emacs-lsp-python-ms")
-    (version "20211204.1209")
+    (version "20230731.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-python-ms.git")
                (commit
-                 "abf4d89ecf2fa0871130df5fce6065b7cf0a2721")))
+                 "7bda327bec7b219d140c34dab4b1e1fbd41bc516")))
         (sha256
           (base32
-            "1cad09y36bf97mhgg7xncf4m856ys8n7zlbsgag5h5rja1ha71nl"))))
+            "1i7l06cw25fb202fbhqhx8xyfynz6sinka9ybh8n4cxjq19ffm8b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -71702,7 +71702,7 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230731.912")
+    (version "20230731.1514")
     (source
       (origin
         (method git-fetch)
@@ -103351,17 +103351,17 @@
 (define-public emacs-rhq
   (package
     (name "emacs-rhq")
-    (version "20220916.1632")
+    (version "20230731.1544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/rhq.git")
                (commit
-                 "7d9c5dee2e493eb0c5d41afca1b6049de8c2a26d")))
+                 "9f571787bf0781c78c277db82394fb9a692ec21e")))
         (sha256
           (base32
-            "0nyjdl2isx4fvfr1vh8dgpm7w1vjc9n3d63gy9lgbrr0gcby16f9"))))
+            "15177ds2v87g19nm7hphv8mvfkwqvmmvb4q69y85xh28v8vmpxf0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ROCKTAKEY/rhq")
     (synopsis "Client for rhq")
@@ -113886,17 +113886,17 @@
 (define-public emacs-sway
   (package
     (name "emacs-sway")
-    (version "20221211.1439")
+    (version "20230731.1819")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/sway.el.git")
                (commit
-                 "117eb40691e7a4d2dcd6b5a7fd9f803c7d42c32c")))
+                 "be38a30e41ea1d1ac670679c7e890cff6204f581")))
         (sha256
           (base32
-            "08jjwh2d1hjbbv493qgaznxjhjhm7ama27wcnaag6mics7ivn59n"))))
+            "05gav2vqymfybr613k1c42brk2n7sqnvfzfd1a3cs8hjsx07wr2c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/thblt/sway.el")
