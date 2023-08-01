@@ -26243,17 +26243,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230730.404")
+    (version "20230801.403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "39a1b8d35480aec2b05a6804d2fba9fd71f13cfe")))
+                 "271d9c06ecdfadf19e0eaa788c8b90626090d4c1")))
         (sha256
           (base32
-            "016rsc3d4nm4p07h6b7ncbhwi7bbw4ln03knikj8j9y5c30k6hl7"))))
+            "1qssz8crzj5q8c6r4fd90ynl5jsi7drq6pkmv0a82kllzvrqvqrq"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -52286,17 +52286,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230731.958")
+    (version "20230801.522")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "c859db76283068a38270cd833d1b84e2fec3683c")))
+                 "35b293c2a2297bb23c7e11ccb610386dd4c11f2e")))
         (sha256
           (base32
-            "1l782185b4kbl5gadyabvf6nlbnj0y5bavq8fxx23gyvk5ymqd81"))))
+            "1cipisvhbkx65f5nd3zxxf14972k2vihsxx5w557mhwlsdgly23m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -57051,7 +57051,7 @@
 (define-public emacs-hl-indent-scope
   (package
     (name "emacs-hl-indent-scope")
-    (version "20230626.633")
+    (version "20230801.344")
     (source
       (origin
         (method url-fetch)
@@ -57061,7 +57061,7 @@
                ".tar"))
         (sha256
           (base32
-            "120c8jwj34wwj1bfijxssip9q3n5yhn3fnyj03x0dfi84h1sczlm"))))
+            "1mpxx6r6b4jqxn0gd14wzavpkkzy5n7ghqv6cb594q3xv4pscnhs"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
@@ -74164,17 +74164,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20230712.1632")
+    (version "20230801.37")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "4ab409f51b3fe6306edd48135f455646ae2a9a42")))
+                 "5af47984895fb7b9a5a65a8d919ba62680a975da")))
         (sha256
           (base32
-            "1qvy5m8zqa3qpb8bccl9fbnrckxw7c2riv3n43ahm7gss5wgag3p"))))
+            "0q0yyhqrmvxqf4kw37rk9a44csyb2w88xw19z2r2w04lflp9qs8d"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -111467,17 +111467,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230728.108")
+    (version "20230801.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "1c2480b5a3e2cc23ecc87dd2aa1c107c2fddacb7")))
+                 "1108679041fad34229558ba9b969d2a1cfe189ed")))
         (sha256
           (base32
-            "0nkjr591klff8z1i6lcpmyxygc8a7b5lj1q4n849wl5r44800k34"))))
+            "1mf8m92drpis8a97x8wq69z6qnvp27025xqbsvdflc557qlkp42z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -114997,17 +114997,17 @@
 (define-public emacs-tabnine
   (package
     (name "emacs-tabnine")
-    (version "20230731.1441")
+    (version "20230801.219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shuxiao9058/tabnine.git")
                (commit
-                 "c1ef4cc5d51542b0201e74feb1c2330fab4781f1")))
+                 "ea7a6caea7061df61fbd03f9bc9ed4974cf4a1f9")))
         (sha256
           (base32
-            "0wdq4kp3hd0pb9rndjwi6a5pl8ikzfzgmjcdn05kznh8bkh5rfwi"))))
+            "18adl4sgsmvzsy454rxkhx9dbmqz9k6s26sbyc76dldzlpam0jvq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -123266,17 +123266,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20230324.125")
+    (version "20230801.18")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "f8819bca0c97970662cd4214f8f3104ab4a376c1")))
+                 "1388eadc914bed79b0e06a6565388c5e8aff8014")))
         (sha256
           (base32
-            "1yk41h28cbi5qfh4jx173f83f73anf3imwfqary58yq159n47im8"))))
+            "09l3mllq7p56r3srlfiyry4qgvpl5vijc63ccqpigdlzy758p8r1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
