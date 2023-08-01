@@ -13559,17 +13559,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20230726.1357")
+    (version "20230801.1030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "1fdc95a479406a83865d06f43122354c0dd2b93f")))
+                 "a0f488206290acd83315f6d22171dcb9e671b7e7")))
         (sha256
           (base32
-            "1c7ndc81j3pljgf7n188f3mm6vm3gyiplh4mnb4y5wbkbnpiwgdc"))))
+            "0ix028ca8s9m0az4mpvfj4gcdn3xqmhbc9bbymvy4y40g7kkf71q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -25356,17 +25356,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230726.1624")
+    (version "20230801.907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "59c18bc343b850617c4eaddc0d3a696bed9cdc80")))
+                 "cb3234dab4ef2aa30e39143dc9e56ab2ce1f3e64")))
         (sha256
           (base32
-            "1mqfghlz189a3zfy7djar1v9rfnzq2l93k160cdz1x16jqzzaa2g"))))
+            "1055i46w8445kc6b12zb6y0wwmfhclr93kbihrffbw7wjf0kbhs8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -51525,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230731.958")
+    (version "20230731.1852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "c859db76283068a38270cd833d1b84e2fec3683c")))
+                 "fef7bb1d282079fa3bb3c8457f053270b3502776")))
         (sha256
           (base32
-            "1l782185b4kbl5gadyabvf6nlbnj0y5bavq8fxx23gyvk5ymqd81"))))
+            "0f2vdkgdm1vri75sl86yvc5paaw7r6v9d47w775qbdv4psq87lqn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -66149,17 +66149,17 @@
 (define-public emacs-kkp
   (package
     (name "emacs-kkp")
-    (version "20230728.1412")
+    (version "20230801.851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/benjaminor/kkp.git")
                (commit
-                 "86086ec13a489ac0300feaa0ae695f361c985abf")))
+                 "18e3b1b73fddd234176a7e6633da67c30d13d107")))
         (sha256
           (base32
-            "1isi7v6qnrqn3s5z57l701hpz6jdcjfcjz6pjwq6rcdggj589hah"))))
+            "01f286547d8g1l084i6yym6p2q6p8frwhm0cvmgfml9sj6fymv3h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/benjaminor/kkp")
@@ -70589,17 +70589,17 @@
 (define-public emacs-lsp-java
   (package
     (name "emacs-lsp-java")
-    (version "20230615.614")
+    (version "20230801.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-java.git")
                (commit
-                 "2fe0ba5cb61c0defe7a1f61f759213a9c7176fbe")))
+                 "79882a2d2956c00a15b9497903ba0cc4da754cba")))
         (sha256
           (base32
-            "1iznmpg83iw8w5rl032yvv1m933jiy9wjjliql3haybij3f6gxq7"))))
+            "1nifbr9pg75x3f4npp6lyy59j8r61r7sga536yn3afk6wf75kip9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -79066,17 +79066,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20230709.4")
+    (version "20230801.747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "a83d47f6dc4db0ae2f38c0c534de58f02285cea6")))
+                 "60ed056a72a4a93e75be32d4727be047eb2bce40")))
         (sha256
           (base32
-            "0l9657dg1c2bj25a7qnmshzmsmfl1m4mhx1x0b3v9k6r4gqp68qa"))))
+            "1l5ns4fhqpzxw09x87xbxkvwpmsrldh0735ka432z2pczgnpqn71"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -80109,17 +80109,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20230730.1156")
+    (version "20230801.1005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "b448e73689bdb8ca2cfd58a843c68213247d5803")))
+                 "fcfd51fbdf08469e6d1b59bc4bd2d75aa708c791")))
         (sha256
           (base32
-            "19rnf7d126lbkxhycgmc9c49wcgl4drdmf520k6szicdv5pl8q3h"))))
+            "190lhzqdn4681frk0ih519c3riwxc6mz16q3bisl3l7brsp1rgwj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -115646,17 +115646,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20230702.801")
+    (version "20230801.910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "fd46702a849b23c9d9b39cb7810a6d727655d9d0")))
+                 "eece42f153487238a6745e0ce2e57a606669bc17")))
         (sha256
           (base32
-            "10dcf56x74jrbdzaa9kphyzq2rz5alv800dnnzpbnvwzh29lfyka"))))
+            "1cc087a58x84jwr14ac8hn7hjhhb1bpp8xbwba553y91ldxbqww1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/tempel")
@@ -124859,17 +124859,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230731.1101")
+    (version "20230801.639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "1e4d001497f99595065741b1ef7234f13f2ac77a")))
+                 "698a07a758e563a83534709259f860051ca52c39")))
         (sha256
           (base32
-            "131ss745xiy0ld1inn780rzy8k4nim0hd8xq4xmphx4pi1bi5axc"))))
+            "0qpklnwzsxwy3kxxd7399l4kmjvg2brn8slmnxynkg981rbghbw5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -124884,17 +124884,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230731.1101")
+    (version "20230801.639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "1e4d001497f99595065741b1ef7234f13f2ac77a")))
+                 "698a07a758e563a83534709259f860051ca52c39")))
         (sha256
           (base32
-            "131ss745xiy0ld1inn780rzy8k4nim0hd8xq4xmphx4pi1bi5axc"))))
+            "0qpklnwzsxwy3kxxd7399l4kmjvg2brn8slmnxynkg981rbghbw5"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -127535,7 +127535,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230720.1218")
+    (version "20230801.1357")
     (source
       (origin
         (method url-fetch)
@@ -127545,7 +127545,7 @@
                ".tar"))
         (sha256
           (base32
-            "0yzzs64l8m92vjx5ps4cl7r51sjzil13v5xcxmywmr7saai83mwn"))))
+            "1rz8bbwzdhb6gnq8202qqjk9y5lr11nbira9v15nqpnqyd9l505d"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
@@ -127672,17 +127672,17 @@
 (define-public emacs-yoshi-theme
   (package
     (name "emacs-yoshi-theme")
-    (version "20230629.647")
+    (version "20230225.740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ryuslash/yoshi-theme.git")
                (commit
-                 "69681fffe9350ebfab6263af97b539f24afb3521")))
+                 "ba9427329ac49fa2e060da2c16507feed62ad890")))
         (sha256
           (base32
-            "0kbnp565b12ilmwk0chwzj4r9jv79pkdcasmfz63f10bglffqk45"))))
+            "0f57qz8fxn4bncmd8ak9n0s8h4b0kba7nfmkb475djlhn2n2xxl9"))))
     (build-system melpa-build-system)
     (home-page
       "http://projects.ryuslash.org/yoshi-theme/")
