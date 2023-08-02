@@ -12614,17 +12614,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230726.1206")
+    (version "20230801.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "cc31f5b28a702238e56250535c71c180fb2bbda6")))
+                 "be224e371f8b50d9870d2bac18b1c55eea3862bd")))
         (sha256
           (base32
-            "00h08ngx4ng775ap0fmnni13wdf3pxcgj76cvnlin6s06bvxx0d9"))))
+            "0l9hgvxda4vfri1bf1pvxdpwv8kxp4azmsf1f0q3mkjagrrgird5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -28683,17 +28683,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230726.1748")
+    (version "20230801.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "ab04c94dda0bdb8b665509ec178b0b0878e6dc4a")))
+                 "cd0c4107389f61f7d01c6a4006490ed1b80f36e2")))
         (sha256
           (base32
-            "09bd110j4c218slrramzf9bd004snxcwcfkp5valgj37wkp80i6g"))))
+            "0nj0gv5jb1ilxcmakis9386qsss0202ki7913bcc0fjkxzaqmwl8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -30826,17 +30826,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230716.2345")
+    (version "20230801.2002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "9a44418c349e41020cdc5ad1bd21e8c77a429062")))
+                 "5b56203a4511e434ee5c200f90775f0ea6d0c94b")))
         (sha256
           (base32
-            "1xriqj6h60j7l2zh8v0l73j0gm76j4m1070n9wkfq6h0c64m5i8m"))))
+            "0p5y43d6nnx0946bbv6375wsl2j8xblxl3lnccqhn6y9lmf9py5c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -50744,17 +50744,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20230728.1243")
+    (version "20230801.1740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "e63332498940d6a5337c2d64f9db496a2a6de56f")))
+                 "a27d46040c02dfb0475e65f13ce631bc6dae2eb9")))
         (sha256
           (base32
-            "0gyx1y53ag763apizdcb7c4kpzs27bk1mzcisw7lpncpw9ckkgrw"))))
+            "0i4rk2j0v4bc18wwbxck3p4mq0sv0ag9sgb1k3hvbnbx8ba2rval"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -51525,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230731.1852")
+    (version "20230801.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "fef7bb1d282079fa3bb3c8457f053270b3502776")))
+                 "e3894ebff930329e16c7e1cc440dc8008c657dd3")))
         (sha256
           (base32
-            "0f2vdkgdm1vri75sl86yvc5paaw7r6v9d47w775qbdv4psq87lqn"))))
+            "1fsxpp5a6zlqjjinwh2062f8bp682h4wfjhs8vjvshjcyrcv393g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -66149,7 +66149,7 @@
 (define-public emacs-kkp
   (package
     (name "emacs-kkp")
-    (version "20230801.851")
+    (version "20230801.1603")
     (source
       (origin
         (method git-fetch)
@@ -70774,17 +70774,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230731.1744")
+    (version "20230801.1638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "7d6e3af6b7562664cfee6bbafb2bdd9643fc88c4")))
+                 "2346840947b833b351d74056a86a8f1fb124d22f")))
         (sha256
           (base32
-            "1vwyb7vf9v07kz3rgpkn6bf7n7gn7ya4pkjczpfq6fh6khbirlv0"))))
+            "14jkwi5xy9zv5k8k9iq47rchmgnrr6lblmp2zhl0ayg9f5ldiljk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -94156,17 +94156,17 @@
 (define-public emacs-phpunit
   (package
     (name "emacs-phpunit")
-    (version "20230124.743")
+    (version "20230801.1523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nlamirault/phpunit.el.git")
                (commit
-                 "4a36906344c0abc11f48cc08cd8d50a9f46963f8")))
+                 "e5baa445363942fbd9898ac3cb91eea64b69d316")))
         (sha256
           (base32
-            "03a9brby841kqyjqpyxxxvh60hcqa0ly4yc4flawbvnvm7rm7bv3"))))
+            "08wi2vcx95a4dczx4176hl071hdk59l416aw79rzjgv559qmnmra"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-f emacs-pkg-info))
@@ -96052,17 +96052,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20230520.2129")
+    (version "20230801.2345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "809ec965d8f6f74ce408e3a8b5974b43371c1528")))
+                 "6a4bb8c403692472944cc12535483bcd6c2839e9")))
         (sha256
           (base32
-            "1sn6dwa0qgwcaf9fx62n47jbnybip9zdmp5sfcwv638pdk25mdyl"))))
+            "0axxzv4lq5pyz48j8m8s5b5qp7alxvsxpfr1afxcv1qbv6yqfvvm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -127535,7 +127535,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230801.1357")
+    (version "20230801.1745")
     (source
       (origin
         (method url-fetch)
@@ -127545,7 +127545,7 @@
                ".tar"))
         (sha256
           (base32
-            "1rz8bbwzdhb6gnq8202qqjk9y5lr11nbira9v15nqpnqyd9l505d"))))
+            "0smds65vbmw4nvqa2zdq0dfy56fnqky2msqadzyn4jrgypbvglb8"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
@@ -127672,17 +127672,17 @@
 (define-public emacs-yoshi-theme
   (package
     (name "emacs-yoshi-theme")
-    (version "20230225.740")
+    (version "20230801.728")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ryuslash/yoshi-theme.git")
                (commit
-                 "ba9427329ac49fa2e060da2c16507feed62ad890")))
+                 "8faa406152f76452bda765ed4dafd41cd67f3afb")))
         (sha256
           (base32
-            "0f57qz8fxn4bncmd8ak9n0s8h4b0kba7nfmkb475djlhn2n2xxl9"))))
+            "0bb5mf194iw72w7zcvs9jmlxx5ngvslx5i6c6rna9bj3y0zm8jlb"))))
     (build-system melpa-build-system)
     (home-page
       "http://projects.ryuslash.org/yoshi-theme/")
