@@ -12614,17 +12614,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230801.1652")
+    (version "20230802.1233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "be224e371f8b50d9870d2bac18b1c55eea3862bd")))
+                 "b217386ec2f45a4e967a8039b29cc68758b5409e")))
         (sha256
           (base32
-            "0l9hgvxda4vfri1bf1pvxdpwv8kxp4azmsf1f0q3mkjagrrgird5"))))
+            "0zdabb92cbjv2c7walpghxp0dc5njbwz48h9v10c948531mpf1vk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -50744,17 +50744,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20230801.1740")
+    (version "20230802.729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "a27d46040c02dfb0475e65f13ce631bc6dae2eb9")))
+                 "522948af6b7d562d70e366dfce152464f058b8ea")))
         (sha256
           (base32
-            "0i4rk2j0v4bc18wwbxck3p4mq0sv0ag9sgb1k3hvbnbx8ba2rval"))))
+            "0wyqagjlqnd8r40k33s5h5lm3fclgaaws48crigprf6rs307hqvm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -51525,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230801.1643")
+    (version "20230802.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "e3894ebff930329e16c7e1cc440dc8008c657dd3")))
+                 "88e4d1aed391c5e3e88dcdc8ebd02dc585c092b5")))
         (sha256
           (base32
-            "1fsxpp5a6zlqjjinwh2062f8bp682h4wfjhs8vjvshjcyrcv393g"))))
+            "0ir5ah8pnvdqn356yav28ac2b20shs2ng01yyyjfk682cr600067"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -59258,17 +59258,17 @@
 (define-public emacs-idris-mode
   (package
     (name "emacs-idris-mode")
-    (version "20230210.2150")
+    (version "20230802.854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idris-hackers/idris-mode.git")
                (commit
-                 "c96f45d1b8fad193f09fb6139da17092003b5e74")))
+                 "37c6b819903191acd85c56ef6f7ccf579b57eea4")))
         (sha256
           (base32
-            "02i8x6la2pyln1aspgc7aph052ibhhaigrbkrz4d030x5g126rs2"))))
+            "1m01n454rsj32w4pvg5y2c9jh88agf81w4x3fmvknjqncx9f1mv8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-prop-menu))
     (arguments
@@ -65895,17 +65895,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230729.227")
+    (version "20230802.655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "b32673db8ebd295a24d8d5e6e0ad77eea33db3b2")))
+                 "d00f51b531250f69f2c4987368053708f268602b")))
         (sha256
           (base32
-            "12sgj60bqssqgwqlrmb4ffims7158bpwx8hdp1qny31sbigbqs09"))))
+            "1b52gm6na4d3z4kyc21129p5f3bs3swxyzykfclf9yxslms8r487"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -83825,17 +83825,17 @@
 (define-public emacs-opam-switch-mode
   (package
     (name "emacs-opam-switch-mode")
-    (version "20230726.2041")
+    (version "20230802.917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ProofGeneral/opam-switch-mode.git")
                (commit
-                 "ab460078f9cd71f4989f2b11eb4e4dd05545f20a")))
+                 "1069e56a662f23ea09d4e05611bdedeb99257012")))
         (sha256
           (base32
-            "1mifl3fvl0zkn6af9rcxrv4xjvh02syap54nnsi2kvd7g5ajl8sh"))))
+            "1nqw4qjqdklgnl4pj6n95miyhvcmhs36d37yqd65dkyjc5s6dd1z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ProofGeneral/opam-switch-mode")
@@ -84246,17 +84246,17 @@
 (define-public emacs-org-ai
   (package
     (name "emacs-org-ai")
-    (version "20230623.34")
+    (version "20230802.1245")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rksm/org-ai.git")
                (commit
-                 "b10f20b8e9fd00e7cfad3a5ebe0e5756de666354")))
+                 "2066e6ddb3804b63616de15e2fb6b716ab5809e0")))
         (sha256
           (base32
-            "18xazmln7livn25bwngzwdnq0caibcsvqndrskxrikn4n16ksqfy"))))
+            "0r8hpfakm6wjxip8yzqj2g5bz1dv5hd06mw17acyga7m2vv1pkfr"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "snippets")))
     (home-page "https://github.com/rksm/org-ai")
@@ -127535,7 +127535,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230801.1745")
+    (version "20230802.1357")
     (source
       (origin
         (method url-fetch)
@@ -127545,7 +127545,7 @@
                ".tar"))
         (sha256
           (base32
-            "0smds65vbmw4nvqa2zdq0dfy56fnqky2msqadzyn4jrgypbvglb8"))))
+            "0bv8gsvjsc271g0035dpnm3zhr04mmm2s8iwrbxn4rn8m3pamg5p"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
