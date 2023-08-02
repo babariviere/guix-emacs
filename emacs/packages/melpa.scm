@@ -4309,17 +4309,17 @@
 (define-public emacs-astro-ts-mode
   (package
     (name "emacs-astro-ts-mode")
-    (version "20230626.1250")
+    (version "20230802.437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Sorixelle/astro-ts-mode.git")
                (commit
-                 "da4d4078ee9a5df01d2b02626d47cbe779543e19")))
+                 "207e5da093aa8141b9dd2f5e98afd8952832b4b0")))
         (sha256
           (base32
-            "11z9jqjnfkhmg09b4gnlchhg9bvdj168sy43nngpcdkp4ywcxlw8"))))
+            "0yfz5xdpwzbpihbnm5kixmjpqcmj86h6lm71ji8vzq044rassfga"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Sorixelle/astro-ts-mode")
@@ -45031,17 +45031,17 @@
 (define-public emacs-gap-mode
   (package
     (name "emacs-gap-mode")
-    (version "20230616.2129")
+    (version "20230802.108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/gvol/gap-mode.git")
                (commit
-                 "4698803808a73265fef2de1b5b44b63b38e3607f")))
+                 "643f8a26ea1fe6aa3390c95e257718ed6b0b2149")))
         (sha256
           (base32
-            "03k6dzb8522ihyphhbvjcqmxfwwaj6zcg2bgkykmra8c8r0cna5m"))))
+            "1yrdgm72wii9i9sa6hdmg7im0yg0jagyf9jg5x56csiz3dh81ywz"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "emacs.gaprc")))
     (home-page "https://gitlab.com/gvol/gap-mode")
@@ -84151,17 +84151,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20230219.1648")
+    (version "20230802.218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "e6784026717a8a6a7dcd0bf31fd3414f148c542e")))
+                 "6936fe46ef07df168a423f04efeda130b4e69753")))
         (sha256
           (base32
-            "0rd6ajsjqjbfkxnbfnbpacwwwka5z49l2am54rpk0w49jk8gsidm"))))
+            "0irmid327qanjgp7x80zc1cm1v0ib6g1kli4kbm4gnfsq2fkybd9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -96052,17 +96052,17 @@
 (define-public emacs-popper
   (package
     (name "emacs-popper")
-    (version "20230801.2345")
+    (version "20230802.238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/popper.git")
                (commit
-                 "6a4bb8c403692472944cc12535483bcd6c2839e9")))
+                 "a93ff38ab648eefa1a8eca393b0a357ff41411a0")))
         (sha256
           (base32
-            "0axxzv4lq5pyz48j8m8s5b5qp7alxvsxpfr1afxcv1qbv6yqfvvm"))))
+            "1ib4516jd87jgfi0f8n1r9m71xpb5cx5l8djbv1sswkcb95c7n4m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/popper")
     (synopsis "Summon and dismiss buffers as popups")
@@ -124859,17 +124859,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230801.639")
+    (version "20230802.530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "698a07a758e563a83534709259f860051ca52c39")))
+                 "7d4a504a177fd52b860fe1bd84cb00d1fe7904b3")))
         (sha256
           (base32
-            "0qpklnwzsxwy3kxxd7399l4kmjvg2brn8slmnxynkg981rbghbw5"))))
+            "1apl022ijyiwpvb1iqpjmx4amjgk45rjrn39ic22cjcqgwbr1s7c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -124884,17 +124884,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230801.639")
+    (version "20230802.530")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "698a07a758e563a83534709259f860051ca52c39")))
+                 "7d4a504a177fd52b860fe1bd84cb00d1fe7904b3")))
         (sha256
           (base32
-            "0qpklnwzsxwy3kxxd7399l4kmjvg2brn8slmnxynkg981rbghbw5"))))
+            "1apl022ijyiwpvb1iqpjmx4amjgk45rjrn39ic22cjcqgwbr1s7c"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -127672,17 +127672,17 @@
 (define-public emacs-yoshi-theme
   (package
     (name "emacs-yoshi-theme")
-    (version "20230801.728")
+    (version "20230801.1741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ryuslash/yoshi-theme.git")
                (commit
-                 "8faa406152f76452bda765ed4dafd41cd67f3afb")))
+                 "384fd8e70e8f7613dd1bdf6be11b61f258e9bef8")))
         (sha256
           (base32
-            "0bb5mf194iw72w7zcvs9jmlxx5ngvslx5i6c6rna9bj3y0zm8jlb"))))
+            "1gpy01ikn7llbhkphlx7580z89i6mprj20kv328krjisnnxnhk4c"))))
     (build-system melpa-build-system)
     (home-page
       "http://projects.ryuslash.org/yoshi-theme/")
