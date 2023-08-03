@@ -25356,17 +25356,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230801.907")
+    (version "20230803.1452")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "cb3234dab4ef2aa30e39143dc9e56ab2ce1f3e64")))
+                 "bcf99afdf258068869422da421294bdf9052712f")))
         (sha256
           (base32
-            "1055i46w8445kc6b12zb6y0wwmfhclr93kbihrffbw7wjf0kbhs8"))))
+            "1pjjcm5q6j09m81ncf96psbjd8r05b87f18b9i27l7a69ljx54hk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -30139,17 +30139,17 @@
 (define-public emacs-elpy
   (package
     (name "emacs-elpy")
-    (version "20230719.1452")
+    (version "20230803.1455")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/elpy.git")
                (commit
-                 "2cef7e348badc2be43a5df6a71a50bea5b0464b5")))
+                 "7ff8ffa918411887d165764f7a5a12bc46646e73")))
         (sha256
           (base32
-            "0zp8i1n3y9nxka7laj5r80q8047gw5as2ki6kp2lrg5vnf73z66b"))))
+            "0lh8w5a1abxaa7lf1c4yzgr0sh9szcwdnwd8w2004hv6mrcmyqc6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company
@@ -31677,17 +31677,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20230622.1605")
+    (version "20230803.1124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "6389a8f5b8903bdeb2abfa289c010971f67e4176")))
+                 "a763eadd28df8078d4331fa1dc71eb8a09ae4582")))
         (sha256
           (base32
-            "11k0i3zrskqsxx9gan62pw3sl0r39glx8082cr49yl3bd4az4a6w"))))
+            "0nn38d39378fshsvfyjc0g9k6jfzwnjvdg0ql6z345vnvjjgxrkk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -51525,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230802.1747")
+    (version "20230803.950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b46ec7b2e92f710522ee27a66032ba956ff395bb")))
+                 "729d94aa2c10f25b83fe4e09f5dabd0c329ff98a")))
         (sha256
           (base32
-            "0lx5vc5hbc7p9ijfb5iq1sxm1dapfk05kw7iz0cmxpybllm3c02m"))))
+            "0dnzrmd87xa217a99qj7i8bi23biq5i7nyb3wfz7096sifb8z3wx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -67643,17 +67643,17 @@
 (define-public emacs-leaf
   (package
     (name "emacs-leaf")
-    (version "20211226.1633")
+    (version "20230803.729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/conao3/leaf.el.git")
                (commit
-                 "9eb18e8c9c375aa0158fbd06ea906bfbf54408fe")))
+                 "466e12a4161fdee53bca60a786a460b4680255f1")))
         (sha256
           (base32
-            "0bxl842qnijz29bglp1zpmv07ga91q999l3gzk4k5n1a96j03qsc"))))
+            "1nrks5kf50z9rcr5jbs1ap0fqibssbgpg2dlbnnrxqgmzysm8d9q"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/conao3/leaf.el")
     (synopsis
@@ -71680,18 +71680,19 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20230727.813")
+    (version "20230803.1333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "545232bde1f8f9c6b74a7a31d9e1620d23979a9a")))
+                 "628e827e086b1a0fbb3d373e3fab8857d3742348")))
         (sha256
           (base32
-            "1csjnda32xwn8yhf58n4b7j5p8si3wilds1vby5nb5j7aq8baaxr"))))
+            "1jlg4jdfg055b6ykl09jwyzf45a036qqx5vsyfc7qbzi00004hai"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page
       "http://github.com/roadrunner1776/magik")
     (synopsis "mode for editing Magik + some utils.")
@@ -104731,17 +104732,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20230112.27")
+    (version "20230803.746")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "c12348e40531fc7e7325368621a0e5f8031d99b2")))
+                 "601824cf552d09db62f0cef42c00dc85bd728b04")))
         (sha256
           (base32
-            "0sy7v0j81qd1mdq862zm0a4nf3g3wyyjjy3kjlmd9kb3l3f5rh0q"))))
+            "1591ls91hpwbk2sslgqspgqq1yflj8hp0a7vvyxcl4slpyxal4qy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -124860,7 +124861,7 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230803.451")
+    (version "20230803.801")
     (source
       (origin
         (method git-fetch)
@@ -124885,7 +124886,7 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230803.451")
+    (version "20230803.801")
     (source
       (origin
         (method git-fetch)
