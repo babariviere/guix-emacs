@@ -27459,17 +27459,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20230526.2314")
+    (version "20230802.1505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "d4111f65c68f18f0dfb3072ee0d9b1d4cee80b52")))
+                 "df0e5180db1d1267c9ea39abbe98b7993e83bae7")))
         (sha256
           (base32
-            "0bpfyhv6wdi3jpmx0wlssi7iz4y5f7jybjf43kys7ngm1k063fxb"))))
+            "1d2xpqc9c6gjzkrhgvnl6r6ilksvz9ayn44gfl5z3aqdvzf9507s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -51525,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230802.1453")
+    (version "20230802.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "88e4d1aed391c5e3e88dcdc8ebd02dc585c092b5")))
+                 "b46ec7b2e92f710522ee27a66032ba956ff395bb")))
         (sha256
           (base32
-            "0ir5ah8pnvdqn356yav28ac2b20shs2ng01yyyjfk682cr600067"))))
+            "0lx5vc5hbc7p9ijfb5iq1sxm1dapfk05kw7iz0cmxpybllm3c02m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -82390,17 +82390,17 @@
 (define-public emacs-ob-p5js
   (package
     (name "emacs-ob-p5js")
-    (version "20230103.1356")
+    (version "20230802.1613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alejandrogallo/ob-p5js.git")
                (commit
-                 "c9f89c8b588cdb0c021a875b8f9fc91be7e39de8")))
+                 "6a1684a02f5baf6c433bfaf700b8c33b0f6ff12e")))
         (sha256
           (base32
-            "0rs8c4dlxawm4sclgrc2bi6z43dhalbac91hgxa7kw6vssfgibbp"))))
+            "14ks9hc6740jqx9q3rxva794r604lf2qjkqv4vag3adxan78d55a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alejandrogallo/p5js")
@@ -84246,17 +84246,17 @@
 (define-public emacs-org-ai
   (package
     (name "emacs-org-ai")
-    (version "20230802.1245")
+    (version "20230802.1637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rksm/org-ai.git")
                (commit
-                 "2066e6ddb3804b63616de15e2fb6b716ab5809e0")))
+                 "80bc75f70155c9fcce1513e1e6598a3f77307039")))
         (sha256
           (base32
-            "0r8hpfakm6wjxip8yzqj2g5bz1dv5hd06mw17acyga7m2vv1pkfr"))))
+            "0jfg277y98lnyswwg2lmkd2m8b6ly4b0jabl8ddx1nnbbk41bybm"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "snippets")))
     (home-page "https://github.com/rksm/org-ai")
