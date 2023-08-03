@@ -28709,17 +28709,17 @@
 (define-public emacs-eldoc-box
   (package
     (name "emacs-eldoc-box")
-    (version "20230729.540")
+    (version "20230803.51")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/casouri/eldoc-box.git")
                (commit
-                 "f6ae0e7a7b95727beddeb031a53724985f00030e")))
+                 "b5aa4814326f592d15332c5da4e62ed513fa85d7")))
         (sha256
           (base32
-            "0crbiqvbadvr0kag0mgqphp2fyz6l4b80iw10n6ij5gs54b9lw8y"))))
+            "1p5ffjblpz6cmnsp6km3mayqzvs2xcy1sqyxqz1zwjm7z8fzfma0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/casouri/eldoc-box")
@@ -33489,17 +33489,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20230419.1527")
+    (version "20230803.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "5c4ae91cefa5c56fd13b204a9a996825af836a67")))
+                 "d3e1a54020bbb96e15376aa3e7099b2f3650f79f")))
         (sha256
           (base32
-            "0riv971cblala39kh5zz69833nh4ngpqdiz5ci7hjgyq8qcimgp3"))))
+            "1zwawj6412nr9yrgrkzh01xkwzj7bsq4mk213yp74klwrnd2vh5n"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -86979,17 +86979,17 @@
 (define-public emacs-org-projectile
   (package
     (name "emacs-org-projectile")
-    (version "20220114.730")
+    (version "20230802.2300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/IvanMalison/org-projectile.git")
                (commit
-                 "642b39c698db00bc535c1c2335f425fb9f4855a9")))
+                 "b2a6ab28acef4a70d0305c29df41f682c4144533")))
         (sha256
           (base32
-            "1pcfyrmbnsk39w4d6cs27bcyihics3gll515fslnl5kqbaj9qn09"))))
+            "0dkvz2p420ffiy7mmx21nfwc8x324fh6hyirdhg1m19zi7rjagvb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile
@@ -90934,18 +90934,19 @@
 (define-public emacs-ox-tufte
   (package
     (name "emacs-ox-tufte")
-    (version "20230612.1902")
+    (version "20230802.2339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ox-tufte/ox-tufte.git")
                (commit
-                 "ef218789f853cf56b2283fb28b2d869aa79345bd")))
+                 "352d5ff5d5cd5edcb0d50ce50a5b2aaa8ae6862a")))
         (sha256
           (base32
-            "1hal5hqh6b9dnlzb1pdzdiap5p9qpprxifx41qmqgmanz82dbc6d"))))
+            "12hwd2q8w75ha4cs587nmasfxhsnmaacpyznrjpwk8vmwz2ncr43"))))
     (build-system melpa-build-system)
+    (arguments '(#:files (:defaults "src")))
     (home-page
       "https://github.com/ox-tufte/ox-tufte")
     (synopsis "Tufte HTML org-mode export backend")
@@ -113749,17 +113750,17 @@
 (define-public emacs-svg-tag-mode
   (package
     (name "emacs-svg-tag-mode")
-    (version "20230110.1824")
+    (version "20230803.504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rougier/svg-tag-mode.git")
                (commit
-                 "9f5c2cb862fcba96f247b85fdd1b7dffff7af93a")))
+                 "0e0ea48799d8911ed6c1ef60565a20fd5cf3dae4")))
         (sha256
           (base32
-            "10gy0pa0147phgx75hh21kgpg4j78v5dcl7alfq6apsximjz8w9f"))))
+            "1imsj3hwjx6rlcf9a66r4n1jzgxckhaq7y03mf5lii7kdrgrj26i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-svg-lib))
     (home-page
@@ -124859,17 +124860,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230802.530")
+    (version "20230803.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "7d4a504a177fd52b860fe1bd84cb00d1fe7904b3")))
+                 "365c43a2a507e18c7c1d3be9cce0b1b7bb3a8c60")))
         (sha256
           (base32
-            "1apl022ijyiwpvb1iqpjmx4amjgk45rjrn39ic22cjcqgwbr1s7c"))))
+            "1bs89mfs8sjlws4a1szivr95gyhmn24g02g7gb258r6rar40fvfp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -124884,17 +124885,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230802.530")
+    (version "20230803.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "7d4a504a177fd52b860fe1bd84cb00d1fe7904b3")))
+                 "365c43a2a507e18c7c1d3be9cce0b1b7bb3a8c60")))
         (sha256
           (base32
-            "1apl022ijyiwpvb1iqpjmx4amjgk45rjrn39ic22cjcqgwbr1s7c"))))
+            "1bs89mfs8sjlws4a1szivr95gyhmn24g02g7gb258r6rar40fvfp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -127535,7 +127536,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230802.1357")
+    (version "20230803.505")
     (source
       (origin
         (method url-fetch)
@@ -127545,7 +127546,7 @@
                ".tar"))
         (sha256
           (base32
-            "0bv8gsvjsc271g0035dpnm3zhr04mmm2s8iwrbxn4rn8m3pamg5p"))))
+            "0ps85kzn1apjmwvl67cw7zg16cqgh4vljb2ild500kvmqrvdn091"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
