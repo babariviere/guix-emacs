@@ -1813,17 +1813,17 @@
 (define-public emacs-adoc-mode
   (package
     (name "emacs-adoc-mode")
-    (version "20230724.2040")
+    (version "20230803.2350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/adoc-mode.git")
                (commit
-                 "b0702bdeb8d799720661766936c36ec3b454c609")))
+                 "26d189ef5486453503d7f0296258aa5883d27a29")))
         (sha256
           (base32
-            "09rfz44z3dm6jvq12x2vn74jir7sqhkcrhqv9zbjg6v2d2cqynka"))))
+            "1f06lznxsijp3iiia1cj5w2y47d8ykn61jbziddhz0jfgdn1m4ag"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/adoc-mode")
@@ -9073,17 +9073,17 @@
 (define-public emacs-brf
   (package
     (name "emacs-brf")
-    (version "20230428.1402")
+    (version "20230803.2022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://bitbucket.org/MikeWoolley/brf-mode")
                (commit
-                 "ca6f9869707dab5929e1da9e13bdf602207bc7f9")))
+                 "8875f5fcd173e220bbfa6bf9f8f09d721a29cd50")))
         (sha256
           (base32
-            "15qq87fhdb99qd9ndxpprk43ip1mk57k1f7gin2yv8wdvv36n6bz"))))
+            "0iqakgg7yz409776p14adg4vdn9ik0mf95vhzx23g3pd79lv34wb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-fringe-helper))
     (home-page
@@ -12614,17 +12614,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230802.1233")
+    (version "20230803.1959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "b217386ec2f45a4e967a8039b29cc68758b5409e")))
+                 "1c5834aeff34b3cdd27725c51d328243862d6390")))
         (sha256
           (base32
-            "0zdabb92cbjv2c7walpghxp0dc5njbwz48h9v10c948531mpf1vk"))))
+            "0gmdwnb59ypjagk5razss45f4llvj9k11blzdgh5fq6qxapla935"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -25356,7 +25356,7 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230803.1452")
+    (version "20230803.1527")
     (source
       (origin
         (method git-fetch)
@@ -28683,17 +28683,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230801.1909")
+    (version "20230803.1737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "cd0c4107389f61f7d01c6a4006490ed1b80f36e2")))
+                 "16a683986321b72da031635ffb321a80072d0f8f")))
         (sha256
           (base32
-            "0nj0gv5jb1ilxcmakis9386qsss0202ki7913bcc0fjkxzaqmwl8"))))
+            "0fvl9rnyfq9l4ywlfr7vldpjd5h44aciv1l22m5qb63hn10vnggq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29055,17 +29055,17 @@
 (define-public emacs-elfeed
   (package
     (name "emacs-elfeed")
-    (version "20210822.2129")
+    (version "20221108.755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/skeeto/elfeed.git")
                (commit
-                 "162d7d545ed41c27967d108c04aa31f5a61c8e16")))
+                 "55fb162fa27e71b88effa59a83c57842e262b00f")))
         (sha256
           (base32
-            "0v49l289wiral01pvgm30wyv79h5d3ly3i05dmcw1q93g4z4l56d"))))
+            "02cqgrhfaxc73j250jz70q83l50ynhfxszg6kyb4g7fv9kjdagh7"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "README.md")))
     (home-page "https://github.com/skeeto/elfeed")
@@ -51525,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230803.950")
+    (version "20230803.1808")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "729d94aa2c10f25b83fe4e09f5dabd0c329ff98a")))
+                 "de31fc2483ec65fe005318934356537d2e474f36")))
         (sha256
           (base32
-            "0dnzrmd87xa217a99qj7i8bi23biq5i7nyb3wfz7096sifb8z3wx"))))
+            "1na2fnynknfk8yykpw1836jnqrl56lv7xhf8jmhprvnr08wcy1cq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -68630,17 +68630,17 @@
 (define-public emacs-ligo-mode
   (package
     (name "emacs-ligo-mode")
-    (version "20230727.1523")
+    (version "20230803.1446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ligolang/ligo.git")
                (commit
-                 "b3f561b8d530a7c49a7f504b8ae558475fd2982b")))
+                 "342af1467a5558f40497933cfdf920ffb6bb1cde")))
         (sha256
           (base32
-            "0zflhyfivnxb9pi2x7xyh6in0fsb76z3dvch9060jj3iwh2q6xll"))))
+            "1625fwwc7n02zgppshmqqvzw0792527irnwx1qhdslx5pvcjbljp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("tools/emacs/ligo-mode.el")))
@@ -79113,17 +79113,17 @@
 (define-public emacs-nerd-icons-dired
   (package
     (name "emacs-nerd-icons-dired")
-    (version "20230511.1453")
+    (version "20230803.1848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons-dired.git")
                (commit
-                 "39c9ec722ab356fdf3eaa6ab39618b717e060efb")))
+                 "00038929395a2a10ed5614b59161f29f9e0ffddc")))
         (sha256
           (base32
-            "117296wlh20wjbjhpgxz3bb1nxbzrs395ai7wlml3mg9wsfqb5cz"))))
+            "07y9jlrcnvinwsik1bhq2caiw4wxff9nqicm81b2jimr29ilbjx4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-nerd-icons))
     (home-page
@@ -84247,17 +84247,17 @@
 (define-public emacs-org-ai
   (package
     (name "emacs-org-ai")
-    (version "20230802.1637")
+    (version "20230803.2124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rksm/org-ai.git")
                (commit
-                 "80bc75f70155c9fcce1513e1e6598a3f77307039")))
+                 "f160791428f0305bb72b08752312cc1c72e989ab")))
         (sha256
           (base32
-            "0jfg277y98lnyswwg2lmkd2m8b6ly4b0jabl8ddx1nnbbk41bybm"))))
+            "11913d6qnrrns97lz27yb87xjjmcwymwm00s9d524y752p41kw7w"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "snippets")))
     (home-page "https://github.com/rksm/org-ai")
@@ -85754,23 +85754,23 @@
 (define-public emacs-org-id-cleanup
   (package
     (name "emacs-org-id-cleanup")
-    (version "20230310.1639")
+    (version "20230803.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/marcIhm/org-id-cleanup.git")
                (commit
-                 "73d3f750d236dd486b8bcc07c88bfda9ce5b384e")))
+                 "588acb063f1c73025f973cbbba64a9f65a737bdd")))
         (sha256
           (base32
-            "0javg4ivljfdcppzr6x38jf94g5hm8zibfy8cmjlnjmc1wvv9s0y"))))
+            "0zbynga4az8kh3iw3r7pz39mvi55vk2y19z8f13027sq2vff7rla"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
       "https://github.com/marcIhm/org-id-cleanup")
     (synopsis
-      "Interactively find, present and maybe clean up unused IDs of org-id")
+      "Interactively find, present and maybe delete unused IDs of org-id")
     (description
       "Documentation at https://melpa.org/#/org-id-cleanup")
     (license #f)))
@@ -85825,22 +85825,23 @@
 (define-public emacs-org-index
   (package
     (name "emacs-org-index")
-    (version "20230103.1720")
+    (version "20230803.1629")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/marcIhm/org-index.git")
                (commit
-                 "d919b9e2ef8c0f814455b82ffea080e872b89c72")))
+                 "1bf6e8d540774da3880d7c8e78eee15805409470")))
         (sha256
           (base32
-            "0191fph92aizhvydx3viswqmq6b2cc7x5wwnwifkgmw05lra5z6s"))))
+            "07gk84dn8cy4bpq2xzsq45879xb40h6km150pz0j83cblx9047jz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/marcIhm/org-index")
-    (synopsis "No description available.")
+    (synopsis
+      "Ranked and incremental search among selected org-headlines")
     (description
       "Documentation at https://melpa.org/#/org-index")
     (license #f)))
@@ -88696,23 +88697,23 @@
 (define-public emacs-org-working-set
   (package
     (name "emacs-org-working-set")
-    (version "20220414.1402")
+    (version "20230803.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/marcIhm/org-working-set.git")
                (commit
-                 "6af54ed3a5d9bf90629223157803c42f5d3b152c")))
+                 "c83a63f34829dca137941bc06e29c34bf056a43b")))
         (sha256
           (base32
-            "1jpiyjzvqqzrnp95vysp7b742pxlfqd1g6srxhv3fjlq65px6z5a"))))
+            "1vz2f2f37gz2jbybidh0s6zl331sa2qw0nrw500ignd2hjcf30pr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/marcIhm/org-working-set")
     (synopsis
-      "Manage and visit a small set of org-nodes.")
+      "Manage and visit a small and changing set of org-nodes that you work on")
     (description
       "Documentation at https://melpa.org/#/org-working-set")
     (license #f)))
