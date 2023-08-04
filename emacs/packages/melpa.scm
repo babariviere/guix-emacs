@@ -11762,17 +11762,17 @@
 (define-public emacs-cg
   (package
     (name "emacs-cg")
-    (version "20230601.1159")
+    (version "20230804.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/GrammarSoft/cg3.git")
                (commit
-                 "7b7c0b48236c845ee61e1b0e195e251cf615a940")))
+                 "c22f5572c0946b0d21f4d489308ea0ce9f305ea0")))
         (sha256
           (base32
-            "1y1f28mdxhs3jid9xsa15g2y31k17jpg7nxxbabnrl6y999hd3i2"))))
+            "0lz98f5lic1wlbwdj8j85kgsjrsbbmy61q9cqn2bjki272bcfzjf"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("emacs/*.el")))
     (home-page
@@ -11946,17 +11946,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20230729.1402")
+    (version "20230804.850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "9704e9af30d4d9688c47d934d2f9278d51813ebc")))
+                 "c1e6cbe3e3884b89bb45f3fc63157a0126b38814")))
         (sha256
           (base32
-            "0vwmbvl7yzk04b5hkm19g8galhb36rbdpvw81g1aix60kr758gx6"))))
+            "176v5wn2c7pa2icybdvna6iymhjdgqsy979mjx7xayj46bvrsrf9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -12614,17 +12614,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230804.559")
+    (version "20230804.1112")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "1dc2c80293877ce90bb954f2558aa494d411893e")))
+                 "605e253776b76fdc6ec821626842ed9d566f88df")))
         (sha256
           (base32
-            "0838z4pp9w5cxfxfrkv45j8kh4zjj7yxjvhgxrblcr1awfmxsm9d"))))
+            "1pp6098axv5m3hszsy2ppagz8j3adc0n9whx21cyl7b9v64hh2vj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -31677,17 +31677,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20230803.1124")
+    (version "20230804.652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "a763eadd28df8078d4331fa1dc71eb8a09ae4582")))
+                 "d8fe5d293253a0d431034cd7294e6fb561c4950f")))
         (sha256
           (base32
-            "0nn38d39378fshsvfyjc0g9k6jfzwnjvdg0ql6z345vnvjjgxrkk"))))
+            "1a4ixhvs53ymcm0fjlvnh47rd0sp23w4ngns4m0ydcs5vq8hwq5m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -36190,17 +36190,17 @@
 (define-public emacs-exec-path-from-shell
   (package
     (name "emacs-exec-path-from-shell")
-    (version "20220826.1535")
+    (version "20230804.645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/exec-path-from-shell.git")
                (commit
-                 "dff9ce3577bf3f2938d9bde8ec8aa4fef3b061f3")))
+                 "03fc0a38af9e396c98f5a30c392cf757b3a34feb")))
         (sha256
           (base32
-            "18260wml2x3di3nqcsvbi5ic1vzni4amrjjldq8f38nhkkk4p7vh"))))
+            "1wmr1z603wmcv8hxzxn84qxzdwmzmdm8x6f3n0x7klviq4jw6v2x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/exec-path-from-shell")
@@ -71680,17 +71680,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20230803.1333")
+    (version "20230804.949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "628e827e086b1a0fbb3d373e3fab8857d3742348")))
+                 "aa75213fad924a2ca72c6e2ac526f4d40a53682c")))
         (sha256
           (base32
-            "1jlg4jdfg055b6ykl09jwyzf45a036qqx5vsyfc7qbzi00004hai"))))
+            "0g0k0fxbkjkkbkajkymrwigfb381kvy6vfan6hlkbjhqp5y631fp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -71703,17 +71703,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230731.1514")
+    (version "20230804.1052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "6d300bfe3606350da804c1a2c11b3f0ab7a7f4af")))
+                 "dd6ecd5fe59087b5658f0a99e1d946e7fbf2dbea")))
         (sha256
           (base32
-            "0qsq13kjsksscdhzhc8m1r79klijdbfcvvz1bk9411w4p0m1pwh8"))))
+            "031ss0ls8z1wwz7kzasrdwrnvbs21fcyqmhxr8w4k39yanhlh7x8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -72717,17 +72717,17 @@
 (define-public emacs-mame
   (package
     (name "emacs-mame")
-    (version "20230711.1538")
+    (version "20230804.1538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Iacob/elmame.git")
                (commit
-                 "43b78e098aaf1fd87a710e033d339137f2c16b11")))
+                 "2793335a9901bba6071abb94f5124d94c04343a5")))
         (sha256
           (base32
-            "0q421pik7xmcky8h8hr4rfp3w1bf3gc0sqlzx6r0b9q2a9viibi6"))))
+            "1d54gdqs5w7iffcrai6k5l6l1vllqwrzjy66phz9p49vmlch2v8n"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/Iacob/elmame")
     (synopsis "A MAME front-end")
@@ -72954,17 +72954,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230804.504")
+    (version "20230804.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "2c8c5d423079d74abda6890028a31daefe45a3e5")))
+                 "7644e76191c58177d040a0af58ef949ad39e6467")))
         (sha256
           (base32
-            "05sv4gg0j48siis06jcl8wq51jlwbl85jvgwwzh8h03xk4qnihc5"))))
+            "0s1knp11qvz0m8443asvfq8dkwlba7yj6vgl8xhrb4j8njb912bs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -75982,7 +75982,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230718.412")
+    (version "20230804.933")
     (source
       (origin
         (method url-fetch)
@@ -75992,7 +75992,7 @@
                ".tar"))
         (sha256
           (base32
-            "1kwvqignwcc3b65jg42ww04r868wr9yrcrmxmp8fkvx9s19cx77f"))))
+            "10dsz6hyxmi76b2f3a97cfzj9n4qp4df9jnwmc3lkisal9zicc6w"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -84319,17 +84319,17 @@
 (define-public emacs-org-anki
   (package
     (name "emacs-org-anki")
-    (version "20230709.1310")
+    (version "20230804.1244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/eyeinsky/org-anki.git")
                (commit
-                 "2a0f7b4a5527411e541997309afc7d5aab59d3e8")))
+                 "1bc1bc1a6f06d0d9fe3ac3b8a86e061b80a32462")))
         (sha256
           (base32
-            "1id97lk1pjcv93w2x3w2r0f96nkqk2r47a0287hhyxvwdspgflkv"))))
+            "1jh11mbjswfzqhx7vff0lq07ggdfv8yjzqapkkbj8zfvp8p3v406"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-promise))
@@ -127538,7 +127538,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230803.505")
+    (version "20230804.1322")
     (source
       (origin
         (method url-fetch)
@@ -127548,7 +127548,7 @@
                ".tar"))
         (sha256
           (base32
-            "0ps85kzn1apjmwvl67cw7zg16cqgh4vljb2ild500kvmqrvdn091"))))
+            "1k9gqpwd6csdjvf4xf55ifd4xd3cdrg6k549wxg3s6yyfxwf8rik"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
