@@ -12614,17 +12614,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230803.1959")
+    (version "20230804.559")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "1c5834aeff34b3cdd27725c51d328243862d6390")))
+                 "1dc2c80293877ce90bb954f2558aa494d411893e")))
         (sha256
           (base32
-            "0gmdwnb59ypjagk5razss45f4llvj9k11blzdgh5fq6qxapla935"))))
+            "0838z4pp9w5cxfxfrkv45j8kh4zjj7yxjvhgxrblcr1awfmxsm9d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -30029,17 +30029,17 @@
 (define-public emacs-elpa-clone
   (package
     (name "emacs-elpa-clone")
-    (version "20230711.403")
+    (version "20230804.449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dochang/elpa-clone.git")
                (commit
-                 "4c988fe09de268b459706f2fd27a1a57e15aa895")))
+                 "e7645c5d588591d0e566d56df53ec6f0b2df53f1")))
         (sha256
           (base32
-            "19b9wr005vrz99byxchdbyryrhhqw7c0h8p6pyfrv5ji7fmz2q4c"))))
+            "0r7cy7xpbiqdi2qqrkd0z2lifdi9kjws4kmc36hrhjhbsibq5kaf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dochang/elpa-clone")
@@ -51184,17 +51184,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20230730.716")
+    (version "20230804.640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "7ef6080c69133b5f2141da356c553b04660a52bd")))
+                 "e8358945845b15cbcc4c1479e51b5236bac61b72")))
         (sha256
           (base32
-            "0aqwa786z1my666xkqarl3k1j439cfjvqgwzmybfdcm20kzcb1ch"))))
+            "023ia02smn9ib2p3ssxzgbfxd6r2aww9dmxipy4qb71q8ancn1f1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -51525,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230803.1808")
+    (version "20230804.614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "de31fc2483ec65fe005318934356537d2e474f36")))
+                 "25648c0135c0441053c393f86f079b077cf96c7c")))
         (sha256
           (base32
-            "1na2fnynknfk8yykpw1836jnqrl56lv7xhf8jmhprvnr08wcy1cq"))))
+            "16x2yicbkyzcz6l9fiyf83z2djk72p6nfc6s08akcd4j8vd7ljg2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -60435,17 +60435,17 @@
 (define-public emacs-inheritenv
   (package
     (name "emacs-inheritenv")
-    (version "20210204.354")
+    (version "20230804.651")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/inheritenv.git")
                (commit
-                 "7e4c8b0d0a43b6f1c6c4d6dbd2f3bf5ce7f20067")))
+                 "00106bb208d06e5f1ec25d0c2f41c000cbb25076")))
         (sha256
           (base32
-            "1qc54wx5f1yvap9hxi1k5qqsascxxs9lq317qpzipmbazw7qk7ch"))))
+            "04na9m3z3k94jjqcqps95xcmvjklnddhli2xaac16m4ackw2wv9b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/inheritenv")
@@ -72954,17 +72954,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230704.1551")
+    (version "20230804.504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "5f20897822c16abc773d55d456503a50be0642e9")))
+                 "2c8c5d423079d74abda6890028a31daefe45a3e5")))
         (sha256
           (base32
-            "0lvxwv3r5dlaak2i1f36w6xmrhwjz8s3q09zgy42m8sini5j745l"))))
+            "05sv4gg0j48siis06jcl8wq51jlwbl85jvgwwzh8h03xk4qnihc5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -73068,17 +73068,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20230723.1139")
+    (version "20230804.305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "a4305f496efb64787d820e34d6418bfcbcbbed92")))
+                 "50ac14ffe4e23224c74adf2b90a4833ccb62a416")))
         (sha256
           (base32
-            "118ydzhwqk0mrsvq5xkm4jlzi65vpnai7fvb6sm4pqh1z3hx4hln"))))
+            "1jcygpcf6mwjhs8bzzl7zkvs0zfvm1r9rp9ngjji55av1ypz2ncn"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -73670,17 +73670,17 @@
 (define-public emacs-mb-url
   (package
     (name "emacs-mb-url")
-    (version "20230706.815")
+    (version "20230804.504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dochang/mb-url.git")
                (commit
-                 "0fd1ae95a98dec7850dfb9af6e0ffa5c3a4fb863")))
+                 "f4512a7f85dcc858404922deda1aaa952baf4e00")))
         (sha256
           (base32
-            "0pp64r0kkbsdl7zdnjwas8bd64g8zzcnwfilsq3jrsq9982vwy9y"))))
+            "08adj17bigsrf7jjrsvk4cg0ipj9a430cgi4h7ickarns2wwlia2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dochang/mb-url")
     (synopsis
@@ -91228,17 +91228,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20230730.1249")
+    (version "20230804.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "66f254f62c6f1ea3dd4016ed25da0b72c9c2f2c0")))
+                 "bc1ccda5e9accefcafa42712a274197a4b465733")))
         (sha256
           (base32
-            "1m53v322037z5w5rdhkz6fi74rfmfglziln2lzh6nk0dxc0q7aj7"))))
+            "05fcanm4rj0crk5309yg8q3z4gxrzqf3y3sr8pbh10frxv99j9cg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -91254,17 +91254,17 @@
 (define-public emacs-package-lint-flymake
   (package
     (name "emacs-package-lint-flymake")
-    (version "20230315.1052")
+    (version "20230804.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "933cb1ef5938c5f99f8d388027bc0e8518fdada9")))
+                 "bc1ccda5e9accefcafa42712a274197a4b465733")))
         (sha256
           (base32
-            "1lc2w7x5lsf3304jywgfb5k9hq9r9hppqri6y9a41p1f9bpsrk7q"))))
+            "05fcanm4rj0crk5309yg8q3z4gxrzqf3y3sr8pbh10frxv99j9cg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-package-lint))
     (arguments
@@ -91446,17 +91446,17 @@
 (define-public emacs-page-break-lines
   (package
     (name "emacs-page-break-lines")
-    (version "20210104.2224")
+    (version "20230804.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/page-break-lines.git")
                (commit
-                 "28783cd6b86b3cd41e51e6b2486173e2485a76cc")))
+                 "5e9ed86bb56fd076b12ae7adaf40eeaa09aed4c5")))
         (sha256
           (base32
-            "0c9971l4xz2qm6pskad9fga6rcz72lyr2jfzwjxwhqx1v7ss46bc"))))
+            "0ibwfwqm9yzawci5xs7rn4cf39f5by2h4s4071qmclv9sdlyvkp2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/page-break-lines")
@@ -102182,17 +102182,17 @@
 (define-public emacs-reformatter
   (package
     (name "emacs-reformatter")
-    (version "20220627.825")
+    (version "20230804.648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/emacs-reformatter.git")
                (commit
-                 "84cff54b0873fcca6fc0314d7584284e86708e8d")))
+                 "bfe3f1c6ece952d39921db16f601123bdd1748ab")))
         (sha256
           (base32
-            "0gib2ylmm5kp23s2mkhx9b83bh9pxszzdrx55rf1b9gh13qz2nw9"))))
+            "1vm030lz489vjx1dz1jrnj7zd2b43y98rffdxyshfvxbfv1cbmyk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/emacs-reformatter")
