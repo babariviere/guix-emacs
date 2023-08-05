@@ -37344,17 +37344,17 @@
 (define-public emacs-fb2-reader
   (package
     (name "emacs-fb2-reader")
-    (version "20230305.2309")
+    (version "20230805.29")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jumper047/fb2-reader.git")
                (commit
-                 "9836db284749e0cef4c43c2cb5358c82ae9b8589")))
+                 "85777f99483b84f02c1abd6fe0ddbbac7f1258af")))
         (sha256
           (base32
-            "0vx4b9wnmx1bng8wak5r7yryyvgib4m46l6b877xzkdhsjr3rbsi"))))
+            "0f93s1wssq40z6328klk47zniv2y0x9899xx2wz6z76fxpxssjk5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -51524,17 +51524,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230804.1924")
+    (version "20230805.533")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7340e4c8934f0fd5d114dd718a547726a3e21b69")))
+                 "a3385dfa5d0e2d06bf83b12c95e0783b297f5272")))
         (sha256
           (base32
-            "0a62pfr2vnxk0y7yb4kdqm6jhpwpw20x1hmcpmbnjir3ki85q2xz"))))
+            "0k4x9058m47sz5vjp9cs4md3g0vb7zlkahmrngdshzmwqy1b2hdx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -64084,17 +64084,17 @@
 (define-public emacs-json-mode
   (package
     (name "emacs-json-mode")
-    (version "20230717.818")
+    (version "20230805.507")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/json-emacs/json-mode.git")
                (commit
-                 "20b9c21f44c58e94256c7826d0821205e017dfbb")))
+                 "481d5d9f4003fc14d116bf31d1bf71d14960d7d9")))
         (sha256
           (base32
-            "1in6cygicw06y7h9xl24h5a5w1y6dwlckj7fmclr2pcm6xnln9a1"))))
+            "0k4sfw3dq1wlfz2hyw72h6wgf1sss8xjcc1bnwwn7ip4balwi1yf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-json-snatcher))
     (home-page
@@ -66821,17 +66821,17 @@
 (define-public emacs-lab
   (package
     (name "emacs-lab")
-    (version "20230630.2005")
+    (version "20230805.30")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/lab.el.git")
                (commit
-                 "771a98c48c657f7a883b664617f2bc0370575f99")))
+                 "01d481ca41cc122899ad94a97153f81fe6e7f65e")))
         (sha256
           (base32
-            "1cg118ifbjmx6imdvdqqk6gjg25j1ypgcqnznpbr7dxw84crdv81"))))
+            "0nyip0kli5baiyshj1389najk8zzh948i1kmq287nzsy02ljgyfv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-memoize emacs-request emacs-s))
@@ -69399,19 +69399,19 @@
 (define-public emacs-literate-calc-mode
   (package
     (name "emacs-literate-calc-mode")
-    (version "20230612.2332")
+    (version "20230805.436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sulami/literate-calc-mode.el.git")
                (commit
-                 "37b2f706311a26deda15081414794f163a0f189a")))
+                 "b3db1b5249e6e6fbcde2dcc0e9ac5b2d2bbe77c2")))
         (sha256
           (base32
-            "1c73jf6j5k7q1ayaxd4x3cjkxss6flm1r60m2sy1vmgvrljw5iii"))))
+            "102ikmds9d3ifwz2kl94hg8namgpqzdgzv3j07pzxavllkz4kpip"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s))
+    (propagated-inputs (list emacs-dash emacs-s))
     (home-page
       "https://github.com/sulami/literate-calc-mode.el")
     (synopsis "Inline results from calc")
@@ -90222,17 +90222,17 @@
 (define-public emacs-ox-haunt
   (package
     (name "emacs-ox-haunt")
-    (version "20220615.7")
+    (version "20230725.1")
     (source
       (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://git.sr.ht/~jakob/ox-haunt")
-               (commit
-                 "d32c4b1ab258dc34ca7e713152a274eab35d2608")))
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/ox-haunt-"
+               version
+               ".tar"))
         (sha256
           (base32
-            "1h5g32kw3dgdp3vdzx34n8pcmg3ssn2bzmx5an7yksymibmayfjs"))))
+            "1drbwynvhq0kb6dxrk5dwg7v2dgydlihfxxpdc1d66fqhxsgzym2"))))
     (build-system melpa-build-system)
     (home-page "https://git.sr.ht/~jakob/ox-haunt")
     (synopsis
@@ -107801,17 +107801,17 @@
 (define-public emacs-shrface
   (package
     (name "emacs-shrface")
-    (version "20220523.1440")
+    (version "20230805.500")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chenyanming/shrface.git")
                (commit
-                 "b3916e1ebe2477c031db1440d9b57e373c0354fe")))
+                 "946154a05b14a270f80351d5b2a98b19aa6c5745")))
         (sha256
           (base32
-            "0m357d795qcn1l2gynglzdrdc9h197vj68436hkwnc1j72zhcpl4"))))
+            "0qqvw7az7cr20kss7szvwqmbznqb160jg13akdxkiiksgzng0f90"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-language-detection))
@@ -110737,17 +110737,17 @@
 (define-public emacs-solarized-theme
   (package
     (name "emacs-solarized-theme")
-    (version "20230507.1413")
+    (version "20230805.726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/solarized-emacs.git")
                (commit
-                 "0f0b1129cf51c85904f9e015da4fcca5f5f7a4ce")))
+                 "100542418b19859f9828114eeaed2be1071367bb")))
         (sha256
           (base32
-            "0l2lcdm2hsjasfkg4rmypa4mvbhglbkkyv0jg88ygc6py9klcccd"))))
+            "18r651hj05vrmwnyhgdy1v8sfq9izb7r4b6mvfnq0my7pwbxck73"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bbatsov/solarized-emacs")
@@ -111469,17 +111469,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230801.115")
+    (version "20230805.107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "1108679041fad34229558ba9b969d2a1cfe189ed")))
+                 "9faa42c161f18e79cdab6d796eaa33bfebbf9418")))
         (sha256
           (base32
-            "1mf8m92drpis8a97x8wq69z6qnvp27025xqbsvdflc557qlkp42z"))))
+            "1ypgvw63yqxaz7ay99xkjhjbyymi8x0sq4lniyhbrr7aix0zn7dp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -124861,17 +124861,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230803.801")
+    (version "20230805.614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "365c43a2a507e18c7c1d3be9cce0b1b7bb3a8c60")))
+                 "d8f92a54c51c29faa2dbf7485a83e5a67feee11d")))
         (sha256
           (base32
-            "1bs89mfs8sjlws4a1szivr95gyhmn24g02g7gb258r6rar40fvfp"))))
+            "05mzkjp36pm0fpvy3kjh7jckf2ca54xylivh8lahgcpn7llg59pz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -124886,17 +124886,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230803.801")
+    (version "20230805.614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "365c43a2a507e18c7c1d3be9cce0b1b7bb3a8c60")))
+                 "d8f92a54c51c29faa2dbf7485a83e5a67feee11d")))
         (sha256
           (base32
-            "1bs89mfs8sjlws4a1szivr95gyhmn24g02g7gb258r6rar40fvfp"))))
+            "05mzkjp36pm0fpvy3kjh7jckf2ca54xylivh8lahgcpn7llg59pz"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
