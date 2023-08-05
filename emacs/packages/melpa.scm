@@ -12547,19 +12547,18 @@
 (define-public emacs-chronos
   (package
     (name "emacs-chronos")
-    (version "20230718.1707")
+    (version "20230804.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DarkBuffalo/chronos.git")
                (commit
-                 "9ca0d59cca7af98b44924646ae83fe0deb253c3b")))
+                 "517c53f57c54ec64e1bc870a63b0f4cf1772fcf1")))
         (sha256
           (base32
-            "16gq3v81diydsxq3zfpcvxj4mxsk8cllmcb68l87h27vhkhya9x1"))))
+            "009wc3hb2mflcpk0jdifvppjjj7m5gzgcf1s4x1knsrzqhmm9vxz"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-consult))
     (home-page
       "http://github.com/DarkBuffalo/chronos")
     (synopsis
@@ -12614,17 +12613,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230804.1112")
+    (version "20230804.1656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "605e253776b76fdc6ec821626842ed9d566f88df")))
+                 "eedbab26684cb1ce01a940b5b0da9ff78aeb4eac")))
         (sha256
           (base32
-            "1pp6098axv5m3hszsy2ppagz8j3adc0n9whx21cyl7b9v64hh2vj"))))
+            "02xm1d80z91mmg1l8pgfb4grfp7bfjk0lqsgrw35gfc49x5lf47r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -25356,17 +25355,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230803.1527")
+    (version "20230804.1926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "bcf99afdf258068869422da421294bdf9052712f")))
+                 "1eb1a10e18a2e87451ef7f670f5d4fc1e608b85c")))
         (sha256
           (base32
-            "1pjjcm5q6j09m81ncf96psbjd8r05b87f18b9i27l7a69ljx54hk"))))
+            "16vqcg3h97yjalqfrccdjag6s2p94hpygq47wkzbj99y4yxs3f52"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -28683,17 +28682,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230803.1737")
+    (version "20230804.1838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "16a683986321b72da031635ffb321a80072d0f8f")))
+                 "dfc0f068ae4af22034eaecd705c52c09da970f7f")))
         (sha256
           (base32
-            "0fvl9rnyfq9l4ywlfr7vldpjd5h44aciv1l22m5qb63hn10vnggq"))))
+            "0ngkk4clrg2jax6prc3kd6nc6nkvdv7xbvz0vq8a8pxjdmzjbhw7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -51525,17 +51524,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230804.614")
+    (version "20230804.1924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "25648c0135c0441053c393f86f079b077cf96c7c")))
+                 "7340e4c8934f0fd5d114dd718a547726a3e21b69")))
         (sha256
           (base32
-            "16x2yicbkyzcz6l9fiyf83z2djk72p6nfc6s08akcd4j8vd7ljg2"))))
+            "0a62pfr2vnxk0y7yb4kdqm6jhpwpw20x1hmcpmbnjir3ki85q2xz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -64497,17 +64496,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20230727.838")
+    (version "20230804.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "b51f8ceca81b09ebe0bd0d9daf98e7cc510cd6d3")))
+                 "a88755dcb46380d6df2cf54c8e82d5aa15780768")))
         (sha256
           (base32
-            "0wlwplrck0zvzlifhkzbgd7cnsab98p318hm52mnm62sb2ybki3h"))))
+            "0i4f8bixhzvf7zjpyw118qdrg19kl8kh8b3fq9hfsikgjv9fancx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -72954,17 +72953,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230804.1357")
+    (version "20230804.2154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "7644e76191c58177d040a0af58ef949ad39e6467")))
+                 "1e0c156b0e7931a9aef8ca79dbab0cb690245bcd")))
         (sha256
           (base32
-            "0s1knp11qvz0m8443asvfq8dkwlba7yj6vgl8xhrb4j8njb912bs"))))
+            "0n0cr3adc4w34gfwilfkl4x37h9w0cg3q2g6mgi5xn65b3nkljxf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -76779,17 +76778,17 @@
 (define-public emacs-mozc
   (package
     (name "emacs-mozc")
-    (version "20230714.432")
+    (version "20230804.1700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/google/mozc.git")
                (commit
-                 "dbe67978e12ab5ba47a226255d4522adce14a6b1")))
+                 "c2ccb4f6a65ddda244cfa103d8cdfe6aaeaf5eda")))
         (sha256
           (base32
-            "0mlljm11wy8hycbccm42kb2jwr4xrhsgj5bzjvnrbixa5zgk6hz6"))))
+            "1wp09wrrs78h9zqcwl8h9z2d3r2xn8l9r8fi7z1rawvd53nalyzf"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/unix/emacs/mozc.el")))
     (home-page "unspecified")
