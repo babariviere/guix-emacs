@@ -13949,17 +13949,17 @@
 (define-public emacs-clojure-ts-mode
   (package
     (name "emacs-clojure-ts-mode")
-    (version "20230604.211")
+    (version "20230805.1336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
                (commit
-                 "019298655e0f76e5fb24150149d647bfab546eb8")))
+                 "2d6b12e15b8aa7de721a5be468c25768559464b8")))
         (sha256
           (base32
-            "1jj1slchaph0x67k7jpwzyzl50c5ya4b32pzp68yjrvyz3nqnj9k"))))
+            "0r4b9hbn88mdisg327k0ml267s83msgav8g59bmrwj4j98crvy9q"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/clojure-emacs/clojure-ts-mode")
@@ -20377,7 +20377,7 @@
 (define-public emacs-cycle-at-point
   (package
     (name "emacs-cycle-at-point")
-    (version "20230116.951")
+    (version "20230805.925")
     (source
       (origin
         (method url-fetch)
@@ -20387,7 +20387,7 @@
                ".tar"))
         (sha256
           (base32
-            "17ljfsjfili0hnzcf4y8hsqzxa2jfhibvj8zpgbh3i3iib2i5dcz"))))
+            "1q4x7n8k3g6hsvp9vyahp883bakpdgiw7xnkqdxz6gzg13m2px9f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-recomplete))
     (home-page
@@ -25355,17 +25355,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230804.1926")
+    (version "20230805.944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "1eb1a10e18a2e87451ef7f670f5d4fc1e608b85c")))
+                 "d45f341b5e19be9cff7dd4e6751aa11b654d8f27")))
         (sha256
           (base32
-            "16vqcg3h97yjalqfrccdjag6s2p94hpygq47wkzbj99y4yxs3f52"))))
+            "0srd2aav4inkm8n0pc9y72mq4gqk1dq3m6h6mhzbbg6sci0qqna3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -28682,17 +28682,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230804.1838")
+    (version "20230805.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "dfc0f068ae4af22034eaecd705c52c09da970f7f")))
+                 "6fc93733b65a4455a479549690f37ee993efab1e")))
         (sha256
           (base32
-            "0ngkk4clrg2jax6prc3kd6nc6nkvdv7xbvz0vq8a8pxjdmzjbhw7"))))
+            "071c8ck48vg0cc517vq8xbz1637khg0mgbr5c93ixi0218c5mhwz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -30825,17 +30825,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230801.2002")
+    (version "20230805.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "5b56203a4511e434ee5c200f90775f0ea6d0c94b")))
+                 "d8bf793f478e2f7b314c90edb188fa3ded6dc6da")))
         (sha256
           (base32
-            "0p5y43d6nnx0946bbv6375wsl2j8xblxl3lnccqhn6y9lmf9py5c"))))
+            "0brc20ikkvlhf2c62qyrkbd06l4lzzkx3caifs37v2qi681mm4nq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -51524,17 +51524,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230805.533")
+    (version "20230805.926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a3385dfa5d0e2d06bf83b12c95e0783b297f5272")))
+                 "a19d2742dd162fdd716ed6eecac6d7b310a375d5")))
         (sha256
           (base32
-            "0k4x9058m47sz5vjp9cs4md3g0vb7zlkahmrngdshzmwqy1b2hdx"))))
+            "185zdl8cfl5r9cv6gczsiyhp2dyx79q956mrbcgjbjvxvsmwfv6v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -65235,17 +65235,17 @@
 (define-public emacs-kconfig-ref
   (package
     (name "emacs-kconfig-ref")
-    (version "20230726.1446")
+    (version "20230805.737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seokbeomKim/kconfig-ref.git")
                (commit
-                 "7953808d1cf79a7794c4fe9826acf98063efc636")))
+                 "d2f27295053805c5ef4eea5f74e1920f4a24cb25")))
         (sha256
           (base32
-            "034w5560mjzlnbwpb1iqakbb0zaz2bk73jhx38hc9ysbqbi9k2xh"))))
+            "0ypbv9ydwdkph9jhg7bzwskz6ihdwidqgxbyspb8mwwgrsq91zgi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-projectile))
     (home-page
@@ -72806,17 +72806,17 @@
 (define-public emacs-mandm-theme
   (package
     (name "emacs-mandm-theme")
-    (version "20220426.1131")
+    (version "20230805.739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/choppsv1/emacs-mandm-theme.git")
                (commit
-                 "4991bbc4b17308f5dc53742dc528cbfdc467ee01")))
+                 "8f3d6497aca7b0e6a8dc759b307d20fcb68920d9")))
         (sha256
           (base32
-            "1wykcvsw54fla7n01xqclbm4vmfpp4iikw3aqb7m04h0ayx56y02"))))
+            "0az2w80iiza3s2f4qr10rkd70dgj86vklfv35ibvm4g1fxw4i5bz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/choppsv1/emacs-mandm-theme.git")
@@ -72953,17 +72953,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230804.2154")
+    (version "20230805.915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "1e0c156b0e7931a9aef8ca79dbab0cb690245bcd")))
+                 "17fffc685731a1459fb5faa9e376b75ebe225d5c")))
         (sha256
           (base32
-            "0n0cr3adc4w34gfwilfkl4x37h9w0cg3q2g6mgi5xn65b3nkljxf"))))
+            "09p96fzlibak0ma2rpvyzjsrgfr74jwdbp0lgdqm2z1nlpv1hl08"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -124861,17 +124861,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230805.614")
+    (version "20230805.1207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "d8f92a54c51c29faa2dbf7485a83e5a67feee11d")))
+                 "eb518d68956494396bfad5effb6b0b5ff24a4a70")))
         (sha256
           (base32
-            "05mzkjp36pm0fpvy3kjh7jckf2ca54xylivh8lahgcpn7llg59pz"))))
+            "0n6cyi46cqnm6azqc2744sscf1cxhpa1qrxi6n1xq3lvmpnrgnkh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -124886,17 +124886,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230805.614")
+    (version "20230805.1207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "d8f92a54c51c29faa2dbf7485a83e5a67feee11d")))
+                 "eb518d68956494396bfad5effb6b0b5ff24a4a70")))
         (sha256
           (base32
-            "05mzkjp36pm0fpvy3kjh7jckf2ca54xylivh8lahgcpn7llg59pz"))))
+            "0n6cyi46cqnm6azqc2744sscf1cxhpa1qrxi6n1xq3lvmpnrgnkh"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
