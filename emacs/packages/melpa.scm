@@ -25355,17 +25355,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230806.414")
+    (version "20230806.952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "9ffebb5783fa9c241ce470cb52bb3cd0b40e9228")))
+                 "07bc0220582899cbecaed7d182c8ee9a9964acde")))
         (sha256
           (base32
-            "088gxkxr4m6gjgazpw3m27gl5cn2v357b5fmc2k7cxxxmkzkshvd"))))
+            "1s5f5hg97fpr0i3k81dnw12xgqykj4rcic6mw82nlhsb9l5a0h5b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -34093,17 +34093,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230718.1411")
+    (version "20230806.1010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "669dc20279533fe2ecaf76b8a02422205b8629f2")))
+                 "2b1e18552216a05014fa5ffe4cb54f595b1008a7")))
         (sha256
           (base32
-            "00bycifby8sjwr73z6nhhnl8hqbl9afhcr6swrs7dr5b6hklgvr4"))))
+            "1qwx2lym90225s1ckzjhnx6m9iv1k7h09zxg6a279kzrx4l03qn3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -51184,17 +51184,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20230804.640")
+    (version "20230806.1107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "e8358945845b15cbcc4c1479e51b5236bac61b72")))
+                 "469d4d6bc87a761598002ea533fb4db5768771ba")))
         (sha256
           (base32
-            "023ia02smn9ib2p3ssxzgbfxd6r2aww9dmxipy4qb71q8ancn1f1"))))
+            "0nrsg9w4q4y9qqnqhwm81ds5w9xjdab97jnjfyx9a56gmpqxsby1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -51525,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230806.517")
+    (version "20230806.720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a9899a20df50aa8600d40c6553e12ce2d1f57aef")))
+                 "663e98024c4ec322766010183901b2a4067fac68")))
         (sha256
           (base32
-            "0wpym5b0qy1pfc6kw2qlyqbypvq10b2cl85h56jxfql922j1b9pc"))))
+            "1a9785x2zw87zar2ywj7l7p9xc67n0bdz3vmi0325aqz4swbmfym"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -86138,17 +86138,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20230806.741")
+    (version "20230806.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "0971b910dcaeed62f6a0afd5c31585a510d4eeb6")))
+                 "9c6d4c832419d91d0ab2fc5395239d33cc47f2ec")))
         (sha256
           (base32
-            "0bsn8m505sj1pfks1gws2za3yvrqqk99nbqm2c4qcz6n6bxk0hr4"))))
+            "0iswjq8q6lf07v3r0xsb01z2wll6vz3879jq4r4qgcil023n239x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-nerd-icons emacs-fb2-reader))
@@ -91228,17 +91228,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20230804.654")
+    (version "20230806.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "bc1ccda5e9accefcafa42712a274197a4b465733")))
+                 "91d0f1077c78753e09973d63fb3e571413a4c206")))
         (sha256
           (base32
-            "05fcanm4rj0crk5309yg8q3z4gxrzqf3y3sr8pbh10frxv99j9cg"))))
+            "0afqvsqz5rx39k7k84ffcnf97px8ckmdgq23w19gdxxnzh7vv87z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -91254,17 +91254,17 @@
 (define-public emacs-package-lint-flymake
   (package
     (name "emacs-package-lint-flymake")
-    (version "20230804.654")
+    (version "20230806.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "bc1ccda5e9accefcafa42712a274197a4b465733")))
+                 "91d0f1077c78753e09973d63fb3e571413a4c206")))
         (sha256
           (base32
-            "05fcanm4rj0crk5309yg8q3z4gxrzqf3y3sr8pbh10frxv99j9cg"))))
+            "0afqvsqz5rx39k7k84ffcnf97px8ckmdgq23w19gdxxnzh7vv87z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-package-lint))
     (arguments
@@ -115510,17 +115510,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230724.1602")
+    (version "20230806.1040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "4853a0bda9895f2e70ce3325c005b2bae961ee7f")))
+                 "c9d51f23bf2d4cf00b3b8686394333ae3ede27b2")))
         (sha256
           (base32
-            "103xhkgyly6qzcrrwp5ivnrlg3wn9wlzbf8rx2qg5hprchalmghy"))))
+            "0cnjm4awb7y6fjp2i0wxsks2vd8vvnscrym4rc97gmhc3dlpjn9b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
