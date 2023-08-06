@@ -9236,17 +9236,17 @@
 (define-public emacs-bshell
   (package
     (name "emacs-bshell")
-    (version "20201219.139")
+    (version "20230805.1646")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/bshell.git")
                (commit
-                 "469c841f19f28c271b4f172b40f3f9ca830254df")))
+                 "57f3409168ec9649508e3ee30d0d2de8f81b960e")))
         (sha256
           (base32
-            "0hchii00gi2cpzmb8n8r7dh6fr4x8x5p2n6c5d62wxwm6wpppyzp"))))
+            "1pmaz7gw45y7mlina3h0db26khdsbmlcw7adkvri33sgrr9x83q7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-buffer-manage))
     (home-page "https://github.com/plandes/bshell")
@@ -12360,17 +12360,17 @@
 (define-public emacs-choice-program
   (package
     (name "emacs-choice-program")
-    (version "20220801.1839")
+    (version "20230805.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/choice-program.git")
                (commit
-                 "a79b2134cf335aa591bef679264be6f0cebdd1e5")))
+                 "90df8d118c20d5d05ee97daf81012dc39759be92")))
         (sha256
           (base32
-            "18h8rrr4rsim4lsf12qfpw6k3hh68c92synpihx7rjd6za4sndb5"))))
+            "0vjff8vym4c9j6ddpivgsg23463k6k7ay8wa2harmib2bbrzqk75"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -25355,17 +25355,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230805.944")
+    (version "20230805.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "d45f341b5e19be9cff7dd4e6751aa11b654d8f27")))
+                 "608c97f3e1c71d0bc0988a1834a43260e344033e")))
         (sha256
           (base32
-            "0srd2aav4inkm8n0pc9y72mq4gqk1dq3m6h6mhzbbg6sci0qqna3"))))
+            "02h4nq711q8fqb1p2wwl8zasy6zfbi896641qdl30rw5s1dylybq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -28682,24 +28682,25 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230805.1048")
+    (version "20230805.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/eldev.git")
                (commit
-                 "6fc93733b65a4455a479549690f37ee993efab1e")))
+                 "476027c2ccc3c10591eea2adb02daa1697927367")))
         (sha256
           (base32
-            "071c8ck48vg0cc517vq8xbz1637khg0mgbr5c93ixi0218c5mhwz"))))
+            "01jhv1pkkgx731qq490msn96fjx6l95y4r54h70nfi9a9bpzxxv8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
         (:defaults
           ("bin" "bin/*")
           (:exclude "bin/*.in" "bin/*.part"))))
-    (home-page "https://github.com/doublep/eldev")
+    (home-page
+      "https://github.com/emacs-eldev/eldev")
     (synopsis "Elisp development tool")
     (description
       "Documentation at https://melpa.org/#/eldev")
@@ -31395,17 +31396,17 @@
 (define-public emacs-empv
   (package
     (name "emacs-empv")
-    (version "20230730.932")
+    (version "20230805.1633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/empv.el.git")
                (commit
-                 "7a57fa24e618b05dbc73f96d3a4679d3211a9f09")))
+                 "60df27d081735a65d63c0c64207fd9a0a10683fa")))
         (sha256
           (base32
-            "1bl1y3gpnb2mjqw6salm7i4r4n15b3cyg82pqf1r4havdndqymar"))))
+            "1mb1p29z25sdja3bbm7akh0ca40q1d6b3m44qb8qvikxpb6wkj13"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/isamert/empv.el")
@@ -33948,17 +33949,17 @@
 (define-public emacs-eval-in-repl
   (package
     (name "emacs-eval-in-repl")
-    (version "20201121.1341")
+    (version "20230805.2125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaz-yos/eval-in-repl.git")
                (commit
-                 "2abb9ccf6f08ae3a5ab504f0b3fd81ce0345b766")))
+                 "a57c6a790c0ca72b0d1218b837d3114ef874dd1f")))
         (sha256
           (base32
-            "1707c7v6n2w94nnlb6n08y2m11bh7abm6fks2zrf0i80srxb8mrk"))))
+            "013g72lxc2qpk55v9c4im1977imiw0gc1l78srimpgm117jjhs4x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-paredit emacs-ace-window))
@@ -38761,17 +38762,17 @@
 (define-public emacs-flex-compile
   (package
     (name "emacs-flex-compile")
-    (version "20230721.2034")
+    (version "20230805.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/flex-compile.git")
                (commit
-                 "e308d3d9400bc3e0e69eb53e133f1f2e7163d4d4")))
+                 "58890e08800059550565a20dc7029e8bcccc55de")))
         (sha256
           (base32
-            "1hdc7dvbrxv65qn7kwkam7dbsf6xmrirvsy6rbxg6xj0xmrg3vg1"))))
+            "1q5604da9b9gmg1ci5931fzwrqzkc5n5f02mcfvdk7vfhsakdlaj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-buffer-manage))
@@ -44342,17 +44343,17 @@
 (define-public emacs-frimacs
   (package
     (name "emacs-frimacs")
-    (version "20230409.1041")
+    (version "20230805.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pdo/frimacs.git")
                (commit
-                 "dfba4a1ca94b5f1d29659c3f786647dcdc315672")))
+                 "0ff73440dcaced28cf35e5e542c8936702395185")))
         (sha256
           (base32
-            "1gfr8mrgsyqi010fldg30lwb6wkpr1x8ashbqmshdp1m5fyza2jr"))))
+            "0qnxsggq14fs06f70sm9b5wv799hqnqqp769b5rvv950qck0hfhq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -51524,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230805.926")
+    (version "20230805.1606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a19d2742dd162fdd716ed6eecac6d7b310a375d5")))
+                 "cc045f492ed07692987808f82b7c2bcfd59551e2")))
         (sha256
           (base32
-            "185zdl8cfl5r9cv6gczsiyhp2dyx79q956mrbcgjbjvxvsmwfv6v"))))
+            "022y5bix4jmh7gbhs0nfyl1c6ggavkx630glrr31g1rf10gpc40j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -52285,17 +52286,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230801.522")
+    (version "20230805.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "35b293c2a2297bb23c7e11ccb610386dd4c11f2e")))
+                 "cc045f492ed07692987808f82b7c2bcfd59551e2")))
         (sha256
           (base32
-            "1cipisvhbkx65f5nd3zxxf14972k2vihsxx5w557mhwlsdgly23m"))))
+            "022y5bix4jmh7gbhs0nfyl1c6ggavkx630glrr31g1rf10gpc40j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -72998,17 +72999,17 @@
 (define-public emacs-mark-thing-at
   (package
     (name "emacs-mark-thing-at")
-    (version "20201219.232")
+    (version "20230805.1701")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/mark-thing-at.git")
                (commit
-                 "a622d128afc8d2d67de897666a1e2eccba8d7818")))
+                 "22ce137450890421c8dce79943c96dec79a65d77")))
         (sha256
           (base32
-            "1zb0ynwficxninyw89z53qf78s1ns60nh4cyzk96m05jlcaa1s44"))))
+            "0fw3198mlxa22pq0qg0xakckc3hi540nv72a21gh071ii2mc2wl1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-choice-program))
     (home-page
@@ -73044,17 +73045,17 @@
 (define-public emacs-markdown-changelog
   (package
     (name "emacs-markdown-changelog")
-    (version "20200120.2253")
+    (version "20230805.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/markdown-changelog.git")
                (commit
-                 "1a2c3a4c3e4196f2b5dbb145b01b4bc435a93a96")))
+                 "81d7c1c03722089daa3749bfb031d7f849772572")))
         (sha256
           (base32
-            "0dw9bz1iq8v816n0z4v9zc6nsrx4qzl99q2pj04f37s7x9vgmc4x"))))
+            "0v2vnpv9638ra56z5r320p6fp3mj7brr1rf8n1pan8j3fr3g1zyz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -73854,17 +73855,17 @@
 (define-public emacs-media-progress
   (package
     (name "emacs-media-progress")
-    (version "20230701.911")
+    (version "20230805.2231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jumper047/media-progress.git")
                (commit
-                 "9f5e5bfa2c187680bb737c2b069650407ab6230d")))
+                 "951742e9e741a71bf527a23bf56deeedb12af7bd")))
         (sha256
           (base32
-            "0k59rjgdchi98vhkbcwy3ymcx5279w1hnimp9gphg7x6lkxsv6ph"))))
+            "0f6h1w8nz9038pmlgmabv28qpq3n80fs812a4gz6773gknd50cjz"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("media-progress.el")))
     (home-page
@@ -91158,17 +91159,17 @@
 (define-public emacs-package+
   (package
     (name "emacs-package+")
-    (version "20210124.640")
+    (version "20230805.2115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zenspider/package.git")
                (commit
-                 "079da78f3be8364e964f5861a5f433ad61b6f654")))
+                 "57a53a1da75d76a9dcd17008d1c1d77475b9671a")))
         (sha256
           (base32
-            "0xxs4iaqxgdgqklrcjj2ydnr9p0l5277xi8gkbar06j65k1l28pj"))))
+            "1qdbn78xsc7r0bx1fpsbf3amf0wc9h84mj60fyxich1jqyq3m7j3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/zenspider/package")
@@ -104732,17 +104733,17 @@
 (define-public emacs-rust-mode
   (package
     (name "emacs-rust-mode")
-    (version "20230803.746")
+    (version "20230805.1558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rust-lang/rust-mode.git")
                (commit
-                 "601824cf552d09db62f0cef42c00dc85bd728b04")))
+                 "fac7d284d24080d0886c47d20bbddbf60ec51511")))
         (sha256
           (base32
-            "1591ls91hpwbk2sslgqspgqq1yflj8hp0a7vvyxcl4slpyxal4qy"))))
+            "0xws2s65r67n9djn3cnydlq4bnjhcak5kfnbcp7d1a2cj6bdwj08"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rust-lang/rust-mode")
@@ -105262,17 +105263,17 @@
 (define-public emacs-saveplace-pdf-view
   (package
     (name "emacs-saveplace-pdf-view")
-    (version "20210217.1312")
+    (version "20230805.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nicolaisingh/saveplace-pdf-view.git")
                (commit
-                 "54ed966b842501c3c092dbf57b372e37b033c578")))
+                 "abfb5e1f463cffc18218a0f7f2fa141a271b1813")))
         (sha256
           (base32
-            "0i03qb6qc2agp9s5s7l08f1wl8anqndh6xshg1c3w357vd1whv7i"))))
+            "1ijzsizxbq33wv84hz4km3x6nsaqxn8v9qh2835vnrfxk6n6cr4p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nicolaisingh/saveplace-pdf-view")
@@ -124265,17 +124266,17 @@
 (define-public emacs-wfnames
   (package
     (name "emacs-wfnames")
-    (version "20230712.1154")
+    (version "20230805.1952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thierryvolpiatto/wfnames.git")
                (commit
-                 "4447417c58b063df1fca1ba4bec9cb650c7beb60")))
+                 "7b50001525b477a66e74bb1f749195d59f800872")))
         (sha256
           (base32
-            "0pckwgrn36qsmi62953hvcwh2r3nbhvcc5w76dzwl91hviqqmfri"))))
+            "08sv0vy0niknwwgz95fdf1k5cd4mr0cmf9j752w54imjh047mj8b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thierryvolpiatto/wfnames")
