@@ -25355,17 +25355,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230805.1703")
+    (version "20230806.414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "608c97f3e1c71d0bc0988a1834a43260e344033e")))
+                 "9ffebb5783fa9c241ce470cb52bb3cd0b40e9228")))
         (sha256
           (base32
-            "02h4nq711q8fqb1p2wwl8zasy6zfbi896641qdl30rw5s1dylybq"))))
+            "088gxkxr4m6gjgazpw3m27gl5cn2v357b5fmc2k7cxxxmkzkshvd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -49433,17 +49433,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20230728.2305")
+    (version "20230806.41")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "0f161a466b880cde864d8aa709ec04e1a86f445a")))
+                 "c0ffce0849c8596d763d0ad603b9d67f75e93161")))
         (sha256
           (base32
-            "1aac0jds8hzyfvav06mhqm32v81swrnvyv0ldrkd7qxc2b1x4q7n"))))
+            "11i5w3fb5x231xg4swmkgr022805rs8q3lv54g42111hv4a1d3xr"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple ChatGPT client")
@@ -51525,17 +51525,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230805.1606")
+    (version "20230806.517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cc045f492ed07692987808f82b7c2bcfd59551e2")))
+                 "a9899a20df50aa8600d40c6553e12ce2d1f57aef")))
         (sha256
           (base32
-            "022y5bix4jmh7gbhs0nfyl1c6ggavkx630glrr31g1rf10gpc40j"))))
+            "0wpym5b0qy1pfc6kw2qlyqbypvq10b2cl85h56jxfql922j1b9pc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -52286,17 +52286,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230805.1946")
+    (version "20230806.517")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cc045f492ed07692987808f82b7c2bcfd59551e2")))
+                 "a9899a20df50aa8600d40c6553e12ce2d1f57aef")))
         (sha256
           (base32
-            "022y5bix4jmh7gbhs0nfyl1c6ggavkx630glrr31g1rf10gpc40j"))))
+            "0wpym5b0qy1pfc6kw2qlyqbypvq10b2cl85h56jxfql922j1b9pc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -86138,17 +86138,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20230524.1244")
+    (version "20230806.741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "003e0967d85f9589bc828cf044c149fd59b45d2e")))
+                 "0971b910dcaeed62f6a0afd5c31585a510d4eeb6")))
         (sha256
           (base32
-            "1g01gkxxpc9428fq2wnnrnsrxpq442x5xg24jp1wih2d6296q4li"))))
+            "0bsn8m505sj1pfks1gws2za3yvrqqk99nbqm2c4qcz6n6bxk0hr4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-nerd-icons emacs-fb2-reader))
