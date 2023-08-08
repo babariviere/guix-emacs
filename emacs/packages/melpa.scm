@@ -11993,17 +11993,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20230806.1418")
+    (version "20230807.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "c5f470a182027b6afde3e39558837e22c7fe282a")))
+                 "b2e46cfa69d7cc514b5c2f9a31c1ca63a8bdea1d")))
         (sha256
           (base32
-            "0249xpryafjsp9ghacshkqiw0nf56adl60aqhnpcy5wza5mkm516"))))
+            "058ir6pfd4jzswry9rap161rz15f59k8d1zxxwbkm9ixisqkldby"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -12430,7 +12430,7 @@
 (define-public emacs-chordpro-mode
   (package
     (name "emacs-chordpro-mode")
-    (version "20230806.1957")
+    (version "20230807.1606")
     (source
       (origin
         (method url-fetch)
@@ -12440,7 +12440,7 @@
                ".tar"))
         (sha256
           (base32
-            "1i9zn0frf6rzk49cr0dnryz4vrm8f4qfq18ldhqdjjz113jcbhba"))))
+            "006gmj4vcpczysvlm3dv6xq7cvyydx18vrgnbxznmgihxq3758hm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -20739,17 +20739,17 @@
 (define-public emacs-dall-e-shell
   (package
     (name "emacs-dall-e-shell")
-    (version "20230709.2036")
+    (version "20230807.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "a4efa0990a1423bbd61880e298d981f71d516a6c")))
+                 "b2e46cfa69d7cc514b5c2f9a31c1ca63a8bdea1d")))
         (sha256
           (base32
-            "1qxrn0c8fcs5zr702hz2i8584268q2dlhwzizyykrl2ikrfx6afs"))))
+            "058ir6pfd4jzswry9rap161rz15f59k8d1zxxwbkm9ixisqkldby"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("dall-e-shell.el")))
@@ -22618,17 +22618,17 @@
 (define-public emacs-diff-hl
   (package
     (name "emacs-diff-hl")
-    (version "20230714.27")
+    (version "20230807.1516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/diff-hl.git")
                (commit
-                 "d9e34f7b8110b7f753c237d0d0b3f267f3ca4779")))
+                 "b5651f1c57b42e0f38e01a8fc8c7df9bc76d5d38")))
         (sha256
           (base32
-            "1y32468c9mqanscml9igfi4ypmrfswa2vqk5i4sd94isk2rr9pa9"))))
+            "0w7qhdkgqkk6z306n2c0cx188bbqqsg5vdbxbv1z7pgb3nwdc8ad"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dgutov/diff-hl")
     (synopsis
@@ -33536,7 +33536,7 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20230807.1402")
+    (version "20230807.1422")
     (source
       (origin
         (method git-fetch)
@@ -34140,17 +34140,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230807.852")
+    (version "20230807.1724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "4a76895b8112847940a350a7bcf9b4daf9f39ba5")))
+                 "6e30037fdc6a275d78d6b82d89bd8e47bcf4d4e3")))
         (sha256
           (base32
-            "1rjczcmv0i26nsc43rgqkjksp83njnsvypxrvz5yvlsfh7r742pc"))))
+            "1v3sm8y9ikgsrf37akwjs2irqwr48r0y89m753s768p8hw08d5w8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -35596,17 +35596,17 @@
 (define-public emacs-evil-test-helpers
   (package
     (name "emacs-evil-test-helpers")
-    (version "20220425.2132")
+    (version "20230807.1724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "008a6cdb12f15e748979a7d1c2f26c34c84dedbf")))
+                 "6e30037fdc6a275d78d6b82d89bd8e47bcf4d4e3")))
         (sha256
           (base32
-            "1hxhw1rsm0wbrhz85gfabncanijpxd47g5yrdnl3bbm499z1gsvg"))))
+            "1v3sm8y9ikgsrf37akwjs2irqwr48r0y89m753s768p8hw08d5w8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (arguments '(#:files ("evil-test-helpers.el")))
@@ -63077,17 +63077,17 @@
 (define-public emacs-jazz-theme
   (package
     (name "emacs-jazz-theme")
-    (version "20230806.1518")
+    (version "20230807.1827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donderom/jazz-theme.git")
                (commit
-                 "54777a103746a0b6413ce0210326e3d2c10a0288")))
+                 "099429a7811a7529cba66088ab71716d76658f8e")))
         (sha256
           (base32
-            "0c1lycnfkzskf63cqgxs22fj8m9kv13yl31692n5vqp4d52sccbz"))))
+            "127np0zs4332gipc55794ww4p4pkl5jwpsbwm5091ilpkjjc7x0a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/donderom/jazz-theme")
@@ -73229,17 +73229,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20230807.212")
+    (version "20230807.2338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "8781cf9732c878621fd5821ccf8dfb731bf16f16")))
+                 "b403120e60702c9dcc6c702a309533d4d92da150")))
         (sha256
           (base32
-            "1mn71zp4g0xf965d34ygvrk65y8pjfk4g7nl3xbl1rcy5q7qkhbx"))))
+            "114pqnakmmj6vycn1hnczf9880zipfp3bqd63j09q9xspqkck6hq"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -76940,17 +76940,17 @@
 (define-public emacs-mozc
   (package
     (name "emacs-mozc")
-    (version "20230804.1700")
+    (version "20230807.1644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/google/mozc.git")
                (commit
-                 "c2ccb4f6a65ddda244cfa103d8cdfe6aaeaf5eda")))
+                 "9a925ee918e4b9c0266fb61b5cb2735f21ee6f1a")))
         (sha256
           (base32
-            "1wp09wrrs78h9zqcwl8h9z2d3r2xn8l9r8fi7z1rawvd53nalyzf"))))
+            "1lfkn09jrw50slzd127vwypflhyd1sjl38sd98k3nksnkdp4kski"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/unix/emacs/mozc.el")))
     (home-page "unspecified")
@@ -91126,17 +91126,17 @@
 (define-public emacs-ox-tufte
   (package
     (name "emacs-ox-tufte")
-    (version "20230806.1726")
+    (version "20230807.2025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ox-tufte/ox-tufte.git")
                (commit
-                 "108465438ba82ea0b2293fb64bd8645bc89ccbbe")))
+                 "fc14986363503b5aafa733e57e323533c38c4bd8")))
         (sha256
           (base32
-            "1vbjldrg3k3k8yj4g9pqlzz8glzdhnfrzprjgp8ygk0g8yazvjj0"))))
+            "1p5qkghs5qwbkd1nshcbxbgllnxg017rabkfwlb9mmhwpfb154mj"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "src")))
     (home-page
@@ -118952,17 +118952,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20230719.2015")
+    (version "20230807.1952")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "aa0944a29eee48302fd76b6c3a59c5aece114fa6")))
+                 "e4a56c6463c841ad298f30d4e886b4eababf75e9")))
         (sha256
           (base32
-            "09finy1y3jc72f5ar891bi2xsynd31g7pl8f27m2zbpc7r4la8mi"))))
+            "0v0v5ywi48qn55r3gbmw6lsk96j5cmzwwcbyk84i987h3drhmdi5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
