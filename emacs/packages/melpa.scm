@@ -34337,17 +34337,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20230724.1631")
+    (version "20230808.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "286d69de179cf70c00963a998a4beb826b51414a")))
+                 "1ad283f5b7ac9320ac3d41bccfc71a52f714563a")))
         (sha256
           (base32
-            "1a91n86arx99f6qf04h9ffj2adp5r4jb070znfy9l3w7m07b4564"))))
+            "0cw6qy5xz4w0wmpf9cniy1y5s6xm2v84vl6dffvav30sn09apv5z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -79205,17 +79205,17 @@
 (define-public emacs-neotree
   (package
     (name "emacs-neotree")
-    (version "20200324.1946")
+    (version "20230808.237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jaypei/emacs-neotree.git")
                (commit
-                 "98fe21334affaffe2334bf7c987edaf1980d2d0b")))
+                 "53c0e55034644236ee3761037e0dcfcd1c881c45")))
         (sha256
           (base32
-            "1m4d5l48k1frbkspk6wlzhbjn133bj7spp5chlgv8p4p9rpnc2zr"))))
+            "1rwm8j48ks9fa5q3g8crpfzbikxfjj5m13w9ylimg34xniycrlq2"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
@@ -112274,17 +112274,17 @@
 (define-public emacs-sqlformat
   (package
     (name "emacs-sqlformat")
-    (version "20230807.556")
+    (version "20230808.543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/sqlformat.git")
                (commit
-                 "843c375783de963702bc993f06df8b7abf9fbaf4")))
+                 "ce8f5ea74c260ff0b8353a2df62d36aa39141403")))
         (sha256
           (base32
-            "10hrqkwsiya8vrfaxfyp8fkdnpa13i3hivnil38h8v789kywc67v"))))
+            "13xh49hkp8fh224idl1f6isrc7bm35jcsidrig59kk5dp8xwmbs7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
@@ -117612,17 +117612,17 @@
 (define-public emacs-tmsu
   (package
     (name "emacs-tmsu")
-    (version "20230807.1224")
+    (version "20230807.2218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vifon/tmsu.el.git")
                (commit
-                 "9b8d650a2b135da1a516a16b94a98eba3301c0bc")))
+                 "8207b4140fd1b3eff2ec4b9818e67148139cb72f")))
         (sha256
           (base32
-            "1lqlzdfdqmks1cs985b9mw195rrz9qmqdwj4yhkkfm7ayhhpm1vq"))))
+            "02ipyb19s961k05kmbika302rfipzcgpvm0g1q3pxn7arxs9s3kl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "ol-tmsu.el"))))
@@ -124479,17 +124479,17 @@
 (define-public emacs-wfnames
   (package
     (name "emacs-wfnames")
-    (version "20230805.1952")
+    (version "20230808.528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thierryvolpiatto/wfnames.git")
                (commit
-                 "7b50001525b477a66e74bb1f749195d59f800872")))
+                 "e4d60978921b8a52693aebae988717261c89ed38")))
         (sha256
           (base32
-            "08sv0vy0niknwwgz95fdf1k5cd4mr0cmf9j752w54imjh047mj8b"))))
+            "01hl4wsr0wvvj16imabpx61zwprhb6sxllndc94qc4z3b6zr6vfz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thierryvolpiatto/wfnames")
