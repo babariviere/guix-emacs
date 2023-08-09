@@ -7953,17 +7953,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20230729.1330")
+    (version "20230809.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "150f65c408f791f8a8526f6c4666dcbbbea3e219")))
+                 "6496ce970a6cdb7536232720ea02b094642697c3")))
         (sha256
           (base32
-            "0dp3zj0dk46df3qc7dy05k822w2dnj147chvz387ldk94rqnmsb0"))))
+            "18x70jmnfnxmipkl68jm8g8fczgp0dyk5rnhx91lzr9zy5cb8gj5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -10621,17 +10621,17 @@
 (define-public emacs-calibredb
   (package
     (name "emacs-calibredb")
-    (version "20230118.954")
+    (version "20230809.927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chenyanming/calibredb.el.git")
                (commit
-                 "0ea8ccc41bbf4c6d105d9d2eddffa25d040f0e8d")))
+                 "588039aeb471c0bdabea36dab5e1c37441d38fed")))
         (sha256
           (base32
-            "1dha52nv0gscy4bp1z5z40l15nzqbpl0frgjx08i7mbzf55a3nlv"))))
+            "1kvnyc3gz6p8l0ssf9cqb9iwyf7wl3df9gnz9dp00v2hvx797y63"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -12660,17 +12660,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230804.1656")
+    (version "20230809.1015")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "eedbab26684cb1ce01a940b5b0da9ff78aeb4eac")))
+                 "9372e25c0d10525cec304072f0d5c382c695e24d")))
         (sha256
           (base32
-            "02xm1d80z91mmg1l8pgfb4grfp7bfjk0lqsgrw35gfc49x5lf47r"))))
+            "0ixsccvgr1h2ai9pv5l52fhyajbrdzzy2w78ivf2lbh5hw3za58x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -26289,17 +26289,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230809.416")
+    (version "20230809.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "2ffaef3077c6450edc3264feefa2b738fb3fd14d")))
+                 "84136b700cf1f683f250134c0c050034bd2bcceb")))
         (sha256
           (base32
-            "19f5rklknz89qdlbxv2jc9b27qgls25sxjiaxj6mga8wklm31fgv"))))
+            "1814xnkzaxjdd023rwz9q42gr4y3779chspfs4zj5va78359xfxz"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -31724,17 +31724,17 @@
 (define-public emacs-envrc
   (package
     (name "emacs-envrc")
-    (version "20230804.652")
+    (version "20230809.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/envrc.git")
                (commit
-                 "d8fe5d293253a0d431034cd7294e6fb561c4950f")))
+                 "dbb8f3e580909d1942fa4e27381b6f97b668b3c2")))
         (sha256
           (base32
-            "1a4ixhvs53ymcm0fjlvnh47rd0sp23w4ngns4m0ydcs5vq8hwq5m"))))
+            "03i4xjndzxdpj7f0fkmrzsyd8h8mjl3ipr0ymajwzpxvw6w729sj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inheritenv))
     (home-page "https://github.com/purcell/envrc")
@@ -34140,17 +34140,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230807.1724")
+    (version "20230809.923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "6e30037fdc6a275d78d6b82d89bd8e47bcf4d4e3")))
+                 "26db9441a13ebedb2481d7ada4c3b5e60ec22795")))
         (sha256
           (base32
-            "1v3sm8y9ikgsrf37akwjs2irqwr48r0y89m753s768p8hw08d5w8"))))
+            "18v019kl9y5ps4rd2wljifd9kwcj71z5y61q4z4kxns9w0gi4v6d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -58328,7 +58328,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230809.14")
+    (version "20230809.701")
     (source
       (origin
         (method url-fetch)
@@ -58338,7 +58338,7 @@
                ".tar"))
         (sha256
           (base32
-            "195pmvbq9s6ynbdzc717818yv03y0hgn9x1aikjdr9khm0ap7rg5"))))
+            "1k9p4a81yp5m7xfwra8pb8wg7a7arc705w9gjca9cb3jjwjvyy9i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -59535,17 +59535,17 @@
 (define-public emacs-igist
   (package
     (name "emacs-igist")
-    (version "20230807.831")
+    (version "20230809.756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KarimAziev/igist.git")
                (commit
-                 "ff8be673decc92d1dbfbfbb66785aaa2adec0b63")))
+                 "114f4dcedf057c6e32d87db431f2b1938b77a4e5")))
         (sha256
           (base32
-            "1prqi66dj2xyq0hazqccirpgfb1j9rx8p2m53fkgnpdywq8kv0dy"))))
+            "1x1gx3ympyxz6aihxb6kjd4qmwqsy1zzhpfcb8h6kl4jgwswibf0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ghub))
     (home-page "https://github.com/KarimAziev/igist")
@@ -63077,17 +63077,17 @@
 (define-public emacs-jazz-theme
   (package
     (name "emacs-jazz-theme")
-    (version "20230808.1937")
+    (version "20230809.1107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donderom/jazz-theme.git")
                (commit
-                 "0884e49c6a8fb7908398dfcaa259f8782cabbadf")))
+                 "b9f20c16378b7acfa89cfd69b4ddb54ea5986547")))
         (sha256
           (base32
-            "0f6zjk2pmgp75gy6i3mxavb21rmnnaf3rk98pn81x18yp778s87q"))))
+            "0gwm0kicfsaqfqyw9p271qj14lxbclhb1wgfkxs7pavcgk92hj9x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/donderom/jazz-theme")
@@ -68327,17 +68327,17 @@
 (define-public emacs-leuven-theme
   (package
     (name "emacs-leuven-theme")
-    (version "20230523.841")
+    (version "20230809.1352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fniessen/emacs-leuven-theme.git")
                (commit
-                 "68f1260a6550f61c928da3f45b894d8d77dc13ec")))
+                 "215afd1a0945b4dcf5a908d4f7b0097b0cc6c546")))
         (sha256
           (base32
-            "0khqlciznwvr0fs74q9ys97zn03rp09hw7z2md3amjwk7vlbbl40"))))
+            "12hmf3l4pg0yqll85v4f0br225719b6j3z687a7vpvdj2iz3ngyg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fniessen/emacs-leuven-theme")
@@ -70935,17 +70935,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230807.716")
+    (version "20230809.1200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "1dcf2facdd72dd38c49aa1dc1a7e0814476010b5")))
+                 "ee58d9eb66f85c2258b9745f721965f0d62071fb")))
         (sha256
           (base32
-            "07zdw5x6sshnk9a7vd1vdp0ifs8cxp8bvif59jpcq11qw24p8c97"))))
+            "1fcc66whiwbxwxvyk4mc785505icfq0j8azplq4iqmn3pkynga49"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -78246,17 +78246,17 @@
 (define-public emacs-mybigword
   (package
     (name "emacs-mybigword")
-    (version "20221219.1033")
+    (version "20230809.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/mybigword.git")
                (commit
-                 "b070c907455e4edd129d3471f338172a5868cc04")))
+                 "13574e2c47a670df4b776b88bd633b2e8a82b2b2")))
         (sha256
           (base32
-            "1l9km7rgidz1ppqrkrnxqzm1c4gjhdp9sxphxv45rqlz9xxllk53"))))
+            "1dpbgm1800l2hb656830z682s4kpdyyd6g8acq1mig1synixspkh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (arguments
@@ -88698,17 +88698,17 @@
 (define-public emacs-org-upcoming-modeline
   (package
     (name "emacs-org-upcoming-modeline")
-    (version "20230707.847")
+    (version "20230809.957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/org-upcoming-modeline.git")
                (commit
-                 "c3e4705ff2ade869e229f33090c92ac671362623")))
+                 "1f39a71fa04d6ee2808bced6dcacfed0f98b2e7e")))
         (sha256
           (base32
-            "1kib6c9426qkfrmhnhqw47r5y9z082xjw1qvbhqwrip69mi06yd7"))))
+            "02k2df8h9rvliw5xwp43xm75ibnr4f38h1b5val28qy01xn2vm44"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts emacs-org-ql))
     (home-page
@@ -95458,17 +95458,17 @@
 (define-public emacs-po-mode
   (package
     (name "emacs-po-mode")
-    (version "20230309.2313")
+    (version "20230617.1058")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsmirror/po-mode.git")
                (commit
-                 "e70aab72a6331bd55f69893fa152be80c44d1bf6")))
+                 "d68aa1da2b95a17d7fe400afd414ce3ede09db86")))
         (sha256
           (base32
-            "13kx0dc5nhc0rxcfnhlin7kj9ip3nbagdh7hlhxr29jrsh2766w2"))))
+            "1px8bd3m4s20f5qzg1g3gvql1wipr6sxgppz1avjrxwvjd92l0ds"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "major mode for GNU gettext PO files")
@@ -125078,17 +125078,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230809.432")
+    (version "20230809.945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "9aea75ebe2d3cc2a3b6b9e02f5a910cd4bd25d38")))
+                 "cc76e709b634eacb744fc19442418d54e65ad765")))
         (sha256
           (base32
-            "01x63a6a1da379mf7pynad9rd8335yk3n2p0knz6px6k4hvwmh79"))))
+            "0r5r8wmb3lc4rgvfkn6pnw9161i0ydzz826m2as20d0bkrl3c70s"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125103,17 +125103,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230809.432")
+    (version "20230809.945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "9aea75ebe2d3cc2a3b6b9e02f5a910cd4bd25d38")))
+                 "cc76e709b634eacb744fc19442418d54e65ad765")))
         (sha256
           (base32
-            "01x63a6a1da379mf7pynad9rd8335yk3n2p0knz6px6k4hvwmh79"))))
+            "0r5r8wmb3lc4rgvfkn6pnw9161i0ydzz826m2as20d0bkrl3c70s"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
