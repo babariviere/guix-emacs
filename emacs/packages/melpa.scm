@@ -6219,17 +6219,17 @@
 (define-public emacs-babashka
   (package
     (name "emacs-babashka")
-    (version "20230704.1224")
+    (version "20230808.2140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/babashka.el.git")
                (commit
-                 "0714564d2092d37751085ac729712f05c2bb1b91")))
+                 "1721f68ea8e34e8a6ab2759a04c1a01cedfdd319")))
         (sha256
           (base32
-            "1gwc7acm46ii1jx86d6rnihi3ga4601nyq411zgp8rm4xj9c1xrl"))))
+            "0yjqwshwhcfylajfsks1xvkgqarcnlhwfdy3i587jdw799434vb0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parseedn))
     (home-page
@@ -26289,17 +26289,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230801.403")
+    (version "20230808.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "271d9c06ecdfadf19e0eaa788c8b90626090d4c1")))
+                 "bf0b7acdad380382f217c4467e49e7a60a4bb93f")))
         (sha256
           (base32
-            "1qssz8crzj5q8c6r4fd90ynl5jsi7drq6pkmv0a82kllzvrqvqrq"))))
+            "02j0nxywph8jm1wacmnj6hnzyzl3frjing43d1hgqahvsyyh85gq"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -30076,17 +30076,17 @@
 (define-public emacs-elpa-clone
   (package
     (name "emacs-elpa-clone")
-    (version "20230804.449")
+    (version "20230808.1523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dochang/elpa-clone.git")
                (commit
-                 "e7645c5d588591d0e566d56df53ec6f0b2df53f1")))
+                 "dfbb68ac183b8c3e6e370c45032790ed7cf52165")))
         (sha256
           (base32
-            "0r7cy7xpbiqdi2qqrkd0z2lifdi9kjws4kmc36hrhjhbsibq5kaf"))))
+            "0lvwa14i1s9dhrpv35gqw3ra5bl006km0k2ygs8issy6vy9y3jll"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/dochang/elpa-clone")
@@ -30873,17 +30873,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230805.1458")
+    (version "20230808.1506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "d8bf793f478e2f7b314c90edb188fa3ded6dc6da")))
+                 "087bad28245a105d084740cd7981ca711f4c5637")))
         (sha256
           (base32
-            "0brc20ikkvlhf2c62qyrkbd06l4lzzkx3caifs37v2qi681mm4nq"))))
+            "19dk9mm364n8mf8968drnvz9gfxa1kaqazasg1gybdnp4775b1a0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -41840,7 +41840,7 @@
 (define-public emacs-flymake-clippy
   (package
     (name "emacs-flymake-clippy")
-    (version "20230730.1924")
+    (version "20230808.2328")
     (source
       (origin
         (method url-fetch)
@@ -41850,7 +41850,7 @@
                ".tar"))
         (sha256
           (base32
-            "1agh2yxzxngzvqzr12pa4kpnzc8wrx70skgkdc020ip12000fm9q"))))
+            "0iy3dzppqw3gdswy6yd2xvdjx1j99sq5bn7f978cf18j401g9mpb"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~mgmarlow/flymake-clippy/")
@@ -43846,17 +43846,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20230723.47")
+    (version "20230808.2212")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "ecbcce94a5581077f8e1cda3e3f2a66c6dd52766")))
+                 "dc777b64ad33d0b70dc2067af8401a9598d21764")))
         (sha256
           (base32
-            "1nq6xiq1hsrl0y7md16ddnkr2ycrsdbf2jjqjyaj3ldvdx9zbs6d"))))
+            "16n0a2376b5516g05g4ax42bl20kylpa1sdbkwvphd7n58agvz95"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -56014,17 +56014,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20230730.1732")
+    (version "20230808.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "6f8991a72c83d904725a9d6c00de2cabbef32de9")))
+                 "c57ff0d284b50ff430fe1f13fd48deaa0d1a910e")))
         (sha256
           (base32
-            "14f1bdcpd8jq912d0rsyj9ajxf8p98rgyc7msx1c24wrknaspjh0"))))
+            "1hw4v1nm71yzlk9pcyp1gi79fwhsadb1a8jqrf9flbglc6bpnz78"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -58328,7 +58328,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230725.2050")
+    (version "20230808.2332")
     (source
       (origin
         (method url-fetch)
@@ -58338,7 +58338,7 @@
                ".tar"))
         (sha256
           (base32
-            "1bca7gcn4mp81d1k4rcnad7zzqnfp5mv4lww53mlq2w18bs7fmly"))))
+            "0yiqrc3f04xk0dc4b7r23a73f2ly750mssx77i2zbcc36621g2if"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -63077,17 +63077,17 @@
 (define-public emacs-jazz-theme
   (package
     (name "emacs-jazz-theme")
-    (version "20230808.1440")
+    (version "20230808.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donderom/jazz-theme.git")
                (commit
-                 "10c4944e1d6e5e02bda1963f5882d4a216e2a119")))
+                 "0884e49c6a8fb7908398dfcaa259f8782cabbadf")))
         (sha256
           (base32
-            "1sw5pxgsq1f64zcz02lrj5zwv5bsjzylwayk7l6jrdr9j373rb62"))))
+            "0f6zjk2pmgp75gy6i3mxavb21rmnnaf3rk98pn81x18yp778s87q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/donderom/jazz-theme")
@@ -64201,17 +64201,17 @@
 (define-public emacs-jsdoc
   (package
     (name "emacs-jsdoc")
-    (version "20230331.647")
+    (version "20230808.2224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/jsdoc.el.git")
                (commit
-                 "10606a37f70cbf419590bbbc292fe1e800435ed5")))
+                 "f37749f252ba9b653d16ccb90886915d84e440f6")))
         (sha256
           (base32
-            "1pzklbg7nnlh94n7npf8iykgqzias4zj8a4qpymz8viq4ar4lswh"))))
+            "193g2jcn84ka0d49br3mwlfb4y0nyhljkyd3i0c3hs2sbr8s6yb8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page "https://github.com/isamert/jsdoc.el")
@@ -68791,17 +68791,17 @@
 (define-public emacs-ligo-mode
   (package
     (name "emacs-ligo-mode")
-    (version "20230803.1446")
+    (version "20230808.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/ligolang/ligo.git")
                (commit
-                 "342af1467a5558f40497933cfdf920ffb6bb1cde")))
+                 "ef5425771b432a76a5062a796896678c24cccc5f")))
         (sha256
           (base32
-            "1625fwwc7n02zgppshmqqvzw0792527irnwx1qhdslx5pvcjbljp"))))
+            "0sz338iyk91kink42gxz5hbv2cxwv8b5invbxc5gdkjfcp5zj7m7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("tools/emacs/ligo-mode.el")))
@@ -83165,17 +83165,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20230722.632")
+    (version "20230808.2143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "907e38cfe1f4c781b66d156862ac26cdb9c1cff0")))
+                 "6ad2861fea6b88e490d5b0a306a0921614a0b425")))
         (sha256
           (base32
-            "1xkc7ax2v6m5xr1912k0xb2fv7xy119nzhl570l8nlrz5ggqv5xd"))))
+            "05q86320karz1hhc8skn69mc25s0qcvl6s4w057sr633wvm8azfx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -91127,17 +91127,17 @@
 (define-public emacs-ox-tufte
   (package
     (name "emacs-ox-tufte")
-    (version "20230808.1443")
+    (version "20230808.1638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ox-tufte/ox-tufte.git")
                (commit
-                 "3e77785ead32477bb752ef3ed11d38d874815345")))
+                 "8419da9eff55802e6191476242923cfa6d680f72")))
         (sha256
           (base32
-            "0idi8zxjfv11gib5czjvnzam0r1s8202rsjcqaypwmf73p90snal"))))
+            "12qpg38jm53w0wg27rqy04wxk1zkzahsfh1skgn4hzzjnwsll6zb"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "src")))
     (home-page
