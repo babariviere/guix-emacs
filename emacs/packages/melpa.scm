@@ -25149,22 +25149,22 @@
 (define-public emacs-docker-tramp
   (package
     (name "emacs-docker-tramp")
-    (version "20220219.420")
+    (version "20230809.511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-pe/docker-tramp.el.git")
                (commit
-                 "930d7b46c180d8a13240a028c1b40af84f2a3219")))
+                 "19d0771db4e6b89e19c00af5806438e315779c15")))
         (sha256
           (base32
-            "05966l3af9lg4nlsz6wrq282ipwxh19ggirfyabjrr1syw3v2crn"))))
+            "1bsmv64vzy4319wvkdljmcxk17xrghmimb9siqs6h2crq7warxhn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-pe/docker-tramp.el")
     (synopsis
-      "TRAMP integration for docker containers")
+      "TRAMP integration for docker containers for Emacs 28 and earlier")
     (description
       "Documentation at https://melpa.org/#/docker-tramp")
     (license #f)))
@@ -26289,17 +26289,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230808.1755")
+    (version "20230809.416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "bf0b7acdad380382f217c4467e49e7a60a4bb93f")))
+                 "2ffaef3077c6450edc3264feefa2b738fb3fd14d")))
         (sha256
           (base32
-            "02j0nxywph8jm1wacmnj6hnzyzl3frjing43d1hgqahvsyyh85gq"))))
+            "19f5rklknz89qdlbxv2jc9b27qgls25sxjiaxj6mga8wklm31fgv"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -58328,7 +58328,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230808.2332")
+    (version "20230809.14")
     (source
       (origin
         (method url-fetch)
@@ -58338,7 +58338,7 @@
                ".tar"))
         (sha256
           (base32
-            "0yiqrc3f04xk0dc4b7r23a73f2ly750mssx77i2zbcc36621g2if"))))
+            "195pmvbq9s6ynbdzc717818yv03y0hgn9x1aikjdr9khm0ap7rg5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -86034,17 +86034,17 @@
 (define-public emacs-org-inline-pdf
   (package
     (name "emacs-org-inline-pdf")
-    (version "20230522.1428")
+    (version "20230809.302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/org-inline-pdf.el.git")
                (commit
-                 "cd61240b598c6c175b84a670f9362f37b4d5589c")))
+                 "4a4a29939f3910adc3183ddc7e352b04de9223e5")))
         (sha256
           (base32
-            "0dm4j5fx88hr1a7s6kk4f4fbrqd0an2xr5mqki5wmrwsl9wl4698"))))
+            "0c9k130ak9yp7dbc4csl70zw959h4bn2iyy9rs6zk8iq2y7b43hf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/shg/org-inline-pdf.el")
@@ -91470,17 +91470,17 @@
 (define-public emacs-package-loading-notifier
   (package
     (name "emacs-package-loading-notifier")
-    (version "20220130.318")
+    (version "20230809.446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tttuuu888/package-loading-notifier.git")
                (commit
-                 "bc06ba97a0537aa202f277e5597ac96ca39307ab")))
+                 "f64f994cb1a55f9d59444deaec884bff0ed2b26e")))
         (sha256
           (base32
-            "0wp3jdbzcjpbx4720nd31fzs5app6phdrbcwisw89361wvmmnhkj"))))
+            "0jwchlkij4fiw3c5xfn04frhpc35ax11ch64mv03rkx5dzqkblqc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/tttuuu888/package-loading-notifier")
@@ -108252,17 +108252,17 @@
 (define-public emacs-sideline
   (package
     (name "emacs-sideline")
-    (version "20230411.1926")
+    (version "20230808.2230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-sideline/sideline.git")
                (commit
-                 "f007bf9a9cf6a90d8b5976a49c33235294cc44dc")))
+                 "e4e97c1ca9fecec104c24f707c3d910af53fb976")))
         (sha256
           (base32
-            "0zh6504n3dw5cv11wkbcl07p1bj9s6zsnz847c9kr185s6gznnjg"))))
+            "0yxi9wj4yfmf4fqdpwyif4cvg5clwbz29jnj9madn4g0kjv8q9gx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-sideline/sideline")
@@ -124345,17 +124345,17 @@
 (define-public emacs-websocket
   (package
     (name "emacs-websocket")
-    (version "20230730.517")
+    (version "20230809.305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahyatt/emacs-websocket.git")
                (commit
-                 "a39ea953f27f6ae105ac5b1343852ddf13438048")))
+                 "40c208eaab99999d7c1e4bea883648da24c03be3")))
         (sha256
           (base32
-            "03g472k7nv0w10ap1z0vvjiwwfmxzkl8nfh6jpcsbvr2c0n8bb7h"))))
+            "0bq0y63rriwsw6v8mn72773iqic2q52vx1j7mfa8br27sm6y1pd4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ahyatt/emacs-websocket")
@@ -125078,17 +125078,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230807.1213")
+    (version "20230809.432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "85c828036b6fa9fd2b2dbb9389adac2040d9146f")))
+                 "9aea75ebe2d3cc2a3b6b9e02f5a910cd4bd25d38")))
         (sha256
           (base32
-            "1yfd14mmbs12sdv1ycajpfll5lp4v6xwz39inlbsaw642a5rkca4"))))
+            "01x63a6a1da379mf7pynad9rd8335yk3n2p0knz6px6k4hvwmh79"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125103,17 +125103,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230807.1213")
+    (version "20230809.432")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "85c828036b6fa9fd2b2dbb9389adac2040d9146f")))
+                 "9aea75ebe2d3cc2a3b6b9e02f5a910cd4bd25d38")))
         (sha256
           (base32
-            "1yfd14mmbs12sdv1ycajpfll5lp4v6xwz39inlbsaw642a5rkca4"))))
+            "01x63a6a1da379mf7pynad9rd8335yk3n2p0knz6px6k4hvwmh79"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -129029,17 +129029,17 @@
 (define-public emacs-zotra
   (package
     (name "emacs-zotra")
-    (version "20230807.332")
+    (version "20230809.516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpedramfar/zotra.git")
                (commit
-                 "2e20fbed40f5b51bc3bd38e8193ceab5bb300005")))
+                 "075e4949ae2b762407d5bdca4b4cddf48b0bcac4")))
         (sha256
           (base32
-            "137nl3j36wrsjzqdjfriqrl8jr768a0m13d0q29076bfxaz54n67"))))
+            "1dfnb4wcjcja9nycra25m9wp6hxm2fawm061v9ldpn4vgc8kmnqk"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mpedramfar/zotra")
     (synopsis "Library to use Zotero translators")
