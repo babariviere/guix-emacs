@@ -7953,17 +7953,17 @@
 (define-public emacs-binky-mode
   (package
     (name "emacs-binky-mode")
-    (version "20230809.1320")
+    (version "20230810.714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky-mode.git")
                (commit
-                 "6496ce970a6cdb7536232720ea02b094642697c3")))
+                 "a1bb3e4197ffeb4f534ee23b860b577a156eb81a")))
         (sha256
           (base32
-            "18x70jmnfnxmipkl68jm8g8fczgp0dyk5rnhx91lzr9zy5cb8gj5"))))
+            "06ngrkvxs66p9igqfchlqcwq0c5cv30czbkr9cazw2pdk89m9x07"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -20812,17 +20812,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20230626.1814")
+    (version "20230810.703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "450ef663a0e3333f515f974103d64fdc8e38ed5c")))
+                 "de41d62fc4f94f61ffdf7713a043dca9c02297c8")))
         (sha256
           (base32
-            "1qj1bxyr8x1bw95dwx2q8bxwyq00f67bb6qcbvvx69q0rhil1d7d"))))
+            "0ksgpnprgdyz9mjgllzjg7x0ghgvyh44yisj8ml1lqagdla7bpm8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -28756,17 +28756,17 @@
 (define-public emacs-eldoc-box
   (package
     (name "emacs-eldoc-box")
-    (version "20230803.51")
+    (version "20230810.503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/casouri/eldoc-box.git")
                (commit
-                 "b5aa4814326f592d15332c5da4e62ed513fa85d7")))
+                 "73345daa47a5612f298896e5eb044e10a79496e7")))
         (sha256
           (base32
-            "1p5ffjblpz6cmnsp6km3mayqzvs2xcy1sqyxqz1zwjm7z8fzfma0"))))
+            "0ra8akja47zph1fln86yrj4nmrl7qswm3fr46bl0kdqz1ijh1363"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/casouri/eldoc-box")
@@ -29421,17 +29421,17 @@
 (define-public emacs-elgrep
   (package
     (name "emacs-elgrep")
-    (version "20211221.852")
+    (version "20230810.645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TobiasZawada/elgrep.git")
                (commit
-                 "f8124c699b6a4abfb471269bc26afbcc8136f476")))
+                 "c006e2395ec38bbe5fa3e59613d21883a68ceaf1")))
         (sha256
           (base32
-            "08f5kbbgmpg0nc0i148xbbm4dsp34nkr73m6ipx0fwi9dcldk8z1"))))
+            "0iclwlwa4lpfmvy6qnnc2sxgvd9vlk9dwvlgnwyrkxfrqhg0m52s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -39077,17 +39077,17 @@
 (define-public emacs-flutter
   (package
     (name "emacs-flutter")
-    (version "20221225.944")
+    (version "20230810.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/flutter.el.git")
                (commit
-                 "edd3f5eb3f4603142f45c5890ee70b0dfb10772b")))
+                 "3ff50b77e35951e93fd1e23f113b861d398d0c1b")))
         (sha256
           (base32
-            "060dfhvg0j0kvlw1qhcqz8rlvxscvgfnpp27cr7knrh4pws3pxmg"))))
+            "004y7ssn81z54592w1wx06c11cb7yqjfqrvhys85rrxly4g1lbmb"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -58328,7 +58328,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230809.701")
+    (version "20230810.455")
     (source
       (origin
         (method url-fetch)
@@ -58338,7 +58338,7 @@
                ".tar"))
         (sha256
           (base32
-            "1k9p4a81yp5m7xfwra8pb8wg7a7arc705w9gjca9cb3jjwjvyy9i"))))
+            "1w264qkfmvmmn0asa1xjhl64csrby382apd9a0l9i96qa7vx1lab"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
