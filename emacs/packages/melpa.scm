@@ -13197,17 +13197,17 @@
 (define-public emacs-clang-format
   (package
     (name "emacs-clang-format")
-    (version "20191106.950")
+    (version "20230809.2200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsmirror/clang-format.git")
                (commit
-                 "e48ff8ae18dc7ab6118c1f6752deb48cb1fc83ac")))
+                 "bce0bb4ca17ecb6e6927074920945cef2a78f5b6")))
         (sha256
           (base32
-            "1l64r9rr59g26mlph6r8pkn8vzadmh3mh8gvv398kz8skayfa55f"))))
+            "1v99876wi8kld5wc7nhmm7gmp36i29x21y9mjzi4mq5zq2kqlpr6"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Format code using clang-format")
@@ -26289,7 +26289,7 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230809.904")
+    (version "20230809.1604")
     (source
       (origin
         (method git-fetch)
@@ -26729,17 +26729,17 @@
 (define-public emacs-earthfile-mode
   (package
     (name "emacs-earthfile-mode")
-    (version "20230302.1709")
+    (version "20230809.2250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/earthly/earthly-emacs.git")
                (commit
-                 "a242a4d68ebefce81879823c54155e0a04d3ea4a")))
+                 "3029e5ab06171ca5947041e95053561e10e5ba41")))
         (sha256
           (base32
-            "1wycm065l60jviqvy5a5qkkcq5xdfnb8bhjcgq15ip93ks6p4bgi"))))
+            "0947czc3n6a8g065qnl8pa75sp16cs2dmc31s3gvp3c3lvnb3nkd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/earthly/earthly-mode")
@@ -31840,17 +31840,17 @@
 (define-public emacs-epkg
   (package
     (name "emacs-epkg")
-    (version "20230730.2121")
+    (version "20230809.2221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/epkg.git")
                (commit
-                 "dfb66853b1dabdbcda1c4565db418a644968da7d")))
+                 "73806fa39da91426ec0ab35d4e5d220f1a2146a7")))
         (sha256
           (base32
-            "0hs1zlknm9qv29dp2a5dmsygq7l531zbd91axn4f3wl2sb1bmx5c"))))
+            "1m5bvhv6zndgd1kdag4y0xkp8rgcymdbgpfp9w04ngkz2ljsn2il"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -59535,17 +59535,17 @@
 (define-public emacs-igist
   (package
     (name "emacs-igist")
-    (version "20230809.756")
+    (version "20230809.1737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KarimAziev/igist.git")
                (commit
-                 "114f4dcedf057c6e32d87db431f2b1938b77a4e5")))
+                 "5ad45f50e45848d3dc29f74877badc16e44e7276")))
         (sha256
           (base32
-            "1x1gx3ympyxz6aihxb6kjd4qmwqsy1zzhpfcb8h6kl4jgwswibf0"))))
+            "1dwzahrkz8vmnwj875xy328spnsk0sgmkk2m7zyhpchwwy509d8g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ghub))
     (home-page "https://github.com/KarimAziev/igist")
@@ -70902,17 +70902,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20230721.1656")
+    (version "20230809.2004")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "926e680add8a9648b20962bc97336343456236a1")))
+                 "7f0a724b316b26496bc42b23c4fb00f7533ea76b")))
         (sha256
           (base32
-            "1hz1hxqrkmr9xkpdbvl0ngjmm6r762s0yfc4sxkbxxiacb11g5ix"))))
+            "0g7jlk44gcwpwsfj6ikfbivvwxv8j9s2yla46pb17bii4y2s54pq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
@@ -98341,17 +98341,17 @@
 (define-public emacs-protobuf-mode
   (package
     (name "emacs-protobuf-mode")
-    (version "20230506.330")
+    (version "20230808.1726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/protocolbuffers/protobuf.git")
                (commit
-                 "6e9357372ba5a183b1b2ad214f09f294781b708d")))
+                 "8ad3bf63a49d1283df4a7bfbb07e0be655845cac")))
         (sha256
           (base32
-            "1z5m39wmcqikhvgbpwibk36i3754k680lqdsrzqsdwmlnhlrq0ha"))))
+            "0fvkdfnwingingjbaf84hlq0pbzml39cnvmzybiglbadw1646rkd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("editors/protobuf-mode.el")))
@@ -99631,17 +99631,17 @@
 (define-public emacs-pytest
   (package
     (name "emacs-pytest")
-    (version "20200330.41")
+    (version "20230809.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ionrock/pytest-el.git")
                (commit
-                 "6934047242db79b1c53e9fe3e0734cc9719ed1c4")))
+                 "6ac179a8ddafa8b2193f19467e347fd966470358")))
         (sha256
           (base32
-            "1gh5sqmhw7hl67m7nqgd4wwns7a10j0sfmabm97k1cmmbwdj0vca"))))
+            "1nzjb1n677fclf1d1kwqr84am0z54ym9ra4c5rym53k6q04ni1ah"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -118953,17 +118953,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20230807.1952")
+    (version "20230809.2040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "e4a56c6463c841ad298f30d4e886b4eababf75e9")))
+                 "6a6171c6d09522a736f1bb91b7e351aa93d0ac2e")))
         (sha256
           (base32
-            "0v0v5ywi48qn55r3gbmw6lsk96j5cmzwwcbyk84i987h3drhmdi5"))))
+            "147c3ziryrkq4idc5wr125fd2md747vx5330jyi24d0c2vrwq6af"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -122286,17 +122286,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20230808.1403")
+    (version "20230809.2312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "9a5abc9b1886c51cf3b3190bb77bd47be05749d8")))
+                 "907cab548c0cf6373a5ad640a74c37f9970f4dc0")))
         (sha256
           (base32
-            "1ck5mfvb01cl8gf12wwxqh9x333c9ck3vc2fb7q02r3yam822mq9"))))
+            "16vw7wkpsgjz90jwjsg35sg20a9bkamhp81hz7xm3sxvi535bdns"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot
@@ -125078,17 +125078,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230809.945")
+    (version "20230809.2330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "cc76e709b634eacb744fc19442418d54e65ad765")))
+                 "a26bb76e2ddfe722c7cd074e09542853d29477e5")))
         (sha256
           (base32
-            "0r5r8wmb3lc4rgvfkn6pnw9161i0ydzz826m2as20d0bkrl3c70s"))))
+            "03xfhvv1sccgjln2a6shjdfckshxink33bqnfmn14gq640r93naf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125103,17 +125103,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230809.945")
+    (version "20230809.2330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "cc76e709b634eacb744fc19442418d54e65ad765")))
+                 "a26bb76e2ddfe722c7cd074e09542853d29477e5")))
         (sha256
           (base32
-            "0r5r8wmb3lc4rgvfkn6pnw9161i0ydzz826m2as20d0bkrl3c70s"))))
+            "03xfhvv1sccgjln2a6shjdfckshxink33bqnfmn14gq640r93naf"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
