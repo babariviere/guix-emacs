@@ -223,17 +223,17 @@
 (define-public emacs-2048-game
   (package
     (name "emacs-2048-game")
-    (version "20200417.259")
+    (version "20230809.356")
     (source
       (origin
         (method url-fetch)
         (uri (string-append
                "https://melpa.org/packages/2048-game-"
                version
-               ".el"))
+               ".tar"))
         (sha256
           (base32
-            "0ryz4xxhvm9fvflczdncmpfb3pb5pljp29ahdasjaf2f77d3xzm4"))))
+            "0h215z6m629rf980w23mkk1fa511flxc4i2sha3fzq4468bxq5fs"))))
     (build-system melpa-build-system)
     (home-page "https://hg.sr.ht/~zck/game-2048")
     (synopsis "play 2048 in Emacs")
@@ -25402,17 +25402,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230810.1549")
+    (version "20230811.236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "36dd97728611ca419de06cfec9da42a1fe9ba024")))
+                 "dc4fab35ca5d3c75b59caa61ba7fd78b576838ee")))
         (sha256
           (base32
-            "0zdsrhbjg0768jgc8r5d3krpyzbzchhhrf3cb1khf8jy01f8d204"))))
+            "1awlr82r13dzfdzqlzdi7fzfgly789a658799sl9grnc53zwwx40"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -39077,17 +39077,17 @@
 (define-public emacs-flutter
   (package
     (name "emacs-flutter")
-    (version "20230810.459")
+    (version "20230811.458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/flutter.el.git")
                (commit
-                 "3ff50b77e35951e93fd1e23f113b861d398d0c1b")))
+                 "285eb8646cd37eb4ed997124d1ad71fea2cbe6b7")))
         (sha256
           (base32
-            "004y7ssn81z54592w1wx06c11cb7yqjfqrvhys85rrxly4g1lbmb"))))
+            "10lyjajdxinkhlchzn45cvd6y0121gba5581ikdwm7jaab5pch6p"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -58328,7 +58328,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230810.2237")
+    (version "20230811.17")
     (source
       (origin
         (method url-fetch)
@@ -58338,7 +58338,7 @@
                ".tar"))
         (sha256
           (base32
-            "1yc87bvs2lvwmyqmmhwb30lwv6p6bb1yfsww5pb7igwcb96ddrlv"))))
+            "067z5c0rwljzd1wgs0ixka1ias9niw18agm2zz64s5w1msnflbjk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -58576,7 +58576,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230810.2021")
+    (version "20230811.724")
     (source
       (origin
         (method url-fetch)
@@ -58586,7 +58586,7 @@
                ".tar"))
         (sha256
           (base32
-            "1ad0wq4z5q390bshbj2698n7riy8hx51q66al8ym41rs7xwbyrcd"))))
+            "0qglmd4skplp45x97f3g5cmv117lf4qjgiv27rli6zn2fljfca51"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
@@ -64712,17 +64712,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20220912.246")
+    (version "20230811.247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "e4d1c28935c47429442ddfcd735cb8d8c2d8db66")))
+                 "3e0ce9fc1465cad786903a5281c4a103e6b4b7ac")))
         (sha256
           (base32
-            "0q11f5f7j7rwzd4n1r84cfzx8cw631h4nfykjqrm5zbgkc9zmfd0"))))
+            "09vz2xg24whbjam5jicmb4a61bp7p6imf1a897kjhv8fjqypcm8h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -71259,17 +71259,17 @@
 (define-public emacs-lsp-treemacs
   (package
     (name "emacs-lsp-treemacs")
-    (version "20230703.629")
+    (version "20230811.611")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-treemacs.git")
                (commit
-                 "7be7f30c2ddc6d392a1ff0304d439d0cf14b2771")))
+                 "e66ae2196503d4e84334519e56b4388feffa5060")))
         (sha256
           (base32
-            "1g5sp5bcv1cks48rvvw0j8cczhnlnpx7lx05pvalaxxhlnyvx9zj"))))
+            "1x3qylhhk862l88s80r6paagyjh8bw8kamx4hpwh429r88mb9l6v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71288,17 +71288,17 @@
 (define-public emacs-lsp-ui
   (package
     (name "emacs-lsp-ui")
-    (version "20230116.2024")
+    (version "20230811.552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-ui.git")
                (commit
-                 "295d8984da06a745b0a36c56e28ce915bc389adb")))
+                 "0dd39900c8ed8145d207985cb2f65cedd1ffb410")))
         (sha256
           (base32
-            "1s3vc0rpwwck1g61gh55nq6sqaf7rq16yqg5ayj45z3gd4gd29xf"))))
+            "1p6lrxvbrq3lv7a1xmbbrsjmgw75p2ay7bpbgdvimrv56fcdys96"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73831,17 +73831,17 @@
 (define-public emacs-mb-url
   (package
     (name "emacs-mb-url")
-    (version "20230804.504")
+    (version "20230811.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dochang/mb-url.git")
                (commit
-                 "f4512a7f85dcc858404922deda1aaa952baf4e00")))
+                 "a9f1e8ab46858c35a600ce304748a7db65400bef")))
         (sha256
           (base32
-            "08adj17bigsrf7jjrsvk4cg0ipj9a430cgi4h7ickarns2wwlia2"))))
+            "1bihsi0qlvkz817jbbw3352rvmb9iy73l4m9gqr33ca3sxs6qavq"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dochang/mb-url")
     (synopsis
@@ -79228,17 +79228,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20230810.1208")
+    (version "20230811.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "b6d3b87802f613fad289ffc3c082a815df334289")))
+                 "8f0d9a3c7d89d5cbb75f23286e44a56679c1e28a")))
         (sha256
           (base32
-            "0rrc5z332a26di3pngb0l5g0jppni6wcn4bmyh9z4bxbn4scc4ld"))))
+            "1n0gjk4xsxh3jp3p8y4bwbfmnjv9xyc5z6kmaxg0x3h7w5ai7nf4"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -118685,17 +118685,17 @@
 (define-public emacs-trashed
   (package
     (name "emacs-trashed")
-    (version "20220106.1358")
+    (version "20230811.157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shingo256/trashed.git")
                (commit
-                 "ddf5830730544435a068f2dc9ac75a81ea69df1d")))
+                 "52a52a363ce53855790e7a59aed6976eec18c9ea")))
         (sha256
           (base32
-            "08v7g2zgrad0r0n4pla8j3i2aql46byq82jr712cvxhydd5gnzf9"))))
+            "091c9b4glx7d5svwgr3jvqv1d8lw10mw4hvv4mq7kx1j54zmbnbf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/shingo256/trashed")
