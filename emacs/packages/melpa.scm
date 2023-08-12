@@ -58328,7 +58328,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230811.17")
+    (version "20230811.2032")
     (source
       (origin
         (method url-fetch)
@@ -58338,7 +58338,7 @@
                ".tar"))
         (sha256
           (base32
-            "067z5c0rwljzd1wgs0ixka1ias9niw18agm2zz64s5w1msnflbjk"))))
+            "1nap1y8apfcwk67pk7v9lmlgqsv5fsp29mbxy3qga4m1313m1dlf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -81218,17 +81218,17 @@
 (define-public emacs-numpydoc
   (package
     (name "emacs-numpydoc")
-    (version "20230725.212")
+    (version "20230811.1708")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/douglasdavis/numpydoc.el.git")
                (commit
-                 "5cb26db4f6b63a588ad7b8d2ec22ebf0f56f1076")))
+                 "77e2893442c6e20af9c99b9ba2c6c11988fe0e80")))
         (sha256
           (base32
-            "1ld5m75mmfb7kp18sww5blvlazk0j1j0yhdkhsx1m624dq5rag1c"))))
+            "03mfvgb1kbz0a90app8gsp8h2s0qhizdkrzafxp0pwmppxiaadg2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -99868,17 +99868,17 @@
 (define-public emacs-python-mls
   (package
     (name "emacs-python-mls")
-    (version "20230522.2131")
+    (version "20230811.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/python-mls.git")
                (commit
-                 "449122636573217fc8e45753f829a96d8b170f66")))
+                 "2b7ef51d5dee57dfeb30bc8ebe10a7e4d12e7700")))
         (sha256
           (base32
-            "06yyk8dljgnwmv104f6r2nphp31x44q1xfiwcwfamyzymd3q24s5"))))
+            "0sl0ldsjf7zx1n4b3nfz5gw2k4w1svhrpmbh6zg8yasq80avib0w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -114103,19 +114103,18 @@
 (define-public emacs-sway
   (package
     (name "emacs-sway")
-    (version "20230731.1819")
+    (version "20230811.2123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/sway.el.git")
                (commit
-                 "be38a30e41ea1d1ac670679c7e890cff6204f581")))
+                 "efac743cb0cf0863d220a2ff8bafa53d853eb6cb")))
         (sha256
           (base32
-            "05gav2vqymfybr613k1c42brk2n7sqnvfzfd1a3cs8hjsx07wr2c"))))
+            "13nplgrhn8w4z02s62x1dl78zpif31bni51v7rsxdfm3y7527q39"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/thblt/sway.el")
     (synopsis
       "Communication with the Sway window manager")
@@ -127754,7 +127753,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230804.1322")
+    (version "20230811.1527")
     (source
       (origin
         (method url-fetch)
@@ -127764,7 +127763,7 @@
                ".tar"))
         (sha256
           (base32
-            "1k9gqpwd6csdjvf4xf55ifd4xd3cdrg6k549wxg3s6yyfxwf8rik"))))
+            "0igs3nqphknxq7ryy68fk207ky44cp0q1bvx7fk9ry82fj46laga"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
