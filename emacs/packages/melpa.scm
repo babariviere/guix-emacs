@@ -3697,17 +3697,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20230527.1755")
+    (version "20230812.25")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "f85b48e2eee0983acfe5b3a2684856358714ac6f")))
+                 "706d6bd347b6d25a54148666ea4d33f16b3915c6")))
         (sha256
           (base32
-            "0q6znaypd9f6lw6110cyaj9kyld9b70bgl3gyslvx3q427iwgjg0"))))
+            "1nmlkhnvgz80634x9g107wdcqpgkrjf20g47vwax8qqnl3rnv5hw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/raxod502/apheleia")
@@ -11163,17 +11163,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20230711.1235")
+    (version "20230812.31")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "73f3e90de767a72444db424d3a10ba18b57ac1be")))
+                 "7bd297677be5fbcffbbcbacbb1b47a0866b22339")))
         (sha256
           (base32
-            "0iawvp4pwxbnqyd6wpdawx9y5awz0pn16mz8a19kblvay412fyga"))))
+            "0bm9bk3v8fimmidfkq9h3l6p7sr51qq3aklrpbzjw3fbl7hlsy8g"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis
@@ -23531,17 +23531,17 @@
 (define-public emacs-dired-launch
   (package
     (name "emacs-dired-launch")
-    (version "20220916.1836")
+    (version "20230812.604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thomp/dired-launch.git")
                (commit
-                 "519a6a49b56978b53e88a005490175cb913ec7fa")))
+                 "b2639051a2cbc56be7f9b5df2f4391c159770a6d")))
         (sha256
           (base32
-            "12fzpkzxk9zm0b7zmlakp2kvg400g90wp6mw1nybancncf0k27i2"))))
+            "0kbfx8h53d7av46izqrhyhmn396xlf67417pcq9p3npa5yywxs19"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thomp/dired-launch")
@@ -70429,17 +70429,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20230506.2230")
+    (version "20230812.310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "fdc5f6cf687bdde7b19f9252d1d6c0f49d0ede54")))
+                 "25fe8af6ba7b1b5a289e198ed491f0f830ffa43c")))
         (sha256
           (base32
-            "1arkrg9rx7dd8lnwa6y3qrl4z3r81mmdl3mg9had230mpd9bwij5"))))
+            "1k11qrkfi70qcrhvsfphwilxmqs7rc6km0gjin5lnj1mhbs6g6z0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -87504,17 +87504,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20230613.1849")
+    (version "20230812.10")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "26c06912c7833104c7b4c7b96b8f200e98067a68")))
+                 "bb375f366f883e5b60e3bb625f2acd026811fb55")))
         (sha256
           (base32
-            "1mqpcp16jbyhl1jxrxr4k00k93mfvbp54y8hwf67zyv21a1g2sj2"))))
+            "01wxcyzdrx6ysv9rjd64fr7kkvm4fjr03ib4mmpchraxxm8g8z43"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -114224,17 +114224,17 @@
 (define-public emacs-swift-mode
   (package
     (name "emacs-swift-mode")
-    (version "20230724.1335")
+    (version "20230812.324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/swift-emacs/swift-mode.git")
                (commit
-                 "d900694d0194df4c8b0993d383e3b6bb0f71ef31")))
+                 "4c2231e52aee3f954717ac389debd3816e598a22")))
         (sha256
           (base32
-            "0y372d97jgw2f3i44iyih8xxsaw935s4sfjydfmcdh2dsf8ljhc7"))))
+            "09yy30r9piji0h3vrsf9vhij6im8lim8iygvji36b9g0h6ii59ww"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/swift-emacs/swift-mode")
