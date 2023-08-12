@@ -1089,7 +1089,7 @@
 (define-public emacs-ac-php
   (package
     (name "emacs-ac-php")
-    (version "20230522.1329")
+    (version "20230529.1404")
     (source
       (origin
         (method git-fetch)
@@ -16419,7 +16419,7 @@
 (define-public emacs-company-php
   (package
     (name "emacs-company-php")
-    (version "20230522.1329")
+    (version "20230529.1404")
     (source
       (origin
         (method git-fetch)
@@ -34140,17 +34140,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230810.1538")
+    (version "20230812.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "5e72cf5b6d57b785ea229236bb5c4638db2c9a05")))
+                 "0cbd61f2de104fab16602d0418605cd0513b16f3")))
         (sha256
           (base32
-            "0chp0sq47b5jzrg7yaschqd9wqy5nyqisl438ssbd2i8a2y2akg9"))))
+            "1vxb2d74bmlc81sby5a4c2zpkngp6id7y54ij9g286mvfxz4vi0x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -51686,17 +51686,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230811.1011")
+    (version "20230812.727")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "5afd7a438a179f0e9031816a223872b6024b6d29")))
+                 "8ca4af16d7f8b79f667a3d1f2259eb5cc4a24886")))
         (sha256
           (base32
-            "16mkdc2rm2217z98bnz8l0wnz0939jpmhv1lc7kja8k8wwhddjd6"))))
+            "03yzpm01726irjzzqd5085cbq3h48phwq40lzg1bqnnj2agdvcd6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -52447,17 +52447,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230810.1455")
+    (version "20230811.1440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "bdfdb49122c1d47fe364323a74bf76bd4142e150")))
+                 "8ca4af16d7f8b79f667a3d1f2259eb5cc4a24886")))
         (sha256
           (base32
-            "0p4bzcqwan16qw1g5xjnrxxyary6d0fg255h4s0qyxkjvf7ikjad"))))
+            "03yzpm01726irjzzqd5085cbq3h48phwq40lzg1bqnnj2agdvcd6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -58328,7 +58328,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230811.2032")
+    (version "20230812.737")
     (source
       (origin
         (method url-fetch)
@@ -58338,7 +58338,7 @@
                ".tar"))
         (sha256
           (base32
-            "1nap1y8apfcwk67pk7v9lmlgqsv5fsp29mbxy3qga4m1313m1dlf"))))
+            "068xai8h8m9zy8p14kmgkdklljn8v71l1y2nag4c914gv89vpgqv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -58576,7 +58576,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230811.756")
+    (version "20230812.1435")
     (source
       (origin
         (method url-fetch)
@@ -58586,7 +58586,7 @@
                ".tar"))
         (sha256
           (base32
-            "1wcs7p2rr0nzf7amg2s2sswqly27a7wzbp0b65ggwxpvakpyc9pr"))))
+            "1b3zscd8gabpzicxf1qdd3qs30yfkkm8ixgj0n8gmv8zg6mvpb86"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
@@ -63551,17 +63551,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20230810.2045")
+    (version "20230812.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "55afe148c1f6fe5f5b1adb983aeaa0cc69126161")))
+                 "03365b124bb05d5c1effe5c5b503b746d15aa063")))
         (sha256
           (base32
-            "05sy3zwq03xmpybn4y37g575qpxb6mrjr9f4fsyhd6skf7bbc6ga"))))
+            "0ygjdzka01347w9vspllkgp7ncldcisy3hsaih3bdkcwzaznnkk9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -70935,17 +70935,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230809.1200")
+    (version "20230812.1018")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ee58d9eb66f85c2258b9745f721965f0d62071fb")))
+                 "d14d3d5e1e21eb658b2cf2f6be34f43072027328")))
         (sha256
           (base32
-            "1fcc66whiwbxwxvyk4mc785505icfq0j8azplq4iqmn3pkynga49"))))
+            "1rhdyzk0sqn8gqxkgf2cmcbdjhgw6wni3f816jch0f3c2zn13qdf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -114103,17 +114103,17 @@
 (define-public emacs-sway
   (package
     (name "emacs-sway")
-    (version "20230811.2123")
+    (version "20230812.1306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/sway.el.git")
                (commit
-                 "efac743cb0cf0863d220a2ff8bafa53d853eb6cb")))
+                 "fc1c09fe30cf33e8755c3b6c9749783923f2cb9b")))
         (sha256
           (base32
-            "13nplgrhn8w4z02s62x1dl78zpif31bni51v7rsxdfm3y7527q39"))))
+            "16clh6zd4k3575817gmzjfn13s14sf4prk8r6pyaz01jpjir1s3n"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/thblt/sway.el")
     (synopsis
