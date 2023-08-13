@@ -26289,17 +26289,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230811.1407")
+    (version "20230813.511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "06ad57b434a3fcb5e25d9feeb2bb154b783b9ee0")))
+                 "20bc157c2489b8c2b10abc819817aa2a732707c1")))
         (sha256
           (base32
-            "1kjhvrbgk80gyjd61wazj3as86m7sqxdj90s7f6j17y62x7q12qw"))))
+            "1qm55by1ajlkvgyqw9yigl6svgh1fvz67j2j94dvkpdvl0cfxh3v"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -39198,17 +39198,17 @@
 (define-public emacs-flycheck
   (package
     (name "emacs-flycheck")
-    (version "20230306.414")
+    (version "20230813.620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flycheck/flycheck.git")
                (commit
-                 "5f2ef177cb21ae8b73714575802beef04abd0f5e")))
+                 "773c3eb31ebeb6bb2f9f57d28177882ca7073df0")))
         (sha256
           (base32
-            "1bcd6527rnr0d51jkzvmvn1iz0z8phmm1yyvi1wjv96vf8y39cd9"))))
+            "0x01d41gqvgi7r96snswrik6l2nb1wzf6nd1wzm47a1qj0l46061"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-pkg-info))
@@ -84952,17 +84952,17 @@
 (define-public emacs-org-category-capture
   (package
     (name "emacs-org-category-capture")
-    (version "20220114.730")
+    (version "20230813.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/IvanMalison/org-projectile.git")
                (commit
-                 "642b39c698db00bc535c1c2335f425fb9f4855a9")))
+                 "5b484e95004f799f8f605a77550f18b00791e000")))
         (sha256
           (base32
-            "1pcfyrmbnsk39w4d6cs27bcyihics3gll515fslnl5kqbaj9qn09"))))
+            "19ql2hg8ikn3x6rdwin5md0gg4i6alb2f3vi7p8n5ihir8a01jc4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("org-category-capture*.el")))
@@ -87143,17 +87143,17 @@
 (define-public emacs-org-projectile
   (package
     (name "emacs-org-projectile")
-    (version "20230802.2300")
+    (version "20230813.153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/IvanMalison/org-projectile.git")
+               (url "https://github.com/colonelpanic8/org-projectile.git")
                (commit
-                 "b2a6ab28acef4a70d0305c29df41f682c4144533")))
+                 "5b484e95004f799f8f605a77550f18b00791e000")))
         (sha256
           (base32
-            "0dkvz2p420ffiy7mmx21nfwc8x324fh6hyirdhg1m19zi7rjagvb"))))
+            "19ql2hg8ikn3x6rdwin5md0gg4i6alb2f3vi7p8n5ihir8a01jc4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile
@@ -94154,17 +94154,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20230730.1735")
+    (version "20230812.2333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "38fd6ec205a02ccad6b3006afef0988e380adfa6")))
+                 "34462fc138402b072d864d16dd3ae21eed7d5513")))
         (sha256
           (base32
-            "11i9mr2bmqqd5wryg24im86f287g94yva359rg0szm1fmxgrxw8z"))))
+            "1nvn1lqqambf9qpn0dj48j7zffv4pj19r4dv5fh9f7xk1fa5cl7s"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -125077,17 +125077,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230810.845")
+    (version "20230813.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "12ee3accfaf77af9e8468e88134f54890a4a7a5b")))
+                 "7cec771ff276e51ee191f1362e1c314ca243fb36")))
         (sha256
           (base32
-            "0ak4vjf7anxjd7mskmwr7vv3w1h9886wvgmq7z24f9wz8gcbxh43"))))
+            "1w0j6jyqc7112dgrry02frvll33lgrz15cidknjx6b6zrsr75ys1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125102,17 +125102,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230811.836")
+    (version "20230813.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "d08d1c1414e0fd02d5286ceff0e9188cdbf57519")))
+                 "7cec771ff276e51ee191f1362e1c314ca243fb36")))
         (sha256
           (base32
-            "0g5jddv5hqqkdhc6589wjxra79v97313j3dvv83zgracmr4f1vyi"))))
+            "1w0j6jyqc7112dgrry02frvll33lgrz15cidknjx6b6zrsr75ys1"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
