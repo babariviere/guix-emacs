@@ -26289,17 +26289,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230813.511")
+    (version "20230813.1358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "20bc157c2489b8c2b10abc819817aa2a732707c1")))
+                 "e923e44ad9124c4983d704dc50f4d10bbb54a93e")))
         (sha256
           (base32
-            "1qm55by1ajlkvgyqw9yigl6svgh1fvz67j2j94dvkpdvl0cfxh3v"))))
+            "1vxzn1h6h8j3n3550gsscjbzl1853x21z5s81ckxviqablrajib4"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -29274,17 +29274,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20221210.1349")
+    (version "20230813.942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "ccbaf85d9ea442203027e784a42b21686f3a87d8")))
+                 "96ffc25862a1d5fd20af74130db1e816709e293b")))
         (sha256
           (base32
-            "124cadn3b0l5lyc0vv3wz581nhad0pa0fn82wcnjvihx5p7fg7j1"))))
+            "1w2ykhvmjf9a5k4kcgr5a1312fc7abn92w3860pgzb195m0mil56"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -34140,17 +34140,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230812.1329")
+    (version "20230813.637")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "0cbd61f2de104fab16602d0418605cd0513b16f3")))
+                 "1e9b2434264529fe0dd964b68fe89236a4abeac3")))
         (sha256
           (base32
-            "1vxb2d74bmlc81sby5a4c2zpkngp6id7y54ij9g286mvfxz4vi0x"))))
+            "130dwi47i9vbpjrfphfw2bwray2sd89v5s8fk91sn7g88ncbjmks"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -51686,17 +51686,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230812.727")
+    (version "20230813.1421")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "8ca4af16d7f8b79f667a3d1f2259eb5cc4a24886")))
+                 "7f3fcf19b6e3b30a5df17a8bcc3ad4273f04d39c")))
         (sha256
           (base32
-            "03yzpm01726irjzzqd5085cbq3h48phwq40lzg1bqnnj2agdvcd6"))))
+            "1lf1wcpw3nzfa35ykkdmbxv25k8q17ij3klmrwxvdwlk4ngw5nja"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -58576,7 +58576,7 @@
 (define-public emacs-ibrowse
   (package
     (name "emacs-ibrowse")
-    (version "20230812.1435")
+    (version "20230813.1351")
     (source
       (origin
         (method url-fetch)
@@ -58586,7 +58586,7 @@
                ".tar"))
         (sha256
           (base32
-            "1b3zscd8gabpzicxf1qdd3qs30yfkkm8ixgj0n8gmv8zg6mvpb86"))))
+            "1pg0svh4qpbjj1q9pmd17k2xwh0z7z9fg3lmdicviwb6pb8jmgv1"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~ngraves/ibrowse.el")
@@ -59535,17 +59535,17 @@
 (define-public emacs-igist
   (package
     (name "emacs-igist")
-    (version "20230810.1150")
+    (version "20230813.741")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KarimAziev/igist.git")
                (commit
-                 "d013e4652e77da72ac2ad73917a7e7008768fba3")))
+                 "1cfcaa634617bf522825300c30031cac26a9cf24")))
         (sha256
           (base32
-            "1rr4p0g4jh74zygcd3jgpmwhjn1gmjgyliqdvh4367bb41cyxkl2"))))
+            "16l6p24q6vdyqqyhghk0x164ms04rqsdp32c2lab2h365fm36cv5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ghub))
     (home-page "https://github.com/KarimAziev/igist")
@@ -70250,17 +70250,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20230730.1641")
+    (version "20230813.1322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "32d833559100da489896e8791c9c6284ccb32ea5")))
+                 "4a19180676bc76656fa5848b21e25f6ebc651474")))
         (sha256
           (base32
-            "021363pgvapvmb08dy0x6m4lb8bvd6nvwix075hm7hxg03a9kvkb"))))
+            "17p3i7zy9ajmqgh0gnfjdmmdpsph39c29s8k9b5kw2s8wxb458bc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -123394,17 +123394,17 @@
 (define-public emacs-vunit-mode
   (package
     (name "emacs-vunit-mode")
-    (version "20220316.1812")
+    (version "20230813.815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/embed-me/vunit-mode.git")
                (commit
-                 "5643460a7011d6bc13c2d4762f329d19f6c7d46b")))
+                 "24c43fbc1daddadeecea64276dbd9c6ba769e850")))
         (sha256
           (base32
-            "1zzlfscnzvck658ylsmqwk30jdf9qnrnmhvghd3xinlhglnmwrp7"))))
+            "11ki2fpgms8ipj3yhfkwwl3r1khdmlb28k6z0jl5lmdwj4q3ldjq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-hydra))
     (home-page "https://github.com/embed-me")
@@ -125077,17 +125077,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230813.613")
+    (version "20230813.1305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "7cec771ff276e51ee191f1362e1c314ca243fb36")))
+                 "a8cd0ce9c812003613da07c62cdaefc0db943bab")))
         (sha256
           (base32
-            "1w0j6jyqc7112dgrry02frvll33lgrz15cidknjx6b6zrsr75ys1"))))
+            "1p46x36pfvvpf2jfajk0allzx2qr1ighbn82wg999nd6kkxnwfn2"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125102,17 +125102,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230813.613")
+    (version "20230813.1305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "7cec771ff276e51ee191f1362e1c314ca243fb36")))
+                 "a8cd0ce9c812003613da07c62cdaefc0db943bab")))
         (sha256
           (base32
-            "1w0j6jyqc7112dgrry02frvll33lgrz15cidknjx6b6zrsr75ys1"))))
+            "1p46x36pfvvpf2jfajk0allzx2qr1ighbn82wg999nd6kkxnwfn2"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
