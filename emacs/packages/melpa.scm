@@ -58350,7 +58350,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230813.2236")
+    (version "20230814.610")
     (source
       (origin
         (method url-fetch)
@@ -58360,7 +58360,7 @@
                ".tar"))
         (sha256
           (base32
-            "1rn729lg74fvxfwkgbn76c60y63z6zy6v28g20x7qy871sshhn0v"))))
+            "1m3xn1f3n6akmawk9rl0gcbgcr74nlplc99b40b0zr6ffkl0mwj7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -97746,17 +97746,17 @@
 (define-public emacs-project-tasks
   (package
     (name "emacs-project-tasks")
-    (version "20230801.258")
+    (version "20230808.314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TxGVNN/project-tasks.git")
                (commit
-                 "25740dea604827d5f2745b83f0cda243b46b0a34")))
+                 "36b7b9e3acb3399aec6c8ef89bf389a12fc87600")))
         (sha256
           (base32
-            "187fj80ys0mfq0pxfhyzqc3v3x1j5lbvz96as1q9h32633wag67i"))))
+            "1fwwh709ff660ii43nd0prq2jcc8gmn1v8sg9jki00xn9yas8hsi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/TxGVNN/project-tasks")
@@ -125122,17 +125122,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230813.1305")
+    (version "20230814.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "a8cd0ce9c812003613da07c62cdaefc0db943bab")))
+                 "85ac94c285d37f26e0eb45308ef17240c283f7c9")))
         (sha256
           (base32
-            "1p46x36pfvvpf2jfajk0allzx2qr1ighbn82wg999nd6kkxnwfn2"))))
+            "1ac8qpn3xialmbf4d8m05mi1vh8i95pypc9n6x4k4za8rcibnrmk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
