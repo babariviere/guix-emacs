@@ -1697,17 +1697,17 @@
 (define-public emacs-ada-ts-mode
   (package
     (name "emacs-ada-ts-mode")
-    (version "20230807.647")
+    (version "20230814.1220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brownts/ada-ts-mode.git")
                (commit
-                 "eb0cd38f6f2f8a44592fe965ed8b961d1d8791f2")))
+                 "4fbfc5bac2aebe6c10ba27165a1d85b85ebe5f93")))
         (sha256
           (base32
-            "0z40yg42iks3xa16ic3bcycasby3y2iypr5z9gzi8xzvczifspvh"))))
+            "11f2yxpq8xafa4z7xl3qqzwhwf4jq950v90q9hmxsm8ig8nh1wm2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/brownts/ada-ts-mode")
@@ -10787,17 +10787,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230713.1735")
+    (version "20230814.1143")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "5b28cd43f2efa19dbf5053f164cce622a4b5bdae")))
+                 "e92c9be60db425f91049def755bc176124ddd78d")))
         (sha256
           (base32
-            "1kpyvl0c2v49b1d0lnvqi9pa20ry9889dncrqmg7h6ns5m0886rj"))))
+            "1rjf02hyb7qyysdqb2ii0b95b707gla1znsq0zhv59fms5vvjp13"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -25424,17 +25424,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230811.236")
+    (version "20230814.814")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "dc4fab35ca5d3c75b59caa61ba7fd78b576838ee")))
+                 "2e1fabd1045668562d520b7707731e55d65edb5d")))
         (sha256
           (base32
-            "1awlr82r13dzfdzqlzdi7fzfgly789a658799sl9grnc53zwwx40"))))
+            "00rcsk83jvnbkjapalnb5spzkk90l3s97jd9f3ls0lx9xjyk3rzd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -29443,17 +29443,17 @@
 (define-public emacs-elgrep
   (package
     (name "emacs-elgrep")
-    (version "20230810.645")
+    (version "20230814.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/TobiasZawada/elgrep.git")
                (commit
-                 "c006e2395ec38bbe5fa3e59613d21883a68ceaf1")))
+                 "329eaf2e9e994e5535c7f7fe2685ec21d8323384")))
         (sha256
           (base32
-            "0iclwlwa4lpfmvy6qnnc2sxgvd9vlk9dwvlgnwyrkxfrqhg0m52s"))))
+            "0pyj662inq00k1kpxw07gpxmiwhfj3vajg1s97a2rh97m4f7rqpz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -50927,17 +50927,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20230810.1516")
+    (version "20230814.1414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "1508a65590aecb306d5cd5e740c243ec5fc6c503")))
+                 "bfa02d87b8b56965fbcc84d2662799a8e78198f6")))
         (sha256
           (base32
-            "0v4rhcmjj62bvwmvdfcsac5141xm3v2kfwri54sj8rpgwipmrrwi"))))
+            "0kgqdzf9q3pxpmdn6kppjchv973v8nkghdp3rd83gkkjifgg7kjm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -51367,17 +51367,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20230806.1107")
+    (version "20230814.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "469d4d6bc87a761598002ea533fb4db5768771ba")))
+                 "de7f13faafd61b6714d119808cacd20929792ad7")))
         (sha256
           (base32
-            "0nrsg9w4q4y9qqnqhwm81ds5w9xjdab97jnjfyx9a56gmpqxsby1"))))
+            "1fp93aiz80myx90cch5rcy6d6f7fjxg4mzzap8fimx51y65awpdm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -58350,7 +58350,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230814.610")
+    (version "20230814.652")
     (source
       (origin
         (method url-fetch)
@@ -58360,7 +58360,7 @@
                ".tar"))
         (sha256
           (base32
-            "1m3xn1f3n6akmawk9rl0gcbgcr74nlplc99b40b0zr6ffkl0mwj7"))))
+            "080ya2srjmh87mqmfqlgvfa6gypni5hnz6qv3kzi5mg2z89sb44w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -65419,19 +65419,20 @@
 (define-public emacs-kconfig-ref
   (package
     (name "emacs-kconfig-ref")
-    (version "20230805.737")
+    (version "20230814.1052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seokbeomKim/kconfig-ref.git")
                (commit
-                 "d2f27295053805c5ef4eea5f74e1920f4a24cb25")))
+                 "a3f602032cd3b9a7167505bd8ad0f156ae34c0b8")))
         (sha256
           (base32
-            "0ypbv9ydwdkph9jhg7bzwskz6ihdwidqgxbyspb8mwwgrsq91zgi"))))
+            "06gdjmnxl6aciclqjha56z5q4k0ix6yy4mabgy5smqnd2j2z4myk"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-projectile))
+    (propagated-inputs
+      (list emacs-projectile emacs-emacsql))
     (home-page
       "https://github.com/seokbeomkim/kconfig-ref")
     (synopsis
@@ -70957,17 +70958,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230812.1018")
+    (version "20230814.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "d14d3d5e1e21eb658b2cf2f6be34f43072027328")))
+                 "a319b2c71edbbeb7a2ce88511cd7a6c637581216")))
         (sha256
           (base32
-            "1rhdyzk0sqn8gqxkgf2cmcbdjhgw6wni3f816jch0f3c2zn13qdf"))))
+            "1kzlz3h3dr7fggl8czn4l04vah4v6bycxabamn3z7j5m50q1zh9v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71681,17 +71682,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20230427.1110")
+    (version "20230814.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "1bd8406c84a80204f69f8bc328ab842a049a1aab")))
+                 "6c7aafc52680be220de2361f74b30364deaf36eb")))
         (sha256
           (base32
-            "1sdyw8ry9vjwygzvx9g1siilxvzax7hsj305dxn0dzxk1h8mcwly"))))
+            "0aihzvs8d4m0fgcpkql2khrwk51hxl1b4ycy2mqnq24qis9vl211"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -84974,22 +84975,22 @@
 (define-public emacs-org-category-capture
   (package
     (name "emacs-org-category-capture")
-    (version "20230813.1934")
+    (version "20230814.45")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/colonelpanic8/org-projectile.git")
                (commit
-                 "b904009a4f2f28ce9748e55730b6a419a516549e")))
+                 "ae8a474700298b5f8a511eb6952fa69647b4fa04")))
         (sha256
           (base32
-            "0ylysl36zbbz3wjik55586rv4lz666j2ffhfr7asxznj29ca1pnp"))))
+            "1vdsdz2bpkf5zb3fvsm1g6z734g34qv672mslxgdm7dz698vw4ck"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("org-category-capture*.el")))
     (home-page
-      "https://github.com/IvanMalison/org-projectile")
+      "https://github.com/IvanMalison/org-project-capture")
     (synopsis
       "Contextualy capture of org-mode TODOs.")
     (description
@@ -85021,17 +85022,17 @@
 (define-public emacs-org-chef
   (package
     (name "emacs-org-chef")
-    (version "20220422.300")
+    (version "20230814.1312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Chobbes/org-chef.git")
                (commit
-                 "6a786e77e67a715b3cd4f5128b59d501614928af")))
+                 "66d434b52a306222fe7e13ce4c0cec4a0408fbac")))
         (sha256
           (base32
-            "0ik5akhsh9aji6n477i1jnk0wnljj7n1d0ybp8szgj2nr5258mhk"))))
+            "1ccd6y5323mjsfga79lii4kx3lg183g8vj796yz076ggbfi4nm6s"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/Chobbes/org-chef")
     (synopsis
@@ -87165,28 +87166,31 @@
 (define-public emacs-org-projectile
   (package
     (name "emacs-org-projectile")
-    (version "20230813.1939")
+    (version "20230814.159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/colonelpanic8/org-projectile.git")
+               (url "https://github.com/colonelpanic8/org-project-capture.git")
                (commit
-                 "b904009a4f2f28ce9748e55730b6a419a516549e")))
+                 "ae8a474700298b5f8a511eb6952fa69647b4fa04")))
         (sha256
           (base32
-            "0ylysl36zbbz3wjik55586rv4lz666j2ffhfr7asxznj29ca1pnp"))))
+            "1vdsdz2bpkf5zb3fvsm1g6z734g34qv672mslxgdm7dz698vw4ck"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile
             emacs-dash
-            emacs-s
             emacs-org-category-capture))
-    (arguments '(#:files ("org-projectile.el")))
+    (arguments
+      '(#:files
+        ("org-projectile.el"
+         "org-project-capture.el"
+         "org-project-capture-backend.el")))
     (home-page
-      "https://github.com/IvanMalison/org-projectile")
+      "https://github.com/colonelpanic8/org-project-capture")
     (synopsis
-      "Repository todo management for org-mode")
+      "Repository todo capture and management for org-mode with projectile")
     (description
       "Documentation at https://melpa.org/#/org-projectile")
     (license #f)))
@@ -108230,17 +108234,17 @@
 (define-public emacs-side-hustle
   (package
     (name "emacs-side-hustle")
-    (version "20210627.701")
+    (version "20230814.1047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/side-hustle.git")
                (commit
-                 "1f4cd5e7cfbabb00c6d87e913770f21e3d16c957")))
+                 "7c8f807d22eddaa75f0174b785463e67f2a0e140")))
         (sha256
           (base32
-            "0qcaqfsnw90prch3x1flccanys4bh72x2pdmf27nh5b3i9jbrbv2"))))
+            "0y92q55zzx9m7qkhiq3rs5zx6n7m5zrfd1p4ljcbxvxas03ygzxc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rnkn/side-hustle")
     (synopsis
@@ -108252,17 +108256,17 @@
 (define-public emacs-side-notes
   (package
     (name "emacs-side-notes")
-    (version "20210709.1403")
+    (version "20230814.302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/side-notes.git")
                (commit
-                 "41fe8544661a772f764a0924e04080f258053955")))
+                 "0eeb82389198f3ed096deb6f6e71317148090282")))
         (sha256
           (base32
-            "14xm2a465mgdbp47hwb1dpxw4w5vl0rdlc4m5bxd5z1l4s06nc32"))))
+            "0zbh8a97117nhgvk5a5ajwsdxpknjki0k5h5hk2fi7z3nd8w8vcj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/rnkn/side-notes")
     (synopsis
@@ -117011,17 +117015,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20230806.1420")
+    (version "20230813.1935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "7df7542f5712b3c2f31d033b9c108dddfb2ebfd2")))
+                 "5fb3588c4d9a50e9415975f143d1a88f2055f804")))
         (sha256
           (base32
-            "0f060zdnhb5hb1gjwvpv3vy9znj5lhn67by019nr8chvkpng88ca"))))
+            "0cklmsb3c4gk5gc3gfnyqjfxqlycp7nvp60la5gmxp5lrqbxvss6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -125122,17 +125126,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230814.115")
+    (version "20230814.1051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "85ac94c285d37f26e0eb45308ef17240c283f7c9")))
+                 "484cc771272fb5f9bbce3101f5b76e0f678be0a6")))
         (sha256
           (base32
-            "1ac8qpn3xialmbf4d8m05mi1vh8i95pypc9n6x4k4za8rcibnrmk"))))
+            "0p0xkf221v3ikk2kkkax8nljfgw0ffx96db9m0x0gndrgh74za5p"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125147,17 +125151,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230813.1305")
+    (version "20230814.1051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "a8cd0ce9c812003613da07c62cdaefc0db943bab")))
+                 "484cc771272fb5f9bbce3101f5b76e0f678be0a6")))
         (sha256
           (base32
-            "1p46x36pfvvpf2jfajk0allzx2qr1ighbn82wg999nd6kkxnwfn2"))))
+            "0p0xkf221v3ikk2kkkax8nljfgw0ffx96db9m0x0gndrgh74za5p"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
