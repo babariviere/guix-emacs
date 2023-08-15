@@ -25424,17 +25424,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230814.1704")
+    (version "20230815.230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "9ce19994654b427679aad4bceb546afe64decb06")))
+                 "7429601d138a0cf12ae21eb6c563e4c3f8c2532c")))
         (sha256
           (base32
-            "1avrsxjs3yy3h985s1vymzfn580wm12qw4zsl108gf1z9klx8sv0"))))
+            "1yhz32rfks48a40cczfzmdhzjh9ng8w96g7id7rnagnsn2b2lqzg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -66079,17 +66079,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230802.655")
+    (version "20230815.225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "d00f51b531250f69f2c4987368053708f268602b")))
+                 "6562ec65315bcfb2b1c25aa935c023395b75c618")))
         (sha256
           (base32
-            "1b52gm6na4d3z4kyc21129p5f3bs3swxyzykfclf9yxslms8r487"))))
+            "1c3z6ffwff53z3gdbb392rp46nwm2g966f6s8ns33a8y5qflbi3v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -79228,17 +79228,17 @@
 (define-public emacs-neotree
   (package
     (name "emacs-neotree")
-    (version "20230808.237")
+    (version "20230815.219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jaypei/emacs-neotree.git")
                (commit
-                 "53c0e55034644236ee3761037e0dcfcd1c881c45")))
+                 "2b0cb8285352202c62b1e46a8aa265a5e4f9d966")))
         (sha256
           (base32
-            "1rwm8j48ks9fa5q3g8crpfzbikxfjj5m13w9ylimg34xniycrlq2"))))
+            "1ar32yv9mrvg2q0wdi3da9hzk70ml5jj7wjrcnnmhdmi4sigzjpg"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
@@ -82303,17 +82303,17 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20221102.756")
+    (version "20230815.246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "a31e426c21e1871bd74e359c6f56afdf7d9b143c")))
+                 "6fe2919cd099d090a06ab3fa547f0b7371712109")))
         (sha256
           (base32
-            "0sx9n7911a99qrzfsyi3li0j6pyj8brjxwm2qwnsz3ficga85awl"))))
+            "0i6lbm74b6ls09zx23y6s3f7y278r52c8sgjp1sp6rc9fvj8v2hf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
@@ -117944,17 +117944,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20230813.2008")
+    (version "20230814.2330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "0fcf9a028ccfe2d8bdd2e7375cd325ca0ccdab61")))
+                 "81531a0ae0b6c16d2e2dcec0e83b90480c141793")))
         (sha256
           (base32
-            "0wvjjnbsj6ah03vyx5qdmh9ildb2371234iijdclblzwhar5sxxp"))))
+            "1r57vnq8283pjkjz930lnb31vfx4fx3fhw6gq5w22rrch76f7xzk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
