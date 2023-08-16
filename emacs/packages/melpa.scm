@@ -51708,17 +51708,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230813.1421")
+    (version "20230815.1654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7f3fcf19b6e3b30a5df17a8bcc3ad4273f04d39c")))
+                 "90ce35979a4649ae5b843ce3dae028c462baf0aa")))
         (sha256
           (base32
-            "1lf1wcpw3nzfa35ykkdmbxv25k8q17ij3klmrwxvdwlk4ngw5nja"))))
+            "05avgkwcqcwg9bv2pbia2z17r1y70lxzzrvkf4rlz91v05kwgysd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -57302,17 +57302,17 @@
 (define-public emacs-hl-todo
   (package
     (name "emacs-hl-todo")
-    (version "20230428.1332")
+    (version "20230815.1422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/hl-todo.git")
                (commit
-                 "b27cddf7373408681cc949c8ef829f87a01ed3f3")))
+                 "baba5efa49c2d10bebe259c779ac91de5212703a")))
         (sha256
           (base32
-            "1d9mkbd33zyx540ilp1vz8fgckvxv0qd2vyjgz11zh1qv1pfk8gh"))))
+            "1bjpc11zdq0li4niny4a7j1whqknzwqkr9mvcw7snzy49cb98ski"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/tarsius/hl-todo")
@@ -70273,17 +70273,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20230814.1952")
+    (version "20230815.1918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "673c90b48a94755c0f7d8d91ad9e2a7c529e7a1a")))
+                 "e7f97888a032482dea4b71febbea5fd2a8fdf47d")))
         (sha256
           (base32
-            "0l9ij8z2pmmq0i7bxvv8bc01gzkgapdh5i6yqfx8dvg4aly9g5hq"))))
+            "1rjj652pli73s1kz837alqxam6rjjqck4jzpm35vja6k61799lph"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -115803,17 +115803,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230808.1055")
+    (version "20230815.1739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "3e882f57e4ac91f4a296ca49a37f613c29db59bb")))
+                 "de3f3cdbaaa3404761765d71cae19ba9fb41ebea")))
         (sha256
           (base32
-            "1h5p2ici60vi1jldbxg2b81xxjpvi8j6ql8rsh3c4kk3a2mflg71"))))
+            "1q14s05bfbgf6gz7hdg70d8jbvlwj9s0mys0mkgvs4jmg4yq13ln"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -128604,17 +128604,17 @@
 (define-public emacs-zig-mode
   (package
     (name "emacs-zig-mode")
-    (version "20230811.837")
+    (version "20230815.2033")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ziglang/zig-mode.git")
                (commit
-                 "e6601198cf1dc1ceb21807e75769e3af085e7312")))
+                 "079149a19fc869343130e69d7b944afd3a1813cc")))
         (sha256
           (base32
-            "091xqsaqi3cjvpaa2lwhrmsi0h5cgirjs6cn01lm18h1rg9kmig2"))))
+            "1r8mysp3q4zj9mm1hxj00vnycasi0hlmdgqqjl540jcyn86jqw9a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
