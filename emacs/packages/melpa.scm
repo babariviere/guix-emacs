@@ -14018,17 +14018,17 @@
 (define-public emacs-clojure-ts-mode
   (package
     (name "emacs-clojure-ts-mode")
-    (version "20230812.1719")
+    (version "20230816.244")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
                (commit
-                 "9fb5739a67ec3b291d95f610b5c8c47b8924ce21")))
+                 "329a39ba3bd5d1832893416ef05bacb8c7678268")))
         (sha256
           (base32
-            "17z32cqnp1d200kawgx93vla0mxc9gmq2cm1chdh2rpqcxi31zai"))))
+            "0a1vhpr3zivfq11sy2pwqhxx2q5lxn2da4h0m6hlczcfn4995jlx"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/clojure-emacs/clojure-ts-mode")
@@ -58350,7 +58350,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230815.631")
+    (version "20230816.228")
     (source
       (origin
         (method url-fetch)
@@ -58360,7 +58360,7 @@
                ".tar"))
         (sha256
           (base32
-            "1vn4gkzzhk18h92i98r8mxb7qsl1dy6yqhjgd53rayg0vdsahhni"))))
+            "1i9rfrmiy4fc9dny5vbw1jknp05vqb1899skmbf7ybwbml2kfcgx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -64734,17 +64734,17 @@
 (define-public emacs-julia-vterm
   (package
     (name "emacs-julia-vterm")
-    (version "20230811.247")
+    (version "20230815.2318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/julia-vterm.el.git")
                (commit
-                 "3e0ce9fc1465cad786903a5281c4a103e6b4b7ac")))
+                 "6d67b618a6f2714d283095b088b12859fb663df9")))
         (sha256
           (base32
-            "09vz2xg24whbjam5jicmb4a61bp7p6imf1a897kjhv8fjqypcm8h"))))
+            "02al9s2fb9a1nf6s31szbh0pxw32rljj8fpmx9bs132c54x79ph8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-vterm))
     (home-page
@@ -82303,17 +82303,17 @@
 (define-public emacs-ob-julia-vterm
   (package
     (name "emacs-ob-julia-vterm")
-    (version "20230815.246")
+    (version "20230815.2332")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/ob-julia-vterm.el.git")
                (commit
-                 "6fe2919cd099d090a06ab3fa547f0b7371712109")))
+                 "22f8825185231654397ae31e2a586ec39f98ab6f")))
         (sha256
           (base32
-            "0i6lbm74b6ls09zx23y6s3f7y278r52c8sgjp1sp6rc9fvj8v2hf"))))
+            "1pvb602lrgrncbzqly9ga0rzxvlypysqzp2njf808jipdd9b2bja"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-julia-vterm emacs-queue))
@@ -86057,17 +86057,17 @@
 (define-public emacs-org-inline-pdf
   (package
     (name "emacs-org-inline-pdf")
-    (version "20230809.302")
+    (version "20230815.2356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/org-inline-pdf.el.git")
                (commit
-                 "4a4a29939f3910adc3183ddc7e352b04de9223e5")))
+                 "3a22dca889e8fa815274adcc73bb31a31f5ed992")))
         (sha256
           (base32
-            "0c9k130ak9yp7dbc4csl70zw959h4bn2iyy9rs6zk8iq2y7b43hf"))))
+            "04rfv4qsyhc8w23hbzw8k5f292lafkgf1n0gbbkgc93gifx91s4f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/shg/org-inline-pdf.el")
@@ -127833,7 +127833,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230811.1527")
+    (version "20230816.437")
     (source
       (origin
         (method url-fetch)
@@ -127843,7 +127843,7 @@
                ".tar"))
         (sha256
           (base32
-            "0igs3nqphknxq7ryy68fk207ky44cp0q1bvx7fk9ry82fj46laga"))))
+            "1xq08xjsns81w2s3qg6ln97graiygr9h3fgysr009033wddxwwcs"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
