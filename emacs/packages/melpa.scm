@@ -25424,17 +25424,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230815.230")
+    (version "20230817.649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "7429601d138a0cf12ae21eb6c563e4c3f8c2532c")))
+                 "835edab3e8e6bae4a13647efae9c04bafd50a7f8")))
         (sha256
           (base32
-            "1yhz32rfks48a40cczfzmdhzjh9ng8w96g7id7rnagnsn2b2lqzg"))))
+            "18rjygy021s2wqm8scp5s5kcx9w4sqq4yh0jkb6k4v275jz8f413"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -35804,17 +35804,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20230807.1054")
+    (version "20230817.557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "0877337db49f10acdb1224bb9269a1e4adffdea2")))
+                 "19979843f5fc437917f9a4dae977f5e6d4793726")))
         (sha256
           (base32
-            "1s79xnkaxb4pmam2dkh3j4wknbh06vlm6mzbl1la1pl5nrjd3a7r"))))
+            "1mqh6zqjnbdmqblqpv1409rmx7h1wqprp1z7h68mvmyl80c8r6bd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "queries" "treesit-queries")))
@@ -51708,17 +51708,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230815.1654")
+    (version "20230817.632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "90ce35979a4649ae5b843ce3dae028c462baf0aa")))
+                 "7810a986c7666ff048cf692613f1c359e69c8b31")))
         (sha256
           (base32
-            "05avgkwcqcwg9bv2pbia2z17r1y70lxzzrvkf4rlz91v05kwgysd"))))
+            "1d81yw45s2hm91937853xpn3dr12kf8l5fib9bvxlvwdkg2q32r8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -58664,17 +58664,17 @@
 (define-public emacs-ibuffer-projectile
   (package
     (name "emacs-ibuffer-projectile")
-    (version "20200805.604")
+    (version "20230817.610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/ibuffer-projectile.git")
                (commit
-                 "ecbe482804a217b1471593f6c7a8b3d64f3cdc47")))
+                 "710ecac1578273bf31debe52870f5844472e3428")))
         (sha256
           (base32
-            "0gcars1zmfrysq1n3bv40nwqsk821bz3pffrsjw14fg2mwjpmaxq"))))
+            "1n9fqkwjxilzlb86ia95pjdv8lbgvsp8lwkw47v9kjvq2vnmarv5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-projectile))
     (home-page
@@ -58755,17 +58755,17 @@
 (define-public emacs-ibuffer-vc
   (package
     (name "emacs-ibuffer-vc")
-    (version "20230530.1713")
+    (version "20230817.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/ibuffer-vc.git")
                (commit
-                 "ac07ed3db55059bfa4b22e762ad9475dda37f1a1")))
+                 "1388d2ea18287c74a79d053619dbdfa9090c26a2")))
         (sha256
           (base32
-            "1zw3pdvli3if4rl8r4mah3sbsxhl47325siqq3qs0k1bmwgyg0mf"))))
+            "0mnxh6annmys4h1xhc2c7l7ajp4pwvdg68n30x7a21ad9qlvizil"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/ibuffer-vc")
@@ -66079,17 +66079,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230815.225")
+    (version "20230817.553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "6562ec65315bcfb2b1c25aa935c023395b75c618")))
+                 "3ff4e19dd218c57af8da05b0b7c0c7349f99bb97")))
         (sha256
           (base32
-            "1c3z6ffwff53z3gdbb392rp46nwm2g966f6s8ns33a8y5qflbi3v"))))
+            "146q54ias8j9hjd4vfxfwspkh9di0hfxvqfavjgz0xznjr9rcg20"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -70702,17 +70702,17 @@
 (define-public emacs-lsp-haskell
   (package
     (name "emacs-lsp-haskell")
-    (version "20230815.718")
+    (version "20230817.940")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-haskell.git")
                (commit
-                 "70ed6529ddfbf6e650f7c297090d60fc91d28c63")))
+                 "918ffa2516a59c90f909b584f7c9968716c0e006")))
         (sha256
           (base32
-            "0cddl5ksdg5xi2ka7lmpyhh90i6dxrlp3c4m4hv6af0alnjwmsz8"))))
+            "1dw88wlb82lzqw7yllvx2q703q7fnkmn58jmbwa3agx2zzvbg3dj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-haskell-mode))
@@ -70925,17 +70925,17 @@
 (define-public emacs-lsp-metals
   (package
     (name "emacs-lsp-metals")
-    (version "20230809.2004")
+    (version "20230817.827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-metals.git")
                (commit
-                 "7f0a724b316b26496bc42b23c4fb00f7533ea76b")))
+                 "811f02e4416d208102350ea48404e0310ffea647")))
         (sha256
           (base32
-            "0g7jlk44gcwpwsfj6ikfbivvwxv8j9s2yla46pb17bii4y2s54pq"))))
+            "0q5piqh9k6sg8788dg3s0q59drgbj5d2sf444f413ryr3dph2gbk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-scala-mode
@@ -71864,17 +71864,17 @@
 (define-public emacs-magik-mode
   (package
     (name "emacs-magik-mode")
-    (version "20230807.912")
+    (version "20230817.1258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/roadrunner1776/magik.git")
                (commit
-                 "1f395999f2ad25f96f10b766f939d180d860ad89")))
+                 "327be988d4c9938ca5d04b6e37bc922525b6de93")))
         (sha256
           (base32
-            "0wfkxp4h62wz0vsddqz6115afbv76bzrmhhn1cp4gn0b8jg6wwgl"))))
+            "0jp3fkgd6jdg1zqpfycd7ry94n7cl1pp8m0mxii6rx52pnrw520c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -72449,17 +72449,17 @@
 (define-public emacs-magit-todos
   (package
     (name "emacs-magit-todos")
-    (version "20230307.549")
+    (version "20230817.1314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/magit-todos.git")
                (commit
-                 "7724259a008144b8cfc6cacdae3e764f207a03e7")))
+                 "cadf29d1cc410c71a0020c7f83999d9f61721b90")))
         (sha256
           (base32
-            "184b650lsq9h93ibx8lmr9xn5kjmr0czxx2vzdn8frkbrhdig0sw"))))
+            "0lav4hmjmqax09wyb1wb832321wjj36vqs733sc85ailg31nawqz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -73252,17 +73252,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20230807.2338")
+    (version "20230817.847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "b403120e60702c9dcc6c702a309533d4d92da150")))
+                 "b76404d7ef71ef5a5137415e2235a426749eb3ac")))
         (sha256
           (base32
-            "114pqnakmmj6vycn1hnczf9880zipfp3bqd63j09q9xspqkck6hq"))))
+            "1i0z9zahflm74rqp0xiblbs9w65idivqj8vgwkza7mpcqak21kmj"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -84975,17 +84975,17 @@
 (define-public emacs-org-category-capture
   (package
     (name "emacs-org-category-capture")
-    (version "20230816.1231")
+    (version "20230817.816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/colonelpanic8/org-projectile.git")
                (commit
-                 "ad8daa991698df265a21b161e62a41e04979d98f")))
+                 "4ca2667d498fa259772e46ff5e101285446d70b6")))
         (sha256
           (base32
-            "0sdj9iwl1nsq0d3fqkpna6343zp09l4ffk4jqf0w3lmsnm62wf8a"))))
+            "1p56ng1v0795bkgkk18w6494hvq5j3j6h48yhr8smz69k46amm3y"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("org-category-capture*.el")))
@@ -87166,17 +87166,17 @@
 (define-public emacs-org-project-capture
   (package
     (name "emacs-org-project-capture")
-    (version "20230816.1231")
+    (version "20230817.816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/colonelpanic8/org-project-capture.git")
                (commit
-                 "ad8daa991698df265a21b161e62a41e04979d98f")))
+                 "4ca2667d498fa259772e46ff5e101285446d70b6")))
         (sha256
           (base32
-            "0sdj9iwl1nsq0d3fqkpna6343zp09l4ffk4jqf0w3lmsnm62wf8a"))))
+            "1p56ng1v0795bkgkk18w6494hvq5j3j6h48yhr8smz69k46amm3y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -87197,22 +87197,23 @@
 (define-public emacs-org-projectile
   (package
     (name "emacs-org-projectile")
-    (version "20230816.1231")
+    (version "20230817.851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/colonelpanic8/org-project-capture.git")
                (commit
-                 "ad8daa991698df265a21b161e62a41e04979d98f")))
+                 "4ca2667d498fa259772e46ff5e101285446d70b6")))
         (sha256
           (base32
-            "0sdj9iwl1nsq0d3fqkpna6343zp09l4ffk4jqf0w3lmsnm62wf8a"))))
+            "1p56ng1v0795bkgkk18w6494hvq5j3j6h48yhr8smz69k46amm3y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile
             emacs-dash
-            emacs-org-project-capture))
+            emacs-org-project-capture
+            emacs-org-category-capture))
     (arguments '(#:files ("org-projectile*.el")))
     (home-page
       "https://github.com/colonelpanic8/org-project-capture")
@@ -87225,17 +87226,17 @@
 (define-public emacs-org-projectile-helm
   (package
     (name "emacs-org-projectile-helm")
-    (version "20230816.1231")
+    (version "20230817.801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/colonelpanic8/org-projectile.git")
                (commit
-                 "ad8daa991698df265a21b161e62a41e04979d98f")))
+                 "4ca2667d498fa259772e46ff5e101285446d70b6")))
         (sha256
           (base32
-            "0sdj9iwl1nsq0d3fqkpna6343zp09l4ffk4jqf0w3lmsnm62wf8a"))))
+            "1p56ng1v0795bkgkk18w6494hvq5j3j6h48yhr8smz69k46amm3y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-projectile emacs-helm))
@@ -125153,7 +125154,7 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230817.607")
+    (version "20230817.804")
     (source
       (origin
         (method git-fetch)
@@ -125178,7 +125179,7 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230817.450")
+    (version "20230817.804")
     (source
       (origin
         (method git-fetch)
