@@ -7997,17 +7997,17 @@
 (define-public emacs-biome
   (package
     (name "emacs-biome")
-    (version "20230725.1253")
+    (version "20230817.1601")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/biome.git")
                (commit
-                 "aee39851e2827329f955d657a2bdf7d4874e97ae")))
+                 "e1ab97b773807211517f8ce1f68e507f0cbf54fe")))
         (sha256
           (base32
-            "19rfq7hzifblrq7hjlxdrcgw4bf0fpvx7cj4wbhs12hgfz71x3zn"))))
+            "1rldwscmv40qc37wvlsgs326k72fblyd5kqnxkmwvgnz1kbj8kgq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ct emacs-request emacs-compat))
@@ -37562,7 +37562,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20230813.1959")
+    (version "20230817.2004")
     (source
       (origin
         (method url-fetch)
@@ -37572,7 +37572,7 @@
                ".tar"))
         (sha256
           (base32
-            "1h6gb75lzx75gpibxa4wpn09jn7kw2yzysck7rxd0wkh7x0cdgkg"))))
+            "152zds4kq1bbj1rdk04583n081yrpm7hyafm6qvnsiwzp7grgyf9"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/martianh/fedi.el")
@@ -59557,17 +59557,17 @@
 (define-public emacs-igist
   (package
     (name "emacs-igist")
-    (version "20230816.1044")
+    (version "20230817.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KarimAziev/igist.git")
                (commit
-                 "f0b53af44d40a4a3ffc9a2350e19196508444248")))
+                 "14ce33ab8da5275b9655b740d1f1d8c5bfb337a2")))
         (sha256
           (base32
-            "1z8brwn096kpr9wgrm7i6fxlcskbysppr9cdh6wzn9msqj2fgf07"))))
+            "10nhwcwadswbqw5z2i0gya4qb43h2lzp5s09f0m279j5x8n316fi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ghub))
     (home-page "https://github.com/KarimAziev/igist")
@@ -60109,17 +60109,17 @@
 (define-public emacs-indent-control
   (package
     (name "emacs-indent-control")
-    (version "20220930.2107")
+    (version "20230817.2115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/indent-control.git")
                (commit
-                 "586b955dde5a0699fca76db28ad0d6c3e4141a27")))
+                 "9fc9f2b7921c022c6b4d41c4fcc71d8641deb580")))
         (sha256
           (base32
-            "00jjkfa7aj5sssdsbkyh7crs2y6j3h9gyj3gmdapj8hk1wkbnc9a"))))
+            "1h0k2pnppw006ak5aflq4l1hjga5a2wxgycs7vfmzj5055rvjz0a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jcs-elpa/indent-control")
@@ -73579,7 +73579,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230725.1217")
+    (version "20230817.1911")
     (source
       (origin
         (method url-fetch)
@@ -73589,7 +73589,7 @@
                ".tar"))
         (sha256
           (base32
-            "0jr0kc5s4raiwamgywyqs02mbascdzkx135f08q8h6wclspqzzql"))))
+            "09fla9x84kab445rjdw8fww4ip32ymki1vfqpcg7g6kvg7jf19s4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
