@@ -12682,17 +12682,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230813.2212")
+    (version "20230818.1348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "4a35e243c2e6830af23d05dcb648c71816e3da97")))
+                 "3e54af31ffec5468a250daa2624b4344eea4e564")))
         (sha256
           (base32
-            "1dilj2ykc5n0n9gn4cw4hhpqp7wqiapa8mjmvmg1hvm2hg5yja49"))))
+            "1h88awxzv54q61l3vc4hn0h154a5a6z6rvyc8d2gfrkj5jbb3qz4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -31082,17 +31082,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20230727.1543")
+    (version "20230818.1438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "8ad5cf981b24cd9c7748232a843fafd2d62f6e15")))
+                 "4567938c2c4182ba1ad01e7b3133d32a10095fb5")))
         (sha256
           (base32
-            "06xn06srkv54midyrhdbbnmgmlk4j8djqdm80ji8d62h99a05yyh"))))
+            "17c9g7f02r35fjwyqm5dyna7aq977j5lilqd94sapk4wrhxnryk5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -51708,17 +51708,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230818.542")
+    (version "20230818.855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b8e9509490e17cc0f23d267f7c5385868d59daee")))
+                 "497f479ec113583c2570c03a526c999e3d410f95")))
         (sha256
           (base32
-            "1mw7zwf7k07zwcjir5mnr484f2wv7l2c7fpbxxmg29783i45k01p"))))
+            "0p3031qa3vdy483yw4hvhrrs1xcfhgl7f0ab5m8kixfnr3facad9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -52469,17 +52469,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230811.1440")
+    (version "20230818.855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "8ca4af16d7f8b79f667a3d1f2259eb5cc4a24886")))
+                 "497f479ec113583c2570c03a526c999e3d410f95")))
         (sha256
           (base32
-            "03yzpm01726irjzzqd5085cbq3h48phwq40lzg1bqnnj2agdvcd6"))))
+            "0p3031qa3vdy483yw4hvhrrs1xcfhgl7f0ab5m8kixfnr3facad9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -70273,17 +70273,17 @@
 (define-public emacs-logview
   (package
     (name "emacs-logview")
-    (version "20230816.1915")
+    (version "20230818.1411")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/logview.git")
                (commit
-                 "01502a59e1f6409edd5c232d4dd07e7bdd2d889f")))
+                 "cabaf93f1df86c92aa022dde4a92d92371d72572")))
         (sha256
           (base32
-            "04g3nqxgvyw82lv6rh0qqaw5y14ngy1xr7kqkxk6hsnslgdcv1r8"))))
+            "0l09ayjwj5fwampbpfzdfn83h2vcj1l8n0hh91r9p1lvl1kz9lsw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-datetime emacs-extmap))
@@ -125882,17 +125882,17 @@
 (define-public emacs-wordel
   (package
     (name "emacs-wordel")
-    (version "20230528.1902")
+    (version "20230818.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/wordel.git")
                (commit
-                 "dd87d7c1b66eaceb6ebedbbff6ab6d8523004de2")))
+                 "70171a21cbe53e407b86440bf7ee93d39cb5ebde")))
         (sha256
           (base32
-            "1k4r7i6zachkifimhwimcwbrax0d4mxvr2n5kadxr4m11cjgrl90"))))
+            "1irmabp8zdlp08mvf2xlamf8kg4qbvydm1h4a6ca0b8v53jpd95f"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "words")))
     (home-page "https://github.com/progfolio/wordel")
