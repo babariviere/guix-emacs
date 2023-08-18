@@ -19369,17 +19369,17 @@
 (define-public emacs-creamsody-theme
   (package
     (name "emacs-creamsody-theme")
-    (version "20220912.851")
+    (version "20230818.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-creamsody.git")
                (commit
-                 "ac27451f395d1718a05de636dde9a69a2f0cd558")))
+                 "f00210c2d7a85f88c604916c5e619c6270775f96")))
         (sha256
           (base32
-            "1f0ii025crk44mbpfximma0kd6hl12gg6ilhfs7pifzygywkknl8"))))
+            "1y54jv8nbszkij2mgj4332nj336hrcg19g5smz1y53srlln7wwsz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -21042,17 +21042,17 @@
 (define-public emacs-darktooth-theme
   (package
     (name "emacs-darktooth-theme")
-    (version "20221014.1418")
+    (version "20230818.157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-darktooth.git")
                (commit
-                 "fd3df73a4d937fa9e12f0b18acb009a9d40f245e")))
+                 "6910ebd3ec2441487a730ef98df591d6b1e0c671")))
         (sha256
           (base32
-            "0dvfk9kyza6yq0jn9g2ffb5gv07xnjg6myxkqfxpll7m2s0zasi7"))))
+            "03jrdyvna5nbs3787dgiija4va7r6z7ynmdd0bg8isfpn2nnspzh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -51708,17 +51708,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230817.632")
+    (version "20230818.542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7810a986c7666ff048cf692613f1c359e69c8b31")))
+                 "b8e9509490e17cc0f23d267f7c5385868d59daee")))
         (sha256
           (base32
-            "1d81yw45s2hm91937853xpn3dr12kf8l5fib9bvxlvwdkg2q32r8"))))
+            "1mw7zwf7k07zwcjir5mnr484f2wv7l2c7fpbxxmg29783i45k01p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -70958,17 +70958,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230814.1307")
+    (version "20230818.511")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "a319b2c71edbbeb7a2ce88511cd7a6c637581216")))
+                 "0dfe2145734f91c79aa3bbe666327736982811d7")))
         (sha256
           (base32
-            "1kzlz3h3dr7fggl8czn4l04vah4v6bycxabamn3z7j5m50q1zh9v"))))
+            "13rqfrnhsaxjl0lbxvsbl6122435h30ipp4ma4276dq1yh63xz7h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -76189,17 +76189,17 @@
 (define-public emacs-moe-theme
   (package
     (name "emacs-moe-theme")
-    (version "20230518.1108")
+    (version "20230818.554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kuanyui/moe-theme.el.git")
                (commit
-                 "41bab7a3974b81dc40226bfd1e0190e2d7e57db0")))
+                 "51795cd85ea5f01f3b2a82476914419a5bd89a55")))
         (sha256
           (base32
-            "0svzk4czirvjpfr1s00wdksnpd0hqj64xwlxnl33jmpnkscp29yz"))))
+            "157mqrlwwkf5pzpnxf5y69qjr0nf4rb6xj40pph8h5gdb9pqdchh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kuanyui/moe-theme.el")
@@ -123561,17 +123561,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20230801.18")
+    (version "20230818.722")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "1388eadc914bed79b0e06a6565388c5e8aff8014")))
+                 "e19e72815a3256d6de5347d8878ea6a00f01bc0b")))
         (sha256
           (base32
-            "09l3mllq7p56r3srlfiyry4qgvpl5vijc63ccqpigdlzy758p8r1"))))
+            "0kphl08wysq2q19c592h5c99sr2fpqasl512krv194vvvrfp6gcl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -125154,17 +125154,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230817.804")
+    (version "20230818.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "cc3904efb525415c70fdf68b5138b719fd452c2c")))
+                 "2cc6542f31393c3927929ee821fd8072a53e4f80")))
         (sha256
           (base32
-            "1xarik4jbr8rnsasrxlpfxr3dpl2kb1dihslh07vzczkjgvxvbwz"))))
+            "1lnwf2qd8z95305fm6p47r56lk9s2abnqp7k6d9z3dibplpcwzpd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125179,17 +125179,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230817.804")
+    (version "20230818.718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "cc3904efb525415c70fdf68b5138b719fd452c2c")))
+                 "2cc6542f31393c3927929ee821fd8072a53e4f80")))
         (sha256
           (base32
-            "1xarik4jbr8rnsasrxlpfxr3dpl2kb1dihslh07vzczkjgvxvbwz"))))
+            "1lnwf2qd8z95305fm6p47r56lk9s2abnqp7k6d9z3dibplpcwzpd"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -126430,18 +126430,19 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20230430.1518")
+    (version "20230818.634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "3830cbfdadab4cd68e6f0b6a3a7a4931be8328ea")))
+                 "57395a72087875108245f384acd9327db8b59abb")))
         (sha256
           (base32
-            "0ff6kpnh9bzhxx15p18fijjjsqv0mcqwsd5pidyx8v2yzq699k7x"))))
+            "1lqkywjk7lrkkl4iz1fwclqgvdbfmgjpjsd6fxfzm895dd8gmf8m"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (arguments '(#:files (:defaults "*.txt")))
     (home-page
       "https://github.com/jobbflykt/x509-mode")
@@ -129105,17 +129106,17 @@
 (define-public emacs-zotra
   (package
     (name "emacs-zotra")
-    (version "20230809.516")
+    (version "20230818.58")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpedramfar/zotra.git")
                (commit
-                 "075e4949ae2b762407d5bdca4b4cddf48b0bcac4")))
+                 "c3d93effbb78d5517370fab797fa0d1fa6a1c45c")))
         (sha256
           (base32
-            "1dfnb4wcjcja9nycra25m9wp6hxm2fawm061v9ldpn4vgc8kmnqk"))))
+            "0lkkcbij0hr9sm1dcl4i2gwaai9w6j7in6gpxqgq5vqmjik5hwl4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mpedramfar/zotra")
     (synopsis "Library to use Zotero translators")
