@@ -7997,17 +7997,17 @@
 (define-public emacs-biome
   (package
     (name "emacs-biome")
-    (version "20230817.1601")
+    (version "20230819.1424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/biome.git")
                (commit
-                 "e1ab97b773807211517f8ce1f68e507f0cbf54fe")))
+                 "fc52a2b7ac1a08050499c5eb378d012cd26d0856")))
         (sha256
           (base32
-            "1rldwscmv40qc37wvlsgs326k72fblyd5kqnxkmwvgnz1kbj8kgq"))))
+            "1099abqa7vwx0g9vna3rq8f02k7k3kx6w7kx0rcfwsiscqlklc52"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ct emacs-request emacs-compat))
@@ -35525,17 +35525,17 @@
 (define-public emacs-evil-surround
   (package
     (name "emacs-evil-surround")
-    (version "20230813.2053")
+    (version "20230819.836")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-surround.git")
                (commit
-                 "ea14078cb2b934961b41d5179996ebd8d283273b")))
+                 "8fad8540c490d94a820004f227552ca08e3e3857")))
         (sha256
           (base32
-            "0rqmmjxd0097mw0i567sqvr7g1kk2z55z4q41z9r6yrnca2x0lvf"))))
+            "0mdqyc35hxcj2rz704nns3vyafkvd3a5lyir2cz1559p6pn89ip7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page "unspecified")
@@ -51708,17 +51708,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230819.505")
+    (version "20230819.927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "8d48f2224f07dac10a5af4f375e4d8b9763726e5")))
+                 "da93e5c1f7193fda629afcbe5bb539d92b64c9db")))
         (sha256
           (base32
-            "1qwaaga3hbiih6izw6shym97jbc43g99k1c34rvclmadnn2sc2yw"))))
+            "1614aark20bym1xz87gw6qrj8icgvjrpr5vzdyhpy68a9v588lgk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -54003,17 +54003,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20230819.544")
+    (version "20230819.1409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "82fbb05faa5a38547195d372637de779a9aff0b7")))
+                 "d48113dd727073d99c2dc4ac39d5daf1676133e5")))
         (sha256
           (base32
-            "05gsfqaj8a0zza4xxs0jgwav63w53dzzah3h3gyrg1hy2kgmk317"))))
+            "00r26y6bdlhymhxrmr1ib3kl3p5c8naqsj9y29lml8b2r4phhr1i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -59557,17 +59557,17 @@
 (define-public emacs-igist
   (package
     (name "emacs-igist")
-    (version "20230817.1609")
+    (version "20230819.1105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KarimAziev/igist.git")
                (commit
-                 "14ce33ab8da5275b9655b740d1f1d8c5bfb337a2")))
+                 "64e6b1a865f51a02116a26ebac7e80b852e9e563")))
         (sha256
           (base32
-            "10nhwcwadswbqw5z2i0gya4qb43h2lzp5s09f0m279j5x8n316fi"))))
+            "0mk77p5iw04jrndjkz93kxsih1fqqc668w398nw9f62dir8lzl5v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ghub))
     (home-page "https://github.com/KarimAziev/igist")
@@ -67006,17 +67006,17 @@
 (define-public emacs-lab
   (package
     (name "emacs-lab")
-    (version "20230805.30")
+    (version "20230819.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/lab.el.git")
                (commit
-                 "01d481ca41cc122899ad94a97153f81fe6e7f65e")))
+                 "44cc2630adaa02f902bcf28fa05f3a9039dda005")))
         (sha256
           (base32
-            "0nyip0kli5baiyshj1389najk8zzh948i1kmq287nzsy02ljgyfv"))))
+            "1s027dmf2awd8qyrg33zr3slbwkpc00c586cld5kp5ky5gawaxsv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-memoize emacs-request emacs-s))
@@ -72449,17 +72449,17 @@
 (define-public emacs-magit-todos
   (package
     (name "emacs-magit-todos")
-    (version "20230817.1314")
+    (version "20230819.732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/magit-todos.git")
                (commit
-                 "cadf29d1cc410c71a0020c7f83999d9f61721b90")))
+                 "8f22fa5a93444f94022d30c261a8dd9795d41353")))
         (sha256
           (base32
-            "0lav4hmjmqax09wyb1wb832321wjj36vqs733sc85ailg31nawqz"))))
+            "0767r2vvjqlq4l1lsbwh75mxfkvwnflq7i8mbyj5wa7q1lhy8j11"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -75892,17 +75892,17 @@
 (define-public emacs-modaled
   (package
     (name "emacs-modaled")
-    (version "20230625.1448")
+    (version "20230819.1412")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DCsunset/modaled.git")
                (commit
-                 "fc520f46780736147ab015d825c7332a9dd1a855")))
+                 "e47bd427a2161193b85dc6121c975833f867f47e")))
         (sha256
           (base32
-            "1hps3klzl17sjdsjkgy35b7akvqs5cs8xwh9jnvcak4sfzdgzz0b"))))
+            "10q7yka1n0gs30fp9ik9f77iwjawiv4pix7vng67h55frgi9x46i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/DCsunset/modaled")
     (synopsis
@@ -120105,17 +120105,17 @@
 (define-public emacs-typst-mode
   (package
     (name "emacs-typst-mode")
-    (version "20230610.1237")
+    (version "20230819.928")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Ziqi-Yang/typst-mode.el.git")
                (commit
-                 "4353703b9760a7e19ffc628661ed77c893b569c3")))
+                 "bbc08e88b5454849debb1c4022af56ff3a7f916e")))
         (sha256
           (base32
-            "12xmdml7dcxvgmvh0nim644xdx4l0slm8hs4mc8xgl5nw29giyqy"))))
+            "1ss8wb9jg6l81jrm151d2yybcfbjxq97yhgcwk7dc1pypajldfzc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-polymode))
     (home-page
@@ -124558,17 +124558,17 @@
 (define-public emacs-wfnames
   (package
     (name "emacs-wfnames")
-    (version "20230808.528")
+    (version "20230819.1122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thierryvolpiatto/wfnames.git")
                (commit
-                 "e4d60978921b8a52693aebae988717261c89ed38")))
+                 "ea336972227a5ffe29fed0aaa1ccaadf90743db3")))
         (sha256
           (base32
-            "01hl4wsr0wvvj16imabpx61zwprhb6sxllndc94qc4z3b6zr6vfz"))))
+            "15np6d09081a84y3ildgadmkqjpmbwmd7rrgaa2lxvcj8r1gb2pn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/thierryvolpiatto/wfnames")
