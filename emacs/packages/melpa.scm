@@ -10787,17 +10787,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230818.2227")
+    (version "20230819.151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "d70c0886314253b216b04e43cddea29a44c441ac")))
+                 "df831c35aa0eb73d238ef8297b9273b0e7b69b80")))
         (sha256
           (base32
-            "1b6jjl3crd3322s53vk6rrj2w1m1p7z43badvq1nhlpxkdr0vypf"))))
+            "11kryzd9sp611nfk9z1b2ldw0s348yyv23l548j5jhvz0xiasy2r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -51708,17 +51708,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230818.1453")
+    (version "20230819.505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "cc462522badbde39a3f84589d468d36c4527dabd")))
+                 "8d48f2224f07dac10a5af4f375e4d8b9763726e5")))
         (sha256
           (base32
-            "1jchcgazji02k1isbfwgvnbnfdfq22ivz6kg13rxyg0wpf07qvfw"))))
+            "1qwaaga3hbiih6izw6shym97jbc43g99k1c34rvclmadnn2sc2yw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -54003,17 +54003,17 @@
 (define-public emacs-helm-ls-git
   (package
     (name "emacs-helm-ls-git")
-    (version "20230621.1538")
+    (version "20230819.544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-ls-git.git")
                (commit
-                 "78418a73ca7e796bc95da47a0f3d6bfa0af382b5")))
+                 "82fbb05faa5a38547195d372637de779a9aff0b7")))
         (sha256
           (base32
-            "1giwvi1ds7s9ljymjmk36r10cxa1jc2gbssl67m0bqmpsi3vzxmq"))))
+            "05gsfqaj8a0zza4xxs0jgwav63w53dzzah3h3gyrg1hy2kgmk317"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
     (home-page "unspecified")
@@ -58350,7 +58350,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230816.228")
+    (version "20230819.105")
     (source
       (origin
         (method url-fetch)
@@ -58360,7 +58360,7 @@
                ".tar"))
         (sha256
           (base32
-            "1i9rfrmiy4fc9dny5vbw1jknp05vqb1899skmbf7ybwbml2kfcgx"))))
+            "0aq1m6xjkiximpazcmaip4qgg6iqghz68a0mqqpnszj15gkaxj59"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -64314,17 +64314,17 @@
 (define-public emacs-json-par
   (package
     (name "emacs-json-par")
-    (version "20230520.549")
+    (version "20230819.339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/taku0/json-par.git")
                (commit
-                 "f764a0048d7e39a06df1f39ce007df2824415e98")))
+                 "9fff40e04a1956af6fcf48b5206e81143aec23f3")))
         (sha256
           (base32
-            "1631mi5d8i4bz6c9z06ab54f83lbwqh3cwb7f5nx8v7pp7va6pqm"))))
+            "05yxvl11b1nlv7f3wfxi7ai1q7h6pv6bqz2js0l1na9iy6qb3c7d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-json-mode))
     (home-page "https://github.com/taku0/json-par")
@@ -73327,17 +73327,17 @@
 (define-public emacs-markdown-soma
   (package
     (name "emacs-markdown-soma")
-    (version "20220802.956")
+    (version "20230819.340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jasonm23/markdown-soma.git")
                (commit
-                 "e604b9e4a65bbd2057befbfaebfa73d00bd9826a")))
+                 "a80ed319a835efeaf7d71f49df0be143939bcc13")))
         (sha256
           (base32
-            "1rz96x42g5cigzhmpvimxh8c9hb576kyzgnnbkd0jbn8ag0aw4zw"))))
+            "11p486r79rklfqad7ar9cbyg4czla59fl0zcc0asa5zgdav17mww"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-dash emacs-f))
@@ -79251,17 +79251,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20230817.218")
+    (version "20230819.34")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "284c6ac511dff2186f44d3d15071119bdee6e34d")))
+                 "a16ed781c526a575620ed79308c30ecf553b1f82")))
         (sha256
           (base32
-            "1lf90gg866ccccxp4a30j2bdpm3xd7s92i08hnhkylc252yvlpxh"))))
+            "0rkccbplwb0zmcd8m2xcs54yz616y4d87scgam481d1s85z8ki7m"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -80583,7 +80583,7 @@
 (define-public emacs-nordic-night-theme
   (package
     (name "emacs-nordic-night-theme")
-    (version "20230818.1958")
+    (version "20230818.2321")
     (source
       (origin
         (method git-fetch)
@@ -84432,17 +84432,17 @@
 (define-public emacs-org-ai
   (package
     (name "emacs-org-ai")
-    (version "20230803.2124")
+    (version "20230819.41")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rksm/org-ai.git")
                (commit
-                 "f160791428f0305bb72b08752312cc1c72e989ab")))
+                 "ff17ddddb6f37647cbb39878261661372012c5f5")))
         (sha256
           (base32
-            "11913d6qnrrns97lz27yb87xjjmcwymwm00s9d524y752p41kw7w"))))
+            "0g6bgdf7r8a1zm08sx9736gg6wa3mvcmjnfy8x5ncpggc0gjnhz0"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "snippets")))
     (home-page "https://github.com/rksm/org-ai")
@@ -104311,17 +104311,17 @@
 (define-public emacs-rspec-mode
   (package
     (name "emacs-rspec-mode")
-    (version "20230616.145")
+    (version "20230819.154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pezra/rspec-mode.git")
                (commit
-                 "3f039ae3fda9e52433a8c31d4b6c78c89e559906")))
+                 "29df3d081c6a1cbdf840cd13d45ea1c100c5bbaa")))
         (sha256
           (base32
-            "0dw3v7ikggy11j7p5hdv7hj1dgkh0hsbci79xakxr7xr0802amcs"))))
+            "0fyqlsj91j1fks16bx8zy0ly3mc6nk4fk2vbf0yjc2fa14hda41m"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("rspec-mode.el" "snippets")))
@@ -114301,17 +114301,17 @@
 (define-public emacs-swift-mode
   (package
     (name "emacs-swift-mode")
-    (version "20230812.324")
+    (version "20230819.333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/swift-emacs/swift-mode.git")
                (commit
-                 "4c2231e52aee3f954717ac389debd3816e598a22")))
+                 "609471e9e242261de1d80231c58a469df7530be3")))
         (sha256
           (base32
-            "09yy30r9piji0h3vrsf9vhij6im8lim8iygvji36b9g0h6ii59ww"))))
+            "0k2q70kjws6rlzwcc6bmi4nz1qxpizgj29gzzr3lxq1a9j8cjphi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/swift-emacs/swift-mode")
@@ -125154,17 +125154,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230818.718")
+    (version "20230819.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "2cc6542f31393c3927929ee821fd8072a53e4f80")))
+                 "84dd33592018964db029d3a4bc928b8a4493457c")))
         (sha256
           (base32
-            "1lnwf2qd8z95305fm6p47r56lk9s2abnqp7k6d9z3dibplpcwzpd"))))
+            "0vxbncwqx63fyfm83dsf9m83msf6ad3kyd938sa18g0p39ya6mdw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125179,17 +125179,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230818.718")
+    (version "20230819.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "2cc6542f31393c3927929ee821fd8072a53e4f80")))
+                 "84dd33592018964db029d3a4bc928b8a4493457c")))
         (sha256
           (base32
-            "1lnwf2qd8z95305fm6p47r56lk9s2abnqp7k6d9z3dibplpcwzpd"))))
+            "0vxbncwqx63fyfm83dsf9m83msf6ad3kyd938sa18g0p39ya6mdw"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -127831,7 +127831,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230817.320")
+    (version "20230819.211")
     (source
       (origin
         (method url-fetch)
@@ -127841,7 +127841,7 @@
                ".tar"))
         (sha256
           (base32
-            "1nk038w3idjasfjbqsjbn766cpx8pnlx19rzawxkh4mi4ri2bbkq"))))
+            "0wmsbzvh2vjzslxgyj8y3nxjfi1fvi3lwwyyvbgh5jp8fq436856"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
