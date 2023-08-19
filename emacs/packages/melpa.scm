@@ -10787,17 +10787,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230814.2056")
+    (version "20230818.2227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "758b45d133dd96a1787099af329c917d02635d0d")))
+                 "d70c0886314253b216b04e43cddea29a44c441ac")))
         (sha256
           (base32
-            "0a5464k08p8sq0xz82wgifxg0dj4jp742bk82xra021jhi0lcx5n"))))
+            "1b6jjl3crd3322s53vk6rrj2w1m1p7z43badvq1nhlpxkdr0vypf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -13152,17 +13152,17 @@
 (define-public emacs-cl-format
   (package
     (name "emacs-cl-format")
-    (version "20210831.530")
+    (version "20230818.1726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/akater/elisp-cl-format.git")
                (commit
-                 "ad1a4fb6bc91e65ea90bcf6792cc5a1be5380f9d")))
+                 "42b662d27eefa458c1a39bea1836d6ada740b863")))
         (sha256
           (base32
-            "10z53j111wvgy0fbnxm3mpc9an75dblvy5zkq9733vjliycbbgv4"))))
+            "0z6mia20xs42i176i9d5zn8p5911bs8ibwhag8a9znwcg30kh2r1"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/akater/elisp-cl-format")
@@ -47995,17 +47995,17 @@
 (define-public emacs-gnus-alias
   (package
     (name "emacs-gnus-alias")
-    (version "20150316.42")
+    (version "20230818.1830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hexmode/gnus-alias.git")
                (commit
-                 "9447d3ccb4c0e75d0468899cccff7aa249657bac")))
+                 "cf1783a9294bc2f72bfafcaea288c159c4e3dee5")))
         (sha256
           (base32
-            "1i278npayv3kfxxd1ypi9n83q5l402sbc1zkm11pf8g006ifqsp4"))))
+            "0cs0cyi7hj7ga9aiqz4dafc07xrk3l5g9zzlbda9l90xbvyfssa0"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -51708,17 +51708,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230818.855")
+    (version "20230818.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "497f479ec113583c2570c03a526c999e3d410f95")))
+                 "cc462522badbde39a3f84589d468d36c4527dabd")))
         (sha256
           (base32
-            "0p3031qa3vdy483yw4hvhrrs1xcfhgl7f0ab5m8kixfnr3facad9"))))
+            "1jchcgazji02k1isbfwgvnbnfdfq22ivz6kg13rxyg0wpf07qvfw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -80583,17 +80583,17 @@
 (define-public emacs-nordic-night-theme
   (package
     (name "emacs-nordic-night-theme")
-    (version "20230727.1928")
+    (version "20230818.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~ashton314/nordic-night")
                (commit
-                 "ae953b9c4046901e269dedcb62276c035efc2098")))
+                 "012dc83458dd3d453106806b2590058d5d0f1fdd")))
         (sha256
           (base32
-            "0q0j52fw2lk0az993f40l9sx50bmhzp9bag76avglkcm4kgbxmgm"))))
+            "1mffyld638k488zwbn64q17xl9ihaa5dyjvyq74yp4yfn72dsyvc"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~ashton314/nordic-night/")
@@ -98418,17 +98418,17 @@
 (define-public emacs-protobuf-mode
   (package
     (name "emacs-protobuf-mode")
-    (version "20230808.1726")
+    (version "20230506.330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/protocolbuffers/protobuf.git")
                (commit
-                 "8ad3bf63a49d1283df4a7bfbb07e0be655845cac")))
+                 "da38af71912b864141986577e36a9d055f2b22bc")))
         (sha256
           (base32
-            "0fvkdfnwingingjbaf84hlq0pbzml39cnvmzybiglbadw1646rkd"))))
+            "1sh92cb2f4r74bqd6lg76awj4gz9cqpfid832asc68xa3kwprfwy"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("editors/protobuf-mode.el")))
@@ -129106,17 +129106,17 @@
 (define-public emacs-zotra
   (package
     (name "emacs-zotra")
-    (version "20230818.58")
+    (version "20230818.1958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpedramfar/zotra.git")
                (commit
-                 "c3d93effbb78d5517370fab797fa0d1fa6a1c45c")))
+                 "13d3996a7e976722bdca4139de2435e8d2ea226d")))
         (sha256
           (base32
-            "0lkkcbij0hr9sm1dcl4i2gwaai9w6j7in6gpxqgq5vqmjik5hwl4"))))
+            "1pxixixy2lrfgaq2l0j4ryanzj6pl4y3pzr1h6wb3drdk38bzqyh"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mpedramfar/zotra")
     (synopsis "Library to use Zotero translators")
