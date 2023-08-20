@@ -8226,17 +8226,17 @@
 (define-public emacs-blackjack
   (package
     (name "emacs-blackjack")
-    (version "20230715.1645")
+    (version "20230820.121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gdonald/blackjack-el.git")
                (commit
-                 "af909a17285c3e570b6f8703518ff1f18c8bf421")))
+                 "0398f9d59b323d7b9f6fd57f0c5c2e1b134e44aa")))
         (sha256
           (base32
-            "12lqhnidfbm0jldpi6v923l1mp4q2w2pykjiqjj2v8jvn4nv88yw"))))
+            "0k9mpai7f1flai7vb13skasrsg6z0xrwxv5rdnklxn5ijw7vz0df"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gdonald/blackjack-el")
@@ -34454,17 +34454,17 @@
 (define-public emacs-evil-embrace
   (package
     (name "emacs-evil-embrace")
-    (version "20220211.606")
+    (version "20230820.445")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cute-jumper/evil-embrace.el.git")
                (commit
-                 "7b5a539cfe7db238d860122c793a0cb2d329cc6e")))
+                 "3081d37811b6a3dfaaf01d578c7ab7a746c6064d")))
         (sha256
           (base32
-            "03b53626ywq9qdqzsb92321lc0fzjqb674kwkssjrxlz6hhn5hlq"))))
+            "13rqkdhhzvnw3s49zm3v9xska8j8l1mr85czcfaf5vrm99lx8rl3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embrace emacs-evil-surround))
@@ -51708,17 +51708,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230819.927")
+    (version "20230820.454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "da93e5c1f7193fda629afcbe5bb539d92b64c9db")))
+                 "6239110f8a83e95fe8d466b595bf4f6407545baa")))
         (sha256
           (base32
-            "1614aark20bym1xz87gw6qrj8icgvjrpr5vzdyhpy68a9v588lgk"))))
+            "1xsh6q9qk9al8naxi41qp5qzva7hqi5xgdhn08j3y8387vd3qrm7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -57256,7 +57256,7 @@
 (define-public emacs-hl-prog-extra
   (package
     (name "emacs-hl-prog-extra")
-    (version "20230709.2303")
+    (version "20230820.39")
     (source
       (origin
         (method url-fetch)
@@ -57266,7 +57266,7 @@
                ".tar"))
         (sha256
           (base32
-            "0d43dfwsibgswcfc1vlw6c8ibymrrrfbnyc1zjy1qf6m6mrm92ss"))))
+            "1m71mxn2b66g9pnkc6nbizn8kngzdzjgsl0pzhmx9cz3kazfzxj3"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
@@ -93740,17 +93740,17 @@
 (define-public emacs-pet
   (package
     (name "emacs-pet")
-    (version "20230705.2132")
+    (version "20230820.137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wyuenho/emacs-pet.git")
                (commit
-                 "4f5ca245531053f10ea234bc5e95fc7efcabe251")))
+                 "f34f836e4b2277f7c7742343d219f7a863592fd3")))
         (sha256
           (base32
-            "1ypnqqdxxgm0kad37lqfi2q9a6263rx0li3v8dya5f7915sjsccj"))))
+            "1lnj46p65k6296scdbd8knyk51idr2bzagnca5p1dk9kad461615"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
