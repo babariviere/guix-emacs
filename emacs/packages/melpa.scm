@@ -10787,17 +10787,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230819.151")
+    (version "20230819.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "df831c35aa0eb73d238ef8297b9273b0e7b69b80")))
+                 "11cc35cc890c4789a12ca32e35917a15ec2bc1c5")))
         (sha256
           (base32
-            "11kryzd9sp611nfk9z1b2ldw0s348yyv23l548j5jhvz0xiasy2r"))))
+            "1x41vjgn1kl6k8dj8fj78a4z1j291nchapnwdrc5an41d2qqkyl7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -25424,17 +25424,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230817.649")
+    (version "20230819.1826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "835edab3e8e6bae4a13647efae9c04bafd50a7f8")))
+                 "f45a5a200313568d54d73dd38bae76930c2008b5")))
         (sha256
           (base32
-            "18rjygy021s2wqm8scp5s5kcx9w4sqq4yh0jkb6k4v275jz8f413"))))
+            "1f6ammn7s2iwvr36nrsnqmj06xgkb8difrlpxlynbqg0cpj8dazb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -30895,17 +30895,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230808.1506")
+    (version "20230819.1619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "087bad28245a105d084740cd7981ca711f4c5637")))
+                 "1ca4f35342e953443adca63dd907bbbb7dcf9055")))
         (sha256
           (base32
-            "19dk9mm364n8mf8968drnvz9gfxa1kaqazasg1gybdnp4775b1a0"))))
+            "1n8ckrsggv2svzjkpiifpqa0gqm78b53l17dfz9sfvr4rfldmsxs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -58350,7 +58350,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230819.105")
+    (version "20230819.2107")
     (source
       (origin
         (method url-fetch)
@@ -58360,7 +58360,7 @@
                ".tar"))
         (sha256
           (base32
-            "0aq1m6xjkiximpazcmaip4qgg6iqghz68a0mqqpnszj15gkaxj59"))))
+            "1g9dz9yyd4fcpdk59a3xqkq0hrg7hzspnl2hgqxw10z4wv6gc6a8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -71887,17 +71887,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230815.1255")
+    (version "20230819.1615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "48818355728c48d986d74dde8b1e9fba25f0fd53")))
+                 "667deaa74e54031406d1c4e339c06493689ef102")))
         (sha256
           (base32
-            "0yc2z4149qrpi9w34ny3j34947gh5m6d68chx3j1gcxxawwp18wj"))))
+            "02ijrzgghjjybwyk16pc8h21q70994clciz4rjlp19032xdnarva"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -75892,17 +75892,17 @@
 (define-public emacs-modaled
   (package
     (name "emacs-modaled")
-    (version "20230819.1412")
+    (version "20230819.2001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DCsunset/modaled.git")
                (commit
-                 "e47bd427a2161193b85dc6121c975833f867f47e")))
+                 "5904076e98ef57a2335a41939caca08e792d36fa")))
         (sha256
           (base32
-            "10q7yka1n0gs30fp9ik9f77iwjawiv4pix7vng67h55frgi9x46i"))))
+            "11b73pdnkkzwp71i38fmkmnvk1la27bbqfa4kb4568y9q5553xf0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/DCsunset/modaled")
     (synopsis
@@ -91426,17 +91426,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20230717.2320")
+    (version "20230819.2252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "20ca024ebe18c47f23af135b5adac2627595e9bf")))
+                 "7b7b7f3aadbb7eb1278c94f8d06122ddc9e52cd0")))
         (sha256
           (base32
-            "1kbvdnfr9jwgi7vd2rz6dr0sndisz60yzlfz848b4a1kjqql5280"))))
+            "0yyw70dld3gycb916w682d0zjbkq5rlimdb6mk0ms2bjlp98cz5q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -96321,17 +96321,17 @@
 (define-public emacs-popup
   (package
     (name "emacs-popup")
-    (version "20221231.1634")
+    (version "20230819.2306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/auto-complete/popup-el.git")
                (commit
-                 "71cede0588c10526f88dd0375bce776ec2eed05e")))
+                 "769318d0391e6d9a718e227678234f27f7c13a47")))
         (sha256
           (base32
-            "07rnncg8x1a2kk158pnqazj3hiqf1rf3bmwlhadajqbfb0vv96hv"))))
+            "166v7h5ysark4d953yar0lvds14xjdr1199f6hi5xm16h5h5n56r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/auto-complete/popup-el")
@@ -113051,17 +113051,17 @@
 (define-public emacs-stgit
   (package
     (name "emacs-stgit")
-    (version "20230725.1528")
+    (version "20230819.2343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stacked-git/stgit.git")
                (commit
-                 "cee9dfd7d12b86178bcbf1d48679f298f94113b3")))
+                 "505ddcd2f01b563187da5f901da1fc9825e797b3")))
         (sha256
           (base32
-            "1nc377d0p8bkphlxy6zabyvm8nwbgvw2jnabzwhsvin4kadbcvfg"))))
+            "0s8ghcyz2rifqq85z60vdi4lkiv220l2vczl4rjbpyidhsk2qjb9"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("contrib/stgit.el")))
     (home-page "http://stacked-git.github.io")
@@ -115800,17 +115800,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230815.1739")
+    (version "20230819.2113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "de3f3cdbaaa3404761765d71cae19ba9fb41ebea")))
+                 "b834666626581413b43a34dd73633718c4494f71")))
         (sha256
           (base32
-            "1q14s05bfbgf6gz7hdg70d8jbvlwj9s0mys0mkgvs4jmg4yq13ln"))))
+            "099m16zd8z9qv290gqdxvq8jf40fs4y8kqd4d3wz9iwjdcblzgpw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -116198,12 +116198,12 @@
 (define-public emacs-term-manager
   (package
     (name "emacs-term-manager")
-    (version "20230724.8")
+    (version "20230727.2308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/IvanMalison/term-manager.git")
+               (url "https://github.com/colonelpanic8/term-manager.git")
                (commit
                  "31a3d16ba5a4f9e6f4bc52275eaedf55a96154a8")))
         (sha256
@@ -116222,12 +116222,12 @@
 (define-public emacs-term-project
   (package
     (name "emacs-term-project")
-    (version "20230724.1651")
+    (version "20230727.2308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/IvanMalison/term-manager.git")
+               (url "https://github.com/colonelpanic8/term-manager.git")
                (commit
                  "31a3d16ba5a4f9e6f4bc52275eaedf55a96154a8")))
         (sha256
@@ -129106,17 +129106,17 @@
 (define-public emacs-zotra
   (package
     (name "emacs-zotra")
-    (version "20230818.1958")
+    (version "20230819.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpedramfar/zotra.git")
                (commit
-                 "13d3996a7e976722bdca4139de2435e8d2ea226d")))
+                 "9cd9eb36bbc65efcc38ca38fc96730dbbe882fd8")))
         (sha256
           (base32
-            "1pxixixy2lrfgaq2l0j4ryanzj6pl4y3pzr1h6wb3drdk38bzqyh"))))
+            "0n3iw00ip4hrmg8c2j5m7v67ib3fjr19g8ijgnf8m3rrvhjriss2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mpedramfar/zotra")
     (synopsis "Library to use Zotero translators")
