@@ -8638,6 +8638,62 @@
       "Documentation at https://melpa.org/#/bnfc")
     (license #f)))
 
+(define-public emacs-boa-ide
+  (package
+    (name "emacs-boa-ide")
+    (version "20230813.2036")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/boalang/syntax-highlight.git")
+               (commit
+                 "e1f960ada937be747ea2ec302bea155092e5c06b")))
+        (sha256
+          (base32
+            "1ncnk58whrjrkg2xx9x54q33zs55ilnj0wrcjpj9rd6nrrg1arqi"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-boa-mode
+            emacs-json-snatcher
+            emacs-json-mode))
+    (arguments
+      '(#:files
+        ("boa-ide-sc.el"
+         "boa-ide.el"
+         "boa-ide-study-config.el")))
+    (home-page
+      "https://github.com/boalang/syntax-highlight")
+    (synopsis "Mode for boa language files")
+    (description
+      "Documentation at https://melpa.org/#/boa-ide")
+    (license #f)))
+
+(define-public emacs-boa-mode
+  (package
+    (name "emacs-boa-mode")
+    (version "20230730.2216")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/boalang/syntax-highlight.git")
+               (commit
+                 "e1f960ada937be747ea2ec302bea155092e5c06b")))
+        (sha256
+          (base32
+            "1ncnk58whrjrkg2xx9x54q33zs55ilnj0wrcjpj9rd6nrrg1arqi"))))
+    (build-system melpa-build-system)
+    (arguments
+      '(#:files
+        ("boa-mode.el" "boa-doc.el" "emacs-snippets")))
+    (home-page
+      "https://github.com/boalang/syntax-highlight")
+    (synopsis "Mode for boa language files")
+    (description
+      "Documentation at https://melpa.org/#/boa-mode")
+    (license #f)))
+
 (define-public emacs-bog
   (package
     (name "emacs-bog")
@@ -10787,7 +10843,7 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230820.941")
+    (version "20230820.1609")
     (source
       (origin
         (method git-fetch)
@@ -17188,17 +17244,17 @@
 (define-public emacs-compile-multi
   (package
     (name "emacs-compile-multi")
-    (version "20230616.2101")
+    (version "20230820.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "111db49b4debe3f56b643a5917e14da3d0e36988")))
+                 "4171f5de58a120c661ef33b0af06686be6665a5c")))
         (sha256
           (base32
-            "1rjzbryggwc21mkiafp4dfcykrkhs7fbh082h10cs9jhn0z88x21"))))
+            "00h65awkzxd10wx11zphwvd7w6jk3gzv1q72lj4cdlknq5gp2gnd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mohkale/compile-multi")
@@ -17210,17 +17266,17 @@
 (define-public emacs-compile-multi-all-the-icons
   (package
     (name "emacs-compile-multi-all-the-icons")
-    (version "20230618.2022")
+    (version "20230820.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "111db49b4debe3f56b643a5917e14da3d0e36988")))
+                 "4171f5de58a120c661ef33b0af06686be6665a5c")))
         (sha256
           (base32
-            "1rjzbryggwc21mkiafp4dfcykrkhs7fbh082h10cs9jhn0z88x21"))))
+            "00h65awkzxd10wx11zphwvd7w6jk3gzv1q72lj4cdlknq5gp2gnd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons-completion))
@@ -17606,17 +17662,17 @@
 (define-public emacs-consult-compile-multi
   (package
     (name "emacs-consult-compile-multi")
-    (version "20230620.1848")
+    (version "20230820.1906")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "111db49b4debe3f56b643a5917e14da3d0e36988")))
+                 "4171f5de58a120c661ef33b0af06686be6665a5c")))
         (sha256
           (base32
-            "1rjzbryggwc21mkiafp4dfcykrkhs7fbh082h10cs9jhn0z88x21"))))
+            "00h65awkzxd10wx11zphwvd7w6jk3gzv1q72lj4cdlknq5gp2gnd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compile-multi emacs-consult))
@@ -25500,6 +25556,29 @@
       "Documentation at https://melpa.org/#/doom-themes")
     (license #f)))
 
+(define-public emacs-dot-env
+  (package
+    (name "emacs-dot-env")
+    (version "20230820.2014")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/amodelbello/dot-env.el.git")
+               (commit
+                 "83ce690e8ef9175fc621c85d5fbef4f7ace7b7a8")))
+        (sha256
+          (base32
+            "13zhl3p2i4284fb7ivwai9c55mb8rcjgg92nz4hixlhvnq2myg7a"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-s))
+    (home-page
+      "https://github.com/amodelbello/dot-env.el")
+    (synopsis "Dotenv functionality")
+    (description
+      "Documentation at https://melpa.org/#/dot-env")
+    (license #f)))
+
 (define-public emacs-dot-mode
   (package
     (name "emacs-dot-mode")
@@ -27787,6 +27866,28 @@
     (synopsis "FAR-like file manager")
     (description
       "Documentation at https://melpa.org/#/efar")
+    (license #f)))
+
+(define-public emacs-eff
+  (package
+    (name "emacs-eff")
+    (version "20230613.958")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/oxidase/eff.git")
+               (commit
+                 "3ad6a3f3886c532149f9a1c8c740ab95940ab63b")))
+        (sha256
+          (base32
+            "0fp4qgxw6nx90bp2mxll3qxg35sd3f4yl76fgc3bv2zj8q8349p1"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/oxidase/eff")
+    (synopsis
+      "Show symbols in Executable File Formats")
+    (description
+      "Documentation at https://melpa.org/#/eff")
     (license #f)))
 
 (define-public emacs-efire
@@ -34162,17 +34263,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230814.2222")
+    (version "20230820.2246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "60ba716bf500ca21cdf5a8f83101449a1cbe3413")))
+                 "9eb69b7f5b3c72cfc66f69b3242e935015780654")))
         (sha256
           (base32
-            "1a4sjdhf9nlg3z0iivq9dac6ibja39xc2zr4p9441dwqcigng876"))))
+            "0y2ij9lil9nrjzqw0cbizznf4bmgbajl6jwxvinqwfvbvg8dpz3j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -35618,17 +35719,17 @@
 (define-public emacs-evil-test-helpers
   (package
     (name "emacs-evil-test-helpers")
-    (version "20230813.1704")
+    (version "20230820.2246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "b7b4961a14cd1a51e9a10564fd6c741567d39891")))
+                 "9eb69b7f5b3c72cfc66f69b3242e935015780654")))
         (sha256
           (base32
-            "1rjczcmv0i26nsc43rgqkjksp83njnsvypxrvz5yvlsfh7r742pc"))))
+            "0y2ij9lil9nrjzqw0cbizznf4bmgbajl6jwxvinqwfvbvg8dpz3j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (arguments '(#:files ("evil-test-helpers.el")))
@@ -35829,17 +35930,17 @@
 (define-public emacs-evil-traces
   (package
     (name "emacs-evil-traces")
-    (version "20230731.212")
+    (version "20230820.2255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mamapanda/evil-traces.git")
                (commit
-                 "d4c53bd6addbe1bce7c77fdc10314f24451a2ecf")))
+                 "82e8a7b4213aed140f6eb5f2cc33a09bb5587166")))
         (sha256
           (base32
-            "1aih7rb2cs1cdqvmncchv0hg1rv1q5y685a1hb0pv9acs5kcdjxm"))))
+            "025skn93jr6wphkpyhpz46v58na66k2d1l5pdqpmmd41wrx9cmvq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -37562,7 +37663,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20230817.2004")
+    (version "20230820.1912")
     (source
       (origin
         (method url-fetch)
@@ -37572,7 +37673,7 @@
                ".tar"))
         (sha256
           (base32
-            "152zds4kq1bbj1rdk04583n081yrpm7hyafm6qvnsiwzp7grgyf9"))))
+            "13vy2a7fhrf3k3rklsygr6mrcn732gadv2vwvahj9ix8khzr82jj"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/martianh/fedi.el")
@@ -40443,6 +40544,30 @@
       "A flycheck checker for Haskell using hdevtools")
     (description
       "Documentation at https://melpa.org/#/flycheck-hdevtools")
+    (license #f)))
+
+(define-public emacs-flycheck-hl-todo
+  (package
+    (name "emacs-flycheck-hl-todo")
+    (version "20230807.1500")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/alvarogonzalezsotillo/flycheck-hl-todo.git")
+               (commit
+                 "abbef3892f785ef400c6c6929e764efdd9b23c28")))
+        (sha256
+          (base32
+            "060l48vahnijx957pzp0zbjvlpp5f8x8xdm2d6x9qxkq2rninbss"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-hl-todo emacs-flycheck))
+    (home-page
+      "https://github.com/alvarogonzalezsotillo/flycheck-hl-todo")
+    (synopsis "Display hl-todo keywords in flycheck")
+    (description
+      "Documentation at https://melpa.org/#/flycheck-hl-todo")
     (license #f)))
 
 (define-public emacs-flycheck-hledger
@@ -51708,17 +51833,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230820.454")
+    (version "20230820.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "6239110f8a83e95fe8d466b595bf4f6407545baa")))
+                 "9e748c6acc7547a6225b8ad8733950342ee2a7d9")))
         (sha256
           (base32
-            "1xsh6q9qk9al8naxi41qp5qzva7hqi5xgdhn08j3y8387vd3qrm7"))))
+            "17qn40n37d67hhg94lwddpxi42s1mznpjv8sgk9x4l0jn9c1p4vb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -52469,17 +52594,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230818.855")
+    (version "20230820.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "497f479ec113583c2570c03a526c999e3d410f95")))
+                 "9e748c6acc7547a6225b8ad8733950342ee2a7d9")))
         (sha256
           (base32
-            "0p3031qa3vdy483yw4hvhrrs1xcfhgl7f0ab5m8kixfnr3facad9"))))
+            "17qn40n37d67hhg94lwddpxi42s1mznpjv8sgk9x4l0jn9c1p4vb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -58350,7 +58475,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230819.2107")
+    (version "20230820.2356")
     (source
       (origin
         (method url-fetch)
@@ -58360,7 +58485,7 @@
                ".tar"))
         (sha256
           (base32
-            "1g9dz9yyd4fcpdk59a3xqkq0hrg7hzspnl2hgqxw10z4wv6gc6a8"))))
+            "01a7jspda2c5rgsr722yybckxr0n39y9m1d3ad8d9ssdscsb0hni"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -75892,17 +76017,17 @@
 (define-public emacs-modaled
   (package
     (name "emacs-modaled")
-    (version "20230819.2001")
+    (version "20230820.2113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DCsunset/modaled.git")
                (commit
-                 "5904076e98ef57a2335a41939caca08e792d36fa")))
+                 "c6d08582135dd047300e10b7a683151e4a9117af")))
         (sha256
           (base32
-            "11b73pdnkkzwp71i38fmkmnvk1la27bbqfa4kb4568y9q5553xf0"))))
+            "0ri6ddl5q9rxbxrz2hl5jsj7dk4wgbgb53gkqijfljzb4m0bzv9i"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/DCsunset/modaled")
     (synopsis
@@ -114623,6 +114748,30 @@
       "Documentation at https://melpa.org/#/symbolist")
     (license #f)))
 
+(define-public emacs-symbols-outline
+  (package
+    (name "emacs-symbols-outline")
+    (version "20230814.59")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/liushihao456/symbols-outline.el.git")
+               (commit
+                 "8ac7c883a0128e2b4b34e6bca7699415d57b77c4")))
+        (sha256
+          (base32
+            "15k8r0z9b2g0cxrhngaxfapx6z9ryj27kcainvjq5s5y7hj52ydd"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files (:defaults "icons")))
+    (home-page
+      "https://github.com/liushihao456/symbols-outline.el")
+    (synopsis
+      "Display symbols (functions, variables, etc) in outline view")
+    (description
+      "Documentation at https://melpa.org/#/symbols-outline")
+    (license #f)))
+
 (define-public emacs-symbolword-mode
   (package
     (name "emacs-symbolword-mode")
@@ -115800,17 +115949,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230819.2113")
+    (version "20230820.1547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "b834666626581413b43a34dd73633718c4494f71")))
+                 "f28d640651b1164f7b462c89ac35f7546266ab77")))
         (sha256
           (base32
-            "099m16zd8z9qv290gqdxvq8jf40fs4y8kqd4d3wz9iwjdcblzgpw"))))
+            "1w3vn0af6c93walnh7y3hn76gx9xxcc8abw35bmbzha5gz3gvhr2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -121214,6 +121363,28 @@
       "Documentation at https://melpa.org/#/urlenc")
     (license #f)))
 
+(define-public emacs-ursa-ts-mode
+  (package
+    (name "emacs-ursa-ts-mode")
+    (version "20230814.1337")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ursalang/ursa-ts-mode.git")
+               (commit
+                 "a1141c424e607850b12059d95f7f9eebeb409b89")))
+        (sha256
+          (base32
+            "035rqzw5jazn9nbzqw2vwd27pwk575axkmy1s7g023z15ldy9b44"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/ursalang/ursa-ts-mode")
+    (synopsis "Tree-sitter support for Ursa")
+    (description
+      "Documentation at https://melpa.org/#/ursa-ts-mode")
+    (license #f)))
+
 (define-public emacs-urscript-mode
   (package
     (name "emacs-urscript-mode")
@@ -122392,6 +122563,30 @@
     (synopsis "SystemVerilog Extensions")
     (description
       "Documentation at https://melpa.org/#/verilog-ext")
+    (license #f)))
+
+(define-public emacs-verilog-ts-mode
+  (package
+    (name "emacs-verilog-ts-mode")
+    (version "20230813.2026")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/gmlarumbe/verilog-ext.git")
+               (commit
+                 "ffbdc5b786f51186fd72e68fc50f89a3c4d01113")))
+        (sha256
+          (base32
+            "0dhjgrq3yv348psxnn3hva7wl3mzwfkh94kcnx9pza8j61h90x4k"))))
+    (build-system melpa-build-system)
+    (arguments
+      '(#:files ("ts-mode/verilog-ts-*.el")))
+    (home-page
+      "https://github.com/gmlarumbe/verilog-ext")
+    (synopsis "Verilog Tree-Sitter Mode")
+    (description
+      "Documentation at https://melpa.org/#/verilog-ts-mode")
     (license #f)))
 
 (define-public emacs-verona-mode
@@ -127630,6 +127825,30 @@
       "Yet another snippet extension for Emacs")
     (description
       "Documentation at https://melpa.org/#/yasnippet")
+    (license #f)))
+
+(define-public emacs-yasnippet-capf
+  (package
+    (name "emacs-yasnippet-capf")
+    (version "20230813.1906")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/elken/yasnippet-capf.git")
+               (commit
+                 "40654214db7a44db3a99321447632b43a10fae57")))
+        (sha256
+          (base32
+            "1kywl7jblrmixr0vwycpil5hyk4p5qlc3gxg9w25xga4jj91r663"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-yasnippet))
+    (home-page
+      "https://github.com/elken/yasnippet-capf")
+    (synopsis
+      "Yasnippet Completion At Point Function")
+    (description
+      "Documentation at https://melpa.org/#/yasnippet-capf")
     (license #f)))
 
 (define-public emacs-yasnippet-lean
