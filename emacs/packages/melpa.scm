@@ -8226,17 +8226,17 @@
 (define-public emacs-blackjack
   (package
     (name "emacs-blackjack")
-    (version "20230820.121")
+    (version "20230821.41")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gdonald/blackjack-el.git")
                (commit
-                 "0398f9d59b323d7b9f6fd57f0c5c2e1b134e44aa")))
+                 "7f9072630a159b59a146346b5dae24ab8fb5f290")))
         (sha256
           (base32
-            "0k9mpai7f1flai7vb13skasrsg6z0xrwxv5rdnklxn5ijw7vz0df"))))
+            "1wnm2v9cv0idyks8q6qrxrsby0adpap5ywy9ab602jjidf6ajxm4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gdonald/blackjack-el")
@@ -18024,17 +18024,17 @@
 (define-public emacs-consult-projectile
   (package
     (name "emacs-consult-projectile")
-    (version "20220617.1042")
+    (version "20230821.406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/OlMon/consult-projectile.git")
                (commit
-                 "5ef1ada3be767ea766255801050210f5d796deec")))
+                 "400439c56d17bca7888f7d143d8a11f84900a406")))
         (sha256
           (base32
-            "1x0h9jbgkm32gs75hha3cwk5l24mpq0lmsik03msnc4wl2kvpnhm"))))
+            "1abd2dw3zpiln9pd7l3j78wl3lwapcmf1ilijv3vin9g0wqb7hmn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-projectile))
@@ -58475,7 +58475,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230820.2356")
+    (version "20230821.629")
     (source
       (origin
         (method url-fetch)
@@ -58485,7 +58485,7 @@
                ".tar"))
         (sha256
           (base32
-            "01a7jspda2c5rgsr722yybckxr0n39y9m1d3ad8d9ssdscsb0hni"))))
+            "0n23xxbd5czqm0i0fpzcwhak5j1kc1yyraxby0fi6v697pvsfd3l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -65067,19 +65067,20 @@
 (define-public emacs-justl
   (package
     (name "emacs-justl")
-    (version "20230810.957")
+    (version "20230821.318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/psibi/justl.el.git")
                (commit
-                 "d8fae037a873b51e0b14b137f1c2b813dc89b853")))
+                 "8821feee1a5e541af9cf1962877c817f07bbba21")))
         (sha256
           (base32
-            "18br70n3jv6pxm3hrvlj5g01ja7lhkqw9661fz28v63liidnpbkh"))))
+            "187as0c7wvgkakarsclnrcvzcq9pj3yymbaf81qzjlkcqxdicas9"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s emacs-f))
+    (propagated-inputs
+      (list emacs-s emacs-f emacs-inheritenv))
     (home-page "https://github.com/psibi/justl.el")
     (synopsis "Major mode for driving just files")
     (description
@@ -73377,17 +73378,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20230817.847")
+    (version "20230820.2349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "b76404d7ef71ef5a5137415e2235a426749eb3ac")))
+                 "c71548a58f9b611a6670ba8e9036d3d8e8435bf8")))
         (sha256
           (base32
-            "1i0z9zahflm74rqp0xiblbs9w65idivqj8vgwkza7mpcqak21kmj"))))
+            "0zbja5wi4dy1brhz982cw4if3xjrfnsqdr5nbl0kh78f0fz8kc9r"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -76017,7 +76018,7 @@
 (define-public emacs-modaled
   (package
     (name "emacs-modaled")
-    (version "20230820.2113")
+    (version "20230820.2140")
     (source
       (origin
         (method git-fetch)
@@ -80756,17 +80757,17 @@
 (define-public emacs-norns
   (package
     (name "emacs-norns")
-    (version "20230808.938")
+    (version "20230820.2157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/p3r7/norns.el.git")
                (commit
-                 "da737848883152782abc746a197ce6fd3d371ef2")))
+                 "ee93fed031d6e53fc81fe4916f796a30a920a66d")))
         (sha256
           (base32
-            "01qh5lzc9bcncdryng5scyi4l1qpmwc706dqlg4nvl2sbqkdh0f4"))))
+            "0c1p9zk29vf5mzg2j6qgzmdk2nsvk7mzpln2j9xz9al99vfrqn8p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -87890,17 +87891,17 @@
 (define-public emacs-org-roam-ql
   (package
     (name "emacs-org-roam-ql")
-    (version "20230801.213")
+    (version "20230820.2138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahmed-shariff/org-roam-ql.git")
                (commit
-                 "13981848af3a75f0f4b43ab080a9734f69d2477d")))
+                 "f11c3cbab29c8eba3f42d4ffd73475f67b98740e")))
         (sha256
           (base32
-            "1zgc6mxaq0gjj02jkhbjb89j8haaavs7cmj9h8llk7fzrrz26hpy"))))
+            "191ms8ac7isx5kczn4hnsf4jvq6fq9byd71z35wg6zkzb75pxxap"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -91551,17 +91552,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20230820.1348")
+    (version "20230820.1650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "0081876d33d50eadd0f705863a5ae68a62684e32")))
+                 "c399e2cf1f7de6e078efd68043db62740c771299")))
         (sha256
           (base32
-            "15zs1r88cznhk3k6wj8hr2s31ds2v4x7hy7c6bfqb4vcz3rd9073"))))
+            "03w6dzkmjy4v2j7q65iv9lwi2h9nf6l0hbgidfvsgichk8q5pkss"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -115949,17 +115950,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230820.1547")
+    (version "20230821.536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "f28d640651b1164f7b462c89ac35f7546266ab77")))
+                 "51fcc0523f2928cf275788b8842cbba5c3173bf8")))
         (sha256
           (base32
-            "1w3vn0af6c93walnh7y3hn76gx9xxcc8abw35bmbzha5gz3gvhr2"))))
+            "0ld2793dqwd20g4rlqqaacfa3ywg96ssm7mybv1ymx6rfl2cqkl4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -125349,17 +125350,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230819.356")
+    (version "20230821.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "84dd33592018964db029d3a4bc928b8a4493457c")))
+                 "297c72eef2b4ec48abc8cb99640c101e4e164c94")))
         (sha256
           (base32
-            "0vxbncwqx63fyfm83dsf9m83msf6ad3kyd938sa18g0p39ya6mdw"))))
+            "08s4a7msg8vaf7mrarbxl8wdrjzx7aj7mzb3zgq810w0l5snl4mh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125374,17 +125375,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230819.356")
+    (version "20230821.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "84dd33592018964db029d3a4bc928b8a4493457c")))
+                 "297c72eef2b4ec48abc8cb99640c101e4e164c94")))
         (sha256
           (base32
-            "0vxbncwqx63fyfm83dsf9m83msf6ad3kyd938sa18g0p39ya6mdw"))))
+            "08s4a7msg8vaf7mrarbxl8wdrjzx7aj7mzb3zgq810w0l5snl4mh"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
