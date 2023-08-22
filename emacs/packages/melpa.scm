@@ -20890,17 +20890,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20230810.703")
+    (version "20230822.603")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "de41d62fc4f94f61ffdf7713a043dca9c02297c8")))
+                 "096070aacff875a09c13e596e5d60a55e0f07ab1")))
         (sha256
           (base32
-            "0ksgpnprgdyz9mjgllzjg7x0ghgvyh44yisj8ml1lqagdla7bpm8"))))
+            "16fvhyzddyqjsnvbhr9d3fziz910jfm0ch4hqn9ddczvmnza4h4g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -25480,17 +25480,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230821.1430")
+    (version "20230822.555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "87a10ad1a082996eb049d0a6236e936098172ce3")))
+                 "92d95ac9737371d8efcacd517ce9bb0049f9c47c")))
         (sha256
           (base32
-            "0pwfmj01cqij84dig5qj86n7f4cva5mdjqahr0061byrlv9xrpzb"))))
+            "1q77yw5scs4bwhsp16x18ws21iwwi7bc5gcy6cvm9hm588qlws6y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -40592,6 +40592,31 @@
       "Flycheck module to check hledger journals")
     (description
       "Documentation at https://melpa.org/#/flycheck-hledger")
+    (license #f)))
+
+(define-public emacs-flycheck-indent
+  (package
+    (name "emacs-flycheck-indent")
+    (version "20200129.2046")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/conao3/indent-lint.el.git")
+               (commit
+                 "aee76faf54a55e0bcb5dc07a667d7f5999299c9b")))
+        (sha256
+          (base32
+            "19yixxsrwdm4wqch5011mk4gimsyh9rqzvrxkg7l7baa7am8v902"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-indent-lint emacs-flycheck))
+    (arguments '(#:files ("flycheck-indent.el")))
+    (home-page
+      "https://github.com/conao3/indent-lint.el")
+    (synopsis "Indent-lint frontend for flycheck")
+    (description
+      "Documentation at https://melpa.org/#/flycheck-indent")
     (license #f)))
 
 (define-public emacs-flycheck-indicator
@@ -60298,6 +60323,35 @@
       "Documentation at https://melpa.org/#/indent-info")
     (license #f)))
 
+(define-public emacs-indent-lint
+  (package
+    (name "emacs-indent-lint")
+    (version "20230822.46")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/conao3/indent-lint.el.git")
+               (commit
+                 "aee76faf54a55e0bcb5dc07a667d7f5999299c9b")))
+        (sha256
+          (base32
+            "19yixxsrwdm4wqch5011mk4gimsyh9rqzvrxkg7l7baa7am8v902"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-async-await
+            emacs-async
+            emacs-promise))
+    (arguments
+      '(#:files
+        (:defaults (:exclude "flycheck-indent.el"))))
+    (home-page
+      "https://github.com/conao3/indent-lint.el")
+    (synopsis "Async indentation checker")
+    (description
+      "Documentation at https://melpa.org/#/indent-lint")
+    (license #f)))
+
 (define-public emacs-indent-tools
   (package
     (name "emacs-indent-tools")
@@ -66482,17 +66536,17 @@
 (define-public emacs-klere-theme
   (package
     (name "emacs-klere-theme")
-    (version "20230214.213")
+    (version "20230822.144")
     (source
       (origin
         (method url-fetch)
         (uri (string-append
                "https://melpa.org/packages/klere-theme-"
                version
-               ".el"))
+               ".tar"))
         (sha256
           (base32
-            "08765bbimq657qcb15xgas153d00qmp8pxf4x0frkwf3ijqisd5n"))))
+            "1sp0d5719znx1p489z0zncdr7rlp5j1f1pb5ac35a229r5gz20sv"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/WammKD/emacs-klere-theme")
@@ -71084,17 +71138,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230821.707")
+    (version "20230822.539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "936ca44e7c2a302c8453fb877aa7747b89442ad2")))
+                 "72649c7f2e55cd9f272fc939b6bb2c00ae23e456")))
         (sha256
           (base32
-            "1kcz8mi8igbvd8jg3lpbzryfqllxs6w23zbga8wmzkbf6wjq2nlz"))))
+            "1qfvjwxa582l39wanvxbpwgz49zlaxmyzc0xmb4716z4cl3lsfvn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -85986,7 +86040,7 @@
 (define-public emacs-org-grep
   (package
     (name "emacs-org-grep")
-    (version "20230424.2005")
+    (version "20230821.2356")
     (source
       (origin
         (method url-fetch)
@@ -85996,7 +86050,7 @@
                ".tar"))
         (sha256
           (base32
-            "0b3d87i35r0sqnmscv98l5dg7g3zy4qz08zg3li479687w7fb2sk"))))
+            "07qsjwgkcmqbf371w0dhkgnxj8c5jh95xc4qjzh2xx30vipvyahn"))))
     (build-system melpa-build-system)
     (home-page "https://sr.ht/~minshall/org-grep/")
     (synopsis
@@ -87914,17 +87968,17 @@
 (define-public emacs-org-roam-ql
   (package
     (name "emacs-org-roam-ql")
-    (version "20230820.2138")
+    (version "20230822.224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahmed-shariff/org-roam-ql.git")
                (commit
-                 "f11c3cbab29c8eba3f42d4ffd73475f67b98740e")))
+                 "36fb7414f6a3623fe37d2aa519c2cd522b73fdaf")))
         (sha256
           (base32
-            "191ms8ac7isx5kczn4hnsf4jvq6fq9byd71z35wg6zkzb75pxxap"))))
+            "1fhh64mc5wa37ky7b59vbjmcdg5wzvpg5jda0iivwlbhpmmx36f3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -110906,17 +110960,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20220404.307")
+    (version "20230822.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "afe4286dec79ef45a42a343033f69d90dd308535")))
+                 "cb5468ab6792654d18c50d80a2ec0f4b603e21b7")))
         (sha256
           (base32
-            "1nq1w4vxcb1sv0gbdfrmjxjk07vailjrigk6yhjms65ansy7qfsq"))))
+            "1p42qsjyx1073588w34g2bdnjwc60r4la4g8cpwdc8v02yb2snyc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -119154,17 +119208,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20230705.525")
+    (version "20230822.408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "944a734b7c3a5922a7e9a2009a9165e2dc195b18")))
+                 "fefd8cf23e94f468346b69d1d4a8c1330d2dc72a")))
         (sha256
           (base32
-            "1sn9rdmj4pndswqq19f0y9g5s2i8kbwvkg2azx0kmf9y269j6z2a"))))
+            "16gidlwrydzjk7mj9c8837zvm0w4pvxfmm670ld48hgqmkv1ggpk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
