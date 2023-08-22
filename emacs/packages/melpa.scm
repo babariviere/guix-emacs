@@ -7975,17 +7975,17 @@
 (define-public emacs-binky
   (package
     (name "emacs-binky")
-    (version "20230811.1234")
+    (version "20230822.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky.el.git")
                (commit
-                 "83ad537a185dacff6e1aacc8ccb3ca519bb71668")))
+                 "7f35d460f0028a6737a41df2522616b97b91dbd0")))
         (sha256
           (base32
-            "1dabbfck7a1rld5jcc43rhxvxykc725q56xybjjmbmy20far8kkv"))))
+            "0c73z07pbpqinpxw7g55hpiwzmxzj9msrmz1yl149c9qbkns9gnl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -12738,17 +12738,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230820.1205")
+    (version "20230822.1335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "895e5e9cf2bd064bacfdb427c8f9f2a2c1061e45")))
+                 "0e76b141054f091fa1a21fea7f2a5604b2f7f8d4")))
         (sha256
           (base32
-            "1mlzcw7jr7hh7v8k2jh4cr9wgr760d8zcscdd5n5hc70pc27smfs"))))
+            "019bfvjjxyz19xzk037h0b5ghsxgv3sad3hpsz63azm2gjkv2jqh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -13591,17 +13591,17 @@
 (define-public emacs-clippy
   (package
     (name "emacs-clippy")
-    (version "20230118.1924")
+    (version "20230822.1348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/clippy.el.git")
                (commit
-                 "85aec3129ff17f71ea4541cfadbb7b56b31a7474")))
+                 "1e764902b3e9dbb11d5f02bc36c3b7ff4275f528")))
         (sha256
           (base32
-            "0zx45rlsj184v4gshnzpqzdmyl9g541z70jhhw0rj8im62pnnrbi"))))
+            "1bc3a58xxvp9mjna47pcfnzk9h8akjwjn6jjlm2nsllmznzwa3pg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pos-tip))
     (home-page "https://github.com/Fuco1/clippy.el")
@@ -23892,17 +23892,17 @@
 (define-public emacs-dired-rsync
   (package
     (name "emacs-dired-rsync")
-    (version "20230714.1459")
+    (version "20230822.1350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stsquad/dired-rsync.git")
                (commit
-                 "95607fc7eb84e792122b52d2b1d62f49199a2a37")))
+                 "5bcb851f3bf9c4f7c07299fcc25be7c408a68cda")))
         (sha256
           (base32
-            "1zvsmpvham670i807rs8f2f0h73yk4fpaavj0hzksqcl5ykh4fgr"))))
+            "0lgqq7lh6pkg5mr9b2ilpkyw1gjrdr4frq26vjkmrl95wwphbc32"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (arguments '(#:files ("dired-rsync.el")))
@@ -36407,17 +36407,17 @@
 (define-public emacs-exercism
   (package
     (name "emacs-exercism")
-    (version "20230530.2230")
+    (version "20230822.1147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/anonimitoraf/exercism.el.git")
                (commit
-                 "807ad7c9889b5a774f34ad65c6de0d40d74f253f")))
+                 "6b3d7ba0347aeb17098eb6d7656176a91280f88b")))
         (sha256
           (base32
-            "10s1laffbdqbz0qmnrzsbr7yijf284kajcnm0s693b6ckifgqdc7"))))
+            "18b0mb83dqy5vr2cw91zg3ix8bqvprpbfny6p38327s7dxdjnapb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -60569,17 +60569,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20230304.1512")
+    (version "20230822.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "5a8b87fe6873bc684552cd993e375c382d729753")))
+                 "03475ac1cca410ee63a523f5c63f859cfafe1aeb")))
         (sha256
           (base32
-            "0bqgm234wh3qxmznkdqr960a7kh9x0g1i8spddlrwqfr67jb68rk"))))
+            "0dc01y4cnkv2sbk93nc4y4wk49qd38zkzr9n86qdzcaqg6qqpgz0"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -80786,17 +80786,17 @@
 (define-public emacs-nordic-night-theme
   (package
     (name "emacs-nordic-night-theme")
-    (version "20230821.2226")
+    (version "20230822.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~ashton314/nordic-night")
                (commit
-                 "ce1b9609ce6cfed83b4d3a28bca9d1ce703765db")))
+                 "66aa555af2552fe6d1efd3170f199edd0d44fced")))
         (sha256
           (base32
-            "0y56nsa93ricxscnw8nr3q06yj9lawnw8hg1cqicpsm9wj15q519"))))
+            "1hjmdsr9v0pcci94ivhcc71mqjmrp8l4zj7p7s9rlg0l2yh3gaxd"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~ashton314/nordic-night/")
@@ -87602,17 +87602,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20230607.1503")
+    (version "20230822.837")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "592985019905447d5f1fd6e24d14bfa9f4adf2f3")))
+                 "4921cbff198b321b053953a6ee0f7dec092f7391")))
         (sha256
           (base32
-            "124f59yj0w5linph4k38fil42jc6nvkzhx73312farkmn4p9r9zk"))))
+            "12izl8r0ndzvwdfjyfnqiaqq6x20w20hrji3s071674g2xj3pqi1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -109936,17 +109936,17 @@
 (define-public emacs-smart-compile
   (package
     (name "emacs-smart-compile")
-    (version "20230507.2309")
+    (version "20230822.1208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zenitani/elisp.git")
                (commit
-                 "dfa6a49ced30720336be3d1fabbab4d6e0c787f0")))
+                 "8dcf2d1639f662c355c3fe2f533995042dce0ca8")))
         (sha256
           (base32
-            "10fcr8v3cff9l1y9y0vw1hcnsar255nqdipw1da84x093rfm1j8r"))))
+            "0acha536crf59mjpdir1yxh9hk9pnxdjpjggzaj51f7y9hncf43j"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("smart-compile.el")))
     (home-page "unspecified")
@@ -114829,17 +114829,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20230814.59")
+    (version "20230822.809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "8ac7c883a0128e2b4b34e6bca7699415d57b77c4")))
+                 "642883677ed1b2a83c0801b8260980e9ad3edd49")))
         (sha256
           (base32
-            "15k8r0z9b2g0cxrhngaxfapx6z9ryj27kcainvjq5s5y7hj52ydd"))))
+            "1vzk2mirwlq99blxg3q0h1hqcf4hy1jjdb7g9ppib9wskjm4d5ah"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
@@ -116027,17 +116027,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230821.536")
+    (version "20230822.1133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "51fcc0523f2928cf275788b8842cbba5c3173bf8")))
+                 "d0427571f162a2de69820479f797687c123a18b7")))
         (sha256
           (base32
-            "0ld2793dqwd20g4rlqqaacfa3ywg96ssm7mybv1ymx6rfl2cqkl4"))))
+            "0hjznmwlz1j72mgjihq040qn53v4pvr3qna8hazynxi9mx3mldy6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -119208,7 +119208,7 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20230822.408")
+    (version "20230822.544")
     (source
       (origin
         (method git-fetch)
