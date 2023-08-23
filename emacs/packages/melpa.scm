@@ -25480,17 +25480,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230822.1514")
+    (version "20230823.552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "502e8d8e6566eb52f2dcd1c052cedc628217f6e8")))
+                 "259ff6a1862b9860f9280f940fe949562766e62b")))
         (sha256
           (base32
-            "194lnjji1y5a94hhmprlkj6sfl35gn71lim74vz8q5pg55fsmvck"))))
+            "0az1z6s09lwwby5anidbjghkzxk0qnhh03wyakxf93zq7jz3m303"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -44309,17 +44309,17 @@
 (define-public emacs-frame-mode
   (package
     (name "emacs-frame-mode")
-    (version "20190710.2030")
+    (version "20230823.555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/IvanMalison/frame-mode.git")
+               (url "https://github.com/colonelpanic8/frame-mode.git")
                (commit
-                 "ae2366969927c9f89ea07c999bef382b0b47cac1")))
+                 "53e8f0b7f2ce650f8d86d5eb1d407729c33920c4")))
         (sha256
           (base32
-            "0fr4rc6axgk98sinsmqr6zhd2ba4djijmbpkha2vs1qn31p1z4g7"))))
+            "0lz2gb4b6qz0qqd6q0ph5v3wyqxk1qmk33zikf976mmaxc3r5b2c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -51858,17 +51858,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230821.1759")
+    (version "20230822.1612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "d838d9c4a2f83ea04cbc7c9822e974d5bf9879c4")))
+                 "b796a5dc1bffbaef5f9a8159510f1e8960db72aa")))
         (sha256
           (base32
-            "1jm9jmv91ydbicnbg47p7zrlysa09pm2gi5xrgf3kl34y6fzzl3h"))))
+            "0cqpg7fy8s9266x75plshsjd6byhxlq11f087p3ilgc8p8z76a52"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -52619,17 +52619,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230821.756")
+    (version "20230822.1702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "8c1abf30d69a2efe325ba1f6f079c98e919732ce")))
+                 "b796a5dc1bffbaef5f9a8159510f1e8960db72aa")))
         (sha256
           (base32
-            "0wxvvdmrgvbnzdd3mdg0m4cijh41d3g1c9g74j9c3jj0fynck621"))))
+            "0cqpg7fy8s9266x75plshsjd6byhxlq11f087p3ilgc8p8z76a52"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -64629,17 +64629,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20230724.1446")
+    (version "20230823.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "43ab410a017f01bff89f83de3b450da46691e6a2")))
+                 "4cf2e80468fb6e7c2dc32b39b64c3f91cdeb43b2")))
         (sha256
           (base32
-            "062p516gqah2bkwcci7nxb1ccj4rk8rcxxss6h1rqfifmn0i1lgp"))))
+            "1kqb1c5834jpcxbwc22ca3mxszk2swvhaq0fghb9bn3c6ifrpqxa"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -71138,17 +71138,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230822.1832")
+    (version "20230823.446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "2e6683fd3fc937c562d219523b9ebde7c0678c6f")))
+                 "f8ed844b6e23c7717fb69d6c645aa41f0772c557")))
         (sha256
           (base32
-            "05q68yzi7vxy8maq9h257zq2d2d1prkl9hk5kg7v711zpwxkmimp"))))
+            "0xra5cvaw4ai4zbf2xvkw5jlmbgm56cgkhzdzbyrkai57phjmd8y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -79431,17 +79431,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20230819.34")
+    (version "20230823.345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "a16ed781c526a575620ed79308c30ecf553b1f82")))
+                 "ac9014a34073db26886844cf8c16c76758f8b4c6")))
         (sha256
           (base32
-            "0rkccbplwb0zmcd8m2xcs54yz616y4d87scgam481d1s85z8ki7m"))))
+            "0ab4irm0qnkinbmlwq68qspbxh72c857y167z61g2qkcjz2azygg"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -98256,17 +98256,17 @@
 (define-public emacs-projection
   (package
     (name "emacs-projection")
-    (version "20230813.2038")
+    (version "20230822.2132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/projection.git")
                (commit
-                 "35dc6038e0e94c31fff0f0737579e697a1a4b383")))
+                 "d043418c707d5637d869c488e8abe2186e55b5fe")))
         (sha256
           (base32
-            "1ndrxrig8fx0psiz2d2kzdqndj5r268mp0iqqyr70bqsxjkhh88f"))))
+            "1nypw1l6bzlnwzkg288ykbg2ll16ygyi7zs7g9myg9pf1vf0z29y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments '(#:files (:defaults "src/*.el")))
@@ -98280,17 +98280,17 @@
 (define-public emacs-projection-multi
   (package
     (name "emacs-projection-multi")
-    (version "20230813.1907")
+    (version "20230822.2132")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/projection.git")
                (commit
-                 "35dc6038e0e94c31fff0f0737579e697a1a4b383")))
+                 "d043418c707d5637d869c488e8abe2186e55b5fe")))
         (sha256
           (base32
-            "1ndrxrig8fx0psiz2d2kzdqndj5r268mp0iqqyr70bqsxjkhh88f"))))
+            "1nypw1l6bzlnwzkg288ykbg2ll16ygyi7zs7g9myg9pf1vf0z29y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projection emacs-compile-multi))
@@ -116027,17 +116027,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230822.1133")
+    (version "20230822.2127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "d0427571f162a2de69820479f797687c123a18b7")))
+                 "d8ab0fad55155215ae2d49e64ba25344b6f5c85f")))
         (sha256
           (base32
-            "0hjznmwlz1j72mgjihq040qn53v4pvr3qna8hazynxi9mx3mldy6"))))
+            "0b1w4yrza872f7vc1fh5q83gf855r70mayclq20w37blchlgy00k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
