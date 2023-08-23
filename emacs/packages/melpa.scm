@@ -11442,17 +11442,17 @@
 (define-public emacs-cdlatex
   (package
     (name "emacs-cdlatex")
-    (version "20230815.957")
+    (version "20230823.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cdominik/cdlatex.git")
                (commit
-                 "690ed49c1a7cc3648b2d4850653973fb46c2bdea")))
+                 "9177058889e2dc985737006bf019d94d63074f13")))
         (sha256
           (base32
-            "14kf9wbm8rrvsy29gfic6pq495j2cqrga3d3l946q666lm6qzky8"))))
+            "0kkcbcag2wswwp3izf54qgwfvizzx01y47kyrflglavl1z5hclfc"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -13979,17 +13979,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20230626.715")
+    (version "20230823.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "0e62583b5198f71856e4d7b80e1099789d47f2ed")))
+                 "dae21f8807c80297b9d69aefac4c3864c56d50af")))
         (sha256
           (base32
-            "1gzr506mj2w8jigvdpsmp9jm4kb5k5v076wda2jz5dpbw4jgj5ms"))))
+            "0axqdzq4rjjxsxx4b8n2g2gf82wrznbzdilp2kv831wyl33z29mk"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -14002,17 +14002,17 @@
 (define-public emacs-clojure-mode-extra-font-locking
   (package
     (name "emacs-clojure-mode-extra-font-locking")
-    (version "20230626.715")
+    (version "20230823.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "0e62583b5198f71856e4d7b80e1099789d47f2ed")))
+                 "dae21f8807c80297b9d69aefac4c3864c56d50af")))
         (sha256
           (base32
-            "1gzr506mj2w8jigvdpsmp9jm4kb5k5v076wda2jz5dpbw4jgj5ms"))))
+            "0axqdzq4rjjxsxx4b8n2g2gf82wrznbzdilp2kv831wyl33z29mk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (arguments
@@ -14308,17 +14308,17 @@
 (define-public emacs-cmake-mode
   (package
     (name "emacs-cmake-mode")
-    (version "20230816.1746")
+    (version "20230823.1325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.kitware.com/cmake/cmake.git")
                (commit
-                 "7b49424489b7c1a6ba5487e6dfcf227be74e6720")))
+                 "72beefa91b7d6ea6eeffaf0977219e9e3fc4943d")))
         (sha256
           (base32
-            "0c0rk2f7igdk4cgb6x2pj3rghibk7gkw4na618brdkjy74icxsvl"))))
+            "0bspxnpfxivxvscjcs51wwh4kx83p6kirpf1p9arbmqi904l4m1s"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("Auxiliary/*.el")))
     (home-page "unspecified")
@@ -19768,17 +19768,17 @@
 (define-public emacs-csound-mode
   (package
     (name "emacs-csound-mode")
-    (version "20230529.1850")
+    (version "20230823.1147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hlolli/csound-mode.git")
                (commit
-                 "a40a225f5e1f807719c68f5a486998eb98a9ddeb")))
+                 "6a30595594d86a049e25af2cc35c6ca032c3c4cf")))
         (sha256
           (base32
-            "1b9lhbprglicgaw9yrl5040vw13n6y9a3k2wp4c3cjj5jl9rzr47"))))
+            "05vq4bzbdkf8y6zb2c6a7s2hpfddpkwy4m1vi1y95j0vywr79vp5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shut-up
@@ -25129,17 +25129,17 @@
 (define-public emacs-docker
   (package
     (name "emacs-docker")
-    (version "20230821.802")
+    (version "20230823.937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Silex/docker.el.git")
                (commit
-                 "39867ab6bcc02b44c01edcfcbd37cd0c055735f7")))
+                 "0899a56c41589e179d3b42994480802d8472e5b3")))
         (sha256
           (base32
-            "1k5vf3sa1chma8gm7mlip99jdxmqmacx0jcg6allf5jmbrsc47nf"))))
+            "00kx4dffncgf5rrcsj614dkhxlw65dmjrbrvqd1v8h02w1925p9l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-aio emacs-dash emacs-s emacs-tablist))
@@ -29397,17 +29397,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20230813.942")
+    (version "20230823.925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "96ffc25862a1d5fd20af74130db1e816709e293b")))
+                 "129b893da11ad6195e8bb40ddc236ffd27fa96a7")))
         (sha256
           (base32
-            "1w2ykhvmjf9a5k4kcgr5a1312fc7abn92w3860pgzb195m0mil56"))))
+            "02ij597azjabf868jk94kngnvjiwhh2iyibap81cianmd6hg3n5x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -34263,17 +34263,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230820.2246")
+    (version "20230823.737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "9eb69b7f5b3c72cfc66f69b3242e935015780654")))
+                 "a667d8857f8a64249b53a4c45805ed6d62da4e5d")))
         (sha256
           (base32
-            "0y2ij9lil9nrjzqw0cbizznf4bmgbajl6jwxvinqwfvbvg8dpz3j"))))
+            "0xmfm0rjw37lqma3dr09l1989wlm8v37ln3w4p9ajjx18v9cj5vr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -37010,17 +37010,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20230704.1346")
+    (version "20230823.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "19e1da061e759b05e8c480b426287a063ca39484")))
+                 "ab3ee3811c53f9c2144ff45130361f3da242ffa2")))
         (sha256
           (base32
-            "1ljamkq8hz35gbnh5hb9f7vsavn2g3m8d4qnshlbkwj5hscm72ir"))))
+            "07jsgq8jx1dxwlij61pbzsmlb047jsbk1ssr1d8301kssaa9qls8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -51858,17 +51858,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230822.1612")
+    (version "20230823.838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b796a5dc1bffbaef5f9a8159510f1e8960db72aa")))
+                 "7de8fba566b5eb0471abcf1ff12710376c6e9157")))
         (sha256
           (base32
-            "0cqpg7fy8s9266x75plshsjd6byhxlq11f087p3ilgc8p8z76a52"))))
+            "0cq6hq36krk5lk8xx1kp0hqyjw5jn5bdybva2ygm08723fmbgaq5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -64008,17 +64008,17 @@
 (define-public emacs-jq-mode
   (package
     (name "emacs-jq-mode")
-    (version "20230816.809")
+    (version "20230823.1003")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ljos/jq-mode.git")
                (commit
-                 "e2aebaab165a9f0b38a15186a77b356e69cd3ada")))
+                 "4d9e98e21642007bc32ba75a5c259760f1fcf451")))
         (sha256
           (base32
-            "0z9647839m5sw8k7l39d18sw0xrihns0dynmggmlfd2xz3w09agl"))))
+            "1jifbpa1wgljrzxyg93dhzcxrfmlnxnwlrgfs6627wl4sijh0msi"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ljos/jq-mode")
     (synopsis "Edit jq scripts.")
@@ -70882,17 +70882,17 @@
 (define-public emacs-lsp-haskell
   (package
     (name "emacs-lsp-haskell")
-    (version "20230821.929")
+    (version "20230823.1043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-haskell.git")
                (commit
-                 "4bb4aff848a491c89e95eaa400fc6bc8c62d1b51")))
+                 "d15bbb7e254f7a2b05a1f1511e453ed8c50eb434")))
         (sha256
           (base32
-            "0b3h5hf5iym648llbnz2anvnar4bvw3vc4vcbnah24nrc7vjvayi"))))
+            "0xwc965b3lz1s2qbmnai07yvy6l4f2k1r8amm48nmybldq6wmvxm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode emacs-haskell-mode))
@@ -71633,17 +71633,17 @@
 (define-public emacs-lux-mode
   (package
     (name "emacs-lux-mode")
-    (version "20220328.1301")
+    (version "20230823.844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hawk/lux.git")
                (commit
-                 "924dcda3e4212c0b28e8ce140b9d8e9a1117c5ef")))
+                 "1d318d1c5712990ce1371a77961a01bc040a4c6b")))
         (sha256
           (base32
-            "12g98n08gaqicj62ml87yc77j2i6axg2vif40w5pn86rv0nbyb90"))))
+            "12gjwa4q79368kprb8vss7w6jkqj6pw0q8s2n88wr33cpm3b8pyh"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("emacs/lux-mode.el")))
     (home-page "https://github.com/hawk/lux")
@@ -73759,7 +73759,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20230817.1911")
+    (version "20230822.1652")
     (source
       (origin
         (method url-fetch)
@@ -73769,7 +73769,7 @@
                ".tar"))
         (sha256
           (base32
-            "09fla9x84kab445rjdw8fww4ip32ymki1vfqpcg7g6kvg7jf19s4"))))
+            "0kff27by06c8nbliw7nhd5v1d8fvm2viqfbml95qw83pc39xp5dv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist emacs-ts))
@@ -87122,17 +87122,17 @@
 (define-public emacs-org-page
   (package
     (name "emacs-org-page")
-    (version "20230821.929")
+    (version "20230823.1105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/org-page.git")
                (commit
-                 "0ac92c485b08c2b2c12f532d90cb925b10de8aa6")))
+                 "dba35475c04bb8539b6877138394e3006326327b")))
         (sha256
           (base32
-            "0z85brilh900nh2ix23pp1hzy8qyi22cvfb0mipdfyyq5gl2yj0h"))))
+            "19dw7b051c0k5fj7i7b67avx306jlgz05d67ws6pagpqifih575f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ht
@@ -105043,17 +105043,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20230815.1224")
+    (version "20230823.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "5ac7226725d273fc277f19832dd059ac88376c60")))
+                 "ccc4022431ed82dbfcfe4e8b6aa1e9f2d0f76eab")))
         (sha256
           (base32
-            "17k9jdc54p5qys3f0mqaqr1hbi2j7ab88zl3c925nl9j62dd01ql"))))
+            "1f6jin8fxn9yixs3wdcgq4fwjbykgydzzadcynhbcnvrh7bqszvj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
@@ -114829,17 +114829,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20230822.809")
+    (version "20230823.958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "642883677ed1b2a83c0801b8260980e9ad3edd49")))
+                 "8c4e722507577456e583cf4d87a047527e91a1bd")))
         (sha256
           (base32
-            "1vzk2mirwlq99blxg3q0h1hqcf4hy1jjdb7g9ppib9wskjm4d5ah"))))
+            "1p4kj6ywi1wfaxzib2vyi4vv3hcshjj2dz2fhzhfsvs1h556p22h"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
@@ -116027,17 +116027,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20230822.2127")
+    (version "20230823.1026")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "d8ab0fad55155215ae2d49e64ba25344b6f5c85f")))
+                 "cfc216ac8f8da5f313c1831c23b83cff2fa9301d")))
         (sha256
           (base32
-            "0b1w4yrza872f7vc1fh5q83gf855r70mayclq20w37blchlgy00k"))))
+            "05z3xrli9p3mkysixvsp60qig4dqqdz1sm0dgqf7l0235r0qcp8m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -122611,17 +122611,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20230822.2115")
+    (version "20230823.1142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "5b3f63bd8476ad1dbaa7b1f08ebc4038f2d78f69")))
+                 "cded4120491282710943f66f8d7b7b1b7affdf78")))
         (sha256
           (base32
-            "1c3kagbqmby7b5wqchasmr2my58rlkqdwfzblv378r1nvr6ml9v9"))))
+            "0w48zmx4x0d6ii5kypysgic2zj47bykdgrrjlijr3zlzga00289s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -122647,17 +122647,17 @@
 (define-public emacs-verilog-ts-mode
   (package
     (name "emacs-verilog-ts-mode")
-    (version "20230822.1827")
+    (version "20230823.1142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "5b3f63bd8476ad1dbaa7b1f08ebc4038f2d78f69")))
+                 "cded4120491282710943f66f8d7b7b1b7affdf78")))
         (sha256
           (base32
-            "1c3kagbqmby7b5wqchasmr2my58rlkqdwfzblv378r1nvr6ml9v9"))))
+            "0w48zmx4x0d6ii5kypysgic2zj47bykdgrrjlijr3zlzga00289s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
