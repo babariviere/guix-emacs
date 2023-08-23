@@ -17244,17 +17244,17 @@
 (define-public emacs-compile-multi
   (package
     (name "emacs-compile-multi")
-    (version "20230820.1906")
+    (version "20230822.1933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "4171f5de58a120c661ef33b0af06686be6665a5c")))
+                 "28595f31c4c9b37c2e342cd7bb4b7f1553d18943")))
         (sha256
           (base32
-            "00h65awkzxd10wx11zphwvd7w6jk3gzv1q72lj4cdlknq5gp2gnd"))))
+            "13wk8p0r79hhq68yqwg16y05idnx3q0432yhkngrmmkswk9jd2wl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mohkale/compile-multi")
@@ -17266,17 +17266,17 @@
 (define-public emacs-compile-multi-all-the-icons
   (package
     (name "emacs-compile-multi-all-the-icons")
-    (version "20230820.1906")
+    (version "20230822.1933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "4171f5de58a120c661ef33b0af06686be6665a5c")))
+                 "28595f31c4c9b37c2e342cd7bb4b7f1553d18943")))
         (sha256
           (base32
-            "00h65awkzxd10wx11zphwvd7w6jk3gzv1q72lj4cdlknq5gp2gnd"))))
+            "13wk8p0r79hhq68yqwg16y05idnx3q0432yhkngrmmkswk9jd2wl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons-completion))
@@ -17662,17 +17662,17 @@
 (define-public emacs-consult-compile-multi
   (package
     (name "emacs-consult-compile-multi")
-    (version "20230820.1906")
+    (version "20230822.1933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "4171f5de58a120c661ef33b0af06686be6665a5c")))
+                 "28595f31c4c9b37c2e342cd7bb4b7f1553d18943")))
         (sha256
           (base32
-            "00h65awkzxd10wx11zphwvd7w6jk3gzv1q72lj4cdlknq5gp2gnd"))))
+            "13wk8p0r79hhq68yqwg16y05idnx3q0432yhkngrmmkswk9jd2wl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compile-multi emacs-consult))
@@ -25480,17 +25480,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230822.555")
+    (version "20230822.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "92d95ac9737371d8efcacd517ce9bb0049f9c47c")))
+                 "502e8d8e6566eb52f2dcd1c052cedc628217f6e8")))
         (sha256
           (base32
-            "1q77yw5scs4bwhsp16x18ws21iwwi7bc5gcy6cvm9hm588qlws6y"))))
+            "194lnjji1y5a94hhmprlkj6sfl35gn71lim74vz8q5pg55fsmvck"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -28249,17 +28249,17 @@
 (define-public emacs-ejc-sql
   (package
     (name "emacs-ejc-sql")
-    (version "20230821.1259")
+    (version "20230822.1534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kostafey/ejc-sql.git")
                (commit
-                 "d1cbeb22870dd6dfff15aee3ca17ff6dfe7954ee")))
+                 "c99a257c18dbcca02a63172b4f1c2a947c908d8e")))
         (sha256
           (base32
-            "082jbf2ryvfzxa4dpnmnnf67d5i59md46291y43a5zww3ya1m9mp"))))
+            "14vkq7lnrgm7ypa6sx73jlm1k2i8y01347gd4nw7g19vdfdgx016"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clomacs emacs-dash emacs-spinner))
@@ -28852,17 +28852,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230821.2000")
+    (version "20230822.1920")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eldev/eldev.git")
                (commit
-                 "1d09509a6c52de1a5d9fe531df6cb7b6ba0658b2")))
+                 "16bc7496e60a78a05cb94596936ba9cc7e43a6b4")))
         (sha256
           (base32
-            "1f2ar2cp865fwhkxm81ipbgfw6wssxxx61kfhgil10mz333kn7z4"))))
+            "095ipa2ckxcar0nl7y13szprfym0fr8jkzkfm5gp7f4kvi01wcbw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -37909,17 +37909,17 @@
 (define-public emacs-file-info
   (package
     (name "emacs-file-info")
-    (version "20230427.714")
+    (version "20230822.1634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/file-info.el.git")
                (commit
-                 "cb06d793b7e1ba769189f2002236305eba002660")))
+                 "5dcf0df5be52a264690e81d9911306879371e4d9")))
         (sha256
           (base32
-            "10yxkmbkya1gcankdbbwj0gjam8vy0h03i06hp5ivk7j6sfp22l5"))))
+            "0jcwz2zv2a4vckfxg4pjdir15j54wbibpnlasyx222x3wixq2767"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-hydra emacs-browse-at-remote))
@@ -44886,17 +44886,17 @@
 (define-public emacs-fuel
   (package
     (name "emacs-fuel")
-    (version "20230120.1737")
+    (version "20230822.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/factor/factor.git")
                (commit
-                 "366fd787932508a049bf41120e081ffa8a0af7e1")))
+                 "37ae467470abb58cfd904e2998ba44c98f42c9ca")))
         (sha256
           (base32
-            "1cd1fbxj7vcfy5iaxsgj4ybyq6bvvwlpzipppsiih2v79nmnjgna"))))
+            "0d3vvv84c24sgrwk8ih4ywrsq0h6d406jqzcg5nj1ksb7w5b8ic0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("misc/fuel/*.el")))
     (home-page "unspecified")
@@ -54786,17 +54786,17 @@
 (define-public emacs-helm-posframe
   (package
     (name "emacs-helm-posframe")
-    (version "20211103.236")
+    (version "20230822.2030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tumashu/helm-posframe.git")
                (commit
-                 "87461b52b6f3f378c63642a33f584d4a4ba28351")))
+                 "0b6bb016f0ff4980860a9d00574de311748c40b0")))
         (sha256
           (base32
-            "1hmf1l6hmir0kvpl5h0wk4l17nmk0lfi659lvg89jc1sm18v2xv9"))))
+            "1asw6q53xbk7xc0da4w03f8p5z3jhfhg16ggwslgwxx8vjv5zvg7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-posframe emacs-helm))
@@ -64859,17 +64859,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20230804.2013")
+    (version "20230822.2225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "a88755dcb46380d6df2cf54c8e82d5aa15780768")))
+                 "a19d872aa26d47a7b1f3d334aae386dc3cfa306e")))
         (sha256
           (base32
-            "0i4f8bixhzvf7zjpyw118qdrg19kl8kh8b3fq9hfsikgjv9fancx"))))
+            "0d3mawd8r1g47dz90pm6g8y1as7iy719h1vxx5im8fwnvjv0c6xq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71138,17 +71138,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20230822.539")
+    (version "20230822.1832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "72649c7f2e55cd9f272fc939b6bb2c00ae23e456")))
+                 "2e6683fd3fc937c562d219523b9ebde7c0678c6f")))
         (sha256
           (base32
-            "1qfvjwxa582l39wanvxbpwgz49zlaxmyzc0xmb4716z4cl3lsfvn"))))
+            "05q68yzi7vxy8maq9h257zq2d2d1prkl9hk5kg7v711zpwxkmimp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74529,17 +74529,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20230821.1549")
+    (version "20230822.2304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "850fa13dffb8075f9e8eb3bdca576422a448088a")))
+                 "f553db183a47b23d037b1a7f1cab48b0b4798a37")))
         (sha256
           (base32
-            "0109rj08a7z4x44gczwlakb833nrwbxbc2wiqiwvw5wd1iw3gjwy"))))
+            "1xd9v2ac44kxkbd1va70v7mfccmpnchgl7ipnhikq9y8jha02brr"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -80786,7 +80786,7 @@
 (define-public emacs-nordic-night-theme
   (package
     (name "emacs-nordic-night-theme")
-    (version "20230822.606")
+    (version "20230822.1608")
     (source
       (origin
         (method git-fetch)
@@ -119256,17 +119256,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20230821.2056")
+    (version "20230822.2039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "876c4a97a8fee59ac429fe06d4761a7f7d6ec2a9")))
+                 "147594c4b84952a9897261420fea97b725bb6bac")))
         (sha256
           (base32
-            "1a2ydgm238kgr5va8cm5kr84khh8vfiwynw65j2zr8ks34kyp44v"))))
+            "0kal2x7dzsx9cnwlwr84r61f9fxzx38fi0gn27j377dyyksr0wzz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -119321,17 +119321,17 @@
 (define-public emacs-treemacs-evil
   (package
     (name "emacs-treemacs-evil")
-    (version "20230510.1644")
+    (version "20230822.2039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "58ed4538a7e5e3481571566101748a2bee29bc1d")))
+                 "147594c4b84952a9897261420fea97b725bb6bac")))
         (sha256
           (base32
-            "0166y4pw1njv2dkjkh54f9s16b8n2zihs4r7dxwllcm890rsa067"))))
+            "0kal2x7dzsx9cnwlwr84r61f9fxzx38fi0gn27j377dyyksr0wzz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-treemacs))
@@ -122611,17 +122611,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20230821.1805")
+    (version "20230822.2115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "da957998c9006696d35ad97fa1315139e46a42ba")))
+                 "5b3f63bd8476ad1dbaa7b1f08ebc4038f2d78f69")))
         (sha256
           (base32
-            "0089mm4y2b6nfs5lh9k1gdb7i5imgkyvjnzc47s11gyjvx7pcyin"))))
+            "1c3kagbqmby7b5wqchasmr2my58rlkqdwfzblv378r1nvr6ml9v9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -122647,18 +122647,19 @@
 (define-public emacs-verilog-ts-mode
   (package
     (name "emacs-verilog-ts-mode")
-    (version "20230821.1737")
+    (version "20230822.1827")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "da957998c9006696d35ad97fa1315139e46a42ba")))
+                 "5b3f63bd8476ad1dbaa7b1f08ebc4038f2d78f69")))
         (sha256
           (base32
-            "0089mm4y2b6nfs5lh9k1gdb7i5imgkyvjnzc47s11gyjvx7pcyin"))))
+            "1c3kagbqmby7b5wqchasmr2my58rlkqdwfzblv378r1nvr6ml9v9"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (arguments
       '(#:files ("ts-mode/verilog-ts-*.el")))
     (home-page
