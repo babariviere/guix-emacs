@@ -179,7 +179,7 @@
 (define-public emacs-0x0
   (package
     (name "emacs-0x0")
-    (version "20230816.1829")
+    (version "20230823.2214")
     (source
       (origin
         (method url-fetch)
@@ -189,7 +189,7 @@
                ".tar"))
         (sha256
           (base32
-            "1gdyx4ic7957sifg7a035h9ndqc44c42q1d38b0s4gkgkd9lxkpj"))))
+            "1mjm5x5gidncbqrl4higlyj8xhcg1z6nv7bsw9ldk4dazl202xpx"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~willvaughn/emacs-0x0")
@@ -13979,21 +13979,21 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20230823.1453")
+    (version "20230823.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "dae21f8807c80297b9d69aefac4c3864c56d50af")))
+                 "192a46653fdc27601905f97a044d47764fee1f4e")))
         (sha256
           (base32
-            "0axqdzq4rjjxsxx4b8n2g2gf82wrznbzdilp2kv831wyl33z29mk"))))
+            "03j44n8nj5wc1rvk3pv96wjl3fwindqadwq0w8l6g6ajjs9lz3l6"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
-      "http://github.com/clojure-emacs/clojure-mode")
+      "https://github.com/clojure-emacs/clojure-mode")
     (synopsis "Major mode for Clojure code")
     (description
       "Documentation at https://melpa.org/#/clojure-mode")
@@ -14002,23 +14002,23 @@
 (define-public emacs-clojure-mode-extra-font-locking
   (package
     (name "emacs-clojure-mode-extra-font-locking")
-    (version "20230823.1453")
+    (version "20230823.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "dae21f8807c80297b9d69aefac4c3864c56d50af")))
+                 "192a46653fdc27601905f97a044d47764fee1f4e")))
         (sha256
           (base32
-            "0axqdzq4rjjxsxx4b8n2g2gf82wrznbzdilp2kv831wyl33z29mk"))))
+            "03j44n8nj5wc1rvk3pv96wjl3fwindqadwq0w8l6g6ajjs9lz3l6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (arguments
       '(#:files ("clojure-mode-extra-font-locking.el")))
     (home-page
-      "http://github.com/clojure-emacs/clojure-mode")
+      "https://github.com/clojure-emacs/clojure-mode")
     (synopsis "Extra font-locking for Clojure mode")
     (description
       "Documentation at https://melpa.org/#/clojure-mode-extra-font-locking")
@@ -28852,17 +28852,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230822.1920")
+    (version "20230823.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eldev/eldev.git")
                (commit
-                 "16bc7496e60a78a05cb94596936ba9cc7e43a6b4")))
+                 "9aeb720a75e58956677f548890147a59f05da136")))
         (sha256
           (base32
-            "095ipa2ckxcar0nl7y13szprfym0fr8jkzkfm5gp7f4kvi01wcbw"))))
+            "18jw8zg8dydzhsqcp1lvvyw0fb2yczhdr96n23hzvbjyap7a8806"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -44309,17 +44309,17 @@
 (define-public emacs-frame-mode
   (package
     (name "emacs-frame-mode")
-    (version "20230823.555")
+    (version "20230823.1850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/colonelpanic8/frame-mode.git")
                (commit
-                 "53e8f0b7f2ce650f8d86d5eb1d407729c33920c4")))
+                 "ab5e568a7c7259d31c252c263458bd76490241d0")))
         (sha256
           (base32
-            "0lz2gb4b6qz0qqd6q0ph5v3wyqxk1qmk33zikf976mmaxc3r5b2c"))))
+            "044ppidaapay08nw4gv85ir5ivxwwbys0gdvg6mbpf142qk093hb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page
@@ -45431,17 +45431,17 @@
 (define-public emacs-gcode-mode
   (package
     (name "emacs-gcode-mode")
-    (version "20221205.116")
+    (version "20230823.2141")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/wavexx/gcode-mode.el.git")
                (commit
-                 "3b17b5ba85e5a05dac79b15b5231ad41f0a0fce5")))
+                 "4b54553a698d81e52dde14037df94774c7f30b95")))
         (sha256
           (base32
-            "1i515clygcknp3f1rcf5kl63cx29vmqqkmfg4gk78s1pdika06qi"))))
+            "13nafw4rz1xfzcag0390xxs1nqadplvkrkiw72h0i8y2kwa9yya3"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/wavexx/gcode-mode.el")
@@ -58500,7 +58500,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230821.813")
+    (version "20230823.2023")
     (source
       (origin
         (method url-fetch)
@@ -58510,7 +58510,7 @@
                ".tar"))
         (sha256
           (base32
-            "1m8p2h2kfn173izckxirm5y73v4i9wk610qv6yw3iaz898li1c93"))))
+            "178f38qxpar6jg0w2lczp8jadb6p2qqrk52rmnq82sasnfrggfjy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -87968,17 +87968,17 @@
 (define-public emacs-org-roam-ql
   (package
     (name "emacs-org-roam-ql")
-    (version "20230822.224")
+    (version "20230823.2249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahmed-shariff/org-roam-ql.git")
                (commit
-                 "36fb7414f6a3623fe37d2aa519c2cd522b73fdaf")))
+                 "85d46926b15946c894fc19044dcf869116de94d6")))
         (sha256
           (base32
-            "1fhh64mc5wa37ky7b59vbjmcdg5wzvpg5jda0iivwlbhpmmx36f3"))))
+            "1wdn0plw6valrfkv8qfmgw46j13dics3j4xipal2b2gx75fdxkbh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -93614,17 +93614,17 @@
 (define-public emacs-perlbrew
   (package
     (name "emacs-perlbrew")
-    (version "20161109.709")
+    (version "20230823.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kentaro/perlbrew.el.git")
                (commit
-                 "3a3406c3307c92aa30f9400d430925c434a3b6f0")))
+                 "527b7f6a6a5edd2b779ae98029e60994391c0903")))
         (sha256
           (base32
-            "0kxz8ljc7w69ywp0bb15010sgrr13i1p05hcvhfr9c35l0n62r6p"))))
+            "04hvq3ii7x6xv54fvbrn6h0zdvv68wcc47zl3kyrgv0jlcmsgz1y"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "A perlbrew wrapper for Emacs")
@@ -114829,7 +114829,7 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20230823.958")
+    (version "20230823.1542")
     (source
       (origin
         (method git-fetch)
