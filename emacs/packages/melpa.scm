@@ -12738,17 +12738,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230822.1335")
+    (version "20230824.621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "0e76b141054f091fa1a21fea7f2a5604b2f7f8d4")))
+                 "73f0d05160ccd7c5a4ea9f794137d41bf9ae5449")))
         (sha256
           (base32
-            "019bfvjjxyz19xzk037h0b5ghsxgv3sad3hpsz63azm2gjkv2jqh"))))
+            "0525968dwrhcnz1n0pyzy4j05xv8wlbn02a3f6f7ggj2l3775xv0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -37217,7 +37217,7 @@
 (define-public emacs-fancy-compilation
   (package
     (name "emacs-fancy-compilation")
-    (version "20230718.2326")
+    (version "20230824.22")
     (source
       (origin
         (method url-fetch)
@@ -37227,7 +37227,7 @@
                ".tar"))
         (sha256
           (base32
-            "1q6r6i98dlyr8w38l0w43yanw77s5ax8p168646q6ir5y1lnqwqi"))))
+            "1xnqld0jih5v2c1n4ijanm0wa1f1kb1nrvszryl46s96mk052i40"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-fancy-compilation")
@@ -48705,17 +48705,17 @@
 (define-public emacs-go-mode
   (package
     (name "emacs-go-mode")
-    (version "20230624.2315")
+    (version "20230823.2304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dominikh/go-mode.el.git")
                (commit
-                 "f21347ae9cf68ea33031bf5125896e8f16c8183c")))
+                 "8dce1e3ba1cdc34a856ad53c8421413cfe33660e")))
         (sha256
           (base32
-            "17shrclbv0agz579wgsc49rlypx02x1w4zyikijdb4fz0lzq8skr"))))
+            "0l002gcjmwrfkc4972hc8sal6xaja05s50rg7cbv2q9axb18rcqj"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("go-mode.el")))
     (home-page
@@ -51858,17 +51858,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230823.838")
+    (version "20230824.444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7de8fba566b5eb0471abcf1ff12710376c6e9157")))
+                 "46896fca05a9cd699a175862e3a874f592d5a6b5")))
         (sha256
           (base32
-            "0cq6hq36krk5lk8xx1kp0hqyjw5jn5bdybva2ygm08723fmbgaq5"))))
+            "1jnml35vyfc1yj3svick1libb472dxqqmdry55v5kjvrgmx6nj65"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -81074,17 +81074,17 @@
 (define-public emacs-nova-theme
   (package
     (name "emacs-nova-theme")
-    (version "20210512.1802")
+    (version "20230824.401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/muirmanders/emacs-nova-theme.git")
                (commit
-                 "1498f756a4c1c9ea9740cd3208f74d071283b930")))
+                 "c11aea3ce572cc940bc201cb5a33c0d2014cf8c4")))
         (sha256
           (base32
-            "0jbk5wwv5dfcp4y19azl3jjcjlzr1547w1g1grq6kwpc69r5x2bf"))))
+            "1d6bxaww8djmd0va8i8nih1d5w5g9ai6jnzhv4hwg3b46clv13j0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/muirmanders/emacs-nova-theme")
@@ -125429,17 +125429,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230821.1")
+    (version "20230824.324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "297c72eef2b4ec48abc8cb99640c101e4e164c94")))
+                 "1e541be813a67d85f6bd8267f9bf7c164e17000e")))
         (sha256
           (base32
-            "08s4a7msg8vaf7mrarbxl8wdrjzx7aj7mzb3zgq810w0l5snl4mh"))))
+            "00cw0i5lc40z8j240rk1xw9bfahfpsv50r052pgyyrn1d4zpb21c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125454,17 +125454,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230821.1")
+    (version "20230824.324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "297c72eef2b4ec48abc8cb99640c101e4e164c94")))
+                 "1e541be813a67d85f6bd8267f9bf7c164e17000e")))
         (sha256
           (base32
-            "08s4a7msg8vaf7mrarbxl8wdrjzx7aj7mzb3zgq810w0l5snl4mh"))))
+            "00cw0i5lc40z8j240rk1xw9bfahfpsv50r052pgyyrn1d4zpb21c"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
