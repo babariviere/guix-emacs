@@ -7975,17 +7975,17 @@
 (define-public emacs-binky
   (package
     (name "emacs-binky")
-    (version "20230822.943")
+    (version "20230825.438")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky.el.git")
                (commit
-                 "7f35d460f0028a6737a41df2522616b97b91dbd0")))
+                 "3ce323c000ba509b8dd99b23b44a0464ffd4dd7f")))
         (sha256
           (base32
-            "0c73z07pbpqinpxw7g55hpiwzmxzj9msrmz1yl149c9qbkns9gnl"))))
+            "0aldxipyy3z71r92ja0qm8cllzd8m2nqf164gnf4dw3sx4nzkpdm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -12738,17 +12738,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230824.621")
+    (version "20230825.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "73f0d05160ccd7c5a4ea9f794137d41bf9ae5449")))
+                 "3952734aa2edd1a96bb2fce8782aa7439f1b2813")))
         (sha256
           (base32
-            "0525968dwrhcnz1n0pyzy4j05xv8wlbn02a3f6f7ggj2l3775xv0"))))
+            "1f653gil34ff5vs627y4i0pcrs6m0mhpspfn3swwhhirsh6dffll"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -14074,17 +14074,17 @@
 (define-public emacs-clojure-ts-mode
   (package
     (name "emacs-clojure-ts-mode")
-    (version "20230816.244")
+    (version "20230825.147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
                (commit
-                 "329a39ba3bd5d1832893416ef05bacb8c7678268")))
+                 "3e4c55fab14e0885a411f6018fb8aedb04afc49d")))
         (sha256
           (base32
-            "0a1vhpr3zivfq11sy2pwqhxx2q5lxn2da4h0m6hlczcfn4995jlx"))))
+            "14fbdckkqv7c7rwbwbs7v4ca3vf75l4lsi38sksnsf3as3byj6vf"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/clojure-emacs/clojure-ts-mode")
@@ -76071,17 +76071,17 @@
 (define-public emacs-modaled
   (package
     (name "emacs-modaled")
-    (version "20230824.2023")
+    (version "20230825.152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DCsunset/modaled.git")
                (commit
-                 "76905b05a75b6ef92594383121d9d84ec3bf4988")))
+                 "98f58e6857877bc1b593e86ee0ee61ad64daaf24")))
         (sha256
           (base32
-            "1gjls6lw4l3m3zv6hm913cy2icqx611cilv4grj1s9hmsq6rzkby"))))
+            "1x9zc9c2w7slihc2zkbc5msx48fjhcmsmc6kp7ljhgnz8v1dlvig"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/DCsunset/modaled")
     (synopsis
@@ -76345,7 +76345,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20230821.655")
+    (version "20230825.337")
     (source
       (origin
         (method url-fetch)
@@ -76355,7 +76355,7 @@
                ".tar"))
         (sha256
           (base32
-            "1y1gz7s4s6ssndaw72hkay5nnk4jzybyb7z0iz3mq480q9hxpxi3"))))
+            "0fgd96wsrdfq92k8dcag6622w1jlnqg5r82bwqwqrbpqbz0gjr0f"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -79430,17 +79430,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20230823.345")
+    (version "20230825.322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "ac9014a34073db26886844cf8c16c76758f8b4c6")))
+                 "4cce6882c852e5370bca27cb2255a2a83f094cc7")))
         (sha256
           (base32
-            "0ab4irm0qnkinbmlwq68qspbxh72c857y167z61g2qkcjz2azygg"))))
+            "1ix5dl9rc34b0w64hsj0c253fa5hl2rnqypl2brmszbdfxmx50cc"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -111963,17 +111963,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230805.107")
+    (version "20230825.58")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "9faa42c161f18e79cdab6d796eaa33bfebbf9418")))
+                 "fc71cb8c0b6b5b159f9cf27f61a9ff0692be89fe")))
         (sha256
           (base32
-            "1ypgvw63yqxaz7ay99xkjhjbyymi8x0sq4lniyhbrr7aix0zn7dp"))))
+            "033p8s9mwb55krw3jfi4pgpajyncmj5wb2r9q07rk3ls9wjkm9vm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
