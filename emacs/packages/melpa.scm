@@ -5904,17 +5904,17 @@
 (define-public emacs-avk-emacs-themes
   (package
     (name "emacs-avk-emacs-themes")
-    (version "20220908.1022")
+    (version "20230825.922")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/avkoval/avk-emacs-themes.git")
                (commit
-                 "598a2a56601db1f474ed3f34a1cc4fb37921c21a")))
+                 "abe6fd059e0a7e8fcf2eb95b16c3dfac5620b1e7")))
         (sha256
           (base32
-            "1k8qc2hyklhbc7hjv0vpj3vwv1dszzp3xi26alz332392pls048q"))))
+            "0x98lvnkf75lf6c5vaqa6j3qi7k1p3ryf0rqq3lqgid94i2kwv3v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/avkoval/avk-emacs-themes")
@@ -12738,17 +12738,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230825.654")
+    (version "20230825.1142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "3952734aa2edd1a96bb2fce8782aa7439f1b2813")))
+                 "253c22f420199ce1eb9abb104ac4222d0098bca9")))
         (sha256
           (base32
-            "1f653gil34ff5vs627y4i0pcrs6m0mhpspfn3swwhhirsh6dffll"))))
+            "1yykzg6hv1qscmla4cvw2ndpwg2qain3lgf07wygjxz0a8i91s0x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -19768,17 +19768,17 @@
 (define-public emacs-csound-mode
   (package
     (name "emacs-csound-mode")
-    (version "20230823.1147")
+    (version "20230825.946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hlolli/csound-mode.git")
                (commit
-                 "6a30595594d86a049e25af2cc35c6ca032c3c4cf")))
+                 "21b2841696fed1b3d8103ad58202d5604326fcc1")))
         (sha256
           (base32
-            "05vq4bzbdkf8y6zb2c6a7s2hpfddpkwy4m1vi1y95j0vywr79vp5"))))
+            "1kwn0hrcl23icq5phz5h6y9likpcnm54mkqrwcvsnzwvdz0jl5xd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shut-up
@@ -37754,7 +37754,7 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20230824.1016")
+    (version "20230825.1315")
     (source
       (origin
         (method url-fetch)
@@ -37764,7 +37764,7 @@
                ".tar"))
         (sha256
           (base32
-            "1jhlnl699ra97zyqd7fwhcchfqa71il8xp4p4l0gi920n3w5nzgc"))))
+            "052pghg27qwh0sn37hy5svcpj12l2zc9iwqvrh5d0dkwilqhc3mb"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -46133,17 +46133,17 @@
 (define-public emacs-gh
   (package
     (name "emacs-gh")
-    (version "20221204.1817")
+    (version "20230825.1217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sigma/gh.el.git")
                (commit
-                 "e1423a54fc97924e75d1fde27911c3c678a7d6c3")))
+                 "b5a8d8209340d49ad82dab22d23dae0434499fdf")))
         (sha256
           (base32
-            "1fr4pikcjasqy41g86pjwhz3alky42m2z7ziag051xhcd8nlm51s"))))
+            "1vab2qdjyv4c3hfp09vbkqanfwj8ip7zi64gqbg93kf1aig1qgl9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pcache emacs-logito emacs-marshal))
@@ -87121,17 +87121,17 @@
 (define-public emacs-org-page
   (package
     (name "emacs-org-page")
-    (version "20230824.849")
+    (version "20230825.1118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/org-page.git")
                (commit
-                 "cfc1a9542deafe5596026060b39ed16e19a7ca65")))
+                 "e1788a84dd918f025149b64c02a90919742281e2")))
         (sha256
           (base32
-            "0iy0m3sv7rqxlfb6xczd014kz9k6l013szw6jdfksk7n1g6y2n4c"))))
+            "0xwnmrsxgg2v80kn8vdqq3hw1h44qp1xk0966vdgygymb1rq7rj8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ht
@@ -89863,17 +89863,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20230703.1828")
+    (version "20230825.919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "75a7ede98a3df8d99e861ddd14765d3b3da1fdb9")))
+                 "7961f5bf615a994a6ca756218c809bb998790946")))
         (sha256
           (base32
-            "0a2xizwg9mhnyxsr6p799cxj896a6zf8cpxfxl3v3b9a5ry776nn"))))
+            "01cvaa6yk66wqi40ci0lr822f8yqwxsiyg0wh85cr4zp0h9lbbk2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -93309,17 +93309,17 @@
 (define-public emacs-pdf-view-pagemark
   (package
     (name "emacs-pdf-view-pagemark")
-    (version "20230607.144")
+    (version "20230825.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kimim/pdf-view-pagemark.git")
                (commit
-                 "90a2908795bd4bf1015ff18ab338b50a785a1843")))
+                 "eadbc335aa57627c6075b23922cfcafb56ca59b0")))
         (sha256
           (base32
-            "16yg9ar6i7h1m5d9gizx7rh3hhj2d71ry03dc4lf8f1ri1i2lwfj"))))
+            "01jm1gn5yrzlifzxq39a1r11rv3sxyl35qzix5nfvdrxyh61k90c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pdf-tools emacs-posframe))
@@ -112697,17 +112697,17 @@
 (define-public emacs-srcery-theme
   (package
     (name "emacs-srcery-theme")
-    (version "20210601.1247")
+    (version "20230825.1133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srcery-colors/srcery-emacs.git")
                (commit
-                 "58dd21cd63e4a2eed15e0082c2547069363f107b")))
+                 "87aa4e2a25b0f0eb19f25fb3fabee9c112490618")))
         (sha256
           (base32
-            "128ri2g7jjgpacvaxhwwv4f2h3kdzf5vv3p01yqbs23m8mri8d9w"))))
+            "0dqysji2qvrca04d6gp6sw7ndi8jzrf4nmdsjla359cz161xdckm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srcery-colors/srcery-emacs")
@@ -125427,17 +125427,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230824.324")
+    (version "20230825.610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "1e541be813a67d85f6bd8267f9bf7c164e17000e")))
+                 "5a8f420493b68c7bc460bc1fdc41b26c3ad1a738")))
         (sha256
           (base32
-            "00cw0i5lc40z8j240rk1xw9bfahfpsv50r052pgyyrn1d4zpb21c"))))
+            "0wdajxfgzbin0njgfbjhawgl3gfb0rlm90v62zxr1xsb59rl9wv1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125452,17 +125452,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230824.324")
+    (version "20230825.610")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "1e541be813a67d85f6bd8267f9bf7c164e17000e")))
+                 "5a8f420493b68c7bc460bc1fdc41b26c3ad1a738")))
         (sha256
           (base32
-            "00cw0i5lc40z8j240rk1xw9bfahfpsv50r052pgyyrn1d4zpb21c"))))
+            "0wdajxfgzbin0njgfbjhawgl3gfb0rlm90v62zxr1xsb59rl9wv1"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -128128,7 +128128,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230820.836")
+    (version "20230825.911")
     (source
       (origin
         (method url-fetch)
@@ -128138,7 +128138,7 @@
                ".tar"))
         (sha256
           (base32
-            "04za996f8schb5vn9qgdh7xiganhkcy3zhq9vd1igwdvidw9k00v"))))
+            "10xh4bk9z2fpl66vzrm86c6r1iiv24kff5ccaad622fv038y8k4d"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
