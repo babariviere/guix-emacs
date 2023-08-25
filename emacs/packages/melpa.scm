@@ -26390,17 +26390,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230816.1431")
+    (version "20230824.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "55fbec69ff120b44d7126b160a5c7fc1d180b8a6")))
+                 "1e67f81ec09e2784634db60177a7859ef7aeaa7b")))
         (sha256
           (base32
-            "0yxrx4hr8qcm8ygv3b0v86wb7gzh7pmbzrmpwm7zw2z92v6g7g8p"))))
+            "0wvv74zb1dfsb9yxxl2ybk5mfg85bl6r93am6pxh08nassr4f0mp"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -29325,20 +29325,19 @@
 (define-public emacs-elfeed-org
   (package
     (name "emacs-elfeed-org")
-    (version "20221118.852")
+    (version "20230824.2034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/remyhonig/elfeed-org.git")
                (commit
-                 "3242ec0519800a58f20480c8a6e3b3337d137084")))
+                 "f1c1fd6b1694028ab7f2dd7e9ddbbef12711b353")))
         (sha256
           (base32
-            "1qp5a7gmrf8hy9zvi237shnff2jcrs2s6iln4pd5l6hqb74akdrq"))))
+            "1dnbih9mwqwzmvfc671s0xn9phq5pp3sfpryva11ircz602b37kg"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-elfeed emacs-dash emacs-s))
+    (propagated-inputs (list emacs-elfeed))
     (home-page
       "https://github.com/remyhonig/elfeed-org")
     (synopsis
@@ -58500,7 +58499,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230824.1002")
+    (version "20230824.2051")
     (source
       (origin
         (method url-fetch)
@@ -58510,7 +58509,7 @@
                ".tar"))
         (sha256
           (base32
-            "0vddyksfnmlc9q7jirp8xd88fb5r6n95m6rx99h426pzk1falmad"))))
+            "0galzv5zq3g265mm3g39sf8z1pfnxnhm48z7nv0p2sjnfjh1gc2i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -71009,17 +71008,17 @@
 (define-public emacs-lsp-jedi
   (package
     (name "emacs-lsp-jedi")
-    (version "20220430.18")
+    (version "20230824.1908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fredcamps/lsp-jedi.git")
                (commit
-                 "5e3eb3e160c2d38b8bd2b5cd3b86fa4f823f9330")))
+                 "3c828df8dd422dbb94856cc99db6f9acb52b871d")))
         (sha256
           (base32
-            "0kax988drrzsx103v71bz4vczh4bg0n80arrzm4r6sgrk01219j0"))))
+            "0a89328vnarndv0a4xfpb4yap6i00q9prlxijg66bkg5l5gchlcl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lsp-mode))
     (home-page
@@ -76072,17 +76071,17 @@
 (define-public emacs-modaled
   (package
     (name "emacs-modaled")
-    (version "20230820.2140")
+    (version "20230824.2023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DCsunset/modaled.git")
                (commit
-                 "c6d08582135dd047300e10b7a683151e4a9117af")))
+                 "76905b05a75b6ef92594383121d9d84ec3bf4988")))
         (sha256
           (base32
-            "0ri6ddl5q9rxbxrz2hl5jsj7dk4wgbgb53gkqijfljzb4m0bzv9i"))))
+            "1gjls6lw4l3m3zv6hm913cy2icqx611cilv4grj1s9hmsq6rzkby"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/DCsunset/modaled")
     (synopsis
@@ -78636,17 +78635,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20230619.417")
+    (version "20230824.1740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "ae4f53eac2c16024f845faace9f43d9a656489b5")))
+                 "00f3bac7bc11fde37fa60e66442e8c13a6159a81")))
         (sha256
           (base32
-            "1y4hagnqpwry2k10zisnr3q6gy97fwl69r369ramx4cl0fd3bn04"))))
+            "110r3zkcgj2qilsrq4x4ivqrhf9sda70qnha58hwyhiyacnlazk4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -87761,17 +87760,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20230824.1452")
+    (version "20230824.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "9a5988af31ed2c18c28f3543545f4d9ca81b555a")))
+                 "a0d943e420f7441a42c32ce1f88475a309b5e288")))
         (sha256
           (base32
-            "1whnd5rdf0glw0yz6yqznqlivrhz2cgr1kr6xgsfgph7sa43iyfq"))))
+            "07c87z76dvqzvqv4dm11r1waf6iqfj3rjd4j3r8isx68ks6yjz7g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -93943,17 +93942,17 @@
 (define-public emacs-pet
   (package
     (name "emacs-pet")
-    (version "20230820.137")
+    (version "20230824.1919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wyuenho/emacs-pet.git")
                (commit
-                 "f34f836e4b2277f7c7742343d219f7a863592fd3")))
+                 "eb0c01380f1930825844027d9af6f4a263238a89")))
         (sha256
           (base32
-            "1lnj46p65k6296scdbd8knyk51idr2bzagnca5p1dk9kad461615"))))
+            "0yw3pp0b9p1c3cz0j3klhvkyff9388ki5vcm1jq0cgfg53lh0kgz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page
@@ -122611,17 +122610,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20230823.1142")
+    (version "20230824.1614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "cded4120491282710943f66f8d7b7b1b7affdf78")))
+                 "6d8d40fd507d0857d3adff3ff6142104ac10b2d0")))
         (sha256
           (base32
-            "0w48zmx4x0d6ii5kypysgic2zj47bykdgrrjlijr3zlzga00289s"))))
+            "1ybvxkff51jd18jk3y91sqrmxgkhinwy9rp0g4ms973wid6ifqv3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -122647,19 +122646,18 @@
 (define-public emacs-verilog-ts-mode
   (package
     (name "emacs-verilog-ts-mode")
-    (version "20230823.1142")
+    (version "20230824.1615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "cded4120491282710943f66f8d7b7b1b7affdf78")))
+                 "6d8d40fd507d0857d3adff3ff6142104ac10b2d0")))
         (sha256
           (base32
-            "0w48zmx4x0d6ii5kypysgic2zj47bykdgrrjlijr3zlzga00289s"))))
+            "1ybvxkff51jd18jk3y91sqrmxgkhinwy9rp0g4ms973wid6ifqv3"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-compat))
     (arguments
       '(#:files ("ts-mode/verilog-ts-*.el")))
     (home-page
@@ -122842,17 +122840,17 @@
 (define-public emacs-vhdl-ext
   (package
     (name "emacs-vhdl-ext")
-    (version "20230810.1053")
+    (version "20230824.1557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ext.git")
                (commit
-                 "0dc52323a7ca284bbe2c5d43c994572d0c86af3f")))
+                 "1c204fdb6ac8fbff3f359dd65bbfa990f6c65851")))
         (sha256
           (base32
-            "0by9kf57rhc9kfzvhnj8ps3q18xhhkll0xsd1wisqkz2wpkjzrmy"))))
+            "1rbszg80rg13zy9wp1g5zhg6bibdaxysx4i7016cm0wi8km0hfy1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot
