@@ -4993,17 +4993,17 @@
 (define-public emacs-auto-compile
   (package
     (name "emacs-auto-compile")
-    (version "20230714.16")
+    (version "20230825.2030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/auto-compile.git")
                (commit
-                 "6ed8e29d23c6c91f8c98f18ff745d2475d6f6a38")))
+                 "113db4d7f546b2829fed23e2c9bcb4fdac63ff57")))
         (sha256
           (base32
-            "0rqyf4jz6j820jw5ky1b1phrgms48ifphk5lv02av4jsg0cvsz1q"))))
+            "1wq8kl6659yyx8gb6m95mrrqh9bjpx4y7c6injvsqil3jkaff9xv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacscollective/auto-compile")
@@ -7975,17 +7975,17 @@
 (define-public emacs-binky
   (package
     (name "emacs-binky")
-    (version "20230825.438")
+    (version "20230825.1424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky.el.git")
                (commit
-                 "3ce323c000ba509b8dd99b23b44a0464ffd4dd7f")))
+                 "630507927b4ddf255ee62ec05df406a06125649f")))
         (sha256
           (base32
-            "0aldxipyy3z71r92ja0qm8cllzd8m2nqf164gnf4dw3sx4nzkpdm"))))
+            "0ar9mm7xi5da23av154c1lp0kn5pgczi97234g3m3m17wlpmg7fr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -12738,7 +12738,7 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230825.1142")
+    (version "20230825.1358")
     (source
       (origin
         (method git-fetch)
@@ -13500,17 +13500,17 @@
 (define-public emacs-clingo-mode
   (package
     (name "emacs-clingo-mode")
-    (version "20220502.2020")
+    (version "20230825.1941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/llaisdy/clingo-mode.git")
                (commit
-                 "cf56ce6b5c50506f6cea27e1dde0441dd8d15ee9")))
+                 "8ea6ab5fa7dca439ec0e1dca8f3cdf7ace43390d")))
         (sha256
           (base32
-            "1v3q3zhx7vf81dkyr2z8ljw8as4c8zcycinhx915aqjj85d923h7"))))
+            "0n13i8xkwz6r42qmd7id4bbzhj0q3lnsrvq0hl6y22c1awqi9dr7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/llaisdy/clingo-mode")
@@ -42265,17 +42265,17 @@
 (define-public emacs-flymake-flycheck
   (package
     (name "emacs-flymake-flycheck")
-    (version "20230824.531")
+    (version "20230825.1700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/flymake-flycheck.git")
                (commit
-                 "f124ecc2c35c7d1257aa842ea74ac7e4a568f697")))
+                 "a02d84a4860233af75fbabb0ef86b0622b688f13")))
         (sha256
           (base32
-            "06s5d265vm342l33b8r991zsg9mkn6h2pf30b3wn2ql37qqss0id"))))
+            "1x2k9hikv368zldrw8q9pjfq8g91gqc6xwb44my175xml8cv5jhs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -51857,17 +51857,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230824.817")
+    (version "20230825.1655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "46819f85af7b879df1118bf7f997ffb64da3f98a")))
+                 "5466b6425db4c6f29d37cf646f628d252e2cfc5c")))
         (sha256
           (base32
-            "0ivlcp5b2mmy6snyx7k8zkvgma66wiz00ggbkf4kfibyranx6qzp"))))
+            "0x5n87a6ngv5bgfzay72ffdmfap86k4zbbvzq49xq6fbgslq60mh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -109132,17 +109132,17 @@
 (define-public emacs-sisyphus
   (package
     (name "emacs-sisyphus")
-    (version "20230812.2148")
+    (version "20230813.1454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/sisyphus.git")
                (commit
-                 "24070c9d6f3e0988606ec3fddeae020bcb9f0528")))
+                 "84d6d6fcd99fbe6630da0bcb1e61904954cb3a72")))
         (sha256
           (base32
-            "1pb37z0qjs0pws90lskzhsw53rl97x0vpy3jwlcl575fzybkn3qk"))))
+            "0zbdqy1pchdnhbhc6s3xzryzgq6jr5h4mr1zybbsknakl54ipgfj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -118738,17 +118738,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20230812.2142")
+    (version "20230825.2019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "226db67b3680acbeb74cb0403e1a302917054174")))
+                 "8cf1238181d57504e68f42fa0d4ef66784b197a9")))
         (sha256
           (base32
-            "16cxdzcq914bmcx1v3qhb1wp7mgbk8pmq1zlik5bd9ni71g02d4m"))))
+            "03qs1bj7dxgdppzcnhzmldpdam1h8kzd0ps2bk82slypm7d63nay"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -125904,17 +125904,17 @@
 (define-public emacs-with-editor
   (package
     (name "emacs-with-editor")
-    (version "20230711.1217")
+    (version "20230825.2028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "a4853781835346aabf083d2d9cb87f656d01ccac")))
+                 "2dc557b668203e718502e28573c45659cc8c0a78")))
         (sha256
           (base32
-            "19cw4swz2v9wyy54fffnh8vdyb8irzqmd3wzgzfbk3kiksapk7ns"))))
+            "1g7m2vsg5asn9jqbgkymip46mkg2cm8bf38jzizzmrizirxnngq4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -128128,7 +128128,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230825.911")
+    (version "20230825.2109")
     (source
       (origin
         (method url-fetch)
@@ -128138,7 +128138,7 @@
                ".tar"))
         (sha256
           (base32
-            "10xh4bk9z2fpl66vzrm86c6r1iiv24kff5ccaad622fv038y8k4d"))))
+            "0808g0584sph7pjy12smpc19yazgwy65az7h0m2mrpbl4qgxgpc3"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
