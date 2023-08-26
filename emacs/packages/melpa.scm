@@ -6749,17 +6749,17 @@
 (define-public emacs-basic-mode
   (package
     (name "emacs-basic-mode")
-    (version "20230401.845")
+    (version "20230826.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/basic-mode.git")
                (commit
-                 "2971591510f08ab1645ed8a238b6ad086750f994")))
+                 "be6924991b8eaeb14df0bf198a73ae8ac51df17c")))
         (sha256
           (base32
-            "0x7jar59xj7n678x13k2v2z5rnyi9hrpy4vzh23g1pnfsi1v4knf"))))
+            "04ib59wkgjmrjqzvg5x7a224fd993p307i0j40r2561ysam8zrhc"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -51857,17 +51857,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230825.2026")
+    (version "20230826.605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "ba715602380efe758e3d1714106fc9e65ec8e793")))
+                 "2548e63e2454ef818276e0e11b3a2cbd180d05a7")))
         (sha256
           (base32
-            "1m7x3jby0rh7103fmbigc3q4kiflns2yb7nyj32z4hy0z3fmpz3w"))))
+            "025sxjhs4x7i5m6mcdskglzk2fcaqzwcsx20lf09ssj035r1c7p6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -58499,7 +58499,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230826.559")
+    (version "20230826.631")
     (source
       (origin
         (method url-fetch)
@@ -58509,7 +58509,7 @@
                ".tar"))
         (sha256
           (base32
-            "09fkja1aw2869kh49sis441a60znvag4wynb1zdy65dm1kny7bkm"))))
+            "0zbw8ibb1vjl59mppfz2zgg556zjcammyjmwb883qmyd9zrkgn19"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -68689,17 +68689,17 @@
 (define-public emacs-libbcel
   (package
     (name "emacs-libbcel")
-    (version "20221003.1827")
+    (version "20230826.1233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DamienCassou/libbcel.git")
                (commit
-                 "3d506a3fb5b377bf460e7b8096f7211949567f75")))
+                 "35679c86b6d73817fef17df4119a7a45dfc9f33d")))
         (sha256
           (base32
-            "0rx1l49rfbbhjlwl8swrm54asan6vvjl184g271wlfr1459y7hsa"))))
+            "0bidqmnga80vafp79a2m3mx20dv1c3iv6hghhl3r7wmn05wjvvhm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -70291,17 +70291,17 @@
 (define-public emacs-log4j-mode
   (package
     (name "emacs-log4j-mode")
-    (version "20230318.1521")
+    (version "20230826.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dykstrom/log4j-mode.git")
                (commit
-                 "98fbe4d3bc5d5034c3b9901bd43268a8f1501a07")))
+                 "45d5e3ee918f502a160c3a131ce75fd3c38e5c6e")))
         (sha256
           (base32
-            "0vvyyc4dqypv9kq0yhapw5ms6f7kx1dg9ln2z1hk873gxg80jlnf"))))
+            "0y8nqn0bz2vsil4m3rs5l4nmj39q6xl8mjw2lllafnn4cj78q6vr"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("src/*.el")))
     (home-page
@@ -86259,17 +86259,17 @@
 (define-public emacs-org-inline-pdf
   (package
     (name "emacs-org-inline-pdf")
-    (version "20230815.2356")
+    (version "20230826.1220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shg/org-inline-pdf.el.git")
                (commit
-                 "3a22dca889e8fa815274adcc73bb31a31f5ed992")))
+                 "f4c2bac09c9b4c5d65b707b397fd44a3052bdf4e")))
         (sha256
           (base32
-            "04rfv4qsyhc8w23hbzw8k5f292lafkgf1n0gbbkgc93gifx91s4f"))))
+            "0dkfqz0avnkij1zp1f98l8f5a5vzgrk1ln3yx2f152z0slasmap8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/shg/org-inline-pdf.el")
@@ -87121,17 +87121,17 @@
 (define-public emacs-org-page
   (package
     (name "emacs-org-page")
-    (version "20230825.1118")
+    (version "20230826.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/org-page.git")
                (commit
-                 "e1788a84dd918f025149b64c02a90919742281e2")))
+                 "0b229083b09f9c8f923b98fc2f03c665939bb87a")))
         (sha256
           (base32
-            "0xwnmrsxgg2v80kn8vdqq3hw1h44qp1xk0966vdgygymb1rq7rj8"))))
+            "1d72d74ffdi5r2a68g0lgrrgal7crswl5vnmcrycg9nf23d8cxs9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ht
@@ -88806,17 +88806,17 @@
 (define-public emacs-org-tree-slide
   (package
     (name "emacs-org-tree-slide")
-    (version "20230305.441")
+    (version "20230826.1234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/takaxp/org-tree-slide.git")
                (commit
-                 "97273dbb1718e9f63d338468e4c310167a846a67")))
+                 "e2599a106a26ce5511095e23df4ea04be6687a8a")))
         (sha256
           (base32
-            "0s4sqjwsl9j734vll4q3rvk1jdi0hcwb5rnjc9z5zhxvywfaf70m"))))
+            "0i1mzgq178sl6x2wf7k0ad57dy1d34wbk2k99fiyvv70rfbj2yy2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/takaxp/org-tree-slide")
@@ -125427,17 +125427,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20230825.610")
+    (version "20230826.941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "5a8f420493b68c7bc460bc1fdc41b26c3ad1a738")))
+                 "62c35130078fa182eb1946e99cfd86dac6bda921")))
         (sha256
           (base32
-            "0wdajxfgzbin0njgfbjhawgl3gfb0rlm90v62zxr1xsb59rl9wv1"))))
+            "17z7fy1yy0r485ynvi890xhmn30aasv08j87jbj8riwnfkn245gq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -125452,17 +125452,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20230825.610")
+    (version "20230826.941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "5a8f420493b68c7bc460bc1fdc41b26c3ad1a738")))
+                 "62c35130078fa182eb1946e99cfd86dac6bda921")))
         (sha256
           (base32
-            "0wdajxfgzbin0njgfbjhawgl3gfb0rlm90v62zxr1xsb59rl9wv1"))))
+            "17z7fy1yy0r485ynvi890xhmn30aasv08j87jbj8riwnfkn245gq"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
