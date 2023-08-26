@@ -7975,17 +7975,17 @@
 (define-public emacs-binky
   (package
     (name "emacs-binky")
-    (version "20230825.1424")
+    (version "20230826.340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky.el.git")
                (commit
-                 "630507927b4ddf255ee62ec05df406a06125649f")))
+                 "a7850d15a8c516f62e58d5e54c339a8c5e8cd0d4")))
         (sha256
           (base32
-            "0ar9mm7xi5da23av154c1lp0kn5pgczi97234g3m3m17wlpmg7fr"))))
+            "1ynnj9x3zp9h7hq7x7ygmwz93a05iqm2m36fb05s357rladkaxvd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -26390,17 +26390,17 @@
 (define-public emacs-dwim-coder-mode
   (package
     (name "emacs-dwim-coder-mode")
-    (version "20230824.1509")
+    (version "20230826.450")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/sadiq/dwim-coder-mode.git")
                (commit
-                 "1e67f81ec09e2784634db60177a7859ef7aeaa7b")))
+                 "6d1f3846761f33f2dffc345a866d15e78606bde7")))
         (sha256
           (base32
-            "0wvv74zb1dfsb9yxxl2ybk5mfg85bl6r93am6pxh08nassr4f0mp"))))
+            "1g36aqsmhvqzcjwhhnpmqnav1jn5id55ibfgw83bzgbhn1qzmmgr"))))
     (build-system melpa-build-system)
     (home-page
       "https://sadiqpk.org/projects/dwim-coder-mode.html")
@@ -42265,17 +42265,17 @@
 (define-public emacs-flymake-flycheck
   (package
     (name "emacs-flymake-flycheck")
-    (version "20230825.1700")
+    (version "20230826.749")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/flymake-flycheck.git")
                (commit
-                 "a02d84a4860233af75fbabb0ef86b0622b688f13")))
+                 "cc50a97ee1384d260c56aca257a1dbf770084330")))
         (sha256
           (base32
-            "1x2k9hikv368zldrw8q9pjfq8g91gqc6xwb44my175xml8cv5jhs"))))
+            "05and3jmmfsdi1lhqg7lpsph5rn2p1jj036blrd762ipqb4s90v4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flycheck))
     (home-page
@@ -51857,17 +51857,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230825.1655")
+    (version "20230825.2026")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "5466b6425db4c6f29d37cf646f628d252e2cfc5c")))
+                 "ba715602380efe758e3d1714106fc9e65ec8e793")))
         (sha256
           (base32
-            "0x5n87a6ngv5bgfzay72ffdmfap86k4zbbvzq49xq6fbgslq60mh"))))
+            "1m7x3jby0rh7103fmbigc3q4kiflns2yb7nyj32z4hy0z3fmpz3w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -58499,7 +58499,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230824.2051")
+    (version "20230826.559")
     (source
       (origin
         (method url-fetch)
@@ -58509,7 +58509,7 @@
                ".tar"))
         (sha256
           (base32
-            "0galzv5zq3g265mm3g39sf8z1pfnxnhm48z7nv0p2sjnfjh1gc2i"))))
+            "09fkja1aw2869kh49sis441a60znvag4wynb1zdy65dm1kny7bkm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -64628,17 +64628,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20230823.613")
+    (version "20230826.259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "4cf2e80468fb6e7c2dc32b39b64c3f91cdeb43b2")))
+                 "75ecae8a3f449b324706700e4e336abe46b8de04")))
         (sha256
           (base32
-            "1kqb1c5834jpcxbwc22ca3mxszk2swvhaq0fghb9bn3c6ifrpqxa"))))
+            "1637mrcgny5afl4n117w8r2aj9gnpiwlaljh7ckl91xchamhq0qa"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -72628,17 +72628,17 @@
 (define-public emacs-magit-todos
   (package
     (name "emacs-magit-todos")
-    (version "20230819.732")
+    (version "20230826.213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/magit-todos.git")
                (commit
-                 "8f22fa5a93444f94022d30c261a8dd9795d41353")))
+                 "8da7a8e9008281999567a2fb39f2d13d102abfbb")))
         (sha256
           (base32
-            "0767r2vvjqlq4l1lsbwh75mxfkvwnflq7i8mbyj5wa7q1lhy8j11"))))
+            "1kssa48w53hn1a92m5j5qh2pp0snvpa3c3y3kcyjl5qyv6cczp3p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -111963,17 +111963,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20230825.58")
+    (version "20230826.56")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "fc71cb8c0b6b5b159f9cf27f61a9ff0692be89fe")))
+                 "b0f6e16790c723a0d19e2eb9e4772192c85b3609")))
         (sha256
           (base32
-            "033p8s9mwb55krw3jfi4pgpajyncmj5wb2r9q07rk3ls9wjkm9vm"))))
+            "0q3857bzw8vndryypxgi24wrmhfb4kj1sgj3m61yvds7z2v50chp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -122544,17 +122544,17 @@
 (define-public emacs-verb
   (package
     (name "emacs-verb")
-    (version "20230711.1636")
+    (version "20230825.2151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/federicotdn/verb.git")
                (commit
-                 "db122b8847b1c1896f3cf9512fd0ec9f79927715")))
+                 "e1e551f6340d58e7782f2c1df7b397229a1c4fe3")))
         (sha256
           (base32
-            "0srlbbih7flmbipmp1w21pc7440pca918n4n6ja1rwigsh3zz5cl"))))
+            "0d22h72mnngi55v1ksa22gwxbyw8flwi6x8wx1c5hfvl59ww8nsl"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/federicotdn/verb")
     (synopsis "Organize and send HTTP requests")
@@ -128128,7 +128128,7 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20230825.2109")
+    (version "20230825.2152")
     (source
       (origin
         (method url-fetch)
@@ -128138,7 +128138,7 @@
                ".tar"))
         (sha256
           (base32
-            "0808g0584sph7pjy12smpc19yazgwy65az7h0m2mrpbl4qgxgpc3"))))
+            "15rrxvdqvf6w2v5asyp7qnbqbx99jv6magw3zlnl2vnm3yc2smin"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~thanosapollo/yeetube.el")
