@@ -28198,17 +28198,17 @@
 (define-public emacs-ein
   (package
     (name "emacs-ein")
-    (version "20230622.1757")
+    (version "20230827.325")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/millejoh/emacs-ipython-notebook.git")
                (commit
-                 "32e2681d01fefde34760795b514cb98cb8a750d4")))
+                 "998ba22660be2035cd23bed1555e47748c4da8a2")))
         (sha256
           (base32
-            "0li52k23j9aw1j223bj6acns7rdgb8fr3v4zm59bkrxjwbfnqwxr"))))
+            "09qbswzz6kbxc74dmdgagrk5wgbm89sabf0bfy76j4qlcg6550mx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -28220,7 +28220,7 @@
             emacs-with-editor))
     (home-page
       "https://github.com/dickmao/emacs-ipython-notebook")
-    (synopsis "Emacs IPython Notebook")
+    (synopsis "jupyter notebook client")
     (description
       "Documentation at https://melpa.org/#/ein")
     (license #f)))
@@ -35695,17 +35695,17 @@
 (define-public emacs-evil-terminal-cursor-changer
   (package
     (name "emacs-evil-terminal-cursor-changer")
-    (version "20220628.1831")
+    (version "20230827.118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/7696122/evil-terminal-cursor-changer.git")
                (commit
-                 "12ea9c0438c67e560b3866dc78b5c7d1d93f8cc5")))
+                 "380de63bbb32dda00434d50f47e187f9cbf89b32")))
         (sha256
           (base32
-            "0fz86zmy7wc4rjgx543sf3igrjvyjx1zbd1fw9qq4m2ksp4ld7ik"))))
+            "13kc0a18h8p7xq8h7jm21shadd6pyg6d2b5wx5r6ni3g0bdlh47q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/7696122/evil-terminal-cursor-changer")
@@ -58499,7 +58499,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230826.631")
+    (version "20230827.516")
     (source
       (origin
         (method url-fetch)
@@ -58509,7 +58509,7 @@
                ".tar"))
         (sha256
           (base32
-            "0zbw8ibb1vjl59mppfz2zgg556zjcammyjmwb883qmyd9zrkgn19"))))
+            "1vlmmg74rcilqpln256q2ravb7yfrhzwh0ga0j9x6mwy4ddvvdyd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -70952,17 +70952,17 @@
 (define-public emacs-lsp-java
   (package
     (name "emacs-lsp-java")
-    (version "20230815.717")
+    (version "20230827.428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-java.git")
                (commit
-                 "70d2d3c52b9878e6c4f6576d1b5e4513a1eb6a8e")))
+                 "bc89297c72136f7250df6b745ae2364b5a4f10a2")))
         (sha256
           (base32
-            "1zqbnk6xwl147i1ljlxd6i9pgnnqz19pfwsyai7m8hdm75fympjz"))))
+            "0pyvc7a8dbmiv1q0k3vglrr91vvbcvssbnmci88jpqr8y05jcg3h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lsp-mode
@@ -86943,17 +86943,17 @@
 (define-public emacs-org-noter
   (package
     (name "emacs-org-noter")
-    (version "20230728.2037")
+    (version "20230827.301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-noter/org-noter.git")
                (commit
-                 "4d47516e0fadd31b03350241a6fb23e108bfd65e")))
+                 "7f7ce199edb91cddee61222120f1571da6db568f")))
         (sha256
           (base32
-            "1fdh7msc8jxgg8jqqh17xg5n0aa9lvk0n6696nqqxixsgg33k6lr"))))
+            "0m9d9wdh3909f79f5jr40ldybv8ck54k6bykn88v1kfbrdrhlv87"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
