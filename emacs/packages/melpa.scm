@@ -3719,20 +3719,20 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20230812.25")
+    (version "20230826.1605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "706d6bd347b6d25a54148666ea4d33f16b3915c6")))
+                 "937fe9a940451cb00afc769bef8bbd7e3b281f86")))
         (sha256
           (base32
-            "1nmlkhnvgz80634x9g107wdcqpgkrjf20g47vwax8qqnl3rnv5hw"))))
+            "0qq6ya2vrvnv6a3b1chr34d1fhf09fq5c6cq80nykxzgx90n6359"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/raxod502/apheleia")
+      "https://github.com/radian-software/apheleia")
     (synopsis "Reformat buffer stably")
     (description
       "Documentation at https://melpa.org/#/apheleia")
@@ -12738,17 +12738,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230825.1358")
+    (version "20230826.2159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "253c22f420199ce1eb9abb104ac4222d0098bca9")))
+                 "205facc6f2e6013f9209afd20cb9e8a2c783c1b6")))
         (sha256
           (base32
-            "1yykzg6hv1qscmla4cvw2ndpwg2qain3lgf07wygjxz0a8i91s0x"))))
+            "1zsaxy0x1rvvb2l6wywal3cdwqmy0kma44wyw42qgbnd0r97lg9r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -19425,17 +19425,17 @@
 (define-public emacs-creamsody-theme
   (package
     (name "emacs-creamsody-theme")
-    (version "20230818.130")
+    (version "20230826.1651")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/emacs-theme-creamsody.git")
                (commit
-                 "f00210c2d7a85f88c604916c5e619c6270775f96")))
+                 "5f1bd04241cae39845336a18ea5eab3c5046f6ec")))
         (sha256
           (base32
-            "1y54jv8nbszkij2mgj4332nj336hrcg19g5smz1y53srlln7wwsz"))))
+            "0l6awpvrp1943vv5v7shpc50jijl146zp1syk5dis0qp8a698mz8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -25480,17 +25480,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230823.552")
+    (version "20230826.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "259ff6a1862b9860f9280f940fe949562766e62b")))
+                 "63ce836cfe687ca50f8ad13ab2f96666ed98178c")))
         (sha256
           (base32
-            "0az1z6s09lwwby5anidbjghkzxk0qnhh03wyakxf93zq7jz3m303"))))
+            "1m318r6y8kl9lbknnhzvm74860z7aa97sjarl8imcgpbm2g44y3m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -42011,7 +42011,7 @@
 (define-public emacs-flymake-clippy
   (package
     (name "emacs-flymake-clippy")
-    (version "20230808.2328")
+    (version "20230826.1702")
     (source
       (origin
         (method url-fetch)
@@ -42021,7 +42021,7 @@
                ".tar"))
         (sha256
           (base32
-            "0iy3dzppqw3gdswy6yd2xvdjx1j99sq5bn7f978cf18j401g9mpb"))))
+            "1c3ww98vlkih5l952dh6j2y6ga5qczriicarpamp7k69c5gdk70s"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~mgmarlow/flymake-clippy/")
@@ -44240,17 +44240,17 @@
 (define-public emacs-fpga
   (package
     (name "emacs-fpga")
-    (version "20230606.925")
+    (version "20230826.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/fpga.git")
                (commit
-                 "0179d260d9a56fbca0964a6a95b824b5b8d781e1")))
+                 "2c2998631e83489abeac5f4fc915c9590bc88142")))
         (sha256
           (base32
-            "0vgn83fqz4b61ql6ih8a810wykwv1wiyzkm7b5b7qnbwmc5qkp7y"))))
+            "0gx2x05m15q2r8bligp57d80w15l2z7dsg0r4b8ap8y813r0j7sg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ggtags emacs-company))
@@ -72066,17 +72066,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230821.1700")
+    (version "20230826.1834")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "f8353f575e9ed968715a685d69501e5c105f2aee")))
+                 "cb41d8a4bb30df9df26db54b104db1520026ffe9")))
         (sha256
           (base32
-            "0ycd0hqv80pkbk9gjvz44y7v0bilq2z0hij3yrbbmghhwvr58hgd"))))
+            "1x318bfs82xli0fic5wh7z0v7ky26112bn6bch99i9jimvs6yh8g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -72628,17 +72628,17 @@
 (define-public emacs-magit-todos
   (package
     (name "emacs-magit-todos")
-    (version "20230826.213")
+    (version "20230826.1832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/magit-todos.git")
                (commit
-                 "8da7a8e9008281999567a2fb39f2d13d102abfbb")))
+                 "d85518d45d329cc0b465cc3b84910b7c66b3fc42")))
         (sha256
           (base32
-            "1kssa48w53hn1a92m5j5qh2pp0snvpa3c3y3kcyjl5qyv6cczp3p"))))
+            "1zjlf3bhz0a7r9sa5ic22vwr2w1zxbfk9z545pdd1fvp00c2kzd0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -98255,19 +98255,19 @@
 (define-public emacs-projection
   (package
     (name "emacs-projection")
-    (version "20230822.2132")
+    (version "20230826.1902")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/projection.git")
                (commit
-                 "d043418c707d5637d869c488e8abe2186e55b5fe")))
+                 "ff12dcbb7417e24bd1d21a3516b7c0742baf6e14")))
         (sha256
           (base32
-            "1nypw1l6bzlnwzkg288ykbg2ll16ygyi7zs7g9myg9pf1vf0z29y"))))
+            "1w6c1k9cni0bb3q2h91q5dqspxiv3vnhqdwyd26vb84a6c5m6n6n"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-compat))
+    (propagated-inputs (list emacs-compat emacs-f))
     (arguments '(#:files (:defaults "src/*.el")))
     (home-page
       "https://github.com/mohkale/projection")
@@ -98279,17 +98279,17 @@
 (define-public emacs-projection-multi
   (package
     (name "emacs-projection-multi")
-    (version "20230822.2132")
+    (version "20230826.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/projection.git")
                (commit
-                 "d043418c707d5637d869c488e8abe2186e55b5fe")))
+                 "ff12dcbb7417e24bd1d21a3516b7c0742baf6e14")))
         (sha256
           (base32
-            "1nypw1l6bzlnwzkg288ykbg2ll16ygyi7zs7g9myg9pf1vf0z29y"))))
+            "1w6c1k9cni0bb3q2h91q5dqspxiv3vnhqdwyd26vb84a6c5m6n6n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projection emacs-compile-multi))
