@@ -7836,17 +7836,17 @@
 (define-public emacs-bind
   (package
     (name "emacs-bind")
-    (version "20230513.1709")
+    (version "20230827.1429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/repelliuss/bind.git")
                (commit
-                 "2a9b8c4eb0b58c0058da1387811edc8436da49c4")))
+                 "8e5ab488f0529565af5ba62bc047ac4b149ce945")))
         (sha256
           (base32
-            "07c64p4kl6axq0a626pqh7j0mb3pxk28dk5mvrsnbqdjdyzr0nwh"))))
+            "1yibxdigyim5wfqdl1rlcw274b50scfqli1s64lvcxy3ivzxb5ha"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/repelliuss/bind")
     (synopsis "Bind commands to keys")
@@ -29067,17 +29067,17 @@
 (define-public emacs-electric-operator
   (package
     (name "emacs-electric-operator")
-    (version "20220814.1439")
+    (version "20230827.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/davidshepherd7/electric-operator.git")
                (commit
-                 "281abdae033559fa9a8878ed1dd05a7ade118cfd")))
+                 "8a88a933ff8b21f973df91d87430144450080d66")))
         (sha256
           (base32
-            "1jsmbibas0jsvlv6zi788f6c16qwr2si0wwj038qdq552q4ckvc2"))))
+            "1ir4xhm5gzpgbxg5qrrj9943fwv18dk77dfn92anybgx790nypvn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -34262,17 +34262,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20230823.737")
+    (version "20230827.1107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "a667d8857f8a64249b53a4c45805ed6d62da4e5d")))
+                 "657af37c5570caab487e9e73d7b95696437e664d")))
         (sha256
           (base32
-            "0xmfm0rjw37lqma3dr09l1989wlm8v37ln3w4p9ajjx18v9cj5vr"))))
+            "1zc61cl4bwk72pd97xd8gz55ibci2bqs1sijfl7d23f8zmx80ijw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -37662,7 +37662,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20230820.1912")
+    (version "20230827.901")
     (source
       (origin
         (method url-fetch)
@@ -37672,7 +37672,7 @@
                ".tar"))
         (sha256
           (base32
-            "13vy2a7fhrf3k3rklsygr6mrcn732gadv2vwvahj9ix8khzr82jj"))))
+            "1mpflzy7m8k29vsy8k078rcpc031afkawi5kgc8xfkx3i092gkq7"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/martianh/fedi.el")
@@ -58499,7 +58499,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230827.516")
+    (version "20230827.829")
     (source
       (origin
         (method url-fetch)
@@ -58509,7 +58509,7 @@
                ".tar"))
         (sha256
           (base32
-            "1vlmmg74rcilqpln256q2ravb7yfrhzwh0ga0j9x6mwy4ddvvdyd"))))
+            "0akzx8ghf2bwh4dkgiv3kyrwr0f7yn3a5ahinxsvi62wciajs9p0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -59706,17 +59706,17 @@
 (define-public emacs-igist
   (package
     (name "emacs-igist")
-    (version "20230819.1105")
+    (version "20230827.923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KarimAziev/igist.git")
                (commit
-                 "64e6b1a865f51a02116a26ebac7e80b852e9e563")))
+                 "565eb8d89f62e9a09ff6c60fa383197e876ceea3")))
         (sha256
           (base32
-            "0mk77p5iw04jrndjkz93kxsih1fqqc668w398nw9f62dir8lzl5v"))))
+            "0wx19g4f8l8cbpaw63dqx28pnb0ivqaylwspgkpzg79va0a8ngds"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ghub))
     (home-page "https://github.com/KarimAziev/igist")
@@ -72066,17 +72066,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230826.1834")
+    (version "20230827.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "cb41d8a4bb30df9df26db54b104db1520026ffe9")))
+                 "7d4092f00bab34d46c4e07d6d6c55658e413b3b6")))
         (sha256
           (base32
-            "1x318bfs82xli0fic5wh7z0v7ky26112bn6bch99i9jimvs6yh8g"))))
+            "0paccvg2wwpk15sim581wg1p82czgqh9pc715w0lpmjhsy8scihb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -87121,17 +87121,17 @@
 (define-public emacs-org-page
   (package
     (name "emacs-org-page")
-    (version "20230826.1157")
+    (version "20230827.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/org-page.git")
                (commit
-                 "0b229083b09f9c8f923b98fc2f03c665939bb87a")))
+                 "a1f2c9d559108da1a7da1a62a644f27846808315")))
         (sha256
           (base32
-            "1d72d74ffdi5r2a68g0lgrrgal7crswl5vnmcrycg9nf23d8cxs9"))))
+            "1r45ax5whsk03ghfhxnzxjkkvlk02nplwgmnnxpzyg76n427asc5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ht
@@ -112697,17 +112697,17 @@
 (define-public emacs-srcery-theme
   (package
     (name "emacs-srcery-theme")
-    (version "20230825.1133")
+    (version "20230827.809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srcery-colors/srcery-emacs.git")
                (commit
-                 "87aa4e2a25b0f0eb19f25fb3fabee9c112490618")))
+                 "99455933e4797287c605db0b6b643d7c5fbee04e")))
         (sha256
           (base32
-            "0dqysji2qvrca04d6gp6sw7ndi8jzrf4nmdsjla359cz161xdckm"))))
+            "1sab3c7zcm0zz61lbyjvnz3dnnq4svn9dnap9j371skis17an2q9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srcery-colors/srcery-emacs")
@@ -117646,17 +117646,17 @@
 (define-public emacs-timu-macos-theme
   (package
     (name "emacs-timu-macos-theme")
-    (version "20230602.1737")
+    (version "20230827.1349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-macos-theme.git")
                (commit
-                 "c34f2e79066372f681bcb58b884b4117f8c0802d")))
+                 "7246a60147b082807df22b78d7cbb306e1d3fcb1")))
         (sha256
           (base32
-            "1jb4ycryikdsndjxhkxzgrz8fvd2dd4lym66b9fqjdgypngn6n4g"))))
+            "10zmppbj2smpgqbdkcfnhi6bvh4kc6amk9hq7gsg3445ijdr62i1"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-macos-theme")
@@ -125904,17 +125904,17 @@
 (define-public emacs-with-editor
   (package
     (name "emacs-with-editor")
-    (version "20230825.2028")
+    (version "20230827.1040")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "2dc557b668203e718502e28573c45659cc8c0a78")))
+                 "10ecb9e75c5944d4b4a08e063f00736aa6345bfb")))
         (sha256
           (base32
-            "1g7m2vsg5asn9jqbgkymip46mkg2cm8bf38jzizzmrizirxnngq4"))))
+            "03c79plnlfnr27hfs1a3siyzmwwsafvq88dwnkh0yhhgc4l57a6p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
