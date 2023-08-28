@@ -4511,6 +4511,30 @@
       "Documentation at https://melpa.org/#/async-job-queue")
     (license #f)))
 
+(define-public emacs-async-status
+  (package
+    (name "emacs-async-status")
+    (version "20230821.204")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/seokbeomKim/async-status.git")
+               (commit
+                 "d2f5becc9850c26aa71fb581f9fc389eac740f52")))
+        (sha256
+          (base32
+            "1rk3zpbp7nxia7xiwj8yhji497za8npsl6w17848g29gj6hkgyji"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-svg-lib emacs-posframe))
+    (home-page
+      "https://github.com/seokbeomkim/async-status")
+    (synopsis "A package for indicator support")
+    (description
+      "Documentation at https://melpa.org/#/async-status")
+    (license #f)))
+
 (define-public emacs-atcoder-tools
   (package
     (name "emacs-atcoder-tools")
@@ -11140,6 +11164,28 @@
       "Documentation at https://melpa.org/#/caseformat")
     (license #f)))
 
+(define-public emacs-caser
+  (package
+    (name "emacs-caser")
+    (version "20230823.1527")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/caser-"
+               version
+               ".tar"))
+        (sha256
+          (base32
+            "0sxlra7l040nb0wp982n42ji56l10vfjnw0d99njkjw1c675mv0r"))))
+    (build-system melpa-build-system)
+    (home-page "https://hg.sr.ht/~zck/caser.el")
+    (synopsis
+      "Change text casing from camelCase to dash-case to snake_case")
+    (description
+      "Documentation at https://melpa.org/#/caser")
+    (license #f)))
+
 (define-public emacs-cask-mode
   (package
     (name "emacs-cask-mode")
@@ -12738,17 +12784,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230826.2159")
+    (version "20230827.1616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "205facc6f2e6013f9209afd20cb9e8a2c783c1b6")))
+                 "09a426ac673fd53fd814d18b277e1c50984b2a7e")))
         (sha256
           (base32
-            "1zsaxy0x1rvvb2l6wywal3cdwqmy0kma44wyw42qgbnd0r97lg9r"))))
+            "0796hky19dpmz9g91imbz3hv3vy9m026f0jxr0h7b9cs89lzgq94"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -12757,7 +12803,8 @@
             emacs-spinner
             emacs-sesman))
     (arguments
-      '(#:files ("*.el" (:exclude ".dir-locals.el"))))
+      '(#:files
+        ("*.el" "clojure.sh" (:exclude ".dir-locals.el"))))
     (home-page
       "http://www.github.com/clojure-emacs/cider")
     (synopsis
@@ -17244,17 +17291,17 @@
 (define-public emacs-compile-multi
   (package
     (name "emacs-compile-multi")
-    (version "20230822.1933")
+    (version "20230827.2151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "28595f31c4c9b37c2e342cd7bb4b7f1553d18943")))
+                 "2351ee058edcab0543f5f114c860569ec05fee76")))
         (sha256
           (base32
-            "13wk8p0r79hhq68yqwg16y05idnx3q0432yhkngrmmkswk9jd2wl"))))
+            "055kpbrywaqd9b1cx2wgdchf44dh5kqrhs1gg3xf0bpjd5l2wc9b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mohkale/compile-multi")
@@ -17662,17 +17709,17 @@
 (define-public emacs-consult-compile-multi
   (package
     (name "emacs-consult-compile-multi")
-    (version "20230822.1933")
+    (version "20230827.2151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "28595f31c4c9b37c2e342cd7bb4b7f1553d18943")))
+                 "2351ee058edcab0543f5f114c860569ec05fee76")))
         (sha256
           (base32
-            "13wk8p0r79hhq68yqwg16y05idnx3q0432yhkngrmmkswk9jd2wl"))))
+            "055kpbrywaqd9b1cx2wgdchf44dh5kqrhs1gg3xf0bpjd5l2wc9b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compile-multi emacs-consult))
@@ -20660,17 +20707,17 @@
 (define-public emacs-d-mode
   (package
     (name "emacs-d-mode")
-    (version "20220602.649")
+    (version "20230827.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode.git")
                (commit
-                 "024aca97d07e72bf3500fb6bf0cdf50c4992a741")))
+                 "0c8c9e3a5ebb7bfd55bea138a8ad4390abf6b383")))
         (sha256
           (base32
-            "0mwd412d2kha8avkyhvvkh8r7an859xk18f7phgx7kj989pr3xkr"))))
+            "1n71rigcwhwidac4jrvb1kagqyk7zd9j9gwqmn56id0n75m3lggv"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -22215,6 +22262,28 @@
       "Minor mode for using deno fmt on save")
     (description
       "Documentation at https://melpa.org/#/deno-fmt")
+    (license #f)))
+
+(define-public emacs-deno-ts-mode
+  (package
+    (name "emacs-deno-ts-mode")
+    (version "20230823.1554")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/deno-ts-mode-"
+               version
+               ".tar"))
+        (sha256
+          (base32
+            "09p8ail2waag4c116d8ld62n8g3gg5b3jkg88y9k4j42qmhhnlm4"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.sr.ht/~mgmarlow/deno-ts-mode")
+    (synopsis "Major mode for Deno")
+    (description
+      "Documentation at https://melpa.org/#/deno-ts-mode")
     (license #f)))
 
 (define-public emacs-describe-hash
@@ -29067,7 +29136,7 @@
 (define-public emacs-electric-operator
   (package
     (name "emacs-electric-operator")
-    (version "20230827.1236")
+    (version "20230827.1400")
     (source
       (origin
         (method git-fetch)
@@ -58499,7 +58568,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230827.829")
+    (version "20230827.2133")
     (source
       (origin
         (method url-fetch)
@@ -58509,7 +58578,7 @@
                ".tar"))
         (sha256
           (base32
-            "0akzx8ghf2bwh4dkgiv3kyrwr0f7yn3a5ahinxsvi62wciajs9p0"))))
+            "0vnbd5rmh1gcvvar236xr9ndcbb3h4ji1f0b48a50x8vfbf0y0lv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -60063,6 +60132,29 @@
       "A flexible theme based on material design principles")
     (description
       "Documentation at https://melpa.org/#/immaterial-theme")
+    (license #f)))
+
+(define-public emacs-immersive-translate
+  (package
+    (name "emacs-immersive-translate")
+    (version "20230821.145")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Elilif/emacs-immersive-translate.git")
+               (commit
+                 "7fe460980907f75217c0ecd3b6865f72f325ee90")))
+        (sha256
+          (base32
+            "0mzlasvhl44qjw5l3f6dqzz1xihrz2jn2jbh2gy3d8lg189vgpmx"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/Elilif/emacs-immersive-translate")
+    (synopsis
+      "Translate the current buffer immersively")
+    (description
+      "Documentation at https://melpa.org/#/immersive-translate")
     (license #f)))
 
 (define-public emacs-immortal-scratch
@@ -64023,6 +64115,28 @@
     (synopsis "Edit jq scripts.")
     (description
       "Documentation at https://melpa.org/#/jq-mode")
+    (license #f)))
+
+(define-public emacs-jq-ts-mode
+  (package
+    (name "emacs-jq-ts-mode")
+    (version "20230826.1925")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nverno/jq-ts-mode.git")
+               (commit
+                 "a495509f6920756dcf5cbf87ef1907b5abda2e5c")))
+        (sha256
+          (base32
+            "0l3rxdr01msiyvls1pbplhwm3dkvd3kmrbsf35xwnm4h1gbk34js"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/nverno/jq-ts-mode")
+    (synopsis "Tree-sitter support for jq buffers")
+    (description
+      "Documentation at https://melpa.org/#/jq-ts-mode")
     (license #f)))
 
 (define-public emacs-jquery-doc
@@ -70631,17 +70745,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20230812.1837")
+    (version "20230827.1900")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "9cae74c01fff32b02e8b4ac082a8fca5d8da7a7d")))
+                 "420ed83c77e350461c3e7d8aab722b59956a9b23")))
         (sha256
           (base32
-            "1b44f9n0h21z3nfd8nfq4hqzcg29s3wwmics0730r6y5h87sjbjf"))))
+            "1xrriys4vj3r5xbvk29mwlabpnmcs0dcq7k43vfcicy44aqz6470"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -83437,6 +83551,29 @@
       "Documentation at https://melpa.org/#/obsidian-theme")
     (license #f)))
 
+(define-public emacs-ocaml-ts-mode
+  (package
+    (name "emacs-ocaml-ts-mode")
+    (version "20230820.1946")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/dmitrig/ocaml-ts-mode.git")
+               (commit
+                 "bb8c86bd49e4e98f41e45fb0ec82e38f90bc3ee4")))
+        (sha256
+          (base32
+            "0wnldxq0syz54my8qdgpwmcn19alj6wk0vhbk0rv1cv6scz13yw4"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/dmitrig/ocaml-ts-mode")
+    (synopsis
+      "Major mode for OCaml using tree-sitter")
+    (description
+      "Documentation at https://melpa.org/#/ocaml-ts-mode")
+    (license #f)))
+
 (define-public emacs-ocamlformat
   (package
     (name "emacs-ocamlformat")
@@ -87991,6 +88128,34 @@
       "Interface to query and view results from org-roam")
     (description
       "Documentation at https://melpa.org/#/org-roam-ql")
+    (license #f)))
+
+(define-public emacs-org-roam-ql-ql
+  (package
+    (name "emacs-org-roam-ql-ql")
+    (version "20230820.1942")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ahmed-shariff/org-roam-ql.git")
+               (commit
+                 "85d46926b15946c894fc19044dcf869116de94d6")))
+        (sha256
+          (base32
+            "1wdn0plw6valrfkv8qfmgw46j13dics3j4xipal2b2gx75fdxkbh"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-org-roam-ql
+            emacs-org-ql
+            emacs-org-roam
+            emacs-s))
+    (arguments '(#:files ("org-roam-ql-ql.el")))
+    (home-page
+      "https://github.com/ahmed-shariff/org-roam-ql")
+    (synopsis "Intgrating org-roam and org-ql")
+    (description
+      "Documentation at https://melpa.org/#/org-roam-ql-ql")
     (license #f)))
 
 (define-public emacs-org-roam-timestamps
@@ -109995,6 +110160,28 @@
     (synopsis "Smart-Dash minor mode")
     (description
       "Documentation at https://melpa.org/#/smart-dash")
+    (license #f)))
+
+(define-public emacs-smart-delete
+  (package
+    (name "emacs-smart-delete")
+    (version "20230802.1113")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/leodag/smart-delete.git")
+               (commit
+                 "0520a9bde3b8af7b95bcd234438ea8d54a229f05")))
+        (sha256
+          (base32
+            "15dn2fhllbnqcwxicvba0p3s4dvb254f40ql20z0njy0f384y1f3"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/leodag/smart-delete")
+    (synopsis "IntelliJ-like backspace/delete")
+    (description
+      "Documentation at https://melpa.org/#/smart-delete")
     (license #f)))
 
 (define-public emacs-smart-forward
