@@ -11167,7 +11167,7 @@
 (define-public emacs-caser
   (package
     (name "emacs-caser")
-    (version "20230823.1527")
+    (version "20230828.402")
     (source
       (origin
         (method url-fetch)
@@ -11177,7 +11177,7 @@
                ".tar"))
         (sha256
           (base32
-            "0sxlra7l040nb0wp982n42ji56l10vfjnw0d99njkjw1c675mv0r"))))
+            "1yay4vwfpx6zhwrr2rn53zngqch0lmsvrlq5qm6gp8lp95mj07sk"))))
     (build-system melpa-build-system)
     (home-page "https://hg.sr.ht/~zck/caser.el")
     (synopsis
@@ -31064,17 +31064,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20230824.1403")
+    (version "20230828.304")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "4215d79df51e14d4fbe66237fd9264a54661c22d")))
+                 "262070fd60e6f0bff68c5aa47ce45c21843f6408")))
         (sha256
           (base32
-            "1n9j3hhhhjsrw4wz1ickcwm08khw5l38jg50s481ld1zrlprh8gb"))))
+            "0gp3163wy0djf36xbf9mrcx4ly7p3v5zkaai7x0rqi8paphvmrzn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -58568,7 +58568,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230827.2133")
+    (version "20230828.441")
     (source
       (origin
         (method url-fetch)
@@ -58578,7 +58578,7 @@
                ".tar"))
         (sha256
           (base32
-            "0vnbd5rmh1gcvvar236xr9ndcbb3h4ji1f0b48a50x8vfbf0y0lv"))))
+            "1mvibirpfxk19w6iin740q09b8yr7cl1xzpdn9v3pzya105hlfbd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -79544,17 +79544,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20230825.322")
+    (version "20230828.309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "4cce6882c852e5370bca27cb2255a2a83f094cc7")))
+                 "93185612749c74a99a9b2c0934b4625eb34e1ff6")))
         (sha256
           (base32
-            "1ix5dl9rc34b0w64hsj0c253fa5hl2rnqypl2brmszbdfxmx50cc"))))
+            "0rndmkx28gdqqkqdh6ss0ihngdi14xp2l3fh3498vnbi4v5amb7x"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -89352,6 +89352,29 @@
     (synopsis "Org sync with Wunderlist")
     (description
       "Documentation at https://melpa.org/#/org-wunderlist")
+    (license #f)))
+
+(define-public emacs-org-xlatex
+  (package
+    (name "emacs-org-xlatex")
+    (version "20230820.2133")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/ksqsf/org-xlatex.git")
+               (commit
+                 "f3cac5ea904e78ae2b47723fdce96e8e87edbe7c")))
+        (sha256
+          (base32
+            "06y7lapsp4s9h07hdsd8wigmy6r5l36qiqwmz7j1n8zp3r8xg0pw"))))
+    (build-system melpa-build-system)
+    (arguments
+      '(#:files (:defaults "org-xlatex.html")))
+    (home-page "https://github.com/ksqsf/org-xlatex")
+    (synopsis "Instant LaTeX preview in an xwidget")
+    (description
+      "Documentation at https://melpa.org/#/org-xlatex")
     (license #f)))
 
 (define-public emacs-org-zettelkasten
@@ -119584,17 +119607,17 @@
 (define-public emacs-treemacs-nerd-icons
   (package
     (name "emacs-treemacs-nerd-icons")
-    (version "20230517.1825")
+    (version "20230828.544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/treemacs-nerd-icons.git")
                (commit
-                 "8ddd94661ab9f3c9094dd4b5632bcdd57bdf871d")))
+                 "9876cb478145a0ec4e36f64ff6583f3de7126216")))
         (sha256
           (base32
-            "0dlp1wqjapcn7d6s2c6c43fap2sw5kb1qbvm28jq22k1h8k77632"))))
+            "1xphhxdibjhp27z2lj1nxlxf7cfm8vpi44fr01fk9krqy9vaz0q0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-nerd-icons emacs-treemacs))
@@ -122797,17 +122820,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20230824.1614")
+    (version "20230827.2234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "6d8d40fd507d0857d3adff3ff6142104ac10b2d0")))
+                 "1271f0e5d0506adeb1fa1293362dd31563ac3e6a")))
         (sha256
           (base32
-            "1ybvxkff51jd18jk3y91sqrmxgkhinwy9rp0g4ms973wid6ifqv3"))))
+            "1iqig92gi4ng5jaqvqsb9g12aascvlmm61k252ybs28qxnpq9h8a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -122833,17 +122856,17 @@
 (define-public emacs-verilog-ts-mode
   (package
     (name "emacs-verilog-ts-mode")
-    (version "20230824.1615")
+    (version "20230827.2234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "6d8d40fd507d0857d3adff3ff6142104ac10b2d0")))
+                 "1271f0e5d0506adeb1fa1293362dd31563ac3e6a")))
         (sha256
           (base32
-            "1ybvxkff51jd18jk3y91sqrmxgkhinwy9rp0g4ms973wid6ifqv3"))))
+            "1iqig92gi4ng5jaqvqsb9g12aascvlmm61k252ybs28qxnpq9h8a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("ts-mode/verilog-ts-*.el")))
@@ -123027,17 +123050,17 @@
 (define-public emacs-vhdl-ext
   (package
     (name "emacs-vhdl-ext")
-    (version "20230824.1557")
+    (version "20230827.2234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ext.git")
                (commit
-                 "1c204fdb6ac8fbff3f359dd65bbfa990f6c65851")))
+                 "471033252029a8543c85f672fe5c283835a5c5b0")))
         (sha256
           (base32
-            "1rbszg80rg13zy9wp1g5zhg6bibdaxysx4i7016cm0wi8km0hfy1"))))
+            "1iac3d4i89y36yd0h331llynxis5spmqyj4js1dkr51siacj43zi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eglot
@@ -123080,6 +123103,29 @@
       "Utilities for navigating vhdl sources")
     (description
       "Documentation at https://melpa.org/#/vhdl-tools")
+    (license #f)))
+
+(define-public emacs-vhdl-ts-mode
+  (package
+    (name "emacs-vhdl-ts-mode")
+    (version "20230827.2234")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/gmlarumbe/vhdl-ext.git")
+               (commit
+                 "471033252029a8543c85f672fe5c283835a5c5b0")))
+        (sha256
+          (base32
+            "1iac3d4i89y36yd0h331llynxis5spmqyj4js1dkr51siacj43zi"))))
+    (build-system melpa-build-system)
+    (arguments '(#:files ("ts-mode/vhdl-ts-*.el")))
+    (home-page
+      "https://github.com/gmlarumbe/vhdl-ext")
+    (synopsis "VHDL Tree-sitter major mode")
+    (description
+      "Documentation at https://melpa.org/#/vhdl-ts-mode")
     (license #f)))
 
 (define-public emacs-vi-tilde-fringe
@@ -124814,17 +124860,17 @@
 (define-public emacs-weblorg
   (package
     (name "emacs-weblorg")
-    (version "20230703.2141")
+    (version "20230828.150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-love/weblorg.git")
                (commit
-                 "9af2294cc0e512b28d1248dd4ad8a0994458df3e")))
+                 "be9e3d05b5b7c561e5892cad4edace2bf482255b")))
         (sha256
           (base32
-            "0659869bz8gwsshb7ysnp1d5lcb965grbcz7vdd0xhyyvpxkjhxc"))))
+            "18vn0ky98890w24108p5g93b8yq0hafkfqdv6xds5yx342qq56qc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-templatel))
     (arguments '(#:files (:defaults "themes")))
