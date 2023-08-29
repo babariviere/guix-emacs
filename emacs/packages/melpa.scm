@@ -14026,17 +14026,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20230823.1720")
+    (version "20230829.620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "192a46653fdc27601905f97a044d47764fee1f4e")))
+                 "81b67ecd3aab13b35f76772a1021d5638d6bb148")))
         (sha256
           (base32
-            "03j44n8nj5wc1rvk3pv96wjl3fwindqadwq0w8l6g6ajjs9lz3l6"))))
+            "0kfkx9c2yqy1m3z8rb21mahxvaw627lgvc71cw0b85smm3w3pmiz"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -27036,17 +27036,17 @@
 (define-public emacs-easy-kill-extras
   (package
     (name "emacs-easy-kill-extras")
-    (version "20230828.1523")
+    (version "20230829.526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/easy-kill-extras.el.git")
                (commit
-                 "f4334dbeefc99a7656f6283543628a8378366485")))
+                 "677435739c698ed81c3732188c29aa98bd9ffb08")))
         (sha256
           (base32
-            "0qs1z82ksg50d34jq9s220n63p955dkqf2n4vkz6fngy51ax734k"))))
+            "0dk7jvf69mi8p8r98i1hf884s6vrrlg1av1qbxl2bj9d736h9c5l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-easy-kill))
     (home-page
@@ -58568,7 +58568,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230828.1011")
+    (version "20230828.2310")
     (source
       (origin
         (method url-fetch)
@@ -58578,7 +58578,7 @@
                ".tar"))
         (sha256
           (base32
-            "139bhs4r8qp7dkyy5vd4s7cc8bi4p6g6d7waylykgj3qx0szz2z2"))))
+            "1jj3nwdx9fm9wjmh46b5yvgbba37y6whzwgb0b5kz0snj0l7cvx1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -88831,17 +88831,17 @@
 (define-public emacs-org-tidy
   (package
     (name "emacs-org-tidy")
-    (version "20230724.46")
+    (version "20230829.53")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jxq0/org-tidy.git")
                (commit
-                 "c89b0279833c07e5276a8c7009a41e9085b5e9b4")))
+                 "11f71638710d4c0fefd9bf7293145b9b24a7d70e")))
         (sha256
           (base32
-            "0g41fr3xvybyxgkwhzwwqik4z1g2cnyv5blc5hhxjnrr4v5qc4xd"))))
+            "00qs7zpgxwa2dz3hk0f4fd5a5l02afds0xfrqq86siqvbm3k94zp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/jxq0/org-tidy")
@@ -104379,17 +104379,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20230505.1851")
+    (version "20230829.241")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "52fc61a979a722f66347781a26746fb389f559db")))
+                 "9a53f0775765b5d77fa5fc65afeef0433e64a729")))
         (sha256
           (base32
-            "1dypnyc9vichpixyapifp9j2j15dkp38ygczwdj9qisb39vs5hyv"))))
+            "01knssl3h5v9a8aqmw52i9155h0q0cmzszhwidxpi4sv79j3dr5c"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
