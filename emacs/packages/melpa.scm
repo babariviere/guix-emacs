@@ -7999,17 +7999,17 @@
 (define-public emacs-binky
   (package
     (name "emacs-binky")
-    (version "20230826.340")
+    (version "20230829.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky.el.git")
                (commit
-                 "a7850d15a8c516f62e58d5e54c339a8c5e8cd0d4")))
+                 "1201002d665b74fc2e8121933acf7dc4102cbcbd")))
         (sha256
           (base32
-            "1ynnj9x3zp9h7hq7x7ygmwz93a05iqm2m36fb05s357rladkaxvd"))))
+            "0qd3p0abkw1hra943z67h3lqw2h74q5jw8hgn7l9s4hgy30js3z5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -12784,17 +12784,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230828.1813")
+    (version "20230829.1020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "05c8203b252fcb69addd058fc05878b1b31ba837")))
+                 "e8b61c4efdee5b2671b446315aaeae3fe2d3fadb")))
         (sha256
           (base32
-            "04krzl2yskjgaswrkcra7flg5ybg3m454qlrgv1ajqrz5yiyfavc"))))
+            "0k7br9693vcdina4d1mn1lbpsdijh4b4bvaxcfa79cf46j86mfrl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -25549,17 +25549,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230828.1707")
+    (version "20230829.1039")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "229f529134809b4dac6e4314c1762edc89a069ec")))
+                 "66ccd690a5fa5925c21dda16e8aa224a0d8dbb24")))
         (sha256
           (base32
-            "0jihbjllzrirj4nb2bvj2vn4n9149wfkp9l1ylaks9z4wfpm5w5g"))))
+            "0lyc3927whvbwvjzw2j13xhsjg881kdprmcm2r70d7n8s2kkb3yq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -51926,17 +51926,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20230828.616")
+    (version "20230829.910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a851b085b8f012f0e3c0b6d0d69f548a53206f2e")))
+                 "cf685db090f593884b597221bde1eaf43ee909b8")))
         (sha256
           (base32
-            "16wan4rwsqxrbpik08rdmr83130q7hvr5y8siq5y4fgzx4mw7r0v"))))
+            "06k3kbsk2qnd1ggn9gi42rhf7rhlqpjkhdsmdk19c9z1cn2q3y10"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -52687,17 +52687,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20230828.616")
+    (version "20230829.910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a851b085b8f012f0e3c0b6d0d69f548a53206f2e")))
+                 "cf685db090f593884b597221bde1eaf43ee909b8")))
         (sha256
           (base32
-            "16wan4rwsqxrbpik08rdmr83130q7hvr5y8siq5y4fgzx4mw7r0v"))))
+            "06k3kbsk2qnd1ggn9gi42rhf7rhlqpjkhdsmdk19c9z1cn2q3y10"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -87258,17 +87258,17 @@
 (define-public emacs-org-page
   (package
     (name "emacs-org-page")
-    (version "20230827.1017")
+    (version "20230829.942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/org-page.git")
                (commit
-                 "a1f2c9d559108da1a7da1a62a644f27846808315")))
+                 "7a73b110df12c29804d32ecfb051d3320dce3892")))
         (sha256
           (base32
-            "1r45ax5whsk03ghfhxnzxjkkvlk02nplwgmnnxpzyg76n427asc5"))))
+            "1ygil7c3hilfx630qld90f0y0klkll7svf3zvs885y9z7w30y5im"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ht
@@ -112907,17 +112907,17 @@
 (define-public emacs-srcery-theme
   (package
     (name "emacs-srcery-theme")
-    (version "20230827.809")
+    (version "20230829.737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srcery-colors/srcery-emacs.git")
                (commit
-                 "99455933e4797287c605db0b6b643d7c5fbee04e")))
+                 "4ee4e51d2c0317d3bc41a131a8bc76cfa2db98ed")))
         (sha256
           (base32
-            "1sab3c7zcm0zz61lbyjvnz3dnnq4svn9dnap9j371skis17an2q9"))))
+            "1j3715m1vx5qaban9d4zix0gpzs5iip7mfmx3x374axjn878d656"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srcery-colors/srcery-emacs")
