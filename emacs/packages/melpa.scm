@@ -12784,17 +12784,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230827.1616")
+    (version "20230828.1813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "09a426ac673fd53fd814d18b277e1c50984b2a7e")))
+                 "05c8203b252fcb69addd058fc05878b1b31ba837")))
         (sha256
           (base32
-            "0796hky19dpmz9g91imbz3hv3vy9m026f0jxr0h7b9cs89lzgq94"))))
+            "04krzl2yskjgaswrkcra7flg5ybg3m454qlrgv1ajqrz5yiyfavc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -14121,17 +14121,17 @@
 (define-public emacs-clojure-ts-mode
   (package
     (name "emacs-clojure-ts-mode")
-    (version "20230825.147")
+    (version "20230828.1657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
                (commit
-                 "3e4c55fab14e0885a411f6018fb8aedb04afc49d")))
+                 "d630cd63af8022d5a1fee0e7aa05450b6e0fd75e")))
         (sha256
           (base32
-            "14fbdckkqv7c7rwbwbs7v4ca3vf75l4lsi38sksnsf3as3byj6vf"))))
+            "1dzvxlql60c9i5xa6n42alw17136n82y1rnl0ns00acaiiykd7l4"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/clojure-emacs/clojure-ts-mode")
@@ -25549,17 +25549,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230826.1748")
+    (version "20230828.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "63ce836cfe687ca50f8ad13ab2f96666ed98178c")))
+                 "229f529134809b4dac6e4314c1762edc89a069ec")))
         (sha256
           (base32
-            "1m318r6y8kl9lbknnhzvm74860z7aa97sjarl8imcgpbm2g44y3m"))))
+            "0jihbjllzrirj4nb2bvj2vn4n9149wfkp9l1ylaks9z4wfpm5w5g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -50259,17 +50259,17 @@
 (define-public emacs-green-is-the-new-black-theme
   (package
     (name "emacs-green-is-the-new-black-theme")
-    (version "20210203.1511")
+    (version "20230828.2225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fredcamps/green-is-the-new-black-emacs.git")
                (commit
-                 "09f6908064dd1854379a072d7cdd706959256299")))
+                 "ad6f349e7e3a626f790af994424d3f015ac0d3ee")))
         (sha256
           (base32
-            "1ad676aiyj0p8jxpmkb0mhfznd6hzpdliji56ix6sbj5jdyxm8jv"))))
+            "0av0slr1cf5a2a7y9nfjcdxmyjzajdsgncdjaqz7rqcz2m2sdsxd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fredcamps/green-is-the-new-black-emacs")
@@ -66372,17 +66372,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230817.553")
+    (version "20230828.2146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "3ff4e19dd218c57af8da05b0b7c0c7349f99bb97")))
+                 "e592f6eac88c1acc9c134077e0a4eea1fd99f234")))
         (sha256
           (base32
-            "146q54ias8j9hjd4vfxfwspkh9di0hfxvqfavjgz0xznjr9rcg20"))))
+            "1qnnq93lvi1apbvi2ap4b61k4q5351k65smrh052qnhgpgfldi9v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -72180,17 +72180,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20230827.1215")
+    (version "20230828.1932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "7d4092f00bab34d46c4e07d6d6c55658e413b3b6")))
+                 "86b8491ce87a67551e1fb4261a41f2160ded590a")))
         (sha256
           (base32
-            "0paccvg2wwpk15sim581wg1p82czgqh9pc715w0lpmjhsy8scihb"))))
+            "0ngchx619ladh11nx6ffdy4fjmsjalf9nyd6w9vzm8dgczkx984g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -86939,17 +86939,17 @@
 (define-public emacs-org-mpv-notes
   (package
     (name "emacs-org-mpv-notes")
-    (version "20230709.628")
+    (version "20230828.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bpanthi977/org-mpv-notes.git")
                (commit
-                 "e068fad0411a9213233059e3fbb39be2bfb941f4")))
+                 "04ff69a0494a2f81f2f982caf31326a03cb2135b")))
         (sha256
           (base32
-            "0416wp2xchji628id5czg3prp8pz11j40p17nkn3bgpvnhxgw9dr"))))
+            "050ilf925yvrd5igs7ls84sfcrgapdi7g6h650zl7nch1g6nxvz4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-mpv))
     (home-page
@@ -89284,17 +89284,17 @@
 (define-public emacs-org-wild-notifier
   (package
     (name "emacs-org-wild-notifier")
-    (version "20230323.920")
+    (version "20230828.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akhramov/org-wild-notifier.el.git")
                (commit
-                 "cdca8be45b80ab52077a915e77c625bc0ad07dd7")))
+                 "04d687730ce79cc12dff0de1e6df39d3b4292350")))
         (sha256
           (base32
-            "0k37ac752r5whjha4mf9qg74g65kf71a2dlpl4wlxvdml5v1czw1"))))
+            "1bz9svimv593kcj7lbgi6yylb2w56wxaza05xjh21g1gwpc9q19x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-async emacs-dash))
@@ -91571,17 +91571,17 @@
 (define-public emacs-ox-tufte
   (package
     (name "emacs-ox-tufte")
-    (version "20230811.1348")
+    (version "20230828.1531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ox-tufte/ox-tufte.git")
                (commit
-                 "f1a25aa7cbb59f08962e9b9a8becb8c7729414db")))
+                 "55e095ae4790c84a5d1d5b91b3c492af7f51b98c")))
         (sha256
           (base32
-            "0axwlikac8adkcldv7byhh38607fff8m8b66npfbs21vp9z5rlm4"))))
+            "1a7bi7bcdmdry27rk0v0y265arhl1cq1lvz6fx6qw3lczxf3sm2z"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "src")))
     (home-page
@@ -93357,17 +93357,17 @@
 (define-public emacs-pcre2el
   (package
     (name "emacs-pcre2el")
-    (version "20230503.1929")
+    (version "20230828.1544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joddie/pcre2el.git")
                (commit
-                 "b941ed8a96299868171fac625ecffec77de3e986")))
+                 "018531ba0cf8e2b28d1108136a0e031b6a45f1c1")))
         (sha256
           (base32
-            "0s6by4arny1w4i0hm4xghhjgjgb4iy7n189ddqdcsh4jrgwjyaxl"))))
+            "1bfvmpswvc1rvhhf879j8qnwfpxdap6nr7l1g5fpxpz88s3d441r"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/joddie/pcre2el")
     (synopsis "regexp syntax converter")
@@ -107091,17 +107091,17 @@
 (define-public emacs-semi
   (package
     (name "emacs-semi")
-    (version "20230810.1523")
+    (version "20230814.844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/semi.git")
                (commit
-                 "9370961ddcee78e389e44b36d38c3d93f8351619")))
+                 "d15603b8eb791f2057b48071c262996ad7767505")))
         (sha256
           (base32
-            "13f267j0mrji9cvjhq129nslrj2gwvq7ibsz384a4qilxf5rhccc"))))
+            "0cxrzgxflwgz9wsim84vrliwvkf53v242di4dvn2dfh65gccwqjx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-apel emacs-flim))
     (home-page "unspecified")
@@ -119417,7 +119417,7 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20230828.922")
+    (version "20230828.1112")
     (source
       (origin
         (method git-fetch)
@@ -124364,17 +124364,17 @@
 (define-public emacs-wanderlust
   (package
     (name "emacs-wanderlust")
-    (version "20230521.1202")
+    (version "20230818.1424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/wanderlust.git")
                (commit
-                 "8369b2d5170a174652294835dd9a18ed21a38cb2")))
+                 "1389dcec6e3242948682eb3e3ce8ead8be2772d8")))
         (sha256
           (base32
-            "0nqa9z61r308j61rgglacjsfddncbm185gp3rnzqkrpb5qsjzngk"))))
+            "0vnd9sib11v0w7swkmkcssvn0fp303dirigdg7rxa5k94f8akdbv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-flim emacs-semi))
