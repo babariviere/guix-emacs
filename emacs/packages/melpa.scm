@@ -12784,17 +12784,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20230829.1020")
+    (version "20230829.1935")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "e8b61c4efdee5b2671b446315aaeae3fe2d3fadb")))
+                 "ef5bbe080fdd7b4e33f31e8354eaea04413aefca")))
         (sha256
           (base32
-            "0k7br9693vcdina4d1mn1lbpsdijh4b4bvaxcfa79cf46j86mfrl"))))
+            "0v52mv62qak35k827xcpc0az3z1nrvfdxk173crzqbgsjn2jy0az"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -14121,17 +14121,17 @@
 (define-public emacs-clojure-ts-mode
   (package
     (name "emacs-clojure-ts-mode")
-    (version "20230828.1657")
+    (version "20230829.2110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
                (commit
-                 "d630cd63af8022d5a1fee0e7aa05450b6e0fd75e")))
+                 "623c98292f9207a95169cdeae6f8595c016c6320")))
         (sha256
           (base32
-            "1dzvxlql60c9i5xa6n42alw17136n82y1rnl0ns00acaiiykd7l4"))))
+            "1fqxgcsbqsnxch1a20bml8jxziciihl6901h7j4ydd50z1mq4bkl"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/clojure-emacs/clojure-ts-mode")
@@ -28921,17 +28921,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20230823.1748")
+    (version "20230829.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eldev/eldev.git")
                (commit
-                 "9aeb720a75e58956677f548890147a59f05da136")))
+                 "32c8f47cb96443ed466b12225fb74f610d104862")))
         (sha256
           (base32
-            "18jw8zg8dydzhsqcp1lvvyw0fb2yczhdr96n23hzvbjyap7a8806"))))
+            "1ci2caf2x1sfskwpn9s9ldaxydprdmv92k4n8iss5x2fy4jcl4s1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -57520,17 +57520,17 @@
 (define-public emacs-hl-todo
   (package
     (name "emacs-hl-todo")
-    (version "20230816.1415")
+    (version "20230829.1854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/hl-todo.git")
                (commit
-                 "0faf8569b67f5b23891416d9e7a67e3843338f2a")))
+                 "70ce48470c85f1441de2c9428a240c3287995846")))
         (sha256
           (base32
-            "0pl1iylf76vhfzhrqxbsknh9mw0gfqzng22i2aasjd0ljdgh4nxi"))))
+            "1rq16zrdmq9j2jrsg136r5qbqvsgd2bkgpb2wmxca91kfx86r2qq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/tarsius/hl-todo")
@@ -58568,7 +58568,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20230828.2310")
+    (version "20230829.1949")
     (source
       (origin
         (method url-fetch)
@@ -58578,7 +58578,7 @@
                ".tar"))
         (sha256
           (base32
-            "1jj3nwdx9fm9wjmh46b5yvgbba37y6whzwgb0b5kz0snj0l7cvx1"))))
+            "0mhfszw17jax1f7mzdjapdxyhal7gvh6ypzx8pv7iypi70d7kkih"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -66372,17 +66372,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20230828.2146")
+    (version "20230829.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "e592f6eac88c1acc9c134077e0a4eea1fd99f234")))
+                 "92cbfef7abcf6cf1658fcd50565b581b752ac80f")))
         (sha256
           (base32
-            "1qnnq93lvi1apbvi2ap4b61k4q5351k65smrh052qnhgpgfldi9v"))))
+            "0nzr2hsxm6zn8dxx7imjgjh5ggk0qxg0s37zprgllzhmbqirrwyj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -113232,17 +113232,17 @@
 (define-public emacs-starhugger
   (package
     (name "emacs-starhugger")
-    (version "20230717.1036")
+    (version "20230829.1913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/daanturo/starhugger.el.git")
                (commit
-                 "8b429cb2f7b5ad0d9c89db4577df5c7f8f5d8f6b")))
+                 "5a7164db2387ff82078e447c2ddf44ddd4a3415c")))
         (sha256
           (base32
-            "0vnz3jk53xnykjyqq5zk9ipm9019x690m7sxk7djxlp6bj6kfw9g"))))
+            "1lw7djgz10n7mg5k32jfvrkabdmhddf2bfvdjp9wgfw65mpy1xly"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -126137,17 +126137,17 @@
 (define-public emacs-with-editor
   (package
     (name "emacs-with-editor")
-    (version "20230827.1040")
+    (version "20230829.1917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/with-editor.git")
                (commit
-                 "10ecb9e75c5944d4b4a08e063f00736aa6345bfb")))
+                 "d5f3f06cb830311e60c58f656988ef37c05a99e0")))
         (sha256
           (base32
-            "03c79plnlfnr27hfs1a3siyzmwwsafvq88dwnkh0yhhgc4l57a6p"))))
+            "1wzzymlka4f798m75kizjh1yvnh49y8m029c7p5pg7gbv6d0wd8a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
