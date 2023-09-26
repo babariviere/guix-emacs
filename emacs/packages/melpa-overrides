@@ -56,27 +56,6 @@
     (inputs (package-inputs e/emacs-emacsql))))
 
 
-(define-override emacs-emacsql-sqlite3 pkg
-  (package
-    (inherit pkg)
-    (arguments
-     `(,@(package-arguments pkg)
-       #:tests? #t
-       #:test-command '("emacs" "-Q" "--batch" "-L" "."
-                        "--load" "emacsql-sqlite3-test.el"
-                        "-f" "ert-run-tests-batch-and-exit")
-       #:phases
-       (modify-phases %standard-phases
-         (add-after 'unpack 'embed-path-to-sqlite3
-           (lambda _
-             (substitute* "emacsql-sqlite3.el"
-               (("\\(executable-find \"sqlite3\"\\)")
-                (string-append "\"" (which "sqlite3") "\""))))))))
-    (native-inputs
-     (list emacs-ert-runner))
-    (inputs
-     (list sqlite))))
-
 (define-override emacs-vterm pkg
   (package
    (inherit pkg)
