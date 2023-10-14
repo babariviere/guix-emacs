@@ -15658,17 +15658,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231013.49")
+    (version "20231013.2313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "13d7ad192bc7122c22c0f84dfab3eeabe7b75d75")))
+                 "88f0b4d792dc409b5abf77c50a972b1b3722ad91")))
         (sha256
           (base32
-            "165m9b9bzxkzxa5m4ns5wh7lq10hxsbphriflwfalyx80k6bigcm"))))
+            "0w6ddjyxn1g5zgv5kxjsljw1v91jwglc5dn19bl4f9yiiksi65m3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -18635,17 +18635,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231003.916")
+    (version "20231013.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "7a3b56fcc5bd9b68150a0fee4738f1fbe92f61ba")))
+                 "b2b9a2312f58117514724e729fda43efc4433ecd")))
         (sha256
           (base32
-            "0iipf9ql2nxv4lnj4dwk4kw9fr3jh9c2yk4k31390f5c5cx3g95k"))))
+            "1vdj8h2linwmkhr1f8zhwhskdknaacid4mc6lnp3cyj7mnlryfq4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -27272,17 +27272,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231013.1401")
+    (version "20231013.2032")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "7c8f5a5ecbd332bffaa3e9d4b249bc12df6f443d")))
+                 "91a99b697629e9558474beedd3d5b76017afdf15")))
         (sha256
           (base32
-            "1cllkhrdcv31pfwyjb7522sp9mpcxz86nq9k5gn9hw2zdfjmdks6"))))
+            "0l2q518zbqp0ky4ridhl81h588nin378zjrs2bn7ny8097pbw67q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -36393,17 +36393,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20230817.557")
+    (version "20231013.1706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "19979843f5fc437917f9a4dae977f5e6d4793726")))
+                 "db6ab405980dc350b7db411cc25e4bba1be0c092")))
         (sha256
           (base32
-            "1mqh6zqjnbdmqblqpv1409rmx7h1wqprp1z7h68mvmyl80c8r6bd"))))
+            "1xgzcv6bhnw4dl5c21f54lrhpsl12g9bn18mhjknfyh2cqsaypva"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "queries" "treesit-queries")))
@@ -59127,7 +59127,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231013.509")
+    (version "20231013.2000")
     (source
       (origin
         (method url-fetch)
@@ -59137,7 +59137,7 @@
                ".tar"))
         (sha256
           (base32
-            "0r8xnrpx3qx6p56iigiqnrvrdgwsr6p4ryzwfd41ya33dxcz2m7i"))))
+            "13hn58axwnbz3h7y7pwiglwmn49cmndl83kyd1w6nzcbp9m7g9s1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -67635,17 +67635,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20230905.2159")
+    (version "20231013.1753")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "44ed9cabf12bb207478462294cd6cfbffa536f81")))
+                 "a84f09cca8cdc71d55aa78304db4156df46d04e8")))
         (sha256
           (base32
-            "1dpw059r87x9c0y4q3cmfzmldnyi0pllnfvrq68gapqgrf9rwjcx"))))
+            "1m46gj5246ch0hyj7nnl67n305ib6gjqs4wka9mb6dmjrixxwry6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -74568,7 +74568,7 @@
 (define-public emacs-mastodon
   (package
     (name "emacs-mastodon")
-    (version "20231012.1312")
+    (version "20231013.2140")
     (source
       (origin
         (method url-fetch)
@@ -74578,7 +74578,7 @@
                ".tar"))
         (sha256
           (base32
-            "146p1rwww5cxhrkpf8ycv2h84zb9fsgil96q7lgsm5vy1hnqxvs3"))))
+            "0n1kqsgfmysz863wl1jf3h0s63md6vddpr3agw619171lmhw4nn8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-persist))
@@ -76610,7 +76610,7 @@
 (define-public emacs-mistty
   (package
     (name "emacs-mistty")
-    (version "20231009.1257")
+    (version "20231013.1532")
     (source
       (origin
         (method git-fetch)
@@ -77561,17 +77561,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20230126.917")
+    (version "20231013.2108")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "58e85c815092ac93d02dab584fe537fd1be3828a")))
+                 "060959f5e24468896ba04502a2f8ba8dcff0cb3b")))
         (sha256
           (base32
-            "0davxbpw2a15n1wcza3qszdvmyzypffz8rdkizlq6xhccdyk0rvd"))))
+            "053x7zwlq3plzn1i18m63h54k6n6cdvpr18fgr27zw0bbv7x7ad3"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
@@ -119373,17 +119373,17 @@
 (define-public emacs-tok-theme
   (package
     (name "emacs-tok-theme")
-    (version "20231012.1706")
+    (version "20231013.1919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/topikettunen/tok-theme.git")
                (commit
-                 "c1b2ca2965a177e454901c141b16fb49d59fc8cf")))
+                 "adf00c7fa7dd183a80f4ed2bdf4b7bb5c1f91615")))
         (sha256
           (base32
-            "02wpa1l0b2k3l9fikg52vqvxgqyh4kf7rvsd4zqlcpx5ximqzp7k"))))
+            "0vb5i84rldw1bca5j4gmxzsv3vjm6qipv85669kj5ja27q9hxw8a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/topikettunen/tok-theme")
@@ -129506,17 +129506,17 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20231013.923")
+    (version "20231013.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.thanosapollo.com/yeetube")
                (commit
-                 "c9ddd040eb5b868691b83722ba4fa8df99ae1f63")))
+                 "1cd010ad9eeb919f3ca5d9e5fbfc2ac540b666ac")))
         (sha256
           (base32
-            "094c0ppyq9d75njzl1hh0vfxd1h2n0r3569ggy8m3fcfzik4p47a"))))
+            "013c3gkacx6zw4syli8nn32ngch4m3lylx7bam5nkqb3fj01cnhn"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.thanosapollo.com/yeetube")
