@@ -11026,17 +11026,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20230930.537")
+    (version "20231022.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "116063b9ee912cbaa7318dbe6597ade4a62b3f59")))
+                 "bee13e568d42ffec9010fbf795e8f942973da174")))
         (sha256
           (base32
-            "0p6waivxyg6mdr6xikv41j19ybbjwn7pmvbjxf309q42qgsvb4jp"))))
+            "1hxlb2rbbjvfaq858v9cia7msmmpzm3nl5vygaxc1rqyyw6b7wn4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -21778,17 +21778,17 @@
 (define-public emacs-datetime
   (package
     (name "emacs-datetime")
-    (version "20230925.2038")
+    (version "20231022.1317")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/datetime.git")
                (commit
-                 "dc905e671a1de19da9c601de611a8913c58d6df1")))
+                 "93a6b2058600d46ca940d43bc81cac3c7bd13e8b")))
         (sha256
           (base32
-            "0kvdd3rawqnh2aa5rmq2ycrzv122mdyb4g6742miqmyrb82h7hs3"))))
+            "0rvmbazq9yyk7npnrsnbdfbrxi886q6c3zgqi0ykwz0c34j38rxs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-extmap))
     (arguments '(#:files (:defaults "*.extmap")))
@@ -39559,17 +39559,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231020.623")
+    (version "20231022.1305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "262db9e912c9cde370f1981121778e9f3bf2beee")))
+                 "76b421243ca6352ac1742315abadc1b00b72e992")))
         (sha256
           (base32
-            "0czcy6v5fsvkbx4hc2ssbhi029jl8dzxi1jfw73pa17779x92a8h"))))
+            "0pxm9vbpf2svnrl6pq5pi75d93vf2djig3w2ya9mn8c01lrq6a89"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -44820,17 +44820,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20231022.508")
+    (version "20231022.1217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "54077fb5dc7fed1749e349ad241e9929d8ac8d56")))
+                 "a4da0239dcece4dc07ed88ed37d04e121357884d")))
         (sha256
           (base32
-            "1akzwbfw3mp5fr1l46zhlaqc3v6rr42q874mpcj9w2j1c0v87bzn"))))
+            "0x52zkb03wajjx6ialyq3xg8vsn0w8p4x85gys2vw7j2cjnblx33"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page "https://www.fountain-mode.org")
@@ -51746,17 +51746,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20230918.1541")
+    (version "20231022.1348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "3726a2884fa02fdb83c8a4f43acd11d4b0883c1d")))
+                 "2f989adaa10f3fb50e455b32fe16cddb35afc5fc")))
         (sha256
           (base32
-            "0fpzfgbi3kybz649x2mzfbx6sqqz1y6672244q0xd4iz28zqln4p"))))
+            "15xvy5v9qsi2xv1s3wskgsng4s0bfa0djnkwjc2rpv67lq5if6bb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -52551,17 +52551,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231017.449")
+    (version "20231019.557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "372167f13f496242263c7014a555e40db12627fb")))
+                 "a4380caef3a9e4b1e8d11458852ab67ba9b4cf58")))
         (sha256
           (base32
-            "1gi1bx64lskmk0b9n2qmcva9005cjxv21fvqs4p4h8scb51l3bj2"))))
+            "1q6v5zf5wfvg6krj8xfc4g33ja68r8abw5ymy3cmbyvnmxj9dwyb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -53335,17 +53335,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20231017.449")
+    (version "20231022.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "372167f13f496242263c7014a555e40db12627fb")))
+                 "a4380caef3a9e4b1e8d11458852ab67ba9b4cf58")))
         (sha256
           (base32
-            "1gi1bx64lskmk0b9n2qmcva9005cjxv21fvqs4p4h8scb51l3bj2"))))
+            "1q6v5zf5wfvg6krj8xfc4g33ja68r8abw5ymy3cmbyvnmxj9dwyb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -59238,7 +59238,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231021.15")
+    (version "20231022.1207")
     (source
       (origin
         (method url-fetch)
@@ -59248,7 +59248,7 @@
                ".tar"))
         (sha256
           (base32
-            "0r901q32bdm8nh2cy7nskgq8myymz31dllmbvp3y9xmmmbnr527d"))))
+            "1s6gx9n1nllpf6asyv0v0rmwzsp2apvza0ziz7ki2bvxbq0wh58a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -69217,7 +69217,7 @@
 (define-public emacs-lem
   (package
     (name "emacs-lem")
-    (version "20231017.1432")
+    (version "20231022.1416")
     (source
       (origin
         (method url-fetch)
@@ -69227,7 +69227,7 @@
                ".tar"))
         (sha256
           (base32
-            "0l7d5j60prkfp6fbpif5xkrncr35dbs1h5a1pq0lcm7in7gw4852"))))
+            "17whg82afxcfrpn7v6bh0yv9g8axdx0sji2w1fxp2bjw7aj3rgca"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-fedi emacs-markdown-mode))
@@ -69885,31 +69885,6 @@
       "Emacs 24 theme with a light background.")
     (description
       "Documentation at https://melpa.org/#/light-soap-theme")
-    (license #f)))
-
-(define-public emacs-ligo-mode
-  (package
-    (name "emacs-ligo-mode")
-    (version "20230927.1841")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://gitlab.com/ligolang/ligo.git")
-               (commit
-                 "de6f0bbe6ab795ff38f1c1fd7d3be5d66d53ae16")))
-        (sha256
-          (base32
-            "0rk1i2h96izivkwa0dr80i8l0f08k9x1zsivakshhp2jakbd1p42"))))
-    (build-system melpa-build-system)
-    (arguments
-      '(#:files ("tools/emacs/ligo-mode.el")))
-    (home-page
-      "https://gitlab.com/ligolang/ligo/-/tree/dev/tools/emacs")
-    (synopsis
-      "A major mode for editing LIGO source code")
-    (description
-      "Documentation at https://melpa.org/#/ligo-mode")
     (license #f)))
 
 (define-public emacs-line-reminder
@@ -87418,17 +87393,17 @@
 (define-public emacs-org-journal
   (package
     (name "emacs-org-journal")
-    (version "20231013.1147")
+    (version "20231022.829")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-journal.git")
                (commit
-                 "ac0832f02a1259c10d3691b35496a01b54f0a3b9")))
+                 "a306f76ee2b0292946a20530bd9114aefc85a263")))
         (sha256
           (base32
-            "02ax78319p8iy8qqxrlcc32a3mkmawybb1qv37m34g1f49wlx0d7"))))
+            "0bym8v8hwwhshk65hpfg7dnyzyym0g0hz6h692jpiqrp0mcvnilc"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bastibe/org-journal")
