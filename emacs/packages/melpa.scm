@@ -4629,7 +4629,7 @@
 (define-public emacs-asyncloop
   (package
     (name "emacs-asyncloop")
-    (version "20231021.1226")
+    (version "20231021.2251")
     (source
       (origin
         (method git-fetch)
@@ -6226,17 +6226,17 @@
 (define-public emacs-awk-ts-mode
   (package
     (name "emacs-awk-ts-mode")
-    (version "20231001.2221")
+    (version "20231022.437")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/awk-ts-mode.git")
                (commit
-                 "d142f0ab61da89d3bf311194f69b655b0b7855a9")))
+                 "56eed1a18a4df76fcc98d62e18bfca688a574b9a")))
         (sha256
           (base32
-            "0d6wwx47c1z7vs2ql1497041fawya1xpbgzys5n4j2vqhl07lali"))))
+            "05fnvbgfpcy8gd4zd36g014j6bdrsj6b0pwgl9nfi69sa3d3pwm2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/awk-ts-mode")
@@ -44820,21 +44820,20 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20231021.1102")
+    (version "20231022.508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "0717a12ef3a1c5b847f961a4ae944cd0198805c6")))
+                 "54077fb5dc7fed1749e349ad241e9929d8ac8d56")))
         (sha256
           (base32
-            "1jnb0l4sc9w0yh0mf1z4jz3lvpj7rpfq1m2am3ddipfj9zyipv59"))))
+            "1akzwbfw3mp5fr1l46zhlaqc3v6rr42q874mpcj9w2j1c0v87bzn"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
-    (home-page
-      "https://github.com/rnkn/fountain-mode")
+    (home-page "https://www.fountain-mode.org")
     (synopsis
       "Major mode for screenwriting in Fountain markup")
     (description
@@ -55203,20 +55202,19 @@
 (define-public emacs-helm-org
   (package
     (name "emacs-helm-org")
-    (version "20210324.1927")
+    (version "20231022.620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm-org.git")
                (commit
-                 "d67186d3a64e610c03a5f3d583488f018fb032e4")))
+                 "c80e53315ce6b096e2d0e630702df924bf00bf6a")))
         (sha256
           (base32
-            "07wsz9hbv83m3k03cxvlr2hxd2lkxx9qpphn9j6axmysi9i5bc8q"))))
+            "1nlqlaxxs5zk2ara3k2986jjfsj1zbknwx40jliqq39dky0ksblh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-helm))
-    (arguments '(#:files ("helm-org.el")))
     (home-page
       "https://github.com/emacs-helm/helm-org")
     (synopsis
@@ -113258,17 +113256,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20231018.100")
+    (version "20231022.103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "8381f01a0a24274942170e1d746794cc26989905")))
+                 "e930e89a87f15cfba3f7cc61a287a9044e2cd652")))
         (sha256
           (base32
-            "1sidy6ls1fx3hq85cw0zgvv1wbkyd7722kq3lkvygmx7hmkrcc2b"))))
+            "1b86hyq0380yb99xbl3wkln4b8210y6fhsbniy1mjvvy9yw7x9m7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
