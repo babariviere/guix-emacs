@@ -15658,17 +15658,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231016.2324")
+    (version "20231023.1033")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "a0c7c1775ab15d5d7df57a2126b6b9699049b7f0")))
+                 "66201465a962ac003f320a1df612641b2b276ab5")))
         (sha256
           (base32
-            "09m5y7n8lvfyrvhlnx3yjqlaw28lsdxljald1kqj4r0pvb1kqwk6"))))
+            "0cia8xic3a1z83mwqnjsfa3nz396zzjwpp8vb0784kk3n7964is6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -25948,17 +25948,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20230930.2212")
+    (version "20231023.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "d739ab51d58b76c1d9cc29e7a0e4abe9c30370dc")))
+                 "2861d1152959e4fe35d45bbef286f0f6dface76f")))
         (sha256
           (base32
-            "0l6w019gngrqb0scign188pyx06yvfiqanjvvl64yjgl5fryr1k2"))))
+            "0gsxlfn0nx6ram71zc026489jsm8gf5srps04nz7saixf7kpg3ga"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -33294,17 +33294,17 @@
 (define-public emacs-erk
   (package
     (name "emacs-erk")
-    (version "20230511.251")
+    (version "20231023.1400")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/positron-solutions/elisp-repo-kit.git")
                (commit
-                 "f6cca4647538c4dc659f07669938f7e795dba4ee")))
+                 "a982619ef62e403fed47136333b8762556c39a64")))
         (sha256
           (base32
-            "10827cn3gxlwxdx7a00ayxjhgmfm184v24fidmdz0z17r6sfccjs"))))
+            "0s9xnpyry4jsfppcs1851kfrd677j145sp5lvf95zfspq9ni0vhf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-auto-compile emacs-dash))
@@ -55667,17 +55667,17 @@
 (define-public emacs-helm-projectile
   (package
     (name "emacs-helm-projectile")
-    (version "20221215.613")
+    (version "20231023.1425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/helm-projectile.git")
                (commit
-                 "35a2111d00c0c0c9d8743280d3f1243bb217118a")))
+                 "e2e38825c975269a4971df25e79b2ae98929624e")))
         (sha256
           (base32
-            "0gd170h3v5i1886f7pvb5h5licy797djhjrigwfj2wa7i5q1avxv"))))
+            "1q1699qqalgd3pkdhl4bijn9zv2l2bsazjgaiyi2yzmk9ksjwiiq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm emacs-projectile))
@@ -72484,17 +72484,17 @@
 (define-public emacs-lua-mode
   (package
     (name "emacs-lua-mode")
-    (version "20230810.931")
+    (version "20231023.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/immerrr/lua-mode.git")
                (commit
-                 "7eb8eaa420c25477c830623b830fd18dc350cdfb")))
+                 "d074e4134b1beae9ed4c9b512af741ca0d852ba3")))
         (sha256
           (base32
-            "11a9spqhlrnj9y0bd655r9yj63nmq4w7cfs6kkgcz7h21dw7cx78"))))
+            "00gvrmw8pll0cl7srygh2kmbf0g44sk9asj5sm77qvhr8jz4xkkq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "init-tryout.el"))))
@@ -86280,17 +86280,17 @@
 (define-public emacs-org-change
   (package
     (name "emacs-org-change")
-    (version "20231023.152")
+    (version "20231023.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/drghirlanda/org-change.git")
                (commit
-                 "43d1d83713532c631ee72e35fd66bce295e93cc3")))
+                 "d8c6d9b1de5570a0e8700abd17377444f296ca53")))
         (sha256
           (base32
-            "1fbbn9kf8ydf9a35fkss6160114hgnvs76qpss3xrmqh40qzwi0g"))))
+            "1yvhbdqbvwid405zdw050zl6djzgcspl1jqaw4yzz95ygaijz6ky"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/drghirlanda/org-change")
@@ -104369,17 +104369,17 @@
 (define-public emacs-repl-driven-development
   (package
     (name "emacs-repl-driven-development")
-    (version "20231020.1039")
+    (version "20231023.1120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alhassy/repl-driven-development.git")
                (commit
-                 "106712f43d4cb8d891837a670dabad08a7629528")))
+                 "8877f692112459095649735ac4d023248b3905ae")))
         (sha256
           (base32
-            "0xad9xksjgiw02rw1174adgaqjpvyqx0hp61qd4r44y40rzns5kp"))))
+            "19zj743ayv322cz13kilkkl4djpzs9q22z6qhk0ipasy1kdijh57"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -114361,17 +114361,17 @@
 (define-public emacs-starhugger
   (package
     (name "emacs-starhugger")
-    (version "20230901.1922")
+    (version "20231023.1523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/daanturo/starhugger.el.git")
                (commit
-                 "32c362a31fab1deedd37d787812e399fbee0d870")))
+                 "8e1bc1167a64cc421ce3d1368a9c0e5da89bf687")))
         (sha256
           (base32
-            "1a08a7nxldxyprpq3ywydfvhaglcap7a1rh0x057zy8qaka86x05"))))
+            "0wpxicq7yh99qx6vwvjgbwwghx1bqyx972zymzhq3m89wnliqlx3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -118681,7 +118681,7 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20231014.28")
+    (version "20231021.1233")
     (source
       (origin
         (method git-fetch)
@@ -129626,17 +129626,17 @@
 (define-public emacs-yasnippet-capf
   (package
     (name "emacs-yasnippet-capf")
-    (version "20230813.1906")
+    (version "20231023.1010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elken/yasnippet-capf.git")
                (commit
-                 "40654214db7a44db3a99321447632b43a10fae57")))
+                 "b8d586fa9fdfb2045a30c643d9ff15fea13fa5d8")))
         (sha256
           (base32
-            "1kywl7jblrmixr0vwycpil5hyk4p5qlc3gxg9w25xga4jj91r663"))))
+            "0s2hkvp7vp2saf3pw2qb726lkxmimi2pjmnfwr06craq8rqvk392"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (home-page
