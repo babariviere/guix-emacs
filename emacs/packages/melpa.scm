@@ -2716,17 +2716,17 @@
 (define-public emacs-all-the-icons-nerd-fonts
   (package
     (name "emacs-all-the-icons-nerd-fonts")
-    (version "20230904.1718")
+    (version "20231022.1956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/all-the-icons-nerd-fonts.git")
                (commit
-                 "0ca1c9bfcdf9c86f4f5e5f8c31f42fa13a785ecb")))
+                 "9ac476b1a82199cfa770f214b6d53776cd276bd9")))
         (sha256
           (base32
-            "1bmc6wy48yj4q9n0fqwdkwmrayn34d200kqmh3q9zzyi8szxa6sx"))))
+            "0f76l7g1gwji3wy3gxir989b8p3lmfn9q5m5p76p0qfvi9c8gz62"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons emacs-nerd-icons))
@@ -6226,17 +6226,17 @@
 (define-public emacs-awk-ts-mode
   (package
     (name "emacs-awk-ts-mode")
-    (version "20231022.437")
+    (version "20231022.1757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/awk-ts-mode.git")
                (commit
-                 "56eed1a18a4df76fcc98d62e18bfca688a574b9a")))
+                 "a32d83a2c8714c5f2fdb8cc8cb6733a2eb1a4e87")))
         (sha256
           (base32
-            "05fnvbgfpcy8gd4zd36g014j6bdrsj6b0pwgl9nfi69sa3d3pwm2"))))
+            "1k3nyp4h9iqz6cx90g469jf2j7kvr4q8mqn2i0han2a406izk9n5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/awk-ts-mode")
@@ -17643,6 +17643,30 @@
       "Documentation at https://melpa.org/#/comware-router-mode")
     (license #f)))
 
+(define-public emacs-conan
+  (package
+    (name "emacs-conan")
+    (version "20231016.830")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/carl2/conan-elisp.git")
+               (commit
+                 "325f1c32f0ff26c9abc49441a0606a8ec8105fd4")))
+        (sha256
+          (base32
+            "1dd46hi1cva4qxxrpwgfxifqnc65v2z04lnlf6m0axd33if8zgn8"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-s emacs-f))
+    (home-page
+      "https://github.com/Carl2/conan-elisp")
+    (synopsis
+      "Generate flags for c++ using conan 2.0")
+    (description
+      "Documentation at https://melpa.org/#/conan")
+    (license #f)))
+
 (define-public emacs-concurrent
   (package
     (name "emacs-concurrent")
@@ -18376,6 +18400,30 @@
       "Documentation at https://melpa.org/#/consult-tex")
     (license #f)))
 
+(define-public emacs-consult-todo
+  (package
+    (name "emacs-consult-todo")
+    (version "20231022.2059")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/liuyinz/consult-todo.git")
+               (commit
+                 "84f3c9876a285f733d75053076a97cc30f7d8eb9")))
+        (sha256
+          (base32
+            "0v336l9dary68i910yvpk9c24b9vrc1cx615hiv9dz8zi1khz8rr"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-consult emacs-hl-todo))
+    (home-page
+      "https://github.com/liuyinz/consult-todo")
+    (synopsis "Search hl-todo keywords in consult")
+    (description
+      "Documentation at https://melpa.org/#/consult-todo")
+    (license #f)))
+
 (define-public emacs-consult-yasnippet
   (package
     (name "emacs-consult-yasnippet")
@@ -18517,17 +18565,17 @@
 (define-public emacs-cool-mode
   (package
     (name "emacs-cool-mode")
-    (version "20220612.1904")
+    (version "20231022.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/cool-mode.git")
                (commit
-                 "961e66956412a1dd63f79473a8273da8853f7179")))
+                 "0f03f851c6aaccfa4699f8818f4b77e4b4e4f576")))
         (sha256
           (base32
-            "07dbw0yvk3ijibhghzgaik3cfrv56dr8ax7dyy0kryvjairmhwjc"))))
+            "03c613q9g6x0nicx2abl8h2snr5badf1b7bzb77cw1gg2753k2w9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/nverno/cool-mode")
     (synopsis
@@ -27546,17 +27594,17 @@
 (define-public emacs-ebnf-mode
   (package
     (name "emacs-ebnf-mode")
-    (version "20220606.1846")
+    (version "20231022.1759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/ebnf-mode.git")
                (commit
-                 "89a868226e7ddb303548e82a81f76fbb0e5b21c5")))
+                 "61486b1c9d4746249640410e58087e318f801ed8")))
         (sha256
           (base32
-            "0hqlvjhbx6zz11dhnacqgi62mwwbiji95jgv2zwdl9y1zmizd23c"))))
+            "17dmi5gpbp4m4c9xbppar3gc67q6s4p4w9q4phzr1ng4xblwkcjj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/nverno/ebnf-mode")
     (synopsis "Major mode for EBNF files")
@@ -29955,17 +30003,17 @@
 (define-public emacs-elfeed-tube
   (package
     (name "emacs-elfeed-tube")
-    (version "20231021.605")
+    (version "20231022.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/elfeed-tube.git")
                (commit
-                 "1e61ba02afa7e4258e63b5243e2efebe93f28ae4")))
+                 "0291038a00c17d780aded05b1e90860a2d586546")))
         (sha256
           (base32
-            "1h5841lkcf9029q4zb6cr4z5zgn1x7n17r0jdddd00dwcf5pclrf"))))
+            "0pza83vfih4gmqmf3mvpp9nxvhd9rsvszh71r9vfmdafzwqkc31p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed emacs-aio))
     (arguments
@@ -38312,7 +38360,7 @@
 (define-public emacs-fennel-mode
   (package
     (name "emacs-fennel-mode")
-    (version "20230904.1952")
+    (version "20231022.1926")
     (source
       (origin
         (method url-fetch)
@@ -38322,7 +38370,7 @@
                ".tar"))
         (sha256
           (base32
-            "0bakzf1nrjdp991nr7pkkgqhxahp7bqvsw5h9brszqp7la96hmcb"))))
+            "07mlcyvz3m8kw83ivfr5i04p25a63z0icchwqyf7b69nqmj9whmh"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~technomancy/fennel-mode")
@@ -40696,6 +40744,29 @@
     (synopsis "Flycheck: DTrace support")
     (description
       "Documentation at https://melpa.org/#/flycheck-dtrace")
+    (license #f)))
+
+(define-public emacs-flycheck-eask
+  (package
+    (name "emacs-flycheck-eask")
+    (version "20230212.1748")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/flycheck/flycheck-eask.git")
+               (commit
+                 "1940bcdcf80d8e7ef45ecea4b4e52688845b8582")))
+        (sha256
+          (base32
+            "0lmfidszbya71s06qwrdml6hnmdn504whh8rn9ni1iiclgi20104"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-flycheck))
+    (home-page
+      "https://github.com/flycheck/flycheck-eask")
+    (synopsis "Eask support in Flycheck")
+    (description
+      "Documentation at https://melpa.org/#/flycheck-eask")
     (license #f)))
 
 (define-public emacs-flycheck-eglot
@@ -47241,17 +47312,17 @@
 (define-public emacs-git-cliff
   (package
     (name "emacs-git-cliff")
-    (version "20231016.915")
+    (version "20231020.1845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/git-cliff.el.git")
                (commit
-                 "60db3f5a9350865ec78c652ef53a1335c6534239")))
+                 "d675d2ec3f6fb10a07fc3632bb7034a74f92cf8b")))
         (sha256
           (base32
-            "0jislk9rnnx0zbx5jik9w8hqrb3i3pd3rmhvk1i7rjfps0rxf7ps"))))
+            "0c07hv3ca8pch9cxqr97m4szksk6m21ipy0a0kimqnavivcgwii5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/git-cliff.el")
@@ -64812,17 +64883,17 @@
 (define-public emacs-jq-ts-mode
   (package
     (name "emacs-jq-ts-mode")
-    (version "20231018.1047")
+    (version "20231022.1757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/jq-ts-mode.git")
                (commit
-                 "14a4df0ed089bc9d322b9846d1b87f603c241161")))
+                 "977fc1f17f26e9a007cef7cc1941756ef9a384f6")))
         (sha256
           (base32
-            "19rvid30zc561v88d45q51q1xrgs28m6s0njiph0rkfw4ffkcg5l"))))
+            "1w3df5b7dzb58m0qr81bkwkgn7kbv0fv8jczp22pp5sivgv02vza"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/jq-ts-mode")
@@ -72032,17 +72103,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231021.455")
+    (version "20231022.1655")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "2134ca09245815487f395a4c53000da1082e8823")))
+                 "912d446faf4a4de45e4a9fd00cb757acf9b8586f")))
         (sha256
           (base32
-            "0721z42hfh768b0cr57i7cr212962hx5k1fjsy9b6z19rvhr4ddy"))))
+            "156sgdzdkf7p02h41nrwws6a90cv4l2qkjm1djab5s86m890hzh2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -81435,17 +81506,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20230801.1005")
+    (version "20231022.2201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "fcfd51fbdf08469e6d1b59bc4bd2d75aa708c791")))
+                 "b8bee95c44eb5b7eb419f1f1436f5ad2bc9d0a24")))
         (sha256
           (base32
-            "190lhzqdn4681frk0ih519c3riwxc6mz16q3bisl3l7brsp1rgwj"))))
+            "13nn5w420s7x5949a9yrn8341421ss41jizn3njcfazm1n0s3n91"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -92518,17 +92589,17 @@
 (define-public emacs-ox-tufte
   (package
     (name "emacs-ox-tufte")
-    (version "20230910.2353")
+    (version "20231022.2117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ox-tufte/ox-tufte.git")
                (commit
-                 "88e0cd130c7db748855e7f083d7f623692ef8239")))
+                 "58422fb109f2b2a997f9c773b5436e7b62182e12")))
         (sha256
           (base32
-            "18b5ch69db4kavz18pg2kyf8fy0yi28176bal5drxwdffsyw7p4f"))))
+            "14i1pliifj5p0i1bgsdgph32ilj7snrh8gnhk59f1f4ngh3kw3zg"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "src")))
     (home-page
@@ -98637,17 +98708,17 @@
 (define-public emacs-prisma-ts-mode
   (package
     (name "emacs-prisma-ts-mode")
-    (version "20231007.904")
+    (version "20231022.1802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/prisma-ts-mode.git")
                (commit
-                 "b597a437a96c0f03cf2bc038794d6a98ba1bd48b")))
+                 "a7029980140ae60612ef876efa17ab81bf4b3add")))
         (sha256
           (base32
-            "1m4lv4isfd0szyy6dj75kpid6qs6zvj2jx80glndm0qqyznrkl94"))))
+            "0isym89c4432qrdzpbmg85pw97jw6lvbz9sdv1xy08c448dydg79"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/prisma-ts-mode")
@@ -105436,17 +105507,17 @@
 (define-public emacs-robe
   (package
     (name "emacs-robe")
-    (version "20231021.48")
+    (version "20231022.2321")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/robe.git")
                (commit
-                 "0095a48075f366e195d4861c3a91467bcf423c73")))
+                 "06c318b08c83f12c773032a5abf0e19ccbe04bda")))
         (sha256
           (base32
-            "1qa3w3g5ayrxh20l0948sr7yhz480qc8q1r34iv50jv8i6flsb5w"))))
+            "0zrcdlj9dja0v63wfb9qaswgrqb7w4b7cwv0zyj64xcv4dbcd5hf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-inf-ruby))
     (arguments '(#:files ("*robe.el" "lib")))
@@ -118069,17 +118140,17 @@
 (define-public emacs-test-cockpit
   (package
     (name "emacs-test-cockpit")
-    (version "20231021.2149")
+    (version "20231022.2120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/johannes-mueller/test-cockpit.el.git")
                (commit
-                 "98a15ab65d45e2053c587b2f2fde37d16fd45a21")))
+                 "78bda631a3a321766dcd0dccb5b8bcec72708f7c")))
         (sha256
           (base32
-            "16296dhqbprsbvq7ld2c806qw6ivj7p14y5djpxj0li7m8wr7v5s"))))
+            "12afqpnr10zhd6dxadjdy8vsgybz7qqz2nl5bnhw0mbxfzkrprhr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile emacs-toml))
@@ -118541,6 +118612,28 @@
       "Documentation at https://melpa.org/#/thinks")
     (license #f)))
 
+(define-public emacs-third-time
+  (package
+    (name "emacs-third-time")
+    (version "20231022.1947")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/third-time-"
+               version
+               ".tar"))
+        (sha256
+          (base32
+            "0fl5vn0pfjb75x23k1s952xyafsnkr6znf3vg5wfkyhz5db381p1"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.sr.ht/~swflint/busylight")
+    (synopsis "Third Time: A Better Way to Work")
+    (description
+      "Documentation at https://melpa.org/#/third-time")
+    (license #f)))
+
 (define-public emacs-thread-dump
   (package
     (name "emacs-thread-dump")
@@ -118942,17 +119035,17 @@
 (define-public emacs-timu-caribbean-theme
   (package
     (name "emacs-timu-caribbean-theme")
-    (version "20230911.2112")
+    (version "20231022.1816")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-caribbean-theme.git")
                (commit
-                 "ab1c4d0df4f4a8fcb4eaa78dbf9d6f6f3e834462")))
+                 "5fc2cad6c91748afa98d1df2b65b3b5329d21b03")))
         (sha256
           (base32
-            "0kyqnsdgj4wdfc3qnkjnncs6jnbjza398krbmcsqlvqg1c23ilgd"))))
+            "0hsn3q36pdgg4w2nxmszsr7d3n0wkc291i1v04nakknhw8fx6b0m"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-caribbean-theme")
@@ -118988,17 +119081,17 @@
 (define-public emacs-timu-macos-theme
   (package
     (name "emacs-timu-macos-theme")
-    (version "20230911.2059")
+    (version "20231022.1832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-macos-theme.git")
                (commit
-                 "bbd88a1460f184cc8701a361e0eeea34f71accaa")))
+                 "f1ecdf8415e4cb3d35019af5b2ad0d6bea96e610")))
         (sha256
           (base32
-            "0s25b24mbrbkfvybjzx4015z2sw159va8hyd530f7q5wny532yd9"))))
+            "0w1xh0i8q2d84f9d5gw61nn7a8xqyllm427qnnjsa5wjlhgvilfl"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-macos-theme")
@@ -119033,17 +119126,17 @@
 (define-public emacs-timu-spacegrey-theme
   (package
     (name "emacs-timu-spacegrey-theme")
-    (version "20231002.1522")
+    (version "20231010.2137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/aimebertrand/timu-spacegrey-theme.git")
                (commit
-                 "145ee85b9d65bbef32687681d65f72e227e52225")))
+                 "fbe0aacc0d1010631ba8b2848b78e26514ce60c6")))
         (sha256
           (base32
-            "1li13z0202qrjzipw9azy9yp028rrzyjkb9538cnf297caqdmqcl"))))
+            "0h8kkzgfz5hkynlynml0pgkq9j6fzzq33hl9ww8mq1gzzq6n62db"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/aimebertrand/timu-spacegrey-theme")
@@ -119275,6 +119368,27 @@
     (synopsis "A basic TMSU interface")
     (description
       "Documentation at https://melpa.org/#/tmsu")
+    (license #f)))
+
+(define-public emacs-tmux-mode
+  (package
+    (name "emacs-tmux-mode")
+    (version "20231022.1753")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nverno/tmux-mode.git")
+               (commit
+                 "afff36c9af444fb25fc123181973b0540f093a8e")))
+        (sha256
+          (base32
+            "0ym6ziriycv1nrz4xnqrdj7bv6alckkx8gxinawjjf7wwgydkbnc"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/nverno/tmux-mode")
+    (synopsis "Major mode for tmux configuration")
+    (description
+      "Documentation at https://melpa.org/#/tmux-mode")
     (license #f)))
 
 (define-public emacs-tmux-pane
@@ -124606,17 +124720,17 @@
 (define-public emacs-vimscript-ts-mode
   (package
     (name "emacs-vimscript-ts-mode")
-    (version "20231020.1008")
+    (version "20231022.1758")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/vimscript-ts-mode.git")
                (commit
-                 "84c061f4f80f0768fbe2a8e4b7fb337da83bd150")))
+                 "20aea980ef94d643100638f2528aafc4b136e20c")))
         (sha256
           (base32
-            "1w648mk17ysvcx70nawdp83df15q52qwq9nk5hyamn00ldw6wl0s"))))
+            "141mhzqv0fchcp6r6r3w8nismxa6a455d4z0ap6hcla2mxvszrwh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/vimscript-ts-mode")
