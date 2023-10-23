@@ -7096,17 +7096,17 @@
 (define-public emacs-bbdb
   (package
     (name "emacs-bbdb")
-    (version "20220706.433")
+    (version "20231023.544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.nongnu.org/git/bbdb.git")
                (commit
-                 "1b121e94871f5d931c75793257db732ba82fdddb")))
+                 "5f473f84bad43a2f586f268c5c1071f1918aa209")))
         (sha256
           (base32
-            "1mak78xg46hz5l00xqy5g8d6mrfs5z36nb0arjmpam2gvi6mzcz2"))))
+            "078wx4w58jwpaaz2hcpmk2868c8nk7azs7yxwhi81hg6lijqwmlx"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "lisp/bbdb-site.el.in")))
@@ -71597,17 +71597,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20231015.1458")
+    (version "20231023.219")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "0780e281e12742803f5aac8f2126156d4271d567")))
+                 "3819e0f74dbde83822fb1d5d26444c3a5c63f408")))
         (sha256
           (base32
-            "1vv9gsswb03hmfxw7d517nx1qncax7mdgx1dfsqp9hcg3s3nwycs"))))
+            "0w1gffzg2rjimwfwz6wrgskadjsd8cz7hnaqy6da022mskifzh1n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -73032,17 +73032,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231014.1408")
+    (version "20231023.420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "dd14e0c3c6604f97a447967f0c1ace9947a09e66")))
+                 "fbb32ee30fbfbf9dc081187aab9931cfcf55f5d5")))
         (sha256
           (base32
-            "1mfhqgk8ag6pwnim9xvw1jpqd3jndqckhf7zix2j3qjj1qhyjzqw"))))
+            "14v61q60m3s2shvyzf8h4qyip844nwmz76h2bv715qc5qs5jkv92"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -86280,17 +86280,17 @@
 (define-public emacs-org-change
   (package
     (name "emacs-org-change")
-    (version "20230505.150")
+    (version "20231023.152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/drghirlanda/org-change.git")
                (commit
-                 "45898a67701ade93f310db8e5820b8bfc4a28846")))
+                 "43d1d83713532c631ee72e35fd66bce295e93cc3")))
         (sha256
           (base32
-            "10ryk3p8nz8pqck310m1zrkam9p6wb3lf46wcgwhqsri9aa780vj"))))
+            "1fbbn9kf8ydf9a35fkss6160114hgnvs76qpss3xrmqh40qzwi0g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/drghirlanda/org-change")
@@ -109363,17 +109363,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20231020.743")
+    (version "20231023.653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "622038d8e24c542f29bccde2db84a6a6d6af19a2")))
+                 "55baf2bcb1a583d3baae1d37ad0e17b0480ffd02")))
         (sha256
           (base32
-            "0yi9dmayyr8di6kczbya37zym32cxwzcwkkac2fw5jwsm63kyzan"))))
+            "1vqr7bmairp70lrx9gm80w7qr2jxiijg5w1na36k7if4wikfg4kl"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
@@ -118615,7 +118615,7 @@
 (define-public emacs-third-time
   (package
     (name "emacs-third-time")
-    (version "20231022.1947")
+    (version "20231023.316")
     (source
       (origin
         (method url-fetch)
@@ -118625,10 +118625,10 @@
                ".tar"))
         (sha256
           (base32
-            "0fl5vn0pfjb75x23k1s952xyafsnkr6znf3vg5wfkyhz5db381p1"))))
+            "16bahiw9c15prrvhsjcqd0fwv7w9f65pv2yr0djr6cylgs8vmxrz"))))
     (build-system melpa-build-system)
     (home-page
-      "https://git.sr.ht/~swflint/busylight")
+      "https://git.sr.ht/~swflint/third-time")
     (synopsis "Third Time: A Better Way to Work")
     (description
       "Documentation at https://melpa.org/#/third-time")
@@ -122738,7 +122738,7 @@
 (define-public emacs-universal-sidecar
   (package
     (name "emacs-universal-sidecar")
-    (version "20230923.31")
+    (version "20231023.219")
     (source
       (origin
         (method url-fetch)
@@ -122748,7 +122748,7 @@
                ".tar"))
         (sha256
           (base32
-            "0dvgp0k1ffkkbkzqlm78lq8jpf5chqcsz0907kxhlhvjllhc0gqn"))))
+            "0h30k1xqhkczd4d69cygb6y46ar12l1dgw6x05wna7nsmp57raxc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (home-page
@@ -122761,7 +122761,7 @@
 (define-public emacs-universal-sidecar-elfeed-related
   (package
     (name "emacs-universal-sidecar-elfeed-related")
-    (version "20231002.22")
+    (version "20231023.219")
     (source
       (origin
         (method url-fetch)
@@ -122771,7 +122771,7 @@
                ".tar"))
         (sha256
           (base32
-            "1d0mlx06ns421snymzxrb9d2q9cc9v9dkq1fkbs3952jsm8807vi"))))
+            "19kxdandij4489bjqf2s6v30jycbcj1qws5gqxdj0qdlqx4rm396"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-universal-sidecar
@@ -122788,7 +122788,7 @@
 (define-public emacs-universal-sidecar-elfeed-score
   (package
     (name "emacs-universal-sidecar-elfeed-score")
-    (version "20230925.9")
+    (version "20231023.219")
     (source
       (origin
         (method url-fetch)
@@ -122798,7 +122798,7 @@
                ".tar"))
         (sha256
           (base32
-            "04ky3303b4zbm4w7h3rzssvasfmaanyyj9mdzihc0hafgg2i0bgl"))))
+            "1s809y1c3vmyncmlbspar8ckxhp7sq3imi64zcilhl2vqzlshljc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-universal-sidecar
@@ -122815,7 +122815,7 @@
 (define-public emacs-universal-sidecar-roam
   (package
     (name "emacs-universal-sidecar-roam")
-    (version "20231008.1742")
+    (version "20231023.219")
     (source
       (origin
         (method url-fetch)
@@ -122825,7 +122825,7 @@
                ".tar"))
         (sha256
           (base32
-            "12xs1rhvxbsiwwbzpzcm1f0xgbrhqvnk6dl1f6cvpgsvkha9ycqj"))))
+            "1hzdlb7163v47sb9009s81vnmbvzdi5a01ial417awj6bryvxli4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-universal-sidecar emacs-org-roam))
@@ -125499,17 +125499,17 @@
 (define-public emacs-w3m
   (package
     (name "emacs-w3m")
-    (version "20231003.113")
+    (version "20231023.653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "3aa5d009f57a4d416127080938c846f4234d3619")))
+                 "55baf2bcb1a583d3baae1d37ad0e17b0480ffd02")))
         (sha256
           (base32
-            "1c4i7ghap5qrgh1qc1szg374vwjqpla7zhi5dyrjn4yqz68vfv3m"))))
+            "1vqr7bmairp70lrx9gm80w7qr2jxiijg5w1na36k7if4wikfg4kl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
