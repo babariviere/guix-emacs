@@ -12276,17 +12276,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20230911.2017")
+    (version "20231024.1151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "8da666560551d6f8bd2f871c48e84b552836a023")))
+                 "311d732593d0b128a8bf69a8a70dc51b76731707")))
         (sha256
           (base32
-            "0xfzzqh7dyzk43jfxfn50r8pykaxprs1qnw290s0g22ka0mj64gi"))))
+            "0hk0cn012n4mkk1mhw6r1jz2sp16f1ddb8z4j1qy0n0bfldrgkgi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -20124,17 +20124,17 @@
 (define-public emacs-csound-mode
   (package
     (name "emacs-csound-mode")
-    (version "20230825.946")
+    (version "20231024.1442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hlolli/csound-mode.git")
                (commit
-                 "21b2841696fed1b3d8103ad58202d5604326fcc1")))
+                 "2c9107a78048f16c4e274390eb3021e974372d64")))
         (sha256
           (base32
-            "1kwn0hrcl23icq5phz5h6y9likpcnm54mkqrwcvsnzwvdz0jl5xd"))))
+            "1sfmvqmgvvff56s39jb51sp9b5sz308y99b0xp4galw51s0vm4vq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-shut-up
@@ -25948,17 +25948,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231024.615")
+    (version "20231024.1553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "8c6e7e6622482bf60f1f7dc4b30c2b94c72c2e25")))
+                 "2dc5f00b59565c7fa72b46d7d604a8c032e2d239")))
         (sha256
           (base32
-            "0z8xywxl82pyr2y32kfdmxg3rks8c4xpb02d9fz82y2vglibgnrj"))))
+            "0in1n45yq6w7zb1i2xs7q49ca675rj1dsf3cql9n7hvzp2qm3mi1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -26904,17 +26904,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20231010.2046")
+    (version "20231024.1346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "1f865701105de5bbc62d88071a05381c14026732")))
+                 "19be1c2f3792c95f04fd369cb931a52f7df9cfd5")))
         (sha256
           (base32
-            "17gb87av3zflgi9nzm2igfcgby9m9s9lay16w6j2hx6kbwzqdngf"))))
+            "0fc43n3958b5ix304zigsyz5d5i0gx35lq58lfg40qmc9lhm5hym"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -31600,17 +31600,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20231007.1902")
+    (version "20231024.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "b22bcc42c70e75e5c7cb479eb830ecebda0b8cc3")))
+                 "690d187c3cf6d02901e94a463e7665d361c30e58")))
         (sha256
           (base32
-            "16vgg0xfv1xpkkwizcim1xp3ns9dzs4cln2d2lir4lyid8hp4x2p"))))
+            "1whzr55bxnr80ylxa904f8w44z8wlqzx7jc9p1ga9hkrfnx8igk7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -39609,17 +39609,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231022.1305")
+    (version "20231024.1047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "76b421243ca6352ac1742315abadc1b00b72e992")))
+                 "92cf4f8e446fa83a86de1186356c36f212763f8d")))
         (sha256
           (base32
-            "0pxm9vbpf2svnrl6pq5pi75d93vf2djig3w2ya9mn8c01lrq6a89"))))
+            "1zh3xfdvc9kkzagw7xjpjahihi23j3bpwfy4fv6920myand4i838"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -44893,17 +44893,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20231024.420")
+    (version "20231024.1435")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "974274944832da94c4f56927b2282214fb366ca7")))
+                 "84c1d7b16cfe368e2d211b9e10ff0682c5d66189")))
         (sha256
           (base32
-            "0bmxmi3sqnc1i68l2jhanj3q23kys5qm75gsh1p3ji04p7wk68n5"))))
+            "0yz9mjm0is95nnmzysklcds7nfi764xvlgx2841zjbnr1gx537pw"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page "https://www.fountain-mode.org")
@@ -46129,17 +46129,17 @@
 (define-public emacs-gdscript-mode
   (package
     (name "emacs-gdscript-mode")
-    (version "20230527.2344")
+    (version "20231024.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/godotengine/emacs-gdscript-mode.git")
                (commit
-                 "3e2ae19f036fedc4cc1c1382cd6bb4f12b1aeb76")))
+                 "8a28276daaa23f10e986367b80dc751c5d26829e")))
         (sha256
           (base32
-            "0pj9jc0kvbyk5hpila79ipxqyq1zh1w96qyaks4i0530iqci41y8"))))
+            "1hwagkbfrrd5bgwykl6hq56jmg0264hd6iz1nljl3n06k1gm3p90"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/godotengine/emacs-gdscript-mode/")
@@ -72105,17 +72105,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231022.1655")
+    (version "20231024.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "912d446faf4a4de45e4a9fd00cb757acf9b8586f")))
+                 "413d65a2faa316b237b660af84d0f0aa4413f002")))
         (sha256
           (base32
-            "156sgdzdkf7p02h41nrwws6a90cv4l2qkjm1djab5s86m890hzh2"))))
+            "06n4s4xy7jrsmgny50fdfa1x2wys74b88wsfbqb0p1vbygk8c4y2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -78821,17 +78821,17 @@
 (define-public emacs-mugur
   (package
     (name "emacs-mugur")
-    (version "20210719.722")
+    (version "20231024.755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mihaiolteanu/mugur.git")
                (commit
-                 "267e0594790a5f34e474a5b480015f0f216a6865")))
+                 "9d55e6eac893abfc0a2622d6ac2a791ce5b23fbb")))
         (sha256
           (base32
-            "079pqjgq1gkd0mwhzdns5gw3l1xs8qxs0w59njxc8yp8p4ngzcq4"))))
+            "1571bxz6jjdpxdcmv3aisd87pwrr46z0pljql45n9lsvs01liyr3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s emacs-anaphora emacs-dash))
@@ -81508,17 +81508,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20231022.2201")
+    (version "20231024.854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "b8bee95c44eb5b7eb419f1f1436f5ad2bc9d0a24")))
+                 "1fb3271e991fb941e8cc480beff74000e3a08a3a")))
         (sha256
           (base32
-            "13nn5w420s7x5949a9yrn8341421ss41jizn3njcfazm1n0s3n91"))))
+            "0ahlri3hlkrlmm6bh094ays6qrw9yd02rghq0hgin006817r8pqz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
