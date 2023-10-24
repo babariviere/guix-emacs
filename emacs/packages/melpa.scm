@@ -25948,17 +25948,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231023.1148")
+    (version "20231024.615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "2861d1152959e4fe35d45bbef286f0f6dface76f")))
+                 "8c6e7e6622482bf60f1f7dc4b30c2b94c72c2e25")))
         (sha256
           (base32
-            "0gsxlfn0nx6ram71zc026489jsm8gf5srps04nz7saixf7kpg3ga"))))
+            "0z8xywxl82pyr2y32kfdmxg3rks8c4xpb02d9fz82y2vglibgnrj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -33294,17 +33294,17 @@
 (define-public emacs-erk
   (package
     (name "emacs-erk")
-    (version "20231023.1715")
+    (version "20231024.441")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/positron-solutions/elisp-repo-kit.git")
                (commit
-                 "c04af85acf98f41222d941bdef6457c11fba6030")))
+                 "6e5eaa8b6317d596d0721a3d7656bfb89ff2f847")))
         (sha256
           (base32
-            "0sk753pa58s519z8yzgbmsm78igmb0m4v12hhgzdy56lv12712j3"))))
+            "09gy3p94cpb2ray4jvpxf1cyjzylvxczhn7m76wx8ppfsg221say"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-auto-compile
@@ -44893,17 +44893,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20231022.1217")
+    (version "20231024.420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "a4da0239dcece4dc07ed88ed37d04e121357884d")))
+                 "974274944832da94c4f56927b2282214fb366ca7")))
         (sha256
           (base32
-            "0x52zkb03wajjx6ialyq3xg8vsn0w8p4x85gys2vw7j2cjnblx33"))))
+            "0bmxmi3sqnc1i68l2jhanj3q23kys5qm75gsh1p3ji04p7wk68n5"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page "https://www.fountain-mode.org")
@@ -88580,17 +88580,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20231020.244")
+    (version "20231023.2355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "ac2d43588aa96f0b7fe88f518d6fca4fd65b5aa0")))
+                 "ee01bcb6e84e950efc7a9ebe9a423223e9737d47")))
         (sha256
           (base32
-            "098x2vv7w7s4i9kic7q8jcnixm517247i31a2ng06jkad7q7gx5d"))))
+            "0fqrwbkylzm52bcx7g0838i5yrdzb2zyn70pkzj5p7mkb5n9l046"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -88865,17 +88865,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20231021.1453")
+    (version "20231024.28")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "b2eaf51c0082fab335475ef3e9761ec5a3858f79")))
+                 "e8518f4ad6e5adc6081386339fdd5f394b4822c9")))
         (sha256
           (base32
-            "0w359ijj3qzp180wnialrjmgxfrygp9i3jjyhwyil6ka5gnbyycj"))))
+            "0wkm7c692npay46d415110sqcpqd8xjvcwfs409a6rjxn48w03wd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -105487,17 +105487,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20231011.525")
+    (version "20231024.221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "f693bb31605d6e8a0b98f74d35e2a728e33f0af7")))
+                 "86c6e12a85db472e6660ef7fef12a4e719ef3c66")))
         (sha256
           (base32
-            "1pvmcxdv9lw6gzgx5wgpbvws6z9lwxh8vrf4vykqdym5g9wdk3hb"))))
+            "1kvl8syz700vl2dbva4k1vdzxd67sjby4w4zsl62njvbvwzvcj0r"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
