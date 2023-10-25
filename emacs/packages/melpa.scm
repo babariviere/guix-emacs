@@ -12943,17 +12943,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231024.2000")
+    (version "20231025.508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "e012c3dcc13896ba93a9ad40f81e2e43827af04b")))
+                 "95a19f09999d57d0c78d8a01795a455b6501e042")))
         (sha256
           (base32
-            "0w3pzngix2sgq2gvka8nb1qaw93n3rhga8dk4fh83wrxvj8m7rb0"))))
+            "0dmacrwnh0d05pp4cnm5f5ddpclmig50q97qisa0yxmzvg2b2vv7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -30453,17 +30453,17 @@
 (define-public emacs-elixir-ts-mode
   (package
     (name "emacs-elixir-ts-mode")
-    (version "20231007.1031")
+    (version "20231025.640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wkirschbaum/elixir-ts-mode.git")
                (commit
-                 "411ab0a8594040573a2b6bc30f35fa4eea02ba02")))
+                 "cb536ff3e70b70004687bbf583757f6929ce0238")))
         (sha256
           (base32
-            "0ws6l9pz3l1wzn71nb49prav5ffskv9c4q6mcgn8y8pkiczir1pj"))))
+            "1x55zig1jj8qiarhv6hzmam96jzafwlnsanjq3jqnl5rybr8nsxy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-heex-ts-mode))
     (home-page
@@ -33294,17 +33294,17 @@
 (define-public emacs-erk
   (package
     (name "emacs-erk")
-    (version "20231024.441")
+    (version "20231025.252")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/positron-solutions/elisp-repo-kit.git")
                (commit
-                 "6e5eaa8b6317d596d0721a3d7656bfb89ff2f847")))
+                 "f664196ad5736ec03ff04b4566a363309b8ceda4")))
         (sha256
           (base32
-            "09gy3p94cpb2ray4jvpxf1cyjzylvxczhn7m76wx8ppfsg221say"))))
+            "01hx2s9x4zz1d33br6hxc2x9wdf09fcn0rq09fmy96gq74cbjf5n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-auto-compile
@@ -39609,17 +39609,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231024.1047")
+    (version "20231025.719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "92cf4f8e446fa83a86de1186356c36f212763f8d")))
+                 "edc28e2b8d9d2c8f820d996a74ccc4a7ba68cb6a")))
         (sha256
           (base32
-            "1zh3xfdvc9kkzagw7xjpjahihi23j3bpwfy4fv6920myand4i838"))))
+            "09qm3lv8wl74iv4wr9pp7av20w85lbfs7hm7rjflkxiinli0giji"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -49737,17 +49737,17 @@
 (define-public emacs-gofmt-tag
   (package
     (name "emacs-gofmt-tag")
-    (version "20231008.2315")
+    (version "20231024.2333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/M1ndo/gofmt-tag.git")
                (commit
-                 "45295db2106140cde6099b15847de79076468405")))
+                 "93d746bda753f892c547d4c366d175c5b972fdd2")))
         (sha256
           (base32
-            "0hdkrj9g8is58l2afb7v11mj911ns6mj3yal7rlganggbb6zkk0v"))))
+            "1q0whcp1r3lrkim6dnllxdw59qlqz47rkgsmvwh9dq2jaqiid0pd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/m1ndo/gofmt-tag")
     (synopsis "Format and align go struct tags")
@@ -50486,17 +50486,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231023.1745")
+    (version "20231024.2326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "62a602030245881ddf445cef5649aef70d4d9495")))
+                 "644fc1de2f1934f2db1e448de1edae065e848b77")))
         (sha256
           (base32
-            "1m0qyy90yj59q3mpppskivh7g9k0idma8ff6snxi5yg705fs2bhc"))))
+            "1jr65afr7nk3qmc7qjb4xslaz3438j46vl4wavx8is3n41621sd3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple ChatGPT client")
@@ -86282,17 +86282,17 @@
 (define-public emacs-org-change
   (package
     (name "emacs-org-change")
-    (version "20231023.2156")
+    (version "20231025.48")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/drghirlanda/org-change.git")
                (commit
-                 "993fbe16d53f294ecbff16d7ad2599b702c3eeb8")))
+                 "0fe228a34656a26092cec1ed826127074005e4ef")))
         (sha256
           (base32
-            "11ln90psr0rzffv8q8fajfv1g77q0znjkbhrw8qsj99iz2278ifx"))))
+            "013bah0i77g40ghw09msvyj41cma9szbswxymkbn7ja8awik630g"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/drghirlanda/org-change")
