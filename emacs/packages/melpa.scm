@@ -18846,17 +18846,17 @@
 (define-public emacs-counsel
   (package
     (name "emacs-counsel")
-    (version "20230619.1623")
+    (version "20231025.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "aa18c1f4861cef2ddcf0c70b6fd7edd93ae9c627")))
+                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
         (sha256
           (base32
-            "11c8874amlgfch2m993qyn4lrj05z3ij4dk2a4wvhj93x8hr0dr8"))))
+            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-swiper))
     (arguments '(#:files ("counsel.el")))
@@ -52283,17 +52283,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20231010.819")
+    (version "20231025.1012")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "167421abf1db7dd4d297392b58b89bd72e2a9a63")))
+                 "d16c68ccdfdeaee72e033b6f899d9f00649b8830")))
         (sha256
           (base32
-            "14196d4jbfwa44z0xhfdgzpga5v6n3c1b366cf7vn1c3qcxk1wmp"))))
+            "0hd3vvhgp6sv78fa84v10a55cx4s5r4i1g1m24bp21zz0rxrjw25"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -62908,17 +62908,17 @@
 (define-public emacs-ivy
   (package
     (name "emacs-ivy")
-    (version "20230714.751")
+    (version "20231025.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "9d630d800e856a2c984c5a62a6f0ad313a9d2228")))
+                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
         (sha256
           (base32
-            "0a2z9ca2m3f3wk4al60psdxnc3lyalh8h2vv6dr5l2xx5ahhb9ja"))))
+            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -62938,17 +62938,17 @@
 (define-public emacs-ivy-avy
   (package
     (name "emacs-ivy-avy")
-    (version "20230410.1815")
+    (version "20231025.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "aa18c1f4861cef2ddcf0c70b6fd7edd93ae9c627")))
+                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
         (sha256
           (base32
-            "11c8874amlgfch2m993qyn4lrj05z3ij4dk2a4wvhj93x8hr0dr8"))))
+            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-avy))
     (arguments '(#:files ("ivy-avy.el")))
@@ -63252,17 +63252,17 @@
 (define-public emacs-ivy-hydra
   (package
     (name "emacs-ivy-hydra")
-    (version "20230410.1815")
+    (version "20231025.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "aa18c1f4861cef2ddcf0c70b6fd7edd93ae9c627")))
+                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
         (sha256
           (base32
-            "11c8874amlgfch2m993qyn4lrj05z3ij4dk2a4wvhj93x8hr0dr8"))))
+            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-hydra))
     (arguments '(#:files ("ivy-hydra.el")))
@@ -88580,17 +88580,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20231023.2355")
+    (version "20231025.830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "ee01bcb6e84e950efc7a9ebe9a423223e9737d47")))
+                 "bd2dd12a417df5403954576756d9c24273d94379")))
         (sha256
           (base32
-            "0fqrwbkylzm52bcx7g0838i5yrdzb2zyn70pkzj5p7mkb5n9l046"))))
+            "1rmf5jg1jgfhyaarfmrmha7vhzc3v45zqccn44sihrhxpp1b8www"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -105275,17 +105275,17 @@
 (define-public emacs-rime
   (package
     (name "emacs-rime")
-    (version "20230212.1425")
+    (version "20231025.1220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DogLooksGood/emacs-rime.git")
                (commit
-                 "6438abacace7d94f05fabc45b82d619677fc5fca")))
+                 "0de3250fd1005878dd7a06a8fef7324a878f17b3")))
         (sha256
           (base32
-            "0fyv92lfz7c98l79valrh9wr78b4303bhnqjgycbz33p9m2hply0"))))
+            "0yfv3pw82953l77lz1jj5pscjra1ha157pzlhhykmn3sfvn0s45r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-popup emacs-posframe))
@@ -115917,17 +115917,17 @@
 (define-public emacs-swiper
   (package
     (name "emacs-swiper")
-    (version "20230410.1815")
+    (version "20231025.1201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "aa18c1f4861cef2ddcf0c70b6fd7edd93ae9c627")))
+                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
         (sha256
           (base32
-            "11c8874amlgfch2m993qyn4lrj05z3ij4dk2a4wvhj93x8hr0dr8"))))
+            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (arguments '(#:files ("swiper.el")))
