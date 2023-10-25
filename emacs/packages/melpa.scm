@@ -12943,17 +12943,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231023.1837")
+    (version "20231024.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "ded24d8929c04e8492fb9f99c91110b0cb897328")))
+                 "e012c3dcc13896ba93a9ad40f81e2e43827af04b")))
         (sha256
           (base32
-            "0l3gbp5pq4lgmfbbipab7x9qfji6nc0xm9xcwa2q2784ywhrqyy7"))))
+            "0w3pzngix2sgq2gvka8nb1qaw93n3rhga8dk4fh83wrxvj8m7rb0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -21826,17 +21826,17 @@
 (define-public emacs-datetime
   (package
     (name "emacs-datetime")
-    (version "20231023.1828")
+    (version "20231024.1848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/datetime.git")
                (commit
-                 "d81290b8824d3901e69a70bc0ea7825af5840877")))
+                 "6a562be69f0893fc980df8923ba9cd34c564e5a2")))
         (sha256
           (base32
-            "0girlh3wdk8sgsyxpllf0ihqid22d2fh1wn6fsp0fzc3cfd86gl2"))))
+            "19xbmkrr2fa0b5dhfm7p94s8vxiba4jk7mdsa34pp25ayqgpj5ka"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-extmap))
     (arguments '(#:files (:defaults "*.extmap")))
@@ -25948,7 +25948,7 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231024.1553")
+    (version "20231024.1609")
     (source
       (origin
         (method git-fetch)
@@ -73034,17 +73034,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231023.420")
+    (version "20231024.1845")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "fbb32ee30fbfbf9dc081187aab9931cfcf55f5d5")))
+                 "51eaa9fbe2c8426d4eeed76752fe55297cc552ea")))
         (sha256
           (base32
-            "14v61q60m3s2shvyzf8h4qyip844nwmz76h2bv715qc5qs5jkv92"))))
+            "0dpg4kxfd8whxbm1pk5vcnx3lxixrm2p6szr978p7cp0plagd1wq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -110403,17 +110403,17 @@
 (define-public emacs-sis
   (package
     (name "emacs-sis")
-    (version "20230305.1006")
+    (version "20231024.1738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/laishulu/emacs-smart-input-source.git")
                (commit
-                 "fa795514cdeff7e3ab054fa8977997d99d49b1a5")))
+                 "80b2e7c3be365c7685cc4070294359341799cd47")))
         (sha256
           (base32
-            "1arix0z124apy7p3196srzl3i7kb9vyxaln949nbvq4g46p6zsjl"))))
+            "1qa0dzy8qjdyd1m0bxwx269lrvqxz7hmyl95c55rr9pj928a3v12"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-terminal-focus-reporting))
@@ -111682,17 +111682,17 @@
 (define-public emacs-smartparens
   (package
     (name "emacs-smartparens")
-    (version "20231021.1239")
+    (version "20231024.1804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Fuco1/smartparens.git")
                (commit
-                 "37f91720fe040a878600fc615bdf442f7ea316e6")))
+                 "0778a8a84064cf2bc3a9857bd0e7a4619cc1e5c3")))
         (sha256
           (base32
-            "07c2y6s3hksqcb0mdsqv7lyxxk6f2ppgdi7bjna8dx2g7yw7cqmn"))))
+            "1svi5zfrg2ygsjb247y02c9i0cqmc5lqa7sq999niriblj5plr60"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -118142,17 +118142,17 @@
 (define-public emacs-test-cockpit
   (package
     (name "emacs-test-cockpit")
-    (version "20231022.2120")
+    (version "20231024.1724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/johannes-mueller/test-cockpit.el.git")
                (commit
-                 "78bda631a3a321766dcd0dccb5b8bcec72708f7c")))
+                 "5bb054649369b04b7c8f2c97d110133ce991f00f")))
         (sha256
           (base32
-            "12afqpnr10zhd6dxadjdy8vsgybz7qqz2nl5bnhw0mbxfzkrprhr"))))
+            "0jb8qbj5738q7r0hcrgqkg293ymcbacf5jgs6gvyq04adk9f8l82"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projectile emacs-toml))
@@ -120196,17 +120196,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231019.1421")
+    (version "20231024.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "a81eff942bb2cd5bb5b6450dcf7db78c876abd1f")))
+                 "74b0d7446ef6c014097bcf15b61aa5d400c1123c")))
         (sha256
           (base32
-            "05y7qppq0ldmsmy61vc9zfnqgsijjsjv9q3gi2dsx37rm3jy9r7g"))))
+            "0a9094n3a4wwg62bzxszr4d4h9w40vkig1x87gspvgnbs5bfrws5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -120737,17 +120737,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20231016.2107")
+    (version "20231024.1919")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "474febd6c3f2d5059ed26c13277b9a3a8a5a8a82")))
+                 "95c07470b281a1eaa3ce88290748bcb2045a163a")))
         (sha256
           (base32
-            "0kzaf06aszv1gcmaszv31kxj1sz20x0ilkzgpi3sxqavcb03mad9"))))
+            "01d3kw4hl0vkqfw08nb9ldbhsd6s7shrmaxgjiahwxfkr63gvdjn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -127169,17 +127169,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20231015.30")
+    (version "20231024.2323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "14f29cfa8d185b544a481012e3bc33cbe5338dd4")))
+                 "83e902cfd9526cdefc973ce9b3f3d7415beb59f5")))
         (sha256
           (base32
-            "1z4rj4bryfs8x0wyg0bk27pxykaszkrlhjs7cgg99s9ihs963zqf"))))
+            "1yjfywf8spi23zdcdj412msgyannwinvfgdarwbmiwpj9h8ll6qh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -127194,17 +127194,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20231015.30")
+    (version "20231024.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "14f29cfa8d185b544a481012e3bc33cbe5338dd4")))
+                 "83e902cfd9526cdefc973ce9b3f3d7415beb59f5")))
         (sha256
           (base32
-            "1z4rj4bryfs8x0wyg0bk27pxykaszkrlhjs7cgg99s9ihs963zqf"))))
+            "1yjfywf8spi23zdcdj412msgyannwinvfgdarwbmiwpj9h8ll6qh"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -129628,17 +129628,17 @@
 (define-public emacs-yasnippet-capf
   (package
     (name "emacs-yasnippet-capf")
-    (version "20231023.1010")
+    (version "20231024.1604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elken/yasnippet-capf.git")
                (commit
-                 "b8d586fa9fdfb2045a30c643d9ff15fea13fa5d8")))
+                 "a0a6b1c2bb6decdad5cf9b74202f0042f494a6ab")))
         (sha256
           (base32
-            "0s2hkvp7vp2saf3pw2qb726lkxmimi2pjmnfwr06craq8rqvk392"))))
+            "0fzkdl32cblv8rc25d76hq90m40kbkkswz6m8f4fx2m8rw2ysfr8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (home-page
