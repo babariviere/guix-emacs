@@ -36511,17 +36511,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20231013.1706")
+    (version "20231026.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "db6ab405980dc350b7db411cc25e4bba1be0c092")))
+                 "8180681c4f132ff2f7ebf03f91c4b913ec7cdd74")))
         (sha256
           (base32
-            "1xgzcv6bhnw4dl5c21f54lrhpsl12g9bn18mhjknfyh2cqsaypva"))))
+            "02c4ss2wp3vz4ww6w8vadpvkx2dgdjrrxs4zajzinawssdcriqaz"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "queries" "treesit-queries")))
@@ -39609,17 +39609,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231025.719")
+    (version "20231026.905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "edc28e2b8d9d2c8f820d996a74ccc4a7ba68cb6a")))
+                 "149d00ee4cd17ab465db004910b67456db142802")))
         (sha256
           (base32
-            "09qm3lv8wl74iv4wr9pp7av20w85lbfs7hm7rjflkxiinli0giji"))))
+            "056hzf4r8bzzmmhlrgh6f0pppsr3spbrpiwb2kpkdbg1fwi9bjkf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -44893,7 +44893,7 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20231026.619")
+    (version "20231026.727")
     (source
       (origin
         (method git-fetch)
@@ -46992,17 +46992,17 @@
 (define-public emacs-ghub
   (package
     (name "emacs-ghub")
-    (version "20231012.2152")
+    (version "20231026.1306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/ghub.git")
                (commit
-                 "636a46327384780dc2e4f5ab081bf6046a29af87")))
+                 "0d7c81eee3ba0c6e029605e545173721c39947d7")))
         (sha256
           (base32
-            "0i2p12ff55wx8pkm44yhfgkggwrj67l113zla2l2sz1vdlzvjs24"))))
+            "1mz4kkrs8b3n7gra3j5gy74awbwnk91nph33r2wql7a7zpz3qizc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-treepy))
@@ -52283,17 +52283,17 @@
 (define-public emacs-haskell-mode
   (package
     (name "emacs-haskell-mode")
-    (version "20231025.1012")
+    (version "20231026.1602")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/haskell/haskell-mode.git")
                (commit
-                 "d16c68ccdfdeaee72e033b6f899d9f00649b8830")))
+                 "ef3fe51f7c207db3c55b9a3a720b3af665d2e606")))
         (sha256
           (base32
-            "0hd3vvhgp6sv78fa84v10a55cx4s5r4i1g1m24bp21zz0rxrjw25"))))
+            "15d4wkpv35bbzskiwia0jzl9m5pvs5pl70qs6np6yz7hwq4c524r"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "NEWS" "logo.svg")))
@@ -65690,17 +65690,17 @@
 (define-public emacs-julia-repl
   (package
     (name "emacs-julia-repl")
-    (version "20230529.943")
+    (version "20231026.1005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tpapp/julia-repl.git")
                (commit
-                 "9503ef7110732e444e686e815c5b2ae8228d274d")))
+                 "4947319bc948b3f80d61b0d65a719737275949b8")))
         (sha256
           (base32
-            "0kw7228qfk1gamrjh8sddpslrb74a37zxadk22v4x16lm6f1cz27"))))
+            "0vfpc4glkbl4ccz34i6fx9ny6zl9h69lw0sbv2rr526y7rr1cr7a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/tpapp/julia-repl")
@@ -67662,17 +67662,17 @@
 (define-public emacs-kotlin-ts-mode
   (package
     (name "emacs-kotlin-ts-mode")
-    (version "20231018.1342")
+    (version "20231026.958")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
                (commit
-                 "6c2568693cd80b1cf57c7950d9458bca5af371ce")))
+                 "0472c9346e30f8499c87938a323c733628a0dd26")))
         (sha256
           (base32
-            "1v51n5vb5gmx01vxqkwdwawcjp0g92316273v4qx3w3k7dr0k85h"))))
+            "1gnlrbzj1z4028mm2c6bn7bf38vbs90z88i63f428hvjvimg0pw1"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
@@ -71691,17 +71691,17 @@
 (define-public emacs-lpy
   (package
     (name "emacs-lpy")
-    (version "20221106.1310")
+    (version "20231026.1525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/lpy.git")
                (commit
-                 "fa95b11e1023704510cc7dd2897bf8bcc3027cbb")))
+                 "2c086ec162d4456b99a6095c3c335382a8304734")))
         (sha256
           (base32
-            "18kx2mfmxy8s8csnp0iaiirl2z9baicq9f2w7rxlgkxww5511v7d"))))
+            "0vrc7q7b872mm5shi6s7x5wx2d8znnmjd1adsjdxwnaqap4x98gd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-lispy))
     (home-page "https://github.com/abo-abo/lpy")
@@ -72105,17 +72105,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231024.1017")
+    (version "20231026.1259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "413d65a2faa316b237b660af84d0f0aa4413f002")))
+                 "808c4d0ab9f19bb92c56716cf59df89432b63f5d")))
         (sha256
           (base32
-            "06n4s4xy7jrsmgny50fdfa1x2wys74b88wsfbqb0p1vbygk8c4y2"))))
+            "0ridjhzndwjj8947vabq05njgnns74hi69x77axgcbv1c4nasz2y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -120196,17 +120196,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231024.1815")
+    (version "20231026.1017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "74b0d7446ef6c014097bcf15b61aa5d400c1123c")))
+                 "1625ec4971a7cd545c4292c0db1b841af8975913")))
         (sha256
           (base32
-            "0a9094n3a4wwg62bzxszr4d4h9w40vkig1x87gspvgnbs5bfrws5"))))
+            "0v7k7mbm9wl251qs4ql56lqd86w0wj4ps85y4fmkrmlbadd330pi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
