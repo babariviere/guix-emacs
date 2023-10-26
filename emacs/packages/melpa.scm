@@ -18846,17 +18846,17 @@
 (define-public emacs-counsel
   (package
     (name "emacs-counsel")
-    (version "20231025.1201")
+    (version "20231025.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
+                 "8c30f4cab5948aa8d942a3b2bbf5fb6a94d9441d")))
         (sha256
           (base32
-            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
+            "1iqj27pc2iivmwfh329v0d9g0z1y0whlnamrl7g2bi374h41m368"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-swiper))
     (arguments '(#:files ("counsel.el")))
@@ -21826,17 +21826,17 @@
 (define-public emacs-datetime
   (package
     (name "emacs-datetime")
-    (version "20231024.1848")
+    (version "20231025.1805")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doublep/datetime.git")
                (commit
-                 "6a562be69f0893fc980df8923ba9cd34c564e5a2")))
+                 "0ec8ecf25e857638ead944eeb3e7d68c6f16f2de")))
         (sha256
           (base32
-            "19xbmkrr2fa0b5dhfm7p94s8vxiba4jk7mdsa34pp25ayqgpj5ka"))))
+            "1n10qyhhyxh4g5pizrj2hlffqd0zx5ym8wsbvwk3z3s6949rjniy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-extmap))
     (arguments '(#:files (:defaults "*.extmap")))
@@ -30175,7 +30175,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20230929.17")
+    (version "20231025.2318")
     (source
       (origin
         (method url-fetch)
@@ -30185,7 +30185,7 @@
                ".tar"))
         (sha256
           (base32
-            "0hv5z9srvfvihaxfbxpz2vr3ncrvxg3m2lzw5v9yycdy17g47slw"))))
+            "09w9gk7myxvclcawl4qrkpz4sb1h4zlrp21rmn83wyf1qs6yqrh9"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -30500,17 +30500,17 @@
 (define-public emacs-ellama
   (package
     (name "emacs-ellama")
-    (version "20231019.905")
+    (version "20231025.1830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/s-kostyaev/ellama.git")
                (commit
-                 "f9e0de5af6a48659dc39914e61964231fe75ca69")))
+                 "6b0108b8d6d538b1f68a338e337855f485854712")))
         (sha256
           (base32
-            "1826m9nhyn67dsj8gmvff3nps1d4ldxrcdr3kxhdb88wmnwm7z7b"))))
+            "02vvkmjy0793qbyff9jw6fl3106lqr18bn3g5s8dcmh4pa9y22c4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-spinner))
     (home-page "http://github.com/s-kostyaev/ellama")
@@ -62908,17 +62908,17 @@
 (define-public emacs-ivy
   (package
     (name "emacs-ivy")
-    (version "20231025.1201")
+    (version "20231025.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
+                 "8c30f4cab5948aa8d942a3b2bbf5fb6a94d9441d")))
         (sha256
           (base32
-            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
+            "1iqj27pc2iivmwfh329v0d9g0z1y0whlnamrl7g2bi374h41m368"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -62938,17 +62938,17 @@
 (define-public emacs-ivy-avy
   (package
     (name "emacs-ivy-avy")
-    (version "20231025.1201")
+    (version "20231025.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
+                 "8c30f4cab5948aa8d942a3b2bbf5fb6a94d9441d")))
         (sha256
           (base32
-            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
+            "1iqj27pc2iivmwfh329v0d9g0z1y0whlnamrl7g2bi374h41m368"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-avy))
     (arguments '(#:files ("ivy-avy.el")))
@@ -63252,17 +63252,17 @@
 (define-public emacs-ivy-hydra
   (package
     (name "emacs-ivy-hydra")
-    (version "20231025.1201")
+    (version "20231025.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
+                 "8c30f4cab5948aa8d942a3b2bbf5fb6a94d9441d")))
         (sha256
           (base32
-            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
+            "1iqj27pc2iivmwfh329v0d9g0z1y0whlnamrl7g2bi374h41m368"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-hydra))
     (arguments '(#:files ("ivy-hydra.el")))
@@ -64885,17 +64885,17 @@
 (define-public emacs-jq-ts-mode
   (package
     (name "emacs-jq-ts-mode")
-    (version "20231022.1757")
+    (version "20231025.2319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/jq-ts-mode.git")
                (commit
-                 "977fc1f17f26e9a007cef7cc1941756ef9a384f6")))
+                 "b1abef71843dd99349133a75245804aee503c05d")))
         (sha256
           (base32
-            "1w3df5b7dzb58m0qr81bkwkgn7kbv0fv8jczp22pp5sivgv02vza"))))
+            "0xjmpk33rhqlw5f9qjhmyc057l8rbrrzhz460zsljx2wm11cvp6d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/jq-ts-mode")
@@ -85618,17 +85618,17 @@
 (define-public emacs-orderless
   (package
     (name "emacs-orderless")
-    (version "20230920.553")
+    (version "20231025.2044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/orderless.git")
                (commit
-                 "d6b402a89e234d0e6166247ed6025f9acc8b4d9a")))
+                 "89eb3775daa53cfb52ad03015410c23f28c72d30")))
         (sha256
           (base32
-            "00233wp3dlzxbnxbxq1ph9j93d25mnqn6iagr7rfp83b7d9s9gbb"))))
+            "0gpnfxh8kps0szd5lmpy4zvqxgzmazspgg5wfdd0c1ywszz5lczh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/oantolin/orderless")
@@ -86282,17 +86282,17 @@
 (define-public emacs-org-change
   (package
     (name "emacs-org-change")
-    (version "20231025.48")
+    (version "20231025.2340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/drghirlanda/org-change.git")
                (commit
-                 "0fe228a34656a26092cec1ed826127074005e4ef")))
+                 "c90b5fedbda08d805654d5dc05ca676be1187f23")))
         (sha256
           (base32
-            "013bah0i77g40ghw09msvyj41cma9szbswxymkbn7ja8awik630g"))))
+            "1k0wbv8f6wdszd3s35vkj9p5zyh3d124b8rzn5dschhawgbkvwyh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/drghirlanda/org-change")
@@ -87721,17 +87721,17 @@
 (define-public emacs-org-make-toc
   (package
     (name "emacs-org-make-toc")
-    (version "20230904.911")
+    (version "20231025.2326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-make-toc.git")
                (commit
-                 "469d6ea09f915de955ee322e0eb68b3f3085fef6")))
+                 "df29826107ad12fd1d5f173a9a8e070b84f21a68")))
         (sha256
           (base32
-            "0mxpkykh9lhqz4jyzqbmjx0css9axsq161x6zkqi6sl6p2f73c8d"))))
+            "1bsn8z7nc2qngjdkd7sq14f53i8pgjchka1s3l6cqxbjv9gvm0q5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -126156,17 +126156,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20230911.1817")
+    (version "20231025.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "44c6bfa3626f476750ed3c1c0d253607c1606716")))
+                 "848fce94de202541cd3fcd35e9c9d22783e9e828")))
         (sha256
           (base32
-            "14gmmsrqdhhvn7m9467phm4dr4c0jr7lfqpdmxj0rs85p2fsspmd"))))
+            "1yypnb36hr04sgwn486j18a2z5i3i5fbwnjdw6yn2v59mbgqfdfz"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
