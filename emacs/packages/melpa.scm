@@ -18565,17 +18565,17 @@
 (define-public emacs-cool-mode
   (package
     (name "emacs-cool-mode")
-    (version "20231022.1801")
+    (version "20231026.456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/cool-mode.git")
                (commit
-                 "0f03f851c6aaccfa4699f8818f4b77e4b4e4f576")))
+                 "46b6a38a99a954c5e77e90506eafec4092690692")))
         (sha256
           (base32
-            "03c613q9g6x0nicx2abl8h2snr5badf1b7bzb77cw1gg2753k2w9"))))
+            "1vf4rr97y326lq76q57i2f7j3s264gqz36dnhaav0ivrzx8zwnyl"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/nverno/cool-mode")
     (synopsis
@@ -31600,17 +31600,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20231024.1311")
+    (version "20231026.528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "690d187c3cf6d02901e94a463e7665d361c30e58")))
+                 "a96d8c3f89709273280cfe4f8835484f1c8955f3")))
         (sha256
           (base32
-            "1whzr55bxnr80ylxa904f8w44z8wlqzx7jc9p1ga9hkrfnx8igk7"))))
+            "09c90h98r7g84abjdzcm6isgya3vm3mmada9q9yi1iqyjldg3956"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -37358,17 +37358,17 @@
 (define-public emacs-exwm-firefox-evil
   (package
     (name "emacs-exwm-firefox-evil")
-    (version "20231002.1316")
+    (version "20231026.309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/walseb/exwm-firefox-evil.git")
                (commit
-                 "fe1e30029b7e44eae2a2b0bbab8719dd8a9457db")))
+                 "ec9e14eca25aea9b7c7169be23843898f46696e7")))
         (sha256
           (base32
-            "1kyyf2g0ichi9y6hza3wam91x43bz1aj6njfnlk2kz90dg5kbpiq"))))
+            "1fbxll1ylkrkk6jm4mwcdvpix23dxvfsgl2zs10lr823ndydk1b6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-exwm
@@ -44893,17 +44893,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20231024.1435")
+    (version "20231026.619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "84c1d7b16cfe368e2d211b9e10ff0682c5d66189")))
+                 "b9459cb54584fb32bdf17b8b7a991cdf3419eada")))
         (sha256
           (base32
-            "0yz9mjm0is95nnmzysklcds7nfi764xvlgx2841zjbnr1gx537pw"))))
+            "0b6wpw4sj3smqwg3gjzibdyi06fxjrjcdcdmmbsw7g2cip4k2pnd"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page "https://www.fountain-mode.org")
@@ -59311,7 +59311,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231023.2132")
+    (version "20231026.436")
     (source
       (origin
         (method url-fetch)
@@ -59321,7 +59321,7 @@
                ".tar"))
         (sha256
           (base32
-            "1hdm4ydx9269yx4z8ybyhh9q20flh298cn8vzvnw9685q9q027nx"))))
+            "17s8dj4qzsn5jwn2ij34hbmvp2pz27yklwybmss19gq36svyklyx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-plz emacs-persist))
@@ -77083,17 +77083,17 @@
 (define-public emacs-modaled
   (package
     (name "emacs-modaled")
-    (version "20231014.255")
+    (version "20231026.247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DCsunset/modaled.git")
                (commit
-                 "ace80c0bd5d37803fdd1cbcb3ddb8a5e3b0cce98")))
+                 "0a8471752f89d07b439680212dceda2e69b63457")))
         (sha256
           (base32
-            "0ksl9jz4620myzhr2bfnw30ljni3bxn1drcydqnbs3ii94ysjm3d"))))
+            "0sgxsknrq65hijrlvzd14j78vfd6wfah7qg57rcbjxw00hs9nxf3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/DCsunset/modaled")
     (synopsis
@@ -86282,17 +86282,17 @@
 (define-public emacs-org-change
   (package
     (name "emacs-org-change")
-    (version "20231025.2340")
+    (version "20231026.451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/drghirlanda/org-change.git")
                (commit
-                 "c90b5fedbda08d805654d5dc05ca676be1187f23")))
+                 "3e0d2ea371d89e70544e769a32b0e96c15b6d24c")))
         (sha256
           (base32
-            "1k0wbv8f6wdszd3s35vkj9p5zyh3d124b8rzn5dschhawgbkvwyh"))))
+            "1zcdmhggqan7j3gby7r7203gbfjs6wab0a38fj9rjmhabl2dl9x2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/drghirlanda/org-change")
@@ -100576,17 +100576,17 @@
 (define-public emacs-py-autopep8
   (package
     (name "emacs-py-autopep8")
-    (version "20230115.633")
+    (version "20231025.2256")
     (source
       (origin
         (method url-fetch)
         (uri (string-append
                "https://melpa.org/packages/py-autopep8-"
                version
-               ".el"))
+               ".tar"))
         (sha256
           (base32
-            "14vhk4km6ga24nfniwrzpax1xclq7k198q7xng37iir2hmbp6i5v"))))
+            "0zy5mqrvrlyv01k4vbscnwi1varnls6c3j8kiqjdm9q47z8rv1x7"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-py-autopep8")
@@ -109365,17 +109365,17 @@
 (define-public emacs-shimbun
   (package
     (name "emacs-shimbun")
-    (version "20231023.653")
+    (version "20231026.455")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-w3m/emacs-w3m.git")
                (commit
-                 "55baf2bcb1a583d3baae1d37ad0e17b0480ffd02")))
+                 "e3b87d61dfef3a9d44872c50db360732ba949d57")))
         (sha256
           (base32
-            "1vqr7bmairp70lrx9gm80w7qr2jxiijg5w1na36k7if4wikfg4kl"))))
+            "06rqxib501xn2xlc4pqdh06zw0wrkg70sxr2fqv7i2fpl9qxwriv"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shimbun/*.el")))
     (home-page "unspecified")
@@ -115917,17 +115917,17 @@
 (define-public emacs-swiper
   (package
     (name "emacs-swiper")
-    (version "20231025.1201")
+    (version "20231025.2311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abo-abo/swiper.git")
                (commit
-                 "c843e05525c9dc9b07402b9b89329f5177521e74")))
+                 "8c30f4cab5948aa8d942a3b2bbf5fb6a94d9441d")))
         (sha256
           (base32
-            "16h4sdd49mz1xxwmgd5pdcg80xkhba6flzb4w4a3m6m66l5s4ckr"))))
+            "1iqj27pc2iivmwfh329v0d9g0z1y0whlnamrl7g2bi374h41m368"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy))
     (arguments '(#:files ("swiper.el")))
