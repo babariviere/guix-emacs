@@ -13140,17 +13140,17 @@
 (define-public emacs-circadian
   (package
     (name "emacs-circadian")
-    (version "20221223.1734")
+    (version "20231027.744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/guidoschmidt/circadian.el.git")
                (commit
-                 "9959e4b9d2ed9920b668fc229aab1f5fa5bd8584")))
+                 "b3bb94040080ac18aab04b010752d4984feee37b")))
         (sha256
           (base32
-            "1hydxhmcchaprfmp08xr6nlksz6y97jbf4mswj69bgdfjfbf22km"))))
+            "062mci931fwaf12cyw0kidavasdkfcd415iiwizdvlb2dmr3qmsk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/GuidoSchmidt/circadian")
@@ -18380,17 +18380,17 @@
 (define-public emacs-consult-tex
   (package
     (name "emacs-consult-tex")
-    (version "20231012.1121")
+    (version "20231027.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/titus.pinta/consult-tex.git")
                (commit
-                 "81cf7d7e2ef52c01c291c4ec7215020cbce29085")))
+                 "a799f1a548e71151b5c0f625c9a532b670c07eb9")))
         (sha256
           (base32
-            "1wb8sfmx0y5xwk2yx5alqspm9ddq9mzxfwwcccw8267kqkm3gs3j"))))
+            "143ihhan50nyfqznw6b331ms5776hq187q3k2i0ha8fcqasycxic"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -73034,17 +73034,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231024.1845")
+    (version "20231027.1202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "51eaa9fbe2c8426d4eeed76752fe55297cc552ea")))
+                 "2ca552e3c4c0086f1097c2c7098888425ec6bdee")))
         (sha256
           (base32
-            "0dpg4kxfd8whxbm1pk5vcnx3lxixrm2p6szr978p7cp0plagd1wq"))))
+            "0fpifvbnddx61y88ndr3sdx69knj50hvqd5bcapa8r1r3dic64dg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73596,17 +73596,17 @@
 (define-public emacs-magit-todos
   (package
     (name "emacs-magit-todos")
-    (version "20230826.1832")
+    (version "20231027.1452")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/magit-todos.git")
                (commit
-                 "d85518d45d329cc0b465cc3b84910b7c66b3fc42")))
+                 "d0646dbbf46d75d08e3d7b4c665d7d763a468af1")))
         (sha256
           (base32
-            "1zjlf3bhz0a7r9sa5ic22vwr2w1zxbfk9z545pdd1fvp00c2kzd0"))))
+            "09bhslihr5h441nrz4ihrwj61wws06i4vapb5aizg8iymcxl7v9a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-async
@@ -78702,17 +78702,17 @@
 (define-public emacs-mu4e-overview
   (package
     (name "emacs-mu4e-overview")
-    (version "20231021.46")
+    (version "20231027.1038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mkcms/mu4e-overview.git")
                (commit
-                 "18b74e26616f7fe4d2db13d9def4b5a0fa44ddcd")))
+                 "0e711f47f9bab8bea9fe4f8e857920b879e70dcd")))
         (sha256
           (base32
-            "0ly0fcffdb73923hr1m5s1zfl9c7m9wh0khsn1zxj6bw7azjqk6i"))))
+            "0zh4pi4d74cs9p8ll7fzq8chxk84safvb7svxcss692jjsqvj89y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mkcms/mu4e-overview")
@@ -88865,17 +88865,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20231024.28")
+    (version "20231027.1224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "e8518f4ad6e5adc6081386339fdd5f394b4822c9")))
+                 "1773de623017e177e79b17ed6a5ee6f7162fd9e5")))
         (sha256
           (base32
-            "0wkm7c692npay46d415110sqcpqd8xjvcwfs409a6rjxn48w03wd"))))
+            "0c2p68nhxf8abpnp28zskpqnnp13x5vb47pdzymad4zjc4zrdf3y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -107351,17 +107351,17 @@
 (define-public emacs-scopeline
   (package
     (name "emacs-scopeline")
-    (version "20230622.829")
+    (version "20231027.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/scopeline.el.git")
                (commit
-                 "254d300aee0a22349b07fbe542fbec81547bae75")))
+                 "58d6ef20b6cf398c48571239311d812a2f926ecb")))
         (sha256
           (base32
-            "1q4x5fmx95isiq47nk7r3q0n3q9dvbl855yph0p6wy7rr999v3jb"))))
+            "0p10mpn9bbd6cccafw0h296xhavq8x46mn3292iks10v553b0li6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/meain/scopeline.el")
