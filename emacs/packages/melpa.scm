@@ -16929,17 +16929,17 @@
 (define-public emacs-company-quickhelp
   (package
     (name "emacs-company-quickhelp")
-    (version "20221212.534")
+    (version "20231026.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-quickhelp.git")
                (commit
-                 "9505fb09d064581da142d75c139d48b5cf695bd5")))
+                 "5bda859577582cc42d16fc0eaf5f7c8bedfd9e69")))
         (sha256
           (base32
-            "14sm431636k72pc9iz2kmxxrk0q0ijbwy4gnl0qxqh41p9pqm148"))))
+            "1i3qysgmyzw66hgw9w9yzvdrx9rbis88byi3aidswnxdj3lvrfgk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-pos-tip))
@@ -29389,17 +29389,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20231011.1840")
+    (version "20231026.2017")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eldev/eldev.git")
                (commit
-                 "ed9828d074f53a135c62e989b90c3320642ded5a")))
+                 "b2a9cb95f6651cc0ca9991968216ab9e45b4c90e")))
         (sha256
           (base32
-            "0b6mxz5r830gd14j4jbyifg3k8cqhdl97xxfbgplgj4xxirmpn96"))))
+            "172764dblp6slrqjz74igz5nnr47khpkps7y1l2w8ggmdjqhcr21"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -30175,7 +30175,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20231025.2318")
+    (version "20231026.2028")
     (source
       (origin
         (method url-fetch)
@@ -30185,7 +30185,7 @@
                ".tar"))
         (sha256
           (base32
-            "09w9gk7myxvclcawl4qrkpz4sb1h4zlrp21rmn83wyf1qs6yqrh9"))))
+            "0makyswqhhi6fxlxag47klicxdfkgm91b40g92cdsb9rihjq0bdx"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -31600,17 +31600,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20231026.528")
+    (version "20231026.1842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "a96d8c3f89709273280cfe4f8835484f1c8955f3")))
+                 "99cb35d7d228f57ce8e096f0c3afbf4335aa307b")))
         (sha256
           (base32
-            "09c90h98r7g84abjdzcm6isgya3vm3mmada9q9yi1iqyjldg3956"))))
+            "0r9y6c0hgd8qsv05w21g8h575b7m8hn4xi8zhmjhs1vswxgwidmx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -51183,17 +51183,17 @@
 (define-public emacs-gruber-darker-theme
   (package
     (name "emacs-gruber-darker-theme")
-    (version "20221122.1143")
+    (version "20231026.2031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rexim/gruber-darker-theme.git")
                (commit
-                 "6de7a37d7b18cf3f0ec51db799f4f2aa6e3e89ff")))
+                 "2e9f99c41fe8ef0557e9ea0f3b94ef50c68b5557")))
         (sha256
           (base32
-            "1bqjn67s0kcnf86qjxz0ayaash4rbwfwqsppqyy7p9qfc00cjix2"))))
+            "07076fwxqi04ri8hmxjpf348lc4ms2lgjdzk8009sliixhh0mdzl"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/rexim/gruber-darker-theme")
@@ -65736,17 +65736,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20231019.455")
+    (version "20231026.2200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "249dd96cd112f4a2f9a15555aeed5a315cee8cb5")))
+                 "97ca00411e16a2c1815090ca5aa05b3a36776a75")))
         (sha256
           (base32
-            "1k34gn05rqlnmrvw8x0z0lq3zjdd10w8s7hkgy11yzfsks9r8fr3"))))
+            "168x8g2m30ci2msjfk09bbczpa33h4ax57b23hcwy5czk9511w70"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74285,17 +74285,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20230925.1627")
+    (version "20231026.1813")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "4e14bc0fa05ae8c35e019721d19acdec8b51248c")))
+                 "3b078bff35e12be5ede6e12e9c05dd33519c0291")))
         (sha256
           (base32
-            "0mv54hgb8cadwdhmn20d30fairhvvrvlvvp9awfi32dw91hma8gv"))))
+            "027j04b669i4dwns5d670rg452y1jbri55h7vq8d9zzv16ghajh7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -86282,17 +86282,17 @@
 (define-public emacs-org-change
   (package
     (name "emacs-org-change")
-    (version "20231026.451")
+    (version "20231026.2216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/drghirlanda/org-change.git")
                (commit
-                 "3e0d2ea371d89e70544e769a32b0e96c15b6d24c")))
+                 "c74662112e8a857bd87c54128baba9307a393974")))
         (sha256
           (base32
-            "1zcdmhggqan7j3gby7r7203gbfjs6wab0a38fj9rjmhabl2dl9x2"))))
+            "0mpsghnzgyhxzjdsnj57sizv0dny75hm0kj61q13ckrc26bjlhg7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/drghirlanda/org-change")
@@ -116913,17 +116913,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20231018.1932")
+    (version "20231026.1454")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "a971a63ae4bca93f2faa963d6a71eed413f0e37b")))
+                 "3ff927ffc427d2debca56bc6ec2cbad37d85dd61")))
         (sha256
           (base32
-            "00r7v97ndvs7szcv7yfym3qzi859kryjj2sr2yfkrzygp336v88l"))))
+            "1a11bbsckfn341xd0yw1jaalqn7w178fwxc2l8ag766bk878fmwr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -119375,17 +119375,17 @@
 (define-public emacs-tmux-mode
   (package
     (name "emacs-tmux-mode")
-    (version "20231022.1753")
+    (version "20231026.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/tmux-mode.git")
                (commit
-                 "afff36c9af444fb25fc123181973b0540f093a8e")))
+                 "632fc7981ceaea19ab2af0e47acae926354ab453")))
         (sha256
           (base32
-            "0ym6ziriycv1nrz4xnqrdj7bv6alckkx8gxinawjjf7wwgydkbnc"))))
+            "1j4gr3wmh6wrr6lj9bjx7gg34qqywb54309vq28x6y4k9ng966zb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/nverno/tmux-mode")
     (synopsis "Major mode for tmux configuration")
@@ -120196,17 +120196,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231026.1017")
+    (version "20231026.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "1625ec4971a7cd545c4292c0db1b841af8975913")))
+                 "faa3d09d1ba849a47be8790f37a0b55006e17984")))
         (sha256
           (base32
-            "0v7k7mbm9wl251qs4ql56lqd86w0wj4ps85y4fmkrmlbadd330pi"))))
+            "17h04znlm1y8szlgqc1xxw87zzahxd2d3h6dv001902r7sfnls2m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
