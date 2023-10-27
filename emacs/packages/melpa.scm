@@ -5515,17 +5515,17 @@
 (define-public emacs-auto-highlight-symbol
   (package
     (name "emacs-auto-highlight-symbol")
-    (version "20221231.1631")
+    (version "20231027.715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elp-revive/auto-highlight-symbol.git")
                (commit
-                 "ece5e2c722efa5c9ea32a809b484afc222ebebe5")))
+                 "1c79083b9b6af70b0eba3d4c00cafafeb6154845")))
         (sha256
           (base32
-            "13v21zmcvnrc5a7ig08xs6nf2irdkah3nwgfjk4933ym8rff4sy9"))))
+            "1szb4namrl0415adji9042cxbh28kw8kxk756b3z45y18bscns14"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ht))
     (home-page
@@ -25948,17 +25948,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231024.1609")
+    (version "20231027.619")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "2dc5f00b59565c7fa72b46d7d604a8c032e2d239")))
+                 "1df1a7e49015004a7fb54f7baa8fb1767b3960ec")))
         (sha256
           (base32
-            "0in1n45yq6w7zb1i2xs7q49ca675rj1dsf3cql9n7hvzp2qm3mi1"))))
+            "0zgwdryws6817pj4jldxas9khfzc57hp0cc0vmgbr8izsqqkidhr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -31718,17 +31718,17 @@
 (define-public emacs-embrace
   (package
     (name "emacs-embrace")
-    (version "20171031.1833")
+    (version "20231027.419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cute-jumper/embrace.el.git")
                (commit
-                 "dd5da196e5bcc5e6d87e1937eca0c21da4334ef2")))
+                 "c7e748603151d7d91c237fd2d9cdf56e9f3b1ea8")))
         (sha256
           (base32
-            "1m0qyipkp5ydgcav8d0m58fbj1gilipbj7g8mg40iajr8wfqcjdc"))))
+            "1c6fbkw1hl9bhdy62g782js8i9kgjr0pr132mpga12jd4cwf8mmz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-expand-region))
     (home-page "unspecified")
@@ -44893,17 +44893,17 @@
 (define-public emacs-fountain-mode
   (package
     (name "emacs-fountain-mode")
-    (version "20231026.727")
+    (version "20231027.359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnkn/fountain-mode.git")
                (commit
-                 "b9459cb54584fb32bdf17b8b7a991cdf3419eada")))
+                 "a9c521590e720ab151ed601baf924928bce40bd7")))
         (sha256
           (base32
-            "0b6wpw4sj3smqwg3gjzibdyi06fxjrjcdcdmmbsw7g2cip4k2pnd"))))
+            "1ja13x0pqwni367y2vzjl2py4q8v0q5a2f8m5ngps6fppn6hbxjz"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "contrib/*")))
     (home-page "https://www.fountain-mode.org")
@@ -52624,17 +52624,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231019.557")
+    (version "20231024.1159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a4380caef3a9e4b1e8d11458852ab67ba9b4cf58")))
+                 "2623a9f0d8b1def6b5932e37ca247ae4ab600c52")))
         (sha256
           (base32
-            "1q6v5zf5wfvg6krj8xfc4g33ja68r8abw5ymy3cmbyvnmxj9dwyb"))))
+            "0mkbwrli1x6bmg0pb686lag2i0fr084vwwm48x7lhzp43cdmb9bs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -54566,17 +54566,17 @@
 (define-public emacs-helm-icons
   (package
     (name "emacs-helm-icons")
-    (version "20230506.432")
+    (version "20231027.616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yyoncho/helm-icons.git")
                (commit
-                 "53349000b114b2dfc874252de6605e3bafa435e2")))
+                 "0d113719ee72cb7b6bb7db29f7200d667bd86607")))
         (sha256
           (base32
-            "1znbvw0q579q51dzbjf71yyrwmkwfs8s3pk1dy1nwmgpwyw3y1ix"))))
+            "1rnw3vkxrsx8xvvi43anvmljw22av072wyda9jlxflk8agbhpdw6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-treemacs))
@@ -72105,17 +72105,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231026.1259")
+    (version "20231027.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "808c4d0ab9f19bb92c56716cf59df89432b63f5d")))
+                 "0f5723f9ae5d7fe2a82ad45e4505710b6a13be41")))
         (sha256
           (base32
-            "0ridjhzndwjj8947vabq05njgnns74hi69x77axgcbv1c4nasz2y"))))
+            "0zxsvz73whc44xgsvcfikdbb5d5f762r7ys6zpik07n7ry98qq85"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74399,17 +74399,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20231021.738")
+    (version "20231027.205")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "2a0556c5b7dbf29ce437eac6ee9b6636e1b95234")))
+                 "1cf1c1b270b4683cb35a082f168790f69c35bddc")))
         (sha256
           (base32
-            "1mkwqprh09328hqk1f40i8l09ksmphz7nyn3fzhghalgr40b1ij8"))))
+            "08wzv6i2jrfs2qwbplwc8k6n38cjfn6ha4w0d5pfjih8wblvjfqh"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -83965,17 +83965,17 @@
 (define-public emacs-ob-restclient
   (package
     (name "emacs-ob-restclient")
-    (version "20231021.1002")
+    (version "20231027.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alf/ob-restclient.el.git")
                (commit
-                 "3fb2c99c37c9972ecda143c826725819357e0de9")))
+                 "1a127eb0165f10bb9d33606aa8529051118805e7")))
         (sha256
           (base32
-            "15dcl1js20d9csmsj7xn4y0nzr6b0q1p1vfa5kl103i4l2v6cj62"))))
+            "0fk0ly8hyhlq4vyndkmv22cx0p7cknf56j6djika1c9d4hl75ff2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-restclient))
     (home-page
@@ -121287,18 +121287,19 @@
 (define-public emacs-tsort
   (package
     (name "emacs-tsort")
-    (version "20231015.2136")
+    (version "20231027.334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ehawkvu/tsort.el.git")
                (commit
-                 "844a983841798a5e9de4a442674d691fea6d09ff")))
+                 "3f9cffdbd4ac83a6a69dd4ccbb135e95950494ad")))
         (sha256
           (base32
-            "06kz39dflgzpx4afb3qwgx2gyahahhwqsdabxip99wfllhsqwa32"))))
+            "0zssgrkzsn3q2g8ayhs31c408yhsggmyrzfscklvvdhmgg5qcabj"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/ehawkvu/tsort.el")
     (synopsis "Topological sort for Emacs Lisp")
     (description
