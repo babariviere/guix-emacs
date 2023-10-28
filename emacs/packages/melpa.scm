@@ -22069,17 +22069,17 @@
 (define-public emacs-deadgrep
   (package
     (name "emacs-deadgrep")
-    (version "20230914.206")
+    (version "20231028.506")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/deadgrep.git")
                (commit
-                 "415b69394960677a8a013d32a3cf67cb9956eef6")))
+                 "960b61f4d9bcf75fa0f19c3abb447c63c7d886cf")))
         (sha256
           (base32
-            "07360pdbsj5dzwwfdbj4yfxpakmmyy17373wh79z0k954wnj5knc"))))
+            "1791i7jxpmqvs3xmyk0c12dmx1cjni6gk6z6f0s4h0fhp6g99zas"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-spinner))
@@ -51797,17 +51797,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231022.1348")
+    (version "20231028.643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "2f989adaa10f3fb50e455b32fe16cddb35afc5fc")))
+                 "6badf26c40463155d15d196ebb1ee8d69e6b384b")))
         (sha256
           (base32
-            "15xvy5v9qsi2xv1s3wskgsng4s0bfa0djnkwjc2rpv67lq5if6bb"))))
+            "0bgbb8s26ll1qmvfvkaj1cxynpxljkbr4wm4hfnvmkbby7c0356j"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -56953,17 +56953,17 @@
 (define-public emacs-helpful
   (package
     (name "emacs-helpful")
-    (version "20231007.2141")
+    (version "20231028.516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/helpful.git")
                (commit
-                 "be6f7bb6d7371619f076e55bc7449002f0725478")))
+                 "a32a5b3d959a7fccf09a71d97b3d7c888ac31c69")))
         (sha256
           (base32
-            "0kjbmg71pl00pqsx08hhri32glhq4pw44c8mydgaiba22wa31wiq"))))
+            "1shv5v0rls38znv64g8h80541qyjqk39fpr7wkq5vis8xpfvvpp5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -69941,17 +69941,17 @@
 (define-public emacs-line-reminder
   (package
     (name "emacs-line-reminder")
-    (version "20231027.2338")
+    (version "20231028.359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/line-reminder.git")
                (commit
-                 "05b91c5e62e3adf8ff4cf2b19cca92f3a98e6349")))
+                 "9e60c92b2495737d25407d79fb3a0e3d9909d5c9")))
         (sha256
           (base32
-            "08y49afbmvlasfad5pfaz00ya5jyavdr1989m6wpbx68jp3s1x50"))))
+            "128icdyrfcj9p6yg98bpgmm72qi71hb51bv042549qwgdfbx7is6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-fringe-helper emacs-ov emacs-ht))
@@ -112275,17 +112275,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20231020.614")
+    (version "20231028.558")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "cf1e6ae475c053ec18c3722b4591b863a788adce")))
+                 "dd092660aa7204060223377ba07e5d6c8b766d41")))
         (sha256
           (base32
-            "043p574fqfjbh1yqgxnihrjf2mmqra4s4wabb64y6acc9jpbpavw"))))
+            "0ssbwygc5c9jmd4vmj4y2pn9fpk2zd0m7qpkq2c6wnsl7z9g07rg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -125089,17 +125089,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20231020.542")
+    (version "20231028.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "2ec99feff875e0e8a850cb423c798da0315f1bd1")))
+                 "1f6f0afecc4576cc1cee573f82efe465042507f3")))
         (sha256
           (base32
-            "0a03xg4dg07wxmdxsq2173zn27zs63h5gvfqx9f4cysxxkzc4277"))))
+            "0yv1gs6prj4qkwav6yjfxrck8y29pbsnidfhnap2vx2rfb94q1k8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
@@ -125111,17 +125111,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20231020.542")
+    (version "20231028.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "6d64f04575d9629ecf240f73fd8e051cae7f0127")))
+                 "174e1dffc26998d8bc074f1f78068a8e612d4be3")))
         (sha256
           (base32
-            "1knkajh1zlhvc1q3ljcjp5ib1p6dx9f7crvvdx75yi2gii6q09ah"))))
+            "01h55rw65wk630l868lm3s1zkggksmvf1c0ywhnz0l4a570f859h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
