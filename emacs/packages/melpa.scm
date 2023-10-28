@@ -4629,17 +4629,17 @@
 (define-public emacs-asyncloop
   (package
     (name "emacs-asyncloop")
-    (version "20231021.2251")
+    (version "20231028.1257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meedstrom/asyncloop.git")
                (commit
-                 "8ab4e373e7bd3217cad4d4130ac765abc5b83add")))
+                 "cf595cc3e437421972a6f1a088a28a9a5060e07a")))
         (sha256
           (base32
-            "157z9yr74a0m38vi1n2zl6rzm5d1vnzg963bvhrymdpxn7s2wcrc"))))
+            "1l7r7bl6v51c0gbqqb5yvxrrvhf3dh8akvgr46v01kn3pm2ndpj8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/meedstrom/asyncloop")
@@ -17854,17 +17854,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231023.1543")
+    (version "20231028.915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "fa249d5dd7212e5ae1fa51c086d8f1197d738ef4")))
+                 "c81ef01d894eadf23f97b86711358480ae2e0f8a")))
         (sha256
           (base32
-            "12h79lc9r5rgmivr2v8ilk4fw9lw8yh0jv4hc7jksc9dgriwxx9k"))))
+            "01fvzxldhq02n0br854m3lfdha2r3nwj41mvz4z9mbhqdnf71q2i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -25948,17 +25948,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231027.619")
+    (version "20231028.1505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "1df1a7e49015004a7fb54f7baa8fb1767b3960ec")))
+                 "dc15e932d8be149c9417a00898db229d9a2f8e6f")))
         (sha256
           (base32
-            "0zgwdryws6817pj4jldxas9khfzc57hp0cc0vmgbr8izsqqkidhr"))))
+            "0j2brh0crzfd5nbwk1ss14jsjfi7b7ynqwg0ml7wc5srwlqmwiqi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -47339,17 +47339,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20231027.2058")
+    (version "20231028.959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "16ddcd7cc8eced7c242389a8ec51ce52f3b28425")))
+                 "598219a33875594858e378453aa5de61ea9f75e4")))
         (sha256
           (base32
-            "0c7zsya1v7hkbn316zkky4j9nzkrfavr9xspwrm40mv6z9vdan69"))))
+            "05q0s4i462v819ydzzyihflh1ddpln0z7v2gdqh0zvzn6ff43l24"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -73009,17 +73009,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231027.1202")
+    (version "20231028.959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "2ca552e3c4c0086f1097c2c7098888425ec6bdee")))
+                 "598219a33875594858e378453aa5de61ea9f75e4")))
         (sha256
           (base32
-            "0fpifvbnddx61y88ndr3sdx69knj50hvqd5bcapa8r1r3dic64dg"))))
+            "05q0s4i462v819ydzzyihflh1ddpln0z7v2gdqh0zvzn6ff43l24"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -74260,17 +74260,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20231026.1813")
+    (version "20231028.907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "3b078bff35e12be5ede6e12e9c05dd33519c0291")))
+                 "e4ff0838da33bf5102ee009ff28d541f0b51c9a3")))
         (sha256
           (base32
-            "027j04b669i4dwns5d670rg452y1jbri55h7vq8d9zzv16ghajh7"))))
+            "0q83ia4dh0jj17m8s66ps7nfzib8656w2ig6w2jnmv63qfzfyx3d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -74374,17 +74374,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20231027.205")
+    (version "20231028.853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "1cf1c1b270b4683cb35a082f168790f69c35bddc")))
+                 "b1a862f0165b7bafe0f874738a55be1b1720dd7d")))
         (sha256
           (base32
-            "08wzv6i2jrfs2qwbplwc8k6n38cjfn6ha4w0d5pfjih8wblvjfqh"))))
+            "0r9z4vlan1255118kdand9mr9rkdr8kmvrxr9q8bclyz8dk6fr54"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -110378,17 +110378,17 @@
 (define-public emacs-sis
   (package
     (name "emacs-sis")
-    (version "20231024.1738")
+    (version "20231028.925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/laishulu/emacs-smart-input-source.git")
                (commit
-                 "80b2e7c3be365c7685cc4070294359341799cd47")))
+                 "aac92f20e897985ffd52b61edcffaf89354b8be1")))
         (sha256
           (base32
-            "1qa0dzy8qjdyd1m0bxwx269lrvqxz7hmyl95c55rr9pj928a3v12"))))
+            "1qhh68j7kj12zrv235piavnxmqsjhqsqy251n51zihb3aiqrfd6z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-terminal-focus-reporting))
@@ -116171,17 +116171,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20230920.905")
+    (version "20231028.1433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "7a4e2f827ce76d522bb8c5202c4fc3cca7a7079a")))
+                 "56b7e341e61f06cb379e59e917758bcd1d508592")))
         (sha256
           (base32
-            "0j86jns2vh32biaalz2rikg5rjh0njzlkdgakri2zkgrsisd7wcj"))))
+            "1zxqsn7jmq74czqqb1i4shxxsb21kzkifxih10mj84a9jinivjk8"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
