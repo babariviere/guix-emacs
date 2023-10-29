@@ -9709,17 +9709,17 @@
 (define-public emacs-buffer-env
   (package
     (name "emacs-buffer-env")
-    (version "20231008.1028")
+    (version "20231028.1617")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/buffer-env.git")
                (commit
-                 "9a0878dbfed33adf171bc389116d81f326161a64")))
+                 "8ba30f5b7df3a219e792377b1d7163a536896a4b")))
         (sha256
           (base32
-            "01b32xjlqc9h3dwkpmkgfq4mdpfj72ym7pw11h14s5lxv9l11mbk"))))
+            "0ai2n443l3rp3pc40ppxsaldbsbqqx6822h4kk7zj6f84f9nf7cp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -12943,17 +12943,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231025.508")
+    (version "20231028.1759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "95a19f09999d57d0c78d8a01795a455b6501e042")))
+                 "86b3f9581ebe70a3343dc93a342237d60667f85c")))
         (sha256
           (base32
-            "0dmacrwnh0d05pp4cnm5f5ddpclmig50q97qisa0yxmzvg2b2vv7"))))
+            "0n2f1n2c7hxllj0f1a6qhm4b8lrvvy6lf902ahfciicjvczd8nx3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -29389,17 +29389,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20231027.1758")
+    (version "20231028.2106")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eldev/eldev.git")
                (commit
-                 "57dc3de185782dbe4c1e17f44623a72f9f14da2e")))
+                 "6c9de707b02250fd9fa94a8b23a3ff8a5d9060bf")))
         (sha256
           (base32
-            "0vqwmgcr87lbb1dkql4ya9i0496ixd8j1qh0mpsd6bgyk1wvqdxs"))))
+            "0s22y7dhij9fsz6sj98dwdvkbkvhz0az1jphawbz4j1rymqxscm0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -77058,17 +77058,17 @@
 (define-public emacs-modaled
   (package
     (name "emacs-modaled")
-    (version "20231026.247")
+    (version "20231028.1648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DCsunset/modaled.git")
                (commit
-                 "0a8471752f89d07b439680212dceda2e69b63457")))
+                 "22e10677eb359a2dfb1a989a1beb62ef809d51c5")))
         (sha256
           (base32
-            "0sgxsknrq65hijrlvzd14j78vfd6wfah7qg57rcbjxw00hs9nxf3"))))
+            "086p9706gb0wfai8nsi49rsgkjjrfbi4hl1qf0v9r8w3xfqpb201"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/DCsunset/modaled")
     (synopsis
@@ -120171,17 +120171,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231027.2121")
+    (version "20231028.1849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "a8829875b25c0dc8cbd7163b6617c436365897b5")))
+                 "02607dd9d925540df654c939172a698f2fa409d6")))
         (sha256
           (base32
-            "0adk7fmz2ina9wkq8qbjc5jd677khy4f0mbzj4qfa7wsrwnxh69s"))))
+            "1mbkz9nxbwam9ypq388yg9pf3ac0c6j3kbxbfj998k6s08r4yy3c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
