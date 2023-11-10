@@ -15683,7 +15683,7 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231110.6")
+    (version "20231110.52")
     (source
       (origin
         (method git-fetch)
@@ -71724,17 +71724,17 @@
 (define-public emacs-loopy
   (package
     (name "emacs-loopy")
-    (version "20231023.219")
+    (version "20231110.238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/okamsn/loopy.git")
                (commit
-                 "3819e0f74dbde83822fb1d5d26444c3a5c63f408")))
+                 "5af0db0c9235387baa1917359d8b1583732adda8")))
         (sha256
           (base32
-            "0w1gffzg2rjimwfwz6wrgskadjsd8cz7hnaqy6da022mskifzh1n"))))
+            "18abpmbc90vzp3jwz4jw07yliiipii3l0i47wdwalplfpr6cafxj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -72230,17 +72230,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231108.1221")
+    (version "20231110.716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "75ea20714635e70ca3da460d1fe558f5057eb373")))
+                 "3c1c583b549d81ab8e23ddd58b0a7f065e6b6f2a")))
         (sha256
           (base32
-            "0sfr6c866f5h8vxpjn6b32lcq434c9lvciblsvvhwgrm3lbykcb3"))))
+            "0di1hg5hxm6ybqz063yjj6b9rpjaxgqgia6k753hyp9p95c0619y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -113503,7 +113503,7 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20231107.102")
+    (version "20231110.101")
     (source
       (origin
         (method git-fetch)
@@ -116418,17 +116418,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20231028.1433")
+    (version "20231110.633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "56b7e341e61f06cb379e59e917758bcd1d508592")))
+                 "970961c63c5949599f684d7b663608e4fe5de635")))
         (sha256
           (base32
-            "1zxqsn7jmq74czqqb1i4shxxsb21kzkifxih10mj84a9jinivjk8"))))
+            "02p98bwwwxd7qsxb967y5glgggwh27vh7sc606zy1hyhsx8nkigi"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
@@ -121254,7 +121254,7 @@
 (define-public emacs-treesit-auto
   (package
     (name "emacs-treesit-auto")
-    (version "20231103.2141")
+    (version "20231110.50")
     (source
       (origin
         (method git-fetch)
