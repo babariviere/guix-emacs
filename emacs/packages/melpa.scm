@@ -18120,17 +18120,17 @@
 (define-public emacs-consult-ghq
   (package
     (name "emacs-consult-ghq")
-    (version "20210606.2047")
+    (version "20231111.417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tomoya/consult-ghq.git")
                (commit
-                 "c8619d66bd8f8728e43ed15096078b89eb4d2083")))
+                 "8a1253bc8fc3bd5e51a430f4a1670dd53dbb2cad")))
         (sha256
           (base32
-            "1zrxigf7bnx6l9lv2xvnn3ba6c9dndijw1vlnli56cv215i0r4f6"))))
+            "1firqjxynncpm0x1m9c2bxn698wyysh50yag60b3sgklnyrfm78y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-affe))
@@ -29932,7 +29932,7 @@
 (define-public emacs-elfeed-curate
   (package
     (name "emacs-elfeed-curate")
-    (version "20231110.1642")
+    (version "20231110.1646")
     (source
       (origin
         (method git-fetch)
@@ -31863,17 +31863,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20231106.2235")
+    (version "20231110.2356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "f3701eea3d0159ea9a2b44c5cce3886be73ff3df")))
+                 "e4bba7abbcebdc76d9b709846867d50f8bc98513")))
         (sha256
           (base32
-            "0dblq6d938hxw0y4920653qqp8m6p1g91qgg311idc5azzy3hdp0"))))
+            "05c63pq3wjmg3ahndsnk67mvv6hv38p5wfd2v7awbngf3la9rrcv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -64987,17 +64987,17 @@
 (define-public emacs-jq-ts-mode
   (package
     (name "emacs-jq-ts-mode")
-    (version "20231025.2319")
+    (version "20231111.208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/jq-ts-mode.git")
                (commit
-                 "b1abef71843dd99349133a75245804aee503c05d")))
+                 "0201e351ed0074a72c0987282079c775f3c8fe52")))
         (sha256
           (base32
-            "0xjmpk33rhqlw5f9qjhmyc057l8rbrrzhz460zsljx2wm11cvp6d"))))
+            "157f300w61dq9s11f71p4z0nykg8h1f64rnpy3199y6sfjhhglyl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/jq-ts-mode")
@@ -113504,17 +113504,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20231110.101")
+    (version "20231111.59")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "db107d1e9a716ffe531a0f73e7044bb8046d34c4")))
+                 "18d7cfd411d79d8bc81027a023c72bae96d77059")))
         (sha256
           (base32
-            "13iyxz88ckzydhmy4wgfrfwp8dcj0dgb1rxwr5zcpqxrl1aifpjp"))))
+            "0kj1amrxa1ldc4ss0lx1y2jl4iskg68zm20yldw059gwlg61p13q"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -121255,17 +121255,17 @@
 (define-public emacs-treesit-auto
   (package
     (name "emacs-treesit-auto")
-    (version "20231110.50")
+    (version "20231111.250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/renzmann/treesit-auto.git")
                (commit
-                 "090a74deeff29530dbc0837ec3151dac8aa497e7")))
+                 "e3beb757ce42de47b063023d08ebdf49613b56bd")))
         (sha256
           (base32
-            "0gswbpdnbyjp9jb6mgxsws11dp7nxi02w3f4bqc6d2z4zc7fd16d"))))
+            "1r7bag4iyvsi8lqnwyacsk1fwclwkazwr9yz1a0kjcw7fqj9ysmd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/renzmann/treesit-auto.git")
