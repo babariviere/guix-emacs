@@ -29932,17 +29932,17 @@
 (define-public emacs-elfeed-curate
   (package
     (name "emacs-elfeed-curate")
-    (version "20231001.1926")
+    (version "20231110.1642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnadler/elfeed-curate.git")
                (commit
-                 "b3d424340d62f1d87b875da196a71ebef52d6114")))
+                 "8d3628c81fc7dd9fefb9c5beca9fe4eab3575238")))
         (sha256
           (base32
-            "0hqmsm5dxgs16inyjqp9g8a8xgfflx5bsl3salwb00839fg5gnmc"))))
+            "16577gvlxs3dw8i02jgghlnnvq5r8b9d0b833j0d1fy67wj4dj1h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed))
     (home-page
@@ -93034,17 +93034,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20231103.1810")
+    (version "20231110.1025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "5eba825d657b490c320b2ea2c302b1fa0c999610")))
+                 "5f2ae2d7745306c761954008336028d100834821")))
         (sha256
           (base32
-            "1v12l8mbsrgkq5rmgzypkiabhfrd5cq6nrnmsairnpw8rrz4w739"))))
+            "016cfyzywbywrv9xcflkc1kwil2w6x31il62nprcdd32k2nrg9sn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -102373,17 +102373,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231109.1607")
+    (version "20231110.1508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "51535efa5202c422eebaff01652cea9b83bfb200")))
+                 "24d59b1546d963c2b92f67a8efde951db90182da")))
         (sha256
           (base32
-            "0mbwr48jkgvhqv7hx4gsyz08gshwln6w3b79ls9p47yz1nc8a082"))))
+            "10s29phk21scdgyyl8ya7l23xr07gm5li7kyni25hh91q6fkldaa"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -110579,17 +110579,17 @@
 (define-public emacs-sis
   (package
     (name "emacs-sis")
-    (version "20231028.925")
+    (version "20231110.1642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/laishulu/emacs-smart-input-source.git")
                (commit
-                 "aac92f20e897985ffd52b61edcffaf89354b8be1")))
+                 "24bb3bca50c67855eba077aeeb3af86c18569aae")))
         (sha256
           (base32
-            "1qhh68j7kj12zrv235piavnxmqsjhqsqy251n51zihb3aiqrfd6z"))))
+            "1gsqqcxmcx6v3ljwr7fj95ibxn8g798ycm4bi4v9n2ywqsn0kphk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-terminal-focus-reporting))
@@ -124371,17 +124371,17 @@
 (define-public emacs-verb
   (package
     (name "emacs-verb")
-    (version "20230825.2151")
+    (version "20231110.1915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/federicotdn/verb.git")
                (commit
-                 "e1e551f6340d58e7782f2c1df7b397229a1c4fe3")))
+                 "afe54cb2ddfc5bbe7923047869001fb4b2b9e7d7")))
         (sha256
           (base32
-            "0d22h72mnngi55v1ksa22gwxbyw8flwi6x8wx1c5hfvl59ww8nsl"))))
+            "070z32s3a7hgcslwardlv3h7kxn77ikirbjmrpdv3i58cg4zy81s"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/federicotdn/verb")
     (synopsis "Organize and send HTTP requests")
@@ -124592,17 +124592,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231110.927")
+    (version "20231110.1937")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "0492a686375cec2fab961ecd09f0eecf233810a7")))
+                 "5851a8d3ae75523e5e2fd0d21df52e74aaa80a91")))
         (sha256
           (base32
-            "0fxr95780afcqw9fcc1r4yb3d5d02imqjv762iyqv7iszm61hacs"))))
+            "0gi6s5xfz3lx5mvxjb8y10m7fhdr6gnsqx5gk2hwxpv4qvkj70jn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
