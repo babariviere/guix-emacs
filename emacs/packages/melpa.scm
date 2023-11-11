@@ -12139,17 +12139,17 @@
 (define-public emacs-champagne
   (package
     (name "emacs-champagne")
-    (version "20230511.1540")
+    (version "20231111.358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/positron-solutions/champagne.git")
                (commit
-                 "069452fa162d6aefc693c8d0546a84d967218289")))
+                 "a99e1584207bc03a0cb776f715bd47de1d651010")))
         (sha256
           (base32
-            "1qby7d95rl1vrkvq5y1i2bmy1bijv9pxm4whfwnhz9fkb3s88r9f"))))
+            "09ms3yx7h2ynqyf9mdjp90asahncq7k1mvnbkvj1g9f1l59zk6ns"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-posframe))
     (home-page
@@ -18120,20 +18120,19 @@
 (define-public emacs-consult-ghq
   (package
     (name "emacs-consult-ghq")
-    (version "20231111.417")
+    (version "20231111.1303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tomoya/consult-ghq.git")
                (commit
-                 "8a1253bc8fc3bd5e51a430f4a1670dd53dbb2cad")))
+                 "65a99980fb313d473376542cb87464a8a44ff25e")))
         (sha256
           (base32
-            "1firqjxynncpm0x1m9c2bxn698wyysh50yag60b3sgklnyrfm78y"))))
+            "1zvbz7xpgsg8y9ak8cvqhj415ym0i5sxv6b2cigvsb8j6kmp9cch"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-consult emacs-affe))
+    (propagated-inputs (list emacs-consult))
     (home-page
       "https://github.com/tomoya/consult-ghq")
     (synopsis "Ghq interface using consult")
@@ -18731,17 +18730,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231108.1746")
+    (version "20231111.1008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "42efcfd28f6286110cc2ba0d90ffd67a81e0667b")))
+                 "4107f80581fbdce2fed98371df05f6586a27a0c5")))
         (sha256
           (base32
-            "0ns0xli4l53vxmw8bshnqqi0zm85nld6p2vw30psfpgaz70j2zqy"))))
+            "13h2ap6wi79q4vkk42077qs13lvasgkavk9rb5ik6rjxvaxhp5r6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -23845,7 +23844,7 @@
 (define-public emacs-dired-duplicates
   (package
     (name "emacs-dired-duplicates")
-    (version "20231109.1353")
+    (version "20231110.1214")
     (source
       (origin
         (method url-fetch)
@@ -23855,7 +23854,7 @@
                ".tar"))
         (sha256
           (base32
-            "1abn7dlls04x8jkzad71zcz83bw2ndkqg1p7qqm89j2z0knfi55l"))))
+            "0h5ya4h2zb106ry4kaj0s3n30bgr3yyglwd419g04cfy88dx4h5l"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/hjudt/dired-duplicates")
@@ -64710,17 +64709,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231104.1427")
+    (version "20231111.850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "6f6108896744d1da4887b08e4fe4fff403ac10ac")))
+                 "25279e36701ad0bea1331ccfa009c07fda2f85d0")))
         (sha256
           (base32
-            "0jf9p75r13p28n1kv9w85kk9n3nfp4d8p34y76n3rqhh3sib2asg"))))
+            "0z05znl1cb26j67h7g0wlfazn9sr7p5j59mwdayy3l9157ic6b4i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -72231,17 +72230,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231110.716")
+    (version "20231111.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "3c1c583b549d81ab8e23ddd58b0a7f065e6b6f2a")))
+                 "4c93d3c87174e6fdbe1b760f3f27aa71ecdc1d4e")))
         (sha256
           (base32
-            "0di1hg5hxm6ybqz063yjj6b9rpjaxgqgia6k753hyp9p95c0619y"))))
+            "0kw1bb1vzchaw675wb6ppvv4ndznlz176gkwgqfp57zjkg3hpdcj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84572,7 +84571,7 @@
 (define-public emacs-oblivion-theme
   (package
     (name "emacs-oblivion-theme")
-    (version "20230415.551")
+    (version "20231111.1100")
     (source
       (origin
         (method url-fetch)
@@ -84582,10 +84581,10 @@
                ".tar"))
         (sha256
           (base32
-            "02fb2cick0c0mlxp7jhzzx990xji1l7kgbskbcqld0vd26mzy7z6"))))
+            "1aq09fgdfp0drpmkd0f7yj5zrawrjpkq1wfnwbdb6r14cskjx1k6"))))
     (build-system melpa-build-system)
     (home-page
-      "https://codeberg.org/ideasman42/emacs-oblivion-theme")
+      "https://codeberg.org/ideasman42/emacs-theme-oblivion")
     (synopsis "A port of GEdit oblivion theme")
     (description
       "Documentation at https://melpa.org/#/oblivion-theme")
@@ -100528,17 +100527,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20230910.1438")
+    (version "20231111.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "67fd542d9b633d729bdc46fca50a8d0bb6ec6ffb")))
+                 "518a5362870b6ef01d2d4a158bd38c7280687256")))
         (sha256
           (base32
-            "06r3i7j090pqgxx40ssix34zbjyzl8mpilwakamw6jlzcdhl4lg9"))))
+            "1m7gvizfmvf1f6s4x72fszja90zq7sslmywgihzs7585107wy8s3"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -110916,17 +110915,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20231004.1552")
+    (version "20231111.1312")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "0cc2e736112a0bc2a048ef6efd11dd67e3fbf7ad")))
+                 "875f14f593da850c3641b22b688fec2f24c511c2")))
         (sha256
           (base32
-            "0iq9r4007rrnabj290y79i926x2m4j20j6b0x701pkywz926sn02"))))
+            "0vadc0v51hqdva9y4jp7ylscl73ppw42bhik5zhqz6992kk23ki1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -116419,17 +116418,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20231110.633")
+    (version "20231111.809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "970961c63c5949599f684d7b663608e4fe5de635")))
+                 "48cc227507c3d079a2ceaf6939406ab158b534eb")))
         (sha256
           (base32
-            "02p98bwwwxd7qsxb967y5glgggwh27vh7sc606zy1hyhsx8nkigi"))))
+            "06m2dgfm61iprikv2j0nz63x84l15mzrs0qxn0j3p6flr7aq21n8"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
