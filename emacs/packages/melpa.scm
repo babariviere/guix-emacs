@@ -3811,17 +3811,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20231105.2008")
+    (version "20231112.32")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "314af56e8dc1eb9f71a70e6c1858e6f6021cf708")))
+                 "ddea9bea708ce029cea6126b5be8e9f8979c58b3")))
         (sha256
           (base32
-            "107pgklrdr37yhqvfhlsqrxalc0i8ais0nqrj1nwxwj55csvrrx7"))))
+            "05lg9qych2x31cw8clfngrhzqgs858kcawnk07pyp45563pm0zjl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/radian-software/apheleia")
@@ -12277,17 +12277,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231108.1115")
+    (version "20231112.445")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "58bb4d8eb9218be4925201a39596387d160f4593")))
+                 "bca784daa620767b5e57a5020289cb547c40f8b3")))
         (sha256
           (base32
-            "1mqwc2wkz2ax4pzi76vqq59v4qjwp221sw4nw91nr6zbk5ws1780"))))
+            "1gzzfsw0bdyqbq6fgfsl0vwy0z639618sq74kdvk0hnssrbx1f01"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -12966,17 +12966,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231108.2054")
+    (version "20231112.518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "bf9dceca17e912605e2d8327c44ed241e2a556e2")))
+                 "a35170bfbfec3eee80163ac5e10c0cad882b6291")))
         (sha256
           (base32
-            "1wca624gdnrqlkadlqafj0xibma8xgsh9qqpzynr6b8q2vmff98j"))))
+            "04ysjphsprxpgz87mgrhq1mnp4xj3hzdlggj5zisbrl9rsscjpra"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -21219,17 +21219,17 @@
 (define-public emacs-dall-e-shell
   (package
     (name "emacs-dall-e-shell")
-    (version "20231109.913")
+    (version "20231112.449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "58bb4d8eb9218be4925201a39596387d160f4593")))
+                 "bca784daa620767b5e57a5020289cb547c40f8b3")))
         (sha256
           (base32
-            "1mqwc2wkz2ax4pzi76vqq59v4qjwp221sw4nw91nr6zbk5ws1780"))))
+            "1gzzfsw0bdyqbq6fgfsl0vwy0z639618sq74kdvk0hnssrbx1f01"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("dall-e-shell.el")))
@@ -30272,7 +30272,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20231026.2028")
+    (version "20231112.552")
     (source
       (origin
         (method url-fetch)
@@ -30282,7 +30282,7 @@
                ".tar"))
         (sha256
           (base32
-            "0makyswqhhi6fxlxag47klicxdfkgm91b40g92cdsb9rihjq0bdx"))))
+            "1i0g48yl1d93jxw45wjkzpawsb9sf2n44759k5sgxbldyqz5i7lx"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -31675,17 +31675,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20231105.133")
+    (version "20231112.27")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "8c57c361d686d352f22bd570fee4976f6ab42bcc")))
+                 "b6cdce906e1def10e395354d751e2045c162c7ed")))
         (sha256
           (base32
-            "0cnv6lzbrl8pa8p4v3llm1alas5p1zs32nndsi626l2aqbjyfx8z"))))
+            "10rkh3sx398gdkly4dnfvyhdgia4jz9zj2dn1wmf8jaw8hyia9cs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -38345,7 +38345,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20231016.1415")
+    (version "20231111.1848")
     (source
       (origin
         (method url-fetch)
@@ -38355,8 +38355,9 @@
                ".tar"))
         (sha256
           (base32
-            "00if7bbbs7dwqjynwxa8f4dg6978w8mjkzqyb0zzfg415bqakg5p"))))
+            "0fa8z5jhnl4b4glsqf2mdvkymdzh081rl4l7ylv8iqbpd0v4y74p"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-markdown-mode))
     (home-page
       "https://codeberg.org/martianh/fedi.el")
     (synopsis
@@ -46319,17 +46320,17 @@
 (define-public emacs-geiser
   (package
     (name "emacs-geiser")
-    (version "20231001.1932")
+    (version "20231111.1149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/emacs-geiser/geiser.git")
                (commit
-                 "172376d5cea32925d87f3f7b745c125038135e69")))
+                 "49d12a14482ce9a193c049a5ccdd2fed90b0bdbe")))
         (sha256
           (base32
-            "1yy7xvwkp45ivqa957wsjm82s89xinzz6nkdy4fd9d6d9279al3w"))))
+            "05kk8pa8dgm2bv9k2rfxi0m1kdpzz40csn7jgl5a38w1l1yjcffl"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -66392,17 +66393,17 @@
 (define-public emacs-kanagawa-theme
   (package
     (name "emacs-kanagawa-theme")
-    (version "20231023.114")
+    (version "20231112.414")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Meritamen/kanagawa-theme.git")
                (commit
-                 "b3f44012c97a16f29bc731782adfdb4cfd792b1c")))
+                 "692cc627ccdd0595de3bbc67e313a0363002e444")))
         (sha256
           (base32
-            "0c6zsjgfxji1nnms6pgy1w24fzjhnii2xldkyw4rh5vrhcb9nf93"))))
+            "0abckxxifh5aw55wk7ykfxi6cm4rd6ya0m8pql9591lyxfi5whxw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -83034,17 +83035,17 @@
 (define-public emacs-ob-chatgpt-shell
   (package
     (name "emacs-ob-chatgpt-shell")
-    (version "20231109.914")
+    (version "20231111.2324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "58bb4d8eb9218be4925201a39596387d160f4593")))
+                 "bca784daa620767b5e57a5020289cb547c40f8b3")))
         (sha256
           (base32
-            "1mqwc2wkz2ax4pzi76vqq59v4qjwp221sw4nw91nr6zbk5ws1780"))))
+            "1gzzfsw0bdyqbq6fgfsl0vwy0z639618sq74kdvk0hnssrbx1f01"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chatgpt-shell))
     (arguments '(#:files ("ob-chatgpt-shell.el")))
@@ -90020,17 +90021,17 @@
 (define-public emacs-org-timeblock
   (package
     (name "emacs-org-timeblock")
-    (version "20231109.843")
+    (version "20231111.1532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ichernyshovvv/org-timeblock.git")
                (commit
-                 "7ac198c48646f864f18aef1c7e55c15ab8d8b679")))
+                 "f840da6c6722cecc16e8d24a0c500be89f830fd4")))
         (sha256
           (base32
-            "0m6gzjzv4criydhsz2s3q1kqc3bs11zg5svgjaksb7piks9368ds"))))
+            "10m68l6ydfba6l358fqkd9cf6fjw5wdfkqi3b9xcl09312z1lnmn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-org-ql emacs-persist))
@@ -97839,17 +97840,17 @@
 (define-public emacs-pophint
   (package
     (name "emacs-pophint")
-    (version "20200420.1429")
+    (version "20231112.658")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/aki2o/emacs-pophint.git")
                (commit
-                 "5e13da4578ae7ba00e6f7bae31eb546d713cc19d")))
+                 "e17fb22d34f904b4473f6bad0d445e3ca1521669")))
         (sha256
           (base32
-            "01bwfswzzrjxrjaqysaqnav7h3swwyigxw7nj0cgrm3w8cp1y2a8"))))
+            "1k18qc7s75bfv5z3mrs5snsjh16kcz1r5kxrw7p5rbfk002bgqw7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-log4e emacs-yaxception))
@@ -100527,7 +100528,7 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20231111.1403")
+    (version "20231111.1538")
     (source
       (origin
         (method git-fetch)
@@ -103958,17 +103959,17 @@
 (define-public emacs-redis
   (package
     (name "emacs-redis")
-    (version "20220429.1758")
+    (version "20231111.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-pe/redis.el.git")
                (commit
-                 "a6ad30d6a43b7be083c13f8725b45571d623001a")))
+                 "84382456beae70677aed2f9558a0b446f8ccc17a")))
         (sha256
           (base32
-            "048jvvxb6cskhs95n2ngl4cfgf8hbqidvbi1xsyb0gyzvvqbrhj1"))))
+            "0zrjfikpnj6pxaj348wnknv9dnzhzqwsi8b26dbsln5zcwl131jz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-pe/redis.el")
@@ -109219,17 +109220,17 @@
 (define-public emacs-shell-maker
   (package
     (name "emacs-shell-maker")
-    (version "20230709.2036")
+    (version "20231112.442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "a4efa0990a1423bbd61880e298d981f71d516a6c")))
+                 "bca784daa620767b5e57a5020289cb547c40f8b3")))
         (sha256
           (base32
-            "1qxrn0c8fcs5zr702hz2i8584268q2dlhwzizyykrl2ikrfx6afs"))))
+            "1gzzfsw0bdyqbq6fgfsl0vwy0z639618sq74kdvk0hnssrbx1f01"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shell-maker.el")))
     (home-page
