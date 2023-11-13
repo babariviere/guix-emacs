@@ -12277,17 +12277,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231112.445")
+    (version "20231113.356")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "bca784daa620767b5e57a5020289cb547c40f8b3")))
+                 "50984ba1e833be89c41b9779e8dca5d04cb16a29")))
         (sha256
           (base32
-            "1gzzfsw0bdyqbq6fgfsl0vwy0z639618sq74kdvk0hnssrbx1f01"))))
+            "1fvcd3gyipxq9x3yfl5q6i3yx2fq5vwqf6wx4c200awqc1crs89l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -21344,17 +21344,17 @@
 (define-public emacs-dap-mode
   (package
     (name "emacs-dap-mode")
-    (version "20231110.659")
+    (version "20231113.706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/dap-mode.git")
                (commit
-                 "f6706fa917aecdd1ebf71ee217724622cc6a97e4")))
+                 "755845ae053bbfdd3f7b3dca13efa4be480370b5")))
         (sha256
           (base32
-            "0jjnhl5hrpvdd4qb3jz6pdjgrp9qjxbm5dbgdhi6bkl2jhxy93fv"))))
+            "0rj0y85gkn50cly77dmy8g1z16czi1vg6qc9sh75x1vl7s1wr615"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -27001,17 +27001,17 @@
 (define-public emacs-dwim-shell-command
   (package
     (name "emacs-dwim-shell-command")
-    (version "20231109.856")
+    (version "20231113.759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/dwim-shell-command.git")
                (commit
-                 "72baa483a13e6e4cf54c1078b254aa6e01ff792b")))
+                 "e4a139fe181ed1b576302fb36f3761fbf9914580")))
         (sha256
           (base32
-            "1xcd57mh7f4hzph7jvcww4w2pfnvc77w02zg777irwjj9sndq7gj"))))
+            "03rincnyz895d0g49gifbjn8b7gr5b37c8fbpk7anrrp29gfr6n1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/dwim-shell-command")
@@ -27440,17 +27440,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231103.840")
+    (version "20231113.608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "2f8ad56c8d9b3e6226b6641de1f8b61571225950")))
+                 "fdc97fcb6817add8a80b3b8f3e2c8c402006e453")))
         (sha256
           (base32
-            "01dbyplh6gwkk85amrx916h1lxjdbnvps7wqai3ny9wfixh7w0q8"))))
+            "0lbb4kkfi1ya4fw326yaw1yw7y5s7zaz8mrfh6zf6qgd31im2w73"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -27712,17 +27712,17 @@
 (define-public emacs-ebuku
   (package
     (name "emacs-ebuku")
-    (version "20221122.427")
+    (version "20231113.748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/flexibeast/ebuku.git")
                (commit
-                 "0c6cf404a49bd68800221446df186fffa0139325")))
+                 "c854d128cba8576fe9693c19109b5deafb573e99")))
         (sha256
           (base32
-            "09fkzmcvzdbdjaa167wiybj0kir7y12pcq2varjywshvq2l7niz4"))))
+            "0zfgns9q8bqiwjckfqcywzv00j3984r5kni5xp5rz3wxx8pgqvkv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/flexibeast/ebuku")
     (synopsis
@@ -50608,17 +50608,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231108.2129")
+    (version "20231113.211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "0109d0d1c067aee8fc3228f1f34d766043258cc3")))
+                 "17a58d38e7299f254d02c29bbcc9211146394758")))
         (sha256
           (base32
-            "15lwqgydkzqc4zp9dfyiqlphm14pr5f588gwi8pxw36dmpgik927"))))
+            "1cy1kkbg477dnf8lz137h7bc7hvm3apvxdq3ycqifwwhfks4cyk4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -120487,7 +120487,7 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231111.1708")
+    (version "20231112.923")
     (source
       (origin
         (method git-fetch)
