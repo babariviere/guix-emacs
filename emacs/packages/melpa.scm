@@ -4630,18 +4630,19 @@
 (define-public emacs-asyncloop
   (package
     (name "emacs-asyncloop")
-    (version "20231110.1334")
+    (version "20231113.1119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meedstrom/asyncloop.git")
                (commit
-                 "10e38a1b603ee0dfee69c25e7f10a4b1b66f3a8d")))
+                 "ed45a106afc865b35c4be0190aa4852bba4768a1")))
         (sha256
           (base32
-            "0155yg9i3q6zda061zvsq42nbwyvq7dkfzfw7aa89jp4jyq9c2nx"))))
+            "1dabm557ssfjwgw3a0r27jx8f9zjjwdbc8ain06rg0c32rccl5p5"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-named-timer))
     (home-page
       "https://github.com/meedstrom/asyncloop")
     (synopsis "Non-blocking series of functions")
@@ -27440,17 +27441,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231113.608")
+    (version "20231113.908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "fdc97fcb6817add8a80b3b8f3e2c8c402006e453")))
+                 "98c53882a6b6703c62d7a59e0dcdf5e29ca2ca95")))
         (sha256
           (base32
-            "0lbb4kkfi1ya4fw326yaw1yw7y5s7zaz8mrfh6zf6qgd31im2w73"))))
+            "17isgyg85fdhhhzn9jh6d0cba19ag7zwkppc1n34i2knm91411hm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -39685,17 +39686,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231026.905")
+    (version "20231113.1309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "149d00ee4cd17ab465db004910b67456db142802")))
+                 "cbcc840db4b21567f30e9e16ec435b941095a0c4")))
         (sha256
           (base32
-            "056hzf4r8bzzmmhlrgh6f0pppsr3spbrpiwb2kpkdbg1fwi9bjkf"))))
+            "0imi3gsx85pcs390la8sx19ckk59zxwcbnb3qa4g2sqn6hm3lbgr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -53506,17 +53507,17 @@
 (define-public emacs-helm-company
   (package
     (name "emacs-helm-company")
-    (version "20231108.612")
+    (version "20231113.701")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Sodel-the-Vociferous/helm-company.git")
                (commit
-                 "a653ff05023a21dfa087d196d6ca27e382eb28b2")))
+                 "4622b82353220ee6cc33468f710fa5b6b253b7f1")))
         (sha256
           (base32
-            "0zg878i48kmgw9lj772c3kx5v13k9k2afz98j65jx2bjbcm9f338"))))
+            "0lschnr15c39bnfvm2zdp7f3qvyzrdk8gzzwcb1g2d9jy3mkcq05"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm emacs-company))
@@ -64941,17 +64942,17 @@
 (define-public emacs-journalctl-mode
   (package
     (name "emacs-journalctl-mode")
-    (version "20231112.1045")
+    (version "20231113.809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SebastianMeisel/journalctl-mode.git")
                (commit
-                 "aef9162171118ef8e6ab411b26b763c9c6ea9e2f")))
+                 "40d77e85528e708b838d4c086183c53878520f55")))
         (sha256
           (base32
-            "13xa05a798qbpxgkidvf42xxvi582n7sblwvv9kx0b0glclzkpb1"))))
+            "1j5vfp8bgy1ywprj021s4dykd1bvxxfy1zyf36s0kjndy70mp0q7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/SebastianMeisel/journalctl-mode")
@@ -75307,17 +75308,17 @@
 (define-public emacs-mc-extras
   (package
     (name "emacs-mc-extras")
-    (version "20181109.1735")
+    (version "20231113.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/mc-extras.el.git")
                (commit
-                 "053abc52181b8718559d7361a587bbb795faf164")))
+                 "abd98a7c92e71d38494a6bf20853f3ff20e1f013")))
         (sha256
           (base32
-            "16y48qrd20m20vypvys5jp4v4gc1qrqlkm75s1pk1r68i9zrw481"))))
+            "0zv8cxhyqkxc3gyyzd18zygjy0xd3fk1x3v5h24yr998wg0fb050"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-multiple-cursors))
     (home-page "https://github.com/knu/mc-extras.el")
@@ -80546,17 +80547,17 @@
 (define-public emacs-neil
   (package
     (name "emacs-neil")
-    (version "20231112.2006")
+    (version "20231113.1036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/babashka/neil.git")
                (commit
-                 "03cc51e546c2b1dd534cdc17160ffc5ff6e6e81d")))
+                 "7a123130e8c2532e32d591a4c947703f3ad96a87")))
         (sha256
           (base32
-            "0fylh4pakpqkckaghhhj0nfd2fk9x78zb5lxcy9scaqg9symks9x"))))
+            "02clw3iw7w683hsffzjscijwmxq1prygn6mr0nxpfvlvyphxp24d"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/babashka/neil")
     (synopsis "companion for Babashka Neil")
@@ -93102,17 +93103,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20231110.1025")
+    (version "20231113.1518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "5f2ae2d7745306c761954008336028d100834821")))
+                 "dd81a5b9224cc6e6dc4bbb6b4a2928df89c01317")))
         (sha256
           (base32
-            "016cfyzywbywrv9xcflkc1kwil2w6x31il62nprcdd32k2nrg9sn"))))
+            "1y0h8rrmvi3j5maig6i69kxxr1igb96075vpzbycaqln3xn11g36"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -93129,17 +93130,17 @@
 (define-public emacs-package-lint-flymake
   (package
     (name "emacs-package-lint-flymake")
-    (version "20231103.1810")
+    (version "20231113.1518")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "5eba825d657b490c320b2ea2c302b1fa0c999610")))
+                 "dd81a5b9224cc6e6dc4bbb6b4a2928df89c01317")))
         (sha256
           (base32
-            "1v12l8mbsrgkq5rmgzypkiabhfrd5cq6nrnmsairnpw8rrz4w739"))))
+            "1y0h8rrmvi3j5maig6i69kxxr1igb96075vpzbycaqln3xn11g36"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-package-lint))
     (arguments
@@ -114952,17 +114953,17 @@
 (define-public emacs-stimmung-themes
   (package
     (name "emacs-stimmung-themes")
-    (version "20230925.1808")
+    (version "20231113.756")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/motform/stimmung-themes.git")
                (commit
-                 "6d0f9b34eba1abde6ee72e10c2b4dfdd18712065")))
+                 "22f449a30d6d36a42c59c1d31e3538aafff19e90")))
         (sha256
           (base32
-            "0p0pgfwd987ylsm8lhdkammqy6afx2bb582fb3lrjhj27dn572f1"))))
+            "11pj8fh65wz02q9mhyd4yqpis5n3k2wc919l19ygl4kh5h60ailg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/motform/stimmung-themes")
@@ -125678,17 +125679,17 @@
 (define-public emacs-vulpea
   (package
     (name "emacs-vulpea")
-    (version "20231031.802")
+    (version "20231113.717")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/d12frosted/vulpea.git")
                (commit
-                 "f4f220896aaaeee41b2341b74c1b9a554cf9c015")))
+                 "e1ea8480daf3e480effdd7ba3799126295a4a59a")))
         (sha256
           (base32
-            "03yhrrwnm5wgwy2k72cj9bgsmsbm0ylrlnr2dh5rzaaiwxq1kxvn"))))
+            "1xv394dx122np58p281nqgrfnp6zjwqbvmqnpjsn6vxl59rqq1c6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam emacs-s emacs-dash))
