@@ -12967,17 +12967,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231113.2155")
+    (version "20231114.1140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "57d1dc19ffbe11e5fc2d9c58f90107e051c43ded")))
+                 "5261886ad7c0a8828d022812c7c1c6b503ddd6ba")))
         (sha256
           (base32
-            "1pv5ajxl7xhynw34264wmg52v1vxczrxci7vsdak2cwlnq1dhs80"))))
+            "1m9bva5wi4mna80qrr401pvghxk54nh773544c5i11fanisyq9sc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -43643,17 +43643,17 @@
 (define-public emacs-flymake-phpstan
   (package
     (name "emacs-flymake-phpstan")
-    (version "20230417.1142")
+    (version "20231114.1120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/phpstan.el.git")
                (commit
-                 "2dc25cb2f3d83484ea0eb063c9ffca8148828a2b")))
+                 "495e22f98e3075d0d9a14ebec87771eaf967b996")))
         (sha256
           (base32
-            "0drsp230nxs336zzfy8gjr7r3p7m8w9rp4ih1zjwarzl1svpp7yp"))))
+            "1khbknia1vhif6a26mcvx1d1mawvkxb84m16ghhp5vfna6g3sk64"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-phpstan))
     (arguments '(#:files ("flymake-phpstan.el")))
@@ -52747,17 +52747,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231108.1729")
+    (version "20231114.1328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "2534c228ef6699cb2588349c44627835fc444278")))
+                 "74887ba26071fba4c66ac3b4dc11d7d632832394")))
         (sha256
           (base32
-            "1iq9cpf4nywfiw1f3ki5jcxpb2mlyqm6pgqfa6alfkkpvgrap9l3"))))
+            "1gyd03dln19cjwgrh3m72qik77hdc2waiv61knzk30pq3dds965j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -60644,17 +60644,17 @@
 (define-public emacs-igist
   (package
     (name "emacs-igist")
-    (version "20231110.851")
+    (version "20231114.928")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KarimAziev/igist.git")
                (commit
-                 "92e3c429c0da07025624cceb5796ac41edf753e2")))
+                 "7a72a4ea40668a7c4f0f8d60990a5ac298429936")))
         (sha256
           (base32
-            "10hw58zln8x8kjyzmfl1vfqj5mqascix9c7rdq884f8ypfynx7p1"))))
+            "0v02cjjabm1f14bvhqp559xfv14my9ibjyx2gh3kzb67lhsrlcsr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ghub))
     (home-page "https://github.com/KarimAziev/igist")
@@ -67835,17 +67835,17 @@
 (define-public emacs-kotlin-ts-mode
   (package
     (name "emacs-kotlin-ts-mode")
-    (version "20231110.1334")
+    (version "20231114.1243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
                (commit
-                 "b9ccc4896c8af8e8b60a26eb16fffe8a185551d0")))
+                 "9688741a59a5ffd71850660dd320b0309a2ba119")))
         (sha256
           (base32
-            "1dy1j72i8ymxlvhrbh3k94l90p3vwfn8bimbrlw100aqz41nz2jd"))))
+            "1gxj3fys3py0ldz31f8frmj12f9jyyqj9g8valsy2c87qvg70ag3"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
@@ -117686,17 +117686,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231108.717")
+    (version "20231114.1452")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "3e7bc49ccd579b2e68d00620424b9c10e38f56e5")))
+                 "aaf5e05f60af786b6aedf469269a422b3a4c1095")))
         (sha256
           (base32
-            "1bq1if84piww0mb9ciji7l2n2ac57c01kb6vldc96imhpri2fnny"))))
+            "12jbg6l66f4k8hpv2knczl5v0zicgk125g9dx4jg8g8yi96in6if"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -120957,17 +120957,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231105.656")
+    (version "20231114.1215")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "32c664eadb3c23f2327dc78fe4bec97578ad9ed6")))
+                 "4371d9fe69702a84ce2ddccd264d0b2e6ceeae5d")))
         (sha256
           (base32
-            "0j1fjfqkqb0xw1k87zj80zgb0qwm5m7v2hrpj2f8azpzdbcdcbhq"))))
+            "0h5aaqqf9yfh45qv6kxcxwkl5f4ci6jr4akjqjp1sdgxz2pppa90"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
@@ -127462,17 +127462,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20231103.700")
+    (version "20231114.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "ab0ed9cc5b4a285cddef52b193c26a979e1dcd08")))
+                 "735ffe1bcc8b5da4a1ecb99ec4a013ed33d5676c")))
         (sha256
           (base32
-            "152hilpbjmbf8yvyr9w4m4j2q0zczzsw4mc9vkwixk8m6a0x4i9q"))))
+            "1aim7m8b1hyrfawjb3zcb442snic1bifz0ni315q2kiigyaq7g5a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -127487,17 +127487,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20231103.700")
+    (version "20231114.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "ab0ed9cc5b4a285cddef52b193c26a979e1dcd08")))
+                 "735ffe1bcc8b5da4a1ecb99ec4a013ed33d5676c")))
         (sha256
           (base32
-            "152hilpbjmbf8yvyr9w4m4j2q0zczzsw4mc9vkwixk8m6a0x4i9q"))))
+            "1aim7m8b1hyrfawjb3zcb442snic1bifz0ni315q2kiigyaq7g5a"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
