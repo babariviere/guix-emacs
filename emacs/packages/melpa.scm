@@ -114352,17 +114352,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20231030.539")
+    (version "20231114.32")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "eafeda97eb8942e5e2f1fe6ebf7472de9ce405dd")))
+                 "3e19e23948bb746e6c3a09c4531fbf904b50a0f3")))
         (sha256
           (base32
-            "1myrv3awf8v1haas63fhy7s81jkbbfv6zlbsb2nl8j723d5vm8jn"))))
+            "078769344y0g5q875fbdqwwxgfwbm96cirn29y6x6dar4wrxw91f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
