@@ -4630,17 +4630,17 @@
 (define-public emacs-asyncloop
   (package
     (name "emacs-asyncloop")
-    (version "20231113.1119")
+    (version "20231113.1711")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meedstrom/asyncloop.git")
                (commit
-                 "ed45a106afc865b35c4be0190aa4852bba4768a1")))
+                 "2297d4e31268fa28f0eb249e358040eb52574619")))
         (sha256
           (base32
-            "1dabm557ssfjwgw3a0r27jx8f9zjjwdbc8ain06rg0c32rccl5p5"))))
+            "0dsn0imdkfns9mh1c92id84f67mihz7ppi1nznnii65vcnpqszz2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-named-timer))
     (home-page
@@ -12967,17 +12967,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231112.518")
+    (version "20231113.2155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "a35170bfbfec3eee80163ac5e10c0cad882b6291")))
+                 "57d1dc19ffbe11e5fc2d9c58f90107e051c43ded")))
         (sha256
           (base32
-            "04ysjphsprxpgz87mgrhq1mnp4xj3hzdlggj5zisbrl9rsscjpra"))))
+            "1pv5ajxl7xhynw34264wmg52v1vxczrxci7vsdak2cwlnq1dhs80"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -29487,17 +29487,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20231112.2018")
+    (version "20231113.2011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eldev/eldev.git")
                (commit
-                 "f6fdcf8031e5cdf9e92c1ec77ee06f0114c66b27")))
+                 "cd7722a815e18deb675a648ff60513292541bdbe")))
         (sha256
           (base32
-            "0mgs29pcjnnyw5b9mj4gv5hc9ybvjlzxwc6i28j9agv7djl1wv9m"))))
+            "0mlbf75il04cl08zdx0hg8g89l2vnfrdj2labjr1az0dl9x4dk81"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -65885,17 +65885,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20231026.2200")
+    (version "20231113.2330")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "97ca00411e16a2c1815090ca5aa05b3a36776a75")))
+                 "16cf8ffafe5ea0925beb97e37a64eab58b2ad95d")))
         (sha256
           (base32
-            "168x8g2m30ci2msjfk09bbczpa33h4ax57b23hcwy5czk9511w70"))))
+            "1231rkk629dqi15011bjslwvspvlgnx74xm2q9j1y37ql4zxjx2n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -102442,17 +102442,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231111.2354")
+    (version "20231113.1445")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "1069f268a2d212b4fbac7dc8ac328982f0a9ee38")))
+                 "dfd9c2369292b0ea6a6e3f2b86b9b9c5ad59f9c9")))
         (sha256
           (base32
-            "0byjcgrg9klgz1dzbciyvgq43chs7lj2x6pmp9ygsmal35p3sv2j"))))
+            "1a873r1565iarj9k42mkdf3if1zz4xgkb7jm9gfrkcc568rbqnac"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -103280,17 +103280,17 @@
 (define-public emacs-realgud
   (package
     (name "emacs-realgud")
-    (version "20231021.227")
+    (version "20231113.1910")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/realgud/realgud.git")
                (commit
-                 "445340ebc5819eeedd73695c9182349349c90b6a")))
+                 "365063ea8ce8ec6a852cb388088d84147421c3c2")))
         (sha256
           (base32
-            "1x493djnj5012c7jr29gmzy6sdw7s6xh855dgslr16aqimkz7zg8"))))
+            "1ankjwwsbkv5i9x9dbv0lzbs5qrqb486ds2qymdb0w4kg2g3d11z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-load-relative
@@ -118975,17 +118975,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20231106.1400")
+    (version "20231110.2354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "8766d781e24d95320d17730fd8279fc2f7600108")))
+                 "b05ccbaebb6ad2988f93a2db89728bf23994cb89")))
         (sha256
           (base32
-            "11nwx1qfkznf7dxcd9a62h4bxfjglni9liz6wv2fcglll09cj3m4"))))
+            "07hbla94l8s8dyl2ms38ygp9cm45lvm45zhqmb9c6v632rs47s1g"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -119644,17 +119644,17 @@
 (define-public emacs-tmsu
   (package
     (name "emacs-tmsu")
-    (version "20230807.2218")
+    (version "20231113.2358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vifon/tmsu.el.git")
                (commit
-                 "8207b4140fd1b3eff2ec4b9818e67148139cb72f")))
+                 "2b48d3898fef29609ac62ba8bee03acf8efb8ac7")))
         (sha256
           (base32
-            "02ipyb19s961k05kmbika302rfipzcgpvm0g1q3pxn7arxs9s3kl"))))
+            "1nx5kgdlk6zd0zm31c2ls9j91fq7dwjzyd7106vyhp5dvcmz2w21"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "ol-tmsu.el"))))
@@ -123338,17 +123338,17 @@
 (define-public emacs-ursa-ts-mode
   (package
     (name "emacs-ursa-ts-mode")
-    (version "20231019.2145")
+    (version "20231113.2331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ursalang/ursa-ts-mode.git")
                (commit
-                 "e5cb898e831976d9ac0e5b73e676a7976a77e693")))
+                 "b4afa0c2f2a06fca4fcba8772989e4ca09bab7b9")))
         (sha256
           (base32
-            "1m6c446irknfd1n01wcm1r6zq3hqk8rgna5lykd0rysjabg5xqzc"))))
+            "1x9vlwwbrdghp02bpqgjni77wsnhcm0w8c0ph9v87xr21mpkwclk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ursalang/ursa-ts-mode")
