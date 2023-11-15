@@ -15684,17 +15684,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231110.52")
+    (version "20231115.122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "07d1c41f83d5ad5f6263e726283a05ad12cd37a5")))
+                 "06b1ebe9a1ca38740788fc98dd40f932fb3bb9a7")))
         (sha256
           (base32
-            "0f2hnypzdggfw8dxyysf05n51za86qs1z6b8syrdnkyxcm41j793"))))
+            "0l67jfq49pc6wnm7ywf1bqsj8a7c7knzvfb7xhd076l9yryrpvrp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29514,17 +29514,17 @@
 (define-public emacs-eldoc-box
   (package
     (name "emacs-eldoc-box")
-    (version "20231008.2250")
+    (version "20231115.519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/casouri/eldoc-box.git")
                (commit
-                 "06c905bb4ac6bb35035d65ef5de0de9ce6dff763")))
+                 "c36f31074b09930e8425963f39d5508da6d2c32d")))
         (sha256
           (base32
-            "0fzdzks18lyx19kigydbdi2lg260p3wiq0v6sf4xb13ypsx6pyfv"))))
+            "0vglh3sp9x6z537jngh5jh9j3szbfadryzlwhmrlq7asiinnjq01"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/casouri/eldoc-box")
@@ -30551,17 +30551,17 @@
 (define-public emacs-elixir-ts-mode
   (package
     (name "emacs-elixir-ts-mode")
-    (version "20231025.640")
+    (version "20231115.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wkirschbaum/elixir-ts-mode.git")
                (commit
-                 "cb536ff3e70b70004687bbf583757f6929ce0238")))
+                 "94500294d4f6bd1add8f51a1388df8e5070db8d9")))
         (sha256
           (base32
-            "1x55zig1jj8qiarhv6hzmam96jzafwlnsanjq3jqnl5rybr8nsxy"))))
+            "06rskqdz5179hjmhhawy05bmhv0xy32rypc72nfbhgc2f3727wj5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-heex-ts-mode))
     (home-page
@@ -76554,7 +76554,7 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231114.2343")
+    (version "20231115.13")
     (source
       (origin
         (method git-fetch)
@@ -117686,17 +117686,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231114.1452")
+    (version "20231115.126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "aaf5e05f60af786b6aedf469269a422b3a4c1095")))
+                 "0ab94070cb8f652f194863074b278eb84cf6b1b3")))
         (sha256
           (base32
-            "12jbg6l66f4k8hpv2knczl5v0zicgk125g9dx4jg8g8yi96in6if"))))
+            "0qa70qcvysx31wxml3q0l0y0g6h4yssiz0wvxvcjz1pwax1fjbpm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
