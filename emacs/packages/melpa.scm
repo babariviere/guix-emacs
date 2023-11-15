@@ -23845,7 +23845,7 @@
 (define-public emacs-dired-duplicates
   (package
     (name "emacs-dired-duplicates")
-    (version "20231110.1214")
+    (version "20231114.2150")
     (source
       (origin
         (method url-fetch)
@@ -23855,7 +23855,7 @@
                ".tar"))
         (sha256
           (base32
-            "0h5ya4h2zb106ry4kaj0s3n30bgr3yyglwd419g04cfy88dx4h5l"))))
+            "0206b6lxzy8hgs5q0alj0pbi67jysfkfjbndf29v5rxjpwh1ymx2"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/hjudt/dired-duplicates")
@@ -29487,17 +29487,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20231113.2011")
+    (version "20231114.2038")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eldev/eldev.git")
                (commit
-                 "cd7722a815e18deb675a648ff60513292541bdbe")))
+                 "042fac4d7aa54fa7a468799d528875b9d2c79f93")))
         (sha256
           (base32
-            "0mlbf75il04cl08zdx0hg8g89l2vnfrdj2labjr1az0dl9x4dk81"))))
+            "09lgkkz5d3x5zmflc93hrsqr2b13f77i34km3cb5r42xzrcwh0hc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -39686,17 +39686,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231113.1309")
+    (version "20231114.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "cbcc840db4b21567f30e9e16ec435b941095a0c4")))
+                 "5305cc3deaf361f57c67c57d10ade2bd448603e9")))
         (sha256
           (base32
-            "0imi3gsx85pcs390la8sx19ckk59zxwcbnb3qa4g2sqn6hm3lbgr"))))
+            "1pg8mp3nghpmif2f94blrbv50xb9xp7pibnyfm0kpgh5gnciz3ab"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -52747,7 +52747,7 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231114.1328")
+    (version "20231114.1504")
     (source
       (origin
         (method git-fetch)
@@ -67991,17 +67991,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20231013.1753")
+    (version "20231114.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "a84f09cca8cdc71d55aa78304db4156df46d04e8")))
+                 "eb9f0457af5decec8ce3a76657d61ba4817f86fe")))
         (sha256
           (base32
-            "1m46gj5246ch0hyj7nnl67n305ib6gjqs4wka9mb6dmjrixxwry6"))))
+            "0a3gxkmhbgnd695yza51l7zmja40ra783vcvb28r3arz9v7kvv39"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -76554,17 +76554,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231107.1317")
+    (version "20231114.2343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "9d89e352b73ff2222d62b43b8944206582723fef")))
+                 "5dfd1608d384be3176c4f06fef908933e2fd4a02")))
         (sha256
           (base32
-            "14gr1fc1bdwwzll1yq2sc5yaadvb4360lqypvq805bnnhdjqb6hb"))))
+            "0pknwad9mm0szb4a0ar7wrc8lnwn45vf3vfq0wbflh6071mdnmkv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -85768,17 +85768,17 @@
 (define-public emacs-operate-on-number
   (package
     (name "emacs-operate-on-number")
-    (version "20150707.623")
+    (version "20231114.1921")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/operate-on-number.el.git")
                (commit
-                 "ceb3be565a29326c1098244fac0c50606723a56e")))
+                 "0ddebae1885c1b54eae1d79e66204d6d83c5065b")))
         (sha256
           (base32
-            "0iw3c8sn702ziki59mvd5gxm484i7f0bwsy8fz95y08s9gknjjf9"))))
+            "0y3a8qp9b6cgx61xs665l6g6xqc208jqvhv9vqyl517v6gwcpq0b"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/knu/operate-on-number.el")
@@ -119644,17 +119644,17 @@
 (define-public emacs-tmsu
   (package
     (name "emacs-tmsu")
-    (version "20231113.2358")
+    (version "20231114.1615")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/vifon/tmsu.el.git")
                (commit
-                 "2b48d3898fef29609ac62ba8bee03acf8efb8ac7")))
+                 "c27bc7bcd8c29c9c19e5cc5cba89e3b652b7edc6")))
         (sha256
           (base32
-            "1nx5kgdlk6zd0zm31c2ls9j91fq7dwjzyd7106vyhp5dvcmz2w21"))))
+            "05gpf90gxqnp8kn08x7mcj5ghq6mgl4l2nbk5l8bl2kbr7afszyh"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "ol-tmsu.el"))))
@@ -124440,17 +124440,17 @@
 (define-public emacs-verb
   (package
     (name "emacs-verb")
-    (version "20231110.1915")
+    (version "20231114.2309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/federicotdn/verb.git")
                (commit
-                 "afe54cb2ddfc5bbe7923047869001fb4b2b9e7d7")))
+                 "1edcf0c3758c70acb9393fda7dfbc5957bb0fbeb")))
         (sha256
           (base32
-            "070z32s3a7hgcslwardlv3h7kxn77ikirbjmrpdv3i58cg4zy81s"))))
+            "1wjrfzmalkgk9778kc4maz7khq1dli0x27ifyhgi8zvgy899pykc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/federicotdn/verb")
     (synopsis "Organize and send HTTP requests")
@@ -127462,17 +127462,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20231114.1157")
+    (version "20231114.2224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "735ffe1bcc8b5da4a1ecb99ec4a013ed33d5676c")))
+                 "7ccee2953001b76f251a087e941f227c1f63bfec")))
         (sha256
           (base32
-            "1aim7m8b1hyrfawjb3zcb442snic1bifz0ni315q2kiigyaq7g5a"))))
+            "1gb3sjh25xh8d938xlprajcylxdycxfijwnnizhb1c80lr5lnprw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -127487,17 +127487,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20231114.1157")
+    (version "20231114.2224")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "735ffe1bcc8b5da4a1ecb99ec4a013ed33d5676c")))
+                 "7ccee2953001b76f251a087e941f227c1f63bfec")))
         (sha256
           (base32
-            "1aim7m8b1hyrfawjb3zcb442snic1bifz0ni315q2kiigyaq7g5a"))))
+            "1gb3sjh25xh8d938xlprajcylxdycxfijwnnizhb1c80lr5lnprw"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
