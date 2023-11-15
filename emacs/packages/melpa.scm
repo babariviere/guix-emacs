@@ -6228,17 +6228,17 @@
 (define-public emacs-awk-ts-mode
   (package
     (name "emacs-awk-ts-mode")
-    (version "20231022.1757")
+    (version "20231115.1037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/awk-ts-mode.git")
                (commit
-                 "a32d83a2c8714c5f2fdb8cc8cb6733a2eb1a4e87")))
+                 "7b3f26d24be4732e001ae3a0e0db35111e68c38f")))
         (sha256
           (base32
-            "1k3nyp4h9iqz6cx90g469jf2j7kvr4q8mqn2i0han2a406izk9n5"))))
+            "00zgkg3biy3lkaj9jsmn7b4nmnlyj0bqsjfc4qabm2mk0yar0is6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/awk-ts-mode")
@@ -14543,17 +14543,17 @@
 (define-public emacs-cmake-mode
   (package
     (name "emacs-cmake-mode")
-    (version "20231006.1308")
+    (version "20231115.1355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.kitware.com/cmake/cmake.git")
                (commit
-                 "0cd2ada2d14e391d8bff89a1f47753ad51a44ab5")))
+                 "aed9a14cd41cc20c203cced13b24d45ae29e5416")))
         (sha256
           (base32
-            "0apykmy8f6mn90vj4g8kds906zrazy4fdm316mz5kb2lbys3zzpd"))))
+            "1vvw957237ik5i93p58p4q6l0l2c0h0p8lqpl3wkvcv1if08nhxy"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("Auxiliary/*.el")))
     (home-page "unspecified")
@@ -72278,17 +72278,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231111.1344")
+    (version "20231115.1221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "4c93d3c87174e6fdbe1b760f3f27aa71ecdc1d4e")))
+                 "91dbd0240afb5223b2ddfca8326d1c2fb3e8cf7f")))
         (sha256
           (base32
-            "0kw1bb1vzchaw675wb6ppvv4ndznlz176gkwgqfp57zjkg3hpdcj"))))
+            "1anibzm7w9arzqpfm6p01v0522j022g2mwa01w0p1idwg6jjiivf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75713,17 +75713,17 @@
 (define-public emacs-merlin
   (package
     (name "emacs-merlin")
-    (version "20231108.1124")
+    (version "20231115.1306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/merlin.git")
                (commit
-                 "f46ebad2216460cf58293b913bb76c5e9bdc968c")))
+                 "53eaad5df01bbdabc9e655dbadebc302d0475f31")))
         (sha256
           (base32
-            "1wirkcwi21s8z3210h9fwqbman2fg2366b05vgmgasphirsjdsw0"))))
+            "1a2snly1iraxmyal8f61jj0zhcywmyzq6gglf1fqmmcx3xpv8xra"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -77575,7 +77575,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231031.716")
+    (version "20231115.1302")
     (source
       (origin
         (method url-fetch)
@@ -77585,7 +77585,7 @@
                ".tar"))
         (sha256
           (base32
-            "0mcx1gy8m9vjwgh9lcdgld61dvsy50wjwb70fwvxkzym5hjsi53f"))))
+            "0dkwisxxr2paf6j7f4pz9g6ni7l0nv54fx25gqq36x1pv448frgn"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -102442,17 +102442,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231113.1445")
+    (version "20231115.1300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "dfd9c2369292b0ea6a6e3f2b86b9b9c5ad59f9c9")))
+                 "a745a92579ff65d2941a1226383a80a00b0c490c")))
         (sha256
           (base32
-            "1a873r1565iarj9k42mkdf3if1zz4xgkb7jm9gfrkcc568rbqnac"))))
+            "1fki87hfs0a9gr0vr3sznm6rrz6894jkb0qri563qq9kfkw2jk1a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -117686,17 +117686,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231115.126")
+    (version "20231115.1148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "0ab94070cb8f652f194863074b278eb84cf6b1b3")))
+                 "140c044e6caf4206d8843c48fce5633c77c758d0")))
         (sha256
           (base32
-            "0qa70qcvysx31wxml3q0l0y0g6h4yssiz0wvxvcjz1pwax1fjbpm"))))
+            "1xwn2lnzhmhz0li2yw66gnsjqqbiz7rvfw0pqza6abf2dhfk3c8p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -120957,17 +120957,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231114.1215")
+    (version "20231115.1119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "4371d9fe69702a84ce2ddccd264d0b2e6ceeae5d")))
+                 "3a3ad0527d5f8c7768678878eb5cfe399bedf703")))
         (sha256
           (base32
-            "0h5aaqqf9yfh45qv6kxcxwkl5f4ci6jr4akjqjp1sdgxz2pppa90"))))
+            "0hbkb2b5i3dgax7jsjds4h6zyyzxyk5r5hcgpzlna61vqjwvvd8l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
