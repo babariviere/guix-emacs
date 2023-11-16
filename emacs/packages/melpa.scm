@@ -13918,17 +13918,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20231009.1104")
+    (version "20231116.525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "b476345c580ae7cbc6b356ba0157db782684c47f")))
+                 "b390a17a2b0db2bb7d2b0d1cf014513cc1346e4c")))
         (sha256
           (base32
-            "100ngpgvff0xvw1h5krvh40sa3ympl241imwskcv62yk29m9z411"))))
+            "1qq3jp105bp2j3fc7qdx1rqn1lhmqz8rkflqjpzabpf3pw4adi1y"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -15684,7 +15684,7 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231115.1828")
+    (version "20231115.2254")
     (source
       (origin
         (method git-fetch)
@@ -80636,17 +80636,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20231105.653")
+    (version "20231115.1110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "a506b43dc241ee07c28ce815068277084afbf09c")))
+                 "cfda588dc1e865a8a121b9071f3720fd4937492b")))
         (sha256
           (base32
-            "0jahmqvi0hb8jsraj21d1n6wdp827yak2f4bs9ljpmggqvxp40pl"))))
+            "0cnhcyh7s50k60hx572zz2cq83qjjp72qs6ad9gc6abhzzrzr6bj"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -117686,7 +117686,7 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231115.2318")
+    (version "20231116.1")
     (source
       (origin
         (method git-fetch)
