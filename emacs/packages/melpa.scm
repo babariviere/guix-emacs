@@ -65147,17 +65147,17 @@
 (define-public emacs-js-comint
   (package
     (name "emacs-js-comint")
-    (version "20230311.230")
+    (version "20231116.943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/redguardtoo/js-comint.git")
                (commit
-                 "b788bf5d57ad6b902c4096b666c6d78ceff7c116")))
+                 "3790e017c0348d3bc6afe22397b155d7bef9f30a")))
         (sha256
           (base32
-            "0si03p6xw0ljxc6rkl2v789z4syqpnswaw6ql29g4f3qykav5xy2"))))
+            "0d8cvz8lfnqjbivmynk2pf4zqcc8dix573acy8hvix927mwqi76z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/redguardtoo/js-comint")
@@ -80547,17 +80547,17 @@
 (define-public emacs-neil
   (package
     (name "emacs-neil")
-    (version "20231113.1036")
+    (version "20231116.1226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/babashka/neil.git")
                (commit
-                 "7a123130e8c2532e32d591a4c947703f3ad96a87")))
+                 "b8d7a1602ef848e5928a0f11add8973b91e0acf0")))
         (sha256
           (base32
-            "02clw3iw7w683hsffzjscijwmxq1prygn6mr0nxpfvlvyphxp24d"))))
+            "19db4z8xbiil47sn1pl67s3k54qvf7pp772yg9gzxwigslzw8y95"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/babashka/neil")
     (synopsis "companion for Babashka Neil")
@@ -81726,17 +81726,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20231115.2126")
+    (version "20231116.1216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "722c44210a5f2697f449bd6cb2cdcff638b8c0bd")))
+                 "7804a1c1bb6d1ed8586b6fd44a91d5db188d125c")))
         (sha256
           (base32
-            "109z231gz4afg4z0dzyccsx69znvzwy3z4c5z48441brssvna6nj"))))
+            "0ahlri3hlkrlmm6bh094ays6qrw9yd02rghq0hgin006817r8pqz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -95680,17 +95680,17 @@
 (define-public emacs-phi-search-mc
   (package
     (name "emacs-phi-search-mc")
-    (version "20160324.1503")
+    (version "20231116.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/phi-search-mc.el.git")
                (commit
-                 "7aa671910f766437089aec26c3aa7814222d1356")))
+                 "f07b0d442fdd40ddcdcf90be2b38012dcd8d338b")))
         (sha256
           (base32
-            "0wr86ad0yl52im6b9z0b9pzmhcn39qg5m9878yfv1nbxliw40lcd"))))
+            "177pdgjijpfw601mpj26h85npy282i0l6g054jnq4izqbbwz6gpn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-phi-search emacs-multiple-cursors))
