@@ -15181,17 +15181,17 @@
 (define-public emacs-color-theme-modern
   (package
     (name "emacs-color-theme-modern")
-    (version "20220506.858")
+    (version "20231116.2258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-jp/replace-colorthemes.git")
                (commit
-                 "74ad69bbca6fcfff3c0960d888c7c9c1f9f3e2e8")))
+                 "5f790421b6eff5d2915819fa23cfcdb19827fa91")))
         (sha256
           (base32
-            "13ff4s372wsl5x13vh4vywhi6qcc54gybhp6rxl0r1l4wxidanwn"))))
+            "19r9ymfj7b0m8w2ggmk2syydi57yh2ljg4mrvxi1rljplz4kgqy6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-jp/replace-colorthemes")
@@ -17880,17 +17880,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231115.1746")
+    (version "20231116.2120")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "d7a0415c4ff3a84b696e5ddbc2ef15d0d45c405d")))
+                 "04c89250e7eb1bffd822bcfa57b6049af6da2ea6")))
         (sha256
           (base32
-            "15lvjb0hv3vb7xylavi2xsqdxq3b2ryi0zd866h5a3njhkk1sv76"))))
+            "172inr2rm9al5rpdg3imjlqzj52amvwa9j5qraz2kgx3mix7wf8v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -29487,17 +29487,17 @@
 (define-public emacs-eldev
   (package
     (name "emacs-eldev")
-    (version "20231115.1824")
+    (version "20231116.1642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eldev/eldev.git")
                (commit
-                 "2aefc4d2820d922073917c7f87ea83c80c930ca6")))
+                 "65e00433b5673f18328fc824cbdb54e6f7b872bc")))
         (sha256
           (base32
-            "0z98cwzfj71xnq5wk5hgvdf2ar150cr6xs8mxwdi2204mqzzdsnd"))))
+            "0l38v1yk53fi0zbp0g9sqc9aimpfjh6c14w4xfha7anab39p2i7a"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -67309,17 +67309,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20231110.828")
+    (version "20231116.1948")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "39ad1c6ce6c70c22c5d7a3a686a289ef0465a675")))
+                 "68ac1e0193cef4e7c12b4025125756c6dd14f699")))
         (sha256
           (base32
-            "17qyv28apbwa2id4mhmdwji2bmcpq8r1fnbd9q8dmqxzblbxhx85"))))
+            "07k0dfgd6217c7ssi1cs2whdhrc07d6765rwn4g2mpc3a1rr396b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -76554,17 +76554,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231115.13")
+    (version "20231116.2124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "5dfd1608d384be3176c4f06fef908933e2fd4a02")))
+                 "2793a21472375ed01ec97922ceb0fa6df7a40b33")))
         (sha256
           (base32
-            "0pknwad9mm0szb4a0ar7wrc8lnwn45vf3vfq0wbflh6071mdnmkv"))))
+            "0k60z1gsc5r9zhvvky6bqw9syy4c1zlsc26039hpjbk8f9mqw8ri"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -89290,17 +89290,17 @@
 (define-public emacs-org-roam-ql
   (package
     (name "emacs-org-roam-ql")
-    (version "20231105.2028")
+    (version "20231116.2131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahmed-shariff/org-roam-ql.git")
                (commit
-                 "6c8b03638fd9f423104093fb2e4128435528a72e")))
+                 "d666686830823fc9e6eee3f1144f52b49ed63994")))
         (sha256
           (base32
-            "120jin5lzjg0mcj9bp197hxhwy2ghycsk00zlax1ymi3pmlcrsmy"))))
+            "0nrqnq2azjgra1sa2mmyw8j9p94i5ah5kggqajl3mb3408000kxm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -118341,17 +118341,17 @@
 (define-public emacs-terraform-mode
   (package
     (name "emacs-terraform-mode")
-    (version "20230607.1923")
+    (version "20231116.1525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hcl-emacs/terraform-mode.git")
                (commit
-                 "25a22a66f81e35c75f2fdaaab89aad7f9940fe06")))
+                 "e8b57df8c2a3d3171f3768f60eb84067f553289c")))
         (sha256
           (base32
-            "11c9bwgrzjw3y70xq5g8z53hi71gpg2xx79d63a337rxyd3yaia5"))))
+            "03gdyal1r0b64ljmnpz0wcq9rylfh06cv3vggcz81zvjnyssh9qi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-hcl-mode emacs-dash))
