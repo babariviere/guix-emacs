@@ -77575,7 +77575,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231115.1302")
+    (version "20231117.500")
     (source
       (origin
         (method url-fetch)
@@ -77585,7 +77585,7 @@
                ".tar"))
         (sha256
           (base32
-            "0dkwisxxr2paf6j7f4pz9g6ni7l0nv54fx25gqq36x1pv448frgn"))))
+            "1c32ss4bhxn3nlxcaigylj4nh2cw6n0pfl4vclks01psahh9ynz3"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -98505,17 +98505,17 @@
 (define-public emacs-pr-review
   (package
     (name "emacs-pr-review")
-    (version "20230723.220")
+    (version "20231117.714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-pr-review.git")
                (commit
-                 "1296c81681509044865643ed92474a7d31ead9f3")))
+                 "b55edab544a7706d3d39b8dc6bebdf10b8b901f8")))
         (sha256
           (base32
-            "07hw222gk0kklv84q6hnzcmbh2gds3098mqrjh1f5nmrqvxg6d68"))))
+            "0q43kr7fq9fa3x3src4brn7ndg206pmj4xrq19fpb6jscxv0svpw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section
