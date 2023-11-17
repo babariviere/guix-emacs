@@ -6228,17 +6228,17 @@
 (define-public emacs-awk-ts-mode
   (package
     (name "emacs-awk-ts-mode")
-    (version "20231115.1037")
+    (version "20231117.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/awk-ts-mode.git")
                (commit
-                 "7b3f26d24be4732e001ae3a0e0db35111e68c38f")))
+                 "b33e35927d51f13e4b11ed6c2441d74193c57f82")))
         (sha256
           (base32
-            "00zgkg3biy3lkaj9jsmn7b4nmnlyj0bqsjfc4qabm2mk0yar0is6"))))
+            "0lwiizwqpf100anl6ihk4y04y4qj0lwdx792hrv99z0yd9dskwwj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/awk-ts-mode")
@@ -27441,17 +27441,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231113.908")
+    (version "20231117.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "98c53882a6b6703c62d7a59e0dcdf5e29ca2ca95")))
+                 "0f148a993aafd86b085faa294cf962f025320fb2")))
         (sha256
           (base32
-            "17isgyg85fdhhhzn9jh6d0cba19ag7zwkppc1n34i2knm91411hm"))))
+            "1l81s9x8h83pwdnb3i67xv1ybfp0yc990b27mw5xr6zqps34l3xm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -27670,19 +27670,20 @@
 (define-public emacs-ebib
   (package
     (name "emacs-ebib")
-    (version "20231103.2")
+    (version "20231117.731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/joostkremers/ebib.git")
                (commit
-                 "6381458947bc6fb6c0605469bceb92784a9fbd67")))
+                 "e6a88d62e5386ef056bd4fca4a95afe9e5ba6fe3")))
         (sha256
           (base32
-            "08j6z4rpnvz7vhdrm7y3prf2jpxclqicid6as4qljysq3czzfhay"))))
+            "07pyb76impqpczx6hl6amfs4hfnszfwydp27az46dkqc17hy0fgy"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-parsebib))
+    (propagated-inputs
+      (list emacs-parsebib emacs-compat))
     (home-page "http://joostkremers.github.io/ebib/")
     (synopsis "a BibTeX database manager")
     (description
@@ -32246,17 +32247,17 @@
 (define-public emacs-empv
   (package
     (name "emacs-empv")
-    (version "20231007.1911")
+    (version "20231117.812")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/empv.el.git")
                (commit
-                 "4af3b3624a4714558081d693c91602b9304e8fcb")))
+                 "46af2b87bf091fda5a88cf8a1f0d1e2a3c18c82f")))
         (sha256
           (base32
-            "07xwxqjzah7dg62q0sz6ii8gi1aianqzp51aqql7mg8hyssjzpyj"))))
+            "0mwiqv7i1288y0z8dbjdkr0clyfa9b3nlpn8sdh6gbpj81imjhaf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s))
     (home-page "https://github.com/isamert/empv.el")
@@ -76554,17 +76555,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231116.2124")
+    (version "20231117.1532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "2793a21472375ed01ec97922ceb0fa6df7a40b33")))
+                 "040d3f4ed02191a6f38830c2b27bc8e83c51d0e1")))
         (sha256
           (base32
-            "0k60z1gsc5r9zhvvky6bqw9syy4c1zlsc26039hpjbk8f9mqw8ri"))))
+            "1w6r7i9r1vfw8ibvqpv7ka13d4y4z23b8cyabb7g4723a730pyj4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -80547,17 +80548,17 @@
 (define-public emacs-neil
   (package
     (name "emacs-neil")
-    (version "20231116.1226")
+    (version "20231117.905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/babashka/neil.git")
                (commit
-                 "b8d7a1602ef848e5928a0f11add8973b91e0acf0")))
+                 "40993873bb4ef6d88af450e8a96d03275e266f6b")))
         (sha256
           (base32
-            "19db4z8xbiil47sn1pl67s3k54qvf7pp772yg9gzxwigslzw8y95"))))
+            "10jjpih7iqlx7wh2cikfjvf9yqb4ham4zaf2zxkhhgjyrp6sjj4z"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/babashka/neil")
     (synopsis "companion for Babashka Neil")
@@ -89930,17 +89931,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20231106.43")
+    (version "20231117.815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "81bcb84e39587d99b3946e9b32f962975787f49e")))
+                 "c2e0f8e2400e308fdbc18e0e40533a21d5c5f4f0")))
         (sha256
           (base32
-            "0wnd4qyfibcjf5m7gq54jskfij2b77z4qzvl98pkbdy9gxlqgwbi"))))
+            "06g4yqx4rs4rrsbxks7ryczcgrjyp2dn0r67sa8f25768ad5nk5f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-nerd-icons))
     (home-page
@@ -91291,17 +91292,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231014.1337")
+    (version "20231117.1443")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "cccaf20de935b265832a6fc5c6a25eceb175d23c")))
+                 "22dd76e095ba87c9d55f451b3acd53ce0948ca71")))
         (sha256
           (base32
-            "0bva1n1ij1xw8wdwhqs1258ihk7lw8f6ppbadw9s1ixq8fqja75l"))))
+            "1y43lmv25xf3kzivanh2i1ghd86y8ly1lqyqgzk2xkcjjg0cn3a5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -117686,17 +117687,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231116.1")
+    (version "20231117.945")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "08441b4daedbb2688edb2dd3cac0aa71cca675f7")))
+                 "03d1b9da818a6980e53c415504b3672ee7551a80")))
         (sha256
           (base32
-            "1fish0g8dvd6m0lgzy2k92g5dk52swynyyqhv6pyj2wjmwb7cx6f"))))
+            "0q1y9nb4xfwlwnywksc8yydmlmrxq6iswwgrpz2jh9brxpl09796"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -127462,17 +127463,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20231114.2224")
+    (version "20231117.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "7ccee2953001b76f251a087e941f227c1f63bfec")))
+                 "db56e01d0740651421680e9e1d8a5000e485dcd7")))
         (sha256
           (base32
-            "1gb3sjh25xh8d938xlprajcylxdycxfijwnnizhb1c80lr5lnprw"))))
+            "1rajagd57vvzglhmmpvnh4mlpwrla7fg6vrd3y8p50w3dyjgmh92"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -127487,17 +127488,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20231114.2224")
+    (version "20231117.1137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "7ccee2953001b76f251a087e941f227c1f63bfec")))
+                 "db56e01d0740651421680e9e1d8a5000e485dcd7")))
         (sha256
           (base32
-            "1gb3sjh25xh8d938xlprajcylxdycxfijwnnizhb1c80lr5lnprw"))))
+            "1rajagd57vvzglhmmpvnh4mlpwrla7fg6vrd3y8p50w3dyjgmh92"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
