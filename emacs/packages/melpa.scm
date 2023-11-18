@@ -3811,18 +3811,21 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20231112.32")
+    (version "20231118.53")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "ddea9bea708ce029cea6126b5be8e9f8979c58b3")))
+                 "615b0f5591c922292e7c51cafc7bb0d2c8821f07")))
         (sha256
           (base32
-            "05lg9qych2x31cw8clfngrhzqgs858kcawnk07pyp45563pm0zjl"))))
+            "1wgc3l553af6qrmwk3dy82bpgkxvnpki6hcz0phkmc4naxfvqja0"))))
     (build-system melpa-build-system)
+    (arguments
+      '(#:files
+        (:defaults ("scripts" "scripts/formatters"))))
     (home-page
       "https://github.com/radian-software/apheleia")
     (synopsis "Reformat buffer stably")
@@ -11649,17 +11652,17 @@
 (define-public emacs-cdlatex
   (package
     (name "emacs-cdlatex")
-    (version "20230920.942")
+    (version "20231118.645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cdominik/cdlatex.git")
                (commit
-                 "7521fa1b39de735dcbd32bca92a792d5261e9ce2")))
+                 "33770dec73138909714711b05a63e79da5a19ccd")))
         (sha256
           (base32
-            "1bdjcfk3xs85r2zkkl54dpk34x4dm9n8psw27ry69sa24nshqrps"))))
+            "05wxwc28wsndj2ks0ymdbfr2sz4ybr0py85p3dryps82vv2qzbpj"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -15684,17 +15687,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231115.2254")
+    (version "20231118.30")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "e22230561ef559b032b4a2d79bef686d494b8ea6")))
+                 "8269401fcf67a411e7f650bc52382a8e97ba952a")))
         (sha256
           (base32
-            "02lhq2iaxyarvq0h194ivzvw8fncvv0a1hp9dxhd47jr83k0wj84"))))
+            "02l82968m13zygmck570h70s72ixh9cibsznz5rqrlfawl0v96p7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -27441,17 +27444,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231117.817")
+    (version "20231118.208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "0f148a993aafd86b085faa294cf962f025320fb2")))
+                 "2c9ac65bb6c12e1f6f612feebaa1441ca7cd69cf")))
         (sha256
           (base32
-            "1l81s9x8h83pwdnb3i67xv1ybfp0yc990b27mw5xr6zqps34l3xm"))))
+            "05954m2vp27r172sy9yrhf7wdnq411737dbz57jvlcrv0ilc61g3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -76555,17 +76558,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231117.1532")
+    (version "20231118.329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "040d3f4ed02191a6f38830c2b27bc8e83c51d0e1")))
+                 "5c43d10138cb7911138a42d054dae0fc11bc7146")))
         (sha256
           (base32
-            "1w6r7i9r1vfw8ibvqpv7ka13d4y4z23b8cyabb7g4723a730pyj4"))))
+            "08zgsl21a6n5f763cwgdxhv9amdvmixsz3fjdh75sw4x3377xw42"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -77576,7 +77579,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231117.500")
+    (version "20231118.616")
     (source
       (origin
         (method url-fetch)
@@ -77586,7 +77589,7 @@
                ".tar"))
         (sha256
           (base32
-            "1c32ss4bhxn3nlxcaigylj4nh2cw6n0pfl4vclks01psahh9ynz3"))))
+            "07cv4pbpqaifmqcry1xrx5kad1w58m04zw5qy8halclcn1da50z5"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -95865,17 +95868,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20230929.123")
+    (version "20231118.532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "4a29636243ba7f4afba476348587713531d994bc")))
+                 "1565b0db7d547d4e339ce7aaf27653eafc705090")))
         (sha256
           (base32
-            "1gavi8gr1hwj1hrnciwc7ckcycl32l42bp2ablw66h1nr12qm698"))))
+            "1vawcwwh7i03agfgbbzijczdxnq4w69ya8gr3dgfc1qx1swavz25"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -127463,17 +127466,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20231117.1137")
+    (version "20231118.656")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "db56e01d0740651421680e9e1d8a5000e485dcd7")))
+                 "ff2963fbd47f088bc1b3fda608e0086fbe91d86b")))
         (sha256
           (base32
-            "1rajagd57vvzglhmmpvnh4mlpwrla7fg6vrd3y8p50w3dyjgmh92"))))
+            "0z518c5g1p231h922z888b09whkvf9dr89kwfby2wq36i0gf5k72"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -127488,17 +127491,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20231117.1137")
+    (version "20231118.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "db56e01d0740651421680e9e1d8a5000e485dcd7")))
+                 "ff2963fbd47f088bc1b3fda608e0086fbe91d86b")))
         (sha256
           (base32
-            "1rajagd57vvzglhmmpvnh4mlpwrla7fg6vrd3y8p50w3dyjgmh92"))))
+            "0z518c5g1p231h922z888b09whkvf9dr89kwfby2wq36i0gf5k72"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
