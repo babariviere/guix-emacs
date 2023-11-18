@@ -72282,17 +72282,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231115.1221")
+    (version "20231118.1455")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "91dbd0240afb5223b2ddfca8326d1c2fb3e8cf7f")))
+                 "b25ee182623eb53ef43e692e2d6bbd72740796bb")))
         (sha256
           (base32
-            "1anibzm7w9arzqpfm6p01v0522j022g2mwa01w0p1idwg6jjiivf"))))
+            "0mhbcq9434zfypdfdaqnmwskynhhz6rvbkb03hink8w6waw1m728"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -76558,17 +76558,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231118.329")
+    (version "20231118.1114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "5c43d10138cb7911138a42d054dae0fc11bc7146")))
+                 "17e4815bf3204df45b795cdd478c4400389d0202")))
         (sha256
           (base32
-            "08zgsl21a6n5f763cwgdxhv9amdvmixsz3fjdh75sw4x3377xw42"))))
+            "1wngcpsnz4wycrhqvmffhicfpqm0vni3pmlxpk3lwxvc2cs75vxm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -76990,17 +76990,17 @@
 (define-public emacs-mistty
   (package
     (name "emacs-mistty")
-    (version "20231106.1627")
+    (version "20231118.1206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/szermatt/mistty.git")
                (commit
-                 "7f9d259db5e50bbb13876b5927ee78b3d7d127ea")))
+                 "32eef48e64faa3ab6c81a32e9da0d721790d0f86")))
         (sha256
           (base32
-            "1zgw59cpnhnb7jxck2bdkb27fzh60l3cl2g4zx86xzm8nv2zrv09"))))
+            "0hqzkbzcak0v6ciy0saa3bfcmjzg950zdrgfm4qq09pc1y07javy"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/szermatt/mistty")
     (synopsis
@@ -105805,17 +105805,17 @@
 (define-public emacs-robot-mode
   (package
     (name "emacs-robot-mode")
-    (version "20221109.1630")
+    (version "20231118.826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kopoli/robot-mode.git")
                (commit
-                 "fb9be47a1d4e57a80ae2c0d4dff3eba2fe29ebdc")))
+                 "cb12e5adcba3379a67483e268229c152e0a8405f")))
         (sha256
           (base32
-            "10i4lwjf60ms3dj8s7k9c0vb24rhszskhciz9lijphcdh8k622hz"))))
+            "1a377lws4f0az2y1r3z2i3mghvg7a4094wkchvjvsl1nd6yxdxwa"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kopoli/robot-mode")
@@ -117690,17 +117690,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231117.1743")
+    (version "20231118.930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "ce1f226ad6a1273054b7a98b8406f4c061af5ff7")))
+                 "1d1a74e734ddf91f2cf1ff77807e21e5a9f2262d")))
         (sha256
           (base32
-            "0nn8s4yss5asqgy3ym14rmz71vr3iimx483f09nghh4lkkxg2wnw"))))
+            "1gk69c7dnr21dimpvhxzhaq5wlskdh6a2kgn27g8nfpmyaicy7lv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
