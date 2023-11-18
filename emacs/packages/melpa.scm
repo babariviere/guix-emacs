@@ -51943,17 +51943,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231103.1440")
+    (version "20231117.1548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "790686fd26681c9602b534075efa09a522a5847d")))
+                 "d734c8457bec0d5c2844383490fb8ecf8904e9ea")))
         (sha256
           (base32
-            "0h2bgrqi49x4s3znyxiaxa4is5rl4cab94dysycardlhw1gn9cld"))))
+            "0q6cimll7g0vavvcr691109ib5ifbp07qd5jnws1nsb1006gdxlv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -71942,17 +71942,17 @@
 (define-public emacs-lsp-docker
   (package
     (name "emacs-lsp-docker")
-    (version "20230824.947")
+    (version "20231117.1611")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-docker.git")
                (commit
-                 "6b7701917417e4e74961185051c147e1bf003750")))
+                 "a9beb0b5c3cdb3fb1b6e34c6ad752f3b8474ae8a")))
         (sha256
           (base32
-            "0xnc9lbjflwdhslp8z44dk0dqsq4x9zirwbzgfg95ai2z76ldmny"))))
+            "1ciq7jrrk1avxsz4azc3lhn5hk01ad0fb2vrkka1i922la8r1rgh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73208,17 +73208,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231112.914")
+    (version "20231117.1800")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "f4ff817cb2a48f0f7887050c3be469c03a059567")))
+                 "fb1a3c487eabe51f2bf5f80cb9a6d9e43172f8b0")))
         (sha256
           (base32
-            "0y0sfxky27yx0wsxfbqydigm2x4596dyf1x1psn66gfgjm9yjcff"))))
+            "0hi02v1jssdrr5jx1vij37z3sfs4wnz5xx4xkp14gfkq7ljr1qb1"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -100298,17 +100298,17 @@
 (define-public emacs-psession
   (package
     (name "emacs-psession")
-    (version "20231107.735")
+    (version "20231117.1648")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thierryvolpiatto/psession.git")
                (commit
-                 "76101f8a5afe705e4a815ab51b87aff03a64cb91")))
+                 "5fdca68ca4bf4fafaf3aa438401ec611bc430782")))
         (sha256
           (base32
-            "1ylcqf882n2mzixs5r7r4fzyngic6spff9yc8mz5rvg4l4633qdl"))))
+            "1696cqk9p06n9b8jqn37qb5y15slvfljsp5yxvahmscfcfnjfqs3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (home-page
@@ -117413,17 +117413,17 @@
 (define-public emacs-tao-theme
   (package
     (name "emacs-tao-theme")
-    (version "20230906.1605")
+    (version "20231117.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/11111000000/tao-theme-emacs.git")
                (commit
-                 "328d50abd0628dba06f127e5bf26f7cbd52c5a71")))
+                 "593494030bc7651efff0c79c62d5e21d3fd54f4f")))
         (sha256
           (base32
-            "1l3w4icfbmjaariq85f7rxw4lq3ydgkc78szvn4zwca3iafyipn7"))))
+            "0741y62m8acpqk87s2bf2iw14m1nppgisdvarvrgz55x6zvn1mk9"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/11111000000/tao-theme-emacs")
@@ -117506,17 +117506,17 @@
 (define-public emacs-tawny-mode
   (package
     (name "emacs-tawny-mode")
-    (version "20210528.1710")
+    (version "20231117.1644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/phillord/tawny-owl.git")
                (commit
-                 "d0ca5ecffa39d83704c423a2f8f7cd4f93f9915b")))
+                 "79a39fe6da520edba9546848d8f30465e670fcf6")))
         (sha256
           (base32
-            "04nc27y8pwd1y78qq0d10iygmgk3scs3gsp9wdg016rwd7axca2j"))))
+            "0g9666g2w2gbn2v6qb4j1mmfh1hmf263a0gmr4p92bhjfvzfxad9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-cider))
     (arguments '(#:files ("emacs/tawny-mode.el")))
@@ -117687,17 +117687,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231117.945")
+    (version "20231117.1743")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "03d1b9da818a6980e53c415504b3672ee7551a80")))
+                 "ce1f226ad6a1273054b7a98b8406f4c061af5ff7")))
         (sha256
           (base32
-            "0q1y9nb4xfwlwnywksc8yydmlmrxq6iswwgrpz2jh9brxpl09796"))))
+            "0nn8s4yss5asqgy3ym14rmz71vr3iimx483f09nghh4lkkxg2wnw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
