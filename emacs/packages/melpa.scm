@@ -14748,17 +14748,17 @@
 (define-public emacs-code-cells
   (package
     (name "emacs-code-cells")
-    (version "20231015.1328")
+    (version "20231118.1635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/code-cells.el.git")
                (commit
-                 "8a1f0281f88239b956250a8c76bada8aa9debe2c")))
+                 "e470ea314cab37c63e223f1f31c2bd075f9ccd7b")))
         (sha256
           (base32
-            "1yyfwxnq3wfaakij7yvlv8f6gs1y8r3q3vhyqic2q4z98kws7jm9"))))
+            "059nnq7sgr5v3gp1d60giax35kmg1rc5n13aq7a2m9l52dq8n83j"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/code-cells.el")
@@ -51946,17 +51946,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231117.1548")
+    (version "20231118.1618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "d734c8457bec0d5c2844383490fb8ecf8904e9ea")))
+                 "4052377aad114c13652cc197607dd4132b76d5a8")))
         (sha256
           (base32
-            "0q6cimll7g0vavvcr691109ib5ifbp07qd5jnws1nsb1006gdxlv"))))
+            "1r8fd5slg1lwc79skbv3hicdh6w89qwr87hy4lvnyxsvdrjbsb3z"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -72282,17 +72282,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231118.1455")
+    (version "20231118.1818")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "b25ee182623eb53ef43e692e2d6bbd72740796bb")))
+                 "cb2b565b4e9b38be1f4c284e7618160383ad665d")))
         (sha256
           (base32
-            "0mhbcq9434zfypdfdaqnmwskynhhz6rvbkb03hink8w6waw1m728"))))
+            "0rhap2l0d2djx2acpi37wx0wjqm765p62c0jwjs2557cl0q9i3nr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -102446,17 +102446,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231115.1544")
+    (version "20231118.1639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "296de3c15580805f2d84dd30e01eb9b12f18bc3f")))
+                 "b7e4d62672a8df3495f6125fdf34b5e3b972d36a")))
         (sha256
           (base32
-            "1w6pxgmm7s769g7falshpvnb0klql3pz3h9461rvgmvxmrraas93"))))
+            "0kh3lkvh2ak2qf3caqfbcqj654z9c4z4f163fqqpyjvngrr3cbyg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -121328,17 +121328,17 @@
 (define-public emacs-treesit-auto
   (package
     (name "emacs-treesit-auto")
-    (version "20231111.250")
+    (version "20231118.1911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/renzmann/treesit-auto.git")
                (commit
-                 "e3beb757ce42de47b063023d08ebdf49613b56bd")))
+                 "f140fb604509728620d6748c0a5704c707f9af82")))
         (sha256
           (base32
-            "1r7bag4iyvsi8lqnwyacsk1fwclwkazwr9yz1a0kjcw7fqj9ysmd"))))
+            "12qlx0sfwa7pqg6wm83agmd71yqzcd062qx8r9q2mn1flszrmqsr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/renzmann/treesit-auto.git")
@@ -127036,17 +127036,17 @@
 (define-public emacs-wgsl-mode
   (package
     (name "emacs-wgsl-mode")
-    (version "20221127.2129")
+    (version "20231118.1944")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/acowley/wgsl-mode.git")
                (commit
-                 "e7856d6755d93e40ed74598a68ef5f607322618b")))
+                 "003a4e99491fa2a0b777f74658e6ffc70fd3a8c2")))
         (sha256
           (base32
-            "0344db2kx1hw1gr971iqxhwy7qzn2vfkjgg8ccla9zsf22nlqxk3"))))
+            "10396w84a22zfcgihqhpri5q2w7z0g4n08kbhg03v0zclfb5dgwz"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/acowley/wgsl-mode")
