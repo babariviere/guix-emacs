@@ -12143,17 +12143,17 @@
 (define-public emacs-champagne
   (package
     (name "emacs-champagne")
-    (version "20231111.358")
+    (version "20231119.1151")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/positron-solutions/champagne.git")
                (commit
-                 "a99e1584207bc03a0cb776f715bd47de1d651010")))
+                 "800d4834f3973962e37959406eb2709a92d511b0")))
         (sha256
           (base32
-            "09ms3yx7h2ynqyf9mdjp90asahncq7k1mvnbkvj1g9f1l59zk6ns"))))
+            "147ipl4qwbqg1n453yc913gnj0gan4nvqmpzf5hx5n9v0ka7j6nc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-posframe))
     (home-page
@@ -72282,17 +72282,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231118.1818")
+    (version "20231119.1209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "cb2b565b4e9b38be1f4c284e7618160383ad665d")))
+                 "e8fc0cde2f8b1ad9ccc47f928ab5a8c9002d9622")))
         (sha256
           (base32
-            "0rhap2l0d2djx2acpi37wx0wjqm765p62c0jwjs2557cl0q9i3nr"))))
+            "0pcc8h8dby9f7cgsih5p4j8crbvkypwsgakgkz3whg7n3alfgshm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -89934,17 +89934,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20231117.815")
+    (version "20231119.1131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "c2e0f8e2400e308fdbc18e0e40533a21d5c5f4f0")))
+                 "4feaed3dfa09df90422d76b5a34089660a97ef7e")))
         (sha256
           (base32
-            "06g4yqx4rs4rrsbxks7ryczcgrjyp2dn0r67sa8f25768ad5nk5f"))))
+            "07bs8l2c5y80hxnzgvdxaijs2r0rsd23a8b7m80f8gf5nc3y8gkw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-nerd-icons))
     (home-page
@@ -91295,17 +91295,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231117.1443")
+    (version "20231119.852")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "22dd76e095ba87c9d55f451b3acd53ce0948ca71")))
+                 "c05aa2cb0ad57bde4e4048239328689b7123ec00")))
         (sha256
           (base32
-            "1y43lmv25xf3kzivanh2i1ghd86y8ly1lqyqgzk2xkcjjg0cn3a5"))))
+            "19d8fzr86b7adkhsr5jbx202la0my0fl34dlmqkk4am1l6p3di0g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -127466,17 +127466,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20231118.656")
+    (version "20231119.749")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "ff2963fbd47f088bc1b3fda608e0086fbe91d86b")))
+                 "2d6bcb77f1d7c6c1c87ee9e2251449b6ffd4d91e")))
         (sha256
           (base32
-            "0z518c5g1p231h922z888b09whkvf9dr89kwfby2wq36i0gf5k72"))))
+            "1a8k1l8wf9xqx7lq3hfyb5snm113frxfy5jwhp0qq06sdaprwcyk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -127491,17 +127491,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20231118.654")
+    (version "20231119.749")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "ff2963fbd47f088bc1b3fda608e0086fbe91d86b")))
+                 "2d6bcb77f1d7c6c1c87ee9e2251449b6ffd4d91e")))
         (sha256
           (base32
-            "0z518c5g1p231h922z888b09whkvf9dr89kwfby2wq36i0gf5k72"))))
+            "1a8k1l8wf9xqx7lq3hfyb5snm113frxfy5jwhp0qq06sdaprwcyk"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
