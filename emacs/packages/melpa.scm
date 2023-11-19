@@ -15687,17 +15687,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231118.30")
+    (version "20231119.52")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "8269401fcf67a411e7f650bc52382a8e97ba952a")))
+                 "d9d54abaf78da1e62fad7def8eeeb4c41110725d")))
         (sha256
           (base32
-            "02l82968m13zygmck570h70s72ixh9cibsznz5rqrlfawl0v96p7"))))
+            "0sl34jlx7gkwfc5hbfr05hh5y14vr5pkr1889ps4kzg8nwzdq0bj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29936,17 +29936,17 @@
 (define-public emacs-elfeed-curate
   (package
     (name "emacs-elfeed-curate")
-    (version "20231110.1646")
+    (version "20231119.32")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rnadler/elfeed-curate.git")
                (commit
-                 "8d3628c81fc7dd9fefb9c5beca9fe4eab3575238")))
+                 "195ee944a1dd95380c680d886e15a8aadab50b8e")))
         (sha256
           (base32
-            "16577gvlxs3dw8i02jgghlnnvq5r8b9d0b833j0d1fy67wj4dj1h"))))
+            "052wz0aw9mwfzs34pa6wf1kh5fwp155pnp4b4f159nj0w6ih9mk6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-elfeed))
     (home-page
@@ -67313,17 +67313,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20231116.1948")
+    (version "20231119.222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "68ac1e0193cef4e7c12b4025125756c6dd14f699")))
+                 "736744be3ae41187316d68a3812c25159c491be6")))
         (sha256
           (base32
-            "07k0dfgd6217c7ssi1cs2whdhrc07d6765rwn4g2mpc3a1rr396b"))))
+            "1vvplj1n2b3k6bb559dc9v07hrm3qwbgcx3gqx36ralc1rkbw11x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
