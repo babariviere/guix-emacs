@@ -32278,19 +32278,19 @@
 (define-public emacs-empv
   (package
     (name "emacs-empv")
-    (version "20231117.812")
+    (version "20231119.2257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/empv.el.git")
                (commit
-                 "46af2b87bf091fda5a88cf8a1f0d1e2a3c18c82f")))
+                 "7826725fdd1c6c2416f0de76bb0b5ee10d39035a")))
         (sha256
           (base32
-            "0mwiqv7i1288y0z8dbjdkr0clyfa9b3nlpn8sdh6gbpj81imjhaf"))))
+            "12gf786slnzzgcg7msdslf33rym84wvw6kij9drc59h5ak0sig4y"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-s))
+    (propagated-inputs (list emacs-s emacs-compat))
     (home-page "https://github.com/isamert/empv.el")
     (synopsis
       "A multimedia player/manager, YouTube interface")
@@ -63215,17 +63215,17 @@
 (define-public emacs-ivy-emms
   (package
     (name "emacs-ivy-emms")
-    (version "20210817.1300")
+    (version "20231112.1621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/franburstall/ivy-emms.git")
                (commit
-                 "dfde98c3bdad8136709eac8382ba048fafdcc6ac")))
+                 "c6b200bf5faacf43bb17d40fab71a6bf39ca39de")))
         (sha256
           (base32
-            "0h7f9yj2dx36pjqdf6n803xhv7m96xgj11hi59kh1rvr8d28pgm0"))))
+            "1flff1ny0cfmhs10sza840adr4ancfa4slql1h026cc2fqz82hvh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ivy emacs-emms))
     (home-page
@@ -129780,17 +129780,17 @@
 (define-public emacs-yaml-mode
   (package
     (name "emacs-yaml-mode")
-    (version "20231003.1142")
+    (version "20231120.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yoshiki/yaml-mode.git")
                (commit
-                 "23395dfcf004c952850691b70e63f97f169596e8")))
+                 "aa7f04d8aaeb1b580904a84cadf561721d9acdbb")))
         (sha256
           (base32
-            "0jqg2hmh7qsgqywwd6fy3k8z8j45nqhpdzr3hw4hd5s2hry3zhg1"))))
+            "1kgig5b975gcxfyq4z69nmf70fr6cznl2p7hvga5dy680xxls5yd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yoshiki/yaml-mode")
