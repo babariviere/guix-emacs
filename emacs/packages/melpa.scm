@@ -13191,17 +13191,17 @@
 (define-public emacs-circe
   (package
     (name "emacs-circe")
-    (version "20230910.1438")
+    (version "20231119.1420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-circe/circe.git")
                (commit
-                 "920ed78499c8967ef75912e9ff1247b8d19e1cee")))
+                 "d374042741cfd0691135f215d311dca8b7a47d19")))
         (sha256
           (base32
-            "03bbpkl6dywn6s4lpw1jc8y2p8dlrxv9dshcz2b227z5dghfmmax"))))
+            "0509nskxf2a4msidqq18pymn0szpxmn05dfmrp7x4lwarjgr4f37"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-circe/circe")
@@ -14748,17 +14748,17 @@
 (define-public emacs-code-cells
   (package
     (name "emacs-code-cells")
-    (version "20231118.1635")
+    (version "20231119.2138")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/code-cells.el.git")
                (commit
-                 "e470ea314cab37c63e223f1f31c2bd075f9ccd7b")))
+                 "44546ca256f3da29e3ac884e3d699c8455acbd6e")))
         (sha256
           (base32
-            "059nnq7sgr5v3gp1d60giax35kmg1rc5n13aq7a2m9l52dq8n83j"))))
+            "1fc5l87kzmnwxmrq2v7x4jzcplq375v9j0h2yz4grzaql3jcc419"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/code-cells.el")
@@ -27487,6 +27487,34 @@
       "Documentation at https://melpa.org/#/eask-mode")
     (license #f)))
 
+(define-public emacs-easky
+  (package
+    (name "emacs-easky")
+    (version "20231113.942")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/emacs-eask/easky.git")
+               (commit
+                 "9b2f316dafaf238a16842ebad181f3b52ee9903c")))
+        (sha256
+          (base32
+            "0pq7ff5w44bnv1vakqdyvrs4hihpdcax8p8fg2z2mh7w7ljh11na"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-eask-mode
+            emacs-eask
+            emacs-ansi
+            emacs-lv
+            emacs-marquee-header))
+    (home-page "https://github.com/emacs-eask/easky")
+    (synopsis
+      "Control the Eask command-line interface")
+    (description
+      "Documentation at https://melpa.org/#/easky")
+    (license #f)))
+
 (define-public emacs-easy-after-load
   (package
     (name "emacs-easy-after-load")
@@ -36568,19 +36596,19 @@
 (define-public emacs-evil-textobj-syntax
   (package
     (name "emacs-evil-textobj-syntax")
-    (version "20231016.1544")
+    (version "20231119.1633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/laishulu/evil-textobj-syntax.git")
                (commit
-                 "c1a7afe81bca3da6a2fdc7ea9376fdc2e1e9249c")))
+                 "64252ded690a2e65b71a1c84aa3acd24e704d02f")))
         (sha256
           (base32
-            "1xlav0ii17b4j3d7q6mkn48q3cxnmq0kyipxrayqn5njn6rg31ap"))))
+            "1p85qq8zag3cvpsx4pgh0hd3a6gj5p802zb28077fhqbzmywnjmg"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-names emacs-evil))
+    (propagated-inputs (list emacs-evil))
     (home-page
       "https://github.com/laishulu/evil-textobj-syntax")
     (synopsis "Provides syntax text objects.")
@@ -39029,17 +39057,17 @@
 (define-public emacs-finito
   (package
     (name "emacs-finito")
-    (version "20230921.1805")
+    (version "20231119.2001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/finito.el.git")
                (commit
-                 "c2b91c583374ffb8ea629c312132104c07af741d")))
+                 "9884bd2eec0f6c4ee54a5d1c2117531552aceef6")))
         (sha256
           (base32
-            "0a8j46dbqr07rw2a3xnl5kh45rwm5fdnmhhy01l1iyw88w2z8azs"))))
+            "0az1zx65d9rqr8d4jcyh9318l7daki9xqnnf7v7gqa6d497v87jm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -67313,17 +67341,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20231119.222")
+    (version "20231119.1750")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "736744be3ae41187316d68a3812c25159c491be6")))
+                 "237195e20e296e851c41219a7af7222266937d44")))
         (sha256
           (base32
-            "1vvplj1n2b3k6bb559dc9v07hrm3qwbgcx3gqx36ralc1rkbw11x"))))
+            "06giyvnfaj3h27pdgfr00w92md6gdz9jzgggv11092zsdyawr6p6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -68263,23 +68291,24 @@
 (define-public emacs-lab
   (package
     (name "emacs-lab")
-    (version "20231112.2208")
+    (version "20231119.2259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/lab.el.git")
                (commit
-                 "9f0f738c46712f5365d9d75c37ce6d1f8b6e9ba7")))
+                 "df1984f04f43bde2fa769fc874d410a3d511d964")))
         (sha256
           (base32
-            "0k54x2znxwq3ji8cvxc37h9fnr0krpyyx954f106fa7gylp86kz4"))))
+            "02xhngamkfh4gpdc897xgc7fjpxgbd38kykdw68c7qzqdzmp2n93"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-memoize
             emacs-request
             emacs-s
-            emacs-f))
+            emacs-f
+            emacs-compat))
     (home-page "https://github.com/isamert/lab.el")
     (synopsis "An interface for GitLab")
     (description
@@ -71204,6 +71233,28 @@
     (synopsis "A client for llama-cpp server")
     (description
       "Documentation at https://melpa.org/#/llama-cpp")
+    (license #f)))
+
+(define-public emacs-llvm-ts-mode
+  (package
+    (name "emacs-llvm-ts-mode")
+    (version "20231115.1306")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nverno/llvm-ts-mode.git")
+               (commit
+                 "f2dcfe0a3d99472d69394981b88fcdd6a11ed283")))
+        (sha256
+          (base32
+            "14n38razbd79kw1y8kqcbsvfijn67a3ahg5h7065jj670lch5dd3"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/nverno/llvm-ts-mode")
+    (synopsis "LLVM major mode using tree-sitter")
+    (description
+      "Documentation at https://melpa.org/#/llvm-ts-mode")
     (license #f)))
 
 (define-public emacs-lms
@@ -76990,17 +77041,17 @@
 (define-public emacs-mistty
   (package
     (name "emacs-mistty")
-    (version "20231118.1206")
+    (version "20231119.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/szermatt/mistty.git")
                (commit
-                 "32eef48e64faa3ab6c81a32e9da0d721790d0f86")))
+                 "98061e6016059ee8ce6fa785fb4f5ea476d0a00c")))
         (sha256
           (base32
-            "0hqzkbzcak0v6ciy0saa3bfcmjzg950zdrgfm4qq09pc1y07javy"))))
+            "1fayrwbchmyic39wgzr7gg7ippqf7283056rhhn6ccapca2dwb2b"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/szermatt/mistty")
     (synopsis
@@ -106495,6 +106546,29 @@
       "Documentation at https://melpa.org/#/ruby-tools")
     (license #f)))
 
+(define-public emacs-ruff-format
+  (package
+    (name "emacs-ruff-format")
+    (version "20231117.2220")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/scop/emacs-ruff-format.git")
+               (commit
+                 "af6bd49b48cd1583b05268b7d2efc1c7e1c6a113")))
+        (sha256
+          (base32
+            "1d7p22rgrmi88jrw3g7ry6h3xdabkcfnchk8x5af12pgqpfh2r2x"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-reformatter))
+    (home-page
+      "https://github.com/scop/emacs-ruff-format")
+    (synopsis "Ruff format Python source")
+    (description
+      "Documentation at https://melpa.org/#/ruff-format")
+    (license #f)))
+
 (define-public emacs-rufo
   (package
     (name "emacs-rufo")
@@ -108725,6 +108799,29 @@
     (synopsis "Many commands into one command")
     (description
       "Documentation at https://melpa.org/#/sequential-command")
+    (license #f)))
+
+(define-public emacs-sequential-yank
+  (package
+    (name "emacs-sequential-yank")
+    (version "20231114.818")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/knu/sequential-yank.el.git")
+               (commit
+                 "7d04f9ccdf3000d82b8ac8821fd3f4276ab328ce")))
+        (sha256
+          (base32
+            "0b73pi3k81v03s4ygbklbww4bgbzk415am1br7aqk9zx7jpqmk9k"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/knu/sequential-yank.el")
+    (synopsis
+      "Minor mode to copy and paste strings sequentially")
+    (description
+      "Documentation at https://melpa.org/#/sequential-yank")
     (license #f)))
 
 (define-public emacs-seriestracker
@@ -117041,6 +117138,29 @@
       "Documentation at https://melpa.org/#/tab-bar-lost-commands")
     (license #f)))
 
+(define-public emacs-tab-bar-notch
+  (package
+    (name "emacs-tab-bar-notch")
+    (version "20231116.1500")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/jimeh/tab-bar-notch.git")
+               (commit
+                 "c94d9ffe00de55a805d89af78126c83c623da049")))
+        (sha256
+          (base32
+            "1z8fq6yy3d06dqixhxv7q726qli8ka2b78g84biac4c0pnl0b1q9"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/jimeh/tab-bar-notch")
+    (synopsis
+      "Adjust tab-bar height for MacBook Pro notch")
+    (description
+      "Documentation at https://melpa.org/#/tab-bar-notch")
+    (license #f)))
+
 (define-public emacs-tab-group
   (package
     (name "emacs-tab-group")
@@ -117209,17 +117329,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20231108.1340")
+    (version "20231119.1824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "3a0546d9e762600006d85a4c9785167d44ffe9a8")))
+                 "75cbfc0540887f1f6dc4f4f4ccaaa7c93adca5a6")))
         (sha256
           (base32
-            "1g36scf1620jg02xw2056vyrdx2mwm3qza4h00a1sc19i6qy50xq"))))
+            "1rhfwlz4ncrp4qg2w27z8x3f0mgymgkdlqrv72qfm10r44bn2m6x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -117690,17 +117810,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231118.930")
+    (version "20231119.2246")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "1d1a74e734ddf91f2cf1ff77807e21e5a9f2262d")))
+                 "528e6046151ee4395b4eafc6bef8f01dd9a1e00d")))
         (sha256
           (base32
-            "1gk69c7dnr21dimpvhxzhaq5wlskdh6a2kgn27g8nfpmyaicy7lv"))))
+            "0wiihpplxafyiksrq220knw15vhbd9fchilyp9159bb7hlhxbsz5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -120353,17 +120473,17 @@
 (define-public emacs-tracking
   (package
     (name "emacs-tracking")
-    (version "20220421.1956")
+    (version "20231119.1417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-circe/circe.git")
                (commit
-                 "57fe189d7c0b98b9b1b5a59767cea1c7e2c22b13")))
+                 "d374042741cfd0691135f215d311dca8b7a47d19")))
         (sha256
           (base32
-            "1hnfbzf4inx541mw1gnb5hxv6igdcwnlhpm8qs6z630appf3yxnc"))))
+            "0509nskxf2a4msidqq18pymn0szpxmn05dfmrp7x4lwarjgr4f37"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("tracking.el" "shorten.el")))
@@ -120492,17 +120612,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231112.923")
+    (version "20231118.1318")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "3cd1de1695084df089cc90cff89b32dfd6ca5a0a")))
+                 "609dabfdac8a4a08c1e88bea9bf6cd98934ef8d1")))
         (sha256
           (base32
-            "0j7cww8ip51nqn3qyw027ki7bcg4m7lmh6xxv8ahxsh6mb0iqcdv"))))
+            "10m43pfn21rmw6m1fjivbj946v89jf5gqh2kjxh2fia5sr29fqxr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -123342,17 +123462,17 @@
 (define-public emacs-ursa-ts-mode
   (package
     (name "emacs-ursa-ts-mode")
-    (version "20231113.2331")
+    (version "20231119.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ursalang/ursa-ts-mode.git")
                (commit
-                 "b4afa0c2f2a06fca4fcba8772989e4ca09bab7b9")))
+                 "8a2a6011ff68852c0714a9ef17b25efc519fdd64")))
         (sha256
           (base32
-            "1x9vlwwbrdghp02bpqgjni77wsnhcm0w8c0ph9v87xr21mpkwclk"))))
+            "0m515zx8k1gh5lji7fs97wcj8r0w488lzid7jrp1s7m3a6cd27hr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/ursalang/ursa-ts-mode")
@@ -124444,17 +124564,17 @@
 (define-public emacs-verb
   (package
     (name "emacs-verb")
-    (version "20231114.2309")
+    (version "20231119.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/federicotdn/verb.git")
                (commit
-                 "1edcf0c3758c70acb9393fda7dfbc5957bb0fbeb")))
+                 "5e9bd365a141954659492144e5cc8a2b85b98ddd")))
         (sha256
           (base32
-            "1wjrfzmalkgk9778kc4maz7khq1dli0x27ifyhgi8zvgy899pykc"))))
+            "1g6n0c1wfdxy3qyvdhw846ddl9llirm1pd4bianm7dxj0i3jy9c5"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/federicotdn/verb")
     (synopsis "Organize and send HTTP requests")
@@ -124665,17 +124785,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231112.816")
+    (version "20231119.1911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "49a1eb5f3653a3155bff6ff631b336989de61b18")))
+                 "0115a6e01d143e5b6ce00a6ce8eb9c8a309e4067")))
         (sha256
           (base32
-            "0fick90jrpgpxsim3n953vbffj572jgxk0cnqlkan5v6pp2px5y6"))))
+            "12gi3vn62nwbb0a3p0psg9b0binyhjcj58583y6wrcvfs16sji3l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -130145,20 +130265,20 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20231017.634")
+    (version "20231108.1016")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://git.thanosapollo.com/yeetube")
+               (url "https://git.thanosapollo.org/yeetube")
                (commit
-                 "610609061226c38a68267172e8975d8df1a1848d")))
+                 "cca40d2020ba45b0113d4a5d6a5c26995e07d83d")))
         (sha256
           (base32
-            "05w33431dfr1ldcg3yq01qvz0alpv8q88r0dsb278qbwszw9cfz6"))))
+            "02chclfhvr354xs9f89liddbw56gjq9zm21d535ql5hd8izpkh7k"))))
     (build-system melpa-build-system)
     (home-page
-      "https://git.thanosapollo.com/yeetube")
+      "https://git.thanosapollo.org/yeetube")
     (synopsis "YouTube Front End")
     (description
       "Documentation at https://melpa.org/#/yeetube")
