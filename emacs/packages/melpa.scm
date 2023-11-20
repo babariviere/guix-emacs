@@ -9526,17 +9526,17 @@
 (define-public emacs-brutalist-theme
   (package
     (name "emacs-brutalist-theme")
-    (version "20231112.1455")
+    (version "20231120.721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.madhouse-project.org/algernon/brutalist-theme.el.git")
                (commit
-                 "dbe094221fd727b8d3a4bffa84fc754df83c0450")))
+                 "c387f3f0aaae147270c61dcd3140fb4eb20965ad")))
         (sha256
           (base32
-            "1m9z3sswm79rawivgz4fw51cp20qznsa9911dci3b2xpnnhpz89i"))))
+            "1jbnm4wfz41ns51wl63qm2bkib7hfs437lx1bgdk9djbpiwik4d2"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.madhouse-project.org/algernon/brutalist-theme.el")
@@ -12281,17 +12281,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231113.356")
+    (version "20231120.1153")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "50984ba1e833be89c41b9779e8dca5d04cb16a29")))
+                 "1860b3e8b94a9a2d76828906fcb1046a0bc04255")))
         (sha256
           (base32
-            "1fvcd3gyipxq9x3yfl5q6i3yx2fq5vwqf6wx4c200awqc1crs89l"))))
+            "1r7lxgqqz8b2vxmv5mcs4c4pxfcihc7hywn72cagx30ilcm0k2y3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -71238,17 +71238,17 @@
 (define-public emacs-llvm-ts-mode
   (package
     (name "emacs-llvm-ts-mode")
-    (version "20231115.1306")
+    (version "20231120.1251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/llvm-ts-mode.git")
                (commit
-                 "f2dcfe0a3d99472d69394981b88fcdd6a11ed283")))
+                 "9974601dcddbeffc4ad47598d63d3c1a83bb6fb9")))
         (sha256
           (base32
-            "14n38razbd79kw1y8kqcbsvfijn67a3ahg5h7065jj670lch5dd3"))))
+            "0fc7rkcy9xn6hzlrnjmjyvghrgwip7vmpkwhc2xzncckmxm0ypvh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/llvm-ts-mode")
@@ -72333,17 +72333,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231119.1209")
+    (version "20231120.1519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "e8fc0cde2f8b1ad9ccc47f928ab5a8c9002d9622")))
+                 "d441f3d268a31a4a514af2db506a5eec47ee617d")))
         (sha256
           (base32
-            "0pcc8h8dby9f7cgsih5p4j8crbvkypwsgakgkz3whg7n3alfgshm"))))
+            "0253iz7cnm8jvqrgxbqg1lb7sr30d4xcgclrbxf5dad8sxf8am86"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -73262,17 +73262,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231117.1800")
+    (version "20231119.2041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "fb1a3c487eabe51f2bf5f80cb9a6d9e43172f8b0")))
+                 "3eef7a886cd2269f2135c7a50817fb9f8f44f0ad")))
         (sha256
           (base32
-            "0hi02v1jssdrr5jx1vij37z3sfs4wnz5xx4xkp14gfkq7ljr1qb1"))))
+            "03xsxasjknpam43bn0fgrjdqhi6vxzh87pd2r531gsmn13001q3v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -76478,17 +76478,17 @@
 (define-public emacs-migemo
   (package
     (name "emacs-migemo")
-    (version "20200913.12")
+    (version "20231120.842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-jp/migemo.git")
                (commit
-                 "f756cba3d5268968da361463c2e29b3a659a3de7")))
+                 "7d78901773da3b503e5c0d5fa14a53ad6060c97f")))
         (sha256
           (base32
-            "0q2mljzkpci6p8svz17xz48kv4yhh86irg2dpypk0k2dlyr8gykx"))))
+            "1098lf50fcm25wb41g1b27wg8hc3g2w6cgjq02sc8pq6qnrr0ql2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emacs-jp/migemo")
     (synopsis
@@ -77904,17 +77904,17 @@
 (define-public emacs-monokai-pro-theme
   (package
     (name "emacs-monokai-pro-theme")
-    (version "20210206.1820")
+    (version "20231120.1622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/belak/emacs-monokai-pro-theme.git")
                (commit
-                 "d0489741a80d818713c290a1a4bdd985877228bb")))
+                 "d56fa38a9ed3b1d8e4f8401cb4c3f08073f3ba26")))
         (sha256
           (base32
-            "1nmnmijqfxdxz0cxyfq9fn34cy5bbf6cdg0qvg5mjxrjcfsl57dc"))))
+            "10c6rq9jfjdgz8wnnbwhya6s2jjxf4jw6jlah75kzqyw16y9ckd9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/belak/emacs-monokai-pro-theme")
@@ -83159,17 +83159,17 @@
 (define-public emacs-ob-chatgpt-shell
   (package
     (name "emacs-ob-chatgpt-shell")
-    (version "20231111.2324")
+    (version "20231120.1408")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "bca784daa620767b5e57a5020289cb547c40f8b3")))
+                 "1860b3e8b94a9a2d76828906fcb1046a0bc04255")))
         (sha256
           (base32
-            "1gzzfsw0bdyqbq6fgfsl0vwy0z639618sq74kdvk0hnssrbx1f01"))))
+            "1r7lxgqqz8b2vxmv5mcs4c4pxfcihc7hywn72cagx30ilcm0k2y3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chatgpt-shell))
     (arguments '(#:files ("ob-chatgpt-shell.el")))
@@ -86059,17 +86059,17 @@
 (define-public emacs-org-anki
   (package
     (name "emacs-org-anki")
-    (version "20230804.1244")
+    (version "20231120.1133")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/eyeinsky/org-anki.git")
                (commit
-                 "1bc1bc1a6f06d0d9fe3ac3b8a86e061b80a32462")))
+                 "05eed3539dda5303ba912abfc50e3be9d6811fe2")))
         (sha256
           (base32
-            "1jh11mbjswfzqhx7vff0lq07ggdfv8yjzqapkkbj8zfvp8p3v406"))))
+            "0rjvw4zzy937r0347d9kpf4b88y9zrbalrdvdw63ig02q6jkjwli"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-promise))
@@ -108804,17 +108804,17 @@
 (define-public emacs-sequential-yank
   (package
     (name "emacs-sequential-yank")
-    (version "20231114.818")
+    (version "20231120.841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/sequential-yank.el.git")
                (commit
-                 "7d04f9ccdf3000d82b8ac8821fd3f4276ab328ce")))
+                 "be0312c2c48f2c49f9a76927caeb04b4f7e9ecde")))
         (sha256
           (base32
-            "0b73pi3k81v03s4ygbklbww4bgbzk415am1br7aqk9zx7jpqmk9k"))))
+            "0fcmyp4bsn50b1vgha8bvw7fpj9wwap9j76faz5mvim2sliahh1h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/knu/sequential-yank.el")
@@ -117810,17 +117810,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231119.2246")
+    (version "20231120.912")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "528e6046151ee4395b4eafc6bef8f01dd9a1e00d")))
+                 "ed0c25e68da40c9642e24e903f55534f4317dc7e")))
         (sha256
           (base32
-            "0wiihpplxafyiksrq220knw15vhbd9fchilyp9159bb7hlhxbsz5"))))
+            "1h508m583hmmrnxwprc0i5wxbadzbszmp3xis2p0dvfp8b0m0s9q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -130265,18 +130265,19 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20231108.1016")
+    (version "20231120.830")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.thanosapollo.org/yeetube")
                (commit
-                 "cca40d2020ba45b0113d4a5d6a5c26995e07d83d")))
+                 "38a43ae1fb133daac4e8115a9ad794345dacd73c")))
         (sha256
           (base32
-            "02chclfhvr354xs9f89liddbw56gjq9zm21d535ql5hd8izpkh7k"))))
+            "1y22cpn0pvchvz646kddc106hqjpn7028b82bg99ygcgsfadzsq8"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page
       "https://git.thanosapollo.org/yeetube")
     (synopsis "YouTube Front End")
