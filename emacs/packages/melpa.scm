@@ -39718,17 +39718,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231114.1714")
+    (version "20231121.1536")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "5305cc3deaf361f57c67c57d10ade2bd448603e9")))
+                 "83b3c3888a7900141f5e2f4049a26755bd9ff14d")))
         (sha256
           (base32
-            "1pg8mp3nghpmif2f94blrbv50xb9xp7pibnyfm0kpgh5gnciz3ab"))))
+            "0ki16lii90rqq6d5sidf3slf1ww21k1rzbzqn1kbzlg06m8fnxyd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -85024,17 +85024,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20230925.1039")
+    (version "20231121.1253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "008a4433d64389d00ae86e00a391041e12a9cba7")))
+                 "cb5a82dc0d5bb9f2a24aff40b03e663d371eaf91")))
         (sha256
           (base32
-            "0wxzbgxc0yh5hl5z3c3cpzwdqhzczcvsz14yb1fbg7qr7365kyah"))))
+            "1ba1fkw58lb59wb9xyd6janp85y6f48rscvyhz8mh6p5sygn2jc8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -90145,17 +90145,17 @@
 (define-public emacs-org-timeblock
   (package
     (name "emacs-org-timeblock")
-    (version "20231112.1748")
+    (version "20231121.1504")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ichernyshovvv/org-timeblock.git")
                (commit
-                 "72a72bad4644f7b6045403e93e99d7a362b03b9c")))
+                 "3205eec79715f31e00f2aa45a0bb7bd553586c91")))
         (sha256
           (base32
-            "045vrp9d8d6wnmi82vi337w5w7i3cs0jprwiyhkf033bwvvdywwb"))))
+            "1m4fc75p72izy5f4h94qdm895mixxbp1makdh8na7nxi1x9vbm4h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-org-ql emacs-persist))
@@ -121448,17 +121448,17 @@
 (define-public emacs-treesit-auto
   (package
     (name "emacs-treesit-auto")
-    (version "20231118.1911")
+    (version "20231121.956")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/renzmann/treesit-auto.git")
                (commit
-                 "f140fb604509728620d6748c0a5704c707f9af82")))
+                 "78b38c4ded525311d6fb1130bfa7ef03273033f5")))
         (sha256
           (base32
-            "12qlx0sfwa7pqg6wm83agmd71yqzcd062qx8r9q2mn1flszrmqsr"))))
+            "0vg02mmlmwhw8p5sfxjgbvipamlrw4xv2kyirydrmdwiivdx07i6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/renzmann/treesit-auto.git")
