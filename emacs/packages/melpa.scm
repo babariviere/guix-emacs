@@ -4426,17 +4426,17 @@
 (define-public emacs-assess
   (package
     (name "emacs-assess")
-    (version "20220719.1904")
+    (version "20231120.1701")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/phillord/assess.git")
                (commit
-                 "44083d94feb45d3636f7ee6c55e0ef6bbb32b938")))
+                 "2399936d5b75094ed0e131b3f9d48041005383e2")))
         (sha256
           (base32
-            "1mgx6sism6l1mwmz81fq6wcxkxlbyn4k6p8nl0v8xc1zsh2mn8m0"))))
+            "1a1c6f4d8mbygrl20kxlvrjcgvvbzv4zr7hhqkzywvnazf2kvj16"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-m-buffer))
     (home-page "unspecified")
@@ -45845,17 +45845,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20230921.1850")
+    (version "20231120.2200")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "2ff8317c403b15d3c898f7dcd8511b6d16f92c1d")))
+                 "36920eadbb198d8116463ea139a605a1e157a593")))
         (sha256
           (base32
-            "10xf40xsl3x91d2b4c4vqg4cb99izv8n0gcic5nybdxcm7f8sfpb"))))
+            "05wyb8p8rwbxfxy7xj3l1q4hb186xs8rgad3mci4pwxg7zq2sx8q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -50641,17 +50641,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231113.211")
+    (version "20231120.1925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "17a58d38e7299f254d02c29bbcc9211146394758")))
+                 "de6d8089cdf68732a3942ef729f774322120175e")))
         (sha256
           (base32
-            "1cy1kkbg477dnf8lz137h7bc7hvm3apvxdq3ycqifwwhfks4cyk4"))))
+            "1lhcsrg35cyi8knjf3rc9gaxy86a1rxrkqpxp7qsdylqms2ag3nv"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -76609,17 +76609,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231118.1114")
+    (version "20231120.2121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "17e4815bf3204df45b795cdd478c4400389d0202")))
+                 "6d16c2808b325af30bc36b345cfd93fd7a1f14bb")))
         (sha256
           (base32
-            "1wngcpsnz4wycrhqvmffhicfpqm0vni3pmlxpk3lwxvc2cs75vxm"))))
+            "0p5qv27xixklrfpdapfqif1zynkcfshzs4ga05z6bp5jj7263g0z"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -77041,17 +77041,17 @@
 (define-public emacs-mistty
   (package
     (name "emacs-mistty")
-    (version "20231119.2114")
+    (version "20231120.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/szermatt/mistty.git")
                (commit
-                 "98061e6016059ee8ce6fa785fb4f5ea476d0a00c")))
+                 "e75ba0b05d0afac245f455e14ad52c840bb6b0c4")))
         (sha256
           (base32
-            "1fayrwbchmyic39wgzr7gg7ippqf7283056rhhn6ccapca2dwb2b"))))
+            "18wy09qiblfm6f6wp7qm261153zk3skk9m6f89r4m0sabc1k3h7h"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/szermatt/mistty")
     (synopsis
@@ -117141,17 +117141,17 @@
 (define-public emacs-tab-bar-notch
   (package
     (name "emacs-tab-bar-notch")
-    (version "20231116.1500")
+    (version "20231120.2029")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jimeh/tab-bar-notch.git")
                (commit
-                 "c94d9ffe00de55a805d89af78126c83c623da049")))
+                 "6d1101d8156e336f45122c04889327a4c5be253c")))
         (sha256
           (base32
-            "1z8fq6yy3d06dqixhxv7q726qli8ka2b78g84biac4c0pnl0b1q9"))))
+            "1s0j89g93jq0p2p9w1wj9aycm74iar2vg0gkhf87xxf88ldhafs7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jimeh/tab-bar-notch")
@@ -117810,17 +117810,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231120.912")
+    (version "20231120.2021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "ed0c25e68da40c9642e24e903f55534f4317dc7e")))
+                 "dc185f56492f4f4e70c12bf4e850c07850036200")))
         (sha256
           (base32
-            "1h508m583hmmrnxwprc0i5wxbadzbszmp3xis2p0dvfp8b0m0s9q"))))
+            "1x41155nspm0wxd8gacgpc8a7dqlj1svsvj1x5z7mpvyva2pfkdh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -119099,17 +119099,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20231110.2354")
+    (version "20231119.16")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "b05ccbaebb6ad2988f93a2db89728bf23994cb89")))
+                 "bca703868583eae9ad15d4b17056ae3cff136086")))
         (sha256
           (base32
-            "07hbla94l8s8dyl2ms38ygp9cm45lvm45zhqmb9c6v632rs47s1g"))))
+            "04nv2awxf2s712dkhgiasb13n20w4pq2ngm9hlx7h0plbixlzmys"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -120612,17 +120612,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231118.1318")
+    (version "20231120.1911")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "609dabfdac8a4a08c1e88bea9bf6cd98934ef8d1")))
+                 "7da468ef9d492d5e95853bd3871317bdc5feea21")))
         (sha256
           (base32
-            "10m43pfn21rmw6m1fjivbj946v89jf5gqh2kjxh2fia5sr29fqxr"))))
+            "17mr272km8z015bxyqf4mgxxr8dxz1ds6dqf118613wk29d1yr0q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -124564,17 +124564,17 @@
 (define-public emacs-verb
   (package
     (name "emacs-verb")
-    (version "20231119.2118")
+    (version "20231120.1806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/federicotdn/verb.git")
                (commit
-                 "5e9bd365a141954659492144e5cc8a2b85b98ddd")))
+                 "d211f066b90d714e19783cd2ea20ac96ad25e740")))
         (sha256
           (base32
-            "1g6n0c1wfdxy3qyvdhw846ddl9llirm1pd4bianm7dxj0i3jy9c5"))))
+            "0bjlnaya32sdw2zjhvh79lrsr7r0ks8hrl4r3rkzxby18bjznkgn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/federicotdn/verb")
     (synopsis "Organize and send HTTP requests")
@@ -130676,17 +130676,17 @@
 (define-public emacs-zenburn-theme
   (package
     (name "emacs-zenburn-theme")
-    (version "20230315.1004")
+    (version "20231120.2002")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/zenburn-emacs.git")
                (commit
-                 "8a1f9d28f503615e5d9b3eac59a2f3c14e75fc20")))
+                 "373a07f99ee595dee83b6cee8b6841b5d1c01e38")))
         (sha256
           (base32
-            "00zyx2knfchxkml19kf4wfgigsbgzqf47mvbgrmk3nfznnnnyvmf"))))
+            "03n87wcjbbpfgbx487676fzbrzzqj0cmiwcpikbws74fnr9ayplg"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bbatsov/zenburn-emacs")
