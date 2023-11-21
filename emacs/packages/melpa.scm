@@ -12143,17 +12143,17 @@
 (define-public emacs-champagne
   (package
     (name "emacs-champagne")
-    (version "20231119.1151")
+    (version "20231121.39")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/positron-solutions/champagne.git")
                (commit
-                 "800d4834f3973962e37959406eb2709a92d511b0")))
+                 "34a3223dcd86337c523eb380f19c318127265ced")))
         (sha256
           (base32
-            "147ipl4qwbqg1n453yc913gnj0gan4nvqmpzf5hx5n9v0ka7j6nc"))))
+            "0zz9l7qf23dz5shx5mgcrymy9xn918nz0xxdp5khb00j4544ry33"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-posframe))
     (home-page
@@ -12970,17 +12970,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231114.1140")
+    (version "20231121.427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "5261886ad7c0a8828d022812c7c1c6b503ddd6ba")))
+                 "e5e745b5c265db3cbf83298f0e550c29825662d9")))
         (sha256
           (base32
-            "1m9bva5wi4mna80qrr401pvghxk54nh773544c5i11fanisyq9sc"))))
+            "1y0vvg7zpy703na8s6vykadd46xpqcwldbppgvd7n1s56afd4x2r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -20820,17 +20820,17 @@
 (define-public emacs-cybercafe-theme
   (package
     (name "emacs-cybercafe-theme")
-    (version "20230923.200")
+    (version "20231121.148")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gboncoffee/cybercafe-emacs-theme.git")
                (commit
-                 "62346a69e59a9d19883e081c58cc4bce44dd0aef")))
+                 "00054826eb803c2ff63ea3e69ff81026c7afc78e")))
         (sha256
           (base32
-            "07aw90xmhvpdf7imsxykvrb90sfxh00brp3y5b1v698wddng43qi"))))
+            "0faaq6xy312c3jyqc53hylcw8q3fbq03qkgzc0pyp6sxjw9f3vwh"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/gboncoffee/cybercafe-emacs-theme")
@@ -73262,17 +73262,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231119.2041")
+    (version "20231120.2359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "3eef7a886cd2269f2135c7a50817fb9f8f44f0ad")))
+                 "dda332b2a41569f5fd8c0c2c3c2dab902d48ceb4")))
         (sha256
           (base32
-            "03xsxasjknpam43bn0fgrjdqhi6vxzh87pd2r531gsmn13001q3v"))))
+            "14vqfykfzddpfka7s3pmlh3yvbfd1rpjhab4g9dinz9hn48dwb06"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -89822,17 +89822,17 @@
 (define-public emacs-org-super-agenda
   (package
     (name "emacs-org-super-agenda")
-    (version "20230924.5")
+    (version "20231121.344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-super-agenda.git")
                (commit
-                 "4efc0bdfa3c9760256a651dc4d510658f41afe81")))
+                 "ee3379ae92b90c084717fb2a7614060ce12283cb")))
         (sha256
           (base32
-            "17h3bf4q03i354ialj7n0bw70828zn8l4nqidxxf85g90f4ww8wp"))))
+            "1z8pwi03shgjcy7a31h758a25ikar0b3f8lscil4w9kii2v9222d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -130265,17 +130265,17 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20231120.830")
+    (version "20231121.644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.thanosapollo.org/yeetube")
                (commit
-                 "38a43ae1fb133daac4e8115a9ad794345dacd73c")))
+                 "be16eef6901fbe9d9b900d6a1db6be41b36d6cdb")))
         (sha256
           (base32
-            "1y22cpn0pvchvz646kddc106hqjpn7028b82bg99ygcgsfadzsq8"))))
+            "0njd0n6g24bw2ih8hpyk0b0a83cflyvq9pssf66bykn5la2wxkd5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
