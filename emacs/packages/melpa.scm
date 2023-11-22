@@ -15687,17 +15687,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231119.52")
+    (version "20231121.2103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "d9d54abaf78da1e62fad7def8eeeb4c41110725d")))
+                 "7e401cbe168d14106a527194a7e3dc9e546edb6c")))
         (sha256
           (base32
-            "0sl34jlx7gkwfc5hbfr05hh5y14vr5pkr1889ps4kzg8nwzdq0bj"))))
+            "02c502n6f06sj1l27dvqlzdqzsq5pqkyk9zsbbz8j819sp9s8sjj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -27790,17 +27790,17 @@
 (define-public emacs-echo-bar
   (package
     (name "emacs-echo-bar")
-    (version "20230209.1350")
+    (version "20231121.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/benzanol/echo-bar.el.git")
                (commit
-                 "03cae6d045636948d8b47979d85774e39556f9e1")))
+                 "1138151e55fdfd43126c79caf13169a644b47c00")))
         (sha256
           (base32
-            "1431xpklnb5894mq3gxc7kvp2q5qa04bnlx8qcxv5l9g2rs0jiih"))))
+            "01ydg9a2b4617cqz2w3jb6dk9wkrl559qssa2z1y6gz3awy6fwd6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/qaiviq/echo-bar.el")
@@ -39718,17 +39718,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231121.1536")
+    (version "20231121.1653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "83b3c3888a7900141f5e2f4049a26755bd9ff14d")))
+                 "1b871e57e989d58a793cbfef7b4996a6bd47ba9f")))
         (sha256
           (base32
-            "0ki16lii90rqq6d5sidf3slf1ww21k1rzbzqn1kbzlg06m8fnxyd"))))
+            "0npl45h1l8jhrd5dcaaql5in4pj7c3wxnqsp8di668pz2s4i9pfh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -71996,17 +71996,17 @@
 (define-public emacs-lsp-docker
   (package
     (name "emacs-lsp-docker")
-    (version "20231117.1611")
+    (version "20231121.1644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-docker.git")
                (commit
-                 "a9beb0b5c3cdb3fb1b6e34c6ad752f3b8474ae8a")))
+                 "60e1103ac7c8e30d036ea65fad489210682d6259")))
         (sha256
           (base32
-            "1ciq7jrrk1avxsz4azc3lhn5hk01ad0fb2vrkka1i922la8r1rgh"))))
+            "1y3x2p0f7c2igg9cckk2g5x5cpypa9f2iyfi9ai0hdx60n7gkmrm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -77041,17 +77041,17 @@
 (define-public emacs-mistty
   (package
     (name "emacs-mistty")
-    (version "20231120.1653")
+    (version "20231121.1957")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/szermatt/mistty.git")
                (commit
-                 "e75ba0b05d0afac245f455e14ad52c840bb6b0c4")))
+                 "7b0548b178526881c3b9f9db8648b3e000d560d5")))
         (sha256
           (base32
-            "18wy09qiblfm6f6wp7qm261153zk3skk9m6f89r4m0sabc1k3h7h"))))
+            "0c5fp1jcwcjlw97hq68xa4vp2833a3912kmb8zycqrpgqp5qxky6"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/szermatt/mistty")
     (synopsis
@@ -77992,17 +77992,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20231016.1735")
+    (version "20231121.2146")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "bcd8725b21a64df4952cb0c52ece953075cbee66")))
+                 "b7bc361b9341cefda6d6cf2fb6cd8a378418e0f7")))
         (sha256
           (base32
-            "1d5zx3wjcdnbqp6xpmb80ank40yyrbv4i2w7xyg3rwal4l6yq3lv"))))
+            "1z2fya51a8g1aayxykcgxwkc15sghxvp1syb42m322iaf6g6702l"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
@@ -93158,17 +93158,17 @@
 (define-public emacs-package-lint
   (package
     (name "emacs-package-lint")
-    (version "20231113.1518")
+    (version "20231121.1907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/package-lint.git")
                (commit
-                 "dd81a5b9224cc6e6dc4bbb6b4a2928df89c01317")))
+                 "bf2b091b0033e4c8098a9c73734d3968c648292c")))
         (sha256
           (base32
-            "1y0h8rrmvi3j5maig6i69kxxr1igb96075vpzbycaqln3xn11g36"))))
+            "1xk7mnn1x06kjbpjxwg6kpm3fnawp4lcnmgarfgx7r66x2gx64px"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -102497,17 +102497,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231118.1639")
+    (version "20231121.1736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "b7e4d62672a8df3495f6125fdf34b5e3b972d36a")))
+                 "6b832a34bd8d3fae40b8c02a71c74123f81e75b9")))
         (sha256
           (base32
-            "0kh3lkvh2ak2qf3caqfbcqj654z9c4z4f163fqqpyjvngrr3cbyg"))))
+            "0h99ij937hdhj220g8363wavcwd51khmjf0li2ljv2d6d1hh89cc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -116048,17 +116048,17 @@
 (define-public emacs-swagg
   (package
     (name "emacs-swagg")
-    (version "20230827.2121")
+    (version "20231121.2044")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/swagg.el.git")
                (commit
-                 "b33f5843379a5dba2263514732eda868573f42eb")))
+                 "b1a9503a91121584e1272e0547d8c69de1d605ff")))
         (sha256
           (base32
-            "1r9mi1gkykyxvff44pg5nysmyz81cxdkrh386ga2xxakc2qxm061"))))
+            "1aygxkqpz6dr0vilx7ih36sj66k2f5rhs66ij2zawz4yja4k18z9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -120612,17 +120612,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231120.1911")
+    (version "20231121.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "7da468ef9d492d5e95853bd3871317bdc5feea21")))
+                 "57bb749f98e198bf56c415e9a8d69bd7750433b5")))
         (sha256
           (base32
-            "17mr272km8z015bxyqf4mgxxr8dxz1ds6dqf118613wk29d1yr0q"))))
+            "0mngccvvzdi5fqs4a8inxpvc1fsggxdlq3n7fzx8dc0p1wn9z0fn"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -129481,17 +129481,17 @@
 (define-public emacs-xwidgets-reuse
   (package
     (name "emacs-xwidgets-reuse")
-    (version "20200817.147")
+    (version "20231121.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lordpretzel/xwidgets-reuse.git")
                (commit
-                 "5d56472dda53e43e0a11edcd373b44c0dbab47ce")))
+                 "d9ef301c69f4d81c7a2d89492c13bde6ddbcf18b")))
         (sha256
           (base32
-            "1b85x1yhgip4g3kv1sdwf3zmi91w6m5xbmm6zzl84w67wqfmnqlz"))))
+            "1vzk1amv1vihhns5j7ixyjan3zr3n45h4l4jmfz7nqfcrgrh371s"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("xwidgets-reuse.el")))
     (home-page
