@@ -39718,17 +39718,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231121.1653")
+    (version "20231122.256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "1b871e57e989d58a793cbfef7b4996a6bd47ba9f")))
+                 "99a22e20796d31beb0de9394e9ce00b5fc1b1e13")))
         (sha256
           (base32
-            "0npl45h1l8jhrd5dcaaql5in4pj7c3wxnqsp8di668pz2s4i9pfh"))))
+            "0szmm76xx5kkka7j5j0xmg6qpn7n9dzqw4hbw69471bnjnfad6y4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -52779,17 +52779,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231114.1504")
+    (version "20231122.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "74887ba26071fba4c66ac3b4dc11d7d632832394")))
+                 "d1f10e5a998254a763304a925963dc6d54e934b1")))
         (sha256
           (base32
-            "1gyd03dln19cjwgrh3m72qik77hdc2waiv61knzk30pq3dds965j"))))
+            "01b2608gsly557927wdkp71mbakk7h23icjnxq097r12zra4agc7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -53563,17 +53563,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20231108.1729")
+    (version "20231122.631")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "2534c228ef6699cb2588349c44627835fc444278")))
+                 "d1f10e5a998254a763304a925963dc6d54e934b1")))
         (sha256
           (base32
-            "1iq9cpf4nywfiw1f3ki5jcxpb2mlyqm6pgqfa6alfkkpvgrap9l3"))))
+            "01b2608gsly557927wdkp71mbakk7h23icjnxq097r12zra4agc7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
