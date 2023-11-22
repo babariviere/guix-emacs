@@ -7101,17 +7101,17 @@
 (define-public emacs-bbdb
   (package
     (name "emacs-bbdb")
-    (version "20231023.544")
+    (version "20231122.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.nongnu.org/git/bbdb.git")
                (commit
-                 "5f473f84bad43a2f586f268c5c1071f1918aa209")))
+                 "53e8ba04c47b3542db75b68f9663941daf2e6ca4")))
         (sha256
           (base32
-            "078wx4w58jwpaaz2hcpmk2868c8nk7azs7yxwhi81hg6lijqwmlx"))))
+            "1njwsnyfl0b5pzra4l1s9qv5zmsq58c0hxic0w1jk6xillazd6f4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "lisp/bbdb-site.el.in")))
@@ -20820,17 +20820,17 @@
 (define-public emacs-cybercafe-theme
   (package
     (name "emacs-cybercafe-theme")
-    (version "20231121.148")
+    (version "20231122.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gboncoffee/cybercafe-emacs-theme.git")
                (commit
-                 "00054826eb803c2ff63ea3e69ff81026c7afc78e")))
+                 "c241228914c9bd070733b1e97ea11a5cb6331e86")))
         (sha256
           (base32
-            "0faaq6xy312c3jyqc53hylcw8q3fbq03qkgzc0pyp6sxjw9f3vwh"))))
+            "0wb5dapc6xcga6ajyfdspnavnjrx9m6ww8c3xh783hs2dlk08whi"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/gboncoffee/cybercafe-emacs-theme")
@@ -80691,17 +80691,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20231115.1110")
+    (version "20231122.838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "cfda588dc1e865a8a121b9071f3720fd4937492b")))
+                 "e109d09b95706bb93c821b1229ca09cf00195690")))
         (sha256
           (base32
-            "0cnhcyh7s50k60hx572zz2cq83qjjp72qs6ad9gc6abhzzrzr6bj"))))
+            "1g1srk8pwwxns0ldq85sll1640xy1cx4yy4lgb249qa366wy3q6b"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -85024,17 +85024,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20231121.1253")
+    (version "20231122.820")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "cb5a82dc0d5bb9f2a24aff40b03e663d371eaf91")))
+                 "8585201444b3c7bfdea38b61a133ee4940162ec6")))
         (sha256
           (base32
-            "1ba1fkw58lb59wb9xyd6janp85y6f48rscvyhz8mh6p5sygn2jc8"))))
+            "143mlx8549w6db78ixjny7jm399nxgylq6wkk91lpin6bgcs7his"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -88155,17 +88155,17 @@
 (define-public emacs-org-mpv-notes
   (package
     (name "emacs-org-mpv-notes")
-    (version "20230907.530")
+    (version "20231122.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bpanthi977/org-mpv-notes.git")
                (commit
-                 "072cecf7097829c463fc38f4bb5026b2311036b6")))
+                 "0586c4d508e3c465db2ca81d43aa0070a6de0eb3")))
         (sha256
           (base32
-            "09siywwlks32rzr95aigb7lmhiq4b39jcbb5b16wik9z9vzjiq30"))))
+            "198wi0va6yb1q9vfmwdbaf95wi14brlzir2ad1rgi1z7lrawxrsj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-mpv))
     (home-page
@@ -104242,17 +104242,17 @@
 (define-public emacs-reformatter
   (package
     (name "emacs-reformatter")
-    (version "20230804.648")
+    (version "20231122.838")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/emacs-reformatter.git")
                (commit
-                 "bfe3f1c6ece952d39921db16f601123bdd1748ab")))
+                 "ebea79504b40fecb150caf8c39621146164f997e")))
         (sha256
           (base32
-            "1vm030lz489vjx1dz1jrnj7zd2b43y98rffdxyshfvxbfv1cbmyk"))))
+            "1n8qxrs8103bibzxjs21mzjdmjsnb44hsb2cy7fnx2rax19r9dja"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/emacs-reformatter")
@@ -104354,17 +104354,17 @@
 (define-public emacs-region-occurrences-highlighter
   (package
     (name "emacs-region-occurrences-highlighter")
-    (version "20230408.1404")
+    (version "20231122.1110")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alvarogonzalezsotillo/region-occurrences-highlighter.git")
                (commit
-                 "3fbac20154035d75238facbc3b881ab3b47ab711")))
+                 "3abf6c85846a7862a3378c895b75d3ba3ba9ad6c")))
         (sha256
           (base32
-            "13l2kjkxmmsq8ad07pkdrfwzfr0wp2cx4vz6j4ac0z3nfhng11b1"))))
+            "143ikx5ym7llc8diapiy8303b9rjlbsgpsj5n6lpgvs431v9b011"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/alvarogonzalezsotillo/region-occurrences-highlighter")
@@ -108804,17 +108804,17 @@
 (define-public emacs-sequential-yank
   (package
     (name "emacs-sequential-yank")
-    (version "20231120.841")
+    (version "20231122.1550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/sequential-yank.el.git")
                (commit
-                 "be0312c2c48f2c49f9a76927caeb04b4f7e9ecde")))
+                 "f3f77325877a91243ffdf57d502bff757b30da33")))
         (sha256
           (base32
-            "0fcmyp4bsn50b1vgha8bvw7fpj9wwap9j76faz5mvim2sliahh1h"))))
+            "07ihcjaf6ji3cj6igs68rmqz7agz1f25jv72raz40p6hxfwk2xcq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/knu/sequential-yank.el")
@@ -122435,6 +122435,52 @@
       "Documentation at https://melpa.org/#/uimage")
     (license #f)))
 
+(define-public emacs-uiua-mode
+  (package
+    (name "emacs-uiua-mode")
+    (version "20231122.1344")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/crmsnbleyd/uiua-mode.git")
+               (commit
+                 "5a0cd05e5d32349ffe6049e2db0d309ca51d6785")))
+        (sha256
+          (base32
+            "051vpsr6vc6p3m8k7a3xd5l0g4v4m7k46bx47wxw4080kxx6q6rl"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-reformatter))
+    (home-page
+      "https://github.com/crmsnbleyd/uiua-mode")
+    (synopsis "Uiua integration")
+    (description
+      "Documentation at https://melpa.org/#/uiua-mode")
+    (license #f)))
+
+(define-public emacs-uiua-ts-mode
+  (package
+    (name "emacs-uiua-ts-mode")
+    (version "20231122.943")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/crmsnbleyd/uiua-ts-mode.git")
+               (commit
+                 "b53adadc39f630c5631316d7371641a405574532")))
+        (sha256
+          (base32
+            "1n7srjrw4d2xc19ncys967v49pafwfivi4xlszax124s8yq7mlrz"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-uiua-mode))
+    (home-page
+      "https://github.com/crmsnbleyd/uiua-mode")
+    (synopsis "Uiua treesiter mode")
+    (description
+      "Documentation at https://melpa.org/#/uiua-ts-mode")
+    (license #f)))
+
 (define-public emacs-ujelly-theme
   (package
     (name "emacs-ujelly-theme")
@@ -130265,17 +130311,17 @@
 (define-public emacs-yeetube
   (package
     (name "emacs-yeetube")
-    (version "20231121.644")
+    (version "20231122.1328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.thanosapollo.org/yeetube")
                (commit
-                 "be16eef6901fbe9d9b900d6a1db6be41b36d6cdb")))
+                 "577426de56487fc73460a4bdd6016da35569d5d5")))
         (sha256
           (base32
-            "0njd0n6g24bw2ih8hpyk0b0a83cflyvq9pssf66bykn5la2wxkd5"))))
+            "1ilff8rapncq8zbkr10mgg463c1c6ghw97ngfbp091wvpyblfq4i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
