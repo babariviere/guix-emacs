@@ -4515,17 +4515,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20231105.1713")
+    (version "20231122.2101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "3bade0e92e1ee8e716c5db14bc8315b17299f138")))
+                 "b4b5a7eedc30122aebf84ee950dc84da444e8953")))
         (sha256
           (base32
-            "13b88shazsi7crn8cpb3f0k4vzai45srymwriq14axmq48i8z33m"))))
+            "1si17msm721y3r5dp5jjb8ww60080z2yg53h153kmg86ifrgggry"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -9092,17 +9092,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20231101.2319")
+    (version "20231122.2251")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "d8aecb09193448de12d5a19ac7bf242f3c39e767")))
+                 "b6507ebd915a83e34558feb917c7324a18b84ce4")))
         (sha256
           (base32
-            "07lfdmfs2bfn9a0zq6jvh8mizj0sr02ngib6fil9w31rlp7p8gnn"))))
+            "0k320n0z1927k5y7xvdnxdwkrnqprazh6hql5w25dfn5dx2n4sl4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -13313,23 +13313,23 @@
 (define-public emacs-citar-embark
   (package
     (name "emacs-citar-embark")
-    (version "20231019.2047")
+    (version "20231122.1548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "ac91ec3a29c6e7bb61008ce42deef4ecb377e648")))
+                 "572b7b6e569e9423dd948539fa48d3f53ceffe57")))
         (sha256
           (base32
-            "18k9rr48ypvgfdjyfnrpmv6bfwkzba4ad96wgbfxk8g18a0ispp7"))))
+            "17qfkiwy2mvyp6rwkxwxhlx2lxw5j2rb7n15c3dyzvfdphxjfikd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-embark emacs-citar))
     (arguments '(#:files ("citar-embark.el")))
     (home-page
-      "https://github.com/emacs-citar/citar-embark")
+      "https://github.com/emacs-citar/citar")
     (synopsis "Citar/Embark integration")
     (description
       "Documentation at https://melpa.org/#/citar-embark")
@@ -15687,17 +15687,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231121.2103")
+    (version "20231122.1759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "7e401cbe168d14106a527194a7e3dc9e546edb6c")))
+                 "de82743affd90e3c384bd94ec934e6fb5094d947")))
         (sha256
           (base32
-            "02c502n6f06sj1l27dvqlzdqzsq5pqkyk9zsbbz8j819sp9s8sjj"))))
+            "0sjz5qmcygm93hxkj0qaz2grnc9n71xxswis3k0nprcmbi6jr971"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -35292,17 +35292,17 @@
 (define-public emacs-evil-escape
   (package
     (name "emacs-evil-escape")
-    (version "20221010.2116")
+    (version "20231122.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/evil-escape.git")
                (commit
-                 "3c335a5709b1abb08687960038746b36add465f9")))
+                 "bdb1e69971520cbd65fe61830a1cdea5734d743c")))
         (sha256
           (base32
-            "1z30v59igndqzxg9gcx4bsbf5jkh11wp936il8azkrz3qdryaj4a"))))
+            "0vdmzp4hxqvng5pw3iz7flc36ndaphnia8s1cg229i8vm27lrmqy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
@@ -77041,17 +77041,17 @@
 (define-public emacs-mistty
   (package
     (name "emacs-mistty")
-    (version "20231121.1957")
+    (version "20231122.2029")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/szermatt/mistty.git")
                (commit
-                 "7b0548b178526881c3b9f9db8648b3e000d560d5")))
+                 "d51d6d995db42377d225169ec8ad200cbbfca401")))
         (sha256
           (base32
-            "0c5fp1jcwcjlw97hq68xa4vp2833a3912kmb8zycqrpgqp5qxky6"))))
+            "0534s8d565y9sgqxf531xnj4lc67wsixpgg5x630rxaf5b8dwzcy"))))
     (build-system melpa-build-system)
     (home-page "http://github.com/szermatt/mistty")
     (synopsis
@@ -121153,17 +121153,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20231109.1915")
+    (version "20231122.2131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "a1e855bce6c112d57994c991bc50775b6922f73e")))
+                 "fb8980cef6033afb97ed74173364817488daaad1")))
         (sha256
           (base32
-            "0vhlyqfa70jxc3yfh7g3vpr792kk88jsd16majn1jkqmldi6vk3r"))))
+            "1294s28xgz8wsaxh1bff3i5ibbcykwhws7ypjwg0cmv7awryb4fm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -122438,17 +122438,17 @@
 (define-public emacs-uiua-mode
   (package
     (name "emacs-uiua-mode")
-    (version "20231122.1344")
+    (version "20231122.1849")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/uiua-mode.git")
                (commit
-                 "5a0cd05e5d32349ffe6049e2db0d309ca51d6785")))
+                 "babb5b7a41ec89fb936bfcb376b61fe3250a31d6")))
         (sha256
           (base32
-            "051vpsr6vc6p3m8k7a3xd5l0g4v4m7k46bx47wxw4080kxx6q6rl"))))
+            "115i3qm75lshk32l5b1bss87d7fzsfqjyj0vm4n4apsbigvv6p8k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
