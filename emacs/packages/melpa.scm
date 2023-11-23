@@ -8716,7 +8716,7 @@
 (define-public emacs-bluesound
   (package
     (name "emacs-bluesound")
-    (version "20230328.1430")
+    (version "20231123.909")
     (source
       (origin
         (method url-fetch)
@@ -8726,7 +8726,7 @@
                ".tar"))
         (sha256
           (base32
-            "13biara12yd0g89053b1sw95kll2zvycc0hji63w6v5qd7k7rdjl"))))
+            "0qpfqpkzw27lqj2bbf7vvr4ncfflvni2l3pzsisqzq2r7cdzcnzv"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~rwv/bluesound-el/")
@@ -27633,17 +27633,17 @@
 (define-public emacs-easy-kill-extras
   (package
     (name "emacs-easy-kill-extras")
-    (version "20231123.752")
+    (version "20231123.1213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/easy-kill-extras.el.git")
                (commit
-                 "e271915fe0a480954c1471d746e666ba2ea71d9f")))
+                 "531dd89fa23103fb321c34c99349ccb8e38a9a90")))
         (sha256
           (base32
-            "1pr2ri2gh6f8c43wk1cwpk0f0hqqdz7hwh8d9z935pqal8x6k1d4"))))
+            "1qgg3xa7v0abin5hdkf0djf1hwvf4hc0chb5ykmqilgv1wwjnq7y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-easy-kill))
     (home-page
@@ -51974,17 +51974,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231118.1618")
+    (version "20231123.1420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "4052377aad114c13652cc197607dd4132b76d5a8")))
+                 "5dd50fe4739cf8d2e96a02f7a318bf4fed8cfe06")))
         (sha256
           (base32
-            "1r8fd5slg1lwc79skbv3hicdh6w89qwr87hy4lvnyxsvdrjbsb3z"))))
+            "0rx6zq55rfh9szrm1aj85919x087a278xh0zg3sc9i0h8ak8q5af"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -85024,17 +85024,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20231122.820")
+    (version "20231123.925")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "8585201444b3c7bfdea38b61a133ee4940162ec6")))
+                 "c31f94db49b84cbfddea5410be7f6fa2a422aa1f")))
         (sha256
           (base32
-            "143mlx8549w6db78ixjny7jm399nxgylq6wkk91lpin6bgcs7his"))))
+            "0w3ygbk9kfng9z2jsac4rjsqn5iq422l9h9rwiz227y2accxd79z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -88979,17 +88979,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20230925.1309")
+    (version "20231123.918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "d5c40e2c05ef9b45dc28e7dad2b50330b51dc515")))
+                 "3e0ff160128a690c5d19db038d1a2c5cc3ede78d")))
         (sha256
           (base32
-            "1ss71iy1xnhr3p4mmfbnbgvp7kjqxpqag49f851wgmmwwg8gajvd"))))
+            "1yq2mmw1dnvwcnignhznv2sfrn79m2wyqhwjnskn9kksl72swpyk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -117300,17 +117300,17 @@
 (define-public emacs-tabnine
   (package
     (name "emacs-tabnine")
-    (version "20231019.632")
+    (version "20231123.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/shuxiao9058/tabnine.git")
                (commit
-                 "9d66dd9a3aadd6bfdd3dbbfdc11e6451b15f79e8")))
+                 "f6383e6b8af25ed6edd1ccd67a8791a7a0d06248")))
         (sha256
           (base32
-            "1hlfn8khvgfm41nhim4byj7mp1m96jiw0z7v8d9fl2hj5ac5lziw"))))
+            "1xq6r90apw7n4hfhrwh65mw4bq02rnv08j4jf8mwnw4ga204fnwi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -117698,17 +117698,17 @@
 (define-public emacs-tc
   (package
     (name "emacs-tc")
-    (version "20220122.1443")
+    (version "20231123.1424")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kanchoku/tc.git")
                (commit
-                 "a3a4738ede3e107a5149c9d55691f57736bf4f48")))
+                 "6d7d16ae0dd737efb8ba68eebf1cc4cfdc26b05f")))
         (sha256
           (base32
-            "0y2p4jibvbm2c76lik0gsg1hyl9gxb0x0pi0azak6yk3dyzci5w2"))))
+            "1af87804j35gkrjlvf694hvza6p409vcprkikm63cwnjz63rzil4"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("*.el" "tcode")))
     (home-page "unspecified")
@@ -122461,21 +122461,21 @@
 (define-public emacs-uiua-ts-mode
   (package
     (name "emacs-uiua-ts-mode")
-    (version "20231122.943")
+    (version "20231123.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/uiua-ts-mode.git")
                (commit
-                 "b53adadc39f630c5631316d7371641a405574532")))
+                 "e56ed538e83888677cfeab616e7c9ac1eb6504ed")))
         (sha256
           (base32
-            "1n7srjrw4d2xc19ncys967v49pafwfivi4xlszax124s8yq7mlrz"))))
+            "07syalfkg9cayckjf5gp5vhwqgm8jigcnfrfjlv9dqn45r9l3q44"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-uiua-mode))
     (home-page
-      "https://github.com/crmsnbleyd/uiua-mode")
+      "https://github.com/crmsnbleyd/uiua-ts-mode")
     (synopsis "Uiua treesiter mode")
     (description
       "Documentation at https://melpa.org/#/uiua-ts-mode")
