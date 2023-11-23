@@ -15687,17 +15687,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231122.1759")
+    (version "20231123.135")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "de82743affd90e3c384bd94ec934e6fb5094d947")))
+                 "5d05b0829b65ac0f5c334b85b53d9d7cc0204427")))
         (sha256
           (base32
-            "0sjz5qmcygm93hxkj0qaz2grnc9n71xxswis3k0nprcmbi6jr971"))))
+            "1b58128xc608iw1hgjvk1msc2rm0anxj9c2lyrh7wp39nabsknxr"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -27444,17 +27444,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231118.208")
+    (version "20231123.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "2c9ac65bb6c12e1f6f612feebaa1441ca7cd69cf")))
+                 "590488972a33ee96e146ee4b39bee44e8834eacd")))
         (sha256
           (base32
-            "05954m2vp27r172sy9yrhf7wdnq411737dbz57jvlcrv0ilc61g3"))))
+            "01ynbj5pqfmgdphyx517l5zxgjzm811pafrq75r52bajl37s2rl1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -27633,17 +27633,17 @@
 (define-public emacs-easy-kill-extras
   (package
     (name "emacs-easy-kill-extras")
-    (version "20230829.526")
+    (version "20231123.752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/easy-kill-extras.el.git")
                (commit
-                 "677435739c698ed81c3732188c29aa98bd9ffb08")))
+                 "e271915fe0a480954c1471d746e666ba2ea71d9f")))
         (sha256
           (base32
-            "0dk7jvf69mi8p8r98i1hf884s6vrrlg1av1qbxl2bj9d736h9c5l"))))
+            "1pr2ri2gh6f8c43wk1cwpk0f0hqqdz7hwh8d9z935pqal8x6k1d4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-easy-kill))
     (home-page
@@ -52155,17 +52155,17 @@
 (define-public emacs-hammy
   (package
     (name "emacs-hammy")
-    (version "20231108.23")
+    (version "20231123.552")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/hammy.el.git")
                (commit
-                 "c28a4a704f57f0e889110063edaf0f186feace0f")))
+                 "61188c66897fcab359ee555cd30c384a968af64c")))
         (sha256
           (base32
-            "04dwvi0mzp8c1kxyswifr65q05yfc4f0dxd6f8jnqy7n9vhmqalq"))))
+            "08b1minjvdd3h2smav5lcpvz8b6qdi73bd8a7n5i8wnzxcqhx2s8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-svg-lib emacs-ts))
     (home-page
@@ -67138,17 +67138,17 @@
 (define-public emacs-keypression
   (package
     (name "emacs-keypression")
-    (version "20200819.534")
+    (version "20231123.532")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chuntaro/emacs-keypression.git")
                (commit
-                 "9427241f3fa539e4b5ad7581a05eb7e49f2cf518")))
+                 "5de175814354e6957f2ead6dbade7181f90747f5")))
         (sha256
           (base32
-            "0p2pag2hzxswsf5hzjfm0nf4wpp40lsmxf1x6n9vfwfrpfk5b9ar"))))
+            "1k0dri56c1775c1nyccdv96qdpwia9ipv9f7ik9ikl4fiy7rahid"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/chuntaro/emacs-keypression")
@@ -67341,17 +67341,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20231119.1750")
+    (version "20231123.152")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "237195e20e296e851c41219a7af7222266937d44")))
+                 "5fac39afed795d08dd3fc434c73e76d715576613")))
         (sha256
           (base32
-            "06giyvnfaj3h27pdgfr00w92md6gdz9jzgggv11092zsdyawr6p6"))))
+            "0vv2ws8qwx5ldf61skdi92njq3rxhhsf6facjcbqb5kllpvfllqq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -68772,17 +68772,17 @@
 (define-public emacs-latex-labeler
   (package
     (name "emacs-latex-labeler")
-    (version "20231014.2110")
+    (version "20231123.240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/X9hRRDys/latex-labeler.git")
                (commit
-                 "d45dedbc74887c59f15c5a3dcd7546d2c29c30a4")))
+                 "fbe4d339804a86bcd6b164ad1795983b4b10f0b6")))
         (sha256
           (base32
-            "1qss7fw2b9rnl6fzb230z5jgs1m8glpaq1qhjkxa7fpm52zc49s5"))))
+            "0hz4azhndqsxwbvia8k438izdri6hjapax5n06r0ib2dnqg77par"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/X9hRRDys/latex-labeler")
