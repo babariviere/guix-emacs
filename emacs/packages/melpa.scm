@@ -2993,17 +2993,17 @@
 (define-public emacs-anaconda-mode
   (package
     (name "emacs-anaconda-mode")
-    (version "20230821.2131")
+    (version "20231123.1806")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pythonic-emacs/anaconda-mode.git")
                (commit
-                 "f1831877b6517d424b73dc81882244c74ff525fd")))
+                 "92a6295622df7fae563d6b599e2dc8640e940ddf")))
         (sha256
           (base32
-            "0q33sjsidvgnd2s15hhxrh6sbs60989m6ai7w1fwf6rbknl2khh0"))))
+            "0x5srah4w3vrn5wqzfy02dfxmxyi0hfvlk7nq3h2dshz6q6x7b9z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pythonic emacs-dash emacs-s emacs-f))
@@ -12970,17 +12970,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231121.427")
+    (version "20231124.1022")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "e5e745b5c265db3cbf83298f0e550c29825662d9")))
+                 "120fd885d37c07137f1c162e8d522ab3eed1ac3f")))
         (sha256
           (base32
-            "1y0vvg7zpy703na8s6vykadd46xpqcwldbppgvd7n1s56afd4x2r"))))
+            "0g57rdybyrxzphv8b8a8nllydig0sw9r26piql44ivi3d6c1pdmg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -13921,17 +13921,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20231116.525")
+    (version "20231124.724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "b390a17a2b0db2bb7d2b0d1cf014513cc1346e4c")))
+                 "0a2a6cbc2e29177f4f55730637a357433a03fa38")))
         (sha256
           (base32
-            "1qq3jp105bp2j3fc7qdx1rqn1lhmqz8rkflqjpzabpf3pw4adi1y"))))
+            "052zcvbmx0bb9smnyhdhzyaf90finqrasm4gvvb2mbld5hil42b3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -14217,17 +14217,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20231105.1254")
+    (version "20231124.732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "481ca480e8b7b6c90881f8bd8434addab1d33778")))
+                 "25d713a67d8e0209ee74bfc0153fdf677697b43f")))
         (sha256
           (base32
-            "09124cnvq7cnllsnbbshx1frbha6sydjgzn00k3rkyxclhbm8vhd"))))
+            "1d5kkq2i8d04k2qfrb31zyjpij92ckbccnzvz01mls3xrvpr57m5"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -14240,17 +14240,17 @@
 (define-public emacs-clojure-mode-extra-font-locking
   (package
     (name "emacs-clojure-mode-extra-font-locking")
-    (version "20231018.922")
+    (version "20231124.732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "525fc1b131b1fc537aa82d83d9eb2ea833cface6")))
+                 "25d713a67d8e0209ee74bfc0153fdf677697b43f")))
         (sha256
           (base32
-            "0g4x587fpzcj9y59k8sb1g7c6yvga9gjs8ximpmar7d8jq2cv5qa"))))
+            "1d5kkq2i8d04k2qfrb31zyjpij92ckbccnzvz01mls3xrvpr57m5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-clojure-mode))
     (arguments
@@ -17883,17 +17883,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231123.1803")
+    (version "20231124.1254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "9b2d0fbf837ec4e520df90794ce1ee7032634ce3")))
+                 "36a5aeb12a32319c1efc8a397ea09219d62cc763")))
         (sha256
           (base32
-            "0i27x43r8y1p76dphl3by3zp6b3s0zn4r1im1vivaak2nj418fnz"))))
+            "1g5rs8cnlvjyxih3xhynvqwavhfh3xkib3s3iym636cldzcmaj6j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -18734,17 +18734,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231123.1811")
+    (version "20231124.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "aa6d3b0d692cc994500c4151f48256a6c7fe8ea8")))
+                 "007437dc81b41d7165cf1d84772e602b6193726c")))
         (sha256
           (base32
-            "170gsyr5z4v7xpjaxc6bzqnbcm7zklphnk9nd24zh3lhnanzjmif"))))
+            "1psszknwahyvdwi8lnlwri9hzijmany2k93qlzpzrz9nh507n0fs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -64789,17 +64789,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231123.1811")
+    (version "20231124.1250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "0e2dc2d283db6d5d092f112b6dee13fa207e95d4")))
+                 "a3901127d82cc61768104c71ee58bcacd8fb8d29")))
         (sha256
           (base32
-            "0yjqwqyk2xmwqf8lj0s695ym6cc02jymmilw7g0aak8gl15607w8"))))
+            "0x0nwp5hy9038f2yd1dshpi1qzpxl9d6pw9jljsz28jappg2icjc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -67867,17 +67867,17 @@
 (define-public emacs-kotlin-ts-mode
   (package
     (name "emacs-kotlin-ts-mode")
-    (version "20231114.1243")
+    (version "20231124.1048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
                (commit
-                 "9688741a59a5ffd71850660dd320b0309a2ba119")))
+                 "69c43fe95f3bd2d8432957f658ef3337c84ae769")))
         (sha256
           (base32
-            "1gxj3fys3py0ldz31f8frmj12f9jyyqj9g8valsy2c87qvg70ag3"))))
+            "1xp8xlqxzdvlgpjzzybbsqmklam19kn03j2sljvb5sz7mn3q98n9"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
@@ -72333,17 +72333,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231120.1519")
+    (version "20231124.833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "d441f3d268a31a4a514af2db506a5eec47ee617d")))
+                 "60bdeab88ee9fd9992abdfc9b2e2a98852672be4")))
         (sha256
           (base32
-            "0253iz7cnm8jvqrgxbqg1lb7sr30d4xcgclrbxf5dad8sxf8am86"))))
+            "0h9p1yxa45nr9zn4bbbk3l4g99pwx89ch26lqqm68vyh1nvgbysy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -77630,7 +77630,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231118.616")
+    (version "20231124.814")
     (source
       (origin
         (method url-fetch)
@@ -77640,7 +77640,7 @@
                ".tar"))
         (sha256
           (base32
-            "07cv4pbpqaifmqcry1xrx5kad1w58m04zw5qy8halclcn1da50z5"))))
+            "1j4d3fv44ipapc6z3zp4ynri5f853zkflfdgy56k6gfhrkdgcqng"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -89138,17 +89138,17 @@
 (define-public emacs-org-ref
   (package
     (name "emacs-org-ref")
-    (version "20231101.2355")
+    (version "20231124.1419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jkitchin/org-ref.git")
                (commit
-                 "195b8d3209aff956ecdd755422700e8517a34d11")))
+                 "a70ca9aed2eca1d4d0226eccb99c643f2198bb76")))
         (sha256
           (base32
-            "1bd6g33brn77x67iad02ncjh841q8lcfhqgynapvfxwf1k24c1y4"))))
+            "1d88if9fmdlka5gq2p67d21akjaf3659nj9752knz1ryzi9d1ja8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -90145,17 +90145,17 @@
 (define-public emacs-org-timeblock
   (package
     (name "emacs-org-timeblock")
-    (version "20231121.1504")
+    (version "20231124.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ichernyshovvv/org-timeblock.git")
                (commit
-                 "3205eec79715f31e00f2aa45a0bb7bd553586c91")))
+                 "2d65c888e2516c28c51a68907c023199e7996c87")))
         (sha256
           (base32
-            "1m4fc75p72izy5f4h94qdm895mixxbp1makdh8na7nxi1x9vbm4h"))))
+            "02679142f49qyiicc6ab9zgnywj0pmxbldfb9jmr0da0kqrn419q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-org-ql emacs-persist))
@@ -114311,17 +114311,17 @@
 (define-public emacs-sqlite3
   (package
     (name "emacs-sqlite3")
-    (version "20231124.433")
+    (version "20231124.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pekingduck/emacs-sqlite3-api.git")
                (commit
-                 "0aa2b039259b63c592e09ea815def52c95521c3f")))
+                 "a601c9965e4d0178705a64b7d4f88709ca9aea66")))
         (sha256
           (base32
-            "0h30ksqb38laj58xanyxm3hawi7dmhc2qq3y0z0x8c1nw8gm4wxa"))))
+            "1d1r65ybcf5idbs8sv0l3dna4l1wy3jba9dvv1kkz7zj6qhr48fs"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -126619,17 +126619,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20231025.1927")
+    (version "20231124.833")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "848fce94de202541cd3fcd35e9c9d22783e9e828")))
+                 "c40fdcc91ed4bc1773531be3b6bfcbb9b1a0303c")))
         (sha256
           (base32
-            "1yypnb36hr04sgwn486j18a2z5i3i5fbwnjdw6yn2v59mbgqfdfz"))))
+            "09vjn9261kghwzydjifx6kynz8izjjl007sid9455m9dkrmhdbjs"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
