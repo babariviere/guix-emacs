@@ -27633,17 +27633,17 @@
 (define-public emacs-easy-kill-extras
   (package
     (name "emacs-easy-kill-extras")
-    (version "20231123.2031")
+    (version "20231124.443")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/easy-kill-extras.el.git")
                (commit
-                 "9dcdd662f8bdf9afd7366b5009e5f04e9dcf57d1")))
+                 "ff9de0c9186f8e43cb29611c78756b14e728dbb3")))
         (sha256
           (base32
-            "1grhi6nvm14zba2cqia1dis3h29aamk81y4m8yfl665cs1q3rypd"))))
+            "0a3zlp6vsz47rnj8cr2az71cdinkm951jp67yl1cbk2z0v1szjy7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-easy-kill))
     (home-page
@@ -77133,17 +77133,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20221204.1608")
+    (version "20231124.336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "de9f84531ca4db6e54a2ca7201638decc0ccadd4")))
+                 "01ea3f85c3bd58f9c3d286947272ea69bd7db69e")))
         (sha256
           (base32
-            "04gqvlqb00jmkxj4wv4yr3hyvyal4vp2i2x0r338144bhwcxmi71"))))
+            "0cb4ijfw76890mpv1nylxr0nyr2fvn99dy228azk2k56fnw6y2q2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -114311,17 +114311,17 @@
 (define-public emacs-sqlite3
   (package
     (name "emacs-sqlite3")
-    (version "20230315.1221")
+    (version "20231124.433")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pekingduck/emacs-sqlite3-api.git")
                (commit
-                 "b513b71012f61895f771fc6948d6511ea8ded0a6")))
+                 "0aa2b039259b63c592e09ea815def52c95521c3f")))
         (sha256
           (base32
-            "1y36818nd47mzfi3xcp31nr8n0izzmdyiqfx9hgp7ag98rbm7wlx"))))
+            "0h30ksqb38laj58xanyxm3hawi7dmhc2qq3y0z0x8c1nw8gm4wxa"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
