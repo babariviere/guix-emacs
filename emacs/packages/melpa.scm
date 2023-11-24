@@ -3811,17 +3811,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20231118.53")
+    (version "20231123.2211")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "615b0f5591c922292e7c51cafc7bb0d2c8821f07")))
+                 "731edd2954ae213548ec4459c7db6d5db9e251b8")))
         (sha256
           (base32
-            "1wgc3l553af6qrmwk3dy82bpgkxvnpki6hcz0phkmc4naxfvqja0"))))
+            "0afv75w028v59qf777nrf57xj9yaz3jj2bixfmkgiqrn1wii9pm6"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -4515,17 +4515,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20231122.2101")
+    (version "20231123.1802")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "b4b5a7eedc30122aebf84ee950dc84da444e8953")))
+                 "00e07e060218fbd1e16faaf10116c03b12e62580")))
         (sha256
           (base32
-            "1si17msm721y3r5dp5jjb8ww60080z2yg53h153kmg86ifrgggry"))))
+            "191bjmwg5bgih1322n4q4i2jxx7aa3cb9lx0ymkwc3r2bdhkn0lp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -11031,17 +11031,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231029.1004")
+    (version "20231123.1817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "abacb231157e0c90e29bdda6d15b4b448e48ffbd")))
+                 "f9f8e4a1e36b0ee7972c35bc0a635cbed9959aa0")))
         (sha256
           (base32
-            "1h1w4xr4xr34az6iycqgcwr8as54rv3c13pmzmvpx72m46il1asv"))))
+            "1lgaw4yz384114d7z01z1a0dwwzp4jfhalcrr1kljxsbdjdrp9jy"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -15687,17 +15687,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231123.135")
+    (version "20231123.1842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "5d05b0829b65ac0f5c334b85b53d9d7cc0204427")))
+                 "9b21604d19696de2c79ee28931620839b3a908b4")))
         (sha256
           (base32
-            "1b58128xc608iw1hgjvk1msc2rm0anxj9c2lyrh7wp39nabsknxr"))))
+            "1bv91a7bl6bwb05cfdxqaab9vksscj83d0pfa65dyj89nnsj9gi3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -16910,17 +16910,17 @@
 (define-public emacs-company-prescient
   (package
     (name "emacs-company-prescient")
-    (version "20221216.112")
+    (version "20231123.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
+                 "707c25c947a9f17a1d43f97b3b28aba91ec9addb")))
         (sha256
           (base32
-            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
+            "0sdpil5zhwxq8dvfd2v0az5zm1wrd0jysfpwkyhbzsj49r9rj4bc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-company))
@@ -17883,17 +17883,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231116.2120")
+    (version "20231123.1803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "04c89250e7eb1bffd822bcfa57b6049af6da2ea6")))
+                 "9b2d0fbf837ec4e520df90794ce1ee7032634ce3")))
         (sha256
           (base32
-            "172inr2rm9al5rpdg3imjlqzj52amvwa9j5qraz2kgx3mix7wf8v"))))
+            "0i27x43r8y1p76dphl3by3zp6b3s0zn4r1im1vivaak2nj418fnz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -18734,17 +18734,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231112.819")
+    (version "20231123.1811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "41e35c23a3512df658cdea95b246977923af56f5")))
+                 "aa6d3b0d692cc994500c4151f48256a6c7fe8ea8")))
         (sha256
           (base32
-            "1gpzlrq631839jds991pzplqnz92yifsmvxbylh4rswpzcmrn46g"))))
+            "170gsyr5z4v7xpjaxc6bzqnbcm7zklphnk9nd24zh3lhnanzjmif"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -18782,17 +18782,17 @@
 (define-public emacs-corfu-prescient
   (package
     (name "emacs-corfu-prescient")
-    (version "20221216.112")
+    (version "20231123.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
+                 "707c25c947a9f17a1d43f97b3b28aba91ec9addb")))
         (sha256
           (base32
-            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
+            "0sdpil5zhwxq8dvfd2v0az5zm1wrd0jysfpwkyhbzsj49r9rj4bc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-corfu))
@@ -27633,17 +27633,17 @@
 (define-public emacs-easy-kill-extras
   (package
     (name "emacs-easy-kill-extras")
-    (version "20231123.1213")
+    (version "20231123.2031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/easy-kill-extras.el.git")
                (commit
-                 "531dd89fa23103fb321c34c99349ccb8e38a9a90")))
+                 "9dcdd662f8bdf9afd7366b5009e5f04e9dcf57d1")))
         (sha256
           (base32
-            "1qgg3xa7v0abin5hdkf0djf1hwvf4hc0chb5ykmqilgv1wwjnq7y"))))
+            "1grhi6nvm14zba2cqia1dis3h29aamk81y4m8yfl665cs1q3rypd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-easy-kill))
     (home-page
@@ -29132,17 +29132,17 @@
 (define-public emacs-el-patch
   (package
     (name "emacs-el-patch")
-    (version "20230409.2156")
+    (version "20231123.2216")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/el-patch.git")
                (commit
-                 "e358febcb03f71f3aed4b37f99990ae865f1124b")))
+                 "92803e7ea6e07cd56667ed7ea0dfacfc1f37f6d9")))
         (sha256
           (base32
-            "0j3r3p008jx5y1cd8qpki220ydk45sis6vh1c3rbakalda9aww67"))))
+            "0x2x3ci5i428wgagbwjh9qp2zlflkzlrkbpi6qa4fv7dq3vgkrv2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/radian-software/el-patch")
@@ -61561,17 +61561,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20231002.1229")
+    (version "20231123.2226")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "991fe74b1c1b83412b42832a39aafc2d88ae625c")))
+                 "1d5052806b61fc635fc2de22afae85140a56f37e")))
         (sha256
           (base32
-            "0dxjcr34xsa0m25yw8pp4iwjq8cqdgs6r8ls4lwfb69rnii7jmn5"))))
+            "0aga5wkpf5ksckxwbz9ql45sxxi03spibb4yhz7iib6lwmqi57wq"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -63574,17 +63574,17 @@
 (define-public emacs-ivy-prescient
   (package
     (name "emacs-ivy-prescient")
-    (version "20221216.112")
+    (version "20231123.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
+                 "707c25c947a9f17a1d43f97b3b28aba91ec9addb")))
         (sha256
           (base32
-            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
+            "0sdpil5zhwxq8dvfd2v0az5zm1wrd0jysfpwkyhbzsj49r9rj4bc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-ivy))
@@ -64789,17 +64789,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231111.850")
+    (version "20231123.1811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "25279e36701ad0bea1331ccfa009c07fda2f85d0")))
+                 "0e2dc2d283db6d5d092f112b6dee13fa207e95d4")))
         (sha256
           (base32
-            "0z05znl1cb26j67h7g0wlfazn9sr7p5j59mwdayy3l9157ic6b4i"))))
+            "0yjqwqyk2xmwqf8lj0s695ym6cc02jymmilw7g0aak8gl15607w8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -95919,17 +95919,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20231118.532")
+    (version "20231123.2052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "1565b0db7d547d4e339ce7aaf27653eafc705090")))
+                 "0c5524073c35c954a25424c914cf249a5fe05d76")))
         (sha256
           (base32
-            "1vawcwwh7i03agfgbbzijczdxnq4w69ya8gr3dgfc1qx1swavz25"))))
+            "1pxv4c63dma1il6w8vl2485yddp0ngm3gvfdqwjjszanfdxa4fg1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -98658,17 +98658,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20230909.2336")
+    (version "20231123.2214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "37d356e105fe29d5d3c686dcae2585981299d30b")))
+                 "707c25c947a9f17a1d43f97b3b28aba91ec9addb")))
         (sha256
           (base32
-            "0p1sipp0bbkq77far4vp2dhvhrj69izb4v5d6rhy45qv2j2d54qj"))))
+            "0sdpil5zhwxq8dvfd2v0az5zm1wrd0jysfpwkyhbzsj49r9rj4bc"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -104671,17 +104671,17 @@
 (define-public emacs-repl-driven-development
   (package
     (name "emacs-repl-driven-development")
-    (version "20231023.1120")
+    (version "20231123.1917")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alhassy/repl-driven-development.git")
                (commit
-                 "8877f692112459095649735ac4d023248b3905ae")))
+                 "05bd1cee8f298173010ed17a98ba2b94cb08d830")))
         (sha256
           (base32
-            "19zj743ayv322cz13kilkkl4djpzs9q22z6qhk0ipasy1kdijh57"))))
+            "1ladm2gmvmhhccly1l2m0c1389xy50dacqbjzk1rw6mdbscgjqlm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
@@ -108425,17 +108425,17 @@
 (define-public emacs-selectrum-prescient
   (package
     (name "emacs-selectrum-prescient")
-    (version "20221216.112")
+    (version "20231123.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "72b023f5fc1ae2bbf2f51f1786cc012d40671bf4")))
+                 "707c25c947a9f17a1d43f97b3b28aba91ec9addb")))
         (sha256
           (base32
-            "1mc9pjb80bxcmzaylfwh0sgpvwbx3h35jalznwz464hw3vqfff83"))))
+            "0sdpil5zhwxq8dvfd2v0az5zm1wrd0jysfpwkyhbzsj49r9rj4bc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-selectrum))
@@ -113674,17 +113674,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20231111.59")
+    (version "20231123.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "18d7cfd411d79d8bc81027a023c72bae96d77059")))
+                 "2aeb2bc79aa03b158bee8fd766fc9a4fb1d772b7")))
         (sha256
           (base32
-            "0kj1amrxa1ldc4ss0lx1y2jl4iskg68zm20yldw059gwlg61p13q"))))
+            "0x15ap3l2s5mfma4k9z2bz7sywxzpf0r8brqqkkpqv4isy4hvh05"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -120612,17 +120612,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231121.1154")
+    (version "20231123.2131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "57bb749f98e198bf56c415e9a8d69bd7750433b5")))
+                 "4c1cda998434fc3a9d2a0b54cc059e5083a96b94")))
         (sha256
           (base32
-            "0mngccvvzdi5fqs4a8inxpvc1fsggxdlq3n7fzx8dc0p1wn9z0fn"))))
+            "00pn2520lfbv25v154xlqdajjsjrpj84n37mikqjcv6090aqr4m8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -124855,17 +124855,17 @@
 (define-public emacs-vertico-prescient
   (package
     (name "emacs-vertico-prescient")
-    (version "20230221.1257")
+    (version "20231123.2208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "822481e722502081deedbe6b1a9776eda0ca7bfe")))
+                 "707c25c947a9f17a1d43f97b3b28aba91ec9addb")))
         (sha256
           (base32
-            "1h9chc5bipvmn6vqzr150dk91hfcj6yzdn3ylb4lgk70x8if4xvn"))))
+            "0sdpil5zhwxq8dvfd2v0az5zm1wrd0jysfpwkyhbzsj49r9rj4bc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-vertico))
@@ -127632,17 +127632,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20231119.749")
+    (version "20231123.2259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "2d6bcb77f1d7c6c1c87ee9e2251449b6ffd4d91e")))
+                 "2ca0ef9493e883d5834107f1535bb4d1fab485d3")))
         (sha256
           (base32
-            "1a8k1l8wf9xqx7lq3hfyb5snm113frxfy5jwhp0qq06sdaprwcyk"))))
+            "0xpjcqg2ymh8pqx6m4lvxzkznv3pmx4r9m6p3n51dlqkkl23zl97"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -127657,17 +127657,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20231119.749")
+    (version "20231123.2259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "2d6bcb77f1d7c6c1c87ee9e2251449b6ffd4d91e")))
+                 "2ca0ef9493e883d5834107f1535bb4d1fab485d3")))
         (sha256
           (base32
-            "1a8k1l8wf9xqx7lq3hfyb5snm113frxfy5jwhp0qq06sdaprwcyk"))))
+            "0xpjcqg2ymh8pqx6m4lvxzkznv3pmx4r9m6p3n51dlqkkl23zl97"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
@@ -129527,17 +129527,17 @@
 (define-public emacs-xwidgets-reuse
   (package
     (name "emacs-xwidgets-reuse")
-    (version "20231121.2150")
+    (version "20231123.1626")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lordpretzel/xwidgets-reuse.git")
                (commit
-                 "d9ef301c69f4d81c7a2d89492c13bde6ddbcf18b")))
+                 "9add364dbdd60bb40fefcecafb95ca8090d7d524")))
         (sha256
           (base32
-            "1vzk1amv1vihhns5j7ixyjan3zr3n45h4l4jmfz7nqfcrgrh371s"))))
+            "06i8mawswpvy5bpfs9dz5nxxrpww9xck98zyc54hgw5snf7af0bp"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("xwidgets-reuse.el")))
     (home-page
