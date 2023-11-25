@@ -45276,17 +45276,17 @@
 (define-public emacs-frecentf
   (package
     (name "emacs-frecentf")
-    (version "20210330.1521")
+    (version "20231125.201")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.launchpad.net/frecentf.el")
                (commit
-                 "19e2c48a8b8c8ee8cae5c93b58b57a0aa81a8c46")))
+                 "ef788b2af412311fbc6f52d639810746e5c0fa93")))
         (sha256
           (base32
-            "1gjzis2jshsq5sdi5rv3a29cmk4iv7y6k2awxlddq3biyf80ialb"))))
+            "0ypm0ax1wvqd86a3qfspqqb0xvybxa4jpmssmrrk5lv2a3ashzx3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-frecency emacs-persist emacs-async))
@@ -67341,17 +67341,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20231123.152")
+    (version "20231125.46")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "5fac39afed795d08dd3fc434c73e76d715576613")))
+                 "25f3f2367e6a7082bd12450aa8cd4a952c5aa959")))
         (sha256
           (base32
-            "0vv2ws8qwx5ldf61skdi92njq3rxhhsf6facjcbqb5kllpvfllqq"))))
+            "0nz0bhpphsnlhjdsd0vr5y2vxacyfvlcz51jkfyvw8xv5lhndxbs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -70914,17 +70914,17 @@
 (define-public emacs-literate-calc-mode
   (package
     (name "emacs-literate-calc-mode")
-    (version "20231021.804")
+    (version "20231125.29")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/sulami/literate-calc-mode.el.git")
                (commit
-                 "2579d7b28994bb16c3e02577953e7d9669121288")))
+                 "a1a78f26dea70aac1c4df7f5767c8f5c1643d7d1")))
         (sha256
           (base32
-            "03hzahbjv19krp9jfrh1haqicm9n8ldb05swvbwzy6cq1paslhj9"))))
+            "1asy8g4jsivgqjjlbp8h3q0ksjjwdfvd0sp09ha8cm0n9f991201"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (home-page
@@ -77992,17 +77992,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20231121.2146")
+    (version "20231125.23")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "b7bc361b9341cefda6d6cf2fb6cd8a378418e0f7")))
+                 "19dc4775e5dc6f8c123a3a3ac0718284490a9328")))
         (sha256
           (base32
-            "1z2fya51a8g1aayxykcgxwkc15sghxvp1syb42m322iaf6g6702l"))))
+            "1xrszdsarz3zabxaipnr0jm1a8xppp1v2xxgsqj0x0w735r3qffm"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
@@ -127632,17 +127632,17 @@
 (define-public emacs-wildcharm-light-theme
   (package
     (name "emacs-wildcharm-light-theme")
-    (version "20231123.2259")
+    (version "20231125.605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "2ca0ef9493e883d5834107f1535bb4d1fab485d3")))
+                 "d6cda809c3d62fcb7a8cce4757150454da474de8")))
         (sha256
           (base32
-            "0xpjcqg2ymh8pqx6m4lvxzkznv3pmx4r9m6p3n51dlqkkl23zl97"))))
+            "15xsx4s190brc1qx156zm2wzp8pb6i6aprsr5zv0h33ycxb37n1k"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("wildcharm-light-theme.el")))
@@ -127657,17 +127657,17 @@
 (define-public emacs-wildcharm-theme
   (package
     (name "emacs-wildcharm-theme")
-    (version "20231123.2259")
+    (version "20231125.605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/habamax/wildcharm-theme.git")
                (commit
-                 "2ca0ef9493e883d5834107f1535bb4d1fab485d3")))
+                 "d6cda809c3d62fcb7a8cce4757150454da474de8")))
         (sha256
           (base32
-            "0xpjcqg2ymh8pqx6m4lvxzkznv3pmx4r9m6p3n51dlqkkl23zl97"))))
+            "15xsx4s190brc1qx156zm2wzp8pb6i6aprsr5zv0h33ycxb37n1k"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("wildcharm-theme.el")))
     (home-page
