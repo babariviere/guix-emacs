@@ -12281,17 +12281,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231120.1153")
+    (version "20231124.2034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "1860b3e8b94a9a2d76828906fcb1046a0bc04255")))
+                 "a73f4f4063602e9b28152926489a3e4a67754a65")))
         (sha256
           (base32
-            "1r7lxgqqz8b2vxmv5mcs4c4pxfcihc7hywn72cagx30ilcm0k2y3"))))
+            "00yq9lagbkachp32syf22ksdh7n1kcw0742vrsfsb753kpdb56b1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -14217,17 +14217,17 @@
 (define-public emacs-clojure-mode
   (package
     (name "emacs-clojure-mode")
-    (version "20231124.732")
+    (version "20231124.1721")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clojure-mode.git")
                (commit
-                 "25d713a67d8e0209ee74bfc0153fdf677697b43f")))
+                 "222fdafa2add56a171ded245339a383e5e3078ec")))
         (sha256
           (base32
-            "1d5kkq2i8d04k2qfrb31zyjpij92ckbccnzvz01mls3xrvpr57m5"))))
+            "089xg4801h9vbgiyh1m58ib1c4y8k11n8znddsr7gk6rsmr9kb2g"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("clojure-mode.el")))
     (home-page
@@ -21491,7 +21491,7 @@
 (define-public emacs-darkman
   (package
     (name "emacs-darkman")
-    (version "20230901.953")
+    (version "20231124.1554")
     (source
       (origin
         (method url-fetch)
@@ -21501,7 +21501,7 @@
                ".tar"))
         (sha256
           (base32
-            "1zzp6103jb2550b7i8b4g9r80xk6zdn3n7m899ky8r1id895n0ks"))))
+            "0kml8vqyk6s78zk76glhjfrpl2jlyzkrc6v45is9a8qp8l5hkqs2"))))
     (build-system melpa-build-system)
     (home-page "https://darkman.grtcdr.tn")
     (synopsis "Seamless integration with Darkman")
@@ -22310,20 +22310,20 @@
 (define-public emacs-decor
   (package
     (name "emacs-decor")
-    (version "20231101.2354")
+    (version "20231116.1713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/decor.git")
                (commit
-                 "aad4fa9f4e0d4140e2707f4cc678b1dc3c0672fa")))
+                 "add132447ade02afef1328bf50040f77cbd86087")))
         (sha256
           (base32
-            "0lxw55l0p5cgp1kgwh0yzh9bc3wvgnd932jmfy77nmiw6wl4achm"))))
+            "1zvg36d1s0qw321dpsv0yrvmyd35hi64s7k4bdpl4mrm2yffsfm6"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/KeyWeeUsr/decor")
-    (synopsis "Modify visual decorations (X11)")
+    (synopsis "Modify visual decorations")
     (description
       "Documentation at https://melpa.org/#/decor")
     (license #f)))
@@ -30583,17 +30583,17 @@
 (define-public emacs-elixir-ts-mode
   (package
     (name "emacs-elixir-ts-mode")
-    (version "20231115.1851")
+    (version "20231124.1826")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wkirschbaum/elixir-ts-mode.git")
                (commit
-                 "d56d5915d4540a4f55f495e27407637d0359c774")))
+                 "70254355700ea5fa7fdfb5da42908f7b19cddb25")))
         (sha256
           (base32
-            "02jys0wnp2s601mgqa6fi3jamjy1dprima1q594wdjf82av2n8sv"))))
+            "1f57wsfgq37v090sj4p3vg26nnyr52qirk3ka4szswlrjr57g8ck"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-heex-ts-mode))
     (home-page
@@ -36667,17 +36667,17 @@
 (define-public emacs-evil-tree-edit
   (package
     (name "emacs-evil-tree-edit")
-    (version "20231108.1749")
+    (version "20231124.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "f5e2b467f14a2980dbe1a862ce0b27e768b2e980")))
+                 "3e71d276e7369ff4525f0e2b84356a31fe6b7782")))
         (sha256
           (base32
-            "1xf4aygk4vc0pi590ca9nm1j9s64bv018xz5w8g4ln7rgpwdk408"))))
+            "1f4r7bd4cvrv5piks62aq7m7y1wx8ddg7d7f5s6b3z9fmrh7jd2b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-tree-edit
@@ -76609,17 +76609,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231120.2121")
+    (version "20231124.1559")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "6d16c2808b325af30bc36b345cfd93fd7a1f14bb")))
+                 "1b25b17b4151c24fdd5e2650446aca7c20cfca0a")))
         (sha256
           (base32
-            "0p5qv27xixklrfpdapfqif1zynkcfshzs4ga05z6bp5jj7263g0z"))))
+            "11w1s2xqgifq646sy1m9l4s2484mcsdphr84xl3q94y5lrlh5in9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -90412,17 +90412,17 @@
 (define-public emacs-org-upcoming-modeline
   (package
     (name "emacs-org-upcoming-modeline")
-    (version "20231019.735")
+    (version "20231124.1726")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/unhammer/org-upcoming-modeline.git")
                (commit
-                 "136a6a76d770d351559091c8d9ad5a189f1f2622")))
+                 "37634ddeeda85a0036987b056ac71199ac3bd03e")))
         (sha256
           (base32
-            "0p12jg3pwa2r3ilw6ln6x7cxg0kqhrdk27i85dhaw4i84w0019r3"))))
+            "1p1lphf50c71n0rp5k26kl37a02ahqxklpk1z133bwdmmnqi1ckm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ts emacs-org-ql))
     (home-page
@@ -120932,17 +120932,17 @@
 (define-public emacs-tree-edit
   (package
     (name "emacs-tree-edit")
-    (version "20231108.1749")
+    (version "20231124.1712")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ethan-leba/tree-edit.git")
                (commit
-                 "f5e2b467f14a2980dbe1a862ce0b27e768b2e980")))
+                 "3e71d276e7369ff4525f0e2b84356a31fe6b7782")))
         (sha256
           (base32
-            "1xf4aygk4vc0pi590ca9nm1j9s64bv018xz5w8g4ln7rgpwdk408"))))
+            "1f4r7bd4cvrv5piks62aq7m7y1wx8ddg7d7f5s6b3z9fmrh7jd2b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-reazon emacs-s))
