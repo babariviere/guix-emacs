@@ -27122,17 +27122,17 @@
 (define-public emacs-dynamic-ruler
   (package
     (name "emacs-dynamic-ruler")
-    (version "20160602.808")
+    (version "20231126.1915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rocher/dynamic-ruler.git")
                (commit
-                 "c9c0de6fe5721f06b50e01d9b4684b519c71b367")))
+                 "984877f3ad8dd4e4bdec2fcacb82a11b4f3b5d75")))
         (sha256
           (base32
-            "09skp2d5likqjlrsfis3biqw59sjkgid5249fld9ahqm5f1wq296"))))
+            "0r495zyl6jgxv6vpg91ls48sdzgwq2c280qw1vflcj29b05kgglz"))))
     (build-system melpa-build-system)
     (home-page
       "http://rocher.github.io/dynamic-ruler")
@@ -32279,17 +32279,17 @@
 (define-public emacs-empv
   (package
     (name "emacs-empv")
-    (version "20231119.2257")
+    (version "20231126.2019")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/isamert/empv.el.git")
                (commit
-                 "7826725fdd1c6c2416f0de76bb0b5ee10d39035a")))
+                 "335a62c11d3ba7125639c455bd0f1f618afbf584")))
         (sha256
           (base32
-            "12gf786slnzzgcg7msdslf33rym84wvw6kij9drc59h5ak0sig4y"))))
+            "1dl102ldpag22bkg7ir0cppzbk0zk8j96fzhrfzi4yfh50bbf9s2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-compat))
     (home-page "https://github.com/isamert/empv.el")
@@ -66129,17 +66129,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20231020.1901")
+    (version "20231126.2034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-jupyter/jupyter.git")
                (commit
-                 "3a31920d48dc5e0d1028fb676cf20d13ea9f78ad")))
+                 "0a92c0c978ab12bd31a50a7e8b1295f5d1767e20")))
         (sha256
           (base32
-            "17fblp4pwgm3vf415rp6l510nhrl4s3ssiimnwjmghyc2v2988j4"))))
+            "1ax0zn10xy9hdxkfb3b6qqif3pzs5fkcy9hax9rh5dmappirplf6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -72578,6 +72578,29 @@
     (synopsis "Scheme support for lsp-mode")
     (description
       "Documentation at https://melpa.org/#/lsp-scheme")
+    (license #f)))
+
+(define-public emacs-lsp-shader
+  (package
+    (name "emacs-lsp-shader")
+    (version "20230824.220")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/shader-ls/lsp-shader.git")
+               (commit
+                 "b61e2af11eaf22443a3fc515432e85956c0a4594")))
+        (sha256
+          (base32
+            "1gy32brml6jlfs190f59ig1w9fcnkkjx45a8xk2lxp6xwc18vsdp"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-lsp-mode))
+    (home-page
+      "https://github.com/shader-ls/lsp-shader")
+    (synopsis "LSP Clients for ShaderLab")
+    (description
+      "Documentation at https://melpa.org/#/lsp-shader")
     (license #f)))
 
 (define-public emacs-lsp-sonarlint
@@ -85025,17 +85048,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20231126.1406")
+    (version "20231126.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "a0cf45cbe9dc18e646d2ce4f4be440160e7e91cb")))
+                 "ff4ffb0f1b6dcf856c8dd219d2d53898c0ccb895")))
         (sha256
           (base32
-            "02ysp35hyadylki7gl8y05l0km2s07ic9vqxbdlz25znpxacsvbh"))))
+            "1qz65f1f4pfhg87slfpsfzfxjn8n1ygsssw5mc6d26ld1kk8iyyf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -121128,7 +121151,7 @@
 (define-public emacs-treebundel
   (package
     (name "emacs-treebundel")
-    (version "20231125.1934")
+    (version "20231126.1602")
     (source
       (origin
         (method git-fetch)
