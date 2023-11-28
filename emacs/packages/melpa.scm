@@ -11031,17 +11031,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231123.1817")
+    (version "20231127.1912")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "f9f8e4a1e36b0ee7972c35bc0a635cbed9959aa0")))
+                 "d63052ac2a3d8193d5df60568b74b47c4d4fed50")))
         (sha256
           (base32
-            "1lgaw4yz384114d7z01z1a0dwwzp4jfhalcrr1kljxsbdjdrp9jy"))))
+            "02qfd8fhzcjv1a5y45j07wm04kgfvbcbak28gh2rpsl91w22f900"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -17884,17 +17884,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231127.953")
+    (version "20231127.2204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "44beaa209f2a1f9351b0156c483c09dbe9a84aac")))
+                 "9fb51110661965bd58183eeb9884aebf354a51a5")))
         (sha256
           (base32
-            "1k5gn4v88q9z4fh69vb6jwx1381qkz6rzqv9b8rfr8djs9xav1ql"))))
+            "0kp0gf0m9s2kv0pqffrkafagkvjscq5hzi78irkw2bxb218gk2vj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22951,17 +22951,17 @@
 (define-public emacs-devdocs
   (package
     (name "emacs-devdocs")
-    (version "20230220.2042")
+    (version "20231127.1905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/astoff/devdocs.el.git")
                (commit
-                 "2988d4d201df16d72c3bea465d2b93b554dbddfc")))
+                 "f0436bc0e2077683438e838acdfc425337898175")))
         (sha256
           (base32
-            "04ghf38mdb6829b81fb0j2l8z8i5d14m72x1h3sx1m1fihr7nlxv"))))
+            "04f7idkpbjkyrcaklh5fmchi9s4inixibrikkrrfjyrc85l2j31d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/astoff/devdocs.el")
@@ -30584,17 +30584,17 @@
 (define-public emacs-elixir-ts-mode
   (package
     (name "emacs-elixir-ts-mode")
-    (version "20231124.1826")
+    (version "20231127.1840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wkirschbaum/elixir-ts-mode.git")
                (commit
-                 "70254355700ea5fa7fdfb5da42908f7b19cddb25")))
+                 "e09370d717309067b8968ed0bec6ab164bb5aeba")))
         (sha256
           (base32
-            "1f57wsfgq37v090sj4p3vg26nnyr52qirk3ka4szswlrjr57g8ck"))))
+            "0pa81vgaj8izc3pfapq1wfambbra3g8qgnpcwq63vps1an6s4x2g"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-heex-ts-mode))
     (home-page
@@ -119123,17 +119123,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20231119.16")
+    (version "20231124.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "bca703868583eae9ad15d4b17056ae3cff136086")))
+                 "909a86274e3a88c7a5c3cc844d4daeaf62d6c74f")))
         (sha256
           (base32
-            "04nv2awxf2s712dkhgiasb13n20w4pq2ngm9hlx7h0plbixlzmys"))))
+            "0rb58sjvjzmi1xvnhvpsfdg9v75f17z04dnmqh58r8cq3npv1p3y"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -120658,17 +120658,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231127.800")
+    (version "20231127.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "600b2df42535ca7077252f37dedd111349b76116")))
+                 "90243aec655973cdd976444c4f698e90bc5f8c4d")))
         (sha256
           (base32
-            "0315pkwkssdaa6c9c6yg5kz4mk3j4cdmr90plsrw2ha8pxvrzhc5"))))
+            "13xgw82fnhiwrh786rdnjbn1wfpcb7lvzb37jrr1i51cjvm55fsf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -121199,17 +121199,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20231122.2131")
+    (version "20231127.2041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "fb8980cef6033afb97ed74173364817488daaad1")))
+                 "f0d09d1065453cc1da44f2a38e70f2c97d8ea5bc")))
         (sha256
           (base32
-            "1294s28xgz8wsaxh1bff3i5ibbcykwhws7ypjwg0cmv7awryb4fm"))))
+            "0psd76n3lm4nx435v7yy6555kdqb7i9v1as7pjrpmzdzry78f0nb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
