@@ -52780,17 +52780,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231127.552")
+    (version "20231128.513")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "9cd03ac5e98da408d76b686c889bce1b3af537ff")))
+                 "96aad023cb12e995e92763195086ccee3aa5a141")))
         (sha256
           (base32
-            "0sqxq1yif69vaqswk65bmfss7kjhabi7j9abmkvvwv25lwf5fq2l"))))
+            "0ld6l8i08x74ij2p2prw7lfx9lchcp8nfgf3r2bba1lip4q4wjbs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -121151,17 +121151,17 @@
 (define-public emacs-treebundel
   (package
     (name "emacs-treebundel")
-    (version "20231126.1602")
+    (version "20231128.37")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purplg/treebundel.git")
                (commit
-                 "a1f3a274f9ce4e8f6166c9f09b1b163fcc7cafa3")))
+                 "bf3d69fa4fef47d22bbbc3c9991de1a5a5580c6f")))
         (sha256
           (base32
-            "1sllz0rl35sbsk9z8zcg6srrspzxmwf3rrhjrzmhhmqsw1cnxfnx"))))
+            "059pkxfdkin1l14jpshzj9fddjkmkvycdczm7f04qhia4w7yk80k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
