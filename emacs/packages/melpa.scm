@@ -8390,17 +8390,17 @@
 (define-public emacs-blacken
   (package
     (name "emacs-blacken")
-    (version "20230821.1738")
+    (version "20231129.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pythonic-emacs/blacken.git")
                (commit
-                 "8266c31465c87db1eb302da690cce55916e8fc52")))
+                 "a43695f9cb412df93ac8d38b55ab1515e86e217e")))
         (sha256
           (base32
-            "00ssy9fn568v61k6m9m879dysrn0gmyaidcnfs011avqrcxn20rb"))))
+            "0kpjavnbmhq8adn65570646xy75czl462xd76xjh957rj2a6wpgl"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/proofit404/blacken")
@@ -21224,17 +21224,17 @@
 (define-public emacs-dall-e-shell
   (package
     (name "emacs-dall-e-shell")
-    (version "20231128.2124")
+    (version "20231129.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "00796a2ceb71e3b9d73986399342f8a7ddfc9350")))
+                 "f27fc3ff5d01db4bae3e5c22c4ec208e387b7af1")))
         (sha256
           (base32
-            "0k39zwh2mxa3vj515v9q26d9f62y7xnw5bim97zz2m65218c8lwv"))))
+            "17jra66ffa8slzm0y6n64nxxns6a1m3sbd4azrzrlyqx81qh26dz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("dall-e-shell.el")))
@@ -71216,17 +71216,17 @@
 (define-public emacs-llama-cpp
   (package
     (name "emacs-llama-cpp")
-    (version "20231128.755")
+    (version "20231129.613")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kurnevsky/llama-cpp.el.git")
                (commit
-                 "764cc519cc3ea5d39ee8e9e22a48f4850653a1b0")))
+                 "275d2c794fc14f831bbf67c55f382f64053c1f3f")))
         (sha256
           (base32
-            "078ga79shqpf6vy1bh789fldal7mrifcg74k72x8c66vzhy6k5c3"))))
+            "0fr9322wz9ca6ki071ffgj9bnh30208f4sr5n11j4xdp91pfm90a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -76633,17 +76633,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231127.310")
+    (version "20231129.342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "b168da5ed825e9796afcc3ff160ce4493911a5a3")))
+                 "e91729806c7f70f6f173d2763aba686411a24137")))
         (sha256
           (base32
-            "0nxby9r22nskyg6n7w4wq9s74ig9p44862i2x6whl8zd7xxs8qc9"))))
+            "1j19xq41ry6afc1gcxj562dgjraydr59y9kkgm8ngkmqkfdxvgdv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -80715,17 +80715,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20231128.913")
+    (version "20231129.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "aa0affc8918661b42cd09922ec2281451671b9ef")))
+                 "dd3094918fe69312d53bf927d20eaccbe941c6a8")))
         (sha256
           (base32
-            "15n33b7lgf7rvk4q4ba84cr1ilw7lgzj4rzpsnbs6yr8hcpgirsw"))))
+            "1fikkqm8gbwwsvas00mvqfaddgdakrddf4dk6jccv87bg54zjahg"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -83373,17 +83373,17 @@
 (define-public emacs-ob-dall-e-shell
   (package
     (name "emacs-ob-dall-e-shell")
-    (version "20231128.2124")
+    (version "20231129.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "00796a2ceb71e3b9d73986399342f8a7ddfc9350")))
+                 "f27fc3ff5d01db4bae3e5c22c4ec208e387b7af1")))
         (sha256
           (base32
-            "0k39zwh2mxa3vj515v9q26d9f62y7xnw5bim97zz2m65218c8lwv"))))
+            "17jra66ffa8slzm0y6n64nxxns6a1m3sbd4azrzrlyqx81qh26dz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dall-e-shell))
     (arguments '(#:files ("ob-dall-e-shell.el")))
@@ -113698,17 +113698,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20231123.1857")
+    (version "20231129.103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "2aeb2bc79aa03b158bee8fd766fc9a4fb1d772b7")))
+                 "030a24a42928ef4d79ee37aaefd103ea7dfa4b14")))
         (sha256
           (base32
-            "0x15ap3l2s5mfma4k9z2bz7sywxzpf0r8brqqkkpqv4isy4hvh05"))))
+            "0nnfg443klny24gsdj94qda3il2qg5ylj9j624l0nrvx11jnj211"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
