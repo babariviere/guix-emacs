@@ -1882,17 +1882,17 @@
 (define-public emacs-adwaita-dark-theme
   (package
     (name "emacs-adwaita-dark-theme")
-    (version "20231128.1635")
+    (version "20231129.857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/adwaita-dark-theme.git")
                (commit
-                 "a7c9b66e27761448604cf32037014a4d312bb6e8")))
+                 "0907961986a582ded514d54a8bfdf691f7bfaf86")))
         (sha256
           (base32
-            "0ps7qzbbqcq8939bsfm58qphsw9wpshrkx1arbpjlngns4x008xy"))))
+            "10hm8anw78n37pl9rz3dnjphrnsxf3fy00d008gayn70jfjl1433"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/adwaita-dark-theme")
@@ -26844,17 +26844,17 @@
 (define-public emacs-dune
   (package
     (name "emacs-dune")
-    (version "20231128.1643")
+    (version "20230402.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ocaml/dune.git")
                (commit
-                 "8c1397cf7d549575768098c8183adab8ede87ff4")))
+                 "dfeb7eedaf33503d2639b0d0bf9cfdb5145c44c4")))
         (sha256
           (base32
-            "1qv6mllkw6wm00csp82fcjdrywgpv2gdxd4jpwhzsafh2dhhm3fx"))))
+            "05wryihqbda6jsqmrcy551c8w6qqz70sjyillv8wgr7zrva3xhv1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("editor-integration/emacs/*.el")))
@@ -37355,17 +37355,17 @@
 (define-public emacs-external-dict
   (package
     (name "emacs-external-dict")
-    (version "20230926.748")
+    (version "20231129.1043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/external-dict.el.git")
                (commit
-                 "5ff41c9151647ef68bf61eff318fc76a3fe558f2")))
+                 "17807ac7e671b44da495e7e3fac5b8cb72a25feb")))
         (sha256
           (base32
-            "1rwhkxxs5hzpc80qza7rfxh18q3hs02azlcal468zl3q67vhwnaw"))))
+            "1vb6xpwpvr0ly36rzbk7hvxxmr33yb0sif0x0sc5ld4zigr23xl6"))))
     (build-system melpa-build-system)
     (home-page
       "https://repo.or.cz/external-dict.el.git")
@@ -39719,17 +39719,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231122.256")
+    (version "20231129.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "99a22e20796d31beb0de9394e9ce00b5fc1b1e13")))
+                 "0311923c068b4f3c2b2a67e8559550a1b65d1403")))
         (sha256
           (base32
-            "0szmm76xx5kkka7j5j0xmg6qpn7n9dzqw4hbw69471bnjnfad6y4"))))
+            "0w1c3pc72sl2vgpz6amr12jhb6if92yjr7353q23bm9wl7gn5630"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -59467,7 +59467,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231112.920")
+    (version "20231129.749")
     (source
       (origin
         (method url-fetch)
@@ -59477,7 +59477,7 @@
                ".tar"))
         (sha256
           (base32
-            "03pimqlpa0935897nks5g6nrdnxg8vvfimhglwg0wsm234ryj0gd"))))
+            "1kq10zg7h6pzwihbr7z01k591blbz6d9b3glk4gz0lfag3y1nqbs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -67868,17 +67868,17 @@
 (define-public emacs-kotlin-ts-mode
   (package
     (name "emacs-kotlin-ts-mode")
-    (version "20231124.1048")
+    (version "20231129.1314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
                (commit
-                 "69c43fe95f3bd2d8432957f658ef3337c84ae769")))
+                 "97fb77d36169179f0b6326abac148df501870718")))
         (sha256
           (base32
-            "1xp8xlqxzdvlgpjzzybbsqmklam19kn03j2sljvb5sz7mn3q98n9"))))
+            "096k6l726cvlb5ra6b3lr7dsnwfnvwb017bnq3bwjk2lph6jhicb"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
@@ -71216,7 +71216,7 @@
 (define-public emacs-llama-cpp
   (package
     (name "emacs-llama-cpp")
-    (version "20231129.613")
+    (version "20231129.820")
     (source
       (origin
         (method git-fetch)
@@ -102521,17 +102521,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231128.1829")
+    (version "20231129.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "fc3f83ca777e4ffa9939ddf244c9663c5cf4326d")))
+                 "3f11c6c7644e518e3185da2577012e2a7c95c565")))
         (sha256
           (base32
-            "1sp3jqv6g3fjgyxprmv9bgz9qq0rshqvqvqn7fkf25i58md93wnj"))))
+            "0934fas9p20hgyjqslhdg8fwr0d64cr3z50i4jnh7h5sa6vl9vwq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -121127,17 +121127,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231115.1119")
+    (version "20231129.932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "3a3ad0527d5f8c7768678878eb5cfe399bedf703")))
+                 "5eb24557f542d5fa18e7baaf07969cf7f297bfcd")))
         (sha256
           (base32
-            "0hbkb2b5i3dgax7jsjds4h6zyyzxyk5r5hcgpzlna61vqjwvvd8l"))))
+            "14vqnp3i8dmkv8dkk8pgq1npg0967nvcl57kvslpmlkh3212qgjp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
