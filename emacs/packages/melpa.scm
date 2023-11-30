@@ -6231,17 +6231,17 @@
 (define-public emacs-awk-ts-mode
   (package
     (name "emacs-awk-ts-mode")
-    (version "20231117.1326")
+    (version "20231130.12")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/awk-ts-mode.git")
                (commit
-                 "b33e35927d51f13e4b11ed6c2441d74193c57f82")))
+                 "9cd2b2ad05d85e05be9da7275077697223d79878")))
         (sha256
           (base32
-            "0lwiizwqpf100anl6ihk4y04y4qj0lwdx792hrv99z0yd9dskwwj"))))
+            "0skx2sc575g4w2g4xy340j0i7a6rhxl18xxrg1i42mdiy1k5h3bc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/nverno/awk-ts-mode")
@@ -17884,17 +17884,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231127.2204")
+    (version "20231130.213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "9fb51110661965bd58183eeb9884aebf354a51a5")))
+                 "49144b6a1f4ce639093c181402a5b29e6eeebd3b")))
         (sha256
           (base32
-            "0kp0gf0m9s2kv0pqffrkafagkvjscq5hzi78irkw2bxb218gk2vj"))))
+            "0b5nmbi2816j7fzsq80y2hkfjchwypw5cqax1xbmqyx9w19nrq4p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -22311,17 +22311,17 @@
 (define-public emacs-decor
   (package
     (name "emacs-decor")
-    (version "20231116.1713")
+    (version "20231129.2342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/decor.git")
                (commit
-                 "add132447ade02afef1328bf50040f77cbd86087")))
+                 "65ceb45ff95453bd76c5b2b679cc4337ac970d24")))
         (sha256
           (base32
-            "1zvg36d1s0qw321dpsv0yrvmyd35hi64s7k4bdpl4mrm2yffsfm6"))))
+            "1jgq2xwjyijd6fhm5l0f4ag3y8s0l9s3gklds8m73ccvqf2lmjkd"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/KeyWeeUsr/decor")
     (synopsis "Modify visual decorations")
@@ -73729,17 +73729,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20231014.1405")
+    (version "20231130.523")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "dd14e0c3c6604f97a447967f0c1ace9947a09e66")))
+                 "53291c93e487c789cb7273088a72a76566fc8ed8")))
         (sha256
           (base32
-            "1mfhqgk8ag6pwnim9xvw1jpqd3jndqckhf7zix2j3qjj1qhyjzqw"))))
+            "0g5z70dc20r6900zp4qjgj4prhjzmcbfc8hr5rm57bid62pjnbfr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -74537,17 +74537,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20231126.932")
+    (version "20231130.214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "785c436ebe4a8475ac04f70ed59f8c7a87421594")))
+                 "8e2f682fd06dac24451c4349b18410fc8d6b4f9d")))
         (sha256
           (base32
-            "1qx7akvgpymfjif9jv5scg3rq91lw4xyq2pz8fh3mfpcqxw59d7h"))))
+            "1nylhlqm8d4jqaij0fi42j8maxw9sy3nizbmiy2a3s6vcvdk2hxc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -74673,17 +74673,17 @@
 (define-public emacs-markdown-mode
   (package
     (name "emacs-markdown-mode")
-    (version "20231028.853")
+    (version "20231130.549")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jrblevin/markdown-mode.git")
                (commit
-                 "b1a862f0165b7bafe0f874738a55be1b1720dd7d")))
+                 "141f9a05d121f60fe5e411c0ad114e3d3216c9ad")))
         (sha256
           (base32
-            "0r9z4vlan1255118kdand9mr9rkdr8kmvrxr9q8bclyz8dk6fr54"))))
+            "03wiq61qzjmsq7kkxdg54wx089zxvmyfx1lgrfnclcmga3xph3db"))))
     (build-system melpa-build-system)
     (home-page
       "https://jblevins.org/projects/markdown-mode/")
@@ -117834,17 +117834,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231129.2142")
+    (version "20231130.550")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "1a292c01f4e3e488c306538e2c41b43f6c12580f")))
+                 "ecd5b094f681b45adaec493b469793cc890a2592")))
         (sha256
           (base32
-            "1nnhf2zmzhz3i2g12d3ahyhp8ljby3363agfzz1ghk9iybn81zkc"))))
+            "11an27k7dbl2xr38716sarf55wbida2y10z8q8fmwab1r9wbxbip"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
