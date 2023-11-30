@@ -18243,17 +18243,17 @@
 (define-public emacs-consult-notes
   (package
     (name "emacs-consult-notes")
-    (version "20231027.1436")
+    (version "20231130.1423")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/consult-notes.git")
                (commit
-                 "eb4c59b8a43c5b74250f92cf8eb05c659efb04d0")))
+                 "12c8ca7eb3cdb7bb89958de20a6de42efd1493b9")))
         (sha256
           (base32
-            "01cs1w126r0czqszwrmfjx31drzq9rlmgfqi5swwvvsz1jcgp2pm"))))
+            "1gaw2v2s3nr5qq6wpi37ghprgvyp2d2nvznhrxb0s1rdiq8khqq9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-s emacs-dash))
@@ -46124,17 +46124,17 @@
 (define-public emacs-gams-mode
   (package
     (name "emacs-gams-mode")
-    (version "20231005.1425")
+    (version "20231130.1515")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShiroTakeda/gams-mode.git")
                (commit
-                 "0e7382bf9613329d2e411ced73536205326a910b")))
+                 "150377ed33ab5b25e3ab7ed15dbdda3387b6df9a")))
         (sha256
           (base32
-            "01hbkylql40p4yczckc22gm3g5qsh4aw1xcp3vmj8bc9n63k77zj"))))
+            "1i1a0wqrvkb6p03433gnjxz59hr97b7qvyijayzv012k6gxlcbhs"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -59467,7 +59467,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231129.749")
+    (version "20231130.858")
     (source
       (origin
         (method url-fetch)
@@ -59477,7 +59477,7 @@
                ".tar"))
         (sha256
           (base32
-            "1kq10zg7h6pzwihbr7z01k591blbz6d9b3glk4gz0lfag3y1nqbs"))))
+            "0y7r4z9dpx829x7229vn61f04aiz6g39pwkzav936mf0w8jvcj7p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -65826,7 +65826,7 @@
 (define-public emacs-julia-formatter
   (package
     (name "emacs-julia-formatter")
-    (version "20231125.2109")
+    (version "20231130.1512")
     (source
       (origin
         (method url-fetch)
@@ -65836,7 +65836,7 @@
                ".tar"))
         (sha256
           (base32
-            "1psdqrlyd78ldpya7bgfj8vj67grwq54ppbm9cmmdhicq1fvwg9d"))))
+            "1slw5yfzcbncg8pl46q06qq0is1gk04k1w3wrrivj1h5qc06wm7b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-session-async))
     (home-page
@@ -111110,17 +111110,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20231127.953")
+    (version "20231130.1102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "c753c7e912d42debd2c43c03f3205996bb1097ae")))
+                 "a924516084ad7da57617ebc19086ebe7b6562ec8")))
         (sha256
           (base32
-            "0kzs3ndqv7hikxxxz76c1bivn8s0cpsldafvach6l2mqljd4wjcw"))))
+            "0wjij8njd9knkl7l76yrbyb6l62ckfx0v5zyhaq01l951gnpji1v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -117353,17 +117353,17 @@
 (define-public emacs-tabspaces
   (package
     (name "emacs-tabspaces")
-    (version "20231119.1824")
+    (version "20231130.1427")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mclear-tools/tabspaces.git")
                (commit
-                 "75cbfc0540887f1f6dc4f4f4ccaaa7c93adca5a6")))
+                 "beab19358c9640493ab01bed8f7c1782b131357e")))
         (sha256
           (base32
-            "1rhfwlz4ncrp4qg2w27z8x3f0mgymgkdlqrv72qfm10r44bn2m6x"))))
+            "0frgs1j1rx0r0n09p6mj91dnr3pji62gwlnj117qfhhabbr713mx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mclear-tools/tabspaces")
@@ -119815,17 +119815,17 @@
 (define-public emacs-tmux-mode
   (package
     (name "emacs-tmux-mode")
-    (version "20231026.2118")
+    (version "20231130.1249")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nverno/tmux-mode.git")
                (commit
-                 "632fc7981ceaea19ab2af0e47acae926354ab453")))
+                 "ee50d02721600c4b31cdafbb9f2ecc5becf1a5f6")))
         (sha256
           (base32
-            "1j4gr3wmh6wrr6lj9bjx7gg34qqywb54309vq28x6y4k9ng966zb"))))
+            "09nd6435hcac0vidlzs2dsx41bzryji3s0kpjhlz1yz81bxw7zq0"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/nverno/tmux-mode")
     (synopsis "Major mode for tmux configuration")
