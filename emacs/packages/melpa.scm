@@ -3811,17 +3811,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20231128.2250")
+    (version "20231129.1926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "56651724ad22f2769bbdaccf54cbe75c1cb35c91")))
+                 "fe27888c6b3f546054b00e7da0b65f2f2f5d5d20")))
         (sha256
           (base32
-            "0r03ncpx6g3y6va5np8waj2117p73pr289dj6ax8zc1wj9v7k34s"))))
+            "13bmk2vyfwd58yga532am8ay04mc748zwiim8cixx8rpmzim6swg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -29782,7 +29782,7 @@
 (define-public emacs-electric-ospl
   (package
     (name "emacs-electric-ospl")
-    (version "20230719.1531")
+    (version "20231129.1953")
     (source
       (origin
         (method url-fetch)
@@ -29792,7 +29792,7 @@
                ".tar"))
         (sha256
           (base32
-            "1l727dcf1wgp4iqzij3kki0161d9g7rsnlhl805f5rdcrrzzsh82"))))
+            "11ighcwx8bwqq64zllis0lcfas0qj3k2hczk7pswwflyh589zxlh"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~swflint/electric-ospl-mode")
@@ -31709,17 +31709,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20231112.1138")
+    (version "20231129.1548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "3f08fc8ede9dddad3752223e01643058594781b2")))
+                 "7cee898bac30dc9505394d9421e0c5f066901f25")))
         (sha256
           (base32
-            "1a08mpfq79mc1n4g9d07wjf7cm0bgi9a3gxkfdsyw52sy82fdr1b"))))
+            "07mlghag1x1lkcyyj9gkwqggv99fkdamqawcycw9ywdrdq6h9a6c"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -31735,20 +31735,20 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20231126.305")
+    (version "20231129.1534")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "c98bf2e9b57e273d9c9759abfc373bea98cf54f9")))
+                 "7cee898bac30dc9505394d9421e0c5f066901f25")))
         (sha256
           (base32
-            "1l14frlqnhlajj6lb1kzd951146azwsfbp4npifb4bcp26qf4ahl"))))
+            "07mlghag1x1lkcyyj9gkwqggv99fkdamqawcycw9ywdrdq6h9a6c"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-embark emacs-consult))
+      (list emacs-compat emacs-embark emacs-consult))
     (arguments '(#:files ("embark-consult.el")))
     (home-page "https://github.com/oantolin/embark")
     (synopsis "Consult integration for Embark")
@@ -69403,17 +69403,17 @@
 (define-public emacs-ledger-mode
   (package
     (name "emacs-ledger-mode")
-    (version "20230925.1013")
+    (version "20231129.1757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ledger/ledger-mode.git")
                (commit
-                 "105d67626e91acb4550ab860e0dc4247c8a4c79e")))
+                 "3ffda90a256c631da17c38737c4215b98223f08d")))
         (sha256
           (base32
-            "03g4w8n5zdbpzx2rbjqa95ybybpnxgshznnrhlfa5191afgci7a6"))))
+            "0szb9krpij2sjysb5pq5yp3g7r8zgf49dzm4i33qn9bqcbwpiff9"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("ledger-*.el" "doc/*.texi")))
@@ -94112,17 +94112,17 @@
 (define-public emacs-pass
   (package
     (name "emacs-pass")
-    (version "20230903.914")
+    (version "20231129.1946")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NicolasPetton/pass.git")
                (commit
-                 "c721604b3bd0c7ce7870f1a9fa0aa71f352a1009")))
+                 "b1198478cd62e1f21d5072d0275e2c446b88b15b")))
         (sha256
           (base32
-            "1cli3j24wrvghfx49zqjphhpzcnzpm4clac24q7h5xs29l2ab192"))))
+            "02c6yq0vvnm92i7x98h7iq4zhvz9vrdlxiqzn56kjlrnwslz3wqi"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-password-store
@@ -99587,17 +99587,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20231013.1509")
+    (version "20231129.1747")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "9446ea92d28462aeb37846a8be0a0c97a7bc0cee")))
+                 "71f18add5e66201c3ea7c9650b848968db3aec42")))
         (sha256
           (base32
-            "04v66sqp3fwknswywlr2nv088dv1pvyh5pzw91mhp7dngvai1nfz"))))
+            "0fc4dxzpmbv35cv8jkkhf3sn5brxx5pi8f4z29f95rbx4hfc0pxf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -117834,17 +117834,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231128.1903")
+    (version "20231129.2142")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "3899aa8648b9e6deddbb34a2a817ca18acb9d97a")))
+                 "1a292c01f4e3e488c306538e2c41b43f6c12580f")))
         (sha256
           (base32
-            "05xrm86gp185mgwb62w720hcbn87salk8z0whq6zf2r2f24l6xbw"))))
+            "1nnhf2zmzhz3i2g12d3ahyhp8ljby3363agfzz1ghk9iybn81zkc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -120658,17 +120658,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231128.1536")
+    (version "20231129.1714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "9050a0d058041e5e54d4e16359fd061e779c2ecb")))
+                 "5f2cfc9f73e756fb337df70909fcd3d0bce56911")))
         (sha256
           (base32
-            "11h3z7aaha4igimia30m6mbss7a3qrs0gbba22pw5y7wdjsdzg65"))))
+            "088799qrycifp1hlgj4j9d5a362zp6nzridj8lpl3ykbviy54a2h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -121199,17 +121199,17 @@
 (define-public emacs-treemacs
   (package
     (name "emacs-treemacs")
-    (version "20231127.2041")
+    (version "20231129.2207")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Alexander-Miller/treemacs.git")
                (commit
-                 "f0d09d1065453cc1da44f2a38e70f2c97d8ea5bc")))
+                 "529876dcc0d2c30667f1697c4eb7a5f137da4c3e")))
         (sha256
           (base32
-            "0psd76n3lm4nx435v7yy6555kdqb7i9v1as7pjrpmzdzry78f0nb"))))
+            "1rg73mc5c50nbabzkysj66x5f7ggrkjb86nj0k1ppvgsvx9dqkcb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -122180,17 +122180,17 @@
 (define-public emacs-typewriter-roll-mode
   (package
     (name "emacs-typewriter-roll-mode")
-    (version "20231009.2207")
+    (version "20231130.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/typewriter-roll-mode.git")
                (commit
-                 "3114d05731517d40972e2ed896806b25bdc0d8c2")))
+                 "100da2ba50195dcde926aecdf8b72ce4c1ccaeff")))
         (sha256
           (base32
-            "0ns5warzk9hy4wivw5qc51lj95ik66wv4d82qxr49grrmy47924f"))))
+            "165mrqy13bkrabc5hsd780ll362j7b518c5ys6qlcdvijv4dgm40"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/typewriter-roll-mode")
