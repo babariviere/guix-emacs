@@ -22150,17 +22150,17 @@
 (define-public emacs-deadgrep
   (package
     (name "emacs-deadgrep")
-    (version "20231028.506")
+    (version "20231130.1628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Wilfred/deadgrep.git")
                (commit
-                 "960b61f4d9bcf75fa0f19c3abb447c63c7d886cf")))
+                 "38abe362997d2f18633a75d04c09da751bf8085e")))
         (sha256
           (base32
-            "1791i7jxpmqvs3xmyk0c12dmx1cjni6gk6z6f0s4h0fhp6g99zas"))))
+            "14brz73fz9zfd95libxajxwc3b4vvljj76fp3xdskxi34z4bs1f3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-spinner))
@@ -31709,17 +31709,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20231129.1548")
+    (version "20231130.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "7cee898bac30dc9505394d9421e0c5f066901f25")))
+                 "4d87456dfecf54c86e820159ad903c0f748813c4")))
         (sha256
           (base32
-            "07mlghag1x1lkcyyj9gkwqggv99fkdamqawcycw9ywdrdq6h9a6c"))))
+            "18xwd52mw308vck4a9c4j29adb7hix9h9di2ilxv9vzn6mgwsql8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -81339,17 +81339,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20230611.1619")
+    (version "20231130.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mrcnski/nimbus-theme.git")
                (commit
-                 "ae88d2997da80efaaece33ab7f554184ad72d962")))
+                 "73335a45f7303cb791e7df0129fca612183809fe")))
         (sha256
           (base32
-            "18gya6qkxqxx18rzph5rgkij5asfq88cma6z4yxdbqdgvzf7g9mf"))))
+            "0mb2f3iyqqmfjl3d63r6cb00rk26z59qqpz158l59w7xx3z5kpac"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mrcnski/nimbus-theme")
@@ -88134,17 +88134,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20230905.806")
+    (version "20231130.2343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "afa7d44282d62dbba84afec2a1a6c2a3ee41e7b9")))
+                 "f04ae8d487efb952c083f944a2a0a34006a1414b")))
         (sha256
           (base32
-            "09jdsh0x5v9sd8sj0f1dcn69rixmlj3w1znflk6gjy249y1l0mb4"))))
+            "0zdjskj68484d4ng2604acsn7zpxzn2cn051qkcgaz7f1c3ni3kr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/org-modern")
@@ -91370,17 +91370,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231119.852")
+    (version "20231130.2344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "c05aa2cb0ad57bde4e4048239328689b7123ec00")))
+                 "74bf96638c08b87c5a1621e4dcbb992b2851eb3b")))
         (sha256
           (base32
-            "19d8fzr86b7adkhsr5jbx202la0my0fl34dlmqkk4am1l6p3di0g"))))
+            "19srrwjcbcd9dag79k0b16d2285rzsxsiv4492ijln4g04qra4zj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -99587,17 +99587,17 @@
 (define-public emacs-projectile
   (package
     (name "emacs-projectile")
-    (version "20231129.1747")
+    (version "20231130.1934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/projectile.git")
                (commit
-                 "71f18add5e66201c3ea7c9650b848968db3aec42")))
+                 "e0fc464d1e41c8d7267636ea2b7330491087c19d")))
         (sha256
           (base32
-            "0fc4dxzpmbv35cv8jkkhf3sn5brxx5pi8f4z29f95rbx4hfc0pxf"))))
+            "14ikb1dmakdal207xpn9r5gbh6zh5hh1gd4i1j2fr2rq013dza2n"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/projectile")
@@ -102521,17 +102521,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231129.1307")
+    (version "20231130.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "3f11c6c7644e518e3185da2577012e2a7c95c565")))
+                 "3cadfa322d8036234a6427a8687869e6657c00fa")))
         (sha256
           (base32
-            "0934fas9p20hgyjqslhdg8fwr0d64cr3z50i4jnh7h5sa6vl9vwq"))))
+            "0mbvpzd4k6azisinbc6l484jvn06v4aakbdn42pwwv38q2w2hzkp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -114477,17 +114477,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20231115.1901")
+    (version "20231130.2037")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "97fa0664ee4852b18201a3fcac265ac8c52a4a4b")))
+                 "aa0164b45fa15bd1cc377793d27af4ddd8d99855")))
         (sha256
           (base32
-            "154r3xrif4nzdqsfyb6skw0ddbi15j1crnqrqv6yclf4s14icz1m"))))
+            "0g1mgqschnpxvqis0j9ldp070v5wgc9kz9sl6gac1gnvnqvdfkss"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -117973,17 +117973,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20230810.2303")
+    (version "20231130.2348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "0101fd2abf8d68a7bda91d678e47363f9b237f5f")))
+                 "38dad1f85104c7c734ad9245f3a85b49562332d0")))
         (sha256
           (base32
-            "0hrxn877qcy95qskjh484fwxqkw8hkqw0vi75j1vk9mv0a10caac"))))
+            "0f1z5p6vbbjsh7cn7hqhv4c6h4awczpf14sbwpzsnwqsxsfjdh34"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/tempel")
@@ -121494,17 +121494,17 @@
 (define-public emacs-treesit-auto
   (package
     (name "emacs-treesit-auto")
-    (version "20231121.956")
+    (version "20231130.1716")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/renzmann/treesit-auto.git")
                (commit
-                 "78b38c4ded525311d6fb1130bfa7ef03273033f5")))
+                 "cfde372ca1be3c216e3b52dd7b58a7957b67e25f")))
         (sha256
           (base32
-            "0vg02mmlmwhw8p5sfxjgbvipamlrw4xv2kyirydrmdwiivdx07i6"))))
+            "10sn5x109i8bili5kvpy8drk5aks5wzj0268xs1nxrvy8hmgfzf3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/renzmann/treesit-auto.git")
@@ -124877,17 +124877,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231128.1915")
+    (version "20231130.2355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "28cf80ed42539f6f649987797952b6db2c91d23f")))
+                 "017ff44443bad401097b9987849625cafa348d86")))
         (sha256
           (base32
-            "0c6ss7mlwrin7rm9wyglwdj5dycfm9byadvnd67w6yy9c94q2w7g"))))
+            "06snksn5v31jyb010iipflz7a7izgsj6jkh1yxzs505smwmfajw6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
