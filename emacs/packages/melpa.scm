@@ -1927,17 +1927,17 @@
 (define-public emacs-affe
   (package
     (name "emacs-affe")
-    (version "20230411.441")
+    (version "20231201.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/affe.git")
                (commit
-                 "ae3169ac4bbd64520d165b4ce4806b7a34b972dc")))
+                 "caec8551df2ce09868af5147ef33c065f81ff4b5")))
         (sha256
           (base32
-            "12h3ydjg294iqb255za703inix182qbjhf8vrky02fpry66ba000"))))
+            "0pzx0az6nk1ws5kgnaxkmm270lyw6m10986gigp45fxic35fn8lz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page "https://github.com/minad/affe")
@@ -11031,17 +11031,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231127.1912")
+    (version "20231130.2353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "d63052ac2a3d8193d5df60568b74b47c4d4fed50")))
+                 "18a30f48bb8754421cb10dad99e0a406173d4551")))
         (sha256
           (base32
-            "02qfd8fhzcjv1a5y45j07wm04kgfvbcbak28gh2rpsl91w22f900"))))
+            "17lvac568sr4fhd0svsnrl73sc6hf5yrb47n518w5jzhd39ad8q9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -17884,17 +17884,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231130.213")
+    (version "20231201.0")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "49144b6a1f4ce639093c181402a5b29e6eeebd3b")))
+                 "10a1d7012af5186e6462f44312724359d33748c3")))
         (sha256
           (base32
-            "0b5nmbi2816j7fzsq80y2hkfjchwypw5cqax1xbmqyx9w19nrq4p"))))
+            "0qvs1zzpi7laqm346dq83z12z07bd2r391pfrg84ccfg39hkdvid"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -18078,17 +18078,17 @@
 (define-public emacs-consult-flycheck
   (package
     (name "emacs-consult-flycheck")
-    (version "20230702.1115")
+    (version "20231201.12")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult-flycheck.git")
                (commit
-                 "3f2a7c17cc2fe64e0c07e3bf90e33c885c0d7062")))
+                 "0662839aa5db429130f5ffd15c14d4a980b2e694")))
         (sha256
           (base32
-            "0cvxl6ynbns3wlpzilhg4ldakb91ikpibbr9wpb2wkzbgi5c766c"))))
+            "1yi2qa4gbxlyhwc4rj3iidgr1dpdij68gbkgkk55l53p3yl1p2ww"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-consult emacs-flycheck))
@@ -18735,17 +18735,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231126.952")
+    (version "20231130.2358")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "2d860cff5e9e89e7c66179f1bf6007b6bf51396d")))
+                 "24dccafeea114b1aec7118f2a8405b46aa0051e0")))
         (sha256
           (base32
-            "02k7h0ihpbp8kshmqha6351l9mddrf849iwhnrknfi3217y7fh53"))))
+            "0ka80vdgcnh60r0xsi1m1gydxw9acmwf5d6pj752zd7lximz7wps"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -26050,17 +26050,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231028.1505")
+    (version "20231201.403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "dc15e932d8be149c9417a00898db229d9a2f8e6f")))
+                 "8248f3f5be5164d4e6f832d3f49b7fc43cc4a009")))
         (sha256
           (base32
-            "0j2brh0crzfd5nbwk1ss14jsjfi7b7ynqwg0ml7wc5srwlqmwiqi"))))
+            "0yvy9s88mic92n0hnnnkdj4lfzsygnf2bmk5klq5za0a3ck8if7j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -59467,7 +59467,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231130.858")
+    (version "20231201.642")
     (source
       (origin
         (method url-fetch)
@@ -59477,7 +59477,7 @@
                ".tar"))
         (sha256
           (base32
-            "0y7r4z9dpx829x7229vn61f04aiz6g39pwkzav936mf0w8jvcj7p"))))
+            "06a1b73ir8zj0jsa8axdgp8a4nrabf3m19jf0k1jh8b5qfywspzq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -64790,17 +64790,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231124.1250")
+    (version "20231130.2349")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "a3901127d82cc61768104c71ee58bcacd8fb8d29")))
+                 "2533991bfe9da75aa6adad73770fe5b196ea0bb1")))
         (sha256
           (base32
-            "0x0nwp5hy9038f2yd1dshpi1qzpxl9d6pw9jljsz28jappg2icjc"))))
+            "00rlp7iby02zd3sqigpyskph4a26r0dgp53y17hm4xjr6zqifhz5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -67342,17 +67342,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20231126.419")
+    (version "20231201.409")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "e0a59cff68ac02b9d32846f36a0869fcbae1f50b")))
+                 "106cdbe455f95df4e5fbde294f10351c9a3511b2")))
         (sha256
           (base32
-            "0py7gl11yg0xvg2cb4yqxkjnxgfk4q3mi4ffkh236ipad6l28jpa"))))
+            "0v4yijw6vx9rk4hx1glkqyxni6wlkbk8jn0z10fq3ab7njqq4p4s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -74537,17 +74537,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20231130.214")
+    (version "20231130.2350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "8e2f682fd06dac24451c4349b18410fc8d6b4f9d")))
+                 "270d0d9bf766900e605883567b5131ae739918be")))
         (sha256
           (base32
-            "1nylhlqm8d4jqaij0fi42j8maxw9sy3nizbmiy2a3s6vcvdk2hxc"))))
+            "0n9b334sx5y725b9i5ds4xshiqrm7jcmcc7igxvkdwdzaqb1ms68"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -104015,17 +104015,17 @@
 (define-public emacs-recursion-indicator
   (package
     (name "emacs-recursion-indicator")
-    (version "20230924.818")
+    (version "20231201.8")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/recursion-indicator.git")
                (commit
-                 "52b40acd95d1be370cad90805acd6f1a9a02f596")))
+                 "d100b78f9ef922913c1619c2a9528d5c5972b457")))
         (sha256
           (base32
-            "029a0nf8rh6kc4kjr2l344r3q1ysk2ayhhmim0181r0zgyrfs51b"))))
+            "0m69blbdp4xrd6i63pl4smvw5p8278qdqm14a3gdwk7q34jfvhp7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
