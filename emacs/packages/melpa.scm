@@ -9966,17 +9966,17 @@
 (define-public emacs-bufler
   (package
     (name "emacs-bufler")
-    (version "20231108.29")
+    (version "20231202.1240")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/bufler.el.git")
                (commit
-                 "5b76a6c7bd53d0f2fe5993b7c316da15bb2cd3f5")))
+                 "2e57f56068d18b2ee5832a6c3e2cec0c5279a812")))
         (sha256
           (base32
-            "1a67iykwb5m12famy04iw695kv5gnk8f944y6cnvjlj71dx7h9y4"))))
+            "04xhramqdssi159arkav73s8yrn2mk1qfngp5xmv6dr71za0bgnw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-burly
@@ -12970,17 +12970,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231127.825")
+    (version "20231202.1350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "0134a0bc09c8cd332b100cb1c37d375204253ab6")))
+                 "511b242ed25cb42184f2d2109543350f641e26d2")))
         (sha256
           (base32
-            "12f916pcii0azdjsi4q0qglf3xgn947bz738kxqswl6mdxnh2k5k"))))
+            "0a1zqq3kpym17ha7xb4xzfm34gy0w7a3gn0rz6s99yh3766p0d49"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -17884,17 +17884,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231201.1514")
+    (version "20231202.1021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "26e71bd8105763ba041f7bcc252a1af1fddff9d4")))
+                 "63391fb2d7fbad61ba7a44acbae4da6669c89f31")))
         (sha256
           (base32
-            "1a3rjz653sjbf2as774dxwdsaswsfhi86nhsqsqhmy0vs6a11ga7"))))
+            "0sj3vk8mpawqfgzsrjz3k2g51m6jpwafi37z12lrgfxjgc7gw7l0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -46124,17 +46124,17 @@
 (define-public emacs-gams-mode
   (package
     (name "emacs-gams-mode")
-    (version "20231130.1515")
+    (version "20231202.1410")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShiroTakeda/gams-mode.git")
                (commit
-                 "150377ed33ab5b25e3ab7ed15dbdda3387b6df9a")))
+                 "03c24b19c270feca0d3fc9494698cf6d4c7f8152")))
         (sha256
           (base32
-            "1i1a0wqrvkb6p03433gnjxz59hr97b7qvyijayzv012k6gxlcbhs"))))
+            "1g1w0z04qc6k61p9y7mfplqk83yi3pcabv3mr4kfq1pmny8l46sp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -76633,17 +76633,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231129.342")
+    (version "20231202.1157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "e91729806c7f70f6f173d2763aba686411a24137")))
+                 "3e0d2a4b45bad543ad91264e9b136bb4ba760fac")))
         (sha256
           (base32
-            "1j19xq41ry6afc1gcxj562dgjraydr59y9kkgm8ngkmqkfdxvgdv"))))
+            "1lnv1ffrx4lizqa9rni4dkq64wp4q4m2rnh45962ydv19k23ckfj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -88134,17 +88134,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20231201.835")
+    (version "20231202.1320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "d812a192f040a9e7785a53f144de1800d52b9f0d")))
+                 "418b1adeec936e42abe1e3151633951055909ea4")))
         (sha256
           (base32
-            "1nanv3rnrjldr2gd55hn2w8j4zcm6b9jq1qica3m7iyq187ygbdg"))))
+            "01gnpr2dhh4xakgwz91vz3da3348k2sz6cm2ds0j1r5pm8x68m6f"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/org-modern")
@@ -105397,17 +105397,17 @@
 (define-public emacs-rg
   (package
     (name "emacs-rg")
-    (version "20230430.721")
+    (version "20231202.1023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dajva/rg.el.git")
                (commit
-                 "e9dc4ed342e0212d08fb82554dfd3c57fdfa5b1a")))
+                 "4885473a6d248a6ee508b7b7ef3705762af631d9")))
         (sha256
           (base32
-            "17kjmw9pfxbzznpv26g1528mcmyv7afsk9ppsjmv0fx95zmr64z0"))))
+            "16ahhwa24g8wgmf8p000jqmfz541dw2b39vx7zv8s9dlzlcbm9xj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wgrep))
     (home-page "https://github.com/dajva/rg.el")
