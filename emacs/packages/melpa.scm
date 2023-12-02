@@ -3811,17 +3811,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20231129.1926")
+    (version "20231202.16")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "fe27888c6b3f546054b00e7da0b65f2f2f5d5d20")))
+                 "8f512dba3ee2eabae0dbfd8289b89d54c132cb87")))
         (sha256
           (base32
-            "13bmk2vyfwd58yga532am8ay04mc748zwiim8cixx8rpmzim6swg"))))
+            "1s24kqqafn722dr1zw4z8v0six8accjlkwm95rf0n1l5rxbfkdms"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -17884,17 +17884,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231201.0")
+    (version "20231201.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "10a1d7012af5186e6462f44312724359d33748c3")))
+                 "26e71bd8105763ba041f7bcc252a1af1fddff9d4")))
         (sha256
           (base32
-            "0qvs1zzpi7laqm346dq83z12z07bd2r391pfrg84ccfg39hkdvid"))))
+            "1a3rjz653sjbf2as774dxwdsaswsfhi86nhsqsqhmy0vs6a11ga7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -31896,17 +31896,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20231110.2356")
+    (version "20231201.1643")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "e4bba7abbcebdc76d9b709846867d50f8bc98513")))
+                 "192c5d4321ecfaa74790e0e73beaf6ed48715b13")))
         (sha256
           (base32
-            "05c63pq3wjmg3ahndsnk67mvv6hv38p5wfd2v7awbngf3la9rrcv"))))
+            "0fg2n6sjd7kx3iqx7ykihdw3s7ii0jsm1dx0xci52k46m7whfpll"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -59467,7 +59467,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231201.945")
+    (version "20231201.2239")
     (source
       (origin
         (method url-fetch)
@@ -59477,7 +59477,7 @@
                ".tar"))
         (sha256
           (base32
-            "1rs0zy1qs1q6r2r69nwnpysab8pafvsir3r92gz3h2s59vp8r767"))))
+            "1zygb2n8dgvvn1v22kaqxvma0r4qqj4qdvw1v9yp0sh6vi4cybmy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -68773,17 +68773,17 @@
 (define-public emacs-latex-labeler
   (package
     (name "emacs-latex-labeler")
-    (version "20231123.240")
+    (version "20231201.2118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/X9hRRDys/latex-labeler.git")
                (commit
-                 "fbe4d339804a86bcd6b164ad1795983b4b10f0b6")))
+                 "418bd1673cc57ab8f2197f331916af178b435377")))
         (sha256
           (base32
-            "0hz4azhndqsxwbvia8k438izdri6hjapax5n06r0ib2dnqg77par"))))
+            "11qpr51znmdlisaxip8fnqx67v2z7il55q36p6vraq7zg5cv1f64"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/X9hRRDys/latex-labeler")
@@ -102521,17 +102521,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231130.1652")
+    (version "20231201.2128")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "3cadfa322d8036234a6427a8687869e6657c00fa")))
+                 "1c11fce1c560d8e89c984b8cb6dfb6703bfda228")))
         (sha256
           (base32
-            "0mbvpzd4k6azisinbc6l484jvn06v4aakbdn42pwwv38q2w2hzkp"))))
+            "07v0xqqycdngljsmm1vc0r317w0jmwkgrhkampv20y3smcb4igr3"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
