@@ -13922,17 +13922,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20231124.724")
+    (version "20231202.445")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "0a2a6cbc2e29177f4f55730637a357433a03fa38")))
+                 "0207665fce979fa88a35555b1902b8262aa37b85")))
         (sha256
           (base32
-            "052zcvbmx0bb9smnyhdhzyaf90finqrasm4gvvb2mbld5hil42b3"))))
+            "0qa059s42aa0nyr9r487dsjcqxvks7pgdas7mrzlc4xhwg02h8hd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -51362,17 +51362,17 @@
 (define-public emacs-grugru
   (package
     (name "emacs-grugru")
-    (version "20230121.1825")
+    (version "20231202.250")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ROCKTAKEY/grugru.git")
                (commit
-                 "088f26330be161cfad4835e155595ec60dcb335a")))
+                 "3f1bc431f4dc919a7b04e519f1c8add9fb2949f3")))
         (sha256
           (base32
-            "094kwvm136nw3p1l2bxkbp97qnsg46g0b3mgskm323bcdggj1g12"))))
+            "1wzxn62wx0jvj7556afgwif904dq6iljss950xbgrsvjfiygyraj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/ROCKTAKEY/grugru")
     (synopsis "Rotate text at point")
@@ -59467,7 +59467,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231201.2239")
+    (version "20231202.542")
     (source
       (origin
         (method url-fetch)
@@ -59477,7 +59477,7 @@
                ".tar"))
         (sha256
           (base32
-            "1zygb2n8dgvvn1v22kaqxvma0r4qqj4qdvw1v9yp0sh6vi4cybmy"))))
+            "087wdhrxbcxirw74ns1yavz8rd38j2hc3dz5bl4lpbfks5kwhrkn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73729,17 +73729,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20231130.523")
+    (version "20231202.0")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "53291c93e487c789cb7273088a72a76566fc8ed8")))
+                 "5ec9ae91f6111e34e66e7adc2acc3f9c721af8d6")))
         (sha256
           (base32
-            "0g5z70dc20r6900zp4qjgj4prhjzmcbfc8hr5rm57bid62pjnbfr"))))
+            "04r64mln0cx1206j13y7v22bglz3qxjj1w5nwsxxzxxbv91zw896"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -75677,17 +75677,17 @@
 (define-public emacs-memento-mori
   (package
     (name "emacs-memento-mori")
-    (version "20231128.1725")
+    (version "20231202.17")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-memento-mori.git")
                (commit
-                 "a6b20d54eba11c72872d02930f290dbbb5de17b9")))
+                 "dca8eae1f76fccd39b7c084dacae56bf6e2a913e")))
         (sha256
           (base32
-            "0szrjrx20lrd7qr0d571qy8l1cwp693plmyc6m0zgxdqfldajlwv"))))
+            "1biggfhmf5vphxc806iw9czkn4lsa13c3vnmjmaxk6ackgqz62fq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-memento-mori")
@@ -88179,17 +88179,17 @@
 (define-public emacs-org-mpv-notes
   (package
     (name "emacs-org-mpv-notes")
-    (version "20231122.1307")
+    (version "20231202.644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bpanthi977/org-mpv-notes.git")
                (commit
-                 "0586c4d508e3c465db2ca81d43aa0070a6de0eb3")))
+                 "9139b89325d1bd58c7d599c41ac1e0c60290f6c9")))
         (sha256
           (base32
-            "198wi0va6yb1q9vfmwdbaf95wi14brlzir2ad1rgi1z7lrawxrsj"))))
+            "1d8cvx66jcbsh0zwb0p051vhc0lpyxidcpd9a4hqlpp2p0xmw7dh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-mpv))
     (home-page
@@ -114757,17 +114757,17 @@
 (define-public emacs-starhugger
   (package
     (name "emacs-starhugger")
-    (version "20231128.1306")
+    (version "20231202.235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/daanturo/starhugger.el.git")
                (commit
-                 "7583b914fbc3621be53bbfd7c29b98d0fc452cde")))
+                 "1bb3464c3a198a4f5f2155817d6505c4bab7dc79")))
         (sha256
           (base32
-            "1ldpqc5lvn7w28qdqzwfksg80ds5w037dib0jhwxw1rxymb9hz67"))))
+            "1f6ixs708j9s1vcnw1xgl89xmsmv5c4lg8qlazk7cbrg034m9l9d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
