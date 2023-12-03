@@ -20061,17 +20061,17 @@
 (define-public emacs-crystal-mode
   (package
     (name "emacs-crystal-mode")
-    (version "20230720.2043")
+    (version "20231203.203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crystal-lang-tools/emacs-crystal-mode.git")
                (commit
-                 "e5b54c3ad728d791772ceccca607d0434ddaf985")))
+                 "17a3793581ed5f34591a5cbd50d91729a8dafb36")))
         (sha256
           (base32
-            "0jzhr92fbf01z5gr79h5ck696apy5rr7bjblxda1r1anpjayahm4"))))
+            "0bcpc13xrvzarx7rd132xsnihmn21ji00rrwxdkwrcls2fxplj19"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("crystal-mode.el")))
     (home-page
@@ -27445,17 +27445,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231126.921")
+    (version "20231203.326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "d50f4acfa121c965968b266ab549fe2d6e680bb6")))
+                 "d8debac24de088b6c63579d9e80e2fb6c3a23a0c")))
         (sha256
           (base32
-            "115m7ghqfcv7b612wrfkf765bv2iwjj81h3ivxi2rlasj6nqz83j"))))
+            "1vvaq8m8r8fi71ch24m0fqlwb5bhnvfvv5ly6c7024wavpppn3zg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -59467,7 +59467,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231202.2242")
+    (version "20231203.501")
     (source
       (origin
         (method url-fetch)
@@ -59477,7 +59477,7 @@
                ".tar"))
         (sha256
           (base32
-            "0g4yhb12q08m7sbf9qsdxp2vv34l8w7ydbqgyz3366wjbk330bjx"))))
+            "1jj8h5rbiv4c776pcgk8w7ara615wq1bxhzr0dyc6f820zv1wb1m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -74390,17 +74390,17 @@
 (define-public emacs-mandm-theme
   (package
     (name "emacs-mandm-theme")
-    (version "20231202.2041")
+    (version "20231203.334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/choppsv1/emacs-mandm-theme.git")
                (commit
-                 "cada8be0bd89086564ce1d5545c083595d4d4b71")))
+                 "a410c2b66f514bdeb546b7fe8e2d9fee675096ac")))
         (sha256
           (base32
-            "0q9390fy4dwn5f7flg660arcqq9aqb6qnfwn62km8b0xl82fm8lj"))))
+            "0j164b2dg7m815anvli1y5k7zgf5k6qm8gssr4bjp8xrpxbcn989"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/choppsv1/emacs-mandm-theme.git")
@@ -101669,17 +101669,17 @@
 (define-public emacs-python-docstring
   (package
     (name "emacs-python-docstring")
-    (version "20230326.1929")
+    (version "20231203.342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/glyph/python-docstring-mode.git")
                (commit
-                 "40f0ca57831a71a9e6437088149784f37704ef6c")))
+                 "a68663b74fb005d554ed1fb53131b9a4c6e8d051")))
         (sha256
           (base32
-            "0mbmajl4j33wm7qyffqzaan35rzmj7w644fz67q3brr1rn3xbrk5"))))
+            "0kwbrrrjjqwz02wkizfvzg5yypv9hm71kmnywp8y3df8cg7mn7aw"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -121127,17 +121127,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231129.932")
+    (version "20231203.14")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "5eb24557f542d5fa18e7baaf07969cf7f297bfcd")))
+                 "542f4cc471b974847dcb53b5b390b4689246f8a0")))
         (sha256
           (base32
-            "14vqnp3i8dmkv8dkk8pgq1npg0967nvcl57kvslpmlkh3212qgjp"))))
+            "0j6d8r828h82x7c3s78iz68s68fpvqp739jjmz1f58j6z6a7y291"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
