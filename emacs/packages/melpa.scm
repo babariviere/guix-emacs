@@ -12021,17 +12021,17 @@
 (define-public emacs-cfn-mode
   (package
     (name "emacs-cfn-mode")
-    (version "20231112.904")
+    (version "20231203.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/worr/cfn-mode.git")
                (commit
-                 "2640b72b7eed0b5f702377d3e0d723c23dda792f")))
+                 "d7171749866e2bb342336882fc287e68f5a9bf5c")))
         (sha256
           (base32
-            "1g31lyzl3fx3bqgd1yrjrpb7a8zbl3sr8jqsssn5f6yp4lm4bqzb"))))
+            "02yj5jb0hr6mcg8xiv0a8d608s3bmz5k12biw5lhhsi45vwdwban"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-s emacs-yaml-mode))
@@ -12166,17 +12166,17 @@
 (define-public emacs-change-inner
   (package
     (name "emacs-change-inner")
-    (version "20210126.1456")
+    (version "20231203.1021")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/change-inner.el.git")
                (commit
-                 "42cad58aed2caec260f8e8ff61f78a7d3db72d1b")))
+                 "1394f5c07a95a97e39d616a1d7054d7c9bc49ba3")))
         (sha256
           (base32
-            "0hs5hw36yagchpihx18059gi8b85hrccm82ynh89y7dkk1pw3wy1"))))
+            "1pi5yik2x2vfg9d51hzymzmrcv5ngql5skwa0mz2jgyh7k6c6q3v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-expand-region))
     (home-page "unspecified")
@@ -27445,7 +27445,7 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231203.326")
+    (version "20231203.819")
     (source
       (origin
         (method git-fetch)
@@ -66129,17 +66129,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20231126.2034")
+    (version "20231203.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-jupyter/jupyter.git")
                (commit
-                 "0a92c0c978ab12bd31a50a7e8b1295f5d1767e20")))
+                 "e237ff0a312f41c51d2457d311bd7b6b63532922")))
         (sha256
           (base32
-            "1ax0zn10xy9hdxkfb3b6qqif3pzs5fkcy9hax9rh5dmappirplf6"))))
+            "0j9qsgzcjacyk7bvz3c02781phziwmgb8j77na51v5g58g61wl2l"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -66149,7 +66149,7 @@
       '(#:files
         (:defaults "Makefile" "widget.html" "js")))
     (home-page
-      "https://github.com/nnicandro/emacs-jupyter")
+      "https://github.com/emacs-jupyter/jupyter")
     (synopsis "Jupyter")
     (description
       "Documentation at https://melpa.org/#/jupyter")
@@ -72334,17 +72334,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231124.833")
+    (version "20231203.705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "60bdeab88ee9fd9992abdfc9b2e2a98852672be4")))
+                 "01bd566c0508993202b08071ed7037c9fc4e3329")))
         (sha256
           (base32
-            "0h9p1yxa45nr9zn4bbbk3l4g99pwx89ch26lqqm68vyh1nvgbysy"))))
+            "0znkzw6w3isbry40a67ir58dm2nzkjd6q3gngy9ndwnbg9s2zalj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -79920,17 +79920,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20230904.801")
+    (version "20231203.809")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "a1b12bd7b00b286c3f37f50136dcf5602fc178ec")))
+                 "1cec03b52e123d6be71ce146a3fc0365561e4f0c")))
         (sha256
           (base32
-            "1g99rifsmn8c2frmvymmspbd7v7i7x4m798533sz8ak4vnys4w1d"))))
+            "03cqwk36rpqkx6nvhypvpr6yablafw9dcnn48wlp5vpqh77kyy7v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -94112,17 +94112,17 @@
 (define-public emacs-pass
   (package
     (name "emacs-pass")
-    (version "20231129.1946")
+    (version "20231203.1555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NicolasPetton/pass.git")
                (commit
-                 "b1198478cd62e1f21d5072d0275e2c446b88b15b")))
+                 "9fe45015db8839803e2ef54f51a0b0c5d64873b4")))
         (sha256
           (base32
-            "02c6yq0vvnm92i7x98h7iq4zhvz9vrdlxiqzn56kjlrnwslz3wqi"))))
+            "1vs853cq461cxlvjn6j0gxx4c3yjgfh6fzwjdsqifl5d6fxg57p0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-password-store
@@ -117904,17 +117904,17 @@
 (define-public emacs-teleport
   (package
     (name "emacs-teleport")
-    (version "20231122.1737")
+    (version "20231203.1535")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/caramelhooves/teleport.el.git")
                (commit
-                 "4db64adf8e6d4c8b12035569fbd40a0eb91d6d6c")))
+                 "5767bc31fee6d2a24503cc7cd24df1cfbd169bc2")))
         (sha256
           (base32
-            "1qgkkswm43n8vzbdfjh28rq7yclcs1rgqps05l620aay0z2zr7h0"))))
+            "0d1g4v8xrd37dsyz1370lyca9h2w42vziwascqrymdvsy1cskij8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
