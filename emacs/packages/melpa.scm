@@ -9092,17 +9092,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20231122.2251")
+    (version "20231202.2218")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "b6507ebd915a83e34558feb917c7324a18b84ce4")))
+                 "98270f598cffc9e67253d4e2be52d9c37aa8582b")))
         (sha256
           (base32
-            "0k320n0z1927k5y7xvdnxdwkrnqprazh6hql5w25dfn5dx2n4sl4"))))
+            "0w4li1ixfcsp1cjlqwwx1lwk791mfgg9ynjs4wd0mvpdf620rpaq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -26101,17 +26101,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20230916.2032")
+    (version "20231202.1659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "4aee1f5a0e54552669f747aa7c25e6027e73d76d")))
+                 "bc9e147671ec5b6cbd6c3eaf7c7c83bc52c00e0b")))
         (sha256
           (base32
-            "019phmlxllzg51c6kxyaixmby1vxd1i512kv5bjs0wklj8p2pcr5"))))
+            "1rrcfg904bj81a17p6yn76d2w7h8wcz1is1giq6wa47jlrdjlzsf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -59467,7 +59467,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231202.542")
+    (version "20231202.2242")
     (source
       (origin
         (method url-fetch)
@@ -59477,7 +59477,7 @@
                ".tar"))
         (sha256
           (base32
-            "087wdhrxbcxirw74ns1yavz8rd38j2hc3dz5bl4lpbfks5kwhrkn"))))
+            "0g4yhb12q08m7sbf9qsdxp2vv34l8w7ydbqgyz3366wjbk330bjx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -74390,17 +74390,17 @@
 (define-public emacs-mandm-theme
   (package
     (name "emacs-mandm-theme")
-    (version "20231102.1929")
+    (version "20231202.2041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/choppsv1/emacs-mandm-theme.git")
                (commit
-                 "b173b41743d3e9668df2ec59df0378d8295d9902")))
+                 "cada8be0bd89086564ce1d5545c083595d4d4b71")))
         (sha256
           (base32
-            "1fg86pl4v023rpaaapgzbg2gskc6vp2ha2rkgbmq9c2f5ca9y7sl"))))
+            "0q9390fy4dwn5f7flg660arcqq9aqb6qnfwn62km8b0xl82fm8lj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/choppsv1/emacs-mandm-theme.git")
@@ -78816,17 +78816,17 @@
 (define-public emacs-mtg-deck-mode
   (package
     (name "emacs-mtg-deck-mode")
-    (version "20180613.2010")
+    (version "20231202.1546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mattiasb/mtg-deck-mode.git")
                (commit
-                 "8265b8ed17fcd4406760c19aa6ee9c76068b1ab0")))
+                 "3cb3866951feae40531c0a2e4fa72c0f2989c36c")))
         (sha256
           (base32
-            "04qdcqpkic2nhqy6nf15j3zp5hmrfzs2kndvmg5v4vjac2vfmzfb"))))
+            "1j2ps7xsypi4n78jkz25xg7kv1795jjccydhrmw6z6v313hjwx2f"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "formats")))
     (home-page
@@ -117904,17 +117904,17 @@
 (define-public emacs-teleport
   (package
     (name "emacs-teleport")
-    (version "20230915.1703")
+    (version "20231122.1737")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/caramelhooves/teleport.el.git")
                (commit
-                 "a5262b0434b1b0c672e5b4bb625ea8d70a337b12")))
+                 "4db64adf8e6d4c8b12035569fbd40a0eb91d6d6c")))
         (sha256
           (base32
-            "1rnbfbb96826lpvh00qy21aa4ck5kg833z7wj26sir2pr0lrlzb7"))))
+            "1qgkkswm43n8vzbdfjh28rq7yclcs1rgqps05l620aay0z2zr7h0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
