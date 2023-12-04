@@ -8162,17 +8162,17 @@
 (define-public emacs-binky
   (package
     (name "emacs-binky")
-    (version "20231023.2145")
+    (version "20231204.846")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky.el.git")
                (commit
-                 "bf9bd87c44cd5ca5ede0f080fa510240d948a644")))
+                 "d692f3a3551ae412b0b3fc71d14b7d3991255084")))
         (sha256
           (base32
-            "0m0xzcrb0yiddbr2vvnnv0vz4wb6smb3lmk4hij2hdhawf22vm1h"))))
+            "0a5jjzbywgq6yh0489690mv6x5h6dsfc1dv7dqaq92h7mi8w1d3c"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -12992,17 +12992,17 @@
 (define-public emacs-cider
   (package
     (name "emacs-cider")
-    (version "20231202.1350")
+    (version "20231204.843")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/cider.git")
                (commit
-                 "511b242ed25cb42184f2d2109543350f641e26d2")))
+                 "25c51fd4b1246801ba3fa15c57b44d860772417c")))
         (sha256
           (base32
-            "0a1zqq3kpym17ha7xb4xzfm34gy0w7a3gn0rz6s99yh3766p0d49"))))
+            "090jykh4pjz9898j2bw1qglkmpryl7i3ryi8l3d7vgxmwk1jpp16"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-clojure-mode
@@ -52824,17 +52824,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231128.513")
+    (version "20231130.1028")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "96aad023cb12e995e92763195086ccee3aa5a141")))
+                 "e9cc7a80d0c01d6714400e662136733af7ddeee3")))
         (sha256
           (base32
-            "0ld6l8i08x74ij2p2prw7lfx9lchcp8nfgf3r2bba1lip4q4wjbs"))))
+            "06ff4hnhaqh3r9fy8j8ajglgbmzh6nsq4qqadajh34n9326kwif4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -65893,17 +65893,17 @@
 (define-public emacs-jtsx
   (package
     (name "emacs-jtsx")
-    (version "20231120.1100")
+    (version "20231204.1046")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/llemaitre19/jtsx.git")
                (commit
-                 "f1caae873d99caca36e3c07a538559ddff42584f")))
+                 "a1bef4cadb7fc59c37bfa71e8777561b199e8eb3")))
         (sha256
           (base32
-            "1289sj14yzahx2fwdavp0i49dfcdjqrnx655in2qbq2njl1239gb"))))
+            "1l52wvahai9kch3f542gcjf79qwbhx9372m716kafy14zcg95f7z"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/llemaitre19/jtsx")
     (synopsis "Extends default support for JSX/TSX")
@@ -66561,22 +66561,23 @@
 (define-public emacs-kanagawa-theme
   (package
     (name "emacs-kanagawa-theme")
-    (version "20231112.414")
+    (version "20231204.1442")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/Meritamen/kanagawa-theme.git")
+               (url "https://github.com/meritamen/kanagawa-theme.git")
                (commit
-                 "692cc627ccdd0595de3bbc67e313a0363002e444")))
+                 "4d7bb58a62a6d91f6cb49eeae6c9f5b5510f4357")))
         (sha256
           (base32
-            "0abckxxifh5aw55wk7ykfxi6cm4rd6ya0m8pql9591lyxfi5whxw"))))
+            "100pbrpj5mfdi3bfgf6sjyxqbnjzbvx2w3axfzkr2l8m1w1dcfav"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
       "https://github.com/Meritamen/kanagawa-theme")
-    (synopsis "Retro elegant theme")
+    (synopsis
+      "An elegant theme inspired by The Great Wave off Kanagawa by Katsushika Hokusa")
     (description
       "Documentation at https://melpa.org/#/kanagawa-theme")
     (license #f)))
@@ -78519,17 +78520,17 @@
 (define-public emacs-move-text
   (package
     (name "emacs-move-text")
-    (version "20221006.1634")
+    (version "20231204.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsfodder/move-text.git")
                (commit
-                 "b17f0f4cbe9d8a72e6d9765daf2e6cdc12b3f4ba")))
+                 "90ef0b078dbcb2dee47a15b0c6c6f417101e0c43")))
         (sha256
           (base32
-            "1s9cjk20f4vbaffpv0yv7irk7azgmv8l54v9cd1nwfjrzybqq1xx"))))
+            "16x8p9brj5nrjk2rmhwf6hb8sj0rjr4j2827z0g679zyns3cbyrb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacsfodder/move-text")
@@ -82908,17 +82909,17 @@
 (define-public emacs-nushell-mode
   (package
     (name "emacs-nushell-mode")
-    (version "20230612.726")
+    (version "20231204.1233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mrkkrp/nushell-mode.git")
                (commit
-                 "7fd1840ce726473fe22fe484fa25596031799edc")))
+                 "e92791e06ea13b93be38874111b83172d6de67c1")))
         (sha256
           (base32
-            "0vla77x2jrg84wxhl3bkiwzh2yz7v5nwjzxsf1crrzq34ya52j4g"))))
+            "11n9iqhncb2y0mf0a63v9p64fpidgvv8h1cbh1mk39ixl9hxbb7v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mrkkrp/nushell-mode")
@@ -90121,17 +90122,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20231119.1131")
+    (version "20231204.1322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "4feaed3dfa09df90422d76b5a34089660a97ef7e")))
+                 "812a3ec50d1454a96643749a9e4e44e1c19574de")))
         (sha256
           (base32
-            "07bs8l2c5y80hxnzgvdxaijs2r0rsd23a8b7m80f8gf5nc3y8gkw"))))
+            "1z1v1saxlffdka0n26564xng05ap6wn2v9h6b1w426f7n79kkhv1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-nerd-icons))
     (home-page
@@ -116003,17 +116004,17 @@
 (define-public emacs-surround
   (package
     (name "emacs-surround")
-    (version "20231128.1629")
+    (version "20231204.1418")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mkleehammer/surround.git")
                (commit
-                 "1346e7aae59d39db9b9e7c48d06821757964cfec")))
+                 "1fbe4dbe194129e95b286b8cbfa2bce43e4c29e4")))
         (sha256
           (base32
-            "0dzr24d14s7gs59wig4jgdis6z9vpb7w5wipgnl8w33mpzdn0c0l"))))
+            "13lyqb43qs6w3yfwsyy1g1prcxh2k0y148sgipf72bc921vkcyai"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mkleehammer/surround")
@@ -116725,17 +116726,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20231111.809")
+    (version "20231204.856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "48cc227507c3d079a2ceaf6939406ab158b534eb")))
+                 "2e3fa40e0204f19ca3cacf103828316f01c0520a")))
         (sha256
           (base32
-            "06m2dgfm61iprikv2j0nz63x84l15mzrs0qxn0j3p6flr7aq21n8"))))
+            "1hf20ga907mrdgpcmc99zsxiib3fpvfr56ljs6h0ggg5whbmz6bg"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
