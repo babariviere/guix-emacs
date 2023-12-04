@@ -8998,6 +8998,28 @@
       "Documentation at https://melpa.org/#/boogie-friends")
     (license #f)))
 
+(define-public emacs-bookmark-frecency
+  (package
+    (name "emacs-bookmark-frecency")
+    (version "20231126.1320")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/akirak/bookmark-frecency.el.git")
+               (commit
+                 "afd412ecd3e4c04cc7e8f8851c848cb9eddecd42")))
+        (sha256
+          (base32
+            "1c77ncqfr9qmvdp95n25lxlb1hvrrf84dffjx1z5azz8cyh3daz4"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/akirak/bookmark-frecency.el")
+    (synopsis "Sort bookmarks by frecency")
+    (description
+      "Documentation at https://melpa.org/#/bookmark-frecency")
+    (license #f)))
+
 (define-public emacs-bookmark-in-project
   (package
     (name "emacs-bookmark-in-project")
@@ -13922,17 +13944,17 @@
 (define-public emacs-clj-refactor
   (package
     (name "emacs-clj-refactor")
-    (version "20231202.445")
+    (version "20231203.1847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/clj-refactor.el.git")
                (commit
-                 "0207665fce979fa88a35555b1902b8262aa37b85")))
+                 "a3b5238345e0991785e5170112f5db9c9663b7fb")))
         (sha256
           (base32
-            "0qa059s42aa0nyr9r487dsjcqxvks7pgdas7mrzlc4xhwg02h8hd"))))
+            "1y8xphmmd2ciwnrr7lbiwq0v5c7chq60wssxng9mw0fiz2i3ix22"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-yasnippet
@@ -43049,6 +43071,28 @@
       "Documentation at https://melpa.org/#/flymake-eslint")
     (license #f)))
 
+(define-public emacs-flymake-fennel
+  (package
+    (name "emacs-flymake-fennel")
+    (version "20231118.1858")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/flymake-fennel-"
+               version
+               ".tar"))
+        (sha256
+          (base32
+            "0i1lw3a855dngnv7wbpknqhk7gqphpqr0c4gjfkh6srp595w2iwm"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.sr.ht/~mgmarlow/flymake-fennel")
+    (synopsis "Flymake backend for Fennel")
+    (description
+      "Documentation at https://melpa.org/#/flymake-fennel")
+    (license #f)))
+
 (define-public emacs-flymake-flycheck
   (package
     (name "emacs-flymake-flycheck")
@@ -62036,6 +62080,29 @@
       "Documentation at https://melpa.org/#/inlineR")
     (license #f)))
 
+(define-public emacs-inputrc-mode
+  (package
+    (name "emacs-inputrc-mode")
+    (version "20231203.2307")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/nverno/inputrc-mode.git")
+               (commit
+                 "c1d5984fb30165ec72636123fc2e36389314eb62")))
+        (sha256
+          (base32
+            "11wyicjfj281j21gnc0f0rpkfimncv8gmq656dqbn9qdn4zdahwg"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/nverno/inputrc-mode")
+    (synopsis
+      "Major mode for readline configuration")
+    (description
+      "Documentation at https://melpa.org/#/inputrc-mode")
+    (license #f)))
+
 (define-public emacs-insecure-lock
   (package
     (name "emacs-insecure-lock")
@@ -65821,6 +65888,27 @@
       "enhanced tags functionality for Java development")
     (description
       "Documentation at https://melpa.org/#/jtags")
+    (license #f)))
+
+(define-public emacs-jtsx
+  (package
+    (name "emacs-jtsx")
+    (version "20231120.1100")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/llemaitre19/jtsx.git")
+               (commit
+                 "f1caae873d99caca36e3c07a538559ddff42584f")))
+        (sha256
+          (base32
+            "1289sj14yzahx2fwdavp0i49dfcdjqrnx655in2qbq2njl1239gb"))))
+    (build-system melpa-build-system)
+    (home-page "https://github.com/llemaitre19/jtsx")
+    (synopsis "Extends default support for JSX/TSX")
+    (description
+      "Documentation at https://melpa.org/#/jtsx")
     (license #f)))
 
 (define-public emacs-julia-formatter
@@ -75914,6 +76002,30 @@
       "Documentation at https://melpa.org/#/merlin-iedit")
     (license #f)))
 
+(define-public emacs-mermaid-docker-mode
+  (package
+    (name "emacs-mermaid-docker-mode")
+    (version "20231126.1943")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/keyweeusr/mermaid-docker-mode.git")
+               (commit
+                 "20a560af7b314b2b43502fc3205c39d4488c85cd")))
+        (sha256
+          (base32
+            "10b5wihnsmmcn3xp9x4jz4anvgmbgc94spn118vhrl44klg2j7vz"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-mermaid-mode))
+    (home-page
+      "https://github.com/KeyWeeUsr/mermaid-docker-mode")
+    (synopsis
+      "Render mermaid graphs with Docker service")
+    (description
+      "Documentation at https://melpa.org/#/mermaid-docker-mode")
+    (license #f)))
+
 (define-public emacs-mermaid-mode
   (package
     (name "emacs-mermaid-mode")
@@ -84742,17 +84854,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20231105.1800")
+    (version "20231203.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "f83c5d32eba8237dedeec66c44f464019840b264")))
+                 "160863495b9cfb202ad0415e64a3bb459d7c6926")))
         (sha256
           (base32
-            "1fpqc5xwqdqg4l4aifqvsr5p00997z5xdvnlnrrc1p981ifxa67c"))))
+            "09vx9yl34zxfm88iikh78qb9m81njzxx2n6h33wj4rnrlgwzb4z5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -94045,17 +94157,17 @@
 (define-public emacs-parseclj
   (package
     (name "emacs-parseclj")
-    (version "20230911.1621")
+    (version "20231203.1905")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/parseclj.git")
                (commit
-                 "74ff7d63fed92a3c859e474ae85f011e794b751a")))
+                 "6af22372e0fe14df882dd300b22b12ba2d7e00b0")))
         (sha256
           (base32
-            "0aal49w2m979m1m4h1d15hgwx6z020cc1c1s8prd1zn9nzlknlhz"))))
+            "1iz7qbsq4whmb3iqy777jlm47chjp62313hc6nfcp0lfqsanmcmv"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Clojure/EDN parser")
@@ -94066,17 +94178,17 @@
 (define-public emacs-parseedn
   (package
     (name "emacs-parseedn")
-    (version "20230929.1500")
+    (version "20231203.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/clojure-emacs/parseedn.git")
                (commit
-                 "c8f07926a688bfe995fde4460103915d401a1aff")))
+                 "3407e4530a367b6c2b857dae261cdbb67a440aaa")))
         (sha256
           (base32
-            "1pxm50i74id3c4c0j2ifac0wx5zkdq431dmcqbyb6w6k0s05l23c"))))
+            "0b2jralm5lm4z4lpkn8ygzfga67xsalaszc8gqqv36khmz2mrckc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-parseclj))
     (home-page
@@ -101669,17 +101781,17 @@
 (define-public emacs-python-docstring
   (package
     (name "emacs-python-docstring")
-    (version "20231203.342")
+    (version "20231203.2036")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/glyph/python-docstring-mode.git")
                (commit
-                 "a68663b74fb005d554ed1fb53131b9a4c6e8d051")))
+                 "48e6489ec2db8b4959a9f591910941c2a5f132a3")))
         (sha256
           (base32
-            "0kwbrrrjjqwz02wkizfvzg5yypv9hm71kmnywp8y3df8cg7mn7aw"))))
+            "1rihjkqx0hhkh713gbin5r8xag95w4ip8bp9hgbkzha3crkfn0ji"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -102521,17 +102633,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231201.2128")
+    (version "20231203.1505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "1c11fce1c560d8e89c984b8cb6dfb6703bfda228")))
+                 "076d36b319ade057c60ecccf9c16fff36bd88f42")))
         (sha256
           (base32
-            "07v0xqqycdngljsmm1vc0r317w0jmwkgrhkampv20y3smcb4igr3"))))
+            "1mr02aavlsjixzrc7rm7b1rk8y3niqbpz30ir0x93mmidjfg2vnp"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -120658,17 +120770,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231129.1714")
+    (version "20231203.1803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "5f2cfc9f73e756fb337df70909fcd3d0bce56911")))
+                 "cdeda207ba8e67ae8f5e3270a27960ea7f3e2bb4")))
         (sha256
           (base32
-            "088799qrycifp1hlgj4j9d5a362zp6nzridj8lpl3ykbviy54a2h"))))
+            "03w51bj32d7g2a1p0g9gmc9yw26f4yl7inpn3nz7mw42ll247b3a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
