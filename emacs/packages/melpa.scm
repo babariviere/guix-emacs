@@ -66217,17 +66217,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20231203.650")
+    (version "20231204.529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-jupyter/jupyter.git")
                (commit
-                 "e237ff0a312f41c51d2457d311bd7b6b63532922")))
+                 "da306a6dbda6f1e285281765a311938a1d9db022")))
         (sha256
           (base32
-            "0j9qsgzcjacyk7bvz3c02781phziwmgb8j77na51v5g58g61wl2l"))))
+            "10inpbqnaqv1f8w2k9cv9dnczb547p3yw9dlndx3d8fwrryql40q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -73374,17 +73374,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231120.2359")
+    (version "20231202.1551")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "dda332b2a41569f5fd8c0c2c3c2dab902d48ceb4")))
+                 "5ad367d7a3094fb6098c1d8e457ed80630ed3e5e")))
         (sha256
           (base32
-            "14vqfykfzddpfka7s3pmlh3yvbfd1rpjhab4g9dinz9hn48dwb06"))))
+            "182h0dnly5jl09mgcwnz3fyg0cik0iz121dsf0crmhkh5l00z2dk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -113055,17 +113055,17 @@
 (define-public emacs-solarized-theme
   (package
     (name "emacs-solarized-theme")
-    (version "20231008.1300")
+    (version "20231204.713")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/solarized-emacs.git")
                (commit
-                 "cd737ed7e0eac299844a9b453758dec4a392c7c9")))
+                 "922b5956a9e2e474f1595bad7b2b35f148b4df3f")))
         (sha256
           (base32
-            "1xlidpis2b5r30lnh3j8bljfkciz9gc6zsinqiypm76qiz2gnld5"))))
+            "18z36nzyh4dsd8igys37x0r3lnav77fvjrkxv48v3yjsrwli19gl"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/bbatsov/solarized-emacs")
@@ -120770,7 +120770,7 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231203.1803")
+    (version "20231204.33")
     (source
       (origin
         (method git-fetch)
