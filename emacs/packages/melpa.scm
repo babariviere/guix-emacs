@@ -12071,17 +12071,17 @@
 (define-public emacs-cframe
   (package
     (name "emacs-cframe")
-    (version "20231101.1742")
+    (version "20231204.1959")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/cframe.git")
                (commit
-                 "d0f8b36cce8a9f2e1caa373e8c336c16d092c2ad")))
+                 "bcd75f0f9699de962749c09b61ba0ce7a55ee35f")))
         (sha256
           (base32
-            "0649k683y8yd73s9za02cqy44rd71s7zcb9qgnx39ygky10sdf3x"))))
+            "1k1skg3f1n1hhij302gf3sj92qj7nnkgyc66ql9c1i6c28nx40p2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-buffer-manage emacs-dash))
@@ -39694,17 +39694,17 @@
 (define-public emacs-flex-compile
   (package
     (name "emacs-flex-compile")
-    (version "20230808.1453")
+    (version "20231204.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/flex-compile.git")
                (commit
-                 "17b2b16f8867312a868f338a49ba8615d2d23461")))
+                 "47c5667a7904682d162b2d6c0d5fa4424e921193")))
         (sha256
           (base32
-            "0c37vzfd5c4k502bbx6qnc6046dsqy75g6nmaxx756f6p6nng5vq"))))
+            "1gnvds7dpgq06ap9bw0fbn72xk3pslrqgs7ly2vl62whm1nd0mkk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-buffer-manage))
@@ -47561,17 +47561,17 @@
 (define-public emacs-git-commit
   (package
     (name "emacs-git-commit")
-    (version "20231030.2243")
+    (version "20231204.1839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "02630b51896929011a420d9382779c98ecaef687")))
+                 "f25d10351fc1d44282dad45caaf99cb19913eda4")))
         (sha256
           (base32
-            "06cnhwzxjpqb29km9nxjynapxiajaa87s7q32c4igq4yjp3jy0h0"))))
+            "03gccqh70yvkia903dwvgnm5i4f08rw9gm4pwbnmhr9qky500zw2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-with-editor))
@@ -66561,19 +66561,18 @@
 (define-public emacs-kanagawa-theme
   (package
     (name "emacs-kanagawa-theme")
-    (version "20231204.1442")
+    (version "20231204.1759")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meritamen/kanagawa-theme.git")
                (commit
-                 "4d7bb58a62a6d91f6cb49eeae6c9f5b5510f4357")))
+                 "f0bc41223584973e24bdf7cd97c2ea61384df0af")))
         (sha256
           (base32
-            "100pbrpj5mfdi3bfgf6sjyxqbnjzbvx2w3axfzkr2l8m1w1dcfav"))))
+            "1x0b3hv5qrxa5h5jy1vsk1cdvjvjqrghx4hlyfv9sx5bjc9jn25w"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-autothemer))
     (home-page
       "https://github.com/Meritamen/kanagawa-theme")
     (synopsis
@@ -73375,17 +73374,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231202.1551")
+    (version "20231204.1839")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "5ad367d7a3094fb6098c1d8e457ed80630ed3e5e")))
+                 "f25d10351fc1d44282dad45caaf99cb19913eda4")))
         (sha256
           (base32
-            "182h0dnly5jl09mgcwnz3fyg0cik0iz121dsf0crmhkh5l00z2dk"))))
+            "03gccqh70yvkia903dwvgnm5i4f08rw9gm4pwbnmhr9qky500zw2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73818,17 +73817,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20231202.0")
+    (version "20231204.1903")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "5ec9ae91f6111e34e66e7adc2acc3f9c721af8d6")))
+                 "f25d10351fc1d44282dad45caaf99cb19913eda4")))
         (sha256
           (base32
-            "04r64mln0cx1206j13y7v22bglz3qxjj1w5nwsxxzxxbv91zw896"))))
+            "03gccqh70yvkia903dwvgnm5i4f08rw9gm4pwbnmhr9qky500zw2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -99928,17 +99927,17 @@
 (define-public emacs-projection
   (package
     (name "emacs-projection")
-    (version "20231016.1934")
+    (version "20231204.2227")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/projection.git")
                (commit
-                 "89020b23ae607944b1e1071ffbd123a6003fa2cb")))
+                 "307714f1a21abe24454c48996e0b24bad8565dcd")))
         (sha256
           (base32
-            "1x71w70316j8apflfxz91gjz0364hd4551gj99813b51f9ww9zly"))))
+            "1h3yyyqp2n774b831gjl8zqwr56zmi72xm8wbalib4cs8gdh889d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-f emacs-s))
@@ -119236,17 +119235,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20231124.1732")
+    (version "20231204.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "909a86274e3a88c7a5c3cc844d4daeaf62d6c74f")))
+                 "53c013aef9db921b7777a1dc03e4a6884730c25e")))
         (sha256
           (base32
-            "0rb58sjvjzmi1xvnhvpsfdg9v75f17z04dnmqh58r8cq3npv1p3y"))))
+            "0qdpcngsmvl2lrfg4a54zjj0yp9dfr3335p0phf8r4z225fkzwsj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -120771,17 +120770,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231204.33")
+    (version "20231204.2005")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "cdeda207ba8e67ae8f5e3270a27960ea7f3e2bb4")))
+                 "2f12f06c689af517ca64acfc51b27422c86b230d")))
         (sha256
           (base32
-            "03w51bj32d7g2a1p0g9gmc9yw26f4yl7inpn3nz7mw42ll247b3a"))))
+            "0a2yk2swvj0f39mdh1hl2xjl8qk3441l25c784zbq7247hrzbzjm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
