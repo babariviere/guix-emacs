@@ -12762,7 +12762,7 @@
 (define-public emacs-chordpro-mode
   (package
     (name "emacs-chordpro-mode")
-    (version "20231003.2349")
+    (version "20231205.26")
     (source
       (origin
         (method url-fetch)
@@ -12772,7 +12772,7 @@
                ".tar"))
         (sha256
           (base32
-            "05rbhvxsn2vbl8q49il2j37qm74vg8syz8v2jmhyhc6zh2sgwyyw"))))
+            "1pbnnq3rcglf02236xl3psw3jvnb42mb6mj4pavjwxi6ry8v38ib"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -15710,17 +15710,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231128.1625")
+    (version "20231205.55")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "ed46a616ab9906fd43a630479b6a6c3f79e606f0")))
+                 "73edf6b7fbf4824580fe494728e35c1f873c66df")))
         (sha256
           (base32
-            "0i28sss6d5kh4a6g7vx0ln9a9imlyx5g8wissk79mkrzn5n5bx4j"))))
+            "18hglir8ljsk6ia0qr7y9kpj59mx14zqx096vixp8yqhn6pv4h2y"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -26072,17 +26072,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231201.846")
+    (version "20231205.624")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "ca9637e529291e594d0bc610eaae35e7adf6e211")))
+                 "61366c5f35ea35d0b2e6793b3dc77ce828b176d4")))
         (sha256
           (base32
-            "02bg996z5xir535k5a5b4xvd5fzw9sbfhav55hm3qjmw2ly5gbm6"))))
+            "1whcsrli3qdpf2hsx4214ac26fhlhryzyg4xjvms0yj4fiznsggr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -66561,17 +66561,17 @@
 (define-public emacs-kanagawa-theme
   (package
     (name "emacs-kanagawa-theme")
-    (version "20231204.1759")
+    (version "20231205.328")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meritamen/kanagawa-theme.git")
                (commit
-                 "f0bc41223584973e24bdf7cd97c2ea61384df0af")))
+                 "fad62c62d77a43a35723bbacfd8b2a856981c58e")))
         (sha256
           (base32
-            "1x0b3hv5qrxa5h5jy1vsk1cdvjvjqrghx4hlyfv9sx5bjc9jn25w"))))
+            "03kbiwm0hm1qp7zx18j1ybxpkl26bpmhgpkjagsks3ap9ka145fi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Meritamen/kanagawa-theme")
@@ -77766,7 +77766,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231124.814")
+    (version "20231205.400")
     (source
       (origin
         (method url-fetch)
@@ -77776,7 +77776,7 @@
                ".tar"))
         (sha256
           (base32
-            "1j4d3fv44ipapc6z3zp4ynri5f853zkflfdgy56k6gfhrkdgcqng"))))
+            "0cbh3zphvjc6mqhf7lq95jxd6rj4qaaxab13gcq4fjqdpsrjicl8"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -78128,17 +78128,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20231125.23")
+    (version "20231204.2357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "19dc4775e5dc6f8c123a3a3ac0718284490a9328")))
+                 "1c22801c960b1217552b921beba5855fdb0ac654")))
         (sha256
           (base32
-            "1xrszdsarz3zabxaipnr0jm1a8xppp1v2xxgsqj0x0w735r3qffm"))))
+            "1k57bxcz8k062rrpqlw2bbyy4jp4qsjw0n5w13k7g2dkplzmgbrh"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
@@ -88457,17 +88457,17 @@
 (define-public emacs-org-noter
   (package
     (name "emacs-org-noter")
-    (version "20231104.2212")
+    (version "20231205.37")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/org-noter/org-noter.git")
                (commit
-                 "a4296d8338d46b5c863d3d339b50e201172f218c")))
+                 "9d7d48879abb0db89abe4bbdb076fbf5c0d1b5ed")))
         (sha256
           (base32
-            "1y1qsl6444jxqcs0c3aigr9qk6m3a8kjynmn31zk64nlgnybsndc"))))
+            "0blrdgbnx2dxi51vjvxjzlkwddas7fpigzr48yvnrq72l12r8ax8"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -98794,17 +98794,17 @@
 (define-public emacs-prescient
   (package
     (name "emacs-prescient")
-    (version "20231123.2214")
+    (version "20231205.137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "707c25c947a9f17a1d43f97b3b28aba91ec9addb")))
+                 "b701032968d6ab6f4d37b45fec282cf9c6e479c6")))
         (sha256
           (base32
-            "0sdpil5zhwxq8dvfd2v0az5zm1wrd0jysfpwkyhbzsj49r9rj4bc"))))
+            "18k8mki0b904qi4xl50w7bb65xhzl4d6d23qyngw33sbd83m8vq0"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("prescient.el")))
     (home-page
@@ -108561,17 +108561,17 @@
 (define-public emacs-selectrum-prescient
   (package
     (name "emacs-selectrum-prescient")
-    (version "20231123.2208")
+    (version "20231205.137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/prescient.el.git")
                (commit
-                 "707c25c947a9f17a1d43f97b3b28aba91ec9addb")))
+                 "b701032968d6ab6f4d37b45fec282cf9c6e479c6")))
         (sha256
           (base32
-            "0sdpil5zhwxq8dvfd2v0az5zm1wrd0jysfpwkyhbzsj49r9rj4bc"))))
+            "18k8mki0b904qi4xl50w7bb65xhzl4d6d23qyngw33sbd83m8vq0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-prescient emacs-selectrum))
@@ -112644,17 +112644,17 @@
 (define-public emacs-smudge
   (package
     (name "emacs-smudge")
-    (version "20210326.2222")
+    (version "20231205.140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielfm/smudge.git")
                (commit
-                 "808f0ef172a80cf4a8ae6d58dfe385d28ecde28e")))
+                 "dc74e41e51ad916c7fe1091e61574e5eb29f3601")))
         (sha256
           (base32
-            "0cm02r0bgmj2dr6njdm1059q0gjx12c13cs1yxx0zqr6294jiby6"))))
+            "0xbq53rp7y6wsaxc602ll6abzbnabvv0s6phpd63xmdqdkprq78c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-simple-httpd
@@ -116725,17 +116725,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20231204.856")
+    (version "20231205.209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "2e3fa40e0204f19ca3cacf103828316f01c0520a")))
+                 "765faf4d73d19bae67471c42c9dba0431a73fe47")))
         (sha256
           (base32
-            "1hf20ga907mrdgpcmc99zsxiib3fpvfr56ljs6h0ggg5whbmz6bg"))))
+            "144zm2ji47yxj53fwlspw86yalq1fyfrbrc2jh77imfdnd9v6vdf"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
