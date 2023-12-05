@@ -12303,17 +12303,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231128.1009")
+    (version "20231205.1326")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "00796a2ceb71e3b9d73986399342f8a7ddfc9350")))
+                 "a21c64daffbefab993f83cacec108fb56389f058")))
         (sha256
           (base32
-            "0k39zwh2mxa3vj515v9q26d9f62y7xnw5bim97zz2m65218c8lwv"))))
+            "1dkijpmni8vyz6f809s2mj7nwl0g86mn4jg70aj49kp95fyar3dw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -26072,17 +26072,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231205.624")
+    (version "20231205.859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "61366c5f35ea35d0b2e6793b3dc77ce828b176d4")))
+                 "c547ae3b76c9e045c12d31cb95e66cfb0440412a")))
         (sha256
           (base32
-            "1whcsrli3qdpf2hsx4214ac26fhlhryzyg4xjvms0yj4fiznsggr"))))
+            "1sq502ln4zxjy4ph3xlqgaf3f9jcagm3p9kx76bds66wfw13x8l3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -99927,17 +99927,17 @@
 (define-public emacs-projection
   (package
     (name "emacs-projection")
-    (version "20231204.2227")
+    (version "20231205.840")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/projection.git")
                (commit
-                 "307714f1a21abe24454c48996e0b24bad8565dcd")))
+                 "f6802f1827dcf1bdc02482eb4ed8bd65de3c09f4")))
         (sha256
           (base32
-            "1h3yyyqp2n774b831gjl8zqwr56zmi72xm8wbalib4cs8gdh889d"))))
+            "0jcca8li1s0i00013d6sbg0xl5fqsb40klhq84r4l80ckxlp0ma9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-f emacs-s))
@@ -112644,17 +112644,17 @@
 (define-public emacs-smudge
   (package
     (name "emacs-smudge")
-    (version "20231205.140")
+    (version "20231205.1242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielfm/smudge.git")
                (commit
-                 "dc74e41e51ad916c7fe1091e61574e5eb29f3601")))
+                 "5f4cf019b102294033e47f0f1b63f0ee7eb3a8f9")))
         (sha256
           (base32
-            "0xbq53rp7y6wsaxc602ll6abzbnabvv0s6phpd63xmdqdkprq78c"))))
+            "03qd210w4ych28hp8sn3bli95c54bpddvky1604ajxhcba6w8prl"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-simple-httpd
@@ -117946,17 +117946,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231201.920")
+    (version "20231205.1118")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "bdaf12a65bd71ce5f85f3076b560da7623f3b90b")))
+                 "b70f97ee0e3439f1abce4b5527ff075bbe7d4062")))
         (sha256
           (base32
-            "0573rjfb0m6sjcwq4pgfbgjs449r8knam7x5spqvrzawalz5m05s"))))
+            "0dbm9gzavblblflj8xr7iaqdmaq5q04jd6f7baw8kwafd17vljsz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -119352,17 +119352,17 @@
 (define-public emacs-tiktoken
   (package
     (name "emacs-tiktoken")
-    (version "20230719.129")
+    (version "20231205.1428")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/tiktoken.el.git")
                (commit
-                 "957ece897933460d532057fe60cfddcd9e49d8b5")))
+                 "cbf5c7eec0b2599a6ee38ccd551518d0eaeb3cc7")))
         (sha256
           (base32
-            "14f17m7kzppax9qm7f9qqx88sy8608kcb3pmcsaa7crpl75a9k2g"))))
+            "0g5ch54qc1yjx3bbva1j4f9w0vrn0w1g3p62knhry7ic13k1rvfc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page "https://github.com/zkry/tiktoken.el")
@@ -129685,17 +129685,17 @@
 (define-public emacs-xwidgets-reuse
   (package
     (name "emacs-xwidgets-reuse")
-    (version "20231123.1626")
+    (version "20231205.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lordpretzel/xwidgets-reuse.git")
                (commit
-                 "9add364dbdd60bb40fefcecafb95ca8090d7d524")))
+                 "4d5cfd24bc470def508e1301951d4057831d852f")))
         (sha256
           (base32
-            "06i8mawswpvy5bpfs9dz5nxxrpww9xck98zyc54hgw5snf7af0bp"))))
+            "1p0zgd3x83la4w7bhy1f1daamnyfv7sk93bba25w39jgyjw3bd75"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("xwidgets-reuse.el")))
     (home-page
