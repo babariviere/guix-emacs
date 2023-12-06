@@ -14569,17 +14569,17 @@
 (define-public emacs-cmake-mode
   (package
     (name "emacs-cmake-mode")
-    (version "20231128.1452")
+    (version "20231206.1357")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.kitware.com/cmake/cmake.git")
                (commit
-                 "1d9fbd2ca9feb5f1b162268e9cc9d954f055de0d")))
+                 "7b49183f72e92832ff607f407b8bfd23506c8aca")))
         (sha256
           (base32
-            "0dw77bbcp0s8wxwhx93lzz4mwz0bw0pgvi3ayjh0fb55png2bhgn"))))
+            "1iy6828yffqyqbxkwz9g8c4rp428qly9fl1krsgw89wi19sjxps2"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("Auxiliary/*.el")))
     (home-page "unspecified")
@@ -17906,17 +17906,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231206.546")
+    (version "20231206.824")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "e354494fd32968ed73fe3e1927fee28697b21bcb")))
+                 "6d46ab9a03f4b69075219efcac0551c1934014f2")))
         (sha256
           (base32
-            "172ncc867sww3c6vra2f2zga4q334rd69pwbjz9abk1p1yia4va3"))))
+            "0fldjmhp08f64kp55qf3l7n2x5vql8g0g5rzlwhwqv0gvwk39rpq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -18757,17 +18757,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231130.2358")
+    (version "20231206.1548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "24dccafeea114b1aec7118f2a8405b46aa0051e0")))
+                 "dd0d88f52fd9f1edd38f541706ab03c8ca5b9f5c")))
         (sha256
           (base32
-            "0ka80vdgcnh60r0xsi1m1gydxw9acmwf5d6pj752zd7lximz7wps"))))
+            "11yjjx8p50i6d18c3r381k43h8g9zs2a93d9bqwyvwd26zjlim9l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -31731,17 +31731,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20231130.1735")
+    (version "20231206.1439")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "4d87456dfecf54c86e820159ad903c0f748813c4")))
+                 "b24295ea889420dca1edca10f9c0ab0d293168d3")))
         (sha256
           (base32
-            "18xwd52mw308vck4a9c4j29adb7hix9h9di2ilxv9vzn6mgwsql8"))))
+            "1k7f57y7dan9cd3bab1y20mh2zdih825zcbgxhj0i8qx2m651k1r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -44994,17 +44994,17 @@
 (define-public emacs-forth-mode
   (package
     (name "emacs-forth-mode")
-    (version "20231201.1218")
+    (version "20231206.1127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/larsbrinkhoff/forth-mode.git")
                (commit
-                 "1c66075bbced1e274da37c3cb6ced3e327391550")))
+                 "59c5ea89ca7593bd49cdde6caefa0893a8780105")))
         (sha256
           (base32
-            "1ckb47r9px9m80mwsbzcvqpmwdrx0ldrhi5rjk0jilcxm9fqxgjj"))))
+            "1l82hsrg7n7xvi6bd6sdcwvxc9g5qnh84lcmb274myldjzlvyy93"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -59511,7 +59511,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231203.501")
+    (version "20231206.636")
     (source
       (origin
         (method url-fetch)
@@ -59521,7 +59521,7 @@
                ".tar"))
         (sha256
           (base32
-            "1jj8h5rbiv4c776pcgk8w7ara615wq1bxhzr0dyc6f820zv1wb1m"))))
+            "1xy6a6g1mssdcgry2lkb87q6pblazfqijadd6nvigk7ps5cf4bgp"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -69491,17 +69491,17 @@
 (define-public emacs-ledger-mode
   (package
     (name "emacs-ledger-mode")
-    (version "20231129.1757")
+    (version "20231206.930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ledger/ledger-mode.git")
                (commit
-                 "3ffda90a256c631da17c38737c4215b98223f08d")))
+                 "2164789d6a1ea7c3b42684dd01b99cc30e9079fb")))
         (sha256
           (base32
-            "0szb9krpij2sjysb5pq5yp3g7r8zgf49dzm4i33qn9bqcbwpiff9"))))
+            "1x7gdylv9g9s5hsrr8aywncwaws1c906gakb4w5rqhyjw8z0s8i7"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("ledger-*.el" "doc/*.texi")))
@@ -74625,17 +74625,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20231130.2350")
+    (version "20231206.1425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "270d0d9bf766900e605883567b5131ae739918be")))
+                 "27ccfd2213bb9432883427cf058c63af10196aa6")))
         (sha256
           (base32
-            "0n9b334sx5y725b9i5ds4xshiqrm7jcmcc7igxvkdwdzaqb1ms68"))))
+            "0pd4cvfg8m10bxjbl005zh4f0lvzkrkd8p3gb9asa54z2r45rchc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -94225,23 +94225,24 @@
 (define-public emacs-pass
   (package
     (name "emacs-pass")
-    (version "20231203.1555")
+    (version "20231206.736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/NicolasPetton/pass.git")
                (commit
-                 "9fe45015db8839803e2ef54f51a0b0c5d64873b4")))
+                 "ed7031c5c33a384d07da2d15c9d5f854027a26a2")))
         (sha256
           (base32
-            "1vs853cq461cxlvjn6j0gxx4c3yjgfh6fzwjdsqifl5d6fxg57p0"))))
+            "1c58vanwflc4immfkbb17ckanqviqr3x9g8hcszzmm7kz2xh24n5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-password-store
             emacs-password-store-otp
             emacs-f))
-    (home-page "unspecified")
+    (home-page
+      "https://github.com/NicolasPetton/pass")
     (synopsis "Major mode for password-store.el")
     (description
       "Documentation at https://melpa.org/#/pass")
@@ -95188,22 +95189,22 @@
 (define-public emacs-perfect-margin
   (package
     (name "emacs-perfect-margin")
-    (version "20220426.1701")
+    (version "20231206.423")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpwang/perfect-margin.git")
                (commit
-                 "d5cb5f075264ff2e625099aebca3151f4f35019a")))
+                 "5a26d898e25a22bdcdc84e877045afcde199ac19")))
         (sha256
           (base32
-            "05nh0fi7k9amz6wnkbsznhyr9j8jzmr55d4qg2c60pp3ygfrbzn1"))))
+            "09xjcb0pmq37j46d4g6bqgmcivqg9zhzjhmyn7kncpkb3vl0h27n"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mpwang/perfect-margin")
     (synopsis
-      "auto center windows, work with minimap and/or linum-mode")
+      "Auto center windows, works with line numbers")
     (description
       "Documentation at https://melpa.org/#/perfect-margin")
     (license #f)))
@@ -109779,17 +109780,17 @@
 (define-public emacs-shfmt
   (package
     (name "emacs-shfmt")
-    (version "20220602.1535")
+    (version "20231206.1010")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/emacs-shfmt.git")
                (commit
-                 "279a51defa3e0d97dc40b8a26e078699d4e22e90")))
+                 "6292d619e9859316b5a9be48867a6f64e9d09160")))
         (sha256
           (base32
-            "1kzi8gy37cm1z4x69400gbkawx4k0jafvz8m50w0b48nvrvsy6ys"))))
+            "0k24hzagym38y72a9drkdmrvv1iiw80sj5fflv0nf0rfhw3qyv1z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
@@ -117947,17 +117948,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231205.1118")
+    (version "20231206.1402")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "b70f97ee0e3439f1abce4b5527ff075bbe7d4062")))
+                 "e0ad17b5650b98313219ece3fc371ec051f7a597")))
         (sha256
           (base32
-            "0dbm9gzavblblflj8xr7iaqdmaq5q04jd6f7baw8kwafd17vljsz"))))
+            "049xv1ysg0r46k47z3dkdkwqh1f086c5l9yp7c9cs45vg8cj283x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -121240,17 +121241,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231203.14")
+    (version "20231206.1122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "542f4cc471b974847dcb53b5b390b4689246f8a0")))
+                 "209c986300a7eadb84c8dff142c576d812b7c77e")))
         (sha256
           (base32
-            "0j6d8r828h82x7c3s78iz68s68fpvqp739jjmz1f58j6z6a7y291"))))
+            "069dsgn5zld62qxjs16brfq8hirnarbk52c5fwnfn7khnvpxnia3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
@@ -126778,17 +126779,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20231124.833")
+    (version "20231206.1239")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "c40fdcc91ed4bc1773531be3b6bfcbb9b1a0303c")))
+                 "df57cd0beea9c6bdc64259bd11bde0c076a64cc9")))
         (sha256
           (base32
-            "09vjn9261kghwzydjifx6kynz8izjjl007sid9455m9dkrmhdbjs"))))
+            "0dwynqy2bp41adfwxmp5gh5rhljm6fim4ijzbzbrkjb0vvp9ywrs"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
