@@ -4515,17 +4515,17 @@
 (define-public emacs-async
   (package
     (name "emacs-async")
-    (version "20231128.1813")
+    (version "20231206.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jwiegley/emacs-async.git")
                (commit
-                 "386cdbb441211483a1d5277717a68f4a2074860e")))
+                 "af62573547904045a155c481ed61c093381722dd")))
         (sha256
           (base32
-            "00zv17sra8admy03aw3skyhbv71cm1nqlc3kmj1lvi6n00sdq0n8"))))
+            "0pwv0p91hr94qv9ahsxlfsh35ym6dsld6cc5nxrkiqmp6sv466y9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jwiegley/emacs-async")
@@ -8162,17 +8162,17 @@
 (define-public emacs-binky
   (package
     (name "emacs-binky")
-    (version "20231204.846")
+    (version "20231206.429")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky.el.git")
                (commit
-                 "d692f3a3551ae412b0b3fc71d14b7d3991255084")))
+                 "8711a7ba7b9045ee2788c023a2076559cd95feb6")))
         (sha256
           (base32
-            "0a5jjzbywgq6yh0489690mv6x5h6dsfc1dv7dqaq92h7mi8w1d3c"))))
+            "19j5nm0wcsrn4jj7fidx2qdf45ayp4bb1cr87zjwrcrs7kqd6lbw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -17906,17 +17906,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231202.1021")
+    (version "20231206.546")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "63391fb2d7fbad61ba7a44acbae4da6669c89f31")))
+                 "e354494fd32968ed73fe3e1927fee28697b21bcb")))
         (sha256
           (base32
-            "0sj3vk8mpawqfgzsrjz3k2g51m6jpwafi37z12lrgfxjgc7gw7l0"))))
+            "172ncc867sww3c6vra2f2zga4q334rd69pwbjz9abk1p1yia4va3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -26123,17 +26123,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20231202.1659")
+    (version "20231206.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "bc9e147671ec5b6cbd6c3eaf7c7c83bc52c00e0b")))
+                 "0a895b00bd18ab72beb6c0a2e4ace5f39cbea14f")))
         (sha256
           (base32
-            "1rrcfg904bj81a17p6yn76d2w7h8wcz1is1giq6wa47jlrdjlzsf"))))
+            "1zy0qck74kjmxwkx86cqs9bwqgj9ynd3yrjm3m0dhrz573i0cawj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -27467,17 +27467,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231203.819")
+    (version "20231206.714")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "d8debac24de088b6c63579d9e80e2fb6c3a23a0c")))
+                 "5e5dc8f571edbe46bda778f407fc0b3f527e79e6")))
         (sha256
           (base32
-            "1vvaq8m8r8fi71ch24m0fqlwb5bhnvfvv5ly6c7024wavpppn3zg"))))
+            "1pxqd293sgkz7bxhfg98kixbhmvkda9hdszgjh7drr39qspq5fsf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -27513,17 +27513,17 @@
 (define-public emacs-easky
   (package
     (name "emacs-easky")
-    (version "20231113.942")
+    (version "20231206.817")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/easky.git")
                (commit
-                 "9b2f316dafaf238a16842ebad181f3b52ee9903c")))
+                 "bf31249401235e3f5fd06615f2425f74418083e5")))
         (sha256
           (base32
-            "0pq7ff5w44bnv1vakqdyvrs4hihpdcax8p8fg2z2mh7w7ljh11na"))))
+            "1ais9rrdaa5n2iswnwxs2g9fs4m9rrixm5d5k0nm3836j82qywda"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eask-mode
@@ -66561,17 +66561,17 @@
 (define-public emacs-kanagawa-theme
   (package
     (name "emacs-kanagawa-theme")
-    (version "20231205.328")
+    (version "20231206.149")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meritamen/kanagawa-theme.git")
                (commit
-                 "fad62c62d77a43a35723bbacfd8b2a856981c58e")))
+                 "78ccf6930336da98f248896af53ab0307c4d6459")))
         (sha256
           (base32
-            "03kbiwm0hm1qp7zx18j1ybxpkl26bpmhgpkjagsks3ap9ka145fi"))))
+            "1pcg3354wk2fxmc6kh37zvkwjq7yhl1m1f5sx1jjlpf3gfscr9q7"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Meritamen/kanagawa-theme")
@@ -88130,19 +88130,20 @@
 (define-public emacs-org-make-toc
   (package
     (name "emacs-org-make-toc")
-    (version "20231025.2326")
+    (version "20231206.101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-make-toc.git")
                (commit
-                 "df29826107ad12fd1d5f173a9a8e070b84f21a68")))
+                 "238be02dcf041a7635734769a041e848f0aeb10d")))
         (sha256
           (base32
-            "1bsn8z7nc2qngjdkd7sq14f53i8pgjchka1s3l6cqxbjv9gvm0q5"))))
+            "1ai5h9pf6iik53r3v8i0rrrzm8wzmw5sq66k274zi1swvq5jixik"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-dash emacs-s))
+    (propagated-inputs
+      (list emacs-dash emacs-s emacs-compat))
     (home-page
       "http://github.com/alphapapa/org-make-toc")
     (synopsis
@@ -90281,17 +90282,17 @@
 (define-public emacs-org-timeblock
   (package
     (name "emacs-org-timeblock")
-    (version "20231205.2119")
+    (version "20231205.2335")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ichernyshovvv/org-timeblock.git")
                (commit
-                 "dcf063c7cce074f767d3f4eb061a82fc80ce76a5")))
+                 "a39c1367f0e237f79c26246fe6303413ca3dd05c")))
         (sha256
           (base32
-            "0yn9wkq2f66jsb37wimra9khdcnb8mrgcff2cqbn2lsmcw815xhm"))))
+            "04ydsyz5bqv0y497q2ypdn3ldnb2x572465fzzp1y173spd90hmg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-org-ql emacs-persist))
