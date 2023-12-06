@@ -8716,7 +8716,7 @@
 (define-public emacs-bluesound
   (package
     (name "emacs-bluesound")
-    (version "20231123.909")
+    (version "20231124.1347")
     (source
       (origin
         (method url-fetch)
@@ -8726,7 +8726,7 @@
                ".tar"))
         (sha256
           (base32
-            "0qpfqpkzw27lqj2bbf7vvr4ncfflvni2l3pzsisqzq2r7cdzcnzv"))))
+            "1lmnin9n9n116qqgk1hvbcz626blfr1gybpvfy0pbhzv6pcdwa7q"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~rwv/bluesound-el/")
@@ -15710,17 +15710,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231205.55")
+    (version "20231205.2353")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "73edf6b7fbf4824580fe494728e35c1f873c66df")))
+                 "7bcffac8f8d20164629a1de4727e991d64fefd5f")))
         (sha256
           (base32
-            "18hglir8ljsk6ia0qr7y9kpj59mx14zqx096vixp8yqhn6pv4h2y"))))
+            "0kql2p5wrjrfllsz4w4jayh0395bydc1j0lx77r3m5zrx2447gzv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -20083,17 +20083,17 @@
 (define-public emacs-crystal-mode
   (package
     (name "emacs-crystal-mode")
-    (version "20231203.203")
+    (version "20231205.1943")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crystal-lang-tools/emacs-crystal-mode.git")
                (commit
-                 "17a3793581ed5f34591a5cbd50d91729a8dafb36")))
+                 "ea89b108fa4222df94ffb99e6e7eaec5d7aa4fea")))
         (sha256
           (base32
-            "0bcpc13xrvzarx7rd132xsnihmn21ji00rrwxdkwrcls2fxplj19"))))
+            "0h7nj0lwb90va0z1j3p2i14vggkn4j2hmnf3jknig5dfn39wwbpm"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("crystal-mode.el")))
     (home-page
@@ -82250,17 +82250,17 @@
 (define-public emacs-nordic-night-theme
   (package
     (name "emacs-nordic-night-theme")
-    (version "20230831.1732")
+    (version "20231205.1744")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.sr.ht/~ashton314/nordic-night")
                (commit
-                 "38020ebac496992a4b41bc721db9c28962e5b7df")))
+                 "d5d481a6b514001b22d1a184c1214d220fe3869d")))
         (sha256
           (base32
-            "0h07sflfvxkgc9w7jdfmvarrgdgr95sbki4az7b6n0kpzzps1s1f"))))
+            "1qvka1ybwc3jyxjk0ljzmbf6l56lmfqi4l7dasmmc31w7all3l53"))))
     (build-system melpa-build-system)
     (home-page
       "https://sr.ht/~ashton314/nordic-night/")
@@ -90281,17 +90281,17 @@
 (define-public emacs-org-timeblock
   (package
     (name "emacs-org-timeblock")
-    (version "20231127.848")
+    (version "20231205.2119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ichernyshovvv/org-timeblock.git")
                (commit
-                 "884865f249ee2a28b876b756676f98c378defc44")))
+                 "dcf063c7cce074f767d3f4eb061a82fc80ce76a5")))
         (sha256
           (base32
-            "1hh08gw3phlfr836qnfyvaay072rzq59vfy9w6b0xwlg0h1jfvbf"))))
+            "0yn9wkq2f66jsb37wimra9khdcnb8mrgcff2cqbn2lsmcw815xhm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-org-ql emacs-persist))
@@ -120770,17 +120770,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231204.2005")
+    (version "20231205.1848")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "2f12f06c689af517ca64acfc51b27422c86b230d")))
+                 "2c8b50231b11d354b60709c361f2dfbc4cb8163d")))
         (sha256
           (base32
-            "0a2yk2swvj0f39mdh1hl2xjl8qk3441l25c784zbq7247hrzbzjm"))))
+            "04dgslb1zcavchr58dybvzibhpfkg449hv1s86sn449ssvmnwcs0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
