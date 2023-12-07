@@ -10342,17 +10342,17 @@
 (define-public emacs-buttercup
   (package
     (name "emacs-buttercup")
-    (version "20231005.2120")
+    (version "20231206.2351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
                (commit
-                 "3780eb081913d1aeef2bc5950891a3fbe3b3771d")))
+                 "24d43b2ce262faf59e5ff9f72466efb293aa6154")))
         (sha256
           (base32
-            "1lmiyipwhy5fi6yajx85c68drn5dxxy47yc2dpch8y9y2b2mbyin"))))
+            "0yr7asd2akgpsi6ci5k8980crawhvpyh498c9ab275msgq4ahjhc"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page
@@ -23265,17 +23265,17 @@
 (define-public emacs-diff-hl
   (package
     (name "emacs-diff-hl")
-    (version "20230807.1516")
+    (version "20231207.32")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/dgutov/diff-hl.git")
                (commit
-                 "b5651f1c57b42e0f38e01a8fc8c7df9bc76d5d38")))
+                 "007c06b094de8e650f52b8ff9cfddf8f81f331d6")))
         (sha256
           (base32
-            "0w7qhdkgqkk6z306n2c0cx188bbqqsg5vdbxbv1z7pgb3nwdc8ad"))))
+            "0cl8fgnsmn1irxbsy8n5gg319pm9fjm68sik1qflnacqhc5h615l"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/dgutov/diff-hl")
     (synopsis
@@ -27513,17 +27513,17 @@
 (define-public emacs-easky
   (package
     (name "emacs-easky")
-    (version "20231206.817")
+    (version "20231207.115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/easky.git")
                (commit
-                 "bf31249401235e3f5fd06615f2425f74418083e5")))
+                 "c0307087e6b4fd7d62432e9556238c16775606f4")))
         (sha256
           (base32
-            "1ais9rrdaa5n2iswnwxs2g9fs4m9rrixm5d5k0nm3836j82qywda"))))
+            "0jj6agsvkrxy7lhklkwd5lpwrc26w8bqv29zqh25n6s5yi6inplz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-eask-mode
@@ -111224,17 +111224,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20231130.1102")
+    (version "20231207.7")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "a924516084ad7da57617ebc19086ebe7b6562ec8")))
+                 "799a05f5b8cf4f65c1e90b802d0666f164aa7eb3")))
         (sha256
           (base32
-            "0wjij8njd9knkl7l76yrbyb6l62ckfx0v5zyhaq01l951gnpji1v"))))
+            "0r6s826igx1azr5z167yxxfq7vsw54jzk5m9ycm9zpkcarznr3b0"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -113812,17 +113812,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20231129.103")
+    (version "20231207.103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "030a24a42928ef4d79ee37aaefd103ea7dfa4b14")))
+                 "c1846d4354e942cc74db2bc378c2feb6b36a3ecb")))
         (sha256
           (base32
-            "0nnfg443klny24gsdj94qda3il2qg5ylj9j624l0nrvx11jnj211"))))
+            "1il53gnnmqkwf07lcw2sgi08f6rfzp5h0gx7fr482ijzdz76j8hb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -124991,17 +124991,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231130.2355")
+    (version "20231207.53")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "017ff44443bad401097b9987849625cafa348d86")))
+                 "811ffddbab07217b9319c402b199c4050d187afd")))
         (sha256
           (base32
-            "06snksn5v31jyb010iipflz7a7izgsj6jkh1yxzs505smwmfajw6"))))
+            "07frinxwp5y1b5y5y9hxybn6ix0s7skb2h6bf7kvdkklpg4r4ki4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
