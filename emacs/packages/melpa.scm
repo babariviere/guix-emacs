@@ -2598,17 +2598,17 @@
 (define-public emacs-all-the-icons-dired
   (package
     (name "emacs-all-the-icons-dired")
-    (version "20231007.2324")
+    (version "20231207.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wyuenho/all-the-icons-dired.git")
                (commit
-                 "b3dd838e93325145bb55cec69d8b0a2b6f1bc348")))
+                 "e157f0668f22ed586aebe0a2c0186ab07702986c")))
         (sha256
           (base32
-            "1igikh0nlzxh4lkcgmi9smvw2lqad2zxmbss6hd69m01h7mqg6k7"))))
+            "11wkrfn4hcyparfimm6l1daysp1gnb0dj41f7j980axbpa3nzg6v"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-all-the-icons))
     (home-page
@@ -15710,17 +15710,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231205.2353")
+    (version "20231207.1344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "7bcffac8f8d20164629a1de4727e991d64fefd5f")))
+                 "f0fee2c59de4642f4c8a782734f24dfcf25c0a3a")))
         (sha256
           (base32
-            "0kql2p5wrjrfllsz4w4jayh0395bydc1j0lx77r3m5zrx2447gzv"))))
+            "18wmfqwnp7k4whv5sinvx3vm4f0ssckvsk6xaarajwq42y7x3r24"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -18757,17 +18757,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231206.1548")
+    (version "20231207.1420")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "dd0d88f52fd9f1edd38f541706ab03c8ca5b9f5c")))
+                 "0d8f55201b108c392cef680a1c960b49d1e7cc9c")))
         (sha256
           (base32
-            "11yjjx8p50i6d18c3r381k43h8g9zs2a93d9bqwyvwd26zjlim9l"))))
+            "1s2a1ii23y0cqqp3cvzi5wrgla0f3gsknxr073w9mvjyncmzgx43"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -30328,7 +30328,7 @@
 (define-public emacs-elisp-autofmt
   (package
     (name "emacs-elisp-autofmt")
-    (version "20231112.552")
+    (version "20231207.1018")
     (source
       (origin
         (method url-fetch)
@@ -30338,7 +30338,7 @@
                ".tar"))
         (sha256
           (base32
-            "1i0g48yl1d93jxw45wjkzpawsb9sf2n44759k5sgxbldyqz5i7lx"))))
+            "112fh4hndlf98wd35jpm6gfgcypg6kjy30bvnvpnjzdxs5ik4pv3"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-elisp-autofmt")
@@ -65893,17 +65893,17 @@
 (define-public emacs-jtsx
   (package
     (name "emacs-jtsx")
-    (version "20231204.1046")
+    (version "20231207.1049")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/llemaitre19/jtsx.git")
                (commit
-                 "a1bef4cadb7fc59c37bfa71e8777561b199e8eb3")))
+                 "fef58fffcc44c5a961bc3684906b4823e614a81a")))
         (sha256
           (base32
-            "1l52wvahai9kch3f542gcjf79qwbhx9372m716kafy14zcg95f7z"))))
+            "0qhx4vh0p1lnv0ljxr3la5l89k1s2rjvgl0wlj8klv5bgnkgjnha"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/llemaitre19/jtsx")
     (synopsis "Extends default support for JSX/TSX")
@@ -70421,17 +70421,17 @@
 (define-public emacs-link-hint
   (package
     (name "emacs-link-hint")
-    (version "20230405.1801")
+    (version "20231207.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/link-hint.el.git")
                (commit
-                 "36ce929331f2838213bcaa1145ece4b73ce84afe")))
+                 "43378ae627d79c7645bbd4e756d857fcda2eab79")))
         (sha256
           (base32
-            "0154dls98zxpdjy8kzcrk9zp5i0aa180rsfr3hsmgq4ayq6v19yv"))))
+            "10ijy3b08iv29vhjzbknplapka47cjx48hzv6dq8nx1llxb8vdz1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (home-page
@@ -118018,17 +118018,17 @@
 (define-public emacs-teleport
   (package
     (name "emacs-teleport")
-    (version "20231203.1535")
+    (version "20231207.1413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/caramelhooves/teleport.el.git")
                (commit
-                 "5767bc31fee6d2a24503cc7cd24df1cfbd169bc2")))
+                 "d9789159b621ed343d34f2465a2474614160039b")))
         (sha256
           (base32
-            "0d1g4v8xrd37dsyz1370lyca9h2w42vziwascqrymdvsy1cskij8"))))
+            "0b015fqrsmhz83dlacw2a19vjdi6ng0ls2v8kl35rpd9fb55ih16"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
