@@ -11053,17 +11053,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231130.2353")
+    (version "20231207.1604")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "18a30f48bb8754421cb10dad99e0a406173d4551")))
+                 "ee571c70e6386d978bc9878c0012f70571a21ca5")))
         (sha256
           (base32
-            "17lvac568sr4fhd0svsnrl73sc6hf5yrb47n518w5jzhd39ad8q9"))))
+            "0p63sqlsn4rjkavqqhnb2l8c37179q8hkkbmkmgw3kd640d9jskj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -18757,17 +18757,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231207.1420")
+    (version "20231207.2155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "0d8f55201b108c392cef680a1c960b49d1e7cc9c")))
+                 "80a52e18cf22f465e15dd4f452468cefc4d55b4a")))
         (sha256
           (base32
-            "1s2a1ii23y0cqqp3cvzi5wrgla0f3gsknxr073w9mvjyncmzgx43"))))
+            "0srhh4l3jx6b4m7iyy2v66i109av02bmdikc58adb1dqwwcignw5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -21514,7 +21514,7 @@
 (define-public emacs-darkman
   (package
     (name "emacs-darkman")
-    (version "20231124.1554")
+    (version "20231207.1604")
     (source
       (origin
         (method url-fetch)
@@ -21524,7 +21524,7 @@
                ".tar"))
         (sha256
           (base32
-            "0kml8vqyk6s78zk76glhjfrpl2jlyzkrc6v45is9a8qp8l5hkqs2"))))
+            "09rylqd65g7dwfcxymjzxdc5qyw8iv56f03pbmxp4sfyph4mnzvg"))))
     (build-system melpa-build-system)
     (home-page "https://darkman.grtcdr.tn")
     (synopsis "Seamless integration with Darkman")
@@ -38648,17 +38648,17 @@
 (define-public emacs-file-info
   (package
     (name "emacs-file-info")
-    (version "20230929.924")
+    (version "20231207.2041")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/file-info.el.git")
                (commit
-                 "21fb5d779be88364e464e54c8bb94d04518f6474")))
+                 "158524c92f37eeccf55e096f3090db2baa12fbae")))
         (sha256
           (base32
-            "1gj41r4fyiq876bg57a3kvxbf53x2dww4vhs551mqn8sak3lwmlv"))))
+            "0l17mmail2gcz71rmk2p1p4lf0lc10mhj5pdq1c1dpppri42cbwm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-hydra emacs-browse-at-remote))
@@ -58441,17 +58441,17 @@
 (define-public emacs-hl-todo
   (package
     (name "emacs-hl-todo")
-    (version "20230829.1854")
+    (version "20231207.2020")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/hl-todo.git")
                (commit
-                 "70ce48470c85f1441de2c9428a240c3287995846")))
+                 "6db6a0b0a80b41d8c076adb477dc4990f03c2b09")))
         (sha256
           (base32
-            "1rq16zrdmq9j2jrsg136r5qbqvsgd2bkgpb2wmxca91kfx86r2qq"))))
+            "1qfv7rprmfndhrzd29zpvmvw6clz11kxlgbw88sjjl7ldgkjqy5p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/tarsius/hl-todo")
@@ -82514,7 +82514,7 @@
 (define-public emacs-notmuch-transient
   (package
     (name "emacs-notmuch-transient")
-    (version "20230917.1004")
+    (version "20231207.1855")
     (source
       (origin
         (method url-fetch)
@@ -82524,7 +82524,7 @@
                ".tar"))
         (sha256
           (base32
-            "10nfaizamx8h91v4r46x1y51qp4d0a0bdnlmlqy6yx46zb91yvlp"))))
+            "04x4h775qhnyzy26z8yqlszb4mnyvkcaifbgab97s7yafzsy9ywb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-notmuch))
@@ -95189,17 +95189,17 @@
 (define-public emacs-perfect-margin
   (package
     (name "emacs-perfect-margin")
-    (version "20231206.423")
+    (version "20231207.1638")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpwang/perfect-margin.git")
                (commit
-                 "5a26d898e25a22bdcdc84e877045afcde199ac19")))
+                 "fe13bd1719f132c85392f5fd6b766e0200bfdcfa")))
         (sha256
           (base32
-            "09xjcb0pmq37j46d4g6bqgmcivqg9zhzjhmyn7kncpkb3vl0h27n"))))
+            "1szb5ilvpq36an1akv7lp7py0h3v9d0jbv640vl1vic6acw2qqwj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mpwang/perfect-margin")
@@ -102635,17 +102635,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231206.1807")
+    (version "20231207.1950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "310f1952213b0e4a8cee7e8cd1f057442e9feb0f")))
+                 "e4a5dffe2e2e381fbdcc082c707b08d597e3d0a0")))
         (sha256
           (base32
-            "1wwm6qs8c4d11bl3dav4rnvpp6kv1prmaf5i76gf225z0knn0w3a"))))
+            "151pw5sgn649lg65p4gyygwb47jfcw0n7k0bnb1r624d3wzn046v"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -112646,17 +112646,17 @@
 (define-public emacs-smudge
   (package
     (name "emacs-smudge")
-    (version "20231205.1242")
+    (version "20231207.2023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielfm/smudge.git")
                (commit
-                 "5f4cf019b102294033e47f0f1b63f0ee7eb3a8f9")))
+                 "fe76ef5b6093fdc85a1bf91166451f148bafe970")))
         (sha256
           (base32
-            "03qd210w4ych28hp8sn3bli95c54bpddvky1604ajxhcba6w8prl"))))
+            "1qbpf1fm5dkl2ki7zbgg5j865vkzdcf6bzabw774n3mcs767a1dq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-simple-httpd
@@ -121070,7 +121070,7 @@
 (define-public emacs-tray
   (package
     (name "emacs-tray")
-    (version "20230917.1002")
+    (version "20231207.1856")
     (source
       (origin
         (method url-fetch)
@@ -121080,7 +121080,7 @@
                ".tar"))
         (sha256
           (base32
-            "1y5f6k2m1280hj3w680q3bqgk6wgsljhq9gvjdjbs3khicipq5ld"))))
+            "0h1gzan4fhnijylhhcl8dxrd97sw0s3jbhk36q8a1gan568yi2bf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://git.sr.ht/~tarsius/tray")
@@ -122845,7 +122845,7 @@
 (define-public emacs-undo-fu-session
   (package
     (name "emacs-undo-fu-session")
-    (version "20230703.2353")
+    (version "20231207.2214")
     (source
       (origin
         (method url-fetch)
@@ -122855,7 +122855,7 @@
                ".tar"))
         (sha256
           (base32
-            "1p6x2dbghx6xz26ch9jlcifi62v3zkrhhyaqynsrd0fg7q2y5vyl"))))
+            "1s5lyw699ilkjmy44c7syna45xxji5saf23s6ncanbxlgyc5k2k1"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.com/ideasman42/emacs-undo-fu-session")
@@ -124991,17 +124991,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231207.53")
+    (version "20231207.2029")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "811ffddbab07217b9319c402b199c4050d187afd")))
+                 "e8edac107df5883f2fa8690356a8d8deee1a83de")))
         (sha256
           (base32
-            "07frinxwp5y1b5y5y9hxybn6ix0s7skb2h6bf7kvdkklpg4r4ki4"))))
+            "0ng8fb0divjdhwi713g0hccjmxf9vrfn8ra1klps125arw9d35yg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
