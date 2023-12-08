@@ -11053,17 +11053,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231207.1604")
+    (version "20231208.635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "ee571c70e6386d978bc9878c0012f70571a21ca5")))
+                 "a878347ebd20e4e410133f3547f16a925b7c6d16")))
         (sha256
           (base32
-            "0p63sqlsn4rjkavqqhnb2l8c37179q8hkkbmkmgw3kd640d9jskj"))))
+            "1kcy97xisikjrzw57vcf28cy1ddyig3d3dkz1i8fg7ag6vrpakk8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -15710,17 +15710,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231207.1344")
+    (version "20231208.16")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "f0fee2c59de4642f4c8a782734f24dfcf25c0a3a")))
+                 "ead3d00e62eca7cb8febce7516ed163516ae84e6")))
         (sha256
           (base32
-            "18wmfqwnp7k4whv5sinvx3vm4f0ssckvsk6xaarajwq42y7x3r24"))))
+            "029x4wf2z9i5shp23ahmdjyb63sljr5zj77471g57mjxpwrw1060"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -18757,17 +18757,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231207.2155")
+    (version "20231208.650")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "80a52e18cf22f465e15dd4f452468cefc4d55b4a")))
+                 "f658ae627508ba8104b640b4242a2a99716c58ea")))
         (sha256
           (base32
-            "0srhh4l3jx6b4m7iyy2v66i109av02bmdikc58adb1dqwwcignw5"))))
+            "0w3fxivjkfz2qwy1p075as66pfab30sqywsdif8jd25q577gzsc6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -22196,21 +22196,21 @@
 (define-public emacs-debian-el
   (package
     (name "emacs-debian-el")
-    (version "20231017.1037")
+    (version "20231207.2347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://salsa.debian.org/emacsen-team/debian-el.git")
                (commit
-                 "586300cb4747128b7f8397d9dd9f09fa1e27b118")))
+                 "e32fca16e327a209413ba8d3f14442a5964558a5")))
         (sha256
           (base32
-            "11fwr66nm51n4kmy8y5zpa5lwy4qnnspsbrpbiv3r0p3ivqdga15"))))
+            "0hpkqdja9y15n5kf1gqvwml2wasd13hvl57lndzh6b8d851fiklp"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
-      "Emacs helpers specific to Debian users")
+      "startup file for the debian-el package")
     (description
       "Documentation at https://melpa.org/#/debian-el")
     (license #f)))
@@ -31731,17 +31731,17 @@
 (define-public emacs-embark
   (package
     (name "emacs-embark")
-    (version "20231206.1621")
+    (version "20231208.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "95517246d8ef5cd837cd315f4689e922202d3df5")))
+                 "b9f2b3b9a5b9c72cf1416097b9941c4f275dae94")))
         (sha256
           (base32
-            "0m8ilqjqxs80mcg7924ww8g96hm03ma38q209hv9n0gm69s7c2s8"))))
+            "0wh93yr455kj9lkzfnd0778cilv43yy7ynqzry3sv9p892nkfq1r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -31757,17 +31757,17 @@
 (define-public emacs-embark-consult
   (package
     (name "emacs-embark-consult")
-    (version "20231206.1621")
+    (version "20231208.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "95517246d8ef5cd837cd315f4689e922202d3df5")))
+                 "b9f2b3b9a5b9c72cf1416097b9941c4f275dae94")))
         (sha256
           (base32
-            "0m8ilqjqxs80mcg7924ww8g96hm03ma38q209hv9n0gm69s7c2s8"))))
+            "0wh93yr455kj9lkzfnd0778cilv43yy7ynqzry3sv9p892nkfq1r"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-embark emacs-consult))
@@ -47514,17 +47514,17 @@
 (define-public emacs-git-cliff
   (package
     (name "emacs-git-cliff")
-    (version "20231128.2316")
+    (version "20231208.625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/git-cliff.el.git")
                (commit
-                 "b7220731be538b962d118c58d19eb2d0404976b0")))
+                 "b96f59217c55f2ed8a8b441acb6d67169582360b")))
         (sha256
           (base32
-            "0fm8mzlq0kqcmsyf6ril565g7f5809iz83w7kxv3yv7xdfggq3yj"))))
+            "1incgbhwb8fhp3w5k04p8xcv07k3f4lwvvfcpdj407r96k9kijfx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/git-cliff.el")
@@ -50686,17 +50686,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231120.1925")
+    (version "20231208.221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "de6d8089cdf68732a3942ef729f774322120175e")))
+                 "3e361323d5b2b6dd54a24667edeeb9480bab197f")))
         (sha256
           (base32
-            "1lhcsrg35cyi8knjf3rc9gaxy86a1rxrkqpxp7qsdylqms2ag3nv"))))
+            "1czisakcnncibyg8lk7iccrayym2s0hpbq1schdr83sqdhxx1dbb"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -66938,17 +66938,17 @@
 (define-public emacs-key-assist
   (package
     (name "emacs-key-assist")
-    (version "20230122.718")
+    (version "20231208.446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Boruch-Baum/emacs-key-assist.git")
                (commit
-                 "41a958ca6b038586bfdcf01045bb8b9d379248fe")))
+                 "87d2378db3d997b6b5a7b2c04281c18378e70bbb")))
         (sha256
           (base32
-            "099g9y3ky8hmgrq68idcjwa3452jdkggblgz397824kj13d7z02b"))))
+            "1fjnnvja0r3abf2973y3c704y436krfhifyas7p6rmc8d0k4358v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Boruch-Baum/emacs-key-assist")
@@ -71304,17 +71304,17 @@
 (define-public emacs-llama-cpp
   (package
     (name "emacs-llama-cpp")
-    (version "20231201.844")
+    (version "20231208.426")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kurnevsky/llama-cpp.el.git")
                (commit
-                 "172a91d34128c556460ca033a2325cfa0858ac30")))
+                 "4ca0eb54d7555ee47fd0c8080e0ac9bba1630a34")))
         (sha256
           (base32
-            "1an33cnbdyskhxvwcckirs07m8mzr1v405b1vsmxh5n50rqqgriw"))))
+            "11rbkp8qnqq5bjcd2ybzkbc189q3yrmsc57q66r89xy3dkccbv2k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -80032,17 +80032,17 @@
 (define-public emacs-naga-theme
   (package
     (name "emacs-naga-theme")
-    (version "20231203.809")
+    (version "20231208.719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
                (commit
-                 "1cec03b52e123d6be71ce146a3fc0365561e4f0c")))
+                 "5b36834b9a8b4d18e6ed031944190987f9721867")))
         (sha256
           (base32
-            "03cqwk36rpqkx6nvhypvpr6yablafw9dcnn48wlp5vpqh77kyy7v"))))
+            "1ygg3hzak2sy9d0kir831dy918vqq7j64yyqnps5ix54vqlj0yas"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/kenranunderscore/emacs-naga-theme")
@@ -86457,17 +86457,17 @@
 (define-public emacs-org-bookmark-heading
   (package
     (name "emacs-org-bookmark-heading")
-    (version "20230517.1141")
+    (version "20231208.327")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-bookmark-heading.git")
                (commit
-                 "4e97fab8cf0307fc338df50efac103ed966c7914")))
+                 "84631dc36ea31ef9ba9efff0d72578ca8671b470")))
         (sha256
           (base32
-            "1fkwzwyim0icnfh5gbrahx50m7zmcw42g407064p87gazd1rir6c"))))
+            "11i9rzz8hc8jn2h798pz7v8qfd6w06j04zp9jq4y6vkga6yywhsh"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/alphapapa/org-bookmark-heading")
@@ -117948,17 +117948,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231206.1402")
+    (version "20231208.537")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "e0ad17b5650b98313219ece3fc371ec051f7a597")))
+                 "ec8863c3dfa53700434bbdf94344d9f4d8e55f3c")))
         (sha256
           (base32
-            "049xv1ysg0r46k47z3dkdkwqh1f086c5l9yp7c9cs45vg8cj283x"))))
+            "0h3fcwazjjjx8nsbiswwy8pzkbaqddp1219alvmxcfkfs8l07fsv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
