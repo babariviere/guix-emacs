@@ -6113,17 +6113,17 @@
 (define-public emacs-avy-embark-collect
   (package
     (name "emacs-avy-embark-collect")
-    (version "20230919.1907")
+    (version "20231208.459")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/oantolin/embark.git")
                (commit
-                 "b22bcc42c70e75e5c7cb479eb830ecebda0b8cc3")))
+                 "b9f2b3b9a5b9c72cf1416097b9941c4f275dae94")))
         (sha256
           (base32
-            "16vgg0xfv1xpkkwizcim1xp3ns9dzs4cln2d2lir4lyid8hp4x2p"))))
+            "0wh93yr455kj9lkzfnd0778cilv43yy7ynqzry3sv9p892nkfq1r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-embark emacs-avy))
     (arguments '(#:files ("avy-embark-collect.el")))
@@ -11053,17 +11053,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231208.635")
+    (version "20231208.1105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "a878347ebd20e4e410133f3547f16a925b7c6d16")))
+                 "5cf97cb67e52df80a5f3b30c888dbffd498ff9b8")))
         (sha256
           (base32
-            "1kcy97xisikjrzw57vcf28cy1ddyig3d3dkz1i8fg7ag6vrpakk8"))))
+            "0kdd4818bz1xf33bgywqmqwvdnsj1bwf1br2nqbf4xch1lcb9l9r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -18757,7 +18757,7 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231208.650")
+    (version "20231208.706")
     (source
       (origin
         (method git-fetch)
@@ -23378,17 +23378,17 @@
 (define-public emacs-difftastic
   (package
     (name "emacs-difftastic")
-    (version "20231018.1043")
+    (version "20231208.1407")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pkryger/difftastic.el.git")
                (commit
-                 "3e63dc1dd6eb7c2b7910d9b31a84fab7addaa7f3")))
+                 "1b233ef01cfd25b348377737f40a95909037a964")))
         (sha256
           (base32
-            "14za0r446pw3yby6kx8rfkaixx6lcx3blq2nv6l5rly3bkidprjs"))))
+            "06dg848d0d6b95ya6crvki0rqr8hmqsgm7f4qp69x16apjp9krkg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-magit))
@@ -26373,21 +26373,21 @@
 (define-public emacs-dpkg-dev-el
   (package
     (name "emacs-dpkg-dev-el")
-    (version "20230220.1635")
+    (version "20231208.521")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git")
                (commit
-                 "af9aad721cb263e495e2f77df458e9496549c04b")))
+                 "df7c02e06b022d3dcac39bb7ff8f52376cdaa8d2")))
         (sha256
           (base32
-            "1vqmi32n3yz4chrbi0473hhh4klxsh63qbydcl44xa91g3ly3vp5"))))
+            "0ly27v4x1a3r4a8cr5ac2js5bmh4r833zif45nygb0fwi51brhyy"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-debian-el))
     (home-page "unspecified")
-    (synopsis "Emacs modes for debian packaging")
+    (synopsis
+      "startup file for the elpa-dpkg-dev-el package")
     (description
       "Documentation at https://melpa.org/#/dpkg-dev-el")
     (license #f)))
@@ -47514,17 +47514,17 @@
 (define-public emacs-git-cliff
   (package
     (name "emacs-git-cliff")
-    (version "20231208.625")
+    (version "20231208.1315")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/git-cliff.el.git")
                (commit
-                 "b96f59217c55f2ed8a8b441acb6d67169582360b")))
+                 "6bd365c883f2ec68589818fdac6925185b8b2330")))
         (sha256
           (base32
-            "1incgbhwb8fhp3w5k04p8xcv07k3f4lwvvfcpdj407r96k9kijfx"))))
+            "14sp4z8ix0pvs5744ip79qh8vgvaxqs8qdmpnqvsz3r7chgww66f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/git-cliff.el")
@@ -66561,20 +66561,20 @@
 (define-public emacs-kanagawa-theme
   (package
     (name "emacs-kanagawa-theme")
-    (version "20231206.149")
+    (version "20231208.1115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meritamen/kanagawa-theme.git")
                (commit
-                 "78ccf6930336da98f248896af53ab0307c4d6459")))
+                 "835bd1f9d6aa6effdc2a90682cfd0ebf060a616e")))
         (sha256
           (base32
-            "1pcg3354wk2fxmc6kh37zvkwjq7yhl1m1f5sx1jjlpf3gfscr9q7"))))
+            "0kcqnahmiafhhalqff8cin11m7n2djah02l4fvzfb0wgzdc7cw2b"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/Meritamen/kanagawa-theme")
+      "https://github.com/Meritamen/emacs-kanagawa-theme")
     (synopsis
       "An elegant theme inspired by The Great Wave off Kanagawa by Katsushika Hokusa")
     (description
@@ -70869,17 +70869,17 @@
 (define-public emacs-lister
   (package
     (name "emacs-lister")
-    (version "20230204.1357")
+    (version "20231208.1350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/publicimageltd/lister.git")
                (commit
-                 "b256c254f670ebaf50134655fbe430025fff41ab")))
+                 "1ea85228e8f537734c51a440a3a65ae7de85bd77")))
         (sha256
           (base32
-            "151wn6g49w15bjnqbnq12ig7f9zdi5d1j21yadp0jvb9jjzk6jg1"))))
+            "1gj0rvnvx4r4c9gq4d47n2ir5q33p75iqvqrzz5iy9ibrqs91ik2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/publicimageltd/lister")
@@ -127586,17 +127586,17 @@
 (define-public emacs-whois
   (package
     (name "emacs-whois")
-    (version "20231106.1901")
+    (version "20231208.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-whois.git")
                (commit
-                 "93413908ec7d39a70700b4b97d3185b06ae69204")))
+                 "b9b50bf30f823489734f5706a76e518f3644d8d9")))
         (sha256
           (base32
-            "15jgfh7kh6d76hpwp41p91y6blclmrjdw01b1g83sj3v9ncnykhq"))))
+            "10vifn4svbbb79irjddrkxjgfmg8zb600qzrm2l3299dsya5vsn9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-whois")
