@@ -46897,17 +46897,17 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20230102.1714")
+    (version "20231209.26")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/gerrit.el.git")
                (commit
-                 "76cc426d62f1b4964159706eafa8f5b50b8427ea")))
+                 "8acf7416beec47cd09eae0dceb134f9bcf57b1d4")))
         (sha256
           (base32
-            "0wzb4z4hqx7n5nn7jsgzvjqxd65w9s6fnasz9mpkh9vfvv3zngjg"))))
+            "0jvr2wf57p371jkzp8bwj5qclz2fzd929lkhv9gql1kjjpy5qhbc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-s emacs-dash))
@@ -59511,7 +59511,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231206.636")
+    (version "20231208.2258")
     (source
       (origin
         (method url-fetch)
@@ -59521,7 +59521,7 @@
                ".tar"))
         (sha256
           (base32
-            "1xy6a6g1mssdcgry2lkb87q6pblazfqijadd6nvigk7ps5cf4bgp"))))
+            "0cz04icgda3mnis747szdw7jvjx5r42ilahxjn1jbnbk0cpky5l3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -64721,17 +64721,17 @@
 (define-public emacs-jest-test-mode
   (package
     (name "emacs-jest-test-mode")
-    (version "20220722.1947")
+    (version "20231209.618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rymndhng/jest-test-mode.git")
                (commit
-                 "3126c5c5c5632da639ea34867a7342d4410d78aa")))
+                 "248f9019522cea83c91e8689f9effc77e7e1679d")))
         (sha256
           (base32
-            "16cfikwzysng8wm1ihs5dhv59dx5rz85fx9d57dba87gcs0bsvdf"))))
+            "0jds51lwmbcfgxp4wh211wr7a8774jgx7k0pgdm505hcjwclmam0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rymndhng/jest-test-mode.el")
