@@ -15710,17 +15710,17 @@
 (define-public emacs-company
   (package
     (name "emacs-company")
-    (version "20231208.16")
+    (version "20231208.1730")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/company-mode/company-mode.git")
                (commit
-                 "ead3d00e62eca7cb8febce7516ed163516ae84e6")))
+                 "9c12b02620ed8a7ae5369fc90217f1c730e48fa6")))
         (sha256
           (base32
-            "029x4wf2z9i5shp23ahmdjyb63sljr5zj77471g57mjxpwrw1060"))))
+            "0g2qib7wdm4gs80z16hykvr2zwzf54h5drjz4bnjaznq64w7h514"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -26123,17 +26123,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20231206.1732")
+    (version "20231208.2011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "ec5c7c64735e6c6cf6b912ee69477a805744a325")))
+                 "ff26f26ea3d761375f5fc4070438fbd0f3473d33")))
         (sha256
           (base32
-            "02qymjhgdq3327nqagb7kcd9izz99ps9g87v9yn1inh9bnww94za"))))
+            "0ag8va9xwr61ra3nn53alggmdnw42x2z7820jyjqff39f5ziqszs"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -47514,17 +47514,17 @@
 (define-public emacs-git-cliff
   (package
     (name "emacs-git-cliff")
-    (version "20231208.1315")
+    (version "20231208.1700")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/git-cliff.el.git")
                (commit
-                 "6bd365c883f2ec68589818fdac6925185b8b2330")))
+                 "636415559042608c39a54bd792bcd73f809d2ad0")))
         (sha256
           (base32
-            "14sp4z8ix0pvs5744ip79qh8vgvaxqs8qdmpnqvsz3r7chgww66f"))))
+            "1bwkr4581x1fvna5fycv0qwnylajbladswi6w1vq800jcqhm3yk8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/git-cliff.el")
@@ -71143,17 +71143,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20231004.537")
+    (version "20231208.1803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "7c6cacd31c41e46b7af4e5d53467160c215a46c7")))
+                 "578c47e4084fbca4992a9be327d45a9e4ff0f33e")))
         (sha256
           (base32
-            "1vph9vv8g4l17m1hkwcs86nddk4kdjvdhlvk06962v2x8jy4lgqm"))))
+            "099hqhjwd3373q0gx5b4m4n81ln49fgnvmfanjgj4c7bqmi92nyv"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -84854,17 +84854,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20231203.1703")
+    (version "20231208.2150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "160863495b9cfb202ad0415e64a3bb459d7c6926")))
+                 "57168c8453c3a59d3fefb874ee57b133288c129d")))
         (sha256
           (base32
-            "09vx9yl34zxfm88iikh78qb9m81njzxx2n6h33wj4rnrlgwzb4z5"))))
+            "1a2vfqvhfchkgwj7m0a9xjl3mygj7jv3gwrjjqcxy9amldn853s8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -115961,17 +115961,17 @@
 (define-public emacs-super-save
   (package
     (name "emacs-super-save")
-    (version "20220531.1745")
+    (version "20231208.2213")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bbatsov/super-save.git")
                (commit
-                 "6f6512bc44b09f7187e58772892fa330f4518c12")))
+                 "21132222967f13c47e80b4f6b7cbf31c026a2712")))
         (sha256
           (base32
-            "1nbkx8hphszwn42g75f92n22zkp8kjl3pr0rbfpwdzbsla5lm2dz"))))
+            "0b9wgw4wnfq6lmi0kwz7cq31i0743v36k4s36r7a068c0zd8s7k4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bbatsov/super-save")
