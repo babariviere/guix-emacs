@@ -8162,17 +8162,17 @@
 (define-public emacs-binky
   (package
     (name "emacs-binky")
-    (version "20231206.429")
+    (version "20231209.1803")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/binky.el.git")
                (commit
-                 "8711a7ba7b9045ee2788c023a2076559cd95feb6")))
+                 "5e13f5844aab20006301476c077cc0155a27d36a")))
         (sha256
           (base32
-            "19j5nm0wcsrn4jj7fidx2qdf45ayp4bb1cr87zjwrcrs7kqd6lbw"))))
+            "0a1ddf68j4z2x54d0rxqqzi6v72zm33lqbykjsr0f929c2iqda6k"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/binky-mode")
@@ -11053,17 +11053,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231208.1105")
+    (version "20231209.2101")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "5cf97cb67e52df80a5f3b30c888dbffd498ff9b8")))
+                 "1558f8b1dea46fcd9c8c04739656ed0b8027c38a")))
         (sha256
           (base32
-            "0kdd4818bz1xf33bgywqmqwvdnsj1bwf1br2nqbf4xch1lcb9l9r"))))
+            "0xb888yc6lqj3s47zblibn6fq0v2dzsnliqyc4g8np1fh708fp6l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -28741,17 +28741,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231013.153")
+    (version "20231209.2313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "ee319cf87a7caaed52acbeb1b3ea00aa44d116b7")))
+                 "f85818a978c47020bd65e4c1924d324fa62bb2f3")))
         (sha256
           (base32
-            "0s0202adv19krb2qkk5dql49i76sgm5a1vls473qvdmd9f8pl38w"))))
+            "17xgfv2d22x9gy3sdhaflqzryrn8b56nkbmqs9vl26x057fqsdhh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -39079,17 +39079,17 @@
 (define-public emacs-finito
   (package
     (name "emacs-finito")
-    (version "20231119.2001")
+    (version "20231209.1912")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LaurenceWarne/finito.el.git")
                (commit
-                 "9884bd2eec0f6c4ee54a5d1c2117531552aceef6")))
+                 "15e5870843751bd3d7bb5e2bcafe4cb2d859706e")))
         (sha256
           (base32
-            "0az1zx65d9rqr8d4jcyh9318l7daki9xqnnf7v7gqa6d497v87jm"))))
+            "1chz9sa1x0rcrpnl998xzij1ac5ryllka9jn8w8bmslk1axdf5cg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -39740,17 +39740,17 @@
 (define-public emacs-flexoki-themes
   (package
     (name "emacs-flexoki-themes")
-    (version "20231129.1344")
+    (version "20231209.1938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/flexoki-emacs-theme.git")
                (commit
-                 "0311923c068b4f3c2b2a67e8559550a1b65d1403")))
+                 "156843cbb4b87fc2fa2d6a13269b3226394b1802")))
         (sha256
           (base32
-            "0w1c3pc72sl2vgpz6amr12jhb6if92yjr7353q23bm9wl7gn5630"))))
+            "10ih6mrna48nda59zk8yiq149fdm5pwzg6zwfwx56xrqn8d06m3a"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/crmsnbleyd/flexoki-emacs-theme")
@@ -44847,17 +44847,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20231107.2046")
+    (version "20231209.2121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "5dcca0e0c0378499b086543be2ec292ddd8beb5b")))
+                 "0d8eaad23cf7e64ac0412af3b5674330d7689f4b")))
         (sha256
           (base32
-            "1zfr4ci3vw7y6nq9j75smdga02nzqyrj08v35qd1i7j7kdpppp3l"))))
+            "0m4hwh3mnhjypwhqgm4na5ayawwd98cxi6pn56ylldmfnawc4nhm"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -64720,17 +64720,17 @@
 (define-public emacs-jest-test-mode
   (package
     (name "emacs-jest-test-mode")
-    (version "20231209.618")
+    (version "20231209.1754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rymndhng/jest-test-mode.git")
                (commit
-                 "248f9019522cea83c91e8689f9effc77e7e1679d")))
+                 "a397507d8bb41e4aa6b97994f1d7512e78d3dee3")))
         (sha256
           (base32
-            "0jds51lwmbcfgxp4wh211wr7a8774jgx7k0pgdm505hcjwclmam0"))))
+            "0m68sjvdjx0ky0x35rs4x8makd7mvnpc6kz4kmxxn28nj19pk899"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/rymndhng/jest-test-mode.el")
@@ -86194,17 +86194,17 @@
 (define-public emacs-org-anki
   (package
     (name "emacs-org-anki")
-    (version "20231120.1133")
+    (version "20231209.1447")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/eyeinsky/org-anki.git")
                (commit
-                 "05eed3539dda5303ba912abfc50e3be9d6811fe2")))
+                 "fd9864a90464ac76a1e034322c4476990e0a485a")))
         (sha256
           (base32
-            "0rjvw4zzy937r0347d9kpf4b88y9zrbalrdvdw63ig02q6jkjwli"))))
+            "1rf816h3h0s768l9m9k31az8p7d5dxf52m8mq20ar409cksckbjj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-request emacs-dash emacs-promise))
