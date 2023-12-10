@@ -3811,17 +3811,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20231202.16")
+    (version "20231209.2344")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "8f512dba3ee2eabae0dbfd8289b89d54c132cb87")))
+                 "efb9992c00e63b72f0474b19440be4666e95ebd1")))
         (sha256
           (base32
-            "1s24kqqafn722dr1zw4z8v0six8accjlkwm95rf0n1l5rxbfkdms"))))
+            "0fbd18sdix09db6kx9jml5rr8xai0ryjwzxa3ga2m1nd8adpazj1"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -28741,17 +28741,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231209.2313")
+    (version "20231210.705")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "f85818a978c47020bd65e4c1924d324fa62bb2f3")))
+                 "b4b775fa7a52d2bf50a0d7fb1a59a4de7f172538")))
         (sha256
           (base32
-            "17xgfv2d22x9gy3sdhaflqzryrn8b56nkbmqs9vl26x057fqsdhh"))))
+            "1mrlsx931gbdp742gbjai8c2nyvz76y8znrjiv6r6ihhsb9b4plx"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -50685,17 +50685,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231208.221")
+    (version "20231210.334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "3e361323d5b2b6dd54a24667edeeb9480bab197f")))
+                 "5c3b26aeece94c65ac605613c502767cc97478a5")))
         (sha256
           (base32
-            "1czisakcnncibyg8lk7iccrayym2s0hpbq1schdr83sqdhxx1dbb"))))
+            "17xf72js0q7zz2kqmc4ga6a6sdq5gl8w1lsn3v2bclv4l29ad0pi"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -88291,19 +88291,18 @@
 (define-public emacs-org-mpv-notes
   (package
     (name "emacs-org-mpv-notes")
-    (version "20231202.644")
+    (version "20231210.628")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bpanthi977/org-mpv-notes.git")
                (commit
-                 "9139b89325d1bd58c7d599c41ac1e0c60290f6c9")))
+                 "01d6d52a1f964e7bb61f0f65ac4fb2ccfa986f34")))
         (sha256
           (base32
-            "1d8cvx66jcbsh0zwb0p051vhc0lpyxidcpd9a4hqlpp2p0xmw7dh"))))
+            "1g33yhk0fa4wm4r5xzxasz4cd45anba9pks3cjl2zzdy8yf9xib2"))))
     (build-system melpa-build-system)
-    (propagated-inputs (list emacs-mpv))
     (home-page
       "https://github.com/bpanthi977/org-mpv-notes")
     (synopsis
