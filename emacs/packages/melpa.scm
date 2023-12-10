@@ -12043,17 +12043,17 @@
 (define-public emacs-cfn-mode
   (package
     (name "emacs-cfn-mode")
-    (version "20231203.904")
+    (version "20231210.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/worr/cfn-mode.git")
                (commit
-                 "d7171749866e2bb342336882fc287e68f5a9bf5c")))
+                 "b166948f55eac3debe498a87918ed3dbe4868117")))
         (sha256
           (base32
-            "02yj5jb0hr6mcg8xiv0a8d608s3bmz5k12biw5lhhsi45vwdwban"))))
+            "0m5nzdhpj0f7c1fbfi96fqlhs4mshh3jc0n1vs80zvc8mydiq94m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-s emacs-yaml-mode))
@@ -22332,17 +22332,17 @@
 (define-public emacs-decor
   (package
     (name "emacs-decor")
-    (version "20231129.2342")
+    (version "20231210.1247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/decor.git")
                (commit
-                 "65ceb45ff95453bd76c5b2b679cc4337ac970d24")))
+                 "b0c8dfee69c9c5fe54c82cfcb2638377eb744464")))
         (sha256
           (base32
-            "1jgq2xwjyijd6fhm5l0f4ag3y8s0l9s3gklds8m73ccvqf2lmjkd"))))
+            "01c65ppj2ygi5vbpgxyk15dbkl8ls8b00l66vd9i2gmkyj0pca93"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/KeyWeeUsr/decor")
     (synopsis "Modify visual decorations")
@@ -78127,17 +78127,17 @@
 (define-public emacs-mood-line
   (package
     (name "emacs-mood-line")
-    (version "20231209.1110")
+    (version "20231210.1309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jessieh/mood-line.git")
                (commit
-                 "4ecd41b9349334cc5030b0a425343cc36ba656e2")))
+                 "a15d166249f04b047a6136856e5be109357762d3")))
         (sha256
           (base32
-            "1y60j0p5zqc25x12hph3y9hlkqw4f29812z2130xk8yvn3acg4ra"))))
+            "1xvx26xbd0ylih6xyvwylzjl7z5dbw9sv828p5zykr6fg2kz9nb3"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/jessieh/mood-line")
