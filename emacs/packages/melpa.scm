@@ -11473,17 +11473,17 @@
 (define-public emacs-catppuccin-theme
   (package
     (name "emacs-catppuccin-theme")
-    (version "20231106.1241")
+    (version "20231211.1525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/catppuccin/emacs.git")
                (commit
-                 "b778bb48be7111e19f27dc99891b515074496f82")))
+                 "f614d630de48f08d51883b6c7d06e46627d37410")))
         (sha256
           (base32
-            "1nynlmwdzy1mgzx4jg3c7llffk19hixzk7bbsk6m1zhxgnsickqh"))))
+            "127nwf0kfns36pxy6xqmjmi6yky9867wbpixkki24yspbndzis61"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/catppuccin/emacs")
     (synopsis
@@ -18383,17 +18383,17 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20221014.2002")
+    (version "20231211.1221")
     (source
       (origin
         (method url-fetch)
         (uri (string-append
                "https://melpa.org/packages/consult-recoll-"
                version
-               ".el"))
+               ".tar"))
         (sha256
           (base32
-            "1ky1c4bg44mlixkw1jkl5swrg78fdym1f6w4qlpg97rlsa7nk230"))))
+            "1pm39dan993wgm24ngm3qmaia335gj7rnk1h8clbv84vvg892mjg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -23377,17 +23377,17 @@
 (define-public emacs-difftastic
   (package
     (name "emacs-difftastic")
-    (version "20231208.1407")
+    (version "20231211.1045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pkryger/difftastic.el.git")
                (commit
-                 "1b233ef01cfd25b348377737f40a95909037a964")))
+                 "546b074507e24e48e584816edfa00edee856f893")))
         (sha256
           (base32
-            "06dg848d0d6b95ya6crvki0rqr8hmqsgm7f4qp69x16apjp9krkg"))))
+            "1hxhbvi2gxhh6rwsiwyl89lj853d7iy0j52iq208qrjr87yw478x"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-magit))
@@ -65937,17 +65937,17 @@
 (define-public emacs-jtsx
   (package
     (name "emacs-jtsx")
-    (version "20231207.1049")
+    (version "20231211.1047")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/llemaitre19/jtsx.git")
                (commit
-                 "fef58fffcc44c5a961bc3684906b4823e614a81a")))
+                 "6fd074794c21e2dfd9774d02b081ebba6e853ebb")))
         (sha256
           (base32
-            "0qhx4vh0p1lnv0ljxr3la5l89k1s2rjvgl0wlj8klv5bgnkgjnha"))))
+            "1nbrf6jwln5k5xlpg47iwhjmz6ks2l7lww2j6v4b4w2r978w5qr9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/llemaitre19/jtsx")
     (synopsis "Extends default support for JSX/TSX")
@@ -110976,17 +110976,17 @@
 (define-public emacs-sis
   (package
     (name "emacs-sis")
-    (version "20231110.1642")
+    (version "20231211.1406")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/laishulu/emacs-smart-input-source.git")
                (commit
-                 "24bb3bca50c67855eba077aeeb3af86c18569aae")))
+                 "23f3fe8b95e0570b65aa21b9db57c906aa9f35fd")))
         (sha256
           (base32
-            "1gsqqcxmcx6v3ljwr7fj95ibxn8g798ycm4bi4v9n2ywqsn0kphk"))))
+            "1gc1z176nbc3hxx0wwid68bajbl1pwxllsmmsnpqx665zcn7qvnb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-terminal-focus-reporting))
@@ -116963,17 +116963,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231210.1924")
+    (version "20231211.1042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/keyweeusr/emacs-syncthing.git")
                (commit
-                 "260507c37b9cfcbca2e7f8d9153aad0b176703d2")))
+                 "74d5ae77f063c79a53b91b4fe0c26a9e4c5282f0")))
         (sha256
           (base32
-            "0gjw6acm30nl268xh5gxn0wgq243ks6jmlqa8ylq8bid6pravfi6"))))
+            "1722cvwnj23pafjsddr0bl6xac8fic7fs11yzldibbv0jqsqxn4r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
@@ -121719,17 +121719,17 @@
 (define-public emacs-treesit-auto
   (package
     (name "emacs-treesit-auto")
-    (version "20231130.1716")
+    (version "20231211.1229")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/renzmann/treesit-auto.git")
                (commit
-                 "cfde372ca1be3c216e3b52dd7b58a7957b67e25f")))
+                 "07a8f924cd4f020a2eb32b45d8543af9556f355d")))
         (sha256
           (base32
-            "10sn5x109i8bili5kvpy8drk5aks5wzj0268xs1nxrvy8hmgfzf3"))))
+            "1rq0zm4kw452hi94jk4g8cjm8bqcn0md1l06mabnbh084p8kpmkv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/renzmann/treesit-auto.git")
@@ -130051,17 +130051,17 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20230928.103")
+    (version "20231211.1451")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/yaml.el.git")
                (commit
-                 "fe08b8f5307af1e7b876ece64b7303213f04b63c")))
+                 "70c4fcead97e9bd6594e418c922ae769818f4245")))
         (sha256
           (base32
-            "10sdcihgd8yvdf7yab5fsvq65amp25msjh7mbrxgk3w4zc96fxzi"))))
+            "0qq9jr1ihk1b5wfvppyvb8c2pq2gma9wysggd22iln4nqz2mjc81"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/zkry/yaml.el")
     (synopsis "YAML parser for Elisp")
