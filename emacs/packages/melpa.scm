@@ -115191,17 +115191,17 @@
 (define-public emacs-stgit
   (package
     (name "emacs-stgit")
-    (version "20231008.2236")
+    (version "20231211.443")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stacked-git/stgit.git")
                (commit
-                 "f9b9280b570cb13696493ab4d39d64736edd2ca3")))
+                 "0b83b2f09d8b7a4b9c348c8f9dc458f45455403a")))
         (sha256
           (base32
-            "0cgv7chxqkjaqmzi4691in26j2fm8r0vanw8xzb9cqnz6350wvvj"))))
+            "0pn2wh4i5dk70yajhv50ib9nckcnccipd1sxckk7c42dfsbq1hgh"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("contrib/stgit.el")))
     (home-page "http://stacked-git.github.io")
