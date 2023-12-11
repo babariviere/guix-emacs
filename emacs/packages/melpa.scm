@@ -12303,17 +12303,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231205.1326")
+    (version "20231210.1931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "a21c64daffbefab993f83cacec108fb56389f058")))
+                 "edf2d046c116897ce06e85dc82e198a7460e57f6")))
         (sha256
           (base32
-            "1dkijpmni8vyz6f809s2mj7nwl0g86mn4jg70aj49kp95fyar3dw"))))
+            "1zs9sxcnw57xq6lr6ckrl3gbr2dy440idv980f11wb1r8d2l88ii"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -26683,6 +26683,28 @@
       "Documentation at https://melpa.org/#/dtb-mode")
     (license #f)))
 
+(define-public emacs-dtext-mode
+  (package
+    (name "emacs-dtext-mode")
+    (version "20231120.1606")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/JohnDevlopment/dtext-mode.el.git")
+               (commit
+                 "8e1bf1f8ef2a0e8b4806cd8b0e876a4edde78094")))
+        (sha256
+          (base32
+            "0j9x1i7ir5w3mcz8aaqw02lxsci8lfr8k8qx83w2rzb4vj0mlmlb"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/JohnDevlopment/dtext-mode.el")
+    (synopsis "Major mode for Danbooru DText")
+    (description
+      "Documentation at https://melpa.org/#/dtext-mode")
+    (license #f)))
+
 (define-public emacs-dtk
   (package
     (name "emacs-dtk")
@@ -39240,17 +39262,17 @@
 (define-public emacs-fish-completion
   (package
     (name "emacs-fish-completion")
-    (version "20191103.1210")
+    (version "20231028.2123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://gitlab.com/Ambrevar/emacs-fish-completion.git")
+               (url "https://github.com/LemonBreezes/emacs-fish-completion.git")
                (commit
-                 "10384881817b5ae38cf6197a077a663420090d2c")))
+                 "d34d0b96fde63feedf13c4288183d8d4d4d748cf")))
         (sha256
           (base32
-            "17lqip1i1rrsvxzz4bx9rqf1fvwd3hriwg3sj6qxmfc8pylnp37q"))))
+            "0i31k24cp6sk974yb4ng3icy234farh5333lcmv2rd8pss4asvmp"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/Ambrevar/emacs-fish-completion")
@@ -46896,17 +46918,17 @@
 (define-public emacs-gerrit
   (package
     (name "emacs-gerrit")
-    (version "20231209.26")
+    (version "20231210.2222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thisch/gerrit.el.git")
                (commit
-                 "8acf7416beec47cd09eae0dceb134f9bcf57b1d4")))
+                 "abc40004fd2715497d964ba3d38f7a702f22c3bf")))
         (sha256
           (base32
-            "0jvr2wf57p371jkzp8bwj5qclz2fzd929lkhv9gql1kjjpy5qhbc"))))
+            "1g84ghsj2y29qyr7wabrsrk7bdvpjrbbhnc03m5fmlzpkzdlflhx"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-s emacs-dash))
@@ -61898,6 +61920,29 @@
       "Documentation at https://melpa.org/#/ini-mode")
     (license #f)))
 
+(define-public emacs-init-dir
+  (package
+    (name "emacs-init-dir")
+    (version "20231126.457")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/chaosemer/init-dir.git")
+               (commit
+                 "f8c05a011279edfe904522fec8614702aad5ef78")))
+        (sha256
+          (base32
+            "00qqdr5xgna241i33zc4pvbb2wc01j2iqwnw2wfl09mks8rqblkm"))))
+    (build-system melpa-build-system)
+    (home-page
+      "http://github.com/chaosemer/init-dir")
+    (synopsis
+      "Init directory instead of just a single file")
+    (description
+      "Documentation at https://melpa.org/#/init-dir")
+    (license #f)))
+
 (define-public emacs-init-loader
   (package
     (name "emacs-init-loader")
@@ -68975,17 +69020,17 @@
 (define-public emacs-latex-unicode-math-mode
   (package
     (name "emacs-latex-unicode-math-mode")
-    (version "20170123.1816")
+    (version "20231210.2234")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Christoph-D/latex-unicode-math-mode.git")
                (commit
-                 "eb4a5c9f9b00a58d2ca80f90782a851f4c8497b8")))
+                 "af6a28c3c7e8652f1e9c124beeccaa81133b1d88")))
         (sha256
           (base32
-            "1bsqaz14mb092cvq8fk4kkcgifhbpmnndlvvz8qhyfh8i5i92i8b"))))
+            "0g3qnixpabw6yhf54ibkgrn2m8kflxslb6nj2ga4136m5dg0fw01"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "*.sty")))
     (home-page
@@ -73373,17 +73418,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231204.1839")
+    (version "20231210.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "f25d10351fc1d44282dad45caaf99cb19913eda4")))
+                 "041f034c6d4974ff4370fc67a0eea9970665b3bc")))
         (sha256
           (base32
-            "03gccqh70yvkia903dwvgnm5i4f08rw9gm4pwbnmhr9qky500zw2"))))
+            "1hpy1a9bqk574mx87ifa3x3h9nh2v4qf0yla7ji89glx3s3bcvqf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73414,17 +73459,17 @@
 (define-public emacs-magit-annex
   (package
     (name "emacs-magit-annex")
-    (version "20231010.425")
+    (version "20231210.2140")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit-annex.git")
                (commit
-                 "abe528633df7ea41b16e5505ba52e5fe05bebf3d")))
+                 "056f0d4462cdccbd7bb7589994da7fef9de766da")))
         (sha256
           (base32
-            "0hdfcrfwq29wmyfd1svpg1kxgmkdqwqqv485nixxjwhz0b1vw0d2"))))
+            "1fwy7q03d8q1hnwnd86pygpf9l4lgfgslp6claxsyp840ibrxq5z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit))
     (home-page
@@ -73816,17 +73861,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20231204.1903")
+    (version "20231210.1539")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "f25d10351fc1d44282dad45caaf99cb19913eda4")))
+                 "041f034c6d4974ff4370fc67a0eea9970665b3bc")))
         (sha256
           (base32
-            "03gccqh70yvkia903dwvgnm5i4f08rw9gm4pwbnmhr9qky500zw2"))))
+            "1hpy1a9bqk574mx87ifa3x3h9nh2v4qf0yla7ji89glx3s3bcvqf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -85631,6 +85676,30 @@
       "Documentation at https://melpa.org/#/on-screen")
     (license #f)))
 
+(define-public emacs-one
+  (package
+    (name "emacs-one")
+    (version "20231205.1423")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/tonyaldon/one.el.git")
+               (commit
+                 "fa52cf0144f89eabee06f598b021a37087c69670")))
+        (sha256
+          (base32
+            "1qk7xcca7inkwmdwcai4j43pb2nr8s89c4s0hjmc1bp3grryqrqj"))))
+    (build-system melpa-build-system)
+    (propagated-inputs
+      (list emacs-jack emacs-htmlize))
+    (home-page "https://github.com/tonyaldon/one.el")
+    (synopsis
+      "Static Site Generator for org-mode users")
+    (description
+      "Documentation at https://melpa.org/#/one")
+    (license #f)))
+
 (define-public emacs-one-themes
   (package
     (name "emacs-one-themes")
@@ -91194,6 +91263,28 @@
     (synopsis "Org tree navigation using helm")
     (description
       "Documentation at https://melpa.org/#/orgnav")
+    (license #f)))
+
+(define-public emacs-orgnote
+  (package
+    (name "emacs-orgnote")
+    (version "20231204.1515")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/Artawower/orgnote.el.git")
+               (commit
+                 "3ea51324172a80ce0e50f18209a1c1a628debcc4")))
+        (sha256
+          (base32
+            "0c3dfxvg61yzykbcfx6p7n17h1jkf99izn74yv96qn8s38bfbzp9"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/Artawower/orgnote.el")
+    (synopsis "Sync org roam notes with OrgNote app")
+    (description
+      "Documentation at https://melpa.org/#/orgnote")
     (license #f)))
 
 (define-public emacs-orgstrap
@@ -102633,17 +102724,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231207.1950")
+    (version "20231209.1841")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "e4a5dffe2e2e381fbdcc082c707b08d597e3d0a0")))
+                 "e8cbeff9553159f3fbe6760a119d83239eb5ff72")))
         (sha256
           (base32
-            "151pw5sgn649lg65p4gyygwb47jfcw0n7k0bnb1r624d3wzn046v"))))
+            "0ppkn1sskr4ibvzf1mma4jisfsxikns5dls6m4scf8lgq8sqvw2z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109526,17 +109617,17 @@
 (define-public emacs-shell-maker
   (package
     (name "emacs-shell-maker")
-    (version "20231112.442")
+    (version "20231210.1932")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "bca784daa620767b5e57a5020289cb547c40f8b3")))
+                 "edf2d046c116897ce06e85dc82e198a7460e57f6")))
         (sha256
           (base32
-            "1gzzfsw0bdyqbq6fgfsl0vwy0z639618sq74kdvk0hnssrbx1f01"))))
+            "1zs9sxcnw57xq6lr6ckrl3gbr2dy440idv980f11wb1r8d2l88ii"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("shell-maker.el")))
     (home-page
@@ -112690,17 +112781,17 @@
 (define-public emacs-snakemake-mode
   (package
     (name "emacs-snakemake-mode")
-    (version "20230418.147")
+    (version "20231210.2008")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kyleam/snakemake-mode.git")
                (commit
-                 "0c4c5b6a25735ac025ce124ace9f0259eb5198e9")))
+                 "4ad41da69e4b95b38a3d3273874c44caab20cc56")))
         (sha256
           (base32
-            "003sw5qxk0y4qn88fhd963gvlb6i7pa8g12hapv6g1l7xycx9lrz"))))
+            "170jiqkzbx73sw9qnl234l4p11jd8d44lk8s4phcabh3hw5jhrfg"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.kyleam.com/snakemake-mode/about")
@@ -116867,6 +116958,28 @@
       "Synchronize the recent files list between Emacs instances")
     (description
       "Documentation at https://melpa.org/#/sync-recentf")
+    (license #f)))
+
+(define-public emacs-syncthing
+  (package
+    (name "emacs-syncthing")
+    (version "20231210.1924")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/keyweeusr/emacs-syncthing.git")
+               (commit
+                 "260507c37b9cfcbca2e7f8d9153aad0b176703d2")))
+        (sha256
+          (base32
+            "0gjw6acm30nl268xh5gxn0wgq243ks6jmlqa8ylq8bid6pravfi6"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/KeyWeeUsr/emacs-syncthing")
+    (synopsis "Client for Syncthing")
+    (description
+      "Documentation at https://melpa.org/#/syncthing")
     (license #f)))
 
 (define-public emacs-synonymous
