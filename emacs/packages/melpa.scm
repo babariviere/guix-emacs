@@ -21177,17 +21177,17 @@
 (define-public emacs-daemons
   (package
     (name "emacs-daemons")
-    (version "20231030.1710")
+    (version "20231212.1324")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cbowdon/daemons.el.git")
                (commit
-                 "c329ca135e3e33a4bd6d898d2e803a6ca4e64b47")))
+                 "6b6b97b7bac3040cfc58ea5ca7bd9dc9003068fb")))
         (sha256
           (base32
-            "0b7pml68w9v0qzi492470awdzy670mblw4459xyyyzj9p978lj8b"))))
+            "1ay1dchhnq1kjp8ygpdimylrnwwacdpxnfnllgwcps9w9cwslipx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-compat))
     (home-page
@@ -37769,17 +37769,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20230823.1159")
+    (version "20231212.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "ab3ee3811c53f9c2144ff45130361f3da242ffa2")))
+                 "17eefb9973922235f9a3bea5a8aac722efe75ec9")))
         (sha256
           (base32
-            "07jsgq8jx1dxwlij61pbzsmlb047jsbk1ssr1d8301kssaa9qls8"))))
+            "0wg64jirfmg8kqr21zqi51zpqpp1r6051xdmnghckrrghghwhh22"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -61923,17 +61923,17 @@
 (define-public emacs-init-dir
   (package
     (name "emacs-init-dir")
-    (version "20231126.457")
+    (version "20231212.1542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chaosemer/init-dir.git")
                (commit
-                 "f8c05a011279edfe904522fec8614702aad5ef78")))
+                 "fa7ada3a52e203c2aeb1546a61a71416fdf2f65d")))
         (sha256
           (base32
-            "00qqdr5xgna241i33zc4pvbb2wc01j2iqwnw2wfl09mks8rqblkm"))))
+            "0ica7fjydbvgp1caijvkgph5rw8yrcb2y0iwxqbwyibsw7wplcf3"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/chaosemer/init-dir")
@@ -76789,17 +76789,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231206.1617")
+    (version "20231212.1334")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "228cd1ca3433412347509ec2c6c065c5edfc2954")))
+                 "3c6030944ca32c9d9144660e4e497c4f26520851")))
         (sha256
           (base32
-            "1f6p3bay7j4wqvx0y67rzgrc4j3sr6wrjps0j2nawa6xk86hjcmj"))))
+            "0c412wsl30bdnw7y7x0r24xpiqf8r0g1wkgg98fjf3nhx2hxqyld"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -77810,7 +77810,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231209.837")
+    (version "20231212.1030")
     (source
       (origin
         (method url-fetch)
@@ -77820,7 +77820,7 @@
                ".tar"))
         (sha256
           (base32
-            "1ll60m3132gbhay81psbld5kvlmv2d59z9l2swq8nwl1z73wixaa"))))
+            "1l9ph8mxrrpghqjf56wrmivr1920bzgyyv8z2j7ba246g663drpf"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -89798,17 +89798,17 @@
 (define-public emacs-org-side-tree
   (package
     (name "emacs-org-side-tree")
-    (version "20231003.2014")
+    (version "20231212.729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/org-side-tree.git")
                (commit
-                 "53787a115d3d4836ea28c4a4abbb4ac4443ab535")))
+                 "2680c35f98880bb576bd8b2425c8b45ca3412af6")))
         (sha256
           (base32
-            "0bmqym02dpqcsc9dm86sxd46kb75jy9zd3k6a0lygxryfc07nrhj"))))
+            "05rm30696sdy217m4il1g62qpin0r3pkzpfljhi0yfaa2ymmv0p1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/localauthor/org-side-tree")
@@ -91572,17 +91572,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231130.2344")
+    (version "20231212.856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "74bf96638c08b87c5a1621e4dcbb992b2851eb3b")))
+                 "37b6124a3d4c580c544bd4d17079a38551bc1710")))
         (sha256
           (base32
-            "19srrwjcbcd9dag79k0b16d2285rzsxsiv4492ijln4g04qra4zj"))))
+            "01gx6r0mrr0b4hwafr1z0lh6hwcspmfkvpqp14qlj6fmp1rxv3iw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -101987,17 +101987,17 @@
 (define-public emacs-python-mode
   (package
     (name "emacs-python-mode")
-    (version "20230702.625")
+    (version "20231210.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/python-mode-devs/python-mode.git")
                (commit
-                 "c60a675aac83505f1f664410dce3b4e64eef37a8")))
+                 "2a237149267ff26b45be53e031249acc649d53fa")))
         (sha256
           (base32
-            "1dbb1rg3r30yfllxvpnximy1rqgbyb6m4saf8gql9s7hyidbri6q"))))
+            "02zg76qqmb4wspg4wr99rq6ck432rx9pm0ciq2kg3d46c3zqh3kq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -106219,17 +106219,17 @@
 (define-public emacs-ros
   (package
     (name "emacs-ros")
-    (version "20231016.1402")
+    (version "20231212.729")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mbeutelspacher/ros.el.git")
                (commit
-                 "aaf32cde6835826551f2b73e4dc8b63d0ff26eb0")))
+                 "66e0cc154dc7d8ae105f2c95ed9f6a16445945d0")))
         (sha256
           (base32
-            "1fy4rbz9101vj8jla0l0f5dqsxn8bx2b0ccmrvsw13sd5rf63akv"))))
+            "1c5c8678vclr7z9jgfyr67cz77ny810vybimx3bgxflanh9w102a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-s
