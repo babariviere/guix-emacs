@@ -17906,17 +17906,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231206.2111")
+    (version "20231211.2102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "9c7dbbe4d626987e40d7a157430021e13a6906bd")))
+                 "3a337cd9713cf47d9381182debf40ba2123795c1")))
         (sha256
           (base32
-            "0dxca4isjrja3ps56qpy4cn393q763xs4ssyw80gh4y8f8n7y5dw"))))
+            "1zdr630hw07pfgxxpyf7lczwc22105pai28svcyb983jrh08y7wq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -61627,17 +61627,17 @@
 (define-public emacs-inf-ruby
   (package
     (name "emacs-inf-ruby")
-    (version "20231123.2226")
+    (version "20231211.1640")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/nonsequitur/inf-ruby.git")
                (commit
-                 "1d5052806b61fc635fc2de22afae85140a56f37e")))
+                 "8116b3b8336819a9838dd73e6926b5ba6d57c05e")))
         (sha256
           (base32
-            "0aga5wkpf5ksckxwbz9ql45sxxi03spibb4yhz7iib6lwmqi57wq"))))
+            "043ml560z69rlgw60w7m03r6cdwp8gfi1zs38qykg2yi98l6gg3x"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/nonsequitur/inf-ruby")
@@ -73213,17 +73213,17 @@
 (define-public emacs-macports
   (package
     (name "emacs-macports")
-    (version "20231104.139")
+    (version "20231211.1430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/amake/macports.el.git")
                (commit
-                 "e70bdc860a047cdd22f0b6f3edea06adc94d0d7f")))
+                 "bbc42883bfe40ff7b6ae179939c75fe8f51fd0fa")))
         (sha256
           (base32
-            "0izgvmz5xz65s6g7zpllma03hjcgzwc7icbcvfljvsn8mk01zp8b"))))
+            "1hnrq0df04yiiclp6q6i395y8gsq22fmh9mrxibsvx18i5nwf055"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/amake/macports.el")
@@ -84898,17 +84898,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20231208.2150")
+    (version "20231211.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "57168c8453c3a59d3fefb874ee57b133288c129d")))
+                 "56f686176b88696332ace3c4db4989161673d625")))
         (sha256
           (base32
-            "1a2vfqvhfchkgwj7m0a9xjl3mygj7jv3gwrjjqcxy9amldn853s8"))))
+            "1f030qm2sn39hlrprdc6mq2zbfmv9ivhg5fnyzycydwd58y4klf6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -91268,21 +91268,21 @@
 (define-public emacs-orgnote
   (package
     (name "emacs-orgnote")
-    (version "20231204.1515")
+    (version "20231211.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/orgnote.el.git")
                (commit
-                 "3ea51324172a80ce0e50f18209a1c1a628debcc4")))
+                 "0919f9fd05b83870b8a7073eb94f77199e681241")))
         (sha256
           (base32
-            "0c3dfxvg61yzykbcfx6p7n17h1jkf99izn74yv96qn8s38bfbzp9"))))
+            "1p23qas9kdycp0l634a74a6h039ccg6f6maqqdi49kp9mwlsd1p9"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Artawower/orgnote.el")
-    (synopsis "Sync org roam notes with OrgNote app")
+    (synopsis "Sync org-roam notes with OrgNote app")
     (description
       "Documentation at https://melpa.org/#/orgnote")
     (license #f)))
@@ -102724,17 +102724,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231209.1841")
+    (version "20231211.1724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "e8cbeff9553159f3fbe6760a119d83239eb5ff72")))
+                 "e149e3c920d63db6e0e9cc42f45c67f94a78a2b7")))
         (sha256
           (base32
-            "0ppkn1sskr4ibvzf1mma4jisfsxikns5dls6m4scf8lgq8sqvw2z"))))
+            "1wx6mjlfn49yckzifssymkw5lq2z1xbb65br23gfb12w13qg1cg5"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -110976,7 +110976,7 @@
 (define-public emacs-sis
   (package
     (name "emacs-sis")
-    (version "20231211.1406")
+    (version "20231211.1602")
     (source
       (origin
         (method git-fetch)
@@ -110988,8 +110988,6 @@
           (base32
             "1gc1z176nbc3hxx0wwid68bajbl1pwxllsmmsnpqx665zcn7qvnb"))))
     (build-system melpa-build-system)
-    (propagated-inputs
-      (list emacs-terminal-focus-reporting))
     (home-page
       "https://github.com/laishulu/emacs-smart-input-source")
     (synopsis
@@ -116094,17 +116092,17 @@
 (define-public emacs-surround
   (package
     (name "emacs-surround")
-    (version "20231204.1418")
+    (version "20231211.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mkleehammer/surround.git")
                (commit
-                 "1fbe4dbe194129e95b286b8cbfa2bce43e4c29e4")))
+                 "5c6e4ba9a4540fbcebfe6d21363179a15bc4ee9e")))
         (sha256
           (base32
-            "13lyqb43qs6w3yfwsyy1g1prcxh2k0y148sgipf72bc921vkcyai"))))
+            "1fcr9jbvmh3vaabk0bjnczkli594vw5mblc5awzib672p288pwij"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mkleehammer/surround")
@@ -119348,17 +119346,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20231204.1403")
+    (version "20231210.1733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "53c013aef9db921b7777a1dc03e4a6884730c25e")))
+                 "6501ea963de067150ecde211d4cc09cb7220357b")))
         (sha256
           (base32
-            "0qdpcngsmvl2lrfg4a54zjj0yp9dfr3335p0phf8r4z225fkzwsj"))))
+            "01lks4glj5cx06hzxwlln1a52agmhbrh16y59ikfaalh8inkj6hj"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
@@ -130051,7 +130049,7 @@
 (define-public emacs-yaml
   (package
     (name "emacs-yaml")
-    (version "20231211.1451")
+    (version "20231211.1501")
     (source
       (origin
         (method git-fetch)
