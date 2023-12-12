@@ -26071,17 +26071,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231205.859")
+    (version "20231212.210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "c547ae3b76c9e045c12d31cb95e66cfb0440412a")))
+                 "e521d32c2d670dc664424857e3fc18a37f0728f6")))
         (sha256
           (base32
-            "1sq502ln4zxjy4ph3xlqgaf3f9jcagm3p9kx76bds66wfw13x8l3"))))
+            "121pszm4ajhdwxa2wnngdc3gfqmb49qq3jdlshdvyj9zas1wc2wn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
