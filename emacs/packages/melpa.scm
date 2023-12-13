@@ -13384,17 +13384,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20231126.851")
+    (version "20231212.1538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "b704e7d72e9c4d7d221e2ac92ce8e203698e3d2d")))
+                 "0b36ffe77319edb817a56ad9d94518092d60c052")))
         (sha256
           (base32
-            "0rbcjl0yvvx5jmwm3l23cs1xqdll1k0y93njz556nh7a4ni2prmq"))))
+            "1rkwl9gg4jzjqzl4dcazv2n130g4qx36pbsh7qab1n3kknfwnni8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -35021,17 +35021,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20231106.1213")
+    (version "20231212.2217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "c4f95fd9ec284a8284405f84102bfdb74f0ee22f")))
+                 "4b30e1eba4abcb94bbf4a186028ca97e54603b18")))
         (sha256
           (base32
-            "07frgwzj6jfrcln6vc4c0pahgfrbrky50gz3mzck781xpmvkhwj9"))))
+            "1nj60fg0qrxk9qzw8c1q01mwwsmpk6sdsw8yrx3bn0lpxakhspry"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -61923,17 +61923,17 @@
 (define-public emacs-init-dir
   (package
     (name "emacs-init-dir")
-    (version "20231212.1542")
+    (version "20231212.1718")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chaosemer/init-dir.git")
                (commit
-                 "fa7ada3a52e203c2aeb1546a61a71416fdf2f65d")))
+                 "047cdc0bf9669e38508c76ba3ff26a0cd91a290d")))
         (sha256
           (base32
-            "0ica7fjydbvgp1caijvkgph5rw8yrcb2y0iwxqbwyibsw7wplcf3"))))
+            "0n5ps3bi0kgxgvylafqrpnmvcn728yxhiqgbmv22rffy89rs644d"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/chaosemer/init-dir")
@@ -77313,17 +77313,17 @@
 (define-public emacs-mlscroll
   (package
     (name "emacs-mlscroll")
-    (version "20231124.336")
+    (version "20231212.1936")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jdtsmith/mlscroll.git")
                (commit
-                 "01ea3f85c3bd58f9c3d286947272ea69bd7db69e")))
+                 "5dedca9c4858e715a657abbd2bbd3bbea47a760f")))
         (sha256
           (base32
-            "0cb4ijfw76890mpv1nylxr0nyr2fvn99dy228azk2k56fnw6y2q2"))))
+            "0sss51vs3bs4agl36kv19vbyk5czr69mcb7bzsinx45vwh23ycxh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jdtsmith/mlscroll")
@@ -113788,17 +113788,17 @@
 (define-public emacs-spanish-holidays
   (package
     (name "emacs-spanish-holidays")
-    (version "20230626.805")
+    (version "20231212.2107")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/gnuhack/spanish-holidays.git")
                (commit
-                 "26d552ae71f670dc966a3b7b7614d1622bce9f38")))
+                 "cf892251468e6ba38c259f759bf31e7f9ad1c036")))
         (sha256
           (base32
-            "1rhzcs5zm3z09kmwf2hmhq8sl3vf5qclb5j7lyazr4hmg52f4k22"))))
+            "0sjrzifbw0p13bl9lvwim5phhbwa7a868pzs6nxqhvxz88lx72bw"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/gnuhack/spanish-holidays")
@@ -127695,17 +127695,17 @@
 (define-public emacs-whois
   (package
     (name "emacs-whois")
-    (version "20231208.1509")
+    (version "20231212.1853")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-whois.git")
                (commit
-                 "b9b50bf30f823489734f5706a76e518f3644d8d9")))
+                 "6030a2fad9df7e2668bfd9d4d7a8e633c4ceaa9a")))
         (sha256
           (base32
-            "10vifn4svbbb79irjddrkxjgfmg8zb600qzrm2l3299dsya5vsn9"))))
+            "0y2nnv4r3jjkpz3gc3gb0qj3kh93k3wl4hapq1n8zf3135qa535n"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-whois")
