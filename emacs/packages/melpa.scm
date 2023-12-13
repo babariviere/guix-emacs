@@ -21245,17 +21245,17 @@
 (define-public emacs-dall-e-shell
   (package
     (name "emacs-dall-e-shell")
-    (version "20231209.1215")
+    (version "20231212.2355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "354ad6bae13a1a7323d5450aae94bef576e9998c")))
+                 "009fbf04ffb3dc89b6dc3729ac95b1c201c0a061")))
         (sha256
           (base32
-            "09rb8vj9mmyrgwr46rn2jvq5v3yir02df01x50460gssfp7iz1ya"))))
+            "1phqiillzlkvmsq0qb4cq55cvvnqsr93fhknlgycgfzi7hrqg3x2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("dall-e-shell.el")))
@@ -59532,7 +59532,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231208.2258")
+    (version "20231213.633")
     (source
       (origin
         (method url-fetch)
@@ -59542,7 +59542,7 @@
                ".tar"))
         (sha256
           (base32
-            "0cz04icgda3mnis747szdw7jvjx5r42ilahxjn1jbnbk0cpky5l3"))))
+            "101i5v0446hp8902y3q5p8qhajg4lzf77jc77665gzgg3yj435fs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -66605,20 +66605,20 @@
 (define-public emacs-kanagawa-theme
   (package
     (name "emacs-kanagawa-theme")
-    (version "20231208.1115")
+    (version "20231213.342")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/meritamen/kanagawa-theme.git")
+               (url "https://github.com/meritamen/emacs-kanagawa-theme.git")
                (commit
-                 "835bd1f9d6aa6effdc2a90682cfd0ebf060a616e")))
+                 "5806cf0040bc44eae54eefb4fc3909f1bb89e933")))
         (sha256
           (base32
-            "0kcqnahmiafhhalqff8cin11m7n2djah02l4fvzfb0wgzdc7cw2b"))))
+            "1p5qy4aiv9sgbaxy9aa4jxb5xcr6kfzmby4gapqq0p6rlhm1snca"))))
     (build-system melpa-build-system)
     (home-page
-      "https://github.com/Meritamen/emacs-kanagawa-theme")
+      "https://github.com/meritamen/emacs-kanagawa-theme")
     (synopsis
       "An elegant theme inspired by The Great Wave off Kanagawa by Katsushika Hokusa")
     (description
@@ -73418,17 +73418,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231210.1539")
+    (version "20231213.48")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "041f034c6d4974ff4370fc67a0eea9970665b3bc")))
+                 "b187753717b511ce0c732ef1e277b55253d1cb19")))
         (sha256
           (base32
-            "1hpy1a9bqk574mx87ifa3x3h9nh2v4qf0yla7ji89glx3s3bcvqf"))))
+            "1i7x9q3lf6rzwizji2zsh422ihww8m0saqd2bs7w6w46kxb9xldk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -73861,17 +73861,17 @@
 (define-public emacs-magit-section
   (package
     (name "emacs-magit-section")
-    (version "20231210.1539")
+    (version "20231213.48")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "041f034c6d4974ff4370fc67a0eea9970665b3bc")))
+                 "b187753717b511ce0c732ef1e277b55253d1cb19")))
         (sha256
           (base32
-            "1hpy1a9bqk574mx87ifa3x3h9nh2v4qf0yla7ji89glx3s3bcvqf"))))
+            "1i7x9q3lf6rzwizji2zsh422ihww8m0saqd2bs7w6w46kxb9xldk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-dash))
@@ -76488,17 +76488,17 @@
 (define-public emacs-meyvn
   (package
     (name "emacs-meyvn")
-    (version "20221206.2219")
+    (version "20231213.230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielsz/meyvn-el.git")
                (commit
-                 "493e652b8fffcbed226f69a2ea82e6f9fc51ab08")))
+                 "3afb0a4283afd4f63ef7fdd48eb5da972421fd7a")))
         (sha256
           (base32
-            "1k5r4k2l31vxn7cmfl2ijzlay4klyr66ljzp3c779mz967f0sf5h"))))
+            "1flxvaj8j5kg4r0cvns8z1xixgvsavq1i27z28j97m8dmndihihf"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-cider
@@ -77810,7 +77810,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231212.1030")
+    (version "20231213.739")
     (source
       (origin
         (method url-fetch)
@@ -77820,7 +77820,7 @@
                ".tar"))
         (sha256
           (base32
-            "1l9ph8mxrrpghqjf56wrmivr1920bzgyyv8z2j7ba246g663drpf"))))
+            "1iq1xj36hlmdsknnxnr3w5553grbhsbbnsfyc0gw475cswhr5nc9"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -90753,17 +90753,17 @@
 (define-public emacs-org-web-tools
   (package
     (name "emacs-org-web-tools")
-    (version "20231125.2302")
+    (version "20231213.53")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-web-tools.git")
                (commit
-                 "624e7b4770adca566c78e4185994de8305c7f923")))
+                 "25045836b46b234c3416e207ab0a59d021716cce")))
         (sha256
           (base32
-            "0c6f4v57vbxll1hf47wa4ylw2zgizk2y7wymzax5d4ak18w6map7"))))
+            "1ii77c22qqmp10hdr7m73126xdhc5538cn853451gh6gm00vv1s6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
