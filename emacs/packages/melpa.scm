@@ -8457,17 +8457,17 @@
 (define-public emacs-blamer
   (package
     (name "emacs-blamer")
-    (version "20230930.1047")
+    (version "20231213.2124")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Artawower/blamer.el.git")
                (commit
-                 "4b70b657f83542491b77a4dc512674f3fa5ce01c")))
+                 "bb83b0a511de73c8c2fa72126c68883e04058f14")))
         (sha256
           (base32
-            "0hf6f4zix567a65283cn3wvngqppcazsicq9icrkmjw59sgl1hix"))))
+            "1s7g0ggnaa42m95i9j5lhgdbqws0wpf3lrczxyqmhlsh6144gija"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-posframe))
     (home-page
@@ -13384,17 +13384,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20231212.1538")
+    (version "20231213.2254")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "0b36ffe77319edb817a56ad9d94518092d60c052")))
+                 "c6f5cca2827dafad22c04ad393abd733d7e8381c")))
         (sha256
           (base32
-            "1rkwl9gg4jzjqzl4dcazv2n130g4qx36pbsh7qab1n3kknfwnni8"))))
+            "04h6mgfyhx8zkjbcfhaac88754w61592pjdj27ayxh0xj0gybxzz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -15253,17 +15253,17 @@
 (define-public emacs-color-theme-sanityinc-tomorrow
   (package
     (name "emacs-color-theme-sanityinc-tomorrow")
-    (version "20230806.1552")
+    (version "20231213.1748")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/color-theme-sanityinc-tomorrow.git")
                (commit
-                 "d34e8db507ee0c7b465ff18a8f220c33ed77cd79")))
+                 "b6703bb326da6ba08fb1f73b88445ba52abda499")))
         (sha256
           (base32
-            "1mfildi7rav2j42avii7z4gp4ghl04cqv8wp1vyxzl8vkyj60nkb"))))
+            "0jsi9knk2h9mqd7mxfsg98rakf2dan7v31g1j8x45lrk7d51ijxj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/color-theme-sanityinc-tomorrow")
@@ -35021,17 +35021,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20231212.2217")
+    (version "20231213.2256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "4b30e1eba4abcb94bbf4a186028ca97e54603b18")))
+                 "16506d934342fd905ce4c88684f04ddb123c02a4")))
         (sha256
           (base32
-            "1nj60fg0qrxk9qzw8c1q01mwwsmpk6sdsw8yrx3bn0lpxakhspry"))))
+            "1vg4g55f6hxl4x4lgrhmy32nmvyy8cbybcwd05fligjx41990fqj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -64901,17 +64901,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231130.2349")
+    (version "20231213.1934")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "2533991bfe9da75aa6adad73770fe5b196ea0bb1")))
+                 "630848cdd23dfaa250db1bc310d2940d39945aca")))
         (sha256
           (base32
-            "00rlp7iby02zd3sqigpyskph4a26r0dgp53y17hm4xjr6zqifhz5"))))
+            "0dwfk0fj93dswxfbwx29dwp0ikpfsj23mkr7f8a5p6ics99ng4p5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -73418,17 +73418,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231213.48")
+    (version "20231213.2338")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "b187753717b511ce0c732ef1e277b55253d1cb19")))
+                 "eac5c51fe002d8d1415b8ad97cb5b543c2051b15")))
         (sha256
           (base32
-            "1i7x9q3lf6rzwizji2zsh422ihww8m0saqd2bs7w6w46kxb9xldk"))))
+            "1hma78zi4qlpbn4nzbxkkk02c3v4pqavrxqlq5hzv3m437qsyy9d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -76789,17 +76789,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231213.1423")
+    (version "20231213.1754")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "b039eef2fa61005bc251d7e5ee3026760c83f9ef")))
+                 "1db61d51f96cc42e6c75ffbae7cdedf407beebea")))
         (sha256
           (base32
-            "0kjhcvzf461gg17kqir9fryjznjmmfnkjg8lfizlw57c9amrbml8"))))
+            "0nbiric2blhkgj67da510wf5s6x2am0b4jgzj4v397z60mnvdcn2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -102724,17 +102724,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231211.1724")
+    (version "20231213.1931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "e149e3c920d63db6e0e9cc42f45c67f94a78a2b7")))
+                 "6c141166ef6b3aba48f975530d6e7a7500f771e2")))
         (sha256
           (base32
-            "1wx6mjlfn49yckzifssymkw5lq2z1xbb65br23gfb12w13qg1cg5"))))
+            "1yp652dai8rz8arfdv0bcnjmyy2z57sgdx1hssi0p7r2j3pywhvf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -109529,17 +109529,17 @@
 (define-public emacs-shell-command-x
   (package
     (name "emacs-shell-command-x")
-    (version "20231106.1958")
+    (version "20231214.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/elizagamedev/shell-command-x.el.git")
                (commit
-                 "4b844554ee6250983717d136b2eadebcece945e3")))
+                 "d2fe4d08be306d6570f3c316ea06b0e6931ea5d5")))
         (sha256
           (base32
-            "0r520k9fynlj5rbvwd48amd14vzlfzywz1bqrwm86w7vy06gy4qm"))))
+            "0m14vag42yli8fvwf7s3gqr1bx59w83bvz3149hcgddg1cmxizbc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/elizagamedev/shell-command-x.el")
@@ -112733,17 +112733,17 @@
 (define-public emacs-smudge
   (package
     (name "emacs-smudge")
-    (version "20231207.2023")
+    (version "20231213.2105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielfm/smudge.git")
                (commit
-                 "fe76ef5b6093fdc85a1bf91166451f148bafe970")))
+                 "43812b705f967d2d8bc7c281debd7a57dc2fc4ba")))
         (sha256
           (base32
-            "1qbpf1fm5dkl2ki7zbgg5j865vkzdcf6bzabw774n3mcs767a1dq"))))
+            "04ay5zl30838b1zgmq8kl1hkfs7qbb4xyjqgc7g2q76xpzhn17s8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-simple-httpd
@@ -118057,17 +118057,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231213.1238")
+    (version "20231213.2018")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "600ff5133c9ce5a4b11512fc5374c77514344292")))
+                 "aac85f91c06988be50854c13f7bd7218e011990e")))
         (sha256
           (base32
-            "1hg045wfizis2xh0n2h8888344ilghmby5k3b5c795m6qijs3c68"))))
+            "1g8x13alffrfri3ls7hk70v0gsc22bbfmwvz7jqqm70k3b2fdvgd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
