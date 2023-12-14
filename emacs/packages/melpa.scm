@@ -64901,17 +64901,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231214.446")
+    (version "20231214.1302")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "c4a465cac3ab16b7bae7886897f78b82ef64634b")))
+                 "410271e802f9678ac3d0f2c0d94791b15379680a")))
         (sha256
           (base32
-            "11kqbpqqmgb1d086lyssnsrcma9205p41faify1x1ji4qgz8qcya"))))
+            "0nvbz9lxh626z4qy5zl11c4cww6mzcxgz2qhiwp38wdkf5f59vls"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -95278,17 +95278,17 @@
 (define-public emacs-perfect-margin
   (package
     (name "emacs-perfect-margin")
-    (version "20231213.1227")
+    (version "20231214.1011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpwang/perfect-margin.git")
                (commit
-                 "7c812c08125362f608bb059b0547d3e5a8cb264e")))
+                 "bee159e470bce5dd8743954eff38c545d4b5c16c")))
         (sha256
           (base32
-            "0zdkb7hjb7ych9p6cfjzig34dnlamidw5jf6gnq84w4sx4s83dbr"))))
+            "1r0c1q0lk7fqxyx55h9871qgjyma07i90msavpnfv156va1p5553"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mpwang/perfect-margin")
@@ -95725,17 +95725,17 @@
 (define-public emacs-pg
   (package
     (name "emacs-pg")
-    (version "20231126.1333")
+    (version "20231214.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emarsden/pg-el.git")
                (commit
-                 "b94d71b30eecdff196f68241e928bccd4455861b")))
+                 "80ce2de9d3705a481afa76bd2536a5bf36e3850e")))
         (sha256
           (base32
-            "0gsk8gg7hgpakip2hjky937dxgq63hb6210hx1wb5lya34i9rbwl"))))
+            "020vkyqiw8vjk7d1smx57ayma5n37gnisjvwaiqskq98r5jx86bm"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/emarsden/pg-el")
     (synopsis
@@ -120469,18 +120469,19 @@
 (define-public emacs-topsy
   (package
     (name "emacs-topsy")
-    (version "20230414.1738")
+    (version "20231214.843")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/topsy.el.git")
                (commit
-                 "86d4234e4a0e9d2f5bf0f1114ea9893da48e77d1")))
+                 "8b6c6d5026ac72b4c3704ed7bb8fafe1ea343699")))
         (sha256
           (base32
-            "0lxca6jxkkpkj063mf0m7ack7aaiazv4zz2xkwc2vv0hbrf9nzdx"))))
+            "0vimk87yp473y70pf9rfk0scbcsg1qbfcy0nnnlgjwhm1hlqxsc7"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page
       "https://github.com/alphapapa/topsy.el")
     (synopsis "Simple sticky header")
