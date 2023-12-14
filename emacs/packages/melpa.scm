@@ -14386,17 +14386,17 @@
 (define-public emacs-closql
   (package
     (name "emacs-closql")
-    (version "20230914.1250")
+    (version "20231116.1502")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/closql.git")
                (commit
-                 "909752e2aa946bd91b27a1813982e2b20ae27dde")))
+                 "7f7363ff4a4b2ac43ab59f39730e5fa43450f694")))
         (sha256
           (base32
-            "12jan3mwnkjdf06df2ah9pmy2ikrsi436ljk0xcfrns9q4cja6hs"))))
+            "1nqnw2drqp36dq5n7l9yx9hp1lk3c88pgs3hwd2frj19xb3x3l5z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-emacsql))
@@ -64901,17 +64901,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231213.1934")
+    (version "20231214.446")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "630848cdd23dfaa250db1bc310d2940d39945aca")))
+                 "c4a465cac3ab16b7bae7886897f78b82ef64634b")))
         (sha256
           (base32
-            "0dwfk0fj93dswxfbwx29dwp0ikpfsj23mkr7f8a5p6ics99ng4p5"))))
+            "11kqbpqqmgb1d086lyssnsrcma9205p41faify1x1ji4qgz8qcya"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -77810,7 +77810,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231213.739")
+    (version "20231214.553")
     (source
       (origin
         (method url-fetch)
@@ -77820,7 +77820,7 @@
                ".tar"))
         (sha256
           (base32
-            "1iq1xj36hlmdsknnxnr3w5553grbhsbbnsfyc0gw475cswhr5nc9"))))
+            "1jffghji24jik3vvnwkj8bd7npfwcmh79hzxmqklb5p9jwv01v3p"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -80782,17 +80782,17 @@
 (define-public emacs-neil
   (package
     (name "emacs-neil")
-    (version "20231117.905")
+    (version "20231214.736")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/babashka/neil.git")
                (commit
-                 "40993873bb4ef6d88af450e8a96d03275e266f6b")))
+                 "abfe86474986a36c6c0daa56f8c4b6e1fb883743")))
         (sha256
           (base32
-            "10jjpih7iqlx7wh2cikfjvf9yqb4ham4zaf2zxkhhgjyrp6sjj4z"))))
+            "06bh762as20mlbydixbnfmn4i03gh4sz3iwv38chb5ma26w59m13"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/babashka/neil")
     (synopsis "companion for Babashka Neil")
