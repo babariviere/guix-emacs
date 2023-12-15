@@ -58923,17 +58923,17 @@
 (define-public emacs-howm
   (package
     (name "emacs-howm")
-    (version "20230730.534")
+    (version "20231215.1256")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaorahi/howm.git")
                (commit
-                 "a1effcaea96365ed97428d93624d1e0d987dea00")))
+                 "a11475a20527dcc38040200c86be0015ecfd36e9")))
         (sha256
           (base32
-            "1dsar6c1aql8rkyswvz5g5yysdlvhd0a2djiq45b047xiizcbmxc"))))
+            "0182vm2vmf8kmvlrp9ci3rrklavd6nswm8qsfibcf7146qlsy9br"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "*.el.in"))))
@@ -66050,17 +66050,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20231113.2330")
+    (version "20231215.1419")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "16cf8ffafe5ea0925beb97e37a64eab58b2ad95d")))
+                 "53666fabb14e35677d6e0b201cddf14a52911b79")))
         (sha256
           (base32
-            "1231rkk629dqi15011bjslwvspvlgnx74xm2q9j1y37ql4zxjx2n"))))
+            "0zk5bidh4vl2bkn10jkfy9f6rhs219x89p20p84dhn14qybs8knk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -74669,17 +74669,17 @@
 (define-public emacs-marginalia
   (package
     (name "emacs-marginalia")
-    (version "20231206.1425")
+    (version "20231215.1316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/marginalia.git")
                (commit
-                 "27ccfd2213bb9432883427cf058c63af10196aa6")))
+                 "ecb4a9345e2df7a7ab0a306fdae84e7fe0c33282")))
         (sha256
           (base32
-            "0pd4cvfg8m10bxjbl005zh4f0lvzkrkd8p3gb9asa54z2r45rchc"))))
+            "1d8xfqabzp6jfq9dpjzj4dl5s4r0hywaq4cb8h026h52v53n8w4p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/marginalia")
@@ -75809,17 +75809,17 @@
 (define-public emacs-memento-mori
   (package
     (name "emacs-memento-mori")
-    (version "20231202.17")
+    (version "20231215.1528")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-memento-mori.git")
                (commit
-                 "dca8eae1f76fccd39b7c084dacae56bf6e2a913e")))
+                 "9e9c13e7a1b90418de13bbf22e22b5318a027dc9")))
         (sha256
           (base32
-            "1biggfhmf5vphxc806iw9czkn4lsa13c3vnmjmaxk6ackgqz62fq"))))
+            "0k2vspxbbmq4a2fj3l5bh203nsnlqn85k0h0cm7n8cq84fhbflrn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-memento-mori")
@@ -98513,17 +98513,17 @@
 (define-public emacs-posix-manual
   (package
     (name "emacs-posix-manual")
-    (version "20200301.1103")
+    (version "20231215.1541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-posix-manual.git")
                (commit
-                 "ebaacd7266ae7a66605317f57b9f42e9cfb2ce1e")))
+                 "428b10d011082a57db0ce310fad6cd092267e139")))
         (sha256
           (base32
-            "0kdcpd59jd1gasqk5gx4ggbyp492b53dy6n3nkv9j2rj8618yzs6"))))
+            "01yln2wav6q1gab59bnsganbv0r53ralpkwvpyqcc12sym3g2r8f"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-posix-manual")
@@ -99602,17 +99602,17 @@
 (define-public emacs-project-mode-line-tag
   (package
     (name "emacs-project-mode-line-tag")
-    (version "20220720.2110")
+    (version "20231215.807")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/project-mode-line-tag.git")
                (commit
-                 "509ac9a01cd344ee9bfa1bfebed6565dd4cfedd7")))
+                 "c63f254e006ddf6ad12c7dc15eed0484d57a8cb5")))
         (sha256
           (base32
-            "0a256hcjyl7qlx08bfqcsacl3kpwgzdf458p4r1sxrwd0b1lz1g9"))))
+            "0y4paqy4v08wv8m1c4jgyx424d3lsba4bywis7n69qv0dvwid2mb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/project-mode-line-tag")
@@ -99720,17 +99720,17 @@
 (define-public emacs-project-tab-groups
   (package
     (name "emacs-project-tab-groups")
-    (version "20220720.2109")
+    (version "20231215.755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fritzgrabo/project-tab-groups.git")
                (commit
-                 "2d348279876f3073176048d903f9672f3c933ca5")))
+                 "2658405d5f3c539fbd9ccf95297a016a2c91816a")))
         (sha256
           (base32
-            "05in97rym6nc91nyshbdk4i1g013gsgzgs5r5nhsshpa9glwpv55"))))
+            "1zg9kxyjz942ib9lii0in67hwqil2xlz78vjm1qqypw3zaivhh7p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/fritzgrabo/project-tab-groups")
@@ -111311,17 +111311,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20231213.1104")
+    (version "20231215.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "607fa638f1c572d35d67edafd4b94410694615b8")))
+                 "2ca97012da4ab744ca008b7308b3be3c433c7c6b")))
         (sha256
           (base32
-            "0wjh8lh2vpmyr31lc0b1lfw3cmhhcajws76nypl7mr971qlz0bdf"))))
+            "1ascpy0da12jv9zjmanf7pz11fpwdsym9zn1lfm8ppc0r34s8ay1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -118150,17 +118150,17 @@
 (define-public emacs-teletext
   (package
     (name "emacs-teletext")
-    (version "20211203.1111")
+    (version "20231215.1524")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-teletext.git")
                (commit
-                 "6b003e9dab9bd0c27d188a81f5fff740d66a2282")))
+                 "d59ae5f9b79007646815a38f31882a114ca8aee0")))
         (sha256
           (base32
-            "0ilallavqhqjsxh37gga5k2pgz8jiwxssfhj1jlf7nj89gn2ana6"))))
+            "0n37ivxjw6ss1ykd3fmqipbmw064j7n3p7h20j8qvg7yr5hk6ldw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-teletext")
@@ -125077,17 +125077,17 @@
 (define-public emacs-vertica-snippets
   (package
     (name "emacs-vertica-snippets")
-    (version "20231010.1104")
+    (version "20231215.1512")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/baron42bba/vertica-snippets.git")
                (commit
-                 "6f0df19d36a9670484e84b347716f305301359ad")))
+                 "a502359e5e263e1946acfb557bdec0854aab9a23")))
         (sha256
           (base32
-            "0nrvc569bfbd1qvzlbgns2vasnxsrq7inkaykiy1jqma8rd4cy9h"))))
+            "0l6w7ccii0sgan81zn5khpwf9hqjx1lh67bcvgdyrrs4g9bazl75"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (arguments '(#:files ("*.el" "snippets")))
@@ -127399,17 +127399,17 @@
 (define-public emacs-wgrep-deadgrep
   (package
     (name "emacs-wgrep-deadgrep")
-    (version "20230405.936")
+    (version "20231215.1145")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mhayashi1120/Emacs-wgrep.git")
                (commit
-                 "3132abd3750b8c87cbcf6942db952acfab5edccd")))
+                 "a8e11f2d307272a8793ca28f4bf1cd68f2c42cdd")))
         (sha256
           (base32
-            "1bw8s1093qmbnls1pykfzgwsqym7277v41257wz31s0hvf4i346a"))))
+            "0ib1yf25sqsm34anzgz2l1f9bsfh37qwq55psb27yx3kp0k3130q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wgrep))
     (arguments '(#:files ("wgrep-deadgrep.el")))
@@ -129178,17 +129178,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20230818.634")
+    (version "20231215.850")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "57395a72087875108245f384acd9327db8b59abb")))
+                 "b19260d9863f1f7e310154fef71b1f3bd0871241")))
         (sha256
           (base32
-            "1lqkywjk7lrkkl4iz1fwclqgvdbfmgjpjsd6fxfzm895dd8gmf8m"))))
+            "1angyjpr28zjsw5blsjrqn7vfvlz02pkqxx9ckrjjq14mx2yi125"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments '(#:files (:defaults "*.txt")))
