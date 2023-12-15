@@ -3811,17 +3811,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20231209.2344")
+    (version "20231215.253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "efb9992c00e63b72f0474b19440be4666e95ebd1")))
+                 "3aa747856a53d1108c4009b47e77b48d9f290694")))
         (sha256
           (base32
-            "0fbd18sdix09db6kx9jml5rr8xai0ryjwzxa3ga2m1nd8adpazj1"))))
+            "0c5pqmxwixmsszm8n1f98w8xk6i5dsrjwrzarxc4rgmj7ahm2v9b"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -39785,17 +39785,17 @@
 (define-public emacs-flim
   (package
     (name "emacs-flim")
-    (version "20230808.1153")
+    (version "20231214.2336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/wanderlust/flim.git")
                (commit
-                 "80b8121f05a5a0d7fcfe3e54085467a646dd2028")))
+                 "c430c5498ad5843f40ef758685e29431f167478c")))
         (sha256
           (base32
-            "02shd2mp9ywncn0wxgrijn0i8fa69kfx1y6nh5jjd64dyiczmskk"))))
+            "10zfad4ahlqn5wz409v0ff6d1wir34cihx7fk0qr0j095xhh2jpw"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-apel emacs-oauth2))
@@ -50707,17 +50707,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231210.334")
+    (version "20231215.422")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "5c3b26aeece94c65ac605613c502767cc97478a5")))
+                 "d5949ef428be5feac2168223d091d1842085988c")))
         (sha256
           (base32
-            "17xf72js0q7zz2kqmc4ga6a6sdq5gl8w1lsn3v2bclv4l29ad0pi"))))
+            "1cy7a9q3zisy9vhzmrdv9yz95aai970v4wak8rrdv7j3zm111vc4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -66605,17 +66605,17 @@
 (define-public emacs-kanagawa-theme
   (package
     (name "emacs-kanagawa-theme")
-    (version "20231213.342")
+    (version "20231215.258")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meritamen/emacs-kanagawa-theme.git")
                (commit
-                 "5806cf0040bc44eae54eefb4fc3909f1bb89e933")))
+                 "c84561772b4c20030eeb4246551917c86b764777")))
         (sha256
           (base32
-            "1p5qy4aiv9sgbaxy9aa4jxb5xcr6kfzmby4gapqq0p6rlhm1snca"))))
+            "00389h1c88dprhgy5p37ijcnqsd419bw8vv6md1pakzbbbrc25jv"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/meritamen/emacs-kanagawa-theme")
@@ -90303,17 +90303,17 @@
 (define-public emacs-org-tidy
   (package
     (name "emacs-org-tidy")
-    (version "20231011.37")
+    (version "20231215.127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jxq0/org-tidy.git")
                (commit
-                 "789795a032b121825938e74e4bcbdede31de864f")))
+                 "7f07201ebdfb683718d90b208280a2eedcc01747")))
         (sha256
           (base32
-            "0zc1wy2qq4dgii7zjjk2vgp8d3qp1dyqrpwvdva5zcnailf15cwf"))))
+            "1qz4fz2flgk4r2501mks1m91i1cwmqr842aqr65q3zvma495p4w9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/jxq0/org-tidy")
@@ -99047,17 +99047,17 @@
 (define-public emacs-prettify-math
   (package
     (name "emacs-prettify-math")
-    (version "20220101.549")
+    (version "20231215.204")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://gitee.com/shaqxu/prettify-math.git")
+               (url "https://github.com/shaqtsui/prettify-math.git")
                (commit
-                 "5bdb9a8af7593d3a38492a618aedc545278fe8a1")))
+                 "3e659cc446379fb78926db33ac74d296c818b22a")))
         (sha256
           (base32
-            "1aid6z5hwrnqx2gidfwpgy6kx2v29kw2q29cnq1rbhh3w49l6m7z"))))
+            "19pnz13jshr5nj26fz49b7k3ihvs66b57h1bsj87ngpm4kd0qphv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-s))
     (arguments
@@ -113899,17 +113899,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20231207.103")
+    (version "20231215.104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "c1846d4354e942cc74db2bc378c2feb6b36a3ecb")))
+                 "401f1aaf118c82287507b5b18004d59ff906308f")))
         (sha256
           (base32
-            "1il53gnnmqkwf07lcw2sgi08f6rfzp5h0gx7fr482ijzdz76j8hb"))))
+            "1dy4lk62mghl2z4gfxikg5000afwprcfnc694km60arfjanm8k0r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -116814,17 +116814,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20231205.209")
+    (version "20231215.514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "765faf4d73d19bae67471c42c9dba0431a73fe47")))
+                 "ffd2311b57ca40f5e0d0aff3704f23972ef0dc93")))
         (sha256
           (base32
-            "144zm2ji47yxj53fwlspw86yalq1fyfrbrc2jh77imfdnd9v6vdf"))))
+            "0flmn40f7gppw3c1kwk6wb5ngh5r07bg3yf97lfcjmbpxpa58wr8"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
