@@ -12303,17 +12303,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231210.1931")
+    (version "20231214.2259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "edf2d046c116897ce06e85dc82e198a7460e57f6")))
+                 "5598dfeaf85b784a14598bdeff19d19669b9c8aa")))
         (sha256
           (base32
-            "1zs9sxcnw57xq6lr6ckrl3gbr2dy440idv980f11wb1r8d2l88ii"))))
+            "0k366bhkg96hzf84i8dq4myvl3iqlaqy5v46a6v79b99rm6xxl6i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -14569,17 +14569,17 @@
 (define-public emacs-cmake-mode
   (package
     (name "emacs-cmake-mode")
-    (version "20231206.1357")
+    (version "20231214.1547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.kitware.com/cmake/cmake.git")
                (commit
-                 "7b49183f72e92832ff607f407b8bfd23506c8aca")))
+                 "6eafd7a37c4fdb9037831b6981c10496a8148645")))
         (sha256
           (base32
-            "1iy6828yffqyqbxkwz9g8c4rp428qly9fl1krsgw89wi19sjxps2"))))
+            "0ixjzc27zwg4pb37z5prg2kdbd4k3p0qayalgjijvm8ff3hmfy61"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("Auxiliary/*.el")))
     (home-page "unspecified")
@@ -58462,17 +58462,17 @@
 (define-public emacs-hl-todo
   (package
     (name "emacs-hl-todo")
-    (version "20231207.2020")
+    (version "20231214.1801")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tarsius/hl-todo.git")
                (commit
-                 "6db6a0b0a80b41d8c076adb477dc4990f03c2b09")))
+                 "86caf37992985fc9645762f7c622534b0547686d")))
         (sha256
           (base32
-            "1qfv7rprmfndhrzd29zpvmvw6clz11kxlgbw88sjjl7ldgkjqy5p"))))
+            "1hdfm4gv8jlcjbnsk4k15z0y4s44ivfd4z622r5cj7rfv2851xg3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/tarsius/hl-todo")
@@ -59308,17 +59308,17 @@
 (define-public emacs-humanoid-themes
   (package
     (name "emacs-humanoid-themes")
-    (version "20230308.2129")
+    (version "20231214.2157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/humanoid-colors/emacs-humanoid-themes.git")
                (commit
-                 "d6d41b365501650c18939c3394762bc163c87e40")))
+                 "a9e3ad8b245a1c95a2aca9bbe3c664202d8bf162")))
         (sha256
           (base32
-            "0ns0i5jr0fbk51v7jxldkjr1ahsck8ikz013lvrxn9ssrgrwkn6x"))))
+            "1sj7hj1d8wk09jjn9xnjyqvazj4wq0vzyanf4sxgnysvldwagi21"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/humanoid-colors/emacs-humanoid-themes")
@@ -61923,17 +61923,17 @@
 (define-public emacs-init-dir
   (package
     (name "emacs-init-dir")
-    (version "20231212.1718")
+    (version "20231214.2217")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chaosemer/init-dir.git")
                (commit
-                 "047cdc0bf9669e38508c76ba3ff26a0cd91a290d")))
+                 "93e8ae3a83d4b90b84076a26ad7d34de4595b686")))
         (sha256
           (base32
-            "0n5ps3bi0kgxgvylafqrpnmvcn728yxhiqgbmv22rffy89rs644d"))))
+            "06yydk6w8sg0hbwi4l6h5hvq39vb44ya4kx820cgp5y9zk6khsa3"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/chaosemer/init-dir")
@@ -64901,17 +64901,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231214.1302")
+    (version "20231214.1927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "410271e802f9678ac3d0f2c0d94791b15379680a")))
+                 "69a7233876350708cef4e3c68d22c68559bca33b")))
         (sha256
           (base32
-            "0nvbz9lxh626z4qy5zl11c4cww6mzcxgz2qhiwp38wdkf5f59vls"))))
+            "0974myf4z9q6an1fkjccy96ssjpwi1an3m84fxn9lv1yawwmcfl5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -80940,17 +80940,17 @@
 (define-public emacs-nerd-icons-dired
   (package
     (name "emacs-nerd-icons-dired")
-    (version "20230917.210")
+    (version "20231214.2155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons-dired.git")
                (commit
-                 "4a068884bf86647d242c3adc8320cd603e15dac3")))
+                 "c1c73488630cc1d19ce1677359f614122ae4c1b9")))
         (sha256
           (base32
-            "1nn9xa0vhn0szl0xaz7hrkpj1xpq3yr5ym4043j3qh1h75048isf"))))
+            "1ln73ii7c3chl4lvarwiwrdmx49q528wc0h6a7xbl68pc2pyyvq2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-nerd-icons))
     (home-page
@@ -81916,17 +81916,17 @@
 (define-public emacs-no-clown-fiesta-theme
   (package
     (name "emacs-no-clown-fiesta-theme")
-    (version "20230220.1019")
+    (version "20231214.2115")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ranmaru22/no-clown-fiesta-theme.el.git")
                (commit
-                 "c01bfda4f5ea838e6774b77358fc4f1ec04ce612")))
+                 "0cd04a72aa5dcf61e82e2a613670334816326b02")))
         (sha256
           (base32
-            "1mmygncv1dh9zwgmmix48x6k31qg3pljv8qx5a0zxdqalla3acd9"))))
+            "0ly95561skwfkn3kpv3269ffk7sd6p92dm1q6p4cq2fbm3v0w6xd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-autothemer))
     (home-page
@@ -81961,17 +81961,17 @@
 (define-public emacs-no-littering
   (package
     (name "emacs-no-littering")
-    (version "20231213.1402")
+    (version "20231214.2011")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/no-littering.git")
                (commit
-                 "668f189ec9e1424dd8e70c19f4fecdbb35dbf3c9")))
+                 "48f3ac02d616c1357d06fd4284f6b01f31a3243d")))
         (sha256
           (base32
-            "1dq7x7rljcv1fl4rmfxbq1rxbbfk978lxc7afqzqvll2ss0yp21l"))))
+            "14frmv126ccsc2hc8zr8ird82a6wad15lj6csb7xdpw1vaa04w0i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page
@@ -102724,17 +102724,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231213.1931")
+    (version "20231214.1659")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "6c141166ef6b3aba48f975530d6e7a7500f771e2")))
+                 "e6c2906316861e151fac9f7c0fa4ce443a1ba1fa")))
         (sha256
           (base32
-            "1yp652dai8rz8arfdv0bcnjmyy2z57sgdx1hssi0p7r2j3pywhvf"))))
+            "0qw8yzh9bmj95f34pca9nsqzjsyr2sn99sl72cspdzxgfcs6zqc0"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -112733,17 +112733,17 @@
 (define-public emacs-smudge
   (package
     (name "emacs-smudge")
-    (version "20231213.2105")
+    (version "20231214.1430")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielfm/smudge.git")
                (commit
-                 "43812b705f967d2d8bc7c281debd7a57dc2fc4ba")))
+                 "96878338f53114c0454da3985d8487b2f3699bcf")))
         (sha256
           (base32
-            "04ay5zl30838b1zgmq8kl1hkfs7qbb4xyjqgc7g2q76xpzhn17s8"))))
+            "186knn9dzjdrbxf8jghysavx6ii09l5qcw9lg7y50hyd1hgbncn7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-simple-httpd
