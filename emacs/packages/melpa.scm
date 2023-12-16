@@ -66605,17 +66605,17 @@
 (define-public emacs-kanagawa-theme
   (package
     (name "emacs-kanagawa-theme")
-    (version "20231215.258")
+    (version "20231216.653")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meritamen/emacs-kanagawa-theme.git")
                (commit
-                 "c84561772b4c20030eeb4246551917c86b764777")))
+                 "1df3d7651b2251743b57c7844ff182d4e0c0d34d")))
         (sha256
           (base32
-            "00389h1c88dprhgy5p37ijcnqsd419bw8vv6md1pakzbbbrc25jv"))))
+            "1c8izmcf6kqpn9cpmyv8qdqzc1wg7a10jsjv9qkc9khfbrz5prz6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/meritamen/emacs-kanagawa-theme")
@@ -90349,17 +90349,17 @@
 (define-public emacs-org-timeblock
   (package
     (name "emacs-org-timeblock")
-    (version "20231206.1459")
+    (version "20231216.502")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ichernyshovvv/org-timeblock.git")
                (commit
-                 "f03955d8f951984fab67e6e247bf976017a58ef6")))
+                 "cf326f5dadbf7b90750f54455b00fcd0b8b60b0a")))
         (sha256
           (base32
-            "12k7sibqh6aa5m725bjfh1f67g2nwfj7ys7wmhd7z94hc36hzn99"))))
+            "0srw1fyh9f3zjii2rvl7x4zv07vak3sc1l5f9yaq2zmwr4bgib9s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-org-ql emacs-persist))
