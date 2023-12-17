@@ -71187,17 +71187,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20231208.1803")
+    (version "20231216.1538")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "578c47e4084fbca4992a9be327d45a9e4ff0f33e")))
+                 "ae29b9dfca83a83037d780424a85d617cddd2e47")))
         (sha256
           (base32
-            "099hqhjwd3373q0gx5b4m4n81ln49fgnvmfanjgj4c7bqmi92nyv"))))
+            "0pj4hxi3cl1nhvbmqsh2vh654b20zvqychxr2i70nwhjax8yq6kd"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -117052,17 +117052,17 @@
 (define-public emacs-syntactic-close
   (package
     (name "emacs-syntactic-close")
-    (version "20230423.707")
+    (version "20231216.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-berlin/syntactic-close.git")
                (commit
-                 "c184ff7a3cbcd28439aba7c3531ffebf0cd30b3a")))
+                 "395f3cf5f37b85bf7d7ce88fd58a0d0632414792")))
         (sha256
           (base32
-            "1i9dv3c0b68607ldr735ky41gxg8vbf7z7nkplkbx4sgkx3r92c9"))))
+            "0wfnl1yz0dank256yxq04z8p5h5vbv6vc61c440021q54g76vra0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-berlin/syntactic-close")
@@ -120883,17 +120883,17 @@
 (define-public emacs-transient
   (package
     (name "emacs-transient")
-    (version "20231205.1848")
+    (version "20231216.1908")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/transient.git")
                (commit
-                 "2c8b50231b11d354b60709c361f2dfbc4cb8163d")))
+                 "72cf67d7e047a4f82e0e18bd016c7826bf2efde0")))
         (sha256
           (base32
-            "04dgslb1zcavchr58dybvzibhpfkg449hv1s86sn449ssvmnwcs0"))))
+            "0fr0pan4dffckfywnx7a0dkb2l71fnc47cqqqb1lckqwr1gr9z6l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/magit/transient")
@@ -127697,17 +127697,17 @@
 (define-public emacs-whois
   (package
     (name "emacs-whois")
-    (version "20231215.2317")
+    (version "20231216.1652")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-whois.git")
                (commit
-                 "10e0b8cf2db52e32c3a23465756379d455722712")))
+                 "3cf4b2ae4dd8f002c2b5733ef9a290e5947c5b91")))
         (sha256
           (base32
-            "0d5l1hv83366wfp954xqp8i6lixnzg2v8h7imnmnvbw4fjh1yl1y"))))
+            "06g9qy4l3846fvrljnbw7zhn0girb5ravs620z0naki8zinkggzf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-whois")
