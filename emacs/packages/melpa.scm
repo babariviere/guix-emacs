@@ -9296,17 +9296,17 @@
 (define-public emacs-bqn-mode
   (package
     (name "emacs-bqn-mode")
-    (version "20231008.1932")
+    (version "20231217.1203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/museoa/bqn-mode.git")
                (commit
-                 "1a42e1cf87ae8a899a45573dfa9eaee1ab436d9b")))
+                 "23fd9db096ab3a5c5fbd034e721b8a7d27d1d6b7")))
         (sha256
           (base32
-            "09jf445y01dh3lqz5hmzf9f1m6hpzwiprd4fgc3j33lbyi1wggqi"))))
+            "0nlwhk353fdl3jwmi1c6mz5898mh717lvldv9jypj9jdipcw6icc"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/museoa/bqn-mode")
     (synopsis "Emacs mode for BQN")
@@ -12043,17 +12043,17 @@
 (define-public emacs-cfn-mode
   (package
     (name "emacs-cfn-mode")
-    (version "20231210.904")
+    (version "20231217.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/worr/cfn-mode.git")
                (commit
-                 "b166948f55eac3debe498a87918ed3dbe4868117")))
+                 "7b2965d5d8cb3625944211c1bc89dafc5d02227b")))
         (sha256
           (base32
-            "0m5nzdhpj0f7c1fbfi96fqlhs4mshh3jc0n1vs80zvc8mydiq94m"))))
+            "1j9wsf8xhf7sbay5r9jbly0s73rzkijzi7x539ay4zjh0x3fhdv7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-s emacs-yaml-mode))
@@ -22994,17 +22994,17 @@
 (define-public emacs-devdocs-browser
   (package
     (name "emacs-devdocs-browser")
-    (version "20230423.444")
+    (version "20231217.1202")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-devdocs-browser.git")
                (commit
-                 "ef7686e4ff4ecab42e1b4a1a5d079bcf947a5b71")))
+                 "237720eae1ec55b1bd7ddf207921058bb4cc06ca")))
         (sha256
           (base32
-            "12f2z4khcag0mjvis8h20sj32iv3i2p8vvklh7zzc4yzga6pa8va"))))
+            "1i9pf0j47a5y48xnxdf5h330v1vryzcia11d1p9y85fapyff37dp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/blahgeek/emacs-devdocs-browser")
@@ -28763,17 +28763,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231217.733")
+    (version "20231217.1025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "e48997d3091b4010969ae8b5c4389b5e657c1334")))
+                 "ca47effe999c50e43c6246429642ba0ce2d2791c")))
         (sha256
           (base32
-            "08kxvjvkkn324m0y8ylc7nr9hk9g8fhfhc723gixxiz593nn7zly"))))
+            "1hcvifq9xj7610vy7d2kspgcykxg41bmixlbpaqfxhpnq4zmgxwm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -38422,7 +38422,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20231209.1448")
+    (version "20231217.1200")
     (source
       (origin
         (method url-fetch)
@@ -38432,7 +38432,7 @@
                ".tar"))
         (sha256
           (base32
-            "12xlzrkcbhdvrjplqr3p9c4miycjj328c0sd675s1bpkw7bv5rl6"))))
+            "0hy1hw16w4678z1cpdih75gazx6da4ar0s5a4a78z0dnydd38fja"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page
@@ -59532,7 +59532,7 @@
 (define-public emacs-hyperdrive
   (package
     (name "emacs-hyperdrive")
-    (version "20231213.633")
+    (version "20231217.1523")
     (source
       (origin
         (method url-fetch)
@@ -59542,7 +59542,7 @@
                ".tar"))
         (sha256
           (base32
-            "101i5v0446hp8902y3q5p8qhajg4lzf77jc77665gzgg3yj435fs"))))
+            "0qk7dzq5zxkqhq090lwh3v4154sz5p44ygijc9yc5q4bm806cv47"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -91573,17 +91573,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231212.856")
+    (version "20231217.1043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "37b6124a3d4c580c544bd4d17079a38551bc1710")))
+                 "83bea91f1b3472bde46602e980b02fdf48d75579")))
         (sha256
           (base32
-            "01gx6r0mrr0b4hwafr1z0lh6hwcspmfkvpqp14qlj6fmp1rxv3iw"))))
+            "0vkm9bijh67z1ckj5iphdiyrkywxiy2xr0gw17z7zf7i7r89axvd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -96147,17 +96147,17 @@
 (define-public emacs-php-mode
   (package
     (name "emacs-php-mode")
-    (version "20231128.1809")
+    (version "20231217.1125")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/php-mode.git")
                (commit
-                 "7d740e7e5197266b78306d0c4e0da4aac2d2ad75")))
+                 "a1781e289d2756f627e44f382158f65c833668d4")))
         (sha256
           (base32
-            "0rg9vn2p3djlpx8wf27jccxbs831j6n4zw0xpr6x53jyld1hwf37"))))
+            "0gp38w4687ns8dqxacsclpb12lz2cqwbx8h11m4zwb61lywfjbdh"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-php/php-mode")
@@ -100556,20 +100556,22 @@
 (define-public emacs-psci
   (package
     (name "emacs-psci")
-    (version "20231127.709")
+    (version "20231217.1105")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purescript-emacs/emacs-psci.git")
                (commit
-                 "8a7481b81551c3ab095917292c704679f474869a")))
+                 "2cc15af3703329a85289c73814d3ff34c9034a8f")))
         (sha256
           (base32
-            "06f4gh7j7jnsj0iqa33x97facdwlpf691qyrbsi9k0i85r7xnawy"))))
+            "1swriv8g2xza8i02n6lj4n0a5pwd9hr9bymahs1ll3wrl1ki1b21"))))
     (build-system melpa-build-system)
     (propagated-inputs
-      (list emacs-purescript-mode emacs-dash))
+      (list emacs-purescript-mode
+            emacs-dash
+            emacs-inheritenv))
     (home-page
       "https://github.com/purescript-emacs/emacs-psci")
     (synopsis "Major mode for purescript repl psci")
@@ -112896,17 +112898,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20231213.1214")
+    (version "20231217.832")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "8057f927fb070017186fc91b31cc51abe50cd9fa")))
+                 "3d68d99b79c448fe738af31fb526a034fd9b3d6f")))
         (sha256
           (base32
-            "0hfzrvbpgwnh34zpbkpmz3gymwb142c0xqwq3khmsr6wzpf4lr3v"))))
+            "15i20s22mpfnh7g879w2vmfzyrz7gihidwgs8nhn8vfzmwd2aj2r"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -117052,17 +117054,17 @@
 (define-public emacs-syntactic-close
   (package
     (name "emacs-syntactic-close")
-    (version "20231216.1609")
+    (version "20231217.907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-berlin/syntactic-close.git")
                (commit
-                 "395f3cf5f37b85bf7d7ce88fd58a0d0632414792")))
+                 "f7940bc9971a61fee99e8fba96f7c846a4b298a5")))
         (sha256
           (base32
-            "0wfnl1yz0dank256yxq04z8p5h5vbv6vc61c440021q54g76vra0"))))
+            "0c9c7ql6y0rph6vi70n1bjx4npfxn2zwia0zndlczb237wnmgsh8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-berlin/syntactic-close")
