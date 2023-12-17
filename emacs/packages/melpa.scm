@@ -28763,17 +28763,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231210.705")
+    (version "20231217.733")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "b4b775fa7a52d2bf50a0d7fb1a59a4de7f172538")))
+                 "e48997d3091b4010969ae8b5c4389b5e657c1334")))
         (sha256
           (base32
-            "1mrlsx931gbdp742gbjai8c2nyvz76y8znrjiv6r6ihhsb9b4plx"))))
+            "08kxvjvkkn324m0y8ylc7nr9hk9g8fhfhc723gixxiz593nn7zly"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -50707,17 +50707,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231215.1742")
+    (version "20231217.0")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "e105a52541caf41e7ebdafa1aa8afa7bc07e958d")))
+                 "0ea3c7fb15b0b60bcc930d7cadc5148abb1ca724")))
         (sha256
           (base32
-            "1fk942079mn7pgg8vgaxncvb61kd2wgi4lcxgplr0wsq4nzsgcs0"))))
+            "09rgp2q64swicg47pnvbr8f3w5kha3dmydqr13d9h9qgww785bpj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -52845,17 +52845,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231209.709")
+    (version "20231217.609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b04272a53e5b2db1fc7724d4ba84e51fd20e9c4f")))
+                 "2ea205c890602cd4d8c6bf0dd6cb42fba73b48ab")))
         (sha256
           (base32
-            "0f7vwrvxg83gril2y5qm4469nzhy51dg49zn643pni6cmhz7r9mx"))))
+            "0rdhq133qhn4waxqsw85c5yizzha9qhr4z0vfwz0r8wkfdrj03v0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -75902,17 +75902,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20231005.1938")
+    (version "20231217.43")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "f885c02e1c72da722dfc681af30476096528dc5a")))
+                 "53b7059636faa4baa5432bc3b7bd522a7c9909c7")))
         (sha256
           (base32
-            "0di4pwyz8mbj1x5pbyhrnmi1idyxqb05w1msays1ayv6qc2xjjhv"))))
+            "0h1xqxg0cqzfvg29hkjp0v8k4r7hknnmn6i6h7sbwsssnb2h7gm6"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
