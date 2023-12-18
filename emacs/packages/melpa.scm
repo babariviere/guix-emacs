@@ -28317,17 +28317,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20230919.2101")
+    (version "20231218.501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "4bf871b7a2f2433d1032ef2b251bfb08c23347f4")))
+                 "6a755d5032f83244af1ae76a5d256e2c62ef0168")))
         (sha256
           (base32
-            "0an4krh3i2xg156hlc6vmgcjk9chzgicq9jdnx5mkcrqzpfry6yr"))))
+            "0zh9hrp7frmbfapkv7ib62z529cbb8jq8vi4z2176i61m1acw224"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -80519,17 +80519,17 @@
 (define-public emacs-native-complete
   (package
     (name "emacs-native-complete")
-    (version "20230505.1803")
+    (version "20231218.316")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/CeleritasCelery/emacs-native-shell-complete.git")
                (commit
-                 "7b5e7d86c39ce9833118db278034789a6c0ecfd6")))
+                 "56b20b414a9298f45b0923edf633c7153b97892b")))
         (sha256
           (base32
-            "0khlr0g6b5ml3n0s49mzhlwfca7gcxf07sb2h6014vnhf1i7qy78"))))
+            "0d4h36ns13fra744nhk9azxqmxw14fwn908i3f1h2f4ll3hqbpfa"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("native-complete.el")))
     (home-page
@@ -84898,17 +84898,17 @@
 (define-public emacs-obsidian
   (package
     (name "emacs-obsidian")
-    (version "20231211.1857")
+    (version "20231218.48")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/licht1stein/obsidian.el.git")
                (commit
-                 "56f686176b88696332ace3c4db4989161673d625")))
+                 "58fd1b656fb50ae6f719474e557ee43e7da61215")))
         (sha256
           (base32
-            "1f030qm2sn39hlrprdc6mq2zbfmv9ivhg5fnyzycydwd58y4klf6"))))
+            "1cxmrrrhj3ind09x2g2kwx66hws1wqcpdj20qdhi2pq0k7xixxck"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -106017,17 +106017,17 @@
 (define-public emacs-rmsbolt
   (package
     (name "emacs-rmsbolt")
-    (version "20231024.221")
+    (version "20231218.600")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/jgkamat/rmsbolt.git")
                (commit
-                 "86c6e12a85db472e6660ef7fef12a4e719ef3c66")))
+                 "6c6d64e3e528778277b520d81603d488c2390ced")))
         (sha256
           (base32
-            "1kvl8syz700vl2dbva4k1vdzxd67sjby4w4zsl62njvbvwzvcj0r"))))
+            "0mnaldiz9kf90kmmn234y6cxw7d41h0q0w9kvf0iz3ng4wbqkdhj"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "starters")))
     (home-page "http://gitlab.com/jgkamat/rmsbolt")
