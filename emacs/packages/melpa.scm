@@ -5451,17 +5451,17 @@
 (define-public emacs-auto-dark
   (package
     (name "emacs-auto-dark")
-    (version "20231014.453")
+    (version "20231217.2233")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/LionyxML/auto-dark-emacs.git")
                (commit
-                 "65cc6337de9030ea7cae4661389019b9443543a2")))
+                 "cbb2dcb2386326fd2ce9d2851e267dd5ae4a972e")))
         (sha256
           (base32
-            "0rvl40xqlf1b2n5nfhzbd0b0r0gp41m5w98sx0wvhp68brxpvx0g"))))
+            "1zgyk2b0fb4w1mx7fgffc4x4h2mr6zapr6za5ny9fpa0pmbbd56y"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/LionyxML/auto-dark-emacs")
@@ -9114,17 +9114,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20231202.2218")
+    (version "20231217.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "98270f598cffc9e67253d4e2be52d9c37aa8582b")))
+                 "a706ba1cd848515801e37402ea76c8411571d772")))
         (sha256
           (base32
-            "0w4li1ixfcsp1cjlqwwx1lwk791mfgg9ynjs4wd0mvpdf620rpaq"))))
+            "1q6ddlhss098xh86yl2m80f4fxnm5djz55yy6hicphxv6la656vl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -12303,17 +12303,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231215.1736")
+    (version "20231217.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "ac98b570669dd0198a0563cf4942089adae117fb")))
+                 "b75a12e767043447a5dee752ab0451756972987b")))
         (sha256
           (base32
-            "1kazlxz57b6l3s1ijs03ldw12gwj3q49h7b0pv3m396ff255db83"))))
+            "0i9n3agp9xm0z6bcl136sv5f2iqsyrfwig4clpsnlqic65cy1r7n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -21245,17 +21245,17 @@
 (define-public emacs-dall-e-shell
   (package
     (name "emacs-dall-e-shell")
-    (version "20231212.2355")
+    (version "20231217.2057")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "009fbf04ffb3dc89b6dc3729ac95b1c201c0a061")))
+                 "b75a12e767043447a5dee752ab0451756972987b")))
         (sha256
           (base32
-            "1phqiillzlkvmsq0qb4cq55cvvnqsr93fhknlgycgfzi7hrqg3x2"))))
+            "0i9n3agp9xm0z6bcl136sv5f2iqsyrfwig4clpsnlqic65cy1r7n"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("dall-e-shell.el")))
@@ -35218,17 +35218,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20231216.954")
+    (version "20231217.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "ddf0deb2c45cbb0c44326d3c0b7094818f232d8b")))
+                 "d58233be7dd51342970da3dad0428ea0e7af304c")))
         (sha256
           (base32
-            "0m1rwji6kmdhfv2jj0yqgn7k7yyjlxjndc02warc2p4mb3w6xm58"))))
+            "0d7s7sm4r71xjj35g2l72radj6f0narrasqxbafdqxwffcphn6a9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -38422,7 +38422,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20231217.1200")
+    (version "20231217.1658")
     (source
       (origin
         (method url-fetch)
@@ -38432,7 +38432,7 @@
                ".tar"))
         (sha256
           (base32
-            "0hy1hw16w4678z1cpdih75gazx6da4ar0s5a4a78z0dnydd38fja"))))
+            "130s3fx0w52nfqj8r7ghwd2p63bag3qlq83lvki8ahcmp83a8l8k"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page
@@ -52845,17 +52845,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231217.609")
+    (version "20231217.1742")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "2ea205c890602cd4d8c6bf0dd6cb42fba73b48ab")))
+                 "7b82a980b45049490af9cdeda585dd8ba0548226")))
         (sha256
           (base32
-            "0rdhq133qhn4waxqsw85c5yizzha9qhr4z0vfwz0r8wkfdrj03v0"))))
+            "017dn5pcnfv0fq08ng1yz6h17xlhmbidqxmhqh19097wi27ps3h5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -69632,7 +69632,7 @@
 (define-public emacs-lem
   (package
     (name "emacs-lem")
-    (version "20231213.1400")
+    (version "20231217.1701")
     (source
       (origin
         (method url-fetch)
@@ -69642,7 +69642,7 @@
                ".tar"))
         (sha256
           (base32
-            "092hddj8q54was5iwr0nhx2s4hr9mz2swyr07q7dlxzq2b463f7p"))))
+            "1gx6kp4pkrpj7jkyn65qzrqfnr0xs98fain801s257mj5adhbz82"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-fedi emacs-markdown-mode))
@@ -72466,17 +72466,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231203.705")
+    (version "20231217.2121")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "01bd566c0508993202b08071ed7037c9fc4e3329")))
+                 "24cfc88709a767f0ef20ff3d1badd1f71933acd8")))
         (sha256
           (base32
-            "0znkzw6w3isbry40a67ir58dm2nzkjd6q3gngy9ndwnbg9s2zalj"))))
+            "1wvp6yrdmzzrx2ic2vnjjmh667xjm131vh29yi471701nng8psiv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75902,17 +75902,17 @@
 (define-public emacs-meow
   (package
     (name "emacs-meow")
-    (version "20231217.43")
+    (version "20231217.2238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meow-edit/meow.git")
                (commit
-                 "53b7059636faa4baa5432bc3b7bd522a7c9909c7")))
+                 "3247b9d4f2b46bcf8d216857a59d67dd416dcdb9")))
         (sha256
           (base32
-            "0h1xqxg0cqzfvg29hkjp0v8k4r7hknnmn6i6h7sbwsssnb2h7gm6"))))
+            "17gwyhi3k6iw34p90dfxa8wc01ijcvcdy49vph8mfnwhal41qp8j"))))
     (build-system melpa-build-system)
     (home-page
       "https://www.github.com/DogLooksGood/meow")
@@ -112736,17 +112736,17 @@
 (define-public emacs-smudge
   (package
     (name "emacs-smudge")
-    (version "20231214.1430")
+    (version "20231217.1531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/danielfm/smudge.git")
                (commit
-                 "96878338f53114c0454da3985d8487b2f3699bcf")))
+                 "a847e344887863e9c8aa37c909c64350defd1b73")))
         (sha256
           (base32
-            "186knn9dzjdrbxf8jghysavx6ii09l5qcw9lg7y50hyd1hgbncn7"))))
+            "112844fr8pw6g6b95iiyhmbhmy0hqml0lgc59d16llgd463dbc32"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-simple-httpd
@@ -117054,17 +117054,17 @@
 (define-public emacs-syntactic-close
   (package
     (name "emacs-syntactic-close")
-    (version "20231217.907")
+    (version "20231217.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-berlin/syntactic-close.git")
                (commit
-                 "f7940bc9971a61fee99e8fba96f7c846a4b298a5")))
+                 "f1db4a94f70cd067dc43311c5e9f4c446edabcaf")))
         (sha256
           (base32
-            "0c9c7ql6y0rph6vi70n1bjx4npfxn2zwia0zndlczb237wnmgsh8"))))
+            "0vc474fghrk600207ls9rl1jr9sqsrwvkb420hw4z0q9v3iqjwq6"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-berlin/syntactic-close")
