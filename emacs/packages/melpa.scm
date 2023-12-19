@@ -37769,17 +37769,17 @@
 (define-public emacs-f
   (package
     (name "emacs-f")
-    (version "20231212.1323")
+    (version "20231219.750")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rejeep/f.el.git")
                (commit
-                 "17eefb9973922235f9a3bea5a8aac722efe75ec9")))
+                 "4f03d7bb724a9049b0ab9ef86127694756f99656")))
         (sha256
           (base32
-            "0wg64jirfmg8kqr21zqi51zpqpp1r6051xdmnghckrrghghwhh22"))))
+            "0pyj6d5g961i0vz2090mdpjqd90wg9hls5gf0azliahx7qwp5j7j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page "http://github.com/rejeep/f.el")
@@ -71348,17 +71348,17 @@
 (define-public emacs-llama-cpp
   (package
     (name "emacs-llama-cpp")
-    (version "20231208.426")
+    (version "20231219.1355")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kurnevsky/llama-cpp.el.git")
                (commit
-                 "4ca0eb54d7555ee47fd0c8080e0ac9bba1630a34")))
+                 "a8f5b1b1bd55a36eed878c55cb9d510076ff8ad7")))
         (sha256
           (base32
-            "11rbkp8qnqq5bjcd2ybzkbc189q3yrmsc57q66r89xy3dkccbv2k"))))
+            "13z66gg886hn169w7zbc1jrg5v1pa315g9yzaqmq5p03vnr3jrrj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -97640,17 +97640,17 @@
 (define-public emacs-poetry
   (package
     (name "emacs-poetry")
-    (version "20230304.1540")
+    (version "20231219.1221")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cybniv/poetry.el.git")
                (commit
-                 "5ca52b221e57bb9dce7c89f62e7b01da1346a273")))
+                 "552f8e27f011760acdfe995c54a3694d4ef9128a")))
         (sha256
           (base32
-            "1622lb747ihk24saiz9kl7k55iwa1cp4bifgg2shchhcdn7mj8vg"))))
+            "1wcvmjywhka53r0bwmacxi7j7wcifi5mvfd5f052vv2h5ss5c07s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pyvenv))
     (home-page
@@ -106892,17 +106892,17 @@
 (define-public emacs-run-command-recipes
   (package
     (name "emacs-run-command-recipes")
-    (version "20231003.1823")
+    (version "20231219.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/semenInRussia/emacs-run-command-recipes.git")
                (commit
-                 "3d4c05225d54c97a4aef375113e6f4de9ea3aaef")))
+                 "63405333f23b33ecda08e716eca8588c8950952d")))
         (sha256
           (base32
-            "1kgk12p6gv8bgn9chcxpfazzgmw7rsadhii37j62llvx7bnyj13w"))))
+            "0wlg7qx7r94cnnrhp99wfiwna1zwccshg93r32zj2ah9j4mba500"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-f emacs-run-command))
@@ -124950,17 +124950,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20231020.1553")
+    (version "20231219.1431")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "31bc0f38a83cbfd34abe3858081d290d16d8dc7a")))
+                 "75607c296a12e7141e65738e4efc6e3725a37d41")))
         (sha256
           (base32
-            "0csi1a6j71l4nl7x31gd6655mp79lyqrjl9kbb2ywrfiiz97gfyc"))))
+            "0pkhmlbv1zlcl927xhbfd9mpdvpkhs20nzscmggfi1vpj2bryg7i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -126094,24 +126094,24 @@
 (define-public emacs-vuiet
   (package
     (name "emacs-vuiet")
-    (version "20220218.1024")
+    (version "20231219.859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mihaiolteanu/vuiet.git")
                (commit
-                 "aed3272b95fc73fd78712ff7dcfc05916f382fed")))
+                 "1299781bbcd1fe6ab431764de25f1c1ca550eace")))
         (sha256
           (base32
-            "0faxcgvi8r6nchvgh2dzmnawbv5qzsf1aiyfg3f39pskcrnip62v"))))
+            "0853jahn4mkycyxx985b23fi6x1affrcp8gi594d33m64h12mfc5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lastfm
             emacs-versuri
             emacs-s
-            emacs-bind-key
-            emacs-mpv))
+            emacs-mpv
+            emacs-ivy))
     (home-page
       "https://github.com/mihaiolteanu/vuiet")
     (synopsis
@@ -130415,17 +130415,17 @@
 (define-public emacs-yasnippet-snippets
   (package
     (name "emacs-yasnippet-snippets")
-    (version "20230815.820")
+    (version "20231219.1505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AndreaCrotti/yasnippet-snippets.git")
                (commit
-                 "063f54cea33f59defe9123549bf55ca342457a1c")))
+                 "12103bb505c0e1ad3085c2f19e42fdf74761ab9a")))
         (sha256
           (base32
-            "0xnfy6ppnraxgj1kpq7kwyiyznih12xz0xvim6wz7bx9sjw31lch"))))
+            "1qslpzsyhnp1gji3vjf2xv3gmbrax1zwyaa8akzrxdb0mzd9hs9q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-yasnippet))
     (arguments
