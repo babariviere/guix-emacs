@@ -31939,17 +31939,17 @@
 (define-public emacs-emms
   (package
     (name "emacs-emms")
-    (version "20231201.1643")
+    (version "20231218.1703")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://git.savannah.gnu.org/git/emms.git")
                (commit
-                 "192c5d4321ecfaa74790e0e73beaf6ed48715b13")))
+                 "af48d9cc81a7ad5fc149531bf5d341b51584b9b4")))
         (sha256
           (base32
-            "0fg2n6sjd7kx3iqx7ykihdw3s7ii0jsm1dx0xci52k46m7whfpll"))))
+            "1yrl6wv2g505b9i7fw2hqjch25lgffd89rvknxp85hzgal8njjcs"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -111314,17 +111314,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20231215.1307")
+    (version "20231218.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "2ca97012da4ab744ca008b7308b3be3c433c7c6b")))
+                 "1be7fd2da04d52eee29a50ea06c5f121943c3c9f")))
         (sha256
           (base32
-            "1ascpy0da12jv9zjmanf7pz11fpwdsym9zn1lfm8ppc0r34s8ay1"))))
+            "0bk2b0263294kbpwixpsb58xsl6jrm9y78ap4bxvka3rm69g5qyv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -118060,17 +118060,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231213.2018")
+    (version "20231218.1554")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "aac85f91c06988be50854c13f7bd7218e011990e")))
+                 "c522d366aebcdf2178c34978f7f5d3167840a641")))
         (sha256
           (base32
-            "1g8x13alffrfri3ls7hk70v0gsc22bbfmwvz7jqqm70k3b2fdvgd"))))
+            "0vsdcdj3b9sbmjcihd4zqfdnspdjh2806c77kzsl62jpyj55zkj4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -119349,17 +119349,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20231210.1733")
+    (version "20231217.1732")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "6501ea963de067150ecde211d4cc09cb7220357b")))
+                 "15f3e02ee6a1e7131feafd47cbface675cc5104a")))
         (sha256
           (base32
-            "01lks4glj5cx06hzxwlln1a52agmhbrh16y59ikfaalh8inkj6hj"))))
+            "0z2207fh34m23mn2gi9rap2b2bf6lpamgpp8a647ri7m010bs3jk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
