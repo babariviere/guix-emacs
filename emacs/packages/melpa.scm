@@ -66050,17 +66050,17 @@
 (define-public emacs-julia-snail
   (package
     (name "emacs-julia-snail")
-    (version "20231215.1419")
+    (version "20231219.417")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gcv/julia-snail.git")
                (commit
-                 "53666fabb14e35677d6e0b201cddf14a52911b79")))
+                 "ed418e4166390df1e9e5defc40955a66338303a3")))
         (sha256
           (base32
-            "0zk5bidh4vl2bkn10jkfy9f6rhs219x89p20p84dhn14qybs8knk"))))
+            "1p5iayhkccwln55v6glwnw3ml6xqh289cxjj2jsvwdmnw12mdb0c"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -71187,17 +71187,17 @@
 (define-public emacs-live-py-mode
   (package
     (name "emacs-live-py-mode")
-    (version "20231216.1538")
+    (version "20231219.314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/donkirkby/live-py-plugin.git")
                (commit
-                 "ae29b9dfca83a83037d780424a85d617cddd2e47")))
+                 "a7529311e9a60b26b562a98f00feeb09ef640afe")))
         (sha256
           (base32
-            "0pj4hxi3cl1nhvbmqsh2vh654b20zvqychxr2i70nwhjax8yq6kd"))))
+            "0qvzky3bihgimym84k14gd8fa57cgvqq8y7wsic6kjdhqq3qchhf"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -90754,17 +90754,17 @@
 (define-public emacs-org-web-tools
   (package
     (name "emacs-org-web-tools")
-    (version "20231213.53")
+    (version "20231219.624")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-web-tools.git")
                (commit
-                 "25045836b46b234c3416e207ab0a59d021716cce")))
+                 "25872fce21df25666adbaafb2af5c549b2e5f62d")))
         (sha256
           (base32
-            "1ii77c22qqmp10hdr7m73126xdhc5538cn853451gh6gm00vv1s6"))))
+            "1j73d0j5dqxa7k04x466crfhh20zidh5jjxajndmnq45yl7mmn4z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -100528,23 +100528,24 @@
 (define-public emacs-psc-ide
   (package
     (name "emacs-psc-ide")
-    (version "20210219.2247")
+    (version "20231219.49")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purescript-emacs/psc-ide-emacs.git")
                (commit
-                 "ce97d719458ea099b40c02f05b6609601c727e66")))
+                 "9ab7c8419c199c85502b739c007015ac1ecced7c")))
         (sha256
           (base32
-            "0xfw93pdf744h2yswc53qwyawfzkc31rv8dmha3irq7k1nklhq6y"))))
+            "0p133sfrakvaj4qf5ri0h2snx6ksaxb0qabpz9w1sh5zv9kf42si"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
             emacs-company
             emacs-s
-            emacs-flycheck))
+            emacs-flycheck
+            emacs-inheritenv))
     (home-page
       "https://github.com/purescript-emacs/psc-ide-emacs")
     (synopsis
@@ -100556,17 +100557,17 @@
 (define-public emacs-psci
   (package
     (name "emacs-psci")
-    (version "20231217.1105")
+    (version "20231219.52")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purescript-emacs/emacs-psci.git")
                (commit
-                 "2cc15af3703329a85289c73814d3ff34c9034a8f")))
+                 "ef31045295f29485fc697892fba53390fe193595")))
         (sha256
           (base32
-            "1swriv8g2xza8i02n6lj4n0a5pwd9hr9bymahs1ll3wrl1ki1b21"))))
+            "08bz7k42p9a66hgfhirf40wn3371md39w2w5gxyzw9alzdbi6hm6"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-purescript-mode
