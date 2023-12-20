@@ -26372,17 +26372,17 @@
 (define-public emacs-dpkg-dev-el
   (package
     (name "emacs-dpkg-dev-el")
-    (version "20231208.521")
+    (version "20231220.35")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git")
                (commit
-                 "df7c02e06b022d3dcac39bb7ff8f52376cdaa8d2")))
+                 "f5ea058711aaeff761b708b4efb7fad500df0abe")))
         (sha256
           (base32
-            "0ly27v4x1a3r4a8cr5ac2js5bmh4r833zif45nygb0fwi51brhyy"))))
+            "00y8sw6g8z2zm52h7czwzrhqlb1j3fzjbzccnr3448lnr41sa7qa"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -72466,17 +72466,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231218.911")
+    (version "20231220.126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "5b2f3741bb797371bba2932653ca829167f9745a")))
+                 "abe41f1745545fd9529ca5455897509f880ad41a")))
         (sha256
           (base32
-            "1jn4v481bbh7rapla6dxcwm1h621sd712v2ljawyjxr238cflyw4"))))
+            "1rp2caxx8rdys3x87mxyb33zc6pl1q18gva83507nhmllxp4irvb"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -75809,17 +75809,17 @@
 (define-public emacs-memento-mori
   (package
     (name "emacs-memento-mori")
-    (version "20231215.1528")
+    (version "20231220.155")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lassik/emacs-memento-mori.git")
                (commit
-                 "9e9c13e7a1b90418de13bbf22e22b5318a027dc9")))
+                 "880df15f3b8ab49deb77586549a2afdec95778b5")))
         (sha256
           (base32
-            "0k2vspxbbmq4a2fj3l5bh203nsnlqn85k0h0cm7n8cq84fhbflrn"))))
+            "153iyz0pxsah1sn2c3x01m2ssclz9jzp2q9ynybr9ly0xl11qnzf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lassik/emacs-memento-mori")
@@ -80871,17 +80871,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20231206.1836")
+    (version "20231220.243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "b29ef760e92f36f47720f6c58435854129ee7163")))
+                 "0727a648518dec07755f1e044f6192cf2ced85ab")))
         (sha256
           (base32
-            "1nc1cvyrnwwd4s975sfgdyyv4yxnlv6i7npn1dd070ibfi09v1wa"))))
+            "16d4qsph4va4g3fydf4r817rg25i5gfq6bhwn24slbnbj64yy1zz"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -89550,17 +89550,17 @@
 (define-public emacs-org-roam-ql
   (package
     (name "emacs-org-roam-ql")
-    (version "20231116.2131")
+    (version "20231220.503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ahmed-shariff/org-roam-ql.git")
                (commit
-                 "d666686830823fc9e6eee3f1144f52b49ed63994")))
+                 "04c0a88d86ec66a4586c819048d0ae1833efee83")))
         (sha256
           (base32
-            "0nrqnq2azjgra1sa2mmyw8j9p94i5ah5kggqajl3mb3408000kxm"))))
+            "070cmgh5j57zk8gjd7vwcr709r7kq6ri0m2c7ac7gw49yh7a68gg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-roam
@@ -102585,17 +102585,17 @@
 (define-public emacs-quickrun
   (package
     (name "emacs-quickrun")
-    (version "20221215.828")
+    (version "20231220.6")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/quickrun.git")
                (commit
-                 "7a89313c07a21eae9cd69a1a98e2a134d559e04f")))
+                 "131ce09918e2bfce8953a269bedc9a88fa0ee186")))
         (sha256
           (base32
-            "15z8ix2wi452zkh5qz1qlsvq8bnwjw8014k51i6rvw8aczm344lr"))))
+            "1xsh55l5x75nayyw25jxg8y0yqjgkdjj22w48gz2wxninvhbqmk4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-ht))
     (home-page
@@ -116965,17 +116965,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231211.1042")
+    (version "20231220.210")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
-               (url "https://github.com/keyweeusr/emacs-syncthing.git")
+               (url "https://github.com/KeyWeeUsr/emacs-syncthing.git")
                (commit
-                 "74d5ae77f063c79a53b91b4fe0c26a9e4c5282f0")))
+                 "946b30eadde7c6207559009c043c9e405e527854")))
         (sha256
           (base32
-            "1722cvwnj23pafjsddr0bl6xac8fic7fs11yzldibbv0jqsqxn4r"))))
+            "16gffxkc8kydacv2xfaik272nc3rvyg1xnx99wn9n378jdsbbk25"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
@@ -121355,17 +121355,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231209.821")
+    (version "20231220.117")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "fcc4ebb9636729e6cbd0b3af28afcf12666ff855")))
+                 "ea90abc265b82530c92d39ab13c7df42f4cca6e2")))
         (sha256
           (base32
-            "0vfdahbvsjzcafci0zp237xivsg6nsl1k2alw3d0vxj45ir7k7a1"))))
+            "1m22d5sx5fxqyhh7csy8sn9636pb1drcd5lb2k7mvyjxid8d0lk7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
