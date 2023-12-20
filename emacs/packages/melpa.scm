@@ -35218,17 +35218,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20231217.1709")
+    (version "20231219.1501")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "d58233be7dd51342970da3dad0428ea0e7af304c")))
+                 "c30158a0df2e252f15cffcd61ceb0ad58a395096")))
         (sha256
           (base32
-            "0d7s7sm4r71xjj35g2l72radj6f0narrasqxbafdqxwffcphn6a9"))))
+            "1mxfkqq48c1l8j6mnbj0w3bjih6ah72rlxvspigpfzck0jp61zri"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -39715,17 +39715,17 @@
 (define-public emacs-flex-compile
   (package
     (name "emacs-flex-compile")
-    (version "20231204.2000")
+    (version "20231219.2113")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/plandes/flex-compile.git")
                (commit
-                 "47c5667a7904682d162b2d6c0d5fa4424e921193")))
+                 "817dd32411748682c13f752786b901041a470504")))
         (sha256
           (base32
-            "1gnvds7dpgq06ap9bw0fbn72xk3pslrqgs7ly2vl62whm1nd0mkk"))))
+            "0c2ysf7asb840xdf5x255r18c2v3j93bgjxsf5wsbgvykx21za00"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-buffer-manage))
@@ -52040,17 +52040,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231218.1319")
+    (version "20231219.1642")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "66444ae7b4b64a455f424258cf25b7e1371fe5ad")))
+                 "67961b9b5c436a996974cd07354e3e7cfb6d0eb6")))
         (sha256
           (base32
-            "0cz0w5gddkln45vxk6q99lhik96ygkspxjyx3lmgc3wdskk3fcip"))))
+            "1ki4rk06qncahxk3sir2lzxvwgjs831v4w2qmbirv5w79gd932ca"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -52381,17 +52381,17 @@
 (define-public emacs-harpoon
   (package
     (name "emacs-harpoon")
-    (version "20230521.1907")
+    (version "20231219.1609")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/otavioschwanck/harpoon.el.git")
                (commit
-                 "7b64b701e46b9117217c8b01e49e00db78463985")))
+                 "2c384accad8df20bcf91c13ea2d21546a2facfe1")))
         (sha256
           (base32
-            "0g6klm12hkwsc5l4ilpysh7wsadghm2y0576zqrrgp451597baci"))))
+            "18hd465lwzkrzp0m2kbz4v168g30pjkdfi8n477pfcwnaf0mbw2b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f emacs-hydra))
     (home-page
@@ -65455,17 +65455,17 @@
 (define-public emacs-js2-mode
   (package
     (name "emacs-js2-mode")
-    (version "20230628.238")
+    (version "20231219.1926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooz/js2-mode.git")
                (commit
-                 "79bc78d77db0d2e8e43dc0f9e0504ad90bcbc26d")))
+                 "1a5aeb22e93def6d21872c6192391decd6aacb6b")))
         (sha256
           (base32
-            "1mgqxpsaa5ks9nrsljybw97kcb5rgh1a5si3h98h1firns1vapwp"))))
+            "14q5q73j51rlcjgv7833rxf1slgrxfil18vfsjk9pcyzprakp776"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mooz/js2-mode/")
     (synopsis "Improved JavaScript editing mode")
@@ -71348,17 +71348,17 @@
 (define-public emacs-llama-cpp
   (package
     (name "emacs-llama-cpp")
-    (version "20231219.1355")
+    (version "20231219.1725")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kurnevsky/llama-cpp.el.git")
                (commit
-                 "a8f5b1b1bd55a36eed878c55cb9d510076ff8ad7")))
+                 "8e3a5f38bc8700a8c9e5b0e09374d37038bbd25d")))
         (sha256
           (base32
-            "13z66gg886hn169w7zbc1jrg5v1pa315g9yzaqmq5p03vnr3jrrj"))))
+            "0az10gwp80527lz4ix47vpa83nz0091xfvxhmxm9cxl68p7n1bdq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -73418,17 +73418,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231213.2338")
+    (version "20231219.2243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "eac5c51fe002d8d1415b8ad97cb5b543c2051b15")))
+                 "c7ab6931c61e63db02edd2f9ad3688312936cf0b")))
         (sha256
           (base32
-            "1hma78zi4qlpbn4nzbxkkk02c3v4pqavrxqlq5hzv3m437qsyy9d"))))
+            "196zic2s30hssi8sipdg2zsx6bh4n12gbap82db2ih44lr4shkz0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -102728,17 +102728,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231214.1659")
+    (version "20231219.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "e6c2906316861e151fac9f7c0fa4ce443a1ba1fa")))
+                 "8bb83cf12ebf04d1ed3ecf2d5b46974b37976020")))
         (sha256
           (base32
-            "0qw8yzh9bmj95f34pca9nsqzjsyr2sn99sl72cspdzxgfcs6zqc0"))))
+            "006pj09x57fxkq287mdamd0zvv5nvp40g55nhzl1r7cgcqkm2zs4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -116372,17 +116372,17 @@
 (define-public emacs-sway
   (package
     (name "emacs-sway")
-    (version "20230906.712")
+    (version "20231219.1842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/thblt/sway.el.git")
                (commit
-                 "425005713af1e9269f1d5b5221fb4ea3046f52e4")))
+                 "84eae5e16a643eb00b0a422ded751cceb17cc8f0")))
         (sha256
           (base32
-            "1w29dkl7s835zgwnc4jx1cp84s6mmwbvlil8z2c31psy0rlajc6i"))))
+            "194plzc6rg7a5j3f68say0znix34yp8421cdlkwnw345czh52mjn"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/thblt/sway.el")
     (synopsis
@@ -122712,17 +122712,17 @@
 (define-public emacs-uiua-mode
   (package
     (name "emacs-uiua-mode")
-    (version "20231122.1849")
+    (version "20231219.1706")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/crmsnbleyd/uiua-mode.git")
                (commit
-                 "babb5b7a41ec89fb936bfcb376b61fe3250a31d6")))
+                 "24115f187212a89e600dfb870fc34880355846ed")))
         (sha256
           (base32
-            "115i3qm75lshk32l5b1bss87d7fzsfqjyj0vm4n4apsbigvv6p8k"))))
+            "11lagjk8vwbls5dxqfcrrljn82f0rbljn9x4fz0sf96svja8j2va"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
@@ -124950,17 +124950,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20231219.1431")
+    (version "20231219.2042")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "75607c296a12e7141e65738e4efc6e3725a37d41")))
+                 "b2770d78cb348613cf40d276019c57175af5a77a")))
         (sha256
           (base32
-            "0pkhmlbv1zlcl927xhbfd9mpdvpkhs20nzscmggfi1vpj2bryg7i"))))
+            "0xarv1f2c9sbcagk3bnzb8ac4q33268xkdq1p6p7ymjbyssnk590"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -125200,17 +125200,17 @@
 (define-public emacs-vhdl-ext
   (package
     (name "emacs-vhdl-ext")
-    (version "20231020.1600")
+    (version "20231219.2048")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ext.git")
                (commit
-                 "0ccedf602afcbde7e4add7ff6e294ff29c4310ce")))
+                 "2e90e3c2ca0dd896c3e32a69a8cb6a31141b081a")))
         (sha256
           (base32
-            "19xfanby7242jk9nwx5k2hfsk3gavk1l0h8az7g86dx465pba95a"))))
+            "0g7qxbvr7zzp6zjhg5cvpn59a90vm68g9w2yn60vd7cyaxib5xxc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-vhdl-ts-mode
