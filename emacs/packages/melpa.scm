@@ -9988,17 +9988,17 @@
 (define-public emacs-bufler
   (package
     (name "emacs-bufler")
-    (version "20231202.1240")
+    (version "20231220.1307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/bufler.el.git")
                (commit
-                 "2e57f56068d18b2ee5832a6c3e2cec0c5279a812")))
+                 "ff0d371b853a65943ccd3546fe947d407cd2e28a")))
         (sha256
           (base32
-            "04xhramqdssi159arkav73s8yrn2mk1qfngp5xmv6dr71za0bgnw"))))
+            "1hl9cy7ldfv9gmp3xvykz3a2j5rw90zjr3vk6srsl7akc0la4n4n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-burly
@@ -12970,17 +12970,17 @@
 (define-public emacs-chyla-theme
   (package
     (name "emacs-chyla-theme")
-    (version "20230907.1019")
+    (version "20231220.1545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/chyla/ChylaThemeForEmacs.git")
                (commit
-                 "9ed08f18d8258755779ef2edc7964e3bd50f3a5c")))
+                 "4d4b9dca3547e919ed5311cc7d04821f77860fbd")))
         (sha256
           (base32
-            "0xx8kmvd8kp95jxx4yrb8923x75022dl62lnwa9c18xcrcwk1208"))))
+            "1b41ar0ii5ikfi3hxss2maxgn2lx3kxzizpr9kf5218kmhjy3fh2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/chyla/ChylaThemeForEmacs")
@@ -87618,17 +87618,17 @@
 (define-public emacs-org-gtd
   (package
     (name "emacs-org-gtd")
-    (version "20230718.54")
+    (version "20231220.1339")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Trevoke/org-gtd.el.git")
                (commit
-                 "4f50c27d1afe90cf764cd10cecf91a085694c8bd")))
+                 "2e5b635f0a506c28b9d92f80d9e9e1866c658da3")))
         (sha256
           (base32
-            "1i6m7fzrjmd33hhcnjcqw0h8acjijndgy3qb9yz3gfybpv6nhzfl"))))
+            "0gxdhqmlzqw5l8xy9w136qf8y5ajmdqva0cw3iraljmim7ydh624"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-edna
@@ -90754,17 +90754,17 @@
 (define-public emacs-org-web-tools
   (package
     (name "emacs-org-web-tools")
-    (version "20231219.624")
+    (version "20231220.1425")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-web-tools.git")
                (commit
-                 "25872fce21df25666adbaafb2af5c549b2e5f62d")))
+                 "7a6498f442fc7f29504745649948635c7165d847")))
         (sha256
           (base32
-            "1j73d0j5dqxa7k04x466crfhh20zidh5jjxajndmnq45yl7mmn4z"))))
+            "0x1j1y2pl6a8f97cw04nm0w6g4jh449cjfsr2aryn316ms4nj1a0"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -124950,17 +124950,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20231219.2042")
+    (version "20231220.1340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "b2770d78cb348613cf40d276019c57175af5a77a")))
+                 "ea437a71eadb610399b1dae2b80d7ae266441d73")))
         (sha256
           (base32
-            "0xarv1f2c9sbcagk3bnzb8ac4q33268xkdq1p6p7ymjbyssnk590"))))
+            "0llg3qyhjpw4mq0gxla2rx8d4wf52x2bxg7cwmzkgms5k8mngpmc"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -124984,17 +124984,17 @@
 (define-public emacs-verilog-ts-mode
   (package
     (name "emacs-verilog-ts-mode")
-    (version "20231016.1204")
+    (version "20231220.1248")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ts-mode.git")
                (commit
-                 "d0403317b7e643c25ef786c40ce711dddc60fcd0")))
+                 "d40414fafc2b49099567f1b060e447024c88be11")))
         (sha256
           (base32
-            "1pv6bq6nkgp8kxp5ci2q85jfmc4yc0962mvssqbzs2gz1ahjbppj"))))
+            "0cqm937vv8hy2gi2k236zs8jf6j6flbagvqrc463m0c9w7z0qdmd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gmlarumbe/verilog-ts-mode")
@@ -125200,17 +125200,17 @@
 (define-public emacs-vhdl-ext
   (package
     (name "emacs-vhdl-ext")
-    (version "20231219.2048")
+    (version "20231220.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ext.git")
                (commit
-                 "2e90e3c2ca0dd896c3e32a69a8cb6a31141b081a")))
+                 "a322ae05acbddfc6ee1183ea2e4f30b105b248e5")))
         (sha256
           (base32
-            "0g7qxbvr7zzp6zjhg5cvpn59a90vm68g9w2yn60vd7cyaxib5xxc"))))
+            "10v6iqf8g3l9f7kabnj0wkfkmgxbjc67jbngg2xdym0f7rd10344"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-vhdl-ts-mode
