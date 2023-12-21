@@ -11053,17 +11053,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231215.1504")
+    (version "20231221.719")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "28980853746d1a3215d73438031ddb3a692ba51a")))
+                 "c6fb8ca1ab6be0e42b396a7bbda9ba00fdd75a79")))
         (sha256
           (base32
-            "0l2bbp3w0vk40aazip80jfqdi3axpfvg0py9yvphbmam1f82s0l6"))))
+            "0m75ky1myzvgvfpnqh5q5m3l802306r3i83217qga412q5fcczxq"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -77832,7 +77832,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231216.959")
+    (version "20231221.824")
     (source
       (origin
         (method url-fetch)
@@ -77842,7 +77842,7 @@
                ".tar"))
         (sha256
           (base32
-            "1bgsw8mwayn7zm1864bzy5rijc26yminln32c9vyhg91ahdchm2g"))))
+            "1y3ll6ibgyqwrx4si8vc0g5y8imq6bnns62vrajfs47fl5nmqx2p"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -92795,17 +92795,17 @@
 (define-public emacs-ox-pandoc
   (package
     (name "emacs-ox-pandoc")
-    (version "20230627.643")
+    (version "20231221.1300")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/ox-pandoc.git")
                (commit
-                 "0f758517f512e375825679541b5d905be40342eb")))
+                 "b91a58202e5f7c641d2883e0c22f586f3293c351")))
         (sha256
           (base32
-            "0snq2mkxw7inkrny5dnqknq2i8kz6cyr73w2fnl46r9zxj59ykz0"))))
+            "0p1ijvnlmq4ajy3g8bc2ag65423knwqhx7yrm9lzjh8j6is167s8"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page "https://github.com/a-fent/ox-pandoc")
@@ -117034,17 +117034,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231221.231")
+    (version "20231221.1405")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/emacs-syncthing.git")
                (commit
-                 "8ecad9e9d447217cb481f40371e35e687a86cf43")))
+                 "4050d39e769b74e09b60aeda0fbc1b7f4e5aa0a4")))
         (sha256
           (base32
-            "02ijy5napvz06zq7ibrsl1l7wrjlvzybins8dvwi0c2wj1scz55h"))))
+            "1xzci7m383fnndai40482nzn1rh32l239sfyi84wvkwrjwsqnkwd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
@@ -121424,17 +121424,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231220.117")
+    (version "20231221.1104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "ea90abc265b82530c92d39ab13c7df42f4cca6e2")))
+                 "79eabcf0f7018f70928a9d51b6348c787e300088")))
         (sha256
           (base32
-            "1m22d5sx5fxqyhh7csy8sn9636pb1drcd5lb2k7mvyjxid8d0lk7"))))
+            "1hchsvi3xf8nahna8pv9phicm110l72hdarai72n4rpd87ij9cpx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
@@ -125019,17 +125019,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20231220.2203")
+    (version "20231221.1413")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "0976770f9fc2722357672e532e7a86bc304de171")))
+                 "f3ebb1b6a77297d72fbdd0f1d0a550f2385241e6")))
         (sha256
           (base32
-            "196d531zd48sjdmjaqa828z5m3izc4x4wdk2rxx56nn2dahl7fz8"))))
+            "1vdxxbpvyl1kdafshr6gw4wsh7c486h3ds5s6dsjn681aa9mshsj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -125269,17 +125269,17 @@
 (define-public emacs-vhdl-ext
   (package
     (name "emacs-vhdl-ext")
-    (version "20231220.2206")
+    (version "20231221.1255")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ext.git")
                (commit
-                 "978224be71c1b5ee237cb6d7f729599cfba99ce3")))
+                 "baebf10bba48c267d102f99733551028cb460eaf")))
         (sha256
           (base32
-            "1g1sw3w9ns9wvn22nbdc8pxmm55y565r6hfbid1vibv5mgwqi5xy"))))
+            "0brc8pzjdqpachmqalq88yvkps8vhx707w6nn18dwmbdhwnsfwci"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-vhdl-ts-mode
