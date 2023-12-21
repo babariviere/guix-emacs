@@ -23241,7 +23241,7 @@
 (define-public emacs-diff-ansi
   (package
     (name "emacs-diff-ansi")
-    (version "20230808.1343")
+    (version "20231221.57")
     (source
       (origin
         (method url-fetch)
@@ -23251,7 +23251,7 @@
                ".tar"))
         (sha256
           (base32
-            "0s7vqgq0hyqn6f3fxahn7cz3qf0wfi5q2wqg98y59h6asdxj64s1"))))
+            "06yg1lxpp2z5zb1dhcybcqiagkd13q8rl8h7qwkfxwx844k984cv"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-diff-ansi")
@@ -50729,7 +50729,7 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231220.2223")
+    (version "20231220.2341")
     (source
       (origin
         (method git-fetch)
@@ -68178,17 +68178,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20231114.1528")
+    (version "20231220.2253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "eb9f0457af5decec8ce3a76657d61ba4817f86fe")))
+                 "962da27e4fa524e395980ac8806f635fd057124f")))
         (sha256
           (base32
-            "0a3gxkmhbgnd695yza51l7zmja40ra783vcvb28r3arz9v7kvv39"))))
+            "1cnsmx0qx4j5acyj39h6rbldvpfmmqsyw1w2nv3x9y2pk9h0ypi7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -68806,17 +68806,17 @@
 (define-public emacs-lark-mode
   (package
     (name "emacs-lark-mode")
-    (version "20230327.1003")
+    (version "20231221.340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/taquangtrung/lark-mode.git")
                (commit
-                 "9e19b40df29d273cf3aec9ddd0e739d3b3d9b3a8")))
+                 "0a0724b0f64d433d81f90ba8f86e618f8c33522a")))
         (sha256
           (base32
-            "1q0hfln8xa78q2r4zw0vm66by8nr9n7pvrn096ys5ggi5835cgah"))))
+            "0p59zhrdiap46zdhp40qg0hfc563629dvbz2r96xq2dav5r0l7qs"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/taquangtrung/lark-mode")
@@ -80893,17 +80893,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20231220.243")
+    (version "20231221.541")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "0727a648518dec07755f1e044f6192cf2ced85ab")))
+                 "3af4d38c1119567b20ef9020f70de163d0d58c37")))
         (sha256
           (base32
-            "16d4qsph4va4g3fydf4r817rg25i5gfq6bhwn24slbnbj64yy1zz"))))
+            "1g8lain6k0w5kzzb612mb2s6f62bi3lfdyh2anzd4f1vw2jwkfk8"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
@@ -113972,17 +113972,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20231215.104")
+    (version "20231221.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "401f1aaf118c82287507b5b18004d59ff906308f")))
+                 "7da92b09d8c0dafdc67fabd9725b058a81cba98d")))
         (sha256
           (base32
-            "1dy4lk62mghl2z4gfxikg5000afwprcfnc694km60arfjanm8k0r"))))
+            "17ai03smi45zqffnpwyg3hp0rm0adhnhsabrb12v7lr69b19fa3p"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -117034,17 +117034,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231220.210")
+    (version "20231221.231")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/emacs-syncthing.git")
                (commit
-                 "946b30eadde7c6207559009c043c9e405e527854")))
+                 "8ecad9e9d447217cb481f40371e35e687a86cf43")))
         (sha256
           (base32
-            "16gffxkc8kydacv2xfaik272nc3rvyg1xnx99wn9n378jdsbbk25"))))
+            "02ijy5napvz06zq7ibrsl1l7wrjlvzybins8dvwi0c2wj1scz55h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
