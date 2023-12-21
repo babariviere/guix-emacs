@@ -14996,6 +14996,28 @@
       "Documentation at https://melpa.org/#/codic")
     (license #f)))
 
+(define-public emacs-coercion
+  (package
+    (name "emacs-coercion")
+    (version "20231218.1949")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/liuyinz/coercion.el.git")
+               (commit
+                 "3656fee6a6f3867c4bbe983a97e1815c225703cb")))
+        (sha256
+          (base32
+            "1c6xkr1x4bvqzfrzffgmc2c7r5dda4cj4v6qqz42ksnlrfj94q6h"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/liuyinz/coercion.el")
+    (synopsis "Naming convention style switch")
+    (description
+      "Documentation at https://melpa.org/#/coercion")
+    (license #f)))
+
 (define-public emacs-coffee-fof
   (package
     (name "emacs-coffee-fof")
@@ -50707,17 +50729,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231217.0")
+    (version "20231220.2223")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "0ea3c7fb15b0b60bcc930d7cadc5148abb1ca724")))
+                 "ddd69cbbcf88139c620b803bc79909e08778a43e")))
         (sha256
           (base32
-            "09rgp2q64swicg47pnvbr8f3w5kha3dmydqr13d9h9qgww785bpj"))))
+            "1a86zxam5150frn46075605myh55q315zlc0kgj5q73hj9xhpz68"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -69632,7 +69654,7 @@
 (define-public emacs-lem
   (package
     (name "emacs-lem")
-    (version "20231217.1701")
+    (version "20231220.1453")
     (source
       (origin
         (method url-fetch)
@@ -69642,7 +69664,7 @@
                ".tar"))
         (sha256
           (base32
-            "1gx6kp4pkrpj7jkyn65qzrqfnr0xs98fain801s257mj5adhbz82"))))
+            "0f2yvyfp0ahjc084jiqz2gsmjplz6zjr06jnwmmd1bs8f3cain85"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-fedi emacs-markdown-mode))
@@ -76789,17 +76811,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231213.1754")
+    (version "20231220.2242")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "1db61d51f96cc42e6c75ffbae7cdedf407beebea")))
+                 "0559dd59b8e122d15225a8763bdfcdc173129570")))
         (sha256
           (base32
-            "0nbiric2blhkgj67da510wf5s6x2am0b4jgzj4v397z60mnvdcn2"))))
+            "0pmw6iqcn36y25n2qr4d7p4vgkwm60n9hjrzfin5l3zszaphpy84"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -86164,6 +86186,53 @@
       "Documentation at https://melpa.org/#/org-ac")
     (license #f)))
 
+(define-public emacs-org-agenda-files-track
+  (package
+    (name "emacs-org-agenda-files-track")
+    (version "20231209.1529")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/org-agenda-files-track-"
+               version
+               ".tar"))
+        (sha256
+          (base32
+            "1s5k1g62wzb7h3prryvafx7f67ql677fzf3bswh4hnqsp3xbc5bl"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://git.sr.ht/~ngraves/org-agenda-files-track")
+    (synopsis
+      "Fine-track `org-agenda-files' to speed-up `org-agenda'")
+    (description
+      "Documentation at https://melpa.org/#/org-agenda-files-track")
+    (license #f)))
+
+(define-public emacs-org-agenda-files-track-ql
+  (package
+    (name "emacs-org-agenda-files-track-ql")
+    (version "20231218.627")
+    (source
+      (origin
+        (method url-fetch)
+        (uri (string-append
+               "https://melpa.org/packages/org-agenda-files-track-ql-"
+               version
+               ".tar"))
+        (sha256
+          (base32
+            "13ahvkhpvyqj7n01pr4m9pdxipay3kl0cx0dgvmvijn9syxmw02d"))))
+    (build-system melpa-build-system)
+    (propagated-inputs (list emacs-org-ql))
+    (home-page
+      "https://git.sr.ht/~ngraves/org-agenda-files-track")
+    (synopsis
+      "Fine-track `org-agenda-files' to speed-up `org-ql-views'")
+    (description
+      "Documentation at https://melpa.org/#/org-agenda-files-track-ql")
+    (license #f)))
+
 (define-public emacs-org-agenda-property
   (package
     (name "emacs-org-agenda-property")
@@ -89799,17 +89868,17 @@
 (define-public emacs-org-side-tree
   (package
     (name "emacs-org-side-tree")
-    (version "20231212.729")
+    (version "20231220.1636")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/org-side-tree.git")
                (commit
-                 "2680c35f98880bb576bd8b2425c8b45ca3412af6")))
+                 "df915aaf1337fbff5801fad719019ac68c7ff56e")))
         (sha256
           (base32
-            "05rm30696sdy217m4il1g62qpin0r3pkzpfljhi0yfaa2ymmv0p1"))))
+            "16myfbsjmwq2jw7nb4yy7y7shhg4i6arqp78d04gj7h61y9jbdjy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/localauthor/org-side-tree")
@@ -90754,7 +90823,7 @@
 (define-public emacs-org-web-tools
   (package
     (name "emacs-org-web-tools")
-    (version "20231220.1425")
+    (version "20231220.1515")
     (source
       (origin
         (method git-fetch)
@@ -92796,17 +92865,17 @@
 (define-public emacs-ox-report
   (package
     (name "emacs-ox-report")
-    (version "20230712.1639")
+    (version "20231220.1625")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/DarkBuffalo/ox-report.git")
                (commit
-                 "91e047968c4730dfe10d1e94836e0747de8c7361")))
+                 "36e7f5e6e8cd836bbfcb0e85be01faab21f725fd")))
         (sha256
           (base32
-            "1fqmkfdgigfjq9f1i80lpdkidafwa5rk5j687j0kkqwaig9lch39"))))
+            "0lz6nj42yprddmjd1zhcirg1ila4kvrjirip89nby96zxnswqr72"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-msg))
     (home-page
@@ -124950,17 +125019,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20231220.1340")
+    (version "20231220.2203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "ea437a71eadb610399b1dae2b80d7ae266441d73")))
+                 "0976770f9fc2722357672e532e7a86bc304de171")))
         (sha256
           (base32
-            "0llg3qyhjpw4mq0gxla2rx8d4wf52x2bxg7cwmzkgms5k8mngpmc"))))
+            "196d531zd48sjdmjaqa828z5m3izc4x4wdk2rxx56nn2dahl7fz8"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -124984,17 +125053,17 @@
 (define-public emacs-verilog-ts-mode
   (package
     (name "emacs-verilog-ts-mode")
-    (version "20231220.1248")
+    (version "20231220.1855")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ts-mode.git")
                (commit
-                 "d40414fafc2b49099567f1b060e447024c88be11")))
+                 "572508e9dc562a1718ddc857682c4f37dfbf5654")))
         (sha256
           (base32
-            "0cqm937vv8hy2gi2k236zs8jf6j6flbagvqrc463m0c9w7z0qdmd"))))
+            "06f989qkms4gnj0jrr1a2rkjwsgn0g8fqaz8sky4nwvvs3wmmm99"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gmlarumbe/verilog-ts-mode")
@@ -125200,17 +125269,17 @@
 (define-public emacs-vhdl-ext
   (package
     (name "emacs-vhdl-ext")
-    (version "20231220.1323")
+    (version "20231220.2206")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ext.git")
                (commit
-                 "a322ae05acbddfc6ee1183ea2e4f30b105b248e5")))
+                 "978224be71c1b5ee237cb6d7f729599cfba99ce3")))
         (sha256
           (base32
-            "10v6iqf8g3l9f7kabnj0wkfkmgxbjc67jbngg2xdym0f7rd10344"))))
+            "1g1sw3w9ns9wvn22nbdc8pxmm55y565r6hfbid1vibv5mgwqi5xy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-vhdl-ts-mode
@@ -125257,17 +125326,17 @@
 (define-public emacs-vhdl-ts-mode
   (package
     (name "emacs-vhdl-ts-mode")
-    (version "20231031.748")
+    (version "20231220.1858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ts-mode.git")
                (commit
-                 "957006ea834ff1a42b860b146fd40c86eda5eabd")))
+                 "768fc7afed0e3928bf74fca93ec68329ded89003")))
         (sha256
           (base32
-            "1h2gsy5vgq5zsvzxdds7bszhhj5hh7hf007bxbp9jlyar19alvsd"))))
+            "0h33fbdji2ghqb0ppsna0x1h5qc6fcj0qyky1igxgdl3xxq38crp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gmlarumbe/vhdl-ts-mode")
@@ -128562,17 +128631,17 @@
 (define-public emacs-wolfram
   (package
     (name "emacs-wolfram")
-    (version "20221111.816")
+    (version "20231220.1950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/hsjunnesson/wolfram.el.git")
                (commit
-                 "d2e317214bf669dda82fd3202090715e59d29dcf")))
+                 "743c92f88bb3b6a77bc84ac2221adc6222cebb94")))
         (sha256
           (base32
-            "08zjb2i100ibgy783ybasmak61m4gkipasyzmarznf3lgbkdj8vb"))))
+            "12bp7yarsqdg0572mq6n6l12r35ahkrjam2aa8k0ialhwigpbvwm"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis "Wolfram Alpha Integration")
