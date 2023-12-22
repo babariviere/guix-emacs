@@ -12303,17 +12303,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231217.2114")
+    (version "20231221.1931")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "b75a12e767043447a5dee752ab0451756972987b")))
+                 "23b0b018356985bf404eb37a82f3f3a8dbbe4fb7")))
         (sha256
           (base32
-            "0i9n3agp9xm0z6bcl136sv5f2iqsyrfwig4clpsnlqic65cy1r7n"))))
+            "019790sk4fhc038pzc2l7zsda07zd6hx6s0px847hbrnkh54jzv6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -18358,17 +18358,17 @@
 (define-public emacs-consult-project-extra
   (package
     (name "emacs-consult-project-extra")
-    (version "20221013.1014")
+    (version "20231221.1857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Qkessler/consult-project-extra.git")
                (commit
-                 "9fdf45fa40471900b0b158d73c4b1521a13d47ef")))
+                 "982e8008d69ea6733a2a7548e245d645c0fefb3f")))
         (sha256
           (base32
-            "02m5vslf46kc9qjdyjqg3kjgv7a8vs0vmmc9gjh62nxfnz1dl7gn"))))
+            "0zfmfypq781v4vw0zd5z9kqa1f47wiq2hhgmg5yljrgmgnl7j53y"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -21267,17 +21267,17 @@
 (define-public emacs-dall-e-shell
   (package
     (name "emacs-dall-e-shell")
-    (version "20231217.2057")
+    (version "20231221.1929")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "b75a12e767043447a5dee752ab0451756972987b")))
+                 "23b0b018356985bf404eb37a82f3f3a8dbbe4fb7")))
         (sha256
           (base32
-            "0i9n3agp9xm0z6bcl136sv5f2iqsyrfwig4clpsnlqic65cy1r7n"))))
+            "019790sk4fhc038pzc2l7zsda07zd6hx6s0px847hbrnkh54jzv6"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("dall-e-shell.el")))
@@ -28785,17 +28785,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231217.1025")
+    (version "20231221.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "ca47effe999c50e43c6246429642ba0ce2d2791c")))
+                 "6b05ffd202e35463bfc48cd420722540fd103922")))
         (sha256
           (base32
-            "1hcvifq9xj7610vy7d2kspgcykxg41bmixlbpaqfxhpnq4zmgxwm"))))
+            "0cirsh09cj6xks9zlhp3zsg1r5gc6syjr15nyn2wcqz6q6qf93dp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -38444,7 +38444,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20231217.1658")
+    (version "20231221.1538")
     (source
       (origin
         (method url-fetch)
@@ -38454,7 +38454,7 @@
                ".tar"))
         (sha256
           (base32
-            "130s3fx0w52nfqj8r7ghwd2p63bag3qlq83lvki8ahcmp83a8l8k"))))
+            "0hzy72qy5n4a42xldk2wwp2bvids77k9fhx5y92rlb1zndslyh2l"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page
@@ -50729,17 +50729,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231220.2341")
+    (version "20231222.9")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "ddd69cbbcf88139c620b803bc79909e08778a43e")))
+                 "1a554785e82d72cddf4393b6800f316eb9c54430")))
         (sha256
           (base32
-            "1a86zxam5150frn46075605myh55q315zlc0kgj5q73hj9xhpz68"))))
+            "15r8yhq0y4ls2miwvhkx8p0q582l5ilwn80n8pc6mb2r0ra03w7m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -55571,17 +55571,17 @@
 (define-public emacs-helm-org-ql
   (package
     (name "emacs-helm-org-ql")
-    (version "20231216.1011")
+    (version "20231221.2314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "77b4c2bce214905901ce47ffbf0fa1a930bb657e")))
+                 "087e99703efc236680e77f4d081b939139e1d782")))
         (sha256
           (base32
-            "137csccvx25nz3v642dzw8jkqrxxza66vrif5c7r19fqcj7ppdyp"))))
+            "0l403n75xyjf14pbk7hfdzajv393mk5m0xp9csv8dl805rgzrdkr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -64923,17 +64923,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231214.1927")
+    (version "20231221.1823")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "69a7233876350708cef4e3c68d22c68559bca33b")))
+                 "aa7ab4c4bd330204caf04e9a70dddecb38131a17")))
         (sha256
           (base32
-            "0974myf4z9q6an1fkjccy96ssjpwi1an3m84fxn9lv1yawwmcfl5"))))
+            "0r85pafq9j2ig6058if1vli11fqrmm6w3mdr30q78ap6k37yvgfa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -69654,7 +69654,7 @@
 (define-public emacs-lem
   (package
     (name "emacs-lem")
-    (version "20231220.1453")
+    (version "20231221.1623")
     (source
       (origin
         (method url-fetch)
@@ -69664,7 +69664,7 @@
                ".tar"))
         (sha256
           (base32
-            "0f2yvyfp0ahjc084jiqz2gsmjplz6zjr06jnwmmd1bs8f3cain85"))))
+            "1nmy2as43vgi59rjyvc8d4h049aygs0apylcs389kvwqqpkmawck"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-fedi emacs-markdown-mode))
@@ -91642,17 +91642,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231217.1043")
+    (version "20231221.2230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "83bea91f1b3472bde46602e980b02fdf48d75579")))
+                 "f91272da508fdf0d6459a840dc04d17150012041")))
         (sha256
           (base32
-            "0vkm9bijh67z1ckj5iphdiyrkywxiy2xr0gw17z7zf7i7r89axvd"))))
+            "1g7krj24szx0f396bji4wnw211by8gvnlqiwzky91pbssdxnz957"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -92403,17 +92403,17 @@
 (define-public emacs-ox-gfm
   (package
     (name "emacs-ox-gfm")
-    (version "20220910.1321")
+    (version "20231215.1901")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/larstvei/ox-gfm.git")
                (commit
-                 "46faa67dbb3fb0cd7a76c3fe518f16e4195c22c7")))
+                 "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")))
         (sha256
           (base32
-            "0xiqxahxwaicxdi6apmdsrhvlyg63i9zr57l050f339p8x7id367"))))
+            "0hcjxq4ix86kvhk2alc57kkn8i92mxniii20mx0n919zrh97v3vg"))))
     (build-system melpa-build-system)
     (home-page "unspecified")
     (synopsis
@@ -92795,17 +92795,17 @@
 (define-public emacs-ox-pandoc
   (package
     (name "emacs-ox-pandoc")
-    (version "20231221.1300")
+    (version "20231221.1709")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/ox-pandoc.git")
                (commit
-                 "b91a58202e5f7c641d2883e0c22f586f3293c351")))
+                 "c4ecff38ca8b87dcfa9e8859fbe45901679fb42b")))
         (sha256
           (base32
-            "0p1ijvnlmq4ajy3g8bc2ag65423knwqhx7yrm9lzjh8j6is167s8"))))
+            "08283aciqc92n2zmmq1hfb43v9ff5jgzdp99xwk1pagi498jq1qs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page "https://github.com/a-fent/ox-pandoc")
@@ -117034,7 +117034,7 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231221.1405")
+    (version "20231221.1529")
     (source
       (origin
         (method git-fetch)
@@ -125019,17 +125019,17 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20231221.1413")
+    (version "20231221.1707")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/verilog-ext.git")
                (commit
-                 "f3ebb1b6a77297d72fbdd0f1d0a550f2385241e6")))
+                 "a1242943332f5149191e1f96bd91fc34dea856a2")))
         (sha256
           (base32
-            "1vdxxbpvyl1kdafshr6gw4wsh7c486h3ds5s6dsjn681aa9mshsj"))))
+            "1iqgs2asn7n13qjibkspkxjx9iy4ysk1s6l0np8gfgl5xmx9kq5p"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-verilog-ts-mode
@@ -125269,17 +125269,17 @@
 (define-public emacs-vhdl-ext
   (package
     (name "emacs-vhdl-ext")
-    (version "20231221.1255")
+    (version "20231221.1702")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ext.git")
                (commit
-                 "baebf10bba48c267d102f99733551028cb460eaf")))
+                 "629c1858550c26dffff46a34fe65f37df9ab637e")))
         (sha256
           (base32
-            "0brc8pzjdqpachmqalq88yvkps8vhx707w6nn18dwmbdhwnsfwci"))))
+            "0p38wcghpa8ksjb6h6y07771gzvb0w5izfyd76l064llpg2k8ami"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-vhdl-ts-mode
@@ -125326,17 +125326,17 @@
 (define-public emacs-vhdl-ts-mode
   (package
     (name "emacs-vhdl-ts-mode")
-    (version "20231220.1858")
+    (version "20231221.1555")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ts-mode.git")
                (commit
-                 "768fc7afed0e3928bf74fca93ec68329ded89003")))
+                 "ec87bbe704eca948ea647d3143810db532a3c231")))
         (sha256
           (base32
-            "0h33fbdji2ghqb0ppsna0x1h5qc6fcj0qyky1igxgdl3xxq38crp"))))
+            "1lpnx64f6dr849ajqy7h64zrbvk8vxwn89dcrjcjbfdxfz27gmzi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/gmlarumbe/vhdl-ts-mode")
