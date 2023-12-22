@@ -36685,17 +36685,17 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
     (name "emacs-evil-textobj-tree-sitter")
-    (version "20231115.1445")
+    (version "20231222.1559")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meain/evil-textobj-tree-sitter.git")
                (commit
-                 "9a9edd42a2dca9dfd0bc6026d47f689fa117b90f")))
+                 "220ceae065852ef4f717fa41efd1ab51ca2346d3")))
         (sha256
           (base32
-            "0j2zrhdffr3i9bwnaam5n908xmaq9z230sx6flid94cp9pvsxmxb"))))
+            "0a7wg9gzgisi4hzxm3yxclzgwiqw9vd7bc9f5nz1ry2xdk0hbna4"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "queries" "treesit-queries")))
@@ -59330,17 +59330,17 @@
 (define-public emacs-humanoid-themes
   (package
     (name "emacs-humanoid-themes")
-    (version "20231214.2157")
+    (version "20231222.1052")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/humanoid-colors/emacs-humanoid-themes.git")
                (commit
-                 "a9e3ad8b245a1c95a2aca9bbe3c664202d8bf162")))
+                 "7dd4fe1211e0af187ae9ad4db6d5bea9e3e944f9")))
         (sha256
           (base32
-            "1sj7hj1d8wk09jjn9xnjyqvazj4wq0vzyanf4sxgnysvldwagi21"))))
+            "13wibzz7dvsrkzimwjrnkc93j27jw5jwg4bg3dal712cvpfj4avw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/humanoid-colors/emacs-humanoid-themes")
@@ -68022,17 +68022,17 @@
 (define-public emacs-kotlin-ts-mode
   (package
     (name "emacs-kotlin-ts-mode")
-    (version "20231129.1314")
+    (version "20231222.1345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
                (commit
-                 "97fb77d36169179f0b6326abac148df501870718")))
+                 "c884b3442806a21cbcf28ac24853f05da8ac6658")))
         (sha256
           (base32
-            "096k6l726cvlb5ra6b3lr7dsnwfnvwb017bnq3bwjk2lph6jhicb"))))
+            "139a201kd8hg21jrkww86xdjwx4r586cwv9i1ypclb4mswjahgay"))))
     (build-system melpa-build-system)
     (home-page
       "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
@@ -90050,17 +90050,17 @@
 (define-public emacs-org-static-blog
   (package
     (name "emacs-org-static-blog")
-    (version "20231006.1534")
+    (version "20231222.923")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bastibe/org-static-blog.git")
                (commit
-                 "8ef0d792d5afbca1d6ffc6469d829e15a8406b93")))
+                 "0bc0fecf0d5e3756b5003cb5c9adb3a58ffd49f1")))
         (sha256
           (base32
-            "0m8jw2w3hy0jxmyiw38jajfd6a3c3hxyrp8as4zcxcjdf1jxy9yy"))))
+            "0p63nmrlmwg9lw8xc6za0hs56f62x6v3mfrzxav31j9qqbnqkwsp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bastibe/org-static-blog")
@@ -90259,17 +90259,17 @@
 (define-public emacs-org-tag-beautify
   (package
     (name "emacs-org-tag-beautify")
-    (version "20231204.1322")
+    (version "20231222.1404")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-tag-beautify.git")
                (commit
-                 "812a3ec50d1454a96643749a9e4e44e1c19574de")))
+                 "2a5d676d88287d60640113795548e7a287028c5d")))
         (sha256
           (base32
-            "1z1v1saxlffdka0n26564xng05ap6wn2v9h6b1w426f7n79kkhv1"))))
+            "1wxxh4cvwmydkw0pdr0mnkwki7j8shsw6dy82xlsvi3m6czdb0zc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-nerd-icons))
     (home-page
@@ -90853,17 +90853,17 @@
 (define-public emacs-org-wild-notifier
   (package
     (name "emacs-org-wild-notifier")
-    (version "20230831.2035")
+    (version "20231222.1147")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/akhramov/org-wild-notifier.el.git")
                (commit
-                 "aa0f2d8ea282dea714ae67f3f5a0471488e6e396")))
+                 "97649754cead8826fd1b07dc0f6e6eb89cb181e1")))
         (sha256
           (base32
-            "00xssqg0mvh5ma2053719bcchbrl7mmj8wzhbrjk34cl4lx9p9fb"))))
+            "181fckfp5s8apll1z3zkkqmqa58iylwi2ml3z5z77ppsbjdnyrp7"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-alert emacs-async emacs-dash))
@@ -91642,17 +91642,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231221.2306")
+    (version "20231222.914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "fa7d102dc3ee24df77b2f2483e3ecbb0ff17717a")))
+                 "01dc16ac90d2e4f44d6e5843eb7f738332e5e329")))
         (sha256
           (base32
-            "12mm5c7cvd6zjniadryx3gzm2waz3xr2kzlg7s9x46zx6z7qx3ff"))))
+            "1vdf7c0y91mn87l4ajd8dcb2qb4xyyrnwnx7fz2qd5z19gksnxza"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -92795,17 +92795,17 @@
 (define-public emacs-ox-pandoc
   (package
     (name "emacs-ox-pandoc")
-    (version "20231221.1709")
+    (version "20231222.1103")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacsorphanage/ox-pandoc.git")
                (commit
-                 "c4ecff38ca8b87dcfa9e8859fbe45901679fb42b")))
+                 "399d787b6e2124bd782615338b845c3724a47718")))
         (sha256
           (base32
-            "08283aciqc92n2zmmq1hfb43v9ff5jgzdp99xwk1pagi498jq1qs"))))
+            "0267m5n08w3h0zpniiwp4ngpmxkjwzndl9kg88k0cknkbqhg27ps"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash emacs-ht))
     (home-page "https://github.com/a-fent/ox-pandoc")
@@ -125269,17 +125269,17 @@
 (define-public emacs-vhdl-ext
   (package
     (name "emacs-vhdl-ext")
-    (version "20231221.2321")
+    (version "20231222.1305")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/gmlarumbe/vhdl-ext.git")
                (commit
-                 "629c1858550c26dffff46a34fe65f37df9ab637e")))
+                 "2cc1bce731ef6075638b12afc4c9b079644940fd")))
         (sha256
           (base32
-            "0p38wcghpa8ksjb6h6y07771gzvb0w5izfyd76l064llpg2k8ami"))))
+            "0n7376p9p6hhqwbp0p4lljhg3icwranh4af5b4bciacl6s6z60ik"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-vhdl-ts-mode
