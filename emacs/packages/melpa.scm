@@ -3811,17 +3811,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20231215.253")
+    (version "20231222.352")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "3aa747856a53d1108c4009b47e77b48d9f290694")))
+                 "b2d2b50f1a8b4cfcb7aa9fa815017bac26552da9")))
         (sha256
           (base32
-            "0c5pqmxwixmsszm8n1f98w8xk6i5dsrjwrzarxc4rgmj7ahm2v9b"))))
+            "1lp1rq6kvng6gnh1pk5ijhi3dzqmabp9i37ibp2g8cipzpx1hj6z"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -26093,17 +26093,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231212.210")
+    (version "20231222.636")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "e521d32c2d670dc664424857e3fc18a37f0728f6")))
+                 "a312ea8f4ad6fcf9cf1d22fe65aa897f73336a4b")))
         (sha256
           (base32
-            "121pszm4ajhdwxa2wnngdc3gfqmb49qq3jdlshdvyj9zas1wc2wn"))))
+            "1kp9rrd2vysv3zpfja1jk6rf4p04q4myns9277f81jqzy2cm7l07"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -50729,17 +50729,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231222.9")
+    (version "20231222.525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "1a554785e82d72cddf4393b6800f316eb9c54430")))
+                 "c9d362a3e9c713760239d51c992bb71b194b6ae7")))
         (sha256
           (base32
-            "15r8yhq0y4ls2miwvhkx8p0q582l5ilwn80n8pc6mb2r0ra03w7m"))))
+            "1n2c5cj0jcpjx3s6ab87lwyxfqnc23dz32wwa587g7nkmllvp049"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -52062,17 +52062,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231219.1642")
+    (version "20231222.608")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "67961b9b5c436a996974cd07354e3e7cfb6d0eb6")))
+                 "f98551cea66a182cc3f83fdf2a6d5a02df966588")))
         (sha256
           (base32
-            "1ki4rk06qncahxk3sir2lzxvwgjs831v4w2qmbirv5w79gd932ca"))))
+            "1d0k79x0pl9zzij8r2yhqa6ja67gcrfgxlq4p19k7k8m1wm8dwql"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -76811,17 +76811,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231220.2242")
+    (version "20231222.543")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "0559dd59b8e122d15225a8763bdfcdc173129570")))
+                 "9a9e673a624e9c1c1586dca2ec3d1bb5002ce088")))
         (sha256
           (base32
-            "0pmw6iqcn36y25n2qr4d7p4vgkwm60n9hjrzfin5l3zszaphpy84"))))
+            "1478ijzc9xi8h1ahjfs4x6i9p4wpfp24s48ib985nmxa2z2i7jd0"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -89126,17 +89126,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20231216.1310")
+    (version "20231221.2314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "77b4c2bce214905901ce47ffbf0fa1a930bb657e")))
+                 "087e99703efc236680e77f4d081b939139e1d782")))
         (sha256
           (base32
-            "137csccvx25nz3v642dzw8jkqrxxza66vrif5c7r19fqcj7ppdyp"))))
+            "0l403n75xyjf14pbk7hfdzajv393mk5m0xp9csv8dl805rgzrdkr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -91642,17 +91642,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231221.2230")
+    (version "20231221.2306")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "f91272da508fdf0d6459a840dc04d17150012041")))
+                 "fa7d102dc3ee24df77b2f2483e3ecbb0ff17717a")))
         (sha256
           (base32
-            "1g7krj24szx0f396bji4wnw211by8gvnlqiwzky91pbssdxnz957"))))
+            "12mm5c7cvd6zjniadryx3gzm2waz3xr2kzlg7s9x46zx6z7qx3ff"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -111384,17 +111384,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20231218.2206")
+    (version "20231222.403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "1be7fd2da04d52eee29a50ea06c5f121943c3c9f")))
+                 "6f521dd9806e0cb1ce004937b4d4201ea79124f3")))
         (sha256
           (base32
-            "0bk2b0263294kbpwixpsb58xsl6jrm9y78ap4bxvka3rm69g5qyv"))))
+            "1i0ddknw7r4bdsyvl6f02qljynzgry30xrbvjifj4q10h5b492b5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -117034,17 +117034,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231221.1529")
+    (version "20231222.436")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/emacs-syncthing.git")
                (commit
-                 "4050d39e769b74e09b60aeda0fbc1b7f4e5aa0a4")))
+                 "41a1338c838fd9a4a9400f4574b36ec718a38a56")))
         (sha256
           (base32
-            "1xzci7m383fnndai40482nzn1rh32l239sfyi84wvkwrjwsqnkwd"))))
+            "075nxasg0w1j3igwd80q9i91n62jjrnn30hbn48h1gwrr67lqs5r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
@@ -125019,7 +125019,7 @@
 (define-public emacs-verilog-ext
   (package
     (name "emacs-verilog-ext")
-    (version "20231221.1707")
+    (version "20231221.2323")
     (source
       (origin
         (method git-fetch)
@@ -125269,7 +125269,7 @@
 (define-public emacs-vhdl-ext
   (package
     (name "emacs-vhdl-ext")
-    (version "20231221.1702")
+    (version "20231221.2321")
     (source
       (origin
         (method git-fetch)
