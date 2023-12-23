@@ -11053,17 +11053,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231221.719")
+    (version "20231223.1045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "c6fb8ca1ab6be0e42b396a7bbda9ba00fdd75a79")))
+                 "80b41c67ab75eb57aa0fb527842f9d3d82002544")))
         (sha256
           (base32
-            "0m75ky1myzvgvfpnqh5q5m3l802306r3i83217qga412q5fcczxq"))))
+            "12znx720fhr67v37zv2qk7673k821jcx4jkly0780ld2vjxxiv0h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -18778,17 +18778,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231222.1723")
+    (version "20231223.1100")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "9cebcfedca0ab165fcfc8a56acc2d2513a02b9e3")))
+                 "8167301b61ff479d34cb3e069154cfa119ed3b44")))
         (sha256
           (base32
-            "0aapgm5nj9hxhqb4cj7slaj79j9zf2nb101sdqrxy4i3y7svyfwr"))))
+            "1vsi91v9vxh9g51z6sfly258nlzas7dlq69107hbyb0wjqh3drjf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -72488,17 +72488,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231220.126")
+    (version "20231223.811")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "abe41f1745545fd9529ca5455897509f880ad41a")))
+                 "9292d7dbe14078cec5ffd5bb39a38d6204c227d6")))
         (sha256
           (base32
-            "1rp2caxx8rdys3x87mxyb33zc6pl1q18gva83507nhmllxp4irvb"))))
+            "09c86rs6js5rjcmnk3ij9139qhh3412ds9m1skvgpg160dwgxj5k"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -91642,17 +91642,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231222.2250")
+    (version "20231223.1529")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "efd41d881fad581f569fa9153fd64f3094d2aab8")))
+                 "dcb9616543ecadb57c63cfbc1a06587a197a18db")))
         (sha256
           (base32
-            "13h5dvran9ijfibv0583k86ljjmipn0z5qqk6j9qmf8ls6nplpwy"))))
+            "0d97mg6571g3bdfa08fpviazzaa6hrdz6ypwii694qj9w73src4j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -102797,17 +102797,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231222.1554")
+    (version "20231222.2114")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "2ad39c6b76e412273719194f22ee77ece3189374")))
+                 "a4035b5065765c6730b25a0c065c706891ed5e9a")))
         (sha256
           (base32
-            "01cnad2xnnrafgick7kkqp2gnp2l7yzvk9lcsv5g961wqpnxqi45"))))
+            "0hhczyzz48mcxxyxpby0liwyxsgzrznzsmsmcl58yb6j0fy8db7x"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
