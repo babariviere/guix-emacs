@@ -50729,17 +50729,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231222.525")
+    (version "20231223.49")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "c9d362a3e9c713760239d51c992bb71b194b6ae7")))
+                 "8d3e08faa88cefb89f8e90e99cd2b2513b8f04b9")))
         (sha256
           (base32
-            "1n2c5cj0jcpjx3s6ab87lwyxfqnc23dz32wwa587g7nkmllvp049"))))
+            "1j1j665vam1axcmic5w1v73b8ralcy7mvhpp3dmdirm1xc38r75m"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -65640,17 +65640,17 @@
 (define-public emacs-json-mode
   (package
     (name "emacs-json-mode")
-    (version "20230805.507")
+    (version "20231223.548")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/json-emacs/json-mode.git")
                (commit
-                 "481d5d9f4003fc14d116bf31d1bf71d14960d7d9")))
+                 "a93a0c76784376fbb9105719f25c7489991056a1")))
         (sha256
           (base32
-            "0k4sfw3dq1wlfz2hyw72h6wgf1sss8xjcc1bnwwn7ip4balwi1yf"))))
+            "0irz9gpw43wkhiq8828wm9nsc3baqg299dgly9iv7jiygk2lp14s"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-json-snatcher))
     (home-page
@@ -116887,17 +116887,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20231215.514")
+    (version "20231223.319")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "ffd2311b57ca40f5e0d0aff3704f23972ef0dc93")))
+                 "2ac81f5d20048380b0334944484a0f44515d051b")))
         (sha256
           (base32
-            "0flmn40f7gppw3c1kwk6wb5ngh5r07bg3yf97lfcjmbpxpa58wr8"))))
+            "1gxvcc16d1p9aq3bx2fwyfxvgyfi4w7ggsjr27ivmqrvfdwsms01"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
