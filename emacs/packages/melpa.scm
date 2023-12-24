@@ -28339,17 +28339,17 @@
 (define-public emacs-editorconfig
   (package
     (name "emacs-editorconfig")
-    (version "20231218.501")
+    (version "20231224.44")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/editorconfig/editorconfig-emacs.git")
                (commit
-                 "6a755d5032f83244af1ae76a5d256e2c62ef0168")))
+                 "f7588dd1a216bfd0a89109ae7bcc3a7da74824c1")))
         (sha256
           (base32
-            "0zh9hrp7frmbfapkv7ib62z529cbb8jq8vi4z2176i61m1acw224"))))
+            "0p73yap7hq5kndiqabkz7v659xj3amn4rv3nikrvs0winmp7gif4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/editorconfig/editorconfig-emacs#readme")
@@ -43555,17 +43555,17 @@
 (define-public emacs-flymake-languagetool
   (package
     (name "emacs-flymake-languagetool")
-    (version "20230122.1609")
+    (version "20231224.119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-languagetool/flymake-languagetool.git")
                (commit
-                 "ad8c724147d5a3a9f6ee59e0c7581e68fba4a2f8")))
+                 "6f04572a92a71828e0daf3b322ba6f3ec27e874c")))
         (sha256
           (base32
-            "1h1c0anbch18i66qr6vjb0lf1ygx7y06inqy9r6wss51261l2cly"))))
+            "15yk425rbp6ww3z3c0l8815my296cjz5zj1knm5wjycw12rz59hm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-languagetool/flymake-languagetool")
@@ -51811,17 +51811,17 @@
 (define-public emacs-gumshoe
   (package
     (name "emacs-gumshoe")
-    (version "20230302.457")
+    (version "20231223.2307")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Overdr0ne/gumshoe.git")
                (commit
-                 "3b65ee2496d6de3c7c47a821b38a5a19e0b64c2a")))
+                 "b73422708a9a77dbe9937523f5855ef927a651c0")))
         (sha256
           (base32
-            "1xs25f7di94fb32ahh6h5rkv37bn9vrdahkp0hp4c7s9jpvxf5im"))))
+            "0d011nwhyy3s9n2i3fynnmyykxw57jsak793s0wqpb063z55qnid"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Overdr0ne/gumshoe")
@@ -88151,17 +88151,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20231030.1400")
+    (version "20231224.243")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "670bd54601cdcc129016bbbe6334f3277e88590b")))
+                 "12fb837e34ce3a73fbe6f6b8a6ca04d3f4cc0462")))
         (sha256
           (base32
-            "1lgys9d8qvw7jry50qfh1xq5znp23n8yi1rz6w7zq57b40na1rck"))))
+            "02ygp45ni9r7bfznsblglqnyxw8zidppl4a6vkr6bfpgj8sdgm5d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-nerd-icons emacs-fb2-reader))
@@ -89126,17 +89126,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20231221.2314")
+    (version "20231224.710")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "087e99703efc236680e77f4d081b939139e1d782")))
+                 "a4bf5b0a92e47fb4ea0c5e4e5462a71b1c9b20a9")))
         (sha256
           (base32
-            "0l403n75xyjf14pbk7hfdzajv393mk5m0xp9csv8dl805rgzrdkr"))))
+            "08b2azzwxlky39n5rycn8js79xlgalfjig8n9nlrldgw9rw621ys"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -91642,17 +91642,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231223.1557")
+    (version "20231224.645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "dcb9616543ecadb57c63cfbc1a06587a197a18db")))
+                 "c62a689eb66aab552ac4458fdba4ed96d27836a9")))
         (sha256
           (base32
-            "0d97mg6571g3bdfa08fpviazzaa6hrdz6ypwii694qj9w73src4j"))))
+            "13gn04011rd7i0ahpig60ls6ns7hkrn4l2893znyl5qvy67n75w9"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -117034,17 +117034,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231222.436")
+    (version "20231223.2345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/emacs-syncthing.git")
                (commit
-                 "41a1338c838fd9a4a9400f4574b36ec718a38a56")))
+                 "519fdea980634b8b013f3f565ddf1fc41927922a")))
         (sha256
           (base32
-            "075nxasg0w1j3igwd80q9i91n62jjrnn30hbn48h1gwrr67lqs5r"))))
+            "12fk4iwr3q2rfg6w2v0rjlx94k0lgc24dlr643zdqnfbvp0w50yr"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
@@ -127952,17 +127952,17 @@
 (define-public emacs-wikinforg
   (package
     (name "emacs-wikinforg")
-    (version "20231015.2127")
+    (version "20231224.220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/wikinforg.git")
                (commit
-                 "70260785e89b682f4dfde1aadaa345ad8b4b36ca")))
+                 "f3d090e81a45f453d05f721550d57e99873786ef")))
         (sha256
           (base32
-            "0mk283dk6w312k3c1vh13hp09i1q5g32nvhf0kpl2qjgjivbhfsi"))))
+            "15w43vl60zm4fypmmycrpd8jd7brzzsc1kxj8brzj1xm4xga0khh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wikinfo))
     (home-page
