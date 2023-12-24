@@ -28785,17 +28785,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231221.1458")
+    (version "20231223.2013")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "6b05ffd202e35463bfc48cd420722540fd103922")))
+                 "18ce693b03286e5a3aab9243552c8cf168dd1c2b")))
         (sha256
           (base32
-            "0cirsh09cj6xks9zlhp3zsg1r5gc6syjr15nyn2wcqz6q6qf93dp"))))
+            "1dij04vwvnmxlkq8gbpkcca4sj4zncf68fw44480k0mbgisa05gb"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -89868,17 +89868,17 @@
 (define-public emacs-org-side-tree
   (package
     (name "emacs-org-side-tree")
-    (version "20231220.1636")
+    (version "20231223.1634")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/org-side-tree.git")
                (commit
-                 "df915aaf1337fbff5801fad719019ac68c7ff56e")))
+                 "6abda5699f4721a8ef2189417c5e43386ad13b2f")))
         (sha256
           (base32
-            "16myfbsjmwq2jw7nb4yy7y7shhg4i6arqp78d04gj7h61y9jbdjy"))))
+            "1xq3mcf32grmyqhhwgbxf2vpwcm41p6apvh70sapxc770pkgqqg8"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/localauthor/org-side-tree")
@@ -91642,7 +91642,7 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231223.1529")
+    (version "20231223.1557")
     (source
       (origin
         (method git-fetch)
@@ -126962,17 +126962,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20231206.1239")
+    (version "20231223.1924")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "df57cd0beea9c6bdc64259bd11bde0c076a64cc9")))
+                 "9586a44b05d8bfdef2371461d896db01737dfee1")))
         (sha256
           (base32
-            "0dwynqy2bp41adfwxmp5gh5rhljm6fim4ijzbzbrkjb0vvp9ywrs"))))
+            "1dcnhypxlnp7dbly65zh5lx60zxzccbbqp8jv6vqdwvfr08a2mpp"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
