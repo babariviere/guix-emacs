@@ -12043,17 +12043,17 @@
 (define-public emacs-cfn-mode
   (package
     (name "emacs-cfn-mode")
-    (version "20231217.904")
+    (version "20231224.904")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/worr/cfn-mode.git")
                (commit
-                 "7b2965d5d8cb3625944211c1bc89dafc5d02227b")))
+                 "d6e208b1df618d54ec067ec46f212b62f8717dc0")))
         (sha256
           (base32
-            "1j9wsf8xhf7sbay5r9jbly0s73rzkijzi7x539ay4zjh0x3fhdv7"))))
+            "15jdxf27x3589kir52hc35wxfx93321ba5amzz04bpbhc0npfk3q"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f emacs-s emacs-yaml-mode))
@@ -68178,17 +68178,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20231220.2253")
+    (version "20231224.1345")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "962da27e4fa524e395980ac8806f635fd057124f")))
+                 "58e0e98ba0f9c91c91380fc55ab708198e770ebb")))
         (sha256
           (base32
-            "1cnsmx0qx4j5acyj39h6rbldvpfmmqsyw1w2nv3x9y2pk9h0ypi7"))))
+            "13pvgg6gcdfq297lnln30vzabsd493w55k5iv3wrgmd5vx7bin2d"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -68204,17 +68204,17 @@
 (define-public emacs-kubel-evil
   (package
     (name "emacs-kubel-evil")
-    (version "20220909.2028")
+    (version "20231224.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "aa6040d2aff9b8b99eb6692a0227357258622ddb")))
+                 "58e0e98ba0f9c91c91380fc55ab708198e770ebb")))
         (sha256
           (base32
-            "1sabfz0h9vpskfw44a9g2qny1mrh1cvrrlhkxv5814hx35fxk61g"))))
+            "13pvgg6gcdfq297lnln30vzabsd493w55k5iv3wrgmd5vx7bin2d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-kubel emacs-evil))
     (arguments '(#:files ("kubel-evil.el")))
@@ -93407,17 +93407,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20231002.1121")
+    (version "20231224.859")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "03f878a18c15432d084402e6ca5309c3ba51c78e")))
+                 "c48aa078c01b4f07b804270c4583a0a58ffea1c0")))
         (sha256
           (base32
-            "0pf3prlv0l63qgxrkp5cgixykmqwjny4rqwdlqadca6jlg4gb71f"))))
+            "0lzzf7n2wnjb3xjvcjlvrb63aw5zjw2zn4flbnc8i93fpvgy6crk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -112968,17 +112968,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20231222.1630")
+    (version "20231224.1116")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "c52132a5d1d75f875c7f1964b07c5b06e0814cf7")))
+                 "3800d7d03688eae67d17084f15e3812633188b1d")))
         (sha256
           (base32
-            "0dx964awzpp05a8rhz4shw6ijpsnancivfxaz4apjizhwq1azcw2"))))
+            "07jc6qx09jzgr0csvgdbqbpizqcc1zi0pyppi94xy400x18rzvxx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
