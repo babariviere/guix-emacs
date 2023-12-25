@@ -76811,17 +76811,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231222.543")
+    (version "20231225.51")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "9a9e673a624e9c1c1586dca2ec3d1bb5002ce088")))
+                 "b9ce71dfbf7b7fde165cd33e067f2bb4ca46309d")))
         (sha256
           (base32
-            "1478ijzc9xi8h1ahjfs4x6i9p4wpfp24s48ib985nmxa2z2i7jd0"))))
+            "123j8b2ksvsll63g7lpqs8s7qygz0mq13657h9dwblrd2r4m6nrd"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -120931,7 +120931,7 @@
 (define-public emacs-transducers
   (package
     (name "emacs-transducers")
-    (version "20231126.127")
+    (version "20231224.2358")
     (source
       (origin
         (method url-fetch)
@@ -120941,7 +120941,7 @@
                ".tar"))
         (sha256
           (base32
-            "14g66idv0ymsllcagxkl7649bq2k6rr2i64p1bab2178a6ghwwa9"))))
+            "0kfs2a7myxdfdfdgwb2w7xjfw9nk7accf2j6kj81a761yjm6aqa6"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~fosskers/transducers.el")
