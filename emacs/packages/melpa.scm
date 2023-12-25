@@ -65477,17 +65477,17 @@
 (define-public emacs-js2-mode
   (package
     (name "emacs-js2-mode")
-    (version "20231224.1851")
+    (version "20231225.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooz/js2-mode.git")
                (commit
-                 "010a536da6df345a0b9a55bbd892f5f4d0d9fdfc")))
+                 "ca0af32eea0281322a9ce268d98f01fbb88bbb7a")))
         (sha256
           (base32
-            "11ppp1m7hl4ii79zjw62bqvksyzh5xmp3q1qw21wlj2s47mkpm73"))))
+            "13pqiwf72r7fnwvlxzgvflkbjg9rdzd2rrcj15mv9b1ma3210fsw"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mooz/js2-mode/")
     (synopsis "Improved JavaScript editing mode")
@@ -70487,17 +70487,17 @@
 (define-public emacs-link-hint
   (package
     (name "emacs-link-hint")
-    (version "20231207.1247")
+    (version "20231225.1354")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/noctuid/link-hint.el.git")
                (commit
-                 "43378ae627d79c7645bbd4e756d857fcda2eab79")))
+                 "9153eafc776549376bb85d9ff555fef83aca8285")))
         (sha256
           (base32
-            "10ijy3b08iv29vhjzbknplapka47cjx48hzv6dq8nx1llxb8vdz1"))))
+            "0bdmd8df8qhk48imk22sgwccyiw1xg9x6hmiwh4d8xiazj0fhaym"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-avy))
     (home-page
@@ -76811,17 +76811,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231225.51")
+    (version "20231225.950")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "b9ce71dfbf7b7fde165cd33e067f2bb4ca46309d")))
+                 "1f56757e18a1b40fe67a130e4fbc24674b0c3042")))
         (sha256
           (base32
-            "123j8b2ksvsll63g7lpqs8s7qygz0mq13657h9dwblrd2r4m6nrd"))))
+            "15q32vz1q62mp3flmn02a6lrs3jzpx2i6ig6pvh5anxca6v980rw"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -77832,7 +77832,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231224.1503")
+    (version "20231225.1129")
     (source
       (origin
         (method url-fetch)
@@ -77842,7 +77842,7 @@
                ".tar"))
         (sha256
           (base32
-            "0f0kq5ymfvlvznapnl035jspbx9h1x7z1pyhk7mlg01ash9xlxxn"))))
+            "0aiwz8dh4nyn6bzj986vq7qckd8kgfijwh35prz6isj9x4z6fxbn"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -81517,17 +81517,17 @@
 (define-public emacs-nimbus-theme
   (package
     (name "emacs-nimbus-theme")
-    (version "20231206.2052")
+    (version "20231225.1055")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mrcnski/nimbus-theme.git")
                (commit
-                 "684124fe5eb1330bbbf270bc52ec059314cc67bc")))
+                 "e6bbf473ac6f76fe0a1ef0863c7d2f50b2852caf")))
         (sha256
           (base32
-            "044agk4dgmw1gg29fv5qgh60pfz9bi3m9xk660sgsickh3vfh8hw"))))
+            "03n5k5dd12jfggydvlxjdmz6gib62qh4vf20vdwb5mv3mk81by07"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mrcnski/nimbus-theme")
@@ -91664,17 +91664,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231224.645")
+    (version "20231225.1134")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "c62a689eb66aab552ac4458fdba4ed96d27836a9")))
+                 "e38d82d5ca4984ae72539bdefc3c950de6032bd3")))
         (sha256
           (base32
-            "13gn04011rd7i0ahpig60ls6ns7hkrn4l2893znyl5qvy67n75w9"))))
+            "0mvm7vlzwppw1k1cqx06sijkh3zjxxsrbiqzsgvvml8g2n5rz0rw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -114773,17 +114773,17 @@
 (define-public emacs-srfi
   (package
     (name "emacs-srfi")
-    (version "20231130.2037")
+    (version "20231225.755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/srfi-explorations/emacs-srfi.git")
                (commit
-                 "aa0164b45fa15bd1cc377793d27af4ddd8d99855")))
+                 "7cd699f428c729131fe7a7028f33aa491ec28a53")))
         (sha256
           (base32
-            "0g1mgqschnpxvqis0j9ldp070v5wgc9kz9sl6gac1gnvnqvdfkss"))))
+            "1xhkwhilmbr705csr7awm96x0p3i2hnhd6dm94wpn50zf5x0s99h"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/srfi-explorations/emacs-srfi")
@@ -126984,17 +126984,17 @@
 (define-public emacs-web-mode
   (package
     (name "emacs-web-mode")
-    (version "20231223.1924")
+    (version "20231225.1458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/fxbois/web-mode.git")
                (commit
-                 "9586a44b05d8bfdef2371461d896db01737dfee1")))
+                 "82847071ce93293bdb7945db08d970f13fd883cf")))
         (sha256
           (base32
-            "1dcnhypxlnp7dbly65zh5lx60zxzccbbqp8jv6vqdwvfr08a2mpp"))))
+            "0ykvhgxd5ar3h96rb1888sfjjs0nlpaf63ci8hhhgyhjq9ssr61q"))))
     (build-system melpa-build-system)
     (home-page "https://web-mode.org")
     (synopsis "major mode for editing web templates")
