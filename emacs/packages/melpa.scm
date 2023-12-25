@@ -28785,17 +28785,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231223.2013")
+    (version "20231224.2257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "18ce693b03286e5a3aab9243552c8cf168dd1c2b")))
+                 "2f6dfdeca8cbf066c50c0697d5b47ac16f22625f")))
         (sha256
           (base32
-            "1dij04vwvnmxlkq8gbpkcca4sj4zncf68fw44480k0mbgisa05gb"))))
+            "0s5mp4kkvpbw3g9m0d42k0c6rls1mkng5sq49vmg7y1r6xzlb40m"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -51811,17 +51811,17 @@
 (define-public emacs-gumshoe
   (package
     (name "emacs-gumshoe")
-    (version "20231223.2307")
+    (version "20231224.1844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Overdr0ne/gumshoe.git")
                (commit
-                 "b73422708a9a77dbe9937523f5855ef927a651c0")))
+                 "2d91bf3810ee93fad57772983720f77e9f534b61")))
         (sha256
           (base32
-            "0d011nwhyy3s9n2i3fynnmyykxw57jsak793s0wqpb063z55qnid"))))
+            "0l6hk7q1in9zcclpxd1nsjj7sggg3gzqhj2piffg31xfl7f62r5r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/Overdr0ne/gumshoe")
@@ -53651,17 +53651,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20231209.709")
+    (version "20231224.1104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "b04272a53e5b2db1fc7724d4ba84e51fd20e9c4f")))
+                 "a4e4f06073699c3900c6b5b98445f7f918d28563")))
         (sha256
           (base32
-            "0f7vwrvxg83gril2y5qm4469nzhy51dg49zn643pni6cmhz7r9mx"))))
+            "0x3npy0gv7r6s7lkhk6ppmcbq5784grsjdg3p2sj52zqpbg40cz4"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -65477,17 +65477,17 @@
 (define-public emacs-js2-mode
   (package
     (name "emacs-js2-mode")
-    (version "20231219.1926")
+    (version "20231224.1851")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mooz/js2-mode.git")
                (commit
-                 "1a5aeb22e93def6d21872c6192391decd6aacb6b")))
+                 "010a536da6df345a0b9a55bbd892f5f4d0d9fdfc")))
         (sha256
           (base32
-            "14q5q73j51rlcjgv7833rxf1slgrxfil18vfsjk9pcyzprakp776"))))
+            "11ppp1m7hl4ii79zjw62bqvksyzh5xmp3q1qw21wlj2s47mkpm73"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/mooz/js2-mode/")
     (synopsis "Improved JavaScript editing mode")
@@ -77832,7 +77832,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231221.824")
+    (version "20231224.1503")
     (source
       (origin
         (method url-fetch)
@@ -77842,7 +77842,7 @@
                ".tar"))
         (sha256
           (base32
-            "1y3ll6ibgyqwrx4si8vc0g5y8imq6bnns62vrajfs47fl5nmqx2p"))))
+            "0f0kq5ymfvlvznapnl035jspbx9h1x7z1pyhk7mlg01ash9xlxxn"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -85811,6 +85811,28 @@
       "Documentation at https://melpa.org/#/opam-switch-mode")
     (license #f)))
 
+(define-public emacs-open-color
+  (package
+    (name "emacs-open-color")
+    (version "20231220.1921")
+    (source
+      (origin
+        (method git-fetch)
+        (uri (git-reference
+               (url "https://github.com/a13/open-color.el.git")
+               (commit
+                 "4db381311d4b659922566236697a424f5f3fde6f")))
+        (sha256
+          (base32
+            "1nmg6y4b7vqlr036q6jmzw02ql4g00rand87j3flbdd5wbgx02si"))))
+    (build-system melpa-build-system)
+    (home-page
+      "https://github.com/a13/open-color.el")
+    (synopsis "Open Color color palette")
+    (description
+      "Documentation at https://melpa.org/#/open-color")
+    (license #f)))
+
 (define-public emacs-open-in-msvs
   (package
     (name "emacs-open-in-msvs")
@@ -87687,17 +87709,17 @@
 (define-public emacs-org-gtd
   (package
     (name "emacs-org-gtd")
-    (version "20231222.1705")
+    (version "20231224.1639")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/Trevoke/org-gtd.el.git")
                (commit
-                 "87b4bf70b4e7957e4c028bf17b585e629b8b1020")))
+                 "f82eb971db0008b773a57c207120751f913bde6b")))
         (sha256
           (base32
-            "1jbhy9k2if7bxmb0hvkayy1ib3zxbf1pdrwhzd2jzkjw6ma3i0gz"))))
+            "0ffwc6zv0y3kwj4a3nzd2dj7jq51lck3kqzgl0il54hyg9fpm7ll"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-edna
@@ -102797,17 +102819,17 @@
 (define-public emacs-racket-mode
   (package
     (name "emacs-racket-mode")
-    (version "20231222.2114")
+    (version "20231224.2126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/greghendershott/racket-mode.git")
                (commit
-                 "a4035b5065765c6730b25a0c065c706891ed5e9a")))
+                 "7b6c9d7f493d301969c6a17a6a4e2171608e119a")))
         (sha256
           (base32
-            "0hhczyzz48mcxxyxpby0liwyxsgzrznzsmsmcl58yb6j0fy8db7x"))))
+            "0s12kzbxadzg4h08l7l1lqavs1jkpc8cq7s9qlpsvnf9g4dmhzpg"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
