@@ -50729,20 +50729,20 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231225.2203")
+    (version "20231226.220")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "f8d14e675545d124475936f12eefbaf76ef7d2f2")))
+                 "8c9adff0fcde25cff8a1cbaa9cbade62a2be1499")))
         (sha256
           (base32
-            "0njz38m1mlkqk2k91mxni6b7r68411ps87iar8rwg5g86rq8l7l2"))))
+            "1i9kliicykbwivm3ggwjz0csnl3rjjmc5cqd6kq5db0bn7n9gj43"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
-    (synopsis "A simple multi-LLM client")
+    (synopsis "Interact with ChatGPT and other LLMs")
     (description
       "Documentation at https://melpa.org/#/gptel")
     (license #f)))
@@ -52867,17 +52867,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231217.1742")
+    (version "20231226.738")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7b82a980b45049490af9cdeda585dd8ba0548226")))
+                 "bf82eb5f7bf092b2407023824cf871d88b01ab25")))
         (sha256
           (base32
-            "017dn5pcnfv0fq08ng1yz6h17xlhmbidqxmhqh19097wi27ps3h5"))))
+            "08almbc59rhag09ngl5hp4bhaf16y84jg5jy6m8wr4hrghqainnh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -53651,17 +53651,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20231224.1104")
+    (version "20231226.622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "a4e4f06073699c3900c6b5b98445f7f918d28563")))
+                 "bf82eb5f7bf092b2407023824cf871d88b01ab25")))
         (sha256
           (base32
-            "0x3npy0gv7r6s7lkhk6ppmcbq5784grsjdg3p2sj52zqpbg40cz4"))))
+            "08almbc59rhag09ngl5hp4bhaf16y84jg5jy6m8wr4hrghqainnh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -88079,17 +88079,17 @@
 (define-public emacs-org-journal-tags
   (package
     (name "emacs-org-journal-tags")
-    (version "20230704.2026")
+    (version "20231225.2314")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/org-journal-tags.git")
                (commit
-                 "f6433d0810f87a80847f4f3674db4ac89a59c69c")))
+                 "c9dba4817f098281139c85db5b1bcbf79edc419b")))
         (sha256
           (base32
-            "1x9pa6n67sba8wjgcysg5w4fkszr9h3wyj0a8w3zx3icfs675r6a"))))
+            "1ns42sfi5z7jd149zxp1clqq494mpajcxkljzriqy15r4i63y87f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-journal emacs-magit-section))
@@ -95677,17 +95677,17 @@
 (define-public emacs-perspective-exwm
   (package
     (name "emacs-perspective-exwm")
-    (version "20230218.1358")
+    (version "20231225.2313")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/perspective-exwm.el.git")
                (commit
-                 "01d51f5c92a30b65e8346582ed1ce6513570bb0a")))
+                 "68fb0ca2d482e0f4a92c4ceb19bf2262ea937e95")))
         (sha256
           (base32
-            "06lnmbimjj5kyr0mixjagcv903fbn00wvp63wlni2g8c3bhx1p48"))))
+            "1sq00ifmdf61m3vpj59b2fc14djy1sxqnwk5wjg4zbkvml9hf7d2"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-burly emacs-exwm emacs-perspective))
@@ -98157,17 +98157,17 @@
 (define-public emacs-pomm
   (package
     (name "emacs-pomm")
-    (version "20230602.2045")
+    (version "20231225.2308")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/pomm.el.git")
                (commit
-                 "12ce6a68c7ba7be16c2990c0b660bbb87b6fc9b0")))
+                 "a717c3a05352cb8a233a5b4330186ead077746ba")))
         (sha256
           (base32
-            "1zxld8a0siscwwkymzwd7bnf6ivhisg3swqg7r5vqgham35lb4px"))))
+            "0rmx9fip83c6j12y06a9d03npr1mdsp7qvzv3bl3hlnhmkdknb1z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-alert))
     (arguments '(#:files (:defaults "resources")))
@@ -121446,17 +121446,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231221.1104")
+    (version "20231225.2346")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "79eabcf0f7018f70928a9d51b6348c787e300088")))
+                 "003320d43e7a1c7ebed0b98b40a761ea7682026c")))
         (sha256
           (base32
-            "1hchsvi3xf8nahna8pv9phicm110l72hdarai72n4rpd87ij9cpx"))))
+            "0fr4lnflz5rrn016kwv2kgnhn4vbbv5shms399fqzv71icw69gfd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
@@ -125941,17 +125941,17 @@
 (define-public emacs-vs-dark-theme
   (package
     (name "emacs-vs-dark-theme")
-    (version "20231028.356")
+    (version "20231226.6")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-dark-theme.git")
                (commit
-                 "1f6f0afecc4576cc1cee573f82efe465042507f3")))
+                 "4a0d8354a9978d6e1d4910bcd5e5fc9e8aaf4cd9")))
         (sha256
           (base32
-            "0yv1gs6prj4qkwav6yjfxrck8y29pbsnidfhnap2vx2rfb94q1k8"))))
+            "16wys79bk85sv0knlr2nmwswni1la0l5l3s0ra3s13gv34rwv71v"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-dark-theme")
@@ -125963,17 +125963,17 @@
 (define-public emacs-vs-light-theme
   (package
     (name "emacs-vs-light-theme")
-    (version "20231028.356")
+    (version "20231226.5")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-vs/vs-light-theme.git")
                (commit
-                 "174e1dffc26998d8bc074f1f78068a8e612d4be3")))
+                 "e4fc33c91ce320a6f312c23bbe466a1780cc4d9f")))
         (sha256
           (base32
-            "01h55rw65wk630l868lm3s1zkggksmvf1c0ywhnz0l4a570f859h"))))
+            "0acs8hxww9400yv430vqads7ww1p35xhvjsmp40xpzk9dcm96nxq"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/emacs-vs/vs-light-theme")
