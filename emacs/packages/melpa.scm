@@ -8184,17 +8184,17 @@
 (define-public emacs-biome
   (package
     (name "emacs-biome")
-    (version "20231015.1930")
+    (version "20231225.2322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/biome.git")
                (commit
-                 "f931520566a31ebcc3392bb902f1c36e377bb2a2")))
+                 "599a55fa20a7ba38c3aead07e0af7b7b02902dfa")))
         (sha256
           (base32
-            "162mnjq0pxxakcrrhr0bcm2rnvx1di0hg6xmrbljkcgjs20yzsfm"))))
+            "1d7pjpmsrhj42c8dn26w7ffizg4q1c8v88b03mb81g22iw0mxfkq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ct emacs-request emacs-compat))
@@ -30175,17 +30175,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20230823.925")
+    (version "20231225.2310")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "129b893da11ad6195e8bb40ddc236ffd27fa96a7")))
+                 "efa30b88d7f048a2df4958e59da8002ebd2dbb29")))
         (sha256
           (base32
-            "02ij597azjabf868jk94kngnvjiwhh2iyibap81cianmd6hg3n5x"))))
+            "11v29pccqpsh7km106flz1rlnzwaaycxyyy6zznr06ggdhfcrh6v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -35043,17 +35043,17 @@
 (define-public emacs-evil
   (package
     (name "emacs-evil")
-    (version "20231218.920")
+    (version "20231225.1605")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil.git")
                (commit
-                 "fc6bd006503258e5cc09c92de8882f4496992946")))
+                 "2bd0cea01a5feceb376242b29830370954a45f55")))
         (sha256
           (base32
-            "1n39d9x1jv0vpm5kcqs0vxrfg2pj41hhiby7viqgic0xarg5ac9g"))))
+            "0ibrpzfg8hw3pn84xamblm6cf1a1hr6pqpcm0baa323xh3v7kwhs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-goto-chg))
     (arguments
@@ -35240,17 +35240,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20231219.1501")
+    (version "20231225.2045")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "c30158a0df2e252f15cffcd61ceb0ad58a395096")))
+                 "cf1a11912d1e77a197fab0e4f82d0c2268084455")))
         (sha256
           (base32
-            "1mxfkqq48c1l8j6mnbj0w3bjih6ah72rlxvspigpfzck0jp61zri"))))
+            "1iiw7hs08rr9xjqbcl3wgsgn2gz4qsyx8sblvyafh7bk65s0m011"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -37605,17 +37605,17 @@
 (define-public emacs-exwm-modeline
   (package
     (name "emacs-exwm-modeline")
-    (version "20230331.1747")
+    (version "20231225.2340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/exwm-modeline.git")
                (commit
-                 "852a88a58714e3e59675b79b185f036f7b0300e8")))
+                 "f72e65818f90c754edb8d0dcff47e8248a7f0a56")))
         (sha256
           (base32
-            "1al02ikfjc2nxlfd0gwn9a92rs3v8g3590130nqghmmpvagl9vj9"))))
+            "1qwxhkp5phbnzfijxlg7ldr68wpny4y07khhlbik3s6bn6829afh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-exwm))
     (home-page
@@ -50729,17 +50729,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231223.49")
+    (version "20231225.2203")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "8d3e08faa88cefb89f8e90e99cd2b2513b8f04b9")))
+                 "f8d14e675545d124475936f12eefbaf76ef7d2f2")))
         (sha256
           (base32
-            "1j1j665vam1axcmic5w1v73b8ralcy7mvhpp3dmdirm1xc38r75m"))))
+            "0njz38m1mlkqk2k91mxni6b7r68411ps87iar8rwg5g86rq8l7l2"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "A simple multi-LLM client")
@@ -73138,17 +73138,17 @@
 (define-public emacs-lyrics-fetcher
   (package
     (name "emacs-lyrics-fetcher")
-    (version "20220717.1716")
+    (version "20231225.2350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/lyrics-fetcher.el.git")
                (commit
-                 "a3be34b0153c2c056dc4b55bbc5fbdc2d9f87549")))
+                 "bcde34a7ae8db84170bfe76260eefed64686ddf0")))
         (sha256
           (base32
-            "1nyajjxidp2acsbpkbv4whcph6bmwjn31nii2y87xsj8cdv0wrx7"))))
+            "1ldim9sj9i8mdvsbwv2zs095zbr71z4rksjk8288rkbddhsg72xy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-emms emacs-f emacs-request))
@@ -76656,17 +76656,17 @@
 (define-public emacs-micromamba
   (package
     (name "emacs-micromamba")
-    (version "20230708.926")
+    (version "20231225.2320")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/micromamba.el.git")
                (commit
-                 "ce97237986668c31d9b023348f1ef16199276794")))
+                 "cd3ce4b7142790f25f20e5cfd6ed5ebbf4498c6c")))
         (sha256
           (base32
-            "182iz522899cc7qm5dc79vnph5jmcpm2hqi259xxs2hdl6mrx8y1"))))
+            "1bsz301jrlwpcsyyjsvyasbpfm6midn628a5f39xrxi69w0mzww7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pythonic))
     (home-page
@@ -117056,17 +117056,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231223.2345")
+    (version "20231225.1505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/emacs-syncthing.git")
                (commit
-                 "519fdea980634b8b013f3f565ddf1fc41927922a")))
+                 "d14073e81f55d00961790333189d7f084d939dc9")))
         (sha256
           (base32
-            "12fk4iwr3q2rfg6w2v0rjlx94k0lgc24dlr643zdqnfbvp0w50yr"))))
+            "0gakpw4iqcbscnvx0khpx43zsz6iprsqkj3yp4fhmrdpzi4sx618"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
@@ -119441,17 +119441,17 @@
 (define-public emacs-thrift
   (package
     (name "emacs-thrift")
-    (version "20231217.1732")
+    (version "20231224.1731")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/facebook/fbthrift.git")
                (commit
-                 "15f3e02ee6a1e7131feafd47cbface675cc5104a")))
+                 "62d48b95516fca25b520520f3ac0b9453b865065")))
         (sha256
           (base32
-            "0z2207fh34m23mn2gi9rap2b2bf6lpamgpp8a647ri7m010bs3jk"))))
+            "1gmcx9d7m2pd7vqxqdk4l3pl9k2pimjjdj1h6fclnbclhimfmlbc"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files ("thrift/contrib/thrift.el")))
