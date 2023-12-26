@@ -15275,17 +15275,17 @@
 (define-public emacs-color-theme-sanityinc-tomorrow
   (package
     (name "emacs-color-theme-sanityinc-tomorrow")
-    (version "20231213.1748")
+    (version "20231226.930")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/purcell/color-theme-sanityinc-tomorrow.git")
                (commit
-                 "b6703bb326da6ba08fb1f73b88445ba52abda499")))
+                 "a918dfe597e3a350b2dd5368eaf33b0432885453")))
         (sha256
           (base32
-            "0jsi9knk2h9mqd7mxfsg98rakf2dan7v31g1j8x45lrk7d51ijxj"))))
+            "1zxwg7894vqnm4pf7w56vzb811av2nhrkqrxsa3x5d6mhravf3wy"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/purcell/color-theme-sanityinc-tomorrow")
@@ -52062,17 +52062,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231222.1632")
+    (version "20231226.831")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "a151828772e55d20c919080ff9ac40e3b90fdc6d")))
+                 "a2cdf558daf999e6c5e1075770050da21bb4367e")))
         (sha256
           (base32
-            "11qslh9hqqhicv3zrc9348rvylnnysm4bd0pfn1qzmgwkkijag0n"))))
+            "021a99a3xq220vyks755ynnpwdz9gwb4x9wkmqsfrjgix213s5zz"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -73934,21 +73934,22 @@
 (define-public emacs-magit-stgit
   (package
     (name "emacs-magit-stgit")
-    (version "20220914.1349")
+    (version "20231226.1514")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stacked-git/magit-stgit.git")
                (commit
-                 "bf96fa0f40c087329ad7e6a3b1946de7df03559c")))
+                 "59d1eb355caf4adbbdf1e351f5861de61b0b5efa")))
         (sha256
           (base32
-            "03342kkk9lmi0i59slzyl0h8flj90z3nvnmg5p2b9zgvclylscp8"))))
+            "0inv7xcm9nf3q5cf2l0vmi3kgwak4xbp3nk8ksna0nk8rxqwpy5v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit emacs-magit-popup))
-    (home-page "unspecified")
+    (home-page
+      "https://github.com/stacked-git/magit-stgit")
     (synopsis "StGit extension for Magit")
     (description
       "Documentation at https://melpa.org/#/magit-stgit")
@@ -125196,17 +125197,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231207.2029")
+    (version "20231226.1303")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "e8edac107df5883f2fa8690356a8d8deee1a83de")))
+                 "996d1223d2be41023c0331f00176a633a84a7d1d")))
         (sha256
           (base32
-            "0ng8fb0divjdhwi713g0hccjmxf9vrfn8ra1klps125arw9d35yg"))))
+            "10m2j8njjfwflzxnzw6y066zjk8giini2xj44iqpvln2blsvb3kg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
