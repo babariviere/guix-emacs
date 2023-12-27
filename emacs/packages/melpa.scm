@@ -33468,17 +33468,17 @@
 (define-public emacs-erk
   (package
     (name "emacs-erk")
-    (version "20231106.404")
+    (version "20231227.545")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/positron-solutions/elisp-repo-kit.git")
                (commit
-                 "49611de3ed000b5872c63270dd66efa0e6bf76c9")))
+                 "05dfe17c9d4cd42d2e4288309f33b8531c2c32d0")))
         (sha256
           (base32
-            "1fq1fsgs0dklal5d3gxbb8anaw9kgixpcjzyvvia7lxzlfc7chqv"))))
+            "0zbx87cp85piyvay07qd61sp2fxfp5gajcswdllim4rqhlkg2a1f"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-auto-compile
@@ -50729,20 +50729,20 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231226.2238")
+    (version "20231227.237")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "6e604b2c94b3419a58f40d59c43234c735116701")))
+                 "00060c73fbfae541323e0c415784e56e22c9a0bf")))
         (sha256
           (base32
-            "1vdqi9k89ps2lxz9bvrpbzffryz3y3dnzzrpnznx9pb7hjh0dkg9"))))
+            "0rmia257wy8j2nj162l3wssn4czmizpn06xk8ln2wkdscyh02vvj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
-    (synopsis "Interact with ChatGPT and other LLMs")
+    (synopsis "Interact with ChatGPT or other LLMs")
     (description
       "Documentation at https://melpa.org/#/gptel")
     (license #f)))
@@ -72488,17 +72488,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231223.811")
+    (version "20231227.620")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "9292d7dbe14078cec5ffd5bb39a38d6204c227d6")))
+                 "b5d5f43ba3b065bfa8b4473b38bb58d309d6b2d2")))
         (sha256
           (base32
-            "09c86rs6js5rjcmnk3ij9139qhh3412ds9m1skvgpg160dwgxj5k"))))
+            "1i4g5zm4911xhvgmr9akq9c8alx93gngkdsfyw5l4cydbm70w4lg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -84766,17 +84766,17 @@
 (define-public emacs-ob-typescript
   (package
     (name "emacs-ob-typescript")
-    (version "20230523.131")
+    (version "20231227.311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/lurdan/ob-typescript.git")
                (commit
-                 "abf36f1f3b2476e71c63721dc907d7e6914aef3d")))
+                 "5fe1762f8d8692dd5b6f1697bedbbf4cae9ef036")))
         (sha256
           (base32
-            "0ninckmri06gcn1bk50phqrm35csslk5imx374jy7xjfapvajyls"))))
+            "1zgnls92pyy950xcly5y7jkr72xcpxq94lqa39gbhad93b7bfffc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/lurdan/ob-typescript")
@@ -125197,17 +125197,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231226.1949")
+    (version "20231227.724")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "80f2df4fda84156eab140aedaefb02c67ef82d52")))
+                 "3633584549ae38c4938a03b59375400e2d3c9d71")))
         (sha256
           (base32
-            "1lcapiw5b2yzsa7b2azbnr7k6ackxgl7vd45vnc7s2bi0favys8h"))))
+            "02xn32fccj8lv7652x4rzz4gfdyfda9rva8ih9rmy4gjs5bdbasw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
