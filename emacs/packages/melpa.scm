@@ -13282,17 +13282,17 @@
 (define-public emacs-citar
   (package
     (name "emacs-citar")
-    (version "20231112.1605")
+    (version "20231226.1453")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-citar/citar.git")
                (commit
-                 "8115bed9d4ce0b7a0765de6fbe6b4efdad23b89e")))
+                 "885b86f6733fd70f42c32dd7791d3447f93db990")))
         (sha256
           (base32
-            "1mmlax5z437d96wn3v2gjck3cmx8k8r370rrymiisgjar8sj8bg9"))))
+            "1kzwllhcn77z6gsdxl6r1csv9nj64qbgznpy8r8kvnri3fl55w4h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-parsebib emacs-citeproc))
@@ -17551,17 +17551,17 @@
 (define-public emacs-compile-multi
   (package
     (name "emacs-compile-multi")
-    (version "20230904.1806")
+    (version "20231226.2123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "30edb0e86287101269debf20f43cead92310029a")))
+                 "5ca966d73fbc6ec3835ed2db5be8c9ca05fc4586")))
         (sha256
           (base32
-            "0ppm9zw65f1a7b6qb5hx60i6fxkqarrhlz2kn6p2b48s089dykyp"))))
+            "0p8zxb1wjd67k47g25k4hva2q6wf13214437anqhnw53kps4yfqk"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mohkale/compile-multi")
@@ -17573,17 +17573,17 @@
 (define-public emacs-compile-multi-all-the-icons
   (package
     (name "emacs-compile-multi-all-the-icons")
-    (version "20230904.1806")
+    (version "20231226.2123")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/compile-multi.git")
                (commit
-                 "30edb0e86287101269debf20f43cead92310029a")))
+                 "5ca966d73fbc6ec3835ed2db5be8c9ca05fc4586")))
         (sha256
           (base32
-            "0ppm9zw65f1a7b6qb5hx60i6fxkqarrhlz2kn6p2b48s089dykyp"))))
+            "0p8zxb1wjd67k47g25k4hva2q6wf13214437anqhnw53kps4yfqk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-all-the-icons-completion))
@@ -28785,17 +28785,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231224.2257")
+    (version "20231226.1557")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "2f6dfdeca8cbf066c50c0697d5b47ac16f22625f")))
+                 "277d117c551f83d889ab5e75ff5fc95ac99515fb")))
         (sha256
           (base32
-            "0s5mp4kkvpbw3g9m0d42k0c6rls1mkng5sq49vmg7y1r6xzlb40m"))))
+            "00smzfj2mkn8gnymnr87xapkgkfa20drvbhh51l4fbbgzai4v313"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -38444,7 +38444,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20231221.1538")
+    (version "20231226.1454")
     (source
       (origin
         (method url-fetch)
@@ -38454,7 +38454,7 @@
                ".tar"))
         (sha256
           (base32
-            "0hzy72qy5n4a42xldk2wwp2bvids77k9fhx5y92rlb1zndslyh2l"))))
+            "180yf203q8jmld2hcb50ip624c11cgv7nld6lxn1g0wgb06fsy7w"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page
@@ -42885,17 +42885,17 @@
 (define-public emacs-flymake-collection
   (package
     (name "emacs-flymake-collection")
-    (version "20230606.2002")
+    (version "20231226.1614")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/flymake-collection.git")
                (commit
-                 "845c52a1aead7485450c62b48a92096160d99a25")))
+                 "d80144082511f5c8169540e43652b23c19509740")))
         (sha256
           (base32
-            "1dpqlcxnrbba10zqx3nwv3pf0qxkdgksk0lavcyhj238fzc9yvrd"))))
+            "087p8f4748p8rz11ksgmm0kvdbk63grr900sf0y079zg0asx6jaq"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -47557,17 +47557,17 @@
 (define-public emacs-git-cliff
   (package
     (name "emacs-git-cliff")
-    (version "20231208.1700")
+    (version "20231226.2253")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/git-cliff.el.git")
                (commit
-                 "636415559042608c39a54bd792bcd73f809d2ad0")))
+                 "a5ec76d0c52c08ec134190578686b5685589c8e4")))
         (sha256
           (base32
-            "1bwkr4581x1fvna5fycv0qwnylajbladswi6w1vq800jcqhm3yk8"))))
+            "0h3v4zmmnc0dksyxzjg1y621w98qv6zm4rmg9k43rhsxlv1n6qp3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/git-cliff.el")
@@ -50729,17 +50729,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231226.220")
+    (version "20231226.2238")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "8c9adff0fcde25cff8a1cbaa9cbade62a2be1499")))
+                 "6e604b2c94b3419a58f40d59c43234c735116701")))
         (sha256
           (base32
-            "1i9kliicykbwivm3ggwjz0csnl3rjjmc5cqd6kq5db0bn7n9gj43"))))
+            "1vdqi9k89ps2lxz9bvrpbzffryz3y3dnzzrpnznx9pb7hjh0dkg9"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "Interact with ChatGPT and other LLMs")
@@ -76812,17 +76812,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231225.950")
+    (version "20231226.2030")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "1f56757e18a1b40fe67a130e4fbc24674b0c3042")))
+                 "7604aa28a150d6e39b31cf529631e5adc0893f6d")))
         (sha256
           (base32
-            "15q32vz1q62mp3flmn02a6lrs3jzpx2i6ig6pvh5anxca6v980rw"))))
+            "02pz0krh7p80h1mzj97p0aj5y8n3sb3d2fpcwhjdrl1pwgsm8g6r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -81056,17 +81056,17 @@
 (define-public emacs-netease-cloud-music
   (package
     (name "emacs-netease-cloud-music")
-    (version "20220305.1224")
+    (version "20231226.1525")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/netease-cloud-music.el.git")
                (commit
-                 "f238d1d45bbeee32e0a8d169f39de4360be908f4")))
+                 "f5d622e2d376d995f412aef93d031836d8c9997c")))
         (sha256
           (base32
-            "0i460vn7plvxrzbzlnfldx36aymy0x666r5w3mak3a5ksyqpbi1c"))))
+            "1dwgxx8d519m1ci4wg3qkfl8ad34dy9gr3m8f0d0ckwffn00ppwl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-request))
     (home-page
@@ -86282,17 +86282,17 @@
 (define-public emacs-org-ai
   (package
     (name "emacs-org-ai")
-    (version "20231128.1427")
+    (version "20231226.2025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rksm/org-ai.git")
                (commit
-                 "cf1fdb84620ad856fceb412a71f35f36d2fecefb")))
+                 "30fbae90ee823e0493d6cd719128598eb924889c")))
         (sha256
           (base32
-            "1586knzk5p6cfpkn743m6azynngsfbfj1lnfr29q6kkcn0fchbd3"))))
+            "1xd68fykz6rg5i7kplymw5blyixf5wwf30k7a44gly1d7z50i54z"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-websocket))
     (arguments '(#:files (:defaults "snippets")))
@@ -89891,17 +89891,17 @@
 (define-public emacs-org-side-tree
   (package
     (name "emacs-org-side-tree")
-    (version "20231223.1634")
+    (version "20231226.1942")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/org-side-tree.git")
                (commit
-                 "6abda5699f4721a8ef2189417c5e43386ad13b2f")))
+                 "2f744941bb448d8250baa922d979be9d05fa431a")))
         (sha256
           (base32
-            "1xq3mcf32grmyqhhwgbxf2vpwcm41p6apvh70sapxc770pkgqqg8"))))
+            "03if0i0g6r24fmdfi3w33p3j5nvn4s78m667wpix7b89k0w1aqjc"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/localauthor/org-side-tree")
@@ -115285,17 +115285,17 @@
 (define-public emacs-stgit
   (package
     (name "emacs-stgit")
-    (version "20231211.443")
+    (version "20231226.1804")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/stacked-git/stgit.git")
                (commit
-                 "0b83b2f09d8b7a4b9c348c8f9dc458f45455403a")))
+                 "9969b4e22c7255090c28f0e68598aeb3974b4d4d")))
         (sha256
           (base32
-            "0pn2wh4i5dk70yajhv50ib9nckcnccipd1sxckk7c42dfsbq1hgh"))))
+            "0zxbfbsbk19rklvmxl5fcrqcsxrwczcvizy8bpkhfxlfigrwk5ky"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("contrib/stgit.el")))
     (home-page "http://stacked-git.github.io")
@@ -117057,17 +117057,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231225.1505")
+    (version "20231226.2000")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/emacs-syncthing.git")
                (commit
-                 "d14073e81f55d00961790333189d7f084d939dc9")))
+                 "d0ad6245e52d681c673517ddc2a119630eb28bfd")))
         (sha256
           (base32
-            "0gakpw4iqcbscnvx0khpx43zsz6iprsqkj3yp4fhmrdpzi4sx618"))))
+            "1iz9vrjxj6i8ch3ckrhgpriwkrc3lvgv5z9r4x7dxa3rcl86xnb3"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
@@ -125197,17 +125197,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231226.1303")
+    (version "20231226.1949")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "996d1223d2be41023c0331f00176a633a84a7d1d")))
+                 "80f2df4fda84156eab140aedaefb02c67ef82d52")))
         (sha256
           (base32
-            "10m2j8njjfwflzxnzw6y066zjk8giini2xj44iqpvln2blsvb3kg"))))
+            "1lcapiw5b2yzsa7b2azbnr7k6ackxgl7vd45vnc7s2bi0favys8h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
