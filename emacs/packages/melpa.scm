@@ -9114,17 +9114,17 @@
 (define-public emacs-borg
   (package
     (name "emacs-borg")
-    (version "20231218.1850")
+    (version "20231227.858")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/borg.git")
                (commit
-                 "74a930900728a43c32f3356ae21b3da36af375cc")))
+                 "1b4efad56d4177fcabc98851c3e4395e94b52e0f")))
         (sha256
           (base32
-            "1k30nba4qkv5mlq2givi3hz0nnm9mi59v6rlwagdfwy9s6kczli1"))))
+            "1q851qnnhw6lx4gq69cavyk1h7jsidqn3angjkvylfhrh6dys7zi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-epkg emacs-magit))
     (arguments '(#:files (:defaults "borg.mk")))
@@ -76812,17 +76812,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231226.2030")
+    (version "20231227.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "7604aa28a150d6e39b31cf529631e5adc0893f6d")))
+                 "371d0fb348a93bd18cf8b4933f1a3e3ffcddb66a")))
         (sha256
           (base32
-            "02pz0krh7p80h1mzj97p0aj5y8n3sb3d2fpcwhjdrl1pwgsm8g6r"))))
+            "1zbj7jqyqxwscrp8ancmcni38l81ayxa80swndss9d4qmwnl3129"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -89276,17 +89276,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20231128.1730")
+    (version "20231227.1053")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "e7895dae9807df38b6e17b6c24e1e824caad6c46")))
+                 "2f1642a162b2f4ec09038249e2c9162d4915219e")))
         (sha256
           (base32
-            "00bx4ljgvsg67mlqvq0nb4wa2gnasq6g9gqlrni6qddzc6189jl6"))))
+            "0z39qz2wb6270v2bq8gr58dckf8386z472r21rj8zfmwcrl7gg2a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -91243,17 +91243,17 @@
 (define-public emacs-orgit-forge
   (package
     (name "emacs-orgit-forge")
-    (version "20231009.1937")
+    (version "20231227.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/orgit-forge.git")
                (commit
-                 "f595a30aa75af55522b1203cd29198fb9aa3a0a5")))
+                 "fc1e79ebbae42f13a45b3d8df8bc2b4352c8a36f")))
         (sha256
           (base32
-            "034shn5x2ar0a2sy90bkxrppada30i0nxsxwpv3sc173i2vppni9"))))
+            "1drl8p0gv8d2gj5f6d0bm51r2ii6m6xi6djq27wq8g3p5lycmj6j"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -95371,17 +95371,17 @@
 (define-public emacs-perfect-margin
   (package
     (name "emacs-perfect-margin")
-    (version "20231222.2106")
+    (version "20231227.1214")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mpwang/perfect-margin.git")
                (commit
-                 "6b13753236adebac01198466c06d4626d0fd48df")))
+                 "3439b8faee8e90577f441375d9adf87cc568dc06")))
         (sha256
           (base32
-            "0q11zync2yabwahd37iknc2klqawrpi4gyw9qn1wfs511xjhba4l"))))
+            "0xl24v2k4lk6k3ybyxhyfp150z7kx4j9xa0r4b0hlfgrsr7dywqp"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/mpwang/perfect-margin")
@@ -117057,17 +117057,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231226.2000")
+    (version "20231227.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/emacs-syncthing.git")
                (commit
-                 "d0ad6245e52d681c673517ddc2a119630eb28bfd")))
+                 "aefc3242079a8a3fdd20d649f50d8650c95406bf")))
         (sha256
           (base32
-            "1iz9vrjxj6i8ch3ckrhgpriwkrc3lvgv5z9r4x7dxa3rcl86xnb3"))))
+            "1drr38n1y666fq661svapdl5brj594q43lplp2nna6wcjpa632wm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
@@ -125197,7 +125197,7 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231227.724")
+    (version "20231227.749")
     (source
       (origin
         (method git-fetch)
