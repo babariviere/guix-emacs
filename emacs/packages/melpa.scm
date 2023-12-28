@@ -28785,17 +28785,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231228.622")
+    (version "20231228.1257")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "a9740a1aaf9a8e96c03c28677003944a08fdb201")))
+                 "1abf8d547aaedce7307f3bd86145af0f2054bc9a")))
         (sha256
           (base32
-            "0nqad1sx1kij31zciazmmxvv2r8xrqz00a60sf5dm2vl4imq6mf2"))))
+            "0mnd0wy1kdnfniw1dkw1i7c623kmh4p0jj2pdf3q6xn51677209x"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -64149,17 +64149,17 @@
 (define-public emacs-jami-bot
   (package
     (name "emacs-jami-bot")
-    (version "20230416.2005")
+    (version "20231228.1127")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/hperrey/jami-bot.git")
                (commit
-                 "21673c5844f9a1ea9ba49f1a68c72b1fe7cb9f91")))
+                 "5d1a1f08b4ccfa33b836fbfa9fe710c7cfb12937")))
         (sha256
           (base32
-            "0l3vcki9d2hl2md2iwgiwq0487v416ffk6y24r2nf2yx07bvrqys"))))
+            "1jm61rrh457zghmm1s1pfz5s2j21q7d3ls5041ws7zdg5h2mxk72"))))
     (build-system melpa-build-system)
     (home-page "https://gitlab.com/hperrey/jami-bot")
     (synopsis
@@ -84441,17 +84441,17 @@
 (define-public emacs-ob-restclient
   (package
     (name "emacs-ob-restclient")
-    (version "20231227.2334")
+    (version "20231228.1403")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alf/ob-restclient.el.git")
                (commit
-                 "2d3583e81457084d43ace6a8602cdaed5bd0fac6")))
+                 "8183f8af08838854cf145ca4855b373f3e7c44b0")))
         (sha256
           (base32
-            "052xi1fc34x83pxhkgzmhb4n24qvvyanqr04f09mkk8r5qlanr7s"))))
+            "1llgr2sw2466y4ihrnrrdv68hkvhgdyd17gsl5rlzjv41x5iqmc7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-restclient))
     (home-page
@@ -87985,17 +87985,17 @@
 (define-public emacs-org-jami-bot
   (package
     (name "emacs-org-jami-bot")
-    (version "20230605.950")
+    (version "20231228.1126")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/hperrey/org-jami-bot.git")
                (commit
-                 "6d80549e9aaacd04cff410b22e7f265373f4d73b")))
+                 "70a063515a540ccfbd6b911d7e73a76803c0217f")))
         (sha256
           (base32
-            "037i664c99f05q03yvdz16jk2agdh7gr83n8ffp8kqlxx2ri0v9p"))))
+            "0y2f9anzd353fy7xq8jkrqpf6ni7cy9s074bn8ll76z0b77klwmc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-jami-bot))
     (home-page
@@ -91665,17 +91665,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20231227.1925")
+    (version "20231228.1322")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "54d8fac06c36bf319cdac1c92bef2fcfc372b53f")))
+                 "cfc1d797c97d5fc771e2eef2e57d75c53cd471d3")))
         (sha256
           (base32
-            "0mmq83ill1vzx1x07vxjn53di2cskid2gmj5qqa6694s1xzpywf4"))))
+            "15phzxjd9bbpkq07fmxr6p1bdm1anxdci42by3phdi3l0c6q0gys"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -112991,17 +112991,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20231224.1116")
+    (version "20231228.1343")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "3800d7d03688eae67d17084f15e3812633188b1d")))
+                 "5db02f19fbf3c448d028e7dc783475e9800eabc1")))
         (sha256
           (base32
-            "07jc6qx09jzgr0csvgdbqbpizqcc1zi0pyppi94xy400x18rzvxx"))))
+            "002j4d29bgwng41g02bh600pnc7svbh7cn2sa24bv4wlfdw2x449"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -125197,17 +125197,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231227.1934")
+    (version "20231228.1516")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "f7aeda39df860ba1d82d0d94396f8bdeb13c4c8c")))
+                 "71f085db45bb8d3a6e88ba90836e3d85f537a3b5")))
         (sha256
           (base32
-            "088x0xqmhicdg44xprhimay0v9hcy12g15c7lk5kvhylxmkbg8wb"))))
+            "0h5r71cn48h3hmc4h2dii01y9rkkyr536bpsh2mhhldby5nxr809"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
