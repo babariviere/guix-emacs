@@ -28785,17 +28785,17 @@
 (define-public emacs-eglot-java
   (package
     (name "emacs-eglot-java")
-    (version "20231226.1557")
+    (version "20231228.622")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/yveszoundi/eglot-java.git")
                (commit
-                 "277d117c551f83d889ab5e75ff5fc95ac99515fb")))
+                 "a9740a1aaf9a8e96c03c28677003944a08fdb201")))
         (sha256
           (base32
-            "00smzfj2mkn8gnymnr87xapkgkfa20drvbhh51l4fbbgzai4v313"))))
+            "0nqad1sx1kij31zciazmmxvv2r8xrqz00a60sf5dm2vl4imq6mf2"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/yveszoundi/eglot-java")
@@ -50729,17 +50729,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231227.2034")
+    (version "20231228.635")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "60cb4065670829474b35b5306506de8174cee764")))
+                 "f57132317477048642f5c17a4083f807b9be2a5e")))
         (sha256
           (base32
-            "0plf2gv0pqilbnxfmk8hswfjwinpfnga627ayxx6k4ln27wz92hp"))))
+            "1fh3isdg73pzc49kd2c4y9xgy6kh0hysgjn9ngh72q7a0wr351g4"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/karthink/gptel")
     (synopsis "Interact with ChatGPT or other LLMs")
@@ -84441,7 +84441,7 @@
 (define-public emacs-ob-restclient
   (package
     (name "emacs-ob-restclient")
-    (version "20231227.2140")
+    (version "20231227.2334")
     (source
       (origin
         (method git-fetch)
@@ -109737,17 +109737,17 @@
 (define-public emacs-shell-pop
   (package
     (name "emacs-shell-pop")
-    (version "20200315.1139")
+    (version "20231228.612")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kyagi/shell-pop-el.git")
                (commit
-                 "4b4394037940a890a313d715d203d9ead2d156a6")))
+                 "ff3dc705ee1c7bc566b35c17e4635c57061fe3ae")))
         (sha256
           (base32
-            "0s77n6b9iw1x3dv91ybkpgy3zvqd12si7zw3lg0m2b6j1akrawsg"))))
+            "0awhya3v78k5jkhprifd44aycgv2d40hnmldfw4g7cvljvxzclal"))))
     (build-system melpa-build-system)
     (home-page
       "http://github.com/kyagi/shell-pop-el")
@@ -121447,17 +121447,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231225.2346")
+    (version "20231227.2329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "003320d43e7a1c7ebed0b98b40a761ea7682026c")))
+                 "6b9890ae8eb5837f9e8cbb5189164adc4b7872a5")))
         (sha256
           (base32
-            "0fr4lnflz5rrn016kwv2kgnhn4vbbv5shms399fqzv71icw69gfd"))))
+            "10d1wrv8xn7f32728ymzjqpsr5valsbqf5078z3pwv5ybd7lqdmj"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
