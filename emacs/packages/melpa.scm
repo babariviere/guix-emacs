@@ -11217,17 +11217,17 @@
 (define-public emacs-cargo
   (package
     (name "emacs-cargo")
-    (version "20230125.1253")
+    (version "20231229.915")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kwrooijen/cargo.el.git")
                (commit
-                 "225fdb846c702a193e58a98c1585bb3586a9aa86")))
+                 "7f8466063381eed05d4e222ce822b1dd44e3bf17")))
         (sha256
           (base32
-            "03wm1wq6jax1a30ix5hn3n8d95nn0hkc6l9mipy77ayfcawkd31h"))))
+            "1hvxdmyppvx04jyn07dnynlgbwyasv22k8dd4qa68mrj8i9mz484"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page "unspecified")
@@ -12165,17 +12165,17 @@
 (define-public emacs-champagne
   (package
     (name "emacs-champagne")
-    (version "20231121.39")
+    (version "20231229.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/positron-solutions/champagne.git")
                (commit
-                 "34a3223dcd86337c523eb380f19c318127265ced")))
+                 "2106273c47f898006a799f0c5e35922af4b41f54")))
         (sha256
           (base32
-            "0zz9l7qf23dz5shx5mgcrymy9xn918nz0xxdp5khb00j4544ry33"))))
+            "1cmbbnqjbg5sw3svvr99dk6lrmiir6yy8cvz69bl3r7ga6cpiacv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-posframe))
     (home-page
@@ -16281,17 +16281,17 @@
 (define-public emacs-company-fuzzy
   (package
     (name "emacs-company-fuzzy")
-    (version "20230531.743")
+    (version "20231229.1311")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jcs-elpa/company-fuzzy.git")
                (commit
-                 "cb0628aac01077acab80e8241f0d4951bb32d385")))
+                 "eb80c961f7ff34bbec724b933161986575ad4aec")))
         (sha256
           (base32
-            "1jq0v9dph0jkh8bgqw0jr6l6hz8larfci2midr6phzr7zpqdifq0"))))
+            "025i28w2170831qmc73gyzpri2s0zcnlcww7nsqckjdvz38f3k3a"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-company emacs-s emacs-ht))
@@ -18778,17 +18778,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231227.1932")
+    (version "20231229.1222")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "4584252abefb37ac46a32177aa9442164165b55c")))
+                 "c31b10d5c5ed09246726bf0d4c11a4e014c5e5cc")))
         (sha256
           (base32
-            "1c900hl01vf43r6vikjy2glrac1cl2z54rahs5kb4q77cz0z1zxf"))))
+            "11brb3jl81zv7y6zvmm0vgx0vz6s22zaszzsdfimizq1l3v5i2q5"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -21535,7 +21535,7 @@
 (define-public emacs-darkman
   (package
     (name "emacs-darkman")
-    (version "20231207.1604")
+    (version "20231229.1155")
     (source
       (origin
         (method url-fetch)
@@ -21545,7 +21545,7 @@
                ".tar"))
         (sha256
           (base32
-            "09rylqd65g7dwfcxymjzxdc5qyw8iv56f03pbmxp4sfyph4mnzvg"))))
+            "1hmn9m4v5nm88lv9byfd2r0qd4n059qyr0bi57s1mnpy0qj3pigd"))))
     (build-system melpa-build-system)
     (home-page "https://darkman.grtcdr.tn")
     (synopsis "Seamless integration with Darkman")
@@ -27510,17 +27510,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20231218.849")
+    (version "20231229.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "fa0d95f5d2d4f360ff76c7bf818ddc59cc73657c")))
+                 "ce75f05671fb9f91591c57cf005a1815629aa36a")))
         (sha256
           (base32
-            "0684igx0r55rzg5ls9m94wsm9y3vzj3iwipml5g9ib7cag3ljdim"))))
+            "09q9lyhlxzva914phwhcnibjy909wfz7cbkhm3ycaymxh96rrpap"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -38444,7 +38444,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20231228.1921")
+    (version "20231229.1052")
     (source
       (origin
         (method url-fetch)
@@ -38454,7 +38454,7 @@
                ".tar"))
         (sha256
           (base32
-            "0injcasxpq09x3yjc9kcrwdppc37casji8jbnsbr9gaj0d5acwlc"))))
+            "0sq0jcrxfs6ykmpxw5v0nc0460v801q4gdlg22jdh90kisbja5p7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page
@@ -64149,17 +64149,17 @@
 (define-public emacs-jami-bot
   (package
     (name "emacs-jami-bot")
-    (version "20231228.1127")
+    (version "20231229.1348")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/hperrey/jami-bot.git")
                (commit
-                 "5d1a1f08b4ccfa33b836fbfa9fe710c7cfb12937")))
+                 "0f8617146550f8701539fc143e665f73cf75cb4a")))
         (sha256
           (base32
-            "1jm61rrh457zghmm1s1pfz5s2j21q7d3ls5041ws7zdg5h2mxk72"))))
+            "0hg665qx5vzyspgfamvkg5bnrs3jmphd37rz97l1jx3zvf0kzy7v"))))
     (build-system melpa-build-system)
     (home-page "https://gitlab.com/hperrey/jami-bot")
     (synopsis
@@ -65821,17 +65821,17 @@
 (define-public emacs-jsonian
   (package
     (name "emacs-jsonian")
-    (version "20230914.116")
+    (version "20231229.1444")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/iwahbe/jsonian.git")
                (commit
-                 "22bd5e20a653595b901ccfdc8780a0038755984d")))
+                 "f200035b847d6dd10bd7987f4540cff9edd3b881")))
         (sha256
           (base32
-            "1v4wd0xc1xr4zibbs9pq2kaxqf86jxcmdwxinhkhkh450c6rfcwh"))))
+            "0zr49wnvr7r8d5a4przxsfg9gjqkpijnngq9kzjhakhqdmqbwf8q"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/iwahbe/jsonian")
     (synopsis "A major mode for editing JSON files")
@@ -76812,17 +76812,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231228.1933")
+    (version "20231229.1208")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "f54799741131527ff6e200795b9f288ddc6d93c5")))
+                 "4a44c098feb321cec4913380a36c0ea4e0463f86")))
         (sha256
           (base32
-            "0xkvbcnm6y95fnk0j4nvh1nfxk25bmybl1kwbba03f4llwaarlx4"))))
+            "05fzazlqwqx614gcpp5dmx1psj0rln49aqnjyb611ihqjqg4zayj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -87985,17 +87985,17 @@
 (define-public emacs-org-jami-bot
   (package
     (name "emacs-org-jami-bot")
-    (version "20231228.1126")
+    (version "20231229.1347")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/hperrey/org-jami-bot.git")
                (commit
-                 "70a063515a540ccfbd6b911d7e73a76803c0217f")))
+                 "b1a780605fb34c77b6844efd22c7400d471d0c07")))
         (sha256
           (base32
-            "0y2f9anzd353fy7xq8jkrqpf6ni7cy9s074bn8ll76z0b77klwmc"))))
+            "0n27brmhah4a8mqd0av91g2adnvri1fchqijf0cmnccbq887rvjd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-jami-bot))
     (home-page
@@ -89891,17 +89891,17 @@
 (define-public emacs-org-side-tree
   (package
     (name "emacs-org-side-tree")
-    (version "20231229.26")
+    (version "20231229.1509")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/org-side-tree.git")
                (commit
-                 "c8afafe32e8a755b5682ff119d11dcb112cd59e3")))
+                 "fb7115acbe1f4ba61df28426520889d53275391f")))
         (sha256
           (base32
-            "08w0kfnrayhdg5d4jrpiaq3w4vlydjbig7j8dccahcbha1k6lx1d"))))
+            "165k7qk60nj7h9pfdhpq75amrcr9ggvncw05px7xmxaw3z5nm8sm"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/localauthor/org-side-tree")
@@ -116910,17 +116910,17 @@
 (define-public emacs-symbols-outline
   (package
     (name "emacs-symbols-outline")
-    (version "20231223.319")
+    (version "20231229.941")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liushihao456/symbols-outline.el.git")
                (commit
-                 "2ac81f5d20048380b0334944484a0f44515d051b")))
+                 "af4cba0c409a38e25eb572687a3a6848953ef868")))
         (sha256
           (base32
-            "1gxvcc16d1p9aq3bx2fwyfxvgyfi4w7ggsjr27ivmqrvfdwsms01"))))
+            "0jqw0p3cmjjbgsihnk49v88v7ypbxmpcsl4wb3cs83n2c4qgd11y"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "icons")))
     (home-page
