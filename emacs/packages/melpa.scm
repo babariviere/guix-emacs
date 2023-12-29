@@ -13310,24 +13310,24 @@
 (define-public emacs-citar-denote
   (package
     (name "emacs-citar-denote")
-    (version "20231014.421")
+    (version "20231229.531")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/pprevos/citar-denote.git")
                (commit
-                 "f093c37d28320a04b5e7ee87d5c442fefa749c35")))
+                 "0c68a4f74f5dcfc23ef03b211658a2ccc5d9aa3b")))
         (sha256
           (base32
-            "1bnyqvdawyxrafz7c79f6xq5h90rhdakmv6g1jhplh881zmkq25w"))))
+            "0g476awbrdws7k7smk1qasz15df20zilx3wqbi3wj0i1q2dbsi8z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-citar emacs-denote emacs-dash))
     (home-page
       "https://github.com/pprevos/citar-denote")
     (synopsis
-      "Minor mode to integrate Citar and Denote")
+      "Minor mode integrating Citar and Denote")
     (description
       "Documentation at https://melpa.org/#/citar-denote")
     (license #f)))
@@ -89891,17 +89891,17 @@
 (define-public emacs-org-side-tree
   (package
     (name "emacs-org-side-tree")
-    (version "20231226.1942")
+    (version "20231229.26")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/localauthor/org-side-tree.git")
                (commit
-                 "2f744941bb448d8250baa922d979be9d05fa431a")))
+                 "c8afafe32e8a755b5682ff119d11dcb112cd59e3")))
         (sha256
           (base32
-            "03if0i0g6r24fmdfi3w33p3j5nvn4s78m667wpix7b89k0w1aqjc"))))
+            "08w0kfnrayhdg5d4jrpiaq3w4vlydjbig7j8dccahcbha1k6lx1d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/localauthor/org-side-tree")
@@ -121447,17 +121447,17 @@
 (define-public emacs-tree-sitter-langs
   (package
     (name "emacs-tree-sitter-langs")
-    (version "20231227.2329")
+    (version "20231229.544")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
                (commit
-                 "6b9890ae8eb5837f9e8cbb5189164adc4b7872a5")))
+                 "f4805b8cac6eb69617ac4787a65d47046426325a")))
         (sha256
           (base32
-            "10d1wrv8xn7f32728ymzjqpsr5valsbqf5078z3pwv5ybd7lqdmj"))))
+            "1vnb2zdiswvs8clg8jbrxjj76fvxsrj8bp8waz91x4sl9f56c71q"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-tree-sitter))
     (arguments '(#:files (:defaults "queries")))
