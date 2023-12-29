@@ -37998,7 +37998,7 @@
 (define-public emacs-fancy-compilation
   (package
     (name "emacs-fancy-compilation")
-    (version "20230824.22")
+    (version "20231228.2247")
     (source
       (origin
         (method url-fetch)
@@ -38008,7 +38008,7 @@
                ".tar"))
         (sha256
           (base32
-            "1xnqld0jih5v2c1n4ijanm0wa1f1kb1nrvszryl46s96mk052i40"))))
+            "1ns17nwigsmxnaxrmrmf4vy84c4w327gnf4c6kr1g9s3a5wq19nk"))))
     (build-system melpa-build-system)
     (home-page
       "https://codeberg.org/ideasman42/emacs-fancy-compilation")
@@ -38444,7 +38444,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20231226.1454")
+    (version "20231228.1921")
     (source
       (origin
         (method url-fetch)
@@ -38454,7 +38454,7 @@
                ".tar"))
         (sha256
           (base32
-            "180yf203q8jmld2hcb50ip624c11cgv7nld6lxn1g0wgb06fsy7w"))))
+            "0injcasxpq09x3yjc9kcrwdppc37casji8jbnsbr9gaj0d5acwlc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page
@@ -71370,17 +71370,17 @@
 (define-public emacs-llama-cpp
   (package
     (name "emacs-llama-cpp")
-    (version "20231219.1725")
+    (version "20231228.2043")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kurnevsky/llama-cpp.el.git")
                (commit
-                 "8e3a5f38bc8700a8c9e5b0e09374d37038bbd25d")))
+                 "e876c05eca8ffadc39d3c5013c2581f1e9f8f94f")))
         (sha256
           (base32
-            "0az10gwp80527lz4ix47vpa83nz0091xfvxhmxm9cxl68p7n1bdq"))))
+            "0pxhz02k7kswv37j45rrcssc29xnk3x738p9ysvybldbix5pbq9h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -76812,17 +76812,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231227.1444")
+    (version "20231228.1933")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "371d0fb348a93bd18cf8b4933f1a3e3ffcddb66a")))
+                 "f54799741131527ff6e200795b9f288ddc6d93c5")))
         (sha256
           (base32
-            "1zbj7jqyqxwscrp8ancmcni38l81ayxa80swndss9d4qmwnl3129"))))
+            "0xkvbcnm6y95fnk0j4nvh1nfxk25bmybl1kwbba03f4llwaarlx4"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -111407,17 +111407,17 @@
 (define-public emacs-slime
   (package
     (name "emacs-slime")
-    (version "20231227.1712")
+    (version "20231228.1755")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/slime/slime.git")
                (commit
-                 "96e8cae607d2591771ce7fcd029bdb1fb14b6c20")))
+                 "dfb83b4b4fc27020827e0da010c730d237402dd3")))
         (sha256
           (base32
-            "06y931brh9wj7ss0mndrlvgy08xkl7j7w1fs7f41yd9xpgzqzs8q"))))
+            "0bhvfa3zpxqnbl0wxq1p7adj09fzmcnm43f2ng7bf1gx2ldw51m2"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-macrostep))
     (arguments
@@ -117057,17 +117057,17 @@
 (define-public emacs-syncthing
   (package
     (name "emacs-syncthing")
-    (version "20231227.947")
+    (version "20231228.1815")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/KeyWeeUsr/emacs-syncthing.git")
                (commit
-                 "aefc3242079a8a3fdd20d649f50d8650c95406bf")))
+                 "abd28d9109169be0f32eedd21c30638d1505dd09")))
         (sha256
           (base32
-            "1drr38n1y666fq661svapdl5brj594q43lplp2nna6wcjpa632wm"))))
+            "0npcb4wpmril4lh58hl8dicpcxamyb6ir51lyik6ny0x26r4ir8i"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/KeyWeeUsr/emacs-syncthing")
