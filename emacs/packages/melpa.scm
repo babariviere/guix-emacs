@@ -11053,17 +11053,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231227.1929")
+    (version "20231230.618")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "1a52302e1bb051f1f0fc8a9e49780bf9af797e15")))
+                 "605b062c471adcb23f1e859248225188d29029fe")))
         (sha256
           (base32
-            "0nx08i11s0z9kk711r7wp8sgj00n8hjk5gx0rqr9awrl9fmw1kp2"))))
+            "0ca433drdpgc4pxddn7w8fg64js14gv3kfddyxils8c6c24bna09"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -50729,7 +50729,7 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231229.2119")
+    (version "20231229.2328")
     (source
       (origin
         (method git-fetch)
@@ -64924,17 +64924,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231227.1926")
+    (version "20231230.458")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "041b6590eb703c9b34968a9374f2a6d41af60aea")))
+                 "cba8589542a6b90a41356ab24eed8b59eb05b949")))
         (sha256
           (base32
-            "08ajkhpds3m8dk1m2h84vcn6pg5w6hbq55xyd50593kb012a2pmz"))))
+            "1wnxq9iaf4xll2qdwbg7jr2nmnq96zw01dx3qjh0503s89j1j2gs"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
