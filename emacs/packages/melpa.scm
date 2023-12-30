@@ -13384,17 +13384,17 @@
 (define-public emacs-citeproc
   (package
     (name "emacs-citeproc")
-    (version "20231216.1221")
+    (version "20231230.1309")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andras-simonyi/citeproc-el.git")
                (commit
-                 "9fe5f28b274eda5212fe1936c1b58184b63cca6d")))
+                 "c61c98b9d230ea28b2ca49498134803e1f8ea526")))
         (sha256
           (base32
-            "1l74c2f2xjzsp3i331sw3db4fhbvdbwyd856j1ygldwrh4rli9ml"))))
+            "04h6mgfyhx8zkjbcfhaac88754w61592pjdj27ayxh0xj0gybxzz"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -18778,17 +18778,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231229.1645")
+    (version "20231230.1154")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "d2b5d1815582b23c5d43c34a9e60888e114231b8")))
+                 "63d1de2696adcb09a4ea01ba668635364e37a9c2")))
         (sha256
           (base32
-            "1jbm9g2nbx43xii2k2gp7w5fjdkrzkzfqc2f1qsqrcraixs2kxjh"))))
+            "0qc1wxawbkf86731p0xzhfrhzjgclwk794fwrsbdfy229i3z54cb"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -38444,7 +38444,7 @@
 (define-public emacs-fedi
   (package
     (name "emacs-fedi")
-    (version "20231229.1052")
+    (version "20231230.1108")
     (source
       (origin
         (method url-fetch)
@@ -38454,7 +38454,7 @@
                ".tar"))
         (sha256
           (base32
-            "0sq0jcrxfs6ykmpxw5v0nc0460v801q4gdlg22jdh90kisbja5p7"))))
+            "1jpqlkzrz45kb0f3kcwrnwrflvlvfla0nzpy2z8f058g94707bca"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-markdown-mode))
     (home-page
@@ -44891,17 +44891,17 @@
 (define-public emacs-forge
   (package
     (name "emacs-forge")
-    (version "20231213.1357")
+    (version "20231230.1236")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/forge.git")
                (commit
-                 "e276c5f5f7f3be5b2c2d2e81d8d3f9ce80b30892")))
+                 "299bbaaded2f7e8f0f2c38fc12c7ffe9131eed6b")))
         (sha256
           (base32
-            "1znlwhv81zjkv88k6ynm31ag735dai21za3a3qijlksvdqwl6qj2"))))
+            "00ncc52a3n259iaya62day4rldibgyrjdd884k785w6whpcfi35s"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -53652,17 +53652,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20231229.1014")
+    (version "20231230.723")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7fd0054a50cce633aea1b5291ab987cb176e5146")))
+                 "9262f9590c0a40f2f3339f10de2463e23659e726")))
         (sha256
           (base32
-            "1vi7510hkvngfy694k731xxd89mlcgrbq96gk88qg4f6q8pbfrfk"))))
+            "0q5kr5r1wxkz23vqs85w0qp3ndsvz31a6cqxxf0w37n6idg6i4cz"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -64924,17 +64924,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231230.458")
+    (version "20231230.938")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "cba8589542a6b90a41356ab24eed8b59eb05b949")))
+                 "23c7bad2be40a36043907b21f9dde72cb117ad3c")))
         (sha256
           (base32
-            "1wnxq9iaf4xll2qdwbg7jr2nmnq96zw01dx3qjh0503s89j1j2gs"))))
+            "1g0yas9s31j28h0424x2vd5106f95r81rsswkqga9qmay20lzp4b"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -69655,7 +69655,7 @@
 (define-public emacs-lem
   (package
     (name "emacs-lem")
-    (version "20231221.1623")
+    (version "20231230.1114")
     (source
       (origin
         (method url-fetch)
@@ -69665,7 +69665,7 @@
                ".tar"))
         (sha256
           (base32
-            "1nmy2as43vgi59rjyvc8d4h049aygs0apylcs389kvwqqpkmawck"))))
+            "11s99xwzrid43hhff27za13gbzdl9g59zmfahvxgwvxn0l84bp79"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-fedi emacs-markdown-mode))
@@ -72489,17 +72489,17 @@
 (define-public emacs-lsp-mode
   (package
     (name "emacs-lsp-mode")
-    (version "20231227.2020")
+    (version "20231230.715")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-lsp/lsp-mode.git")
                (commit
-                 "ac2c4163adc7fa7b8185674a596d72cb5516e995")))
+                 "2fe02448bb1c0adccbfae87119cc160df951f931")))
         (sha256
           (base32
-            "15iyxb5qsg6n760zxbcmp8y2npbmxmf633ji7rirgppzcb301k8w"))))
+            "1qsrk6c6p8sws9s9fm1xz40nsa3rkfg2q6zxsaykbi5yrv8ymir9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -98670,28 +98670,6 @@
       "Documentation at https://melpa.org/#/pov-mode")
     (license #f)))
 
-(define-public emacs-pow
-  (package
-    (name "emacs-pow")
-    (version "20140420.806")
-    (source
-      (origin
-        (method git-fetch)
-        (uri (git-reference
-               (url "https://github.com/yukihr/emacs-pow.git")
-               (commit
-                 "ea83986b8ca8e27cb996290d6463b111ec0966ce")))
-        (sha256
-          (base32
-            "112s6qb80sn44b1cxggqfci89wymxvvwkwl7nknfnr2dzd58lzzy"))))
-    (build-system melpa-build-system)
-    (home-page "http://github.com/yukihr/emacs-pow")
-    (synopsis
-      "pow (http://pow.cx/) manager for emacs")
-    (description
-      "Documentation at https://melpa.org/#/pow")
-    (license #f)))
-
 (define-public emacs-power-mode
   (package
     (name "emacs-power-mode")
@@ -118293,17 +118271,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20231130.2348")
+    (version "20231230.1150")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "38dad1f85104c7c734ad9245f3a85b49562332d0")))
+                 "c04e114f8081ed248f56ae6d0c8a6cfe7be88480")))
         (sha256
           (base32
-            "0f1z5p6vbbjsh7cn7hqhv4c6h4awczpf14sbwpzsnwqsxsfjdh34"))))
+            "1lcdmk4nyzgbd3vq0n127dlwjv303x4ajnlsi7kag47hvzpjs5wg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/tempel")
