@@ -18778,17 +18778,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231229.1222")
+    (version "20231229.1645")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "c31b10d5c5ed09246726bf0d4c11a4e014c5e5cc")))
+                 "d2b5d1815582b23c5d43c34a9e60888e114231b8")))
         (sha256
           (base32
-            "11brb3jl81zv7y6zvmm0vgx0vz6s22zaszzsdfimizq1l3v5i2q5"))))
+            "1jbm9g2nbx43xii2k2gp7w5fjdkrzkzfqc2f1qsqrcraixs2kxjh"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -50729,18 +50729,19 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20231228.635")
+    (version "20231229.2119")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "f57132317477048642f5c17a4083f807b9be2a5e")))
+                 "48047c06006f8a26881c54fc39755e96ee8b3c95")))
         (sha256
           (base32
-            "1fh3isdg73pzc49kd2c4y9xgy6kh0hysgjn9ngh72q7a0wr351g4"))))
+            "138fa27wl2xrcl45wf7fxsafygpicwy5wrvmxbp01vnm3nnw695d"))))
     (build-system melpa-build-system)
+    (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/karthink/gptel")
     (synopsis "Interact with ChatGPT or other LLMs")
     (description
@@ -52062,17 +52063,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231226.831")
+    (version "20231229.1641")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "a2cdf558daf999e6c5e1075770050da21bb4367e")))
+                 "480f0122b436eab7e89e3f9ea291e8495c05a792")))
         (sha256
           (base32
-            "021a99a3xq220vyks755ynnpwdz9gwb4x9wkmqsfrjgix213s5zz"))))
+            "1wv3jaaqq0vfdc17dxgg0b78v08f8v3b4g20rkb3kld0wavvlvcp"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -52867,17 +52868,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231226.738")
+    (version "20231229.547")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "bf82eb5f7bf092b2407023824cf871d88b01ab25")))
+                 "7fd0054a50cce633aea1b5291ab987cb176e5146")))
         (sha256
           (base32
-            "08almbc59rhag09ngl5hp4bhaf16y84jg5jy6m8wr4hrghqainnh"))))
+            "1vi7510hkvngfy694k731xxd89mlcgrbq96gk88qg4f6q8pbfrfk"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -53651,17 +53652,17 @@
 (define-public emacs-helm-core
   (package
     (name "emacs-helm-core")
-    (version "20231226.622")
+    (version "20231229.1014")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "bf82eb5f7bf092b2407023824cf871d88b01ab25")))
+                 "7fd0054a50cce633aea1b5291ab987cb176e5146")))
         (sha256
           (base32
-            "08almbc59rhag09ngl5hp4bhaf16y84jg5jy6m8wr4hrghqainnh"))))
+            "1vi7510hkvngfy694k731xxd89mlcgrbq96gk88qg4f6q8pbfrfk"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-async))
     (arguments
@@ -73440,17 +73441,17 @@
 (define-public emacs-magit
   (package
     (name "emacs-magit")
-    (version "20231219.2243")
+    (version "20231229.1734")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magit/magit.git")
                (commit
-                 "c7ab6931c61e63db02edd2f9ad3688312936cf0b")))
+                 "faa19075be7b640c1625cd74e6686344835ecb1d")))
         (sha256
           (base32
-            "196zic2s30hssi8sipdg2zsx6bh4n12gbap82db2ih44lr4shkz0"))))
+            "0scmzbbqa8zh0lmrqyp3n3jdm2s20bim517csxawn057817qp60n"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -112991,17 +112992,17 @@
 (define-public emacs-sniem
   (package
     (name "emacs-sniem")
-    (version "20231228.1343")
+    (version "20231229.1647")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SpringHan/sniem.git")
                (commit
-                 "5db02f19fbf3c448d028e7dc783475e9800eabc1")))
+                 "2efe0f253aa6d5305e3fda9c8782b333f6593755")))
         (sha256
           (base32
-            "002j4d29bgwng41g02bh600pnc7svbh7cn2sa24bv4wlfdw2x449"))))
+            "0q65f61vp7qfgn931aqgvz3x70glr64h20hbazxgbjwrgi2fj839"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-s emacs-dash))
     (home-page
@@ -125197,17 +125198,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20231228.1516")
+    (version "20231229.1740")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "71f085db45bb8d3a6e88ba90836e3d85f537a3b5")))
+                 "2cf3de8579ae32c536288af090e84320e941a878")))
         (sha256
           (base32
-            "0h5r71cn48h3hmc4h2dii01y9rkkyr536bpsh2mhhldby5nxr809"))))
+            "1falwql58jssck15grqwkg061ij5x2rc0lcwzmq4p31r9qpn7gc7"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
