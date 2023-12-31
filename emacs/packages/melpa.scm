@@ -26093,17 +26093,17 @@
 (define-public emacs-doom-modeline
   (package
     (name "emacs-doom-modeline")
-    (version "20231222.636")
+    (version "20231231.440")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/seagle0128/doom-modeline.git")
                (commit
-                 "a312ea8f4ad6fcf9cf1d22fe65aa897f73336a4b")))
+                 "9773ef765b5d530e9f6657bc24efb83059a3d888")))
         (sha256
           (base32
-            "1kp9rrd2vysv3zpfja1jk6rf4p04q4myns9277f81jqzy2cm7l07"))))
+            "19x38y3cqk4qj2f91lbfb4dkrcijrlz4v9yppavc9vixr32jj3m4"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -30175,17 +30175,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20231225.2310")
+    (version "20231231.20")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "efa30b88d7f048a2df4958e59da8002ebd2dbb29")))
+                 "92b5d026e02a28505551d16ade365372af99b2f6")))
         (sha256
           (base32
-            "11v29pccqpsh7km106flz1rlnzwaaycxyyy6zznr06ggdhfcrh6v"))))
+            "1q76mrmvkd765jafd9jkvcd4q2rds28zcqg5nrvz3pj117rp8c6z"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -76813,17 +76813,17 @@
 (define-public emacs-mini-echo
   (package
     (name "emacs-mini-echo")
-    (version "20231229.1208")
+    (version "20231231.336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/liuyinz/mini-echo.el.git")
                (commit
-                 "4a44c098feb321cec4913380a36c0ea4e0463f86")))
+                 "ae9f256c9b5c5bba64aedec2d9826ec3fa016328")))
         (sha256
           (base32
-            "05fzazlqwqx614gcpp5dmx1psj0rln49aqnjyb611ihqjqg4zayj"))))
+            "1dxgsdvhiv363q2j2pmifv8b2lsb24by2b7s4g8j6msgdz0gf5pf"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/liuyinz/mini-echo.el")
@@ -80895,17 +80895,17 @@
 (define-public emacs-nerd-icons
   (package
     (name "emacs-nerd-icons")
-    (version "20231221.541")
+    (version "20231231.710")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rainstormstudio/nerd-icons.el.git")
                (commit
-                 "3af4d38c1119567b20ef9020f70de163d0d58c37")))
+                 "007d818f726a8dba75fc520207bb035ad9c46610")))
         (sha256
           (base32
-            "1g8lain6k0w5kzzb612mb2s6f62bi3lfdyh2anzd4f1vw2jwkfk8"))))
+            "076kphma5sw5x2r0qajg498bf93rqv36q7rcw0dqyjkkw5sy2igs"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "data")))
     (home-page
