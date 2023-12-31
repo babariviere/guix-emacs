@@ -3811,17 +3811,17 @@
 (define-public emacs-apheleia
   (package
     (name "emacs-apheleia")
-    (version "20231222.352")
+    (version "20231230.2131")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/radian-software/apheleia.git")
                (commit
-                 "b2d2b50f1a8b4cfcb7aa9fa815017bac26552da9")))
+                 "923cd12108c7230c251bcaaf0699b7bc3c5c7fb4")))
         (sha256
           (base32
-            "1lp1rq6kvng6gnh1pk5ijhi3dzqmabp9i37ibp2g8cipzpx1hj6z"))))
+            "1lv1ghzpg79583wpb0s5kn9g8qckz017rhymp85hy97yyif61ggk"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -11053,17 +11053,17 @@
 (define-public emacs-cape
   (package
     (name "emacs-cape")
-    (version "20231230.618")
+    (version "20231230.1913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/cape.git")
                (commit
-                 "605b062c471adcb23f1e859248225188d29029fe")))
+                 "9d1a90275c7a809ebc3c0cf928d28b58c2d54b7c")))
         (sha256
           (base32
-            "0ca433drdpgc4pxddn7w8fg64js14gv3kfddyxils8c6c24bna09"))))
+            "04d258c7xqayaz3b0bgacimdnv19f38hy9yz1pnis8nskxv5hw52"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/cape")
@@ -12303,17 +12303,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20231221.1931")
+    (version "20231230.2054")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "23b0b018356985bf404eb37a82f3f3a8dbbe4fb7")))
+                 "bf1d838b79c291a984e56372764399e551705bb9")))
         (sha256
           (base32
-            "019790sk4fhc038pzc2l7zsda07zd6hx6s0px847hbrnkh54jzv6"))))
+            "1gf884xqqg13ck53qvqwl0n5iibnl0h6cphiya4s00s7qxpymx42"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments '(#:files ("chatgpt-shell.el")))
@@ -18778,17 +18778,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20231230.1154")
+    (version "20231230.1914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "63d1de2696adcb09a4ea01ba668635364e37a9c2")))
+                 "f9b9d87a6d1f9321d37f80745d3f685a36586ff5")))
         (sha256
           (base32
-            "0qc1wxawbkf86731p0xzhfrhzjgclwk794fwrsbdfy229i3z54cb"))))
+            "0qirrqcphbv7czgri3y2m637j13iy6ah9ynm1jd43yyxp4dbsa6p"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -31421,17 +31421,17 @@
 (define-public emacs-elx
   (package
     (name "emacs-elx")
-    (version "20230511.2113")
+    (version "20231230.1752")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacscollective/elx.git")
                (commit
-                 "f3dfcb41c6471b8150cc19cea5ff96fe1321f5a1")))
+                 "7bebecb5a903f988b7b20398aa75e1389d6d0b54")))
         (sha256
           (base32
-            "1m01fmhxgqrk22llwwafyg3a29h5bhrbdv9mpf6yyqdm2f37h3yb"))))
+            "08rcb1qpn832h94gzwfnvfii3c5d6rrmdqhh55dr8fbq1bpki39v"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-llama))
@@ -64924,17 +64924,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20231230.938")
+    (version "20231230.1913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "23c7bad2be40a36043907b21f9dde72cb117ad3c")))
+                 "f9e1550ecb8843ad48fbdd02ced3b2fcd7292fd7")))
         (sha256
           (base32
-            "1g0yas9s31j28h0424x2vd5106f95r81rsswkqga9qmay20lzp4b"))))
+            "1dm0abl3iaz703f70ra9j5r2484rcwv10sx41vkjz4p035sj42yd"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -88408,17 +88408,17 @@
 (define-public emacs-org-modern
   (package
     (name "emacs-org-modern")
-    (version "20231202.1320")
+    (version "20231230.1913")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/org-modern.git")
                (commit
-                 "418b1adeec936e42abe1e3151633951055909ea4")))
+                 "0fd111d1f086a681aa68f323e337c256c3070305")))
         (sha256
           (base32
-            "01gnpr2dhh4xakgwz91vz3da3348k2sz6cm2ds0j1r5pm8x68m6f"))))
+            "0r0bvvnz6shh0mrfzr4qkmj0z5y60fsk7qs2bk5baggaxaql0a44"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/org-modern")
@@ -93431,17 +93431,17 @@
 (define-public emacs-package-build
   (package
     (name "emacs-package-build")
-    (version "20231224.859")
+    (version "20231230.1739")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/melpa/package-build.git")
                (commit
-                 "c48aa078c01b4f07b804270c4583a0a58ffea1c0")))
+                 "abad0d94a5e79d3c39b0f89ce2aac02053d0f6a5")))
         (sha256
           (base32
-            "0lzzf7n2wnjb3xjvcjlvrb63aw5zjw2zn4flbnc8i93fpvgy6crk"))))
+            "1b35m2zpl7g0mgj7n9n0gp8zwds9qfvmkjymzzcwy4lhh4nc4716"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/melpa/package-build")
@@ -118271,17 +118271,17 @@
 (define-public emacs-tempel
   (package
     (name "emacs-tempel")
-    (version "20231230.1150")
+    (version "20231230.1914")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/tempel.git")
                (commit
-                 "c04e114f8081ed248f56ae6d0c8a6cfe7be88480")))
+                 "d73b822430549a2e5321536eaaa6ad2c701075b6")))
         (sha256
           (base32
-            "1lcdmk4nyzgbd3vq0n127dlwjv303x4ajnlsi7kag47hvzpjs5wg"))))
+            "1xgq8a453jcnz3b033c4wkwibhrv8yafkg43za9wmmxhlr2g3z28"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/tempel")
