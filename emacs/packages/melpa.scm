@@ -23016,17 +23016,17 @@
 (define-public emacs-devdocs-browser
   (package
     (name "emacs-devdocs-browser")
-    (version "20231217.1202")
+    (version "20231231.1449")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/blahgeek/emacs-devdocs-browser.git")
                (commit
-                 "237720eae1ec55b1bd7ddf207921058bb4cc06ca")))
+                 "a4a008bcf6300cd4eb3f4c185ccbd65f77afe0c9")))
         (sha256
           (base32
-            "1i9pf0j47a5y48xnxdf5h330v1vryzcia11d1p9y85fapyff37dp"))))
+            "1w2dlw3g628sym5z0p0w1gskgqprk31fg6k6z5mis3wvmrivib0r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/blahgeek/emacs-devdocs-browser")
@@ -30175,17 +30175,17 @@
 (define-public emacs-elfeed-summary
   (package
     (name "emacs-elfeed-summary")
-    (version "20231231.20")
+    (version "20231231.1456")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
                (commit
-                 "92b5d026e02a28505551d16ade365372af99b2f6")))
+                 "7e308adaa351f8c7f6ba839cbcfd4e3cd145401c")))
         (sha256
           (base32
-            "1q76mrmvkd765jafd9jkvcd4q2rds28zcqg5nrvz3pj117rp8c6z"))))
+            "1wdycmr7yl4qn921fwnbkwjpl5ys38yikc3y8b2mjp7bzjp38w1w"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-magit-section emacs-elfeed))
@@ -42885,17 +42885,17 @@
 (define-public emacs-flymake-collection
   (package
     (name "emacs-flymake-collection")
-    (version "20231226.1614")
+    (version "20231231.1323")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/flymake-collection.git")
                (commit
-                 "d80144082511f5c8169540e43652b23c19509740")))
+                 "852d47f7b4cac7345d40bd16067842e095aee13b")))
         (sha256
           (base32
-            "087p8f4748p8rz11ksgmm0kvdbk63grr900sf0y079zg0asx6jaq"))))
+            "1r9cif3hpmf8lx4w9ac3lccgq1swwfgzh7slaa7ld0h5mmq9w23c"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -58946,17 +58946,17 @@
 (define-public emacs-howm
   (package
     (name "emacs-howm")
-    (version "20231215.1256")
+    (version "20231231.854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/kaorahi/howm.git")
                (commit
-                 "a11475a20527dcc38040200c86be0015ecfd36e9")))
+                 "fc61c312be7cd23c654a02f1f81355d562cd627e")))
         (sha256
           (base32
-            "0182vm2vmf8kmvlrp9ci3rrklavd6nswm8qsfibcf7146qlsy9br"))))
+            "111l502krbrpzm63kbiblchiav8wv38z11snvcx428xjzpl28q1l"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults (:exclude "*.el.in"))))
@@ -89277,17 +89277,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20231227.1053")
+    (version "20231231.1508")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "2f1642a162b2f4ec09038249e2c9162d4915219e")))
+                 "f3e3997532417e54eca0ba948cfb25e70a38b478")))
         (sha256
           (base32
-            "0z39qz2wb6270v2bq8gr58dckf8386z472r21rj8zfmwcrl7gg2a"))))
+            "09sc659hrc65lm6qjp75s0f8ff2vb0bi9dml579zh7vjm83i8c87"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -100090,17 +100090,17 @@
 (define-public emacs-projection
   (package
     (name "emacs-projection")
-    (version "20231205.840")
+    (version "20231231.1526")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/projection.git")
                (commit
-                 "f6802f1827dcf1bdc02482eb4ed8bd65de3c09f4")))
+                 "1c3464e6ebb362cb3f89ff793e042953b45db325")))
         (sha256
           (base32
-            "0jcca8li1s0i00013d6sbg0xl5fqsb40klhq84r4l80ckxlp0ma9"))))
+            "1vqpq98vbmkzjbvgk0nqfiilz07737sgkqg6l8gbskqp796byjcn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-f emacs-s))
@@ -100115,17 +100115,17 @@
 (define-public emacs-projection-multi
   (package
     (name "emacs-projection-multi")
-    (version "20231016.2008")
+    (version "20231231.1416")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/projection.git")
                (commit
-                 "89020b23ae607944b1e1071ffbd123a6003fa2cb")))
+                 "1c3464e6ebb362cb3f89ff793e042953b45db325")))
         (sha256
           (base32
-            "1x71w70316j8apflfxz91gjz0364hd4551gj99813b51f9ww9zly"))))
+            "1vqpq98vbmkzjbvgk0nqfiilz07737sgkqg6l8gbskqp796byjcn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-projection emacs-compile-multi))
@@ -100954,17 +100954,17 @@
 (define-public emacs-puni
   (package
     (name "emacs-puni")
-    (version "20231111.1538")
+    (version "20231231.1415")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AmaiKinono/puni.git")
                (commit
-                 "518a5362870b6ef01d2d4a158bd38c7280687256")))
+                 "72e091ef30e0c9299dbcd0bc4669ab9bb8fb6e47")))
         (sha256
           (base32
-            "1m7gvizfmvf1f6s4x72fszja90zq7sslmywgihzs7585107wy8s3"))))
+            "1ns2r6nwakdnzjiq84qqzn85wwahc0k738awx9kxn9p0q2prpx5j"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/AmaiKinono/puni")
     (synopsis "Parentheses Universalistic")
@@ -101385,17 +101385,17 @@
 (define-public emacs-pyconf
   (package
     (name "emacs-pyconf")
-    (version "20230308.2000")
+    (version "20231231.1503")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andcarnivorous/pyconf.git")
                (commit
-                 "e145e895e265474cb1ef5764d37eb47c6566e97f")))
+                 "9587e8c473d9fa0627cfe87b8b5594947b3c0b0c")))
         (sha256
           (base32
-            "0ixdy08mmgrvipnn86zfy2571dqz7q2782ddxxd8syg2i03h061w"))))
+            "1wvwdk4xbx80m021x2pzl8x29xbmajx0hhq8fnaxkjxgsps5zhip"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pyvenv emacs-pyenv-mode))
@@ -118132,17 +118132,17 @@
 (define-public emacs-telega
   (package
     (name "emacs-telega")
-    (version "20231218.1554")
+    (version "20231231.1034")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zevlg/telega.el.git")
                (commit
-                 "c522d366aebcdf2178c34978f7f5d3167840a641")))
+                 "304705fa007c3dae3c5d0c6dc66641ae783f0081")))
         (sha256
           (base32
-            "0vsdcdj3b9sbmjcihd4zqfdnspdjh2806c77kzsl62jpyj55zkj4"))))
+            "02yxjaxpf2f6pjg3ixw7jvx56x6lfh30mnsmiz1p2yi64kyllaan"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-visual-fill-column
@@ -126165,17 +126165,17 @@
 (define-public emacs-vuiet
   (package
     (name "emacs-vuiet")
-    (version "20231219.859")
+    (version "20231231.1051")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mihaiolteanu/vuiet.git")
                (commit
-                 "1299781bbcd1fe6ab431764de25f1c1ca550eace")))
+                 "25d79860b165f04d7d39395138ed4f23e982132f")))
         (sha256
           (base32
-            "0853jahn4mkycyxx985b23fi6x1affrcp8gi594d33m64h12mfc5"))))
+            "0f624qkfdjn1wgm5l306kpa6vfl2ch7rnlcp7g449v7ywc7djm1i"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-lastfm
