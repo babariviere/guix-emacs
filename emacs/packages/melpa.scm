@@ -17928,17 +17928,17 @@
 (define-public emacs-consult
   (package
     (name "emacs-consult")
-    (version "20231227.1928")
+    (version "20240101.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/consult.git")
                (commit
-                 "0e7f3ec8e7e959e262158fa4ddb73de80b52ccc0")))
+                 "c9e6bfefb8665a77f7a82e028ed47d4be9bf1921")))
         (sha256
           (base32
-            "11fgjgny10falyjs0dlb8cvvfqpvc538mskq4j60j68v36nnkb23"))))
+            "01li928ldwsrhv0rqr97jxrnlid256dag8sx00blxxc5qvizizlw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/consult")
@@ -88081,17 +88081,17 @@
 (define-public emacs-org-journal-tags
   (package
     (name "emacs-org-journal-tags")
-    (version "20231225.2314")
+    (version "20240101.4")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/org-journal-tags.git")
                (commit
-                 "c9dba4817f098281139c85db5b1bcbf79edc419b")))
+                 "a68e40a8473ff18bef58a171245a9cdef6eee622")))
         (sha256
           (base32
-            "1ns42sfi5z7jd149zxp1clqq494mpajcxkljzriqy15r4i63y87f"))))
+            "1ks7zzvv45i9pblnd5w3845xzg18sn85a5w50gvflrx71dn3z8xs"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-org-journal emacs-magit-section))
@@ -126138,24 +126138,25 @@
 (define-public emacs-vue-mode
   (package
     (name "emacs-vue-mode")
-    (version "20190415.231")
+    (version "20240101.333")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/AdamNiederer/vue-mode.git")
                (commit
-                 "031edd1f97db6e7d8d6c295c0e6d58dd128b9e71")))
+                 "2b7bbdad2ba0b6621e1963aa87c20ff9ef075bc2")))
         (sha256
           (base32
-            "047l5nxw86dvls8an65mmqcy673n37pyli7s0d52yi07jk0lw1yx"))))
+            "12n1p1wmabf7hbz0fhhmabpy634gx2q40h6wkhfxzadbnsyi24q3"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-mmm-mode
             emacs-vue-html-mode
             emacs-ssass-mode
             emacs-edit-indirect))
-    (home-page "unspecified")
+    (home-page
+      "https://github.com/AdamNiederer/vue-mode")
     (synopsis
       "Major mode for vue component based on mmm-mode")
     (description
