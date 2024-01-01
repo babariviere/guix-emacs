@@ -42885,7 +42885,7 @@
 (define-public emacs-flymake-collection
   (package
     (name "emacs-flymake-collection")
-    (version "20231231.1323")
+    (version "20231231.1509")
     (source
       (origin
         (method git-fetch)
@@ -52063,17 +52063,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231229.1641")
+    (version "20231231.1632")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "480f0122b436eab7e89e3f9ea291e8495c05a792")))
+                 "d86adb381f7e8d93b0c01ccad8021caad7cc22d3")))
         (sha256
           (base32
-            "1wv3jaaqq0vfdc17dxgg0b78v08f8v3b4g20rkb3kld0wavvlvcp"))))
+            "1ibjd4l0wf0hmg4n1hsl09issxavss0aq39s5yss4978mx85a5aj"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -68179,17 +68179,17 @@
 (define-public emacs-kubel
   (package
     (name "emacs-kubel")
-    (version "20231224.1345")
+    (version "20231231.1805")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/abrochard/kubel.git")
                (commit
-                 "58e0e98ba0f9c91c91380fc55ab708198e770ebb")))
+                 "f6858ccd1ee3fa247f4de78da46673ce8354146e")))
         (sha256
           (base32
-            "13pvgg6gcdfq297lnln30vzabsd493w55k5iv3wrgmd5vx7bin2d"))))
+            "1zca81dfww38j88v9nz987dfv864vsglp4np9y2sdm935ahgv4sh"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash emacs-s emacs-yaml-mode))
@@ -68928,17 +68928,17 @@
 (define-public emacs-latex-labeler
   (package
     (name "emacs-latex-labeler")
-    (version "20231201.2118")
+    (version "20231231.1909")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/X9hRRDys/latex-labeler.git")
                (commit
-                 "418bd1673cc57ab8f2197f331916af178b435377")))
+                 "c2df4c9d0a41a36de893925a91445ea65d504222")))
         (sha256
           (base32
-            "11qpr51znmdlisaxip8fnqx67v2z7il55q36p6vraq7zg5cv1f64"))))
+            "0ar6yr7z4vans1hmhwsz1n19sx90kpnydhr3v0bjh6d8xzv31q9r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/X9hRRDys/latex-labeler")
@@ -100090,17 +100090,17 @@
 (define-public emacs-projection
   (package
     (name "emacs-projection")
-    (version "20231231.1526")
+    (version "20231231.2023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/mohkale/projection.git")
                (commit
-                 "1c3464e6ebb362cb3f89ff793e042953b45db325")))
+                 "1074001a80ddea5227c6711cf4aa1c100a1d1221")))
         (sha256
           (base32
-            "1vqpq98vbmkzjbvgk0nqfiilz07737sgkqg6l8gbskqp796byjcn"))))
+            "0992pv782fwgmd0fhl25znsdxaxw3zyrbglxwy8s3yxkp9v3lddr"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-f emacs-s))
@@ -101385,17 +101385,17 @@
 (define-public emacs-pyconf
   (package
     (name "emacs-pyconf")
-    (version "20231231.1503")
+    (version "20231231.1842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/andcarnivorous/pyconf.git")
                (commit
-                 "9587e8c473d9fa0627cfe87b8b5594947b3c0b0c")))
+                 "557c51dd22d27d71e22c536c4b0eb38e800aa840")))
         (sha256
           (base32
-            "1wvwdk4xbx80m021x2pzl8x29xbmajx0hhq8fnaxkjxgsps5zhip"))))
+            "15xd1ibqqkvzydkvvv1az3y6ql5q7rpj62nlpw1p9z0jwan2vfyn"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-pyvenv emacs-pyenv-mode))
