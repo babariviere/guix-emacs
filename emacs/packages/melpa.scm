@@ -17697,17 +17697,17 @@
 (define-public emacs-comware-router-mode
   (package
     (name "emacs-comware-router-mode")
-    (version "20230107.1624")
+    (version "20240103.907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/daviderestivo/comware-router-mode.git")
                (commit
-                 "cc0c1937e02f84ca8182b2de3ce5cc0982308ab8")))
+                 "e1671efe5e0ade2dcbea0c17697d460cd8f0ba67")))
         (sha256
           (base32
-            "0aig2bjfygk3zckfx361r0miz7v3gg0s9aln7m15vprc4xsryj39"))))
+            "0f564f4sqdmq966zqjgvxvph2mxkvmkd58gp43x4f67v3b18k41x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page
@@ -18779,17 +18779,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20240103.606")
+    (version "20240103.1401")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "ad5153a87af6b0f399c8badee1a255679c88eacd")))
+                 "adfccae7be2dff68ecbded1b47d5029e4e86dc00")))
         (sha256
           (base32
-            "01wqvfrvahdgih9jqgwdxzzsxb190yr6cz7lq37dwgbi7ial3a9a"))))
+            "1sv3gif1wk56691s1bklzvd3pwqamypzla8z8yvssz2y1gi4zziv"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -21670,17 +21670,17 @@
 (define-public emacs-dash
   (package
     (name "emacs-dash")
-    (version "20230714.723")
+    (version "20240103.1301")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/magnars/dash.el.git")
                (commit
-                 "f46268c75cb7c18361d3cee942cd4dc14a03aef4")))
+                 "e32a70ca636bad42232b6c79f1491dc86802a721")))
         (sha256
           (base32
-            "0ck6xwgbkjq7svqgzj3wddr20aqffwcxlmvdg0nj2i9zbksz8rkp"))))
+            "0jkwjkm64ciz60b4bhm50f4c6vc51wi2a12kdd1ijvdnxscnlxx7"))))
     (build-system melpa-build-system)
     (arguments '(#:files ("dash.el" "dash.texi")))
     (home-page "https://github.com/magnars/dash.el")
@@ -35162,17 +35162,17 @@
 (define-public emacs-evil-cleverparens
   (package
     (name "emacs-evil-cleverparens")
-    (version "20231001.1423")
+    (version "20240103.926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-cleverparens.git")
                (commit
-                 "134fe3396f975fb1ad261f52cd113f42ac1da4fc")))
+                 "e8ccec32867e12d70a7cff5c70e4ac91f58dbd20")))
         (sha256
           (base32
-            "1jaakqfrhb0xr1ffph9qnpl0hlgggskz0lz9d880v6dlkg6w7z85"))))
+            "1pyzn3knh9rbyzmk7jsb9z1vjsgvc020k2mjnsdl5szib5bvjm6m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil
@@ -52036,17 +52036,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20240103.633")
+    (version "20240103.1331")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "157fa0651695cacaf34db8b62a009760824473b1")))
+                 "f4cb49f700cd6799f53a313f7a7223394767c401")))
         (sha256
           (base32
-            "08rzvwnglgf2dsx19xx17769bgspnxxw057bf60ik3n86fcngg5n"))))
+            "1dkhwxkbkv8nmsgjfg97m9ph9fnrfyjcqn2c64w957la0drlgmph"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -71434,17 +71434,17 @@
 (define-public emacs-load-bash-alias
   (package
     (name "emacs-load-bash-alias")
-    (version "20230310.1657")
+    (version "20240103.916")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/daviderestivo/load-bash-alias.git")
                (commit
-                 "5daab364e65bdd7abe531b8557d88342b446f0c0")))
+                 "7e7b6773f99e6aafe819596388a3a7fd09dd91a9")))
         (sha256
           (base32
-            "1ri3plim7zk5k01fnvc82xy8p4nrzq17k63dgqgfrw615wid2sfk"))))
+            "1aj7v9hb01789lvf4hkn01x9x7vivwlrh2lwwrblxbww4csg9rrg"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/daviderestivo/load-bash-alias")
@@ -77830,7 +77830,7 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20231225.1129")
+    (version "20240103.755")
     (source
       (origin
         (method url-fetch)
@@ -77840,7 +77840,7 @@
                ".tar"))
         (sha256
           (base32
-            "0aiwz8dh4nyn6bzj986vq7qckd8kgfijwh35prz6isj9x4z6fxbn"))))
+            "0d80zbcrqlgwbwk6aiwpmdsy6r2dh35zg25gd40ngkk0ziwvwwx1"))))
     (build-system melpa-build-system)
     (home-page
       "https://git.sr.ht/~protesilaos/modus-themes")
@@ -85269,17 +85269,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20231128.1733")
+    (version "20240103.844")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "45c60a86ca318754d93cda3934100b47fa3f0cb8")))
+                 "78ed0324adf6efa054e29f6e79c62a6e9324b8f0")))
         (sha256
           (base32
-            "0gdr06j5m0shhaip0zj90lka1qnx41rdv38669k7qzd8p9licl3r"))))
+            "07087dx3y6drqx6rwcf6lfjjbhl89f0hj43n3afp1lg9z14hlikl"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -89318,17 +89318,17 @@
 (define-public emacs-org-re-reveal
   (package
     (name "emacs-org-re-reveal")
-    (version "20240102.1647")
+    (version "20240103.847")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/org-re-reveal.git")
                (commit
-                 "ce06441a5ff1483b6eed467a00ce43cc4bc62b19")))
+                 "7c39d15b841c7a8d197a24c89e5fef5d54e271aa")))
         (sha256
           (base32
-            "141qhc9q8ra0ki7m6g70hrpfphzx1rq9qb3qylff7559c7b2wfn0"))))
+            "0ayiaqci969d8q3nc0aq0a9djl84lckj2sc5nndbb1bvvhz49xq1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-htmlize))
     (home-page
@@ -97776,17 +97776,17 @@
 (define-public emacs-poetry
   (package
     (name "emacs-poetry")
-    (version "20231219.1221")
+    (version "20240103.947")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/cybniv/poetry.el.git")
                (commit
-                 "552f8e27f011760acdfe995c54a3694d4ef9128a")))
+                 "ca2cffb0b174e9d814ad95178af84b525dd2b64d")))
         (sha256
           (base32
-            "1wcvmjywhka53r0bwmacxi7j7wcifi5mvfd5f052vv2h5ss5c07s"))))
+            "18vl4fzgf97grz8r6sj1m3brr2cd6jcf5y60v4jhnllwkjfnx52i"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-pyvenv))
     (home-page
@@ -112162,17 +112162,17 @@
 (define-public emacs-smart-mode-line-atom-one-dark-theme
   (package
     (name "emacs-smart-mode-line-atom-one-dark-theme")
-    (version "20230107.1731")
+    (version "20240103.927")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/daviderestivo/smart-mode-line-atom-one-dark-theme.git")
                (commit
-                 "5f2056d7c24e9c8964f700ab6ec6f00ba4315eb8")))
+                 "f422b79e7b6e2796b1d5f4143913497383840960")))
         (sha256
           (base32
-            "1klzgsvl4vnj14azdng7c3dz3r8mw3il9p56gf9dpm5xr8w4mwbl"))))
+            "1f9003m0wkw2j6b9k1i0ahr4cdslx48rhk8ggksn30523gssa1xp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-smart-mode-line))
     (home-page
@@ -125219,17 +125219,17 @@
 (define-public emacs-vertico
   (package
     (name "emacs-vertico")
-    (version "20240102.1622")
+    (version "20240103.1359")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/vertico.git")
                (commit
-                 "20c9214d969cd060f79f8556316c62e96a8a2453")))
+                 "357c2503a7787193d50dafd8212f2b1cc165ae16")))
         (sha256
           (base32
-            "05l68zf6rsnhm8jk82cf9dkbnsvjlpvlshp2yl9kqbrf46b8nkj2"))))
+            "1r9446lqb1bvhqh20hdaa8giq3838nxr4zz8cxh9cfwahqmxd9xw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
