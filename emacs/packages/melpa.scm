@@ -18779,17 +18779,17 @@
 (define-public emacs-corfu
   (package
     (name "emacs-corfu")
-    (version "20240102.331")
+    (version "20240103.606")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/corfu.git")
                (commit
-                 "3f01b49373af2d28a8a6fdd7e09040d4aaef1d0f")))
+                 "ad5153a87af6b0f399c8badee1a255679c88eacd")))
         (sha256
           (base32
-            "151kwpdjkks30rv3l7vqg570ywb9l2klc45jrb0cngl67vnq01p2"))))
+            "01wqvfrvahdgih9jqgwdxzzsxb190yr6cz7lq37dwgbi7ial3a9a"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -45934,17 +45934,17 @@
 (define-public emacs-fussy
   (package
     (name "emacs-fussy")
-    (version "20231215.2235")
+    (version "20240103.159")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jojojames/fussy.git")
                (commit
-                 "e06c92a22a5fe0baf6ade5bdc1e1a4dd9620dc03")))
+                 "4080b373f3361126d4de1f063bb08718b0c08eed")))
         (sha256
           (base32
-            "044p0zvnvgw3lqb68czk0bdmjpd53awhcba1hgpjprfi78ll56zc"))))
+            "1x0vmbxd0ggslkxcam5da586plsjar9v5nka0dbxdkwx6k6n23r1"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-flx))
     (home-page "https://github.com/jojojames/fussy")
@@ -50702,17 +50702,17 @@
 (define-public emacs-gptel
   (package
     (name "emacs-gptel")
-    (version "20240102.2247")
+    (version "20240103.337")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/karthink/gptel.git")
                (commit
-                 "d5b10c3d6d233367a74b4f1d68ad9834d8024b92")))
+                 "3af265034260a35adb310305d363142d874db01e")))
         (sha256
           (base32
-            "1lnzl8mnsnajm44anqnqirnw1icmqnyixbmgy7hr386b0id1jis8"))))
+            "07is81scq0cmbqy9r8fhy2wph3km5qyxr6c7wcjl7sa6kfy4cm7h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/karthink/gptel")
@@ -52036,17 +52036,17 @@
 (define-public emacs-haki-theme
   (package
     (name "emacs-haki-theme")
-    (version "20231231.1632")
+    (version "20240103.633")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/idlip/haki.git")
                (commit
-                 "d86adb381f7e8d93b0c01ccad8021caad7cc22d3")))
+                 "157fa0651695cacaf34db8b62a009760824473b1")))
         (sha256
           (base32
-            "1ibjd4l0wf0hmg4n1hsl09issxavss0aq39s5yss4978mx85a5aj"))))
+            "08rzvwnglgf2dsx19xx17769bgspnxxw057bf60ik3n86fcngg5n"))))
     (build-system melpa-build-system)
     (home-page "https://github.com/idlip/haki")
     (synopsis
@@ -67493,17 +67493,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20231222.1613")
+    (version "20240103.616")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "21c55b4c0d9e134f26f99038e40254d27af93fef")))
+                 "e28adf2884c03cccddc3f3016b665f89565ebdef")))
         (sha256
           (base32
-            "0imb5jbrh02z1f9qpk6y6nc21787bsg9bbgihiqphlrmbnw8ncl9"))))
+            "1rpinlrxr0jj4qpwsbnjwq9kp2wwc6r8bwzps0p6znzg6nysgbkf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -86324,17 +86324,17 @@
 (define-public emacs-org-ai
   (package
     (name "emacs-org-ai")
-    (version "20231226.2025")
+    (version "20240103.235")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/rksm/org-ai.git")
                (commit
-                 "30fbae90ee823e0493d6cd719128598eb924889c")))
+                 "de986f587caf12114f91f87c5d66ee85ee2b1d56")))
         (sha256
           (base32
-            "1xd68fykz6rg5i7kplymw5blyixf5wwf30k7a44gly1d7z50i54z"))))
+            "05b0m1c1hygqfy02rgg9421x3b8fpmlyhrp7rg2xk33szgl7g9nx"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-websocket))
     (arguments '(#:files (:defaults "snippets")))
@@ -114017,17 +114017,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20231221.102")
+    (version "20240103.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "7da92b09d8c0dafdc67fabd9725b058a81cba98d")))
+                 "4e965208c81dbbf6ca27a2705e7b349afffe9ce3")))
         (sha256
           (base32
-            "17ai03smi45zqffnpwyg3hp0rm0adhnhsabrb12v7lr69b19fa3p"))))
+            "0hl043v9lxa51xingy1hk81qyln4mjm9p19c57s438id2j93jj83"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -119581,17 +119581,17 @@
 (define-public emacs-tiktoken
   (package
     (name "emacs-tiktoken")
-    (version "20231205.1428")
+    (version "20240103.340")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/zkry/tiktoken.el.git")
                (commit
-                 "cbf5c7eec0b2599a6ee38ccd551518d0eaeb3cc7")))
+                 "1dec1547024c10f32cd49129f937fa1d3ee39d01")))
         (sha256
           (base32
-            "0g5ch54qc1yjx3bbva1j4f9w0vrn0w1g3p62knhry7ic13k1rvfc"))))
+            "1bgm30r05z181df5jfhq3yyjcjcarn7lnlsbaq54l8fsan9krhpc"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-f))
     (home-page "https://github.com/zkry/tiktoken.el")
