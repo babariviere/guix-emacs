@@ -8208,7 +8208,7 @@
 (define-public emacs-biome
   (package
     (name "emacs-biome")
-    (version "20240103.2104")
+    (version "20240103.2318")
     (source
       (origin
         (method git-fetch)
@@ -27511,17 +27511,17 @@
 (define-public emacs-eask
   (package
     (name "emacs-eask")
-    (version "20240101.824")
+    (version "20240104.38")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-eask/eask.git")
                (commit
-                 "e332aa05211097cf48f2755c755bcd19a838e35b")))
+                 "2e36d7ce574207d6720bd02649ef3e5714a7f8f1")))
         (sha256
           (base32
-            "0432d0644gbbs9nx10dnp4vwzsz6sny3x558fwz6whapgsv72b5c"))))
+            "1ss2krsgbpqbb0b9krvjkr1xxm6755ih5gxz7zm91n02hy0xn2zf"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (home-page "https://github.com/emacs-eask/eask")
@@ -52841,17 +52841,17 @@
 (define-public emacs-helm
   (package
     (name "emacs-helm")
-    (version "20231229.547")
+    (version "20240104.553")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-helm/helm.git")
                (commit
-                 "7fd0054a50cce633aea1b5291ab987cb176e5146")))
+                 "f7ca648c2c3b308b90739f1862b4f750585ee362")))
         (sha256
           (base32
-            "1vi7510hkvngfy694k731xxd89mlcgrbq96gk88qg4f6q8pbfrfk"))))
+            "08dsdr29pwg1d8bdnfwdjqpdp93y2rdn0a9x0ib36xfp3sadpcpg"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-helm-core emacs-wfnames emacs-popup))
@@ -55545,17 +55545,17 @@
 (define-public emacs-helm-org-ql
   (package
     (name "emacs-helm-org-ql")
-    (version "20231221.2314")
+    (version "20240104.47")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "087e99703efc236680e77f4d081b939139e1d782")))
+                 "39394c831a8e70d5c3156468d7c1c217069548d3")))
         (sha256
           (base32
-            "0l403n75xyjf14pbk7hfdzajv393mk5m0xp9csv8dl805rgzrdkr"))))
+            "15vypnwk3gzsfz390nyzn2mldpyj72dq97sk7f8a7dv7wynwyaxd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-dash
@@ -88216,17 +88216,17 @@
 (define-public emacs-org-link-beautify
   (package
     (name "emacs-org-link-beautify")
-    (version "20231224.243")
+    (version "20240104.247")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://repo.or.cz/org-link-beautify.git")
                (commit
-                 "12fb837e34ce3a73fbe6f6b8a6ca04d3f4cc0462")))
+                 "0da5f4321bd1ed69e0597cdb99ecc2ee16d3538c")))
         (sha256
           (base32
-            "02ygp45ni9r7bfznsblglqnyxw8zidppl4a6vkr6bfpgj8sdgm5d"))))
+            "1phwvf5m528fkp01k830gp1maqg65vbn3450dn4kdsrr28phk8z5"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-nerd-icons emacs-fb2-reader))
@@ -89191,17 +89191,17 @@
 (define-public emacs-org-ql
   (package
     (name "emacs-org-ql")
-    (version "20231224.710")
+    (version "20240104.49")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/alphapapa/org-ql.git")
                (commit
-                 "a4bf5b0a92e47fb4ea0c5e4e5462a71b1c9b20a9")))
+                 "39394c831a8e70d5c3156468d7c1c217069548d3")))
         (sha256
           (base32
-            "08b2azzwxlky39n5rycn8js79xlgalfjig8n9nlrldgw9rw621ys"))))
+            "15vypnwk3gzsfz390nyzn2mldpyj72dq97sk7f8a7dv7wynwyaxd"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat
@@ -114017,17 +114017,17 @@
 (define-public emacs-spdx
   (package
     (name "emacs-spdx")
-    (version "20240103.102")
+    (version "20240104.102")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/condy0919/spdx.el.git")
                (commit
-                 "4e965208c81dbbf6ca27a2705e7b349afffe9ce3")))
+                 "2e84093e8ed6c04aca7da94cc1da74e06e0d2b70")))
         (sha256
           (base32
-            "0hl043v9lxa51xingy1hk81qyln4mjm9p19c57s438id2j93jj83"))))
+            "0vxdr04i21zxz15gapk1qrmx9nwcaz80kvg4sl0r3hcjhamji4bj"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/condy0919/spdx.el")
@@ -127998,17 +127998,17 @@
 (define-public emacs-wikinforg
   (package
     (name "emacs-wikinforg")
-    (version "20231224.220")
+    (version "20240104.603")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/wikinforg.git")
                (commit
-                 "f3d090e81a45f453d05f721550d57e99873786ef")))
+                 "6c06f297a45c457e5bd1e2b55e870cd102e2a878")))
         (sha256
           (base32
-            "15w43vl60zm4fypmmycrpd8jd7brzzsc1kxj8brzj1xm4xga0khh"))))
+            "0xpizw611w18bfjqdlwsbh2280h7sdmpfshwfmznfgk2jkix8maw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-wikinfo))
     (home-page
@@ -128749,17 +128749,17 @@
 (define-public emacs-wordel
   (package
     (name "emacs-wordel")
-    (version "20230818.1324")
+    (version "20240104.603")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/progfolio/wordel.git")
                (commit
-                 "70171a21cbe53e407b86440bf7ee93d39cb5ebde")))
+                 "38a05283c014812c0a54207aa6146f163c707fa5")))
         (sha256
           (base32
-            "1irmabp8zdlp08mvf2xlamf8kg4qbvydm1h4a6ca0b8v53jpd95f"))))
+            "181am26kb18aw0g93la2c5037p5d6fn6da8knsj0zf1rmisr2qyc"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "words")))
     (home-page "https://github.com/progfolio/wordel")
