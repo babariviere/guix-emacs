@@ -1834,17 +1834,17 @@
 (define-public emacs-ado-mode
   (package
     (name "emacs-ado-mode")
-    (version "20221023.1422")
+    (version "20240103.1856")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/louabill/ado-mode.git")
                (commit
-                 "5610074e29ce08631c5210f1873938c3bcd9cbde")))
+                 "e4f16ccfcef634661783a86deec922c679338477")))
         (sha256
           (base32
-            "17dlhrb74gf4bwjwvzca454ljqxhmfschv7zbgya0r1vax9vbb2i"))))
+            "134ym86pxjdxx17xlkrls5jx0h76w0mz5hz7man09rk1v18kjqfm"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files (:defaults "scripts" "templates")))
@@ -8208,17 +8208,17 @@
 (define-public emacs-biome
   (package
     (name "emacs-biome")
-    (version "20231225.2322")
+    (version "20240103.2104")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/SqrtMinusOne/biome.git")
                (commit
-                 "599a55fa20a7ba38c3aead07e0af7b7b02902dfa")))
+                 "0622e4d4d7b8cfb4a96622a377f1e41c5b21c5db")))
         (sha256
           (base32
-            "1d7pjpmsrhj42c8dn26w7ffizg4q1c8v88b03mb81g22iw0mxfkq"))))
+            "019pwdf8ih5bh0mdffbw61fc16yfpa8kfxddiws2j7cvzg3w8dys"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ct emacs-request emacs-compat))
@@ -31470,17 +31470,17 @@
 (define-public emacs-emacsc
   (package
     (name "emacs-emacsc")
-    (version "20230326.1852")
+    (version "20240103.1926")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/knu/emacsc.git")
                (commit
-                 "b4afd616c4ef160c58fc9a9682d3431b30a9d434")))
+                 "8d204771f4ee176cb4ae061304f65ef894b87c3f")))
         (sha256
           (base32
-            "0sl7kxdh4bh9irdq1x0w06g0wcn0d4j72dksrl8criq4q2srj4wv"))))
+            "06aikvx7qmczwzbg8qi881fcy26vkb4kv7w5qbsw5kbw98whcqwp"))))
     (build-system melpa-build-system)
     (arguments '(#:files (:defaults "bin")))
     (home-page "https://github.com/knu/emacsc")
@@ -35241,17 +35241,17 @@
 (define-public emacs-evil-collection
   (package
     (name "emacs-evil-collection")
-    (version "20231225.2045")
+    (version "20240103.1720")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-evil/evil-collection.git")
                (commit
-                 "cf1a11912d1e77a197fab0e4f82d0c2268084455")))
+                 "2eb68ac588f68c7d6706618754524595138900a1")))
         (sha256
           (base32
-            "1iiw7hs08rr9xjqbcl3wgsgn2gz4qsyx8sblvyafh7bk65s0m011"))))
+            "1389wafnc3rphakkgyxvm4kjk85jy55386zs3wcca1vd9027y71h"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-evil emacs-annalist))
@@ -85269,17 +85269,17 @@
 (define-public emacs-oer-reveal
   (package
     (name "emacs-oer-reveal")
-    (version "20240103.844")
+    (version "20240103.1621")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://gitlab.com/oer/oer-reveal.git")
                (commit
-                 "78ed0324adf6efa054e29f6e79c62a6e9324b8f0")))
+                 "0d8d18c8ca67b40c0dd2e808837578356e340c01")))
         (sha256
           (base32
-            "07087dx3y6drqx6rwcf6lfjjbhl89f0hj43n3afp1lg9z14hlikl"))))
+            "0q3f5ksnqd8lxbiybz0q4xiwkkhqs5xqixyigz3i9aryvmhp29di"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-org-re-reveal))
     (arguments
@@ -123591,7 +123591,7 @@
 (define-public emacs-universal-sidecar
   (package
     (name "emacs-universal-sidecar")
-    (version "20231023.219")
+    (version "20240103.2118")
     (source
       (origin
         (method url-fetch)
@@ -123601,7 +123601,7 @@
                ".tar"))
         (sha256
           (base32
-            "0h30k1xqhkczd4d69cygb6y46ar12l1dgw6x05wna7nsmp57raxc"))))
+            "0rrpnsfqb7ri0y7hi79hx1kc6qvxgvlbf2d54l3zdln908d3v44h"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-magit-section))
     (home-page
@@ -123614,7 +123614,7 @@
 (define-public emacs-universal-sidecar-elfeed-related
   (package
     (name "emacs-universal-sidecar-elfeed-related")
-    (version "20231023.219")
+    (version "20240103.2118")
     (source
       (origin
         (method url-fetch)
@@ -123624,7 +123624,7 @@
                ".tar"))
         (sha256
           (base32
-            "19kxdandij4489bjqf2s6v30jycbcj1qws5gqxdj0qdlqx4rm396"))))
+            "18a6qxbc98ljwdawiwf6jlqadnzdm8ksq2yhhi7fnnvcchpk6wqv"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-universal-sidecar
@@ -123641,7 +123641,7 @@
 (define-public emacs-universal-sidecar-elfeed-score
   (package
     (name "emacs-universal-sidecar-elfeed-score")
-    (version "20231023.219")
+    (version "20240103.2118")
     (source
       (origin
         (method url-fetch)
@@ -123651,7 +123651,7 @@
                ".tar"))
         (sha256
           (base32
-            "1s809y1c3vmyncmlbspar8ckxhp7sq3imi64zcilhl2vqzlshljc"))))
+            "11vql74crvplr3pmnkjdprqdg94qbhbjgj9hgjbdv27ibpx12svq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-universal-sidecar
@@ -123668,7 +123668,7 @@
 (define-public emacs-universal-sidecar-roam
   (package
     (name "emacs-universal-sidecar-roam")
-    (version "20231023.219")
+    (version "20240103.2118")
     (source
       (origin
         (method url-fetch)
@@ -123678,7 +123678,7 @@
                ".tar"))
         (sha256
           (base32
-            "1hzdlb7163v47sb9009s81vnmbvzdi5a01ial417awj6bryvxli4"))))
+            "13sy3dxw7n6qdmfjc7cp2gv5ybla91fz6p15pghvi24pvpb5im8b"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-universal-sidecar emacs-org-roam))
