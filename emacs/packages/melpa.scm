@@ -3987,20 +3987,20 @@
 (define-public emacs-apropospriate-theme
   (package
     (name "emacs-apropospriate-theme")
-    (version "20240921.1422")
+    (version "20241119.1")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/waymondo/apropospriate-theme.git")
                (commit
-                 "055693f52b5179f896a49c0570b5a6ca441fb2b9")))
+                 "56c8c1b575106e72bcab2227fd73cf34f7f3df79")))
         (sha256
           (base32
-            "0n9xyfxsd1ypn6psa4qwlbiwa5vvprh6js18rlhki67v6df3lwgp"))))
+            "1ll2j35z2bgxfz4nkiminlfsmqb7gjcjapsmj001qb5sfzcy52p9"))))
     (build-system melpa-build-system)
     (home-page
-      "http://github.com/waymondo/apropospriate-theme")
+      "https://github.com/waymondo/apropospriate-theme")
     (synopsis
       "A colorful, low-contrast, light & dark theme set for Emacs with a fun name")
     (description
@@ -17896,17 +17896,17 @@
 (define-public emacs-compile-angel
   (package
     (name "emacs-compile-angel")
-    (version "20241118.2135")
+    (version "20241119.519")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jamescherti/compile-angel.el.git")
                (commit
-                 "0266ce84b84caa021ef8e13aa3eebd827674faaa")))
+                 "72248622519f841796e8f7be7550de31d43bb63a")))
         (sha256
           (base32
-            "0wkic12zqrfc5rwz1g8bhixhkfxhadcgqc5lcsq6gf2iig4fn27f"))))
+            "0bhimj9yihlgqspyhfwxmnywpphwf4kdzqz6zkml1ksqpd57sik5"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jamescherti/compile-angel.el")
@@ -69442,17 +69442,17 @@
 (define-public emacs-khoj
   (package
     (name "emacs-khoj")
-    (version "20241118.536")
+    (version "20241119.130")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/khoj-ai/khoj.git")
                (commit
-                 "f75085dc7a0f5635b7d2a7dae706cca369fb161d")))
+                 "5134d49d7133e34962c396dc7be75bb6c3a46a29")))
         (sha256
           (base32
-            "1rfcx06dn2gymhjcdvrfqavk444rxpl7ja2qc2l4dzwnlv7b61s0"))))
+            "13f5q9xsshsaii0k700vjzk3a5zl7jms5bl67znam5c63jr33nfg"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-dash))
     (arguments
@@ -106700,24 +106700,24 @@
 (define-public emacs-realgud-lldb
   (package
     (name "emacs-realgud-lldb")
-    (version "20230201.948")
+    (version "20241119.209")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/realgud/realgud-lldb.git")
                (commit
-                 "74d442abc8469bb6277702f9c60fa479848009b2")))
+                 "deacd070e8ab8830f4d577fee37136ad89183d13")))
         (sha256
           (base32
-            "150p7yk0x4apszvkh6sv9iwjv5amzjvlj9ydk9w46bxfypxr29p1"))))
+            "1yn51aavvz5v4l27afzqbmh77fi1gpqsb89l7ladlv1d6fbzh3z9"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-load-relative emacs-realgud))
     (arguments
       '(#:files (:defaults ("lldb" "lldb/*.el"))))
     (home-page
-      "http://github.com/realgud/realgud-lldb")
+      "https://github.com/realgud/realgud-lldb")
     (synopsis "Realgud front-end to lldb")
     (description
       "Documentation at https://melpa.org/#/realgud-lldb")
