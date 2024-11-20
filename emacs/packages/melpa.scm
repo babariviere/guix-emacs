@@ -12458,17 +12458,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20241118.1904")
+    (version "20241119.1842")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "4b88f5ec0678afaa4d41c2762bb8d99220b41efc")))
+                 "be1b5e1e1e394b205c1db287e1edac91b4ac5a6f")))
         (sha256
           (base32
-            "0isifyhdyl8583icr6izfj1j701misl1kh6h35g02a8fr8m8rs4m"))))
+            "06bncynwhlg2jhf2dcl9i6dxlwrzdick4gc6rcs9rs4qyskdkqby"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments
@@ -12483,7 +12483,7 @@
     (home-page
       "https://github.com/xenodium/chatgpt-shell")
     (synopsis
-      "ChatGPT shell + buffer insert commands")
+      "A multi-llm comint Emacs shell (plus other goodies)")
     (description
       "Documentation at https://melpa.org/#/chatgpt-shell")
     (license #f)))
@@ -18930,7 +18930,7 @@
 (define-public emacs-consult-recoll
   (package
     (name "emacs-consult-recoll")
-    (version "20231211.1221")
+    (version "20241119.1807")
     (source
       (origin
         (method url-fetch)
@@ -18940,7 +18940,7 @@
                ".tar"))
         (sha256
           (base32
-            "1pm39dan993wgm24ngm3qmaia335gj7rnk1h8clbv84vvg892mjg"))))
+            "1917n3s6wmhzsx731ml19qnndw8ma3rpkk248vhqp72w2lyyax3m"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-consult))
     (home-page
@@ -30194,17 +30194,17 @@
 (define-public emacs-el-job
   (package
     (name "emacs-el-job")
-    (version "20241114.2235")
+    (version "20241119.1918")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meedstrom/el-job.git")
                (commit
-                 "32ea3c18394ef56bb61c4699c02038122160ea3a")))
+                 "c1d9aec762c7ca571ec61a6cbf581279bbb8ee67")))
         (sha256
           (base32
-            "1s8jgzkqydqzgffjfn7lhbviik6qrbabv7w27a4xashwrvkcj7s4"))))
+            "04hgnnyr48pqmwzb72h7crqn9vbn8vj8vabb6mqwhm1ncg4cgkzw"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/meedstrom/el-job")
@@ -35619,17 +35619,17 @@
 (define-public emacs-ess
   (package
     (name "emacs-ess")
-    (version "20241106.2028")
+    (version "20241119.2023")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-ess/ESS.git")
                (commit
-                 "461bd6bee440b92c2dcddd64965eeabbdcc65e31")))
+                 "dbebca483e7386fa5c17505ab444c817f6926bd4")))
         (sha256
           (base32
-            "1pbw0naman2czpr0330w2ggdp4is2mf7g97l4ni0k93vzr0jn0hf"))))
+            "0q6z0g5cc3a30y7gr5pn9x565pp4hsaz0gh1h95zp9jmj9hy3ara"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -66755,17 +66755,17 @@
 (define-public emacs-jinx
   (package
     (name "emacs-jinx")
-    (version "20241105.2132")
+    (version "20241119.1644")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/jinx.git")
                (commit
-                 "c44d2517cfbe2214e7e2840e16ad1ad739e1c1a4")))
+                 "61144055e8ce445568baa19302f4af60e15a2e6d")))
         (sha256
           (base32
-            "0khs1v9nizl1r6r40ldnnn15hvjxis5qipqxw7jh3ax56aiim2ad"))))
+            "0422wxmcbjrs1jryvvi5ga6cb3xrxyisyy0412qlzb9dd68pp55d"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments
@@ -85707,17 +85707,17 @@
 (define-public emacs-ob-chatgpt-shell
   (package
     (name "emacs-ob-chatgpt-shell")
-    (version "20241112.1848")
+    (version "20241118.1001")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/ob-chatgpt-shell.git")
                (commit
-                 "a5ac132f8066a4029e72ba11267e6251de24c759")))
+                 "754ddf54a99bd98427c91a6c7374757026f8bd45")))
         (sha256
           (base32
-            "195wxfwmksx05nacl03akimp32dcwm8jkw4biswhh6sv54fl9lhi"))))
+            "19xj8vm7kkv4a1xa7l5lrz1fk14v34pcbly8i3fpjqx1wgj04waa"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-chatgpt-shell))
     (home-page
@@ -87037,17 +87037,17 @@
 (define-public emacs-ob-swiftui
   (package
     (name "emacs-ob-swiftui")
-    (version "20231009.918")
+    (version "20241119.1735")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/ob-swiftui.git")
                (commit
-                 "af65a8e60602ca90ab3f61811190a3da67ac0414")))
+                 "c16b4cddb5387fcebdd1d61a4c6c015f778d2d08")))
         (sha256
           (base32
-            "1cyv3f4h7dj9fhlgivgh7mqgaaf7q5mxs4mmp833sh0mgk4p6vmk"))))
+            "0lqff7cjxc0x4xdza2jm58gbg6rbwfg0w7112jpfvyp98x025abm"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-swift-mode))
     (home-page
@@ -91032,17 +91032,17 @@
 (define-public emacs-org-mpv-notes
   (package
     (name "emacs-org-mpv-notes")
-    (version "20240926.138")
+    (version "20241119.1627")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/bpanthi977/org-mpv-notes.git")
                (commit
-                 "22b9ac4c0bf3144f0a8ac3fb370efe0ac074d128")))
+                 "f6c0fc5546cf7168d997a3605cce7c08714cb599")))
         (sha256
           (base32
-            "0rapddcqsca5w9cfvdxwabw8qxql3dd03kfix1zlskwx1iiypvjj"))))
+            "013c90h8qajil7wk1m1q6kqxgl5812bd004lqn0k886mahfm75qn"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/bpanthi977/org-mpv-notes")
@@ -91196,17 +91196,17 @@
 (define-public emacs-org-node
   (package
     (name "emacs-org-node")
-    (version "20241118.2231")
+    (version "20241119.2031")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/meedstrom/org-node.git")
                (commit
-                 "aa85867614083b7add1ae2b64341bae059959fcb")))
+                 "14c72ee069605d953d9e8f077391ff036aeb0a27")))
         (sha256
           (base32
-            "0kchcny204gwra65csrrs6x362wjjl275zwzp4aw1xyvwwsndws5"))))
+            "0lpj97p5zdhp9mc04pcqlaqpimmbrnxr15m1zxlz1g7b4xnc1gfq"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-compat emacs-el-job emacs-llama))
@@ -94344,17 +94344,17 @@
 (define-public emacs-osm
   (package
     (name "emacs-osm")
-    (version "20241105.2132")
+    (version "20241119.2137")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/minad/osm.git")
                (commit
-                 "b17f4824fce86937dff956d4daf3b62849b27fa7")))
+                 "ab76f8a9e79e0ec6330071b4aed974270b6f2a15")))
         (sha256
           (base32
-            "0cmzsmb5ahmx9xl7qc0rxs0hl6b4aminjaikai9113psnsshrsdn"))))
+            "0acmpvx843d9xxgid7sdhs4awjlyavivkgb6252h591dnqmzdzyi"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (home-page "https://github.com/minad/osm")
@@ -105452,22 +105452,22 @@
 (define-public emacs-quick-sdcv
   (package
     (name "emacs-quick-sdcv")
-    (version "20241118.2017")
+    (version "20241119.1657")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jamescherti/quick-sdcv.el.git")
                (commit
-                 "ff38411ac6e2131e2d858946eb4e5771fef8122b")))
+                 "852fa91e5d8231b5118b7997a329074b5e08c5b9")))
         (sha256
           (base32
-            "096nc980pjd526skv1wifg41bqa5jfxzf3g3a9w3cvlyna9f2853"))))
+            "0gldw62vl3shv9dlwqp70pgaxz8d11l8r7q5752b7ygdjna37f45"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jamescherti/quick-sdcv.el")
     (synopsis
-      "Interface for the sdcv command (StartDict cli dictionary)")
+      "Offline dictionary using 'sdcv' (StartDict cli dictionary)")
     (description
       "Documentation at https://melpa.org/#/quick-sdcv")
     (license #f)))
@@ -112915,17 +112915,17 @@
 (define-public emacs-shell-maker
   (package
     (name "emacs-shell-maker")
-    (version "20241118.1014")
+    (version "20241119.1109")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/shell-maker.git")
                (commit
-                 "a6d5ec61c1e36c7b8d87dcb1a04264541d332309")))
+                 "d90ec9ad3f83d381de65159043318f3381bb3a36")))
         (sha256
           (base32
-            "1xr910adgk13d81923r8jqa7hgwmprc8bklxcp95q5mn3pyhqkzx"))))
+            "00xgaiddfgzngjmm9xky7f9nr50sfqy0s0w2cqnj5mnxa34z9ah1"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/xenodium/shell-maker")
@@ -133110,17 +133110,17 @@
 (define-public emacs-x509-mode
   (package
     (name "emacs-x509-mode")
-    (version "20241116.1230")
+    (version "20241119.1907")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jobbflykt/x509-mode.git")
                (commit
-                 "b30bc5e91b28ade6802d80513954a7ec4f025db2")))
+                 "b4dc55ee6f9e22e6558fe72a0c350b2c3a771f66")))
         (sha256
           (base32
-            "0cbh217cs2y8z6dqr4jhcg32322d3iy3n3a6rqrmfmx7bl20lhrp"))))
+            "135pppf7xw1v8yzvxp0rdnimsr7jzz1scsb208xxq4s3x1g0vmax"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-compat))
     (arguments '(#:files (:defaults "*.txt")))
