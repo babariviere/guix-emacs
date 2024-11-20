@@ -1,4 +1,7 @@
 * Emacs channel
+
+Maintained fork can be found here: https://github.com/garrgravarr/guix-emacs.
+
 ** Disclaimer
 This repo is meant to mirror packages from melpa (primarily). Packages without any external dependencies (non-emacs packages) will work perfectly fine (but you may not have ~info~ documentation from emacs).
 For packages with external dependencies, there are a few that are patched in [[file:emacs/packages/melpa-overrides]].
