@@ -12458,17 +12458,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20241119.1842")
+    (version "20241120.649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "be1b5e1e1e394b205c1db287e1edac91b4ac5a6f")))
+                 "827798d6ffecaa259ba169d1ebd2bb6ef6d7e142")))
         (sha256
           (base32
-            "06bncynwhlg2jhf2dcl9i6dxlwrzdick4gc6rcs9rs4qyskdkqby"))))
+            "13482gkmd1q1f6y8kgg839hfqdhwxlbl1wfs4m0ckwk0rzl7zn3j"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments
@@ -17896,17 +17896,17 @@
 (define-public emacs-compile-angel
   (package
     (name "emacs-compile-angel")
-    (version "20241119.1448")
+    (version "20241120.505")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/jamescherti/compile-angel.el.git")
                (commit
-                 "1f80e7836e726871693e730875a304b3b9ac5db1")))
+                 "359069adbd67e713782a08ae2554032cf1477703")))
         (sha256
           (base32
-            "06knx5r0nxgdcym778dfgxcnchabh9dgm4hkyw5lhpfradl39v34"))))
+            "1zhc06v98qf9aqpd2c2mvnrz435j7kib9cj7q6q10zw43m6wrkxi"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/jamescherti/compile-angel.el")
@@ -26947,17 +26947,17 @@
 (define-public emacs-doom-themes
   (package
     (name "emacs-doom-themes")
-    (version "20240909.2117")
+    (version "20241120.157")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/doomemacs/themes.git")
                (commit
-                 "1cac71a4b2434036496a49b4440fdba3d0b5b387")))
+                 "3c03f525d5c0ac0859f31231778f97e10a705e0d")))
         (sha256
           (base32
-            "0423xhs2vd08adh1ar3qz651fdi6a2131c5haq3a9jx3fk464pdd"))))
+            "0mw0lvl3a3fz2xrh2cy7d48kzjgsf545m9lknab566wp2f7mg4ng"))))
     (build-system melpa-build-system)
     (arguments
       '(#:files
@@ -26967,7 +26967,7 @@
           "extensions/*.el")))
     (home-page "https://github.com/doomemacs/themes")
     (synopsis
-      "an opinionated pack of modern color-themes")
+      "An opinionated pack of modern color-themes")
     (description
       "Documentation at https://melpa.org/#/doom-themes")
     (license #f)))
@@ -52196,17 +52196,17 @@
 (define-public emacs-gpr-ts-mode
   (package
     (name "emacs-gpr-ts-mode")
-    (version "20241119.1310")
+    (version "20241120.259")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/brownts/gpr-ts-mode.git")
                (commit
-                 "8ad1277c46383e9ecdc33ccaab0433f0aad94952")))
+                 "598f2bca35d0fdedb8862a2cd73b119d915b848c")))
         (sha256
           (base32
-            "1jgl25y39i1i594h6b6alnl6f7kf1b93srd72jpgxg7h3j4qymy1"))))
+            "0b88lyln7qdv9w0wx78s1c54xzk1h6kmzrpqgf5zglp4p1vfqa2d"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/brownts/gpr-ts-mode")
@@ -68161,17 +68161,17 @@
 (define-public emacs-jupyter
   (package
     (name "emacs-jupyter")
-    (version "20241118.2345")
+    (version "20241120.230")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-jupyter/jupyter.git")
                (commit
-                 "e966c5d3d6ac147992832af69135655290072042")))
+                 "577371744b36aa0afa117b7ded21d08f60331ff6")))
         (sha256
           (base32
-            "09667kdlx60gngvbvj34sd19w915hhf2dli5730jljyrv6rkvxsv"))))
+            "1d2945irdi5s2cm2kzx87k28w2gcg1z8f5zm889rm5fv6dj6x1zj"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-zmq
@@ -80004,17 +80004,17 @@
 (define-public emacs-modus-themes
   (package
     (name "emacs-modus-themes")
-    (version "20241117.743")
+    (version "20241120.542")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/protesilaos/modus-themes.git")
                (commit
-                 "dc0d606e2a7058485913cbb33f27bad8e66c2d7b")))
+                 "df1798234edd56678da975d0d65b64bdebafc314")))
         (sha256
           (base32
-            "03079wppj308m8w432biij5lh5z78fa13jzz0pf5ssp6fiq178nv"))))
+            "0n7sbap1y72l9z8ifngfkl1bm2zgmx570i2dc0yd41la54q9ka0r"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/protesilaos/modus-themes")
@@ -114581,17 +114581,17 @@
 (define-public emacs-slack
   (package
     (name "emacs-slack")
-    (version "20241119.1031")
+    (version "20241119.2336")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-slack/emacs-slack.git")
                (commit
-                 "8d83ee62faffd079ccb5911d527020898da2fff9")))
+                 "113cb87e0a0a3daeae4f1c587fe7c1a0b66cdb61")))
         (sha256
           (base32
-            "00jy23hrbrrh1l8m1cm7pkxh9yxm2zr1hl56i61q1yfz8xhyw3w8"))))
+            "16anxdz2m3ka9bk4rpkg6z73sy8pkfi5hpldvazcfkg3ljzmb29m"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -124908,17 +124908,17 @@
 (define-public emacs-tree-sitter-ess-r
   (package
     (name "emacs-tree-sitter-ess-r")
-    (version "20221012.855")
+    (version "20241120.649")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/tree-sitter-ess-r.git")
                (commit
-                 "9669c00f3d3463e6769725af74c392891e269eed")))
+                 "895846900530017e91f95374a125c66b01d8925c")))
         (sha256
           (base32
-            "083m21lqgic910fqbxc104fai0vh2hrb7s2nlln43l7hlb8939b4"))))
+            "187r9fbgzwi7f0xk744xpiyv0wzqjvbdg3mf1rw5z3n2nqlag594"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ess
