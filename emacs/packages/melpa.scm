@@ -12458,17 +12458,17 @@
 (define-public emacs-chatgpt-shell
   (package
     (name "emacs-chatgpt-shell")
-    (version "20241120.649")
+    (version "20241120.1025")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/xenodium/chatgpt-shell.git")
                (commit
-                 "827798d6ffecaa259ba169d1ebd2bb6ef6d7e142")))
+                 "7132a3d718941493818df47a61f6d6006a513ac1")))
         (sha256
           (base32
-            "13482gkmd1q1f6y8kgg839hfqdhwxlbl1wfs4m0ckwk0rzl7zn3j"))))
+            "0lh8qiw5bji58nf6xyd4zcm9jxmw6n9ba9yk5qwmv7dvisynyv8x"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-shell-maker))
     (arguments
@@ -25914,17 +25914,17 @@
 (define-public emacs-disproject
   (package
     (name "emacs-disproject")
-    (version "20241118.452")
+    (version "20241120.654")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/aurtzy/disproject.git")
                (commit
-                 "a4884ddb722c58bad90ab896d9eb641104b08219")))
+                 "275b2c754dac5e38c1e55e3d136cc3de927729bb")))
         (sha256
           (base32
-            "0c3gx6l5m90l063q24w7whs4a3xb6dd4v1y203fwp1zghvkcbkdz"))))
+            "05jn56fz38yrgapfyi8qsbw8m7yzc2cj6z9z2a3nlvgw81lgnn66"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/aurtzy/disproject")
@@ -36700,21 +36700,21 @@
 (define-public emacs-evil-expat
   (package
     (name "emacs-evil-expat")
-    (version "20190521.714")
+    (version "20241120.1350")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/edkolev/evil-expat.git")
                (commit
-                 "f4fcd0aa3edc359adb5c986b5dd9188d220d84e2")))
+                 "23610598a9f1450f2deafc47726d5b7ce61e8695")))
         (sha256
           (base32
-            "0872ix682hkdz0k8pn6sb54rqkx00rz5fxpd5j2snx406yagpaxz"))))
+            "09yvysacsaka7pw2jkf0208igi10cclkdr2gk9zx4xc8khkd2213"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
     (home-page
-      "http://github.com/edkolev/evil-expat")
+      "https://github.com/edkolev/evil-expat")
     (synopsis "Evil ex commands")
     (description
       "Documentation at https://melpa.org/#/evil-expat")
@@ -36963,21 +36963,21 @@
 (define-public emacs-evil-lion
   (package
     (name "emacs-evil-lion")
-    (version "20220317.1030")
+    (version "20241120.1351")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/edkolev/evil-lion.git")
                (commit
-                 "4da660e124731ed65e7aaa6c067c30e876619429")))
+                 "5a0bca151466960e090d1803c4c5ded88875f90a")))
         (sha256
           (base32
-            "0akhw0a9qsk65lvanb57fqh7hf601xdzkbyi560ximfrsr7f94pi"))))
+            "1fmb5rdzc063rhrkm7945xabyzjm1j84nh9spg7caydbndkhhva3"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-evil))
-    (arguments '(#:files ("evil-lion.el")))
-    (home-page "http://github.com/edkolev/evil-lion")
+    (home-page
+      "https://github.com/edkolev/evil-lion")
     (synopsis
       "Evil align operator, port of vim-lion")
     (description
@@ -47404,17 +47404,17 @@
 (define-public emacs-futhark-mode
   (package
     (name "emacs-futhark-mode")
-    (version "20241119.1308")
+    (version "20241120.854")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/diku-dk/futhark-mode.git")
                (commit
-                 "5889280f7f2fb9f20bbee0539a68ab321cd4458a")))
+                 "a9cb4ee550d1ae14a7274d4e0c9bb6a2dff17c5a")))
         (sha256
           (base32
-            "02wdrvws6dkz70wvvlwqfj9mbxjqnnbcskap6nmns19nswwax1sf"))))
+            "0kl8xcg5lp26cx5r8ikprzw2py7d0s4gibfkn525fnx94fdqcswr"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-reformatter))
     (home-page
@@ -67881,17 +67881,17 @@
 (define-public emacs-julia-mode
   (package
     (name "emacs-julia-mode")
-    (version "20240926.1528")
+    (version "20241120.857")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/JuliaEditorSupport/julia-emacs.git")
                (commit
-                 "09897a8cbab48adaacdef6f852d7cebd3945a645")))
+                 "709c43410fb5da068d7d582cf3f545f7a7a68133")))
         (sha256
           (base32
-            "01lyz25i41320jlcpykvg2zdm4klwzhf1lcbqfn8shjdjm41svw0"))))
+            "0dmh3cd5mbsxz6fahvq2apzij53zdv2pvlxhqb3ix7ayb8l67a62"))))
     (build-system melpa-build-system)
     (home-page
       "https://github.com/JuliaEditorSupport/julia-emacs")
@@ -98988,17 +98988,17 @@
 (define-public emacs-phpactor
   (package
     (name "emacs-phpactor")
-    (version "20241015.1105")
+    (version "20241120.1122")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-php/phpactor.el.git")
                (commit
-                 "47c4311843dd523f0409016a1f2c93c9d13b213a")))
+                 "47fe67c450ef73dc27e009d765b67b2b3911633e")))
         (sha256
           (base32
-            "0ax1i0s2ckhif6q9ps3pdbdi5xlp4w0dyysy81hmjn5x6y987ksj"))))
+            "1vncx8sqywr9f6i393qj4s5jnxzz4kbxjzb4w3g4ilpbqxba0n6g"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-f
@@ -114581,17 +114581,17 @@
 (define-public emacs-slack
   (package
     (name "emacs-slack")
-    (version "20241119.2336")
+    (version "20241120.1329")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/emacs-slack/emacs-slack.git")
                (commit
-                 "113cb87e0a0a3daeae4f1c587fe7c1a0b66cdb61")))
+                 "549cbb8dc800288f00be3c97e3f34b3f42bf9a71")))
         (sha256
           (base32
-            "16anxdz2m3ka9bk4rpkg6z73sy8pkfi5hpldvazcfkg3ljzmb29m"))))
+            "118ncjkl6dm8qzdlya92c1j8732030k5yyaiwv7y568zm29hqn69"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-websocket
@@ -124908,17 +124908,17 @@
 (define-public emacs-tree-sitter-ess-r
   (package
     (name "emacs-tree-sitter-ess-r")
-    (version "20241120.649")
+    (version "20241120.757")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/ShuguangSun/tree-sitter-ess-r.git")
                (commit
-                 "895846900530017e91f95374a125c66b01d8925c")))
+                 "5e5dbd4d1cf6417530bae2f620405d304fac7772")))
         (sha256
           (base32
-            "187r9fbgzwi7f0xk744xpiyv0wzqjvbdg3mf1rw5z3n2nqlag594"))))
+            "12lami5z8ji19y79zpwvk1p15zzhnjawj1bp2i5gnr38r8h9k2qy"))))
     (build-system melpa-build-system)
     (propagated-inputs
       (list emacs-ess
@@ -127060,17 +127060,17 @@
 (define-public emacs-uniline
   (package
     (name "emacs-uniline")
-    (version "20241116.1149")
+    (version "20241120.1225")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
                (url "https://github.com/tbanel/uniline.git")
                (commit
-                 "ae33208b8a38b1b1dfd47bb1e2dbb385cffe44f5")))
+                 "f4593f9b31edb0e5a1bbda3e50e346d0f82f8d9e")))
         (sha256
           (base32
-            "0i4sqqsp462p6lpfkdqiwwfpibfc71z3jhik8bk6hwhj8n1rmr9b"))))
+            "1dc6lnh5ngxwab6zk10bddv985q352lp0qi8p2gdzh2bmr14k8sp"))))
     (build-system melpa-build-system)
     (propagated-inputs (list emacs-hydra))
     (home-page "https://github.com/tbanel/uniline")
